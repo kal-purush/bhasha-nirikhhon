@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "theme",
+        "styled",
+        "styled",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "size",
+        "styled",
+        "size",
+        "styled",
+        "p",
+        "p",
+        "styled",
+        "size"
+    ],
+    "literals": [
+        "'@styles/theme'",
+        "'styled-components'",
+        "color: ${props => props.theme.color.black};\n  background-color: ${props => props.theme.color.white};\n  font-family: ${props => props.theme.font.display};\n  height: 100%;\n\n  display: grid;\n  grid-template-areas: 'sidebar content content';\n  grid-template-columns: 400px 620px 1fr;\n  grid-gap: 40px;\n  position: relative;\n  margin: 0 40px;\n\n  @media ${size.large} {\n    display: block;\n    height: 100%;\n  }",
+        "@media ${size.large} {\n    margin-bottom: 70px;\n  }",
+        "p,\n  ul,\n  li,\n  a {\n    color: ${p => p.theme.color.darkergray};\n  }",
+        "grid-area: content;\n\n  h1:first-child,\n  h2:first-child,\n  h3:first-child,\n  p:first-child {\n    margin-top: 0px;\n  }\n\n  * {\n    max-width: 620px;\n  }\n\n  figure,\n  img {\n    max-width: 100%;\n    width: 100%;\n    height: auto;\n  }\n\n  figure {\n    margin-bottom: 40px;\n  }\n\n  @media ${size.large} {\n    display: block;\n    width: 100%;\n  }"
+    ],
+    "variables": [
+        "theme",
+        "Grid",
+        "Sidebar",
+        "Summary",
+        "Content"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

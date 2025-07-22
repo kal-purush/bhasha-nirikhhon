@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "A",
+        "B",
+        "Pi",
+        "A",
+        "B",
+        "Pi",
+        "O",
+        "O"
+    ],
+    "literals": [],
+    "variables": [
+        "A",
+        "B",
+        "Pi"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n        :param O: is the sequence (an array of) discrete (integer) observations, i.e. [0, 2,1 ,3, 4]\n        :return: ln P(O|λ) score for the given observation, ln: natural logarithm\n        \"\"\"",
+        "\"\"\"\n        :param O: is an array of discrete (integer) observations, i.e. [0, 2,1 ,3, 4]\n        :return: the tuple (Q*, ln P(Q*|O,λ)), Q* is the most probable state sequence for the given O\n        \"\"\""
+    ],
+    "functions": [
+        "forward_log",
+        "viterbi_log"
+    ],
+    "classes": [
+        "HMM"
+    ]
+}

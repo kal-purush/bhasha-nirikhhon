@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "CliFx",
+        "Attributes",
+        "Microsoft",
+        "Extensions",
+        "Logging",
+        "Meadow",
+        "CLI",
+        "Commands",
+        "DeviceManagement",
+        "Command",
+        "Description",
+        "BaseDeviceCommand",
+        "RuntimeEnableCommand",
+        "MeadowConnectionManager",
+        "connectionManager",
+        "ILoggerFactory",
+        "loggerFactory",
+        "connectionManager",
+        "loggerFactory",
+        "GetCurrentDevice",
+        "Logger",
+        "LogInformation",
+        "device",
+        "IsRuntimeEnabled",
+        "CancellationToken",
+        "device",
+        "NshDisable",
+        "CancellationToken",
+        "Logger",
+        "LogInformation"
+    ],
+    "literals": [
+        "\"nsh disable\"",
+        "\"Disables the Nuttx shell on the Meadow device\"",
+        "\"Disabling NSH...\"",
+        "\"NSH disabled\""
+    ],
+    "variables": [
+        "device",
+        "state"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "NshDisableCommand",
+        "ValueTask",
+        "ExecuteCommand"
+    ],
+    "classes": [
+        "NshDisableCommand"
+    ]
+}

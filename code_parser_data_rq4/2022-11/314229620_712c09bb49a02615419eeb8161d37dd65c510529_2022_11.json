@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "division",
+        "print_function"
+    ],
+    "literals": [
+        "r'''\noptions: {}\nattributes:\n    check_mode:\n      description: Can run in C(check_mode) and return changed status prediction without modifying target.\n    diff_mode:\n      description: Will return details on what has changed (or possibly needs changing in C(check_mode)), when in diff mode.\n'''",
+        "r'''\noptions: {}\nattributes:\n    check_mode:\n      support: full\n      details:\n        - This action does not modify state.\n    diff_mode:\n      support: N/A\n      details:\n        - This action does not modify state.\n'''",
+        "r'''\noptions: {}\nattributes:\n    action_group:\n      description: Use C(group/community.hrobot.robot) in C(module_defaults) to set defaults for this module.\n      support: full\n      membership:\n        - community.hrobot.robot\n'''",
+        "r'''\noptions: {}\nattributes:\n    become:\n      description: Is usable alongside C(become) keywords.\n    connection:\n      description: Uses the target's configured connection information to execute code on it.\n    delegation:\n      description: Can be used in conjunction with C(delegate_to) and related keywords.\n'''",
+        "r'''\noptions: {}\nattributes:\n    facts:\n      description: Action returns an C(ansible_facts) dictionary that will update existing host facts.\n'''",
+        "r'''\noptions: {}\nattributes:\n    check_mode:\n      support: full\n      details:\n        - This action does not modify state.\n    diff_mode:\n      support: N/A\n      details:\n        - This action does not modify state.\n    facts:\n      support: full\n'''",
+        "r'''\noptions: {}\nattributes:\n    safe_file_operations:\n      description: Uses Ansible's strict file operation functions to ensure proper permissions and avoid data corruption.\n'''",
+        "r'''\noptions: {}\nattributes:\n    action:\n      description: Indicates this has a corresponding action plugin so some parts of the options can be executed on the controller.\n    async:\n      description: Supports being used with the C(async) keyword.\n'''"
+    ],
+    "variables": [
+        "__metaclass__",
+        "DOCUMENTATION",
+        "INFO_MODULE",
+        "ACTIONGROUP_ROBOT",
+        "CONN",
+        "FACTS",
+        "FACTS_MODULE",
+        "FILES",
+        "FLOW"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "Copyright (c) Ansible Project",
+        "GNU General Public License v3.0+ (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)",
+        "SPDX-License-Identifier: GPL-3.0-or-later",
+        "Standard documentation fragment",
+        "Should be used together with the standard fragment",
+        "Should be used together with the standard fragment and the FACTS fragment"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "ModuleDocFragment"
+    ]
+}

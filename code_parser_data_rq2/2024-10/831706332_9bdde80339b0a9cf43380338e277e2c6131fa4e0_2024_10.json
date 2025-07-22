@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "DurableObject",
+        "DestinationEvent",
+        "getConfig",
+        "GatewayConfig",
+        "handleEventFanout",
+        "Bindings",
+        "DurableObject",
+        "state",
+        "env",
+        "state",
+        "env",
+        "config",
+        "currentAlarm",
+        "config",
+        "config",
+        "events",
+        "handleEventFanout",
+        "config",
+        "eventsToSend",
+        "request",
+        "request",
+        "events",
+        "getConfig",
+        "config",
+        "Response",
+        "response",
+        "config",
+        "Response",
+        "getConfig",
+        "config"
+    ],
+    "literals": [
+        "'cloudflare:workers'",
+        "'./schema/event'",
+        "'./config'",
+        "'./writer'",
+        "'./env'"
+    ],
+    "variables": [
+        "currentAlarm",
+        "eventsToSend",
+        "events",
+        "events",
+        "config",
+        "response",
+        "config"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "resetAlarm",
+        "checkAndSetAlarm",
+        "flush",
+        "fetch",
+        "alarm"
+    ],
+    "classes": [
+        "Batcher"
+    ]
+}

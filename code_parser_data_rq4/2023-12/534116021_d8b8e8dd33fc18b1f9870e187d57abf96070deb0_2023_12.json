@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "functools",
+        "typing",
+        "Callable",
+        "Optional",
+        "torch",
+        "fwd",
+        "Optional",
+        "Callable",
+        "cast_inputs",
+        "Optional",
+        "torch",
+        "dtype",
+        "torch",
+        "float32",
+        "fwd",
+        "functools",
+        "partial",
+        "fwd_default_precision",
+        "cast_inputs",
+        "cast_inputs",
+        "torch",
+        "cuda",
+        "amp",
+        "custom_fwd",
+        "fwd",
+        "cast_inputs",
+        "cast_inputs",
+        "functools",
+        "wraps",
+        "fwd",
+        "args",
+        "force_allow_autocast",
+        "kwargs",
+        "force_allow_autocast",
+        "fwd",
+        "args",
+        "kwargs",
+        "wrapped_fwd",
+        "args",
+        "kwargs",
+        "wrapper"
+    ],
+    "literals": [],
+    "variables": [
+        "wrapped_fwd"
+    ],
+    "comments": [
+        "NOTE: torch.cuda.amp.custom_fwd is written with the assumption of CUDA",
+        "autocast. There does not seem to be a generic equivalent.",
+        "Detecting CUDA AMP specifically also seems difficult or impossible, so we",
+        "cannot even reliably warn about the issue. For now, we just document the",
+        "problem."
+    ],
+    "docstrings": [
+        "\"\"\"This module implements utilities and abstractions for use with\n`torch.autocast`, i.e. Automatic Mixed Precision.\n\nAuthors\n * Sylvain de Langen 2023\n\"\"\"",
+        "\"\"\"Decorator for forward methods which, by default, *disables* autocast\n    and casts any floating-point tensor parameters into the specified dtype\n    (much like `torch.cuda.amp.custom_fwd`).\n\n    The *wrapped forward* will gain an additional `force_allow_autocast` keyword\n    parameter.\n    When set to `True`, the function will ignore `cast_inputs` and will not\n    disable autocast, as if this decorator was not specified.\n    (Thus, modules can specify a default recommended precision, and users can\n    override that behavior when desired.)\n\n    Note that as of PyTorch 2.1.1, this will **only** affect **CUDA** AMP.\n    Non-CUDA AMP will be unaffected and no input tensors will be cast!\n    This usecase may be supported by this function in the future.\n\n    When autocast is *not* active, this decorator does not change any behavior.\n\n    Arguments\n    ---------\n    fwd: Optional[Callable]\n        The function to wrap. If omitted, returns a partial application of the\n        decorator, e.g. allowing\n        `new_decorator = fwd_default_precision(cast_inputs=torch.float32)`.\n\n        Reminder: If you are decorating a function directly, this argument is\n        already specified implicitly.\n\n    cast_inputs: Optional[torch.dtype]\n        If not `None` (the default being `torch.float32`), then any\n        floating-point inputs to the wrapped function will be cast to the\n        specified type.\n\n        Note: When autocasting is enabled, output tensors of autocast-compatible\n        operations may be of the autocast data type.\n        Disabling autocast *without* casting inputs will not change this fact,\n        so lower precision operations can happen even inside of an\n        autocast-disabled region, which this argument helps avoid if desired.\n    \"\"\"",
+        "\"\"\"Wrapped forward function from fwd_default_precision.\n\n        Arguments\n        ---------\n        force_allow_autocast: bool\n            When `True`, the wrapped function will be executed directly with no\n            change to the autocast context and no input casting.\"\"\""
+    ],
+    "functions": [
+        "fwd_default_precision",
+        "wrapper"
+    ],
+    "classes": []
+}

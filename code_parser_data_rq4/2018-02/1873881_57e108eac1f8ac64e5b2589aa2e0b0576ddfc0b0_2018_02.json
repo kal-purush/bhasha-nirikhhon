@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "org",
+        "nutz",
+        "json",
+        "java",
+        "io",
+        "java",
+        "lang",
+        "reflect",
+        "Type",
+        "org",
+        "nutz",
+        "lang",
+        "Mirror",
+        "JsonTypeHandler",
+        "mirror",
+        "obj",
+        "jf",
+        "mirror",
+        "currentObj",
+        "r",
+        "jf",
+        "data"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* 是否支持 fromJson操作",
+        "* 是否支持当前对象的toJson操作\n     * @param mirror obj对应的Mirrir\n     * @param obj 正在等着被转换的对象\n     * @param jf JsonFormat实例\n     * @return 若支持,接下来会调用toJson",
+        "* 将对象变成json字符串\n     * @param mirror currentObj对应的Mirrir\n     * @param currentObj 当前正在转换的对象\n     * @param r Json渲染器\n     * @param jf JsonFormat实例\n     * @throws IOException",
+        "* 是否需要进行循环依赖检测"
+    ],
+    "functions": [
+        "supportFromJson",
+        "supportToJson",
+        "toJson",
+        "fromJson",
+        "shallCheckMemo"
+    ],
+    "classes": []
+}

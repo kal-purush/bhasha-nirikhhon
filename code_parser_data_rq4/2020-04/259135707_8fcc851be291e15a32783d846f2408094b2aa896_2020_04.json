@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "AWS",
+        "exports",
+        "getReservations",
+        "_",
+        "reservations",
+        "reservation",
+        "reservation",
+        "allInstances",
+        "selectInstanceToTerminate",
+        "allInstances",
+        "terminateInstance",
+        "instanceId",
+        "ec2",
+        "result",
+        "result",
+        "instances",
+        "_",
+        "instances",
+        "instanceToTerminate",
+        "instanceId",
+        "instanceId",
+        "ec2",
+        "instanceId"
+    ],
+    "literals": [
+        "'aws-sdk'",
+        "'lodash'",
+        "'us-east-1'",
+        "Processing event: ${event}",
+        "'No instances to terminate !'",
+        "'instance-state-name'",
+        "'running'",
+        "'Reservations: '",
+        "'Terminating instance '",
+        "'Instance Was Terminated'"
+    ],
+    "variables": [
+        "AWS",
+        "_",
+        "ec2",
+        "reservations",
+        "allInstances",
+        "instanceId",
+        "result",
+        "instanceToTerminate"
+    ],
+    "comments": [
+        "a reservation contains a list of instances"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getReservations",
+        "selectInstanceToTerminate",
+        "terminateInstance"
+    ],
+    "classes": []
+}

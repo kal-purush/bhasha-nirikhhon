@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "'''    \nif dorks:\n        headers = {\n            'host': 'google.com',\n            'User-Agent': random_UserAgent(),\n            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',\n            'Accept-Language': 'en-US,en;q=0.5',\n            'Connection': 'keep-alive', }\n        from modules.dorksEngine import Dorks as D\n        D.searchengine(dorks, headers, output_dir, numberpage)\n    if dorkslist == 'all':\n        from modules.dorksEngine import DorkList as DL\n        DL.dorkslist()\n    if dorkslist == 'wordpress':\n        from modules.dorksEngine import DorkList as DL\n        DL.wp_dorkTable()\n    if dorkslist == 'joomla':\n        from modules.dorksEngine import DorkList as DL\n        DL.joo_dorkTable()\n    if dorkslist == 'prestashop':\n        from modules.dorksEngine import DorkList as DL\n        DL.ps_dorkTable()\n    if dorkslist == 'lokomedia':\n        from modules.dorksEngine import DorkList as DL\n        DL.loko_dorkTable()\n    if dorkslist == 'drupal':\n        from modules.dorksEngine import DorkList as DL\n        DL.dru_dorkTable()\n    if cli:\n        from cli import Cli\n        cli = Cli()\n        cli.send_commands(\"\")\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

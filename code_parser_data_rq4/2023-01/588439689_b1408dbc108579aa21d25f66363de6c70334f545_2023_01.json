@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "chat",
+        "config",
+        "com",
+        "example",
+        "chat",
+        "handler",
+        "ChatHandler",
+        "lombok",
+        "RequiredArgsConstructor",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Configuration",
+        "org",
+        "springframework",
+        "web",
+        "socket",
+        "config",
+        "annotation",
+        "EnableWebSocket",
+        "org",
+        "springframework",
+        "web",
+        "socket",
+        "config",
+        "annotation",
+        "WebSocketConfigurer",
+        "org",
+        "springframework",
+        "web",
+        "socket",
+        "config",
+        "annotation",
+        "WebSocketHandlerRegistry",
+        "Configuration",
+        "RequiredArgsConstructor",
+        "EnableWebSocket",
+        "chatHandler",
+        "Override",
+        "registry",
+        "registry",
+        "addHandler",
+        "chatHandler",
+        "setAllowedOrigins"
+    ],
+    "literals": [
+        "\"ws/chat\"",
+        "\"*\""
+    ],
+    "variables": [
+        "chatHandler"
+    ],
+    "comments": [
+        "클라이언트가 ws://localhost:8080/chat으로 접속 시 커넥션이 연결되고, 메세지 통신이 가능해짐."
+    ],
+    "docstrings": [],
+    "functions": [
+        "registerWebSocketHandlers"
+    ],
+    "classes": [
+        "WebSocketConfig"
+    ]
+}

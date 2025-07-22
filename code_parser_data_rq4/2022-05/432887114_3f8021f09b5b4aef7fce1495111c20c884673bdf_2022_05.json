@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql"
+    ],
+    "literals": [
+        "'@apollo/client'",
+        "mutation createDataSource($DSInput: DSInput) {\n    createDataSource(datasource: $DSInput) {\n      dsID\n      dsName\n      dsType\n      dsURL\n      accessType\n      authType\n      basicAuthUsername\n      basicAuthPassword\n      scrapeInterval\n      queryTimeout\n      httpMethod\n      projectID\n      healthStatus\n    }\n  }",
+        "mutation updateDataSource($DSInput: DSInput!) {\n    updateDataSource(datasource: $DSInput) {\n      dsID\n      dsName\n      dsType\n      dsURL\n      accessType\n      authType\n      basicAuthUsername\n      basicAuthPassword\n      scrapeInterval\n      queryTimeout\n      httpMethod\n      projectID\n    }\n  }",
+        "mutation deleteDataSource(\n    $projectID: String!\n    $deleteDSInput: deleteDSInput!\n  ) {\n    deleteDataSource(projectID: $projectID, input: $deleteDSInput)\n  }",
+        "mutation createDashBoard($dashboard: CreateDBInput!) {\n    createDashBoard(dashboard: $dashboard) {\n      dbID\n    }\n  }",
+        "mutation updateDashboard(\n    $projectID: String!\n    $dashboard: UpdateDBInput!\n    $chaosQueryUpdate: Boolean!\n  ) {\n    updateDashboard(\n      projectID: $projectID\n      dashboard: $dashboard\n      chaosQueryUpdate: $chaosQueryUpdate\n    )\n  }",
+        "mutation deleteDashboard($projectID: String!, $dbID: String) {\n    deleteDashboard(projectID: $projectID, dbID: $dbID)\n  }",
+        "mutation updatePanel($panelInput: [panel]) {\n    updatePanel(panelInput: $panelInput)\n  }"
+    ],
+    "variables": [
+        "CREATE_DATASOURCE",
+        "UPDATE_DATASOURCE",
+        "DELETE_DATASOURCE",
+        "CREATE_DASHBOARD",
+        "UPDATE_DASHBOARD",
+        "DELETE_DASHBOARD",
+        "UPDATE_PANEL"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

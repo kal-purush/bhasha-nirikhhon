@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "z",
+        "Z_PUBLIC_CONFIG",
+        "z",
+        "Z_PUBLIC_CONFIG",
+        "v",
+        "publicConfig",
+        "publicConfig",
+        "v",
+        "publicConfig",
+        "globalThis",
+        "__publicConfig",
+        "__publicConfig",
+        "publicConfig"
+    ],
+    "literals": [
+        "\"zod\"",
+        "\"./config\"",
+        "\"__publicConfig\"",
+        "globalThis.${__publicConfig} = ${JSON.stringify(publicConfig)}"
+    ],
+    "variables": [
+        "publicConfig",
+        "__publicConfig"
+    ],
+    "comments": [
+        "pass to client via globa script"
+    ],
+    "docstrings": [],
+    "functions": [
+        "initializePublicConfigServer",
+        "initializePublicConfigClient",
+        "injectPublicConfigScript"
+    ],
+    "classes": []
+}

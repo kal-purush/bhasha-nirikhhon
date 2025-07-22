@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "TextDocumentIdentifier",
+        "RequestType",
+        "TextDocumentRegistrationOptions",
+        "StaticRegistrationOptions",
+        "FoldingRangeType",
+        "FoldingRangesRequest",
+        "RequestType"
+    ],
+    "literals": [
+        "'vscode-languageserver-types'",
+        "'vscode-languageserver-protocol'",
+        "'comment'",
+        "'imports'",
+        "'region'",
+        "string",
+        "'textDocument/foldingRanges'"
+    ],
+    "variables": [],
+    "comments": [
+        "---------------------------------------------------------------------------------------------\n *  Copyright (c) Microsoft Corporation. All rights reserved.\n *  Licensed under the MIT License. See License.txt in the project root for license information.\n *--------------------------------------------------------------------------------------------",
+        "---- capabilities"
+    ],
+    "docstrings": [
+        "* The text document client capabilities",
+        "* Capabilities specific to the foldingProvider",
+        "* Whether implementation supports dynamic registration. If this is set to `true`\n\t\t\t * the client supports the new `(FoldingProviderOptions & TextDocumentRegistrationOptions & StaticRegistrationOptions)`\n\t\t\t * return value for the corresponding server capability as well.",
+        "* The server provides folding provider support.",
+        "* The folding ranges.",
+        "* Folding range for a comment",
+        "* Folding range for a imports or includes",
+        "* Folding range for a region (e.g. `#region`)",
+        "* Represents a folding range.",
+        "* The start line number of the folding range.",
+        "* The start column of the folding range. If not set, this defaults to the length of the line.",
+        "* The end line number. The last line will be hidden.",
+        "* The start column of the folding range. If not set, this defaults to 0.",
+        "* The type of folding range.",
+        "* Parameters for a [FoldingRangesRequest](#FoldingRangesRequest).",
+        "* The text document.",
+        "* The maximum number of ranges to provide",
+        "* A request to provide folding ranges in a document. The request's\n * parameter is of type [FoldingRangeRequestParam](#FoldingRangeRequestParam), the\n * response is of type [FoldingRangeList](#FoldingRangeList) or a Thenable\n * that resolves to such."
+    ],
+    "functions": [],
+    "classes": []
+}

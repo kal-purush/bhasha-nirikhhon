@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "pandas",
+        "pd",
+        "pathlib",
+        "Path",
+        "db_config",
+        "get_engine",
+        "get_engine",
+        "Path",
+        "data_path",
+        "rglob",
+        "len",
+        "csv_files",
+        "csv_file",
+        "csv_files",
+        "csv_file",
+        "name",
+        "chunk",
+        "pd",
+        "read_csv",
+        "csv_file",
+        "chunksize",
+        "chunk",
+        "to_sql",
+        "engine",
+        "if_exists",
+        "index",
+        "csv_file",
+        "name",
+        "e",
+        "csv_file",
+        "name",
+        "e"
+    ],
+    "literals": [
+        "\"D:/2023\"",
+        "\"*.csv\"",
+        "f\"📄 Found {len(csv_files)} CSV files.\"",
+        "f\"\\n📥 Uploading {csv_file.name}\"",
+        "\"five_minutes\"",
+        "\"append\"",
+        "f\"✅ Done: {csv_file.name}\"",
+        "f\"❌ Error with {csv_file.name}: {e}\""
+    ],
+    "variables": [
+        "engine",
+        "data_path",
+        "csv_files"
+    ],
+    "comments": [
+        "Step 1: Connect to the database",
+        "Step 2: Choose which folder to load from",
+        "or D:/2022, etc.",
+        "Step 3: Find all CSV files",
+        "Step 4: Loop through and upload in chunks",
+        "👇 change this to your actual table name (e.g. five_minutes)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

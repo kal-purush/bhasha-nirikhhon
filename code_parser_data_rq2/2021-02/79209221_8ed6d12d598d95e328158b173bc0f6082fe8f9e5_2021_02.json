@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "FC",
+        "IPointProps",
+        "TAxisLabelFormat",
+        "IGrid",
+        "IAxes",
+        "IChartPoint",
+        "IChartPointValue",
+        "ScatterPlot"
+    ],
+    "literals": [
+        "'react'",
+        "'./components/Points'",
+        "'./components/YAxis'",
+        "'./Histogram'",
+        "'./legacy/types'",
+        "'./LineChart'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "ScatterPlot"
+    ],
+    "comments": [
+        "@description Custom component to override the default <circle /> used to plot points"
+    ],
+    "docstrings": [
+        "* @description if true then adds a 0 to the data domain. Useful if you don't want your lowest value to appear on top of the x axis"
+    ],
+    "functions": [],
+    "classes": []
+}

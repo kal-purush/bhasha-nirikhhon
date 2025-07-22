@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "SimaticNodes",
+        "Opc",
+        "UaFx",
+        "Opc",
+        "UaFx",
+        "Server",
+        "args",
+        "OpcNodeId",
+        "Factory",
+        "SimaticNodeIdFactory",
+        "OpcFolderNode",
+        "OpcDataVariableNode",
+        "value",
+        "MaxValue",
+        "OpcDataVariableNode",
+        "value",
+        "MaxValue",
+        "OpcDataVariableNode",
+        "value",
+        "MaxValue",
+        "OpcFolderNode",
+        "OpcObjectNode",
+        "OpcDataVariableNode",
+        "value",
+        "OpcDataVariableNode",
+        "value",
+        "OpcServer",
+        "db1",
+        "db2",
+        "server",
+        "Start",
+        "WriteLine",
+        "ReadKey"
+    ],
+    "literals": [
+        "\"DataBlock1\"",
+        "\"MaxByte\"",
+        "\"MaxInt\"",
+        "\"MaxDInt\"",
+        "\"DataBlock2\"",
+        "\"MyStruct\"",
+        "\"FieldA\"",
+        "\"FieldB\"",
+        "\"opc.tcp://localhost:4840/\"",
+        "\"Server started - press any key to exit.\""
+    ],
+    "variables": [
+        "db1",
+        "db2",
+        "server"
+    ],
+    "comments": [
+        "Copyright (c) Traeger Industry Components GmbH. All Rights Reserved.",
+        "This use case demonstrates how to define a custom factory for node identifiers to",
+        "define / use node identifiers using the \"SIEMENS SIMATIC\" style of dot separated and quoted",
+        "node names to construct the node identifier of a node.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "Main"
+    ],
+    "classes": [
+        "Program"
+    ]
+}

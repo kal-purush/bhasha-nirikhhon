@@ -1,0 +1,85 @@
+{
+    "identifiers": [
+        "com",
+        "vistatec",
+        "ocelot",
+        "plugins",
+        "java",
+        "awt",
+        "ItemListener",
+        "javax",
+        "swing",
+        "JCheckBoxMenuItem",
+        "javax",
+        "swing",
+        "JMenu",
+        "serialVersionUID",
+        "mnuEEntityService",
+        "listener",
+        "init",
+        "listener",
+        "listener",
+        "mnuEEntityService",
+        "FremePlugin",
+        "EENTITY_SERVICE",
+        "mnuEEntityService",
+        "setSelected",
+        "mnuEEntityService",
+        "addItemListener",
+        "listener",
+        "add",
+        "mnuEEntityService",
+        "serialVersionUID",
+        "serviceType",
+        "text",
+        "serviceType",
+        "text",
+        "serviceType",
+        "serviceType",
+        "serviceType"
+    ],
+    "literals": [
+        "\"Freme e-Services\"",
+        "\"e-Entity\""
+    ],
+    "variables": [
+        "mnuEEntityService",
+        "serviceType"
+    ],
+    "comments": [
+        "private FremeEServiceMenuItem mnuELinkService;",
+        "",
+        "private FremeEServiceMenuItem mnuETerminologyService;",
+        "",
+        "private FremeEServiceMenuItem mnuETranslationService;",
+        "mnuELinkService = new",
+        "FremeEServiceMenuItem(FremePlugin.ELINK_SERVICE);",
+        "mnuELinkService.setSelected(true);",
+        "mnuELinkService.addItemListener(listener);",
+        "add(mnuELinkService);",
+        "mnuETerminologyService = new",
+        "FremeEServiceMenuItem(FremePlugin.ETERMINOLOGY);",
+        "mnuETerminologyService.setSelected(true);",
+        "mnuETerminologyService.addItemListener(listener);",
+        "add(mnuETerminologyService);",
+        "mnuETranslationService = new",
+        "FremeEServiceMenuItem(FremePlugin.ETRANSLATION);",
+        "mnuETranslationService.setSelected(true);",
+        "mnuETranslationService.addItemListener(listener);",
+        "add(mnuETranslationService);"
+    ],
+    "docstrings": [
+        "*",
+        "*"
+    ],
+    "functions": [
+        "FremeMenu",
+        "init",
+        "FremeEServiceMenuItem",
+        "getServiceType"
+    ],
+    "classes": [
+        "FremeMenu",
+        "FremeEServiceMenuItem"
+    ]
+}

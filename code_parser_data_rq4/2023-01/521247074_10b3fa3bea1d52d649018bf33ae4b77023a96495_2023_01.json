@@ -1,0 +1,19 @@
+{
+    "identifiers": [
+        "SlackMessage"
+    ],
+    "literals": [
+        "'./SlackMessage'",
+        "'low'",
+        "'avg'",
+        "'high'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Checks if this handler can handle the event\n   * (i.e. handle can be called with this event)\n   * @param event\n   * @returns true if can handle the event false otherwise",
+        "* Handle the event and return an HandledEvent containing\n   * the slack message and priority, if the event is excluded\n   * return false.\n   * @param event"
+    ],
+    "functions": [],
+    "classes": []
+}

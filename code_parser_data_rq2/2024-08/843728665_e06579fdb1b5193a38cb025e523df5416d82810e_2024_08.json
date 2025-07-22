@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "envs",
+        "Logger",
+        "ValidationPipe",
+        "NestFactory",
+        "AppModule",
+        "Logger",
+        "NestFactory",
+        "AppModule",
+        "app",
+        "ValidationPipe",
+        "app",
+        "envs",
+        "logger",
+        "envs",
+        "bootstrap"
+    ],
+    "literals": [
+        "'./config/envs'",
+        "'@nestjs/common'",
+        "'@nestjs/core'",
+        "'./app.module'",
+        "'Payments-MS'",
+        "Payments Microservice running on port: ${envs.port}"
+    ],
+    "variables": [
+        "logger",
+        "app"
+    ],
+    "comments": [
+        "import * as morgan from 'morgan';",
+        "app.use(morgan('dev'));"
+    ],
+    "docstrings": [],
+    "functions": [
+        "bootstrap"
+    ],
+    "classes": []
+}

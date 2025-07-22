@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "vscode",
+        "vscode",
+        "folder",
+        "vscode",
+        "token",
+        "vscode",
+        "vscode",
+        "vscode",
+        "initialConfigurations"
+    ],
+    "literals": [
+        "'use strict'",
+        "'vscode'",
+        "'0.1.0'",
+        "'type'",
+        "'prophet'",
+        "'request'",
+        "'launch'",
+        "'name'",
+        "'Attach to Sandbox provider'",
+        "'hostname'",
+        "'*.demandware.net'",
+        "'username'",
+        "'<username>'",
+        "'password'",
+        "'<password>'",
+        "'codeversion'",
+        "'version1'",
+        "'cartridgeroot'",
+        "'auto'",
+        "'workspaceroot'",
+        "'${workspaceRoot}'"
+    ],
+    "variables": [
+        "initialConfigurations"
+    ],
+    "comments": [
+        "import { join, isAbsolute, dirname } from 'path';",
+        "import * as fs from 'fs';",
+        "TODO: add fallback for lookup dw.json config",
+        "/**",
+        "resolveDebugConfiguration(folder: vscode.WorkspaceFolder | undefined, config: vscode.DebugConfiguration, token?: vscode.CancellationToken): vscode.ProviderResult<vscode.DebugConfiguration> {",
+        "}"
+    ],
+    "docstrings": [
+        "* Returns an initial debug configuration based on contextual information, e.g. package.json or folder.",
+        "* Try to add all missing attributes to the debug configuration being launched.",
+        "*/"
+    ],
+    "functions": [
+        "provideDebugConfigurations"
+    ],
+    "classes": [
+        "ProphetConfigurationProvider"
+    ]
+}

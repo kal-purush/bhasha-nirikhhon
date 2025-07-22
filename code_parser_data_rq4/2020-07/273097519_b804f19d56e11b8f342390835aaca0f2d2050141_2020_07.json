@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "testdir",
+        "testdir",
+        "makepyfile",
+        "test_file",
+        "testdir",
+        "runpytest_subprocess",
+        "timeout",
+        "timeout",
+        "result",
+        "assert_outcomes",
+        "passed"
+    ],
+    "literals": [
+        "r\"\"\"\n    import qtrio\n    from qtpy import QtCore\n    from qtpy import QtWidgets\n    import trio\n    import trio.testing\n\n    import qtrio.examples.buildingrespect\n\n\n    class SignaledButton(QtWidgets.QPushButton):\n        shown = QtCore.Signal()\n\n        def showEvent(self, event):\n            super().showEvent(event)\n            if event.isAccepted():\n                self.shown.emit()\n\n\n    @qtrio.host\n    async def test_example(request, qtbot):\n        button = SignaledButton()\n        qtbot.addWidget(button)\n\n        async def user():\n            async with emissions.channel:\n                await emissions.channel.receive()\n\n            button.click()\n\n\n        async with trio.open_nursery() as nursery:\n            async with qtrio.open_emissions_channel(\n                signals=[button.shown],\n            ) as emissions:\n                nursery.start_soon(user)\n\n                await qtrio.examples.buildingrespect.main(button=button)\n    \"\"\"",
+        "\"--capture=no\""
+    ],
+    "variables": [
+        "timeout",
+        "test_file",
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "test_main"
+    ],
+    "classes": []
+}

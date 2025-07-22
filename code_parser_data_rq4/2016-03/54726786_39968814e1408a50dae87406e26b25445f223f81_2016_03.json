@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "Component",
+        "Meal",
+        "Component"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./meal.model'",
+        "'edit-meal'",
+        "'meal'",
+        "<div class=\"container\">\n      <h3>Edit your meal</h3>\n      <h4>Name: <input [(ngModel)]=\"meal.name\"></h4><br>\n      <h4>Details: <input [(ngModel)]=\"meal.details\"></h4><br>\n      <h4>Calories: <input [(ngModel)]=\"meal.calories\"></h4><br>\n      <h6>Were those fries really only 100 calories?</h6>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "EditMealComponent"
+    ]
+}

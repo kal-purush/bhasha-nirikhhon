@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "VndbSharp",
+        "Interfaces",
+        "VndbSharp",
+        "Models",
+        "IRequestOptions"
+    ],
+    "literals": [],
+    "variables": [
+        "Page",
+        "Count",
+        "Sort",
+        "Reverse"
+    ],
+    "comments": [
+        "Default RequestOptions For use when sending commands to the API",
+        "</summary>",
+        "What Page to get",
+        "</summary>",
+        "How many entries to get. Most commands are limited at 25, except for votelist/vnlist/wishlist/ulist, which returns at most 100 results.",
+        "</summary>",
+        "The field to order the results by",
+        "</summary>",
+        "Reverses the order of the entries",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "RequestOptions"
+    ]
+}

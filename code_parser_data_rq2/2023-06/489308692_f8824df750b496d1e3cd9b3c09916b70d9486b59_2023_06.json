@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "GitUI",
+        "UserControls",
+        "RevisionGrid",
+        "Graph",
+        "LaneSharing",
+        "ExclusiveOrPrimary",
+        "Entire",
+        "DifferentStart",
+        "DifferentEnd"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "The graph segment uses the lane exclusively or is the initial user of the lane.",
+        "</summary>",
+        "The graph segment entirely re-uses a lane with another one because they have the same parent.",
+        "</summary>",
+        "The graph segment partially re-uses a lane with another one because they have the same parent.",
+        "</summary>",
+        "The graph segment partially re-uses a lane with another one because they have the same child.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": []
+}

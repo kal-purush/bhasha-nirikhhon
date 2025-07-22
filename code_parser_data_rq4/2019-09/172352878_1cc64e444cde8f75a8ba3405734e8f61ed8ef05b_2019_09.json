@@ -1,0 +1,15 @@
+{
+    "identifiers": [
+        "css",
+        "css"
+    ],
+    "literals": [
+        "'@emotion/core'",
+        ":root {\n    --base-text: #2e3440;\n    --base-background: #eceff4;\n    --logo-fill-front: #4c566a;\n    --logo-fill-back: #2e3440;\n    --input-background: #d8dee9;\n    --input-border: #eceff4;\n    --input-shadow: #e5e9f0;\n    --input-placeholder-text: #4c566a;\n    --input-error-text: #bf616a;\n    --input-error-border: rgba(191, 97, 106, 0.85);\n    --input-error-shadow: rgba(191, 97, 106, 0.25);\n    --button-background: #d8dee9;\n    --button-shadow: #e5e9f0;\n    --button-disable-text: #4c566a;\n    --image-border: #d8dee9;\n    --scrollbar-background: #e5e9f0;\n    --scrollbar-thumb: #d8dee9;\n  }\n  :root[theme='dark'] {\n    --base-text: #eceff4;\n    --base-background: #2e3440;\n    --logo-fill-front: #d8dee9;\n    --logo-fill-back: #eceff4;\n    --input-background: #3b4252;\n    --input-border: #4c566a;\n    --input-shadow: #434c5e;\n    --input-placeholder-text: #4c566a;\n    --input-error-text: #bf616a;\n    --input-error-border: rgba(191, 97, 106, 0.85);\n    --input-error-shadow: rgba(191, 97, 106, 0.25);\n    --button-background: #3b4252;\n    --button-shadow: #434c5e;\n    --button-disable-text: #4c566a;\n    --image-border: #434c5e;\n    --scrollbar-background: #3b4252;\n    --scrollbar-thumb: #4c566a;\n  }\n  *,\n  *::before,\n  *::after {\n    box-sizing: border-box;\n  }\n  html {\n    scroll-behavior: smooth;\n    text-rendering: optimizeLegibility;\n  }\n  body {\n    margin: 0;\n    overflow-y: scroll;\n    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', '游ゴシック Medium', YuGothic,\n      'Hiragino Kaku Gothic ProN', メイリオ, Meiryo, sans-serif;\n    color: var(--base-text);\n    user-select: none;\n    background-color: var(--base-background);\n    -webkit-overflow-scrolling: touch;\n    &::-webkit-scrollbar {\n      width: 8px;\n    }\n    &::-webkit-scrollbar-track {\n      background-color: var(--scrollbar-background);\n    }\n    &::-webkit-scrollbar-thumb {\n      background-color: var(--scrollbar-thumb);\n    }\n  }\n  h1,\n  h2,\n  p,\n  ul {\n    margin: 0;\n  }\n  a,\n  button,\n  label,\n  textarea {\n    -ms-touch-action: manipulation;\n    touch-action: manipulation;\n  }\n  input,\n  textarea {\n    -webkit-appearance: none;\n    -moz-appearance: none;\n  }\n  button,\n  input,\n  textarea {\n    font-family: inherit;\n    font-size: 100%;\n  }"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

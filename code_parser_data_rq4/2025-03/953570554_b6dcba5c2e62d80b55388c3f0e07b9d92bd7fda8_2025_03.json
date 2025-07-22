@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "WebSocket",
+        "socket",
+        "socket",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "error",
+        "error",
+        "socket",
+        "error",
+        "error",
+        "socket",
+        "setTimeout",
+        "location"
+    ],
+    "literals": [
+        "\"ws://192.168.1.107/ws\"",
+        "\"open\"",
+        "\"✅ Connected to WebSocket Server\"",
+        "\"message\"",
+        "\"room_temp\"",
+        "${data.room_temp}°C",
+        "\"humidity\"",
+        "${data.humidity}%",
+        "\"heart_rate\"",
+        "${data.heart_rate} BPM",
+        "\"blood_oxygen\"",
+        "${data.blood_oxygen}%",
+        "\"body_temp\"",
+        "${data.body_temp}°C",
+        "\"📥 Received Data:\"",
+        "\"❌ Error parsing JSON:\"",
+        "\"error\"",
+        "\"❌ WebSocket Error:\"",
+        "\"close\"",
+        "\"🔌 WebSocket Disconnected. Reconnecting...\""
+    ],
+    "variables": [
+        "socket",
+        "data"
+    ],
+    "comments": [
+        "Replace with ESP8266 IP",
+        "Auto-reconnect after 3 sec"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

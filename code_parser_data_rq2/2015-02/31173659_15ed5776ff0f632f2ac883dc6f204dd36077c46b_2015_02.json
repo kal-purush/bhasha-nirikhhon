@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Akka",
+        "Actor",
+        "WinTail",
+        "UntypedActor",
+        "ActorRef",
+        "consoleWriterActor",
+        "_consoleWriterActor",
+        "consoleWriterActor",
+        "message",
+        "ReadLine",
+        "IsNullOrEmpty",
+        "read",
+        "read",
+        "ToLowerInvariant",
+        "Equals",
+        "ExitCommand",
+        "Context",
+        "Shutdown"
+    ],
+    "literals": [
+        "\"exit\""
+    ],
+    "variables": [
+        "ExitCommand",
+        "ActorRef",
+        "_consoleWriterActor",
+        "read"
+    ],
+    "comments": [
+        "Actor responsible for reading FROM the console.",
+        "Also responsible for calling <see cref=\"ActorSystem.Shutdown\"/>.",
+        "</summary>",
+        "shut down the system (acquire handle to system via",
+        "this actors context)",
+        "send input to the console writer to process and print",
+        "YOU NEED TO FILL IN HERE",
+        "continue reading messages from the console",
+        "YOU NEED TO FILL IN HERE"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "ConsoleReaderActor",
+        "OnReceive"
+    ],
+    "classes": [
+        "ConsoleReaderActor"
+    ]
+}

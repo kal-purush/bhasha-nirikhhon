@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "Text",
+        "Web",
+        "Web",
+        "Http",
+        "Description",
+        "OSLC4Net",
+        "StockQuoteSample",
+        "Areas",
+        "HelpPage",
+        "ApiDescription",
+        "description",
+        "description",
+        "RelativePath",
+        "path",
+        "Split",
+        "urlParts",
+        "urlParts",
+        "Length",
+        "urlParts",
+        "HttpUtility",
+        "ParseQueryString",
+        "query",
+        "AllKeys",
+        "queryKeyString",
+        "Join",
+        "queryKeys",
+        "StringBuilder",
+        "friendlyPath",
+        "AppendFormat",
+        "description",
+        "HttpMethod",
+        "Method",
+        "localPath",
+        "Replace",
+        "Replace",
+        "Empty",
+        "Replace",
+        "Empty",
+        "queryKeyString",
+        "friendlyPath",
+        "AppendFormat",
+        "queryKeyString",
+        "Replace",
+        "friendlyPath",
+        "ToString"
+    ],
+    "literals": [
+        "\"_\"",
+        "\"{0}-{1}\"",
+        "\"/\"",
+        "\"-\"",
+        "\"{\"",
+        "\"}\"",
+        "\"_{0}\""
+    ],
+    "variables": [
+        "path",
+        "urlParts",
+        "localPath",
+        "queryKeyString",
+        "query",
+        "queryKeys",
+        "StringBuilder",
+        "friendlyPath"
+    ],
+    "comments": [
+        "Generates an URI-friendly ID for the <see cref=\"ApiDescription\"/>. E.g. \"Get-Values-id_name\" instead of \"GetValues/{id}?name={name}\"",
+        "</summary>",
+        "<param name=\"description\">The <see cref=\"ApiDescription\"/>.</param>",
+        "<returns>The ID as a string.</returns>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "GetFriendlyId"
+    ],
+    "classes": [
+        "ApiDescriptionExtensions"
+    ]
+}

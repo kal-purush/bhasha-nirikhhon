@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "initializeApp",
+        "getStorage",
+        "initializeApp",
+        "firebaseConfig",
+        "getStorage",
+        "app",
+        "storage",
+        "app"
+    ],
+    "literals": [
+        "\"firebase/app\"",
+        "\"firebase/storage\"",
+        "\"AIzaSyDrfKHAC8PLxCoqI1QaYcqdeiHwAfVgX5Y\"",
+        "\"certificate-2cf66.firebaseapp.com\"",
+        "\"certificate-2cf66\"",
+        "\"certificate-2cf66.appspot.com\"",
+        "\"859614653778\"",
+        "\"1:859614653778:web:6c080864bf2f24f6e01e8b\""
+    ],
+    "variables": [
+        "firebaseConfig",
+        "app",
+        "storage"
+    ],
+    "comments": [
+        "import firebase from \"firebase/app\";",
+        "import \"firebase/storage\";",
+        "const app = initializeApp(firebaseConfig);",
+        "firebase.initializeApp(firebaseConfig);",
+        "const storage = firebase.storage();",
+        "export { storage, firebase as default };"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

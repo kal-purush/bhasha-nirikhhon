@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "unittest",
+        "alignak",
+        "bin",
+        "alignak",
+        "misc",
+        "serialization",
+        "unserialize",
+        "unittest",
+        "TestCase",
+        "unserialize",
+        "assertTrue",
+        "unserialize",
+        "assertTrue",
+        "unittest",
+        "main"
+    ],
+    "literals": [
+        "'__main__'"
+    ],
+    "variables": [],
+    "comments": [
+        "!/usr/bin/env python",
+        "-*- coding: utf-8 -*-",
+        "",
+        "Copyright (C) 2015-2015: Alignak team, see AUTHORS.txt file for contributors",
+        "",
+        "This file is part of Alignak.",
+        "",
+        "Alignak is free software: you can redistribute it and/or modify",
+        "it under the terms of the GNU Affero General Public License as published by",
+        "the Free Software Foundation, either version 3 of the License, or",
+        "(at your option) any later version.",
+        "",
+        "Alignak is distributed in the hope that it will be useful,",
+        "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+        "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+        "GNU Affero General Public License for more details.",
+        "",
+        "You should have received a copy of the GNU Affero General Public License",
+        "along with Alignak.  If not, see <http://www.gnu.org/licenses/>.",
+        "",
+        ""
+    ],
+    "docstrings": [
+        "'''\n        {\"98a76354619746fa8e6d2637a5ef94cb\": {\n            \"content\": {\n                \"reason_type\": 1, \"exit_status\": 3, \"creation_time\":1468522950.2828259468,\n                \"command_call\": {\n                    \"args\": [], \"call\": \"notify-service\",\n                    \"command\": {\n                        \"command_line\": \"$USER1$\\/notifier.pl\n                                         --hostname $HOSTNAME$\n                                         --servicedesc $SERVICEDESC$\n                                         --notificationtype $NOTIFICATIONTYPE$\n                                         --servicestate $SERVICESTATE$\n                                         --serviceoutput $SERVICEOUTPUT$\n                                         --longdatetime $LONGDATETIME$\n                                         --serviceattempt $SERVICEATTEMPT$\n                                         --servicestatetype $SERVICESTATETYPE$\",\n                        \"command_name\": \"notify-service\",\n                        \"configuration_errors\":[],\n                        \"configuration_warnings\":[],\n                        \"enable_environment_macros\": false,\n                        \"id\": \"487aa432ddf646079ec6c07803333eac\",\n                        \"imported_from\": \"cfg\\/default\\/commands.cfg:14\",\n                        \"macros\":{}, \"module_type\": \"fork\", \"my_type\":\"command\",\n                        \"ok_up\":\"\", \"poller_tag\": \"None\",\n                        \"properties\":{\n                            \"use\":{\n                                \"brok_transformation\": null,\n                                \"class_inherit\": [],\n                                \"conf_send_preparation\": null,\n                                \"default\":[],\n                                \"fill_brok\":[],\n                                \"has_default\":true,\n                                \"help\":\"\",\n                                \"keep_empty\":false,\n                                \"managed\":true,\n                                \"merging\":\"uniq\",\n                                \"no_slots\":false,\n                                \"override\":false,\n                                \"required\":false,\n                                \"retention\":false,\n                                \"retention_preparation\":null,\n                                \"special\":false,\n                                \"split_on_coma\":true,\n                                \"to_send\":false,\n                                \"unmanaged\":false,\n                                \"unused\":false},\n                            \"name\":{\n                                \"brok_transformation\":null,\n                                \"class_inherit\":[],\n                                \"conf_send_preparation\":null,\n                                \"default\":\"\",\n                                \"fill_brok\":[],\n                                \"has_default\":true,\n                                \"help\":\"\",\n                                \"keep_empty\":false,\n                                \"managed\":true,\n                                \"merging\":\"uniq\",\n                                \"no_slots\":false,\n                                \"override\":false,\n                                \"required\":false,\n                                \"retention\":false,\n                                \"retention_preparation\":null,\n                                \"special\":false,\n                                \"split_on_coma\":true,\n                                \"to_send\":false,\n                                \"unmanaged\":false,\n                                \"unused\":false},\n                            },\n                        \"reactionner_tag\":\"None\",\n                        \"running_properties\":{\n                            \"configuration_errors\":{\n                                \"brok_transformation\":null,\n                                \"class_inherit\":[],\n                                \"conf_send_preparation\":null,\n                                \"default\":[],\"fill_brok\":[],\n                                \"has_default\":true,\"help\":\"\",\"keep_empty\":false,\n                                \"managed\":true,\"merging\":\"uniq\",\"no_slots\":false,\"override\":false,\n                                \"required\":false,\"retention\":false,\"retention_preparation\":null,\n                                \"special\":false,\"split_on_coma\":true,\"to_send\":false,\n                                \"unmanaged\":false,\"unused\":false},\n                            },\n                        \"tags\":[],\n                        \"timeout\":-1,\n                        \"uuid\":\"487aa432ddf646079ec6c07803333eac\"},\n                    \"enable_environment_macros\":false,\n                    \"late_relink_done\":false,\n                    \"macros\":{},\n                    \"module_type\":\"fork\",\n                    \"my_type\":\"CommandCall\",\n                    \"poller_tag\":\"None\",\n                    \"properties\":{},\n                    \"reactionner_tag\":\"None\",\n                    \"timeout\":-1,\n                    \"uuid\":\"cfcaf0fc232b4f59a7d8bb5bd1d83fef\",\n                    \"valid\":true},\n                \"escalated\":false,\n                \"reactionner_tag\":\"None\",\n                \"s_time\":0.0,\n                \"notification_type\":0,\n                \"contact_name\":\"test_contact\",\n                \"type\":\"PROBLEM\",\n                \"uuid\":\"98a76354619746fa8e6d2637a5ef94cb\",\n                \"check_time\":0,\"ack_data\":\"\",\n                \"state\":0,\"u_time\":0.0,\n                \"env\":{\n                    \"NAGIOS_SERVICEDOWNTIME\":\"0\",\n                    \"NAGIOS_TOTALSERVICESUNKNOWN\":\"\",\n                    \"NAGIOS_LONGHOSTOUTPUT\":\"\",\n                    \"NAGIOS_HOSTDURATIONSEC\":\"1468522950\",\n                    \"NAGIOS_HOSTDISPLAYNAME\":\"test_host_0\",\n                    },\n                \"notif_nb\":1,\"_in_timeout\":false,\"enable_environment_macros\":false,\n                \"host_name\":\"test_host_0\",\n                \"status\":\"scheduled\",\n                \"execution_time\":0.0,\"start_time\":0,\"worker\":\"none\",\"t_to_go\":1468522950,\n                \"module_type\":\"fork\",\"service_description\":\"test_ok_0\",\"sched_id\":0,\"ack_author\":\"\",\n                \"ref\":\"272e89c1de854bad85987a7583e6c46b\",\n                \"is_a\":\"notification\",\n                \"contact\":\"4e7c4076c372457694684bdd5ba47e94\",\n                \"command\":\"\\/notifier.pl --hostname test_host_0 --servicedesc test_ok_0\n                          --notificationtype PROBLEM --servicestate CRITICAL\n                          --serviceoutput CRITICAL --longdatetime Thu 14 Jul 21:02:30 CEST 2016\n                          --serviceattempt 2 --servicestatetype HARD\",\n                \"end_time\":0,\"timeout\":30,\"output\":\"\",\n                \"already_start_escalations\":[]},\n            \"__sys_python_module__\":\"alignak.notification.Notification\"\n            }\n        }\n\n        '''",
+        "'''\n        {\"content\":\n                   {\"check_type\":0,\"exit_status\":3,\"creation_time\":1469152287.6731250286,\n                    \"reactionner_tag\":\"None\",\"s_time\":0.0,\n                    \"uuid\":\"5f1b16fa809c43379822c7acfe789660\",\"check_time\":0,\"long_output\":\"\",\n                    \"state\":0,\"internal\":false,\"u_time\":0.0,\"env\":{},\"depend_on_me\":[],\n                    \"ref\":\"1fe5184ea05d439eb045399d26ed3337\",\"from_trigger\":false,\n                    \"status\":\"scheduled\",\"execution_time\":0.0,\"worker\":\"none\",\"t_to_go\":1469152290,\n                    \"module_type\":\"echo\",\"_in_timeout\":false,\"dependency_check\":false,\"type\":\"\",\n                    \"depend_on\":[],\"is_a\":\"check\",\"poller_tag\":\"None\",\"command\":\"_echo\",\n                    \"timeout\":30,\"output\":\"\",\"perf_data\":\"\"},\n               \"__sys_python_module__\":\"alignak.check.Check\"\n        }\n        '''"
+    ],
+    "functions": [
+        "test_unserialize_notif",
+        "test_unserialize_check"
+    ],
+    "classes": [
+        "testUnserialize"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "com",
+        "my",
+        "android",
+        "java",
+        "io",
+        "BufferedReader",
+        "java",
+        "io",
+        "java",
+        "io",
+        "InputStreamReader",
+        "java",
+        "io",
+        "PrintStream",
+        "java",
+        "net",
+        "Socket",
+        "PHONE_PORT",
+        "HOST",
+        "args",
+        "socket",
+        "HOST",
+        "PHONE_PORT",
+        "input",
+        "socket",
+        "getInputStream",
+        "socket",
+        "getOutputStream",
+        "ret",
+        "input",
+        "readLine",
+        "ret",
+        "e",
+        "e",
+        "printStackTrace",
+        "e",
+        "getMessage"
+    ],
+    "literals": [
+        "\"localhost\"",
+        "\"请输入: \\t\"",
+        "\"test\"",
+        "\"服务器端返回过来的是: \""
+    ],
+    "variables": [],
+    "comments": [
+        "读取服务器端数据",
+        "向服务器端发送数据",
+        "String str = new BufferedReader(new InputStreamReader(System.in)).readLine();"
+    ],
+    "docstrings": [
+        "* Pc端与Android的通信, 通过:\n * adb forward tcp:10086 tcp:10086",
+        "* 端口号"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "SocketClientUtils"
+    ]
+}

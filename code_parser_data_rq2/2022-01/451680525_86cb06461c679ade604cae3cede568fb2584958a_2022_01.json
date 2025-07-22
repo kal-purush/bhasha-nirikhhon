@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "ContainerProps",
+        "props",
+        "props",
+        "styled",
+        "styled",
+        "styled"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "color: white;\n    font-weight: bold;\n    align-items: center;\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    background: #221F1F;",
+        "border-bottom: 3px solid #000000;\n    display: flex;\n    align-items: center;\n    padding: 20px;\n    font-family: sans-serif;\n    width: 70%;\n    justify-content: center;\n    img {\n        width: 50px;\n        padding-right: 20px;\n    }",
+        "display: flex;\n    flex-direction: column;\n    justify-content: space-between;\n    height: 25vh;\n    text-align: center;\n    padding-top: 40px;",
+        "font-family: 'Rock Salt';\n    font-size: 20px;",
+        "background: #221F1F;\n    width: 100%;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    height: 100vh;\n    display: ${(props) => (props.openMenu ?  \"flex\" : \"none\")};",
+        "\"flex\"",
+        "\"none\"",
+        "background: #000000;\n    display: flex;\n    justify-content: space-between;\n    color: white;\n    font-family: 'Rock Salt', cursive;\n    width: 100%;\n    height: 60px;\n    align-items: center;\n    figure{\n        img{\n            width: 70%;\n        }\n    }\n    svg{\n        width: 60px;\n        height: 25px;\n    }\n    @media(min-width: 875px){\n        svg {\n            display: none;\n        }\n    }",
+        "width: 50vw;\n    display: none;\n    justify-content: space-between;\n    align-items: center;\n    h1{\n        font-size: 20px;\n        color: red;\n        :hover{\n            cursor: pointer;\n        }\n    }\n    @media(min-width: 875px){\n        display: flex;\n    }",
+        "display: none;\n    flex-direction: column;\n    margin-right: 30px;\n    font-family: sans-serif;\n    font-weight: bold;\n    justify-content: center;\n    span {\n        padding-bottom: 6px; \n    }\n    @media(min-width: 875px){\n        display: flex;\n    }"
+    ],
+    "variables": [
+        "Container",
+        "BoxUser",
+        "ContentCategory",
+        "Box",
+        "ContainerConfig",
+        "ContainerBox",
+        "Content",
+        "ContentConfig"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

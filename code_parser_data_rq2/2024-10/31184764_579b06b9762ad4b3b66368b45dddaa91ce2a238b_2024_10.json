@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "BenchmarkDotNet",
+        "Attributes",
+        "Serilog",
+        "Sinks",
+        "MSSqlServer",
+        "PerformanceTests",
+        "MemoryDiagnoser",
+        "GlobalSetup",
+        "ColumnOptions",
+        "options",
+        "Store",
+        "Add",
+        "StandardColumn",
+        "LogEvent",
+        "_log",
+        "LoggerConfiguration",
+        "WriteTo",
+        "MSSqlServer",
+        "_connectionString",
+        "sinkOptions",
+        "MSSqlServerSinkOptions",
+        "TableName",
+        "_tableName",
+        "SchemaName",
+        "_schemaName",
+        "AutoCreateSqlTable",
+        "AutoCreateSqlDatabase",
+        "appConfiguration",
+        "restrictedToMinimumLevel",
+        "Serilog",
+        "Events",
+        "LogEventLevel",
+        "Verbose",
+        "formatProvider",
+        "columnOptions",
+        "options",
+        "columnOptionsSection",
+        "CreateLogger",
+        "Benchmark",
+        "_log",
+        "Information",
+        "Benchmark",
+        "_log",
+        "Information"
+    ],
+    "literals": [
+        "\"dbo\"",
+        "\"LogEvents\"",
+        "\"Hello, {Name}!\"",
+        "\"World\"",
+        "\"Hello, {A} {B} {C}!\""
+    ],
+    "variables": [
+        "_connectionString",
+        "_schemaName",
+        "_tableName",
+        "ILogger",
+        "_log",
+        "options"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "Setup",
+        "EmitLogEvent",
+        "IntProperties"
+    ],
+    "classes": [
+        "SinkBenchmarks"
+    ]
+}

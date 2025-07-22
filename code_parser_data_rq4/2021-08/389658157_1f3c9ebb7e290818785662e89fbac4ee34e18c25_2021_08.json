@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "require",
+        "Client",
+        "serialNumbers",
+        "parameters",
+        "serialNumbers",
+        "parameters",
+        "client",
+        "client",
+        "parameters",
+        "results",
+        "results",
+        "e",
+        "e",
+        "client",
+        "res"
+    ],
+    "literals": [
+        "'pg'",
+        "\"localhost\"",
+        "\"Riyad\"",
+        "\"123\"",
+        "\"airQuality\"",
+        "'\\'02:00:00:00:43:8b\\''",
+        "'\\'02:00:00:00:48:45\\''",
+        "\"\\(\"",
+        "\"\\)\"",
+        "\"Connection Successful\"",
+        "SELECT plume_id FROM sensor_network.sensors WHERE sensor_serial_number IN ${parameters}"
+    ],
+    "variables": [
+        "client",
+        "res"
+    ],
+    "comments": [
+        ".then(results => console.table(results.rows))",
+        "const results = client.query((`SELECT plume_id FROM sensor_network.sensors WHERE sensor_serial_number IN ${parameters}`), (err,res) => {",
+        "if (err){",
+        "console.log(err.message)",
+        "}",
+        "else {",
+        "sensors = []",
+        "for (let i = 0; i < res.rows.length; i++) {",
+        "id = res.rows[0]['plume_id'];",
+        "sensors.push(id)",
+        "}",
+        "console.log(sensors)",
+        "}",
+        "client.end",
+        "})"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

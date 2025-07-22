@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "pandas",
+        "pd",
+        "pd",
+        "read_csv",
+        "sep",
+        "name",
+        "group",
+        "df",
+        "groupby",
+        "group_colums",
+        "group",
+        "loc",
+        "set_index",
+        "resa_prest_qte",
+        "to_dict",
+        "data",
+        "groups",
+        "pd",
+        "DataFrame",
+        "groups",
+        "T",
+        "fillna",
+        "to_csv"
+    ],
+    "literals": [
+        "\"test.csv\"",
+        "'\\t'",
+        "\"resa_dossier\"",
+        "\"resa_ocup_nom\"",
+        "\"resa_ocup_prenom\"",
+        "\"lot_ref\"",
+        "\"prest_titre_fra\"",
+        "\"resa_prest_qte\"",
+        "\"prest_titre_fra\"",
+        "\"coucou\"",
+        "\"done.csv\""
+    ],
+    "variables": [
+        "df",
+        "group_colums",
+        "groups",
+        "data",
+        "groups",
+        "name"
+    ],
+    "comments": [
+        "data = df.groupby(group_colums).apply(",
+        "lambda g: {g[\"prest_titre_fra\"]: g[\"resa_prest_qte\"]}",
+        ")",
+        "print(data.to_csv(\"done.csv\"))",
+        "pd.DataFrame(groups).to_csv(\"done.csv\")"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

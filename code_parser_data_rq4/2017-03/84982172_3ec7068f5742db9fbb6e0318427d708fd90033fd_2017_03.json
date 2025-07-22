@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "testex",
+        "java",
+        "text",
+        "SimpleDateFormat",
+        "java",
+        "util",
+        "Arrays",
+        "java",
+        "util",
+        "java",
+        "util",
+        "TimeZone",
+        "args",
+        "TimeZone",
+        "getAvailableIDs",
+        "date",
+        "getFormattedDate",
+        "date",
+        "getFormattedDate",
+        "date",
+        "Override",
+        "timeZone",
+        "date",
+        "Arrays",
+        "asList",
+        "TimeZone",
+        "getAvailableIDs",
+        "contains",
+        "timeZone",
+        "time",
+        "date",
+        "dateTimeFormat",
+        "simpleFormat",
+        "dateTimeFormat",
+        "simpleFormat",
+        "setTimeZone",
+        "TimeZone",
+        "getTimeZone",
+        "timeZone",
+        "simpleFormat",
+        "format",
+        "time"
+    ],
+    "literals": [
+        "\"Europe/Kiev\"",
+        "\"ImNotLegal\"",
+        "\"Illegal Time Zone String\"",
+        "\"dd MMM yyyy hh:mm aa\""
+    ],
+    "variables": [],
+    "comments": [
+        "Executing our public method with a valid String:"
+    ],
+    "docstrings": [
+        "* Returns a formatted string representing NOW, adjusted to the time zone string\n * passed in\n * @param timeZone. Must be a valid time zone as returned by:TimeZone.getAvailableIDs() \n * @return Time Zone string formatted like (\"dd MMM yyyy hh:mm aa\") and adjusted to the provided\n * time zone\n * @throws JokeException If the timeZone string is not a valid string",
+        "* DO NOT TEST this function as part of the exercise.\n   * It's included only to get a quick way of executing the code\n   * Execute to see available time format strings and responses to calling the single (non-main) public method"
+    ],
+    "functions": [
+        "main",
+        "getFormattedDate"
+    ],
+    "classes": [
+        "DateFormatter"
+    ]
+}

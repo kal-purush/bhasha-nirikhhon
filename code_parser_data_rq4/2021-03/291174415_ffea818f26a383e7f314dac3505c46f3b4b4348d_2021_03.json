@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "yaml_cfn",
+        "test",
+        "yaml_cfn",
+        "expect",
+        "value",
+        "test",
+        "yaml_cfn",
+        "expect",
+        "value",
+        "test",
+        "yaml_cfn",
+        "expect",
+        "value",
+        "test",
+        "yaml_cfn",
+        "expect",
+        "value"
+    ],
+    "literals": [
+        "'@aws-cdk/assert/jest'",
+        "'../lib'",
+        "'Unquoted year-month-day is treated as a string, not a Date'",
+        "'Key: 2020-12-31'",
+        "'2020-12-31'",
+        "\"Unquoted 'No' is treated as a string, not a boolean\"",
+        "'Key: No'",
+        "'No'",
+        "\"Short-form 'Ref' is deserialized correctly\"",
+        "'!Ref Resource'",
+        "'Resource'",
+        "\"Short-form 'Fn::GetAtt' is deserialized correctly\"",
+        "'!GetAtt Resource.Attribute'",
+        "'Fn::GetAtt'",
+        "'Resource.Attribute'"
+    ],
+    "variables": [
+        "value",
+        "value",
+        "value",
+        "value"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

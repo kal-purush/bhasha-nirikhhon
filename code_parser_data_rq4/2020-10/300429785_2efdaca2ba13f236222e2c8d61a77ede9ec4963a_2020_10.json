@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "err",
+        "req",
+        "res",
+        "next",
+        "err",
+        "err",
+        "res",
+        "err",
+        "err",
+        "err",
+        "err",
+        "next"
+    ],
+    "literals": [
+        "'express error:'"
+    ],
+    "variables": [],
+    "comments": [
+        "err.apiCode = return code",
+        "err.apiMessage = return message",
+        "we are creating a middleware function that receives\n\n    remember if our middleware function takes four parameters\n    then it is an error handling middleware function\n\n    we are deciding that error.api code is our return code\n    and error.api message is our return message code\n    there maybe other information in that object \n\n    if error. api code is greater than or equal to 400\n    then in my response we will set the status to whatever that code is (apiCode) err.apiCode\n    and we will send back an object ({ apiCode: err.apiCode, apiMessage: err.apiMessage })\n    then in addition to those two things we are including the rest of the error object (...err)\n\n    if it is not greater than or equal to 400 \n    else than go to the next piece of middleware"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

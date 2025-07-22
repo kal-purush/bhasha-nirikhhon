@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "ClientError",
+        "BitError",
+        "BitError",
+        "err",
+        "err",
+        "err",
+        "error",
+        "error",
+        "errors"
+    ],
+    "literals": [
+        "'graphql-request'",
+        "'../../../error/bit-error'",
+        "'\\n'",
+        "fatal: graphql found the following error(s), use --log to see the request, response and the full stack\\n\\n${errors}"
+    ],
+    "variables": [
+        "errors"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @see https://www.npmjs.com/package/graphql-request#error-handling"
+    ],
+    "functions": [
+        "report"
+    ],
+    "classes": [
+        "GraphQLClientError"
+    ]
+}

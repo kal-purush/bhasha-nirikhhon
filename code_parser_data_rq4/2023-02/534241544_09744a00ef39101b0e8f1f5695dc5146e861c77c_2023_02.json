@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "grid",
+        "len",
+        "grid",
+        "len",
+        "grid",
+        "i",
+        "height",
+        "j",
+        "width",
+        "grid",
+        "i",
+        "j",
+        "size",
+        "j",
+        "grid",
+        "i",
+        "j",
+        "edges",
+        "i",
+        "grid",
+        "i",
+        "j",
+        "edges",
+        "size",
+        "edges"
+    ],
+    "literals": [],
+    "variables": [
+        "width",
+        "height",
+        "edges",
+        "size"
+    ],
+    "comments": [
+        "!/usr/bin/python3"
+    ],
+    "docstrings": [
+        "\"\"\"Defines an island perimeter measuring function.\"\"\"",
+        "\"\"\"Return the perimiter of an island.\n    The grid represents water by 0 and land by 1.\n    Args:\n        grid (list): A list of list of integers representing an island.\n    Returns:\n        The perimeter of the island defined in grid.\n    \"\"\""
+    ],
+    "functions": [
+        "island_perimeter"
+    ],
+    "classes": []
+}

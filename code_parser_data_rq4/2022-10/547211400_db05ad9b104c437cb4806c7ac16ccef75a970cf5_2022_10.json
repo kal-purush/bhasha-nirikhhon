@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "defineStore",
+        "Isongs",
+        "useToast",
+        "defineStore",
+        "song",
+        "fetch",
+        "songUrl",
+        "song",
+        "res",
+        "res",
+        "useToast",
+        "data",
+        "setTimeout",
+        "navigateTo",
+        "res",
+        "useToast",
+        "data"
+    ],
+    "literals": [
+        "\"pinia\"",
+        "\"../types\"",
+        "\"./useToast\"",
+        "\"song-store\"",
+        "\"/api/s1/addSongs\"",
+        "\"POST\"",
+        "\"Content-type\"",
+        "\"application/json\"",
+        "\"/Songs\""
+    ],
+    "variables": [
+        "useStore",
+        "songUrl",
+        "res",
+        "data",
+        "data"
+    ],
+    "comments": [
+        "create a new book",
+        ".catch((err) => {\n          useToast().error(err.data.message);\n        })\n        .then(async (res) => {\n          let msg = await res;\n          if (msg) return useToast().success(msg);\n          useToast().error({ msg: res });\n        });",
+        "get all songs"
+    ],
+    "docstrings": [],
+    "functions": [
+        "create"
+    ],
+    "classes": []
+}

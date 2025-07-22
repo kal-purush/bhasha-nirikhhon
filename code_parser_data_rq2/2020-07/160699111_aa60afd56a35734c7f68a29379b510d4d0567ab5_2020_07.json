@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "SimpleType",
+        "SimpleTypeUnion",
+        "union",
+        "union",
+        "extendedUnion",
+        "PRIMITIVE_STRING_ARRAY_TYPE_BRAND",
+        "extendedUnion",
+        "simpleType",
+        "simpleType",
+        "simpleType",
+        "simpleType",
+        "PRIMITIVE_STRING_ARRAY_TYPE_BRAND"
+    ],
+    "literals": [
+        "\"ts-simple-type\"",
+        "\"PRIMITIVE_STRING_ARRAY_TYPE\"",
+        "\"UNION\""
+    ],
+    "variables": [
+        "PRIMITIVE_STRING_ARRAY_TYPE_BRAND",
+        "extendedUnion"
+    ],
+    "comments": [
+        "eslint-disable-next-line @typescript-eslint/no-explicit-any",
+        "eslint-disable-next-line @typescript-eslint/no-explicit-any"
+    ],
+    "docstrings": [
+        "* Brands a union as a primitive array type\n * This type is used for the \"role\" attribute that is a whitespace separated list\n * @param union",
+        "* Returns if a simple type is branded as a primitive array type\n * @param simpleType"
+    ],
+    "functions": [
+        "makePrimitiveArrayType",
+        "isPrimitiveArrayType"
+    ],
+    "classes": []
+}

@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "FormDefinition",
+        "Wreck",
+        "Service",
+        "config",
+        "Service",
+        "id",
+        "Wreck",
+        "config",
+        "id",
+        "payload",
+        "id",
+        "configuration",
+        "Wreck",
+        "config",
+        "id",
+        "configuration"
+    ],
+    "literals": [
+        "'@defra/forms-model'",
+        "'@hapi/wreck'",
+        "'@hapipal/schmervice'",
+        "'~/src/config.js'",
+        "string",
+        "${config.managerUrl}/forms/${id}/definition/draft",
+        "string",
+        "string",
+        "${config.managerUrl}/forms/${id}/definition/draft"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getDraftFormDefinition",
+        "updateDraftFormDefinition"
+    ],
+    "classes": [
+        "FormsManagerPersistenceService"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "GoogleAnalytics",
+        "regions",
+        "GoogleAnalytics",
+        "regions",
+        "isGuest",
+        "GoogleAnalytics",
+        "isGuest",
+        "autoPlayOn",
+        "GoogleAnalytics",
+        "autoPlayOn",
+        "ScreenReaderStatus",
+        "GoogleAnalytics",
+        "ScreenReaderStatus",
+        "tourStop",
+        "contentTitle",
+        "GoogleAnalytics",
+        "tourStop",
+        "contentTitle"
+    ],
+    "literals": [
+        "'react-native-google-analytics-bridge'",
+        "'Beacon'",
+        "'RegionsDetected'",
+        "'Device'",
+        "'Type'",
+        "'Guest'",
+        "'Museum'",
+        "'Device'",
+        "'AutoPlayStatus'",
+        "'On'",
+        "'Off'",
+        "'Accessibility'",
+        "'ScreenReaderStatus'",
+        "'On'",
+        "'Off'",
+        "'Accessibility'",
+        "'TranscriptOpenned'",
+        "${tourStop} ${contentTitle}"
+    ],
+    "variables": [],
+    "comments": [
+        "Content Analytics",
+        "Beacon Analytics",
+        "Device Analytics",
+        "WARNING: This goes by if 'always show tutorial is on', which is a pretty error",
+        "prone way to get this data",
+        "Accessibility Analytics"
+    ],
+    "docstrings": [
+        "*** No State Changes Actions ***"
+    ],
+    "functions": [
+        "analyticsTrackBeaconRegion",
+        "analyticsTrackDeviceType",
+        "analyticsTrackDeviceAutoPlay",
+        "analyticsTrackScreenReaderStatus",
+        "analyticsTrackTranscriptOpenned"
+    ],
+    "classes": []
+}

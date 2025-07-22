@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Source",
+        "parse",
+        "describe",
+        "test",
+        "Source",
+        "query",
+        "filepath",
+        "expect",
+        "parse",
+        "source",
+        "filepath",
+        "test",
+        "expect",
+        "parse",
+        "query"
+    ],
+    "literals": [
+        "'graphql'",
+        "'../src/utils/parse'",
+        "'parse'",
+        "'include file path'",
+        "query Feed {\n        feed($type) {\n          id\n        }\n      }",
+        "'../path/to/file'",
+        "'include subset of a document'",
+        "query Feed {\n        feed($type) {\n          id\n        }\n      }"
+    ],
+    "variables": [
+        "query",
+        "filepath",
+        "source",
+        "query"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

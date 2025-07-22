@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Link",
+        "styled",
+        "css",
+        "css",
+        "theme",
+        "theme",
+        "theme",
+        "styled",
+        "Link",
+        "linkStyles",
+        "styled",
+        "linkStyles"
+    ],
+    "literals": [
+        "'@reach/router'",
+        "'styled-components'",
+        "text-decoration: none;\n  font-family: ${({ theme }) => theme.font};\n  color: ${({ theme }) => theme.linkColor};\n  transition: color 0.3s;\n\n  &:hover {\n    color: ${({ theme }) => theme.linkHoverColor};\n  }",
+        "${linkStyles}",
+        "'_blank'",
+        "'noopener noreferrer'",
+        "${linkStyles}"
+    ],
+    "variables": [
+        "linkStyles",
+        "RouterLink",
+        "ExternalLink"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

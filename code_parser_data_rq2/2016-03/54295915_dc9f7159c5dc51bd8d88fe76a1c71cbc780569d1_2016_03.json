@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "schedule",
+        "time",
+        "yagmail",
+        "lxml",
+        "yagmail",
+        "SMTP",
+        "yag",
+        "send",
+        "to",
+        "subject",
+        "contents",
+        "body",
+        "html",
+        "schedule",
+        "every",
+        "seconds",
+        "email",
+        "schedule",
+        "every",
+        "day",
+        "at",
+        "email",
+        "schedule",
+        "every",
+        "day",
+        "at",
+        "email",
+        "schedule",
+        "run_pending",
+        "time",
+        "sleep"
+    ],
+    "literals": [
+        "'acreedeena'",
+        "'acreedeena@gmail.com'",
+        "\"This is the automated test for today\"",
+        "'This is the Latest in Local News from WCJB. Find more <a href=\"http://www.wcjb.com/local-news\">here</a>.'",
+        "'<h2><a href=\"\">Headline goes here</a></h2><p>This is the story p1.</p><p>This is the story p2.</p>'",
+        "\"09:00\"",
+        "\"21:00\""
+    ],
+    "variables": [
+        "yag",
+        "to",
+        "subject",
+        "body",
+        "html"
+    ],
+    "comments": [
+        "this is the \"program\" you use to run this scheduled job. You have to install it first with \"pip install schedule\"",
+        "imports yagmail; You have to install it first with \"pip install yagmail\"",
+        "imports lxml so that the emails will send without an error; You have to install it first with \"pip install lxml\"",
+        "this is the function that runs",
+        "use this line if only testing the function once:",
+        "return schedule.CancelJob",
+        "this is for while I'm testing the code",
+        "this is for the daily emails, once at 9am and once at 9pm"
+    ],
+    "docstrings": [],
+    "functions": [
+        "email"
+    ],
+    "classes": []
+}

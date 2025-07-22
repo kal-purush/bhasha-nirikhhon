@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "routes",
+        "routes",
+        "e",
+        "e",
+        "e",
+        "e",
+        "e",
+        "path",
+        "path",
+        "path",
+        "path",
+        "route",
+        "content",
+        "link",
+        "link",
+        "link",
+        "path",
+        "error",
+        "error",
+        "path",
+        "path",
+        "Router",
+        "routes"
+    ],
+    "literals": [
+        "''",
+        "'popstate'",
+        "'click'",
+        "'a'",
+        "'/'",
+        "'main.main-content'",
+        "'.main-nav a'",
+        "'active'",
+        "'Error loading route:'",
+        "''",
+        "'/'",
+        "<section class=\"hero-banner\">\n            <div class=\"hero-overlay\"></div>\n            <div class=\"hero-content\">\n                <h1>We connect here, we meet everywhere.</h1>\n                <p>Welcome to MeetHere, our social site that connects you with other people and helps you to make new friends.</p>\n                <div class=\"cta-buttons\">\n                    <a href=\"/login\" class=\"btn btn-light\">Login</a>\n                    <a href=\"/register\" class=\"btn btn-light\">User registration</a>\n                </div>\n            </div>\n        </section>\n        <section class=\"features-section\">\n            <div class=\"features-content\">\n                <h2 class=\"features-title\">\"Connect Locally, Meet Globally\"</h2>\n                <p class=\"features-description\">MeetHere is an innovative social networking platform that allows you to connect with other users</p>\n                <div class=\"features-list\">\n                    <div class=\"feature-item\">\n                        <span class=\"feature-icon\">→</span>\n                        <p>Event planning and promotion</p>\n                    </div>\n                    <div class=\"feature-item\">\n                        <span class=\"feature-icon\">→</span>\n                        <p>Community engagement management</p>\n                    </div>\n                    <div class=\"feature-item\">\n                        <span class=\"feature-icon\">→</span>\n                        <p>Social media analytics tracking</p>\n                    </div>\n                </div>\n                <a href=\"/services\" class=\"features-link\">All services →</a>\n            </div>\n            <div class=\"features-image\">\n                <img src=\"https://via.placeholder.com/500x350/0000FF/FFFFFF?text=Event+Photo\" alt=\"Event Photo\">\n            </div>\n        </section>",
+        "'/services'",
+        "<section class=\"page-content\">\n            <h1>Our Services</h1>\n            <div class=\"services-grid\">\n                <div class=\"service-card\">\n                    <h3>Event Planning</h3>\n                    <p>Professional event planning and coordination services.</p>\n                </div>\n                <div class=\"service-card\">\n                    <h3>Community Management</h3>\n                    <p>Expert community engagement and growth strategies.</p>\n                </div>\n                <div class=\"service-card\">\n                    <h3>Analytics</h3>\n                    <p>Comprehensive social media analytics and reporting.</p>\n                </div>\n            </div>\n        </section>",
+        "'/our-work'",
+        "<section class=\"page-content\">\n            <h1>Our Work</h1>\n            <p>Check out some of our successful projects and events.</p>\n        </section>",
+        "'/our-team'",
+        "<section class=\"page-content\">\n            <h1>Our Team</h1>\n            <p>Meet the amazing people behind MeetHere.</p>\n        </section>",
+        "'/price-list'",
+        "<section class=\"page-content\">\n            <h1>Price List</h1>\n            <p>Explore our competitive pricing options.</p>\n        </section>",
+        "'/contact'",
+        "<section class=\"page-content\">\n            <h1>Contact Us</h1>\n            <p>Get in touch with our team.</p>\n        </section>",
+        "'/login'",
+        "<section class=\"auth-section\">\n            <h1>Login</h1>\n            <form class=\"auth-form\" id=\"loginForm\">\n                <div class=\"form-group\">\n                    <label for=\"username\">Username</label>\n                    <input type=\"text\" id=\"username\" name=\"username\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"password\">Password</label>\n                    <input type=\"password\" id=\"password\" name=\"password\" required>\n                </div>\n                <button type=\"submit\" class=\"btn btn-primary\">Login</button>\n            </form>\n        </section>",
+        "'/register'",
+        "<section class=\"auth-section\">\n            <h1>Register</h1>\n            <form class=\"auth-form\" id=\"registerForm\">\n                <div class=\"form-group\">\n                    <label for=\"username\">Username</label>\n                    <input type=\"text\" id=\"username\" name=\"username\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"email\">Email</label>\n                    <input type=\"email\" id=\"email\" name=\"email\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"password\">Password</label>\n                    <input type=\"password\" id=\"password\" name=\"password\" required>\n                </div>\n                <button type=\"submit\" class=\"btn btn-primary\">Register</button>\n            </form>\n        </section>"
+    ],
+    "variables": [
+        "path",
+        "path",
+        "route",
+        "content",
+        "routes",
+        "router"
+    ],
+    "comments": [
+        "Simple client-side router",
+        "Handle navigation",
+        "Handle initial load",
+        "Handle link clicks",
+        "Update active link in navigation",
+        "Define route handlers",
+        "Initialize router"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handleRoute",
+        "navigate"
+    ],
+    "classes": [
+        "Router"
+    ]
+}

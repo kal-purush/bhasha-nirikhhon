@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Octokit",
+        "parse",
+        "IWorkflowDispatchOptions",
+        "IWorkflowYamlContentRequest",
+        "accessToken",
+        "Octokit",
+        "accessToken",
+        "dispatchOptions",
+        "options",
+        "name",
+        "workflow",
+        "Buffer",
+        "workflow",
+        "parse",
+        "decodedContent"
+    ],
+    "literals": [
+        "'octokit'",
+        "'yaml'",
+        "'./types'",
+        "string",
+        "string",
+        ".github/workflows/${name}.yml",
+        "'content'",
+        "'Failed to get workflow file content'",
+        "'base64'"
+    ],
+    "variables": [
+        "dispatchOptions",
+        "options",
+        "workflow",
+        "decodedContent"
+    ],
+    "comments": [],
+    "docstrings": [
+        "*  Dispatch a workflow",
+        "* Download the YAML content from a workflow file\n     * @returns A workflow YAML file in JSON format"
+    ],
+    "functions": [
+        "createWorkflowDispatch",
+        "getWorkflowYamlFile"
+    ],
+    "classes": [
+        "GitHubService"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "os",
+        "sys",
+        "logging",
+        "logging",
+        "basicConfig",
+        "stream",
+        "sys",
+        "stdout",
+        "level",
+        "logging",
+        "INFO",
+        "format",
+        "logging",
+        "getLogger",
+        "os",
+        "getenv",
+        "os",
+        "getenv",
+        "os",
+        "getenv",
+        "GITHUB_USER",
+        "GITHUB_TOKEN",
+        "count",
+        "log",
+        "warn",
+        "GITHUB_TOKEN",
+        "GITHUB_TOKEN",
+        "count",
+        "log",
+        "warn",
+        "API_BASE_URL",
+        "API_BASE_URL",
+        "count",
+        "log",
+        "warn"
+    ],
+    "literals": [
+        "'[%(levelname)8s] %(process)s:%(name)s\\t%(message)s'",
+        "\"GITHUB_USER\"",
+        "\"GITHUB_TOKEN\"",
+        "\"API_BASE_URL\"",
+        "\"GITHUB_USER env variable has not yet been set\"",
+        "\"GITHUB_TOKEN env variable has not yet been set\"",
+        "\"API_BASE_URL env variable has not yet been set\""
+    ],
+    "variables": [
+        "log",
+        "GITHUB_USER",
+        "GITHUB_TOKEN",
+        "API_BASE_URL"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nSECRETS & CONFIG\n=================\nThe following values come from your .env file, and either pertain to\nyour app's configuration (i.e., API_BASE_URL) or are secrets that may\nhave different values for each environment (staging, prod)\n\nYou'll get warnings if any of these are unset\n\"\"\""
+    ],
+    "functions": [
+        "validate_env_variables"
+    ],
+    "classes": []
+}

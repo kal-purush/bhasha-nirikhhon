@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "axiosInstance",
+        "BASE_API_URL",
+        "ResetPasswordRequest",
+        "ResetPasswordResponse",
+        "SendResetPasswordEmailRequest",
+        "SendResetPasswordEmailResponse",
+        "VerifyResetPasswordTokenRequest",
+        "VerifyResetPasswordTokenResponse",
+        "BASE_API_URL",
+        "data",
+        "axiosInstance",
+        "baseAPI",
+        "data",
+        "response",
+        "data",
+        "axiosInstance",
+        "baseAPI",
+        "data",
+        "response",
+        "data",
+        "axiosInstance",
+        "baseAPI",
+        "data",
+        "response",
+        "passwordResetsService"
+    ],
+    "literals": [
+        "'@/services/base'",
+        "'@/services/constants'",
+        "'@/services/password-resets/types'",
+        "${BASE_API_URL}/password_resets",
+        "${baseAPI}/reset",
+        "${baseAPI}/verify/${data.token}",
+        "${baseAPI}/update_password"
+    ],
+    "variables": [
+        "baseAPI",
+        "passwordResetsService",
+        "response",
+        "response",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

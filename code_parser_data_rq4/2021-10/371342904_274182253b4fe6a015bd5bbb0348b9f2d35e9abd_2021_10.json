@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "StateManagerCore",
+        "Apply",
+        "StateManagerParameters",
+        "StateManagerCore",
+        "operation",
+        "revisionTo",
+        "operation",
+        "revisionTo",
+        "state",
+        "state",
+        "onPosted",
+        "toPost",
+        "onPosted",
+        "onPosted",
+        "isOnPostedExecuted",
+        "isOnPostedExecuted",
+        "onPosted",
+        "onPosted",
+        "onPosted",
+        "onPosted",
+        "onPosted",
+        "toPost",
+        "StateManagerCore",
+        "revision",
+        "StateManager",
+        "operation",
+        "revisionTo",
+        "operation",
+        "revisionTo"
+    ],
+    "literals": [
+        "'./stateManagerCore'",
+        "'./types'",
+        "string",
+        "'this.requiresReload === true'",
+        "'this.requiresReload === true'",
+        "string",
+        "'this.requiresReload === true'",
+        "'transform should not be called'",
+        "'diff should not be called'"
+    ],
+    "variables": [
+        "toPost",
+        "isOnPostedExecuted",
+        "onPosted"
+    ],
+    "comments": [
+        "確実に失敗したときはfalse、成功したか失敗したかわからないときはnull"
+    ],
+    "docstrings": [],
+    "functions": [
+        "isPosting",
+        "uiState",
+        "revision",
+        "requiresReload",
+        "waitingResponseSince",
+        "onOtherClientsGet",
+        "operate",
+        "post",
+        "reload",
+        "uiState",
+        "revision",
+        "reload",
+        "onGet"
+    ],
+    "classes": [
+        "StateManager",
+        "GetOnlyStateManager"
+    ]
+}

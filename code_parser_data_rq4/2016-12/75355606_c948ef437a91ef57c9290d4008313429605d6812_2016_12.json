@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Http",
+        "Observable",
+        "Event",
+        "Injectable",
+        "http",
+        "id",
+        "id",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/http'",
+        "'rxjs/Rx'",
+        "'rxjs/add/operator/map'",
+        "'../models/event'",
+        "\"https://wdiconfapi.herokuapp.com/api/events\"",
+        "'Hello WdiconfEvents Provider'",
+        "${this.wdiconfEventsApiUrl}?presenter_id=${id}"
+    ],
+    "variables": [],
+    "comments": [
+        "Generated class for the WdiconfEvents provider.\n\n  See https://angular.io/docs/ts/latest/guide/dependency-injection.html\n  for more info on providers and Angular 2 DI."
+    ],
+    "docstrings": [],
+    "functions": [
+        "loadForPresenter"
+    ],
+    "classes": [
+        "WdiconfEvents"
+    ]
+}

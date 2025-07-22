@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "validateNotNull",
+        "MetricProducer",
+        "MetricProducerManager",
+        "metricProducer",
+        "validateNotNull",
+        "metricProducer",
+        "metricProducer",
+        "metricProducer",
+        "metricProducer",
+        "validateNotNull",
+        "metricProducer",
+        "metricProducer",
+        "BaseMetricProducerManager"
+    ],
+    "literals": [
+        "'../../common/validations'",
+        "'./types'",
+        "'metricProducer'",
+        "'metricProducer'"
+    ],
+    "variables": [
+        "metricProducerManagerInstance"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2019, OpenCensus Authors\n *\n * Licensed under the Apache License, Version 2.0 the \"License\";\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Keeps a set of MetricProducer that is used by exporters to determine the\n * metrics that need to be exported.",
+        "* Adds the MetricProducer to the manager if it is not already present.\n   *\n   * @param {MetricProducer} The MetricProducer to be added to the manager.",
+        "* Removes the MetricProducer to the manager if it is present.\n   *\n   * @param {MetricProducer} The MetricProducer to be removed from the manager.",
+        "* Clears all MetricProducers.",
+        "* Returns all registered MetricProducers that should be exported.\n   *\n   * This method should be used by any metrics exporter that automatically\n   * exports data for MetricProducer registered with the MetricProducerManager.\n   *\n   * @return {Set<MetricProducer>} The Set of MetricProducers."
+    ],
+    "functions": [
+        "add",
+        "remove",
+        "removeAll",
+        "getAllMetricProducer"
+    ],
+    "classes": [
+        "BaseMetricProducerManager"
+    ]
+}

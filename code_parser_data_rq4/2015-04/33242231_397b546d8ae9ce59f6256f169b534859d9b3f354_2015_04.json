@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "urllib2",
+        "re",
+        "sys",
+        "locale",
+        "__builtin__",
+        "isinstance",
+        "sys",
+        "getdefaultencoding",
+        "locale",
+        "getdefaultlocale",
+        "urllib2",
+        "urlopen",
+        "url",
+        "read",
+        "decode",
+        "isinstance",
+        "m",
+        "unicode",
+        "m"
+    ],
+    "literals": [
+        "u'系统缺省的编码: %s'",
+        "u'当前系统的编码: (%s, %s)'",
+        "'http://desk.zol.com.cn/dongwu/'",
+        "'GBK'",
+        "u'测试一下是否显示中文正常？'"
+    ],
+    "variables": [
+        "url",
+        "m"
+    ],
+    "comments": [
+        "-*- coding:utf-8 -*-",
+        "!/usr/bin/env python",
+        "系统缺省的编码",
+        "系统当前的编码",
+        "分析首页得到每个图片集的链接",
+        "将打开的网页转码成unicode"
+    ],
+    "docstrings": [
+        "'''\n没有成功\n#设置头文件，防止服务器禁止访问\nheader = {'Host':'desk.zol.com.cn',\n          'User-Agent':'Mozilla/5.0 (Windows NT 6.1; rv:26.0) Gecko/20100101 Firefox/26.0',\n          'Accept': 'text/html, application/xhtml + xml, application/xml; q=0.9, */*;q=0.8',\n          'Accept-Encoding':'gzip, deflate',\n          'Connection':\"keep-alive\"}\n\n#建立连接请求,这时服务器返回页面信息给con,是一个对象\nreq = urllib2.Request(url, headers=header)\ncon = urllib2.urlopen(req)\n\n#调用con对象的read()方法,返回html页面\ndoc = con.read()\nprint doc\n\n#关闭连接\ncon.close()\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

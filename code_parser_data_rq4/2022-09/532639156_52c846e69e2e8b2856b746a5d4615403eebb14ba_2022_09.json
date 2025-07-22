@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "router",
+        "req",
+        "res",
+        "jwt",
+        "req",
+        "process",
+        "User",
+        "verified",
+        "User",
+        "foundUser",
+        "res",
+        "err",
+        "err",
+        "router"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"jsonwebtoken\"",
+        "\"../model/User\"",
+        "\"/confirmation/:token\"",
+        "\"http://localhost:3000/login\""
+    ],
+    "variables": [
+        "router",
+        "jwt",
+        "User",
+        "verified",
+        "foundUser",
+        "confirmedUser"
+    ],
+    "comments": [
+        "if (!verified) {",
+        "return res.status(400).json({ success: false, data: \"Not verified.\" });",
+        "}",
+        "console.log(verified, \"are we verfied?\");",
+        "console.log(foundUser, \"the user we are updating\");"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

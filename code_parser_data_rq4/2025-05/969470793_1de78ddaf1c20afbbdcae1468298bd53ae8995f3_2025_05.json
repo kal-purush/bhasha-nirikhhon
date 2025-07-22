@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "os",
+        "sys",
+        "subprocess",
+        "os",
+        "geteuid",
+        "sys",
+        "exit",
+        "open",
+        "file",
+        "file",
+        "read",
+        "content",
+        "replace",
+        "open",
+        "file",
+        "file",
+        "write",
+        "updated_content",
+        "subprocess",
+        "run"
+    ],
+    "literals": [
+        "\"This script needs to be run with sudo privileges.\"",
+        "\"Please run it again with 'sudo python script.py'\"",
+        "'/etc/default/keyboard'",
+        "'r'",
+        "'XKBOPTIONS=\"\"'",
+        "'XKBOPTIONS=\"caps:escape\"'",
+        "'/etc/default/keyboard'",
+        "'w'",
+        "\"We'll now commit the changes -- pick the option below\\n\"",
+        "\"Do not configure keyboard, keep kernel keymap\\n\"",
+        "\"\\nPress any key to continue...\"",
+        "'sudo'",
+        "'dpkg-reconfigure'",
+        "'keyboard-configuration'"
+    ],
+    "variables": [
+        "content",
+        "updated_content"
+    ],
+    "comments": [
+        "! /usr/bin/python3",
+        "Open the file and read its contents",
+        "Replace XKBOPTIONS=\"\" with XKBOPTIONS=\"caps:escape\"",
+        "Write the updated content back to the file (requires sudo)",
+        "Run the reconfiguration command"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

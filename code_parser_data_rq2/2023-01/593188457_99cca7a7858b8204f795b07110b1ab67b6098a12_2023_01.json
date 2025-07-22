@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "knex",
+        "knex",
+        "conn",
+        "cb",
+        "conn",
+        "cb"
+    ],
+    "literals": [
+        "\"knex\"",
+        "\"sqlite3\"",
+        "\"./src/database/to-do-list.db\"",
+        "\"PRAGMA foreign_keys = ON\""
+    ],
+    "variables": [
+        "db"
+    ],
+    "comments": [
+        "localização do seu arquivo .db",
+        "definirá NULL quando encontrar valores undefined",
+        "número de conexões, esses valores são os recomendados para sqlite3",
+        "configurando para o knex forçar o check das constrainst FK",
+        "para entender melhor, depois assista o vídeo de refatoração de DELETE users by id"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

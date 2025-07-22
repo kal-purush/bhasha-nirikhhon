@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "App",
+        "wx",
+        "value",
+        "value",
+        "value",
+        "e",
+        "wx",
+        "res",
+        "res",
+        "wx",
+        "res",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'userInfo'",
+        "'scope.userInfo'"
+    ],
+    "variables": [
+        "value"
+    ],
+    "comments": [
+        "app.js，@作者：戚子强",
+        "小程序全局变量数据",
+        "先从本地缓存获取用户信息，没有的话再去微信服务器索取，节约时间",
+        "已经授权，可以直接调用 getUserInfo 获取头像昵称，不会弹框",
+        "可以将 res 发送给后台解码出 unionId",
+        "由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回",
+        "所以此处加入 callback 以防止这种情况"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

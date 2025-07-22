@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "ServerService",
+        "Router",
+        "ActivatedRoute",
+        "Marsupilamis",
+        "FormBuilder",
+        "FormControl",
+        "FormGroup",
+        "Component",
+        "FormGroup",
+        "FormControl",
+        "FormControl",
+        "FormControl",
+        "FormControl",
+        "FormControl",
+        "FormControl",
+        "FormControl",
+        "FormControl",
+        "formBuilder",
+        "route",
+        "marsupilamiService",
+        "result",
+        "result",
+        "result",
+        "failure",
+        "failure",
+        "result",
+        "result",
+        "err",
+        "err",
+        "alert"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../server.service'",
+        "'@angular/router'",
+        "'src/app/interfaces/marsupilamis'",
+        "'@angular/forms'",
+        "'app-modif'",
+        "'./modif.component.html'",
+        "'./modif.component.css'",
+        "''",
+        "''",
+        "''",
+        "''",
+        "''",
+        "''",
+        "''",
+        "''",
+        "'VALID'",
+        "'il y a un erreur'"
+    ],
+    "variables": [],
+    "comments": [
+        "this.route.params.subscribe(params => {\n      if (params['id']) {\n        this.marsupilamiService.get(params['id'])\n          .subscribe(result => {\n            console.log(result);\n            this.mars.patchValue(result);\n          }, failure => {\n            console.error(failure);\n          });\n      }\n    });"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "onSubmit"
+    ],
+    "classes": [
+        "ModifComponent"
+    ]
+}

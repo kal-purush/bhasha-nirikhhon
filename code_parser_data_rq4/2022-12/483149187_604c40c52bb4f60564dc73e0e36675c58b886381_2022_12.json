@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "IO",
+        "Threading",
+        "Threading",
+        "Tasks",
+        "Microsoft",
+        "IdentityModel",
+        "JsonWebTokens",
+        "Microsoft",
+        "Identity",
+        "Web",
+        "ClientAssertionProviderBase",
+        "filePath",
+        "_filePath",
+        "filePath",
+        "Environment",
+        "GetEnvironmentVariable",
+        "ClientAssertion",
+        "CancellationToken",
+        "cancellationToken",
+        "File",
+        "ReadAllText",
+        "_filePath",
+        "JsonWebToken",
+        "signedAssertion",
+        "FromResult",
+        "ClientAssertion",
+        "signedAssertion",
+        "jwt",
+        "ValidTo"
+    ],
+    "literals": [
+        "\"AZURE_FEDERATED_TOKEN_FILE\""
+    ],
+    "variables": [
+        "_filePath",
+        "signedAssertion",
+        "JsonWebToken",
+        "jwt"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft Corporation. All rights reserved.",
+        "Licensed under the MIT License.",
+        "Gets a signed assertion from Azure workload identity for kubernetes when an app is running in a container",
+        "in Azure Kubernetes Services. See https://aka.ms/ms-id-web/certificateless and",
+        "https://learn.microsoft.com/azure/aks/workload-identity-overview",
+        "</summary>",
+        "Gets a signed assertion from Azure workload identity for kubernetes. The file path is provided",
+        "by an environment variable (\"AZURE_FEDERATED_TOKEN_FILE\")",
+        "See https://aka.ms/ms-id-web/certificateless.",
+        "</summary>",
+        "Gets a signed assertion from a file.",
+        "See https://aka.ms/ms-id-web/certificateless.",
+        "</summary>",
+        "<param name=\"filePath\"></param>",
+        "See https://blog.identitydigest.com/azuread-federate-k8s/",
+        "Get the signed assertion from a file.",
+        "</summary>",
+        "<returns>The signed assertion.</returns>",
+        "Compute the expiry"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "AzureIdentityForKubernetesClientAssertion",
+        "AzureIdentityForKubernetesClientAssertion",
+        "GetClientAssertion"
+    ],
+    "classes": [
+        "AzureIdentityForKubernetesClientAssertion"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "__filename",
+        "require",
+        "docopt",
+        "doc",
+        "options",
+        "options",
+        "msg",
+        "msg",
+        "msg",
+        "doc",
+        "msg",
+        "path",
+        "usage",
+        "config",
+        "usage"
+    ],
+    "literals": [
+        "Goal: Make it easy and consistent to start a new typescript project\nTenet #1: Start with most basic\nTenet #2: Add functionality as desired\nTenet #3: Select from pre-canned, or create a new configuration\n\nUsage: ${__filename} <path> [<config>]\n - <path>: where to create the project; final element of path will be project directory\n - <config>: special configuration to use; none currently supported\n\nRun this script to create a new barebones typescript node project as described here:\nhttps://www.typescripttutorial.net/typescript-tutorial/nodejs-typescript/\n\nWith this basic setup, your typescript will automatically be recompiled and run as Javascript\nas you make changes.  Following the doc, we use npm and supporting modules, but should provide\nother configurations as desired.",
+        "'@eyalsh/docopt'",
+        "'<path>'",
+        "'<config>'",
+        "\"<path> not specified\"",
+        "\"<config> not specified\""
+    ],
+    "variables": [
+        "doc",
+        "docopt",
+        "options",
+        "path",
+        "config"
+    ],
+    "comments": [
+        "Writes usage, along with optional error",
+        "@Returns 1 if error, else 0",
+        "BASE setup",
+        "create path/build and path/src",
+        "change to path current directory",
+        "run tsc --init; try with --rootDir ./src and --outDir ./build (check tsconfig.json)",
+        "create file src/app.ts",
+        "run 'tsc'",
+        "run 'node ./build/app.js to verify working",
+        "run 'npm init --yes' to set up the node directory",
+        "npm install --g nodemon concurrently",
+        "add these to \"scripts\" in package.json:",
+        "\"start:build\": \"tsc -w\",",
+        "\"start:run\": \"nodemon build/app.js\",",
+        "\"start\": \"concurrently npm:start:*\"",
+        "change \"main\" to \"app.js\" in package.json"
+    ],
+    "docstrings": [],
+    "functions": [
+        "usage"
+    ],
+    "classes": []
+}

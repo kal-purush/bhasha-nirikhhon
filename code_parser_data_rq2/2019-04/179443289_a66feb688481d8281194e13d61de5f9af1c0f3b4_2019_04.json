@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Server",
+        "fs",
+        "mime",
+        "path",
+        "url",
+        "args",
+        "httpServer",
+        "httpServer",
+        "listeners",
+        "listener",
+        "httpServer",
+        "listener",
+        "httpServer",
+        "req",
+        "res",
+        "url",
+        "req",
+        "path",
+        "__dirname",
+        "pathname",
+        "fs",
+        "filePath",
+        "err",
+        "data",
+        "err",
+        "listener",
+        "req",
+        "res",
+        "res",
+        "mime",
+        "filePath",
+        "res",
+        "data"
+    ],
+    "literals": [
+        "'http'",
+        "'fs'",
+        "'mime'",
+        "'path'",
+        "'url'",
+        "'request'",
+        "'request'",
+        "'request'",
+        "${__dirname}/../dist/${pathname}",
+        "'Content-type'"
+    ],
+    "variables": [
+        "listeners",
+        "pathname",
+        "filePath"
+    ],
+    "comments": [
+        "Serve static files so we can test production builds in hot-reload mode",
+        "If we can't find file in /dist/ fallback to webpack"
+    ],
+    "docstrings": [],
+    "functions": [
+        "staticServer"
+    ],
+    "classes": []
+}

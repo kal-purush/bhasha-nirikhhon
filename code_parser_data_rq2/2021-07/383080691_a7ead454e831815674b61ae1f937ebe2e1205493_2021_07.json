@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "router",
+        "res",
+        "Workout",
+        "body",
+        "dbWorkout",
+        "res",
+        "dbWorkout",
+        "err",
+        "res",
+        "err",
+        "router",
+        "req",
+        "res",
+        "Workout",
+        "dbWorkout",
+        "res",
+        "dbWorkout",
+        "err",
+        "res",
+        "err",
+        "router"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"../models/workout.js\"",
+        "\"/api/workouts\"",
+        "\"/api/workouts\""
+    ],
+    "variables": [
+        "router",
+        "Workout"
+    ],
+    "comments": [
+        "router.post(\"/api/workouts/bulk\", ({ body }, res) => {\n  Workout.insertMany(body)\n    .then(dbWorkout => {\n      res.json(dbWorkout);\n    })\n    .catch(err => {\n      res.status(400).json(err);\n    });\n});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

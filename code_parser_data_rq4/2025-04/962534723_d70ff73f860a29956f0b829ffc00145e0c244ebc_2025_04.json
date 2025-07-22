@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "typing",
+        "Union",
+        "alembic",
+        "op",
+        "Union",
+        "op",
+        "execute",
+        "op",
+        "execute"
+    ],
+    "literals": [
+        "'0003'",
+        "'0002'",
+        "\"DROP VIEW IF EXISTS ops_assets_parts_info_server_view\""
+    ],
+    "variables": [
+        "revision",
+        "down_revision",
+        "branch_labels",
+        "depends_on",
+        "ops_assets_parts_info_server_view"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic.",
+        "### 服务器配件行转列 视图 ###"
+    ],
+    "docstrings": [
+        "\"\"\"create asset server part view\n\nRevision ID: 0003\nRevises: 0002\nCreate Date: 2025-03-01 10:00:00\n\n\"\"\"",
+        "\"\"\"\n        CREATE VIEW ops_assets_parts_info_server_view AS\n        select oapi.asset_id, \n        MAX(CASE WHEN oapi.part_type = 'cpu' THEN oapi.part_config else null END) AS 'asset_part_cpu',\n        MAX(CASE WHEN oapi.part_type = 'cpu_cores' THEN oapi.part_config else null END) AS 'asset_part_cpu_cores',\n        MAX(CASE WHEN oapi.part_type = 'data_disk' THEN oapi.part_config else null END) AS 'asset_part_data_disk',\n        MAX(CASE WHEN oapi.part_type = 'disk' THEN oapi.part_config else null END) AS 'asset_part_disk',\n        MAX(CASE WHEN oapi.part_type = 'gpu' THEN oapi.part_config else null END) AS 'asset_part_gpu',\n        MAX(CASE WHEN oapi.part_type = 'ib_card' THEN oapi.part_config else null END) AS 'asset_part_ib_card',\n        MAX(CASE WHEN oapi.part_type = 'memory' THEN oapi.part_config else null END) AS 'asset_part_memory',\n        MAX(CASE WHEN oapi.part_type = 'module' THEN oapi.part_config else null END) AS 'asset_part_module',\n        MAX(CASE WHEN oapi.part_type = 'nic' THEN oapi.part_config else null END) AS 'asset_part_nic'\n        from ops_assets_parts_info oapi where oapi.asset_id is not null group by oapi.asset_id;\n    \"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

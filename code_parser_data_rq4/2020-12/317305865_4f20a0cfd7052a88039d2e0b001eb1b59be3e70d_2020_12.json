@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'ToastMessage1597626060119'",
+        "ALTER TABLE \"toast\" ADD COLUMN \"message\" character varying;\n      UPDATE \"toast\" SET \"message\" = \"\";\n      ALTER TABLE \"toast\" ALTER COLUMN \"message\" SET NOT NULL;",
+        "DROP TABLE \"toast\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2020, Henrik Geißler"
+    ],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "ToastMessage1597626060119"
+    ]
+}

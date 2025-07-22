@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "org",
+        "dcache",
+        "gplazma",
+        "scitoken",
+        "java",
+        "util",
+        "Optional",
+        "diskCacheV111",
+        "util",
+        "FsPath",
+        "org",
+        "dcache",
+        "auth",
+        "attributes",
+        "MultiTargetedRestriction",
+        "Authorisation",
+        "FunctionalInterface",
+        "AuthorisationSupplier",
+        "prefix"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "dCache - http://www.dcache.org/\n *\n * Copyright (C) 2020 Deutsches Elektronen-Synchrotron\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU Affero General Public License as\n * published by the Free Software Foundation, either version 3 of the\n * License, or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program.  If not, see <http://www.gnu.org/licenses/>.",
+        "* An AuthorisationSupplier is something that may return a relocatable\n * Authorisation statement.",
+        "* Provides an authorisation statement.  There is a path argument to allow\n     * the supplier to resolve any relative paths.\n     * @param prefix The path to resolve relative paths.\n     * @return Empty if no authorisation, or a non-null Authorisation statement."
+    ],
+    "functions": [
+        "authorisation"
+    ],
+    "classes": []
+}

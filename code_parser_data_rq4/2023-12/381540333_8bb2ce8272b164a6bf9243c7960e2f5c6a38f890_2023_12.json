@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [
+        "<style>\n\n* {\n  box-sizing: border-box;\n}\n\n/* Control the left side */\n.left {\n  float:left;\n  width:50%;\n    padding-top: 90px;\n    padding-right: 0px;\n    padding-bottom: 50px;\n    padding-left: 400px;\n}\n\n/* Control the right side */\n.right {\n  float:right;\n  width:50%;\n  padding-top: 20px;\n  padding-right: 400px;\n  padding-bottom: 50px;\n  padding-left: 0px;\n}\n\n.padding {\n  padding: 20px 350px;\n}\n\n.cv {\n  background-color: #333;   /*Color of the bar */\n}\n\n/* If you want the content centered horizontally and vertically */\n.centered {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  text-align: center;\n}\n/* Style the image inside the centered container, if needed */\n.centered img {\n  width: 150px;\n  border-radius: 50%;\n}\n\n* {\n  box-sizing: border-box;\n}\nbody {\n  margin: 0;\n}\n/* Style the header */\n.header {\n  background-color: #f1f1f1;\n  padding: 20px;\n  text-align: center;\n}\n/* Style the top navigation bar */\n.topnav {\n  overflow: hidden;\n  background-color: #333;   /*Color of the bar */\n}\n/* Style the topnav links */\n.topnav a {\n  display: inline-block;\n  list-style-type: none;\n  color: #f2f2f2;           /*Color of the text */\n  text-align: center;\n  padding: 14px 16px;\n  text-decoration: none;\n}\n/* Change color on hover */\n.topnav a:hover {\n  background-color: #ddd;       /*Color when hovering (gray) */\n  color: black;\n}\n@media only screen and (max-width:800px) {\n  /* For tablets: */\n  .main {\n    width: 80%;\n    padding: 0;\n  }\n  .right {\n    width: 100%;\n  }\n\n    .menu, .main, .right {\n      padding: 10px;\n  }\n}\n@media only screen and (max-width:500px) {\n  /* For mobile phones: */\n  .menu, .main, .right {\n    width: 100%;\n    padding: 10px;\n  }\n}\n</style>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

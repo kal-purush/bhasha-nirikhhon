@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "nodemailer",
+        "env",
+        "env",
+        "env",
+        "env",
+        "mailId",
+        "env",
+        "mailId",
+        "subject",
+        "text",
+        "transporter",
+        "mailOptions",
+        "err",
+        "info",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "'../environment'",
+        "\"nodemailer\"",
+        "Mail Name <${env.noReplyMail.userName}>",
+        "'success'"
+    ],
+    "variables": [
+        "env",
+        "nodemailer",
+        "transporter",
+        "mailOptions"
+    ],
+    "comments": [
+        "from: env.noReplyMail.userName,"
+    ],
+    "docstrings": [],
+    "functions": [
+        "triggerMail"
+    ],
+    "classes": []
+}

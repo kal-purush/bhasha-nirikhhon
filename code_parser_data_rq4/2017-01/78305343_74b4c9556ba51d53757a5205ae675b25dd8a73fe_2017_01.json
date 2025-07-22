@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "IFilter",
+        "IFilterParams",
+        "IDoesFilterPassParams",
+        "Component",
+        "QuerySelector",
+        "Listener",
+        "Autowired",
+        "Context",
+        "filterDate",
+        "valueDate",
+        "Component",
+        "Autowired",
+        "Listener",
+        "Component",
+        "QuerySelector",
+        "Autowired",
+        "QuerySelector",
+        "model"
+    ],
+    "literals": [
+        "\"../interfaces/iFilter\"",
+        "\"../widgets/component\"",
+        "\"../widgets/componentAnnotations\"",
+        "\"../context/context\"",
+        "'context'",
+        "<div>Click Me!!!</div>",
+        "'click'",
+        "'button panel was clicked'",
+        "'hello'",
+        "'input'",
+        "'context'",
+        "'button-panel'",
+        "<div><input type=\"date\" placeholder=\"enter date\"/><button-panel/></div>",
+        "'change'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "onClick",
+        "sayHello",
+        "init",
+        "onDateChanged",
+        "isFilterActive",
+        "doesFilterPass",
+        "getModel",
+        "setModel"
+    ],
+    "classes": [
+        "ButtonPanel",
+        "DateFilter"
+    ]
+}

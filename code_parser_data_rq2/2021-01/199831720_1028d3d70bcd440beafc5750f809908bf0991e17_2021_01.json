@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "org",
+        "acme",
+        "scheduler",
+        "java",
+        "util",
+        "concurrent",
+        "atomic",
+        "AtomicInteger",
+        "javax",
+        "enterprise",
+        "context",
+        "ApplicationScoped",
+        "io",
+        "quarkus",
+        "scheduler",
+        "Scheduled",
+        "io",
+        "quarkus",
+        "scheduler",
+        "ScheduledExecution",
+        "ApplicationScoped",
+        "counter",
+        "counter",
+        "get",
+        "Scheduled",
+        "every",
+        "counter",
+        "incrementAndGet",
+        "Scheduled",
+        "cron",
+        "execution",
+        "counter",
+        "incrementAndGet",
+        "execution",
+        "getScheduledFireTime",
+        "Scheduled",
+        "cron",
+        "counter",
+        "incrementAndGet"
+    ],
+    "literals": [
+        "\"10s\"",
+        "\"0 15 10 * * ?\"",
+        "\"{cron.expr}\"",
+        "\"Cron expression configured in application.properties\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "get",
+        "increment",
+        "cronJob",
+        "cronJobWithExpressionInConfig"
+    ],
+    "classes": [
+        "CounterBean"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Xunit",
+        "Abstractions",
+        "Rise",
+        "Client",
+        "Pages",
+        "TestContext",
+        "ITestOutputHelper",
+        "outputHelper",
+        "Services",
+        "AddXunitLogger",
+        "outputHelper",
+        "Fact",
+        "RenderComponent",
+        "Counter",
+        "cut",
+        "Find",
+        "MarkupMatches",
+        "Fact",
+        "RenderComponent",
+        "Counter",
+        "cut",
+        "Find",
+        "Click",
+        "cut",
+        "Find",
+        "MarkupMatches"
+    ],
+    "literals": [
+        "\"p\"",
+        "\"<p diff:ignoreAttributes>Current count: 0</p>\"",
+        "\"button\"",
+        "\"p\"",
+        "\"<p diff:ignoreAttributes>Current count: 1</p>\""
+    ],
+    "variables": [
+        "cut",
+        "cut"
+    ],
+    "comments": [
+        "These tests are written entirely in C#.",
+        "Learn more at https://bunit.dev/docs/getting-started/writing-tests.html#creating-basic-tests-in-cs-files",
+        "</summary>",
+        "Arrange",
+        "Assert that content of the paragraph shows counter at zero",
+        "Arrange",
+        "Act - click button to increment counter",
+        "Assert that the counter was incremented"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "CounterShould",
+        "CounterStartsAtZero",
+        "ClickingButtonIncrementsCounter"
+    ],
+    "classes": [
+        "CounterShould"
+    ]
+}

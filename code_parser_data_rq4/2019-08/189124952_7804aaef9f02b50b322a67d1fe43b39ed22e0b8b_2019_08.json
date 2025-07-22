@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "NetRPG",
+        "Runtime",
+        "Functions",
+        "BIF",
+        "RPGFunctionAlias",
+        "parameters",
+        "parameters",
+        "Length",
+        "parameters",
+        "Length",
+        "ThrowRuntimeError",
+        "parameters",
+        "Length",
+        "parameters",
+        "Length",
+        "parameters",
+        "parameters",
+        "ThrowRuntimeError",
+        "parameters",
+        "parameters",
+        "startPos",
+        "parameters",
+        "startPos",
+        "ThrowRuntimeError",
+        "parameters",
+        "parameters",
+        "Length",
+        "parameters",
+        "length",
+        "parameters",
+        "ThrowRuntimeError",
+        "parameters",
+        "length",
+        "Substring",
+        "startPos",
+        "Substring",
+        "startPos",
+        "length"
+    ],
+    "literals": [
+        "\"%SUBST\"",
+        "\"\"",
+        "\"%SUBST\"",
+        "\"Invalid argument length: \"",
+        "\"%SUBST\"",
+        "\"Invalid string: \"",
+        "\"%SUBST\"",
+        "\"Invalid start position: \"",
+        "\"%SUBST\"",
+        "\"Invalid length: \""
+    ],
+    "variables": [
+        "startPos",
+        "length"
+    ],
+    "comments": [
+        "Start position -1 because RPG start to count from 1 and C# from 0"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Execute"
+    ],
+    "classes": [
+        "Substring"
+    ]
+}

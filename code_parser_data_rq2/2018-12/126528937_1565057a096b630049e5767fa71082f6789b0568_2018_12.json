@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Net",
+        "Http",
+        "Threading",
+        "Tasks",
+        "Newtonsoft",
+        "Json",
+        "Linq",
+        "Refit",
+        "TextMood",
+        "IPhilipsHueBridgeApi",
+        "Get",
+        "JObject",
+        "philipsHueBridgeUsername",
+        "Post",
+        "PhilipsHueUsernameDiscoveryModel",
+        "Body",
+        "PhilipsHueDeviceTypeModel",
+        "device",
+        "Put",
+        "Body",
+        "LightModel",
+        "light",
+        "philipsHueBridgeUsername",
+        "lightNumber",
+        "Get",
+        "HttpResponseMessage"
+    ],
+    "literals": [
+        "\"/api/{philipsHueBridgeUsername}/lights\"",
+        "\"/api\"",
+        "\"/api/{philipsHueBridgeUsername}/lights/{lightNumber}/state\"",
+        "\"/\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "GetNumberOfLights",
+        "AutoDetectUsername",
+        "UpdateLightBulbColor",
+        "GetPhilipsHueBridgeResponse"
+    ],
+    "classes": []
+}

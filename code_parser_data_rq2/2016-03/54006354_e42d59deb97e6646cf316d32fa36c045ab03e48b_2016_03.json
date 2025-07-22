@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Component",
+        "Output",
+        "EventEmitter",
+        "Component",
+        "Output",
+        "EventEmitter",
+        "item",
+        "item"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "\"angular2/core\"",
+        "\"autocomplete-list\"",
+        "<div class=\"dropdown-menu  search-results\">\n                    <a *ngFor=\"#item of list\" class=\"dropdown-item\" (click)=\"onClick(item)\">{{item.text}}</a>\n               </div>",
+        "\".search-results { position: relative; right: 0; display: block; padding: 0; overflow: hidden; font-size: .9rem;}\"",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "onClick"
+    ],
+    "classes": [
+        "AutocompleteList"
+    ]
+}

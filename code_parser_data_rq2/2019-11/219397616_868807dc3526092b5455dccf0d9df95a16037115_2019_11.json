@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "React",
+        "Movie",
+        "movie",
+        "DEFAULT_PLACEHOLDER_IMAGE",
+        "movie",
+        "div",
+        "h2",
+        "movie",
+        "h2",
+        "div",
+        "img",
+        "movie",
+        "poster",
+        "div",
+        "p",
+        "movie",
+        "p",
+        "div",
+        "Movie"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"https://m.media-amazon.com/images/M/MV5BMTczNTI2ODUwOF5BMl5BanBnXkFtZTcwMTU0NTIzMw@@._V1_SX300.jpg\"",
+        "\"N/A\"",
+        "\"movie\"",
+        "\"200\"",
+        "The movie titled: ${movie.Title}"
+    ],
+    "variables": [
+        "DEFAULT_PLACEHOLDER_IMAGE",
+        "Movie",
+        "poster"
+    ],
+    "comments": [
+        "presentational component (it doesn’t have any internal state) that renders the movie title, image, and year.",
+        "The reason for the DEFAULT_PLACEHOLDER_IMAGE is because some movies retrieved from the API do not have images,",
+        "so we will render a placeholder image instead of a broken link."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

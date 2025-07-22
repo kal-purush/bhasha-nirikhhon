@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "e",
+        "e",
+        "e",
+        "e",
+        "accordionSwitch",
+        "$",
+        "el",
+        "el",
+        "section",
+        "section",
+        "section",
+        "section",
+        "section",
+        "content",
+        "siblings",
+        "siblings",
+        "content",
+        "section",
+        "jQuery"
+    ],
+    "literals": [
+        "'.accordion-container'",
+        "'click keydown'",
+        "'.accordion-section-title'",
+        "'keydown'",
+        "'.accordion-section'",
+        "'.accordion-container'",
+        "'.open'",
+        "'.accordion-section-content'",
+        "'cannot-expand'",
+        "'open'",
+        "'open'",
+        "'open'",
+        "'.accordion-section-content'",
+        "'open'"
+    ],
+    "variables": [
+        "section",
+        "siblings",
+        "content"
+    ],
+    "comments": [
+        "Expand/Collapse accordion sections on click.",
+        "\"return\" key",
+        "Keep this AFTER the key filter above",
+        "This section has no content and cannot be expanded."
+    ],
+    "docstrings": [
+        "* Accordion-folding functionality.\n *\n * Markup with the appropriate classes will be automatically hidden,\n * with one section opening at a time when its title is clicked.\n * Use the following markup structure for accordion behavior:\n *\n * <div class=\"accordion-container\">\n *\t<div class=\"accordion-section open\">\n *\t\t<h3 class=\"accordion-section-title\"></h3>\n *\t\t<div class=\"accordion-section-content\">\n *\t\t</div>\n *\t</div>\n *\t<div class=\"accordion-section\">\n *\t\t<h3 class=\"accordion-section-title\"></h3>\n *\t\t<div class=\"accordion-section-content\">\n *\t\t</div>\n *\t</div>\n *\t<div class=\"accordion-section\">\n *\t\t<h3 class=\"accordion-section-title\"></h3>\n *\t\t<div class=\"accordion-section-content\">\n *\t\t</div>\n *\t</div>\n * </div>\n *\n * Note that any appropriate tags may be used, as long as the above classes are present.\n *\n * @since 3.6.0.",
+        "* Close the current accordion section and open a new one.\n\t *\n\t * @param {Object} el Title element of the accordion section to toggle.\n\t * @since 3.6.0"
+    ],
+    "functions": [
+        "accordionSwitch"
+    ],
+    "classes": []
+}

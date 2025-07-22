@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Env",
+        "FileOperator",
+        "promises",
+        "fs",
+        "path",
+        "CogJob",
+        "folder",
+        "Env",
+        "Env",
+        "path",
+        "tempPath",
+        "folder",
+        "fs",
+        "folderPath",
+        "folderPath",
+        "job",
+        "key",
+        "key",
+        "FileOperator",
+        "job",
+        "job",
+        "job",
+        "job",
+        "key",
+        "FileOperator",
+        "job",
+        "job",
+        "job",
+        "job"
+    ],
+    "literals": [
+        "'@basemaps/shared'",
+        "'fs'",
+        "'path'",
+        "'../cog'",
+        "string",
+        "string",
+        "'/tmp'",
+        "string",
+        "string",
+        "'/'",
+        "'/'"
+    ],
+    "variables": [
+        "tempPath",
+        "folderPath"
+    ],
+    "comments": [
+        "Make a temp folder inside TEMP_FOLDER's path"
+    ],
+    "docstrings": [
+        "* Get a nicely formatted folder path based on the job\n *\n * @param job job to get path for\n * @param key optional file key inside of the job folder"
+    ],
+    "functions": [
+        "makeTempFolder",
+        "getJobPath"
+    ],
+    "classes": []
+}

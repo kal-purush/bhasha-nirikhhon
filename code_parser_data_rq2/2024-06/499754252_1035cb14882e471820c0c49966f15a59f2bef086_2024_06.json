@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "TEST_MULTIPLE_CONNECTIONS",
+        "CompassBrowser",
+        "Selectors",
+        "browser",
+        "itemSelector",
+        "TEST_MULTIPLE_CONNECTIONS",
+        "Selectors",
+        "Selectors",
+        "TEST_MULTIPLE_CONNECTIONS",
+        "Selectors",
+        "browser",
+        "selector",
+        "browser",
+        "Selectors",
+        "browser",
+        "selector",
+        "selector",
+        "browser",
+        "selector",
+        "browser",
+        "Sidebar",
+        "browser",
+        "Sidebar",
+        "browser",
+        "itemSelector"
+    ],
+    "literals": [
+        "'../compass'",
+        "'../compass-browser'",
+        "'../selectors'",
+        "string",
+        "*:not(${selector}, ${selector} *)"
+    ],
+    "variables": [
+        "Sidebar",
+        "selector"
+    ],
+    "comments": [
+        "In the single connection world the button only appears on hover",
+        "workaround for weirdness in the ItemActionControls menu opener icon",
+        "Hover over an arbitrary other element to ensure that the second hover will",
+        "actually be a fresh one. This otherwise breaks if this function is called",
+        "twice in a row."
+    ],
+    "docstrings": [],
+    "functions": [
+        "selectConnectionsMenuItem"
+    ],
+    "classes": []
+}

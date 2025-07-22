@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "SortType",
+        "HistoryOrderStatus"
+    ],
+    "literals": [
+        "'DATE_ASC'",
+        "'DATE_DESC'",
+        "'TOTAL_ASC'",
+        "'TOTAL_DESC'",
+        "'COMPLETED'",
+        "'FAILED'",
+        "'CANCELLED'"
+    ],
+    "variables": [],
+    "comments": [
+        "timestamp",
+        "timestamp",
+        "OPTIONAL - COMPLETED | FAILED | CANCELLED",
+        "OPTIONAL",
+        "REQUIRED",
+        "REQUIRED"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "TimeRange",
+        "GetOrderHistoryByRestaurantRequest"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "random",
+        "multiprocessing",
+        "Process",
+        "i",
+        "myStr",
+        "ord",
+        "i",
+        "charList",
+        "append",
+        "i",
+        "random",
+        "randint",
+        "randomKeyList",
+        "append",
+        "n",
+        "encryptedValues",
+        "append",
+        "n",
+        "i",
+        "ele",
+        "len",
+        "encryptedValues",
+        "total",
+        "encryptedValues",
+        "ele",
+        "total",
+        "Process",
+        "target",
+        "test_stuff",
+        "p1",
+        "start",
+        "Process",
+        "target",
+        "test_stuff",
+        "p2",
+        "start"
+    ],
+    "literals": [
+        "''",
+        "\"Hello World!\"",
+        "'__main__'"
+    ],
+    "variables": [
+        "total",
+        "i",
+        "myStr",
+        "randomKeyList",
+        "charList",
+        "encryptedValues",
+        "i",
+        "n",
+        "total",
+        "p1",
+        "p2"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\nkeyValues = [1, 6, 5, 79, 8, 1, 2, 3]\nstring_to_encrypt = 'Hello There, 1234'\ncharacterList = []\n\n\nclass EDAlgorithm:\n    @staticmethod\n    def encrypt():\n        for i in string_to_encrypt:\n            x = ord(i)\n            characterList.append(hex(x))\n        for\n\n    @staticmethod\n    def decrypt():\n        back_to_string = []\n        hex_list = []\n        for hex_values in characterList:\n            hex_values = int(hex_values, 16)\n            hex_list.append(hex_values)\n        for more_hex in hex_list:\n            char_hex = chr(more_hex)\n            back_to_string.append(char_hex)\n        back_to_string = \"\".join(back_to_string)\n        print(back_to_string)\n\n\ndef main():\n    EDAlgorithm.encrypt()\n    EDAlgorithm.decrypt()\n\n\nmain()\n'''"
+    ],
+    "functions": [
+        "test_stuff"
+    ],
+    "classes": []
+}

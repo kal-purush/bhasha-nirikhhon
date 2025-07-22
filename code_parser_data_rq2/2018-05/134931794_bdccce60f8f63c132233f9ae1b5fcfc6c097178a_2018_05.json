@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Management",
+        "Automation",
+        "Management",
+        "Automation",
+        "Runspaces",
+        "PortableModule",
+        "Cmdlet",
+        "OutputType",
+        "PSCmdlet",
+        "Parameter",
+        "Position",
+        "ValueFromPipeline",
+        "ValueFromPipelineByPropertyName",
+        "Environment",
+        "CurrentDirectory",
+        "WriteObject",
+        "LibGit2Sharp",
+        "Repository",
+        "Discover",
+        "Path"
+    ],
+    "literals": [
+        "\"Get\"",
+        "\"GitPath\""
+    ],
+    "variables": [
+        "Path"
+    ],
+    "comments": [
+        "This method gets called once for each cmdlet in the pipeline when the pipeline starts executing",
+        "This method will be called for each input received from the pipeline to this cmdlet; if no input is received, this method is not called",
+        "WriteObject(new FavoriteStuff {",
+        "FavoriteNumber = FavoriteNumber,",
+        "FavoritePet = FavoritePet",
+        "});",
+        "This method will be called once at the end of pipeline execution; if no input is received, this method is not called",
+        "WriteVerbose(\"End!\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "BeginProcessing",
+        "ProcessRecord",
+        "EndProcessing"
+    ],
+    "classes": [
+        "GetGitPathCommand"
+    ]
+}

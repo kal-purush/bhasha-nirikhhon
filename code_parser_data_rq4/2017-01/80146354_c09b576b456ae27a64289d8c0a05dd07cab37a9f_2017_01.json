@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "element",
+        "elementsToToggle",
+        "element",
+        "id",
+        "element",
+        "element",
+        "id"
+    ],
+    "literals": [
+        "\"message-card\"",
+        "\"delete-button\"",
+        "\"message-display\"",
+        "\"message-wrapper\"",
+        "\"nav-element\"",
+        "\"clear-button\"",
+        "\"new-message\"",
+        "\"text-message\"",
+        "'--stuff in our loop--'",
+        "'togglingElements'",
+        "${id}-dark"
+    ],
+    "variables": [
+        "elementsToToggle",
+        "id"
+    ],
+    "comments": [
+        "We grab the id, because we're gonna use it in each",
+        "class name for the dark theme.",
+        "",
+        "Now we toggle the theme from light to dark.",
+        ""
+    ],
+    "docstrings": [],
+    "functions": [
+        "toggleStyles"
+    ],
+    "classes": []
+}

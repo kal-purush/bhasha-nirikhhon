@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Base",
+        "AUTHENTICATION_SERVICE_ORIGIN",
+        "Base",
+        "process",
+        "AUTHENTICATION_SERVICE_ORIGIN",
+        "idToken",
+        "idToken"
+    ],
+    "literals": [
+        "'./Base'",
+        "'./origins'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "${this.origin}/"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "origin",
+        "authenticate"
+    ],
+    "classes": [
+        "Authentication"
+    ]
+}

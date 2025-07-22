@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "View",
+        "SetupService",
+        "inspect",
+        "View",
+        "SetupService",
+        "request",
+        "response",
+        "response",
+        "response",
+        "response",
+        "exception",
+        "inspect",
+        "exception"
+    ],
+    "literals": [
+        "'@ioc:Adonis/Core/View'",
+        "\"../../../services/SetupService\"",
+        "\"util\"",
+        "'setup_index'",
+        "Errors: ${JSON.stringify(response.errors)}",
+        "Domain queued successfully: ${response.domain}. \\r\\nDomains in queue ${response.domainsInQueue}."
+    ],
+    "variables": [
+        "response"
+    ],
+    "comments": [
+        "import { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'"
+    ],
+    "docstrings": [],
+    "functions": [
+        "index",
+        "submit"
+    ],
+    "classes": [
+        "LandingController"
+    ]
+}

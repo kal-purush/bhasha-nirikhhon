@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Microsoft",
+        "Azure",
+        "WebJobs",
+        "Host",
+        "Scale",
+        "IDictionary",
+        "ScaleStatus",
+        "IDictionary",
+        "TargetScalerResult"
+    ],
+    "literals": [],
+    "variables": [
+        "ScaleVote",
+        "Vote",
+        "TargetWorkerCount",
+        "FunctionScaleStatuses",
+        "FunctionTargetScalerResults"
+    ],
+    "comments": [
+        "Copyright (c) .NET Foundation. All rights reserved.",
+        "Licensed under the MIT License. See License.txt in the project root for license information.",
+        "Represents the aggregate scale status across all functions being monitored by the host.",
+        "</summary>",
+        "Gets or sets the aggregate scale vote.",
+        "</summary>",
+        "Gets or sets the aggregate target worker count.",
+        "</summary>",
+        "Gets or sets the individual <see cref=\"ScaleStatus\"/>s for all functions being monitored.",
+        "</summary>",
+        "Gets or sets the individual <see cref=\"TargetScalerResult\"/>s for all functions being monitored.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "AggregateScaleStatus"
+    ]
+}

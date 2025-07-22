@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "LitElement",
+        "css",
+        "html",
+        "customElement",
+        "property",
+        "query",
+        "todoStore",
+        "ITodoStore",
+        "customElement",
+        "LitElement",
+        "css",
+        "property",
+        "todoStore",
+        "property",
+        "query",
+        "html"
+    ],
+    "literals": [
+        "'lit'",
+        "'lit/decorators.js'",
+        "'../../store/todo'",
+        "'todo-input'",
+        ":host {\n      display: flex;\n      width: 96%;\n      height: 48px;\n      position: relative;\n      margin: 1rem auto 2rem auto;\n      border-radius: 1rem;\n    }\n\n    input {\n      font-size: 1rem;\n      color: rgb(var(--kemet-color-gray-300));\n      width: 100%;\n      padding: 0 1.5rem;\n      border: 0;\n      outline: 6px solid rgb(var(--kemet-color-black) / 25%);\n      border-radius: 9999px;\n      background: rgb(var(--kemet-color-black) / 25%);\n    }\n\n    button {\n      cursor: pointer;\n      font-size: 1.25rem;\n      position: absolute;\n      right: 0;\n      padding: 0 12%;\n      height: 48px;\n      border: 0;\n      border-radius: 9999px;\n    }",
+        "string",
+        "'Add'",
+        "'input'",
+        "<input />\n      <button @click=${() => this.handleClick()}>${this.label}</button>",
+        "'todo-input'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "render",
+        "handleClick"
+    ],
+    "classes": [
+        "TodoInput"
+    ]
+}

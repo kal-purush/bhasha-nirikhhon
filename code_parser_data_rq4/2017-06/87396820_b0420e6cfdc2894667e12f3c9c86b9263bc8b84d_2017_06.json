@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Component",
+        "NavController",
+        "NavParams",
+        "ViewController",
+        "Score",
+        "User",
+        "DictionaryHelpFunctions",
+        "Component",
+        "id",
+        "viewController",
+        "_score",
+        "_user",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "DictionaryHelpFunctions",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'ionic-angular'",
+        "\"../../providers/score\"",
+        "\"../../providers/user\"",
+        "\"../../assets/dictionaryHelpFunctions\"",
+        "'page-leader-board'",
+        "'leader-board.html'",
+        "string",
+        "'child_added'",
+        "'child_added'",
+        "\"data key \"",
+        "\"data value\"",
+        "\"scores1 \"",
+        "\"scores1 data key\"",
+        "\"scores1 data key score \"",
+        "\"scores1 data key user \""
+    ],
+    "variables": [],
+    "comments": [
+        "this._score.getAllScores().orderByValue().on('child_added', (data) => {",
+        "this._user.getUser(data.key).then(user => {",
+        "this.userScore = user.val();",
+        "console.log(\"user \"+ data.);",
+        "this._user.getUser(data.key).then((userDetail) => {\n        this.scores1[data.key].user = userDetail.val();\n      });"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "LeaderboardPage"
+    ]
+}

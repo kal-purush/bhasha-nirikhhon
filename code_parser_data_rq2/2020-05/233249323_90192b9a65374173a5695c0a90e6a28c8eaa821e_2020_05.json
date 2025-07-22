@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "metric_key",
+        "metric_value",
+        "metric_human_name",
+        "icon",
+        "metric_unit",
+        "metric_key",
+        "metric_value",
+        "metric_human_name",
+        "metric_unit",
+        "icon",
+        "container",
+        "container",
+        "container",
+        "html",
+        "html"
+    ],
+    "literals": [
+        "''",
+        "<div class=\"device-metric col s6 m3\" data-metric=\"${this.metric_key}\">\n        <div class=\"card horizontal\">\n          <div class=\"card-image icon\">\n            <i class=\"material-icons\">${this.icon}</i>\n          </div>\n          <div class=\"card-stacked\">\n            <div class=\"card-content\">\n              <div class=\"name\">${this.metric_human_name}</div>\n              <div class=\"card-title value\">${this.metric_value}</div>\n              <div class=\"unit\">${this.metric_unit}</div>\n            </div>\n          </div>\n        </div>\n      </div>",
+        "'afterbegin'"
+    ],
+    "variables": [
+        "html"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "render"
+    ],
+    "classes": [
+        "DeviceMetric"
+    ]
+}

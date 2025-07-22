@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "n",
+        "n",
+        "n",
+        "n",
+        "ValueError",
+        "i",
+        "n",
+        "result",
+        "i",
+        "result",
+        "n",
+        "r",
+        "factorial",
+        "n",
+        "factorial",
+        "r",
+        "factorial",
+        "n",
+        "r",
+        "n",
+        "i",
+        "j",
+        "nCr",
+        "i",
+        "j",
+        "j",
+        "i"
+    ],
+    "literals": [
+        "\"No factorial of a negative number\""
+    ],
+    "variables": [
+        "result",
+        "result"
+    ],
+    "comments": [
+        "!/usr/bin/python3"
+    ],
+    "docstrings": [
+        "\"\"\"\nContains the Pascal triangle implementation\nalong with helper functions\nFrom the binomial expansion of (a + b)**n, to get the coefficients of terms we use nCr:\nThese coefficients correspond to the numbers in the Pascal Triangle at row n. \n\"\"\"",
+        "\"\"\"\nReturns the factorial of a given number\nNeeded in the implementation of the nCr function\n\"\"\"",
+        "\"\"\"helper function for pascal_triangle\n  Computes nCr which is useful in creating the triangle\n\"\"\"",
+        "\"\"\"Creates the pascal triangle with n rows\n  \"\"\""
+    ],
+    "functions": [
+        "factorial",
+        "nCr",
+        "pascal_triangle"
+    ],
+    "classes": []
+}

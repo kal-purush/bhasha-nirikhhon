@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "imageWidth",
+        "imageHeight",
+        "batchSize"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n        \"\"\"",
+        "\"\"\"\n        getNextBatch returns a 2-tuple of (batchImages, batchLabels).\n        batchImages and batchLabels are both arrays, where the image\n        at index i in batchImages corresponds to the label at index \n        i in batchLabels.\n\n        input: \n            batchSize: int, number of images and labels to include\n            in the mini batch returned by getNextBatch\n\n        output:\n            batchImages: numpy array [batchSize x [imageWidth x imageHeight]]\n\n            batchLabels: numpy array [batchSize x [numImageClasses]]\n        \"\"\"",
+        "\"\"\"\n        \"\"\"",
+        "\"\"\"\n        \"\"\"",
+        "\"\"\"\n        \"\"\""
+    ],
+    "functions": [
+        "getNextBatch",
+        "getTestImages",
+        "getTestLabels",
+        "getTrainingSetSize"
+    ],
+    "classes": [
+        "DeepDog"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "defineConfig",
+        "vitestSetupFilePath",
+        "getClarinetVitestsArgv",
+        "defineConfig",
+        "vitestSetupFilePath",
+        "getClarinetVitestsArgv"
+    ],
+    "literals": [
+        "\"vite\"",
+        "\"@hirosystems/clarinet-sdk/vitest\"",
+        "\"clarinet\"",
+        "\"forks\""
+    ],
+    "variables": [],
+    "comments": [
+        "<reference types=\"vitest\" />",
+        "In this file, Vitest is configured so that it works seamlessly with Clarinet and the Simnet.\n\n  The `vitest-environment-clarinet` will initialise the clarinet-sdk\n  and make the `simnet` object available globally in the test files.\n\n  `vitestSetupFilePath` points to a file in the `@hirosystems/clarinet-sdk` package that does two things:\n    - run `before` hooks to initialize the simnet and `after` hooks to collect costs and coverage reports.\n    - load custom vitest matchers to work with Clarity values (such as `expect(...).toBeUint()`)\n\n  The `getClarinetVitestsArgv()` will parse options passed to the command `vitest run --`\n    - vitest run -- --manifest ./Clarinet.toml  # pass a custom path\n    - vitest run -- --coverage --costs          # collect coverage and cost reports",
+        "use vitest-environment-clarinet",
+        "custom setup files can be added here",
+        "add or override options"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

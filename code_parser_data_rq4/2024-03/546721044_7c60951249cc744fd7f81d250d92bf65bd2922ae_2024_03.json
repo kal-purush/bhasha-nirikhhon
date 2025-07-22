@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Reflection",
+        "TestServer",
+        "Assembly",
+        "GetExecutingAssembly",
+        "entrypointAssembly",
+        "GetCustomAttributes",
+        "AssemblyMetadataAttribute",
+        "FirstOrDefault",
+        "x",
+        "Key",
+        "Equals",
+        "StringComparison",
+        "Ordinal",
+        "attribute",
+        "Parse",
+        "attribute",
+        "Value",
+        "IApplicationBuilder",
+        "app",
+        "MultithreadingIsEnabled",
+        "app",
+        "Use",
+        "ctx",
+        "next",
+        "ctx",
+        "Response",
+        "Headers",
+        "Append",
+        "ctx",
+        "Response",
+        "Headers",
+        "Append",
+        "next",
+        "ctx"
+    ],
+    "literals": [
+        "\"Microsoft.AspNetCore.InternalTesting.RunWebAssemblyE2ETestsWithMultithreading\"",
+        "\"Cross-Origin-Embedder-Policy\"",
+        "\"require-corp\"",
+        "\"Cross-Origin-Opener-Policy\"",
+        "\"same-origin\""
+    ],
+    "variables": [
+        "entrypointAssembly",
+        "attribute"
+    ],
+    "comments": [
+        "Licensed to the .NET Foundation under one or more agreements.",
+        "The .NET Foundation licenses this file to you under the MIT license.",
+        "Browser multi-threaded runtime requires cross-origin policy headers to enable SharedArrayBuffer."
+    ],
+    "docstrings": [],
+    "functions": [
+        "MultithreadingIsEnabled",
+        "ServeCoopHeadersIfWebAssemblyThreadingEnabled"
+    ],
+    "classes": [
+        "WebAssemblyTestHelper"
+    ]
+}

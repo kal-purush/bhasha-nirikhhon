@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "com",
+        "construo",
+        "ff4j",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Value",
+        "org",
+        "springframework",
+        "boot",
+        "SpringApplication",
+        "org",
+        "springframework",
+        "boot",
+        "autoconfigure",
+        "SpringBootApplication",
+        "org",
+        "springframework",
+        "boot",
+        "autoconfigure",
+        "security",
+        "servlet",
+        "SecurityAutoConfiguration",
+        "org",
+        "springframework",
+        "boot",
+        "autoconfigure",
+        "thymeleaf",
+        "ThymeleafAutoConfiguration",
+        "SpringBootApplication",
+        "exclude",
+        "args",
+        "SpringApplication",
+        "run",
+        "args"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "Value(\"${somePropertyValue}\")\n    private boolean enableFeature;\n\n    public void calculation() {\n        boolean useNewAlgorithm = false;\n        // useNewAlgorithm = true; // UNCOMMENT IF YOU ARE WORKING ON NEW CALCULATION\n        if (useNewAlgorithm) {\n            enhancedCalculation();\n        } else {\n            oldFashionedCalculation();\n        }\n    }\n\n    private void oldFashionedCalculation() {\n        // current implementation lives here\n    }\n\n    private void enhancedCalculation() {\n        // TODO: implement better SR algorithm\n    }"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "FF4jApplication"
+    ]
+}

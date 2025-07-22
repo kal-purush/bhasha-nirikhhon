@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "string_param",
+        "tuple_param",
+        "float_param",
+        "callback",
+        "basics",
+        "Enum",
+        "MyEnum",
+        "YAY"
+    ],
+    "literals": [
+        "\"string\""
+    ],
+    "variables": [
+        "DATA_DECLARATION",
+        "YAY",
+        "ENUM_THING",
+        "A_ZERO_VALUE",
+        "A_FALSE_VALUE",
+        "A_NONE_VALUE",
+        "LARGE_VALUE_WILL_BE_AN_ELLIPSIS"
+    ],
+    "comments": [
+        "TODO: not visible ATM, need to figure out interaction with __all__",
+        "These should have their value shown in the docs as well, even though they are",
+        "not true-ish",
+        "This value is too long and should be completely omitted"
+    ],
+    "docstrings": [
+        "\"\"\"Value and default argument formatting\"\"\"",
+        "\"\"\"Should produce a deterministic output.\"\"\"",
+        "\"\"\"Lorem ipsum dolor sit amet, consectetur\n    adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore\n    magna aliqua.\"\"\""
+    ],
+    "functions": [
+        "basics",
+        "setup_callback"
+    ],
+    "classes": [
+        "MyEnum"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "package com.shelterhub.service;\n\nimport com.shelterhub.domain.model.Animal;\nimport com.shelterhub.dto.AnimalDTO;\n\nimport java.util.AbstractMap;\nimport java.util.HashMap;\nimport java.util.Map;\n\n\npublic class ModelDtoMapper extends AbstractMap<String, Object> {\n    private final Map<String, Object> modelMap;\n    private final Map<String, Object> dtoMap;\n\n    public ModelDtoMapper() {\n        modelMap = new HashMap<>();\n        dtoMap = new HashMap<>();\n    }\n\n    @Override\n    public Object put(String key, Object value) {\n        return modelMap.put(key, value);\n    }\n\n    @Override\n    public Object get(Object key) {\n        return modelMap.get(key);\n    }\n\n    // Add other required methods based on your needs\n\n    public void mapModelToDto(Model model, Dto dto) {",
+        "erform the mapping from model to dto\n         For example, you can iterate over the modelMap and set values in the dto",
+        "for (Map.Entry<String, Object> entry : modelMap.entrySet()) {\n            String key = entry.getKey();\n            Object value = entry.getValue();\n            // Set the value in the corresponding field of the dto\n            // You may need to use reflection or other mechanisms based on your specific requirements\n            dtoMap.put(key, value);\n        }\n    }\n\n    public void mapDtoToModel(Dto dto, Model model) {\n        // Perform the mapping from dto to model\n        // For example, you can iterate over the dtoMap and set values in the model\n\n        for (Map.Entry<String, Object> entry : dtoMap.entrySet()) {\n            String key = entry.getKey();\n            Object value = entry.getValue();\n            // Set the value in the corresponding field of the model\n            // You may need to use reflection or other mechanisms based on your specific requirements\n            modelMap.put(key, value);\n        }\n    }\n}",
+        "public abstract class AbstractMap<K,V> extends Object, implements Map {\n}"
+    ],
+    "functions": [],
+    "classes": []
+}

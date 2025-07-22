@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "django",
+        "conf",
+        "urls",
+        "url",
+        "include",
+        "django",
+        "contrib",
+        "admin",
+        "url",
+        "admin",
+        "site",
+        "urls",
+        "url",
+        "include"
+    ],
+    "literals": [
+        "r'^admin/'",
+        "r'^api/'",
+        "'api.urls'"
+    ],
+    "variables": [
+        "urlpatterns"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"config URL Configuration\n\nThe `urlpatterns` list routes URLs to views. For more information please see:\n    https://docs.djangoproject.com/en/1.10/topics/http/urls/\nExamples:\nFunction views\n    1. Add an import:  from my_app import views\n    2. Add a URL to urlpatterns:  url(r'^$', views.home, name='home')\nClass-based views\n    1. Add an import:  from other_app.views import Home\n    2. Add a URL to urlpatterns:  url(r'^$', Home.as_view(), name='home')\nIncluding another URLconf\n    1. Import the include() function: from django.conf.urls import url, include\n    2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "AWS",
+        "config",
+        "AWS",
+        "AWS",
+        "credentials",
+        "AWS",
+        "config",
+        "config",
+        "key",
+        "s3",
+        "config",
+        "key",
+        "signedUrlExpireSeconds",
+        "key",
+        "s3",
+        "config",
+        "key",
+        "signedUrlExpireSeconds"
+    ],
+    "literals": [
+        "\"aws-sdk\"",
+        "\"./config/config\"",
+        "\"default\"",
+        "\"v4\"",
+        "string",
+        "string",
+        "\"getObject\"",
+        "string",
+        "string",
+        "\"putObject\""
+    ],
+    "variables": [
+        "credentials",
+        "s3",
+        "signedUrlExpireSeconds",
+        "signedUrlExpireSeconds"
+    ],
+    "comments": [
+        "Configure AWS",
+        "Generates an AWS signed URL for retrieving objects",
+        "Generates an AWS signed URL for uploading objects"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getGetSignedUrl",
+        "getPutSignedUrl"
+    ],
+    "classes": []
+}

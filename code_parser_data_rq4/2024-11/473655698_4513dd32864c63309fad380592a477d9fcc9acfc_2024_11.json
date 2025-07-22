@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "uqtestfuns",
+        "core",
+        "custom_typing",
+        "ProbInputSpecs",
+        "uqtestfuns",
+        "core",
+        "uqtestfun_abc",
+        "UQTestFunFixDimABC",
+        "ProbInputSpecs",
+        "xx",
+        "np",
+        "ndarray",
+        "np",
+        "ndarray",
+        "xx",
+        "np",
+        "sin",
+        "xx",
+        "yy",
+        "UQTestFunFixDimABC",
+        "AVAILABLE_INPUTS",
+        "staticmethod",
+        "evaluate"
+    ],
+    "literals": [
+        "\"HolsclawSine\"",
+        "\"Holsclaw2013\"",
+        "\"function_id\"",
+        "\"HolsclawSine\"",
+        "\"description\"",
+        "\"Input model for the sine function from Holsclaw et al. (2013)\"",
+        "\"marginals\"",
+        "\"name\"",
+        "\"x\"",
+        "\"distribution\"",
+        "\"uniform\"",
+        "\"parameters\"",
+        "\"description\"",
+        "\"copulas\"",
+        "\"metamodeling\"",
+        "\"Sine function from Holsclaw et al. (2013)\""
+    ],
+    "variables": [
+        "__all__",
+        "AVAILABLE_INPUTS",
+        "yy",
+        "_tags",
+        "_description",
+        "_available_inputs",
+        "_available_parameters",
+        "evaluate"
+    ],
+    "comments": [
+        "type: ignore"
+    ],
+    "docstrings": [
+        "\"\"\"\nModule with an implementation of the Sine function from Holsclaw et al. (2013).\n\nThe one-dimensional, scalar-valued function was featured in [1] as an example\nfor Gaussian process metamodeling.\n\nReferences\n----------\n\n1. T. Holsclawy, B. Sansó, H. K H. Lee, K. Heitmann, S. Habib, D. Higdon, and\n   U. Alam, “Gaussian Process Modeling of Derivative Curves,” Technometrics,\n   vol. 55, no. 1, pp. 57–67, 2013.\n   DOI: 10.1080/00401706.2012.723918.\n\"\"\"",
+        "\"\"\"Evaluate the Holsclaw sine function on a set of input values.\n\n    Parameters\n    ----------\n    xx : np.ndarray\n        1-Dimensional input values given by an N-by-1 array\n        where N is the number of input values.\n\n    Returns\n    -------\n    np.ndarray\n        The output of the test function evaluated on the input values.\n        The output is a 1-dimensional array of length N.\n    \"\"\"",
+        "\"\"\"A concrete implementation of the Holsclaw sine function.\"\"\""
+    ],
+    "functions": [
+        "evaluate"
+    ],
+    "classes": [
+        "HolsclawSine"
+    ]
+}

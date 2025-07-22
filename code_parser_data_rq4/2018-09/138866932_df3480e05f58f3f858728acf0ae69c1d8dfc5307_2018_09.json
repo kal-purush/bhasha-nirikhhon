@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "com",
+        "backupreality",
+        "shared",
+        "exceptions",
+        "java",
+        "lang",
+        "annotation",
+        "ElementType",
+        "java",
+        "lang",
+        "annotation",
+        "Retention",
+        "java",
+        "lang",
+        "annotation",
+        "RetentionPolicy",
+        "java",
+        "lang",
+        "annotation",
+        "Target",
+        "Target",
+        "ElementType",
+        "METHOD",
+        "Retention",
+        "RetentionPolicy",
+        "RUNTIME",
+        "ExceptionTranslation"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Use this class to annotate methods in {@link ExceptionTranslationSource} which should\n * be used for translations.\n * The signature of this method should accept and return an instance of a class inherited\n * from {@link Exception}.\n * <b>Note:</b>\n * Since generic arguments can not be determined at runtime the return type should be plain\n * object (not {@link java.util.Optional}. However you can safely return {@code null} from\n * this method in order to skip translation."
+    ],
+    "functions": [],
+    "classes": []
+}

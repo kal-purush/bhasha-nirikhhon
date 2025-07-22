@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "org",
+        "openqa",
+        "selenium",
+        "By",
+        "org",
+        "openqa",
+        "selenium",
+        "WebElement",
+        "org",
+        "testng",
+        "Assert",
+        "org",
+        "testng",
+        "annotations",
+        "Test",
+        "Test",
+        "logIn",
+        "selectPlaylist",
+        "pressDeletePlaylist",
+        "Assert",
+        "assertTrue",
+        "somethingToAssert",
+        "myPlaylist",
+        "driver",
+        "findElement",
+        "By",
+        "cssSelector",
+        "myPlaylist",
+        "click",
+        "sleep",
+        "delPlaylist",
+        "driver",
+        "findElement",
+        "By",
+        "cssSelector",
+        "delPlaylist",
+        "click",
+        "sleep"
+    ],
+    "literals": [
+        "\".playlist:nth-child(3)\"",
+        "\".btn-delete-playlist\""
+    ],
+    "variables": [],
+    "comments": [
+        "Create a test case deletePlaylist() using @Test annotations",
+        "Use the reusable methods",
+        "Use @Parameters for passing baseUrl",
+        "Given: Navigate to \"https://bbb.testpro.io/\"",
+        "Step1: Log in with your credentials",
+        "Step2: Choose a playlist",
+        "Step3: Delete the playlist",
+        "Step4: Validate that the playlist is deleted \"Deleted playlist\""
+    ],
+    "docstrings": [],
+    "functions": [
+        "deletePlaylist",
+        "selectPlaylist",
+        "pressDeletePlaylist"
+    ],
+    "classes": [
+        "Homework19"
+    ]
+}

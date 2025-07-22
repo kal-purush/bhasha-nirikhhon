@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "interact",
+        "top"
+    ],
+    "literals": [
+        "'.tap-target'",
+        "'tap'",
+        "'switch-bg'",
+        "'doubletap'",
+        "'rotate'",
+        "'large'",
+        "'SUCCESS'",
+        "'*'",
+        "\"doubleTapHandler\""
+    ],
+    "variables": [],
+    "comments": [
+        "----------------------------------------*\\\n  256x256x256 - script.js\n  @author Evrard Vincent (vincent@ogre.be)\n  @Date:   2018-02-27 12:27:03\n  @Last Modified time: 2019-01-31 12:06:22\n\\*----------------------------------------",
+        "document.addEventListener(\"DOMContentLoaded\", setup);\n\n\nfunction tapHandler (event){\n\ttop.postMessage('SUCCESS', '*');\n\tconsole.log(\"tapHandler\");\n\t\tvar btnToHide = document.querySelector(\".trigger2\");\n\tbtnToHide.classList.add(\"hidden\");\n}\n\nfunction setup(){\n\tvar trigger1 = interact('.trigger1');\n\ttrigger1.on(\"tap\", step1);\n\t\n}\n\nfunction step1(event){\n\tvar btnToHide = document.querySelector(\".trigger1\");\n\tbtnToHide.classList.add(\"hidden\");\n\tvar btnToShow = document.querySelector(\".trigger2\");\n\tbtnToShow.classList.remove(\"hidden\");\n\n\tvar trigger2 = interact('.trigger2');\n\ttrigger2.on(\"tap\", tapHandler);\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "doubleTapHandler"
+    ],
+    "classes": []
+}

@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "styled"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  flex: 1;",
+        "margin-top: 16.5vh;\n  text-align: center;\n\n  > h1 {\n    font-weight: 500;\n    font-size: 40px;\n    line-height: 48px;\n    color: #393c41;\n  }\n  > h2 {\n    font-weight: normal;\n    font-size: 14px;\n    line-height: 20px;\n    color: #5c5e62;\n  }",
+        "display: flex;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n\n  margin-bottom: 130px;\n\n  > button {\n    background: #1a1720;\n    color: #fff;\n    opacity: 0.8;\n\n    font-size: 12px;\n    font-weight: 500;\n    letter-spacing: 0.4px;\n    text-transform: uppercase;\n\n    padding: 13px 40px;\n    border-radius: 20px;\n    border: none;\n    outline: 0;\n    cursor: pointer;\n\n    &.white {\n      background: #fff;\n      color: #1a1720;\n      opacity: 0.65;\n    }\n    & + button {\n      margin: 10px 0 0;\n    }\n  }\n\n  @media (min-width: 600px) {\n    flex-direction: row;\n    margin-bottom: 90px;\n\n    > button + button {\n      margin: 0 0 0 10px;\n    }\n  }"
+    ],
+    "variables": [
+        "Container",
+        "Heading",
+        "Buttons"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "getConfig",
+        "CustomITask",
+        "isOfflineContactTask",
+        "ContactRawJson",
+        "getWorkerAttributes",
+        "getHelplineToSave",
+        "task",
+        "contactlessTask",
+        "isOfflineContactTask",
+        "task",
+        "contactlessTask",
+        "contactlessTask",
+        "contactlessTask",
+        "getWorkerAttributes",
+        "targetWorkerSid",
+        "targetWorkerAttributes",
+        "getConfig",
+        "thisWorkerHelpline",
+        "task"
+    ],
+    "literals": [
+        "'../HrmFormPlugin'",
+        "'../types/types'",
+        "'./ServerlessService'",
+        "'contactlessTask'",
+        "string",
+        "''"
+    ],
+    "variables": [
+        "getHelplineToSave",
+        "targetWorkerSid",
+        "targetWorkerAttributes",
+        "thisWorkerHelpline"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Helper used to be the source of truth for the helpline value being passed to HRM and Insights\n * TODO: receive only contactForm.contactlessTask.helpline and contactForm.contactlessTask.createdOnBehalfOf"
+    ],
+    "functions": [],
+    "classes": []
+}

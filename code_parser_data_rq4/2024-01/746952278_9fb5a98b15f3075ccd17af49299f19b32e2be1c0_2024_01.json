@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "ndwi_calculation",
+        "calculate_ndwi",
+        "water_extraction",
+        "extract_water_surfaces",
+        "water_area_calculation",
+        "calculate_water_area_before_reprojection",
+        "reproject_and_calculate_area",
+        "calculate_ndwi",
+        "green_band_path",
+        "nir_band_path",
+        "ndwi_output_path",
+        "extract_water_surfaces",
+        "ndwi_output_path",
+        "water_surface_output_path",
+        "calculate_water_area_before_reprojection",
+        "water_surface_output_path",
+        "reproject_and_calculate_area",
+        "water_surface_output_path",
+        "reprojected_output_path"
+    ],
+    "literals": [
+        "'/path/to/your/PGH_Sentinel2_Image_BAND3.tif'",
+        "'/path/to/your/PGH_Sentinel2_Image_BAND8.tif'",
+        "'/path/to/your/output/ndwi.tif'",
+        "'/path/to/your/output/water_surface.tif'",
+        "'/path/to/your/output/reprojected_water_surface.tif'"
+    ],
+    "variables": [
+        "green_band_path",
+        "nir_band_path",
+        "ndwi_output_path",
+        "water_surface_output_path",
+        "reprojected_output_path"
+    ],
+    "comments": [
+        "Define paths for the input images and output results",
+        "Step 1: NDWI Calculation",
+        "Step 2: Water Surface Extraction",
+        "Step 3: Water Area Calculation Before Reprojection",
+        "Step 4: Reproject and Calculate Water Surface Area After Reprojection"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

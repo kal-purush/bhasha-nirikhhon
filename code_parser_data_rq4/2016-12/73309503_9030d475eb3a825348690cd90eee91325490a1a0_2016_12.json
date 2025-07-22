@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Azure",
+        "ServiceBus",
+        "UnitTests"
+    ],
+    "literals": [
+        "\"azure-service-bus-dotnet/connectionstring\"",
+        "\"partitioned-queue\"",
+        "\"non-partitioned-queue\"",
+        "\"partitioned-session-queue\"",
+        "\"non-partitioned-session-queue\"",
+        "\"partitioned-topic\"",
+        "\"non-partitioned-topic\"",
+        "\"subscription\"",
+        "\"session-subscription\""
+    ],
+    "variables": [
+        "MaxAttemptsCount",
+        "ConnectionStringEnvironmentVariable",
+        "PartitionedQueueName",
+        "NonPartitionedQueueName",
+        "SessionPartitionedQueueName",
+        "SessionNonPartitionedQueueName",
+        "PartitionedTopicName",
+        "NonPartitionedTopicName",
+        "SubscriptionName",
+        "SessionSubscriptionName"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft. All rights reserved.",
+        "Licensed under the MIT license. See LICENSE file in the project root for full license information."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Constants"
+    ]
+}

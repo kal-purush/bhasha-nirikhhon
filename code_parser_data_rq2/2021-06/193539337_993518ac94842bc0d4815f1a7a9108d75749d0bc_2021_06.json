@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Command",
+        "CommandStep",
+        "Pipeline",
+        "YamlSerializer",
+        "Command",
+        "retries",
+        "command",
+        "command",
+        "command",
+        "retries",
+        "RetryCommand",
+        "Command",
+        "CommandStep",
+        "install",
+        "RetryCommand",
+        "Command",
+        "Pipeline",
+        "test",
+        "YamlSerializer",
+        "pipeline"
+    ],
+    "literals": [
+        "'../src'",
+        "'../src/serializers/yaml'",
+        "string",
+        "' || '",
+        "string",
+        "${this.command} [retry = ${this.retries}]",
+        "'yarn'",
+        "'yarn test-integration'",
+        "'test'",
+        "'My pipeline'"
+    ],
+    "variables": [
+        "install",
+        "test",
+        "pipeline"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "serialize",
+        "toString"
+    ],
+    "classes": [
+        "RetryCommand"
+    ]
+}

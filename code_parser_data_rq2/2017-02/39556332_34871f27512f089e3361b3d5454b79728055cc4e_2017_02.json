@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "randomId",
+        "mixin",
+        "randomId",
+        "parent",
+        "factory",
+        "parent",
+        "args",
+        "options",
+        "mixin",
+        "options",
+        "parent",
+        "parent",
+        "XMLSerializer",
+        "link",
+        "serializer",
+        "link",
+        "links",
+        "Blob",
+        "template",
+        "URL",
+        "blob",
+        "Proxy",
+        "rect",
+        "rect"
+    ],
+    "literals": [
+        "'../'",
+        "string",
+        "${self.document.title} PopUp ${randomId(3)}",
+        "'link'",
+        "<!doctype html>\n      <html>\n      <head>\n          <meta charset=\"utf-8\">\n          <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n          <title>${this.options.name}</title>\n          <meta name=\"description\" content=\"\">\n          <meta name=\"viewport\" content=\"width=device-width\">\n          <script src=\"//cdn.polyfill.io/v2/polyfill.min.js\"></script>\n          ${links.join('\\n')}\n      </head>\n      <body class=\"popup-content\">\n      </body>\n    </html>",
+        "'\\n'",
+        "'text/html'",
+        "'as-popup'",
+        "'as-popup'",
+        "width=${rect.width},height=${rect.height},toolbar=0,menubar=0,location=0",
+        "'ready'"
+    ],
+    "variables": [
+        "serializer",
+        "links",
+        "template",
+        "blob",
+        "rect"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Created by Samuel Gratzl on 15.02.2017."
+    ],
+    "functions": [
+        "build",
+        "buildPopup",
+        "proxy",
+        "close",
+        "open"
+    ],
+    "classes": [
+        "PopupProxy"
+    ]
+}

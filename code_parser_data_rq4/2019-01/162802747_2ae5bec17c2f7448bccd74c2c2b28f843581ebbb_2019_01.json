@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "time",
+        "datetime",
+        "serial",
+        "serial",
+        "Serial",
+        "port",
+        "baudrate",
+        "parity",
+        "serial",
+        "PARITY_NONE",
+        "stopbits",
+        "serial",
+        "STOPBITS_ONE",
+        "bytesize",
+        "serial",
+        "EIGHTBITS",
+        "timeout",
+        "msg",
+        "msg",
+        "ser",
+        "write",
+        "serOut",
+        "ser",
+        "readline",
+        "state",
+        "str_state",
+        "split",
+        "state_split",
+        "str_data1",
+        "len",
+        "data",
+        "data",
+        "Errors",
+        "Errors"
+    ],
+    "literals": [
+        "'/dev/ttyUSB0'",
+        "\"Serial is open...\"",
+        "\"---SETUP DONE---\"",
+        "\";\\n\"",
+        "\";\""
+    ],
+    "variables": [
+        "ser",
+        "serOut",
+        "Continue",
+        "Errors",
+        "state",
+        "str_state",
+        "state_split",
+        "str_data1",
+        "data",
+        "Errors",
+        "Continue"
+    ],
+    "comments": [
+        "---SETUP---",
+        "print (\"Transmitting.\")",
+        "---READING SERIAL---",
+        "print(state)",
+        "---GETTING 1st DATA(also reffered to as command/cmd)---",
+        "print (\"State: \" + str_state + \" END\")",
+        "Splitting###",
+        "print(\"Split: \" + str_data1)",
+        "print(\"Dafuw\")",
+        "return \"ERROR\""
+    ],
+    "docstrings": [
+        "'''\n        state_split=str_state.split(\"'\")\n        serial_cmd=state_split[0].split(\" \")\n        #print (\"done, CMD:\", serial_cmd[0])\n        str_data1=str(serial_cmd[0])\n        '''",
+        "'''\nTODO: LOG NOT WORKING\n        #---LOG DATA1 IN cmdlog.txt---\n        \n        #get current time\n        print(\"Generating Timestamp\")\n        timestamp= datetime.datetime.fromtimestamp(datetime.datetime.now().timestamp()).isoformat()\n        print(\"Timestamp\", timestamp)\n        cmdlog = open(\"cmdlog.txt\", \"a\")\n        print(\"Opening file\")\n        str_cmdlog=(timestamp + \" \" + data + \"; \")\n        cmdlog.write(str_cmdlog)\n        print(\"Writing to file\")\n        '''"
+    ],
+    "functions": [
+        "fnc_CommTransmit",
+        "fnc_CommRecieve"
+    ],
+    "classes": []
+}

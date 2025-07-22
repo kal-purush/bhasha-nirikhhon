@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "match",
+        "match",
+        "match",
+        "match",
+        "array",
+        "array",
+        "array"
+    ],
+    "literals": [
+        "string",
+        "''",
+        "string",
+        "string",
+        "''",
+        "string",
+        "string",
+        "''",
+        "string",
+        "'\\\\$1'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* 全角文字を半角文字に変換する\n * @param  str 入力文字列\n * @return 半角に変換後の文字列",
+        "* 半角文字を全角文字に変換する\n * @param  str 入力文字列\n * @return 全角に変換後の文字列",
+        "* 正規表現で特殊な意味を持つ記号をエスケープする\n * @param  str 入力文字列\n * @return エスケープ後の文字列",
+        "* 配列の最初の要素を返却する\n * @param  array 対象の配列\n * @return 最初の要素"
+    ],
+    "functions": [
+        "toHalfWidth",
+        "toFullWidth",
+        "escapeRegExp",
+        "first"
+    ],
+    "classes": []
+}

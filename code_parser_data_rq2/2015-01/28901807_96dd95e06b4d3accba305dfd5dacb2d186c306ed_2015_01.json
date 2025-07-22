@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "grunt",
+        "require",
+        "grunt",
+        "grunt",
+        "config",
+        "config",
+        "config",
+        "grunt",
+        "grunt"
+    ],
+    "literals": [
+        "'src/'",
+        "'dist/'",
+        "'load-grunt-tasks'",
+        "'**/*.js'",
+        "'.min.js'",
+        "'**/*.js'",
+        "'default'",
+        "'copy'",
+        "'cleanJs'",
+        "'clean'"
+    ],
+    "variables": [
+        "config"
+    ],
+    "comments": [
+        "配置路径",
+        "加载技能",
+        "分配任务",
+        "files: [",
+        "{",
+        "expand: true,",
+        "cwd: config.src,",
+        "src: '**/*.js',",
+        "dest: config.dist,",
+        "ext: '.min.js'",
+        "}",
+        "],",
+        "开启任务"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

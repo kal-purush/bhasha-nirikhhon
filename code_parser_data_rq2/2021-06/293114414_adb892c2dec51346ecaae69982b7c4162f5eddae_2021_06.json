@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "Input",
+        "Output",
+        "DarkModeOverride",
+        "Component",
+        "DarkModeOverride",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "DarkModeOverride",
+        "mode",
+        "DarkModeOverride",
+        "mode",
+        "DarkModeOverride",
+        "mode",
+        "mode"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'app-header-dark-mode-toggle-component'",
+        "<button\n      mat-icon-button\n      [matMenuTriggerFor]=\"menu\"\n      aria-label=\"Menu for changing light or dark theme\"\n      [ngSwitch]=\"darkModeOverride\"\n      [title]=\"getButtonTitle()\"\n    >\n      <mat-icon\n        *ngSwitchCase=\"DarkModeOverride.DEFAULT\"\n        svgIcon=\"brightness_6_24px\"\n      ></mat-icon>\n      <mat-icon\n        *ngSwitchCase=\"DarkModeOverride.DARK_MODE_OFF\"\n        svgIcon=\"light_mode_24px\"\n      ></mat-icon>\n      <mat-icon\n        *ngSwitchCase=\"DarkModeOverride.DARK_MODE_ON\"\n        svgIcon=\"dark_mode_24px\"\n      ></mat-icon>\n    </button>\n    <mat-menu #menu=\"matMenu\">\n      <button\n        mat-menu-item\n        title=\"Set the theme to match the default mode in the browser.\"\n        (click)=\"onOverrideChanged.emit(DarkModeOverride.DEFAULT)\"\n      >\n        <label>Browser default</label>\n      </button>\n      <button\n        mat-menu-item\n        title=\"Force light TensorBoard theme.\"\n        (click)=\"onOverrideChanged.emit(DarkModeOverride.DARK_MODE_OFF)\"\n      >\n        <label>Light</label>\n      </button>\n      <button\n        mat-menu-item\n        title=\"Force dark TensorBoard theme.\"\n        (click)=\"onOverrideChanged.emit(DarkModeOverride.DARK_MODE_ON)\"\n      >\n        <label>Dark</label>\n      </button>\n    </mat-menu>",
+        "string",
+        "string",
+        "'Browser default'",
+        "'Dark mode'",
+        "'Light mode'",
+        "Current mode: [${mode}]. Switch between browser default, light, or dark theme."
+    ],
+    "variables": [
+        "mode"
+    ],
+    "comments": [
+        "Copyright 2021 The TensorFlow Authors. All Rights Reserved.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License.\n=============================================================================="
+    ],
+    "docstrings": [],
+    "functions": [
+        "getButtonTitle"
+    ],
+    "classes": [
+        "DarkModeToggleComponent"
+    ]
+}

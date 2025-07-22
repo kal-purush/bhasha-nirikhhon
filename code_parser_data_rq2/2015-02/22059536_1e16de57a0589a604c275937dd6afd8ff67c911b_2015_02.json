@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "org",
+        "apache",
+        "tika",
+        "parser",
+        "external",
+        "java",
+        "io",
+        "java",
+        "io",
+        "InputStream",
+        "org",
+        "apache",
+        "tika",
+        "exception",
+        "TikaException",
+        "org",
+        "apache",
+        "tika",
+        "metadata",
+        "Metadata",
+        "org",
+        "apache",
+        "tika",
+        "parser",
+        "ParseContext",
+        "org",
+        "xml",
+        "sax",
+        "ContentHandler",
+        "org",
+        "xml",
+        "sax",
+        "SAXException",
+        "serialVersionUID",
+        "PATTERN_MATCHING_DELAY_MS",
+        "Override",
+        "stream",
+        "handler",
+        "metadata",
+        "context",
+        "parse",
+        "stream",
+        "handler",
+        "metadata",
+        "context",
+        "sleep",
+        "PATTERN_MATCHING_DELAY_MS",
+        "e"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Pattern checking is done in a new Thread which must be allowed to finish",
+        "We were asked to stop"
+    ],
+    "docstrings": [
+        "* Copyright (C) 2005-2015 Alfresco Software Limited.\n *\n * Licensed to the Apache Software Foundation (ASF) under one or more\n * contributor license agreements.  See the NOTICE file distributed with\n * this work for additional information regarding copyright ownership.\n * The ASF licenses this file to You under the Apache License, Version 2.0\n * (the \"License\"); you may not use this file except in compliance with\n * the License.  You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n * \n * This work employs PBCore. PBCore, the Public Broadcasting Metadata Dictionary Project, \n * was created by the public broadcasting community in the United States of America for \n * use by public broadcasters and others. Development funding for PBCore was provided by \n * the Corporation for Public Broadcasting. PBCore is built on the foundation of the \n * Dublin Core (ISO 15836), an international standard for resource discovery. \n * Copyright 2011, Corporation for Public Broadcasting.\n *",
+        "* External parser that waits just a bit for the pattern matching\n * (done in a separate thread) to complete after the command-line\n * process has finished."
+    ],
+    "functions": [
+        "parse"
+    ],
+    "classes": [
+        "WaitingExternalParser"
+    ]
+}

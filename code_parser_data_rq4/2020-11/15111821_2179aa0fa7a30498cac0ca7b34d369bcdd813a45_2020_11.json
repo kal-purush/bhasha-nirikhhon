@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "getDashboardSrv",
+        "PanelData",
+        "LoadingState",
+        "DataSourceApi",
+        "CoreApp",
+        "urlUtil",
+        "reportMetaAnalytics",
+        "MetaAnalyticsEventName",
+        "DataRequestEventPayload",
+        "datasource",
+        "data",
+        "data",
+        "done",
+        "data",
+        "CoreApp",
+        "urlUtil",
+        "data",
+        "LoadingState",
+        "data",
+        "LoadingState",
+        "MetaAnalyticsEventName",
+        "datasource",
+        "datasource",
+        "data",
+        "data",
+        "data",
+        "data",
+        "getDashboardSrv",
+        "dashboard",
+        "eventData",
+        "dashboard",
+        "eventData",
+        "dashboard",
+        "eventData",
+        "dashboard",
+        "eventData",
+        "dashboard",
+        "data",
+        "data",
+        "eventData",
+        "data",
+        "data",
+        "eventData",
+        "data",
+        "reportMetaAnalytics",
+        "eventData",
+        "done"
+    ],
+    "literals": [
+        "'../../dashboard/services/DashboardSrv'",
+        "'@grafana/data'",
+        "'@grafana/runtime'"
+    ],
+    "variables": [
+        "done",
+        "eventData",
+        "dashboard"
+    ],
+    "comments": [
+        "enrich with dashboard info",
+        "estimate size",
+        "this done check is to make sure we do not double emit events in case",
+        "there are multiple responses with done state"
+    ],
+    "docstrings": [],
+    "functions": [
+        "emitDataRequestEvent"
+    ],
+    "classes": []
+}

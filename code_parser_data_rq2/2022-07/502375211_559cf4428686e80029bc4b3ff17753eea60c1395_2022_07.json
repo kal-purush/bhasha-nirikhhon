@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "RestCall",
+        "mailchimp",
+        "data",
+        "emailsToSendTo",
+        "email",
+        "userId",
+        "userFullName",
+        "mailchimp",
+        "mailchimp",
+        "data",
+        "emailsToSendTo",
+        "email",
+        "userId",
+        "userFullName",
+        "mailchimp",
+        "DefaultEmail",
+        "SignupEmail",
+        "PasswordResetEmail",
+        "emailTypeMap",
+        "k",
+        "emailTypeMap",
+        "k"
+    ],
+    "literals": [
+        "'src/email/dto/rest-call'",
+        "'to'",
+        "'tech@puente-dr.org'",
+        "'objectId'",
+        "'full_name'",
+        "'acela-signup-verification'",
+        "'to'",
+        "'tech@puente-dr.org'",
+        "'objectId'",
+        "'full_name'",
+        "'acela-password-reset'"
+    ],
+    "variables": [
+        "subject",
+        "userId",
+        "data",
+        "to",
+        "message",
+        "subject",
+        "userId",
+        "data",
+        "to",
+        "message",
+        "emailTypeMap"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getEmailType"
+    ],
+    "classes": [
+        "DefaultEmail",
+        "SignupEmail",
+        "PasswordResetEmail",
+        "EmailFactory"
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "Request",
+        "Response",
+        "req",
+        "res",
+        "res",
+        "req",
+        "err",
+        "res",
+        "req",
+        "res",
+        "res",
+        "err",
+        "res",
+        "req",
+        "res",
+        "res",
+        "req",
+        "err",
+        "res",
+        "req",
+        "res",
+        "req",
+        "req",
+        "res",
+        "VehicleLocationEvent",
+        "req",
+        "req",
+        "req",
+        "req",
+        "req",
+        "req",
+        "producer",
+        "locationEvent",
+        "res",
+        "err",
+        "res",
+        "req",
+        "res",
+        "res",
+        "req",
+        "err",
+        "res"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"create OK\"",
+        "\"Internal Server Error!\"",
+        "\"findAll OK\"",
+        "\"Internal Server Error!\"",
+        "\"findOne OK\"",
+        "\"Internal Server Error!\"",
+        "\"Missing latitude and longitude\"",
+        "'vehicle-location-events'",
+        "\"Success\"",
+        "\"Internal Server Error!\"",
+        "\"delete OK\"",
+        "\"Internal Server Error!\""
+    ],
+    "variables": [
+        "producer",
+        "VehicleLocationEvent",
+        "locationEvent"
+    ],
+    "comments": [
+        "Dummy producer",
+        "Dummy protoc generated code",
+        "Check that latitude and longitude were included in request",
+        "Create event using protoc generated type",
+        "Send to Kafka"
+    ],
+    "docstrings": [],
+    "functions": [
+        "create",
+        "findAll",
+        "findOne",
+        "update"
+    ],
+    "classes": [
+        "TutorialController"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "axios",
+        "of",
+        "process",
+        "axios",
+        "query",
+        "of",
+        "query",
+        "err",
+        "resp",
+        "resp",
+        "resp",
+        "err",
+        "err",
+        "resp",
+        "mutation",
+        "of",
+        "mutation",
+        "err",
+        "resp",
+        "resp",
+        "resp",
+        "err",
+        "err",
+        "resp",
+        "GraphQLClient",
+        "apiURL",
+        "client"
+    ],
+    "literals": [
+        "'axios'",
+        "'await-of'",
+        "'/graphql'",
+        "query { ${query} }",
+        "'Failed query | error: '",
+        "'/graphql'",
+        "mutation { ${mutation} }",
+        "'Failed mutation | error: '",
+        "'Accept'",
+        "'application/json'",
+        "'Content-Type'",
+        "'application/json'"
+    ],
+    "variables": [
+        "apiURL",
+        "resp",
+        "err",
+        "resp",
+        "err",
+        "client"
+    ],
+    "comments": [
+        "const apiURL = process.env.REACT_APP_LOCAL_URL;"
+    ],
+    "docstrings": [
+        "* GraphQL Client"
+    ],
+    "functions": [
+        "query",
+        "mutate"
+    ],
+    "classes": [
+        "GraphQLClient"
+    ]
+}

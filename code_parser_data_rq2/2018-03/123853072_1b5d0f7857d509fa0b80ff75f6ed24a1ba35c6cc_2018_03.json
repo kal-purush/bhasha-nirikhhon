@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "think",
+        "ctx",
+        "ctx",
+        "mobile",
+        "msg",
+        "mobile",
+        "msg",
+        "think",
+        "APIKey",
+        "mobile",
+        "msg",
+        "APIUrl",
+        "postBody",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'setup.YUNPIAN_APIKEY'",
+        "'https://sms.yunpian.com/v2/sms/single_send.json'",
+        "apikey=${APIKey}&mobile=${mobile}&text=${msg}",
+        "'POST'"
+    ],
+    "variables": [
+        "APIKey",
+        "APIUrl",
+        "postBody"
+    ],
+    "comments": [
+        "发送短信",
+        "code\tinteger\t0代表发送成功，其他code代表出错，详细见\"返回值说明\"页面"
+    ],
+    "docstrings": [
+        "* init\n     * @return {}         []"
+    ],
+    "functions": [
+        "send"
+    ],
+    "classes": []
+}

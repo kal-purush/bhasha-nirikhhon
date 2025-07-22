@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "name",
+        "name",
+        "startGame",
+        "name",
+        "name",
+        "currentQuestionIndex",
+        "questions",
+        "questions",
+        "currentQuestionIndex",
+        "question",
+        "answer",
+        "question",
+        "progress",
+        "progress",
+        "currentQuestionIndex",
+        "showQuestion",
+        "name",
+        "showQuestion"
+    ],
+    "literals": [
+        "'DOMContentLoaded'",
+        "'name-form'",
+        "'submit'",
+        "'kid-name'",
+        "'greeting'",
+        "'Well done '",
+        "'!'",
+        "'name-input-section'",
+        "'d-none'",
+        "'game-section'",
+        "'d-none'",
+        "'What is 2 + 2?'",
+        "'4'",
+        "'What is 3 + 3?'",
+        "'6'",
+        "'question-section'",
+        "<div class=\"card\">\n                        <div class=\"card-body\">\n                            <h5 class=\"card-title\">${question.question}</h5>\n                            <input type=\"text\" class=\"form-control form-control-lg\" id=\"answer-input\" placeholder=\"Your answer\">\n                            <button class=\"btn btn-success btn-lg mt-2\" id=\"submit-answer\">Submit</button>\n                            <div id=\"feedback\" class=\"mt-2 text-danger\"></div>\n                        </div>\n                    </div>",
+        "'submit-answer'",
+        "'click'",
+        "'answer-input'",
+        "'progress-bar'",
+        "'%'",
+        "'feedback'",
+        "'Oops! Try again, you can do it!'",
+        "'question-section'",
+        "'<h3>Congratulations '",
+        "'! You have completed the game!</h3>'"
+    ],
+    "variables": [
+        "name",
+        "progress",
+        "questions",
+        "currentQuestionIndex",
+        "question",
+        "answer"
+    ],
+    "comments": [
+        "Initialize game variables",
+        "Assuming 2 questions for simplicity"
+    ],
+    "docstrings": [],
+    "functions": [
+        "startGame",
+        "showQuestion"
+    ],
+    "classes": []
+}

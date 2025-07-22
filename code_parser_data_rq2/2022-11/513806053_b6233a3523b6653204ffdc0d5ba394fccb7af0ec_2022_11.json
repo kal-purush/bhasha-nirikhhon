@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "useAxios",
+        "useSnackbar",
+        "useProposal",
+        "useAxios",
+        "useSnackbar",
+        "saveProposal",
+        "proposalData",
+        "proposalData",
+        "parseInt",
+        "proposalData",
+        "post",
+        "proposalData"
+    ],
+    "literals": [
+        "'../use-axios'",
+        "'../use-snackbar'",
+        "''",
+        "''",
+        "'/proposal'"
+    ],
+    "variables": [
+        "useProposal",
+        "filterType",
+        "saveProposal"
+    ],
+    "comments": [
+        "const getAll = async filter => {",
+        "{",
+        "try {",
+        "const allJobs = await get(`/job?filter=${JSON.stringify(filter)}`);",
+        "return allJobs;",
+        "} catch {}",
+        "}",
+        "};",
+        "const getById = async id => {",
+        "{",
+        "try {",
+        "const job = await get(`/job/get-by-id/${id}`);",
+        "return job;",
+        "} catch {}",
+        "}",
+        "};"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

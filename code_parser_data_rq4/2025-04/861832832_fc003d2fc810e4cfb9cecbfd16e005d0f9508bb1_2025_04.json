@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "defineConfig",
+        "defineConfig"
+    ],
+    "literals": [
+        "'tsup'",
+        "'./tailwind.config.js'",
+        "'./global.css'",
+        "'esm'",
+        "'cjs'"
+    ],
+    "variables": [],
+    "comments": [
+        "Include both JS config and CSS",
+        "Output formats for the JS config",
+        "No need for declaration files for the config",
+        "Sourcemaps likely not needed for this config",
+        "Clean the dist directory before building",
+        "tsup will automatically copy the global.css to the dist folder",
+        "because it's listed as an entry point."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

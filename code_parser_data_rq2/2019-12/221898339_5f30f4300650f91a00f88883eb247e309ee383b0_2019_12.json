@@ -1,0 +1,20 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "'styled-components'",
+        "display: flex;\n  flex-direction: row;\n  width: 36px;\n  height: 20px;\n  border-radius: 10px;\n  background: ${ ({ theme }) => theme.colors.grey.medium };\n  cursor: pointer;\n  overflow: hidden;\n\n  &.on {\n    background: ${ ({ theme }) => theme.colors.primary.medium };\n\n    &::before {\n      margin: 2px 2px 2px auto;\n    }\n  }\n\n  &::before {\n    content: '';\n    width: 16px;\n    height: 16px;\n    background: ${ ({ theme }) => theme.colors.white };\n    border-radius: 8px;\n    margin: 2px auto 2px 2px;\n    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);\n  }\n\n  &.disabled {\n    cursor: not-allowed;\n    background: ${ ({ theme }) => theme.colors.grey.medium };\n\n    &::before {\n      background: ${ ({ theme }) => theme.colors.grey.dark };\n      box-shadow: none;\n    }\n  }"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

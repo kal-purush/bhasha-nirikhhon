@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "dataclasses",
+        "dataclass",
+        "requests",
+        "dataclass",
+        "dataclass",
+        "requests",
+        "get",
+        "headers",
+        "format",
+        "access_token",
+        "r",
+        "status_code",
+        "GithubUserData",
+        "login",
+        "r",
+        "json",
+        "avatar_url",
+        "r",
+        "json"
+    ],
+    "literals": [
+        "\"https://api.github.com/user\"",
+        "'Authorization'",
+        "'token {}'",
+        "\"login\"",
+        "\"avatar_url\""
+    ],
+    "variables": [
+        "login",
+        "avatar_url",
+        "access_token",
+        "r"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Returns None, when request is not successfull.\n    \"\"\""
+    ],
+    "functions": [
+        "get_user_data"
+    ],
+    "classes": [
+        "GithubUserData",
+        "GithubClient"
+    ]
+}

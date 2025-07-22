@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "OnDestroy",
+        "Component",
+        "__moduleName",
+        "group",
+        "group",
+        "openGroup",
+        "group",
+        "group",
+        "openGroup",
+        "group",
+        "group",
+        "group",
+        "index",
+        "index",
+        "Component",
+        "__moduleName",
+        "Input",
+        "Input",
+        "value",
+        "value",
+        "accordion"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'accordion'",
+        "<ng-content></ng-content>",
+        "'accordion-group'",
+        "<a href=\"#\" (click)=\"toggleOpen($event)\" class=\"accordion-group__title\" [ngClass]=\"{'is-active': isOpen}\">{{heading}}</a>\n        <div class=\"accordion-group__content\" [ngClass]=\"{'is-open': isOpen}\">\n            <ng-content></ng-content>\n        </div>",
+        "'accordion-group.css'",
+        "string"
+    ],
+    "variables": [
+        "index"
+    ],
+    "comments": [
+        "REQUIRED to use relative path in styleUrls",
+        "REQUIRED to use relative path in styleUrls"
+    ],
+    "docstrings": [],
+    "functions": [
+        "addGroup",
+        "closeOthers",
+        "removeGroup",
+        "isOpen",
+        "isOpen",
+        "toggleOpen",
+        "ngOnDestroy"
+    ],
+    "classes": [
+        "Accordion",
+        "AccordionGroup"
+    ]
+}

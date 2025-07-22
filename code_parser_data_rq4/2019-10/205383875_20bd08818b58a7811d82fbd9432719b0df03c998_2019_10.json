@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "'typeorm'",
+        "CREATE TYPE \"task_run_task_type_enum\" AS ENUM('SEARCH_REFRESH', 'DETAIL_REFRESH')",
+        "CREATE TYPE \"task_run_status_enum\" AS ENUM('PENDING', 'RUNNING', 'SUCCESS', 'FAILURE')",
+        "CREATE TABLE \"task_run\" (\"id\" BIGSERIAL NOT NULL, \"task_type\" \"task_run_task_type_enum\" NOT NULL, \"status\" \"task_run_status_enum\" NOT NULL, \"created_at\" text NOT NULL, \"finished_at\" text NOT NULL, CONSTRAINT \"PK_36326cc52f4708f36ae4e6158cc\" PRIMARY KEY (\"id\"))",
+        "DROP TABLE \"task_run\"",
+        "DROP TYPE \"task_run_status_enum\"",
+        "DROP TYPE \"task_run_task_type_enum\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "createTaskRun1570598990476"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "com",
+        "techiewolf",
+        "config",
+        "extensions",
+        "lombok",
+        "slf4j",
+        "Slf4j",
+        "org",
+        "junit",
+        "jupiter",
+        "api",
+        "extension",
+        "AfterTestExecutionCallback",
+        "org",
+        "junit",
+        "jupiter",
+        "api",
+        "extension",
+        "BeforeTestExecutionCallback",
+        "org",
+        "junit",
+        "jupiter",
+        "api",
+        "extension",
+        "ExtensionContext",
+        "Slf4j",
+        "testExecutionTimeThread",
+        "testStartTime",
+        "testExecutionTimeThread",
+        "get",
+        "Override",
+        "context",
+        "testStartTime",
+        "currentTimeMillis",
+        "Override",
+        "context",
+        "testExecutionDuration",
+        "currentTimeMillis",
+        "testStartTime",
+        "log",
+        "info",
+        "context",
+        "getRequiredTestMethod",
+        "getName",
+        "format",
+        "testExecutionDuration",
+        "testExecutionTimeThread",
+        "testExecutionDuration",
+        "TimingExtension",
+        "resetTestExecutionTime",
+        "log",
+        "debug",
+        "testExecutionTimeThread",
+        "remove",
+        "log",
+        "debug"
+    ],
+    "literals": [
+        "\"Test: {} took {} second(s).\"",
+        "\"%.2f\"",
+        "\"Removed test execution time from thread.\"",
+        "\"Removed test execution time from thread.\""
+    ],
+    "variables": [
+        "testStartTime"
+    ],
+    "comments": [
+        "Calculate test execution duration in seconds"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getTestExecutionTime",
+        "beforeTestExecution",
+        "afterTestExecution",
+        "resetTestExecutionTime"
+    ],
+    "classes": [
+        "TimingExtension"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "axios",
+        "message",
+        "PAGE_ID",
+        "axios",
+        "url",
+        "message",
+        "PAGE_ACCESS_TOKEN",
+        "response",
+        "response",
+        "error",
+        "error",
+        "error",
+        "postToFacebook",
+        "postMessage"
+    ],
+    "literals": [
+        "'axios'",
+        "'YOUR_PAGE_ACCESS_TOKEN'",
+        "'YOUR_PAGE_ID'",
+        "string",
+        "https://graph.facebook.com/v12.0/${PAGE_ID}/feed",
+        "'Post was successful.'",
+        "'Post ID:'",
+        "'Error posting to Facebook:'",
+        "'Hello, this is an automated post from my TypeScript script!'"
+    ],
+    "variables": [
+        "PAGE_ACCESS_TOKEN",
+        "PAGE_ID",
+        "url",
+        "response",
+        "postMessage"
+    ],
+    "comments": [
+        "Example message to post"
+    ],
+    "docstrings": [],
+    "functions": [
+        "postToFacebook"
+    ],
+    "classes": []
+}

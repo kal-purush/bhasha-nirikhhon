@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "LunaryHandler",
+        "ChatOpenAI",
+        "HumanMessage",
+        "SystemMessage",
+        "lunary",
+        "ChatOpenAI",
+        "LunaryHandler",
+        "query",
+        "chat",
+        "SystemMessage",
+        "HumanMessage",
+        "query",
+        "res",
+        "lunary",
+        "TranslatorAgent",
+        "translate",
+        "res"
+    ],
+    "literals": [
+        "\"@langchain/community/callbacks/handlers/lunary\"",
+        "\"@langchain/openai\"",
+        "\"@langchain/core/messages\"",
+        "\"lunary\"",
+        "\"gpt-4\"",
+        "string",
+        "\"You are a translator agent that hides jokes in each translation.\"",
+        "Translate this sentence from English to French: ${query}",
+        "\"Good morning\"",
+        "\"user123\""
+    ],
+    "variables": [
+        "chat",
+        "res",
+        "translate",
+        "res"
+    ],
+    "comments": [
+        "By wrapping the agent with wrapAgent, we automatically track all input, outputs and errors",
+        "And tools and logs will be tied to the correct agent",
+        "You can use .identify() on wrapped methods to track users"
+    ],
+    "docstrings": [],
+    "functions": [
+        "TranslatorAgent"
+    ],
+    "classes": []
+}

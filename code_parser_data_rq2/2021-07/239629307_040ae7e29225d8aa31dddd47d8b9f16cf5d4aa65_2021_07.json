@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "print_function",
+        "unicode_literals",
+        "absolute_import",
+        "division",
+        "pymodelica",
+        "compile_fmu",
+        "compile_fmu",
+        "modelpath",
+        "mopath",
+        "jvm_args",
+        "target",
+        "version",
+        "compile_to",
+        "compiler_options",
+        "compiler_options"
+    ],
+    "literals": [
+        "'ModelicaGym.mo'",
+        "'ModelicaGym.CartPole'",
+        "\"cs_rel_tol\"",
+        "'-Xmx1g'",
+        "'cs'",
+        "'2.0'",
+        "'ModelicaGym_CartPole.fmu'"
+    ],
+    "variables": [
+        "mopath",
+        "modelpath",
+        "compiler_options",
+        "fmupath"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "DEFINE MODEL",
+        "------------",
+        "------------",
+        "COMPILE FMU: set JVM maximum leap to 1G to avoid memory issues",
+        "-----------",
+        "the defauted compilation target is model exchange, where no numerical integrator is integrated into the fmu.",
+        "The equations in FMU is solved by numerical solvers in the importing tool.",
+        "-----------"
+    ],
+    "docstrings": [
+        "\"\"\"\nThis module compiles Modelica models into fmu models.\n\n@ Yangyang Fu, yangyang.fu@tamu.edu\n\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

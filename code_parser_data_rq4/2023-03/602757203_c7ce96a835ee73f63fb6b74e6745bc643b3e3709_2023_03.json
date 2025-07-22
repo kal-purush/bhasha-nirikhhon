@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "exec",
+        "io",
+        "name",
+        "value",
+        "replace",
+        "name",
+        "GitCmd",
+        "GitCmd",
+        "ret",
+        "io",
+        "ret",
+        "name",
+        "value",
+        "replace",
+        "replace",
+        "args",
+        "args",
+        "args",
+        "name",
+        "args",
+        "value",
+        "exec",
+        "args",
+        "name",
+        "name",
+        "exec",
+        "args"
+    ],
+    "literals": [
+        "'@actions/exec'",
+        "'@actions/io'",
+        "string",
+        "string",
+        "string",
+        "''",
+        "'git'",
+        "string",
+        "string",
+        "'config'",
+        "'--global'",
+        "'--replace-all'",
+        "'--add'",
+        "\"${this.gitPath}\"",
+        "string",
+        "'config'",
+        "'--global'",
+        "'--unset-all'",
+        "\"${this.gitPath}\""
+    ],
+    "variables": [
+        "ret",
+        "args",
+        "args"
+    ],
+    "comments": [
+        "Private constructor; use createSshCmd()"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createGitCmd",
+        "createGitCmd",
+        "setConfig",
+        "rmConfig"
+    ],
+    "classes": [
+        "GitCmd"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "identifiers": [
+        "Security",
+        "WixSharp",
+        "_password",
+        "ToInsecureString",
+        "_password",
+        "value",
+        "ToSecureString",
+        "fileToSign",
+        "CommonTasks",
+        "Tasks",
+        "DigitalySign",
+        "fileToSign",
+        "PfxFilePath",
+        "TimeUrl",
+        "AbsoluteUri",
+        "Password",
+        "PrepareOptionalArguments",
+        "WellKnownLocations",
+        "Description",
+        "IsNullOrEmpty",
+        "OptionalArguments",
+        "Format",
+        "OptionalArguments",
+        "Description"
+    ],
+    "literals": [
+        "\"{0} /d \\\"{1}\\\"\""
+    ],
+    "variables": [
+        "SecureString",
+        "_password",
+        "PfxFilePath",
+        "Uri",
+        "TimeUrl",
+        "Password",
+        "Description",
+        "OptionalArguments",
+        "WellKnownLocations"
+    ],
+    "comments": [
+        "Container of the parameters of the Digitaly Signing",
+        "</summary>",
+        "with the <see cref=\"Password\"/> property.",
+        "</summary>",
+        "A warning is generated if timestamping fails.",
+        "</summary>",
+        "The password to use when opening the PFX file. Should be <c>null</c> if no password required.",
+        "</summary>",
+        "Description of the signed content.",
+        "</summary>",
+        "Extra arguments to pass to the <c>SignTool.exe</c> utility.",
+        "</summary>",
+        "The optional ';' separated list of directories where SignTool.exe can be located.",
+        "If this parameter is not specified WixSharp will try to locate the SignTool in the built-in well-known locations (system PATH)",
+        "</summary>",
+        "Apply digitaly sign to the file",
+        "</summary>",
+        "<param name=\"fileToSign\">The file to sign.</param>",
+        "<returns>Exit code of the <c>SignTool.exe</c> process.</returns>",
+        "Prepare optional arguments by adding custom arguments with current signer specific",
+        "</summary>",
+        "<returns>Final version of the optional arguments</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>Specify the signing certificate in a file. If this file is a PFX with a password, the password may be supplied",
+        "<summary>The timestamp server's URL. If this option is not present (pass to null), the signed file will not be timestamped.",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Apply",
+        "PrepareOptionalArguments"
+    ],
+    "classes": [
+        "DigitalySign"
+    ]
+}

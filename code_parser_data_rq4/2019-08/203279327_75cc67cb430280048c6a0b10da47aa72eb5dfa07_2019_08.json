@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "toDoText",
+        "elToDo",
+        "classNames",
+        "elToDo",
+        "classNames",
+        "classNames",
+        "toDoText",
+        "classNames",
+        "elToDo",
+        "updateCount",
+        "alert",
+        "classNames",
+        "classNames",
+        "toDos",
+        "uncheckedToDos",
+        "updateCount",
+        "classNames",
+        "classNames",
+        "elDelete",
+        "updateCount"
+    ],
+    "literals": [
+        "'todo-container'",
+        "'todo-checkbox'",
+        "'todo-text'",
+        "'todo-delete'",
+        "'todo-list'",
+        "'item-count'",
+        "'unchecked-count'",
+        "\"Enter your new to do\"",
+        "\"\"",
+        "\"li\"",
+        "<input type=\"checkbox\" class=\"${classNames.TODO_CHECKBOX}\"/>\n\t\t  \t\t\t\t<span class=\"${classNames.TODO_TEXT}\">${toDoText}</span>\n\t\t  \t\t\t\t<button type=\"button\" class=\"${classNames.TODO_DELETE}\">Delete</button>",
+        "'To do was cancelled'",
+        "\".\"",
+        "\".\"",
+        "\":not(:checked)\"",
+        "\"item-count\"",
+        "\"unchecked-count\"",
+        "\"change\"",
+        "\"click\"",
+        "\".\"",
+        "\".\""
+    ],
+    "variables": [
+        "classNames",
+        "itemCountSpan",
+        "uncheckedCountSpan",
+        "toDoText",
+        "elToDo",
+        "toDos",
+        "uncheckedToDos",
+        "elDelete"
+    ],
+    "comments": [
+        "event triggered by all onchange event triggered inside the list (even for nodes not yet registered)",
+        "trigger only if delete button was clicked, ignore the rest"
+    ],
+    "docstrings": [],
+    "functions": [
+        "newTodo",
+        "updateCount"
+    ],
+    "classes": []
+}

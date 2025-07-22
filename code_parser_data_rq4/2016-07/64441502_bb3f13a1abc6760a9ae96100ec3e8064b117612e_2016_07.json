@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "MySQLdb",
+        "username",
+        "sql",
+        "MySQLdb",
+        "connect",
+        "host",
+        "user",
+        "passwd",
+        "db",
+        "port",
+        "c",
+        "cursor",
+        "cur",
+        "execute",
+        "sql",
+        "cur",
+        "fetchall",
+        "cur",
+        "close",
+        "c",
+        "close",
+        "t",
+        "e",
+        "e",
+        "mysql",
+        "sql",
+        "a"
+    ],
+    "literals": [
+        "'liangchangyou'",
+        "'select c.name from auth_user as a,auth_user_groups as b,auth_group as c where a.id=b.user_id and b.group_id = c.id and a.username=\"%s\";'",
+        "'localhost'",
+        "'saltweb'",
+        "'saltweb'",
+        "'saltweb'",
+        "\"__main__\""
+    ],
+    "variables": [
+        "username",
+        "sql",
+        "c",
+        "cur",
+        "t",
+        "a"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "coding: utf-8",
+        "连接数据库，进行sql操作"
+    ],
+    "docstrings": [],
+    "functions": [
+        "mysql"
+    ],
+    "classes": []
+}

@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "Valve",
+        "VR",
+        "MonoBehaviour",
+        "SteamVR_TrackedController",
+        "SteamVR_TrackedController",
+        "SteamVR_TrackedObject",
+        "SteamVR_TrackedObject",
+        "SteamVR_Controller",
+        "Device",
+        "SteamVR_Controller",
+        "Device",
+        "Collider",
+        "collision",
+        "Debug",
+        "Log",
+        "collision",
+        "transform",
+        "gameObject",
+        "tag",
+        "collidedPlant",
+        "Collider",
+        "collision",
+        "collidedPlant",
+        "collidedPlant",
+        "GUI",
+        "Box",
+        "Rect",
+        "informationPlant"
+    ],
+    "literals": [
+        "\"I am a plant\"",
+        "\"collision detected\"",
+        "\"fish\""
+    ],
+    "variables": [
+        "informationPlant",
+        "controller",
+        "trackedObj",
+        "device",
+        "collidedPlant"
+    ],
+    "comments": [
+        "device 0 = left, device 1 = right",
+        "Use this for initialization",
+        "controller[0] = GetComponent<SteamVR_ControllerManager>().left.GetComponent<SteamVR_TrackedController>();",
+        "controller[1] = GetComponent<SteamVR_ControllerManager>().right.GetComponent<SteamVR_TrackedController>();",
+        "trackedObj[0] = controller[0].GetComponent<SteamVR_TrackedObject>();",
+        "trackedObj[1] = controller[1].GetComponent<SteamVR_TrackedObject>();",
+        "Should update if colliding with anything",
+        "if (collision.transform.gameObject == controller[0] && device[0].GetPressDown(EVRButtonId.k_EButton_A))",
+        "{",
+        "GUI.Box(new Rect(0, 0, 100, 100), information);",
+        "}",
+        "Update is called once per frame",
+        "device[0] = SteamVR_Controller.Input((int)trackedObj[0].index);",
+        "device[1] = SteamVR_Controller.Input((int)trackedObj[1].index);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "OnTriggerEnter",
+        "OnTriggerExit",
+        "OnGUI",
+        "Update"
+    ],
+    "classes": [
+        "infoSysPlant"
+    ]
+}

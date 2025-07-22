@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "styled",
+        "css",
+        "media",
+        "styled",
+        "css",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "media",
+        "theme"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'styled-media-query'",
+        "${({ theme }) => css`\n    cursor: pointer;\n    list-style: none;\n    background: ${theme.colors.black};\n    transition: all 0.5s ease-in-out;\n    color: ${theme.colors.white};\n    font-weight: ${theme.font.bold};\n    border-radius: 4px;\n\n    padding: ${theme.spacings.xsmall} ${theme.spacings.xsmall};\n\n    &:hover {\n      color: ${theme.colors.secondary};\n    }\n\n    font-size: ${theme.font.sizes.large};\n\n    ${media.greaterThan('medium')`\n      font-size: ${theme.font.sizes.xlarge};\n    `}\n  `}",
+        "cursor: pointer;\n    list-style: none;\n    background: ${theme.colors.black};\n    transition: all 0.5s ease-in-out;\n    color: ${theme.colors.white};\n    font-weight: ${theme.font.bold};\n    border-radius: 4px;\n\n    padding: ${theme.spacings.xsmall} ${theme.spacings.xsmall};\n\n    &:hover {\n      color: ${theme.colors.secondary};\n    }\n\n    font-size: ${theme.font.sizes.large};\n\n    ${media.greaterThan('medium')`\n      font-size: ${theme.font.sizes.xlarge};\n    `}",
+        "'medium'",
+        "font-size: ${theme.font.sizes.xlarge};"
+    ],
+    "variables": [
+        "Wrapper"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

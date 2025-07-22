@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "GraphQL",
+        "Conversion",
+        "TListType",
+        "TElementType",
+        "IListConverter",
+        "IListConverterFactory",
+        "TListType",
+        "TElementType",
+        "Func",
+        "Func",
+        "TElementType",
+        "TListType",
+        "converter",
+        "_converter",
+        "converter",
+        "CastOrDefault",
+        "TElementType",
+        "arr",
+        "TElementType",
+        "_converter",
+        "DynamicallyAccessedMembers",
+        "DynamicallyAccessedMemberTypes",
+        "PublicConstructors",
+        "DynamicallyAccessedMemberTypes",
+        "PublicMethods",
+        "Type",
+        "listType",
+        "T",
+        "T",
+        "source",
+        "i",
+        "source",
+        "Length",
+        "i",
+        "source",
+        "i",
+        "value",
+        "T",
+        "value"
+    ],
+    "literals": [],
+    "variables": [
+        "_converter",
+        "Type",
+        "ElementType",
+        "i",
+        "value"
+    ],
+    "comments": [
+        "A converter that can convert a list of objects to a specific list type, such as <c>HashSet&lt;int&gt;</c>,",
+        "via a delegate provided to the constructor.",
+        "</summary>",
+        "<remarks>",
+        "This converter does not use reflection and is fully compatible with AOT scenarios.",
+        "</remarks>",
+        "Casts each item in the array to the specified type, returning the default value for null items.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "DelegateListConverter",
+        "Convert",
+        "IListConverter",
+        "Create",
+        "CastOrDefault"
+    ],
+    "classes": [
+        "DelegateListConverter"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "sanic",
+        "response",
+        "Blueprint",
+        "sanic_openapi",
+        "doc",
+        "Blueprint",
+        "url_prefix",
+        "well_known",
+        "route",
+        "methods",
+        "doc",
+        "summary",
+        "request",
+        "request",
+        "args",
+        "get",
+        "resource",
+        "split",
+        "id",
+        "response",
+        "json",
+        "resp",
+        "headers",
+        "well_known",
+        "route",
+        "methods",
+        "doc",
+        "summary",
+        "request",
+        "response",
+        "json",
+        "request",
+        "app",
+        "config",
+        "DOMAIN"
+    ],
+    "literals": [
+        "'well_known'",
+        "'/.well-known'",
+        "'/webfinger'",
+        "'GET'",
+        "\"webfinger\"",
+        "'resource'",
+        "\":\"",
+        "'Content-Type'",
+        "'application/jrd+json; charset=utf-8'",
+        "'/nodeinfo'",
+        "'GET'",
+        "\"nodeinfo\"",
+        "\"nodeName\""
+    ],
+    "variables": [
+        "well_known",
+        "resource",
+        "id",
+        "resp"
+    ],
+    "comments": [
+        "@well_known.middleware('response')",
+        "async def update_headers(request, response):",
+        "response.headers[\"Content-Type\"] = \"application/jrd+json; charset=utf-8\""
+    ],
+    "docstrings": [],
+    "functions": [
+        "webfinger",
+        "nodeinfo"
+    ],
+    "classes": []
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "angular",
+        "$scope",
+        "$q",
+        "playerFactory",
+        "letterFactory",
+        "$scope",
+        "$scope",
+        "$scope",
+        "playerFactory",
+        "$scope",
+        "$scope",
+        "letterFactory",
+        "data",
+        "error",
+        "$scope",
+        "playerFactory",
+        "data",
+        "$scope",
+        "$scope"
+    ],
+    "literals": [
+        "'use strict'",
+        "'wordCannonApp'",
+        "'NewPlayerCrtl'"
+    ],
+    "variables": [],
+    "comments": [
+        "function generateTiles(n){",
+        "letterFactory.getLetterRand(n)",
+        ".then(function(data)",
+        "{",
+        "//data returned from getLetterRand is letters array from letterHelper",
+        "letters = data;",
+        "console.log(letters);",
+        "});",
+        "}"
+    ],
+    "docstrings": [
+        "* @ngdoc function\n * @name wordCannonApp.controller:AboutCtrl\n * @description\n * # AboutCtrl\n * Controller of the wordCannonApp"
+    ],
+    "functions": [],
+    "classes": []
+}

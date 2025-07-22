@@ -1,0 +1,13 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "test file to test code"
+    ],
+    "docstrings": [
+        "'''def booltest():\n    while True:\n        user_choice = input(f\"\\nWould you like to play another hand?\"\n                            f\"\\n\\t--To play again enter 'y', or to quit enter 'q' >>> \")\n\n        if user_choice.upper() == 'Y' or user_choice.upper() == 'YES':\n            print(\"--You chose to play again. Good luck!\")\n            return False\n        elif user_choice.upper() == 'Q' or user_choice.upper() == 'QUIT':\n            print(\"--You chose to quit. See you next time!\")\n            return True\n        else:\n            print(\"ERROR: Invalid option! Please try again.\")\n\n\ntest = booltest()\nprint(test)\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

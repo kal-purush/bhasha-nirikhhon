@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Component",
+        "HeroService",
+        "Hero",
+        "OnInit",
+        "Router",
+        "Component",
+        "_heroService",
+        "_router",
+        "hero",
+        "hero",
+        "link",
+        "heroList",
+        "heroList"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "\"./hero.service\"",
+        "\"./hero\"",
+        "\"angular2/core\"",
+        "\"angular2/router\"",
+        "'dashboard'",
+        "'dev/dashboard.component.html'",
+        "'src/css/dashboard.component.css'",
+        "'HeroDetail'"
+    ],
+    "variables": [
+        "link"
+    ],
+    "comments": [
+        "template: `",
+        "<h3>Top Heroes</h3>",
+        "<div class=\"grid grid-pad\">",
+        "<div class=\"col-1-4\" *ngFor=\"#hero of heroes\" (click)=\"gotoDetail(hero)\">",
+        "<div class=\"module hero\">",
+        "{{hero.name}}",
+        "</div>",
+        "</div>",
+        "",
+        "</div>",
+        "`,",
+        "action",
+        "routing from a Non-Route Component",
+        "lifecycle override",
+        "get hero list - chose to put slice in service instead of .slice(1, 5) here // .slice(1, 5)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "gotoDetail",
+        "ngOnInit"
+    ],
+    "classes": [
+        "DashboardComponent"
+    ]
+}

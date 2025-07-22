@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "com",
+        "wuyou",
+        "backmanage",
+        "service",
+        "java",
+        "util",
+        "java",
+        "util",
+        "com",
+        "wuyou",
+        "pojo",
+        "TbBrand",
+        "entity",
+        "PageResult",
+        "BrandService",
+        "pageNum",
+        "pageSize",
+        "brand",
+        "id",
+        "brand",
+        "ids",
+        "brand",
+        "pageNum",
+        "pageSize"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "获取品牌列表数据"
+    ],
+    "docstrings": [
+        "* 品牌接口\n * @author ASUS\n *",
+        "* 返回分页列表\n\t * @return",
+        "* 增加\n\t * @param brand",
+        "* 根据ID查询实体\n\t * @param id\n\t * @return",
+        "* 修改\n\t * @param brand",
+        "* 删除\n\t * @param ids",
+        "* 分页\n\t * @param pageNum 当前页 码\n\t * @param pageSize 每页记录数\n\t * @return",
+        "* 品牌下拉框数据"
+    ],
+    "functions": [
+        "findAll",
+        "PageResult",
+        "findPage",
+        "add",
+        "TbBrand",
+        "findOne",
+        "update",
+        "PageResult",
+        "findPage2",
+        "selectOptionList"
+    ],
+    "classes": []
+}

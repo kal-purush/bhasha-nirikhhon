@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "blob",
+        "options",
+        "Blob",
+        "blob",
+        "newBlob",
+        "newBlob",
+        "newBlob",
+        "data",
+        "link",
+        "data",
+        "link",
+        "options",
+        "link",
+        "setTimeout",
+        "data",
+        "url",
+        "callback",
+        "err",
+        "data",
+        "XMLHttpRequest",
+        "xhr",
+        "url",
+        "xhr",
+        "xhr",
+        "xhr",
+        "status",
+        "callback",
+        "xhr",
+        "callback",
+        "status",
+        "xhr",
+        "xhr"
+    ],
+    "literals": [
+        "string",
+        "'application/pdf'",
+        "'a'",
+        "'newBlob'",
+        "'data'",
+        "'South African Beekeeper Forage Calendar 2020.pdf'",
+        "string",
+        "'GET'",
+        "'json'"
+    ],
+    "variables": [
+        "newBlob",
+        "data",
+        "link",
+        "xhr",
+        "status"
+    ],
+    "comments": [
+        "It is necessary to create a new blob object with mime-type explicitly set",
+        "otherwise only Chrome works like it should",
+        "IE doesn't allow using a blob object directly as link href",
+        "instead it is necessary to use msSaveOrOpenBlob",
+        "For other browsers:",
+        "Create a link pointing to the ObjectURL containing the blob.",
+        "For Firefox it is necessary to delay revoking the ObjectURL"
+    ],
+    "docstrings": [],
+    "functions": [
+        "showFile",
+        "getJSON"
+    ],
+    "classes": []
+}

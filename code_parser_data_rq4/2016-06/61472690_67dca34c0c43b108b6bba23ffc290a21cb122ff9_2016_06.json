@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "socketserver",
+        "Sources",
+        "Shared",
+        "Logger",
+        "Logger",
+        "socketserver",
+        "BaseRequestHandler",
+        "request",
+        "client_address",
+        "server",
+        "server",
+        "pc_server",
+        "request",
+        "recv",
+        "strip",
+        "Logger",
+        "Logger",
+        "__class__",
+        "request",
+        "client_address",
+        "server",
+        "logger",
+        "debug",
+        "client_address",
+        "logger",
+        "debug",
+        "data",
+        "data",
+        "decode",
+        "encoding",
+        "upper",
+        "logger",
+        "debug",
+        "reply",
+        "request",
+        "sendall",
+        "encode",
+        "reply",
+        "logger",
+        "debug",
+        "data",
+        "logger",
+        "debug",
+        "pc_server",
+        "pc_server",
+        "on_received_connection_data",
+        "data"
+    ],
+    "literals": [
+        "\"ClientIP:\"",
+        "\"Rx: \"",
+        "'UTF-8'",
+        "\"Tx: \"",
+        "'UTF-8'",
+        "\"handle, data: \"",
+        "\"PCServer: \"",
+        "\"\""
+    ],
+    "variables": [
+        "pc_server",
+        "data",
+        "logger",
+        "reply"
+    ],
+    "comments": [
+        "self.request is the TCP socket connected to the client",
+        "print \"{} wrote:\".format(self.client_address[0])",
+        "just send back the same data, but upper-cased",
+        "self.request.sendall(self.data.upper())"
+    ],
+    "docstrings": [
+        "\"\"\"\n    The RequestHandler class for our server.\n\n    It is instantiated once per connection to the server, and must\n    override the handle() method to implement communication to the\n    client.\n    \"\"\""
+    ],
+    "functions": [
+        "handle"
+    ],
+    "classes": [
+        "PCSocketConnection"
+    ]
+}

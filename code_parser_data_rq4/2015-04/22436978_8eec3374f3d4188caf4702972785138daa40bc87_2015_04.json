@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "spittalmodel",
+        "SpittalModel",
+        "spittalexposure",
+        "SpittalExposure",
+        "spittalrun",
+        "SpittalRun",
+        "logging",
+        "base_url",
+        "user",
+        "log_file",
+        "log_level",
+        "logging",
+        "INFO",
+        "logging",
+        "getLogger",
+        "log_file",
+        "logging",
+        "FileHandler",
+        "log_file",
+        "logging",
+        "Formatter",
+        "handler",
+        "setFormatter",
+        "formatter",
+        "logger",
+        "addHandler",
+        "handler",
+        "logger",
+        "setLevel",
+        "log_level",
+        "logger",
+        "info",
+        "SpittalModel",
+        "base_url",
+        "user",
+        "SpittalExposure",
+        "base_url",
+        "user",
+        "SpittalRun",
+        "base_url",
+        "user"
+    ],
+    "literals": [
+        "'spittalpond'",
+        "'%(asctime)s %(levelname)s %(message)s'",
+        "'Initating new spittalpond instance.'"
+    ],
+    "variables": [
+        "logger",
+        "logger",
+        "disabled",
+        "logger",
+        "propagate",
+        "handler",
+        "formatter",
+        "model",
+        "exposure",
+        "run"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\" Python interface to the Oasis Django API.\n\n    This class provides an easy to use front-end interface to the Oasis\n    mid-tier Django API.\n    \"\"\"",
+        "\"\"\" Initiate with server URL and user.\n\n        Args:\n            base_url (str): The URL of the Django server. Be sure to prepend\n                the protocol (i.e. http://) and append the port (i.e. :8000).\n            user (str): Username to use on the server.\n        \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "SpittalPond"
+    ]
+}

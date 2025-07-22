@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "common",
+        "app_settings",
+        "domain",
+        "MODULE_NAME",
+        "domain",
+        "MODULE_NAME",
+        "MODULE_NAME",
+        "MODULE_NAME",
+        "CSP_CONFIG"
+    ],
+    "literals": [
+        "\"CSP_DEFAULT_SRC\"",
+        "\"'self'\"",
+        "\"CSP_IMG_SRC\"",
+        "f\"{domain()}/static/\"",
+        "\"https://p.typekit.net/\"",
+        "\"CSP_FONT_SRC\"",
+        "\"https://use.typekit.net/\"",
+        "\"CSP_SCRIPT_SRC\"",
+        "\"https://use.typekit.net/mrl4ieu.js\"",
+        "\"https://pyodide-cdn2.iodide.io/v0.15.0/full/\"",
+        "\"CSP_CONNECT_SRC\"",
+        "\"https://pyodide-cdn2.iodide.io/v0.15.0/full/\"",
+        "f\"wss://{MODULE_NAME}-aimmo.codeforlife.education/\"",
+        "f\"https://{MODULE_NAME}-aimmo.codeforlife.education/\"",
+        "\"local\"",
+        "\"CSP_CONNECT_SRC\"",
+        "\"ws://localhost:*/\"",
+        "\"ws://*:*/socket.io/\"",
+        "\"http://*:*/socket.io/\""
+    ],
+    "variables": [
+        "CSP_CONFIG"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"CSP config\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

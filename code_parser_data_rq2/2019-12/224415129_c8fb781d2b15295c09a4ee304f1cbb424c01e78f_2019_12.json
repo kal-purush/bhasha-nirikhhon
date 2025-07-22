@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "fetch",
+        "url",
+        "response",
+        "response",
+        "json",
+        "exb",
+        "json",
+        "json",
+        "i",
+        "i",
+        "json",
+        "i",
+        "meuTxt",
+        "i",
+        "json",
+        "i",
+        "ev",
+        "ev",
+        "ev",
+        "ev",
+        "ev",
+        "ev",
+        "ev",
+        "ev",
+        "ev",
+        "data"
+    ],
+    "literals": [
+        "\"http://www.professorisidro.com.br/tarefas.php\"",
+        "\"method\"",
+        "\"GET\"",
+        "\"local\"",
+        "\"<div id='\"",
+        "\"' draggable='true' ondragstart='drag(event)'>nome: \"",
+        "\"<br/><div/>\"",
+        "\"text\"",
+        "\"text\""
+    ],
+    "variables": [
+        "url",
+        "meuTxt",
+        "data"
+    ],
+    "comments": [
+        "var idTarefa = evt.dataTransfer.getData(\"text\");\n    var tarefa = document.getElementById(idTarefa);\n\n    ev.target.appendChild(tarefa);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "busca",
+        "exb",
+        "allowDrop",
+        "drag",
+        "drop"
+    ],
+    "classes": []
+}

@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "gql",
+        "comment",
+        "assertFailingGraphQLMutation",
+        "createTestClient",
+        "encodeThreadId",
+        "test",
+        "assertFailingGraphQLMutation",
+        "gql",
+        "encodeThreadId",
+        "comment",
+        "createTestClient"
+    ],
+    "literals": [
+        "'apollo-server'",
+        "'../../../__fixtures__'",
+        "'../../__utils__'",
+        "'~/schema/uuid'",
+        "'unauthenticated user gets error'",
+        "mutation($input: ThreadCreateCommentInput!) {\n        thread {\n          createComment(input: $input) {\n            success\n          }\n        }\n      }",
+        "'Hello'",
+        "'UNAUTHENTICATED'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This file is part of Serlo.org API\n *\n * Copyright (c) 2021 Serlo Education e.V.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\")\n * you may not use this file except in compliance with the License\n * You may obtain a copy of the License at\n *\n *    http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.\n *\n * @copyright Copyright (c) 2021 Serlo Education e.V.\n * @license   http://www.apache.org/licenses/LICENSE-2.0 Apache License 2.0\n * @link      https://github.com/serlo-org/api.serlo.org for the canonical source repository"
+    ],
+    "functions": [],
+    "classes": []
+}

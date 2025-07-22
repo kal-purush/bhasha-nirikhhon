@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "express",
+        "app",
+        "req",
+        "res",
+        "process",
+        "slackWeb",
+        "process",
+        "web",
+        "result",
+        "result",
+        "result",
+        "res",
+        "error",
+        "error",
+        "res",
+        "process",
+        "app",
+        "PORT",
+        "PORT"
+    ],
+    "literals": [
+        "'express'",
+        "'@slack/web-api'",
+        "'dotenv'",
+        "'/api'",
+        "\"Token: \"",
+        "'#testtest'",
+        "'Hello from Slack!'",
+        "Successfully send message ${result.ts} in conversation ${result.channel}",
+        "'Message sent!'",
+        "'Error sending message'",
+        "Express server listening on port ${PORT}"
+    ],
+    "variables": [
+        "express",
+        "slackWeb",
+        "app",
+        "web",
+        "PORT"
+    ],
+    "comments": [
+        "Import the express and flyio modules",
+        "Create an express app",
+        "Define a route for the API",
+        "Create a new instance of the WebClient class with the token read from your environment variable",
+        "Call the chat.postMessage method using the WebClient",
+        "The result contains an identifier for the message, `ts`.",
+        "Start the server",
+        "Start express server"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

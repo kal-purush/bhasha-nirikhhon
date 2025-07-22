@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "packageName",
+        "defaults",
+        "options",
+        "ConfigStore",
+        "key",
+        "value",
+        "key",
+        "key",
+        "ConfigStore",
+        "ConfigStore"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Set an item.",
+        "* Set multiple items at once.",
+        "* Get an item.",
+        "* Delete an item.",
+        "* Delete all items.",
+        "* Get the item count.",
+        "* Get all items as an object or replace the current config with an object.",
+        "* Get the path to the config file. Can be used to show the user where the config file is located or even better open it for them.",
+        "* Store the config at `$CONFIG/package-name/config.json` instead of the default `$CONFIG/configstore/package-name.json`. This is not recommended as you might end up conflicting with other tools, rendering the \"without having to think\" idea moot."
+    ],
+    "functions": [],
+    "classes": [
+        "ConfigStore"
+    ]
+}

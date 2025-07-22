@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "cuncorrent",
+        "LOCK_A",
+        "LOCK_B",
+        "args",
+        "a",
+        "Override",
+        "DeadLock",
+        "LOCK_A",
+        "sleep",
+        "e",
+        "e",
+        "printStackTrace",
+        "DeadLock",
+        "LOCK_B",
+        "b",
+        "Override",
+        "DeadLock",
+        "LOCK_B",
+        "sleep",
+        "e",
+        "e",
+        "printStackTrace",
+        "DeadLock",
+        "LOCK_A",
+        "a",
+        "start",
+        "b",
+        "start"
+    ],
+    "literals": [
+        "\"A\"",
+        "\"B\"",
+        "\"a获得 lock_a\"",
+        "\"a获得 lock_b\"",
+        "\"b获得 lock_b\"",
+        "\"b获得 lock_a\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* 产生死锁的一个简单例子\n * @author wangjianlou 2018年11月12日\n * @version V1.0"
+    ],
+    "functions": [
+        "main",
+        "run",
+        "run"
+    ],
+    "classes": [
+        "DeadLock"
+    ]
+}

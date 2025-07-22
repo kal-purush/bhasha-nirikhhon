@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "com",
+        "springtest",
+        "demo",
+        "config",
+        "typefilter",
+        "org",
+        "springframework",
+        "core",
+        "io",
+        "Resource",
+        "org",
+        "springframework",
+        "core",
+        "AnnotationMetadata",
+        "org",
+        "springframework",
+        "core",
+        "ClassMetadata",
+        "org",
+        "springframework",
+        "core",
+        "classreading",
+        "MetadataReader",
+        "org",
+        "springframework",
+        "core",
+        "classreading",
+        "MetadataReaderFactory",
+        "org",
+        "springframework",
+        "core",
+        "TypeFilter",
+        "java",
+        "io",
+        "Override",
+        "metadataReader",
+        "metadataReaderFactory",
+        "annotationMetadata",
+        "metadataReader",
+        "getAnnotationMetadata",
+        "classMetadata",
+        "metadataReader",
+        "getClassMetadata",
+        "classMetadata",
+        "getClassName",
+        "contains",
+        "resource",
+        "metadataReader",
+        "getResource"
+    ],
+    "literals": [
+        "\"filter\""
+    ],
+    "variables": [],
+    "comments": [
+        "获取当前被扫描的类的注解信息",
+        "获取当前被扫描的类的类信息",
+        "自定义规则可以随意定义包的扫描规则，譬如这里让没有相关注解的PersonTypeFilter自身被扫描注册",
+        "System.out.println(\"getEnclosingClassName------>\"+classMetadata.getEnclosingClassName());",
+        "System.out.println(\"getClassName         ------>\"+classMetadata.getClassName());",
+        "获取当前被扫描的类的资源信息（类的路径信息）"
+    ],
+    "docstrings": [
+        "*\n     * @param metadataReader 读取当前正在被扫描的类的信息\n     * @param metadataReaderFactory MetadataReader的工厂类，用于获取其他类\n     * @return\n     * @throws IOException"
+    ],
+    "functions": [
+        "match"
+    ],
+    "classes": [
+        "PersonTypeFilter"
+    ]
+}

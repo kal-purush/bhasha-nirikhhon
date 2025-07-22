@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "CommandHandler",
+        "ICommandHandler",
+        "Candidate",
+        "CandidateCreateInput",
+        "AuthService",
+        "EmailService",
+        "CandidateBulkCreateCommand",
+        "CandidateService",
+        "CommandHandler",
+        "CandidateBulkCreateCommand",
+        "candidateService",
+        "authService",
+        "emailService",
+        "command",
+        "input",
+        "inputWithHash",
+        "createdCandidates",
+        "createdCandidates",
+        "candidates",
+        "candidates",
+        "candidate",
+        "candidate",
+        "input",
+        "input",
+        "entity",
+        "entity",
+        "entity",
+        "entity",
+        "mappedInput"
+    ],
+    "literals": [
+        "'@nestjs/cqrs'",
+        "'@gauzy/models'",
+        "'../../../auth'",
+        "'../../../email'",
+        "'../candidate.bulk.create.command'",
+        "'../../candidate.service'"
+    ],
+    "variables": [
+        "command",
+        "inputWithHash",
+        "createdCandidates",
+        "mappedInput"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "execute",
+        "_sendWelcomeEmail",
+        "_loadPasswordHash"
+    ],
+    "classes": [
+        "CandidateBulkCreateHandler"
+    ]
+}

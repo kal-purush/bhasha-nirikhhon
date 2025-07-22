@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "message",
+        "isValid",
+        "isValid",
+        "message"
+    ],
+    "literals": [
+        "'is-danger'"
+    ],
+    "variables": [
+        "message",
+        "isValid"
+    ],
+    "comments": [
+        "Native options to use in HTML5 validation",
+        "Used in Dialog and may be used in third party components",
+        "Set type only if user haven't defined",
+        "Set message only if user haven't defined"
+    ],
+    "docstrings": [
+        "* Get parent Field.",
+        "* Get the type prop from parent if it's a Field.",
+        "* Focus method that work dynamically depending on input type.",
+        "* HTML5 validation, set isValid property.\n         * If validation fail, send 'is-danger' type,\n         * and error message to parent if it's a Field."
+    ],
+    "functions": [
+        "data",
+        "parentField",
+        "statusType",
+        "focus",
+        "html5Validation"
+    ],
+    "classes": []
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "com",
+        "tuling",
+        "forkjoin",
+        "java",
+        "time",
+        "Instant",
+        "java",
+        "util",
+        "Arrays",
+        "java",
+        "util",
+        "java",
+        "util",
+        "concurrent",
+        "ForkJoinPool",
+        "java",
+        "util",
+        "concurrent",
+        "ForkJoinTask",
+        "java",
+        "util",
+        "stream",
+        "IntStream",
+        "args",
+        "nums",
+        "numbers",
+        "Arrays",
+        "asList",
+        "numbers",
+        "parallelStream",
+        "forEach",
+        "numbers",
+        "parallelStream",
+        "forEachOrdered"
+    ],
+    "literals": [
+        "\"\""
+    ],
+    "variables": [],
+    "comments": [
+        "int min = Integer.MAX_VALUE;",
+        "for (int i:nums){",
+        "if(i<min){",
+        "min = i;",
+        "}",
+        "}",
+        "jdk8",
+        "int min = IntStream.of(nums).parallel().min().getAsInt();",
+        "System.out.println(min);"
+    ],
+    "docstrings": [
+        "* @author  Fox"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "Test"
+    ]
+}

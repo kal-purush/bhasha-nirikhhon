@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "value",
+        "isPast",
+        "to",
+        "diff",
+        "date",
+        "input",
+        "prev",
+        "input",
+        "prev",
+        "difference"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Intervals to update, set 0 to disable auto update\n   *\n   * @default (diff) => diff <= 3600_000 ? 30_000 : 1800_000",
+        "* Minimum diff in milliseconds to display \"just now\" instead of relative time\n   *\n   * @default 60000",
+        "* Maximum diff in milliseconds to display the full date instead of relative\n   *\n   * @default Infinite",
+        "* Messages for formating the string",
+        "* Formatter for full date",
+        "* Relative time formatter"
+    ],
+    "functions": [],
+    "classes": []
+}

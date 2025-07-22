@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "Component",
+        "Type",
+        "SEMANTIC_COMPONENTS",
+        "SEMANTIC_DIRECTIVES",
+        "CodeblockComponent",
+        "PrismJsDirective",
+        "FormControl",
+        "REACTIVE_FORM_DIRECTIVES",
+        "Component",
+        "SEMANTIC_COMPONENTS",
+        "REACTIVE_FORM_DIRECTIVES",
+        "SEMANTIC_DIRECTIVES",
+        "CodeblockComponent",
+        "PrismJsDirective",
+        "FormControl"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"ng-semantic\"",
+        "\"../../prismjs/prismjs\"",
+        "\"@angular/forms\"",
+        "\"sm-page-input\"",
+        "<div class=\"ui masthead vertical segment\">\n    <div class=\"ui container\">\n\t<h1>Input</h1>\n\t<p>Semantic UI Input <i class=\"icon external\"></i>\n\t<a href=\"http://semantic-ui.com/elements/input.html\" target=\"_blank\">Semantic UI Input</a></p>\n    </div>\n</div>\n<div class=\"main ui container\">\n    <h4 class=\"ui header\">Simple</h4>\n    <sm-input icon=\"user\" [control]=\"user\" class=\"left\" placeholder=\"Enter name...\"></sm-input>\n    <p>{{user.value}}</p>\n    <h4 class=\"ui header\">Code</h4>\n<sm-codeblock smPrismjs=\"html\">\n&lt;sm-input icon=\"dollar\" [control]=\"user\" class=\"left\" placeholder=\"Enter name...\">&lt;/sm-input>\n</sm-codeblock>\n    <div class=\"ui horizontal section icon divider\"><i class=\"icon setting\"></i></div>\n    \n    <h4 class=\"ui header\">Number</h4>\n    <sm-input icon=\"dollar\" type=\"number\" [(model)]=\"model\" class=\"right fluid\" placeholder=\"Enter a sum...\"></sm-input>\n    <p>{{model}}</p>\n    <h4 class=\"ui header\">Code</h4>\n<sm-codeblock smPrismjs=\"html\">\n&lt;sm-input icon=\"dollar\" type=\"number\" [(model)]=\"model\" class=\"right fluid\" placeholder=\"Enter a sum...\">&lt;/sm-input>\n</sm-codeblock>\n    <div class=\"ui horizontal section icon divider\"><i class=\"icon setting\"></i></div>\n    \n    <h4 class=\"ui header\">Labeled</h4>\n    <sm-input class=\"left labeled\" label=\"http://\" placeholder=\"Enter name...\"></sm-input>\n    <h4 class=\"ui header\">Code</h4>\n<sm-codeblock smPrismjs=\"html\">\n&lt;sm-input class=\"left labeled\" label=\"http://\" placeholder=\"Enter address...\">&lt;/sm-input>\n</sm-codeblock>\n<div class=\"ui horizontal section icon divider\"><i class=\"icon setting\"></i></div>\n<h4 class=\"ui header\">Options</h4>\n<table class=\"ui celled striped table\">\n  <tbody>\n    <tr><td colspan=\"2\">Options</td>\n    </tr>\n    <tr>\n      <td>\n        <i class=\"arrow circle down icon\"></i> [control]\n      </td>\n      <td>Instance of FormControl. <a href=\"https://angular.io/docs/ts/latest/api/forms/index/FormControl-class.html\"\n       target=\"_blank\"><i class=\"icon external\"></i> </a> ( optional )</td>\n    </tr>\n    <tr>\n      <td>\n        <i class=\"arrow circle down icon\"></i> [(model)]\n      </td>\n      <td>Two way data binding. Instance of number or string. ( optional )</td>\n    </tr>\n    <tr>\n      <td>\n        <i class=\"arrow circle down icon\"></i> [class]\n      </td>\n      <td>List of CSS classes associated with select element.</td>\n    </tr>\n    <tr>\n      <td>\n        <i class=\"arrow circle down icon\"></i> [label]\n      </td>\n      <td>Label text.</td>\n    </tr>\n    <tr>\n      <td>\n        <i class=\"arrow circle down icon\"></i> [type]\n      </td>\n      <td>Input type, default is <b>text</b></td>\n    </tr>\n    <tr>\n      <td>\n        <i class=\"arrow circle down icon\"></i> [icon]\n      </td>\n      <td>Semantic UI icon name. <a href=\"http://semantic-ui.com/elements/icon.html\"\n       target=\"_blank\"><i class=\"icon external\"></i> </a></td>\n    </tr>\n    <tr>\n      <td>\n        <i class=\"arrow circle down icon\"></i> [placeholder]\n      </td>\n      <td>Placeholder text</td>\n    </tr>\n  </tbody>\n</table>\n\n</div>",
+        "string",
+        "\"\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "InputComponent"
+    ]
+}

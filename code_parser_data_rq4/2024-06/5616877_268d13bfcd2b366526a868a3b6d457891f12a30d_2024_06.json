@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "ComponentModel",
+        "ToxinType",
+        "Description",
+        "Oxytoxy",
+        "Description",
+        "Cytotoxin",
+        "Description",
+        "Macrolide",
+        "Description",
+        "ChannelInhibitor",
+        "Description",
+        "OxygenMetabolismInhibitor"
+    ],
+    "literals": [
+        "\"TOXIN_OXYTOXY_DESCRIPTION\"",
+        "\"TOXIN_CYTOTOXIN_DESCRIPTION\"",
+        "\"TOXIN_MACROLIDE_DESCRIPTION\"",
+        "\"TOXIN_CHANNEL_INHIBITOR_DESCRIPTION\"",
+        "\"TOXIN_OXYGEN_METABOLISM_INHIBITOR_DESCRIPTION\""
+    ],
+    "variables": [],
+    "comments": [
+        "Toxin types. See <see cref=\"ToxinUpgradeNames\"/> for what names match each enum value in the upgrades list.",
+        "</summary>",
+        "<remarks>",
+        "<para>",
+        "Don't reorder the values here as that will cause save compatibility to break",
+        "</para>",
+        "</remarks>",
+        "The default toxin type for now. Less effective against oxygen using species.",
+        "</summary>",
+        "A basic toxin that targets membranes. This will be the default toxin at some point.",
+        "</summary>",
+        "A movement (base movement) inhibiting toxin",
+        "</summary>",
+        "ATP production inhibiting toxin",
+        "</summary>",
+        "Toxin that gets bonus damage against oxygen users (opposite of <see cref=\"Oxytoxy\"/>)",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": []
+}

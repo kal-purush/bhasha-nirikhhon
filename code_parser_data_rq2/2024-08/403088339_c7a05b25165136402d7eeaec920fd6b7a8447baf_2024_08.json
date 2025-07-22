@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Logger",
+        "URL",
+        "url",
+        "config",
+        "pathname",
+        "URL",
+        "url",
+        "config",
+        "pathname",
+        "responseTime"
+    ],
+    "literals": [
+        "\"../types\"",
+        "${config.method} ${pathname}",
+        "(${typeof window === \"undefined\" ? \"server\" : \"client\"} side)",
+        "\"undefined\"",
+        "\"server\"",
+        "\"client\"",
+        "${config.method} ${pathname} in ${responseTime.toFixed()}ms"
+    ],
+    "variables": [
+        "defaultLogger"
+    ],
+    "comments": [
+        "eslint-disable-next-line no-console",
+        "eslint-disable-next-line no-console"
+    ],
+    "docstrings": [
+        "* Default logger for the `middlewareModule`."
+    ],
+    "functions": [],
+    "classes": []
+}

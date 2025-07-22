@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "AggregateMetrics",
+        "Tests",
+        "Microsoft",
+        "ApplicationInsights",
+        "Channel",
+        "ITelemetryChannel",
+        "OnSend",
+        "Action",
+        "ITelemetry",
+        "ITelemetry",
+        "item",
+        "ThrowError",
+        "OnSend",
+        "item"
+    ],
+    "literals": [
+        "\"test error\""
+    ],
+    "variables": [
+        "DeveloperMode",
+        "EndpointAddress",
+        "ThrowError",
+        "OnSend"
+    ],
+    "comments": [
+        "A stub of <see cref=\"ITelemetryChannel\"/>.",
+        "</summary>",
+        "Initializes a new instance of the <see cref=\"StubTelemetryChannel\"/> class.",
+        "</summary>",
+        "Gets or sets a value indicating whether this channel is in developer mode.",
+        "</summary>",
+        "Gets or sets a value indicating the channel's URI. To this URI the telemetry is expected to be sent.",
+        "</summary>",
+        "Gets or sets a value indicating whether to throw an error.",
+        "</summary>",
+        "Gets or sets the callback invoked by the <see cref=\"Send\"/> method.",
+        "</summary>",
+        "Implements the <see cref=\"ITelemetryChannel.Send\"/> method by invoking the <see cref=\"OnSend\"/> callback.",
+        "</summary>",
+        "Implements the <see cref=\"IDisposable.Dispose\"/> method.",
+        "</summary>",
+        "Mock for the Flush method in <see cref=\"ITelemetryChannel\"/>.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "StubTelemetryChannel",
+        "Send",
+        "Dispose",
+        "Flush"
+    ],
+    "classes": [
+        "StubTelemetryChannel"
+    ]
+}

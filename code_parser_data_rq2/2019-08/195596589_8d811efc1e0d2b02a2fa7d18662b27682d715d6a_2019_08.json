@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "link",
+        "client_id",
+        "redirect_uri",
+        "scopes",
+        "constructedLink"
+    ],
+    "literals": [
+        "\"https://accounts.spotify.com/authorize\"",
+        "\"d16380c173b1473fac1d716db2e64a66\"",
+        "\"token\"",
+        "\"http://127.0.0.1:5000/SampleHTML.html\"",
+        "'playlist-read-collaborative'",
+        "'playlist-modify-private'",
+        "'playlist-modify-private'",
+        "'playlist-modify-public'",
+        "'playlist-read-private'",
+        "${link}?client_id=${client_id}&redirect_uri=${redirect_uri}&scope=${scopes.join(\"%20\")}l&response_type=response_type&&show_dialog=true",
+        "\"%20\""
+    ],
+    "variables": [
+        "link",
+        "client_id",
+        "response_type",
+        "redirect_uri",
+        "scopes",
+        "constructedLink"
+    ],
+    "comments": [
+        "parameters",
+        "Link should look like https://accounts.spotify.com/authorize?client_id=5fe01282e94241328a84e7c5cc169164&redirect_uri=http:%2F%2Fexample.com%2Fcallback&scope=user-read-private%20user-read-email&response_type=token&state=123"
+    ],
+    "docstrings": [],
+    "functions": [
+        "sendToSpotify",
+        "sendData"
+    ],
+    "classes": []
+}

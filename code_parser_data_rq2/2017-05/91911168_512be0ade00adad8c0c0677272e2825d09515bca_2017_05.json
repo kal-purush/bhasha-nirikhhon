@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "RegisterCommand",
+        "graf",
+        "bot",
+        "bot",
+        "message",
+        "args",
+        "message",
+        "DiscordUser",
+        "author",
+        "author",
+        "author",
+        "user",
+        "storage",
+        "user",
+        "Player",
+        "user",
+        "user"
+    ],
+    "literals": [
+        "'discord-graf'",
+        "'../../index'",
+        "'../../player'",
+        "'../../discordUser'",
+        "'register'",
+        "'discordscape'",
+        "'register'",
+        "'Create account for DiscordScape as a Discord User.'",
+        "'register'",
+        "'Links whichever Discord User sends this command to a new DiscordScape account if they don\\'t already have one'",
+        "'register'",
+        "Discord user: \"${user.getDiscordUsername()}\" executed register command",
+        "Adventurer ${user.getName()} has entered the world of DiscordScape!"
+    ],
+    "variables": [
+        "graf",
+        "storage",
+        "Player",
+        "DiscordUser",
+        "author",
+        "user"
+    ],
+    "comments": [
+        "Store player with ID as unique discord username"
+    ],
+    "docstrings": [],
+    "functions": [
+        "run"
+    ],
+    "classes": []
+}

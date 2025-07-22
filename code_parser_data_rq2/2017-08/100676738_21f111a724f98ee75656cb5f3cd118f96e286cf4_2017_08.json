@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "com",
+        "yang",
+        "myProject",
+        "testAop",
+        "org",
+        "junit",
+        "Test",
+        "org",
+        "springframework",
+        "context",
+        "ApplicationContext",
+        "org",
+        "springframework",
+        "context",
+        "support",
+        "ClassPathXmlApplicationContext",
+        "Test",
+        "context",
+        "dao",
+        "context",
+        "getBean",
+        "dao",
+        "insert",
+        "dao",
+        "update",
+        "dao"
+    ],
+    "literals": [
+        "\"applicationContext.xml\"",
+        "\"daoImpl\""
+    ],
+    "variables": [],
+    "comments": [
+        "很奇怪的是这里只能用这种方式获得Bean，如果用AutoWired来注入Dao就会报错",
+        "启动Spring容器",
+        "获取service组件,这里强制转换必须是接口而不是实现类"
+    ],
+    "docstrings": [
+        "* @author Yangjing"
+    ],
+    "functions": [
+        "testAop"
+    ],
+    "classes": [
+        "AopTest"
+    ]
+}

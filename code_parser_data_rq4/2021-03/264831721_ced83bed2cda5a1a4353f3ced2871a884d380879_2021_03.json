@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "series",
+        "len",
+        "series",
+        "series",
+        "series",
+        "index",
+        "len",
+        "series",
+        "series",
+        "index",
+        "series",
+        "index",
+        "common_diff",
+        "series",
+        "isinstance",
+        "series",
+        "ValueError",
+        "len",
+        "series",
+        "ValueError",
+        "is_arithmetic_series",
+        "series",
+        "ValueError",
+        "val",
+        "series",
+        "answer",
+        "val",
+        "answer",
+        "len",
+        "series",
+        "doctest",
+        "doctest",
+        "testmod"
+    ],
+    "literals": [
+        "\"Input series is not valid, valid series - [2, 4, 6]\"",
+        "\"Input list must be a non empty list\"",
+        "\"Input list is not an arithmetic series\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "common_diff",
+        "answer"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nARITHMETIC MEAN : https://en.wikipedia.org/wiki/Arithmetic_mean\n\n\"\"\"",
+        "\"\"\"\n    checking whether the input series is arithmetic series or not\n\n    >>> is_arithmetic_series([2, 4, 6])\n    True\n    >>> is_arithmetic_series([3, 6, 12, 24])\n    False\n    >>> is_arithmetic_series([1, 2, 3])\n    True\n    \"\"\"",
+        "\"\"\"\n    return the arithmetic mean of series\n\n    >>> arithmetic_mean([2, 4, 6])\n    4.0\n    >>> arithmetic_mean([3, 6, 9, 12])\n    7.5\n    >>> arithmetic_mean(4)\n    Traceback (most recent call last):\n        ...\n    ValueError: Input series is not valid, valid series - [2, 4, 6]\n    >>> arithmetic_mean([4, 8, 1])\n    Traceback (most recent call last):\n        ...\n    ValueError: Input list is not an arithmetic series\n    >>> arithmetic_mean([1, 2, 3])\n    2.0\n    >>> arithmetic_mean([])\n    Traceback (most recent call last):\n        ...\n    ValueError: Input list must be a non empty list\n\n    \"\"\""
+    ],
+    "functions": [
+        "is_arithmetic_series",
+        "arithmetic_mean"
+    ],
+    "classes": []
+}

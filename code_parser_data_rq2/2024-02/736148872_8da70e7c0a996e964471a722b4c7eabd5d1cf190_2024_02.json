@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "insertWorkout",
+        "insertProgramWorkout",
+        "insertWorkoutExercise",
+        "insertWorkoutExerciseSet",
+        "IWorkoutData",
+        "IProgramWorkoutData",
+        "workout",
+        "programId",
+        "workout",
+        "insertWorkout",
+        "workout",
+        "programId",
+        "insertProgramWorkout",
+        "programId",
+        "workoutId",
+        "workout",
+        "workout",
+        "workout",
+        "workout",
+        "insertWorkoutExercise",
+        "workoutId",
+        "workoutExercise",
+        "exerciseIndex",
+        "workoutExercise",
+        "workoutExercise",
+        "insertWorkoutExerciseSet",
+        "workoutExerciseId",
+        "setIndex",
+        "workoutExerciseSet",
+        "workoutExerciseSet",
+        "workoutExerciseSet",
+        "workoutExerciseSet",
+        "workoutId"
+    ],
+    "literals": [
+        "\"../mutations/Workout\"",
+        "\"../mutations/ProgramWorkout\"",
+        "\"../mutations/WorkoutExercise\"",
+        "\"../mutations/WorkoutExerciseSet\"",
+        "\"../data/workouts\"",
+        "\"../data/programs\"",
+        "\"Workouts must contain at least one exercise\""
+    ],
+    "variables": [
+        "workoutId",
+        "exerciseIndex",
+        "workoutExercise",
+        "workoutExerciseId",
+        "setIndex",
+        "workoutExerciseSet"
+    ],
+    "comments": [
+        "TODO: Error catch and roll back changes if at all possible?",
+        "TODO: Ensure this is required in creating a program workout!",
+        "TODO: FUTURE FEATURE = Validate that the set matches the exercise (eg. reps, weight vs time, distance)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "addWorkout"
+    ],
+    "classes": []
+}

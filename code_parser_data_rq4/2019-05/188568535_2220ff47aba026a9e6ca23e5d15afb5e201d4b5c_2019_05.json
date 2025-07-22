@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "canvasElement",
+        "canvasElement",
+        "BABYLON",
+        "Game",
+        "BABYLON",
+        "BABYLON",
+        "BABYLON",
+        "BABYLON",
+        "BABYLON",
+        "BABYLON",
+        "BABYLON",
+        "sphere",
+        "BABYLON",
+        "Game",
+        "_this",
+        "_this",
+        "Game",
+        "Game",
+        "game",
+        "game"
+    ],
+    "literals": [
+        "'camera1'",
+        "'light1'",
+        "'sphere1'",
+        "'ground1'",
+        "'resize'",
+        "'DOMContentLoaded'",
+        "'renderCanvas'"
+    ],
+    "variables": [
+        "Game",
+        "sphere",
+        "ground",
+        "_this",
+        "game"
+    ],
+    "comments": [
+        "<reference path=\"../libs/babylon.d.ts\" />",
+        "@class",
+        "Create canvas and engine.",
+        "Create a basic BJS Scene object.",
+        "Create a FreeCamera, and set its position to (x:0, y:5, z:-10).",
+        "Target the camera to scene origin.",
+        "Attach the camera to the canvas.",
+        "Create a basic light, aiming 0,1,0 - meaning, to the sky.",
+        "Create a built-in \"sphere\" shape; with 16 segments and diameter of 2.",
+        "Move the sphere upward 1/2 of its height.",
+        "Create a built-in \"ground\" shape.",
+        "Run the render loop.",
+        "The canvas/window resize event handler.",
+        "Create the game using the 'renderCanvas'.",
+        "Create the scene.",
+        "Start render loop."
+    ],
+    "docstrings": [],
+    "functions": [
+        "Game"
+    ],
+    "classes": []
+}

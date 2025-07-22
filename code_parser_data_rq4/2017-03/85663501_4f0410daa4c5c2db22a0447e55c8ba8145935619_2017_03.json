@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "yjc",
+        "wdb",
+        "controller",
+        "org",
+        "slf4j",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "org",
+        "springframework",
+        "web",
+        "servlet",
+        "ControllerAdvice",
+        "logger",
+        "LoggerFactory",
+        "getLogger",
+        "ExceptionHandler",
+        "ex",
+        "modelAndView",
+        "modelAndView",
+        "setViewName",
+        "modelAndView",
+        "addObject",
+        "ex",
+        "modelAndView"
+    ],
+    "literals": [
+        "\"/error_common\"",
+        "\"exception\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "@ExceptionHandler(Exception.class)\n\tpublic String common(Exception e) {\n\t\tlogger.info(e.toString());\n\t\t\n\t\treturn \"error_common\";\n\t}"
+    ],
+    "functions": [
+        "ModelAndView",
+        "errorModelAndView"
+    ],
+    "classes": [
+        "CommonExceptionAdvice"
+    ]
+}

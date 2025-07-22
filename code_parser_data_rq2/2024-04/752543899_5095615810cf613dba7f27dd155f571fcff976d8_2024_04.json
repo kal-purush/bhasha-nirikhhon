@@ -1,0 +1,92 @@
+{
+    "identifiers": [
+        "os",
+        "json",
+        "requests",
+        "threading",
+        "queue",
+        "logging",
+        "_global_logger",
+        "_global_logger",
+        "url",
+        "os",
+        "environ",
+        "get",
+        "logging",
+        "info",
+        "url",
+        "RemoteLogger",
+        "url",
+        "url",
+        "EmptyLogger",
+        "_global_logger",
+        "_data",
+        "url",
+        "url",
+        "queue",
+        "threading",
+        "target",
+        "_send_logs",
+        "daemon",
+        "thread",
+        "start",
+        "data",
+        "logs",
+        "put_nowait",
+        "data",
+        "logs",
+        "get",
+        "key",
+        "value",
+        "data",
+        "items",
+        "isinstance",
+        "value",
+        "json",
+        "dumps",
+        "value",
+        "ensure_ascii",
+        "requests",
+        "post",
+        "url",
+        "json",
+        "data",
+        "logging",
+        "exception"
+    ],
+    "literals": [
+        "\"REMOTE_LOGGER_URL\"",
+        "f\"Remote logger enabled, sending data to {url}\"",
+        "\"Failed to send logs to remote endpoint\""
+    ],
+    "variables": [
+        "_global_logger",
+        "_global_logger",
+        "_global_logger",
+        "url",
+        "logs",
+        "thread",
+        "data",
+        "data",
+        "key"
+    ],
+    "comments": [
+        "A JSON logger that sends data to remote endpoint.",
+        "Architecturally, it hosts a background thread that sends logs to a remote endpoint.",
+        "process the data by keep only the top level fields, and turn any nested dict into a string"
+    ],
+    "docstrings": [
+        "\"\"\"Dummy logger that does nothing.\"\"\"",
+        "\"\"\"A JSON logger that sends data to remote endpoint.\"\"\""
+    ],
+    "functions": [
+        "get_remote_logger",
+        "log",
+        "log",
+        "_send_logs"
+    ],
+    "classes": [
+        "EmptyLogger",
+        "RemoteLogger"
+    ]
+}

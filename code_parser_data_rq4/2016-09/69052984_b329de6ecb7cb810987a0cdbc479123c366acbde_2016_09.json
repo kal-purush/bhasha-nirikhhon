@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "flask",
+        "Blueprint",
+        "redirect",
+        "jsonify",
+        "flask_restful",
+        "Api",
+        "resources",
+        "series",
+        "SeriesDetail",
+        "SeriesList",
+        "RanobeHonyaku",
+        "utils",
+        "setup_file",
+        "Blueprint",
+        "url_prefix",
+        "Api",
+        "api_v1",
+        "api",
+        "add_resource",
+        "SeriesDetail",
+        "api",
+        "add_resource",
+        "SeriesList",
+        "api_v1",
+        "route",
+        "redirect",
+        "setup_file",
+        "message",
+        "status_code",
+        "message",
+        "status_code",
+        "message",
+        "status_code",
+        "api_v1",
+        "errorhandler",
+        "APIError",
+        "error",
+        "jsonify",
+        "error",
+        "format_to_dict",
+        "response",
+        "error",
+        "status_code"
+    ],
+    "literals": [
+        "\"api\"",
+        "\"/api/v1\"",
+        "\"/series/<int:series_id>\"",
+        "\"/series\"",
+        "\"/\"",
+        "\"GITHUB\"",
+        "\"message\"",
+        "\"error\""
+    ],
+    "variables": [
+        "api_v1",
+        "api",
+        "message",
+        "status_code",
+        "response"
+    ],
+    "comments": [
+        "Set up Flask-RESTful and add resources",
+        "This is the base for the API; Will redirect to our Github organisation page so it always links to latest documentation",
+        "Our class for API errors to raise so we can catch it with our error_handler function",
+        "Note that this currently isn't being used - Flask-RESTful can catch its own errors, but it should",
+        "be possible to manually throw errors if that was what you were going for",
+        "Handles all errors that involve the API; Will return an error message and the response code"
+    ],
+    "docstrings": [],
+    "functions": [
+        "root",
+        "format_to_dict",
+        "api_error_handler"
+    ],
+    "classes": [
+        "APIError"
+    ]
+}

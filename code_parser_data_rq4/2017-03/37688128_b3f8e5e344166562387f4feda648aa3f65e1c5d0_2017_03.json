@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "IO",
+        "Runtime",
+        "InteropServices",
+        "SqlServerTypes",
+        "DllImport",
+        "CharSet",
+        "CharSet",
+        "Auto",
+        "SetLastError",
+        "libname",
+        "rootApplicationPath",
+        "IntPtr",
+        "Size",
+        "Path",
+        "Combine",
+        "rootApplicationPath",
+        "Path",
+        "Combine",
+        "rootApplicationPath",
+        "LoadNativeAssembly",
+        "nativeBinaryPath",
+        "LoadNativeAssembly",
+        "nativeBinaryPath",
+        "nativeBinaryPath",
+        "assemblyName",
+        "Path",
+        "Combine",
+        "nativeBinaryPath",
+        "assemblyName",
+        "LoadLibrary",
+        "path",
+        "ptr",
+        "IntPtr",
+        "Zero",
+        "Format",
+        "assemblyName",
+        "Marshal",
+        "GetLastWin32Error"
+    ],
+    "literals": [
+        "\"kernel32.dll\"",
+        "\"msvcr100.dll\"",
+        "\"SqlServerSpatial110.dll\"",
+        "\"Error loading {0} (ErrorCode: {1})\""
+    ],
+    "variables": [
+        "nativeBinaryPath",
+        "path",
+        "ptr"
+    ],
+    "comments": [
+        "Utility methods related to CLR Types for SQL Server",
+        "</summary>",
+        "Loads the required native assemblies for the current architecture (x86 or x64)",
+        "</summary>",
+        "<param name=\"rootApplicationPath\">",
+        "Root path of the current application. Use Server.MapPath(\".\") for ASP.NET applications",
+        "and AppDomain.CurrentDomain.BaseDirectory for desktop applications.",
+        "</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IntPtr",
+        "LoadLibrary",
+        "LoadNativeAssemblies",
+        "LoadNativeAssembly"
+    ],
+    "classes": [
+        "Utilities"
+    ]
+}

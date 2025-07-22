@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "get",
+        "vibrate",
+        "vibrate",
+        "get",
+        "vibrate",
+        "vibrate",
+        "DEFAULT"
+    ],
+    "literals": [
+        "\"idb-keyval\"",
+        "\"vibrate\"",
+        "\"vibrate\"",
+        "\"boolean\""
+    ],
+    "variables": [
+        "DEFAULT",
+        "vibrate"
+    ],
+    "comments": [
+        "if no value is assigned to \"vibrate\", return default value"
+    ],
+    "docstrings": [
+        "* Set vibration preference (true means will vibrate)\n *\n * @param vibrate"
+    ],
+    "functions": [
+        "setVibrationPreference",
+        "getVibrationPreference"
+    ],
+    "classes": []
+}

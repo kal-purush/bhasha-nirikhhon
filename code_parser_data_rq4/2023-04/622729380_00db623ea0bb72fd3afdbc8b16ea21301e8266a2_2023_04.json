@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Selenium11",
+        "org",
+        "openqa",
+        "selenium",
+        "JavascriptExecutor",
+        "org",
+        "openqa",
+        "selenium",
+        "WebElement",
+        "org",
+        "openqa",
+        "selenium",
+        "chrome",
+        "ChromeDriver",
+        "args",
+        "setProperty",
+        "driver",
+        "driver",
+        "get",
+        "js1",
+        "driver",
+        "jsScript2",
+        "cc",
+        "js1",
+        "executeScript",
+        "jsScript2",
+        "cc",
+        "getText",
+        "sleep",
+        "driver",
+        "quit"
+    ],
+    "literals": [
+        "\"webdrive.chrome.driver\"",
+        "\"C:\\\\Users\\\\offic\\\\OneDrive\\\\Desktop\\\\Chrome.exe\"",
+        "\"https://www.webdriveruniversity.com/\"",
+        "\"return document.querySelector('#contact-us')\""
+    ],
+    "variables": [],
+    "comments": [
+        "TODO Auto-generated method stub",
+        "System.out.println(driver.getTitle());",
+        "Getting the Title",
+        "JavascriptExecutor js = (JavascriptExecutor) driver;",
+        "String jsScript = \"return document.title\";",
+        "String aa1 = (String)js.executeScript(jsScript);",
+        "System.out.println(aa1);",
+        "",
+        "",
+        "// Getting the element",
+        "program 2",
+        "driver.get(\"https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_alert\");",
+        "WebElement e =driver.findElement(By.cssSelector(\"#iframeResult\"));",
+        "driver.switchTo().frame(e);",
+        "JavascriptExecutor js = (JavascriptExecutor) driver;",
+        "String jsScript3 = \"myFunction()\";",
+        "js.executeScript(jsScript3);",
+        "driver.switchTo().alert().accept();"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "Jsexecutor1"
+    ]
+}

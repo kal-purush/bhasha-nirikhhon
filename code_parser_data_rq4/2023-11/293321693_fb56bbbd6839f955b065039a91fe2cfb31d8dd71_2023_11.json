@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "request",
+        "AxiosPromise",
+        "CaptchaResult",
+        "LoginData",
+        "LoginResult",
+        "data",
+        "FormData",
+        "formData",
+        "data",
+        "formData",
+        "data",
+        "formData",
+        "data",
+        "formData",
+        "data",
+        "formData",
+        "request",
+        "formData",
+        "request",
+        "request"
+    ],
+    "literals": [
+        "\"@/utils/request\"",
+        "\"axios\"",
+        "\"./types\"",
+        "\"username\"",
+        "\"password\"",
+        "\"verifyCodeKey\"",
+        "\"\"",
+        "\"verifyCode\"",
+        "\"\"",
+        "\"grant_type\"",
+        "\"captcha\"",
+        "\"/youlai-auth/oauth/token\"",
+        "\"post\"",
+        "\"Content-Type\"",
+        "\"multipart/form-data\"",
+        "\"Basic bWFsbC1hZG1pbjoxMjM0NTY=\"",
+        "\"/youlai-system/api/v1/users/logout\"",
+        "\"delete\"",
+        "\"/captcha\"",
+        "\"get\""
+    ],
+    "variables": [
+        "formData"
+    ],
+    "comments": [
+        "客户端信息Base64明文：mall-admin:123456"
+    ],
+    "docstrings": [
+        "* 登录API\n *\n * @param data {LoginData}\n * @returns",
+        "* 注销API",
+        "* 获取验证码"
+    ],
+    "functions": [
+        "loginApi",
+        "logoutApi",
+        "getCaptchaApi"
+    ],
+    "classes": []
+}

@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "hartz",
+        "masterThesis",
+        "historyGuidedImpactAnalysis",
+        "commandExecution",
+        "exitCode",
+        "errors",
+        "output",
+        "returnCode",
+        "errors",
+        "output",
+        "exitCode",
+        "returnCode",
+        "errors",
+        "errors",
+        "output",
+        "output",
+        "Override",
+        "o",
+        "output",
+        "getContent",
+        "o",
+        "o",
+        "isEmpty",
+        "o",
+        "e",
+        "errors",
+        "getContent",
+        "e",
+        "e",
+        "isEmpty",
+        "e",
+        "s",
+        "o",
+        "e",
+        "exitCode",
+        "s",
+        "errors",
+        "getContent",
+        "errors",
+        "getContent",
+        "isEmpty",
+        "output",
+        "getContent",
+        "output",
+        "getContent",
+        "isEmpty"
+    ],
+    "literals": [
+        "\"## NOTHING WAS PRINTED ON >OUTPUT ##\\n\"",
+        "\"## NOTHING WAS PRINTED ON >ERROR  ##\\n\"",
+        "\"##  => exit code was \"",
+        "\" ##\\n\""
+    ],
+    "variables": [
+        "exitCode",
+        "errors",
+        "output"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Wrapper around two StreamWrappers with nice toString method\n * that is returned by the Executor.",
+        "* Contructs a new Execution Result container.\n     *\n     * @param returnCode : the integer code that the execution retured\n     * @param errors : wrapper containing std.err-output\n     * @param output : wrapper containing std.out-output",
+        "* @return 'true' if the process printed anything on std.err",
+        "* @return 'true' if the process printed anything on std.out"
+    ],
+    "functions": [
+        "ExecutionResult",
+        "toString",
+        "hadErrors",
+        "hadOutput"
+    ],
+    "classes": [
+        "ExecutionResult"
+    ]
+}

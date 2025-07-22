@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "net",
+        "jk",
+        "app",
+        "commons",
+        "boot",
+        "STRINGBUILDER",
+        "Override",
+        "Override",
+        "bld",
+        "get",
+        "bld",
+        "setLength",
+        "bld"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "Common ThreadLocal variables, usually for performance reasons",
+        "* Thread-local StringBuilder, removes the overhead of creating a new one for every need Gets\n   * reset to empty on every get() for easy usage in ad-hoc String concatenations.\n   *\n   * <p>Methods utilizing this string builder *MUST NOT* call other methods while building their\n   * string as the called methods could potentially reset the state of this builder by utilizing it\n   * themselves."
+    ],
+    "functions": [
+        "StringBuilder",
+        "initialValue",
+        "StringBuilder",
+        "get"
+    ],
+    "classes": [
+        "ThreadLocals"
+    ]
+}

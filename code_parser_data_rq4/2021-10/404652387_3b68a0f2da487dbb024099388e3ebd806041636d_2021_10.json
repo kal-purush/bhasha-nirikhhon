@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "AbstractControl",
+        "ValidationErrors",
+        "ValidatorFn",
+        "control",
+        "passwordRegex",
+        "control",
+        "valid",
+        "errors",
+        "forbidenExtension",
+        "control",
+        "control",
+        "forbidenExtension",
+        "isValid",
+        "control",
+        "forbidenExtension"
+    ],
+    "literals": [
+        "'@angular/forms'",
+        "'(?=.*[A-Z])'",
+        "'doit contenit au moins une majuscule'",
+        "string",
+        "string",
+        "'extension'"
+    ],
+    "variables": [
+        "passwordRegex",
+        "valid",
+        "errors",
+        "isValid"
+    ],
+    "comments": [
+        "one uppercase at least",
+        "Check if control value ends with extension given in parameter",
+        "Now tested with extension given as parameter :)",
+        "'extension' is the error key",
+        "export function checkEqualityValidator(controlName1:string, controlName2:string): ValidatorFn {\n  return (control: AbstractControl): ValidationErrors | null => {\n    // Get first control value\n    if (controlName1.length > 0 ) {\n      const value1 = control.get(controlName1).value;\n    } else {\n      const value1 = 'ko1';\n    }\n       // Get second control value\n    const value2 = control.get(controlName2).value;\n\n    if (!(value1 && value2 && value1 === value2)) {\n      return { 'notEqual': { actual: value1, expected: value2 } };\n    } else {\n      return null;\n    }\n  };\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "passwordValidator",
+        "forbidenExtensionValidator"
+    ],
+    "classes": []
+}

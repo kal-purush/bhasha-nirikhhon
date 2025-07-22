@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "angular",
+        "$scope",
+        "$http",
+        "$http",
+        "data",
+        "$scope",
+        "data",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "'assistantsController'",
+        "'mainController'",
+        "'/assistants'",
+        "'Error: '"
+    ],
+    "variables": [],
+    "comments": [
+        "js/controllers/main.js",
+        "$scope.formData = {};",
+        "when landing on the page, get all assistants and show them",
+        "when submitting the add form, send the text to the node API",
+        "$scope.createTodo = function () {",
+        "$http.post('/api/todos', $scope.formData)",
+        ".success(function (data) {",
+        "$scope.formData = {}; // clear the form so our user is ready to enter another",
+        "$scope.todos = data;",
+        "})",
+        ".error(function (data) {",
+        "console.log('Error: ' + data);",
+        "});",
+        "};",
+        "delete a todo after checking it",
+        "$scope.deleteTodo = function (id) {",
+        "$http.delete('/api/todos/' + id)",
+        ".success(function (data) {",
+        "$scope.todos = data;",
+        "})",
+        ".error(function (data) {",
+        "console.log('Error: ' + data);",
+        "});",
+        "};"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

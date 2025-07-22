@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Globals",
+        "Injectable",
+        "Http",
+        "Headers",
+        "Response",
+        "Observable",
+        "Injectable",
+        "http",
+        "Headers",
+        "Globals",
+        "res",
+        "res",
+        "clientTime",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "'../../app.globals'",
+        "'@angular/core'",
+        "'@angular/http'",
+        "'rxjs'",
+        "'Content-Type'",
+        "'application/json'",
+        "${Globals.API_URL}/timesync/"
+    ],
+    "variables": [
+        "clientTime"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "load",
+        "getServerTime"
+    ],
+    "classes": [
+        "ServerTimeService"
+    ]
+}

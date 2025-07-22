@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "NuGet",
+        "Services",
+        "Validation",
+        "Orchestrator"
+    ],
+    "literals": [],
+    "variables": [
+        "AnyValidationSucceeded",
+        "AnyRequiredValidationSucceeded"
+    ],
+    "comments": [
+        "Copyright (c) .NET Foundation. All rights reserved.",
+        "Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.",
+        "Contains useful information about what happened inside of <see cref=\"ValidationSetProcessor\"/>",
+        "during processing of the current message",
+        "</summary>",
+        "true if there were any validation that succeeded (regardless of its settings)",
+        "</summary>",
+        "true if any validation succeeded that had <see cref=\"ValidationConfigurationItem.FailureBehavior\"/>",
+        "set to <see cref=\"ValidationFailureBehavior.MustSucceed\"/>",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "ValidationSetProcessorResult"
+    ]
+}

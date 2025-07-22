@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "taskInput",
+        "taskValue",
+        "inputError",
+        "inputError",
+        "inputError",
+        "li",
+        "taskValue",
+        "listItem",
+        "taskValue",
+        "deleteButton",
+        "deleteButton",
+        "deleteButton",
+        "taskList",
+        "li",
+        "li",
+        "deleteButton",
+        "taskInput"
+    ],
+    "literals": [
+        "\"taskInput\"",
+        "\"taskList\"",
+        "\"input-container\"",
+        "\"\"",
+        "\"Please enter a task!\"",
+        "\"red\"",
+        "\"block\"",
+        "\"li\"",
+        "${taskValue}",
+        "\"list-item\"",
+        "${taskValue}",
+        "\"button\"",
+        "\"Delete\"",
+        "\"delete-btn\"",
+        "\"\""
+    ],
+    "variables": [
+        "taskInput",
+        "taskList",
+        "inputError",
+        "taskValue",
+        "li",
+        "listItem",
+        "deleteButton"
+    ],
+    "comments": [
+        "function to add tasks",
+        "create a new list item",
+        "taskList.append(li);",
+        "add a delete button to the task",
+        "taskList.appendChild(li);",
+        "clear the input field"
+    ],
+    "docstrings": [],
+    "functions": [
+        "addTask"
+    ],
+    "classes": []
+}

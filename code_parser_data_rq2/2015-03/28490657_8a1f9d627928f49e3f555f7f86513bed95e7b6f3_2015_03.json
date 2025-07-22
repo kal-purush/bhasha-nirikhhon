@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "gov",
+        "nasa",
+        "jpf",
+        "annotation",
+        "java",
+        "lang",
+        "annotation",
+        "ElementType",
+        "java",
+        "lang",
+        "annotation",
+        "Retention",
+        "java",
+        "lang",
+        "annotation",
+        "RetentionPolicy",
+        "java",
+        "lang",
+        "annotation",
+        "Target",
+        "Retention",
+        "RetentionPolicy",
+        "RUNTIME",
+        "Target",
+        "ElementType",
+        "METHOD",
+        "NoJPFExecution"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (C) 2015, United States Government, as represented by the\n * Administrator of the National Aeronautics and Space Administration.\n * All rights reserved.\n *\n * The Java Pathfinder core (jpf-core) platform is licensed under the\n * Apache License, Version 2.0 (the \"License\"); you may not use this file except\n * in compliance with the License. You may obtain a copy of the License at\n *\n *        http://www.apache.org/licenses/LICENSE-2.0.\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "*\n * annotation used to specify that a method is only supposed to be\n * executed when running outside JPF\n *\n * This is useful for model classes that have methods which are intercepted\n * or cut off by native peers, and we want to ensure that we never execute\n * these when running under JPF. The standard case for such assertions is\n * if we refer to JPF itself, and we don't want to get recursive when already\n * executing under JPF"
+    ],
+    "functions": [],
+    "classes": []
+}

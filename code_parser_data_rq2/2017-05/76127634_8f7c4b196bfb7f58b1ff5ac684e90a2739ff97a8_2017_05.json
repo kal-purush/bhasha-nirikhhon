@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "$",
+        "response",
+        "response",
+        "$",
+        "response",
+        "$",
+        "response",
+        "index",
+        "value",
+        "wpForm",
+        "index",
+        "value",
+        "wpForm",
+        "wpForm"
+    ],
+    "literals": [
+        "'em_booking_gateway_add_banktransfer'",
+        "'<form action=\"'",
+        "'\" method=\"post\" id=\"em-banktransfer-redirect-form\"></form>'",
+        "'<input type=\"hidden\" name=\"'",
+        "'\" value=\"'",
+        "'\" />'",
+        "'<input id=\"em-banktransfer-submit\" type=\"submit\" style=\"display:none\" />'",
+        "'body'",
+        "'submit'"
+    ],
+    "variables": [
+        "wpForm"
+    ],
+    "comments": [
+        "Add WorldPay redirection",
+        "called by EM if return JSON contains gateway key, notifications messages are shown by now."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

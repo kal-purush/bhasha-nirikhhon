@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "city",
+        "fetch",
+        "city",
+        "API_KEY",
+        "response",
+        "response",
+        "response",
+        "data",
+        "data",
+        "error",
+        "error",
+        "error",
+        "Weather",
+        "weatherInstance"
+    ],
+    "literals": [
+        "string",
+        "\"\"",
+        "https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}",
+        "Failed to fetch weather data: ${response.statusText}",
+        "\"Error fetching weather data:\""
+    ],
+    "variables": [
+        "API_KEY",
+        "response",
+        "data",
+        "weatherInstance"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getWeather"
+    ],
+    "classes": [
+        "Weather"
+    ]
+}

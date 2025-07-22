@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "data"
+    ],
+    "literals": [],
+    "variables": [
+        "url",
+        "file_name"
+    ],
+    "comments": [
+        "получение количества страниц и для каждой страницы:",
+        "обращение к странице",
+        "получение ссылок на объявления со страницы",
+        "выполнение переход по каждой ссылке и извлечь требуемые данные",
+        "cохранение всех данных"
+    ],
+    "docstrings": [
+        "\"\"\"\n        This function finds out number of pages for this theme.\n        This function changes self.n_page. It returns None, if some error.\n        :return: number of pages\n        \"\"\"",
+        "\"\"\"\n        This function saves data in a file named self.file_name\n        \"\"\"",
+        "\"\"\"\n        This function loads configs.yml and fills empty properties\n        \"\"\"",
+        "\"\"\"\n        This function is main loop for collecting and saving data\n        \"\"\""
+    ],
+    "functions": [
+        "get_n_pages",
+        "save_data",
+        "load_configs",
+        "start"
+    ],
+    "classes": [
+        "AvitoParser"
+    ]
+}

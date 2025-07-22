@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "urlSeed",
+        "getValidSeed",
+        "location",
+        "seed",
+        "State",
+        "seed",
+        "location",
+        "seed",
+        "State",
+        "seed",
+        "$",
+        "location",
+        "createSeed",
+        "seed",
+        "seed",
+        "createSeed",
+        "seed",
+        "seed",
+        "seed",
+        "createSeed",
+        "seed",
+        "random",
+        "adjectives",
+        "random",
+        "adjectives",
+        "random",
+        "animals"
+    ],
+    "literals": [
+        "'#'",
+        "''",
+        "Setting the location hash to ${seed}",
+        "'seed'",
+        "'Spinning up PRNG'",
+        "':enginerestart'",
+        "'Creating a new seed...'",
+        "'Restarting the engine...'",
+        "string",
+        "string",
+        "'Creating a seed...'",
+        "Seed not long enough! Appending some filler to ${seed}..."
+    ],
+    "variables": [
+        "urlSeed",
+        "seed",
+        "lib",
+        "urlData"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Validates and adjust a seed.\n * @param seed - Seed to validate/adjust.\n * @returns A valid seed.",
+        "* Creates a new seed."
+    ],
+    "functions": [
+        "getValidSeed",
+        "createSeed"
+    ],
+    "classes": []
+}

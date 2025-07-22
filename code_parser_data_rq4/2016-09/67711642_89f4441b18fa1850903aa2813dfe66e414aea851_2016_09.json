@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "price",
+        "balance",
+        "total",
+        "cost",
+        "price",
+        "cost",
+        "balance",
+        "total",
+        "price",
+        "balance",
+        "amount",
+        "balance",
+        "balance",
+        "amount",
+        "price",
+        "total",
+        "total",
+        "balance",
+        "balance"
+    ],
+    "literals": [
+        "\"##################\"",
+        "\"# The BlueJ Line\"",
+        "\"# Ticket\"",
+        "\"# \"",
+        "\" cents.\"",
+        "\"##################\""
+    ],
+    "variables": [
+        "price",
+        "balance",
+        "total"
+    ],
+    "comments": [
+        "The price of a ticket from this machine.",
+        "The amount of money entered by a customer so far.",
+        "The total amount of money collected by this machine.",
+        "Simulate the printing of a ticket.",
+        "Update the total collected with the balance.",
+        "Clear the balance."
+    ],
+    "docstrings": [
+        "* TicketMachine models a naive ticket machine that issues\n * flat-fare tickets.\n * The price of a ticket is specified via the constructor.\n * It is a naive machine in the sense that it trusts its users\n * to insert enough money before trying to print a ticket.\n * It also assumes that users enter sensible amounts.\n *\n * @author David J. Barnes and Michael Kölling\n * @version 2016.02.29",
+        "* Create a machine that issues tickets of the given price.\n     * Note that the price must be greater than zero, and there\n     * are no checks to ensure this.",
+        "* Return the price of a ticket.",
+        "* Return the amount of money already inserted for the\n     * next ticket.",
+        "* Receive an amount of money from a customer.",
+        "* Print a ticket.\n     * Update the total collected and\n     * reduce the balance to zero."
+    ],
+    "functions": [
+        "TicketMachine",
+        "getPrice",
+        "getBalance",
+        "insertMoney",
+        "printTicket"
+    ],
+    "classes": [
+        "TicketMachine"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "require",
+        "low",
+        "high",
+        "prob",
+        "low",
+        "high",
+        "low",
+        "prob",
+        "prob",
+        "p",
+        "p",
+        "high",
+        "low",
+        "lnp",
+        "lnq",
+        "low",
+        "lnq",
+        "κ",
+        "zSeed",
+        "zSeed",
+        "cdf",
+        "zSeed",
+        "λ",
+        "rnd",
+        "κ"
+    ],
+    "literals": [
+        "'norm-dist/cdf'",
+        "'Weibull values must be 0 < L < H'"
+    ],
+    "variables": [
+        "cdf",
+        "p",
+        "lnp",
+        "lnq",
+        "κ",
+        "λ",
+        "rnd"
+    ],
+    "comments": [
+        "κ==1/k"
+    ],
+    "docstrings": [
+        "* LogNormal Distribution\n * @param {number} low - range lower bound\n * @param {number} high - range lower bound\n * @param {number} [prob] - confidence interval\n * @returns {Function} - random number generator",
+        "* @param {number} [zSeed]\n\t * @returns {number}"
+    ],
+    "functions": [],
+    "classes": []
+}

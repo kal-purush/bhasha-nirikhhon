@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "xomega",
+        "ko",
+        "element",
+        "valueAccessor",
+        "allBindingsAccessor",
+        "viewModel",
+        "bindingContext",
+        "Bindings",
+        "element",
+        "valueAccessor",
+        "binding",
+        "binding",
+        "element",
+        "valueAccessor",
+        "allBindingsAccessor",
+        "viewModel",
+        "bindingContext",
+        "binding",
+        "Bindings",
+        "binding",
+        "element",
+        "property",
+        "Bindings",
+        "i",
+        "i",
+        "Bindings",
+        "i",
+        "element",
+        "property",
+        "Bindings",
+        "i"
+    ],
+    "literals": [
+        "'property'"
+    ],
+    "variables": [
+        "binding",
+        "i"
+    ],
+    "comments": [
+        "Copyright (c) 2014 Xomega.Net. All rights reserved.",
+        "property bindigs registry",
+        "a list of registered property bindings to look through",
+        "initialize bindings by setting up knockout property binding handler",
+        "set up knockout binding that looks up property binding and delegates the work to it",
+        "only do the init function, which will listen to property changes if/when needed",
+        "to improve performance, since update is ALWAYS run in a dependentObservable that has its overhead",
+        "register a property binding",
+        "find a property bidning that applies to the given element"
+    ],
+    "docstrings": [],
+    "functions": [
+        "init",
+        "register",
+        "findBinding"
+    ],
+    "classes": [
+        "Bindings"
+    ]
+}

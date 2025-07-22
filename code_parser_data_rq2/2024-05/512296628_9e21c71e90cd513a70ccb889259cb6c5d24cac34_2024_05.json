@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "Linq",
+        "Text",
+        "RegularExpressions",
+        "Microsoft",
+        "Build",
+        "Framework",
+        "Logging",
+        "Regex",
+        "termType",
+        "IsNullOrEmpty",
+        "termType",
+        "terminalsRegexes",
+        "Any",
+        "regex",
+        "IsMatch",
+        "termType"
+    ],
+    "literals": [
+        "\"^xterm\"",
+        "\"^rxvt\"",
+        "\"^(?!eterm-color).*eterm.*\"",
+        "\"^screen\"",
+        "\"tmux\"",
+        "\"^vt100\"",
+        "\"^vt102\"",
+        "\"^vt220\"",
+        "\"^vt320\"",
+        "\"ansi\"",
+        "\"scoansi\"",
+        "\"cygwin\"",
+        "\"linux\"",
+        "\"konsole\"",
+        "\"bvterm\"",
+        "\"^st-256color\"",
+        "\"alacritty\""
+    ],
+    "variables": [
+        "terminalsRegexes"
+    ],
+    "comments": [
+        "Licensed to the .NET Foundation under one or more agreements.",
+        "The .NET Foundation licenses this file to you under the MIT license.",
+        "Portions of the code in this file were ported from the spectre.console by Patrik Svensson, Phil Scott, Nils Andresen",
+        "https://github.com/spectreconsole/spectre.console/blob/main/src/Spectre.Console/Internal/Backends/Ansi/AnsiDetector.cs",
+        "and from the supports-ansi project by Qingrong Ke",
+        "https://github.com/keqingrong/supports-ansi/blob/master/index.js",
+        "xterm, PuTTY, Mintty",
+        "RXVT",
+        "Accepts eterm, but not eterm-color, which does not support moving the cursor, see #9950.",
+        "GNU screen, tmux",
+        "tmux",
+        "DEC VT series",
+        "DEC VT series",
+        "DEC VT series",
+        "DEC VT series",
+        "ANSI",
+        "SCO ANSI",
+        "Cygwin, MinGW",
+        "Linux console",
+        "Konsole",
+        "Bitvise SSH Client",
+        "Suckless Simple Terminal, st",
+        "Alacritty"
+    ],
+    "docstrings": [],
+    "functions": [
+        "IsAnsiSupported"
+    ],
+    "classes": [
+        "AnsiDetector"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "IO",
+        "Runtime",
+        "Remoting",
+        "Channels",
+        "Com",
+        "AugustCellars",
+        "CoAP",
+        "Proxy",
+        "Http",
+        "IHttpResponse",
+        "MemoryStream",
+        "TransportHeaders",
+        "name",
+        "value",
+        "Headers",
+        "name",
+        "value",
+        "Headers",
+        "Headers",
+        "value",
+        "Headers",
+        "Headers",
+        "value"
+    ],
+    "literals": [
+        "\"__HttpStatusCode\"",
+        "\"__HttpStatusCode\"",
+        "\"__HttpReasonPhrase\"",
+        "\"__HttpReasonPhrase\""
+    ],
+    "variables": [
+        "Stream",
+        "OutputStream",
+        "ITransportHeaders",
+        "Headers",
+        "StatusCode",
+        "StatusDescription"
+    ],
+    "comments": [
+        "Stream to place body output into",
+        "</summary>",
+        "Headers for transport",
+        "</summary>",
+        "Add a header to the transport header list.",
+        "It will replace the header if it already exists.",
+        "</summary>",
+        "<param name=\"name\">name of parameter</param>",
+        "<param name=\"value\">value of parameter</param>",
+        "Get/Set the __HttpStatusCode parameter",
+        "</summary>",
+        "Get/Set the __HttpReasonPhrase parameter",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "AppendHeader"
+    ],
+    "classes": [
+        "RemotingHttpResponse"
+    ]
+}

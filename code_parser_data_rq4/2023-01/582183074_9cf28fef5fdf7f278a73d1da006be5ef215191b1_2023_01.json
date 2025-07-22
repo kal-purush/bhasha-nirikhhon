@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "SecurityClient",
+        "deleteServiceToken",
+        "SecurityClient",
+        "serviceTokenId",
+        "res",
+        "res",
+        "res",
+        "res",
+        "deleteServiceToken"
+    ],
+    "literals": [
+        "'~/utilities/SecurityClient'",
+        "string",
+        "'/api/v2/service-token-data/'",
+        "'DELETE'",
+        "'Content-Type'",
+        "'application/json'",
+        "'Failed to delete a service token'"
+    ],
+    "variables": [
+        "deleteServiceToken"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This route revokes a specific service token\n * @param {object} obj\n * @param {string} obj.serviceTokenId - id of a cervice token that we want to delete\n * @returns"
+    ],
+    "functions": [],
+    "classes": []
+}

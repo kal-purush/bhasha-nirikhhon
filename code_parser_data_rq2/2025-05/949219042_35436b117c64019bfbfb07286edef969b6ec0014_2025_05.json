@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "ExpoConfig",
+        "ConfigContext",
+        "require",
+        "config",
+        "config",
+        "existingPlugins",
+        "require"
+    ],
+    "literals": [
+        "\"@expo/config\"",
+        "\"ts-node/register\"",
+        "\"./plugins/withSplashScreen\""
+    ],
+    "variables": [
+        "existingPlugins"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Use ts-node here so we can use TypeScript for our Config Plugins\n * and not have to compile them to JavaScript",
+        "* @param config ExpoConfig coming from the static config app.json if it exists\n *\n * You can read more about Expo's Configuration Resolution Rules here:\n * https://docs.expo.dev/workflow/configuration/#configuration-resolution-rules"
+    ],
+    "functions": [],
+    "classes": []
+}

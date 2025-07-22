@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "ConstellationSocket",
+        "State",
+        "data",
+        "state",
+        "ev",
+        "socket",
+        "slug",
+        "listener",
+        "data",
+        "listener",
+        "listener",
+        "data",
+        "l",
+        "l",
+        "listener",
+        "state",
+        "state",
+        "State",
+        "ev",
+        "ev",
+        "l",
+        "l",
+        "ev",
+        "State"
+    ],
+    "literals": [
+        "'./socket'",
+        "string",
+        "string",
+        "'livesubscribe'",
+        "'state'",
+        "'event:live'",
+        "'liveunsubscribe'",
+        "'state'",
+        "'event:live'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Subscription is attached to a socket and tracks listening functions.",
+        "* add inserts the listener into the subscription",
+        "* remove removes the listening function.",
+        "* removeAll destroys all listening functions and unsubscribes from the socket.",
+        "* Returns the number of listening functions attached to the subscription."
+    ],
+    "functions": [
+        "add",
+        "remove",
+        "removeAll",
+        "listenerCount",
+        "addSocketListener",
+        "removeSocketListener"
+    ],
+    "classes": [
+        "Subscription"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "Meal",
+        "Component",
+        "Input",
+        "Output",
+        "EventEmitter"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'./meal.model'",
+        "'edit-meal'",
+        "<div *ngIf=\"mealToEdit\">\n    <div class=\"col-md-3\">\n      <h3>Add a New Meal:</h3>\n      <div class=\"form-group\">\n        <label>Enter Date:</label>\n        <input [(ngModel)]=\"mealToEdit.date\" class='form-control' type='date'>\n      </div>\n      <label>Enter Meal Time</label>\n      <select [(ngModel)]=\"mealToEdit.mealTime\" class=\"form-control\">\n        <option value=\"Breakfast\" >Breakfast</option>\n        <option value=\"Lunch\">Lunch</option>\n        <option value=\"Dinner\">Dinner</option>\n        <option value=\"Snack\">Snack</option>\n      </select><br>\n      <div class=\"form-group\">\n        <label>Enter Meal Details</label><br>\n        <input [(ngModel)]=\"mealToEdit.details\" class=\"form-control\">\n      </div>\n      <button class=\"btn btn-primary btn-inverse\" (click)=\"finsihButtonClicked()\">Finish</button>\n    </div>\n  </div>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "finsihButtonClicked"
+    ],
+    "classes": [
+        "EditMealComponent"
+    ]
+}

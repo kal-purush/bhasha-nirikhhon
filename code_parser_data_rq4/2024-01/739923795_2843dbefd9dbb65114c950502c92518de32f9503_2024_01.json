@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "joblib",
+        "joblib",
+        "load",
+        "model",
+        "input",
+        "user_input",
+        "np",
+        "array",
+        "user_input",
+        "model",
+        "predict",
+        "user_input",
+        "prediction"
+    ],
+    "literals": [
+        "'random_forest_model.pkl'",
+        "\"Loaded model:\"",
+        "\"Enter a number: \"",
+        "\"The predicted label is:\""
+    ],
+    "variables": [
+        "model",
+        "user_input",
+        "user_input",
+        "user_input",
+        "prediction"
+    ],
+    "comments": [
+        "import pickle",
+        "Take user input",
+        "The model expects a 2D array",
+        "Get the prediction"
+    ],
+    "docstrings": [
+        "\"\"\"model.predict(previously_loaded_data)\n\"\"\"",
+        "\"\"\"# Load the model\nwith open('random_forest_model.pkl', 'rb') as file:\n    model = pickle.load(file)\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

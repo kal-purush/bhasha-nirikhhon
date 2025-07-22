@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "React",
+        "Enzyme",
+        "Adapter",
+        "App",
+        "LineGraph",
+        "TreeGraph",
+        "Enzyme",
+        "Adapter"
+    ],
+    "literals": [
+        "'react'",
+        "\"enzyme\"",
+        "\"enzyme-adapter-react-16\"",
+        "'../src/components/App'",
+        "'../src/components/LineGraph'",
+        "'../src/components/TreeGraph'"
+    ],
+    "variables": [],
+    "comments": [
+        "import { configure, shallow } from 'enzyme';",
+        "import toJson from 'enzyme-to-json';",
+        "Enzyme is a wrapper around React test utilities which makes it easier to",
+        "shallow render and traverse the shallow rendered tree.",
+        "Newer Enzyme versions require an adapter to a particular version of React"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

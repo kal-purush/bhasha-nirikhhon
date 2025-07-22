@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Validation",
+        "isJson",
+        "validateField",
+        "describe",
+        "isJson",
+        "it",
+        "validateField",
+        "expect",
+        "errorMessage",
+        "it",
+        "validateField",
+        "expect",
+        "errorMessage",
+        "it",
+        "validateField",
+        "expect",
+        "errorMessage"
+    ],
+    "literals": [
+        "'@falsy/metacore'",
+        "'../rules'",
+        "'../validate'",
+        "'isJson'",
+        "'Not valid JSON'",
+        "'should return an error message when the field value is not json'",
+        "'text'",
+        "'{ hey.'",
+        "'Not valid JSON'",
+        "'should not return an error message when the field value is valid JSON'",
+        "'text'",
+        "'{ \"hello\": \"world\" }'",
+        "'should throw error if value is not string'",
+        "'text'",
+        "'Not valid JSON'"
+    ],
+    "variables": [
+        "validation",
+        "errorMessage",
+        "errorMessage",
+        "errorMessage"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "Vector3",
+        "zero",
+        "target",
+        "camera",
+        "WorldToViewportPoint",
+        "target",
+        "position",
+        "target",
+        "position",
+        "camera",
+        "ViewportToWorldPoint",
+        "Vector3",
+        "point",
+        "z",
+        "transform",
+        "position",
+        "delta",
+        "transform",
+        "position",
+        "Vector3",
+        "SmoothDamp",
+        "transform",
+        "position",
+        "destination",
+        "velocity",
+        "dampTime"
+    ],
+    "literals": [],
+    "variables": [
+        "dampTime",
+        "Vector3",
+        "velocity",
+        "Transform",
+        "target",
+        "Vector3",
+        "point",
+        "Vector3",
+        "delta",
+        "Vector3",
+        "destination"
+    ],
+    "comments": [
+        "I grabbed this script online, it works perfectly but I dont remember where I got it from.",
+        "Its a basic camera script. Camera follows an object, using dampTime to cause a smooth transition.",
+        "Creates a public variable of type transform. This will be what the camera will follow.",
+        "You can easily drag the object that is intended to be the target into the \"target\" section",
+        "in the inspection section of this component.",
+        "Update is called once per frame",
+        "Create a vector of the camera's point of view",
+        "Position the camera away from the target along the z axis",
+        "(new Vector3(0.5, 0.5, point.z));",
+        "Im not really sure",
+        "Transform this objects new position to the targets movements with the variables set above."
+    ],
+    "docstrings": [],
+    "functions": [
+        "Update"
+    ],
+    "classes": [
+        "CamFollowObj"
+    ]
+}

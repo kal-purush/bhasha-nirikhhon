@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "IOrganization",
+        "fileName",
+        "organization"
+    ],
+    "literals": [
+        "\"bluebird\"",
+        "\"../models/IOrganization\"",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"../../node_modules/@types/bluebird/index.d.ts\" />"
+    ],
+    "docstrings": [
+        "* Formats a crawler's organization output.",
+        "* Saves a crawler's organization output.\n     * \n     * @param string   The output file name.\n     * @param organization   A crawler's organization output.\n     * @returns A Promise for saving the output."
+    ],
+    "functions": [],
+    "classes": []
+}

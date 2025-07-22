@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "useState",
+        "useEffect",
+        "value",
+        "delay",
+        "useState",
+        "value",
+        "useEffect",
+        "setTimeout",
+        "setDebouncedValue",
+        "value",
+        "delay",
+        "clearTimeout",
+        "timer",
+        "value",
+        "delay",
+        "debouncedValue"
+    ],
+    "literals": [
+        "'react'"
+    ],
+    "variables": [
+        "debouncedValue",
+        "setDebouncedValue",
+        "timer"
+    ],
+    "comments": [
+        "debounce の対象 state と setter",
+        "delay 後 debounce の対象 state をアップデート",
+        "次の effect が実行される直前に timer キャンセル",
+        "value、delay がアップデートするたびに effect 実行",
+        "最終的にアップデートされた state をリターン"
+    ],
+    "docstrings": [],
+    "functions": [
+        "useDebounce"
+    ],
+    "classes": []
+}

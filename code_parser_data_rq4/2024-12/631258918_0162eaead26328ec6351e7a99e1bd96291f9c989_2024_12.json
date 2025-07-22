@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "re",
+        "unicodedata",
+        "text",
+        "unicodedata",
+        "normalize",
+        "text",
+        "text",
+        "encode",
+        "decode",
+        "text",
+        "lower",
+        "re",
+        "sub",
+        "text",
+        "re",
+        "sub",
+        "text",
+        "strip",
+        "text",
+        "strip"
+    ],
+    "literals": [
+        "\"NFKD\"",
+        "\"ascii\"",
+        "\"ignore\"",
+        "\"ascii\"",
+        "r\"[^\\w\\s-]\"",
+        "\"\"",
+        "r\"[\\s_]+\"",
+        "\"-\"",
+        "\"-\""
+    ],
+    "variables": [
+        "text",
+        "text",
+        "text",
+        "text",
+        "text"
+    ],
+    "comments": [
+        "Normalize text to remove accents and special characters",
+        "Convert to lowercase",
+        "Replace spaces and unwanted characters with a hyphen",
+        "Remove leading or trailing hyphens"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Generate a slug from a given text.\n\n    Args:\n        text (str): The input text to convert into a slug.\n\n    Returns:\n        str: A URL-friendly slug.\n    \"\"\""
+    ],
+    "functions": [
+        "create_slug"
+    ],
+    "classes": []
+}

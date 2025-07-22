@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Logger",
+        "NestMiddleware",
+        "v4",
+        "uuidv4",
+        "Injectable",
+        "Logger",
+        "HttpLoggerMiddleware",
+        "req",
+        "res",
+        "next",
+        "req",
+        "uuidv4",
+        "req",
+        "req",
+        "req",
+        "res",
+        "start",
+        "req",
+        "req",
+        "req",
+        "res",
+        "duration",
+        "next"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'uuid'",
+        "'traceId'",
+        "[${req['traceId']}] Req: ${req.method} ${req.originalUrl}",
+        "'traceId'",
+        "'finish'",
+        "[${req['traceId']}] Res: ${req.method} ${req.originalUrl} - Status: ${res.statusCode} - Duration: ${duration}ms",
+        "'traceId'"
+    ],
+    "variables": [
+        "start",
+        "duration"
+    ],
+    "comments": [
+        "Assign a UUID to the request",
+        "Start the timer",
+        "Log request",
+        "Log response"
+    ],
+    "docstrings": [],
+    "functions": [
+        "use"
+    ],
+    "classes": [
+        "HttpLoggerMiddleware"
+    ]
+}

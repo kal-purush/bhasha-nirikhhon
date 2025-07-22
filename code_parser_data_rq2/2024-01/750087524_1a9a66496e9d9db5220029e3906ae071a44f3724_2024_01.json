@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "html",
+        "html",
+        "img",
+        "img",
+        "img",
+        "img"
+    ],
+    "literals": [
+        "'light'",
+        "\"#profile img\"",
+        "'light'",
+        "'src'",
+        "\"./assets/avatar-light.png\"",
+        "'alt'",
+        "\"Foto de João Victor feliz, usando óculos escuros e fundo azul\"",
+        "'src'",
+        "\"./assets/avatar.png\"",
+        "'alt'",
+        "\"Foto de João Victor sério, usando blazer e fundo roxo\""
+    ],
+    "variables": [
+        "html",
+        "img"
+    ],
+    "comments": [
+        "Switch Light and Dark Mode",
+        "if(html.classList.contains('light')){",
+        "html.classList.remove('light')",
+        "} else {",
+        "html.classList.add('light')",
+        "}",
+        "pegar a tag img",
+        "substituir a imagem",
+        "se tiver light mode, adicionar a imagem light",
+        "se tiver sem light mode, manter a imagem normal"
+    ],
+    "docstrings": [],
+    "functions": [
+        "toggleMode"
+    ],
+    "classes": []
+}

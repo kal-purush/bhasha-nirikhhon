@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "targetArray",
+        "name",
+        "status",
+        "array",
+        "arrayOfItems",
+        "targetElement",
+        "alert"
+    ],
+    "literals": [
+        "\"submit\"",
+        "\"Próbujesz coś dodać?\""
+    ],
+    "variables": [],
+    "comments": [
+        "Zapisz sobie referencje do elementów HTML",
+        "Nie zmieniając pliku `index.html`",
+        "",
+        "",
+        "event.preventDefault();"
+    ],
+    "docstrings": [
+        "* Dodaj nowy element do podanej tablicy\n * @param {object[]} targetArray\n * @param {string} name\n * @param {boolean=false} status",
+        "* Zapisuje cały obiekt w LocalStorage, pod kluczem 'items'\n * @param {object[]} array",
+        "* Wyświetl tablicę rzeczy w docelowym elemencie HTML\n * @param {object[]} arrayOfItems\n * @param {HTMLElement} targetElement",
+        "* Każdy obiekt ma nazwę i status\n   * Wyświetl je w <ul> (unordered list), jako osobne elementy <li> (list item).\n   * Status ma być zaprezentowany jako \"checkbox\"",
+        "*",
+        "* DODATKOWE PUNKTY\n * Dodaj możliwość usuwania elementów z listy.\n * - array.filter()"
+    ],
+    "functions": [
+        "addItem",
+        "rememberList",
+        "renderList"
+    ],
+    "classes": []
+}

@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "AppBskyFeedDefs",
+        "FeedAPI",
+        "FeedAPIResponse",
+        "FollowingFeedAPI",
+        "CustomFeedAPI",
+        "PROD_DEFAULT_FEED",
+        "AppBskyFeedDefs",
+        "FollowingFeedAPI",
+        "CustomFeedAPI",
+        "PROD_DEFAULT_FEED",
+        "FollowingFeedAPI",
+        "CustomFeedAPI",
+        "PROD_DEFAULT_FEED",
+        "AppBskyFeedDefs",
+        "cursor",
+        "AppBskyFeedDefs",
+        "returnCursor",
+        "res",
+        "posts",
+        "posts",
+        "res",
+        "res",
+        "cursor",
+        "posts",
+        "FALLBACK_MARKER_POST",
+        "returnCursor",
+        "res",
+        "posts",
+        "posts",
+        "res",
+        "returnCursor",
+        "posts"
+    ],
+    "literals": [
+        "'@atproto/api'",
+        "'./types'",
+        "'./following'",
+        "'./custom'",
+        "'#/lib/constants'",
+        "'fallback-marker-post'",
+        "'fake'",
+        "'did:fake'",
+        "'fake.com'",
+        "'whats-hot'",
+        "'whats-hot'",
+        "string"
+    ],
+    "variables": [
+        "FALLBACK_MARKER_POST",
+        "returnCursor",
+        "posts",
+        "res",
+        "res"
+    ],
+    "comments": [
+        "HACK",
+        "the feed API does not include any facilities for passing down",
+        "non-post elements. adding that is a bit of a heavy lift, and we",
+        "have just one temporary usecase for it: flagging when the home feed",
+        "falls back to discover.",
+        "we use this fallback marker post to drive this instead. see Feed.tsx",
+        "for the usage.",
+        "-prf"
+    ],
+    "docstrings": [],
+    "functions": [
+        "reset",
+        "peekLatest",
+        "fetch"
+    ],
+    "classes": [
+        "HomeFeedAPI"
+    ]
+}

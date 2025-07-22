@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "flask",
+        "Flask",
+        "request",
+        "flask_cors",
+        "CORS",
+        "requests",
+        "json",
+        "semantic_search",
+        "Search",
+        "Flask",
+        "CORS",
+        "app",
+        "app",
+        "route",
+        "language",
+        "search_query",
+        "Search",
+        "language",
+        "search_query",
+        "replace",
+        "language",
+        "search_query",
+        "t",
+        "search",
+        "language",
+        "searchThis"
+    ],
+    "literals": [
+        "'/search/<string:language>/<string:search_query>'",
+        "\"_\"",
+        "\" \""
+    ],
+    "variables": [
+        "app",
+        "t",
+        "languageName",
+        "searchThis"
+    ],
+    "comments": [
+        "print(t.search(language,search_query))",
+        "print(search_object.search(\"c++\", \"print hello world\"))",
+        "return search_query",
+        "print (t.search(language,searchThis))",
+        "return t.search(language,search_query)",
+        "@app.route('/search/<language>/<search_query>')",
+        "def search(language, search_query):",
+        "language_code = get_language_codes(language)",
+        "url = f\"https://searchcode.com/api/codesearch_I/?q={search_query}&p=1&per_page1&lan={language_code}\"",
+        "headers = {'Accept': 'application/json'}",
+        "",
+        "result = requests.get(url, headers = headers).json()",
+        "",
+        "return result['results'][0]['lines'] # Returns code of first search result"
+    ],
+    "docstrings": [],
+    "functions": [
+        "doSearch"
+    ],
+    "classes": []
+}

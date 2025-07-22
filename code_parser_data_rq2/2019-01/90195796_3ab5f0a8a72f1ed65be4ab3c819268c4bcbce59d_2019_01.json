@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "GET_APPLIST",
+        "GET_ACCOUNTLIST"
+    ],
+    "literals": [],
+    "variables": [
+        "GET_ACCOUNT",
+        "GET_APPLIST",
+        "GET_ACCOUNTLIST",
+        "GET_BALANCE",
+        "POST_USAGE",
+        "GET_PROD_APPLIST",
+        "GET_PROD_ACCOUNTLIST"
+    ],
+    "comments": [
+        "Copyright (c) 2017 Fortinet, Inc.",
+        "All Rights Reserved.",
+        "",
+        "Licensed under the Apache License, Version 2.0 (the \"License\"); you may",
+        "not use this file except in compliance with the License. You may obtain",
+        "a copy of the License at",
+        "",
+        "http://www.apache.org/licenses/LICENSE-2.0",
+        "",
+        "Unless required by applicable law or agreed to in writing, software",
+        "distributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT",
+        "WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the",
+        "License for the specific language governing permissions and limitations",
+        "under the License.",
+        "FortiAuthenticator API request format templates.",
+        "About api request message naming regulations:",
+        "Prefix         HTTP method",
+        "ADD_XXX      -->    POST",
+        "SET_XXX      -->    PUT",
+        "DELETE_XXX   -->    DELETE",
+        "GET_XXX      -->    GET",
+        "MODIFY_XXX   -->    PATCH",
+        "customer account",
+        "query customer account",
+        "Get user balance",
+        "User balance update"
+    ],
+    "docstrings": [
+        "\"\"\"\n{\n    \"path\": \"/FortiGlobal/FortinetOneIdentityService.asmx/Process\",\n    \"method\": \"POST\",\n    \"body\": {\n        \"d\": {\n            \"__type\" : \"FortinetOneAPI.IdentityService.GetAccountDetailsRequest\", \n            \"__version\" : \"1\",\n            \"request_channel\" : \"FTC\",\n            \"search_filters\" :\n            {\n                {% if id is defined %}\n                    \"account_id\": \"{{ id }}\"\n                {% endif %}\n                {% if sn is defined %}\n                    \"serial_number\": \"{{ sn }}\"\n                {% endif %}\n                {% if email is defined %}\n                    \"account_email\": \"{{ email }}\"\n                {% endif %}\n            } \n        }\n    }    \n}\n\"\"\"",
+        "\"\"\"\n{\n    \"path\": \"/FortiGlobal/FortinetOneCommonService.asmx/Process\",\n    \"method\": \"POST\",\n    \"body\": {\n        \"d\": {\n            \"__type\": \"FortinetOneAPI.CommonService.GetPortalListRequest\",\n            {% if version is defined %}\n                \"__version\": \"{{ version }}\",\n            {% else %}\n                \"__version\": \"1\",\n            {% endif %}\n            \"request_channel\": \"CustomerManagement\"\n        }\n    }\n}\n\"\"\"",
+        "\"\"\"\n{\n    \"path\": \"/FortiGlobal/FortinetOneIdentityService.asmx/Process\",\n    \"method\": \"POST\",\n    \"body\": {\n        \"d\": {\n            \"__type\" : \"FortinetOneAPI.IdentityService.GetLoginAccountsByEmailRequest\",\n            {% if version is defined %}\n                \"__version\": \"{{ version }}\",\n            {% else %}\n                \"__version\": \"1\",\n            {% endif %}\n            \"search_filters\": {\n                \"email\": \"{{ fortinet_id }}\"\n            },\n            {% if service_type is defined %}\n                \"request_channel\": \"{{ service_type }}\"\n            {% else %}\n                \"request_channel\": \"FTC\"\n            {% endif %}\n        }\n    }\n}\n\"\"\"",
+        "\"\"\"\n{\n    \"path\": \"/FortiGlobal/FortiAuthService.asmx/Process\",\n    \"method\": \"POST\",\n    \"body\": {\n        \"d\": {\n            \"__type\" : \"FortiGlobal.FASInquiryRequest\",\n            {% if version is defined %}\n                \"__version\": \"{{ version }}\",\n            {% else %}\n                \"__version\": \"1\",\n            {% endif %}\n            {% if sw_version is defined %}\n                \"__SW_version\": \"{{ sw_version }}\",\n            {% else %}\n                \"__SW_version\": \"xxxx\",\n            {% endif %}\n            {% if sw_build is defined %}\n                \"__SW_build\": \"{{ sw_build }}\",\n            {% else %}\n                \"__SW_build\": \"yyyyy\",\n            {% endif %}\n            \"user_id\": \"{{ id }}\"\n        }\n    }\n}\n\"\"\"",
+        "\"\"\"\n{\n    \"path\": \"/FortiGlobal/FortiAuthService.asmx/Process\",\n    \"method\": \"POST\",\n    \"body\": {\n        \"d\": {\n            \"__type\": \"FortiGlobal.FASBalanceUpdateRequest\",\n            {% if version is defined %}\n                \"__version\": \"{{ version }}\",\n            {% else %}\n                \"__version\": \"1\",\n            {% endif %}\n            {% if sw_version is defined %}\n                \"__SW_version\": \"{{ sw_version }}\",\n            {% else %}\n                \"__SW_version\": \"xxxx\",\n            {% endif %}\n            {% if sw_build is defined %}\n                \"__SW_build\": \"{{ sw_build }}\",\n            {% else %}\n                \"__SW_build\": \"yyyyy\",\n            {% endif %}\n            \"Used_Points\":\n            [\n                {\n                    \"User_ID\": \"{{ user_id }}\",\n                    \"External_Id\": \"{{ ext_id }}\",\n                    \"Name_Space\": \"{{ ns }}\",\n                    \"Start_Date\": \"{{ start_date }}\",\n                    \"End_Date\": \"{{ end_date }}\",\n                    \"Parameter_Type\": \"FAS_Number_Of_User_Months\",\n                    \"Parameter_Value\": \"{{ usage }}\"\n                }\n            ]\n        }\n    }\n}\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

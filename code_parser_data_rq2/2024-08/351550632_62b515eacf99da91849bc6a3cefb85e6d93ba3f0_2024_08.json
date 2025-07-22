@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "colors",
+        "fontSizes",
+        "isRtl",
+        "styled",
+        "styled",
+        "colors",
+        "fontSizes",
+        "isRtl",
+        "styled"
+    ],
+    "literals": [
+        "'@citizenlab/cl2-component-library'",
+        "'styled-components'",
+        "flex-grow: 1;\n  flex-shrink: 1;\n  flex-basis: 0;\n  color: ${colors.textSecondary};\n  font-size: ${fontSizes.base}px;\n  font-weight: 400;\n  line-height: 21px;\n  text-align: left;\n  overflow-wrap: break-word;\n  word-wrap: break-word;\n  word-break: break-word;\n  ${isRtl`\n    text-align: right;\n  `}",
+        "text-align: right;",
+        "margin: 0;\n  padding: 0;\n  list-style: none;"
+    ],
+    "variables": [
+        "ListItemText"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "io",
+        "github",
+        "whiskeysierra",
+        "http",
+        "prefer",
+        "java",
+        "util",
+        "regex",
+        "Pattern",
+        "java",
+        "util",
+        "regex",
+        "Pattern",
+        "compile",
+        "TOKEN",
+        "compile",
+        "QUOTED_STRING",
+        "compile",
+        "NAMED_VALUE",
+        "compile",
+        "TOKEN",
+        "TOKEN",
+        "QUOTED_STRING",
+        "PARAMETER",
+        "compile",
+        "NAMED_VALUE",
+        "PREFERENCE",
+        "compile",
+        "NAMED_VALUE",
+        "NAMED_VALUE"
+    ],
+    "literals": [
+        "\"(?:[-!#$%&'*+.^_`|~]|\\\\w)+\"",
+        "\"(?:\\\"(?:[\\\\t !#-\\\\[\\\\]-~\\\\x80-\\\\xFF]|(?:\\\\\\\\[\\\\t !-~\\\\x80-\\\\xFF]))*\\\")\"",
+        "\"(\"",
+        "\")(?:=(\"",
+        "\"|\"",
+        "\"))?\"",
+        "\"\\\\s?(;\\\\s?)+|(?:\"",
+        "\")\"",
+        "\"\\\\s?(,\\\\s?)+|(?:\"",
+        "\"((?:\\\\s?;\\\\s?(?:\"",
+        "\")?)*))\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "Grammar"
+    ],
+    "classes": [
+        "Grammar"
+    ]
+}

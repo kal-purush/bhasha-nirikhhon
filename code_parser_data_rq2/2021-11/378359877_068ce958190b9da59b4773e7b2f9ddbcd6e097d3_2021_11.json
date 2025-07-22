@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Web3",
+        "ChainId",
+        "NFTType"
+    ],
+    "literals": [
+        "'web3'",
+        "'./web3_defs'",
+        "'../api'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*  @interface DepositNFTParam\n *  @description an NFT to the specified account.\n *  @property web3\n *  @property DepositParam\n *  @property from The address that deposits the funds to the exchange\n *  @property to The account owner's address receiving the funds\n *  @property nftType The type of NFT contract address (ERC721/ERC1155/...)\n *  @property tokenAddress The address of the token\n *  @property nftID The token type 'id`.\n *  @property amount The amount of tokens to deposit.\n *  @property nonce: number,\n *  @property gasPrice: number,\n *  @property gasLimit: number,\n *  @property extraData Optional extra data used by the deposit contract.\n *  @property chainId  0|5\n *  @property sendByMetaMask boolean",
+        "* isApprovedForAll\n * @property web3\n * @property from The address that deposits the funds to the exchange\n * @property exchangeAddress loopring exchange address\n * @property nftType  NFTType\n * @property tokenAddress  The address of NFT token",
+        "* approveNFT\n * @property web3\n * @property from  The address that deposits the funds to the exchange\n * @property to  The address  deposits to\n * @property loopringAddress loopring exchange Address\n * @property tokenId: the tokenId\n * @property chainId\n * @property nftType The type of NFT contract address (ERC721/ERC1155/...)\n * @property nonce\n * @property gasPrice\n * @property gasLimit\n * @property sendByMetaMask"
+    ],
+    "functions": [],
+    "classes": []
+}

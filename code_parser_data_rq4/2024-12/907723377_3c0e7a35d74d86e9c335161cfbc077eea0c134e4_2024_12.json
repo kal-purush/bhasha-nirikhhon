@@ -1,0 +1,13 @@
+{
+    "identifiers": [],
+    "literals": [
+        "",
+        "javascript\n//This is a React component that uses the useReducer hook to manage state.\nfunction MyComponent() {\n  const [state, dispatch] = useReducer(reducer, initialState);\n\n  const reducer = (state, action) => {\n    switch (action.type) {\n      case 'INCREMENT':\n        return { ...state, count: state.count + 1 };\n      case 'DECREMENT':\n        return { ...state, count: state.count - 1 };\n      default:\n        throw new Error();\n    }\n  };\n\n  return (\n    <ul>\n      {state.items.map((item, index) => (\n        <li key={index}>{item}</li> // Added unique key prop\n      ))}\n    </ul>\n  );\n}",
+        ""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

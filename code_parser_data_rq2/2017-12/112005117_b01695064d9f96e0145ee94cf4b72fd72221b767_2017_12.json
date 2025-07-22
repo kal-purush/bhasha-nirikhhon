@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Text",
+        "Identifiers",
+        "Czech",
+        "IPattern",
+        "T",
+        "T",
+        "value",
+        "ParseResult",
+        "T",
+        "text"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "A pattern of a string, used to transform a value from and to the strin with a certain pattern..",
+        "</summary>",
+        "<typeparam name=\"T\">Type of value.</typeparam>",
+        "<see cref=\"IFormattable\"/>.",
+        "Format the <paramref name=\"value\"/> according to the pattern.",
+        "</summary>",
+        "<param name=\"value\">Value to format.</param>",
+        "<returns>Formatted string.</returns>",
+        "Parse a text into the value. It doesn't thow exceptions, if an error",
+        "happens during parsing, return unsuccessfull <see cref=\"ParseResult{T}\"/>.",
+        "</summary>",
+        "<param name=\"text\">Text to parse.</param>",
+        "<returns>Parsing result.</returns>",
+        "<exception cref=\"ArgumentNotNull\">If <paramref name=\"text\"/> is <c>null</c>.</exception>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Format",
+        "Parse"
+    ],
+    "classes": []
+}

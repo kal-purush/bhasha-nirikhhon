@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Component",
+        "View",
+        "bootstrap",
+        "For",
+        "If",
+        "todo",
+        "todo",
+        "todo",
+        "todo",
+        "todo",
+        "Component",
+        "Store",
+        "View",
+        "For",
+        "If",
+        "Store",
+        "todo",
+        "todo",
+        "todo",
+        "todo",
+        "bootstrap",
+        "SampleApp"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'wow'",
+        "'such'",
+        "'list'",
+        "'sample-app'",
+        "<ul class=\"todo-list\">\n          <li *for=\"#todo of store.todos\" [class.active]=\"todo.active\">\n            <p *if=\"todo.active\" (click)=\"remove(todo)\"> {{todo.title}}</p>\n            <p *if=\"!todo.active\" (click)=\"remove(todo)\"> wow not active</p>\n          </li>\n        </ul>"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"typings/angular2/angular2.d.ts\" />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "remove",
+        "remove"
+    ],
+    "classes": [
+        "Store",
+        "SampleApp"
+    ]
+}

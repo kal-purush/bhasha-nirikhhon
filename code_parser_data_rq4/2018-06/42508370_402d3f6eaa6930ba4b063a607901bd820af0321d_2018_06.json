@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "customElements",
+        "HTMLElement",
+        "e",
+        "e",
+        "formSelector",
+        "formSelector",
+        "disabled",
+        "disabled",
+        "confirm",
+        "Joomla",
+        "customElements",
+        "JoomlaToolbarButton",
+        "customElements"
+    ],
+    "literals": [
+        "'use strict'",
+        "'task'",
+        "'list-selection'",
+        "'form'",
+        "'form-validation'",
+        "'confirm-message'",
+        "'button'",
+        "'click'",
+        "'#adminForm'",
+        "The form \"${formSelector}\" is required to perform the task, but the form not found on the page.",
+        "'change'",
+        "'disabled'",
+        "'disabled'",
+        "'\"task\" attribute must be preset to perform an action.'",
+        "'joomla-toolbar-button'"
+    ],
+    "variables": [
+        "formSelector"
+    ],
+    "comments": [
+        "Attribute getters",
+        "We need a button to support button behavior,",
+        "because we cannot currently extend HTMLButtonElement",
+        "If list selection are required, set button to disabled by default",
+        "Check whether we have a form",
+        "Watch on list selection",
+        "Check whether we have selected something",
+        "Make sure we have a boolean value",
+        "eslint-disable-next-line no-restricted-globals"
+    ],
+    "docstrings": [
+        "* @copyright  Copyright (C) 2005 - 2018 Open Source Matters, Inc. All rights reserved.\n * @license    GNU General Public License version 2 or later; see LICENSE.txt"
+    ],
+    "functions": [
+        "task",
+        "listSelection",
+        "form",
+        "formValidation",
+        "confirmMessage",
+        "connectedCallback",
+        "setDisabled",
+        "executeTask"
+    ],
+    "classes": [
+        "JoomlaToolbarButton"
+    ]
+}

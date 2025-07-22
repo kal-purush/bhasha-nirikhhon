@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "require",
+        "exports",
+        "env",
+        "env",
+        "env"
+    ],
+    "literals": [
+        "'./environment'",
+        "'jasmine'",
+        "'ng2/timeout_spec.js'"
+    ],
+    "variables": [
+        "env"
+    ],
+    "comments": [
+        "This is the configuration for a smoke test for an Angular2 application.",
+        "",
+        "As Angular2 is in rapid development, the test application that ships with",
+        "the Protractor repository does not yet contain an Angular2 section. This",
+        "configuration assumes that you are serving the examples from the",
+        "angular/angular repository at localhost:8000.",
+        "See https://github.com/angular/angular/blob/master/DEVELOPER.md for",
+        "setup instructions.",
+        "",
+        "Special option for Angular2, to test against all Angular2 applications",
+        "on the page. This means that Protractor will wait for every app to be",
+        "stable before each action, and search within all apps when finding",
+        "elements.",
+        "Alternatively, you could specify one root element application, to test",
+        "against only that one:",
+        "rootElement: 'async-app'"
+    ],
+    "docstrings": [
+        "*** NOTE ***"
+    ],
+    "functions": [],
+    "classes": []
+}

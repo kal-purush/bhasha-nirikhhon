@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "ru",
+        "calculator",
+        "java",
+        "time",
+        "LocalDateTime",
+        "args",
+        "counter",
+        "summator",
+        "startTime",
+        "currentTimeMillis",
+        "idx",
+        "idx",
+        "counter",
+        "idx",
+        "data",
+        "idx",
+        "summator",
+        "calc",
+        "data",
+        "idx",
+        "LocalDateTime",
+        "now",
+        "idx",
+        "delta",
+        "currentTimeMillis",
+        "startTime",
+        "summator",
+        "getPrevValue",
+        "summator",
+        "getPrevPrevValue",
+        "summator",
+        "getSumLastThreeValues",
+        "summator",
+        "getSomeValue",
+        "summator",
+        "getSum",
+        "delta",
+        "delta"
+    ],
+    "literals": [
+        "\" current idx:\"",
+        "\"spend msec:\"",
+        "\", sec:\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "-Xms256m\n-Xmx256m\n-XX:+HeapDumpOnOutOfMemoryError\n-XX:HeapDumpPath=./logs/heapdump.hprof\n-XX:+UseG1GC\n-Xlog:gc=debug:file=./logs/gc-%p-%t.log:tags,uptime,time,level:filecount=5,filesize=10m"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "CalcDemo"
+    ]
+}

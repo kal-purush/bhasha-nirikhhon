@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "op",
+        "create_table",
+        "sa",
+        "Column",
+        "sa",
+        "nullable",
+        "sa",
+        "Column",
+        "sa",
+        "nullable",
+        "index",
+        "sa",
+        "Column",
+        "sa",
+        "length",
+        "nullable",
+        "index",
+        "sa",
+        "ForeignKeyConstraint",
+        "onupdate",
+        "ondelete",
+        "sa",
+        "ForeignKeyConstraint",
+        "onupdate",
+        "ondelete",
+        "sa",
+        "PrimaryKeyConstraint",
+        "sa",
+        "UniqueConstraint",
+        "op",
+        "drop_table"
+    ],
+    "literals": [
+        "'4b1bbdff0b59'",
+        "'54b91da358e'",
+        "'favorite_bill'",
+        "'id'",
+        "'user_id'",
+        "'bill_id'",
+        "'user_id'",
+        "'user.id'",
+        "'CASCADE'",
+        "'CASCADE'",
+        "'bill_id'",
+        "'bill.id'",
+        "'CASCADE'",
+        "'CASCADE'",
+        "'id'",
+        "'user_id'",
+        "'bill_id'",
+        "'favorite_bill'"
+    ],
+    "variables": [
+        "revision",
+        "down_revision"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic."
+    ],
+    "docstrings": [
+        "\"\"\"Create favorite bill table\n\nRevision ID: 4b1bbdff0b59\nRevises: 54b91da358e\nCreate Date: 2015-05-16 21:49:11.304568\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Axe",
+        "Extended",
+        "HtmlReport",
+        "ruleId"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "The provider to get additional tags for a rule.",
+        "</summary>",
+        "return a list of additional tags for a rule. if the rule is not found, return an empty list.",
+        "</summary>",
+        "<param name=\"ruleId\">the identifier of the rule</param>",
+        "<returns>a list of additional tags for a given rule.</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "GetTagsByRule"
+    ],
+    "classes": [
+        "AdditionalTagsProvider"
+    ]
+}

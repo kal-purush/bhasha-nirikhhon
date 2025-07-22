@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Component",
+        "Injectable",
+        "Http",
+        "Headers",
+        "Component",
+        "http",
+        "WebSocket",
+        "evt",
+        "evt",
+        "evt",
+        "evt",
+        "evt",
+        "evt",
+        "setTimeout",
+        "data",
+        "data",
+        "setTimeout",
+        "that",
+        "that",
+        "that"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/http'",
+        "'angular-app'",
+        "<h1>Angular 2 + reconnecting websockets</h1>\n    <p>Websocket simple counter: {{ data }}</p>",
+        "'ws://echo.websocket.org'",
+        "'Error'",
+        "'Closed'",
+        "${ that.counter }"
+    ],
+    "variables": [
+        "that"
+    ],
+    "comments": [
+        "Next line is remote websocket echo (not working with push only)",
+        "Next line is local websocket echo (same as above) and push only",
+        "this.ws = new WebSocket('ws://127.0.0.1/webSocket');",
+        "Comment next line for push only from local websocket",
+        "Uncomment next line for push only from local websocket",
+        "this.ws.onmessage = (evt) => this.data = evt.data;",
+        "5 seconds timeout",
+        "Proper context for setTimeout inner function",
+        "2 seconds timeout"
+    ],
+    "docstrings": [],
+    "functions": [
+        "webSocketConnect",
+        "webSocketClose",
+        "weSocketMessage"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

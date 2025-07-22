@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "BinarySearchTrees",
+        "data",
+        "Node",
+        "data",
+        "x",
+        "y",
+        "x",
+        "data",
+        "x",
+        "data",
+        "x",
+        "x",
+        "left",
+        "x",
+        "x",
+        "right",
+        "y",
+        "y",
+        "newnode",
+        "data",
+        "y",
+        "data",
+        "y",
+        "left",
+        "newnode",
+        "y",
+        "right",
+        "newnode",
+        "WriteLine",
+        "y",
+        "data"
+    ],
+    "literals": [],
+    "variables": [
+        "Node",
+        "left",
+        "Node",
+        "right",
+        "Node",
+        "newnode",
+        "Node",
+        "x",
+        "Node",
+        "y"
+    ],
+    "comments": [
+        "Pointer to start traversing from root andtraverses downward path to search where the new node to be inserted",
+        "Pointer y maintains the trailing pointer of x",
+        "If the root is null i.e the tree is empty the new node is the root node",
+        "If the new key is less then the left node data Assign the new node to be its left child",
+        "else assign the new node its right child",
+        "Returns the pointer where the new node is inserted"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Insert"
+    ],
+    "classes": [
+        "BinaryTree"
+    ]
+}

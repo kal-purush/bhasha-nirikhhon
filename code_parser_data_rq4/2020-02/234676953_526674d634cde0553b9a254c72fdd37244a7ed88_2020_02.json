@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "uuid",
+        "ProjectType",
+        "ProjectType",
+        "project",
+        "project",
+        "s",
+        "searchProperties",
+        "key",
+        "key",
+        "searchProperties",
+        "key",
+        "SeedProject",
+        "Project",
+        "uuid",
+        "uuid",
+        "uuid",
+        "uuid",
+        "uuid",
+        "uuid",
+        "uuid",
+        "uuid",
+        "uuid",
+        "uuid",
+        "uuid",
+        "uuid",
+        "uuid"
+    ],
+    "literals": [
+        "'uuid'",
+        "'./project.type'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'__'",
+        "'null'",
+        "string",
+        "string",
+        "${str}${key}::${searchProperties[key]}",
+        "''",
+        "'here'",
+        "'testing'",
+        "'public'"
+    ],
+    "variables": [
+        "searchProperties",
+        "SeedProject"
+    ],
+    "comments": [
+        "this should be set as a global secondary index",
+        "event: 'event',"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generateSearch"
+    ],
+    "classes": [
+        "Project"
+    ]
+}

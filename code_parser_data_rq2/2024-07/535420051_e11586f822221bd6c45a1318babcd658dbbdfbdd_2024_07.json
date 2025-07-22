@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "SavedCommand",
+        "ISptCommand",
+        "ItemHelper",
+        "PresetHelper",
+        "ITemplateItem",
+        "ISendMessageRequest",
+        "IUserDialogInfo",
+        "ILogger",
+        "DatabaseService",
+        "ItemFilterService",
+        "LocaleService",
+        "MailSendService",
+        "ICloner",
+        "HashUtil",
+        "logger",
+        "itemHelper",
+        "hashUtil",
+        "presetHelper",
+        "mailSendService",
+        "localeService",
+        "databaseService",
+        "itemFilterService",
+        "cloner",
+        "commandHandler",
+        "sessionId",
+        "request",
+        "templateItem"
+    ],
+    "literals": [
+        "\"@spt/helpers/Dialogue/Commando/SptCommands/GiveCommand/SavedCommand\"",
+        "\"@spt/helpers/Dialogue/Commando/SptCommands/ISptCommand\"",
+        "\"@spt/helpers/ItemHelper\"",
+        "\"@spt/helpers/PresetHelper\"",
+        "\"@spt/models/eft/common/tables/ITemplateItem\"",
+        "\"@spt/models/eft/dialog/ISendMessageRequest\"",
+        "\"@spt/models/eft/profile/ISptProfile\"",
+        "\"@spt/models/spt/utils/ILogger\"",
+        "\"@spt/services/DatabaseService\"",
+        "\"@spt/services/ItemFilterService\"",
+        "\"@spt/services/LocaleService\"",
+        "\"@spt/services/MailSendService\"",
+        "\"@spt/utils/cloners/ICloner\"",
+        "\"@spt/utils/HashUtil\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Regex to account for all these cases:\n     * spt give \"item name\" 5\n     * spt give templateId 5\n     * spt give en \"item name in english\" 5\n     * spt give es \"nombre en español\" 5\n     * spt give 5 <== this is the reply when the algo isn't sure about an item",
+        "* A \"simple\" function that checks if an item is supposed to be given to a player or not\n     * @param templateItem the template item to check\n     * @returns true if its obtainable, false if its not"
+    ],
+    "functions": [],
+    "classes": [
+        "GiveSptCommand"
+    ]
+}

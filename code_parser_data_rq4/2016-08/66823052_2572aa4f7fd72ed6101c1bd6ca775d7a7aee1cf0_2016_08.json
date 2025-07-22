@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "offset",
+        "transform",
+        "position",
+        "player",
+        "transform",
+        "position",
+        "transform",
+        "position",
+        "player",
+        "transform",
+        "position",
+        "offset"
+    ],
+    "literals": [],
+    "variables": [
+        "GameObject",
+        "player",
+        "Vector3",
+        "offset"
+    ],
+    "comments": [
+        "Public variable to store a reference to the player game object",
+        "Private variable to store the offset distance between the player and camera",
+        "Use this for initialization",
+        "Calculate and store the offset value by getting the distance between the player's position and camera's position.",
+        "LateUpdate is called after Update each frame",
+        "Set the position of the camera's transform to be the same as the player's, but offset by the calculated offset distance."
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "LateUpdate"
+    ],
+    "classes": [
+        "CompleteCameraController"
+    ]
+}

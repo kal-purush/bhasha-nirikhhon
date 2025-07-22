@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "division",
+        "print_function",
+        "unicode_literals",
+        "future",
+        "builtins"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "NOQA"
+    ],
+    "docstrings": [
+        "\"\"\"\nobspy.io.shapefile - ESRI shapefile write support\n=================================================\nThis module provides write support for the ESRI shapefile file format.\n\nWrite support works via the ObsPy plugin structure for\n:class:`~obspy.core.event.Catalog` and\n:class:`~obspy.core.inventory.Inventory`:\n\n>>> from obspy import read_inventory, read_events\n>>> inv = read_inventory()  # load example data\n>>> inv.write(\"my_stations.shp\", format=\"SHAPEFILE\")  # doctest: +SKIP\n>>> cat = read_events()  # load example data\n>>> cat.write(\"my_events.shp\", format=\"SHAPEFILE\")  # doctest: +SKIP\n\n.. seealso::\n\n    The format definition can be found\n    `here <https://www.esri.com/library/whitepapers/pdfs/shapefile.pdf>`_.\n\n:copyright:\n    The ObsPy Development Team (devs@obspy.org)\n:license:\n    GNU Lesser General Public License, Version 3\n    (http://www.gnu.org/copyleft/lesser.html)\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

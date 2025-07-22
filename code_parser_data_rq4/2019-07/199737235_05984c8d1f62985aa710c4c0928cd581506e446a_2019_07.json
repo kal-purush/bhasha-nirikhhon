@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Context",
+        "Request",
+        "Response",
+        "Middleware",
+        "GraphQLError",
+        "GraphQLSchema",
+        "GraphQLFieldResolver",
+        "ValidationContext",
+        "ASTVisitor",
+        "GraphQLParams",
+        "RequestInfo",
+        "request",
+        "repsonse",
+        "ctx",
+        "error",
+        "context",
+        "ValidationContext",
+        "info",
+        "key",
+        "graphqlHTTP",
+        "options"
+    ],
+    "literals": [
+        "\"koa-graphql\"",
+        "\"koa\"",
+        "\"graphql\"",
+        "\"express-graphql\"",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* A GraphQL schema from graphql-js.",
+        "* A value to pass as the context to this middleware.",
+        "* An object to pass as the rootvalue to the graphql() function.",
+        "* A boolean to configure whether the output should be pretty-printed.",
+        "* An optional function which will be used to format any errors produced by\n     * fulfilling a GraphQL operation. If no function is provided, GraphQL's\n     * default spec-compliant `formatError` function will be used.",
+        "* An optional array of validation rules that will be applied on the document\n     * in addition to those defined by the GraphQL spec.",
+        "* An optional function for adding additional metadata to the GraphQL response\n     * as a key-value object. The result will be added to \"extensions\" field in\n     * the resulting JSON. This is often a useful place to add development time\n     * info such as the runtime of a query or the amount of resources consumed.\n     *\n     * Information about the request is provided to be used.\n     *\n     * This function may be async.",
+        "* A boolean to optionally enable GraphiQL mode.",
+        "* A resolver function to use when one is not provided by the schema.\n     * If not provided, the default field resolver is used (which looks for a\n     * value or method on the source value with the field's name)."
+    ],
+    "functions": [],
+    "classes": []
+}

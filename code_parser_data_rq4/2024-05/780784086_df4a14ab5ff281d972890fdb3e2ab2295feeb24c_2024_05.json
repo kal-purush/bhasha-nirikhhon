@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "wretch",
+        "wretch",
+        "apiUrl",
+        "resolver",
+        "resolver",
+        "fetchWeatherForecast",
+        "api"
+    ],
+    "literals": [
+        "'wretch'",
+        "'https://api.sunrise-sunset.org/json?lat=32.780140&lng=-96.800453&formatted=0'",
+        "'no-store'",
+        "'cors'",
+        "'json'"
+    ],
+    "variables": [
+        "apiUrl",
+        "api",
+        "fetchWeatherForecast"
+    ],
+    "comments": [
+        "Configure API URL from environment",
+        "Create a wretch instance configured for API interactions",
+        "Function to fetch pinned repository"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

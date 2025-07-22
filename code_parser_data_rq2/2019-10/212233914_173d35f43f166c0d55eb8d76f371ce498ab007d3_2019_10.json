@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "todoText",
+        "$",
+        "$"
+    ],
+    "literals": [
+        "\"ul\"",
+        "\"click\"",
+        "\"li\"",
+        "\"completed\"",
+        "\"ul\"",
+        "\"click\"",
+        "\"span\"",
+        "\"input[type='text']\"",
+        "\"\"",
+        "\"ul\"",
+        "\"<li><span><i class=\\\"far fa-trash-alt\\\"></i> </span> \"",
+        "\"</li>\"",
+        "\"#plusSign\"",
+        "\"input[type='text']\""
+    ],
+    "variables": [
+        "todoText"
+    ],
+    "comments": [
+        "Check off specific todos by clicking",
+        "if li is grey --> turn it black. else make it grey",
+        "if ($(this).css(\"color\") == \"rgb(128, 128, 128)\") {",
+        "$(this).css({",
+        "color: \"black\",",
+        "textDecoration: \"none\"",
+        "});",
+        "}",
+        "",
+        "else {",
+        "$(this).css({",
+        "color: \"gray\",",
+        "textDecoration: \"line-through\"",
+        "});",
+        "}",
+        "Click on X to delete To do",
+        "grabbing new todo text",
+        "empty the input",
+        "create new li and add to ul"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

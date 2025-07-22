@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "OVRCamControl",
+        "GameObject",
+        "Find",
+        "transform",
+        "transform",
+        "position",
+        "Vector3",
+        "speed"
+    ],
+    "literals": [
+        "\"OVRCameraController\""
+    ],
+    "variables": [
+        "speed",
+        "rotationSpeed",
+        "rotationControl",
+        "boatRotationY",
+        "Transform",
+        "OVRCamControl"
+    ],
+    "comments": [
+        "rotationControl = OVRCamControl.localEulerAngles.y - 180;",
+        "",
+        "if (rotationControl > -30 && rotationControl < 30)",
+        "{",
+        "",
+        "} else {",
+        "boatRotationY += rotationControl * rotationSpeed;",
+        "}",
+        "",
+        "transform.Rotate(new Vector3(0,boatRotationY,0));"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update",
+        "FixedUpdate"
+    ],
+    "classes": [
+        "BoatMove"
+    ]
+}

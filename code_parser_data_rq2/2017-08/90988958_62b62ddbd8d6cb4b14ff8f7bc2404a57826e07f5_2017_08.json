@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "torch",
+        "nn",
+        "pyinn",
+        "P",
+        "nn",
+        "Conv2d",
+        "channels",
+        "kernel_size",
+        "stride",
+        "padding",
+        "dilation",
+        "bias",
+        "Conv2dDepthwise",
+        "channels",
+        "channels",
+        "kernel_size",
+        "stride",
+        "padding",
+        "dilation",
+        "groups",
+        "channels",
+        "bias",
+        "bias",
+        "input",
+        "P",
+        "conv2d_depthwise",
+        "input",
+        "weight",
+        "bias",
+        "stride",
+        "padding",
+        "dilation"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Depthwise 2D convolution.\n\n    Implements depthwise convolution as in https://arxiv.org/pdf/1704.04861v1.pdf\n    MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications\n\n    CUDA kernels from https://github.com/BVLC/caffe/pull/5665\n    CPU side is done by F.conv2d\n\n    Equivalent to:\n        `nn.Conv2d(channels, channels, kernel_size, groups=channels)`\n\n    Args:\n        channels (int): Number of channels in the input image\n        kernel_size (int or tuple): Size of the convolving kernel\n        stride (int or tuple, optional): Stride of the convolution\n        padding (int or tuple, optional): Zero-padding added to both sides of the input\n        dilation (int or tuple, optional): Spacing between kernel elements\n        bias (bool, optional): If True, adds a learnable bias to the output\n\n    Shape:\n        - Input: :math:`(N, C_{in}, H_{in}, W_{in})`\n        - Output: :math:`(N, C_{in}, H_{out}, W_{out})` where\n          :math:`H_{out} = floor((H_{in}  + 2 * padding[0] - dilation[0] * (kernel\\_size[0] - 1) - 1) / stride[0] + 1)`\n          :math:`W_{out} = floor((W_{in}  + 2 * padding[1] - dilation[1] * (kernel\\_size[1] - 1) - 1) / stride[1] + 1)`\n\n    Attributes:\n        weight (Tensor): the learnable weights of the module of shape\n                         (channels, 1, kernel_size[0], kernel_size[1])\n        bias (Tensor):   the learnable bias of the module of shape (channels)\n    \"\"\""
+    ],
+    "functions": [
+        "forward"
+    ],
+    "classes": [
+        "Conv2dDepthwise"
+    ]
+}

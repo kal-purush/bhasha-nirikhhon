@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "ActivityHandler",
+        "MessageFactory",
+        "ActivityHandler",
+        "context",
+        "next",
+        "context",
+        "context",
+        "MessageFactory",
+        "replyText",
+        "replyText",
+        "next",
+        "context",
+        "next",
+        "context",
+        "member",
+        "membersAdded",
+        "member",
+        "context",
+        "context",
+        "MessageFactory",
+        "welcomeText",
+        "welcomeText",
+        "next"
+    ],
+    "literals": [
+        "'botbuilder'",
+        "Echo: ${ context.activity.text }",
+        "'Hello and welcome!'"
+    ],
+    "variables": [
+        "replyText",
+        "membersAdded",
+        "welcomeText"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft Corporation. All rights reserved.",
+        "Licensed under the MIT License.",
+        "See https://aka.ms/about-bot-activity-message to learn more about the message and other activity types.",
+        "By calling next() you ensure that the next BotHandler is run.",
+        "By calling next() you ensure that the next BotHandler is run."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "EchoBot"
+    ]
+}

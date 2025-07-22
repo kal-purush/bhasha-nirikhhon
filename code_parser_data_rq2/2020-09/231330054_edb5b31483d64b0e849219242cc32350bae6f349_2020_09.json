@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "UserInfo"
+    ],
+    "literals": [
+        "\"apis/auth/@types\"",
+        "string",
+        "string",
+        "\"content\"",
+        "string",
+        "\"waiting\"",
+        "\"accepted\"",
+        "\"rejected\"",
+        "\"published\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* draft の状態\n *\n * @remarks\n * - `waiting` : admin の審査待ち\n * - `accepted`: 承認済 この状態の draft のみ公開可能\n * - `rejected`: 却下済\n * - `published`: 公開済"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "grid",
+        "i",
+        "len",
+        "grid",
+        "j",
+        "len",
+        "grid",
+        "i",
+        "grid",
+        "i",
+        "j",
+        "i",
+        "grid",
+        "i",
+        "j",
+        "perimeter",
+        "i",
+        "len",
+        "grid",
+        "grid",
+        "i",
+        "j",
+        "perimeter",
+        "j",
+        "grid",
+        "i",
+        "j",
+        "perimeter",
+        "j",
+        "len",
+        "grid",
+        "i",
+        "grid",
+        "i",
+        "j",
+        "perimeter",
+        "perimeter"
+    ],
+    "literals": [],
+    "variables": [
+        "perimeter"
+    ],
+    "comments": [
+        "!/usr/bin/python3",
+        "Traverse each cell in the grid",
+        "Check if the cell is land (1)",
+        "Check each of the four directions (up, down, left, right)",
+        "up",
+        "down",
+        "left",
+        "right"
+    ],
+    "docstrings": [
+        "\"\"\"\nCalculates the perimeter of an island represented by a grid of land and water.\n\"\"\"",
+        "\"\"\"\n    Calculates the perimeter of an island represented by a grid of\n    land and water.\n\n    Args:\n        grid (List[List[int]]): A 2D grid where 1 represents land and\n            0 represents water. The grid is surrounded by water,\n            and there is exactly one island or none.\n\n    Returns:\n        int: The perimeter of the island. If no land is present, returns 0.\n\n    Example:\n        grid = [\n            [0, 0, 0, 0, 0, 0],\n            [0, 1, 0, 0, 0, 0],\n            [0, 1, 0, 0, 0, 0],\n            [0, 1, 1, 1, 0, 0],\n            [0, 0, 0, 0, 0, 0]\n        ]\n        print(island_perimeter(grid))  # Output: 12\n    \"\"\""
+    ],
+    "functions": [
+        "island_perimeter"
+    ],
+    "classes": []
+}

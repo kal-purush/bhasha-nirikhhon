@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "ExpenseAdminSystem",
+        "API",
+        "Model",
+        "Microsoft",
+        "AspNetCore",
+        "Authorization",
+        "Microsoft",
+        "AspNetCore",
+        "Http",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "ExpenseAdminSystem",
+        "API",
+        "Controllers",
+        "Route",
+        "ApiController",
+        "ControllerBase",
+        "AllowAnonymous",
+        "HttpPost",
+        "FromBody",
+        "Login",
+        "credentials",
+        "credentials",
+        "Username",
+        "USERNAME",
+        "credentials",
+        "Password",
+        "PASSWORD",
+        "credentials",
+        "Username",
+        "credentials",
+        "Password",
+        "Text",
+        "Encoding",
+        "Default",
+        "GetBytes",
+        "text",
+        "Convert",
+        "ToBase64String",
+        "encodedCredentials",
+        "Ok",
+        "headerValue",
+        "headerValue",
+        "Unauthorized"
+    ],
+    "literals": [
+        "\"api/[controller]\"",
+        "\"Admin\"",
+        "\"HardPassword\""
+    ],
+    "variables": [
+        "USERNAME",
+        "PASSWORD",
+        "text",
+        "encodedCredentials",
+        "headerValue"
+    ],
+    "comments": [
+        "In real world application, these would be saved in a database",
+        "1. Concatenate username and password with a semicolon",
+        "2. Base64encode the above",
+        "3. Prefix with Basic"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ActionResult",
+        "Login"
+    ],
+    "classes": [
+        "LoginController"
+    ]
+}

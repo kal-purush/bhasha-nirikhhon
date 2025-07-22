@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "A",
+        "dp",
+        "A",
+        "length",
+        "sum",
+        "i",
+        "i",
+        "dp",
+        "length",
+        "i",
+        "A",
+        "i",
+        "A",
+        "i",
+        "A",
+        "i",
+        "A",
+        "i",
+        "dp",
+        "i",
+        "dp",
+        "i",
+        "sum",
+        "dp",
+        "i",
+        "sum"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "create a dp array to store total slices.",
+        "initial slices are 0.",
+        "if the difference between current and previous element = diff between the previous 2, it is part of an arithmetic slice. increment count and store in dp array.",
+        "return total slices."
+    ],
+    "docstrings": [
+        "ime Complexity : O(n)\nSpace complexity : O(N)\nDid it run on leetcode? :yes\nAny problems? no"
+    ],
+    "functions": [
+        "numberOfArithmeticSlices"
+    ],
+    "classes": [
+        "Solution"
+    ]
+}

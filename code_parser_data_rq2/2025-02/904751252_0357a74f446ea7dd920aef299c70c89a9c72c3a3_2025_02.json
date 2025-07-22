@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Request",
+        "Response",
+        "PrismaUserRepository",
+        "AuthenticateUserUseCase",
+        "PrismaUserRepository",
+        "AuthenticateUserUseCase",
+        "req",
+        "res",
+        "req",
+        "token",
+        "res",
+        "res",
+        "error",
+        "error",
+        "res",
+        "error",
+        "res"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"../../infra/repository/user-repository/prisma-user-repository\"",
+        "\"../../usecases/authenticate/authenticate-usar.usecase\"",
+        "\"Credenciais inválidas\"",
+        "\"Erro interno no servidor.\""
+    ],
+    "variables": [
+        "token"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @swagger\n * /login:\n *   post:\n *     summary: Realiza o login de um usuário.\n *     description: Autentica o usuário com base no nome de usuário e senha e retorna um token JWT.\n *     tags:\n *       - Login\n *     requestBody:\n *       required: true\n *       content:\n *         application/json:\n *           schema:\n *             type: object\n *             properties:\n *               username:\n *                 type: string   \n *               password:\n *                 type: string\n *     responses:\n *       200:\n *         description: Login bem-sucedido, retorna um token JWT.\n *       401:\n *         description: Credenciais inválidas.\n *       500:\n *         description: Erro interno no servidor."
+    ],
+    "functions": [
+        "login"
+    ],
+    "classes": [
+        "AuthController"
+    ]
+}

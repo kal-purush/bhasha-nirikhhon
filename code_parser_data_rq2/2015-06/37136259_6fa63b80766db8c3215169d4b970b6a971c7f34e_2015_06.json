@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "props",
+        "require",
+        "require",
+        "process",
+        "process",
+        "process",
+        "mongojs",
+        "mongoUrl",
+        "mongoCollection",
+        "db",
+        "mongoCollection",
+        "query",
+        "coll",
+        "coll",
+        "log",
+        "logger",
+        "cmd",
+        "log",
+        "cmd",
+        "exports",
+        "handle"
+    ],
+    "literals": [
+        "'create_mongo'",
+        "\"bluebird\"",
+        "\"mongojs\"",
+        "\"mongodb://#{process.env.MONGO_PORT_27017_TCP_ADDR}:#{process.env.MONGO_PORT_27017_TCP_PORT}\"",
+        "string",
+        "string",
+        "\"handle\"",
+        "\"start\""
+    ],
+    "variables": [
+        "mongojs",
+        "mongoUrl",
+        "mongoCollection",
+        "db",
+        "coll",
+        "findAsync"
+    ],
+    "comments": [
+        "<reference path=\"../typings/tsd.d.ts\" />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handle"
+    ],
+    "classes": []
+}

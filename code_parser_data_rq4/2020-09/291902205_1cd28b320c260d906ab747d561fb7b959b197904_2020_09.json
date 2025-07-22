@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "db",
+        "initialize",
+        "config",
+        "mysql",
+        "connection",
+        "database",
+        "Sequelize",
+        "database",
+        "user",
+        "password",
+        "db",
+        "require",
+        "sequelize",
+        "db",
+        "require",
+        "sequelize",
+        "db",
+        "db",
+        "db",
+        "db",
+        "sequelize"
+    ],
+    "literals": [
+        "'config.json'",
+        "'mysql2/promise'",
+        "'sequelize'",
+        "CREATE DATABASE IF NOT EXISTS \\`${database}\\`;",
+        "'mysql'",
+        "'../users/user.model'",
+        "'../products/product.model'"
+    ],
+    "variables": [
+        "config",
+        "mysql",
+        "connection",
+        "sequelize"
+    ],
+    "comments": [
+        "create db if it doesn't already exist",
+        "connect to db",
+        "init models and add them to the exported db object",
+        "define associations",
+        "sync all models with database"
+    ],
+    "docstrings": [
+        "* Contains database related operations",
+        "* Initalizes Database with required models"
+    ],
+    "functions": [
+        "initialize"
+    ],
+    "classes": []
+}

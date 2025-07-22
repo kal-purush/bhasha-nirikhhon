@@ -1,0 +1,92 @@
+{
+    "identifiers": [
+        "pandas",
+        "pd",
+        "os",
+        "path",
+        "os",
+        "path",
+        "join",
+        "_DATA_DIR",
+        "_TRAINING_SET_FN",
+        "os",
+        "path",
+        "join",
+        "_DATA_DIR",
+        "_SUBMISSION_ROWS_FN",
+        "pd",
+        "read_csv",
+        "training_set_fn",
+        "index_col",
+        "pd",
+        "read_csv",
+        "submission_rows_fn",
+        "index_col",
+        "_train",
+        "loc",
+        "_submit_rows",
+        "index",
+        "X",
+        "iloc",
+        "X",
+        "rename",
+        "x",
+        "x",
+        "split",
+        "axis",
+        "X",
+        "iloc",
+        "X",
+        "iloc",
+        "X",
+        "Y",
+        "UNDevGoalsDataset",
+        "dataset",
+        "preprocess_simple",
+        "X",
+        "describe",
+        "Y",
+        "describe"
+    ],
+    "literals": [
+        "'./data/'",
+        "'TrainingSet.csv'",
+        "'SubmissionRows.csv'",
+        "' '",
+        "'__main__'"
+    ],
+    "variables": [
+        "_DATA_DIR",
+        "_TRAINING_SET_FN",
+        "_SUBMISSION_ROWS_FN",
+        "training_set_fn",
+        "submission_rows_fn",
+        "_train",
+        "_submit_rows",
+        "X",
+        "X",
+        "X",
+        "Y",
+        "X",
+        "dataset",
+        "X",
+        "Y"
+    ],
+    "comments": [
+        "Select rows for prediction only",
+        "Select and rename columns",
+        "Split prediction and target",
+        "2007",
+        "1972:2006"
+    ],
+    "docstrings": [
+        "\"\"\"Loads UN Development Goals dataset from disk.\n\n        To access preprocessed version of the data, try:\n\n        \"\"\"",
+        "\"\"\"Preprocess the data for preliminary model building.\n\n        This creates a training set where each row is a time series of a\n        specific macroeconomic indicator for a specific country. The `X` table\n        includes the time series from 1972 to 2006, and the 'Y' table includes\n        the time series values for 2007. Missing values are coded as NaNs.\n\n        X and Y only include rows for which we need to make submissions for the\n        competition. Future iterations will include more rows to use as\n        features.\n\n        Returns:\n           X (pd.DataFrame): features for prediction\n           Y (pd.Series): targets for prediction\n        \"\"\""
+    ],
+    "functions": [
+        "preprocess_simple"
+    ],
+    "classes": [
+        "UNDevGoalsDataset"
+    ]
+}

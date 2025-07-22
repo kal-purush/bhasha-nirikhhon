@@ -1,0 +1,17 @@
+{
+    "identifiers": [
+        "styled",
+        "styled"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "display: flex;\n    justify-content: space-between;\n\n    align-items: center;\n    padding: 3rem 1rem 6rem;\n\n    div {\n        display: flex;\n        flex-direction: column;\n        justify-content: space-between;\n\n        padding: 0 1rem;;\n\n        h1 {\n            font-size: 48px;\n            color: #00875F;\n\n        }\n\n        h2 {\n            color: #fff;\n            font-size: 32px;\n        }\n\n        P {\n            margin: 24px 0;\n            font-size: 18px;\n\n            color: #fff;\n        }\n\n        button {\n            border: 0;\n            border-radius: 8px;\n\n            padding: 8px 16px;\n            margin-top: 1rem;\n\n            background-color: #33CC95;\n            color: #fff;\n\n            font-size: 20px;\n            font-weight: bold;\n\n            line-height: 1.5rem;\n\n            transition: all 0.2s;\n\n            &:hover {\n                cursor: pointer;\n                opacity: 0.6\n            }\n        }\n    }\n\n    img {\n        width: 450px;\n\n        transform: rotate(-10deg)\n    }"
+    ],
+    "variables": [
+        "Container"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "SuccessDeferred",
+        "ProactivePolicy",
+        "BulkheadCompartmentRejectedException",
+        "ProactivePolicy",
+        "bulkheadCompartmentSize",
+        "bulkheadCompartmentSize",
+        "bulkheadCompartmentSize",
+        "bulkheadCompartmentSize",
+        "bulkheadCompartmentSize",
+        "queueSize",
+        "queueSize",
+        "queueSize",
+        "queueSize",
+        "queueSize",
+        "fn",
+        "BulkheadCompartmentRejectedException",
+        "SuccessDeferred",
+        "queuingDeferred",
+        "queuingDeferred",
+        "fn"
+    ],
+    "literals": [
+        "'../../../utils/successDeferred'",
+        "'../proactivePolicy'",
+        "'./bulkheadCompartmentRejectedException'",
+        "'bulkheadCompartmentSize must be integer'",
+        "'bulkheadCompartmentSize must be greater than 0'",
+        "'bulkheadCompartmentSize must be less than or equal to 2^53 - 1'",
+        "'queueSize must be integer'",
+        "'queueSize must be greater than or equal to 0'",
+        "'queueSize must be less than or equal to 2^53 - 1'"
+    ],
+    "variables": [
+        "queuingDeferred"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "maxConcurrency",
+        "maxQueuedActions",
+        "getAvailableSlotsCount",
+        "getAvailableQueuedActionsCount",
+        "policyExecutorImpl"
+    ],
+    "classes": [
+        "BulkheadIsolationPolicy"
+    ]
+}

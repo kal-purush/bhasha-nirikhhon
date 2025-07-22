@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "axios",
+        "AxiosInstance",
+        "logging",
+        "gql",
+        "GraphQLClient",
+        "request",
+        "axios",
+        "name",
+        "gql",
+        "name",
+        "GraphQLClient",
+        "graphQLClient",
+        "query",
+        "result",
+        "id",
+        "gql",
+        "id",
+        "GraphQLClient",
+        "graphQLClient",
+        "query",
+        "result"
+    ],
+    "literals": [
+        "'axios'",
+        "'../utils/logging'",
+        "'graphql-request'",
+        "string",
+        "\"ERAPI\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'https://eldenring.fanapis.com/api/'",
+        "string",
+        "query get {\n            item(search: ${name}) {\n                id,\n                name,\n                image,\n                description,\n                type,\n                effect\n            }\n        }",
+        "'https://eldenring.fanapis.com/api/graphql'",
+        "string",
+        "query get {\n            item(id: \"${id}\") {\n                name,\n                image,\n                description,\n                type,\n                effect\n            }\n        }",
+        "'https://eldenring.fanapis.com/api/graphql'"
+    ],
+    "variables": [
+        "NAMESPACE",
+        "query",
+        "graphQLClient",
+        "result",
+        "query",
+        "graphQLClient",
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "searchItem",
+        "getItemById"
+    ],
+    "classes": [
+        "ERApiController"
+    ]
+}

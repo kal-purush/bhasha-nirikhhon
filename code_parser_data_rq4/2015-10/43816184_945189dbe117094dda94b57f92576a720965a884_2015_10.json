@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "L",
+        "central",
+        "L",
+        "loc1",
+        "L",
+        "loc2",
+        "L",
+        "loc3",
+        "L",
+        "loc3",
+        "L",
+        "marker"
+    ],
+    "literals": [
+        "'helloMap'",
+        "'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}'",
+        "'Map data &copy; <a href=\"http://openstreetmap.org\">OpenStreetMap</a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, Imagery � <a href=\"http://mapbox.com\">Mapbox</a>'",
+        "'weiann-lim.ciev0axre0v9grxm2t535wkkq'",
+        "'pk.eyJ1Ijoid2VpYW5uLWxpbSIsImEiOiJjaWV2MGF5NGQwdmd2cjhtMDluZ2QwM2Y3In0.ipv9DdnDcQ4mh-PW_Duflg'",
+        "\"<b>Hello World!!!</b><br>I am a popup.\""
+    ],
+    "variables": [
+        "central",
+        "loc1",
+        "loc2",
+        "loc3",
+        "marker1",
+        "marker2",
+        "marker3",
+        "markerPopup"
+    ],
+    "comments": [
+        "JavaScript Document",
+        "Initializing the map.",
+        "by default, all mouse and touch interactions on the map are enabled.",
+        "and it has zoom and attribution controls",
+        "Central Singapore 1.3667 103.8",
+        "Jurong West",
+        "Bedok North",
+        "KK Hosp",
+        "Get the data",
+        "d3.csv(\"data/data.csv\", function(error, data) {",
+        "data.forEach(function(d) {",
+        "d.date = parseDate(d.date);",
+        "d.sales = +d.sales;",
+        "});",
+        "Set the default view of the map and display onto webpage",
+        "Set the marker positions",
+        "Add a tile layer",
+        "A mapbox account was created to get the accessToken",
+        "Trying out popup"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

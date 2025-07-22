@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "describe",
+        "beforeAll",
+        "scanSpy",
+        "jest",
+        "dynamodb",
+        "afterAll",
+        "scanSpy",
+        "it",
+        "scanSpy",
+        "items",
+        "items",
+        "expect",
+        "result",
+        "expectedResult"
+    ],
+    "literals": [
+        "'aws-sdk/clients/dynamodb'",
+        "'../../../src/handlers/get-all-items.js'",
+        "'Test getAllItemsHandler'",
+        "'scan'",
+        "'should return ids'",
+        "'id1'",
+        "'id2'",
+        "'GET'"
+    ],
+    "variables": [
+        "dynamodb",
+        "scanSpy",
+        "items",
+        "result",
+        "expectedResult"
+    ],
+    "comments": [
+        "Import dynamodb from aws-sdk",
+        "Import all functions from get-all-items.js",
+        "This includes all tests for getAllItemsHandler",
+        "One-time setup and teardown, see more in https://jestjs.io/docs/en/setup-teardown",
+        "Mock DynamoDB scan method",
+        "https://jestjs.io/docs/en/jest-object.html#jestspyonobject-methodname",
+        "Clean up mocks",
+        "This test invokes getAllItemsHandler and compares the result",
+        "Return the specified value whenever the spied scan function is called",
+        "Invoke getAllItemsHandler",
+        "Compare the result with the expected result"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

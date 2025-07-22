@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "ipaddress",
+        "sys",
+        "tenable",
+        "io",
+        "TenableIO",
+        "input",
+        "input",
+        "input",
+        "TenableIO",
+        "tio_access_key",
+        "tio_secret_key",
+        "vendor",
+        "tenable_vendor",
+        "product",
+        "tenable_product",
+        "build",
+        "tenable_version",
+        "ipaddress",
+        "ip_network",
+        "cidr",
+        "cidr_obj",
+        "tio",
+        "exports",
+        "vulns",
+        "cidr_range",
+        "cidr",
+        "r",
+        "results",
+        "r",
+        "sys",
+        "exit",
+        "main"
+    ],
+    "literals": [
+        "\"TIO_ACCESS_KEY\"",
+        "\"TIO_SECRET_KEY\"",
+        "\"CIDR\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"-----------------\"",
+        "'__main__'"
+    ],
+    "variables": [
+        "tio_access_key",
+        "tio_secret_key",
+        "cidr",
+        "tenable_vendor",
+        "tenable_product",
+        "tenable_version",
+        "tio",
+        "cidr_obj",
+        "results"
+    ],
+    "comments": [
+        "results = tio.exports.vulns(plugin_id=plugin_ids, cidr_range=config.TARGET_CIDR)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

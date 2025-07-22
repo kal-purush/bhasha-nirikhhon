@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "req",
+        "res",
+        "req",
+        "req",
+        "res",
+        "req",
+        "req",
+        "req",
+        "req",
+        "userId",
+        "userId",
+        "userId",
+        "userId",
+        "res",
+        "req",
+        "query",
+        "userId",
+        "receiver",
+        "phone",
+        "address",
+        "err",
+        "results",
+        "err",
+        "err",
+        "res",
+        "req",
+        "res"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "\"number\"",
+        "\"INSERT INTO address (user_id, receiver, phone, address) VALUES (?, ?, ?, ?);\"",
+        "'dbConnection'"
+    ],
+    "variables": [
+        "address",
+        "userId",
+        "receiver",
+        "phone",
+        "address",
+        "query"
+    ],
+    "comments": [
+        "리퀘스트 바디가 비어있는 경우 바로 종료",
+        "리퀘스트 바디로 부터 값을 얻어온다.",
+        "타입체크",
+        "유저 아이디가 -1인 경우 바로 종료",
+        "쿼리 생성 및 디비 요청"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "PayrollSystem",
+        "Employee",
+        "rate",
+        "salesAmount",
+        "commRate",
+        "salesAmount",
+        "payment"
+    ],
+    "literals": [],
+    "variables": [
+        "commRate",
+        "payment"
+    ],
+    "comments": [
+        "Payroll System - Commission Employee\n * Miranda Motter\n * 28 Oct 2016\n * Creates a subclass of Employee for commissioned\n * Professor Masterson, CS 240-1",
+        "Calculate payment from rate and sales",
+        "private Payment payComm (double payment, Payment p)",
+        "{",
+        "return p;",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "calcPayment"
+    ],
+    "classes": [
+        "CommEmployee"
+    ]
+}

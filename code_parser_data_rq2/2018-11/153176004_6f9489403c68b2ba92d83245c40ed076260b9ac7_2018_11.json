@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Request",
+        "url",
+        "fetch",
+        "req",
+        "response",
+        "response",
+        "i",
+        "i",
+        "i",
+        "test",
+        "i",
+        "buttonClick",
+        "buttonClick",
+        "testFunc",
+        "buttonClick",
+        "buttonClick",
+        "testFunc",
+        "createEventListeners",
+        "createEventListeners"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "'https://newsapi.org/v2/top-headlines?'",
+        "'country=us&'",
+        "'apiKey=5cb35fea7dfd4098abd2498570bdcfb9'",
+        "\"\"",
+        "\"test2\"",
+        "\"button\"",
+        "\"click\"",
+        "\"onclick\"",
+        "\"load\"",
+        "\"onload\""
+    ],
+    "variables": [
+        "url",
+        "i",
+        "x",
+        "test",
+        "req",
+        "buttonClick"
+    ],
+    "comments": [
+        "CIS166AA - JavaScript\n    Chapter 11\n    Chapter case project\n\n    Ajax with JSON-P\n\n    Author: Andrew Dorre\n    Date:   11/27/2018\n\n    Filename: newsJSONP.js\n\n    Powered by https://newsapi.org",
+        "console.log(articles)",
+        ".then(function (response) {\n            \n        var object = response.json();\n        var myJSON = JSON.stringify(object);\n\n\n        document.getElementById(\"test2\").innerHTML = myJSON;\n        })",
+        "var myJSON = JSON.stringify(object.articles[0]);",
+        "console.log(object);",
+        "var myJSON = JSON.parse(object);",
+        "var stringed = JSON.stringify(myJSON);",
+        "for (i in req.articles) {\n    x += \"<h2>\" + req.articles[i].title + \"</h2>\";            \n}",
+        "document.getElementById(\"newstest\").innerHTML = x",
+        "document.getElementById(\"test2\").innerHTML = req[0].response.body;",
+        "var url = 'https://newsapi.org/v2/top-headlines?' +\n    'country=us&' +\n    'apiKey=5cb35fea7dfd4098abd2498570bdcfb9';\n\nvar req = new Request(url);\nfetch(req)\n    .then(function (response) {\n        console.log(response.json());\n    })\ndocument.getElementById(\"newstest\").innerHTML = req.title;\n\nif (window.addEventListener) {\n    window.addEventListener(\"load\", button, false);\n} else if (window.attachEvent) {\n    window.attachEvent(\"onload\", button);\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "testFunc",
+        "createEventListeners"
+    ],
+    "classes": []
+}

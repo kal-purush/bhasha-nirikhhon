@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "globalIgnores",
+        "defineConfigWithVueTs",
+        "vueTsConfigs",
+        "pluginVue",
+        "skipFormatting",
+        "defineConfigWithVueTs",
+        "globalIgnores",
+        "pluginVue",
+        "vueTsConfigs",
+        "skipFormatting"
+    ],
+    "literals": [
+        "'eslint/config'",
+        "'@vue/eslint-config-typescript'",
+        "'eslint-plugin-vue'",
+        "'@vue/eslint-config-prettier/skip-formatting'",
+        "'app/files-to-lint'",
+        "'**/*.{ts,mts,tsx,vue}'",
+        "'**/dist/**'",
+        "'**/dist-ssr/**'",
+        "'**/coverage/**'",
+        "'flat/essential'"
+    ],
+    "variables": [],
+    "comments": [
+        "To allow more languages other than `ts` in `.vue` files, uncomment the following lines:",
+        "import { configureVueProject } from '@vue/eslint-config-typescript'",
+        "configureVueProject({ scriptLangs: ['ts', 'tsx'] })",
+        "More info at https://github.com/vuejs/eslint-config-typescript/#advanced-setup"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

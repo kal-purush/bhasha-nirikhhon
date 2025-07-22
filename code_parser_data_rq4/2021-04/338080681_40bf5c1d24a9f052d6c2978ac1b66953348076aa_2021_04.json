@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Web",
+        "Web",
+        "UI",
+        "Web",
+        "UI",
+        "WebControls",
+        "ClassLibrary",
+        "Web",
+        "UI",
+        "Page",
+        "sender",
+        "EventArgs",
+        "e",
+        "StockNo",
+        "Convert",
+        "ToInt32",
+        "Session",
+        "sender",
+        "EventArgs",
+        "e",
+        "clsStockCollection",
+        "StockBook",
+        "ThisStock",
+        "Find",
+        "StockNo",
+        "Response",
+        "Redirect"
+    ],
+    "literals": [
+        "\"StockNo\"",
+        "\"StockList.aspx\""
+    ],
+    "variables": [
+        "Int32",
+        "StockNo",
+        "clsStockCollection",
+        "StockBook"
+    ],
+    "comments": [
+        "var to store the primary key value of the record to be deleted",
+        "event handler for load event",
+        "get the number of the stock to be deleted from the session object",
+        "create a new instance of the stock book",
+        "find record to delete",
+        "redirect back to the main page"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Page_Load",
+        "btnYes_Click"
+    ],
+    "classes": [
+        "DeleteStock"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "ActionType",
+        "SuccessfullyLoggedIn",
+        "AccountArgs",
+        "successfullyLoggedIn",
+        "ActionType",
+        "authRedirect",
+        "contextModule",
+        "trigger"
+    ],
+    "literals": [
+        "\"Schema\"",
+        "\"Schema/Event\"",
+        "\"./Typings\"",
+        "\"click\""
+    ],
+    "variables": [
+        "successfullyLoggedIn"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Action fired when a user logs into an existing account\n *\n * @example\n * successfullyLoggedIn({\n *   authRedirect: \"https://artsy.net/artist/andy-warhol\"\n *   contextModule: ContextModule.popUpModal,\n *   intent: AuthIntent.viewEditorial,\n *   service: AuthService.email\n *   trigger: \"timed\"\n * })"
+    ],
+    "functions": [],
+    "classes": []
+}

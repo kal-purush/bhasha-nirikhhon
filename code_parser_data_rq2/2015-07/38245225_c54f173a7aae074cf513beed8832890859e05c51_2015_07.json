@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "projet",
+        "projet",
+        "projet",
+        "nompage",
+        "i",
+        "i",
+        "pagesDisponibles",
+        "i",
+        "nompage",
+        "pagesDisponibles",
+        "i",
+        "titreHTML",
+        "pagesDisponibles",
+        "i",
+        "titreHTML"
+    ],
+    "literals": [
+        "\"nom\"",
+        "\"BDPhilia\"",
+        "\"auteur\"",
+        "\"DE COLO\"",
+        "\"copy\"",
+        "\"&copy; 2009 Natixis\"",
+        "\"<div id=\\\"bandeau\\\">&nbsp;</div>\"",
+        "'<div id=\"titre\"><h1>'",
+        "'</h1></div>'"
+    ],
+    "variables": [
+        "projet",
+        "titreHTML"
+    ],
+    "comments": [
+        "Dans le fichier lib/affiche.js\n- créer un tableau \"projet\" avec 3 clefs décrivant les informations suivantes:\n\t[\"nom\"]    = \"BDPhilia\";\n\t[\"auteur\"] = \"votre nom\";\n\t[\"copy\"]   = \"&copy; 2009 votre entreprise\";\n- créer une fonction affichePageBandeauHaut() qui affiche le bandeau du haut (<div id=\"bandeau\">)",
+        "global pagesDisponibles",
+        "Dans le fichier lib/affiche.js\n- créer une fonction affichePageTitre() qui affiche le titre (<div id=\"titre\">) comme précédement.\n  Cette fonction accepte 1 argument, qui est le nom de la page selectionnée (ex: index.htm)\n  Elle récupère le titre de la page dans le tableau \"pagesDisponibles\"."
+    ],
+    "docstrings": [
+        "* To change this license header, choose License Headers in Project Properties.\n * To change this template file, choose Tools | Templates\n * and open the template in the editor."
+    ],
+    "functions": [
+        "affichePageBandeauHaut",
+        "affichePageTitre"
+    ],
+    "classes": []
+}

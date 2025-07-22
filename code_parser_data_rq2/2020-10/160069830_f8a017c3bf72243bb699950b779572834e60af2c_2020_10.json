@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "colors",
+        "depName",
+        "require",
+        "depName",
+        "err",
+        "err",
+        "colors",
+        "colors",
+        "depName",
+        "colors",
+        "depName",
+        "process",
+        "err",
+        "ensureDepIsInstalled",
+        "ensureDepIsInstalled",
+        "ensureDepIsInstalled"
+    ],
+    "literals": [
+        "'./colors'",
+        "string",
+        "'MODULE_NOT_FOUND'",
+        "${colors.red('ERROR:')} ${colors.green(\n          depName\n        )} must be installed as a dependency. Please run \\`${colors.green(`npm install ${depName}`)}\\`.",
+        "'ERROR:'",
+        "npm install ${depName}",
+        "'@nexus/schema'",
+        "'graphql'",
+        "'@prisma/client'",
+        "'./plugin'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ensureDepIsInstalled"
+    ],
+    "classes": []
+}

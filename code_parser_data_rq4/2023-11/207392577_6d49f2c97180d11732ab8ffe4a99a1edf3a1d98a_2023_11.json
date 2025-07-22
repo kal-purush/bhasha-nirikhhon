@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "IBrowserPage",
+        "IBrowserPageViewport",
+        "Event",
+        "BrowserFrameUtility",
+        "IVirtualConsolePrinter",
+        "IBrowserFrame",
+        "IBrowserContext",
+        "page",
+        "viewport",
+        "viewport",
+        "page",
+        "viewport",
+        "viewport",
+        "page",
+        "viewport",
+        "viewport",
+        "page",
+        "viewport",
+        "page",
+        "viewport",
+        "page",
+        "viewport",
+        "viewport",
+        "page",
+        "viewport",
+        "page",
+        "viewport",
+        "page",
+        "viewport",
+        "page",
+        "Event",
+        "viewport",
+        "page",
+        "viewport",
+        "page",
+        "page",
+        "BrowserFrameUtility",
+        "page",
+        "page",
+        "page",
+        "index",
+        "page",
+        "index",
+        "page",
+        "page",
+        "page",
+        "page",
+        "context",
+        "page",
+        "context"
+    ],
+    "literals": [
+        "'./types/IBrowserPage.js'",
+        "'./types/IBrowserPageViewport.js'",
+        "'../event/Event.js'",
+        "'./BrowserFrameUtility.js'",
+        "'../console/types/IVirtualConsolePrinter.js'",
+        "'./types/IBrowserFrame.js'",
+        "'./types/IBrowserContext.js'",
+        "'resize'"
+    ],
+    "variables": [
+        "index",
+        "context"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Browser page utility.",
+        "* Sets the viewport.\n\t *\n\t * @param page Page.\n\t * @param viewport Viewport.",
+        "* Aborts all ongoing operations and destroys the page.\n\t *\n\t * @param page Page."
+    ],
+    "functions": [
+        "setViewport",
+        "closePage"
+    ],
+    "classes": [
+        "BrowserPageUtility"
+    ]
+}

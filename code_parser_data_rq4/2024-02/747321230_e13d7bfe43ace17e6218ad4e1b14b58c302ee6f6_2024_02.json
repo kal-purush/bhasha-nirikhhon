@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Injectable",
+        "AppConfig",
+        "fs",
+        "Injectable",
+        "fs",
+        "AppConfig",
+        "pokedexData",
+        "name",
+        "questionTitle",
+        "AiHistoryService",
+        "pokedexData",
+        "name",
+        "pokedexData",
+        "name",
+        "questionTitle",
+        "pokedexData",
+        "name",
+        "questionTitle",
+        "name",
+        "questionTitle",
+        "data",
+        "AiHistoryService",
+        "pokedexData",
+        "name",
+        "pokedexData",
+        "name",
+        "pokedexData",
+        "name",
+        "questionTitle",
+        "data",
+        "fs",
+        "AppConfig",
+        "pokedexData"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'src/config/config.module'",
+        "'fs'",
+        "'utf8'",
+        "string",
+        "string",
+        "string",
+        "''",
+        "''",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "pokedexData",
+        "pokedexData",
+        "pokedexData"
+    ],
+    "comments": [
+        "there will be a json file in /data/pokedex/pokedex_history.json\nthere will be a class which will will have 2 methods\n1. read this json file and check if the needed data is there\n2. open the json file and add the data there\njson structure:\n{\n    \"pokemonName\": {\n        \"about\": \"the about text\",\n        \"weaknesses\": \"the weaknesses text\",\n        \"strengths\": \"the strengths text\"\n    }\n    ...\n}\n\nBut I do not want to have the json file always open, only when I need it to be open"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AiHistoryService"
+    ]
+}

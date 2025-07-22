@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Cita",
+        "Doctor",
+        "nombre",
+        "direccion",
+        "nombre",
+        "direccion",
+        "doctor",
+        "doctor",
+        "doctor",
+        "i",
+        "i",
+        "doctor",
+        "cita",
+        "cita",
+        "cita",
+        "i",
+        "i",
+        "cita"
+    ],
+    "literals": [
+        "\"./cita.js\"",
+        "\"./doctor.js\"",
+        "${i} ${doctor.getPerfil()}",
+        "${i} ${cita.getCita()}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* \n     * @param {string} nombre Nombre del doctor\n     * @param {string} direccion \n     * @param {string} doctores Listado de doctores\n     * @param {string} citas Listado de citas"
+    ],
+    "functions": [
+        "registrarDoctor",
+        "listarDoctores",
+        "registrarCita",
+        "listarCitas"
+    ],
+    "classes": [
+        "Hospital"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "myImage",
+        "myImage",
+        "mySrc",
+        "myImage",
+        "myImage",
+        "prompt",
+        "myName",
+        "setUserName",
+        "localStorage",
+        "myName",
+        "myHeading",
+        "myName",
+        "localStorage",
+        "setUserName",
+        "localStorage",
+        "myHeading",
+        "storedName",
+        "myButton",
+        "setUserName"
+    ],
+    "literals": [
+        "'img'",
+        "'src'",
+        "'images/firefox-icon.png'",
+        "'src'",
+        "'images/firefoxSmaller.jpg'",
+        "'src'",
+        "'images/firefox-icon.png'",
+        "'button'",
+        "'h1'",
+        "'Please enter your name.'",
+        "'name'",
+        "'Mozilla is cool, '",
+        "'name'",
+        "'name'",
+        "'Mozilla is cool, '"
+    ],
+    "variables": [
+        "myImage",
+        "mySrc",
+        "myButton",
+        "myHeading",
+        "myName",
+        "storedName"
+    ],
+    "comments": [
+        "const myHeading = document.querySelector('h1');\nmyHeading.textContent = 'Hello world!';\nalert(\"Hello\");\n\ndocument.querySelector('html').onclick = function() {\n    alert('Ouch! Stop poking me!');\n}",
+        "function setUserName(){\n    let uname = prompt(\"Enter your name\");\n    localStorage.setItem('name', uname);\n    myHeading.textContent = \"Mozilla is cool, \"+uname;\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setUserName"
+    ],
+    "classes": []
+}

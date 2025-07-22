@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "getSourceCode",
+        "getSourceCodeBase",
+        "getFilename",
+        "getFilenameBase",
+        "getPhysicalFilename",
+        "getPhysicalFilenameBase",
+        "getCwd",
+        "getCwdBase",
+        "RuleContext",
+        "SourceCode",
+        "context",
+        "getSourceCodeBase",
+        "context",
+        "context",
+        "getFilenameBase",
+        "context",
+        "context",
+        "getPhysicalFilenameBase",
+        "context",
+        "context",
+        "getCwdBase",
+        "context"
+    ],
+    "literals": [
+        "\"eslint-compat-utils\"",
+        "\"../types\"",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "export function getSourceCode(context: RuleContext): SourceCode;",
+        "export function getSourceCode(context: Rule.RuleContext): ESLintSourceCode;"
+    ],
+    "docstrings": [
+        "* Returns an extended instance of `context.sourceCode` or the result of `context.getSourceCode()`.\n * Extended instances can use new APIs such as `getScope(node)` even with old ESLint.",
+        "* Gets the value of `context.filename`, but for older ESLint it returns the result of `context.getFilename()`.",
+        "* Gets the value of `context.physicalFilename`,\n * but for older ESLint it returns the result of `context.getPhysicalFilename()`.\n * Versions older than v7.28.0 return a value guessed from the result of `context.getFilename()`,\n * but it may be incorrect.",
+        "* Gets the value of `context.cwd`, but for older ESLint it returns the result of `context.getCwd()`.\n * Versions older than v6.6.0 return a value from the result of `process.cwd()`."
+    ],
+    "functions": [
+        "getSourceCode",
+        "getFilename",
+        "getPhysicalFilename",
+        "getCwd"
+    ],
+    "classes": []
+}

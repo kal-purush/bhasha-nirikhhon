@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "RuleFailure",
+        "BaseFormatter",
+        "BaseFormatter",
+        "failure",
+        "failure",
+        "fileName",
+        "failure",
+        "failure",
+        "fileContents",
+        "start",
+        "importStartIndex",
+        "importStartIndex",
+        "fileContents",
+        "end",
+        "fileContents",
+        "importStartIndex",
+        "fileContents",
+        "importStartIndex",
+        "importEndIndex",
+        "fileContents",
+        "importEndIndex",
+        "middle",
+        "newImport",
+        "newImport",
+        "leftSide",
+        "newImport",
+        "rightSide",
+        "fileName",
+        "newContent",
+        "fileName"
+    ],
+    "literals": [
+        "'use strict'",
+        "'tslint/lib/language/rule/rule'",
+        "'./utils/BaseFormatter'",
+        "'no-require-imports'",
+        "string",
+        "string",
+        "'\\n'",
+        "'\\n'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'import {$1} from $2;'",
+        "'from\\n'",
+        "string",
+        "'Automatically converting require-style import to an ES6 import. Please re-compile and re-lint: '"
+    ],
+    "variables": [
+        "fileName",
+        "fileContents",
+        "start",
+        "end",
+        "importStartIndex",
+        "importEndIndex",
+        "leftSide",
+        "middle",
+        "rightSide",
+        "newImport",
+        "newContent"
+    ],
+    "comments": [
+        "tslint:disable:export-name",
+        "tslint:enable:export-name",
+        "clean up some spacing",
+        "tslint:disable:no-console",
+        "tslint:enable:no-console"
+    ],
+    "docstrings": [
+        "* Formatter that fixes your unused imports."
+    ],
+    "functions": [],
+    "classes": [
+        "Formatter"
+    ]
+}

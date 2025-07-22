@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "angular",
+        "app",
+        "$scope",
+        "$firebase",
+        "Firebase",
+        "$firebase",
+        "name",
+        "cateogries",
+        "abilities",
+        "weaknesses",
+        "name",
+        "categories",
+        "abilities",
+        "weaknesses",
+        "$scope",
+        "sync",
+        "$scope",
+        "$scope",
+        "$scope",
+        "$scope",
+        "$scope",
+        "released",
+        "$scope",
+        "released",
+        "$scope",
+        "updated",
+        "updated"
+    ],
+    "literals": [
+        "'name'",
+        "'type'",
+        "'categories'",
+        "'abilities'",
+        "'weaknesses'",
+        "'myApp'",
+        "'firebase'",
+        "'MainController'",
+        "'$scope'",
+        "'$firebase'",
+        "'https://sylvesterpoke.firebaseio.com/'"
+    ],
+    "variables": [
+        "attr",
+        "app",
+        "sync"
+    ],
+    "comments": [
+        "Firebase Read-only Object",
+        "$scope.data = sync.$asObject();",
+        "Firebase 3-way Binding Object",
+        "var syncObject = sync.$asObject();",
+        "syncObject.$bindTo($scope, 'data');",
+        "Firebase Array"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Pokemon"
+    ],
+    "classes": []
+}

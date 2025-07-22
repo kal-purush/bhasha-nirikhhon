@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Directive",
+        "Input",
+        "Validator",
+        "AbstractControl",
+        "ValidationErrors",
+        "NG_VALIDATORS",
+        "Directive",
+        "NG_VALIDATORS",
+        "DateValidatorDirective",
+        "control",
+        "control",
+        "strDateDepart",
+        "dateDepart"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/forms'",
+        "'[appDateValidator]'",
+        "string"
+    ],
+    "variables": [
+        "strDateDepart",
+        "dateDepart"
+    ],
+    "comments": [
+        "if (photoUrl !== null && photoUrl.startsWith('http')) {\n      return null;\n    } else {\n      return { urlInvalide: true };\n    }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "validate"
+    ],
+    "classes": [
+        "DateValidatorDirective"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "TilbudsAvisLibrary",
+        "DTO"
+    ],
+    "literals": [],
+    "variables": [
+        "Id",
+        "Name",
+        "IsActive",
+        "ValidTo",
+        "NextExpectedRelease",
+        "RetryCount",
+        "LastError"
+    ],
+    "comments": [
+        "Company ID matching scraper key",
+        "Company name",
+        "Whether to schedule scrapes",
+        "From last successful scrape",
+        "Calculated (ValidTo + buffer)",
+        "Current retry attempt (0 = success)",
+        "Last error message"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "CompanyScheduleDTO"
+    ]
+}

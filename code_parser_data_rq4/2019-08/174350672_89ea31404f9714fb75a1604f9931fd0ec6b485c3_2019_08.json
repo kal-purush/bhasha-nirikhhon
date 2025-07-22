@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "rules",
+        "edx_rbac",
+        "utils",
+        "user_has_access_via_database",
+        "ecommerce",
+        "core",
+        "constants",
+        "ORDER_MANAGER_ROLE",
+        "ecommerce",
+        "core",
+        "models",
+        "EcommerceFeatureRoleAssignment",
+        "rules",
+        "predicate",
+        "user",
+        "user",
+        "is_authenticated",
+        "user_has_access_via_database",
+        "user",
+        "ORDER_MANAGER_ROLE",
+        "EcommerceFeatureRoleAssignment",
+        "rules",
+        "add_perm",
+        "request_user_has_refund_access",
+        "rules",
+        "add_perm",
+        "request_user_has_refund_access",
+        "rules",
+        "add_perm",
+        "request_user_has_refund_access",
+        "rules",
+        "add_perm",
+        "rules",
+        "always_allow"
+    ],
+    "literals": [
+        "'refund.add_refund'",
+        "'refund.change_refund'",
+        "'refund.delete_refund'",
+        "'refund'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nDjango rules for Refund\n\"\"\"",
+        "\"\"\"\n    Check that if request user has explicit access to `ORDER_MANAGER_ROLE` feature role.\n    Returns:\n        boolean: whether the request user has access or not\n    \"\"\""
+    ],
+    "functions": [
+        "request_user_has_refund_access"
+    ],
+    "classes": []
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Observable",
+        "Observable",
+        "ZenObservable",
+        "$observers",
+        "ZenObservable",
+        "observer",
+        "$observers",
+        "$observers",
+        "observer",
+        "unsubscribe",
+        "$observers",
+        "$observers",
+        "someObserver",
+        "someObserver",
+        "observer",
+        "unsubscribe",
+        "$observers",
+        "observer",
+        "observer",
+        "error",
+        "$observers",
+        "observer",
+        "observer",
+        "error",
+        "value",
+        "$observers",
+        "observer",
+        "observer",
+        "value",
+        "Observable",
+        "Subject"
+    ],
+    "literals": [
+        "\"zen-observable\"",
+        "\"observers\""
+    ],
+    "variables": [
+        "$observers",
+        "unsubscribe"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Observable subject. Implements the Observable interface, but also exposes\n * the `next()`, `error()`, `complete()` methods to initiate observable\n * updates \"from the outside\".\n *\n * Use `Observable.from(subject)` to derive an observable that proxies all\n * values, errors and the completion raised on this subject, but does not\n * expose the `next()`, `error()`, `complete()` methods."
+    ],
+    "functions": [
+        "complete",
+        "error",
+        "next"
+    ],
+    "classes": [
+        "Subject"
+    ]
+}

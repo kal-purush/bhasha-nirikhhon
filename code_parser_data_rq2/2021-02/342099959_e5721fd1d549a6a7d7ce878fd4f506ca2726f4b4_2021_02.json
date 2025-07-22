@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "url",
+        "resolve",
+        "reject",
+        "tag",
+        "tag",
+        "tag",
+        "url",
+        "tag",
+        "tag",
+        "url",
+        "tag",
+        "tag",
+        "resolve",
+        "url",
+        "tag",
+        "reject",
+        "url",
+        "tag",
+        "screen",
+        "loadExternalResource",
+        "live2d_path",
+        "loadExternalResource",
+        "live2d_path",
+        "loadExternalResource",
+        "live2d_path",
+        "initWidget",
+        "live2d_path"
+    ],
+    "literals": [
+        "\"/live2d-widget/\"",
+        "\"css\"",
+        "\"link\"",
+        "\"stylesheet\"",
+        "\"js\"",
+        "\"script\"",
+        "\"waifu.css\"",
+        "\"css\"",
+        "\"live2d.min.js\"",
+        "\"js\"",
+        "\"waifu-tips.js\"",
+        "\"js\"",
+        "\"waifu-tips.json\"",
+        "\"https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/\"",
+        "く__,.ヘヽ.        /  ,ー､ 〉\n           ＼ ', !-─‐-i  /  /´\n           ／｀ｰ'       L/／｀ヽ､\n         /   ／,   /|   ,   ,       ',\n       ｲ   / /-‐/  ｉ  L_ ﾊ ヽ!   i\n        ﾚ ﾍ 7ｲ｀ﾄ   ﾚ'ｧ-ﾄ､!ハ|   |\n          !,/7 '0'     ´0iソ|    |\n          |.从\"    _     ,,,, / |./    |\n          ﾚ'| i＞.､,,__  _,.イ /   .i   |\n            ﾚ'| | / k_７_/ﾚ'ヽ,  ﾊ.  |\n              | |/i 〈|/   i  ,.ﾍ |  i  |\n             .|/ /  ｉ：    ﾍ!    ＼  |\n              kヽ>､ﾊ    _,.ﾍ､    /､!\n              !'〈//｀Ｔ´', ＼ ｀'7'ｰr'\n              ﾚ'ヽL__|___i,___,ンﾚ|ノ\n                  ﾄ-,/  |___./\n                  'ｰ'    !_,.:"
+    ],
+    "variables": [
+        "live2d_path",
+        "tag"
+    ],
+    "comments": [
+        "注意：live2d_path 参数应使用绝对路径",
+        "const live2d_path = \"/live2d-widget/\";",
+        "封装异步加载资源的方法",
+        "加载 waifu.css live2d.min.js waifu-tips.js",
+        "apiPath: \"https://live2d.fghrsh.net/api/\",",
+        "initWidget 第一个参数为 waifu-tips.json 的路径，第二个参数为 API 地址",
+        "API 后端可自行搭建，参考 https://github.com/fghrsh/live2d_api",
+        "初始化看板娘会自动加载指定目录下的 waifu-tips.json"
+    ],
+    "docstrings": [],
+    "functions": [
+        "loadExternalResource"
+    ],
+    "classes": []
+}

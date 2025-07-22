@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "NServiceBus",
+        "ObsoleteEx",
+        "Message",
+        "RemoveInVersion",
+        "TreatAsErrorFromVersion",
+        "TransportExtensions",
+        "AzureServiceBusTransport",
+        "TransportExtensions",
+        "AzureServiceBusTransport",
+        "transportExtensions",
+        "Func",
+        "subscriptionNameShortener",
+        "NotImplementedException",
+        "ObsoleteEx",
+        "Message",
+        "RemoveInVersion",
+        "TreatAsErrorFromVersion",
+        "TransportExtensions",
+        "AzureServiceBusTransport",
+        "TransportExtensions",
+        "AzureServiceBusTransport",
+        "transportExtensions",
+        "Func",
+        "ruleNameShortener",
+        "NotImplementedException"
+    ],
+    "literals": [
+        "\"Use `SubscriptionNameConvention()` instead.\"",
+        "\"3\"",
+        "\"2\"",
+        "\"Use `RuleNameConvention()` instead.\"",
+        "\"3\"",
+        "\"2\""
+    ],
+    "variables": [],
+    "comments": [
+        "Specifies a callback to apply to the subscription name when the endpoint's name is longer than 50 characters.",
+        "</summary>",
+        "<param name=\"transportExtensions\">The transport settings object</param>",
+        "<param name=\"subscriptionNameShortener\">The callback to apply.</param>",
+        "TODO: remove when cherry-picked into release-1.x",
+        "Specifies a callback to apply to a subscription rule name when a subscribed event's name is longer than 50 characters.",
+        "</summary>",
+        "<param name=\"transportExtensions\">The transport settings object</param>",
+        "<param name=\"ruleNameShortener\">The callback to apply.</param>",
+        "TODO: remove when cherry-picked into release-1.x"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "SubscriptionNameShortener",
+        "RuleNameShortener"
+    ],
+    "classes": [
+        "AzureServiceBusTransportSettingsExtensions"
+    ]
+}

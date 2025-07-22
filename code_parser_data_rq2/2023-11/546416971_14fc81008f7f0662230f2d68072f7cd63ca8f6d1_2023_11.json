@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "path",
+        "path",
+        "MSF",
+        "path",
+        "getAccessToken_",
+        "token",
+        "API_KEY",
+        "token",
+        "API_BASE",
+        "path",
+        "UrlFetchApp",
+        "url",
+        "response",
+        "response",
+        "response",
+        "Utilities",
+        "CLIENT_ID",
+        "CLIENT_SECRET",
+        "UrlFetchApp",
+        "AUTH_URL",
+        "response",
+        "response",
+        "data"
+    ],
+    "literals": [
+        "'/player/'",
+        "'get'",
+        "'x-api-key'",
+        "Bearer ${token}",
+        "'post'",
+        "'Content-Type'",
+        "'application/x-www-form-urlencoded'",
+        "Basic ${Utilities.base64Encode(`${CLIENT_ID}:${CLIENT_SECRET}`)}",
+        "${CLIENT_ID}:${CLIENT_SECRET}",
+        "'client_credentials'"
+    ],
+    "variables": [
+        "token",
+        "url",
+        "response",
+        "response",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "callApi_",
+        "getAccessToken_"
+    ],
+    "classes": []
+}

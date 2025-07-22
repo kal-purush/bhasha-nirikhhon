@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "appID",
+        "apiKey",
+        "appID",
+        "apiKey"
+    ],
+    "literals": [
+        "string",
+        "'https://api.einvoice.nat.gov.tw/'",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "endPoint"
+    ],
+    "comments": [
+        "super();"
+    ],
+    "docstrings": [
+        "* `TaiwanEInvoice` is a class that wraps Taiwan e-invoice API.",
+        "* App ID,apply from [MOF E-Invoice platform](https://www.einvoice.nat.gov.tw/APMEMBERVAN/APIService/Registration).",
+        "* API Key,apply from [MOF E-Invoice platform](https://www.einvoice.nat.gov.tw/APMEMBERVAN/APIService/Registration).",
+        "* Constructor\n  * @param appID App ID,apply from [MOF E-Invoice platform](https://www.einvoice.nat.gov.tw/APMEMBERVAN/APIService/Registration).\n  * @param apiKey API Key,apply from [MOF E-Invoice platform](https://www.einvoice.nat.gov.tw/APMEMBERVAN/APIService/Registration)."
+    ],
+    "functions": [],
+    "classes": [
+        "TaiwanEInvoice"
+    ]
+}

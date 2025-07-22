@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "numbers",
+        "target",
+        "numbers",
+        "left",
+        "right",
+        "numbers",
+        "left",
+        "numbers",
+        "right",
+        "sum",
+        "target",
+        "left",
+        "right",
+        "sum",
+        "target",
+        "left",
+        "right",
+        "twoSum"
+    ],
+    "literals": [],
+    "variables": [
+        "twoSum",
+        "left",
+        "right",
+        "sum"
+    ],
+    "comments": [
+        "Initialize the left pointer to the start of the array",
+        "Initialize the right pointer to the end of the array",
+        "Loop while the left pointer is less than the right pointer",
+        "Calculate the sum of the numbers at the left and right pointers",
+        "If the sum is equal to the target",
+        "Return an array with the indices (1-indexed) of the two numbers",
+        "If the sum is less than the target",
+        "Move the left pointer to the right (increment it by 1)",
+        "If the sum is greater than the target",
+        "Move the right pointer to the left (decrement it by 1)",
+        "No solution found, return an empty array"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

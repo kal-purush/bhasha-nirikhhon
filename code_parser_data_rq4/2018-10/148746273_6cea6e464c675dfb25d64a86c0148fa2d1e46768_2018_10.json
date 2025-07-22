@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "LRU",
+        "Options",
+        "IPinfo",
+        "ASNResponse",
+        "IPCache",
+        "LRU",
+        "cacheOptions",
+        "ip",
+        "ip",
+        "asn",
+        "asn",
+        "ip",
+        "data",
+        "ip",
+        "data",
+        "asn",
+        "data",
+        "asn",
+        "data"
+    ],
+    "literals": [
+        "\"lru-cache\"",
+        "\"../model/ipinfo.model\"",
+        "\"../model/asnResponse.model\"",
+        "\"../cache/cache\"",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "cacheOptions"
+    ],
+    "comments": [
+        "The maximum number of items allowed in the cache (100 items max)",
+        "The maximum life of a cached item in milliseconds (1 hr)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getIp",
+        "getAsn",
+        "setIp",
+        "setAsn"
+    ],
+    "classes": [
+        "LruCache"
+    ]
+}

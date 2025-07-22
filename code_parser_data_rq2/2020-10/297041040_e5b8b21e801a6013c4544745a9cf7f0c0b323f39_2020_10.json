@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "vegetables",
+        "metric",
+        "i",
+        "vegetables",
+        "i",
+        "vegetables",
+        "i",
+        "metric",
+        "bestQuality",
+        "bestQuality",
+        "vegetables",
+        "i",
+        "metric",
+        "submitter",
+        "vegetables",
+        "i",
+        "submitter",
+        "submitter",
+        "submitter",
+        "judgeVegetable",
+        "vegetables",
+        "metric"
+    ],
+    "literals": [
+        "''",
+        "''",
+        "'Old Man Franklin'",
+        "'Sally Tomato-Grower'",
+        "'Hamid Hamidson'",
+        "'redness'"
+    ],
+    "variables": [
+        "judgeVegetable",
+        "bestQuality",
+        "submitter",
+        "i",
+        "vegetables",
+        "metric"
+    ],
+    "comments": [
+        "Our function must return the name of the person who submitted (vegetables.submitter)",
+        "the vegetable with the highest ranking in the provided category.",
+        "const judgeVegetable = function (vegetables, metric) {\n  for (i = 0; i <= vegetables.length; i++) {\n    if (vegetables[i].redness === 10) {\n      return vegetables[i].submitter;\n    } else if (vegetables[i].redness === 8) {\n      return vegetables[i].submitter;\n    }\n  }\n}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "require"
+    ],
+    "literals": [
+        "'dotenv'",
+        "'@babel/register'",
+        "'@nomiclabs/hardhat-waffle'",
+        "'@nomiclabs/hardhat-ganache'",
+        "'hardhat-contract-sizer'",
+        "'0.6.12'",
+        "'; using Ganache'"
+    ],
+    "variables": [],
+    "comments": [
+        "Configure environment variables.",
+        "Include Babel so that we may use some newer JavaScript syntax.",
+        "Include Waffle with Ethers as our preferred engine for testing.",
+        "Include the Ganache plugin to automatically start Ganache for some tests.",
+        "Include the contract size output display.",
+        "Export a configuration for Hardhat to use when working with our contracts.",
+        "Target exclusively test cases that are tagged as using Ganache."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

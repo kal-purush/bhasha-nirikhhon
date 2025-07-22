@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "Exports"
+    ],
+    "literals": [
+        "'./types'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "eslint-disable-next-line @typescript-eslint/no-empty-interface"
+    ],
+    "docstrings": [
+        "* Strips the index signature from `T` and returns the explicitly defined\n * properties.\n *\n * @internal\n * @see https://stackoverflow.com/a/51956054/420747",
+        "* @internal",
+        "* Augment this interface to define strongly-typed modules.\n *\n * @example\n * ```ts\n * declare module 'loader.ts' {\n *   interface Registry {\n *     foo: { bar: string };\n *     qux: { bar: boolean; default: number };\n *   }\n * }\n * ```",
+        "* Explicitly defined modules.\n *\n * @internal"
+    ],
+    "functions": [],
+    "classes": []
+}

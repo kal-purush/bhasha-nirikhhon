@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "org",
+        "edx",
+        "mobile",
+        "player",
+        "android",
+        "support",
+        "annotation",
+        "NonNull",
+        "subtitleFile",
+        "TimedTextObject",
+        "TranscriptListener",
+        "NonNull",
+        "transcript",
+        "subtitleIndex"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Includes the callbacks related to Transcripts of a video.",
+        "* Callback for when the video's transcript is updated.\n     *\n     * @param transcript The new transcript.",
+        "* Callback for when a transcript item is selected.\n     *\n     * @param subtitleIndex The selected transcript item's index."
+    ],
+    "functions": [
+        "updateTranscript",
+        "updateSelection"
+    ],
+    "classes": []
+}

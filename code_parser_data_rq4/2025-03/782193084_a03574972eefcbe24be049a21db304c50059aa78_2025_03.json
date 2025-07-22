@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "com",
+        "boozallen",
+        "aissemble",
+        "alerting",
+        "core",
+        "com",
+        "fasterxml",
+        "jackson",
+        "databind",
+        "ObjectMapper",
+        "org",
+        "apache",
+        "kafka",
+        "common",
+        "errors",
+        "SerializationException",
+        "org",
+        "apache",
+        "kafka",
+        "common",
+        "serialization",
+        "Deserializer",
+        "org",
+        "slf4j",
+        "Logger",
+        "org",
+        "slf4j",
+        "LoggerFactory",
+        "java",
+        "nio",
+        "charset",
+        "StandardCharsets",
+        "logger",
+        "LoggerFactory",
+        "getLogger",
+        "objectMapper",
+        "Override",
+        "topic",
+        "alert",
+        "alert",
+        "logger",
+        "warn",
+        "objectMapper",
+        "readValue",
+        "alert",
+        "StandardCharsets",
+        "UTF_8",
+        "e"
+    ],
+    "literals": [
+        "\"No Alert received for deserialization\"",
+        "\"Error when deserializing byte[] to Alert\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* #%L\n * aiSSEMBLE::Foundation::Alerting::Core\n * %%\n * Copyright (C) 2021 Booz Allen\n * %%\n * This software package is licensed under the Booz Allen Public License. All Rights Reserved.\n * #L%",
+        "* AlertDeserializer for use in messaging\n *"
+    ],
+    "functions": [
+        "Alert",
+        "deserialize"
+    ],
+    "classes": [
+        "AlertDeserializer"
+    ]
+}

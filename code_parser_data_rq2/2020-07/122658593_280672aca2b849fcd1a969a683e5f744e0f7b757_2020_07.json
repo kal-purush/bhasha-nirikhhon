@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "GET_TICKET_INFO",
+        "UPDATE_TICKET",
+        "CREATE_TICKET"
+    ],
+    "literals": [
+        "'apollo-boost'",
+        "query Tickets($id: Int!, $token: String!, $ticketId: Int!) {\n    adminEvents(id: $id, token: $token) {\n      tickets(ticketId: $ticketId) {\n        name\n        description\n        quantity\n        price\n        maxPerOrder\n        startDate\n        endDate\n        thankYouText\n        mobileMessage\n        includeVat\n        showVat\n        showDaysLeft\n        showTicketsLeft\n        showTicketsBeforeStart\n        showTicketsPriceBeforeStart\n      }\n    }\n  }",
+        "mutation UpdateTickets(\n    $id: Int!\n    $token: String!\n    $name: String!\n    $description: String!\n    $quantity: Int!\n    $price: Int!\n    $maxPerOrder: Int!\n    $startDate: DateType!\n    $endDate: DateType!\n    $thankYouText: String!\n    $includeVat: Boolean!\n    $showVat: Boolean!\n    $showDaysLeft: Boolean!\n    $showTicketsLeft: Boolean!\n    $showTicketsBeforeStart: Boolean!\n    $showTicketsPriceBeforeStart: Boolean!\n  ) {\n    updateTicket(\n      id: $id\n      token: $token\n      name: $name\n      description: $description\n      quantity: $quantity\n      price: $price\n      maxPerOrder: $maxPerOrder\n      startDate: $startDate\n      endDate: $endDate\n      thankYouText: $thankYouText\n      includeVat: $includeVat\n      showVat: $showVat\n      showDaysLeft: $showDaysLeft\n      showTicketsLeft: $showTicketsLeft\n      showTicketsBeforeStart: $showTicketsBeforeStart\n      showTicketsPriceBeforeStart: $showTicketsPriceBeforeStart\n    ) {\n      name\n    }\n  }",
+        "mutation CreateTicket(\n    $id: Int!\n    $token: String!\n    $name: String!\n    $description: String\n    $quantity: Int\n    $price: Int\n    $maxPerOrder: Int\n    $startDate: DateType\n    $endDate: DateType\n    $thankYouText: String\n    $includeVat: Boolean\n    $showVat: Boolean\n    $showDaysLeft: Boolean\n    $showTicketsLeft: Boolean\n    $showTicketsBeforeStart: Boolean\n    $showTicketsPriceBeforeStart: Boolean\n  ) {\n    createTicket(\n      eventId: $id\n      token: $token\n      name: $name\n      description: $description\n      quantity: $quantity\n      price: $price\n      maxPerOrder: $maxPerOrder\n      startDate: $startDate\n      endDate: $endDate\n      thankYouText: $thankYouText\n      includeVat: $includeVat\n      showVat: $showVat\n      showDaysLeft: $showDaysLeft\n      showTicketsLeft: $showTicketsLeft\n      showTicketsBeforeStart: $showTicketsBeforeStart\n      showTicketsPriceBeforeStart: $showTicketsPriceBeforeStart\n    ) {\n      name\n    }\n  }"
+    ],
+    "variables": [
+        "GET_TICKET_INFO",
+        "UPDATE_TICKET",
+        "CREATE_TICKET"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

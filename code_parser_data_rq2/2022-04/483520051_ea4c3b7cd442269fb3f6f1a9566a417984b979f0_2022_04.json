@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "open",
+        "overlay",
+        "open",
+        "close",
+        "overlay",
+        "open",
+        "menu",
+        "overlay",
+        "open"
+    ],
+    "literals": [
+        "'use strict'",
+        "'open'",
+        "'.overlay'",
+        "'close'",
+        "'menu'",
+        "'click'",
+        "'show'",
+        "'hide'",
+        "'click'",
+        "'show'",
+        "'hide'",
+        "'click'",
+        "'show'",
+        "'hide'"
+    ],
+    "variables": [
+        "open",
+        "overlay",
+        "close",
+        "menu"
+    ],
+    "comments": [
+        "'use strict';でキーワードで厳密なエラーチェックをするように指示してあげて、ブロックで囲む",
+        "まずはoverlayを表示したいので、関係のある要素を取得していく",
+        "openの要素を取得したいので、定数名はopenとしてあげて、idを振ったので、getElementById()で取得",
+        "overlayの要素を取得したいので今回はidを振らずにクラスだけ振ってあるので、querySelector()で取得",
+        "querySelector()にはセレクターを指定するので.overlayを指定",
+        "closeの要素を取得したいので、定数名はcloseとしてあげて、idを振ったので、getElementById()で取得",
+        "closeの要素を取得したいので、定数名はmenuとしてあげて、idを振ったので、getElementById()で取得",
+        "openをクリックしたら、という処理を書いていきたいので、EventListener()を追加",
+        "showというクラスをつける",
+        "バツ印の裏に3本線のアイコンが表示されたままなので、これを消す",
+        "closeをクリックしたら、という処理を書いていきたいので、EventListener()を追加し上と逆のコードを書く",
+        "menuをクリックしたら、閉じる処理を書いていきたいので、EventListener()を追加し上と逆のコードを書く"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

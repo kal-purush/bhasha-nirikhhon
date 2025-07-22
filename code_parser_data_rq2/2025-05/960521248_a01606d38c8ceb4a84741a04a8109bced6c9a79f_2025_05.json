@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "algo",
+        "trading",
+        "starter",
+        "service",
+        "java",
+        "util",
+        "concurrent",
+        "ConcurrentHashMap",
+        "java",
+        "util",
+        "org",
+        "springframework",
+        "web",
+        "client",
+        "RestClient",
+        "clients",
+        "restClientFactory",
+        "refreshTokenProvider",
+        "restClientFactory",
+        "refreshTokenProvider",
+        "restClientFactory",
+        "restClientFactory",
+        "refreshTokenProvider",
+        "refreshTokenProvider",
+        "refreshToken",
+        "refreshTokenProvider",
+        "getRefreshToken",
+        "clients",
+        "computeIfAbsent",
+        "refreshToken",
+        "restClientFactory"
+    ],
+    "literals": [],
+    "variables": [
+        "restClientFactory",
+        "refreshTokenProvider"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Provides thread-safe management and caching of {@link RestClient} instances keyed by refresh\n * tokens.",
+        "Constructor.",
+        "* Retrieves or creates a REST client associated with the current refresh token.\n   *\n   * @return a non-null RestClient instance associated with current refresh token"
+    ],
+    "functions": [
+        "RestClientProvider",
+        "RestClient",
+        "getRestClient"
+    ],
+    "classes": [
+        "RestClientProvider"
+    ]
+}

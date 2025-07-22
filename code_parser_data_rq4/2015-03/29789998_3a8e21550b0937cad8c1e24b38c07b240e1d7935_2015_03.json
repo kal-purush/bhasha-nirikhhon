@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "org",
+        "springframework",
+        "security",
+        "samples",
+        "config",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Autowired",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Configuration",
+        "org",
+        "springframework",
+        "security",
+        "config",
+        "annotation",
+        "authentication",
+        "builders",
+        "AuthenticationManagerBuilder",
+        "org",
+        "springframework",
+        "security",
+        "config",
+        "annotation",
+        "web",
+        "configuration",
+        "EnableWebSecurity",
+        "org",
+        "springframework",
+        "security",
+        "config",
+        "annotation",
+        "web",
+        "configuration",
+        "WebSecurityConfigurerAdapter",
+        "javax",
+        "sql",
+        "DataSource",
+        "Configuration",
+        "EnableWebSecurity",
+        "Autowired",
+        "dataSource",
+        "Autowired",
+        "auth",
+        "auth",
+        "jdbcAuthentication",
+        "dataSource",
+        "dataSource",
+        "usersByUsernameQuery",
+        "authoritiesByUsernameQuery"
+    ],
+    "literals": [
+        "\"select name,password, enabled from users where username=?\"",
+        "\"select username, role from user_roles where username=?\""
+    ],
+    "variables": [
+        "dataSource"
+    ],
+    "comments": [
+        "auth",
+        ".inMemoryAuthentication()",
+        ".withUser(\"user\").password(\"password\").roles(\"USER\");",
+        "@Override",
+        "public void configure(HttpSecurity httpSecurity) throws Exception {",
+        "httpSecurity.csrf().disable();",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "configureGlobal"
+    ],
+    "classes": [
+        "SecurityConfig"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "React",
+        "globalFreedom",
+        "globalFreedom",
+        "globalFreedom",
+        "React",
+        "key",
+        "defaultValue",
+        "React",
+        "repo",
+        "key",
+        "repo",
+        "key",
+        "React",
+        "defaultValue",
+        "repo",
+        "key"
+    ],
+    "literals": [
+        "'react'",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "globalFreedom",
+        "repo"
+    ],
+    "comments": [
+        "Let's access global more freely",
+        "Make sure we have our repository",
+        "Let's get a (more) type-safe reference to our context repo",
+        "console.log('Setting up new global context', key);",
+        "console.log('Reusing exising global context', key);"
+    ],
+    "docstrings": [
+        "* Create a new (or return an existing) React context\n *\n * The point of this utility is that because of various NPM module dependency declaration / resolution methods,\n * it's not easy to enforce the singleton nature of React context objects.\n *\n * We might end up with a situation where we have multiple instances of this library loaded,\n * into separate module namespaces, and even if you create your React context in a single file,\n * you might end up with multiple independent copies of it, depending on your current import path,\n * and those instances won't communicate with each other.\n *\n * Using this utility avoids this problem."
+    ],
+    "functions": [
+        "createGlobalContext"
+    ],
+    "classes": []
+}

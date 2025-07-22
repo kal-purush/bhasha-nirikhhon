@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "difference",
+        "filterAttributeElements",
+        "filterObjRef",
+        "IAttributeElements",
+        "IAttributeFilter",
+        "isAttributeElementsByRef",
+        "isNegativeAttributeFilter",
+        "newNegativeAttributeFilter",
+        "newPositiveAttributeFilter",
+        "attributeFilter",
+        "hiddenElements",
+        "hiddenElements",
+        "attributeFilter",
+        "filterAttributeElements",
+        "attributeFilter",
+        "isAttributeElementsByRef",
+        "selection",
+        "selection",
+        "selection",
+        "difference",
+        "rawSelection",
+        "hiddenElements",
+        "isAttributeElementsByRef",
+        "selection",
+        "sanitizedRawSelection",
+        "sanitizedRawSelection",
+        "isNegativeAttributeFilter",
+        "attributeFilter",
+        "newNegativeAttributeFilter",
+        "filterObjRef",
+        "attributeFilter",
+        "sanitizedSelection",
+        "newPositiveAttributeFilter",
+        "filterObjRef",
+        "attributeFilter",
+        "sanitizedSelection"
+    ],
+    "literals": [
+        "\"lodash/difference\"",
+        "\"@gooddata/sdk-model\"",
+        "string"
+    ],
+    "variables": [
+        "selection",
+        "rawSelection",
+        "sanitizedRawSelection",
+        "sanitizedSelection"
+    ],
+    "comments": [
+        "(C) 2022 GoodData Corporation"
+    ],
+    "docstrings": [
+        "* Removes the elements specified in hidden elements from the input filter: they are handled down the line.\n *\n * @param attributeFilter - filter to sanitize\n * @param hiddenElements - hidden elements to use\n * @internal"
+    ],
+    "functions": [
+        "sanitizeInputFilter"
+    ],
+    "classes": []
+}

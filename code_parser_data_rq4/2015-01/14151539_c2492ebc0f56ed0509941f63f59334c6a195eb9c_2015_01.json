@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "influxdb",
+        "InfluxDBClient",
+        "influxdb",
+        "SeriesHelper",
+        "SeriesHelper",
+        "InfluxDBClient",
+        "MySeriesHelper",
+        "server_name",
+        "time",
+        "MySeriesHelper",
+        "server_name",
+        "time",
+        "MySeriesHelper",
+        "server_name",
+        "time",
+        "MySeriesHelper",
+        "server_name",
+        "time",
+        "MySeriesHelper",
+        "server_name",
+        "time",
+        "MySeriesHelper",
+        "commit",
+        "MySeriesHelper",
+        "_json_body_"
+    ],
+    "literals": [
+        "'events.stats.{server_name}'",
+        "'time'",
+        "'server_name'",
+        "'us.east-1'",
+        "'us.east-1'",
+        "'us.east-1'",
+        "'us.east-1'",
+        "'us.east-1'"
+    ],
+    "variables": [
+        "client",
+        "series_name",
+        "fields",
+        "bulk_size"
+    ],
+    "comments": [
+        "Meta class stores time series helper configuration.",
+        "The client should be an instance of InfluxDBClient.",
+        "The series name must be a string. Add dependent field names in curly brackets.",
+        "Defines all the fields in this time series.",
+        "Defines the number of data points to store prior to writing on the wire.",
+        "The following will create *five* (immutable) data points.",
+        "Since bulk_size is set to 5, upon the fifth construction call, *all* data",
+        "points will be written on the wire via MySeriesHelper.Meta.client.",
+        "To manually submit data points which are not yet written, call commit:",
+        "To inspect the JSON which will be written, call _json_body_():"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "MySeriesHelper",
+        "Meta"
+    ]
+}

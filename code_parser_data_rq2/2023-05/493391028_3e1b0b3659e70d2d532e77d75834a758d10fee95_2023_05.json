@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "express",
+        "DefaultController",
+        "getLunarPhase",
+        "invalidDateMiddleware",
+        "invalidLanguageMiddleware",
+        "DefaultController",
+        "invalidDateMiddleware",
+        "invalidLanguageMiddleware",
+        "request",
+        "express",
+        "response",
+        "express",
+        "request",
+        "getLunarPhase",
+        "date",
+        "language",
+        "response",
+        "lunarPhase",
+        "SlackController"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"./\"",
+        "\"../models/lunar\"",
+        "\"../middleware/validate\"",
+        "\"/slack\"",
+        "${request.query.language}",
+        "\"in_channel\""
+    ],
+    "variables": [
+        "language",
+        "date",
+        "lunarPhase"
+    ],
+    "comments": [
+        "no language defaulting to english"
+    ],
+    "docstrings": [],
+    "functions": [
+        "initializeRoutes"
+    ],
+    "classes": [
+        "SlackController"
+    ]
+}

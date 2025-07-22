@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "currency",
+        "currency",
+        "alert",
+        "currency",
+        "prompt",
+        "currency",
+        "currency",
+        "prompt",
+        "parseFloat",
+        "X",
+        "usd",
+        "uah",
+        "usd",
+        "alert",
+        "usd",
+        "prompt",
+        "parseFloat",
+        "Y",
+        "uah",
+        "usd",
+        "uah",
+        "alert",
+        "uah"
+    ],
+    "literals": [
+        "\"\"",
+        "\"uah\"",
+        "\"usd\"",
+        "\"Введите валюту, которую вы хотите обменять (uah or usd)\"",
+        "\"uah or usd\"",
+        "\"uah\"",
+        "\"Введите число, которое нужно конвертировать: \"",
+        "\"USD = \"",
+        "\"USD = \"",
+        "\"Write number to convert: \"",
+        "\"UAH = \"",
+        "\"UAH = \""
+    ],
+    "variables": [
+        "currency",
+        "X",
+        "uah",
+        "Y",
+        "usd"
+    ],
+    "comments": [
+        "const CURRENCY = \"\";\nwhile (CURRENCY !== \"uah\" && CURRENCY !== \"usd\")\n{\n    alert (\"Введите валюту, которую вы хотите обменять (uah or usd)\");\n    const CURRENCY = prompt(\"uah or usd\").toLowerCase();\n    console.log(CURRENCY)\n}\n\nif (CURRENCY === \"uah\") {\n    const X = prompt(\"Введите число, которое нужно конвертировать: \");\n    const UAH = parseFloat(X);\n    USD = UAH * 26;\n    console.log(\"USD = \" + USD);\n    alert(\"USD = \" + USD);\n} else {\n    const Y = prompt(\"Write number to convert: \");\n    const USD = parseFloat(Y);\n    UAH = USD / 26;\n    console.log(\"UAH = \" + UAH);\n    alert(\"UAH = \" + UAH);\n}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

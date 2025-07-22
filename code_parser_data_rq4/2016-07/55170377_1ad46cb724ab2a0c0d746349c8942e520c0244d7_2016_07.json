@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "Input",
+        "Output",
+        "Component",
+        "Input",
+        "Input",
+        "Output",
+        "EventEmitter"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'rio-button'",
+        "<button\n      (click)=\"handleClick($event)\"\n      type=\"{{type || 'button'}}\"\n      class=\"btn btn-primary {{className}}\">\n\n      <ng-content></ng-content>\n    </button>",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "handleClick"
+    ],
+    "classes": [
+        "RioButtonComponent"
+    ]
+}

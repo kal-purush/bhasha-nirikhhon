@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "com",
+        "outsource",
+        "danding",
+        "qingdaoic",
+        "util",
+        "android",
+        "content",
+        "Context",
+        "android",
+        "widget",
+        "ImageView",
+        "com",
+        "bumptech",
+        "glide",
+        "Glide",
+        "com",
+        "youth",
+        "banner",
+        "loader",
+        "ImageLoader",
+        "Override",
+        "context",
+        "path",
+        "imageView",
+        "Glide",
+        "context",
+        "getApplicationContext",
+        "load",
+        "path",
+        "into",
+        "imageView"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "具体方法内容自己去选择，次方法是为了减少banner过多的依赖第三方包，所以将这个权限开放给使用者去选择",
+        "@Override",
+        "public ImageView createImageView(Context context) {",
+        "//圆角",
+        "return new RoundAngleImageView(context);",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "displayImage"
+    ],
+    "classes": [
+        "GlideImageLoader"
+    ]
+}

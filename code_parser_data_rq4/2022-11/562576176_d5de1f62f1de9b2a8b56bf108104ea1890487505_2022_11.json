@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "STORIES_DETAIL",
+        "id",
+        "id",
+        "SERVER_REQUEST",
+        "url",
+        "body",
+        "fetch",
+        "BASE_URL",
+        "url",
+        "body",
+        "fetch",
+        "BASE_URL",
+        "url",
+        "response",
+        "data",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'https://hacker-news.firebaseio.com/v0'",
+        "'/topstories.json?print=pretty'",
+        "/item/${id}.json",
+        "string",
+        "string",
+        "'post'",
+        "${BASE_URL}${url}",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'",
+        "${BASE_URL}${url}",
+        "'GET'",
+        "'Content-Type'",
+        "'application/json'"
+    ],
+    "variables": [
+        "BASE_URL",
+        "TOP_STORIES_IDS",
+        "STORIES_DETAIL",
+        "SERVER_REQUEST",
+        "response",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

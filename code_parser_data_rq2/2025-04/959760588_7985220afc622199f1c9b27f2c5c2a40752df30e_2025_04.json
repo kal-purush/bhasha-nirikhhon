@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "express",
+        "process",
+        "mongoose",
+        "db",
+        "app",
+        "express",
+        "app",
+        "authRouter",
+        "require",
+        "app",
+        "cors",
+        "app",
+        "PORT",
+        "PORT"
+    ],
+    "literals": [
+        "'express'",
+        "'dotenv'",
+        "'mongoose'",
+        "\"./routes/auth\"",
+        "\"connected sucessfully\"",
+        "\"cors\"",
+        "\"0.0.0.0\"",
+        "server is running on port ${PORT}"
+    ],
+    "variables": [
+        "express",
+        "mongoose",
+        "authRouter",
+        "PORT",
+        "app",
+        "db",
+        "cors"
+    ],
+    "comments": [
+        "importing the express module",
+        "importing mongoose",
+        "defined the port number the server will listen on",
+        "creating the instance of a express application",
+        "because it gives us the starting point",
+        "middleware- to register routes or to mount routes",
+        "database url",
+        "start the server and listen on the specified port",
+        "log the number"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

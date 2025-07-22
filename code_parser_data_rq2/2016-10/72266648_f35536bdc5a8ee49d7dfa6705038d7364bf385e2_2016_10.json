@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "parseFeaturesString",
+        "emit",
+        "i",
+        "len",
+        "strTokens",
+        "i",
+        "len",
+        "i",
+        "strTokens",
+        "i",
+        "kv",
+        "kvTokens",
+        "kvTokens",
+        "key",
+        "value",
+        "value",
+        "value",
+        "value",
+        "value",
+        "value",
+        "emit",
+        "key",
+        "value"
+    ],
+    "literals": [
+        "'yes'",
+        "'1'",
+        "'no'",
+        "'0'"
+    ],
+    "variables": [
+        "i",
+        "len",
+        "strTokens",
+        "kv",
+        "kvTokens",
+        "key",
+        "value"
+    ],
+    "comments": [
+        "parses a feature string that has the format used in window.open()",
+        "- `str` input string",
+        "- `emit` function(key, value) - called for each parsed KV",
+        "split the string by ','",
+        "expected form is either a key by itself (true boolean flag)",
+        "or a key/value, in the form of 'key=value'",
+        "split the tokens by '='",
+        "interpret the value as a boolean, if possible",
+        "emit the parsed pair"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

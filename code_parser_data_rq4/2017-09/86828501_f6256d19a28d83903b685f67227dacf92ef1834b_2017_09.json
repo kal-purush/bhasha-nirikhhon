@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "io",
+        "pravega",
+        "connectors",
+        "flink",
+        "serialization",
+        "io",
+        "pravega",
+        "client",
+        "stream",
+        "Serializer",
+        "WrappingSerializer"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2017 Dell Inc., or its subsidiaries. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0",
+        "* Interface for serializers that wrap Pravega's {@link Serializer}.",
+        "* Gets the wrapped Pravega Serializer."
+    ],
+    "functions": [
+        "getWrappedSerializer"
+    ],
+    "classes": []
+}

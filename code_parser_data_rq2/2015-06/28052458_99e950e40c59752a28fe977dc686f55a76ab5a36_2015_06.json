@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "View",
+        "View",
+        "online",
+        "online"
+    ],
+    "literals": [
+        "'components/fxos-mvc/dist/mvc'",
+        "'components/gaia-list/gaia-list'",
+        "'gaia-list'",
+        "'offline-container'",
+        "'online'",
+        "<li flex>\n         <i data-icon=\"exclamation\"></i>\n         <p>You have no internet connection. Enable data or WiFi to refresh the\n         app list.</p>\n       </li>"
+    ],
+    "variables": [],
+    "comments": [
+        "XXX: A bit gross. We should probably set this on the el only, but we had",
+        "issues with sibling selectors."
+    ],
+    "docstrings": [],
+    "functions": [
+        "update",
+        "template"
+    ],
+    "classes": [
+        "OfflineView"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "TaleWorlds",
+        "MountAndBlade",
+        "TaleWorlds",
+        "MountAndBlade",
+        "Network",
+        "Messages",
+        "Crpg",
+        "Module",
+        "Modes",
+        "Dtv",
+        "DefineGameNetworkMessageTypeForMod",
+        "GameNetworkMessageSendType",
+        "FromServer",
+        "GameNetworkMessage",
+        "WriteIntToPacket",
+        "Round",
+        "CompressionBasic",
+        "DebugIntNonCompressionInfo",
+        "WriteIntToPacket",
+        "Wave",
+        "CompressionBasic",
+        "DebugIntNonCompressionInfo",
+        "Round",
+        "ReadIntFromPacket",
+        "CompressionBasic",
+        "DebugIntNonCompressionInfo",
+        "bufferReadValid",
+        "Wave",
+        "ReadIntFromPacket",
+        "CompressionBasic",
+        "DebugIntNonCompressionInfo",
+        "bufferReadValid",
+        "bufferReadValid",
+        "MultiplayerMessageFilter",
+        "GameMode"
+    ],
+    "literals": [
+        "\"cRPG DTV Send Progress Message\""
+    ],
+    "variables": [
+        "Round",
+        "Wave",
+        "bufferReadValid"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "OnWrite",
+        "OnRead",
+        "MultiplayerMessageFilter",
+        "OnGetLogFilter",
+        "OnGetLogFormat"
+    ],
+    "classes": [
+        "CrpgDtvCurrentProgressMessage"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "ChargingStationTemplate",
+        "Schema",
+        "SchemaValidator",
+        "fs",
+        "SchemaValidator",
+        "fs",
+        "ChargingStationValidatorStorage",
+        "ChargingStationValidatorStorage",
+        "ChargingStationValidatorStorage",
+        "ChargingStationValidatorStorage",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "'../../../types/ChargingStation'",
+        "'../../../types/validator/Schema'",
+        "'../../../validator/SchemaValidator'",
+        "'fs'",
+        "'../../../types/GlobalType'",
+        "'ChargingStationValidatorStorage'",
+        "${global.appRoot}/assets/schemas/chargingstation/chargingstation-template.json",
+        "'utf8'",
+        "'validateChargingStationStorageTemplate'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getInstance",
+        "validateChargingStationStorageTemplate"
+    ],
+    "classes": [
+        "ChargingStationValidatorStorage"
+    ]
+}

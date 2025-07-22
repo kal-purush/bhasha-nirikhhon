@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "pydantic",
+        "BaseModel",
+        "Field",
+        "validator",
+        "BaseModel",
+        "Field",
+        "regex",
+        "NamedModel",
+        "Field",
+        "regex",
+        "validator",
+        "cls",
+        "description",
+        "description",
+        "description",
+        "endswith",
+        "description"
+    ],
+    "literals": [
+        "r\"[^\\.]+\"",
+        "r\".+\"",
+        "\"description\"",
+        "\".\"",
+        "\".\""
+    ],
+    "variables": [
+        "name",
+        "description"
+    ],
+    "comments": [
+        "pylint: disable=no-name-in-module",
+        "pylint: disable=too-few-public-methods",
+        "Disallow dots so names can be used as key",
+        "pylint: disable=too-few-public-methods",
+        "pylint: disable=no-self-argument,no-self-use"
+    ],
+    "docstrings": [
+        "\"\"\"Data model base classes.\"\"\"",
+        "\"\"\"Extend the Pydantic base model with a name.\"\"\"",
+        "\"\"\"Extend the named model with a description.\"\"\"",
+        "\"\"\"Add a dot if needed.\"\"\""
+    ],
+    "functions": [
+        "set_description"
+    ],
+    "classes": [
+        "NamedModel",
+        "DescribedModel"
+    ]
+}

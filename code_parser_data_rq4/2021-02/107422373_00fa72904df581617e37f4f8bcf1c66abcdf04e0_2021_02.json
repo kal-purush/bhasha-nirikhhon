@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "CSSProperties",
+        "restrictWidth",
+        "style",
+        "restrictWidth",
+        "widthClassName",
+        "restrictWidth",
+        "widthClassName",
+        "newStyle",
+        "style",
+        "restrictWidth"
+    ],
+    "literals": [
+        "'react'",
+        "string",
+        "'restrictWidth'",
+        "string",
+        "'restrictWidth-default'",
+        "'restrictWidth-custom'"
+    ],
+    "variables": [
+        "widthClassName",
+        "newStyle"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Licensed to Elasticsearch B.V. under one or more contributor\n * license agreements. See the NOTICE file distributed with\n * this work for additional information regarding copyright\n * ownership. Elasticsearch B.V. licenses this file to you under\n * the Apache License, Version 2.0 (the \"License\"); you may\n * not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *    http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing,\n * software distributed under the License is distributed on an\n * \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n * KIND, either express or implied.  See the License for the\n * specific language governing permissions and limitations\n * under the License.",
+        "* The `restrictedWidth` property is the same for all EuiPage components.\n * This is file contains the type specific to that prop and a helper\n * function for creating the corresponding classNames and style tags\n * based on the consumer's configuration\n *\n * @param {restrictWidth} boolean | number | string The prop value\n * @param {style} CSSProperties An object of style attributes if provided\n * @returns {{widthClassName: string, newStyle: CSSProperties}} Returns an object with keys for the class name to append to the component's class and the updated style props",
+        "* Sets the max-width of the page,\n   * set to `true` to use the default size of `1000px (1200 for Amsterdam)`,\n   * set to `false` to not restrict the width,\n   * set to a number for a custom width in px,\n   * set to a string for a custom width in custom measurement."
+    ],
+    "functions": [
+        "setPropsForRestrictedPageWidth"
+    ],
+    "classes": []
+}

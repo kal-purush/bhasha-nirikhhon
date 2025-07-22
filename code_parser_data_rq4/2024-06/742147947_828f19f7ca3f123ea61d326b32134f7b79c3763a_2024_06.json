@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Model",
+        "Model",
+        "instances",
+        "json",
+        "json"
+    ],
+    "literals": [
+        "\"@hypermode/models-as\"",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "This is a custom model class that provides an interface to the MiniLM model",
+        "used in this example.  It will likely work with other embedding models hosted",
+        "on Hypermode. It may be moved to a library in the future so it's built-in."
+    ],
+    "docstrings": [],
+    "functions": [
+        "createInput"
+    ],
+    "classes": [
+        "EmbeddingsModel",
+        "EmbeddingsInput",
+        "EmbeddingsOutput"
+    ]
+}

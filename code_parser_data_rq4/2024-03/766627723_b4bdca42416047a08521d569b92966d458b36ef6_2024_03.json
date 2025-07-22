@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Xna",
+        "Framework",
+        "GateAdventures",
+        "Engine",
+        "Scenes",
+        "IScene",
+        "GameServiceContainer",
+        "services",
+        "GameTime",
+        "gameTime",
+        "GameTime",
+        "gameTime"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "A game scene interface.",
+        "</summary>",
+        "Use to setup and validate internal state for a scene.",
+        "</summary>",
+        "Load content needed for the scene.",
+        "</summary>",
+        "Unload content needed for this scene",
+        "</summary>",
+        "Handle user input. Only called if the scene is the top most scene.",
+        "</summary>",
+        "Update the scene.",
+        "</summary>",
+        "<param name=\"gameTime\">The game time.</param>",
+        "Draws the scene.",
+        "</summary>",
+        "<param name=\"gameTime\">The game time.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Initialize",
+        "LoadContent",
+        "UnloadContent",
+        "HandleInput",
+        "Update",
+        "Draw"
+    ],
+    "classes": []
+}

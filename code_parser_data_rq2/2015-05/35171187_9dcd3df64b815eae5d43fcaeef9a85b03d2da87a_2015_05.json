@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "com",
+        "bitwisekaizen",
+        "sdss",
+        "agent",
+        "service",
+        "com",
+        "bitwisekaizen",
+        "sdss",
+        "agentclient",
+        "AccessibleIscsiTarget",
+        "com",
+        "bitwisekaizen",
+        "sdss",
+        "agentclient",
+        "IscsiTarget",
+        "org",
+        "springframework",
+        "stereotype",
+        "Service",
+        "java",
+        "util",
+        "Service",
+        "iscsiTarget",
+        "targetName"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Service to manage ISCSI targets.",
+        "* Create the ISCSI target with the given spec.\n     *\n     * @param iscsiTarget ISCSI target to create\n     * @return the created ISCSI target.\n     * @throws DuplicateTargetNameException if the target name already exists.",
+        "* Delete the ISCSI target with the specified ID.\n     *\n     * @param targetName UUID of the ISCSI target to delete\n     * @throws IscsiTargetNotFoundException if target is not found",
+        "* Get all the ISCSI targets in the system.\n     *\n     * @return all the ISCSI targets in the system."
+    ],
+    "functions": [
+        "AccessibleIscsiTarget",
+        "createAccessbileIscsiTarget",
+        "deleteAccessibleIscsiTarget",
+        "getAllAccessibleIscsiTargets"
+    ],
+    "classes": [
+        "AccessibleIscsiTargetService"
+    ]
+}

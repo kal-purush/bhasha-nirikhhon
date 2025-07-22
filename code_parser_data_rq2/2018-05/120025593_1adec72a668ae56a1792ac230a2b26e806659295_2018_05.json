@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "properties",
+        "properties",
+        "properties",
+        "puzzle_row_length",
+        "word",
+        "letter",
+        "len",
+        "word",
+        "earliest_possible_index_choice",
+        "word_length",
+        "word",
+        "find",
+        "letter",
+        "earliest_index",
+        "letter_index",
+        "word_length",
+        "chosen_letter_index",
+        "word_length",
+        "word_length",
+        "chosen_letter_index"
+    ],
+    "literals": [],
+    "variables": [
+        "properties",
+        "chosen_letter_index",
+        "word_length",
+        "earliest_index",
+        "letter_index"
+    ],
+    "comments": [
+        "which column of the puzzle row grid that the \"chosen letter\" will appear"
+    ],
+    "docstrings": [
+        "\"\"\"\n    These are common functions that multiple classes use\n    \"\"\"",
+        "\"\"\"\n        the earliest letter in the word that the letter exists\n        more than word.find this accounts for long words where the letter might not fit at the beginning of the word  \n        :param word: \n        :param letter: \n        :return: \n        \"\"\"",
+        "\"\"\"\n        The word may be too long for the chosen letter to fit every letter index\n        This is the earliest index of the word that the chosen letter can be\n        :param word_length: \n        :return: \n        \"\"\""
+    ],
+    "functions": [
+        "letter_ndx_of_word",
+        "earliest_possible_index_choice"
+    ],
+    "classes": [
+        "PuzzleUtility"
+    ]
+}

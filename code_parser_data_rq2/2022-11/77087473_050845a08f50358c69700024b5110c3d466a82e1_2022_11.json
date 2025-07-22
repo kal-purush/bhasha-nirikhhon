@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "NextApiRequest",
+        "NextApiResponse",
+        "PrometheusDriver",
+        "res",
+        "req",
+        "res",
+        "PrometheusDriver",
+        "prom",
+        "res",
+        "latest",
+        "res",
+        "prom",
+        "res",
+        "temp_out",
+        "res",
+        "latest_query",
+        "temp_out_query",
+        "res",
+        "latest",
+        "temp_out"
+    ],
+    "literals": [
+        "'next'",
+        "'prometheus-query'",
+        "\"http://192.168.1.207:9090\"",
+        "\"prom433_last_message{model=\\\"Fineoffset-WHx080\\\"}\"",
+        "\"prom433_temperature{model=\\\"Fineoffset-WHx080\\\"}\""
+    ],
+    "variables": [
+        "prom",
+        "latest",
+        "temp_out",
+        "latest_query",
+        "temp_out_query"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getLatestWeather",
+        "handler"
+    ],
+    "classes": []
+}

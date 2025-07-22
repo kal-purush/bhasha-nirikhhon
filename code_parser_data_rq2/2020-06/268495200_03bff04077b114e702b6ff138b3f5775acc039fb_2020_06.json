@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "$",
+        "newPostForm",
+        "e",
+        "e",
+        "$",
+        "newPostForm",
+        "data",
+        "newPostDom",
+        "data",
+        "$",
+        "newPost",
+        "error",
+        "error",
+        "post",
+        "post",
+        "post",
+        "post",
+        "post",
+        "post",
+        "post",
+        "$",
+        "addPost",
+        "createPost"
+    ],
+    "literals": [
+        "\"#new-postform\"",
+        "'post'",
+        "'/posts/create'",
+        "'#posts-container>ul'",
+        "<li id=\"post-${post._id}\" class=\"post-item-container\">\n        <div class=\"post-item-header\">\n          <div class=\"user-info\">\n            <div class=\"user-image\">\n              <i class=\"far fa-user\"></i>\n            </div>\n            <div class=\"post-header-details\">\n              <p class=\"user-name\">\n                ${ post.user.name }\n              </p>\n            </div>\n\n            <div class=\"post-remove\">\n              <a href=\"/posts/destroy/${post._id}\" class=\"delete-post-button\">\n                <i class=\"far fa-times-circle\"></i>\n              </a>\n            </div>\n\n          </div>\n        </div>\n\n        <!-- post details -->\n\n        <div class=\"post-details\">\n          <h2>\n            ${ post.content }\n          </h2>\n          <div class=\"post-item-bottom\">\n            <div class=\"post-reactions\">\n              <a href=\"\" class=\"likes\"><i class=\"fas fa-heart like\"></i> 22 Likes</a>\n              <a href=\"\" class=\"comments\"\n                ><i class=\"fas fa-comment comment\"></i> 15 Comments</a\n              >\n            </div>\n          </div>\n        </div>\n\n        <!-- Comment section -->\n\n        <div class=\"post-comment\">\n\n          <form action=\"/comments/create\" method=\"POST\" class=\"comment-form\">\n            <input\n              type=\"text\"\n              name=\"content\"\n              placeholder=\"Add a comment...\"\n              required\n              class=\"comment-input\"\n            />\n            <input type=\"hidden\" name=\"post\" value=\"${post._id }\" />\n            <button type=\"submit\" class=\"submit-com-btn\">\n              <i class=\"fas fa-comment\"></i>\n            </button>\n          </form>\n\n\n          <!--Comments list  -->\n          <div class=\"post-comments-list\">\n            <ul id=\"post-comments-${post._id}\">\n\n            </ul>\n          </div>\n        </div>\n      </li>",
+        "'#post-btn'",
+        "'click'"
+    ],
+    "variables": [
+        "createPost",
+        "newPostForm",
+        "newPost",
+        "newPostDom",
+        "addPost"
+    ],
+    "comments": [
+        "Method to send the form data to",
+        "Method to create post"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

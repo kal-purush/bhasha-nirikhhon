@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "firebase",
+        "firebase",
+        "app",
+        "describe",
+        "beforeEach",
+        "firebase",
+        "afterAll",
+        "firebase",
+        "app",
+        "app",
+        "it",
+        "db",
+        "r",
+        "setTimeout",
+        "r",
+        "db",
+        "doc",
+        "allMsgs",
+        "doc",
+        "expect",
+        "data",
+        "expect",
+        "data",
+        "expect",
+        "data"
+    ],
+    "literals": [
+        "'@firebase/testing'",
+        "'sms-example'",
+        "\"alice\"",
+        "\"alice@example.com\"",
+        "\"firestore-send-sms integration test\"",
+        "\"add to sms collection triggers processQueue function\"",
+        "'sms'",
+        "'test message content'",
+        "'JestTest'",
+        "'+380973139857'",
+        "'sms'",
+        "'delivery'",
+        "'state'",
+        "'SUCCESS'"
+    ],
+    "variables": [
+        "projectId",
+        "app",
+        "db",
+        "allMsgs",
+        "data"
+    ],
+    "comments": [
+        "you need to have firebase emulator runnning for this tests",
+        "firebase ext:dev:emulators:start --test-params=./test-params.env --project=sms-example",
+        "Clean database before each test",
+        "add new message to collection",
+        "wait for extension to trigger",
+        "should update delivery with state"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

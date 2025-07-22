@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "process",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "green",
+        "text",
+        "chalk",
+        "text",
+        "webpackConfigProd",
+        "BundleAnalyzerPlugin",
+        "webpackConfigProd",
+        "ProgressBarPlugin",
+        "green",
+        "green",
+        "green",
+        "green",
+        "webpack",
+        "webpackConfigProd",
+        "err",
+        "stats",
+        "err",
+        "stats",
+        "err"
+    ],
+    "literals": [
+        "'production'",
+        "'webpack'",
+        "'webpack-bundle-analyzer'",
+        "'react-scripts/config/webpack.config'",
+        "'production'",
+        "'chalk'",
+        "'progress-bar-webpack-plugin'",
+        "${green('analyzing...')} ${green('[:bar]')}${green('[:percent]')}${green('[:elapsed seconds]')} - :msg",
+        "'analyzing...'",
+        "'[:bar]'",
+        "'[:percent]'",
+        "'[:elapsed seconds]'"
+    ],
+    "variables": [
+        "webpack",
+        "BundleAnalyzerPlugin",
+        "webpackConfigProd",
+        "chalk",
+        "ProgressBarPlugin",
+        "green"
+    ],
+    "comments": [
+        "this one is optional, just for better feedback on build",
+        "pushing BundleAnalyzerPlugin to plugins array",
+        "optional - pushing progress-bar plugin for better feedback;",
+        "it can and will work without progress-bar,",
+        "but during build time you will not see any messages for 10-60 seconds (depends on the size of the project)",
+        "and decide that compilation is kind of hang up on you; progress bar shows nice progression of webpack compilation",
+        "actually running compilation and waiting for plugin to start explorer"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

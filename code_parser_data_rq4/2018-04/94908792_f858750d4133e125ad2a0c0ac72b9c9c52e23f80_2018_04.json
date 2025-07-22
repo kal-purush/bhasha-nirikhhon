@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "config",
+        "toBoolean",
+        "featureName",
+        "FeatureToggles",
+        "featureName",
+        "featureNames",
+        "featureNames",
+        "featureNames",
+        "featureName",
+        "toBoolean",
+        "config",
+        "featureName"
+    ],
+    "literals": [
+        "'config'",
+        "'to-boolean'",
+        "string",
+        "string",
+        "'At least one feature name has to be provided'",
+        "featureToggles.${featureName}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "isEnabled",
+        "isAnyEnabled"
+    ],
+    "classes": [
+        "FeatureToggles"
+    ]
+}

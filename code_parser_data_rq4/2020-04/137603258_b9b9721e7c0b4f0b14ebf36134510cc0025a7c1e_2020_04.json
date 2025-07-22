@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "name",
+        "removeDashes",
+        "name",
+        "removeDashes",
+        "name",
+        "name",
+        "cachedFunction",
+        "name",
+        "name",
+        "getData",
+        "redis",
+        "url",
+        "data",
+        "uuid",
+        "config",
+        "config",
+        "getUUID"
+    ],
+    "literals": [
+        "'../config'",
+        "'../util/utility'",
+        "'./cachedFunction'",
+        "'./redis'",
+        "'Invalid username or UUID!'",
+        "uuid:${name.toLowerCase()}",
+        "https://api.mojang.com/users/profiles/minecraft/${name}"
+    ],
+    "variables": [
+        "config",
+        "cachedFunction",
+        "redis",
+        "url",
+        "data",
+        "uuid"
+    ],
+    "comments": [
+        "eslint-disable consistent-return",
+        "Functions to convert username to uuid and cache them.\nReturns non-dashed uuid or an error."
+    ],
+    "docstrings": [],
+    "functions": [
+        "getUUID"
+    ],
+    "classes": []
+}

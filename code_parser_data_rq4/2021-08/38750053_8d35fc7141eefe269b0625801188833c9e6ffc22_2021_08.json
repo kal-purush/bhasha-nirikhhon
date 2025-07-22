@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "datetime",
+        "companies",
+        "models",
+        "SignupLog",
+        "SignupLog",
+        "objects",
+        "signup_log",
+        "signup_logs",
+        "datetime",
+        "datetime",
+        "datetime",
+        "datetime",
+        "signup_log",
+        "timestamp",
+        "start_date",
+        "timestamp",
+        "timestamp",
+        "end_date",
+        "signup_log",
+        "company",
+        "signup_log",
+        "company_contact",
+        "timestamp"
+    ],
+    "literals": [
+        "f\"--- {signup_log.company} ---\"",
+        "\"---\"",
+        "'Name\\tRole'"
+    ],
+    "variables": [
+        "signup_logs",
+        "start_date",
+        "end_date",
+        "timestamp"
+    ],
+    "comments": [
+        "for application in applications:",
+        "out += '\\n'",
+        "out += application.user.first_name + \" \" + application.user.last_name",
+        "out += '\\t'",
+        "out += application.delegated_role.name",
+        "print(out)",
+        "fh = open('contact_info.txt', 'w')",
+        "fh.write(out)",
+        "fh.close()"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

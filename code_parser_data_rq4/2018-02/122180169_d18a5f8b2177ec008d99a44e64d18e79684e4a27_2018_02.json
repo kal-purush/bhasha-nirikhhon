@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "socket",
+        "socket",
+        "AF_INET",
+        "SOCK_DGRAM",
+        "input",
+        "message",
+        "append",
+        "input",
+        "input",
+        "message",
+        "append",
+        "operand1",
+        "message",
+        "append",
+        "operand2",
+        "join",
+        "message",
+        "clientSocket",
+        "sendto",
+        "message",
+        "serverName",
+        "serverPort",
+        "clientSocket",
+        "recvfrom",
+        "result",
+        "clientSocket",
+        "close"
+    ],
+    "literals": [
+        "'127.0.0.1'",
+        "\"enter  the first operand: >>>_ \"",
+        "\"enter the second oprand: >>>_ \"",
+        "\" \"",
+        "\"the server returned \"",
+        "\" as the answer\""
+    ],
+    "variables": [
+        "serverName",
+        "serverPort",
+        "clientSocket",
+        "message",
+        "operand1",
+        "operand2",
+        "message",
+        "result",
+        "serverAddress"
+    ],
+    "comments": [
+        "Author: Abdulsalma taofeek akintunde  2014/1/50685"
+    ],
+    "docstrings": [
+        "\"\"\"\n        WELCOME to my Math Server!! \n        What Operation would you like perform - ?       \n                [1] Addition\n                [2] Subtraction\n                [3] Multiplication \n                [4] Division\n                [5] Modulus\n                >>>_\n                \"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

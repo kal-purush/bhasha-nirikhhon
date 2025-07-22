@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "com",
+        "rultor",
+        "agents",
+        "com",
+        "jcabi",
+        "aspects",
+        "Immutable",
+        "com",
+        "jcabi",
+        "email",
+        "Postman",
+        "com",
+        "jcabi",
+        "xml",
+        "XML",
+        "com",
+        "rultor",
+        "spi",
+        "Profile",
+        "java",
+        "io",
+        "lombok",
+        "EqualsAndHashCode",
+        "lombok",
+        "ToString",
+        "org",
+        "xembly",
+        "Directive",
+        "org",
+        "xembly",
+        "Directives",
+        "Immutable",
+        "ToString",
+        "EqualsAndHashCode",
+        "callSuper",
+        "of",
+        "profile",
+        "postman",
+        "prfl",
+        "pstmn",
+        "postman",
+        "pstmn",
+        "profile",
+        "prfl",
+        "Override",
+        "xml"
+    ],
+    "literals": [
+        "\"profile\"",
+        "\"postman\"",
+        "\"/talk/request[@id and type='release' and success='true']\""
+    ],
+    "variables": [
+        "profile",
+        "postman"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2009-2015, rultor.com\n * All rights reserved.\n *\n * Redistribution and use in source and binary forms, with or without\n * modification, are permitted provided that the following conditions\n * are met: 1) Redistributions of source code must retain the above\n * copyright notice, this list of conditions and the following\n * disclaimer. 2) Redistributions in binary form must reproduce the above\n * copyright notice, this list of conditions and the following\n * disclaimer in the documentation and/or other materials provided\n * with the distribution. 3) Neither the name of the rultor.com nor\n * the names of its contributors may be used to endorse or promote\n * products derived from this software without specific prior written\n * permission.\n *\n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS\n * \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT\n * NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND\n * FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL\n * THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n * INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR\n * SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\n * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,\n * STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)\n * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED\n * OF THE POSSIBILITY OF SUCH DAMAGE.",
+        "* Send email after release done.\n *\n * @author Yuriy Alevohin (alevohin@mail.ru)\n * @version $Id$\n * @since 2.0\n * @todo #748 Implement Mails agent. Similar to what we do in CommentsTag\n *  we should do here - send an email to all listed addresses. The body of\n *  the email should contain similar text to what we create for the tag\n *  comment. Postman's parameters are stored in Manifest.MF. We need 4\n *  parameters: Rultor-SMTPHost, Rultor-SMTPPort, Rultor-SMTPUsername,\n *  Rultor-SMTPPassword. New instance of Mails must be created at Agents,\n *  after CommentsTag.\n * @todo #748 Describe in file 2014-07-13-reference.md config parameters for\n *  email after release and how it works shortly. Config format described\n *  in issue #748.",
+        "* Profile.",
+        "* Postman for sending mails.",
+        "* Ctor.\n     * @param prfl Profile\n     * @param pstmn Mail client"
+    ],
+    "functions": [
+        "Mails",
+        "process"
+    ],
+    "classes": [
+        "Mails"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "OnDestroy",
+        "ConfigurationsService",
+        "NsPage",
+        "Subscription",
+        "ActivatedRoute",
+        "Component",
+        "NsPage",
+        "configSvc",
+        "activateRoute",
+        "data",
+        "data",
+        "host"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@sunbird-cb/utils'",
+        "'rxjs'",
+        "'@angular/router'",
+        "'ws-public-logout'",
+        "'./public-logout.component.html'",
+        "'./public-logout.component.scss'",
+        "''",
+        "'Learner'",
+        "${host}/protected/v8/resource"
+    ],
+    "variables": [
+        "host"
+    ],
+    "comments": [
+        "private authSvc: AuthKeycloakService,",
+        "this.authSvc.force_logout().then(() => { })",
+        "window.location.reload()"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "ngOnDestroy",
+        "login"
+    ],
+    "classes": [
+        "PublicLogoutComponent"
+    ]
+}

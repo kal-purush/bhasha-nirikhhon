@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "NextResponse",
+        "get",
+        "request",
+        "get",
+        "NextResponse",
+        "request",
+        "request",
+        "fetch",
+        "process",
+        "process",
+        "blockedIps",
+        "updateEdgeConfig",
+        "NextResponse"
+    ],
+    "literals": [
+        "\"next/server\"",
+        "\"@vercel/edge-config\"",
+        "\"edge\"",
+        "\"blockedIps\"",
+        "https://api.vercel.com/v1/edge-config/${process.env.EDGE_CONFIG_ID}/items",
+        "\"PATCH\"",
+        "Bearer ${process.env.EDGE_CONFIG_TOKEN}",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "\"update\"",
+        "\"blockedIps\"",
+        "\"Edge config updated\""
+    ],
+    "variables": [
+        "config",
+        "blockedIps",
+        "blockedIps",
+        "updateEdgeConfig"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "GET",
+        "PATCH"
+    ],
+    "classes": []
+}

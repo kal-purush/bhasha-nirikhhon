@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Component",
+        "tracked",
+        "buildApp",
+        "test",
+        "Component",
+        "tracked",
+        "parent",
+        "Component",
+        "options",
+        "options",
+        "done",
+        "buildApp",
+        "ParentComponent",
+        "ChildComponent",
+        "parent"
+    ],
+    "literals": [
+        "'../src/component'",
+        "'../src/tracked'",
+        "'./test-helpers/test-app'",
+        "'Component Arguments'",
+        "'Args smoke test'",
+        "\"Tom\"",
+        "\"Tom\"",
+        "\"Thomas\"",
+        "'parent-component'",
+        "'child-component'",
+        "'main'",
+        "'<parent-component />'",
+        "'parent-component'",
+        "<div>\n        <child-component\n          some-attr=foo\n          @firstName={{firstName}}\n          @isDank={{isDank}}\n          @days={{daysOfSleepRequiredAfterEmberConf}} />\n      </div>",
+        "'child-component'",
+        "'<div></div>'",
+        "\"Thomas\""
+    ],
+    "variables": [
+        "QUnit",
+        "done",
+        "parent"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "didInsertElement",
+        "didUpdate"
+    ],
+    "classes": [
+        "ParentComponent",
+        "ChildComponent"
+    ]
+}

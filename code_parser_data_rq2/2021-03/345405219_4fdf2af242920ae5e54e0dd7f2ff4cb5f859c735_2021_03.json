@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "userSchema",
+        "userResolvers",
+        "ApolloServer",
+        "UsersAPI",
+        "server",
+        "url"
+    ],
+    "literals": [
+        "'apollo-server'",
+        "'./user/schema/user.graphql'",
+        "'./user/resolvers/userResolvers'",
+        "'./user/datasource/user'",
+        "Servidor rodando na porta ${url}"
+    ],
+    "variables": [
+        "userSchema",
+        "userResolvers",
+        "UsersAPI",
+        "typeDefs",
+        "resolvers",
+        "server"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "os",
+        "functools",
+        "wraps",
+        "flask",
+        "request",
+        "abort",
+        "netaddr",
+        "IPNetwork",
+        "IPSet",
+        "IPSet",
+        "IPNetwork",
+        "s",
+        "s",
+        "os",
+        "environ",
+        "get",
+        "split",
+        "os",
+        "environ",
+        "IPSet",
+        "f",
+        "wraps",
+        "f",
+        "args",
+        "kwargs",
+        "request",
+        "headers",
+        "get",
+        "request",
+        "remote_addr",
+        "split",
+        "client_ip",
+        "INTRANET_IPS",
+        "abort",
+        "f",
+        "args",
+        "kwargs",
+        "wrapped"
+    ],
+    "literals": [
+        "'INTRANET_IPS'",
+        "''",
+        "','",
+        "'INTRANET_IPS'",
+        "'0.0.0.0/0'",
+        "'0000:000::/0'",
+        "\"Decorates f to raise an HTTP UNAUTHORIZED exception if the client IP is not in the list of authorized IPs.\"",
+        "'X-Forwarded-For'",
+        "','"
+    ],
+    "variables": [
+        "INTRANET_IPS",
+        "client_ip"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"This module defines a decorator to control access to routing methods.\"\"\"",
+        "\"\"\"A set of IP addresses with edit permission.\n\nIf the INTRANET_IPS environment variable is set it is be a comma-separated list of CDIR blocks e.g.\n`192.168.100.14/24` (IPv4) or `2001:db8::/48` (IPv6).\n\nIf the INTRANET_IPS environment variable is not set, this defaults to the entire range of IP addresses.\n\"\"\""
+    ],
+    "functions": [
+        "edit_auth_required",
+        "wrapped"
+    ],
+    "classes": []
+}

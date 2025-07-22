@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "pandas",
+        "pd",
+        "abc",
+        "ABCMeta",
+        "abstractmethod",
+        "metaclass",
+        "ABCMeta",
+        "abstractmethod",
+        "X",
+        "np",
+        "ndarray",
+        "y",
+        "np",
+        "ndarray",
+        "abstractmethod",
+        "X",
+        "np",
+        "ndarray",
+        "premodel_name",
+        "postmodel_name",
+        "np",
+        "ndarray",
+        "abstractmethod",
+        "pd",
+        "DataFrame"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nThis file implements the inteface for filters\n\n@Jaeho Bang\n\"\"\"",
+        "\"\"\"\n    Train all preprocessing models (if needed)\n    :param X: data\n    :param y: labels\n    :return: None\n    \"\"\"",
+        "\"\"\"\n    This function is using during inference step.\n    The scenario would be\n    1. We have finished training\n    2. The query optimizer knows which filters / models within will be best for a given query\n    3. The query optimizer orders the inference for a specific filter / preprocessing model / postprocessing model\n\n    :param X: data\n    :param premodel_name: name of preprocessing model to use\n    :param postmodel_name: name of postprocessing model to use\n    :return: resulting labels\n    \"\"\"",
+        "\"\"\"\n    This function returns all the statistics acquired after training the preprocessing models and postprocessing models\n\n    :return:\n    \"\"\""
+    ],
+    "functions": [
+        "train",
+        "predict",
+        "getAllStats"
+    ],
+    "classes": [
+        "FilterTemplate"
+    ]
+}

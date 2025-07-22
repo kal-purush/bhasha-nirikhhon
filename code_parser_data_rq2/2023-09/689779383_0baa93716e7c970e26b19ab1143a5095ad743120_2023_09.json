@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Content",
+        "Server",
+        "Objectives",
+        "Systems",
+        "Content",
+        "Server",
+        "Objectives",
+        "Components",
+        "RegisterComponent",
+        "Access",
+        "KillPersonConditionSystem",
+        "Component",
+        "DataField",
+        "ViewVariables",
+        "VVAccess",
+        "ReadWrite"
+    ],
+    "literals": [],
+    "variables": [
+        "RequireDead"
+    ],
+    "comments": [
+        "Requires that a target dies or, if <see cref=\"RequireDead\"/> is false, is not on the emergency shuttle.",
+        "Depends on <see cref=\"TargetObjectiveComponent\"/> to function.",
+        "</summary>",
+        "Whether the target must be truly dead, ignores missing evac.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "KillPersonConditionComponent"
+    ]
+}

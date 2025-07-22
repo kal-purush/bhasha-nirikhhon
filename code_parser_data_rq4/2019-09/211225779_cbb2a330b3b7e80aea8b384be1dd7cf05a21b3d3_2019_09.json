@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "require",
+        "express",
+        "require",
+        "app",
+        "bodyParser",
+        "app",
+        "bodyParser",
+        "app",
+        "request",
+        "response",
+        "response",
+        "fake_database",
+        "app",
+        "request",
+        "response",
+        "request",
+        "fake_database",
+        "fake_database",
+        "newUser",
+        "response",
+        "app"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"body-parser\"",
+        "'Erik'",
+        "'Carmen'",
+        "\"/\"",
+        "\"/user/new/\"",
+        "\"Server is running on port 3000\""
+    ],
+    "variables": [
+        "express",
+        "app",
+        "bodyParser",
+        "fake_database",
+        "id",
+        "newUser"
+    ],
+    "comments": [
+        "setup",
+        "support parsing of application/json type post data",
+        "support parsing of application/x-www-form-urlencoded post data",
+        "retrieve name and age from request.body",
+        "generate an ID for the fake_database",
+        "new user object",
+        "add the new user to the database",
+        "send success back in the response"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

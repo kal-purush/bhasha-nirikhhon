@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "ShopifyAccess",
+        "Models",
+        "Configuration",
+        "Command",
+        "ShopifyApiVersion",
+        "ShopifyApiVersion",
+        "ShopifyApiVersion",
+        "ShopifyApiVersion",
+        "versionCode",
+        "_versionCode",
+        "versionCode",
+        "_versionCode"
+    ],
+    "literals": [
+        "\"2022-04\"",
+        "\"2022-07\"",
+        "\"2022-10\"",
+        "\"2023-01\""
+    ],
+    "variables": [
+        "_versionCode",
+        "ShopifyApiVersion",
+        "V2022_04",
+        "ShopifyApiVersion",
+        "V2022_07",
+        "ShopifyApiVersion",
+        "V2022_10",
+        "ShopifyApiVersion",
+        "V2023_01"
+    ],
+    "comments": [
+        "Shopify releases a new API version at the beginning of each quarter and retires the version that's has just turned",
+        "one hear old, per https://shopify.dev/api/usage/versioning#release-schedule. If a retired API version is requested",
+        "by an API call, Shopify uses the oldest currently available API version (\"effective\" version noted in Http response)",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "ShopifyApiVersion",
+        "ToString"
+    ],
+    "classes": [
+        "ShopifyApiVersion"
+    ]
+}

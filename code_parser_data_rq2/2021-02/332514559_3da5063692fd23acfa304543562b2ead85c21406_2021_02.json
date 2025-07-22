@@ -1,0 +1,90 @@
+{
+    "identifiers": [
+        "IActivityHandler",
+        "MaximoService",
+        "get",
+        "inputs",
+        "service",
+        "get",
+        "service",
+        "response"
+    ],
+    "literals": [
+        "\"@geocortex/workflow/runtime/IActivityHandler\"",
+        "\"../MaximoService\"",
+        "\"../request\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"service is required\"",
+        "oslc/whoami"
+    ],
+    "variables": [
+        "inputs",
+        "response"
+    ],
+    "comments": [
+        "An interface that defines the inputs of the activity.",
+        "An interface that defines the outputs of the activity."
+    ],
+    "docstrings": [
+        "* @description The Maximo API Service.\n     * @required",
+        "* @description The result of the activity.",
+        "* @category Maximo\n * @description Gets information about the current Maximo user."
+    ],
+    "functions": [
+        "execute"
+    ],
+    "classes": [
+        "GetMaximoCurrentUser"
+    ]
+}

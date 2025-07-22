@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "Rectangle",
+        "AssetManager",
+        "BuffAddType",
+        "Buff",
+        "ParticleSystem",
+        "Spell",
+        "SpellObject",
+        "Spell",
+        "AssetManager",
+        "Zed_E_Object",
+        "obj",
+        "SpellObject",
+        "ParticleSystem",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "deltaTime",
+        "p",
+        "p",
+        "p",
+        "stroke",
+        "alpha",
+        "strokeWeight",
+        "random",
+        "p",
+        "random",
+        "line",
+        "p",
+        "p",
+        "p",
+        "len",
+        "p",
+        "len",
+        "push",
+        "translate",
+        "rotate",
+        "fill",
+        "rect",
+        "pop",
+        "Rectangle"
+    ],
+    "literals": [
+        "'../../../../libs/quadtree.js'",
+        "'../../../managers/AssetManager.js'",
+        "'../../enums/BuffAddType.js'",
+        "'../Buff.js'",
+        "'../helpers/ParticleSystem.js'",
+        "'../Spell.js'",
+        "'../SpellObject.js'",
+        "'spell_zed_e'",
+        "'Đường kiếm bóng tối (Zed_E)'",
+        "'Xoay lưỡi kiếm xung quanh bản thân. Gây <span class=\"damage\">15 sát thương</span> và <span class=\"buff\">Làm chậm 30%</span> các kẻ địch trong <span class=\"time\">1 giây</span>'"
+    ],
+    "variables": [
+        "obj",
+        "alpha",
+        "len"
+    ],
+    "comments": [
+        "draw 2 blades on each side of the owner"
+    ],
+    "docstrings": [],
+    "functions": [
+        "onSpellCast",
+        "onAdded",
+        "onRemoved",
+        "update",
+        "draw",
+        "getDisplayBoundingBox"
+    ],
+    "classes": [
+        "Zed_E",
+        "Zed_E_Object"
+    ]
+}

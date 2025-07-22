@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "Threading",
+        "Tasks",
+        "Microsoft",
+        "AspNet",
+        "Authentication",
+        "Cookies",
+        "Microsoft",
+        "AspNet",
+        "Authentication",
+        "OpenIdConnect",
+        "Microsoft",
+        "AspNet",
+        "Http",
+        "Authentication",
+        "Microsoft",
+        "AspNet",
+        "Mvc",
+        "Mvc",
+        "Client",
+        "Controllers",
+        "Controller",
+        "HttpGet",
+        "ChallengeResult",
+        "OpenIdConnectDefaults",
+        "AuthenticationScheme",
+        "AuthenticationProperties",
+        "RedirectUri",
+        "HttpGet",
+        "HttpPost",
+        "HttpContext",
+        "Authentication",
+        "SignOutAsync",
+        "CookieAuthenticationDefaults",
+        "AuthenticationScheme",
+        "HttpContext",
+        "Authentication",
+        "SignOutAsync",
+        "OpenIdConnectDefaults",
+        "AuthenticationScheme"
+    ],
+    "literals": [
+        "\"~/signin\"",
+        "\"/\"",
+        "\"~/signout\"",
+        "\"~/signout\""
+    ],
+    "variables": [],
+    "comments": [
+        "Instruct the OIDC client middleware to redirect the user agent to the identity provider.",
+        "Note: the authenticationType parameter must match the value configured in Startup.cs",
+        "Instruct the cookies middleware to delete the local cookie created when the user agent",
+        "is redirected from the identity provider after a successful authorization flow.",
+        "Instruct the OpenID Connect middleware to redirect the user agent to the identity provider to sign out."
+    ],
+    "docstrings": [],
+    "functions": [
+        "ActionResult",
+        "SignIn",
+        "SignOut"
+    ],
+    "classes": [
+        "AuthenticationController"
+    ]
+}

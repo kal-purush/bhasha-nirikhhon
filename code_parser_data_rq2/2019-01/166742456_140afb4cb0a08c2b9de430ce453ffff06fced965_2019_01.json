@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "accessToken",
+        "accessToken",
+        "accessToken",
+        "expiresIn",
+        "accessToken",
+        "expiresIn",
+        "accessToken",
+        "clientID",
+        "redirectURI",
+        "url",
+        "term",
+        "term",
+        "fetch",
+        "arg1",
+        "arg2",
+        "response",
+        "response",
+        "response",
+        "response",
+        "networkError",
+        "networkError",
+        "Spotify"
+    ],
+    "literals": [
+        "'4a0dfddd24344aad887c6a28d8d7ff3a'",
+        "'http://localhost:3000/'",
+        "''",
+        "'Access Token'",
+        "'/'",
+        "https://accounts.spotify.com/authorize?client_id=${clientID}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectURI}",
+        "https://api.spotify.com/v1/search?type=track&q=${term}",
+        "Bearer ${this.getAccessToken}",
+        "'Request failed!'",
+        "'networkError.message: '"
+    ],
+    "variables": [
+        "accessToken",
+        "expiresIn",
+        "clientID",
+        "redirectURI",
+        "Spotify",
+        "url",
+        "arg1",
+        "arg2"
+    ],
+    "comments": [
+        ".then(jsonResponse => {\n\t\t\t\tconsole.log('jsonResponse:');\n\t\t\t\tconsole.log(jsonResponse);\n\t\t\t\treturn jsonResponse;\n\t\t\t});"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getAccessToken",
+        "search"
+    ],
+    "classes": []
+}

@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "day05",
+        "val",
+        "next",
+        "x",
+        "val",
+        "x",
+        "nums",
+        "nums",
+        "nums",
+        "length",
+        "val",
+        "nums",
+        "curr",
+        "i",
+        "i",
+        "nums",
+        "length",
+        "i",
+        "curr",
+        "next",
+        "nums",
+        "i",
+        "curr",
+        "curr",
+        "next"
+    ],
+    "literals": [
+        "\"arr can not be empty\""
+    ],
+    "variables": [
+        "val",
+        "next"
+    ],
+    "comments": [
+        "@Override",
+        "public String toString() {",
+        "StringBuilder s = new StringBuilder();",
+        "ListNode cur = this;",
+        "while (cur != null) {",
+        "s.append(cur.val);",
+        "s.append(\" -> \");",
+        "cur = cur.next;",
+        "}",
+        "s.append(\"NULL\");",
+        "return s.toString();",
+        "}"
+    ],
+    "docstrings": [
+        "* @author halley\n * @version 1.0\n * @description: 构造一个链表\n * @date 2021/12/11 9:32 上午"
+    ],
+    "functions": [
+        "ListNode",
+        "ListNode"
+    ],
+    "classes": [
+        "ListNode"
+    ]
+}

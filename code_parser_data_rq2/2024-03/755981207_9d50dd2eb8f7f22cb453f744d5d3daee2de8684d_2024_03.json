@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "subprocess",
+        "os",
+        "os",
+        "chdir",
+        "uploader_api_folder",
+        "subprocess",
+        "Popen",
+        "os",
+        "chdir",
+        "authenticate_api_folder",
+        "subprocess",
+        "Popen",
+        "os",
+        "chdir",
+        "subprocess",
+        "Popen",
+        "uploader_api",
+        "wait",
+        "authenticate_api",
+        "wait",
+        "main_api",
+        "wait"
+    ],
+    "literals": [
+        "\"/uploader\"",
+        "\"python\"",
+        "\"uploader_api.py\"",
+        "\"/authenticate\"",
+        "\"python\"",
+        "\"authenticate_api.py\"",
+        "\"/main\"",
+        "\"python\"",
+        "\"main.py\""
+    ],
+    "variables": [
+        "uploader_api_folder",
+        "uploader_api",
+        "authenticate_api_folder",
+        "authenticate_api",
+        "main_api"
+    ],
+    "comments": [
+        "Change directory to uploader API folder",
+        "Start uploader API",
+        "Change directory to authenticate API folder",
+        "Start authenticate API",
+        "Change directory back to main directory",
+        "Start main.py",
+        "Wait for APIs to finish"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

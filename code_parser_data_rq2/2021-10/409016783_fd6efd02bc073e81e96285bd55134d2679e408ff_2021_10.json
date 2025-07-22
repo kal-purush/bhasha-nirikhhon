@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "getFirestore",
+        "collection",
+        "where",
+        "query",
+        "getDocs",
+        "StreamModel",
+        "streamModelConverter",
+        "require",
+        "getFirestore",
+        "userId",
+        "query",
+        "collection",
+        "db",
+        "where",
+        "userId",
+        "streamModelConverter",
+        "getDocs",
+        "q",
+        "querySnapshot",
+        "doc",
+        "streamList",
+        "doc",
+        "streamList"
+    ],
+    "literals": [
+        "\"@firebase/firestore\"",
+        "\"../models/stream_sessions\"",
+        "\"../firebaseSetup\"",
+        "string",
+        "\"stream-sessions\"",
+        "\"userId\"",
+        "\"==\""
+    ],
+    "variables": [
+        "db",
+        "q",
+        "querySnapshot",
+        "streamList"
+    ],
+    "comments": [
+        "console.log(doc.id, \" => \", doc.data());"
+    ],
+    "docstrings": [],
+    "functions": [
+        "filterByUserId"
+    ],
+    "classes": []
+}

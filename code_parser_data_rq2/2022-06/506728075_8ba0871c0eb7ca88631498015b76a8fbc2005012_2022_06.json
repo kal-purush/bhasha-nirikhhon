@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "theme"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "display: flex;\n  align-items: center;\n  justify-content: space-between;\n  padding: 32px 0;\n\n  background: rgba(255, 255, 255, 0.1);",
+        "display: flex;\n  align-items: center;\n  gap: 32px;\n  width: fit-content;",
+        "background: unset;\n  border: none;\n  padding: 6px 0;\n\n  transition: all 200ms ease;\n  :hover {\n    color: ${({ theme }) => theme.colors.orange};\n  }"
+    ],
+    "variables": [
+        "Container",
+        "ButtonGroup",
+        "Button"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

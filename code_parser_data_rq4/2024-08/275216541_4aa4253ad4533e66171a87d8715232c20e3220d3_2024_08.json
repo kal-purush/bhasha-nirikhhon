@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "org",
+        "ohdsi",
+        "rabbitInAHat",
+        "dataModel",
+        "org",
+        "apache",
+        "commons",
+        "io",
+        "input",
+        "BOMInputStream",
+        "org",
+        "junit",
+        "jupiter",
+        "api",
+        "Test",
+        "java",
+        "io",
+        "java",
+        "io",
+        "InputStream",
+        "org",
+        "junit",
+        "jupiter",
+        "api",
+        "Assertions",
+        "Test",
+        "testFileWithoutBom",
+        "inWithoutBom",
+        "getResourceAsStream",
+        "testFileWithoutBom",
+        "assertNotNull",
+        "inWithoutBom",
+        "ignoredWithoutBom",
+        "Database",
+        "generateModelFromCSV",
+        "inWithoutBom",
+        "testFileWithoutBom",
+        "testFileWithBom",
+        "inWithBom",
+        "getResourceAsStream",
+        "testFileWithBom",
+        "assertNotNull",
+        "inWithBom",
+        "ignoredWithBom",
+        "Database",
+        "generateModelFromCSV",
+        "inWithBom",
+        "testFileWithBom"
+    ],
+    "literals": [
+        "\"tiny_riah_without_bom.csv\"",
+        "\"tiny_riah_with_bom.csv\""
+    ],
+    "variables": [],
+    "comments": [
+        "confirm that issue #411 is fixed, can read custom models from (UTF-8) CSV files with and without BOM",
+        "generate a model from a CSV file without BOM",
+        "generate a model from a CSV file with BOM"
+    ],
+    "docstrings": [],
+    "functions": [
+        "testGenerateModelFromCSV"
+    ],
+    "classes": [
+        "TestDatabase"
+    ]
+}

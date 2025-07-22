@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "op",
+        "batch_alter_table",
+        "batch",
+        "batch",
+        "add_column",
+        "sa",
+        "Column",
+        "sa",
+        "nullable",
+        "server_default",
+        "op",
+        "batch_alter_table",
+        "batch",
+        "batch",
+        "drop_column"
+    ],
+    "literals": [
+        "'3b281286c7bd'",
+        "'049fed905da7'",
+        "'user'",
+        "'reply_startdate'",
+        "\"1900-01-01\"",
+        "'user'",
+        "'reply_startdate'"
+    ],
+    "variables": [
+        "revision",
+        "down_revision"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\" Add a start day for vacations\n\nRevision ID: 3b281286c7bd\nRevises: 049fed905da7\nCreate Date: 2018-09-27 22:20:08.158553\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

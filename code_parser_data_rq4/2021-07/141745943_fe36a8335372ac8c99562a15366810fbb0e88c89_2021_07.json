@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "Mirror",
+        "a",
+        "b",
+        "t",
+        "a",
+        "b",
+        "a",
+        "t",
+        "value",
+        "value",
+        "value",
+        "value",
+        "a",
+        "b",
+        "value",
+        "a",
+        "b",
+        "Clamp01",
+        "value",
+        "a",
+        "b",
+        "a"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "'double' precision variants for some of Unity's Mathf functions."
+    ],
+    "docstrings": [
+        "<summary>Linearly interpolates between a and b by t with no limit to t.</summary>",
+        "<summary>Clamps value between 0 and 1 and returns value.</summary>",
+        "<summary>Calculates the linear parameter t that produces the interpolant value within the range [a, b].</summary>"
+    ],
+    "functions": [
+        "LerpUnclamped",
+        "Clamp01",
+        "InverseLerp"
+    ],
+    "classes": [
+        "Mathd"
+    ]
+}

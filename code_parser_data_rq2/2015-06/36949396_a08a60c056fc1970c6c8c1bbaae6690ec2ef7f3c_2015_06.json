@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "key",
+        "obj",
+        "key",
+        "obj",
+        "root",
+        "root",
+        "i",
+        "children",
+        "i",
+        "children",
+        "i",
+        "element",
+        "element",
+        "path",
+        "component",
+        "element",
+        "element",
+        "path",
+        "path",
+        "split",
+        "split",
+        "split",
+        "cmp",
+        "Component",
+        "cmp"
+    ],
+    "literals": [
+        "string",
+        "\"mk-value\"",
+        "\"mk-value\"",
+        "string",
+        "\".\"",
+        "\"Expected path to have exactly two values split by a dot.\"",
+        "\"Unresolved path.\"",
+        "\"Path does not map to a valid Component.\""
+    ],
+    "variables": [
+        "children",
+        "i",
+        "element",
+        "path",
+        "component",
+        "split",
+        "cmp"
+    ],
+    "comments": [
+        "Continue recursive traversal through HTML element tree",
+        "This limits the 'resolve' function greatly, but more",
+        "isn't really needed. (At least not currently)",
+        "Resolve path",
+        "And ensure value maps to a component"
+    ],
+    "docstrings": [],
+    "functions": [
+        "define",
+        "parseHtml",
+        "traverse",
+        "resolveComponent"
+    ],
+    "classes": [
+        "HtmlView"
+    ]
+}

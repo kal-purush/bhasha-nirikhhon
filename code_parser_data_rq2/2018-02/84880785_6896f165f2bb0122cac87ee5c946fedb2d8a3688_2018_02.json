@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "openstack",
+        "connection",
+        "session",
+        "connection",
+        "Connection",
+        "session",
+        "session",
+        "session",
+        "kwargs",
+        "connection",
+        "Connection",
+        "session",
+        "_session",
+        "kwargs"
+    ],
+    "literals": [],
+    "variables": [
+        "connection",
+        "_session"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"A wrapper around the openstackSDK\n\n    Your primary interaction will be with the connection itself and\n    the various services it exposes. A connection is an authenticated\n    object representing a connection to a given cloud region.\n\n    Example get servers:\n    In [1]: servers = list(oi.sdk.connection.compute.servers())\n\n    All list methods in the SDK return a generator, so if you don't\n    want to act on them in a for loop, you need to explictly ask\n    for a list().\n\n    Your best bet to understand what is possible with the connection\n    object is to use tab autocomplete and inspect the docstrings of\n    the functions themselves.\n\n    fields:\n      - connection\n          An instance of the openstacksdk connection object built\n          from the same session as the openstack interpreter was\n          setup via the openstackclient.\n\n    methods:\n      - get_connection\n          Get a connection object with user defined config.\n          For help do:\n          In [1]: oi.sdk.get_connection?\n    \"\"\"",
+        "\"\"\"Get a connection object with user defined config\n\n        This is mostly used to get a connection to a specific region\n        or with specific versions of services.\n\n        All config values will otherwise default to your current\n        interpreter session unless overridden. The function takes\n        arbitrary kwargs and passes those to the config class.\n\n        The majority of the parameters that will be useful to you\n        here are:\n            - region_name\n            - <service_type>_api_version\n\n        examples:\n        In [1]: conn_r2 = oi.sdk.get_connection(region='RegionTwo')\n        In [2]: conn_c1 = oi.sdk.get_connection(\n                    compute_api_version='2')\n        \"\"\""
+    ],
+    "functions": [
+        "get_connection"
+    ],
+    "classes": [
+        "SDKManager"
+    ]
+}

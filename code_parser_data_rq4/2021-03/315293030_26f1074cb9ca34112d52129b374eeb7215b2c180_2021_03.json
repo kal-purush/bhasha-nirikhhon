@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "common",
+        "constants",
+        "LIDAR_MAX_INDEX",
+        "LIDAR_MAX_INDEX",
+        "RIGHT_DIVERGENCE_INDEX"
+    ],
+    "literals": [],
+    "variables": [
+        "HORIZON_LENGTH",
+        "TIME_STEP",
+        "RIGHT_DIVERGENCE_INDEX",
+        "LEFT_DIVERGENCE_INDEX",
+        "FTG_IGNORE_RANGE",
+        "POSITION_PREDICTION_TIME",
+        "SAFETY_RADIUS_SQUARED"
+    ],
+    "comments": [
+        "Define parameters here for easier configurability",
+        "FTG scan angle limits",
+        "Any points with this range will be avoided at all cost",
+        "Need to store value for computing most likely position (for better MPC predictions)",
+        "Limiting area for ignoring points next to the closest point"
+    ],
+    "docstrings": [
+        "\"\"\"\nAlgorithm-relevant and tuning constants.\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

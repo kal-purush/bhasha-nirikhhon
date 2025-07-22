@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "OnInit",
+        "FormlyFieldConfig",
+        "SdsFormlyTypes",
+        "ReadonlyOptions",
+        "Component",
+        "Input",
+        "Input",
+        "Input",
+        "Input",
+        "Input",
+        "SdsFormlyTypes",
+        "options"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "'@ngx-formly/core'",
+        "\"../models/formly-types\"",
+        "'./readonly-options.model'",
+        "sds-readonly-container",
+        "'./readonly-container.component.html'",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "options"
+    ],
+    "comments": [
+        "We do array access from field config for daterangepicker, which can be undefined for other types,",
+        "hence this is sectioned off in a conditional"
+    ],
+    "docstrings": [
+        "* Wrapper level component for displaying readonly format for each formly types",
+        "* Formlyfieldconfig that is used to generate the formlyform. If this value\n   * is provided, the necessary information will be extracted from the given\n   * field configuration, and all other inputs will be ignored.",
+        "* Type of formly to display value for - will be ignored if formlyFieldConfig is defined",
+        "* Label for the given value - will be ignored if formlyFieldConfig input is defined\n   *",
+        "* Value of corresponding label - will be ignored if formlyFieldConfig is defined",
+        "* Additional information useful for displaying the value - will be ignored if formlyFieldConfig is defined"
+    ],
+    "functions": [
+        "ngOnInit",
+        "assignAdditionalConfig"
+    ],
+    "classes": [
+        "ReadonlyContainerComponent"
+    ]
+}

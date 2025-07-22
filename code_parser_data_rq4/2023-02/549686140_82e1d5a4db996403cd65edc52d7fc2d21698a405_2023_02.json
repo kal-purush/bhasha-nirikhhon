@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "Collections",
+        "Code",
+        "POLIMIgameCollective",
+        "EventManager",
+        "POLIMIGameCollective",
+        "UnityEngine",
+        "Code",
+        "Scripts",
+        "LevelManagement",
+        "MonoBehaviour",
+        "SerializeField",
+        "SerializeField",
+        "Tooltip",
+        "SerializeField",
+        "SerializeField",
+        "EventManager",
+        "StartListening",
+        "IncrementDeathsInPuzzle",
+        "EventManager",
+        "StartListening",
+        "ResetDeathsInPuzzle",
+        "_numberOfDeathsInPuzzle",
+        "_numberOfDeathsInPuzzle",
+        "_numberOfDeathsToTriggerHint",
+        "StartCoroutine",
+        "ShowSkipPuzzleCoroutine",
+        "_numberOfDeathsInPuzzle",
+        "WaitForSeconds",
+        "_showHintDelay",
+        "TutorialDialogObject",
+        "_skipDialogueHintText",
+        "_skipButtonImage",
+        "EventManager",
+        "TriggerEvent",
+        "tutorialDialogObject",
+        "_numberOfDeathsInPuzzle"
+    ],
+    "literals": [
+        "\"I see that you are struggling! You can skip this level using TAB / JOYSTIC BUTTON. \"",
+        "\"Or you can change difficulty from the menu if you need more time.\"",
+        "\"How long to wait before showing the hint. Make sure this is higher than the fade respawn time defined in black fadein.\"",
+        "\"OneDeathInPuzzle\"",
+        "\"ResetDeathsInPuzzle\"",
+        "\"DisplayDialogue\""
+    ],
+    "variables": [
+        "_numberOfDeathsToTriggerHint",
+        "_skipDialogueHintText",
+        "_showHintDelay",
+        "GameObject",
+        "_skipButtonImage",
+        "_numberOfDeathsInPuzzle",
+        "tutorialDialogObject"
+    ],
+    "comments": [
+        "We need to pass also the time"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "IncrementDeathsInPuzzle",
+        "IEnumerator",
+        "ShowSkipPuzzleCoroutine",
+        "ResetDeathsInPuzzle"
+    ],
+    "classes": [
+        "DisplaySkipPuzzleHintManager"
+    ]
+}

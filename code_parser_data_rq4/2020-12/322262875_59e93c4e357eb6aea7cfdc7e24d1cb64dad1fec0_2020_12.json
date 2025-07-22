@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "Transition",
+        "SerializeField",
+        "_animator",
+        "GetCurrentAnimatorStateInfo",
+        "normalizedTime",
+        "NeedTransit"
+    ],
+    "literals": [],
+    "variables": [
+        "Animator",
+        "_animator"
+    ],
+    "comments": [
+        "private float _runTime;",
+        "private float _animationLength;",
+        "private void Start()",
+        "{",
+        "_runTime = 0f;",
+        "}",
+        "_animator.GetCurrentAnimatorStateInfo(0).IsName(\"jump\") &&"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Update"
+    ],
+    "classes": [
+        "StopJumpTransition"
+    ]
+}

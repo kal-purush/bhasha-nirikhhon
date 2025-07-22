@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "PLAY_TYPES",
+        "actionClickNumber",
+        "value",
+        "PLAY_TYPES",
+        "actionClickGuess",
+        "PLAY_TYPES",
+        "actionDeleteNumber",
+        "PLAY_TYPES",
+        "actionResetList",
+        "PLAY_TYPES",
+        "actionCloseGameover",
+        "PLAY_TYPES",
+        "actionAddUseTime",
+        "PLAY_TYPES"
+    ],
+    "literals": [
+        "'./action-type'"
+    ],
+    "variables": [
+        "actionClickNumber",
+        "actionClickGuess",
+        "actionDeleteNumber",
+        "actionResetList",
+        "actionCloseGameover",
+        "actionAddUseTime"
+    ],
+    "comments": [
+        "import Axios from 'axios'",
+        "export const getTodoList = () => {",
+        "return (dispatch) => {",
+        "Axios.get('https://www.easy-mock.com/mock/5d5b82903e3a6541823d7990/react-test/getList').then((res) => {",
+        "const data = res.data",
+        "const action = getListAction(data)",
+        "dispatch(action)",
+        "})",
+        "}",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

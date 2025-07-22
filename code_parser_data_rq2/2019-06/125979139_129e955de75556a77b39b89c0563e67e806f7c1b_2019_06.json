@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "req0",
+        "res0",
+        "next",
+        "next",
+        "req1",
+        "res1",
+        "next",
+        "next",
+        "methods",
+        "chain",
+        "len",
+        "methods",
+        "len",
+        "i",
+        "i",
+        "methods",
+        "i",
+        "chain",
+        "req",
+        "res",
+        "j",
+        "curr",
+        "req",
+        "res",
+        "next",
+        "req",
+        "res",
+        "chain",
+        "chain",
+        "makechain",
+        "methods",
+        "chain"
+    ],
+    "literals": [
+        "\"methods0\"",
+        "\"methods1\""
+    ],
+    "variables": [
+        "methods",
+        "j",
+        "i",
+        "curr",
+        "next",
+        "chain"
+    ],
+    "comments": [
+        "console.log(next.toString());",
+        "# i = 1",
+        "## before",
+        "chain = () => {}",
+        "## After",
+        "chain = (req, res) {",
+        "methods[1](req, res, () => () => {})",
+        "}",
+        "",
+        "# i = 0",
+        "## before",
+        "chain = (req, res) { methods[1](req, res, () => () => {}) }",
+        "## After",
+        "chain = (req, res) {",
+        "methods[0](req, res, (req, res) => { methods[1](req, res, () => () => {}) })",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "makechain"
+    ],
+    "classes": []
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "UnityEngine",
+        "Halo",
+        "Unity",
+        "Common",
+        "IMovementDirectionService",
+        "IMovementInput",
+        "input",
+        "relativeToTransform",
+        "vertical",
+        "horizontal",
+        "relativeToTransform"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Provides direction services based on axis input that can optionally be relative to a transform.",
+        "</summary>",
+        "Builds a normalized <see cref=\"Vector3\"/> based on the input. Relative to the transform by default.",
+        "</summary>",
+        "<param name=\"input\"><see cref=\"IMovementInput\"/> service.</param>",
+        "<param name=\"relativeToTransform\">(Default: true) Indicates if this should be relative to the transform.</param>",
+        "<returns>A normalized <see cref=\"Vector3\"/> representing a movement direction based on axis input.</returns>",
+        "Builds a normalized <see cref=\"Vector3\"/> based on the input. Relative to the transform by default.",
+        "</summary>",
+        "<param name=\"vertical\">Vertical axis input.</param>",
+        "<param name=\"horizontal\">Horizontal axis input.</param>",
+        "<param name=\"relativeToTransform\">(Default: true) Indicates if this should be relative to the transform.</param>",
+        "<returns>A normalized <see cref=\"Vector3\"/> representing a movement direction based on axis input.</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Vector3",
+        "BuildDirection",
+        "Vector3",
+        "BuildDirection"
+    ],
+    "classes": []
+}

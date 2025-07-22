@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "randomNumber",
+        "randomNumber",
+        "randomNumber",
+        "randomNumber",
+        "randomNumber",
+        "computerSelection",
+        "randomNumber",
+        "computerSelection",
+        "computerSelection",
+        "randomNumber",
+        "getComputerChoice",
+        "computerSelection"
+    ],
+    "literals": [
+        "\"rock\"",
+        "\"paper\"",
+        "\"scissors\""
+    ],
+    "variables": [
+        "computerSelection",
+        "randomNumber",
+        "randomNumber",
+        "computerSelection"
+    ],
+    "comments": [
+        "getComputerChoice function that randomly returns Rock, paper or scissors",
+        "output with console.log",
+        "function that plays a single round of RPS which takes two parameters: playerSelection and computerSelection and returns string declaring winner like so \"You Lose! Paper beats Rock\"",
+        "Make your function’s playerSelection parameter case-insensitive (so users can input rock, ROCK, RocK or any other variation).",
+        "function playRound(playerSelection, computerSelection) {",
+        "your code here!",
+        "}",
+        "",
+        "const playerSelection = \"rock\";",
+        "const computerSelection = getComputerChoice();",
+        "console.log(playRound(playerSelection, computerSelection));",
+        "Write a NEW function called game(). Use the previous function inside of this one to play a 5 round game that keeps score and reports a winner or loser at the end."
+    ],
+    "docstrings": [],
+    "functions": [
+        "getRandomNumber",
+        "getComputerChoice"
+    ],
+    "classes": []
+}

@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "campoPesquisa",
+        "section",
+        "campoPesquisa",
+        "campoPesquisa",
+        "dado",
+        "dados",
+        "titulo",
+        "dado",
+        "descricao",
+        "dado",
+        "tags",
+        "dado",
+        "titulo",
+        "campoPesquisa",
+        "descricao",
+        "campoPesquisa",
+        "tags",
+        "campoPesquisa",
+        "resultados",
+        "dado",
+        "dado",
+        "dado",
+        "resultados",
+        "resultados",
+        "section",
+        "resultados"
+    ],
+    "literals": [
+        "\"resultados-pesquisa\"",
+        "\"campo-pesquisa\"",
+        "\"<p> Nada foi encontrado. Você precisa digitar o nome do atleta ou esporte </p>\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "<div class=\"item-resultado\">\n        <h2>\n          <a href=\"#\" target=\"_blank\">${dado.titulo}</a>\n        </h2>\n        <p class=\"descricao-meta\">${dado.descricao}</p>\n        <a href=${dado.link} target=\"_blank\">Mais informações</a>\n      </div>",
+        "\"<p>Nada foi encontrado</p>\""
+    ],
+    "variables": [
+        "section",
+        "campoPesquisa",
+        "resultados",
+        "titulo",
+        "descricao",
+        "tags"
+    ],
+    "comments": [
+        "Seleciona a seção HTML onde os resultados serão exibidos",
+        "se campoPesquisa for uma string sem nada",
+        "Inicializa uma string vazia para armazenar os resultados formatados em HTML",
+        "Itera sobre cada item (dado) na lista de dados",
+        "se titulo includes campoPesquisa",
+        "cria um novo elemento",
+        "Insere o HTML gerado na seção selecionada, substituindo o conteúdo anterior"
+    ],
+    "docstrings": [],
+    "functions": [
+        "pesquisar"
+    ],
+    "classes": []
+}

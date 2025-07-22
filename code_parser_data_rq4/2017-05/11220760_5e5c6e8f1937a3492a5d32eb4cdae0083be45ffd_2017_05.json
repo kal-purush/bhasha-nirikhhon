@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "unicode_literals",
+        "address",
+        "address"
+    ],
+    "literals": [],
+    "variables": [
+        "address"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Cannot set destination address in supplied frame\"\"\"",
+        "\"\"\"Attempt to add more than one device with the same short address\n    to a bus.\n    \"\"\"",
+        "\"\"\"Device with invalid attributes.\"\"\"",
+        "\"\"\"Attempt to add a device to a bus that is already bound to a\n    different bus.\n    \"\"\"",
+        "\"\"\"A connection to the DALI bus is required to complete this\n    operation, but the bus is not connected.\n    \"\"\"",
+        "\"\"\"An unused short address was required but none was available.\"\"\"",
+        "\"\"\"A device did not accept programming of its short address.\"\"\"",
+        "\"\"\"Response was absent where a response was expected.\"\"\"",
+        "\"\"\"Response had unexpected framing error.\"\"\"",
+        "\"\"\"Exception raised in case of communication error with daliserver.\n    \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "IncompatibleFrame",
+        "DuplicateDevice",
+        "BadDevice",
+        "DeviceAlreadyBound",
+        "NotConnected",
+        "NoFreeAddress",
+        "ProgramShortAddressFailure",
+        "MissingResponse",
+        "ResponseError",
+        "CommunicationError"
+    ]
+}

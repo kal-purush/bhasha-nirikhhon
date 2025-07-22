@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "requests",
+        "json",
+        "url",
+        "requests",
+        "get",
+        "url",
+        "url",
+        "res",
+        "json",
+        "data",
+        "significance_level",
+        "np",
+        "mean",
+        "data",
+        "np",
+        "max",
+        "data",
+        "mean",
+        "max_value",
+        "max_value",
+        "mean",
+        "anomalies"
+    ],
+    "literals": [
+        "'http://8.131.229.55:9090/'",
+        "\"mean: \"",
+        "\"max_value: \""
+    ],
+    "variables": [
+        "res",
+        "anomalies",
+        "mean",
+        "max_value",
+        "anomalies"
+    ],
+    "comments": [
+        "print(json.dumps(res.json()))",
+        "return json.dumps(res.json())",
+        "assume the workload is steadily running",
+        "Calculate the mean and standard deviation of the data"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Detects anomalies in the given data using the KS test algorithm.\n    \n    Args:\n        data (numpy.ndarray): 1-D array of data values.\n        significance_level (float): Level of significance for the KS test (default: 0.05).\n    \n    Returns:\n        numpy.ndarray: Boolean array indicating anomalies (True) and non-anomalies (False).\n    \"\"\"",
+        "\"\"\"\n    sorted_data = np.sort(data)\n    n = len(sorted_data)\n    \n    # Calculate the expected CDF assuming a normal distribution\n    expected_cdf = np.arange(1, n + 1) / n\n    \n    # Calculate the empirical CDF\n    empirical_cdf = np.searchsorted(sorted_data, sorted_data, side='right') / n\n    \n    # Calculate the maximum absolute difference between the expected and empirical CDFs\n    ks_statistic = np.max(np.abs(empirical_cdf - expected_cdf))\n    \n    # Calculate the critical value based on the significance level and sample size\n    critical_value = np.sqrt(-0.5 * np.log(significance_level / 2) / n)\n    \n    # Compare the KS statistic with the critical value\n    anomalies = np.where(ks_statistic > critical_value, True, False)\n    \"\"\""
+    ],
+    "functions": [
+        "prometheus",
+        "detect_anomalies"
+    ],
+    "classes": []
+}

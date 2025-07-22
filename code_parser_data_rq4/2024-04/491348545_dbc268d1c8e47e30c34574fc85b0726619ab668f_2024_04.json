@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Command",
+        "checkCommandAvailability",
+        "commandString",
+        "resolve",
+        "reject",
+        "Command",
+        "commandString",
+        "command",
+        "handle",
+        "resolve",
+        "resolve",
+        "error",
+        "reject",
+        "error",
+        "checkAllCommandsAvailability",
+        "commands",
+        "command",
+        "commands",
+        "checkCommandAvailability",
+        "command",
+        "isAvailable",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'@tauri-apps/api/shell'",
+        "string",
+        "\"which\"",
+        "string"
+    ],
+    "variables": [
+        "checkCommandAvailability",
+        "command",
+        "handle",
+        "checkAllCommandsAvailability",
+        "isAvailable"
+    ],
+    "comments": [
+        "Create a new Command instance with the \"which\" command and the specified commandString",
+        "Execute the command and get the handle",
+        "Check if the stdout of the handle has any output",
+        "If there is output, resolve the promise with true indicating that the command is available",
+        "If there is no output, resolve the promise with false indicating that the command is not available",
+        "If there is an error, reject the promise with the error",
+        "Iterate over each command in the array",
+        "Check the availability of the command using the checkCommandAvailability function",
+        "If the command is not available, return false indicating that not all commands are available",
+        "If all commands are available, return true",
+        "If there is an error while checking command availability, throw the error"
+    ],
+    "docstrings": [
+        "* Checks the availability of a command in the system.\n * @param commandString - The command to check availability for.\n * @returns A promise that resolves to a boolean indicating whether the command is available or not.",
+        "* Checks the availability of a command in the system.\n * @param commandString - The command to check availability for.\n * @returns A promise that resolves to a boolean indicating whether the command is available or not.",
+        "* Checks the availability of all commands in the given array.\n * @param commands - An array of commands to check availability for.\n * @returns A Promise that resolves to a boolean indicating whether all commands are available.\n * @throws If there is an error while checking command availability.",
+        "* Checks the availability of all commands in the given array.\n * @param commands - An array of commands to check availability for.\n * @returns A Promise that resolves to a boolean indicating whether all commands are available.\n * @throws If there is an error while checking command availability."
+    ],
+    "functions": [],
+    "classes": []
+}

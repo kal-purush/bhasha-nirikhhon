@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "basic_package",
+        "args",
+        "output",
+        "c3",
+        "c5",
+        "i",
+        "i",
+        "i",
+        "c3",
+        "c5",
+        "c3",
+        "output",
+        "c3",
+        "c5",
+        "output",
+        "c5",
+        "output",
+        "output",
+        "output",
+        "i"
+    ],
+    "literals": [
+        "\"\"",
+        "\"fizz\"",
+        "\"buzz\"",
+        "\"\"",
+        "\"\""
+    ],
+    "variables": [],
+    "comments": [
+        "traditional way (% , * , /  operator take O(n2) time",
+        "for (int i = 0; i < 100; i++) {",
+        "if (i % 15 == 0)",
+        "System.out.println(\"fizzbuzz\");",
+        "else if (i % 5 == 0)",
+        "System.out.println(\"buzz\");",
+        "else if (i % 3 == 0)",
+        "System.out.println(\"fizz\");",
+        "else",
+        "System.out.println(i);",
+        "optimized solution (++ , -- take O(n) time)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "fizz_buzz_problem"
+    ]
+}

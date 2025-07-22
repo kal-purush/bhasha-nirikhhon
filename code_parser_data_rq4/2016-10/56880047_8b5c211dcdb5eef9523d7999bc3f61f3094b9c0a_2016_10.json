@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Operator",
+        "Stream",
+        "dt",
+        "ins",
+        "id",
+        "clearInterval",
+        "id",
+        "t",
+        "u",
+        "t",
+        "u",
+        "t",
+        "setInterval",
+        "err",
+        "u",
+        "u",
+        "err",
+        "u",
+        "u",
+        "period",
+        "ins",
+        "throttleOperator",
+        "ins",
+        "Stream",
+        "ThrottleOperator",
+        "period",
+        "ins"
+    ],
+    "literals": [
+        "'../core'",
+        "'throttle'"
+    ],
+    "variables": [
+        "id",
+        "u",
+        "u",
+        "u"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Emits event and drops subsequent events until a certain amount of silence has passed.\n *\n * Marble diagram:\n *\n * ```text\n * --1-2-----3--4----5|\n *     throttle(60)\n * --1-------3-------5-|\n * ```\n *\n * Example:\n *\n * ```js\n * import fromDiagram from 'xstream/extra/fromDiagram'\n * import throttle from 'xstream/extra/throttle'\n *\n * const stream = fromDiagram(--1-2-----3--4----5|)\n *  .compose(throttle(60))\n *\n * stream.addListener({\n *   next: i => console.log(i),\n *   error: err => console.error(err),\n *   complete: () => console.log('completed')\n * })\n * ```\n *\n * ```text\n * > 1\n * > 3\n * > 5\n * > completed\n * ```\n *\n * @param {number} period The amount of silence required in milliseconds.\n * @return {Stream}"
+    ],
+    "functions": [
+        "_start",
+        "_stop",
+        "clearInterval",
+        "_n",
+        "_e",
+        "_c",
+        "throttle"
+    ],
+    "classes": [
+        "ThrottleOperator"
+    ]
+}

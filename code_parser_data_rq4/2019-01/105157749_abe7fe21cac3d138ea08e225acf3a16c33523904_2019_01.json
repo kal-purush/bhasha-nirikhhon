@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "starkAppInitStateName",
+        "starkAppInitStateName",
+        "starkAppExitStateName",
+        "starkAppExitStateName"
+    ],
+    "literals": [
+        "string",
+        "\"starkAppInit\"",
+        "string",
+        "\"starkAppExit\"",
+        "string",
+        "\".starkLogin\"",
+        "string",
+        "\"/starkLogin\"",
+        "string",
+        "\".starkPreloading\"",
+        "string",
+        "\"/starkPreloading\"",
+        "string",
+        "\".starkSessionExpired\"",
+        "string",
+        "\"/starkSessionExpired\"",
+        "string",
+        "\".starkSessionLogout\"",
+        "string",
+        "\"/starkSessionLogout\""
+    ],
+    "variables": [
+        "starkAppInitStateName",
+        "starkAppExitStateName",
+        "starkLoginStateName",
+        "starkLoginStateUrl",
+        "starkPreloadingStateName",
+        "starkPreloadingStateUrl",
+        "starkSessionExpiredStateName",
+        "starkSessionExpiredStateUrl",
+        "starkSessionLogoutStateName",
+        "starkSessionLogoutStateUrl"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Name of the initialization states of the application",
+        "* Name of the exit states of the application",
+        "* Name of the login state of the application",
+        "* URL of the login state of the application",
+        "* Name of the Preloading state of the application",
+        "* URL of the Preloading state of the application",
+        "* Name of the SessionExpired state of the application",
+        "* URL of the SessionExpired state of the application",
+        "* Name of the SessionLogout state of the application",
+        "* URL of the SessionLogout state of the application"
+    ],
+    "functions": [],
+    "classes": []
+}

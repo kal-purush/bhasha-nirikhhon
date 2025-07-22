@@ -1,0 +1,92 @@
+{
+    "identifiers": [
+        "AUDIO_CONTEXT",
+        "SoundImpl",
+        "Sound",
+        "maxDistance",
+        "scale",
+        "maxDistance",
+        "maxDistance",
+        "scale",
+        "scale",
+        "x",
+        "y",
+        "x",
+        "y",
+        "point",
+        "point",
+        "sound",
+        "volume",
+        "x",
+        "y",
+        "sound",
+        "AUDIO_CONTEXT",
+        "source",
+        "impl",
+        "AUDIO_CONTEXT",
+        "source",
+        "gain",
+        "gain",
+        "AUDIO_CONTEXT",
+        "gain",
+        "point",
+        "point",
+        "source",
+        "ev",
+        "index",
+        "source",
+        "point",
+        "point",
+        "point",
+        "value",
+        "AUDIO_CONTEXT",
+        "point",
+        "point",
+        "point",
+        "point",
+        "point",
+        "point",
+        "dx",
+        "dx",
+        "dy",
+        "dy",
+        "distance",
+        "point",
+        "reduction",
+        "reduction",
+        "reduction"
+    ],
+    "literals": [
+        "\"./impl/SoundImpl\"",
+        "\"./Sound\"",
+        "\"ended\""
+    ],
+    "variables": [
+        "impl",
+        "source",
+        "gain",
+        "point",
+        "index",
+        "value",
+        "dx",
+        "dy",
+        "distance",
+        "reduction"
+    ],
+    "comments": [
+        "category: string // TODO: category-based volumes"
+    ],
+    "docstrings": [
+        "* (los ? 1 : 0.3) TODO: callback"
+    ],
+    "functions": [
+        "moveTo",
+        "clear",
+        "play",
+        "updateVolumes",
+        "calculateVolume"
+    ],
+    "classes": [
+        "SoundScape"
+    ]
+}

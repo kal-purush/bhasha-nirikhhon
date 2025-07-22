@@ -1,0 +1,91 @@
+{
+    "identifiers": [
+        "Diagnostics",
+        "UnityEditor",
+        "UnityEngine",
+        "FullscreenEditor",
+        "Func",
+        "condition",
+        "Action",
+        "callback",
+        "timeoutMs",
+        "EditorApplication",
+        "CallbackFunction",
+        "EditorApplication",
+        "timeSinceStartup",
+        "timeoutMs",
+        "StackFrame",
+        "update",
+        "timeoutMs",
+        "EditorApplication",
+        "timeSinceStartup",
+        "timeoutsAt",
+        "EditorApplication",
+        "update",
+        "update",
+        "Logger",
+        "stack",
+        "GetFileName",
+        "stack",
+        "GetFileLineNumber",
+        "condition",
+        "EditorApplication",
+        "update",
+        "update",
+        "callback",
+        "EditorApplication",
+        "update",
+        "update",
+        "frames",
+        "Action",
+        "callback",
+        "Condition",
+        "f",
+        "frames",
+        "callback",
+        "milliseconds",
+        "Action",
+        "callback",
+        "EditorApplication",
+        "timeSinceStartup",
+        "milliseconds",
+        "Condition",
+        "EditorApplication",
+        "timeSinceStartup",
+        "end",
+        "callback"
+    ],
+    "literals": [
+        "\"Condition timedout at {0}:{1}\""
+    ],
+    "variables": [
+        "update",
+        "timeoutsAt",
+        "stack",
+        "f",
+        "end"
+    ],
+    "comments": [
+        "<param name=\"condition\">Function that will be called every frame that returns whether to invoke the callback or not.</param>",
+        "<param name=\"callback\">The callback to be called when the condition becomes true.</param>",
+        "<param name=\"timeoutMs\">Maximum time to wait in milliseconds before cancelling the callback.</param>",
+        "<param name=\"frames\">The number of frames to wait for.</param>",
+        "<param name=\"callback\">The callback to be called after the specified frames.</param>",
+        "<param name=\"milliseconds\">How long to wait until calling the callback, in milliseconds.</param>",
+        "<param name=\"callback\">The callback to be called after the specified time.</param>"
+    ],
+    "docstrings": [
+        "<summary>Utility class for running async tasks within the main thread.</summary>",
+        "<summary>Wait for a condition to become true, then executes the callback.</summary>",
+        "<summary>Wait for the given amount of editor frames, then executes the callback.</summary>",
+        "<summary>Wait for the given time, then executes the callback.</summary>"
+    ],
+    "functions": [
+        "Condition",
+        "Frames",
+        "Milliseconds"
+    ],
+    "classes": [
+        "After"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "launch",
+        "LaunchDescription",
+        "launch_ros",
+        "actions",
+        "Node",
+        "LaunchDescription",
+        "Node",
+        "executable",
+        "name",
+        "output",
+        "emulate_tty",
+        "Node",
+        "executable",
+        "name",
+        "output",
+        "emulate_tty",
+        "Node",
+        "executable",
+        "name",
+        "output",
+        "emulate_tty"
+    ],
+    "literals": [
+        "'space_station_eclss'",
+        "'waste_collector'",
+        "'waste_collection'",
+        "'screen'",
+        "'space_station_eclss'",
+        "'filteration'",
+        "'filteration_node'",
+        "'screen'",
+        "'space_station_eclss'",
+        "'process_water'",
+        "'process_water_node'",
+        "'screen'"
+    ],
+    "variables": [],
+    "comments": [
+        "Node to start the ARS system (ars_system node)",
+        "parameters=['config/ars_sys_params.yaml'],",
+        "Node to start the baking process (baking_process node)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generate_launch_description"
+    ],
+    "classes": []
+}

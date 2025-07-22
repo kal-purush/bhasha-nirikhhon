@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Collections",
+        "ComponentSolverShim",
+        "TwitchModule",
+        "ModInfo",
+        "ComponentSolverFactory",
+        "GetModuleInfo",
+        "GetModuleType",
+        "inputCommand",
+        "inputCommand",
+        "SplitFull",
+        "Length",
+        "RespondToCommandUnshimmed",
+        "inputCommand",
+        "command",
+        "MoveNext",
+        "command",
+        "Current"
+    ],
+    "literals": [
+        "\"sphere\""
+    ],
+    "variables": [
+        "IEnumerator",
+        "command"
+    ],
+    "comments": [
+        "The implementation of sphere is missing a yield return null if the commands are chained."
+    ],
+    "docstrings": [],
+    "functions": [
+        "SphereShim",
+        "IEnumerator",
+        "RespondToCommandShimmed"
+    ],
+    "classes": [
+        "SphereShim"
+    ]
+}

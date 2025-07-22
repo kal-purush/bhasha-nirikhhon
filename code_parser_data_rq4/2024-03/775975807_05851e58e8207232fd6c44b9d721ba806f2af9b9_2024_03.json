@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "model",
+        "colour",
+        "reg",
+        "model",
+        "colour",
+        "reg",
+        "model",
+        "colour",
+        "reg",
+        "Car",
+        "Car",
+        "Car",
+        "carList",
+        "append",
+        "car1",
+        "carList",
+        "append",
+        "car2",
+        "carList",
+        "append",
+        "car3",
+        "i",
+        "carList",
+        "i",
+        "tester"
+    ],
+    "literals": [
+        "f\"Your car: {self.model}, {self.colour}, {self.reg}\"",
+        "\"Toyota\"",
+        "\"Green\"",
+        "\"BD5I SMR\"",
+        "\"Subaru\"",
+        "\"Blue\"",
+        "\"GP3D 9KX\"",
+        "\"Nissan\"",
+        "\"Black\"",
+        "\"TL4P 4ZL\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "model",
+        "colour",
+        "reg",
+        "carList",
+        "car1",
+        "car2",
+        "car3"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "\"\"\"\nCarPark Project\nCoursework for: 4009B Programming for applications\n\n\n@author: 123456789, 100363107\n@date:   19/03/2024\n\n\"\"\"",
+        "\"\"\"\n        A constructor method/initaliser that recieves the model. colour and reg plate as \n        from the class arguments when its called. \n        Args:\n            model (string): The Model of the Car. A string.\n            colour (string): The colour of the Car. A string.\n            reg (string): The registration letters and numbers string.\n        \"\"\"",
+        "\"\"\"\n        The string method returns the constructor variables. It turns them into a string\n        displaying the model, colour and registration in a row.\n        \n        Returns:\n            string: f string with class variable model, colour and reg.\n        \"\"\"",
+        "\"\"\"The testing function - not accessed as part of this file as a library. \n    \"\"\""
+    ],
+    "functions": [
+        "__str__",
+        "tester"
+    ],
+    "classes": [
+        "Car"
+    ]
+}

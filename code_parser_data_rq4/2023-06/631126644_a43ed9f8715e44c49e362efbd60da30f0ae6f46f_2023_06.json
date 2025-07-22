@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "IPieceState",
+        "startIndex",
+        "endIndex",
+        "endIndex",
+        "startIndex",
+        "endIndex",
+        "startIndex",
+        "IPieceState",
+        "startIndex",
+        "endIndex",
+        "IPieceState",
+        "startIndex",
+        "endIndex",
+        "IPieceState",
+        "startIndex",
+        "endIndex",
+        "IPieceState",
+        "startIndex",
+        "endIndex",
+        "IPieceState",
+        "startIndex",
+        "endIndex"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Here we will check if the requested move is valid.\n           Pawn moves: index + 8 (black)\n                       index + 9 (black)\n                       index + 7 (black)\n\n                       index - 8 (white)\n                       index - 9 (white)\n                       index - 7 (white)\n\n            First move: +- 8 or +- 16",
+        "Here we will check if the requested move is valid.",
+        "Here we will check if the requested move is valid.",
+        "Here we will check if the requested move is valid.",
+        "Here we will check if the requested move is valid.",
+        "Here we will check if the requested move is valid."
+    ],
+    "docstrings": [],
+    "functions": [
+        "validateMove",
+        "validateMove",
+        "validateMove",
+        "validateMove",
+        "validateMove",
+        "validateMove"
+    ],
+    "classes": [
+        "PawnState",
+        "KnightState",
+        "BishopState",
+        "RookState",
+        "QueenState",
+        "KingState"
+    ]
+}

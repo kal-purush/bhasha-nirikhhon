@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "require",
+        "mysql",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "dbConn",
+        "err",
+        "err",
+        "err",
+        "connection",
+        "exports",
+        "dbConn"
+    ],
+    "literals": [
+        "'mysql'",
+        "'error connecting: '",
+        "'connected as id '",
+        "'db connection started.. '"
+    ],
+    "variables": [
+        "mysql",
+        "dbConn"
+    ],
+    "comments": [
+        "important",
+        "Connect to the DB",
+        "dbConn.connect(function(err) {\n\t\tif (err) {\n\t\t\tconsole.error('DB: error connecting: ' + err.stack);\n\t\t\treturn;\n\t\t}\n \n\t\tconsole.log('DB: connected as id ' + connection.threadId);\n\t});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "btn",
+        "fetch",
+        "url",
+        "inpWord",
+        "response",
+        "response",
+        "data",
+        "data",
+        "result",
+        "inpWord",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "p",
+        "p",
+        "audioSrc",
+        "sound",
+        "audioSrc",
+        "audioSrc",
+        "audioSrc",
+        "result",
+        "sound"
+    ],
+    "literals": [
+        "\"https://api.dictionaryapi.dev/api/v2/entries/en/\"",
+        "\"result\"",
+        "\"sound\"",
+        "\"search-btn\"",
+        "\"click\"",
+        "\"inp-word\"",
+        "${url}${inpWord}",
+        "<div class=\"word\">\n                        <h3>${inpWord}</h3>\n                        <button onclick=\"playSound()\">\n                            <i class=\"fas fa-volume-up\"></i>\n                        </button>\n                    </div>\n                    <div class=\"details\">\n                        <p>${data[0].meanings[0].partOfSpeech}</p>\n                        <p>/${data[0].phonetic || data[0].phonetics[0].text || \"\"}/</p>\n                    </div>\n                    <p class=\"word-meaning\">\n                       ${data[0].meanings[0].definitions[0].definition}\n                    </p>\n                    <p class=\"word-example\">\n                        ${data[0].meanings[0].definitions[0].example || \"\"}\n                    </p>",
+        "\"\"",
+        "\"\"",
+        "\"src\"",
+        "'https'",
+        "https:${audioSrc}",
+        "<h3 class=\"error\">Couldn't Find The Word</h3>"
+    ],
+    "variables": [
+        "url",
+        "result",
+        "sound",
+        "btn",
+        "inpWord",
+        "audioSrc"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "playSound"
+    ],
+    "classes": []
+}

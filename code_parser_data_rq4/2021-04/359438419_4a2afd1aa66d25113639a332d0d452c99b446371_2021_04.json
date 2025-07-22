@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "demo",
+        "servlet",
+        "chaining",
+        "java",
+        "io",
+        "java",
+        "io",
+        "PrintWriter",
+        "javax",
+        "servlet",
+        "RequestDispatcher",
+        "javax",
+        "servlet",
+        "ServletException",
+        "javax",
+        "servlet",
+        "http",
+        "HttpServlet",
+        "javax",
+        "servlet",
+        "http",
+        "HttpServletRequest",
+        "javax",
+        "servlet",
+        "http",
+        "HttpServletResponse",
+        "serialVersionUID",
+        "request",
+        "response",
+        "response",
+        "setContentType",
+        "response",
+        "getWriter",
+        "rd",
+        "request",
+        "getRequestDispatcher",
+        "rd",
+        "forward",
+        "request",
+        "response",
+        "request",
+        "response",
+        "doGet",
+        "request",
+        "response"
+    ],
+    "literals": [
+        "\"text/html\"",
+        "\"Welcome to first servlet\"",
+        "\"/second\""
+    ],
+    "variables": [],
+    "comments": [
+        "TODO Auto-generated constructor stub",
+        "TODO Auto-generated method stub",
+        "response.getWriter().append(\"Served at: \").append(request.getContextPath());",
+        "rd.include(request, response);",
+        "TODO Auto-generated method stub"
+    ],
+    "docstrings": [
+        "* Servlet implementation class FirstServlet",
+        "* @see HttpServlet#HttpServlet()",
+        "* @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)",
+        "* @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)"
+    ],
+    "functions": [
+        "FirstServlet",
+        "doGet",
+        "doPost"
+    ],
+    "classes": [
+        "FirstServlet"
+    ]
+}

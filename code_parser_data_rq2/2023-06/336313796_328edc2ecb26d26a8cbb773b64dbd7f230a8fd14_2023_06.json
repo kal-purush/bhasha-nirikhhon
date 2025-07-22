@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "body",
+        "body",
+        "requestBody",
+        "body"
+    ],
+    "literals": [
+        "mutation AppExtension($input: CreateAppExtensionInput!) {\n            appExtension {\n                createAppExtension(input: $input) {\n                appExtension {\n                    id\n                    context\n                    label {\n                    defaultValue\n                    locales {\n                        value\n                        localeCode\n                        }\n                    }\n                    model\n                    url\n                    }\n                }\n            }\n        }",
+        "'PANEL'",
+        "'PRODUCTS'",
+        "'/productAppExtension/${id}'",
+        "'View Inside Sample App'",
+        "'View Inside Sample App'",
+        "'en-US'",
+        "'Ver dentro de la aplicación de muestra'",
+        "'es-ES'",
+        "query {\n                store {\n                    appExtensions {\n                        edges {\n                            node {\n                                id\n                            }\n                        }\n                    }\n                }\n            }"
+    ],
+    "variables": [
+        "body",
+        "requestBody",
+        "body"
+    ],
+    "comments": [
+        "Builds the GraphQL mutation required to create a new App Extension",
+        "Builds the GraphQL query required to retrieve all App Extensions installed on a store"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createAppExtension",
+        "getAppExtensions"
+    ],
+    "classes": []
+}

@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'migration1684273295940'",
+        "CREATE TYPE \"public\".\"pos_deposit_heuristic_match_round_enum\" AS ENUM('ONE', 'TWO', 'THREE', 'FOUR')",
+        "ALTER TABLE \"pos_deposit\" ADD \"heuristic_match_round\" \"public\".\"pos_deposit_heuristic_match_round_enum\"",
+        "CREATE TYPE \"public\".\"payment_heuristic_match_round_enum\" AS ENUM('ONE', 'TWO', 'THREE', 'FOUR')",
+        "ALTER TABLE \"payment\" ADD \"heuristic_match_round\" \"public\".\"payment_heuristic_match_round_enum\"",
+        "ALTER TABLE \"payment\" DROP COLUMN \"heuristic_match_round\"",
+        "ALTER TABLE \"payment\" ADD \"heuristic_match_round\" integer",
+        "ALTER TABLE \"pos_deposit\" DROP COLUMN \"heuristic_match_round\"",
+        "ALTER TABLE \"pos_deposit\" ADD \"heuristic_match_round\" integer"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "migration1684273295940"
+    ]
+}

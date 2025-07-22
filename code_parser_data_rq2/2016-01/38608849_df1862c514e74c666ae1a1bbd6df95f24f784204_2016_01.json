@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "com",
+        "google",
+        "common",
+        "java",
+        "util",
+        "concurrent",
+        "TimeUnit",
+        "matcher",
+        "matcher",
+        "TimeUnit",
+        "MILLISECONDS",
+        "toNanos",
+        "currentTimeMillis",
+        "enumClass",
+        "value",
+        "Optional",
+        "of",
+        "Enum",
+        "valueOf",
+        "enumClass",
+        "value",
+        "iae",
+        "Optional",
+        "absent"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "CharMatcher.precomputed() produces CharMatchers that are maybe a little",
+        "faster (and that's debatable), but definitely more memory-hungry. We're",
+        "choosing to turn .precomputed() into a no-op in GWT, because it doesn't",
+        "seem to be a worthwhile tradeoff in a browser.",
+        "System.nanoTime() is not available in GWT, so we get milliseconds",
+        "and convert to nanos."
+    ],
+    "docstrings": [
+        "* Copyright (C) 2009 The Guava Authors\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* @author Jesse Wilson"
+    ],
+    "functions": [
+        "CharMatcher",
+        "precomputeCharMatcher",
+        "systemNanoTime",
+        "getEnumIfPresent",
+        "Platform"
+    ],
+    "classes": [
+        "Platform"
+    ]
+}

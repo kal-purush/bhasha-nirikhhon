@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "castingsample",
+        "numValTypedAny",
+        "numValTypedAny",
+        "someString",
+        "funWithStringReturn",
+        "funWithAnyReturn"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "string",
+        "\"really a string\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"i'a a string\"",
+        "\"i'm a string return\"",
+        "string"
+    ],
+    "variables": [
+        "known",
+        "probably",
+        "known",
+        "itsAString",
+        "itsANumber1",
+        "itsANumber2",
+        "itsANumber3",
+        "numValTypedAny",
+        "b",
+        "c",
+        "d",
+        "numValTypedAny",
+        "someString",
+        "number3",
+        "number5",
+        "iKnowItsAString"
+    ],
+    "comments": [
+        "let number1 = <number>someString; // error",
+        "let number2: number = someString; // error",
+        "let number4: number = funWithStringReturn(); // error",
+        "override inferred return type"
+    ],
+    "docstrings": [],
+    "functions": [
+        "funWithStringReturn",
+        "funWithAnyReturn"
+    ],
+    "classes": []
+}

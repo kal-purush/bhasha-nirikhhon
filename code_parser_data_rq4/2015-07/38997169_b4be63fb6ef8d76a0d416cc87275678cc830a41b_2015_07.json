@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "com",
+        "ibm",
+        "iotf",
+        "sample",
+        "client",
+        "device",
+        "java",
+        "util",
+        "Properties",
+        "com",
+        "google",
+        "gson",
+        "JsonObject",
+        "com",
+        "ibm",
+        "iotf",
+        "client",
+        "device",
+        "DeviceClient",
+        "args",
+        "options",
+        "options",
+        "setProperty",
+        "options",
+        "setProperty",
+        "options",
+        "setProperty",
+        "myClient",
+        "myClient",
+        "options",
+        "e",
+        "e",
+        "printStackTrace",
+        "myClient",
+        "connect",
+        "addProperty",
+        "addProperty",
+        "addProperty",
+        "myClient",
+        "publishEvent",
+        "myClient",
+        "disconnect"
+    ],
+    "literals": [
+        "\"org\"",
+        "\"quickstart\"",
+        "\"type\"",
+        "\"iotsample-arduino\"",
+        "\"id\"",
+        "\"00aabbccde03\"",
+        "\"name\"",
+        "\"foo\"",
+        "\"cpu\"",
+        "\"mem\"",
+        "\"status\"",
+        "\"SUCCESSFULLY POSTED......\""
+    ],
+    "variables": [],
+    "comments": [
+        "Provide the device specific data using Properties class",
+        "Instantiate the class by passing the properties file",
+        "Connect to the IBM IoT Foundation",
+        "Generate a JSON object of the event to be published",
+        "Quickstart flow allows only QoS = 0",
+        "Disconnect cleanly"
+    ],
+    "docstrings": [
+        "*****************************************************************************\n * Copyright (c) 2015 IBM Corporation and other Contributors.\n\n * All rights reserved. This program and the accompanying materials\n * are made available under the terms of the Eclipse Public License v1.0\n * which accompanies this distribution, and is available at\n * http://www.eclipse.org/legal/epl-v10.html\n *\n * Contributors:\n * Amit M Mangalvedkar - Initial Contribution\n *****************************************************************************",
+        "* This sample shows how we can write a device client which publishes events, in a Quickstart mode <br>\n * It uses the Java Client Library for IBM IoT Foundation\n * This sample code should be executed in a JRE running on the device\n *"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "QuickstartDeviceEventPublish"
+    ]
+}

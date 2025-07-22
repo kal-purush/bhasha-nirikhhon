@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "express",
+        "cors",
+        "cartItemsRoutes",
+        "express",
+        "app",
+        "cors",
+        "app",
+        "express",
+        "app",
+        "cartItemsRoutes",
+        "app",
+        "port",
+        "port"
+    ],
+    "literals": [
+        "'express'",
+        "\"cors\"",
+        "\"../src/routes/cart-items\"",
+        "\"/\"",
+        "Listening on port: ${port}."
+    ],
+    "variables": [
+        "app",
+        "port"
+    ],
+    "comments": [
+        "require the express module",
+        "require the cors module",
+        "creates an instance of an Express server",
+        "enable Cross Origin Resource Sharing so this API can be used from web-apps on other domains",
+        "allow POST and PUT requests to use JSON bodies",
+        "define the port",
+        "run the server"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

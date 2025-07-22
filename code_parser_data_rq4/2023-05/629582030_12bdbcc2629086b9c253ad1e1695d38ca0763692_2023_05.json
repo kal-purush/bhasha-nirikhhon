@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "defineConfig",
+        "react",
+        "defineConfig",
+        "react",
+        "process",
+        "process",
+        "process"
+    ],
+    "literals": [
+        "'vite'",
+        "'@vitejs/plugin-react'",
+        "'VITE_'",
+        "'TAURI_'",
+        "'windows'",
+        "'chrome105'",
+        "'safari13'",
+        "'esbuild'"
+    ],
+    "variables": [],
+    "comments": [
+        "https://vitejs.dev/config/",
+        "Vite options tailored for Tauri development and only applied in `tauri dev` or `tauri build`",
+        "prevent vite from obscuring rust errors",
+        "tauri expects a fixed port, fail if that port is not available",
+        "to make use of `TAURI_DEBUG` and other env variables",
+        "https://tauri.studio/v1/api/config#buildconfig.beforedevcommand",
+        "Tauri supports es2021",
+        "don't minify for debug builds",
+        "produce sourcemaps for debug builds"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

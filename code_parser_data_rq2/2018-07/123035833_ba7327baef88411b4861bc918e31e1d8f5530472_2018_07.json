@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "require",
+        "timeseconds",
+        "getRealValue",
+        "value",
+        "value",
+        "temp",
+        "temp",
+        "total",
+        "total",
+        "total",
+        "Web3",
+        "total",
+        "getRealValue"
+    ],
+    "literals": [
+        "'web3'",
+        "\"temp is \"",
+        "\"total is \"",
+        "\"real withdraw value is \""
+    ],
+    "variables": [
+        "Web3",
+        "timeseconds",
+        "getRealValue",
+        "temp",
+        "total",
+        "multiple",
+        "left"
+    ],
+    "comments": [
+        "'use strict';",
+        "var realValue = Web3.utils.toHex(10000 * 1e18);",
+        "console.log(\"real withdraw value is \", realValue);",
+        "web3.utils.toBN(requestObject.value).mul(web3.utils.toBN(DECIMAL));",
+        "return Web3.utils.toBN(multiple).mul(Web3.utils.toBN(1e18)).add(Web3.utils.toBN(left));",
+        "var nowtime = new Date().getTime() / 1000;",
+        "console.log(nowtime);",
+        "var newtime = new Date(1520867875 * 1000);",
+        "console.log(newtime);",
+        "var endtime = new Date(2018, 2, 12, 14, 5, 17).getTime() / 1000;",
+        "var mul = (1520867875 - endtime) / 600;",
+        "console.log(mul);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

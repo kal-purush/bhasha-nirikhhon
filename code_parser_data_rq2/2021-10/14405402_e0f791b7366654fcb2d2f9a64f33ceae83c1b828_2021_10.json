@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "json",
+        "yaml",
+        "open",
+        "fh",
+        "yaml",
+        "dump",
+        "json",
+        "load",
+        "fh"
+    ],
+    "literals": [
+        "\"task.json\"",
+        "'extra'",
+        "'action'",
+        "'context'",
+        "'input'"
+    ],
+    "variables": [],
+    "comments": [
+        "!/usr/bin/env python"
+    ],
+    "docstrings": [
+        "\"\"\"Print a given Release Promotion task's input as yaml.\n\nThe input used to generate a given Release Promotion task is baked into\n``task.extra.action.context.input``, but it's in json format. Let's output it\nas yaml for easier manipulation.\n\nWrite the Release Promotion action to `task.json` in the current directory,\nthen run this script.\n\nRequires PyYAML; written+tested with PyYAML==5.4.1, python 3.7.4\n\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

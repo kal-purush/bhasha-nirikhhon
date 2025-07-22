@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "com",
+        "tenco",
+        "bank",
+        "controller",
+        "com",
+        "tenco",
+        "bank",
+        "handler",
+        "exception",
+        "DataDeliveryException",
+        "com",
+        "tenco",
+        "bank",
+        "handler",
+        "exception",
+        "RedirectException",
+        "org",
+        "springframework",
+        "http",
+        "HttpStatus",
+        "org",
+        "springframework",
+        "stereotype",
+        "Controller",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "GetMapping",
+        "Controller",
+        "GetMapping",
+        "HttpStatus",
+        "UNAUTHORIZED"
+    ],
+    "literals": [
+        "\"/main-page\"",
+        "\"/index\"",
+        "\"/\"",
+        "\"메시지가 몰라? \""
+    ],
+    "variables": [],
+    "comments": [
+        "SSR 으로 랜더링 됨",
+        "IoC 대상(싱글톤 패턴 관리가 된다.) --> 제어의 역전",
+        "REST API  기반으로 주소설계 가능",
+        "// http:localhost:8080/main-page",
+        "주소설계",
+        "http:localhost:8080/main-page",
+        "@ResponseBody",
+        "throw new DataDeliveryException(\"메시지가 몰라? \", HttpStatus.UNAUTHORIZED);",
+        "System.out.println(\"🔴 mainPage() 호출 확인\");",
+        "[JSP 파일 찾기 (yml 설정) ] - 뷰 리졸버",
+        "prefix: /WEB-INF/view",
+        "/main",
+        "suffix: .jsp",
+        "/WEB-INF/view/main/.jsp",
+        "return \"/main\";"
+    ],
+    "docstrings": [],
+    "functions": [
+        "mainPage"
+    ],
+    "classes": [
+        "MainController"
+    ]
+}

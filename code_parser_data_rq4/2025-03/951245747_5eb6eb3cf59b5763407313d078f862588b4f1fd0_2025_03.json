@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "URLSearchParams",
+        "urlParams",
+        "ev",
+        "newUrl",
+        "newUrl",
+        "newUrl"
+    ],
+    "literals": [
+        "'imprimirActividad'",
+        "'click'",
+        "'ev'",
+        "${window.location.origin}/actividad_imprimir.php?ev=${ev}",
+        "''",
+        "URL cambiada a: ${newUrl}"
+    ],
+    "variables": [
+        "urlParams",
+        "ev",
+        "newUrl"
+    ],
+    "comments": [
+        "Obtener el parámetro de la URL actual",
+        "Construir la nueva URL",
+        "Cambiar la URL sin recargar la página",
+        "Opcional: Puedes agregar aquí una llamada AJAX para obtener datos adicionales",
+        "o ejecutar alguna lógica después de cambiar la URL."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

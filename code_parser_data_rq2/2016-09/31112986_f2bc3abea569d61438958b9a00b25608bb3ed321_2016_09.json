@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "gobblin",
+        "data",
+        "management",
+        "version",
+        "java",
+        "util",
+        "org",
+        "apache",
+        "hadoop",
+        "fs",
+        "FileStatus",
+        "FileStatusAware"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (C) 2014-2016 LinkedIn Corp. All rights reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use\n * this file except in compliance with the License. You may obtain a copy of the\n * License at  http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software distributed\n * under the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR\n * CONDITIONS OF ANY KIND, either express or implied.",
+        "* A {@link FileSystemDatasetVersion} that is aware {@link FileStatus}s or its paths",
+        "* Get the set of {@link FileStatus}s that are included in this dataset version or the {@link FileStatus} of the dataset\n   * version itself (In which case the set has one file status).\n   *"
+    ],
+    "functions": [
+        "getFileStatuses"
+    ],
+    "classes": []
+}

@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "org",
+        "dromara",
+        "dynamictp",
+        "jvmti",
+        "klass",
+        "limit"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Licensed to the Apache Software Foundation (ASF) under one or more\n * contributor license agreements.  See the NOTICE file distributed with\n * this work for additional information regarding copyright ownership.\n * The ASF licenses this file to You under the Apache License, Version 2.0\n * (the \"License\"); you may not use this file except in compliance with\n * the License.  You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Use JVMTI technology to implement some things that Java code can't do.\n *\n * <p>Note: Do not delete this file!\n *\n * <p>Note: Only 64-bit CPU architecture is supported now !\n *\n * @author dragon-zhang\n * @since 1.1.4",
+        "* Get all current surviving instances of a class in the jvm.\n\t *\n\t * <p>Note: Only 64-bit CPU architecture is supported now !\n\t *\n\t * @param klass class type\n\t * @param <T>   class type\n\t * @param limit instance limit, less than 0 means no limit\n\t * @return current surviving instances",
+        "* Force GC, even if JVM parameters are configured."
+    ],
+    "functions": [
+        "getInstances0",
+        "forceGc"
+    ],
+    "classes": [
+        "JVMTI"
+    ]
+}

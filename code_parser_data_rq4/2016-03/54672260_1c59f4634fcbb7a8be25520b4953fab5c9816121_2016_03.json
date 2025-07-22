@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "Restaurant",
+        "Component",
+        "EventEmitter"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./restaurant.model'",
+        "'edit-restaurant-details'",
+        "'restaurant'",
+        "'onEndEdit'",
+        "<div class=\"restaurant-form\">\n      <h4>Edit Restaurant Information</h4>\n      <input [(ngModel)]=\"restaurant.name\" class=\"input-lg\">\n      <input [(ngModel)]=\"restaurant.specialty\" class=\"input-lg\">\n      <input [(ngModel)]=\"restaurant.address\" class=\"input-lg\">\n      <input [(ngModel)]=\"restaurant.price\" type=\"text\" class=\"input-lg\">\n      <button (click)=endEdit() class=\"btn-success btn-lg add-button\">Done Editing</button>\n      <button (click)=deleteRestaurant() class=\"btn-success btn-lg add-button\">Delete Restaurant</button>\n    </div>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "endEdit",
+        "deleteRestaurant"
+    ],
+    "classes": [
+        "EditRestaurantDetailsComponent"
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "DangerResults",
+        "DangerDSLType",
+        "MarkdownString",
+        "message",
+        "message",
+        "message",
+        "message",
+        "dsl",
+        "fail",
+        "message",
+        "results",
+        "warn",
+        "message",
+        "results",
+        "message",
+        "message",
+        "results",
+        "markdown",
+        "message",
+        "results",
+        "message",
+        "dsl"
+    ],
+    "literals": [
+        "'../dsl/DangerResults'",
+        "'../dsl/DangerDSL'",
+        "'../dsl/Aliases'"
+    ],
+    "variables": [
+        "results",
+        "fail",
+        "warn",
+        "message",
+        "markdown"
+    ],
+    "comments": [
+        "Typical console",
+        "Creates a Danger context, this provides all of the global functions\n *  which are available to the Danger eval runtime.\n *\n * @param {DangerDSLType} dsl The DSL which is turned into `danger`\n * @returns {DangerContext} a DangerContext-like API"
+    ],
+    "docstrings": [
+        "* Fails a build, outputting a specific reason for failing\n   *\n   * @param {MarkdownString} message the String to output",
+        "* Highlights low-priority issues, does not fail the build\n   *\n   * @param {MarkdownString} message the String to output",
+        "* Puts a message inside the Danger table\n   *\n   * @param {MarkdownString} message the String to output",
+        "* Puts a message inside the Danger table\n   *\n   * @param {MarkdownString} message the String to output",
+        "* The Danger object to work with\n   *\n   * @type {DangerDSLType}",
+        "* Results of a Danger run\n   *\n   * @type {DangerDSLType}"
+    ],
+    "functions": [
+        "contextForDanger"
+    ],
+    "classes": []
+}

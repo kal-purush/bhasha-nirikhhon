@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "fetch",
+        "repos",
+        "response",
+        "displayRepos",
+        "repos",
+        "lastIndex",
+        "lastIndex",
+        "nextRepos",
+        "repo",
+        "repo",
+        "repo",
+        "repo",
+        "repo",
+        "projectsDiv",
+        "card",
+        "lastIndex",
+        "lastIndex",
+        "repos",
+        "displayRepos",
+        "fetchGitHubRepos"
+    ],
+    "literals": [
+        "'https://api.github.com/users/juliarodriguesamaral/repos'",
+        "'projetos'",
+        "<div class=\"card rounded shadow-lg p-4 w-full sm:bg-white sm:text-black md:bg-white md:text-black\" id=\"card1\">\n                <h2 class=\"text-xl font-bold card-title\">${repo.name}</h2>\n                <i class=\"fab fa-${repo.language ? repo.language.toLowerCase() : 'code'} card-icon\"></i>\n                <p class=\"text-sm mt-2 card-description\">${repo.description || 'Sem descrição'}</p>\n            </div>",
+        "'code'",
+        "'Sem descrição'",
+        "'loadMore'",
+        "'loadMore'",
+        "'click'"
+    ],
+    "variables": [
+        "repos",
+        "lastIndex",
+        "response",
+        "projectsDiv",
+        "nextRepos",
+        "card"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "fetchGitHubRepos",
+        "displayRepos"
+    ],
+    "classes": []
+}

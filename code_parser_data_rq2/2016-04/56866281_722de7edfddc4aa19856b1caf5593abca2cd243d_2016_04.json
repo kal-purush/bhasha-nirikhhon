@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "org",
+        "dc",
+        "jdbc",
+        "core",
+        "org",
+        "dc",
+        "jdbc",
+        "core",
+        "inter",
+        "InitHandler",
+        "org",
+        "dc",
+        "jdbc",
+        "core",
+        "inter",
+        "TypeFactory",
+        "org",
+        "dc",
+        "jdbc",
+        "core",
+        "sqlhandler",
+        "SQLHandler",
+        "org",
+        "dc",
+        "jdbc",
+        "entity",
+        "SqlEntity",
+        "firsthandle",
+        "handle",
+        "handle",
+        "setSuccessor",
+        "firsthandle",
+        "firsthandle",
+        "handle",
+        "initHandlers",
+        "i",
+        "i",
+        "initHandlers",
+        "length",
+        "i",
+        "initHandlers",
+        "i",
+        "init",
+        "e",
+        "e",
+        "printStackTrace",
+        "sqlOrID",
+        "firsthandle",
+        "handleRequest",
+        "sqlOrID",
+        "typeFactory"
+    ],
+    "literals": [],
+    "variables": [
+        "initHandlers"
+    ],
+    "comments": [],
+    "docstrings": [
+        "ublic  SQLHandler registerSQLHandle(SQLHandler...handles){\n\t\tint len = handles.length;\n\t\tfor (int i = len; i > 0; i--) {\n\t\t\tif(i>1){\n\t\t\t\tSQLHandler handle_one = handles[i-1];\n\t\t\t\tSQLHandler handle_two = handles[i-2];\n\t\t\t\thandle_one.setSuccessor(handle_two);\n\t\t\t}\n\t\t}\n\t\tfirsthandle = handles[handles.length-1];\n\t\treturn firsthandle;\n\t}"
+    ],
+    "functions": [
+        "registerSQLHandle",
+        "registerInit",
+        "SqlEntity",
+        "handleRequest",
+        "setTypeChange"
+    ],
+    "classes": [
+        "ContextHandle"
+    ]
+}

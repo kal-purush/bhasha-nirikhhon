@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "bs4",
+        "BeautifulSoup",
+        "model",
+        "OpeningHours",
+        "staticmethod",
+        "raw_html",
+        "BeautifulSoup",
+        "raw_html",
+        "soup",
+        "find_all",
+        "class_",
+        "time_class_list",
+        "text",
+        "OpeningHours",
+        "opening_hours_str",
+        "opening_hours"
+    ],
+    "literals": [
+        "\"html.parser\"",
+        "'time'"
+    ],
+    "variables": [
+        "soup",
+        "time_class_list",
+        "opening_hours_str",
+        "opening_hours"
+    ],
+    "comments": [
+        "現在の仕様では先頭のものがパークの営業時間"
+    ],
+    "docstrings": [
+        "\"\"\"\n        HTMLを受け取り開園時間情報を返す。\n\n        Returns:\n        --------\n        opening_hours : Obj\n            開園時間情報クラスオブジェクト\n        \"\"\""
+    ],
+    "functions": [
+        "parse_html"
+    ],
+    "classes": [
+        "OpeningHoursParser"
+    ]
+}

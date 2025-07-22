@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "describe",
+        "beforeAll",
+        "jasmine",
+        "loadFixtures",
+        "initTagForm",
+        "xit",
+        "$",
+        "setTimeout",
+        "expect",
+        "$",
+        "xit",
+        "done",
+        "addTag",
+        "el",
+        "e",
+        "response",
+        "setTimeout",
+        "done"
+    ],
+    "literals": [
+        "\"Tagging\"",
+        "\"../../spec/javascripts/fixtures\"",
+        "'tagging.html'",
+        "\"tests tag deletion\"",
+        "'tags.label:first a.tag-delete'",
+        "'click'",
+        "'tags.label:first a.tag-delete'",
+        "'opacity'",
+        "\"adds a tag\"",
+        "'boss'",
+        "'ajax:success'"
+    ],
+    "variables": [
+        "editor"
+    ],
+    "comments": [
+        "= require application",
+        "= require jasmine-jquery",
+        "= require tagging",
+        "for phantomjs running",
+        "this should test addTag(tagname, selector) from tagging.js, which is an ajax request",
+        "expect tag to be greyed out",
+        "this should test addTag(tagname, selector) from tagging.js, which is an ajax request",
+        "drop the test expectations to the bottom of the task queue",
+        "assert tag properly constructed here",
+        "expect($('#tag_...).toBe(true);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

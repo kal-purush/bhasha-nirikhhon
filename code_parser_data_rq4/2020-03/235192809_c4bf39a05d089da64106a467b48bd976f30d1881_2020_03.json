@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "torch",
+        "utils",
+        "data",
+        "tu",
+        "tu",
+        "Dataset",
+        "dataset",
+        "indices",
+        "dataset",
+        "indices",
+        "idx",
+        "dataset",
+        "indices",
+        "idx",
+        "len",
+        "indices"
+    ],
+    "literals": [
+        "r\"\"\"\n    Subset of a dataset at specified indices.\n\n    Arguments:\n        dataset (Dataset): The whole Dataset\n        indices (sequence): Indices in the whole set selected for subset\n    \"\"\""
+    ],
+    "variables": [
+        "dataset",
+        "indices"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "__getitem__",
+        "__len__"
+    ],
+    "classes": [
+        "Subset"
+    ]
+}

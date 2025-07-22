@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "StorybookConfig",
+        "options",
+        "options",
+        "options",
+        "options",
+        "config"
+    ],
+    "literals": [
+        "'@storybook/nextjs'",
+        "'@storybook/nextjs'",
+        "'../src/components/**/*.stories.mdx'",
+        "'../src/components/**/*.stories.@(js|jsx|ts|tsx)'",
+        "'@storybook/addon-links'",
+        "'@storybook/addon-essentials'",
+        "'@storybook/addon-interactions'",
+        "'@emotion/babel-preset-css-prop'",
+        "'babel-plugin-twin'",
+        "'babel-plugin-macros'"
+    ],
+    "variables": [
+        "config"
+    ],
+    "comments": [
+        "https://storybook.js.org/docs/react/configure/frameworks#which-frameworks-are-supported",
+        "Twin recommends adding the babel config here as Next.js disables SWC when .babelrc is added to the root."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

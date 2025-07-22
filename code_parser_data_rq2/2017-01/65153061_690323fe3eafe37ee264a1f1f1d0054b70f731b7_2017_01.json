@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "fromResource",
+        "IResource",
+        "interval",
+        "interval",
+        "tickers",
+        "interval",
+        "interval",
+        "tickers",
+        "interval",
+        "createIntervalTicker",
+        "interval",
+        "tickers",
+        "interval",
+        "createAnimationFrameTicker",
+        "tickers",
+        "interval",
+        "interval",
+        "fromResource",
+        "sink",
+        "subscriptionHandle",
+        "setInterval",
+        "sink",
+        "interval",
+        "clearInterval",
+        "subscriptionHandle",
+        "fromResource",
+        "sink",
+        "sink",
+        "frameBasedTicker",
+        "scheduleTick",
+        "scheduleTick",
+        "frameBasedTicker"
+    ],
+    "literals": [
+        "\"./from-resource\"",
+        "string",
+        "\"frame\"",
+        "\"number\""
+    ],
+    "variables": [
+        "tickers",
+        "subscriptionHandle",
+        "subscriptionHandle",
+        "frameBasedTicker"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Returns the current date time as epoch number.\n * The date time is read from an observable which is updated automatically after the given interval.\n * So basically it treats time as an observable.\n *\n * The function takes an interval as parameter, which indicates how often `now()` will return a new value.\n * If no interval is given, it will update each second. If \"frame\" is specified, it will update each time a\n * `requestAnimationFrame` is available.\n *\n * Multiple clocks with the same interval will automatically be synchronized.\n *\n * @example\n *\n * const start = Date.now()\n *\n * autorun(() => {\n *   console.log(\"Seconds elapsed: \", (mobxUtils.now() - start) / 1000)\n * })\n *\n *\n * @export\n * @param {(number | \"frame\")} [interval=1000] interval in milliseconds about how often the interval should update\n * @returns"
+    ],
+    "functions": [
+        "now",
+        "createIntervalTicker",
+        "createAnimationFrameTicker",
+        "scheduleTick"
+    ],
+    "classes": []
+}

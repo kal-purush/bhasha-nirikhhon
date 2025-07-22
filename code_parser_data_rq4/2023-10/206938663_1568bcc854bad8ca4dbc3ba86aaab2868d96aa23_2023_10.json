@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Routing",
+        "Collections",
+        "Generic",
+        "Diagnostics",
+        "CodeAnalysis",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Aguacongas",
+        "IdentityServer",
+        "Admin",
+        "Configuration",
+        "Attribute",
+        "IRouteTemplateProvider",
+        "StringSyntax",
+        "template",
+        "Template",
+        "ApiBasePath",
+        "Value",
+        "template",
+        "ArgumentNullException",
+        "nameof",
+        "template",
+        "StringSyntax",
+        "_order",
+        "_order",
+        "value",
+        "IRouteTemplateProvider",
+        "_order"
+    ],
+    "literals": [
+        "\"Route\"",
+        "\"Route\""
+    ],
+    "variables": [
+        "_order",
+        "Template",
+        "Order",
+        "Order",
+        "Name"
+    ],
+    "comments": [
+        "Api route attribute",
+        "</summary>",
+        "Creates a new <see cref=\"ApiRouteAttribute\"/> with the given route template.",
+        "</summary>",
+        "<param name=\"template\">The route template. May not be null.</param>",
+        "<inheritdoc />",
+        "Gets the route order. The order determines the order of route execution. Routes with a lower order",
+        "value are tried first. If an action defines a route by providing an <see cref=\"IRouteTemplateProvider\"/>",
+        "with a non <c>null</c> order, that order is used instead of this value. If neither the action nor the",
+        "controller defines an order, a default value of 0 is used.",
+        "</summary>",
+        "<inheritdoc />",
+        "<inheritdoc />"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "ApiRouteAttribute"
+    ],
+    "classes": [
+        "ApiRouteAttribute"
+    ]
+}

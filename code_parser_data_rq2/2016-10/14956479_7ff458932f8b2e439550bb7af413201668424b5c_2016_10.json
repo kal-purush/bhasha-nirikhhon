@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "buttonObj",
+        "noticeKey",
+        "remindWhen",
+        "noticeKey",
+        "remindWhen",
+        "jQuery",
+        "ajaxurl",
+        "data",
+        "response",
+        "jQuery",
+        "response",
+        "jQuery",
+        "data",
+        "jQuery",
+        "jQuery",
+        "jQuery",
+        "ajaxurl",
+        "jQuery",
+        "jQuery",
+        "jQuery",
+        "$",
+        "$",
+        "tiptip_args",
+        "$",
+        "initTooltips"
+    ],
+    "literals": [
+        "'action'",
+        "'adplugg_set_notice_pref'",
+        "'notice_key'",
+        "'remind_when'",
+        "'#'",
+        "'a.adplugg-rating-link'",
+        "'adplugg_rated'",
+        "'rated'",
+        "'attribute'",
+        "'data-tip'",
+        "'fadeIn'",
+        "'fadeOut'",
+        "'delay'",
+        "'.tips, .help_tip, .woocommerce-help-tip'"
+    ],
+    "variables": [
+        "data",
+        "data",
+        "tiptip_args"
+    ],
+    "comments": [
+        "since 2.8 ajaxurl is always defined in the admin header and points to admin-ajax.php",
+        "alert('Got this from the server: ' + data.notice_key);",
+        "var wrapper = $( '#woocommerce-product-data' );",
+        "$( '.woocommerce_variations .tips, .woocommerce_variations .help_tip, .woocommerce_variations .woocommerce-help-tip', wrapper ).tipTip({\n        'attribute': 'data-tip',\n        'fadeIn':    50,\n        'fadeOut':   50,\n        'delay':     200\n    });",
+        "$( document.body )",
+        ".on( 'init_tooltips', function() {",
+        "Add tiptip to parent element for widefat tables",
+        "$( '.parent-tips' ).each( function() {",
+        "$( this ).closest( 'a, th' ).attr( 'data-tip', $( this ).data( 'tip' ) ).tipTip( tiptip_args ).css( 'cursor', 'help' );",
+        "});",
+        "})",
+        ";",
+        "$(document).ready(function($){\n        \n    }",
+        "$( document ).ready.trigger( 'init_tooltips' );"
+    ],
+    "docstrings": [
+        "* Style for AdPlugg in the administrator.\n * @package AdPlugg\n * @since 1.2.0",
+        "* Function that is called when a notice button is clicked.\n * @param {object} buttonObj The button calling the function.\n * @param {string} noticeKey The noticeKey of the notice.\n * @param {string} remindWhen When to remind (ex. '+30 days'), or null to never\n * remind again.\n * @returns {boolean} Retruns false;",
+        "* Set the rating link click action\n * @param {type} param"
+    ],
+    "functions": [
+        "adpluggPostNoticePref",
+        "initTooltips"
+    ],
+    "classes": []
+}

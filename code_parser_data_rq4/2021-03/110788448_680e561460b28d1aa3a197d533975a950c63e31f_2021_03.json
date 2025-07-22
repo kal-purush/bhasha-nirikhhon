@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "vscode",
+        "fs",
+        "path",
+        "inject",
+        "injectable",
+        "IExtensionSingleActivationService",
+        "ICommandManager",
+        "EXTENSION_ROOT_DIR",
+        "injectable",
+        "inject",
+        "ICommandManager",
+        "commandManager",
+        "path",
+        "EXTENSION_ROOT_DIR",
+        "vscode",
+        "templ",
+        "fs",
+        "templ"
+    ],
+    "literals": [
+        "'use strict'",
+        "'vscode'",
+        "'fs-extra'",
+        "'path'",
+        "'inversify'",
+        "'../../../activation/types'",
+        "'../types'",
+        "'../../../constants'",
+        "'python.reportIssue'",
+        "'resources'",
+        "'report_issue_template.md'",
+        "'workbench.action.openIssueReporter'",
+        "'ms-python.python'",
+        "string",
+        "'utf8'"
+    ],
+    "variables": [
+        "templ",
+        "templ"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft Corporation. All rights reserved.",
+        "Licensed under the MIT License."
+    ],
+    "docstrings": [
+        "* Allows the user to report an issue related to the Python extension using our template."
+    ],
+    "functions": [
+        "activate",
+        "openReportIssue",
+        "getIssueTemplate"
+    ],
+    "classes": [
+        "ReportIssueCommandHandler"
+    ]
+}

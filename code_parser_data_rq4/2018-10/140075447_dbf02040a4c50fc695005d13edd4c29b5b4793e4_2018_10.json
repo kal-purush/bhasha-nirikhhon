@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "require",
+        "Client",
+        "createDb",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "Client",
+        "process",
+        "process",
+        "process",
+        "clientToPostgresDb",
+        "clientToPostgresDb",
+        "databaseName",
+        "clientToPostgresDb",
+        "databaseName",
+        "e",
+        "Client",
+        "process",
+        "process",
+        "process",
+        "databaseName",
+        "clientToDb",
+        "clientToDb",
+        "e",
+        "e",
+        "createDb"
+    ],
+    "literals": [
+        "'dotenv'",
+        "'pg'",
+        "'test'",
+        "process.env.ENVIROMENT: ${process.env.ENVIROMENT}",
+        "'prod'",
+        "Can't change prod database",
+        "'create/renew-database'",
+        "'test'",
+        "'postgres'",
+        "DROP DATABASE IF EXISTS ${databaseName};",
+        "CREATE DATABASE ${databaseName};",
+        "'CREATE DB err -> this is probably not error... just db is already created'",
+        "CREATE EXTENSION IF NOT EXISTS unaccent;",
+        "'create/renew-database'"
+    ],
+    "variables": [
+        "createDb",
+        "databaseName",
+        "clientToPostgresDb",
+        "clientToDb"
+    ],
+    "comments": [
+        "tslint:disable-next-line",
+        "create the connection to database"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "unicode_literals",
+        "frappe",
+        "frappe",
+        "model",
+        "Document",
+        "frappe",
+        "utils",
+        "csvutils",
+        "read_csv_content",
+        "frappe",
+        "core",
+        "doctype",
+        "data_import",
+        "exporter_new",
+        "Exporter",
+        "Document",
+        "import_file",
+        "frappe",
+        "get_doc",
+        "import_file",
+        "f",
+        "get_content",
+        "read_csv_content",
+        "file_content",
+        "csv_content",
+        "frappe",
+        "whitelist",
+        "doctype",
+        "export_fields",
+        "export_records",
+        "export_filters",
+        "file_type",
+        "frappe",
+        "parse_json",
+        "export_fields",
+        "frappe",
+        "parse_json",
+        "export_filters",
+        "Exporter",
+        "doctype",
+        "export_fields",
+        "export_fields",
+        "export_data",
+        "export_filters",
+        "export_filters",
+        "file_type",
+        "file_type",
+        "e",
+        "build_csv_response"
+    ],
+    "literals": [
+        "'File'",
+        "'file_url'",
+        "'CSV'"
+    ],
+    "variables": [
+        "f",
+        "file_content",
+        "csv_content",
+        "export_fields",
+        "export_filters",
+        "e"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "Copyright (c) 2019, Frappe Technologies and contributors",
+        "For license information, please see license.txt"
+    ],
+    "docstrings": [
+        "\"\"\"\n\tDownload template from Exporter\n\t\t:param doctype: Document Type\n\t\t:param export_fields=None: Fields to export as dict {'Sales Invoice': ['name', 'customer'], 'Sales Invoice Item': ['item_code']}\n\t\t:param export_records=None: One of 'all', 'last_10_records', 'by_filter'\n\t\t:param export_filters: Filter dict\n\t\t:param file_type: File type to export into\n\t\"\"\""
+    ],
+    "functions": [
+        "get_preview_from_template",
+        "download_template"
+    ],
+    "classes": [
+        "DataImportBeta"
+    ]
+}

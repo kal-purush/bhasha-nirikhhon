@@ -1,0 +1,92 @@
+{
+    "identifiers": [
+        "MongoClient",
+        "Collection",
+        "InsertWriteOpResult",
+        "UpdateWriteOpResult",
+        "DeleteWriteOpResultObject",
+        "UpdateManyOptions",
+        "FilterQuery",
+        "UpdateQuery",
+        "url",
+        "dbName",
+        "MongoClient",
+        "url",
+        "dbName",
+        "collection",
+        "db",
+        "collection",
+        "collectionName",
+        "elements",
+        "collectionName",
+        "collection",
+        "elements",
+        "collectionName",
+        "query",
+        "collectionName",
+        "collection",
+        "query",
+        "collectionName",
+        "query",
+        "updater",
+        "options",
+        "collectionName",
+        "collection",
+        "query",
+        "updater",
+        "options",
+        "collectionName",
+        "query",
+        "collectionName",
+        "collection",
+        "query",
+        "collectionName",
+        "collectionName"
+    ],
+    "literals": [
+        "'mongodb'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "db",
+        "collection",
+        "collection",
+        "collection",
+        "collection"
+    ],
+    "comments": [
+        "Database wrapper"
+    ],
+    "docstrings": [
+        "* Promise which connects to the mongodb server\n   *\n   * @type {Promise<MongoClient>}\n   * @private",
+        "* Name of the database\n   *\n   * @type {string}\n   * @private",
+        "* Creates an instance of Database\n   *\n   * @this {Database}\n   * @param {string} url - mongodb adress\n   * @constructor",
+        "* Returns the collection promise from the mongodb server\n   *\n   * @this {Database}\n   * @param {string} collection - name of the collection what user needs\n   * @private",
+        "* Inserts elements in the database\n   *\n   * @this {Database}\n   * @param {string} collectionName - name of the collection\n   * @param {...object} elements - elements are need to be inserted\n   * @param {Promise<InsertWriteOpResult>} - answer from mongodb",
+        "* Finds elements in the database\n   *\n   * @this {Database}\n   * @param {string} collectionName - name of the collection\n   * @param {FilterQuery} query - filter for the collection\n   * @returns {Promise<any[]>} Array of the finding objects",
+        "* Updates elements in the database\n   *\n   * @this {Database}\n   * @param {string} collectionName - name of the collection\n   * @param {FilterQuery} query - filter for the collection\n   * @param {UpdateQuery} updater - rules for the update\n   * @param {UpdateManyOptions} options\n   * @returns {Promise<UpdateWriteOpResult>} - answer from mongodb",
+        "* Removes elements in the database\n   *\n   * @this {Database}\n   * @param {string} collectionName - name of the collection\n   * @param {object} query - filter for the collection\n   * @returns {Promise<WriteOpResult>} - answer from mongodb",
+        "* Removes collection from the database\n   *\n   * @this {Database}\n   * @param {string} collectionName - name of the collection\n   * @async\n   * @return {Promise<any>} - answer from mongodb",
+        "* Clears all the database\n   *\n   * @this {Database}\n   * @async\n   * @return {Promise<void>}"
+    ],
+    "functions": [
+        "getCollection",
+        "insert",
+        "find",
+        "update",
+        "remove",
+        "removeCollection",
+        "reset"
+    ],
+    "classes": [
+        "Database"
+    ]
+}

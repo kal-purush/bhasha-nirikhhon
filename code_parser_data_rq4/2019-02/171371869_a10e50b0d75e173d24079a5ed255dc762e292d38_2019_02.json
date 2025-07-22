@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "app",
+        "require",
+        "http",
+        "process",
+        "app",
+        "req",
+        "res",
+        "res",
+        "__dirname",
+        "io",
+        "socket",
+        "socket",
+        "msg",
+        "io",
+        "msg",
+        "msg",
+        "http",
+        "port",
+        "port"
+    ],
+    "literals": [
+        "'express'",
+        "'http'",
+        "'socket.io'",
+        "'/'",
+        "'/index.html'",
+        "'connection'",
+        "'chat message'",
+        "'chat message'",
+        "\"Msg: \"",
+        "'listening on *:'"
+    ],
+    "variables": [
+        "app",
+        "http",
+        "io",
+        "port"
+    ],
+    "comments": [
+        "Cria um app EXPRESS que usa uma conexão",
+        "http como servidor deste aplicativo",
+        "que realiza um conexão a de socket deste app",
+        "socket.io= bilbioteca que permite conexão",
+        "entre o servidor e o navegador",
+        "a aplicação sendo iniciada com o host padrão,",
+        "ou seja, \"localhost\" ou \"www.google.com\"",
+        "ela verá a \"/\" e carregará o index.html",
+        "o objeto io usara a connection para carregar uma",
+        "função de socket (comunicação) que usará",
+        "o \"chat message\" como parametro de entrada do",
+        "io.emit (que 'emite' uma msg  na tela);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

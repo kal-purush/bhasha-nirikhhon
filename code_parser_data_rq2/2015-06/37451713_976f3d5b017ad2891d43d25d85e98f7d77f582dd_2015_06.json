@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "a",
+        "a"
+    ],
+    "literals": [
+        "\"best\"",
+        "\"let: \"",
+        "\"string\"",
+        "\"let: \""
+    ],
+    "variables": [
+        "a",
+        "b",
+        "c",
+        "a",
+        "a"
+    ],
+    "comments": [
+        "var a: string = \"hello world\";\nconsole.log(a);",
+        "var a: number = 6.2222222;\n\n\nvar b: boolean = true;\nvar c: string = \"hello\";\nvar d: number[] = [1, 2, 3];\nconsole.log(a,b,c,d);",
+        "I suggest use let instead of var everywhere, becuase let has blocked scope",
+        "Error: a is not defined in this scope",
+        "use a",
+        "use a",
+        "Error: a is not defined in this scope"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

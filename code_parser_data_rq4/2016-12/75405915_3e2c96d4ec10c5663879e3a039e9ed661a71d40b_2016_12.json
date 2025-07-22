@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "require",
+        "startFxGenerator",
+        "SseChannel",
+        "SseChannel",
+        "startFxGenerator",
+        "data",
+        "lowfreqChannel",
+        "startFxGenerator",
+        "data",
+        "highfreqChannel"
+    ],
+    "literals": [
+        "'sse-channel'",
+        "'./fx'",
+        "'*'",
+        "'*'"
+    ],
+    "variables": [
+        "SseChannel",
+        "lowfreqChannel",
+        "highfreqChannel"
+    ],
+    "comments": [
+        "There are no typings for SseChannel yet, this is the way to use it in untyped",
+        "manner from TypeScript.",
+        "The low-frequency general will generate updates at a pace we could watch in",
+        "the console log without much difficulty.",
+        "The high-frequency channel will generate updates quite quickly, so that we can",
+        "experiment with screen update performance."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

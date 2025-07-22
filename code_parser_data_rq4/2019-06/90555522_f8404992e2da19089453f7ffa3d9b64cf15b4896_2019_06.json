@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "vtk",
+        "vtkNativeLibrary",
+        "vtk",
+        "vtkCenterOfMass",
+        "vtk",
+        "vtkPolyData",
+        "vtk",
+        "vtkPoints",
+        "vtkNativeLibrary",
+        "LoadAllNativeLibraries",
+        "lib",
+        "vtkNativeLibrary",
+        "values",
+        "lib",
+        "IsLoaded",
+        "lib",
+        "GetLibraryName",
+        "vtkNativeLibrary",
+        "DisableOutputWindow",
+        "args",
+        "points",
+        "points",
+        "InsertNextPoint",
+        "points",
+        "InsertNextPoint",
+        "points",
+        "InsertNextPoint",
+        "points",
+        "InsertNextPoint",
+        "polydata",
+        "polydata",
+        "SetPoints",
+        "points",
+        "centerOfMassFilter",
+        "centerOfMassFilter",
+        "SetInputData",
+        "polydata",
+        "centerOfMassFilter",
+        "SetUseScalarsAsWeights",
+        "centerOfMassFilter",
+        "Update",
+        "center",
+        "center",
+        "centerOfMassFilter",
+        "GetCenter",
+        "center",
+        "center",
+        "center"
+    ],
+    "literals": [
+        "\" not loaded\"",
+        "\"Center of mass is \"",
+        "\" \"",
+        "\" \"",
+        "\" \""
+    ],
+    "variables": [],
+    "comments": [
+        "-----------------------------------------------------------------",
+        "Load VTK library and print which library was not properly loaded",
+        "-----------------------------------------------------------------",
+        "Compute the center of mass"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "CenterOfMass"
+    ]
+}

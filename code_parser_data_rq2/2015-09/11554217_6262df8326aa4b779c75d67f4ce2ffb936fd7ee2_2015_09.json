@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Owin",
+        "Microsoft",
+        "Owin",
+        "Security",
+        "Microsoft",
+        "Owin",
+        "Security",
+        "Provider",
+        "Auth0",
+        "Owin",
+        "BaseContext",
+        "Auth0AuthenticationOptions",
+        "IOwinContext",
+        "context",
+        "Auth0AuthenticationOptions",
+        "options",
+        "exception",
+        "code",
+        "state",
+        "context",
+        "options",
+        "Code",
+        "code",
+        "State",
+        "state",
+        "exception"
+    ],
+    "literals": [],
+    "variables": [
+        "Code",
+        "State"
+    ],
+    "comments": [
+        "Context passed when the token exchange fails in the Auth0 middleware",
+        "</summary>",
+        "Creates a new context object.",
+        "</summary>",
+        "<param name=\"context\">The OWIN request context</param>",
+        "<param name=\"options\">The Auth0 middleware options</param>",
+        "<param name=\"exception\">The exception</param>",
+        "<param name=\"code\">The authorization code</param>",
+        "<param name=\"state\">The state</param>",
+        "Gets the authorization code.",
+        "</summary>",
+        "Gets the state.",
+        "</summary>",
+        "Gets the exception.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Auth0TokenExchangeFailedContext"
+    ],
+    "classes": [
+        "Auth0TokenExchangeFailedContext"
+    ]
+}

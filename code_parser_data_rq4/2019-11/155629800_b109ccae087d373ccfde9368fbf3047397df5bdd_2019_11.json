@@ -1,0 +1,12 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "TODO: Difficulty deleting global window object.",
+        "import { expect } from 'chai';\nimport useFetch from '../fetch-suspense';\nimport CommonJS = require('../fetch-suspense');\n\ndescribe('useFetch without window', (): void => {\n  it('should reject via CommonJS', async (): Promise<void> => {\n    try {\n      CommonJS('test'); // initial fetch\n    } catch (p) {\n      try {\n        await p; // await Suspense\n        CommonJS('test'); // post-Suspense fetch\n      } catch (e) {\n        expect(e).to.be.an.instanceOf(Error);\n        expect(e.message).to.equal('Cannot find `window`. Use `createUseFetch` to provide a custom `fetch` function.');\n        return;\n      }\n      throw new Error('useFetch did not reject.');\n    }\n    throw new Error('useFetch did not throw.');\n  });\n\n  it('should reject via ES6', async (): Promise<void> => {\n    try {\n      useFetch('test'); // initial fetch\n    } catch (p) {\n      try {\n        await p; // await Suspense\n        useFetch('test'); // post-Suspense fetch\n      } catch (e) {\n        expect(e).to.be.an.instanceOf(Error);\n        expect(e.message).to.equal('Cannot find `window`. Use `createUseFetch` to provide a custom `fetch` function.');\n        return;\n      }\n      throw new Error('useFetch did not reject.');\n    }\n    throw new Error('useFetch did not throw.');\n  });\n});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "require",
+        "app",
+        "headingMagnetic",
+        "magneticVariation",
+        "headingMagnetic",
+        "magneticVariation",
+        "heading",
+        "heading",
+        "heading",
+        "heading",
+        "nmea",
+        "nmea",
+        "heading"
+    ],
+    "literals": [
+        "'../nmea.js'",
+        "'HDT - Heading True calculated from magnetic heading and variation'",
+        "'navigation.headingMagnetic'",
+        "'navigation.magneticVariation'",
+        "'$IIHDT'",
+        "'T'"
+    ],
+    "variables": [
+        "nmea",
+        "heading"
+    ],
+    "comments": [
+        "NMEA0183 Encoder HDT   $IIHDT,200.1,T*21"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

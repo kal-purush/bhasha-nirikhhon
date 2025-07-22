@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "collectUpdates",
+        "PackageGraph",
+        "Project",
+        "changedPackages",
+        "cwd",
+        "Project",
+        "cwd",
+        "PackageGraph",
+        "project",
+        "collectUpdates",
+        "packageGraph",
+        "packageGraph",
+        "execOptions",
+        "options",
+        "node",
+        "node",
+        "updates",
+        "updates",
+        "pkg",
+        "pkg"
+    ],
+    "literals": [
+        "'@lerna/collect-updates'",
+        "'@lerna/package-graph'",
+        "'@lerna/project'",
+        "string",
+        "string",
+        "{${updates.map((pkg) => pkg.name).join(',')}}",
+        "','",
+        "''"
+    ],
+    "variables": [
+        "changedPackages",
+        "project",
+        "packageGraph",
+        "execOptions",
+        "options",
+        "updates"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Get the list of changed packages as a string\n * @param cwd Current working directory"
+    ],
+    "functions": [],
+    "classes": []
+}

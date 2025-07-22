@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "Template",
+        "Template",
+        "T",
+        "HTMLElement"
+    ],
+    "literals": [
+        "'../mixins/template'",
+        "'d-document'",
+        "<style>\n#content {\n  counter-reset: table-caption;\n}\n\n@media print {\n  #content {\n    page-break-inside: unset;\n  }\n}\n\n#content > thead {\n  border-bottom: unset;\n}\n\n#content tbody :first-child td {\n  padding-top: unset;\n}\n\n#content > tr > td {\n  display: block;\n}\n\n.document-header div {\n  margin-bottom: 1.0cm;\n  border-bottom: 1px solid black;\n  font-size: 1rem;\n  /*color: #f00;*/\n  text-align: left;\n}\n\n.document-footer p {\n  padding-top: 1.0cm;\n  /*border: 1px solid black;*/\n}\n\n/*\n#header td {\n  counter-increment: page-number;\n}\n\n#header td::after {\n  counter-increment: page-number;\n  content: \"Page \" counter(page-number);\n}\n*/\n\n.page-num-display {\n  counter-increment: page-number;\n  text-align: center;\n}\n\n.page-num-display::after {\n  counter-increment: page-number;\n  content: counter(page-number);\n}\n</style>\n\n<table id=\"content\">\n    <thead class=\"document-header\"><tr><td><div><d-header>ICLR 2015</d-header></div>\n    <tbody>\n        <tr>\n            <td><slot></slot></td>\n        </tr>\n    </tbody>\n    <tfoot class=\"document-footer\">\n        <tr>\n            <td><p class=\"page-num-display\"></p></td>\n        </tr>\n    </tfoot>\n</table>"
+    ],
+    "variables": [
+        "T"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Document"
+    ]
+}

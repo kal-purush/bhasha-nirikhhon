@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "google",
+        "google",
+        "query",
+        "query",
+        "handleQueryResponse",
+        "response",
+        "response",
+        "alert",
+        "response",
+        "response",
+        "response",
+        "visualization",
+        "google",
+        "visualization",
+        "data",
+        "google",
+        "drawVisualization"
+    ],
+    "literals": [
+        "'visualization'",
+        "'1'",
+        "'table'",
+        "'https://spreadsheets.google.com/tq?key=1nyHyDOTGO3MfCcmv-4_-cEVOnGp5rJ1E8S6VithLwmY&output=html&usp=sharing'",
+        "'SELECT A, B, C, D label A \"Item\", B \"Quantity\", C \"Descritpion\", D \"History\"'",
+        "'There was a problem with your query: '",
+        "' '",
+        "'table'",
+        "'bottom'"
+    ],
+    "variables": [
+        "visualization",
+        "query",
+        "data"
+    ],
+    "comments": [
+        "!\n *\n * Google Sheets To HTML v0.9a\n *\n * To use, simply replace the \"tq?key=\" value in the\n * URL below with your own unique Google document ID\n *\n * The Google document's sharing must be set to public\n *"
+    ],
+    "docstrings": [],
+    "functions": [
+        "drawVisualization",
+        "handleQueryResponse"
+    ],
+    "classes": []
+}

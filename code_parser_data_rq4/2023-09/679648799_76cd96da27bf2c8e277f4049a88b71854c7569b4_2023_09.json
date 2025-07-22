@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "useMemo",
+        "ActionCreator",
+        "ActionCreatorsMapObject",
+        "AsyncThunk",
+        "bindActionCreators",
+        "useAppDispatch",
+        "useActions",
+        "actions",
+        "useAppDispatch",
+        "useMemo",
+        "bindActionCreators",
+        "actions",
+        "dispatch",
+        "args"
+    ],
+    "literals": [
+        "'react'",
+        "'@reduxjs/toolkit'",
+        "'./use-app-dispatch'"
+    ],
+    "variables": [
+        "useActions",
+        "dispatch"
+    ],
+    "comments": [
+        "Types"
+    ],
+    "docstrings": [
+        "* Данная функция useActions является React-хуком, который принимает объект actions с функциями-создателями действий (action creators)\n * и возвращает объект с привязанными действиями (bound actions), которые можно вызывать в компоненте.\n * Внутри хука useActions используется хук useMemo для мемоизации объекта с привязанными действиями и функции bindActionCreators\n * из пакета Redux для связывания действий с диспетчером Redux.\n * Тип BoundActions определяет тип объекта с привязанными действиями. Ключи объекта соответствуют ключам переданного объекта actions,\n * а значения - типам функций, которые создают действия. Если функция создает асинхронное действие с помощью createAsyncThunk из Redux Toolkit,\n * то тип привязанной функции заменяется на BoundAsyncThunk, который представляет функцию, принимающую аргументы и\n * возвращающую Promise с результатом выполнения действия.\n * Тип BoundAsyncThunk определяет тип асинхронной функции, привязанной к диспетчеру Redux. Он принимает аргументы,\n * переданные в функцию создания действия, и возвращает Promise с результатом выполнения действия.\n * Таким образом, использование хука useActions позволяет упростить вызов действий в компоненте и предотвратить\n * создание новых экземпляров функций-создателей действий при каждом рендеринге компонента."
+    ],
+    "functions": [],
+    "classes": []
+}

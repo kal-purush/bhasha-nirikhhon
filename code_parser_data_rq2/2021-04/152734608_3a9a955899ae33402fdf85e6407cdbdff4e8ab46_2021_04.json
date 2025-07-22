@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "resource",
+        "logging",
+        "get_logger",
+        "middleware",
+        "Middleware",
+        "Middleware",
+        "max_memory",
+        "get_logger",
+        "max_memory",
+        "broker",
+        "thread",
+        "resource",
+        "getrusage",
+        "resource",
+        "RUSAGE_SELF",
+        "ru_maxrss",
+        "used_memory",
+        "logger",
+        "error",
+        "used_memory",
+        "max_memory",
+        "logger",
+        "warning",
+        "used_memory",
+        "max_memory",
+        "thread",
+        "stop"
+    ],
+    "literals": [
+        "\"Worker unable to determine memory usage\"",
+        "f\"Stopping worker thread as used_memory ({used_memory:.2E}Kb) > max_memory ({self.max_memory:.2E}Kb)\""
+    ],
+    "variables": [
+        "logger",
+        "max_memory",
+        "used_memory"
+    ],
+    "comments": [
+        "This file is a part of Remoulade.",
+        "",
+        "Copyright (C) 2017,2018 CLEARTYPE SRL <bogdan@cleartype.io>",
+        "",
+        "Remoulade is free software; you can redistribute it and/or modify it",
+        "under the terms of the GNU Lesser General Public License as published by",
+        "the Free Software Foundation, either version 3 of the License, or (at",
+        "your option) any later version.",
+        "",
+        "Remoulade is distributed in the hope that it will be useful, but WITHOUT",
+        "ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or",
+        "FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public",
+        "License for more details.",
+        "",
+        "You should have received a copy of the GNU Lesser General Public License",
+        "along with this program.  If not, see <http://www.gnu.org/licenses/>.",
+        "stopping the worker thread will in time stop the worker process which check if all workers are still",
+        "running (via Worker.worker_stopped)"
+    ],
+    "docstrings": [
+        "\"\"\"Middleware that stop a worker if its amount of resident memory exceed max_memory (in kilobytes)\n    If a task causes a worker to exceed this limit, the task will be completed, and the worker will be\n    stopped afterwards.\n\n    Parameters:\n      max_memory(int): The maximum amount of resident memory (in kilobytes)\n    \"\"\""
+    ],
+    "functions": [
+        "after_worker_thread_process_message"
+    ],
+    "classes": [
+        "MaxMemory"
+    ]
+}

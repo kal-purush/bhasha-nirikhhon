@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "cv2",
+        "pyautogui",
+        "numpy",
+        "np",
+        "image_path",
+        "threshold",
+        "GAMETT_THRESHOLD",
+        "cv2",
+        "imread",
+        "image_path",
+        "cv2",
+        "IMREAD_COLOR",
+        "image",
+        "pyautogui",
+        "screenshot",
+        "cv2",
+        "cvtColor",
+        "np",
+        "array",
+        "screenshot",
+        "cv2",
+        "COLOR_RGB2BGR",
+        "cv2",
+        "matchTemplate",
+        "screenshot_np",
+        "image",
+        "cv2",
+        "TM_CCOEFF_NORMED",
+        "cv2",
+        "minMaxLoc",
+        "result",
+        "max_val",
+        "threshold",
+        "image_path",
+        "max_val"
+    ],
+    "literals": [
+        "f\"Найдено изображение {image_path} с коэффициентом совпадения {max_val}\""
+    ],
+    "variables": [
+        "GAMETT_THRESHOLD",
+        "image",
+        "screenshot",
+        "screenshot_np",
+        "result",
+        "_",
+        "max_val",
+        "_",
+        "_"
+    ],
+    "comments": [
+        "Загружаем изображение gamett.png или knopka.png",
+        "Получаем скриншот экрана",
+        "Поиск изображения на скриншоте",
+        "Устанавливаем порог совпадения"
+    ],
+    "docstrings": [],
+    "functions": [
+        "image_exists"
+    ],
+    "classes": []
+}

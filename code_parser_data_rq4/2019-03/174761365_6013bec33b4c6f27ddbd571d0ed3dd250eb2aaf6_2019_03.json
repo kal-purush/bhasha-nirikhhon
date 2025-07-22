@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "pandas",
+        "pd",
+        "data_src",
+        "gzip",
+        "gzip",
+        "pd",
+        "read_csv",
+        "data_src",
+        "compression",
+        "compress",
+        "data",
+        "data",
+        "data",
+        "out_file",
+        "truncate",
+        "data",
+        "out_file",
+        "truncate"
+    ],
+    "literals": [
+        "'gzip'",
+        "'infer'"
+    ],
+    "variables": [
+        "compress",
+        "compress",
+        "tmp"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"dim_groups.py\n\n    Área de enquadramento do curso no Enade\n\n\"\"\"",
+        "\"\"\"Extract data from source\n\n    Parameters\n    ----------\n        data_src : string\n            Path to CSV file\n\n        gzip : boolean, default False\n            Whether CSV file is compressed or not.\n\n    Returns\n    -------\n        data : Pandas DataFrame\n            Extracted Data\n    \"\"\"",
+        "\"\"\"Transform data\n\n    Parameters\n    ----------\n        data | Pandas DataFrame\n\n    Returns\n    -------\n        tdata : Pandas DataFrame\n            Tranformed data\n    \"\"\"",
+        "\"\"\"Load data into the Parquet File\n\n    Parameters\n    ----------\n        data : Pandas DataFrame\n            Data to be written\n\n        out_file : string\n            Pathname for output file\n\n        truncate | boolean, default False\n            If true, truncate file before loading data\n    \"\"\""
+    ],
+    "functions": [
+        "extract",
+        "transform",
+        "load"
+    ],
+    "classes": []
+}

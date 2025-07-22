@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "tensorflow",
+        "tf",
+        "dataset",
+        "validation_split",
+        "dataset",
+        "reduce",
+        "np",
+        "int64",
+        "x",
+        "_",
+        "x",
+        "numpy",
+        "num_instances",
+        "ValueError",
+        "min",
+        "max",
+        "num_instances",
+        "validation_split",
+        "num_instances",
+        "num_instances",
+        "validation_set_size",
+        "dataset",
+        "take",
+        "train_set_size",
+        "dataset",
+        "skip",
+        "train_set_size",
+        "train_dataset",
+        "validation_dataset",
+        "dataset",
+        "tf",
+        "compat",
+        "v1",
+        "data",
+        "get_output_shapes",
+        "dataset",
+        "y",
+        "len",
+        "y",
+        "flatten",
+        "len",
+        "y"
+    ],
+    "literals": [
+        "'The dataset should at least contain 2 '",
+        "'instances to be split.'"
+    ],
+    "variables": [
+        "num_instances",
+        "validation_set_size",
+        "train_set_size",
+        "train_dataset",
+        "validation_dataset"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Split dataset into training and validation.\n\n    # Arguments\n        dataset: tf.data.Dataset. The entire dataset to be split.\n        validation_split: Float. The split ratio for the validation set.\n\n    # Raises\n        ValueError: If the dataset provided is too small to be split.\n\n    # Returns\n        A tuple of two tf.data.Dataset. The training set and the validation set.\n    \"\"\"",
+        "\"\"\"Check if the targets are one-hot encoded or plain labels.\n\n    # Arguments\n        y: numpy.ndarray. The targets.\n\n    # Returns\n        Boolean. Whether the targets are plain label, not encoded.\n    \"\"\""
+    ],
+    "functions": [
+        "split_dataset",
+        "dataset_shape",
+        "is_label"
+    ],
+    "classes": []
+}

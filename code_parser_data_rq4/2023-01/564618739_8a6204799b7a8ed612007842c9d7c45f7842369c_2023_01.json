@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Mastodon",
+        "Client",
+        "MastodonClient",
+        "client",
+        "_client",
+        "client",
+        "Response",
+        "Status",
+        "maxId",
+        "sinceId",
+        "minId",
+        "limit",
+        "QueryBuilder",
+        "q",
+        "Add",
+        "maxId",
+        "q",
+        "Add",
+        "sinceId",
+        "q",
+        "Add",
+        "minId",
+        "q",
+        "Add",
+        "limit",
+        "q",
+        "GetUrl",
+        "_client",
+        "HttpClient",
+        "GetFromJsonWithHeadersAsync",
+        "Status",
+        "url",
+        "MastodonClient",
+        "_options"
+    ],
+    "literals": [
+        "\"max_id\"",
+        "\"since_id\"",
+        "\"min_id\"",
+        "\"limit\"",
+        "\"api/v1/bookmarks\""
+    ],
+    "variables": [
+        "MastodonClient",
+        "_client",
+        "q",
+        "url"
+    ],
+    "comments": [
+        "",
+        "</summary>",
+        "<param name=\"offset\">Skip the first n results.</param>",
+        "<param name=\"limit\">How many accounts to load. Defaults to 40 accounts. Max 80 accounts.</param>",
+        "<param name=\"order\">Use active to sort by most recently posted statuses (default) or new to sort by most recently created profiles.</param>",
+        "<param name=\"local\">If true, returns only local accounts.</param>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "BookmarkClient",
+        "GetBookmarksAsync"
+    ],
+    "classes": [
+        "BookmarkClient"
+    ]
+}

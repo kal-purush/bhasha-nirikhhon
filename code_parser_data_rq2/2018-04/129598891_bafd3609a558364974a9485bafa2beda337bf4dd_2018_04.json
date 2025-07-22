@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "mapEl",
+        "lat",
+        "storeData",
+        "storeClickCallback",
+        "lat",
+        "google",
+        "lat",
+        "userLatLong",
+        "google",
+        "mapOptions",
+        "google",
+        "mapEl",
+        "mapOptions",
+        "google",
+        "bounds",
+        "userLatLong",
+        "google",
+        "userLatLong",
+        "storeData",
+        "k",
+        "google",
+        "k",
+        "k",
+        "bounds",
+        "shopLatLong",
+        "k",
+        "k",
+        "k",
+        "k",
+        "google",
+        "shopLatLong",
+        "k",
+        "k",
+        "shopMarker",
+        "storeClickCallback",
+        "k",
+        "bounds"
+    ],
+    "literals": [
+        "'Initialising google maps API with '",
+        "'Map options '",
+        "'Adding user marker'",
+        "'Adding kebab shop markers'",
+        "'Adding shop %s (%s) at %s,%s'",
+        "'click'",
+        "'Finished map initialisation'"
+    ],
+    "variables": [
+        "GoogleMaps",
+        "userLatLong",
+        "mapOptions",
+        "bounds",
+        "userMarker",
+        "shopLatLong",
+        "shopMarker"
+    ],
+    "comments": [
+        "Render the map into the DOM element",
+        "Set up boundaries so the map zooms to the added kebab shops",
+        "and they're not off screen",
+        "Add the user marker to the map",
+        "Add each kebab shop to the map for now",
+        "Extend bounds dynamically for each shop",
+        "Handle click event for each marker"
+    ],
+    "docstrings": [
+        "* This is a simple wrapper object around google maps so we can centralise any\n * functions without having to use thier API inline everywhere."
+    ],
+    "functions": [],
+    "classes": []
+}

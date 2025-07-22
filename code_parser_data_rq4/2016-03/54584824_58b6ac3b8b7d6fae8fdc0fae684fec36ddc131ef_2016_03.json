@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "Component",
+        "Keg",
+        "Component"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./keg.model'",
+        "'edit-keg-details'",
+        "'keg'",
+        "<div class=\"keg-form\">\n     <h3>Edit Keg: </h3>\n     <input [(ngModel)]=\"keg.brewerName\" class=\"col-sm-8 input-lg keg-form\"/>\n     <input [(ngModel)]=\"keg.beerName\" class=\"col-sm-8 input-lg keg-form\"/>\n     <input [(ngModel)]=\"keg.beerType\" class=\"col-sm-8 input-lg keg-form\"/>\n   </div>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "EditKegDetailsComponent"
+    ]
+}

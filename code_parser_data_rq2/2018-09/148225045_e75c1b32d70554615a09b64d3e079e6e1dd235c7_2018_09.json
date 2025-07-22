@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "writeFile",
+        "argv",
+        "require",
+        "argv",
+        "environment",
+        "environment",
+        "isProd",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "writeFile",
+        "targetPath",
+        "envConfigFile",
+        "err",
+        "err",
+        "err",
+        "targetPath"
+    ],
+    "literals": [
+        "'fs'",
+        "'yargs'",
+        "'dotenv'",
+        "'prod'",
+        "./src/environments/environment.${environment}.ts",
+        "export const environment = {\n  production: ${isProd},\n  firebase: {\n    apiKey: '${process.env.apiKey}',\n    authDomain: '${process.env.authDomain}',\n    databaseURL: '${process.env.databaseURL}',\n    projectId: '${process.env.projectId}',\n    storageBucket: '${process.env.storageBucket}',\n    messagingSenderId: '${process.env.messagingSenderId}',\n  }\n};",
+        "Output generated at ${targetPath}"
+    ],
+    "variables": [
+        "environment",
+        "isProd",
+        "targetPath",
+        "envConfigFile"
+    ],
+    "comments": [
+        "This is good for local dev environments, when it's better to",
+        "store a projects environment variables in a .gitignore'd file",
+        "Would be passed to script like this:",
+        "`ts-node set-env.ts --environment=dev`",
+        "we get it from yargs's argv object"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

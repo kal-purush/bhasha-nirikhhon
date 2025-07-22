@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "ASTNode",
+        "pluralize",
+        "descDepth",
+        "ASTNode",
+        "to",
+        "form",
+        "bindings",
+        "expr",
+        "options",
+        "to",
+        "options",
+        "form",
+        "bindings",
+        "expr",
+        "level",
+        "level",
+        "descDepth",
+        "pluralize"
+    ],
+    "literals": [
+        "'../../ast'",
+        "'letLikeExpr'",
+        "'aria-level'",
+        "'aria-label'",
+        "a ${this.form} expression with ${pluralize(\"binding\", this.bindings.exprs)}",
+        "\"binding\"",
+        "(${this.form} (${this.bindings.toString()}) ${this.expr}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "toDescription",
+        "toString"
+    ],
+    "classes": [
+        "LetLikeExpr"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Authentication",
+        "Microsoft",
+        "AspNetCore",
+        "Authentication",
+        "OAuth",
+        "AspNet",
+        "Security",
+        "OAuth",
+        "AmoCrm"
+    ],
+    "literals": [
+        "\"amoCRM\"",
+        "\"amoCRM\"",
+        "\"amoCRM\"",
+        "\"/signin-amocrm\"",
+        "\"https://www.amocrm.ru/oauth\"",
+        "\"https://{0}.amocrm.ru/oauth2/access_token\"",
+        "\"https://{0}.amocrm.ru/v3/user\""
+    ],
+    "variables": [
+        "AuthenticationScheme",
+        "DisplayName",
+        "Issuer",
+        "CallbackPath",
+        "AuthorizationEndpoint",
+        "TokenEndpointFormat",
+        "UserInformationEndpointFormat"
+    ],
+    "comments": [
+        "Default values used by the amoCRM authentication middleware.",
+        "</summary>",
+        "Default value for the <see cref=\"Microsoft.AspNetCore.Authentication.AuthenticationScheme.Name\"/>.",
+        "</summary>",
+        "Default value for the <see cref=\"Microsoft.AspNetCore.Authentication.AuthenticationScheme.DisplayName\"/>.",
+        "</summary>",
+        "Default value for the <see cref=\"AuthenticationSchemeOptions.ClaimsIssuer\"/>.",
+        "</summary>",
+        "Default value for the <see cref=\"RemoteAuthenticationOptions.CallbackPath\"/>.",
+        "</summary>",
+        "Default value for the <see cref=\"OAuthOptions.AuthorizationEndpoint\"/>.",
+        "</summary>",
+        "Default value for the <see cref=\"OAuthOptions.TokenEndpoint\"/>.",
+        "</summary>",
+        "Default value for the <see cref=\"OAuthOptions.UserInformationEndpoint\"/>.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "* Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)\n * See https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers\n * for more information concerning the license and the contributors participating to this project.",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "AmoCrmAuthenticationDefaults"
+    ]
+}

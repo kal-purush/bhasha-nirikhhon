@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "selector",
+        "Rx",
+        "eventType",
+        "Rx",
+        "container",
+        "container",
+        "customElement",
+        "customElements",
+        "tag",
+        "attrs"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "CycleDOM"
+    ],
+    "comments": [
+        "<reference path=\"./cycle.d.ts\"/>"
+    ],
+    "docstrings": [
+        "* A factory for the DOM driver function. Takes a `container` to define the\n   * target on the existing DOM which this driver will operate on. All custom\n   * elements which this driver can detect should be given as the second\n   * parameter. The output of this driver is a collection of Observables queried\n   * with: `domDriverOutput.select(selector).events(eventType)` returns an\n   * Observable of events of `eventType` happening on the element determined by\n   * `selector`. Just `domDriverOutput.select(selector).observable` returns\n   * an Observable of the DOM element matched by the given selector. Also,\n   * `domDriverOutput.select(':root').observable` returns an Observable of\n   * DOM element corresponding to the root (or container) of the app on the DOM.\n   * The `events()` function also allows you to specify the `useCapture`\n   * parameter of event listener. That is, the full function signature is\n   * `events(eventType, useCapture)` where `useCapture` is by default `false`.\n   *\n   * @param {(String|HTMLElement)} container the DOM selector for the element\n   * (or the element itself) to contain the rendering of the VTrees.\n   * @param {Object} customElements a collection of custom element definitions.\n   * The key of each property should be the tag name of the custom element, and\n   * the value should be a function defining the implementation of the custom\n   * element. This function follows the same contract as the top-most `main`\n   * function: input are driver responses, output are requests to drivers.\n   * @return {Function} the DOM driver function. The function expects an\n   * Observable of VTree as input, and outputs the response object for this\n   * driver, containing functions `select()` and `dispose()` that can be used\n   * for debugging and testing.\n   * @function makeDOMDriver",
+        "* A factory for the HTML driver function. Takes the registry object of all\n   * custom elements as the only parameter. The HTML driver function will use\n   * the custom element registry to detect custom element on the VTree and apply\n   * their implementations.\n   *\n   * @param {Object} customElements a collection of custom element definitions.\n   * The key of each property should be the tag name of the custom element, and\n   * the value should be a function defining the implementation of the custom\n   * element. This function follows the same contract as the top-most `main`\n   * function: input are driver responses, output are requests to drivers.\n   * @return {Function} the HTML driver function. The function expects an\n   * Observable of Virtual DOM elements as input, and outputs an Observable of\n   * strings as the HTML renderization of the virtual DOM elements.\n   * @function makeHTMLDriver",
+        "* A shortcut to [virtual-hyperscript](\n   * https://github.com/Matt-Esch/virtual-dom/tree/master/virtual-hyperscript).\n   * This is a helper for creating VTrees in Views.\n   * @name h",
+        "* An adapter around virtual-hyperscript `h()` to allow JSX to be used easily\n   * with Babel. Place the [Babel configuration comment](\n   * http://babeljs.io/docs/advanced/transformers/other/react/) `@jsx hJSX` at\n   * the top of the ES6 file, make sure you import `hJSX` with\n   * `import {hJSX} from '@cycle/dom'`, and then you can use JSX to create\n   * VTrees.\n   * @name hJSX",
+        "* A shortcut to the svg hyperscript function.\n   * @name svg",
+        "* A testing utility which aids in creating a queryable collection of\n   * Observables. Call mockDOMResponse giving it an object specifying selectors,\n   * eventTypes and their Observabls, and get as output an object following the\n   * same format as the DOM Driver's response. Example:\n   *\n   * ```js\n   * const userEvents = mockDOMResponse({\n   *   '.foo': {\n   *     'click': Rx.Observable.just({target: {}}),\n   *     'mouseover': Rx.Observable.just({target: {}})\n   *   },\n   *   '.bar': {\n   *     'scroll': Rx.Observable.just({target: {}})\n   *   }\n   * });\n   *\n   * // Usage\n   * const click$ = userEvents.select('.foo').events('click');\n   * ```\n   *\n   * @param {Object} mockedSelectors an object where keys are selector strings\n   * and values are objects. Those nested objects have eventType strings as keys\n   * and values are Observables you created.\n   * @return {Object} fake DOM response object, containin a function `select()`\n   * which can be used just like the DOM Driver's response. Call\n   * `select(selector).events(eventType)` on the response object to get the\n   * Observable you defined in the input of `mockDOMResponse`.\n   * @function mockDOMResponse"
+    ],
+    "functions": [],
+    "classes": []
+}

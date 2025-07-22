@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "WebSocket",
+        "user",
+        "uuid",
+        "message",
+        "message",
+        "message"
+    ],
+    "literals": [
+        "\"CONNECTING\"",
+        "'ws://localhost:8081/gamebackend/websocket'",
+        "'onclose'",
+        "'onerror'",
+        "'message: '",
+        "'sending message: '"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "connect",
+        "disconnect",
+        "sendMessage"
+    ],
+    "classes": [
+        "WebSocketClient"
+    ]
+}

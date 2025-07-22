@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "Session",
+        "Component",
+        "Input",
+        "Output",
+        "EventEmitter"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "\"./session.service\"",
+        "'session'",
+        "\"./session.component.css\"",
+        "<grid-layout columns=\"auto, *\" rows=\"auto, auto, auto\" class=\"container\" (tap)=\"selected.next()\">\n      <image rowSpan=\"3\"\n        [src]=\"session.isFav ? 'res://fav_1' : 'res://fav_0'\"\n        [class.fav]=\"session.isFav\"></image>\n      \n      <Label col=\"1\" row=\"0\" [text]=\"(session.start | date:'HHmm') + ' - ' + (session.end | date:'HHmm')\" class=\"time\"></Label>\n      <Label col=\"1\" row=\"1\" [text]=\"session.title\" textWrap=\"true\" class=\"title\"></Label>\n      <Label col=\"1\" row=\"2\" [text]=\"session.speaker\" class=\"speaker\"></Label>              \n    </grid-layout>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "SessionComponent"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "vscode",
+        "vscode",
+        "vscode",
+        "vscode",
+        "vscode",
+        "uri",
+        "vscode",
+        "token",
+        "vscode",
+        "vscode",
+        "uri",
+        "uri",
+        "vscode",
+        "content",
+        "uri",
+        "content",
+        "uri"
+    ],
+    "literals": [
+        "'vscode'",
+        "'ng'",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "ANGULAR_SCHEME"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @license\n * Copyright Google Inc. All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.io/license",
+        "* Allocate a provider of documents corresponding to the `ng` URI scheme,\n * which we will use to provide a virtual document with the TCB contents.\n *\n * We use a virtual document provider rather than opening an untitled file to\n * ensure the buffer remains readonly (https://github.com/microsoft/vscode/issues/4873).",
+        "* Event emitter used to notify VSCode of a change to the TCB virtual document,\n   * prompting it to re-evaluate the document content. This is needed to bust\n   * VSCode's document cache if someone requests a TCB that was previously opened.\n   * https://code.visualstudio.com/api/extension-guides/virtual-documents#update-virtual-documents",
+        "* Name of the typecheck file.",
+        "* Content of the entire typecheck file.",
+        "* This callback is invoked only when user explicitly requests to view or\n   * update typecheck file. We do not automatically update the typecheck document\n   * when the source file changes."
+    ],
+    "functions": [
+        "provideTextDocumentContent",
+        "update",
+        "clear"
+    ],
+    "classes": [
+        "TcbContentProvider"
+    ]
+}

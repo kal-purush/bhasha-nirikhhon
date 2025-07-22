@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "marca",
+        "modelo",
+        "ano",
+        "precio",
+        "color",
+        "marca",
+        "Toyota",
+        "modelo",
+        "Prius",
+        "ano",
+        "color",
+        "Rojo",
+        "marca",
+        "modelo",
+        "ano",
+        "precio",
+        "color"
+    ],
+    "literals": [],
+    "variables": [
+        "marca",
+        "modelo",
+        "ano",
+        "precio",
+        "color"
+    ],
+    "comments": [
+        "Atributos",
+        "Marca del auto",
+        "Modelo (nombre) del auto",
+        "Año de fabricación",
+        "Precio del auto",
+        "Color del auto",
+        "Métodos",
+        "Métodos Constructores",
+        "Métodos Observadores"
+    ],
+    "docstrings": [
+        "* Clase que representa a un automóvil\n * @author Isaac Alcantara y Eduardo Vargas\n * @version 1.0\n *",
+        "* Constructor sin parametros, crea un automóvil de la marca Toyota, \n     * modelo Prius, del año 2021 y color rojo\n     * \n     *",
+        "* Método que devuelve la marca del automóvil\n     *\n     * @return La marca del auto\n     *",
+        "* Método que devuelve el modelo del auto (nombre)\n     *\n     * @return El nombre del modelo del auto\n     *",
+        "* Método que devuelve el año de fabricación del automóvil\n     *\n     * @return El año de fabricación del auto.\n     *",
+        "* Método que devuelve el precio del automóvil\n     *\n     * @return El precio del auto\n     *",
+        "* Método que devuelve el color del automóvil\n     *\n     * @return El color del auto.\n     *"
+    ],
+    "functions": [
+        "Auto",
+        "getMarca",
+        "getModelo",
+        "getAno",
+        "getPrecio",
+        "getColor"
+    ],
+    "classes": [
+        "Auto"
+    ]
+}

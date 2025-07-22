@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "ApiController",
+        "RoutePrefix",
+        "Route",
+        "HttpGet",
+        "HttpDelete",
+        "HttpPut",
+        "HttpPost",
+        "RoutePrefix",
+        "ApiController",
+        "Route",
+        "HttpGet",
+        "id",
+        "id",
+        "Route",
+        "HttpPost",
+        "id",
+        "Route",
+        "HttpGet"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "'hapi-webapi'",
+        "\"users\"",
+        "\"{id}\"",
+        "string",
+        "\"getUserById:\"",
+        "\"search\"",
+        "string",
+        "\"list\"",
+        "'HTTP Version: '",
+        "\"Hello World!\""
+    ],
+    "variables": [],
+    "comments": [
+        "Also supports @HttpPut, @HttpPost, @HttpDelete",
+        "Examples of request object values available:",
+        "Url object.",
+        "HTTP version.",
+        "HTTP headers."
+    ],
+    "docstrings": [],
+    "functions": [
+        "getUserById",
+        "searchUsers"
+    ],
+    "classes": [
+        "UsersController"
+    ]
+}

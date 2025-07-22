@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "builtins",
+        "clog",
+        "loggers",
+        "ScribeLogger",
+        "ScribeIsNotForkSafeError",
+        "clog",
+        "global_state",
+        "log_line",
+        "reset_default_loggers",
+        "ScribeLogger",
+        "ScribeIsNotForkSafeError",
+        "log_line",
+        "reset_default_loggers",
+        "join",
+        "version_info"
+    ],
+    "literals": [
+        "'.'"
+    ],
+    "variables": [
+        "_pyflakes_ignore",
+        "version_info",
+        "__version__"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "\"\"\"\n:mod:`clog` is a package for handling log data. It can be used for the\nfollowing:\n\n\nPython Logging Handler\n---------------------------------\n\n:class:`clog.handlers.ScribeHandler` can be used to send standard python\n:mod:`logging` to a scribe stream.\n\n\nLogging Operational and Mission Critical Data\n---------------------------------------------\n\n:func:`clog.loggers.ScribeLogger.log_line` can be used to log mission critical,\nmachine readable, and opertional data to scribe. There is also a global\n:func:`clog.log_line` which has the same purpose but requires global\nconfiguration (see :mod:`clog.config`). Use of the global is discouraged.\n\n\nReading Scribe Logs\n-------------------\n\n:mod:`clog.readers` provides classes for reading scribe logs locally or\nfrom a server.\n\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

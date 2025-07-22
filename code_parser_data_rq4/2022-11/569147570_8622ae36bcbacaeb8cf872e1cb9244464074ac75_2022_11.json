@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql"
+    ],
+    "literals": [
+        "'@apollo/client'",
+        "mutation loginUser( $email: String!, $password: String!) {\n    login(email: $email, password: $password) {\n      token\n      user {\n        _id\n        \n      }\n    }\n  }",
+        "mutation addUser($username: String!, $password: String!, $email:String!) {\n    addUser(username: $username, password: $password, email: $email) {\n      user {\n        _id\n        username\n        email\n        bookCount\n        savedBooks {\n            authors\n            bookId\n            image\n            link\n            title \n            description\n\n        }\n      }\n      token\n    }\n  }",
+        "mutation saveBook($input: savedBook!) {\n    saveBook (input: $input)\n        {\n            _id\n            username\n            email\n            bookCount\n            savedBooks {\n                # _id\n                bookId\n                authors\n                image\n                link\n                title\n                description\n            }\n        }\n    }",
+        "mutation removeBook($bookId: ID!) {\n        removeBook(bookId:$bookId) {\n            _id\n            username\n            email\n            bookCount\n            savedBooks {\n                \n                bookId\n                authors\n                image\n                link\n                title\n                description\n            }\n        }\n}"
+    ],
+    "variables": [
+        "LOGIN_USER",
+        "ADD_USER",
+        "SAVE_BOOK",
+        "REMOVE_BOOK"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

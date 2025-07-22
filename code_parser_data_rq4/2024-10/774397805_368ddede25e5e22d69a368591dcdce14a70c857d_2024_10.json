@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "NET6_0_OR_GREATER",
+        "Diagnostics",
+        "CodeAnalysis",
+        "AttributeUsage",
+        "AttributeTargets",
+        "Method",
+        "AttributeTargets",
+        "Constructor",
+        "AttributeTargets",
+        "Class",
+        "Inherited",
+        "ExcludeFromCodeCoverage",
+        "Attribute",
+        "message",
+        "Message",
+        "message"
+    ],
+    "literals": [],
+    "variables": [
+        "Message",
+        "Url"
+    ],
+    "comments": [
+        "Licensed to the .NET Foundation under one or more agreements.",
+        "The .NET Foundation licenses this file to you under the MIT license.",
+        "/// Indicates that the specified method requires dynamic access to code that is not referenced",
+        "statically, for example through <see cref=\"System.Reflection\"/>.",
+        "</summary>",
+        "<remarks>",
+        "This allows tools to understand which methods are unsafe to call when removing unreferenced",
+        "code from an application.",
+        "</remarks>",
+        "Initializes a new instance of the <see cref=\"RequiresUnreferencedCodeAttribute\"/> class",
+        "with the specified message.",
+        "</summary>",
+        "<param name=\"message\">",
+        "A message that contains information about the usage of unreferenced code.",
+        "</param>",
+        "Gets a message that contains information about the usage of unreferenced code.",
+        "</summary>",
+        "Gets or sets an optional URL that contains more information about the method,",
+        "why it requires unreferenced code, and what options a consumer has to deal with it.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "RequiresUnreferencedCodeAttribute"
+    ],
+    "classes": [
+        "RequiresUnreferencedCodeAttribute"
+    ]
+}

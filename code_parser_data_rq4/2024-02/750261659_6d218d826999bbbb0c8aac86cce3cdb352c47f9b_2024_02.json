@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Groth16Proof",
+        "PackedProof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof",
+        "proof"
+    ],
+    "literals": [
+        "\"snarkjs\"",
+        "\"./types\"",
+        "\"groth16\"",
+        "\"bn128\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Packs a proof into a format compatible with EddsaProof.\n * @param proof The Groth16 proof generated with SnarkJS.\n * @returns The proof compatible with EddsaProof.",
+        "* Unpacks a proof into its original form.\n * @param proof The proof compatible with EddsaProof.\n * @returns The proof compatible with SnarkJS."
+    ],
+    "functions": [
+        "packProof",
+        "unpackProof"
+    ],
+    "classes": []
+}

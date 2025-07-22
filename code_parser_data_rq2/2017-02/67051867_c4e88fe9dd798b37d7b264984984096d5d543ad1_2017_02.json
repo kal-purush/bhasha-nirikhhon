@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "de",
+        "sjka",
+        "logstash",
+        "osgi",
+        "org",
+        "json",
+        "simple",
+        "JSONObject",
+        "org",
+        "osgi",
+        "service",
+        "log",
+        "LogEntry",
+        "ILogstashSerializer",
+        "logEntry"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Serializer for LogEntries.\n * Converts the entries to JSONObjects.\n * \n * @author Christoph Knauf - Initial contribution and API.\n *",
+        "* Serializes {@link LogEntry} to {@link JSONObject}\n     * \n     * @param logEntry the LogEntry to serialize\n     * @return the serialized LogEntry"
+    ],
+    "functions": [
+        "JSONObject",
+        "serialize"
+    ],
+    "classes": []
+}

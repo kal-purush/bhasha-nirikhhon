@@ -1,0 +1,92 @@
+{
+    "identifiers": [
+        "fr",
+        "jfc",
+        "ptut",
+        "config",
+        "javax",
+        "persistence",
+        "EntityManager",
+        "javax",
+        "persistence",
+        "metamodel",
+        "Type",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Autowired",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Configuration",
+        "org",
+        "springframework",
+        "data",
+        "rest",
+        "core",
+        "config",
+        "RepositoryRestConfiguration",
+        "org",
+        "springframework",
+        "data",
+        "rest",
+        "webmvc",
+        "config",
+        "RepositoryRestConfigurer",
+        "org",
+        "springframework",
+        "web",
+        "servlet",
+        "config",
+        "annotation",
+        "CorsRegistry",
+        "Configuration",
+        "Autowired",
+        "entityManager",
+        "Override",
+        "config",
+        "cors",
+        "config",
+        "exposeIdsFor",
+        "entityManager",
+        "getMetamodel",
+        "getEntities",
+        "stream",
+        "Type",
+        "getJavaType",
+        "toArray",
+        "cors",
+        "addMapping",
+        "allowedOrigins",
+        "allowedMethods",
+        "allowCredentials"
+    ],
+    "literals": [
+        "\"/**\"",
+        "\"*\"",
+        "\"*\""
+    ],
+    "variables": [
+        "entityManager"
+    ],
+    "comments": [
+        "Expose les id des entités",
+        "Autorise les requêtes CORS",
+        "Autorisé sur toutes les URL",
+        "Autorisé sur toutes les origines",
+        "Autorisé pour toutes les méthodes HTTP",
+        "Autorise la transmission des infos d'authentification"
+    ],
+    "docstrings": [
+        "* Configuration de Spring Data Rest\n * Expose les id des entités"
+    ],
+    "functions": [
+        "configureRepositoryRestConfiguration"
+    ],
+    "classes": [
+        "RestConfig"
+    ]
+}

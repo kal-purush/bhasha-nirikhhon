@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "hello_spring",
+        "aop",
+        "org",
+        "aspectj",
+        "lang",
+        "ProceedingJoinPoint",
+        "org",
+        "aspectj",
+        "lang",
+        "annotation",
+        "Around",
+        "org",
+        "aspectj",
+        "lang",
+        "annotation",
+        "Aspect",
+        "org",
+        "springframework",
+        "stereotype",
+        "Component",
+        "Aspect",
+        "Component",
+        "Around",
+        "joinPoint",
+        "start",
+        "currentTimeMillis",
+        "joinPoint",
+        "toString",
+        "joinPoint",
+        "proceed",
+        "finish",
+        "currentTimeMillis",
+        "timeMs",
+        "finish",
+        "start",
+        "joinPoint",
+        "toString",
+        "timeMs"
+    ],
+    "literals": [
+        "\"execution(* com.example.hello_spring..*(..))\"",
+        "\"start :::::::::::::::::::: \"",
+        "\"end ::::::::::::: \"",
+        "\"  \"",
+        "\"ms\""
+    ],
+    "variables": [],
+    "comments": [
+        "이렇게 해도된고 스프링빈에 등록해서 사용해도된다.",
+        "타겟팅해주는거나",
+        "시간로직",
+        "다음메서드로 진행"
+    ],
+    "docstrings": [],
+    "functions": [
+        "execute"
+    ],
+    "classes": [
+        "TimeTraceAop"
+    ]
+}

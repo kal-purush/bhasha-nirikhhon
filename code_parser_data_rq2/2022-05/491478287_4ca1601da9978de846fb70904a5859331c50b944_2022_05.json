@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "element",
+        "element",
+        "setInterval",
+        "parts",
+        "parts",
+        "minuteFormatted",
+        "parts",
+        "timeFormatted",
+        "amPm",
+        "now",
+        "now",
+        "now",
+        "DigitalClock",
+        "clockElement",
+        "clockObject"
+    ],
+    "literals": [
+        "\"0\"",
+        "${parts.hour}:${minuteFormatted}",
+        "\"AM\"",
+        "\"PM\"",
+        "\".clock-time\"",
+        "\".clock-ampm\"",
+        "\".clock\""
+    ],
+    "variables": [
+        "parts",
+        "minuteFormatted",
+        "timeFormatted",
+        "amPm",
+        "now",
+        "clockElement",
+        "clockObject"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "start",
+        "update",
+        "getTimeParts"
+    ],
+    "classes": [
+        "DigitalClock"
+    ]
+}

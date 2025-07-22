@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "socket",
+        "sys",
+        "socket",
+        "socket",
+        "socket",
+        "AF_INET",
+        "socket",
+        "SOCK_STREAM",
+        "sock",
+        "connect_ex",
+        "sys",
+        "argv",
+        "result",
+        "sock",
+        "close",
+        "sys",
+        "exit",
+        "sock",
+        "send",
+        "data_sent",
+        "sock",
+        "recv",
+        "data_sent",
+        "data_received",
+        "sock",
+        "close",
+        "sys",
+        "exit",
+        "sock",
+        "close",
+        "main"
+    ],
+    "literals": [
+        "'127.0.0.1'",
+        "\"Couldn't connect to the socket!\"",
+        "'x'",
+        "\"Data sent didn't match data received.\"",
+        "\"Everything was just fine.\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "sock",
+        "result",
+        "data_sent",
+        "data_received"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nThis is just a script for testing that the dumb TCP server actually works\ncorrectly, for verifying that problems with tests are in Vim. Pass the\nsame port number given to the test server to check that it's working.\n\"\"\""
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "Args",
+        "Command",
+        "Message",
+        "musicManager",
+        "Command",
+        "context",
+        "Command",
+        "options",
+        "Command",
+        "context",
+        "options",
+        "message",
+        "args",
+        "message",
+        "message",
+        "message",
+        "message",
+        "musicManager",
+        "message",
+        "musicGuildInfo",
+        "message",
+        "args",
+        "args",
+        "posToJump",
+        "posToJump",
+        "musicGuildInfo",
+        "posToMove",
+        "posToMove",
+        "musicGuildInfo",
+        "musicGuildInfo",
+        "posToMove",
+        "musicGuildInfo",
+        "posToJump",
+        "item",
+        "message",
+        "item",
+        "posToJump",
+        "message",
+        "error",
+        "message"
+    ],
+    "literals": [
+        "\"@sapphire/framework\"",
+        "\"discord.js\"",
+        "\"../../lib/musicQueue\"",
+        "\"move\"",
+        "\"Move selected track to new position\"",
+        "\"This command only works in servers\"",
+        "\"You must be in voice channel first.\"",
+        "\"No bot in voice channel. Are you okay?\"",
+        "\"integer\"",
+        "\"integer\"",
+        "Moved track **${item.info.title}** to position **${posToJump - 1}**",
+        "Out of range track number.",
+        "\"Error on command. Please put non-zero positive integer for both arguments\""
+    ],
+    "variables": [
+        "musicGuildInfo",
+        "posToMove",
+        "posToJump",
+        "item"
+    ],
+    "comments": [
+        "check if there is a current playing track"
+    ],
+    "docstrings": [],
+    "functions": [
+        "messageRun"
+    ],
+    "classes": [
+        "MoveQueueItemCommand"
+    ]
+}

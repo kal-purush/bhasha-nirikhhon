@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "target",
+        "args",
+        "context",
+        "args",
+        "context",
+        "args",
+        "methodName",
+        "target",
+        "args",
+        "methodName",
+        "result",
+        "replacementMethod",
+        "log",
+        "a",
+        "b",
+        "a",
+        "b",
+        "Calculator",
+        "calculator"
+    ],
+    "literals": [
+        "LOG: Entering method '${methodName}'.",
+        "LOG: Exiting method '${methodName}'."
+    ],
+    "variables": [
+        "methodName",
+        "result",
+        "calculator"
+    ],
+    "comments": [
+        "TypeScript 装饰器",
+        "type Constructor<T = {}> = new (...args: any[]) => T;\n\nclass InstanceCollector {\n  instances = new Set();\n\n  install = <Class extends Constructor>(Value: Class, context: ClassDecoratorContext<Class>) => {\n    const _this = this;\n    return class extends Value {\n      constructor(...args: any[]) {\n        super(...args);\n        _this.instances.add(this);\n      }\n    };\n  };\n}\n\nconst collector = new InstanceCollector();\n\n@collector.install\nclass Calculator {\n  add(a: number, b: number): number {\n    return a + b;\n  }\n}\n\nconst calculator1 = new Calculator();\nconst calculator2 = new Calculator();\n\nconsole.log(\"instances: \", collector.instances);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "log",
+        "replacementMethod",
+        "add"
+    ],
+    "classes": [
+        "Calculator"
+    ]
+}

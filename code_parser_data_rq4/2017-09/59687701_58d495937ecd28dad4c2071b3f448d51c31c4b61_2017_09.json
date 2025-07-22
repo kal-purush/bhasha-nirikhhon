@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Autodesk",
+        "DesignScript",
+        "Runtime",
+        "Drawing",
+        "Generic",
+        "IsVisibleInDynamoLibrary",
+        "DSCore",
+        "Color",
+        "Color",
+        "Color",
+        "Blue",
+        "Color",
+        "Green",
+        "Color",
+        "Red",
+        "DSCore",
+        "Color",
+        "UInt",
+        "UInt",
+        "UInt",
+        "UInt",
+        "DSCore",
+        "Color",
+        "ByARGB",
+        "r",
+        "g",
+        "b"
+    ],
+    "literals": [],
+    "variables": [
+        "b",
+        "g",
+        "r"
+    ],
+    "comments": [
+        "public static uint ColorToUIntRGB(DSCore.Color Color)",
+        "{ColorToUInt",
+        "return (uint)((Color.Alpha << 24) | (Color.Red << 16) |",
+        "(Color.Green << 8) | (Color.Blue << 0));",
+        "}",
+        "public static DSCore.Color UIntRGBToColor(uint UInt)",
+        "{",
+        "byte a = (byte)(UInt >> 24);",
+        "byte r = (byte)(UInt >> 16);",
+        "byte g = (byte)(UInt >> 8);",
+        "byte b = (byte)(UInt >> 0);",
+        "return DSCore.Color.ByARGB(a, r, g, b);",
+        "}",
+        "From .net/dynamo to a colour set back into Tas",
+        "From Tas to display in .net/dynamo"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ColorToUIntRGB",
+        "UIntRGBToColor"
+    ],
+    "classes": [
+        "Utils"
+    ]
+}

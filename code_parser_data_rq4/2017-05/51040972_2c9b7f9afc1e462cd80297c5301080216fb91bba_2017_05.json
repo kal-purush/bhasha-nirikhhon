@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "os",
+        "shutil",
+        "wmt",
+        "utils",
+        "hook",
+        "find_simulation_input_file",
+        "yaml_dump",
+        "env",
+        "fname",
+        "file_list",
+        "find_simulation_input_file",
+        "env",
+        "fname",
+        "shutil",
+        "copy",
+        "src",
+        "os",
+        "curdir",
+        "yaml_dump",
+        "env"
+    ],
+    "literals": [
+        "'analysis_driver'",
+        "'dakota_run_component'",
+        "'_env.yaml'"
+    ],
+    "variables": [
+        "env",
+        "src"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"A hook for modifying parameter values read from the WMT client.\"\"\"",
+        "\"\"\"Perform pre-stage tasks for running a component.\n\n    Parameters\n    ----------\n    env : dict\n      A dict of component parameter values from WMT.\n\n    \"\"\""
+    ],
+    "functions": [
+        "execute"
+    ],
+    "classes": []
+}

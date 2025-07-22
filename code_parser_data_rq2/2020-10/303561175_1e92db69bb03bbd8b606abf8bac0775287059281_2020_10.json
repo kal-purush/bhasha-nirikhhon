@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "Node",
+        "oldHead",
+        "oldHead",
+        "oldHead",
+        "value",
+        "Node",
+        "value",
+        "nuNode",
+        "nuNode",
+        "nuNode",
+        "stack",
+        "stack",
+        "stack",
+        "stack",
+        "stack",
+        "stack",
+        "poppedItem",
+        "stack"
+    ],
+    "literals": [
+        "'./linked_lists.js'",
+        "'Top of stack is: '",
+        "'We popped off the stack: '",
+        "'Now the top of the stack is: '"
+    ],
+    "variables": [
+        "oldHead",
+        "nuNode",
+        "stack",
+        "poppedItem"
+    ],
+    "comments": [
+        "getting what's at the top of the stack, without removing it",
+        "getting what's at the top of the stack and removing it",
+        "adding something new to the top of the stack",
+        "LinkedList",
+        "what is the top?  head or the tail?  Top = head",
+        "stack.peek() - this.items.head - Big(0) = O(1)",
+        "stack.pop() - return the head, and make the second item the new head - Big(0) = O(1)",
+        "stack.push(object) - put something at the head - Big(0) = O(1)",
+        "Array",
+        "what is the top?",
+        "[0, 3, 2, 1, 5, 6] - at the end",
+        "[0, 3, 2, 1, 5] - at the beginning",
+        "const fun = new Array(6)",
+        "fun.push(1) // 0",
+        "fun.push(4) // 1",
+        "fun.push(5)",
+        "fun.push(1)",
+        "fun.push(4)",
+        "fun.push(6) // 5",
+        "fun.push(11) // create a whole new array of size 12, and then copy it over.  Big O(n)",
+        "ArrayList.size = 6.",
+        "[ 1, 4, 5, 1, 4, 6]",
+        "new Array(this.size * 2)",
+        "copy everything over",
+        "fun.push(8) // O(1)",
+        "stack.peek() - at end O(1), at beginnig O(1)",
+        "stack.pop() - at end O(1), at beginnig O(n)",
+        "stack.push(object) - at end amortized 0(1), at beginning O(n)",
+        "Stack LIFO - last in first out",
+        "Queue FIFO - first in first out"
+    ],
+    "docstrings": [],
+    "functions": [
+        "peek",
+        "pop",
+        "push"
+    ],
+    "classes": []
+}

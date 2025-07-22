@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "ICountyInfoGetter",
+        "format",
+        "format",
+        "code",
+        "resolve",
+        "resolve",
+        "code",
+        "format"
+    ],
+    "literals": [
+        "'./ICountyInfoGetter'",
+        "'../LogUtil'",
+        "'steamcommunity.com'",
+        "string",
+        "'通过 市场页面 获取区域代码...'",
+        "string",
+        "string",
+        "'通过 市场页面 获取区域代码失败。'"
+    ],
+    "variables": [
+        "code",
+        "g_strCountryCode"
+    ],
+    "comments": [
+        "@ts-ignore"
+    ],
+    "docstrings": [
+        "* 市场页面获取区域代码"
+    ],
+    "functions": [
+        "match",
+        "getCountyCode"
+    ],
+    "classes": [
+        "MarketPageCountyCodeGetter"
+    ]
+}

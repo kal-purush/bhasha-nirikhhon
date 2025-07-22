@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "com",
+        "linkedin",
+        "avro",
+        "fastserde",
+        "FastClassStatus"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Whether it is implemented by the runtime-generated class or not.",
+        "* Tell the user, specifically {@link FastGenericDatumReader}/{@link FastSpecificDatumReader} or\n   * {@link FastGenericDatumWriter}/{@link FastSpecificDatumWriter} that\n   * whether runtime class generation is done or not.\n   * There will be two outcomes:\n   * 1. Fast class is backed by the class generated at runtime.\n   * 2. Vanilla Avro based implementation when runtime class generation fails.\n   *\n   * For both cases, {@link FastGenericDatumReader}/{@link FastSpecificDatumReader} or\n   * {@link FastGenericDatumWriter}/{@link FastSpecificDatumWriter}can stop polling\n   * the runtime class generation status."
+    ],
+    "functions": [
+        "isBackedByGeneratedClass",
+        "hasDynamicClassGenerationDone"
+    ],
+    "classes": []
+}

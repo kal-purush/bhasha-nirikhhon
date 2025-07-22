@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "org",
+        "apache",
+        "avro",
+        "util",
+        "java",
+        "util",
+        "ifAbsent",
+        "ifAbsent",
+        "ifAbsent",
+        "ifAbsent",
+        "Override",
+        "c",
+        "ifAbsent",
+        "apply",
+        "c"
+    ],
+    "literals": [],
+    "variables": [
+        "ifAbsent"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Licensed to the Apache Software Foundation (ASF) under one\n * or more contributor license agreements.  See the NOTICE file\n * distributed with this work for additional information\n * regarding copyright ownership.  The ASF licenses this file\n * to you under the Apache License, Version 2.0 (the\n * \"License\"); you may not use this file except in compliance\n * with the License.  You may obtain a copy of the License at\n *\n *     https://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* The Android environment doesn't support {@link ClassValue}. This utility\n * bypasses its use in Avro to always recalculate the value without caching.\n * <p>\n * This may have a performance impact in Android.\n *\n * @param <R> Return type of the ClassValue",
+        "* @param ifAbsent The function that calculates the value to be used from the\n   *                 class instance."
+    ],
+    "functions": [
+        "ClassValueCache",
+        "R",
+        "apply"
+    ],
+    "classes": [
+        "ClassValueCache"
+    ]
+}

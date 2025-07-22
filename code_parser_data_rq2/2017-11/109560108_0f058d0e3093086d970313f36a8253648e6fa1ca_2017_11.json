@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "sublime",
+        "sublime_plugin",
+        "os",
+        "os",
+        "path",
+        "path",
+        "User",
+        "preprocessdefines",
+        "PreProcessDefines",
+        "sublime_plugin",
+        "TextCommand",
+        "edit",
+        "sublime",
+        "Region",
+        "view",
+        "size",
+        "view",
+        "split_by_newlines",
+        "contentTxtRegion",
+        "view",
+        "file_name",
+        "os",
+        "path",
+        "dirname",
+        "fullPathFile",
+        "fullPathFile",
+        "len",
+        "fullPathFile",
+        "dirFile",
+        "len",
+        "linesTxtRegion",
+        "new_file"
+    ],
+    "literals": [
+        "\"fullPathFile\\t[\"",
+        "\"] [\"",
+        "\"]\"",
+        "\"dirFile\\t\\t[\"",
+        "\"]\"",
+        "\"Number of lines [\"",
+        "\"]\""
+    ],
+    "variables": [
+        "contentTxtRegion",
+        "linesTxtRegion",
+        "fullPathFile",
+        "dirFile",
+        "newFile"
+    ],
+    "comments": [
+        "------------------------------------------------------------------------------------",
+        "Global vars",
+        "------------------------------------------------------------------------------------",
+        "------------------------------------------------------------------------------------",
+        "------------------------------------------------------------------------------------",
+        ",edit",
+        "Pre-processing defines",
+        "preProcess = PreProcessDefines()",
+        "preProcess.load_list_defines(\"defines.h\",dirFile)",
+        "preProcess.converter_code(fullPathFile,dirFile)",
+        "for line in linesTxtRegion:",
+        "print('['+str(line)+']')",
+        "self.view.replace(edit, contentTxtRegion, '['+ str(line)+\"]\")",
+        "self.view.insert(edit, 0, \"Hello, World!\")",
+        "------------------------------------------------------------------------------------"
+    ],
+    "docstrings": [],
+    "functions": [
+        "run"
+    ],
+    "classes": [
+        "pre_processCommand"
+    ]
+}

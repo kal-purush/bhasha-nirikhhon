@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "hash",
+        "queryParamsKey",
+        "filters",
+        "selectedFilters",
+        "filters",
+        "filters",
+        "filters",
+        "hash",
+        "hash",
+        "filters"
+    ],
+    "literals": [
+        "'object-hash'",
+        "string",
+        "string",
+        "string",
+        "''",
+        "${this.filter.queryParam}=${this.filter.value}",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'|'"
+    ],
+    "variables": [
+        "selectedFilters"
+    ],
+    "comments": [
+        "get all filters that have a non-null/non-undefined value"
+    ],
+    "docstrings": [
+        "* Basic required filter fields.\n *\n * @export\n * @interface IFilterFields\n * @template T",
+        "* Key used when building url query param strings.\n   *\n   * @type {string}\n   * @memberof IFilterFields",
+        "* Filter value.\n   *\n   * @type {T}\n   * @memberof IFilterFields",
+        "* Single value filter.\n *\n * @export\n * @class Filter\n * @template T",
+        "* Returns the filter as a query string of the form `'queryParam=value'`\n   * Returns empty string if the filter value is null, undefined, or empty.\n   *\n   * @returns {string}\n   * @memberof Filter",
+        "* Returns true if filter value is set (not null, undefined, or empty), false otherwise.\n   *\n   * @returns {boolean}\n   * @memberof Filter",
+        "* Sets the filter value to null.\n   *\n   * @memberof Filter",
+        "* Basic required multi filter fields.\n *\n * @export\n * @interface IMultiFilterFields\n * @extends {IFilterFields<T>}\n * @template T",
+        "* Human readable display string\n   *\n   * @type {string}\n   * @memberof IFilterFields",
+        "* Multi value filter.\n *\n * @export\n * @class MultiFilter<boolean>",
+        "* Returns the non-null, non-undefined filters as an array of params.\n   *\n   * Example: ['bird', 'dog', 'cat']\n   *\n   * @returns {string[]}\n   * @memberof MultiFilter<boolean>",
+        "* Returns the non-null, non-undefined filters as a query string where each filter param is separated by\n   * a pipe '|' symbol.\n   *\n   * Example: ['bird','dog','cat'] -> 'bird|dog|cat'\n   *\n   * @returns {string}\n   * @memberof MultiFilter<boolean>",
+        "* Returns true if at least one filter has been set, false otherwise.\n   *\n   * @returns {boolean}\n   * @memberof MultiFilter<boolean>",
+        "* Sets all filter values to null.\n   *\n   * @memberof MultiFilter<boolean>"
+    ],
+    "functions": [
+        "getQueryParamsString",
+        "isFilterSet",
+        "reset",
+        "getQueryParamsArray",
+        "getQueryParamsString",
+        "isFilterSet",
+        "reset",
+        "hashFilters"
+    ],
+    "classes": [
+        "Filter",
+        "MultiFilter",
+        "FilterUtils"
+    ]
+}

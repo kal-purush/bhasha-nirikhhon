@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "Event",
+        "Events",
+        "BuffWindow",
+        "EvaluatedAction",
+        "PlayersBuffedEvaluator",
+        "HistoryEntry",
+        "ensureArray",
+        "oneOf",
+        "noneOf",
+        "BuffWindow",
+        "actor",
+        "actor",
+        "actor",
+        "actor",
+        "partyMembers",
+        "actor",
+        "actor",
+        "actor",
+        "actor",
+        "actor",
+        "oneOf",
+        "ensureArray",
+        "s",
+        "s",
+        "statusFilter",
+        "oneOf",
+        "playerOwnedIds",
+        "oneOf",
+        "partyMembers",
+        "statusFilter",
+        "noneOf",
+        "playerOwnedIds",
+        "PlayersBuffedEvaluator",
+        "buffWindow",
+        "buffWindow",
+        "buffWindow",
+        "buffWindow",
+        "windowEnd",
+        "affected",
+        "last",
+        "last"
+    ],
+    "literals": [
+        "'event'",
+        "'parser/core/modules/ActionWindow'",
+        "'parser/core/modules/ActionWindow/History'",
+        "'utilities'",
+        "'../../../filter'",
+        "'statusApply'",
+        "'statusApply'",
+        "'statusApply'",
+        "'statusApply'"
+    ],
+    "variables": [
+        "partyMembers",
+        "playerOwnedIds",
+        "statusFilter",
+        "windowEnd",
+        "affected",
+        "last"
+    ],
+    "comments": [
+        "Duplicate jobs can override buffs",
+        "count the number of applications that happened in the window",
+        "If your buff was overridden, the end timestamp should match the overriding event."
+    ],
+    "docstrings": [
+        "* Tracks buffs applied to the party.",
+        "* Array of all status apply events on players for the buffs specified.\n\t *\n\t * These might ideally belong in the History, but it would break the\n\t * current paradigm of the ActionWindow.",
+        "* Expected number of people who should get the raid buff every time."
+    ],
+    "functions": [
+        "initialise",
+        "onRaidBuffApply",
+        "affectedPlayers",
+        "maybeReOpenPreviousWindow"
+    ],
+    "classes": []
+}

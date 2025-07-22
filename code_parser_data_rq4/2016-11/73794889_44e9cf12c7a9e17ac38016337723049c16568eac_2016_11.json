@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "SpotifyGraphQLClient",
+        "config",
+        "SpotifyDecorators",
+        "SpotifyQueryDecorated",
+        "SpotifyGraphQLClient",
+        "config",
+        "SpotifyDecorators",
+        "client",
+        "SpotifyQuery",
+        "response",
+        "response",
+        "track",
+        "track",
+        "Fetcher",
+        "sentence",
+        "sentence",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'../src/spotify-graphql'",
+        "'./config'",
+        "'../src/decorators'",
+        "query getTrack($id: String!) {\n      track(id: $id) {\n        name\n        artists {\n          name\n        }\n      }\n    }",
+        "the track ${track.name} was played by ${track.artists[0].name}",
+        "'3W2ZcrRsInZbjWylOi6KhZ'"
+    ],
+    "variables": [
+        "client",
+        "track"
+    ],
+    "comments": [
+        "output \"the track You & Me - Flume Remix was played by Disclosure\""
+    ],
+    "docstrings": [],
+    "functions": [
+        "getTrack"
+    ],
+    "classes": [
+        "Fetcher"
+    ]
+}

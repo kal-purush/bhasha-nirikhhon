@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "MA_num",
+        "force_vals",
+        "mass",
+        "geom_dict",
+        "MA_num",
+        "vals",
+        "vals",
+        "vals",
+        "vals",
+        "vals",
+        "vals",
+        "vals",
+        "vals",
+        "vals",
+        "vals",
+        "vals",
+        "force_vals",
+        "COP_real",
+        "force_vals",
+        "COP_real",
+        "force_vals",
+        "COP_real",
+        "moment",
+        "geom_dict",
+        "MA_num",
+        "T_F",
+        "mass",
+        "moment",
+        "T_F",
+        "T_F_norm"
+    ],
+    "literals": [],
+    "variables": [
+        "geom_dict",
+        "vals",
+        "COPs",
+        "COP_real",
+        "moment",
+        "T_F",
+        "T_F_norm"
+    ],
+    "comments": [
+        "This function calculates the achilles tendon load based on loadsol",
+        "readings from the three sensor loadout. The MA_num variable refers to",
+        "which row in the geom_dict variable is used for the calculation. Force_vals",
+        "are a matrix of loadsol readings from each region."
+    ],
+    "docstrings": [],
+    "functions": [
+        "moment_loadsol"
+    ],
+    "classes": []
+}

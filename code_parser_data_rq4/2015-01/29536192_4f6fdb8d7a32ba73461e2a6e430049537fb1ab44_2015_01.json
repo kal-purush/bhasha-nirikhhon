@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "fs",
+        "mraa",
+        "fs",
+        "eval",
+        "col",
+        "mraa",
+        "mraa",
+        "myLed",
+        "setInterval",
+        "myLed",
+        "ledState",
+        "ledState",
+        "ledState"
+    ],
+    "literals": [
+        "\"fs\"",
+        "\"mraa\"",
+        "'./collections/collections.js'",
+        "'utf8'"
+    ],
+    "variables": [
+        "col",
+        "myLed",
+        "ledState"
+    ],
+    "comments": [
+        "<reference path='collections/collections.d.ts' />",
+        "<reference path='node/node.d.ts' />",
+        "<reference path='mraa.d.ts' />",
+        "LED hooked up to digital pin 13 (or built in pin on Galileo Gen1 & Gen2)",
+        "set the gpio direction to output",
+        "Boolean to hold the state of Led",
+        "if ledState is true then write a '1' (high) otherwise write a '0' (low)",
+        "invert the ledState"
+    ],
+    "docstrings": [
+        "* Created by barais on 20/01/15."
+    ],
+    "functions": [],
+    "classes": []
+}

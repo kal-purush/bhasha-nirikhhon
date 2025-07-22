@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "os",
+        "requests",
+        "pyperclip",
+        "source",
+        "source",
+        "source",
+        "startswith",
+        "requests",
+        "get",
+        "source",
+        "response",
+        "text",
+        "os",
+        "path",
+        "isfile",
+        "source",
+        "open",
+        "source",
+        "read",
+        "source",
+        "pyperclip",
+        "paste",
+        "_text"
+    ],
+    "literals": [
+        "\"http\"",
+        "f\"Scraped text: '{self._text}'\""
+    ],
+    "variables": [
+        "response",
+        "_text",
+        "_text",
+        "_text",
+        "_text"
+    ],
+    "comments": [
+        "",
+        "Class Scraper demonstrates the use of loading content from a web page",
+        "",
+        "Class members.",
+        "_text: this is the text that was scraped",
+        "",
+        "Class constructor.",
+        "source: indicates the source to use for scraping the text:",
+        "if source starts with \"http\", text is loaded from a web page",
+        "(i.e. https://www.gutenberg.org/files/147/147-0.txt)",
+        "if source points to a file on the disk, text is loaded from that file",
+        "if source is any other string, text is loaded directly from there",
+        "otherwise the text is loaded from the clipboard",
+        "Loads the internal _text from various sources"
+    ],
+    "docstrings": [],
+    "functions": [
+        "__str__"
+    ],
+    "classes": [
+        "Scraper"
+    ]
+}

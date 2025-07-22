@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Component",
+        "RouteConfig",
+        "ROUTER_DIRECTIVES",
+        "ROUTER_PROVIDERS",
+        "HobbyListComponent",
+        "HobbyDetailComponent",
+        "HobbyService",
+        "Component",
+        "ROUTER_DIRECTIVES",
+        "ROUTER_PROVIDERS",
+        "HobbyService",
+        "RouteConfig",
+        "HobbyListComponent",
+        "HobbyDetailComponent"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "'@angular/router-deprecated'",
+        "\"./hobby-list.component\"",
+        "\"./hobby-detail.component\"",
+        "\"./hobby.service\"",
+        "'my-app'",
+        "<router-outlet></router-outlet>",
+        "'/list'",
+        "'List'",
+        "'/detail/:id'",
+        "'Detail'"
+    ],
+    "variables": [],
+    "comments": [
+        "uses the 2.x router as the 3.0 alpha was not functional as of this demo",
+        "(it was released 2 days before and still had some version bugs)",
+        "import our components used in routing",
+        "import our HobbyService here so it's available in all components",
+        "this is the default page",
+        "this class is now purely for routing and bootstrap"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppComponent"
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "org",
+        "zaproxy",
+        "zap",
+        "extension",
+        "pscanrulesAlpha",
+        "net",
+        "htmlparser",
+        "jericho",
+        "Source",
+        "org",
+        "parosproxy",
+        "paros",
+        "Constant",
+        "org",
+        "parosproxy",
+        "paros",
+        "network",
+        "HttpMessage",
+        "org",
+        "zaproxy",
+        "zap",
+        "extension",
+        "pscan",
+        "PassiveScanThread",
+        "org",
+        "zaproxy",
+        "zap",
+        "extension",
+        "pscan",
+        "PluginPassiveScanner",
+        "MESSAGE_PREFIX",
+        "Override",
+        "msg",
+        "id",
+        "Override",
+        "msg",
+        "id",
+        "source",
+        "Override",
+        "parent",
+        "Override",
+        "getString",
+        "param",
+        "Constant",
+        "messages",
+        "getString",
+        "MESSAGE_PREFIX",
+        "param",
+        "Override"
+    ],
+    "literals": [
+        "\"pscanalpha.sri-integrity.\"",
+        "\"name\""
+    ],
+    "variables": [],
+    "comments": [
+        "do nothing"
+    ],
+    "docstrings": [
+        "Detect missing attribute integrity in tag <script>",
+        "Prefix for internationalized messages used by this rule"
+    ],
+    "functions": [
+        "scanHttpRequestSend",
+        "scanHttpResponseReceive",
+        "setParent",
+        "getName",
+        "getString",
+        "getPluginId"
+    ],
+    "classes": [
+        "SRIIntegrityAttributeScanner"
+    ]
+}

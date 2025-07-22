@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "umm3601",
+        "com",
+        "google",
+        "gson",
+        "JsonElement",
+        "com",
+        "google",
+        "gson",
+        "JsonObject",
+        "name",
+        "value",
+        "dataObject",
+        "dataObject",
+        "add",
+        "name",
+        "value",
+        "resultObject",
+        "resultObject",
+        "addProperty",
+        "resultObject",
+        "add",
+        "dataObject",
+        "resultObject",
+        "errorField",
+        "errorMessage",
+        "dataObject",
+        "dataObject",
+        "addProperty",
+        "errorField",
+        "errorMessage",
+        "resultObject",
+        "resultObject",
+        "addProperty",
+        "resultObject",
+        "add",
+        "dataObject",
+        "resultObject"
+    ],
+    "literals": [
+        "\"status\"",
+        "\"success\"",
+        "\"data\"",
+        "\"status\"",
+        "\"fail\"",
+        "\"data\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Constructs a JsonObject representing the response to a successful REST request\n   * as described in the JSend \"standard\" (http://labs.omniti.com/labs/jsend). This\n   * has a successful status, and the data field is a JSON object that contains\n   * the given name/value pair.\n   *\n   * @param name the name of the returned value\n   * @param value the value to return\n   * @return the a successful JSON response object"
+    ],
+    "functions": [
+        "JsonObject",
+        "buildSuccessJsonResponse",
+        "JsonObject",
+        "buildFailJsonResponse"
+    ],
+    "classes": [
+        "Util"
+    ]
+}

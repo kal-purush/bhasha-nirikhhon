@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "AtomBinder",
+        "CancelToken",
+        "key",
+        "key",
+        "key",
+        "key",
+        "key",
+        "old",
+        "old",
+        "key",
+        "CancelToken",
+        "n"
+    ],
+    "literals": [
+        "\"./AtomBinder\"",
+        "\"./types\"",
+        "string",
+        "string",
+        "\"__old\""
+    ],
+    "variables": [
+        "old",
+        "n"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* We recommend using CancelTokenFactory instead of using CancelToken directly.\n * This class will cancel previous token before creating new token for given key.",
+        "* This will create a new token and cancel previous token"
+    ],
+    "functions": [
+        "newToken"
+    ],
+    "classes": [
+        "CancelTokenFactory"
+    ]
+}

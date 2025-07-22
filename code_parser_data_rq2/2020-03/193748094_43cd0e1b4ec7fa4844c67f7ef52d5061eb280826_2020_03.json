@@ -1,0 +1,19 @@
+{
+    "identifiers": [
+        "PoPageDynamicDetailOptions"
+    ],
+    "literals": [
+        "'./po-page-dynamic-detail-options.interface'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "./po-page-dynamic-detail-options.interface\n * @docsExtends PoPageDynamicDetailOptions\n *\n * @usedBy PoPageDynamicDetailComponent\n *\n * @description\n *\n * <a id=\"po-page-dynamic-detail-metadata\"></a>\n *"
+    ],
+    "docstrings": [
+        "*\n   * Cria automaticamente as rotas de edição (novo/duplicate) e detalhes caso sejam definidas ações na propriedade `p-actions`\n   *\n   * As rotas criadas serão baseadas na propriedade `p-actions`.\n   *\n   * > Para o correto funcionamento não pode haver nenhuma rota coringa (`**`) especificada.\n   *\n   * @default false",
+        "*\n   * Versão do metadata, o sistema irá buscar a versão nas próximas iteração.\n   *\n   * @default false"
+    ],
+    "functions": [],
+    "classes": []
+}

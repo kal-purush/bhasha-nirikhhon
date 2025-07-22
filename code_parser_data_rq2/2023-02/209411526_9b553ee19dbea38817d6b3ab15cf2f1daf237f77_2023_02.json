@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "getConnection",
+        "queryRunner",
+        "getConnection",
+        "connection",
+        "queryRunner",
+        "schema",
+        "queryRunner",
+        "getConnection",
+        "connection",
+        "queryRunner",
+        "schema"
+    ],
+    "literals": [
+        "'typeorm'",
+        "CREATE TABLE ${schema}.tokens_backfill (\n            address VARCHAR NOT NULL,\n            PRIMARY KEY (address)\n          );",
+        "DROP TABLE ${schema}.tokens_backfill;"
+    ],
+    "variables": [
+        "connection",
+        "connection"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "CreateTokensBackfillTabl1677042999000"
+    ]
+}

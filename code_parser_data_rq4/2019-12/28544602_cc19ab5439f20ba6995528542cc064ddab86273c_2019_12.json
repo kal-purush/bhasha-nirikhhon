@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "unittest",
+        "TestCase",
+        "pytest",
+        "mark",
+        "scrapy",
+        "utils",
+        "asyncio",
+        "is_asyncio_supported",
+        "install_asyncio_reactor",
+        "mark",
+        "usefixtures",
+        "TestCase",
+        "assertEquals",
+        "is_asyncio_supported",
+        "reactor_pytest",
+        "install_asyncio_reactor"
+    ],
+    "literals": [
+        "'reactor_pytest'",
+        "'asyncio'"
+    ],
+    "variables": [],
+    "comments": [
+        "the result should depend only on the pytest --reactor argument",
+        "this should do nothing"
+    ],
+    "docstrings": [],
+    "functions": [
+        "test_is_asyncio_supported",
+        "test_install_asyncio_reactor"
+    ],
+    "classes": [
+        "AsyncioTest"
+    ]
+}

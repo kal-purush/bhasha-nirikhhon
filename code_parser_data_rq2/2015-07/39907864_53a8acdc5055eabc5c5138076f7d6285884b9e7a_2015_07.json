@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "exports",
+        "require",
+        "require",
+        "process",
+        "parseArgs",
+        "parseArgs",
+        "process",
+        "parseArgs",
+        "parseArgs",
+        "overrideConfig",
+        "require",
+        "fs",
+        "overrideConfig",
+        "config",
+        "creds_JSON",
+        "config",
+        "creds",
+        "creds",
+        "creds",
+        "creds",
+        "process",
+        "config",
+        "config",
+        "process",
+        "config"
+    ],
+    "literals": [
+        "'config'",
+        "'minimist'",
+        "\"This app uses config/default.json as default config file. Use config/default.json.sample as a base \"",
+        "\"to create your own configuration with correct AWS credentials.\"",
+        "\"Config file name can be overridden by -c or --config-file command line argument\"",
+        "\"c\"",
+        "\"config-file\"",
+        "'fs'",
+        "\"./config/\"",
+        "\"REPLACE\"",
+        "\"REPLACE\"",
+        "\"Error: Invalid AWS credentials in the config file\"",
+        "\"Error: Invalid metric configuration\""
+    ],
+    "variables": [
+        "config",
+        "parseArgs",
+        "overrideConfig",
+        "fs",
+        "creds_JSON",
+        "creds"
+    ],
+    "comments": [
+        "this will read the default configuration file",
+        "show help message if -h or --help is present",
+        "override configuration if -c or --config-file is present"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

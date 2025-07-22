@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "botoesCarrossel",
+        "botao",
+        "indice",
+        "botao",
+        "desativarBotaoSelecionado",
+        "marcarBotaoSelecionado",
+        "botao",
+        "esconderImagemAtiva",
+        "mostrarImagemDeFundo",
+        "indice",
+        "esconderInformacoesAtivas",
+        "mostrarInformacoes",
+        "indice",
+        "botao",
+        "botao",
+        "indice",
+        "informacoes",
+        "indice",
+        "informacoesAtiva",
+        "indice",
+        "imagens",
+        "indice",
+        "imagemAtiva",
+        "botaoSelecionado"
+    ],
+    "literals": [
+        "\".botao\"",
+        "\".imagem\"",
+        "\".informacoes\"",
+        "\"click\"",
+        "\"selecionado\"",
+        "\"ativa\"",
+        "\".informacoes.ativa\"",
+        "\"ativa\"",
+        "\"ativa\"",
+        "\".ativa\"",
+        "\"ativa\"",
+        "\".selecionado\"",
+        "\"selecionado\""
+    ],
+    "variables": [
+        "botoesCarrossel",
+        "imagens",
+        "informacoes",
+        "informacoesAtiva",
+        "imagemAtiva",
+        "botaoSelecionado"
+    ],
+    "comments": [
+        "OBJETIVO - quando clicarmos no botão temos que mostrar a imagem de fundo correspondente\n\t- passo 1 - dar um jeito de pegar o elemento HTML dos botões\n\t- passo 2 - dar um jeito de identificar o clique do usuário no botão\n\t- passo 3 - desmarcar o botão selecionado anterior\n\t- passo 4 - marcar o botão clicado como se estivesse selecionado\n\t- passo 5 - esconder a imagem anteriormente selecionada\n\t- passo 6 - fazer aparecer a imagem correspondente ao botão clicado\n\t- passo 7 - esconder a informação do dragão anteriormente selecionado\n\t- passo 8 - mostrar a informação do dragão referente ao botão clicado",
+        "- passo 1 - dar um jeito de pegar o elemento HTML dos botões",
+        "- passo 2 - dar um jeito de identificar o clique do usuário no botão",
+        "- passo 3 - desmarcar o botão selecionado anterior",
+        "- passo 4 - marcar o botão clicado como se estivesse selecionado",
+        "- passo 5 - esconder a imagem anteriormente selecionada",
+        "- passo 6 - fazer aparecer a imagem correspondente ao botão clicado",
+        "- passo 7 - esconder a informação do dragão anteriormente selecionado",
+        "- passo 8 - mostrar a informação do dragão referente ao botão clicado"
+    ],
+    "docstrings": [],
+    "functions": [
+        "marcarBotaoSelecionado",
+        "mostrarInformacoes",
+        "esconderInformacoesAtivas",
+        "mostrarImagemDeFundo",
+        "esconderImagemAtiva",
+        "desativarBotaoSelecionado"
+    ],
+    "classes": []
+}

@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "com",
+        "suse",
+        "sitemesh",
+        "mapper",
+        "com",
+        "opensymphony",
+        "sitemesh",
+        "Decorator",
+        "com",
+        "opensymphony",
+        "sitemesh",
+        "Page",
+        "com",
+        "opensymphony",
+        "sitemesh",
+        "mapper",
+        "AbstractDecoratorMapper",
+        "javax",
+        "servlet",
+        "http",
+        "HttpServletRequest",
+        "Override",
+        "request",
+        "page",
+        "request",
+        "getMethod",
+        "equalsIgnoreCase",
+        "getDecorator",
+        "request",
+        "page"
+    ],
+    "literals": [
+        "\"HEAD\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2021 SUSE LLC\n *\n * This software is licensed to you under the GNU General Public License,\n * version 2 (GPLv2). There is NO WARRANTY for this software, express or\n * implied, including the implied warranties of MERCHANTABILITY or FITNESS\n * FOR A PARTICULAR PURPOSE. You should have received a copy of GPLv2\n * along with this software; if not, see\n * http://www.gnu.org/licenses/old-licenses/gpl-2.0.txt.\n *\n * Red Hat trademarks are not licensed under GPLv2. No permission is\n * granted to use or replicate Red Hat trademarks that are incorporated\n * in this software or its documentation.",
+        "* Sitemesh Decorator Mapper to avoid apply decorator in head request method",
+        "* Empty constructor",
+        "* Decorator resolver which skips decorator apply to HEAD request method\n     *\n     * @param request\n     * @param page\n     * @return if request is HEAD returns null, otherwise delegates in the next decorator mapper"
+    ],
+    "functions": [
+        "HeadMethodDecoratorMapper",
+        "Decorator",
+        "getDecorator"
+    ],
+    "classes": [
+        "HeadMethodDecoratorMapper"
+    ]
+}

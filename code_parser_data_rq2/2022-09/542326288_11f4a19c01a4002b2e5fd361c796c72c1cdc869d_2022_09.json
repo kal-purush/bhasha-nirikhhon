@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "apiRequest",
+        "BASE_URL",
+        "resourcePath",
+        "fetch",
+        "buildProxyEndpoint",
+        "endpoint",
+        "response",
+        "updatePage",
+        "apiRequest",
+        "exampleAddElement",
+        "newElement",
+        "existingElement",
+        "newElement",
+        "buildProxyEndpoint",
+        "endpoint",
+        "PROXY_URL",
+        "endpoint"
+    ],
+    "literals": [
+        "'https://www.fruityvice.com/api/'",
+        "'fruit/all'",
+        "\"GET\"",
+        "'Content-Type'",
+        "'application/json'",
+        "'cs1300-gallery'",
+        "'div'",
+        "\"this text is inside a div\"",
+        "'example-id'",
+        "'https://cs1300-cors-anywhere.herokuapp.com/'",
+        "${PROXY_URL}${endpoint}"
+    ],
+    "variables": [
+        "apiRequest",
+        "BASE_URL",
+        "resourcePath",
+        "endpoint",
+        "response",
+        "updatePage",
+        "gallery",
+        "fruitsArray",
+        "exampleAddElement",
+        "newElement",
+        "existingElement",
+        "PROXY_URL",
+        "buildProxyEndpoint"
+    ],
+    "comments": [
+        "Make a GET request to the fruityvice api to retrieve some fruit data",
+        "This endpoint (https://www.fruityvice.com/doc/index.html#api-GET-getAll) returns a list of all the fruits and their info, feel free to play around with different endpoints!",
+        "Making a fetch request to an API endpoint",
+        "Note: a fetch request is an asynchronous operation, and `await` tells the program to wait until the request has been completed before continuing",
+        "console.log(response);",
+        "Return the response in JSON format",
+        "Make API request and get an array of fruit objects",
+        "console.log(fruitsArray);",
+        "TODO: Use either `map` and/or `filter` to extract some data from the array of fruit objects",
+        "For example, find \"name of all fruits whose sugar > 15\",",
+        "TODO: Create a new HTML element to display your data",
+        "TODO: Append your new element to the page",
+        "SAMPLE CODE of how to create and append a new HTML element to the page",
+        "Create a new HTML element and set its properties",
+        "Append the new element to an existing part of the webpage",
+        "do not touch - stencil code to add the proxy to avoid CORS"
+    ],
+    "docstrings": [
+        "* To access information in this API, we need to send our requests through a proxy due to CORS restrictions.\n * This will be used as our proxy to avoid CORS issues."
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "ExperimentRegistryService",
+        "Component",
+        "ComponentRef",
+        "Injector",
+        "Input",
+        "OnDestroy",
+        "OnChanges",
+        "OnInit",
+        "SimpleChanges",
+        "TemplateRef",
+        "ViewChild",
+        "ViewContainerRef",
+        "ExperimentFactoryService",
+        "ExperimentGroup",
+        "ActivatedRoute",
+        "Component",
+        "Input",
+        "experimentRegistry",
+        "changes",
+        "propName",
+        "changes",
+        "changes",
+        "propName",
+        "propName"
+    ],
+    "literals": [
+        "'./../services/experiment-registry'",
+        "'@angular/core'",
+        "'../services/experiment-factory'",
+        "'../models/experiment'",
+        "'@angular/router'",
+        "'group-renderer'",
+        "<div class=\"component\" *ngFor=\"let case of group.cases\">\n    <component-renderer [caseId]=\"case.id\"></component-renderer>\n  </div>",
+        ":host {\n\n    }\n    .component {\n      padding-bottom: 100px;\n    }",
+        "string",
+        "'groupId'"
+    ],
+    "variables": [
+        "change"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "ngOnChanges",
+        "getGroup"
+    ],
+    "classes": [
+        "GroupRendererComponent"
+    ]
+}

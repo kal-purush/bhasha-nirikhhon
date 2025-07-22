@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "adminDB",
+        "TH_DATA",
+        "THData",
+        "i",
+        "data",
+        "i",
+        "MAX_BATCH_SIZE",
+        "adminDB",
+        "data",
+        "i",
+        "i",
+        "MAX_BATCH_SIZE",
+        "chunk",
+        "item",
+        "adminDB",
+        "COLLECTION_NAME",
+        "item",
+        "data",
+        "batch",
+        "docRef",
+        "data",
+        "batches",
+        "batch",
+        "batches",
+        "data",
+        "COLLECTION_NAME",
+        "error",
+        "error",
+        "uploadDataInBatch",
+        "process",
+        "error",
+        "error",
+        "process"
+    ],
+    "literals": [
+        "\"@/app/firebase/server\"",
+        "\"./constants/coc\"",
+        "\"./types/coc\"",
+        "\"th_levels\"",
+        "${data.length}件のデータを${COLLECTION_NAME}コレクションに登録しました",
+        "'データ登録中にエラーが発生しました:'",
+        "'処理が完了しました'",
+        "'エラーが発生しました:'"
+    ],
+    "variables": [
+        "COLLECTION_NAME",
+        "data",
+        "TH_DATA",
+        "MAX_BATCH_SIZE",
+        "batches",
+        "i",
+        "batch",
+        "chunk",
+        "docRef",
+        "item"
+    ],
+    "comments": [
+        "一度に処理できるドキュメント数には制限があるため、バッチに分けて処理",
+        "Firestoreの最大バッチサイズは500",
+        "データを適切なサイズのバッチに分割",
+        "THレベルを除外してドキュメントデータを作成",
+        "すべてのバッチをコミット",
+        "データ登録を実行"
+    ],
+    "docstrings": [],
+    "functions": [
+        "uploadDataInBatch"
+    ],
+    "classes": []
+}

@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "Microsoft",
+        "OpenApi",
+        "Models",
+        "Swashbuckle",
+        "AspNetCore",
+        "SwaggerGen",
+        "Collections",
+        "Generic",
+        "OLT",
+        "Extensions",
+        "SwaggerGen",
+        "IOltOperationFilter",
+        "OpenApiOperation",
+        "operation",
+        "OperationFilterContext",
+        "context",
+        "operation",
+        "Parameters",
+        "item",
+        "operation",
+        "Parameters",
+        "item",
+        "Name",
+        "ToCamelCase",
+        "item",
+        "Name",
+        "SwaggerGenOptions",
+        "opt",
+        "opt",
+        "OperationFilter",
+        "OltCamelCasingOperationFilter",
+        "IsNullOrEmpty",
+        "Length",
+        "ToLowerInvariant",
+        "Substring"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Represents the Swagger/Swashbuckle operation filter used to camel case api route parameter. <see href=\"https://github.com/OuterlimitsTech/olt-dotnet-extensions-swagger/issues/11\"/>",
+        "</summary>",
+        "Applies the filter to the specified operation using the given context.",
+        "</summary>",
+        "<param name=\"operation\">The operation to apply the filter to.</param>",
+        "<param name=\"context\">The current operation filter context.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Apply",
+        "Apply",
+        "ToCamelCase"
+    ],
+    "classes": [
+        "OltCamelCasingOperationFilter"
+    ]
+}

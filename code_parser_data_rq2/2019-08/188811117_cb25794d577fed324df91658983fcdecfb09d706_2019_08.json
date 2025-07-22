@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "yargs",
+        "init",
+        "logInfo",
+        "builder",
+        "args",
+        "yargs",
+        "require",
+        "logInfo",
+        "version"
+    ],
+    "literals": [
+        "'yargs'",
+        "'../helpers/init'",
+        "string",
+        "string",
+        "string",
+        "'version'",
+        "'../utils'",
+        "'Print version'",
+        "\"../../package.json\"",
+        "Graphback version ${version}"
+    ],
+    "variables": [
+        "command",
+        "desc",
+        "builder",
+        "version"
+    ],
+    "comments": [
+        "tslint:disable-next-line: typedef",
+        "tslint:disable-next-line: no-empty",
+        "tslint:disable-next-line: no-require-imports"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handler"
+    ],
+    "classes": []
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Cordova",
+        "Plugin",
+        "IonicNativePlugin",
+        "DocumentPickerOptions",
+        "Plugin",
+        "Injectable",
+        "IonicNativePlugin",
+        "Cordova",
+        "options"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@ionic-native/core'",
+        "'pdf'",
+        "'image'",
+        "'all'",
+        "'DocumentPicker'",
+        "'cordova-plugin-documentpicker.DocumentPicker'",
+        "'DocumentPicker'",
+        "'https://github.com/iampossible/Cordova-DocPicker'",
+        "'iOS'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "Show only PDF files",
+        "show only image files",
+        "show all files"
+    ],
+    "docstrings": [
+        "* Filter options",
+        "* @name DocumentPicker\n * @description\n *\n * Opens the file picker on iOS for the user to select a file, returns a file URI.\n * Allows the user to upload files from icloud\n *\n * @usage\n * ```typescript\n * import { DocumentPicker, DocumentPickerOptions } from '@ionic-native/document-picker';\n *\n * constructor(private docPicker: DocumentPicker) { }\n *\n * ...\n *\n * this.docPicker.getFile(DocumentPickerOptions.ALL)\n *   .then(uri => console.log(uri))\n *   .catch(e => console.log(e));\n *\n * ```",
+        "* Open a file\n   * @param {DocumentPickerOptions} filters files between 'image', 'pdf' or 'all'\n   * @returns {Promise<string>}"
+    ],
+    "functions": [
+        "getFile"
+    ],
+    "classes": [
+        "DocumentPicker"
+    ]
+}

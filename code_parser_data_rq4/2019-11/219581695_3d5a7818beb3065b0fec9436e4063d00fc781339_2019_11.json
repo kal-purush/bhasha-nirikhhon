@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "surveyId",
+        "result",
+        "result",
+        "key",
+        "result",
+        "$",
+        "result",
+        "key",
+        "result",
+        "key",
+        "answerVal",
+        "singleQuestionAnswer",
+        "result",
+        "key",
+        "answerVal",
+        "question",
+        "answer",
+        "sessionStorage",
+        "parseInt",
+        "question",
+        "parseInt",
+        "answer",
+        "$",
+        "answerObj",
+        "result",
+        "answerObj",
+        "$",
+        "handleSurveyAnswerStoring"
+    ],
+    "literals": [
+        "\"Here I am in the User Login Logic\"",
+        "\"/api/surveyquestions/\"",
+        "\"#\"",
+        "\"This is the id of the question in the DB: \"",
+        "\"This is the answer value user inputs: \"",
+        "\"/matches\"",
+        "\"user_id\"",
+        "\"/api/surveyanswers\"",
+        "\"This is the object that will be passed to /api/surveyanswer route\"",
+        "\"#survey-input\"",
+        "\"click\""
+    ],
+    "variables": [
+        "surveyId",
+        "answerVal",
+        "answerObj"
+    ],
+    "comments": [
+        "retrieve the user id of the session storage username and store in the variable",
+        "A function for getting the survey questions associated to a survey id",
+        "Iterate over the survey questions associated to the survey id",
+        "Store a record in the surveyanswers table",
+        "Associate the survey answer storage to the complete survey button"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handleSurveyAnswerStoring",
+        "singleQuestionAnswer"
+    ],
+    "classes": []
+}

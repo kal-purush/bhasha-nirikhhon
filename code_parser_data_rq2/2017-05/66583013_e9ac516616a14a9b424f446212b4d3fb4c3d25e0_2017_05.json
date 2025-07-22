@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Proteomics",
+        "OneBasedBeginPosition",
+        "OneBasedEndPosition",
+        "OneBasedPosition",
+        "OriginalSequence",
+        "VariantSequence",
+        "Description",
+        "OneBasedBeginPosition",
+        "OneBasedBeginPosition",
+        "OneBasedEndPosition",
+        "OneBasedEndPosition",
+        "OneBasedPosition",
+        "OneBasedPosition",
+        "OriginalSequence",
+        "OriginalSequence",
+        "VariantSequence",
+        "VariantSequence",
+        "Description",
+        "Description"
+    ],
+    "literals": [],
+    "variables": [
+        "OneBasedBeginPosition",
+        "OneBasedEndPosition",
+        "OneBasedPosition",
+        "OriginalSequence",
+        "VariantSequence",
+        "Description"
+    ],
+    "comments": [
+        "For point mutations, position will be used, and begin and end will be null. For longer sequence variations, position will be -1, and the begin and end positions will be used.",
+        "</summary>",
+        "<param name=\"OneBasedBeginPosition\"></param>",
+        "<param name=\"OneBasedEndPosition\"></param>",
+        "<param name=\"OneBasedPosition\"></param>",
+        "<param name=\"OriginalSequence\"></param>",
+        "<param name=\"VariantSequence\"></param>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "SequenceVariation"
+    ],
+    "classes": [
+        "SequenceVariation"
+    ]
+}

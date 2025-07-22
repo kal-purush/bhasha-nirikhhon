@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "gql",
+        "gql",
+        "gql",
+        "gql"
+    ],
+    "literals": [
+        "'@apollo/client'",
+        "mutation CreateSupportTicket($ticketInput: SupportTicketInput!) {\n    createSupportTicket(ticketInput: $ticketInput) {\n      _id\n      title\n      description\n      status\n      category\n      orderId\n      otherDetails\n      createdAt\n      updatedAt\n      user {\n        _id\n        name\n        email\n      }\n    }\n  }",
+        "mutation CreateMessage($messageInput: MessageInput!) {\n    createMessage(messageInput: $messageInput) {\n      _id\n      content\n      senderType\n      isRead\n      ticket\n      createdAt\n      updatedAt\n    }\n  }",
+        "mutation UpdateSupportTicketStatus($input: UpdateSupportTicketInput!) {\n    updateSupportTicketStatus(input: $input) {\n      _id\n      status\n      updatedAt\n    }\n  }"
+    ],
+    "variables": [
+        "CREATE_SUPPORT_TICKET",
+        "CREATE_TICKET_MESSAGE",
+        "UPDATE_TICKET_STATUS"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

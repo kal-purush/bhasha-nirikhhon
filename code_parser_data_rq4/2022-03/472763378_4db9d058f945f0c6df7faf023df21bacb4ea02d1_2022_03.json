@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "cellSize",
+        "args",
+        "longArray",
+        "twoMarks",
+        "threeMarks",
+        "mark2",
+        "threeMarks",
+        "mark2",
+        "fourMark",
+        "getMark",
+        "fourMark",
+        "markArray",
+        "markNumber"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "long oneCell = 0b0010_1010_1010_1010_1010_1010_1010_1010_1010_1010_1010_1010_1010_1010_1010_1010L;",
+        "45     5 5 5",
+        "int mark1 = (threeMarks >> 3);",
+        "mark1 = mark1 << 3;",
+        "mark1 = threeMarks - mark1;",
+        "System.out.println(Integer.toBinaryString((threeMarks << (31 - (2 * 3))) >> (31 - 3)));",
+        "int mark =",
+        "System.out.printf(\"mark number %d is %s\", markNumber, Integer.toBinaryString(mark));"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main",
+        "getMark"
+    ],
+    "classes": [
+        "BitArray"
+    ]
+}

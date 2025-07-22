@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "com",
+        "getbase",
+        "sync",
+        "deviceUUID",
+        "deviceUUID",
+        "session",
+        "deviceUUID"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "intentionally left blank",
+        "intentionally left blank"
+    ],
+    "docstrings": [
+        "* Manages Sync session instances.\n *\n * It could be extended for sharing single Sync session between many threads / processes / nodes.\n * Default implementation is a dummy base for extensions and it literally does nothing.\n *"
+    ],
+    "functions": [
+        "Session",
+        "getSession",
+        "setSession",
+        "clearSession"
+    ],
+    "classes": [
+        "SessionManager"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "freedom",
+        "jasmine",
+        "freedom",
+        "freedom",
+        "freedom",
+        "freedomParentModuleOnAndEmitInterface",
+        "freedom",
+        "freedom",
+        "freedom",
+        "freedom",
+        "makeFakeFreedomInModuleEnv",
+        "freedom"
+    ],
+    "literals": [
+        "'freedom'",
+        "'on'",
+        "'emit'",
+        "'core'"
+    ],
+    "variables": [
+        "freedomParentModuleOnAndEmitInterface",
+        "freedom",
+        "freedom"
+    ],
+    "comments": [
+        "<reference path=\"../../../third_party/typings/es6-promise/es6-promise.d.ts\" />",
+        "<reference path=\"../typings/freedom-common.d.ts\" />",
+        "jasmine.createSpy().and.returnValue(\n      jasmine.createSpyObj(\n        'core', ['getLogger', 'createChannel', 'bindChannel']));\n\n  freedom['core.console'] = jasmine.createSpy().and.returnValue(\n      jasmine.createSpyObj(\n        'core.console', ['debug', 'log', 'info', 'warn', 'error']));\n\n  freedom['provideSynchronous'] = jasmine.createSpy();"
+    ],
+    "docstrings": [],
+    "functions": [
+        "makeFakeFreedomInModuleEnv"
+    ],
+    "classes": []
+}

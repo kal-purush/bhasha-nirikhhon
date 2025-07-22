@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Component",
+        "Options",
+        "Component",
+        "newCeil",
+        "newOptions",
+        "newCeil",
+        "newOptions"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@local/ng5-slider'",
+        "'app-dynamic-options-slider'",
+        "'./dynamic-options-slider.component.html'"
+    ],
+    "variables": [
+        "newOptions"
+    ],
+    "comments": [
+        "Due to change detection rules in Angular, we need to re-create the options object to apply the change"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setNewCeil"
+    ],
+    "classes": [
+        "DynamicOptionsSliderComponent"
+    ]
+}

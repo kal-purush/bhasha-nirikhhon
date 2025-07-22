@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "javax",
+        "inject",
+        "play",
+        "play",
+        "mvc",
+        "EssentialFilter",
+        "play",
+        "http",
+        "HttpFilters",
+        "play",
+        "mvc",
+        "filters",
+        "ExampleFilter",
+        "Singleton",
+        "env",
+        "exampleFilter",
+        "Inject",
+        "env",
+        "exampleFilter",
+        "env",
+        "env",
+        "exampleFilter",
+        "exampleFilter",
+        "Override",
+        "env",
+        "mode",
+        "equals",
+        "Mode",
+        "DEV",
+        "exampleFilter"
+    ],
+    "literals": [],
+    "variables": [
+        "env",
+        "exampleFilter"
+    ],
+    "comments": [
+        "Use the example filter if we're running development mode. If",
+        "we're running in production or test mode then don't use any",
+        "filters at all."
+    ],
+    "docstrings": [
+        "* This class configures filters that run on every request. This\n * class is queried by Play to get a list of filters.\n *\n * Play will automatically use filters from any class called\n * <code>Filters</code> that is placed the root package. You can load filters\n * from a different class by adding a `play.http.filters` setting to\n * the <code>application.conf</code> configuration file.",
+        "* @param env Basic environment settings for the current application.\n     * @param exampleFilter A demonstration filter that adds a header to"
+    ],
+    "functions": [
+        "Filters",
+        "filters"
+    ],
+    "classes": [
+        "Filters"
+    ]
+}

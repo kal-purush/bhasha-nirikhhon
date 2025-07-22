@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "sys",
+        "signal",
+        "threading",
+        "traceback",
+        "isignal",
+        "iframe",
+        "isignal",
+        "iframe",
+        "th",
+        "ident",
+        "th",
+        "name",
+        "th",
+        "threading",
+        "tid",
+        "stack",
+        "sys",
+        "_current_frames",
+        "items",
+        "code",
+        "append",
+        "id2name",
+        "get",
+        "tid",
+        "tid",
+        "filename",
+        "lineno",
+        "name",
+        "line",
+        "traceback",
+        "extract_stack",
+        "stack",
+        "code",
+        "append",
+        "filename",
+        "lineno",
+        "name",
+        "line",
+        "code",
+        "append",
+        "line",
+        "strip",
+        "join",
+        "code",
+        "signal",
+        "signal",
+        "signal",
+        "SIGINFO",
+        "dumpthreads"
+    ],
+    "literals": [
+        "\"DAS stack, signal=%s, frame=%s\"",
+        "\"\\n# Thread: %s(%d)\"",
+        "\"\"",
+        "'File: \"%s\", line %d, in %s'",
+        "\"  %s\"",
+        "\"\\n\""
+    ],
+    "variables": [
+        "id2name",
+        "code"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "-*- coding: utf-8 -*-",
+        "pylint: disable=",
+        "system modules"
+    ],
+    "docstrings": [
+        "\"\"\"\nFile       : Signals.py\nAuthor     : Valentin Kuznetsov <vkuznet AT gmail dot com>\nDescription: This module provide set of hooks to running program\nThe dumpthreads callback function will be called every time when\nrunning program will receive SIGINFO signal. E.g., in unix shell\njust do\nshell# kill -s SIGINFO <pid>\n\"\"\"",
+        "\"\"\"\n    Dump context of all threads upon given signal\n    http://stackoverflow.com/questions/132058/showing-the-stack-trace-from-a-running-python-application\n    \"\"\""
+    ],
+    "functions": [
+        "dumpthreads"
+    ],
+    "classes": []
+}

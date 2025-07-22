@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "input",
+        "favorite_dishes",
+        "open",
+        "file_object",
+        "file_object",
+        "write",
+        "favorite_dishes",
+        "input",
+        "open",
+        "file_object",
+        "file_object",
+        "read",
+        "content"
+    ],
+    "literals": [
+        "'My dude, list for me your favorite foods: '",
+        "'q'",
+        "'fave-dishes.txt'",
+        "'a'",
+        "'\\n'",
+        "'Tell me another dish you like, or press q to quit. '",
+        "'fave-dishes.txt'",
+        "'r'"
+    ],
+    "variables": [
+        "favorite_dishes",
+        "favorite_dishes",
+        "content"
+    ],
+    "comments": [
+        "name = input('Hey guest, what do people call you? ')",
+        "with open('samplefile.txt', 'a') as file:",
+        "file.write(name +'\\n')",
+        "why_programming = input('Yo dude, what motivates you to program? ')",
+        "while why_programming != 'q':",
+        "with open('reasonsforprogramming.txt', 'a') as file_object:",
+        "file_object.write(why_programming + '\\n')",
+        "why_programming = input('Yo dude, why do YOU like code? Press q to quit. ')",
+        "with open('reasonsforprogramming.txt', 'r') as file_object:",
+        "everything_in_file = file_object.read()",
+        "print(f'Your answers were + {everything_in_file}')"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

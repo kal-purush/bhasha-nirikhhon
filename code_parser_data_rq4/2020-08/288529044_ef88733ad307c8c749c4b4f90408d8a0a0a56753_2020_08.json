@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "com",
+        "epam",
+        "university",
+        "java",
+        "core",
+        "task038",
+        "Graph",
+        "id",
+        "x",
+        "y",
+        "fromId",
+        "toId"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Undirected graph.",
+        "* Create vertex with given id, x and y coordinates.\n     * @param id vertex id\n     * @param x x coordinate\n     * @param y y coordinate",
+        "* Add connection directed from source vertex to target vertex.\n     * @param fromId id of source vertex\n     * @param toId id of target vertex"
+    ],
+    "functions": [
+        "createVertex",
+        "connectVertices"
+    ],
+    "classes": []
+}

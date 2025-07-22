@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "Threading",
+        "Threading",
+        "Tasks",
+        "Nexus",
+        "Link",
+        "Capabilities",
+        "WorkflowConfiguration",
+        "Abstract",
+        "Entities",
+        "Nexus",
+        "Link",
+        "WorkflowEngine",
+        "Sdk",
+        "Interfaces",
+        "IActivityLock",
+        "IActivity",
+        "ActivityMethodAsync",
+        "IActivityLock",
+        "methodAsync",
+        "CancellationToken",
+        "cancellationToken",
+        "IActivityLock",
+        "TActivityReturns",
+        "IActivity",
+        "TActivityReturns",
+        "ActivityMethodAsync",
+        "IActivityLock",
+        "TActivityReturns",
+        "TActivityReturns",
+        "methodAsync",
+        "CancellationToken",
+        "cancellationToken"
+    ],
+    "literals": [],
+    "variables": [
+        "ResourceIdentifier",
+        "ResourceIdentifier"
+    ],
+    "comments": [
+        "An activity of type <see cref=\"ActivityTypeEnum.Lock\"/>, i.e. an activity that is executed while a resource is locked.",
+        "</summary>",
+        "The identifier of the resource we should lock",
+        "</summary>",
+        "Raise a semaphore with a maximum number of concurrent executions, execute the <paramref name=\"methodAsync\"/>, lower the semaphore.",
+        "</summary>",
+        "An activity of type <see cref=\"ActivityTypeEnum.Lock\"/>.",
+        "</summary>",
+        "The identifier of the resource we should lock",
+        "</summary>",
+        "Raise a semaphore with a maximum number of concurrent executions, execute the <paramref name=\"methodAsync\"/>, lower the semaphore.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "ExecuteAsync",
+        "ExecuteAsync"
+    ],
+    "classes": []
+}

@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "useInfiniteQuery",
+        "fetch",
+        "limit",
+        "pageParam",
+        "response",
+        "response",
+        "data",
+        "limit",
+        "pageParam",
+        "useInfiniteQuery",
+        "fetchInfiniteData",
+        "lastPageParam",
+        "lastPageParam"
+    ],
+    "literals": [
+        "'@tanstack/react-query'",
+        "https://api.thecatapi.com/v1/images/search?limit=${limit}&page=${pageParam}",
+        "'x-api-key'",
+        "'live_CGL7BtiNmm0aAub1mWrrHDEaRfoHNmd7z9OOTJZU8qcccVJ4GvsAAEqRKZOy6eRs'",
+        "'api error'",
+        "\"catImages\""
+    ],
+    "variables": [
+        "limit",
+        "response",
+        "data",
+        "nextPage"
+    ],
+    "comments": [
+        "한 번에 불러올 데이터 수",
+        "다음 페이지가 있는 경우"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchInfiniteData",
+        "useFetchInfiniteData"
+    ],
+    "classes": []
+}

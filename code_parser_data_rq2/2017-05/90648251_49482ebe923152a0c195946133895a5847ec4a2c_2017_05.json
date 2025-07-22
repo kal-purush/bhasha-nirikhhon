@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Engine",
+        "Item",
+        "id",
+        "name",
+        "specialWeaponNames",
+        "namePlural",
+        "minimumDamage",
+        "maximumDamage",
+        "bonusToStrength",
+        "bonusToDexterity",
+        "bonusToLife",
+        "id",
+        "name",
+        "namePlural",
+        "MinimumDamage",
+        "minimumDamage",
+        "MaximumDamage",
+        "maximumDamage",
+        "BonusToStrength",
+        "bonusToStrength",
+        "BonusToDexterity",
+        "bonusToDexterity",
+        "BonusToLife",
+        "bonusToLife"
+    ],
+    "literals": [
+        "\"Espada\"",
+        "\"Hacha\"",
+        "\"Daga\"",
+        "\"Lanza\"",
+        "\"Maza\"",
+        "\"Recia\"",
+        "\"Firme\"",
+        "\"Poderosa\"",
+        "\"Sutíl\"",
+        "\"Certera\"",
+        "\"Precisa\"",
+        "\"Encantada\"",
+        "\"Bendita\"",
+        "\"Sagrada\""
+    ],
+    "variables": [
+        "MinimumDamage",
+        "MaximumDamage",
+        "BonusToStrength",
+        "BonusToDexterity",
+        "BonusToLife",
+        "WeaponType",
+        "AdjetivoFuerza",
+        "AdjetivoDestreza",
+        "AdjetivoVida"
+    ],
+    "comments": [
+        "Esta clase debería tener no sólo el constructor, sino un generador de nombres y un generador de bonus",
+        "Un número aleatorio para decidir el tipo de arma",
+        "Un número aleatorio por cada bonus para decidir los valores",
+        "dependiendo de los valores un mecanismo para asignarle un nombre especial.",
+        "</summary>",
+        "public Weapon CreateNewMagicWeapon()\n        {\n            int id;\n            int minimumDamage;\n            int maximumDamage;\n            int bonusToStrength;\n            int bonusToDexterity;\n            int bonusToLife;\n            string tempWeaponName;\n\n            // Primer número aleatorio para decidir el tipo de arma\n            int tipo = RandomNumberGenerator.NumberBetween(0, 4);\n\n            int bonus = RandomNumberGenerator.NumberBetween(1, 3);\n\n            switch (bonus)\n            {\n                case 1: bonusToStrength = RandomNumberGenerator.NumberBetween(1, 3);\n                    break;\n                case 2: bonusToDexterity = RandomNumberGenerator.NumberBetween(1, 3);\n                    break;\n                case 3: bonusToLife = RandomNumberGenerator.NumberBetween(1, 3);\n                    break;\n                default: BonusToLife = 1;\n                    break;\n            }\n\n            if(BonusToStrength > 0)\n            {\n                tempWeaponName = AdjetivoFuerza[bonusToStrength];\n            } else if (BonusToDexterity > 0)\n            {\n                tempWeaponName = AdjetivoDestreza[bonusToDexterity];\n            } else\n            {\n                tempWeaponName = AdjetivoVida[bonusToLife];\n            }\n\n            return new MagicWeapon(id, WeaponType[tipo], tempWeaponName, null, 1, 4, bonusToStrength, bonusToDexterity, bonusToLife);\n\n        }\n    }"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "MagicWeapon"
+    ],
+    "classes": [
+        "MagicWeapon"
+    ]
+}

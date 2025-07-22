@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "css",
+        "suomifiTheme",
+        "TextProps",
+        "element",
+        "fonts",
+        "objValue",
+        "baseStyles",
+        "suomifiTheme",
+        "css",
+        "element",
+        "fonts",
+        "color",
+        "objValue",
+        "theme",
+        "color",
+        "theme",
+        "fonts",
+        "fonts",
+        "fonts"
+    ],
+    "literals": [
+        "'@emotion/core'",
+        "'../theme'",
+        "'./Text'",
+        "'../theme/reset'",
+        "'../../utils/typescript'",
+        "${element}\n  ${fonts.body}\n  color: ${!!color ? objValue(theme.colors, color) : theme.colors.blackBase};\n\n  &.fi-text {\n    &--lead {\n      ${fonts.lead}\n    }\n    &--small-screen {\n      ${fonts.smRes.body}\n      &.fi-text--lead {\n        ${fonts.smRes.lead}\n      }\n    }\n  }"
+    ],
+    "variables": [
+        "baseStyles"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "minutes",
+        "max",
+        "message",
+        "rateLimit",
+        "minutes",
+        "_",
+        "res",
+        "wrapper",
+        "res",
+        "err"
+    ],
+    "literals": [
+        "'express-rate-limit'",
+        "'../util/response'"
+    ],
+    "variables": [
+        "rateLimit"
+    ],
+    "comments": [
+        "Limit each IP to max requests per `window` (here, per windowMs)",
+        "Return rate limit info in the `RateLimit-*` headers",
+        "Disable the `X-RateLimit-*` headers"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

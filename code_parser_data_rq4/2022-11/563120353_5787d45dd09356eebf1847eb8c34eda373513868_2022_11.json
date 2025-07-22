@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "AuthToken",
+        "AuthUseCase",
+        "Credentials",
+        "HttpRepository",
+        "gitAuth",
+        "gitAuth",
+        "credentials",
+        "credentials"
+    ],
+    "literals": [
+        "\"../entities/usecases/authUseCase\"",
+        "\"../repositories\"",
+        "\"/access_token\"",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "\"application/json\"",
+        "Bearer ${this.oAuthToken?.access_token}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AuthService"
+    ]
+}

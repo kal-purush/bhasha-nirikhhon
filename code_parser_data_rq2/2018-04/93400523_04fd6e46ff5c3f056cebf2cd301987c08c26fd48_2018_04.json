@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "json",
+        "urllib2",
+        "open",
+        "read",
+        "json",
+        "loads",
+        "json_data",
+        "ontology",
+        "data",
+        "ontology",
+        "urllib2",
+        "urlopen",
+        "ontology",
+        "open",
+        "ontology",
+        "output",
+        "output",
+        "write",
+        "ontology_file",
+        "read",
+        "ontology",
+        "download_source_ontologies"
+    ],
+    "literals": [
+        "\"ontology-config.json\"",
+        "\"downloading \"",
+        "\"shortName\"",
+        "\"...\"",
+        "\"ontologyUrl\"",
+        "\"imports/\"",
+        "\"shortName\"",
+        "\".owl\"",
+        "\"wb\"",
+        "\"couldn't download \"",
+        "\"shortName\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "json_data",
+        "data",
+        "ontology_file"
+    ],
+    "comments": [
+        "download all source ontologies",
+        "reply = requests.get(self.url, headers=self.headers)",
+        "self.ingest_api = reply.json()[\"_links\"]"
+    ],
+    "docstrings": [],
+    "functions": [
+        "download_source_ontologies"
+    ],
+    "classes": []
+}

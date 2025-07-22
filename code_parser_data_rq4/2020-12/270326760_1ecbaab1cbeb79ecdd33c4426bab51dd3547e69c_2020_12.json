@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql"
+    ],
+    "literals": [
+        "'@apollo/client'",
+        "mutation deleteFlow($id: ID!) {\n    deleteFlow(id: $id) {\n      errors {\n        key\n        message\n      }\n    }\n  }",
+        "mutation createFlow($input: FlowInput!) {\n    createFlow(input: $input) {\n      flow {\n        id\n        name\n        uuid\n      }\n      errors {\n        key\n        message\n      }\n    }\n  }",
+        "mutation updateFlow($id: ID!, $input: FlowInput!) {\n    updateFlow(id: $id, input: $input) {\n      flow {\n        id\n        name\n        uuid\n      }\n      errors {\n        key\n        message\n      }\n    }\n  }",
+        "mutation publishFlow($uuid: UUID!) {\n    publishFlow(uuid: $uuid) {\n      success\n    }\n  }",
+        "mutation startGroupFlow($flowId: ID!, $groupId: ID!) {\n    startGroupFlow(flowId: $flowId, groupId: $groupId) {\n      success\n    }\n  }",
+        "mutation startContactFlow($flowId: ID!, $contactId: ID!) {\n    startContactFlow(flowId: $flowId, contactId: $contactId) {\n      success\n    }\n  }",
+        "mutation copyFlow($id: ID!, $input: FlowInput!) {\n    copyFlow(id: $id, input: $input) {\n      flow {\n        id\n        name\n        keywords\n        uuid\n      }\n      errors {\n        key\n        message\n      }\n    }\n  }"
+    ],
+    "variables": [
+        "DELETE_AUTOMATION",
+        "CREATE_AUTOMATION",
+        "UPDATE_AUTOMATION",
+        "PUBLISH_AUTOMATION",
+        "ADD_AUTOMATION_TO_GROUP",
+        "ADD_AUTOMATION_TO_CONTACT",
+        "CREATE_AUTOMATION_COPY"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

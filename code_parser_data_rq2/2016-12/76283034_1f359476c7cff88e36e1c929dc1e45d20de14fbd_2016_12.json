@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "ForgingAhead",
+        "Models",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Microsoft",
+        "EntityFrameworkCore",
+        "Collections",
+        "Generic",
+        "Linq",
+        "ComponentModel",
+        "DataAnnotations",
+        "ForgingAhead",
+        "Controllers",
+        "Controller",
+        "ApplicationDbContext",
+        "context",
+        "_context",
+        "context",
+        "ViewData",
+        "_context",
+        "EquipChars",
+        "OrderBy",
+        "c",
+        "CharacterId",
+        "ToList",
+        "View",
+        "model",
+        "id",
+        "ViewData",
+        "_context",
+        "Characters",
+        "Include",
+        "ec",
+        "EquipChars",
+        "ThenInclude",
+        "e",
+        "Equipment",
+        "ToList",
+        "View",
+        "model"
+    ],
+    "literals": [
+        "\"Title\"",
+        "\"List of Equipments Per Character\"",
+        "\"Title\"",
+        "\"Equipment per Character\""
+    ],
+    "variables": [
+        "ApplicationDbContext",
+        "_context",
+        "model",
+        "model"
+    ],
+    "comments": [
+        "var model = _context.EquipChar.Include(Character).Include(Equipment).FromSql(\"SELECT characters.Name, equipmentspercharacter.*, equipments.Name, equipments.Tipo\tFROM equipmentspercharacter INNER JOIN characters ON characters.ID = equipmentspercharacter.CharacterId INNER JOIN equipments ON equipments.ID = equipmentspercharacter.EquipmentId WHERE (characters.ID = 3 AND equipmentspercharacter.IsEquiped =1)\").ToList();"
+    ],
+    "docstrings": [],
+    "functions": [
+        "EquipCharController",
+        "IActionResult",
+        "Index",
+        "IActionResult",
+        "EquipPerChar"
+    ],
+    "classes": [
+        "EquipCharController"
+    ]
+}

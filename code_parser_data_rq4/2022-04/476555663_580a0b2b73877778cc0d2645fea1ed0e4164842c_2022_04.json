@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "Conversion",
+        "binary",
+        "representation",
+        "javax",
+        "swing",
+        "args",
+        "binaryString",
+        "JOptionPane",
+        "showInputDialog",
+        "binary",
+        "parseInt",
+        "binaryString",
+        "bit",
+        "i",
+        "power2",
+        "len",
+        "binaryString",
+        "length",
+        "i",
+        "len",
+        "bit",
+        "binary",
+        "bit",
+        "power2",
+        "binary",
+        "binary",
+        "i",
+        "binaryOutput",
+        "binaryString",
+        "decimalOutput",
+        "JOptionPane",
+        "showMessageDialog",
+        "binaryOutput",
+        "decimalOutput",
+        "JOptionPane",
+        "INFORMATION_MESSAGE",
+        "exit"
+    ],
+    "literals": [
+        "\"Enter a 6-bit binary number\"",
+        "\"Binary: \"",
+        "\"Decimal: \"",
+        "\"\\n\"",
+        "\"Binary to Decimal Conversion\""
+    ],
+    "variables": [
+        "binary",
+        "representation",
+        "bit"
+    ],
+    "comments": [
+        "Imported packages",
+        "Main method",
+        "Request 6-bit binary number",
+        "Convert from String to integer type",
+        "Declaration of output value",
+        "Declaration of variable to hold the current bit",
+        "",
+        "ADD YOUR CODE HERE",
+        "FOLLOW THE EXAMPLE PROVIDED",
+        "FOR THE LAST BIT, THE 6th",
+        "",
+        "get the last bit (6th)",
+        "add it, multiplied by the corresponding power of 2",
+        "get rid of the 6th bit, now the 5th bit is last  \t\tpower2*=2;",
+        "Format output String",
+        "Output message",
+        "Exit"
+    ],
+    "docstrings": [
+        "****************************************************************\n * Program 1: Conversion from binary to decimal representation\n * Programmer: Judy mae Esperanza \n * \n * Class: IT 121        Instructor: Jhon Mark D. Gabrentina\n *        \n * Pledge: I have neither given nor received unauthorized aid\n * on this program.     (signature on file)\n *\n * Description: This program converts a binary number to decimal.\n *\n * Input: Binary number\n *\n * Output: Decimal number\n *\n *****************************************************************",
+        "bit=binary%10;//get the last bit (6th)\n         decimal=decimal+bit*1;//add it, multiplied by the corresponding power of 2\n         binary=binary/10;//get rid of the 6th bit, now the 5th bit is last\n      \t\n         bit=binary%10;//get the last bit (5th)\n         decimal=decimal+bit*2;//add it, multiplied by the corresponding power of 2\n         binary=binary/10;//get rid of the 5th bit, now the 4th bit is last\n      \t\n         bit=binary%10;//get the last bit (4th)\n         decimal=decimal+bit*4;//add it, multiplied by the corresponding power of 2\n         binary=binary/10;//get rid of the 4th bit, now the 3rd bit is last\n      \t\n         bit=binary%10;//get the last bit (3rd)\n         decimal=decimal+bit*8;//add it, multiplied by the corresponding power of 2\n         binary=binary/10;//get rid of the 3rd bit, now the 2nd bit is last\n      \t\n         bit=binary%10;//get the last bit (2nd)\n         decimal=decimal+bit*16;//add it, multiplied by the corresponding power of 2\n         binary=binary/10;//get rid of the 2nd bit, now the 1st bit is last \n      \t\n         bit=binary%10;//get the last bit (1st)\n         decimal=decimal+bit*32;//add it, multiplied by the corresponding power of 2"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "Binary",
+        "Binary"
+    ]
+}

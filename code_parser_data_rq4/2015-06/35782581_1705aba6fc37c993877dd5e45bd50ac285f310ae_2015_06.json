@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "pandas",
+        "pd",
+        "requests",
+        "datetime",
+        "datetime",
+        "datetime",
+        "now",
+        "strftime",
+        "requests",
+        "get",
+        "pd",
+        "DataFrame",
+        "data",
+        "json",
+        "df",
+        "output",
+        "output",
+        "notnull",
+        "output",
+        "to_csv",
+        "today",
+        "index"
+    ],
+    "literals": [
+        "'%Y%m%d'",
+        "'https://gist.githubusercontent.com/jorin-vogel/7f19ce95a9a842956358/raw/e319340c2f6691f9cc8d8cc57ed532b5093e3619/data.json'",
+        "'name'",
+        "'creditcard'",
+        "'creditcard'",
+        "'.csv'"
+    ],
+    "variables": [
+        "today",
+        "data",
+        "df",
+        "output",
+        "output"
+    ],
+    "comments": [
+        "df['timestamp'] = pd.to_datetime(df['timestamp'])",
+        "df['timestamp'] = df['timestamp'].apply(lambda x: x.strftime('%Y%m%d'))",
+        "print df"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "org",
+        "ohmage",
+        "validator",
+        "java",
+        "util",
+        "UUID",
+        "org",
+        "ohmage",
+        "annotator",
+        "Annotator",
+        "ErrorCode",
+        "org",
+        "ohmage",
+        "exception",
+        "ValidationException",
+        "org",
+        "ohmage",
+        "util",
+        "StringUtils",
+        "mediaId",
+        "StringUtils",
+        "isEmptyOrWhitespaceOnly",
+        "mediaId",
+        "UUID",
+        "fromString",
+        "mediaId",
+        "e",
+        "ErrorCode",
+        "MEDIA_INVALID_ID",
+        "mediaId"
+    ],
+    "literals": [
+        "\"The media ID is not a valid ID: \""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This class is responsible for validating information about media.\n * \n * @author Hongsuda T.",
+        "* Default constructor. Private so that it cannot be instantiated.",
+        "* Validates that a media ID is a valid ID. If it is null or \n\t * whitespace only, null is returned. Otherwise, the UUID is returned or\n\t * an exception is thrown.\n\t * \n\t * @param mediaId The media's ID.\n\t * \n\t * @return Returns null if the media ID is null or whitespace only; \n\t * \t\t   otherwise, the media ID is returned.\n\t * \n\t * @throws ValidationException Thrown if the media ID is not null, not\n\t * \t\t\t\t\t\t\t   whitespace only, and not a valid media ID."
+    ],
+    "functions": [
+        "MediaValidators",
+        "UUID",
+        "validateId"
+    ],
+    "classes": [
+        "MediaValidators"
+    ]
+}

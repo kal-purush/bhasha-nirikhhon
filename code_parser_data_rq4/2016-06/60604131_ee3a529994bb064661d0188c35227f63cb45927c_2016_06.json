@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Http",
+        "Headers",
+        "Injectable",
+        "Headers",
+        "Injectable",
+        "http",
+        "BASE_URL",
+        "res",
+        "res",
+        "wallet",
+        "wallet",
+        "wallet",
+        "wallet",
+        "wallet",
+        "BASE_URL",
+        "wallet",
+        "HEADER",
+        "res",
+        "res",
+        "wallet",
+        "BASE_URL",
+        "wallet",
+        "wallet",
+        "HEADER",
+        "res",
+        "res",
+        "wallet",
+        "BASE_URL",
+        "wallet",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'@angular/http'",
+        "'@angular/core'",
+        "'rxjs/add/operator/map'",
+        "'rxjs/add/operator/toPromise'",
+        "'http://home-accountant.herokuapp.com/api/v1/wallets/'",
+        "'Content-Type'",
+        "'application/json'",
+        "string",
+        "string",
+        "${BASE_URL}",
+        "${BASE_URL}${wallet.id}",
+        "${BASE_URL}${wallet.id}"
+    ],
+    "variables": [
+        "BASE_URL",
+        "HEADER"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "loadWallets",
+        "saveWallet",
+        "createWallet",
+        "updateWallet",
+        "deleteWallet"
+    ],
+    "classes": [
+        "WalletService"
+    ]
+}

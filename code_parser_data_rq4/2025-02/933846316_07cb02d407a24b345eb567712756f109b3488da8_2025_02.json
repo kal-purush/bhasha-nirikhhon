@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "process",
+        "react",
+        "autoprefixer",
+        "tailwindcss",
+        "defineConfig",
+        "tsconfigPaths",
+        "process",
+        "defineConfig",
+        "react",
+        "tsconfigPaths",
+        "tailwindcss",
+        "autoprefixer",
+        "host",
+        "host",
+        "process",
+        "process",
+        "process",
+        "process"
+    ],
+    "literals": [
+        "'node:process'",
+        "'@vitejs/plugin-react'",
+        "'autoprefixer'",
+        "'tailwindcss'",
+        "'vite'",
+        "'vite-tsconfig-paths'",
+        "'ws'",
+        "'**/src-tauri/**'",
+        "'VITE_'",
+        "'TAURI_PLATFORM'",
+        "'TAURI_ARCH'",
+        "'TAURI_FAMILY'",
+        "'TAURI_PLATFORM_VERSION'",
+        "'TAURI_PLATFORM_TYPE'",
+        "'TAURI_DEBUG'",
+        "'windows'",
+        "'chrome105'",
+        "'safari13'",
+        "'esbuild'",
+        "'lightningcss'"
+    ],
+    "variables": [
+        "host"
+    ],
+    "comments": [
+        "https://vitejs.dev/config/",
+        "prevent vite from obscuring rust errors",
+        "Tauri expects a fixed port, fail if that port is not available",
+        "Ignore watching `src-tauri`",
+        "to access the Tauri environment variables set by the CLI with information about the current target",
+        "Tauri uses Chromium on Windows and WebKit on macOS and Linux",
+        "don't minify for debug builds",
+        "produce sourcemaps for debug builds"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

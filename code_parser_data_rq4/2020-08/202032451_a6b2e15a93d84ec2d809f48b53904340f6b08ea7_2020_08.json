@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "MultiIO",
+        "InputPort",
+        "delta",
+        "force",
+        "building",
+        "GetRotatedOffset",
+        "CellOffset",
+        "Grid",
+        "PosToCell",
+        "building",
+        "transform",
+        "GetPosition",
+        "portCell",
+        "Grid",
+        "OffsetCell",
+        "bottomLeftCell",
+        "roatedOffset",
+        "portCell",
+        "Debug",
+        "Log",
+        "ConduitType",
+        "ToString",
+        "CellOffset",
+        "x",
+        "CellOffset",
+        "y",
+        "portCell",
+        "GetPortCell"
+    ],
+    "literals": [
+        "\",\""
+    ],
+    "variables": [
+        "CellOffset",
+        "roatedOffset",
+        "bottomLeftCell"
+    ],
+    "comments": [
+        "As a preview input, there should be no defined behavior for this method! The OnSpawn override should not call this anyway.",
+        "As a preview input, there should be no defined behavior for this method! The OnSpawn override should not call this anyway.",
+        "This preview input can constantly change positions, while a standard InputPort is not expected to change.",
+        "_spawned = true;",
+        "MultiIOExtensions.RegisterPort(portCell, this);",
+        "Register an event listener for any changes to the grid at the location of this port.",
+        "ScenePartitionerLayer layer = GameScenePartitioner.Instance.objectLayers[(int)GetConduitObjectLayer()];",
+        "partitionerEntry = GameScenePartitioner.Instance.Add(\"ConduitIO.OnSpawn\", _parent, portCell, layer, delegate",
+        "{",
+        "UpdateConduitExistsStatus();",
+        "});",
+        "Register this conduit to the relevant network. Allows the network to determine flow direction.",
+        "IUtilityNetworkMgr networkManager = GetNetworkManager();",
+        "_networkItem = new FlowUtilityNetwork.NetworkItem(ConduitType, EndpointType, portCell, _parent);",
+        "networkManager.AddToNetworks(portCell, _networkItem, EndpointType != Endpoint.Conduit);",
+        "if (UseConduitUpdater)",
+        "{",
+        "GetConduitManager().AddConduitUpdater(ConduitTick, FlowPriority);",
+        "}",
+        "UpdateConduitExistsStatus(true);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ConduitTick",
+        "UpdateConduitExistsStatus",
+        "GetPortCell",
+        "OnSpawn"
+    ],
+    "classes": [
+        "PreviewInput"
+    ]
+}

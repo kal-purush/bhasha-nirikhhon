@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "org",
+        "zeroturnaround",
+        "java",
+        "io",
+        "FilterInputStream",
+        "java",
+        "io",
+        "java",
+        "io",
+        "InputStream",
+        "java",
+        "util",
+        "ZipInputStream",
+        "Override"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "do nothing"
+    ],
+    "docstrings": [
+        "* Filter stream that prevents the underlying input stream from being closed.\n * <p>\n *   It's a simpler version than <code>org.apache.commons.io.input.CloseShieldInputStream</code> as it doesn't replace the underlying stream.\n *   It's only meant for internal use where we can close a {@link ZipInputStream} without closing the underlying stream itself.\n * </p>",
+        "* Creates a <code>FilterInputStream</code>\n   * by assigning the  argument <code>in</code>\n   * to the field <code>this.in</code> so as\n   * to remember it for later use.\n   *\n   * @param in the underlying input stream, or <code>null</code> if\n   *           this instance is to be created without an underlying stream."
+    ],
+    "functions": [
+        "CloseShieldInputStream",
+        "close"
+    ],
+    "classes": [
+        "CloseShieldInputStream"
+    ]
+}

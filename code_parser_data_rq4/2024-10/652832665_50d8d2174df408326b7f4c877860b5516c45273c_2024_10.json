@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "AuthResult",
+        "PassageError",
+        "PassageReactNative",
+        "PassageReactNative",
+        "error",
+        "PassageError",
+        "error",
+        "error",
+        "PassageReactNative",
+        "result",
+        "error",
+        "PassageError",
+        "error",
+        "error",
+        "PassageReactNative",
+        "result",
+        "parsedResult",
+        "error",
+        "PassageError",
+        "error",
+        "error",
+        "PassageReactNative",
+        "error",
+        "PassageError",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'src/shared'",
+        "string"
+    ],
+    "variables": [
+        "result",
+        "result",
+        "parsedResult"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Returns the auth token for the currently authenticated user.\n   * If the stored auth token is invalid, this method will use the refresh token to get and save a new auth token.\n   *\n   * @return {Promise<string | null>} the valid auth token or null",
+        "* Checks validity of stored auth token.\n   *\n   * @return {Promise<boolean>} true if auth token is valid",
+        "* Refreshes stored auth token. Returns updated AuthResult if successful.\n   *\n   * @return {Promise<AuthResult>} The authentication token, redirect URL, and refresh token, if configured for the application.",
+        "* Revokes the current refresh token, removing it from the server."
+    ],
+    "functions": [
+        "getValidAuthToken",
+        "isAuthTokenValid",
+        "refreshAuthToken",
+        "revokeRefreshToken"
+    ],
+    "classes": [
+        "PassageTokenStore"
+    ]
+}

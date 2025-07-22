@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "context",
+        "core",
+        "UpdatedCommits",
+        "Context",
+        "StatusResult",
+        "ctx",
+        "Context",
+        "status",
+        "core",
+        "ctx",
+        "ctx",
+        "UpdatedCommits",
+        "ctx",
+        "ctx",
+        "UpdatedCommits",
+        "ctx",
+        "ctx",
+        "status",
+        "core",
+        "ctx"
+    ],
+    "literals": [
+        "'@actions/github'",
+        "'@actions/core'",
+        "'./DTO/updated-commits'",
+        "'@actions/github/lib/context'",
+        "'simple-git'",
+        "Action runs ${ctx.eventName}",
+        "'pull_request'",
+        "'push'",
+        "This action only supports pull requests and pushes, ${ctx.eventName} events are not supported.",
+        "\"Please submit an issue on this action's GitHub repo if you believe this in correct.\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "find"
+    ],
+    "classes": [
+        "FindCommits"
+    ]
+}

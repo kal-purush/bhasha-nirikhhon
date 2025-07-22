@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "ruangong",
+        "our_land",
+        "model",
+        "helper",
+        "name",
+        "name",
+        "value",
+        "paramName",
+        "value",
+        "paramName",
+        "value",
+        "value",
+        "value",
+        "paramName",
+        "value",
+        "paramName",
+        "value",
+        "value"
+    ],
+    "literals": [
+        "\"the object is null\"",
+        "\"the \\\" \"",
+        "\" \\\" is null\"",
+        "\" > 0 required but it was \"",
+        "\" >= 0 required but it was \""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* 辅助类\n * @author wizardk\n * @email ozx1341530199@gmail.com",
+        "* 非空判断\n     * @param object\n     * @param <T>\n     * @return",
+        "* 非空判断\n     * @param object\n     * @param name\n     * @param <T>\n     * @return",
+        "* 判断value是否大于等于0\n     * @param value\n     * @param paramName\n     * @return",
+        "* 判断value是否大于0\n     * @param value\n     * @param paramName\n     * @return"
+    ],
+    "functions": [
+        "T",
+        "requireNonNull",
+        "T",
+        "requireNonNull",
+        "verifyPositive",
+        "verifyNonZeroPositive"
+    ],
+    "classes": [
+        "ObjectHelper"
+    ]
+}

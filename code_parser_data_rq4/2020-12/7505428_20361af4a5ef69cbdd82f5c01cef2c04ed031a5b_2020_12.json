@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "ENABLE_VSTU",
+        "UnityEditor",
+        "SyntaxTree",
+        "VisualStudio",
+        "Unity",
+        "Bridge",
+        "InitializeOnLoad",
+        "ProjectFilesGenerator",
+        "SolutionFileGeneration",
+        "AppendEditorConfig",
+        "fileName",
+        "fileContent",
+        "fileContent",
+        "fileContent",
+        "Replace",
+        "kEditorConfigProjectFindStr",
+        "kEditorConfigProjectReplaceStr",
+        "fileContent",
+        "fileContent",
+        "Replace",
+        "kGlobalSectionFindStr",
+        "kGlobalSectionReplaceStr",
+        "fileContent"
+    ],
+    "literals": [
+        "\"EndProject\\r\\nGlobal\"",
+        "\"EndProject\\r\\n\"",
+        "\"Project(\\\"{2150E333-8FDC-42A3-9474-1A3956D46DE8}\\\") = \\\"Solution Items\\\", \\\"Solution Items\\\", \\\"{B24FE069-BB5F-4F16-BCDA-61C28EABC46B}\\\"\\r\\n\"",
+        "\"\tProjectSection(SolutionItems) = preProject\\r\\n\"",
+        "\"\t\t.editorconfig = .editorconfig\\r\\n\"",
+        "\"\tEndProjectSection\\r\\n\"",
+        "\"EndProject\\r\\n\"",
+        "\"Global\"",
+        "\"EndGlobalSection\\r\\nEndGlobal\"",
+        "\"EndGlobalSection\\r\\n\"",
+        "\"\tGlobalSection(ExtensibilityGlobals) = postSolution\\r\\n\"",
+        "\"\t\tSolutionGuid = {FD87994B-C032-4821-BD72-E057C33083EF}\\r\\n\"",
+        "\"\tEndGlobalSection\\r\\n\"",
+        "\"EndGlobal\""
+    ],
+    "variables": [
+        "kEditorConfigProjectFindStr",
+        "kEditorConfigProjectReplaceStr",
+        "kGlobalSectionFindStr",
+        "kGlobalSectionReplaceStr"
+    ],
+    "comments": [
+        "This class hooks into the Visual Studio .sln generation step and modifies the file",
+        "to include .editorconfig, which enforces consistent formatting standards and naming",
+        "conventions.",
+        "https://docs.microsoft.com/en-us/visualstudio/ide/editorconfig-code-style-settings-reference?view=vs-2017",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "EditorConfigSolutionFileGenerator",
+        "AppendEditorConfig"
+    ],
+    "classes": [
+        "EditorConfigSolutionFileGenerator"
+    ]
+}

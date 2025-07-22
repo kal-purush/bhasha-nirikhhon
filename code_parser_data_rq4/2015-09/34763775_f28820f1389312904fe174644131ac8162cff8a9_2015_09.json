@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Windows",
+        "ApplicationModel",
+        "Core",
+        "Windows",
+        "UI",
+        "Core",
+        "Windows",
+        "UI",
+        "Xaml",
+        "TrafficApp",
+        "Common",
+        "DispatchedHandler",
+        "handler",
+        "CoreApplication",
+        "MainView",
+        "CoreWindow",
+        "Dispatcher",
+        "RunAsync",
+        "CoreDispatcherPriority",
+        "Normal",
+        "handler",
+        "intervalInMinutes",
+        "Action",
+        "action",
+        "DispatcherTimer",
+        "timer",
+        "Interval",
+        "TimeSpan",
+        "intervalInMinutes",
+        "timer",
+        "Tick",
+        "s",
+        "e",
+        "action",
+        "timer",
+        "Start"
+    ],
+    "literals": [],
+    "variables": [
+        "timer"
+    ],
+    "comments": [
+        "Runs the specified handler on the UI thread at Normal priority.",
+        "</summary>",
+        "Starts a timer to perform the specified action at the specified interval.",
+        "</summary>",
+        "<param name=\"intervalInMinutes\">The interval.</param>",
+        "<param name=\"action\">The action.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "CallOnUiThreadAsync",
+        "StartTimer"
+    ],
+    "classes": [
+        "Helpers"
+    ]
+}

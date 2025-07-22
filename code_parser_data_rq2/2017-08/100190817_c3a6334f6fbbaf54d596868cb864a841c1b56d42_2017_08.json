@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "gravity",
+        "fallingTime",
+        "initialVelocity",
+        "initialPosition",
+        "finalPosition",
+        "fallingTime",
+        "initialVelocity",
+        "initialPosition",
+        "finalPosition",
+        "gravity",
+        "fallingTime",
+        "fallingTime",
+        "initialVelocity",
+        "fallingTime",
+        "initialPosition",
+        "finalPosition"
+    ],
+    "literals": [
+        "\"fallingTime not positive\"",
+        "\"initialVelocity not positive\"",
+        "\"initialPosition not positive\""
+    ],
+    "variables": [],
+    "comments": [
+        "Earth's gravity in m/s^2",
+        "initialVelocity - starting velocity of the object",
+        "initialPosition - starting position in meters, the calculation will \tdetermine the ending position in meters",
+        "fallingTime - time in seconds that the object falls"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getFinalPosition"
+    ],
+    "classes": [
+        "Gravity"
+    ]
+}

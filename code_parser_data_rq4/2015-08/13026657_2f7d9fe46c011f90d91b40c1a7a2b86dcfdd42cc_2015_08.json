@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Jil",
+        "SerializationNameFormat",
+        "Verbatim",
+        "CamelCase",
+        "SerializationNameFormat",
+        "serializationNameFormat",
+        "serializationNameFormat",
+        "SerializationNameFormat",
+        "Verbatim",
+        "SerializationNameFormatVerbatim",
+        "SerializationNameFormat",
+        "CamelCase",
+        "SerializationNameFormatCamelCase",
+        "ArgumentOutOfRangeException",
+        "serializationNameFormat"
+    ],
+    "literals": [
+        "\"serializationNameFormat\""
+    ],
+    "variables": [],
+    "comments": [
+        "Specifies how to serialize names when not specified explicitly via an attribute.",
+        "",
+        "If an attrbiute is defined specifying the name (such as [JilDirective(Name=\"prop-name\")] or [DataMember(Name=\"prop-name\")]),",
+        "that attribute will be used. If there is no attribute, the specified SerializationNameFormat will be used.",
+        "</summary>",
+        "Names for classes and properties will be seraialized exactly as they appear or as attributes define them.",
+        "",
+        "This is the default.",
+        "</summary>",
+        "Names for classes and properties (unless specified exactly via attribute) will be serialized to CamelCase.",
+        "",
+        "Example:",
+        "\"MyClass\" => \"myClass\"",
+        "",
+        "If an attrbiute is defined specifying the name (such as [JilDirective(Name=\"prop-name\")] or [DataMember(Name=\"prop-name\")]),",
+        "that attribute will be used. If there is no attribute, the specified SerializationNameFormat will be used.",
+        "</summary>",
+        "Class for generic caching differentiation",
+        "</summary>",
+        "Class for generic caching differentiation",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Type",
+        "GetGenericTypeArgument"
+    ],
+    "classes": [
+        "SerializationNameFormatExtensions",
+        "SerializationNameFormatVerbatim",
+        "SerializationNameFormatCamelCase"
+    ]
+}

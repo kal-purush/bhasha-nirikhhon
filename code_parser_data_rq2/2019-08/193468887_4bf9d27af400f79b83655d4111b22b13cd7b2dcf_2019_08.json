@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "key",
+        "state",
+        "payload",
+        "key",
+        "payload",
+        "rootState",
+        "key",
+        "rootState",
+        "dispatch",
+        "key",
+        "state",
+        "payload",
+        "payload",
+        "payload",
+        "args",
+        "payload",
+        "init",
+        "config"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "'state'",
+        "'selectors'",
+        "'reducers'",
+        "'effects'",
+        "'@rematch/core'"
+    ],
+    "variables": [],
+    "comments": [
+        "type ReducerFromModel<R extends Function> = R extends (state: infer S, payload: infer P) => infer S ? S : 'no';"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

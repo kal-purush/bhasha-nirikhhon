@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "FetchError",
+        "NonRetryableFetchError",
+        "uri",
+        "statusCode",
+        "contentType",
+        "statusCode",
+        "FetchError",
+        "uri",
+        "statusCode",
+        "NonRetryableFetchError",
+        "uri",
+        "statusCode",
+        "contentType",
+        "contentType",
+        "NonRetryableFetchError",
+        "uri",
+        "contentType"
+    ],
+    "literals": [
+        "\"./error.js\"",
+        "string",
+        "string",
+        "\"Too many requests\"",
+        "Status code is ${statusCode}, expected 200",
+        "\"application/json\"",
+        "Content-type is \"${contentType}\", expected \"application/json\""
+    ],
+    "variables": [],
+    "comments": [
+        "Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.",
+        "SPDX-License-Identifier: Apache-2.0",
+        "",
+        "Lower-level HTTPS functionalities, common for Node.js and Web"
+    ],
+    "docstrings": [
+        "* Sanity check a HTTPS response where we expect to get JSON data back\n *\n * @param uri the uri that was being requested\n * @param statusCode the HTTP status code, should be 200\n * @param contentType the value of the \"Content-Type\" header in the response, should start with \"application/json\"\n * @returns void - throws an error if the status code or content type aren't as expected"
+    ],
+    "functions": [
+        "validateHttpsJsonResponse"
+    ],
+    "classes": []
+}

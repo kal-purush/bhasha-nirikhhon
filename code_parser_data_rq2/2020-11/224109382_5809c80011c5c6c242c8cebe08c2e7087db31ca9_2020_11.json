@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "AntDesign",
+        "DayOfWeek",
+        "firstDayOfWeek",
+        "firstDayOfWeek",
+        "DayOfWeek",
+        "Saturday",
+        "DIFF_SATURDAY",
+        "firstDayOfWeek",
+        "DayOfWeek",
+        "Friday",
+        "DIFF_FRIDAY",
+        "firstDayOfWeek",
+        "DayOfWeek",
+        "Thursday",
+        "DIFF_THURSDAY",
+        "firstDayOfWeek",
+        "DayOfWeek",
+        "Wednesday",
+        "DIFF_WEDNESDAY",
+        "firstDayOfWeek",
+        "DayOfWeek",
+        "Tuesday",
+        "DIFF_TUESDAY",
+        "firstDayOfWeek",
+        "DayOfWeek",
+        "Monday",
+        "DIFF_MONDAY",
+        "firstDayOfWeek",
+        "DayOfWeek",
+        "Sunday",
+        "DIFF_SUNDAY",
+        "firstDayOfWeek",
+        "DIFF_DEFAULT"
+    ],
+    "literals": [],
+    "variables": [
+        "DIFF_DEFAULT",
+        "DIFF_SATURDAY",
+        "DIFF_FRIDAY",
+        "DIFF_THURSDAY",
+        "DIFF_WEDNESDAY",
+        "DIFF_TUESDAY",
+        "DIFF_MONDAY",
+        "DIFF_SUNDAY"
+    ],
+    "comments": [
+        "Returns the amount of days that have to be added to the start date to get the correct first day of the week.",
+        "</summary>",
+        "<param name=\"firstDayOfWeek\">First day of the week as defined in the current locale.</param>",
+        "<returns>Diff of days.</returns>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "GetDiffForDayOfWeek"
+    ],
+    "classes": [
+        "DayOfWeekHelper"
+    ]
+}

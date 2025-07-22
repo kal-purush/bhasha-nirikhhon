@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "util",
+        "log",
+        "log",
+        "logger",
+        "samples",
+        "NotImplementedError",
+        "text",
+        "NotImplementedError"
+    ],
+    "literals": [],
+    "variables": [
+        "logger"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\n        The intended way this method should work:\n            Samples is expected as a Pandas DataFrame\n            The return type should be a Scipy csr sparse matrix\n\n        :param samples:\n        :return:\n        '''",
+        "'''\n            This method should turn a single string into a Scipy csr sparse matrix\n            This method will be used by `featurize_all()`\n        :param text:\n        :return:\n        '''"
+    ],
+    "functions": [
+        "featurize_all",
+        "featutize"
+    ],
+    "classes": [
+        "BaseFeatureBuilder"
+    ]
+}

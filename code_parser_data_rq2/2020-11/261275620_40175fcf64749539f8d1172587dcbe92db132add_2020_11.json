@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "decode",
+        "constructRemoveProxyTransaction",
+        "createAndSubmitTransaction",
+        "promptSignature",
+        "RemoveProxyInputs",
+        "TxConstruction",
+        "DecodedUnsignedTx",
+        "decoded",
+        "decoded",
+        "decoded",
+        "decoded",
+        "decoded",
+        "decoded",
+        "constructRemoveProxyTransaction",
+        "inputs",
+        "decode",
+        "construction",
+        "construction",
+        "construction",
+        "logUnsignedInfo",
+        "decodedUnsigned",
+        "construction",
+        "promptSignature",
+        "createAndSubmitTransaction",
+        "construction",
+        "signature",
+        "inputs",
+        "main",
+        "error",
+        "error",
+        "process"
+    ],
+    "literals": [
+        "'@substrate/txwrapper'",
+        "'./payloadConstructors/proxyRemoveProxy'",
+        "'./util/util'",
+        "'@substrate/txwrapper/lib/decode/decodeUnsignedTx'",
+        "'12v6hFUh4mKXq3XexwzwtRqXUNi6YLbGpGiumfGZhdvK6ahs'",
+        "'13xGBRvbBR9st4c5CVADqXntUYHbHWCPAyMcEK45P5HFAGEZ'",
+        "'Governance'",
+        "'http://127.0.0.1:8080/'",
+        "\\nTransaction Details:",
+        "\\n  Sending Account: ${decoded.address}",
+        "\\n  Proxy:      ${decoded.method.args.proxy}",
+        "\\n  Type: ${decoded.method.args.proxyType}",
+        "\\n  Tip: ${decoded.tip}",
+        "\\n  Era Period: ${decoded.eraPeriod}",
+        "\\nSigning Payload: ${construction.payload}"
+    ],
+    "variables": [
+        "inputs",
+        "construction",
+        "decodedUnsigned",
+        "signature"
+    ],
+    "comments": [
+        "Bond some tokens.",
+        "Test 1",
+        "Construct the unsigned transaction.",
+        "Verify transaction details.",
+        "Log the signing payload to sign offline.",
+        "Wait for the signature.",
+        "Construct a signed transaction and broadcast it."
+    ],
+    "docstrings": [],
+    "functions": [
+        "logUnsignedInfo",
+        "main"
+    ],
+    "classes": []
+}

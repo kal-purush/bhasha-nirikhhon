@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "getCurrentDate",
+        "getFutureDate",
+        "today",
+        "futureDay",
+        "axios",
+        "url",
+        "headers",
+        "res",
+        "match",
+        "formatDate",
+        "match",
+        "match",
+        "match",
+        "matches",
+        "e",
+        "e",
+        "printFixtures"
+    ],
+    "literals": [
+        "'axios'",
+        "'./helpers'",
+        "http://api.football-data.org/v2/competitions/2019/matches?dateFrom=${today}&dateTo=${futureDay}"
+    ],
+    "variables": [
+        "axios",
+        "today",
+        "futureDay",
+        "url",
+        "res",
+        "matches"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "printFixtures"
+    ],
+    "classes": []
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "search",
+        "fetch",
+        "search",
+        "response",
+        "satellites",
+        "satellites",
+        "data",
+        "data",
+        "count",
+        "i",
+        "pages",
+        "response",
+        "fetch",
+        "search",
+        "i",
+        "data",
+        "response",
+        "satellites",
+        "satellites",
+        "data",
+        "i",
+        "satellites"
+    ],
+    "literals": [
+        "string",
+        "https://tle.ivanstanojevic.me/api/tle?search=${search}&page-size=100",
+        "https://tle.ivanstanojevic.me/api/tle?search=${search}&page-size=100&page=${i}"
+    ],
+    "variables": [
+        "satellites",
+        "response",
+        "data",
+        "count",
+        "pages",
+        "i"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "fetchSatellites"
+    ],
+    "classes": []
+}

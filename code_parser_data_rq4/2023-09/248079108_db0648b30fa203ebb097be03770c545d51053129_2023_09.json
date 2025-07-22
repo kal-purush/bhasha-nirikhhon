@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Prometheus",
+        "Dapr",
+        "Tests",
+        "Common",
+        "IsNullOrWhiteSpace",
+        "Environment",
+        "GetEnvironmentVariable",
+        "enablePrometheusMetricServer",
+        "WriteLine",
+        "MetricServer",
+        "port",
+        "Start",
+        "WriteLine",
+        "enablePrometheusMetricServer"
+    ],
+    "literals": [
+        "\"DISABLE_PROMETHEUS_METRIC_SERVER\"",
+        "\"Starting Prometheus metric server\"",
+        "\"Disabling Prometheus metric server\""
+    ],
+    "variables": [
+        "enablePrometheusMetricServer"
+    ],
+    "comments": [
+        "------------------------------------------------------------",
+        "Copyright (c) Microsoft Corporation.",
+        "Licensed under the MIT License.",
+        "------------------------------------------------------------",
+        "if the env. var. is unset or empty, we enable the metric server"
+    ],
+    "docstrings": [],
+    "functions": [
+        "StartMetricsServer"
+    ],
+    "classes": [
+        "ObservabilityUtils"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "connection",
+        "name",
+        "id",
+        "description",
+        "version",
+        "conditions",
+        "services",
+        "attributes",
+        "active",
+        "rearm_seconds",
+        "connection",
+        "name",
+        "description",
+        "version",
+        "attributes",
+        "active",
+        "rearm_seconds",
+        "id",
+        "classmethod",
+        "cls",
+        "connection",
+        "data",
+        "cls",
+        "connection",
+        "data",
+        "conditions",
+        "data",
+        "services",
+        "data",
+        "id",
+        "data",
+        "attributes",
+        "data",
+        "obj"
+    ],
+    "literals": [
+        "'name'",
+        "'conditions'",
+        "'services'",
+        "'id'",
+        "'attributes'"
+    ],
+    "variables": [
+        "connection",
+        "name",
+        "description",
+        "version",
+        "conditions",
+        "services",
+        "attributes",
+        "active",
+        "rearm_seconds",
+        "id",
+        "obj"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Librato Alert Base class\"\"\"",
+        "\"\"\"Returns an alert object from a dictionary item,\n        which is usually from librato's API\"\"\""
+    ],
+    "functions": [
+        "from_dict"
+    ],
+    "classes": [
+        "Alert"
+    ]
+}

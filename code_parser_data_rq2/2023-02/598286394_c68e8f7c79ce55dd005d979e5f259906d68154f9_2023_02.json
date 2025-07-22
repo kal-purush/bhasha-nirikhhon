@@ -1,0 +1,18 @@
+{
+    "identifiers": [
+        "expr",
+        "Expr",
+        "token",
+        "Token",
+        "token",
+        "TokenType"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "ublic class AstPrinter implements Expr.Visitor<String> {\n    String print(Expr expr){\n        return expr.accept(this);\n    }\n\n    @Override\n    public String visitBinaryExpr(Expr.Binary expr) {\n        return parenthesize(expr.operator.lexeme,\n                expr.left, expr.right);\n    }\n    @Override\n    public String visitGroupingExpr(Expr.Grouping expr) {\n        return parenthesize(\"group\", expr.expression);\n    }\n    @Override\n    public String visitLiteralExpr(Expr.Literal expr) {\n        if (expr.value == null) return \"nil\";\n        return expr.value.toString();\n    }\n    @Override\n    public String visitUnaryExpr(Expr.Unary expr) {\n        return parenthesize(expr.operator.lexeme, expr.right);\n    }\n    private String parenthesize(String name, Expr...exprs){\n        StringBuilder builder = new StringBuilder();\n        builder.append(\"(\").append(name);\n        for (Expr expr : exprs){\n            builder.append(\" \");\n            builder.append(expr.accept(this));\n        }\n        builder.append(\")\");\n        return builder.toString();\n    }\n\n    public static void main(String[] args) {\n        Expr expression = new Expr.Binary(\n                new Expr.Unary(\n                        new Token(TokenType.MINUS, \"-\", null, 1),\n                        new Expr.Literal(123)),\n                new Token(TokenType.STAR, \"*\", null, 1),\n                new Expr.Grouping(\n                        new Expr.Literal(45.67)));\n        System.out.println(new AstPrinter().print(expression));\n    }\n}"
+    ],
+    "functions": [],
+    "classes": []
+}

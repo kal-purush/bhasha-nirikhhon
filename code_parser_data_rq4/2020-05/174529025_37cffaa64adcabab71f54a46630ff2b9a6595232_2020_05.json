@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "browser",
+        "executeInPage",
+        "browser",
+        "executeInPage"
+    ],
+    "literals": [
+        "\"webextension-polyfill\"",
+        "\"./utils/utils\"",
+        "\"firenvim-updateSettings\"",
+        "\"updateSettings\"",
+        "window.dispatchEvent(new Event(\"firenvim-settingsUpdated\"));"
+    ],
+    "variables": [],
+    "comments": [
+        "This script is only loaded in builds firefox-testing and chrome-testing",
+        "builds (check manifest.json if you want to make sure of that)",
+        "It provides a way for the page to ask the webextension to reload the neovim",
+        "instance. This is necessary for testing reasons (we sometimes might create",
+        "states that \"poison\" firenvim and need to reset it)."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

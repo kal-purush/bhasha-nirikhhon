@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "APIGatewayProxyEvent",
+        "APIGatewayProxyResult",
+        "lambdaHandler",
+        "response",
+        "err",
+        "err",
+        "response",
+        "response"
+    ],
+    "literals": [
+        "'aws-lambda'",
+        "'hello world'",
+        "'some error happened'"
+    ],
+    "variables": [
+        "lambdaHandler",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [
+        "*\n * Event doc: https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html#api-gateway-simple-proxy-for-lambda-input-format\n * @param {Object} event - API Gateway Lambda Proxy Input Format\n *\n * Return doc: https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html\n * @returns {Object} object - API Gateway Lambda Proxy Output Format\n *"
+    ],
+    "functions": [],
+    "classes": []
+}

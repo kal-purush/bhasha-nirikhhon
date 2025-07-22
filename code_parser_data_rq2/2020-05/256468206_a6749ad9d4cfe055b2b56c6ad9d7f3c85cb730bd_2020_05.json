@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "os",
+        "numpy",
+        "np",
+        "cddl",
+        "data_distribution_based",
+        "ita",
+        "ITA",
+        "test_path",
+        "ITA",
+        "os",
+        "path",
+        "join",
+        "test_path",
+        "np",
+        "load",
+        "test_file",
+        "i",
+        "data_stream",
+        "size",
+        "ita",
+        "add_element",
+        "data_stream",
+        "i",
+        "ita",
+        "detected_change",
+        "detected_indices",
+        "append",
+        "i",
+        "detected_indices",
+        "detected_indices",
+        "expected_indices",
+        "ita",
+        "get_info",
+        "expected_info",
+        "test_ita"
+    ],
+    "literals": [
+        "'drift_stream.npy'",
+        "\"ita(delta=0.002)\"",
+        "'/Users/yang/Documents/ConceptDriftDetectionLib/test/data_distribution_based/'"
+    ],
+    "variables": [
+        "ita",
+        "test_file",
+        "data_stream",
+        "expected_indices",
+        "detected_indices",
+        "expected_info"
+    ],
+    "comments": [
+        "print(data_stream[i])"
+    ],
+    "docstrings": [
+        "\"\"\"\n    ITA drift detection test.\n    The first half of the stream contains a sequence corresponding to a normal distribution of integers from 0 to 1.\n    From index 999 to 1999 the sequence is a normal distribution of integers from 0 to 7.\n\n    \"\"\""
+    ],
+    "functions": [
+        "test_ita"
+    ],
+    "classes": []
+}

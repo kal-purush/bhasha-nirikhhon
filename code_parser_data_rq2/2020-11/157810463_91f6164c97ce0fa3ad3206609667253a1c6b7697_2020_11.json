@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "x",
+        "x",
+        "root",
+        "k1",
+        "k2",
+        "root",
+        "helper",
+        "root",
+        "k1",
+        "k2",
+        "root",
+        "k1",
+        "k2",
+        "root",
+        "root",
+        "val",
+        "k1",
+        "helper",
+        "root",
+        "left",
+        "k1",
+        "k2",
+        "root",
+        "val",
+        "k1",
+        "root",
+        "val",
+        "k2",
+        "root",
+        "val",
+        "root",
+        "val",
+        "k2",
+        "helper",
+        "root",
+        "right",
+        "k1",
+        "k2"
+    ],
+    "literals": [],
+    "variables": [
+        "val",
+        "left",
+        "right"
+    ],
+    "comments": [
+        "剪枝。 当val 小于 k1的时候，是不需要走左子树的",
+        "剪枝。 当val 大于 k2的时候，是不需要走右子树的"
+    ],
+    "docstrings": [
+        "\"\"\"\nPrint BST keys in given range k1 - k2\n\n\"\"\"",
+        "\"\"\"\nTime complexity: O(n + |k2 - k1|) === max(O(n), O(|k2 - k1|))\n\"\"\""
+    ],
+    "functions": [
+        "print_bst",
+        "helper"
+    ],
+    "classes": [
+        "TreeNode",
+        "Solution"
+    ]
+}

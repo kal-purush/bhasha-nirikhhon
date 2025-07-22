@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "age",
+        "age"
+    ],
+    "literals": [
+        "'instructor'",
+        "'<=18'",
+        "'>18'"
+    ],
+    "variables": [
+        "age",
+        "job"
+    ],
+    "comments": [
+        "var job = 'instructor';\nswitch(job)\n{\n    case 'teacher':\n    case 'instructor':\n        console.log('teaches');\n    break;\n    case 'driver':\n        console.log('drives');\n    break;\n    default:\n        console.log('someething else');\n    break;\n    \n}\n\n\nvar firstName = 'John';\nvar civilStatus = 'married';\nvar age = 16;\n\nvar drink  = age >= 18 ? 'beer' : 'juice';\nconsole.log(firstName + ' drinks ' + drink);\n\n\nif(civilStatus === 'married')\n{\n    console.log(firstName + ' is married!');\n}\nelse if (civilStatus === 'single' && age < 18 )\n{\n    console.log(firstName + ' too young for marriage');\n}\nelse\n{\n    console.log(firstName + ' single!');\n}\n\n\n\n\nvar mMark = 78;\nvar hMark = 1.69;\n\nvar mJohn = 92;\nvar hJohn = 1.95;\n\nvar bmiMark = mMark / (hMark **2);\nvar bmiJohn = mJohn / (hJohn **2);\n\nvar bmiHigher = bmiMark > bmiJohn;\n\nconsole.log('bmiMark = ' + bmiMark + ' is higher than bmiJohn =' + bmiJohn + ': ' + bmiHigher);",
+        "//Logical operators\nvar currentYear = 2018\nvar yearJohn = 1989;\nvar ageJohn = currentYear - yearJohn;\nvar fullAge = 18;\n\nvar isFullAge = currentYear - yearJohn >= fullAge;\n\nconsole.log(isFullAge);\n\n//Math\nvar birthYearJohn = currentYear - ageJohn;\nvar birthYearMark = currentYear - ageMark;\n\n//typeof operator\nconsole.log(typeof (ageJohn < ageMark));\nconsole.log(typeof ageJohn);\nvar x;\nconsole.log(typeof x);\n\n\nvar firstName = \"John\";\nvar lastName = \"Smith\";\nvar age = 20;\nvar fullAge = true;\nconsole.log(lastName);\nconsole.log(fullAge);\n\nvar isMarried = false;\n\nconsole.log(firstName + ' is ' + age + ' years old. Married: ' + isMarried);\n\n//Var mutation\nage = 'twenty';\n\n//alert(firstName + ' is ' + age + ' years old. Married: ' + isMarried);\n\nvar firstName = prompt('Last name? ');\nconsole.log(firstName + ' is ' + age + ' years old. Married: ' + isMarried);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

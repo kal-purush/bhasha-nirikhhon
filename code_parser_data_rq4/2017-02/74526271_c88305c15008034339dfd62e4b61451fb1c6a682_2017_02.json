@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "df",
+        "col_name",
+        "col_name",
+        "df",
+        "columns",
+        "ValueError",
+        "col_name",
+        "df",
+        "col_name",
+        "entry",
+        "col",
+        "entry",
+        "cols_count",
+        "keys",
+        "cols_count",
+        "entry",
+        "cols_count",
+        "count_entries",
+        "tweets_df",
+        "result1"
+    ],
+    "literals": [
+        "'lang'",
+        "'The dataframe does not have a '",
+        "' column.'",
+        "'lang'"
+    ],
+    "variables": [
+        "cols_count",
+        "col",
+        "cols_count",
+        "entry",
+        "result1"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "Define count_entries()",
+        "Raise a ValueError if col_name is NOT in DataFrame",
+        "Initialize an empty dictionary: langs_count",
+        "Extract column from DataFrame: col",
+        "Iterate over the column in dataframe",
+        "If entry is in cols_count, add 1",
+        "Else add the entry to cols_count, set the value to 1",
+        "Return the cols_count dictionary",
+        "Call count_entries(): result1",
+        "Print result1"
+    ],
+    "docstrings": [
+        "\"\"\"\nCreated on Wed Feb  1 02:18:52 2017\n\n@author: Mohtashim\n\"\"\"",
+        "\"\"\"Return a dictionary with counts of\n    occurrences as value for each key.\"\"\""
+    ],
+    "functions": [
+        "count_entries"
+    ],
+    "classes": []
+}

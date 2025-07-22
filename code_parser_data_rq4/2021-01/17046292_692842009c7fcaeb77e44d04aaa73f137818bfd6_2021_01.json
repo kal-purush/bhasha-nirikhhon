@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "org",
+        "ejml",
+        "ops",
+        "FunctionalInterface",
+        "IPredicateBinary",
+        "row",
+        "col"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "TODO: add a version, where the value is also relevant f.i. for selecting non-zero entries"
+    ],
+    "docstrings": [
+        "* Copyright (c) 2021, Peter Abeles. All Rights Reserved.\n *\n * This file is part of Efficient Java Matrix Library (EJML).\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *   http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Functional Interface used in matrix select methods to specify arbitrary binary predicates accepting element coordinates"
+    ],
+    "functions": [
+        "apply"
+    ],
+    "classes": []
+}

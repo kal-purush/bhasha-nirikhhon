@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "myCamera",
+        "GetComponent",
+        "Camera",
+        "myCamera",
+        "ViewportPointToRay",
+        "Vector3",
+        "Physics",
+        "Raycast",
+        "ray",
+        "hit",
+        "hit",
+        "transform",
+        "tag",
+        "toHide",
+        "hit",
+        "transform",
+        "gameObject",
+        "toHide",
+        "GetComponent",
+        "MeshRenderer",
+        "enabled",
+        "turnInvisible",
+        "toHide",
+        "GetComponent",
+        "MeshRenderer",
+        "enabled",
+        "hit",
+        "transform",
+        "tag",
+        "toHide",
+        "GetComponent",
+        "MeshRenderer",
+        "enabled"
+    ],
+    "literals": [
+        "\"ground\"",
+        "\"Player\""
+    ],
+    "variables": [
+        "Camera",
+        "myCamera",
+        "GameObject",
+        "toHide",
+        "turnInvisible",
+        "Ray",
+        "ray",
+        "RaycastHit",
+        "hit"
+    ],
+    "comments": [
+        "float myAlpha = toHide.GetComponent<MeshRenderer>().material.color.a;",
+        "make this object transparent if its tagged as 'ground'",
+        "myAlpha--;",
+        "if player becomes visible once again, turn the invisble object back on"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update"
+    ],
+    "classes": [
+        "CameraRaycast"
+    ]
+}

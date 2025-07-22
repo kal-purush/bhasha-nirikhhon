@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "ClassesTasks",
+        "Side",
+        "s",
+        "Side",
+        "Abs",
+        "s",
+        "Side",
+        "num",
+        "Side",
+        "Abs",
+        "num"
+    ],
+    "literals": [],
+    "variables": [
+        "Side"
+    ],
+    "comments": [
+        "private int _side;",
+        "public int GetSide() => _side;",
+        "public void SetSide(int s) => _side = System.Math.Abs(s);",
+        "public Cube(int side = 0) => _side = System.Math.Abs(side);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "GetSide",
+        "SetSide",
+        "Cube",
+        "Cube"
+    ],
+    "classes": [
+        "PlayingWithCubes2",
+        "Cube"
+    ]
+}

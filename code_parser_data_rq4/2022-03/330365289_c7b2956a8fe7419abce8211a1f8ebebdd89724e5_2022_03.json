@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "com",
+        "mapbox",
+        "maps",
+        "plugin",
+        "annotation",
+        "com",
+        "mapbox",
+        "geojson",
+        "Point",
+        "com",
+        "mapbox",
+        "maps",
+        "MercatorCoordinate",
+        "com",
+        "mapbox",
+        "maps",
+        "Projection",
+        "org",
+        "robolectric",
+        "annotation",
+        "Implementation",
+        "org",
+        "robolectric",
+        "annotation",
+        "Implements",
+        "Implements",
+        "Implementation",
+        "coordinate",
+        "zoomScale",
+        "Implementation",
+        "coordinate",
+        "zoomScale",
+        "Point",
+        "fromLngLat"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* To avoid calling native method of Projection, this shadow Projection\n * will be used for the Robolectric unit tests."
+    ],
+    "functions": [
+        "MercatorCoordinate",
+        "project",
+        "Point",
+        "unproject"
+    ],
+    "classes": [
+        "ShadowProjection"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [
+        "SENSOR_PAGE_HTML"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n<html>\n    <head>\n        <title>Pebble Emulator Control</title>\n        <script src=\"static/js/textdecoder.js\" type=\"text/javascript\"></script>\n        <script src=\"static/js/jquery-2.1.4.min.js\" type=\"text/javascript\"></script>\n        <script src=\"static/js/underscore-min.js\" type=\"text/javascript\"></script>\n        <script src=\"static/js/backbone-min.js\" type=\"text/javascript\"></script>\n        <script type=\"text/javascript\">var host = {websocket_host}; var port = {websocket_port};</script>\n        <script src=\"static/js/websocket.js\" type=\"text/javascript\"></script>\n        <script src=\"static/js/sensors.js\" type=\"text/javascript\"></script>\n    </head>\n    <body style=\"font-size: 10vh\">\n        <h1 style=\"font-size: 100%; margin-bottom: 0;\">Emulator Control</h1>\n        <div class=\"state\" style=\"margin-top: 0; font-size: 60%; color: #FF0000\">(Connecting)</div>\n        <div>\n            <div class=\"stuff\" style=\"display: none; margin-top: 40px; font-size: 72%;\">\n                <h3>Heading:\n                    <span class=\"heading\" style=\"font-weight: lighter;\">...</span>&deg;\n                </h3>\n                <h3>Acceleration:\n                    <span class=\"accel-x\" style=\"font-weight: lighter;\">0</span>,\n                    <span class=\"accel-y\" style=\"font-weight: lighter;\">0</span>,\n                    <span class=\"accel-z\" style=\"font-weight: lighter;\">0</span>\n                </h3>\n            </div>\n        </div>\n    </body>\n</html>\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

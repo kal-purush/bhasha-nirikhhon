@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "workspace",
+        "IPLSConfig",
+        "INavigatorConfig",
+        "workspace",
+        "workspace",
+        "compatNavConfig",
+        "newNavConfig",
+        "compatPLSConfig",
+        "workspace",
+        "workspace",
+        "compatPLSConfig",
+        "newPLSConfig",
+        "navConfig",
+        "plsConfig",
+        "config"
+    ],
+    "literals": [
+        "'coc.nvim'",
+        "'./p_ls'",
+        "'./navigator'",
+        "'p::ls'",
+        "'perlnavigator'",
+        "'perl.navigator'",
+        "'p::ls'",
+        "'perl'",
+        "'perl.p::ls'"
+    ],
+    "variables": [
+        "compatNavConfig",
+        "newNavConfig",
+        "navConfig",
+        "_",
+        "__",
+        "newPLSConfig",
+        "plsConfig",
+        "config"
+    ],
+    "comments": [
+        "This is a thin backwards-compatibility layer for handling extension\n * configuration options from server's original format to coc-perl format.\n * As of today, coc-perl supports Perl::LanguageServer and PerlNavigator\n * servers, which don't have coliding options, however, their naming might\n * get confusing with future versions of coc-perl, where \"generic\" options\n * (valid for both servers) can get added. With this layer, the user can use\n * their VSCode settings as-is, for both servers, or change to the\n * \"standard\" coc-perl format.\n *\n * Bruno Meneguele <bmeneg@heredoc.io>",
+        "The default option property for Perl::LanguageServer is 'perl.*', which,\n * unfortunatelly colides with the format chosen for coc-perl, thus when\n * retrieving all 'perl.*' configuration options, 'perl.navigator' and\n * 'perl.p::ls' will also be retrieved. With that, we extends the original\n * IPLSConfig interface, which contains what's actually required by\n * Perl::LanguageServer under 'perl.*', with the unwanted options as\n * optional so we can delete them later on.",
+        "Handle mixed configuration: original (compat) VSCode options and coc-perl\n * format; and place them in the standard IPerlConfig interface.\n * Options using coc-perl format will have precedence over others.",
+        "Spread both in the same object, overriding compat options.",
+        "Retrieve 'perl.*' and ignore unwanted options.",
+        "See more on comment for ICompatPLSConfig."
+    ],
+    "docstrings": [],
+    "functions": [
+        "getConfig"
+    ],
+    "classes": []
+}

@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "app",
+        "globalShortcut",
+        "mainWindows",
+        "app",
+        "globalShortcut",
+        "isAudioEngineEnabled",
+        "mainWindows",
+        "isAudioEngineEnabled",
+        "mainWindows",
+        "ret",
+        "app",
+        "globalShortcut"
+    ],
+    "literals": [
+        "\"electron\"",
+        "\"./window.js\"",
+        "\"CommandOrControl+Shift+M\"",
+        "\"Mute keybind pressed\"",
+        "window.shelter.flux.dispatcher.dispatch({     \"type\": \"MEDIA_ENGINE_SET_AUDIO_ENABLED\",     \"enabled\": true,     \"unmute\": true });",
+        "window.shelter.flux.dispatcher.dispatch({\n                    \"type\": \"AUDIO_TOGGLE_SELF_MUTE\",\n                    \"context\": \"default\",\n                    \"syncRemote\": true,\n                    \"skipMuteUnmuteSoundEffect\": false\n                })",
+        "\"registration failed\"",
+        "\"will-quit\""
+    ],
+    "variables": [
+        "isAudioEngineEnabled",
+        "ret"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

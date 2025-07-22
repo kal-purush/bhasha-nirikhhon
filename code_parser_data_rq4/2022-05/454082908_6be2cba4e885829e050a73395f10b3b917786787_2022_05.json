@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "UpdateItemCommand",
+        "Context",
+        "context",
+        "id",
+        "url",
+        "UpdateItemCommand",
+        "context",
+        "id",
+        "url",
+        "context",
+        "command",
+        "response"
+    ],
+    "literals": [
+        "\"@aws-sdk/client-dynamodb\"",
+        "\"./types/context.js\"",
+        "string",
+        "string",
+        "\"set #u = :url, #s = :status\"",
+        "\"#u\"",
+        "\"url\"",
+        "\"#s\"",
+        "\"status\"",
+        "\":url\"",
+        "\":status\"",
+        "\"done\"",
+        "\"Sending finish item message for item \""
+    ],
+    "variables": [
+        "command",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "finishItem"
+    ],
+    "classes": []
+}

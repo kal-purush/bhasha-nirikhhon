@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "application",
+        "javafx",
+        "application",
+        "Application",
+        "javafx",
+        "stage",
+        "Stage",
+        "javafx",
+        "scene",
+        "Scene",
+        "javafx",
+        "scene",
+        "control",
+        "Label",
+        "javafx",
+        "scene",
+        "layout",
+        "BorderPane",
+        "WINDOW_HEIGHT",
+        "WINDOW_WIDTH",
+        "Override",
+        "primaryStage",
+        "hello",
+        "root",
+        "root",
+        "setCenter",
+        "hello",
+        "mainScene",
+        "root",
+        "WINDOW_WIDTH",
+        "WINDOW_HEIGHT",
+        "primaryStage",
+        "setScene",
+        "mainScene",
+        "primaryStage",
+        "show",
+        "args",
+        "launch",
+        "args"
+    ],
+    "literals": [
+        "\"Ok, looks like javafx is all set up here\""
+    ],
+    "variables": [],
+    "comments": [
+        "try {",
+        "BorderPane root = new BorderPane();",
+        "Scene scene = new Scene(root,400,400);",
+        "scene.getStylesheets().add(getClass().getResource(\"application.css\").toExternalForm());",
+        "primaryStage.setScene(scene);",
+        "primaryStage.show();",
+        "} catch(Exception e) {",
+        "e.printStackTrace();",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "start",
+        "main"
+    ],
+    "classes": [
+        "Main"
+    ]
+}

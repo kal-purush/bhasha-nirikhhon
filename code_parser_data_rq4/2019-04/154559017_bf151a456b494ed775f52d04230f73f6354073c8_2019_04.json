@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "chain",
+        "isTestnet",
+        "isTestnet",
+        "testnet",
+        "chain",
+        "mainnet",
+        "chain"
+    ],
+    "literals": [
+        "string",
+        "''",
+        "'https://blockstream.info/block/'",
+        "'https://blockstream.info/tx/'",
+        "'https://live.blockcypher.com/ltc/block/'",
+        "'https://live.blockcypher.com/ltc/tx/'",
+        "'https://blockstream.info/testnet/block/'",
+        "'https://blockstream.info/testnet/tx/'",
+        "'https://chain.so/block/LTC/'",
+        "'https://chain.so/tx/LTC/'",
+        "${chain}",
+        "${chain}"
+    ],
+    "variables": [
+        "mainnet",
+        "testnet"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Return tx info URL based on testnet state and chain\n * @param {string} chain - bitcoin, litecoin, etc.\n * @param {boolean} isTestnet - testnet flag set to 1 or 0\n * @returns {object} urls associated with chain"
+    ],
+    "functions": [
+        "txUrls"
+    ],
+    "classes": []
+}

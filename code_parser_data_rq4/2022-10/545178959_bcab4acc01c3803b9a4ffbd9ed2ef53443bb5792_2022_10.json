@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "styled",
+        "theme",
+        "styled",
+        "styled",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "\"../../styles/theme\"",
+        "display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;",
+        "width: 70rem;\n  height: auto;\n  margin-top: 20px;\n  margin-bottom: 40px;\n  border: 1px solid ${theme.colors.base_input};\n  border-radius: 8px;\n\n  header {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    padding: 12px 16px;\n\n    div {\n      display: flex;\n      align-items: center;\n      gap: 12px;\n\n      h2 {\n        display: flex;\n        gap: 6px;\n      }\n    }\n\n    img {\n      width: 3rem;\n      height: 3rem;\n      border-radius: 50%;\n    }\n  }\n\n  main {\n    height: 40rem;\n    background: ${theme.colors.base_card};\n  }\n\n  div {\n    display: flex;\n    gap: 12px;\n    padding: 12px 16px;\n\n    button {\n      padding: 12px 16px;\n      background: ${theme.colors.purple};\n      border: 1px solid ${theme.colors.purple};\n      color: ${theme.colors.white};\n      border-radius: 6px;\n      display: flex;\n      align-items: center;\n      gap: 12px;\n      cursor: pointer;\n      transition: all 0.2s ease-in-out;\n      &:hover {\n        background: ${theme.colors.purple_dark};\n        border: 1px solid ${theme.colors.purple_dark};\n      }\n    }\n  }"
+    ],
+    "variables": [
+        "Container",
+        "Content"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

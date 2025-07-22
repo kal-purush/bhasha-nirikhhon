@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "Customer",
+        "Account",
+        "Transaction",
+        "Chargeback",
+        "ChargebackListParams",
+        "CreateChargebackRequest",
+        "Include",
+        "UnitConfig",
+        "UnitResponse",
+        "BaseResource",
+        "BaseResource",
+        "token",
+        "basePath",
+        "config",
+        "token",
+        "basePath",
+        "config",
+        "request",
+        "request",
+        "chargebackId",
+        "include",
+        "chargebackId",
+        "parameters"
+    ],
+    "literals": [
+        "\"../types\"",
+        "\"../types/chargeback\"",
+        "\"../types/common\"",
+        "\"./baseResource\"",
+        "string",
+        "string",
+        "\"/chargebacks\"",
+        "\"\"",
+        "string",
+        "\"\"",
+        "/${chargebackId}",
+        "\"page[limit]\"",
+        "\"page[offset]\"",
+        "\"filter[accountId]\"",
+        "\"filter[customerId]\"",
+        "\"filter[since]\"",
+        "\"filter[until]\"",
+        "\"filter[tags]\"",
+        "\"include\"",
+        "\"sort\"",
+        "\"\""
+    ],
+    "variables": [
+        "parameters"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Include is Optional. Related resource available to include: customer, account, transaction. See [Getting Related Resources](https://developers.unit.co/#intro-getting-related-resources)\n     * @param chargebackId\n     * @param include"
+    ],
+    "functions": [
+        "create",
+        "get"
+    ],
+    "classes": [
+        "Chargebacks"
+    ]
+}

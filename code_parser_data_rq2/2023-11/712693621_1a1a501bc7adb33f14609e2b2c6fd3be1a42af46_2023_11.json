@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "ComponentModel",
+        "DataAnnotations",
+        "Runtime",
+        "Serialization",
+        "Text",
+        "Json",
+        "Serialization",
+        "Newtonsoft",
+        "Json",
+        "Soenneker",
+        "Dtos",
+        "IdNamePair",
+        "DataContract",
+        "IdNamePair",
+        "Required",
+        "DataMember",
+        "Name",
+        "JsonPropertyName",
+        "JsonProperty",
+        "Required",
+        "DataMember",
+        "Name",
+        "JsonPropertyName",
+        "JsonProperty"
+    ],
+    "literals": [
+        "\"id\"",
+        "\"id\"",
+        "\"id\"",
+        "\"name\"",
+        "\"name\"",
+        "\"name\""
+    ],
+    "variables": [
+        "Id",
+        "Name"
+    ],
+    "comments": [
+        "A minimal Record type with an <see cref=\"Id\"/> (string), <see cref=\"Name\"/> (string), and maximum JSON compatibility. <para/>",
+        "The reason for this type (over something like KeyValuePair, dictionary) is because of JSON serialization support.",
+        "</summary>",
+        "<remarks>Record type, so avoid modification after initial construction.</remarks>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": []
+}

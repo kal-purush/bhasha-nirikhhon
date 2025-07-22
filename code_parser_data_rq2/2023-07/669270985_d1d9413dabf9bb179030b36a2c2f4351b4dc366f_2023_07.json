@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "MutationObserver",
+        "records",
+        "i",
+        "slider",
+        "i",
+        "ScrollBooster",
+        "slider",
+        "i",
+        "observer",
+        "config",
+        "setTimeout",
+        "observer"
+    ],
+    "literals": [
+        "\".p-slider\"",
+        "'native'",
+        "'horizontal'"
+    ],
+    "variables": [
+        "observer",
+        "slider",
+        "i",
+        "config"
+    ],
+    "comments": [
+        "==UserScript==",
+        "@name        dアニメストア 横スクロール",
+        "@namespace   https://github.com/chimaha",
+        "@match       https://animestore.docomo.ne.jp/*",
+        "@grant       none",
+        "@version     1.0",
+        "@author      chimaha",
+        "@description dアニメストアの横スクロールを、Firefoxで使用できるようにします",
+        "@license     MIT license",
+        "@require     https://unpkg.com/scrollbooster@2/dist/scrollbooster.min.js",
+        "@supportURL  https://github.com/chimaha/dAnimeScroll/issues",
+        "==/UserScript==",
+        "! dアニメストア 横スクロール | MIT license | https://github.com/chimaha/dAnimeScroll/blob/main/LICENSE",
+        "! ScrollBooster | MIT license | https://github.com/ilyashubin/scrollbooster/blob/master/LICENSE"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "UnityEngine",
+        "AI",
+        "MonoBehaviour",
+        "agent",
+        "SetDestination",
+        "Vector3",
+        "zero"
+    ],
+    "literals": [],
+    "variables": [
+        "NavMeshAgent",
+        "agent"
+    ],
+    "comments": [
+        "NavMeshAgent steuern den Enemy über das NavMesh",
+        "Start is called before the first frame update",
+        "Update is called once per frame",
+        "Der Enemy soll immer zum Player laufen. BUG: LIEFERT AKTUELL NUR NULL",
+        "Vector3 test = GameObject.FindWithTag(\"Player\").transform.position;",
+        "Läuft aktuell nur zum Punkt (0,0,0) da der Player nicht gefunden wird"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update"
+    ],
+    "classes": [
+        "EnemyController"
+    ]
+}

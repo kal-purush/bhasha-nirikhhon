@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "op",
+        "add_column",
+        "sa",
+        "Column",
+        "sa",
+        "nullable"
+    ],
+    "literals": [
+        "\"8452f909a07e\"",
+        "\"cb8de251c1a5\"",
+        "\"jurisdiction\"",
+        "\"contest_choice_name_standardizations\""
+    ],
+    "variables": [
+        "revision",
+        "down_revision",
+        "branch_labels",
+        "depends_on"
+    ],
+    "comments": [
+        "pylint: disable=invalid-name",
+        "revision identifiers, used by Alembic.",
+        "pragma: no cover"
+    ],
+    "docstrings": [
+        "\"\"\"Jurisdiction.contest_choice_name_standardizations\n\nRevision ID: 8452f909a07e\nRevises: cb8de251c1a5\nCreate Date: 2024-06-19 20:40:42.730393+00:00\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

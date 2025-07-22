@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "extensions",
+        "GH",
+        "replace",
+        "pattern",
+        "url",
+        "pattern",
+        "with_scm",
+        "pattern",
+        "url",
+        "extensions"
+    ],
+    "literals": [
+        "'sphinx.ext.autodoc'",
+        "'jaraco.packaging.sphinx'",
+        "\"index\"",
+        "\"furo\"",
+        "'rst.linker'",
+        "'../NEWS.rst'",
+        "'https://github.com'",
+        "r'(Issue #|\\B#)(?P<issue>\\d+)'",
+        "'{package_url}/issues/{issue}'",
+        "r'(?m:^((?P<scm_version>v?\\d+(\\.\\d+){1,2}))\\n[-=]+\\n)'",
+        "'{text}\\n{rev[timestamp]:%d %b %Y}\\n'",
+        "r'PEP[- ](?P<pep_number>\\d+)'",
+        "'https://peps.python.org/pep-{pep_number:0>4}/'",
+        "'sphinx.ext.intersphinx'",
+        "'python'",
+        "'https://docs.python.org/3'"
+    ],
+    "variables": [
+        "extensions",
+        "master_doc",
+        "html_theme",
+        "link_files",
+        "nitpicky",
+        "intersphinx_mapping",
+        "autodoc_preserve_defaults"
+    ],
+    "comments": [
+        "Link dates and other references in the changelog",
+        "Be strict about any broken references",
+        "Include Python intersphinx mapping to prevent failures",
+        "jaraco/skeleton#51",
+        "Preserve authored syntax for defaults"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

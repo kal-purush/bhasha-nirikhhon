@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "HttpClient",
+        "Injectable",
+        "Observable",
+        "environment",
+        "Product",
+        "Injectable",
+        "environment",
+        "httpClient",
+        "productsUrl"
+    ],
+    "literals": [
+        "\"@angular/common/http\"",
+        "\"@angular/core\"",
+        "\"rxjs\"",
+        "\"src/environments/environment\"",
+        "\"../model/product\"",
+        "'root'",
+        "${environment.apiUrl}/products",
+        "${this.apiUrl}/"
+    ],
+    "variables": [
+        "productsUrl"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getProducts"
+    ],
+    "classes": [
+        "ProductService"
+    ]
+}

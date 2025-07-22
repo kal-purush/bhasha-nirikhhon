@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "json",
+        "context",
+        "json",
+        "dumps"
+    ],
+    "literals": [
+        "\"statusCode\"",
+        "\"body\"",
+        "\"message\"",
+        "\"hello world\""
+    ],
+    "variables": [],
+    "comments": [
+        "import requests",
+        "try:",
+        "ip = requests.get(\"http://checkip.amazonaws.com/\")",
+        "except requests.RequestException as e:",
+        "# Send some context about this error to Lambda Logs",
+        "print(e)",
+        "raise e",
+        "\"location\": ip.text.replace(\"\\n\", \"\")"
+    ],
+    "docstrings": [
+        "\"\"\"Sample pure Lambda function\n\n    Parameters\n    ----------\n    event: dict, required\n        API Gateway Lambda Proxy Input Format\n\n        Event doc: https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html#api-gateway-simple-proxy-for-lambda-input-format\n\n    context: object, required\n        Lambda Context runtime methods and attributes\n\n        Context doc: https://docs.aws.amazon.com/lambda/latest/dg/python-context-object.html\n\n    Returns\n    ------\n    API Gateway Lambda Proxy Output Format: dict\n\n        Return doc: https://docs.aws.amazon.com/apigateway/latest/developerguide/set-up-lambda-proxy-integrations.html\n    \"\"\""
+    ],
+    "functions": [
+        "lambda_handler"
+    ],
+    "classes": []
+}

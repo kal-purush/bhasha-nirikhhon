@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "distance",
+        "changeInElevation",
+        "changeInElevation",
+        "changeInElevation",
+        "changeInElevation",
+        "distance",
+        "mass",
+        "angle",
+        "mass",
+        "angle",
+        "rollingResistanceForce",
+        "normalForce",
+        "totalThrustForce",
+        "rollingResistanceForce",
+        "gravityForce",
+        "distance",
+        "distance",
+        "changeInElevation",
+        "workDone",
+        "totalThrustForce",
+        "distance",
+        "workDone"
+    ],
+    "literals": [],
+    "variables": [
+        "mass",
+        "angle",
+        "gravityForce",
+        "normalForce"
+    ],
+    "comments": [
+        "Finds the energy expended moving up a distance",
+        "",
+        "Parameters:",
+        "distance - the horizontal distance in metres",
+        "changeInElevation - the change in elevation in metres",
+        "Returns:",
+        "workDone in calories",
+        "Assuming average human weight of 75kg and bike weight of 8kg",
+        "find the energy expended by elevation change",
+        "Find the energy expended by biking for that distance",
+        "Joules/1000 = calories"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getEnergyExpenditure"
+    ],
+    "classes": []
+}

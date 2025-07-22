@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "$$asyncIterator",
+        "PubSubEngine",
+        "pubsub",
+        "eventNames",
+        "pubsub",
+        "eventNames",
+        "eventNames",
+        "eventNames",
+        "error",
+        "error",
+        "$$asyncIterator",
+        "resolve",
+        "resolve",
+        "resolve",
+        "subscriptionIds",
+        "subscriptionIds",
+        "resolve",
+        "resolve",
+        "eventName",
+        "eventName",
+        "subscriptionIds",
+        "subscriptionId",
+        "subscriptionIds",
+        "subscriptionId"
+    ],
+    "literals": [
+        "'iterall'",
+        "'graphql-subscriptions/dist/pubsub-engine'",
+        "string",
+        "string",
+        "'string'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* A class for digesting PubSubEngine events via the new AsyncIterator interface.\n * This implementation is a generic version of the one located at\n * https://github.com/apollographql/graphql-subscriptions/blob/master/src/event-emitter-to-async-iterator.ts\n * @class\n *\n * @constructor\n *\n * @property pullQueue @type {Function[]}\n * A queue of resolve functions waiting for an incoming event which has not yet arrived.\n * This queue expands as next() calls are made without PubSubEngine events occurring in between.\n *\n * @property pushQueue @type {any[]}\n * A queue of PubSubEngine events waiting for next() calls to be made.\n * This queue expands as PubSubEngine events arrice without next() calls occurring in between.\n *\n * @property eventsArray @type {string[]}\n * An array of PubSubEngine event names which this PubSubAsyncIterator should watch.\n *\n * @property allSubscribed @type {Promise<number[]>}\n * A promise of a list of all subscription ids to the passed PubSubEngine.\n *\n * @property listening @type {boolean}\n * Whether or not the PubSubAsynIterator is in listening mode (responding to incoming PubSubEngine events and next() calls).\n * Listening begins as true and turns to false once the return method is called.\n *\n * @property pubsub @type {PubSubEngine}\n * The PubSubEngine whose events will be observed."
+    ],
+    "functions": [
+        "next",
+        "pushValue",
+        "pullValue",
+        "emptyQueue",
+        "subscribeAll",
+        "unsubscribeAll"
+    ],
+    "classes": [
+        "PubSubAsyncIterator"
+    ]
+}

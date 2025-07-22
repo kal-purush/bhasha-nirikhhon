@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "com",
+        "xianjinxia",
+        "com",
+        "didispace",
+        "swagger",
+        "EnableSwagger2Doc",
+        "org",
+        "springframework",
+        "boot",
+        "SpringApplication",
+        "org",
+        "springframework",
+        "boot",
+        "autoconfigure",
+        "SpringBootApplication",
+        "org",
+        "springframework",
+        "boot",
+        "builder",
+        "SpringApplicationBuilder",
+        "org",
+        "springframework",
+        "boot",
+        "web",
+        "support",
+        "SpringBootServletInitializer",
+        "EnableSwagger2Doc",
+        "SpringBootApplication",
+        "Override",
+        "builder",
+        "builder",
+        "sources",
+        "args",
+        "SpringApplication",
+        "run",
+        "args"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "去除数据源的自动化配置",
+        "@EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})",
+        "注意这里要指向原先用main方法执行的Application启动类"
+    ],
+    "docstrings": [],
+    "functions": [
+        "SpringApplicationBuilder",
+        "configure",
+        "main"
+    ],
+    "classes": [
+        "Springboot01Application"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "com",
+        "experisproject",
+        "experisproject",
+        "models",
+        "entities",
+        "javax",
+        "persistence",
+        "Entity",
+        "javax",
+        "persistence",
+        "GeneratedValue",
+        "javax",
+        "persistence",
+        "Id",
+        "Entity",
+        "Id",
+        "GeneratedValue",
+        "teamId"
+    ],
+    "literals": [],
+    "variables": [
+        "teamId"
+    ],
+    "comments": [
+        "owner_id INT NOT NULL,",
+        "association_id INT NOT NULL,",
+        "coach_id INT NOT NULL,",
+        "location_id INT NOT NULL,",
+        "PRIMARY KEY (team_id),",
+        "FOREIGN KEY (owner_id) REFERENCES OWNER(owner_id),",
+        "FOREIGN KEY (association_id) REFERENCES ASSOCIATION(association_id),",
+        "FOREIGN KEY (coach_id) REFERENCES COACH(coach_id),",
+        "FOREIGN KEY (location_id) REFERENCES LOCATION(location_id)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Team"
+    ],
+    "classes": [
+        "Team"
+    ]
+}

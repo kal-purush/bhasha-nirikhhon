@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "TwitchDownloaderWPF",
+        "Services",
+        "Culture",
+        "English",
+        "French",
+        "Turkish",
+        "Culture",
+        "translation",
+        "translation",
+        "Culture",
+        "English",
+        "ENGLISH_NAME",
+        "Culture",
+        "French",
+        "FRENCH_NAME",
+        "Culture",
+        "Turkish",
+        "TURKISH_NAME",
+        "INVARIANT_NAME",
+        "Culture",
+        "translation",
+        "translation",
+        "Culture",
+        "English",
+        "ENGLISH_NATIVE_NAME",
+        "Culture",
+        "French",
+        "FRENCH_NATIVE_NAME",
+        "Culture",
+        "Turkish",
+        "TURKISH_NATIVE_NAME",
+        "INVARIANT_NATIVE_NAME"
+    ],
+    "literals": [
+        "\"en-US\"",
+        "\"English\"",
+        "\"fr-FR\"",
+        "\"Français\"",
+        "\"tr-TR\"",
+        "\"Türkçe\"",
+        "\"\"",
+        "\"Invariant\""
+    ],
+    "variables": [
+        "ENGLISH_NAME",
+        "ENGLISH_NATIVE_NAME",
+        "FRENCH_NAME",
+        "FRENCH_NATIVE_NAME",
+        "TURKISH_NAME",
+        "TURKISH_NATIVE_NAME",
+        "INVARIANT_NAME",
+        "INVARIANT_NATIVE_NAME"
+    ],
+    "comments": [
+        "I really hate doing this but I can't figure out manually reading the culture codes when they are merged to",
+        "the main assembly, and they can't be satellites because of: <PublishSingleFile>True</PublishSingleFile>",
+        "Notes for translators:",
+        "",
+        "Please place your culture in the enum in English alphabetical order by the 'name' code",
+        "",
+        "If you do not know the 'name' for your culture, you can find it using the Visual Studio ResX Resource Manager extension",
+        "https://marketplace.visualstudio.com/items?itemName=TomEnglert.ResXManager",
+        "Or alternatively it can probably be found it here:",
+        "http://www.codedigest.com/CodeDigest/207-Get-All-Language-Country-Code-List-for-all-Culture-in-C---ASP-Net.aspx",
+        "Or it can be found by combining the ISO 639-3 language name with the ISO 3166-1 alpha-2 country name.",
+        "ISO 639-3: https://en.wikipedia.org/wiki/IETF_language_tag#List_of_common_primary_language_subtags",
+        "ISO 3166-1 alpha-2: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2#Officially_assigned_code_elements"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ToName",
+        "ToNativeName"
+    ],
+    "classes": [
+        "AvailableCultures"
+    ]
+}

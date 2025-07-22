@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "React",
+        "React",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props"
+    ],
+    "literals": [
+        "string",
+        "\"value\"",
+        "\"string\"",
+        "\"number\"",
+        "\"All `option` children of `Select` are expected to have either a `value` prop or a `children` prop that is can be interpreted as a `string`\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Return the effective `value` of an `option` element\n *\n * If the `value` prop is found; then it will be stringified and returned.\n *\n * If there is no `value` prop and `children` is stringifiable (it's a `string`,\n * `number`, or `null`), then return the stringiifed `children`. We\n * intentionally exclude `undefined` here to prevent accidents.\n *\n * Otherwise throw an error."
+    ],
+    "functions": [
+        "getEffectiveValueFromOptionElementProps"
+    ],
+    "classes": []
+}

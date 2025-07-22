@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Injectable",
+        "environment",
+        "HttpClient",
+        "Application",
+        "Injectable",
+        "environment",
+        "http",
+        "id",
+        "id",
+        "url"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'src/environments/environment'",
+        "'@angular/common/http'",
+        "'../models/application.model'",
+        "'root'",
+        "${environment.apiBaseUrl + '/applications'}",
+        "'/applications'",
+        "string",
+        "${this.applicationUrl}/${id}"
+    ],
+    "variables": [
+        "url"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getaplication",
+        "getApplications"
+    ],
+    "classes": [
+        "ApplicationService"
+    ]
+}

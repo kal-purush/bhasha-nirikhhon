@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Subject",
+        "Injectable",
+        "Subject",
+        "updated",
+        "updated"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'rxjs'"
+    ],
+    "variables": [],
+    "comments": [
+        "ルームで使用するキャラクターのリストを管理するサービスです",
+        "追加されたキャラをコンポーネント間で受け渡しさせます。",
+        "↓受け取る側の処理",
+        "public subscription: Subscription;  // 受け取った時の処理を収納します",
+        "ngOnInit() {",
+        "this.subscription = this.clistService.sharedDataSource$.subscribe(",
+        "data => {",
+        "// dataが受け取ったものです。",
+        "//受け取ったdataを受け取ったクラスの変数に入れるなり好きにしてください",
+        "}",
+        ");",
+        "}",
+        "Charaを登録するときにこれで送信します。"
+    ],
+    "docstrings": [],
+    "functions": [
+        "onNotifyShareDataChanged"
+    ],
+    "classes": [
+        "CharacterDataListService"
+    ]
+}

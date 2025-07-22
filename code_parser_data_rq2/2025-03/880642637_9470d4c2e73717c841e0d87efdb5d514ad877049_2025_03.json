@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "Mutex",
+        "serverLogger",
+        "Mutex",
+        "maxSize",
+        "QUEUE_SIZE",
+        "maxHighSize",
+        "HIGH_PRIORITY_SIZE",
+        "maxSize",
+        "maxHighSize",
+        "task",
+        "serverLogger",
+        "task",
+        "task",
+        "serverLogger",
+        "task",
+        "serverLogger",
+        "task",
+        "task",
+        "task",
+        "task",
+        "e",
+        "serverLogger",
+        "e"
+    ],
+    "literals": [
+        "'use server'",
+        "'async-mutex'",
+        "'./logger'",
+        "'Queue is full. Task rejected.'",
+        "'High Priority Queue is full. Priority task rejected.'",
+        "'processQueue() start'",
+        "processQueue() failed during running",
+        "'processQueue() failed'"
+    ],
+    "variables": [
+        "QUEUE_SIZE",
+        "HIGH_PRIORITY_SIZE",
+        "task"
+    ],
+    "comments": [
+        "큐가 가득 찼음을 알림",
+        "🔒 Mutex를 사용하여 큐 접근",
+        "모든 큐가 비어 있으면 종료",
+        "작업 실행"
+    ],
+    "docstrings": [
+        "* 큐의 작업을 실행"
+    ],
+    "functions": [
+        "enqueue",
+        "enqueueHighPriority",
+        "processQueue"
+    ],
+    "classes": [
+        "TaskSyncQueue"
+    ]
+}

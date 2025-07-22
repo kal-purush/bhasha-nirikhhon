@@ -1,0 +1,20 @@
+{
+    "identifiers": [
+        "graphql",
+        "DeleteTopicTimerangeInput",
+        "defaultMutation",
+        "defaultMutation",
+        "graphql"
+    ],
+    "literals": [
+        "'react-relay'",
+        "'__generated__/deleteTopicTimerangeMutation.graphql'",
+        "'./util/defaultMutation'",
+        "mutation deleteTopicTimerangeMutation(\n    $input: DeleteTopicTimerangeInput!\n  ) {\n    deleteTopicTimerange(input: $input) {\n      clientMutationId\n\n      topic {\n        ...Topic_topic\n        ...TopicTimerange_topic\n      }\n    }\n  }"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

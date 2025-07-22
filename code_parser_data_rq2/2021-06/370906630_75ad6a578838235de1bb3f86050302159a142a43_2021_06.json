@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "nodemailer",
+        "nodemailer",
+        "process",
+        "process",
+        "process",
+        "process",
+        "name",
+        "email",
+        "name",
+        "email",
+        "name",
+        "name",
+        "email",
+        "phone",
+        "message",
+        "transporter",
+        "emailOptions",
+        "req",
+        "res",
+        "req",
+        "sendEmail",
+        "req",
+        "emailRes",
+        "res",
+        "res",
+        "res",
+        "req"
+    ],
+    "literals": [
+        "'nodemailer'",
+        "'test'",
+        "${name} <${email}>",
+        "'roy@royanger.com'",
+        "Contact - ${name}",
+        "<p>This message is from the contact form on roy@royanger.com</p>\n\n         <p>Name: ${name}</p>\n         <p>Email: ${email}</p>\n         <p>Phone: ${phone}</p>\n         <br />\n         <p>Message: ${message}</p>",
+        "'POST'",
+        "Email sent successfully",
+        "'Error sending email'",
+        "Incorrect method: ${req.method}. Did you mean POST?"
+    ],
+    "variables": [
+        "transporter",
+        "emailOptions",
+        "emailRes"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "sendEmail",
+        "handler"
+    ],
+    "classes": []
+}

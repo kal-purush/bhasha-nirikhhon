@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "CdListComponent",
+        "CD",
+        "Component",
+        "CdListComponent",
+        "CD",
+        "CD",
+        "CD",
+        "CD",
+        "clickedCD",
+        "clickedCD"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./cd-list.component'",
+        "'./cd.model'",
+        "'my-app'",
+        "<div class=\"container\">\n  <h1>Music Store</h1>\n    <div class=\"cd\">\n      <cd-list [cdList]=\"cds\" (onCdSelect)=\"cdWasSelected($event)\">\n      </cd-list>\n    </div>\n  </div>",
+        "\"CD 1\"",
+        "'Artist 1'",
+        "'Genre 1'",
+        "\"CD 2\"",
+        "'Artist 2'",
+        "'Genre 2'",
+        "\"CD 3\"",
+        "'Artist 3'",
+        "'Genre 3'",
+        "\"CD 4\"",
+        "'Artist 4'",
+        "'Genre 4'",
+        "'Parent'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "cdWasSelected"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

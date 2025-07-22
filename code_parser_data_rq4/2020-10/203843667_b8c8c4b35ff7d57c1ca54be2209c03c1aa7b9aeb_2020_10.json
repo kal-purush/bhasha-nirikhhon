@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "ITokenProvider",
+        "ITokenResponse",
+        "jwt"
+    ],
+    "literals": [
+        "\"./tokens\"",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "!\n * Copyright (c) Microsoft Corporation. All rights reserved.\n * Licensed under the MIT License."
+    ],
+    "docstrings": [
+        "* Default token provider in case the host does not provide one. It simply caches the provided jwt and returns it back."
+    ],
+    "functions": [
+        "fetchOrdererToken",
+        "fetchStorageToken"
+    ],
+    "classes": [
+        "DefaultTokenProvider"
+    ]
+}

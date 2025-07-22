@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "NextAuthOptions",
+        "CredentialsProvider",
+        "userAuthService",
+        "env",
+        "createLogger",
+        "createLogger",
+        "env",
+        "session",
+        "token",
+        "session",
+        "user",
+        "token",
+        "user",
+        "token",
+        "code",
+        "message",
+        "logger",
+        "code",
+        "message",
+        "code",
+        "code",
+        "logger",
+        "code",
+        "CredentialsProvider",
+        "userAuthService"
+    ],
+    "literals": [
+        "\"next-auth\"",
+        "\"next-auth/providers/credentials\"",
+        "\"@/_shared/user/services/userAuthService\"",
+        "\"@/_shared/utils/env\"",
+        "\"@/_shared/utils/logger\"",
+        "\"next-auth\"",
+        "${code} ${JSON.stringify(message)}",
+        "\"NEXTAUTH_URL\""
+    ],
+    "variables": [
+        "logger",
+        "authOptions"
+    ],
+    "comments": [
+        "Stryker disable all",
+        "CredentialsProviderのみ使用する場合はNEXTAUTH_URLは不要なので、警告は無視する",
+        "authorizeの型エラーを解消するために必要",
+        "フォーム生成はしないので値は空にしておく"
+    ],
+    "docstrings": [],
+    "functions": [
+        "session",
+        "jwt",
+        "error",
+        "warn"
+    ],
+    "classes": []
+}

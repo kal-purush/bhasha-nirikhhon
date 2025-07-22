@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "UnityEngine",
+        "InputSystem",
+        "MonoBehaviour",
+        "Tooltip",
+        "SerializeField",
+        "InputActionReference",
+        "Collider",
+        "other",
+        "other",
+        "gameObject",
+        "tag",
+        "GameManager",
+        "instance",
+        "OnPurchaseAborted",
+        "Collider",
+        "other",
+        "Collider",
+        "other",
+        "other",
+        "gameObject",
+        "tag",
+        "InputActionReference",
+        "actionRef",
+        "purchaseActionRef",
+        "actionRef",
+        "action",
+        "triggered",
+        "GameManager",
+        "instance",
+        "OnPurchaseBegin",
+        "GameManager",
+        "instance",
+        "OnPurchaseCompleted"
+    ],
+    "literals": [
+        "\"The button on the controller that activates the purchase whilst in the trigger/purchase area.\"",
+        "\"Player\"",
+        "\"Player\""
+    ],
+    "variables": [
+        "purchaseActionRef"
+    ],
+    "comments": [
+        "Check if the other is the Player, if so invoke the OnPurchaseBegin event.",
+        "Check if the other is the Player, if so show the tooltip for how to activate the purchase menu.",
+        "if (other.gameObject.tag == \"Player\") GameManager.instance.OnPurchaseBegin();",
+        "Check if the other is the Player, if so invoke the OnPurchaseBegin event.",
+        "Check if the purchase is active, if so invoke the OnPurchaseCompleted event."
+    ],
+    "docstrings": [],
+    "functions": [
+        "OnTriggerExit",
+        "OnTriggerEnter",
+        "OnTriggerStay",
+        "InvokePurchase"
+    ],
+    "classes": [
+        "SS_GUIAreaController"
+    ]
+}

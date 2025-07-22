@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "pprint",
+        "json",
+        "datetime",
+        "os",
+        "sys",
+        "getopt",
+        "codecs",
+        "requests",
+        "pymongo",
+        "MongoClient",
+        "MongoClient",
+        "client",
+        "EDCA",
+        "db",
+        "Recent",
+        "db",
+        "Releases"
+    ],
+    "literals": [
+        "'localhost'"
+    ],
+    "variables": [
+        "client",
+        "db",
+        "recent",
+        "releases"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n# obten OCIDs recientemente actualizados de SHCP y SFP\n# e insertalos en una colección sin repetidos\n\n# recent.insert_one(...)\n\n\n# por cada ocid en Recent, borrar releases correspondientes en Releases,\n# obtener los releases correspondientes de ambos lados e insertarlos en Releases\nfor r in recent.aggregate([{ \"$group\": { \"_id\": \"$ocid\", \"conteo\": { \"$sum\": 1 }}}]):\n    releases.remove({ \"ocid\": r[\"ocid\"]})\n\n    # Get releases from SHCP and SFP\n    \n    rs = []\n    collection.insert(rs)\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "VariableUiElement",
+        "UIEventSource",
+        "Loc",
+        "Translations",
+        "SubtleButton",
+        "Svg",
+        "Combine",
+        "Title",
+        "VariableUiElement",
+        "state",
+        "iconStyle",
+        "Translations",
+        "state",
+        "location",
+        "location",
+        "location",
+        "location",
+        "SubtleButton",
+        "Svg",
+        "iconStyle",
+        "Combine",
+        "Title",
+        "t",
+        "t",
+        "mapillaryLink"
+    ],
+    "literals": [
+        "\"../Base/VariableUIElement\"",
+        "\"../../Logic/UIEventSource\"",
+        "\"../../Models/Loc\"",
+        "\"../i18n/Translations\"",
+        "\"../Base/SubtleButton\"",
+        "\"../../Svg\"",
+        "\"../Base/Combine\"",
+        "\"../Base/Title\"",
+        "string",
+        "https://www.mapillary.com/app/?focus=map&lat=${location?.lat ?? 0}&lng=${location?.lon ?? 0}&z=${Math.max((location?.zoom ?? 2) - 1, 1)}",
+        "\"flex flex-col link-no-underline\""
+    ],
+    "variables": [
+        "t",
+        "mapillaryLink"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "MapillaryLink"
+    ]
+}

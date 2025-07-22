@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Text",
+        "RegularExpressions",
+        "Collections",
+        "Generic",
+        "Security",
+        "Authentication",
+        "FluentFTP",
+        "FluentFTP",
+        "Servers",
+        "CORE",
+        "NETFX",
+        "Threading",
+        "ASYNC",
+        "Threading",
+        "Tasks",
+        "FluentFTP",
+        "Servers",
+        "Handlers",
+        "FtpBaseServer",
+        "FtpServer",
+        "PyFtpdLib",
+        "message",
+        "message",
+        "Contains"
+    ],
+    "literals": [
+        "\"pyftpdlib \""
+    ],
+    "variables": [],
+    "comments": [
+        "Server-specific handling for PyFtpdLib FTP servers",
+        "</summary>",
+        "Return the FtpServer enum value corresponding to your server, or Unknown if its a custom implementation.",
+        "</summary>",
+        "Return true if your server is detected by the given FTP server welcome message.",
+        "</summary>",
+        "Detect PyFtpdLib server",
+        "Welcome message: \"220 pyftpdlib 1.5.6 ready\""
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "FtpServer",
+        "ToEnum",
+        "DetectByWelcome"
+    ],
+    "classes": [
+        "PyFtpdLibServer"
+    ]
+}

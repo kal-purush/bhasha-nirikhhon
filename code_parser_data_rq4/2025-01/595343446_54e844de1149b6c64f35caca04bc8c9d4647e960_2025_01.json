@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "vercelURL",
+        "netlifyURL",
+        "process",
+        "siteURL"
+    ],
+    "literals": [
+        "\"https://main--\"",
+        "https://${process.env.VERCEL_URL}",
+        "\"http://localhost:3000\"",
+        "\"production\"",
+        "\"localhost\"",
+        "\"site depends on NETLIFY or VERCEL environment variables, which are not present.\""
+    ],
+    "variables": [
+        "netlifyURL",
+        "vercelURL",
+        "siteURL"
+    ],
+    "comments": [
+        "if we're on prod branch, use the public URL",
+        "otherwise, use this deploy's unique URL"
+    ],
+    "docstrings": [
+        "* currently, NETLIFY and VERCEL are supported\n *\n * prefer adding support for other platforms here\n * rather then overriding the URL manually"
+    ],
+    "functions": [],
+    "classes": []
+}

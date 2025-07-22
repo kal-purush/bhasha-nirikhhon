@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "CommonTabProperties",
+        "ITabProperties",
+        "DatasetPropertiesTab",
+        "DatasetTab",
+        "DatasetTab",
+        "DatasetTab",
+        "DatasetTab",
+        "DatasetTab",
+        "DatasetTab",
+        "DatasetTab",
+        "DatasetTab",
+        "DatasetTab",
+        "DatasetPropertiesTab",
+        "CommonTabProperties"
+    ],
+    "literals": [
+        "'@datahub/data-models/constants/entity/shared/tabs'",
+        "'@datahub/data-models/types/entity/rendering/entity-render-props'",
+        "'@datahub/data-models/constants/entity/dataset/tab-properties/properties'",
+        "'@datahub/data-models/constants/entity/dataset/tabs'",
+        "'Schema'",
+        "'datasets/containers/dataset-schema'",
+        "'Status'",
+        "'datasets/containers/dataset-properties'",
+        "'ACL Access'",
+        "'jit-acl/containers/jit-acl-access-container'",
+        "'Ownership'",
+        "'datasets/containers/dataset-ownership'",
+        "'Compliance'",
+        "'datasets/containers/compliance-main'",
+        "'Dataset Groups'",
+        "'datasets/core/containers/dataset-groups'",
+        "'Relationships'",
+        "'datasets/dataset-relationships'",
+        "'Health'",
+        "'health/entity-detail'"
+    ],
+    "variables": [
+        "TabProperties"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Properties for dataset tabs",
+        "** Todo : META-9512 datasets - relationships view is unable to handle big payloads\n   ** Adding lazy render as a workaround, so as to unblock rest of the tabs on the page."
+    ],
+    "functions": [],
+    "classes": []
+}

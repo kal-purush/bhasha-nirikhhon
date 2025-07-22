@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "backend",
+        "controller",
+        "com",
+        "example",
+        "backend",
+        "service",
+        "ChatSessionService",
+        "lombok",
+        "RequiredArgsConstructor",
+        "org",
+        "springframework",
+        "http",
+        "HttpStatus",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "RestController",
+        "RequestMapping",
+        "RequiredArgsConstructor",
+        "chatSessionService",
+        "PostMapping",
+        "ResponseStatus",
+        "HttpStatus",
+        "CREATED",
+        "PathVariable",
+        "participantOneId",
+        "PathVariable",
+        "participantTwoId"
+    ],
+    "literals": [
+        "\"/api/chatsessions\"",
+        "\"/{participantOneId}/{participantTwoId}\"",
+        "\"participantOneId\"",
+        "\"participantTwoId\""
+    ],
+    "variables": [
+        "chatSessionService"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "addChatSession"
+    ],
+    "classes": [
+        "ChatSessionController"
+    ]
+}

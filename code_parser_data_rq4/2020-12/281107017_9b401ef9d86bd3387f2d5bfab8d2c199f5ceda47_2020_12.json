@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "ProjectSubmission",
+        "GraphQLClient",
+        "gql",
+        "GraphQLClient",
+        "ghClient",
+        "process",
+        "submission",
+        "submission",
+        "submission",
+        "gql",
+        "ghClient",
+        "ghQuery",
+        "submission",
+        "licenseData"
+    ],
+    "literals": [
+        "'../typings/interfaces'",
+        "'graphql-request'",
+        "'https://api.github.com/graphql'",
+        "'Authorization'",
+        "Bearer ${process.env.GITHUB_TOKEN}",
+        "'github.com'",
+        "query ($url: URI!) {\n      resource(url: $url) {\n        ... on Repository {\n          licenseInfo {\n            spdxId\n          }\n        }\n      }\n    }"
+    ],
+    "variables": [
+        "ghClient",
+        "ghQuery",
+        "licenseData"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "isEligibleForLicenseCheck",
+        "hasSPDXLicense"
+    ],
+    "classes": []
+}

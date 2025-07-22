@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "baseUrl",
+        "defaultHeader",
+        "getGates",
+        "stationId",
+        "lineId",
+        "stationId",
+        "lineId",
+        "baseUrl",
+        "path",
+        "queryParams",
+        "fetch",
+        "requestUrl",
+        "defaultHeader",
+        "res",
+        "data"
+    ],
+    "literals": [
+        "'./client'",
+        "'/stations/train_lines/gates'",
+        "?station_id=${stationId}&train_line_id=${lineId}",
+        "'get'"
+    ],
+    "variables": [
+        "path",
+        "getGates",
+        "queryParams",
+        "requestUrl",
+        "res",
+        "data"
+    ],
+    "comments": [
+        "if (res.status !== 200) throw new Error(data.result);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

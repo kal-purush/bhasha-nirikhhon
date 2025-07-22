@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "key",
+        "Vex",
+        "key",
+        "key",
+        "key",
+        "key",
+        "Vex",
+        "keyRoot",
+        "i",
+        "Vex",
+        "i",
+        "scale",
+        "scaleMap",
+        "Vex",
+        "i",
+        "keyRootIndex",
+        "Vex",
+        "scale",
+        "key",
+        "key"
+    ],
+    "literals": [
+        "\"n\"",
+        "\"\""
+    ],
+    "variables": [
+        "scaleMap",
+        "keyRoot",
+        "keyRootIndex",
+        "scale",
+        "i",
+        "idx"
+    ],
+    "comments": [
+        "Vex.Flow.Music.canonical_notes; // c, c#, d, e, ...\nVex.Flow.Music.scales; // major, dorian, mixo, minor: [2, 1, 2, 2, 1, 2, 2]\nconst Music = new Vex.Flow.Music();\nconst scaleTones = Music.getScaleTones(\n    Vex.Flow.Music.canonical_notes.indexOf(\"g\"), \n    Vex.Flow.Music.scales.dorian\n);\nconsole.log(scaleTones);\nconsole.log(scaleTones.map(s => Music.getCanonicalNoteName(s)));\nconst scaleMap = Music.createScaleMap(\"Gm\");\nconsole.log(scaleMap);\n\nconst scale = [];\nconst keyRoot = \"Gm\"[0].toLowerCase();\nconst keyRootIndex = Vex.Flow.Music.roots.indexOf(keyRoot);\nfor (let i = 0, idx; i < Vex.Flow.Music.roots.length; i++) {\n    scale.push(scaleMap[Vex.Flow.Music.roots[(i + keyRootIndex) % Vex.Flow.Music.roots.length]].replace(\"n\", \"\"))\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get",
+        "getKey",
+        "createScale",
+        "createScaleMap"
+    ],
+    "classes": [
+        "Scale"
+    ]
+}

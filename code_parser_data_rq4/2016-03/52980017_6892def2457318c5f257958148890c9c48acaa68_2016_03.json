@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Pipe",
+        "PipeTransform",
+        "Pipe",
+        "value",
+        "args",
+        "value",
+        "value",
+        "hours",
+        "hours",
+        "hr",
+        "hr",
+        "hours",
+        "hr",
+        "value",
+        "hours",
+        "minutes",
+        "minutes",
+        "min",
+        "min",
+        "value",
+        "hours",
+        "minutes",
+        "seconds",
+        "seconds",
+        "sec",
+        "sec",
+        "hr",
+        "min",
+        "sec"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'duration'",
+        "string",
+        "'00:00'",
+        "${hours}:",
+        "0${hr}",
+        "''",
+        "${minutes}",
+        "0${min}",
+        "${Math.round(seconds)}",
+        "0${sec}",
+        "${hr}${min}:${sec}"
+    ],
+    "variables": [
+        "hours",
+        "hr",
+        "minutes",
+        "min",
+        "seconds",
+        "sec"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "transform"
+    ],
+    "classes": [
+        "DurationPipe"
+    ]
+}

@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "internalList",
+        "internalList"
+    ],
+    "literals": [],
+    "variables": [
+        "internalList"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* An implementation of a stack that uses a {@List} as the underlying\n * data structure.\n * \n * Not all operations on a stack will always be successful. For\n * example, a programmer may try to pop an element from an empty\n * stack. Since we hace not covered exceptions yet, we need another\n * mechanism to report errors. In order to do that, methods of this\n * list will return a {@see ReturnObject} that will contain either an\n * object or an error value of the right kind (as defined in {@see\n * ErrorMessage}).\n * \n * @author PiJ",
+        "* The data structure where the elements on the stack are stored.",
+        "* Creates a new abstract stack using the provided list as the\n     * underlying data structure.\n     * \n     * Note: This constructor does not check whether the provided list\n     * is null. Programmers must do their own checks. If a null list\n     * is provided, a NullPointerException will be thrown at runtime\n     * as soon as any operation is attempted on the underlying list.\n     * \n     * @param list the list to be used"
+    ],
+    "functions": [
+        "AbstractStack"
+    ],
+    "classes": [
+        "AbstractStack"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "The",
+        "solution",
+        "involves",
+        "converting",
+        "the",
+        "custom",
+        "camera",
+        "s",
+        "ImagePicker",
+        "usually",
+        "involves",
+        "converting",
+        "the",
+        "image",
+        "to",
+        "a",
+        "file",
+        "then",
+        "utilizing",
+        "the",
+        "file"
+    ],
+    "literals": [
+        "'s image URI into a format compatible with Expo'",
+        "",
+        "javascript\nimport * as ImagePicker from 'expo-image-picker';\nimport * as FileSystem from 'expo-file-system';\n\nasync function pickImage() {\n  let result = await ImagePicker.launchCameraAsync();\n  if (!result.cancelled) {\n    const imageUri = result.uri;\n    const imageBase64 = await FileSystem.readAsStringAsync(imageUri, { encoding: FileSystem.EncodingType.Base64 });\n    const tempUri = await FileSystem.writeAsStringAsync(FileSystem.documentDirectory + 'tempImage.jpg', imageBase64, { encoding: FileSystem.EncodingType.Base64 });\n    // Now use tempUri with ImagePicker\n    console.log('Image URI:', tempUri);\n  }\n}",
+        ""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

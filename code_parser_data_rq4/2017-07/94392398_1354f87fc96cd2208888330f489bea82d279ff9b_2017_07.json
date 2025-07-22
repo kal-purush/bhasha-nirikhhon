@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "EntityFrameworkCore",
+        "Scaffolding",
+        "Configuration",
+        "Internal",
+        "Microsoft",
+        "EntityFrameworkCore",
+        "Scaffolding",
+        "Internal",
+        "Scaffolding",
+        "CustomScaffolding",
+        "DbContextWriter",
+        "ScaffoldingUtilities",
+        "scaffoldingUtilities",
+        "CSharpUtilities",
+        "cSharpUtilities",
+        "scaffoldingUtilities",
+        "cSharpUtilities",
+        "ModelConfiguration",
+        "modelConfiguration",
+        "WriteCode",
+        "modelConfiguration",
+        "entityConfig",
+        "modelConfiguration",
+        "EntityConfigurations",
+        "entityConfig",
+        "EntityType",
+        "Name",
+        "Inflector",
+        "Inflector",
+        "Pluralize",
+        "entityName",
+        "entityName",
+        "code",
+        "code",
+        "Replace",
+        "entityName",
+        "entityName",
+        "entityName",
+        "setName",
+        "code"
+    ],
+    "literals": [],
+    "variables": [
+        "code",
+        "entityName",
+        "setName"
+    ],
+    "comments": [
+        "DbContextWriter writes out the C# code for the context.",
+        "We override this so that we can pluralize the DbSet names.",
+        "</summary>",
+        "There is no good way to override the DbSet naming, as it uses",
+        "an internal StringBuilder. This means we can't override",
+        "AddDbSetProperties without re-implementing the entire class.",
+        "Therefore, we have to get the code and then do string manipulation",
+        "to replace the DbSet property code"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "SingularDbContextWriter",
+        "WriteCode"
+    ],
+    "classes": [
+        "SingularDbContextWriter"
+    ]
+}

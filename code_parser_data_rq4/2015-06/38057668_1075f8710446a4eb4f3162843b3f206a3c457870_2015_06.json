@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "AutoRouteExpressPromise",
+        "AutoRouteExpressPromise",
+        "AutoRouteBase",
+        "req",
+        "Q",
+        "options",
+        "routeName",
+        "result",
+        "routeDefinitions",
+        "options",
+        "glob",
+        "AutoRouteBase",
+        "arep"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"autoroute-express-promise\""
+    ],
+    "variables": [
+        "arep"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Route name, e.g., route: \"/api/myroute/:id\"",
+        "* E.g., methods: [\n        *   [method.get, req => myFunctionThatReturnsAPromiseGet(req.params[\"theIdName\"])],\n        *   [method.delete, req => myFunctionThatReturnsAPromiseDelete(req.params[\"theIdName\"])]\n        * ]"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "require",
+        "test",
+        "expect",
+        "jsonParser",
+        "jsonParser",
+        "expect",
+        "jsonParser",
+        "jsonParser"
+    ],
+    "literals": [
+        "\"../../src/utils\"",
+        "\"should parsed json string to be equal to parsed js string\"",
+        "\"{\\\"var\\\": 1, \\\"array\\\": [1, 2, \\\"hello\\\", {}]}\"",
+        "\"{var: 1, array: [1, 2, \\\"hello\\\", {}]}\"",
+        "{\"menu\": {\n    \"id\": \"file\",\n    \"value\": \"File\",\n    \"popup\": {\n      \"menuitem\": [\n        {\"value\": \"New\", \"onclick\": \"CreateNewDoc()\"},\n        {\"value\": \"Open\", \"onclick\": \"OpenDoc()\"},\n        {\"value\": \"Close\", \"onclick\": \"CloseDoc()\"}\n      ]\n    }\n  }}",
+        "{menu: {\n    id: \"file\",\n    value: \"File\",\n    popup: {\n      menuitem: [\n        {value: \"New\", onclick: \"CreateNewDoc()\"},\n        {value: \"Open\", onclick: \"OpenDoc()\"},\n        {value: \"Close\", onclick: \"CloseDoc()\"}\n      ]\n    }\n  }}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

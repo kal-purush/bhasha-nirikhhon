@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "it",
+        "fabioformosa",
+        "quartzmanager",
+        "security",
+        "helpers",
+        "org",
+        "springframework",
+        "security",
+        "authentication",
+        "AuthenticationManager",
+        "org",
+        "springframework",
+        "security",
+        "config",
+        "annotation",
+        "web",
+        "builders",
+        "HttpSecurity",
+        "LoginConfigurer",
+        "loginPath",
+        "http",
+        "authenticationManager"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* It configures filters to authenticate credentials sent by client or to set authenticationSuccessHandler\n *\n * Implement this interface for a login strategy\n *",
+        "* If the authentication is based on cookie, it returns the name of cookie to be erased at the logout"
+    ],
+    "functions": [
+        "cookieMustBeDeletedAtLogout",
+        "HttpSecurity",
+        "login"
+    ],
+    "classes": []
+}

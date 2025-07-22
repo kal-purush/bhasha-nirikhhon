@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Injectable",
+        "ApiService",
+        "Injectable",
+        "_apiService",
+        "data",
+        "data",
+        "id",
+        "id"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../../../shared/services/api.service'",
+        "'root'",
+        "string",
+        "'no'",
+        "'productName'",
+        "'price'",
+        "'createdAt'",
+        "'categoryId'",
+        "'productSize'",
+        "'status'",
+        "'product/pagination/filter'",
+        "properties/${id}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Constructor\n     *\n     * @param {ApiService} _apiService",
+        "* Get data list by filter with pagination\n     * \n     * @param data",
+        "* Get data by id\n     * \n     * @param id"
+    ],
+    "functions": [
+        "getMenuListByFilterWithPagination",
+        "getDataById"
+    ],
+    "classes": [
+        "MenuService"
+    ]
+}

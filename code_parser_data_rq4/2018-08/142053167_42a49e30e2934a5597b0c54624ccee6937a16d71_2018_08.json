@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "typing",
+        "TypeVar",
+        "Mapping",
+        "TypeVar",
+        "TypeVar",
+        "d",
+        "Mapping",
+        "K",
+        "V",
+        "k",
+        "K",
+        "ks",
+        "K",
+        "V",
+        "d",
+        "k",
+        "KeyError",
+        "k",
+        "ks",
+        "d",
+        "k",
+        "KeyError"
+    ],
+    "literals": [
+        "'K'",
+        "'V'"
+    ],
+    "variables": [
+        "K",
+        "V"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Look up a value in the specified dictionary given one or more candidate keys.\n\n    Raises a key error for the first (!) key if none of the keys are present.\n\n    If the first key is present, return its value ...\n    >>> lookup({1:2}, 1)\n    2\n\n    ... and ignore the other keys.\n    >>> lookup({1:2}, 1, 3)\n    2\n\n    If the first key is absent, try the fallbacks.\n    >>> lookup({1:2}, 3, 1)\n    2\n\n    If the key isn't present, raise a KeyError referring to that key.\n    >>> lookup({1:2}, 3)\n    Traceback (most recent call last):\n    ...\n    KeyError: 3\n\n    If neither the first key nor the fallbacks are present, raise a KeyError referring to the first key.\n    >>> lookup({1:2}, 3, 4)\n    Traceback (most recent call last):\n    ...\n    KeyError: 3\n    \"\"\""
+    ],
+    "functions": [
+        "lookup"
+    ],
+    "classes": []
+}

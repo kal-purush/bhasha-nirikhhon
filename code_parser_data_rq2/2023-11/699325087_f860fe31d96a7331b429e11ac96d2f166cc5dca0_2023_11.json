@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "$",
+        "args",
+        "oldApi",
+        "oldApi",
+        "args",
+        "args",
+        "apiCall",
+        "internalGet",
+        "patchKey",
+        "internalGet",
+        "internalGet",
+        "value",
+        "oldUrlEncodedValue",
+        "value",
+        "encodeURIComponent",
+        "value",
+        "internalGet",
+        "patchKey",
+        "ret",
+        "$",
+        "oldApi"
+    ],
+    "literals": [
+        "'jquery'",
+        "'_giteaFomanticApiPatch'",
+        "'string'",
+        "'internal'",
+        "'get'"
+    ],
+    "variables": [
+        "patchKey",
+        "oldApi",
+        "apiCall",
+        "ret",
+        "internalGet",
+        "oldUrlEncodedValue"
+    ],
+    "comments": [
+        "",
+        "Fomantic API module has some very buggy behaviors:",
+        "",
+        "If encodeParameters=true, it calls `urlEncodedValue` to encode the parameter.",
+        "However, `urlEncodedValue` just tries to \"guess\" whether the parameter is already encoded, by decoding the parameter and encoding it again.",
+        "",
+        "There are 2 problems:",
+        "1. It may guess wrong, and skip encoding a parameter which looks like encoded.",
+        "2. If the parameter can't be decoded, `decodeURIComponent` will throw an error, and the whole request will fail.",
+        "",
+        "This patch only fixes the second error behavior at the moment.",
+        "",
+        "if Fomantic API module's `urlEncodedValue` throws an error, we encode it by ourselves."
+    ],
+    "docstrings": [],
+    "functions": [
+        "initFomanticApiPatch"
+    ],
+    "classes": []
+}

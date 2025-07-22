@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "// http://eslint.org/docs/user-guide/configuring\n\nmodule.exports = {\n  root: true,\n  parser: 'babel-eslint',\n  parserOptions: {\n    sourceType: 'module'\n  },\n  env: {\n    browser: true,\n  },\n  extends: 'airbnb-base',\n  // required to lint *.vue files\n  plugins: [\n    'html'\n  ],\n  // check if imports actually resolve\n  'settings': {\n    'import/resolver': {\n      'webpack': {\n        'config': 'build/webpack.base.conf.js'\n      }\n    }\n  },\n  // add your custom rules here\n  'rules': {\n    // don't require .vue extension when importing\n    'import/extensions': ['error', 'always', {\n      'js': 'never',\n      'vue': 'never'\n    }],\n    // allow optionalDependencies\n    'import/no-extraneous-dependencies': ['error', {\n      'optionalDependencies': ['test/unit/index.js']\n    }],\n    // allow debugger during development\n    'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,\n    // allow max line length 120\n    'max-len': [\"error\", 120]\n  }\n}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

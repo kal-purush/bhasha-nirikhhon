@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "EventArgs",
+        "MovedItemEventArgs",
+        "EventArgs",
+        "sender",
+        "sender"
+    ],
+    "literals": [
+        "\"./event-args\"",
+        "\"./moved-item-event-args\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Defines a class that represents the values that changed in a collection.",
+        "* The items that were added to the collection.",
+        "* The index that the added items were inserted at in the collection.",
+        "* The items that were removed from the collection.",
+        "* The index that the first removed item was at in the collection.",
+        "* The items that were moved."
+    ],
+    "functions": [],
+    "classes": [
+        "CollectionChangedEventArgs"
+    ]
+}

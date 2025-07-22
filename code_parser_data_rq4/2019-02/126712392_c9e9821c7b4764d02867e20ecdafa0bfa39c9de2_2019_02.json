@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "mosaicId",
+        "convert",
+        "NamespaceId",
+        "UInt64",
+        "Mosaic",
+        "MosaicId",
+        "Mosaic",
+        "MosaicId",
+        "mosaicId",
+        "convert",
+        "NetworkCurrencyMosaic",
+        "amount",
+        "NetworkCurrencyMosaic",
+        "amount",
+        "amount",
+        "amount",
+        "NetworkCurrencyMosaic",
+        "UInt64",
+        "amount",
+        "NetworkCurrencyMosaic",
+        "NetworkCurrencyMosaic",
+        "UInt64",
+        "amount",
+        "NetworkCurrencyMosaic",
+        "amount",
+        "amount",
+        "NetworkCurrencyMosaic",
+        "UInt64",
+        "amount",
+        "NetworkCurrencyMosaic",
+        "amount"
+    ],
+    "literals": [
+        "'nem2-library'",
+        "'../namespace/NamespaceId'",
+        "'../UInt64'",
+        "'./Mosaic'",
+        "'./MosaicId'",
+        "'B4F12E7C9F6946091E2CB8B6D3A12B50D17CCBBF646386EA27CE2946A7423DCF'",
+        "'number'",
+        "'number'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2019 NEM\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* NetworkCurrencyMosaic mosaic\n * \n * This represents the per-network currency mosaic. This mosaicId is aliased\n * with namespace name `currency`.\n * \n * @since 0.10.2",
+        "* Per-Network default mosaic owner public key",
+        "* Per-Network currencyMosaicId\n     *\n     * @note Little-endianness on nonce field in `mosaicId(nonce, publicKey)`.\n     * @type {Id}",
+        "* Divisiblity\n     * @type {number}",
+        "* Initial supply\n     * @type {number}",
+        "* Is tranferable\n     * @type {boolean}",
+        "* Is Supply mutable\n     * @type {boolean}",
+        "* Is Levy mutable\n     * @type {boolean}",
+        "* constructor\n     * @param amount",
+        "* Create NetworkCurrencyMosaic with using NetworkCurrencyMosaic as unit.\n     *\n     * @param amount\n     * @returns {NetworkCurrencyMosaic}",
+        "* Create NetworkCurrencyMosaic with using micro NetworkCurrencyMosaic as unit,\n     * 1 NetworkCurrencyMosaic = 1000000 micro NetworkCurrencyMosaic.\n     *\n     * @param amount\n     * @returns {NetworkCurrencyMosaic}"
+    ],
+    "functions": [
+        "createRelative",
+        "createAbsolute"
+    ],
+    "classes": [
+        "NetworkCurrencyMosaic"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "file",
+        "file",
+        "file",
+        "i",
+        "loads",
+        "i",
+        "loads",
+        "i",
+        "loadEvent",
+        "i",
+        "downloads",
+        "i",
+        "downloads",
+        "i",
+        "downloadEvent",
+        "i",
+        "downloads",
+        "i",
+        "deletes",
+        "i",
+        "deleteEvent"
+    ],
+    "literals": [
+        "\"-\"",
+        "\"main.php?file=\"",
+        "\"-\"",
+        "\"files.php?download=\"",
+        "\"-\"",
+        "\"files.php?delete=\"",
+        "\"load\"",
+        "\"download\"",
+        "\"delete\""
+    ],
+    "variables": [
+        "file",
+        "file",
+        "file",
+        "loads",
+        "i",
+        "downloads",
+        "i",
+        "deletes",
+        "i"
+    ],
+    "comments": [
+        "signal to load a file into main.php via php",
+        "signal to download specified file via php",
+        "signal to delete a file via php",
+        "attach all functions to html elements",
+        "each of these loops goes through all of the files and their buttons",
+        "and assigns them to the corresponding events to link off to php"
+    ],
+    "docstrings": [],
+    "functions": [
+        "loadEvent",
+        "downloadEvent",
+        "deleteEvent"
+    ],
+    "classes": []
+}

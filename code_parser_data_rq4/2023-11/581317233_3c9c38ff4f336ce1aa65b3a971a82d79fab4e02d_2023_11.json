@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "typing",
+        "Optional",
+        "typing_extensions",
+        "Literal",
+        "_models",
+        "BaseModel",
+        "benefit_frequency",
+        "BenefitFrequency",
+        "support_per_benefit_type",
+        "SupportPerBenefitType",
+        "BaseModel",
+        "Optional",
+        "Optional",
+        "Optional",
+        "Literal",
+        "Optional",
+        "Optional",
+        "Literal",
+        "Optional",
+        "Optional",
+        "BenefitFrequency",
+        "Optional",
+        "Literal",
+        "BaseModel",
+        "Optional",
+        "SupportedFeatures",
+        "Optional",
+        "SupportPerBenefitType"
+    ],
+    "literals": [
+        "\"BenefitFeaturesAndOperations\"",
+        "\"SupportedFeatures\"",
+        "\"fixed\"",
+        "\"percent\"",
+        "\"fixed\"",
+        "\"percent\"",
+        "\"individual\"",
+        "\"family\""
+    ],
+    "variables": [
+        "__all__",
+        "annual_maximum",
+        "catch_up",
+        "company_contribution",
+        "description",
+        "employee_deduction",
+        "frequencies",
+        "hsa_contribution_limit",
+        "supported_features",
+        "supported_operations"
+    ],
+    "comments": [
+        "File generated from our OpenAPI spec by Stainless."
+    ],
+    "docstrings": [
+        "\"\"\"Whether the provider supports an annual maximum for this benefit.\"\"\"",
+        "\"\"\"Whether the provider supports catch up for this benefit.\n\n    This field will only be true for retirement benefits.\n    \"\"\"",
+        "\"\"\"Supported contribution types.\n\n    An empty array indicates contributions are not supported.\n    \"\"\"",
+        "\"\"\"Supported deduction types.\n\n    An empty array indicates deductions are not supported.\n    \"\"\"",
+        "\"\"\"The list of frequencies supported by the provider for this benefit\"\"\"",
+        "\"\"\"Whether the provider supports HSA contribution limits.\n\n    Empty if this feature is not supported for the benefit. This array only has\n    values for HSA benefits.\n    \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "SupportedFeatures",
+        "BenefitFeaturesAndOperations"
+    ]
+}

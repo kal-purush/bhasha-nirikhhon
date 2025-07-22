@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "resize",
+        "input_image",
+        "input_width",
+        "input_height",
+        "factor",
+        "init",
+        "module_or_path",
+        "WebAssembly"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "tslint:disable"
+    ],
+    "docstrings": [
+        "* @param {Uint32Array} input_image \n* @param {number} input_width \n* @param {number} input_height \n* @param {number} factor \n* @returns {Uint32Array}",
+        "* If `module_or_path` is {RequestInfo}, makes a request and\n* for everything else, calls `WebAssembly.instantiate` directly.\n*\n* @param {RequestInfo | BufferSource | WebAssembly.Module} module_or_path\n*\n* @returns {Promise<any>}"
+    ],
+    "functions": [],
+    "classes": []
+}

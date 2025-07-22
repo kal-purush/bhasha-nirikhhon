@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "nav",
+        "className",
+        "nav",
+        "className",
+        "$",
+        "e",
+        "$",
+        "e",
+        "className",
+        "className",
+        "$",
+        "e",
+        "update",
+        "update",
+        "setTimeout",
+        "update"
+    ],
+    "literals": [
+        "\"navbar-ontop\"",
+        "\"<style id='temp-navbar-ontop'>.navbar {opacity:0; transition: none !important}</style>\"",
+        "\".navbar\"",
+        "\"DOMContentLoaded\"",
+        "'show.bs.collapse'",
+        "\".\"",
+        "'hidden.bs.collapse'",
+        "\"#temp-navbar-ontop\"",
+        "\"scroll\""
+    ],
+    "variables": [
+        "className",
+        "nav"
+    ],
+    "comments": [
+        "we start hidden, to avoid flickering",
+        "toggle className based on the scrollTop property of document",
+        "still hacking to avoid flickering"
+    ],
+    "docstrings": [
+        "* navbar-ontop.js 1.0.0\n * Add .navbar-ontop class to navbar when the page is scrolled to top\n * Make sure to add this script to the <head> of page to avoid flickering on load"
+    ],
+    "functions": [
+        "update"
+    ],
+    "classes": []
+}

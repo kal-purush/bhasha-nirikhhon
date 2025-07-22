@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "WixToolsetTest",
+        "Converters",
+        "Xml",
+        "Linq",
+        "WixInternal",
+        "TestSupport",
+        "WixToolset",
+        "Converters",
+        "WixToolsetTest",
+        "Converters",
+        "Mocks",
+        "Xunit",
+        "BaseConverterFixture",
+        "Fact",
+        "Join",
+        "Environment",
+        "NewLine",
+        "XDocument",
+        "Parse",
+        "parse",
+        "LoadOptions",
+        "PreserveWhitespace",
+        "LoadOptions",
+        "SetLineInfo",
+        "MockMessaging",
+        "WixConverter",
+        "messaging",
+        "converter",
+        "ConvertDocument",
+        "Assert",
+        "Equal",
+        "errors",
+        "UnformattedDocumentLines",
+        "WixAssert",
+        "CompareLineByLine",
+        "expected",
+        "actualLines"
+    ],
+    "literals": [
+        "\"<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>\"",
+        "\"  <Fragment>\"",
+        "\"    <SetProperty Id='INSTALLFOLDER' \"",
+        "\"      After='WixQueryOsDirs'\"",
+        "\"      Value='test'>NOT Installed</SetProperty>\"",
+        "\"  </Fragment>\"",
+        "\"</Wix>\"",
+        "\"<Wix xmlns=\\\"http://wixtoolset.org/schemas/v4/wxs\\\">\"",
+        "\"  <Fragment>\"",
+        "\"    <SetProperty Id=\\\"INSTALLFOLDER\\\" After=\\\"WixQueryOsDirs\\\" Value=\\\"test\\\" Condition=\\\"NOT Installed\\\" />\"",
+        "\"  </Fragment>\"",
+        "\"</Wix>\""
+    ],
+    "variables": [
+        "parse",
+        "expected",
+        "messaging",
+        "converter",
+        "errors",
+        "actualLines"
+    ],
+    "comments": [
+        "Copyright (c) .NET Foundation and contributors. All rights reserved. Licensed under the Microsoft Reciprocal License. See LICENSE.TXT file in the project root for full license information."
+    ],
+    "docstrings": [],
+    "functions": [
+        "FixConditionWixCa"
+    ],
+    "classes": [
+        "SetPropertyFixture"
+    ]
+}

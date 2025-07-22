@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "http",
+        "basePath",
+        "ICategory",
+        "http",
+        "basePath",
+        "responce",
+        "result",
+        "newCategoryData",
+        "http",
+        "basePath",
+        "newCategoryData",
+        "responce",
+        "CategoriesService"
+    ],
+    "literals": [
+        "\"../helpers\"",
+        "\"../config\"",
+        "\"../store/categories/types\"",
+        "${basePath}/category",
+        "${basePath}/category",
+        "\"post\"",
+        "'Content-Type'",
+        "'application/json'"
+    ],
+    "variables": [
+        "responce",
+        "result",
+        "responce"
+    ],
+    "comments": [
+        "async updateProduct(updatedProductData: IProduct):Promise<IProduct> {\n        console.log(\"updatedProductData\",updatedProductData);\n        const responce: IProduct = await http({\n            url: `${basePath}/product/${updatedProductData.id}`,\n            init: {\n                method: \"PUT\",\n                headers: {'Content-Type': 'application/json'},\n                body: JSON.stringify(updatedProductData)\n            }\n        });\n        return responce;\n    }\n\n    async removeProduct(product: IProduct):Promise<string> {\n        const responce: string = await http({\n            url: `${basePath}/product/${product.id}`,\n            init: {\n                method: \"DELETE\",\n                headers: {'Content-Type': 'application/json'},\n                body:JSON.stringify(product)\n            }\n        });\n        return responce;\n    }"
+    ],
+    "docstrings": [
+        "* service works with categories: add, remove, get\n *"
+    ],
+    "functions": [
+        "getCategoriesList",
+        "addNew"
+    ],
+    "classes": [
+        "CategoriesService"
+    ]
+}

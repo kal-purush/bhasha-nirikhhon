@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "pickle",
+        "compat",
+        "string_types",
+        "utils",
+        "import_attribute",
+        "serializer",
+        "serializer",
+        "pickle",
+        "isinstance",
+        "serializer",
+        "string_types",
+        "import_attribute",
+        "serializer",
+        "instance_method",
+        "default_serializer_methods",
+        "hasattr",
+        "serializer",
+        "instance_method",
+        "NotImplementedError",
+        "serializer"
+    ],
+    "literals": [
+        "'dumps'",
+        "'loads'",
+        "'Serializer should have (dumps, loads) methods.'"
+    ],
+    "variables": [
+        "serializer",
+        "default_serializer_methods"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"This function checks the user defined serializer for ('dumps', 'loads') methods\n    It returns a default pickle serializer if not found else it returns a MySerializer\n    The returned serializer objects implement ('dumps', 'loads') methods\n    Also accepts a string path to serializer that will be loaded as the serializer\n    \"\"\""
+    ],
+    "functions": [
+        "resolve_serializer"
+    ],
+    "classes": []
+}

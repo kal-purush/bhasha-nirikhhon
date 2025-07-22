@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "fs",
+        "jsonc",
+        "vscode",
+        "Storage",
+        "message",
+        "message",
+        "vscode",
+        "vscode",
+        "storage",
+        "settingsContent",
+        "fs",
+        "storage",
+        "ex",
+        "jsonc",
+        "settingsContent",
+        "fs",
+        "storage",
+        "jsonc",
+        "settingsContent",
+        "edits",
+        "vscode",
+        "storage",
+        "vscode",
+        "SelfSignedCertificateError",
+        "SelfSignedCertificateError",
+        "SelfSignedCertificateError",
+        "value",
+        "SelfSignedCertificateError",
+        "value",
+        "SelfSignedCertificateError",
+        "storage"
+    ],
+    "literals": [
+        "\"fs/promises\"",
+        "\"jsonc-parser\"",
+        "\"vscode\"",
+        "\"./storage\"",
+        "\"Your Coder deployment is using a self-signed certificate. VS Code uses a version of Electron that does not support registering self-signed intermediate certificates with extensions.\"",
+        "\"Allow Insecure\"",
+        "\"View More Details\"",
+        "string",
+        "Your Coder deployment is using a self-signed certificate: ${message}",
+        "\"https://github.com/coder/vscode-coder/issues/105\"",
+        "\"{}\"",
+        "\"utf8\"",
+        "\"coder.insecure\"",
+        "'The Coder extension will no longer verify TLS on HTTPS requests. You can change this at any time with the \"coder.insecure\" property in your VS Code settings.'"
+    ],
+    "variables": [
+        "settingsContent",
+        "edits",
+        "value"
+    ],
+    "comments": [
+        "allowInsecure manually reads the settings file and updates the value of the",
+        "\"coder.insecure\" property.",
+        "Ignore! It's probably because the file doesn't exist."
+    ],
+    "docstrings": [],
+    "functions": [
+        "viewMoreDetails",
+        "allowInsecure",
+        "showInsecureNotification"
+    ],
+    "classes": [
+        "SelfSignedCertificateError"
+    ]
+}

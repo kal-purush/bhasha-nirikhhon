@@ -1,0 +1,20 @@
+{
+    "identifiers": [
+        "value",
+        "value",
+        "value"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Binary Tree (二叉树)\n * \n * 二叉树 计算每层最多有个几个元素\n * \n * Level 0: 2^0 = 1;\n * Level 1: 2^1 = 2;\n * Level 2: 2^2 = 4;\n * Level 3: 2^3 = 8;\n * ....\n * Level N: nodes = 2^n;\n * Tree Total Nodes = 2^H-1 (h 是树的深度)\n * \n * Binary Search Tree Big O 探索\n * 假设一颗树有100个元素，高为h，则 2^h=100, 因此： \n * lookup O(log N)\n * insert O(log N)\n * delete O(log N)\n * 二叉搜索树非常适合比较，比 hash table 更好。\n * \n * 什么是平衡二叉查找树？为什么说不平衡的搜索树是坏的？\n * 想象一个当一个二叉树总是往左边添加元素，那么就会变成链表，CRUD 效率变成 O(n)\n * \n *"
+    ],
+    "functions": [
+        "insert"
+    ],
+    "classes": [
+        "Node",
+        "BinarySearchTree"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "http",
+        "server",
+        "http",
+        "server",
+        "SimpleHTTPRequestHandler",
+        "send_cache_headers",
+        "http",
+        "server",
+        "SimpleHTTPRequestHandler",
+        "end_headers",
+        "send_header",
+        "send_header",
+        "send_header",
+        "http",
+        "server",
+        "test",
+        "HandlerClass",
+        "NoCacheHTTPHandler"
+    ],
+    "literals": [
+        "\"Cache-Control\"",
+        "\"no-cache, no-store, must-revalidate\"",
+        "\"Pragma\"",
+        "\"no-cache\"",
+        "\"Expires\"",
+        "\"0\"",
+        "'__main__'"
+    ],
+    "variables": [],
+    "comments": [
+        "Simple wrapper for http.server",
+        "to switch off caching for users",
+        "",
+        "Matt Rudge",
+        "20th April, 2023"
+    ],
+    "docstrings": [
+        "\"\"\"\n        Overrides default end_headers method\n        \"\"\"",
+        "\"\"\"\n        New method to send cache control headers\n        \"\"\""
+    ],
+    "functions": [
+        "end_headers",
+        "send_cache_headers"
+    ],
+    "classes": [
+        "NoCacheHTTPHandler"
+    ]
+}

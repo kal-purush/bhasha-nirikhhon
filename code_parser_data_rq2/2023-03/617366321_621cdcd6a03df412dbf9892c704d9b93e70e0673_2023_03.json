@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "mlpMinimapBlock",
+        "imageBlock",
+        "imageCanvas",
+        "imageCanvasCtx",
+        "crosshairBlock",
+        "settingsBlock",
+        "mlpMinimapBlock",
+        "imageBlock",
+        "imageCanvas",
+        "imageCanvasCtx",
+        "crosshairBlock",
+        "settingsBlock",
+        "htmlObject",
+        "htmlBlock",
+        "htmlObject",
+        "htmlObject",
+        "mlpMinimapBlock",
+        "imageCanvas",
+        "mlpMinimapBlock",
+        "mlpMinimapBlock",
+        "imageBlock",
+        "imageCanvas",
+        "imageCanvas",
+        "imageCanvasCtx",
+        "imageCanvas",
+        "imageCanvas",
+        "imageCanvasCtx",
+        "MinimapUI",
+        "mlpMinimapBlock",
+        "imageBlock",
+        "imageCanvas",
+        "imageCanvasCtx",
+        "crosshairBlock",
+        "settingsBlock"
+    ],
+    "literals": [
+        "<style>\nmlpminimap {\n  display: block;\n  color: white;\n  width: 400px;\n  height: 300px;\n  position: absolute;\n  top: 0%;\n  right: 0%;\n  background-color: rgba(0,0,0,.75);\n  border: 1px solid black;\n  overflow: hidden;\n}\n\nmlpminimap .map {\n  position: absolute;\n  margin: 0;\n  max-width: unset;\n  display: block;\n  image-rendering: pixelated;\n  pointer-events: none;\n}\n\nmlpminimap .crosshair {\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  border: 2px solid red;\n  transform: translateX(-50%) translateY(-50%);\n}\n\nmlpminimap #resizer {\n  position: absolute;\n  bottom: 0%;\n  left: 0%;\n  width: 0px;\n  height: 0px;\n  border-bottom: 10px solid red;\n  border-left: 10px solid red;\n  border-top: 10px solid transparent;\n  border-right: 10px solid transparent;\n}\n\nmlpminimap .settings {\n  position: absolute;\n  background-color: rgba(0,0,0,.75);\n}\n\nmlpminimap .settings > div{\n  display: none;\n}\n\nmlpminimap .settings > .alwaysshow{\n  display: block;\n}\n\nmlpminimap:hover .settings > div{\n  display: block;\n}\n\nmlpminimap .settings .clickable {\n  cursor: pointer;\n  user-select: none;\n}\n\nmlpminimap #noSleep {\ndisplay: none;\n}\n</style>\n<mlpminimap>\n  <img class=\"map\">\n  <div class=\"crosshair\"></div>\n  <div class=\"settings\"></div>\n  <div id=\"resizer\"></div>\n  <audio id=\"noSleep\" src=\"https://hot-potato.reddit.com/media/interactions/select-color.mp3\" playsinline></audio>\n</mlpminimap>",
+        "\"div\"",
+        "\"body\"",
+        "\"mlpminimap\"",
+        "\".map\"",
+        "\"canvas\"",
+        "\"2d\"",
+        "\".crosshair\"",
+        "\".settings\"",
+        "'load'"
+    ],
+    "variables": [
+        "htmlBlock",
+        "htmlObject",
+        "mlpMinimapBlock",
+        "imageBlock",
+        "imageCanvas",
+        "imageCanvasCtx",
+        "crosshairBlock",
+        "settingsBlock"
+    ],
+    "comments": [],
+    "docstrings": [
+        "*\n * Part of the MLP r/place Project, under the Apache License v2.0 or ISC.\n * SPDX-License-Identifier: Apache-2.0 OR ISC\n * SPDX-FileCopyrightText: Copyright CONTRIBUTORS.md\n *\n **\n *\n * @file Inject the minimap UI.\n *\n *"
+    ],
+    "functions": [
+        "createMinimapUI"
+    ],
+    "classes": [
+        "MinimapUI"
+    ]
+}

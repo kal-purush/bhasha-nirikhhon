@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "city",
+        "$",
+        "queryURL",
+        "response",
+        "cityId",
+        "result",
+        "$",
+        "result",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$"
+    ],
+    "literals": [
+        "\"#submit\"",
+        "\"#city\"",
+        "\"e5d47731dc26eefda896c92eb148db5f\"",
+        "\"https://api.openweathermap.org/data/2.5/weather?q=\"",
+        "\"&appid=e5d47731dc26eefda896c92eb148db5f\"",
+        "\"GET\"",
+        "\"api.openweathermap.org/data/2.5/weather?q={cityId}&appid={apiKey}&units=imperial\"",
+        "\"#current\"",
+        "\"\"",
+        "\"#current\"",
+        "\"<div class='heading'><h1>${result.city.name} (${getDate(0)})</h1>\"",
+        "\"#current\"",
+        "\"<p class='temperature'>Tempurature: ${result.list[0].main.temp} °F</p>\"",
+        "\"#current\"",
+        "\"<p class='humidity'>Humidity: ${result.list[0].man.humidity} %</p>\"",
+        "\"#current\"",
+        "\"<p class='windSpeed'>Wind Speed: ${mph(result.list[0].wind.speed)} MPH</p>\""
+    ],
+    "variables": [
+        "city",
+        "apiKey",
+        "queryURL"
+    ],
+    "comments": [
+        "event listener for search button",
+        "ajax call to search for city"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

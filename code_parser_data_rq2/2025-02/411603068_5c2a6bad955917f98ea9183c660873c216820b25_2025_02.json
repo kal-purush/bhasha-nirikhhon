@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "uk",
+        "gov",
+        "hmcts",
+        "reform",
+        "hmc",
+        "config",
+        "lombok",
+        "Getter",
+        "lombok",
+        "Setter",
+        "org",
+        "springframework",
+        "boot",
+        "context",
+        "properties",
+        "ConfigurationProperties",
+        "org",
+        "springframework",
+        "stereotype",
+        "Component",
+        "org",
+        "springframework",
+        "web",
+        "context",
+        "annotation",
+        "RequestScope",
+        "org",
+        "apache",
+        "commons",
+        "lang3",
+        "StringUtils",
+        "isBlank",
+        "Getter",
+        "Setter",
+        "Component",
+        "ConfigurationProperties",
+        "prefix",
+        "RequestScope",
+        "clientName",
+        "urlHeaderName",
+        "host",
+        "actualHost",
+        "Override",
+        "isBlank",
+        "actualHost",
+        "host",
+        "actualHost"
+    ],
+    "literals": [
+        "\"ccd.data-store\""
+    ],
+    "variables": [
+        "clientName",
+        "urlHeaderName",
+        "host",
+        "actualHost"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This class is responsible for managing the URL of the Data Store API.\n * It is used to set the URL of the Data Store API and then retrieve it.",
+        "* Header name that should be used to get the URL of the Data Store API.",
+        "* Default URL of the Data Store API set via application properties.\n     * This should not be modified at runtime. Changing at runtime would change\n     * URL for all incoming requests that do not pass the URL via header.",
+        "* Actual host of the Data Store API that should be used for the current request."
+    ],
+    "functions": [
+        "getActualHost"
+    ],
+    "classes": [
+        "DataStoreUrlManager"
+    ]
+}

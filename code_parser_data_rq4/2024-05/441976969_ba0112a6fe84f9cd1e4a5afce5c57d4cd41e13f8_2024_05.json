@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "axios",
+        "z",
+        "z",
+        "z",
+        "z",
+        "query",
+        "abortController",
+        "encodeURIComponent",
+        "query",
+        "axios",
+        "url",
+        "abortController",
+        "searchResultsCodec",
+        "res",
+        "parsedRes",
+        "parsedRes",
+        "item",
+        "item",
+        "items",
+        "query",
+        "items",
+        "itemsWithQuery",
+        "phrase",
+        "encodeURIComponent",
+        "phrase",
+        "phrase"
+    ],
+    "literals": [
+        "\"axios\"",
+        "\"zod\"",
+        "'web-search'",
+        "string",
+        "string",
+        "string",
+        "https://duckduckgo.com/ac/?kl=wt-wt&q=${encodeURIComponent(query)}",
+        "https://duckduckgo.com/?q=${encodeURIComponent(phrase)}",
+        "'web-search'"
+    ],
+    "variables": [
+        "searchResultsCodec",
+        "url",
+        "res",
+        "parsedRes",
+        "items",
+        "itemsWithQuery"
+    ],
+    "comments": [
+        "Remove duplicates and add the query itself",
+        "First 4 items are the most relevant including the query itself",
+        "ddg search url"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchBrowserSuggestionsDDG"
+    ],
+    "classes": []
+}

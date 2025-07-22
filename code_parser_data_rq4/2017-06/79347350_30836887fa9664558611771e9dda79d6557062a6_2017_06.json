@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Injectable",
+        "ToastController",
+        "AlertController",
+        "LoggerService",
+        "Injectable",
+        "toastCtrl",
+        "alertCtrl",
+        "logger",
+        "message",
+        "duration",
+        "position",
+        "message",
+        "duration",
+        "position",
+        "toast"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'rxjs/add/operator/map'",
+        "'ionic-angular'",
+        "\"../log/logger.service\""
+    ],
+    "variables": [
+        "toast"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @constructor\n   * @param toastCtrl ToastController Service provided by Ionic-Angular\n   * @param alertCtrl AlertController Service provided by Ionic-Angular\n   * @param logger Logger Service",
+        "* @description Function to show Ionic Toast\n   * @param {string} message message to be displayed"
+    ],
+    "functions": [
+        "displayToast"
+    ],
+    "classes": [
+        "MessageService"
+    ]
+}

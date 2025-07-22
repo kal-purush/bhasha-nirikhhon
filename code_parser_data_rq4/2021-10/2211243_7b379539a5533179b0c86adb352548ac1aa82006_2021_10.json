@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "org",
+        "apache",
+        "kafka",
+        "common",
+        "security",
+        "oauthbearer",
+        "secured",
+        "java",
+        "io",
+        "Closeable",
+        "java",
+        "io",
+        "AccessTokenRetriever"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "This method left intentionally blank."
+    ],
+    "docstrings": [
+        "* Licensed to the Apache Software Foundation (ASF) under one or more\n * contributor license agreements. See the NOTICE file distributed with\n * this work for additional information regarding copyright ownership.\n * The ASF licenses this file to You under the Apache License, Version 2.0\n * (the \"License\"); you may not use this file except in compliance with\n * the License. You may obtain a copy of the License at\n *\n *    http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* An <code>AccessTokenRetriever</code> is the internal API by which the login module will\n * retrieve an access token for use in authorization by the broker. The implementation may\n * involve authentication to a remote system, or it can be as simple as loading the contents\n * of a file or configuration setting.\n *\n * <i>Retrieval</i> is a separate concern from <i>validation</i>, so it isn't necessary for\n * the <code>AccessTokenRetriever</code> implementation to validate the integrity of the JWT\n * access token.\n *\n * @see HttpAccessTokenRetriever\n * @see FileTokenRetriever",
+        "* Retrieves a JWT access token in its serialized three-part form. The implementation\n     * is free to determine how it should be retrieved but should not perform validation\n     * on the result.\n     *\n     * <b>Note</b>: This is a blocking function and callers should be aware that the\n     * implementation may be communicating over a network, with the file system, coordinating\n     * threads, etc. The facility in the {@link javax.security.auth.spi.LoginModule} from\n     * which this is ultimately called does not provide an asynchronous approach.\n     *\n     * @return Non-<code>null</code> JWT access token string\n     *\n     * @throws IOException Thrown on errors related to IO during retrieval",
+        "* Lifecycle method to perform a clean shutdown of the retriever. This must\n     * be performed by the caller to ensure the correct state, freeing up and releasing any\n     * resources performed in {@link #init()}.\n     *\n     * @throws IOException Thrown on errors related to IO during closure"
+    ],
+    "functions": [
+        "retrieve",
+        "close"
+    ],
+    "classes": []
+}

@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "com",
+        "netflix",
+        "iceberg",
+        "APPEND",
+        "REPLACE",
+        "OVERWRITE",
+        "DELETE"
+    ],
+    "literals": [
+        "\"append\"",
+        "\"replace\"",
+        "\"overwrite\"",
+        "\"delete\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Licensed to the Apache Software Foundation (ASF) under one\n * or more contributor license agreements.  See the NOTICE file\n * distributed with this work for additional information\n * regarding copyright ownership.  The ASF licenses this file\n * to you under the Apache License, Version 2.0 (the\n * \"License\"); you may not use this file except in compliance\n * with the License.  You may obtain a copy of the License at\n *\n *   http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing,\n * software distributed under the License is distributed on an\n * \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n * KIND, either express or implied.  See the License for the\n * specific language governing permissions and limitations\n * under the License.",
+        "* Data operations that produce snapshots.\n * <p>\n * A snapshot can return the operation that created the snapshot to help other components ignore\n * snapshots that are not needed for some tasks. For example, snapshot expiration does not need to\n * clean up deleted files for appends, which have no deleted files.",
+        "* New data is appended to the table and no data is removed or deleted.\n   * <p>\n   * This operation is implemented by {@link AppendFiles}.",
+        "* Files are removed and replaced, without changing the data in the table.\n   * <p>\n   * This operation is implemented by {@link RewriteFiles}.",
+        "* New data is added to overwrite existing data.\n   * <p>\n   * This operation is implemented by {@link OverwriteFiles} and {@link ReplacePartitions}.",
+        "* Data is deleted from the table and no data is added.\n   * <p>\n   * This operation is implemented by {@link DeleteFiles}."
+    ],
+    "functions": [
+        "DataOperations"
+    ],
+    "classes": [
+        "DataOperations"
+    ]
+}

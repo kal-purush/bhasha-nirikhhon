@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "os",
+        "path",
+        "sonic_psu",
+        "psu_base",
+        "PsuBase",
+        "ImportError",
+        "e",
+        "ImportError",
+        "e",
+        "PsuBase",
+        "PsuBase",
+        "index",
+        "index",
+        "open",
+        "psu_path",
+        "format",
+        "index",
+        "Base_bus_number",
+        "psu_oper_status",
+        "power_status",
+        "power_status",
+        "read",
+        "IOError",
+        "status",
+        "index",
+        "index",
+        "os",
+        "popen",
+        "psu_presence",
+        "format",
+        "index",
+        "Base_bus_number",
+        "p",
+        "readline",
+        "p",
+        "close",
+        "IOError",
+        "status"
+    ],
+    "literals": [
+        "\"- required module not found\"",
+        "\"/sys/bus/i2c/devices/{}-0058/\"",
+        "\"in1_input\"",
+        "\"i2cget -y {} 0x50 0x00\"",
+        "'r'",
+        "\"> /dev/null 2>&1\""
+    ],
+    "variables": [
+        "psu_path",
+        "psu_oper_status",
+        "psu_presence",
+        "Base_bus_number",
+        "status",
+        "status",
+        "Base_bus_number",
+        "status",
+        "p",
+        "status"
+    ],
+    "comments": [
+        "index from 1, psu attribute bus from 40"
+    ],
+    "docstrings": [
+        "\"\"\"Platform-specific PSUutil class\"\"\"",
+        "\"\"\"\n        Retrieves the number of PSUs available on the device\n\n        :return: An integer, the number of PSUs available on the device\n        \"\"\""
+    ],
+    "functions": [
+        "get_num_psus",
+        "get_psu_status",
+        "get_psu_presence"
+    ],
+    "classes": [
+        "PsuUtil"
+    ]
+}

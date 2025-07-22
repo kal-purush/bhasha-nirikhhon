@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "ppp",
+        "a",
+        "b",
+        "a",
+        "b",
+        "ppp",
+        "message",
+        "foo",
+        "second",
+        "logFirst",
+        "first",
+        "logFirst",
+        "ang",
+        "ppp"
+    ],
+    "literals": [
+        "\"hi\"",
+        "\"bye\"",
+        "\"Bar\"",
+        "\"A\"",
+        "\"B\"",
+        "\"C\"",
+        "\"Ang\"",
+        "\"Lee\"",
+        "\"John\"",
+        "\"Smith\"",
+        "${ ppp(1, 400) }"
+    ],
+    "variables": [
+        "ppp",
+        "message",
+        "message",
+        "second",
+        "people",
+        "ang",
+        "people",
+        "logFirst"
+    ],
+    "comments": [
+        "Destructuring Assignment",
+        "",
+        "var lasts = [for ({last} of people) last];",
+        "console.log(lasts);",
+        "",
+        "var nums = [1, 2, 3];",
+        "var letters = [\"a\", \"b\", \"c\"];",
+        "console.log([for (num of nums) for (letter of letters) num + letter]);",
+        "console.log([for (num of nums) [ for (letter of letters) num + letter] ]);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "APSIM",
+        "Shared",
+        "Utilities",
+        "Drawing",
+        "Image",
+        "image",
+        "targetWidth",
+        "targetHeight",
+        "Min",
+        "targetWidth",
+        "image",
+        "Width",
+        "targetHeight",
+        "image",
+        "Height",
+        "image",
+        "Width",
+        "scale",
+        "image",
+        "Height",
+        "scale",
+        "Rectangle",
+        "targetWidth",
+        "scaleWidth",
+        "targetHeight",
+        "scaleHeight",
+        "scaleWidth",
+        "scaleHeight",
+        "Bitmap",
+        "targetWidth",
+        "targetHeight",
+        "Graphics",
+        "FromImage",
+        "scaledImage",
+        "graph",
+        "DrawImage",
+        "image",
+        "scaleRectangle",
+        "scaledImage"
+    ],
+    "literals": [],
+    "variables": [
+        "scale",
+        "scaleWidth",
+        "scaleHeight",
+        "scaleRectangle",
+        "Bitmap",
+        "scaledImage",
+        "graph"
+    ],
+    "comments": [
+        "-----------------------------------------------------------------------",
+        "<copyright file=\"ImageUtilities.cs\" company=\"APSIM Initiative\">",
+        "Copyright (c) APSIM Initiative",
+        "</copyright>",
+        "-----------------------------------------------------------------------",
+        "Colour utility class",
+        "</summary>",
+        "Resize the specified image, returning a new one. Will keep the",
+        "aspect ratio.",
+        "</summary>",
+        "<param name=\"image\">The image to resize.</param>",
+        "<param name=\"targetWidth\">The width to aim for when rescaling.</param>",
+        "<param name=\"targetHeight\">The height to aim for when rescaling.</param>",
+        "Determine scaling.",
+        "Create a scaled image."
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Image",
+        "ResizeImage"
+    ],
+    "classes": [
+        "ImageUtilities"
+    ]
+}

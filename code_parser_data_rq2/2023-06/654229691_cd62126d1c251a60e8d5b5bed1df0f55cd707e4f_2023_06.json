@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "idPessoa",
+        "nome",
+        "email",
+        "idPessoa",
+        "nome",
+        "email",
+        "email",
+        "informarDadosPessoais",
+        "informarDadosPessoais",
+        "mensagem",
+        "usuarioId",
+        "horaLog",
+        "mensagem",
+        "usuarioId",
+        "mensagemLog",
+        "mensagemLog"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "'idFuncionario...:  '",
+        "'Nome... : '",
+        "'Email... : '",
+        "'Iagatha'",
+        "'Eliza'",
+        "'eliza@gmail.com'",
+        "string",
+        "'Usuario não conectado'",
+        "'Atualizar Página'",
+        "'Usuário logado com sucesso'"
+    ],
+    "variables": [
+        "horaLog"
+    ],
+    "comments": [
+        "exemplo 2",
+        "exemplo 3",
+        "type Pessoa = {\n    idFuncionario : number;\n    nome : string;\n    idade ?: number;\n    email ?: string;\n};\n\nlet pessoa : Pessoa;\n\npessoa = {\n    idFuncionario : 112233,\n    nome : 'Iagatha'\n};"
+    ],
+    "docstrings": [],
+    "functions": [
+        "informarDadosPessoais",
+        "mensagemLog"
+    ],
+    "classes": []
+}

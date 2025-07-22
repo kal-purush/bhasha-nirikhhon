@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "formData",
+        "formData",
+        "formData",
+        "formData",
+        "bookId",
+        "content",
+        "author",
+        "content",
+        "author",
+        "bookId",
+        "fetch",
+        "process",
+        "response",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "\"use server\"",
+        "\"bookId\"",
+        "\"content\"",
+        "\"author\"",
+        "${process.env.NEXT_PUBLIC_API_SERVER_URL}/review",
+        "\"POST\""
+    ],
+    "variables": [
+        "bookId",
+        "content",
+        "author",
+        "response"
+    ],
+    "comments": [
+        "예외 처리"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createReviewAction"
+    ],
+    "classes": []
+}

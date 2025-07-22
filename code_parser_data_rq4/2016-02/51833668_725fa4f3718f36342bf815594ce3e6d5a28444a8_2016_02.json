@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "bootstrap",
+        "HTTP_PROVIDERS",
+        "TodoList",
+        "TodoSettings",
+        "bootstrap",
+        "TodoList",
+        "TodoSettings",
+        "HTTP_PROVIDERS"
+    ],
+    "literals": [
+        "'angular2/platform/browser'",
+        "'angular2/http'",
+        "'./todolist/todolist'",
+        "'./services/todo_settings'"
+    ],
+    "variables": [],
+    "comments": [
+        "we import Angular's bootstrap function as we need to start the angular app by",
+        "triggering bootstrap function",
+        "importing HTTP PROVIDERS form angular http library and passing them globally in our app",
+        "import the root component as we need to start the app with the root component",
+        "import the service we had created for storing web service configurations",
+        "we pass the service in the bootstrap function as we need to access this service throughout",
+        "this is the starting point of our app, we are bootstrapping the angular function, starting",
+        "with the rootcomponent TodoList, also we pass directives and classes we need globally in our app",
+        "as a second argument to the bootstrap function"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

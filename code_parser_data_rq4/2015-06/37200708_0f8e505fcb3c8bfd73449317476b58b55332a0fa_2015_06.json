@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Args",
+        "_",
+        "feign",
+        "baseUrl",
+        "requestObj",
+        "baseUrl",
+        "requestObj",
+        "feign",
+        "baseUrl",
+        "request",
+        "feignClient",
+        "proxyFactory",
+        "requestInterceptor",
+        "apiDescription",
+        "baseUrl",
+        "builder",
+        "feign",
+        "description",
+        "description",
+        "options",
+        "client",
+        "interceptors",
+        "request",
+        "pathParameters",
+        "baseUrl",
+        "callArguments",
+        "request"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "Args",
+        "_",
+        "uriTemplate",
+        "cbProxyFactory",
+        "promiseProxyFactory"
+    ],
+    "comments": [
+        "<reference path=\"../src/lib/feign.d.ts\" />"
+    ],
+    "docstrings": [
+        "* a proxyfactory is a function taking the configured baseUrl and Wrapper-object\n     * and return a function which will end up in the rest-client-object, defining the api and\n     * behaviour of the feign-created client.",
+        "* the fluent builder interface for feign-clients",
+        "* set a client to be used for making http-requests",
+        "* sets the proxy factory to be used.\n         * This will normaly be initiated by builder() itself, so\n         * you dont normaly have to call this except if you want to\n         * extend its behaviour",
+        "* adds a request interceptor that will be called just before handing the\n         * request to the registered FeignClient",
+        "* sets the baseUrl and apiDescription with which the\n         * client should be generated\n         *\n         * @return the generated client-object",
+        "* creates a feign-builder to build up a rest-client.\n     * parameters can be given named as object or unnamed\n     *\n     * @param {boolean} promise promise or callback api-style"
+    ],
+    "functions": [],
+    "classes": [
+        "Wrapper"
+    ]
+}

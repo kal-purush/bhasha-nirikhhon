@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "io",
+        "PIL",
+        "Image",
+        "select",
+        "v4l2capture",
+        "base_camera",
+        "BaseCamera",
+        "BaseCamera",
+        "staticmethod",
+        "v4l2capture",
+        "Video_device",
+        "Camera",
+        "video_source",
+        "video",
+        "set_format",
+        "size_x",
+        "size_y",
+        "video",
+        "create_buffers",
+        "video",
+        "queue_all_buffers",
+        "video",
+        "start",
+        "io",
+        "BytesIO",
+        "select",
+        "select",
+        "video",
+        "video",
+        "read_and_queue",
+        "Image",
+        "frombytes",
+        "size_x",
+        "size_y",
+        "image_data",
+        "image",
+        "save",
+        "bio",
+        "format",
+        "bio",
+        "getvalue",
+        "bio",
+        "seek",
+        "bio",
+        "truncate",
+        "video",
+        "close"
+    ],
+    "literals": [
+        "\"/dev/video0\"",
+        "\"RGB\"",
+        "\"jpeg\""
+    ],
+    "variables": [
+        "video_source",
+        "video",
+        "size_x",
+        "size_y",
+        "size_x",
+        "size_y",
+        "bio",
+        "image_data",
+        "image"
+    ],
+    "comments": [
+        "Suggest an image size. The device may choose and return another if unsupported",
+        "Wait for the device to fill the buffer."
+    ],
+    "docstrings": [
+        "\"\"\"Requires python-v4l2capture module: https://github.com/gebart/python-v4l2capture\"\"\""
+    ],
+    "functions": [
+        "frames"
+    ],
+    "classes": [
+        "Camera"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "PolymerElement",
+        "html",
+        "ArcComponents",
+        "PolymerElement",
+        "html",
+        "e",
+        "e",
+        "e",
+        "e",
+        "selected",
+        "selected",
+        "selected",
+        "selected",
+        "value",
+        "CustomEvent",
+        "e",
+        "e",
+        "EnvironmentSelector",
+        "EnvironmentSelector"
+    ],
+    "literals": [
+        "'../../@polymer/polymer/polymer-element.js'",
+        "'../../@polymer/paper-item/paper-item.js'",
+        "'../../@polymer/paper-dropdown-menu/paper-dropdown-menu.js'",
+        "'../../@polymer/paper-listbox/paper-listbox.js'",
+        "'../../variables-consumer-mixin/variables-consumer-mixin.js'",
+        "'../../@polymer/polymer/lib/utils/html-tag.js'",
+        "<style>\n    :host {\n      display: block;\n      @apply --environment-selector;\n    }\n    </style>\n    <paper-dropdown-menu label=\"Environment\" no-label-float=\"[[noLabelFloat]]\" dynamic-align=\"\">\n      <paper-listbox slot=\"dropdown-content\" selected=\"{{selected}}\" attr-for-selected=\"value\">\n        <paper-item value=\"default\">Default</paper-item>\n        <template is=\"dom-repeat\" items=\"[[environments]]\" id=\"envRepeater\">\n          <paper-item value\\$=\"[[item.name]]\">[[item.name]]</paper-item>\n        </template>\n      </paper-listbox>\n    </paper-dropdown-menu>",
+        "'environment-selector'",
+        "'_environmentChanged'",
+        "'selected-environment-changed'",
+        "'selected-environment-changed'",
+        "'selected'",
+        "'selected'",
+        "'selected-environment-changed'"
+    ],
+    "variables": [
+        "e"
+    ],
+    "comments": [
+        "@license\nCopyright 2016 The Advanced REST client authors <arc@mulesoft.com>\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not\nuse this file except in compliance with the License. You may obtain a copy of\nthe License at\nhttp://www.apache.org/licenses/LICENSE-2.0\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS, WITHOUT\nWARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the\nLicense for the specific language governing permissions and limitations under\nthe License.",
+        "the change has been caused by the external source"
+    ],
+    "docstrings": [
+        "* An element to select current variables environment.\n *\n * Renders a material design dropdown with list of available environments.\n * It always render environment **Default** (value `default`).\n *\n * ### Example\n *\n * ```html\n * <environment-selector></environment-selector>\n * ```\n *\n * ```javascript\n * document.queryElement('environment-selector')\n * .addEventListener('selected-environment-changed', (e) => {\n *    console.log(e.detail.value); // Selected environment\n * });\n * ```\n *\n * ### Styling\n *\n * `<environment-selector>` provides the following custom properties and mixins for styling:\n *\n * Custom property | Description | Default\n * ----------------|-------------|----------\n * `--environment-selector` | Mixin applied to the element | `{}`\n *\n * Use variables for `paper-dropdown-menu`, `paper-listbox` and `paper-item`\n * to style the control.\n *\n * @polymer\n * @customElement\n * @memberof UiElements\n * @demo demo/index.html\n * @appliesMixin ArcComponents.VariablesConsumerMixin",
+        "* Set to make selector's label dissapear after selection has been made.",
+        "* Selected environment.",
+        "* Handler for the `selected-environment-changed` event.\n   * @param {CustomEvent} e",
+        "* Handler for the `selected` property change\n   * @param {String} selected",
+        "* Dispatches `selected-environment-changed` custom event\n   * @param {String} value New value\n   * @return {CustomEvent} Dispatched event",
+        "* Fired when selected environment changed.\n   *\n   * @event selected-environment-changed\n   * @param {String} value Name of selected environment."
+    ],
+    "functions": [
+        "template",
+        "properties",
+        "connectedCallback",
+        "disconnectedCallback",
+        "_envChangedHandler",
+        "_environmentChanged",
+        "_dispatchChange"
+    ],
+    "classes": [
+        "EnvironmentSelector"
+    ]
+}

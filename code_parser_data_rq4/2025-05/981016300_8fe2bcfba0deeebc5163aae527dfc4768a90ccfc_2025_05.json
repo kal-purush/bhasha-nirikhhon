@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "useState",
+        "useState",
+        "useState",
+        "useState",
+        "useState",
+        "resetTransactionState",
+        "setTxConfirmed",
+        "setTxHash",
+        "setSuccess",
+        "setError"
+    ],
+    "literals": [
+        "\"react\"",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "txConfirmed",
+        "setTxConfirmed",
+        "txHash",
+        "setTxHash",
+        "success",
+        "setSuccess",
+        "error",
+        "setError",
+        "resetTransactionState"
+    ],
+    "comments": [
+        "Hook for managing transaction state at the component level",
+        "Reset all transaction state"
+    ],
+    "docstrings": [],
+    "functions": [
+        "useComponentTransactionState"
+    ],
+    "classes": []
+}

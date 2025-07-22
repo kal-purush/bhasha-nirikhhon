@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "require",
+        "mongoose",
+        "mongoose",
+        "db",
+        "db",
+        "db"
+    ],
+    "literals": [
+        "'mongoose'",
+        "'mongodb://localhost/quora-clone'",
+        "'error'",
+        "'error connecting to Mongo DB'",
+        "'open'",
+        "'connected to database :: MongoDB'"
+    ],
+    "variables": [
+        "mongoose",
+        "db"
+    ],
+    "comments": [
+        "user: uttam",
+        "pass:Uttam1234",
+        "const url = 'mongodb+srv://uttam:Uttam1234@cluster0.l3wuu.mongodb.net/?retryWrites=true&w=majority';",
+        "module.exports.connect = () => {",
+        "mongoose",
+        ".connect(url, {",
+        "useNewUrlParser: true,",
+        "useUnifiedTopology: true,",
+        "})",
+        ".then(() => {",
+        "console.log('MongoDB Connected Successfully');",
+        "})",
+        ".catch((error) => console.log('Error:', error));",
+        "};",
+        "const database = (module.exports = () => {",
+        "const connectionParams = {",
+        "useNewUrlParser: true,",
+        "useUnifiedTopology: true,",
+        "};",
+        "try {",
+        "mongoose.connect(url);",
+        "console.log('MongoDB is connected');",
+        "} catch (error) {",
+        "console.log(error);",
+        "console.log('connection failed!! please check your connection');",
+        "}",
+        "});",
+        "database();",
+        "module.exports = database;"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

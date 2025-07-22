@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "device",
+        "Device",
+        "Device",
+        "key",
+        "send",
+        "key",
+        "key",
+        "send",
+        "key",
+        "command",
+        "frequency",
+        "frequency",
+        "send",
+        "frequency",
+        "command"
+    ],
+    "literals": [
+        "\"miIO.ir_learn\"",
+        "'key'",
+        "\"miIO.ir_read\"",
+        "'key'",
+        "\"miIO.ir_play\"",
+        "'freq'",
+        "'code'"
+    ],
+    "variables": [
+        "frequency"
+    ],
+    "comments": [
+        "The key is a storage slot. The value must be between 1 and 1000000"
+    ],
+    "docstrings": [
+        "\"\"\"Main class representing Chuangmi IR Remote Controller.\"\"\"",
+        "\"\"\"Learn a infrared command.\"\"\"",
+        "\"\"\"Read a learned command.\"\"\"",
+        "\"\"\"Play a captured command.\"\"\""
+    ],
+    "functions": [
+        "learn",
+        "read",
+        "play"
+    ],
+    "classes": [
+        "ChuangmiIr"
+    ]
+}

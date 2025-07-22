@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "address",
+        "encodeURI",
+        "address",
+        "fetch",
+        "addressURI",
+        "GLOBAL_API_KEY",
+        "response",
+        "response",
+        "data",
+        "data",
+        "data",
+        "data",
+        "coordinates"
+    ],
+    "literals": [
+        "'AIzaSyAOZYe-b1-WzNvMSyleHk8AUGUUI6id5Pk'",
+        "https://maps.googleapis.com/maps/api/geocode/json?address=${addressURI}&key=${GLOBAL_API_KEY}",
+        "'Failed to catch coordinates. Please try again'"
+    ],
+    "variables": [
+        "GLOBAL_API_KEY",
+        "addressURI",
+        "response",
+        "data",
+        "coordinates"
+    ],
+    "comments": [
+        "<--utility methods for address handling -->",
+        "included in the browser, converts address into readable coordinates",
+        "Or use Axios",
+        "parses it into javascript readable language",
+        "if the error_message property of response exists it means there's an error",
+        "the coordinates are in the first element of the results array which is an object. Inside that object we find the coordinates nested inside the locaiton object which is nested inside the geometry object"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getCoordsFromAddress"
+    ],
+    "classes": []
+}

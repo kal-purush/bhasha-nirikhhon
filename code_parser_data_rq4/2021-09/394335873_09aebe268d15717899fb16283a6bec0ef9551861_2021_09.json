@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "SupportedChainId",
+        "chainId",
+        "SupportedChainId",
+        "SupportedChainId",
+        "SupportedChainId",
+        "SupportedChainId",
+        "SupportedChainId",
+        "chainId",
+        "data",
+        "chainId",
+        "SupportedChainId",
+        "data",
+        "chainId",
+        "SupportedChainId",
+        "data",
+        "chainId",
+        "SupportedChainId",
+        "data",
+        "ETHERSCAN_NETWORKS",
+        "chainId",
+        "prefix",
+        "data"
+    ],
+    "literals": [
+        "'../constants/networks'",
+        "string",
+        "''",
+        "'ropsten.'",
+        "'rinkeby.'",
+        "'goerli.'",
+        "'kovan.'",
+        "string",
+        "string",
+        "https://rinkeby-explorer.arbitrum.io/tx/${data}",
+        "https://polygonscan.com/tx/${data}",
+        "https://mumbai.polygonscan.com/tx/${data}",
+        "https://${ETHERSCAN_NETWORKS[chainId] ?? ''}etherscan.io",
+        "''",
+        "${prefix}/tx/${data}"
+    ],
+    "variables": [
+        "ETHERSCAN_NETWORKS",
+        "prefix"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "explorerLink"
+    ],
+    "classes": []
+}

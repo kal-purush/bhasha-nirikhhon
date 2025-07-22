@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "valueA",
+        "valueB",
+        "valueA",
+        "valueB",
+        "weight",
+        "pointA",
+        "pointB",
+        "pointC",
+        "pointD",
+        "pointA",
+        "pointB",
+        "pointC",
+        "pointD"
+    ],
+    "literals": [],
+    "variables": [
+        "weight"
+    ],
+    "comments": [
+        "Weighted inverted",
+        "const lerpWeight: number = (valueA + valueB + 2) / 4; // Weighted",
+        "const lerpWeight = 0.5; // Centered"
+    ],
+    "docstrings": [
+        "* Calculate the lerp weight between two points by comparing each points value.\n *\n * @export\n * @param {number} valueA\n * @param {number} valueB\n * @returns {number}",
+        "* Calculate the marching square segment based on the values of the four points. The values passed to this function should be either 0 or 1;\n *\n * @export\n * @param {number} pointA\n * @param {number} pointB\n * @param {number} pointC\n * @param {number} pointD\n * @returns {number}"
+    ],
+    "functions": [
+        "lerpWeight",
+        "calculateSegment"
+    ],
+    "classes": []
+}

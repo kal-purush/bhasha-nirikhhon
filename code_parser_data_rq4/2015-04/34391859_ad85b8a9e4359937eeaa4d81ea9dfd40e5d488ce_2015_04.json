@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "android",
+        "bluetoothlegatt",
+        "android",
+        "content",
+        "BroadcastReceiver",
+        "android",
+        "content",
+        "Context",
+        "android",
+        "content",
+        "Intent",
+        "android",
+        "util",
+        "Log",
+        "TAG",
+        "mDeviceAddress",
+        "mDevicePassword",
+        "deviceAddress",
+        "devicePassword",
+        "deviceAddress",
+        "mDeviceAddress",
+        "deviceAddress",
+        "Log",
+        "w",
+        "TAG",
+        "devicePassword",
+        "length",
+        "mDevicePassword",
+        "devicePassword",
+        "Log",
+        "w",
+        "TAG",
+        "Override",
+        "context",
+        "intent",
+        "service",
+        "context",
+        "service",
+        "putExtra",
+        "mDeviceAddress",
+        "service",
+        "putExtra",
+        "mDevicePassword",
+        "context",
+        "startService",
+        "service"
+    ],
+    "literals": [
+        "\"NOTIFICATION RECEIVER\"",
+        "\"ERROR: device address is null!\"",
+        "\"ERROR: password length is not 8!\"",
+        "\"DEVICE_ADDRESS\"",
+        "\"DEVICE_PASSWORD\""
+    ],
+    "variables": [
+        "mDeviceAddress",
+        "mDevicePassword"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* 这个接收器需要在程序内动态注册，并调用它的构造器来初始化\n *具体代码如下：\n\n //先声明\n private NotificationReceiver mNotificationReceiver;\n //在地址和密码都确定了的时候创建一个接收器实例并注册。请注意构造器的参数类型，地址是内容为标准地址格式的String类型，密码是长度为8的byte数组\n mNotificationReceiver = new NotificationReceiver(mDeviceAddress, mDevicePassword);\n private static IntentFilter mIntentFilter(){\n final IntentFilter intentFilter = new IntentFilter();\n intentFilter.addAction(\"android.intent.action.PHONE_STATE\");\n intentFilter.addAction(\"android.provider.Telephony.SMS_RECEIVED\");\n return intentFilter;\n }\n registerReceiver(mNotificationReceiver, mIntentFilter);\n //别忘了在结束的时候注销接收器\n unregisterReceiver(mNotificationReceiver);"
+    ],
+    "functions": [
+        "NotificationReceiver",
+        "onReceive"
+    ],
+    "classes": [
+        "NotificationReceiver"
+    ]
+}

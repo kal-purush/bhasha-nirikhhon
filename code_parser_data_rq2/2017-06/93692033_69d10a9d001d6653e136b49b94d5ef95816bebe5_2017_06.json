@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "require",
+        "__dirname",
+        "path",
+        "__dirname"
+    ],
+    "literals": [
+        "'path'",
+        "'./js/ClientApp.jsx'",
+        "'cheap-eval-source-maps'",
+        "'public'",
+        "'bundle.js'",
+        "'.js'",
+        "'.jsx'",
+        "'.json'",
+        "'babel-loader'"
+    ],
+    "variables": [
+        "path"
+    ],
+    "comments": [
+        "running this from our root directory always (__dirname is a Node global variable that refers to the root directory)",
+        "this is the front door to the project",
+        "inline source maps (which allow us to see pre-bundled code in errors) into bundled code",
+        "always output to 'public/bundle.js'",
+        "the order of resolution that Webpack will try different file extensions before it finds the correct one",
+        "things we want reported back to us when building",
+        "colors!",
+        "more useful error output",
+        "tells you about code being broken up into chunks",
+        "array of rules that Webpack will use to apply different loaders (e.g. Babel loader) to the code",
+        "Regex that says extension for a file must be .js and possibly x (i.e. .js and .jsx) in order to be run through the loader below",
+        "the loader we want to run code through"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

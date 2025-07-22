@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "net",
+        "blerf",
+        "ftl",
+        "parser",
+        "sectormap",
+        "java",
+        "awt",
+        "Point",
+        "throbTicks",
+        "x",
+        "y",
+        "n",
+        "throbTicks",
+        "n",
+        "throbTicks",
+        "newX",
+        "newY",
+        "x",
+        "newX",
+        "y",
+        "newY",
+        "x",
+        "y"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Beacon values FTL would generate at runtime.\n *\n * FTL populates these values based on the sector layout seed. They are not\n * serialized into a BeaconState.\n *\n * When FTL generates a map, it iterates over a rectangular grid, randomly\n * skipping spaces. When it loads a savedgame's list of BeaconStates, they are\n * associated with the nth.",
+        "* Sets time elapsed while the beacon's 'under attack' throbber oscillates.\n\t *\n\t * This counts from 0 (normal) to 1000 (glowing) to 2000 (gone again).\n\t *\n\t * FTL randomly generates this, and it's never actually saved.\n\t *\n\t * @see SavedGameParser.BeaconState#setUnderAttack(boolean)",
+        "* Sets the pixel location of this slot.\n\t *\n\t * This offset is from a point within the sector map window. There's no\n\t * good landmark, but for a Windows 1286x745 screenshot (with titlebar),\n\t * the origin is at (389, 146) just below the 'B' and 'E' of \"Beacon Map\".\n\t * FTL caps Y values at 415.\n\t *\n\t * The overall dimensions of the sector map, from that origin to the\n\t * inside of bottom/left borders of the popup, is 700x488.\n\t *\n\t * FTL randomly generates this, and it's never actually saved."
+    ],
+    "functions": [
+        "setThrobTicks",
+        "getThrobTicks",
+        "setLocation",
+        "Point",
+        "getLocation"
+    ],
+    "classes": [
+        "GeneratedBeacon"
+    ]
+}

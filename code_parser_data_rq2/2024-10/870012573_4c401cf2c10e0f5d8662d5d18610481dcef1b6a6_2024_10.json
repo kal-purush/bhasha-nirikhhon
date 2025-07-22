@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "asyncio",
+        "collections",
+        "deque",
+        "max_batch_size",
+        "asyncio",
+        "max_batch_size",
+        "request",
+        "asyncio",
+        "Future",
+        "queue",
+        "put",
+        "request",
+        "future",
+        "future",
+        "queue",
+        "empty",
+        "len",
+        "batch",
+        "max_batch_size",
+        "queue",
+        "empty",
+        "queue",
+        "get",
+        "batch",
+        "append",
+        "request",
+        "future",
+        "batch",
+        "prompt",
+        "max_length",
+        "prompt",
+        "max_length",
+        "asyncio",
+        "Future",
+        "result",
+        "future",
+        "set_result",
+        "result"
+    ],
+    "literals": [],
+    "variables": [
+        "queue",
+        "max_batch_size",
+        "future",
+        "batch",
+        "request",
+        "future",
+        "prompt",
+        "max_length",
+        "future"
+    ],
+    "comments": [
+        "Create a future for this request",
+        "Add the request and its future to the queue",
+        "Return the future, which will be resolved when the result is ready",
+        "Collect requests until we reach max_batch_size or the queue is empty",
+        "Resolve the future with the generation result"
+    ],
+    "docstrings": [],
+    "functions": [
+        "add_request",
+        "get_batch",
+        "set_result"
+    ],
+    "classes": [
+        "RequestQueue",
+        "Request"
+    ]
+}

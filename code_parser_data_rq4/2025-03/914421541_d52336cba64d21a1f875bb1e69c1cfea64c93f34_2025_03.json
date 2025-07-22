@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "CarsStorage",
+        "DAL",
+        "Entities",
+        "CarsStorage",
+        "Abstractions",
+        "DAL",
+        "Repositories",
+        "IDbStatesRepository",
+        "value"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Интерфейс для репозитория состояний (конфигураций) БД.",
+        "</summary>",
+        "Метод возвращает булево значение, проводятся ли технические работы в настоящий момент.",
+        "</summary>",
+        "<returns>Возвращает true, если проводятся технические работы.</returns>",
+        "Метод для изменения состояния БД.",
+        "</summary>",
+        "<param name=\"dbStateEntity\">Объект состояния БД.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IsUnderMaintenance",
+        "Update"
+    ],
+    "classes": []
+}

@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "ga",
+        "rugal",
+        "jpt",
+        "core",
+        "service",
+        "java",
+        "io",
+        "java",
+        "nio",
+        "ByteBuffer",
+        "javax",
+        "servlet",
+        "http",
+        "HttpServletResponse",
+        "TrackerResponseService",
+        "response",
+        "buffer"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*\n * @author Rugal Bernstein",
+        "* Write buffer into HTTP response object.\n     * <p>\n     * For better code reusability, use this small method to wrap buffer writing.\n     * <p>\n     * @param response\n     * @param buffer\n     *                 <p>\n     * @throws java.io.IOException when unable to write byte\n     *                             into response channel."
+    ],
+    "functions": [
+        "writeResponseBuffer"
+    ],
+    "classes": []
+}

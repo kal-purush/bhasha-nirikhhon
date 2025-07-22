@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "ch",
+        "cern",
+        "dbod",
+        "ui",
+        "controller",
+        "org",
+        "zkoss",
+        "zk",
+        "ui",
+        "ext",
+        "AfterCompose",
+        "org",
+        "zkoss",
+        "zul",
+        "Override",
+        "user_help",
+        "getFellowIfAny",
+        "admin_help",
+        "getFellowIfAny",
+        "user_help",
+        "user_help",
+        "setSrc",
+        "admin_help",
+        "admin_help",
+        "setSrc"
+    ],
+    "literals": [
+        "\"user_help\"",
+        "\"admin_help\"",
+        "\"https://dbod-user-guide.web.cern.ch/dbod-user-guide\"",
+        "\"https://dbod-admin-guide.web.cern.ch/dbod-admin-guide\""
+    ],
+    "variables": [],
+    "comments": [
+        "Set the address of help documentation, for users and administrators."
+    ],
+    "docstrings": [
+        "* Copyright (C) 2015, CERN\n * This software is distributed under the terms of the GNU General Public\n * Licence version 3 (GPL Version 3), copied verbatim in the file \"LICENSE\".\n * In applying this license, CERN does not waive the privileges and immunities\n * granted to it by virtue of its status as Intergovernmental Organization\n * or submit itself to any jurisdiction.",
+        "* Controller for the help view.\n * @author Jose Andres Cordero Benitez",
+        "* Method executed after composing the page. Sets the model of the grid\n     * with the instances obtained before composing."
+    ],
+    "functions": [
+        "afterCompose"
+    ],
+    "classes": [
+        "HelpController"
+    ]
+}

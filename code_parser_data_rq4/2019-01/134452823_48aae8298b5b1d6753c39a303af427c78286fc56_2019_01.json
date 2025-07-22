@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "ChoiceField",
+        "SettingsSectionItem",
+        "ChoiceField",
+        "Option",
+        "Option",
+        "field",
+        "field"
+    ],
+    "literals": [
+        "'lib/public_api'",
+        "'lib/public_api'",
+        "'Demo settings'",
+        "'Theming'",
+        "'Theme'",
+        "'value'",
+        "'Material'",
+        "'material'",
+        "'Minimal'",
+        "'minimal'",
+        "'material'"
+    ],
+    "variables": [
+        "field"
+    ],
+    "comments": [
+        "At present the settings values are stored directly on the fields",
+        "at the 'value' property. This line initializes this setting to the",
+        "Material theme",
+        "TODO Do this in a less hacky way - potentially by allowing specification",
+        "of a default or initial value in the field options"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getThemePickerField"
+    ],
+    "classes": [
+        "DemoSettings"
+    ]
+}

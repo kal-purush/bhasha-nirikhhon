@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "WebserviceClient",
+        "WebserviceClient",
+        "userAgent",
+        "userAgent",
+        "artistName",
+        "songName",
+        "encodeURIComponent",
+        "artistName",
+        "encodeURIComponent",
+        "songName",
+        "url",
+        "data",
+        "data",
+        "data",
+        "url"
+    ],
+    "literals": [
+        "'../../../utils/webservice-client'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "https://api.lyrics.ovh/v1/${encodeURIComponent(artistName)}/${encodeURIComponent(songName)}"
+    ],
+    "variables": [
+        "url",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "search"
+    ],
+    "classes": [
+        "LyricsOVHClient"
+    ]
+}

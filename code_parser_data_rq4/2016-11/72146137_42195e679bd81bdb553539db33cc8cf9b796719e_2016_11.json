@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "CodeStash3",
+        "BLL",
+        "Web",
+        "Script",
+        "Serialization",
+        "IO",
+        "CodeStash3",
+        "DAL",
+        "Properties",
+        "CodeStash3",
+        "DAL",
+        "ISnippetRepository",
+        "Settings",
+        "Default",
+        "jsonDB",
+        "Snippet",
+        "File",
+        "ReadAllText",
+        "dbFileName",
+        "Snippet",
+        "JavaScriptSerializer",
+        "Deserialize",
+        "Snippet",
+        "snippetStr",
+        "snippets",
+        "Snippet",
+        "snippets",
+        "JavaScriptSerializer",
+        "Serialize",
+        "snippets",
+        "File",
+        "WriteAllText",
+        "dbFileName",
+        "json"
+    ],
+    "literals": [],
+    "variables": [
+        "dbFileName",
+        "snippetStr",
+        "snippets",
+        "json"
+    ],
+    "comments": [
+        "GetSnippet(int id)",
+        "DeleteSnippet(int id)",
+        "DeleteSnippet(Snippet snippet);",
+        "SaveSnippet(Snippet snippet); //create if not exists; or update if exists"
+    ],
+    "docstrings": [],
+    "functions": [
+        "GetAllSnippets",
+        "UpdateAllSnippets"
+    ],
+    "classes": [
+        "JsonSnippetRepository"
+    ]
+}

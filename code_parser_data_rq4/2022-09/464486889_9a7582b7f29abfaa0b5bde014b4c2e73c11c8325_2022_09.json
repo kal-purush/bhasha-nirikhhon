@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "parsedEndpoint",
+        "AccountConfig",
+        "AccountModel",
+        "deleteData",
+        "postData",
+        "AccountModel",
+        "createPayload",
+        "onSuccess",
+        "args",
+        "args",
+        "onError",
+        "args",
+        "args",
+        "parsedEndpoint",
+        "AccountConfig",
+        "createPayload",
+        "postData",
+        "createEndpoint",
+        "response",
+        "onSuccess",
+        "response",
+        "error",
+        "error",
+        "onError",
+        "error",
+        "deletePayload",
+        "onSuccess",
+        "args",
+        "args",
+        "onError",
+        "args",
+        "args",
+        "parsedEndpoint",
+        "AccountConfig",
+        "deletePayload",
+        "deleteData",
+        "createEndpoint",
+        "Account"
+    ],
+    "literals": [
+        "'../util'",
+        "'../utils/config'",
+        "'../utils/models'",
+        "'../utils/restApiWrapper'",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "createEndpoint",
+        "createEndpoint"
+    ],
+    "comments": [
+        "Approach 1, avoids callback hell, no promises returned (inline functions + callbacks)",
+        "throw custom exceptions if required/necessary from here, before calling onSuccess",
+        "Approach 2, returns promise, need to .then() on it in the react pages, handle exceptions on react side"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getAttributes",
+        "createAttribute",
+        "deleteAttribute",
+        "getScopes",
+        "createScope",
+        "getParameters",
+        "updateParameter",
+        "create",
+        "listAll",
+        "getLocalLimit",
+        "getGlobalLimit",
+        "createIdentity",
+        "getIdentities",
+        "deleteIdentity",
+        "listRules",
+        "getUsageHistory",
+        "getLocalUsage",
+        "getGlobalUsage"
+    ],
+    "classes": [
+        "Account"
+    ]
+}

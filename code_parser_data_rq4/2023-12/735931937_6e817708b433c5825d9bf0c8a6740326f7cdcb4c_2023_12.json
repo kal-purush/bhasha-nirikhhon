@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "os",
+        "os",
+        "path",
+        "dirname",
+        "os",
+        "path",
+        "abspath",
+        "os",
+        "path",
+        "join",
+        "script_directory",
+        "target_database"
+    ],
+    "literals": [
+        "\"root\"",
+        "\"\"",
+        "\"localhost\"",
+        "\"3306\"",
+        "'swiss_banking'",
+        "\"currency_exchange_rates\"",
+        "\"https://data.snb.ch/api/cube/devkua/data/csv/en\"",
+        "f\"sqlite:///{os.path.join(script_directory, f'{target_database}.db')}\"",
+        "f'{target_database}.db'"
+    ],
+    "variables": [
+        "default_user_name",
+        "default_password",
+        "default_host",
+        "default_port",
+        "target_database",
+        "table_name",
+        "csv_url",
+        "script_directory",
+        "sqlite_database_url"
+    ],
+    "comments": [
+        "Configure the connection parameters as needed",
+        "Configure mySQL database and table names",
+        "Configure the URL for the CSV data",
+        "SQLite database url"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "styled",
+        "theme",
+        "styled",
+        "width",
+        "theme",
+        "theme",
+        "styled",
+        "theme",
+        "theme",
+        "error",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'styles/theme'",
+        "string",
+        "display: flex;\n\tflex-direction: column;\n\tgap: 8px;\n\t${({ width }) => (width ? '' : 'flex-grow: 1;')};\n\t.error {\n\t\tcolor: ${theme.PALETTE.error};\n\t\tfont-size: ${theme.FONT_SIZE.small};\n\t}",
+        "''",
+        "'flex-grow: 1;'",
+        "string",
+        "padding: 0 16px;\n\theight: 45px;\n\tline-height: 45px;\n\tfont-size: ${theme.FONT_SIZE.large};\n\tcolor: ${theme.PALETTE.fblack};\n\tborder: 1px solid\n\t\t${({ error }) => (error ? theme.PALETTE.error : theme.PALETTE.gray[500])};\n\tbox-sizing: border-box;\n\t&::placeholder {\n\t\tcolor: #ccc;\n\t}"
+    ],
+    "variables": [
+        "StyledInputBox",
+        "StyledInput"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Component",
+        "Type",
+        "Renderer",
+        "ElementRef",
+        "SEMANTIC_COMPONENTS",
+        "SEMANTIC_DIRECTIVES",
+        "CodeblockComponent",
+        "PrismJsDirective",
+        "ContextMenuService",
+        "IContextMenu",
+        "Component",
+        "SEMANTIC_COMPONENTS",
+        "SEMANTIC_DIRECTIVES",
+        "CodeblockComponent",
+        "PrismJsDirective",
+        "renderer",
+        "elementRef",
+        "contextmenu",
+        "renderer",
+        "location",
+        "location",
+        "jQuery"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"ng-semantic\"",
+        "\"../../prismjs/prismjs\"",
+        "\"../../services/contextmenu\"",
+        "\"sm-page-contextmenu\"",
+        "<div class=\"ui masthead vertical segment\">\n        <div class=\"ui container\">\n            <h1>Conextmenu</h1>\n            <p>Based on Semantic UI Dropdown module <i class=\"icon external\"></i>\n            <a href=\"http://semantic-ui.com/modules/dropdown.html\" target=\"_blank\">Semantic UI Dropdown</a></p>\n        </div>\n    </div>\n    <div class=\"main ui container\">\n    \n        <p>To activate contextmenu, press right click anywhere on the page.</p>\n        \n        <sm-modal selector=\"modal\" title=\"Simple modal\" class=\"\">\n            You activated it trough context menu!\n        </sm-modal>\n        \n        <sm-contextmenu [position]=\"menuPosition\" [items]=\"menuItems\"></sm-contextmenu>\n    </div>",
+        "\"body\"",
+        "\"contextmenu\"",
+        "\"/#/elements/accordion\"",
+        "\"home\"",
+        "\"Go to Accordion Page\"",
+        "\"refresh\"",
+        "\"Refresh window\"",
+        "\".ui.modal.modal\"",
+        "\"toggle\"",
+        "\"browser\"",
+        "\"Open modal Window\""
+    ],
+    "variables": [
+        "jQuery"
+    ],
+    "comments": [
+        "disable showing browser context menu"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "ContextmenuComponent"
+    ]
+}

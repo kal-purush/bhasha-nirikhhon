@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "imaginaryquadraticinteger",
+        "AlgebraicInteger"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* To change this license header, choose License Headers in Project Properties.\n * To change this template file, choose Tools | Templates\n * and open the template in the editor.",
+        "*\n * @author Alonso del Arte",
+        "* Gives the algebraic degree of the algebraic integer\n     * @return 0 if the algebraic integer is 0, a positive integer for any other algebraic integer",
+        "* Gives the trace of the algebraic integer\n     * @return Trace",
+        "* Gives the norm of the algebraic integer, useful for comparing\n     * @return",
+        "* Gives the coefficients for the minimal polynomial of the algebraic integer\n     * @return An array of integers, in total one more than the algebraic degree"
+    ],
+    "functions": [
+        "algebraicDegree",
+        "trace",
+        "norm",
+        "minPolynomial"
+    ],
+    "classes": []
+}

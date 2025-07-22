@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "denomIds",
+        "denomIds",
+        "denom",
+        "denom",
+        "data"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "'GetNftModelsForUrls'",
+        "query GetNftModelsForUrls {\n                nft_nft(where: {\n                    denom_id: {_in: [${this.denomIds.map((denom) => `\"${denom}\"`).join(',')}]},\n                    burned: {_eq: false}\n                  },\n                  distinct_on: denom_id\n                ) {\n                    uri\n                    denom_id\n                  }\n              }",
+        "\"${denom}\"",
+        "','",
+        "'POST'"
+    ],
+    "variables": [
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "buildRequest"
+    ],
+    "classes": [
+        "NftModelsForUrlsReq"
+    ]
+}

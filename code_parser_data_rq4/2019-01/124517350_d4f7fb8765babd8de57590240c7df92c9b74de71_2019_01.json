@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "org",
+        "wso2",
+        "carbon",
+        "identity",
+        "oauth2",
+        "org",
+        "wso2",
+        "carbon",
+        "identity",
+        "oauth2",
+        "dto",
+        "OAuth2IntrospectionResponseDTO",
+        "org",
+        "wso2",
+        "carbon",
+        "identity",
+        "oauth2",
+        "dto",
+        "OAuth2TokenValidationRequestDTO",
+        "java",
+        "util",
+        "IntrospectionDataProvider",
+        "oAuth2TokenValidationRequestDTO",
+        "oAuth2IntrospectionResponseDTO"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2019, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* This extension is to provide additional information for introspection response.",
+        "* Provide additional data for OAuth token introspection.\n     *\n     * @param oAuth2TokenValidationRequestDTO Token validation request DTO.\n     * @param oAuth2IntrospectionResponseDTO Token introspection response DTO.\n     * @return Map of additional data to be added to the introspection response.\n     * @throws IdentityOAuth2Exception If an error occurs while setting additional introspection data."
+    ],
+    "functions": [
+        "getIntrospectionData"
+    ],
+    "classes": []
+}

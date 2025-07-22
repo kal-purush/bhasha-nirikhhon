@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "require",
+        "os",
+        "cpus",
+        "i",
+        "len",
+        "i",
+        "cpus",
+        "i",
+        "cpu",
+        "totalTick",
+        "cpu",
+        "totalIdle",
+        "cpu",
+        "totalIdle",
+        "cpus",
+        "totalTick",
+        "cpus",
+        "cpuAverage",
+        "setTimeout",
+        "cpuAverage",
+        "endMeasure",
+        "startMeasure",
+        "endMeasure",
+        "startMeasure",
+        "idleDifference",
+        "totalDifference",
+        "percentageCPU"
+    ],
+    "literals": [
+        "\"os\"",
+        "\"% CPU Usage.\""
+    ],
+    "variables": [
+        "os",
+        "totalIdle",
+        "totalTick",
+        "cpus",
+        "i",
+        "len",
+        "cpu",
+        "startMeasure",
+        "endMeasure",
+        "idleDifference",
+        "totalDifference",
+        "percentageCPU"
+    ],
+    "comments": [
+        "Create function to get CPU information",
+        "Initialise sum of idle and time of cores and fetch CPU info",
+        "Loop through CPU cores",
+        "Select CPU core",
+        "Total up the time in the cores tick",
+        "Total up the idle time of the core",
+        "Return the average Idle and Tick times",
+        "Grab first CPU Measure",
+        "Set delay for second Measure",
+        "Grab second Measure",
+        "Calculate the difference in idle and total time between the measures",
+        "Calculate the average percentage CPU usage",
+        "Output result to console"
+    ],
+    "docstrings": [],
+    "functions": [
+        "cpuAverage"
+    ],
+    "classes": []
+}

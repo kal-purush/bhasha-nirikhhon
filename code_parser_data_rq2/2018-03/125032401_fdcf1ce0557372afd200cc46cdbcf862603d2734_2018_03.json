@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "ProvenanceGraph",
+        "IView",
+        "d3",
+        "vega",
+        "Spec",
+        "d3",
+        "vega",
+        "name",
+        "value",
+        "name",
+        "value",
+        "parent",
+        "graph",
+        "spec",
+        "d3",
+        "parent",
+        "vega",
+        "vega",
+        "vega",
+        "vegaView",
+        "vegaView",
+        "vegaView",
+        "vegaView",
+        "signal",
+        "vegaView",
+        "signal",
+        "vegaView",
+        "signal",
+        "vegaView",
+        "signal"
+    ],
+    "literals": [
+        "'phovea_core/src/provenance/ProvenanceGraph'",
+        "'../AppWrapper'",
+        "'d3'",
+        "'vega-lib'",
+        "'vega-lib'",
+        "'div'",
+        "'vega-view'",
+        "'svg'"
+    ],
+    "variables": [
+        "vegaView",
+        "vegaView"
+    ],
+    "comments": [
+        "cast to <any>, because `getState()` is not available in 'vega-typings'",
+        "set renderer (canvas or svg)",
+        "initialize view within parent DOM container",
+        "enable hover encode set processing"
+    ],
+    "docstrings": [],
+    "functions": [
+        "init",
+        "remove",
+        "addSignalListener",
+        "removeSignalListener"
+    ],
+    "classes": [
+        "VegaView"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "ParsedEvent",
+        "StreamingMessage",
+        "parsedEvent",
+        "data",
+        "data",
+        "response",
+        "response",
+        "contentType",
+        "contentType",
+        "response",
+        "errorMessage",
+        "json",
+        "json",
+        "json",
+        "json",
+        "json",
+        "response",
+        "errorMessage",
+        "bodyText",
+        "errorMessage"
+    ],
+    "literals": [
+        "\"eventsource-parser\"",
+        "\"./types.js\"",
+        "\"Expected SSE message to include a data payload\"",
+        "\"content-type\"",
+        "string",
+        "\"application/json\"",
+        "\"object\"",
+        "\"message\"",
+        "An error occurred: ${json}",
+        "\"An unknown error occurred\""
+    ],
+    "variables": [
+        "parsedEvent",
+        "contentType",
+        "errorMessage",
+        "json",
+        "bodyText"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "extractMessageFromParsedEvent",
+        "handleResponseError"
+    ],
+    "classes": []
+}

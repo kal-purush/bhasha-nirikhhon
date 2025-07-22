@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "EnterpriseLayers",
+        "Contract",
+        "DataAccess",
+        "EnterpriseLayers",
+        "Model",
+        "Domain",
+        "Collections",
+        "Generic",
+        "Data",
+        "Entity",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "EnterpriseLayers",
+        "Data",
+        "Context",
+        "DbContext",
+        "Database",
+        "Log",
+        "Diagnostics",
+        "Debug",
+        "WriteLine",
+        "s",
+        "DbSet",
+        "Person",
+        "DbSet",
+        "Customer",
+        "DbSet",
+        "SalesOrderDetail",
+        "DbSet",
+        "SalesOrderHeader",
+        "DbSet",
+        "ContactType",
+        "DbSet",
+        "ProductModel",
+        "DbSet",
+        "Illustration",
+        "DbSet",
+        "ProductModelIllustration"
+    ],
+    "literals": [
+        "\"name=EnterpriseLayersData\""
+    ],
+    "variables": [
+        "Person",
+        "Customer",
+        "SalesOrderDetail",
+        "SalesOrderHeader",
+        "ContactType",
+        "ProductModels",
+        "Illustration",
+        "ProductModelIllustrations"
+    ],
+    "comments": [
+        "print EF sql output",
+        "EventLog.Log($\"DbContext created. Status: {Database.Connection.State}\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "MySqlEFContext"
+    ],
+    "classes": [
+        "MySqlEFContext"
+    ]
+}

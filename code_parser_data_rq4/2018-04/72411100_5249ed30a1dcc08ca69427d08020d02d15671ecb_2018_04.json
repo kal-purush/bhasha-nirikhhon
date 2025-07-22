@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "Component",
+        "GroupedListComponent",
+        "volumeTypeNames",
+        "Component",
+        "GroupedListComponent",
+        "group1",
+        "group2",
+        "group1",
+        "volumeTypeNames",
+        "group1",
+        "volumeTypeNames",
+        "group1",
+        "group2"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../../shared/components/grouped-list/grouped-list.component'",
+        "'../../shared/models'",
+        "'cs-volume-grouped-list'",
+        "<ng-container *ngFor=\"let child of tree\">\n      <div class=\"grouped-section\" *ngIf=\"child.name; else leaf\">\n        <h4>{{ child.name | translate }}</h4>\n        <cs-volume-grouped-list\n          [component]=\"component\"\n          [groupings]=\"groupings\"\n          [level]=\"level + 1\"\n          [list]=\"child.items\"\n          [dynamicInputs]=\"dynamicInputs\"\n          [dynamicOutputs]=\"dynamicOutputs\"\n        ></cs-volume-grouped-list>\n      </div>\n      <ng-template #leaf>\n        <mat-list>\n          <ndc-dynamic\n            *ngFor=\"let item of child.items\"\n            [ndcDynamicComponent]=\"component\"\n            [ndcDynamicInputs]=\"leafInputs(item)\"\n            [ndcDynamicOutputs]=\"dynamicOutputs\"\n          ></ndc-dynamic>\n        </mat-list>\n      </ng-template>\n    </ng-container>",
+        "'../../shared/components/grouped-list/grouped-list.component.scss'",
+        "'ROOT'",
+        "'DATADISK'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "sortGroups"
+    ],
+    "classes": [
+        "VolumeGroupedListComponent"
+    ]
+}

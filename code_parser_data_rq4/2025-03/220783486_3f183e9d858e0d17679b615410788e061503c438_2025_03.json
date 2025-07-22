@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "io",
+        "github",
+        "mfvanek",
+        "pg",
+        "core",
+        "fixtures",
+        "support",
+        "statements",
+        "java",
+        "util",
+        "javax",
+        "annotation",
+        "Nonnull",
+        "Nonnull",
+        "Override",
+        "of"
+    ],
+    "literals": [
+        "\"create table if not exists {schemaName}.dict(\"",
+        "\"ref_type int not null primary key,\"",
+        "\"description text\"",
+        "\");\"",
+        "\"create table if not exists {schemaName}.t1(\"",
+        "\"ref_value varchar(64) not null,\"",
+        "\"ref_type bigserial not null references {schemaName}.dict(ref_type),\"",
+        "\"creation_date timestamp with time zone not null,\"",
+        "\"entity_id varchar(64) not null,\"",
+        "\"primary key(ref_value, ref_type, creation_date, entity_id)\"",
+        "\") partition by range (creation_date);\"",
+        "\"create table if not exists {schemaName}.t1_default \"",
+        "\"partition of {schemaName}.t1 default;\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2019-2025. Ivan Vakhrushev and others.\n * https://github.com/mfvanek/pg-index-health\n *\n * This file is a part of \"pg-index-health\" - a Java library for\n * analyzing and maintaining indexes health in PostgreSQL databases.\n *\n * Licensed under the Apache License 2.0"
+    ],
+    "functions": [
+        "getSqlToExecute"
+    ],
+    "classes": [
+        "CreatePartitionedTableWithSerialAndForeignKeysStatement"
+    ]
+}

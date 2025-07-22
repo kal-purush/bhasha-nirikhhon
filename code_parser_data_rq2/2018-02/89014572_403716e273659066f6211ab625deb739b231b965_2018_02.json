@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "logger",
+        "Action",
+        "Context",
+        "ITContext",
+        "context",
+        "resolve",
+        "reject",
+        "context",
+        "itContext",
+        "itContext",
+        "itContext",
+        "itContext",
+        "logger",
+        "itContext",
+        "logger",
+        "resolve",
+        "context",
+        "context",
+        "logger",
+        "context"
+    ],
+    "literals": [
+        "\"winston\"",
+        "\"../src/Action\"",
+        "\"../src/Context\"",
+        "\"./ITContext\"",
+        "\"Eat\"",
+        "Eating. Hunger now ${itContext.hunger}",
+        "Already saited.  Waiting instead.",
+        "\"Terminated EatAction\""
+    ],
+    "variables": [
+        "itContext"
+    ],
+    "comments": [
+        "less hunger per tick for eating",
+        "TODO - invoke the wait action"
+    ],
+    "docstrings": [],
+    "functions": [
+        "execute",
+        "terminated"
+    ],
+    "classes": [
+        "EatAction"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "org",
+        "monarchinitiative",
+        "vmvt",
+        "core",
+        "svg",
+        "fontprofile",
+        "VERTICAL_SCALING_FACTOR",
+        "LOGO_COLUMN_HEIGHT",
+        "VARIANT_BOX_SCALING_FACTOR",
+        "Override",
+        "VERTICAL_SCALING_FACTOR",
+        "Override",
+        "LOGO_COLUMN_HEIGHT",
+        "Override",
+        "Override",
+        "VARIANT_BOX_SCALING_FACTOR"
+    ],
+    "literals": [
+        "\"courier, monospace\""
+    ],
+    "variables": [],
+    "comments": [
+        "1.14;"
+    ],
+    "docstrings": [
+        "* Courier is a classic monospace font that is available on most systems\n * @author Peter N Robinson",
+        "This is a magic number that places the letters in the correct vertical position. Works with {@link #LOGO_COLUMN_HEIGHT}.",
+        "Maximum height of the letters in the sequence logo. Needs to be adjusted together with {@link #VERTICAL_SCALING_FACTOR}.",
+        "and need a factor to calculate the proper height of the grey box surroundiing variant positions."
+    ],
+    "functions": [
+        "verticalScalingFactor",
+        "logoColumnHeight",
+        "fonts",
+        "variantBoxScalingFactor"
+    ],
+    "classes": [
+        "CourierProfile"
+    ]
+}

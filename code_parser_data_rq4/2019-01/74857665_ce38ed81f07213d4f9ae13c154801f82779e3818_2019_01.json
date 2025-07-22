@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "CefSharp",
+        "IApp",
+        "CefCustomScheme",
+        "IBrowserProcessHandler",
+        "browserProcessHandler",
+        "CefCustomScheme",
+        "schemes",
+        "BrowserProcessHandler",
+        "browserProcessHandler",
+        "Schemes",
+        "schemes",
+        "IApp",
+        "ISchemeRegistrar",
+        "registrar",
+        "OnRegisterCustomSchemes",
+        "registrar",
+        "ISchemeRegistrar",
+        "registrar",
+        "scheme",
+        "Schemes",
+        "scheme",
+        "SchemeName",
+        "scheme",
+        "SchemeName",
+        "registrar",
+        "AddCustomScheme",
+        "scheme",
+        "SchemeName",
+        "scheme",
+        "IsStandard",
+        "scheme",
+        "IsLocal",
+        "scheme",
+        "IsDisplayIsolated",
+        "scheme",
+        "IsSecure",
+        "scheme",
+        "IsCorsEnabled",
+        "scheme",
+        "IsCSPBypassing",
+        "success",
+        "scheme",
+        "SchemeName"
+    ],
+    "literals": [
+        "\"http\"",
+        "\"https\"",
+        "\"CefSchemeRegistrar::AddCustomScheme failed for schemeName:\""
+    ],
+    "variables": [
+        "IBrowserProcessHandler",
+        "BrowserProcessHandler",
+        "Schemes",
+        "success",
+        "msg"
+    ],
+    "comments": [
+        "Copyright © 2019 The CefSharp Authors. All rights reserved.",
+        "",
+        "Use of this source code is governed by a BSD-style license that can be found in the LICENSE file.",
+        "Default implementation of <see cref=\"IApp\"/> which represents the CefApp class",
+        "</summary>",
+        "We don't need to register http or https, they're built in schemes",
+        "TODO: Log error",
+        "LOG(ERROR) << StringUtils::ToNative(msg).ToString();"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "DefaultApp",
+        "OnRegisterCustomSchemes",
+        "OnRegisterCustomSchemes"
+    ],
+    "classes": [
+        "DefaultApp"
+    ]
+}

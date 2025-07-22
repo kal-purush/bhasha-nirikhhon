@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "IO",
+        "TICalcLibrary"
+    ],
+    "literals": [],
+    "variables": [
+        "TypeOffset",
+        "Type",
+        "CommentOffset",
+        "Comment",
+        "DataLengthOffset",
+        "DataLength",
+        "NameOffset",
+        "Name",
+        "DataOffset",
+        "Data",
+        "ProtectedFlag",
+        "Checksum"
+    ],
+    "comments": [
+        "Use this file offset to grab the file type from the TI-83 program file to verify that it's a TI-83 compatable file.",
+        "This should read [**TI83**]",
+        "</summary>",
+        "The Type length is 8 bytes.",
+        "</summary>",
+        "Use this file offset to grab the comment from the TI-83 program file.",
+        "</summary>",
+        "12 - 52",
+        "The comment length is 40 bytes.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "TI83Model"
+    ]
+}

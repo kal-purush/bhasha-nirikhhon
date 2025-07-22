@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "data",
+        "ret",
+        "data",
+        "item",
+        "index",
+        "ret",
+        "index",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "ret"
+    ],
+    "literals": [
+        "'| # | name | language | activity | developer_count | issue_comment | open_issue | open_pull | pull_review_comment | merge_pull | pull_commits | pull_additions | pull_deletions |\\n'",
+        "'|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|\\n'",
+        "| ${index + 1} | ${item.repo_name} | ${item.repo_language} | ${item.repo_activity} | ${item.developer_count} | ${item.issue_comment} | ${item.open_issue} | ${item.open_pull} | ${item.pull_review_comment} | ${item.merge_pull} | ${item.commits} | ${item.additions} | ${item.deletions} |\\n"
+    ],
+    "variables": [
+        "ret"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

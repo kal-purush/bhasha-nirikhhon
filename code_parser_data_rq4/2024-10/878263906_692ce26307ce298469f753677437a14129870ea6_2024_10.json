@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "ApiFromModules",
+        "FilterApi",
+        "FunctionReference",
+        "auth",
+        "http",
+        "auth",
+        "http",
+        "fullApi",
+        "fullApi"
+    ],
+    "literals": [
+        "\"convex/server\"",
+        "\"../auth.js\"",
+        "\"../http.js\"",
+        "\"public\"",
+        "\"internal\""
+    ],
+    "variables": [
+        "fullApi",
+        "api"
+    ],
+    "comments": [
+        "eslint-disable"
+    ],
+    "docstrings": [
+        "* Generated `api` utility.\n *\n * THIS CODE IS AUTOMATICALLY GENERATED.\n *\n * To regenerate, run `npx convex dev`.\n * @module",
+        "* A utility for referencing Convex functions in your app's API.\n *\n * Usage:\n * ```js\n * const myFunctionReference = api.myModule.myFunction;\n * ```"
+    ],
+    "functions": [],
+    "classes": []
+}

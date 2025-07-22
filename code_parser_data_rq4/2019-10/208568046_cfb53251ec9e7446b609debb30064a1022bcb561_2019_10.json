@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Link",
+        "styled",
+        "theme",
+        "styled",
+        "styled",
+        "styled",
+        "Link",
+        "theme",
+        "styled",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "\"gatsby\"",
+        "'@emotion/styled'",
+        "'styles/theme'",
+        "position: absolute;\n  left: 0;\n  right: 0;\n  height: 6rem;\n  z-index: 1;",
+        "max-width: 1200px;\n  margin: 0 auto;\n  display: flex;\n  align-items: center;\n  height: 100%;\n  justify-content: space-between;",
+        "font-weight: bold;\n  text-decoration: none;\n  color: ${theme.color.textDark};",
+        "ul {\n    list-style: none;\n    padding: 0;\n\n    li {\n      margin-left: 3rem;\n      display: inline-block;\n\n      a {\n        text-decoration: none;\n        color: ${theme.color.textDark};\n\n        &:hover {\n          color: ${theme.color.link};\n        }\n      }\n    }\n  }"
+    ],
+    "variables": [
+        "Wrapper",
+        "Inner",
+        "Logo",
+        "Nav"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

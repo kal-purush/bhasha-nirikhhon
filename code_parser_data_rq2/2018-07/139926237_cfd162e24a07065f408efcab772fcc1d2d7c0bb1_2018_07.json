@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "BrowserWindow",
+        "Electron",
+        "windowStateKeeper",
+        "windowStateKeeper",
+        "require",
+        "windowStateKeeper",
+        "Electron",
+        "savedWindowState",
+        "savedWindowState",
+        "savedWindowState",
+        "savedWindowState",
+        "BrowserWindow",
+        "windowOptions",
+        "savedWindowState",
+        "AppWindow"
+    ],
+    "literals": [
+        "'electron'",
+        "'electron-window-state'",
+        "'#fff'"
+    ],
+    "variables": [
+        "windowStateKeeper",
+        "savedWindowState",
+        "windowOptions"
+    ],
+    "comments": [
+        "`electron-window-state` requires Electron's `screen` module, which can",
+        "only be required after the app has emitted `ready`. So require it",
+        "lazily."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppWindow"
+    ]
+}

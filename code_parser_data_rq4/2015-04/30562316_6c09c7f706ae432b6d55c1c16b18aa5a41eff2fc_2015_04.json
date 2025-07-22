@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "org",
+        "sakaiproject",
+        "content",
+        "api",
+        "ContentFilterService",
+        "resource"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This is a service that holds all the ContentFilters and allows streams to be filtered.\n * It's exposed as a service so that tools serving up thier own content can do it in the\n * same way as the kernel.\n * @see ContentFilter",
+        "* This applies all the filters defined to the supplied content resource.\n     * @param resource The content resource to wrap cannot be <code>null</code>.\n     * @return A new content resource wrapped up or if the original resource if no filters apply."
+    ],
+    "functions": [
+        "ContentResource",
+        "wrap"
+    ],
+    "classes": []
+}

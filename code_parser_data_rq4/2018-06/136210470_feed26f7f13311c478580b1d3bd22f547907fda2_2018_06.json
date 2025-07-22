@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "$",
+        "io",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "key",
+        "key",
+        "sendMessage",
+        "$",
+        "socket",
+        "$",
+        "$",
+        "$",
+        "socket",
+        "data",
+        "data",
+        "$",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "\"http://127.0.0.1:8080\"",
+        "\"#divpseudo\"",
+        "\"#divtext\"",
+        "\"#sendpseudo\"",
+        "\"click\"",
+        "\"#divpseudo\"",
+        "\"#divtext\"",
+        "\"#textchat\"",
+        "\"keypress\"",
+        "\"appui sur la touche entrée\"",
+        "\"#textchat\"",
+        "\"\"",
+        "\"message\"",
+        "\"#textpseudo\"",
+        "\"#textchat\"",
+        "\"#textchat\"",
+        "\"\"",
+        "\"message\"",
+        "\"#chatlog\"",
+        "\"<p>\"",
+        "\": \"",
+        "\"</p>\""
+    ],
+    "variables": [
+        "socket"
+    ],
+    "comments": [
+        "on se connecte au serveur",
+        "si on appuie sur le bouton envoyer, on envoie le message au serveur",
+        "$(\"#sendtext\").on(\"click\", sendMessage);",
+        "lorsque le serveur nous envoie un nouveau message on l'affiche"
+    ],
+    "docstrings": [],
+    "functions": [
+        "sendMessage"
+    ],
+    "classes": []
+}

@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "client",
+        "OrderItem",
+        "Product",
+        "ProductDetails",
+        "getProducts",
+        "client",
+        "getProductDetails",
+        "slug",
+        "client",
+        "slug",
+        "toggleWhishilist",
+        "productId",
+        "client",
+        "productId",
+        "sendOrder",
+        "orderItems",
+        "client",
+        "orderItems"
+    ],
+    "literals": [
+        "'../helpers/httpClient'",
+        "'../types/Order'",
+        "'../types/Product'",
+        "'../types/ProductDetails'",
+        "'shop/products/'",
+        "string",
+        "shop/products/${slug}/",
+        "shop/products/${productId}/wishlist/",
+        "'orders/'"
+    ],
+    "variables": [
+        "getProducts",
+        "getProductDetails",
+        "toggleWhishilist",
+        "sendOrder"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

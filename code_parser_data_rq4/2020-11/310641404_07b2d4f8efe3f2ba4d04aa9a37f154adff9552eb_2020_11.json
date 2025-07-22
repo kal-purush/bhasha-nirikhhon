@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "IO",
+        "Text",
+        "Json",
+        "Text",
+        "Json",
+        "Serialization",
+        "Message",
+        "Message",
+        "WriteLine",
+        "File",
+        "ReadAllText",
+        "Clear",
+        "WriteLine",
+        "ReadLine",
+        "WriteLine",
+        "ReadLine",
+        "_message",
+        "Add",
+        "Message",
+        "Name",
+        "name",
+        "Msg",
+        "message",
+        "JsonSerializer",
+        "Serialize",
+        "_message",
+        "File",
+        "WriteAllText",
+        "json",
+        "WriteLine",
+        "ReadLine"
+    ],
+    "literals": [
+        "\"guestbook.json\"",
+        "\"Name?\"",
+        "\"Message\"",
+        "\"guestbook.json\"",
+        "\"Delete Message\""
+    ],
+    "variables": [
+        "_message",
+        "name",
+        "message",
+        "json"
+    ],
+    "comments": [
+        "Get messages",
+        "_message = JsonSerializer.Deserialize<Message>(File.ReadAllText(\"guestbook.json\"));",
+        "System.Console.WriteLine(JsonSerializer.Deserialize<Message[]>(File.ReadAllText(\"guestbook.json\")));",
+        "Write message",
+        "Write JSON to file",
+        "Delete message"
+    ],
+    "docstrings": [],
+    "functions": [
+        "GetMessages",
+        "CreateMessage",
+        "DeleteMessage"
+    ],
+    "classes": [
+        "Guestbook"
+    ]
+}

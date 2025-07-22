@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "javamavenjunithelloworld",
+        "java",
+        "io",
+        "PrintStream",
+        "HELLO",
+        "MAXIMUM_AMOUNT_OF_TIMES",
+        "times",
+        "times",
+        "times",
+        "times",
+        "MAXIMUM_AMOUNT_OF_TIMES",
+        "MAXIMUM_AMOUNT_OF_TIMES",
+        "times",
+        "times",
+        "printer",
+        "i",
+        "i",
+        "times",
+        "i",
+        "printer",
+        "HELLO"
+    ],
+    "literals": [
+        "\"Hello!\"",
+        "\"Parameter «times» should be a positive integer no larger than \"",
+        "\".\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Simple class that says \"Hello!\".",
+        "* Set how many times \"Hello!\" should be said.\n     *\n     * @param times How many times should this class say \"Hello!\"? The value should be no larger than 20.\n     * @throws IllegalArgumentException Thrown when times is larger than 20 or a negative number.",
+        "* Say \"Hello!\".\n     *\n     * @param printer PrintStream to write output to."
+    ],
+    "functions": [
+        "setTimes",
+        "sayHello"
+    ],
+    "classes": [
+        "Hello"
+    ]
+}

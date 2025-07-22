@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "uk",
+        "ac",
+        "cam",
+        "cl",
+        "echo",
+        "extrusionfinder",
+        "client",
+        "servercopies",
+        "configuration",
+        "MONGO_HOST",
+        "MONGO_PORT",
+        "ZERNIKE_MAP_ID",
+        "DEFAULT_DATABASE_NAME",
+        "DEFAULT_NUMBER_OF_MATCHES",
+        "DEFAULT_ZERNIKE_DEGREE",
+        "INKSCAPE_LOCATION",
+        "OPENCV_LIBRARY_NAME",
+        "IMAGE_LOG_PATH",
+        "getProperty",
+        "PROFILE_DETECTION_STANDARD_IMAGE_SIZE",
+        "PROFILE_DETECTION_STANDARD_BILATERAL_FILTER_BLUR_DIAMETER",
+        "PROFILE_DETECTION_STANDARD_BILATERAL_FILTER_SIGMA",
+        "PDF_THINNED_EDGE_THICKNESS",
+        "PDF_RASTERIZATION_DIMENSIONS",
+        "CRAWL_STORAGE_FOLDER",
+        "MAX_CRAWL_DEPTH",
+        "MAX_CRAWL_PAGES",
+        "CRAWL_STORAGE_FOLDER",
+        "MAX_CRAWL_DEPTH",
+        "MAX_CRAWL_PAGES"
+    ],
+    "literals": [
+        "\"localhost\"",
+        "\"zernike\"",
+        "\"extrusionDB\"",
+        "\"inkscape\"",
+        "\"opencv_java249\"",
+        "\"user.home\"",
+        "\"/image-logs/\"",
+        "\"crawlerdata/root\""
+    ],
+    "variables": [],
+    "comments": [
+        "Width/height of square png image to rasterize the pdf to"
+    ],
+    "docstrings": [
+        "Crawler configuration.\n     * Need to have getters to allow mocking in tests.\n     * Max crawl depth and max crawl pages can be -1 if there is no upper limit.",
+        "* @return  Path to the folder that stores intermediate crawl data.",
+        "* @return  The maximum depth of recursive crawls. -1 if unlimited.",
+        "* @return  The maximum number of pages visited during crawling. -1 if unlimited."
+    ],
+    "functions": [
+        "Configuration",
+        "getCrawlStorageFolder",
+        "getMaxCrawlDepth",
+        "getMaxCrawlPages"
+    ],
+    "classes": [
+        "Configuration"
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "os",
+        "multiprocessing",
+        "util",
+        "getattr",
+        "multiprocessing",
+        "util",
+        "multiprocessing",
+        "util",
+        "Finalize",
+        "args",
+        "kwargs",
+        "FixedFinalize",
+        "args",
+        "kwargs",
+        "os",
+        "getpid",
+        "args",
+        "kwargs",
+        "_pid",
+        "os",
+        "getpid",
+        "FixedFinalize",
+        "__call__",
+        "args",
+        "kwargs",
+        "setattr",
+        "multiprocessing",
+        "util",
+        "FixedFinalize"
+    ],
+    "literals": [
+        "'os'",
+        "'Finalize'"
+    ],
+    "variables": [
+        "_pid"
+    ],
+    "comments": [
+        "Implements:",
+        "https://github.com/python/cpython/commit/e8a57b98ec8f2b161d4ad68ecc1433c9e3caad57",
+        "",
+        "Detection of fix: os imported to compare pids, before the fix os has not",
+        "been imported"
+    ],
+    "docstrings": [],
+    "functions": [
+        "apply_workaround",
+        "__call__"
+    ],
+    "classes": [
+        "FixedFinalize"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "hamcrest",
+        "core",
+        "base_matcher",
+        "BaseMatcher",
+        "urltools",
+        "normalize",
+        "BaseMatcher",
+        "url",
+        "url",
+        "item",
+        "normalize",
+        "item",
+        "normalize",
+        "url",
+        "description",
+        "description",
+        "append_text",
+        "format",
+        "url",
+        "url",
+        "URLMatcher",
+        "url"
+    ],
+    "literals": [
+        "\"expected URL: {}\""
+    ],
+    "variables": [
+        "url"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nHamcrest custom matchers used by unit-tests.\n\n\"\"\"",
+        "\"\"\"\n    Hamcrest matcher for comparing URLs by canonicalizing them first.\n\n    Example:\n\n        with graph.app.test_request_context():\n           assert_that(url, matches_url(\"https://canonical.url.com/path?a=1&b=2\"))\n\n    \"\"\""
+    ],
+    "functions": [
+        "_matches",
+        "describe_to",
+        "matches_url"
+    ],
+    "classes": [
+        "URLMatcher"
+    ]
+}

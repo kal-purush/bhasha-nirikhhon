@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "pl",
+        "joinin",
+        "controllers",
+        "java",
+        "time",
+        "LocalDateTime",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Autowired",
+        "org",
+        "springframework",
+        "stereotype",
+        "Controller",
+        "org",
+        "springframework",
+        "ui",
+        "Model",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "RequestMapping",
+        "pl",
+        "joinin",
+        "repositories",
+        "UserRepository",
+        "Controller",
+        "Autowired",
+        "userRepository",
+        "RequestMapping",
+        "value",
+        "model",
+        "model",
+        "addAttribute",
+        "LocalDateTime",
+        "now"
+    ],
+    "literals": [
+        "\"/account\"",
+        "\"now\"",
+        "\"account\""
+    ],
+    "variables": [
+        "userRepository"
+    ],
+    "comments": [
+        "model.addAttribute(\"testUser\", userRepository.findOne(1L));"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AccountController"
+    ]
+}

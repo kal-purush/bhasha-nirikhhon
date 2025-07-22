@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "Module",
+        "TypeOrmModule",
+        "SnakeNamingStrategy",
+        "Cart",
+        "CartItem",
+        "Product",
+        "Module",
+        "TypeOrmModule",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "SnakeNamingStrategy",
+        "TypeOrmModule",
+        "Cart",
+        "CartItem",
+        "Product",
+        "TypeOrmModule"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'@nestjs/typeorm'",
+        "'typeorm-snake-naming-strategy'",
+        "'./entities/cart.entity'",
+        "'./entities/cart-item.entity'",
+        "'./entities/product.entity'",
+        "'postgres'",
+        "'dist/database/entities/*.entity{.ts,.js}'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Flag to show all generated sql queries on each interaction with DB.\n       * Should be omitted for production production.",
+        "* This naming strategy will map field_name from database to fieldName inside application."
+    ],
+    "functions": [],
+    "classes": [
+        "DatabaseModule"
+    ]
+}

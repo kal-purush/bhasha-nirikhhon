@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "header",
+        "macros",
+        "key",
+        "code",
+        "WebGLRenderingContext",
+        "shaderTypeMacro",
+        "shaderTypeMacro",
+        "shaderTypeMacro",
+        "ShaderMixer",
+        "macros",
+        "header",
+        "code",
+        "macros",
+        "key",
+        "macroName",
+        "macros",
+        "macroCode",
+        "macroName",
+        "macros",
+        "macroName",
+        "macroCode"
+    ],
+    "literals": [
+        "\"raw-loader!./Static/header.glsl\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"#define VS\\n\"",
+        "\"#define FS\\n\"",
+        "${shaderTypeMacro}${ShaderMixer._macroCode(macros)}${header}\\n/*****BEGINNING OF USER CODE******/\\n${code}",
+        "string",
+        "string",
+        "string",
+        "\"\"",
+        "#define ${macroName} ${macros[macroName]}\\n"
+    ],
+    "variables": [
+        "shaderTypeMacro",
+        "macroCode"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Generate shader code from specified macro and codes.\n   * @param  {number}  type   WebGLRenderingContext.VERTEX_SHADER or WebGLRenderingContext.FRAGMENT_SHADER\n   * @param   macros macro hash to be included\n   * @param  {string}  code   shader body(Raw glsl)\n   * @return {string}         generated shader code"
+    ],
+    "functions": [
+        "generate",
+        "_macroCode"
+    ],
+    "classes": [
+        "ShaderMixer"
+    ]
+}

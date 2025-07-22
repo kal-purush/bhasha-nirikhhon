@@ -1,0 +1,92 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "Linq",
+        "UnityEngine",
+        "UnityEditor",
+        "Meryel",
+        "UnityCodeAssist",
+        "Editor",
+        "EditorWindow",
+        "GUIStyle",
+        "GetWindow",
+        "AboutWindow",
+        "Show",
+        "Serilog",
+        "Log",
+        "Debug",
+        "NetMQInitializer",
+        "Publisher",
+        "SendAnalyticsEvent",
+        "titleContent",
+        "GUIContent",
+        "styleLabel",
+        "GUIStyle",
+        "GUI",
+        "skin",
+        "label",
+        "wordWrap",
+        "alignment",
+        "TextAnchor",
+        "MiddleLeft",
+        "EditorGUILayout",
+        "LabelField",
+        "Assister",
+        "Version",
+        "styleLabel",
+        "GUILayout",
+        "ExpandWidth",
+        "MERYEL_UCA_LITE_VERSION",
+        "EditorGUILayout",
+        "LabelField",
+        "styleLabel",
+        "GUILayout",
+        "ExpandWidth",
+        "EditorGUILayout",
+        "LabelField",
+        "styleLabel",
+        "GUILayout",
+        "ExpandWidth",
+        "GUILayout",
+        "Button",
+        "Application",
+        "OpenURL",
+        "GUILayout",
+        "Button",
+        "Application",
+        "OpenURL"
+    ],
+    "literals": [
+        "\"Displaying about window\"",
+        "\"Gui\"",
+        "\"AboutWindow_Display\"",
+        "\"Code Assist About\"",
+        "\"View changelog\"",
+        "\"https://unitycodeassist.netlify.app/changelog\"",
+        "\"View third party notices\"",
+        "\"https://unitycodeassist.netlify.app/thirdpartynotices\""
+    ],
+    "variables": [
+        "styleLabel"
+    ],
+    "comments": [
+        "Get existing open window or if none, make a new one:",
+        "var icon = AssetDatabase.LoadAssetAtPath<Texture>(\"Assets/Sprites/Gear.png\");",
+        "titleContent = new GUIContent(\"Code Assist\", icon);",
+        "MERYEL_UCA_LITE_VERSION",
+        "MERYEL_UCA_LITE_VERSION"
+    ],
+    "docstrings": [
+        "**--icon"
+    ],
+    "functions": [
+        "Display",
+        "OnEnable",
+        "OnGUI"
+    ],
+    "classes": [
+        "AboutWindow"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Falu",
+        "Core",
+        "Text",
+        "Json",
+        "Serialization",
+        "Falu",
+        "Client",
+        "MoneyStatements",
+        "IHasId",
+        "IHasCreated",
+        "IHasUpdated",
+        "IHasWorkspace",
+        "IHasLive",
+        "IHasEtag",
+        "JsonPropertyName"
+    ],
+    "literals": [
+        "\"objects_kind\""
+    ],
+    "variables": [
+        "Id",
+        "DateTimeOffset",
+        "Created",
+        "DateTimeOffset",
+        "Updated",
+        "Provider",
+        "ObjectsKind",
+        "Uploaded",
+        "Type",
+        "Filename",
+        "Size",
+        "Workspace",
+        "Live",
+        "Etag"
+    ],
+    "comments": [
+        "<inheritdoc/>",
+        "<inheritdoc/>",
+        "<inheritdoc/>",
+        "The kind of objects that the statement contains.",
+        "</summary>",
+        "Whether the statement was uploaded by a workspace user.",
+        "These statements cannot be downloaded later.",
+        "</summary>",
+        "A name of the file suitable for saving to a file system.",
+        "</summary>",
+        "<inheritdoc/>",
+        "<inheritdoc/>",
+        "<inheritdoc/>"
+    ],
+    "docstrings": [
+        "<summary>The provider of statement.</summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>Type of file.</summary>",
+        "<summary>",
+        "<summary>Size in bytes of the file.</summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "MoneyStatement"
+    ]
+}

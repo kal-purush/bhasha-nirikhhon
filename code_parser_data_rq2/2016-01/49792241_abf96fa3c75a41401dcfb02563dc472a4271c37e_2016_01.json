@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "Component",
+        "Inject",
+        "ViewEncapsulation",
+        "OnInit",
+        "ChangeDetectionStrategy",
+        "Router",
+        "RouteConfig",
+        "ROUTER_DIRECTIVES",
+        "CanActivate",
+        "shouldActivate",
+        "UserListContainer",
+        "ProfileContainer",
+        "AuthService",
+        "Component",
+        "ChangeDetectionStrategy",
+        "ROUTER_DIRECTIVES",
+        "ViewEncapsulation",
+        "RouteConfig",
+        "UserListContainer",
+        "ProfileContainer",
+        "CanActivate",
+        "to",
+        "shouldActivate",
+        "to",
+        "auth",
+        "router",
+        "token",
+        "token",
+        "componentHandler"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/router'",
+        "'./helpers/helpers'",
+        "'./component/users/UserListContainer'",
+        "'./component/profile/ProfileContainer'",
+        "'./model/AuthService'",
+        "'ngrx'",
+        "<menu>\n      <button id=\"menu\" class=\"mdl-button mdl-js-button mdl-button--icon\"\n              data-upgraded=\"MaterialButton\">\n        <i class=\"material-icons\">more_vert</i>\n      </button>\n\n      <span>NgRx users</span>\n\n      <ul class=\"mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect\"\n          for=\"menu\" upgrade=\"MaterialMenu\">\n        <li class=\"mdl-menu__item\" [routerLink]=\"['./Users']\">Users</li>\n        <li class=\"mdl-menu__item\" [routerLink]=\"['./Profile']\">Profile</li>\n      </ul>\n\n      <div class=\"middle\" *ngIf=\"auth.current$ | async\">\n        <span>Welcome {{(auth.current$ | async).name}}</span>\n      </div>\n\n      <div class=\"right\" *ngIf=\"auth.current$ | async\">\n        <span (click)=\"auth.logout()\">Logout</span>\n      </div>\n    </menu>\n\n    <router-outlet></router-outlet>",
+        "'/users'",
+        "'Users'",
+        "'/profile'",
+        "'Profile'",
+        "'/Login'"
+    ],
+    "variables": [
+        "componentHandler"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "ngOnDestroy"
+    ],
+    "classes": [
+        "NgRx"
+    ]
+}

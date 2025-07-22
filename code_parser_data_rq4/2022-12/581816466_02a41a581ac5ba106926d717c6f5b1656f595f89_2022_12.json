@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "target",
+        "target",
+        "gameObject",
+        "Debug",
+        "Log",
+        "LookAtTarget",
+        "target",
+        "target",
+        "Camera",
+        "main",
+        "fieldOfView",
+        "Mathf",
+        "Clamp",
+        "target",
+        "transform",
+        "localScale",
+        "x"
+    ],
+    "literals": [
+        "\"ChangeLookAtTarget target not specified. Defaulting to parent GameObject\""
+    ],
+    "variables": [
+        "GameObject",
+        "target"
+    ],
+    "comments": [
+        "the target that the camera should look at",
+        "Called when MouseDown on this gameObject",
+        "change the target of the LookAtTarget script to be this gameobject.",
+        "change the field of view on the perspective camera based on the distance from center of world, clamp it to a reasonable field of view"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "OnMouseDown"
+    ],
+    "classes": [
+        "ChangeLookAtTarget"
+    ]
+}

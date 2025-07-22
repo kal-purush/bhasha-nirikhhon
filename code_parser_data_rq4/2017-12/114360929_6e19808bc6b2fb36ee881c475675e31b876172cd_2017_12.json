@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "com",
+        "univ",
+        "Testing",
+        "solde",
+        "credit",
+        "solde",
+        "debit",
+        "solde"
+    ],
+    "literals": [],
+    "variables": [
+        "solde"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Credite le compte du montant transmis en argument.\n\t * @param credit\n\t * @throws Exception si credit <= 0",
+        "* Debite le compte de la valeur transmise en argument\n\t * @param debit\n\t * @return le montant demande si le solde du compte est superieur au montant demande,\n\t * retourne la valeur du solde si le solde est inferieur au montant demande. \n\t * @throws Exception si debit < 20 ou si debit > 1000 euros.",
+        "* Reinitialise\n\t * @param solde\n\t * @throws Exception si solde <= 0"
+    ],
+    "functions": [
+        "crediter",
+        "getSolde",
+        "debiter",
+        "setSolde"
+    ],
+    "classes": [
+        "Compte"
+    ]
+}

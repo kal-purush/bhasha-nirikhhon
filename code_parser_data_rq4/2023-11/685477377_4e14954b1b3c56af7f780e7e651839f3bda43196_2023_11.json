@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Diagnostics",
+        "AvSBookStore",
+        "Messages",
+        "INotificationService",
+        "cellPhone",
+        "code",
+        "Debug",
+        "WriteLine",
+        "cellPhone",
+        "code",
+        "Order",
+        "order",
+        "Debug",
+        "WriteLine",
+        "order",
+        "Id"
+    ],
+    "literals": [
+        "\"Cell phone: {0}, code: {1:0000}.\"",
+        "\"Order ID {0}\""
+    ],
+    "variables": [],
+    "comments": [
+        "Debug.WriteLine(\"Delivery: {0}\", (object)order.Delivery.Description);",
+        "Debug.WriteLine(\"Payment: {0}\", (object)order.Payment.Description);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "SendConfirmationCode",
+        "StartProcess"
+    ],
+    "classes": [
+        "DebugNotificationService"
+    ]
+}

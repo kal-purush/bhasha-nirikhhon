@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "$",
+        "scroll",
+        "dh",
+        "wh",
+        "$",
+        "scrollPercent",
+        "$",
+        "$",
+        "$",
+        "$"
+    ],
+    "literals": [
+        "'scroll'",
+        "'.wave'",
+        "'top'",
+        "${scrollPercent}%",
+        "\".cup\"",
+        "'.panierhover'",
+        "'1'",
+        "'slow'",
+        "\".cup\"",
+        "'.panierhover'",
+        "'0'",
+        "'slow'"
+    ],
+    "variables": [
+        "scroll",
+        "dh",
+        "wh",
+        "scrollPercent"
+    ],
+    "comments": [
+        "$(\".panier\").mouseenter(",
+        "function(){",
+        "$(this).animate({opacity:'1px'},'slow')",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

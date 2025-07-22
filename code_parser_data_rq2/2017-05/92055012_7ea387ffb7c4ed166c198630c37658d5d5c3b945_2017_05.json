@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "com",
+        "xgen",
+        "interview",
+        "IShoppingCart",
+        "itemType",
+        "number"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This is the interface used by the existing shopping tills in our supermarket\n * It cannot be changed without upgrading/replacing legacy hardware.",
+        "* Called once for every item/collection of items that is scanned by the till.\n   * @param itemType - The item being scanned by the hardware\n   * @param number - The number of items the cashier is moving to the bagging area",
+        "* Prints the receipt to stdout. In the supermarket, stdout is captured by the receipt printer, which then prints\n   * it for tue customer"
+    ],
+    "functions": [
+        "addItem",
+        "printReceipt"
+    ],
+    "classes": []
+}

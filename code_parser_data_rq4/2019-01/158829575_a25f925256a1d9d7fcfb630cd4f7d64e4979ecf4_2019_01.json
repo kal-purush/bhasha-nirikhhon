@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "OnDestroy",
+        "ActivatedRoute",
+        "Router",
+        "CoursesService",
+        "Subscription",
+        "CourseItemModel",
+        "Component",
+        "activeRoute",
+        "courseService",
+        "router",
+        "activeRoute",
+        "courseService",
+        "router"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router'",
+        "'src/app/services/courses.service'",
+        "'rxjs'",
+        "'../../models/course-item'",
+        "'app-course-edit-page'",
+        "'./course-edit-page.component.html'",
+        "''",
+        "''",
+        "''",
+        "'/'",
+        "'/'"
+    ],
+    "variables": [],
+    "comments": [
+        "both won't work as expected until Http module and remote data is not available",
+        "TODO: needs validation on all fields"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "ngOnDestroy",
+        "initCourseEdit",
+        "onSave",
+        "onCancel"
+    ],
+    "classes": [
+        "CourseEditPageComponent"
+    ]
+}

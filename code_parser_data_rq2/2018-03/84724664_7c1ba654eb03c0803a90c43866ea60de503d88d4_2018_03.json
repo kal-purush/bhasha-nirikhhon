@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "workspace",
+        "TextEditor",
+        "Range",
+        "Position",
+        "TextDocument",
+        "WorkspaceConfiguration",
+        "fs",
+        "force",
+        "workspace",
+        "current",
+        "config",
+        "force",
+        "config",
+        "fs",
+        "__dirname",
+        "packageJson",
+        "key",
+        "props",
+        "props",
+        "key",
+        "config",
+        "key",
+        "item",
+        "config",
+        "overrides",
+        "overrides",
+        "setting",
+        "setting"
+    ],
+    "literals": [
+        "\"vscode\"",
+        "'fs'",
+        "'php-docblocker'",
+        "'/../../../package.json'",
+        "'php-docblocker.'",
+        "''",
+        "string"
+    ],
+    "variables": [
+        "current",
+        "config",
+        "packageJson",
+        "props",
+        "item"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Provides helper function to types",
+        "* Holds the current instance\n    *\n    * @type {Config}",
+        "* List of defaults\n     *\n     * @type {Object}",
+        "* Returns the instance for this util\n     *\n     * @returns {Config}",
+        "* Load in the defaults or the config",
+        "* Add overrides\n     *\n     * @param overrides",
+        "* Get a settings from the config or the mocked config\n     *\n     * @param {string} setting"
+    ],
+    "functions": [
+        "instance",
+        "load",
+        "get"
+    ],
+    "classes": [
+        "Config"
+    ]
+}

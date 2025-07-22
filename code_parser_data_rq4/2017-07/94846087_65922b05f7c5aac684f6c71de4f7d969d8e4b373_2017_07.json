@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "connect",
+        "increment",
+        "doubleAsync",
+        "Counter2",
+        "increment",
+        "mapStateToProps",
+        "state",
+        "state",
+        "connect",
+        "mapStateToProps",
+        "mapDispatchToProps",
+        "Counter2"
+    ],
+    "literals": [
+        "'react-redux'",
+        "'../modules/LogoVote'",
+        "'../components/LogoVote'"
+    ],
+    "variables": [
+        "mapDispatchToProps",
+        "mapStateToProps"
+    ],
+    "comments": [
+        "This is a container component. Notice it does not contain any JSX,\n    nor does it import React. This component is **only** responsible for\n    wiring in the actions and state necessary to render a presentational\n    component - in this case, the counter:",
+        "Object of action creators (can also be function that returns object).\n    Keys will be passed as props to presentational components. Here we are\n    implementing our wrapper around increment; the component doesn't care",
+        "Note: mapStateToProps is where you should use `reselect` to create selectors, ie:\n\n    import { createSelector } from 'reselect'\n    const counter = (state) => state.counter\n    const tripleCount = createSelector(counter, (count) => count * 3)\n    const mapStateToProps = (state) => ({\n      counter: tripleCount(state)\n    })\n\n    Selectors can compute derived data, allowing Redux to store the minimal possible state.\n    Selectors are efficient. A selector is not recomputed unless one of its arguments change.\n    Selectors are composable. They can be used as input to other selectors.\n    https://github.com/reactjs/reselect"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

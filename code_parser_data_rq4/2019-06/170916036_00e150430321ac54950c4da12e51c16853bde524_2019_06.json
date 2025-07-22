@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "frappe",
+        "frappe",
+        "exceptions",
+        "DoesNotExistError",
+        "name",
+        "ci_types",
+        "frappe",
+        "get_doc",
+        "name",
+        "ci_type",
+        "save"
+    ],
+    "literals": [
+        "\"Client\"",
+        "\"Hypervisor\"",
+        "\"Infrastructure\"",
+        "\"Machine, Modality\"",
+        "\"Network Device\"",
+        "\"Peripheral\"",
+        "\"Phone\"",
+        "\"Printer, Scanner, Fax\"",
+        "\"Server\"",
+        "\"Share\"",
+        "\"Sonstiges\"",
+        "\"doctype\"",
+        "\"Configuration Item Type\"",
+        "\"title\""
+    ],
+    "variables": [
+        "ci_types",
+        "ci_type"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nCreate a Configuration Item Type for each option of the former Selection.\nReason: Configuration Item -> Type changed from Select to Link.\n\"\"\""
+    ],
+    "functions": [
+        "execute"
+    ],
+    "classes": []
+}

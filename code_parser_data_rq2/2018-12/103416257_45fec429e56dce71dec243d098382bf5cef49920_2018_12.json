@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "jit",
+        "test",
+        "ra",
+        "java",
+        "math",
+        "BigInteger",
+        "java",
+        "util",
+        "Arrays",
+        "org",
+        "testng",
+        "annotations",
+        "Test",
+        "Test",
+        "groups",
+        "bi",
+        "i",
+        "ten",
+        "i",
+        "Arrays",
+        "fill",
+        "ten",
+        "ten",
+        "ten",
+        "Test",
+        "i",
+        "i",
+        "i",
+        "bi",
+        "powerOfTenBI"
+    ],
+    "literals": [
+        "\"level.sanity\"",
+        "\"component.jit\""
+    ],
+    "variables": [
+        "bi"
+    ],
+    "comments": [
+        "public volatile prevents JIT optimizer from eliminating stores"
+    ],
+    "docstrings": [
+        "*****************************************************************************\n * Copyright (c) 2018, 2018 IBM Corp. and others\n *\n * This program and the accompanying materials are made available under\n * the terms of the Eclipse Public License 2.0 which accompanies this\n * distribution and is available at https://www.eclipse.org/legal/epl-2.0/\n * or the Apache License, Version 2.0 which accompanies this distribution and\n * is available at https://www.apache.org/licenses/LICENSE-2.0.\n *\n * This Source Code may also be made available under the following\n * Secondary Licenses when the conditions for such availability set\n * forth in the Eclipse Public License, v. 2.0 are satisfied: GNU\n * General Public License, version 2 with the GNU Classpath\n * Exception [1] and GNU General Public License, version 2 with the\n * OpenJDK Assembly Exception [2].\n *\n * [1] https://www.gnu.org/software/classpath/license.html\n * [2] http://openjdk.java.net/legal/assembly-exception.html\n *\n * SPDX-License-Identifier: EPL-2.0 OR Apache-2.0 OR GPL-2.0 WITH Classpath-exception-2.0 OR LicenseRef-GPL-2.0 WITH Assembly-exception\n ******************************************************************************",
+        "* The following test is articulated such that the {@code powerOfTenBI} method gets deterministically JIT compiled and\n\t * eventually has to call the VM JIT helper to allocate memory as we run out of TLH space.\n\t *\n\t * On 31-bit platforms when using 64-bit registers we can encounter problems in this path if the register allocator\n\t * fails to properly spill 64-bit values across an OOL code section.\n\t *\n\t * @see eclipse/omr#3337"
+    ],
+    "functions": [
+        "BigInteger",
+        "powerOfTenBI",
+        "testOOLSpill31Bit"
+    ],
+    "classes": [
+        "TestOOLSpill31Bit"
+    ]
+}

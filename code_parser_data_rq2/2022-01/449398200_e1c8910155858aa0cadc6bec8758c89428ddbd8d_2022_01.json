@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "\"typeorm\"",
+        "'controleApi1643153308263'",
+        "CREATE TABLE \"celulares\" (\"id\" uuid NOT NULL DEFAULT uuid_generate_v4(), \"imgName\" character varying, \"imgPath\" character varying, \"marca\" character varying NOT NULL, \"modelo\" character varying NOT NULL, \"imeis\" character varying NOT NULL, \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now(), \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now(), CONSTRAINT \"PK_cf07c71c2f2ba3dd8d818d5e4f7\" PRIMARY KEY (\"id\"))",
+        "CREATE TABLE \"notebooks\" (\"id\" uuid NOT NULL DEFAULT uuid_generate_v4(), \"imgName\" character varying, \"imgPath\" character varying, \"marca\" character varying NOT NULL, \"modelo\" character varying NOT NULL, \"numeroPatrimonio\" character varying, \"numeroSerie\" character varying, \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now(), \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now(), CONSTRAINT \"PK_0ad71bac932e1c9761f60f742e2\" PRIMARY KEY (\"id\"))",
+        "CREATE TABLE \"colaboradores\" (\"id\" uuid NOT NULL DEFAULT uuid_generate_v4(), \"identificacao\" character varying NOT NULL, \"imgName\" character varying, \"imgPath\" character varying, \"username\" character varying, \"password\" character varying, \"nome\" character varying NOT NULL, \"cargo\" character varying, \"created_at\" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now(), \"updated_at\" TIMESTAMP WITH TIME ZONE NOT NULL DEFAULT now(), \"celularId\" uuid, \"notebookId\" uuid, CONSTRAINT \"REL_0f57e27101c6f0c12ea88b4913\" UNIQUE (\"celularId\"), CONSTRAINT \"REL_244ebe76953ad4980a493c3e24\" UNIQUE (\"notebookId\"), CONSTRAINT \"PK_43dcbea28bbd5f12859c6da8089\" PRIMARY KEY (\"id\"))",
+        "ALTER TABLE \"colaboradores\" ADD CONSTRAINT \"FK_0f57e27101c6f0c12ea88b4913f\" FOREIGN KEY (\"celularId\") REFERENCES \"celulares\"(\"id\") ON DELETE NO ACTION ON UPDATE NO ACTION",
+        "ALTER TABLE \"colaboradores\" ADD CONSTRAINT \"FK_244ebe76953ad4980a493c3e24d\" FOREIGN KEY (\"notebookId\") REFERENCES \"notebooks\"(\"id\") ON DELETE NO ACTION ON UPDATE NO ACTION",
+        "ALTER TABLE \"colaboradores\" DROP CONSTRAINT \"FK_244ebe76953ad4980a493c3e24d\"",
+        "ALTER TABLE \"colaboradores\" DROP CONSTRAINT \"FK_0f57e27101c6f0c12ea88b4913f\"",
+        "DROP TABLE \"colaboradores\"",
+        "DROP TABLE \"notebooks\"",
+        "DROP TABLE \"celulares\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "controleApi1643153308263"
+    ]
+}

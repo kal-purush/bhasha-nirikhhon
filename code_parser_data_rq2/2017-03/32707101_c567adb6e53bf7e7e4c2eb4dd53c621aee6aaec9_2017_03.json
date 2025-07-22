@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "NUnit",
+        "Framework",
+        "Bugsnag",
+        "NET",
+        "Tests",
+        "Test",
+        "Assert",
+        "Fail",
+        "Test",
+        "Assert",
+        "Fail",
+        "Test",
+        "Assert",
+        "Fail"
+    ],
+    "literals": [],
+    "variables": [
+        "_sourceLine",
+        "_frameworkLine",
+        "_asyncAwaitPreviousLocationLine",
+        "line",
+        "_sourceLine",
+        "line",
+        "_frameworkLine",
+        "line",
+        "_asyncAwaitPreviousLocationLine"
+    ],
+    "comments": [
+        "NOTE: Cases here based on this random stacktrace I grabbed off of StackOverflow:",
+        "at NLogAsyncExceptionTestCase.Program.<Bar>d__d.MoveNext() in c:\\Users\\ComputerUser\\Documents\\Visual Studio 2012\\Projects\\NLogAsyncExceptionTestCase\\NLogAsyncExceptionTestCase.Console\\Program.cs:line 53",
+        "--- End of stack trace from previous location where exception was thrown ---",
+        "at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)",
+        "at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)",
+        "at System.Runtime.CompilerServices.TaskAwaiter.GetResult()",
+        "at NLogAsyncExceptionTestCase.Program.<Foo>d__8.MoveNext() in c:\\Users\\ComputerUser\\Documents\\Visual Studio 2012\\Projects\\NLogAsyncExceptionTestCase\\NLogAsyncExceptionTestCase.Console\\Program.cs:line 44",
+        "--- End of stack trace from previous location where exception was thrown ---",
+        "at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)",
+        "at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)",
+        "at System.Runtime.CompilerServices.TaskAwaiter.GetResult()",
+        "at NLogAsyncExceptionTestCase.Program.<CheckFooAndBar>d__0.MoveNext() in c:\\Users\\ComputerUser\\Documents\\Visual Studio 2012\\Projects\\NLogAsyncExceptionTestCase\\NLogAsyncExceptionTestCase.Console\\Program.cs:line 30"
+    ],
+    "docstrings": [],
+    "functions": [
+        "CanParseSourceLineWithFileInfo",
+        "CanParseFrameworkLineLackingFileInfo",
+        "CanParseAsyncAwaitPreviousLocationLine"
+    ],
+    "classes": [
+        "StacktracelineParsingTests"
+    ]
+}

@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "pupaTag",
+        "test",
+        "pupaTag",
+        "expect",
+        "selectById",
+        "describe",
+        "describe",
+        "test",
+        "pupaTag",
+        "pupaTag",
+        "whereBy",
+        "expect",
+        "selectById",
+        "test",
+        "pupaTag",
+        "pupaTag",
+        "whereBy",
+        "expect",
+        "selectById"
+    ],
+    "literals": [
+        "'./pupa-tag'",
+        "'select * from foo where id = 123'",
+        "select * from foo where id = {id}",
+        "'select * from foo where id = 123'",
+        "'Separation'",
+        "'select * from foo where id = 123'",
+        "'${whereBy}'",
+        "where id = {id}",
+        "select * from foo ${whereBy}",
+        "'select * from foo where id = 123'",
+        "'${whereBy()}'",
+        "where id = {id}",
+        "select * from foo ${whereBy({\n        id: 123\n      })}",
+        "'select * from foo where id = 123'"
+    ],
+    "variables": [
+        "selectById",
+        "whereBy",
+        "selectById",
+        "whereBy",
+        "selectById"
+    ],
+    "comments": [
+        "tslint:disable-next-line:no-invalid-template-strings",
+        "tslint:disable-next-line:no-invalid-template-strings"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

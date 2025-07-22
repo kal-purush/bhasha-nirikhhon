@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "fs",
+        "assemblyscript",
+        "CppHeaderTransfer",
+        "assemblyscript",
+        "assemblyscript",
+        "assemblyscript",
+        "compilerOptions",
+        "inputFileName",
+        "outputFileName",
+        "sourceText",
+        "fs",
+        "inputFileName",
+        "e",
+        "inputFileName",
+        "e",
+        "assemblyscript",
+        "sourceText",
+        "inputFileName",
+        "CppHeaderTransfer",
+        "builder",
+        "builder",
+        "builder",
+        "fs",
+        "outputFileName",
+        "cHeaderContent",
+        "e",
+        "outputFileName",
+        "e"
+    ],
+    "literals": [
+        "\"fs\"",
+        "\"assemblyscript\"",
+        "\"./CppHeaderTransfer.js\"",
+        "string",
+        "string",
+        "string",
+        "\"utf8\"",
+        "\"\\n\"",
+        "open file ${inputFileName} failed due to ${JSON.stringify(e)}",
+        "#ifndef __types_wasm_${this.program.sources[0].simplePath}_H__\n#define __types_wasm_${this.program.sources[0].simplePath}_H__\n#include <stdint.h>\nextern \"C\" {\n${builder.getHppContent()}\n}\n#endif",
+        "write file ${outputFileName} failed due to ${JSON.stringify(e)}"
+    ],
+    "variables": [
+        "compilerOptions",
+        "sourceText",
+        "builder",
+        "cHeaderContent"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "generateHpp"
+    ],
+    "classes": [
+        "AscToHeaderConvertor"
+    ]
+}

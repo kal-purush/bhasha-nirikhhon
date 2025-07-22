@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "serve",
+        "ServerRequest",
+        "Deno",
+        "Deno",
+        "serve",
+        "addr",
+        "addr",
+        "req",
+        "server",
+        "proxyRequest",
+        "req",
+        "req",
+        "originAddr",
+        "req",
+        "fetch",
+        "url",
+        "req",
+        "req",
+        "req",
+        "resp",
+        "main"
+    ],
+    "literals": [
+        "\"../js/deps/https/deno.land/std/http/server.ts\"",
+        "\"127.0.0.1:4500\"",
+        "\"127.0.0.1:4501\"",
+        "http://${addr}/",
+        "http://${originAddr}${req.url}"
+    ],
+    "variables": [
+        "addr",
+        "originAddr",
+        "server",
+        "url",
+        "resp"
+    ],
+    "comments": [
+        "Copyright 2018-2019 the Deno authors. All rights reserved. MIT license."
+    ],
+    "docstrings": [],
+    "functions": [
+        "main",
+        "proxyRequest"
+    ],
+    "classes": []
+}

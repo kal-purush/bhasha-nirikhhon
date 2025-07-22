@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "BASE_URL",
+        "BASE_AUTH_URL",
+        "MyChannelState",
+        "getUserApi",
+        "accessToken",
+        "userId",
+        "fetch",
+        "BASE_URL",
+        "userId",
+        "accessToken",
+        "checkToken",
+        "token",
+        "roles",
+        "fetch",
+        "BASE_AUTH_URL",
+        "token"
+    ],
+    "literals": [
+        "'.'",
+        "'../lib/redux/reducers'",
+        "string",
+        "string",
+        "/users/${userId}",
+        "'GET'",
+        "'Content-Type'",
+        "'application/json'",
+        "'Authorization'",
+        "Bearer: ${accessToken}",
+        "string",
+        "string",
+        "'/checkAccess'",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'",
+        "'Authorization'",
+        "Bearer: ${token}"
+    ],
+    "variables": [
+        "getUserApi",
+        "checkToken"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

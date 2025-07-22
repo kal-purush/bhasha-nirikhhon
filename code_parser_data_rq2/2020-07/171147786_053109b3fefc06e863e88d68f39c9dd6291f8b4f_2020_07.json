@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "HealthChecks",
+        "Gremlin",
+        "Microsoft",
+        "Extensions",
+        "Diagnostics",
+        "HealthChecks",
+        "Collections",
+        "Generic",
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "IHealthChecksBuilder",
+        "builder",
+        "Func",
+        "IServiceProvider",
+        "GremlinOptions",
+        "connectionOptionsFactory",
+        "name",
+        "HealthStatus",
+        "failureStatus",
+        "tags",
+        "TimeSpan",
+        "timeout",
+        "_",
+        "connectionOptionsFactory",
+        "ArgumentNullException",
+        "nameof",
+        "connectionOptionsFactory",
+        "builder",
+        "Add",
+        "HealthCheckRegistration",
+        "name",
+        "NAME",
+        "GremlinHealthCheck",
+        "connectionOptionsFactory",
+        "sp",
+        "failureStatus",
+        "tags",
+        "timeout"
+    ],
+    "literals": [
+        "\"gremlin\""
+    ],
+    "variables": [
+        "NAME"
+    ],
+    "comments": [
+        "Add a health check for Apache TinkerPop Gremlin database.",
+        "</summary>",
+        "<param name=\"builder\">The <see cref=\"IHealthChecksBuilder\"/>.</param>",
+        "<param name=\"connectionOptionsFactory\">A factory to build the Gremblin connection data to use.</param>",
+        "<param name=\"name\">The health check name. Optional. If <c>null</c> the type name 'gremlin' will be used for the name.</param>",
+        "<param name=\"failureStatus\">",
+        "The <see cref=\"HealthStatus\"/> that should be reported when the health check fails. Optional. If <c>null</c> then",
+        "the default status of <see cref=\"HealthStatus.Unhealthy\"/> will be reported.",
+        "</param>",
+        "<param name=\"tags\">A list of tags that can be used to filter sets of health checks. Optional.</param>",
+        "<param name=\"timeout\">An optional System.TimeSpan representing the timeout of the check.</param>",
+        "<returns>The <see cref=\"IHealthChecksBuilder\"/>.</returns></param>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "IHealthChecksBuilder",
+        "AddGremlin"
+    ],
+    "classes": [
+        "GremlinHealthCheckBuilderExtensions"
+    ]
+}

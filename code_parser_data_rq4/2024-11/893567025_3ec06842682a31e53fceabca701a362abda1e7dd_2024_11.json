@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "EmailConfig",
+        "EmailUserConfig",
+        "config",
+        "config",
+        "provider",
+        "provider",
+        "fetch",
+        "provider",
+        "provider",
+        "to",
+        "url",
+        "res",
+        "res",
+        "config"
+    ],
+    "literals": [
+        "\"./email.js\"",
+        "\"options\"",
+        "\"type\"",
+        "\"sendVerificationRequest\"",
+        "\"options\"",
+        "string",
+        "string",
+        "string",
+        "\"sendVerificationRequest\"",
+        "\"loops\"",
+        "\"\"",
+        "\"email\"",
+        "\"Loops\"",
+        "\"Auth.js <no-reply@authjs.dev>\"",
+        "\"\"",
+        "\"Missing Loops API Key or TransactionalId\"",
+        "\"https://app.loops.so/api/v1/transactional\"",
+        "\"POST\"",
+        "Bearer ${provider.apiKey}",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "\"Loops Send Error: \""
+    ],
+    "variables": [
+        "to",
+        "res"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* <div style={{backgroundColor: \"#24292f\", display: \"flex\", justifyContent: \"space-between\", color: \"#fff\", padding: 16}}>\n * <span>Built-in <b>Loops</b> integration.</span>\n * <a href=\"https://loops.so\">\n *  <img style={{display: \"block\"}} src=\"https://authjs.dev/img/providers/loops.svg\" width=\"48\"/>\n * </a>\n * </div>\n *\n * @module providers/loops",
+        "*\n * @param config\n * @returns LoopsConfig\n * @requires LoopsUserConfig\n * @example\n * ```ts\n * Loops({\n *   apiKey: process.env.AUTH_LOOPS_KEY,\n *   transactionalId: process.env.AUTH_LOOPS_TRANSACTIONAL_ID,\n * })\n * ```\n *\n * @typedef LoopsUserConfig"
+    ],
+    "functions": [
+        "Loops",
+        "sendVerificationRequest"
+    ],
+    "classes": []
+}

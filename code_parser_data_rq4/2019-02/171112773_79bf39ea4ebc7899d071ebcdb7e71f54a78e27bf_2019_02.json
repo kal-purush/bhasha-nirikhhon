@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "login",
+        "err",
+        "api",
+        "err",
+        "err",
+        "api",
+        "err",
+        "message",
+        "message",
+        "api",
+        "message",
+        "message"
+    ],
+    "literals": [
+        "'facebook-chat-api'",
+        "\"fs\"",
+        "\"nampham.hl98\"",
+        "\"trjng9pnamftu.07.99.\""
+    ],
+    "variables": [
+        "login",
+        "fs"
+    ],
+    "comments": [
+        "login({email:\"nampham.hl98\",password:\"trjng9pnamftu.07.99.\",appState: JSON.parse(fs.readFileSync('appstate.json', 'utf8'))}, (err, api) => {",
+        "if(err) return console.error(err);",
+        "api.getFriendsList((err, data) => {",
+        "if(err) return console.error(err);",
+        "console.log(data);",
+        "console.log(data.length);",
+        "});",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

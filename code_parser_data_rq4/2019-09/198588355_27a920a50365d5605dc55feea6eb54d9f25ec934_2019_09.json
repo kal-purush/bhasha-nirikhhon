@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "translates",
+        "translates",
+        "key",
+        "dic",
+        "curr",
+        "curr",
+        "curr",
+        "curr",
+        "dic",
+        "key",
+        "dic",
+        "key",
+        "curr",
+        "dic",
+        "key",
+        "curr",
+        "dic",
+        "groups",
+        "k",
+        "groups",
+        "k",
+        "g",
+        "g",
+        "g",
+        "g",
+        "t",
+        "t",
+        "t",
+        "_",
+        "a",
+        "t",
+        "a",
+        "g",
+        "g"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "${curr.attribute} ${curr.original}",
+        "'同じ台詞に異なる翻訳が当てられています。'"
+    ],
+    "variables": [
+        "groups",
+        "key"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* 同じ台詞の行の中から、異なる訳が当てられている行を検索します。"
+    ],
+    "functions": [
+        "checkDuplicateTranslate"
+    ],
+    "classes": []
+}

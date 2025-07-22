@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "Attr",
+        "Element",
+        "prefix",
+        "localName",
+        "value",
+        "ownerElement",
+        "Attr",
+        "prefix",
+        "localName",
+        "value",
+        "ownerElement",
+        "createElement",
+        "unsafeCreateElement",
+        "appendAttribute",
+        "unsafeAppendAttribute"
+    ],
+    "literals": [
+        "'./Attr'",
+        "'./Element'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'./Element'",
+        "'./util/attrMutations'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Create an Attr node without the usual validation of the given names.\n *\n * @param namespace\n * @param prefix\n * @param localName\n * @param value\n * @param element"
+    ],
+    "functions": [
+        "unsafeCreateAttribute"
+    ],
+    "classes": []
+}

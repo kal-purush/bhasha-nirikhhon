@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "LocaleDefinition",
+        "FakerError",
+        "throwReadOnlyError",
+        "FakerError",
+        "locale",
+        "Proxy",
+        "locale",
+        "target",
+        "categoryName",
+        "categoryName",
+        "proxies",
+        "proxies",
+        "categoryName",
+        "proxies",
+        "categoryName",
+        "createCategoryProxy",
+        "categoryName",
+        "target",
+        "categoryName",
+        "throwReadOnlyError",
+        "throwReadOnlyError",
+        "categoryName",
+        "categoryData",
+        "Proxy",
+        "categoryData",
+        "target",
+        "entryName",
+        "target",
+        "entryName",
+        "value",
+        "target",
+        "entryName",
+        "target",
+        "entryName",
+        "value",
+        "FakerError",
+        "categoryName",
+        "entryName",
+        "value",
+        "FakerError",
+        "categoryName",
+        "entryName",
+        "value",
+        "throwReadOnlyError",
+        "throwReadOnlyError"
+    ],
+    "literals": [
+        "'./definitions'",
+        "'./errors/faker-error'",
+        "'You cannot edit the locale data on the faker instance'",
+        "string",
+        "string",
+        "The locale data for '${categoryName}.${entryName.toString()}' aren't applicable to this locale.\n  If you think this is a bug, please report it at: https://github.com/faker-js/faker",
+        "The locale data for '${categoryName}.${entryName.toString()}' are missing in this locale.\n  Please contribute the missing data to the project or use a locale/Faker instance that has these data.\n  For more information see https://next.fakerjs.dev/guide/localization.html"
+    ],
+    "variables": [
+        "throwReadOnlyError",
+        "proxies",
+        "value",
+        "value"
+    ],
+    "comments": [
+        "Categories are always present (proxied), that's why we return true."
+    ],
+    "docstrings": [
+        "* A proxy for LocaleDefinitions that marks all properties as required and throws an error when an entry is accessed that is not defined.",
+        "* Creates a proxy for LocaleDefinition that throws an error if an undefined property is accessed.\n *\n * @param locale The locale definition to create the proxy for.",
+        "* Creates a proxy for a category that throws an error when accessing an undefined property.\n *\n * @param categoryName The name of the category.\n * @param categoryData The module to create the proxy for."
+    ],
+    "functions": [
+        "createLocaleProxy",
+        "has",
+        "get",
+        "createCategoryProxy",
+        "has",
+        "get"
+    ],
+    "classes": []
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "require",
+        "process",
+        "readFile",
+        "outputTarget",
+        "data",
+        "data",
+        "line",
+        "line",
+        "writeFile",
+        "outputTarget",
+        "defineIncluded",
+        "writeFile",
+        "outputTarget",
+        "defineExcluded"
+    ],
+    "literals": [
+        "'fs'",
+        "./out/${outputTarget}.ts",
+        "'utf8'",
+        "\"import type { JSX } from '../dist/components'\"",
+        "\"import type { JSX } from '../dist/types/components'\"",
+        "\"import { defineCustomElements } from '../dist/components/dist/loader/index.js';\"",
+        "\"import { defineCustomElements } from '../dist/loader/index.es2017.js';\"",
+        "\"import type { JSX } from '../dist/components'\"",
+        "\"import type { JSX } from '../dist/types/components'\"",
+        "'\\n'",
+        "'defineCustomElements'",
+        "'\\n'",
+        "./out/${outputTarget}.ts",
+        "'utf8'",
+        "./out/${outputTarget}-define-excluded.ts",
+        "'utf8'"
+    ],
+    "variables": [
+        "outputTarget",
+        "data",
+        "defineIncluded",
+        "defineExcluded"
+    ],
+    "comments": [
+        "eslint-disable @typescript-eslint/no-var-requires"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

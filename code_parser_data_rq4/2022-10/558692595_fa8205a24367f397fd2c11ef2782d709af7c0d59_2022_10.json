@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Filters",
+        "WordPrediction",
+        "Api",
+        "Attributes",
+        "AttributeUsage",
+        "AttributeTargets",
+        "Class",
+        "AttributeTargets",
+        "Method",
+        "Attribute",
+        "IAuthorizationFilter",
+        "AuthorizationFilterContext",
+        "context",
+        "context",
+        "ActionDescriptor",
+        "EndpointMetadata",
+        "OfType",
+        "AllowAnonymousAttribute",
+        "Any",
+        "allowAnonymous",
+        "context",
+        "HttpContext",
+        "Items",
+        "credentials",
+        "context",
+        "Result",
+        "JsonResult",
+        "message",
+        "StatusCode",
+        "StatusCodes",
+        "Status401Unauthorized",
+        "context",
+        "HttpContext",
+        "Response",
+        "Headers"
+    ],
+    "literals": [
+        "\"credentials\"",
+        "\"Unauthorized\"",
+        "\"WWW-Authenticate\"",
+        "\"Basic realm=\\\"\\\", charset=\\\"UTF-8\\\"\""
+    ],
+    "variables": [
+        "allowAnonymous",
+        "credentials"
+    ],
+    "comments": [
+        "skip authorization if action is decorated with [AllowAnonymous] attribute",
+        "not logged in - return 401 unauthorized",
+        "set 'WWW-Authenticate' header to trigger login popup in browsers"
+    ],
+    "docstrings": [],
+    "functions": [
+        "OnAuthorization"
+    ],
+    "classes": [
+        "AuthorizeAttribute"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Threading",
+        "Tasks",
+        "YesSql",
+        "OrchardCore",
+        "ContentManagement",
+        "ContentItem",
+        "IQuery",
+        "ContentItem",
+        "query",
+        "IContentManager",
+        "contentManager",
+        "contentManager",
+        "LoadAsync",
+        "query",
+        "FirstOrDefaultAsync",
+        "ContentItem",
+        "IQuery",
+        "ContentItem",
+        "query",
+        "IContentManager",
+        "contentManager",
+        "contentManager",
+        "LoadAsync",
+        "query",
+        "ListAsync",
+        "IAsyncEnumerable",
+        "ContentItem",
+        "IQuery",
+        "ContentItem",
+        "query",
+        "IContentManager",
+        "contentManager",
+        "contentManager",
+        "LoadAsync",
+        "query",
+        "ToAsyncEnumerable"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Allows to execute an <see cref=\"IQuery{ContentItem}\"/> to return matching <see cref=\"ContentItem\"/>s",
+        "but after having invoked the load events on them by using the <see cref=\"IContentManager\"/>.",
+        "</summary>",
+        "Executes this <see cref=\"IQuery{ContentItem}\"/> to return the first matching <see cref=\"ContentItem\"/>",
+        "but after having invoked the load events on it by using the <see cref=\"IContentManager\"/>.",
+        "</summary>",
+        "Executes this <see cref=\"IQuery{ContentItem}\"/> to return all matching <see cref=\"ContentItem\"/>s",
+        "but after having invoked the load events on them by using the <see cref=\"IContentManager\"/>.",
+        "</summary>",
+        "Executes this <see cref=\"IQuery{ContentItem}\"/> to return all matching <see cref=\"ContentItem\"/>s",
+        "but after having invoked the load events on them by using the <see cref=\"IContentManager\"/>.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "FirstOrDefaultAsync",
+        "ListAsync",
+        "ToAsyncEnumerable"
+    ],
+    "classes": [
+        "ContentQueryExtensions"
+    ]
+}

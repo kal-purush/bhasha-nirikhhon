@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "contents",
+        "position",
+        "position",
+        "color",
+        "random",
+        "random",
+        "contents",
+        "p5",
+        "vel",
+        "noStroke",
+        "fill",
+        "ellipse",
+        "ellipse",
+        "ellipse",
+        "ellipse",
+        "ellipse",
+        "image",
+        "image",
+        "fill",
+        "stroke",
+        "rect",
+        "mouseX",
+        "mouseY",
+        "fill",
+        "textAlign",
+        "CENTER",
+        "CENTER",
+        "text",
+        "mouseX",
+        "mouseY",
+        "x",
+        "y",
+        "dist",
+        "x",
+        "y",
+        "d"
+    ],
+    "literals": [
+        "'STAGE: INTERPHASE'",
+        "'STAGE: PROPHASE'",
+        "'STAGE: METAPHASE'",
+        "'STAGE: ANAPHASE'",
+        "'STAGE: TELOPHASE'",
+        "'STAGE: INTERPHASE'"
+    ],
+    "variables": [
+        "vel",
+        "d"
+    ],
+    "comments": [
+        "ellipse(this.pos.x, this.pos.y, this.r*2, this.r*2);",
+        "interphase = loadImage('assets/Interphase.png');",
+        "image(this.contents[this.stage], this.pos.x - (this.r/2) - 10, this.pos.y-(this.r/2) - 10, this.r+20, this.r+20)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "preload",
+        "move",
+        "show",
+        "showPhase",
+        "mitosis",
+        "stateTest",
+        "isOverCell",
+        "changeState"
+    ],
+    "classes": [
+        "Cell"
+    ]
+}

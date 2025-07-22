@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "division",
+        "print_function",
+        "unicode_literals",
+        "logging",
+        "os",
+        "treadmill",
+        "appcfg",
+        "features",
+        "feature_base",
+        "logging",
+        "getLogger",
+        "feature_base",
+        "Feature",
+        "manifest",
+        "runtime",
+        "runtime",
+        "manifest",
+        "_LOGGER",
+        "info",
+        "manifest",
+        "append",
+        "_generate_warpgate_service",
+        "cmd",
+        "os",
+        "path",
+        "expandvars"
+    ],
+    "literals": [
+        "'linux'",
+        "'Configuring warpgate.'",
+        "'system_services'",
+        "'warpgate'",
+        "'exec $TREADMILL/bin/treadmill sproc warpgate'",
+        "'name'",
+        "'warpgate'",
+        "'proid'",
+        "'root'",
+        "'restart'",
+        "'limit'",
+        "'interval'",
+        "'command'",
+        "'root'",
+        "'environ'",
+        "'name'",
+        "'KRB5CCNAME'",
+        "'value'",
+        "'FILE:${TREADMILL_HOST_TICKET}'",
+        "'config'",
+        "'downed'",
+        "'trace'"
+    ],
+    "variables": [
+        "_LOGGER",
+        "manifest",
+        "cmd"
+    ],
+    "comments": [
+        "full command include creating rest module cfg file and launch sproc"
+    ],
+    "docstrings": [
+        "\"\"\"Configures warpgate inside the container.\"\"\"",
+        "\"\"\"Feature to enable warpgate daemon in container\n    \"\"\""
+    ],
+    "functions": [
+        "applies",
+        "configure",
+        "_generate_warpgate_service"
+    ],
+    "classes": [
+        "WarpgateFeature"
+    ]
+}

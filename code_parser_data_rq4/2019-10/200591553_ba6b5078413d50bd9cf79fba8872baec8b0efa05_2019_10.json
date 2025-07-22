@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "collections",
+        "deque",
+        "lines",
+        "histlen",
+        "lines",
+        "deque",
+        "maxlen",
+        "histlen",
+        "lineno",
+        "line",
+        "lines",
+        "history",
+        "append",
+        "lineno",
+        "line",
+        "line",
+        "history",
+        "clear",
+        "open",
+        "f",
+        "LineHistory",
+        "f",
+        "line",
+        "lines",
+        "line",
+        "lineno",
+        "hline",
+        "lines",
+        "history",
+        "format",
+        "lineno",
+        "hline",
+        "end"
+    ],
+    "literals": [
+        "'__main__'",
+        "'/etc/passwd'",
+        "'root'",
+        "'{}:{}'",
+        "''"
+    ],
+    "variables": [
+        "lines",
+        "history",
+        "lines"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\ndeque 发音是 “deck”，”double-ended queue”的简称\n\"\"\"",
+        "\"\"\"\n一个需要注意的小地方是，如果你在迭代操作时不使用for循环语句，那么你得先调用 iter() 函数\n>>> f = open('somefile.txt')\n>>> lines = linehistory(f)\n>>> next(lines)\nTraceback (most recent call last):\n    File \"<stdin>\", line 1, in <module>\nTypeError: 'linehistory' object is not an iterator\n\n>>> # Call iter() first, then start iterating\n>>> it = iter(lines)\n\"\"\""
+    ],
+    "functions": [
+        "__iter__",
+        "clear"
+    ],
+    "classes": [
+        "LineHistory"
+    ]
+}

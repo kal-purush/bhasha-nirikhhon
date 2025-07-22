@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "com",
+        "banking",
+        "bankservice",
+        "repository",
+        "com",
+        "banking",
+        "bankservice",
+        "model",
+        "Account",
+        "java",
+        "util",
+        "java",
+        "util",
+        "Optional",
+        "org",
+        "springframework",
+        "data",
+        "jpa",
+        "repository",
+        "JpaRepository",
+        "org",
+        "springframework",
+        "data",
+        "jpa",
+        "repository",
+        "Query",
+        "AccountRepository",
+        "Query",
+        "phone",
+        "number"
+    ],
+    "literals": [
+        "\"SELECT a FROM accounts a JOIN FETCH a.user WHERE a.user.phoneNumber = :phone\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "findAllAccountsByPhoneNumber",
+        "getAccountByAccountNumber"
+    ],
+    "classes": []
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "fetch",
+        "process",
+        "process",
+        "res",
+        "projects",
+        "error",
+        "fetch",
+        "process",
+        "process",
+        "res",
+        "projects",
+        "projects",
+        "error"
+    ],
+    "literals": [
+        "'use server'",
+        "string",
+        "string",
+        "'BACKEND'",
+        "'FRONTEND'",
+        "string",
+        "string",
+        "string",
+        "${process.env.API_URL}/projects/pinned",
+        "'GET'",
+        "Bearer ${process.env.ACCESS_TOKEN}",
+        "'getPinnedProjects'",
+        "${process.env.API_URL}/projects",
+        "'GET'",
+        "Bearer ${process.env.ACCESS_TOKEN}",
+        "'getAllProjects'",
+        "'FRONTEND'",
+        "'BACKEND'"
+    ],
+    "variables": [
+        "res",
+        "res",
+        "frontend",
+        "backend"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getPinnedProjects",
+        "getProjectsByTags"
+    ],
+    "classes": []
+}

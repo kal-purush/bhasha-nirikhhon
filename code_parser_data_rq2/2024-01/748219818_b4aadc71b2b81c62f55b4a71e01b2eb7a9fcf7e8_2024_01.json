@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "defineNuxtModule",
+        "addPlugin",
+        "createResolver",
+        "defineNuxtModule",
+        "options",
+        "nuxt",
+        "createResolver",
+        "addPlugin",
+        "resolver"
+    ],
+    "literals": [
+        "'@nuxt/kit'",
+        "'my-module'",
+        "'myModule'",
+        "'./runtime/plugin'"
+    ],
+    "variables": [
+        "resolver"
+    ],
+    "comments": [
+        "Module options TypeScript interface definition",
+        "Default configuration options of the Nuxt module",
+        "Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setup"
+    ],
+    "classes": []
+}

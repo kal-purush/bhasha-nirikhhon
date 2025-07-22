@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "pathlib",
+        "Path",
+        "datetime",
+        "datetime",
+        "Path",
+        "parent",
+        "Path",
+        "parent",
+        "BUPY_INCL",
+        "read_text",
+        "splitlines",
+        "BUPY_EXCL",
+        "read_text",
+        "splitlines",
+        "Path",
+        "exists",
+        "Path",
+        "dest_drive",
+        "dest_dir",
+        "exists",
+        "dest_dir",
+        "mkdir",
+        "datetime",
+        "now",
+        "isoformat",
+        "timespec",
+        "dest_dir",
+        "bupy_time",
+        "dest",
+        "mkdir"
+    ],
+    "literals": [
+        "'bupy_include'",
+        "'bupy_exclude'",
+        "'/run/media/erik/wd_backup'",
+        "'Could not locate wd_backup drive in /run/media/erik'",
+        "'/run/media/erik/wd_backup'",
+        "'bupy'",
+        "'seconds'"
+    ],
+    "variables": [
+        "BUPY_INCL",
+        "BUPY_EXCL",
+        "SRC_DIRS",
+        "EXCLUSIONS",
+        "dest_drive",
+        "dest_dir",
+        "bupy_time",
+        "dest"
+    ],
+    "comments": [
+        "!/usr/bin/python",
+        "test exclusions for /",
+        "if it has a slash, it's a path; otherwise, it's a name",
+        "either way, if it has a glob, use Path.match(glob-pattern)!"
+    ],
+    "docstrings": [],
+    "functions": [
+        "backup_init"
+    ],
+    "classes": []
+}

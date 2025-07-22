@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "db",
+        "sequelize",
+        "sequelize",
+        "sequelize",
+        "sequelize",
+        "sequelize",
+        "sequelize",
+        "sequelize",
+        "sequelize",
+        "sequelize",
+        "sequelize",
+        "sequelize",
+        "sequelize",
+        "ArchiveItem"
+    ],
+    "literals": [
+        "'sequelize'",
+        "'../configs/database.js'",
+        "'archiveItem'"
+    ],
+    "variables": [
+        "sequelize",
+        "db",
+        "ArchiveItem"
+    ],
+    "comments": [
+        "freezeTableName: true,",
+        "tableName: 'archiveItems'",
+        "ArchiveItem.sync({force: true});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

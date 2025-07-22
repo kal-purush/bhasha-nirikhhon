@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "$",
+        "Stripe",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "error",
+        "Stripe",
+        "ccNum",
+        "cvcNum",
+        "expMonth",
+        "expYear",
+        "stripeResponseHandler",
+        "status",
+        "response",
+        "$",
+        "response",
+        "f",
+        "token",
+        "f"
+    ],
+    "literals": [
+        "'meta[name=\"stripe-key\"]'",
+        "'content'",
+        "\"#form-submit-btn\"",
+        "'input[type=submit]'",
+        "'disabled'",
+        "'#card_number'",
+        "'#card_code'",
+        "'#card_month'",
+        "'#card_year'",
+        "\"#new_user\"",
+        "'<input type=\"hidden\" name=\"user[stripe_card_token]\" value=\"'",
+        "'\" />'"
+    ],
+    "variables": [
+        "error",
+        "ccNum",
+        "cvcNum",
+        "expMonth",
+        "expYear",
+        "f",
+        "token"
+    ],
+    "comments": [
+        "Watch for a form submission:",
+        "Get the Stripe token:",
+        "form submission",
+        "Get a reference to the form:",
+        "Get the token from the response:",
+        "Add the token to the form:",
+        "Submit the form:"
+    ],
+    "docstrings": [],
+    "functions": [
+        "stripeResponseHandler"
+    ],
+    "classes": []
+}

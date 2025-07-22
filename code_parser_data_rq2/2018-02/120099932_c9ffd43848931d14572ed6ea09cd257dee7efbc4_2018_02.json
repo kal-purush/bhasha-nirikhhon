@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "appRoot",
+        "config",
+        "UpdateOnPush",
+        "UpdateOnRelease",
+        "UpdateOnTag",
+        "UpdatePolicy",
+        "require",
+        "appRoot",
+        "process",
+        "process",
+        "process",
+        "UpdatePolicy",
+        "events",
+        "UpdateOnPush",
+        "events",
+        "UpdateOnTag",
+        "events",
+        "UpdateOnRelease",
+        "pj",
+        "pj",
+        "process",
+        "config",
+        "config"
+    ],
+    "literals": [
+        "\"app-root-path\"",
+        "\"config\"",
+        "\"./handlers/event/UpdateOnPush\"",
+        "\"./handlers/event/UpdateOnRelease\"",
+        "\"./handlers/event/UpdateOnTag\"",
+        "\"./start.client\"",
+        "${appRoot.path}/package.json",
+        "\"production\"",
+        "\"staging\"",
+        "\"push\"",
+        "\"tag\"",
+        "\"release\"",
+        "\"endpoints.graphql\"",
+        "\"endpoints.api\""
+    ],
+    "variables": [
+        "pj",
+        "token",
+        "notLocal",
+        "events",
+        "configuration"
+    ],
+    "comments": [
+        "tslint:disable-next-line:no-var-requires",
+        "worker: 2,"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

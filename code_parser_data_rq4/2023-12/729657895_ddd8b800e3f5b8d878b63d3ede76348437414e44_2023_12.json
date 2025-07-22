@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "requests",
+        "requests",
+        "get",
+        "url",
+        "response",
+        "status_code",
+        "response",
+        "json",
+        "data",
+        "response",
+        "status_code",
+        "requests",
+        "exceptions",
+        "RequestException",
+        "e",
+        "e"
+    ],
+    "literals": [
+        "'http://127.0.0.1:8000/'",
+        "'store_name'",
+        "'Marjane'",
+        "'year'",
+        "'month'",
+        "'day'",
+        "'sensor_id'",
+        "f\"Erreur lors de la requête: {response.status_code}\"",
+        "f\"Une erreur s'est produite: {e}\""
+    ],
+    "variables": [
+        "url",
+        "response",
+        "data"
+    ],
+    "comments": [
+        "URL de l'API",
+        "Paramètres de la requête",
+        "Envoi de la requête GET",
+        "Vérification du code de statut",
+        "Extraction des données (supposant que la réponse est au format JSON)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

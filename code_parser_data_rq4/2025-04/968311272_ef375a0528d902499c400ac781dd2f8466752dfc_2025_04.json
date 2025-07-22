@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "input",
+        "file_path",
+        "sqlite3",
+        "sqlite3",
+        "connect",
+        "database",
+        "pandas",
+        "pd",
+        "pd",
+        "read_sql",
+        "conn",
+        "tables"
+    ],
+    "literals": [
+        "\"Enter the path to the file: \"",
+        "\"Selected file:\"",
+        "'database.sqlite'",
+        "'Opened data successfully'"
+    ],
+    "variables": [
+        "file_path",
+        "database",
+        "conn",
+        "tables"
+    ],
+    "comments": [
+        "Import file from your system",
+        "Connect with sqlite database",
+        "Import necessary libraries",
+        "Read SQL query for getting all the tables of database into a dataframe",
+        "Here SELECT * means select all"
+    ],
+    "docstrings": [
+        "\"\"\"### **2. Connect with SQLite Databases\"\"\"",
+        "\"\"\"SELECT *\n    FROM sqlite_master\n    WHERE type='table';\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

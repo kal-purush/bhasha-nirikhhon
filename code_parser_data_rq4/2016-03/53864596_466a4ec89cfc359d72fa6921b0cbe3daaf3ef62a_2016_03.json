@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Web",
+        "Mvc",
+        "MVCWebApp",
+        "Areas",
+        "Admin",
+        "AreaRegistration",
+        "AreaRegistrationContext",
+        "context",
+        "context",
+        "MapRoute",
+        "name",
+        "url",
+        "defaults",
+        "area",
+        "controller",
+        "action",
+        "id",
+        "UrlParameter",
+        "Optional",
+        "namespaces"
+    ],
+    "literals": [
+        "\"Admin\"",
+        "\"Admin_default\"",
+        "\"Admin/{controller}/{action}/{id}\"",
+        "\"Admin\"",
+        "\"Home\"",
+        "\"Index\"",
+        "\"MVCWebApp.Areas.Admin.Controllers\""
+    ],
+    "variables": [
+        "AreaName"
+    ],
+    "comments": [
+        "zodat ie in de juiste map kijkt, stackoverflow.com/questions/7842293",
+        "Interesting links:",
+        "http://stackoverflow.com/questions/8926404/mvc3-razor-error-the-view-or-its-master-was-not-found-or-no-view-engine-support",
+        "Explains that localhost/products gets in the right controller but will never find the view. Instead (of course) use",
+        "localhost/admin/products"
+    ],
+    "docstrings": [],
+    "functions": [
+        "RegisterArea"
+    ],
+    "classes": [
+        "AdminAreaRegistration"
+    ]
+}

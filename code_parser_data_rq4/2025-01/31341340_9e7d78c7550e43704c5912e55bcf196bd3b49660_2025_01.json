@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "NextResponse",
+        "crypto",
+        "setTurnCredentials",
+        "process",
+        "process",
+        "NextResponse",
+        "crypto",
+        "crypto",
+        "setTurnCredentials",
+        "username",
+        "password",
+        "ttl",
+        "NextResponse",
+        "turnHost",
+        "turnHost",
+        "password"
+    ],
+    "literals": [
+        "'next/server'",
+        "'crypto'",
+        "'../../../coturn'",
+        "'127.0.0.1'",
+        "'stun:stun.l.google.com:19302'",
+        "'hex'",
+        "'hex'",
+        "'stun:stun.l.google.com:19302'",
+        "turn:${turnHost}:3478",
+        "turns:${turnHost}:5349"
+    ],
+    "variables": [
+        "turnHost",
+        "username",
+        "password",
+        "ttl"
+    ],
+    "comments": [
+        "Generate ephemeral credentials",
+        "24 hours",
+        "Store credentials in Redis"
+    ],
+    "docstrings": [],
+    "functions": [
+        "POST"
+    ],
+    "classes": []
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "CentCom",
+        "API",
+        "Models",
+        "CentCom",
+        "API",
+        "Services",
+        "Microsoft",
+        "AspNetCore",
+        "Http",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "CentCom",
+        "API",
+        "Controllers",
+        "Produces",
+        "ApiController",
+        "ControllerBase",
+        "IAppStatusService",
+        "status",
+        "_status",
+        "status",
+        "HttpGet",
+        "ProducesResponseType",
+        "AppVersionDTO",
+        "StatusCodes",
+        "Status200OK",
+        "Ok",
+        "_status",
+        "GetAppVersionDTO"
+    ],
+    "literals": [
+        "\"application/json\"",
+        "\"version\""
+    ],
+    "variables": [
+        "IAppStatusService",
+        "_status"
+    ],
+    "comments": [
+        "Get the current version of the application.",
+        "</summary>",
+        "<returns>An object containing details about the current version</returns>",
+        "<response code=\"200\">The application version</response>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "StatusController",
+        "IActionResult",
+        "GetVersion"
+    ],
+    "classes": [
+        "StatusController"
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "com",
+        "linkedin",
+        "pinot",
+        "tools",
+        "pacelab",
+        "benchmark",
+        "VIEW_START_TIME",
+        "READ_START_TIME",
+        "APPLY_START_TIME",
+        "CLICK_TIME",
+        "SEARCH_TIME",
+        "MIN_PROFILE_START_TIME",
+        "MAX_PROFILE_START_TIME",
+        "MIN_APPLY_START_TIME",
+        "MAX_APPLY_START_TIME",
+        "MIN_READ_START_TIME",
+        "MAX_READ_START_TIME",
+        "MIN_SEARCH_START_TIME",
+        "MAX_SEARCH_START_TIME",
+        "MIN_CLICK_TIME",
+        "MAX_CLICK_TIME",
+        "STOP",
+        "QUERY_COUNT",
+        "QUERY_TYPE_COUNT",
+        "HOURSECOND",
+        "SECS_IN_DURATION",
+        "HOURSECOND",
+        "HOURSECOND",
+        "HOURSECOND",
+        "GROUP_BY_LIMIT",
+        "ZIPFS_PARAMETER",
+        "QUERY_TYPE",
+        "QPS"
+    ],
+    "literals": [
+        "\"ViewStartTime\"",
+        "\"ReadStartTime\"",
+        "\"ApplyStartTime\"",
+        "\"ClickTime\"",
+        "\"SearchTime\"",
+        "\"MinProfileViewStartTime\"",
+        "\"MaxProfileViewStartTime\"",
+        "\"MinApplyStartTime\"",
+        "\"MaxApplyStartTime\"",
+        "\"MinReadStartTime\"",
+        "\"MaxReadStartTime\"",
+        "\"MinSearchStartTime\"",
+        "\"MaxSearchStartTime\"",
+        "\"MinClickTime\"",
+        "\"MaxClickTime\"",
+        "\"GroupByLimit\"",
+        "\"ZipfSParameter\"",
+        "\"QueryType\"",
+        "\"QPS\""
+    ],
+    "variables": [],
+    "comments": [
+        "Table specific constants (to generate where clause randomly)"
+    ],
+    "docstrings": [
+        "* Copyright (C) 2014-2016 LinkedIn Corp. (pinot-core@linkedin.com)\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *         http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License."
+    ],
+    "functions": [],
+    "classes": [
+        "Constant"
+    ]
+}

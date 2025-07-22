@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "exercise13_1",
+        "file_to_words",
+        "filename",
+        "line",
+        "file_to_words",
+        "filename",
+        "hist",
+        "get",
+        "line",
+        "hist",
+        "filename",
+        "text_histogram",
+        "filename",
+        "line",
+        "hist",
+        "vocab_count",
+        "vocab_count",
+        "text_histogram",
+        "vocab_size"
+    ],
+    "literals": [
+        "\"__main__\"",
+        "\"sciencefiction.txt\"",
+        "\"sciencefiction.txt\""
+    ],
+    "variables": [
+        "hist",
+        "hist",
+        "line",
+        "hist",
+        "vocab_count"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\" This is a solution to an exercise from\n\nThink Python, 2nd Edition\nby Allen Downey\nhttp://thinkpython2.com\n\nCopyright 2015 Allen Downey\n\nLicense: http://creativecommons.org/licenses/by/4.0/\n\nExercise 13_2: \nModify your program from the previous exercise to read the book you downloaded,\nskip over the header information at the beginning of the file, and process the rest of\nthe words as before.\n\nThen modify the program to count the total number of words in the book, and the\nnumber of times each word is used.\n\nPrint the number of different words used in the book. Compare different books by\ndifferent authors, written in different eras. Which author uses the most extensive\nvocabulary?\n\"\"\"",
+        "\"\"\"Takes a string representing a filename as input and returns\n\ta dictionary histogram of the words in the file\"\"\"",
+        "\"\"\"Takes a text file as input and outputs the number of different \n\twords in the text\"\"\""
+    ],
+    "functions": [
+        "text_histogram",
+        "vocab_size"
+    ],
+    "classes": []
+}

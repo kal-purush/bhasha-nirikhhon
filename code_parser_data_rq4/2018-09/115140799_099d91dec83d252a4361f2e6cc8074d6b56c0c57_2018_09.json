@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "target_column",
+        "target_table",
+        "cursor",
+        "column",
+        "cursor",
+        "columns",
+        "target_table",
+        "valid_columns",
+        "append",
+        "column",
+        "column_name",
+        "target_column",
+        "valid_columns",
+        "cursor",
+        "close",
+        "ValueError",
+        "format",
+        "target_column",
+        "target_table",
+        "target_column"
+    ],
+    "literals": [
+        "'\\\"{}\\\" is not a valid column in table \\\"{}\\\".'"
+    ],
+    "variables": [
+        "valid_columns"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\" Makes sure column belongs to table\n\n    Args:\n         target_column (str): column in question\n         target_table (str): table name\n         cursor (pyodbc.Cursor): active cursor\n\n    Returns:\n        validated column name\n\n    Raises:\n         ValueError if target_column is not valid in target_table\n    \"\"\""
+    ],
+    "functions": [
+        "validate_column"
+    ],
+    "classes": []
+}

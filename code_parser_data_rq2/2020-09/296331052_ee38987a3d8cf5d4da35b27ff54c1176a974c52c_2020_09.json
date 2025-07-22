@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "sl",
+        "sl",
+        "sl",
+        "sl",
+        "$",
+        "handleShoppingList"
+    ],
+    "literals": [
+        "\"apples\"",
+        "\"oranges\"",
+        "\"milk\"",
+        "\"bread\"",
+        "'`renderShoppingList` ran'",
+        "'`handleNewItemSubmit` ran'",
+        "'`handleItemCheckClicked` ran'",
+        "'`handleDeleteItemClicked` ran'"
+    ],
+    "variables": [
+        "sl"
+    ],
+    "comments": [
+        "eslint-disable quotes",
+        "eslint-disable no-console",
+        "eslint-disable no-undef",
+        "eslint-disable strict",
+        "`STORE` is responsible for storing the underlying data",
+        "that our app needs to keep track of in order to work.",
+        "",
+        "for a shopping list, our data model is pretty simple.",
+        "we just have an array of shopping list items. each one",
+        "is an object with a `name` and a `checked` property that",
+        "indicates if it's checked off or not.",
+        "we're pre-adding items to the shopping list so there's",
+        "something to see when the page first loads.",
+        "this function will be responsible for rendering the shopping list in",
+        "the DOM",
+        "this function will be responsible for when users add a new shopping list item",
+        "this function will be responsible for when users click the \"check\" button on",
+        "a shopping list item.",
+        "this function will be responsible for when users want to delete a shopping list",
+        "item",
+        "this function will be our callback when the page loads. it's responsible for",
+        "initially rendering the shopping list, and activating our individual functions",
+        "that handle new item submission and user clicks on the \"check\" and \"delete\" buttons",
+        "for individual shopping list items.",
+        "when the page loads, call `handleShoppingList`"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handleShoppingList"
+    ],
+    "classes": []
+}

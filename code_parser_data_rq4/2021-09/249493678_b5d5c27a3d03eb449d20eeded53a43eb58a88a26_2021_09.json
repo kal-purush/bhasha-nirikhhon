@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "promisify",
+        "cp",
+        "FFprobeJSON",
+        "invalidFFprobeError",
+        "missingFFprobeError",
+        "store",
+        "validateFFprobe",
+        "promisify",
+        "cp",
+        "filePath",
+        "store",
+        "ffprobePath",
+        "missingFFprobeError",
+        "validateFFprobe",
+        "ffprobePath",
+        "invalidFFprobeError",
+        "ffprobePath",
+        "exec",
+        "ffprobePath",
+        "filePath",
+        "stdout"
+    ],
+    "literals": [
+        "\"util\"",
+        "\"child_process\"",
+        "\"./types\"",
+        "\"../dialogs\"",
+        "\"../store\"",
+        "\"./validateFFpath\"",
+        "string",
+        "\"ffprobePath\"",
+        "string",
+        "${ffprobePath} -show_format -show_streams -print_format json -i ${filePath}"
+    ],
+    "variables": [
+        "exec",
+        "ffprobePath"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "readMetadata"
+    ],
+    "classes": []
+}

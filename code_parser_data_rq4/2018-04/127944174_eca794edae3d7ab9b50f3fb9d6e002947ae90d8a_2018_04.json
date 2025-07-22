@@ -1,0 +1,37 @@
+{
+    "identifiers": [],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Walmart error response, typically contained in the response `error` property.",
+        "* Collection of Walmart errors.",
+        "* Collection of Walmart errors.",
+        "* Single error object reported by Walmart.",
+        "* Single error object reported by Walmart.",
+        "* @example \"CONTENT_NOT_FOUND.GMP_ORDER_API\"",
+        "* @example \"Failed when called getAllOrders. Orders not found for given search parameters \"",
+        "* @example \"Requested content could not be found.\"",
+        "* @example \"INFO\"",
+        "* @example \"APPLICATION\"",
+        "* @todo We have not yet seen an error that populates this property.",
+        "* Walmart error identifiers.",
+        "* Walmart error identifiers.",
+        "* @todo We have not yet seen an error that populates this property."
+    ],
+    "functions": [],
+    "classes": [
+        "WMTErrorResponse",
+        "WMTErrorCollection",
+        "WMTError",
+        "WMTErrorIdentifier"
+    ]
+}

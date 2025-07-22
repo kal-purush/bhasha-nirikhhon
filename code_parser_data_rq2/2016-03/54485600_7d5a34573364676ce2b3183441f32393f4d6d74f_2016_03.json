@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Component",
+        "Component",
+        "clickedTask",
+        "clickedTask",
+        "description",
+        "id"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'my-app'",
+        "<div class=\"container\">\n      <h1>To-Do List</h1>\n      <h3 *ngFor=\"#task of tasks\" (click)=\"taskWasSelected(task)\">{{ task.description }}</h3>\n    <div>",
+        "\"Create To-Do List app\"",
+        "\"Learn Kung Fu.\"",
+        "\"Rewatch all the Lord of the Rings movies.\"",
+        "\"Do the laundry.\"",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "Task[] (or Array<Task>) identifies tasks as an array of Task objects"
+    ],
+    "docstrings": [],
+    "functions": [
+        "taskWasSelected"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

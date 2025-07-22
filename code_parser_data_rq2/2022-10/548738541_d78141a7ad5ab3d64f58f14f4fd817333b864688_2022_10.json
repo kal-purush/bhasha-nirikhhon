@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "my_body",
+        "row",
+        "my_body",
+        "row",
+        "row",
+        "row",
+        "line_count",
+        "response_status",
+        "response",
+        "line_count",
+        "response",
+        "response_status",
+        "line_count",
+        "line_count",
+        "line_count",
+        "line_count",
+        "line_count",
+        "line_count",
+        "line_count",
+        "line_count",
+        "post_response",
+        "post_response",
+        "status_code",
+        "post_response",
+        "json",
+        "response_status",
+        "responsej"
+    ],
+    "literals": [
+        "\"terminal\"",
+        "\"id\"",
+        "\"id_meio_captura\"",
+        "f'Line to process: {row}'",
+        "f'Response {line_count}: {response}'",
+        "f'Status code: {response_status}'",
+        "f'Sending request {line_count + 1}:'",
+        "f'Sending request {line_count}:'",
+        "f'Processed {line_count} line of data.'",
+        "f'Processed {line_count} lines of data.'"
+    ],
+    "variables": [
+        "response_status",
+        "responsej"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "change_body",
+        "print_line_to_process",
+        "print_result",
+        "print_send_request",
+        "process_result",
+        "process_responses"
+    ],
+    "classes": []
+}

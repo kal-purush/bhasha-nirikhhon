@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Counter",
+        "Histogram",
+        "Counter",
+        "Histogram",
+        "Histogram",
+        "durationMs",
+        "durationMs",
+        "durationMs",
+        "durationMs",
+        "ApiMetrics"
+    ],
+    "literals": [
+        "'prom-client'",
+        "string",
+        "string",
+        "string",
+        "'get_unknown_transaction_type'",
+        "'Increments when an unknown transaction type is ingested.'",
+        "'query_raw_token_transactions_ms'",
+        "'Measure of the execution duration (ms) of the getRawTokenTransactions method which fetches data from blockscout.'",
+        "'query_exchange_rate_ms'",
+        "'Measure of the execution duration (ms) of the queryExchangeRate method which fetches exchange rates for Valora.'"
+    ],
+    "variables": [
+        "metrics"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "unknownTransaction",
+        "setRawTokenDuration",
+        "setQueryExchangeRateDuration"
+    ],
+    "classes": [
+        "ApiMetrics"
+    ]
+}

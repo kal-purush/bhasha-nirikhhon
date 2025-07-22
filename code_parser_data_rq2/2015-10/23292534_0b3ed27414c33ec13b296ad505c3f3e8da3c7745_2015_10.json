@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "metakernel",
+        "Magic",
+        "option",
+        "IPython",
+        "display",
+        "IFrame",
+        "Magic",
+        "code",
+        "join",
+        "line",
+        "line",
+        "text",
+        "split",
+        "pre_code",
+        "new_code",
+        "post_code",
+        "kernel",
+        "kernel",
+        "register_magics",
+        "BrainMagic",
+        "metakernel",
+        "IPythonKernel",
+        "IPython",
+        "core",
+        "magic",
+        "register_cell_magic",
+        "IPythonKernel",
+        "BrainMagic",
+        "kernel",
+        "register_cell_magic",
+        "line",
+        "cell",
+        "IPython",
+        "get_ipython",
+        "get_ipython",
+        "cell",
+        "magic",
+        "cell_brain",
+        "ipkernel",
+        "kernel",
+        "do_execute",
+        "magic",
+        "code",
+        "silent"
+    ],
+    "literals": [
+        "\"    \"",
+        "\"\\n\"",
+        "\"\\n\""
+    ],
+    "variables": [
+        "text",
+        "pre_code",
+        "post_code",
+        "new_code",
+        "code",
+        "kernel",
+        "magic",
+        "ipkernel",
+        "magic",
+        "code"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n        %%brain - run a cell as brain control code\n        for a calysto.simulation.\n\n        Requires calysto.\n\n        Examples:\n           %%brain\n           robot.forward(1)\n        \"\"\"",
+        "\"\"\"\nfrom calysto.simulation import *\nrobot = get_robot()\ndef brain():\n\"\"\"",
+        "\"\"\"robot.brain = brain\"\"\""
+    ],
+    "functions": [
+        "cell_brain",
+        "register_magics",
+        "register_ipython_magics",
+        "brain"
+    ],
+    "classes": [
+        "BrainMagic"
+    ]
+}

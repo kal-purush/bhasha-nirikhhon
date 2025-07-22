@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "RootObject",
+        "Identifyable",
+        "Util",
+        "require",
+        "GetEvolutionItemRequirement",
+        "evolutionItemRequirement",
+        "evolutionItemRequirement",
+        "gameMaster",
+        "item",
+        "item",
+        "item",
+        "evolutionItemRequirement",
+        "id",
+        "foundItem",
+        "id",
+        "evolutionItemRequirement",
+        "Util",
+        "id"
+    ],
+    "literals": [
+        "'@income'",
+        "'@core'",
+        "'@util'",
+        "'@data/GAME_MASTER.json'",
+        "string",
+        "string",
+        "'number'",
+        "'ITEM_'",
+        "''"
+    ],
+    "variables": [
+        "gameMaster",
+        "GetEvolutionItemRequirement",
+        "id",
+        "foundItem",
+        "name"
+    ],
+    "comments": [
+        "If is number then it is an item id..",
+        "Find item with the given id",
+        "If is string, it already is the id"
+    ],
+    "docstrings": [
+        "* Returns the identify-able object of the evolution item\n * @param evolutionItemRequirement The evolutionItemRequirement as string or number\n *\n * @example\n * GetEvolutionItemRequirement(1106) // returns { id: \"ITEM_GEN4_EVOLUTION_STONE\", name: \"Gen4 Evolution Stone\" }\n * GetEvolutionItemRequirement(\"ITEM_GEN4_EVOLUTION_STONE\") // returns { id: \"ITEM_GEN4_EVOLUTION_STONE\", name: \"Gen4 Evolution Stone\" }"
+    ],
+    "functions": [],
+    "classes": []
+}

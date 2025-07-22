@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "MESSAGE_TYPE_MESSAGES",
+        "data",
+        "MESSAGE_TYPE_MESSAGES",
+        "data",
+        "compile",
+        "message",
+        "compile",
+        "message",
+        "sendSiteNotify"
+    ],
+    "literals": [
+        "'../../../common/constants'"
+    ],
+    "variables": [
+        "data",
+        "message",
+        "title",
+        "content"
+    ],
+    "comments": [
+        "发送浏览器通知消息",
+        "THINK:  可以设计个机制, 提供给用户切换通知形式, 比如可以选择弹窗通知, 站内通知, 浏览器通知",
+        "new Notification(title, {",
+        "body: content,",
+        "});",
+        "站内通知"
+    ],
+    "docstrings": [],
+    "functions": [
+        "sendNotification"
+    ],
+    "classes": []
+}

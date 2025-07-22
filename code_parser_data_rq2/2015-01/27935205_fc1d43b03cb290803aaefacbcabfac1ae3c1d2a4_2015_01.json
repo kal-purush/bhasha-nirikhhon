@@ -1,0 +1,92 @@
+{
+    "identifiers": [
+        "os",
+        "flask",
+        "config",
+        "Config",
+        "Config",
+        "args",
+        "kwargs",
+        "TogglrConfig",
+        "args",
+        "kwargs",
+        "_load_from_file",
+        "_load_from_direct_env_vars",
+        "env_file_var",
+        "os",
+        "environ",
+        "from_envvar",
+        "env_file_var",
+        "sorted",
+        "env_vars",
+        "os",
+        "environ",
+        "os",
+        "environ",
+        "key",
+        "get",
+        "env_vars",
+        "key",
+        "logger",
+        "sorted",
+        "env_vars",
+        "itervalues",
+        "msgs",
+        "append",
+        "msgs",
+        "join",
+        "msgs",
+        "logger",
+        "logger",
+        "warning",
+        "full_msg",
+        "join",
+        "linebreak",
+        "full_msg",
+        "linebreak",
+        "TogglrConfig",
+        "root_path",
+        "os",
+        "getcwd"
+    ],
+    "literals": [
+        "'api_token'",
+        "'TOGGLR_TOGGL_API_TOKEN'",
+        "'wsid'",
+        "'TOGGLR_TOGGL_WSID'",
+        "'TOGGLR_SETTINGS'",
+        "'Configuration variable not defined: %s'",
+        "\"\\n\"",
+        "\"-\"",
+        "\"\\n\"",
+        "'WARNING:'"
+    ],
+    "variables": [
+        "env_vars",
+        "env_file_var",
+        "msgs",
+        "full_msg",
+        "linebreak",
+        "TOGGLR_CONFIG"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "Print configuration problems to terminal, just in case app.logger is not",
+        "writing to stderr.",
+        "This saves others files from having to create their own config instance."
+    ],
+    "docstrings": [
+        "\"\"\" A dict that provides access to all Togglr configuration values, and\n    defines the environment variables used by Togglr. It allows both Flask\n    settings and Togglr-specific settings to be defined in a single Python\n    configuration file.\n\n    The values in `TogglrConfig.env_vars` are configuration variables that\n    Togglr uses. They can either be set directly as environment variables\n    (which takes precedence), or they can be defined in a Python file along\n    with any other Flask settings. This file should be specified in the\n    environment variable 'TOGGLR_SETTINGS'.\n\n    The dict keys/values should be added to the Flask app configuration, either\n    manually or (if the Flask version allows) by using this class as the value\n    for `Flask.config_class`.\n    \"\"\"",
+        "\"\"\" Use key independent of the environment variable name. \"\"\"",
+        "\"\"\" Print and log warnings if expected variables are missing \"\"\""
+    ],
+    "functions": [
+        "_load_from_file",
+        "_load_from_direct_env_vars",
+        "get_internal",
+        "check_and_warn"
+    ],
+    "classes": [
+        "TogglrConfig"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "unittest",
+        "N",
+        "_",
+        "N",
+        "first",
+        "second",
+        "second",
+        "temp",
+        "first",
+        "unittest",
+        "TestCase",
+        "assertEqual",
+        "Solution",
+        "fib",
+        "assertEqual",
+        "Solution",
+        "fib"
+    ],
+    "literals": [],
+    "variables": [
+        "first",
+        "second",
+        "temp",
+        "first",
+        "second"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    This solution uses dynamic programming to compute the nth Fibonacci\n    number faster than a standard recursive approach would. Since the\n    nth Fibonacci number is the sum of the two previous numbers by\n    definition, it's possible to just maintain the two previous numbers\n    in variables and keep summing them together until you reach the nth\n    number.\n    \"\"\""
+    ],
+    "functions": [
+        "fib",
+        "test_first_example",
+        "test_second_example"
+    ],
+    "classes": [
+        "Solution",
+        "TestSolution"
+    ]
+}

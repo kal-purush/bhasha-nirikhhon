@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "com",
+        "iiitb",
+        "ooadvoid",
+        "dao",
+        "java",
+        "util",
+        "com",
+        "iiitb",
+        "ooadvoid",
+        "pojo",
+        "FlopkartListing",
+        "entity_name",
+        "item",
+        "add",
+        "item",
+        "item",
+        "entity_name",
+        "id",
+        "find",
+        "entity_name",
+        "id",
+        "id",
+        "remove",
+        "entity_name",
+        "id",
+        "id",
+        "item",
+        "id",
+        "update",
+        "item",
+        "id"
+    ],
+    "literals": [
+        "\"FlopkartListing\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "public List<FlopkartListing> getFlopkartListingByCategoty(FlopkartListing item)\n\t{\n\t\treturn super.findAll(entity_name,\"category\", item.getSubcategoryId());\n\t}"
+    ],
+    "functions": [
+        "FlopkartListing",
+        "addFlopkartListing",
+        "getFlopkartListings",
+        "FlopkartListing",
+        "getFlopkartListingById",
+        "deleteFlopkartListing",
+        "updateFlopkart_Item"
+    ],
+    "classes": [
+        "FlopkartListingDAO"
+    ]
+}

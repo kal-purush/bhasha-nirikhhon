@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "PromiseCompleter",
+        "require",
+        "resolve",
+        "sf",
+        "require",
+        "require",
+        "require",
+        "resolve",
+        "STOCKFISH",
+        "resolve",
+        "sf",
+        "STOCKFISH_WORKER_FACTORY",
+        "stockfish",
+        "stockfish",
+        "resolve",
+        "stockfish",
+        "stockfish",
+        "webWorker",
+        "PromiseCompleter",
+        "webWorker",
+        "getWebworker",
+        "pCompleter",
+        "getRegular",
+        "pCompleter",
+        "pCompleter"
+    ],
+    "literals": [
+        "'./util'",
+        "'worker!./lib/stockfish6_worker_wrapper'",
+        "'exports?STOCKFISH!./lib/stockfish6'"
+    ],
+    "variables": [
+        "STOCKFISH_WORKER_FACTORY",
+        "STOCKFISH",
+        "stockfish",
+        "pCompleter"
+    ],
+    "comments": [
+        "Listen to the first message, the 'stockfish6_worker_wrapper' will emit a message once loaded",
+        "before initializing stockfish, this means that the resource was loaded, something like onload."
+    ],
+    "docstrings": [
+        "* A promise factory for new stockfish instances.\n * @param webWorker If true the stockfish instance runs on a web worker thread.\n *\n * @returns {Promise<Stockfish>}"
+    ],
+    "functions": [
+        "getRegular",
+        "getWebworker",
+        "getStockfish"
+    ],
+    "classes": []
+}

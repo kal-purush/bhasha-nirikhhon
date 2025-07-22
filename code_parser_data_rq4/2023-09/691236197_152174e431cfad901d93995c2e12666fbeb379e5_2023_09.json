@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "imageURL",
+        "img",
+        "removeBackground",
+        "img",
+        "imageURL",
+        "bodyPix",
+        "net",
+        "img",
+        "canvas",
+        "img",
+        "canvas",
+        "img",
+        "canvas",
+        "ctx",
+        "img",
+        "img",
+        "img",
+        "ctx",
+        "canvas",
+        "canvas",
+        "i",
+        "imgData",
+        "i",
+        "i",
+        "segmentation",
+        "pixelIndex",
+        "imgData",
+        "i",
+        "ctx",
+        "imgData"
+    ],
+    "literals": [
+        "'image'",
+        "'canvas'",
+        "'full'",
+        "\"2d\""
+    ],
+    "variables": [
+        "img",
+        "canvas",
+        "net",
+        "segmentation",
+        "ctx",
+        "imgData",
+        "i",
+        "pixelIndex"
+    ],
+    "comments": [
+        "Load the body-pix model with default configurations",
+        "Perform body segmentation",
+        "Set the canvas dimensions same as the image",
+        "Draw the image on to the canvas",
+        "Get the imgData to get the pixels of the image displayed in the canvas",
+        "Loop through the pixels in the image",
+        "Make the pixel transparent if it does not belong to a person using the body-pix model's output data array.",
+        "This removes all pixels corresponding to the background.",
+        "Draw the updated image on the canvas"
+    ],
+    "docstrings": [],
+    "functions": [
+        "loadImage",
+        "removeBackground"
+    ],
+    "classes": []
+}

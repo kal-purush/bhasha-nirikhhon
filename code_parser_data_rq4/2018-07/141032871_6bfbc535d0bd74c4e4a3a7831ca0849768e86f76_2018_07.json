@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Component",
+        "AngularFirestore",
+        "firebase",
+        "Component",
+        "afs",
+        "firebase"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'angularfire2/firestore'",
+        "'firebase/app'",
+        "'app-root'",
+        "'./app.component.html'",
+        "'./app.component.scss'",
+        "'animals/elephant'"
+    ],
+    "variables": [
+        "fire"
+    ],
+    "comments": [
+        "afs.collection('animals').snapshotChanges(",
+        ").subscribe(x => {",
+        "console.log(x)",
+        "})"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppComponent"
+    ]
+}

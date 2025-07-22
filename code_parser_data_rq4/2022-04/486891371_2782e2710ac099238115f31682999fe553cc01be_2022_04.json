@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "manifestString",
+        "imageLink",
+        "animationLink",
+        "manifestString",
+        "manifest",
+        "manifest",
+        "imageLink",
+        "manifest",
+        "file",
+        "file",
+        "originalImage",
+        "file",
+        "imageLink",
+        "animationLink",
+        "manifest",
+        "animationLink",
+        "manifest"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "manifest",
+        "originalImage"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* The Manifest object for a given asset.\n * This object holds the contents of the asset's JSON file.\n * Represented here in its minimal form.",
+        "* Set an asset's manifest from the filesystem & update it with the link\n * to the asset's image/animation link, obtained from signing the asset image/animation DataItem.\n *  Original function getUpdatedManifest from arweave-bundle"
+    ],
+    "functions": [
+        "setImageUrlManifest"
+    ],
+    "classes": []
+}

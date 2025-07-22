@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "layout",
+        "product",
+        "getError",
+        "errors",
+        "product",
+        "getError",
+        "errors"
+    ],
+    "literals": [
+        "'../layout'",
+        "'../../helpers'",
+        "<div class=\"columns is-centered\">\n        <div class=\"column is-half\">\n          <h1 class=\"subtitle\">Edit a Product</h1>\n\n          <form method=\"POST\" enctype=\"multipart/form-data\">\n            <div class=\"field\">\n              <label class=\"label\">Title</label>\n              <input value=\"${\n                product.title\n              }\" class=\"input\" placeholder=\"Title\" name=\"title\">\n              <p class=\"help is-danger\">${getError(errors, 'title')}</p>\n            </div>\n            \n            <div class=\"field\">\n              <label class=\"label\">Price</label>\n              <input value=\"${\n                product.price\n              }\" class=\"input\" placeholder=\"Price\" name=\"price\">\n              <p class=\"help is-danger\">${getError(errors, 'price')}</p>\n            </div>\n            \n            <div class=\"field\">\n              <label class=\"label\">Image</label>            \n              <input type=\"file\" name=\"image\" />\n            </div>\n            <br />\n            <button class=\"button is-primary\">Edit</button>\n          </form>\n        </div>\n      </div>",
+        "'title'",
+        "'price'"
+    ],
+    "variables": [
+        "layout"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,93 @@
+{
+    "identifiers": [
+        "Axios",
+        "DigitalOcean",
+        "Environment",
+        "Action",
+        "Image",
+        "ImageActionRequest",
+        "DigitalOcean",
+        "accessToken",
+        "accessToken",
+        "Environment",
+        "env",
+        "Axios",
+        "Axios",
+        "imageId",
+        "request",
+        "resolve",
+        "reject",
+        "Axios",
+        "imageId",
+        "request",
+        "response",
+        "resolve",
+        "response",
+        "error",
+        "reject",
+        "error",
+        "imageId",
+        "request",
+        "resolve",
+        "reject",
+        "Axios",
+        "imageId",
+        "request",
+        "response",
+        "resolve",
+        "response",
+        "error",
+        "reject",
+        "error",
+        "imageId",
+        "actionId",
+        "resolve",
+        "reject",
+        "Axios",
+        "imageId",
+        "actionId",
+        "response",
+        "resolve",
+        "response",
+        "error",
+        "reject",
+        "error"
+    ],
+    "literals": [
+        "'axios'",
+        "'../../digitalocean'",
+        "'../../conf/environment'",
+        "'../../models/action'",
+        "'../../models/image'",
+        "string",
+        "string",
+        "'Authorization'",
+        "Bearer ${this.accessToken}",
+        "'Content-Type'",
+        "application/json",
+        "${this.baseUrl}/images/${imageId}/actions",
+        "${this.baseUrl}/images/${imageId}/actions",
+        "${this.baseUrl}/images/${imageId}/actions/${actionId}"
+    ],
+    "variables": [
+        "env"
+    ],
+    "comments": [
+        "Return actual action instead of wrapped action",
+        "Return actual action instead of wrapped action",
+        "Return actual action instead of wrapped action"
+    ],
+    "docstrings": [
+        "* Transfer an image to another region\n   *\n   * @param {number} imageId\n   * @param {ImageActionRequest} request\n   * @returns {Promise<Action>}\n   * @memberof ImageActionService",
+        "* Convert an image (a backup for example) to a snapshot\n   *\n   * @param {number} imageId\n   * @param {ImageActionRequest} request\n   * @returns {Promise<Action>}\n   * @memberof ImageActionService",
+        "* Retrieve the status of an image action\n   *\n   * @param {number} imageId\n   * @param {number} actionId\n   * @returns {Promise<Action>}\n   * @memberof ImageActionService"
+    ],
+    "functions": [
+        "transferImage",
+        "convertImageToSnapshot",
+        "getExistingImageAction"
+    ],
+    "classes": [
+        "ImageActionService"
+    ]
+}

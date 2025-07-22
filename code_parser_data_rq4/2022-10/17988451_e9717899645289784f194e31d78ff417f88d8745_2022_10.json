@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "org",
+        "springframework",
+        "batch",
+        "extensions",
+        "geode",
+        "org",
+        "springframework",
+        "batch",
+        "item",
+        "ItemWriter",
+        "org",
+        "springframework",
+        "batch",
+        "item",
+        "KeyValueItemWriter",
+        "org",
+        "springframework",
+        "data",
+        "gemfire",
+        "GemfireOperations",
+        "org",
+        "springframework",
+        "data",
+        "gemfire",
+        "GemfireTemplate",
+        "org",
+        "springframework",
+        "util",
+        "Assert",
+        "gemfireTemplate",
+        "gemfireTemplate",
+        "gemfireTemplate",
+        "gemfireTemplate",
+        "Override",
+        "key",
+        "value",
+        "gemfireTemplate",
+        "remove",
+        "key",
+        "gemfireTemplate",
+        "put",
+        "key",
+        "value",
+        "Override",
+        "Assert",
+        "notNull",
+        "gemfireTemplate"
+    ],
+    "literals": [
+        "\"A GemfireTemplate is required.\""
+    ],
+    "variables": [
+        "gemfireTemplate"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2002-2022 the original author or authors.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with\n * the License. You may obtain a copy of the License at\n *\n * https://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on\n * an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the\n * specific language governing permissions and limitations under the License.",
+        "* An {@link ItemWriter} that stores items in GemFire\n *\n * @author David Turanski\n * @since 2.2\n *",
+        "* @param gemfireTemplate the {@link GemfireTemplate} to set",
+        "* (non-Javadoc)\n\t *\n\t * @see\n\t * org.springframework.batch.item.KeyValueItemWriter#writeKeyValue(java.lang.Object,\n\t * java.lang.Object)",
+        "* (non-Javadoc)\n\t *\n\t * @see org.springframework.batch.item.KeyValueItemWriter#init()"
+    ],
+    "functions": [
+        "setTemplate",
+        "writeKeyValue",
+        "init"
+    ],
+    "classes": [
+        "GemfireItemWriter"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "FormAttribute",
+        "structure",
+        "structure",
+        "name",
+        "canEdit",
+        "canEdit",
+        "canAdd",
+        "canAdd",
+        "name"
+    ],
+    "literals": [
+        "\"./base/forms/interfaces/formModel\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Name of tree branch",
+        "* Parent tree branch",
+        "* Visible name of tree branch",
+        "* Other level options",
+        "* Structure of items displayed",
+        "* Is this level editable",
+        "* Is it possible to add lines on this level",
+        "* Show modal for line editing",
+        "* Text of add line",
+        "* Can lines on this level be manually sorted"
+    ],
+    "functions": [
+        "getItems",
+        "getName",
+        "getParentName",
+        "getLabel",
+        "getConfig",
+        "getAddLineText",
+        "canEdit",
+        "setCanEdit",
+        "canAdd",
+        "setCanAdd",
+        "useModalEdit",
+        "isSortable"
+    ],
+    "classes": [
+        "Structure"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Http",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Microsoft",
+        "Azure",
+        "Functions",
+        "Worker",
+        "Microsoft",
+        "Extensions",
+        "Logging",
+        "ContactSvc",
+        "Dtos",
+        "Threading",
+        "Tasks",
+        "Microsoft",
+        "Extensions",
+        "Configuration",
+        "ContactSvc",
+        "Settings",
+        "ContactSvc",
+        "Data",
+        "TigerStride",
+        "ContactSvc",
+        "HttpTrigger",
+        "AuthorizationLevel",
+        "Anonymous",
+        "HttpRequest",
+        "req",
+        "_logger",
+        "LogInformation",
+        "OkObjectResult",
+        "status",
+        "ex",
+        "_logger",
+        "LogError",
+        "ex",
+        "StatusCodeResult",
+        "StatusCodes",
+        "Status500InternalServerError"
+    ],
+    "literals": [
+        "\"CheckHealth\"",
+        "\"get\"",
+        "\"Health check requested.\"",
+        "\"Healthy\"",
+        "\"Health check failed.\""
+    ],
+    "variables": [],
+    "comments": [
+        "using MailKit.Net.Smtp;",
+        "using MimeKit;",
+        "using Microsoft.Identity.Client;",
+        "using MailKit.Security;",
+        "Implement the HttpTrigger for an Azure Function that responds to the POST of the contact form on the corporate homepage.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "IActionResult",
+        "CheckHealth"
+    ],
+    "classes": [
+        "HttpTriggerContact"
+    ]
+}

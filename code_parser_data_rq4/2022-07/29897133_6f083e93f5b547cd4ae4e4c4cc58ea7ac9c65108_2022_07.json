@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "arrays",
+        "n",
+        "n",
+        "n",
+        "n",
+        "oneStepBefore",
+        "twoStepsBefore",
+        "allWays",
+        "i",
+        "i",
+        "n",
+        "i",
+        "allWays",
+        "oneStepBefore",
+        "twoStepsBefore",
+        "twoStepsBefore",
+        "oneStepBefore",
+        "oneStepBefore",
+        "allWays",
+        "allWays",
+        "args",
+        "climbStairs",
+        "climbStairs",
+        "climbStairs"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "base cases",
+        "in Fib seq starting numbers are 0, 1, 1 --> so 1(two step before), 1 (one step before)",
+        "for our case it's 1, 2 --> 1(two step before), 2 (one step before)",
+        "n1",
+        "n2"
+    ],
+    "docstrings": [
+        "* You are climbing a staircase. It takes n steps to reach the top.\n * <p>\n * Each time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?\n * <p>\n * Example 1:\n * -----------\n * Input: n = 2\n * Output: 2\n * Explanation: There are two ways to climb to the top.\n * 1. 1 step + 1 step\n * 2. 2 steps\n * <p>\n * Example 2:\n * -----------\n * Input: n = 3\n * Output: 3\n * Explanation: There are three ways to climb to the top.\n * 1. 1 step + 1 step + 1 step\n * 2. 1 step + 2 steps\n * 3. 2 steps + 1 step\n * <p>\n * Constraints:\n * -----------\n * 1 <= n <= 45"
+    ],
+    "functions": [
+        "climbStairs",
+        "main"
+    ],
+    "classes": [
+        "ClimbingStairs"
+    ]
+}

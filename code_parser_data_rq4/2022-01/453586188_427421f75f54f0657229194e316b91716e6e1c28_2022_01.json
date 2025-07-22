@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "org",
+        "apache",
+        "commons",
+        "math3",
+        "Field"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Licensed to the Apache Software Foundation (ASF) under one or more\n * contributor license agreements.  See the NOTICE file distributed with\n * this work for additional information regarding copyright ownership.\n * The ASF licenses this file to You under the Apache License, Version 2.0\n * (the \"License\"); you may not use this file except in compliance with\n * the License.  You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Interface representing a <a href=\"http://mathworld.wolfram.com/Field.html\">field</a>.\n * <p>\n * Classes implementing this interface will often be singletons.\n * </p>\n * @param <T> the type of the field elements\n * @see FieldElement\n * @since 2.0",
+        "Get the additive identity of the field.\n     * <p>\n     * The additive identity is the element e<sub>0</sub> of the field such that\n     * for all elements a of the field, the equalities a + e<sub>0</sub> =\n     * e<sub>0</sub> + a = a hold.\n     * </p>\n     * @return additive identity of the field",
+        "Get the multiplicative identity of the field.\n     * <p>\n     * The multiplicative identity is the element e<sub>1</sub> of the field such that\n     * for all elements a of the field, the equalities a &times; e<sub>1</sub> =\n     * e<sub>1</sub> &times; a = a hold.\n     * </p>\n     * @return multiplicative identity of the field",
+        "* Returns the runtime class of the FieldElement.\n     *\n     * @return The {@code Class} object that represents the runtime\n     *         class of this object."
+    ],
+    "functions": [
+        "T",
+        "getZero",
+        "T",
+        "getOne",
+        "getRuntimeClass"
+    ],
+    "classes": []
+}

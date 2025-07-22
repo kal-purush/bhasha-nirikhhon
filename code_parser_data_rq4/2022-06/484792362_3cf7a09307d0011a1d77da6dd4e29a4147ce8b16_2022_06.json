@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "OS",
+        "cluster",
+        "StartConsumer",
+        "Logger",
+        "OS",
+        "Logger",
+        "process",
+        "index",
+        "index",
+        "cluster",
+        "cluster",
+        "worker",
+        "code",
+        "signal",
+        "code",
+        "worker",
+        "Logger",
+        "worker",
+        "code",
+        "signal",
+        "cluster",
+        "StartConsumer",
+        "cluster",
+        "RunPrimaryProcess",
+        "RunWorkerProcess"
+    ],
+    "literals": [
+        "\"os\"",
+        "\"cluster\"",
+        "\"./index\"",
+        "\"./services/createLogs/createLogs\"",
+        "ALERT - Primary ${process.pid} is started",
+        "\"exit\"",
+        "ERROR => Worker ${worker.process.pid} - code ${code} Signal ${signal} died. Scheduling another process"
+    ],
+    "variables": [
+        "cpus",
+        "index"
+    ],
+    "comments": [
+        "execute only 1 process",
+        "se o processo finalizou com err e não foi o S.O que o desconectou, gere uma nova copia",
+        "for each cluster.fork() above, a new server instance will be created calling the function StartServer()",
+        "cluster.isPrimary: boolean -> quem gerencia/balanceia as requisições. Cria instâncias worker e gerencia para cada worker executar a aplicação"
+    ],
+    "docstrings": [],
+    "functions": [
+        "RunPrimaryProcess",
+        "RunWorkerProcess"
+    ],
+    "classes": []
+}

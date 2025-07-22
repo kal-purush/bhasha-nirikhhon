@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "GuildMember",
+        "IContainer",
+        "IHandler",
+        "container",
+        "oldUser",
+        "newUser",
+        "oldUser",
+        "newUser",
+        "newUser",
+        "oldUser",
+        "newUser"
+    ],
+    "literals": [
+        "'discord.js'",
+        "'../../common/types'",
+        "User \\`${newUser.user.tag}\\` changed their name from \\`${oldUser.displayName}\\` to \\`${newUser.displayName}\\"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "execute"
+    ],
+    "classes": [
+        "UserUpdateHandler"
+    ]
+}

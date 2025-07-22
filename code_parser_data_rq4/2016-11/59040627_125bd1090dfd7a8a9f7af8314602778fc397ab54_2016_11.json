@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "entityRegistryFunction",
+        "InjectableMiddlewareFactory",
+        "metadata",
+        "entityRegistryFunction",
+        "metadata",
+        "entityRegistryFunction",
+        "entityRegistryFunction"
+    ],
+    "literals": [
+        "'../../common/registry/decorators'",
+        "'../middleware/index'",
+        "string",
+        "string",
+        "'controller'",
+        "'seeder'",
+        "'migration'"
+    ],
+    "variables": [],
+    "comments": [
+        "End Typedoc Module Declaration"
+    ],
+    "docstrings": [
+        "*  @Controller class decorator for registering class with the [[EntityRegistry]]\n *\n * Example:\n * ```typescript\n *  import { Controller } from '@ubiquits/core/common';\n *  import { AbstractController } from '@ubiquits/core/server';\n *\n *  @Controller()\n *  export class ExampleController extends AbstractController {}\n * ```\n * @param metadata\n * @returns {ClassDecorator}\n * @constructor",
+        "* @module common",
+        "*  @Seeder class decorator for registering class with the [[EntityRegistry]]\n *\n * Example:\n * ```typescript\n *  import { Seeder } from '@ubiquits/core/common';\n *  import { AbstractSeeder } from '@ubiquits/core/server';\n *\n *  @Seeder()\n *  export class ExampleSeeder extends AbstractSeeder {}\n * ```\n * @returns {ClassDecorator}\n * @constructor",
+        "*  @Migration class decorator for registering class with the [[EntityRegistry]]\n *\n * Example:\n * ```typescript\n *  import { Migration } from '@ubiquits/core/common';\n *  import { AbstractMigration } from '@ubiquits/core/server';\n *\n *  @Migration()\n *  export class ExampleMigration extends AbstractMigration {}\n * ```\n * @returns {ClassDecorator}\n * @constructor"
+    ],
+    "functions": [
+        "Controller",
+        "Seeder",
+        "Migration"
+    ],
+    "classes": []
+}

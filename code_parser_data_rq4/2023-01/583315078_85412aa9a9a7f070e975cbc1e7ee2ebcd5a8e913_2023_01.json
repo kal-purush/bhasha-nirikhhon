@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "inference",
+        "Transformer",
+        "Transformer",
+        "cv2",
+        "PIL",
+        "Image",
+        "matplotlib",
+        "pyplot",
+        "plt",
+        "os",
+        "filename",
+        "cv2",
+        "imread",
+        "filename",
+        "cv2",
+        "resize",
+        "image",
+        "transformer",
+        "transform",
+        "image",
+        "plt",
+        "imsave",
+        "filename",
+        "anime_img",
+        "e"
+    ],
+    "literals": [
+        "'./generator_hayao.pth'",
+        "f'{filename}_anime.jpg'"
+    ],
+    "variables": [
+        "transformer",
+        "image",
+        "image",
+        "anime_img"
+    ],
+    "comments": [
+        "load generator",
+        "plt.imshow(anime_img[0])",
+        "plt.show()",
+        "plt.imsave(f'./{filename}_anime.png', anime_img[0])"
+    ],
+    "docstrings": [
+        "\"\"\"Get CSM GAN image.\n\n    Args:\n        filename (str): path to saved image\n    Returns:\n        int: 1 if success\n             0 if failed\n    \"\"\""
+    ],
+    "functions": [
+        "get_image"
+    ],
+    "classes": []
+}

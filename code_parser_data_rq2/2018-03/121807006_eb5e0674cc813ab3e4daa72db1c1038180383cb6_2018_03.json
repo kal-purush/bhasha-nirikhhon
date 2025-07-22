@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "require",
+        "MongoClient",
+        "err",
+        "db",
+        "err",
+        "db",
+        "ObjectID",
+        "result",
+        "result",
+        "db"
+    ],
+    "literals": [
+        "'mongodb'",
+        "'mongodb://localhost:27017/TodoApp'",
+        "'Unable to connect to MongoDB server'",
+        "'Connected to MongoDB server'",
+        "'Users'",
+        "'5a8452328189e21486df9a7e'",
+        "'Gilo - Me'"
+    ],
+    "variables": [],
+    "comments": [
+        "const MongoClient = require('mongodb').MongoClient;",
+        "db.collection('Todos').findOneAndUpdate({",
+        "_id: new ObjectID('5a875c5917983c491a92fadf')",
+        "},{",
+        "$set: {",
+        "completed: true",
+        "}",
+        "}, {",
+        "returnOriginal: false",
+        "}).then((result) => {",
+        "console.log(result);",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

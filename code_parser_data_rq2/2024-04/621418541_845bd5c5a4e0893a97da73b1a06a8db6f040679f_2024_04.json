@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "FixtureInstance",
+        "useExtentguardStore",
+        "ExtentguardConfig",
+        "FixtureInstance",
+        "extentguardConfig",
+        "extentguardConfig",
+        "useExtentguardStore",
+        "extentguardConfig",
+        "store",
+        "extentguardConfig",
+        "esi",
+        "esi",
+        "esi",
+        "store",
+        "esi"
+    ],
+    "literals": [
+        "'@/api'",
+        "'../store'",
+        "'../store'"
+    ],
+    "variables": [
+        "store",
+        "esi"
+    ],
+    "comments": [
+        "NOTE: do not set store.active in this method.",
+        "it needs to remain inactive so the handler managing code",
+        "can know if it needs to wire up new handlers"
+    ],
+    "docstrings": [
+        "* Will force map extent to remain within the defined maximum extent",
+        "* Parses the extentguard config JSON snippet from the config file and save to the fixture store.\n     *\n     * @param {extentguardConfig} [ExtentguardConfig]\n     * @memberof ExtentguardAPI"
+    ],
+    "functions": [
+        "_parseConfig",
+        "config"
+    ],
+    "classes": [
+        "ExtentguardAPI"
+    ]
+}

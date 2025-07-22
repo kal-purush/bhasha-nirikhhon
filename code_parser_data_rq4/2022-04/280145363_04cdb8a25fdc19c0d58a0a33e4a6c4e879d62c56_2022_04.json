@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "theme",
+        "React",
+        "React"
+    ],
+    "literals": [
+        "'next-themes'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'dark'",
+        "'light'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'class'",
+        "string"
+    ],
+    "variables": [
+        "useTheme",
+        "ThemeProvider"
+    ],
+    "comments": [
+        "List of all available theme names",
+        "Forced theme name for the current page",
+        "Update the theme",
+        "Active theme name",
+        "If `enableSystem` is true and the active theme is \"system\", this returns whether the system preference resolved to \"dark\" or \"light\". Otherwise, identical to `theme`",
+        "If enableSystem is true, returns the System theme preference (\"dark\" or \"light\"), regardless what the active theme is",
+        "List of all available theme names",
+        "Forced theme name for the current page",
+        "Whether to switch between dark and light themes based on prefers-color-scheme",
+        "Disable all CSS transitions when switching themes",
+        "Whether to indicate to browsers which color scheme is used (dark or light) for built-in UI like inputs and buttons",
+        "Key used to store theme setting in localStorage",
+        "Default theme name (for v0.0.12 and lower the default was light). If `enableSystem` is false, the default theme is light",
+        "HTML attribute modified based on the active theme. Accepts `class` and `data-*` (meaning any data attribute, `data-mode`, `data-color`, etc.)",
+        "Mapping of theme name to HTML attribute value. Object where key is the theme name and value is the attribute value",
+        "Nonce string to pass to the inline script for CSP headers"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

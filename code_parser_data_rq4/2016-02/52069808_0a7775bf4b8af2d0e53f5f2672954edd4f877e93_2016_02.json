@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Component",
+        "ViewChild",
+        "GoogleMapWebComponent",
+        "Component",
+        "GoogleMapWebComponent",
+        "ViewChild",
+        "GoogleMapWebComponent"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./googlemap.component'",
+        "'root'",
+        "<div>Angular2 with Google Map Web Component</div>\n<button (click)=\"goWest()\">Go West</button>\n<button (click)=\"print()\">print</button>\n<style>\n  google-map {\n    height: 600px;\n  }\n</style>\n<google-map [latitude]=\"lat\" [longitude]=\"lng\"></google-map>"
+    ],
+    "variables": [],
+    "comments": [
+        "Angular 側のプロパティ更新が Web Components に反映される",
+        "子コンポーネントのメソッド呼び出し"
+    ],
+    "docstrings": [],
+    "functions": [
+        "goWest"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "axios",
+        "sendNameProps",
+        "resolve",
+        "reject",
+        "axios",
+        "process",
+        "process",
+        "process",
+        "sendCardName",
+        "sendDescName",
+        "response",
+        "resolve",
+        "response",
+        "error",
+        "error",
+        "reject"
+    ],
+    "literals": [
+        "'axios'",
+        "'@/app/types/types'",
+        "https://api.trello.com/1/cards?key=${process.env.NEXT_PUBLIC_APP_APIKEY}&token=${process.env.NEXT_PUBLIC_APP_APITOKEN}&idList=${process.env.NEXT_PUBLIC_APP_APILIST}",
+        "'POST'",
+        "'Accept'",
+        "'application/json'",
+        "'Card created successfully:'",
+        "'Error creating card:'",
+        "\"エラー\""
+    ],
+    "variables": [
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "trelloSender"
+    ],
+    "classes": [
+        "TrelloapiRepository"
+    ]
+}

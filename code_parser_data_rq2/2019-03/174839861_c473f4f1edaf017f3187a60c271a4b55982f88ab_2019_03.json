@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "axios",
+        "BASE_URL",
+        "BASE_URL",
+        "BASE_URL",
+        "getMovies",
+        "limit",
+        "rating",
+        "axios",
+        "LIST_MOVIES_URL",
+        "rating",
+        "movies",
+        "getMovie",
+        "id",
+        "axios",
+        "MOVIE_DETAILS_URL",
+        "id",
+        "movie",
+        "getSuggestions",
+        "id",
+        "axios",
+        "MOVIE_SUGGESTION_URL",
+        "id",
+        "movies"
+    ],
+    "literals": [
+        "\"axios\"",
+        "\"https://yts.am/api/v2/\"",
+        "${BASE_URL}list_movies.json",
+        "${BASE_URL}movie_details.json",
+        "${BASE_URL}movie_suggestions.json"
+    ],
+    "variables": [
+        "BASE_URL",
+        "LIST_MOVIES_URL",
+        "MOVIE_DETAILS_URL",
+        "MOVIE_SUGGESTION_URL",
+        "getMovies",
+        "getMovie",
+        "getSuggestions"
+    ],
+    "comments": [
+        "import fetch from \"node-fetch\";",
+        "const API_URL = \"https://yts.am/api/v2/list_movies.json?\";",
+        "export const getMovies = (limit, rating) => {\n    let REQUEST_URL = API_URL;\n    if(limit > 0) {\n        REQUEST_URL += `limit=${limit}`;\n    }\n    if(rating > 0) {\n        REQUEST_URL += `&minimum_rating=${rating}`;\n    }\n\n    return fetch(REQUEST_URL)\n    .then(res => res.json())\n    .then(json => json.data.movies);\n}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

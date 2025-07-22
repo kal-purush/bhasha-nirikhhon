@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "createLiveView",
+        "html",
+        "BroadcastChannelPubSub",
+        "BroadcastChannelPubSub",
+        "createLiveView",
+        "socket",
+        "socket",
+        "socket",
+        "socket",
+        "socket",
+        "pubSub",
+        "count",
+        "pubSub",
+        "count",
+        "info",
+        "socket",
+        "count",
+        "info",
+        "socket",
+        "context",
+        "html",
+        "count"
+    ],
+    "literals": [
+        "\"liveviewjs\"",
+        "\"../../deno/broadcastChannelPubSub.ts\"",
+        "\"increment\"",
+        "\"decrement\"",
+        "\"counter\"",
+        "\"counter\"",
+        "\"increment\"",
+        "\"counter\"",
+        "\"decrement\"",
+        "\"counter\"",
+        "<div>\n        <h1>Count is: ${count}</h1>\n        <button phx-click=\"decrement\">-</button>\n        <button phx-click=\"increment\">+</button>\n      </div>"
+    ],
+    "variables": [
+        "count",
+        "pubSub",
+        "rtCounterLiveView",
+        "context"
+    ],
+    "comments": [
+        "An in-memory count simulating state outside of the LiveView",
+        "Use a deno's BroadcastChannel pub/sub implementation",
+        "Define LiveView Context / State",
+        "Define LiveView Events",
+        "Define LiveView Info messages",
+        "init state, set count to current count",
+        "subscribe to counter events",
+        "handle increment and decrement events",
+        "broadcast the new count",
+        "broadcast the new count",
+        "receive updates from pubsub and update the context",
+        "render the view based on the state"
+    ],
+    "docstrings": [
+        "* A basic counter that increments and decrements a number."
+    ],
+    "functions": [],
+    "classes": []
+}

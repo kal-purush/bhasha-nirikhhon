@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "ticksForward",
+        "anotherClock",
+        "anotherClock",
+        "anotherClock",
+        "anotherClock",
+        "Clock",
+        "Clock",
+        "i",
+        "secondsInDay",
+        "i",
+        "goodClock",
+        "badClock",
+        "matchCount",
+        "goodClock",
+        "badClock",
+        "matchCount"
+    ],
+    "literals": [
+        "The clocks matched up ${matchCount} times."
+    ],
+    "variables": [
+        "goodClock",
+        "badClock",
+        "secondsInDay",
+        "matchCount",
+        "i"
+    ],
+    "comments": [
+        "If it ticks forward, increment by 1. If it doesn't, increment by -1 (AKA decrement by 1).",
+        "Create a good clock that ticks forward, a bad clock that ticks backwards.",
+        "Create a variable to store the number of seconds in a day (ticks).",
+        "Create a variable to store the number of matches that have occured.",
+        "This happens really fast. We just care that each clock is ticked once for each second in a day.",
+        "If the clocks are equal, increment the match count. Do this first, because the clocks start out equal."
+    ],
+    "docstrings": [
+        "* A class that represents a Clock",
+        "* The value for hours on this clock. 0-11.",
+        "* The value for minutes on this clock. 0-59.",
+        "* The value for seconds on this clock. 0-59.",
+        "* Creates a new clock set to midnight (00:00:00). By default, it is set to tick foward.\n     * To create a backwards clock, send false as the argument to the constructor.",
+        "* Advances the time values by one tick.\n     * If the clock is a forwards clock, everything is appropriately incremented in the forward direction.\n     * If the clock is a backwards clock, everything is appropriately incremented in the backwards direction. (decremented)",
+        "* Returns true/false whether this clock is equal to another clock.\n     * Two clocks are equal if their seconds, minutes, and hours values are all equal."
+    ],
+    "functions": [
+        "tick",
+        "equals"
+    ],
+    "classes": [
+        "Clock"
+    ]
+}

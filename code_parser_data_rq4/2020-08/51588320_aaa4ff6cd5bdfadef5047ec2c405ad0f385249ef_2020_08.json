@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "target",
+        "target",
+        "target",
+        "target",
+        "target",
+        "target",
+        "target",
+        "target",
+        "TypedInjectError",
+        "path",
+        "cause",
+        "describeInjectAction",
+        "path",
+        "path",
+        "name",
+        "cause",
+        "target",
+        "error",
+        "error",
+        "InjectionError",
+        "InjectionError",
+        "target",
+        "error",
+        "error",
+        "InjectionError",
+        "target",
+        "error"
+    ],
+    "literals": [
+        "string",
+        "'function'",
+        "'inject'",
+        "'resolve'",
+        "'function'",
+        "'class'",
+        "[class ${target.name || '<anonymous>'}]",
+        "'<anonymous>'",
+        "[function ${target.name || '<anonymous>'}]",
+        "'<anonymous>'",
+        "[token \"${String(target)}\"]",
+        "Could not ${describeInjectAction(path[0])} ${path.map(name).join(' -> ')}. Cause: ${cause.message}",
+        "' -> '"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "describeInjectAction",
+        "name",
+        "create"
+    ],
+    "classes": [
+        "InjectionError"
+    ]
+}

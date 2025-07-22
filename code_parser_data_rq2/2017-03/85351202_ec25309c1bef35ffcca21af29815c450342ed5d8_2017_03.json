@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Http",
+        "Observable",
+        "User",
+        "Injectable",
+        "http",
+        "res",
+        "res",
+        "login",
+        "login",
+        "res",
+        "res",
+        "searchParam",
+        "searchParam",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/http'",
+        "'rxjs/Rx'",
+        "'rxjs/add/operator/map'",
+        "'../models/user'",
+        "'https://api.yelp.com/v2/'",
+        "'Hello yelpApiUrl Provider'",
+        "${this.yelpApiUrl}/users",
+        "string",
+        "${this.yelpApiUrl}/users/${login}",
+        "string",
+        "${this.yelpApiUrl}/search/users?q=${searchParam}"
+    ],
+    "variables": [],
+    "comments": [
+        "Generated class for the GithubUsers provider.\n\n  See https://angular.io/docs/ts/latest/guide/dependency-injection.html\n  for more info on providers and Angular 2 DI.",
+        "Load all github users",
+        "Get github user by providing login(username)",
+        "Search for github users",
+        "takes in search parameter which is then passed to api url"
+    ],
+    "docstrings": [],
+    "functions": [
+        "load",
+        "loadDetails",
+        "searchUsers"
+    ],
+    "classes": [
+        "YelpSearch"
+    ]
+}

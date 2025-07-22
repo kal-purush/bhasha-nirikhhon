@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "getARandomAlphabet",
+        "alphabet",
+        "currentAlphabetElement",
+        "alphabet",
+        "setBackgroundColorById",
+        "alphabet",
+        "hideElementById",
+        "showElementById",
+        "continueGame"
+    ],
+    "literals": [
+        "'you'",
+        "'current-alphabet'",
+        "'home-screen'",
+        "'play-ground'"
+    ],
+    "variables": [
+        "alphabet",
+        "currentAlphabetElement"
+    ],
+    "comments": [
+        "function play(){",
+        "// hight the home screen. to hide the screen add the class hidden to the home section",
+        "const homeSection = document.getElementById('home-screen');",
+        "homeSection.classList.add('hidden');",
+        "const playgroundSection = document.getElementById('play-ground');",
+        "playgroundSection.classList.remove('hidden')",
+        "}",
+        "step -1: generate a ransom alphabet",
+        "stet background color"
+    ],
+    "docstrings": [],
+    "functions": [
+        "continueGame",
+        "play"
+    ],
+    "classes": []
+}

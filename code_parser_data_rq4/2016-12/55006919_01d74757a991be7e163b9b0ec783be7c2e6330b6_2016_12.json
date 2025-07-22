@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "org",
+        "terracotta",
+        "passthrough",
+        "java",
+        "util",
+        "Collection",
+        "IClusterInfo",
+        "name"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* An abstraction to expose cluster information to clients for e.g. server configuration etc\n *\n * @author vmad",
+        "* @param name server name to identify the server\n   * @return corresponding {@link IServerInfo}",
+        "* @return A collection {@link IServerInfo} for all servers in this stripe"
+    ],
+    "functions": [
+        "IServerInfo",
+        "getServerInfo",
+        "getServersInfo"
+    ],
+    "classes": []
+}

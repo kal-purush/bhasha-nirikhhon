@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "django",
+        "conf",
+        "urls",
+        "url",
+        "views",
+        "url",
+        "views",
+        "index",
+        "name",
+        "url",
+        "views",
+        "detail",
+        "name",
+        "url",
+        "views",
+        "results",
+        "name",
+        "url",
+        "views",
+        "vote",
+        "name"
+    ],
+    "literals": [
+        "r'^$'",
+        "'index'",
+        "r'^(?P<question_id>[0-9]+)/$'",
+        "'detail'",
+        "r'^(?P<question_id>[0-9]+)/results/$'",
+        "'results'",
+        "r'^(?P<question_id>[0-9]+)/vote/$'",
+        "'vote'"
+    ],
+    "variables": [
+        "urlpatterns"
+    ],
+    "comments": [
+        "ex: /polls/",
+        "ex: /polls/5/",
+        "the name of ur here is for reference back to the url in template",
+        "find the back reference in polls/index.html",
+        "ex: /polls/5/results/",
+        "ex: /polls/5/vote/"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

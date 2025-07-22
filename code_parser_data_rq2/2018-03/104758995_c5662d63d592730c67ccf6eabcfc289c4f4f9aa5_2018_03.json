@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "io",
+        "apisense",
+        "embed",
+        "influx",
+        "configuration",
+        "java",
+        "io",
+        "File",
+        "java",
+        "util",
+        "configurationFile",
+        "dataPath",
+        "configurationFile",
+        "dataPath",
+        "configurationFile",
+        "configurationFile",
+        "dataPath",
+        "dataPath",
+        "Override",
+        "dataPath",
+        "Override",
+        "config",
+        "Override",
+        "configurationFile",
+        "configuration",
+        "dataPath",
+        "configurationFile",
+        "configuration",
+        "configurationFile",
+        "configuration",
+        "dataPath",
+        "dataPath",
+        "dataPath",
+        "dataPath"
+    ],
+    "literals": [
+        "\"The given configuration file is immutable\""
+    ],
+    "variables": [
+        "configurationFile",
+        "dataPath",
+        "configuration"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Implementation of a {@link ConfigurationWriter} to use an existing configuration file.",
+        "* Build an {@link FromFileConfigurationWriter}.",
+        "* Set the path to remove on server stop,\n         * nothing will be removed if not specified.\n         *\n         * This can be used to remove the data between each database usage.\n         *\n         * @param dataPath - path to data location\n         * @return The current {@link Builder}."
+    ],
+    "functions": [
+        "FromFileConfigurationWriter",
+        "File",
+        "getDataPath",
+        "addStatements",
+        "File",
+        "writeFile",
+        "Builder",
+        "FromFileConfigurationWriter",
+        "build",
+        "Builder",
+        "removePathOnStop"
+    ],
+    "classes": [
+        "FromFileConfigurationWriter",
+        "Builder"
+    ]
+}

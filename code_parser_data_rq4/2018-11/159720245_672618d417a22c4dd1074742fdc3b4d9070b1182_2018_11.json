@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "OnDestroy",
+        "Subscription",
+        "ModalService",
+        "ModalComponent",
+        "Component",
+        "modalService",
+        "modals",
+        "modals",
+        "modals",
+        "modal",
+        "modal"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"rxjs/internal/Subscription\"",
+        "\"./modal.service\"",
+        "\"./modal.component\"",
+        "\"app-modal-container\"",
+        "<div class=\"modals-container\" [class.to-front]=\"modals.length > 0\">\n      <div class=\"dim-background\" (click)=\"close()\"></div>\n      <div *ngFor=\"let modal of modals\" class=\"modal-outer\">\n        <ng-container *ngTemplateOutlet=\"modal.template\"></ng-container>\n      </div>\n    </div>",
+        "\"./modal.component.scss\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "ngOnDestroy",
+        "close"
+    ],
+    "classes": [
+        "ModalContainerComponent"
+    ]
+}

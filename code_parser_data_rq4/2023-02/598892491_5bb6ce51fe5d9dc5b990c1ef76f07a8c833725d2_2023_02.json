@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "flask",
+        "Flask",
+        "request",
+        "flask",
+        "request",
+        "request",
+        "headers",
+        "get",
+        "Flask",
+        "app",
+        "route",
+        "methods",
+        "app",
+        "route",
+        "app",
+        "run",
+        "host",
+        "port",
+        "debug"
+    ],
+    "literals": [
+        "'your-header-name'",
+        "'/'",
+        "'GET'",
+        "'Hello, World'",
+        "\"/accept\"",
+        "'processing request'",
+        "'forwarding request'",
+        "'returning response'",
+        "'success'",
+        "\"__main__\"",
+        "\"0.0.0.0\""
+    ],
+    "variables": [
+        "app"
+    ],
+    "comments": [
+        "here we need to absorb the request status, body, headers",
+        "here we have to forward the request to the desired destination and wait for a response",
+        "here we need to absorb the request status, body, headers and send back",
+        "class Proxy:",
+        "# Class variables",
+        "request = {}",
+        "response = {}",
+        "def __init__(self, request, response):",
+        "self.request = request",
+        "self.response = response",
+        "def listen():",
+        "pass",
+        "def respond():",
+        "pass",
+        "try:",
+        "toyProxy = Proxy()",
+        "except:",
+        "print(\"An exception occurred\")"
+    ],
+    "docstrings": [],
+    "functions": [
+        "hello_world",
+        "acceptRequest"
+    ],
+    "classes": []
+}

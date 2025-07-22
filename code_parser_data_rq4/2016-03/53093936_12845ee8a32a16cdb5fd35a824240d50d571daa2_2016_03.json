@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "sample",
+        "akka",
+        "actor",
+        "AbstractLoggingActor",
+        "akka",
+        "japi",
+        "pf",
+        "ReceiveBuilder",
+        "javax",
+        "inject",
+        "Inject",
+        "javax",
+        "inject",
+        "Named",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Scope",
+        "sample",
+        "CountingActor",
+        "Count",
+        "sample",
+        "CountingActor",
+        "Get",
+        "Named",
+        "Scope",
+        "Inject",
+        "countingService",
+        "count",
+        "receive",
+        "ReceiveBuilder",
+        "match",
+        "c",
+        "count",
+        "countingService",
+        "increment",
+        "count",
+        "match",
+        "g",
+        "sender",
+        "tell",
+        "count",
+        "matchAny",
+        "o",
+        "log",
+        "info",
+        "o",
+        "build"
+    ],
+    "literals": [
+        "\"CountingLambdaActor\"",
+        "\"prototype\"",
+        "\"received unknown message: \""
+    ],
+    "variables": [
+        "countingService"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* An actor that can count using an injected CountingService.\n *\n * @note The scope here is prototype since we want to create a new actor\n * instance for use of this bean."
+    ],
+    "functions": [
+        "CountingLambdaActor"
+    ],
+    "classes": [
+        "CountingLambdaActor"
+    ]
+}

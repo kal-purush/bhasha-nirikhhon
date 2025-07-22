@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "com",
+        "veracode",
+        "jenkins",
+        "plugin",
+        "args",
+        "com",
+        "veracode",
+        "jenkins",
+        "plugin",
+        "data",
+        "ProxyBlock",
+        "addAction",
+        "vid",
+        "vkey",
+        "proxy",
+        "args",
+        "args",
+        "addApiCredentials",
+        "vid",
+        "vkey",
+        "proxy",
+        "args",
+        "addProxyCredentials",
+        "proxy",
+        "getPuser",
+        "proxy",
+        "getPpassword",
+        "args",
+        "addProxyConfiguration",
+        "proxy",
+        "getPhost",
+        "proxy",
+        "getPport",
+        "args"
+    ],
+    "literals": [
+        "\"GetRegion\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* The GetRegionArgs class builds the command line argument passed to the\n * Veracode API wrapper that causes it to call the \"getregion\" action.\n *",
+        "* Constructor for GetRegionArgs.",
+        "* Returns a GetRegionArgs object initialized with the specified arguments.\n     *\n     * @param vid   a {@link java.lang.String} object.\n     * @param vkey  a {@link java.lang.String} object.\n     * @param proxy a {@link com.veracode.jenkins.plugin.data.ProxyBlock} object.\n     * @return a {@link com.veracode.jenkins.plugin.args.GetRegionArgs} object."
+    ],
+    "functions": [
+        "GetRegionArgs",
+        "GetRegionArgs",
+        "newGetRegionArgs"
+    ],
+    "classes": [
+        "GetRegionArgs"
+    ]
+}

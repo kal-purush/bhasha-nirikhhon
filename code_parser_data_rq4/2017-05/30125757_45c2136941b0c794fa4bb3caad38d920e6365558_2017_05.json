@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Text",
+        "NLog",
+        "LayoutRenderers",
+        "NLog",
+        "Web",
+        "LayoutRenderers",
+        "NLog",
+        "Web",
+        "AspNetCore",
+        "LayoutRenderers",
+        "LayoutRenderer",
+        "AspNetLayoutRendererBase",
+        "StringBuilder",
+        "builder",
+        "LogEventInfo",
+        "logEvent",
+        "HttpContextAccessor",
+        "HttpContext",
+        "httpContext",
+        "httpContext",
+        "User",
+        "Identity",
+        "IsAuthenticated",
+        "builder",
+        "Append",
+        "builder",
+        "Append"
+    ],
+    "literals": [
+        "\"aspnet-user-isAuthenticated\""
+    ],
+    "variables": [
+        "httpContext"
+    ],
+    "comments": [
+        "Is the user authenticated? 0 = not authenticated, 1 = authenticated",
+        "",
+        "${aspnet-user-isAuthenticated}",
+        "</summary>",
+        "Render 0 or 1",
+        "</summary>",
+        "<param name=\"builder\"></param>",
+        "<param name=\"logEvent\"></param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "DoAppend"
+    ],
+    "classes": [
+        "AspNetUserIsAuthenticatedLayoutRenderer"
+    ]
+}

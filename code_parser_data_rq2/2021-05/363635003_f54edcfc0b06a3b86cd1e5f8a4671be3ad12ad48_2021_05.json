@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "firebase",
+        "firebase",
+        "firebase",
+        "FIREBASE_API_KEY",
+        "FIREBASE_PROJECT_ID",
+        "FIREBASE_PROJECT_ID",
+        "FIREBASE_PROJECT_ID",
+        "FIREBASE_PROJECT_ID",
+        "FIREBASE_MESSAGING_ID",
+        "FIREBASE_APP_ID",
+        "firebase",
+        "firebase",
+        "db",
+        "collectionName",
+        "firebase",
+        "db",
+        "collectionName"
+    ],
+    "literals": [
+        "'firebase/app'",
+        "'firebase/firestore'",
+        "${FIREBASE_PROJECT_ID}.firebaseapp.com",
+        "https://${FIREBASE_PROJECT_ID}.firebaseio.com",
+        "${FIREBASE_PROJECT_ID}",
+        "${FIREBASE_PROJECT_ID}.appspot.com",
+        "string"
+    ],
+    "variables": [
+        "db",
+        "db"
+    ],
+    "comments": [
+        "ESLint is too dumb to understand that this dependency",
+        "is already included. This is why TSLint is better",
+        "but we can't have nice things.",
+        "eslint-disable import/no-extraneous-dependencies",
+        "eslint-enable import/no-extraneous-dependencies"
+    ],
+    "docstrings": [],
+    "functions": [
+        "initFirebase",
+        "getFirestore",
+        "getFirestoreCollection"
+    ],
+    "classes": []
+}

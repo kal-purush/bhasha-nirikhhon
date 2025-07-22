@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "arr",
+        "arr",
+        "item",
+        "seen",
+        "item",
+        "seen",
+        "item",
+        "arr",
+        "arr",
+        "item",
+        "index",
+        "arr",
+        "arr",
+        "item",
+        "index",
+        "arr",
+        "arr",
+        "item",
+        "index",
+        "arr",
+        "item",
+        "arr",
+        "index",
+        "unique1",
+        "st0"
+    ],
+    "literals": [
+        "'1'"
+    ],
+    "variables": [
+        "st0",
+        "st1",
+        "seen"
+    ],
+    "comments": [
+        "数组去重有多种方法，现在先列举一下",
+        "1、用ES6的Set",
+        "2、Set + 扩展运算符",
+        "3、使用Map",
+        "此处之所以不用对象，是因为对象的键只能用字符串··，1 和 '1' 无法辨别",
+        "第一次出现的直接加到seen中，后面再出现的就被过滤了···",
+        "4、使用最基本的算法··",
+        "只保留首次出现的··",
+        "5、先排好序，再比较",
+        "从第一项开始依次与后一项比较，若不等则通过过滤, 若是纯数字数组倒是无所谓",
+        "如果其中有类似'1' 和 1 这样的就会出bug,因为sort 会让'1' == 1; 所以不建议使用这个·"
+    ],
+    "docstrings": [],
+    "functions": [
+        "unique1",
+        "unique2",
+        "unique3"
+    ],
+    "classes": []
+}

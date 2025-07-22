@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "Component",
+        "LoginComponent",
+        "Component",
+        "LoginComponent"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'angular-stormpath'",
+        "'login-form'",
+        "<form class=\"form-horizontal\" #form=\"ngForm\" (ngSubmit)=\"login(form.value)\">\n    <label for=\"loginField\">Email</label>\n    <input name=\"login\" id=\"loginField\" type=\"text\" required [(ngModel)]=\"loginFormModel.login\">\n    <label for=\"passwordField\">Password</label>\n    <input name=\"password\" id=\"passwordField\" type=\"password\" required [(ngModel)]=\"loginFormModel.password\">\n    <a href=\"#\" (click)=\"forgot(); false\">&nbsp;Forgot Password?</a>\n    <div *ngIf=\"error\" class=\"warning\">{{error}}</div>\n    <button id=\"loginBtn\" type=\"submit\">Login</button>\n</form>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "CustomLoginComponent"
+    ]
+}

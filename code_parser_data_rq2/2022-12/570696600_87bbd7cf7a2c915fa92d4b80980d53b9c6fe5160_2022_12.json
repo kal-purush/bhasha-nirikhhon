@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "s",
+        "wordDict",
+        "len",
+        "s",
+        "i",
+        "len",
+        "s",
+        "w",
+        "wordDict",
+        "w",
+        "s",
+        "i",
+        "len",
+        "w",
+        "i",
+        "d",
+        "i",
+        "len",
+        "w",
+        "i",
+        "len",
+        "w",
+        "d"
+    ],
+    "literals": [],
+    "variables": [
+        "d",
+        "d",
+        "i"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\nGiven a string s and a dictionary of strings wordDict, return true if s can be segmented into a space-separated sequence of one or more dictionary words.\n\nNote that the same word in the dictionary may be reused multiple times in the segmentation.\n\n \n\nExample 1:\n\nInput: s = \"leetcode\", wordDict = [\"leet\",\"code\"]\nOutput: true\nExplanation: Return true because \"leetcode\" can be segmented as \"leet code\".\nExample 2:\n\nInput: s = \"applepenapple\", wordDict = [\"apple\",\"pen\"]\nOutput: true\nExplanation: Return true because \"applepenapple\" can be segmented as \"apple pen apple\".\nNote that you are allowed to reuse a dictionary word.\nExample 3:\n\nInput: s = \"catsandog\", wordDict = [\"cats\",\"dog\",\"sand\",\"and\",\"cat\"]\nOutput: false\n'''",
+        "\"\"\"\n        :type s: str\n        :type wordDict: List[str]\n        :rtype: bool\n        \"\"\"",
+        "'''\n        The idea is the following:\n\n        d is an array that contains booleans\n\n        d[i] is True if there is a word in the dictionary that ends at ith index of s AND d is also True at the beginning of the word\n        '''"
+    ],
+    "functions": [
+        "wordBreak"
+    ],
+    "classes": [
+        "Solution"
+    ]
+}

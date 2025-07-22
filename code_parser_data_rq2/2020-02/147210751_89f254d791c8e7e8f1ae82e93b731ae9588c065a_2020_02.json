@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "mapToNumeric",
+        "formatToGenericPhone",
+        "value",
+        "countryCodeLength",
+        "mapToNumeric",
+        "value",
+        "phone",
+        "phone",
+        "phone",
+        "phone",
+        "phone",
+        "phone",
+        "phone",
+        "phone",
+        "phone",
+        "phone",
+        "countryCodeLength",
+        "phone",
+        "re",
+        "formatToGenericPhone"
+    ],
+    "literals": [
+        "\"../helpers/mapToNumeric\"",
+        "string",
+        "string",
+        "\"$1-$2\"",
+        "\"$1-$2\"",
+        "\"($1) $2-$3\"",
+        "\"($1) $2-$3\"",
+        "\"$1 $2-$3\"",
+        "([0-9]{${countryCodeLength}})([0-9][0-9])([0-9]{5})([0-9]{4})",
+        "\"gi\"",
+        "\"+$1 $2 $3-$4\""
+    ],
+    "variables": [
+        "formatToGenericPhone",
+        "phone",
+        "re"
+    ],
+    "comments": [
+        "Brazil country code: +55"
+    ],
+    "docstrings": [
+        "* Formats a phone value into brazilian common phone formats.\n * @example ```js\n * formatToGenericPhone('23456789')\n * //=> '2345-6789'\n *\n * formatToGenericPhone('923456789')\n * //=> '92345-6789'\n *\n * formatToGenericPhone('21923456789')\n * //=> '(21) 92345-6789'\n *\n * formatToGenericPhone('021923456789')\n * //=> '021 92345-6789'\n *\n * formatToGenericPhone('5521923456789')\n * //=> '+55 21 92345-6789'\n * ```\n * @param value\n * @param countryCodeLength"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "math",
+        "arr",
+        "n",
+        "i",
+        "n",
+        "i",
+        "n",
+        "sumfirst",
+        "arr",
+        "i",
+        "sumsecond",
+        "arr",
+        "i",
+        "line",
+        "sumfirst",
+        "sumsecond",
+        "input",
+        "x",
+        "x",
+        "num",
+        "len",
+        "arr",
+        "sum_of_elements",
+        "arr",
+        "n"
+    ],
+    "literals": [
+        "'==================='",
+        "\"Lucky ticket\"",
+        "\"Not lucky. Try enter again\"",
+        "'Enter pair amount of digits: '"
+    ],
+    "variables": [
+        "sumfirst",
+        "sumsecond",
+        "num",
+        "arr",
+        "n"
+    ],
+    "comments": [
+        "add elements in first half sum",
+        "add elements in the second half sum",
+        "print(\"Sum of first half elements is\",",
+        "sumfirst, end = \"\\n\");",
+        "print(\"Sum of second half elements is\",",
+        "sumsecond, end = \"\\n\");",
+        "print(\"Sum =\", sumfirst + sumsecond)",
+        "printing number",
+        "if (int(math.log10(n))+1)%2 == 0:",
+        "print(int(math.log10(n))+1)",
+        "suma = 0",
+        "# print(n // 10, '= n // 10')",
+        "# print(n % 10, '= n % 10')",
+        "while n > 0:",
+        "digit = n % 10",
+        "suma = suma + digit",
+        "n = n // 10",
+        "print(\"Сумма:\", suma)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "line",
+        "sum_of_elements"
+    ],
+    "classes": []
+}

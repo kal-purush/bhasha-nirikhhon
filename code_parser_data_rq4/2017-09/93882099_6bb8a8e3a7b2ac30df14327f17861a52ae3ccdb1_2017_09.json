@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "com",
+        "robothand",
+        "highqualitybot",
+        "util",
+        "net",
+        "dv8tion",
+        "jda",
+        "core",
+        "utils",
+        "SimpleLog",
+        "Override",
+        "log",
+        "logLevel",
+        "message",
+        "Override",
+        "log",
+        "err"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "TODO implement SimpleLogWrapper.onLog()",
+        "TODO implement SimpleLogWrapper.onError()"
+    ],
+    "docstrings": [
+        "* SimpleLogWrapper.java\n * Intercepts logging from JDA's SimpleLog and routes it through to SLF4J"
+    ],
+    "functions": [
+        "onLog",
+        "onError"
+    ],
+    "classes": [
+        "SimpleLogWrapper"
+    ]
+}

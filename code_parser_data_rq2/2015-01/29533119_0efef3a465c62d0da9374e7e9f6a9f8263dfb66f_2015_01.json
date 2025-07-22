@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "id",
+        "name",
+        "price",
+        "require",
+        "require",
+        "require"
+    ],
+    "literals": [
+        "\"postal\"",
+        "\"../base\"",
+        "\"lodash\""
+    ],
+    "variables": [
+        "bus",
+        "Base",
+        "sys"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Represents a product.\n * @constructor\n * @param {string} id - The id of the product.\n * @param {string} name - The name of the product.\n * @param {string} price - The price of the product.\n * @example\n * //create product\n * var Cheese = New product(123, 'Dutch Cheese', 7.45);",
+        "* Provides easy access to the system bus and provides some helper methods for doing so\n * @module mixins/bussable"
+    ],
+    "functions": [
+        "Product"
+    ],
+    "classes": []
+}

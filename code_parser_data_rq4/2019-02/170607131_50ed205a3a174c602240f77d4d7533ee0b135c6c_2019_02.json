@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "ILogger",
+        "logger",
+        "logger",
+        "value",
+        "value",
+        "value",
+        "o",
+        "value",
+        "s",
+        "value",
+        "value",
+        "value",
+        "value",
+        "value",
+        "value",
+        "value"
+    ],
+    "literals": [
+        "\"../logger\"",
+        "string",
+        "'object'",
+        "'string'",
+        "string",
+        "''",
+        "string",
+        "''",
+        "string",
+        "'boolean'",
+        "'number'",
+        "'string'",
+        "'object'",
+        "''"
+    ],
+    "variables": [
+        "o",
+        "s"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Logger",
+        "* Initialize new instance of BaseHelper\n     * @param logger {ILogger} Logger",
+        "* Determines whether or not the given value is null or empty\n     * @param value {object | string | undefined | null} Value to check if null or empty",
+        "* Determines whether or not the given value is null or whitespace\n     * @param value {string | undefined | null} Value to check if null or whitespace",
+        "* Converts variables to strings\n     * @param value {any} Value to convert to string"
+    ],
+    "functions": [
+        "IsNullOrEmpty",
+        "IsNullOrWhitespace",
+        "ToString"
+    ],
+    "classes": [
+        "BaseHelper"
+    ]
+}

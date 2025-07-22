@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "controller",
+        "javax",
+        "websocket",
+        "server",
+        "ServerEndpoint",
+        "java",
+        "util",
+        "java",
+        "util",
+        "concurrent",
+        "CopyOnWriteArraySet",
+        "SuppressWarnings",
+        "ServerEndpoint",
+        "onlineCount",
+        "webSocketSet",
+        "args",
+        "a",
+        "add",
+        "a"
+    ],
+    "literals": [
+        "\"all\"",
+        "\"/websocket\""
+    ],
+    "variables": [],
+    "comments": [
+        "静态变量，用来记录当前在线连接数。应该把它设计成线程安全的。",
+        "concurrent包的线程安全Set，用来存放每个客户端对应的MyWebSocket对象。若要实现服务端与单一客户端通信的话，可以使用Map来",
+        "存放，其中Key可以为用户标识"
+    ],
+    "docstrings": [
+        "* @author Qiang\n * @data 2019/5/27/18:10",
+        "* @ServerEndpoint 注解是一个类层次的注解，它的功能主要是将目前的类定义成一个websocket服务器端,\n * 注解的值将被用于监听用户连接的终端访问URL地址,客户端可以通过这个URL来连接到WebSocket服务器端"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "WebSocketController"
+    ]
+}

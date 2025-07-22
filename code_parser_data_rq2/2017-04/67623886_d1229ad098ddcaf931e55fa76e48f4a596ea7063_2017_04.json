@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "padStart",
+        "dateToGeneralizedTime",
+        "date",
+        "date",
+        "generalizedTimeToDate",
+        "generalizedTime",
+        "generalizedTime",
+        "GENERALIZED_TIME_REGEX",
+        "isoTimestamp",
+        "date",
+        "date"
+    ],
+    "literals": [
+        "'lodash/padStart'",
+        "''",
+        "string",
+        "'$1-$2-$3T$4:$5:$6'",
+        "'invalid date'"
+    ],
+    "variables": [
+        "dateToGeneralizedTime",
+        "GENERALIZED_TIME_REGEX",
+        "generalizedTimeToDate",
+        "isoTimestamp",
+        "date"
+    ],
+    "comments": [
+        "The OER encoding for GeneralizedTime is a variable length octet string",
+        "containing the ASCII/IA5 representation of a ISO8601 combined date and time",
+        "in the *basic* format without the \"T\" separator.",
+        "",
+        "This is a very roundabout way of saying that GeneralizedTime contains an",
+        "ISO 8601 timestamp, but compared to JavaScript, we need to take out the",
+        "hyphens (\"-\"), colons (\":\") and the \"T\"."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

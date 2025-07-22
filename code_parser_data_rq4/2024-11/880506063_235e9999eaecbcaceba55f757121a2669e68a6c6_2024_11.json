@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "checkElement",
+        "temp",
+        "station",
+        "number",
+        "date",
+        "time",
+        "checkElement",
+        "h1",
+        "h1",
+        "h1",
+        "h2",
+        "h2",
+        "h2"
+    ],
+    "literals": [
+        "\"../../main.ts\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'weather'",
+        "\"h1\"",
+        "\"temp\"",
+        "\" °C\"",
+        "\"h2\"",
+        "\"city\""
+    ],
+    "variables": [
+        "h1",
+        "h2"
+    ],
+    "comments": [
+        "Import function to check the existence of an element",
+        "Get the weather container element",
+        "Create an <h1> element",
+        "Append to the weather container",
+        "Set class name for styling",
+        "Set the temperature text",
+        "Create an <h2> element",
+        "Append to the weather container",
+        "Set class name for styling",
+        "Set the city name text"
+    ],
+    "docstrings": [
+        "* Class representing the weather component displaying current weather information.",
+        "* Creates an instance of WeatherComponents.\n     * @param temp - Temperature as a string.\n     * @param station - Name of the weather station.\n     * @param number - Station number as a string.\n     * @param date - Date of the weather measurement.\n     * @param time - Time of the weather measurement.",
+        "* Creates and appends a temperature element to the weather container.",
+        "* Creates and appends a city name element to the weather container."
+    ],
+    "functions": [
+        "createTemp",
+        "createCity"
+    ],
+    "classes": [
+        "WeatherComponents"
+    ]
+}

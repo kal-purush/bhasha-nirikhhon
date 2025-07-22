@@ -1,0 +1,23 @@
+{
+    "identifiers": [],
+    "literals": [
+        "function w8I() {\n\tif(j0V[94][\"hostID\"] == j0V[94][\"getLSID\"]()) {\n\t\tj0V[94][\"sendReturnToLobby\"]();\n\t}",
+        "build(D2i,h2i) {\n\tif(this[\"gameSettings\"][\"mo\"]==\"v\") {\n\t\tthis[\"VTOLWing\"]=new PIXI[\"Graphics\"]();\n\t\tthis[\"VTOLWing\"][\"beginFill\"](0xcccccc);\n\t\tthis[\"VTOLWing\"][\"drawRect\"](\n\t\t\tthis[\"radius\"]*(-V[\"footHW\"]+V[\"footOffsetX\"]),\n\t\t\tthis[\"radius\"]*(-V[\"footHH\"]+V[\"footOffsetY\"]),\n\t\t\tthis[\"radius\"]*(V[\"footHW\"]*2),\n\t\t\tthis[\"radius\"]*(V[\"footHH\"]*2)\n\t\t);\n\t\tthis[\"VTOLWing\"][\"beginFill\"](0xcccccc);\n\t\tthis[\"VTOLWing\"][\"drawRect\"](\n\t\t\tthis[\"radius\"]*(-V[\"footHW\"]+-V[\"footOffsetX\"]),\n\t\t\tthis[\"radius\"]*(-V[\"footHH\"]+V[\"footOffsetY\"]),\n\t\t\tthis[\"radius\"]*(V[\"footHW\"]*2),\n\t\t\tthis[\"radius\"]*(V[\"footHH\"]*2)\n\t\t\t);\n\t\tthis[\"container\"][\"addChild\"](this[\"VTOLWing\"]);\n\t}",
+        "\"v\",S9L.W1E(116)];",
+        "\"v\") {\n\tvar O1B=[];\n\tO1B[11]=(-22/30)*O7R[445];\n\tO1B[791]=0.12;\n\tO1B[874]=new P1R[2](0,O1B[11]);\n\tO1B[874]=O7R[5][O7R[956]][\"body\"][\"GetWorldVector\"](O1B[874],O1B[874]);\n\tO1B[857]=new P1R[2](0,O1B[11]*O1B[791]);\n\tO1B[857]=O7R[5][O7R[956]][\"body\"][\"GetWorldVector\"](\n\t\tO1B[857],\n\t\tO1B[857]\n\t);\n\tO1B[347]=O7R[5][O7R[956]][\"body\"][\"GetWorldPoint\"](new P1R[2](\n\t\tV[\"footOffsetX\"]*O7R[445],\n\t\tV[\"footOffsetY\"]*O7R[445]\n\t));\n\tO1B[848]=O7R[5][O7R[956]][\"body\"][\"GetWorldPoint\"](new P1R[2](\n\t\t-V[\"footOffsetX\"]*O7R[445],\n\t\tV[\"footOffsetY\"]*O7R[445]\n\t));\n\tO1B[195]=\"none\";\n\tif(O7R[0][1][O7R[956]][\"up\"]) {\n\t\tif(O7R[0][1][O7R[956]][\"left\"]) {\n\t\t\tO1B[195]=\"right\";\n\t\t}\n\t\telse if(O7R[0][1][O7R[956]][\"right\"]) {\n\t\t\tO1B[195]=\"left\";\n\t\t}\n\t\telse {\n\t\t\tO1B[195]=\"both\";\n\t\t}\n\t}\n\telse if(O7R[0][1][O7R[956]][\"left\"] && O7R[0][1][O7R[956]][\"right\"]) {\n\t\tO1B[195]=\"both\";\n\t}\n\telse if(O7R[0][1][O7R[956]][\"left\"]) {\n\t\tO1B[195]=\"right\";\n\t}\n\telse if(O7R[0][1][O7R[956]][\"right\"]) {\n\t\tO1B[195]=\"left\";\n\t}\n\tif(O1B[195]==\"both\") {\n\t\tO7R[5][O7R[956]][\"body\"][\"ApplyImpulse\"](O1B[874],O1B[347]);\n\t\tO7R[5][O7R[956]][\"body\"][\"ApplyImpulse\"](O1B[874],O1B[848]);\n\t}\n\tif(O1B[195]==\"left\") {\n\t\tO7R[5][O7R[956]][\"body\"][\"ApplyImpulse\"](O1B[874],O1B[347]);\n\t\tO7R[5][O7R[956]][\"body\"][\"ApplyImpulse\"](O1B[857],O1B[848]);\n\t}\n\tif(O1B[195]==\"right\") {\n\t\tO7R[5][O7R[956]][\"body\"][\"ApplyImpulse\"](O1B[857],O1B[347]);\n\t\tO7R[5][O7R[956]][\"body\"][\"ApplyImpulse\"](O1B[874],O1B[848]);\n\t}\n}",
+        "P1R[43][P1R[7][551]][S9L.W1E(62)]={lobbyName:S9L.C1E(2070),gameStartName:S9L.W1E(2070),lobbyDescription:S9L.W1E(2071),tutorialTitle:S9L.C1E(2072),tutorialText:S9L.C1E(2073),forceTeams:false,forceTeamCount:null,editorCanTarget:true};"
+    ],
+    "variables": [
+        "END_GAME",
+        "RENDER_JETPACK",
+        "VTOL_MODE",
+        "VTOL",
+        "MAP_EDITOR_VTOL"
+    ],
+    "comments": [
+        "Adds VTOL to mode selection button"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

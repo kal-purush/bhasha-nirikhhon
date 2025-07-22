@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "seleniumProject",
+        "org",
+        "openqa",
+        "selenium",
+        "By",
+        "org",
+        "openqa",
+        "selenium",
+        "WebDriver",
+        "org",
+        "openqa",
+        "selenium",
+        "chrome",
+        "ChromeDriver",
+        "args",
+        "setProperty",
+        "driver",
+        "baseUrl",
+        "expectedTitle",
+        "actualTitle",
+        "driver",
+        "get",
+        "baseUrl",
+        "driver",
+        "manage",
+        "maximize",
+        "actualTitle",
+        "driver",
+        "getTitle",
+        "driver",
+        "manage",
+        "maximize",
+        "actualTitle",
+        "contentEquals",
+        "expectedTitle",
+        "actualTitle",
+        "driver",
+        "close"
+    ],
+    "literals": [
+        "\"webdriver.chrome.driver\"",
+        "\"D://chromedriver_win32/chromedriver.exe\"",
+        "\"https://www.google.com\"",
+        "\"Google\"",
+        "\"\"",
+        "\"Test Passed!\"",
+        "\"Test Failed\""
+    ],
+    "variables": [],
+    "comments": [
+        "TODO Auto-generated method stub",
+        "declaration and instantiation of objects/variables",
+        "WebDriver driver = new FirefoxDriver();",
+        "comment the above 2 lines and uncomment below 2 lines to use Chrome",
+        "System.setProperty(\"webdriver.chrome.driver\",\"G:\\\\chromedriver.exe\");",
+        "launch Fire fox and direct it to the Base URL",
+        "get the actual value of the title",
+        "driver.findElement(By.id(\"\"));",
+        "close Fire fox"
+    ],
+    "docstrings": [
+        "* compare the actual title of the page with the expected one and print\n         * the result as \"Passed\" or \"Failed\""
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "NewSeleniumProject"
+    ]
+}

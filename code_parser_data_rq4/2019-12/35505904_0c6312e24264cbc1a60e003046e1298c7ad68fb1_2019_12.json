@@ -1,0 +1,43 @@
+{
+    "identifiers": [],
+    "literals": [
+        "\"Andrew Schwartz\"",
+        "\"This module will install/update autoProc by Ellis Springe (@knavesec) - Tool to help automate LSASS dumping.\"",
+        "\"GIT\"",
+        "\"https://gist.github.com/0bf192d600ee15f214560ad6280df556.git\"",
+        "\"autoproc\"",
+        "\"make\"",
+        "\"\"",
+        "\"autoproc\"",
+        "\"\""
+    ],
+    "variables": [
+        "AUTHOR",
+        "DESCRIPTION",
+        "INSTALL_TYPE",
+        "REPOSITORY_LOCATION",
+        "INSTALL_LOCATION",
+        "DEBIAN",
+        "AFTER_COMMANDS",
+        "LAUNCHER",
+        "TOOL_DEPEND"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "",
+        "Installation module for autoProc",
+        "",
+        "AUTHOR OF MODULE NAME",
+        "DESCRIPTION OF THE MODULE",
+        "INSTALL TYPE GIT, SVN, FILE DOWNLOAD",
+        "OPTIONS = GIT, SVN, FILE",
+        "LOCATION OF THE FILE OR GIT/SVN REPOSITORY",
+        "WHERE DO YOU WANT TO INSTALL IT",
+        "DEPENDS FOR DEBIAN INSTALLS",
+        "COMMANDS TO RUN AFTER",
+        "PREREQ INSTALL MODULES NEEDED FOR THIS TOOL TO WORK PROPERLY"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

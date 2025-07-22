@@ -1,0 +1,89 @@
+{
+    "identifiers": [
+        "django",
+        "core",
+        "urlresolvers",
+        "reverse",
+        "django",
+        "test",
+        "TestCase",
+        "django",
+        "test",
+        "client",
+        "Client",
+        "navbuilder",
+        "models",
+        "navbuilder",
+        "tests",
+        "test_base",
+        "load_fixtures",
+        "load_crumb_fixtures",
+        "django",
+        "template",
+        "Context",
+        "Template",
+        "Template",
+        "Template",
+        "Template",
+        "TestCase",
+        "Client",
+        "load_fixtures",
+        "load_crumb_fixtures",
+        "menuitem",
+        "sub_menuitem_2",
+        "link",
+        "crumb_template_1",
+        "render",
+        "Context",
+        "link",
+        "assertHTMLEqual",
+        "crumb_template_2",
+        "render",
+        "Context",
+        "link",
+        "assertHTMLEqual",
+        "crumb_template_3",
+        "render",
+        "Context",
+        "link",
+        "assertIn",
+        "tearDown"
+    ],
+    "literals": [
+        "\"{% load navbuilder_tags %}\"",
+        "\"{% navbuilder_breadcrumbs 'menu-1' %}\"",
+        "\"{% load navbuilder_tags %}\"",
+        "\"{% navbuilder_breadcrumbs 'menu-2' %}\"",
+        "\"{% load navbuilder_tags %}\"",
+        "\"{% navbuilder_breadcrumbs 'menu-3' %}\"",
+        "\"object\"",
+        "\"object\"",
+        "\"object\"",
+        "\"Link 1\""
+    ],
+    "variables": [
+        "crumb_template_1",
+        "crumb_template_2",
+        "crumb_template_3",
+        "client",
+        "link",
+        "link"
+    ],
+    "comments": [
+        "Reorganise the items",
+        "The link object maps to the submenu in menu 1",
+        "The link object maps to a single level in menu 2",
+        "If we cannot identify the menu it comes from, take the first one."
+    ],
+    "docstrings": [
+        "\"\"\"\n                <a class=\"Crumb\" href=\"/link/1/\"\n                title=\"Link 1\" target=\"\" data-slug=\"link-1\">\n                    Link 1\n                </a>\n                >\n                <a class=\"Crumb\" data-slug=\"link-1\" href=\"/link/1/\"\n                target=\"blank\" title=\"Link 1\">\n                    Link 1\n                </a>\n                \"\"\"",
+        "\"\"\"\n                <a class=\"Crumb\" href=\"/link/1/\" title=\"Link 1\"\n                target=\"\" data-slug=\"link-1\">\n                    Link 1\n                </a>\n                \"\"\""
+    ],
+    "functions": [
+        "setUp",
+        "test_breadcrumbs"
+    ],
+    "classes": [
+        "BreadcrumbsTestCase"
+    ]
+}

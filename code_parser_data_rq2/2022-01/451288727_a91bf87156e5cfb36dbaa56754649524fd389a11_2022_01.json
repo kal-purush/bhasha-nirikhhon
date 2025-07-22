@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "It's a Pokemon battle! Your task is to calculate the damage that a particular move would do using the following formula (not the actual one from the game):\n\ndamage = 50 * (attack / defense) * effectiveness\nWhere:\n\nattack = your attack power\ndefense = the opponent's defense\neffectiveness = the effectiveness of the attack based on the matchup (see explanation below)\nEffectiveness:\n\nAttacks can be super effective, neutral, or not very effective depending on the matchup. For example, water would be super effective against fire, but not very effective against grass.\n\nSuper effective: 2x damage\nNeutral: 1x damage\nNot very effective: 0.5x damage\nTo prevent this kata from being tedious, you'll only be dealing with four types: fire, water, grass, and electric. Here is the effectiveness of each matchup:\n\nfire > grass\n\nfire < water\n\nfire = electric\n\nwater < grass\n\nwater < electric\n\ngrass = electric\n\nFor this kata, any type against itself is not very effective. Also, assume that the relationships between different types are symmetric (if A is super effective against B, then B is not very effective against A).\n\nThe function you must implement takes in:\n\nyour type\nthe opponent's type\nyour attack power\nthe opponent's defense\n\n\nconst {assert} = require(\"chai\");\n\ndescribe(\"Sample tests\", () => {\n  it(\"Tests\", () => {\n    assert.equal(calculateDamage(\"fire\", \"water\", 100, 100), 25);\n    assert.equal(calculateDamage(\"grass\", \"water\", 100, 100), 100);\n    assert.equal(calculateDamage(\"electric\", \"fire\", 100, 100), 50);\n    assert.equal(calculateDamage(\"grass\", \"electric\", 57, 19), 150);\n    assert.equal(calculateDamage(\"grass\", \"water\", 40, 40), 100);\n    assert.equal(calculateDamage(\"grass\", \"fire\", 35, 5), 175);\n    assert.equal(calculateDamage(\"fire\", \"electric\", 10, 2), 250);\n  });\n});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

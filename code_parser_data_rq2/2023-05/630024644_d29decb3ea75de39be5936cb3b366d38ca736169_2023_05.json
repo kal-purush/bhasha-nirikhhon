@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "fechaLocal",
+        "fechaSolicitada",
+        "fechaSolicitada",
+        "fecha",
+        "fecha",
+        "fecha",
+        "meses",
+        "mes",
+        "fecha",
+        "fecha",
+        "hora",
+        "hora",
+        "dia",
+        "nombreMes",
+        "anio",
+        "hora12",
+        "minutos",
+        "periodo",
+        "cadenaFecha"
+    ],
+    "literals": [
+        "\"enero\"",
+        "\"febrero\"",
+        "\"marzo\"",
+        "\"abril\"",
+        "\"mayo\"",
+        "\"junio\"",
+        "\"julio\"",
+        "\"agosto\"",
+        "\"septiembre\"",
+        "\"octubre\"",
+        "\"noviembre\"",
+        "\"diciembre\"",
+        "\"pm\"",
+        "\"am\"",
+        "${dia} de ${nombreMes} del ${anio} a las ${hora12}:${minutos.toString().padStart(2, \"0\")} ${periodo}",
+        "\"0\""
+    ],
+    "variables": [
+        "fechaLocal",
+        "fecha",
+        "dia",
+        "mes",
+        "anio",
+        "meses",
+        "nombreMes",
+        "hora",
+        "minutos",
+        "periodo",
+        "hora12",
+        "cadenaFecha"
+    ],
+    "comments": [
+        "Convertir a formato de 12 horas"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

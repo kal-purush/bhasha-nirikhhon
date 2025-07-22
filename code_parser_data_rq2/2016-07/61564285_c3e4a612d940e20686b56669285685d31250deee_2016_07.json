@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "com",
+        "test",
+        "org",
+        "springframework",
+        "test",
+        "web",
+        "servlet",
+        "MockMvc",
+        "org",
+        "springframework",
+        "test",
+        "web",
+        "servlet",
+        "setup",
+        "MockMvcBuilders",
+        "org",
+        "testng",
+        "annotations",
+        "BeforeClass",
+        "mockMvc",
+        "BeforeClass",
+        "alwaysRun",
+        "mockMvc",
+        "MockMvcBuilders",
+        "standaloneSetup",
+        "testedController",
+        "build",
+        "url",
+        "expectedContent",
+        "MockMvcRequestUtils",
+        "getMock",
+        "mockMvc",
+        "url",
+        "expectedContent",
+        "url",
+        "paramsJson",
+        "expectedContent",
+        "MockMvcRequestUtils",
+        "postMock",
+        "mockMvc",
+        "url",
+        "paramsJson",
+        "expectedContent"
+    ],
+    "literals": [],
+    "variables": [
+        "mockMvc"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Abstract controller unit test class for Spring MVC and TestNG.\n *\n * @author Bert Lee\n * @version 2014-8-19",
+        "* Gets the tested controller.\n     *\n     * @return the controller that is tested",
+        "* MVC mock",
+        "* Setups the tested controller in MVC Mock environment.",
+        "* Mocks the GET request.\n     *\n     * @param url             请求 URL\n     * @param params          请求参数\n     * @param expectedContent 期望的返回内容\n     * @throws Exception",
+        "* Mocks the POST request.\n     *\n     * @param url             请求 URL\n     * @param paramsJson      请求参数 JSON 串\n     * @param expectedContent 期望的返回内容\n     * @throws Exception"
+    ],
+    "functions": [
+        "testedController",
+        "buildMockMvc",
+        "getMock",
+        "postMock"
+    ],
+    "classes": [
+        "AbstractControllerTestNGUnitTests"
+    ]
+}

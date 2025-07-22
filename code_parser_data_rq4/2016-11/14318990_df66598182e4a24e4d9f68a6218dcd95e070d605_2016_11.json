@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "Runtime",
+        "InteropServices",
+        "OpenTK",
+        "Platform",
+        "Egl",
+        "EGLDisplay",
+        "IntPtr",
+        "EGLNativeDisplayType",
+        "IntPtr",
+        "EGLSurface",
+        "IntPtr",
+        "ShareHandle",
+        "IntPtr",
+        "DllImport",
+        "EntryPoint",
+        "platform",
+        "EGLNativeDisplayType",
+        "display_id",
+        "attrib_list",
+        "DllImport",
+        "EntryPoint",
+        "EGLDisplay",
+        "display",
+        "EGLSurface",
+        "surface",
+        "attribute",
+        "IntPtr",
+        "value"
+    ],
+    "literals": [
+        "\"libEGL.dll\"",
+        "\"eglGetPlatformDisplayEXT\"",
+        "\"libEGL.dll\"",
+        "\"eglQuerySurfacePointerANGLE\""
+    ],
+    "variables": [
+        "PLATFORM_ANGLE",
+        "PLATFORM_ANGLE_TYPE",
+        "PLATFORM_ANGLE_MAX_VERSION_MAJOR",
+        "PLATFORM_ANGLE_MAX_VERSION_MINOR",
+        "PLATFORM_ANGLE_TYPE_DEFAULT",
+        "PLATFORM_ANGLE_TYPE_D3D9",
+        "PLATFORM_ANGLE_TYPE_D3D11",
+        "PLATFORM_ANGLE_DEVICE_TYPE",
+        "PLATFORM_ANGLE_DEVICE_TYPE_HARDWARE",
+        "PLATFORM_ANGLE_DEVICE_TYPE_WARP",
+        "PLATFORM_ANGLE_DEVICE_TYPE_REFERENCE",
+        "PLATFORM_ANGLE_TYPE_OPENGL",
+        "PLATFORM_ANGLE_TYPE_OPENGLES",
+        "EGL_D3D_TEXTURE_2D_SHARE_HANDLE_ANGLE"
+    ],
+    "comments": [
+        "See",
+        "- ANGLE_platform_angle",
+        "- ANGLE_platform_angle_d3d",
+        "- ANGLE_platform_angle_opengl",
+        "See EGL_ANGLE_surface_d3d_texture_2d_share_handle"
+    ],
+    "docstrings": [],
+    "functions": [
+        "EGLDisplay",
+        "GetPlatformDisplay",
+        "QuerySurfacePointerANGLE"
+    ],
+    "classes": [
+        "Egl"
+    ]
+}

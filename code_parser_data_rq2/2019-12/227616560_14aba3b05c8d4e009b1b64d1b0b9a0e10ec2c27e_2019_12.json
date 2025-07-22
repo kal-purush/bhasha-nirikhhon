@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Students Portfolio Repo\n\n    You are in charge of creating a Student Portfolio Repo for both Frontend and Backend.\n\n    In this first \"step\" the application should enable the creation, editing, deletion, listing of students.\n\n    Student should have this information:\n    - Name\n    - Surname\n    - ID\n    - Email\n    - Date of Birth\n\n    //BACKEND\n\n    You are in charge of building the Backend using NodeJS only. The backend should include the following routes:\n\n    GET /students => returns the list of students\n    GET /students/123 => returns a single student\n    POST /students => create a new student\n    PUT /students/123 => edit the student with the given id\n    DELETE /students/123 => delete the student with the given id\n\n    The persistence must be granted via file system (es.: Json file with a list of students inside)\n\n    [EXTRA] POST /checkEmail => check if another student has the same email. The parameter should be passed in the body\n    It should not be possible to add a new student if another has the same email.\n\n\n    //FRONTEND\n\n    You are in charge of building the Frontend too. Use ReactJS to create an application for managing the students.\n\n    The features for the application are:\n\n    - Add a new Student ([EXTRA]use CheckEmail before sending the post to the backend)\n    - Show Students on a list\n    - Every Student could be edit or deleted"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

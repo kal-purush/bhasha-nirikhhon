@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "using System;\n\nusing Android.App;\nusing Android.OS;\nusing Android.Runtime;\nusing Plugin.CurrentActivity;\n\nnamespace Plugin.Contacts\n{\n\t//You can specify additional application information in this attribute\n    [Application]\n    public class MainApplication : Application, Application.IActivityLifecycleCallbacks\n    {\n        public MainApplication(IntPtr handle, JniHandleOwnership transer)\n          :base(handle, transer)\n        {\n        }\n\n        public override void OnCreate()\n        {\n            base.OnCreate();\n            RegisterActivityLifecycleCallbacks(this);\n            //A great place to initialize Xamarin.Insights and Dependency Services!\n        }\n\n        public override void OnTerminate()\n        {\n            base.OnTerminate();\n            UnregisterActivityLifecycleCallbacks(this);\n        }\n\n        public void OnActivityCreated(Activity activity, Bundle savedInstanceState)\n        {\n            CrossCurrentActivity.Current.Activity = activity;\n        }\n\n        public void OnActivityDestroyed(Activity activity)\n        {\n        }\n\n        public void OnActivityPaused(Activity activity)\n        {\n        }\n\n        public void OnActivityResumed(Activity activity)\n        {\n            CrossCurrentActivity.Current.Activity = activity;\n        }\n\n        public void OnActivitySaveInstanceState(Activity activity, Bundle outState)\n        {\n        }\n\n        public void OnActivityStarted(Activity activity)\n        {\n            CrossCurrentActivity.Current.Activity = activity;\n        }\n\n        public void OnActivityStopped(Activity activity)\n        {\n        }\n    }\n}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

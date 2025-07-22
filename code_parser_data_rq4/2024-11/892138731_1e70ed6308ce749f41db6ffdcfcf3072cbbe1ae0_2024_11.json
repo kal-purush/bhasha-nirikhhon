@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "date",
+        "daysOfWeek",
+        "date",
+        "date",
+        "months",
+        "date",
+        "date",
+        "date",
+        "minutes",
+        "minutes",
+        "minutes",
+        "hour",
+        "hour",
+        "dayOfWeek",
+        "day",
+        "month",
+        "hour12Format",
+        "formattedMinutes",
+        "period"
+    ],
+    "literals": [
+        "string",
+        "'Domingo'",
+        "'Segunda-feira'",
+        "'Terça-feira'",
+        "'Quarta-feira'",
+        "'Quinta-feira'",
+        "'Sexta-feira'",
+        "'Sábado'",
+        "'Janeiro'",
+        "'Fevereiro'",
+        "'Março'",
+        "'Abril'",
+        "'Maio'",
+        "'Junho'",
+        "'Julho'",
+        "'Agosto'",
+        "'Setembro'",
+        "'Outubro'",
+        "'Novembro'",
+        "'Dezembro'",
+        "0${minutes}",
+        "'am'",
+        "'pm'",
+        "${dayOfWeek}, ${day} de ${month} às ${hour12Format}:${formattedMinutes}${period}"
+    ],
+    "variables": [
+        "daysOfWeek",
+        "months",
+        "dayOfWeek",
+        "day",
+        "month",
+        "hour",
+        "minutes",
+        "formattedMinutes",
+        "hour12Format",
+        "period"
+    ],
+    "comments": [
+        "Formatar minutos para sempre ter dois dígitos",
+        "Formatar horas no formato 12h com sufixo am/pm",
+        "Transforma 0 em 12"
+    ],
+    "docstrings": [],
+    "functions": [
+        "formatDate"
+    ],
+    "classes": []
+}

@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "library_management",
+        "details",
+        "library_management",
+        "connection",
+        "connection",
+        "java",
+        "sql",
+        "java",
+        "io",
+        "query",
+        "connection",
+        "connect",
+        "ptm",
+        "connection",
+        "prepareStatement",
+        "query",
+        "br",
+        "book_id",
+        "br",
+        "readLine",
+        "ptm",
+        "setString",
+        "book_id",
+        "rs",
+        "ptm",
+        "executeQuery",
+        "rs",
+        "next",
+        "book_available",
+        "rs",
+        "getInt",
+        "book_name",
+        "rs",
+        "getString",
+        "book_name",
+        "book_available",
+        "ptm",
+        "close",
+        "connection",
+        "close",
+        "e"
+    ],
+    "literals": [
+        "\"select book_available, book_name from book where book_id=?\"",
+        "\"enter the book id :\"",
+        "\"book_available\"",
+        "\"book_name\"",
+        "\" - \"",
+        "\" books are available in the stock\"",
+        "\"Book ID not found in the database.\"",
+        "\"Entered BOOK ID is not valid or not in databases:\\n Kindly contact to administrator\""
+    ],
+    "variables": [],
+    "comments": [
+        "rs.next();",
+        "String book_available = rs.getString(1);",
+        "System.out.println(book_available + \" books are available in the stock\\n ----------\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "printdetails"
+    ],
+    "classes": [
+        "details"
+    ]
+}

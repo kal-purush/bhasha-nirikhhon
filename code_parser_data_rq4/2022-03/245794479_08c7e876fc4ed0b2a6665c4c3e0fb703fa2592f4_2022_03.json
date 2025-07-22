@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Kaiyuanshe",
+        "OpenHackathon",
+        "Server",
+        "K8S",
+        "Models"
+    ],
+    "literals": [
+        "\"default\"",
+        "\"templateId\"",
+        "\"hackathonName\"",
+        "\"userId\"",
+        "\"Experiment\"",
+        "\"Template\"",
+        "\"USER\"",
+        "\"hackathon.kaiyuanshe.cn\"",
+        "\"v1\"",
+        "\"hackathon.kaiyuanshe.cn/v1\"",
+        "\"templates\"",
+        "\"experiments\""
+    ],
+    "variables": [
+        "Default",
+        "TemplateId",
+        "HackathonName",
+        "UserId",
+        "Experiment",
+        "Template",
+        "User",
+        "Group",
+        "Version",
+        "ApiVersion",
+        "Templates",
+        "Experiments"
+    ],
+    "comments": [
+        "CRD: https://github.com/kaiyuanshe/cloudengine/blob/master/config/crd/bases/hackathon.kaiyuanshe.cn_experiments.yaml",
+        "group/version can be found in above link. The same values for template/experiment",
+        "Properties of CustomResourceDefinition",
+        "See also: https://github.com/kaiyuanshe/cloudengine/blob/master/config/crd/bases/hackathon.kaiyuanshe.cn_templates.yaml",
+        "Properties of CustomResourceDefinition",
+        "See also: https://github.com/kaiyuanshe/cloudengine/blob/master/config/crd/bases/hackathon.kaiyuanshe.cn_experiments.yaml"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Namespaces",
+        "Labels",
+        "Kinds",
+        "EnvNames",
+        "CustomResourceDefinition",
+        "Plurals"
+    ]
+}

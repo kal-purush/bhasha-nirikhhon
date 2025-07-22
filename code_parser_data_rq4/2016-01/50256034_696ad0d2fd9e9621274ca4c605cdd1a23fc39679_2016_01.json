@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Component",
+        "Writer",
+        "WriterDetailComponent",
+        "WriterService",
+        "WRITERS",
+        "OnInit",
+        "Component",
+        "WriterDetailComponent",
+        "WriterService",
+        "writer",
+        "writer",
+        "_writerService",
+        "writers",
+        "writers"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./writer'",
+        "'./writer-detail.component'",
+        "'./writer.service'",
+        "'./writer.service'",
+        "'angular2/core'",
+        "'writer-name'",
+        ".selected {\n        background-color: #CFD8DC !important;\n        color: white;\n      }\n      .writers {\n        margin: 0 0 2em 0;\n        list-style-type: none;\n        padding: 0;\n        width: 10em;\n      }\n      .writers li {\n        cursor: pointer;\n        position: relative;\n        left: 0;\n        background-color: #EEE;\n        margin: .5em;\n        padding: .3em 0em;\n        height: 1.6em;\n        border-radius: 4px;\n      }\n      .writers li.selected:hover {\n        color: white;\n      }\n      .writers li:hover {\n        color: #607D8B;\n        background-color: #EEE;\n        left: .1em;\n      }\n      .writers .text {\n        position: relative;\n        top: -3px;\n      }\n      .writers .badge {\n        display: inline-block;\n        font-size: small;\n        color: white;\n        padding: 0.8em 0.7em 0em 0.7em;\n        background-color: #607D8B;\n        line-height: 1em;\n        position: relative;\n        left: -1px;\n        top: -4px;\n        height: 1.8em;\n        margin-right: .8em;\n        border-radius: 4px 0px 0px 4px;\n      }",
+        "<h1>{{title}}</h1>\n\n    <h2>My Writers</h2>\n    <ul class=\"writers\">\n    <li *ngFor=\"#writer of writers\"\n        [class.selected]=\"writer === selectedWriter\"\n        (click)=\"onSelect(writer)\">\n        <span class=\"badge\">{{writer.id}}</span> {{writer.name}}\n    </li>\n    </ul>\n    <my-writer-detail [writer]=\"selectedWriter\"></my-writer-detail>",
+        "'Tour of writers'"
+    ],
+    "variables": [],
+    "comments": [
+        "html selector *",
+        "css styles *",
+        "html template for presenting data *",
+        "private class for writerService *",
+        "function to call data through private service variable *",
+        "async call with delayed assignment of data to writers *",
+        "load items on initialization *"
+    ],
+    "docstrings": [
+        "* Created by michalzagrodzki on 23/01/16."
+    ],
+    "functions": [
+        "onSelect",
+        "getWriters",
+        "ngOnInit"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

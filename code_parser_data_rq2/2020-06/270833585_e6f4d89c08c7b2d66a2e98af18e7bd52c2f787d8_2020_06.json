@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "styled",
+        "css",
+        "colors",
+        "Tooltip",
+        "styled",
+        "ContainerProps",
+        "props",
+        "props",
+        "css",
+        "colors",
+        "props",
+        "props",
+        "css",
+        "colors",
+        "colors",
+        "props",
+        "props",
+        "css",
+        "colors",
+        "colors",
+        "colors",
+        "colors",
+        "styled",
+        "Tooltip",
+        "colors",
+        "colors",
+        "colors"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'../../styles'",
+        "'../Tooltip'",
+        "background: #232129;\n  border-radius: 10px;\n  border: 2px solid #232129;\n  padding: 16px;\n  width: 100%;\n  color: #666360;\n\n  display: flex;\n  align-items: center;\n\n  & + div {\n    margin-top: 8px;\n  }\n\n  ${(props) =>\n    props.isErrored &&\n    css`\n      border-color: ${colors.fourth};\n    `}\n\n  ${(props) =>\n    props.isFocused &&\n    css`\n      color: ${colors.secundary};\n      border-color: ${colors.secundary};\n    `}\n\n  ${(props) =>\n    props.isFilled &&\n    css`\n      color: ${colors.secundary};\n    `}\n\n\n  input {\n    flex: 1;\n    border: 0;\n    color: ${colors.primary};\n    -webkit-text-fill-color: ${colors.primary};\n\n    transition: background-color 5000s ease-in-out 0s;\n\n    background: transparent;\n    &::placeholder {\n      color: ${colors.third};\n    }\n  }\n\n  svg {\n    margin-right: 16px;\n  }",
+        "border-color: ${colors.fourth};",
+        "color: ${colors.secundary};\n      border-color: ${colors.secundary};",
+        "color: ${colors.secundary};",
+        "height: 20px;\n  margin-left: 16px;\n\n  svg {\n    margin: 0;\n  }\n\n  span {\n    background: ${colors.fourth};\n    color: ${colors.sixth};\n    &::before {\n      border-color: ${colors.fourth} transparent;\n    }\n  }"
+    ],
+    "variables": [
+        "Container"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

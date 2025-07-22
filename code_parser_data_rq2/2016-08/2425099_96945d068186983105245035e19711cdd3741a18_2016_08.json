@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "Rebus",
+        "Bus",
+        "Rebus",
+        "Config",
+        "Rebus",
+        "Logging",
+        "Rebus",
+        "Pipeline",
+        "Rebus",
+        "Transport",
+        "Rebus",
+        "Workers",
+        "ThreadPoolBased",
+        "OptionsConfigurer",
+        "configurer",
+        "configurer",
+        "ArgumentNullException",
+        "nameof",
+        "configurer",
+        "configurer",
+        "Register",
+        "IWorkerFactory",
+        "c",
+        "Get",
+        "ITransport",
+        "c",
+        "Get",
+        "IRebusLoggerFactory",
+        "c",
+        "Get",
+        "IPipeline",
+        "c",
+        "Get",
+        "IPipelineInvoker",
+        "c",
+        "Get",
+        "Options",
+        "ThreadPoolWorkerFactory",
+        "transport",
+        "rebusLoggerFactory",
+        "pipeline",
+        "pipelineInvoker",
+        "options",
+        "c",
+        "Get",
+        "RebusBus"
+    ],
+    "literals": [],
+    "variables": [
+        "transport",
+        "rebusLoggerFactory",
+        "pipeline",
+        "pipelineInvoker",
+        "options"
+    ],
+    "comments": [
+        "Configuration extensions for experimental new thread pool-based worker factory",
+        "</summary>",
+        "Replaces the default worker factory with one that uses the .NET thread pool to dispatch messages",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "UseThreadPoolMessageDispatch"
+    ],
+    "classes": [
+        "ThreadPoolWorkersConfigurationExtensions"
+    ]
+}

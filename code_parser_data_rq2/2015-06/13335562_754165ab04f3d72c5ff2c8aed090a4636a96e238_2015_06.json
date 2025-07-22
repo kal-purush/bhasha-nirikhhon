@@ -1,0 +1,40 @@
+{
+    "identifiers": [],
+    "literals": [
+        "''",
+        "''"
+    ],
+    "variables": [
+        "revision",
+        "author",
+        "length",
+        "total_tokens",
+        "added",
+        "deleted",
+        "reintroduced",
+        "redeleted",
+        "revert",
+        "self_reintroduced",
+        "self_redeleted",
+        "self_deleted",
+        "self_revert"
+    ],
+    "comments": [
+        "Wikipedia revision id",
+        "Author of the revision",
+        "Total length of 'revision'",
+        "Number of new tokens.",
+        "Given a revision, the number of tokens deleted from that revision",
+        "Given a revision, the number of tokens reintroduced from that revision",
+        ""
+    ],
+    "docstrings": [
+        "'''\nCreated on Jun 14, 2014\n\n@author: maribelacosta\n'''",
+        "'''\n    classdocs\n    '''",
+        "'''\n        Constructor\n        '''"
+    ],
+    "functions": [],
+    "classes": [
+        "Relation"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "Observable",
+        "Subscriber",
+        "Scraper",
+        "PromiseObservable",
+        "express",
+        "ConnectableObservable",
+        "Observer",
+        "url",
+        "Scraper",
+        "url",
+        "Observable",
+        "scrapedData",
+        "source",
+        "DataService"
+    ],
+    "literals": [
+        "\"rxjs/Observable\"",
+        "'rxjs/Subscriber'",
+        "\"rxjs/add/observable/from\"",
+        "\"rxjs/add/operator/publish\"",
+        "\"rxjs/add/observable/defer\"",
+        "'./scraper'",
+        "'rxjs/observable/PromiseObservable'",
+        "'express'",
+        "\"rxjs\"",
+        "string"
+    ],
+    "variables": [
+        "scrapedData",
+        "source"
+    ],
+    "comments": [
+        "import { Observer } from 'rxjs/Observer';",
+        "import { Subscription } from 'rxjs/Subscription';",
+        "(2) same problem as (1) I cannot just use Observervable.from",
+        "prolly I will have to import {} and use FromObservable.create() as per from.d.ts"
+    ],
+    "docstrings": [
+        "* Created by spotted on 26/02/17."
+    ],
+    "functions": [
+        "getData"
+    ],
+    "classes": [
+        "DataService"
+    ]
+}

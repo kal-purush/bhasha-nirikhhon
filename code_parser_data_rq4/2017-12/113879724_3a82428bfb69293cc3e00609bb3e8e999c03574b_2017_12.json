@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "call",
+        "sample",
+        "call",
+        "sample",
+        "open",
+        "locationData",
+        "line",
+        "locationData",
+        "line",
+        "line",
+        "split",
+        "line",
+        "split",
+        "line",
+        "split",
+        "regions",
+        "line",
+        "line",
+        "split",
+        "regions",
+        "regions",
+        "sample",
+        "hap",
+        "variant",
+        "call",
+        "hap1call",
+        "items",
+        "hap",
+        "loc",
+        "variant",
+        "key",
+        "value",
+        "regions",
+        "items",
+        "loc",
+        "split",
+        "location",
+        "value",
+        "location",
+        "value",
+        "key",
+        "loc"
+    ],
+    "literals": [
+        "'locationData.tsv'",
+        "'##REGION'",
+        "'='",
+        "':'",
+        "';'",
+        "'-'",
+        "\"Hap1 Shared\"",
+        "'~'"
+    ],
+    "variables": [
+        "call",
+        "sample",
+        "regions",
+        "line",
+        "line",
+        "line",
+        "location"
+    ],
+    "comments": [
+        "print(line[0])",
+        "for key, value in regions.items():",
+        "print(key,value)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "loadregions",
+        "tofile"
+    ],
+    "classes": [
+        "output"
+    ]
+}

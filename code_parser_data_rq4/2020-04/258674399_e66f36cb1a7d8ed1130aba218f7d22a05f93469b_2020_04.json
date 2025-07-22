@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "dao",
+        "entity",
+        "Seckill",
+        "org",
+        "apache",
+        "ibatis",
+        "annotations",
+        "Param",
+        "java",
+        "util",
+        "java",
+        "util",
+        "java",
+        "util",
+        "SeckillDao",
+        "Param",
+        "seckillId",
+        "Param",
+        "killTime",
+        "seckillId",
+        "Param",
+        "offset",
+        "Param",
+        "limit",
+        "paramMap"
+    ],
+    "literals": [
+        "\"seckillId\"",
+        "\"killTime\"",
+        "\"offset\"",
+        "\"limit\""
+    ],
+    "variables": [],
+    "comments": [
+        "对商品的操作",
+        "减库存的id，执行减库存的时间",
+        "接口2：查询需求(根据ID查询秒杀对象)",
+        "接口3：做一个列表(根据偏移量查询秒杀商品)"
+    ],
+    "docstrings": [
+        "口1:减库存\n     * 返回值为减去的数量（影响行数）"
+    ],
+    "functions": [
+        "reduceNumber",
+        "Seckill",
+        "queryById",
+        "queryAll",
+        "killByProcedure"
+    ],
+    "classes": []
+}

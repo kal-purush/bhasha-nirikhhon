@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "OpenTelemetry",
+        "Exporter",
+        "OpenTelemetryProtocol",
+        "Implementation",
+        "Serializer"
+    ],
+    "literals": [],
+    "variables": [
+        "InstrumentationScope_Name",
+        "InstrumentationScope_Version",
+        "InstrumentationScope_Attributes",
+        "InstrumentationScope_Dropped_Attributes_Count",
+        "KeyValue_Key",
+        "KeyValue_Value",
+        "AnyValue_String_Value",
+        "AnyValue_Bool_Value",
+        "AnyValue_Int_Value",
+        "AnyValue_Double_Value",
+        "AnyValue_Array_Value",
+        "AnyValue_Kvlist_Value",
+        "AnyValue_Bytes_Value",
+        "ArrayValue_Value"
+    ],
+    "comments": [
+        "Copyright The OpenTelemetry Authors",
+        "SPDX-License-Identifier: Apache-2.0",
+        "Defines field number constants for fields defined in",
+        "<see href=\"https://github.com/open-telemetry/opentelemetry-proto/blob/v1.2.0/opentelemetry/proto/common/v1/common.proto\"/>.",
+        "</summary>",
+        "InstrumentationScope",
+        "KeyValue",
+        "AnyValue"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "ProtobufOtlpCommonFieldNumberConstants"
+    ]
+}

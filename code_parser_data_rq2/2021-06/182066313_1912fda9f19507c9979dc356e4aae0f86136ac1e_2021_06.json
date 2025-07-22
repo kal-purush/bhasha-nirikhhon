@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "program",
+        "execSync",
+        "program",
+        "program",
+        "process",
+        "program",
+        "execSync",
+        "head",
+        "printAffected",
+        "o",
+        "o",
+        "printAffected",
+        "project"
+    ],
+    "literals": [
+        "'commander'",
+        "'child_process'",
+        "'-p, --project <name>'",
+        "'specified project name'",
+        "'--list'",
+        "'print affected projects'",
+        "'--base <commit>'",
+        "'base commit to compare'",
+        "'HEAD~1'",
+        "'--head <commit>'",
+        "'head commit to compare'",
+        "HEAD",
+        "yarn --silent nx print-affected --base=${base} --head=${head}"
+    ],
+    "variables": [
+        "printAffected"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

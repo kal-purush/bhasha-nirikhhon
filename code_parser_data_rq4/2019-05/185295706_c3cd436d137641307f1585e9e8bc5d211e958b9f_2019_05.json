@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "com",
+        "dasnnj",
+        "practice",
+        "weixinsell",
+        "service",
+        "com",
+        "dasnnj",
+        "practice",
+        "weixinsell",
+        "dataobject",
+        "ProductCategory",
+        "java",
+        "util",
+        "IProductCategoryService",
+        "categoryId",
+        "types",
+        "productCategory"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Description <P> DO : 商品类目service接口 <P>\n *\n * @author DASNNJ <a href=\"mailto:dasnnj@outlook.com\"> dasnnj@outlook.com </a>\n * @date 2019 -05-15 21:18",
+        "* Description <p> DO :  getOne</p>\n     *\n     * @param categoryId the category id\n     * @return com.dasnnj.practice.weixinsell.dataobject.ProductCategory product category\n     *\n     * @author dasnnj\n     * @date 2019 -05-15 09:21",
+        "* Description <p> DO : findAll </p>\n     *\n     * @return java.util.List<com.dasnnj.practice.weixinsell.dataobject.ProductCategory>    list\n     *\n     * @author dasnnj\n     * @date 2019 -05-15 09:23",
+        "* Description <p> DO :  根据类型categoryType查找</p>\n     *\n     * @param types the types\n     * @return java.util.List<com.dasnnj.practice.weixinsell.dataobject.ProductCategory>   product categories by category type in\n     *\n     * @author dasnnj\n     * @date 2019 -05-15 09:23",
+        "* Description <p> DO :  保存/更新</p>\n     *\n     * @param productCategory the product category\n     * @return com.dasnnj.practice.weixinsell.dataobject.ProductCategory product category\n     *\n     * @author dasnnj\n     * @date 2019 -05-15 09:24"
+    ],
+    "functions": [
+        "ProductCategory",
+        "getOne",
+        "findAll",
+        "getProductCategoriesByCategoryTypeIn",
+        "ProductCategory",
+        "save"
+    ],
+    "classes": []
+}

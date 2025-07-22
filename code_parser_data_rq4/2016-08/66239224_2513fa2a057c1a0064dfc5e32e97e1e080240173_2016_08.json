@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "OnInit",
+        "DoCheck",
+        "DataTable",
+        "Component",
+        "Output",
+        "EventEmitter",
+        "Input",
+        "Input",
+        "index",
+        "$event"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"./DataTable\"",
+        "\"mfRowSelector\"",
+        "<input type=\"checkbox\" [checked]=\"isChecked\" (change)=\"onChange($event)\" />",
+        "\"selectEntity\"",
+        "\"entity\"",
+        "\"selectedEntities\""
+    ],
+    "variables": [
+        "index"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "ngDoCheck",
+        "getIsChecked",
+        "onChange"
+    ],
+    "classes": [
+        "RowSelector"
+    ]
+}

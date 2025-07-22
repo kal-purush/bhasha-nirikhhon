@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "ReboostPlugin",
+        "code",
+        "LitCSSPlugin"
+    ],
+    "literals": [
+        "'reboost'",
+        "'litcss-plugin'",
+        "'css'",
+        "import { css } from 'lit-element';\n            const cssString = ${JSON.stringify(code)};\n            export default css(Object.assign([cssString], { raw: [cssString] }));\n            export { cssString as css }",
+        "'js'"
+    ],
+    "variables": [],
+    "comments": [
+        "declare namespace LitCSSPlugin {",
+        "export interface Options {",
+        "}",
+        "}",
+        "options: LitCSSPlugin.Options = {}",
+        "js"
+    ],
+    "docstrings": [],
+    "functions": [
+        "LitCSSPlugin",
+        "transformContent"
+    ],
+    "classes": []
+}

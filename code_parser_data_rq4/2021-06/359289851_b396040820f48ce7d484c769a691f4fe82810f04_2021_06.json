@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "rest_framework",
+        "pagination",
+        "PageNumberPagination",
+        "rest_framework",
+        "response",
+        "Response",
+        "PageNumberPagination",
+        "data",
+        "Response",
+        "page",
+        "paginator",
+        "count",
+        "page",
+        "paginator",
+        "num_pages",
+        "page",
+        "number",
+        "page",
+        "has_next",
+        "data"
+    ],
+    "literals": [
+        "'size'",
+        "'total_results'",
+        "'total_pages'",
+        "'page_number'",
+        "'has_next_page'",
+        "'results'"
+    ],
+    "variables": [
+        "page_size",
+        "page_size_query_param",
+        "max_page_size"
+    ],
+    "comments": [
+        "默认的 page size，也就是 page 没有在 url 参数里的时候",
+        "默认的 page_size_query_param 是 None 表示不允许客户端指定每一页的大小",
+        "如果加上这个配置，就表示客户端可以通过 size=10 来指定一个特定的大小用于不同的场景",
+        "比如手机端和web端访问同一个API但是需要的 size 大小是不同的。",
+        "允许客户端指定的最大 page_size 是多少"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_paginated_response"
+    ],
+    "classes": [
+        "FriendshipPagination"
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "express",
+        "app",
+        "bodyPars",
+        "app",
+        "bodyPars",
+        "app",
+        "cors",
+        "app",
+        "index",
+        "app",
+        "users",
+        "app",
+        "questions",
+        "monggo",
+        "process",
+        "process",
+        "monggo",
+        "app"
+    ],
+    "literals": [
+        "'express'",
+        "'./routes/index'",
+        "'./routes/users'",
+        "'./routes/questions'",
+        "'mongoose'",
+        "'body-parser'",
+        "'cors'",
+        "'/'",
+        "'/users'",
+        "'/questions'",
+        "mongodb://${process.env.DB_USER}:${process.env.DB_PASS}@ds163020.mlab.com:63020/backend-hacktivoverflow",
+        "'connected'",
+        "'mongo connected'",
+        "'server is running...'"
+    ],
+    "variables": [
+        "express",
+        "index",
+        "users",
+        "questions",
+        "monggo",
+        "bodyPars",
+        "cors",
+        "app"
+    ],
+    "comments": [
+        "monggo.connect('mongodb://localhost/hackoverflow')"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

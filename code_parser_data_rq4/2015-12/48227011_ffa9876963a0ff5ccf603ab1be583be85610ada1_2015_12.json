@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "bootstrap",
+        "Component",
+        "ArticleComponent",
+        "Article",
+        "Component",
+        "ArticleComponent",
+        "Article",
+        "Article",
+        "Article",
+        "title",
+        "link",
+        "Article",
+        "title",
+        "link",
+        "article",
+        "article",
+        "article",
+        "title",
+        "link",
+        "a",
+        "b",
+        "b",
+        "a",
+        "bootstrap",
+        "RedditApp"
+    ],
+    "literals": [
+        "'angular2/platform/browser'",
+        "'angular2/core'",
+        "'./article.component'",
+        "'./article'",
+        "'reddit'",
+        "<form class=\"ui large form segment\">\n        <h3 class=\"ui header\">Add a Link</h3>\n\n        <div class=\"field\">\n            <label for=\"title\"></label>\n            <input name=\"title\" #newtitle>\n        </div>\n        <div class=\"field\">\n            <label for=\"link\">Link: </label>\n            <input name=\"link\" #newlink>\n        </div>\n        <button\n        (click)=\"addArticle(newtitle, newlink)\"\n        class=\"ui positive right floated button\">\n        Submit link\n        </button>\n    </form>\n    <div class=\"ui grid posts\">\n        <reddit-article\n        *ngFor=\"#article of sortedArticles()\"\n        [article]=\"article\">\n        </reddit-article>\n    </div>",
+        "'Angular 2'",
+        "'http://angular.io'",
+        "'Fullstack'",
+        "'http://fullstack.io'",
+        "'Angular Homepage'",
+        "'http://angular.io'",
+        "Adding article title: ${article.title} and link: ${article.link}",
+        "''",
+        "''"
+    ],
+    "variables": [
+        "article"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "addArticle",
+        "sortedArticles"
+    ],
+    "classes": [
+        "RedditApp"
+    ]
+}

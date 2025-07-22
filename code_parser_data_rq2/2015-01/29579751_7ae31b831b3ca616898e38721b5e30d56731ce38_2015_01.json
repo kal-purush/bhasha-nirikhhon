@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "django",
+        "contrib",
+        "admin",
+        "books",
+        "models",
+        "Publisher",
+        "Author",
+        "Book",
+        "admin",
+        "ModelAdmin",
+        "admin",
+        "ModelAdmin",
+        "admin",
+        "site",
+        "register",
+        "Publisher",
+        "admin",
+        "site",
+        "register",
+        "Author",
+        "AuthorAdmin",
+        "admin",
+        "site",
+        "register",
+        "Book",
+        "BookAdmin"
+    ],
+    "literals": [
+        "'first_name'",
+        "'last_name'",
+        "'email'",
+        "'first_name'",
+        "'last_name'",
+        "'title'",
+        "'publisher'",
+        "'publication_date'",
+        "'publication_date'",
+        "'publication_date'",
+        "'-publication_date'",
+        "'authors'",
+        "'publisher'"
+    ],
+    "variables": [
+        "list_display",
+        "search_fields",
+        "list_display",
+        "list_filter",
+        "date_hierarchy",
+        "ordering",
+        "filter_horizontal",
+        "raw_id_fields"
+    ],
+    "comments": [
+        "fields = ('title', 'authors', 'publisher', 'publication_date',)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AuthorAdmin",
+        "BookAdmin"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Web",
+        "Microsoft",
+        "Ajax",
+        "Utilities",
+        "harristeq",
+        "Models",
+        "DemoBaseClass",
+        "DemoAbstractChildClass",
+        "d",
+        "MustHaveThis",
+        "DemoAbstractClass"
+    ],
+    "literals": [
+        "\"this\""
+    ],
+    "variables": [
+        "DemoPublicClass",
+        "DemoPublicClassOut",
+        "DemoPublicClass",
+        "DemoPublicClassProtected",
+        "DemoPublicClass",
+        "DemoPublicClassPrivate",
+        "DemoProtectedClass",
+        "DemoProtectedClassOut",
+        "DemoProtectedClass",
+        "DemoProtectedClassPrivate",
+        "DemoPrivateClass",
+        "DemoPrivateClassOut",
+        "d",
+        "CanHaveThis",
+        "MustHaveThis",
+        "MustHaveThis"
+    ],
+    "comments": [
+        "won't work",
+        "public DemoProtectedClass DemoProtectedClassOutPublic { get; set; }",
+        "won't work",
+        "public DemoPrivateClass DemoPrivateClassOutPublic { get; set; }",
+        "protected DemoPrivateClass DemoPrivateClassOutProtected { get; set; }",
+        "can't work",
+        "</summary>",
+        "public class DemoSealedChildClass : DemoSealedBaseClass",
+        "{",
+        "}"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "DoThis"
+    ],
+    "classes": [
+        "DemoBaseClass",
+        "DemoPublicClass",
+        "DemoProtectedClass",
+        "DemoPrivateClass",
+        "DemoChildClass",
+        "DemoSealedBaseClass",
+        "DemoAbstractClass",
+        "DemoAbstractChildClass"
+    ]
+}

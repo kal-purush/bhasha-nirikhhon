@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "SortObjectKeysPipe",
+        "describe",
+        "SortObjectKeysPipe",
+        "it",
+        "pipe",
+        "expect",
+        "transformed",
+        "it",
+        "pipe",
+        "expect",
+        "transformed",
+        "expect",
+        "transformed",
+        "it",
+        "expect",
+        "pipe",
+        "it",
+        "expect",
+        "pipe"
+    ],
+    "literals": [
+        "'./sort-object-keys.pipe'",
+        "'SortObjectKeysPipe'",
+        "'should not transform sorted object with 2 keys to array of length 2'",
+        "'bar'",
+        "'two'",
+        "'bar'",
+        "'two'",
+        "'should transform unsorted object with 2 keys to array of length 2'",
+        "'two'",
+        "'two'",
+        "'two'",
+        "'should transform empty object to empty object'",
+        "'should transform null object to null object'"
+    ],
+    "variables": [
+        "pipe",
+        "transformed",
+        "transformed"
+    ],
+    "comments": [
+        "Make sure stringify is not performing the sorting"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

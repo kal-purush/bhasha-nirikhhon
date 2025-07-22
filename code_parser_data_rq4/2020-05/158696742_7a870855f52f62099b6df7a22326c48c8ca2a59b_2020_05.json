@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "navigator",
+        "navigator",
+        "result",
+        "result",
+        "result",
+        "result",
+        "useDetectTouchscreen"
+    ],
+    "literals": [
+        "'undefined'",
+        "'maxTouchPoints'",
+        "'(any-pointer:coarse)'",
+        "'ontouchstart'"
+    ],
+    "variables": [
+        "result"
+    ],
+    "comments": [
+        "if Pointer Events are supported, just check maxTouchPoints",
+        "check for any-pointer:coarse which mostly means touchscreen",
+        "last resort - check for exposed touch events API / event handler"
+    ],
+    "docstrings": [],
+    "functions": [
+        "useDetectTouchscreen"
+    ],
+    "classes": []
+}

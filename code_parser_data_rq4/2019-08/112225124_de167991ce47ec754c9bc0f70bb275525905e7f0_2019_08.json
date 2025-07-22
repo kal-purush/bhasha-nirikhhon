@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "ru",
+        "curs",
+        "celesta",
+        "score",
+        "ColumnRef",
+        "Ordering",
+        "ASC",
+        "Ordering",
+        "DESC",
+        "Ordering",
+        "ASC",
+        "DESC",
+        "column",
+        "ordering",
+        "column",
+        "ordering",
+        "column",
+        "column",
+        "ordering",
+        "ordering",
+        "Override",
+        "column",
+        "getName",
+        "Override",
+        "ordering",
+        "Override",
+        "ordering",
+        "Ordering",
+        "ASC",
+        "column",
+        "Ordering",
+        "ASC",
+        "Override",
+        "ordering",
+        "Ordering",
+        "DESC",
+        "column",
+        "Ordering",
+        "DESC"
+    ],
+    "literals": [],
+    "variables": [
+        "column",
+        "ordering"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Column reference.\n *\n * @author Pavel Perminov (packpaul@mail.ru)\n *\n * @param <V>  Java class of column value",
+        "* Returns column name.\n     *\n     * @return",
+        "* Returns ordering for {@code this} column reference if any.\n     *\n     * @return",
+        "* Returns {@code this} column reference with ascending ordering.\n     *\n     * @return",
+        "* Returns {@code this} column reference with descending ordering.\n     *\n     * @return"
+    ],
+    "functions": [
+        "getName",
+        "Ordering",
+        "ordering",
+        "asc",
+        "desc",
+        "ColumnRefOrderingDecorator",
+        "getName",
+        "Ordering",
+        "ordering",
+        "asc",
+        "desc"
+    ],
+    "classes": [
+        "ColumnRefOrderingDecorator"
+    ]
+}

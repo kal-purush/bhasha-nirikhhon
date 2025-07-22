@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Config",
+        "path",
+        "BaseCommand",
+        "getUserConfigExists",
+        "updateUserConfig",
+        "BaseCommand",
+        "argv",
+        "config",
+        "argv",
+        "config",
+        "InitUserConfig",
+        "path",
+        "getUserConfigExists",
+        "userConfigExist",
+        "configPath",
+        "configPath",
+        "updateUserConfig"
+    ],
+    "literals": [
+        "'@oclif/core'",
+        "'node:path'",
+        "'../../base-command'",
+        "'../../utilities/config.utilities'",
+        "'Update local .condohub config'",
+        "$ condohub config update",
+        "string",
+        "'config:update'",
+        "'config.json'",
+        "no config.json found in ${configPath}, did you run 'condohub config init'?",
+        "config.json found in ${configPath}",
+        "config.json updated successfully"
+    ],
+    "variables": [
+        "configPath",
+        "userConfigExist",
+        "userConfig"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Handles local user configuration\n *\n * @see https://oclif.io/docs/config"
+    ],
+    "functions": [
+        "run"
+    ],
+    "classes": [
+        "InitUserConfig"
+    ]
+}

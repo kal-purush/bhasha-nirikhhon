@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "compat",
+        "is_py2",
+        "builtin_str",
+        "encoding",
+        "isinstance",
+        "builtin_str",
+        "is_py2",
+        "encode",
+        "encoding",
+        "decode",
+        "encoding",
+        "u_string",
+        "isinstance",
+        "u_string",
+        "u_string",
+        "encode",
+        "UnicodeEncodeError"
+    ],
+    "literals": [
+        "'ascii'",
+        "'ascii'"
+    ],
+    "variables": [],
+    "comments": [
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "\"\"\"\nrequests._internal_utils\n~~~~~~~~~~~~~~\n\nProvides utility functions that are consumed internally by Requests\nwhich depend on extremely few external helpers (such as compat)\n\"\"\"",
+        "\"\"\"Given a string object, regardless of type, returns a representation of\n    that string in the native string type, encoding and decoding where\n    necessary. This assumes ASCII unless told otherwise.\n    \"\"\"",
+        "\"\"\"Determine if unicode string only contains ASCII characters.\n\n    :param str u_string: unicode string to check. Must be unicode\n        and not Python 2 `str`.\n    :rtype: bool\n    \"\"\""
+    ],
+    "functions": [
+        "to_native_string",
+        "unicode_is_ascii"
+    ],
+    "classes": []
+}

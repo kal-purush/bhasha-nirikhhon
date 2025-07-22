@@ -1,0 +1,86 @@
+{
+    "identifiers": [
+        "cse360assign1",
+        "array",
+        "counter",
+        "array",
+        "insertNum",
+        "index",
+        "follow",
+        "index",
+        "counter",
+        "insertNum",
+        "array",
+        "index",
+        "index",
+        "follow",
+        "insertNum",
+        "array",
+        "index",
+        "index",
+        "counter",
+        "index",
+        "follow",
+        "index",
+        "array",
+        "index",
+        "array",
+        "index",
+        "counter",
+        "array",
+        "length",
+        "insertNum",
+        "array",
+        "counter",
+        "array",
+        "follow",
+        "insertNum",
+        "counter",
+        "array",
+        "length",
+        "counter",
+        "counter",
+        "index",
+        "index",
+        "counter",
+        "index",
+        "index",
+        "array",
+        "index",
+        "index",
+        "index",
+        "counter",
+        "index",
+        "index",
+        "array",
+        "index"
+    ],
+    "literals": [
+        "\"\\t\"",
+        "\"\\t\""
+    ],
+    "variables": [
+        "array",
+        "counter"
+    ],
+    "comments": [
+        "check for space in array or that insertion is less than greatest",
+        "move to new line after 5 entries",
+        "move to new line after 5 entries"
+    ],
+    "docstrings": [
+        "* Class to hold integers in an array. Non-duplicate values \n * are inserted in order. If the array is full the largest value\n * is dropped off the end. Bounds checking is done.\n * \n * @author Adam Charney PIN 213 for CSE360 Spring 2016\n *",
+        "Array to hold sorted integers",
+        "Place holder to aid with current size and check bounds",
+        "* Creates an array of integers, count is ten by default",
+        "* insert - Inserts parameter into array in ascending numerical \n\t * order. If list is full and parameter is less than the largest\n\t * value, largest value is dropped off array, otherwise number \n\t * is not inserted.\n\t * \n\t * @param insertNum Number to be inserted",
+        "* print - Prints all integers stored in the array, maximum of\n\t * five integers per line."
+    ],
+    "functions": [
+        "OrderedIntList",
+        "insert"
+    ],
+    "classes": [
+        "OrderedIntList"
+    ]
+}

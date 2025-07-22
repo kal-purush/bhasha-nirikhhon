@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "it",
+        "polimi",
+        "modaclouds",
+        "space4cloud",
+        "optimization",
+        "constraints",
+        "it",
+        "polimi",
+        "modaclouds",
+        "qos_models",
+        "schema",
+        "Constraint",
+        "it",
+        "polimi",
+        "modaclouds",
+        "space4cloud",
+        "exceptions",
+        "ConstraintEvaluationException",
+        "it",
+        "polimi",
+        "modaclouds",
+        "space4cloud",
+        "optimization",
+        "solution",
+        "IConstrainable",
+        "it",
+        "polimi",
+        "modaclouds",
+        "space4cloud",
+        "utils",
+        "Configuration",
+        "constraint",
+        "constraint",
+        "id",
+        "Configuration",
+        "APPLICATION_ID",
+        "Override",
+        "resource",
+        "Override",
+        "resource",
+        "f",
+        "getHasMinValue",
+        "f",
+        "f",
+        "intValue"
+    ],
+    "literals": [
+        "\"Evaluating a Number Provider constraint on a set\""
+    ],
+    "variables": [],
+    "comments": [
+        "Number of provider are used only to set MILP and the optimization, never checked.",
+        "TODO: add methods to derive the value fromt he resource then call the evaluation"
+    ],
+    "docstrings": [
+        "* @return the minimum number of replicas"
+    ],
+    "functions": [
+        "NumberProvidersConstraint",
+        "checkConstraintDistance",
+        "checkConstraintSet",
+        "getMin"
+    ],
+    "classes": [
+        "NumberProvidersConstraint"
+    ]
+}

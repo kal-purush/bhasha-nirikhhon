@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Http",
+        "config",
+        "Http",
+        "http",
+        "config",
+        "http",
+        "config",
+        "config",
+        "config",
+        "http",
+        "response",
+        "response",
+        "response",
+        "response",
+        "uni",
+        "response",
+        "response",
+        "test",
+        "data",
+        "get",
+        "data",
+        "test"
+    ],
+    "literals": [
+        "'./http'",
+        "\"./config\"",
+        "\"users/login\"",
+        "\"token\"",
+        "\"ajax/echo/text?name=uni-app\""
+    ],
+    "variables": [
+        "http",
+        "http",
+        "test"
+    ],
+    "comments": [
+        "请求拦截器",
+        "if (config.method === \"post\") {",
+        "config.data = qs.stringify(config.data);",
+        "}",
+        "token 放在headers中会变成复杂请求，多一次options请求；body或者query则不会",
+        "const token = uni.getStorageSync(\"token\");",
+        "if (token) config.headers[\"token\"] = token;",
+        "响应拦截器"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

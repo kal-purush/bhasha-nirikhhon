@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "Net",
+        "SkyKick",
+        "Bcl",
+        "Extensions",
+        "Reflection",
+        "SkyKick",
+        "NinjectWorkshop",
+        "WordCounting",
+        "Tests",
+        "Helpers",
+        "HttpStatusCode",
+        "status",
+        "HttpWebResponse",
+        "Activator",
+        "CreateInstance",
+        "HttpWebResponse",
+        "HttpWebResponse",
+        "CreateFieldAccessor",
+        "HttpStatusCode",
+        "httpWebResponse",
+        "status",
+        "WebException",
+        "WebException",
+        "CreateFieldAccessor",
+        "WebResponse",
+        "webException",
+        "httpWebResponse",
+        "webException"
+    ],
+    "literals": [
+        "\"m_StatusCode\"",
+        "\"\"",
+        "\"m_Response\""
+    ],
+    "variables": [
+        "httpWebResponse",
+        "webException"
+    ],
+    "comments": [
+        "Have to use reflection to build <see cref=\"WebException\"/>",
+        "because Microsoft doesn't provide public constructors / setters",
+        "<para />",
+        "This leverages tools from <see cref=\"SkyKick.Bcl.Extensions.Reflection\"/>",
+        "to make it a bit easier.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "WebException",
+        "CreateWebExceptionWithStatusCode"
+    ],
+    "classes": [
+        "WebExceptionHelper"
+    ]
+}

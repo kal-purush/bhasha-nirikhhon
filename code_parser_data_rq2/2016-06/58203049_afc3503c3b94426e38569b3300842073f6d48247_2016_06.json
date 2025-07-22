@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "io",
+        "georocket",
+        "util",
+        "org",
+        "apache",
+        "tika",
+        "Tika",
+        "java",
+        "io",
+        "java",
+        "nio",
+        "file",
+        "Path",
+        "java",
+        "nio",
+        "file",
+        "spi",
+        "FileTypeDetector",
+        "tika",
+        "Override",
+        "path",
+        "tika",
+        "detect",
+        "path"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* <p>File type detector that use the apache tika detector.</p>\n *\n * <p>This type detector use the magic number and file extension to guess the right content type.</p>\n *\n * <p>See {@link Tika#detect(Path)}</p>\n *\n * @author Andrej Sajenko"
+    ],
+    "functions": [
+        "probeContentType"
+    ],
+    "classes": [
+        "TikaFileTypeDetector"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "db",
+        "db",
+        "table",
+        "table",
+        "db",
+        "db",
+        "table",
+        "table",
+        "db"
+    ],
+    "literals": [
+        "'../support/knex'",
+        "'entries'",
+        "'updated'",
+        "'ALTER TABLE versions ALTER COLUMN updated DROP NOT NULL'",
+        "'entries'",
+        "'updated'",
+        "'ALTER TABLE versions ALTER COLUMN updated SET NOT NULL'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Update the unique constraint, add updated field to versions.",
+        "* Restore unique constraint, remove date fields."
+    ],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": []
+}

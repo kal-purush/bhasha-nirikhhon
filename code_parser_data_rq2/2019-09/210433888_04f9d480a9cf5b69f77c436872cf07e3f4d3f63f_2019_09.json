@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "psonic",
+        "threading",
+        "Condition",
+        "Event",
+        "E4",
+        "use_synth",
+        "DARK_AMBIENCE",
+        "play",
+        "tone",
+        "release",
+        "sleep",
+        "condition",
+        "stop_event",
+        "stop_event",
+        "is_set",
+        "condition",
+        "condition",
+        "notifyAll",
+        "loop_foo",
+        "Condition",
+        "Event",
+        "name",
+        "target",
+        "live_loop_1",
+        "args",
+        "condition",
+        "stop_event",
+        "live_thread_1",
+        "start",
+        "t",
+        "t",
+        "time",
+        "sleep"
+    ],
+    "literals": [
+        "'producer'"
+    ],
+    "variables": [
+        "tone",
+        "condition",
+        "stop_event",
+        "live_thread_1",
+        "tone"
+    ],
+    "comments": [
+        "def loop_bar():",
+        "sample (DRUM_SNARE_SOFT)",
+        "sleep (1)",
+        "Message to threads",
+        "def live_loop_2(condition,stop_event):",
+        "while not stop_event.is_set():",
+        "with condition:",
+        "condition.wait() #Wait for message",
+        "loop_bar()",
+        "live_thread_2 = Thread(name='consumer1', target=live_loop_2, args=(condition,stop_event))",
+        "live_thread_2.start()",
+        "stop_event.set()     # Um die Wiedergabe zu stoppen"
+    ],
+    "docstrings": [],
+    "functions": [
+        "loop_foo",
+        "live_loop_1"
+    ],
+    "classes": []
+}

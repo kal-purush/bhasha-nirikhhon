@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "JwtPayload",
+        "jwtDecode",
+        "token",
+        "idToken",
+        "AuthService"
+    ],
+    "literals": [
+        "'jwt-decode'",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "TODO: return the decoded token",
+        "TODO: return a value that indicates if the user is logged in",
+        "TODO: return a value that indicates if the token is expired",
+        "TODO: return the token",
+        "TODO: set the token to localStorage",
+        "TODO: redirect to the home page",
+        "TODO: remove the token from localStorage",
+        "TODO: redirect to the login page"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getProfile",
+        "loggedIn",
+        "isTokenExpired",
+        "getToken",
+        "login",
+        "logout"
+    ],
+    "classes": [
+        "AuthService"
+    ]
+}

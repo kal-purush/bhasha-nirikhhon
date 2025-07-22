@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "Component",
+        "User",
+        "UsersService",
+        "OnInit",
+        "Router",
+        "Purchase",
+        "Component",
+        "UsersService",
+        "router",
+        "usersService",
+        "users",
+        "users",
+        "users",
+        "e",
+        "e"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../user/user'",
+        "'../users-service/users.service'",
+        "'@angular/core'",
+        "'@angular/router'",
+        "'../purchase/purchase'",
+        "'purchase.history.html'",
+        "'purchase.history.css'",
+        "\"Users array in component\"",
+        "'Inside getPurchases / getUsers Exception'"
+    ],
+    "variables": [],
+    "comments": [
+        "service reqs",
+        "console.log(\"this.users: \"+this);",
+        "onSelect(user: User): void {",
+        "this.selectedUser = user;",
+        "}",
+        "gotoDetail(): void {",
+        "this.router.navigate(['/detail', this.selectedUser.id]);",
+        "}",
+        "add(name: string): void {",
+        "name = name.trim();",
+        "if (!name) { return; }",
+        "this.userService.create(name)",
+        ".then(user => {",
+        "this.useres.push(user);",
+        "this.selectedUser = null;",
+        "});",
+        "}",
+        "delete(user: User): void {",
+        "this.userService",
+        ".delete(user.id)",
+        ".then(() => {",
+        "this.useres = this.useres.filter(h => h !== user);",
+        "if (this.selectedUser === user) { this.selectedUser = null; }",
+        "});",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "getPurchases"
+    ],
+    "classes": [
+        "PurchaseHistoryComponent"
+    ]
+}

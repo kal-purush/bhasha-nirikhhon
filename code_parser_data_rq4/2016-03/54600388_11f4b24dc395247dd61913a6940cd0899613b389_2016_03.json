@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "Component",
+        "KegComponent",
+        "EventEmitter",
+        "clickedKeg",
+        "clickedKeg",
+        "clickedKeg",
+        "clickedKeg"
+    ],
+    "literals": [
+        "'keg-list'",
+        "'kegList'",
+        "'onKegSelect'",
+        "<keg-display *ngFor=\"#currentKeg of kegList\"\n    (click)=\"kegClicked(currentKeg)\"\n    [class.selected]=\"currentKeg === selectedKeg\"\n    [keg]=\"currentKeg\">\n  </keg-display>",
+        "\"child\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "kegClicked"
+    ],
+    "classes": [
+        "KegListComponent"
+    ]
+}

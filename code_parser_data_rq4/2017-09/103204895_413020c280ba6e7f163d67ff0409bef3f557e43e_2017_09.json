@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Text",
+        "PokerEngine",
+        "PokerEngine",
+        "Engine",
+        "PokerConsole",
+        "AI",
+        "Player",
+        "syhcronizationData",
+        "Player",
+        "player",
+        "PlayerBettingAction",
+        "action",
+        "Player",
+        "player",
+        "PlayerDrawingAction",
+        "action",
+        "Random",
+        "rand",
+        "Next",
+        "i",
+        "drawCount",
+        "i",
+        "action",
+        "DrawnCards",
+        "Add",
+        "player",
+        "Cards",
+        "rand",
+        "Next",
+        "player",
+        "Cards",
+        "Count"
+    ],
+    "literals": [],
+    "variables": [
+        "Random",
+        "rand",
+        "drawCount",
+        "i"
+    ],
+    "comments": [
+        "An abstract base class for all of the Strategies the automated clients may take.",
+        "</summary>",
+        "Called by the client when an update arrives. Override this method to add logic for seeing the cards played",
+        "</summary>",
+        "<param name=\"syhcronizationData\">The players updated. Must not be null</param>",
+        "Called by the client when a bet decision should be made. Derived classes must override this method to add betting logic.",
+        "</summary>",
+        "<param name=\"player\">The automated player.",
+        "</param>",
+        "<param name=\"action\">The betting action which must be modified to pass the client response</param>",
+        "Called by a client which needs to manually draw cards. Default implementation selects random cards.",
+        "</summary>",
+        "<param name=\"player\">The automated player</param>",
+        "<param name=\"action\">The drawing action which must be modified to pass the strategy decision</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Synchronize",
+        "Bet",
+        "Draw"
+    ],
+    "classes": [
+        "AIStrategy"
+    ]
+}

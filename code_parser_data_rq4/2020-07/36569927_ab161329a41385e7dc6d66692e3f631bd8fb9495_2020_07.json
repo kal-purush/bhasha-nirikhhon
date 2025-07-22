@@ -1,0 +1,85 @@
+{
+    "identifiers": [
+        "sub",
+        "pos",
+        "pos",
+        "len",
+        "sub",
+        "doc",
+        "end",
+        "start",
+        "doc",
+        "count",
+        "start",
+        "end",
+        "ValueError",
+        "msg",
+        "doc",
+        "pos",
+        "lexeme",
+        "firstpos",
+        "lexeme",
+        "pos",
+        "linecount",
+        "doc",
+        "pos",
+        "pos",
+        "doc",
+        "rfind",
+        "pos",
+        "msg",
+        "lineno",
+        "colno",
+        "pos",
+        "errmsg",
+        "msg",
+        "doc",
+        "lineno",
+        "colno",
+        "lexeme",
+        "__class__",
+        "msg",
+        "doc",
+        "pos",
+        "lexeme"
+    ],
+    "literals": [
+        "'\\n'",
+        "'\\n'",
+        "f'{msg}: line {lineno} column {colno} (char {pos})'"
+    ],
+    "variables": [
+        "pos",
+        "lineno",
+        "colno",
+        "errmsg",
+        "msg",
+        "doc",
+        "lineno",
+        "colno",
+        "lexeme"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "Copyright 2019-2020, ``pvl`` library authors.",
+        "",
+        "Reuse is permitted under the terms of the license.",
+        "The AUTHORS file and the LICENSE file are at the",
+        "top level of this library.",
+        "lineno = doc.count('\\n', 0, self.pos) + 1"
+    ],
+    "docstrings": [
+        "\"\"\"\nExceptions for the Parameter Value Library.\n\"\"\"",
+        "\"\"\"On the assumption that *sub* is a substring contained in a longer\n    string, and *pos* is the index in that longer string of the final\n    character in sub, returns the position of the first character of\n    sub in that longer string.\n\n    This is useful in the PVL library when we know the position of the\n    final character of a token, but want the position of the first\n    character.\n    \"\"\"",
+        "\"\"\"Returns the number of lines (by counting the\n    number of newline characters \\\\n, with the first line\n    being line number one) in the string *doc* between the\n    positions *start* and *end*.\n    \"\"\"",
+        "\"\"\"Subclass of ValueError with the following additional properties:\n\n    msg: The unformatted error message\n    doc: The PVL text being parsed\n    pos: The start index in doc where parsing failed\n    lineno: The line corresponding to pos\n    colno: The column corresponding to pos\n    \"\"\""
+    ],
+    "functions": [
+        "firstpos",
+        "linecount",
+        "__reduce__"
+    ],
+    "classes": [
+        "LexerError"
+    ]
+}

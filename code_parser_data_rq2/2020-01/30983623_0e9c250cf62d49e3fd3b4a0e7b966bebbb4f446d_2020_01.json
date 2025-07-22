@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "shutil",
+        "helpers",
+        "client",
+        "client",
+        "_client",
+        "KubeCtlService",
+        "_check_environment",
+        "KubeCtlClient",
+        "KubeCtlNamespaceService",
+        "staticmethod",
+        "shutil",
+        "which",
+        "property",
+        "_namespace_svc",
+        "KubeCtlService",
+        "client",
+        "KubeCtlNamespaceService",
+        "client",
+        "helpers",
+        "run_list_command",
+        "delimiter",
+        "skipinitialspace",
+        "data",
+        "namespace_name",
+        "helpers",
+        "run_command",
+        "namespace_name",
+        "namespace_name",
+        "helpers",
+        "run_command",
+        "namespace_name"
+    ],
+    "literals": [
+        "\"kubectl\"",
+        "\"Could not find kubectl executable in path\"",
+        "\"kubectl\"",
+        "\"get\"",
+        "\"namespaces\"",
+        "\" \"",
+        "\"kubectl\"",
+        "\"create\"",
+        "\"namespace\"",
+        "\"kubectl\"",
+        "\"delete\"",
+        "\"namespace\""
+    ],
+    "variables": [
+        "_client",
+        "_namespace_svc",
+        "data"
+    ],
+    "comments": [
+        "def _list_names(self):",
+        "data = self.list()",
+        "output = [each.get('NAME') for each in data]",
+        "return output",
+        "def _create_if_not_exists(self, namespace_name):",
+        "if namespace_name not in self._list_names():",
+        "return self.create(namespace_name)"
+    ],
+    "docstrings": [
+        "\"\"\"A wrapper around the kubectl commandline client\"\"\"",
+        "\"\"\"Marker interface for CloudMan services\"\"\""
+    ],
+    "functions": [
+        "client",
+        "_check_environment",
+        "namespaces",
+        "create"
+    ],
+    "classes": [
+        "KubeCtlService",
+        "KubeCtlClient",
+        "KubeCtlNamespaceService"
+    ]
+}

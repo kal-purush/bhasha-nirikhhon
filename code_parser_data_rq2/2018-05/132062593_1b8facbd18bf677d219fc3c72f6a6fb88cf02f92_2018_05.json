@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "require",
+        "request",
+        "response",
+        "response",
+        "request",
+        "http",
+        "handleRequest",
+        "server",
+        "PORT",
+        "PORT",
+        "Add",
+        "CommentCollapse"
+    ],
+    "literals": [
+        "\"http\"",
+        "\"It Works!! Path Hit: \"",
+        "\"Server listening on: http://localhost:\""
+    ],
+    "variables": [
+        "http",
+        "PORT",
+        "server"
+    ],
+    "comments": [
+        "Require/import the HTTP module",
+        "Define a port to listen for incoming requests",
+        "Create a generic function to handle requests and responses",
+        "Send the below string to the client when the user visits the PORT URL",
+        "Use the Node HTTP package to create our server.",
+        "Pass the handleRequest function to empower it with functionality.",
+        "Start our server so that it can begin listening to client requests.",
+        "Log (server-side) when our server has started"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handleRequest"
+    ],
+    "classes": []
+}

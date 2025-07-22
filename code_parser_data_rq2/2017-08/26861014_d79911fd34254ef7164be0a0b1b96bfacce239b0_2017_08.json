@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "Runtime",
+        "InteropServices",
+        "Vlc",
+        "DotNet",
+        "Core",
+        "Interops",
+        "Signatures",
+        "LibVlcFunction",
+        "UnmanagedFunctionPointer",
+        "CallingConvention",
+        "Cdecl",
+        "SetLog",
+        "IntPtr",
+        "libVlcInstance",
+        "LogCallback",
+        "callback",
+        "IntPtr",
+        "userData"
+    ],
+    "literals": [
+        "\"libvlc_log_set\""
+    ],
+    "variables": [],
+    "comments": [
+        "Registers a log callback",
+        "</summary>",
+        "<param name=\"libVlcInstance\">The libvlc instance.</param>",
+        "<param name=\"callback\">The method that will be called whenever a log is available.</param>",
+        "<param name=\"userData\">User provided data to carry with the event.</param>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": []
+}

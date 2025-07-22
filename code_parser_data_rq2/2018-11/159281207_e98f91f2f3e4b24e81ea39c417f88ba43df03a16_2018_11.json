@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "ServiceLayer",
+        "User",
+        "username",
+        "_users",
+        "TryGetValue",
+        "username",
+        "User",
+        "user",
+        "user",
+        "User",
+        "user",
+        "_users",
+        "Keys",
+        "Contains",
+        "user",
+        "Username",
+        "_users",
+        "Add",
+        "user",
+        "Username",
+        "user",
+        "User",
+        "user",
+        "_users",
+        "ContainsKey",
+        "user",
+        "Username",
+        "_users",
+        "Add",
+        "user",
+        "Username",
+        "user",
+        "username",
+        "_users",
+        "Remove",
+        "username"
+    ],
+    "literals": [
+        "\"User already exists\"",
+        "\"User not found in database.\""
+    ],
+    "variables": [
+        "_users"
+    ],
+    "comments": [
+        "This TemporaryUserRepo class was created for TESTING/DEMO PURPOSES ONLY\n     * The Repostiory Classes are where you do the Create Read Update Delete (CRUD) ops on the database.",
+        "used to store created users FOR TESTING/DEMO PURPOSES ONLY",
+        "Its a mock DB",
+        "This method is to accomplish the read in the crud ops",
+        "User user;",
+        "if (_users.TryGetValue(username, out user))",
+        "{",
+        "return user;",
+        "}",
+        "Note: TryGetValue is a dictionary method. click on TryGetValue and then press F12 and Visual studio will take you \n             * to where it is coming from. \n             * When we actually implement we will be using an actual repository class which uses the context to get users from DB.",
+        "This is doing inline declaration and does the same thing as commented code above.",
+        "look up Contains() to learn what it is doing. This is also a Dictionary method."
+    ],
+    "docstrings": [],
+    "functions": [
+        "User",
+        "GetUser",
+        "CreateUser",
+        "UpdateUser",
+        "DeleteUser"
+    ],
+    "classes": [
+        "TemporaryUserRepository"
+    ]
+}

@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "Constants",
+        "IPendingSession",
+        "IExtendedMediaSession",
+        "ScreenRecordingMediaSession",
+        "IAcceptSessionRequest",
+        "BaseSessionHandler",
+        "SessionTypes",
+        "SdkErrorTypes",
+        "createAndEmitSdkError",
+        "isScreenRecordingJid",
+        "BaseSessionHandler",
+        "roomJid",
+        "SessionTypes",
+        "jid",
+        "isScreenRecordingJid",
+        "jid",
+        "pendingSession",
+        "pendingSession",
+        "pendingSession",
+        "session",
+        "mediaStream",
+        "createAndEmitSdkError",
+        "SdkErrorTypes",
+        "session",
+        "session",
+        "mediaStream",
+        "track",
+        "mediaStream",
+        "track",
+        "track",
+        "session",
+        "session",
+        "track",
+        "session",
+        "conversationId",
+        "session",
+        "reason",
+        "Constants",
+        "createAndEmitSdkError",
+        "SdkErrorTypes"
+    ],
+    "literals": [
+        "'stanza'",
+        "'../types/interfaces'",
+        "'./base-session-handler'",
+        "'../types/enums'",
+        "'../utils'",
+        "string",
+        "string",
+        "Cannot accept screen recording session without providing a media stream",
+        "'Adding screen track to session'",
+        "string",
+        "sessionType ${this.sessionType} must be ended remotely"
+    ],
+    "variables": [
+        "mediaStream"
+    ],
+    "comments": [
+        "no-op",
+        "if not auto accepting sessions, emit this event for the consumer to accept"
+    ],
+    "docstrings": [],
+    "functions": [
+        "shouldHandleSessionByJid",
+        "handleConversationUpdate",
+        "handlePropose",
+        "acceptSession",
+        "endSession"
+    ],
+    "classes": [
+        "ScreenRecordingSessionHandler"
+    ]
+}

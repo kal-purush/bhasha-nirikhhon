@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "intf",
+        "storage",
+        "intf",
+        "callback",
+        "intf"
+    ],
+    "literals": [
+        "\"../../topology_interfaces\""
+    ],
+    "variables": [],
+    "comments": [
+        "Class that handles command-line tool requests",
+        "Simple constructor, requires storage to execute the commands on.",
+        "Utility method that displays usage instructions"
+    ],
+    "docstrings": [
+        "* Main method for running command-line tool.\n     * @param callback - Callback to call when all is done"
+    ],
+    "functions": [],
+    "classes": [
+        "CommandLineHandler"
+    ]
+}

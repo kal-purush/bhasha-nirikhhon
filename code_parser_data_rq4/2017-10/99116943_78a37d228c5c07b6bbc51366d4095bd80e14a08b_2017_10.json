@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "sys",
+        "time",
+        "message",
+        "message",
+        "split",
+        "cam_message_list",
+        "message",
+        "message",
+        "message",
+        "split",
+        "cam_message_list",
+        "message",
+        "message",
+        "message",
+        "split",
+        "message_list",
+        "process_still_req",
+        "message",
+        "message_list",
+        "process_video_req",
+        "message",
+        "message_list",
+        "message"
+    ],
+    "literals": [
+        "','",
+        "\"SENSOR_REP,DEV=PI_CAMERA,SUB_DEV=CAM,CMD=CAPTURE_PIC,SENSOR_REP_END\"",
+        "','",
+        "\"SENSOR_REP,DEV=PI_CAMERA,SUB_DEV=CAM,CMD=CAPTURE_VIDEO,SENSOR_REP_END\"",
+        "','",
+        "'CMD=CAPTURE_STILL'",
+        "'CMD=CAPTURE_VIDEO'",
+        "\"SENSOR_REP,\"",
+        "\",ERROR=UNKNOWN_ID,SENSOR_REP_END\""
+    ],
+    "variables": [
+        "cam_message_list",
+        "message",
+        "cam_message_list",
+        "message",
+        "message_list",
+        "message"
+    ],
+    "comments": [
+        "",
+        "STILL request function",
+        "",
+        "",
+        "VID request function",
+        "",
+        "",
+        "High level sensor request function",
+        "",
+        "Depending on the ID, pass it to the needed sensor function",
+        "This is where the right server function is called",
+        "unknown message"
+    ],
+    "docstrings": [],
+    "functions": [
+        "process_still_req",
+        "process_video_req",
+        "process_sensor_req"
+    ],
+    "classes": []
+}

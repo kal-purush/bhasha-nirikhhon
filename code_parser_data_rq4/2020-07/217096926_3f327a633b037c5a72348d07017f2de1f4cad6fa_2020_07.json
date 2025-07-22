@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "fs",
+        "path",
+        "readline",
+        "EOL",
+        "path",
+        "__dirname",
+        "gfile",
+        "fs",
+        "generatedPath",
+        "gfile",
+        "fixTypes",
+        "gfile",
+        "filename",
+        "fs",
+        "path",
+        "generatedPath",
+        "filename",
+        "readline",
+        "inputStream",
+        "line",
+        "reader",
+        "line",
+        "exportRe",
+        "exportMatch",
+        "desiredExports",
+        "exportMatch",
+        "line",
+        "constructorRe",
+        "line",
+        "emptyExportRe",
+        "outputLines",
+        "line",
+        "outputLines",
+        "desiredExports",
+        "inputStream",
+        "fs",
+        "path",
+        "generatedPath",
+        "filename",
+        "outputLines",
+        "EOL"
+    ],
+    "literals": [
+        "'fs-extra'",
+        "'path'",
+        "'readline'",
+        "'os'",
+        "'..'",
+        "'dist'",
+        "'import'",
+        "'generated'",
+        "'.d.ts'",
+        "string",
+        "string",
+        "string",
+        "export { ${desiredExports.join(', ')} }",
+        "', '"
+    ],
+    "variables": [
+        "generatedPath",
+        "exportRe",
+        "constructorRe",
+        "emptyExportRe",
+        "inputStream",
+        "reader",
+        "desiredExports",
+        "outputLines",
+        "exportMatch"
+    ],
+    "comments": [
+        "mostly copied from official documentation:",
+        "https://nodejs.org/api/readline.html#readline_example_read_file_stream_line_by_line"
+    ],
+    "docstrings": [
+        "* The purpose of this script is to clean up the type definition files generated\n * by tsc for the antlr-generated grammar js files (src/import/generated). Type definition files\n * are needed for fsh-sushi to be usable as an import, but the type definition files produced\n * by tsc contain errors. This is because the antlr-generated js files use function-style\n * class declarations.\n *\n * Fortunately, the errors exhibit two regular patterns:\n *\n * 1. Extraneous constructor types added to class definitions. These are simply removed.\n *\n * 2. Exported types are exported as a var rather than as a class and constructor function.\n * The original \"export var\" is removed, and the empty object export that shows up at the end\n * of each file is populated with the names of the types to export."
+    ],
+    "functions": [
+        "fixTypes"
+    ],
+    "classes": []
+}

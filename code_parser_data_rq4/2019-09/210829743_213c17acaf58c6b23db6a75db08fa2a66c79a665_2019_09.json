@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "requests",
+        "bs4",
+        "BeautifulSoup",
+        "re",
+        "url",
+        "requests",
+        "get",
+        "url",
+        "BeautifulSoup",
+        "content",
+        "text",
+        "soup",
+        "find_all",
+        "i",
+        "alist",
+        "i",
+        "crawlUrl",
+        "main"
+    ],
+    "literals": [
+        "'-----------------'",
+        "'a'",
+        "\"This is Web Page Crawl !\"",
+        "\"https://www.baidu.com/\"",
+        "'__main__'"
+    ],
+    "variables": [
+        "content",
+        "soup",
+        "alist"
+    ],
+    "comments": [
+        "from urllib.request import urlopen",
+        "request = urlopen(url)",
+        "print(request)",
+        "print(request.text)",
+        "content = requests.get('http://db.auto.sina.com.cn/list-0-1-0-0-0-0-0-0-9-0-1.html')",
+        "print(content.content)",
+        "print(content.text)",
+        "soup = BeautifulSoup(content.text, 'lxml')"
+    ],
+    "docstrings": [],
+    "functions": [
+        "crawlUrl",
+        "main"
+    ],
+    "classes": []
+}

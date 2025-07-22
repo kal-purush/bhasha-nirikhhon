@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "ecc",
+        "randomBytes",
+        "privKey",
+        "randomBytes",
+        "ecc",
+        "privKey",
+        "privKey",
+        "privKey",
+        "ecc",
+        "privKey",
+        "data32",
+        "privKey",
+        "ecc",
+        "data32",
+        "privKey"
+    ],
+    "literals": [
+        "\"secp256k1\"",
+        "\"crypto\""
+    ],
+    "variables": [
+        "privKey"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "generatePrivateKey",
+        "getPublicKeyCompressed",
+        "sign"
+    ],
+    "classes": [
+        "Secp256k1"
+    ]
+}

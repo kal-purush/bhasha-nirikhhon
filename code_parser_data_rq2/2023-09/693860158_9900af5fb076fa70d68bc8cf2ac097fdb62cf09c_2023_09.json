@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "createGlobalStyle",
+        "createGlobalStyle",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "'styled-components'",
+        "/* Box sizing rules */\n  *,\n  *::before,\n  *::after {\n    box-sizing: border-box;\n  }\n\n  /* Prevent font size inflation */\n  html {\n    -moz-text-size-adjust: none;\n    -webkit-text-size-adjust: none;\n    text-size-adjust: none;\n  }\n\n  /* Remove default margin in favour of better control in authored CSS */\n  body, h1, h2, h3, h4, p,\n  figure, blockquote, dl, dd {\n    margin: 0;\n  }\n\n  /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */\n  ul[role='list'],\n  ol[role='list'] {\n    list-style: none;\n  }\n\n  /* Set core body defaults */\n  body {\n    min-height: 100vh;\n    line-height: 1.5;\n    font-family: 'Inter', sans-serif;\n    font-weight: 400;\n    color: ${({ theme }) => theme.colors.light.very_dark_blue};\n    background: ${({ theme }) => theme.colors.light.white};\n    background: linear-gradient(\n      180deg,\n      ${({ theme }) => theme.colors.light.very_pale_blue} 0%,\n      ${({ theme }) => theme.colors.light.very_pale_blue} 30%,\n      ${({ theme }) => theme.colors.light.white} 30%,\n      ${({ theme }) => theme.colors.light.white} 100%\n    );\n    padding: 2rem 1rem 1rem;\n  }\n\n  /* Set shorter line heights on headings and interactive elements */\n  h1, h2, h3, h4,\n  button, input, label {\n    line-height: 1.1;\n  }\n\n  /* Balance text wrapping on headings */\n  h1, h2,\n  h3, h4 {\n    text-wrap: balance;\n  }\n\n  /* A elements that don't have a class get default styles */\n  a:not([class]) {\n    text-decoration-skip-ink: auto;\n    color: currentColor;\n  }\n\n  /* Make images easier to work with */\n  img,\n  picture {\n    max-width: 100%;\n    display: block;\n  }\n\n  /* Inherit fonts for inputs and buttons */\n  input, button,\n  textarea, select {\n    font: inherit;\n  }\n\n  /* Make sure textareas without a rows attribute are not tiny */\n  textarea:not([rows]) {\n    min-height: 10em;\n  }\n\n  /* Anything that has been anchored to should have extra scroll margin */\n  :target {\n    scroll-margin-block: 5ex;\n  }"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

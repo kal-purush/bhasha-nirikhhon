@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "defineConfig",
+        "react",
+        "viteStaticCopy",
+        "resolve",
+        "dts",
+        "defineConfig",
+        "react",
+        "viteStaticCopy",
+        "dts",
+        "resolve",
+        "__dirname"
+    ],
+    "literals": [
+        "'vite'",
+        "'@vitejs/plugin-react'",
+        "'vite-plugin-static-copy'",
+        "'path'",
+        "'vite-plugin-dts'",
+        "'src/patterns/**/**/*.html'",
+        "'../../landingpage/public/patterns-html'",
+        "'dist/types'",
+        "'src/index.ts'",
+        "'es'"
+    ],
+    "variables": [],
+    "comments": [
+        "in case of error use { jsxRuntime: 'classic' }",
+        "TODO: optimize bundle by externalizing react\n    rollupOptions: {\n      external: ['react', 'react-dom', '@inovex.de/elements-react', 'react/jsx-runtime'],\n      output: {\n        globals: {\n          react: 'React',\n          'react-dom': 'ReactDOM',\n          '@inovex.de/elements-react': '@inovex.de/elements-react' ,\n          'react/jsx-runtime': 'react/jsx-runtime'\n        },\n      },\n    },"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

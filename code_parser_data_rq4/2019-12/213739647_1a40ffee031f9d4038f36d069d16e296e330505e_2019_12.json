@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "Bowser",
+        "Config",
+        "amp",
+        "config",
+        "Bowser",
+        "browser",
+        "BROWSER_REQUIREMENTS",
+        "amp"
+    ],
+    "literals": [
+        "'bowser'",
+        "'../../config'",
+        "'>=59'",
+        "'>=58'",
+        "'>=48'",
+        "'>=10.1'",
+        "'>=10.3'",
+        "string",
+        "string",
+        "'Unsupported browser'",
+        "'BrowserDetection'"
+    ],
+    "variables": [
+        "BROWSER_REQUIREMENTS",
+        "browser"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Based on:\n * - https://caniuse.com/#feat=mdn-http_headers_csp_content-security-policy\n * - https://caniuse.com/#feat=mdn-http_headers_csp_content-security-policy_worker-src (most recent CSP feature used)\n * - https://caniuse.com/#feat=rel-noopener\n * - https://caniuse.com/#feat=rel-noreferrer\n * - https://caniuse.com/#feat=iframe-sandbox\n * - https://caniuse.com/#feat=mdn-html_elements_iframe_sandbox-allow-popups-to-escape-sandbox (most recent sandbox feature used)\n * - https://caniuse.com/#feat=mdn-api_htmlframeelement_contentwindow\n * - https://caniuse.com/#feat=url\n * - https://caniuse.com/#feat=getrandomvalues",
+        "* Throws if the current browser lacks the required capabilities to safely\n * render AMP for Email.\n *\n * Browser detection is used since features like CSP can't be easily detected\n * via feature detection.\n *\n * @param {string} amp AMP code\n * @param {!Config} config Global config (unused)\n * @return {string} AMP code"
+    ],
+    "functions": [
+        "process"
+    ],
+    "classes": []
+}

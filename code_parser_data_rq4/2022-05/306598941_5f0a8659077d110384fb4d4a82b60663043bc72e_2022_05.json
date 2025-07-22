@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Text",
+        "Json",
+        "Serialization",
+        "Meilisearch",
+        "JsonPropertyName",
+        "JsonPropertyName",
+        "JsonPropertyName",
+        "JsonPropertyName",
+        "JsonPropertyName",
+        "JsonPropertyName"
+    ],
+    "literals": [
+        "\"enabled\"",
+        "\"disableOnAttributes\"",
+        "\"disableOnWords\"",
+        "\"minWordSizeForTypos\"",
+        "\"oneTypo\"",
+        "\"twoTypos\""
+    ],
+    "variables": [
+        "Enabled",
+        "DisableOnAttributes",
+        "DisableOnWords",
+        "TypoSize",
+        "MinWordSizeForTypos",
+        "OneTypo",
+        "TwoTypos"
+    ],
+    "comments": [
+        "Typo Tolerance configuration.",
+        "</summary>",
+        "Whether the typo tolerance feature is enabled",
+        "</summary>",
+        "Disable the typo tolerance feature on the specified document attributes.",
+        "</summary>",
+        "Disable the typo tolerance feature for a given set of terms in a search query.",
+        "</summary>",
+        "Customize the minimum word size to tolerate typos.",
+        "</summary>",
+        "Customize the minimum word size to tolerate 1 typo.",
+        "</summary>",
+        "Customize the minimum word size to tolerate 2 typos.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "TypoTolerance",
+        "TypoSize"
+    ]
+}

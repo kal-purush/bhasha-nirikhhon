@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "com",
+        "qa",
+        "rest",
+        "tests",
+        "org",
+        "testng",
+        "annotations",
+        "Test",
+        "io",
+        "restassured",
+        "RestAssured",
+        "org",
+        "hamcrest",
+        "Matchers",
+        "java",
+        "util",
+        "Test",
+        "given",
+        "when",
+        "get",
+        "then",
+        "assertThat",
+        "statusCode",
+        "body",
+        "hasSize",
+        "header",
+        "equalTo"
+    ],
+    "literals": [
+        "\"http://ergast.com/api/f1/2017/circuits.json\\n\"",
+        "\"MRData.CircuitTable.Circuits.circuitId\"",
+        "\"Content-Length\"",
+        "\"4551\""
+    ],
+    "variables": [],
+    "comments": [
+        "These two imports you have to write manually for hamcrest core and hamcrest library",
+        "ArrayList<Argument> list = new ArrayList<>();",
+        "list.add(Argument.arg(\"MRData.CircuitTable.Circuits.circuitId\"));",
+        "list.add(Argument.arg(hasSize(20)));",
+        "given().",
+        "when().",
+        "then().",
+        "assert().      //This is the sequence we have to write for Rest Assured BDD framework",
+        "this GET method will call this particular api",
+        "We can assert number things with AND operator",
+        "Coming from hamcrest",
+        "AND operator to assert few things"
+    ],
+    "docstrings": [],
+    "functions": [
+        "test_numberOfCircuitsFor2017_Season"
+    ],
+    "classes": [
+        "GetCallBDD"
+    ]
+}

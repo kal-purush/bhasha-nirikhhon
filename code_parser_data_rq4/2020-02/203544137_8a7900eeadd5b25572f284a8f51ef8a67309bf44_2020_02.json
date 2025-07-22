@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "PCAxis",
+        "Web",
+        "Core",
+        "PCAxis",
+        "Web",
+        "Core",
+        "Management",
+        "PCAxis",
+        "Web",
+        "Controls",
+        "PCAxis",
+        "Paxiom",
+        "Configuration",
+        "PCAxis",
+        "JsonStat2",
+        "Web",
+        "Controls",
+        "FileTypeMarkerControlBase",
+        "JsonStat2FileTypeCodebehind",
+        "JsonStat2FileType",
+        "IO",
+        "MemoryStream",
+        "IO",
+        "MemoryStream",
+        "PCAxis",
+        "Serializers",
+        "JsonStat2",
+        "JsonStat2Serializer",
+        "ser",
+        "Serializers",
+        "JsonStat2",
+        "JsonStat2Serializer",
+        "ser",
+        "Serialize",
+        "PaxiomManager",
+        "PaxiomModel",
+        "stream",
+        "StreamFile",
+        "stream"
+    ],
+    "literals": [
+        "\"application/json\"",
+        "\"json\""
+    ],
+    "variables": [
+        "stream",
+        "ser"
+    ],
+    "comments": [
+        "var geoVariablesStr = ConfigurationManager.AppSettings[\"geoVariables\"];",
+        "if (!string.IsNullOrEmpty(geoVariablesStr))",
+        "{",
+        "ser.GeoVariableCodes = geoVariablesStr.Split(\",\".ToCharArray());",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "JsonStat2FileType",
+        "SerializeAndStream"
+    ],
+    "classes": [
+        "JsonStat2FileType"
+    ]
+}

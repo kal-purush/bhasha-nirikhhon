@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "db",
+        "root",
+        "cur",
+        "try_commit",
+        "status_codes",
+        "StatusCode",
+        "sc",
+        "db",
+        "groups_table_usage",
+        "groupsdb",
+        "banned_user_id",
+        "group_id",
+        "cur",
+        "execute",
+        "banned_user_id",
+        "group_id",
+        "cur",
+        "fetchone",
+        "row",
+        "banned_user_id",
+        "key",
+        "groupsdb",
+        "get_group_id_by_key",
+        "key",
+        "status_code",
+        "sc",
+        "OPERATION_SUCCESS",
+        "is_user_in_ban_by_group_id_",
+        "banned_user_id",
+        "group_id",
+        "is_user_in_ban"
+    ],
+    "literals": [],
+    "variables": [
+        "row",
+        "status_code",
+        "group_id",
+        "is_user_in_ban"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''SELECT COUNT(*) FROM bans WHERE banned_user_id = ? AND group_id = ?'''"
+    ],
+    "functions": [
+        "is_user_in_ban_by_group_id_",
+        "is_user_in_ban_by_key_"
+    ],
+    "classes": []
+}

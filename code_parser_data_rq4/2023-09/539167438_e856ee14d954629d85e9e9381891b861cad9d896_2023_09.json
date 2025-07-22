@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "statusCode",
+        "statusCode",
+        "isNon2xxStatusCodeError",
+        "error",
+        "error",
+        "error",
+        "Non2xxStatusCodeError"
+    ],
+    "literals": [
+        "Status code ${statusCode} was returned."
+    ],
+    "variables": [
+        "isNon2xxStatusCodeError"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @file This file contains functionality related to errors tha can be thrown during sending the request and receiving response to HTTP backend.",
+        "* This error is thrown when the backend returns something else than `200` or `204` as status code.\n * Notice that only type information about this is exported, not the class itself.",
+        "* Creates new instance of this error with given parameters.\n   * @param statusCode The status code returned by backend.",
+        "* Helper function to test whether some error is {@link Non2xxStatusCodeError}.\n * @param error The {@link Error} to test.\n * @returns `true` if given `error` is {@link Non2xxStatusCodeError}, `false` otherwise."
+    ],
+    "functions": [],
+    "classes": [
+        "Non2xxStatusCodeError"
+    ]
+}

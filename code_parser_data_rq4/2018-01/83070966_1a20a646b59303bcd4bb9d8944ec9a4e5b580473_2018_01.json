@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "Config",
+        "command",
+        "Config",
+        "command",
+        "exstr",
+        "args",
+        "exstr",
+        "getAliasExpandRecur",
+        "command",
+        "exstr",
+        "command",
+        "expandedCommand",
+        "expandedExstr",
+        "command",
+        "commandIsAlias",
+        "command",
+        "command",
+        "Config",
+        "command",
+        "getAliasExpandRecur",
+        "expanded"
+    ],
+    "literals": [
+        "\"./config\"",
+        "string",
+        "\"exaliases\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"exaliases\""
+    ],
+    "variables": [
+        "command",
+        "expandedCommand",
+        "expandedExstr",
+        "expanded"
+    ],
+    "comments": [
+        "Split on whitespace",
+        "Replace only replaces first occurence by default",
+        "Base case: alias not found; return original command",
+        "Alias exists; expand it recursively"
+    ],
+    "docstrings": [],
+    "functions": [
+        "commandIsAlias",
+        "expandExstr",
+        "getAliasExpandRecur"
+    ],
+    "classes": []
+}

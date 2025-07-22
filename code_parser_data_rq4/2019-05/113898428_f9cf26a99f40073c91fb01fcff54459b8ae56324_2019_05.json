@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "abc",
+        "numpy",
+        "np",
+        "abc",
+        "ABC",
+        "data",
+        "np",
+        "ndarray",
+        "np",
+        "ndarray",
+        "NotImplementedError"
+    ],
+    "literals": [],
+    "variables": [
+        "REQUIRE_IMAGE_RESIZE"
+    ],
+    "comments": [
+        "pylint: disable=too-few-public-methods"
+    ],
+    "docstrings": [
+        "\"\"\"Definition of base class for all algorithms.\"\"\"",
+        "\"\"\"Base abstract class for all algorithms.\"\"\"",
+        "\"\"\"Calculate output Ground Truth label using some algorithm.\n\n        :param data: numpy representation of list of Label Elements that needs to processed\n        :return: numpy array with a single Ground Truth label\n        \"\"\""
+    ],
+    "functions": [
+        "get_ground_truth"
+    ],
+    "classes": [
+        "GeneratorAlgorithm"
+    ]
+}

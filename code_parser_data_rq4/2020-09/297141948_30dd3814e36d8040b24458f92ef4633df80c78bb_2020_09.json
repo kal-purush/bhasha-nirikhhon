@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "classname",
+        "__class__",
+        "arguments",
+        "classname",
+        "initfn",
+        "other",
+        "kwargs",
+        "k",
+        "arguments",
+        "k",
+        "kwargs",
+        "arguments",
+        "k",
+        "initfn",
+        "other",
+        "kwargs",
+        "wrapper",
+        "InitParams",
+        "bArg",
+        "fArg",
+        "format",
+        "bArg",
+        "fArg",
+        "MyClass",
+        "MyClass",
+        "bArg"
+    ],
+    "literals": [
+        "'MyClass'",
+        "'bArg'",
+        "'fArg'",
+        "'MyClass'",
+        "'bArg: {}, fArg: {}'",
+        "\"__main__\""
+    ],
+    "variables": [
+        "arguments",
+        "arguments",
+        "kwargs",
+        "k",
+        "f",
+        "f"
+    ],
+    "comments": [
+        "",
+        "Q: How to organize parameters for a set of objects, e.g. instrumentation?",
+        "A: Defer initialization to an __init__ decorator.",
+        "",
+        "@InitParams('InvalidClass') # Uncomment too see a KeyError",
+        "Instantiate with default parameters",
+        "Instantiate and override 'bArg' parameter"
+    ],
+    "docstrings": [],
+    "functions": [
+        "__call__",
+        "wrapper"
+    ],
+    "classes": [
+        "InitParams",
+        "InvalidClass",
+        "MyClass"
+    ]
+}

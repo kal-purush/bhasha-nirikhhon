@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "karma",
+        "karma"
+    ],
+    "literals": [
+        "'Chrome'",
+        "'browserify'",
+        "'jasmine'",
+        "'app/boot.js'",
+        "'test/**/*.js'",
+        "'app/boot.js'",
+        "'browserify'",
+        "'test/**/*.js'",
+        "'browserify'",
+        "'LOG_DEBUG'",
+        "'babelify'"
+    ],
+    "variables": [],
+    "comments": [
+        "include browserify first in used frameworks",
+        "add all your files here,",
+        "including non-commonJS files you need to load before your test cases",
+        "add preprocessor to the files that should be",
+        "processed via browserify",
+        "see what is going on",
+        "use autoWatch=true for quick and easy test re-execution once files change",
+        "add additional browserify configuration properties here",
+        "such as transform and/or debug=true to generate source maps"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

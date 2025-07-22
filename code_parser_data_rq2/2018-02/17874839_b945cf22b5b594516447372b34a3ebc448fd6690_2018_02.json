@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "org",
+        "jenkinsci",
+        "plugins",
+        "durabletask",
+        "hudson",
+        "FilePath",
+        "hudson",
+        "Launcher",
+        "hudson",
+        "remoting",
+        "VirtualChannel",
+        "java",
+        "io",
+        "InputStream",
+        "java",
+        "io",
+        "Serializable",
+        "javax",
+        "annotation",
+        "Nonnull",
+        "javax",
+        "annotation",
+        "Nonnull",
+        "stream",
+        "code",
+        "output"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* The MIT License\n *\n * Copyright 2016 CloudBees, Inc.\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.",
+        "* A remote handler which may be sent to an agent and handle process output and results.\n * If it needs to communicate with the master, you may use {@link VirtualChannel#export}.\n * @see Controller#watch",
+        "* Notification that new process output is available.\n     * <p>Should only be called when at least one byte is available.\n     * Whatever bytes are actually read will not be offered on the next call, if there is one; there is no need to close the stream.\n     * <p>There is no guarantee that output is offered in the form of complete lines of text,\n     * though in the typical case of line-oriented output it is likely that it will end in a newline.\n     * <p>Buffering is the responsibility of the caller, and {@link InputStream#markSupported} may be false.\n     * @param stream a way to read process output which has not already been handled\n     * @throws Exception if anything goes wrong, this watch is deactivated",
+        "* Notification that the process has exited or vanished.\n     * {@link #output} should have been called with any final uncollected output.\n     * <p>Any metadata associated with the process may be deleted after this call completes, rendering subsequent {@link Controller} calls unsatisfiable.\n     * <p>Note that unlike {@link Controller#exitStatus(FilePath, Launcher)}, no specialized {@link Launcher} is available on the agent,\n     * so if there are specialized techniques for determining process liveness they will not be considered here;\n     * you still need to occasionally poll for an exit status from the master.\n     * @param code the exit code, if known (0 conventionally represents success); may be negative for anomalous conditions such as a missing process\n     * @param output standard output captured, if {@link DurableTask#captureOutput} was called; else null\n     * @throws Exception if anything goes wrong, this watch is deactivated"
+    ],
+    "functions": [
+        "output",
+        "exited"
+    ],
+    "classes": [
+        "Handler"
+    ]
+}

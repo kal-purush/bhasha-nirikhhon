@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "styled",
+        "transparentize",
+        "theme",
+        "getTheme",
+        "styled",
+        "theme",
+        "theme",
+        "theme",
+        "styled",
+        "Card",
+        "getTheme",
+        "theme",
+        "c",
+        "transparentize",
+        "c",
+        "theme",
+        "theme",
+        "getTheme",
+        "theme",
+        "c",
+        "transparentize",
+        "c"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'polished'",
+        "'./theme'",
+        "border-radius: ${theme.spacings('xs')};\n  background-color: ${theme.colors.backgroundRaised};\n  box-shadow: ${theme.shadows.soft};",
+        "'xs'",
+        "background-color: ${getTheme(theme.colors.backgroundRaised, (c) =>\n    transparentize(0.1, c)\n  )};\n\n  @supports (backdrop-filter: blur(${theme.backdropBlur})) {\n    backdrop-filter: blur(${theme.backdropBlur});\n    background-color: ${getTheme(theme.colors.backgroundRaised, (c) =>\n      transparentize(0.3, c)\n    )};\n  }"
+    ],
+    "variables": [
+        "Card",
+        "OverlayCard"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

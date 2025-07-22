@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "browser",
+        "environment",
+        "browser",
+        "browser",
+        "environment",
+        "token_item",
+        "browser",
+        "token_item_string"
+    ],
+    "literals": [
+        "'protractor'",
+        "'../../src/environments/environment'",
+        "${browser.baseUrl}/auth/login",
+        "'nb:auth:oauth2:jwt:token'",
+        "'email'",
+        "localStorage.setItem('auth_app_token', '${token_item_string}');\n      localStorage.setItem('demo_token_initialized', 'true');"
+    ],
+    "variables": [
+        "token_item",
+        "token_item_string"
+    ],
+    "comments": [
+        "navigate to some valid page before setting localStorage",
+        "set demo test token"
+    ],
+    "docstrings": [],
+    "functions": [
+        "testUserInit"
+    ],
+    "classes": []
+}

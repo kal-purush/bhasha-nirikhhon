@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "puppeteer",
+        "cheerio",
+        "puppeteer",
+        "browser",
+        "query",
+        "baseUrl",
+        "encodeURIComponent",
+        "query",
+        "page",
+        "searchUrl",
+        "page",
+        "cheerio",
+        "html",
+        "$",
+        "firstItem",
+        "extractKaraokeNumber",
+        "title",
+        "karaokeNumber",
+        "title",
+        "title",
+        "matchResult",
+        "matchResult",
+        "karaokeNumber",
+        "scrapeSongNumber"
+    ],
+    "literals": [
+        "\"puppeteer\"",
+        "\"cheerio\"",
+        "\"https://www.youtube.com/@KARAOKEKY/search\"",
+        "string",
+        "${baseUrl}?query=${encodeURIComponent(query)}",
+        "\"#contents ytd-item-section-renderer\"",
+        "\"yt-formatted-string\"",
+        "string",
+        "\"눈물이 되어줄게 - 허각\""
+    ],
+    "variables": [
+        "browser",
+        "page",
+        "baseUrl",
+        "searchUrl",
+        "html",
+        "$",
+        "firstItem",
+        "title",
+        "karaokeNumber",
+        "matchResult",
+        "karaokeNumber",
+        "result"
+    ],
+    "comments": [
+        "id contents 의 첫번째  ytd-item-section-renderer 찾기",
+        "yt-formatted-string 찾기",
+        "await browser.close();",
+        "KY. 찾고 ) 가 올때까지 찾기",
+        "사용"
+    ],
+    "docstrings": [],
+    "functions": [
+        "scrapeSongNumber",
+        "extractKaraokeNumber"
+    ],
+    "classes": []
+}

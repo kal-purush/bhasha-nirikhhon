@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "fetch",
+        "query",
+        "response",
+        "responseObj"
+    ],
+    "literals": [
+        "query skillsPage {\n  generalSettings {\n    title\n  },\n  menus(where: {id: 3}) {\n    nodes {\n      menuItems {\n        nodes {\n          uri\n          url\n          label\n        }\n      }\n    }\n  },\n\tpageBy(pageId: 302) {\n    title\n\t\tcontent\n  }\n}",
+        "'http://huntercoxdev.local/graphql'",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'"
+    ],
+    "variables": [
+        "query",
+        "response",
+        "responseObj",
+        "data"
+    ],
+    "comments": [
+        "const data = responseObj.data.pages.nodes;",
+        "console.log(data);",
+        "console.log(responseObj.data);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "load"
+    ],
+    "classes": []
+}

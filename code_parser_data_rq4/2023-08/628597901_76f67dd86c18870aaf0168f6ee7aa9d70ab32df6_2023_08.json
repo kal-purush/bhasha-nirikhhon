@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "import { createSlice, PayloadAction } from \"@reduxjs/toolkit\";\nimport { Track } from \"../../components/trackApi\";\n\ninterface controlsSlice {\n  currentTracks: Track[];\n}\n\nconst initialState: controlsSlice = {\n  currentTracks: [],\n};\n\nconst controlsSlice = createSlice({\n  name: \"tracks\",\n  initialState,\n  reducers: {\n    setCurrentTracks(\n      state,\n      action: PayloadAction<Track[] | any[] | undefined>\n    ) {\n      if (action.payload !== undefined) {\n        state.currentTracks = action.payload;\n      }\n    },\n  },\n});\nexport const { setCurrentTracks } = controlsSlice.actions;\nexport default controlsSlice.reducer;"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

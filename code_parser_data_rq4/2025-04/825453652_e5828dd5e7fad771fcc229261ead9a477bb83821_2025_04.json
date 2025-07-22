@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "AnalyzedPR",
+        "fs",
+        "storePrAnalysis",
+        "mergedPrsWithAnalysis",
+        "startDate",
+        "fs",
+        "dir",
+        "fs",
+        "dir",
+        "fs",
+        "dir",
+        "startDate",
+        "mergedPrsWithAnalysis",
+        "pr",
+        "pr",
+        "pr",
+        "pr",
+        "startDate"
+    ],
+    "literals": [
+        "\"lib/types\"",
+        "\"fs\"",
+        "string",
+        "\"pr-analysis\"",
+        "${dir}/${startDate}.json",
+        "${pr.repo}#${pr.number}",
+        "Generated pr-analysis/${startDate}.json"
+    ],
+    "variables": [
+        "storePrAnalysis",
+        "dir"
+    ],
+    "comments": [
+        "Ensure directory exists before writing"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

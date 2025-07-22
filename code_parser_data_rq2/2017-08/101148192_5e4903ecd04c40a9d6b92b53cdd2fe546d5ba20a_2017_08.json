@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "GameBoard",
+        "GameNode",
+        "Component",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "Output",
+        "EventEmitter",
+        "node",
+        "node",
+        "node",
+        "node"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "\"./../../model/gameboard\"",
+        "\"./../../model/gamenode\"",
+        "'gameboard'",
+        "<div class=\"gameboard\" [ngStyle]=\"board.boardStyle\">\n        <ng-container *ngFor=\"let row of board.level\">\n            <ng-container *ngFor=\"let node of row\">\n                <gamenode [node]=\"node\" (onClicked)=\"handleNodeClicked($event)\" (onHover)=\"handleNodeHover($event)\"></gamenode>\n            </ng-container>\n        </ng-container>\n    </div>"
+    ],
+    "variables": [],
+    "comments": [
+        "Gamenode"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handleNodeClicked",
+        "handleNodeHover"
+    ],
+    "classes": [
+        "GameBoardComponent"
+    ]
+}

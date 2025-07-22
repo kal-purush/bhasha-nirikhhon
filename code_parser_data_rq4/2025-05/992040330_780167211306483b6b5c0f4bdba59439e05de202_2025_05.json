@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "require",
+        "amqp",
+        "conn",
+        "channel",
+        "exchange",
+        "channel",
+        "key",
+        "channel",
+        "q",
+        "exchange",
+        "key",
+        "channel",
+        "q",
+        "msg",
+        "msg",
+        "msg",
+        "msg",
+        "action",
+        "payload",
+        "action",
+        "channel",
+        "msg",
+        "startConsumer"
+    ],
+    "literals": [
+        "'amqplib'",
+        "'amqp://rabbitmq'",
+        "'lamp_control'",
+        "'direct'",
+        "''",
+        "'on'",
+        "'off'",
+        "'brightness'",
+        "'color'",
+        "'morse'",
+        "'Consumer wartet auf Events...'",
+        "Received: ${action} ->",
+        "\"on\"",
+        "'Lampe einschalten...'"
+    ],
+    "variables": [
+        "amqp",
+        "conn",
+        "channel",
+        "exchange",
+        "q",
+        "action",
+        "payload"
+    ],
+    "comments": [
+        "const { Client } = require('tplink-bulb');",
+        "Required actions for bulb",
+        "msg received",
+        "TODO: Lampe ansteuern",
+        "... ToDo"
+    ],
+    "docstrings": [],
+    "functions": [
+        "startConsumer"
+    ],
+    "classes": []
+}

@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "java",
+        "awt",
+        "Font",
+        "java",
+        "awt",
+        "FontFormatException",
+        "java",
+        "awt",
+        "FontMetrics",
+        "java",
+        "awt",
+        "Graphics2D",
+        "java",
+        "awt",
+        "GraphicsEnvironment",
+        "java",
+        "io",
+        "File",
+        "java",
+        "io",
+        "fMetrics",
+        "fontPath",
+        "loadFonts",
+        "ge",
+        "GraphicsEnvironment",
+        "getLocalGraphicsEnvironment",
+        "ge",
+        "registerFont",
+        "Font",
+        "createFont",
+        "Font",
+        "TRUETYPE_FONT",
+        "getClass",
+        "getClassLoader",
+        "getResource",
+        "fontPath",
+        "getFile",
+        "e",
+        "e",
+        "printStackTrace",
+        "e",
+        "e",
+        "printStackTrace"
+    ],
+    "literals": [
+        "\"data/fonts/\"",
+        "\"Done loading fonts!\"",
+        "\"OpenSans-Bold.ttf\""
+    ],
+    "variables": [
+        "fMetrics"
+    ],
+    "comments": [
+        "ge.registerFont(Font.createFont(Font.TRUETYPE_FONT,  this.getClass().getResourceAsStream(fontPath + \"font name\")));",
+        "TODO Auto-generated catch block",
+        "TODO Auto-generated catch block"
+    ],
+    "docstrings": [
+        "* Manages fonts\n * \n * @author Kaffeinated\n *",
+        "* how to do it\n\t\t\t * 0. place ttf, otf, whatever, inside your data/fonts folder\n\t\t\t * 1. place font name\n\t\t\t * 2. done",
+        "* print out all the fonts that are usable by java",
+        "ont[] fonts = ge.getAllFonts();\n\t\tfor (int i = 0; i < fonts.length; i++) {\n\t\t\tSystem.out.print(fonts[i].getFontName() + \" : \");\n\t\t\tSystem.out.print(fonts[i].getFamily() + \" : \");\n\t\t\tSystem.out.print(fonts[i].getName());\n\t\t\tSystem.out.println();\n\t\t}"
+    ],
+    "functions": [
+        "FontHandler",
+        "loadFonts"
+    ],
+    "classes": [
+        "FontHandler"
+    ]
+}

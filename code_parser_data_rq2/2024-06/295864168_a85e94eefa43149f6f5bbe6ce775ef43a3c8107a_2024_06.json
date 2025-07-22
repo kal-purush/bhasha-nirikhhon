@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Election",
+        "MachineVersion",
+        "UiStringsPackage",
+        "mergeUiStrings",
+        "BallotLanguageConfigs",
+        "translateAppStrings",
+        "extractAndTranslateElectionStrings",
+        "GoogleCloudTranslator",
+        "translator",
+        "election",
+        "ballotLanguageConfigs",
+        "machineVersion",
+        "extractAndTranslateElectionStrings",
+        "translator",
+        "election",
+        "ballotLanguageConfigs",
+        "translateAppStrings",
+        "translator",
+        "machineVersion",
+        "ballotLanguageConfigs",
+        "mergeUiStrings",
+        "electionStrings",
+        "appStrings"
+    ],
+    "literals": [
+        "'@votingworks/types'",
+        "'../types'",
+        "'./app_strings'",
+        "'./election_strings'",
+        "'./translator'"
+    ],
+    "variables": [
+        "appStrings"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Translates (or loads from the translation cache) a UI strings package for\n * HMPB rendering. Includes all election strings and app strings."
+    ],
+    "functions": [
+        "translateBallotStrings"
+    ],
+    "classes": []
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "asyncFn",
+        "asyncFn",
+        "asyncFn",
+        "error",
+        "asyncFn",
+        "error",
+        "foo",
+        "error"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Using the `await` keyword to reslove an async function.",
+        "Resloves the async function without `await` keyword.",
+        "With the `await` keyword we can catch errors inside `foo`",
+        "here we catch errors from asyncFn.",
+        "Without the `await` keyword the error is passed outside `.catch`",
+        "errors from asyncFn do not land here.",
+        "error from foo will land here."
+    ],
+    "docstrings": [],
+    "functions": [
+        "foo",
+        "foo",
+        "foo",
+        "foo"
+    ],
+    "classes": []
+}

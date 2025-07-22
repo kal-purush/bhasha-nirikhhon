@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "level_chosen",
+        "levels",
+        "get",
+        "level_chosen",
+        "input",
+        "upper",
+        "switch_level",
+        "chosen_level"
+    ],
+    "literals": [
+        "'N'",
+        "'B'",
+        "'E'",
+        "'A'",
+        "'That Difficulty level does not exist'",
+        "'__main__'",
+        "'Choose the game difficulty:\\nN for Novice\\nB for Beginner\\nE for Experienced\\nA for Advanced'",
+        "'Choose a difficulty: '",
+        "f'The points awarded for the chosen difficulty is: '"
+    ],
+    "variables": [
+        "levels",
+        "chosen_level"
+    ],
+    "comments": [
+        "Press the green button in the gutter to run the script."
+    ],
+    "docstrings": [
+        "\"\"\"\nAssignment: Selection Using Dictionary Assignment\nProgram: assign_level.py\nAuthor: Colby Boell\nLast date modified: 03/04/2022\n\nThe purpose of this program is to get user input for the difficulty level for the video game\nand returns the proper amount of points that goes with the level.\n\"\"\"",
+        "\"\"\"\nTests:\n1.)\nChoose a difficulty: E\nresult:\nThe points awarded for the chosen difficulty is:  300\n\n2.)\nChoose a difficulty: b\nresult:\nThe points awarded for the chosen difficulty is:  150\n3.)\nChoose a difficulty: k\nresult:\nThe points awarded for the chosen difficulty is:  That Difficulty level does not exist\n4.)\nChoose a difficulty: 45\nresult:\nThe points awarded for the chosen difficulty is:  That Difficulty level does not exist\n\"\"\""
+    ],
+    "functions": [
+        "switch_level"
+    ],
+    "classes": []
+}

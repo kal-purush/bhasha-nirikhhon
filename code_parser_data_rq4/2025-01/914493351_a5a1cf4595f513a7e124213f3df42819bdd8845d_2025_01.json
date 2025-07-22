@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "createElement",
+        "validateInput",
+        "tasklistListener",
+        "addTaskButton",
+        "validateInput",
+        "warningMessage",
+        "taskInput",
+        "taskInput",
+        "e",
+        "e",
+        "validateInput",
+        "warningMessage",
+        "taskInput",
+        "createElement",
+        "taskInput",
+        "tasksArray",
+        "taskInput",
+        "tasklistListener",
+        "tasksArray",
+        "tasklistListener",
+        "tasksArray"
+    ],
+    "literals": [
+        "\"./scripts/createElement.js\"",
+        "\"./scripts/validation.js\"",
+        "'.tasklist__button'",
+        "'#task'",
+        "'.tasklist__warning'",
+        "'click'",
+        "'keydown'",
+        "'Enter'"
+    ],
+    "variables": [
+        "addTaskButton",
+        "taskInput",
+        "warningMessage",
+        "tasksArray"
+    ],
+    "comments": [
+        "Permite o import de mais de uma funcionalidade dentro das chaves",
+        "import createElement from \"./createElement.js\"; // import padrão => permite o não uso das chaves por exportar uma única funcionalidade",
+        "Ouvinte para o botão de adicionar task",
+        "Ouvinte para o teclado",
+        "Quando pressionar Enter, chama a função validateField()",
+        "Adiciona a Task ao HTML",
+        "Se o checkbox estiver marcado, aplica o estilo riscado e itálico",
+        "P.S.: a completar...",
+        "const checkbox = document.querySelector('#check__input');",
+        "checkbox.addEventListener('click', () => {",
+        "if(checkbox.checked) {",
+        "console.log(\"check!\");",
+        "} else {",
+        "// console.log(\"\");",
+        "}",
+        "});",
+        "Adiciona a tarefa ao array tasksArray",
+        "Aciona a função para verificar se o array está vazio"
+    ],
+    "docstrings": [],
+    "functions": [
+        "addTask"
+    ],
+    "classes": []
+}

@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "BS3",
+        "Bot",
+        "Logger",
+        "CommandInteraction",
+        "Emoji",
+        "EmojiResolvable",
+        "Guild",
+        "Message",
+        "Role",
+        "Snowflake",
+        "BS3",
+        "bot",
+        "db",
+        "BS3",
+        "Logger",
+        "db",
+        "guildId",
+        "guildId",
+        "row",
+        "err",
+        "err",
+        "guildId",
+        "channelId",
+        "emoteId",
+        "numReacts",
+        "enabled",
+        "guildId",
+        "enabled",
+        "channelId",
+        "emoteId",
+        "numReacts",
+        "rowsModified",
+        "info",
+        "err",
+        "err",
+        "rowsModified"
+    ],
+    "literals": [
+        "\"better-sqlite3\"",
+        "\"Bot\"",
+        "\"Logger\"",
+        "\"discord.js\"",
+        "\"SELECT * FROM StarboardConfigs WHERE guildId = ?;\"",
+        "\"Error getting StarboardConfigs from db\"",
+        "\"INSERT INTO StarboardConfigs(guildId, enabled, channelId, emoteId, numReacts) \"",
+        "\"VALUES(?, ?, ?, ?, ?) \"",
+        "\"ON CONFLICT(guildId, enabled, channelId, emoteId, numReacts) \"",
+        "\"DO UPDATE SET guildId=excluded.guildId enabled=excluded.enabled \"",
+        "\"channelId=excluded.channelId emoteId=excluded.emoteId numReacts=excluded.numReacts;\"",
+        "\"Error setting StarboardConfig\""
+    ],
+    "variables": [
+        "row",
+        "rowsModified",
+        "info"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @returns undefined when not found, null on db error"
+    ],
+    "functions": [
+        "getConfig",
+        "setConfig"
+    ],
+    "classes": [
+        "StarboardConfigs"
+    ]
+}

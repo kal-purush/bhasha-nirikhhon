@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "no",
+        "ssb",
+        "dlp",
+        "pseudo",
+        "service",
+        "BuildInfo",
+        "INSTANCE",
+        "format",
+        "BuildInfo",
+        "INSTANCE",
+        "getVersion",
+        "BuildInfo",
+        "INSTANCE",
+        "getBuildTimestamp"
+    ],
+    "literals": [
+        "\"unknown\"",
+        "\"unknown\"",
+        "\"%s (%s)\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @return the project version such as 1.1-SNAPSHOT.",
+        "* @return the build timestamp such as 2022-02-03T19:45:27Z.",
+        "* @return a concatenation of version and build timestamp"
+    ],
+    "functions": [
+        "getVersion",
+        "getBuildTimestamp",
+        "getVersionAndBuildTimestamp"
+    ],
+    "classes": []
+}

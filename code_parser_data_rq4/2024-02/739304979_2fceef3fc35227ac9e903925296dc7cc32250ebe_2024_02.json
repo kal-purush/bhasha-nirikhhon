@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "HttpService",
+        "firstValueFrom",
+        "CanActivate",
+        "Injectable",
+        "ExecutionContext",
+        "ForbiddenException",
+        "Logger",
+        "Injectable",
+        "httpService",
+        "context",
+        "context",
+        "body",
+        "RECAPTCHA_SECRET",
+        "firstValueFrom",
+        "response",
+        "data",
+        "ForbiddenException"
+    ],
+    "literals": [
+        "\"@nestjs/axios\"",
+        "\"rxjs\"",
+        "\"@nestjs/common\"",
+        "\"@nestjs/common\"",
+        "'6LffdmspAAAAAC2ZBA_dDBr70lFTjLdNwWG3b2NI'",
+        "https://www.google.com/recaptcha/api/siteverify?response=${body.captchaValue}&secret=${RECAPTCHA_SECRET}"
+    ],
+    "variables": [
+        "RECAPTCHA_SECRET",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "canActivate"
+    ],
+    "classes": [
+        "CaptchaGuard"
+    ]
+}

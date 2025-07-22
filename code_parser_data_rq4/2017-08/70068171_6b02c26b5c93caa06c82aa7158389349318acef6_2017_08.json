@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "DEBUG",
+        "Microsoft",
+        "VisualStudio",
+        "Threading",
+        "Diagnostics",
+        "Threading",
+        "step",
+        "doNotBlockBefore",
+        "SyncObject",
+        "doNotBlockBefore",
+        "HasValue",
+        "current",
+        "doNotBlockBefore",
+        "Value",
+        "NET45",
+        "Debug",
+        "WriteLine",
+        "step",
+        "current",
+        "doNotBlockBefore",
+        "current",
+        "step",
+        "Monitor",
+        "Wait",
+        "SyncObject",
+        "current",
+        "step",
+        "NET45",
+        "Debug",
+        "WriteLine",
+        "step",
+        "current",
+        "step",
+        "Monitor",
+        "PulseAll",
+        "SyncObject",
+        "NET45",
+        "Debug",
+        "WriteLine",
+        "step"
+    ],
+    "literals": [],
+    "variables": [
+        "SyncObject",
+        "current"
+    ],
+    "comments": [
+        "A debug help in forcing certain timing conditions to be met as part of replaying a possible race condition.",
+        "</summary>",
+        "The lock to enter and wait on as part of this timing control.",
+        "</summary>",
+        "The current value of a monotonically increasing sequence number.",
+        "</summary>",
+        "Blocks the caller until it is time to execute the prescribed step.",
+        "</summary>",
+        "<param name=\"step\">The sequence number that the calling code should be unblocked for. Callers are only unblocked after the previous step has been unblocked.</param>",
+        "<param name=\"doNotBlockBefore\">If the sequence number if smaller than this number, do not block.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Step"
+    ],
+    "classes": [
+        "SyncPoints"
+    ]
+}

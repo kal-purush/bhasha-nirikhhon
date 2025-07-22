@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "NextFunction",
+        "Request",
+        "Response",
+        "jwt",
+        "ClientError",
+        "process",
+        "secret",
+        "req",
+        "res",
+        "next",
+        "req",
+        "token",
+        "ClientError",
+        "req",
+        "jwt",
+        "token",
+        "secret",
+        "next"
+    ],
+    "literals": [
+        "'express'",
+        "'jsonwebtoken'",
+        "'./client-error.js'",
+        "''",
+        "'TOKEN_SECRET not found in env'",
+        "'authorization'",
+        "'Bearer '",
+        "'authentication required'",
+        "'user'"
+    ],
+    "variables": [
+        "secret",
+        "token"
+    ],
+    "comments": [
+        "The token will be in the Authorization header with the format `Bearer ${token}`"
+    ],
+    "docstrings": [],
+    "functions": [
+        "authMiddleware"
+    ],
+    "classes": []
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "NextFunction",
+        "Request",
+        "Response",
+        "logger",
+        "isUrlIdValid",
+        "urlParams",
+        "URL_LOG_LENGTH",
+        "urlUtils",
+        "Templates",
+        "submissionIdValidationMiddleware",
+        "req",
+        "res",
+        "next",
+        "logger",
+        "req",
+        "urlParams",
+        "logger",
+        "isUrlIdValid",
+        "submissionId",
+        "urlUtils",
+        "req",
+        "logger",
+        "req",
+        "req",
+        "URL_LOG_LENGTH",
+        "res",
+        "Templates",
+        "Templates",
+        "next"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"../utils/logger\"",
+        "\"../validators/url.id.validator\"",
+        "\"../types/page.urls\"",
+        "\"../utils/constants\"",
+        "\"../utils/url\"",
+        "\"../types/template.paths\"",
+        "\"Execute URL submission id validation middleware checks\"",
+        "string",
+        "\"Check submission id\"",
+        "\"No Valid Submission Id in URL: \""
+    ],
+    "variables": [
+        "submissionIdValidationMiddleware",
+        "submissionId"
+    ],
+    "comments": [
+        "need to truncate the url in the request as we are about to log it out and it has failed validation.",
+        "it could contain a large amount of data so truncate to stop logs filling up"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

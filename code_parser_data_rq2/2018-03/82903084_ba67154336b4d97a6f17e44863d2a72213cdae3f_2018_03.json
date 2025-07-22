@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "CoreModule",
+        "Extension",
+        "OnExtensionLoad",
+        "OnShutdown",
+        "Observable",
+        "ExtensionShutdown",
+        "ExtensionShutdownPriority",
+        "EventManager",
+        "Observable",
+        "EventManager",
+        "_",
+        "EventManagerExt",
+        "_",
+        "manager",
+        "ExtensionShutdownPriority",
+        "Observable",
+        "manager"
+    ],
+    "literals": [
+        "'../../core/interfaces'",
+        "'rxjs/Observable'",
+        "'../../core'",
+        "'./manager'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Initilization of the extension\n     *\n     * @param  {CoreModule} module\n     * @returns Observable",
+        "* Shutdown Event manager\n     *\n     * @param  {CoreModule} module\n     * @param  {EventManager} manager\n     * @returns ExtensionShutdown"
+    ],
+    "functions": [
+        "onExtensionLoad",
+        "onShutdown"
+    ],
+    "classes": [
+        "EventManagerExt"
+    ]
+}

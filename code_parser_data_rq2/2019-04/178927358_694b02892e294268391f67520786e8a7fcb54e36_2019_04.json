@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "connection",
+        "menu",
+        "inquirer",
+        "response",
+        "connection",
+        "response",
+        "response",
+        "response",
+        "response",
+        "err",
+        "res",
+        "err",
+        "err",
+        "menu",
+        "connection",
+        "addNewProduct"
+    ],
+    "literals": [
+        "\"./managerMenu\"",
+        "\"inquirer\"",
+        "\"input\"",
+        "\"product\"",
+        "\"What product would you like to add?\"",
+        "\"input\"",
+        "\"department\"",
+        "\"What department would that fit in?\"",
+        "\"input\"",
+        "\"price\"",
+        "\"What will the price be?\"",
+        "\"input\"",
+        "\"stock\"",
+        "\"How many will we be stocking?\"",
+        "INSERT INTO products(item_id, product_name, department_name, price, stock_quantity)\n                VALUES ((SELECT MAX(item_id) + 1 FROM products AS p1), \"${response.product}\", \"${response.department}\", \"${response.price}\", \"${response.stock}\");"
+    ],
+    "variables": [
+        "manager",
+        "inquirer",
+        "query"
+    ],
+    "comments": [
+        "const mysql = require(\"mysql\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "addNewProduct"
+    ],
+    "classes": []
+}

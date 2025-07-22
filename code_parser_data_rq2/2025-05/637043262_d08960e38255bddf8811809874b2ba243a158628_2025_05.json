@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "CloudFormationClient",
+        "LambdaClient",
+        "updateLambdaCode",
+        "chalk",
+        "packBackendLambdas",
+        "CloudFormationClient",
+        "LambdaClient",
+        "updateLambdaCode",
+        "packBackendLambdas",
+        "start",
+        "process",
+        "stackName",
+        "update",
+        "stackName",
+        "packs",
+        "arg",
+        "args",
+        "chalk",
+        "stackName",
+        "chalk",
+        "arg",
+        "args",
+        "start"
+    ],
+    "literals": [
+        "'@aws-sdk/client-cloudformation'",
+        "'@aws-sdk/client-lambda'",
+        "'@bifravst/aws-cdk-lambda-helpers/util'",
+        "'chalk'",
+        "'../lambdas/packBackendLambdas.ts'",
+        "'Packed lambdas in'",
+        "'ms'",
+        "${process.env.STACK_NAME_PREFIX ?? 'teamstatus'}-backend",
+        "'teamstatus'",
+        "[${stackName}]",
+        "'Done'",
+        "'Updated lambdas in'",
+        "'ms'"
+    ],
+    "variables": [
+        "cf",
+        "update",
+        "start",
+        "packs"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

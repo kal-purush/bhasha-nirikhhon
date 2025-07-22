@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "random",
+        "current_low",
+        "current_high",
+        "guess",
+        "input",
+        "decision",
+        "decision",
+        "decision",
+        "decision",
+        "low",
+        "high",
+        "pick_number",
+        "check",
+        "get_guess",
+        "current_low",
+        "current_high",
+        "check_guess",
+        "guess",
+        "check",
+        "check",
+        "show_result",
+        "guess",
+        "rand",
+        "show_start_screen",
+        "playing",
+        "play",
+        "play_again",
+        "show_credits"
+    ],
+    "literals": [
+        "\"*************************\"",
+        "\"*  Guess a Number A.I!  *\"",
+        "\"*************************\"",
+        "\"Would you like to play again? (y/n) \"",
+        "'y'",
+        "'yes'",
+        "'n'",
+        "'no'",
+        "\"I don't understand. Please enter 'y' or 'n'.\""
+    ],
+    "variables": [
+        "low",
+        "high",
+        "decision",
+        "current_low",
+        "current_high",
+        "check",
+        "guess",
+        "check",
+        "playing",
+        "playing"
+    ],
+    "comments": [
+        "config",
+        "helper functions",
+        "adjust current_low",
+        "adjust current_high",
+        "Game starts running here"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Return a truncated average of current low and high.\n    \"\"\"",
+        "\"\"\"\n    Ask the player to think of a number between low and high.\n    Then  wait until the player presses enter.\n    \"\"\"",
+        "\"\"\"\n    Computer will ask if guess was too high, low, or correct.\n\n    Returns -1 if the guess was too low\n             0 if the guess was correct\n             1 if the guess was too high\n    \"\"\"",
+        "\"\"\"\n    Says the result of the game. (The computer might always win.)\n    \"\"\""
+    ],
+    "functions": [
+        "show_start_screen",
+        "show_credits",
+        "get_guess",
+        "pick_number",
+        "check_guess",
+        "show_result",
+        "play_again",
+        "play"
+    ],
+    "classes": []
+}

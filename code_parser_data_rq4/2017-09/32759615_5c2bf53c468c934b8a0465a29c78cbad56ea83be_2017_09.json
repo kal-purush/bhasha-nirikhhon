@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "WhereFilter",
+        "where",
+        "modelName",
+        "model",
+        "where",
+        "modelName",
+        "id",
+        "where",
+        "modelName",
+        "id",
+        "modelName",
+        "where",
+        "modelName",
+        "id",
+        "where",
+        "id",
+        "where",
+        "where",
+        "data"
+    ],
+    "literals": [
+        "\"./filter/WhereFilter\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Return the number of records that match the optional \"where\" filter.\n     *\n     * @param: [where] WhereFilter\n     *   Optional where filter, like { key: val, key2: {gt: 'val2'}, ...}\n     * @param: modelName string\n     *   The database table/record to be queried.",
+        "* Create new instance of Model, and save to database.\n     * \n     * @param: {Object}|[{Object}]\t\t\n     *   data Optional data argument. Can be either a single model instance or an array of instances.",
+        "* Destroy all model instances that match the optional where specification.\n     * \n     * @param: [where]\tWhereFilter\t\n     *   Optional where filter, like: {key: val, key2: {gt: 'val2'}, ...} \n     * @param: modelName string\n     *   the name of the table/record to be deleted.",
+        "* Destroy model instance with the specified ID.\n     * \n     * @param: id\t\t\n     *   The ID value of model instance to delete.\n     * @param: [where]\tWhereFilter\t\n     *   Optional where filter, like: {key: val, key2: {gt: 'val2'}, ...} \n     * @param: modelName string\n     *   the name of the table/record to be deleted.",
+        "* Check whether a model instance exists in database.\n     * \n     * @param: id\t\n     *   Identifier of object (primary key value).\n     * @param: modelName string\n     *   the name of the table/record to be deleted.",
+        "* Find all model instances that match filter specification.\n     *\n     * @param: [where] WhereFilter\n     *     Model instances matching the filter, or null if none found.\n     * @param: modelName string\n     *   the name of the table/record to be deleted.",
+        "* Find object by ID with an optional filter for include/fields.\n     * \n     * @param: id\t\t\n     *   Primary key value\n     * @param: [where]\tWhereFilter\t\n     *   Optional Filter JSON object",
+        "* Update single model instance that match the where clause.\n     * \n     * @param: id \n     *   Primary key value\n     * @param: [where] WhereFilter\n     *   Optional where filter, like {}",
+        "* Update multiple instances that match the where clause.\n     * \n     * @param: [where]\tWhereFilter \n     *   Optional where filter, like { key: val, key2: {gt: 'val2'}, ...} \n     *   see Where filter.\n     * @param: data\tObject\t\n     *   Object containing data to replace matching instances, if any."
+    ],
+    "functions": [],
+    "classes": []
+}

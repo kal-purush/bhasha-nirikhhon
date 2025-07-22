@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "NonRecursiveType",
+        "IsUnion",
+        "IsNever",
+        "UnknownArray"
+    ],
+    "literals": [
+        "'./internal'",
+        "'./is-never'",
+        "'./unknown-array'"
+    ],
+    "variables": [],
+    "comments": [
+        "Create a type with shared fields from a union of object types.\n\nUse-cases:\n- You want a safe object type where each key exists in the union object.\n- You want to focus on the common fields of the union type and don't want to have to care about the other fields.\n\n@example\n```\nimport type {SharedUnionFields} from 'type-fest';\n\ntype Cat = {\n\tname: string;\n\ttype: 'cat';\n\tcatType: string;\n};\n\ntype Dog = {\n\tname: string;\n\ttype: 'dog';\n\tdogType: string;\n};\n\nfunction displayPetInfo(petInfo: Cat | Dog) {\n\t// typeof petInfo =>\n\t// {\n\t// \tname: string;\n\t// \ttype: 'cat';\n\t// \tcatType: string; // Needn't care about this field, because it's not a common pet info field.\n\t// } | {\n\t// \tname: string;\n\t// \ttype: 'dog';\n\t// \tdogType: string; // Needn't care about this field, because it's not a common pet info field.\n\t// }\n\n\t// petInfo type is complex and have some needless fields\n\n\tconsole.log('name: ', petInfo.name);\n\tconsole.log('type: ', petInfo.type);\n}\n\nfunction displayPetInfo(petInfo: SharedUnionFields<Cat | Dog>) {\n\t// typeof petInfo =>\n\t// {\n\t// \tname: string;\n\t// \ttype: 'cat' | 'dog';\n\t// }\n\n\t// petInfo type is simple and clear\n\n\tconsole.log('name: ', petInfo.name);\n\tconsole.log('type: ', petInfo.type);\n}\n```\n\n@see SharedUnionFieldsDeep\n\n@category Object\n@category Union",
+        "If `Union` is not a union type, return `Union` directly.",
+        "`Union extends` will convert `Union`",
+        "to a [distributive conditionaltype](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#distributive-conditional-types).",
+        "But this is not what we want, so we need to wrap `Union` with `[]` to prevent it.",
+        "`keyof Union` can extract the same key in union type, if there is no same key, return never."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "Proyecto",
+        "java",
+        "io",
+        "BufferedWriter",
+        "java",
+        "io",
+        "FileWriter",
+        "java",
+        "io",
+        "java",
+        "util",
+        "GregorianCalendar",
+        "java",
+        "util",
+        "s",
+        "auxCalendar",
+        "s",
+        "trim",
+        "split",
+        "dia",
+        "parseInt",
+        "auxCalendar",
+        "trim",
+        "mes",
+        "parseInt",
+        "auxCalendar",
+        "trim",
+        "anho",
+        "parseInt",
+        "auxCalendar",
+        "trim",
+        "c",
+        "c",
+        "anho",
+        "mes",
+        "dia",
+        "c"
+    ],
+    "literals": [
+        "\"/\""
+    ],
+    "variables": [],
+    "comments": [
+        "Clase donde vamos a implementar pequeños metodos que pueden usarse desde las diferentes clases del proyecto",
+        "Recibe un String fecha, lo subdivide en dia, mes, año y devuelve un GregorianCalendar",
+        "METODO PARA ESCRIBIR LOS MAPAS ALUMNO, PROFESOR Y ASIGNATURA A FICHEROS .TXT"
+    ],
+    "docstrings": [
+        "public static void MapaAFichero(String nomFich) throws IOException {\n \n  BufferedWriter output = new BufferedWriter(new FileWriter(nomFich));\n  Set<String> keys = Proyecto.mapAlumnos.keySet();\n  \n \n  \n }"
+    ],
+    "functions": [
+        "GregorianCalendar",
+        "PasarAGregorianCalendar"
+    ],
+    "classes": [
+        "Util"
+    ]
+}

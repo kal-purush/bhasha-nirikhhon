@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "ChangeDetectionStrategy",
+        "Component",
+        "EventEmitter",
+        "Input",
+        "OnChanges",
+        "Output",
+        "ViewEncapsulation",
+        "IFileModel",
+        "FileManagerConfiguration",
+        "FileModel",
+        "IFileEvent",
+        "FileManagerDispatcherService",
+        "Component",
+        "ChangeDetectionStrategy",
+        "ViewEncapsulation",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "Output",
+        "EventEmitter",
+        "Output",
+        "EventEmitter",
+        "configuration",
+        "fileManagerDispatcher",
+        "file",
+        "file",
+        "file",
+        "file",
+        "fileEvent",
+        "fileEvent"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../interface/IFileModel'",
+        "'../../configuration/fileManagerConfiguration.service'",
+        "'../file.model'",
+        "'../interface/IFileEvent'",
+        "'../../store/fileManagerDispatcher.service'",
+        "'ri-file-component'",
+        "'./file.component.html'",
+        "'change'",
+        "'You are try to delete <b>'",
+        "'</b>. Are you sure?'",
+        "'onPreviewFile'",
+        "'onCropFile'"
+    ],
+    "variables": [
+        "fileEvent",
+        "fileEvent"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Fired when clicked on button \"delete file\"\n   *\n   * @param file"
+    ],
+    "functions": [
+        "ngOnChanges",
+        "deleteFile",
+        "getRemoveMessage",
+        "openPreview",
+        "openCrop",
+        "selectFile",
+        "unSelectFile"
+    ],
+    "classes": [
+        "FileComponent"
+    ]
+}

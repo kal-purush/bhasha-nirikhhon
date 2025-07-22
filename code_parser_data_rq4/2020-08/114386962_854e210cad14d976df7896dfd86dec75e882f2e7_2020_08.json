@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "TestingModule",
+        "apolloServerTesting",
+        "GraphQLModule",
+        "GraphQLFederationModule",
+        "ApolloServerBase",
+        "testingModule",
+        "apolloServerTesting",
+        "apolloServerTesting",
+        "getApolloServer",
+        "testingModule",
+        "testingModule",
+        "testingModule",
+        "GraphQLFederationModule",
+        "graphqlFederationModule",
+        "error",
+        "testingModule",
+        "GraphQLModule",
+        "graphqlModule",
+        "error"
+    ],
+    "literals": [
+        "'@nestjs/testing'",
+        "'apollo-server-testing'",
+        "'..'",
+        "'apollo-server-core'",
+        "'Nest could not find GraphQLFederationModule or GraphQLModule element (this provider does not exist in the current context)'"
+    ],
+    "variables": [
+        "graphqlFederationModule",
+        "graphqlModule"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Provides a single hook to run operations through the request pipeline,\n * enabling the most thorough tests possible without starting up an HTTP server.\n * @param testingModule the Nest.js testing module\n * @returns a query and mutate function that can be used to run operations against the\n * server instance. Currently, queries and mutations are the only operation\n * types supported by createTestClient.\n * @see https://www.apollographql.com/docs/apollo-server/testing/testing/"
+    ],
+    "functions": [
+        "createTestClient",
+        "getApolloServer"
+    ],
+    "classes": []
+}

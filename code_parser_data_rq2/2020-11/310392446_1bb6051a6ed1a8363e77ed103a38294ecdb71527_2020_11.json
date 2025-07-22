@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "props",
+        "props",
+        "styled",
+        "styled",
+        "props",
+        "props",
+        "styled"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "color: ${(props) => props.theme.colors.veryLightGrey};\n  font-size: clamp(12rem, 15vw, 20rem);\n  font-weight: 700;\n  line-height: 20rem;\n  letter-spacing: -5px;",
+        "font-size: clamp(4.8rem, 11vw, 8rem);\n  font-weight: 700;\n  line-height: 8rem;\n  letter-spacing: -2px;",
+        "font-size: clamp(4rem, 7.5vw, 5.6rem);\n  font-weight: 700;\n  line-height: clamp(4.8rem, 7.5vw, 5.6rem);\n  letter-spacing: -1.43px;\n  @media ${(props) => props.theme.breakpoints.xs} {\n    letter-spacing: -2px;\n  }",
+        "font-size: 1.8rem;\n  font-weight: 700;\n  line-height: 2.5rem;\n  letter-spacing: 0px;"
+    ],
+    "variables": [
+        "HeadingLarge",
+        "HeadingSmall",
+        "H2",
+        "H3"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

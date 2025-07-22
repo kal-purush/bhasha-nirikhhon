@@ -1,0 +1,91 @@
+{
+    "identifiers": [
+        "com",
+        "diffplug",
+        "spotless",
+        "groovy",
+        "java",
+        "io",
+        "BufferedReader",
+        "java",
+        "io",
+        "Serializable",
+        "java",
+        "io",
+        "StringReader",
+        "com",
+        "diffplug",
+        "spotless",
+        "FormatterFunc",
+        "com",
+        "diffplug",
+        "spotless",
+        "FormatterStep",
+        "NAME",
+        "FormatterStep",
+        "createLazy",
+        "NAME",
+        "State",
+        "RemoveSemicolonsStep",
+        "State",
+        "toFormatter",
+        "serialVersionUID",
+        "raw",
+        "reader",
+        "raw",
+        "result",
+        "line",
+        "line",
+        "reader",
+        "readLine",
+        "result",
+        "append",
+        "removeSemicolon",
+        "line",
+        "result",
+        "append",
+        "lineSeparator",
+        "result",
+        "toString",
+        "line",
+        "lastSemicolon",
+        "line",
+        "lastIndexOf",
+        "lastSemicolon",
+        "lastSemicolon",
+        "line",
+        "length",
+        "line",
+        "substring",
+        "lastSemicolon",
+        "line"
+    ],
+    "literals": [
+        "\"Remove unnecessary semicolons\"",
+        "\";\""
+    ],
+    "variables": [
+        "line"
+    ],
+    "comments": [
+        "do not instantiate",
+        "find last semicolon in a string a remove it"
+    ],
+    "docstrings": [
+        "* Copyright 2023 DiffPlug\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Removes all semicolons from the end of lines.\n *\n * @author Jose Luis Badano",
+        "* Removes the last semicolon in a line if it exists.\n\t\t *\n\t\t * @param line the line to remove the semicolon from\n\t\t * @return the line without the last semicolon"
+    ],
+    "functions": [
+        "RemoveSemicolonsStep",
+        "FormatterStep",
+        "create",
+        "FormatterFunc",
+        "toFormatter",
+        "removeSemicolon"
+    ],
+    "classes": [
+        "RemoveSemicolonsStep",
+        "State"
+    ]
+}

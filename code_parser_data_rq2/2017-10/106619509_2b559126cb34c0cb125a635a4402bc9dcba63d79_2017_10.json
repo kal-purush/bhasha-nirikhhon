@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Customer",
+        "Http",
+        "Headers",
+        "RequestOptions",
+        "Observable",
+        "Injectable",
+        "_http",
+        "post",
+        "Customer",
+        "Headers",
+        "RequestOptions",
+        "headers",
+        "post",
+        "result",
+        "result"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'./customer'",
+        "'@angular/http'",
+        "'rxjs/Rx'",
+        "'rxjs/add/operator/map'",
+        "'rxjs/add/operator/toPromise'",
+        "'Content-Type'",
+        "'application/json'",
+        "\"/api/addCustomer\""
+    ],
+    "variables": [
+        "headers",
+        "options"
+    ],
+    "comments": [
+        "getUsers() {",
+        "return this._http.get(\"/api/users\")",
+        ".map(result => this.result = result.json().data);",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "postCustomers"
+    ],
+    "classes": [
+        "DataService"
+    ]
+}

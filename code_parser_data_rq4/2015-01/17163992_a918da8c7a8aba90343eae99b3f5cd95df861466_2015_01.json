@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "os",
+        "celery",
+        "Celery",
+        "django",
+        "conf",
+        "settings",
+        "os",
+        "environ",
+        "setdefault",
+        "Celery",
+        "app",
+        "config_from_object",
+        "app",
+        "autodiscover_tasks",
+        "settings",
+        "INSTALLED_APPS",
+        "app",
+        "task",
+        "bind",
+        "format",
+        "request"
+    ],
+    "literals": [
+        "'DJANGO_SETTINGS_MODULE'",
+        "'mgxrace.settings'",
+        "'mgxrace'",
+        "'django.conf:settings'",
+        "'Request: {0!r}'"
+    ],
+    "variables": [
+        "app"
+    ],
+    "comments": [
+        "set the default Django settings module for the 'celery' program.",
+        "Using a string here means the worker will not have to",
+        "pickle the object when using Windows."
+    ],
+    "docstrings": [],
+    "functions": [
+        "debug_task"
+    ],
+    "classes": []
+}

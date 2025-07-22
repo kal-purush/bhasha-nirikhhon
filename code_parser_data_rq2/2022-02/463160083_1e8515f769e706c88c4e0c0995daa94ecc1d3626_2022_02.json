@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "oddColorizer",
+        "block",
+        "block",
+        "arr",
+        "boxes",
+        "e",
+        "key",
+        "e",
+        "arr",
+        "arr",
+        "arr",
+        "arr",
+        "e",
+        "e",
+        "oddColorizer",
+        "input",
+        "input"
+    ],
+    "literals": [
+        "\".box\"",
+        "\"input\"",
+        "\" \"",
+        "background: ${arr[0]};\n    border-radius: ${arr[1]};\n    height: ${arr[2]}\n    width: ${arr[3]};",
+        "\"keyup\"",
+        "\"Enter\"",
+        "\"\""
+    ],
+    "variables": [
+        "boxes",
+        "input",
+        "oddColorizer",
+        "arr"
+    ],
+    "comments": [
+        "console.log(boxes);",
+        "let oddColorizer = (color) => {",
+        "boxes.forEach((e, key) => {",
+        "if (key) e.style = ` background: ${color}; `;",
+        "else e.style = ` background: ${color};  `;",
+        "});",
+        "};"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

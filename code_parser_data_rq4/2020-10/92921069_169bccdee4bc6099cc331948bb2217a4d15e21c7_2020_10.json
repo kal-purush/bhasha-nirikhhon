@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "mouseDownHandler",
+        "tabKeyHandler",
+        "e",
+        "e",
+        "tabKeyHandler",
+        "mouseDownHandler",
+        "tabKeyHandler"
+    ],
+    "literals": [
+        "'telia-hide-focus'",
+        "'mousedown'",
+        "'keydown'",
+        "'Tab'",
+        "'telia-hide-focus'",
+        "'keydown'",
+        "'mousedown'",
+        "'telia-hide-focus'",
+        "'keydown'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* In accordance with the new Telia Desing System,\n * we only want to display focus styles when the user is tabbing\n * (using the keyboard to navigate).\n *\n * We enable this by setting a classname on the body-element\n * that removes focus style.\n *\n * When the user starts tabbing, we remove the class in order\n * to apply focus style again.\n *\n * For your application to supprt this,\n * call the function at the root of your application.\n * Eg. in index.tsx"
+    ],
+    "functions": [
+        "enableTabKeyDetection",
+        "mouseDownHandler",
+        "tabKeyHandler"
+    ],
+    "classes": []
+}

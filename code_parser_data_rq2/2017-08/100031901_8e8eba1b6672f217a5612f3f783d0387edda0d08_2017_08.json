@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "importScripts"
+    ],
+    "literals": [
+        "'use strict'",
+        "'./build/sw-toolbox.js'",
+        "'ionic-cache'",
+        "'./build/main.js'",
+        "'./build/vendor.js'",
+        "'./build/main.css'",
+        "'./build/polyfills.js'",
+        "'index.html'",
+        "'manifest.json'",
+        "'/*'"
+    ],
+    "variables": [],
+    "comments": [
+        "pre-cache our key assets",
+        "dynamically cache any other local assets",
+        "for any other requests go to the network, cache,",
+        "and then only use that cached resource if your user goes offline"
+    ],
+    "docstrings": [
+        "* Check out https://googlechrome.github.io/sw-toolbox/ for\n * more info on how to use sw-toolbox to custom configure your service worker."
+    ],
+    "functions": [],
+    "classes": []
+}

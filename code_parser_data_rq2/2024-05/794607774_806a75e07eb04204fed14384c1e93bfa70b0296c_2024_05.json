@@ -1,0 +1,19 @@
+{
+    "identifiers": [
+        "app",
+        "req",
+        "res"
+    ],
+    "literals": [
+        "'/api/auth/login'"
+    ],
+    "variables": [],
+    "comments": [
+        "Your login logic here"
+    ],
+    "docstrings": [
+        "* @swagger\n * /api/auth/login:\n *   post:\n *     summary: Logs in a user\n *     description: Logs in a user with username and password\n *     requestBody:\n *       required: true\n *       content:\n *         application/json:\n *           schema:\n *             type: object\n *             properties:\n *               username:\n *                 type: string\n *               password:\n *                 type: string\n *     responses:\n *       '200':\n *         description: Successful login\n *       '401':\n *         description: Invalid username or password\n *       '500':\n *         description: Internal server error"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "FRigidBodyType",
+        "FRigidBodyOptions",
+        "FRigidBody",
+        "FScene",
+        "FRigidBody",
+        "scene",
+        "options",
+        "scene",
+        "FRigidBodyType",
+        "options"
+    ],
+    "literals": [
+        "'../types/FRigidBodyType'",
+        "'./FRigidBody'",
+        "'./FRigidBody'",
+        "'./FScene'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* A 2d sensor that can be attached to a component.\n * @category Core",
+        "* Creates a sensor for the given component.\n   * @param scene The scene the sensor belongs to.\n   * @param options The options for the sensor.\n   * @param options.position The position of the sensor. Default is { x: 0, y: 0 }.\n   * @param options.rotation The rotation of the sensor in radians. Default is 0.\n   * @param options.scale The scale of the sensor. Default is { x: 1, y: 1 }.\n   * @param options.positionOffset The position offset of the sensor. Only used if the sensor is attached to a component. Default is { x: 0, y: 0 }.\n   * @param options.rotationOffset The rotation offset of the sensor in radians. Only used if the sensor is attached to a component. Default is 0.\n   * @param options.scaleOffset The scale offset of the sensor. Only used if the sensor is attached to a component. Default is { x: 0, y: 0 }.\n   * @param options.shape The shape of the collider that will be generated from the sensor. If not defined, it will default to 'CUBOID'.\n   * @param options.rigidBodyType The type of the sensor. If not defined, it will default to FRigidBodyType.Dynamic.\n   * @param options.lockTranslations If true, the sensor will not be able to move.\n   * @param options.lockRotations If true, the sensor will not be able to rotate.\n   * @param options.enabledTranslations If defined, it will enable or disable translations on the x and y axis.\n   * @param options.enabledTranslations.enableX If true, the sensor will be able to move on the x-axis.\n   * @param options.enabledTranslations.enableY If true, the sensor will be able to move on the y-axis.\n   * @example\n   * ```ts\n   * const sensor = new FSensor(scene, {\n   *  position: { x: 0, y: 0, z: 0 },\n   *  rotation: { x: 0, y: 0, z: 0 },\n   *  scale: { x: 1, y: 1, z: 1 },\n   *  shape: FShapes.CUBOID\n   * })\n   * ```"
+    ],
+    "functions": [],
+    "classes": [
+        "FSensor"
+    ]
+}

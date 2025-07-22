@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "SetBkModeScope",
+        "HDC",
+        "hdc",
+        "BKMODE",
+        "bkmode",
+        "_previousMode",
+        "SetBkMode",
+        "hdc",
+        "bkmode",
+        "_hdc",
+        "_previousMode",
+        "bkmode",
+        "hdc",
+        "_hdc",
+        "IsNull",
+        "SetBkMode",
+        "_hdc",
+        "_previousMode"
+    ],
+    "literals": [],
+    "variables": [
+        "BKMODE",
+        "_previousMode",
+        "HDC",
+        "_hdc"
+    ],
+    "comments": [
+        "Licensed to the .NET Foundation under one or more agreements.",
+        "The .NET Foundation licenses this file to you under the MIT license.",
+        "See the LICENSE file in the project root for more information.",
+        "Helper to scope selecting a given background mix mode into a HDC. Restores the original",
+        "mix mode into the HDC when disposed.",
+        "</summary>",
+        "<remarks>",
+        "Use in a <see langword=\"using\" /> statement. If you must pass this around, always pass by",
+        "<see langword=\"ref\" /> to avoid duplicating the handle and resetting multiple times.",
+        "</remarks>",
+        "Selects <paramref name=\"bkmode\"/> into the given <paramref name=\"hdc\"/>.",
+        "</summary>",
+        "If we didn't actually change the mode, don't keep the HDC so we skip putting back the same state."
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "SetBkModeScope",
+        "Dispose"
+    ],
+    "classes": [
+        "Interop",
+        "Gdi32"
+    ]
+}

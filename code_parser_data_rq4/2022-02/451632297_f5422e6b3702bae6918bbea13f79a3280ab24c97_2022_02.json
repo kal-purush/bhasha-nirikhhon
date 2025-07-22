@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "writeFile",
+        "dotenv",
+        "dotenv",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "writeFile",
+        "targetPath",
+        "envConfigFile",
+        "err",
+        "err",
+        "err",
+        "targetPath"
+    ],
+    "literals": [
+        "'fs'",
+        "'dotenv'",
+        "'./src/environments/environment.ts'",
+        "export const environment = {\n  production: false,\n  firebaseConfig: {\n    apiKey: '${process.env['API_KEY'] || \"\"}',\n    authDomain: '${process.env['AUTH_DOMAIN'] || \"\"}',\n    projectId: '${process.env['PROJECT_ID'] || \"\"}',\n    storageBucket: '${process.env['STORAGE_BUCKET'] || \"\"}',\n    messagingSenderId: '${process.env['MESSAGE_IN_SENDER_ID'] || \"\"}',\n    appId: '${process.env['APP_ID'] || \"\"}',\n    measurementId: '${process.env['APIMEASUREMENT_ID_KEY'] || \"\"}'\n  }\n};",
+        "'API_KEY'",
+        "\"\"",
+        "'AUTH_DOMAIN'",
+        "\"\"",
+        "'PROJECT_ID'",
+        "\"\"",
+        "'STORAGE_BUCKET'",
+        "\"\"",
+        "'MESSAGE_IN_SENDER_ID'",
+        "\"\"",
+        "'APP_ID'",
+        "\"\"",
+        "'APIMEASUREMENT_ID_KEY'",
+        "\"\"",
+        "'The file `environment.ts` will be written with the following content'",
+        "Angular environment.ts file generated correctly at ${targetPath} \\n"
+    ],
+    "variables": [
+        "targetPath",
+        "envConfigFile"
+    ],
+    "comments": [
+        "Configure Angular `environment.ts` file path",
+        "Load node modules",
+        "require('dotenv').load();",
+        "`environment.ts` file structure"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

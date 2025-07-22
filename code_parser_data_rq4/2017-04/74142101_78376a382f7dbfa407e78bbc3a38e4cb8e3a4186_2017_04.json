@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Router",
+        "CanActivate",
+        "UserService",
+        "tokenNotExpired",
+        "Injectable",
+        "_router",
+        "_userService",
+        "tokenNotExpired"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router'",
+        "\"./user.service\"",
+        "\"angular2-jwt\"",
+        "'/login'"
+    ],
+    "variables": [],
+    "comments": [
+        "console.log(\"canActivate true\");",
+        "not logged in so redirect to login page",
+        "console.log(\"canActivate false\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "canActivate"
+    ],
+    "classes": [
+        "AuthGuardAdmin"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "cash",
+        "maxCashHeld",
+        "totalEarnings",
+        "totalLost",
+        "cash",
+        "maxCashHeld",
+        "totalEarnings",
+        "totalLost",
+        "cash",
+        "cash",
+        "cash",
+        "maxCashHeld",
+        "totalEarnings",
+        "totalLost",
+        "Override",
+        "cash",
+        "cash",
+        "cash",
+        "cash",
+        "cash",
+        "totalEarnings",
+        "cash",
+        "cash",
+        "maxCashHeld",
+        "maxCashHeld",
+        "cash",
+        "cash",
+        "cash",
+        "cash",
+        "totalLost",
+        "cash",
+        "maxCashHeld",
+        "totalEarnings",
+        "totalLost"
+    ],
+    "literals": [
+        "\"$\""
+    ],
+    "variables": [
+        "cash",
+        "maxCashHeld",
+        "totalEarnings",
+        "totalLost"
+    ],
+    "comments": [
+        "in future builds, possibly keep this in a file and grab it back again?"
+    ],
+    "docstrings": [
+        "* CSCI 4020\n * Dr. Nicholson\n * William Kersten\n * 1/29/2018",
+        "* Creates a Wallet object with $0.",
+        "* creates a Wallet object with an input amount of cash.\n     * @param cash how much cash to start the Wallet with.",
+        "* @return the amount of cash in the wallet, preceded by a $.",
+        "* Adds an input amount of cash to the wallet, updating totalEarnings and maxCashHeld\n     * in the process.\n     * @param cash the amount of money to add to the wallet.",
+        "* removes an input amount of cash from the wallet, updating totalLost in the process.\n     * @param cash the amount of money to remove from the wallet."
+    ],
+    "functions": [
+        "Wallet",
+        "Wallet",
+        "toString",
+        "getCash",
+        "addCash",
+        "removeCash",
+        "getMaxCashHeld",
+        "getTotalEarnings",
+        "getTotalLost"
+    ],
+    "classes": [
+        "Wallet"
+    ]
+}

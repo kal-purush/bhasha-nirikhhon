@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "json",
+        "typing",
+        "Dict",
+        "Union",
+        "cript",
+        "nodes",
+        "exceptions",
+        "CRIPTJsonNodeError",
+        "cript",
+        "nodes",
+        "util",
+        "_is_node_field_valid",
+        "node_json",
+        "Union",
+        "Dict",
+        "isinstance",
+        "node_json",
+        "json",
+        "loads",
+        "node_json",
+        "node_json",
+        "KeyError",
+        "CRIPTJsonNodeError",
+        "node_list",
+        "node_json",
+        "json_str",
+        "json",
+        "dumps",
+        "node_json",
+        "_is_node_field_valid",
+        "node_type_list",
+        "node_type_list",
+        "node_type_list",
+        "CRIPTJsonNodeError",
+        "node_list",
+        "node_type_list",
+        "json_str",
+        "node_json"
+    ],
+    "literals": [
+        "\"node\"",
+        "\"node\""
+    ],
+    "variables": [
+        "node_json",
+        "node_type_list"
+    ],
+    "comments": [
+        "convert all JSON node strings to dict for easier handling",
+        "type: ignore",
+        "type: ignore",
+        "check to be sure the node list has a single type \"node\": [\"Material\"]",
+        "if invalid then raise error"
+    ],
+    "docstrings": [
+        "\"\"\"\n    takes a node JSON and output the node_type `Project`, `Material`, etc.\n\n    1. convert node JSON dict or str to dict\n    1. do check the node list to be sure it only has a single type in it\n    1. get the node type and return it\n\n    Parameters\n    ----------\n    node_json: [Dict, str]\n\n    Notes\n    -----\n    Takes a str or dict to be more versatile\n\n    Returns\n    -------\n    str:\n        node type\n    \"\"\""
+    ],
+    "functions": [
+        "_get_node_type_from_json"
+    ],
+    "classes": []
+}

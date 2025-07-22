@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "React",
+        "Switch",
+        "Route",
+        "Link",
+        "AddMenu",
+        "div",
+        "nav",
+        "a",
+        "a",
+        "div",
+        "li",
+        "Link",
+        "Link",
+        "li",
+        "div",
+        "nav",
+        "div",
+        "Switch",
+        "Route",
+        "AddMenu",
+        "Switch",
+        "div",
+        "div",
+        "App"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"bootstrap/dist/css/bootstrap.min.css\"",
+        "\"react-router-dom\"",
+        "\"./components/AddMenu\"",
+        "\"navbar navbar-expand navbar-dark bg-info\"",
+        "\"/menus\"",
+        "\"navbar-brand\"",
+        "\"navbar-nav mr-auto\"",
+        "\"nav-item\"",
+        "\"/add\"",
+        "\"nav-link\"",
+        "\"container mt-3\"",
+        "\"/add\""
+    ],
+    "variables": [],
+    "comments": [
+        "<li className=\"nav-item\">\n            <Link to={\"/menus\"} className=\"nav-link\">\n              Menu\n            </Link>\n          </li>",
+        "<Route exact path={[\"/\", \"/menus\"]} component={TutorialsList} />",
+        "<Route path=\"/tutorials/:id\" component={Tutorial} />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "App"
+    ],
+    "classes": []
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "division",
+        "print_function",
+        "ansible",
+        "module_utils",
+        "basic",
+        "AnsibleModule",
+        "AnsibleModule",
+        "argument_spec",
+        "exit_json",
+        "main"
+    ],
+    "literals": [
+        "'__main__'"
+    ],
+    "variables": [
+        "__metaclass__",
+        "DOCUMENTATION",
+        "EXAMPLES",
+        "RETURN"
+    ],
+    "comments": [
+        "!/usr/bin/python"
+    ],
+    "docstrings": [
+        "'''\n---\nmodule: randommodule\nshort_description: A random module\ndescription:\n    - A random module.\nauthor:\n    - Ansible Core Team\nversion_added: 1.0.0\ndeprecated:\n    alternative: Use some other module\n    why: Test deprecation\n    removed_in: '3.0.0'\noptions:\n    test:\n        description: Some text.\n        type: str\n        version_added: 1.2.0\n    sub:\n        description: Suboptions.\n        type: dict\n        suboptions:\n            subtest:\n                description: A suboption.\n                type: int\n                version_added: 1.1.0\n        # The following is the wrong syntax, and should not get processed\n        # by add_collection_to_versions_and_dates()\n        options:\n            subtest2:\n                description: Another suboption.\n                type: float\n                version_added: 1.1.0\n        # The following is not supported in modules, and should not get processed\n        # by add_collection_to_versions_and_dates()\n        env:\n            - name: TEST_ENV\n              version_added: 1.0.0\n              deprecated:\n                alternative: none\n                why: Test deprecation\n                removed_in: '2.0.0'\n                version: '2.0.0'\nextends_documentation_fragment:\n    - testns.testcol2.module\n'''",
+        "'''\n'''",
+        "'''\nz_last:\n    description: A last result.\n    type: str\n    returned: success\n    version_added: 1.3.0\n\nm_middle:\n    description:\n        - This should be in the middle.\n        - Has some more data\n    type: dict\n    returned: success and 1st of month\n    contains:\n        suboption:\n            description: A suboption.\n            type: str\n            choices: [ARF, BARN, c_without_capital_first_letter]\n            version_added: 1.4.0\n\na_first:\n    description: A first result.\n    type: str\n    returned: success\n'''"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

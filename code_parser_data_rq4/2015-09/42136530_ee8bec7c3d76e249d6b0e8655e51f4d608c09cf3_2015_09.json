@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "ground",
+        "GameObject",
+        "Find",
+        "rb",
+        "gameObject",
+        "GetComponent",
+        "Rigidbody",
+        "groundtouch",
+        "Input",
+        "GetKey",
+        "KeyCode",
+        "Space",
+        "groundtouch",
+        "rb",
+        "AddForce",
+        "Vector3",
+        "rb",
+        "AddTorque",
+        "Vector3",
+        "groundtouch",
+        "Input",
+        "GetKey",
+        "KeyCode",
+        "A",
+        "rb",
+        "AddForce",
+        "Vector3",
+        "Input",
+        "GetKey",
+        "KeyCode",
+        "D",
+        "rb",
+        "AddForce",
+        "Vector3",
+        "Collision",
+        "collisionInfo",
+        "collisionInfo",
+        "gameObject",
+        "name",
+        "ground",
+        "name",
+        "groundtouch"
+    ],
+    "literals": [
+        "\"ground\""
+    ],
+    "variables": [
+        "GameObject",
+        "ground",
+        "Rigidbody",
+        "rb",
+        "groundtouch"
+    ],
+    "comments": [
+        "private GameObject redCube;",
+        "Use this for initialization",
+        "redCube = GameObject.Find (\"redCube\");",
+        "Update is called once per frame",
+        "when i hit the space key, move the object",
+        "ANYTHING THAT IS UPPERCASE GREEN CAN BE A VARIABLE!",
+        "redCube.transform.localScale = new Vector3 (2,3,1);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update",
+        "OnCollisionEnter"
+    ],
+    "classes": [
+        "ForcePusher"
+    ]
+}

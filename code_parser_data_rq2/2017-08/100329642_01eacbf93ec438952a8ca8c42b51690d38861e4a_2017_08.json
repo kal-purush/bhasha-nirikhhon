@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "require",
+        "lint",
+        "paths",
+        "options"
+    ],
+    "literals": [
+        "'mocha-eslint'",
+        "'bot'",
+        "'test/**/*.js'",
+        "'compact'",
+        "'eslint'"
+    ],
+    "variables": [
+        "lint",
+        "paths",
+        "options"
+    ],
+    "comments": [
+        "Array of paths to lint",
+        "Note: a seperate Mocha test will be run for each path and each file which",
+        "matches a glob pattern",
+        "Specify style of output",
+        "Defaults to `stylish`",
+        "Only display warnings if a test is failing",
+        "Defaults to `true`, always show warnings",
+        "Increase the timeout of the test if linting takes to long",
+        "Defaults to the global mocha `timeout` option",
+        "Increase the time until a test is marked as slow",
+        "Defaults to the global mocha `slow` option",
+        "Consider linting warnings as errors and return failure",
+        "Defaults to `false`, only notify the warnings",
+        "Specify the mocha context in which to run tests",
+        "Defaults to `eslint`, but can be any string",
+        "Run the tests"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

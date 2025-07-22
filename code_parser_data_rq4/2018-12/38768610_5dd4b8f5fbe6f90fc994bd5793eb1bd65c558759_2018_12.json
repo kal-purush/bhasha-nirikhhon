@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "Disk",
+        "get",
+        "disk",
+        "partitionNumber",
+        "getPartitions",
+        "disk"
+    ],
+    "literals": [
+        "'file-disk'",
+        "string",
+        "'mbr'",
+        "'gpt'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @summary Get information from a partition\n * @public\n * @function\n *\n * @param {String|filedisk.Disk} image - image path or filedisk.Disk instance\n * @param {Object} number - partition number\n *\n * @returns {Promise<Object>} partition information\n *\n * @example\n * partitioninfo.get('foo/bar.img', 5)\n * .then (information) ->\n * \tconsole.log(information.offset)\n * \tconsole.log(information.size)\n * \tconsole.log(information.type)\n * \tconsole.log(information.index)",
+        "* @summary Read all partition tables from a disk image recursively.\n * @public\n * @function\n *\n * @description `getPartitions()` returns an Array.\n * `getPartitions(image)[N - 1]` may not be equal to `get(image, N)`\n * For example on a disk with no primary partitions and one extended partition\n * containing a logical one, `getPartitions(image)` would return an array of 2 partitions\n * (the extended then the logical one), `get(image, 1)` would return the extended\n * partition and `get(image, 5)` would return the logical partition. All other\n * numbers would throw an error.\n * Partition numbers for `get(image, N)` are like Linux's `/dev/sdaN`.\n *\n * The array returned by `getPartitions()` contains primary (or extended) partitions\n * first then the logical ones. This is true even if the extended partition is not the\n * last one of the disk image. Order will always be 1, [2, 3, 4, 5, 6, 7] even if\n * the logical partitions 5, 6 and 7 are physically contained in partiton 1, 2 or 3.\n *\n * @param {String|filedisk.Disk} image - image path or filedisk.Disk instance\n * @param {Object} options\n * @param {Number} [options.offset=0] - where the first partition table will be read from, in bytes\n * @param {Boolean} [options.includeExtended=true] - whether to include extended partitions or not (only for MBR partition tables)\n * @param {Boolean} [options.getLogical=true] - whether to include logical partitions or not (only for MBR partition tables)\n *\n * @throws {Error} if there is no such partition\n *\n * @returns {Promise<Object>} partitions information\n *\n * @example\n * partitioninfo.getPartitions('foo/bar.img')\n * .then (information) ->\n * \tconsole.log(information.type)\n * \tfor partition in information.partitions\n * \t\tconsole.log(partition.offset)\n * \t\tconsole.log(partition.size)\n * \t\tconsole.log(partition.type)\n * \t\tconsole.log(partition.index)"
+    ],
+    "functions": [],
+    "classes": []
+}

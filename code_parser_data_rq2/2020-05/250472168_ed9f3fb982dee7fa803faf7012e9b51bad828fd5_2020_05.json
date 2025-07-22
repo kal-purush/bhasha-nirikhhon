@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "json",
+        "sqlalchemy",
+        "create_engine",
+        "sqlalchemy",
+        "orm",
+        "sessionmaker",
+        "host",
+        "db",
+        "user",
+        "pwd",
+        "host",
+        "db",
+        "user",
+        "pwd",
+        "format",
+        "USERNAME",
+        "PASSWORD",
+        "HOSTNAME",
+        "DATABASE",
+        "create_engine",
+        "Db_Uri",
+        "sessionmaker",
+        "bind",
+        "engine",
+        "Session",
+        "session"
+    ],
+    "literals": [
+        "'mysql+mysqlconnector://{}:{}@{}/{}?charset=utf8'",
+        "\"数据库创建成功\""
+    ],
+    "variables": [
+        "HOSTNAME",
+        "DATABASE",
+        "USERNAME",
+        "PASSWORD",
+        "Db_Uri",
+        "engine",
+        "Session",
+        "session"
+    ],
+    "comments": [
+        "连接数据库的方法",
+        "连接数据库",
+        "连接数据库的uri# mysql+pymysql://{用户名}:{密码}@{host}:{port}/{数据库}?charset=utf8",
+        "连接数据库",
+        "创建会话"
+    ],
+    "docstrings": [],
+    "functions": [
+        "connect_db"
+    ],
+    "classes": []
+}

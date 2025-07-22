@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "mash",
+        "mash_exceptions",
+        "MashPublishException",
+        "mash",
+        "services",
+        "mash_job",
+        "MashJob",
+        "mash",
+        "services",
+        "status_levels",
+        "SUCCESS",
+        "MashJob",
+        "job_config",
+        "KeyError",
+        "error",
+        "MashPublishException",
+        "format",
+        "error",
+        "SUCCESS"
+    ],
+    "literals": [
+        "'publish_regions'",
+        "'EC2 MP publish Jobs require a(n) {0} '",
+        "'key in the job doc.'"
+    ],
+    "variables": [
+        "publish_regions",
+        "status"
+    ],
+    "comments": [
+        "Copyright (c) 2022 SUSE LLC.  All rights reserved.",
+        "",
+        "This file is part of mash.",
+        "",
+        "mash is free software: you can redistribute it and/or modify",
+        "it under the terms of the GNU General Public License as published by",
+        "the Free Software Foundation, either version 3 of the License, or",
+        "(at your option) any later version.",
+        "",
+        "mash is distributed in the hope that it will be useful,",
+        "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+        "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+        "GNU General Public License for more details.",
+        "",
+        "You should have received a copy of the GNU General Public License",
+        "along with mash.  If not, see <http://www.gnu.org/licenses/>",
+        ""
+    ],
+    "docstrings": [
+        "\"\"\"\n    Class for an EC2 marketplace publishing job.\n    \"\"\"",
+        "\"\"\"\n        Post initialization method.\n        \"\"\"",
+        "\"\"\"\n        Publish image and update status.\n        \"\"\""
+    ],
+    "functions": [
+        "post_init",
+        "run_job"
+    ],
+    "classes": [
+        "EC2MPPublishJob"
+    ]
+}

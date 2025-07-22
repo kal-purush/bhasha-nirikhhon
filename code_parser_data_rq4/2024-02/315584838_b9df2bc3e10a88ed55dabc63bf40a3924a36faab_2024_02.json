@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "invoke",
+        "task",
+        "tasks",
+        "util",
+        "env",
+        "FAABRIC_EXP_IMAGE_NAME",
+        "tasks",
+        "util",
+        "k8s",
+        "wait_for_pods",
+        "tasks",
+        "util",
+        "openmpi",
+        "deploy_native_mpi",
+        "delete_native_mpi",
+        "get_native_mpi_namespace",
+        "task",
+        "ctx",
+        "backend",
+        "num_vms",
+        "backend",
+        "deploy_native_mpi",
+        "FAABRIC_EXP_IMAGE_NAME",
+        "num_vms",
+        "wait_for_pods",
+        "get_native_mpi_namespace",
+        "RuntimeError",
+        "task",
+        "ctx",
+        "backend",
+        "num_vms",
+        "backend",
+        "delete_native_mpi",
+        "FAABRIC_EXP_IMAGE_NAME",
+        "num_vms",
+        "RuntimeError"
+    ],
+    "literals": [
+        "\"k8s\"",
+        "\"k8s\"",
+        "\"kernels\"",
+        "\"kernels\"",
+        "\"run=faasm-openmpi\"",
+        "\"Compose backend not implemented!\"",
+        "\"k8s\"",
+        "\"k8s\"",
+        "\"kernels\"",
+        "\"Compose backend not implemented!\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Deploy the Kernels native MPI setup to K8s\n    \"\"\"",
+        "\"\"\"\n    Delete the LAMMPS native MPI setup from K8s\n    \"\"\""
+    ],
+    "functions": [
+        "deploy"
+    ],
+    "classes": []
+}

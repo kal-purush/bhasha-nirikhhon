@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "ElectronicColorCode",
+        "IOhmValueCalculator",
+        "bandAColor",
+        "bandBColor",
+        "bandCColor",
+        "bandDColor"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Calculates the Ohm value of a resistor based on the band colors.",
+        "</summary>",
+        "<param name=\"bandAColor\">The color of the first figure of component valueband.</param>",
+        "<param name=\"bandBColor\">The color of the second significant figure band.</param>",
+        "<param name=\"bandCColor\">The color of the decimal multiplier band.</param>",
+        "<param name=\"bandDColor\">The color of the tolerance value band.</param>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "CalculateOhmValue"
+    ],
+    "classes": []
+}

@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "os",
+        "astropy",
+        "table",
+        "Table",
+        "astropy",
+        "io",
+        "ascii",
+        "TableWrapper",
+        "TableWrapper",
+        "table",
+        "in_table_path",
+        "table_template",
+        "table",
+        "in_table_path",
+        "table_template",
+        "table",
+        "isinstance",
+        "table",
+        "Table",
+        "ValueError",
+        "path",
+        "os",
+        "path",
+        "splitext",
+        "path",
+        "ascii",
+        "read",
+        "path",
+        "format",
+        "ext",
+        "replace",
+        "fast_reader",
+        "table",
+        "template",
+        "template",
+        "keys",
+        "template",
+        "values",
+        "Table",
+        "names",
+        "columns",
+        "dtype",
+        "dtypes"
+    ],
+    "literals": [
+        "'Input table is not an astropy table.'",
+        "'.'",
+        "''",
+        "'index'"
+    ],
+    "variables": [
+        "ext",
+        "table",
+        "columns",
+        "dtypes",
+        "table"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"astropy_adx_table.py defines the API class for astropy table that could\ninteract with the general ADX API.\n\"\"\"",
+        "\"\"\" AstropyAdxTable class is the API class for ADX interacting with the\n    astropy table.\n\n    Parameters\n    ----------\n    table : `astropy Table` object, optional.\n        Input astropy table, optional.\n    in_table_path: str, optional.\n        Input table file path.\n    \"\"\"",
+        "\"\"\"Load an ADX table from the path.\n        \"\"\"",
+        "\"\"\"Initial a table from the columns.\n        \"\"\""
+    ],
+    "functions": [
+        "validate",
+        "read_table",
+        "init_table"
+    ],
+    "classes": [
+        "AstropyAdxTable"
+    ]
+}

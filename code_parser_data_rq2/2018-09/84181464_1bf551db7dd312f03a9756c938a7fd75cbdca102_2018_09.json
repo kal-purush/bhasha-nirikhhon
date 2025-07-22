@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "Routable",
+        "isRoutable",
+        "SModelElement",
+        "Action",
+        "Command",
+        "CommandExecutionContext",
+        "CommandResult",
+        "routable",
+        "role",
+        "element",
+        "element",
+        "element",
+        "connectableFeature",
+        "element",
+        "ReconnectCommand",
+        "routableId",
+        "newSourceId",
+        "newTargetId",
+        "Command",
+        "action",
+        "context",
+        "context",
+        "context",
+        "context",
+        "context",
+        "routable",
+        "isRoutable",
+        "routable",
+        "routable",
+        "context",
+        "routable",
+        "context",
+        "routable",
+        "context",
+        "context",
+        "context",
+        "context"
+    ],
+    "literals": [
+        "\"./model\"",
+        "\"../../base/model/smodel\"",
+        "\"../../base/actions/action\"",
+        "\"../../base/commands/command\"",
+        "'connectableFeature'",
+        "'source'",
+        "'target'",
+        "string",
+        "string",
+        "string",
+        "'reconnect'"
+    ],
+    "variables": [
+        "connectableFeature",
+        "routable"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (C) 2018 TypeFox and others.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0"
+    ],
+    "functions": [
+        "isConnectable",
+        "execute",
+        "resolve",
+        "doExecute",
+        "undo",
+        "redo"
+    ],
+    "classes": [
+        "ReconnectAction",
+        "ReconnectCommand"
+    ]
+}

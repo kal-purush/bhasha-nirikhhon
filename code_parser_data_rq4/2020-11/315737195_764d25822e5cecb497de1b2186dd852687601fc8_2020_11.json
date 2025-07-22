@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "camTarget",
+        "Vector2",
+        "Lerp",
+        "transform",
+        "position",
+        "camTarget",
+        "position",
+        "Time",
+        "deltaTime",
+        "trackingSpeed",
+        "Vector3",
+        "newPos",
+        "x",
+        "newPos",
+        "y",
+        "Mathf",
+        "Clamp",
+        "v3",
+        "x",
+        "minX",
+        "maxX",
+        "Mathf",
+        "Clamp",
+        "v3",
+        "y",
+        "minY",
+        "maxY",
+        "transform",
+        "position",
+        "Vector3",
+        "clampX",
+        "clampY"
+    ],
+    "literals": [],
+    "variables": [
+        "Transform",
+        "camTarget",
+        "trackingSpeed",
+        "minX",
+        "minY",
+        "maxX",
+        "maxY",
+        "newPos",
+        "camPosition",
+        "v3",
+        "camPosition",
+        "clampX",
+        "clampY"
+    ],
+    "comments": [
+        "1 the target the camera will track, tracking, speed and the camera’s bounds.",
+        "2 FixedUpdate() is called with every fixed-framerate frame",
+        "the camera will track the player, which will have a RigidBody2D attached to it.",
+        "3 This null check ensures that a valid Transform component was assigned to the camTarget field on the script in the editor.",
+        "4 Vector2.Lerp() performs linear interpolation between two vectors by the third parameter’s value (a value between 0 and 1).",
+        "The rest of the Lerp method ensures that the position calculated is clamped (constrained) to the MinX, MinY, MaxX, and MaxY points."
+    ],
+    "docstrings": [],
+    "functions": [
+        "FixedUpdate"
+    ],
+    "classes": [
+        "CameraLerpToTransform"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "identifiers": [
+        "words",
+        "smashWords"
+    ],
+    "literals": [
+        "'use strict'"
+    ],
+    "variables": [],
+    "comments": [
+        "write code here"
+    ],
+    "docstrings": [
+        "* Implement smashWords function:\n *\n * Function takes an array of words\n * and smashes them together into a sentence and returns the sentence.\n * You can ignore any need to sanitize words or add punctuation,\n * but you should add spaces between each word.\n * Be careful,\n * there shouldn't be a space at the beginning or the end of the sentence!\n * Should return empty string if array is empty.\n *\n * const words = ['hello', 'world', 'this', 'is', 'great'];\n * smashWords(words) ===  'hello world this is great';\n *\n * @param {string[]} words\n *\n * @return {string}"
+    ],
+    "functions": [
+        "smashWords"
+    ],
+    "classes": []
+}

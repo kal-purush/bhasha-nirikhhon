@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "BASE_URL",
+        "login",
+        "args",
+        "fetch",
+        "BASE_URL",
+        "args",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'./const'",
+        "string",
+        "string",
+        "${BASE_URL}/admin/login",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'",
+        "'include'",
+        "'Authorization'",
+        "'Set-Cookie'"
+    ],
+    "variables": [
+        "login",
+        "res"
+    ],
+    "comments": [
+        "return res.ok ? 'success' : 'fail';"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

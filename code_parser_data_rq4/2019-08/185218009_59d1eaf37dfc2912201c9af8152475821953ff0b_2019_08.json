@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "com",
+        "oracle",
+        "weblogic",
+        "imagetool",
+        "util",
+        "WdtOperation",
+        "CREATE",
+        "UPDATE",
+        "DEPLOY",
+        "script",
+        "script",
+        "script",
+        "script",
+        "script"
+    ],
+    "literals": [
+        "\"createDomain.sh\"",
+        "\"updateDomain.sh\"",
+        "\"deployApps.sh\""
+    ],
+    "variables": [
+        "script"
+    ],
+    "comments": [
+        "Copyright 2019, Oracle Corporation and/or its affiliates.  All rights reserved.",
+        "Licensed under the Universal Permissive License v 1.0 as shown at http://oss.oracle.com/licenses/upl."
+    ],
+    "docstrings": [
+        "* Command types for WebLogic Deploy Tooling.\n * See GitHub project - https://github.com/oracle/weblogic-deploy-tooling",
+        "* Get the WDT script to run that maps to this WDT operation.\n     * @return the Unix shell script name for the WDT command."
+    ],
+    "functions": [
+        "WdtOperation",
+        "getScript"
+    ],
+    "classes": []
+}

@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "org",
+        "example",
+        "algo",
+        "java",
+        "util",
+        "java",
+        "util",
+        "java",
+        "util",
+        "java",
+        "util",
+        "edges",
+        "graph",
+        "edge",
+        "edges",
+        "x",
+        "edge",
+        "y",
+        "edge",
+        "graph",
+        "containsKey",
+        "x",
+        "graph",
+        "put",
+        "x",
+        "graph",
+        "get",
+        "x",
+        "add",
+        "y",
+        "graph"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "if (!graph.containsKey(y)) {",
+        "graph.put(y, new ArrayList<>());",
+        "}",
+        "graph.get(y).add(x);",
+        "uncomment the above lines if the graph is undirected"
+    ],
+    "docstrings": [],
+    "functions": [
+        "buildGraph"
+    ],
+    "classes": [
+        "GraphBuilder"
+    ]
+}

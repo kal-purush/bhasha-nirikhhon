@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "sqlite3",
+        "sqlite3",
+        "connect",
+        "conn",
+        "conn",
+        "conn",
+        "execute",
+        "sql",
+        "create_or_get_database",
+        "create_table",
+        "conn"
+    ],
+    "literals": [
+        "'restaurant.db'",
+        "\"Database connected\"",
+        "\"All the tables have been created succesfully\""
+    ],
+    "variables": [
+        "conn",
+        "sql",
+        "conn"
+    ],
+    "comments": [
+        "creando base de datos",
+        "metodo para crear tablas"
+    ],
+    "docstrings": [
+        "'''\n        CREATE TABLE IF NOT EXISTS User (\n            user_id INTEGER PRIMARY KEY AUTOINCREMENT,\n            first_name VARCHAR NOT NULL,\n            last_name VARCHAR NOT NULL,\n            email VARCHAR NOT NULL,\n            phone INTEGER NOT NULL,\n            passowrd VARCHAR NOT NULL,\n            is_loged INTEGER NOT NULL,\n            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP\n        );\n\n        CREATE TABLE IF NOT EXISTS Dish (\n            dish_id INTEGER PRIMARY KEY AUTOINCREMENT,\n            name VARCHAR NOT NULL,\n            description TEXT NOT NULL,\n            price DOUBLE NOT NULL,\n            ingredients VARCHAR NOT NULL,\n            preparation_time INTEGER NOT NULL,\n            ois_available INTEGER NOT NULL,\n            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP\n        );\n\n        CREATE TABLE IF NOT EXISTS Order (\n            order_id INTEGER PRIMARY KEY AUTOINCREMENT,\n            name VARCHAR NOT NULL,\n            notes TEXT,\n            preparation_time INTEGER NOT NULL,\n            total DOUBLE NOT NULL,\n            user_id INTEGER,\n            CONSTRAINT User\n            FOREIGN KEY (user_id)\n            REFERENCES User(user_id),\n            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP\n        );\n\n        CREATE TABLE IF NOT EXISTS Order_Dish (\n            order_dish_id INTEGER PRIMARY KEY AUTOINCREMENT,\n            order_id INTEGER,\n            CONSTRAINT Order\n            FOREIGN KEY (order_id)\n            REFERENCES Order(order_id),\n            dish_id INTEGER,\n            CONSTRAINT Dish\n            FOREIGN KEY (dish_id)\n            REFERENCES Dish(dish_id),\n            timestamp DATETIME DEFAULT CURRENT_TIMESTAMP\n        );\n    '''"
+    ],
+    "functions": [
+        "create_or_get_database",
+        "create_table",
+        "main"
+    ],
+    "classes": []
+}

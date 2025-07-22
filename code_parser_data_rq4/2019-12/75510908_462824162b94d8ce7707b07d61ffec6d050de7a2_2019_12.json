@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "SUPPORT_EMAIL",
+        "email",
+        "subject",
+        "body",
+        "email",
+        "encodeURIComponent",
+        "subject",
+        "encodeURIComponent",
+        "body",
+        "email",
+        "subject",
+        "body",
+        "email",
+        "formatEmail",
+        "email",
+        "subject",
+        "body",
+        "subject",
+        "stackTrace",
+        "formatEmailMarkdown",
+        "SUPPORT_EMAIL",
+        "subject",
+        "stackTrace"
+    ],
+    "literals": [
+        "'v2/config'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}",
+        "string",
+        "string",
+        "string",
+        "string",
+        "[${email}](${formatEmail(email, subject, body)})",
+        "string",
+        "string",
+        "string",
+        "Stack Trace: \\n ${stackTrace}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "formatEmail",
+        "formatEmailMarkdown",
+        "formatErrorEmailMarkdown"
+    ],
+    "classes": []
+}

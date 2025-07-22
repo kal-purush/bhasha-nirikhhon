@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Message",
+        "User",
+        "Command",
+        "CommandoMessage",
+        "Member",
+        "Makibot",
+        "Command",
+        "client",
+        "client",
+        "msg",
+        "msg",
+        "member",
+        "Member",
+        "target",
+        "gm",
+        "karma",
+        "member",
+        "offset",
+        "count",
+        "gm",
+        "msg",
+        "member",
+        "totalKarma",
+        "count",
+        "offset",
+        "currentLevel"
+    ],
+    "literals": [
+        "\"discord.js\"",
+        "\"discord.js-commando\"",
+        "\"../../lib/member\"",
+        "\"../../Makibot\"",
+        "\"karma\"",
+        "\"karma\"",
+        "\"karma\"",
+        "\"Get the karma of a member\"",
+        "\"member\"",
+        "\"user\"",
+        "\"Target\"",
+        "\"karma:offset\"",
+        "\"karma:level\"",
+        "${member.tag} has ${totalKarma} points. (DB = ${count}, Offset = ${offset}, Level = ${currentLevel})"
+    ],
+    "variables": [
+        "karma",
+        "target",
+        "gm",
+        "offset",
+        "count",
+        "totalKarma",
+        "currentLevel"
+    ],
+    "comments": [
+        "Get the pointed member."
+    ],
+    "docstrings": [],
+    "functions": [
+        "run"
+    ],
+    "classes": [
+        "KarmaCommand"
+    ]
+}

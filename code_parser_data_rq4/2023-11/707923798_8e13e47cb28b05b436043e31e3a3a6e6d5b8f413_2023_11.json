@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Extensions",
+        "Logging",
+        "DanielWillett",
+        "ReflectionTools",
+        "IoC",
+        "Ignore",
+        "ILoggerFactory",
+        "loggerFactory",
+        "disposeFactoryOnDispose",
+        "ReflectionToolsLoggerProxy",
+        "loggerFactory",
+        "disposeFactoryOnDispose"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Provides extension methods for <see cref=\"ILoggerFactory\"/>.",
+        "</summary>",
+        "Creates a logger proxy for <see cref=\"Accessor.Logger\"/>",
+        "</summary>",
+        "<param name=\"disposeFactoryOnDispose\">Should <paramref name=\"loggerFactory\"/> be disposed when this object gets disposed?</param>",
+        "<param name=\"loggerFactory\">Factory to create loggers from.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IReflectionToolsLogger",
+        "CreateReflectionToolsLogger"
+    ],
+    "classes": [
+        "LoggerFactoryExtensions"
+    ]
+}

@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "Echo",
+        "LanguageExt",
+        "Echo",
+        "Process",
+        "Echo",
+        "ProcessConfig",
+        "LanguageExt",
+        "Prelude",
+        "SessionIdTest",
+        "args",
+        "RedisCluster",
+        "register",
+        "initialise",
+        "spawn",
+        "Unit",
+        "Name",
+        "Setup",
+        "ignore",
+        "spawn",
+        "WriteLine",
+        "msg",
+        "sessionId",
+        "ProcessFlags",
+        "PersistInbox",
+        "Inbox",
+        "_",
+        "msg",
+        "fwdChild",
+        "Flags",
+        "ProcessFlags",
+        "PersistInbox",
+        "SessionId",
+        "Generate",
+        "withSession",
+        "sid",
+        "sessionId",
+        "tell",
+        "app",
+        "ReadKey",
+        "Key",
+        "ConsoleKey",
+        "Escape"
+    ],
+    "literals": [
+        "\"app\"",
+        "\"session-id-role\"",
+        "\"session-id-node-1\"",
+        "\"localhost\"",
+        "\"0\"",
+        "\"application\"",
+        "\"child\"",
+        "\"child\"",
+        "\"Hello\""
+    ],
+    "variables": [
+        "app",
+        "sid"
+    ],
+    "comments": [
+        "This test app shows how you can use your own session keys with the Process system",
+        "By calling withSession you create a context where the session ID is set.  If you",
+        "tell or ask a message during that time the session ID will travel with the messages.",
+        "",
+        "If a Process receives a message with a session ID attached, then the session ID will",
+        "be in context for the duration of the Process's message function.",
+        "",
+        "NOTE: This is side-stepping the built-in session management system, and is simply",
+        "moving session IDs around with the messages.  If you want full session management",
+        "use sessionStart.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "Main"
+    ],
+    "classes": [
+        "Program"
+    ]
+}

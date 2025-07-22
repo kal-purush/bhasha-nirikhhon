@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "sympy",
+        "symbols",
+        "sympy",
+        "solvers",
+        "diophantine",
+        "diophantine",
+        "diop_linear",
+        "n",
+        "symbols",
+        "i",
+        "n",
+        "equation",
+        "i",
+        "symbols",
+        "i",
+        "equation",
+        "n",
+        "equation",
+        "digits",
+        "diophanineEquation",
+        "digits",
+        "diop_linear",
+        "equation",
+        "solutions",
+        "solutions",
+        "split",
+        "solution",
+        "i",
+        "findNumber",
+        "i",
+        "number",
+        "i",
+        "number",
+        "i"
+    ],
+    "literals": [
+        "\"a0\"",
+        "f\"a{i+1}\"",
+        "\" + \"",
+        "\"__main__\"",
+        "f\"Found solution with {i} digits: {number}\"",
+        "f\"No solution with {i} digits exists.\""
+    ],
+    "variables": [
+        "equation",
+        "equation",
+        "equation",
+        "solutions",
+        "solution",
+        "number"
+    ],
+    "comments": [
+        "The idea is to write X = a_0 + 10a_1 + 100a_2 + ... + 10^n a_n.",
+        "This allows us to reformulate 99X = 1X1 as the linear diophantine equation,",
+        "89a_0 + 890a_1 + 8900a_2 + ... + 89*10^n*a_n - 10^(n+2)+1 = 0,",
+        "which can be solved using the sympy library.",
+        "get the equation for n digits",
+        "find the solutions to the diophantine equation",
+        "go through the first 100 digits and look for solutions"
+    ],
+    "docstrings": [],
+    "functions": [
+        "diophanineEquation",
+        "findNumber"
+    ],
+    "classes": []
+}

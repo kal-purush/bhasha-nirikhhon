@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "frame",
+        "application",
+        "application",
+        "application",
+        "intent",
+        "application",
+        "activity",
+        "activity",
+        "application",
+        "application",
+        "args",
+        "setTimeout",
+        "application",
+        "application"
+    ],
+    "literals": [
+        "\"ui/frame\"",
+        "\"application\"",
+        "\"onLaunch\"",
+        "\"onStarted\"",
+        "\"launch\"",
+        "\"pages/startPage\""
+    ],
+    "variables": [],
+    "comments": [
+        "TODO: It would be nice if this was ios-specific property on the action bar and static property on application.ios.",
+        "UIApplication.sharedApplication().statusBarStyle = UIStatusBarStyle.UIStatusBarStyleLightContent;",
+        "UIApplication.sharedApplication().keyWindow.backgroundColor = UIColor.blackColor();",
+        "application.mainModule = \"profile-main\";"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "to",
+        "message",
+        "localStorage",
+        "to",
+        "message",
+        "localStorage",
+        "ev",
+        "me",
+        "send",
+        "ev",
+        "ev",
+        "blob",
+        "blob",
+        "me",
+        "blob",
+        "blob",
+        "send",
+        "blob"
+    ],
+    "literals": [
+        "'broadcast'",
+        "\"to\"",
+        "\"send\"",
+        "'broadcast'",
+        "'broadcast'",
+        "'to'",
+        "'to'",
+        "'all'",
+        "'send'",
+        "'send'"
+    ],
+    "variables": [
+        "blob"
+    ],
+    "comments": [
+        "idea from https://stackoverflow.com/questions/28230845/communication-between-tabs-or-windows",
+        "",
+        "use local storage for messaging. Set message in local storage and clear it right away",
+        "This is a safe way how to communicate with other tabs while not leaving any traces",
+        "receive message",
+        "",
+        "ignore other keys",
+        "ignore empty msg or msg reset",
+        "can add different actions here"
+    ],
+    "docstrings": [],
+    "functions": [
+        "broadcast",
+        "receive_broadcast"
+    ],
+    "classes": []
+}

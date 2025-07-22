@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "Migration",
+        "Migration"
+    ],
+    "literals": [
+        "\"@mikro-orm/migrations\"",
+        "'alter table if exists \"return_item\" add column if not exists \"damaged_quantity\" numeric not null default 0, add column if not exists \"raw_damaged_quantity\" jsonb not null;'",
+        "'alter table if exists \"return_item\" drop column if exists \"damaged_quantity\";'",
+        "'alter table if exists \"return_item\" drop column if exists \"raw_damaged_quantity\";'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "Migration20240827133639"
+    ]
+}

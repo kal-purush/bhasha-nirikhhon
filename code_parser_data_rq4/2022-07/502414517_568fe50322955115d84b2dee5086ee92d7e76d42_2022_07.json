@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "printWarning",
+        "storeName",
+        "printWarning",
+        "storeName",
+        "printWarning",
+        "storeName",
+        "printWarning",
+        "storeName",
+        "printWarning",
+        "storeName",
+        "storeName",
+        "commandName",
+        "storeName",
+        "commandName"
+    ],
+    "literals": [
+        "\"string\"",
+        "\"function\"",
+        "\"hget\"",
+        "\"function\"",
+        "\"hset\"",
+        "\"function\"",
+        "\"hdel\"",
+        "\"function\"",
+        "\"hgetall\"",
+        "\"function\"",
+        "\"hkeys\"",
+        "string",
+        "string",
+        "This store '${storeName}' does not support ${commandName}. Note that calling it will not work correctly."
+    ],
+    "variables": [
+        "storeName"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "patchMoreCommands",
+        "printWarning"
+    ],
+    "classes": []
+}

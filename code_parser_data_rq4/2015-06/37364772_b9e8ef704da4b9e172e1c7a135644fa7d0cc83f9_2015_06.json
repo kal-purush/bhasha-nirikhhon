@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "js_source_text",
+        "options"
+    ],
+    "literals": [
+        "string",
+        "\"indent_size\"",
+        "\"indent_char\"",
+        "string",
+        "\"preserve_newlines\"",
+        "\"max_preserve_newlines\"",
+        "\"jslint_happy\"",
+        "\"brace_style\"",
+        "string",
+        "\"space_before_conditional\"",
+        "\"unescape_strings\"",
+        "\"wrap_line_length\""
+    ],
+    "variables": [
+        "define",
+        "exports",
+        "js_beautify"
+    ],
+    "comments": [
+        "The MIT License (MIT)\n\n  Copyright (c) 2007-2013 Einar Lielmanis and contributors.\n\n  Permission is hereby granted, free of charge, to any person\n  obtaining a copy of this software and associated documentation files\n  (the \"Software\"), to deal in the Software without restriction,\n  including without limitation the rights to use, copy, modify, merge,\n  publish, distribute, sublicense, and/or sell copies of the Software,\n  and to permit persons to whom the Software is furnished to do so,\n  subject to the following conditions:\n\n  The above copyright notice and this permission notice shall be\n  included in all copies or substantial portions of the Software.\n\n  THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND,\n  EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\n  MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n  NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS\n  BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN\n  ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\n  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\n  SOFTWARE.\n\n JS Beautifier\n---------------\n\n\n  Written by Einar Lielmanis, <einar@jsbeautifier.org>\n      http://jsbeautifier.org/\n\n  Originally converted to javascript by Vital, <vital76@gmail.com>\n  \"End braces on own line\" added by Chris J. Shull, <chrisjshull@gmail.com>\n  Parsing improvements for brace-less statements by Liam Newman <bitwiseman@gmail.com>\n\n\n  Usage:\n    js_beautify(js_source_text);\n    js_beautify(js_source_text, options);\n\n  The options are:\n    indent_size (default 4)          - indentation size,\n    indent_char (default space)      - character to indent with,\n    preserve_newlines (default true) - whether existing line breaks should be preserved,\n    max_preserve_newlines (default unlimited) - maximum number of line breaks to be preserved in one chunk,\n\n    jslint_happy (default false) - if true, then jslint-stricter mode is enforced.\n\n            jslint_happy       !jslint_happy\n            ---------------------------------\n            function ()        function ()\n\n    brace_style (default \"collapse\") - \"collapse\" | \"expand\" | \"end-expand\"\n            put braces on the same line as control statements (default), or put braces on own line (Allman / ANSI style), or just put end braces on own line.\n\n    space_before_conditional (default true) - should the space before conditional statement be added, \"if (true)\" vs \"if (true)\",\n\n    unescape_strings (default false) - should printable characters in strings encoded in \\xNN notation be unescaped, \"example\" vs \"\\x65\\x78\\x61\\x6d\\x70\\x6c\\x65\"\n\n    wrap_line_length (default unlimited) - lines should wrap at next opportunity after this number of characters.\n          NOTE: This is not a hard limit. Lines will continue until a point where a newline would\n                be preserved if it were present.\n\n    e.g\n\n    js_beautify(js_source_text, {\n      'indent_size': 1,\n      'indent_char': '\\t'\n    });"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "cors",
+        "express",
+        "ApolloServer",
+        "gql",
+        "express",
+        "gql",
+        "ApolloServer",
+        "schema",
+        "server",
+        "app",
+        "req",
+        "res",
+        "res",
+        "app",
+        "port"
+    ],
+    "literals": [
+        "\"cors\"",
+        "\"express\"",
+        "\"apollo-server-express\"",
+        "type Query {\n    me: User\n  }\n  type User {\n    username: String!\n  }",
+        "\"Robin Wieruch\"",
+        "\"/graphql\"",
+        "\"/api\"",
+        "\"ok\"",
+        "Apollo Server on http://localhost:${port}/graphql"
+    ],
+    "variables": [
+        "app",
+        "schema",
+        "resolvers",
+        "server",
+        "port"
+    ],
+    "comments": [
+        "app.use(cors);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "io",
+        "github",
+        "kbuntrock",
+        "utils",
+        "clazz",
+        "typeName",
+        "required",
+        "clazz",
+        "clazz",
+        "clazz",
+        "typeName",
+        "typeName",
+        "typeName",
+        "typeName",
+        "required",
+        "required",
+        "required",
+        "required"
+    ],
+    "literals": [],
+    "variables": [
+        "clazz",
+        "typeName",
+        "required"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Represent an \"unwrapping\" entry (ex: java.util.Optional is unwrapped to its property \"T value\")\n *\n * @author Kévin Buntrock",
+        "* Class to unwrap",
+        "* Name of the generic type to unwrap (ex: T in java.util.Optional)",
+        "* Can be null if not relevant for the entry"
+    ],
+    "functions": [
+        "UnwrappingEntry",
+        "getTypeName",
+        "setTypeName",
+        "getRequired",
+        "setRequired"
+    ],
+    "classes": [
+        "UnwrappingEntry"
+    ]
+}

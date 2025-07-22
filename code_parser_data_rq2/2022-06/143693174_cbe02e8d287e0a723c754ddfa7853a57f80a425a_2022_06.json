@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "TencentCloud",
+        "Monitor",
+        "V20180724",
+        "Models",
+        "Newtonsoft",
+        "Json",
+        "Collections",
+        "Generic",
+        "TencentCloud",
+        "Common",
+        "AbstractModel",
+        "JsonProperty",
+        "JsonProperty",
+        "JsonProperty",
+        "JsonProperty",
+        "prefix",
+        "SetParamSimple",
+        "prefix",
+        "Name",
+        "SetParamSimple",
+        "prefix",
+        "Group",
+        "SetParamSimple",
+        "prefix",
+        "InstanceId",
+        "SetParamSimple",
+        "prefix",
+        "RuleState"
+    ],
+    "literals": [
+        "\"Name\"",
+        "\"Group\"",
+        "\"InstanceId\"",
+        "\"RuleState\"",
+        "\"Name\"",
+        "\"Group\"",
+        "\"InstanceId\"",
+        "\"RuleState\""
+    ],
+    "variables": [
+        "Name",
+        "Group",
+        "InstanceId",
+        "RuleState"
+    ],
+    "comments": [
+        "聚合规则名称",
+        "</summary>",
+        "聚合规则组内容，格式为 yaml",
+        "</summary>",
+        "Prometheus 实例 ID",
+        "</summary>",
+        "规则状态码，取值如下：",
+        "<li>1=RuleDeleted</li>",
+        "<li>2=RuleEnabled</li>",
+        "<li>3=RuleDisabled</li>",
+        "默认状态码为 2 启用。",
+        "</summary>",
+        "For internal usage only. DO NOT USE IT.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "* Copyright (c) 2018 THL A29 Limited, a Tencent company. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing,\n * software distributed under the License is distributed on an\n * \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n * KIND, either express or implied.  See the License for the\n * specific language governing permissions and limitations\n * under the License.",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "ToMap"
+    ],
+    "classes": [
+        "CreateRecordingRuleRequest"
+    ]
+}

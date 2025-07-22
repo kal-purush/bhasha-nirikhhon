@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "Client",
+        "GatewayIntentBits",
+        "client",
+        "Events",
+        "readyClient",
+        "readyClient",
+        "client",
+        "process"
+    ],
+    "literals": [
+        "'dotenv'",
+        "'discord.js'",
+        "Ready! Logged in as ${readyClient.user.tag}"
+    ],
+    "variables": [
+        "client"
+    ],
+    "comments": [
+        "Require the necessary discord.js classes",
+        "Create a new client instance",
+        "When the client is ready, run this code (only once).",
+        "The distinction between `client: Client<boolean>` and `readyClient: Client<true>` is important for TypeScript developers.",
+        "It makes some properties non-nullable.",
+        "Log in to Discord with your client's token"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

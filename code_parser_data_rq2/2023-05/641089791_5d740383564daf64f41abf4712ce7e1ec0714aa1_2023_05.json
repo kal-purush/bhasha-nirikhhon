@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "require",
+        "buildNextEslintCommand",
+        "filenames",
+        "filenames",
+        "f",
+        "path",
+        "path",
+        "f",
+        "checkTypesNextCommand",
+        "buildHardhatEslintCommand",
+        "filenames",
+        "filenames",
+        "f",
+        "path",
+        "path",
+        "f",
+        "buildNextEslintCommand",
+        "checkTypesNextCommand",
+        "buildHardhatEslintCommand"
+    ],
+    "literals": [
+        "\"path\"",
+        "yarn next:lint --fix --file ${filenames\n    .map((f) => path.relative(path.join(\"packages\", \"nextjs\"), f))\n    .join(\" --file \")}",
+        "\"packages\"",
+        "\"nextjs\"",
+        "\" --file \"",
+        "\"yarn next:check-types\"",
+        "yarn hardhat:lint-staged --fix ${filenames\n    .map((f) => path.relative(path.join(\"packages\", \"hardhat\"), f))\n    .join(\" \")}",
+        "\"packages\"",
+        "\"hardhat\"",
+        "\" \"",
+        "\"packages/nextjs/**/*.{ts,tsx}\"",
+        "\"packages/hardhat/**/*.{ts,tsx}\""
+    ],
+    "variables": [
+        "path",
+        "buildNextEslintCommand",
+        "checkTypesNextCommand",
+        "buildHardhatEslintCommand"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Timing",
+        "settings",
+        "settings",
+        "settings",
+        "timing",
+        "timingNum",
+        "timing",
+        "name",
+        "timingNum",
+        "settings",
+        "settings",
+        "QRSettings",
+        "Timing",
+        "generateQRData"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "';'",
+        "'.'",
+        "':'",
+        "'-'",
+        "${name}:${timingNum}:${settings.gap}:${settings.amount}"
+    ],
+    "variables": [
+        "name",
+        "timingNum"
+    ],
+    "comments": [
+        "sanitize"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generateQRData"
+    ],
+    "classes": []
+}

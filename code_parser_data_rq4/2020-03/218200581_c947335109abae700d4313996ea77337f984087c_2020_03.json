@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "axios",
+        "AxiosResponse",
+        "Eventing",
+        "Attributes",
+        "Sync",
+        "Attributes",
+        "Eventing",
+        "Sync",
+        "data",
+        "url",
+        "update",
+        "update",
+        "eventName",
+        "callback",
+        "eventName",
+        "callback",
+        "eventName",
+        "eventName",
+        "response",
+        "response",
+        "response",
+        "response"
+    ],
+    "literals": [
+        "'axios'",
+        "'./Eventing'",
+        "'./Attributes'",
+        "'./Sync'",
+        "string",
+        "string",
+        "'Model constructor'",
+        "save ${this.data.id} ${response.status}"
+    ],
+    "variables": [],
+    "comments": [
+        "get = <K extends keyof T>(prop: K): T[K] => {",
+        "return this.attributes.get(prop);",
+        "};"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Model"
+    ]
+}

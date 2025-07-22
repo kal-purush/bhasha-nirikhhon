@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "require",
+        "agentStatusUrl",
+        "msgHistDomain",
+        "accountId",
+        "consumerConversationsUrl",
+        "msgHistDomain",
+        "accountId",
+        "options",
+        "options",
+        "options",
+        "options",
+        "agentId",
+        "cb",
+        "agentStatusUrl",
+        "request",
+        "url",
+        "agentId",
+        "err",
+        "response",
+        "body",
+        "response",
+        "response",
+        "response",
+        "response",
+        "cb",
+        "err",
+        "authError",
+        "body",
+        "body",
+        "consumerId",
+        "cb",
+        "consumerConversationsUrl",
+        "request",
+        "url",
+        "consumerId",
+        "err",
+        "response",
+        "body",
+        "response",
+        "response",
+        "response",
+        "response",
+        "cb",
+        "err",
+        "authError",
+        "body",
+        "MsgHistoryClient"
+    ],
+    "literals": [
+        "'request'",
+        "https://${msgHistDomain}/messaging_history/api/account/${accountId}/agent-view/status",
+        "https://${msgHistDomain}/messaging_history/api/account/${accountId}/conversations/consumer/search?offset=0&limit=10",
+        "'Authorization'",
+        "'Bearer '",
+        "'Authorization'",
+        "'Bearer '"
+    ],
+    "variables": [
+        "request",
+        "agentStatusUrl",
+        "consumerConversationsUrl",
+        "url",
+        "authError",
+        "url",
+        "authError"
+    ],
+    "comments": [
+        "authError = new SDKError('session unauthorized', 401);",
+        "authError = new SDKError('session unauthorized', 401);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getAgentStatus",
+        "getConsumerConversations"
+    ],
+    "classes": [
+        "MsgHistoryClient"
+    ]
+}

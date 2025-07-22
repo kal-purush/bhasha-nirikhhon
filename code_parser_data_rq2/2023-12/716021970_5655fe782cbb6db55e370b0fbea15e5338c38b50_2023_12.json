@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "globSync",
+        "path",
+        "globSync",
+        "iconFiles",
+        "filePath",
+        "path",
+        "filePath",
+        "path",
+        "fileName",
+        "path",
+        "filePath",
+        "collectionMqp",
+        "dirnames",
+        "dirnames",
+        "resIcons",
+        "collectionName",
+        "fileNameWithoutExt",
+        "resIcons"
+    ],
+    "literals": [
+        "'glob'",
+        "'path'",
+        "'ot'",
+        "'menu'",
+        "'context-menu'",
+        "'cm'",
+        "'src/assets/icons/**/*.svg'",
+        "'\\\\'",
+        "i-${collectionName}-${fileNameWithoutExt}"
+    ],
+    "variables": [
+        "collectionMqp",
+        "iconFiles",
+        "resIcons",
+        "fileName",
+        "fileNameWithoutExt",
+        "dirnames",
+        "collectionName"
+    ],
+    "comments": [
+        "获取文件名，包括后缀",
+        "获取去除后缀的文件名"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getIcons"
+    ],
+    "classes": []
+}

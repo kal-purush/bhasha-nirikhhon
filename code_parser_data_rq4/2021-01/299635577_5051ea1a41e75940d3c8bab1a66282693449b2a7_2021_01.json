@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "theme",
+        "styled",
+        "theme",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled"
+    ],
+    "literals": [
+        "'styled-components'",
+        "padding: 3rem 2rem;",
+        "display: flex;\n  justify-content: space-between;\n  align-items: center;\n\n  > .title {\n    font-style: normal;\n    font-weight: 500;\n    font-size: 2.4rem;\n    line-height: 2.8rem;\n    color: ${({ theme }) => theme.colors.textColor};\n  }",
+        "cursor: pointer;\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  width: 19rem;\n  height: 4.4rem;\n  padding: 0.8rem;\n\n  background: rgba(196, 196, 196, 0.2);\n  border-radius: 0.4rem;\n\n  > select {\n    cursor: pointer;\n    flex: 1;\n    height: 100%;\n    border: 0;\n    background-color: transparent;\n    text-align: center; /* para firefox */\n    text-align-last: center; /* para chrome */\n    font-size: 2rem;\n    color: ${({ theme }) => theme.colors.textColor};\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    text-indent: 1px;\n    text-overflow: '';\n  }",
+        "border: 1px solid #000;",
+        "border: 1px solid red;",
+        "",
+        "border: 1px solid green;",
+        ""
+    ],
+    "variables": [
+        "Container",
+        "Header",
+        "Filter",
+        "ListSalesContainer",
+        "LabelContainer",
+        "LabelItems",
+        "SalesContainer",
+        "Item"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

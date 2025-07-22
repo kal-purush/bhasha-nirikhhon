@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "re",
+        "iterm2_dwim",
+        "logger",
+        "log",
+        "path",
+        "text_after",
+        "re",
+        "sub",
+        "path",
+        "re",
+        "match",
+        "text_after",
+        "re",
+        "match",
+        "text_after",
+        "re",
+        "match",
+        "text_after",
+        "match",
+        "log",
+        "path",
+        "log",
+        "path",
+        "log",
+        "text_after",
+        "match",
+        "groups",
+        "line",
+        "log",
+        "path",
+        "line",
+        "path",
+        "line"
+    ],
+    "literals": [
+        "'\\.pyc$'",
+        "'.py'",
+        "r'[^\"]*\", line (\\d+).*'",
+        "r'[^(]*\\((\\d+)\\).*'",
+        "r'[^:]*:(\\d+):\\d+:[^:]*'",
+        "'%s (no line number)'",
+        "'%s:%d'"
+    ],
+    "variables": [
+        "path",
+        "match",
+        "line",
+        "line",
+        "line"
+    ],
+    "comments": [
+        "python stack trace, e.g.",
+        "File \"/path/to/somefile.py\", line 336, in some_function",
+        "ipdb stack trace",
+        "> /path/to/somefile.py(336)some_function()",
+        "Fails for",
+        "/home/dan/nfs-share/website/counsyl/product/data_entry/tests/__init__.py(1005)assertKey()",
+        "counsyl/product/api/utils/fake.py:18:1:"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_path_and_line"
+    ],
+    "classes": []
+}

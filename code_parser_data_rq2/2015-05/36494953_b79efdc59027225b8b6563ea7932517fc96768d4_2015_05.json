@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "ue",
+        "ue",
+        "ue",
+        "files",
+        "svg",
+        "svg",
+        "SVGLength",
+        "ev",
+        "ev",
+        "targ",
+        "targ",
+        "ev",
+        "targ",
+        "ev"
+    ],
+    "literals": [
+        "'#foo'",
+        "string",
+        "'input[type=file]'",
+        "\"bar\"",
+        "'a'",
+        "'mousemove'",
+        "'movable'",
+        "'px'",
+        "'px'"
+    ],
+    "variables": [
+        "ue",
+        "cls",
+        "files",
+        "fname",
+        "nh",
+        "svg",
+        "vp",
+        "href",
+        "targ"
+    ],
+    "comments": [
+        "<reference path=\"lib.es6.d.ts\" />",
+        "UniversalElement",
+        "from Element",
+        "from HTMLElement",
+        "from HTMLMediaElement",
+        "from HTMLInputElement",
+        "from HTMLImageElement",
+        "from SVGElement",
+        "from SVGLineElement",
+        "type of href from HTMLAnchorElement becomes \"any\" because of type confliction with SVGElements",
+        "UIEvent::target is UniversalUIEventTarget, which extends UniversalElement, Document, and Window"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "gql",
+        "gql",
+        "gql",
+        "gql"
+    ],
+    "literals": [
+        "'graphql-tag'",
+        "mutation($email: String!, $password: String!) {\n    logIn(email: $email, password: $password) {\n      id\n      token\n    }\n}",
+        "mutation SIGNUP_MUTATION(\n    $name: String!\n    $email: String!\n    $password: String!\n  ) {\n    signUp(name: $name, email: $email, password: $password) {\n      id\n      token\n    }\n  }",
+        "mutation {\n    logOut {\n      message\n    }\n  }"
+    ],
+    "variables": [
+        "LOGIN_MUTATION",
+        "SIGNUP_MUTATION",
+        "LOGOUT_MUTATION"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "com",
+        "codeup",
+        "models",
+        "javax",
+        "persistence",
+        "java",
+        "util",
+        "Entity",
+        "Table",
+        "name",
+        "Id",
+        "GeneratedValue",
+        "strategy",
+        "GenerationType",
+        "IDENTITY",
+        "id",
+        "Column",
+        "nullable",
+        "username",
+        "Column",
+        "nullable",
+        "email",
+        "Column",
+        "nullable",
+        "password",
+        "OneToMany",
+        "posts",
+        "id",
+        "id",
+        "id",
+        "id",
+        "username",
+        "username",
+        "username",
+        "username",
+        "email",
+        "email",
+        "email",
+        "email",
+        "password",
+        "password",
+        "password",
+        "password"
+    ],
+    "literals": [
+        "\"users\""
+    ],
+    "variables": [
+        "id",
+        "username",
+        "email",
+        "password",
+        "posts"
+    ],
+    "comments": [
+        "aka: one user may have many posts",
+        "--------------------------"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getId",
+        "setId",
+        "getUsername",
+        "setUsername",
+        "getEmail",
+        "setEmail",
+        "getPassword",
+        "setPassword"
+    ],
+    "classes": [
+        "User"
+    ]
+}

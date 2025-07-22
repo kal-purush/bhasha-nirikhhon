@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "cookies",
+        "cookies",
+        "cookieStore",
+        "fetch",
+        "res",
+        "res",
+        "res",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "\"use server\"",
+        "\"next/headers\"",
+        "string",
+        "\"jwt\"",
+        "\"http://auth-srv:3000/api/users/currentuser\"",
+        "\"POST\"",
+        "\"include\"",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "HTTP error! status: ${res.status}",
+        "\"Failed to fetch current user:\""
+    ],
+    "variables": [
+        "cookieStore",
+        "jwtCookie",
+        "res"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getCurrentUser"
+    ],
+    "classes": []
+}

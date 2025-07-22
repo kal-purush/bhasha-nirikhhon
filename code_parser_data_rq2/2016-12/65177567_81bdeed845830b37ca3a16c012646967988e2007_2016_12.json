@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "com",
+        "cyxd",
+        "bog",
+        "dao",
+        "BaseDao",
+        "bean",
+        "bean",
+        "bean",
+        "bean"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "@InsertProvider(type = SqlProvider.class, method = \"insert\")",
+        "@Options(useGeneratedKeys = true)",
+        "@DeleteProvider(type = SqlProvider.class, method = \"delete\")",
+        "@UpdateProvider(type = SqlProvider.class, method = \"update\")",
+        "@SelectProvider(type = SqlProvider.class, method = \"findFirst\")"
+    ],
+    "docstrings": [],
+    "functions": [
+        "insert",
+        "update",
+        "T",
+        "findFirst"
+    ],
+    "classes": []
+}

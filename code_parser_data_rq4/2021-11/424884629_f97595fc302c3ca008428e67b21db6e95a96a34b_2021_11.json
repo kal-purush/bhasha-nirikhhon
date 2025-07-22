@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "random",
+        "shuffle",
+        "myList",
+        "shuffle",
+        "myList",
+        "myList",
+        "guess",
+        "input",
+        "guess",
+        "mylist",
+        "guess",
+        "mylist",
+        "guess",
+        "mylist",
+        "shuffle_list",
+        "mylist",
+        "player_guess",
+        "check_guess",
+        "mixedup_list",
+        "guess"
+    ],
+    "literals": [
+        "\" \"",
+        "\"O\"",
+        "\" \"",
+        "\"\"",
+        "\"0\"",
+        "\"1\"",
+        "\"2\"",
+        "\"Pick a number between 0 and 2: \"",
+        "\"O\"",
+        "\"Correct!\"",
+        "\"Wrong guess!\""
+    ],
+    "variables": [
+        "mylist",
+        "guess",
+        "guess",
+        "mixedup_list",
+        "guess"
+    ],
+    "comments": [
+        "! /usr/bin/env python3",
+        "INITIAL LIST",
+        "FUNCTIONS",
+        "SHUFFLE LIST",
+        "USER GUESS",
+        "CHECK GUESS",
+        "Here two functions will interact with each other",
+        "within another function"
+    ],
+    "docstrings": [
+        "'''\n    This function shuffles mylist, so that the\n    index of \"O\" is always different.\n    '''",
+        "'''\n    This function lets the user guess the index\n    of \"O\" and stores their guess.\n    '''",
+        "'''\n    This function compares the index of \"O\"\n    with the user's guess, showing the result.\n    '''"
+    ],
+    "functions": [
+        "shuffle_list",
+        "player_guess",
+        "check_guess"
+    ],
+    "classes": []
+}

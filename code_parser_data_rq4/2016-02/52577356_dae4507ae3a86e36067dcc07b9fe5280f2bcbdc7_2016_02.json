@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Data",
+        "Common",
+        "Microsoft",
+        "Practices",
+        "EnterpriseLibrary",
+        "Data",
+        "Entero_Stock",
+        "database",
+        "SetDatabases",
+        "database",
+        "DatabaseFactory",
+        "CreateDatabase",
+        "database",
+        "database"
+    ],
+    "literals": [
+        "\"myDB\""
+    ],
+    "variables": [
+        "Database",
+        "database",
+        "Database",
+        "Database"
+    ],
+    "comments": [
+        "string db = \"Data Source = 192.168.0.129; Initial Catalog = db_Entero_Stock; Integrated Security = True; Connect Timeout = 15; Encrypt = False; TrustServerCertificate = False; ApplicationIntent = ReadWrite; MultiSubnetFailover = False\";",
+        "database = DatabaseFactory.CreateDatabase(\"myDB\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Database",
+        "SetDatabases"
+    ],
+    "classes": [
+        "Connection"
+    ]
+}

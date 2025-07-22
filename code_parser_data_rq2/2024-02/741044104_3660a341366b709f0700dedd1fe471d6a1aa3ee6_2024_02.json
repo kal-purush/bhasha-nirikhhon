@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "StyledIntersectionElementProps",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "\"left\"",
+        "\"top\"",
+        "\"right\"",
+        "\"bottom\"",
+        "transform: ${(props) =>\n    props.$animationSide == \"left\"\n      ? \"translateX(-20%)\"\n      : props.$animationSide == \"right\"\n      ? \"translateX(20%)\"\n      : props.$animationSide == \"top\"\n      ? \"translateY(-20%)\"\n      : props.$animationSide == \"bottom\"\n      ? \"translateY(20%)\"\n      : \"\"};\n  filter: blur(5px);\n  opacity: 0;\n  transition: 0.7s ease-out;\n\n  &.show {\n    transform: translateX(0);\n    filter: blur(0);\n    opacity: 1;\n  }",
+        "\"left\"",
+        "\"translateX(-20%)\"",
+        "\"right\"",
+        "\"translateX(20%)\"",
+        "\"top\"",
+        "\"translateY(-20%)\"",
+        "\"bottom\"",
+        "\"translateY(20%)\"",
+        "\"\""
+    ],
+    "variables": [
+        "StyledIntersectionElement"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

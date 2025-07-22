@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "body",
+        "color1",
+        "color2",
+        "body",
+        "h3",
+        "body",
+        "body",
+        "color1",
+        "color2",
+        "h3",
+        "body",
+        "color1",
+        "setGradient",
+        "color2",
+        "setGradient"
+    ],
+    "literals": [
+        "\"h3\"",
+        "\".color1\"",
+        "\".color2\"",
+        "\"gradient\"",
+        "\"linear-gradient(to right, \"",
+        "\", \"",
+        "\")\"",
+        "\"linear-gradient(to right, \"",
+        "\", \"",
+        "\")\"",
+        "\";\"",
+        "\"input\"",
+        "\"input\""
+    ],
+    "variables": [
+        "h3",
+        "color1",
+        "color2",
+        "body"
+    ],
+    "comments": [
+        "var initialColor1 = document.querySelector(\".color1.value\") -- wrong",
+        "var initialColor2 = document.querySelector(\".color2.value\") -- wrong",
+        "--------------- before creating function setGradient ------------------------------",
+        "color1.addEventListener(\"input\", function() {",
+        "body.style.background =",
+        "\"linear-gradient(to right, \"",
+        "+ color1.value",
+        "+ \", \"",
+        "+ color2.value",
+        "+ \")\";",
+        "})",
+        "color2.addEventListener(\"input\", function() {",
+        "body.style.background =",
+        "\"linear-gradient(to right, \"",
+        "+ color1.value",
+        "+ \", \"",
+        "+ color2.value",
+        "+ \")\";",
+        "})"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setGradient"
+    ],
+    "classes": []
+}

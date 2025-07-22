@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "Component",
+        "Component",
+        "alert"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'hello'",
+        "<fieldset>\n  <h2>Hello {{name}}, from inline template.</h2><br/>\n  <input [(ngModel)]=\"name\"  type=\"text\"/>\n  <button type=\"button\" (click)=\"clickHandler()\">Click Me!</button>\n</fieldset>",
+        "string",
+        "\"<your name>\"",
+        "'Bingo!'"
+    ],
+    "variables": [],
+    "comments": [
+        "annotations come from TS",
+        "templateUrl: './templates/hello.html',",
+        "classes come from es6"
+    ],
+    "docstrings": [],
+    "functions": [
+        "clickHandler"
+    ],
+    "classes": [
+        "HelloComponent"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "identifiers": [
+        "chalk",
+        "process",
+        "message",
+        "process",
+        "message",
+        "message",
+        "chalk",
+        "arrowSymbol",
+        "message",
+        "message",
+        "chalk",
+        "message",
+        "message",
+        "chalk",
+        "message",
+        "message",
+        "messageBody",
+        "message",
+        "chalk",
+        "messageTitle",
+        "chalk",
+        "messageBody",
+        "message",
+        "chalk",
+        "message",
+        "loggerInstance",
+        "loggerInstance",
+        "Logger",
+        "loggerInstance"
+    ],
+    "literals": [
+        "'chalk'",
+        "'win32'",
+        "'→'",
+        "'➜'",
+        "string",
+        "string",
+        "${ arrowSymbol } ${ message }",
+        "string",
+        "string",
+        "WARNING: ${ message }",
+        "string",
+        "string",
+        "'\\n'",
+        "ERROR: ${ messageTitle }",
+        "${ messageBody.join( '\\n       ' ) }",
+        "'\\n       '",
+        "string",
+        "''"
+    ],
+    "variables": [
+        "arrowSymbol",
+        "messageTitle",
+        "loggerInstance"
+    ],
+    "comments": [
+        "Different arrow symbol based on OS",
+        "Export as singleton"
+    ],
+    "docstrings": [
+        "* Logger",
+        "* Log debug message\n\t *\n\t * @param message - Message",
+        "* Task message\n\t *\n\t * @param message - Message",
+        "* Success message\n\t *\n\t * @param message - Message",
+        "* Warn message\n\t *\n\t * @param message - Message",
+        "* Error message\n\t *\n\t * @param message - Message",
+        "* Title message\n\t *\n\t * @param message - Message",
+        "* Empty log line"
+    ],
+    "functions": [
+        "debug",
+        "task",
+        "success",
+        "warn",
+        "error",
+        "title",
+        "empty"
+    ],
+    "classes": [
+        "Logger"
+    ]
+}

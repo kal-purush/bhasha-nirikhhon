@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "chrome",
+        "message",
+        "sender",
+        "sendResponse",
+        "message",
+        "chrome",
+        "sender",
+        "message",
+        "message",
+        "chrome",
+        "message",
+        "data",
+        "sendResponse",
+        "data",
+        "message"
+    ],
+    "literals": [
+        "\"storeAIStatus\"",
+        "tab_${sender.tab.id}",
+        "\"getAIStatus\"",
+        "tab_${message.tabId}",
+        "tab_${message.tabId}"
+    ],
+    "variables": [],
+    "comments": [
+        "Listen for messages from content scripts",
+        "Store AI detection status associated with the current tab ID",
+        "Retrieve AI detection status for the current tab",
+        "Keeps the message channel open for asynchronous response"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

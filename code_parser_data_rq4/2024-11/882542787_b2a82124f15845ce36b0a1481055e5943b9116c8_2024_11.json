@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "formContato",
+        "nome",
+        "telefone",
+        "email",
+        "mensagem",
+        "emailjs",
+        "templateParams",
+        "response",
+        "response",
+        "response",
+        "formContato",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "\"DOMContentLoaded\"",
+        "\"formulario-contato\"",
+        "\"submit\"",
+        "\"nome\"",
+        "\"telefone\"",
+        "\"email\"",
+        "\"mensagem\"",
+        "'service_8ccptl9'",
+        "'template_68963hv'",
+        "'SUCCESS!'",
+        "\"mensagem-sucesso\"",
+        "\"block\"",
+        "\"mensagem-erro\"",
+        "\"none\"",
+        "'FAILED...'",
+        "\"mensagem-erro\"",
+        "\"block\"",
+        "\"mensagem-sucesso\"",
+        "\"none\""
+    ],
+    "variables": [
+        "formContato",
+        "nome",
+        "telefone",
+        "email",
+        "mensagem",
+        "templateParams"
+    ],
+    "comments": [
+        "Garante que o código dentro seja executado apenas após todo o documento HTML ter sido completamente carregado e analisado",
+        "Seleciona o formulário de contato pelo seu ID para poder adicionar um evento de envio",
+        "Adiciona um evento de envio ao formulário",
+        "Impede que o formulário recarregue a página ao ser enviado",
+        "Coleta os valores dos campos de entrada do formulário",
+        "Parâmetros para enviar o e-mail, com os valores coletados dos campos de entrada",
+        "Envia o e-mail usando EmailJS - serviço gratuito para envio de e-mails",
+        "Caso o envio seja bem-sucedido, exibe uma mensagem de sucesso",
+        "Caso o envio falhe, exibe uma mensagem de erro"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Http",
+        "Response",
+        "Component",
+        "OnInit",
+        "HttpRequest",
+        "InvoiceNotificationThresholdWsVo",
+        "InvoiceNotificationThresholdWsPostVo",
+        "InvoiceNotificationThresholdWsPostRespVo",
+        "Component",
+        "searchWiki",
+        "InvoiceNotificationThresholdWsPostVo",
+        "invoiceNotificationThresholdWsVo",
+        "invoiceNotificationThresholdWsVo",
+        "resp",
+        "resp",
+        "invoiceNotificationThresholdWsVo",
+        "invoiceNotificationThresholdWsVo",
+        "invoiceNotificationThresholdWsVo",
+        "res",
+        "body",
+        "body"
+    ],
+    "literals": [
+        "'@angular/http'",
+        "'@angular/core'",
+        "'./wikisearch'",
+        "'rxjs/add/operator/toPromise'",
+        "'./ws.vo.invoiceNotificationThreshold'",
+        "'./ws.post.vo.invoiceNotificationThreshold'",
+        "'./ws.post.resp.vo.invoiceNotificationThreshold'",
+        "'my-app'",
+        "<div *ngIf=\"invoiceNotificationThresholdWsVo\">\n      <h1>angular2 http get sample</h1>\n      <button (click)=\"callApi()\">callApi</button> \n      <input [(ngModel)]=\"invoiceNotificationThresholdWsVo.hintThreshold\">\n      <h1> {{invoiceNotificationThresholdWsVo.created}}</h1>\n     </div>\n     <hr>\n     <div *ngIf=\"invoiceNotificationThresholdWsVo\">\n      <h1>angular2 http post sample</h1>\n      <input [(ngModel)]=\"invoiceNotificationThresholdWsPostVo.type\" placeholder=\"type\">\n      <input [(ngModel)]=\"invoiceNotificationThresholdWsPostVo.thresholdAmount\" placeholder=\"thresholdAmount\">\n      <input [(ngModel)]=\"invoiceNotificationThresholdWsPostVo.srcProject\" placeholder=\"srcProject\">\n      <button (click)=\"callPostApi()\">callPostApi</button>\n      <hr>\n        <div *ngIf=\"invoiceNotificationThresholdWsPostRespVo && invoiceNotificationThresholdWsPostRespVo.returnStatus && invoiceNotificationThresholdWsPostRespVo.returnStatus!=='success' \">  \n        \n         <h1> error msg {{invoiceNotificationThresholdWsPostRespVo.returnStatus}}</h1>\n        </div>  \n     </div>",
+        "\"wefw\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"ji\"",
+        "\"ji\""
+    ],
+    "variables": [
+        "body",
+        "res"
+    ],
+    "comments": [
+        "will pass parameter to then block",
+        "will pass parameter to then block",
+        "console.log(body[0]['id']);",
+        "return body.data || {};"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "callApi",
+        "callPostApi",
+        "extractData"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

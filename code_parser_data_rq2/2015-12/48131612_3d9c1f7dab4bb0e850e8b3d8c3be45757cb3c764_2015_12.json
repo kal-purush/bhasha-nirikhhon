@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "path",
+        "workspace",
+        "Disposable",
+        "ExtensionContext",
+        "LanguageClient",
+        "LanguageClientOptions",
+        "SettingMonitor",
+        "ServerOptions",
+        "TransportKind",
+        "context",
+        "context",
+        "path",
+        "serverModule",
+        "TransportKind",
+        "serverModule",
+        "TransportKind",
+        "debugOptions",
+        "workspace",
+        "LanguageClient",
+        "serverOptions",
+        "clientOptions",
+        "context",
+        "disposable"
+    ],
+    "literals": [
+        "'use strict'",
+        "'path'",
+        "'vscode'",
+        "'vscode-languageclient'",
+        "'Activate Valled'",
+        "'server'",
+        "'server.js'",
+        "\"--nolazy\"",
+        "\"--debug=6004\"",
+        "'css'",
+        "'languageServerExample'",
+        "'**/.clientrc'",
+        "'Language Server Example'"
+    ],
+    "variables": [
+        "serverModule",
+        "debugOptions",
+        "serverOptions",
+        "clientOptions",
+        "disposable"
+    ],
+    "comments": [
+        "--------------------------------------------------------------------------------------------\n * Copyright (c) Microsoft Corporation. All rights reserved.\n * Licensed under the MIT License. See License.txt in the project root for license information.\n * ------------------------------------------------------------------------------------------",
+        "The server is implemented in node",
+        "The debug options for the server",
+        "If the extension is launch in debug mode the debug server options are use",
+        "Otherwise the run options are used",
+        "Options to control the language client",
+        "Register the server for plain text documents",
+        "Synchronize the setting section 'languageServerExample' to the server",
+        "Notify the server about file changes to '.clientrc files contain in the workspace",
+        "Create the language client and start the client.",
+        "Push the disposable to the context's subscriptions so that the",
+        "client can be deactivated on extension deactivation"
+    ],
+    "docstrings": [],
+    "functions": [
+        "activate"
+    ],
+    "classes": []
+}

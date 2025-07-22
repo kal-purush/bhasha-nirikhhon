@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "CSharp_OOP_Exercise",
+        "IDance",
+        "name",
+        "color",
+        "Name",
+        "name",
+        "Color",
+        "color",
+        "WriteLine",
+        "WriteLine",
+        "Name",
+        "WriteLine",
+        "Name",
+        "WriteLine",
+        "Name"
+    ],
+    "literals": [
+        "\"Hi there! I can fly.\""
+    ],
+    "variables": [
+        "Name",
+        "Color"
+    ],
+    "comments": [
+        "Commented to check the abstract function of the class",
+        "public void Speak()\n        {\n            Console.WriteLine($\"My name is {Name} and I am a {Color} bird.\");\n        }\n        \n        public void Fly()\n        {\n            Console.WriteLine($\"I'm {Name} and I can fly high in the blue sky!\");\n        }",
+        "This method is marked with Abstract keyword",
+        "This means that any classes extending on Bird must implement this",
+        "Abstract methods don't have a method body",
+        "Default implementation",
+        "Implementing interface methods"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Bird",
+        "Speak",
+        "Fly",
+        "Spin",
+        "DoTheCaterpillar",
+        "Jump"
+    ],
+    "classes": [
+        "Bird"
+    ]
+}

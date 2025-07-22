@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "useQuery",
+        "useAuth",
+        "ProcessedSpecialEvent",
+        "ProcessedSpecialGroup",
+        "SPECIAL_GROUPS",
+        "useAuth",
+        "useQuery",
+        "SPECIAL_GROUPS_QUERY_KEYS",
+        "fetch",
+        "token",
+        "response",
+        "response",
+        "data",
+        "response",
+        "eventId",
+        "SPECIAL_EVENTS",
+        "eventId",
+        "useAuth",
+        "useQuery",
+        "SPECIAL_EVENTS_QUERY_KEYS",
+        "eventId",
+        "allEventIds",
+        "fetch",
+        "eventIds",
+        "token",
+        "response",
+        "response",
+        "data",
+        "response"
+    ],
+    "literals": [
+        "\"react-query\"",
+        "\"../../contexts/AuthContext\"",
+        "\"../../types\"",
+        "\"specialGroups\"",
+        "/api/special-groups",
+        "Bearer ${token}",
+        "\"fetchViewEventSpecialEvents\"",
+        "string",
+        "string",
+        "string",
+        "\",\"",
+        "/api/events/view-event-special-groups?eventIds=${eventIds}",
+        "\"GET\"",
+        "Bearer ${token}"
+    ],
+    "variables": [
+        "SPECIAL_GROUPS",
+        "SPECIAL_GROUPS_QUERY_KEYS",
+        "response",
+        "data",
+        "SPECIAL_EVENTS",
+        "SPECIAL_EVENTS_QUERY_KEYS",
+        "eventIds",
+        "response",
+        "data"
+    ],
+    "comments": [
+        "Retrieve Special Groups",
+        "Query keys",
+        "Retrieve Special Events for event. The naming is confusing",
+        "Query keys"
+    ],
+    "docstrings": [],
+    "functions": [
+        "useSpecialGroups",
+        "useSpecialEventsForEvent"
+    ],
+    "classes": []
+}

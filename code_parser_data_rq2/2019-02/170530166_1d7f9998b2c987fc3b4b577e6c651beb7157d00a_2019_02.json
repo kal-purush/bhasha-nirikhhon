@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "PrivateEndPoints",
+        "PublicEndPoints",
+        "QuoteResponse",
+        "QuoteSource",
+        "source",
+        "source",
+        "source",
+        "source",
+        "source",
+        "source",
+        "pair",
+        "endPoint",
+        "endPoint",
+        "endPoint",
+        "PublicEndPoints",
+        "pair"
+    ],
+    "literals": [
+        "'../../types'",
+        "'./types'",
+        "string",
+        "string",
+        "${endPoint ? endPoint : PublicEndPoints.Quote}:${pair}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "transform",
+        "getTradeChannel"
+    ],
+    "classes": []
+}

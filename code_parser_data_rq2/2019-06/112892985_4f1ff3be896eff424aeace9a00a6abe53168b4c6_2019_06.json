@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "KubeApi",
+        "KubernetesResource",
+        "api",
+        "resource",
+        "minVersion",
+        "resource",
+        "resource",
+        "resource",
+        "resource",
+        "api",
+        "fieldSelector",
+        "api",
+        "fieldSelector",
+        "res",
+        "e",
+        "minVersion",
+        "e",
+        "parseInt",
+        "e",
+        "minVersion",
+        "events"
+    ],
+    "literals": [
+        "\"../api\"",
+        "\"../types\"",
+        "involvedObject.apiVersion=${resource.apiVersion},",
+        "involvedObject.kind=${resource.kind},",
+        "involvedObject.name=${resource.metadata.name}"
+    ],
+    "variables": [
+        "fieldSelector",
+        "res",
+        "events"
+    ],
+    "comments": [
+        "Filter out old events (relating to prior versions of the resource)"
+    ],
+    "docstrings": [
+        "* Copyright (C) 2018 Garden Technologies, Inc. <info@garden.io>\n *\n * This Source Code Form is subject to the terms of the Mozilla Public\n * License, v. 2.0. If a copy of the MPL was not distributed with this\n * file, You can obtain one at http://mozilla.org/MPL/2.0/."
+    ],
+    "functions": [
+        "getResourceEvents"
+    ],
+    "classes": []
+}

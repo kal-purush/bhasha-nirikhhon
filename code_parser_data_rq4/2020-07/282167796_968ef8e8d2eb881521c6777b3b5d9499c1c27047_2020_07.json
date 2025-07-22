@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "sqlite3",
+        "connect",
+        "conn",
+        "cursor",
+        "cur",
+        "execute",
+        "conn",
+        "commit",
+        "cur",
+        "close",
+        "conn",
+        "close",
+        "connect",
+        "conn",
+        "cursor",
+        "cur",
+        "execute",
+        "conn",
+        "commit",
+        "cur",
+        "close",
+        "conn",
+        "close"
+    ],
+    "literals": [
+        "\"db/tab_codes.db\"",
+        "\"CREATE TABLE codes (id VARCHAR(20) PRIMARY KEY NOT NULL, code TEXT NOT NULL, langage TEXT)\"",
+        "\"db/tab_users.db\"",
+        "\"CREATE TABLE users (id INTEGER PRIMARY KEY AUTOINCREMENT,uid_code VARCHAR(20) NOT NULL, ip_adress VARCHAR NOT NULL, naviguateur text, date_modif TIMESTAMP)\""
+    ],
+    "variables": [
+        "conn",
+        "cur",
+        "conn",
+        "cur"
+    ],
+    "comments": [
+        "create bdd codes",
+        "create bdd users"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

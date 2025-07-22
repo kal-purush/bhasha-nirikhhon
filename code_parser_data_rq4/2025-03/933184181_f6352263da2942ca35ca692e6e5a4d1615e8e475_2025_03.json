@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "FluentValidation",
+        "TaskFlow",
+        "ProjectService",
+        "AbstractValidator",
+        "CreateProjectReq",
+        "RuleFor",
+        "x",
+        "Name",
+        "NotEmpty",
+        "WithMessage",
+        "MaximumLength",
+        "WithMessage",
+        "RuleFor",
+        "x",
+        "Description",
+        "NotEmpty",
+        "WithMessage",
+        "RuleFor",
+        "x",
+        "OwnerId",
+        "NotEmpty",
+        "WithMessage"
+    ],
+    "literals": [
+        "\"Project name is required\"",
+        "\"Project name cannot exceed 100 characters\"",
+        "\"Description is required\"",
+        "\"Owner ID is required\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "CreateProjectValidator"
+    ],
+    "classes": [
+        "CreateProjectValidator"
+    ]
+}

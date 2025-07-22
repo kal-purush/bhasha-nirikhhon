@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "IncomingMessage",
+        "ServerResponse",
+        "ServerResponse",
+        "req",
+        "context",
+        "req",
+        "context",
+        "process",
+        "process",
+        "context",
+        "name",
+        "value",
+        "name",
+        "value"
+    ],
+    "literals": [
+        "\"http\"",
+        "string",
+        "string",
+        "string",
+        "\"AWS_Lambda_\"",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Currently only a proxy class incase we are inside\n * a lambda function and need to parse headers.\n *\n * Otherwise it just calls super.setHeader and this can be ignored",
+        "* Assign the GraphQL Context so we can use it later on\n   * @param context",
+        "* If we are inside a lambda we want to \"abuse\" the context object\n   * to write headers in so we can later parse them back out to the lambda event\n   * structure\n   *\n   * @param name\n   * @param value"
+    ],
+    "functions": [
+        "setHeader"
+    ],
+    "classes": [
+        "Response"
+    ]
+}

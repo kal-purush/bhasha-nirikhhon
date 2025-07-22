@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "Cypress",
+        "options",
+        "cy",
+        "options"
+    ],
+    "literals": [
+        "'visitAbout'",
+        "'/about'"
+    ],
+    "variables": [],
+    "comments": [
+        "-- This is a parent command --",
+        "Cypress.Commands.add('login', (email, password) => { /*...*/ });",
+        "-- This is a child command --",
+        "Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { /*...*/ });",
+        "-- This is a dual command --",
+        "Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { /*...*/ });",
+        "-- This is will overwrite an existing command --",
+        "Cypress.Commands.overwrite('visit', (originalFn, url, options) => { /*...*/ });"
+    ],
+    "docstrings": [
+        "* This example commands.ts shows you how to create custom commands or overwrite existing commands.\n * Please note that you will need to add the typescript definition of each custom command to commands_type.ts\n * The 'visitAbout' custom command below serves as a real example, it is used in the 'about' spec.\n *\n * For more comprehensive examples of custom commands, please see:\n * https://on.cypress.io/custom-commands"
+    ],
+    "functions": [],
+    "classes": []
+}

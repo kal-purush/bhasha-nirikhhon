@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "django",
+        "conf",
+        "settings",
+        "django",
+        "contrib",
+        "auth",
+        "models",
+        "User",
+        "username",
+        "password",
+        "settings",
+        "ADMIN_LOGIN",
+        "username",
+        "settings",
+        "ADMIN_PASSWORD",
+        "password",
+        "login_valid",
+        "pwd_valid",
+        "User",
+        "objects",
+        "get",
+        "username",
+        "username",
+        "User",
+        "DoesNotExist",
+        "User",
+        "username",
+        "username",
+        "password",
+        "password",
+        "user",
+        "save",
+        "user",
+        "user_id",
+        "User",
+        "objects",
+        "get",
+        "pk",
+        "user_id",
+        "User",
+        "DoesNotExist"
+    ],
+    "literals": [],
+    "variables": [
+        "login_valid",
+        "pwd_valid",
+        "user",
+        "user",
+        "user",
+        "is_staff",
+        "user",
+        "is_superuser"
+    ],
+    "comments": [
+        "Create a new user. Note that we can set password",
+        "to anything, because it won't be checked; the password",
+        "from settings.py will."
+    ],
+    "docstrings": [
+        "\"\"\"\n    Authenticate against the settings ADMIN_LOGIN and ADMIN_PASSWORD.\n\n    \"\"\""
+    ],
+    "functions": [
+        "authenticate",
+        "get_user"
+    ],
+    "classes": [
+        "SettingsBackend"
+    ]
+}

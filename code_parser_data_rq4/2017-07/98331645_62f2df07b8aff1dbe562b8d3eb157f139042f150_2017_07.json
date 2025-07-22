@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "UnityEngine",
+        "UI",
+        "Collections",
+        "MonoBehaviour",
+        "howHuchOfBarIsFilled",
+        "currentValue",
+        "maxValue",
+        "barFillerImage",
+        "fillAmount",
+        "Mathf",
+        "Lerp",
+        "barFillerImage",
+        "fillAmount",
+        "howHuchOfBarIsFilled",
+        "lerpSpeed",
+        "value",
+        "inMin",
+        "inMax",
+        "outMin",
+        "outMax",
+        "value",
+        "inMin",
+        "outMax",
+        "outMin",
+        "inMax",
+        "inMin"
+    ],
+    "literals": [],
+    "variables": [
+        "howHuchOfBarIsFilled",
+        "Image",
+        "barFillerImage",
+        "lerpSpeed",
+        "maxValue",
+        "currentValue"
+    ],
+    "comments": [
+        "barFillerImage.fillAmount = howHuchOfBarIsFilled;",
+        "return (value - inMin) * (outMax - outMin) / (inMax - inMin) + outMax;",
+        "+ outMax naudojamas tik tam kad butu uzpildyti pacioje pradzioje kai dar nepriskiriam verciu"
+    ],
+    "docstrings": [],
+    "functions": [
+        "UpdateBarFill",
+        "Start",
+        "Update"
+    ],
+    "classes": [
+        "Bars"
+    ]
+}

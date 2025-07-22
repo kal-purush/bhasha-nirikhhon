@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "tickets",
+        "parkingSpaces",
+        "tickets",
+        "pop",
+        "parkingSpaces",
+        "pop",
+        "currentTicket",
+        "parking_space",
+        "ticket_number",
+        "parking_space",
+        "input",
+        "input",
+        "payment",
+        "ticket_number",
+        "currentTicket",
+        "currentTicket",
+        "ticket_number",
+        "currentTicket",
+        "ticket_number",
+        "ticket_number"
+    ],
+    "literals": [
+        "'paid'",
+        "'parking_space'",
+        "f\"Ticket {ticket_number} taken. Please proceed to parking space {parking_space}.\"",
+        "\"Sorry, no tickets or parking spaces available.\"",
+        "\"Enter your ticket number: \"",
+        "\"Please pay for your ticket here: \"",
+        "'payment'",
+        "\"Thank you, your payment has been received.\"",
+        "\"Invalid payment. Please try again.\"",
+        "'paid'",
+        "'paid'",
+        "\"Payment successful. You have 15 minutes to leave.\"",
+        "\"Invalid ticket number or ticket already paid.\""
+    ],
+    "variables": [
+        "tickets",
+        "parkingSpaces",
+        "currentTicket",
+        "ticket_number",
+        "parking_space",
+        "ticket_number",
+        "ticket_number",
+        "payment"
+    ],
+    "comments": [
+        "Takes the first index from the list",
+        "adds a dictionary to the ticket number key with 2 keys \"paid\" and \"parking space\"",
+        "checks to see if ticket number value is in dictionary and checks to see if the ticket is paid for"
+    ],
+    "docstrings": [],
+    "functions": [
+        "takeTicket",
+        "payForParking"
+    ],
+    "classes": [
+        "ParkingGarage"
+    ]
+}

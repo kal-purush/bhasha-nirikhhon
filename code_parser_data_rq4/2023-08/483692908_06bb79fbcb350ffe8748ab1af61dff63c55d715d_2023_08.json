@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "pathlib",
+        "Path",
+        "typing",
+        "Optional",
+        "ignf_gpf_api",
+        "store",
+        "StoreEntity",
+        "StoreEntity",
+        "ignf_gpf_api",
+        "io",
+        "ApiRequester",
+        "ApiRequester",
+        "StoreEntity",
+        "file_path",
+        "Path",
+        "datastore",
+        "Optional",
+        "datastore",
+        "datastore",
+        "_entity_name",
+        "ApiRequester",
+        "route_request",
+        "s_route",
+        "route_params",
+        "_entity_name",
+        "id",
+        "datastore",
+        "file_path",
+        "open",
+        "encoding",
+        "o_out_file",
+        "o_out_file",
+        "write",
+        "o_response",
+        "content"
+    ],
+    "literals": [
+        "f\"{self._entity_name}_download\"",
+        "\"datastore\"",
+        "\"wb\"",
+        "\"UTF-8\""
+    ],
+    "variables": [
+        "datastore",
+        "s_route",
+        "o_response"
+    ],
+    "comments": [
+        "Requête \"get\" à l'API"
+    ],
+    "docstrings": [
+        "\"\"\"Interface de StoreEntity pour gérer les étiquettes (tags).\"\"\"",
+        "\"\"\"Télécharge le Fichier Statique et l'enregistre localement.\n\n        Args:\n            file_path: chemin local où enregistrer le fichier\n            datastore (Optional[str]): id du datastore à utiliser. Si None, le datastore sera récupéré dans configuration. Defaults to None.\n        \"\"\""
+    ],
+    "functions": [
+        "api_download"
+    ],
+    "classes": [
+        "DownloadInterface"
+    ]
+}

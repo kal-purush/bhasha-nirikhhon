@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "songplay_table_create",
+        "user_table_create",
+        "song_table_create",
+        "artist_table_create",
+        "time_table_create",
+        "songplay_table_drop",
+        "user_table_drop",
+        "song_table_drop",
+        "artist_table_drop",
+        "time_table_drop"
+    ],
+    "literals": [
+        "\"DROP TABLE IF EXISTS songplays\"",
+        "\"DROP TABLE IF EXISTS users\"",
+        "\"DROP TABLE IF EXISTS songs\"",
+        "\"DROP TABLE IF EXISTS artists\"",
+        "\"DROP TABLE IF EXISTS time\""
+    ],
+    "variables": [
+        "songplay_table_drop",
+        "user_table_drop",
+        "song_table_drop",
+        "artist_table_drop",
+        "time_table_drop",
+        "songplay_table_create",
+        "user_table_create",
+        "song_table_create",
+        "artist_table_create",
+        "time_table_create",
+        "songplay_table_insert",
+        "user_table_insert",
+        "song_table_insert",
+        "artist_table_insert",
+        "time_table_insert",
+        "song_select",
+        "create_table_queries",
+        "drop_table_queries"
+    ],
+    "comments": [
+        "DROP TABLES",
+        "CREATE TABLES",
+        "INSERT RECORDS",
+        "we don't handle conflicts here, as the primary key autoincrements",
+        "users changing their streaming plans (i.e. contained by the 'level' column) can cause upsert conflicts. On conflict, update user 'level'",
+        "song_id upsert conflicts are likely erroneous, because these fields don't get updated over time. On conflict, do nothing",
+        "artist_id upsert conflicts could occur when artists change their name, location and lat/long. But not in this project, so on conflict, do nothing",
+        "start_time upsert conflicts are likely erroneous. On conflict, do nothing",
+        "FIND SONGS",
+        "QUERY LISTS"
+    ],
+    "docstrings": [
+        "\"\"\"\nCREATE TABLE IF NOT EXISTS songplays \n(songplay_id serial, \nlevel text, \nsession_id int, \nlocation varchar, \nuser_agent varchar, \nsong_id varchar, \nartist_id varchar, \nstart_time timestamp not null, \nuser_id varchar not null,\nprimary key(songplay_id));\n\"\"\"",
+        "\"\"\"\nCREATE TABLE IF NOT EXISTS users\n(user_id varchar,\nfirst_name varchar,\nlast_name varchar,\ngender text, \nlevel text,\nprimary key (user_id));\n\"\"\"",
+        "\"\"\"\nCREATE TABLE IF NOT EXISTS songs \n(song_id varchar,\ntitle varchar,\nartist_id varchar,\nyear int,\nduration decimal,\nprimary key(song_id));\n\"\"\"",
+        "\"\"\"\nCREATE TABLE IF NOT EXISTS artists \n(artist_id varchar,\nname varchar,\nlocation varchar,\nlatitude decimal,\nlongitude decimal,\nprimary key(artist_id));\n\"\"\"",
+        "\"\"\"\nCREATE TABLE IF NOT EXISTS time\n(start_time timestamp,\nhour int,\nday int,\nweek int,\nmonth int,\nyear int,\nweekday int,\nprimary key(start_time));\n\"\"\"",
+        "\"\"\"\nINSERT INTO songplays\n(start_time, user_id, level, song_id, artist_id, session_id, location, user_agent)\nVALUES (%s, %s, %s, %s, %s, %s, %s, %s)\n\"\"\"",
+        "\"\"\"\nINSERT INTO users \n(user_id, first_name, last_name, gender, level)\nVALUES (%s, %s, %s, %s, %s)\nON CONFLICT (user_id) DO UPDATE SET level = excluded.level;\n\"\"\"",
+        "\"\"\"\nINSERT INTO songs\n(song_id, title, artist_id, year, duration)\nVALUES (%s, %s, %s, %s, %s)\nON CONFLICT (song_id) DO NOTHING;\n\"\"\"",
+        "\"\"\"\nINSERT INTO artists\n(artist_id, name, location, latitude, longitude)\nVALUES (%s, %s, %s, %s, %s)\nON CONFLICT (artist_id) DO NOTHING;\n\"\"\"",
+        "\"\"\"\nINSERT INTO time\n(start_time, hour, day, week, month, year, weekday)\nVALUES (%s, %s, %s, %s, %s, %s, %s)\nON CONFLICT (start_time) DO NOTHING;\n\"\"\"",
+        "\"\"\"\nSELECT songs.song_id, artists.artist_id\nFROM songs JOIN artists ON songs.artist_id = artists.artist_id\nWHERE songs.title = %s AND\nartists.name = %s AND\nsongs.duration = %s;\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

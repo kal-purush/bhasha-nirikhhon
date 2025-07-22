@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Client",
+        "Cookies",
+        "Cookies",
+        "cookie",
+        "cookie",
+        "user",
+        "token",
+        "Client",
+        "process",
+        "value",
+        "value",
+        "ChrisAPIClient"
+    ],
+    "literals": [
+        "'@fnndsc/chrisapi'",
+        "'react-cookie'",
+        "string",
+        "'username'",
+        "string",
+        "${user}_token"
+    ],
+    "variables": [
+        "process",
+        "cookie",
+        "user",
+        "token"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This is a singleton to hold an instantiated, authenticated `Client` object,\n * in order to prevent  every component that needs the client from having to be\n * passed the token, declare process.env variables, etc."
+    ],
+    "functions": [
+        "getClient",
+        "setIsTokenAuthorized"
+    ],
+    "classes": [
+        "ChrisAPIClient"
+    ]
+}

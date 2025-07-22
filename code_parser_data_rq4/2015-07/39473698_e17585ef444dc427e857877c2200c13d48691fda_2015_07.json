@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "motorengine",
+        "query",
+        "QueryOperator",
+        "QueryOperator",
+        "field_name",
+        "value",
+        "field_name",
+        "format",
+        "value"
+    ],
+    "literals": [
+        "\"$regex\"",
+        "'^{}$'",
+        "\"$options\"",
+        "'i'"
+    ],
+    "variables": [],
+    "comments": [
+        "!/usr/bin/env python",
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "'''\n    Query operator used to return all documents which match irrespective of insentive case.\n    For more information on \"$regex\" go to http://docs.mongodb.org/manual/reference/operator/query/regex/.\n    Usage:\n    .. testsetup:: iexact_query_operator\n        from datetime import datetime\n        import tornado.ioloop\n        from motorengine import *\n    .. testcode:: iexact_query_operator\n        class User(Document):\n            name = StringField()\n        query = Q(name__iexact=\"amanda\")\n        query_result = query.to_query(User)\n        print(query_result)\n    The resulting query is:\n    .. testoutput:: iexact_query_operator\n        {'name': {'$regex': '^amanda$', '$options': 'i'}}\n    '''"
+    ],
+    "functions": [
+        "to_query"
+    ],
+    "classes": [
+        "IExactQueryOperator"
+    ]
+}

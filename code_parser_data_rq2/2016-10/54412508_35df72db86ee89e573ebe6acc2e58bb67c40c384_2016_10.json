@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "localStorage",
+        "i",
+        "uselessElems",
+        "i",
+        "uselessElems",
+        "i",
+        "uselessElems",
+        "i",
+        "warning",
+        "warning",
+        "warning",
+        "warning",
+        "warning",
+        "warning",
+        "i",
+        "adjElems",
+        "i",
+        "adjElems",
+        "i",
+        "adjustContents",
+        "adjustContents"
+    ],
+    "literals": [
+        "'use strict'",
+        "'us_meter_readed'",
+        "'.dfp_slot, .meter_toaster'",
+        "'.js_meter_toaster'",
+        "'.js_meter_toaster'",
+        "'article, .omega'",
+        "'justify'"
+    ],
+    "variables": [
+        "uselessElems",
+        "i",
+        "warning",
+        "warning",
+        "adjElems",
+        "i"
+    ],
+    "comments": [
+        "==UserScript==",
+        "@name         LeMonde",
+        "@namespace    @ludovicm67",
+        "@version      1.0.0",
+        "@description  Clean LeMonde",
+        "@author       @ludovicm67",
+        "@include      *.lemonde.fr/**",
+        "@grant        none",
+        "==/UserScript==",
+        "We remove the counter (15 free articles/month)",
+        "We remove some useless elements",
+        "We adjust some content"
+    ],
+    "docstrings": [],
+    "functions": [
+        "adjustContents"
+    ],
+    "classes": []
+}

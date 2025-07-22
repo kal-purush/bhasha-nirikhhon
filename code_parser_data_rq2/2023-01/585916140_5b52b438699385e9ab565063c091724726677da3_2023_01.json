@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "inferAsyncReturnType",
+        "CreateNextContextOptions",
+        "prisma",
+        "opts",
+        "opts",
+        "opts",
+        "createContextInner",
+        "opts",
+        "contextInner",
+        "createContextInner"
+    ],
+    "literals": [
+        "'@trpc/server'",
+        "'@trpc/server/adapters/next'",
+        "'./db'",
+        "string",
+        "'user-agent'"
+    ],
+    "variables": [
+        "contextInner"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Inner context. Will always be available in your procedures, in contrast to the outer context.\n *\n * Also useful for:\n * - testing, so you don't have to mock Next.js' `req`/`res`\n * - tRPC's `createSSGHelpers` where we don't have `req`/`res`\n *\n * @see https://trpc.io/docs/context#inner-and-outer-context",
+        "* Outer context. Used in the routers and will e.g. bring `req` & `res` to the context as \"not `undefined`\".\n *\n * @see https://trpc.io/docs/context#inner-and-outer-context"
+    ],
+    "functions": [
+        "createContextInner",
+        "createContext"
+    ],
+    "classes": []
+}

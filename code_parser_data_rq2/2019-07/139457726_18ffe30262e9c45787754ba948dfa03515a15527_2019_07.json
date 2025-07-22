@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "ClickHouse",
+        "Net",
+        "IPropertyBinder",
+        "item",
+        "propertyName",
+        "value",
+        "item",
+        "GetType",
+        "GetProperty",
+        "propertyName",
+        "propertyInfo",
+        "PropertyType",
+        "propertyType",
+        "GetMethod",
+        "propertyType",
+        "propertyInfo",
+        "SetValue",
+        "item",
+        "value",
+        "parseMethod",
+        "InvalidOperationException",
+        "value",
+        "propertyType",
+        "IsValueType",
+        "value",
+        "Activator",
+        "CreateInstance",
+        "propertyType",
+        "value",
+        "ToString",
+        "parseMethod",
+        "Invoke",
+        "value",
+        "ToString",
+        "propertyInfo",
+        "SetValue",
+        "item",
+        "parsedValue"
+    ],
+    "literals": [
+        "\"Parse\"",
+        "\"This Type not contain Parse method\""
+    ],
+    "variables": [
+        "propertyInfo",
+        "propertyType",
+        "parseMethod",
+        "parsedValue"
+    ],
+    "comments": [
+        "Use most simple signature for Parse method with one argument.",
+        "If value is sting - assign it to property.",
+        "If Type not declare Parse method.",
+        "If receive null on value type property position , assign default value.",
+        "Casting to string guarantees correct argument for Parse method."
+    ],
+    "docstrings": [],
+    "functions": [
+        "BindProperty"
+    ],
+    "classes": [
+        "DefaultPropertyBinder"
+    ]
+}

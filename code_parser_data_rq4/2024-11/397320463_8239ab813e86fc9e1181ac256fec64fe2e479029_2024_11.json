@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "Router",
+        "csrfSync",
+        "process",
+        "Router",
+        "testMode",
+        "csrfSync",
+        "req",
+        "req",
+        "router",
+        "csrfSynchronisedProtection",
+        "router",
+        "req",
+        "res",
+        "next",
+        "req",
+        "res",
+        "req",
+        "next",
+        "router"
+    ],
+    "literals": [
+        "'express'",
+        "'csrf-sync'",
+        "'test'",
+        "'function'"
+    ],
+    "variables": [
+        "testMode",
+        "router"
+    ],
+    "comments": [
+        "CSRF protection",
+        "This is the default CSRF protection middleware.",
+        "By default, csrf-sync uses x-csrf-token header, but we use the token in forms and send it in the request body, so change getTokenFromRequest so it grabs from there",
+        "eslint-disable-next-line no-underscore-dangle"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setUpCsrf"
+    ],
+    "classes": []
+}

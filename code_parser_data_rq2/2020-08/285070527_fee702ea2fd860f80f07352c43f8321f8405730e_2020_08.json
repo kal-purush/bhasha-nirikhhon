@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Request",
+        "Response",
+        "Knex",
+        "request",
+        "response",
+        "request",
+        "idParking",
+        "Knex",
+        "idParking",
+        "carsInParking",
+        "response",
+        "carsInParking",
+        "response",
+        "idParking",
+        "CarParkingController"
+    ],
+    "literals": [
+        "'express'",
+        "'../database/connection'",
+        "'car_parking'",
+        "'car_parking.id_parking'",
+        "'cars'",
+        "'cars.id'",
+        "'car_parking.id_car'",
+        "'parking'",
+        "'parking.id'",
+        "'car_parking.id_parking'",
+        "'*'",
+        "not cars in parking id ${idParking}"
+    ],
+    "variables": [
+        "idParking",
+        "carsInParking"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "show"
+    ],
+    "classes": [
+        "CarParkingController"
+    ]
+}

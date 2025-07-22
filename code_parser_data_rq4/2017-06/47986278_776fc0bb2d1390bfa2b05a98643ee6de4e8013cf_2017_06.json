@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "iadgov",
+        "sessioneventtest",
+        "core",
+        "logging",
+        "Severity",
+        "javafx",
+        "scene",
+        "control",
+        "MenuItem",
+        "java",
+        "lang",
+        "Override",
+        "Override",
+        "Override",
+        "Override",
+        "session",
+        "core",
+        "logging",
+        "Logger",
+        "log",
+        "Severity",
+        "Success",
+        "session",
+        "Override",
+        "session",
+        "core",
+        "logging",
+        "Logger",
+        "log",
+        "Severity",
+        "Success",
+        "session",
+        "Override",
+        "session",
+        "core",
+        "logging",
+        "Logger",
+        "log",
+        "Severity",
+        "Success",
+        "session"
+    ],
+    "literals": [
+        "\"Session Event Hooks\"",
+        "\"New Session: \"",
+        "\"Loaded Session: \"",
+        "\"Cleared Session: \""
+    ],
+    "variables": [],
+    "comments": [
+        "No content"
+    ],
+    "docstrings": [
+        "* This plugin adds hooks that produce messages in response to session events.\n * It exists to aid in the testing of the SessionEventHooks interface.",
+        "* Constructor required as part of the util.Plugin interface to GrassMarlin.",
+        "* Part of the util.Plugin interface.\n     * @return The pretty-print version of the Plugin's name.",
+        "* Part of the util.Plugin interface.\n     * @return A MenuItem which will be added to the Tools->Plugin menu.  If null is returned, a disabled item bearing the name of the plugin will be provided automatically."
+    ],
+    "functions": [
+        "Plugin",
+        "getName",
+        "MenuItem",
+        "getMenuItem",
+        "sessionCreated",
+        "sessionLoaded",
+        "sessionCleared"
+    ],
+    "classes": [
+        "Plugin"
+    ]
+}

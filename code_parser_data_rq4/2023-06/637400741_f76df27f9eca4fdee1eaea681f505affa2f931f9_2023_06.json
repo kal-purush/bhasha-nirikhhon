@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "annotations",
+        "IntFlag",
+        "IntFlag"
+    ],
+    "literals": [],
+    "variables": [
+        "ENABLE_TABLES",
+        "ENABLE_FOOTNOTES",
+        "ENABLE_STRIKETHROUGH",
+        "ENABLE_TASKLISTS",
+        "ENABLE_SMART_PUNCTUATION",
+        "ENABLE_HEADING_ATTRIBUTES"
+    ],
+    "comments": [
+        "noqa: E501"
+    ],
+    "docstrings": [
+        "\"\"\"IntFlag containing flags for enabling Markdown extensions.\n\n    Examples:\n        All extensions:\n\n        ```python\n        >>> extensions=(\n        ...     pyromark.Extensions.ENABLE_TABLES\n        ...     | pyromark.Extensions.ENABLE_FOOTNOTES\n        ...     | pyromark.Extensions.ENABLE_STRIKETHROUGH\n        ...     | pyromark.Extensions.ENABLE_TASKLISTS\n        ...     | pyromark.Extensions.ENABLE_SMART_PUNCTUATION\n        ...     | pyromark.Extensions.ENABLE_HEADING_ATTRIBUTES\n        ... )\n        >>> extensions\n        <Extensions.ENABLE_TABLES|ENABLE_FOOTNOTES|ENABLE_STRIKETHROUGH|ENABLE_TASKLISTS|ENABLE_SMART_PUNCTUATION|ENABLE_HEADING_ATTRIBUTES: 126>\n        ```\n    \"\"\"",
+        "\"\"\"<https://github.github.com/gfm/#tables-extension->\"\"\"",
+        "\"\"\"<https://www.markdownguide.org/extended-syntax/#footnotes>\"\"\"",
+        "\"\"\"<https://github.github.com/gfm/#strikethrough-extension->\"\"\"",
+        "\"\"\"<https://github.github.com/gfm/#task-list-items-extension->\"\"\"",
+        "\"\"\"Converts some characters to their HTML equivalents:\n\n    | Character | Replacements |\n    | --------- | ------------ |\n    | '         | ‘ ’          |\n    | \"         | “ ”          |\n    | ...       | …            |\n    | --        | –            |\n    | ---       | —            |\n    \"\"\"",
+        "\"\"\"<https://docs.rs/pulldown-cmark/latest/pulldown_cmark/struct.Options.html#associatedconstant.ENABLE_HEADING_ATTRIBUTES>\"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "Extensions"
+    ]
+}

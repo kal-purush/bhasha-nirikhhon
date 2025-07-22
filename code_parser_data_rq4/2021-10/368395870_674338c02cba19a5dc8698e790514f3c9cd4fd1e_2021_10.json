@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "Employee",
+        "gql",
+        "UpdateEmployeeInput",
+        "gql"
+    ],
+    "literals": [
+        "'@prisma/client'",
+        "'@apollo/client'",
+        "'@lib/graphql/types'",
+        "mutation updateEmployeeMutation($input: UpdateEmployeeInput!) {\n    updateEmployee(input: $input) {\n      ok\n      employee {\n        firstName\n        lastName\n      }\n    }\n  }"
+    ],
+    "variables": [
+        "UPDATE_EMPLOYEE_MUTATION"
+    ],
+    "comments": [
+        "gql tag",
+        "GraphQL types"
+    ],
+    "docstrings": [
+        "* GQL query to fetch employees based on filter",
+        "* Input parameters for fetch all employees",
+        "* Response type of getting employees"
+    ],
+    "functions": [],
+    "classes": []
+}

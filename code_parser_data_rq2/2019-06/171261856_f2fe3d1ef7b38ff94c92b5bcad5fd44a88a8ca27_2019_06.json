@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Command",
+        "Command",
+        "Command",
+        "ServiceDeployNew",
+        "resolve",
+        "reject",
+        "args",
+        "err",
+        "resp",
+        "err",
+        "reject",
+        "err",
+        "err",
+        "resp",
+        "resp",
+        "resolve",
+        "resp"
+    ],
+    "literals": [
+        "'../../service-command'",
+        "'Deploy a service'",
+        "'SERVICE'",
+        "'Service\\'s definition. Use service:compile first to build service definition'",
+        "string",
+        "'Deploy service'",
+        "string",
+        "${resp.sid} (${resp.hash})"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "run"
+    ],
+    "classes": [
+        "ServiceDeployNew"
+    ]
+}

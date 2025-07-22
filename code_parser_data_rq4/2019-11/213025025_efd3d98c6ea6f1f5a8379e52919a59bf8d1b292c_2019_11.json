@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "customElement",
+        "bindable",
+        "customElement",
+        "bindable",
+        "bindable"
+    ],
+    "literals": [
+        "\"@aurelia/runtime\"",
+        "'storybook-button-component'",
+        "<template>\n    <button click.delegate=\"onClick($event)\">\\${text}</button>\n    <style>\n    button {\n      border: 1px solid #eee;\n      border-radius: 3px;\n      background-color: #ffffff;\n      cursor: pointer;\n      font-size: 15px;\n      padding: 3px 10px;\n      margin: 10px;\n    }\n    </style>\n    </template>",
+        "''"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Button"
+    ]
+}

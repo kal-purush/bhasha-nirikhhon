@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "netCode",
+        "ContentObj",
+        "netCode",
+        "content",
+        "content",
+        "r",
+        "r",
+        "r",
+        "r"
+    ],
+    "literals": [
+        "\"./net\"",
+        "\"../model/content\"",
+        "${this.getURL()}/content/${content.id}",
+        "\"DELETE\"",
+        "\"follow\"",
+        "\"no-referrer\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "deleteContent"
+    ],
+    "classes": [
+        "ContentNet"
+    ]
+}

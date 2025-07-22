@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "APL",
+        "FileAPL",
+        "SaleorCloudAPL",
+        "UpstashAPL",
+        "SaleorApp",
+        "process",
+        "aplType",
+        "apl",
+        "UpstashAPL",
+        "process",
+        "process",
+        "apl",
+        "SaleorCloudAPL",
+        "process",
+        "process",
+        "apl",
+        "FileAPL",
+        "SaleorApp"
+    ],
+    "literals": [
+        "\"@saleor/app-sdk/APL\"",
+        "\"@saleor/app-sdk/saleor-app\"",
+        "\"file\"",
+        "\"upstash\"",
+        "\"saleor-cloud\"",
+        "\"Rest APL is not configured - missing env variables. Check saleor-app.ts\"",
+        "string"
+    ],
+    "variables": [
+        "apl",
+        "aplType",
+        "saleorApp"
+    ],
+    "comments": [
+        "Require `UPSTASH_URL` and `UPSTASH_TOKEN` environment variables"
+    ],
+    "docstrings": [
+        "* By default, auth data are stored in the `.auth-data.json` (FileAPL).\n * For multi-tenant applications and deployments please use UpstashAPL.\n *\n * To read more about storing auth data, read the\n * [APL documentation](https://github.com/saleor/saleor-app-sdk/blob/main/docs/apl.md)"
+    ],
+    "functions": [],
+    "classes": []
+}

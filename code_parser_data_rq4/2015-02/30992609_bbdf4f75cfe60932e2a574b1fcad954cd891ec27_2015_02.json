@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "plat",
+        "HomeViewControl",
+        "plat",
+        "router",
+        "plat",
+        "router",
+        "HomeViewControl",
+        "ev",
+        "plat",
+        "ev",
+        "plat",
+        "ev",
+        "ev",
+        "plat",
+        "ev",
+        "plat",
+        "ev",
+        "plat",
+        "ev",
+        "plat",
+        "ev",
+        "plat",
+        "plat",
+        "App",
+        "plat"
+    ],
+    "literals": [
+        "'platypus'",
+        "'../viewcontrols/home/home.viewcontrol'",
+        "''",
+        "'Getting-started'"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path='../_references.d.ts' />",
+        "log or handle errors at a global level"
+    ],
+    "docstrings": [
+        "* Class for every app. This class contains hooks for Application Lifecycle Events\n     * as well as error handling and device-events.",
+        "* Event fired when the app is ready. This method can be used to \n     * configure various settings prior to loading the rest of the application\n     * \n     * @param ev The LifecycleEvent object.",
+        "* Event fired when an internal error occurs.",
+        "* Event fired when the app is suspended. If running on a device, \n     * this is where you want to save important data and finish ongoing processes.",
+        "* Event fired when the app has been programatically shutdown. This event is cancelable.",
+        "* Event fired when the app resumes from the suspended state. If running on a device,\n     * this is where you want to re-initialize the app state. This is called only when the app was \n     * previously suspended.",
+        "* Event fired when the device regains connectivity and is now in an online state.",
+        "* Event fired when the device loses connectivity and is now in an offline state.\n     * \n     * @param ev The ILifecycleEvent object."
+    ],
+    "functions": [
+        "ready",
+        "error",
+        "suspend",
+        "exiting",
+        "resume",
+        "online",
+        "offline"
+    ],
+    "classes": [
+        "App"
+    ]
+}

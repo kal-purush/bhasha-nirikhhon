@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "flask",
+        "Flask",
+        "escape",
+        "request",
+        "render_template",
+        "Flask",
+        "app",
+        "route",
+        "request",
+        "args",
+        "get",
+        "escape",
+        "name",
+        "app",
+        "route",
+        "render_template",
+        "app",
+        "route",
+        "methods",
+        "request",
+        "form",
+        "get",
+        "render_template",
+        "keyword",
+        "keyword",
+        "app",
+        "run",
+        "debug"
+    ],
+    "literals": [
+        "'/'",
+        "\"name\"",
+        "\"World\"",
+        "f'Hello, {escape(name)}!'",
+        "'/ping'",
+        "'ping.html'",
+        "'/pong'",
+        "'GET'",
+        "'POST'",
+        "'keyword'",
+        "'pong.html'",
+        "'__main__'"
+    ],
+    "variables": [
+        "app",
+        "name",
+        "keyword"
+    ],
+    "comments": [
+        "request.args => get방식으로 데이터가 들어올 때.",
+        "request.form => post방식으로 데이터가 들어올 때.",
+        "print(request.form.get('keyword'))"
+    ],
+    "docstrings": [],
+    "functions": [
+        "hello",
+        "ping",
+        "pong"
+    ],
+    "classes": []
+}

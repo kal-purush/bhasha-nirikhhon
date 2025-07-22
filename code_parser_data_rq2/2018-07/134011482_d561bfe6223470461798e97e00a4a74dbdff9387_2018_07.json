@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "gql",
+        "gql",
+        "gql",
+        "gql"
+    ],
+    "literals": [
+        "'graphql-tag'",
+        "mutation updateAgePreferenceLocal($id: ID!, $minAgePreference: Int!,$maxAgePreference: Int!) {\n  updateAgePreferenceLocal(id: $id, minAgePreference: $minAgePreference, maxAgePreference: $maxAgePreference) @client {\n    id\n    minAgePreference\n    maxAgePreference\n    __typename\n  }\n}",
+        "mutation updateDistanceLocal($id: String!, $distance: Int!) {\n  updateDistanceLocal(id: $id, distance: $distance) @client {\n    id\n    distance\n    __typename\n  }\n}",
+        "mutation updateSendNotificationsLocal($id: String!, $sendNotifications: Boolean!) {\n  updateSendNotificationsLocal(id: $id, sendNotifications: $sendNotifications) @client {\n    id\n    sendNotifications\n    __typename\n  }\n}"
+    ],
+    "variables": [
+        "SET_AGE_PREFERENCE_LOCAL",
+        "SET_DISTANCE_LOCAL",
+        "SET_NOTIFICATIONS_LOCAL"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

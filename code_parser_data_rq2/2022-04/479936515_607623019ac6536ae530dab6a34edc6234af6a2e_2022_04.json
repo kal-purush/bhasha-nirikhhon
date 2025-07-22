@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "addCommandDoc",
+        "addCommand",
+        "args",
+        "Filter",
+        "filter_rules",
+        "i",
+        "filter_rules",
+        "html_tag_esc",
+        "i",
+        "filter_rules",
+        "i",
+        "filter_rules",
+        "html_tag_esc",
+        "i",
+        "filter_rules",
+        "i",
+        "filter_rules",
+        "html_tag_esc",
+        "i",
+        "filter_rules",
+        "i",
+        "filter_rules",
+        "html_tag_esc",
+        "i",
+        "informMono"
+    ],
+    "literals": [
+        "\"list\"",
+        "\"Shows your block list.\"",
+        "\"list\"",
+        "\"Your block list:\\n\"",
+        "=== Strings (${filter_rules.string.length})\\n",
+        "* ${html_tag_esc(i)}\\n",
+        "=== Nicknames (${filter_rules.nickname.length})<br>",
+        "* ${html_tag_esc(i)}\\n",
+        "=== Users (${filter_rules.username.length})<br>",
+        "* ${html_tag_esc(i)}\\n",
+        "=== IDs (${filter_rules.id?.length})<br>",
+        "* ${html_tag_esc(i.toString())}\\n"
+    ],
+    "variables": [
+        "filter_rules"
+    ],
+    "comments": [
+        "<reference path=\"filter.ts\" />",
+        "<reference path=\"../../usage.ts\" />",
+        "Lists everything in the block list.",
+        "@ts-ignore"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

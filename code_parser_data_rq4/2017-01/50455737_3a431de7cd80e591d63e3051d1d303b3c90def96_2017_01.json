@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "edu",
+        "stanford",
+        "nlp",
+        "pipeline",
+        "java",
+        "util",
+        "java",
+        "util",
+        "java",
+        "util",
+        "Properties",
+        "edu",
+        "mit",
+        "jmwe",
+        "data",
+        "IMWE",
+        "edu",
+        "mit",
+        "jmwe",
+        "data",
+        "IToken",
+        "edu",
+        "stanford",
+        "nlp",
+        "ling",
+        "JMWEAnnotation",
+        "edu",
+        "stanford",
+        "nlp",
+        "ling",
+        "CoreAnnotations",
+        "SentencesAnnotation",
+        "edu",
+        "stanford",
+        "nlp",
+        "util",
+        "CoreMap",
+        "index",
+        "props",
+        "text",
+        "pipeline",
+        "props",
+        "text",
+        "pipeline",
+        "annotate",
+        "sentences",
+        "get",
+        "mwe_observed",
+        "sentence",
+        "sentences",
+        "mwe",
+        "sentence",
+        "get",
+        "mwe_observed",
+        "add",
+        "mwe",
+        "getForm",
+        "mwe_observed"
+    ],
+    "literals": [
+        "\"/home/toliwa/workspace/JMWE_Annotator/lib/mweindex_wordnet3.0_semcor1.6.data\""
+    ],
+    "variables": [],
+    "comments": [
+        "For the unit tests to pass, change this path to wherever the index file mweindex_wordnet3.0_semcor1.6.data is located",
+        "create an Annotation with the text",
+        "run the Annotators on the text",
+        "construct observed"
+    ],
+    "docstrings": [
+        "* Class to be extended by Test classes of JMWEAnnotator, contains a helper method to\n * obtain the observed MWEs from a text\n * @author toliwa\n *",
+        "* Create the observed MWEs in the text\n     * @param props the properties\n     * @param text the text\n     * @return the observed MWEs in the text"
+    ],
+    "functions": [
+        "getObservedMWEs"
+    ],
+    "classes": [
+        "AbstractJMWEAnnotatorTst"
+    ]
+}

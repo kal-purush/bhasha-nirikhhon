@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "UrlParser",
+        "createFaunaDetailTemplate",
+        "fetch",
+        "response",
+        "response",
+        "faunaData",
+        "faunaData",
+        "error",
+        "error",
+        "UrlParser",
+        "url",
+        "faunaData",
+        "item",
+        "item",
+        "faunaId",
+        "faunaDetail",
+        "createFaunaDetailTemplate",
+        "faunaDetail",
+        "faunaDetailTemplate",
+        "DetailPage"
+    ],
+    "literals": [
+        "'../../routes/url-route'",
+        "'../templates/detail-page-template'",
+        "'/data/data-fauna.json'",
+        "'Failed to fetch data'",
+        "'Error fetching fauna data:'",
+        "'<p>Detail not found</p>'",
+        "<div class=\"container\">\n        ${faunaDetailTemplate}\n      </div>"
+    ],
+    "variables": [
+        "DetailPage",
+        "response",
+        "faunaData",
+        "url",
+        "faunaId",
+        "faunaData",
+        "faunaDetail",
+        "faunaDetailTemplate"
+    ],
+    "comments": [
+        "Tambahkan log untuk memeriksa hasil fetch",
+        "Fetch fauna data",
+        "Any additional logic after rendering"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchFaunaData",
+        "render",
+        "afterRender"
+    ],
+    "classes": []
+}

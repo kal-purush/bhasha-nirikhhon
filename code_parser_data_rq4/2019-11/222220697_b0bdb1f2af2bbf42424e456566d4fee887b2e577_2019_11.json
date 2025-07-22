@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "DocumentFormat",
+        "OpenXml",
+        "Packaging",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "DemoDocumentFormat",
+        "OpenXML",
+        "args",
+        "WordprocessingDocument",
+        "Open",
+        "fileName",
+        "myDocument",
+        "MainDocumentPart",
+        "Document",
+        "Body",
+        "Elements",
+        "Paragraph",
+        "First",
+        "p",
+        "Elements",
+        "ParagraphProperties",
+        "Count",
+        "p",
+        "PrependChild",
+        "ParagraphProperties",
+        "ParagraphProperties",
+        "p",
+        "Elements",
+        "ParagraphProperties",
+        "First",
+        "pPr",
+        "ParagraphStyleId",
+        "ParagraphStyleId",
+        "Val",
+        "WriteLine",
+        "ReadKey"
+    ],
+    "literals": [
+        "\"Heading3\"",
+        "\"All done. Press a key.\""
+    ],
+    "variables": [
+        "fileName",
+        "WordprocessingDocument",
+        "myDocument",
+        "Paragraph",
+        "p",
+        "ParagraphProperties",
+        "pPr"
+    ],
+    "comments": [
+        "Apply the Heading 3 style to a paragraph.",
+        "Get the first paragraph.",
+        "If the paragraph has no ParagraphProperties object, create a new one.",
+        "Get the ParagraphProperties element of the paragraph.",
+        "Set the value of ParagraphStyleId to \"Heading3\"."
+    ],
+    "docstrings": [],
+    "functions": [
+        "Main"
+    ],
+    "classes": [
+        "Program"
+    ]
+}

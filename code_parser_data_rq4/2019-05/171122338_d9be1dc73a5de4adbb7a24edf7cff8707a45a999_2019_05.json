@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "search",
+        "args",
+        "array",
+        "i",
+        "i",
+        "i",
+        "binarySearch",
+        "array",
+        "i",
+        "binarySearch",
+        "binarySearch",
+        "array",
+        "array",
+        "value",
+        "l",
+        "r",
+        "array",
+        "length",
+        "l",
+        "r",
+        "m",
+        "l",
+        "r",
+        "l",
+        "array",
+        "m",
+        "value",
+        "l",
+        "m",
+        "r",
+        "m",
+        "l"
+    ],
+    "literals": [
+        "\" \"",
+        "\" \"",
+        "\" \""
+    ],
+    "variables": [],
+    "comments": [
+        "result is not right, but no err occurs",
+        "[left, right)",
+        "must be '<', not '<='",
+        "prevent overflow",
+        "only left + 1 once",
+        "must not - 1 here",
+        "both l and r are right"
+    ],
+    "docstrings": [
+        "* search for the first element >= a given value in a given sorted array, return the index\n     *\n     * this is a bug free common implementation of binary search\n     * it works even the interval is null, no answer, elements duplicate, closed/open interval\n     * +/-1 only appears once, and finally left == right (low == high), so both are correct\n     * key point is [left, right): left closed and right open\n     *\n     * [left,right), l<r, l=m+1, r=m, are a combination, must not change any of them"
+    ],
+    "functions": [
+        "main",
+        "binarySearch"
+    ],
+    "classes": [
+        "BinarySearch"
+    ]
+}

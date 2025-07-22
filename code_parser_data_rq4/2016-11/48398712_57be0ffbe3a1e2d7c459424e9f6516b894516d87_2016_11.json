@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "exports",
+        "msg",
+        "msg",
+        "msg",
+        "exports",
+        "trunk",
+        "trunk",
+        "trunk",
+        "username",
+        "password",
+        "auth_name",
+        "auth_domain",
+        "host",
+        "port"
+    ],
+    "literals": [
+        "'use strict'",
+        "''",
+        "':'",
+        "''",
+        "'object'",
+        "${username || ''}:${password || ''}:${auth_name || ''}:",
+        "''",
+        "''",
+        "''",
+        "${auth_domain || ''}@${host || ''}:${port || ''}",
+        "''",
+        "''",
+        "''"
+    ],
+    "variables": [
+        "trunk"
+    ],
+    "comments": [
+        "",
+        "Extract IP address from Yate message (e.g., from `user.auth`). Returns empty",
+        "string if address not extractable.",
+        ""
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

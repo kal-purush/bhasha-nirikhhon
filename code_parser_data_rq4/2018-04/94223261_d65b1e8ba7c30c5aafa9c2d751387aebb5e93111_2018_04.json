@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "Component",
+        "FieldType",
+        "Component",
+        "FieldType"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@ngx-formly/core'",
+        "'formly-password'",
+        "<mat-form-field>\n    <input\n      matInput\n      [type]=\"hide ? 'password' : 'text'\"\n      [formControl]=\"formControl\"\n      [formlyAttributes]=\"field\">\n    <mat-icon [svgIcon]=\"visibility\" matSuffix (click)=\"hide = !hide\"></mat-icon>\n    <mat-error *ngIf=\"formControl.invalid\" i18n>You must enter a value</mat-error>\n  </mat-form-field>",
+        "string",
+        "'action:ic_visibility_off_24px'",
+        "'action:ic_visibility_24px'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "visibility"
+    ],
+    "classes": [
+        "FormlyPasswordComponent"
+    ]
+}

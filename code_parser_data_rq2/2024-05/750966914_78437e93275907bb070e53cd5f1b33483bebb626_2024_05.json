@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "Controller",
+        "Post",
+        "Route",
+        "SuccessResponse",
+        "Tags",
+        "Body",
+        "injectable",
+        "logger",
+        "DrpcRequestObject",
+        "DrpcResponseObject",
+        "FetchAiAdapterManager",
+        "logger",
+        "Route",
+        "Tags",
+        "injectable",
+        "Controller",
+        "adapter",
+        "SuccessResponse",
+        "Post",
+        "Body",
+        "body",
+        "log",
+        "body",
+        "drpcRequest",
+        "res",
+        "SuccessResponse",
+        "Post",
+        "Body",
+        "body",
+        "log",
+        "body",
+        "drpcResponse"
+    ],
+    "literals": [
+        "'tsoa'",
+        "'tsyringe'",
+        "'../../lib/logger.js'",
+        "'./types.js'",
+        "'../../lib/services/adapter.js'",
+        "'DrpcController'",
+        "'api/drpc'",
+        "'drpc'",
+        "'/receive-query'",
+        "'new request received'",
+        "'/drpc'",
+        "'/receive-response'",
+        "string",
+        "'new request received'",
+        "'/drpc'"
+    ],
+    "variables": [
+        "log",
+        "body",
+        "res",
+        "body"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @summary Receive query from external platform.\n   * @description Receive query from external platform (ex HyYield).",
+        "* @summary Receive response from external platform.\n   * @description Receive response from external platform (ex HyYield)."
+    ],
+    "functions": [
+        "receiveQuery",
+        "receiveResponse"
+    ],
+    "classes": [
+        "DrpcController"
+    ]
+}

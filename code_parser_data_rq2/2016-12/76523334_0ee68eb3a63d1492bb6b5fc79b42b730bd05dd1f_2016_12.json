@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "i",
+        "i",
+        "arreglo",
+        "i",
+        "i",
+        "alert",
+        "arreglo",
+        "$",
+        "$",
+        "$",
+        "destapa",
+        "$",
+        "inicioPares"
+    ],
+    "literals": [
+        "\"#CartaBocaAbajo1\"",
+        "\"slow\"",
+        "\"#CartaBocaArriba1\"",
+        "\"slow\"",
+        "\"#CartaBocaAbajo1\"",
+        "\"click\"",
+        "\"ready\""
+    ],
+    "variables": [
+        "inicioPares",
+        "arreglo",
+        "i",
+        "destapa"
+    ],
+    "comments": [
+        "function mezclar(arreglo){",
+        "var m= arreglo.length-1;",
+        "for (var i=m;i>1;i--){",
+        "alea=Math.floor(i*Math.random());",
+        "temp=arreglo[i];",
+        "arreglo[i]=arreglo[alea];",
+        "arreglo[alea]=temp;",
+        "}",
+        "return(arreglo);",
+        "alert (arreglo[i]);",
+        "}",
+        "var n = Math.floor((Math.random()*16)+1);",
+        "alert (n);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

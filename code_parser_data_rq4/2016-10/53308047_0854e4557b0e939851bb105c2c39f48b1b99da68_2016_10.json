@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "Reflection",
+        "PlanetarySurfaceStructures",
+        "GameParameters",
+        "CustomParameterNode",
+        "GameParameters",
+        "CustomParameterUI",
+        "autoPersistance",
+        "toolTip",
+        "GameParameters",
+        "GameMode",
+        "GameParameters",
+        "GameMode",
+        "ANY",
+        "MemberInfo",
+        "member",
+        "GameParameters",
+        "parameters",
+        "MemberInfo",
+        "member",
+        "GameParameters",
+        "parameters",
+        "HighLogic",
+        "LoadedSceneIsEditor"
+    ],
+    "literals": [
+        "\"Group all Parts in Function Filter\"",
+        "\"Group all parts in one category in the function filter\"",
+        "\"Filter Settings\"",
+        "\"Planetary Base System\""
+    ],
+    "variables": [
+        "groupParts",
+        "Title",
+        "HasPresets",
+        "GameMode",
+        "Section",
+        "SectionOrder"
+    ],
+    "comments": [
+        "[GameParameters.CustomParameterUI(\"Add custom Filter\", autoPersistance = true, toolTip = \"Show an additional filter for all the parts of Planetary Base System\")]",
+        "public bool additionalFilter = true;",
+        "get the title",
+        "get of the settings have presets",
+        "get the game mode",
+        "get the section",
+        "get the section order"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Enabled",
+        "Interactible"
+    ],
+    "classes": [
+        "KPBSSettings"
+    ]
+}

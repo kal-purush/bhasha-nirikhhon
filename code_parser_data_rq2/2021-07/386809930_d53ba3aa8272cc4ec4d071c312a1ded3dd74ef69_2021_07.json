@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "com",
+        "github",
+        "ckblck",
+        "armor",
+        "tracker",
+        "calculation",
+        "com",
+        "github",
+        "ckblck",
+        "armor",
+        "tracker",
+        "calculation",
+        "piece",
+        "ArmorPiece",
+        "lombok",
+        "Data",
+        "lombok",
+        "RequiredArgsConstructor",
+        "org",
+        "bukkit",
+        "inventory",
+        "ItemStack",
+        "Data",
+        "RequiredArgsConstructor",
+        "modificationMethod",
+        "modifiedArmor"
+    ],
+    "literals": [],
+    "variables": [
+        "modificationMethod",
+        "modifiedArmor"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Data class that holds\n * the method and the modified armors\n * of an armor equip event.\n * <p>\n * Think it this way:\n * A player's armor contents might be modified\n * affecting more than one slot ({@link org.bukkit.inventory.PlayerInventory#setArmorContents(ItemStack[])}).\n * That explains why {@link #modifiedArmor} is an array."
+    ],
+    "functions": [],
+    "classes": [
+        "ArmorModification"
+    ]
+}

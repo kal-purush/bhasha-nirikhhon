@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "webpack",
+        "glob",
+        "path",
+        "webpack",
+        "glob",
+        "__dirname",
+        "webpack",
+        "path",
+        "config"
+    ],
+    "literals": [
+        "'webpack'",
+        "'glob'",
+        "'path'",
+        "'test/*/*.ts'",
+        "'source-map'",
+        "'development'",
+        "'testBundle.js'",
+        "'./'",
+        "'ts-loader'",
+        "\".tsx\"",
+        "\".ts\"",
+        "\".js\"",
+        "\"moment\"",
+        "'./node_modules/moment/min/moment.min.js'"
+    ],
+    "variables": [
+        "config"
+    ],
+    "comments": [
+        "TODO: setup which ensures that the bundle we ship out of ms-rest[-azure]-js works in the browser",
+        "Downside: more individual watches are required to make this responsive to your edits",
+        "externals: {",
+        "\"ms-rest-js\": \"msRest\",",
+        "\"ms-rest-azure-js\": \"msRestAzure\"",
+        "},"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

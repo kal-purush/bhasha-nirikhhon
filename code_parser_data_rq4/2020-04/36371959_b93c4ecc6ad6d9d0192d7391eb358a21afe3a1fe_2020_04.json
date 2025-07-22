@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "virttest",
+        "libvirt_xml",
+        "accessors",
+        "LibvirtXMLBase",
+        "LibvirtXMLBase",
+        "__uncompareable__",
+        "virsh_instance",
+        "virsh",
+        "accessors",
+        "XMLElementText",
+        "parent_xpath",
+        "tag_name",
+        "accessors",
+        "XMLElementText",
+        "parent_xpath",
+        "tag_name",
+        "accessors",
+        "XMLElementList",
+        "parent_xpath",
+        "marshal_from",
+        "marshal_from_disks",
+        "marshal_to",
+        "marshal_to_disks",
+        "__class__",
+        "virsh_instance",
+        "virsh_instance",
+        "staticmethod",
+        "item",
+        "index",
+        "libvirtxml",
+        "index",
+        "libvirtxml",
+        "item",
+        "staticmethod",
+        "tag",
+        "attr_dict",
+        "index",
+        "libvirtxml",
+        "index",
+        "libvirtxml",
+        "tag",
+        "attr_dict"
+    ],
+    "literals": [
+        "'name'",
+        "'description'",
+        "'disks'",
+        "\"domaincheckpoint\"",
+        "'name'",
+        "'/'",
+        "'name'",
+        "'description'",
+        "'/'",
+        "'description'",
+        "'disks'",
+        "'/disks'",
+        "'<domaincheckpoint><disks/></domaincheckpoint>'",
+        "'disk'",
+        "'disk'"
+    ],
+    "variables": [
+        "__slots__",
+        "__uncompareable__",
+        "__schema_name__",
+        "xml"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nModule simplifying manipulation of XML described at\nhttp://libvirt.org/formatdomaincheckpoint.html\n\"\"\"",
+        "\"\"\"\n    Domain checkpoint XML class\n\n    Properties:\n        name:\n            string, name of the checkpoint\n        description:\n            string, description of the checkpoint\n        disk:\n            dict, key: name, checkpoint, bitmap.\n            name: name of the disk,\n            checkpoint (no/bitmap): whether to create checkpoint for the disk\n            bitmap: name of the bitmap to be created\n    \"\"\"",
+        "\"\"\"\n        Convert a string to disk tag and attributes.\n        \"\"\"",
+        "\"\"\"\n        Convert a disk tag and attributes to a string.\n        \"\"\""
+    ],
+    "functions": [
+        "marshal_from_disks",
+        "marshal_to_disks"
+    ],
+    "classes": [
+        "CheckpointXML"
+    ]
+}

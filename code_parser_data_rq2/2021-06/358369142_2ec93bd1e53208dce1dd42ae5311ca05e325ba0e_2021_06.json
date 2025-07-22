@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "useEventDate",
+        "useLocaleLiteral",
+        "Person",
+        "useIntl",
+        "usePersonLabel",
+        "person",
+        "useEventDate",
+        "useLocaleLiteral",
+        "useIntl",
+        "person",
+        "getText",
+        "person",
+        "getDate",
+        "person",
+        "label",
+        "born",
+        "formatMessage",
+        "born",
+        "person"
+    ],
+    "literals": [
+        "\"App/hooks/useEventDate\"",
+        "\"App/hooks/useLocaleLiteral\"",
+        "\"nampi-use-api\"",
+        "\"react-intl\"",
+        "string",
+        "\"yearOnly\"",
+        "${formatMessage(\n          {\n            description: \"Person birth name\",\n            defaultMessage: \"(born {birth})\",\n          },\n          {\n            birth: `${born}${(person.bornIn?.length || 0) > 1 ? \"[...]\" : \"\"\n              }`,\n          }\n        )}",
+        "\"Person birth name\"",
+        "\"(born {birth})\"",
+        "${born}${(person.bornIn?.length || 0) > 1 ? \"[...]\" : \"\"\n              }",
+        "\"[...]\"",
+        "\"\"",
+        "\"\""
+    ],
+    "variables": [
+        "usePersonLabel",
+        "getDate",
+        "getText",
+        "label",
+        "born"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

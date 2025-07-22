@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "openedx",
+        "core",
+        "djangoapps",
+        "waffle_utils",
+        "CourseWaffleFlag",
+        "CourseWaffleFlag",
+        "WAFFLE_FLAG_NAMESPACE"
+    ],
+    "literals": [
+        "'video_config'",
+        "f'{WAFFLE_FLAG_NAMESPACE}.public_video_share'"
+    ],
+    "variables": [
+        "WAFFLE_FLAG_NAMESPACE",
+        "PUBLIC_VIDEO_SHARE"
+    ],
+    "comments": [
+        ".. toggle_name: video_config.public_video_share",
+        ".. toggle_implementation: CourseWaffleFlag",
+        ".. toggle_default: False",
+        ".. toggle_description: Gates access to the public social sharing video feature.",
+        ".. toggle_use_cases: temporary, opt_in",
+        ".. toggle_creation_date: 2023-02-02",
+        ".. toggle_target_removal_date: None"
+    ],
+    "docstrings": [
+        "\"\"\"\nVideo config toggles\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

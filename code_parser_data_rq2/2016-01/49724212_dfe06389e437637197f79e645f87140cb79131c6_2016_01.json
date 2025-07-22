@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "apiService",
+        "coAuthenticateService",
+        "$modal",
+        "$window",
+        "options",
+        "$scope",
+        "$modalInstance",
+        "$window",
+        "options",
+        "$scope",
+        "options",
+        "$modalInstance",
+        "$window",
+        "$scope",
+        "$window",
+        "$scope",
+        "$window",
+        "modalTemplate",
+        "ModalController",
+        "$window",
+        "$window",
+        "$window",
+        "modal",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'apiService'",
+        "'coAuthenticateService'",
+        "'$modal'",
+        "'$window'",
+        "<form ng-submit=\"vm.save()\" name=\"addModalForm\">\n        <div class=\"modal-header\">\n          <h3>Switch Environment</h3>\n        </div>\n        <div class=\"modal-body\">\n          <div class=\"row\">\n            <div class=\"col-xs-12\">\n              <label>API URL</label>\n              <input type=\"text\" class=\"form-control\"\n                ng-init=\"vm.newApiUrl = vm.options.apiUrl\"\n                ng-model=\"vm.newApiUrl\">\n              <br>\n              <label>Token</label>\n              <input type=\"text\" class=\"form-control\"\n                ng-init=\"vm.newAccessTokenId = vm.options.accessTokenId\"\n                ng-model=\"vm.newAccessTokenId\">\n            </div>\n          </div>\n        </div>\n        <div class=\"modal-footer\" co-submit-buttons=\"enabledPristine\">\n          <button type=\"button\" class=\"btn btn-default\" ng-click=\"vm.cancel()\">Cancel</button>\n          <button type=\"submit\" class=\"btn btn-success\">Go</button>\n        </div>\n      </form>",
+        "'$scope'",
+        "'$modalInstance'",
+        "'$window'",
+        "'options'",
+        "'appConfigParams'",
+        "'$LoopBack$accessTokenId'",
+        "'vm'",
+        "'$window'",
+        "'$LoopBack$accessTokenId'"
+    ],
+    "variables": [
+        "modalTemplate",
+        "ModalController",
+        "modal"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "switchEnv"
+    ],
+    "classes": [
+        "AppController"
+    ]
+}

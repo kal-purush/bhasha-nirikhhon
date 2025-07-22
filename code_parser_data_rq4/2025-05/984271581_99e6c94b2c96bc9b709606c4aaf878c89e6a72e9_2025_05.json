@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "React",
+        "useEffect",
+        "useState",
+        "axios",
+        "useState",
+        "useEffect",
+        "axios",
+        "fetchUrl",
+        "setMovies",
+        "request",
+        "fetchData",
+        "fetchUrl",
+        "div",
+        "h2",
+        "title",
+        "h2",
+        "div",
+        "movies",
+        "movie",
+        "img",
+        "movie",
+        "isLargeRow",
+        "base_url",
+        "isLargeRow",
+        "movie",
+        "movie",
+        "movie",
+        "div",
+        "div",
+        "Row"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"../../../Utilities/axios\"",
+        "\"./Row.css\"",
+        "\"https://image.tmdb.org/t/p/original/\"",
+        "\"row\"",
+        "\"row__posters\"",
+        "row__poster ${isLargeRow && \"row__posterLarge\"}",
+        "\"row__posterLarge\"",
+        "${base_url}${\n              isLargeRow ? movie.poster_path : movie.backdrop_path\n            }"
+    ],
+    "variables": [
+        "base_url",
+        "movies",
+        "setMovies",
+        "request"
+    ],
+    "comments": [
+        "Row.js (Generic Row component)",
+        "✅ This line renders the title"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Row",
+        "fetchData"
+    ],
+    "classes": []
+}

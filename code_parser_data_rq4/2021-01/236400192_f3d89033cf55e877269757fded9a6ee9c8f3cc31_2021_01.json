@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "org",
+        "kakara",
+        "core",
+        "common",
+        "calculator",
+        "java",
+        "util",
+        "CalculatorRegistry",
+        "calculator",
+        "key",
+        "key"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Registers a new calculator to the system.\n     * However, if the calculator has already been set the User will need to change it in the settings.\n     *\n     * @param calculator",
+        "* Returns the registered calculators for a given key.\n     *\n     * @param key the calculator key.\n     * @return the list of registered calculators.",
+        "* Returns the set Calculator for a given key.\n     *\n     * @param key the key.\n     * @return the calculator."
+    ],
+    "functions": [
+        "registerNewCalculator",
+        "getCalculators",
+        "Calculator",
+        "getSetCalculator"
+    ],
+    "classes": []
+}

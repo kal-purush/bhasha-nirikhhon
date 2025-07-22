@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "MongoClient",
+        "connectDB",
+        "operation",
+        "res",
+        "MongoClient",
+        "client",
+        "operation",
+        "db",
+        "client",
+        "err",
+        "res",
+        "connectDB"
+    ],
+    "literals": [
+        "\"mongodb\"",
+        "\"mongodb://localhost:27017\"",
+        "\"listItem\"",
+        "\"error connecting to database\""
+    ],
+    "variables": [
+        "connectDB",
+        "client",
+        "db"
+    ],
+    "comments": [
+        "0. create a higher order function that connects to database\n    1. store them in a try catch block for error\n    2. connect to server of database -> grab the database we're using\n    3. call the callback function(operation) to start executing - this operation is modifying the database and modifying the database is an async\n    4. close the connection to database",
+        "pass the response from api"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

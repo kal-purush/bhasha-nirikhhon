@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "i",
+        "images",
+        "i",
+        "ImageLoader",
+        "images",
+        "i",
+        "loadAllImages",
+        "loadAllImages"
+    ],
+    "literals": [
+        "'use strict'",
+        "'img[data-src]'",
+        "'DOMContentLoaded'",
+        "'resize'"
+    ],
+    "variables": [
+        "images",
+        "i"
+    ],
+    "comments": [
+        "Load all images via Squarespace's Responsive ImageLoader",
+        "The event subscription that loads images when the page is ready",
+        "The event subscription that reloads images on resize"
+    ],
+    "docstrings": [
+        "* This script wrapped in a Immediately-Invoked Function Expression (IIFE) to\n * prevent variables from leaking onto the global scope. For more information\n * on IIFE visit the link below.\n * @see http://en.wikipedia.org/wiki/Immediately-invoked_function_expression"
+    ],
+    "functions": [
+        "loadAllImages"
+    ],
+    "classes": []
+}

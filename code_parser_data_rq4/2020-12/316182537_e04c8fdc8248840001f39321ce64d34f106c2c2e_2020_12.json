@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "content",
+        "serverConfig",
+        "content",
+        "content",
+        "content",
+        "content",
+        "matchers",
+        "m",
+        "content",
+        "m",
+        "matcher",
+        "matcher",
+        "token",
+        "token",
+        "t",
+        "t"
+    ],
+    "literals": [
+        "'command'",
+        "'text'",
+        "'user'",
+        "'role'",
+        "'channel'",
+        "string",
+        "'user'",
+        "'role'",
+        "'channel'",
+        "string",
+        "string",
+        "' '",
+        "''",
+        "'command'",
+        "'text'",
+        "string",
+        "'command'",
+        "string",
+        "' '"
+    ],
+    "variables": [
+        "matchers",
+        "matcher",
+        "token"
+    ],
+    "comments": [
+        "parses given content into tokens seperated by spaces\n * \n * tokens can be retrieved from the tokens property",
+        "Tokens extracted from content\n   * \n   * Available types: text, user, role, channel, command",
+        "ignore double space situations",
+        "get command name, will return undefined if it's an invalid command",
+        "return raw body after command or full if it's not a valid command"
+    ],
+    "docstrings": [],
+    "functions": [
+        "parse",
+        "command",
+        "body"
+    ],
+    "classes": [
+        "Tokenizer"
+    ]
+}

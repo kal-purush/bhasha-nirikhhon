@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "define",
+        "Settings",
+        "Settings"
+    ],
+    "literals": [
+        "'settings'",
+        "\"http://\"",
+        "\":9200\"",
+        "'/dashboard/file/default.json'",
+        "\"kibana-int\"",
+        "'histogram'",
+        "'map'",
+        "'pie'",
+        "'table'",
+        "'filtering'",
+        "'timepicker'",
+        "'text'",
+        "'hits'",
+        "'column'",
+        "'trends'",
+        "'bettermap'",
+        "'query'",
+        "'terms'",
+        "'stats'",
+        "'sparklines'"
+    ],
+    "variables": [],
+    "comments": [
+        "@scratch /configuration/config.js/1\n * == Configuration\n * config.js is where you will find the core Kibana configuration. This file contains parameter that\n * must be set before kibana is run for the first time.",
+        "@scratch /configuration/config.js/2\n   * === Parameters",
+        "@scratch /configuration/config.js/5\n     * ==== elasticsearch\n     *\n     * The URL to your elasticsearch server. You almost certainly don't\n     * want +http://localhost:9200+ here. Even if Kibana and Elasticsearch are on\n     * the same host. By default this will attempt to reach ES at the same host you have\n     * kibana installed on. You probably want to set it to the FQDN of your\n     * elasticsearch host",
+        "@scratch /configuration/config.js/5\n     * ==== default_route\n     *\n     * This is the default landing page when you don't specify a dashboard to load. You can specify\n     * files, scripts or saved dashboards here. For example, if you had saved a dashboard called\n     * `WebLogs' to elasticsearch you might use:\n     *\n     * +default_route: '/dashboard/elasticsearch/WebLogs',+",
+        "@scratch /configuration/config.js/5\n     * ==== kibana-int\n     *\n     * The default ES index to use for storing Kibana specific object\n     * such as stored dashboards",
+        "@scratch /configuration/config.js/5\n     * ==== panel_name\n     *\n     * An array of panel modules available. Panels will only be loaded when they are defined in the\n     * dashboard, but this list is used in the \"add panel\" interface."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

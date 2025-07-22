@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "NextRequest",
+        "NextResponse",
+        "ACCESS_TOKEN_KEY",
+        "req",
+        "req",
+        "PUBLIC_FILE",
+        "req",
+        "req",
+        "ACCESS_TOKEN_KEY",
+        "req",
+        "status",
+        "NextResponse",
+        "req"
+    ],
+    "literals": [
+        "'next/server'",
+        "'../config'",
+        "'/'",
+        "'logged_in'",
+        "'anon'",
+        "'logged_in'",
+        "/",
+        "/signup"
+    ],
+    "variables": [
+        "PUBLIC_FILE",
+        "status"
+    ],
+    "comments": [
+        "Only rewrite files that don't have a file extension (think favicon)",
+        "Only rewrite if we are at the root",
+        "if there's a cookie with a token they are logged in"
+    ],
+    "docstrings": [
+        "* with this approach, logged in users can be shown\n * '/' and anon users '/signup' IN PLACE\n *\n * we don't have a server cookie to get member status, but that\n * should be on the short list. That would make this even better\n * because we could send them into a more specific /learn route\n * and we could start personalizing that a bit more using various\n * cookies and such.\n *\n * This looks a lot like the i18n example:\n * https://github.com/vercel/examples/tree/main/edge-functions/i18n\n *\n * an the split testing example that puts them in a bucket:\n * https://github.com/vercel/examples/edge-functions/ab-testing-simple\n *"
+    ],
+    "functions": [
+        "middleware"
+    ],
+    "classes": []
+}

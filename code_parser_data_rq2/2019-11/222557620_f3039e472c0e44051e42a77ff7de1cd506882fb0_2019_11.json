@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "datetime",
+        "datetime",
+        "follower_list",
+        "follower",
+        "follower_list",
+        "datetime",
+        "strptime",
+        "follower",
+        "follower_list",
+        "follower",
+        "reversed",
+        "follower_list",
+        "follower",
+        "created_at",
+        "most_recent",
+        "most_recent",
+        "created_at",
+        "created_at"
+    ],
+    "literals": [
+        "\"created_at\"",
+        "\"created_at\"",
+        "\"%a %b %d %H:%M:%S %z %Y\"",
+        "\"created_at\"",
+        "\"created_at\"",
+        "\"followed_at_earliest\"",
+        "\"followed_at_earliest\""
+    ],
+    "variables": [
+        "follower",
+        "most_recent",
+        "created_at",
+        "follower",
+        "follower",
+        "most_recent"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "-*- coding: utf-8 -*-",
+        "Recode all \"created_at\" time stamps into datetime format",
+        "Create variable that takes on date of most recent follower during loop, starting with oldest",
+        "Loop through followers starting from oldest one (end of list)"
+    ],
+    "docstrings": [
+        "\"\"\"\nCreated on Mon Nov 18 17:25:37 2019\n\n@author: bernhardclemm\n\"\"\""
+    ],
+    "functions": [
+        "following_dates"
+    ],
+    "classes": []
+}

@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "sys",
+        "os",
+        "stats",
+        "VAR_IDEMPOTENCE",
+        "playbook",
+        "extra_vars",
+        "keys",
+        "playbook",
+        "extra_vars",
+        "VAR_IDEMPOTENCE",
+        "len",
+        "stats",
+        "dark",
+        "stats",
+        "dark",
+        "sys",
+        "exit",
+        "os",
+        "EX_SOFTWARE",
+        "len",
+        "stats",
+        "changed",
+        "stats",
+        "changed",
+        "sys",
+        "exit",
+        "os",
+        "EX_SOFTWARE",
+        "len",
+        "stats",
+        "failures",
+        "stats",
+        "failures",
+        "sys",
+        "exit",
+        "os",
+        "EX_SOFTWARE"
+    ],
+    "literals": [
+        "u'idempotence'",
+        "u'%s'",
+        "'idempotence test failed! unreachable=%s > 0'",
+        "'idempotence test failed! changed=%s > 0'",
+        "'idempotence test failed! failures=%s > 0'"
+    ],
+    "variables": [
+        "VAR_IDEMPOTENCE"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    This callback module performs the idempotence test whenever the 'idempotence' variable is set to True.\n    \"\"\""
+    ],
+    "functions": [
+        "playbook_on_stats"
+    ],
+    "classes": [
+        "CallbackModule"
+    ]
+}

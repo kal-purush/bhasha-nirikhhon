@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "formatUrl",
+        "describe",
+        "it",
+        "expect",
+        "formatUrl",
+        "url",
+        "url",
+        "it",
+        "expect",
+        "formatUrl",
+        "url",
+        "url",
+        "it",
+        "expect",
+        "formatUrl",
+        "url",
+        "url",
+        "it",
+        "expect",
+        "formatUrl",
+        "url",
+        "url"
+    ],
+    "literals": [
+        "'@/utils/formatUrl'",
+        "'formatUrl'",
+        "'should return the URL as is if it starts with http://'",
+        "'http://example.com'",
+        "'should return the URL as is if it starts with https://'",
+        "'https://example.com'",
+        "'should prepend https:// if the URL does not start with http:// or https://'",
+        "'example.com'",
+        "https://${url}",
+        "'should handle URLs with no scheme correctly'",
+        "'example'",
+        "https://${url}"
+    ],
+    "variables": [
+        "url",
+        "url",
+        "url",
+        "url"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

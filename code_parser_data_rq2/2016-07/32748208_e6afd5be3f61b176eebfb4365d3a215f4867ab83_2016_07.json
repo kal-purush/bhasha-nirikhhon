@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Reflection",
+        "Minicloner",
+        "Func",
+        "Type",
+        "Func",
+        "Type",
+        "GetTypeInfo",
+        "Assembly",
+        "GetType",
+        "GetMethod",
+        "BindingFlags",
+        "NonPublic",
+        "BindingFlags",
+        "Public",
+        "BindingFlags",
+        "Static",
+        "CreateDelegate",
+        "Func",
+        "Type",
+        "Type",
+        "GetUninitializedObjectDelegate",
+        "Invoke"
+    ],
+    "literals": [
+        "\"System.Runtime.Serialization.FormatterServices\"",
+        "\"GetUninitializedObject\""
+    ],
+    "variables": [
+        "GetUninitializedObjectDelegate"
+    ],
+    "comments": [
+        "Hack to fix the problem of not having FormatterServices class in netstandard1.6",
+        "Based on https://github.com/dotnet/corefx/issues/7938#issuecomment-227580931",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "GetUninitializedObject"
+    ],
+    "classes": [
+        "FormatterServices"
+    ]
+}

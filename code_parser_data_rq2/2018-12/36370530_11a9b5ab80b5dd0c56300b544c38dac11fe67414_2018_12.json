@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "com",
+        "ulisesbocchio",
+        "jasyptspringboot",
+        "encryptor",
+        "lombok",
+        "SneakyThrows",
+        "org",
+        "jasypt",
+        "encryption",
+        "ByteEncryptor",
+        "org",
+        "jasypt",
+        "encryption",
+        "StringEncryptor",
+        "java",
+        "nio",
+        "charset",
+        "StandardCharsets",
+        "java",
+        "util",
+        "Base64",
+        "Override",
+        "SneakyThrows",
+        "message",
+        "Base64",
+        "getEncoder",
+        "encodeToString",
+        "encrypt",
+        "message",
+        "getBytes",
+        "StandardCharsets",
+        "UTF_8",
+        "Override",
+        "SneakyThrows",
+        "encryptedMessage",
+        "decrypt",
+        "Base64",
+        "getDecoder",
+        "decode",
+        "encryptedMessage",
+        "StandardCharsets",
+        "UTF_8"
+    ],
+    "literals": [],
+    "variables": [
+        "delegate"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* String Encryptor that delegates always to a {@link ByteEncryptor} and converts results to/from Base64 for string\n * representation.\n *\n * @author Ulises Bocchio"
+    ],
+    "functions": [
+        "ByteEncryptorStringEncryptorDelegate",
+        "encrypt",
+        "decrypt"
+    ],
+    "classes": [
+        "ByteEncryptorStringEncryptorDelegate"
+    ]
+}

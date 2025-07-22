@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "actors",
+        "actors",
+        "actors"
+    ],
+    "literals": [],
+    "variables": [
+        "_images_cache"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n        - add methods to the interface\n            i.e. ScreenService.DrawImages(Actors)\n            (this is in core)\n        - create the trait Image\n            i.e. image\n        - Implement the methods in concrete class\n            i.e. PygameScreenService\n            A. Loop Through Actors\n            If has Image trait:\n                convert image data to what pygame needs\n                use pygame to draw\n    \"\"\"",
+        "\"\"\"\n            load all the images into a dictionary cache\n        \"\"\"",
+        "\"\"\"\n            first thing: check to see if it's in the cache\n        \"\"\""
+    ],
+    "functions": [
+        "draw_actors",
+        "initialize",
+        "load_images",
+        "draw_images",
+        "release"
+    ],
+    "classes": [
+        "ScreenService"
+    ]
+}

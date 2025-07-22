@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "IonicApp",
+        "App",
+        "Platform",
+        "Config",
+        "HomePage",
+        "AboutPage",
+        "App",
+        "app",
+        "platform",
+        "app",
+        "platform",
+        "HomePage",
+        "HomePage",
+        "AboutPage",
+        "page",
+        "nav",
+        "page",
+        "nav",
+        "page"
+    ],
+    "literals": [
+        "'ionic-framework/ionic'",
+        "'./pages/home/home'",
+        "'./pages/about/about'",
+        "<ion-menu id=\"leftMenu\" [content]=\"content\">\n      <ion-toolbar>\n        <ion-title>Pages</ion-title>\n      </ion-toolbar>\n      <ion-content>\n        <ion-list>\n          <button ion-item *ngFor=\"#p of pages\" (click)=\"openPage(p)\">\n            {{p.title}}\n          </button>\n        </ion-list>\n      </ion-content>\n    </ion-menu>\n\n    <ion-nav id=\"nav\" [root]=\"root\" #content swipe-back-enabled=\"false\"></ion-nav>",
+        "'Vegan Lists UK'",
+        "'calendar'",
+        "'About App'",
+        "'log-in'",
+        "'leftMenu'",
+        "'nav'"
+    ],
+    "variables": [
+        "nav"
+    ],
+    "comments": [
+        "Check out the config API docs for more info",
+        "http://ionicframework.com/docs/v2/api/config/Config/",
+        "close the menu when clicking a link from the menu",
+        "navigate to the new page if it is not the current page",
+        "change the root page unless the root is already the current page"
+    ],
+    "docstrings": [],
+    "functions": [
+        "openPage"
+    ],
+    "classes": [
+        "MyApp"
+    ]
+}

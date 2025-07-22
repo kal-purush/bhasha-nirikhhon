@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "uploadFile",
+        "require",
+        "uploadAllDocs",
+        "require",
+        "downloadAllDocs",
+        "require",
+        "downloadAllDocs",
+        "url",
+        "coursedb",
+        "folder"
+    ],
+    "literals": [
+        "\"./upload-doc.js\"",
+        "\"./upload-all-docs.js\"",
+        "\"./download-all-docs.js\"",
+        "\"https://user01005:uloh2ieH@couchdb.docker.local/\"",
+        "'db01005'",
+        "'../dtu-data/01005-content/Frontpage-left.md'",
+        "'../dtu-data/01005-content'",
+        "'./tmp'"
+    ],
+    "variables": [
+        "url",
+        "coursedb",
+        "fname",
+        "folder",
+        "folder"
+    ],
+    "comments": [
+        "var url = \"https://user00000:Die2Imae@couchdb.docker.local/\"",
+        "var coursedb = 'db00000';",
+        "NODE_TLS_REJECT_UNAUTHORIZED=0 node test-tools.js",
+        "uploadFile(url, coursedb, fname)",
+        "uploadAllDocs(url, coursedb, folder)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

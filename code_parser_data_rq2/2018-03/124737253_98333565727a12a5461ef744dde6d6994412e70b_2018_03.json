@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "createConnection",
+        "path",
+        "User",
+        "createConnection",
+        "path",
+        "__dirname",
+        "addUser",
+        "email",
+        "init",
+        "connection",
+        "User",
+        "newUser",
+        "email",
+        "newUser",
+        "newUser",
+        "error",
+        "email",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'path'",
+        "'./entities/User'",
+        "\"postgres\"",
+        "\"postgres\"",
+        "\"root\"",
+        "\"admin\"",
+        "\"test\"",
+        "\"/entities/*.js\"",
+        "string",
+        "Could not save UserEntity for new user: ${email}.",
+        "Error from saving: ${JSON.stringify(error, null, 2)}."
+    ],
+    "variables": [
+        "init",
+        "addUser",
+        "newUser"
+    ],
+    "comments": [
+        "Closure pattern to invoke it instantly and store the promise for later use"
+    ],
+    "docstrings": [
+        "* Saves a new user into the database for later use. Creates a UserEntity and returns a User.\n * @param email Email address for a new user."
+    ],
+    "functions": [],
+    "classes": []
+}

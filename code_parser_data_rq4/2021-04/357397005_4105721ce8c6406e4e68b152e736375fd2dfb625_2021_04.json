@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "hellospring",
+        "controllers",
+        "org",
+        "springframework",
+        "stereotype",
+        "Controller",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "RequestMapping",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "ResponseBody",
+        "RequestMapping",
+        "Controller",
+        "ResponseBody",
+        "RequestMapping",
+        "ResponseBody",
+        "RequestMapping",
+        "ResponseBody",
+        "RequestMapping"
+    ],
+    "literals": [
+        "\"/guestbook/*\"",
+        "\"<h1>Guestbook List</h1>\"",
+        "\"<h1>Guestbook Add</h1>\"",
+        "\"<h1>Guestbook Delete</h1>\""
+    ],
+    "variables": [],
+    "comments": [
+        "02/07/24",
+        "타입 단독 매핑",
+        "클래스가 상위 url 처리, 하위 url -> 메서드 이름과 매핑",
+        "하위 url 패턴을 명시하지 않음",
+        "-> /guestbook/list 에 연결"
+    ],
+    "docstrings": [],
+    "functions": [
+        "add"
+    ],
+    "classes": [
+        "GuestbookController"
+    ]
+}

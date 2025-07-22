@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "FB",
+        "response",
+        "statusChangeCallback",
+        "response",
+        "response",
+        "response",
+        "response",
+        "FB",
+        "changeUser",
+        "response",
+        "response",
+        "response",
+        "$",
+        "$",
+        "response",
+        "$",
+        "response"
+    ],
+    "literals": [
+        "'Facebook login status changed.'",
+        "'connected'",
+        "'/me?fields=name,first_name,picture.width(480)'",
+        "\".facebookLogin\"",
+        "\"#name\"",
+        "\"#photo\"",
+        "'src'"
+    ],
+    "variables": [],
+    "comments": [
+        "The response object is returned with a status field that lets the",
+        "app know the current login status of the person.",
+        "Full docs on the response object can be found in the documentation",
+        "for FB.getLoginStatus().",
+        "Logged into your app and Facebook."
+    ],
+    "docstrings": [],
+    "functions": [
+        "checkLoginState",
+        "statusChangeCallback",
+        "changeUser"
+    ],
+    "classes": []
+}

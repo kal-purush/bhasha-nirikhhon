@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "sqlalchemy",
+        "create_engine",
+        "pandas",
+        "pd",
+        "config",
+        "db_params",
+        "postgreSQL_db_name",
+        "db",
+        "table_name",
+        "db_params",
+        "db_params",
+        "db_params",
+        "db_params",
+        "db",
+        "create_engine",
+        "jdbc_url",
+        "open",
+        "pd",
+        "read_sql_query",
+        "query",
+        "read",
+        "engine",
+        "df",
+        "to_sql",
+        "table_name",
+        "engine",
+        "if_exists",
+        "create_datamart",
+        "postgreSQL_db_name"
+    ],
+    "literals": [
+        "f\"postgresql://{db_params[\"user\"]}:{db_params[\"password\"]}@\"",
+        "\"user\"",
+        "\"password\"",
+        "f\"{db_params[\"host\"]}:{db_params[\"port\"]}/{db}\"",
+        "\"host\"",
+        "\"port\"",
+        "\"datamart_script.sql\"",
+        "'r'",
+        "\"append\"",
+        "\"__main__\"",
+        "\"datamart\""
+    ],
+    "variables": [
+        "jdbc_url",
+        "engine",
+        "query",
+        "df"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "create_datamart"
+    ],
+    "classes": []
+}

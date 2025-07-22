@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Fabric",
+        "Terminology",
+        "API",
+        "Bootstrapping",
+        "AutoMapper",
+        "Fabric",
+        "Terminology",
+        "API",
+        "Bootstrapping",
+        "MapperProfiles",
+        "ConfigLock",
+        "initialized",
+        "Mapper",
+        "Initialize",
+        "cfg",
+        "AddProfile",
+        "CodeSystemApiProfile",
+        "cfg",
+        "AddProfile",
+        "CodeSystemCodeApiProfile",
+        "cfg",
+        "AddProfile",
+        "ValueSetApiProfile",
+        "initialized"
+    ],
+    "literals": [],
+    "variables": [
+        "ConfigLock",
+        "initialized"
+    ],
+    "comments": [
+        "Utility class to ensure property AutoMapper configuration",
+        "</summary>",
+        "<seealso cref=\"https://github.com/AutoMapper/AutoMapper/issues/2607\"/>",
+        "Centralize automapper initialize",
+        "This will ensure one thread can access to this static initialize call",
+        "and ensure the mapper is reseted before initialized"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "Initialize"
+    ],
+    "classes": [
+        "AutoMapperConfig"
+    ]
+}

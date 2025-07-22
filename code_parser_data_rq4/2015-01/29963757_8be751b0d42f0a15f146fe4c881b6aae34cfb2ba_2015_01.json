@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "Asana",
+        "constants",
+        "Asana",
+        "client",
+        "Asana",
+        "Asana",
+        "Asana",
+        "constants",
+        "constants",
+        "fetchCredentialsOrNull",
+        "Asana",
+        "Asana",
+        "client",
+        "storeCredentialsFromClient",
+        "client",
+        "client",
+        "path",
+        "query",
+        "dispatchOptions",
+        "client",
+        "client",
+        "path",
+        "query",
+        "dispatchOptions",
+        "AuthorizedClient"
+    ],
+    "literals": [
+        "\"asana\"",
+        "\"./constants\"",
+        "\"Fetching credentials is currently unsupported.\"",
+        "\"Storing credentials is currently unsupported.\"",
+        "\"Using stored credentials is currently unsupported.\"",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"./asana.d.ts\" />",
+        "Try to use credentials, if they are supplied. Otherwise, we use the popup flow."
+    ],
+    "docstrings": [
+        "* Fetches credentials if the user has recently oauthed in.\n *\n * @TODO Implement this.\n * @returns {Asana.auth.Credentials|null}",
+        "* Stores credentials from an authorized client for use in later sessions.\n *\n * @TODO Implement this.\n * @param {Asana.Client} client",
+        "* A client that seamlessly authorizes and allows use of parts of the API.\n * If credentials are available, then uses those; otherwise, uses popup oauth.",
+        "* Checks if the current client has non-expired credentials.\n     *\n     * @TODO: Implement this.\n     * @returns {boolean}",
+        "* Authorizes the client to make request, and saves the credentials for a\n     * later session.\n     *\n     * @returns {Promise<Client>}  A promise that resolves to this client when\n     *     authorization is complete.",
+        "* Dispatches a GET request to the Asana API.\n     *\n     * @param {string} path  The path of the API\n     * @param {any} query  The query params\n     * @param {any} dispatchOptions  Options for handling the request and response.\n     *     See Asana.Dispatcher for more info.\n     * @returns {Promise<any>}  The response for the request."
+    ],
+    "functions": [
+        "fetchCredentialsOrNull",
+        "storeCredentialsFromClient",
+        "isAuthorized",
+        "ensureAuthorized",
+        "get"
+    ],
+    "classes": [
+        "AuthorizedClient"
+    ]
+}

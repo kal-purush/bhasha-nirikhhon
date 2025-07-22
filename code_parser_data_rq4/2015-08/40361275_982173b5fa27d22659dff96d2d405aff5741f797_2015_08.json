@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "name",
+        "Game",
+        "name",
+        "name",
+        "name",
+        "memory",
+        "Role",
+        "memory",
+        "Game",
+        "name",
+        "Status",
+        "Status",
+        "names",
+        "names",
+        "name",
+        "Game",
+        "name",
+        "creep",
+        "creep",
+        "creep",
+        "creep",
+        "Status",
+        "doneSpawning",
+        "creep",
+        "creep",
+        "Status",
+        "_",
+        "names",
+        "doneSpawning",
+        "creep",
+        "creep"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "memory",
+        "doneSpawning"
+    ],
+    "comments": [
+        "<reference path=\"_references.ts\" />"
+    ],
+    "docstrings": [
+        "* Checks input id list for creeps that have spawning status but are finished\n\t * @param ids list of creep ids to check\n\t * @returns returns the list of objects that are still spawning, not creeps, or that don't have a status of spawning"
+    ],
+    "functions": [
+        "memory",
+        "registerCreep",
+        "UpdateSpawning"
+    ],
+    "classes": [
+        "CreepManager"
+    ]
+}

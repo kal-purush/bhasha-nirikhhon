@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "ForbiddenException",
+        "UnauthorizedException",
+        "requiredRoles",
+        "role",
+        "requiredRoles",
+        "role",
+        "ForbiddenException",
+        "requiredRoles",
+        "role",
+        "UnauthorizedException",
+        "role",
+        "UnauthorizedException",
+        "requiredRoles",
+        "role",
+        "ForbiddenException"
+    ],
+    "literals": [
+        "'@nestjs/common'"
+    ],
+    "variables": [],
+    "comments": [
+        "handler is allowed only for not authorized",
+        "but there is some role",
+        "handler is allowed for any authorized",
+        "but there is not any role",
+        "handler is allowed for certain roles",
+        "there is no any role",
+        "role is not one of requireds"
+    ],
+    "docstrings": [],
+    "functions": [
+        "checkRoles"
+    ],
+    "classes": []
+}

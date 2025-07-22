@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "fetch",
+        "response",
+        "response",
+        "data",
+        "listaCursos",
+        "data",
+        "curso",
+        "div",
+        "div",
+        "curso",
+        "curso",
+        "curso",
+        "curso",
+        "curso",
+        "curso",
+        "listaCursos",
+        "div"
+    ],
+    "literals": [
+        "'/api.php?entity=cursos'",
+        "'lista-cursos'",
+        "''",
+        "'div'",
+        "'curso'",
+        "<img src=\"images/${curso.codigo_unico}.jpg\" alt=\"${curso.nome}\">\n                    <h3>${curso.nome}</h3>\n                    <p>${curso.descricao}</p>\n                    <p>Carga Horária: ${curso.carga_horaria} horas</p>\n                    <button onclick=\"inscrever(${curso.id})\">Inscrever-se</button>"
+    ],
+    "variables": [
+        "listaCursos",
+        "div"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "fetchCursos"
+    ],
+    "classes": []
+}

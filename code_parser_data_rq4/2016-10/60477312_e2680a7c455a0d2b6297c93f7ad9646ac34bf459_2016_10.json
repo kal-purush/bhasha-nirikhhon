@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "require",
+        "fulfill",
+        "reject",
+        "request",
+        "error",
+        "response",
+        "data",
+        "data",
+        "error",
+        "reject",
+        "error",
+        "fulfill",
+        "data"
+    ],
+    "literals": [
+        "'request'",
+        "'https://api.themoviedb.org/3/movie/upcoming/?sort_by=popularity.desc&api_key=b2c319d64cba3280f7ee6977b9a470e0'",
+        "'data '"
+    ],
+    "variables": [
+        "request"
+    ],
+    "comments": [
+        "console.log('response ', response);",
+        "function getUpcomingMovieData() {",
+        "return new Promise(function(fulfill, reject){",
+        "request('https://api.themoviedb.org/3/movie/upcoming/?sort_by=popularity.desc&api_key=b2c319d64cba3280f7ee6977b9a470e0',",
+        "function(error, response, data){",
+        "// console.log('data ', data);",
+        "// console.log('response ', response);",
+        "if (error) reject(error);",
+        "else fulfill(data);",
+        "});",
+        "});",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

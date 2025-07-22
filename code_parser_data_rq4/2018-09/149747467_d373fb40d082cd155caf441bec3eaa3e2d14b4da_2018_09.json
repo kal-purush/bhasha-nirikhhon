@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "ModComponentAPI",
+        "ModComponent",
+        "Header",
+        "Tooltip",
+        "Range",
+        "Tooltip",
+        "Range",
+        "Tooltip",
+        "Range",
+        "Tooltip",
+        "Range",
+        "Tooltip",
+        "Range",
+        "Tooltip",
+        "Range",
+        "Tooltip",
+        "Tooltip",
+        "Tooltip",
+        "Tooltip"
+    ],
+    "literals": [
+        "\"Bed\"",
+        "\"How many condition points are restored per hour by sleeping in this bed? This is the base rate and applied for the first hour. The second and following hours will benefit from 'UninterruptedRestPercentGainPerHour'.\"",
+        "\"Additionally restored condition points restored per hour. The n-th hour of sleeping gives (n - 1) * UninterruptedRestGainPerHour additional health points.\"",
+        "\"Warmth bonus of the bed in °C.\"",
+        "\"How much condition does this bed item lose per hour of use?\"",
+        "\"Modifier for the chance of bear encounters during sleep. Positive values decrease the chance; negative values increase the chance.\"",
+        "\"Modifier for the chance of wolf encounters during sleep. Positive values decrease the chance; negative values increase the chance.\"",
+        "\"Sound to be played when beginning to sleep in this bed. Leave empty for a sensible default.\"",
+        "\"Sound to be played when ending to sleep in this bed. Leave empty for a sensible default.\"",
+        "\"Optional game object to be used for representing the bed in a 'packed' state.\"",
+        "\"Optional game object to be used for representing the bed in a 'usable' state.\""
+    ],
+    "variables": [
+        "ConditionGainPerHour",
+        "AdditionalConditionGainPerHour",
+        "WarmthBonusCelsius",
+        "DegradePerHour",
+        "BearAttackModifier",
+        "WolfAttackModifier",
+        "OpenAudio",
+        "CloseAudio",
+        "GameObject",
+        "PackedMesh",
+        "GameObject",
+        "UsableMesh"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "ModBedComponent"
+    ]
+}

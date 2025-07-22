@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "jQuery",
+        "$",
+        "wp_admin_notice_setup_js",
+        "jQuery",
+        "jQuery",
+        "jQuery",
+        "jQuery",
+        "jQuery",
+        "jQuery",
+        "jQuery",
+        "jQuery"
+    ],
+    "literals": [
+        "'object'",
+        "'function'",
+        "'#wp_admin_notice_options_text_color'",
+        "'#wp_admin_notice_options_text_bg_color'",
+        "'#wp_admin_notice_options_link_color'",
+        "'.wp_admin_notice_admin_wrapper #text_color_picker'",
+        "'#wp_admin_notice_options_text_color'",
+        "'.wp_admin_notice_admin_wrapper #text_bg_color_picker'",
+        "'#wp_admin_notice_options_text_bg_color'",
+        "'.wp_admin_notice_admin_wrapper #link_color_picker'",
+        "'#wp_admin_notice_options_link_color'"
+    ],
+    "variables": [],
+    "comments": [
+        "This if statement checks if the color picker widget exists within jQuery UI",
+        "If it does exist then we initialize the WordPress color picker on our text input field",
+        "We use farbtastic if the WordPress color picker widget doesn't exist"
+    ],
+    "docstrings": [],
+    "functions": [
+        "wp_admin_notice_setup_js"
+    ],
+    "classes": []
+}

@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "text",
+        "text",
+        "SPM_SPACE_SENTINEL",
+        "tokens",
+        "matcher",
+        "tokens",
+        "text",
+        "matcher",
+        "i",
+        "tokens",
+        "i",
+        "tokens",
+        "i",
+        "matches",
+        "matchIdx",
+        "nextMatch",
+        "textCharOffset",
+        "token",
+        "nextMatch",
+        "acc",
+        "groups",
+        "groups",
+        "acc",
+        "acc",
+        "matchIdx",
+        "acc",
+        "token",
+        "textCharOffset",
+        "token",
+        "acc",
+        "groups",
+        "acc",
+        "groups"
+    ],
+    "literals": [
+        "'▁'",
+        "string",
+        "string",
+        "' '",
+        "string",
+        "string",
+        "''",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "SPM_SPACE_SENTINEL",
+        "text",
+        "matches",
+        "textCharOffset",
+        "matchIdx",
+        "groups",
+        "acc",
+        "i",
+        "token",
+        "nextMatch"
+    ],
+    "comments": [
+        "chars into text",
+        "indices into matches",
+        "Look ahead to see if this token intrudes on a match.",
+        "If so, start a new segment before pushing the token.",
+        "Don't push an empty group if the first token is part of a match.",
+        "Push the token.",
+        "Finally, push any open group."
+    ],
+    "docstrings": [
+        "* @fileoverview Utils for working with tokenized text.",
+        "* Evil underscore used by sentencepiece to replace spaces.",
+        "* Clean SPM text to make it more human-readable.",
+        "* Use a regex to match segment prefixes. The prefix and anything\n * following it (until the next match) are treated as one segment."
+    ],
+    "functions": [
+        "cleanSpmText",
+        "groupTokensByRegexPrefix"
+    ],
+    "classes": []
+}

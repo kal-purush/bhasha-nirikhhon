@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "JestConfigWithTsJest",
+        "jestConfig"
+    ],
+    "literals": [
+        "'ts-jest'",
+        "\"coverage\"",
+        "\"<rootDir>/node_modules/(?!@foo)\"",
+        "\"ts\"",
+        "\"tsx\"",
+        "\"js\"",
+        "\"@/(.*)\"",
+        "\"<rootDir>/src/$1\"",
+        "\"node\"",
+        "\"(/tests/.*|(\\\\.|/)(test|spec))\\\\.(jsx?|tsx?)$\"",
+        "\"^.+\\\\.(ts|tsx)$\"",
+        "\"ts-jest\"",
+        "\"tsconfig\"",
+        "\"tsconfig.json\"",
+        "\"diagnostics\"",
+        "\"true\"",
+        "\"<rootDir>/node_modules/(?!@foo)\""
+    ],
+    "variables": [
+        "jestConfig"
+    ],
+    "comments": [
+        "Automatically clear mock calls and instances between every test",
+        "An array of regexp pattern strings used to skip coverage collection",
+        "A map from regular expressions to module names that allow to stub out resources with a single module"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

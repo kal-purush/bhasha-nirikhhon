@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "tortoise",
+        "connections",
+        "connections",
+        "get",
+        "conn",
+        "execute_script",
+        "create_upload_chunk_and_update_file_codes_table"
+    ],
+    "literals": [
+        "\"default\""
+    ],
+    "variables": [
+        "conn"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n        ALTER TABLE \"filecodes\" ADD \"file_hash\" VARCHAR(128);\n        ALTER TABLE \"filecodes\" ADD \"is_chunked\" BOOL NOT NULL DEFAULT False;\n        ALTER TABLE \"filecodes\" ADD \"upload_id\" VARCHAR(128);\n        CREATE TABLE \"uploadchunk\" (\n            id  INTEGER  not null   primary key autoincrement,\n            \"upload_id\" VARCHAR(36) NOT NULL,\n            \"chunk_index\" INT NOT NULL,\n            \"chunk_hash\" VARCHAR(128) NOT NULL,\n            \"total_chunks\" INT NOT NULL,\n            \"file_size\" BIGINT NOT NULL,\n            \"chunk_size\" INT NOT NULL,\n            \"created_at\" TIMESTAMPTZ NOT NULL,\n            \"file_name\" VARCHAR(255) NOT NULL,\n            \"completed\" BOOL NOT NULL\n        );\n    \"\"\""
+    ],
+    "functions": [
+        "create_upload_chunk_and_update_file_codes_table",
+        "migrate"
+    ],
+    "classes": []
+}

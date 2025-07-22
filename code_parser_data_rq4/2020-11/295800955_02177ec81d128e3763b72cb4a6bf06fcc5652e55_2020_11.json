@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "DataSource",
+        "ApolloDataSource",
+        "Node",
+        "Store",
+        "store",
+        "data"
+    ],
+    "literals": [
+        "'apollo-datasource'",
+        "'./generated'",
+        "\"./store\"",
+        "'id'",
+        "'id'",
+        "'dateCreated'",
+        "'plant'",
+        "'species'",
+        "'photo'",
+        "'plantStage'",
+        "'lightBulbTemplate'",
+        "'environment'",
+        "'eventsTargets'",
+        "'waterEventData'",
+        "'plantStageEventData'",
+        "'temperatureEventData'",
+        "'humidityEventData'",
+        "'pHEventData'",
+        "'eCEventData'",
+        "'lightEventData'"
+    ],
+    "variables": [],
+    "comments": [
+        "standard interface for getting/writing db record's, regardless of Model T",
+        "read",
+        "write",
+        "all possible data-sources by key:",
+        "note: if you're adding a new data-source to api/..../data-sources.ts, please add the key here:",
+        "todo future ? Omit<keyof ResolversTypes, 'Timestamp'|'SortDirection'|...> then change casing of all dataSources -> DataSources",
+        "DataSources type used in the main gardn app"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "moment",
+        "month",
+        "year",
+        "moment",
+        "monthDate",
+        "monthDate",
+        "month",
+        "year",
+        "availableDates",
+        "year",
+        "month",
+        "availableDates",
+        "dateIt",
+        "moment",
+        "dateIt",
+        "date",
+        "month",
+        "year",
+        "availableDates",
+        "findAvailableDayInMonth",
+        "month",
+        "year",
+        "availableDates"
+    ],
+    "literals": [
+        "'moment'",
+        "'Jan'",
+        "'Feb'",
+        "'Mar'",
+        "'Apr'",
+        "'May'",
+        "'Jun'",
+        "'Jul'",
+        "'Aug'",
+        "'Sept'",
+        "'Oct'",
+        "'Nov'",
+        "'Dec'",
+        "'month'",
+        "'month'",
+        "'month'"
+    ],
+    "variables": [
+        "months",
+        "monthDate",
+        "startDate",
+        "endDate",
+        "date"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Return the start and end date of a month (utc format)\n * @param month\n * @param year\n * @return { startDate, endDate }",
+        "* Return the list of available dates the month\n * @param month\n * @param year\n * @param availableDates\n * @return a list of available dates the month",
+        "* Return true if there is an available date in the month\n * @param month\n * @param year\n * @param availableDates\n * @return"
+    ],
+    "functions": [
+        "getMonthStartAndEnd",
+        "findAvailableDayInMonth",
+        "isAvailableMonth"
+    ],
+    "classes": []
+}

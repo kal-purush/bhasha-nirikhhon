@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "F1Telemetry",
+        "Core",
+        "Util",
+        "Export",
+        "IExporter",
+        "IExportTarget",
+        "T",
+        "T",
+        "objectToExport",
+        "IExportEngine",
+        "exporterEngine",
+        "IExportEngine",
+        "T",
+        "T",
+        "objectToWrite",
+        "path",
+        "IExportTarget",
+        "path"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Specify the object to export.",
+        "</summary>",
+        "<typeparam name=\"T\"></typeparam>",
+        "<param name=\"objectToExport\">The object to export.</param>",
+        "<returns></returns>",
+        "Set the designated format.",
+        "</summary>",
+        "<param name=\"engine\">The engine.</param>",
+        "<returns></returns>",
+        "The engine that converts object into a different format.",
+        "</summary>",
+        "Writes all data to disk.",
+        "</summary>",
+        "<typeparam name=\"T\"></typeparam>",
+        "<param name=\"objectToWrite\">The object to write.</param>",
+        "<param name=\"path\">The path.</param>",
+        "This interface specifies the target/destination of the export.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IExporter",
+        "Export",
+        "IExportTarget",
+        "As",
+        "WriteAll",
+        "ToFile"
+    ],
+    "classes": []
+}

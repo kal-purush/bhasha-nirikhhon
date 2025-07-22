@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "BigNumber",
+        "Address",
+        "AppABIEncodings",
+        "AppAction",
+        "AppInstanceID",
+        "AppInstanceInfo",
+        "AppState",
+        "BlockchainAsset",
+        "cf",
+        "Node",
+        "AppInstanceEventType",
+        "info",
+        "provider",
+        "cf",
+        "info",
+        "info",
+        "info",
+        "info",
+        "info",
+        "info",
+        "info",
+        "info",
+        "Node",
+        "response",
+        "Node",
+        "result",
+        "action",
+        "Node",
+        "response",
+        "Node",
+        "result",
+        "Node"
+    ],
+    "literals": [
+        "\"ethers/utils\"",
+        "\"./types\"",
+        "\"updateState\"",
+        "\"uninstall\"",
+        "\"error\""
+    ],
+    "variables": [
+        "response",
+        "result",
+        "response",
+        "result"
+    ],
+    "comments": [
+        "private readonly eventEmitter: EventEmitter = new EventEmitter();",
+        "FIXME: uninstall() should return details about payout. What should they look like?",
+        "on(\n    eventType: AppInstanceEventType,\n    callback: (event: CounterfactualEvent) => void\n  ) {\n    this.eventEmitter.on(eventType, callback);\n  }",
+        "once(\n    eventType: AppInstanceEventType,\n    callback: (event: CounterfactualEvent) => void\n  ) {\n    this.eventEmitter.once(eventType, callback);\n  }",
+        "off(\n    eventType: AppInstanceEventType,\n    callback: (event: CounterfactualEvent) => void\n  ) {\n    this.eventEmitter.off(eventType, callback);\n  }",
+        "emit(eventType: AppInstanceEventType, event: CounterfactualEvent) {\n    this.eventEmitter.emit(eventType, event);\n  }"
+    ],
+    "docstrings": [
+        "* Represents an installed app instance",
+        "* Unique ID of this app instance.",
+        "* Whether this app is virtual i.e. installation was routed through intermediaries",
+        "* Get latest state of this app instance\n   *\n   * @async\n   * @return JSON representation of latest state",
+        "* Take an action on the state, modifying it.\n   *\n   * @note Throws an error if action is illegal given the latest state.\n   *\n   * @async\n   * @param action Action to take\n   * @return JSON representation of latest state after applying the action",
+        "* Uninstall this app instance\n   *\n   * @async",
+        "* Subscribe to event.\n   *\n   * @param eventType Event type to subscribe to.\n   * @param callback Function to be called when event is fired.",
+        "* Subscribe to event. Unsubscribe once event is fired once.\n   *\n   * @param eventType Event type to subscribe to.\n   * @param callback Function to be called when event is fired.",
+        "* Unsubscribe from event.\n   *\n   * @param eventType Event type to unsubscribe from.\n   * @param callback Original callback passed to subscribe call.",
+        "* @ignore"
+    ],
+    "functions": [
+        "isVirtual",
+        "getState",
+        "takeAction",
+        "uninstall"
+    ],
+    "classes": [
+        "AppInstance"
+    ]
+}

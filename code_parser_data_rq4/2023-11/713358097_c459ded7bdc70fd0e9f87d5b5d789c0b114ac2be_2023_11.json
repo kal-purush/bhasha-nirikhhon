@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "StrategyExecutor",
+        "describe",
+        "beforeEach",
+        "cy",
+        "cy",
+        "i",
+        "i",
+        "it",
+        "StrategyExecutor",
+        "cy",
+        "cy",
+        "cy",
+        "res",
+        "cy",
+        "betIds",
+        "betIds",
+        "bet",
+        "bet",
+        "res",
+        "cy",
+        "bet",
+        "cy",
+        "cy",
+        "executor",
+        "error",
+        "error",
+        "error",
+        "error",
+        "error",
+        "error",
+        "setupInterception"
+    ],
+    "literals": [
+        "'./strategy.js'",
+        "'Execution after login'",
+        "'loggedInSession'",
+        "'abc'",
+        "'abc'",
+        "Navigate match events and place bets",
+        "'./data/strategy.json'",
+        "'www.orbitxch.com'",
+        "\"/customer/api/currentBets\"",
+        "'currentBets'",
+        "'@currentBets'",
+        "'readJsonFile'",
+        "'cypress/e2e/orbit/data/bets.json'"
+    ],
+    "variables": [
+        "i",
+        "executor"
+    ],
+    "comments": [
+        "Cypress 默认在每个测试用例之前会清除 cookies，要阻止这一行为，我们可以使用以下代码",
+        "cy.visit('http://www.orbitxch.com',{timeout:20000})",
+        "获取currentBets"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setupInterception"
+    ],
+    "classes": []
+}

@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "tier0Config",
+        "tier0Config",
+        "Global",
+        "HelperAgentStreams",
+        "streamerFiles",
+        "hltStreamMapping"
+    ],
+    "literals": [],
+    "variables": [
+        "helperAgentStreams"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Base agent. \n\n    \"\"\"",
+        "\"\"\"\n        _filterStreamerFiles_\n\n        When running multiple agents, filter out data from Storage Manager to avoid duplicates \n        \"\"\"",
+        "\"\"\"\n        _filterHltConfigStreams_\n\n        When running multiple agents, populate databases with the streams information relevant to the given agent\n        \"\"\""
+    ],
+    "functions": [
+        "filterStreamerFiles",
+        "filterHltConfigStreams"
+    ],
+    "classes": [
+        "BaseAgent"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "EnvironmentParams",
+        "getRxStorageDexie",
+        "SYNC_PORT",
+        "DATABASE_NAME",
+        "res",
+        "res",
+        "SYNC_PORT",
+        "DATABASE_NAME",
+        "getRxStorageDexie"
+    ],
+    "literals": [
+        "'./environment.d'",
+        "'rxdb/plugins/storage-dexie'",
+        "'../shared'",
+        "'deviceready'",
+        "'capacitor'",
+        "'http://'",
+        "':'",
+        "'/'"
+    ],
+    "variables": [
+        "capacitorDeviceReadyPromise",
+        "environment"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* In capacitor/cordova you have to wait until all plugins are loaded and 'window.sqlitePlugin'\n * can be accessed.\n * This function waits until document deviceready is called which ensures that everything is loaded.\n * @link https://cordova.apache.org/docs/de/latest/cordova/events/events.deviceready.html"
+    ],
+    "functions": [
+        "addRxDBPlugins",
+        "getRxStorage"
+    ],
+    "classes": []
+}

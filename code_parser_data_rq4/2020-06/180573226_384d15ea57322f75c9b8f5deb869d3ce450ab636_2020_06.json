@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "NodaTime",
+        "QuantConnect",
+        "IBAutomater",
+        "time",
+        "DateTimeZone",
+        "DateTimeZone",
+        "to",
+        "strict",
+        "strict",
+        "AtStrictly",
+        "LocalDateTime",
+        "FromDateTime",
+        "time",
+        "WithZone",
+        "to",
+        "ToDateTimeUnspecified",
+        "AtLeniently",
+        "LocalDateTime",
+        "FromDateTime",
+        "time",
+        "WithZone",
+        "to",
+        "ToDateTimeUnspecified",
+        "time",
+        "DateTimeZone",
+        "to",
+        "strict",
+        "time",
+        "ConvertTo",
+        "DateTimeZone",
+        "Utc",
+        "to",
+        "strict"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Extension methods",
+        "</summary>",
+        "Converts the specified time from the <paramref name=\"from\"/> time zone to the <paramref name=\"to\"/> time zone",
+        "</summary>",
+        "<param name=\"time\">The time to be converted in terms of the <paramref name=\"from\"/> time zone</param>",
+        "<param name=\"from\">The time zone the specified <paramref name=\"time\"/> is in</param>",
+        "<param name=\"to\">The time zone to be converted to</param>",
+        "<param name=\"strict\">True for strict conversion, this will throw during ambiguitities, false for lenient conversion</param>",
+        "<returns>The time in terms of the to time zone</returns>",
+        "Converts the specified time from UTC to the <paramref name=\"to\"/> time zone",
+        "</summary>",
+        "<param name=\"time\">The time to be converted expressed in UTC</param>",
+        "<param name=\"to\">The destinatio time zone</param>",
+        "<param name=\"strict\">True for strict conversion, this will throw during ambiguitities, false for lenient conversion</param>",
+        "<returns>The time in terms of the <paramref name=\"to\"/> time zone</returns>"
+    ],
+    "docstrings": [
+        "* QUANTCONNECT.COM - Democratizing Finance, Empowering Individuals.\n * IBAutomater v1.0. Copyright 2019 QuantConnect Corporation.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "ConvertTo",
+        "ConvertFromUtc"
+    ],
+    "classes": [
+        "Extensions"
+    ]
+}

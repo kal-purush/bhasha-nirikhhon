@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "datetime",
+        "datetime",
+        "timedelta",
+        "kronos",
+        "utils",
+        "email",
+        "models",
+        "Cluster",
+        "kronos",
+        "register",
+        "datetime",
+        "now",
+        "cluster",
+        "Cluster",
+        "objects",
+        "all",
+        "cluster",
+        "end_date",
+        "now",
+        "cluster",
+        "cluster",
+        "end_date",
+        "now",
+        "timedelta",
+        "hours",
+        "email",
+        "send_email",
+        "email_address",
+        "cluster",
+        "created_by",
+        "email",
+        "subject",
+        "format",
+        "cluster",
+        "identifier",
+        "body",
+        "format",
+        "cluster",
+        "identifier",
+        "now",
+        "timedelta",
+        "hours"
+    ],
+    "literals": [
+        "'0 * * * *'",
+        "\"Cluster {} is expiring soon!\"",
+        "\"Your cluster {} will be terminated in roughly one hour, around {}. \"",
+        "\"Please save all unsaved work before the machine is shut down.\\n\"",
+        "\"\\n\"",
+        "\"This is an automated message from the Telemetry Analysis service. \"",
+        "\"See https://analysis.telemetry.mozilla.org/ for more details.\""
+    ],
+    "variables": [
+        "now"
+    ],
+    "comments": [
+        "this function is called every hour",
+        "go through clusters to delete or warn about ones that are expiring",
+        "the cluster is expired",
+        "the cluster will expire in an hour"
+    ],
+    "docstrings": [],
+    "functions": [
+        "delete_workers"
+    ],
+    "classes": []
+}

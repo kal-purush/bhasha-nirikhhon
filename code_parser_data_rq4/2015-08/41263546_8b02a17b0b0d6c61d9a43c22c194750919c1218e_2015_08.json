@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "Collections",
+        "Text",
+        "SwissKnife",
+        "Ext",
+        "format",
+        "args",
+        "formattedText",
+        "Format",
+        "format",
+        "args",
+        "formattedText",
+        "Format",
+        "format",
+        "args",
+        "CombineWith",
+        "formattedText",
+        "args",
+        "seperator",
+        "StringBuilder",
+        "arg",
+        "args",
+        "arg",
+        "arg",
+        "ToString",
+        "value",
+        "Length",
+        "toReturn",
+        "Length",
+        "toReturn",
+        "Append",
+        "seperator",
+        "toReturn",
+        "Append",
+        "value",
+        "toReturn",
+        "Append",
+        "value",
+        "toReturn",
+        "ToString"
+    ],
+    "literals": [
+        "\"{0} ({1})\"",
+        "\", \"",
+        "\"null\""
+    ],
+    "variables": [
+        "formattedText",
+        "toReturn",
+        "value"
+    ],
+    "comments": [
+        "Format a <see cref=\"System.String\"/> using <see cref=\"string.Format(string, object[])\"/> but with a fall back, if the arguments don't fit the format it won't throw an Exception",
+        "</summary>",
+        "<param name=\"format\">A composite format string</param>",
+        "<param name=\"args\">An object array that contains zero or more objects to format.</param>",
+        "<returns>A copy of format in which the format items have been replaced by the string representation of the corresponding objects in args.</returns>",
+        "Use this to combine infinite parts with a specified seperator",
+        "</summary>",
+        "<param name=\"seperator\">Seperator</param>",
+        "<param name=\"args\">Elements to combine</param>",
+        "<returns>Combined string with seperator if both a and b have a value</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "FormatSafe",
+        "CombineWith"
+    ],
+    "classes": [
+        "StringExt"
+    ]
+}

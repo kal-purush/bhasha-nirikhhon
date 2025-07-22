@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "name",
+        "process",
+        "process",
+        "service_name",
+        "services",
+        "service_name",
+        "name",
+        "services",
+        "service_name",
+        "service"
+    ],
+    "literals": [
+        "'use strict'"
+    ],
+    "variables": [
+        "services",
+        "service"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* if VCAP_SERVICES exists then it returns the credentials\n * for the first service that stars with 'name' or {} otherwise\n * @param  String name, service name\n * @return {Object} the service credentials or {} if\n * name is not found in VCAP_SERVICES"
+    ],
+    "functions": [],
+    "classes": []
+}

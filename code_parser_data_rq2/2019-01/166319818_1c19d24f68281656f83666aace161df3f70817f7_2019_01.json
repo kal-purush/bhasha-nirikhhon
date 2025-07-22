@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Request",
+        "Response",
+        "NextFunction",
+        "ErrorRequestHandler",
+        "req",
+        "res",
+        "next",
+        "handler",
+        "errorHandler",
+        "req",
+        "res",
+        "next",
+        "handler",
+        "req",
+        "res",
+        "next",
+        "err",
+        "errorHandler",
+        "errorHandler",
+        "err",
+        "req",
+        "res",
+        "next",
+        "next",
+        "err",
+        "req",
+        "res",
+        "next"
+    ],
+    "literals": [
+        "'express'",
+        "'undefined'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Wraps an async handler in a promise and on catch sends it to the error handler, or next if there is none given\n *\n * @example\n *\n *   app.get('path', asyncHandler(async function(req, res, next) {\n *     // ...\n *   }))\n *\n * @param handler\n * @param errorHandler"
+    ],
+    "functions": [
+        "asyncHandler"
+    ],
+    "classes": []
+}

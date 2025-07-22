@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "ChangeDetectionStrategy",
+        "Component",
+        "ChangeDetectionStrategy",
+        "input",
+        "input",
+        "height",
+        "height",
+        "width",
+        "width"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'app-canvas-controls'",
+        "'./canvas-controls.html'",
+        "'./canvas-controls.css'",
+        "'Create New!!!!!!!'",
+        "'Redo'",
+        "'Save'",
+        "'Undo'",
+        "'Height updated: '",
+        "'Width updated: '"
+    ],
+    "variables": [],
+    "comments": [
+        "Empty for now, probably going to use later",
+        "Empty for now, probably going to use later"
+    ],
+    "docstrings": [
+        "* Blurs the targeted input to trigger the change event\n   * \n   * @param input Input on the page to target",
+        "* Tell the canvas to create a new blank slate",
+        "* Redo the last action undone",
+        "* Save the current state of the canvas",
+        "* Undo the last action done",
+        "* Method to call to indicate that the height has changed\n   *\n   * @param height Height (in pixels)",
+        "* Method to call to indicate the width has changed\n   * \n   * @param width Width (in pixels)"
+    ],
+    "functions": [
+        "ngOnInit",
+        "blurInput",
+        "createNew",
+        "redo",
+        "save",
+        "undo",
+        "updateHeight",
+        "updateWidth"
+    ],
+    "classes": [
+        "CanvasControlsComponent"
+    ]
+}

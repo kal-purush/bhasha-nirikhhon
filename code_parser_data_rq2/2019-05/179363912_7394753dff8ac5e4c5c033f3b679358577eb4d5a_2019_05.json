@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "pytest",
+        "parser",
+        "parser",
+        "addoption",
+        "action",
+        "help",
+        "config",
+        "items",
+        "config",
+        "getoption",
+        "pytest",
+        "mark",
+        "skip",
+        "reason",
+        "item",
+        "items",
+        "item",
+        "keywords",
+        "item",
+        "add_marker",
+        "skip_slow"
+    ],
+    "literals": [
+        "\"--runslow\"",
+        "\"store_true\"",
+        "\"run slow tests\"",
+        "\"--runslow\"",
+        "\"need --runslow option to run\"",
+        "\"slow\""
+    ],
+    "variables": [
+        "skip_slow"
+    ],
+    "comments": [
+        "--runslow given in cli: do not skip slow tests"
+    ],
+    "docstrings": [
+        "\"\"\"pytest plugin configuration.\n\nhttps://docs.pytest.org/en/latest/writing_plugins.html#conftest-py-plugins\n\"\"\"",
+        "\"\"\"Add new commandline options to pytest.\"\"\"",
+        "\"\"\"Modify collected tests based on custom marks and commandline options.\"\"\""
+    ],
+    "functions": [
+        "pytest_addoption",
+        "pytest_collection_modifyitems"
+    ],
+    "classes": []
+}

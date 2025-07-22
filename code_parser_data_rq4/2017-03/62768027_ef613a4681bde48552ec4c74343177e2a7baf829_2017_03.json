@@ -1,0 +1,93 @@
+{
+    "identifiers": [
+        "IncomingMessage",
+        "LoggingHelper",
+        "ModuleManager",
+        "require",
+        "require",
+        "file",
+        "port",
+        "verbose",
+        "callback",
+        "ModuleManager",
+        "process",
+        "express",
+        "app",
+        "bodyParser",
+        "app",
+        "request",
+        "response",
+        "request",
+        "request",
+        "response",
+        "app",
+        "LoggingHelper",
+        "Logger",
+        "callback",
+        "callback",
+        "callback",
+        "onStop",
+        "request",
+        "request",
+        "e",
+        "onStop",
+        "onStop",
+        "onStop",
+        "request",
+        "response",
+        "LoggingHelper",
+        "Logger",
+        "path",
+        "cloudFunction",
+        "request",
+        "response",
+        "e",
+        "e",
+        "LoggingHelper",
+        "Logger",
+        "message",
+        "response",
+        "message"
+    ],
+    "literals": [
+        "\"http\"",
+        "\"../core/logging-helper\"",
+        "\"./module-manager\"",
+        "\"body-parser\"",
+        "\"express\"",
+        "\"BST-FUNCTION\"",
+        "string",
+        "\"CloudFunctionServer started on port: \"",
+        "string",
+        "\"Invoking Function: \"",
+        "\"Unhandled Exception from Cloud Function: \""
+    ],
+    "variables": [
+        "bodyParser",
+        "express",
+        "Logger",
+        "app",
+        "request",
+        "path",
+        "cloudFunction",
+        "message"
+    ],
+    "comments": [
+        "Add a watch to the current directory",
+        "Keep track of the requests so we can destroy them suddenly on a stop"
+    ],
+    "docstrings": [
+        "* The FunctionServer wraps a Google Cloud Function routine in a simple HTTP service.\n *\n * It makes it easy to test Cloud Functions locally, and in conjunction with our other Bespoken Tools.\n *\n * To use it, simply provide the filename of the Cloud function along with the port the HTTP server should listen on.",
+        "* Creates a server that exposes a Google Cloud Function as an HTTP service\n     * @param file The file the defines the Lambda\n     * @param port The port the service should listen on\n     * @param verbose Prints out verbose information about requests and responses",
+        "* Starts the FunctionServer listening on the port specified in the constructor.\n     *\n     * @param callback Called once the server has started successfully",
+        "* Stops the lambda service\n     * @param onStop Callback when all sockets related to the LambdaServer have been cleaned up"
+    ],
+    "functions": [
+        "start",
+        "stop",
+        "invoke"
+    ],
+    "classes": [
+        "FunctionServer"
+    ]
+}

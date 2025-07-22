@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "GetQuestion",
+        "getQuestion",
+        "CreateQuestion",
+        "getQuestion",
+        "argument",
+        "pickPuzzle",
+        "qType",
+        "deconstructed",
+        "getQuestion",
+        "deconstructed",
+        "toDelete",
+        "i",
+        "deconstructed",
+        "i",
+        "i",
+        "startPoint",
+        "i",
+        "startPoint",
+        "toDelete",
+        "getQuestion",
+        "i"
+    ],
+    "literals": [
+        "\"What's your favorite color?\"",
+        "\"What's your favorite color?\"",
+        "\"Fill in the Blank\"",
+        "\" \"",
+        "\"_____\""
+    ],
+    "variables": [
+        "getQuestion",
+        "qType",
+        "GetQuestion",
+        "pickPuzzle",
+        "deconstructed",
+        "toDelete",
+        "startPoint",
+        "i"
+    ],
+    "comments": [
+        "var pickPuzzle = Math.floor(Math.random() * 3);",
+        "getQuestion = getQuestion.splice(startPoint, toDelete, \"_____\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "CreateQuestion"
+    ],
+    "classes": []
+}

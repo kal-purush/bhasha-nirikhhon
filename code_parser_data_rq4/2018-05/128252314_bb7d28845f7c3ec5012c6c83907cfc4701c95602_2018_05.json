@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "GetComponent",
+        "Hero",
+        "Collision2D",
+        "collision",
+        "Time",
+        "time",
+        "LastDamage",
+        "invTime",
+        "collision",
+        "gameObject",
+        "GO",
+        "tag",
+        "Equals",
+        "GO",
+        "tag",
+        "Equals",
+        "GetComponent",
+        "Hero",
+        "hero",
+        "damage",
+        "collision",
+        "gameObject",
+        "GetComponent",
+        "DamageComponent",
+        "damage",
+        "LastDamage",
+        "Time",
+        "time"
+    ],
+    "literals": [
+        "\"Enemy\"",
+        "\"Enemy Bullet\""
+    ],
+    "variables": [
+        "Hero",
+        "hero",
+        "LastDamage",
+        "invTime",
+        "Hero",
+        "hero",
+        "GameObject",
+        "GO",
+        "Hero",
+        "hero"
+    ],
+    "comments": [
+        "Use this for initialization",
+        "Update is called once per frame",
+        "private void OnCollisionEnter2D(Collision2D collision)\n    {\n        if (Time.time - LastDamage > invTime)\n        {\n            GameObject GO = collision.gameObject;\n            print(\"collison: \" + GO.tag +\" \"+ GO.name);\n            if (GO.tag.Equals(\"Enemy\") || GO.tag.Equals(\"Enemy Bullet\"))\n            {\n                Hero hero = GetComponent<Hero>();\n                hero.damage(collision.gameObject.GetComponent<DamageComponent>().damage);\n                LastDamage = Time.time;\n            }\n        }\n    }",
+        "print(\"collison: \" + GO.tag + \" \" + GO.name);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update",
+        "OnCollisionStay2D"
+    ],
+    "classes": [
+        "Health"
+    ]
+}

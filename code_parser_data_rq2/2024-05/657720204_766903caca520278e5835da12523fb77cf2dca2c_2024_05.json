@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Transfer",
+        "TransferEvent",
+        "Transfer",
+        "Transfer",
+        "entity",
+        "entity",
+        "Transfer",
+        "entity",
+        "entity",
+        "entity",
+        "entity"
+    ],
+    "literals": [
+        "'../generated/ERC20/ERC20'",
+        "\"../generated/schema\""
+    ],
+    "variables": [
+        "entity"
+    ],
+    "comments": [
+        "Entities can be loaded from the store using a string ID; this ID",
+        "needs to be unique across all entities of the same type",
+        "Entities only exist after they have been saved to the store;",
+        "`null` checks allow to create entities on demand",
+        "Entity fields can be set based on event parameters",
+        "Entities can be written to the store with `.save()`"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handleTransfer"
+    ],
+    "classes": []
+}

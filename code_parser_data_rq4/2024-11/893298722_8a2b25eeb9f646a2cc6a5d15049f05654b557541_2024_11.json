@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "qrcode",
+        "qr_code_id",
+        "base_url",
+        "base_url",
+        "qr_code_id",
+        "qrcode",
+        "make",
+        "url",
+        "qr",
+        "save",
+        "qr_code_id",
+        "exhibit",
+        "exhibit_ids",
+        "generate_qr_code",
+        "exhibit",
+        "base_url",
+        "exhibit",
+        "exhibit"
+    ],
+    "literals": [
+        "f\"{base_url}/scan/{qr_code_id}\"",
+        "f\"{qr_code_id}.png\"",
+        "\"id\"",
+        "\"fish001\"",
+        "\"name\"",
+        "\"Fish Exhibit\"",
+        "\"id\"",
+        "\"monkey001\"",
+        "\"name\"",
+        "\"Monkey Exhibit\"",
+        "\"id\"",
+        "\"tank001\"",
+        "\"name\"",
+        "\"Tank Exhibit\"",
+        "\"gioinfocus.com\"",
+        "\"id\"",
+        "f\"QR code generated for {exhibit['name']} with ID {exhibit['id']}\"",
+        "'name'",
+        "'id'"
+    ],
+    "variables": [
+        "url",
+        "qr",
+        "exhibit_ids",
+        "base_url"
+    ],
+    "comments": [
+        "Function to generate a QR code that links to a specific URL",
+        "URL of your Flask route or website",
+        "Generate the QR code",
+        "Save the QR code as a PNG file",
+        "List of QR codes to generate (for different exhibits)",
+        "Your base URL (update it if you deploy the app or use a different domain)",
+        "Replace with your actual domain",
+        "Generate QR codes for each exhibit"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generate_qr_code"
+    ],
+    "classes": []
+}

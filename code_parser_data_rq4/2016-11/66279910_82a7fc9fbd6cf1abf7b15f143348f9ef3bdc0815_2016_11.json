@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "async",
+        "ComponentFixture",
+        "TestBed",
+        "By",
+        "DebugElement",
+        "ResourcesComponent",
+        "describe"
+    ],
+    "literals": [
+        "'@angular/core/testing'",
+        "'@angular/platform-browser'",
+        "'@angular/core'",
+        "'./resources.component'",
+        "'ResourcesComponent'"
+    ],
+    "variables": [],
+    "comments": [
+        "tslint:disable:no-unused-variable",
+        "let component: ResourcesComponent;\n  let fixture: ComponentFixture<ResourcesComponent>;\n\n  beforeEach(async(() => {\n    TestBed.configureTestingModule({\n      declarations: [ ResourcesComponent ]\n    })\n    .compileComponents();\n  }));\n\n  beforeEach(() => {\n    fixture = TestBed.createComponent(ResourcesComponent);\n    component = fixture.componentInstance;\n    fixture.detectChanges();\n  });\n\n  it('should create', () => {\n    expect(component).toBeTruthy();\n  });"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

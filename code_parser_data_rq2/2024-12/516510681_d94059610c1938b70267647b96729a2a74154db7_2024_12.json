@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "assertEqual",
+        "entity",
+        "contractValue",
+        "key",
+        "transform",
+        "val",
+        "transform",
+        "transform",
+        "entity",
+        "key",
+        "entity",
+        "key",
+        "contractValue",
+        "subgraphValue",
+        "key",
+        "entity",
+        "contractValue",
+        "subgraphValue",
+        "e",
+        "e",
+        "tryCall",
+        "func",
+        "defaultValue",
+        "func",
+        "e",
+        "defaultValue"
+    ],
+    "literals": [
+        "'assert'",
+        "string",
+        "${key} incorrect on ${\n        entity.id\n      } Contract: ${contractValue?.toString()}; Subgraph: ${subgraphValue};",
+        "'function call failed'"
+    ],
+    "variables": [
+        "assertEqual",
+        "subgraphValue",
+        "tryCall"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

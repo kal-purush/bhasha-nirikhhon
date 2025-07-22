@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "database",
+        "card",
+        "database",
+        "DatabaseExecutionContext",
+        "database",
+        "card",
+        "cards",
+        "BaseCard",
+        "database",
+        "card",
+        "cards",
+        "Card",
+        "java",
+        "util",
+        "java",
+        "util",
+        "concurrent",
+        "javax",
+        "inject",
+        "Inject",
+        "javax",
+        "inject",
+        "Named",
+        "play",
+        "db",
+        "jpa",
+        "JPAApi",
+        "Named",
+        "jpaApi",
+        "executionContext",
+        "Inject",
+        "jpaApi",
+        "executionContext",
+        "jpaApi",
+        "jpaApi",
+        "executionContext",
+        "executionContext",
+        "Override",
+        "getBaseCards",
+        "get",
+        "CompletableFuture",
+        "supplyAsync",
+        "jpaApi",
+        "withTransaction",
+        "entityManager",
+        "entityManager",
+        "createNativeQuery",
+        "getResultList",
+        "executionContext"
+    ],
+    "literals": [
+        "\"Base\"",
+        "\"select id_card, name, life_points, attack_points, max_number_deck\"",
+        "\" from card inner join base_card on id_card = idx_card\""
+    ],
+    "variables": [
+        "jpaApi",
+        "executionContext"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "JPABaseRepository",
+        "getCards",
+        "getBaseCards"
+    ],
+    "classes": [
+        "JPABaseRepository"
+    ]
+}

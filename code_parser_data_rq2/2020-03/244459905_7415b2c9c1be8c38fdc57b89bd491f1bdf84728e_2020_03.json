@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "consumer",
+        "consumer",
+        "data",
+        "$",
+        "data",
+        "data",
+        "$",
+        "submit_messages",
+        "submit_messages",
+        "$",
+        "$"
+    ],
+    "literals": [
+        "\"./consumer\"",
+        "\"RoomChannel\"",
+        "\"Bruh you in!!!\"",
+        "'#msg'",
+        "'<div class=\"message\"> '",
+        "'</div>'",
+        "\"Recieving:\"",
+        "'turbolinks:load'",
+        "'#message_content'",
+        "'keydown'",
+        "'input'",
+        "''"
+    ],
+    "variables": [
+        "submit_messages"
+    ],
+    "comments": [
+        "Called when the subscription is ready for use on the server",
+        "Called when the subscription has been terminated by the server",
+        "Called when there's incoming data on the websocket for this channel"
+    ],
+    "docstrings": [],
+    "functions": [
+        "connected",
+        "disconnected",
+        "received"
+    ],
+    "classes": []
+}

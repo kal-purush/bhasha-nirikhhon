@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Text",
+        "Beffyman",
+        "UdpContracts",
+        "Beffyman",
+        "UdpContracts",
+        "Serializers",
+        "Json",
+        "Xunit",
+        "Beffyman",
+        "UdpServer",
+        "Test",
+        "Serializers",
+        "BaseSerializerTests"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "https://github.com/dotnet/runtime/issues/876",
+        "[Fact]",
+        "public void UdpMessageSerialization()",
+        "{",
+        "Base_ClassUdpMessageSerialization(UdpJsonSerializer.Instance);",
+        "}",
+        "[Fact]",
+        "public void StructSerializationFailure()",
+        "{",
+        "Base_StructUdpMessageSerialization(UdpJsonSerializer.Instance);",
+        "}",
+        "[Fact]",
+        "public void EmptyStructSerializationFailure()",
+        "{",
+        "Base_EmptyStructUdpMessageSerialization(UdpJsonSerializer.Instance);",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "SystemJsonSerializerTests"
+    ]
+}

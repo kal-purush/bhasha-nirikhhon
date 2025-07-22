@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "Extensions",
+        "SmallsOnline",
+        "Web",
+        "Lib",
+        "Services",
+        "IServiceCollection",
+        "services",
+        "Action",
+        "CosmosDbServiceOptions",
+        "configure",
+        "services",
+        "Configure",
+        "configure",
+        "services",
+        "TryAddSingleton",
+        "ICosmosDbService",
+        "CosmosDbService",
+        "services"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Provides extension methods for configuring and adding the CosmosDbService to the IServiceCollection.",
+        "</summary>",
+        "Adds the <see cref=\"CosmosDbService\"/> to the <see cref=\"IServiceCollection\"/> with the specified configuration.",
+        "</summary>",
+        "<param name=\"services\">The <see cref=\"IServiceCollection\"/> to add the <see cref=\"CosmosDbService\"/> to.</param>",
+        "<param name=\"configure\">The configuration action for the <see cref=\"CosmosDbServiceOptions\"/>.</param>",
+        "<returns>The modified <see cref=\"IServiceCollection\"/>.</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IServiceCollection",
+        "AddCosmosDbService"
+    ],
+    "classes": [
+        "CosmosDbServiceExtensions"
+    ]
+}

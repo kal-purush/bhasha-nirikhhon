@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "HardhatRuntimeEnvironment",
+        "hre",
+        "hre",
+        "contractName",
+        "newOwnerAddress",
+        "newOwnerAddress",
+        "helpers",
+        "newOwnerAddress",
+        "deployments",
+        "contractName",
+        "helpers",
+        "currentOwner",
+        "newOwnerAddress",
+        "log",
+        "contractName",
+        "newOwnerAddress",
+        "deployments",
+        "contractName",
+        "newOwnerAddress",
+        "log",
+        "contractName",
+        "currentOwner"
+    ],
+    "literals": [
+        "\"hardhat/types\"",
+        "string",
+        "string",
+        "string",
+        "\"owner\"",
+        "transferring ownership of ${contractName} to ${newOwnerAddress}",
+        "\"transferOwnership\"",
+        "${contractName} is owned by ${currentOwner}"
+    ],
+    "variables": [
+        "deployments",
+        "currentOwner"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Transfers ownership of an Ownable contract to a specific address.\n   *\n   * @param {string} contractName Deployed Contract Name\n   * @param {string} newOwnerAddress New Owner Address\n   * @param {from} from Address to send transaction from."
+    ],
+    "functions": [
+        "transferOwnership"
+    ],
+    "classes": [
+        "Ownable"
+    ]
+}

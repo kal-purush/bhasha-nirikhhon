@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "UserEmailResendConfirmationRequest",
+        "FrontendRouteIds",
+        "RoutingService",
+        "UserRepositoryService",
+        "ActivatedRoute",
+        "AlertService",
+        "Component",
+        "_route",
+        "_routingService",
+        "_alertService",
+        "_userRepositoryService",
+        "UserEmailResendConfirmationRequest",
+        "request",
+        "result",
+        "FrontendRouteIds",
+        "response",
+        "FrontendRouteIds",
+        "FrontendRouteIds"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../../../nutrition-buddy/identity/models/user.model'",
+        "'../../globals/frontend-route-ids'",
+        "'../../services/routing.service'",
+        "'../../../nutrition-buddy/identity/services/user-repository.service'",
+        "'@angular/router'",
+        "'../../services/alert.service'",
+        "'app-email-confirm'",
+        "'./email-confirm.component.html'",
+        "'./email-confirm.component.less'",
+        "string",
+        "'Confirmation was successful!'",
+        "'Oops, confirmation failed. It is either expired or something went wrong on our side.'",
+        "'email'",
+        "'status'",
+        "'Confirmation email was re-sent'"
+    ],
+    "variables": [
+        "request"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "updateConfirmationStatus",
+        "onResendConfirmationMail",
+        "onLoginClick"
+    ],
+    "classes": [
+        "EmailConfirmComponent"
+    ]
+}

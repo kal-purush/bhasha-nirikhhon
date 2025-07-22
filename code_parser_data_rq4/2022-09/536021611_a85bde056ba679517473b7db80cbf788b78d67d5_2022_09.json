@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Work",
+        "job1",
+        "onmessage",
+        "e",
+        "setTimeout",
+        "e",
+        "i",
+        "nbr",
+        "i",
+        "somme",
+        "n1",
+        "n2",
+        "n1",
+        "n2",
+        "n2",
+        "somme",
+        "nbr",
+        "n2",
+        "n1",
+        "postMessage",
+        "result",
+        "job2",
+        "onmessage",
+        "_e",
+        "postMessage"
+    ],
+    "literals": [
+        "'../../src/useWebWorker'",
+        "'BOOM'"
+    ],
+    "variables": [
+        "job1",
+        "nbr",
+        "n1",
+        "n2",
+        "somme",
+        "i",
+        "result",
+        "job2"
+    ],
+    "comments": [
+        "your function must define an onmessage function and if you wish to interact with the data an Event object is passed in as an argument",
+        "timeout is used here to simulate network or high CPU load",
+        "the below will take a number from the Event object and run the fibonacci sequence returning the result",
+        "passing messages back to your main thread can be done using the postMessage function",
+        "your function must define an onmessage function and if you wish to interact with the data an Event object is passed in as an argument"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

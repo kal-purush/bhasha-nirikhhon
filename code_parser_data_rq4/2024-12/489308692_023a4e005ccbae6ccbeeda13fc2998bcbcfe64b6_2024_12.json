@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "GitCommands",
+        "Git",
+        "Gpg",
+        "CommitStatus",
+        "NoSignature",
+        "GoodSignature",
+        "SignatureError",
+        "MissingPublicKey"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Represents the status of a commit's GPG signature.",
+        "</summary>",
+        "No signature is present on the commit.",
+        "</summary>",
+        "The commit has a valid GPG signature.",
+        "</summary>",
+        "There is an error with the commit's GPG signature.",
+        "</summary>",
+        "The public key for the commit's GPG signature is missing.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Web",
+        "CIS467_AMP",
+        "Areas",
+        "Shared",
+        "Model"
+    ],
+    "literals": [],
+    "variables": [
+        "AssetInventoryID",
+        "AssetName",
+        "VariantID",
+        "MapID",
+        "Active"
+    ],
+    "comments": [
+        "List of currently installed assets",
+        "",
+        "AssetInventoryID - id of particular entry",
+        "AssetName - Name of specific asset",
+        "VariantID - specific variant of asset type",
+        "LocationID - id of specific location asset is related to or installed in",
+        "Active - is asset currently active or has it been removed/replaced/ (Currently active = true)",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "AssetInventory"
+    ]
+}

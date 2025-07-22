@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "os",
+        "os",
+        "path",
+        "abspath",
+        "os",
+        "path",
+        "dirname",
+        "os",
+        "path",
+        "join",
+        "BASE_DIR"
+    ],
+    "literals": [
+        "'sqlite:///'",
+        "'app.db'",
+        "\"ahd823yr9jadip23hjrnasklnf423EDAS!sddqwda\"",
+        "\"/api/login\"",
+        "\"login\"",
+        "\"Bearer\""
+    ],
+    "variables": [
+        "DEBUG",
+        "BASE_DIR",
+        "SQLALCHEMY_DATABASE_URI",
+        "DATABASE_CONNECT_OPTIONS",
+        "SQLALCHEMY_TRACK_MODIFICATIONS",
+        "THREADS_PER_PAGE",
+        "SECRET_KEY",
+        "JWT_AUTH_URL_RULE",
+        "JWT_AUTH_ENDPOINT",
+        "JWT_AUTH_HEADER_PREFIX"
+    ],
+    "comments": [
+        "Statement for enabling the development environment",
+        "Define the application directory",
+        "Define the database - we are working with",
+        "SQLite for this example",
+        "Application threads. A common general assumption is",
+        "using 2 per available processor cores - to handle",
+        "incoming requests using one and performing background",
+        "operations using the other.",
+        "JWT configuration"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

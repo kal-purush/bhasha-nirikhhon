@@ -1,0 +1,19 @@
+{
+    "identifiers": [
+        "AddSpaceUserMessage",
+        "UpdateSpaceUserMessage",
+        "noUndefinedForKeys",
+        "RequiredFields"
+    ],
+    "literals": [
+        "\"../ts-proto-generated/messages\"",
+        "\"./undefinedChecker\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Protobuf does not allow \"required\" objects in messages. As a result, all TS interfaces generated from protobuf messages\n * have all fields pointing to objects as potentially undefined. This is a problem for us because we need to add\n * unnecessary checks for undefined fields in our code. Those transformers cast the generated interfaces to interfaces\n * with object fields being required."
+    ],
+    "functions": [],
+    "classes": []
+}

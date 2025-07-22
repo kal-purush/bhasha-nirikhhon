@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "MPSnake",
+        "Phaser"
+    ],
+    "literals": [
+        "'preloadBar'",
+        "'game/images/loader.png'",
+        "'Preloader'"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"../libs/phaser.d.ts\" />",
+        "Unless you specifically need to support multitouch I would recommend setting this to 1",
+        "Phaser will automatically pause if the browser tab the game is in loses focus. You can disable that here:",
+        "If you have any desktop specific settings, they can go in here",
+        "this.stage.scale.pageAlignHorizontally = true;",
+        "Same goes for mobile settings."
+    ],
+    "docstrings": [],
+    "functions": [
+        "preload",
+        "create"
+    ],
+    "classes": [
+        "Boot"
+    ]
+}

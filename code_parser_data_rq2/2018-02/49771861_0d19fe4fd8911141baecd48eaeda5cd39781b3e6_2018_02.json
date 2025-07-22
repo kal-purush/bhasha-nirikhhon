@@ -1,0 +1,91 @@
+{
+    "identifiers": [
+        "Windows",
+        "UI",
+        "Xaml",
+        "Microsoft",
+        "Xaml",
+        "Interactivity",
+        "MPCExtensions",
+        "Common",
+        "MPCExtensions",
+        "Controls",
+        "MPCExtensions",
+        "Infrastructure",
+        "MPCExtensions",
+        "Behaviors",
+        "DependencyObject",
+        "IBehavior",
+        "DependencyObject",
+        "associatedObject",
+        "view",
+        "FrameworkElement",
+        "associatedObject",
+        "view",
+        "Loaded",
+        "OnViewLoaded",
+        "view",
+        "view",
+        "sender",
+        "RoutedEventArgs",
+        "e",
+        "view",
+        "Loaded",
+        "OnViewLoaded",
+        "VisualTreeHelperEx",
+        "FindParent",
+        "ScatterViewItem",
+        "view",
+        "host",
+        "ArgumentNullException",
+        "host",
+        "InteractiveElement",
+        "view",
+        "DataContext",
+        "IInteractiveElement"
+    ],
+    "literals": [
+        "\"The view is not wrapped by a ScatterViewItem, is it hosted inside a ScatterView?\""
+    ],
+    "variables": [
+        "FrameworkElement",
+        "view",
+        "DependencyObject",
+        "AssociatedObject",
+        "ScatterViewItem",
+        "host"
+    ],
+    "comments": [
+        "-----------------------------------------------------------------------",
+        "<copyright file=\"InteractiveElementBinder.cs\" company=\"IBV Informatik AG\">",
+        "Copyright (c) IBV Informatik AG All rights reserved.",
+        "</copyright>",
+        "",
+        "",
+        "created: 2016-07-29 @ 11:43",
+        "edited: 2016-07-29 @ 11:43",
+        "-----------------------------------------------------------------------",
+        "Manages the UI position and size of a tile",
+        "</summary>",
+        "<seealso cref=\"Windows.UI.Xaml.DependencyObject\" />",
+        "<seealso cref=\"Microsoft.Xaml.Interactivity.IBehavior\" />",
+        "Attaches to the specified object.",
+        "</summary>",
+        "<param name=\"associatedObject\">The <see cref=\"T:Windows.UI.Xaml.DependencyObject\" /> to which the <seealso cref=\"T:Microsoft.Xaml.Interactivity.IBehavior\" /> will be attached.</param>",
+        "Detaches this instance from its associated object.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Attach",
+        "Detach",
+        "OnViewLoaded"
+    ],
+    "classes": [
+        "InteractiveElementBinder"
+    ]
+}

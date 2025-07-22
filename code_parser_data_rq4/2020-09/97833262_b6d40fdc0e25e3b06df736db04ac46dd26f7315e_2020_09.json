@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Component",
+        "Inject",
+        "OnInit",
+        "ActivityComponent",
+        "ToolkitConfigurationService",
+        "WorkflowBuilderService",
+        "ActivatedRoute",
+        "Component",
+        "ActivityComponent",
+        "_activatedRoute",
+        "_workflowBuilder",
+        "Inject",
+        "_toolkitConfiguration",
+        "_activatedRoute",
+        "_workflowBuilder",
+        "_toolkitConfiguration"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'toolkit'",
+        "'@angular/router'",
+        "'prion-activity'",
+        "<ng-container>\n        <prion-header>\n        </prion-header>\n        <div class=\"ContainerSurvey-top row\">\n        <ddp-activity [studyGuid]=\"studyGuid\"\n                      [activityGuid]=\"id\"\n                      (submit)=\"navigate($event)\"\n                      class=\"ContainerSurvey col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12\">\n        </ddp-activity>\n        </div>\n    </ng-container>",
+        "string",
+        "string",
+        "'toolkit.toolkitConfig'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "PrionActivityComponent"
+    ]
+}

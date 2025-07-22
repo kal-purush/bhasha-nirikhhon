@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "open",
+        "input_file",
+        "read",
+        "input_file",
+        "close",
+        "content",
+        "upper",
+        "open",
+        "output_file",
+        "write",
+        "modified_content",
+        "output_file",
+        "close",
+        "FileNotFoundError",
+        "IOError"
+    ],
+    "literals": [
+        "\"teset.txt\"",
+        "\"r\"",
+        "\"teset2.txt\"",
+        "\"w\"",
+        "\"Modified content has been written to\"",
+        "\"teset2.txt\"",
+        "\"Error: The input file was not found. Make sure it exists.\"",
+        "\" Error: Something went wrong reading or writing the files.\""
+    ],
+    "variables": [
+        "input_file",
+        "content",
+        "modified_content",
+        "output_file"
+    ],
+    "comments": [
+        "Open the input file in read mode (\"r\")",
+        "Read the full content of the file",
+        "Close the input file after reading",
+        "Modify the content i.e convert it to uppercase)",
+        "Open the output file in write mode (\"w\")",
+        "Write the modified content",
+        "Close the output file after writing"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

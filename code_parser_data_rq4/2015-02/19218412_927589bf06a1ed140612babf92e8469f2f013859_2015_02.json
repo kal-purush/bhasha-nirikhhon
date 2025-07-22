@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "unittest",
+        "oauth2client",
+        "tools",
+        "six",
+        "moves",
+        "urllib",
+        "request",
+        "threading",
+        "unittest",
+        "TestCase",
+        "tools",
+        "ClientRedirectServer",
+        "tools",
+        "ClientRedirectHandler",
+        "httpd",
+        "server_address",
+        "code",
+        "threading",
+        "target",
+        "httpd",
+        "handle_request",
+        "t",
+        "setDaemon",
+        "t",
+        "start",
+        "request",
+        "urlopen",
+        "url",
+        "assertTrue",
+        "f",
+        "read",
+        "t",
+        "join",
+        "httpd",
+        "server_close",
+        "assertEqual",
+        "httpd",
+        "query_params",
+        "get",
+        "code",
+        "unittest",
+        "main"
+    ],
+    "literals": [
+        "'localhost'",
+        "'foo'",
+        "'http://localhost:%i?code=%s'",
+        "'code'",
+        "'__main__'"
+    ],
+    "variables": [
+        "httpd",
+        "code",
+        "url",
+        "t",
+        "f"
+    ],
+    "comments": [
+        "create a ClientRedirectServer and run it in a thread to listen",
+        "for a mock GET request with the access token",
+        "the server should return a 200 message and store the token"
+    ],
+    "docstrings": [
+        "\"\"\"Unit tests for oauth2client.tools.\"\"\"",
+        "\"\"\"Test the ClientRedirectServer and ClientRedirectHandler classes.\"\"\""
+    ],
+    "functions": [
+        "test_ClientRedirectServer"
+    ],
+    "classes": [
+        "TestClientRedirectServer"
+    ]
+}

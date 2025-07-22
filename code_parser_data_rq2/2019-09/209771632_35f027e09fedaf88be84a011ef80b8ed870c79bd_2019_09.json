@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "CricketScoreKeeper",
+        "wicket",
+        "wicket",
+        "wickets",
+        "wicket",
+        "wicket",
+        "error",
+        "over",
+        "overs",
+        "over",
+        "i",
+        "overs",
+        "i",
+        "overs",
+        "i",
+        "score",
+        "over",
+        "total",
+        "wickets"
+    ],
+    "literals": [
+        "\"Game Over\"",
+        "\"-1-3-w\""
+    ],
+    "variables": [
+        "wickets",
+        "total",
+        "error",
+        "i",
+        "score"
+    ],
+    "comments": [
+        "var score = \"\";",
+        "for (var i = 0; i < wickets.length; i++) {",
+        "if (wickets <= 10) {",
+        "score.push(wickets[i]);",
+        "}",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "checkWickets",
+        "extractOvers"
+    ],
+    "classes": []
+}

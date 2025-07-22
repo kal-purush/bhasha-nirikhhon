@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpRequest",
+        "HttpHandler",
+        "HttpEvent",
+        "HttpInterceptor",
+        "HttpErrorResponse",
+        "Observable",
+        "UserService",
+        "catchError",
+        "Injectable",
+        "userService",
+        "request",
+        "next",
+        "next",
+        "request",
+        "catchError",
+        "err",
+        "err",
+        "HttpErrorResponse",
+        "navigator",
+        "navigator",
+        "alert",
+        "Observable",
+        "err"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common/http'",
+        "'rxjs/Observable'",
+        "'./user.service'",
+        "'rxjs/operators'",
+        "'Nincs internet hozzáférése'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Constructor of the interceptor.\n   * @param userService UserService to provide token.",
+        "* If the token is set, adds authorization header to the request.\n   * @param request httpRequest\n   * @param next The next handler."
+    ],
+    "functions": [
+        "intercept"
+    ],
+    "classes": [
+        "ErrorInterceptor"
+    ]
+}

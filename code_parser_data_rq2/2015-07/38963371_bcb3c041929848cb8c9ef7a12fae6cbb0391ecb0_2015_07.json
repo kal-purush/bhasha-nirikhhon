@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "globalAngular",
+        "globalUiRouter",
+        "HomeRouterModule",
+        "AboutRouterModule",
+        "navbarComponentModule",
+        "globalUiRouter",
+        "globalAngular",
+        "angular",
+        "navbarComponentModule",
+        "HomeRouterModule",
+        "AboutRouterModule",
+        "appComponent",
+        "angular"
+    ],
+    "literals": [
+        "'angular'",
+        "'angular-ui-router'",
+        "'./routes/home/home.route'",
+        "'./routes/about/about.route'",
+        "'./common/navbar/navbar'",
+        "'app'",
+        "'ui.router'",
+        "'app'",
+        "'app/app.html'",
+        "'E'",
+        "'app'"
+    ],
+    "variables": [],
+    "comments": [
+        "from public",
+        "tsc --watch --sourceMap --outDir dist --module system -t es5 app/**/*.ts",
+        "jspm bundle-sfx dist/app dist/bundle.js -m",
+        "<reference path=\"../typings/tsd.d.ts\" />",
+        "Globals",
+        "Component routes",
+        "Common",
+        "pull in gloabl libs",
+        "app wrapper",
+        "boot"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

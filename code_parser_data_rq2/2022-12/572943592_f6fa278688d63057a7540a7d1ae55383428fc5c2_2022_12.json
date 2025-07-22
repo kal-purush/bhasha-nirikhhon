@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "argv",
+        "crearArchivo",
+        "argv",
+        "argv",
+        "argv",
+        "nombreArchivo",
+        "nombreArchivo",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "'./helpers/multiplicar'",
+        "'./config/yargs'",
+        "'colors'",
+        "'creado'"
+    ],
+    "variables": [
+        "argv",
+        "colors"
+    ],
+    "comments": [
+        "Se recomienda que el archivo principal \"appa\" este lo mas limpio posible",
+        "https://www.npmjs.com/package/colors",
+        "Vine de yargs",
+        "node app -b 2 = cual tabla va a generar",
+        "argv.l = lista la aplicacion",
+        "TAREA 1 - COMENTADA - El ejemplo comentado se puede ejecutar mejor con yargs\n// ********************** \n// Recibir informacion desde linea de comando\n// Manera de ejecutarlo en consola: node app --base=9\n// **********************\nconsole.group(process.argv); // Nativo de node\nconst [ , , arg3 = 'base=5'] = process.argv;\nconst [ , base = 5 ] = arg3.split('=');\nconsole.log( base ); \n// Crear archivo\ncrearArchivo( base )\n    .then( nombreArchivo => console.log(nombreArchivo, 'creado' ) )\n    .catch( err => console.log(err) );\nEND TAREA 1 COMENTADA"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

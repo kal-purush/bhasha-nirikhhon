@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "com",
+        "urbandroid",
+        "sleep",
+        "garmin",
+        "android",
+        "content",
+        "BroadcastReceiver",
+        "android",
+        "content",
+        "Context",
+        "android",
+        "content",
+        "Intent",
+        "com",
+        "garmin",
+        "android",
+        "connectiq",
+        "IQDevice",
+        "com",
+        "urbandroid",
+        "common",
+        "logging",
+        "Logger",
+        "receiver",
+        "receiver",
+        "receiver",
+        "receiver",
+        "Override",
+        "context",
+        "intent",
+        "equals",
+        "intent",
+        "getAction",
+        "replaceIQDeviceById",
+        "intent",
+        "equals",
+        "intent",
+        "getAction",
+        "replaceIQDeviceById",
+        "intent",
+        "receiver",
+        "onReceive",
+        "context",
+        "intent",
+        "intent",
+        "extraName",
+        "device",
+        "intent",
+        "getParcelableExtra",
+        "extraName",
+        "device",
+        "intent",
+        "putExtra",
+        "extraName",
+        "device",
+        "getDeviceIdentifier",
+        "e"
+    ],
+    "literals": [
+        "\"com.garmin.android.connectiq.SEND_MESSAGE_STATUS\"",
+        "\"com.garmin.android.connectiq.EXTRA_REMOTE_DEVICE\"",
+        "\"com.garmin.android.connectiq.OPEN_APPLICATION\"",
+        "\"com.garmin.android.connectiq.EXTRA_OPEN_APPLICATION_DEVICE\""
+    ],
+    "variables": [
+        "receiver"
+    ],
+    "comments": [
+        "Logger.logDebug(\"Replacing \" + device.describeContents() + \" \" + device.getFriendlyName() + \" by \" + device.getDeviceIdentifier() );",
+        "It's already a long, i.e. on the simulator."
+    ],
+    "docstrings": [],
+    "functions": [
+        "IQMessageReceiverWrapper",
+        "onReceive",
+        "replaceIQDeviceById"
+    ],
+    "classes": [
+        "IQMessageReceiverWrapper"
+    ]
+}

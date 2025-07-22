@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "nordpol",
+        "android",
+        "android",
+        "nfc",
+        "Tag",
+        "nordpol",
+        "android",
+        "OnDiscoveredTagListener",
+        "onDiscoveredTagListener",
+        "lastTag",
+        "onDiscoveredTagListener",
+        "onDiscoveredTagListener",
+        "onDiscoveredTagListener",
+        "lastTag",
+        "onDiscoveredTagListener",
+        "onDiscoveredTagListener",
+        "tagDiscovered",
+        "lastTag",
+        "onDiscoveredTagListener",
+        "Override",
+        "tag",
+        "onDiscoveredTagListener",
+        "onDiscoveredTagListener",
+        "tagDiscovered",
+        "tag",
+        "lastTag",
+        "tag",
+        "tag",
+        "lastTag",
+        "tag",
+        "lastTag"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* The TagArbiter is a tool to help handle tags between activities and\n * fragments in your Android app. You need to create a single instance\n * of this class to be shared between the activities and fragments\n * requiring tag instances. This could be done using a singleton or by\n * providig a reference to the instance to every activity/fragment.\n *\n * The basic flow is to create an instance of the TagDispatcher in all\n * activities, but rather than registering the activity directly to\n * the TagDispatcher, one would register the tag arbiter instead. This\n * way an activity that finds a tag can use it whenever it needs it or\n * it can be used by any other activity that needs it. As long as\n * TagArbiter.tagErrored is not called, the tag found will be kept and\n * can be safely reused among several activities.\n\n * From an end user perspective, this class enables the end user to\n * present their device to the phone once and keep it there while\n * switching between different activities.",
+        "* Set a listener to receive a tag found by any activity\n     *\n     * This method either registers the listener for later dispatch\n     * when a tag arrives pr calls it immediately on the same thread\n     * if a tag has already been found.  Only a single listener is\n     * allowed so this method overwrites any existing listener\n     * claiming the event for itself.\n     * @param onDiscoveredTagListener The listener that requires a tag",
+        "* Removes the current listener from the arbiter",
+        "* Reset a tag previously found e.g. if it erred\n     *\n     * If the tag provided equals the current lastTag, forget about it\n     * by nulling it.\n     * @param tag The tag that erred"
+    ],
+    "functions": [
+        "setListener",
+        "unsetListener",
+        "tagDiscovered",
+        "tagErrored"
+    ],
+    "classes": [
+        "TagArbiter"
+    ]
+}

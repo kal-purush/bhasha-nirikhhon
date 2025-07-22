@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "com",
+        "apachescribe",
+        "utils",
+        "java",
+        "util",
+        "org",
+        "json",
+        "JSONML",
+        "org",
+        "json",
+        "JSONObject",
+        "req",
+        "res",
+        "res",
+        "JSONML",
+        "toJSONObject",
+        "req",
+        "res",
+        "req",
+        "res",
+        "a",
+        "req",
+        "res",
+        "JSONML",
+        "toString",
+        "a",
+        "res",
+        "args"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "XML to map",
+        "Map to XML",
+        "Tester: Use spring boot to test; wasting time debugging testing using strings",
+        "):",
+        "@PostMapping(path = { \"/json-from-xml\" })",
+        "private String json_from_xml(@RequestBody String req) {",
+        "return getJsonFromXml(req).toString();",
+        "}",
+        "@PostMapping(path = { \"/xml-from-json\" })",
+        "private String xml_from_json(@RequestBody Map req) {",
+        "return getXmlFromJson(req).toString();",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "JSONObject",
+        "getJsonFromXml",
+        "getXmlFromJson",
+        "main"
+    ],
+    "classes": [
+        "XML_Json"
+    ]
+}

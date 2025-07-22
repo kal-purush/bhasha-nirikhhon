@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "PartsType",
+        "LoadStage",
+        "coord",
+        "coord",
+        "coord",
+        "c",
+        "Coord",
+        "c",
+        "c",
+        "Coord",
+        "x",
+        "y",
+        "x",
+        "y"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "public convertIntoPosition(wwa: wwa_main.WWA): Position {\n        return new Position(wwa, this.x, this.y, 0, 0);\n    }\n    public getDirectionTo(dest: Coord): Direction {\n        if (this.x < dest.x) {\n            if (this.y > dest.y) {\n                return Direction.RIGHT_UP;\n            }\n            if (this.y === dest.y) {\n                return Direction.RIGHT;\n            }\n            return Direction.RIGHT_DOWN;\n        }\n        if (this.x === dest.x) {\n            if (this.y > dest.y) {\n                return Direction.UP;\n            }\n            if (this.y === dest.y) {\n                return Direction.NO_DIRECTION;\n            }\n            return Direction.DOWN;\n        }\n\n        if (this.y > dest.y) {\n            return Direction.LEFT_UP;\n        }\n        if (this.y === dest.y) {\n            return Direction.LEFT;\n        }\n        return Direction.LEFT_DOWN;\n    }",
+        "0の時, 標準枠",
+        "undefined時, 標準枠"
+    ],
+    "docstrings": [],
+    "functions": [
+        "equals",
+        "substract",
+        "clone"
+    ],
+    "classes": [
+        "WWAConsts",
+        "LoaderResponse",
+        "LoaderError",
+        "LoaderProgress",
+        "Coord",
+        "WWAData"
+    ]
+}

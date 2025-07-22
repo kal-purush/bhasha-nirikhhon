@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "semsql",
+        "builder",
+        "registry",
+        "registry_schema",
+        "MakefileRule",
+        "Makefile",
+        "makerule",
+        "MakefileRule",
+        "join",
+        "makerule",
+        "dependencies",
+        "join",
+        "c",
+        "c",
+        "makerule",
+        "commands",
+        "makerule",
+        "target",
+        "dependencies_str",
+        "commands_str",
+        "makerule",
+        "precious",
+        "as_str",
+        "makerule",
+        "target",
+        "as_str",
+        "makefile",
+        "Makefile",
+        "join",
+        "makerule_to_string",
+        "m",
+        "m",
+        "makefile",
+        "rules"
+    ],
+    "literals": [
+        "\" \"",
+        "\"\"",
+        "f\"\\t{c}\\n\"",
+        "f\"{makerule.target}: {dependencies_str}\\n{commands_str}\"",
+        "f\"{as_str}\\n.PRECIOUS: {makerule.target}\"",
+        "f\"{as_str}\\n\"",
+        "\"\\n\""
+    ],
+    "variables": [
+        "dependencies_str",
+        "commands_str",
+        "as_str",
+        "as_str"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Convert a MakeRule to a string\n\n    :param makerule:\n    :return:\n    \"\"\"",
+        "\"\"\"\n    Convert a Makefile to a string\n\n    :param makefile:\n    :return:\n    \"\"\""
+    ],
+    "functions": [
+        "makerule_to_string",
+        "makefile_to_string"
+    ],
+    "classes": []
+}

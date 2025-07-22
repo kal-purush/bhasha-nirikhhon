@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "IO",
+        "Collections",
+        "Generic",
+        "Runtime",
+        "InteropServices",
+        "OpenHardwareMonitor",
+        "Interop",
+        "StructLayout",
+        "LayoutKind",
+        "Sequential",
+        "MemoryStatusEx",
+        "DllImport",
+        "KERNEL",
+        "CharSet",
+        "CharSet",
+        "Auto",
+        "SetLastError",
+        "MarshalAs",
+        "UnmanagedType",
+        "Bool",
+        "MemoryStatusEx",
+        "buffer"
+    ],
+    "literals": [
+        "\"kernel32.dll\""
+    ],
+    "variables": [
+        "KERNEL",
+        "Length",
+        "MemoryLoad",
+        "TotalPhysicalMemory",
+        "AvailablePhysicalMemory",
+        "TotalPageFile",
+        "AvailPageFile",
+        "TotalVirtual",
+        "AvailVirtual",
+        "AvailExtendedVirtual"
+    ],
+    "comments": [
+        "Mozilla Public License 2.0",
+        "If a copy of the MPL was not distributed with this file, You can obtain one at http://mozilla.org/MPL/2.0/.",
+        "Copyright (C) LibreHardwareMonitor and Contributors",
+        "All Rights Reserved"
+    ],
+    "docstrings": [],
+    "functions": [
+        "GlobalMemoryStatusEx"
+    ],
+    "classes": [
+        "Kernel32"
+    ]
+}

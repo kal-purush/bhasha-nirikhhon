@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "canvas",
+        "config",
+        "commit",
+        "canvas",
+        "config",
+        "commit",
+        "Dot",
+        "dpl",
+        "Straight",
+        "dpl",
+        "Creation",
+        "dpl",
+        "allmerges",
+        "merge",
+        "Curve",
+        "merge",
+        "merge"
+    ],
+    "literals": [],
+    "variables": [
+        "dpl",
+        "allmerges"
+    ],
+    "comments": [
+        "<reference path=\"Config.ts\"/>",
+        "<reference path=\"Commit.ts\"/>",
+        "<reference path=\"rendering/Curve.ts\"/>",
+        "<reference path=\"rendering/Dot.ts\"/>",
+        "<reference path=\"rendering/Straight.ts\"/>",
+        "<reference path=\"rendering/Creation.ts\"/>",
+        "jsgl",
+        "Direct parent",
+        "direct parent is the same X/lane, this means it is a standard forward commit",
+        "direct parent is on a different lane, this is most certainly a new branch",
+        "calculate the positions based on model and update the shapes"
+    ],
+    "docstrings": [
+        "* View of the Commit"
+    ],
+    "functions": [
+        "addRelations",
+        "redraw"
+    ],
+    "classes": [
+        "CommitView"
+    ]
+}

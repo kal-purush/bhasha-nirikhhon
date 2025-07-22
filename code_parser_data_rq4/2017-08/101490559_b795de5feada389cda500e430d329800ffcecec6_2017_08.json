@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Vue",
+        "createClient",
+        "get",
+        "sample",
+        "createClient",
+        "Vue",
+        "to",
+        "client",
+        "hintList",
+        "hintList",
+        "err"
+    ],
+    "literals": [
+        "'vue'",
+        "'contentful'",
+        "'lodash'",
+        "'881sco8a7hxb'",
+        "'41354290dd34a67e7c1f04c8ef22d1be8f9bc402bec4b42bb002cc8b340b200a'",
+        "<div>\n      <h1>Get a Hint</h1>\n      <div v-if=\"hintList && !error\">\n        <ul id=\"hintList\">\n          <li v-for=\"hint in hintList\">\n            <a>{{ hint.fields.body }}</a>\n          </li>\n        </ul>\n      </div>\n      \n\n      <div v-if=\"error\">\n        Sorry, but that doesn't seem to be a hint!\n      </div>\n    </div>",
+        "'hint'"
+    ],
+    "variables": [
+        "client",
+        "hintList"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "created",
+        "data",
+        "$route",
+        "fetchData"
+    ],
+    "classes": []
+}

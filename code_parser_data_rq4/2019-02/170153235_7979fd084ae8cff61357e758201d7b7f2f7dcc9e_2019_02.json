@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "UnityEngine",
+        "AI",
+        "MonoBehaviour",
+        "Vector3",
+        "origin",
+        "wanderRadius",
+        "RandomNavSphere",
+        "origin",
+        "wanderRadius",
+        "newPosition",
+        "y",
+        "newPosition",
+        "Vector3",
+        "origin",
+        "dist",
+        "layermask",
+        "Random",
+        "insideUnitSphere",
+        "dist",
+        "randDirection",
+        "origin",
+        "NavMesh",
+        "SamplePosition",
+        "randDirection",
+        "navHit",
+        "dist",
+        "layermask",
+        "navHit",
+        "position"
+    ],
+    "literals": [],
+    "variables": [
+        "Vector3",
+        "newPosition",
+        "Vector3",
+        "randDirection",
+        "NavMeshHit",
+        "navHit"
+    ],
+    "comments": [
+        "Gets a random position to travel to inside the wander radius",
+        "</summary>",
+        "<param name=\"origin\">The current location of the character</param>",
+        "<param name=\"wanderRadius\">The maximum distance the character can travel</param>",
+        "<returns>The vector3 of a new location inside of the wander radius</returns>",
+        "fix to stop floating enemies",
+        "Finds a random location inside a sphere",
+        "</summary>",
+        "<param name=\"origin\">This is the current location</param>",
+        "<param name=\"dist\"> Size of the distance it may wander</param>",
+        "<param name=\"layermask\">Needs to be -1 in most cases</param>",
+        "<returns>Returns the location of a random spot with the distance specified.</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Vector3",
+        "WanderLocation",
+        "Vector3",
+        "RandomNavSphere"
+    ],
+    "classes": [
+        "Wander"
+    ]
+}

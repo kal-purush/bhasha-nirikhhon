@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "s",
+        "total",
+        "s",
+        "total",
+        "s",
+        "PAIRS",
+        "total",
+        "PAIRS",
+        "s",
+        "decimate",
+        "s",
+        "total",
+        "total",
+        "SINGLES",
+        "s",
+        "decimate",
+        "s",
+        "total",
+        "decimate"
+    ],
+    "literals": [
+        "'CM'",
+        "'CD'",
+        "'XC'",
+        "'XL'",
+        "'IX'",
+        "'IV'",
+        "'M'",
+        "'D'",
+        "'C'",
+        "'L'",
+        "'X'",
+        "'V'",
+        "'I'",
+        "'__main__'",
+        "\"XIV\""
+    ],
+    "variables": [
+        "PAIRS",
+        "SINGLES"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nThis problem was asked by Facebook.\n\nGiven a number in Roman numeral format, convert it to decimal.\n\nThe values of Roman numerals are as follows:\n\n{\n    'M': 1000,\n    'D': 500,\n    'C': 100,\n    'L': 50,\n    'X': 10,\n    'V': 5,\n    'I': 1\n}\nIn addition, note that the Roman numeral system uses subtractive notation for numbers such as IV and XL.\n\nFor the input XIV, for instance, you should return 14.\n\"\"\""
+    ],
+    "functions": [
+        "decimate"
+    ],
+    "classes": []
+}

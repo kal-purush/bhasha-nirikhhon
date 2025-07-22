@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Database",
+        "open",
+        "open",
+        "db",
+        "db",
+        "db",
+        "db"
+    ],
+    "literals": [
+        "'sqlite'",
+        "'./database.sqlite3'",
+        "'last'"
+    ],
+    "variables": [],
+    "comments": [
+        "First, try to open the database:",
+        "Update db schema to the latest version using SQL-based migrations:",
+        "return noop for void:"
+    ],
+    "docstrings": [],
+    "functions": [
+        "database",
+        "initDatabase"
+    ],
+    "classes": [
+        "DatabaseProvider"
+    ]
+}

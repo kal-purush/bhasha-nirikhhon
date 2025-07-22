@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "app",
+        "java",
+        "io",
+        "File",
+        "model",
+        "Game",
+        "view",
+        "Gui",
+        "args",
+        "file",
+        "file",
+        "niveau",
+        "file",
+        "getAbsolutePath",
+        "game",
+        "niveau",
+        "game",
+        "getLemmings",
+        "register",
+        "game",
+        "game",
+        "getLemmings",
+        "isAlive",
+        "game",
+        "step"
+    ],
+    "literals": [
+        "\"1\""
+    ],
+    "variables": [],
+    "comments": [
+        "import java.util.List;"
+    ],
+    "docstrings": [
+        "ame.getLemmings().register(new LemmingsObserver() {\t\t\t\n\t\t\t\t@Override\n\t\t\t\tpublic void notify(List<LemmingsEvent> events) {\t\t\t\t\n\t\t\t\t\tfor (LemmingsEvent event : events) {\n\t\t\t\t\t\tSystem.out.println(event);\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t});"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "App"
+    ]
+}

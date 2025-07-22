@@ -1,0 +1,88 @@
+{
+    "identifiers": [
+        "volatility",
+        "plugins",
+        "common",
+        "common",
+        "volatility",
+        "utils",
+        "utils",
+        "volatility",
+        "win32",
+        "tasks",
+        "tasks",
+        "common",
+        "AbstractWindowsCommand",
+        "utils",
+        "load_as",
+        "_config",
+        "process",
+        "tasks",
+        "pslist",
+        "kernel_space",
+        "process",
+        "outfd",
+        "data",
+        "table_header",
+        "outfd",
+        "process",
+        "data",
+        "table_row",
+        "outfd",
+        "process",
+        "obj_offset",
+        "process",
+        "ImageFileName",
+        "process",
+        "UniqueProcessId",
+        "process",
+        "CreateTime",
+        "outfd",
+        "data",
+        "process",
+        "data",
+        "outfd",
+        "write",
+        "format",
+        "process",
+        "obj_offset",
+        "process",
+        "ImageFileName",
+        "process",
+        "UniqueProcessId",
+        "process",
+        "CreateTime"
+    ],
+    "literals": [
+        "\"Offset\"",
+        "\"[addrpad]\"",
+        "\"Process\"",
+        "\"20\"",
+        "\"Pid\"",
+        "\"8\"",
+        "\"Created\"",
+        "\"[DateTime]\"",
+        "\"Offset,Process,Pid,Created\"",
+        "\"{0:#x},{1},{2},{3}\\n\""
+    ],
+    "variables": [
+        "kernel_space"
+    ],
+    "comments": [
+        "self.table_header(outfd, [(\"Offset\", \"[addrpad]\"),",
+        "(\"Process\", \"20\"),",
+        "(\"Pid\", \"8\"),",
+        "(\"Created\", \"20\")])"
+    ],
+    "docstrings": [
+        "\"\"\"Process List with CSV output\"\"\""
+    ],
+    "functions": [
+        "calculate",
+        "render_text",
+        "render_csv"
+    ],
+    "classes": [
+        "PsCSV"
+    ]
+}

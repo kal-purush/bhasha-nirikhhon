@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "ec2",
+        "ec2",
+        "launch_template",
+        "create_auto_scaling_group",
+        "vpc",
+        "vpc",
+        "create_custom_vpc_and_subnets",
+        "create_custom_vpc_and_subnets",
+        "subnet_a",
+        "id",
+        "subnet_a",
+        "id",
+        "custom_sg",
+        "id",
+        "launch_template",
+        "custom_sg_id",
+        "create_auto_scaling_group",
+        "lt",
+        "subnet_ids"
+    ],
+    "literals": [],
+    "variables": [
+        "custom_vpc",
+        "subnet_a",
+        "subnet_b",
+        "igw",
+        "route_table",
+        "rt_assoc_a",
+        "rt_assoc_b",
+        "custom_sg",
+        "subnet_ids",
+        "custom_sg_id",
+        "lt"
+    ],
+    "comments": [
+        "from eb import eb_ecs",
+        "conn = eb_ecs.create_rds()",
+        "eb_ecs.create_elastic_beanstalk_with_ecs(conn)"
+    ],
+    "docstrings": [
+        "\"\"\"An AWS Python Pulumi program\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

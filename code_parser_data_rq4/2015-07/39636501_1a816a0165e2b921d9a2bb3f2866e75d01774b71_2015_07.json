@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "base_handler",
+        "remark_datastore",
+        "google",
+        "appengine",
+        "api",
+        "users",
+        "base_handler",
+        "Handler",
+        "request",
+        "get",
+        "action",
+        "_POST_REMARK_KEY",
+        "request",
+        "get",
+        "remark",
+        "remark_datastore",
+        "PostRemark",
+        "users",
+        "get_current_user",
+        "email",
+        "remark",
+        "action",
+        "_READ_REMARKS_KEY",
+        "WriteTemplate",
+        "remark_datastore",
+        "ReadRemarks",
+        "users",
+        "get_current_user",
+        "user_id",
+        "error"
+    ],
+    "literals": [
+        "'post'",
+        "'read'",
+        "'action'",
+        "''",
+        "'remark'",
+        "'remarks.html'",
+        "'remarks'",
+        "'Invalid action key.'"
+    ],
+    "variables": [
+        "_POST_REMARK_KEY",
+        "_READ_REMARKS_KEY",
+        "action",
+        "remark"
+    ],
+    "comments": [
+        "Read the action key provided by the client.",
+        "If the client wants to post...",
+        "... get the remark from the client request...",
+        "... then write the remark to the datastore.",
+        "If the client wants to read remarks...",
+        "... write them back out as a response."
+    ],
+    "docstrings": [
+        "\"\"\"Contains AJAX handler and functions for reading and writing posts.\"\"\"",
+        "\"\"\"Handles asynchronous client requests.\"\"\""
+    ],
+    "functions": [
+        "post"
+    ],
+    "classes": [
+        "Handler"
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "artifacts",
+        "artifacts",
+        "deployer",
+        "network",
+        "deployer",
+        "Metascapes",
+        "Metascapes",
+        "metascapes",
+        "metascapes",
+        "startTimestamp",
+        "deployer",
+        "metascapes",
+        "web3",
+        "WhitelistMerkleTreeExtension",
+        "metascapes",
+        "whitelist",
+        "whitelist",
+        "whitelistStartTimestamp",
+        "metascapes",
+        "owner"
+    ],
+    "literals": [
+        "\"Metascapes\"",
+        "\"WhitelistMerkleTreeExtension\"",
+        "\"Metascapes address: \"",
+        "\"WhitelistMerkleTreeExtension\"",
+        "\"0x0\"",
+        "\"0.33\"",
+        "\"ether\""
+    ],
+    "variables": [
+        "Metascapes",
+        "WhitelistMerkleTreeExtension",
+        "metascapes",
+        "startTimestamp",
+        "whitelist",
+        "whitelistStartTimestamp"
+    ],
+    "comments": [
+        "const owner = await metascapes.owner();",
+        "Call updateStartTimestamp with 2nd Feb 2022, 9am EST",
+        "Deploy whitelist with arguments: 0x0, address of Metascapes, 0.33 ether, 1",
+        "Metascapes.addExtension(whitelist address)",
+        "Call whitelist.updateStartTimestamp with 31 Jan 2022, 9am EST",
+        "Transfer ownership to Ryan (strawhatbackpacker.eth)"
+    ],
+    "docstrings": [
+        "* Steps:\n * - Deploy Metascapes.sol\n * - TEST withdraw(): deposit 1 wei, call withdraw, check balance\n * - Call updateStartTimestamp with 2nd Feb 2022, 9am EST\n * - Deploy whitelist with arguments: 0x0, address of Metascapes, 0.33 ether, 1\n * - Metascapes.addExtension(whitelist address)\n * - Call whitelist.updateStartTimestamp with 31 Jan 2022, 9am EST\n * - Transfer ownership to Ryan (strawhatbackpacker.eth)"
+    ],
+    "functions": [],
+    "classes": []
+}

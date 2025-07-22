@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "router",
+        "req",
+        "res",
+        "router",
+        "req",
+        "res",
+        "router",
+        "req",
+        "res",
+        "router",
+        "req",
+        "res",
+        "router"
+    ],
+    "literals": [
+        "'express'",
+        "'../db/store'",
+        "'/gameDatas'",
+        "'/gameDatas'",
+        "'/gameDatas'",
+        "'/gameDatas'"
+    ],
+    "variables": [
+        "router",
+        "store"
+    ],
+    "comments": [
+        "GET \"/api/gameDatas\" -> responds with all the data from the database",
+        "code goes here",
+        "POST \"/api/gameDatas\" -> Add data to the database",
+        "code goes here",
+        "Delete \"/api/gameDatas\" -> deletes data from the database",
+        "code goes here",
+        "UPDATE \"/api/gameDatas\" -> change data from the database",
+        "code goes here"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

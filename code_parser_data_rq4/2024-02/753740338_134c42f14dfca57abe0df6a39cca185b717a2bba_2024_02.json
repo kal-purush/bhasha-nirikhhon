@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "GenericMessageToAPI",
+        "sec",
+        "sec",
+        "ms",
+        "ms",
+        "sec",
+        "sec",
+        "sec",
+        "sec",
+        "sec",
+        "seconds",
+        "ws",
+        "message",
+        "ws",
+        "message",
+        "ws",
+        "message"
+    ],
+    "literals": [
+        "\"./types\"",
+        "string",
+        "${sec % 60}",
+        "0${sec % 60}",
+        "${sec % 60}",
+        "${Math.floor(sec / 60)}:${seconds}",
+        "sending message ${JSON.stringify(message)}"
+    ],
+    "variables": [
+        "seconds"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "toMilliseconds",
+        "toSeconds",
+        "secondsToClockString",
+        "wsSend"
+    ],
+    "classes": []
+}

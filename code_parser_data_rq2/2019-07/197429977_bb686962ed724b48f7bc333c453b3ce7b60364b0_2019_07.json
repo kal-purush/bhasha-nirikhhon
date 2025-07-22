@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "ora",
+        "currency",
+        "amount",
+        "currency",
+        "amount",
+        "spinner",
+        "request",
+        "url",
+        "body",
+        "spinner",
+        "body",
+        "body",
+        "body",
+        "chalk",
+        "amount",
+        "chalk",
+        "currency",
+        "chalk",
+        "apiResponse",
+        "err",
+        "spinner",
+        "chalk",
+        "err",
+        "convertBTC"
+    ],
+    "literals": [
+        "'request-promise-native'",
+        "'chalk'",
+        "'ora'",
+        "'Retriving Bitcoin data...'",
+        "'yellow'",
+        "'USD'",
+        "https://apiv2.bitcoinaverage.com/convert/global?from=BTC&to=${currency}&amount=${amount}",
+        "${chalk.red(amount)} BTC to ${chalk.cyan(currency)} ${chalk.yellow(apiResponse.price)}",
+        "'Something went in API. Try in a few minutes.'"
+    ],
+    "variables": [
+        "request",
+        "chalk",
+        "ora",
+        "spinner",
+        "url",
+        "apiResponse"
+    ],
+    "comments": [
+        "eslint-disable no-console"
+    ],
+    "docstrings": [],
+    "functions": [
+        "convertBTC"
+    ],
+    "classes": []
+}

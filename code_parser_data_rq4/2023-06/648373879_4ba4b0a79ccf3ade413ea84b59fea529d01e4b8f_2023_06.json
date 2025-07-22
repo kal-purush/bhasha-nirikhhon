@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "flask",
+        "request",
+        "Models",
+        "storage",
+        "request",
+        "args",
+        "get",
+        "name",
+        "name",
+        "storage",
+        "take_query",
+        "query",
+        "messages",
+        "e",
+        "e"
+    ],
+    "literals": [
+        "'name'",
+        "f\"SELECT * FROM Messages WHERE sent_by ='{name}' OR sent_to = '{name}'\"",
+        "\"something is wrong\""
+    ],
+    "variables": [
+        "name",
+        "query",
+        "messages"
+    ],
+    "comments": [
+        "f\"SELECT * FROM Profile WHERE ageRange = '{user_data['ageRange']}' AND \\",
+        "religion = '{user_data['religion']}' AND gender = '{user_data['gender']}' LIMIT 20\"  # Fetch the first 20 users",
+        "if 'last_index' in user_data and user_data['last_index'] is not None and user_data['last_index'] != 0:",
+        "query += f\" OFFSET {user_data['last_index']}\""
+    ],
+    "docstrings": [],
+    "functions": [
+        "all_messages"
+    ],
+    "classes": []
+}

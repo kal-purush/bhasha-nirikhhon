@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "op",
+        "add_column",
+        "sa",
+        "Column",
+        "sa",
+        "Text",
+        "nullable",
+        "schema",
+        "op",
+        "drop_column",
+        "schema"
+    ],
+    "literals": [
+        "'ac604d2cf763'",
+        "'dfeba9ccfc46'",
+        "'respondent'",
+        "'pending_email_address'",
+        "'partysvc'",
+        "'respondent'",
+        "'pending_email_address'",
+        "'partysvc'"
+    ],
+    "variables": [
+        "revision",
+        "down_revision",
+        "branch_labels",
+        "depends_on"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic."
+    ],
+    "docstrings": [
+        "\"\"\"add pending email address to respondent\n\nRevision ID: ac604d2cf763\nRevises: dfeba9ccfc46\nCreate Date: 2018-05-01 09:39:19.452818\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

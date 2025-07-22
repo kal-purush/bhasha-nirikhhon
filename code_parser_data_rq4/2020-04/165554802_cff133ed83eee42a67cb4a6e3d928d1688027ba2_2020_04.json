@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "remCalc",
+        "theme",
+        "defaultTheme",
+        "styled",
+        "StyleableButton",
+        "StyledInput",
+        "StyledInputWrapper",
+        "StyledInputWrapperProps",
+        "styled",
+        "StyleableButton",
+        "theme",
+        "theme",
+        "styled",
+        "StyledInputWrapper",
+        "StyledInputWrapperProps",
+        "theme",
+        "remCalc",
+        "styled",
+        "StyledInput",
+        "StyledCounterButton",
+        "defaultTheme",
+        "StyledCounterInput",
+        "defaultTheme",
+        "StyledCounterWrapper",
+        "defaultTheme"
+    ],
+    "literals": [
+        "'@bigcommerce/big-design-theme'",
+        "'styled-components'",
+        "'../Button/private'",
+        "'../Input/private'",
+        "background-color: inherit;\n  border: none;\n  color: ${({ theme }) => theme.colors.secondary60};\n  width: auto;\n  height: auto;\n  padding: 0;\n\n  &[disabled],\n  &:active,\n  &:hover:not(:active) {\n    background-color: inherit;\n  }\n\n  &[disabled] {\n    color: ${({ theme }) => theme.colors.secondary};\n  }",
+        "padding: 0 ${({ theme }) => theme.spacing.xxSmall};\n  width: ${remCalc(125)};",
+        "text-align: center;\n  padding: 0;\n  overflow: hidden;"
+    ],
+    "variables": [
+        "StyledCounterButton",
+        "StyledCounterWrapper",
+        "StyledCounterInput"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

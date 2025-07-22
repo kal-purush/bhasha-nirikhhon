@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "LevelUp",
+        "Persister",
+        "connection",
+        "key",
+        "resolve",
+        "reject",
+        "key",
+        "error",
+        "value",
+        "error",
+        "reject",
+        "error",
+        "resolve",
+        "value",
+        "key",
+        "value",
+        "key",
+        "value"
+    ],
+    "literals": [
+        "\"levelup\"",
+        "\"./index\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* LevelBackend implements the IStorageBackend for LevelDB.",
+        "* The LevelBackend constructor takes a reference to a LevelUp backend.\n   * @param {levelup.LevelUp} connection",
+        "* Database closing method implementation for LevelDB.\n   * @returns {Promise<void>}",
+        "* Get value by key.\n   * @param {Buffer} key\n   * @returns {Promise<Buffer>}",
+        "* Put a value under a certain key.\n   * @param {Buffer} key\n   * @param {Buffer} value\n   * @returns {Promise<boolean>}"
+    ],
+    "functions": [
+        "close",
+        "get",
+        "put"
+    ],
+    "classes": [
+        "LevelPersister"
+    ]
+}

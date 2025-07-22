@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "ChangeDetectionStrategy",
+        "Output",
+        "EventEmitter",
+        "Component",
+        "ChangeDetectionStrategy",
+        "Output",
+        "EventEmitter"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'app-char-nav'",
+        "'char-nav.component.scss'",
+        "<div class=\"app-nav\">\n        <div class=\"wrapper\">\n            <a routerLink=\"inventory\" routerlinkActive=\"active\">Inventory</a>\n            <a routerLink=\"activity\" routerlinkActive=\"active\">Activity Stats</a>\n            <a routerLink=\"historical\" routerlinkActive=\"active\">Historical Stats</a>\n            <a (click)=\"logoutUser()\">Logout</a>\n        </div>\n    </div>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "logoutUser"
+    ],
+    "classes": [
+        "CharNavComponent"
+    ]
+}

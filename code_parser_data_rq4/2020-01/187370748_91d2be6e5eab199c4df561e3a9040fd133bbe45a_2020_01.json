@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "getHostUrl",
+        "getAvatarSource",
+        "url",
+        "url",
+        "amendImageUrl",
+        "url",
+        "getHostUrl",
+        "amendImageUrl",
+        "url",
+        "url",
+        "url",
+        "url",
+        "getHostUrl",
+        "url"
+    ],
+    "literals": [
+        "\"../../core/src/shared/fetch\"",
+        "string",
+        "string",
+        "${getHostUrl()}/images/avatar.png",
+        "string",
+        "string",
+        "\"http\"",
+        "\"/\"",
+        "${getHostUrl()}${url}",
+        "\"Invalid url to amend, it must start with 'http' or '/'\""
+    ],
+    "variables": [
+        "getAvatarSource",
+        "amendImageUrl"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

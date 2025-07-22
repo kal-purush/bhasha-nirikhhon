@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "toDoItems",
+        "Todo",
+        "buildTodos",
+        "buildTodo",
+        "completeTodo",
+        "displayTodos",
+        "addTodo"
+    ],
+    "literals": [
+        "'undefined'"
+    ],
+    "variables": [
+        "toDoItems"
+    ],
+    "comments": [
+        "STEP 1: There is a span element currently on the page with the innerHTML of 'This app was created by:',\n           Using a querySelector, select the span by it's id ('createdBy'). Then using the innerHTML method,\n           add your name to the end of the current innerHTML",
+        "Uncomment and add your code:",
+        "let created = document.querySelector(/* Your Code here */);",
+        "STEP 2: Create a class constructor called 'Todo' this function should take one argument, the description of the todo.\n    add two values to the class: this.description which should be set equal to the description passed to the class, and \n    this.complete which should be set to false.",
+        "STEP 3: Add a completeTodo method to the prototype of Todo. It will not take any arguemnts. Inside the function set the\n           Todo's complete to true",
+        "STEP 4: initiate an array called 'toDoItems'. In this array you should have one new object of the class Todo.",
+        "STEP 5: This function, buildTodo, will take an object of class Todo as it's first argument and \n          a numerical index as it's second.\n           \n          Inside this function should:\n            1.) Create a new 'div' element. Set this to a variable 'todoShell'\n            2.) Give todoShell a class of 'todoShell'.\n              \n            3.) Create a new 'span' element. Set this to a variable 'todoText'\n            4.) Using the item passed in, set the todoText innerHTML to the value of 'description'.\n            5.) Set the id of todoText to the value passed pby the index argument.\n            6.) Using an if statement, check to see if the 'complete' value on the object passed as the first argument \n                  is true. If it is, give todoText a class of 'completeText'. If it is not, do not giv eit a class.\n            7.) Append child todoText to todoShell\n            8.) return todoShell",
+        "STEP 6: This function will build and return an array of todo element. It will take an array of objects of the Todo class as it's only argument.\n          Using the map method on the array passed in, use the 'buildTodo' function as the callback passed to map. \n          Return the new mapped array.",
+        "STEP 7: Now that we can build an array of todo elements, we want to make these elements appear on the screen, \n            to do this we will create a 'displayTodos' function.\n            1.) Select the id todoContainer.\n            2.) Set the innerHTML of the element from (1) to and empty string. (This will let us refresh the elements, and display the new todos)\n            3.) Using the buildTodos function pass it the array toDoItems as it's only argument.\n            4.) Using the result of (3), loop over the array appending each element to the container selected in (1).\n\n            5.) at the very end of this file, the line before the comment \"DO NOT CHANGE ANY CODE BELOW THIS LINE\", call this function.\n\n            You can now load your html file in your broswer and see your work so far.",
+        "STEP 8: This function, 'addTodo' will add a new Todo to the array of todos.\n            NOTE: We have not learned about input HTML elements yet, so we will give you a little more code to go on here.\n            'newTodo' is an text input element. All text input elements have a property called 'value', this value will be whatever is typed into \n            the text box on the page.\n  \n            1.) Using the value property on newTodo, create an new Todo object and pass the value as the description.\n            2.) add the object from (1) into the toDoItems array.\n            3.) Set the value of newTodo to an empty string (this will clear the text in the box allowing the user to enter another item).\n            4.) Call displayTodos to refresh the todos displayed",
+        "UNCOMMENT THE NEXT LINE",
+        "let newTodo = document.querySelector('#todoInput');",
+        "STEP 9: In this step we will fire addTodo everytime the 'ADD' button is clicked.\n          1.) Select the element with the id 'addButton'\n          2.) Add a 'click' event listener to this element, passing it the addTodo function as a callback",
+        "UNCOMMENT THE NEXT LINE",
+        "let button;",
+        "STEP 10: Finally in this step we will define the function to run when we want to compelte a todo, and add that function to the click event\n             listener on the todo element\n            \n            Note: We have not covered the argument every event listener receives, the 'event' object. There is a lot of data in this object, \n            including event type, which element called it, what the values of that element are, etc. In this exercise we will use it to find the \n            index of the item that called it. We have given you that code, study it to make sure you understand what is happening.\n  \n            1.) Using the index supplied, call completeTodo on the item which called it from toDoItems.\n            2.) call displayTodos to refresh to items on the screen.\n            3.) In the buildTodo function add a 'click' event listener to the 'todoText' element, and pass this function as the callback.",
+        "UNCOMMENT THE NEXT LINE",
+        "let index = event.target.id;",
+        "STEP 11: Make sure ALL tests pass",
+        "1.) Research 'checkbox' input types. And apply that research to the buildTodo function:\n        a.) Create a checkbox in the buildTodo function. A\n        b.) Give the checkbox the id of the index, and remove the id of the index from todoText\n        c.) Give the checkbox the 'click' event listener of completeTodo, and remove the event listener from todoText\n        d.) Give the checkbox the class of 'completeCheckbox'\n        e.) Inside of the current 'if' statement in the buildTodo function, if true, set the attribute, 'checked' to true on the checkbox.\n        f.) Append this checkbox on the todoShell element.",
+        "Call displayTodos here <-----",
+        "---------------------------- DO NOT CHANGE ANY CODE BELOW THIS LINE ----------------------------- //"
+    ],
+    "docstrings": [
+        "**********************************************EXTRA CREDIT:********************************************** //",
+        "********************************************** ----------- ********************************************** //"
+    ],
+    "functions": [
+        "Todo",
+        "buildTodo",
+        "buildTodos",
+        "displayTodos",
+        "addTodo",
+        "completeTodo"
+    ],
+    "classes": []
+}

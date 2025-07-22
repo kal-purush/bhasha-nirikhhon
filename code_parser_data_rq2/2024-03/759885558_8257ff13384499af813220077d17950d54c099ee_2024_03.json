@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "getHeroeById",
+        "getHeroeByIdAsync",
+        "id",
+        "resolve",
+        "reject",
+        "setTimeout",
+        "getHeroeById",
+        "id",
+        "resultado",
+        "resolve",
+        "resultado",
+        "reject",
+        "getHeroeByIdAsync",
+        "heroe",
+        "heroe",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "\"./bases/08-import-export\"",
+        "'No se ha encontrado al heroe'",
+        "'Heroe: '"
+    ],
+    "variables": [
+        "getHeroeByIdAsync",
+        "resultado"
+    ],
+    "comments": [
+        "Promesas",
+        "console.log('Antes de la promesa');\nconst promesa = new Promise( (resolve, reject) => {\n    setTimeout( () => {\n        // console.log('... 2 segundos después ....');\n        //resolve(); \n        const heroe = getHeroeById(2);\n        //console.log(heroe);\n        resolve(heroe);\n    }, 2000 )\n});\n \npromesa.then( (heroe) => {\n    console.log('Heroe: ', heroe);\n})"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

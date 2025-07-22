@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Component",
+        "Home",
+        "HTTP_PROVIDERS",
+        "ROUTER_PROVIDERS",
+        "RouteConfig",
+        "RouterOutlet",
+        "RouterLink",
+        "Party",
+        "Component",
+        "RouterOutlet",
+        "RouterLink",
+        "HTTP_PROVIDERS",
+        "ROUTER_PROVIDERS",
+        "RouteConfig",
+        "Home",
+        "Party"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./components/home'",
+        "'angular2/http'",
+        "'angular2/router'",
+        "'./components/party'",
+        "'app'",
+        "<style>\n.router-link-active{\n  color: #55595c;\n  background-color: #fff;\n  border-color: #ddd #ddd transparent;\n}\n</style>\n<div class=\"container\">\n  <ul class=\"nav nav-tabs\">\n    <li class=\"nav-item\">\n      <a [routerLink]=\"['Home']\" class=\"nav-link\">Home</a>\n    </li>\n    <li class=\"nav-item\">\n      <a [routerLink]=\"['Party']\" class=\"nav-link\">Party</a>\n    </li>\n  </ul>\n  <router-outlet></router-outlet>\n</div>",
+        "'/home'",
+        "'Home'",
+        "'/party'",
+        "'Party'",
+        "'/**'",
+        "'Home'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "App"
+    ]
+}

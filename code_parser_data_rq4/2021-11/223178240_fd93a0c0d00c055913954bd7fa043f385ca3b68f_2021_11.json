@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "com",
+        "nvidia",
+        "grcuda",
+        "runtime",
+        "java",
+        "util",
+        "collectionOfExecution",
+        "collectionOfExecution",
+        "deviceId",
+        "executionTime",
+        "collectionOfExecution",
+        "put",
+        "deviceId",
+        "executionTime",
+        "deviceId",
+        "collectionOfExecution",
+        "containsKey",
+        "deviceId",
+        "collectionOfExecution",
+        "get",
+        "deviceId",
+        "deviceId"
+    ],
+    "literals": [
+        "\"Execution time for device=\"",
+        "\" has not been collected\""
+    ],
+    "variables": [
+        "collectionOfExecution"
+    ],
+    "comments": [
+        "Track the latest execution time associated to the GPU on which it was executed;"
+    ],
+    "docstrings": [
+        "* Copyright (c) 2021, NECSTLab, Politecnico di Milano. All rights reserved.\n *\n * Redistribution and use in source and binary forms, with or without\n * modification, are permitted provided that the following conditions\n * are met:\n *  * Redistributions of source code must retain the above copyright\n *    notice, this list of conditions and the following disclaimer.\n *  * Redistributions in binary form must reproduce the above copyright\n *    notice, this list of conditions and the following disclaimer in the\n *    documentation and/or other materials provided with the distribution.\n *  * Neither the name of NVIDIA CORPORATION nor the names of its\n *    contributors may be used to endorse or promote products derived\n *    from this software without specific prior written permission.\n *\n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS ``AS IS'' AND ANY\n * EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\n * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR\n * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,\n * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR\n * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY\n * OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE\n * OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE."
+    ],
+    "functions": [
+        "ProfilableElement",
+        "addExecutionTime",
+        "getExecutionTimeOnDevice"
+    ],
+    "classes": [
+        "ProfilableElement"
+    ]
+}

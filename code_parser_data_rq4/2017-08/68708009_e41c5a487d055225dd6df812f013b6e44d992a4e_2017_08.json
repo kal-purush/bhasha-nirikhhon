@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "Compiler",
+        "compiler",
+        "compiler",
+        "compiler",
+        "compiler",
+        "filePath",
+        "wfs",
+        "watcher",
+        "_watcher",
+        "watcher",
+        "_watcher",
+        "watcher",
+        "watcher",
+        "item",
+        "mtime",
+        "item",
+        "mtimes",
+        "mtimes",
+        "item",
+        "mtime",
+        "mtimes",
+        "item",
+        "mtime",
+        "FS_ACCURACY",
+        "onChange",
+        "watcher",
+        "arguments",
+        "mtimes",
+        "item",
+        "watcher",
+        "onChange",
+        "IgnoreUnmodifiedPlugin"
+    ],
+    "literals": [
+        "'webpack/lib/Compiler'",
+        "'after-environment'",
+        "string",
+        "'watcher'",
+        "string"
+    ],
+    "variables": [
+        "FS_ACCURACY",
+        "wfs",
+        "mtimes",
+        "watcher",
+        "onChange"
+    ],
+    "comments": [
+        "TODO: See https://github.com/webpack/watchpack/issues/51",
+        "The first time webpack's file watcher comes across a new file, it adds 10s to its mtime,",
+        "and then emits change events until the compilation start time passes that mtime. The result",
+        "of this behavior is that when initially running `$ dojo build -w`, the app compiles multiple",
+        "times. This plugin works by removing the 10s buffer added to the file's mtime with the",
+        "initial pass."
+    ],
+    "docstrings": [],
+    "functions": [
+        "apply",
+        "get"
+    ],
+    "classes": [
+        "IgnoreUnmodifiedPlugin"
+    ]
+}

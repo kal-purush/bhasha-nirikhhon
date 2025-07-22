@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "repoStr",
+        "none",
+        "repoStr",
+        "XMLHttpRequest",
+        "request",
+        "request",
+        "request",
+        "request",
+        "request",
+        "request",
+        "resp",
+        "repoStr",
+        "resp",
+        "repoStr",
+        "resp",
+        "re",
+        "resp",
+        "repoStr",
+        "repoStr",
+        "request",
+        "repoStr",
+        "repoStr",
+        "request",
+        "updateRepoFromCSUsername",
+        "authenticateWithGitHub"
+    ],
+    "literals": [
+        "'srcRepo'",
+        "\"githubAuthButton\"",
+        "\"githubAuthButton\"",
+        "\"disabled\"",
+        "'csusername'",
+        "\"\"",
+        "\"\"",
+        "'GET'",
+        "'?username='",
+        "'csusername'",
+        "\"ok\"",
+        "'repoURI'",
+        "'repoURI'",
+        "\"githubAuthButton\"",
+        "\"githubAuthButton\"",
+        "\"disabled\"",
+        "\"Error in response\"",
+        "\"Invalid User\"",
+        "\"invalid\"",
+        "\"Error in request\"",
+        "\"Error in response\"",
+        "\"invalid\"",
+        "\"DOMContentLoaded\"",
+        "\"csusername\"",
+        "\"csusername\"",
+        "\"\"",
+        "'githubAuthButton'",
+        "\"click\""
+    ],
+    "variables": [
+        "repoStr",
+        "request",
+        "resp",
+        "re",
+        "githubId"
+    ],
+    "comments": [
+        "alert(e.keyCode);",
+        "Vanilla Ajax. Nothing to see here. Move along.",
+        "Send an AJAX request for CS user's GH URI. Sync needed to due expected in-order response (key-binding)",
+        "Parse out username",
+        "we have already auth'd, no need for button manipulation",
+        "alert(\"sending...\");",
+        "document.getElementById('csusername').onkeyup = updateRepoFromCSUsername;",
+        "updateRepoFromCSUsername(event);"
+    ],
+    "docstrings": [
+        "***\n  if(e.keyCode != 13)\n  {\n\treturn;\n  }\n  /****"
+    ],
+    "functions": [
+        "updateRepoFromCSUsername"
+    ],
+    "classes": []
+}

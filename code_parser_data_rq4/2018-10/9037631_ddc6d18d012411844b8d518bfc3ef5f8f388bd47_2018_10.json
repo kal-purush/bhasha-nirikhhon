@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "require",
+        "require"
+    ],
+    "literals": [
+        "'core-js/features/object/assign'",
+        "'core-js/features/typed-array'",
+        "'url-search-params-polyfill'",
+        "'undefined'",
+        "'core-js-pure/features/promise'",
+        "'undefined'",
+        "'core-js-pure/features/map'"
+    ],
+    "variables": [],
+    "comments": [
+        "Intern and its supporting libraries use Object.assign",
+        "@theintern/common requires `forEach` for typed arrays",
+        "The HTML reporter uses URLSearchParams",
+        "We can't use @theintern/common's global here because loading",
+        "@theintern/common also loads common/Evented, which requires Map",
+        "Polyfill promise if no global Promise is defined. Manage polyfill",
+        "installation manually to ensure native Promises aren't replaced",
+        "unintentionallyo",
+        "Polyfill map if no global Map is defined."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

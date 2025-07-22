@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Injectable",
+        "tap",
+        "User",
+        "HttpService",
+        "Observable",
+        "HttpClient",
+        "Injectable",
+        "http"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'rxjs/operators'",
+        "'./shared/model/user/user-model'",
+        "'./utils/http/http-service'",
+        "'rxjs'",
+        "'@angular/common/http'",
+        "'root'",
+        "\"'https://jsonplaceholder.typicode.com/todos/1'\"",
+        "app/buyers.json"
+    ],
+    "variables": [],
+    "comments": [
+        "getUsers(): Observable<User>{",
+        "return this.http.get<User>(this.productUrl).pipe(tap(data=>",
+        "console.log(`all staff ${JSON.stringify(data)}`)));",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getUser"
+    ],
+    "classes": [
+        "HtpsService"
+    ]
+}

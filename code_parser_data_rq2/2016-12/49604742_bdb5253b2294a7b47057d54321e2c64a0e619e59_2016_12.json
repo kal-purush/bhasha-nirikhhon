@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Windows",
+        "Data",
+        "Windows",
+        "Windows",
+        "Media",
+        "Globalization",
+        "Macrophotography",
+        "IValueConverter",
+        "value",
+        "Type",
+        "targetType",
+        "parameter",
+        "Globalization",
+        "CultureInfo",
+        "culture",
+        "Convert",
+        "ToBoolean",
+        "value",
+        "value",
+        "Type",
+        "targetType",
+        "parameter",
+        "Globalization",
+        "CultureInfo",
+        "culture",
+        "Enum",
+        "ToObject",
+        "targetType",
+        "value"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)\n        {\n            string parameterString = parameter as string;\n            if (parameterString == null)\n                return DependencyProperty.UnsetValue;\n\n            if (Enum.IsDefined(value.GetType(), value) == false)\n                return DependencyProperty.UnsetValue;\n\n            object parameterValue = Enum.Parse(value.GetType(), parameterString);\n\n            return parameterValue.Equals(value);\n        }\n\n        public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)\n        {\n            string parameterString = parameter as string;\n            if (parameterString == null)\n                return DependencyProperty.UnsetValue;\n\n            return Enum.Parse(targetType, parameterString);\n        }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Convert",
+        "ConvertBack"
+    ],
+    "classes": [
+        "LensStateConverter"
+    ]
+}

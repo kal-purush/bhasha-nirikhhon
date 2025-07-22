@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "sendFrameNotificationToAllUsers",
+        "serve",
+        "serve",
+        "context",
+        "context",
+        "context",
+        "yeeterid",
+        "chainid",
+        "context",
+        "campaignName",
+        "sendFrameNotificationToAllUsers",
+        "campaign",
+        "process",
+        "chainid",
+        "yeeterid"
+    ],
+    "literals": [
+        "\"@/lib/notifications/notification-client\"",
+        "\"@upstash/workflow/nextjs\"",
+        "string",
+        "string",
+        "string",
+        "\"context.re\"",
+        "\"notify\"",
+        "\"notify step ran\"",
+        "\"the campaign\"",
+        "\"A New Raid Begins\"",
+        "Some brave soul summoned a call to arms. Explore ${campaign} and see if the cause stirs your spirit.",
+        "${process.env.NEXT_PUBLIC_URL}/yeeter/${chainid}/${yeeterid}"
+    ],
+    "variables": [
+        "campaign"
+    ],
+    "comments": [
+        "const notification;"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

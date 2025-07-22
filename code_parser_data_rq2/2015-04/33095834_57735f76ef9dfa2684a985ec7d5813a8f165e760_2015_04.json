@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "angular"
+    ],
+    "literals": [
+        "'use strict'",
+        "'app'",
+        "'app.core'",
+        "'app.widgets'",
+        "'app.avengers'",
+        "'app.dashboard'",
+        "'app.layout'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Order is not important. Angular makes a\n         * pass to register all of the modules listed\n         * and then when app.dashboard tries to use app.data,\n         * it's components are available.",
+        "* Everybody has access to these.\n         * We could place these under every feature area,\n         * but this is easier to maintain.",
+        "* Feature areas"
+    ],
+    "functions": [],
+    "classes": []
+}

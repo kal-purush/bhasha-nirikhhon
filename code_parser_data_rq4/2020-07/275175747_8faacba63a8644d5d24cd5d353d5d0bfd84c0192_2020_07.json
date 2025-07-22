@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "jm",
+        "dao",
+        "jm",
+        "News",
+        "jm",
+        "api",
+        "dao",
+        "NewsDAO",
+        "org",
+        "springframework",
+        "stereotype",
+        "Repository",
+        "java",
+        "util",
+        "Optional",
+        "Repository",
+        "Override",
+        "name",
+        "news",
+        "entityManager",
+        "createNativeQuery",
+        "setParameter",
+        "name",
+        "getSingleResult",
+        "Optional",
+        "of",
+        "news",
+        "e",
+        "Optional",
+        "empty"
+    ],
+    "literals": [
+        "\"SELECT * FROM news AS n WHERE n.name = :newsname\"",
+        "\"newsname\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getNewsByName"
+    ],
+    "classes": [
+        "NewsDaoImpl"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "require",
+        "process",
+        "rabbitmqHost",
+        "amqp",
+        "rabbitmqUrl",
+        "connection",
+        "channel",
+        "channel",
+        "msg",
+        "msg",
+        "msg",
+        "channel",
+        "msg",
+        "err",
+        "err",
+        "main"
+    ],
+    "literals": [
+        "'amqplib'",
+        "'localhost'",
+        "amqp://${rabbitmqHost}",
+        "'echo'",
+        "'echo'",
+        "\"== New message consumed:\""
+    ],
+    "variables": [
+        "amqp",
+        "rabbitmqHost",
+        "rabbitmqUrl",
+        "connection",
+        "channel"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

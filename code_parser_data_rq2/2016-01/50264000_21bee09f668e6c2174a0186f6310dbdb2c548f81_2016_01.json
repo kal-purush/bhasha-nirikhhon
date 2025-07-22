@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Component",
+        "ROUTER_DIRECTIVES",
+        "TaskService",
+        "ProgressComponent",
+        "TaskComponent",
+        "ResultComponent",
+        "TheoryComponent",
+        "Component",
+        "ROUTER_DIRECTIVES",
+        "ProgressComponent",
+        "TaskComponent",
+        "ResultComponent",
+        "TheoryComponent",
+        "store"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/router'",
+        "'./task.service'",
+        "'./progress.component'",
+        "'./task.component'",
+        "'./result.component'",
+        "'./theory.component'",
+        "'my-quiz'",
+        "<a href class=\"help\" [routerLink]=\"['Theory']\">\n                 <i class=\"fa fa-question-circle\"></i>Tabla de verbos\n               </a>\n               <div *ngIf=\"store.task\">\n                 <my-progress [max]=\"store.totalCount\" [value]=\"store.doneCount\"></my-progress>\n                 <my-task>\n                 </my-task>\n               </div>\n               <my-result *ngIf=\"store.noMoreQuestions()\"></my-result>\n               <my-theory *ngIf=\"theoryIsShown\"></my-theory>",
+        "my-task {\n            display: block;\n            padding: 5px 0;\n            margin-top: 115px;\n        }\n        @media (max-width: 767px) {\n            my-task {\n                margin-top: 60px;\n            }\n        }"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "QuizComponent"
+    ]
+}

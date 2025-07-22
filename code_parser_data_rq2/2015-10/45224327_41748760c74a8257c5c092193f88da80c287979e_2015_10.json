@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Component",
+        "View",
+        "NgFor",
+        "bootstrap",
+        "Product",
+        "CatalogItem",
+        "CatalogItemDetail",
+        "Component",
+        "View",
+        "CatalogItem",
+        "CatalogItemDetail",
+        "NgFor",
+        "Product",
+        "Product",
+        "bootstrap",
+        "AppComponent"
+    ],
+    "literals": [
+        "\"angular2/angular2\"",
+        "'./models/Product'",
+        "'./components/CatalogItem'",
+        "'./components/CatalogItemDetail'",
+        "'my-app'",
+        "<div class='main-container'>\n            <div class='list-view'>\n                <catalog-item *ng-for=\"#product of products\" [product]=\"product\">\n                </catalog-item>\n            </div>\n            <div class='detail-view'>\n                <catalog-item-detail [product]=\"selectedItem\"></catalog-item-detail>\n            </div>\n        </div>",
+        "'10 Nov, 2013'",
+        "'Brake'",
+        "'Car Hydrolics Brake'",
+        "'good safely record'",
+        "'1000'",
+        "'10 Jun, 2014'",
+        "'Chassis'",
+        "'Mclaren Chassis'",
+        "'strong support'",
+        "'2010'"
+    ],
+    "variables": [],
+    "comments": [
+        "Forget ng-repeat, we not have ng-for :)",
+        "Import application specific classes and components",
+        "Selector provides flexibility and the concept is similar to CSS selectors, XPath or JQuery selector. More on this in later tutorials.",
+        "Use @View Annotation to indicate that the component has a view. Note: If we are using syntatic sugar then you can define template in the component annotation as well.",
+        "Unlike Angular 1, not every directive is available in the context. We need to declare the once we will be using in the template.",
+        "Class will provide the meaning to the component. The properties of the class can be used in the template. Class will be",
+        "used to interact with other components and services.",
+        "Use this function to Bootstrap or Loading a new component at the root level of the application."
+    ],
+    "docstrings": [
+        "* The main entry point to our angular application. Important things to note:\n * 1: Angular 2 is based on the idea of Components. Components are the new versions of Directives.\n * 2: Component has three parts:\n *      1: A Component Annotation (Annotation is a way of adding metadata to the code).\n *      2: A View Annotation\n *      3: A definition class\n *\n * Created by owais zahid <owais.zahid@autodesk.com> on 10/30/2015.\n *\n * This application is mainly based on\n * - angular 5 mins quick start <@link https://angular.io/docs/ts/latest/quickstart.html>\n *\n * Other references and inspirations:\n * Angular Documentation and Code."
+    ],
+    "functions": [],
+    "classes": [
+        "AppComponent"
+    ]
+}

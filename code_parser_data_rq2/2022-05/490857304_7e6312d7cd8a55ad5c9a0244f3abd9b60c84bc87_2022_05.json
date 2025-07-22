@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "React",
+        "Component",
+        "BrowserRouter",
+        "HomeRedirector",
+        "SignIn",
+        "Component",
+        "BrowserRouter",
+        "HomeRedirector",
+        "SignIn",
+        "BrowserRouter",
+        "App"
+    ],
+    "literals": [
+        "'react'",
+        "'materialize-css/dist/css/materialize.min.css'",
+        "'react-router-dom'",
+        "'./pages/HomeRedirector'",
+        "'./components/auth/AuthPage'"
+    ],
+    "variables": [],
+    "comments": [
+        "componentDidMount() {",
+        "this.authListener();",
+        "}",
+        "authListener() {",
+        "fire.auth().onAuthStateChanged((user) => {",
+        "if (user) {",
+        "this.setState({ user });",
+        "} else {",
+        "this.setState({ user: null });",
+        "}",
+        "})",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "render"
+    ],
+    "classes": [
+        "App"
+    ]
+}

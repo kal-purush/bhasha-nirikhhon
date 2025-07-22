@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "useState",
+        "useEffect",
+        "useMedia",
+        "queries",
+        "values",
+        "defaultValue",
+        "queries",
+        "q",
+        "q",
+        "getValue",
+        "mediaQueryLists",
+        "mql",
+        "mql",
+        "values",
+        "index",
+        "defaultValue",
+        "useState",
+        "getValue",
+        "useEffect",
+        "handler",
+        "setValue",
+        "getValue",
+        "mediaQueryLists",
+        "mql",
+        "mql",
+        "handler",
+        "mediaQueryLists",
+        "mql",
+        "mql",
+        "handler",
+        "value"
+    ],
+    "literals": [
+        "'react'",
+        "string",
+        "'change'",
+        "'change'"
+    ],
+    "variables": [
+        "useMedia",
+        "mediaQueryLists",
+        "getValue",
+        "index",
+        "value",
+        "setValue",
+        "handler"
+    ],
+    "comments": [
+        "Array containing a media query list for each query",
+        "Get index of first media query that matches",
+        "Return related value or defaultValue if none",
+        "State and setter for matched value",
+        "Event listener callback",
+        "Note: By defining getValue outside of useEffect we ensure that it has",
+        "current values of hook args (as this hook callback is created once on mount).",
+        "Set a listener for each media query with above handler as callback.",
+        "Remove listeners on cleanup",
+        "Empty array ensures effect is only run on mount and unmount"
+    ],
+    "docstrings": [
+        "* https://usehooks.com/useMedia/\n *\n * @param queries Media queries\n * @param values Column counts (relates to above media queries by array index)\n * @param defaultValue Default column count\n * @returns Matched value"
+    ],
+    "functions": [],
+    "classes": []
+}

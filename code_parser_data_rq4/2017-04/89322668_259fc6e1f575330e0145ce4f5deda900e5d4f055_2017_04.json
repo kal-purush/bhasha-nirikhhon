@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "division",
+        "print_function",
+        "gym",
+        "ray",
+        "time",
+        "ray",
+        "init",
+        "num_cpus",
+        "redirect_output",
+        "time",
+        "sleep",
+        "time",
+        "time",
+        "_",
+        "slow_function",
+        "time",
+        "time",
+        "end_time",
+        "start_time",
+        "duration",
+        "format",
+        "duration",
+        "format",
+        "duration"
+    ],
+    "literals": [
+        "\"__main__\"",
+        "\"The loop took {} seconds. This is too slow.\"",
+        "\"The loop took {} seconds. Congratulations!\""
+    ],
+    "variables": [
+        "start_time",
+        "end_time",
+        "duration"
+    ],
+    "comments": [
+        "The goal of this exercise is to show how to run simple tasks in parallel.",
+        "Start Ray. By default, Ray does not schedule more tasks concurrently than",
+        "there are CPUs. This example requires four tasks to run concurrently, so we",
+        "tell Ray that there are four CPUs. Usually this is not done and Ray",
+        "computes the number of CPUs using psutil.cpu_count().",
+        "This function is a proxy for a more interesting and computationally",
+        "intensive function.",
+        "This loop is too slow. The calls to slow_function should happen in",
+        "parallel."
+    ],
+    "docstrings": [],
+    "functions": [
+        "slow_function"
+    ],
+    "classes": []
+}

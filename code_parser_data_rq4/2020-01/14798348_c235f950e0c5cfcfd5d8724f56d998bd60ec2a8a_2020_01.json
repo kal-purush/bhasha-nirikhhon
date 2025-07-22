@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "op",
+        "add_column",
+        "sa",
+        "Column",
+        "sa",
+        "length",
+        "nullable",
+        "op",
+        "batch_alter_table",
+        "batch_op",
+        "batch_op",
+        "drop_column"
+    ],
+    "literals": [
+        "\"16aa7da2764c\"",
+        "\"314651690dc7\"",
+        "\"projects_versions\"",
+        "\"commit_url\"",
+        "\"projects_versions\"",
+        "\"commit_url\""
+    ],
+    "variables": [
+        "revision",
+        "down_revision"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic."
+    ],
+    "docstrings": [
+        "\"\"\"add ProjectVersion.commit_url\n\nRevision ID: 16aa7da2764c\nRevises: 314651690dc7\nCreate Date: 2019-12-19 14:54:56.036040\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

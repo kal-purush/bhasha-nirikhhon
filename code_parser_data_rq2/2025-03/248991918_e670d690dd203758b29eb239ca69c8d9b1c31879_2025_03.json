@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "nums",
+        "target",
+        "i",
+        "amount",
+        "amount",
+        "target",
+        "amount",
+        "target",
+        "i",
+        "len",
+        "nums",
+        "i",
+        "amount",
+        "coordinate",
+        "cache",
+        "cache",
+        "coordinate",
+        "nums",
+        "i",
+        "dfs",
+        "i",
+        "amount",
+        "current_num",
+        "dfs",
+        "i",
+        "amount",
+        "dfs",
+        "Solution",
+        "s",
+        "solveCoinSum"
+    ],
+    "literals": [],
+    "variables": [
+        "cache",
+        "coordinate",
+        "current_num",
+        "s"
+    ],
+    "comments": [
+        "cache[coordinate] = dfs(i, amount + current_num) + dfs(i + 1, amount)",
+        "return cache[coordinate]"
+    ],
+    "docstrings": [],
+    "functions": [
+        "solveCoinSum",
+        "dfs"
+    ],
+    "classes": [
+        "Solution"
+    ]
+}

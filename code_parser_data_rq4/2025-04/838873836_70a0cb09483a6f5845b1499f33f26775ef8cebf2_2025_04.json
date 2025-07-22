@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "ComponentModel",
+        "DataAnnotations",
+        "HealthManager",
+        "Models",
+        "DTO",
+        "Required",
+        "MaxLength",
+        "Required",
+        "MaxLength",
+        "Required",
+        "EmailAddress",
+        "Required",
+        "MinLength",
+        "RegularExpression",
+        "Required",
+        "Compare"
+    ],
+    "literals": [
+        "\"^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-+]).{12,}$\"",
+        "\"Password\"",
+        "\"Admin\""
+    ],
+    "variables": [
+        "FirstName",
+        "LastName",
+        "Email",
+        "Password",
+        "ConfirmPassword",
+        "Role"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AdminRegisterViewModel"
+    ]
+}

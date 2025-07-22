@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "sys",
+        "re",
+        "open",
+        "sys",
+        "argv",
+        "test_cases",
+        "test",
+        "test_cases",
+        "test",
+        "strip",
+        "sorted",
+        "i",
+        "i",
+        "re",
+        "findall",
+        "line",
+        "i",
+        "distances",
+        "distances_reduced",
+        "append",
+        "i",
+        "lastcity",
+        "i",
+        "join",
+        "distances_reduced"
+    ],
+    "literals": [
+        "'r'",
+        "\"\\d+\"",
+        "\",\""
+    ],
+    "variables": [
+        "line",
+        "distances",
+        "distances_reduced",
+        "lastcity",
+        "lastcity"
+    ],
+    "comments": [
+        "Take one by one the lines in \"test_cases\" and put them inside \"line\"",
+        "Take all numbers from line and put them in a list as integers, then sort that list and put them in the variable",
+        "distances",
+        "Make a variable call \"distances_reduced\"",
+        "Make value of lastcity 0 to start there",
+        "iterate over \"distances\"",
+        "Get the difference between next city's distance(i) and the actual one (lastcity)",
+        "Make that a string and put it inside distances_reduced",
+        "Make \"lastcity\" equal to the one we substract",
+        "Print all distances with \",\" between them."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

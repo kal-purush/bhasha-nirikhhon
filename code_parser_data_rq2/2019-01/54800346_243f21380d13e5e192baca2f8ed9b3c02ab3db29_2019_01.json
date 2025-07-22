@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "vscode",
+        "util",
+        "path",
+        "os",
+        "vscode",
+        "session",
+        "vscode",
+        "executable",
+        "vscode",
+        "vscode",
+        "vscode",
+        "util",
+        "ready",
+        "ready",
+        "path",
+        "util",
+        "os",
+        "command",
+        "path",
+        "util",
+        "vscode",
+        "command",
+        "util",
+        "vscode",
+        "session",
+        "vscode",
+        "executable",
+        "vscode",
+        "vscode",
+        "vscode",
+        "os",
+        "vscode",
+        "util",
+        "ready",
+        "ready",
+        "vscode",
+        "path",
+        "util",
+        "util"
+    ],
+    "literals": [
+        "\"vscode\"",
+        "'../common'",
+        "'path'",
+        "'os'",
+        "string",
+        "\"cppdbg\"",
+        "string",
+        "'./debugAdapters/OpenDebugAD7'",
+        "'win32'",
+        "\"./debugAdapters/bin/OpenDebugAD7.exe\"",
+        "string",
+        "\"cppvsdbg\"",
+        "'win32'",
+        "\"Debugger type 'cppvsdbg' is not avaliable for non-Windows machines.\"",
+        "'./debugAdapters/vsdbg/bin/vsdbg.exe'",
+        "'--interpreter=vscode'"
+    ],
+    "variables": [
+        "command"
+    ],
+    "comments": [
+        "--------------------------------------------------------------------------------------------\n * Copyright (c) Microsoft Corporation. All Rights Reserved.\n * See 'LICENSE' in the project root for license information.\n * ------------------------------------------------------------------------------------------",
+        "Registers DebugAdapterDescriptorFactory for `cppdbg` and `cppvsdbg`. If it is not ready, it will prompt a wait for the download dialog.",
+        "Note: util.extensionContext.extensionPath is needed for the commands because VsCode does not support relative paths for adapterExecutableComand",
+        "Windows has the exe in debugAdapters/bin."
+    ],
+    "docstrings": [],
+    "functions": [
+        "createDebugAdapterDescriptor",
+        "createDebugAdapterDescriptor"
+    ],
+    "classes": [
+        "CppdbgDebugAdapterDescriptorFactory",
+        "CppvsdbgDebugAdapterDescriptorFactory"
+    ]
+}

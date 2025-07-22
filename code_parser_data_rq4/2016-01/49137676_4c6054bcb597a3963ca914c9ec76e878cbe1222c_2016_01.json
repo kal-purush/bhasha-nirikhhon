@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Twitter",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "status",
+        "Twitter",
+        "consumerKey",
+        "consumerSecret",
+        "accessTokenKey",
+        "accessTokenSecret",
+        "twitter",
+        "error",
+        "result",
+        "error",
+        "error",
+        "user",
+        "id_str",
+        "text",
+        "url",
+        "message"
+    ],
+    "literals": [
+        "'twitter'",
+        "'bbn-tt <status>'",
+        "'statuses/update'",
+        "https://twitter.com/${user.name}/status/${id_str}",
+        "${text}\\n${url}"
+    ],
+    "variables": [
+        "status",
+        "consumerKey",
+        "consumerSecret",
+        "accessTokenKey",
+        "accessTokenSecret",
+        "twitter",
+        "result",
+        "url",
+        "message"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

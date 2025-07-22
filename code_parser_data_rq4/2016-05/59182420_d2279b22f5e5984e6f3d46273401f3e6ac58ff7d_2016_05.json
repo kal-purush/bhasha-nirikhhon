@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "commands",
+        "command",
+        "_BaseCommand",
+        "listeners",
+        "OnClientDisconnect",
+        "messages",
+        "SayText2",
+        "SayText2",
+        "message",
+        "ANTI_SPAM_TEXT",
+        "_BaseCommand",
+        "timeout",
+        "names",
+        "args",
+        "kwargs",
+        "names",
+        "args",
+        "kwargs",
+        "timeout",
+        "_spam_proof_commands",
+        "append",
+        "args",
+        "kwargs",
+        "NotImplementedError",
+        "_manager_class",
+        "unregister_commands",
+        "names",
+        "callback",
+        "_spam_proof_commands",
+        "remove",
+        "OnClientDisconnect",
+        "index",
+        "spam_proof_command",
+        "_spam_proof_commands",
+        "index",
+        "spam_proof_command",
+        "client_timestamps",
+        "spam_proof_command",
+        "client_timestamps",
+        "index"
+    ],
+    "literals": [
+        "\"You're spamming the command\""
+    ],
+    "variables": [
+        "ANTI_SPAM_TEXT",
+        "anti_spam_message",
+        "_spam_proof_commands",
+        "timeout",
+        "client_timestamps"
+    ],
+    "comments": [
+        "We don't translate this message to avoid extra",
+        "language/translation lookup operations",
+        "Storage for all instances of inherited from BaseCommand classes",
+        "This is where time() results for each client will be stored at",
+        "Put ourselves in global storage"
+    ],
+    "docstrings": [],
+    "functions": [
+        "__call__",
+        "_unload_instance",
+        "listener_on_client_disconnect"
+    ],
+    "classes": [
+        "BaseSpamProofCommand"
+    ]
+}

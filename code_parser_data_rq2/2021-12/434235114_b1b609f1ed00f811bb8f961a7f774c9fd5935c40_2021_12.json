@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "styled",
+        "Colors",
+        "styled",
+        "styled",
+        "Colors",
+        "props",
+        "Wrapper",
+        "Content",
+        "props",
+        "Content",
+        "Wrapper",
+        "Container"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "\"./variables/Colors\"",
+        "display: grid;\n    grid-template-columns: 5vw 1fr 5vw;",
+        "grid-column: 2;\n    margin: 24px 0;\n    display: grid;\n    grid-template-columns: 1fr 3fr;\n    border: 1px solid ${Colors.Gray};\n\n    & > div {\n        height: calc(100vh - 70px - 48px);\n        overflow-y: scroll;\n    }"
+    ],
+    "variables": [
+        "Wrapper",
+        "Content"
+    ],
+    "comments": [
+        "Packages",
+        "Components",
+        "Styles"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Container"
+    ],
+    "classes": []
+}

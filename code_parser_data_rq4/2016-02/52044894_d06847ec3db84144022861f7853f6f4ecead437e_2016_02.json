@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "java",
+        "util",
+        "instances",
+        "mAddress",
+        "mType",
+        "mId",
+        "address",
+        "mAddress",
+        "areaCode",
+        "mType",
+        "instances",
+        "add",
+        "mId",
+        "instances",
+        "size",
+        "mContacts",
+        "mAddress",
+        "mId",
+        "mType",
+        "instances",
+        "id",
+        "instances",
+        "get",
+        "id",
+        "e",
+        "instances",
+        "clear"
+    ],
+    "literals": [],
+    "variables": [
+        "mAddress",
+        "mType",
+        "mId"
+    ],
+    "comments": [
+        "private static ArrayList<Contact> mContacts;",
+        "",
+        "public ArrayList<Contact> getContacts() {",
+        "return mContacts;",
+        "}",
+        "",
+        "public void addTask(Contact contact) {",
+        "mContacts.add(contact);",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Phone",
+        "getAddress",
+        "getId",
+        "getType",
+        "all",
+        "Phone",
+        "find",
+        "clear"
+    ],
+    "classes": [
+        "Email"
+    ]
+}

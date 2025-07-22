@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "psycopg2",
+        "psycopg2",
+        "connect",
+        "name",
+        "winner",
+        "loser"
+    ],
+    "literals": [
+        "\"dbname=tournament\""
+    ],
+    "variables": [],
+    "comments": [
+        "!/usr/bin/env python",
+        "",
+        "tournament.py -- implementation of a Swiss-system tournament",
+        ""
+    ],
+    "docstrings": [
+        "\"\"\"Connect to the PostgreSQL database.  Returns a database connection.\"\"\"",
+        "\"\"\"Remove all the match records from the database.\"\"\"",
+        "\"\"\"Remove all the player records from the database.\"\"\"",
+        "\"\"\"Returns the number of players currently registered.\"\"\"",
+        "\"\"\"Adds a player to the tournament database.\n  \n    The database assigns a unique serial id number for the player.  (This\n    should be handled by your SQL database schema, not in your Python code.)\n  \n    Args:\n      name: the player's full name (need not be unique).\n    \"\"\"",
+        "\"\"\"Returns a list of the players and their win records, sorted by wins.\n\n    The first entry in the list should be the player in first place, or a player\n    tied for first place if there is currently a tie.\n\n    Returns:\n      A list of tuples, each of which contains (id, name, wins, matches):\n        id: the player's unique id (assigned by the database)\n        name: the player's full name (as registered)\n        wins: the number of matches the player has won\n        matches: the number of matches the player has played\n    \"\"\"",
+        "\"\"\"Records the outcome of a single match between two players.\n\n    Args:\n      winner:  the id number of the player who won\n      loser:  the id number of the player who lost\n    \"\"\"",
+        "\"\"\"Returns a list of pairs of players for the next round of a match.\n  \n    Assuming that there are an even number of players registered, each player\n    appears exactly once in the pairings.  Each player is paired with another\n    player with an equal or nearly-equal win record, that is, a player adjacent\n    to him or her in the standings.\n  \n    Returns:\n      A list of tuples, each of which contains (id1, name1, id2, name2)\n        id1: the first player's unique id\n        name1: the first player's name\n        id2: the second player's unique id\n        name2: the second player's name\n    \"\"\""
+    ],
+    "functions": [
+        "connect",
+        "deleteMatches",
+        "deletePlayers",
+        "countPlayers",
+        "registerPlayer",
+        "playerStandings",
+        "reportMatch",
+        "swissPairings"
+    ],
+    "classes": []
+}

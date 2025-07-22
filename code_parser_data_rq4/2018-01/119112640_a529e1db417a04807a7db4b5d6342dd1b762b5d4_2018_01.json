@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpInterceptor",
+        "HttpHandler",
+        "HttpEvent",
+        "HttpRequest",
+        "HttpHeaders",
+        "Observable",
+        "LocalStorageService",
+        "Injectable",
+        "localStorageService",
+        "req",
+        "next",
+        "req",
+        "HttpHeaders",
+        "next",
+        "req",
+        "req",
+        "authHeader",
+        "next",
+        "authReq"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"@angular/common/http/src/interceptor\"",
+        "'@angular/common/http'",
+        "\"rxjs/Observable\"",
+        "'../services/local-storage.service'",
+        "'/api/authenticate'",
+        "'Content-Type'",
+        "'application/x-www-form-urlencoded'"
+    ],
+    "variables": [
+        "headersForTokenApi",
+        "authHeader",
+        "authReq"
+    ],
+    "comments": [
+        "console.log(req);",
+        "console.log(req);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "intercept"
+    ],
+    "classes": [
+        "AuthIntercepter"
+    ]
+}

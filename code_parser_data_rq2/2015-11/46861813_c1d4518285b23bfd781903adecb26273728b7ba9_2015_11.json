@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "sqliteDB",
+        "done",
+        "db",
+        "db",
+        "db",
+        "done"
+    ],
+    "literals": [
+        "'use strict'",
+        "'CREATE TABLE work ('",
+        "'   id INTEGER PRIMARY KEY,'",
+        "'   name VARCHAR(255) NOT NULL,'",
+        "'   description TEXT,'",
+        "'   delivery_year TINYINT NOT NULL'",
+        "'   delivery_quarter TINYINT NOT NULL'",
+        "');'",
+        "''",
+        "'CREATE TABLE technology ('",
+        "'   id INTEGER PRIMARY KEY,'",
+        "'   name VARCHAR(255) NOT NULL,'",
+        "'   description TEXT,'",
+        "'   delivery_year TINYINT NOT NULL'",
+        "'   delivery_quarter TINYINT NOT NULL'",
+        "');'",
+        "''"
+    ],
+    "variables": [
+        "db",
+        "sqliteDB"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Before - SQLite testing\n * \n * Creates a temporary database with some generated test data which will be\n * retrieved when testing the works model.\n * \n * @author Kashi Samaraweera <kashi@kashis.com.au>\n * @version 0.0.1"
+    ],
+    "functions": [],
+    "classes": []
+}

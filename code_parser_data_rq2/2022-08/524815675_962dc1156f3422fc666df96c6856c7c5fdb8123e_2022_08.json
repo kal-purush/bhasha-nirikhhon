@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "axiosInstance",
+        "Endpoints",
+        "login",
+        "email",
+        "password",
+        "axiosInstance",
+        "Endpoints",
+        "response",
+        "error",
+        "error",
+        "getProjectTickets",
+        "axiosInstance",
+        "Endpoints",
+        "id",
+        "page",
+        "res",
+        "createTicket",
+        "payload",
+        "axiosInstance",
+        "Endpoints",
+        "payload"
+    ],
+    "literals": [
+        "\"./axiosInstance\"",
+        "\"./endpoints\"",
+        "string",
+        "string",
+        "${Endpoints.getProjectTickets}/${id}?page=${page}",
+        "${Endpoints.createTicket}"
+    ],
+    "variables": [
+        "login",
+        "response",
+        "getProjectTickets",
+        "_key",
+        "id",
+        "page",
+        "queryKey",
+        "res",
+        "createTicket"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

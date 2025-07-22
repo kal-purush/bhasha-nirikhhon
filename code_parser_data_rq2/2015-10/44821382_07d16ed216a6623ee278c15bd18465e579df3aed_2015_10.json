@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Component",
+        "View",
+        "Todo",
+        "Component",
+        "View",
+        "title",
+        "description",
+        "responsible",
+        "Todo",
+        "title",
+        "description",
+        "responsible"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'Todo'",
+        "'add-todo'",
+        "'todos'",
+        "<div class=\"panel panel-default\">\n      <div class=\"panel-heading\">\n        <h3 class=\"panel-title\"><span class=\"glyphicon glyphicon-plus-sign\"></span> Add New Todo</h3>\n      </div>\n      <div class=\"panel-body\">\n        <div class=\"form-group\">\n          <label for=\"titleInput\">Title:</label>\n          <input id=\"titleInput\" class=\"form-control\" placeholder=\"Title\" #title>\n        </div>\n        <div class=\"form-group\">\n          <label for=\"descriptionInput\">Description:</label>\n          <input id=\"descriptionInput\" class=\"form-control\" placeholder=\"Description\" #description>\n        </div>\n        <div class=\"form-group\">\n          <label id=\"responsibleInput\">Responsible:</label>\n          <input id=\"responsibleInput\" class=\"form-control\" placeholder=\"Responsible\" #responsible>\n        </div>\n        <div>\n          <button class=\"btn btn-default\" (click)=\"addTodo(title.value, description.value, responsible.value)\">Add Todo</button>\n        </div>\n      </div>\n    </div>",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "addTodo"
+    ],
+    "classes": [
+        "AddTodo"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "com",
+        "bit",
+        "exam01",
+        "java",
+        "util",
+        "org",
+        "springframework",
+        "context",
+        "ApplicationContext",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "AnnotationConfigApplicationContext",
+        "com",
+        "bit",
+        "dao",
+        "GoodsDao",
+        "com",
+        "bit",
+        "dao",
+        "MemberDao",
+        "args",
+        "context",
+        "mDao",
+        "context",
+        "getBean",
+        "gDao",
+        "context",
+        "getBean",
+        "mDao",
+        "insertMember",
+        "mDao",
+        "updateMember",
+        "memberList",
+        "mDao",
+        "listMember",
+        "member",
+        "memberList",
+        "member",
+        "gDao",
+        "insertGoods",
+        "goodsList",
+        "gDao",
+        "item",
+        "goodsList",
+        "item"
+    ],
+    "literals": [
+        "\"mDao\"",
+        "\"gDao\"",
+        "\"������\"",
+        "\"������\""
+    ],
+    "variables": [],
+    "comments": [
+        "ApplicationContext context = new ClassPathXmlApplicationContext(\"com/bit/exam01/Beans.xml\");",
+        "MemberDao mDao = (MemberDao)context.getBean(\"mDao\");",
+        "GoodsDao gDao = (GoodsDao)context.getBean(\"gDao\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "MainTest2"
+    ]
+}

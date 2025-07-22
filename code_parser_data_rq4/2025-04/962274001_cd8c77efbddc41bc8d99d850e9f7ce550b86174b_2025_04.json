@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "jwtDecode",
+        "jwtDecode",
+        "token",
+        "token",
+        "token",
+        "jwtDecode",
+        "token",
+        "decoded",
+        "err",
+        "localStorage",
+        "idToken",
+        "localStorage",
+        "idToken",
+        "localStorage",
+        "AuthService"
+    ],
+    "literals": [
+        "'jwt-decode'",
+        "string",
+        "''",
+        "string",
+        "'id_token'",
+        "string",
+        "'id_token'",
+        "'/'",
+        "'id_token'",
+        "'/'"
+    ],
+    "variables": [
+        "token",
+        "decoded"
+    ],
+    "comments": [
+        "use this to decode a token and get the user's information out of it",
+        "create a new class to instantiate for a user",
+        "get user data",
+        "check if user's logged in",
+        "Checks if there is a saved token and it's still valid",
+        "handwaiving here",
+        "check if token is expired",
+        "Retrieves the user token from localStorage",
+        "Saves user token to localStorage",
+        "Clear user token and profile data from localStorage",
+        "this will reload the page and reset the state of the application"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getProfile",
+        "loggedIn",
+        "isTokenExpired",
+        "getToken",
+        "login",
+        "logout"
+    ],
+    "classes": [
+        "AuthService"
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "torch",
+        "torch",
+        "nn",
+        "functional",
+        "F",
+        "soundfile",
+        "sf",
+        "transformers",
+        "Wav2Vec2FeatureExtractor",
+        "HubertModel",
+        "HubertModel",
+        "from_pretrained",
+        "model_path",
+        "Wav2Vec2FeatureExtractor",
+        "from_pretrained",
+        "model_path",
+        "wav_data",
+        "sample_rate",
+        "wav_data",
+        "reshape",
+        "base_feature_extractor",
+        "wav_data",
+        "return_tensors",
+        "sampling_rate",
+        "sample_rate",
+        "input_values",
+        "torch",
+        "no_grad",
+        "base_model",
+        "input_values",
+        "outputs",
+        "last_hidden_state",
+        "last_hidden_state",
+        "shape",
+        "last_hidden_state"
+    ],
+    "literals": [
+        "\"/VAF/dguard/models/hubert/hubert-base-model\"",
+        "\"pt\"",
+        "f\"Last hidden state: {last_hidden_state.shape}\""
+    ],
+    "variables": [
+        "model_path",
+        "base_model",
+        "base_feature_extractor",
+        "wav_data",
+        "input_values",
+        "outputs",
+        "last_hidden_state"
+    ],
+    "comments": [
+        "for pretrain: Wav2Vec2ForPreTraining",
+        "model = Wav2Vec2ForPreTraining.from_pretrained(model_path)",
+        "Download model:",
+        "huggingface-cli download --token xxx --resume-download TencentGameMate/chinese-hubert-large --local-dir hubert-large-model",
+        "huggingface-cli download --token xxx --resume-download TencentGameMate/chinese-hubert-base --local-dir hubert-base-model",
+        "print(f\"Get feature from wav data: {wav_data.shape}\")",
+        ".cuda()"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_feature"
+    ],
+    "classes": []
+}

@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "existsSync",
+        "readFileSync",
+        "writeFileSync",
+        "join",
+        "ConfigurationHelper",
+        "Config",
+        "require",
+        "pkgDir",
+        "process",
+        "join",
+        "appPath",
+        "config",
+        "writeFileSync",
+        "dojoRcPath",
+        "config",
+        "existsSync",
+        "dojoRcPath",
+        "configExists",
+        "readFileSync",
+        "dojoRcPath",
+        "config",
+        "commandName",
+        "getConfigFile",
+        "dojoRc",
+        "commandName",
+        "commmandConfig",
+        "config",
+        "dojoRc",
+        "commandName",
+        "commmandConfig",
+        "writeConfigFile",
+        "dojoRc",
+        "commandName",
+        "getConfigFile",
+        "config",
+        "commandName",
+        "configHelper"
+    ],
+    "literals": [
+        "'fs'",
+        "'path'",
+        "'./interfaces'",
+        "'pkg-dir'",
+        "'.dojorc'",
+        "'utf8'",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "pkgDir",
+        "appPath",
+        "dojoRcPath",
+        "configExists",
+        "dojoRc",
+        "commmandConfig",
+        "config",
+        "configHelper"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* persists configuration data to .dojorc\n *\n * @param config - the configuration to save\n * @param commandName - the command name that's accessing config",
+        "* Retrieves the configuration object from the file system\n *\n * @returns Promise - an object representation of .dojorc"
+    ],
+    "functions": [
+        "writeConfigFile",
+        "getConfigFile",
+        "save",
+        "get"
+    ],
+    "classes": []
+}

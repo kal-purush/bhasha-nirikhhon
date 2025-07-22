@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "app",
+        "main",
+        "util",
+        "s3_helper",
+        "get_bbref_boxscore_from_s3",
+        "get_all_pitchfx_logs_for_game_from_s3",
+        "session",
+        "bbref_game_id",
+        "get_bbref_boxscore_from_s3",
+        "bbref_game_id",
+        "result",
+        "failure",
+        "result",
+        "result",
+        "value",
+        "get_all_pitchfx_logs_for_game_from_s3",
+        "session",
+        "bbref_game_id",
+        "result",
+        "failure",
+        "result",
+        "result",
+        "value"
+    ],
+    "literals": [],
+    "variables": [
+        "result",
+        "boxscore",
+        "result",
+        "pitchfx_logs"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Aggregate pitching stats for one team from a single game by combining data scraped from multiple sources.\"\"\""
+    ],
+    "functions": [
+        "get_pitching_stats_for_game"
+    ],
+    "classes": []
+}

@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "url",
+        "ws",
+        "WebSocket",
+        "url",
+        "initEventHandle",
+        "e",
+        "reconnect",
+        "url",
+        "ws",
+        "reconnect",
+        "wsUrl",
+        "ws",
+        "reconnect",
+        "wsUrl",
+        "ws",
+        "heartCheck",
+        "ws",
+        "heartCheck",
+        "url",
+        "lockReconnect",
+        "lockReconnect",
+        "setTimeout",
+        "createWebSocket",
+        "url",
+        "lockReconnect",
+        "clearTimeout",
+        "clearTimeout",
+        "setTimeout",
+        "ws",
+        "setTimeout",
+        "ws",
+        "createWebSocket",
+        "wsUrl"
+    ],
+    "literals": [
+        "'ws:xxx.1.1.1'",
+        "\"HeartBeat\""
+    ],
+    "variables": [
+        "ws",
+        "lockReconnect",
+        "wsUrl",
+        "heartCheck"
+    ],
+    "comments": [
+        "websocket实例",
+        "避免重复连接",
+        "心跳检测重置",
+        "如果获取到消息，心跳检测重置",
+        "拿到任何消息都说明当前连接是正常的",
+        "没连接上会一直重连，设置延迟避免请求过多",
+        "心跳检测",
+        "60秒",
+        "这里发送一个心跳，后端收到后，返回一个心跳消息，",
+        "onmessage拿到返回的心跳就说明连接正常",
+        "如果超过一定时间还没重置，说明后端主动断开了",
+        "如果onclose会执行reconnect，我们执行ws.close()就行了.如果直接执行reconnect 会触发onclose导致重连两次"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createWebSocket",
+        "initEventHandle",
+        "reconnect"
+    ],
+    "classes": []
+}

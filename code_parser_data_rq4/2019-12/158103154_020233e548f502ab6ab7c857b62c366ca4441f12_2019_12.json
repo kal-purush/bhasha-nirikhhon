@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "serializedRequest",
+        "sendResponse",
+        "res",
+        "emitError",
+        "e",
+        "RESTMethodTypes",
+        "header",
+        "header",
+        "key",
+        "request"
+    ],
+    "literals": [
+        "\"get\"",
+        "\"head\"",
+        "\"post\"",
+        "\"put\"",
+        "\"patch\"",
+        "\"delete\"",
+        "\"options\"",
+        "\"trace\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"http\"",
+        "\"https\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "RESTMethodTypes"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Interceptor callback. Called after request is serialized with\n * (1) serialized request, (2) function for sending serialized response,\n * (3) a function for emitting an error.",
+        "* Analogous to `IncomingHttpHeaders` in @types/node.\n * Header keys are expected to be _lowercased_.",
+        "* Analogous to `OutgoingHttpHeaders` in @types/node.\n * Allows numbers as they are converted to strings internally.",
+        "* Full path containing query parameters",
+        "* Path name not containing query parameters",
+        "* Query parameters"
+    ],
+    "functions": [],
+    "classes": []
+}

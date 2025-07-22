@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "_",
+        "collection",
+        "service_setting_storage",
+        "oauth_connected_user_storage",
+        "ServiceInfo",
+        "ServiceSetting",
+        "OAuthConnectedUser",
+        "param",
+        "user_id",
+        "cb",
+        "option",
+        "_",
+        "option",
+        "_",
+        "option",
+        "service_setting_storage",
+        "user_id",
+        "service_settings",
+        "entry",
+        "entry",
+        "service_setting",
+        "include_service_info",
+        "service_info",
+        "collection",
+        "service_id",
+        "include_oauth_account",
+        "service_setting",
+        "oauth_account",
+        "oauth_connected_user_storage",
+        "service_setting",
+        "cb"
+    ],
+    "literals": [
+        "\"lodash\"",
+        "\"../common/services\"",
+        "\"~/src/server/model-collection/models/service-setting\"",
+        "\"~/src/server/model-collection/models/oauth-connected-user\"",
+        "\"../common/services/base/types\"",
+        "\"~/src/common/types/models/service-setting\"",
+        "\"~/src/common/types/models/oauth-connected-user\"",
+        "string",
+        "\"service_info\"",
+        "\"oauth_account\""
+    ],
+    "variables": [
+        "include_service_info",
+        "include_oauth_account",
+        "service_settings",
+        "service_info",
+        "oauth_account",
+        "service_setting",
+        "service_id"
+    ],
+    "comments": [
+        "Models",
+        "Types",
+        "const DEFAULT_INCLUDE_OPTION:IncludeOption = { service_info: true, oauth_account: true }"
+    ],
+    "docstrings": [
+        "* 2020-07-05 15:19\n * \n * Would accept `suite_id` in the future"
+    ],
+    "functions": [
+        "iterateServiceSettings"
+    ],
+    "classes": []
+}

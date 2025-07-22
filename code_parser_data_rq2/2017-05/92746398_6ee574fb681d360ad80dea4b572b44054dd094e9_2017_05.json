@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "fixSearch",
+        "MutationObserver",
+        "mutations",
+        "observer",
+        "$",
+        "form",
+        "form",
+        "determineSelectedBranch",
+        "$",
+        "form",
+        "observer",
+        "target",
+        "config",
+        "branch",
+        "path",
+        "branch",
+        "jQuery"
+    ],
+    "literals": [
+        "'use strict'",
+        "'readthedocs'",
+        "'rtd-search-form'",
+        "'#rtd-search-form'",
+        "'action'",
+        "'//'",
+        "'/en/'",
+        "'/search.html'",
+        "'<input>'",
+        "\"text\"",
+        "\"q\"",
+        "\"Search docs\"",
+        "'master'",
+        "'readthedocs'",
+        "'/'"
+    ],
+    "variables": [
+        "target",
+        "config",
+        "observer",
+        "form",
+        "branch",
+        "path"
+    ],
+    "comments": [
+        "don't run this outside RTD hosting",
+        "if it isn't disconnected it'll loop infinitely because the observed",
+        "element is modified",
+        "path is like /en/<branch>/<lang>/build/ -> extract 'lang'",
+        "split[0] is an '' because the path starts with the separator"
+    ],
+    "docstrings": [
+        "* RTD apparently messes up the search functionality when using MkDocs.\n   * See https://github.com/rtfd/readthedocs.org/issues/1088 and\n   * https://github.com/SublimeText/LaTeXTools/issues/1095.\n   *\n   * This fix is taken from https://github.com/rtfd/readthedocs.org/issues/1088#issuecomment-224715045",
+        "* Analyzes the URL of the current page to find out what the selected\n   * GitHub branch is. It's usually part of the location path. The code needs\n   * to distinguish between running MkDocs standalone and docs served from RTD.\n   * If no valid branch could be determined 'master' returned.\n   *\n   * @returns GitHub branch name"
+    ],
+    "functions": [
+        "fixSearch",
+        "determineSelectedBranch"
+    ],
+    "classes": []
+}

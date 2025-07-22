@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "express",
+        "require",
+        "exports",
+        "req",
+        "res",
+        "express",
+        "req",
+        "Account",
+        "userName",
+        "req",
+        "account",
+        "req",
+        "account",
+        "req",
+        "account",
+        "res",
+        "req",
+        "exports",
+        "req",
+        "res",
+        "express",
+        "req",
+        "res",
+        "req",
+        "res",
+        "exports",
+        "req",
+        "res",
+        "express",
+        "req",
+        "res",
+        "req",
+        "res"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"../account/model\"",
+        "You are logged in as ${req.session.userName}",
+        "\"already logged out\"",
+        "\"logout succ\""
+    ],
+    "variables": [
+        "Account",
+        "account"
+    ],
+    "comments": [
+        "if (!profile || !(await bcrypt.compare(password, profile.password))) {\n    res.status(401).json(\"Incorrect password or username\");\n    return;\n  }",
+        "res.status(204).json(`You are logged in as ${req.session.userName}`);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

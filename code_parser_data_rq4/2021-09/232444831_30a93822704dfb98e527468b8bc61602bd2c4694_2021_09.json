@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "com",
+        "artipie",
+        "java",
+        "util",
+        "Predicate",
+        "java",
+        "util",
+        "regex",
+        "Pattern",
+        "SuppressWarnings",
+        "RqPath",
+        "CONDA",
+        "Pattern",
+        "compile",
+        "Override",
+        "path",
+        "length",
+        "path",
+        "split",
+        "length",
+        "CONDA",
+        "ptrn",
+        "matcher",
+        "path",
+        "matches",
+        "length",
+        "length",
+        "ptrn",
+        "ptrn",
+        "ptrn",
+        "ptrn"
+    ],
+    "literals": [
+        "\"PMD.SingularField\"",
+        "\"/t/.*repodata\\\\.json\"",
+        "\"/\""
+    ],
+    "variables": [
+        "ptrn"
+    ],
+    "comments": [
+        "@checkstyle MagicNumberCheck (1 line)"
+    ],
+    "docstrings": [
+        "* The MIT License (MIT) Copyright (c) 2020-2021 artipie.com\n * https://github.com/artipie/artipie/LICENSE.txt",
+        "* Predicate to test whether request path matches some regex and corresponds to some conditions.\n * @since 0.23",
+        "* Anaconda client performs requests of the following formats:\n     * <code>/t/ol-4ee312d8-9fe2-44d2-bea9-053325e1ffd5/my-conda/noarch/repodata.json</code>\n     * Where second part is user token, third is repository/user name depending on the layout,\n     * then follows conda repository architecture (for example: noarch, linux-64, win-64 etc).\n     * This {@link Predicate} implementation tests whether path is such conda path.",
+        "* Path pattern.",
+        "* Ctor.\n     * @param ptrn Path pattern"
+    ],
+    "functions": [
+        "test",
+        "RqPath"
+    ],
+    "classes": []
+}

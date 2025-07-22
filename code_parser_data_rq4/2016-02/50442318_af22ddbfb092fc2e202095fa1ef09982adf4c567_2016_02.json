@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "sys",
+        "json",
+        "charmhelpers",
+        "core",
+        "hookenv",
+        "re",
+        "re",
+        "compile",
+        "line",
+        "sys",
+        "stdin",
+        "readlines",
+        "regex",
+        "match",
+        "line",
+        "m",
+        "m",
+        "group",
+        "m",
+        "group",
+        "hookenv",
+        "action_set",
+        "json",
+        "dumps",
+        "results",
+        "parse_terasort_output"
+    ],
+    "literals": [
+        "'\\t+(.*)=(.*)'",
+        "\"results.raw\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "results",
+        "regex",
+        "m",
+        "results"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "Find all of the interesting things"
+    ],
+    "docstrings": [
+        "\"\"\"\nSimple script to parse terasort transaction results\nand reformat them as JSON for sending back to juju\n\"\"\"",
+        "\"\"\"\n    Parse the output from terasort and set the action results:\n\n    \"\"\""
+    ],
+    "functions": [
+        "parse_terasort_output"
+    ],
+    "classes": []
+}

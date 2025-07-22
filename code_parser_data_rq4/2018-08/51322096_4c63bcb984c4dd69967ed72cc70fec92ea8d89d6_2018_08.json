@@ -1,0 +1,89 @@
+{
+    "identifiers": [
+        "ENABLE_PLAYFABENTITY_API",
+        "Collections",
+        "Generic",
+        "PlayFab",
+        "AuthenticationModels",
+        "PlayFab",
+        "Internal",
+        "PlayFab",
+        "Json",
+        "PlayFab",
+        "Public",
+        "PlayFab",
+        "PlayFabHttp",
+        "ForgetAllCredentials",
+        "GetEntityTokenRequest",
+        "request",
+        "Action",
+        "GetEntityTokenResponse",
+        "resultCallback",
+        "Action",
+        "PlayFabError",
+        "errorCallback",
+        "customData",
+        "extraHeaders",
+        "AuthType",
+        "DISABLE_PLAYFABCLIENT_API",
+        "authType",
+        "AuthType",
+        "PlayFabClientAPI",
+        "IsClientLoggedIn",
+        "authType",
+        "AuthType",
+        "LoginSession",
+        "ENABLE_PLAYFABSERVER_API",
+        "ENABLE_PLAYFABADMIN_API",
+        "ENABLE_PLAYFABMATCHMAKER_API",
+        "UNITY_EDITOR",
+        "authType",
+        "AuthType",
+        "IsNullOrEmpty",
+        "PlayFabSettings",
+        "DeveloperSecretKey",
+        "authType",
+        "AuthType",
+        "DevSecretKey",
+        "PlayFabHttp",
+        "MakeApiCall",
+        "request",
+        "authType",
+        "resultCallback",
+        "errorCallback",
+        "customData",
+        "extraHeaders"
+    ],
+    "literals": [
+        "\"/Authentication/GetEntityToken\""
+    ],
+    "variables": [
+        "AuthType",
+        "authType"
+    ],
+    "comments": [
+        "The Authentication API group is currently in-progress. The current GetEntityToken method is a stop-gap to convert",
+        "another authentication into an Entity Authentication. See https://api.playfab.com/documentation/client#Authentication",
+        "for the other authentication methods.",
+        "</summary>",
+        "Clear the Client SessionToken which allows this Client to call API calls requiring login.",
+        "A new/fresh login will be required after calling this.",
+        "</summary>",
+        "Method to exchange a legacy AuthenticationTicket or title SecretKey for an Entity Token or to refresh a still valid",
+        "Entity Token.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "PlayFabAuthenticationAPI",
+        "ForgetAllCredentials",
+        "GetEntityToken"
+    ],
+    "classes": [
+        "PlayFabAuthenticationAPI"
+    ]
+}

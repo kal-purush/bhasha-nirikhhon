@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "Action",
+        "FetchProjectSpeciesFacetRequestAction"
+    ],
+    "literals": [
+        "\"@ngrx/store\"",
+        "\"FILE_MANIFEST.PROJECT_SPECIES_FACET_REQUEST\""
+    ],
+    "variables": [],
+    "comments": [
+        "Core dependencies"
+    ],
+    "docstrings": [
+        "* Human Cell Atlas\n * https://www.humancellatlas.org/\n *\n * Action triggered for project downloads where species checkbox can be autoselected if project only has a single \n * species. We can't use the species value of the project returned from Azul as CGM species are not currently rolled \n * up to the project level."
+    ],
+    "functions": [],
+    "classes": [
+        "FetchProjectSpeciesFacetRequestAction"
+    ]
+}

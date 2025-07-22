@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "axios",
+        "axios",
+        "api",
+        "config",
+        "localStorage",
+        "token",
+        "config",
+        "token",
+        "config",
+        "error",
+        "error",
+        "api",
+        "response",
+        "response",
+        "error",
+        "error",
+        "localStorage",
+        "error",
+        "api"
+    ],
+    "literals": [
+        "\"axios\"",
+        "\"http://localhost:8080/api\"",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "\"token\"",
+        "Bearer ${token}",
+        "\"token\"",
+        "\"/login\""
+    ],
+    "variables": [
+        "api",
+        "token"
+    ],
+    "comments": [
+        "Create axios instance with default config",
+        "Request interceptor for adding auth token",
+        "Response interceptor for handling auth errors",
+        "Clear invalid token",
+        "Redirect to login page"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

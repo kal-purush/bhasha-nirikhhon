@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "Component",
+        "Component"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'events-list'",
+        "<div>\n            <h1> Upcoming Angular 2 Events </h1>\n            <hr/>\n            <div class=\"well hoverwell thumbnail\">\n                <h2>{{event.name}}</h2>\n                <div>Date: {{event.date}}</div>\n                <div>Time: {{event.time}}</div>\n                <div>Price: \\${{event.price}}</div>\n                <div>\n                    <span>Location: {{event.location.address}}</span>\n                    <span>&nbsp;</span>\n                    <span>{{event.location.city}}, {{event.location.country}}</span>\n                </div>\n            </div>\n        </div>",
+        "'Angular Connect'",
+        "'9/26/2036'",
+        "'10:00 am'",
+        "'/app/assets/images/angularconnect-shield.png'",
+        "'1057 DT'",
+        "'London'",
+        "'England'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "EventsListComponent"
+    ]
+}

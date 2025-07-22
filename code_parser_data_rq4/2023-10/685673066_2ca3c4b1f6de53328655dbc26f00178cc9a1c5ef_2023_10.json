@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "rgb",
+        "ecdsa",
+        "transaction",
+        "rgb",
+        "rgb",
+        "ecdsa",
+        "privateKey",
+        "Buffer",
+        "transaction",
+        "privateKey",
+        "encryptedTransaction",
+        "rgb",
+        "encryptedTransactionWithSignature",
+        "rgb",
+        "lightningAddress",
+        "ethers",
+        "createSealedTransaction",
+        "transaction",
+        "sealedTransaction"
+    ],
+    "literals": [
+        "'@rgb-protocol/core'",
+        "'elliptic'",
+        "'hex'",
+        "'lnbc1pj3cvs0pp5dwpumgsa849y7ht2nxzlrqy94t8026vzskuc9hjy9t8lfadjmknsdqqcqzzsxqyz5vqsp5mhhlp8szd8kcryev0wqstkrpmvth7ln7ghmlyhmxpymv0peky09s9qyyssq9lhal3a80d6ahp0g5xjr3ahcfeuuwcw6mlnrgscfgr2gs4xl5yl3lsraugdsfn5df0nu3zh28jwxe9h4a8gz4zxfjlrsw88pt6suqeqqy4t9e0'",
+        "'1'",
+        "'rgb'"
+    ],
+    "variables": [
+        "privateKey",
+        "publicKey",
+        "encryptedTransaction",
+        "encryptedTransactionWithSignature",
+        "lightningAddress",
+        "transaction",
+        "sealedTransaction"
+    ],
+    "comments": [
+        "Generate a private key and public key pair",
+        "Encrypt the transaction with the private key",
+        "Return the sealed transaction",
+        "Create a Lightning Bitcoin address",
+        "Create an RGB transaction object",
+        "Create a sealed transaction",
+        "Broadcast the sealed transaction to the network"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createSealedTransaction"
+    ],
+    "classes": []
+}

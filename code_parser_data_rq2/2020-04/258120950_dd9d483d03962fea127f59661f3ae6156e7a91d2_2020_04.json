@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "logging",
+        "sys",
+        "unittest",
+        "unittest",
+        "mock",
+        "patch",
+        "run_ner",
+        "logging",
+        "basicConfig",
+        "level",
+        "logging",
+        "DEBUG",
+        "logging",
+        "getLogger",
+        "unittest",
+        "TestCase",
+        "logging",
+        "StreamHandler",
+        "sys",
+        "stdout",
+        "logger",
+        "addHandler",
+        "stream_handler",
+        "split",
+        "patch",
+        "sys",
+        "testargs",
+        "run_ner",
+        "main",
+        "assertLess",
+        "result"
+    ],
+    "literals": [
+        "\"argv\"",
+        "\"run.py\"",
+        "\"loss\""
+    ],
+    "variables": [
+        "logger",
+        "stream_handler",
+        "testargs",
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n            --model_name distilbert-base-german-cased\n            --output_dir ./examples/tests_samples/temp_dir\n            --overwrite_output_dir\n            --data_dir ./examples/tests_samples/GermEval\n            --labels ./examples/tests_samples/GermEval/labels.txt\n            --max_seq_length 128\n            --num_train_epochs 6\n            --logging_steps 1\n            --do_train\n            --do_eval\n            \"\"\""
+    ],
+    "functions": [
+        "test_run_ner"
+    ],
+    "classes": [
+        "ExamplesTests"
+    ]
+}

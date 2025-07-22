@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "request",
+        "request",
+        "fetch",
+        "response",
+        "response",
+        "Headers",
+        "cookies",
+        "data",
+        "Response",
+        "cookies",
+        "error",
+        "Response"
+    ],
+    "literals": [
+        "'http://localhost:3001/login'",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'",
+        "'Login failed'",
+        "'Set-Cookie'",
+        "sid=${data.apiKey}; Path=/; SameSite=Strict",
+        "'Login failed. Please try again.'"
+    ],
+    "variables": [
+        "body",
+        "body",
+        "response",
+        "data",
+        "cookies"
+    ],
+    "comments": [
+        "Call external API",
+        "Create cookie with the apiKey",
+        "cookies.append('Set-Cookie', `sid=${data.apiKey}; Path=/; HttpOnly; Secure; SameSite=Strict`);",
+        "TODO: Change to HttpOnly & Secure"
+    ],
+    "docstrings": [],
+    "functions": [
+        "POST"
+    ],
+    "classes": []
+}

@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "z",
+        "z",
+        "z",
+        "z",
+        "z",
+        "z",
+        "schema",
+        "schema",
+        "schema",
+        "z",
+        "schema",
+        "schema"
+    ],
+    "literals": [
+        "\"zod\"",
+        "\"Korisnicko ime mora biti dugacko najmanje 4 karaktera\"",
+        "\"^\\\\S{4,}$\"",
+        "\"Razmak nije dozvoljen u korisnickom imenu\"",
+        "\"Email nije validan\"",
+        "\"Sifra mora biti dugacka najmanje 4 karaktera\"",
+        "\"(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{4,}).*$\"",
+        "\"Sifra mora sadrzati veliko slovo, malo slovo i broj\"",
+        "\"Sifra i potvrdjena sifra se ne podudaraju\""
+    ],
+    "variables": [
+        "schema"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

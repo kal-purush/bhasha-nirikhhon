@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "value",
+        "error",
+        "result",
+        "result",
+        "result",
+        "either",
+        "either",
+        "either",
+        "promise",
+        "promise",
+        "ok",
+        "value",
+        "e",
+        "err",
+        "e"
+    ],
+    "literals": [
+        "'ok'",
+        "'error'",
+        "'ok'",
+        "'error'",
+        "'ok'",
+        "'error'"
+    ],
+    "variables": [
+        "value"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* A successful value",
+        "* A failed value",
+        "* A safe result type: imagine a language with no exceptions — the way to handle\n * errors would be to use something like a tagged union type.\n *\n * Why would we want that? I want to explicitly handle exceptions in this library\n * and having this construct really helps. It's also pretty easy to implement.",
+        "* Checks whether a value is an `Ok`.\n * Handy with TypeScript guards",
+        "* Checks whether a value is an `Err`.\n * Handy with TypeScript guards",
+        "* Convert a `Promise<T>` into a `Promise<Result<Error, T>>`,\n * therefore catching the errors and being able to handle them explicitly"
+    ],
+    "functions": [
+        "ok",
+        "err",
+        "isOk",
+        "isErr",
+        "safeAsync"
+    ],
+    "classes": []
+}

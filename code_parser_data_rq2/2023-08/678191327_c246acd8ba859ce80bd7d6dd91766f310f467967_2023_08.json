@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "eval",
+        "__webpack_modules__"
+    ],
+    "literals": [
+        "\"./src/index.js\"",
+        "\"fetch(\\n  'https://api.weatherapi.com/v1/current.json?key=346db19fc2d3410b90233359231708&q=new york&aqi=no',\\n  {\\n    mode: 'cors',\\n  }\\n)\\n  .then(function (response) {\\n    return response.json();\\n  })\\n  .then(function (data) {\\n    console.log(data);\\n  })\\n  .catch((error) => console.error('Error:', error));\\n\\n\\n//# sourceURL=webpack://webpack-template-eslint-prettier/./src/index.js?\"",
+        "\"./src/index.js\""
+    ],
+    "variables": [
+        "__webpack_modules__",
+        "__webpack_exports__"
+    ],
+    "comments": [
+        "webpackBootstrap",
+        "",
+        "!**********************!*\\\n  !*** ./src/index.js ***!\n  \\*********************",
+        "",
+        "",
+        "startup",
+        "Load entry module and return exports",
+        "This entry module can't be inlined because the eval devtool is used."
+    ],
+    "docstrings": [
+        "* ATTENTION: The \"eval\" devtool has been used (maybe by default in mode: \"development\").\n * This devtool is neither made for production nor for readable output files.\n * It uses \"eval()\" calls to create a separate source file in the browser devtools.\n * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)\n * or disable the default devtool with \"devtool: false\".\n * If you are looking for production-ready output files, see mode: \"production\" (https://webpack.js.org/configuration/mode/).",
+        "***",
+        "***",
+        "***",
+        "*********************************************************************",
+        "***",
+        "***",
+        "***",
+        "***",
+        "***",
+        "***",
+        "***",
+        "***"
+    ],
+    "functions": [],
+    "classes": []
+}

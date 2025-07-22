@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "require",
+        "express",
+        "require",
+        "require",
+        "router",
+        "req",
+        "res",
+        "next",
+        "req",
+        "pool",
+        "serNo",
+        "err",
+        "result",
+        "err",
+        "res",
+        "res",
+        "router"
+    ],
+    "literals": [
+        "'express'",
+        "'mysql'",
+        "'./lib/db.js'",
+        "'/'",
+        "\"serNo\"",
+        "'DELETE FROM book where serNo=?'",
+        "'bookDeleteFail'",
+        "'bookDeleteSuccess'"
+    ],
+    "variables": [
+        "express",
+        "router",
+        "mysql",
+        "pool",
+        "serkNo"
+    ],
+    "comments": [
+        "------------------",
+        "載入資料庫連結",
+        "------------------",
+        "GET home page.",
+        "取得使用者傳來的參數",
+        "刪除資料庫內容",
+        "刪除失敗",
+        "刪除成功"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

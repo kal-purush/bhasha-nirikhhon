@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "html",
+        "html",
+        "img",
+        "img",
+        "img",
+        "img"
+    ],
+    "literals": [
+        "\"light\"",
+        "'#profile img'",
+        "'light'",
+        "'src'",
+        "'assets/avatar-light.png'",
+        "'alt'",
+        "'foto de Bruna Candeias com roupa branca'",
+        "'src'",
+        "'assets/avatar.png'",
+        "'alt'",
+        "'foto de Bruna Candeias com roupa marrom'"
+    ],
+    "variables": [
+        "html",
+        "img"
+    ],
+    "comments": [
+        "quando o botão for clicado, essa função será executada",
+        "jeito 1 para alternância de modos",
+        "if (html.classList.contains(\"light\")) {",
+        "html.classList.remove(\"light\"); //muda para darkMode",
+        "} else {",
+        "html.classList.add(\"light\"); //muda para lightMode",
+        "}",
+        "jeito 2 - simplificado",
+        "funciona de maneira semelhante:",
+        "'classList' é uma propriedade que retorna uma coleção ativa de todas as classes de um elemento",
+        "'toggle()' é um método da propriedade 'classList' que alterna (ativa ou desativa) uma classe específica no elemento.",
+        "Portanto, classList fornece as classes presentes no documento html. Se a classe 'light' estiver presente, toggle irá removê-la. Mas se a classe 'light' não estiver presente, toggle irá adiciona-lá.",
+        "querySelector busca pelo seletor específicado e atribui à variável criada",
+        "substituição da imagem",
+        "lightMode",
+        "darkMode",
+        "'setAttribute' é um método para adicionar um novo atributo ou modificar o valor de um atributo existente em um elemento HTML",
+        "sintaxe: element.setAttribute(name,value);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "toggleMode"
+    ],
+    "classes": []
+}

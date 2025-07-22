@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "HttpClient",
+        "Injectable",
+        "environment",
+        "Observable",
+        "AlunoResponse",
+        "Injectable",
+        "environment",
+        "http"
+    ],
+    "literals": [
+        "'@angular/common/http'",
+        "'@angular/core'",
+        "'../../../environments/environments'",
+        "'rxjs'",
+        "'../interface/alunoResponse'",
+        "'root'",
+        "${environment.api_url}/alunos",
+        "${this.url}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getAlunos"
+    ],
+    "classes": [
+        "AlunoService"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "createjs",
+        "createjs",
+        "assets",
+        "createjs",
+        "assets",
+        "createjs",
+        "assets",
+        "init",
+        "assets",
+        "canvas",
+        "stage",
+        "createjs",
+        "canvas",
+        "stage",
+        "createjs",
+        "createjs",
+        "gameLoop",
+        "main",
+        "stage"
+    ],
+    "literals": [
+        "\"complete\"",
+        "\"allien\"",
+        "\"assets/images/allien2.png\"",
+        "\"asteroid\"",
+        "\"assets/images/asteroid.png\"",
+        "\"canvas\"",
+        "\"tick\""
+    ],
+    "variables": [
+        "canvas",
+        "stage",
+        "assets"
+    ],
+    "comments": [
+        "CreateJS Boilerplate for COMP397",
+        "VARIABLES ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++",
+        "Reference to the HTML 5 Canvas element",
+        "Reference to the Stage",
+        "var helloText: createjs.Text; // Holds my Hello World! Text",
+        "var buttonBitmap: createjs.Bitmap;",
+        "FUNCTIONS ++++++++++++++++++++++++++++++++++++++++++++++++++++++++",
+        "queue.loadFile({ id: \"sound\", src: \"\" });",
+        "asas",
+        "Parent Object",
+        "Turn on Mouse Over events",
+        "Set the frame rate to 60 fps",
+        "GAMELOOP",
+        "function buttonClicked() {\n    //helloText.text = \"Goodbye!\";\n}\n\nfunction buttonOut() {\n    //buttonBitmap.alpha = 1;\n}\n\nfunction buttonOver() {\n    //buttonBitmap.alpha = 0.5;\n}",
+        "// This is where all the work happens\n    helloText = new createjs.Text(\"Hello World!\", \"40px Consolas\", \"#000000\");\n    stage.addChild(helloText); // First Child Object that we add to the stage\n\n    // Green Button\n    buttonBitmap = new createjs.Bitmap(\"assets/images/button-small.png\");\n    buttonBitmap.x = 100;\n    buttonBitmap.y = 100;\n    buttonBitmap.addEventListener(\"click\", buttonClicked);\n    buttonBitmap.addEventListener(\"mouseout\", buttonOut);\n    buttonBitmap.addEventListener(\"mouseover\", buttonOver);\n\n    stage.addChild(buttonBitmap);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "preload",
+        "init",
+        "gameLoop",
+        "main"
+    ],
+    "classes": []
+}

@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "odoo",
+        "models",
+        "fields",
+        "api",
+        "models",
+        "Model",
+        "fields",
+        "Many2one",
+        "comodel_name",
+        "fields",
+        "Char",
+        "fields",
+        "fields",
+        "fields",
+        "fields",
+        "compute",
+        "fields",
+        "Many2one",
+        "comodel_name",
+        "api",
+        "onchange",
+        "service_id",
+        "name",
+        "service_id",
+        "lst_price",
+        "api",
+        "one",
+        "api",
+        "depends",
+        "discount",
+        "price",
+        "price",
+        "discount_amount"
+    ],
+    "literals": [
+        "\"customer.contract\"",
+        "\"product.product\"",
+        "\"Service\"",
+        "\"Description\"",
+        "\"Quantity\"",
+        "\"Price\"",
+        "\"Discount\"",
+        "\"Total Price\"",
+        "\"_compute_total_price\"",
+        "\"res.partner\"",
+        "\"Res Partner\"",
+        "'service_id'",
+        "'discount'"
+    ],
+    "variables": [
+        "_name",
+        "service_id",
+        "description",
+        "product_uom_qty",
+        "price",
+        "discount",
+        "total_price",
+        "res_partner_id",
+        "description",
+        "price",
+        "discount_amount",
+        "total_price"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [],
+    "functions": [
+        "onchange__select_product",
+        "_compute_total_price"
+    ],
+    "classes": [
+        "CustomerContract"
+    ]
+}

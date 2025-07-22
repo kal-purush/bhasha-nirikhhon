@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "ssid",
+        "password",
+        "network",
+        "network",
+        "WLAN",
+        "network",
+        "STA_IF",
+        "wlan",
+        "active",
+        "wlan",
+        "isconnected",
+        "wlan",
+        "connect",
+        "ssid",
+        "password",
+        "wlan",
+        "isconnected",
+        "wlan",
+        "ifconfig",
+        "max30102",
+        "MAX30102",
+        "ImportError",
+        "e",
+        "e",
+        "do_connect",
+        "my_ssid",
+        "my_pass",
+        "upip",
+        "upip",
+        "install",
+        "ImportError",
+        "mip",
+        "mip",
+        "install"
+    ],
+    "literals": [
+        "'connecting to network...'",
+        "'network config:'",
+        "'__main__'",
+        "\"my_ssid\"",
+        "\"my_password\"",
+        "f\"Import error: {e}\"",
+        "\"Trying to connect to the Internet to download the module.\"",
+        "\"micropython-max30102\"",
+        "\"upip not available in this port. Trying with mip.\"",
+        "\"github:n-elia/MAX30102-MicroPython-driver\""
+    ],
+    "variables": [
+        "wlan",
+        "my_ssid",
+        "my_pass"
+    ],
+    "comments": [
+        "This file is executed on every boot (including wake-boot from deep sleep)",
+        "Put yor Wi-Fi credentials here",
+        "Check if the module is available in memory",
+        "Module not available. Try to connect to Internet to download it.",
+        "Try to leverage upip package manager to download the module.",
+        "upip not available. Try to leverage mip package manager to download the module."
+    ],
+    "docstrings": [],
+    "functions": [
+        "do_connect"
+    ],
+    "classes": []
+}

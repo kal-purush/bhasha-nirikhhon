@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "Phaser",
+        "Phaser",
+        "Phaser",
+        "Phaser",
+        "Phaser",
+        "Phaser",
+        "Phaser",
+        "game",
+        "Phaser",
+        "game",
+        "game",
+        "Phaser",
+        "x",
+        "Phaser",
+        "x",
+        "x",
+        "Phaser",
+        "x",
+        "Phaser",
+        "x",
+        "x",
+        "Phaser",
+        "x",
+        "Phaser",
+        "x",
+        "GameState",
+        "GameModeState",
+        "GameModeState",
+        "GameModeState",
+        "e",
+        "Phaser"
+    ],
+    "literals": [
+        "\"gui\"",
+        "\"game\"",
+        "\"gui/scenic-single-over.png\"",
+        "\"gui/scenic-single-out.png\"",
+        "\"game\"",
+        "\"gui/scenic-single-active.png\"",
+        "\"game\"",
+        "\"gui/local-2-players-over.png\"",
+        "\"gui/local-2-players-out.png\"",
+        "\"game\"",
+        "\"gui/local-2-players-active.png\"",
+        "\"game\"",
+        "\"gui/remote-x-players-over.png\"",
+        "\"gui/remote-x-players-out.png\"",
+        "\"game\"",
+        "\"gui/remote-x-players-active.png\""
+    ],
+    "variables": [
+        "x"
+    ],
+    "comments": [
+        "<reference path=\"../../../components/phaser/typescript/phaser.comments.d.ts\" />",
+        "PRIVATE",
+        "-------",
+        "switch (e) {\n         case this.scenicSingleModeButton:\n         this._gameModeState = GameModeState.ScenicSingle;\n         break;\n\n         case this.local2PlayersModeButton:\n         this._gameModeState = GameModeState.Local2Players;\n         break;\n\n         case this.remoteXPlayersModeButton:\n         this._gameModeState = GameModeState.RemoteXPlayers;\n         break;\n         }\n\n         this.refreshGUI();"
+    ],
+    "docstrings": [
+        "* Ground Background.",
+        "* Switch game mode state.\n     * @param e Button origin"
+    ],
+    "functions": [
+        "refresh",
+        "switchGameModeState"
+    ],
+    "classes": [
+        "GUI"
+    ]
+}

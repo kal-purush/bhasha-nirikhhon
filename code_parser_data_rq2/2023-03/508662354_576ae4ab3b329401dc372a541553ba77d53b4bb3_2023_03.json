@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "FollowListParams",
+        "CheckReceivedFollowParams",
+        "CheckSendedFollowParams",
+        "FollowRequestParams",
+        "followApi",
+        "followList",
+        "param",
+        "followApi",
+        "param",
+        "param",
+        "checkReceivedFollow",
+        "param",
+        "followApi",
+        "param",
+        "param",
+        "checkSendedFollow",
+        "param",
+        "followApi",
+        "param",
+        "param",
+        "followRequest",
+        "param",
+        "followApi",
+        "param"
+    ],
+    "literals": [
+        "'./entity'",
+        "'./followApiClient'",
+        "/followers?${param.cursor}&pageSize=${param.pageSize}",
+        "/requests/receive?page=${param.page}&pageSize=${param.pageSize}",
+        "/requests/send?page=${param.page}&pageSize=${param.pageSize}",
+        "'/requests'"
+    ],
+    "variables": [
+        "followList",
+        "checkReceivedFollow",
+        "checkSendedFollow",
+        "followRequest"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

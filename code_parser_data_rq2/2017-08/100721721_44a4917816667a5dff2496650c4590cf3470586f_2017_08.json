@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "testRule",
+        "maxSelectors",
+        "maxSelectors",
+        "maxSelectors",
+        "maxSelectors"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "\"../lib\"",
+        "\"stylelint-test-rule-tape\"",
+        "\".foo {} .bar {}\"",
+        "\".foo .bar {}\"",
+        "\".foo, .bar {}\"",
+        "\".foo, .bar, .baz {}\"",
+        "Expected no more than 2 selectors (${maxSelectors.ruleName})",
+        "\".foo {} .bar {} .baz {}\"",
+        "Expected no more than 2 selectors (${maxSelectors.ruleName})"
+    ],
+    "variables": [
+        "maxSelectors",
+        "testRule"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

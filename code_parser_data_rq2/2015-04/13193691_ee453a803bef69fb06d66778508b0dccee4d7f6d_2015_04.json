@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "op",
+        "create_table",
+        "sa",
+        "Column",
+        "sa",
+        "nullable",
+        "sa",
+        "Column",
+        "sa",
+        "nullable",
+        "sa",
+        "Column",
+        "sa",
+        "Unicode",
+        "nullable",
+        "sa",
+        "ForeignKeyConstraint",
+        "sa",
+        "ForeignKeyConstraint",
+        "sa",
+        "PrimaryKeyConstraint",
+        "op",
+        "drop_table"
+    ],
+    "literals": [
+        "'19dcf1206de'",
+        "'42a62c35cae'",
+        "'banned_trainers'",
+        "'trainer_id'",
+        "'banned_by_trainer_id'",
+        "'reason'",
+        "'banned_by_trainer_id'",
+        "'trainers.id'",
+        "'trainer_id'",
+        "'trainers.id'",
+        "'trainer_id'",
+        "'banned_trainers'"
+    ],
+    "variables": [
+        "revision",
+        "down_revision"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic."
+    ],
+    "docstrings": [
+        "\"\"\"Add banned_trainers table.\n\nRevision ID: 19dcf1206de\nRevises: 42a62c35cae\nCreate Date: 2015-03-31 19:40:45.488052\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

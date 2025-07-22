@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "winston",
+        "winston",
+        "name",
+        "label",
+        "level"
+    ],
+    "literals": [
+        "\"winston\"",
+        "string",
+        "string",
+        "\"error\"",
+        "\"warn\"",
+        "\"info\"",
+        "\"verbose\"",
+        "\"debug\"",
+        "\"silly\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* get a logger\n     *\n     * @param {string} label the loggers name\n     * @param {string} [level=\"error\"] the log level, defaults to \"error\"\n     * @returns {IRsiLoggerInstance} an instance of a logger\n     * @memberof RsiLogger"
+    ],
+    "functions": [],
+    "classes": [
+        "RsiLogger"
+    ]
+}

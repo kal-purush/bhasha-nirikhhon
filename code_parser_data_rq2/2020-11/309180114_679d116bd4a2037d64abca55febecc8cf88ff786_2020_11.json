@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "require",
+        "passTimes",
+        "passTimes",
+        "datetime",
+        "datetime",
+        "duration",
+        "nextISSTimesForMyLocation",
+        "error",
+        "passTimes",
+        "error",
+        "error",
+        "printPassTimes",
+        "passTimes"
+    ],
+    "literals": [
+        "'./iss'",
+        "Next pass at ${datetime} for ${duration} seconds!",
+        "\"It didn't work!\""
+    ],
+    "variables": [
+        "printPassTimes",
+        "datetime",
+        "duration"
+    ],
+    "comments": [
+        "index.js",
+        "const { fetchMyIP } = require('./iss');",
+        "fetchMyIP((error, ip) => {",
+        "if (error) {",
+        "console.log(\"It didn't work!\" , error);",
+        "return;",
+        "}",
+        "console.log('It worked! Returned IP:' , ip);",
+        "});",
+        "const { fetchCoordsByIP } = require('./iss');",
+        "fetchCoordsByIP(\"72.137.105.34\", (error, coords) => {",
+        "if (error) {",
+        "console.log(\"It didn't work!\" , error);",
+        "return;",
+        "}",
+        "console.log('It worked! Returned co-ordinates:' , coords);",
+        "});",
+        "const { fetchISSFlyOverTimes } = require('./iss');",
+        "fetchISSFlyOverTimes( { latitude: 43.7012, longitude: -79.3877 }",
+        ", (error, data) => {",
+        "if (error) {",
+        "console.log(\"It didn't work!\" , error);",
+        "return;",
+        "}",
+        "console.log('It worked! Returned duration and risetime:' , data);",
+        "});",
+        "success, print out the deets!"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

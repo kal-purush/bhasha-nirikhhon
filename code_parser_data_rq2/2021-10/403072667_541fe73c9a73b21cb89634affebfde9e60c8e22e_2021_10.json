@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "GenericResponse",
+        "Sprint",
+        "ProjectPlan",
+        "CommonResponse",
+        "projectId",
+        "workspaceId",
+        "res",
+        "rej",
+        "res",
+        "GenericResponse",
+        "ProjectPlan",
+        "Sprint",
+        "projectId",
+        "workspaceId",
+        "sprint",
+        "resolve",
+        "resolve",
+        "CommonResponse"
+    ],
+    "literals": [
+        "\"../model/dto/GenericResponse\"",
+        "\"../model/Sprint\"",
+        "\"../model/dto/CommonResponse\"",
+        "string",
+        "string",
+        "'My project'",
+        "'To start'",
+        "'Excellent'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "TODO: implement",
+        "TODO: implement"
+    ],
+    "docstrings": [
+        "*\n * @param projectId\n * @param workspaceId\n * @return list of sprints for current project",
+        "*\n * @param projectId\n * @param workspaceId\n * @param sprint"
+    ],
+    "functions": [
+        "getProjectPlan",
+        "addSprint"
+    ],
+    "classes": []
+}

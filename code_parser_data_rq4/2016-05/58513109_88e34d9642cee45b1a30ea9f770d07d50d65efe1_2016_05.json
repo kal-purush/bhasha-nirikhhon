@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "StaySteady",
+        "Mobile",
+        "Views",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Xamarin",
+        "Forms",
+        "Xamarin",
+        "Forms",
+        "Xaml",
+        "StaySteady",
+        "Mobile",
+        "CarouselPage",
+        "Children",
+        "Add",
+        "Exercise1Xaml",
+        "Children",
+        "Add",
+        "Exercise2Xaml",
+        "Children",
+        "Add",
+        "Exercise3Xaml"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "public class Exercise : TabbedPage\n\t{\n\t\tpublic Exercise ()\n\t\t{\n\t\t\tthis.Children.Add (new Exercise1Xaml ());\n\t\t\tthis.Children.Add (new Exercise2Xaml ());\n\t\t\tthis.Children.Add (new Exercise3Xaml ());\n\t\t}\n\t}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Exercise"
+    ],
+    "classes": [
+        "Exercise"
+    ]
+}

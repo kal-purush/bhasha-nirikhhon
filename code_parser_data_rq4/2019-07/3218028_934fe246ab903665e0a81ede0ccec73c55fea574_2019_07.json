@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "skrf",
+        "rf",
+        "unittest",
+        "numpy",
+        "log",
+        "pi",
+        "numpy",
+        "testing",
+        "assert_equal",
+        "run_module_suite",
+        "assert_almost_equal",
+        "unittest",
+        "TestCase",
+        "assert_almost_equal",
+        "rf",
+        "np_2_db",
+        "log",
+        "assert_almost_equal",
+        "rf",
+        "db_2_np",
+        "log",
+        "assert_almost_equal",
+        "rf",
+        "mag_2_db10",
+        "log",
+        "log",
+        "assert_almost_equal",
+        "rf",
+        "feet_2_meter",
+        "assert_almost_equal",
+        "rf",
+        "feet_2_meter",
+        "assert_almost_equal",
+        "rf",
+        "meter_2_feet",
+        "assert_almost_equal",
+        "rf",
+        "meter_2_feet",
+        "assert_almost_equal",
+        "rf",
+        "db_per_100feet_2_db_per_100meter",
+        "rf",
+        "meter_2_feet",
+        "assert_almost_equal",
+        "rf",
+        "db_per_100feet_2_db_per_100meter",
+        "assert_almost_equal",
+        "rf",
+        "db_per_100feet_2_db_per_100meter",
+        "run_module_suite"
+    ],
+    "literals": [
+        "\"__main__\""
+    ],
+    "variables": [],
+    "comments": [
+        "Launch all tests"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Test unit-conversion functions\n    \"\"\"",
+        "\"\"\"\n        Test Np to dB conversion with:\n            1 [Np] = 20/ln(10) [dB]\n        \"\"\"",
+        "\"\"\"\n        Test dB to Np conversion with: \n            1 [dB] = ln(10)/20 [Np]\n        \"\"\"",
+        "\"\"\"\n        Test magnitude to dB conversion with:\n            2 -> +3 dB\n        \"\"\"",
+        "\"\"\"\n        Test feet to meter length conversion\n        \"\"\"",
+        "\"\"\"\n        Test meter to feet length conversion\n        \"\"\"",
+        "\"\"\"\n        Test attenuation unit conversion dB/100feet to dB/100m\n        \"\"\""
+    ],
+    "functions": [
+        "setUp",
+        "test_np_2_db",
+        "test_db_2_np",
+        "test_mag_2_db",
+        "test_feet_2_meter",
+        "test_meter_2_feet",
+        "test_db_per_100feet_2_db_per_100meter"
+    ],
+    "classes": [
+        "TestUnitConversions"
+    ]
+}

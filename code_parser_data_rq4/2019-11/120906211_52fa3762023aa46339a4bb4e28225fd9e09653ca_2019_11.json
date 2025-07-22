@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "jsonSchema",
+        "Contributor",
+        "CollaborativesearchService",
+        "ConfigService",
+        "CollaborationEvent",
+        "projType",
+        "OperationEnum",
+        "Collaboration",
+        "Observable",
+        "ComputationRequest",
+        "ComputationResponse",
+        "Contributor",
+        "identifier",
+        "collaborativeSearcheService",
+        "configService",
+        "identifier",
+        "configService",
+        "collaborativeSearcheService",
+        "jsonSchema",
+        "collaborationEvent",
+        "projType",
+        "ComputationRequest",
+        "collaborationEvent",
+        "collaborationEvent",
+        "OperationEnum",
+        "computationResponse",
+        "data",
+        "data",
+        "data",
+        "data",
+        "collaboration"
+    ],
+    "literals": [
+        "'../jsonSchemas/computeContributorConf.schema.json'",
+        "'arlas-web-core'",
+        "'rxjs'",
+        "'arlas-api'",
+        "string",
+        "'field'",
+        "string",
+        "'metric'",
+        "string",
+        "'title'",
+        "string",
+        "string",
+        "'Computed '",
+        "' on '",
+        "string",
+        "'arlas.web.contributors.compute'"
+    ],
+    "variables": [
+        "computationResponse"
+    ],
+    "comments": [
+        "Field on which the metric will be computed",
+        "Field on which the metric will be computed",
+        "Title of the contributor",
+        "return the json schem of this contributor"
+    ],
+    "docstrings": [
+        "* Licensed to Gisaïa under one or more contributor\n * license agreements. See the NOTICE.txt file distributed with\n * this work for additional information regarding copyright\n * ownership. Gisaïa licenses this file to you under\n * the Apache License, Version 2.0 (the \"License\"); you may\n * not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *    http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing,\n * software distributed under the License is distributed on an\n * \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n * KIND, either express or implied.  See the License for the\n * specific language governing permissions and limitations\n * under the License.",
+        "* This contributor computes a metric on the given field, given the filters",
+        "* Build a new contributor.\n    * @param identifier  Identifier of contributor.\n    * @param collaborativeSearcheService  Instance of CollaborativesearchService from Arlas-web-core.\n    * @param configService  Instance of ConfigService from Arlas-web-core.",
+        "* @returns Pretty name of contributor based on query propoerty.",
+        "* @returns Package name for the configuration service."
+    ],
+    "functions": [
+        "getJsonSchema",
+        "fetchData",
+        "computeData",
+        "setData",
+        "setSelection",
+        "getFilterDisplayName",
+        "getPackageName"
+    ],
+    "classes": [
+        "ComputeContributor"
+    ]
+}

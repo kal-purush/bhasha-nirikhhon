@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "packageName",
+        "org",
+        "apache",
+        "camel",
+        "builder",
+        "RouteBuilder",
+        "org",
+        "springframework",
+        "stereotype",
+        "Component",
+        "Component",
+        "Override",
+        "id",
+        "autoStartup",
+        "log",
+        "log",
+        "id",
+        "autoStartup",
+        "log",
+        "to",
+        "id",
+        "log"
+    ],
+    "literals": [
+        "\"file://{{file.in.dir}}?move={{file.done.dir}}&moveFailed={{file.failed.dir}}\"",
+        "\"ReadFileRoute\"",
+        "\"{{fileReader.enabled}}\"",
+        "\"Received file [${headers.CamelFileName}] from [{{file.in.dir}}] directory.\"",
+        "\"TODO: Implement your routing\"",
+        "\"direct:saveFile\"",
+        "\"SaveFileRoute\"",
+        "\"{{fileWriter.enabled}}\"",
+        "\"Saving file into [{{file.out.dir}}] using name [${headers.CamelFileName}]...\"",
+        "\"file://{{file.out.dir}}?fileName=${headers.CamelFileName}\"",
+        "\"SaveFile\"",
+        "\"\\n*** Saved to folder [{{file.out.dir}}] as [${headers.CamelFileNameProduced}]\""
+    ],
+    "variables": [],
+    "comments": [
+        "Consume files from file.in.dir directory",
+        "Save file into {{file.out.dir}} using CamelFileName header (Exchange.FILE_NAME) to the desired."
+    ],
+    "docstrings": [
+        "* Camel routes for file connectors\n *"
+    ],
+    "functions": [
+        "configure"
+    ],
+    "classes": [
+        "FileRouter"
+    ]
+}

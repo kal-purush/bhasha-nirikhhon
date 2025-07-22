@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "snowflake",
+        "snowpark",
+        "Session",
+        "Session",
+        "builder",
+        "configs",
+        "connection_parameters",
+        "create"
+    ],
+    "literals": [
+        "\"account\"",
+        "\"ivoklic-wyb12201.US-WEST-OREGON.AWS\"",
+        "\"user\"",
+        "\"PranayIngle\"",
+        "\"password\"",
+        "\"Pranayi25#\"",
+        "\"role\"",
+        "\"ACCOUNTADMIN\"",
+        "\"warehouse\"",
+        "\"COMPUTE_WH\"",
+        "\"database\"",
+        "\"SUSTAINABLITY_CORTEX_SEARCH_DOCS\"",
+        "\"schema\"",
+        "\"Data\""
+    ],
+    "variables": [
+        "connection_parameters"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Creates and returns a Snowflake session using predefined connection parameters.\n    \"\"\""
+    ],
+    "functions": [
+        "create_snowflake_session"
+    ],
+    "classes": []
+}

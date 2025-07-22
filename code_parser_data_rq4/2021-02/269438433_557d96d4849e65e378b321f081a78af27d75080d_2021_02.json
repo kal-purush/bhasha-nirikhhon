@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "Readable",
+        "Readable",
+        "stream",
+        "stream",
+        "data",
+        "data",
+        "data",
+        "error"
+    ],
+    "literals": [
+        "\"readable-stream\""
+    ],
+    "variables": [
+        "data"
+    ],
+    "comments": [
+        "Should start pushing data into the queue",
+        "Read data from the underlying Web-API-readable-stream",
+        "Signal EOF",
+        "clear the promise before pushing pushing new data to the queue and allow sequential calls to _read()",
+        "Signal EOF",
+        "Push new data to the queue",
+        "Signal EOF"
+    ],
+    "docstrings": [
+        "* ReadableWebToNodeStream\n *\n * Copied from https://github.com/Borewit/readable-web-to-node-stream\n *\n * Adds read error handler\n *\n *",
+        "* Default web API stream reader\n   * https://developer.mozilla.org/en-US/docs/Web/API/ReadableStreamDefaultReader",
+        "*\n   * @param stream Readable​Stream: https://developer.mozilla.org/en-US/docs/Web/API/ReadableStream",
+        "* Implementation of readable._read(size).\n   * When readable._read() is called, if data is available from the resource,\n   * the implementation should begin pushing that data into the read queue\n   * https://nodejs.org/api/stream.html#stream_readable_read_size_1",
+        "* If there is no unresolved read call to Web-API Readable​Stream immediately returns;\n   * otherwise will wait until the read is resolved.",
+        "* Close wrapper"
+    ],
+    "functions": [
+        "_read",
+        "waitForReadToComplete",
+        "close",
+        "syncAndRelease"
+    ],
+    "classes": [
+        "ReadableWebToNodeStream"
+    ]
+}

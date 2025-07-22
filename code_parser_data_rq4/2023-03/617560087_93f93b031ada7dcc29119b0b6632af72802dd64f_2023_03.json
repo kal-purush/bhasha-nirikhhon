@@ -1,0 +1,87 @@
+{
+    "identifiers": [
+        "com",
+        "springboot_backend",
+        "springboot_backend_thymeleaf",
+        "controller",
+        "com",
+        "springboot_backend",
+        "springboot_backend_thymeleaf",
+        "model",
+        "Employee",
+        "com",
+        "springboot_backend",
+        "springboot_backend_thymeleaf",
+        "service",
+        "imp",
+        "EmployeeServiceImp",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Autowired",
+        "org",
+        "springframework",
+        "stereotype",
+        "Controller",
+        "org",
+        "springframework",
+        "ui",
+        "Model",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "GetMapping",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "RequestMapping",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "RestController",
+        "java",
+        "util",
+        "Controller",
+        "RequestMapping",
+        "Autowired",
+        "employeeServiceImp",
+        "employeeServiceImp",
+        "employeeServiceImp",
+        "employeeServiceImp",
+        "GetMapping",
+        "model",
+        "model",
+        "addAttribute",
+        "employeeServiceImp",
+        "getAllEmployee"
+    ],
+    "literals": [
+        "\"api/employee\"",
+        "\"listEmployees\"",
+        "\"index\""
+    ],
+    "variables": [
+        "employeeServiceImp"
+    ],
+    "comments": [
+        "display list of employee"
+    ],
+    "docstrings": [
+        "@GetMapping(\"\")\n    public List<Employee> getAllEmployees(){\n        return employeeServiceImp.getAllEmployee();\n    }"
+    ],
+    "functions": [
+        "Employee_Controller",
+        "homeViewPage"
+    ],
+    "classes": [
+        "Employee_Controller"
+    ]
+}

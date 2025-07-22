@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Stage",
+        "ModalController",
+        "GenericModal",
+        "Stage",
+        "ModalController",
+        "GenericModal",
+        "modalData",
+        "ModalController",
+        "tempModal",
+        "App"
+    ],
+    "literals": [
+        "'../vendor/structurejs/ts/display/Stage'",
+        "'./controllers/ModalController'",
+        "'./views/modals/GenericModal'",
+        "'Modal Title'",
+        "'Modal Content'",
+        "'Cancel'",
+        "'Accept'",
+        "'templates/precompile/modals/GenericModal'"
+    ],
+    "variables": [
+        "modalData",
+        "tempModal"
+    ],
+    "comments": [
+        "╔══════════════════════════════════════════════════════════════════════════════════════╗\n ║ Naming Convention                                                                    ║\n ╠══════════════════════════════════════════════════════════════════════════════════════╣\n ║ Anytime JavaScript interact with an element. Prepend the selector name with a 'js-'. ║\n ║ - Example: js-someButton                                                             ║\n ║                                                                                      ║\n ║ Name the selector the same name as the view.                                         ║\n ║ - Example: SomeView would have a selector named js-someView                          ║\n ╚══════════════════════════════════════════════════════════════════════════════════════╝\n\n ╔═══════════════════════════════════════════════════════════════════════════════════════════════╗\n ║ Architecture                                                                                  ║\n ╟───────────────────────────────────────────────────────────────────────────────────────────────╢\n ║ This application uses the StructureJS library.                                                ║\n ║ - https://github.com/codeBelt/StructureJS                                                     ║\n ║ - http://codebelt.github.io/StructureJS/docs/                                                 ║\n ║                                                                                               ║\n ║ This application uses TACO to build the Cordova App                                           ║\n ║ http://taco.tools/                                                                            ║\n ║ https://channel9.msdn.com/Blogs/Seth-Juarez/Command-Line-Tools-for-Apache-Cordova-with-Kirupa ║\n ╚═══════════════════════════════════════════════════════════════════════════════════════════════╝\n\n http://lorefnon.me/plain-text-table/"
+    ],
+    "docstrings": [
+        "* TODO: YUIDoc_comment\n *\n * @class App\n * @extends Stage\n * @constructor\n *",
+        "* @overridden Stage.create",
+        "* @overridden Stage.enable",
+        "* @overridden Stage.disable",
+        "* @overridden Stage.layout"
+    ],
+    "functions": [
+        "create",
+        "enable",
+        "disable",
+        "layout"
+    ],
+    "classes": [
+        "App"
+    ]
+}

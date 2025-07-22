@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Net",
+        "Net",
+        "Sockets",
+        "Text",
+        "UDPGolf",
+        "args",
+        "UdpClient",
+        "IPAddress",
+        "Parse",
+        "IPEndPoint",
+        "ip",
+        "WriteLine",
+        "udpGolfServer",
+        "Receive",
+        "golfIpEndPoint",
+        "Encoding",
+        "ASCII",
+        "GetString",
+        "receivedData",
+        "WriteLine",
+        "receivedSwingData",
+        "e",
+        "WriteLine",
+        "e"
+    ],
+    "literals": [
+        "\"192.168.104.124\"",
+        "\"Server is waiting for input\"",
+        "\"Received Swing Data is: \"",
+        "\" km/t.\""
+    ],
+    "variables": [
+        "UdpClient",
+        "udpGolfServer",
+        "IPAddress",
+        "ip",
+        "IPEndPoint",
+        "golfIpEndPoint",
+        "receivedData",
+        "receivedSwingData"
+    ],
+    "comments": [
+        "opsætning af UDP socket",
+        "OBS: husk at ændre IP hvis nødvendigt!",
+        "modtagelse af data fra Raspberry Pi'en, som så printes ud i konsollen.",
+        "hvis noget går galt udskrives exceptionen her"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Main"
+    ],
+    "classes": [
+        "Program"
+    ]
+}

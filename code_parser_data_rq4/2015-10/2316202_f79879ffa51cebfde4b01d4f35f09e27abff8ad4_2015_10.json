@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "org",
+        "jtalks",
+        "jcommune",
+        "model",
+        "dao",
+        "org",
+        "jtalks",
+        "common",
+        "model",
+        "dao",
+        "Crud",
+        "org",
+        "jtalks",
+        "jcommune",
+        "model",
+        "dao",
+        "hibernate",
+        "TopicDraftHibernateDao",
+        "org",
+        "jtalks",
+        "jcommune",
+        "model",
+        "entity",
+        "TopicDraft",
+        "org",
+        "jtalks",
+        "jcommune",
+        "model",
+        "entity",
+        "JCUser",
+        "TopicDraftDao",
+        "user",
+        "user"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (C) 2011  JTalks.org Team\n * This library is free software; you can redistribute it and/or\n * modify it under the terms of the GNU Lesser General Public\n * License as published by the Free Software Foundation; either\n * version 2.1 of the License, or (at your option) any later version.\n * This library is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU\n * Lesser General Public License for more details.\n * You should have received a copy of the GNU Lesser General Public\n * License along with this library; if not, write to the Free Software\n * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA",
+        "* DAO for {@link TopicDraft} objects\n *\n * @author Dmitry S. Dolzhenko\n * @see TopicDraftHibernateDao",
+        "* Get a draft topic of specified user\n     *\n     * @param user the user\n     * @return the draft topic or null",
+        "* Delete the draft topic of specified user\n     * @param user the user"
+    ],
+    "functions": [
+        "TopicDraft",
+        "getForUser",
+        "deleteByUser"
+    ],
+    "classes": []
+}

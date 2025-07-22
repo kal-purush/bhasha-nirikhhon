@@ -1,0 +1,84 @@
+{
+    "identifiers": [
+        "wechatpy",
+        "client",
+        "api",
+        "BaseWeChatAPI",
+        "BaseWeChatAPI",
+        "agentid",
+        "keydata",
+        "image",
+        "webview",
+        "replace_user_data",
+        "agentid",
+        "keydata",
+        "image",
+        "webview",
+        "replace_user_data",
+        "_post",
+        "data",
+        "data",
+        "agentid",
+        "agentid",
+        "_post",
+        "data",
+        "data",
+        "agentid",
+        "userid",
+        "keydata",
+        "image",
+        "webview",
+        "agentid",
+        "userid",
+        "keydata",
+        "image",
+        "webview",
+        "_post",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "\"type\"",
+        "\"agentid\"",
+        "\"keydata\"",
+        "\"image\"",
+        "\"list\"",
+        "\"webview\"",
+        "\"replace_user_data\"",
+        "\"agent/set_workbench_template\"",
+        "\"agentid\"",
+        "\"agent/get_workbench_template\"",
+        "\"agentid\"",
+        "\"userid\"",
+        "\"type\"",
+        "\"keydata\"",
+        "\"image\"",
+        "\"list\"",
+        "\"webview\"",
+        "\"agent/set_workbench_data\""
+    ],
+    "variables": [
+        "data",
+        "data",
+        "data"
+    ],
+    "comments": [
+        "!/usr/bin/python3",
+        "@Time    : 2023-08-08",
+        "@Author  : Kevin Kong (kfx2007@163.com)"
+    ],
+    "docstrings": [
+        "\"\"\"\n    工作台相关接口\n\n    参考文档:\n    https://developer.work.weixin.qq.com/document/path/92535\n    \"\"\"",
+        "\"\"\"\n        设置应用在工作台展示的模版\n\n        :params type: 模版类型，目前支持的自定义类型包括 \"keydata\"、 \"image\"、 \"list\"、 \"webview\" 。若设置的type为 \"normal\",则相当于从自定义模式切换为普通宫格或者列表展示模式\n        :params agentid: 应用id,\n        :params keydata: 若type指定为 \"keydata\"，且需要设置企业级别默认数据，则需要设置关键数据型模版数据,数据结构参考\"关键数据型\"\n        :params image: 若type指定为 \"image\"，且需要设置企业级别默认数据，则需要设置图片型模版数据,数据结构参考“图片型\n        :params list: 若type指定为 \"list\"，且需要设置企业级别默认数据，则需要设置列表型模版数据,数据结构参考“列表型”\n        :params webview: 若type指定为 \"webview\"，且需要设置企业级别默认数据，则需要设置webview型模版数据,数据结构参考“webview型”\n        :params replace_user_data: 是否覆盖用户工作台的数据。设置为true的时候，会覆盖企业所有用户当前设置的数据。若设置为false,则不会覆盖用户当前设置的所有数据。默认为false\n        :return :接口结果\n        \"\"\"",
+        "\"\"\"\n        获取应用在工作台展示的模版\n\n        :params agentid: 应用id\n        :return: 接口调用结果\n        \"\"\"",
+        "\"\"\"\n        设置应用在用户工作台展示的数据\n\n        :params agentid: 应用id,\n        :params type: 模版类型，目前支持的自定义类型包括 \"keydata\"、 \"image\"、 \"list\"、 \"webview\"\n        :params keydata: 若type指定为 \"keydata\"，且需要设置企业级别默认数据，则需要设置关键数据型模版数据,数据结构参考\"关键数据型\"\n        :params image: 若type指定为 \"image\"，且需要设置企业级别默认数据，则需要设置图片型模版数据,数据结构参考“图片型\n        :params list: 若type指定为 \"list\"，且需要设置企业级别默认数据，则需要设置列表型模版数据,数据结构参考“列表型”\n        :params webview: 若type指定为 \"webview\"，且需要设置企业级别默认数据，则需要设置webview型模版数据,数据结构参考“webview型”\n        :return: 接口调用结果\n        \"\"\""
+    ],
+    "functions": [
+        "set_template",
+        "get_template",
+        "set_user_data"
+    ],
+    "classes": [
+        "WeChatWorkBench"
+    ]
+}

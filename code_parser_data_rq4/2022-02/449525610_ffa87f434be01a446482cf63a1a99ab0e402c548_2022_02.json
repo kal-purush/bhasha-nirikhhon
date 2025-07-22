@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "prisma",
+        "sleep",
+        "axios",
+        "Parser",
+        "key",
+        "Parser",
+        "key",
+        "Parser",
+        "sleep3s",
+        "sleep",
+        "prisma",
+        "e",
+        "e",
+        "url",
+        "urls",
+        "axios",
+        "url",
+        "e",
+        "e",
+        "rssParser",
+        "getRes",
+        "e",
+        "e",
+        "parsedFeed",
+        "prisma",
+        "url",
+        "getRes",
+        "updatedFeedCache",
+        "sleep3s"
+    ],
+    "literals": [
+        "'../prisma/PrismaClient'",
+        "'../util/sleep'",
+        "'axios'",
+        "'rss-parser'",
+        "string",
+        "string",
+        "string",
+        "Fetching completed: ${updatedFeedCache.url}"
+    ],
+    "variables": [
+        "rssParser",
+        "sleep3s",
+        "urls",
+        "getRes",
+        "parsedFeed",
+        "updatedFeedCache"
+    ],
+    "comments": [
+        "Heroku Schedulerによって定期実行される関数",
+        "キャッシュするURLの一覧",
+        "url先のデータを取得",
+        "取得した文字列のパースを試みる",
+        "データのパースが失敗したとき",
+        "DBのデータを更新"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

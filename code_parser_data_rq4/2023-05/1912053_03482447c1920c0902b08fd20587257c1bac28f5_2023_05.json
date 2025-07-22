@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "QuickFix",
+        "Fields",
+        "Converters",
+        "i",
+        "i",
+        "i",
+        "Length",
+        "FieldConvertError",
+        "Convert",
+        "ToInt32",
+        "i",
+        "asciiValOfFirstChar",
+        "ASCII_ZERO",
+        "asciiValOfFirstChar",
+        "ASCII_NINE",
+        "asciiValOfFirstChar",
+        "ASCII_MINUS",
+        "FieldConvertError",
+        "i"
+    ],
+    "literals": [
+        "\"The argument string cannot be null or empty\"",
+        "\"Could not convert string to int (\"",
+        "\"): The first character must be a digit or a minus sign\""
+    ],
+    "variables": [
+        "ASCII_ZERO",
+        "ASCII_NINE",
+        "ASCII_MINUS",
+        "asciiValOfFirstChar"
+    ],
+    "comments": [
+        "convert Int64 to/from string",
+        "</summary>",
+        "TODO can we use NumberFormatInfo or NumberStyles to avoid this bit of ASCII hackery?",
+        "Validates that a string looks like number (for use before conversion to an int, ulong, etc.).",
+        "</summary>",
+        "<param name=\"i\"></param>",
+        "<returns></returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Validate"
+    ],
+    "classes": [
+        "AsciiValidator"
+    ]
+}

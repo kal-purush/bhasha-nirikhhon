@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "useCallback",
+        "useEffect",
+        "useMemo",
+        "useState",
+        "TableDensityType",
+        "useUser",
+        "density",
+        "useTableDensity",
+        "useUser",
+        "useState",
+        "userPreferences",
+        "saveTableDensityToUserPreferences",
+        "newDensity",
+        "updateUserPreferences",
+        "newDensity",
+        "reloadUserPreferences",
+        "useEffect",
+        "userPreferences",
+        "tableDensity",
+        "newTableDensity",
+        "_setTableDensity",
+        "newTableDensity",
+        "userPreferences",
+        "useCallback",
+        "density",
+        "_setTableDensity",
+        "density",
+        "saveTableDensityToUserPreferences",
+        "density",
+        "useMemo",
+        "tableDensity",
+        "setTableDensity",
+        "result",
+        "useTableDensity"
+    ],
+    "literals": [
+        "'react'",
+        "'@terraware/web-components/components/table/types'",
+        "'src/providers'",
+        "'tableDensity'",
+        "'comfortable'",
+        "'tableDensity'",
+        "'comfortable'",
+        "'tableDensity'"
+    ],
+    "variables": [
+        "useTableDensity",
+        "tableDensity",
+        "_setTableDensity",
+        "saveTableDensityToUserPreferences",
+        "newTableDensity",
+        "setTableDensity",
+        "result"
+    ],
+    "comments": [
+        "Load table density from userPreference. Set state if different."
+    ],
+    "docstrings": [
+        "* Hook to keep one centralized state for table density. It is synced with user preference in the database, but will\n * update before the API round trip completes."
+    ],
+    "functions": [],
+    "classes": []
+}

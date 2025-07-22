@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "io",
+        "github",
+        "jwharm",
+        "javagi",
+        "org",
+        "gtk",
+        "glib",
+        "GLib",
+        "java",
+        "lang",
+        "foreign",
+        "Addressable",
+        "java",
+        "lang",
+        "foreign",
+        "FunctionDescriptor",
+        "java",
+        "lang",
+        "foreign",
+        "ValueLayout",
+        "java",
+        "lang",
+        "invoke",
+        "MethodHandle",
+        "java",
+        "lang",
+        "Cleaner",
+        "address",
+        "registered",
+        "g_object_unref",
+        "address",
+        "address",
+        "address",
+        "registered",
+        "registered",
+        "GLib",
+        "printerr",
+        "address",
+        "toString",
+        "g_object_unref",
+        "g_object_unref",
+        "Interop",
+        "downcallHandle",
+        "FunctionDescriptor",
+        "ofVoid",
+        "ValueLayout",
+        "ADDRESS",
+        "g_object_unref",
+        "invokeExact",
+        "address",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "\"Unref \"",
+        "\"\\n\"",
+        "\"g_object_unref\"",
+        "\"Unexpected exception occured: \""
+    ],
+    "variables": [
+        "address",
+        "registered",
+        "g_object_unref"
+    ],
+    "comments": [
+        "Method handle that is used for the g_object_unref native call"
+    ],
+    "docstrings": [
+        "* Runnable that is executed by a Cleaner to {@code unref} an object",
+        "* Create a new refCleaner instance that can be registered with a {@link Cleaner}.\n     * @param address memory address of the object instance to be cleaned",
+        "* This function is run by the {@link Cleaner} when an {@link ObjectBase} instance has become unreachable.\n     * If the ownership is set, a call to {@code g_object_unref} is executed."
+    ],
+    "functions": [
+        "RefCleaner",
+        "run"
+    ],
+    "classes": [
+        "RefCleaner"
+    ]
+}

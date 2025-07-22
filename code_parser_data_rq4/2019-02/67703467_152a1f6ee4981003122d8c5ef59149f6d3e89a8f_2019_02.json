@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "_main",
+        "bin_sequence",
+        "bin_array"
+    ],
+    "literals": [
+        "\"0.0.1\"",
+        "\"Paul Brodersen\"",
+        "\"paulbrodersen+ebb@gmail.com\""
+    ],
+    "variables": [
+        "__version__",
+        "__author__",
+        "__email__"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "-*- coding: utf-8 -*-",
+        "entropy_based_binning.py --- Exhaustively search for the highest entropy binning of a sequence of integers.",
+        "Copyright (C) 2016 Paul Brodersen <paulbrodersen+ebb@gmail.com>",
+        "Author: Paul Brodersen <paulbrodersen+ebb@gmail.com>",
+        "This program is free software; you can redistribute it and/or",
+        "modify it under the terms of the GNU General Public License",
+        "as published by the Free Software Foundation; either version 3",
+        "of the License, or (at your option) any later version.",
+        "This program is distributed in the hope that it will be useful,",
+        "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+        "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+        "GNU General Public License for more details.",
+        "You should have received a copy of the GNU General Public License",
+        "along with this program. If not, see <http://www.gnu.org/licenses/>."
+    ],
+    "docstrings": [
+        "\"\"\"\nEntropy-based binning:\n----------------------\n\nExhaustively search for the highest entropy binning of a sequence of integers,\nand apply the binning. Use to bin variables that are\n\n(1) integer (or at least discrete), and\n(2) have a 'natural' order (ordinal).\n\nTypical examples include such things like age, tax bands, etc.\n\nDo not use for binning floats / continuous variables, as there is a\nmuch easier way to find a good binning (i.e. map data points to\nterciles/quartiles/quintiles/percentiles/etc. of the data).\n\nExample:\n--------\n\nimport numpy as np\nimport entropy_based_binning as ebb\n\nA = np.random.randint(0, 5, size=(10, 100))\nB = ebb.bin_array(A, nbins=3, axis=1)\nb = ebb.bin_sequence(A[0], nbins=3)\n\nIf the data is discrete but not integer, map the data to integers first:\n\nD = np.random.choice(np.linspace(0., 1., 11), size=(10, 100))\n_, A = np.unique(D, return_inverse=True)\nA = A.reshape(D.shape)\nB = ebb.bin_array(A, nbins=3, axis=1)\n\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

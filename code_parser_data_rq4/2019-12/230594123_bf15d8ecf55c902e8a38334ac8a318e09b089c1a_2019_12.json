@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "demos",
+        "args",
+        "b",
+        "b",
+        "s",
+        "s",
+        "c",
+        "c"
+    ],
+    "literals": [
+        "\"Hello World\""
+    ],
+    "variables": [],
+    "comments": [
+        "this is single line comment",
+        "public -- so that Jvm can access",
+        "void -- because jvm(interpreter is not going to do anything with a",
+        "returned value+ it's inbuild in interpreter",
+        "to search for main with void as return type",
+        "static Hello.main() without creating object can access main method"
+    ],
+    "docstrings": [
+        "* \n * This is my first java application\n *",
+        "* multi line comment",
+        "* \n\t * This is main method for documentation"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "Hello"
+    ]
+}

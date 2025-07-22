@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "welcomeEl",
+        "greeting",
+        "myName",
+        "welcomeEl",
+        "count",
+        "countEl",
+        "count",
+        "count",
+        "saveEl",
+        "counterSave",
+        "countEl",
+        "count",
+        "saveEl",
+        "countEl",
+        "count"
+    ],
+    "literals": [
+        "\"count-el\"",
+        "\"save\"",
+        "\"welcome-el\"",
+        "\"omar\"",
+        "\"Welcome back \"",
+        "\" \"",
+        "\"👋\"",
+        "\"-\"",
+        "\"Previous entries: \""
+    ],
+    "variables": [
+        "countEl",
+        "count",
+        "saveEl",
+        "welcomeEl",
+        "myName",
+        "greeting",
+        "counterSave"
+    ],
+    "comments": [
+        "Js for the passenger counting app",
+        "get the element via DOM. And trun the lement from 0 to 5.",
+        "document.getElementById(\"count-el\").innerText = 5;",
+        "need to create a variable that will hold the count ( number of passengers)",
+        "let count = 5;",
+        "console.log(count);",
+        "Steps to build the passenger counter app",
+        "intiliase the count as 0 to begin with.",
+        "look for clicks on the button",
+        "increment the button when the button is clicked.",
+        "change the count-el to reflect the new count."
+    ],
+    "docstrings": [],
+    "functions": [
+        "increment",
+        "save",
+        "reset"
+    ],
+    "classes": []
+}

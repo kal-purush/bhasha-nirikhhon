@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "url",
+        "options",
+        "baseURL",
+        "url",
+        "options",
+        "options",
+        "init",
+        "options",
+        "init",
+        "options",
+        "init",
+        "init",
+        "options",
+        "fetch",
+        "url",
+        "init",
+        "responseJsonData",
+        "response",
+        "err",
+        "err",
+        "response",
+        "response",
+        "responseJsonData",
+        "responseJsonData",
+        "responseJsonData",
+        "message",
+        "error",
+        "responseJsonData"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "\"include\"",
+        "${this.baseURL}${url}",
+        "\"something wrong.. 😥\""
+    ],
+    "variables": [
+        "init",
+        "response",
+        "responseJsonData",
+        "message",
+        "error"
+    ],
+    "comments": [
+        "백엔드에서 json포맷으로 보내지 않았거나 상태코드만 보냈을 때",
+        "비정상 상태코드일 때 백엔드에서 보낸 메시지가 없다면 기본 에러메시지를 전달"
+    ],
+    "docstrings": [],
+    "functions": [
+        "request"
+    ],
+    "classes": [
+        "HttpClient"
+    ]
+}

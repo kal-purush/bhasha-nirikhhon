@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [
+        "<label class='sdc-radio-group__legend'>{{legend}}</label>\n<div class='sdc-radio-group__radios {{direction}}'>\n    <template ngFor let-item=\"$implicit\" [ngForOf]=\"options.items\">\n        <div class=\"sdc-radio\">\n            <input\n                type=\"radio\"\n                name=\"{{item.name}}\"\n                value=\"{{item.value}}\"\n                disabled=\"{{disabled || item.disabled || false}}\"\n                (change)=\"onValueChanged(item.value)\"\n                [(ngModel)]=\"value\"\n                />\n            <label class=\"sdc-radio__label\" *ngIf=\"item.label\">{{ item.label }}</label>\n        </div>\n    </template>\n</div>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "freedomTypes",
+        "freedomTypes",
+        "t",
+        "t",
+        "x",
+        "a",
+        "a",
+        "x",
+        "index",
+        "a",
+        "index",
+        "eventTypes_",
+        "eventTypes_",
+        "t",
+        "t",
+        "t",
+        "t",
+        "f",
+        "t",
+        "f",
+        "t",
+        "f",
+        "t",
+        "f",
+        "t",
+        "f",
+        "MockFreedomEventHandler",
+        "f",
+        "t",
+        "MockFreedomEventHandler",
+        "f",
+        "t",
+        "t",
+        "x",
+        "t",
+        "f",
+        "f",
+        "x",
+        "t",
+        "f",
+        "f",
+        "x",
+        "t",
+        "MockFreedomEventHandler"
+    ],
+    "literals": [
+        "'freedom.types'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "index"
+    ],
+    "comments": [
+        "<reference path=\"../typings/freedom-common.d.ts\" />",
+        "A simple mock implementation of the freedom event handler that lets you cause",
+        "fake events. Useful for mocking out freedom freedom modules that will raise",
+        "events.",
+        "off removes the event from both |onHandlerTable_| and |onceHandlerTable_|.",
+        "Note: this is not part of the freedom interface."
+    ],
+    "docstrings": [],
+    "functions": [
+        "removeFromArray_",
+        "on",
+        "once",
+        "off",
+        "fakeAnEvent"
+    ],
+    "classes": [
+        "MockFreedomEventHandler"
+    ]
+}

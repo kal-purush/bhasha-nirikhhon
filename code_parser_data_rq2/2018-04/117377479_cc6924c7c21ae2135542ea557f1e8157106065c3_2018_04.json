@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "name",
+        "name",
+        "name",
+        "balance",
+        "balance",
+        "amount",
+        "amount",
+        "amount",
+        "balance",
+        "amount",
+        "show_balance",
+        "amount",
+        "amount",
+        "balance",
+        "amount",
+        "balance",
+        "amount",
+        "show_balance",
+        "BankAccount",
+        "my_account",
+        "my_account",
+        "show_balance",
+        "my_account",
+        "deposit",
+        "my_account",
+        "withdraw",
+        "my_account",
+        "show_balance"
+    ],
+    "literals": [
+        "\"This account belongs to %s and has $%.2f balance\"",
+        "\"Balance: $%.2f\"",
+        "\"Error, amount must be higher\"",
+        "\"Amount Deposited: $%.2f\"",
+        "\"Error, amount too large\"",
+        "\"Amount Withdrawn: $%.2f\"",
+        "\"Arshad\""
+    ],
+    "variables": [
+        "balance",
+        "name",
+        "my_account"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "__repr__",
+        "show_balance",
+        "deposit",
+        "withdraw"
+    ],
+    "classes": [
+        "BankAccount"
+    ]
+}

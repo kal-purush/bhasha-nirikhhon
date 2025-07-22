@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "org",
+        "yipuran",
+        "gsonhelper",
+        "java",
+        "lang",
+        "annotation",
+        "ElementType",
+        "java",
+        "lang",
+        "annotation",
+        "Retention",
+        "java",
+        "lang",
+        "annotation",
+        "RetentionPolicy",
+        "java",
+        "lang",
+        "annotation",
+        "Target",
+        "Retention",
+        "RetentionPolicy",
+        "RUNTIME",
+        "Target",
+        "ElementType",
+        "FIELD",
+        "Exclude"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* シリアライズ除外アノテーション.\n * <PRE>\n * JSON作成対象のフィールドに付与して、付与したフィールドをJSONシリアライズ対象外にする。\n * 本アノテーションを有効にする為に、GsonBuilder の addSerializationExclusionStrategyで ExcludeWithAnotateStrategy インスタンスを\n * 指定する。\n *      new GsonBuilder().addSerializationExclusionStrategy( new ExcludeWithAnotateStrategy() ).build();\n *\n * ＠Expose の指定による excludeFieldsWithoutExposeAnnotation() と併用した場合、\n * この 除外アノテーションの方が優先され、＠Expose の意味がなくなる。\n * </PRE>\n * @since 4.5"
+    ],
+    "functions": [],
+    "classes": []
+}

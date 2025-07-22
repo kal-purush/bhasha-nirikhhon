@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "HttpClient",
+        "Component",
+        "ActivatedRoute",
+        "switchMap",
+        "HttpExtCacheResponse",
+        "Component",
+        "paramMap",
+        "paramMap",
+        "switchMap",
+        "bookId",
+        "encodeURIComponent",
+        "bookId",
+        "response",
+        "response",
+        "response",
+        "response",
+        "_httpClient",
+        "_activatedRoute"
+    ],
+    "literals": [
+        "'@angular/common/http'",
+        "'@angular/core'",
+        "'@angular/router'",
+        "'rxjs/operators'",
+        "'@http-ext/plugin-cache'",
+        "<a routerLink=\"/\">Back to the list</a>\n    <div\n      *ngIf=\"book$ | async as book\"\n      [class.is-from-cache]=\"isFromCache$ | async\"\n    >\n      {{ book.volumeInfo.title }}\n    </div>",
+        "'bookId'",
+        "https://www.googleapis.com/books/v1/volumes/${encodeURIComponent(\n          bookId\n        )}",
+        "'__http-ext-metadata'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "BookDetailComponent"
+    ]
+}

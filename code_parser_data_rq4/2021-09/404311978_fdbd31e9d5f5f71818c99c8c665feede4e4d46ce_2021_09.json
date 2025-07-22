@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "lazy",
+        "lazy",
+        "lazy",
+        "lazy",
+        "lazy",
+        "lazy",
+        "lazy",
+        "lazy",
+        "lazy",
+        "lazy",
+        "lazy"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"/dashboard\"",
+        "\"@linvoice/components/pages/Dashboard\"",
+        "\"/forms\"",
+        "\"@linvoice/components/pages/Forms\"",
+        "\"/cards\"",
+        "\"@linvoice/components/pages/Cards\"",
+        "\"/charts\"",
+        "\"@linvoice/components/pages/Charts\"",
+        "\"/buttons\"",
+        "\"@linvoice/components/pages/Buttons\"",
+        "\"/modals\"",
+        "\"@linvoice/components/pages/Modals\"",
+        "\"/tables\"",
+        "\"@linvoice/components/pages/Tables\"",
+        "\"/404\"",
+        "\"@linvoice/components/pages/404\"",
+        "\"/blank\"",
+        "\"@linvoice/components/pages/Blank\"",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "view rendered"
+    ],
+    "docstrings": [
+        "* ⚠ These are internal routes!\n * They will be rendered inside the app, using the default `containers/Layout`.\n * If you want to add a route to, let's say, a landing page, you should add\n * it to the `App`'s router, exactly like `Login`, `CreateAccount` and other pages\n * are routed.\n *\n * If you're looking for the links rendered in the SidebarContent, go to\n * `routes/sidebar.js`\n *\n * NOTE: use lazy for better code splitting, a.k.a. load faster"
+    ],
+    "functions": [],
+    "classes": []
+}

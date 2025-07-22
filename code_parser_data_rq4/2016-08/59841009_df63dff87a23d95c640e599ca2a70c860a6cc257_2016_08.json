@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Component",
+        "Component",
+        "e",
+        "alert",
+        "e",
+        "name",
+        "name"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'sample-app'",
+        "<!-- use the custom element! -->\n      <custom-element [username]=\"username\" (selected)=\"onSelected($event)\"></custom-element>\n        \n      <br>\n      \n      <div>The Angular2 App</div>\n      <button (click)=\"changeName('Danny')\">Danny</button>\n      <button (click)=\"changeName('Erik')\">Erik</button>",
+        "'Danny'",
+        "'This is being called from the angular component. '",
+        "' Selected'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "onSelected",
+        "changeName"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

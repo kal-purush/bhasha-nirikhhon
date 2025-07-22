@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "org",
+        "roaringbitmap",
+        "bsi",
+        "java",
+        "io",
+        "DataOutput",
+        "java",
+        "io",
+        "java",
+        "nio",
+        "ByteBuffer",
+        "java",
+        "util",
+        "BitmapSliceIndex",
+        "Operation",
+        "EQ",
+        "NEQ",
+        "LE",
+        "LT",
+        "GE",
+        "GT",
+        "RANGE",
+        "columnId",
+        "value",
+        "columnId",
+        "values",
+        "currentMaxValue",
+        "currentMinValue",
+        "buffer",
+        "output"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "EQ equal",
+        "NEQ not equal",
+        "LE less than or equal",
+        "LT less than",
+        "GE greater than or equal",
+        "GT greater than",
+        "RANGE range"
+    ],
+    "docstrings": [
+        "* BitSliceIndex\n * bit slice index can be used to\n *    1. store high cardinality dim column for OLAP system.\n *    2. high compression ratio for number\n * Given that,we have a table T(c1,c2,c3....Cn). As we know,most database has rowId for each row.\n * then table T is actually  T(rowId,c1,c2,c3,Cn).\n * 1. if column c1 is string, we can encode c1 using dictionary. By bsi, \n * we can only use 33 bit slice express 2^32 cardinality dim.\n * 2. if column c2 is int32(that is 4Byte), for 1_000_000 rows, the size \n * of c2 is more than 3.81MB. however,\n * by bsi, the size might be less than 1MB.\n *",
+        "* set value for bsi, setValue will set each bit slice according to the input value\n   * given that we have bsi as follow\n   * ebm:  RB[1 1 1 1]\n   * slice0: RB[0 1 0 1]   -\n   * slice1: RB[1 0 1 0]  |\n   * slice2: RB[1 0 0 1]  |--bA:bit slice Array\n   * slice3: RB[0 0 0 1]   -\n   *      1 2 3 4\n   *      |\n   *      ---------------- columnId or rowId\n   *  for columnId 1, the value is 110 that is :6\n   *  for columnId 2, the value is 1 that is :1\n   *  for columnId 3, the value is 10 that is :2\n   *  for columnId 4, the value is 1101 that is :11\n   *\n   * @param columnId   columnId or rowId\n   * @param value    value for this columnId or rowId",
+        "*\n   * @param columnId columnId or rowId\n   * @return the value of this columnId",
+        "* setValues will batch set value for this bsi.\n   * currentMaxValue/currentMinValue are optional,it's can be compute from input value list.\n   * and avoiding bsi expend slice array capacity."
+    ],
+    "functions": [
+        "bitCount",
+        "getLongCardinality",
+        "setValue",
+        "getValue",
+        "setValues",
+        "serialize",
+        "serialize",
+        "serializedSizeInBytes"
+    ],
+    "classes": []
+}

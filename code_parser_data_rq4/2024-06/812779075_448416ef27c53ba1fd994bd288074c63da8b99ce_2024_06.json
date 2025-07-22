@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "precio",
+        "precioSpan",
+        "cantidadSpan",
+        "botonIncrementar",
+        "botonDisminuir",
+        "valorTotalSpan",
+        "precioSpan",
+        "precio",
+        "cantidadSpan",
+        "valorTotalSpan",
+        "botonIncrementar",
+        "cantidad",
+        "cantidadSpan",
+        "cantidad",
+        "cantidadSpan",
+        "cantidad",
+        "actualizarTotal",
+        "botonDisminuir",
+        "cantidad",
+        "cantidadSpan",
+        "cantidad",
+        "cantidad",
+        "cantidadSpan",
+        "cantidad",
+        "actualizarTotal",
+        "cantidad",
+        "cantidadSpan",
+        "total",
+        "cantidad",
+        "precio",
+        "valorTotalSpan",
+        "total"
+    ],
+    "literals": [
+        "\".precio-inicial\"",
+        "\".cantidad\"",
+        "\".boton-incrementar\"",
+        "\".boton-disminuir\"",
+        "\".valor-total\"",
+        "\"click\"",
+        "\"click\""
+    ],
+    "variables": [],
+    "comments": [
+        "Seleccion de todos los elementos que interactuan",
+        "Asignacion de valores a las variables",
+        "Funcion para incrementar el contador de cantidad al hacer click",
+        "Al hacer click, crea la variable cantidad, a la cual se le asigna el valor del elemento HTML como tipo Number",
+        "La variable cantidad se incrementa en 1",
+        "Se le asigna al elemento HTML el valor de la variable cantidad con el incremento",
+        "Invoca la funcion actualizar total",
+        "Funcion para disminuir el contador de cantidad al hacer click",
+        "El if controla que la disminucion de la cantidad no sea menor que 0",
+        "Funcion para actualizar el total a pagar"
+    ],
+    "docstrings": [],
+    "functions": [
+        "actualizarTotal"
+    ],
+    "classes": []
+}

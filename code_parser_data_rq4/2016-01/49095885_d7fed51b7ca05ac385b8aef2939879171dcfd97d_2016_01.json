@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "NgFor",
+        "Component",
+        "Input"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/common'",
+        "'img-displayer'",
+        "<div class=\"media\" *ngFor=\"#image of images\">\n      <div class=\"media-left\">\n        <a href=\"#\">\n          <img class=\"media-object\" src=\"{{ image.path }}\" style=\"max-width:200px\">\n        </a>\n      </div>\n      <div class=\"media-body\">\n        <h4 class=\"media-heading\">{{ image.name }}</h4>\n        <p>{{ image.size }} bytes</p>\n      </div>\n    </div>"
+    ],
+    "variables": [],
+    "comments": [
+        "@Input() images: Array<Object>;"
+    ],
+    "docstrings": [
+        "* Created by sangress on 1/5/16."
+    ],
+    "functions": [],
+    "classes": [
+        "ImgDisplayer"
+    ]
+}

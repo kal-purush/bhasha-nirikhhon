@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "subprocess",
+        "PyInstaller",
+        "pyi_main",
+        "tmp_path",
+        "tmp_path",
+        "tmp_path",
+        "tmp_path",
+        "app_name",
+        "app",
+        "write_text",
+        "join",
+        "TEST_CODE",
+        "workpath",
+        "distpath",
+        "tmp_path",
+        "app",
+        "pyi_main",
+        "run",
+        "args",
+        "subprocess",
+        "run",
+        "distpath",
+        "app_name",
+        "app_name",
+        "check"
+    ],
+    "literals": [
+        "\"import ScoutSuite.api_run\"",
+        "\"from ScoutSuite.providers.aws.provider import AWSProvider\"",
+        "\"\"",
+        "\"cloud_type = 'aws'\"",
+        "\"ScoutSuite.api_run.run(provider=cloud_type,\"",
+        "\"aws_access_key_id='abc',\"",
+        "\"aws_secret_access_key='abc',\"",
+        "\"aws_session_token='abc')\"",
+        "\"ScoutSuiteApp\"",
+        "\"build\"",
+        "\"dist\"",
+        "\".py\"",
+        "\"\\n\"",
+        "'--workpath'",
+        "'--distpath'",
+        "'--specpath'",
+        "'--additional-hooks-dir'",
+        "'C:\\\\Users\\\\Vakaris\\\\Desktop\\\\ScoutSuite\\\\ScoutSuite\\\\__pyinstaller'",
+        "'--clean'"
+    ],
+    "variables": [
+        "TEST_CODE",
+        "app_name",
+        "workpath",
+        "distpath",
+        "app",
+        "args"
+    ],
+    "comments": [
+        "Tests",
+        "=====",
+        "Test out the package by importing it, then running functions from it.",
+        "Place all generated files in ``tmp_path``."
+    ],
+    "docstrings": [],
+    "functions": [
+        "test_pyinstaller_scoutsuite"
+    ],
+    "classes": []
+}

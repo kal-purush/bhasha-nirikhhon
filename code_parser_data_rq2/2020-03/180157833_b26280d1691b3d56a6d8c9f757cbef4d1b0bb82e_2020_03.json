@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Injectable",
+        "ApplicationRef",
+        "BehaviorSubject",
+        "interval",
+        "concat",
+        "first",
+        "Injectable",
+        "BehaviorSubject",
+        "value",
+        "value",
+        "BehaviorSubject",
+        "value",
+        "value",
+        "BehaviorSubject",
+        "appRef"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'rxjs'",
+        "'rxjs/operators'",
+        "'root'"
+    ],
+    "variables": [],
+    "comments": [
+        "import { Platform } from '@angular/cdk/platform';",
+        "import { SwUpdate } from '@angular/service-worker';",
+        "get touchUI(): boolean {\n    return this.platform.ANDROID || this.platform.IOS;\n  }",
+        "public platform: Platform,",
+        "private updates: SwUpdate,",
+        "const appIsStable$ = appRef.isStable.pipe(first(isStable => isStable === true));\n    const intervalMs = 45 * 60 * 10000; // 45 minutes\n    const interval$ = interval(intervalMs); // every 15 minutes\n    const intervalAppIsStable$ = concat(appIsStable$, interval$);\n    if (updates.isEnabled) {\n      intervalAppIsStable$.subscribe(() => updates.checkForUpdate());\n    }\n    updates.available.subscribe(_ => this.newVersionAvailable$.next(true));",
+        "if (!this.updates.isEnabled) {\n      return;\n    }\n    this.updates.activateUpdate()\n    .then(\n      () => document.location.reload()\n    );"
+    ],
+    "docstrings": [],
+    "functions": [
+        "loading",
+        "loading",
+        "mobileView",
+        "mobileView",
+        "newVersionAvailable",
+        "installUpdates"
+    ],
+    "classes": [
+        "AppService"
+    ]
+}

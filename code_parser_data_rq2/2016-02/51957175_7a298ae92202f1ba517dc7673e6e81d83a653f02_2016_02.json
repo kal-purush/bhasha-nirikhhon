@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "Component",
+        "Member",
+        "MemberDetailsComponent",
+        "MemberListComponent",
+        "Component",
+        "MemberDetailsComponent",
+        "MemberListComponent"
+    ],
+    "literals": [
+        "\"angular2/core\"",
+        "\"../Member\"",
+        "\"../member-details/member-details.component\"",
+        "\"../member-list/member-list.component\"",
+        "\"list-view\"",
+        "<member-list (onSelectMember)=\"selectedMember = $event\"></member-list>\n    <member-details [member]=\"selectedMember\"></member-details>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "ListenViewComponent"
+    ]
+}

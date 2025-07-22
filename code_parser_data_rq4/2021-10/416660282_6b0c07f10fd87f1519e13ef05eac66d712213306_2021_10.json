@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "com",
+        "company",
+        "radius",
+        "color",
+        "radius",
+        "radius",
+        "radius",
+        "radius",
+        "area",
+        "pow",
+        "radius",
+        "PI",
+        "area"
+    ],
+    "literals": [
+        "\"red\""
+    ],
+    "variables": [],
+    "comments": [
+        "public double getRadius(){",
+        "return this.radius;",
+        "}",
+        "",
+        "public double getArea(){",
+        "double area = Math.pow(this.radius,2) * Math.PI;",
+        "return area;",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Circle",
+        "Circle",
+        "getRadius",
+        "getArea"
+    ],
+    "classes": [
+        "Circle"
+    ]
+}

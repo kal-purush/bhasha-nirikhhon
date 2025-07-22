@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "ftplib",
+        "FTP",
+        "FTP",
+        "ftp",
+        "login",
+        "ftp",
+        "cwd",
+        "ftp",
+        "retrlines",
+        "ftp",
+        "quit"
+    ],
+    "literals": [
+        "'ftp.ebi.ac.uk/pub/databases/opentargets/platform/23.02/output/etl/parquet/targets'",
+        "'targets'",
+        "'LIST'"
+    ],
+    "variables": [
+        "ftp"
+    ],
+    "comments": [
+        "https://stackoverflow.com/questions/2605119/downloading-a-directory-tree-with-ftplib",
+        "connect to host, default port",
+        "user anonymous, passwd anonymous@",
+        "change into \"debian\" directory",
+        "list directory contents",
+        "with open('README', 'wb') as fp:",
+        "ftp.retrbinary('RETR README', fp.write)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "usb_hid",
+        "gc",
+        "time",
+        "report_code",
+        "rel",
+        "slp",
+        "kbd",
+        "send_report",
+        "report_code",
+        "time",
+        "sleep",
+        "slp",
+        "rel",
+        "kbd",
+        "send_report",
+        "time",
+        "sleep",
+        "gc",
+        "collect",
+        "device",
+        "device",
+        "usb_hid",
+        "devices",
+        "device",
+        "usage_page",
+        "device",
+        "usage",
+        "hasattr",
+        "device"
+    ],
+    "literals": [
+        "\"send_report\""
+    ],
+    "variables": [
+        "kbd"
+    ],
+    "comments": [
+        "simulates a key press by sending an 8 byte long report with certain criteria",
+        "not calling recursively because of garbage collection",
+        "this takes a couple milliseconds to complete, but the USB pulling rate is 1000HZ so it doesn't make a noticable difference in the grand scheme of things",
+        "hehe global data go brrrrrrrrrrrrrr"
+    ],
+    "docstrings": [],
+    "functions": [
+        "report"
+    ],
+    "classes": []
+}

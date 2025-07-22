@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "vscode",
+        "fs",
+        "WorkspaceContext",
+        "configuration",
+        "contextKeys",
+        "configuration",
+        "workspace",
+        "quiet",
+        "configuration",
+        "useCustom",
+        "configuration",
+        "workspace",
+        "lldbDebugAdapterPath",
+        "quiet",
+        "vscode",
+        "useCustom",
+        "workspace",
+        "lldbDebugAdapterPath",
+        "contextKeys",
+        "contextKeys",
+        "path",
+        "fs",
+        "path",
+        "e"
+    ],
+    "literals": [
+        "\"vscode\"",
+        "\"fs\"",
+        "\"../WorkspaceContext\"",
+        "\"../configuration\"",
+        "\"../contextKeys\"",
+        "string",
+        "\"swift-lldb\"",
+        "\"lldb\"",
+        "\"lldb-vscode\"",
+        "\"Cannot find lldb-vscode debug adapter specified in setting Swift.Debugger.Path.\"",
+        "\"Cannot find lldb-vscode debug adapter in your Swift toolchain.\"",
+        "Failed to find ${lldbDebugAdapterPath}",
+        "string"
+    ],
+    "variables": [
+        "useCustom",
+        "lldbDebugAdapterPath"
+    ],
+    "comments": [
+        "===----------------------------------------------------------------------===//",
+        "",
+        "This source file is part of the VSCode Swift open source project",
+        "",
+        "Copyright (c) 2023 the VSCode Swift project authors",
+        "Licensed under Apache License v2.0",
+        "",
+        "See LICENSE.txt for license information",
+        "See CONTRIBUTORS.txt for the list of VSCode Swift project authors",
+        "",
+        "SPDX-License-Identifier: Apache-2.0",
+        "",
+        "===----------------------------------------------------------------------===//",
+        "Debug adapter name"
+    ],
+    "docstrings": [
+        "* Class managing which debug adapter we are using. Will only setup lldb-vscode if it is available.",
+        "* Verify that the toolchain debug adapter exists\n     * @param workspace WorkspaceContext\n     * @param quiet Should dialog be displayed\n     * @returns Is debugger available"
+    ],
+    "functions": [
+        "adapterName",
+        "verifyDebugAdapterExists",
+        "doesFileExist"
+    ],
+    "classes": [
+        "DebugAdapter"
+    ]
+}

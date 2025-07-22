@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Message",
+        "messageType",
+        "implementation",
+        "message",
+        "sender",
+        "messageType",
+        "destination",
+        "body",
+        "messageType",
+        "body"
+    ],
+    "literals": [
+        "\"../models/message\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Peer interface.",
+        "* Register custom receiver handlers.\n     *\n     * @param messageType - The messageType that the receiver handles\n     * @param implementation - The implementation of the receiver handler\n     *                         The implementation should be a void that receives the following arguments:\n     *                              message - The message\n     *                              sender - The IP of the message sender",
+        "* Send a message to the given destination.\n     *\n     * @param messageType - The message type\n     * @param destination - The destination ip\n     * @param [body] - The message body",
+        "* Send a broadcast to the network.\n     *\n     * @param messageType - The message type\n     * @param [body] - The message body",
+        "* Leave the network."
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "FlattenSimpleInterpolation",
+        "styled",
+        "COLOR",
+        "styled",
+        "COLOR",
+        "cssStyles"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'styled-components/native'",
+        "'@theme/colors'",
+        "flex: 1;\n    width: 100%;\n    padding-horizontal: 24px;\n    padding-top: 24px;\n    padding-bottom: 40px;\n    background-color: ${COLOR.background.white};\n    border-top-left-radius: 18px;\n    border-top-right-radius: 18px;\n\n    ${({ cssStyles }) => cssStyles}"
+    ],
+    "variables": [
+        "LayoutMainSectionStyled"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

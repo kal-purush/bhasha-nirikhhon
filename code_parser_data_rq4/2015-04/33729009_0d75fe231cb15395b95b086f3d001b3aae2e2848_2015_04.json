@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "FPS",
+        "enterFrame",
+        "enterFrame",
+        "startTime",
+        "MSPF",
+        "deltaTime",
+        "interval",
+        "setTimeout",
+        "mainLoop",
+        "enterFrame",
+        "interval",
+        "mainLoop",
+        "enterFrame"
+    ],
+    "literals": [
+        "\"use strict\""
+    ],
+    "variables": [
+        "FPS",
+        "MSPF",
+        "startTime",
+        "deltaTime",
+        "interval"
+    ],
+    "comments": [
+        "メインループ - 60 FPS のゲームの場合約 17 ms",
+        "実行環境によってゲーム速度が変化するので、それを整えるためのFPS",
+        "処理",
+        "処理の経過時間",
+        "次のループまでのintervalを算出",
+        "interval分を待つ",
+        "次の処理へ"
+    ],
+    "docstrings": [],
+    "functions": [
+        "mainLoop"
+    ],
+    "classes": []
+}

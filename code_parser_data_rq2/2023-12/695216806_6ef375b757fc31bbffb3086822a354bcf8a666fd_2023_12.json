@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "org",
+        "dromara",
+        "x",
+        "file",
+        "storage",
+        "core",
+        "platform",
+        "lombok",
+        "AllArgsConstructor",
+        "lombok",
+        "Data",
+        "lombok",
+        "NoArgsConstructor",
+        "lombok",
+        "experimental",
+        "Accessors",
+        "Data",
+        "Accessors",
+        "chain",
+        "NoArgsConstructor",
+        "AllArgsConstructor",
+        "isSupport",
+        "isSupportListParts",
+        "isSupportAbort",
+        "listPartsSupportMaxParts"
+    ],
+    "literals": [],
+    "variables": [
+        "isSupport",
+        "isSupportListParts",
+        "isSupportAbort",
+        "listPartsSupportMaxParts"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* 手动分片上传支持信息",
+        "* 是否支持手动分片上传，正常情况下判断此参数就行了",
+        "* 是否支持列举已上传的分片，又拍云 USS 不支持，建议将上传完成的分片信息通过 FileRecorder 接口保存到数据库，\n     * 详情：https://x-file-storage.xuyanwu.cn/#/%E5%9F%BA%E7%A1%80%E5%8A%9F%E8%83%BD?id=%E4%BF%9D%E5%AD%98%E4%B8%8A%E4%BC%A0%E8%AE%B0%E5%BD%95",
+        "* 是否支持取消上传，\n     * 又拍云 USS 不支持手动取消，未完成上传的文件信息及分片默认 24 小时后自动删除",
+        "* 手动分片上传-列举已上传的分片-每次获取的最大分片数，对象存储一般是 1000",
+        "* 不支持手动分片上传",
+        "* 支持全部的手动分片上传功能"
+    ],
+    "functions": [
+        "MultipartUploadSupportInfo",
+        "notSupport",
+        "MultipartUploadSupportInfo",
+        "supportAll"
+    ],
+    "classes": [
+        "MultipartUploadSupportInfo"
+    ]
+}

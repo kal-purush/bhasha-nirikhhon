@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "options",
+        "input",
+        "options",
+        "input",
+        "options",
+        "input",
+        "options",
+        "input",
+        "options",
+        "input",
+        "options",
+        "input",
+        "options",
+        "input",
+        "options",
+        "defaultOptions",
+        "ky"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "ky"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Before the request is sent.\n\t *\n\t * @default []",
+        "* Options are the same as fetch, with some exceptions.",
+        "* Numer of times to retry failed requests.\n\t *\n\t * @default 2",
+        "* Timeout in milliseconds for getting a response.\n\t *\n\t * @default 10000",
+        "* Shortcut for sending JSON. Use this instead of the `body` option.",
+        "* Hooks allow modifications during the request lifecycle. Hook functions may be async and are run serially.",
+        "* Throw a `HTTPError` for error responses (non-2xx status codes).\n\t *\n\t * @default true",
+        "* Returns a `Response` object with `Body` methods added for convenience.",
+        "* The error has a response property with the `Response` object.",
+        "* The error thrown when the request times out.",
+        "* Same as fetch.\n\t *\n\t * @param input - Request object or URL string.\n\t * @returns Promise with `Body` method added.",
+        "* Same as fetch's `get()` method.\n\t *\n\t * @param input - Request object or URL string.\n\t * @returns Promise with `Body` method added.",
+        "* Same as fetch's `post()` method.\n\t *\n\t * @param input - Request object or URL string.\n\t * @returns Promise with `Body` method added.",
+        "* Same as fetch's `put()` method.\n\t *\n\t * @param input - Request object or URL string.\n\t * @returns Promise with `Body` method added.",
+        "* Same as fetch's `patch()` method.\n\t *\n\t * @param input - Request object or URL string.\n\t * @returns Promise with `Body` method added.",
+        "* Same as fetch's `head()` method.\n\t *\n\t * @param input - Request object or URL string.\n\t * @returns Promise with `Body` method added.",
+        "* Same as fetch's `delete()` method.\n\t *\n\t * @param input - Request object or URL string.\n\t * @returns Promise with `Body` method added.",
+        "* Create a new Ky instance with some defaults overridden with your own.\n\t *\n\t * @returns New Ky instance"
+    ],
+    "functions": [],
+    "classes": [
+        "HTTPError",
+        "TimeoutError"
+    ]
+}

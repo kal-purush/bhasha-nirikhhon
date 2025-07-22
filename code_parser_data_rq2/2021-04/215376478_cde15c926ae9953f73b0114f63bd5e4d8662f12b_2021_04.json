@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "MaxLength",
+        "IsListEmpty",
+        "ValidateEmailList",
+        "FindDuplicateEmails",
+        "InputType",
+        "Field",
+        "InputType",
+        "Field",
+        "IsListEmpty",
+        "ValidateEmailList",
+        "FindDuplicateEmails",
+        "Field",
+        "MaxLength",
+        "Field"
+    ],
+    "literals": [
+        "'class-validator'",
+        "'./validators/isListEmpty'",
+        "'./validators/validateEmailList'",
+        "'./validators/findDuplicateEmails'",
+        "'type-graphql'",
+        "'email list cannot be empty'",
+        "'list contains invalid email'",
+        "'list contains one or more duplicate emails'",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "@TODO create custom validator to verify all emails belong to registered users",
+        "@TODO create custom validator to verify user sending email is authenticated"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "SendEmailInputs"
+    ]
+}

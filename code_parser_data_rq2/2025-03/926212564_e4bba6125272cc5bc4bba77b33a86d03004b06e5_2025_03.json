@@ -1,0 +1,13 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    create_ddl ::= 'CREATE' <object_type> ...\n    create_table ::= 'CREATE' 'TABLE' <entity_name> '(' <table_item_definition> [',' ...] ')'\n    entity_name ::= ['['] <literal> [']']\n    table_item_definition ::= <field_definition> | <constraint_definition> | <index_definition>\n    field_definition ::= <entity_name> <field_type> [(<size>[,<precision>])] ['NULL' | 'NOT NULL'] ['DEFAULT(' <default> ')'] ['PRIMARY KEY'] [<field_index_definition>]\n    size ::= <integer>\n    precision ::= <integer>\n    default ::= [''''] <literal> ['''']\n    field_index_definition ::= 'INDEX' <entity_name> ['CLUSTERED' | 'NONCLUSTERED']\n    index_definition ::= <field_index_definition> '(' <entity_name> [',' <entity_name> ...] ')'\n    alter_ddl ::= 'ALTER' <object_type> ...\n    alter_table ::= 'ALTER' 'TABLE' <entity_name> ['ADD' <entity_name> <field_type> [(<size>[,<precision>])] ['NULL' | 'NOT NULL'] ['DEFAULT(' <default> ')']] ['DROP' 'COLUMN' <entity_name>] ['ALTER' 'COLUMN' <entity_name> <field_type> [(<size>[,<precision>])] ['NULL' | 'NOT NULL'] ['DEFAULT(' <default> ')']]\n    \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "MsSqlDdlParser"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "Input",
+        "acceleration",
+        "y",
+        "Input",
+        "acceleration",
+        "z",
+        "spaceship",
+        "transform",
+        "Rotate",
+        "Vector3",
+        "y",
+        "z",
+        "Input",
+        "touchCount",
+        "Input",
+        "GetTouch",
+        "phase",
+        "TouchPhase",
+        "Moved",
+        "Input",
+        "GetTouch",
+        "deltaPosition",
+        "touchDelta",
+        "y",
+        "spaceship",
+        "transform",
+        "Translate",
+        "Vector3",
+        "forward",
+        "speed",
+        "maxSpeed"
+    ],
+    "literals": [],
+    "variables": [
+        "GameObject",
+        "spaceship",
+        "maxSpeed",
+        "y",
+        "z",
+        "Vector2",
+        "touchDelta",
+        "speed"
+    ],
+    "comments": [
+        "Use this for initialization",
+        "Update is called once per frame",
+        "ROTATION //",
+        "y is mapped as pitch",
+        "z is mapped as yaw",
+        "no need for roll in our implementation",
+        "wlog we can keep the spaceship upright at all times",
+        "SPEED //",
+        "get movement of finger since last frame",
+        "because of the orientation of our input devices vs Unity's default orientation, the y axis encodes",
+        "speed and we need to subtract it from 1",
+        "speed * maxSpeed now defines the speed of the spaceship",
+        "move spaceship along its forward axis"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update"
+    ],
+    "classes": [
+        "AccelerometerInput"
+    ]
+}

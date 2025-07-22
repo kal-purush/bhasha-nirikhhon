@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "form",
+        "e",
+        "e",
+        "form",
+        "form",
+        "form",
+        "form",
+        "form",
+        "form",
+        "fetch",
+        "data",
+        "response",
+        "error",
+        "error",
+        "setTimeout",
+        "fetch",
+        "response",
+        "response",
+        "data",
+        "itinerary",
+        "data"
+    ],
+    "literals": [
+        "\"itinerary-form\"",
+        "\"itinerary\"",
+        "\"submit\"",
+        "'destination'",
+        "'pax'",
+        "'dept_date'",
+        "'arrival_date'",
+        "'type_of_trip'",
+        "'budget'",
+        "'http://127.0.0.1:8000/api/submit_data/'",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'",
+        "\"status of post is\"",
+        "\"An error occurred, Unable to submit data\"",
+        "'http://127.0.0.1:8000/api/get_itinerary/'"
+    ],
+    "variables": [
+        "form",
+        "itinerary",
+        "data",
+        "response"
+    ],
+    "comments": [
+        "collect data from form",
+        "console.log('data=',data)",
+        "sending data to server",
+        "This ensures the server knows it's JSON",
+        "Ensure formData is serialized to JSON",
+        ".then(data=>console.log('returned json is=',data))",
+        "fetching response from server"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

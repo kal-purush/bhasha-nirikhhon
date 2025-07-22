@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "useRouter",
+        "useDispatch",
+        "useSelector",
+        "useState",
+        "removeToken",
+        "showToast",
+        "ROUTES",
+        "logOut",
+        "AppDispatch",
+        "authService",
+        "useState",
+        "useRouter",
+        "useDispatch",
+        "useSelector",
+        "state",
+        "state",
+        "handleLogout",
+        "setLoading",
+        "authService",
+        "token",
+        "refreshToken",
+        "removeToken",
+        "dispatch",
+        "logOut",
+        "showToast",
+        "router",
+        "ROUTES",
+        "error",
+        "error",
+        "showToast",
+        "setLoading"
+    ],
+    "literals": [
+        "'next/navigation'",
+        "'react-redux'",
+        "'react'",
+        "'@/lib/auth'",
+        "'@/components/ui/toastify'",
+        "'@/constants/route'",
+        "'@/store/features/auth/authSlide'",
+        "'@/store/store'",
+        "'@/services/authService'",
+        "'Đăng xuất thành công!'",
+        "'success'",
+        "'Logout failed:'",
+        "'Đăng xuất thất bại. Vui lòng thử lại.'",
+        "'error'"
+    ],
+    "variables": [
+        "loading",
+        "setLoading",
+        "router",
+        "dispatch",
+        "handleLogout"
+    ],
+    "comments": [
+        "Thêm useSelector để lấy state từ Redux",
+        "Lấy token từ Redux state",
+        "Gọi API logout và truyền token vào header và body",
+        "Gửi token vào yêu cầu logout",
+        "Xoá token local",
+        "Cập nhật Redux",
+        "Hiển thị thông báo",
+        "Điều hướng"
+    ],
+    "docstrings": [],
+    "functions": [
+        "useLogout"
+    ],
+    "classes": []
+}

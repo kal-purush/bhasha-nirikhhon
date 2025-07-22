@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Component",
+        "Output",
+        "Input",
+        "EventEmitter",
+        "Todo",
+        "Component",
+        "Output",
+        "EventEmitter"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"../common/interfaces\"",
+        "'filter-select'",
+        "<div>\n        <select #selectList (change)=\"filterSelect.emit(selectList.value)\">\n            <option *ngFor=\"let filter of filters\" value=\"{{filter.action}}\">\n                {{filter.friendly}}\n            </option>\n        </select>\n      </div>",
+        "\"All\"",
+        "'SHOW_ALL'",
+        "\"Completed\"",
+        "'SHOW_COMPLETED'",
+        "\"Active\"",
+        "'SHOW_ACTIVE'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "FilterSelect"
+    ]
+}

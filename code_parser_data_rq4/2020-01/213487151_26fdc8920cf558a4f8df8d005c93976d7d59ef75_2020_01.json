@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "encodeURIComponent",
+        "encodeURIComponent",
+        "username",
+        "password",
+        "clusterUrl",
+        "authMechanism",
+        "clientPEMFile",
+        "MongoClient",
+        "uri",
+        "client",
+        "client",
+        "client",
+        "run"
+    ],
+    "literals": [
+        "\"mongodb\"",
+        "\"fs\"",
+        "\"<username>\"",
+        "\"<password>\"",
+        "\"<MongoDB cluster url>\"",
+        "mongodb+srv://${username}:${password}@${clusterUrl}/?authMechanism=${authMechanism}&tls=true&tlsCertificateKeyFile=${clientPEMFile}",
+        "\"admin\"",
+        "\"Connected successfully to server\""
+    ],
+    "variables": [
+        "fs",
+        "username",
+        "password",
+        "clusterUrl",
+        "uri",
+        "client"
+    ],
+    "comments": [
+        "ignored first line",
+        "specify the placeholder values for your environment in the following lines",
+        "Replace the following with your MongoDB deployment's connection",
+        "string.",
+        "Create a new MongoClient",
+        "Function to connect to the server",
+        "Connect the client to the server",
+        "Establish and verify connection",
+        "Ensures that the client will close when you finish/error"
+    ],
+    "docstrings": [],
+    "functions": [
+        "run"
+    ],
+    "classes": []
+}

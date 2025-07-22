@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "IPageJson",
+        "ILinkToken",
+        "ApiKind",
+        "React"
+    ],
+    "literals": [
+        "'office-ui-fabric-react/lib/common/DocPage.types'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "Table title to show in UI.",
+        "Item name, no spaces. Only used as ID for table header.",
+        "@deprecated Use `renderAs`",
+        "@deprecated Use `renderAs`",
+        "@deprecated Use `renderAs`",
+        "Generic API item. Don't use directly.",
+        "Class method"
+    ],
+    "docstrings": [
+        "* Props for the ApiReferencesTableSet",
+        "* A json object to populate the table",
+        "* If true (the default), listen for hash changes and if the hash includes an API element\n   * rendered by this component, jump to it (expanding the \"see more\" section if needed).\n   * If false, the component will still listen to hash changes and expand the \"see more\"\n   * section if needed, but it won't jump.\n   * @defaultvalue true",
+        "* Info about a top-level API object such as a class, interface, enum, or type alias.\n * @deprecated Use `IApiReferencesTableProps`",
+        "* Props for a table about a top-level API object such as a class, interface, enum, or type alias."
+    ],
+    "functions": [],
+    "classes": []
+}

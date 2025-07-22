@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "schema",
+        "format",
+        "schema",
+        "schema",
+        "query"
+    ],
+    "literals": [],
+    "variables": [
+        "query"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"SELECT array_to_json(array_agg(features)) AS features\n                    FROM (\n                    \tSELECT f AS features\n                    \tFROM (\n                    \t\tSELECT 'Feature' AS type\n                    \t\t\t,ST_AsGeoJSON(poligono_creado)::json AS geometry\n                    \t\t\t,row_to_json((\n                    \t\t\t\t\tSELECT l\n                    \t\t\t\t\tFROM (\n                    \t\t\t\t\t\tSELECT t_id AS t_id\n                    \t\t\t\t\t\t) AS l\n                    \t\t\t\t\t)) AS properties\n                            FROM {schema}.construccion AS c\n                    \t\t) AS f\n                        ) AS ff;\"\"\""
+    ],
+    "functions": [
+        "get_annex17_building_data_query"
+    ],
+    "classes": []
+}

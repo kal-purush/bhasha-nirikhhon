@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Collections",
+        "Immutable",
+        "Diagnostics",
+        "Linq",
+        "Microsoft",
+        "CodeAnalysis",
+        "FlowAnalysis",
+        "DataFlow",
+        "Analyzer",
+        "Utilities",
+        "FlowAnalysis",
+        "Analysis",
+        "TaintedDataAnalysis",
+        "Instance",
+        "TaintedDataConfig",
+        "TaintedDataSymbolMap",
+        "SourceInfo",
+        "WellKnownTypeProvider",
+        "wellKnownTypeProvider",
+        "SinkKind",
+        "sinkKind",
+        "SourceInfo",
+        "sinkKind",
+        "SinkKind",
+        "Sql",
+        "sourceInfos",
+        "WebInputSources",
+        "SourceInfos",
+        "Debug",
+        "Fail",
+        "sinkKind",
+        "sourceInfos",
+        "Empty",
+        "SourceInfo",
+        "TaintedDataSymbolMap",
+        "SourceInfo",
+        "wellKnownTypeProvider",
+        "sourceInfos"
+    ],
+    "literals": [],
+    "variables": [
+        "TaintedDataConfig",
+        "Instance",
+        "sourceInfos"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft.  All Rights Reserved.  Licensed under the Apache License, Version 2.0.  See License.txt in the project root for license information.",
+        "Manages tainted data sources, sanitizers, and sinks for all the",
+        "different tainted data analysis rules.",
+        "</summary>",
+        "<remarks>This is centralized, so that rules that use the same set of",
+        "sources and sanitizers but have different sinks, can reuse equivalent",
+        "<see cref=\"TaintedDataAnalysisContext\"/>s, and thus reuse the same",
+        "dataflow analysis result, so DFA doesn't have be invoked multiple",
+        "times.</remarks>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "TaintedDataConfig",
+        "GetSourceInfos"
+    ],
+    "classes": [
+        "TaintedDataConfig"
+    ]
+}

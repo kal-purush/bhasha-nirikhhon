@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "logging",
+        "numpy",
+        "np",
+        "fonduer",
+        "utils",
+        "utils_udf",
+        "shift_label_matrix",
+        "unshift_label_matrix",
+        "caplog",
+        "caplog",
+        "set_level",
+        "logging",
+        "INFO",
+        "np",
+        "array",
+        "shift_label_matrix",
+        "L",
+        "np",
+        "array_equal",
+        "L",
+        "unshift_label_matrix",
+        "L_sparse",
+        "L_sparse",
+        "count_nonzero"
+    ],
+    "literals": [],
+    "variables": [
+        "L",
+        "L_sparse"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Test the label matrix shifter and unshifter.\"\"\"",
+        "\"\"\"\n    L is a dense label matrix (ABSTAIN as -1) with values:\n    -1  0\n     1 -1\n    \"\"\"",
+        "\"\"\"\n    L_sparse is a sparse label matrix (ABSTAIN as 0)\n     0  1\n     2  0\n    \"\"\""
+    ],
+    "functions": [
+        "test_shift_label_matrix"
+    ],
+    "classes": []
+}

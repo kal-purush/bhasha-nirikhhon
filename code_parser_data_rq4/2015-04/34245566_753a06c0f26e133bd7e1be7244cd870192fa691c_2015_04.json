@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "main",
+        "java",
+        "io",
+        "BufferedReader",
+        "java",
+        "io",
+        "FileReader",
+        "java",
+        "io",
+        "java",
+        "net",
+        "URI",
+        "java",
+        "net",
+        "URISyntaxException",
+        "java",
+        "util",
+        "subject",
+        "predicate",
+        "tab",
+        "args",
+        "filePath",
+        "buff1",
+        "filePath",
+        "line",
+        "uri",
+        "subject",
+        "uri",
+        "get",
+        "toString",
+        "buff2",
+        "filePath",
+        "line",
+        "buff2",
+        "readLine",
+        "rdfConversion",
+        "rdfConversion",
+        "convert",
+        "line",
+        "ioe",
+        "ioe",
+        "toString",
+        "display",
+        "tab"
+    ],
+    "literals": [
+        "\"\"",
+        "\"\"",
+        "\"Data\\\\1.Document.txt\"",
+        "\"Erreur --\""
+    ],
+    "variables": [
+        "subject",
+        "line"
+    ],
+    "comments": [
+        "Tableau dynamique pour ajouter les valeurs du tableau",
+        "Fichier UNIMARC d�crivant une oeuvre",
+        "Parcourir toutes les lignes du fichier",
+        "Rechercher le pr�dicat et LES objets de la ligne courante",
+        "Afficher <Sujet,Pr�dicat,Objet> de la ligne courante"
+    ],
+    "docstrings": [
+        "************************** Methode main ()\n\t * @throws URISyntaxException **********************************",
+        "*************** Parcourir le document UNIMARC ***********************",
+        "************** Rechercher le num�ro de notice dans le fichier MARC ******************",
+        "****** Rechercher les pr�dicats et les objets dans le fichier MARC *******",
+        "*************** Stocker les triplets  ******************************",
+        "if ((!(subject.equals(\"\")))&&(!(predicate.equals(\"\")))&&(!(object.equals(\"\")))){\n\t\t\t\t\tTriplesStock triples = new TriplesStock();\n\t\t\t\t\ttriples.stock(subject, predicate, object);\n\t\t\t\t}\n\t\t\t\t/*********************************************************************",
+        "********** Afficher les triplets dans la console ********************"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "ClassMain"
+    ]
+}

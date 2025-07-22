@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "options",
+        "currentDate",
+        "formattedDate",
+        "cityInput",
+        "city",
+        "getWeather",
+        "city",
+        "city",
+        "city",
+        "apiKey",
+        "axios",
+        "url",
+        "response",
+        "response",
+        "response",
+        "updateTemperature",
+        "temperature",
+        "error",
+        "error",
+        "newTemperature",
+        "newTemperature"
+    ],
+    "literals": [
+        "\"long\"",
+        "\"2-digit\"",
+        "\"2-digit\"",
+        "\"en-US\"",
+        "\"currentDateTime\"",
+        "\"searchForm\"",
+        "\"submit\"",
+        "\"cityInput\"",
+        "\"cityName\"",
+        "\"59a99bf814c1d687d082fbb625caab0c\"",
+        "https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric",
+        "\"Error fetching weather data:\"",
+        "\".current-temperature-water\""
+    ],
+    "variables": [
+        "currentDate",
+        "options",
+        "formattedDate",
+        "cityInput",
+        "city",
+        "apiKey",
+        "url",
+        "temperature"
+    ],
+    "comments": [
+        "Вызываем функцию для получения погоды",
+        "Округляем температуру до ближайшего целого"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getWeather",
+        "updateTemperature"
+    ],
+    "classes": []
+}

@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "Component",
+        "View",
+        "ON_PUSH",
+        "Component",
+        "ON_PUSH",
+        "View"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'counter'",
+        "'counter'",
+        "'actions'",
+        "<p>\n    Clicked: {{ counter }} times\n    <button (^click)=\"actions.increment()\">+</button>\n    <button (^click)=\"actions.decrement()\">-</button>\n    <button (^click)=\"actions.incrementIfOdd()\">Increment if odd</button>\n  </p>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Counter"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "interfaces",
+        "payment_processing_interface",
+        "PaymentProcessingInterface",
+        "PaymentProcessingInterface",
+        "amount",
+        "amount",
+        "PaymentProcessingInterface",
+        "amount",
+        "amount",
+        "PaymentProcessingInterface",
+        "amount",
+        "amount",
+        "PaymentProcessingInterface",
+        "amount",
+        "amount"
+    ],
+    "literals": [
+        "f\"Processing bank transfer for amount: {amount}\"",
+        "f\"Processing PayPal payment for amount: {amount}\"",
+        "f\"Processing Visa card payment for amount: {amount}\"",
+        "f\"Processing installment payment for amount: {amount} in 4 parts\""
+    ],
+    "variables": [],
+    "comments": [
+        "Concrete classes for payment methods:"
+    ],
+    "docstrings": [],
+    "functions": [
+        "process_payment",
+        "process_payment",
+        "process_payment",
+        "process_payment"
+    ],
+    "classes": [
+        "BankTransferPayment",
+        "PayPalPayment",
+        "VisaCardPayment",
+        "InstallmentPayment"
+    ]
+}

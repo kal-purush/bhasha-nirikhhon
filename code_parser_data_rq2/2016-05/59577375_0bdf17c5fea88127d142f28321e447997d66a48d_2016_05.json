@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "com",
+        "demo",
+        "javax",
+        "inject",
+        "Inject",
+        "org",
+        "apache",
+        "camel",
+        "Endpoint",
+        "org",
+        "apache",
+        "camel",
+        "builder",
+        "RouteBuilder",
+        "org",
+        "apache",
+        "camel",
+        "cdi",
+        "ContextName",
+        "org",
+        "apache",
+        "camel",
+        "cdi",
+        "Uri",
+        "ContextName",
+        "Inject",
+        "Uri",
+        "inputEndpoint",
+        "Inject",
+        "Uri",
+        "resultEndpoint",
+        "Override",
+        "inputEndpoint",
+        "beanRef",
+        "to",
+        "resultEndpoint"
+    ],
+    "literals": [
+        "\"myCamel\"",
+        "\"timer:foo?period=5000\"",
+        "\"log:output\"",
+        "\"counterBean\""
+    ],
+    "variables": [
+        "inputEndpoint",
+        "resultEndpoint"
+    ],
+    "comments": [
+        "you can configure the route rule with Java DSL here"
+    ],
+    "docstrings": [
+        "*  Copyright 2005-2015 Red Hat, Inc.\n *\n *  Red Hat licenses this file to you under the Apache License, version\n *  2.0 (the \"License\"); you may not use this file except in compliance\n *  with the License.  You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n *  Unless required by applicable law or agreed to in writing, software\n *  distributed under the License is distributed on an \"AS IS\" BASIS,\n *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n *  implied.  See the License for the specific language governing\n *  permissions and limitations under the License.",
+        "* Configures all our Camel routes, components, endpoints and beans"
+    ],
+    "functions": [
+        "configure"
+    ],
+    "classes": [
+        "MyRoutes"
+    ]
+}

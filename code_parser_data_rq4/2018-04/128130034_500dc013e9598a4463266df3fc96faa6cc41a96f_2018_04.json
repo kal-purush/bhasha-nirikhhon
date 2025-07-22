@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "ohm",
+        "ohm",
+        "grammar",
+        "input",
+        "grammar",
+        "input"
+    ],
+    "literals": [
+        "\"ohm-js\"",
+        "Math {\n\n    Expression (an expression)\n        = Expression \"+\" Term\n        | Expression \"-\" Term\n        | Term\n\n    Term (a term)\n        = Term \"*\" Factor\n        | Term \"/\" Factor\n        | Factor\n    \n    Factor\n        = \"(\" Expression \")\"\n        | \"+\" Factor\n        | \"-\" Factor\n        | number\n \n    number (an integer or floating point number)\n        = digit* \".\" digit+     -- fract\n        | digit+                -- whole\n        }",
+        "string"
+    ],
+    "variables": [
+        "grammar",
+        "semantics"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "lex"
+    ],
+    "classes": []
+}

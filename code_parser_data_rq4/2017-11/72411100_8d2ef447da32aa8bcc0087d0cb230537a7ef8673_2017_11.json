@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Component",
+        "Inject",
+        "State",
+        "Store",
+        "Account",
+        "AccountUser",
+        "MAT_DIALOG_DATA",
+        "MatDialogRef",
+        "accountActions",
+        "Component",
+        "dialogRef",
+        "Inject",
+        "MAT_DIALOG_DATA",
+        "data",
+        "store",
+        "data",
+        "AccountUser",
+        "data",
+        "data",
+        "data",
+        "user",
+        "user",
+        "user",
+        "user",
+        "accountActions",
+        "user",
+        "user",
+        "user",
+        "user",
+        "user",
+        "accountActions"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../../reducers/index'",
+        "'@ngrx/store'",
+        "'../../shared/models/account.model'",
+        "'../../shared/models/account-user.model'",
+        "'@angular/material'",
+        "'../../reducers/accounts/redux/accounts.actions'",
+        "'cs-account-user-edit-container'",
+        "<cs-account-user-edit\n      [title]=\"title\"\n      [confirmButtonText]=\"confirmButtonText\"\n\n      [username]=\"username\"\n      [firstName]=\"firstName\"\n      [lastName]=\"lastName\"\n      [email]=\"email\"\n\n      (updateUser)=\"updateUser($event)\"\n    ></cs-account-user-edit>",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "updateUser"
+    ],
+    "classes": [
+        "AccountUserEditContainerComponent"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Numerics",
+        "CircuitCalculation",
+        "Elements",
+        "CircuitCalculation",
+        "ICircuit",
+        "IElement",
+        "ICircuit",
+        "Complex",
+        "frequencies",
+        "IElement",
+        "element",
+        "index",
+        "index"
+    ],
+    "literals": [],
+    "variables": [
+        "Elements",
+        "ICircuit",
+        "ParentCircuit",
+        "SubCircuits",
+        "EventHandler",
+        "CircuitChanged"
+    ],
+    "comments": [
+        "Цепь элементов",
+        "</summary>",
+        "Элементы цепи",
+        "</summary>",
+        "Родительская цепь",
+        "</summary>",
+        "Соединения, входящие в текущую цепь",
+        "</summary>",
+        "Расчитать импеданс цепи на заданных частотах",
+        "</summary>",
+        "<param name=\"frequencies\">Список частот</param>",
+        "<returns>Расчитанное значение импеданса</returns>",
+        "Добавить элемент по указанному индексу",
+        "</summary>",
+        "<param name=\"element\">Элемент схемы</param>",
+        "<param name=\"index\">Индекс</param>",
+        "Удалить элемент по заданному индексу",
+        "</summary>",
+        "<param name=\"index\">Индекс</param>",
+        "Зажигается при измененииях в цепи",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "CalculateZ",
+        "AddElement",
+        "RemoveElement"
+    ],
+    "classes": []
+}

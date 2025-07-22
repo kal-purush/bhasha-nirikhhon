@@ -1,0 +1,18 @@
+{
+    "identifiers": [
+        "gql",
+        "gql",
+        "NEW_MESSAGE_SUBSCRIPTION"
+    ],
+    "literals": [
+        "'@apollo/client'",
+        "subscription newMessage($wsToken: String!) {\n        newMessage(wsToken: $wsToken) {\n            id\n            content\n            sender {\n                id\n                firstName\n                lastName\n            }\n            receiver {\n                id\n                firstName\n            }\n            project {\n                id\n                title\n            }\n            phase {\n                id\n                title\n            }\n            index\n            createdAt\n            read\n        }\n    }"
+    ],
+    "variables": [
+        "NEW_MESSAGE_SUBSCRIPTION"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

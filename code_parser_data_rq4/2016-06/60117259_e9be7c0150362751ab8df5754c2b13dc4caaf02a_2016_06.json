@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "Output",
+        "ElementRef",
+        "EventEmitter",
+        "HostListener",
+        "State",
+        "scrollbarWidth",
+        "DataTableHeader",
+        "DataTableBody",
+        "DataTableFooter",
+        "Component",
+        "DataTableHeader",
+        "DataTableBody",
+        "DataTableFooter",
+        "Input",
+        "Input",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "element",
+        "element",
+        "State",
+        "options",
+        "rows",
+        "selected",
+        "scrollbarWidth",
+        "HostListener",
+        "width",
+        "height",
+        "height",
+        "height",
+        "height",
+        "height"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'./State'",
+        "'./utils/scrollbarWidth'",
+        "'./header/Header'",
+        "'./body/Body'",
+        "'./footer/Footer'",
+        "'datatable'",
+        "<div>\n      <datatable-header\n        [state]=\"state\">\n      </datatable-header>\n      <datatable-body\n        [state]=\"state\">\n      </datatable-body>\n      <datatable-footer\n        [state]=\"state\">\n      </datatable-footer>\n    </div>",
+        "'window:resize'",
+        "'$event'"
+    ],
+    "variables": [],
+    "comments": [
+        "this.calculatePageSize();",
+        "this.adjustColumns();"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "onResize"
+    ],
+    "classes": [
+        "DataTable"
+    ]
+}

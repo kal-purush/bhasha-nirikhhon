@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "pytest",
+        "httpstan",
+        "config",
+        "helpers",
+        "pytest",
+        "mark",
+        "asyncio",
+        "api_url",
+        "httpstan",
+        "config",
+        "HTTPSTAN_DEBUG",
+        "httpstan",
+        "config",
+        "httpstan",
+        "config",
+        "HTTPSTAN_DEBUG",
+        "data",
+        "helpers",
+        "sample_then_extract",
+        "api_url",
+        "program_code",
+        "sample_kwargs",
+        "param_name",
+        "draws1"
+    ],
+    "literals": [
+        "\"x\"",
+        "\"function\"",
+        "\"stan::services::sample::hmc_nuts_diag_e_adapt\"",
+        "\"data\"",
+        "\"num_samples\"",
+        "\"num_warmup\"",
+        "\"mu\""
+    ],
+    "variables": [
+        "program_code",
+        "data",
+        "HTTPSTAN_DEBUG",
+        "sample_kwargs",
+        "param_name",
+        "draws1"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Test debug mode.\"\"\"",
+        "\"\"\"\n    data {\n      real x;\n    }\n    parameters {\n      real mu;\n    }\n    model {\n      x ~ normal(mu,1);\n    }\n\"\"\"",
+        "\"\"\"Test that sampling does not crash in debug mode.\"\"\""
+    ],
+    "functions": [
+        "test_debug_mode"
+    ],
+    "classes": []
+}

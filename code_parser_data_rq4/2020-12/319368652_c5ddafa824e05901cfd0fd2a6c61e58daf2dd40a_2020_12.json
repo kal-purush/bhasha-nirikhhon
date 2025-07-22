@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "err",
+        "err",
+        "e",
+        "toastObject",
+        "toastObject"
+    ],
+    "literals": [
+        "fetch() error: ${err.message}",
+        "'outline'",
+        "'top-center'",
+        "'CLOSE'"
+    ],
+    "variables": [
+        "err"
+    ],
+    "comments": [
+        "Get the error from Nuxt $fetchState, which handles both",
+        "a server-side fetch() error passed to client, or a client-side",
+        "fetch() error",
+        "https://nuxtjs.org/api/pages-fetch/#when-to-use-fetch"
+    ],
+    "docstrings": [],
+    "functions": [
+        "mounted",
+        "showToastError"
+    ],
+    "classes": []
+}

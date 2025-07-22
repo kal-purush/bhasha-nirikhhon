@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "irc",
+        "name",
+        "user",
+        "name",
+        "user",
+        "io",
+        "user",
+        "Channel",
+        "user",
+        "user",
+        "channelName",
+        "debug",
+        "user",
+        "channelName",
+        "debug",
+        "angular",
+        "MainCtrl"
+    ],
+    "literals": [
+        "'use strict'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'http://127.0.0.1:3333'",
+        "'connect'",
+        "'logged'",
+        "'newUser'",
+        "string",
+        "string",
+        "'login'",
+        "'irc'",
+        "'ngSanitize'",
+        "'ngStorage'",
+        "'ui.bootstrap'",
+        "'MainCtrl'"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"../../server/all.d.ts\" />",
+        "this.channels[channelName].users[user.id] = user;",
+        "if (user.username == _user.username) {",
+        "$('#' + user.id).addClass('active');",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "doLogin"
+    ],
+    "classes": [
+        "Login",
+        "Channel",
+        "User",
+        "MainCtrl"
+    ]
+}

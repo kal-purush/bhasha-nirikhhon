@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props"
+    ],
+    "literals": [
+        "'styled-components'",
+        "button{\n     font-size: inherit;\n    font-family: inherit;\n    border: none;\n    background: none;\n    text-decoration: underline;\n    cursor: pointer;\n    }\n    \n clear: both;\n  @media only screen and (max-width: 660px) { \n    flex-direction: column-reverse;\n    display:flex;\n  }\n  margin-bottom: 5rem;\n\n  ul {\n    list-style: disc;\n    margin-top:1rem;\n  }\n  img {\n    float: ${(props) => (props.even ? 'left' : 'right')};\n    padding-right: ${(props) => (props.even ? '2rem' : '0')};\n    padding-left: ${(props) => (props.even ? '0' : '2rem')};\n   \n    width: 40%;\n    object-fit: cover;\n    @media only screen and (max-width: 660px) {\n      width: 100%;\n      margin-top: 2rem;\n      padding:0;\n    }\n  }\n\n  .text {\n    /* padding-left: ${(props) => (props.even ? '2rem' : '0')};\n    padding-right: ${(props) => (props.even ? '0' : '2rem')}; */\n    p + p {\n      margin-top: 1rem;\n    }\n    @media only screen and (max-width: 660px) {\n      padding-left: 0;\n      padding-right: 0;\n    }\n    h3 {\n      margin-bottom: 1.5rem;\n    }\n\n    height: 300px;\n    overflow:hidden;\n    position: relative;\n    .blur{\n      position:absolute;\n      bottom:0;\n      width:100%;\n      background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);\n\n      height: 100px;\n    }\n   \n    &.showAll{\n        \n        height: auto;\n        overflow: inherit\n      }\n  }",
+        "'left'",
+        "'right'",
+        "'2rem'",
+        "'0'",
+        "'0'",
+        "'2rem'",
+        "'2rem'",
+        "'0'",
+        "'0'",
+        "'2rem'"
+    ],
+    "variables": [
+        "DienstWrapper"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

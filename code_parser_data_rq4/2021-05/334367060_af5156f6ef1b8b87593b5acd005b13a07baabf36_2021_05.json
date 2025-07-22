@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "Runtime",
+        "CompilerServices",
+        "Runtime",
+        "InteropServices",
+        "ProjectPSX",
+        "Devices",
+        "CdRom",
+        "BYTES_PER_SECTOR_RAW",
+        "data",
+        "pointer",
+        "size",
+        "data",
+        "Length",
+        "sectorBuffer",
+        "AsSpan",
+        "data",
+        "CopyTo",
+        "dest",
+        "MemoryMarshal",
+        "GetArrayDataReference",
+        "sectorBuffer",
+        "Unsafe",
+        "Add",
+        "data",
+        "pointer",
+        "size",
+        "sectorBuffer",
+        "AsSpan",
+        "Slice",
+        "pointer",
+        "size",
+        "pointer",
+        "size",
+        "MemoryMarshal",
+        "Cast",
+        "dma",
+        "sectorBuffer",
+        "AsSpan",
+        "Slice",
+        "size",
+        "pointer",
+        "size",
+        "pointer",
+        "size"
+    ],
+    "literals": [],
+    "variables": [
+        "BYTES_PER_SECTOR_RAW",
+        "sectorBuffer",
+        "pointer",
+        "size",
+        "dest",
+        "data",
+        "dma"
+    ],
+    "comments": [
+        "size from dma comes as u32"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fillWith",
+        "readByte",
+        "read",
+        "read",
+        "hasData",
+        "clear"
+    ],
+    "classes": [
+        "Sector"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "process",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "'https://credit.niso.org/contributor-roles/project-administration/'",
+        "'Principal Investigator (PI)'",
+        "'An individual conducting a research and investigation process, specifically performing the experiments, or data/evidence collection.'",
+        "'https://credit.niso.org/contributor-roles/project-administration/'",
+        "'Project Administrator'",
+        "'An individual with management and coordination responsibility for the research activity planning and execution.'",
+        "'https://credit.niso.org/contributor-roles/data-curation/'",
+        "'Data Manager'",
+        "'An individual engaged in management activities to annotate (produce metadata), scrub data and maintain research data (including software code, where it is necessary for interpreting the data itself) for initial use and later re-use.'",
+        "${process.env.DMSP_BASE_URL}/contributor_roles/other",
+        "'Other'",
+        "'An individual associated with the research project that does not fall under one of the other primary roles.'"
+    ],
+    "variables": [
+        "data",
+        "mock"
+    ],
+    "comments": [
+        "Return a random item from the data array"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

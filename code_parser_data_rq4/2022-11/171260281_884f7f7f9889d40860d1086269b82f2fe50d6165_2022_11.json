@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "date",
+        "time",
+        "date",
+        "parseInt",
+        "dateParts",
+        "parseInt",
+        "dateParts",
+        "parseInt",
+        "dateParts",
+        "time",
+        "parseInt",
+        "timeParts",
+        "parseInt",
+        "timeParts",
+        "year",
+        "month",
+        "day",
+        "hour",
+        "minutes",
+        "seconds",
+        "milliseconds",
+        "datetime"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "'-'",
+        "':'"
+    ],
+    "variables": [
+        "dateParts",
+        "year",
+        "month",
+        "day",
+        "timeParts",
+        "hour",
+        "minutes",
+        "seconds",
+        "milliseconds",
+        "datetime"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Combines a separate date and time string into a date object\n * @param date Date string in format yyy-MM-dd\n * @param time Time string in format HH:mm:ss"
+    ],
+    "functions": [
+        "CombineDateAndTime"
+    ],
+    "classes": []
+}

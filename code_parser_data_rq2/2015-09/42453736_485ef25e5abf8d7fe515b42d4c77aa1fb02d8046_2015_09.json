@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "mediaQuery",
+        "isRetina",
+        "$",
+        "i",
+        "image",
+        "$",
+        "image",
+        "path",
+        "path",
+        "path",
+        "path",
+        "$",
+        "image",
+        "path",
+        "$",
+        "retina"
+    ],
+    "literals": [
+        "'p > img'",
+        "\"(-webkit-min-device-pixel-ratio: 1.5),\\\n\t\t\t\t\t  (min--moz-device-pixel-ratio: 1.5),\\\n\t\t\t\t\t  (-o-min-device-pixel-ratio: 3/2),\\\n\t\t\t\t\t  (min-resolution: 1.5dppx)\"",
+        "\"img.2x\"",
+        "\"src\"",
+        "\".png\"",
+        "\"@2x.png\"",
+        "\".jpg\"",
+        "\"@2x.jpg\"",
+        "\"src\""
+    ],
+    "variables": [
+        "mediaQuery",
+        "path"
+    ],
+    "comments": [
+        "To make images retina, add a class \"2x\" to the img element",
+        "and add a <image-name>@2x.png image. Assumes jquery is loaded."
+    ],
+    "docstrings": [],
+    "functions": [
+        "isRetina",
+        "retina"
+    ],
+    "classes": []
+}

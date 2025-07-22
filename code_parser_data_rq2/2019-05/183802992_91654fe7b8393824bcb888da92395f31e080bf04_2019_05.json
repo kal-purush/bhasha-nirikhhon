@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "winston",
+        "__dirname",
+        "config",
+        "winston",
+        "winston",
+        "winston",
+        "transport",
+        "oldFilename",
+        "newFilename",
+        "wlogger",
+        "winston",
+        "winston",
+        "transport",
+        "wlogger"
+    ],
+    "literals": [
+        "'use strict'",
+        "'winston'",
+        "'winston-daily-rotate-file'",
+        "'../../config'",
+        "${__dirname}/../../logs/koa-${config.env}-%DATE%.log",
+        "'YYYY-MM-DD'",
+        "'1m'",
+        "'5d'",
+        "'rotate'",
+        "'Rotating log files'",
+        "'verbose'"
+    ],
+    "variables": [
+        "winston",
+        "config",
+        "transport",
+        "wlogger"
+    ],
+    "comments": [
+        "Instantiates and configures the Winston logging library. This utitlity library\n  can be called by other parts of the application to conveniently tap into the\n  logging library.",
+        "Configure daily-rotation transport.",
+        "1 megabyte",
+        "5 days",
+        "This controls what goes into the log FILES",
+        "",
+        "- Write to all logs with level `info` and below to `combined.log`",
+        "- Write all logs error (and below) to `error.log`.",
+        "",
+        "new winston.transports.File({ filename: 'logs/error.log', level: 'error' }),",
+        "new winston.transports.File({ filename: 'logs/combined.log' })",
+        "This controls the logs to CONSOLE",
+        "wlogger.add(\n  new winston.transports.Console({\n    format: winston.format.simple(),\n    level: \"info\"\n  })\n)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

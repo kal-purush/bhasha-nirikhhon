@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "styled",
+        "fonts",
+        "colors",
+        "styled",
+        "colors",
+        "fonts",
+        "colors",
+        "colors",
+        "colors",
+        "colors",
+        "StyledResults"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'../../helpers/globalTheme'",
+        "position: absolute;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n  width: 100vw;\n  height: 100vh;\n  z-index: 200;\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: center;\n  background: ${colors.isLight.background};\n  font-family: ${fonts.secondary};\n  h1 {\n    text-align: center;\n    color: ${colors.gameBoy.primary};\n    text-shadow: 4px 4px 0px ${colors.gameBoy.secondary};\n  }\n  h3 span {\n    text-align: center;\n    color: ${colors.primary};\n    text-shadow: 4px 4px 0px ${colors.secondary};\n  }"
+    ],
+    "variables": [
+        "StyledResults"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "express",
+        "app",
+        "express",
+        "app",
+        "express",
+        "app",
+        "cors",
+        "app",
+        "recipeRouter",
+        "app",
+        "ingredientsRouter",
+        "app"
+    ],
+    "literals": [
+        "'express'",
+        "'./routes/ingredients'",
+        "'./routes/recipes'",
+        "'cors'",
+        "'/recipes'",
+        "'/ingredients'"
+    ],
+    "variables": [
+        "express",
+        "port",
+        "ingredientsRouter",
+        "recipeRouter",
+        "cors",
+        "app"
+    ],
+    "comments": [
+        "const path = require(\"path\");",
+        "app.use(\n\tcors({\n\t\t//origin: 'http://127.0.0.1:5500',\n\t\t// methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',\n\t\t//preflightContinue: false,\n\t\t//optionsSuccessStatus: 204,\n\t\t//credentials: true,\n\t})\n);\napp.use((req, res, next) => {\n\tres.header('Access-Control-Allow-Origin', '*');\n\tres.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With,Content-Type, Accept');\n\tnext();\n});\napp.options('*', cors());"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

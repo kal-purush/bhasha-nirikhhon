@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "Model",
+        "model",
+        "filePath",
+        "destination",
+        "model",
+        "component",
+        "component",
+        "variables",
+        "variables",
+        "variable",
+        "graph",
+        "variable",
+        "model",
+        "component",
+        "component",
+        "constraint",
+        "constraint",
+        "method",
+        "method",
+        "v",
+        "v",
+        "method",
+        "v",
+        "v",
+        "outp",
+        "outputVariable",
+        "inp",
+        "inputVariable",
+        "graph",
+        "outputVariable",
+        "inputVariable",
+        "graph"
+    ],
+    "literals": [
+        "\"../language-server/generated/ast\"",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "graph",
+        "inp",
+        "outp"
+    ],
+    "comments": [
+        "import { CompositeGeneratorNode } from \"langium\";",
+        "import path from \"path\";",
+        "import { extractDestinationAndName } from \"./cli-util\";",
+        "const data = extractDestinationAndName(filePath, destination);",
+        "const generatedFilePath = `${path.join(data.destination, data.name)}.js`;",
+        "const fileNode = new CompositeGeneratorNode();"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generateWGraph"
+    ],
+    "classes": []
+}

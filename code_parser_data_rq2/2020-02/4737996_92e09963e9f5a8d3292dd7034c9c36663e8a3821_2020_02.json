@@ -1,0 +1,89 @@
+{
+    "identifiers": [
+        "uk",
+        "gov",
+        "nationalarchives",
+        "droid",
+        "gui",
+        "java",
+        "io",
+        "File",
+        "java",
+        "util",
+        "java",
+        "util",
+        "stream",
+        "Collectors",
+        "javax",
+        "swing",
+        "filechooser",
+        "FileSystemView",
+        "org",
+        "apache",
+        "commons",
+        "lang",
+        "SystemUtils",
+        "isValid",
+        "errorMessage",
+        "errorTemplate",
+        "files",
+        "valid",
+        "SystemUtils",
+        "IS_OS_WINDOWS",
+        "nonFSFiles",
+        "files",
+        "stream",
+        "item",
+        "FileSystemView",
+        "getFileSystemView",
+        "isFileSystem",
+        "item",
+        "collect",
+        "Collectors",
+        "toList",
+        "nonFSFiles",
+        "size",
+        "valid",
+        "errorMessage",
+        "errorTemplate",
+        "nonFSFiles",
+        "stream",
+        "item",
+        "item",
+        "getName",
+        "collect",
+        "Collectors",
+        "joining",
+        "valid",
+        "isValid",
+        "valid",
+        "isValid",
+        "errorMessage"
+    ],
+    "literals": [
+        "\"\"",
+        "\"The following files/folders cannot be added as they are not from the file system: \"",
+        "\",\""
+    ],
+    "variables": [
+        "isValid"
+    ],
+    "comments": [
+        "valid until proven otherwise"
+    ],
+    "docstrings": [
+        "* Copyright (c) 2016, The National Archives <pronom@nationalarchives.gov.uk>\n * All rights reserved.\n *\n * Redistribution and use in source and binary forms, with or without\n * modification, are permitted provided that the following\n * conditions are met:\n *\n *  * Redistributions of source code must retain the above copyright\n *    notice, this list of conditions and the following disclaimer.\n *\n *  * Redistributions in binary form must reproduce the above copyright\n *    notice, this list of conditions and the following disclaimer in the\n *    documentation and/or other materials provided with the distribution.\n *\n *  * Neither the name of the The National Archives nor the\n *    names of its contributors may be used to endorse or promote products\n *    derived from this software without specific prior written permission.\n *\n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\"\n * AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\n * PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR\n * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,\n * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR\n * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF\n * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\n * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+        "* Validator to validate that all selected files are profilable.",
+        "* Constructor.\n     * @param files list of File objects to validate",
+        "* Returns whether the current selection of File objects is valid for profiling.\n     * @return true if all Files are profilable, false if any file is non-profilable",
+        "* returns the error message associated with this set of file validation.\n     * @return the error message containing details of the non-profilable files"
+    ],
+    "functions": [
+        "FileSystemSelectionValidator",
+        "isSelectionValid",
+        "getErrorMessage"
+    ],
+    "classes": [
+        "FileSystemSelectionValidator"
+    ]
+}

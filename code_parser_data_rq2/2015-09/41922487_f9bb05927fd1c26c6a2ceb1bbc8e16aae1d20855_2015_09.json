@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "com",
+        "ewt",
+        "dashboardpoint",
+        "service",
+        "context",
+        "com",
+        "ewt",
+        "dashboardpoint",
+        "entity",
+        "context",
+        "EntityContext",
+        "CLASS_NAME",
+        "getName",
+        "isJunitContext",
+        "isLocalhostContext",
+        "STR_DEFAULT_APP_ID",
+        "STR_DEFAULT_USER_ID",
+        "STR_LOCALHOST",
+        "isLocalhostContext",
+        "isLocalhostContext",
+        "isJunitContext",
+        "isJunitContext",
+        "isLocalhostContext",
+        "isLocalhostContext",
+        "STR_DEFAULT_APP_ID",
+        "STR_DEFAULT_USER_ID",
+        "STR_TRUE",
+        "STR_TRUE",
+        "equals",
+        "getProperty"
+    ],
+    "literals": [
+        "\"\"",
+        "\"\"",
+        "\"localhost\"",
+        "\"true\"",
+        "\"JUnitDerbyTesting\""
+    ],
+    "variables": [],
+    "comments": [
+        "Change",
+        "TODO",
+        "TODO",
+        "Check if the Virtual Host Name is defined, if its not, this thread is",
+        "running on LocalHost",
+        "er\t\tif (!STR_LOCALHOST.equalsIgnoreCase(ApplicationPropertiesManager",
+        "er\t\t\t\t.getProperty(ApplicationConstants.VIRTUALHOST_NAME))) {",
+        "er\t\t\tisLocalhostContext = false;",
+        "er\t\t}",
+        "Set if JUNIT context",
+        "Set if LocalHost context"
+    ],
+    "docstrings": [
+        "* Flag to denote if the current context is a JUNIT context",
+        "* Flag to denote if the current context is a LocalHost context",
+        "* Default Application Id for DASHBOARDPOINT Application",
+        "* Default User Id for DASHBOARBPOINT Application",
+        "* @return the isLocalhostContext",
+        "* Static initializer block to ascertain if the current context is a JUNIT\n\t * context or a LocalHost context",
+        "* @return the strDefaultAppId",
+        "* @return the strDefaultUserId",
+        "* Method to check if the current thread is running within the JUNIT context\n\t * \n\t * @return"
+    ],
+    "functions": [
+        "isLocalhostContext",
+        "getStrDefaultAppId",
+        "getStrDefaultUserId",
+        "isJunitContext"
+    ],
+    "classes": [
+        "ServiceContext"
+    ]
+}

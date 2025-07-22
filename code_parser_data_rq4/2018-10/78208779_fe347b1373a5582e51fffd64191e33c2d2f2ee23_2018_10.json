@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "org",
+        "lxg",
+        "basic",
+        "jvm",
+        "org",
+        "junit",
+        "Test",
+        "java",
+        "util",
+        "java",
+        "util",
+        "size",
+        "size",
+        "stackleak",
+        "Test",
+        "add",
+        "Test",
+        "jvmTest",
+        "jvmTest",
+        "stackleak",
+        "Test",
+        "i",
+        "add",
+        "valueOf",
+        "i",
+        "intern"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "intern() :若常量池没有当前的这个对象，则将此对相关加入常量池。"
+    ],
+    "docstrings": [
+        "* @author: xuegangliu\n * @date: 10/25/2018 2:26 PM\n * @DES:\n * @version: v1.0",
+        "* OutOfMemoryError (堆异常)\n     * VM arguments: -verbose:gc -Xms20M -Xmx20M -Xmn10M -XX:+PrintGCDetails -XX:SurvivorRatio=8",
+        "* 虚拟机栈和方法栈异常\n     * vm arguments : -Xss128k  （栈大小）",
+        "* 运行时常量池溢出"
+    ],
+    "functions": [
+        "stackleak",
+        "OutOfMemoryErrorTest",
+        "stackOutOfTest",
+        "constantTest"
+    ],
+    "classes": [
+        "JvmTest"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "start",
+        "step",
+        "Incremental",
+        "start",
+        "step",
+        "ListenerRulePriorities",
+        "start",
+        "step",
+        "start",
+        "step",
+        "val"
+    ],
+    "literals": [],
+    "variables": [
+        "val"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Listener rule priorities",
+        "* Incremental listener rule priorities\n   * @param start Priority to start at\n   * @param step Step size for every new priority",
+        "* Produce a listener rule priority",
+        "* Produces priorities starting at a number and increasing by a step size"
+    ],
+    "functions": [
+        "incremental",
+        "produce"
+    ],
+    "classes": [
+        "Incremental"
+    ]
+}

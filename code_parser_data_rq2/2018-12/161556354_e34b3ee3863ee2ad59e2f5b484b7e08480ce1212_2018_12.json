@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "require",
+        "writeJsonFile",
+        "json",
+        "filePath",
+        "json",
+        "json",
+        "json",
+        "fs",
+        "filePath",
+        "stringify",
+        "err",
+        "err",
+        "err",
+        "filePath",
+        "readJsonFileSync",
+        "filePath",
+        "fs",
+        "filePath",
+        "fileExists",
+        "filePath",
+        "fs",
+        "filePath",
+        "getPlantFilePath",
+        "plantId",
+        "plantId",
+        "writeJsonFile",
+        "readJsonFileSync",
+        "fileExists",
+        "getPlantFilePath"
+    ],
+    "literals": [
+        "'fs'",
+        "'string'",
+        "'utf-8'",
+        "\"writing file: \"",
+        "'utf-8'",
+        "./local/plant-${plantId}.json"
+    ],
+    "variables": [
+        "fs",
+        "writeJsonFile",
+        "stringify",
+        "readJsonFileSync",
+        "fileExists",
+        "getPlantFilePath"
+    ],
+    "comments": [
+        "GLOBALS",
+        "no error handling, simple application"
+    ],
+    "docstrings": [
+        "* @name writeJsonFile\n * @param {JSON} json \n * @param {String} filePath \n * @returns {Promise}\n * @todo error handling\n * @description writes JSON to a file path",
+        "* @name readJsonFileSync\n * @param {String} filePath\n * @returns {JSON}\n * @todo error handling\n * @todo make async version\n * @description returns JSON from a file path",
+        "* @name fileExists\n * @param {String} filePath\n * @returns {Boolean}\n * @description returns true if file path exists, false if not.",
+        "* @name getPlantFilePath\n * @param {Integer} plantId\n * @returns {String} path for file\n * @todo will become deprecated once DB integrated\n * @description returns the file path for the plantID given."
+    ],
+    "functions": [],
+    "classes": []
+}

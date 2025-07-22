@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "myPointySelf",
+        "GetComponent",
+        "Collider2D",
+        "Collider2D",
+        "other",
+        "other",
+        "CompareTag",
+        "Debug",
+        "Log",
+        "other",
+        "name",
+        "other",
+        "GetComponent",
+        "Player",
+        "TakeDamage",
+        "attack",
+        "Debug",
+        "Log",
+        "attack",
+        "YeetArrow",
+        "other",
+        "CompareTag",
+        "YeetArrow",
+        "Destroy",
+        "gameObject",
+        "damage",
+        "attack",
+        "damage"
+    ],
+    "literals": [
+        "\"Player\"",
+        "\"Damage dealt: \"",
+        "\"Walls\""
+    ],
+    "variables": [
+        "attack",
+        "Collider2D",
+        "myPointySelf",
+        "Collider2D",
+        "enemyCollider"
+    ],
+    "comments": [
+        "IgnoreCollisionsCheck();",
+        "public void IgnoreCollisionsCheck() {",
+        "if(!physics2D.GetIgnoreCollision(myPointySelf, enemyCollider))",
+        "physics2D.IgnoreCollision(myPointySelf, enemyCollider, true);",
+        "else",
+        "physics2D.IgnoreCollision(myPointySelf, enemyCollider, false);",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "OnTriggerEnter2D",
+        "YeetArrow",
+        "SetAttack"
+    ],
+    "classes": [
+        "DraugrArrow"
+    ]
+}

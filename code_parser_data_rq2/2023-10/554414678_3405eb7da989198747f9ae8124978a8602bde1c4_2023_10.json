@@ -1,0 +1,17 @@
+{
+    "identifiers": [],
+    "literals": [
+        "\"configured\"",
+        "\"signedIn\"",
+        "\"useApiKey\"",
+        "\"useSignInToken\"",
+        "\"pendingReauthentication\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* ### \"configured\"\n * The SDK has been configured, either through `VitalClient.Type.configure` for the first time,\n * or through `VitalClient.Type.automaticConfiguration()` where the last auto-saved\n * configuration has been restored.\n * \n * ### \"signedIn\"\n * The SDK has an active sign-in.\n * \n * ### \"useApiKey\"\n * The active sign-in was done through an explicitly set target User ID, paired with a Vital API Key.\n * (through `VitalClient.Type.setUserId(_:)`)\n * \n * Not recommended for production apps.\n * \n * ### \"useSignInToken\"\n * The active sign-in is done through a Vital Sign-In Token via `VitalClient.Type.signIn`.\n * \n * ### \"pendingReauthentication\"\n * A Vital Sign-In Token sign-in session that is currently on hold, requiring re-authentication using\n * a new Vital Sign-In Token issued for the same user.\n * \n * This generally should not happen, as Vital's identity broker guarantees only to revoke auth\n * refresh tokens when a user is explicitly deleted, disabled or have their tokens explicitly\n * revoked."
+    ],
+    "functions": [],
+    "classes": []
+}

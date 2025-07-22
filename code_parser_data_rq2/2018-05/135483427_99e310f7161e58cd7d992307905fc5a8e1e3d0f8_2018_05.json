@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "csv",
+        "in_csv",
+        "out_csv",
+        "open",
+        "in_csv",
+        "encoding",
+        "in_file",
+        "open",
+        "out_csv",
+        "out_file",
+        "csv",
+        "reader",
+        "in_file",
+        "csv",
+        "writer",
+        "out_file",
+        "writer",
+        "writerow",
+        "row",
+        "reader",
+        "row",
+        "row",
+        "strip",
+        "writer",
+        "writerow",
+        "curr_cust",
+        "row",
+        "row",
+        "clean_and_write_prices"
+    ],
+    "literals": [
+        "'ISO-8859-1'",
+        "'w'",
+        "'customer'",
+        "'pricing_rule'",
+        "'price'",
+        "'Customers Description'",
+        "'Output complete'",
+        "'__main__'",
+        "'Clean_Pricing_Tab_2.csv'",
+        "'out.csv'"
+    ],
+    "variables": [
+        "reader",
+        "writer",
+        "curr_cust"
+    ],
+    "comments": [
+        "change file names when calling function below and make sure paths are correct"
+    ],
+    "docstrings": [
+        "\"\"\"Read and clean data for customer pricing to write to new csv.\"\"\"",
+        "\"\"\"Read dirty pricing csv, clean data, then write to output csv.\"\"\""
+    ],
+    "functions": [
+        "clean_and_write_prices"
+    ],
+    "classes": []
+}

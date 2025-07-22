@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Request",
+        "Response",
+        "NextFunction",
+        "req",
+        "res",
+        "next",
+        "req",
+        "req",
+        "res",
+        "next"
+    ],
+    "literals": [
+        "'express'",
+        "'Você não tem permissão para acessar este perfil.'"
+    ],
+    "variables": [],
+    "comments": [
+        "Middleware de autorização",
+        "Verificar se o usuário autenticado tem permissão para acessar o perfil",
+        "<--- Aqui estamos comparando o ID do usuário autenticado com o ID do usuario passado nos parâmetros da requisição",
+        "Se tiver permissão, passa para o próximo middleware"
+    ],
+    "docstrings": [],
+    "functions": [
+        "authorizationMiddleware"
+    ],
+    "classes": []
+}

@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "path",
+        "Client",
+        "config",
+        "Organization",
+        "getClient",
+        "getOrderer",
+        "getPeers",
+        "org",
+        "getClient",
+        "org",
+        "getOrderer",
+        "client",
+        "client",
+        "config",
+        "channel",
+        "orderer",
+        "getPeers",
+        "client",
+        "org",
+        "peers",
+        "p",
+        "channel",
+        "p",
+        "channel",
+        "channel",
+        "config",
+        "client",
+        "channel",
+        "proposalResponse",
+        "proposalResponse",
+        "invokeTransactionOnPeers",
+        "Organization",
+        "main"
+    ],
+    "literals": [
+        "'path'",
+        "'fabric-client'",
+        "'./config'",
+        "'./client'",
+        "'Creating a Channel object ..'",
+        "'Specifiying the orderer to connect to ..'",
+        "'Getting the peers ..'",
+        "'Initializing the channel ..'",
+        "'Sending the Invoke Proposal ..'",
+        "'move'",
+        "\"a\"",
+        "\"b\"",
+        "\"10\"",
+        "'Sending the Transaction ..'"
+    ],
+    "variables": [
+        "client",
+        "orderer",
+        "channel",
+        "peers",
+        "proposalResponse",
+        "transactionResponse"
+    ],
+    "comments": [
+        "await invokeTransactionOnPeers(Organization.ORG2);",
+        "await invokeTransactionOnPeers(Organization.ORG3);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "invokeTransactionOnPeers",
+        "main"
+    ],
+    "classes": []
+}

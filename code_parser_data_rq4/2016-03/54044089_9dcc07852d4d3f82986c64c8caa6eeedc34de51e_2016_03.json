@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "json",
+        "SubStrList",
+        "Str",
+        "substr",
+        "SubStrList",
+        "substr",
+        "Str",
+        "flag",
+        "FindPath",
+        "os",
+        "os",
+        "listdir",
+        "FindPath",
+        "len",
+        "FileNames",
+        "fn",
+        "FileNames",
+        "len",
+        "FlagStr",
+        "IsSubString",
+        "FlagStr",
+        "fn",
+        "os",
+        "path",
+        "join",
+        "FindPath",
+        "fn",
+        "FileList",
+        "append",
+        "fullfilename",
+        "os",
+        "path",
+        "join",
+        "FindPath",
+        "fn",
+        "FileList",
+        "append",
+        "fullfilename",
+        "len",
+        "FileList",
+        "FileList",
+        "sort",
+        "FileList",
+        "file",
+        "open",
+        "file",
+        "read",
+        "json",
+        "loads",
+        "json_data",
+        "data"
+    ],
+    "literals": [
+        "'.json'"
+    ],
+    "variables": [
+        "flag",
+        "flag",
+        "FlagStr",
+        "FileList",
+        "FileNames",
+        "fullfilename",
+        "fullfilename",
+        "json_data",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\n        #usage: determine if a string contains other string\n        #arg: SubStrList: a list of substrings you want to find if is in target string. Str: target String\n        #return: if Str has all SubStr in SubStrList\n        '''",
+        "'''\n        #usage: get all json file.\n        #arg: the path where json files are\n        #return: a list of urls for all json files \n        '''",
+        "'''\n        #usage: read a json file\n        #arg: json file path\n        #return: data in json structure\n        '''"
+    ],
+    "functions": [
+        "IsSubString",
+        "GetFileList",
+        "readJSON"
+    ],
+    "classes": [
+        "Common"
+    ]
+}

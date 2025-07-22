@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "testnet",
+        "testnet",
+        "testnet",
+        "localStorage",
+        "cacheKey",
+        "localStorage",
+        "cachedAccountsString",
+        "timestamp",
+        "timestamp",
+        "cachedAccountsString",
+        "fetch",
+        "requestURL",
+        "response",
+        "response",
+        "response",
+        "json",
+        "localStorage",
+        "cacheKey",
+        "knownAccounts",
+        "localStorage",
+        "knownAccounts"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"MEMO_TEXT\"",
+        "\"MEMO_ID\"",
+        "\"known-accounts:testnet\"",
+        "\"known-accounts:mainnet\"",
+        "\"https://api.stellar.expert/api/explorer/testnet/directory\"",
+        "\"https://api.stellar.expert/api/explorer/public/directory\"",
+        "\"known-accounts:timestamp\"",
+        "Bad response (${response.status}) from stellar.expert server",
+        "\"known-accounts:timestamp\""
+    ],
+    "variables": [
+        "cacheKey",
+        "requestURL",
+        "cachedAccountsString",
+        "timestamp",
+        "response",
+        "json",
+        "knownAccounts"
+    ],
+    "comments": [
+        "use cached accounts if they are not older than 24h"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchWellknownAccounts"
+    ],
+    "classes": []
+}

@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Http",
+        "Injectable",
+        "http",
+        "channel",
+        "channel",
+        "res",
+        "res",
+        "listId",
+        "listId",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/http'",
+        "'rxjs/add/operator/map'",
+        "'AIzaSyA8xzAqh0n_rtGAb9Y-q2cmSi_eK0kPba8'",
+        "'https://www.googleapis.com/youtube/v3/playlists?key='",
+        "'&channelId='",
+        "'&part=snippet,id&maxResults=20'",
+        "'items'",
+        "'https://www.googleapis.com/youtube/v3/playlistItems?key='",
+        "'&playlistId='",
+        "'&part=snippet,id&maxResults=20'",
+        "'items'"
+    ],
+    "variables": [],
+    "comments": [
+        "import { HttpClient } from '@angular/common/http';\nimport { Injectable } from '@angular/core';\n\n\n  Generated class for the YtProvider provider.\n\n  See https://angular.io/guide/dependency-injection for more info on providers\n  and Angular DI.\n\n@Injectable()\nexport class YtProvider {\n\n  constructor(public http: HttpClient) {\n    console.log('Hello YtProvider Provider');\n  }\n\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getPlaylistsForChannel",
+        "getListVideos"
+    ],
+    "classes": [
+        "YtProvider"
+    ]
+}

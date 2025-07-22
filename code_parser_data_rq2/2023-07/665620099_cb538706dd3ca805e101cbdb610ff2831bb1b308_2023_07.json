@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "db",
+        "table",
+        "primaryKeys",
+        "fetch",
+        "URLSearchParams",
+        "response",
+        "response",
+        "db",
+        "table",
+        "fetch",
+        "URLSearchParams",
+        "response",
+        "response"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "/-/datasette-write-ui/edit-row-details?${new URLSearchParams({\n      db,\n      table,\n      primaryKeys,\n    })}",
+        "string",
+        "string",
+        "string",
+        "string",
+        "/-/datasette-write-ui/insert-row-details?${new URLSearchParams({\n      db,\n      table,\n    })}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "editRowDetails",
+        "insertRowDetails"
+    ],
+    "classes": []
+}

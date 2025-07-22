@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "WUView",
+        "Helpers",
+        "tagUpdateOperation",
+        "operation",
+        "operation",
+        "tagUpdateOperation",
+        "uoInstallation",
+        "GetStringResource",
+        "tagUpdateOperation",
+        "uoUninstallation",
+        "GetStringResource"
+    ],
+    "literals": [
+        "\"OperationType_Installation\"",
+        "\"OperationType_Uninstallation\"",
+        "\"unknown\""
+    ],
+    "variables": [],
+    "comments": [
+        "Copyright (c) Tim Kennedy. All Rights Reserved. Licensed under the MIT License.",
+        "Class to localize Operation string.",
+        "</summary>",
+        "Localizes the Operation string. Also removes the unwanted \"uo\" prefix.",
+        "</summary>",
+        "<param name=\"operation\">Operation type from update history.</param>",
+        "<returns>Operation type as localized string.</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "TranslateOperation"
+    ],
+    "classes": [
+        "OperationHelper"
+    ]
+}

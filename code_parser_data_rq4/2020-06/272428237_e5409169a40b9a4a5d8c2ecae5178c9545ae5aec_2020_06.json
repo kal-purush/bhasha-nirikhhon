@@ -1,0 +1,87 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Fungus",
+        "CommandInfo",
+        "AddComponentMenu",
+        "Command",
+        "CommandIndex",
+        "i",
+        "i",
+        "ParentBlock",
+        "CommandList",
+        "i",
+        "While",
+        "whileCommand",
+        "whileIndex",
+        "i",
+        "whileIndentLevel",
+        "whileCommand",
+        "IndentLevel",
+        "whileIndex",
+        "Continue",
+        "whileIndex",
+        "i",
+        "ParentBlock",
+        "CommandList",
+        "Count",
+        "i",
+        "ParentBlock",
+        "CommandList",
+        "i",
+        "End",
+        "endCommand",
+        "endCommand",
+        "IndentLevel",
+        "whileIndentLevel",
+        "CommandIndex",
+        "whileIndex",
+        "CommandIndex",
+        "endCommand",
+        "CommandIndex",
+        "Continue",
+        "endCommand",
+        "CommandIndex",
+        "Continue",
+        "Color32"
+    ],
+    "literals": [
+        "\"Flow\"",
+        "\"Break\"",
+        "\"Force a loop to terminate immediately.\"",
+        "\"\""
+    ],
+    "variables": [
+        "whileIndex",
+        "whileIndentLevel",
+        "i",
+        "While",
+        "whileCommand",
+        "i",
+        "End",
+        "endCommand"
+    ],
+    "comments": [
+        "This code is part of the Fungus library (http://fungusgames.com) maintained by Chris Gregan (http://twitter.com/gofungus).",
+        "It is released for free under the MIT open source license (https://github.com/snozbot/fungus/blob/master/LICENSE)",
+        "Force a loop to terminate immediately.",
+        "</summary>",
+        "Find index of previous while command",
+        "No enclosing While command found, just continue",
+        "Find matching End statement at same indent level as While",
+        "Sanity check that break command is actually between the While and End commands",
+        "Continue at next command after End",
+        "No matching End command found so just continue"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "OnEnter",
+        "Color",
+        "GetButtonColor"
+    ],
+    "classes": [
+        "Break"
+    ]
+}

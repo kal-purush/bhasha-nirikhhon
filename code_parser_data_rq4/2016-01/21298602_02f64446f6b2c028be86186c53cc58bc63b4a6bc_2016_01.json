@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "org",
+        "codice",
+        "imaging",
+        "nitf",
+        "core",
+        "label",
+        "LA",
+        "LID_LENGTH",
+        "LFS_LENGTH",
+        "LCW_LENGTH",
+        "LCH_LENGTH",
+        "LDLVL_LENGTH",
+        "LALVL_LENGTH",
+        "LLOC_HALF_LENGTH",
+        "LXSHDL_LENGTH",
+        "LXSOFL_LENGTH"
+    ],
+    "literals": [
+        "\"LA\""
+    ],
+    "variables": [],
+    "comments": [
+        "label segment"
+    ],
+    "docstrings": [
+        "* Marker string for NITF Label subheader.\n     * <p>\n     * See MIL-STD-2500A Table XI and XII.",
+        "* Length of the \"Label Identifier\" field in the NITF 2.0 Label Subheader.\n     * <p>\n     * See MIL-STD-2500A Table XI and XII.",
+        "* Length of the \"Label Font Style\" field in the NITF Label Subheader.\n     * <p>\n     * See MIL-STD-2500A Table XI and XII.",
+        "* Length of the \"Label Cell Width\" field in the NITF Label Subheader.\n     * <p>\n     * See MIL-STD-2500A Table XI and XII.",
+        "* Length of the \"Label Cell Height\" field in the NITF Label Subheader.\n     * <p>\n     * See MIL-STD-2500A Table XI and XII.",
+        "* Length of the \"Label Display Level\" field in the NITF 2.0 label header.\n     * <p>\n     * See MIL-STD-2500A Table XI and XII.",
+        "* Length of the \"Label Attachment Level\" field in the NITF label header.\n     * <p>\n     * See MIL-STD-2500A Table XI and XII.",
+        "* Length of half of the \"Label Location\" field in the NITF label Subheader.\n     * <p>\n     * See MIL-STD-2500A Table XI and XII.\n     * <p>\n     * The actual length is twice this, since the format is rrrrrccccc, but we parse rows then columns.",
+        "* Length of the \"Extended Subheader Data Length\" field in the NITF label header.\n     * <p>\n     * See MIL-STD-2500A Table XI and XII.",
+        "* Length of the \"Extended Subheader Overflow\" field in the NITF label header.\n     * <p>\n     * See MIL-STD-2500A Table XI and XII."
+    ],
+    "functions": [
+        "LabelConstants"
+    ],
+    "classes": [
+        "LabelConstants"
+    ]
+}

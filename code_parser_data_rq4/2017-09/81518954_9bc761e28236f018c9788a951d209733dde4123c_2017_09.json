@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "os",
+        "os",
+        "getenv",
+        "redirect_uri",
+        "os",
+        "getenv",
+        "base_url",
+        "os",
+        "getenv",
+        "client_id",
+        "os",
+        "getenv",
+        "client_secret",
+        "os",
+        "getenv",
+        "os",
+        "getenv",
+        "os",
+        "getenv",
+        "os",
+        "getenv"
+    ],
+    "literals": [
+        "'SQLALCHEMY_DATABASE_URI'",
+        "'https://%s/oauth_callback'",
+        "'PACKAGE_HOST'",
+        "'https://%s'",
+        "'AUTH_HOST'",
+        "'OAUTH_CLIENT_ID'",
+        "'OAUTH_CLIENT_SECRET'",
+        "'PACKAGE_BUCKET_NAME'",
+        "'MIXPANEL_PROJECT_TOKEN'",
+        "'STRIPE_SECRET_KEY'"
+    ],
+    "variables": [
+        "SQLALCHEMY_DATABASE_URI",
+        "OAUTH",
+        "PACKAGE_BUCKET_NAME",
+        "MIXPANEL_PROJECT_TOKEN",
+        "STRIPE_SECRET_KEY"
+    ],
+    "comments": [
+        "Copyright (c) 2017 Quilt Data, Inc. All rights reserved."
+    ],
+    "docstrings": [
+        "\"\"\"\nConfig file for prod/stage. Overrides values in config.py.\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

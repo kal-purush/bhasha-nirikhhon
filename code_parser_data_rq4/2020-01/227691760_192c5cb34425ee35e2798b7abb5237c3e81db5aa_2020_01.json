@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "GitHubRepository",
+        "Account",
+        "PullRequest",
+        "Emitter",
+        "Repository",
+        "PullRequestStore",
+        "Emitter",
+        "pullRequestStore",
+        "fn",
+        "repository",
+        "pullRequests",
+        "fn",
+        "repository",
+        "isLoadingPullRequests",
+        "repo",
+        "account"
+    ],
+    "literals": [
+        "'../../models/github-repository'",
+        "'../../models/account'",
+        "'../../models/pull-request'",
+        "'event-kit'",
+        "'../../models/repository'",
+        "'.'"
+    ],
+    "variables": [],
+    "comments": [
+        "Layer between App Store and the Pull Request Store and Pull Request Updater",
+        "Register a function to be called when the store updates.",
+        "Register a function to be called when the store updates.",
+        "Loads all pull requests against the given repository."
+    ],
+    "docstrings": [],
+    "functions": [
+        "onPullRequestsChanged",
+        "onIsLoadingPullRequests",
+        "refreshPullRequests"
+    ],
+    "classes": [
+        "PullRequestCoordinator"
+    ]
+}

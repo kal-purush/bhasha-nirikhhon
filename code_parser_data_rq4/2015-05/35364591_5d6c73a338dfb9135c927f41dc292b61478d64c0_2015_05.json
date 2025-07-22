@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "wwa_camera",
+        "Consts",
+        "wwa_data",
+        "wwa_parts_player",
+        "wwa_data",
+        "wwa_data",
+        "position",
+        "wwa_data",
+        "position",
+        "player",
+        "wwa_parts_player",
+        "player",
+        "wwa_data",
+        "wwa_data",
+        "dir",
+        "wwa_data",
+        "wwa_data",
+        "dir",
+        "speed",
+        "Consts",
+        "speed",
+        "Consts",
+        "wwa_data",
+        "wwa_data",
+        "position",
+        "wwa_data",
+        "position"
+    ],
+    "literals": [
+        "\"リセット中ではありません。\""
+    ],
+    "variables": [
+        "speed"
+    ],
+    "comments": [
+        "<reference path=\"./wwa_parts_player.ts\" />",
+        "<reference path=\"./wwa_data.ts\" />",
+        "現在のプレイヤー座標が含まれるカメラ位置(表示画面左上)を含むカメラを作ります.\n          @param position: wwa_data.Position 現在のプレイヤー座標",
+        "throws OutOfWWAMapRangeError;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setPlayer",
+        "isResetting",
+        "getPosition",
+        "getPreviousPosition",
+        "resetPreviousPosition",
+        "move",
+        "getTransitionStepNum",
+        "advanceTransitionStepNum",
+        "isFinalStep",
+        "reset"
+    ],
+    "classes": [
+        "Camera"
+    ]
+}

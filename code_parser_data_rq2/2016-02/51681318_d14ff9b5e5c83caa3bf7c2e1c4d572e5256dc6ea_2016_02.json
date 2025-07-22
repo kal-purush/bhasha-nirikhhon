@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "summ",
+        "btc",
+        "Override",
+        "key",
+        "value",
+        "size",
+        "rotate",
+        "put",
+        "key",
+        "value"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "/**",
+        "public CircularRotatingMap(",
+        "summ.btc.RotatingMap.ExpiredCallback<K, V> callback) {",
+        "super(callback);",
+        "}",
+        "",
+        "/**",
+        "public CircularRotatingMap(int numBuckets,",
+        "summ.btc.RotatingMap.ExpiredCallback<K, V> callback) {",
+        "super(numBuckets, callback);",
+        "}",
+        "/**",
+        "public CircularRotatingMap(int numBuckets) {",
+        "super(numBuckets);",
+        "}"
+    ],
+    "docstrings": [
+        "*",
+        "* @author wfeng007\n * @date 2016-2-16 下午11:35:07",
+        "* @param callback",
+        "*/",
+        "* @param numBuckets",
+        "* @param callback",
+        "*/",
+        "* @param numBuckets",
+        "*/",
+        "* @param numBuckets",
+        "(non-Javadoc)\n\t * @see summ.btc.RotatingMap#put(java.lang.Object, java.lang.Object)"
+    ],
+    "functions": [
+        "CircularRotatingMap",
+        "put"
+    ],
+    "classes": [
+        "CircularRotatingMap"
+    ]
+}

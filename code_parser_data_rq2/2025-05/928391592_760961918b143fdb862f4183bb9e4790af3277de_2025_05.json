@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Microsoft",
+        "AspNetCore",
+        "Http",
+        "FinLit",
+        "Controllers",
+        "Controller",
+        "HttpContext",
+        "Session",
+        "GetInt32",
+        "userId",
+        "Response",
+        "Redirect",
+        "Url",
+        "Action",
+        "userId",
+        "Value"
+    ],
+    "literals": [
+        "\"UserId\"",
+        "\"AuthentificationView\"",
+        "\"User\"",
+        "\"/\""
+    ],
+    "variables": [
+        "userId"
+    ],
+    "comments": [
+        "Получает ID текущего пользователя из сессии.",
+        "Если пользователь не авторизован — перенаправляет на страницу авторизации.",
+        "</summary>",
+        "<returns>int — ID пользователя</returns>",
+        "Прерываем выполнение и делаем редирект вручную",
+        "0 — сигнал, что редирект уже произошёл",
+        "protected int GetSelectedAccountId() // может переписать через сервис нужно подумать или передавать в этот метод объект где используется или в конструктор Базового класса но тогда в base(персонализация)",
+        "{",
+        "var sessionAccountId = HttpContext.Session.GetInt32(\"SelectedAccountId\");",
+        "if (sessionAccountId.HasValue)",
+        "return sessionAccountId.Value;",
+        "// Если в сессии нет — взять из персонализации",
+        "var personalization = GetPersonalization();",
+        "return personalization?.AccountId ?? 0; // или выбросить исключение, если не задан",
+        "}"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "GetUserIdOrRedirect"
+    ],
+    "classes": [
+        "BaseController"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "com",
+        "amazonaws",
+        "secretsmanager",
+        "util",
+        "java",
+        "sql",
+        "SQLException",
+        "java",
+        "util",
+        "java",
+        "util",
+        "t",
+        "errorCode",
+        "t",
+        "contains",
+        "t",
+        "add",
+        "t",
+        "t",
+        "t",
+        "getErrorCode",
+        "errorCode",
+        "t",
+        "t",
+        "getCause"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Checks the thrown exception and all parent exceptions and returns true if\n     *   a SQLException with a matching error code is found.\n     *\n     * @param t The SQLException to check\n     * @param errorCode The error code to check for.\n     * @return True if the exception or any parent exception is a SQL Exception\n     *      and getErrorCode matches the error code.  Otherwise, false.",
+        "* Hide constructor for static class"
+    ],
+    "functions": [
+        "unwrapAndCheckForCode",
+        "SQLExceptionUtils"
+    ],
+    "classes": [
+        "SQLExceptionUtils"
+    ]
+}

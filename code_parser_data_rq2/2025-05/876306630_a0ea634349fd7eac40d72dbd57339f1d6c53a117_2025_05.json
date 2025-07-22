@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "useCallback",
+        "MediaLibrary",
+        "t",
+        "isNative",
+        "Toast",
+        "saveImageToMediaLibrary",
+        "MediaLibrary",
+        "useCallback",
+        "uri",
+        "isNative",
+        "saveImageToMediaLibrary",
+        "Toast",
+        "t",
+        "e",
+        "Toast",
+        "t",
+        "e",
+        "permissionResponse",
+        "getPermission",
+        "permission",
+        "save",
+        "permission",
+        "requestPermission",
+        "askAgain",
+        "save",
+        "Toast",
+        "t",
+        "Toast",
+        "t",
+        "permissionResponse",
+        "requestPermission",
+        "getPermission"
+    ],
+    "literals": [
+        "'react'",
+        "'expo-media-library'",
+        "'@lingui/macro'",
+        "'#/platform/detection'",
+        "'#/view/com/util/Toast'",
+        "'./manip'",
+        "'photo'",
+        "string",
+        "'useSaveImageToMediaLibrary is native only'",
+        "Image saved",
+        "Failed to save image: ${String(e)}",
+        "'xmark'",
+        "Images cannot be saved unless permission is granted to access your photo library.",
+        "'xmark'",
+        "Permission to access your photo library was denied. Please enable it in your system settings.",
+        "'xmark'"
+    ],
+    "variables": [
+        "permissionResponse",
+        "requestPermission",
+        "getPermission",
+        "permission",
+        "askAgain"
+    ],
+    "comments": [
+        "request again once",
+        "since we've been explicitly denied, show a toast."
+    ],
+    "docstrings": [
+        "* Same as `saveImageToMediaLibrary`, but also handles permissions and toasts"
+    ],
+    "functions": [
+        "useSaveImageToMediaLibrary",
+        "save"
+    ],
+    "classes": []
+}

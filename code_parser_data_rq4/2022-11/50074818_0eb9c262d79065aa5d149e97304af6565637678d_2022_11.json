@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "createTranslator",
+        "coreStrings",
+        "createTranslator",
+        "pageTitle",
+        "error",
+        "title",
+        "error",
+        "kolibriStrings",
+        "kolibriStrings",
+        "title",
+        "coreStrings",
+        "kolibriStrings",
+        "pageTitle"
+    ],
+    "literals": [
+        "'kolibri.utils.i18n'",
+        "'kolibri.utils.coreStrings'",
+        "'kolibriStrings'",
+        "'{ title } - Kolibri'",
+        "'DO NOT TRANSLATE\\nCopy the source string.'",
+        "'Error'",
+        "\"When Kolibri throws an error, this is the text that's used as the title of the error page. The description of the error follows below.\"",
+        "'kolibriTitleMessage'",
+        "'errorPageTitle'",
+        "'kolibriLabel'",
+        "'kolibriTitleMessage'"
+    ],
+    "variables": [
+        "kolibriStrings"
+    ],
+    "comments": [
+        "If no child component sets title, it reads 'Kolibri'",
+        "If child component sets title, it reads 'Child Title - Kolibri'"
+    ],
+    "docstrings": [],
+    "functions": [
+        "useKolibriPageTitle",
+        "getKolibriMetaInfo"
+    ],
+    "classes": []
+}

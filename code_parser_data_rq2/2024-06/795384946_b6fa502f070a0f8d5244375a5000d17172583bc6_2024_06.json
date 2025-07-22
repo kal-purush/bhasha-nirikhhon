@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "useEffect",
+        "useRef",
+        "useState",
+        "callback",
+        "delay",
+        "useState",
+        "useRef",
+        "callback",
+        "onVisChange",
+        "enabled",
+        "setEnabled",
+        "enabled",
+        "setEnabled",
+        "useEffect",
+        "onVisChange",
+        "savedCallback",
+        "callback",
+        "onVisChange",
+        "onVisChange",
+        "callback",
+        "useEffect",
+        "enabled",
+        "enabled",
+        "savedCallback",
+        "savedCallback",
+        "delay",
+        "setInterval",
+        "tick",
+        "delay",
+        "clearInterval",
+        "id",
+        "delay",
+        "enabled"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"Tab is now hidden. Disabling useInterval\"",
+        "\"Tab is now in focus. Enabling useInterval\"",
+        "\"visibilitychange\"",
+        "\"visibilitychange\"",
+        "\"tick ended. enabled\""
+    ],
+    "variables": [
+        "enabled",
+        "setEnabled",
+        "savedCallback",
+        "onVisChange",
+        "id"
+    ],
+    "comments": [
+        "let enabled = true;",
+        "const setEnabled = (e: boolean) => {enabled = e;}",
+        "Remember the latest callback.",
+        "Specify how to clean up after this effect:",
+        "Set up the interval."
+    ],
+    "docstrings": [],
+    "functions": [
+        "useInterval",
+        "tick"
+    ],
+    "classes": []
+}

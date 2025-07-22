@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "n",
+        "_",
+        "n",
+        "b",
+        "a",
+        "b",
+        "a",
+        "Solution",
+        "s",
+        "climbStairs",
+        "n"
+    ],
+    "literals": [],
+    "variables": [
+        "a",
+        "b",
+        "a",
+        "b",
+        "n",
+        "s"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\nYou are climbing a stair case. It takes n steps to reach to the top.\nEach time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?\nNote: Given n will be a positive integer.\n'''",
+        "'''\nkey intuition to solve the problem is that given a number of stairs N, \nif we know the number ways to get to the points [n-1] and [n-2] respectively,\ndenoted as n1 and n2 , then the total ways to get to the point [n] is n1 + n2. \nBecause from the [n-1] point, we can take one single step to reach [n]. And from the [n-2] point, \nwe could take two steps to get there. \nThere is NO overlapping between these two solution sets, because we differ in the final step.\n'''"
+    ],
+    "functions": [
+        "climbStairs"
+    ],
+    "classes": [
+        "Solution"
+    ]
+}

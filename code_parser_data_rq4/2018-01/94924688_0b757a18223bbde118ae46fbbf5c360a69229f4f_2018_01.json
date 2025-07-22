@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "os",
+        "pytest",
+        "numpy",
+        "np",
+        "neurodsp",
+        "neurodsp",
+        "tests",
+        "_load_example_data",
+        "_load_example_data",
+        "data_idx",
+        "np",
+        "load",
+        "os",
+        "path",
+        "dirname",
+        "neurodsp",
+        "neurodsp",
+        "detect_bursts",
+        "Fs",
+        "x",
+        "f_lo",
+        "f_hi",
+        "algorithm",
+        "thresh",
+        "np",
+        "isclose",
+        "np",
+        "sum",
+        "bursting",
+        "bursting_true",
+        "NotImplementedError",
+        "neurodsp",
+        "detect_bursts",
+        "Fs",
+        "x",
+        "alpha",
+        "algorithm",
+        "thresh"
+    ],
+    "literals": [
+        "'/tests/data/sample_data_1_burst_deviation.npy'",
+        "'deviation'",
+        "'deviation'"
+    ],
+    "variables": [
+        "x",
+        "bursting_true",
+        "Fs",
+        "f_lo",
+        "f_hi",
+        "bursting",
+        "bursting"
+    ],
+    "comments": [
+        "Load data and ground-truth filtered signal",
+        "Detect bursts"
+    ],
+    "docstrings": [
+        "\"\"\"\ntest_burst.py\nTest burst detection functions\n\"\"\"",
+        "\"\"\"\n    Confirm consistency in burst detection results on a generated neural signal\n    \"\"\"",
+        "\"\"\"\n    Confirm length of burst detection results on a generated neural signal\n    \"\"\""
+    ],
+    "functions": [
+        "test_detect_bursts_consistent",
+        "test_detect_bursts_length"
+    ],
+    "classes": []
+}

@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "RequestManager",
+        "Injectable",
+        "PopUpManager",
+        "Injectable",
+        "rqManager",
+        "pUpManager",
+        "id",
+        "id",
+        "res",
+        "res",
+        "res",
+        "data",
+        "data",
+        "res",
+        "res",
+        "res",
+        "res",
+        "data",
+        "data",
+        "data",
+        "res",
+        "res",
+        "res",
+        "id",
+        "id",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'../../managers/requestManager'",
+        "'@angular/core'",
+        "'rxjs/operators'",
+        "'../../managers/popUpManager'",
+        "'root'",
+        "'CUENTAS_CONTABLES_SERVICE'",
+        "'comprobante/'",
+        "'error'",
+        "'No se pudo consultar los tipos de comprobante'",
+        "'CUENTAS_CONTABLES_SERVICE'",
+        "comprobante/",
+        "'Type'",
+        "'error'",
+        "'Message'",
+        "'CUENTAS_CONTABLES_SERVICE'",
+        "'comprobante/'",
+        "'Type'",
+        "'error'",
+        "'No se pudo actualizar el tipo de comprobante'",
+        "'CUENTAS_CONTABLES_SERVICE'",
+        "'comprobante'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* getComprobantes\n       * If the response has errors in the OAS API it should show a popup message with an error.\n       * If the response suceed, it returns the data of the object.\n       * @param id object to get in the DB\n       * @param param object with the params to get in the DB\n       * @returns  <Observable> data of the object registered at the DB. undefined if the request has errors",
+        "* comprobanteRegister\n       * If the response has errors in the OAS API it should show a popup message with an error.\n       * If the response suceed, it returns the data of the updated object.\n       * @param data object to save in the DB\n       * @returns  <Observable> data of the object registered at the DB. undefined if the request has errors",
+        "* comprobanteUpdate\n     * If the response has errors in the OAS API it should show a popup message with an error.\n     * If the response is successs, it returns the data of the updated object.\n     * @param data fields to update\n     * @returns  <Observable> object updated information. undefined if the proccess has errors.",
+        "* comprobanteDelete\n     * If the response has errors in the OAS API it should show a popup message with an error.\n     * If the response is successs, it returns the data of the updated object.\n     * @param id the id of the object to remove in the DB.\n     * @returns  <Observable> object with api response. undefined if the proccess has errors"
+    ],
+    "functions": [
+        "getComprobantes",
+        "comprobanteRegister",
+        "comprobanteUpdate",
+        "comprobanteDelete"
+    ],
+    "classes": [
+        "ComprobanteHelper"
+    ]
+}

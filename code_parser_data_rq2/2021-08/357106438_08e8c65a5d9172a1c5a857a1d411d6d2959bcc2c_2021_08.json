@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "user",
+        "describe",
+        "before",
+        "cy",
+        "user",
+        "user",
+        "cy",
+        "cy",
+        "it"
+    ],
+    "literals": [
+        "\"../../../fixtures/Users.json\"",
+        "\"Testing the agent registration\"",
+        "\"Clearing the Cookies and deleting the Cookies\"",
+        "\"Self-Agent\"",
+        "\"/create-workflow\"",
+        "\"Registering an Agent in Cluster-Scope\""
+    ],
+    "variables": [],
+    "comments": [
+        "<reference types=\"Cypress\" />",
+        "import * as workflows from \"../../../fixtures/Workflows.json\";",
+        "cy.exec(\"kubectl config use-context kind-testing\");",
+        "Now Agent can be registered from here."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

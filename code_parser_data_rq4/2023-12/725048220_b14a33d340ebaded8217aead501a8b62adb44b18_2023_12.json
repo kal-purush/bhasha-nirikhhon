@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "nodemailer",
+        "req",
+        "res",
+        "req",
+        "req",
+        "nodemailer",
+        "transporter",
+        "name",
+        "email",
+        "message",
+        "res",
+        "error",
+        "error",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'nodemailer'",
+        "'POST'",
+        "'me@alistairwilson.co.uk'",
+        "'hello@alistairwilson.co.uk'",
+        "'New Contact Form Submission'",
+        "Name: ${name}\\nEmail: ${email}\\nMessage: ${message}",
+        "'Email sent successfully'",
+        "'Error sending email:'",
+        "'Failed to send email'",
+        "'Method Not Allowed'"
+    ],
+    "variables": [
+        "transporter"
+    ],
+    "comments": [
+        "Create a Nodemailer transporter",
+        "Send email",
+        "Sender's email address",
+        "Receiver's email address"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handler"
+    ],
+    "classes": []
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "msg",
+        "greeting",
+        "view",
+        "Model",
+        "greeting",
+        "view",
+        "View",
+        "greeting",
+        "greeting",
+        "msg",
+        "msg",
+        "view",
+        "Controller",
+        "view"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\", world!\"",
+        "string",
+        "\"Hello\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* An output capable of recieving a string message for display.",
+        "* Instance is an App controller. Automatically creates \n * model. Creates view if none given.",
+        "* Private class. Instance represents a greeting to the world.",
+        "* Instance is a message logger; outputs messages to console.",
+        "* Factory function. Returns a default first app."
+    ],
+    "functions": [
+        "greet",
+        "getGreeting",
+        "display",
+        "defaultGreeter"
+    ],
+    "classes": [
+        "Controller",
+        "Model",
+        "View"
+    ]
+}

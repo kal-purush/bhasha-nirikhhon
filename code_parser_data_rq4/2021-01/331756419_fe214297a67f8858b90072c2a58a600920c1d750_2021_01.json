@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "data",
+        "types",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "types",
+        "types",
+        "types",
+        "data",
+        "data",
+        "abilities",
+        "abilities",
+        "data",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "<div class=\"pokemon\">\n  <div class=\"flip-box-inner\">\n    <div class=\"flip-box-front\">\n      <div class=\"img-container\"><img src=\"https://pokeres.bastionbot.org/images/pokemon/${data.id}.png\" alt=\"\" /></div>\n      <div class=\"info\">\n        <span class=\"id\">${data.id < 100 ? `#0${data.id}` : `#${data.id}`}</span>\n\n        <h3 class=\"name\">${data.name}</h3>\n        <small>${types.map(types => types.type.name).join(' | ')}</small>\n      </div>\n    </div>\n\n    <div class=\"flip-box-back\">\n      <div class=\"pokemon-name\">\n        <h3 class=\"name\">${data.name}</h3>\n      </div>\n\n      <div class=\"abilities\">\n        <h4>Abilities:</h4>\n        <small>${data.abilities.map(abilities => abilities.ability.name).join(', ')}</small>\n      </div>\n\n      <div class=\"base-experience\">\n        <h4>Base experience:</h4>\n        <small>${data.base_experience}</small>\n      </div>\n\n      <div class=\"height\">\n        <h4>Height:</h4>\n        <small>${data.height}</small>\n      </div>\n\n      <div class=\"weight\">\n        <h4>Weight:</h4>\n        <small>${data.weight}</small>\n      </div>\n    </div>\n  </div>\n</div>",
+        "#0${data.id}",
+        "#${data.id}",
+        "' | '",
+        "', '"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "returnHTML"
+    ],
+    "classes": []
+}

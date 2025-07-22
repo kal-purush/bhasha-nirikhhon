@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "APIGatewayEvent",
+        "ActionType",
+        "commandHandler",
+        "ActionType"
+    ],
+    "literals": [
+        "\"aws-lambda\"",
+        "\"../slack/types/slack-types\"",
+        "\"input\"",
+        "\"BOOK_SUPPORT_TEXT\"",
+        "\"plain_text_input\"",
+        "\"plain_text\"",
+        "\"Ich beantworte dir gerne Fragen zum Book! Was möchtest du wissen?\""
+    ],
+    "variables": [
+        "commandHandler"
+    ],
+    "comments": [
+        "const command: SlackCommandType = decode(event.body) as SlackCommandType;"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

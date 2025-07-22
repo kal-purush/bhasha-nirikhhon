@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "django",
+        "test",
+        "TestCase",
+        "django",
+        "core",
+        "management",
+        "call_command",
+        "edunext_openedx_extensions",
+        "ednx_microsites",
+        "models",
+        "Microsite",
+        "TestCase",
+        "Microsite",
+        "objects",
+        "create",
+        "subdomain",
+        "call_command",
+        "Microsite",
+        "objects",
+        "subdomain",
+        "first",
+        "Microsite",
+        "objects",
+        "subdomain",
+        "first",
+        "assertIsNone",
+        "prod",
+        "assertIsNotNone",
+        "stage"
+    ],
+    "literals": [
+        "\"first.test.prod.edunext.co\"",
+        "'change_domain'",
+        "\"first.test.prod.edunext.co\"",
+        "\"first-test-prod-edunext-co-stage.edunext.co\""
+    ],
+    "variables": [
+        "prod",
+        "stage"
+    ],
+    "comments": [
+        "pylint: disable=invalid-name",
+        "pylint: disable=no-member",
+        "pylint: disable=no-member",
+        "pylint: disable=no-member"
+    ],
+    "docstrings": [
+        "\"\"\"This module include a class that checks the command change_domain.py\"\"\"",
+        "\"\"\" This class checks the command change_domain.py\"\"\"",
+        "\"\"\"This method creates Microsite objects in database\"\"\"",
+        "\"\"\"Subdomain has been changed by the command\"\"\""
+    ],
+    "functions": [
+        "setUp",
+        "test_domain_can_change"
+    ],
+    "classes": [
+        "ChangeDomainTestCase"
+    ]
+}

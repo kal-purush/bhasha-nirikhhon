@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "logging",
+        "docker",
+        "docker",
+        "from_env",
+        "client",
+        "containers",
+        "run",
+        "BOOTSTRAP_IMAGE_CHEIP",
+        "network_mode",
+        "split",
+        "len",
+        "ip_list",
+        "logging",
+        "info",
+        "format",
+        "ip_list",
+        "logging",
+        "info",
+        "format",
+        "ip_list",
+        "logging",
+        "info",
+        "format",
+        "ip_list",
+        "ip_list"
+    ],
+    "literals": [
+        "'codenvy/che-ip:nightly'",
+        "'host'",
+        "\"\\n\"",
+        "\"Docker daemon is running on more than one \\\naddress {0}\"",
+        "\"Only the first address:{0} will be returned!\"",
+        "\"Docker daemon is running at the following \\\naddress {0}\""
+    ],
+    "variables": [
+        "BOOTSTRAP_IMAGE_CHEIP",
+        "client",
+        "ip_list"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "AF: why call before definition? print _docker_host_ip()"
+    ],
+    "docstrings": [],
+    "functions": [
+        "_docker_host_ip"
+    ],
+    "classes": []
+}

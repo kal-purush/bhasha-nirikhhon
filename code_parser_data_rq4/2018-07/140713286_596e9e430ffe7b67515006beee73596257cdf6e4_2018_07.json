@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Globalization",
+        "Text",
+        "Xamarin",
+        "Forms",
+        "OpenWeatherMap",
+        "Converters",
+        "IValueConverter",
+        "value",
+        "Type",
+        "targetType",
+        "parameter",
+        "CultureInfo",
+        "culture",
+        "DateTimeOffset",
+        "FromUnixTimeSeconds",
+        "value",
+        "dateTimeOffset",
+        "ToString",
+        "value",
+        "Type",
+        "targetType",
+        "parameter",
+        "CultureInfo",
+        "culture",
+        "NotImplementedException"
+    ],
+    "literals": [
+        "\"t\""
+    ],
+    "variables": [
+        "DateTimeOffset",
+        "dateTimeOffset"
+    ],
+    "comments": [
+        "DateTime dateTime = new DateTime((long)value);",
+        "return dateTimeOffset.Hour.ToString(\"t\") + \":\" + dateTimeOffset.Minute.ToString(\"MM\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Convert",
+        "ConvertBack"
+    ],
+    "classes": [
+        "DateTimeConverter"
+    ]
+}

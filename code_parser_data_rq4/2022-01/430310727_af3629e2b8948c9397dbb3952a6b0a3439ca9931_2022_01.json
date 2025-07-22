@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "ru",
+        "otus",
+        "spring",
+        "repositories",
+        "lombok",
+        "RequiredArgsConstructor",
+        "org",
+        "springframework",
+        "stereotype",
+        "Repository",
+        "ru",
+        "otus",
+        "spring",
+        "domain",
+        "Book",
+        "javax",
+        "persistence",
+        "EntityManager",
+        "javax",
+        "persistence",
+        "PersistenceContext",
+        "java",
+        "util",
+        "Optional",
+        "Repository",
+        "RequiredArgsConstructor",
+        "PersistenceContext",
+        "em",
+        "Override",
+        "Optional",
+        "of",
+        "em",
+        "createQuery",
+        "getSingleResult"
+    ],
+    "literals": [
+        "\"select b from Book b \"",
+        "\"where b.title like '%1%'\""
+    ],
+    "variables": [
+        "em"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "findBookWith1inTitle"
+    ],
+    "classes": [
+        "BookRepositoryCustomImpl"
+    ]
+}

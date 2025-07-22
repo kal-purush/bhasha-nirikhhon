@@ -1,0 +1,89 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "level",
+        "patternMap",
+        "newLevel",
+        "level",
+        "newLevel",
+        "newPatternMap",
+        "patternMap",
+        "newPatternMap",
+        "Random",
+        "Random",
+        "level",
+        "i",
+        "i",
+        "r",
+        "Next",
+        "Debug",
+        "Log",
+        "random",
+        "patternMap",
+        "random",
+        "i",
+        "patternMap",
+        "Length",
+        "i",
+        "patternMap",
+        "i"
+    ],
+    "literals": [
+        "\"Random number is:\""
+    ],
+    "variables": [
+        "level",
+        "patternMap",
+        "r",
+        "i",
+        "random",
+        "i"
+    ],
+    "comments": [
+        "Player's level min: 1, max: 3",
+        "values of the buttons -> 0: closed, 1: opened",
+        "Open the index of the random button to create the pattern",
+        "}else if(level == 2){",
+        "}else if(level == 3){",
+        "}",
+        "TODO: Might need to make it public if I need to access it from the controller class as well",
+        "// Start is called before the first frame update",
+        "void Start()",
+        "{",
+        "}",
+        "// Update is called once per frame",
+        "void Update()",
+        "{",
+        "}"
+    ],
+    "docstrings": [
+        "***** Variables Start *****\\\\",
+        "***** Variables End *****\\\\",
+        "***** Getter Functions Start *****\\\\",
+        "*  @brief getter function for level\n    *  @returns level type of int, current level",
+        "*  @brief getter function for patternMap\n    *  @returns patternMap type of int[], current map with button values",
+        "***** Getter Functions End *****\\\\",
+        "***** Setter Functions Start *****\\\\",
+        "*  @brief setter function to change the level\n    *  @param newLevel type of int, new level",
+        "*  @brief setter function to change the patternMap\n    *  @param newPatternMap type of int[], new values of the buttons",
+        "*  @brief function to generate new pattern",
+        "***** Setter Functions End *****\\\\",
+        "***** Helper Functions Start *****\\\\",
+        "*  @brief helper function to reset pattern map to a position in which all buttons are closed",
+        "***** Helper Functions End *****\\\\"
+    ],
+    "functions": [
+        "getLevel",
+        "getPatternMap",
+        "setLevel",
+        "setPatternMap",
+        "generatePattern",
+        "resetPatternMap"
+    ],
+    "classes": [
+        "PatternMatchingAbstraction"
+    ]
+}

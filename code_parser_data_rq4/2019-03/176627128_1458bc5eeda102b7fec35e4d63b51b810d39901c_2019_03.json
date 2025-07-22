@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "flask",
+        "Blueprint",
+        "flash",
+        "g",
+        "redirect",
+        "render_template",
+        "request",
+        "url_for",
+        "flaskr",
+        "auth",
+        "login_required",
+        "flaskr",
+        "db",
+        "get_db",
+        "Blueprint",
+        "bp",
+        "route",
+        "get_db",
+        "db",
+        "execute",
+        "fetchall",
+        "render_template",
+        "posts",
+        "posts",
+        "bp",
+        "route",
+        "render_template",
+        "bp",
+        "route",
+        "render_template"
+    ],
+    "literals": [
+        "'blog'",
+        "'/'",
+        "'blog/index.html'",
+        "'/create'",
+        "'blog/create.html'",
+        "'/update'",
+        "'blog/update.html'"
+    ],
+    "variables": [
+        "bp",
+        "db",
+        "posts"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''SELECT p.id, title, body, created, author_id, username\n         FROM post p JOIN user u ON p.author_id = u.id\n         ORDER BY created DESC'''"
+    ],
+    "functions": [
+        "index",
+        "create",
+        "update"
+    ],
+    "classes": []
+}

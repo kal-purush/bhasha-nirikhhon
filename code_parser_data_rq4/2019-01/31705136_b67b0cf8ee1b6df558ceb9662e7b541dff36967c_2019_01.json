@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "KSPDev",
+        "MathUtils",
+        "a",
+        "b",
+        "Abs",
+        "b",
+        "a",
+        "Epsilon"
+    ],
+    "literals": [],
+    "variables": [
+        "Epsilon"
+    ],
+    "comments": [
+        "Kerbal Development tools.",
+        "Author: igor.zavoychinskiy@gmail.com",
+        "This software is distributed under Public domain license.",
+        "<remarks>",
+        "This method requires the difference between the values to be negligible. The absolute values",
+        "are not counted.",
+        "</remarks>",
+        "<param name=\"a\">The first value to test.</param>",
+        "<param name=\"b\">The second value to test.</param>",
+        "<returns>",
+        "<c>true</c> if the values difference is negligible.",
+        "</returns>",
+        "namespace"
+    ],
+    "docstrings": [
+        "<summary>Gives extra methods for handling float values in the game.</summary>",
+        "<summary>Value which can be safely considered to be <c>0</c>.</summary>",
+        "<summary>Tells if the two floats are the same, allowing some small error.</summary>"
+    ],
+    "functions": [
+        "AreSame"
+    ],
+    "classes": [
+        "Mathf2"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "IRenderMime",
+        "Widget",
+        "Widget",
+        "IRenderMime",
+        "options",
+        "IRenderMime",
+        "options",
+        "CLASS_NAME",
+        "model",
+        "IRenderMime",
+        "model",
+        "data",
+        "IRenderMime",
+        "MIME_TYPE",
+        "options",
+        "OutputWidget",
+        "options",
+        "IRenderMime",
+        "MIME_TYPE",
+        "extension"
+    ],
+    "literals": [
+        "'@jupyterlab/rendermime-interfaces'",
+        "'@phosphor/widgets'",
+        "'../style/index.css'",
+        "'video/mp4'",
+        "'mimerenderer-mp4'",
+        "string",
+        "string",
+        "'jupyterlab-mp4:plugin'",
+        "'string'",
+        "'mp4'",
+        "'.mp4'",
+        "'JupyterLab mp4 viewer'",
+        "'mp4'",
+        "'mp4'",
+        "'mp4'"
+    ],
+    "variables": [
+        "MIME_TYPE",
+        "CLASS_NAME",
+        "data",
+        "rendererFactory",
+        "extension"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* The default mime type for the extension.",
+        "* The class name added to the extension.",
+        "* A widget for rendering mp4.",
+        "* Construct a new output widget.",
+        "* Render mp4 into this widget's node.",
+        "* A mime renderer factory for mp4 data.",
+        "* Extension definition."
+    ],
+    "functions": [
+        "renderModel"
+    ],
+    "classes": [
+        "OutputWidget"
+    ]
+}

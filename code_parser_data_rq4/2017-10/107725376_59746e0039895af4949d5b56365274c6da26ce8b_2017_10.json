@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "ca",
+        "ucalgary",
+        "seng300",
+        "a1",
+        "org",
+        "lsmr",
+        "vending",
+        "hardware",
+        "receptacle",
+        "pRacks",
+        "machine",
+        "receptacle",
+        "pRacks",
+        "machine",
+        "receptacle",
+        "receptacle",
+        "pRacks",
+        "pRacks",
+        "machine",
+        "machine",
+        "index",
+        "pRacks",
+        "index",
+        "isEmpty",
+        "machine",
+        "getPopKindName",
+        "index",
+        "receptacle",
+        "getValue",
+        "machine",
+        "getPopKindCost",
+        "index",
+        "receptacle",
+        "Purchase",
+        "machine",
+        "getPopKindCost",
+        "index",
+        "machine",
+        "getPopCanRack",
+        "index",
+        "dispensePopCan",
+        "e",
+        "e",
+        "e"
+    ],
+    "literals": [
+        "\"Out of \"",
+        "\"Insufficient Funds\""
+    ],
+    "variables": [
+        "receptacle",
+        "pRacks",
+        "machine"
+    ],
+    "comments": [
+        "SENG300 Group Assignment 1",
+        "Tae Chyung, Cameron Davies & Grace Ferguson (30004869)",
+        "Links the appropriate parts to their corresponding variables"
+    ],
+    "docstrings": [
+        "* Class that holds a reference to the parts of the machine necessary for\n * communication between parts of the vending machine.",
+        "* Function that is called by SelectionButtonListening\n\t * \n\t * index - index of the selectionButton calling the function\n\t * \n\t * Checks if the requested pop is available. If it is, checks to see if the\n\t * machine has enough credit to purchase the soda. If enough credit is\n\t * available, deducts the price of the appropriate pop and calls for the\n\t * machine to dispense said pop. Prints an appropriate message in each\n\t * instance."
+    ],
+    "functions": [
+        "VendCommunicator",
+        "linkVending",
+        "purchasePop"
+    ],
+    "classes": [
+        "VendCommunicator"
+    ]
+}

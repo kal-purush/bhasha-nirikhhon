@@ -1,0 +1,91 @@
+{
+    "identifiers": [
+        "RabbitMQMessageBroker",
+        "inject",
+        "lifeCycleObserver",
+        "LifeCycleObserver",
+        "Member",
+        "ProposalAcceptedMessage",
+        "Utils",
+        "lifeCycleObserver",
+        "inject",
+        "utils",
+        "process",
+        "rabbitMqEnabled",
+        "RabbitMQMessageBroker",
+        "rabbitMq",
+        "process",
+        "process",
+        "process",
+        "rabbitMq",
+        "message",
+        "message",
+        "message",
+        "proposalAcceptedMessage",
+        "proposalAcceptedMessage",
+        "members",
+        "proposalAcceptedMessage",
+        "members",
+        "membersToCreate",
+        "member",
+        "member",
+        "members",
+        "member",
+        "member",
+        "member",
+        "proposalAcceptedMessage",
+        "invites",
+        "logbookDetails",
+        "err",
+        "err",
+        "err",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "\"@esss-swap/duo-message-broker\"",
+        "\"@loopback/core\"",
+        "\"..\"",
+        "\"../utils\"",
+        "\"\"",
+        "\"utils\"",
+        "\"no\"",
+        "\"yes\"",
+        "\"localhost\"",
+        "\"rabbitmq\"",
+        "\"rabbitmq\"",
+        "\"PROPOSAL_ACCEPTED\"",
+        "\"PROPOSAL_ACCEPTED\"",
+        "\"Room created with details: \"",
+        "\"M_UNKNOWN_TOKEN\"",
+        "\"M_MISSING_TOKEN\"",
+        "\"Received unknown event\""
+    ],
+    "variables": [
+        "rabbitMqEnabled",
+        "rabbitMq",
+        "proposalAcceptedMessage",
+        "members",
+        "membersToCreate",
+        "invites",
+        "logbookDetails"
+    ],
+    "comments": [
+        "Add your logic for init",
+        "Add your logic for stop"
+    ],
+    "docstrings": [
+        "* This class will be bound to the application as a `LifeCycleObserver` during\n * `boot`",
+        "* This method will be invoked when the application initializes. It will be\n   * called at most once for a given application instance.",
+        "* This method will be invoked when the application starts.",
+        "* This method will be invoked when the application stops."
+    ],
+    "functions": [
+        "init",
+        "start",
+        "stop"
+    ],
+    "classes": [
+        "RabbitMqObserver"
+    ]
+}

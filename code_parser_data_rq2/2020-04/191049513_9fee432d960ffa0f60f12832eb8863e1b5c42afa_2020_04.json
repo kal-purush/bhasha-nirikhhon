@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "Provider",
+        "options",
+        "options",
+        "options",
+        "options",
+        "options",
+        "options",
+        "options",
+        "options",
+        "options",
+        "APP_ENV",
+        "ApiAppEnvironment"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "string",
+        "string",
+        "'Nx Ng Starter'",
+        "string",
+        "'Nx Ng Starter API'",
+        "'http://localhost:8081'",
+        "'production'",
+        "'firebase'",
+        "'appName'",
+        "'envoyUrl'",
+        "'API_ENV'"
+    ],
+    "variables": [
+        "APP_ENV",
+        "apiAppEnvProvider"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Application environment constructor options interface.",
+        "* Application name type.",
+        "* Application environment.\n * By default generates dev environment.",
+        "* Constructor.\n   * By default generates dev environment.\n   * @param options app env constructor options",
+        "* Api environment injection token."
+    ],
+    "functions": [],
+    "classes": [
+        "ApiAppEnvironment"
+    ]
+}

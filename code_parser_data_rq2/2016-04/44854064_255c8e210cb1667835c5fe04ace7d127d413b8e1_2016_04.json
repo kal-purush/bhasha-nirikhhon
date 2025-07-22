@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "openerp",
+        "tests",
+        "openerp",
+        "tests",
+        "common",
+        "at_install",
+        "openerp",
+        "tests",
+        "common",
+        "post_install",
+        "openerp",
+        "tests",
+        "HttpCase",
+        "phantom_js",
+        "link",
+        "code",
+        "login"
+    ],
+    "literals": [
+        "'/web#action=%s'",
+        "'mail.mail_channel_action_client_chat'",
+        "\"odoo.__DEBUG__.services['mail_archives.archives']\"",
+        "\"demo\""
+    ],
+    "variables": [
+        "code",
+        "link"
+    ],
+    "comments": [
+        "wait till page loaded and then click and wait again"
+    ],
+    "docstrings": [
+        "\"\"\"\n            setTimeout(function () {\n                $(\".mail_archives\").click();\n                setTimeout(function () {console.log('ok');}, 3000);\n            }, 1000);\n        \"\"\""
+    ],
+    "functions": [
+        "test_01_mail_archives"
+    ],
+    "classes": [
+        "TestUi"
+    ]
+}

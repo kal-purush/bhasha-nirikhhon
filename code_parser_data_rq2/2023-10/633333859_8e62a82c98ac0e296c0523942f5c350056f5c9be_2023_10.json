@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "uk",
+        "gov",
+        "laa",
+        "pfla",
+        "auth",
+        "service",
+        "beans",
+        "userPrincipalName",
+        "givenName",
+        "surname",
+        "preferredName",
+        "email",
+        "userPrincipalName",
+        "userPrincipalName",
+        "userPrincipalName",
+        "userPrincipalName",
+        "givenName",
+        "givenName",
+        "givenName",
+        "givenName",
+        "surname",
+        "surname",
+        "surname",
+        "surname",
+        "preferredName",
+        "preferredName",
+        "preferredName",
+        "preferredName",
+        "email",
+        "email",
+        "email",
+        "email",
+        "Override",
+        "userPrincipalName",
+        "givenName",
+        "surname",
+        "preferredName",
+        "email"
+    ],
+    "literals": [
+        "\"UserDetails{\"",
+        "\"userPrincipalName='\"",
+        "\", givenName='\"",
+        "\", surname='\"",
+        "\", preferredName='\"",
+        "\", email='\""
+    ],
+    "variables": [
+        "userPrincipalName",
+        "givenName",
+        "surname",
+        "preferredName",
+        "email"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* A bean to hold the basic details of a User as retrieved\n * from an external User Directory.",
+        "* The User Principal Name",
+        "* The given name for a User",
+        "* The User's surname",
+        "* The preferred name for the User",
+        "* The User's email address"
+    ],
+    "functions": [
+        "getUserPrincipalName",
+        "setUserPrincipalName",
+        "getGivenName",
+        "setGivenName",
+        "getSurname",
+        "setSurname",
+        "getPreferredName",
+        "setPreferredName",
+        "getEmail",
+        "setEmail",
+        "toString"
+    ],
+    "classes": [
+        "UserDetails"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "org",
+        "apache",
+        "poi",
+        "sl",
+        "usermodel",
+        "java",
+        "awt",
+        "Color",
+        "org",
+        "apache",
+        "poi",
+        "common",
+        "usermodel",
+        "fonts",
+        "FontGroup",
+        "org",
+        "apache",
+        "poi",
+        "common",
+        "usermodel",
+        "fonts",
+        "FontInfo",
+        "org",
+        "apache",
+        "poi",
+        "sl",
+        "usermodel",
+        "PaintStyle",
+        "SolidPaint",
+        "org",
+        "apache",
+        "poi",
+        "util",
+        "Internal",
+        "SuppressWarnings",
+        "HighlightColorSupport",
+        "color",
+        "color"
+    ],
+    "literals": [
+        "\"unused\"",
+        "\"java:S1452\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "====================================================================\n   Licensed to the Apache Software Foundation (ASF) under one or more\n   contributor license agreements.  See the NOTICE file distributed with\n   this work for additional information regarding copyright ownership.\n   The ASF licenses this file to You under the Apache License, Version 2.0\n   (the \"License\"); you may not use this file except in compliance with\n   the License.  You may obtain a copy of the License at\n\n       http://www.apache.org/licenses/LICENSE-2.0\n\n   Unless required by applicable law or agreed to in writing, software\n   distributed under the License is distributed on an \"AS IS\" BASIS,\n   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n   See the License for the specific language governing permissions and\n   limitations under the License.\n====================================================================",
+        "* An interface to provide support for get/set of highlight color in <code>XLSFTextRuns</code> instances.\n * Spec Ref: 21.1.2.3.4 (ECMA-376-1 5th ed. Ecma Office Open XML Part 1 - Fundamentals And Markup Language Reference.pdf)\n *\n * @since POI 5.2.4",
+        "* Returns the font highlight (background) color for this text run.\n     * This returns a {@link SolidPaint}, or null if no highlight is set.\n     *\n     * @return The font highlight (background) colour associated with the run, null if no highlight.\n     *\n     * @see org.apache.poi.sl.draw.DrawPaint#getPaint(java.awt.Graphics2D, PaintStyle)\n     * @see SolidPaint#getSolidColor()\n     * @since POI 5.2.4",
+        "* Set the highlight (background) color for this text run.\n     *\n     * @param color The highlight (background) color to set.\n     *\n     * @see org.apache.poi.sl.draw.DrawPaint#createSolidPaint(Color)\n     * @since POI 5.2.4",
+        "* Sets the font highlight (background) color for this text run - convenience function\n     *\n     * @param color The highlight (background) color to set.\n     * @since POI 5.2.4"
+    ],
+    "functions": [
+        "PaintStyle",
+        "getHighlightColor",
+        "setHighlightColor",
+        "setHighlightColor"
+    ],
+    "classes": []
+}

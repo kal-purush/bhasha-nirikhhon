@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Vue",
+        "Component",
+        "WithRender",
+        "ModulWebsite",
+        "ROUTES",
+        "COMPONENT_PROPERTIES",
+        "COMPONENT_OVERVIEW",
+        "Meta",
+        "ComponentMeta",
+        "ComponentAttribute",
+        "Overview",
+        "OverviewType",
+        "PagesActions",
+        "PagesGetters",
+        "WithRender",
+        "Component",
+        "ModulWebsite",
+        "PagesGetters",
+        "ROUTES",
+        "COMPONENT_PROPERTIES",
+        "ROUTES",
+        "COMPONENT_OVERVIEW"
+    ],
+    "literals": [
+        "'vue'",
+        "'vue-class-component'",
+        "'./page-details.html?style=./page-details.scss'",
+        "'../modul-website'",
+        "'@/app/router'",
+        "'@ulaval/modul-components/dist/meta/meta'",
+        "'@/app/store/modules/pages/actions'",
+        "'@/app/store/modules/pages/getters'",
+        "''",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "import store from './store';",
+        "this.$store.dispatch(ComponentsActions.COMPONENT_PREVIEW_GET, {",
+        "restAdapter: this.$http",
+        "});",
+        "return this.$store.getters[PagesGetters.GET_MARKDOWN_PREVIEW];",
+        "private get htmlTag(): string {",
+        "if (this.page) {",
+        "return `<${this.page}></${this.page}>`;",
+        "} else {",
+        "return '';",
+        "}",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "beforeUpdate",
+        "markdownPreview",
+        "page",
+        "properties",
+        "overview"
+    ],
+    "classes": [
+        "PageDetails"
+    ]
+}

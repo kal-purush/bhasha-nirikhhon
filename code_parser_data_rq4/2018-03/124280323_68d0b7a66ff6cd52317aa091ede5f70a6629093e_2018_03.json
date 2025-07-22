@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "Router",
+        "ObservableMedia",
+        "Component",
+        "media",
+        "router",
+        "ROUTE",
+        "i",
+        "i",
+        "ROUTE",
+        "ROUTE"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router'",
+        "'@angular/flex-layout'",
+        "'app-dashboard'",
+        "'./dashboard.component.html'",
+        "'./dashboard.component.scss'",
+        "'John Smith Smith'",
+        "\"Dashboard init\"",
+        "'/dashboard/informeasistencia'",
+        "'Informe de asistencia'",
+        "\"MENU = \"",
+        "'login'"
+    ],
+    "variables": [],
+    "comments": [
+        "// Servicios",
+        "import { AuthService } from '../../services/auth/auth.service'",
+        "import { DataService } from '../../services/data/data.service'",
+        "public authService : AuthService,",
+        "this.usuario.nombre = DataService.getSession().usuario.nombre",
+        "const SESSION = DataService.getSession()",
+        "for(let i in SESSION.usuario.roles) {",
+        "const rol = SESSION.usuario.roles[i]",
+        "if (rol.nombre === 'superadmin') {",
+        "this.addMenuItem({ path: '/dashboard/roles', name: 'Roles' })",
+        "this.addMenuItem({ path: '/dashboard/usuarios', name: 'Usuarios' })",
+        "this.addMenuItem({ path: '/dashboard/clientes', name: 'Clientes' })",
+        "}",
+        "if (rol.nombre === 'admin') {",
+        "this.addMenuItem({ path: '/dashboard/roles', name: 'Roles' })",
+        "this.addMenuItem({ path: '/dashboard/usuarios', name: 'Usuarios' })",
+        "}",
+        "}",
+        "this.authService.logout()"
+    ],
+    "docstrings": [],
+    "functions": [
+        "addMenuItem",
+        "ngOnInit",
+        "logout"
+    ],
+    "classes": [
+        "DashboardComponent"
+    ]
+}

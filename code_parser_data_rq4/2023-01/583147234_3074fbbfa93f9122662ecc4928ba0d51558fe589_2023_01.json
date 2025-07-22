@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "prefix",
+        "suffix",
+        "Wiki",
+        "WikiArrayItem",
+        "stringifyArray",
+        "arr",
+        "arr",
+        "arr",
+        "pre",
+        "item",
+        "pre",
+        "item",
+        "item",
+        "item",
+        "stringify",
+        "wiki",
+        "wiki",
+        "pre",
+        "item",
+        "item",
+        "pre",
+        "item",
+        "stringifyArray",
+        "item",
+        "pre",
+        "item",
+        "item",
+        "prefix",
+        "wiki",
+        "body",
+        "suffix"
+    ],
+    "literals": [
+        "'./shared'",
+        "'./types'",
+        "''",
+        "${pre}\\n[${item.k ? `${item.k}|` : ''}${item.v ?? ''}]",
+        "${item.k}|",
+        "''",
+        "''",
+        "''",
+        "${pre}\\n|${item.key} = {${stringifyArray(item.values)}\\n}",
+        "${pre}\\n|${item.key}=${item.value ?? ''}",
+        "''",
+        "''",
+        "${prefix} ${wiki.type}${body}\\n${suffix}"
+    ],
+    "variables": [
+        "stringifyArray",
+        "stringify",
+        "body"
+    ],
+    "comments": [
+        "eslint-disable unicorn/no-array-reduce"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

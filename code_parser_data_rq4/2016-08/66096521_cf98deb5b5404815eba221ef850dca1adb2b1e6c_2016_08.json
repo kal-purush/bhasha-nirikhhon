@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "angular",
+        "$resource",
+        "$resource"
+    ],
+    "literals": [
+        "'myApp'",
+        "'ngResource'",
+        "'Local'",
+        "'http://getaplace.herokuapp.com/api/lugares/'"
+    ],
+    "variables": [
+        "app"
+    ],
+    "comments": [
+        "var data = $resource('/api/lugares', {\n      locais:{\n        method:'GET'\n      }\n    });\n    return local;",
+        "",
+        "angular.module('myApp.controllers',[]);",
+        "",
+        "angular.module('myApp.controllers').controller('ResourceController',function($scope, LocalService) {",
+        "$stateProvider.state('locais', { // state for showing all movies",
+        "url: '',",
+        "controller: 'LocaisListController'",
+        "});",
+        "}).run(function($state) {",
+        "$state.go('locais'); //make a transition to movies state when app starts",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

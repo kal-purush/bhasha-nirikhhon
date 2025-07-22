@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "styled",
+        "banner",
+        "cores",
+        "styled",
+        "banner",
+        "cores"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'../../assets/images/Banner.png'",
+        "'../../styles'",
+        "background-image: linear-gradient(#00000080, #00000080), url(${banner});\n  background-size: cover;\n  background-position: center;\n  height: 300px;\n  color: ${cores.branco};\n  position: relative;\n  font-size: 32px;\n\n  h2 {\n    position: absolute;\n    top: 20px;\n    left: 170px;\n    font-weight: 100;\n    font-weight: 100;\n  }\n  h1 {\n    position: absolute;\n    bottom: 20px;\n    left: 170px;\n    font-weight: 900;\n  }"
+    ],
+    "variables": [
+        "BannerSection"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

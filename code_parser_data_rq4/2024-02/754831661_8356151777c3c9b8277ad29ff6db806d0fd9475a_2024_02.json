@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "NextApiRequest",
+        "NextApiResponse",
+        "req",
+        "res",
+        "req",
+        "fetch",
+        "coordinates",
+        "process",
+        "response",
+        "response",
+        "res",
+        "error",
+        "error",
+        "res"
+    ],
+    "literals": [
+        "\"next\"",
+        "https://api.mapbox.com/isochrone/v1/mapbox/driving/${coordinates}?contours_minutes=10,16,25&contours_colors=89623e,24e813,4282f4&polygons=true&access_token=${process.env.NEXT_PUBLIC_MAPBOX_API_KEY}",
+        "\"Failed to generate isochrones\"",
+        "\"Error generating isochrones:\"",
+        "\"Failed to generate isochrones\""
+    ],
+    "variables": [
+        "response",
+        "data",
+        "isochrones",
+        "data"
+    ],
+    "comments": [
+        "Make a request to the Mapbox Isochrone API"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handler"
+    ],
+    "classes": []
+}

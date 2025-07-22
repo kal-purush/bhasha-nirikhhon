@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "org",
+        "lp20",
+        "aikuma",
+        "servers",
+        "serialVersionUID",
+        "uri",
+        "dated",
+        "uri",
+        "dated",
+        "uri",
+        "dated",
+        "uri",
+        "v",
+        "uri",
+        "v",
+        "dated"
+    ],
+    "literals": [],
+    "variables": [
+        "uri",
+        "dated"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* A prcess log recording whether a file has been copied, and\n * whether the date of copy has been recorded.\n * \n * @author haejoong",
+        "* Create a new log.",
+        "* Tells whether the file has been copied.\n\t * @return",
+        "* Tells whether the date of copy has been recorded.\n\t * @return",
+        "* Get data store uri for the file (download url).\n\t * @return uri",
+        "* Records that the file has been copied.\n\t * @param v data store uri for the file (download url)",
+        "* Records that the date of copy has been recorded."
+    ],
+    "functions": [
+        "ProcessLog",
+        "isCopied",
+        "isDated",
+        "getUri",
+        "setUri",
+        "setDated"
+    ],
+    "classes": [
+        "ProcessLog"
+    ]
+}

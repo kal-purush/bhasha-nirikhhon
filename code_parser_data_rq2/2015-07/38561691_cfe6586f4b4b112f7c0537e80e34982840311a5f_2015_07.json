@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "text",
+        "text",
+        "initialText",
+        "callback",
+        "tex",
+        "callback",
+        "initialText",
+        "callingFunction",
+        "myCallBack"
+    ],
+    "literals": [
+        "string",
+        "\"inside myCallback \"",
+        "string",
+        "string",
+        "\"myText\""
+    ],
+    "variables": [],
+    "comments": [
+        "var a:Number = 23;\n\nenum doorstate{\n\topen,\n\tclose = 0,\n\tajar\n}\nalert(doorstate[0]);",
+        "var\tconcatStrings\t=\tfunction(a?:\tstring,\tb:\tstring = \"s\",\t...args:\tstring[]){\t\t\t\t\n\treturn\ta\t+\tb\t+\targs; \n\t\t}\nconsole.log(concatStrings(\"a\",\t\"b\",\t\"c\")); \nconsole.log(concatStrings(\"a\",\t\"b\")); \nconsole.log(concatStrings(\"a\",\t\"b\",\t\"c\",\"f\",\"s\",\"j\"));",
+        "if (true) {\n  let a = 4;\n  // use a\n}\nelse {\n  let a = \"string\";\n  // use a\n}\n\nalert(a);",
+        "let myany = Array<number>[]\nmyany = ['string',23,true]",
+        "let myType : any = { name: \"Zia\", id: 1 };\nmyType = { id: 2,  name: \"Tom\" };// can only assign a type which has the at least the same properties\nmyType = { id: 3,  name: \"Mike\", gender: false };//can add a property\nmyType = { name: \"Mike\", gender: true };",
+        "enum Color {Red, Green, Blue};//starts with 0\nvar c: Color = Color.Green;\nconsole.log(c);\n\nenum Color1 {Red = 1, Green, Blue};\nvar colorName: string = Color[2];\nconsole.log(colorName);\n\nenum Color2 {Red = 1, Green = 2, Blue = 4};//can assign values to all\nvar colorIndex = Color2[\"Blue\"];\nconsole.log(colorIndex);",
+        "var add = (a: number, b: number) => {\n    return a + b;\n}\n\nvar add1 = (x: number, y: number) => x + y;\n\nvar myFunction = () => { this.x = \"x\"; }\nvar e = new myFunction();\nalert(e.x);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "myCallBack",
+        "callingFunction"
+    ],
+    "classes": []
+}

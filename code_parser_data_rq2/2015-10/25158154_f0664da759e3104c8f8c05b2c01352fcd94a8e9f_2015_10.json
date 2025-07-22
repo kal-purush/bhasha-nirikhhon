@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "logging",
+        "holonet",
+        "interfaces",
+        "handler",
+        "Handler",
+        "holonet",
+        "members",
+        "utils",
+        "logging",
+        "getLogger",
+        "Handler",
+        "classmethod",
+        "cls",
+        "message_list",
+        "message",
+        "meta",
+        "meta",
+        "get",
+        "message",
+        "sender",
+        "utils",
+        "retrieve_member_by_email",
+        "sender",
+        "user",
+        "user",
+        "member",
+        "acknowledge_posts"
+    ],
+    "literals": [
+        "'handler.acknowledge'",
+        "'original_sender'"
+    ],
+    "variables": [
+        "log",
+        "sender",
+        "user"
+    ],
+    "comments": [
+        "We found the member that wants to receive an acknowledgement",
+        "TODO: Construct a message and send it to the user.",
+        "Return True, just for testing"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Send an acknowledgment of the successful post to the sender.\n\n    This only happens if the sender has set their acknowledge_posts attribute.\n    \"\"\""
+    ],
+    "functions": [
+        "process"
+    ],
+    "classes": [
+        "Acknowledge"
+    ]
+}

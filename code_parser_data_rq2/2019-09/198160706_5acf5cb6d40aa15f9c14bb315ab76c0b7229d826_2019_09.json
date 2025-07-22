@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Injectable",
+        "FileSaver",
+        "XLSX",
+        "Injectable",
+        "json",
+        "excelFileName",
+        "XLSX",
+        "XLSX",
+        "json",
+        "worksheet",
+        "XLSX",
+        "worksheet",
+        "XLSX",
+        "workbook",
+        "excelBuffer",
+        "excelFileName",
+        "buffer",
+        "fileName",
+        "Blob",
+        "buffer",
+        "EXCEL_TYPE",
+        "FileSaver",
+        "data",
+        "fileName",
+        "EXCEL_EXTENSION"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'file-saver'",
+        "'xlsx'",
+        "'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;charset=UTF-8'",
+        "'.xlsx'",
+        "string",
+        "'worksheet'",
+        "'data'",
+        "'data'",
+        "'xlsx'",
+        "'array'",
+        "string",
+        "'_export_'"
+    ],
+    "variables": [
+        "EXCEL_TYPE",
+        "EXCEL_EXTENSION",
+        "worksheet",
+        "workbook",
+        "excelBuffer",
+        "data"
+    ],
+    "comments": [
+        "const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'buffer' });"
+    ],
+    "docstrings": [],
+    "functions": [
+        "exportAsExcelFile",
+        "saveAsExcelFile"
+    ],
+    "classes": [
+        "ExcelService"
+    ]
+}

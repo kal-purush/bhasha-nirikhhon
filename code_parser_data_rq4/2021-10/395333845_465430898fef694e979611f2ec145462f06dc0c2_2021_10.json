@@ -1,0 +1,87 @@
+{
+    "identifiers": [
+        "addCoords",
+        "Coords",
+        "equalCoords",
+        "isInside",
+        "Patterns",
+        "zero",
+        "Producer",
+        "Polygons",
+        "hexAround",
+        "radius",
+        "center",
+        "Polygons",
+        "radius",
+        "c",
+        "addCoords",
+        "c",
+        "center",
+        "overlappingHexBuilder",
+        "initialCoords",
+        "zero",
+        "HexBuilder",
+        "initialCoords",
+        "initialCoords",
+        "oppositeCorner",
+        "radius",
+        "Patterns",
+        "Patterns",
+        "HexesProducer",
+        "radius",
+        "oppositeCorner",
+        "radius",
+        "firstCenter",
+        "topLeft",
+        "bottomRight",
+        "firstCenter",
+        "center",
+        "center",
+        "hexAround",
+        "center",
+        "c",
+        "isInside",
+        "c",
+        "c",
+        "c2",
+        "equalCoords",
+        "c",
+        "c2",
+        "newHex",
+        "newHex",
+        "newHex",
+        "newHex",
+        "newHex",
+        "c",
+        "c"
+    ],
+    "literals": [
+        "\"../coords\"",
+        "\"../patterns\"",
+        "\"../producers\"",
+        "\"../shapes/regular-polygons\"",
+        "recursing into ${newHex.length} points"
+    ],
+    "variables": [
+        "hexAround",
+        "overlappingHexBuilder",
+        "newHex"
+    ],
+    "comments": [
+        "recurse until all generated points are out of bounds (or already known?)",
+        "bypass points outside boundaries",
+        "bypass points we've already used as a \"center\""
+    ],
+    "docstrings": [
+        "* From a given center, generates hexagons at each vertex of the previously generated hexagon,\n * until reaching boundaries."
+    ],
+    "functions": [
+        "hexesUntil",
+        "queueHex",
+        "next"
+    ],
+    "classes": [
+        "HexBuilder",
+        "HexesProducer"
+    ]
+}

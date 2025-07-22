@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "gulp",
+        "browserSync",
+        "gulp",
+        "gulp",
+        "browserSync",
+        "gulp",
+        "gulp",
+        "sass",
+        "concatCss",
+        "gulp",
+        "gulp"
+    ],
+    "literals": [
+        "'gulp'",
+        "'browser-sync'",
+        "'gulp-sass'",
+        "'gulp-concat-css'",
+        "'serve'",
+        "'sass'",
+        "\"./src\"",
+        "\"src/sass/**/*.sass\"",
+        "'sass'",
+        "\"src/*.html\"",
+        "'change'",
+        "'sass'",
+        "\"./sass/**/*.sass\"",
+        "\"style.css\"",
+        "\"src/css\"",
+        "'default'",
+        "'serve'"
+    ],
+    "variables": [
+        "gulp",
+        "browserSync",
+        "sass",
+        "concatCss"
+    ],
+    "comments": [
+        "Запускаем сервер + отслеживаем sass/html файлы",
+        "Компилируем sass в CSS и вставляем изменения в браузер",
+        ".pipe(browserSync.stream());",
+        "// Выгружаем все файлы через FTP на хостинг\ngulp.task('ftp', function () {\nreturn gulp.src('src/**')\n.pipe(ftp({\n    host: '',\n    user: '',\n    pass: '',\n    remotePath: '/'\n}))\n.pipe(gutil.noop());\n});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

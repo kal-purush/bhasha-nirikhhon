@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "view",
+        "opts",
+        "view",
+        "opts",
+        "e",
+        "e",
+        "e",
+        "clientHeight",
+        "scrollTop",
+        "startIdx",
+        "VisibleNum",
+        "startIdx",
+        "endIdx",
+        "startIdx",
+        "item",
+        "idx",
+        "li",
+        "li",
+        "idx",
+        "li",
+        "item",
+        "li",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "'.list-view-content'",
+        "'px'",
+        "'scroll'",
+        "''",
+        "'li'",
+        "'list-view-item'",
+        "translateY(${(idx + this.offset) * this.itemHeight}px)"
+    ],
+    "variables": [
+        "scrollTop",
+        "clientHeight",
+        "VisibleNum",
+        "startIdx",
+        "endIdx",
+        "li"
+    ],
+    "comments": [
+        "固定元素高度",
+        "整个列表的高度, 用来撑开滚动条"
+    ],
+    "docstrings": [
+        "* 1. 计算可视区域的起始数据索引\n * 2. 计算可视区的域结束索引\n * 3. 计算起始数据索引对应的数据在视图中的偏移位置\n * \n * TODO:\n *  1. 实现不固定高度的虚拟列表"
+    ],
+    "functions": [
+        "init",
+        "updateVisibleData",
+        "updateDOM",
+        "add",
+        "totalHeight"
+    ],
+    "classes": [
+        "VirtualList"
+    ]
+}

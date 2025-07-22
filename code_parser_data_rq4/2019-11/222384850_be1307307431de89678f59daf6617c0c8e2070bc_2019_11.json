@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "partitionId",
+        "partitionId",
+        "partitionId",
+        "partitionId",
+        "partitionId",
+        "partitionId",
+        "partitionId",
+        "partitionId",
+        "partitionId",
+        "parseInt",
+        "partitionId",
+        "isNaN",
+        "partitionNumber",
+        "partitionId"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "\"all\"",
+        "\"all\"",
+        "\"all\"",
+        "Partition already has a subscriber.",
+        "string",
+        "\"all\"",
+        "string",
+        "\"all\"",
+        "Invalid partition number ${partitionId}"
+    ],
+    "variables": [
+        "partitionNumber"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft Corporation. All rights reserved.",
+        "Licensed under the MIT License."
+    ],
+    "docstrings": [
+        "* Used by EventHubConsumerClient to prevent accidentally spinning up multiple\n * subscriptions against the same set of partitions.\n * \n * This is needed now that EventHubConsumerClient only uses a single CheckpointStore\n * instance - otherwise users will see unpredictable results as their event processor\n * continually steals/overwrites checkpointing and ownership with itself.\n *  \n * @internal\n * @ignore",
+        "* Adds a partition, throwing an Error if there is a conflict with partitions (including \"all\")\n   * that are already added.\n   * \n   * @param partitionId A partition ID or the constant \"all\"",
+        "* Removes a partition\n   * \n   * @param partitionId A partition ID or the constant \"all\""
+    ],
+    "functions": [
+        "add",
+        "remove",
+        "_validatePartitionId"
+    ],
+    "classes": [
+        "PartitionGate"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "numbers",
+        "numbers",
+        "a",
+        "b",
+        "a",
+        "b"
+    ],
+    "literals": [
+        "\"use strict\""
+    ],
+    "variables": [],
+    "comments": [
+        "Write a function that takes an array of numbers and returns the sum of the numbers. The numbers can be negative or non-integer. If the array does not contain any numbers then you should return 0.\n\nExamples\nInput: [1, 5.2, 4, 0, -1]\nOutput: 9.2\n\nInput: []\nOutput: 0\n\nInput: [-2.398]\nOutput: -2.398\n\nAssumptions\nYou can assume that you are only given numbers.\nYou cannot assume the size of the array.\nYou can assume that you do get an array and if the array is empty, return 0.\nWhat We're Testing\nWe're testing basic loops and math operations. This is for beginners who are just learning loops and math operations.\nAdvanced users may find this extremely easy and can easily write this in one line.",
+        "Sum Numbers"
+    ],
+    "docstrings": [],
+    "functions": [
+        "sum"
+    ],
+    "classes": []
+}

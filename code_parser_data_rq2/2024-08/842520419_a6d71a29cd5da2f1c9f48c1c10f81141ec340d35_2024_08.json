@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "cont",
+        "data",
+        "cont",
+        "data",
+        "data",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "<div class=\"card\">\n            <div class=\"card-top\">\n               <img src=\"../../${data.src}\" alt\n                  id=\"card-img\" class=\"card-img\">\n                    </div>\n             <div class=\"card-bottom\">\n               <p>${data.title}</p>\n                       <p class=\"price\">${data.price} <span\n                             class=\"old-price\">${data.oldPrice}</span></p>\n                         <p class=\"size\"><span\n                    class=\"size-text\">Size</span>\n                S,M,L,XL,XXL</p>\n           </div>\n      </div>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "createCard",
+        "displayCominSoon"
+    ],
+    "classes": []
+}

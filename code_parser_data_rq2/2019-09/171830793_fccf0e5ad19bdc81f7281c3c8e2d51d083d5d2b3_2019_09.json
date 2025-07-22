@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "processor",
+        "describe",
+        "it",
+        "processor",
+        "inputChunks",
+        "expect",
+        "result",
+        "expect",
+        "result",
+        "inputChunks",
+        "it",
+        "processor",
+        "inputChunks",
+        "expect",
+        "result",
+        "inputChunks",
+        "expect",
+        "result",
+        "inputChunks"
+    ],
+    "literals": [
+        "'../src'",
+        "'rehype html'",
+        "'formats only the html chunk'",
+        "<div><span >Format me!</span> \n  </div>",
+        "import React from \"react\"; import {Link} from \"react-router\"",
+        "\\n<div><span>Format me!</span></div>\\n",
+        "'skips formatting if no html chunk is found'",
+        "'.test { margin: 10px; }'",
+        "import React from \"react\"; import {Link} from \"react-router\""
+    ],
+    "variables": [
+        "inputChunks",
+        "result",
+        "inputChunks",
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

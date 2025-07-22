@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "FormFlow",
+        "State",
+        "Dfc",
+        "CourseDirectory",
+        "WebV2",
+        "Tests",
+        "IUserInstanceStateStore",
+        "_data",
+        "_data",
+        "Clear",
+        "key",
+        "data",
+        "_data",
+        "key",
+        "data",
+        "key",
+        "data",
+        "_data",
+        "TryGetValue",
+        "key",
+        "data"
+    ],
+    "literals": [],
+    "variables": [
+        "_data"
+    ],
+    "comments": [
+        "An in-memory store for FormFlow instances used by tests.",
+        "</summary>",
+        "<remarks>",
+        "This allows persisting instance state outside of an HTTP request.",
+        "</remarks>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "TestUserInstanceStateStore",
+        "Clear",
+        "SetState",
+        "TryGetState"
+    ],
+    "classes": [
+        "TestUserInstanceStateStore"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "L",
+        "L",
+        "mymap",
+        "L",
+        "mymap",
+        "L",
+        "mymap",
+        "L",
+        "e",
+        "popup",
+        "e",
+        "e",
+        "mymap",
+        "mymap",
+        "onMapClick",
+        "Lat",
+        "alert",
+        "alert",
+        "Name",
+        "Lat",
+        "Lng",
+        "L",
+        "Lat",
+        "Lng",
+        "mymap",
+        "Type"
+    ],
+    "literals": [
+        "'mapid'",
+        "'https://api.mapbox.com/styles/v1/mapbox/satellite-streets-v9/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiY3RhbGRpZ2l0YWwiLCJhIjoiY2lzbWIwMjg5MDBsdzJwbXgwNmlzb2hheSJ9.FKZvqxN3MiQK0OCJ9YLpGQ'",
+        "'Map data &copy; <a href=\"https://www.openstreetmap.org/\">OpenStreetMap</a> contributors, '",
+        "'<a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA</a>, '",
+        "'Imagery © <a href=\"https://www.mapbox.com/\">Mapbox</a>'",
+        "\"<b>House available!</b><br />1 bed 1 bath\"",
+        "\"<b>Hostel available!</b><br />4 room 2 bathroom\"",
+        "\"You clicked the map at \"",
+        "'click'",
+        "\"Submit\"",
+        "\"text\"",
+        "\"Thank you for your submission\"",
+        "\"Lat\"",
+        "\"Lng\"",
+        "\"Name\"",
+        "\"Type\"",
+        "\"Well done! You got it!\"",
+        "\"Nope! The number was \"",
+        "\"This is a \""
+    ],
+    "variables": [
+        "mymap",
+        "popup",
+        "Lat",
+        "Lng",
+        "Name",
+        "Type"
+    ],
+    "comments": [
+        "Use .openPopup(); to have the popup visible on start",
+        "{L.circle([51.508, -0.11], 500, {\n\tcolor: 'red',\n\tfillColor: '#f03',\n\tfillOpacity: 0.5\n}).addTo(mymap).bindPopup(\"I am a circle.\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "onMapClick"
+    ],
+    "classes": []
+}

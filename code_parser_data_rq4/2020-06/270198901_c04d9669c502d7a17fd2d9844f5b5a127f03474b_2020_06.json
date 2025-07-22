@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "requests",
+        "input",
+        "word",
+        "requests",
+        "get",
+        "url",
+        "r",
+        "json",
+        "k",
+        "data",
+        "k",
+        "data",
+        "k",
+        "i",
+        "len",
+        "data",
+        "k",
+        "i",
+        "data",
+        "k",
+        "i",
+        "IndexError"
+    ],
+    "literals": [
+        "\"Enter a word: \"",
+        "'https://dictionaryapi.com/api/v3/references/collegiate/json/'",
+        "'?key=acce992a-5cd9-40e4-8f23-4022f7547159'",
+        "\"fl\"",
+        "\":\"",
+        "\"shortdef\"",
+        "'-'",
+        "\"shortdef\""
+    ],
+    "variables": [
+        "word",
+        "url",
+        "r",
+        "data"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "%%"
+    ],
+    "docstrings": [
+        "\"\"\"\nCreated on Sat Jun  6 21:01:48 2020\n\n@author: Soumitra\n\"\"\"",
+        "\"\"\"\nSECTION 1: \nHere I made an API call using my personal API key.\nThe Merriam Webster Dictionary\nreturned the json object which\nwas converted to dictionary\nin python.\n\"\"\"",
+        "\"\"\"\nSection 2:\nThe defination of the word was extracted from the dictionary.\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

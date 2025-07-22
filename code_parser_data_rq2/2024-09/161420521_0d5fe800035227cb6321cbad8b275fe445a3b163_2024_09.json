@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "com",
+        "open",
+        "annotation",
+        "java",
+        "lang",
+        "annotation",
+        "ElementType",
+        "java",
+        "lang",
+        "annotation",
+        "Retention",
+        "java",
+        "lang",
+        "annotation",
+        "RetentionPolicy",
+        "java",
+        "lang",
+        "annotation",
+        "Target",
+        "java",
+        "util",
+        "concurrent",
+        "TimeUnit",
+        "Target",
+        "ElementType",
+        "METHOD",
+        "Retention",
+        "RetentionPolicy",
+        "RUNTIME",
+        "AntiShake",
+        "preKey",
+        "value",
+        "timeUnit",
+        "TimeUnit",
+        "MILLISECONDS"
+    ],
+    "literals": [
+        "\"\""
+    ],
+    "variables": [],
+    "comments": [
+        "运行时保留，这样才能在AOP中被检测到"
+    ],
+    "docstrings": [
+        "* 接口防抖注解（仅作用于方法）\n * @author zc\n * @date 2024/9/20 16:50",
+        "* redis key 的前缀",
+        "* 默认防抖时间1秒",
+        "* 时间单位,默认为毫秒"
+    ],
+    "functions": [],
+    "classes": []
+}

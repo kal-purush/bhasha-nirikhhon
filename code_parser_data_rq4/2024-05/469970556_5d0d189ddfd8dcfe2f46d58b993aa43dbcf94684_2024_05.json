@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "data_dict",
+        "data_dict",
+        "sample",
+        "results",
+        "data_dict",
+        "items",
+        "rv",
+        "results",
+        "rv",
+        "pop",
+        "first",
+        "first",
+        "data_dict",
+        "data_dict",
+        "data_dict",
+        "sample",
+        "results",
+        "data_dict",
+        "items",
+        "variant",
+        "details",
+        "results",
+        "items",
+        "min",
+        "details",
+        "values",
+        "earliest",
+        "details",
+        "get",
+        "data_dict"
+    ],
+    "literals": [
+        "'version'",
+        "'1.0.1'",
+        "'results'",
+        "'variants'",
+        "'date_of_phenotype_match'",
+        "'first_seen'",
+        "'first_tagged'",
+        "'evidence_last_updated'",
+        "'version'",
+        "'1.0.1'",
+        "'results'",
+        "'categories'",
+        "'first_tagged'",
+        "'support_vars'",
+        "'support_vars'"
+    ],
+    "variables": [
+        "rv",
+        "first",
+        "rv",
+        "rv",
+        "earliest",
+        "details",
+        "details"
+    ],
+    "comments": [
+        "check we're upgrading the right version",
+        "this could be from any prior version",
+        "this doesn't matter, pydantic can handle it"
+    ],
+    "docstrings": [
+        "\"\"\"\ncode for lifting over models from 1.0.0 to 1.0.1\n\"\"\"",
+        "\"\"\"\n    Lift over ResultData from 1.0.0 to 1.0.1\n    Requires the adjustment of \"first_seen\" to \"first_tagged\"\n    \"\"\"",
+        "\"\"\"\n    Lift over HistoricVariants from 1.0.0 to 1.0.1\n    Requires the adjustment of \"first_seen\" to \"first_tagged\"\n    in results.sample.variant.first_seen\n    \"\"\""
+    ],
+    "functions": [
+        "resultdata",
+        "historicvariants"
+    ],
+    "classes": []
+}

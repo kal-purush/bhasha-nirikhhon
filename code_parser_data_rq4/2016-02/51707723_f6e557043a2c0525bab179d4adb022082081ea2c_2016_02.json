@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Component",
+        "Contacts",
+        "ContactComponent",
+        "ContactDetailComponent",
+        "About",
+        "ROUTER_DIRECTIVES",
+        "RouteConfig",
+        "Component",
+        "ROUTER_DIRECTIVES",
+        "RouteConfig",
+        "Contacts",
+        "ContactComponent",
+        "ContactDetailComponent",
+        "About"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./contacts.component'",
+        "'./contact.component'",
+        "'./contact.detail.component'",
+        "'./about.component'",
+        "'angular2/router'",
+        "'angular2/router'",
+        "'my-app'",
+        "'app/css/app.css'",
+        "<div id=\"myApp\">\n            <h3>Component : my-app</h3>\n            <header>\n                <nav>\n                    <a [routerLink]=\"['Contacts']\">Contacts</a>\n                    <a [routerLink]=\"['About']\">About</a>\n                </nav>\n            </header>\n            <div>\n                <router-outlet></router-outlet>\n            </div>\n        </div>",
+        "'/contacts'",
+        "'Contacts'",
+        "'/contact/:lastname/:firstname/:age'",
+        "'Contact'",
+        "'/contactDetail'",
+        "'ContactDetail'",
+        "'/about'",
+        "'About'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppComponent"
+    ]
+}

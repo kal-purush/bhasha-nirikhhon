@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "images",
+        "slide",
+        "index",
+        "slide",
+        "index",
+        "slideImage",
+        "images",
+        "e",
+        "e",
+        "counter",
+        "prev",
+        "counter",
+        "counter",
+        "counter",
+        "images",
+        "slideImage",
+        "next",
+        "counter",
+        "images",
+        "counter",
+        "counter",
+        "slideImage"
+    ],
+    "literals": [
+        "\"#wrapper\"",
+        "\"#image-carousel\"",
+        "\"#slide_img\"",
+        "${index * 100}%",
+        "translateX(-${counter * 100}%)"
+    ],
+    "variables": [
+        "wrapper",
+        "carousel",
+        "images",
+        "counter",
+        "slideImage",
+        "prev",
+        "next"
+    ],
+    "comments": [
+        "const btn = document.querySelectorAll('.slide_button')",
+        "const previous = document.querySelector('#prev')",
+        "const nxt = document.querySelector('#next')",
+        "console.log(counter);",
+        "console.log(counter);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "IO",
+        "MediaBrowser",
+        "Common",
+        "Plugins",
+        "MediaBrowser",
+        "Controller",
+        "Plugins",
+        "MediaBrowser",
+        "Channels",
+        "TouTv",
+        "Configuration"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "internal class ConfigurationPage : IPluginConfigurationPage\n    {\n        public string Name\n        {\n            get { return \"Tou.tv\"; }\n        }\n\n        public ConfigurationPageType ConfigurationPageType\n        {\n            get { return ConfigurationPageType.PluginConfiguration; }\n        }\n\n        public IPlugin Plugin\n        {\n            get { return TouTv.Plugin.Instance; }\n        }\n\n        public Stream GetHtmlStream()\n        {\n\n            return GetType().Assembly.GetManifestResourceStream(\"MediaBrowser.Channels.TouTv.Configuration.configPage.html\");\n        }\n    }"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

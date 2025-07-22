@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "N",
+        "N",
+        "N",
+        "N",
+        "offline_mode_check",
+        "env",
+        "env",
+        "general_offline_mode",
+        "N",
+        "env",
+        "g_id",
+        "g_id",
+        "admin_group_id",
+        "env",
+        "env"
+    ],
+    "literals": [
+        "'use strict'",
+        "'server:admin.*'",
+        "'offline_mode_check'",
+        "'server:users.auth.login.*'",
+        "'offline_mode_check'",
+        "'server:*'",
+        "'general_offline_mode'",
+        "'administrators'",
+        "'@common.server_under_maintenance'"
+    ],
+    "variables": [
+        "general_offline_mode",
+        "admin_group_id"
+    ],
+    "comments": [
+        "Show \"under maintenance\" message if server in offline mode",
+        "",
+        "Allow admin panel in offline mode",
+        "Allow login in offline mode",
+        "Check if user in `administrators` group",
+        "Allow access, but show message about offline mode",
+        "503 Service Unavailable"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

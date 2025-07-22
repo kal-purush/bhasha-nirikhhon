@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "rb2d",
+        "GetComponent",
+        "Rigidbody2D",
+        "count",
+        "Input",
+        "GetAxis",
+        "Vector2",
+        "moveHorizontal",
+        "rb2d",
+        "AddForce",
+        "movement",
+        "speed",
+        "Collider2D",
+        "other",
+        "other",
+        "gameObject",
+        "CompareTag",
+        "other",
+        "gameObject",
+        "SetActive",
+        "count",
+        "count"
+    ],
+    "literals": [
+        "\"Horizontal\"",
+        "\"PickUp\""
+    ],
+    "variables": [
+        "speed",
+        "Rigidbody2D",
+        "rb2d",
+        "count",
+        "moveHorizontal",
+        "Vector2",
+        "movement"
+    ],
+    "comments": [
+        "Use this for initialization",
+        "Update is called once per frame",
+        "Store the current horizontal input in the float moveHorizontal.",
+        "Store the current vertical input in the float moveVertical.",
+        "float moveVertical = Input.GetAxis(\"Vertical\");",
+        "Use the two store floats to create a new Vector2 variable movement.",
+        "Call the AddForce function of our Rigidbody2D rb2d supplying movement multiplied by speed to move our player.",
+        "OnTriggerEnter2D is called whenever this object overlaps with a trigger collider.",
+        "Check the provided Collider2D parameter other to see if it is tagged \"PickUp\", if it is...",
+        "... then set the other object we just collided with to inactive.",
+        "Add one to the current value of our count variable."
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "FixedUpdate",
+        "OnTriggerEnter2D"
+    ],
+    "classes": [
+        "PlayerController"
+    ]
+}

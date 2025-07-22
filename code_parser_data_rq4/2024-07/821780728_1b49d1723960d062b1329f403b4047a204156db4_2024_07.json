@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "op",
+        "create_table",
+        "sa",
+        "Column",
+        "sa",
+        "nullable",
+        "sa",
+        "Column",
+        "sa",
+        "nullable",
+        "sa",
+        "ForeignKeyConstraint",
+        "sa",
+        "ForeignKeyConstraint",
+        "sa",
+        "PrimaryKeyConstraint",
+        "op",
+        "add_column",
+        "sa",
+        "Column",
+        "sa",
+        "nullable",
+        "server_default",
+        "op",
+        "drop_table",
+        "op",
+        "drop_column"
+    ],
+    "literals": [
+        "\"795b20b85b4b\"",
+        "\"05c07bf07c00\"",
+        "\"llm_provider__user_group\"",
+        "\"llm_provider_id\"",
+        "\"user_group_id\"",
+        "\"llm_provider_id\"",
+        "\"llm_provider.id\"",
+        "\"user_group_id\"",
+        "\"user_group.id\"",
+        "\"llm_provider_id\"",
+        "\"user_group_id\"",
+        "\"llm_provider\"",
+        "\"is_public\"",
+        "\"true\"",
+        "\"llm_provider__user_group\"",
+        "\"llm_provider\"",
+        "\"is_public\""
+    ],
+    "variables": [
+        "revision",
+        "down_revision",
+        "branch_labels",
+        "depends_on"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"add_llm_group_permissions_control\n\nRevision ID: 795b20b85b4b\nRevises: 05c07bf07c00\nCreate Date: 2024-07-19 11:54:35.701558\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

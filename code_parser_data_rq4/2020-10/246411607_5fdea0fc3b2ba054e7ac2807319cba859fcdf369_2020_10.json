@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "loguru",
+        "logger",
+        "slack",
+        "WebClient",
+        "slack",
+        "errors",
+        "SlackApiError",
+        "slack_channel",
+        "slack_api_token",
+        "slack_channel",
+        "WebClient",
+        "token",
+        "slack_api_token",
+        "message",
+        "client",
+        "chat_postMessage",
+        "channel",
+        "channel",
+        "text",
+        "message",
+        "SlackApiError",
+        "e",
+        "logger",
+        "error",
+        "e",
+        "response"
+    ],
+    "literals": [
+        "'C01D98JCTFB'",
+        "'xoxb-975992389859-1019087916167-Co72eTBZ62ArPfw4B1JxSM5z'",
+        "\"Could not notify Slack, received error: %s\"",
+        "\"error\""
+    ],
+    "variables": [
+        "SLACK_CHANNEL",
+        "SLACK_API_TOKEN",
+        "channel",
+        "client",
+        "response"
+    ],
+    "comments": [
+        "just log Slack failures but don't break on them"
+    ],
+    "docstrings": [
+        "\"\"\"Notify Slack about screenshot errors\"\"\""
+    ],
+    "functions": [
+        "notify_slack"
+    ],
+    "classes": [
+        "SlackNotifier"
+    ]
+}

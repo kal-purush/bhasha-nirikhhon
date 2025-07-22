@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "random",
+        "input",
+        "n",
+        "l1",
+        "append",
+        "n",
+        "l1",
+        "l1",
+        "random",
+        "choice",
+        "l1",
+        "l1",
+        "remove",
+        "x",
+        "l2",
+        "append",
+        "x",
+        "show",
+        "input",
+        "ValueError",
+        "m",
+        "input_student",
+        "m",
+        "rand",
+        "m",
+        "l1",
+        "m",
+        "l2",
+        "m",
+        "main"
+    ],
+    "literals": [
+        "'请输入学生姓名: '",
+        "'已经抽取完了'",
+        "'*******************'",
+        "'1.增加姓名          '",
+        "'2.随机抽取          '",
+        "'3.查看剩余名单       '",
+        "'4.查看已抽取名单     '",
+        "'5.退出              '",
+        "'*******************'",
+        "'请输入:'",
+        "'输入错误'",
+        "'剩余名单是:'",
+        "'已抽取名单是:'"
+    ],
+    "variables": [
+        "l1",
+        "l2",
+        "n",
+        "x",
+        "m"
+    ],
+    "comments": [
+        "select country,name,gongji from sanguo where",
+        "-> gongji in (",
+        "-> select max(gongji) from sanguo group by country)",
+        "-> group by country;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "input_student",
+        "rand",
+        "show",
+        "main"
+    ],
+    "classes": []
+}

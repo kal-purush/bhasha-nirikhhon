@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "app",
+        "session",
+        "session",
+        "err",
+        "err",
+        "err",
+        "session",
+        "app",
+        "flushCookiesStore",
+        "session",
+        "app",
+        "flushCookiesStore",
+        "session"
+    ],
+    "literals": [
+        "'electron'",
+        "'before-quit'",
+        "'browser-window-blur'"
+    ],
+    "variables": [],
+    "comments": [
+        "Somehow cookies are not immediately saved to disk.",
+        "So manually flush cookie store to disk on closing the app.",
+        "https://github.com/electron/electron/issues/8416"
+    ],
+    "docstrings": [],
+    "functions": [
+        "flushCookiesStore",
+        "initCookieManager"
+    ],
+    "classes": []
+}

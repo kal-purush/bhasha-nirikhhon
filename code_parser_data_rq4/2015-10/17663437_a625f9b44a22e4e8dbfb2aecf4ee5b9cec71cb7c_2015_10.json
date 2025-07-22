@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "com",
+        "opentrain",
+        "test",
+        "com",
+        "opentrain",
+        "app",
+        "model",
+        "WifiScanResult",
+        "org",
+        "json",
+        "JSONObject",
+        "org",
+        "junit",
+        "Before",
+        "org",
+        "junit",
+        "Test",
+        "org",
+        "junit",
+        "Assert",
+        "assertEquals",
+        "Before",
+        "Test",
+        "wifiScanResult1",
+        "currentTimeMillis",
+        "wifiScanResult2",
+        "currentTimeMillis",
+        "json",
+        "wifiScanResult1",
+        "toJson",
+        "jsonString",
+        "json",
+        "toString",
+        "assertEquals",
+        "jsonString"
+    ],
+    "literals": [
+        "\"1\"",
+        "\"S-ISRAEL-RAILWAYS\"",
+        "\"2\"",
+        "\"S-ISRAEL-RAILWAYS\"",
+        "\"3\"",
+        "\"S-ISRAEL-RAILWAYS\"",
+        "\"\""
+    ],
+    "variables": [],
+    "comments": [
+        "TODO: Change \"\" to expected json.",
+        "TODO: Fix this - jsonString is always null because of missing library implementation in unit test: http://stackoverflow.com/questions/3951274/how-to-unit-test-json-parsing"
+    ],
+    "docstrings": [
+        "* Created by Elina on 24 Oct 2015.\n * This test tests the WifiScanResultTest class."
+    ],
+    "functions": [
+        "setUp",
+        "testJsonSaveAndLoad"
+    ],
+    "classes": [
+        "WifiScanResultTest"
+    ]
+}

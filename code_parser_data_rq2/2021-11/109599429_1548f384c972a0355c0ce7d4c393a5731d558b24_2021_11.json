@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "req",
+        "res",
+        "AppConstants",
+        "req",
+        "clientIp",
+        "req",
+        "res",
+        "req",
+        "readLocationData",
+        "clientIp",
+        "req",
+        "locationData",
+        "req",
+        "locationData",
+        "res",
+        "req",
+        "res"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "\"../app-constants\"",
+        "\"../ip-location-service\"",
+        "\"dev\"",
+        "\"216.160.83.56\""
+    ],
+    "variables": [
+        "AppConstants",
+        "clientIp",
+        "locationData"
+    ],
+    "comments": [
+        "IP location data includes GeoLite2 data created by MaxMind, available from https://www.maxmind.com.",
+        "For testing, you can compare IPs to the corresponding json, eg: https://github.com/maxmind/MaxMind-DB/blob/main/source-data/GeoLite2-City-Test.json",
+        "for dev, return an IP that exists in GeoLite2 test DB, e.g. 216.160.83.56",
+        "return cached data",
+        "cache new location data, adding clientIP key"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getIpLocation"
+    ],
+    "classes": []
+}

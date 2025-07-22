@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "provide",
+        "Type",
+        "Provider",
+        "IterableDiffers",
+        "MongoCursorDifferFactory",
+        "bootstrap",
+        "ng2Bootstrap",
+        "providers",
+        "provide",
+        "IterableDiffers",
+        "IterableDiffers",
+        "MongoCursorDifferFactory",
+        "providers",
+        "meteorProviders",
+        "appComponentType",
+        "providers",
+        "ng2Bootstrap",
+        "appComponentType"
+    ],
+    "literals": [
+        "'reflect-metadata'",
+        "'angular2/core'",
+        "'angular2-meteor/mongo_cursor_differ'",
+        "'angular2/bootstrap'"
+    ],
+    "variables": [
+        "providers",
+        "METEOR_PROVIDERS"
+    ],
+    "comments": [
+        "return ng2Bootstrap(appComponentType, [].concat(METEOR_PROVIDERS, providers || []));"
+    ],
+    "docstrings": [],
+    "functions": [
+        "meteorProviders",
+        "bootstrap"
+    ],
+    "classes": []
+}

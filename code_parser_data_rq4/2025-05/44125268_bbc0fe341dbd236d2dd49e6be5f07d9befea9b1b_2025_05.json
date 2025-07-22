@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Threading",
+        "Tasks",
+        "Marten",
+        "Microsoft",
+        "Extensions",
+        "Configuration",
+        "Microsoft",
+        "Extensions",
+        "Hosting",
+        "EventSourcingTests",
+        "Examples",
+        "Host",
+        "CreateApplicationBuilder",
+        "builder",
+        "Services",
+        "AddMarten",
+        "opts",
+        "Connection",
+        "builder",
+        "Configuration",
+        "GetConnectionString",
+        "opts",
+        "Events",
+        "EnableSideEffectsOnInlineProjections"
+    ],
+    "literals": [
+        "\"marten\""
+    ],
+    "variables": [
+        "builder"
+    ],
+    "comments": [
+        "This is your magic setting to tell Marten to process any projection",
+        "side effects even when running Inline"
+    ],
+    "docstrings": [],
+    "functions": [
+        "bootstrap"
+    ],
+    "classes": [
+        "UsingInlineSideEffects"
+    ]
+}

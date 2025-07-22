@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "com",
+        "google",
+        "cloud",
+        "tools",
+        "opensource",
+        "dependencies",
+        "java",
+        "util",
+        "Objects",
+        "node",
+        "parentPath",
+        "node",
+        "parentPath",
+        "node",
+        "parentPath",
+        "node",
+        "node",
+        "parentPath",
+        "parentPath",
+        "Override",
+        "other",
+        "other",
+        "other",
+        "getClass",
+        "other",
+        "getClass",
+        "that",
+        "other",
+        "Objects",
+        "equals",
+        "node",
+        "that",
+        "node",
+        "Objects",
+        "equals",
+        "parentPath",
+        "that",
+        "parentPath",
+        "Override",
+        "Objects",
+        "hash",
+        "node",
+        "parentPath"
+    ],
+    "literals": [],
+    "variables": [
+        "node",
+        "parentPath"
+    ],
+    "comments": [
+        "This may be null for the root"
+    ],
+    "docstrings": [
+        "* Copyright 2020 Google LLC.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* The item in the queue for the graph traversal when constructing {@link DependencyGraph}.\n *\n * @param <T> The type of the input graph node. It's {@code DependencyNode} for Maven's graph and\n *     {@code ResolvedDependency} for Gradle's graph.",
+        "Returns the node in the graph traversal.",
+        "Returns the path from the root of the graph to the parent of the node."
+    ],
+    "functions": [
+        "T",
+        "getNode",
+        "DependencyPath",
+        "getParentPath",
+        "LevelOrderQueueItem",
+        "equals",
+        "hashCode"
+    ],
+    "classes": [
+        "LevelOrderQueueItem"
+    ]
+}

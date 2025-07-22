@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "name",
+        "name",
+        "i",
+        "player_list",
+        "append",
+        "TestPlayer",
+        "format",
+        "i"
+    ],
+    "literals": [
+        "'player{}'"
+    ],
+    "variables": [
+        "name",
+        "targets",
+        "assassins",
+        "player_list"
+    ],
+    "comments": [
+        "!/usr/bin/env python"
+    ],
+    "docstrings": [
+        "'''\nNeed to store targets in an adjacency matrix like so:\ntargets = [v0 v1 v2 v3 v4 v5]\ntargets[0] = v0 = [1 2 5] - player 0 has targets 1, 2, 5\nNeed to avoid cycles, multiple edges (could be sets rather than lists), and 3-cycles (target triangles where each vertex is the target of the other two.) \n\n\nA player must always have three distinct\ntargets and three distinct assassins, and a player may not target their own\nassassins (or indeed themselves). In graph theoretic terms this is equivalent\nto saying that the targetting graph must remain `simple'\n\nFor initial targetting, a completely random (simple) targetting graph is \ngenerated. While this meets the first two goals, it is very badly suited for \nthe third, on occasions blocking after fewer than 10 deaths. The reason for \nthis is the existence of `3-cycles', groups of 3 players, all of whom are \nlegal targets for each other. It is impossible for a blockage to occur without \npassing through a 3-cycle state, so avoiding these is an excellent way of \ncutting down on blockages. To this end, the targetter randomly reassigns links \nwhich cause 3-cycles to occur until none remain.\n\nAt this point, the targetting graph is finished, and all that remains is to \nassign players to nodes on the graph. This is where the seeding mechanism takes\neffect. The players are sorted by their umpire-assigned seed values (with random\nsorting where these are equal). They are then placed into the targetting graph \nfrom the highest seed down, in such a way as to maximise the distance between \nthe player being added and all previous players. Obviously, this ceases to be \nuseful once we reach the point where all empty graph locations are adjacent to \nan existing player. \n'''"
+    ],
+    "functions": [],
+    "classes": [
+        "TestPlayer"
+    ]
+}

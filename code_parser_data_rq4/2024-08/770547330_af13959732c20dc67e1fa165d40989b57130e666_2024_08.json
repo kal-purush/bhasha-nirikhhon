@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Win32",
+        "TaskScheduler",
+        "TaskService",
+        "ts",
+        "NewTask",
+        "td",
+        "RegistrationInfo",
+        "Description",
+        "DailyTrigger",
+        "DaysInterval",
+        "dailyTrigger",
+        "StartBoundary",
+        "Today",
+        "TimeSpan",
+        "FromHours",
+        "td",
+        "Triggers",
+        "Add",
+        "dailyTrigger",
+        "td",
+        "Actions",
+        "Add",
+        "ExecAction",
+        "ts",
+        "RootFolder",
+        "RegisterTaskDefinition",
+        "td",
+        "WriteLine"
+    ],
+    "literals": [
+        "\"Ejecutar comando CMD\"",
+        "\"cmd.exe\"",
+        "\"mysqldump -u root -p proyecto > \\\\\\\\ALEX\\\\Users\\\\Public\\\\respaldo\\\\backup.sql\\r\\n\"",
+        "\"C:\\\\Program Files\\\\MariaDB 11.3\\\\bin\"",
+        "\"Tarea programada exitosamente.\""
+    ],
+    "variables": [
+        "TaskService",
+        "ts",
+        "TaskDefinition",
+        "td",
+        "DailyTrigger",
+        "dailyTrigger"
+    ],
+    "comments": [
+        "Crear una nueva tarea",
+        "Configurar el disparador (trigger)",
+        "Configurar la acción",
+        "Registrar la tarea en el programador de tareas"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Asignar"
+    ],
+    "classes": [
+        "BackupScheduling"
+    ]
+}

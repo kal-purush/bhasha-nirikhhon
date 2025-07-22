@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "ChangeDetectionStrategy",
+        "Component",
+        "EventEmitter",
+        "Input",
+        "Output",
+        "Component",
+        "ChangeDetectionStrategy",
+        "Input",
+        "value",
+        "value",
+        "value",
+        "Input",
+        "value",
+        "value",
+        "value",
+        "Output",
+        "EventEmitter",
+        "Output",
+        "EventEmitter"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'nb-calendar-actions'",
+        "<button\n      nbButton\n      ghost\n      status=\"primary\"\n      size=\"small\"\n      (click)=\"setCurrentTime.emit()\">\n      {{ currentTimeText }}</button>\n    <button\n      nbButton\n      status=\"primary\"\n      size=\"small\"\n      (click)=\"saveValue.emit()\">\n      {{ applyText }}</button>",
+        "'./calendar-actions.component.scss'",
+        "string",
+        "'ok'",
+        "string",
+        "'now'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "applyButtonText",
+        "applyText",
+        "currentTimeButtonText",
+        "currentTimeText"
+    ],
+    "classes": [
+        "NbCalendarActionsComponent"
+    ]
+}

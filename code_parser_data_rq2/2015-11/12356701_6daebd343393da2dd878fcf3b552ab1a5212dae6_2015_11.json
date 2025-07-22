@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "com",
+        "github",
+        "diamond",
+        "web",
+        "model",
+        "checkSuccess",
+        "checkId",
+        "message",
+        "checkSuccess",
+        "checkSuccess",
+        "checkSuccess",
+        "checkSuccess",
+        "checkId",
+        "checkId",
+        "checkId",
+        "checkId",
+        "message",
+        "message",
+        "message",
+        "message"
+    ],
+    "literals": [],
+    "variables": [
+        "checkSuccess",
+        "checkId",
+        "message"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* 配置检查结果类\n *\n * Author: yuwang@iflytek.com\n * Date: 2015/11/10 11:24",
+        "* 检查是否成功 0表示失败，1和2表示成功，1表示无重复数据，2表示数据重复",
+        "* 检查ID",
+        "* 检查结果消息"
+    ],
+    "functions": [
+        "getCheckSuccess",
+        "setCheckSuccess",
+        "getCheckId",
+        "setCheckId",
+        "getMessage",
+        "setMessage"
+    ],
+    "classes": [
+        "ConfigCheckResult"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "axios",
+        "courseId",
+        "axios",
+        "result",
+        "axios",
+        "result",
+        "data",
+        "axios",
+        "data",
+        "result",
+        "courseTaskId",
+        "data",
+        "axios",
+        "courseTaskId",
+        "data",
+        "result",
+        "courseTaskId",
+        "axios",
+        "courseTaskId",
+        "result"
+    ],
+    "literals": [
+        "'axios'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "/api/course/${this.courseId}/tasks",
+        "/api/course/${this.courseId}/stages",
+        "/api/course/${this.courseId}/task",
+        "/api/course/${this.courseId}/task/${courseTaskId}",
+        "/api/course/${this.courseId}/task/${courseTaskId}"
+    ],
+    "variables": [
+        "result",
+        "result",
+        "result",
+        "result",
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getCourseTasks",
+        "getStages",
+        "createCourseTask",
+        "updateCourseTask",
+        "deleteCourseTask"
+    ],
+    "classes": [
+        "CourseService"
+    ]
+}

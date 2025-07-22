@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "os",
+        "unittest",
+        "mock",
+        "patch",
+        "urllib",
+        "parse",
+        "urljoin",
+        "buildpack",
+        "telemetry",
+        "dynatrace",
+        "unittest",
+        "TestCase",
+        "TestCase",
+        "assertFalse",
+        "dynatrace",
+        "is_enabled",
+        "urljoin",
+        "url",
+        "dynatrace",
+        "INGEST_ENDPOINT",
+        "token",
+        "url",
+        "patch",
+        "os",
+        "environ",
+        "env_vars",
+        "dynatrace",
+        "get_ingestion_info",
+        "token",
+        "expected_ingest_url",
+        "assertEqual",
+        "expected_info",
+        "actual_info"
+    ],
+    "literals": [
+        "\"DUMMY_TOKEN\"",
+        "\"DUMMY_URL\"",
+        "\"DT_PAAS_TOKEN\"",
+        "\"DT_SAAS_URL\""
+    ],
+    "variables": [
+        "token",
+        "url",
+        "expected_ingest_url",
+        "env_vars",
+        "actual_info",
+        "expected_info"
+    ],
+    "comments": [
+        "Should be False without necessary environment variables",
+        "for get_ingestion_info(), also covers enabled case of is_enabled()"
+    ],
+    "docstrings": [],
+    "functions": [
+        "test_is_enabled_false",
+        "test_get_ingestion_info"
+    ],
+    "classes": [
+        "TestDynatrace"
+    ]
+}

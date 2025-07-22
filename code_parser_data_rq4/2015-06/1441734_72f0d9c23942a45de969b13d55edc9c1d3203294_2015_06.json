@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "helper",
+        "CompatTestCase",
+        "validator",
+        "compat",
+        "FX39_DEFINITION",
+        "CompatTestCase",
+        "FX39_DEFINITION",
+        "run_script_for_compat",
+        "assert_silent",
+        "assert_compat_warning",
+        "type_",
+        "run_script_for_compat",
+        "assert_silent",
+        "assert_compat_warning",
+        "type_",
+        "run_script_for_compat",
+        "assert_silent",
+        "assert_compat_warning",
+        "type_"
+    ],
+    "literals": [
+        "\"warning\"",
+        "\"warning\"",
+        "\"warning\""
+    ],
+    "variables": [
+        "VERSION"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Test that compatibility tests for Gecko 39 are properly executed.\"\"\"",
+        "\"\"\"\n            var o = {\n              __noSuchMethod__: function(id, args) {\n                console.log(id, '(' + args.join(', ') + ')');\n              }\n          };\n        \"\"\"",
+        "\"\"\"\n            var o = {};\n            o.__noSuchMethod__ = function(id, args) {\n              console.log(id, '(' + args.join(', ') + ')');\n            };\n        \"\"\"",
+        "\"\"\"\n            var o = {};\n            o['__noSuchMethod__'] = function(id, args) {\n              console.log(id, '(' + args.join(', ') + ')');\n            };\n        \"\"\""
+    ],
+    "functions": [
+        "test_noSuchMethod_literal",
+        "test_noSuchMethod_assignment",
+        "test_noSuchMethod_string_assignment"
+    ],
+    "classes": [
+        "TestFX39Compat"
+    ]
+}

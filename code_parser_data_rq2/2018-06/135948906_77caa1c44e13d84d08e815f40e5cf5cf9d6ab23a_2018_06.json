@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "AudioContext",
+        "AudioContext",
+        "webkitAudioContext",
+        "CompatibleAudioContext",
+        "navigator",
+        "context",
+        "STANDARD_SAMPLE_RATE",
+        "context",
+        "STANDARD_SAMPLE_RATE",
+        "context",
+        "dummy",
+        "buffer",
+        "dummy",
+        "context",
+        "dummy",
+        "dummy",
+        "context",
+        "context",
+        "CompatibleAudioContext",
+        "context"
+    ],
+    "literals": [
+        "'undefined'"
+    ],
+    "variables": [
+        "webkitAudioContext",
+        "STANDARD_SAMPLE_RATE",
+        "CompatibleAudioContext",
+        "context",
+        "buffer",
+        "dummy"
+    ],
+    "comments": [
+        "A TypeScript port of https://github.com/Jam3/ios-safe-audio-context",
+        "Which fixes an iOS bug where the sample rate of Web Audio is sect incorrectly",
+        "Check if hack is necessary. Only occurs in iOS6+ devices",
+        "and only when you first boot the iPhone, or play a audio/video",
+        "with a different sample rate",
+        "dispose old context"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createAudioContext"
+    ],
+    "classes": []
+}

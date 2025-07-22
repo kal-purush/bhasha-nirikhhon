@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Transform",
+        "TransformOptions",
+        "s",
+        "value",
+        "EnumFallback",
+        "transformOptions",
+        "Transform",
+        "value",
+        "value",
+        "value",
+        "value",
+        "fallback",
+        "value",
+        "value",
+        "transformOptions"
+    ],
+    "literals": [
+        "'class-transformer'",
+        "string"
+    ],
+    "variables": [
+        "EnumFallback"
+    ],
+    "comments": [
+        "eslint-disable-next-line no-null/no-null"
+    ],
+    "docstrings": [
+        "* Options for EnumFallback decorator.",
+        "* The enum type to check against.",
+        "* A function that returns the fallback value.\n   * @param value The invalid value.",
+        "* Return given literal value if it is included in the specific enum type.\n * Otherwise, return the value provided by the given fallback function."
+    ],
+    "functions": [],
+    "classes": []
+}

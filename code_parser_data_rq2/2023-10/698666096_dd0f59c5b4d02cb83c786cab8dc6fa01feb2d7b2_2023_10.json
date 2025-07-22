@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "CryptoMarketApiClient",
+        "ExchangeRateNotFound",
+        "SingleRate",
+        "NbpApiClient",
+        "buildDateString",
+        "nbpClient",
+        "acceptedFiats",
+        "acceptedFiats",
+        "nbpClient",
+        "cryptocurrencyCode",
+        "fetch",
+        "tickerResponse",
+        "parsedResponse",
+        "parsedResponse",
+        "entry",
+        "entry",
+        "fiat",
+        "cryptocurrencyCode",
+        "fiat",
+        "keys",
+        "k",
+        "k",
+        "key",
+        "ExchangeRateNotFound",
+        "cryptocurrencyCode",
+        "e",
+        "e",
+        "key",
+        "keys",
+        "key",
+        "fiat",
+        "nbpRate",
+        "nbpRate",
+        "parseFloat",
+        "rate",
+        "fiat"
+    ],
+    "literals": [
+        "\"./CryptoMarketApiClient\"",
+        "\"./NbpApiClient\"",
+        "\"./buildDateString\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'https://api.binance.com/api/v3/ticker/price'",
+        "'application/json'",
+        "${cryptocurrencyCode}${fiat}",
+        "'binance'"
+    ],
+    "variables": [
+        "tickerResponse",
+        "parsedResponse",
+        "keys",
+        "key",
+        "rate",
+        "fiat",
+        "nbpRate"
+    ],
+    "comments": [
+        "BTCPLN",
+        "https://api.binance.com/api/v3/ticker/price"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchRate"
+    ],
+    "classes": [
+        "BinanceApiClient"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "db",
+        "Pouch",
+        "init",
+        "db",
+        "resp",
+        "resp",
+        "row",
+        "fields",
+        "row",
+        "row",
+        "fields",
+        "row",
+        "db",
+        "resp",
+        "resp",
+        "row",
+        "fields",
+        "row",
+        "row",
+        "fields",
+        "fieldKey",
+        "fields",
+        "fieldKey",
+        "fields",
+        "fieldList",
+        "render",
+        "fields",
+        "fields",
+        "React",
+        "Browser",
+        "fields"
+    ],
+    "literals": [
+        "'react'",
+        "'pouchdb'",
+        "'../Browser.jsx'",
+        "'test-db'",
+        "'field'",
+        "'field~'",
+        "'valuesForField/valuesForField'"
+    ],
+    "variables": [
+        "React",
+        "Pouch",
+        "Browser",
+        "db",
+        "actionCreator",
+        "fields",
+        "fieldList"
+    ],
+    "comments": [
+        "require('little-pouch-db')(new Pouch('test-db'))",
+        ".then(function(pouch) {",
+        "window.db = db = pouch;",
+        "init();",
+        "})",
+        ";",
+        "Fields are like:\n  [\n    {\n      id: ...\n      name: ...\n      values: [\n        { ... },\n        { ... }\n      ]\n    }\n  ]"
+    ],
+    "docstrings": [],
+    "functions": [
+        "init",
+        "render"
+    ],
+    "classes": []
+}

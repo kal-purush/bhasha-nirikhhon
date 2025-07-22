@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "org",
+        "jboss",
+        "tools",
+        "openshift",
+        "core",
+        "connection",
+        "java",
+        "util",
+        "Collection",
+        "org",
+        "jboss",
+        "tools",
+        "openshift",
+        "common",
+        "core",
+        "connection",
+        "ConnectionsRegistrySingleton",
+        "com",
+        "openshift",
+        "restclient",
+        "model",
+        "IResource",
+        "resource",
+        "all",
+        "ConnectionsRegistrySingleton",
+        "getInstance",
+        "getAll",
+        "connection",
+        "all",
+        "connection",
+        "ownsResource",
+        "resource",
+        "connection"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*****************************************************************************\n * Copyright (c) 2015 Red Hat, Inc.\n * Distributed under license by Red Hat, Inc. All rights reserved.\n * This program is made available under the terms of the\n * Eclipse Public License v1.0 which accompanies this distribution,\n * and is available at http://www.eclipse.org/legal/epl-v10.html\n *\n * Contributors:\n *     Red Hat, Inc. - initial API and implementation\n *****************************************************************************",
+        "* Utility class to augment the connections registry\n * for OpenShift Connections\n * \n * @author jeff.cantrill\n *",
+        "* Retrieve the connection for the given resource or null\n\t * if its not found\n\t * \n\t * @param resource\n\t * @return a connection"
+    ],
+    "functions": [
+        "ConnectionsRegistryUtil",
+        "Connection",
+        "getConnectionFor"
+    ],
+    "classes": [
+        "ConnectionsRegistryUtil"
+    ]
+}

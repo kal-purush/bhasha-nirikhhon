@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "Component",
+        "Component"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'app-if-exampl'",
+        "<p *ngIf = \"condition; else unset\">\n    Hello Mate!\n  </p>\n  <ng-template #unset>\n    <p>By-by friend</p>\n  </ng-template>\n  <button (click) = \"tupple()\">Toggle</button>"
+    ],
+    "variables": [],
+    "comments": [
+        "@Component({\n  selector: 'app-if-exampl',\n  template: `<p *ngIf=\"condition\">\n                  Привет мир\n                 </p>\n                 <p *ngIf=\"!condition\">\n                   Пока мир\n                 </p>\n        <button (click) = \"tupple()\">Toggle</button>`\n})"
+    ],
+    "docstrings": [],
+    "functions": [
+        "tupple"
+    ],
+    "classes": [
+        "IfExamplComponent"
+    ]
+}

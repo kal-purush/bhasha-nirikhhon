@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "require",
+        "constants",
+        "BinaryInt",
+        "VarChar",
+        "BinaryInt",
+        "BinaryInt",
+        "BinaryInt"
+    ],
+    "literals": [
+        "'@pg'",
+        "'tfb-database'",
+        "'benchmarkdbuser'",
+        "'benchmarkdbpass'",
+        "'hello_world'",
+        "''",
+        "'fortunes'",
+        "'select * from Fortune'",
+        "'id'",
+        "'message'",
+        "''",
+        "'worlds'",
+        "'select id, randomNumber from World where id = $1'",
+        "'id'",
+        "'randomnumber'",
+        "'fortunes.html'",
+        "'Hello, World!'",
+        "'Additional fortune added at request time.'"
+    ],
+    "variables": [
+        "postgres",
+        "postgres",
+        "constants",
+        "db",
+        "fortunes",
+        "worlds",
+        "templates",
+        "maxQuery",
+        "maxRows",
+        "message",
+        "json",
+        "extra"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

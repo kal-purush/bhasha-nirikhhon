@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "require",
+        "defineSupportCode",
+        "callback",
+        "callback",
+        "arg1",
+        "callback",
+        "callback"
+    ],
+    "literals": [
+        "'cucumber'",
+        "'pending'",
+        "'pending'"
+    ],
+    "variables": [],
+    "comments": [
+        "const path = require('path');",
+        "const exec = require('child_process').exec;",
+        "const assert = require('assert');",
+        "const fs = require('fs-promise');",
+        "const mkdirp = require('mkdirp-promise')",
+        "const rmfr = require('rmfr')",
+        "const tempDir = path.resolve(__dirname + '/../../tmp');",
+        "Write code here that turns the phrase above into concrete actions",
+        "Write code here that turns the phrase above into concrete actions"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

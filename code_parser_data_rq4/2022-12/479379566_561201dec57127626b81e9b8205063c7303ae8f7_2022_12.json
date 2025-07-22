@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "org",
+        "eclipse",
+        "jdt",
+        "core",
+        "IClasspathAttributeDelta",
+        "ADDED",
+        "REMOVED",
+        "CHANGED"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*****************************************************************************\n * Copyright (c) 2022 Simeon Andreev and others.\n *\n * This program and the accompanying materials\n * are made available under the terms of the Eclipse Public License 2.0\n * which accompanies this distribution, and is available at\n * https://www.eclipse.org/legal/epl-2.0/\n *\n * SPDX-License-Identifier: EPL-2.0\n ******************************************************************************",
+        "* A delta which describes changes in {@link IClasspathAttribute} of a classpath\n * between two discrete points in time.  Given a delta,\n * clients can access the name of the affected attribute\n * as well as the current value of the attribute.\n * <p>\n * Deltas have a different status depending on the kind of change they represent.\n * The list below summarizes each status (as returned by {@link #getKind})\n * and its meaning (see individual constants for a more detailed description):\n * <ul>\n * <li>{@link #ADDED} - The attribute has been added.</li>\n * <li>{@link #REMOVED} - The attribute has been removed.</li>\n * <li>{@link #CHANGED} - The value of the attribute has been changed.\n * </ul>\n *\n * @since 3.33",
+        "* Status constant indicating that the attribute has been added.\n\t *\n\t * @see #getKind()",
+        "* Status constant indicating that the attribute has been removed.\n\t *\n\t * @see #getKind()",
+        "* Status constant indicating that the attribute has been changed.\n\t *\n\t * @see #getKind()",
+        "* Returns the kind of this delta - one of {@link #ADDED}, {@link #REMOVED},\n\t * or {@link #CHANGED}.\n\t *\n\t * @return the kind of this delta",
+        "* Returns the name of the affected attribute.\n\t *\n\t * @return the name of the attribute",
+        "* Returns the current value of the affected attribute.\n\t *\n\t * @return the value of the attribute"
+    ],
+    "functions": [
+        "getKind",
+        "getAttributeName",
+        "getAttributeValue"
+    ],
+    "classes": []
+}

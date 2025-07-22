@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Response",
+        "ApiService",
+        "Injectable",
+        "api",
+        "repo",
+        "excludeAppBranches",
+        "repo",
+        "repo",
+        "BranchesService",
+        "excludeAppBranches",
+        "excludeAppBranches",
+        "ApiService",
+        "username",
+        "repository",
+        "response",
+        "excludeAppBranches",
+        "response",
+        "branchName",
+        "regex",
+        "branchName",
+        "response",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/http'",
+        "'rxjs/add/operator/toPromise'",
+        "'./'",
+        "'-localehub'",
+        "string",
+        "string",
+        "'/'",
+        "'/'",
+        "'$'",
+        "${ApiService.endpoint.prod}/branches/${username}/${repository}",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "username",
+        "repository",
+        "regex"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Get all branches' names from the giver username/repository couple.\n   * Github base request : GET api.github.com/repos/{owner}/{repo}/branches\n   *   | using lambda: gh-get-repos-branches\n   *   | using lambda: branches-get\n   *\n   * @param {string} repo - Ex: yllieth/localehub\n   * @param {boolean} [excludeAppBranches=true] - If true, branches suffixed by APP_SUFFIX aren't returned\n   * @returns {Promise<string[]>}"
+    ],
+    "functions": [
+        "getNames"
+    ],
+    "classes": [
+        "BranchesService"
+    ]
+}

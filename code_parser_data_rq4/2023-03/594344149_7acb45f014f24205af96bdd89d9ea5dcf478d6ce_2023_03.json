@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "django",
+        "db",
+        "models",
+        "django",
+        "contrib",
+        "auth",
+        "get_user_model",
+        "uuid",
+        "get_user_model",
+        "models",
+        "Model",
+        "models",
+        "AutoField",
+        "primary_key",
+        "models",
+        "ForeignKey",
+        "User",
+        "on_delete",
+        "models",
+        "CASCADE",
+        "related_name",
+        "db_column",
+        "models",
+        "IntegerField",
+        "models",
+        "IntegerField",
+        "models",
+        "DateTimeField",
+        "auto_now_add",
+        "models",
+        "DateTimeField",
+        "auto_now",
+        "models",
+        "BooleanField"
+    ],
+    "literals": [
+        "'ranks'",
+        "'user_id'",
+        "'rank'"
+    ],
+    "variables": [
+        "User",
+        "id",
+        "user_id",
+        "rank",
+        "score",
+        "created_at",
+        "updated_at",
+        "is_deleted",
+        "db_table"
+    ],
+    "comments": [
+        "Django에서는 모델의 이름을 단수형으로 사용한다. 따라서 rank가 적합"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Rank",
+        "Meta"
+    ]
+}

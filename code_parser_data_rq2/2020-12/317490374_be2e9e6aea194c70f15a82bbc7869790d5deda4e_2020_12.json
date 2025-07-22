@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "smtplib",
+        "email",
+        "message",
+        "EmailMessage",
+        "EmailMessage",
+        "email",
+        "set_content",
+        "smtplib",
+        "SMTP",
+        "host",
+        "port",
+        "smtp",
+        "smtp",
+        "ehlo",
+        "smtp",
+        "starttls",
+        "smtp",
+        "login",
+        "smtp",
+        "send_message",
+        "email"
+    ],
+    "literals": [
+        "'from'",
+        "'Ankur Bhalla'",
+        "'to'",
+        "'<ankurbhalla28@gmail.com>'",
+        "'subject'",
+        "'You won 1,000,000 dollars!'",
+        "'I am a Python Master!'",
+        "'smtp.gmail.com'",
+        "'<enter sender email>'",
+        "'<enter sender password>'",
+        "'all good boss!'"
+    ],
+    "variables": [
+        "email",
+        "email",
+        "email",
+        "email"
+    ],
+    "comments": [
+        "Sending Emails with Python using smtplib and email modules.",
+        "SMTP.ehlo(name=''). Identify yourself to an ESMTP server using EHLO.",
+        "SMTP.starttls(keyfile=None, certfile=None, context=None)",
+        "Put the SMTP connection in TLS (Transport Layer Security) mode. All SMTP commands that follow",
+        "will be encrypted. You should then call ehlo() again.",
+        "SMTP.login(user, password, *, initial_response_ok=True)",
+        "Log in on an SMTP server that requires authentication. The arguments are the username and the",
+        "password to authenticate with.",
+        "SMTP.send_message(msg, from_addr=None, to_addrs=None, mail_options=(), rcpt_options=()).",
+        "This is a convenience method for calling sendmail() with the message represented by an",
+        "email.message.Message object."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

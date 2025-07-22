@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "topology",
+        "weights",
+        "topology",
+        "topology",
+        "topology",
+        "np",
+        "array",
+        "np",
+        "random",
+        "random",
+        "i",
+        "i",
+        "dims",
+        "zeta",
+        "np",
+        "tanh",
+        "zeta",
+        "input_data",
+        "input_data",
+        "size",
+        "topology",
+        "input_data",
+        "layer_weights",
+        "weights",
+        "activation",
+        "np",
+        "dot",
+        "layer_weights",
+        "zeta",
+        "zeta",
+        "zeta",
+        "target",
+        "len",
+        "target",
+        "topology",
+        "np",
+        "array",
+        "target",
+        "np",
+        "sum",
+        "np",
+        "square",
+        "zeta",
+        "target"
+    ],
+    "literals": [
+        "\"input size exceeds number of input nodes\"",
+        "\"target size exceeds number of output nodes.\""
+    ],
+    "variables": [
+        "topology",
+        "dims",
+        "weights",
+        "zeta",
+        "zeta",
+        "target"
+    ],
+    "comments": [
+        "Example topology is [3,5,1] with input having 3 neurons",
+        "hidden layer with 5, output wuth 1",
+        "[5 x 3], [1 x 5]",
+        "weights[between what layers][neuron_i][neuron_j]"
+    ],
+    "docstrings": [],
+    "functions": [
+        "activation",
+        "feedforward",
+        "computeCost"
+    ],
+    "classes": [
+        "Network"
+    ]
+}

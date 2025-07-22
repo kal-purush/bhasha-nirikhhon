@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Command",
+        "CommandSettings",
+        "IUser",
+        "UserLevels",
+        "BotContainer",
+        "Command",
+        "UserLevels",
+        "channel",
+        "user",
+        "commandName",
+        "commandName",
+        "channel",
+        "commandName",
+        "commandName",
+        "commandName",
+        "BotContainer",
+        "commandList",
+        "commandName",
+        "command",
+        "command",
+        "command",
+        "channel",
+        "commandName",
+        "command",
+        "CommandSettings",
+        "channel",
+        "commandName",
+        "channel",
+        "commandName"
+    ],
+    "literals": [
+        "\"../command\"",
+        "\"../../models\"",
+        "\"../../inversify.config\"",
+        "string",
+        "string",
+        "\"Command name not specified.\"",
+        "\"!\"",
+        "string",
+        "\"Commands\"",
+        "\"Disable\"",
+        "\"Enable\"",
+        "Command \\\"${commandName}\\\" cannot be disabled.",
+        "\"1\"",
+        "Disabled command \\\"${commandName}\\\".",
+        "Command \\\"${commandName}\\\" does not exist.",
+        "string",
+        "\"Disables a system command. Usage: !disable <command>\""
+    ],
+    "variables": [
+        "commandList",
+        "command"
+    ],
+    "comments": [
+        "Remove ! if it's at the start of the command.",
+        "Get the command if it exists.",
+        "Prevent unintended consequences..."
+    ],
+    "docstrings": [],
+    "functions": [
+        "executeInternal",
+        "getDescription"
+    ],
+    "classes": [
+        "DisableCommand"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "require",
+        "verifyToken",
+        "req",
+        "res",
+        "next",
+        "req",
+        "token",
+        "res",
+        "jwt",
+        "token",
+        "process",
+        "req",
+        "verified",
+        "next",
+        "error",
+        "res",
+        "verifyToken"
+    ],
+    "literals": [
+        "'jsonwebtoken'",
+        "'auth-token'",
+        "'Acceso denegado'",
+        "'Token no es válido'"
+    ],
+    "variables": [
+        "jwt",
+        "verifyToken",
+        "token",
+        "verified"
+    ],
+    "comments": [
+        "Para trabajar con el jwt",
+        "Middleware para trabajar con la validacion de rutas protegidas",
+        "Obtenemos el token",
+        "Si el token no es valido, devolvemos un acceso denegado",
+        "Inciamos un try por si ocurre un error",
+        "Obtenemos la palabra secreta del archivo .env",
+        "Validamos si el token del body es verificado",
+        "continuamos",
+        "Cachamos un posible error",
+        "Enviamos un mensaje informando que no es valido el token",
+        "Exportamos el middleware"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

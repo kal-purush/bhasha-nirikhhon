@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "NgFor",
+        "Event",
+        "EventService",
+        "Component",
+        "NgFor",
+        "eventService",
+        "eventService",
+        "events",
+        "events",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common'",
+        "'./datatypes/event'",
+        "'./event.service'",
+        "'app-layout'",
+        "<div class=\"col-md-12\" id=\"header\"><h1>BORED<span class=\"question\">?</span></h1></div>\n    <div class=\"container\">\n      <div class=\"events\">\n        <div class=\"row\">\n          <div class=\"col-md-4\" id=\"event\" *ngFor=\"let event of events | slice:0:12; let i = index\">\n            <div class=\"details\">\n              <h3>{{ event.title }}</h3>\n              <a target=\"_new\" href=\"{{event.link}}\">{{ event.link }}</a>\n              <p>{{ event.location }}</p>\n            </div>\n          </div>\n        </div>\n      </div>\n   </div>",
+        "'error '",
+        "'Completed!'",
+        "'Initialized!'"
+    ],
+    "variables": [],
+    "comments": [
+        "Dummy Events for CSS styles",
+        "const EVENTS: Event[] = [",
+        "{_id: 1, title: 'Destory The Dom', location: 'New Orleans', time: 10002, link: 'ww.glowa.org', author: 'NTKS', description: 'Lorem Ipsem eslas rgrwi asdfwefmvkds vbrbeor' },",
+        "{_id: 1, title: 'Destory The Dom', location: 'New Orleans', time: 10002, link: 'ww.glowa.org', author: 'NTKS', description: 'Lorem Ipsem eslas rgrwi asdfwefmvkds vbrbeor' },",
+        "{_id: 1, title: 'Destory The Dom', location: 'New Orleans', time: 10002, link: 'ww.glowa.org', author: 'NTKS', description: 'Lorem Ipsem eslas rgrwi asdfwefmvkds vbrbeor' },",
+        "{_id: 1, title: 'Destory The Dom', location: 'New Orleans', time: 10002, link: 'ww.glowa.org', author: 'NTKS', description: 'Lorem Ipsem eslas rgrwi asdfwefmvkds vbrbeor' },",
+        "{_id: 1, title: 'Destory The Dom', location: 'New Orleans', time: 10002, link: 'ww.glowa.org', author: 'NTKS', description: 'Lorem Ipsem eslas rgrwi asdfwefmvkds vbrbeor' },",
+        "{_id: 1, title: 'Destory The Dom', location: 'New Orleans', time: 10002, link: 'ww.glowa.org', author: 'NTKS', description: 'Lorem Ipsem eslas rgrwi asdfwefmvkds vbrbeor' },",
+        "{_id: 1, title: 'Destory The Dom', location: 'New Orleans', time: 10002, link: 'ww.glowa.org', author: 'NTKS', description: 'Lorem Ipsem eslas rgrwi asdfwefmvkds vbrbeor' },",
+        "{_id: 1, title: 'Destory The Dom', location: 'New Orleans', time: 10002, link: 'ww.glowa.org', author: 'NTKS', description: 'Lorem Ipsem eslas rgrwi asdfwefmvkds vbrbeor' },",
+        "{_id: 1, title: 'Destory The Dom', location: 'New Orleans', time: 10002, link: 'ww.glowa.org', author: 'NTKS', description: 'Lorem Ipsem eslas rgrwi asdfwefmvkds vbrbeor' },",
+        "{_id: 1, title: 'Destory The Dom', location: 'New Orleans', time: 10002, link: 'ww.glowa.org', author: 'NTKS', description: 'Lorem Ipsem eslas rgrwi asdfwefmvkds vbrbeor' },",
+        "{_id: 1, title: 'Destory The Dom', location: 'New Orleans', time: 10002, link: 'ww.glowa.org', author: 'NTKS', description: 'Lorem Ipsem eslas rgrwi asdfwefmvkds vbrbeor' },",
+        "{_id: 1, title: 'Destory The Dom', location: 'New Orleans', time: 10002, link: 'ww.glowa.org', author: 'NTKS', description: 'Lorem Ipsem eslas rgrwi asdfwefmvkds vbrbeor' }",
+        "];"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit"
+    ],
+    "classes": [
+        "AppLayoutComponent"
+    ]
+}

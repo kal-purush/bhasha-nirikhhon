@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "IO",
+        "IO",
+        "Compression",
+        "Text",
+        "Newtonsoft",
+        "Json",
+        "Obvs",
+        "Serialization",
+        "Json",
+        "TMessage",
+        "JsonMessageDeserializer",
+        "TMessage",
+        "TMessage",
+        "obj",
+        "MemoryStream",
+        "obj",
+        "Deserialize",
+        "ms",
+        "Stream",
+        "stream",
+        "GZipStream",
+        "stream",
+        "CompressionMode",
+        "Decompress",
+        "Deserialize",
+        "gs"
+    ],
+    "literals": [],
+    "variables": [
+        "ms",
+        "gs"
+    ],
+    "comments": [
+        "public override TMessage Deserialize(object obj)",
+        "{",
+        "using (var ms = new MemoryStream((byte[])obj))",
+        "{",
+        "return Deserialize(ms);",
+        "}",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "TMessage",
+        "Deserialize",
+        "TMessage",
+        "Deserialize"
+    ],
+    "classes": [
+        "GzippedJsonMessageDeserializer"
+    ]
+}

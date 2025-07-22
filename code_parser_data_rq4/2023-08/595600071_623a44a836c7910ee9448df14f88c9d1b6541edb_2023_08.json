@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "theme",
+        "styled",
+        "theme"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "display: flex;\n  align-items: center;\n  justify-content: center;\n  flex-direction: column;\n  padding: 0 40px;\n  gap: 4px;\n  flex-grow: 1;",
+        "width: 72px;\n  height: 72px;\n  border-radius: 50%;\n  background: ${({ theme }) => {\n    switch (theme.mode) {\n      case \"light\":\n        return \"#d0d6eb\";\n      case \"dark\":\n      case \"dark-jetbrains\":\n        return \"#323334\";\n    }\n  }};",
+        "\"light\"",
+        "\"#d0d6eb\"",
+        "\"dark\"",
+        "\"dark-jetbrains\"",
+        "\"#323334\"",
+        "margin-top: 4px;\n  text-transform: capitalize;\n  font-size: 14px;\n  font-weight: 500;\n  text-align: center;\n  color: ${({ theme }) => {\n    switch (theme.mode) {\n      case \"light\":\n        return \"#4d668a\";\n      case \"dark\":\n      case \"dark-jetbrains\":\n        return \"#dadada\";\n    }\n  }};",
+        "\"light\"",
+        "\"#4d668a\"",
+        "\"dark\"",
+        "\"dark-jetbrains\"",
+        "\"#dadada\""
+    ],
+    "variables": [
+        "Container",
+        "IconContainer",
+        "Title"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

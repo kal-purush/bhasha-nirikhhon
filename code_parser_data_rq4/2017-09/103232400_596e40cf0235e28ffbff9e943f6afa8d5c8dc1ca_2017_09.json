@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "AbstractConverter",
+        "Message",
+        "DirectLineActivity",
+        "VideoCard",
+        "AbstractConverter",
+        "Line",
+        "Line",
+        "Line",
+        "videoCard",
+        "videoCard",
+        "lineVideoMessage",
+        "Line",
+        "lineVideoMessage"
+    ],
+    "literals": [
+        "'./AbstractConverter'",
+        "\"botframework-directlinejs\"",
+        "\"VideoConverter.DirectLineToLine started\"",
+        "\"application/vnd.microsoft.card.video\"",
+        "'video'",
+        "\"VideoConverter.DirectLineToLine Completed\"",
+        "'video'",
+        "''",
+        "''"
+    ],
+    "variables": [
+        "videoCard",
+        "lineVideoMessage",
+        "lineVideoMessage"
+    ],
+    "comments": [
+        "import {Client as LineClient} from \"@line/bot-sdk\"",
+        "Convert Line Video Data to Botframework Video data",
+        "var eventMessage: Line.EventMessageBase = event.message;",
+        "var moc:DirectLineActivity = new ;",
+        "For testing of null data from DirectLine",
+        "originalContentUrl:'http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4',",
+        "previewImageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Big_buck_bunny_poster_big.jpg/220px-Big_buck_bunny_poster_big.jpg'"
+    ],
+    "docstrings": [],
+    "functions": [
+        "lineToDirectLine",
+        "DirectLineToLine"
+    ],
+    "classes": [
+        "VideoConverter"
+    ]
+}

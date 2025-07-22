@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "django",
+        "core",
+        "exceptions",
+        "ValidationError",
+        "django",
+        "core",
+        "validators",
+        "BaseValidator",
+        "api",
+        "api_consts",
+        "ERROR_MESSAGE",
+        "BaseValidator",
+        "limit_value",
+        "args",
+        "kwargs",
+        "limit_value",
+        "args",
+        "kwargs",
+        "password",
+        "user",
+        "user",
+        "user",
+        "check_password",
+        "password",
+        "ValidationError",
+        "ERROR_MESSAGE",
+        "code",
+        "ERROR_MESSAGE"
+    ],
+    "literals": [
+        "'password_reuse'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Check the new password and the current password.\n\n    This validator checks if the new password\n    matches the current password of the user.\n    If they match, a ValidationError is raised.\n    \"\"\"",
+        "\"\"\"\n        Initialize the UniquePasswordValidator.\n\n        Args:\n            limit_value (int): The number of similar passwords\n            to check against (default is 1).\n        \"\"\"",
+        "\"\"\"\n        Validate the new password against the current password.\n\n        Args:\n            password (str): The new password to validate.\n            user: The user object associated with the password\n            (default is None).\n\n        Raises:\n            ValidationError: If the new password is\n            the same as the current password.\n        \"\"\"",
+        "\"\"\"Return a help text describing the validation rule.\"\"\""
+    ],
+    "functions": [
+        "validate",
+        "get_help_text"
+    ],
+    "classes": [
+        "UniquePasswordValidator"
+    ]
+}

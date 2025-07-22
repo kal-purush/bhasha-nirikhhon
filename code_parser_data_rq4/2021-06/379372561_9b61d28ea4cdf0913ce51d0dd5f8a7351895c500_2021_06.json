@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "gulp",
+        "gulp",
+        "gulp",
+        "gulp",
+        "gulp",
+        "gulp",
+        "gulp",
+        "browserSync",
+        "gulp",
+        "gulp",
+        "browserSync",
+        "gulp",
+        "browserSync"
+    ],
+    "literals": [
+        "'gulp'",
+        "'browser-sync'",
+        "'./package.json'",
+        "'vendor'",
+        "'./node_modules/bootstrap/dist/**/*'",
+        "'!./node_modules/bootstrap/dist/css/bootstrap-grid*'",
+        "'!./node_modules/bootstrap/dist/css/bootstrap-reboot*'",
+        "'./vendor/bootstrap'",
+        "'./node_modules/jquery/dist/*'",
+        "'!./node_modules/jquery/dist/core.js'",
+        "'./vendor/jquery'",
+        "'default'",
+        "'vendor'",
+        "'browserSync'",
+        "\"./\"",
+        "'dev'",
+        "'browserSync'",
+        "'./css/*.css'",
+        "'./*.html'"
+    ],
+    "variables": [
+        "gulp",
+        "browserSync",
+        "pkg"
+    ],
+    "comments": [
+        "Copy third party libraries from /node_modules into /vendor",
+        "Bootstrap",
+        "jQuery",
+        "Default task",
+        "Configure the browserSync task",
+        "Dev task"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

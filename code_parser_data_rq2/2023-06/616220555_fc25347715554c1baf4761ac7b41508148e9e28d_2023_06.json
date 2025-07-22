@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "openai",
+        "getOpenAIRecommendation",
+        "watchedContentNames",
+        "chatCompletionContent",
+        "chatCompletionContent",
+        "watchedContentNames",
+        "openai",
+        "chatCompletionContent",
+        "completion"
+    ],
+    "literals": [
+        "'../../config/openAI'",
+        "string",
+        "string",
+        "\"Based on these series and movies in array of strings format below, give me 10 series and movies recommendation in array format, don't write anything else, just the array:\"",
+        "${chatCompletionContent} [${watchedContentNames}]",
+        "\"gpt-3.5-turbo\"",
+        "\"user\"",
+        "''",
+        "string"
+    ],
+    "variables": [
+        "getOpenAIRecommendation",
+        "chatCompletionContent",
+        "completion"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

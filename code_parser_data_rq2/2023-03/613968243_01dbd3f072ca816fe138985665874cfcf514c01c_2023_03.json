@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "require",
+        "process",
+        "mongoose",
+        "username",
+        "password",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "'mongoose'",
+        "'<username>'",
+        "'<password>'",
+        "\"mongodb://127.0.0.1:27017/OLINA\"",
+        "mongodb+srv://${username}:${password}@cluster0.mongodb.net/OLINA?retryWrites=true&w=majority",
+        "'Connected to MongoDB'"
+    ],
+    "variables": [
+        "mongoose",
+        "username",
+        "password",
+        "MONGO_URI"
+    ],
+    "comments": [
+        "Replace the <username> and <password> placeholders with your actual MongoDB username and password"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

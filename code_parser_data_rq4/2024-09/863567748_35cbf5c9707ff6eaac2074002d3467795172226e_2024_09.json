@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "toggle",
+        "toggle",
+        "body"
+    ],
+    "literals": [
+        "'container'",
+        "'body'",
+        "'active'",
+        "'active'"
+    ],
+    "variables": [
+        "toggle",
+        "body"
+    ],
+    "comments": [
+        "const button=document.createElement('button');\nbutton.type='button';\nbutton.innerText='wasap';\ndocument.body.appendChild(button);\nCON ESTA LINEA DE CODIGOS SE CREA UN BOTON DIRECTAMENTE EN EL HTML, PERO EN NUESTRO HTML TENEMOS QUE USAR\nLA ETIQUETA <scrip src=\"(nombre del js\" y su extension .js)></script>",
+        "function setzo(){\n    document.write(\"hola mundo\")\n    \n}",
+        "EL REAL",
+        "PROYECT \"HOLA MUNDO\"\nfunction setzo(){\n    var contenedor = document.getElementsByClassName(\"contenedor\")[0];\n    var toggle = document.getElementById(\"container\")\n    if(contenedor.style.visibility == \"hidden\"){\n        toggle.classList.toggle(\"active\");\n\n        contenedor.style.visibility = \"visible\";\n\n    }else{\n        contenedor.style.visibility =\"hidden\";\n    }\n}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "styled"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "display: flex;\n  justify-content: center;\n  margin-top: 50px;\n\n  .container {\n    max-width: 933px;\n    width: 100%;\n  }",
+        "button {\n    float: right;\n    box-shadow: none;\n    background: #f3f5f8;\n    border-radius: 3px;\n    border: 2px solid #e09c57;\n    color: #e09c57;\n    font-weight: 600;\n    cursor: pointer;\n    padding: 10px 28px;\n    font-size: 1rem;\n    transition: 0.3s;\n    outline: 0;\n\n    &:hover {\n      background: #e09c57;\n      color: #fff;\n    }\n  }",
+        "list-style: none;\n  padding: 0;\n  float: left;\n  margin-top: 0;\n\n  li {\n    float: left;\n    text-transform: uppercase;\n    padding: 0 15px 10px;\n    margin-right: 2px;\n    cursor: pointer;\n    color: #a5a7a6;\n    font-size: 0.8rem;\n    border-bottom: 3px solid #f3f5f8;\n    transition: 0.3s;\n\n    &:hover,\n    &.active {\n      border-color: #b92630;\n\n      span {\n        color: #b92630;\n      }\n    }\n\n    p {\n      margin: 0;\n    }\n\n    span {\n      font-size: 1.5rem;\n    }\n  }"
+    ],
+    "variables": [
+        "Box",
+        "Header",
+        "ListType"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

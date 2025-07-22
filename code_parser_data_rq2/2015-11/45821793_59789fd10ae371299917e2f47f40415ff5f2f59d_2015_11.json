@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "fs",
+        "path",
+        "process",
+        "process",
+        "settings",
+        "settings",
+        "path",
+        "process",
+        "configDir",
+        "DEFAULTS",
+        "file",
+        "fs",
+        "file",
+        "err",
+        "err",
+        "err",
+        "err",
+        "settings",
+        "DEFAULTS",
+        "obj",
+        "settings",
+        "DEFAULTS"
+    ],
+    "literals": [
+        "'fs'",
+        "'path'",
+        "string",
+        "'config'",
+        "'development'",
+        "string",
+        "string",
+        "'.json'",
+        "'Reading configuration from '",
+        "'utf8'",
+        "'Failed to read config file: '"
+    ],
+    "variables": [
+        "settings",
+        "configDir",
+        "DEFAULTS",
+        "file",
+        "obj"
+    ],
+    "comments": [
+        "IMPORTS",
+        "============================================================================",
+        "MODULE VARIABLES",
+        "============================================================================",
+        "INTERFACE DEFINITIONS",
+        "============================================================================",
+        "EXPORTED FUNCTIONS",
+        "============================================================================",
+        "if config settings have already been read, just return them",
+        "otherwise, read remaining settings from the configuration file",
+        "create new settings object"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getSettings",
+        "getDefaults"
+    ],
+    "classes": []
+}

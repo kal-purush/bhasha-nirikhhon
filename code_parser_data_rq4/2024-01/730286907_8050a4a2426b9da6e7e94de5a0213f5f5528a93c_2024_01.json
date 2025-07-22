@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "ad",
+        "GeometrikSekil",
+        "yeni_uzunluk",
+        "yeni_genislik",
+        "yeni_uzunluk",
+        "yeni_genislik",
+        "Dikdortgen",
+        "dik",
+        "dik",
+        "GeometrikSekil",
+        "yeni_yaricap",
+        "yeni_yaricap",
+        "Daire",
+        "daire",
+        "daire",
+        "Human",
+        "Human",
+        "Father",
+        "Son",
+        "hasan"
+    ],
+    "literals": [
+        "string",
+        "Bu bir ${this.ad} geometrik şeklidir.",
+        "'Dikdörtgen'",
+        "'selam'",
+        "'Daire'",
+        "string",
+        "''",
+        "'kahve_rengi'",
+        "'mavi'"
+    ],
+    "variables": [
+        "dik",
+        "daire",
+        "hasan"
+    ],
+    "comments": [
+        "! Parent Class",
+        "ortak bir method",
+        "! Child Class",
+        "üst sınıfın contructor'ını çağırma",
+        "üst sınıfın methodlarınan bağımzsız yenilerini ekleyebiliyoruz",
+        "method override > üst sınıfın methodunu güncellemeye yarar",
+        "kapsyaıcıdaki methodu miras alır",
+        "! 2. child class",
+        "Birden fazla kalıtım"
+    ],
+    "docstrings": [
+        "* Inheritance (Kalıtım | Miras):\n * Bir OOP kavramıdır bir sınıfın farklı bir özelliklerini\n * methodlarını miras almasına izin verir.\n \n * Bu işlem kodun tekrar kullanıalbilirğini arttırır ve\n * kod organizasyonunu geliştirir. Miras genellikle \"anasınıf\"\n * | \"üst sınıf\" 'tan türetilmiş olan alt sınıflar rasında geçekleşir.\n \n * Üst Sınıf (Base | Parent Class): Genel özellikleri ve\n * davranışlara sahip olan. Farklı sınıflar tarafından miras\n * alınabilen class'lara verdiğimiz isim\n \n * Alt Sınıf (Derived | Child Class): Bir üst sınıftan miras alarak\n * özelliklerini ve davranışlarını genişletebilen. Üst sınıftan türetilir."
+    ],
+    "functions": [
+        "tanim",
+        "alanHesapla",
+        "tanim",
+        "alanHesapla"
+    ],
+    "classes": [
+        "GeometrikSekil",
+        "Dikdortgen",
+        "Daire",
+        "Human",
+        "Father",
+        "Mother",
+        "Son"
+    ]
+}

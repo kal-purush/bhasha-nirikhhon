@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "compair",
+        "models",
+        "convention",
+        "sqlalchemy_enum34",
+        "EnumType",
+        "Enum",
+        "Enum",
+        "Enum",
+        "op",
+        "batch_alter_table",
+        "naming_convention",
+        "convention",
+        "batch_op",
+        "batch_op",
+        "alter_column",
+        "type_",
+        "EnumType",
+        "NewThirdPartyType",
+        "name",
+        "existing_type",
+        "EnumType",
+        "OldThirdPartyType",
+        "name",
+        "op",
+        "batch_alter_table",
+        "naming_convention",
+        "convention",
+        "batch_op",
+        "batch_op",
+        "alter_column",
+        "type_",
+        "EnumType",
+        "OldThirdPartyType",
+        "name",
+        "existing_type",
+        "EnumType",
+        "NewThirdPartyType",
+        "name"
+    ],
+    "literals": [
+        "'0a1ad609fc0a'",
+        "'2561c39ac4d9'",
+        "\"CAS\"",
+        "\"SAML\"",
+        "\"CAS\"",
+        "'third_party_user'",
+        "'third_party_type'",
+        "\"third_party_type\"",
+        "\"third_party_type\"",
+        "'third_party_user'",
+        "'third_party_type'",
+        "\"third_party_type\"",
+        "\"third_party_type\""
+    ],
+    "variables": [
+        "revision",
+        "down_revision",
+        "cas",
+        "saml",
+        "cas"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic."
+    ],
+    "docstrings": [
+        "\"\"\"Add SAML to third_party_type\n\nRevision ID: 0a1ad609fc0a\nRevises: 2561c39ac4d9\nCreate Date: 2017-12-07 00:43:05.761509\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": [
+        "NewThirdPartyType",
+        "OldThirdPartyType"
+    ]
+}

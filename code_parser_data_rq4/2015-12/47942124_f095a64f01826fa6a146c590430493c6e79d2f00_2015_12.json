@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "print_function",
+        "unicode_literals",
+        "re",
+        "streamparse",
+        "bolt",
+        "Bolt",
+        "s",
+        "all",
+        "ord",
+        "c",
+        "c",
+        "s",
+        "Bolt",
+        "tup",
+        "tup",
+        "values",
+        "tweet",
+        "split",
+        "word",
+        "words",
+        "word",
+        "startswith",
+        "word",
+        "startswith",
+        "word",
+        "startswith",
+        "word",
+        "startswith",
+        "word",
+        "strip",
+        "len",
+        "aword",
+        "ascii_string",
+        "word",
+        "valid_words",
+        "append",
+        "aword",
+        "valid_words",
+        "emit_many",
+        "valid_words"
+    ],
+    "literals": [
+        "\"#\"",
+        "\"@\"",
+        "\"RT\"",
+        "\"http\"",
+        "\"\\\"?><,'.:;)\""
+    ],
+    "variables": [
+        "tweet",
+        "words",
+        "valid_words",
+        "aword"
+    ],
+    "comments": [
+        "",
+        "Function to check if the string contains only ascii chars",
+        "",
+        "extract the tweet",
+        "Split the tweet into words",
+        "Filter out the hash tags, RT, @ and urls",
+        "Filter the hash tags",
+        "Filter the user mentions",
+        "Filter out retweet tags",
+        "Filter out the urls",
+        "Strip leading and lagging punctuations",
+        "now check if the word contains only ascii",
+        "Emit all the words",
+        "tuple acknowledgement is handled automatically"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ascii_string",
+        "process"
+    ],
+    "classes": [
+        "ParseTweet"
+    ]
+}

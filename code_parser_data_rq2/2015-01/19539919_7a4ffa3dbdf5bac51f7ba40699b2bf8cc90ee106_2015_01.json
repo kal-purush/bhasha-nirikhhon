@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "e",
+        "e",
+        "$",
+        "$",
+        "apiKey",
+        "movie",
+        "requestURL"
+    ],
+    "literals": [
+        "'use strict'",
+        "'#movie-lookup'",
+        "'#movie-results'",
+        "'#movie-name'",
+        "'e4zrvab5a7n5parnbz2m5t32'",
+        "'http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey='",
+        "'&q='",
+        "'&page_limit=1&callback=?'"
+    ],
+    "variables": [
+        "$results",
+        "movie",
+        "apiKey",
+        "requestURL"
+    ],
+    "comments": [
+        "Expected URL Format",
+        "http://api.rottentomatoes.com/api/public/v1.0/movies.json?apikey=e4zrvab5a7n5parnbz2m5t32&q=Toy+Story+3&page_limit=1",
+        "Grab the data",
+        "$results.html('Your movie data for search - ' + movie);"
+    ],
+    "docstrings": [
+        "* @author David Robinson\n * This is a simple javascript that interrogates the Rotten Tomatoes Database using JSON"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "query",
+        "docsets",
+        "encodeURIComponent",
+        "query",
+        "docsets",
+        "keys",
+        "uri",
+        "keys",
+        "uri",
+        "docsets",
+        "docsets",
+        "docsets"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "'dash-plugin://query='",
+        "'&keys='",
+        "'open -g \"'",
+        "'\"'",
+        "string",
+        "string",
+        "','",
+        "''"
+    ],
+    "variables": [
+        "uri",
+        "keys"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Get command to open dash\n     *\n     * @param {string} query - text to find\n     * @param {string} docsets - array of docset e.g. [css, less]\n     * @return {string} dash uri",
+        "* Get docset keys parameter for dash\n     *\n     * @param {Array<string>} docsets - array of docset e.g [css, less]\n     * @return {string} joined array in string e.g. \"ruby,css,dimas\" or empty string"
+    ],
+    "functions": [
+        "getCommand",
+        "getKeys"
+    ],
+    "classes": [
+        "Dash"
+    ]
+}

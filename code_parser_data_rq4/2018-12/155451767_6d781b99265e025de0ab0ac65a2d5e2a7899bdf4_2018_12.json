@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "parts",
+        "enforceTrailingSlash",
+        "parts",
+        "parts",
+        "parts",
+        "allSegments",
+        "segment",
+        "segment",
+        "segment",
+        "cleaned",
+        "cleaned",
+        "startingSlash",
+        "cleaned",
+        "allSegments",
+        "cleaned",
+        "allSegments",
+        "enforceTrailingSlash",
+        "parts",
+        "parts",
+        "parts",
+        "startingSlash",
+        "url",
+        "trailingSlash"
+    ],
+    "literals": [
+        "string",
+        "'/'",
+        "''",
+        "string",
+        "'/'",
+        "${startingSlash ? '/' : ''}${url.join('/')}${trailingSlash ? '/' : ''}",
+        "'/'",
+        "''",
+        "'/'",
+        "'/'",
+        "''"
+    ],
+    "variables": [
+        "startingSlash",
+        "url",
+        "cleaned",
+        "trailingSlash"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

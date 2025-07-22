@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "GuardNet",
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "Serilog",
+        "Extensions",
+        "Logging",
+        "Microsoft",
+        "Extensions",
+        "Logging",
+        "ILoggingBuilder",
+        "builder",
+        "Func",
+        "IServiceProvider",
+        "Serilog",
+        "ILogger",
+        "implementationFactory",
+        "Guard",
+        "NotNull",
+        "builder",
+        "nameof",
+        "builder",
+        "Guard",
+        "NotNull",
+        "implementationFactory",
+        "nameof",
+        "implementationFactory",
+        "builder",
+        "Services",
+        "AddSingleton",
+        "ILoggerProvider",
+        "SerilogLoggerProvider",
+        "implementationFactory",
+        "provider",
+        "dispose",
+        "builder"
+    ],
+    "literals": [
+        "\"Requires a logging builder instance to add the Serilog logger provider\"",
+        "\"Requires an implementation factory to build up the Serilog logger\""
+    ],
+    "variables": [],
+    "comments": [
+        "ReSharper disable once CheckNamespace",
+        "Extensions on the <see cref=\"ILoggingBuilder\"/>",
+        "</summary>",
+        "ReSharper disable once InconsistentNaming",
+        "Add Serilog to the logging pipeline.",
+        "</summary>",
+        "<param name=\"builder\">The <see cref=\"ILoggingBuilder\" /> to add logging provider to.</param>",
+        "<param name=\"implementationFactory\">The factory function to create an Serilog logger implementation.</param>",
+        "<exception cref=\"ArgumentNullException\">Thrown when the <paramref name=\"builder\"/> or <paramref name=\"implementationFactory\"/> is <c>null</c>.</exception>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "ILoggingBuilder",
+        "AddSerilog"
+    ],
+    "classes": [
+        "ILoggingBuilderExtensions"
+    ]
+}

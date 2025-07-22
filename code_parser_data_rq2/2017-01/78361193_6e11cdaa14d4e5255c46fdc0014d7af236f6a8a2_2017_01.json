@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "React",
+        "shallow",
+        "transform",
+        "executeTests",
+        "code",
+        "error_0",
+        "code",
+        "error_0",
+        "testResults",
+        "err",
+        "passed",
+        "testResults",
+        "liveRender",
+        "code"
+    ],
+    "literals": [
+        "'react'",
+        "'assert'",
+        "'enzyme'",
+        "'babel-standalone'",
+        "<span class = 'default'>Challenge: </span>Render React on the Server with renderToString",
+        "<span class = 'default'>Intro: </span>So far, you have been rendering React components on the client. Normally, this is what you will always do. However, there are some use cases where it makes sense to render a React component on the server. Since React is a JavaScript view library and you can run JavaScript on the server with Node, this is possible. In fact, React provides a <code>renderToString()</code> method you can use for this purpose.\n<br><br>\n\nThere are two key reasons why rendering on the server may be used in a real world app. First, without doing this, your React apps would consist of a relatively empty HTML file and a large bundle of JavaScript when it's initially loaded to the browser. This may not be ideal for search engines that are trying to index the content of your pages so people can find you. If you render the initial HTML markup on the server and send this to the client, the initial page load contains all of the page's\nmarkup which can be crawled by search engines. Second, this creates a faster initial page load experience because the rendered HTML is smaller than the JavaScript code of the entire app. React will still be able to recognize your app and manage it after the initial load.",
+        "<span class = 'default'>Instructions: </span>Use the <code>renderToString()</code> method that's provided on the <code>ReactDOM</code> global object to render <code>App</code> to a string.",
+        "class App extends React.Component {\n\tconstructor(props) {\n\t\tsuper(props);\n\t}\n  render() {\n    return <div/>\n  }\n};\n\n// change code below this line",
+        "class App extends React.Component {\n\tconstructor(props) {\n\t\tsuper(props);\n\t}\n  render() {\n    return <div/>\n  }\n};\n\n// change code below this line\nReactDOM.renderToString(<App/>);",
+        "'The App component should render to a string using ReactDOM.renderToString.'",
+        "''",
+        "'ReactDOM.renderToString(<App/>)'"
+    ],
+    "variables": [
+        "QA",
+        "challengeTitle",
+        "challengeText",
+        "challengeInstructions",
+        "seedCode",
+        "solutionCode",
+        "executeTests",
+        "error_0",
+        "testResults",
+        "passed",
+        "liveRender"
+    ],
+    "comments": [
+        "eslint-disable",
+        "snippet for defining HTML: <code>&lt;div /&gt;</code>",
+        "SET TO TRUE WHEN QA IS COMPLETE:",
+        "---------------------------- define challenge title ----------------------------",
+        "---------------------------- challenge text ----------------------------",
+        "---------------------------- challenge instructions ----------------------------",
+        "---------------------------- define challenge seed code ----------------------------",
+        "---------------------------- define challenge solution code ----------------------------",
+        "---------------------------- define challenge tests ----------------------------",
+        "test 0:",
+        "---------------------------- define live render function ----------------------------"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

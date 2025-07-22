@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "Text",
+        "RegularExpressions",
+        "TumblThree",
+        "Domain",
+        "Models",
+        "TumblThree",
+        "Applications",
+        "Parser",
+        "ICatBoxParser",
+        "Regex",
+        "id",
+        "detectedUrl",
+        "CatBoxTypes",
+        "CatBoxTypes",
+        "Mp4",
+        "url",
+        "id",
+        "CatBoxTypes",
+        "Webm",
+        "url",
+        "id",
+        "CatBoxTypes",
+        "Any",
+        "url",
+        "detectedUrl",
+        "ArgumentOutOfRangeException",
+        "url"
+    ],
+    "literals": [
+        "\"(http[A-Za-z0-9_/:.]*files.catbox.moe/(.*))\"",
+        "\".mp4\"",
+        "\".webm\""
+    ],
+    "variables": [
+        "url"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "Regex",
+        "GetCatBoxUrlRegex",
+        "CreateCatBoxUrl"
+    ],
+    "classes": [
+        "CatBoxParser"
+    ]
+}

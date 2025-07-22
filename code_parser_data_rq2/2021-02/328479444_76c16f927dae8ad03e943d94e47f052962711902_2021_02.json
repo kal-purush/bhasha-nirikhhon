@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "de",
+        "raidcraft",
+        "achievements",
+        "util",
+        "graphs",
+        "java",
+        "util",
+        "adjacencyMatrix",
+        "adjacencyMatrix",
+        "length",
+        "i",
+        "i",
+        "adjacencyMatrix",
+        "length",
+        "i",
+        "v",
+        "j",
+        "j",
+        "adjacencyMatrix",
+        "i",
+        "length",
+        "j",
+        "adjacencyMatrix",
+        "i",
+        "j",
+        "v",
+        "add",
+        "j",
+        "i",
+        "v",
+        "size",
+        "j",
+        "j",
+        "v",
+        "size",
+        "j",
+        "v",
+        "get",
+        "j",
+        "i",
+        "j"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*  Copyright 2020 ART-Framework Contributors (https://github.com/art-framework/)\n *\n *  Licensed under the Apache License, Version 2.0 (the \"License\");\n *  you may not use this file except in compliance with the License.\n *  You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n *  Unless required by applicable law or agreed to in writing, software\n *  distributed under the License is distributed on an \"AS IS\" BASIS,\n *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n *  See the License for the specific language governing permissions and\n *  limitations under the License.",
+        "* Calculates the adjacency-list for a given adjacency-matrix.\n * \n * \n * @author Frank Meyer, web@normalisiert.de\n * @version 1.0, 26.08.2006\n *",
+        "* Calculates a adjacency-list for a given array of an adjacency-matrix.\n\t *\n\t * @param adjacencyMatrix array with the adjacency-matrix that represents\n\t * the graph\n\t * @return int[][]-array of the adjacency-list of given nodes. The first\n\t * dimension in the array represents the same node as in the given\n\t * adjacency, the second dimension represents the indicies of those nodes,\n\t * that are direct successornodes of the node."
+    ],
+    "functions": [
+        "getAdjacencyList"
+    ],
+    "classes": [
+        "AdjacencyList"
+    ]
+}

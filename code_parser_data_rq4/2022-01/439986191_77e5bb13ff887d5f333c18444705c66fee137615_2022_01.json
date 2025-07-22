@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "json",
+        "icmp_object",
+        "open",
+        "json_icmp",
+        "json",
+        "load",
+        "json_icmp",
+        "icmp_object",
+        "split",
+        "icmp_object",
+        "icmp_dict",
+        "icmp_value",
+        "len",
+        "icmp_type",
+        "icmp_dict",
+        "icmp_value",
+        "icmp_object",
+        "icmp_type",
+        "icmp_code",
+        "translate_icmp",
+        "icmp_object"
+    ],
+    "literals": [
+        "\"JSON/icmp-types.JSON\"",
+        "\"r\"",
+        "'value'",
+        "\"/\"",
+        "\"\"",
+        "'kind'",
+        "'object#ICMPServiceObj'",
+        "'ipv4'",
+        "'ipv4'",
+        "'kind'",
+        "'object#ICMP6ServiceObj'",
+        "\"kind\"",
+        "\"object#ICMPServiceObj\"",
+        "\"selfLink\"",
+        "\"https://192.168.2.16:4443/api/objects/networkservices/ICMP-TEST\"",
+        "\"name\"",
+        "\"ICMP-TEST\"",
+        "\"value\"",
+        "\"icmp/unreachable/8\"",
+        "\"objectId\"",
+        "\"ICMP-TEST\""
+    ],
+    "variables": [
+        "icmp_dict",
+        "icmp_value",
+        "icmp_code",
+        "icmp_type",
+        "icmp_code",
+        "icmp_object"
+    ],
+    "comments": [
+        "ASA-FTD object parser",
+        "icmp_translator.py",
+        "By Bo V Mortensen",
+        "Version 1.0",
+        "20th December 2021",
+        "Parsing ICMP types and codes"
+    ],
+    "docstrings": [],
+    "functions": [
+        "translate_icmp"
+    ],
+    "classes": []
+}

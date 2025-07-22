@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "gapiScript",
+        "gapiScript",
+        "gapiScript",
+        "gapiScript",
+        "gapi",
+        "gapi",
+        "accessToken",
+        "gapi",
+        "newAccessToken",
+        "gapi",
+        "gapi",
+        "gapi",
+        "authResponse",
+        "authResponse"
+    ],
+    "literals": [
+        "'script'",
+        "'https://apis.google.com/js/platform.js'",
+        "'text/javascript'",
+        "'prompt'",
+        "'select_account'",
+        "'auth2'",
+        "'602460048110-5uk3vds3igc9qo0luevroc2uc3okgbkt.apps.googleusercontent.com'",
+        "'fake-research-aou.org'",
+        "'https://www.googleapis.com/auth/plus.login openid profile'"
+    ],
+    "variables": [
+        "gapi",
+        "gapiScript",
+        "accessToken",
+        "newAccessToken",
+        "authResponse"
+    ],
+    "comments": [
+        "Get the gapi script from Google.",
+        "Load the specific client libraries we need.",
+        "TODO: don't hardcode the client ID, domain; get these from the config"
+    ],
+    "docstrings": [],
+    "functions": [
+        "loadGapi",
+        "signIn",
+        "loadAuth2",
+        "currentAccessToken"
+    ],
+    "classes": [
+        "AuthService"
+    ]
+}

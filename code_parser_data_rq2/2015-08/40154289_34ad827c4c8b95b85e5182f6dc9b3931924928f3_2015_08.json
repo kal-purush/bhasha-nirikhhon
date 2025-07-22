@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "unittest",
+        "unittest",
+        "TestCase",
+        "assertRaises",
+        "ValueError",
+        "_from_URL_fileopen",
+        "broken_url",
+        "assertRaises",
+        "ValueError",
+        "_from_URL_fileopen",
+        "broken_text_ext"
+    ],
+    "literals": [
+        "\"file://foo.txt\"",
+        "\"https://www.fakebox.com/x/xxxxxxxxxx/LICENSE.pdf\""
+    ],
+    "variables": [
+        "broken_url",
+        "broken_text_ext"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"test for http, https, or ftp scheme\"\"\"",
+        "\"\"\"tests if file extension from URL is accepted format\"\"\""
+    ],
+    "functions": [
+        "test_URLscheme",
+        "test_URLfile_extension"
+    ],
+    "classes": [
+        "_from_URL_fileopen_Tests"
+    ]
+}

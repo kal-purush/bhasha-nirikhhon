@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "location",
+        "Location",
+        "player_character",
+        "PlayerCharacter",
+        "npc",
+        "Npc",
+        "item",
+        "Item",
+        "input",
+        "Cli",
+        "hello",
+        "name",
+        "name",
+        "name",
+        "PlayerCharacter",
+        "current_location",
+        "PlayerCharacter",
+        "current_location",
+        "Location",
+        "__repr__",
+        "Cli",
+        "checkLocation",
+        "location",
+        "location",
+        "input",
+        "choice",
+        "lower"
+    ],
+    "literals": [
+        "\"Welcome to the Ramptops! We're happy to have you here, but what's your name traveller?\"",
+        "f\"Welcome {name}\"",
+        "\"Something\"",
+        "\"What would like to do? (Fight, Talk, Use Item, Pick up item, move)\""
+    ],
+    "variables": [
+        "temp_loc",
+        "name",
+        "location",
+        "temp_loc",
+        "choice",
+        "choice"
+    ],
+    "comments": [
+        "def check- where you are- check for allies and enemies and items--> give appropriate options",
+        "check location for allies/enemies",
+        "if present let player know/give option to interact/fight",
+        "check location for items",
+        "if present let player interCact",
+        "what do you want to do? take in command, check it is one of the correct words and do a thing based on it",
+        "match choice:",
+        "case move:",
+        "return (\"move\")",
+        "case fight:",
+        "return (\"fight\")",
+        "case talk:",
+        "return (\"talk\")",
+        "case use item:",
+        "return (\"use item\")",
+        "case pick up item:",
+        "return (\"pick up item\")",
+        "case:",
+        "return (\"try again\")",
+        "should take in move, talk, use item, fight",
+        "stretch for choices to be given based on location"
+    ],
+    "docstrings": [],
+    "functions": [
+        "welcome",
+        "hello",
+        "check",
+        "checkLocation",
+        "options"
+    ],
+    "classes": [
+        "Cli"
+    ]
+}

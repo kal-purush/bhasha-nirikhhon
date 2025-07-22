@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "CustomWindow",
+        "fetchPlayerToken",
+        "externalId",
+        "externalId",
+        "fetch",
+        "url",
+        "response",
+        "data",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "'../../shared/types/CustomWindow'",
+        "string",
+        "string",
+        "${\n\t\t\t(window as CustomWindow)._ENV_.PROXY_URL\n\t\t}/player-ticket?externalId=${externalId}",
+        "'GET'",
+        "'Content-Type'",
+        "'application/json'",
+        "'include'",
+        "'failed to check player token state'"
+    ],
+    "variables": [
+        "fetchPlayerToken",
+        "url",
+        "response",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

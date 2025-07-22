@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "pypyodbc",
+        "serverName",
+        "databaseName",
+        "serverName",
+        "databaseName",
+        "connect",
+        "pypyodbc",
+        "connect",
+        "hostName",
+        "databaseName",
+        "order",
+        "serverObject",
+        "cursor",
+        "cursor",
+        "execute",
+        "order",
+        "row",
+        "cursor",
+        "row",
+        "serverObject",
+        "close",
+        "server",
+        "firstServer",
+        "command",
+        "firstServer",
+        "endConnection"
+    ],
+    "literals": [
+        "''",
+        "''",
+        "'Driver={SQL Server};'",
+        "'Server='",
+        "';'",
+        "'Database='",
+        "';'",
+        "'Trusted_Connection=yes;'",
+        "\"Connected to server!\"",
+        "'DESKTOP-LPJK5QO\\SCHOOL'",
+        "'Lego'",
+        "'SElECT * FROM Lego.dbo.customers'"
+    ],
+    "variables": [
+        "serverObject",
+        "hostName",
+        "databaseName",
+        "hostName",
+        "databaseName",
+        "serverObject",
+        "serverObject",
+        "cursor",
+        "firstServer"
+    ],
+    "comments": [
+        ", hostName, databaseName, userName, serverPassword",
+        "self.userName=userName",
+        "self.serverPassword=serverPassword",
+        "Runs a sql command (Geared for select right now)",
+        "Ends Connection",
+        "This is a test function"
+    ],
+    "docstrings": [],
+    "functions": [
+        "connect",
+        "command",
+        "endConnection",
+        "test"
+    ],
+    "classes": [
+        "server"
+    ]
+}

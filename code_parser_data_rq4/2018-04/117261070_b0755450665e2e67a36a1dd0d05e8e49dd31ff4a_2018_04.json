@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "MySQLdb",
+        "name",
+        "number",
+        "MySQLdb",
+        "connect",
+        "host",
+        "user",
+        "passwd",
+        "db",
+        "port",
+        "db",
+        "cursor",
+        "number",
+        "cursor",
+        "execute",
+        "get_employee",
+        "cursor",
+        "fetchall",
+        "len",
+        "results",
+        "len",
+        "results",
+        "db",
+        "close",
+        "name",
+        "results",
+        "number",
+        "results",
+        "db",
+        "close",
+        "db",
+        "close"
+    ],
+    "literals": [
+        "\"127.0.0.1\"",
+        "\"root\"",
+        "\"secret\"",
+        "\"restaurant\"",
+        "\"SELECT * FROM restaurant.employee WHERE id='\"",
+        "\"';\""
+    ],
+    "variables": [
+        "db",
+        "cursor",
+        "get_employee",
+        "results"
+    ],
+    "comments": [
+        "!/usr/bin/python",
+        "Open database connection",
+        "Execute the SQL command",
+        "Fetch all the rows in a list of lists."
+    ],
+    "docstrings": [],
+    "functions": [
+        "login_success"
+    ],
+    "classes": [
+        "Login"
+    ]
+}

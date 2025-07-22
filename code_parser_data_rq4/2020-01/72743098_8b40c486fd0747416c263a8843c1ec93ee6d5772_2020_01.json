@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "GetMapping",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "RequestMapping",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "RestController",
+        "io",
+        "micrometer",
+        "core",
+        "instrument",
+        "Counter",
+        "io",
+        "micrometer",
+        "core",
+        "instrument",
+        "composite",
+        "CompositeMeterRegistry",
+        "io",
+        "micrometer",
+        "core",
+        "instrument",
+        "logging",
+        "LoggingMeterRegistry",
+        "io",
+        "micrometer",
+        "core",
+        "instrument",
+        "simple",
+        "SimpleMeterRegistry",
+        "RestController",
+        "RequestMapping",
+        "registry",
+        "registry",
+        "registry",
+        "add",
+        "registry",
+        "add",
+        "GetMapping",
+        "counter",
+        "registry",
+        "counter",
+        "counter",
+        "increment",
+        "counter",
+        "count"
+    ],
+    "literals": [
+        "\"/composite\"",
+        "\"/count\"",
+        "\"http.requests\"",
+        "\"uri\"",
+        "\"/composite/count\""
+    ],
+    "variables": [
+        "registry"
+    ],
+    "comments": [
+        "i.m.c.i.logging.LoggingMeterRegistry     : http.requests{uri=/composite/count} throughput=0.216667/s"
+    ],
+    "docstrings": [],
+    "functions": [
+        "count"
+    ],
+    "classes": [
+        "CompositeController"
+    ]
+}

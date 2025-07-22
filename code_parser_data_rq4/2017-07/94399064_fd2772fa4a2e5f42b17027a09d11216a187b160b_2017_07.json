@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "UnityEditor",
+        "UnityEngine",
+        "Fort",
+        "Inspector",
+        "Presentation",
+        "PresentationParamater",
+        "parameter",
+        "parameter",
+        "Instance",
+        "AnimationCurve",
+        "AnimationCurve",
+        "EditorGUI",
+        "BeginChangeCheck",
+        "EditorGUILayout",
+        "CurveField",
+        "parameter",
+        "Title",
+        "animationCurve",
+        "Change",
+        "change",
+        "IsDataChanged",
+        "EditorGUI",
+        "EndChangeCheck",
+        "PresentationResult",
+        "Change",
+        "change",
+        "Result",
+        "newAnimationCurve"
+    ],
+    "literals": [],
+    "variables": [
+        "AnimationCurve",
+        "animationCurve",
+        "AnimationCurve",
+        "newAnimationCurve",
+        "Change",
+        "change"
+    ],
+    "comments": [
+        "if (newAnimationCurve.length != animationCurve.length||newAnimationCurve.postWrapMode != animationCurve.postWrapMode || newAnimationCurve.preWrapMode != animationCurve.preWrapMode)\n                change.IsDataChanged = true;\n            else\n            {\n                for (int i = 0; i < newAnimationCurve.length; i++)\n                {\n                    Keyframe keyFrame = animationCurve.keys[i];\n                    Keyframe newKeyFrame = newAnimationCurve.keys[i];\n                    change.IsDataChanged |= keyFrame.value != newKeyFrame.value;\n                    change.IsDataChanged |= keyFrame.inTangent != newKeyFrame.inTangent;\n                    change.IsDataChanged |= keyFrame.outTangent != newKeyFrame.outTangent;\n                    change.IsDataChanged |= keyFrame.tangentMode != newKeyFrame.tangentMode;\n                    change.IsDataChanged |= keyFrame.time != newKeyFrame.time;\n                }\n            }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "PresentationResult",
+        "OnInspectorGui"
+    ],
+    "classes": [
+        "CurvePresentation"
+    ]
+}

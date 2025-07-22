@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "importScripts",
+        "toolbox",
+        "toolbox",
+        "toolbox",
+        "toolbox"
+    ],
+    "literals": [
+        "'Registering ServiceWorker...'",
+        "'bower_components/sw-toolbox/sw-toolbox.js'",
+        "'/(.*)'",
+        "'/(.*)'",
+        "'install'",
+        "'activate'"
+    ],
+    "variables": [],
+    "comments": [
+        "toolbox.options.debug = true;",
+        "Cache all local stuff",
+        "Cache Fonts etc",
+        "No route for API calls, we don't want those to hit the service worker",
+        "PouchDB handles offline sync already, we don't want double caching"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

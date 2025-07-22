@@ -1,0 +1,13 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "!/usr/bin/env python"
+    ],
+    "docstrings": [
+        "\"\"\"\nThis program set up and run MCCE step 3 in multiple threads.\n\nUsage examples:\n\n1. Run step 3 with 6 threads\n    energies.py mp 6\n\n2. Run step 3 to recreate head3.lst\n    energies.py refresh\n\n3. Run partial conformers. conformer 1 to 100\n    energies.py conf 1, 100\n\nAssuming the underlying c code will:\n1. Write only opp files that are calculated (so that multi-threads won't overwrite each other). Dummies and\nun-calculated conformers don't have an opp file.\n2. When write opp file, no previous run is loaded.\n3. A separate procedure will read all opp files and compose head3.lst at the end.\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

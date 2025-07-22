@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "render",
+        "schema",
+        "DB",
+        "schema",
+        "db",
+        "taskObject",
+        "taskObject",
+        "anotherTaskObject",
+        "taskObject",
+        "taskObject",
+        "anotherTaskObject",
+        "yetAnother",
+        "taskObject"
+    ],
+    "literals": [
+        "'hello'",
+        "'Some title'"
+    ],
+    "variables": [
+        "db",
+        "task",
+        "task"
+    ],
+    "comments": [
+        "Model -> defines types and relationships\n\nSchema -> collection of models, defines overall structure\n - Model\n\nTable -> collection of data for a model\n - Model\n\nDB -> contains all data and data manipulations\n - Schema\n - Table\n - Model\n\n*instance -> access to",
+        "Get model unattached to database.",
+        "Get model attached to database.",
+        "Get",
+        "Get instance.",
+        "-> []"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

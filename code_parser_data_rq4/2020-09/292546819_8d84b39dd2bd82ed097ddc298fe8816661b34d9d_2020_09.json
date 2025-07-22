@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "React",
+        "Axios",
+        "FetchDatas",
+        "fetchSources",
+        "fetchArticlesFromApi",
+        "Axios",
+        "sources",
+        "resp",
+        "resp",
+        "err",
+        "err",
+        "updateLocalStorage",
+        "datas",
+        "datas",
+        "fetchArticlesFromLocalStorage",
+        "datas",
+        "FetchDatas"
+    ],
+    "literals": [
+        "'react'",
+        "'axios'",
+        "\"hello\"",
+        "'https://newsapi.org/v2/sources'",
+        "'https://newsapi.org/v2/everything&language=en'",
+        "'Authorization'",
+        "'0d4d1219b3c94e5d8d7082de4a4c4531'",
+        "\"newAppDatas\"",
+        "\"newAppDatas\""
+    ],
+    "variables": [
+        "FetchDatas",
+        "fetchSources",
+        "fetchArticlesFromApi",
+        "sources",
+        "topHeadlines",
+        "resp",
+        "updateLocalStorage",
+        "fetchArticlesFromLocalStorage",
+        "datas"
+    ],
+    "comments": [
+        "Get datas from API",
+        "FROM API",
+        "window.localStorage.setItem( \"newAppTime\", JSON.stringify(Date.now()) );",
+        "Get articles from Local Storage",
+        "console.log(\"from Storage\");",
+        "const[articles, setArticles] = useState([]);",
+        "useEffect( () => {\n\n   const fetchData = async () => {\n      let datas = fetchArticlesFromLocalStorage();\n      if( datas !== null ) {\n        console.log(\"?????\");\n        datas = await fetchArticlesFromApi();\n        updateLocalStorage(datas);\n      }\n      setArticles([...datas.sources]);\n    }\n    fetchData();\n  }, []);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

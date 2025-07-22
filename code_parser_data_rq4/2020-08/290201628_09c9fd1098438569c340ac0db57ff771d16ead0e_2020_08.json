@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Text",
+        "TelCo",
+        "ColorCoder",
+        "MyColor",
+        "pairNumber",
+        "colorMapMinor",
+        "Length",
+        "colorMapMajor",
+        "Length",
+        "pairNumber",
+        "pairNumber",
+        "minorSize",
+        "majorSize",
+        "ArgumentOutOfRangeException",
+        "Format",
+        "pairNumber",
+        "pairNumber",
+        "zeroBasedPairNumber",
+        "minorSize",
+        "zeroBasedPairNumber",
+        "minorSize",
+        "ColorPair",
+        "pair",
+        "MajorColor",
+        "colorMapMajor",
+        "majorIndex",
+        "pair",
+        "MinorColor",
+        "colorMapMinor",
+        "minorIndex",
+        "pair"
+    ],
+    "literals": [
+        "\"Argument PairNumber:{0} is outside the allowed range\""
+    ],
+    "variables": [
+        "minorSize",
+        "majorSize",
+        "zeroBasedPairNumber",
+        "majorIndex",
+        "minorIndex",
+        "ColorPair",
+        "pair"
+    ],
+    "comments": [
+        "This class is responsible to map the corresponding",
+        "color from the given pairnumber",
+        "Given a pair number function returns the major and minor colors in that order",
+        "<param name=\"pairNumber\">Pair number of the color to be fetched</param>",
+        "Super Class Color so that we can use the array of minot and major color.",
+        "The function supports only 1 based index. Pair numbers valid are from 1 to 25",
+        "Find index of major and minor color from pair number",
+        "return val from the arrays",
+        "return the value"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ColorPair",
+        "GetColorFromPairNumber"
+    ],
+    "classes": [
+        "ColorMapper"
+    ]
+}

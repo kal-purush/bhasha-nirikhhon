@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "ResultService",
+        "RepositoryService",
+        "Component",
+        "OnInit",
+        "ActiveFeatureToggles",
+        "FeatureToggle",
+        "FeatureToggleService",
+        "tap",
+        "Component",
+        "featureToggleService",
+        "tap",
+        "activeToggles",
+        "FeatureToggle",
+        "name",
+        "index",
+        "activeToggles",
+        "name",
+        "row",
+        "row",
+        "row"
+    ],
+    "literals": [
+        "'app/entities/result'",
+        "'app/entities/repository'",
+        "'@angular/core'",
+        "'app/feature-toggle/feature-toggle.service'",
+        "'rxjs/operators'",
+        "'jhi-feature-toggles'",
+        "<ngx-datatable class=\"bootstrap\" [headerHeight]=\"50\" [limit]=\"20\" [columnMode]=\"'force'\" [footerHeight]=\"50\" [rowHeight]=\"'auto'\" [rows]=\"availableToggles\">\n            <ngx-datatable-column name=\"index\" prop=\"index\">\n                <ng-template ngx-datatable-cell-template let-value=\"value\">\n                    {{ value }}\n                </ng-template>\n            </ngx-datatable-column>\n            <ngx-datatable-column name=\"name\" prop=\"name\">\n                <ng-template ngx-datatable-cell-template let-value=\"value\">\n                    {{ value }}\n                </ng-template>\n            </ngx-datatable-column>\n            <ngx-datatable-column name=\"isActive\" prop=\"isActive\">\n                <ng-template ngx-datatable-cell-template let-row=\"row\" let-value=\"value\">\n                    <input type=\"checkbox\" [checked]=\"value\" (change)=\"onFeatureToggle($event, row)\" />\n                </ng-template>\n            </ngx-datatable-column>\n        </ngx-datatable>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "onFeatureToggle"
+    ],
+    "classes": [
+        "AdminFeatureToggleComponent"
+    ]
+}

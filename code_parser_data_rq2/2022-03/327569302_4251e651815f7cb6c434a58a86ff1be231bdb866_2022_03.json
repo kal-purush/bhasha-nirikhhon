@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "collections",
+        "deque",
+        "mgp",
+        "start_v",
+        "mgp",
+        "Vertex",
+        "edge_property",
+        "mgp",
+        "deque",
+        "start_v",
+        "next_queue",
+        "next_queue",
+        "popleft",
+        "visited",
+        "add",
+        "current_v",
+        "e",
+        "current_v",
+        "out_edges",
+        "edge_property",
+        "e",
+        "properties",
+        "max",
+        "max_weight",
+        "e",
+        "properties",
+        "edge_property",
+        "min",
+        "min_weight",
+        "e",
+        "properties",
+        "edge_property",
+        "e",
+        "to_vertex",
+        "visited",
+        "next_queue",
+        "append",
+        "e",
+        "to_vertex",
+        "max_weight",
+        "min_weight"
+    ],
+    "literals": [
+        "\"Inf\""
+    ],
+    "variables": [
+        "next_queue",
+        "visited",
+        "max_weight",
+        "min_weight",
+        "current_v",
+        "max_weight",
+        "min_weight"
+    ],
+    "comments": [
+        "if there are edges without the given property, we ignore them,",
+        "in order to support heterogeneous graphs"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Breadth-first search for finding the largest and smallest edge weight,\n    largest being used for capacity scaling, and smallest for lower bound\n\n    :param start_v: starting vertex\n    :param edge_propery: str denoting the edge property used as weight\n\n    :return: Number, the largest value of edge_property in graph\n    \"\"\""
+    ],
+    "functions": [
+        "BFS_find_weight_min_max"
+    ],
+    "classes": []
+}

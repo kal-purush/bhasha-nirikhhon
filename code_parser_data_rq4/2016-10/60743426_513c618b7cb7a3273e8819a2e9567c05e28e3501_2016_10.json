@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "Pipe",
+        "PipeTransform",
+        "Pipe",
+        "value",
+        "hasProtocol",
+        "value",
+        "hasDomain",
+        "value",
+        "value",
+        "value"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'url'",
+        "string",
+        "https://${value}"
+    ],
+    "variables": [
+        "hasProtocol",
+        "hasDomain"
+    ],
+    "comments": [
+        "If it has a protocol or no domain, don't touch it"
+    ],
+    "docstrings": [
+        "* This pipe takes a URL with or without https:// and adds https:// if it doesn't exist"
+    ],
+    "functions": [
+        "transform"
+    ],
+    "classes": [
+        "UrlPipe"
+    ]
+}

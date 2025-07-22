@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "reference",
+        "ReferenceFileModel",
+        "ReferenceFileModel",
+        "init",
+        "kwargs",
+        "EmiModel",
+        "init",
+        "init",
+        "kwargs",
+        "path",
+        "meta",
+        "reftype",
+        "meta",
+        "instrument",
+        "EmiModel",
+        "validate"
+    ],
+    "literals": [
+        "'EmiModel'",
+        "\"http://stsci.edu/schemas/jwst_datamodel/emi.schema\"",
+        "\"emicorr\"",
+        "\"MIRI\""
+    ],
+    "variables": [
+        "__all__",
+        "schema_url",
+        "reftype",
+        "reftype",
+        "name"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    A data model to correct MIRI images for EMI contamination.\n\n    Parameters\n    __________\n    data : numpy table\n        The reference waves to correct for MIRI EMI.\n        A table-like object containing phase amplitude values\n        corresponding to the appropriate frequency\n        - Hz390: float32 1D array\n        - Hz218a: float32 1D array\n        - Hz218b: float32 1D array\n        - Hz218c: float32 1D array\n        - Hz164: float32 1D array\n        - Hz10: float32 1D array\n    \"\"\""
+    ],
+    "functions": [
+        "on_save",
+        "validate"
+    ],
+    "classes": [
+        "EmiModel"
+    ]
+}

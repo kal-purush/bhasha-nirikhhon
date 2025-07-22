@@ -1,0 +1,88 @@
+{
+    "identifiers": [
+        "unittest",
+        "buildingspy",
+        "io",
+        "outputfile",
+        "of",
+        "numpy",
+        "testing",
+        "unittest",
+        "TestCase",
+        "open",
+        "staFil",
+        "fil",
+        "fil",
+        "write",
+        "s",
+        "of",
+        "get_model_statistics",
+        "staFil",
+        "assertEqual",
+        "stats",
+        "assertEqual",
+        "stats",
+        "assertEqual",
+        "stats",
+        "assertEqual",
+        "stats",
+        "assertEqual",
+        "stats",
+        "assertEqual",
+        "stats",
+        "unittest",
+        "main"
+    ],
+    "literals": [
+        "\"test_stat_file.txt\"",
+        "'w'",
+        "'dymola'",
+        "'initialization'",
+        "'nonlinear'",
+        "\"1, 3, 1, 1, 17\"",
+        "\"Parsing nonlinear equations for initialization problem failed\"",
+        "'simulation'",
+        "'nonlinear'",
+        "\"1, 0, 1, 3\"",
+        "\"Parsing nonlinear equations for simulation problem failed\"",
+        "'initialization'",
+        "'linear'",
+        "\"0, 0, 0, 0\"",
+        "\"Parsing linear equations for initialization problem failed\"",
+        "'simulation'",
+        "'linear'",
+        "\"0, 2\"",
+        "\"Parsing linear equations for simulation problem failed\"",
+        "'initialization'",
+        "'numerical Jacobians'",
+        "\"0\"",
+        "\"Parsing numerical Jacobian for initialization problem failed\"",
+        "'simulation'",
+        "'numerical Jacobians'",
+        "\"0\"",
+        "\"Parsing numerical Jacobian for simulation problem failed\"",
+        "'__main__'"
+    ],
+    "variables": [
+        "staFil",
+        "s",
+        "stats"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "Name of temporary file",
+        "Write a file that contains the simulation statistics as reported by Dymola",
+        "Test the function"
+    ],
+    "docstrings": [
+        "\"\"\"\n       This class contains the unit tests for\n       :mod:`buildingspy.io.Reader`.\n    \"\"\"",
+        "'''\n        Tests the :mod:`buildingspy.io.Reader.get_simulation_statistics`\n        function.\n        '''",
+        "\"\"\"\nTranslation of Buildings.Examples.ChillerPlant.DataCenterContinuousTimeControl:\n\nThe DAE has 1795 scalar unknowns and 1795 scalar equations.\n\nStatistics\n\nOriginal Model\n  Number of components: 415\n  Variables: 4407\n  Constants: 52 (52 scalars)\n  Parameters: 2104 (2093 scalars)\n  Unknowns: 2251 (1891 scalars)\n  Differentiated variables: 64 scalars\n  Equations: 1709\n  Nontrivial: 1381\nTranslated Model\n  Constants: 1356 scalars\n  Free parameters: 527 scalars\n  Parameter depending: 465 scalars\n  Outputs: 25 scalars\n  Continuous time states: 33 scalars\n  Time-varying variables: 644 scalars\n  Alias variables: 1044 scalars\n  Number of mixed real/discrete systems of equations: 0\n  Sizes of linear systems of equations: {11, 13}\n  Sizes after manipulation of the linear systems: {0, 2}\n  Sizes of nonlinear systems of equations: {2, 1, 3, 9}\n  Sizes after manipulation of the nonlinear systems: {1, 0, 1, 3}\n  Number of numerical Jacobians: 0\n  Initialization problem\n    Sizes of linear systems of equations: {3, 3, 3, 3}\n    Sizes after manipulation of the linear systems: {0, 0, 0, 0}\n    Sizes of nonlinear systems of equations: {1, 9, 3, 2, 120}\n    Sizes after manipulation of the nonlinear systems: {1, 3, 1, 1, 17}\n    Number of numerical Jacobians: 0\n        \"\"\""
+    ],
+    "functions": [
+        "test_get_simulation_statistics"
+    ],
+    "classes": [
+        "Test_io_Reader"
+    ]
+}

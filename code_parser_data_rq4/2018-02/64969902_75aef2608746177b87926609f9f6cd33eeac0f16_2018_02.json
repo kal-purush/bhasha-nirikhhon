@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "requests",
+        "monkeypatch",
+        "mock_post",
+        "advisory",
+        "monkeypatch",
+        "setattr",
+        "requests",
+        "mock_post",
+        "advisory",
+        "reloadBuilds",
+        "mock_post",
+        "response",
+        "url",
+        "monkeypatch",
+        "mock_post",
+        "advisory",
+        "monkeypatch",
+        "setattr",
+        "requests",
+        "mock_post",
+        "advisory",
+        "reloadBuilds",
+        "mock_post",
+        "kwargs",
+        "expected"
+    ],
+    "literals": [
+        "'post'",
+        "'https://errata.devel.redhat.com/api/v1/erratum/26175/reload_builds'",
+        "'post'",
+        "'no_rpm_listing_only'",
+        "'no_current_files_only'",
+        "'data'"
+    ],
+    "variables": [
+        "expected"
+    ],
+    "comments": [
+        "NOQA: E501"
+    ],
+    "docstrings": [],
+    "functions": [
+        "test_reload_builds_url",
+        "test_reload_builds_data"
+    ],
+    "classes": [
+        "TestReloadBuilds"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "createCompiler",
+        "mermaid",
+        "describe",
+        "createCompiler",
+        "mermaid",
+        "it",
+        "createTestCompiler",
+        "mdxCompiler",
+        "expect",
+        "result",
+        "it",
+        "createTestCompiler",
+        "mdxCompiler",
+        "expect",
+        "result"
+    ],
+    "literals": [
+        "'@mdx-js/mdx'",
+        "'..'",
+        "'mermaid remark plugin'",
+        "\"does nothing if there's no mermaid code block\"",
+        "# Heading 1\n\nNo Mermaid diagram :(\n\n\\`\\`\\`js\nthis is not mermaid\n\\`\\`\\`",
+        "'works for basic mermaid code blocks'",
+        "# Heading 1\n\n\\`\\`\\`mermaid\ngraph TD;\n    A-->B;\n    A-->C;\n    B-->D;\n    C-->D;\n\\`\\`\\"
+    ],
+    "variables": [
+        "mdxCompiler",
+        "result",
+        "mdxCompiler",
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) Facebook, Inc. and its affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree."
+    ],
+    "functions": [
+        "createTestCompiler"
+    ],
+    "classes": []
+}

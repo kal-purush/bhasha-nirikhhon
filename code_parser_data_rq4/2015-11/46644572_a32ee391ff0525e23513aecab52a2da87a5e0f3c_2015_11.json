@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "Collider",
+        "other",
+        "Vector3",
+        "Vector3",
+        "other",
+        "gameObject",
+        "CompareTag",
+        "rb",
+        "other",
+        "gameObject",
+        "GetComponent",
+        "Rigidbody",
+        "rb",
+        "constraints",
+        "RigidbodyConstraints",
+        "FreezeAll",
+        "WaitForSeconds",
+        "other",
+        "gameObject",
+        "transform",
+        "position",
+        "player1position",
+        "rb",
+        "constraints",
+        "RigidbodyConstraints",
+        "other",
+        "gameObject",
+        "CompareTag",
+        "rb1",
+        "other",
+        "gameObject",
+        "GetComponent",
+        "Rigidbody",
+        "rb1",
+        "constraints",
+        "RigidbodyConstraints",
+        "FreezeAll",
+        "WaitForSeconds",
+        "other",
+        "gameObject",
+        "transform",
+        "position",
+        "player2position",
+        "rb1",
+        "constraints",
+        "RigidbodyConstraints"
+    ],
+    "literals": [
+        "\"Player1\"",
+        "\"Player2\""
+    ],
+    "variables": [
+        "Rigidbody",
+        "rb",
+        "Rigidbody",
+        "rb1",
+        "Vector3",
+        "player1position",
+        "Vector3",
+        "player2position"
+    ],
+    "comments": [
+        "Made by Alexandre Jannuzzi & Alberto Menezes for Berklee Game Jam 2015",
+        "Whichever objects leave the boundaries are destroyed (in case the players are thrown off of the board)",
+        "This spawns the player 1 back to its spawn position",
+        "This spawns the player 2 back to its spawn position"
+    ],
+    "docstrings": [],
+    "functions": [
+        "IEnumerator",
+        "OnTriggerExit"
+    ],
+    "classes": [
+        "DestroyAtBoundary"
+    ]
+}

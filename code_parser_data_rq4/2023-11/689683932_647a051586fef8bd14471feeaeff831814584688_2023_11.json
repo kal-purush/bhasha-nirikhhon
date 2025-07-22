@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Game",
+        "Paginated",
+        "Api",
+        "page",
+        "size",
+        "Api",
+        "games",
+        "search",
+        "page",
+        "size",
+        "Api",
+        "games"
+    ],
+    "literals": [
+        "\"@/types/Game\"",
+        "\"@/types/Paginated\"",
+        "\"./Api\"",
+        "\"/games\"",
+        "string",
+        "\"/games\""
+    ],
+    "variables": [
+        "games",
+        "games"
+    ],
+    "comments": [
+        "for now it uses games endpoint cause /games/popular does not exist yet"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getPopular",
+        "search"
+    ],
+    "classes": [
+        "GameApi"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "start",
+        "getLetters",
+        "allLetters",
+        "textString",
+        "createSpan",
+        "allLetters",
+        "letter",
+        "span",
+        "letter",
+        "span",
+        "animateLetters",
+        "spanLetter",
+        "i",
+        "spanLetter",
+        "spanLetter",
+        "i"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "\"This text should fade in from the bottom\"",
+        "\"DOMContentLoaded\"",
+        "\"\"",
+        "\"span\"",
+        "\"section\"",
+        "\"span\"",
+        "\"moveLetters\"",
+        "${i / 10}s"
+    ],
+    "variables": [
+        "allLetters",
+        "textString",
+        "span"
+    ],
+    "comments": [
+        "document.querySelector(\"#coolText\").textContent",
+        "console.log(allLetters);",
+        "console.log(letter);",
+        "makeSpanSpaces();",
+        "function makeSpanSpaces() {\n  document.querySelectorAll(\"span\").forEach((spanLetter) => {\n    if (spanLetter.textContent == \"\") {\n      spanLetter.style.marginRight = \"5px\";\n      //animateLetters();\n    } else {\n      spanLetter.style.marginRight = \"0px\";\n      //animateLetters();\n    }\n  });\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "start",
+        "getLetters",
+        "createSpan",
+        "animateLetters"
+    ],
+    "classes": []
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "defineStore",
+        "defineStore",
+        "state",
+        "state",
+        "sum",
+        "item",
+        "sum",
+        "item",
+        "item",
+        "state",
+        "state",
+        "product",
+        "item",
+        "item",
+        "product",
+        "existingProduct",
+        "existingProduct",
+        "product",
+        "index",
+        "index",
+        "index",
+        "index",
+        "index",
+        "index",
+        "index",
+        "index"
+    ],
+    "literals": [
+        "'pinia'",
+        "'cart'"
+    ],
+    "variables": [
+        "useCartStore",
+        "existingProduct"
+    ],
+    "comments": [
+        "stores/cartStore.js",
+        "Shipping cost",
+        "Si el producto ya existe, incrementamos su cantidad",
+        "Si no existe, lo agregamos al carrito",
+        "Aseguramos que la cantidad nunca sea menor que 1",
+        "Solo decrementamos si la cantidad es mayor que 1",
+        "Elimina el producto del carrito por su índice"
+    ],
+    "docstrings": [],
+    "functions": [
+        "subtotal",
+        "total",
+        "addToCart",
+        "increaseQuantity",
+        "decreaseQuantity",
+        "removeItem"
+    ],
+    "classes": []
+}

@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "UnityEngine",
+        "UI",
+        "TMPro",
+        "MonoBehaviour",
+        "SerializeField",
+        "SerializeField",
+        "SerializeField",
+        "caret",
+        "SetActive",
+        "Input",
+        "GetKeyDown",
+        "KeyCode",
+        "Equals",
+        "canType",
+        "canType",
+        "inputField",
+        "enabled",
+        "canType",
+        "canType",
+        "caret",
+        "SetActive",
+        "inputField",
+        "ActivateInputField",
+        "caret",
+        "SetActive",
+        "inputField",
+        "DeactivateInputField",
+        "inputField",
+        "text",
+        "Empty",
+        "s",
+        "inputField",
+        "text",
+        "Empty",
+        "log",
+        "AddLog",
+        "s"
+    ],
+    "literals": [],
+    "variables": [
+        "TMP_InputField",
+        "inputField",
+        "GameObject",
+        "caret",
+        "LogControl",
+        "log",
+        "canType"
+    ],
+    "comments": [
+        "using System.Collections;\nusing System.Collections.Generic;\nusing UnityEngine;\nusing TMPro;\n\npublic class InputControl : MonoBehaviour\n{\n    private string input;\n    [SerializeField]\n    private TMP_InputField inputField;\n\n    private void Start()\n    {\n        if (inputField != null)\n        {\n            inputField.interactable = true;\n            inputField.Select();\n        }\n    }\n\n    private void Update()\n    {\n        if (Input.GetKeyDown(KeyCode.Return))\n        {\n            ReadInput();\n        }\n    }\n\n    public void ReadStringInput(string s)\n    {\n        input = s;\n        Debug.Log(s);\n    }\n\n    private void ReadInput()\n    {\n        if (inputField.text != string.Empty && inputField.isFocused)\n        {\n            ReadStringInput(input);\n            inputField.text = string.Empty;\n        }\n    }\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update",
+        "ReadStringInput"
+    ],
+    "classes": [
+        "InputControl"
+    ]
+}

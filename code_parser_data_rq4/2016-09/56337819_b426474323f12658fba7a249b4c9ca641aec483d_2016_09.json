@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "org",
+        "researchstack",
+        "molemapper",
+        "android",
+        "app",
+        "Application",
+        "android",
+        "content",
+        "Context",
+        "android",
+        "support",
+        "multidex",
+        "MultiDex",
+        "org",
+        "researchstack",
+        "backbone",
+        "storage",
+        "database",
+        "AppDatabase",
+        "org",
+        "researchstack",
+        "skin",
+        "ResearchStack",
+        "org",
+        "robolectric",
+        "TestLifecycleApplication",
+        "java",
+        "lang",
+        "reflect",
+        "Method",
+        "org",
+        "mockito",
+        "Mockito",
+        "mock",
+        "Override",
+        "onCreate",
+        "MultiDex",
+        "install",
+        "ResearchStack",
+        "init",
+        "Override",
+        "context",
+        "mock",
+        "Override",
+        "method",
+        "Override",
+        "test",
+        "Override",
+        "method"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Used to initialize ResearchStack using a mock AppDatabase. Roboelectric and",
+        "ORMLite do not play nicely"
+    ],
+    "docstrings": [
+        "* Replaces MoleMapperApplication for unit test purposes."
+    ],
+    "functions": [
+        "onCreate",
+        "AppDatabase",
+        "createAppDatabaseImplementation",
+        "beforeTest",
+        "prepareTest",
+        "afterTest"
+    ],
+    "classes": [
+        "TestMoleMapperApplication"
+    ]
+}

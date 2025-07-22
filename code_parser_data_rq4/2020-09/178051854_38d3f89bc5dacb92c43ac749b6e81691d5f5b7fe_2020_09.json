@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "entity",
+        "Entity",
+        "editEntity",
+        "Entity",
+        "permission",
+        "extraParams",
+        "permission",
+        "extraParams",
+        "editEntity",
+        "fields",
+        "fields"
+    ],
+    "literals": [
+        "'share-link'",
+        "\"type\""
+    ],
+    "variables": [
+        "__entityName__",
+        "__isLegacy__",
+        "fields"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n     Represents a Sharelink on Labstep.\n    \"\"\"",
+        "\"\"\"\n        Edit an existing ResourceLocation.\n\n        Parameters\n        ----------\n        permission (str)\n            Set the permission granted by the sharelink\n            can be either 'view' or 'edit'\n\n        Returns\n        -------\n        :class:`~labstep.sharelink.Sharelink`\n            An object representing the edited Sharelink.\n\n        Example\n        -------\n        ::\n\n            # Get an experiment\n            experiment = user.getExperiment(123)\n\n            # Get the sharelink for the experiment\n            sharelink = experiment.getSharelink()\n\n            # Edit the sharelink\n            sharelink.edit(type='view')\n        \"\"\""
+    ],
+    "functions": [
+        "edit"
+    ],
+    "classes": [
+        "Sharelink"
+    ]
+}

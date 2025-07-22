@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "WebConfigTransformBuildpack",
+        "buildPath",
+        "buildPath",
+        "cachePath",
+        "depsPath",
+        "index",
+        "args",
+        "DoRun",
+        "args",
+        "args",
+        "args",
+        "command",
+        "Detect",
+        "args"
+    ],
+    "literals": [
+        "\"detect\""
+    ],
+    "variables": [
+        "command"
+    ],
+    "comments": [
+        "Determines if the buildpack is compatible and should be applied to the application being staged",
+        "</summary>",
+        "<param name=\"buildPath\">Directory path to the application</param>",
+        "<returns>True if buildpack should be applied, otherwise false</returns>",
+        "Logic to apply when buildpack is ran.",
+        "Note that for <see cref=\"SupplyBuildpack\"/> this will correspond to \"bin/supply\" lifecycle event, while for <see cref=\"FinalBuildpack\"/> it will be invoked on \"bin/finalize\"",
+        "</summary>",
+        "<param name=\"buildPath\">Directory path to the application</param>",
+        "<param name=\"cachePath\">Location the buildpack can use to store assets during the build process</param>",
+        "<param name=\"depsPath\">Directory where dependencies provided by all buildpacks are installed. New dependencies introduced by current buildpack should be stored inside subfolder named with index argument ({depsPath}/{index})</param>",
+        "<param name=\"index\">Number that represents the ordinal position of the buildpack</param>",
+        "Entry point into the buildpack. Should be called from Main method with args",
+        "</summary>",
+        "<param name=\"args\">Args array passed into Main method</param>",
+        "<returns>Status return code</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Detect",
+        "Apply",
+        "Run",
+        "DoRun"
+    ],
+    "classes": [
+        "BuildpackBase"
+    ]
+}

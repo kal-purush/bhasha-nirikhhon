@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "pageview",
+        "url",
+        "GA_TRACKING_ID",
+        "url"
+    ],
+    "literals": [
+        "'UA-144848121-1'",
+        "string",
+        "'config'"
+    ],
+    "variables": [
+        "GA_TRACKING_ID",
+        "pageview"
+    ],
+    "comments": [
+        "https://developers.google.com/analytics/devguides/collection/gtagjs/pages",
+        "// https://developers.google.com/analytics/devguides/collection/gtagjs/events\nexport const event = ({ action, category, label, value }) => {\n  window.gtag('event', action, {\n    event_category: category,\n    event_label: label,\n    value: value\n  });\n};"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

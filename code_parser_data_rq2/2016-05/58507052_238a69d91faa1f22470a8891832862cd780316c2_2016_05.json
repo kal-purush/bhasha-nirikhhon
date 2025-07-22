@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "scope",
+        "boundContext",
+        "scope",
+        "arguments"
+    ],
+    "literals": [],
+    "variables": [
+        "boundContext"
+    ],
+    "comments": [
+        "Copyright (c) 2011 The Native Client Authors. All rights reserved.",
+        "Use of this source code is governed by a BSD-style license that can be",
+        "found in the LICENSE file."
+    ],
+    "docstrings": [
+        "* @fileoverview  This class implements an extension to Function object that\n * lets you bind a scope for |this| to a function.",
+        "* Bind a scope to a function.  Used to bind an object to |this| for event\n * handlers.\n * @param {!Object} scope The scope in which the function executes.  |scope|\n *     becomes |this| during function execution.\n * @return {function} the bound version of the original function."
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Threading",
+        "Tasks",
+        "Template10",
+        "Portable",
+        "Navigation",
+        "IConfirmNavigationAsync",
+        "INavigationParameters",
+        "parameters"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Provides a way for ViewModels involved in navigation to asynchronously determine if a navigation request should continue.",
+        "</summary>",
+        "Determines whether this instance accepts being navigated away from.",
+        "</summary>",
+        "<param name=\"parameters\">The navigation parameters.</param>",
+        "<returns><c>True</c> if navigation can continue, <c>False</c> if navigation is not allowed to continue</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "CanNavigateAsync"
+    ],
+    "classes": []
+}

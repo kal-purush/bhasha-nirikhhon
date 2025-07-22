@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "Dayinfo",
+        "Weekday"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "Weedays Enumeration",
+        "Configuration data for a single Eastern dependant named day.",
+        "Number of days relative to the Easter Sunday",
+        "Name of the day",
+        "Is the day a feast day?",
+        "day",
+        "month",
+        "year (when given, the entry defines a concrete date)",
+        "Name of the day",
+        "Is the day a feast day?",
+        "Configuration data for a named day occurring on the Nth Weekday of a month",
+        "count of the weekday (N)",
+        "Weekday",
+        "month",
+        "Name of the day",
+        "Is the day a feast day?",
+        "Configuration data for a named day occurring relative to a given date (n weeks)",
+        "reference date, day",
+        "reference date, month",
+        "count of the weekday (N)",
+        "Weekday",
+        "Name of the day",
+        "Is the day a feast day?",
+        "root structure"
+    ],
+    "docstrings": [
+        "* Configuration data for a named day\n\t * - occurring every year on the same date (24.12.)\n\t *   when the year property is not provided or\n\t * - a specific date (only 24.12.1015 and not the 24.12. on every year)"
+    ],
+    "functions": [],
+    "classes": []
+}

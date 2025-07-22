@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "item",
+        "item",
+        "topItem",
+        "item",
+        "currentItem",
+        "currentItem",
+        "item"
+    ],
+    "literals": [
+        "'The stack is empty'"
+    ],
+    "variables": [
+        "topItem"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Pushes an item onto the top of this stack.\n     * @param item The item that will be added to the top of the stack",
+        "* Remove the item from the top of this stack.\n     * @returns the top item"
+    ],
+    "functions": [
+        "push",
+        "empty",
+        "pop",
+        "peek",
+        "search"
+    ],
+    "classes": []
+}

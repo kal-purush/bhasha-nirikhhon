@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "Windows",
+        "Windows",
+        "Controls",
+        "Windows",
+        "Threading",
+        "Countdown",
+        "Views",
+        "UIElement",
+        "element",
+        "value",
+        "element",
+        "SetValue",
+        "ItemProperty",
+        "value",
+        "UIElement",
+        "element",
+        "element",
+        "GetValue",
+        "ItemProperty",
+        "DependencyProperty",
+        "RegisterAttached",
+        "ScrollTo",
+        "FrameworkPropertyMetadata",
+        "OnScrollToItemPropertyChanged",
+        "DependencyObject",
+        "source",
+        "DependencyPropertyChangedEventArgs",
+        "e",
+        "e",
+        "NewValue",
+        "source",
+        "ListBox",
+        "SelectedItem",
+        "e",
+        "NewValue",
+        "IsGrouping",
+        "_",
+        "Dispatcher",
+        "BeginInvoke",
+        "DispatcherPriority",
+        "Loaded",
+        "Action",
+        "ScrollIntoView",
+        "e",
+        "NewValue",
+        "ScrollIntoView",
+        "e",
+        "NewValue"
+    ],
+    "literals": [
+        "\"Item\""
+    ],
+    "variables": [
+        "DependencyProperty",
+        "ItemProperty"
+    ],
+    "comments": [
+        "Work around a bug that stops ScrollIntoView() working on Net5.0",
+        "see https://github.com/dotnet/wpf/issues/4797"
+    ],
+    "docstrings": [],
+    "functions": [
+        "SetItem",
+        "GetItem",
+        "OnScrollToItemPropertyChanged"
+    ],
+    "classes": [
+        "ScrollTo"
+    ]
+}

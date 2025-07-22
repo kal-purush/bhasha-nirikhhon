@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "aima",
+        "core",
+        "robotics",
+        "aima",
+        "core",
+        "robotics",
+        "datatypes",
+        "IMclMove",
+        "aima",
+        "core",
+        "robotics",
+        "datatypes",
+        "IMclPose",
+        "aima",
+        "core",
+        "robotics",
+        "datatypes",
+        "IMclRangeReading",
+        "aima",
+        "core",
+        "robotics",
+        "datatypes",
+        "IMclVector",
+        "IMclMap",
+        "pose",
+        "pose"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This interface defines functionality for a map of an environment for a robot (agent) to perform Monte-Carlo-Localization in.\n * \n * @author Arno von Borries\n * @author Jan Phillip Kretzschmar\n * @author Andreas Walscheid\n *\n * @param <P> a pose implementing {@link IMclPose}.\n * @param <V> an n-1-dimensional vector implementing {@link IMclVector}, where n is the dimensionality of the environment.\n * @param <M> a movement (or sequence of movements) of the robot, implementing {@link IMclMove}.\n * @param <R> a range measurement, implementing {@link IMclRangeReading}.",
+        "* Generates a random valid pose on the map.\n\t * @return a random valid pose on the map.",
+        "* Calculates the length of a ray in a direction defined by a pose.\n\t * @param pose the pose from which the ray is to be cast.\n\t * @return the length of the ray as a range reading.",
+        "* Verifies whether a pose is valid, that is inside the map boundaries and not within an obstacle.\n\t * @param pose the pose which is to be evaluated.\n\t * @return true if the pose is valid."
+    ],
+    "functions": [
+        "P",
+        "randomPose",
+        "R",
+        "rayCast",
+        "isPoseValid"
+    ],
+    "classes": []
+}

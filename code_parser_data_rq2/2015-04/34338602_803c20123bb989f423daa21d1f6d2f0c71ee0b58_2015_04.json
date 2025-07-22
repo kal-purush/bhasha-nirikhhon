@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "cssObject",
+        "element",
+        "element",
+        "property",
+        "cssObject",
+        "cssObject",
+        "property",
+        "styleObject",
+        "property",
+        "cssObject",
+        "property",
+        "className",
+        "className",
+        "className",
+        "className",
+        "offsetScrolled",
+        "selector",
+        "options",
+        "checkElementFn",
+        "options",
+        "options",
+        "options",
+        "options",
+        "selector",
+        "checkElementFn",
+        "checkElementFn",
+        "checkElementFn",
+        "_this",
+        "clearTimeout",
+        "_this",
+        "_this",
+        "_this",
+        "setTimeout",
+        "_this",
+        "_this"
+    ],
+    "literals": [
+        "'just-sticky'",
+        "'just-sticky'",
+        "\"undefined\"",
+        "string",
+        "\"undefined\"",
+        "'fixed'",
+        "\"undefined\"",
+        "\"function\"",
+        "'scroll'",
+        "\"undefined\""
+    ],
+    "variables": [
+        "styleObject",
+        "offsetScrolled",
+        "_this"
+    ],
+    "comments": [
+        "justSticky.JS (funny cuz JS is an acronym for justSticky ;)).\n    you're allowed to breath a bit harder through your nose-holes after reading this pun.\n\n\n    JustSticky - it's really just that. Nothing fancy, no testing involved yet.\n    Hooks window.onScroll and checks whether a given element should be stickied to the top or not.\n    Adds class 'just-sticky' on elements which are sticky, so add manual positioning there.\n\n    Need fine control? Pass a function as third-argument to JustSticky which gets called when\n    user scrolls. (this refers to JustSticky instance in any case).\n\n    original checkElementPosition function:\n     function(){\n         var offsetScrolled = (window.scrollY);\n         if (offsetScrolled >= this.offsetToScroll){\n            this.applyCSS(this.cssStyles.sticky, this.sticky);\n            this.addClass('just-sticky');\n         } else {\n            this.applyCSS(this.cssStyles.unsticky, this.sticky);\n            this.removeClass('just-sticky');\n        }\n     };\n\n\n    A few things:\n\n    - No dependencies\n    - Minimalistic\n    - Built on TypeScript\n    - Debounces scroll event\n    - No external stylesheet required."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "JustSticky"
+    ]
+}

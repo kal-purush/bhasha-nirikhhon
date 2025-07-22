@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "Backbone",
+        "_",
+        "EditDeptView",
+        "editdeptView",
+        "$",
+        "editdeptView",
+        "$",
+        "DepartmentItemView"
+    ],
+    "literals": [
+        "'backbone'",
+        "'mongoose'",
+        "'underscore'",
+        "'./EditDeptView'",
+        "'../collections/DepartmentsCollection'",
+        "'../models/DepartmentsModel'",
+        "'<tr></tr>'",
+        "'\\\n    <td><%= departments.get(\"departments\") %></td>\\\n    <td><button class=\"btn btn-success href=\"\" id=\"editDept\">Edit Department</button></td>\\\n    <td><button class=\"btn btn-danger href=\"\" id=\"destroyDept\">Delete Department</button></td>\\\n  '",
+        "'click #editDept'",
+        "\"handleUpdate\"",
+        "'click #destroyDept'",
+        "'handleDestroyDept'",
+        "'#content'"
+    ],
+    "variables": [
+        "Backbone",
+        "mongoose",
+        "_",
+        "EditDeptView",
+        "DepartmentsCollection",
+        "DepartmentsModel",
+        "DepartmentItemView",
+        "editdeptView"
+    ],
+    "comments": [
+        "var FormView = require('./FormView');",
+        "var TableListView = require('./TableListView');",
+        "this.model.get('');",
+        "this.model.get('computer');",
+        "e.preventDefault();",
+        "event && event.preventDefault();"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

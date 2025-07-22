@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "IO",
+        "DLAB_UNROOT_COMMON_NAMESPACE",
+        "DLaB",
+        "Common",
+        "VersionControl",
+        "Source",
+        "DLaB",
+        "Common",
+        "VersionControl",
+        "DLAB_PUBLIC",
+        "NoSourceControlProvider",
+        "ISourceControlProvider",
+        "ISourceControlProvider",
+        "filePath",
+        "fileNames",
+        "Empty",
+        "filePath",
+        "filePath",
+        "contents",
+        "File",
+        "WriteAllText",
+        "filePath",
+        "contents"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Source Control Provider for Interacting with Source Control Versioning",
+        "</summary>",
+        "Adds the file to be added to source control.",
+        "</summary>",
+        "<param name=\"filePath\">The file path.</param>",
+        "Checks the files out.  Returns the output text.",
+        "</summary>",
+        "<param name=\"fileNames\">The file paths.</param>",
+        "Returns true if the file was unchanged and an undo operation was performed",
+        "</summary>",
+        "<param name=\"filePath\"></param>",
+        "Returns true if the file was unchanged and so it was checked out",
+        "</summary>",
+        "<param name=\"filePath\">The file path.</param>",
+        "<param name=\"contents\">The contents.</param>",
+        "<returns></returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Add",
+        "Checkout",
+        "UndoCheckoutIfUnchanged",
+        "CheckoutAndUpdateIfDifferent"
+    ],
+    "classes": [
+        "NoSourceControlProvider"
+    ]
+}

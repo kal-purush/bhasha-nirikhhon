@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "fetchRequestHandler",
+        "NextRequest",
+        "env",
+        "appRouter",
+        "createTRPCContext",
+        "createContext",
+        "req",
+        "createTRPCContext",
+        "req",
+        "handler",
+        "req",
+        "fetchRequestHandler",
+        "appRouter",
+        "createContext",
+        "req",
+        "env",
+        "path",
+        "error",
+        "handler",
+        "GET",
+        "handler",
+        "POST"
+    ],
+    "literals": [
+        "\"@trpc/server/adapters/fetch\"",
+        "\"next/server\"",
+        "\"~/env\"",
+        "\"~/server/api/root\"",
+        "\"~/server/api/trpc\"",
+        "\"/api/trpc\"",
+        "\"development\"",
+        "❌ tRPC failed on ${path ?? \"<no-path>\"}: ${error.message}",
+        "\"<no-path>\""
+    ],
+    "variables": [
+        "createContext",
+        "handler"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This wraps the `createTRPCContext` helper and provides the required context for the tRPC API when\n * handling a HTTP request (e.g. when you make requests from Client Components)."
+    ],
+    "functions": [],
+    "classes": []
+}

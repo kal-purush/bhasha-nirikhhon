@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "process",
+        "process",
+        "nodemailer",
+        "process",
+        "process",
+        "transporter",
+        "transporter",
+        "process",
+        "process",
+        "info",
+        "error",
+        "error",
+        "error",
+        "error",
+        "testEmail"
+    ],
+    "literals": [
+        "\"dotenv\"",
+        "\"nodemailer\"",
+        "\"Config:\"",
+        "\"smtp.gmail.com\"",
+        "\"Verification successful, attempting to send email...\"",
+        "\"Test Email\"",
+        "\"This is a test email to verify the configuration.\"",
+        "\"Email sent successfully!\"",
+        "\"Message ID:\"",
+        "\"Error details:\""
+    ],
+    "variables": [
+        "nodemailer",
+        "transporter",
+        "info"
+    ],
+    "comments": [
+        "First, log the configuration (with password length only for security)",
+        "Verify connection configuration"
+    ],
+    "docstrings": [],
+    "functions": [
+        "testEmail"
+    ],
+    "classes": []
+}

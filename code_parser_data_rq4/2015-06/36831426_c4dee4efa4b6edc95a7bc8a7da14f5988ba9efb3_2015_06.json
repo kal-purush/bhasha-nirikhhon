@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "tasks",
+        "id",
+        "tasks",
+        "i",
+        "len",
+        "i",
+        "tasks",
+        "i",
+        "id",
+        "tasks",
+        "i",
+        "id",
+        "tasks",
+        "i",
+        "len",
+        "i",
+        "tasks",
+        "i",
+        "id",
+        "tasks",
+        "i",
+        "tasks",
+        "i",
+        "todo",
+        "tasks",
+        "todo",
+        "tasks",
+        "c",
+        "c",
+        "r",
+        "r",
+        "v"
+    ],
+    "literals": [
+        "\"76c8f4c0-3646-4e3c-b4de-7edde798fe3f\"",
+        "\"Went to ECMAScript 6 conference\"",
+        "\"84468e23-4fca-4400-8670-09f7a8755959\"",
+        "\"Learn Angular 2\"",
+        "\"08c6f368-cd8b-45a5-b85f-e2a9bc106587\"",
+        "\"Buy book about TypeScript\"",
+        "string",
+        "string",
+        "string",
+        "'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'",
+        "'x'"
+    ],
+    "variables": [
+        "tasks",
+        "i",
+        "len",
+        "i",
+        "len",
+        "r",
+        "v"
+    ],
+    "comments": [
+        "Otherwise, just use Math.random",
+        "http://stackoverflow.com/questions/105034/how-to-create-a-guid-uuid-in-javascript/2117523#2117523"
+    ],
+    "docstrings": [
+        "* Main tasks object.\n * Case it's global - it will allow model update it in all components\n * @type []",
+        "* Tasks service",
+        "* Delete user by it's ID\n     * @param id {string}\n     * @returns {boolean}",
+        "* Mark item as done\n     * @param id\n     * @returns {boolean}",
+        "* Generate UUID\n     * @returns {string}"
+    ],
+    "functions": [
+        "getTasks",
+        "deleteTaskById",
+        "toggleDone",
+        "addToDo",
+        "UUID"
+    ],
+    "classes": [
+        "TasksService"
+    ]
+}

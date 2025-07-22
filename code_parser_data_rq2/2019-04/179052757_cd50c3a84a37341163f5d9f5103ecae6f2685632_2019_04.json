@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "React",
+        "StaticQuery",
+        "graphql",
+        "Img",
+        "Image",
+        "StaticQuery",
+        "graphql",
+        "data",
+        "Img",
+        "data",
+        "Image"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"gatsby\"",
+        "\"gatsby-image\"",
+        "query {\n        placeholderImage: file(relativePath: { eq: \"bg_dark.jpg\" }) {\n          childImageSharp {\n            fluid(maxWidth: 1920) {\n              ...GatsbyImageSharpFluid\n            }\n          }\n        }\n      }",
+        "'100vh'"
+    ],
+    "variables": [
+        "Image"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This component is built using `gatsby-image` to automatically serve optimized\n * images with lazy loading and reduced file sizes. The image is loaded using a\n * `StaticQuery`, which allows us to load the image from directly within this\n * component, rather than having to pass the image data down from pages.\n *\n * For more information, see the docs:\n * - `gatsby-image`: https://gatsby.dev/gatsby-image\n * - `StaticQuery`: https://gatsby.dev/staticquery"
+    ],
+    "functions": [],
+    "classes": []
+}

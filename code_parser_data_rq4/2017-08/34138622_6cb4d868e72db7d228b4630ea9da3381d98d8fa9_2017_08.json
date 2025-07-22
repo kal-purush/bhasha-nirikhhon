@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "renderInlineWidgets",
+        "require",
+        "require",
+        "require",
+        "pkg",
+        "resolve",
+        "reject",
+        "require",
+        "reject",
+        "require",
+        "pkg",
+        "resolve",
+        "reject",
+        "moduleName",
+        "moduleVersion",
+        "requirePromise",
+        "moduleName",
+        "err",
+        "err",
+        "err",
+        "failedId",
+        "moduleName",
+        "moduleVersion",
+        "requirePromise",
+        "moduleName",
+        "moduleVersion",
+        "element",
+        "requirePromise",
+        "htmlmanager",
+        "managerFactory",
+        "htmlmanager",
+        "requireLoader",
+        "renderInlineWidgets",
+        "managerFactory",
+        "element"
+    ],
+    "literals": [
+        "'./embedlib'",
+        "'./base'",
+        "'./controls'",
+        "'./index'",
+        "string",
+        "string",
+        "\"Requirejs is needed, please ensure it is loaded on the page.\"",
+        "string",
+        "string",
+        "${moduleName}.js",
+        "Falling back to unpkg.com for ${moduleName}@${moduleVersion}",
+        "https://unpkg.com/${moduleName}@${moduleVersion}/dist/index.js",
+        "'@jupyter-widgets/html-manager'"
+    ],
+    "variables": [
+        "requirePromise",
+        "require",
+        "failedId",
+        "managerFactory"
+    ],
+    "comments": [
+        "Copyright (c) Jupyter Development Team.",
+        "Distributed under the terms of the Modified BSD License.",
+        "Populate the requirejs cache with local versions of @jupyter-widgets/base,",
+        "@jupyter-widgets/controls, @jupyter-widgets/html-manager. These are externals",
+        "when compiled with webpack."
+    ],
+    "docstrings": [
+        "* Load a package using requirejs and return a promise\n *\n * @param pkg Package name or names to load",
+        "* Render widgets in a given element.\n *\n * @param element (default document.documentElement) The element containing widget state and views."
+    ],
+    "functions": [
+        "requireLoader",
+        "renderWidgets"
+    ],
+    "classes": []
+}

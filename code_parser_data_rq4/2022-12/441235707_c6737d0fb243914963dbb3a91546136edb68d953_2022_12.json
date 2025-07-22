@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "StoneInterface",
+        "stoneType",
+        "DocumentData",
+        "empowerStone",
+        "handicapStone",
+        "chickenTurningToHenCoordinates",
+        "shouldChickenTurnIntoHen",
+        "stashed",
+        "amIOpponent",
+        "chickenTurningToHenCoordinates",
+        "movingToLetter",
+        "movingToNumber",
+        "amIOpponent",
+        "chickenTurningToHenCoordinates",
+        "movingToLetter",
+        "movingToNumber",
+        "gameData",
+        "placedStoneId",
+        "empowerStone",
+        "gameData",
+        "placedStoneId",
+        "gameData",
+        "lyingStoneId",
+        "handicapStone",
+        "gameData",
+        "lyingStoneId",
+        "lyingStone",
+        "lyingStone",
+        "draggedStone",
+        "draggedStone"
+    ],
+    "literals": [
+        "\"./Stone\"",
+        "\"firebase/firestore\"",
+        "\"../../../api/firestore\"",
+        "\"./MovementRules\"",
+        "string",
+        "\"CHICKEN\"",
+        "${movingToLetter}${movingToNumber}",
+        "${movingToLetter}${movingToNumber}",
+        "string",
+        "\"HEN\"",
+        "string",
+        "\"CHICKEN\"",
+        "\"HEN\"",
+        "\"CHICKEN\""
+    ],
+    "variables": [
+        "shouldChickenTurnIntoHen"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "transformChickenToHen",
+        "transformHenToChicken",
+        "isHenGettingTaken",
+        "isChickenTakingOver"
+    ],
+    "classes": []
+}

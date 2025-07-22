@@ -1,0 +1,37 @@
+{
+    "identifiers": [],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "device"
+    ],
+    "comments": [
+        "Type definitions for Apache Cordova Device plugin.",
+        "Project: https://github.com/apache/cordova-plugin-device",
+        "Definitions by: Microsoft Open Technologies, Inc. <http://msopentech.com>",
+        "Definitions: https://github.com/borisyankov/DefinitelyTyped",
+        "",
+        "Copyright (c) Microsoft Open Technologies, Inc.",
+        "Licensed under the MIT license.",
+        "Get the version of Cordova running on the device.",
+        "Get the device's operating system name.",
+        "Get the device's Universally Unique Identifier (UUID).",
+        "Get the operating system version.",
+        "Get the device's manufacturer.",
+        "Whether the device is running on a simulator.",
+        "Get the device hardware serial number."
+    ],
+    "docstrings": [
+        "* This plugin defines a global device object, which describes the device's hardware and software.\n * Although the object is in the global scope, it is not available until after the deviceready event.",
+        "* The device.model returns the name of the device's model or product. The value is set\n     * by the device manufacturer and may be different across versions of the same product."
+    ],
+    "functions": [],
+    "classes": []
+}

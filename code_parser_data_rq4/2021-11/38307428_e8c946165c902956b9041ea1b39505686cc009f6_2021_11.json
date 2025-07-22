@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "inspect",
+        "thrownValue",
+        "thrownValue",
+        "thrownValue",
+        "NonErrorThrown",
+        "thrownValue",
+        "thrownValue",
+        "inspect",
+        "thrownValue",
+        "thrownValue"
+    ],
+    "literals": [
+        "'./inspect'",
+        "'Unexpected error value: '",
+        "'NonErrorThrown'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Sometimes a non-error is thrown, wrap it as an Error instance to ensure a consistent Error interface."
+    ],
+    "functions": [
+        "toError"
+    ],
+    "classes": [
+        "NonErrorThrown"
+    ]
+}

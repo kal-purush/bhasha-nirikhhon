@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "builder",
+        "guide",
+        "builder",
+        "guide",
+        "guide",
+        "settings",
+        "builder",
+        "model",
+        "builder",
+        "hidden_grp",
+        "builder",
+        "unselactableGrp",
+        "builders",
+        "controllersGrp",
+        "builder",
+        "deformersGrp",
+        "builder",
+        "deformersOrg",
+        "guide",
+        "name",
+        "guide",
+        "location",
+        "createObjects",
+        "createParameters",
+        "createOperators",
+        "createSlots",
+        "createConnection"
+    ],
+    "literals": [],
+    "variables": [
+        "builder",
+        "guide",
+        "settings",
+        "model",
+        "hiddenGrp",
+        "unselectableGrp",
+        "controllersGrp",
+        "deformersGrp",
+        "deformersOrg",
+        "name",
+        "location",
+        "build"
+    ],
+    "comments": [
+        "the five stages of a components build process. Like rigHooks I guess, createsObjects",
+        "for ALL components, then createsParameters for ALL components etc etc"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Component Hooks. Outlines build sequence for components, grabbing required data first from the guide\n    inside __init__\n    \"\"\""
+    ],
+    "functions": [
+        "createObjects",
+        "createParameters",
+        "createOperators",
+        "createSlots",
+        "createConnection"
+    ],
+    "classes": [
+        "Component"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "express",
+        "path",
+        "open",
+        "compression",
+        "express",
+        "app",
+        "compression",
+        "app",
+        "express",
+        "app",
+        "req",
+        "res",
+        "res",
+        "path",
+        "__dirname",
+        "app",
+        "port",
+        "err",
+        "err",
+        "err",
+        "open",
+        "port"
+    ],
+    "literals": [
+        "'express'",
+        "'path'",
+        "'open'",
+        "'compression'",
+        "'dist'",
+        "'/'",
+        "'../dist/index.html'",
+        "'http:localhost:'"
+    ],
+    "variables": [
+        "port",
+        "app"
+    ],
+    "comments": [
+        "eslint-disable no-console",
+        "add compression to get gzipped minified file and see file size of production app",
+        "app.get('/users', function(req, res) {",
+        "// Hard coding for simplicity. Pretend this hits a real database",
+        "res.json([",
+        "{\"id\": 1,\"firstName\":\"Bob\",\"lastName\":\"Smith\",\"email\":\"bob@gmail.com\"},",
+        "{\"id\": 2,\"firstName\":\"Tammy\",\"lastName\":\"Norton\",\"email\":\"tnorton@yahoo.com\"},",
+        "{\"id\": 3,\"firstName\":\"Tina\",\"lastName\":\"Lee\",\"email\":\"lee.tina@hotmail.com\"}",
+        "]);",
+        "});"
+    ],
+    "docstrings": [
+        "* Created by devworx on 4/16/17."
+    ],
+    "functions": [],
+    "classes": []
+}

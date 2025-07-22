@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "BaseModel",
+        "resourceType",
+        "args",
+        "args",
+        "resourceType",
+        "ACCESS_LEVELS",
+        "resourceId",
+        "Utils",
+        "resourceId",
+        "rId",
+        "resourceId",
+        "Utils",
+        "resourceId",
+        "rId",
+        "resourceId",
+        "userId",
+        "resourceId",
+        "userId",
+        "Utils",
+        "rId",
+        "uId",
+        "resourceId",
+        "userId",
+        "resourceId",
+        "userId",
+        "Utils",
+        "rId",
+        "uId",
+        "ResourceAccessRequests"
+    ],
+    "literals": [
+        "'./BaseModel'",
+        "'../Utils'",
+        "${this.resourceType}/${rId}/access_requests",
+        "${this.resourceType}/${rId}/access_requests",
+        "${this.resourceType}/${rId}/access_requests/${uId}/approve",
+        "${this.resourceType}/${rId}/access_requests/${uId}/approve"
+    ],
+    "variables": [
+        "BaseModel",
+        "Utils",
+        "ACCESS_LEVELS",
+        "rId",
+        "rId",
+        "rId",
+        "uId",
+        "rId",
+        "uId"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "all",
+        "request",
+        "approve",
+        "deny"
+    ],
+    "classes": [
+        "ResourceAccessRequests"
+    ]
+}

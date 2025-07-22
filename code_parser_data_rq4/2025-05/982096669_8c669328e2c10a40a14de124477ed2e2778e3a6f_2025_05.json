@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "userService",
+        "getUserOrdersWithPayment",
+        "authId",
+        "userService",
+        "authId"
+    ],
+    "literals": [
+        "\"../modules/user/user.service\"",
+        "string"
+    ],
+    "variables": [
+        "getUserOrdersWithPayment",
+        "orders"
+    ],
+    "comments": [
+        "import * as paymentService from \"../modules/payment/payment.service\";",
+        "Fetch user orders",
+        "Fetch payment details for the orders",
+        "const payments = await paymentService.getPaymentsByUserId(authId);"
+    ],
+    "docstrings": [
+        "* Fetch user orders along with payment details.\n * @param authId - The authenticated user's ID.\n * @returns An object containing orders and their associated payments."
+    ],
+    "functions": [],
+    "classes": []
+}

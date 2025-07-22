@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "BrowserModule",
+        "PurchasePage",
+        "browser",
+        "element",
+        "by",
+        "beforeEach",
+        "PurchasePage",
+        "describe",
+        "it",
+        "PurchasePage",
+        "expirySelector",
+        "expiry",
+        "PurchasePage",
+        "cardNoSelector",
+        "cardNo",
+        "PurchasePage",
+        "nameSelector",
+        "name",
+        "PurchasePage",
+        "expect",
+        "purchaseButtonAttr"
+    ],
+    "literals": [
+        "'@angular/platform-browser'",
+        "'./purchase.po'",
+        "'protractor'",
+        "'Duncan Hunter'",
+        "'1111'",
+        "'1111111111111111'",
+        "'.name input'",
+        "'.card-no input'",
+        "'.expiry input'",
+        "'firebootcamp-angular-testing App'",
+        "'should have an active purchase button with valid form'",
+        "'false'"
+    ],
+    "variables": [
+        "name",
+        "expiry",
+        "cardNo",
+        "nameSelector",
+        "cardNoSelector",
+        "expirySelector",
+        "purchaseButtonAttr"
+    ],
+    "comments": [
+        "browser.sleep(2000);",
+        "const elementText = await PurchasePage.getInputText(nameSelector);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

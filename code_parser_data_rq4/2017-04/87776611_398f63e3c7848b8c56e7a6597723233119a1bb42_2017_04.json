@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "print_function",
+        "submitter",
+        "SimpleHTTPServer",
+        "SocketServer",
+        "FSMSubmitter",
+        "need_tables",
+        "submitter",
+        "start",
+        "SimpleHTTPServer",
+        "SimpleHTTPRequestHandler",
+        "SocketServer",
+        "TCPServer",
+        "PORT",
+        "Handler",
+        "format",
+        "PORT",
+        "httpd",
+        "serve_forever"
+    ],
+    "literals": [
+        "'__main__'",
+        "\"Start kafka consumer...\"",
+        "\"batch.etl.test\"",
+        "'A'",
+        "'B'",
+        "'C'",
+        "\"\"",
+        "\"serving client app at port: {}\""
+    ],
+    "variables": [
+        "PORT",
+        "submitter",
+        "Handler",
+        "httpd"
+    ],
+    "comments": [
+        "submitter = BasicSubmitter(\"batch.etl.test\")",
+        "submitter = ThreadPoolSubmitter(\"batch.etl.test\", max_workers=3)",
+        "== start a server ==",
+        "input(\"Wait for message...\")"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

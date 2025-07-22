@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "setInterval",
+        "date4",
+        "time"
+    ],
+    "literals": [
+        "'clock'"
+    ],
+    "variables": [
+        "date4",
+        "time"
+    ],
+    "comments": [
+        "DATE OBJECT",
+        "let date1=new Date(); // this date object for creating date in your application\n\nvar year=date1.getFullYear();\nvar month=date1.getMonth();\nvar hours=date1.getHours();\nvar minutes=date1.getMinutes();\nvar seconds=date1.getSeconds();\nvar milisecs=date1.getMilliseconds();\nvar time=date1.getTime();\nvar now=Date.now();\n\nconsole.log(`${year}`);\nconsole.log(`${month}`);\nconsole.log(`${hours}:${minutes}:${seconds}`);\nconsole.log(`${time}`);\nconsole.log(`${now}`);",
+        "CREATE A CLOCK HERE",
+        "var date2=new Date();\nvar h=date2.getHours();\nvar m=date2.getMinutes();\nvar s=date2.getSeconds();\n\nconsole.log(`${h}:${m}:${s}`);\n\n\n// TIME DELAY\n\nvar username3='Sweety';\nvar username4='Souravi';\n\nsetTimeout(function()\n{\n    document.writeln(username3);\n} , 1000);\n\nsetInterval(() => {\n    document.writeln(username4);\n}, 1000);",
+        "setInterval(() =>",
+        "{",
+        "var date3=new Date();",
+        "var h1=date3.getHours();",
+        "var m1=date3.getMinutes();",
+        "var s1=date3.getSeconds();",
+        "var format=date3.getHours() < 12 ? 'am' : 'pm';",
+        "document.getElementById('clock').innerHTML=`${h1}:${m1}:${s1} ${format}`;",
+        "} , 1000);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

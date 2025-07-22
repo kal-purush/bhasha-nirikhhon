@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Pathfinding",
+        "Pathfinding",
+        "UniqueComponent",
+        "tag",
+        "HelpURL",
+        "VersionedMonoBehaviour",
+        "ai",
+        "GetComponent",
+        "IAstarAI",
+        "ai",
+        "ai",
+        "onSearchPath",
+        "Update",
+        "ai",
+        "ai",
+        "onSearchPath",
+        "Update",
+        "target",
+        "ai",
+        "targetInTriggerZone",
+        "ai",
+        "destination",
+        "target",
+        "position",
+        "Collider2D",
+        "other",
+        "other",
+        "transform",
+        "target",
+        "targetInTriggerZone",
+        "Collider2D",
+        "other",
+        "other",
+        "transform",
+        "target",
+        "targetInTriggerZone"
+    ],
+    "literals": [
+        "\"ai.destination\"",
+        "\"http://arongranberg.com/astar/docs/class_pathfinding_1_1_a_i_destination_setter.php\"",
+        "\"target entered\"",
+        "\"target left\""
+    ],
+    "variables": [
+        "Transform",
+        "target",
+        "IAstarAI",
+        "ai",
+        "targetInTriggerZone",
+        "GameObject",
+        "triggerZone"
+    ],
+    "comments": [
+        "The target object this AI should follow",
+        "Flag to track if the target is in this enemy's TriggerZone",
+        "Only set the destination if the target is in the trigger zone",
+        "Trigger event when the target enters the TriggerZone",
+        "Check if the entering object is this enemy's target",
+        "Trigger event when the target exits the TriggerZone",
+        "Check if the exiting object is this enemy's target"
+    ],
+    "docstrings": [],
+    "functions": [
+        "OnEnable",
+        "OnDisable",
+        "Update",
+        "OnTriggerEnter2D",
+        "OnTriggerExit2D"
+    ],
+    "classes": [
+        "AIDestinationSetter"
+    ]
+}

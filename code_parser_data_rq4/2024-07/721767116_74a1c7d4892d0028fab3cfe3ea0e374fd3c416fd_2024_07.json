@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "peggy",
+        "parser",
+        "parser",
+        "peggy",
+        "grammars",
+        "parser"
+    ],
+    "literals": [
+        "\"peggy\"",
+        "// global initializer\n{{\n  function $set(obj, path, value) {\n    if (Object(obj) !== obj) return obj;\n    if (!Array.isArray(path)) path = path.toString().match(/[^.[\\]]+/g) || [];\n    path\n      .slice(0, -1)\n      .reduce((a, c, i) => (Object(a[c]) === a[c] ? a[c] : (a[c] = Math.abs(path[i + 1]) >> 0 === +path[i + 1] ? [] : {})), obj)[\n      path[path.length - 1]\n    ] = value;\n    return obj;\n  }\n\n  function toBool(str) {\n    if (typeof str === 'undefined' || str === null) return undefined;\n    return /(TRUE)|1/i.test(str);\n  }\n}}\n\n{\n  const proxy = {};\n  const obfs = {};\n  const $ = {};\n  const params = {};\n}\n\nstart = (trojan) {\n  return proxy\n}\n\ntrojan = \"trojan://\" password:password \"@\" server:server \":\" port:port \"/\"? params? name:name?{\n  proxy.type = \"trojan\";\n  proxy.password = password;\n  proxy.server = server;\n  proxy.port = port;\n  proxy.name = name;\n\n  // name may be empty\n  if (!proxy.name) {\n    proxy.name = server + \":\" + port;\n  }\n};\n\npassword = match:$[^@]+ {\n  return decodeURIComponent(match);\n};\n\nserver = ip/domain;\n\ndomain = match:[0-9a-zA-z-_.]+ { \n  const domain = match.join(\"\"); \n  if (/(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\\.)+[a-z0-9][a-z0-9-]{0,61}[a-z0-9]/.test(domain)) {\n    return domain;\n  }\n}\n\nip = & {\n  const start = peg$currPos;\n  let end;\n  let j = start;\n  while (j < input.length) {\n    if (input[j] === \",\") break;\n    if (input[j] === \":\") end = j;\n    j++;\n  }\n  peg$currPos = end || j;\n  $.ip = input.substring(start, end).trim();\n  return true;\n} { return $.ip; }\n\nport = digits:[0-9]+ { \n  const port = parseInt(digits.join(\"\"), 10); \n  if (port >= 0 && port <= 65535) {\n    return port;\n  } else {\n    throw new Error(\"Invalid port: \" + port);\n  }\n}\n\nparams = \"?\" head:param tail:(\"&\"@param)* {\n  proxy[\"skip-cert-verify\"] = toBool(params[\"allowInsecure\"]);\n  proxy.sni = params[\"sni\"] || params[\"peer\"];\n\n  if (toBool(params[\"ws\"])) {\n    proxy.network = \"ws\";\n    $set(proxy, \"ws-opts.path\", params[\"wspath\"]);\n  }\n  \n  if (params[\"type\"]) {\n    let httpupgrade\n    proxy.network = params[\"type\"]\n    if(proxy.network === 'httpupgrade') {\n      proxy.network = 'ws'\n      httpupgrade = true\n    }\n    if (['grpc'].includes(proxy.network)) {\n        proxy[proxy.network + '-opts'] = {\n            'grpc-service-name': params[\"serviceName\"],\n            '_grpc-type': params[\"mode\"],\n        };\n    } else {\n      if (params[\"path\"]) {\n        $set(proxy, proxy.network+\"-opts.path\", decodeURIComponent(params[\"path\"]));  \n      }\n      if (params[\"host\"]) {\n        $set(proxy, proxy.network+\"-opts.headers.Host\", decodeURIComponent(params[\"host\"])); \n      }\n      if (httpupgrade) {\n        $set(proxy, proxy.network+\"-opts.v2ray-http-upgrade\", true); \n        $set(proxy, proxy.network+\"-opts.v2ray-http-upgrade-fast-open\", true); \n      }\n    }\n  }\n\n  proxy.udp = toBool(params[\"udp\"]);\n  proxy.tfo = toBool(params[\"tfo\"]);\n}\n\nparam = kv/single;\n\nkv = key:$[a-z]i+ \"=\" value:$[^&#]i* {\n  params[key] = value;\n}\n\nsingle = key:$[a-z]i+ {\n  params[key] = true;\n};\n\nname = \"#\" + match:$.* {\n  return decodeURIComponent(match);\n}"
+    ],
+    "variables": [
+        "grammars",
+        "parser"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getParser"
+    ],
+    "classes": []
+}

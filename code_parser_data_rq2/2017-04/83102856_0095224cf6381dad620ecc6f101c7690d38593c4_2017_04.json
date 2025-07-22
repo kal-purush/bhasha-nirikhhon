@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "os",
+        "sys",
+        "urllib2",
+        "urllib",
+        "open",
+        "comp_err_file",
+        "read",
+        "open",
+        "comp_out_file",
+        "read",
+        "sys",
+        "argv",
+        "urllib",
+        "urlencode",
+        "fileName",
+        "comp_out_str",
+        "comp_err_str",
+        "urllib",
+        "urlopen",
+        "data",
+        "os",
+        "system",
+        "os",
+        "system"
+    ],
+    "literals": [
+        "\"compile.e\"",
+        "'r'",
+        "\"compile.o\"",
+        "'r'",
+        "'something'",
+        "'fileName'",
+        "'compileO'",
+        "'compileE'",
+        "\"http://10.194.47.139:8000/COL380/API/Compile/\"",
+        "\"/opt/pbs/default/bin/qsub -P cse -N Test1 -lselect=1:ncpus=21:mem=24gb -l walltime=00:15:00 run1.sh\"",
+        "\"/opt/pbs/default/bin/qsub -P cse -N sendStatus -lselect=1:ncpus=21:mem=24gb -l walltime=00:15:00 SendStatus.sh\""
+    ],
+    "variables": [
+        "comp_err_file",
+        "comp_err_str",
+        "comp_out_file",
+        "comp_out_str",
+        "fileName",
+        "data",
+        "req"
+    ],
+    "comments": [
+        "import requests",
+        "response = urllib.urlopen(req)",
+        "os.system(\"/opt/pbs/default/bin/qsub -P cse -N Test2 -lselect=1:ncpus=21:mem=24gb -l walltime=00:15:00 run2.sh\")",
+        "os.system(\"/opt/pbs/default/bin/qsub -P cse -N Test3 -lselect=1:ncpus=21:mem=24gb -l walltime=00:15:00 run3.sh\")",
+        "os.system(\"/opt/pbs/default/bin/qsub -P cse -N Test4 -lselect=1:ncpus=21:mem=24gb -l walltime=00:15:00 run4.sh\")",
+        "os.system(\"/opt/pbs/default/bin/qsub -P cse -N Test5 -lselect=1:ncpus=21:mem=24gb -l walltime=00:15:00 run5.sh\")"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

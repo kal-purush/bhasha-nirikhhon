@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "DistributedPatientHealthCareSystem",
+        "DPHCSModels",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Newtonsoft",
+        "Json",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Threading",
+        "Tasks",
+        "DistributedPatientHealthCareSystem",
+        "Controllers",
+        "Controller",
+        "DPHCSContext",
+        "_context",
+        "context",
+        "_context",
+        "context",
+        "PatientHealthRecord",
+        "FirstOrDefault",
+        "JsonConvert",
+        "SerializeObject",
+        "phr",
+        "phrJson"
+    ],
+    "literals": [],
+    "variables": [
+        "DPHCSContext",
+        "context",
+        "PatientHealthRecord",
+        "phr",
+        "phrJson"
+    ],
+    "comments": [
+        "PatientPrescription p = new PatientPrescription();",
+        "p.MedicineName = \"MedicineName1\";",
+        "p.Quantity = \"Quantity1\";",
+        "p.UsageDirections = \"UsageDirections1\";",
+        "phr.PatientPrescription.Add(p);",
+        "PatientPrescription p2 = new PatientPrescription();",
+        "p2.MedicineName = \"MedicineName2\";",
+        "p2.Quantity = \"Quantity2\";",
+        "p2.UsageDirections = \"UsageDirections2\";",
+        "phr.PatientPrescription.Add(p);",
+        "phr.PatientPrescription.Add(p2);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "tempController",
+        "test"
+    ],
+    "classes": [
+        "tempController"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "CodeAnalysis",
+        "Microsoft",
+        "CodeAnalysis",
+        "CSharp",
+        "Microsoft",
+        "CodeAnalysis",
+        "CSharp",
+        "Syntax",
+        "SolutionAnalyzer",
+        "Common",
+        "SolutionAnalyzer",
+        "CodeVisitors",
+        "ISyntaxNodeVisitor",
+        "SyntaxNode",
+        "syntaxNode",
+        "syntaxNode",
+        "IsKind",
+        "SyntaxKind",
+        "ClassDeclaration",
+        "SyntaxNode",
+        "syntaxNode",
+        "SyntaxNodeWalker",
+        "syntaxNodeWalker",
+        "syntaxNode",
+        "ClassDeclarationSyntax",
+        "classNode",
+        "Parent",
+        "GetType",
+        "parentType",
+        "CompilationUnitSyntax",
+        "parentType",
+        "NamespaceDeclarationSyntax",
+        "_classCount",
+        "_classCount"
+    ],
+    "literals": [],
+    "variables": [
+        "_classCount",
+        "ClassDeclarationSyntax",
+        "classNode",
+        "Type",
+        "parentType",
+        "ClassCount"
+    ],
+    "comments": [
+        "Class CsCodeClassFinderVisitor.",
+        "Used to calculate root classes into the file/compilation unit",
+        "Implements the <see cref=\"SolutionAnalyzer.Common.ISyntaxNodeVisitor\" />",
+        "</summary>",
+        "<seealso cref=\"SolutionAnalyzer.Common.ISyntaxNodeVisitor\" />",
+        "The class count inside the compilation unit/file",
+        "</summary>",
+        "Determines whether is allowed to visit the specified syntax node.",
+        "</summary>",
+        "<param name=\"syntaxNode\">The syntax node.</param>",
+        "<returns><c>true</c> if is allowed to visit the specified syntax node; otherwise, <c>false</c>.</returns>",
+        "Visits the specified syntax node.",
+        "</summary>",
+        "<param name=\"syntaxNode\">The syntax node.</param>",
+        "<param name=\"syntaxNodeWalker\">The syntax node walker.</param>",
+        "Gets the class count inside the analyzed file",
+        "</summary>",
+        "<value>The class count.</value>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IsAllowedToVisit",
+        "Visit"
+    ],
+    "classes": [
+        "CsCodeClassFinderVisitor"
+    ]
+}

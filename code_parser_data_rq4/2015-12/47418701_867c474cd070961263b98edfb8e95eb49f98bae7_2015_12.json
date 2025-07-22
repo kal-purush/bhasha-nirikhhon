@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "tab",
+        "tab",
+        "$",
+        "tab",
+        "$",
+        "tab",
+        "$",
+        "$",
+        "Tab",
+        "Tab",
+        "$",
+        "$",
+        "targetTabId",
+        "targetTab"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "'[tab='",
+        "']'",
+        "'#'",
+        "'.tab'",
+        "'.tab-label'",
+        "'gametab'",
+        "'inventorytab'",
+        "'#'",
+        "' #dwellerlist'",
+        "\"tab\"",
+        "#${targetTabId}",
+        "'<a class=\"dweller\">Test McTest</p>'"
+    ],
+    "variables": [
+        "targetTabId",
+        "targetTab"
+    ],
+    "comments": [
+        "<reference path=\"../js/lib/jquery.d.ts\"/>",
+        "start with only gameTab visible."
+    ],
+    "docstrings": [],
+    "functions": [
+        "setup",
+        "init"
+    ],
+    "classes": [
+        "Tab",
+        "UI"
+    ]
+}

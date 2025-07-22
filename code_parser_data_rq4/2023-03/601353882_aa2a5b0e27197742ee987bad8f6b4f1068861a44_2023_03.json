@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "data_str",
+        "data_str",
+        "split",
+        "address",
+        "SDI_12_DEVICES",
+        "keys",
+        "index",
+        "len",
+        "csv_data",
+        "address",
+        "csv_data",
+        "index",
+        "SDI_12_DEVICES",
+        "csv_data",
+        "index",
+        "join",
+        "csv_data",
+        "data_file",
+        "volts",
+        "sensor_reading",
+        "format_output",
+        "sensor_reading",
+        "formatted_data",
+        "main"
+    ],
+    "literals": [
+        "'a'",
+        "'TEROS-12'",
+        "'b'",
+        "'MPS-6'",
+        "'z'",
+        "'100K-THERMISTOR'",
+        "\"DateTime,Hostname,SDISensor1,VWC(m^3),Temp(°C),EC(dS/m),SDISensor2,WaterPotential(kPa),Temp(°C),AnalogSensor,Voltage(V)\\n\"",
+        "\",\"",
+        "\",\"",
+        "\"2023-03-21 15:24:30,ccriiob11,a,1932.52,19.2,169.0,b,-10.1,19.1,z,2.734,2.31,2.017,1.89,1.0,0.0,0.0,0.0\"",
+        "f\"Initial sensor reading: {sensor_reading}\"",
+        "f\"Formatted data: {formatted_data}\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "SDI_12_DEVICES",
+        "HEADER",
+        "csv_data",
+        "csv_data",
+        "index",
+        "sensor_reading",
+        "formatted_data"
+    ],
+    "comments": [
+        "Imports",
+        "Known SDI-12 device addresses",
+        "Convert data string into list and trim off the last 7 irrelevant data points",
+        "Scan through the data to see if there's a match with known SDI-12 devices",
+        "If a known SDI-12 address matches with an address in the data,",
+        "overwrite the address with a common sensor name",
+        "Return newly formatted data as a string",
+        "Check to see if the data file is empty",
+        "If it's empty, write the header",
+        "Test Code ###"
+    ],
+    "docstrings": [],
+    "functions": [
+        "format_output",
+        "add_header",
+        "voltage_to_kelvin",
+        "main"
+    ],
+    "classes": []
+}

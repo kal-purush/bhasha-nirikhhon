@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "message",
+        "args",
+        "task",
+        "args",
+        "Discord",
+        "message",
+        "embed",
+        "m",
+        "m",
+        "message",
+        "message",
+        "collected",
+        "collected",
+        "message",
+        "task",
+        "time",
+        "setTimeout",
+        "message",
+        "message",
+        "time",
+        "setTimeout",
+        "message",
+        "message",
+        "time"
+    ],
+    "literals": [
+        "\"node-fetch\"",
+        "'discord.js'",
+        "'todo'",
+        "'adds a task to the todo list'",
+        "\" \"",
+        "'#0099ff'",
+        "'How long would you like to spend on this task?'",
+        "'Please enter a number in minutes.'",
+        "'Example: \"30\"'",
+        "'time'",
+        "Good luck completing your task, ${task}! A timer for ${time} minutes has started. ⏳",
+        "${message.author}, you are half way done! Keep going 🤍",
+        "Congrats ${message.author}! You finished your task! Enjoy a quick break! 🥳"
+    ],
+    "variables": [
+        "fetch",
+        "Discord",
+        "embed",
+        "time"
+    ],
+    "comments": [
+        "given args array, split it into two variables for the strings and the number at the end. So it should form a sentance followed by a number.",
+        "Example: [\"finish\", \"biology\", \"project\", \"1\"] -> task = \"finish biology project\" and number = 1",
+        "Example: [\"finish\", \"biology\", \"project\"] -> task = \"finish biology project\" and number = null",
+        "Example: [\"finish\", \"biology\", \"project\", \"12\"] -> task = \"finish biology project\" and number = 12",
+        "Example: [\"finish\", \"biology\", \"project\", \"12\", \"13\"] -> task = \"finish biology project\" and number = 12",
+        "send a message to the channel that says \"how long would you like to spend on this task? (in minutes)\"",
+        "store the users response in a variable called time",
+        "store the users response in a variable called time",
+        "send a message to the channel that says \"Good luck completing your task, {task}! A timer for {time} minutes has been started.\"",
+        "when the timer is half way done, send a message to the channel that says \"@user, you are half way done! Keep going 🤍\"",
+        "when the timer runs out, send a message to the channel that says \"The timer is up! Great job!\"",
+        "//const task = args[0];\n\n    // start a timer for the task. It should last for the time specified in minutes. After the time is up, send a message that says good job!\n    // if the task is not specified, send a message that says you need to specify a task.\n    // if the time is not specified, send a message that says you need to specify a time.\n    // if the time is not a number, send a message that says you need to specify a number.\n    // if the time is not a number between 1 and 60, send a message that says you need to specify a number between 1 and 60.\n    if (task === undefined) {\n      message.channel.send('You need to specify a task!');\n    }\n    if (time === undefined) {\n      message.channel.send('You need to specify a time!');\n    }\n    if (time === NaN) {\n      message.channel.send('You need to specify a number!');\n    }\n    if (time < 1 || time > 60) {\n      message.channel.send('You need to specify a number between 1 and 60!');\n    }\n    // if the time is a number, send a message that says @user good job!\n    const timer = setTimeout(() => {\n      message.channel.send(`${message.author} good job!`);\n    }, time * 60000);\n    \n    message.channel.send(`${task} has been added to the todo list!`);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "execute"
+    ],
+    "classes": []
+}

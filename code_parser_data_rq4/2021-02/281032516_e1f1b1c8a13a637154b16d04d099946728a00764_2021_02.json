@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "webapi",
+        "api",
+        "exception",
+        "javax",
+        "ws",
+        "rs",
+        "WebApplicationException",
+        "javax",
+        "ws",
+        "rs",
+        "core",
+        "MediaType",
+        "javax",
+        "ws",
+        "rs",
+        "core",
+        "Response",
+        "lombok",
+        "slf4j",
+        "Slf4j",
+        "Slf4j",
+        "exception",
+        "statusCode",
+        "Response",
+        "status",
+        "statusCode",
+        "entity",
+        "exception",
+        "MediaType",
+        "APPLICATION_JSON",
+        "build"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* API exception that can be converted to JAX-RS {@link Response}.",
+        "* Construct an ApiException with body object and status code.\n   *\n   * @param exception  the exception object that will be deserialized to JSON string\n   *                   as the response body.\n   * @param statusCode response status code."
+    ],
+    "functions": [
+        "ApiException"
+    ],
+    "classes": [
+        "ApiException"
+    ]
+}

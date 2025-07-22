@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "java",
+        "sql",
+        "Connection",
+        "java",
+        "sql",
+        "DriverManager",
+        "java",
+        "sql",
+        "ResultSet",
+        "java",
+        "sql",
+        "Statement",
+        "companyID",
+        "name",
+        "description",
+        "email",
+        "hiring",
+        "theirCompanyID",
+        "role",
+        "salary",
+        "description",
+        "role",
+        "city",
+        "state",
+        "city",
+        "state",
+        "companyID",
+        "name",
+        "description",
+        "email",
+        "hiring"
+    ],
+    "literals": [],
+    "variables": [
+        "companyID",
+        "name",
+        "description",
+        "email",
+        "hiring"
+    ],
+    "comments": [
+        "FIXME might not be necessary",
+        "TODO",
+        "TODO",
+        "TODO",
+        "TODO",
+        "TODO",
+        "GETTERS"
+    ],
+    "docstrings": [
+        "* @param theirCompanyID: the id of the company that you you want to add as an associate\n     * @return: true on success, false otherwise",
+        "* @param role\n     * @param salary\n     * @param description\n     * @return: true on success, false otherwise",
+        "* @param role\n     * @return: true on success, false otherwise",
+        "* @param city\n     * @param state\n     * @return: true on success, false otherwise",
+        "* @param city\n     * @param state\n     * @return: true on success, false otherwise"
+    ],
+    "functions": [
+        "addAssociate",
+        "postJob",
+        "deleteJob",
+        "addOffice",
+        "deleteOffice",
+        "getCompanyID",
+        "getName",
+        "getDescription",
+        "getEmail",
+        "isHiring"
+    ],
+    "classes": [
+        "Company"
+    ]
+}

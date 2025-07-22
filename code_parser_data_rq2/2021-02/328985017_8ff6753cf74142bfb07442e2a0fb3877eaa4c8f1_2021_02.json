@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "AWS",
+        "createLogger",
+        "PresignedUrl",
+        "process",
+        "process",
+        "createLogger",
+        "bucketKey",
+        "AWS",
+        "bucketName",
+        "bucketKey",
+        "urlExpiration",
+        "logger",
+        "s3",
+        "settings",
+        "logger",
+        "bucketName",
+        "bucketKey"
+    ],
+    "literals": [
+        "'aws-sdk'",
+        "'../utils/logger'",
+        "'../models/PresignedUrl'",
+        "'business-presignedUrls'",
+        "string",
+        "'v4'",
+        "'PresignedUrl requested for'",
+        "'putObject'",
+        "'PresignedUrl created'",
+        "https://${bucketName}.s3.amazonaws.com/${bucketKey}"
+    ],
+    "variables": [
+        "bucketName",
+        "urlExpiration",
+        "logger",
+        "s3",
+        "settings",
+        "uploadUrl",
+        "retrievalUrl"
+    ],
+    "comments": [
+        "build retrieval url"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generateUploadUrl"
+    ],
+    "classes": []
+}

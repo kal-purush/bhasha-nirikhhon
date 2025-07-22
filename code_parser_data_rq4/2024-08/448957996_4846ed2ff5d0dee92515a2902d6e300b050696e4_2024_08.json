@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "EventSubscriber",
+        "Transaction",
+        "TransactionEventArgs",
+        "Injectable",
+        "Injectable",
+        "args",
+        "args",
+        "args",
+        "args",
+        "args",
+        "args",
+        "args",
+        "args",
+        "args",
+        "trx",
+        "trx"
+    ],
+    "literals": [
+        "\"@mikro-orm/core\"",
+        "\"@nestjs/common\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "afterTransactionStart",
+        "afterTransactionCommit",
+        "afterTransactionRollback",
+        "rollbackActiveTransactions"
+    ],
+    "classes": [
+        "ActiveTransactionManager"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "id",
+        "fetch",
+        "id",
+        "response",
+        "response",
+        "response",
+        "response",
+        "data",
+        "data",
+        "data",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "/vas-dev/indicators/calculate/${id}",
+        "'GET'",
+        "'Content-Type'",
+        "'application/json'",
+        "Error: ${response.status} ${response.statusText}",
+        "'Fetch error:'",
+        "\"result\"",
+        "'An error occurred while calculating scores.'"
+    ],
+    "variables": [
+        "response",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "calculateScore"
+    ],
+    "classes": []
+}

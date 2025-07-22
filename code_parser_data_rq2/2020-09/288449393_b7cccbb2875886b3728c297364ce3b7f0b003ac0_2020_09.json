@@ -1,0 +1,84 @@
+{
+    "identifiers": [
+        "com",
+        "exasol",
+        "adapter",
+        "java",
+        "util",
+        "java",
+        "util",
+        "stream",
+        "Stream",
+        "com",
+        "exasol",
+        "ExaConnectionInformation",
+        "com",
+        "exasol",
+        "adapter",
+        "documentfetcher",
+        "DocumentFetcher",
+        "com",
+        "exasol",
+        "adapter",
+        "mapping",
+        "PropertyToColumnValueExtractorFactory",
+        "com",
+        "exasol",
+        "adapter",
+        "mapping",
+        "SchemaMapper",
+        "com",
+        "exasol",
+        "adapter",
+        "queryplanning",
+        "RemoteTableQuery",
+        "com",
+        "exasol",
+        "sql",
+        "expression",
+        "ValueExpression",
+        "java",
+        "lang",
+        "SuppressWarnings",
+        "serialVersionUID",
+        "documentFetcher",
+        "documentFetcher",
+        "documentFetcher",
+        "documentFetcher",
+        "Override",
+        "connectionInformation",
+        "remoteTableQuery",
+        "schemaMapper",
+        "remoteTableQuery",
+        "getValueExtractorFactory",
+        "documentFetcher",
+        "run",
+        "connectionInformation",
+        "flatMap",
+        "schemaMapper",
+        "mapRow"
+    ],
+    "literals": [
+        "\"squid:S119\""
+    ],
+    "variables": [
+        "documentFetcher"
+    ],
+    "comments": [
+        "DocumentVisitorType does not fit naming conventions."
+    ],
+    "docstrings": [
+        "* Abstract basis for dialect specific {@link DataLoader}s.",
+        "@serial",
+        "* Create a new instance of {@link AbstractDataLoader}.\n     * \n     * @param documentFetcher document fetcher that provides the document data.",
+        "* Get a database specific {@link PropertyToColumnValueExtractorFactory}.\n     *\n     * @return database specific {@link PropertyToColumnValueExtractorFactory}"
+    ],
+    "functions": [
+        "AbstractDataLoader",
+        "getValueExtractorFactory",
+        "run"
+    ],
+    "classes": [
+        "AbstractDataLoader"
+    ]
+}

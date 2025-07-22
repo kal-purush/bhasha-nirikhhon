@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "ArangoDBNetStandard",
+        "TransactionApi",
+        "Models",
+        "Threading",
+        "Tasks",
+        "ArangoDBNetStandard",
+        "TransactionApi",
+        "ITransactionApiClient",
+        "PostTransactionResponse",
+        "T",
+        "T",
+        "PostTransactionBody",
+        "body"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Defines a client to access the ArangoDB Transactions API.",
+        "</summary>",
+        "POST a transaction to ArangoDB.",
+        "</summary>",
+        "<typeparam name=\"T\">Type to use for deserializing the object returned by the transaction function.</typeparam>",
+        "<param name=\"body\">Object containing information to submit in the POST transaction request.</param>",
+        "<returns>Response from ArangoDB after processing the request.</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "PostTransactionAsync"
+    ],
+    "classes": []
+}

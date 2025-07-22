@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "React",
+        "Lottie"
+    ],
+    "literals": [
+        "'react-lottie'",
+        "'noScale'",
+        "string",
+        "'complete'",
+        "'loopComplete'",
+        "'enterFrame'",
+        "'segmentStart'",
+        "'config_ready'",
+        "'data_ready'",
+        "'loaded_images'",
+        "'DOMLoaded'",
+        "'destroy'",
+        "string",
+        "string",
+        "string",
+        "'button'",
+        "string",
+        "'animation'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "",
+        "declare module \"react-lottie\" {",
+        "import * as React from \"react\";",
+        "",
+        "export interface ReactLottieProps {",
+        "options: any;",
+        "height: any;",
+        "width: any;",
+        "isStopped: any;",
+        "isPaused: any;",
+        "}",
+        "",
+        "export class Collapse extends React.Component<ReactLottieProps, {}> {}",
+        "}",
+        "the canvas context",
+        "Boolean, only svg renderer, loads dom elements when needed. Might speed up initialization for large number of elements.",
+        "Boolean, only svg renderer, hides elements when opacity reaches 0 (defaults to true)"
+    ],
+    "docstrings": [
+        "* @param loop if the animation must be continue after the animation has fully executed\n\t * @param autoplay if the animation needs to be started when the react component requests rendering\n\t * @param animationData require here the animation data in format JSON\n\t * @param rendererSettings",
+        "* @param eventName the event sent by bodymovin\n\t * @param callback a callback execute when this eventName is received.",
+        "* Props of Lottie component\n\t * @param options the object representing the animation settings that will be instantiated by bodymovin.\n\t * @param height height size of the animation in pixel, default value is 100%\n\t * @param width width size of the animation in pixel, default value is 100%\n\t * @param isStopped must be stocked in a state, boolean that describe if the animation must be in stopped mode\n\t * @param isPaused must be stocked in a state, boolean that describe if the animation must be in paused mode\n\t * @param eventListeners optional [default: []], This is an array of objects containing a eventName and callback function that will be registered as eventlisteners on the animation object. refer to bodymovin#events where the mention using addEventListener, for a list of available custom events.",
+        "* @component Lottie is a component that allow you to use animation from JSON file that created by\n\t * Bodymovin on Adobe After Effect"
+    ],
+    "functions": [],
+    "classes": [
+        "Lottie"
+    ]
+}

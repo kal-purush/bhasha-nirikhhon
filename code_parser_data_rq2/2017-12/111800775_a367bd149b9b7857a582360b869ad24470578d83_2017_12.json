@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "MyWindowsService",
+        "ComponentModel",
+        "IContainer",
+        "components",
+        "ComponentModel",
+        "Container"
+    ],
+    "literals": [],
+    "variables": [
+        "components"
+    ],
+    "comments": [
+        "Required designer variable.",
+        "</summary>",
+        "Clean up any resources being used.",
+        "</summary>",
+        "<param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>",
+        "protected override void Dispose(bool disposing)\n        {\n            if (disposing && (components != null))\n            {\n                components.Dispose();\n            }\n            Dispose(disposing);\n        }",
+        "Required method for Designer support - do not modify",
+        "the contents of this method with the code editor.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "InitializeComponent"
+    ],
+    "classes": [
+        "Service1Install"
+    ]
+}

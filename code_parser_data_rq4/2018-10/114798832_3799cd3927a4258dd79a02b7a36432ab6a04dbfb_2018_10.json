@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Injectable",
+        "resolve",
+        "reject",
+        "Keycloak",
+        "config",
+        "auth",
+        "err",
+        "err",
+        "auth",
+        "auth",
+        "resolve",
+        "err",
+        "err",
+        "reject",
+        "auth",
+        "err",
+        "err",
+        "currentUser",
+        "currentUser"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'http://localhost:4200'",
+        "'https://sso-dev.pathfinder.gov.bc.ca/auth'",
+        "'prc'",
+        "'prc-admin-console'",
+        "'KC Auth init.'",
+        "'onAuthSuccess'",
+        "'onAuthError'",
+        "'onAuthRefreshSuccess'",
+        "'onAuthRefreshError'",
+        "'onAuthLogout'",
+        "'onTokenExpired, attempting to refresh.'",
+        "'KC Refresh Success?:'",
+        "'KC error:'",
+        "'login-required'",
+        "'KC Refresh Success?:'",
+        "'KC Success:'",
+        "'KC error:'",
+        "'updating KC Token'",
+        "'KC Refresh Success?:'",
+        "'KC error:'",
+        "'redir to login'",
+        "'/admin/login'",
+        "string",
+        "'currentUser'",
+        "string",
+        "'/realms/prc/protocol/openid-connect/logout?redirect_uri='",
+        "'/admin/'",
+        "'/admin/login'"
+    ],
+    "variables": [
+        "Keycloak",
+        "config",
+        "currentUser"
+    ],
+    "comments": [
+        "Bootup KC",
+        "Try to get refresh tokens in the background",
+        "Initialize.",
+        "console.log('getToken:', this.keycloakAuth);",
+        "return the local storage token",
+        "go to the /login page"
+    ],
+    "docstrings": [],
+    "functions": [
+        "isKeyCloakEnabled",
+        "init",
+        "forceAttemptUpdateToken",
+        "getToken",
+        "getLogoutURL"
+    ],
+    "classes": [
+        "KeycloakService"
+    ]
+}

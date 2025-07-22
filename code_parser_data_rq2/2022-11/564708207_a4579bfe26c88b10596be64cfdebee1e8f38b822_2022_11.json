@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "Controller",
+        "Param",
+        "Get",
+        "Post",
+        "ConfigurationContext",
+        "ConfigurationService",
+        "Controller",
+        "configurationService",
+        "Get",
+        "Param",
+        "serviceId",
+        "serviceId",
+        "Get",
+        "Param",
+        "serviceId",
+        "Param",
+        "reachabilityValue",
+        "serviceId",
+        "reachabilityValue"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'twilio/lib/rest/conversations/v1/service/configuration'",
+        "'../services/configuration.service'",
+        "'/configurations'",
+        "'/:serviceId'",
+        "'serviceId'",
+        "string",
+        "'/:serviceId/:reachabilityValue'",
+        "'serviceId'",
+        "string",
+        "'reachabilityValue'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "listConfigurations",
+        "changeReachability"
+    ],
+    "classes": [
+        "ConfigurationController"
+    ]
+}

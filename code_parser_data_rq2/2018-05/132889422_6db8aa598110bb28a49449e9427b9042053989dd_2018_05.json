@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "sys",
+        "argv",
+        "argv",
+        "script",
+        "first",
+        "second",
+        "third"
+    ],
+    "literals": [
+        "\"The script is called:\"",
+        "\"Your first variable is:\"",
+        "\"Your second variable is:\"",
+        "\"Your third variable is:\""
+    ],
+    "variables": [
+        "script",
+        "first",
+        "second",
+        "third"
+    ],
+    "comments": [
+        "import argv from sys module",
+        "short for arguments vector",
+        "Take whatever is in argv, unpack it, and assign it to all of these variables on the left in order.",
+        "it gets inputs from terminal command directly.",
+        "ex) python3 ex13.py first second, third",
+        "script"
+    ],
+    "docstrings": [
+        "'''Parameters, Unpacking, Variables\n\ngive your script inputs on the terminal, then go with argv\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

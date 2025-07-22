@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "click",
+        "secho",
+        "invenio_db",
+        "db",
+        "invenio_files_rest",
+        "models",
+        "Bucket",
+        "FileInstance",
+        "secho",
+        "fg",
+        "Bucket",
+        "query",
+        "all",
+        "bucket",
+        "buckets",
+        "db",
+        "session",
+        "add",
+        "bucket",
+        "FileInstance",
+        "query",
+        "all",
+        "fi",
+        "file_instances",
+        "db",
+        "session",
+        "add",
+        "fi",
+        "secho",
+        "fg",
+        "db",
+        "session",
+        "commit",
+        "secho",
+        "fg",
+        "execute_upgrade"
+    ],
+    "literals": [
+        "\"Starting data migration...\"",
+        "\"green\"",
+        "\"L\"",
+        "\"L\"",
+        "f\"Commiting to DB\"",
+        "\"green\"",
+        "\"Data migration completed.\"",
+        "\"green\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "buckets",
+        "bucket",
+        "default_storage_class",
+        "file_instances",
+        "fi",
+        "storage_class"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "",
+        "Copyright (C) 2023 CERN.",
+        "",
+        "Invenio-App-RDM is free software; you can redistribute it and/or modify",
+        "it under the terms of the MIT License; see LICENSE file for more details.",
+        "if the script is executed on its own, perform the upgrade"
+    ],
+    "docstrings": [
+        "\"\"\"Record migration script from InvenioRDM 10.0 to 11.0.\n\nDisclaimer: This script is intended to be executed *only once*, namely when\nupgrading from InvenioRDM 10.0 to 11.0!\nIf this script is executed at any other time, probably the best case scenario\nis that nothing happens!\n\"\"\"",
+        "\"\"\"Execute the upgrade from InvenioRDM 10.0 to 11.0.\n\n    Please read the disclaimer on this module before thinking about executing\n    this function!\n    \"\"\""
+    ],
+    "functions": [
+        "execute_upgrade"
+    ],
+    "classes": []
+}

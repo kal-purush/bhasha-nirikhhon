@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "keystroke",
+        "keystroke",
+        "keys",
+        "keys",
+        "key",
+        "key",
+        "withinDiamond",
+        "withinDiamond",
+        "code",
+        "withinDiamond",
+        "key",
+        "code",
+        "key",
+        "code",
+        "key",
+        "invalid",
+        "key",
+        "code",
+        "invalid",
+        "key",
+        "invalid",
+        "key",
+        "invalid",
+        "key",
+        "result"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+    ],
+    "variables": [
+        "keys",
+        "result",
+        "code",
+        "withinDiamond",
+        "invalid"
+    ],
+    "comments": [
+        "with alt key",
+        "code string",
+        "with ctrl key",
+        "keystroke string if keystroke string is invalid, use for notice to user",
+        "with meta key",
+        "with shift key",
+        "is key within <>?",
+        "<C-x> => x",
+        "x => x"
+    ],
+    "docstrings": [
+        "* KeyStroke structure",
+        "* Parse a keystroke string into an array of KeyStroke objects\n *\n * ```ts\n * parse(\"i\"); // => [{ alt: false, code: \"I\", ctrl: false, invalid: \"\", meta: false, shift: false }]\n * parse(\"<C-x>\"); // => [{ alt: false, code: \"X\", ctrl: true, invalid: \"\", meta: false, shift: false }]\n * ```"
+    ],
+    "functions": [
+        "parse"
+    ],
+    "classes": []
+}

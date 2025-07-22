@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "route53",
+        "cdk",
+        "RegionInfo",
+        "route53",
+        "environmentEndpoint",
+        "_record",
+        "route53",
+        "_zone",
+        "route53",
+        "route53",
+        "cdk",
+        "cdk",
+        "cdk",
+        "dnsName",
+        "RegionInfo",
+        "region",
+        "hostedZoneId",
+        "dnsName",
+        "region"
+    ],
+    "literals": [
+        "'@aws-cdk/aws-route53'",
+        "'@aws-cdk/core'",
+        "'@aws-cdk/region-info'",
+        "string",
+        "'Cannot use an EBS alias as `environmentEndpoint`. You must find your EBS environment endpoint via the AWS console. See the Elastic Beanstalk developer guide: https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/customdomains.html'",
+        "'.'",
+        "Elastic Beanstalk environment target is not supported for the \"${region}\" region."
+    ],
+    "variables": [
+        "dnsName",
+        "region",
+        "hostedZoneId"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Use an Elastic Beanstalk environment URL as an alias record target.\n * E.g. mysampleenvironment.xyz.us-east-1.elasticbeanstalk.com\n *\n * Only supports Elastic Beanstalk environments created after 2016 that have a regional endpoint."
+    ],
+    "functions": [
+        "bind"
+    ],
+    "classes": [
+        "ElasticBeanstalkEnvironmentEndpointTarget"
+    ]
+}

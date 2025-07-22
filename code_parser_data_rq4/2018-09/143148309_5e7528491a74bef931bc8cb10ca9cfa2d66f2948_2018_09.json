@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpRequest",
+        "HttpHandler",
+        "HttpEvent",
+        "HttpInterceptor",
+        "Observable",
+        "throwError",
+        "catchError",
+        "AuthenticationService",
+        "Injectable",
+        "authenticationService",
+        "request",
+        "next",
+        "next",
+        "request",
+        "catchError",
+        "err",
+        "err",
+        "location",
+        "err",
+        "err",
+        "throwError",
+        "error"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common/http'",
+        "'rxjs'",
+        "'rxjs/operators'",
+        "'../services/authentication.service'"
+    ],
+    "variables": [
+        "error"
+    ],
+    "comments": [
+        "intercepts http responses from the api to check if there were any errors.",
+        "If there is a 401 Unauthorized response the user is automatically logged out of the application.",
+        "All other errors are re-thrown to be caught by the calling service so an alert will be displayed to the user",
+        "logout if 401 response is returned from api"
+    ],
+    "docstrings": [],
+    "functions": [
+        "intercept"
+    ],
+    "classes": [
+        "ErrorInterceptor"
+    ]
+}

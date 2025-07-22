@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Injectable",
+        "AigisGameDataService",
+        "SpoilsStatistics",
+        "HttpClient",
+        "GlobalConfig",
+        "Injectable",
+        "aigisGameDataService",
+        "http",
+        "SpoilsStatistics",
+        "record",
+        "GlobalConfig",
+        "url",
+        "record",
+        "response",
+        "response",
+        "label",
+        "label"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'./aigis.service'",
+        "'./statistics/spoils.statistics'",
+        "'@angular/common/http'",
+        "'../../global/config'",
+        "http://${GlobalConfig.Host}/statistics/aigis",
+        "'spoils'"
+    ],
+    "variables": [
+        "url"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "sendRecord",
+        "getStats"
+    ],
+    "classes": [
+        "AigisStatisticsService"
+    ]
+}

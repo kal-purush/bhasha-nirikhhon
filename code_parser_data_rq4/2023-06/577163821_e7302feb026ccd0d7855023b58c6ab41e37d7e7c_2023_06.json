@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Deployment",
+        "WindowsInstaller",
+        "Microsoft",
+        "DotNet",
+        "Build",
+        "Tasks",
+        "Workloads",
+        "Msi",
+        "directoryRecord",
+        "DirectoryRow",
+        "Directory",
+        "directoryRecord",
+        "DirectoryParent",
+        "directoryRecord",
+        "DefaultDir",
+        "directoryRecord"
+    ],
+    "literals": [
+        "\"Directory\"",
+        "\"Directory_Parent\"",
+        "\"DefaultDir\""
+    ],
+    "variables": [
+        "Directory",
+        "DirectoryParent",
+        "DefaultDir"
+    ],
+    "comments": [
+        "Licensed to the .NET Foundation under one or more agreements.",
+        "The .NET Foundation licenses this file to you under the MIT license.",
+        "Defines a single row inside the <see href=\"https://learn.microsoft.com/en-us/windows/win32/msi/directory-table\">Directory</see> table of an MSI.",
+        "</summary>",
+        "The directory ID or an absolute path.",
+        "</summary>",
+        "A reference to the directory's parent.",
+        "</summary>",
+        "The localizable directory name under the parent.",
+        "</summary>",
+        "Creates a new <see cref=\"DirectoryRow\"/> instance from the specified <see cref=\"Record\"/>.",
+        "</summary>",
+        "<param name=\"directoryRecord\">The file record obtained from querying the MSI File table.</param>",
+        "<returns>A single file row.</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "DirectoryRow",
+        "Create"
+    ],
+    "classes": [
+        "DirectoryRow"
+    ]
+}

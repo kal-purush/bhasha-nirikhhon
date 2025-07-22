@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "logLevel",
+        "createSyslogFormatter",
+        "createSyslogFormatter",
+        "test",
+        "formatter",
+        "logLevel",
+        "expect",
+        "actual",
+        "timestamp",
+        "test",
+        "formatter",
+        "logLevel",
+        "expect",
+        "actual",
+        "timestamp",
+        "test",
+        "formatter",
+        "logLevel",
+        "expect",
+        "actual",
+        "timestamp"
+    ],
+    "literals": [
+        "'standard-log'",
+        "'.'",
+        "'string argument'",
+        "'log'",
+        "'string value'",
+        "<2>1 ${timestamp.toISOString()} - - - - - [\"string value\"]",
+        "'non string and object values'",
+        "'log'",
+        "<2>1 ${timestamp.toISOString()} - - - - - [true,1,null,null]",
+        "'object'",
+        "'log'",
+        "'b'",
+        "<2>1 ${timestamp.toISOString()} - - - - - [{\"a\":1,\"b\":\"b\"}]"
+    ],
+    "variables": [
+        "formatter",
+        "timestamp",
+        "actual",
+        "actual",
+        "actual"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

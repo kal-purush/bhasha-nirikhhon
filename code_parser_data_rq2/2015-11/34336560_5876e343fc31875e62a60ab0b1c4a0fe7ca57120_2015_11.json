@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "RayOfParameterMidpoints",
+        "rayOfParameterMidpoints",
+        "ggbApplet",
+        "ggbApplet",
+        "ggbApplet",
+        "ggbApplet",
+        "ggbApplet",
+        "ggbApplet",
+        "ggbApplet",
+        "ggbApplet",
+        "ggbApplet",
+        "ggbApplet",
+        "ggbApplet",
+        "ggbApplet",
+        "i",
+        "i",
+        "ggbApplet",
+        "i",
+        "i",
+        "i",
+        "i",
+        "i",
+        "i",
+        "ggbApplet",
+        "i",
+        "i",
+        "i",
+        "i"
+    ],
+    "literals": [
+        "'commonLine = Intersect[e_0, e_1]'",
+        "'CommonPoint = Intersect[e_2, commonLine]'",
+        "'rayFromO = Ray[O, CommonPoint]'",
+        "'PointOnRay = Point[rayFromO, 0.7]'",
+        "'pointRayWithZero = Ray[CommonPoint, PointOnRay]'",
+        "'PointOnRayWithZero = Point[pointRayWithZero, 0.001]'",
+        "'midpointRay = Ray[PointOnRayWithZero, PointOnRay]'",
+        "'Oo = (0,0,0)'",
+        "'r_{o slider} = Slider[0.1, 10]'",
+        "'SetValue[r_{o slider}, 1]'",
+        "'so = Sphere[Oo, r_{o slider}]'",
+        "'O = Midpoint[so]'",
+        "'P_'",
+        "' = (RandomUniform[-100, 100],'",
+        "'RandomUniform[-100, 100], RandomUniform[-100, 100])'",
+        "'e_'",
+        "' = Plane[ P_'",
+        "', P_'",
+        "', P_'",
+        "']'"
+    ],
+    "variables": [
+        "rayOfParameterMidpoints",
+        "i",
+        "i",
+        "p1",
+        "p2",
+        "p3"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* point really close to CommonPoint but not same to prevent Radii from getting\n         * Zero"
+    ],
+    "functions": [
+        "runRayOfParameterMidpoints",
+        "run",
+        "createSphere",
+        "createThreePlanes"
+    ],
+    "classes": [
+        "RayOfParameterMidpoints"
+    ]
+}

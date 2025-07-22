@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Context",
+        "UNAUTHORIZED",
+        "verifyToken",
+        "authMiddleware",
+        "ctx",
+        "next",
+        "ctx",
+        "headers",
+        "authorization",
+        "ctx",
+        "UNAUTHORIZED",
+        "ctx",
+        "authorization",
+        "jwtToken",
+        "ctx",
+        "UNAUTHORIZED",
+        "ctx",
+        "verifyToken",
+        "jwtToken",
+        "next",
+        "ctx",
+        "UNAUTHORIZED",
+        "ctx"
+    ],
+    "literals": [
+        "\"https://deno.land/x/oak/mod.ts\"",
+        "'../utils/resp-status-utils.ts'",
+        "'../utils/jwt-util.ts'",
+        "\"Authorization\"",
+        "\"Authorization not found\"",
+        "' '",
+        "\"\"",
+        "\"Token not found\"",
+        "\"You have an invalid token or your token has expired.\""
+    ],
+    "variables": [
+        "authMiddleware",
+        "headers",
+        "authorization",
+        "jwtToken"
+    ],
+    "comments": [
+        "check if user actually have auth in headers",
+        "check if user has a token bearer",
+        "check if user has a valid token"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

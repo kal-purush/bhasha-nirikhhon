@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "injectable",
+        "AWS",
+        "FileVisibility",
+        "S3Interface",
+        "accessEndpoint",
+        "bucketEndpoint",
+        "logger",
+        "s3Bucket",
+        "AWS",
+        "bucketEndpoint",
+        "injectable",
+        "key",
+        "acl",
+        "logger",
+        "acl",
+        "s3Bucket",
+        "key",
+        "acl",
+        "s3",
+        "result",
+        "file",
+        "key",
+        "fileType",
+        "logger",
+        "fileType",
+        "s3Bucket",
+        "file",
+        "key",
+        "FileVisibility",
+        "s3",
+        "key",
+        "accessEndpoint",
+        "s3Bucket",
+        "key",
+        "longUrl",
+        "longUrl",
+        "key",
+        "key"
+    ],
+    "literals": [
+        "'inversify'",
+        "'aws-sdk'",
+        "'./aws'",
+        "'../config'",
+        "'foobar'",
+        "'foobar'",
+        "string",
+        "Setting file ACL to ${acl}",
+        "string",
+        "string",
+        "'Your file will be uploaded to localstack rather than AWS S3'",
+        "no-cache",
+        "string",
+        "string",
+        "${accessEndpoint}/${s3Bucket}/${key}",
+        "string",
+        "string",
+        "'/'",
+        "'Invalid URL'"
+    ],
+    "variables": [
+        "s3",
+        "result",
+        "key"
+    ],
+    "comments": [
+        "eslint-disable import/prefer-default-export",
+        "eslint class-methods-use-this: [\"error\", { \"exceptMethods\":\n  [\"setS3ObjectACL\", \"uploadFileToS3\", \"buildFileLongUrl\", \"getKeyFromLongUrl\"] }]"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setS3ObjectACL",
+        "uploadFileToS3",
+        "buildFileLongUrl",
+        "getKeyFromLongUrl"
+    ],
+    "classes": [
+        "S3LocalDev"
+    ]
+}

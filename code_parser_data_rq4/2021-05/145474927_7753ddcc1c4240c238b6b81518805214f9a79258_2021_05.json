@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "buildSchema",
+        "printSchema",
+        "transformSchema",
+        "describe",
+        "test",
+        "buildSchema",
+        "transformSchema",
+        "schema",
+        "namedType",
+        "namedType",
+        "expect",
+        "printSchema",
+        "newSchema",
+        "printSchema",
+        "schema"
+    ],
+    "literals": [
+        "\"graphql\"",
+        "\"../transformSchema\"",
+        "\"transformSchema\"",
+        "\"no-op transform leaves types untouched\"",
+        "#graphql\n    type Query {\n      foo: String @test(baz: { bar: \"hello\" })\n    }\n\n    input DirectiveArg {\n      bar: String\n    }\n\n    # https://github.com/apollographql/apollo-tooling/issues/2162\n    directive @test(baz: DirectiveArg) on FIELD_DEFINITION"
+    ],
+    "variables": [
+        "schema",
+        "newSchema"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

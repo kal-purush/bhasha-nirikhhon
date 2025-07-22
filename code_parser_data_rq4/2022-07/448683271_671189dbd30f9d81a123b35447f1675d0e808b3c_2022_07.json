@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Threading",
+        "Tasks",
+        "com",
+        "csutil",
+        "http",
+        "apis",
+        "apiKey",
+        "apiKey",
+        "apiKey",
+        "CompletionsResponse",
+        "promt",
+        "Complete",
+        "CompletionsRequest",
+        "prompt",
+        "promt",
+        "CompletionsResponse",
+        "CompletionsRequest",
+        "requestParams",
+        "Uri",
+        "SendPOST",
+        "request",
+        "WithAuthorization",
+        "apiKey",
+        "WithJsonContent",
+        "requestParams",
+        "GetResult",
+        "CompletionsResponse",
+        "Choice"
+    ],
+    "literals": [
+        "\"https://api.openai.com/v1/completions\"",
+        "\"text-davinci-002\""
+    ],
+    "variables": [
+        "apiKey",
+        "request",
+        "prompt",
+        "model",
+        "temperature",
+        "max_tokens",
+        "top_p",
+        "frequency_penalty",
+        "presence_penalty",
+        "id",
+        "@object",
+        "created",
+        "model",
+        "choices",
+        "Usage",
+        "usage",
+        "prompt_tokens",
+        "completion_tokens",
+        "total_tokens",
+        "text",
+        "index",
+        "logprobs",
+        "finish_reason"
+    ],
+    "comments": [
+        "<param name=\"apiKey\"> See https://beta.openai.com/docs/api-reference/authentication and https://beta.openai.com/account/api-keys </param>"
+    ],
+    "docstrings": [
+        "<summary> </summary>"
+    ],
+    "functions": [
+        "OpenAi",
+        "Complete",
+        "Complete"
+    ],
+    "classes": [
+        "OpenAi",
+        "CompletionsRequest",
+        "CompletionsResponse",
+        "Usage",
+        "Choice"
+    ]
+}

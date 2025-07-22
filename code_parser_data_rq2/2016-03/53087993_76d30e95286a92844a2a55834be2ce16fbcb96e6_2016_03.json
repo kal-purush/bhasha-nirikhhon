@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Component",
+        "Control",
+        "Observable",
+        "WikipediaService",
+        "Component",
+        "WikipediaService",
+        "Control",
+        "wikipediaService",
+        "wikipediaService"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/common'",
+        "'rxjs/Observable'",
+        "'../service/wikipedia.service'",
+        "'app'",
+        "<div class=\"container\">\n    <h2>Wikipedia Search</h2>\n    <input type=\"text\" [ngFormControl]=\"term\"/>\n    <ul>\n      <li *ngFor=\"#item of items | async\">{{item}}</li>\n    </ul>\n</div>",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppComponent"
+    ]
+}

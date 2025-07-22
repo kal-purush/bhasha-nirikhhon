@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "STWProfileSchematicData",
+        "STWItemRarity",
+        "STWItemTier",
+        "STWSchematicEvoType",
+        "STWSchematicMeleeSubType",
+        "STWSchematicRangedSubType",
+        "STWSchematicTrapSubType",
+        "STWSchematicType",
+        "Client",
+        "calcSTWNonSurvivorPowerLevel",
+        "parseSTWSchematicTemplateId",
+        "STWItem",
+        "STWItem",
+        "client",
+        "id",
+        "data",
+        "client",
+        "id",
+        "data",
+        "parseSTWSchematicTemplateId",
+        "data",
+        "parsedSchematic",
+        "parsedSchematic",
+        "parsedSchematic",
+        "parsedSchematic",
+        "parsedSchematic",
+        "parsedSchematic",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "calcSTWNonSurvivorPowerLevel",
+        "STWSchematic"
+    ],
+    "literals": [
+        "'../../resources/httpResponses'",
+        "'../../resources/structs'",
+        "'../client/Client'",
+        "'../util/Util'",
+        "'./STWItem'",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "parsedSchematic"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Represents a Save The World profile's schematic",
+        "* The schematic's type (ranged, melee, or trap)",
+        "* The schematic's subtype (specific type of ranged/melee weapon or trap)",
+        "* The schematic's name",
+        "* The schematic's tier",
+        "* The schematic's evolution type",
+        "* The schematic's rarity",
+        "* The schematic's level",
+        "* The schematic's max level bonus",
+        "* The schematic's xp",
+        "* Whether the schematic is marked as seen",
+        "* Whether the schematic is marked as favorite",
+        "* Whether the schematic is marked as refundable",
+        "* The schematic's perks",
+        "* The original rarities of the schematic's perks, before any upgrades",
+        "* The schematic's power level.\n   * Depends on the tier, level, and rarity value"
+    ],
+    "functions": [
+        "powerLevel"
+    ],
+    "classes": [
+        "STWSchematic"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "require",
+        "exec",
+        "error1",
+        "stdout1",
+        "stderr1",
+        "error1",
+        "error1",
+        "stderr1",
+        "stderr1",
+        "stdout1",
+        "exec",
+        "comando",
+        "error",
+        "stdout",
+        "stderr",
+        "error",
+        "error",
+        "reject",
+        "error",
+        "stdout",
+        "generarClavePrivadaYCSR"
+    ],
+    "literals": [
+        "'child_process'",
+        "'openssl genrsa -out pkAfip.key 2048'",
+        "Error al generar la clave privada: ${error1.message}",
+        "Error: ${stderr1}",
+        "Clave privada generada: ${stdout1} OK",
+        "'openssl req -new -key pkAfip.key -subj \"/C=AR/O=EmpresaPrueba/CN=TestSystem/serialNumber=CUIT 20435359974\" -out MiPedidoCSR.pem'",
+        "Error al ejecutar el comando: ${error.message}",
+        "Archivo MiPedidoCSR.pem generado con éxito: ${stdout} Ok"
+    ],
+    "variables": [
+        "comando"
+    ],
+    "comments": [
+        "const fs = require('fs');",
+        "Función para generar la clave privada y el CSR",
+        "Paso 1: Generar la clave privada",
+        "Paso 2: Generar el CSR (Certificate Signing Request)",
+        "Ejecutar el comando"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generarClavePrivadaYCSR"
+    ],
+    "classes": []
+}

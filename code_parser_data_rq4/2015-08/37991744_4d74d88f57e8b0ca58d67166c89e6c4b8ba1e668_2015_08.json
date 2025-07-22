@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "com",
+        "klinker",
+        "android",
+        "link_builder_example",
+        "list_view_example",
+        "android",
+        "os",
+        "Bundle",
+        "android",
+        "util",
+        "Log",
+        "android",
+        "view",
+        "View",
+        "android",
+        "widget",
+        "ListView",
+        "TAG",
+        "getSimpleName",
+        "Override",
+        "savedInstanceState",
+        "onCreate",
+        "savedInstanceState",
+        "setListAdapter",
+        "Override",
+        "l",
+        "v",
+        "position",
+        "id",
+        "Log",
+        "d",
+        "TAG",
+        "position"
+    ],
+    "literals": [
+        "\"onListItemClick position=\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This sample illustrates how to use LinkBuilder along with a ListView.OnItemClickListener method.\n *\n * It is pretty simple, but requires you to implement the LinkConsumableTextView rather than a normal\n * TextView in your layout.\n *\n * By doing this, the LinkConsumableTextView will only consume the touch event if the link was actually clicked.\n * If the link was not clicked, then it will defer to your ListView.OnItemClickListener method instead.\n *\n * The SampleAdapter contains the LinkBuilder code for the list items."
+    ],
+    "functions": [
+        "onCreate",
+        "onListItemClick"
+    ],
+    "classes": [
+        "ListActivity"
+    ]
+}

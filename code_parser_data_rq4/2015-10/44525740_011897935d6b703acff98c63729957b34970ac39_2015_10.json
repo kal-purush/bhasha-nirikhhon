@@ -1,0 +1,88 @@
+{
+    "identifiers": [
+        "configparser",
+        "RawConfigParser",
+        "ImportError",
+        "ConfigParser",
+        "RawConfigParser",
+        "RawConfigParser",
+        "section",
+        "option",
+        "kwargs",
+        "RawConfigParser",
+        "get",
+        "section",
+        "option",
+        "kwargs",
+        "has_option",
+        "section",
+        "option",
+        "section",
+        "option",
+        "get",
+        "section",
+        "option",
+        "val",
+        "val",
+        "section",
+        "option",
+        "get",
+        "section",
+        "option",
+        "val",
+        "val",
+        "section",
+        "option",
+        "get",
+        "section",
+        "option",
+        "val",
+        "lower",
+        "val",
+        "section",
+        "option",
+        "value",
+        "has_section",
+        "section",
+        "add_section",
+        "section",
+        "RawConfigParser",
+        "section",
+        "option",
+        "value"
+    ],
+    "literals": [
+        "'ConfigParser'",
+        "'1'",
+        "'on'",
+        "'true'",
+        "'yes'"
+    ],
+    "variables": [
+        "__all__",
+        "val",
+        "val",
+        "val"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "\"\"\"A convenience and compatibility wrapper for RawConfigParser.\"\"\"",
+        "\"\"\"A simple wrapper for RawConfigParser to make options access easier.\"\"\"",
+        "\"\"\"\n        Return value of option in given configuration section as a string.\n\n        If option is not set, return default instead (defaults to None).\n\n        \"\"\"",
+        "\"\"\"\n        Return value of option in given configuration section as an integer.\n\n        If option is not set, return default (defaults to None).\n\n        Raises ValueError if the value cannot be converted to an integer.\n\n        \"\"\"",
+        "\"\"\"\n        Return value of option in given configuration section as a float.\n\n        If option is not set, return default (defaults to None).\n\n        Raises ValueError if the value cannot be converted to a float.\n\n        \"\"\"",
+        "\"\"\"\n        Return value of option in given configuration section as a boolean.\n\n        A configuration option is considered true when it has one of the\n        following values: '1', 'on', 'true' or 'yes'. The comparison is\n        case-insensitive. All other values are considered false.\n\n        If option is not set or empty, return default (defaults to False).\n\n        \"\"\"",
+        "\"\"\"\n        Set option in given configuration section to value.\n\n        If section does not exist yet, it is added implicitly.\n\n        \"\"\""
+    ],
+    "functions": [
+        "get",
+        "getint",
+        "getfloat",
+        "getboolean"
+    ],
+    "classes": [
+        "ConfigParser"
+    ]
+}

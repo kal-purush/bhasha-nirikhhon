@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "React",
+        "Component",
+        "styled",
+        "Navbar",
+        "styled",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "Component",
+        "Div",
+        "div",
+        "div",
+        "div",
+        "div",
+        "div",
+        "div",
+        "Div",
+        "Navbar"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"styled-components\"",
+        "\"./Navbar\"",
+        "width: 2rem;\nheight: 2rem;\nposition: fixed;\nright: 30px;\nz-index: 20;\ndisplay: none;\ncursor: pointer;\n\n@media (max-width: 768px) {\n    display: flex;\n    justify-content: space-around;\n    flex-direction: column;\n}\n\ndiv {\n    width: 2rem;\n    height: 0.25rem;\n    background: ${(props) => (props.open ? \"#fff\" : \"#fff\")};\n    border-radius: 10px;\n    transform-origin: 1px;\n    transition: all 0.3s linear;\n    &:nth-child(1) {\n        transform: ${(props) => (props.open ? \"rotate(45deg)\" : \"rotate(0)\")}\n    }\n    &:nth-child(2) {\n        //transform: ${(props) => (props.open ? \"translateX(-100%)\" : \"translateX(0)\")};\n        opacity: ${(props) => (props.open ? 0 : 1)};\n    }\n    &:nth-child(3) {\n        transform: ${(props) => (props.open ? \"rotate(-45deg)\" : \"rotate(0)\")}\n    }",
+        "\"#fff\"",
+        "\"#fff\"",
+        "\"rotate(45deg)\"",
+        "\"rotate(0)\"",
+        "\"translateX(-100%)\"",
+        "\"translateX(0)\"",
+        "\"rotate(-45deg)\"",
+        "\"rotate(0)\""
+    ],
+    "variables": [
+        "Div"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "render"
+    ],
+    "classes": [
+        "Hamburger"
+    ]
+}

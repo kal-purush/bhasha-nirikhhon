@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "sqlite3",
+        "sqlite3",
+        "connect",
+        "db",
+        "db",
+        "cursor",
+        "cursor",
+        "execute",
+        "cursor",
+        "executemany",
+        "data",
+        "db",
+        "commit",
+        "db",
+        "close"
+    ],
+    "literals": [
+        "\"PhoneBook.db\"",
+        "\"1\"",
+        "\"Simon\"",
+        "\"Howeis\"",
+        "\"01223 349752\"",
+        "\"2\"",
+        "\"Karen\"",
+        "\"Phillips\"",
+        "\"01954 295773\"",
+        "\"3\"",
+        "\"Darren\"",
+        "\"Smith\"",
+        "\"01583 749012\"",
+        "\"4\"",
+        "\"Anne\"",
+        "\"Jones\"",
+        "\"01323 567322\"",
+        "\"5\"",
+        "\"Mark\"",
+        "\"Smith\"",
+        "\"01223 855534\""
+    ],
+    "variables": [
+        "cursor",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"CREATE TABLE IF NOT EXISTS Names (\n    ID integer PRIMARY KEY AUTOINCREMENT,\n    First_Name text NOT NULL,\n    Surname text NOT NULL,\n    Phone_Number blob NOT NULL)\"\"\"",
+        "\"\"\"INSERT INTO Names (ID, First_Name, Surname, Phone_Number)\n    VALUES(?, ?, ?, ?)\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

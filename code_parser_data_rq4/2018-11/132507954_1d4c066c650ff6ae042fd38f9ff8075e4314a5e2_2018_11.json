@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "f",
+        "f",
+        "readline",
+        "f",
+        "readline",
+        "f",
+        "readline",
+        "f",
+        "skip_headers",
+        "f",
+        "f",
+        "readlines",
+        "line",
+        "list_lines",
+        "line",
+        "split"
+    ],
+    "literals": [],
+    "variables": [
+        "lines",
+        "lines",
+        "lines",
+        "list_lines"
+    ],
+    "comments": [
+        "CSCA20 Week 7 Notes",
+        "Objectives:",
+        "1. Practice processing input from files",
+        "2. Use split() method to separate strings"
+    ],
+    "docstrings": [
+        "'''Given an open file f, reads past its three-line header.\n\n    Args:\n        f: a freshly opened file in the format of the file cryer.dat\n    '''",
+        "'''Returns the average temperature for the month of March for all years\n    with data in f.\n\n    Args:\n        f: a freshly opened file in the format of the file cryer.dat\n    '''"
+    ],
+    "functions": [
+        "skip_header",
+        "avg_temp_march"
+    ],
+    "classes": []
+}

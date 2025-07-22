@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "RuleDefinitions",
+        "ruleDefinitions",
+        "ruleDefinitions",
+        "RuleDefinitions",
+        "RuleDefinitions",
+        "RuleDefinitions",
+        "RuleDefinitions",
+        "RuleDefinitions",
+        "RuleDefinitions",
+        "RuleDefinitions",
+        "RuleDefinitions"
+    ],
+    "literals": [
+        "'./RuleDefinitions'",
+        "'DML statements in a loop'",
+        "'To avoid hitting Apex governor limits, we recommend bunching all your database changes together at the end of the flow, whether those changes create, update, or delete records.'",
+        "'Duplicate DML operations'",
+        "\"If the flow commits changes to the database or performs actions between two screens, don't let users navigate from the later screen to the previous screen. Otherwise, the flow can make duplicate changes to the database.\"",
+        "'Hardcoded Ids'",
+        "'IDs are org-specific, so don’t hard-code new or existing IDs. Instead, pass them into variables when the flow starts. You can do so, for example, by using merge fields in URL parameters or by using a Get Records element.'",
+        "'Missing flow description'",
+        "'Flow Descriptions are the closed thing to documentation. It is recommended to provide information about where it is used and what it will do.'",
+        "'Missing error handlers'",
+        "'Sometimes a flow doesn’t perform an operation that you configured it to do. By default, the flow shows an error message to the user and emails the admin who created the flow. However, you can control that behavior.'",
+        "'Missing null handlers'",
+        "'If a Get Records operation does not find any data it will return null. You should use decision element on that variable to check if the result is not null.'",
+        "'Unconnected elements'",
+        "'Removing unconnected elements which are not being used by the Flow, will make your Flow more performant and maintainable.'",
+        "'Unused variables'",
+        "'Removing unconnected variables which are not being used by the Flow, will make your Flow more performant and maintainable.'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "RuleInfo"
+    ],
+    "classes": []
+}

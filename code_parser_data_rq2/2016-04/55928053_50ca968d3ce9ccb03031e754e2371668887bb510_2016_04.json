@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "MyApp",
+        "$wordList",
+        "MyApp",
+        "$",
+        "$",
+        "$newLi",
+        "$newItemText",
+        "$newItemText",
+        "$newLi",
+        "$newLi",
+        "$",
+        "$",
+        "word",
+        "index",
+        "$"
+    ],
+    "literals": [
+        "'#word-list'",
+        "'#new-word-button'",
+        "'click'",
+        "'<li class=\"word\">'",
+        "'#new-word'",
+        "''",
+        "''",
+        "'#pig-latin-button'",
+        "'click'",
+        "\".word\""
+    ],
+    "variables": [
+        "$wordList",
+        "MyApp",
+        "$newLi",
+        "$newItemText",
+        "word",
+        "word_string"
+    ],
+    "comments": [
+        "substitutes hello world for your name",
+        "$(function() {",
+        "var yourName = prompt('What is your name?');",
+        "$('#name').html(\", \" + yourName + \"!\");",
+        "});",
+        "on click, run the \"add to list\" function",
+        "var $button = $('#new-thing-button');",
+        "adds things to the list"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "HttpErrorResponse",
+        "ErrorHandler",
+        "Injectable",
+        "Logger",
+        "Injectable",
+        "logger",
+        "error",
+        "error",
+        "HttpErrorResponse",
+        "navigator",
+        "error",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'@angular/common/http'",
+        "'@angular/core'",
+        "'../logger/logger'",
+        "'No Internet Connection'",
+        "${error.status} - ${error.message}"
+    ],
+    "variables": [],
+    "comments": [
+        "Server or connection error happened",
+        "Handle offline error",
+        "Handle Http Error (error.status === 403, 404...)",
+        "Handle Client Error (Angular Error, ReferenceError...)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handleError"
+    ],
+    "classes": [
+        "ErrorsHandler"
+    ]
+}

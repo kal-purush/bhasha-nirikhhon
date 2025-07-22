@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "Directive",
+        "EventEmitter",
+        "Input",
+        "OnChanges",
+        "OnDestroy",
+        "OnInit",
+        "Output",
+        "SimpleChanges",
+        "Subscription",
+        "FusionTablesLayerOptions",
+        "FusionTablesMouseEvent",
+        "FusionTablesLayerManager",
+        "Directive",
+        "layerId",
+        "Output",
+        "EventEmitter",
+        "Input",
+        "_manager",
+        "ev",
+        "ev",
+        "listeners",
+        "obj",
+        "obj",
+        "obj",
+        "os",
+        "s",
+        "s",
+        "changes"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'rxjs'",
+        "'./../services/google-maps-types'",
+        "'./../services/managers/fusion-tables-layer-manager'",
+        "'agm-fusion-tables-layer'",
+        "string",
+        "'click'",
+        "string",
+        "string",
+        "AgmFusionTablesLayer-${this._id.toString()}"
+    ],
+    "variables": [
+        "layerId",
+        "listeners",
+        "os"
+    ],
+    "comments": [
+        "@internal",
+        "@internal",
+        "@internal",
+        "unsubscribe all registered observable subscriptions",
+        "@internal"
+    ],
+    "docstrings": [
+        "* This event is fired when a feature in the layer is clicked.",
+        "* Fusion table layer options"
+    ],
+    "functions": [
+        "ngOnInit",
+        "_addEventListeners",
+        "id",
+        "toString",
+        "ngOnDestroy",
+        "ngOnChanges"
+    ],
+    "classes": [
+        "AgmFusionTablesLayer"
+    ]
+}

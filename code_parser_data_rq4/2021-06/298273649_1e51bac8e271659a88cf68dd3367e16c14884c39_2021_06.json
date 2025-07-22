@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "msg",
+        "msg"
+    ],
+    "literals": [],
+    "variables": [
+        "msg",
+        "msg"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Excetion raised for when the user tries to access a database session before it is created.\"\"\"",
+        "\"\"\"\n        No session found! Either you are not currently in a request context,\n        or you need to manually create a session context by using a `db` instance as\n        a context manager e.g.:\n\n        with db():\n            db.session.query(User).all()\n        \"\"\"",
+        "\"\"\"Exception raised when the user creates a new DB session without first initialising it.\"\"\"",
+        "\"\"\"\n        Session not initialised! Ensure that DBSessionMiddleware has been initialised before\n        attempting database access.\n        \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "MissingSessionError",
+        "SessionNotInitialisedError"
+    ]
+}

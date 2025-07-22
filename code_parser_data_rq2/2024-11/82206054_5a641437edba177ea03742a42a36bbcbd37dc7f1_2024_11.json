@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "connection",
+        "IRateLimiterMongoOptions",
+        "RateLimiterMongo",
+        "DEFAULT_DURATION_SEC",
+        "endpoint",
+        "endpoint",
+        "endpoint",
+        "maxRequests",
+        "endpoint",
+        "key",
+        "key",
+        "instance",
+        "instance",
+        "connection",
+        "DEFAULT_DURATION_SEC",
+        "maxRequests",
+        "RateLimiterMongo",
+        "opts",
+        "key",
+        "rateLimiter",
+        "rateLimiter",
+        "RateLimiterFactory"
+    ],
+    "literals": [
+        "'mongoose'",
+        "'rate-limiter-flexible'",
+        "'../config'",
+        "string",
+        "string",
+        "string",
+        "rate_limiter_${endpoint}",
+        "string"
+    ],
+    "variables": [
+        "key",
+        "instance",
+        "opts",
+        "rateLimiter",
+        "rateLimiterFactory"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "generateKey",
+        "getOrCreateRateLimiter"
+    ],
+    "classes": [
+        "RateLimiterFactory"
+    ]
+}

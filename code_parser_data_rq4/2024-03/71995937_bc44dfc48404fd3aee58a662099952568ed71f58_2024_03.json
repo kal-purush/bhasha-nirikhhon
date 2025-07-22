@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "defineDriver",
+        "fsDriver",
+        "lruCache",
+        "normalizeFsKey",
+        "item",
+        "item",
+        "item",
+        "item",
+        "defineDriver",
+        "opts",
+        "fsDriver",
+        "opts",
+        "lruCache",
+        "fs",
+        "key",
+        "value",
+        "opts",
+        "fs",
+        "normalizeFsKey",
+        "key",
+        "value",
+        "opts",
+        "lru",
+        "key",
+        "value",
+        "opts",
+        "key",
+        "opts",
+        "lru",
+        "key",
+        "opts",
+        "fs",
+        "normalizeFsKey",
+        "key",
+        "opts",
+        "key",
+        "opts",
+        "lru",
+        "key",
+        "opts",
+        "fs",
+        "normalizeFsKey",
+        "key",
+        "opts"
+    ],
+    "literals": [
+        "'unstorage'",
+        "'unstorage/drivers/fs-lite'",
+        "'unstorage/drivers/lru-cache'",
+        "string",
+        "':'",
+        "${item}:index",
+        "string"
+    ],
+    "variables": [
+        "normalizeFsKey",
+        "fs",
+        "lru"
+    ],
+    "comments": [
+        "Ensure we don't try to write/read from directory index for `/` paths",
+        "fall back to file system - only the bottom three methods are used in renderer"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setItem",
+        "hasItem",
+        "getItem"
+    ],
+    "classes": []
+}

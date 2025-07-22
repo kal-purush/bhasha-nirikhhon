@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "styled",
+        "lighten",
+        "styled",
+        "alternative",
+        "theme",
+        "theme",
+        "lighten",
+        "alternative",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'polished'",
+        "background-color: ${({ theme, alternative }): string => alternative ? theme.title : theme.main};\n  color: white;\n  font-weight: 600;\n  padding: 5px 20px;\n  border-radius: 3px;\n  box-shadow: 6px 3px 6px -3px rgba(0,0,0,0.16);\n  transition: background-color .2s ease-in-out, transform .2s ease-in-out;\n\n  &:hover{\n    background-color: ${({ theme, alternative }): string => lighten(0.05, alternative ? theme.title : theme.main)}!important;\n    transform: translateY(-3px);\n  }",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "StyledButton"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

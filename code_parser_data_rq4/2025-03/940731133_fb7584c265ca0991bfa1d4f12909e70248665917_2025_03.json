@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "flask",
+        "Flask",
+        "render_template_string",
+        "sqlite3",
+        "os",
+        "Flask",
+        "sqlite3",
+        "connect",
+        "DB_FILE",
+        "conn",
+        "cursor",
+        "cursor",
+        "execute",
+        "cursor",
+        "fetchall",
+        "conn",
+        "close",
+        "rows",
+        "app",
+        "route",
+        "get_leads",
+        "render_template_string",
+        "HTML_TEMPLATE",
+        "rows",
+        "rows",
+        "app",
+        "run",
+        "debug",
+        "port"
+    ],
+    "literals": [
+        "\"leads.db\"",
+        "\"SELECT * FROM leads ORDER BY timestamp DESC\"",
+        "\"/\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "app",
+        "DB_FILE",
+        "HTML_TEMPLATE",
+        "conn",
+        "cursor",
+        "rows",
+        "rows"
+    ],
+    "comments": [
+        "Run the dashboard on port 5000"
+    ],
+    "docstrings": [
+        "\"\"\"\n<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"utf-8\">\n    <title>Freelance Leads Dashboard</title>\n    <style>\n      body { font-family: Arial, sans-serif; margin: 2em; }\n      table { border-collapse: collapse; width: 100%; }\n      th, td { padding: 0.5em; border: 1px solid #ccc; text-align: left; }\n      th { background-color: #f4f4f4; }\n    </style>\n  </head>\n  <body>\n    <h1>Freelance Leads Dashboard</h1>\n    <table>\n      <tr>\n        <th>ID</th>\n        <th>Platform</th>\n        <th>Post ID</th>\n        <th>Title</th>\n        <th>Content</th>\n        <th>Link</th>\n        <th>Timestamp</th>\n      </tr>\n      {% for row in rows %}\n      <tr>\n        <td>{{ row[0] }}</td>\n        <td>{{ row[1] }}</td>\n        <td>{{ row[2] }}</td>\n        <td>{{ row[3] }}</td>\n        <td>{{ row[4][:150] }}{% if row[4]|length > 150 %}...{% endif %}</td>\n        <td><a href=\"{{ row[5] }}\" target=\"_blank\">View</a></td>\n        <td>{{ row[7] }}</td>\n      </tr>\n      {% endfor %}\n    </table>\n  </body>\n</html>\n\"\"\""
+    ],
+    "functions": [
+        "get_leads",
+        "index"
+    ],
+    "classes": []
+}

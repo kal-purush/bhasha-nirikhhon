@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "PIL",
+        "Image",
+        "image_path",
+        "Image",
+        "open",
+        "image_path",
+        "img",
+        "img",
+        "convert",
+        "img",
+        "size",
+        "width",
+        "height",
+        "x",
+        "width",
+        "y",
+        "height",
+        "img",
+        "getpixel",
+        "x",
+        "y",
+        "pixel",
+        "obstacle_count",
+        "width",
+        "height",
+        "total_nodes",
+        "obstacle_count",
+        "scan_grid_image",
+        "image_info"
+    ],
+    "literals": [
+        "'RGB'",
+        "'width'",
+        "'height'",
+        "'total_nodes'",
+        "'obstacle_nodes'",
+        "'/home/jim/Desktop/image_test.png'"
+    ],
+    "variables": [
+        "img",
+        "width",
+        "height",
+        "total_nodes",
+        "obstacle_count",
+        "pixel",
+        "image_info"
+    ],
+    "comments": [
+        "載入圖片",
+        "確保圖片是RGB格式",
+        "掃描每個像素以計算障礙物數量",
+        "假設非白色像素是障礙物",
+        "使用範例"
+    ],
+    "docstrings": [],
+    "functions": [
+        "scan_grid_image"
+    ],
+    "classes": []
+}

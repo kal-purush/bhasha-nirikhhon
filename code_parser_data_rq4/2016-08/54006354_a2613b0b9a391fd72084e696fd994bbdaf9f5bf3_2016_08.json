@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "Directive",
+        "Host",
+        "HostListener",
+        "Input",
+        "CompleterData",
+        "CtrCompleter",
+        "Directive",
+        "Input",
+        "MIN_SEARCH_LENGTH",
+        "Input",
+        "MAX_CHARS",
+        "Host",
+        "completer",
+        "HostListener",
+        "KEY_LF",
+        "KEY_RT",
+        "KEY_UP",
+        "KEY_EN",
+        "KEY_DW",
+        "KEY_ES"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"../components/ng2-completer/services/completer-data\"",
+        "\"./ctr-completer\"",
+        "\"[ctr-input]\"",
+        "\"keyup\"",
+        "\"$event\""
+    ],
+    "variables": [
+        "KEY_DW",
+        "KEY_RT",
+        "KEY_UP",
+        "KEY_LF",
+        "KEY_ES",
+        "KEY_EN",
+        "KEY_TAB",
+        "MIN_SEARCH_LENGTH",
+        "MAX_CHARS",
+        "PAUSE"
+    ],
+    "comments": [
+        "keyboard events",
+        "the default max length per the html maxlength attribute",
+        "do nothing",
+        "if (!this.showDropdown && this.searchStr && this.searchStr.length >= this.minSearchLength) {",
+        "this.initResults();",
+        "this.searching = true;",
+        "this.searchTimerComplete(this.searchStr);",
+        "}",
+        "this.clearResults();",
+        "this._onChangeCallback(this.searchStr);",
+        "if (!this.searchStr) {",
+        "this.showDropdown = false;",
+        "return;",
+        "}",
+        "if (this.searchStr === \"\") {",
+        "this.showDropdown = false;",
+        "}",
+        "else if (this.searchStr.length >= this.minSearchLength) {",
+        "this.initResults();",
+        "if (this.searchTimer) {",
+        "clearTimeout(this.searchTimer);",
+        "}",
+        "this.searching = true;",
+        "this.searchTimer = setTimeout(",
+        "() => {",
+        "this.searchTimerComplete(this.searchStr);",
+        "},",
+        "this.pause",
+        ");",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "keyupHandler"
+    ],
+    "classes": [
+        "CtrInput"
+    ]
+}

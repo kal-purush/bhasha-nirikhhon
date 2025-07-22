@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "WeakMultiRef",
+        "callback",
+        "options",
+        "currentSideEffect",
+        "fn",
+        "callback",
+        "currentSideEffect",
+        "fn",
+        "options",
+        "hold",
+        "WeakMultiRef",
+        "options",
+        "fn",
+        "options",
+        "hold",
+        "globalThis",
+        "fn"
+    ],
+    "literals": [
+        "\"../utils/WeakMultiRef.js\""
+    ],
+    "variables": [
+        "currentSideEffect",
+        "hold"
+    ],
+    "comments": [
+        "eslint-disable-next-line @typescript-eslint/ban-types"
+    ],
+    "docstrings": [
+        "* Runs the given callback once immediately and again whenever any of the reactive values used in the callback are updated.\n * \n * @param callback The function that should be run whenever values change"
+    ],
+    "functions": [
+        "sideEffect",
+        "fn"
+    ],
+    "classes": []
+}

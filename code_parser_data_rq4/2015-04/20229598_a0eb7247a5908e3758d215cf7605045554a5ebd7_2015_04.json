@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "UnityEditor",
+        "UnityEditor",
+        "Callbacks",
+        "UNITY_IOS",
+        "UnityEditor",
+        "iOS",
+        "Xcode",
+        "Collections",
+        "IO",
+        "PostProcessBuild",
+        "BuildTarget",
+        "buildTarget",
+        "pathToBuiltProject",
+        "UNITY_IOS",
+        "path",
+        "PBXProject",
+        "proj",
+        "ReadFromString",
+        "File",
+        "ReadAllText",
+        "projPath",
+        "proj",
+        "TargetGuidByName",
+        "proj",
+        "AddBuildProperty",
+        "target",
+        "File",
+        "WriteAllText",
+        "projPath",
+        "proj",
+        "WriteToString"
+    ],
+    "literals": [
+        "\"/Unity-iPhone.xcodeproj/project.pbxproj\"",
+        "\"Unity-iPhone\"",
+        "\"OTHER_LDFLAGS\"",
+        "\"-ObjC\""
+    ],
+    "variables": [
+        "projPath",
+        "PBXProject",
+        "proj",
+        "target"
+    ],
+    "comments": [
+        "",
+        "Tealium iOS Build Postprocessor",
+        "",
+        "Unity 5.x + Only! This will not work with earlier versions of unity.",
+        "",
+        "This is mearly a convenience of add the linker flag \"-ObjC\" automatically.",
+        "With previous versions of unity simply adding this to the \"Other Linker Flags\" build setting of your target will work just fine."
+    ],
+    "docstrings": [],
+    "functions": [
+        "OnPostprocessBuild"
+    ],
+    "classes": [
+        "TealiumBuildPostprocessor"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "typing",
+        "Callable",
+        "Any",
+        "Type",
+        "inspect",
+        "should_be_callable",
+        "Callable",
+        "inspect",
+        "isclass",
+        "should_be_callable",
+        "isinstance",
+        "should_be_callable",
+        "Callable",
+        "should_be_callable",
+        "obj",
+        "Any",
+        "inspect",
+        "isclass",
+        "obj",
+        "obj",
+        "item",
+        "inspect",
+        "isclass",
+        "item",
+        "obj",
+        "iter",
+        "obj",
+        "iterable",
+        "value",
+        "Any",
+        "target_type",
+        "Type",
+        "value",
+        "target_type",
+        "value",
+        "value",
+        "value"
+    ],
+    "literals": [
+        "f\"Invalid type: {type(should_be_callable)}. \"",
+        "\"Please pass in a function. \"",
+        "\"Target function decorates classes only. \"",
+        "\"Please pass in a class. \"",
+        "f\"Passed in type: {type(obj)}\"",
+        "f\"{value} must be of type boolean. \"",
+        "f\"{value} is of type: {type(value)}\""
+    ],
+    "variables": [
+        "iterable",
+        "iterable"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Check if item is a class instance.\n    :param item: The item to evaluate\n    \"\"\""
+    ],
+    "functions": [
+        "raise_error_if_not_callable",
+        "raise_error_if_not_class_instance",
+        "is_class_instance",
+        "is_iterable",
+        "validate_type"
+    ],
+    "classes": []
+}

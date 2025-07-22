@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "process",
+        "versions",
+        "releaseType",
+        "releaseType",
+        "versions",
+        "packageJSON",
+        "require",
+        "version",
+        "releaseType",
+        "packageJSON",
+        "nextVersion",
+        "packageJSON",
+        "fs",
+        "newJSON",
+        "nextVersion",
+        "nextVersion",
+        "nextVersion",
+        "exec",
+        "gitCommands",
+        "error",
+        "stdout",
+        "stderr",
+        "stdout",
+        "stderr",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'child_process'",
+        "'../package.json'",
+        "'fs'",
+        "'major'",
+        "'minor'",
+        "'patch'",
+        "'premajor'",
+        "'preminor'",
+        "'prepatch'",
+        "'prerelease'",
+        "Invalid parameter \"${releaseType}\"\n\tUsage: node next-version.js [${versions.join(' | ')}]",
+        "' | '",
+        "'semver'",
+        "'./package.json'",
+        "'git add package.json dist/'",
+        "git commit -m \"release ${nextVersion}\"",
+        "git tag ${nextVersion} -m \"release ${nextVersion}\"",
+        "' && '"
+    ],
+    "variables": [
+        "exec",
+        "packageJSON",
+        "fs",
+        "versions",
+        "releaseType",
+        "version",
+        "nextVersion",
+        "newJSON",
+        "gitCommands"
+    ],
+    "comments": [
+        "Bump to next version.",
+        "Commit and create tag."
+    ],
+    "docstrings": [
+        "* Create the commit and tag for the next release.\n *\n * npm run next-version.js [major | minor | patch | premajor | preminor | prepatch | prerelease]"
+    ],
+    "functions": [],
+    "classes": []
+}

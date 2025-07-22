@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "cv2",
+        "sys",
+        "os",
+        "cv2",
+        "CascadeClassifier",
+        "os",
+        "path",
+        "join",
+        "os",
+        "path",
+        "dirname",
+        "os",
+        "path",
+        "realpath",
+        "img",
+        "cascade",
+        "detectMultiScale",
+        "img",
+        "det_list",
+        "sys",
+        "argv",
+        "cv2",
+        "imread",
+        "fname",
+        "CascadeDetector",
+        "detector",
+        "detect",
+        "img",
+        "x",
+        "y",
+        "w",
+        "h",
+        "detected_loc",
+        "cv2",
+        "rectangle",
+        "img",
+        "x",
+        "y",
+        "x",
+        "w",
+        "y",
+        "h",
+        "cv2",
+        "imwrite",
+        "fname",
+        "img"
+    ],
+    "literals": [
+        "'cascades'",
+        "'haarcascade_mcs_leftear.xml'",
+        "'__main__'",
+        "'.detected.jpg'"
+    ],
+    "variables": [
+        "cascade",
+        "det_list",
+        "fname",
+        "img",
+        "detector",
+        "detected_loc"
+    ],
+    "comments": [
+        "This example of a detector detects faces. However, you have annotations for ears!",
+        "cascade = cv2.CascadeClassifier(\"cascades/haarcascade_mcs_leftear.xml\")",
+        "cascade = cv2.CascadeClassifier(\"cascades/haarcascade_mcs_rightear.xml\")"
+    ],
+    "docstrings": [],
+    "functions": [
+        "detect"
+    ],
+    "classes": [
+        "Detector"
+    ]
+}

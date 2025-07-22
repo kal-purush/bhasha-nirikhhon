@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "com",
+        "tngtech",
+        "archunit",
+        "core",
+        "java",
+        "util",
+        "com",
+        "tngtech",
+        "archunit",
+        "PublicAPI",
+        "com",
+        "tngtech",
+        "archunit",
+        "core",
+        "domain",
+        "Dependency",
+        "com",
+        "tngtech",
+        "archunit",
+        "core",
+        "domain",
+        "JavaAccess",
+        "com",
+        "tngtech",
+        "archunit",
+        "PublicAPI",
+        "Usage",
+        "INHERITANCE",
+        "PublicAPI",
+        "usage",
+        "INHERITANCE",
+        "Convertible"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2014-2024 TNG Technology Consulting GmbH\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Can be implemented to express that this object might also be considered as object(s) of a different type.\n * E.g. {@link JavaAccess} and {@link Dependency} (compare {@link #convertTo(Class)}).",
+        "* Converts this type to a set of other types.\n     * For example a {@link JavaAccess} can also be\n     * considered a {@link Dependency}, so <code>javaAccess.convertTo(Dependency.class)</code>\n     * will yield a set with a single {@link Dependency} representing this access.\n     * Or a component dependency grouping many class dependencies could be considered a set of exactly\n     * these class dependencies.\n     * The result will be an empty set if no conversion is possible\n     * (e.g. calling <code>javaAccess.convertTo(Integer.class)</code>.\n     *\n     * @param type The type to convert to\n     * @return A set of converted elements, empty if no conversion is possible"
+    ],
+    "functions": [
+        "convertTo"
+    ],
+    "classes": []
+}

@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "DataFile",
+        "DataFile",
+        "name",
+        "description",
+        "docker_parent_image",
+        "report",
+        "results",
+        "scripts",
+        "data",
+        "requirements",
+        "name",
+        "description",
+        "docker_parent_image",
+        "report",
+        "results",
+        "scripts",
+        "_construct_datafile_array",
+        "data",
+        "data",
+        "datos",
+        "data",
+        "archivos_datos",
+        "append",
+        "DataFile",
+        "datos",
+        "archivos_datos",
+        "property",
+        "_name",
+        "filename",
+        "archivo_datos",
+        "_data",
+        "archivo_datos",
+        "filename",
+        "filename",
+        "filename",
+        "user",
+        "archivo_datos",
+        "_data",
+        "archivo_datos",
+        "filename",
+        "filename",
+        "archivo_datos",
+        "get_url_to_file"
+    ],
+    "literals": [
+        "\"IslasGECI\""
+    ],
+    "variables": [
+        "_name",
+        "_description",
+        "_docker_parent_image",
+        "_report",
+        "_results",
+        "_scripts",
+        "_data",
+        "archivos_datos"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Clase que representa al archivo analyses.json\n\n    Parámetros\n    ----------\n    `name : str`\n        Nombre del análisis\n\n    `description : str`\n        Descripción del análisis\n\n    `docker_parent_image : str`\n        Nombre de la imágen de docker en la que se genera el resultado\n\n    `report : str`\n        Nombre del archivo del reporte donde se presentan los resultados\n\n    `results : list`\n        Lista con el nombre de los resultados esperados\n\n    `scripts : list`\n        Lista de los programas involucrados en la creación de los resultados\n\n    `data: list`\n        Nombre de los archivos de datos de los que depende\n\n    `requirements: list`\n        Dependencias de paquetes necesarios para generar los resultados\n    \n    Atributos\n    ----------\n    `name : str`\n        Nombre del análisis\n    \n    Métodos\n    -------\n    `is_dependent_on_datafile(filename: str): str`\n        Verifica si este análisis depende de algún archivo especificado\n\n    `get_url_to_datafile(filename: str, user: str): str`\n        Regresa el url de donde se puede descargar el archivo de datos\n    \n    Notas\n    -----\n    None\n    \n    Ejemplos\n    --------\n    Ejemplo de como cargar un archivo analyses.json\n    >>> with open('analyses.json', 'r') as archivo_analysis:\n    ...     diccionario_analysis = json.loads(TEXTO_ANALYSIS)\n    >>> analisis = Analysis(**diccionario_analysis[0])\n    >>> analisis.get_url_to_datafile('archivo_ejemplo.csv')\n    \"\"\"",
+        "\"\"\"\n        Este método verifica si el análisis depende de algún archivo en específico\n\n        Parámetros\n        ----------\n        `filename str`\n            Nombre del archivo con el que se quiere verificar dependencia\n\n        Notas\n        -----\n        Ninguna\n\n        Ejemplos\n        --------\n        Verifica si el Analisis depende de un archivo de datos\n        >>> with open('analyses.json', 'r') as archivo_analysis:\n        ...     diccionario_analysis = json.loads(TEXTO_ANALYSIS)\n        >>> analisis = Analysis(**diccionario_analysis[0])\n        >>> analisis.is_dependent_on_datafile('archivo_ejemplo.csv')\n        True\n        \"\"\"",
+        "\"\"\"\n        Regresa el url de donde se puede descargar el archivo desde Bitbucket\n\n        Parámetros\n        ----------\n        `filename str`\n            Usuario que es dueño del repositorio de datos, por default será IslasGECI\n\n        `user str`\n            Usuario que es dueño del repositorio de datos, por default será IslasGECI\n\n        Notas\n        -----\n        Ninguna\n\n        Ejemplos\n        --------\n        Obtener el url a un archivo de datos\n        >>> with open('analyses.json', 'r') as archivo_analysis:\n        ...     diccionario_analysis = json.loads(TEXTO_ANALYSIS)\n        >>> analisis = Analysis(**diccionario_analysis[0])\n        >>> analisis.get_url_to_datafile('archivo_ejemplo.csv')\n        \"\"\""
+    ],
+    "functions": [
+        "_construct_datafile_array",
+        "name",
+        "is_dependent_on_datafile",
+        "get_url_to_datafile"
+    ],
+    "classes": [
+        "Analysis"
+    ]
+}

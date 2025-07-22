@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "PaginationService",
+        "service",
+        "page",
+        "currentPage",
+        "itemsPerPage",
+        "totalItems",
+        "paginationRange",
+        "i",
+        "currentPage",
+        "paginationRange",
+        "totalPages"
+    ],
+    "literals": [
+        "\"./pagination-service\"",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Returns an array of IPage objects to use in the pagination controls.",
+        "* Given the position in the sequence of pagination links [i],\n     * figure out what page number corresponds to that position."
+    ],
+    "functions": [],
+    "classes": [
+        "PaginationControlsCmp"
+    ]
+}

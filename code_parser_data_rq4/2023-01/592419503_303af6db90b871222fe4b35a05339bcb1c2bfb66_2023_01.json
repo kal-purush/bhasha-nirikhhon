@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Niantic",
+        "ARDK",
+        "AR",
+        "ARError",
+        "UnsupportedConfiguration",
+        "SensorUnavailable",
+        "SensorFailed",
+        "CameraUnauthorized",
+        "WorldTrackingFailed",
+        "InvalidReferenceImage",
+        "AvailabilityFailure"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Copyright 2022 Niantic, Inc. All Rights Reserved.",
+        "Possible error values output by an AR session's didFailWithError callback.",
+        "The ERConfiguration object passed to the Run() method is not supported by the current device.",
+        "A sensor required to run the session is not available.",
+        "A sensor failed to provide the required input.",
+        "The user has denied your app permission to use the device camera.",
+        "World tracking has encountered a fatal error.",
+        "An invalid reference image was passed in the configuration.",
+        "AR features are not available currently, check for availability using the",
+        "ARCore Availability API.",
+        "@note This is an Android-only value."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "name",
+        "name",
+        "length",
+        "length",
+        "db",
+        "name",
+        "ResourceItem",
+        "db",
+        "name",
+        "db",
+        "name",
+        "db",
+        "ResourceList",
+        "NoResources",
+        "response",
+        "response",
+        "db",
+        "ResourcesBlock",
+        "customRoutes",
+        "rules",
+        "rules",
+        "rule",
+        "rule",
+        "customRoutes",
+        "rule",
+        "response",
+        "response",
+        "customRoutes",
+        "CustomRoutesBlock"
+    ],
+    "literals": [
+        "<li>\n        <a href=\"${name}\">/${name}</a>\n        <sup>${length ? `${length}x` : 'object'}</sup>\n      </li>",
+        "${length}x",
+        "'object'",
+        "<ul>\n        ${Object.keys(db)\n          .map(name =>\n            ResourceItem({\n              name,\n              length: Array.isArray(db[name]) && db[name].length\n            })\n          )\n          .join('')}\n      </ul>",
+        "''",
+        "<p>No resources found</p>",
+        "<div>\n        <h1>Resources</h1>\n        ${Object.keys(db).length ? ResourceList({ db }) : NoResources()}\n      </div>",
+        "'db'",
+        "'resources'",
+        "<div>\n          <h1>Custom Routes</h1>\n          <table>\n            ${rules\n              .map(\n                rule =>\n                  `<tr>\n                <td>${rule}</td>\n                <td><code>⇢</code> ${customRoutes[rule]}</td>\n              </tr>`\n              )\n              .join('')}\n          </table>\n        </div>",
+        "<tr>\n                <td>${rule}</td>\n                <td><code>⇢</code> ${customRoutes[rule]}</td>\n              </tr>",
+        "''",
+        "'__rules'",
+        "'custom-routes'"
+    ],
+    "variables": [
+        "rules"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ResourceItem",
+        "ResourceList",
+        "NoResources",
+        "ResourcesBlock",
+        "CustomRoutesBlock"
+    ],
+    "classes": []
+}

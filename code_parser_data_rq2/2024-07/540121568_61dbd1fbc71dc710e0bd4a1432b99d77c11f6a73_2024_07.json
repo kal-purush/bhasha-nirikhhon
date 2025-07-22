@@ -1,0 +1,19 @@
+{
+    "identifiers": [
+        "css",
+        "css"
+    ],
+    "literals": [
+        "'lit'",
+        "vscode-button {\n    color: var(--vscode-button-foreground);\n    background-color: var(--vscode-button-background);\n    transform: scale(0.9);\n  }\n\n  vscode-button:hover {\n    background: var(--vscode-button-secondaryHoverBackground);\n  }\n\n  table {\n    box-sizing: border-box;\n    margin: 0px;\n    padding: 0px;\n    font-weight: 400;\n    line-height: 20px;\n    text-indent: 0px;\n    vertical-align: baseline;\n  }\n\n  .action-notice {\n    position: relative;\n    border-bottom: 2px solid var(--vscode-settings-rowHoverBackground);\n    animation-name: action-notice;\n    animation-duration: 2s;\n    animation-iteration-count: 2;\n  }\n\n  @keyframes action-notice {\n    0% {\n      border-color: var(--vscode-settings-rowHoverBackground);\n    }\n\n    50% {\n      border-color: var(--github-button-background);\n    }\n\n    100% {\n      border-color: var(--vscode-settings-rowHoverBackground);\n    }\n  }\n\n  .integration {\n    display: flex;\n    margin: 10px 0;\n    gap: 2px;\n    align-items: center;\n    font-weight: 400;\n    font-size: 18px;\n  }\n\n  .footer {\n    display: flex;\n    place-content: center flex-end;\n    margin-top: 10px;\n    align-items: baseline;\n  }\n\n  .footer .link {\n    font-size: 10px;\n    padding: 0 5px;\n  }\n\n  .tab,\n  .panel {\n    color: var(--vscode-editor-foreground);\n  }\n\n  .active-tab {\n    color: var(--vscode-textLink-activeForeground);\n    fill: currentcolor;\n    border-bottom: solid 2px var(--vscode-activityBarTop-activeBorder);\n  }\n\n  .cluster-view {\n    width: 100%;\n  }\n\n  .cluster-view tbody tr {\n    text-align: left;\n  }\n\n  .cluster-actions {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    border-top: solid 1px var(--vscode-editorInlayHint-foreground);\n    border-bottom: solid 1px var(--vscode-editorInlayHint-foreground);\n    border-left: none;\n    border-right: none;\n  }\n\n  tbody tr {\n    text-align: left;\n  }\n\n  .loading {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    place-content: center;\n  }\n\n  .flex {\n    display: flex;\n    align-items: left;\n    gap: 8px;\n  }\n\n  .flex-column {\n    flex-direction: column;\n  }"
+    ],
+    "variables": [
+        "clusterStyles"
+    ],
+    "comments": [
+        "eslint-disable"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

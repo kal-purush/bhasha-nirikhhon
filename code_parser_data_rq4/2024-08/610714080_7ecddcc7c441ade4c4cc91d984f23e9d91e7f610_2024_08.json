@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Threading",
+        "Threading",
+        "Channels",
+        "Threading",
+        "Tasks",
+        "Klab",
+        "Toolkit",
+        "Event",
+        "InMemory",
+        "IEventQueue",
+        "Channel",
+        "IEvent",
+        "Channel",
+        "CreateUnbounded",
+        "IEvent",
+        "IAsyncEnumerable",
+        "IEvent",
+        "CancellationToken",
+        "cancellationToken",
+        "_channel",
+        "Reader",
+        "ReadAllAsync",
+        "cancellationToken",
+        "IEvent",
+        "@event",
+        "CancellationToken",
+        "cancellationToken",
+        "_channel",
+        "Writer",
+        "WriteAsync",
+        "@event",
+        "cancellationToken"
+    ],
+    "literals": [],
+    "variables": [
+        "_channel"
+    ],
+    "comments": [
+        "In-memory store for events",
+        "It uses <see cref=\"Channel{T}\"/> to store events. These are very fast and efficient.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "DequeueAsync",
+        "EnqueueAsync"
+    ],
+    "classes": [
+        "InMemoryMessageQueue"
+    ]
+}

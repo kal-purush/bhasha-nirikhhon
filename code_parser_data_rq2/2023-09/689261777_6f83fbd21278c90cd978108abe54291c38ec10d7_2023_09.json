@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "NextRequest",
+        "NextResponse",
+        "req",
+        "req",
+        "NextResponse",
+        "subpath",
+        "protocol",
+        "subpath",
+        "req",
+        "method",
+        "req",
+        "shouldNotHaveBody",
+        "req",
+        "targetUrl",
+        "fetch",
+        "targetUrl",
+        "fetchOptions",
+        "fetchResult"
+    ],
+    "literals": [
+        "\"next/server\"",
+        "string",
+        "\"OPTIONS\"",
+        "\"OK\"",
+        "${protocol}://${subpath.join(\"/\")}",
+        "\"/\"",
+        "\"method\"",
+        "\"get\"",
+        "\"head\"",
+        "\"\"",
+        "\"authorization\"",
+        "\"\"",
+        "\"half\"",
+        "\"[Any Proxy]\"",
+        "\"edge\""
+    ],
+    "variables": [
+        "protocol",
+        "targetUrl",
+        "method",
+        "shouldNotHaveBody",
+        "fetchOptions",
+        "fetchResult",
+        "GET",
+        "handle",
+        "POST",
+        "handle",
+        "PUT",
+        "handle",
+        "PROFIND",
+        "handle",
+        "MKCOL",
+        "handle",
+        "runtime"
+    ],
+    "comments": [
+        "@ts-ignore",
+        "nextjs dose not support those https methods, sucks"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handle"
+    ],
+    "classes": []
+}

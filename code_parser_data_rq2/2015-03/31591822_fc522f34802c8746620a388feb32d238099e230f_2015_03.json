@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "Osc",
+        "cyc",
+        "Osc",
+        "Osc",
+        "cyc",
+        "cyc",
+        "Osc",
+        "Osc",
+        "t",
+        "freq",
+        "k",
+        "k",
+        "sum",
+        "eval",
+        "sum",
+        "Osc",
+        "cyc",
+        "cyc",
+        "Osc",
+        "Osc",
+        "Osc",
+        "Osc"
+    ],
+    "literals": [
+        "'sqr'",
+        "\"Math.sin(2*Math.PI*(2*k-1)*freq*t)/(2*k-1);\"",
+        "'tri'",
+        "\"Math.pow(-1,k)*Math.sin(Math.PI*2*(2*k+1)*freq*t)/Math.pow(2*k+1,2)\"",
+        "'saw'",
+        "\"Math.pow(-1,k)*Math.sin(2*Math.PI*k*freq*t)/k\"",
+        "'ramp'",
+        "\"Math.sin(2*Math.PI*k*freq*t)/k\"",
+        "'sqr'",
+        "'tri'",
+        "'saw'"
+    ],
+    "variables": [
+        "sum",
+        "k",
+        "Sqr",
+        "Tri",
+        "Saw"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @module additive-osc\n * @org opendsp\n * @author potasmic\n * @version 0.1.0\n * @desc additive oscillators, formulas from wikipedia\n * @license mit"
+    ],
+    "functions": [
+        "Osc"
+    ],
+    "classes": []
+}

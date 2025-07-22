@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "com",
+        "varun",
+        "concurrency",
+        "ch05",
+        "java",
+        "util",
+        "Collections",
+        "java",
+        "util",
+        "java",
+        "util",
+        "java",
+        "util",
+        "concurrent",
+        "Semaphore",
+        "semaphore",
+        "bound",
+        "Collections",
+        "synchronizedSet",
+        "semaphore",
+        "bound",
+        "o",
+        "semaphore",
+        "acquire",
+        "wasAdded",
+        "wasAdded",
+        "add",
+        "o",
+        "wasAdded",
+        "wasAdded",
+        "semaphore",
+        "release",
+        "o",
+        "wasRemoved",
+        "remove",
+        "o",
+        "wasRemoved",
+        "semaphore",
+        "release",
+        "wasRemoved"
+    ],
+    "literals": [],
+    "variables": [
+        "set",
+        "semaphore"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* BoundedHashSet is an implementation of Set using a Semaphore. Semaphore keep track of number of activities that can\n * be access a resource or perform a certain action.\n *\n * A semaphore with a bound of one will act as binary semaphore in which either a thread can access or it will wait until\n * another thread releases the semaphore.\n *"
+    ],
+    "functions": [
+        "BoundedHashSet",
+        "add",
+        "remove"
+    ],
+    "classes": [
+        "BoundedHashSet"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Protocol",
+        "java",
+        "net",
+        "Socket",
+        "message",
+        "message"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "CHECK WHAT KIND OF MESSAGE",
+        "IF DATABASE ACTIVITY OR SAVING",
+        "RETURNS MESSAGE"
+    ],
+    "docstrings": [
+        "* To change this license header, choose License Headers in Project Properties.\n * To change this template file, choose Tools | Templates\n * and open the template in the editor.",
+        "*\n * @author Merijn",
+        "* THIS METHOD PROCESSES MESSAGES WITH THE REGISTER TYPE\n     * IF PERSONAL TYPE == 0 WE KNOW ITS A CIVILIAN\n     * @param message"
+    ],
+    "functions": [
+        "ServerMessageReceiver",
+        "Message",
+        "processMessage",
+        "processRegister"
+    ],
+    "classes": [
+        "ServerMessageReceiver"
+    ]
+}

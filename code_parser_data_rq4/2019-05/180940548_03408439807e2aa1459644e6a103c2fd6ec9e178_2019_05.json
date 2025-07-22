@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "Extreme",
+        "Net",
+        "Newtonsoft",
+        "Json",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "RuriLib",
+        "Models",
+        "id",
+        "Id",
+        "id",
+        "ProxyType",
+        "Http",
+        "JsonIgnore",
+        "CProxy"
+    ],
+    "literals": [
+        "\"\"",
+        "\"[1]\""
+    ],
+    "variables": [
+        "Id",
+        "Url",
+        "ProxyType",
+        "Type",
+        "TypeInitialized",
+        "Pattern",
+        "Output",
+        "Successful",
+        "Url",
+        "Proxies"
+    ],
+    "comments": [
+        "A remote source where proxies can be downloaded and parsed from.",
+        "</summary>",
+        "Creates a RemoteProxySource given a unique ID.",
+        "</summary>",
+        "<param name=\"id\">The unique ID</param>",
+        "Whether the proxy type has been initialized.",
+        "</summary>",
+        "Best Regex = @\"((([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]):[0-9]+)\";",
+        "The result for async download of proxies from remote sources.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>The unique ID of the RemoteProxySource.</summary>",
+        "<summary>The Url of the remote source.</summary>",
+        "<summary>The type of downloaded proxies.</summary>",
+        "<summary>",
+        "<summary>The regex pattern to match when parsing proxies from the downloaded page. Must use capture groups.</summary>",
+        "<summary>The output format of the groups matched by Regex.</summary>",
+        "<summary>",
+        "<summary>Whether the download was successful.</summary>",
+        "<summary>The Message of the Exception thrown while downloading or parsing the proxies.</summary>",
+        "<summary>The Url from which the proxies were downloaded from.</summary>",
+        "<summary>The downloaded and parsed proxies.</summary>"
+    ],
+    "functions": [
+        "RemoteProxySource"
+    ],
+    "classes": [
+        "RemoteProxySource",
+        "RemoteProxySourceResult"
+    ]
+}

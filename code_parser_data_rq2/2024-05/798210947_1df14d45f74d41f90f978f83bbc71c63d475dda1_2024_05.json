@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "com",
+        "punnyajoshi",
+        "Ecommerce",
+        "CartPackage",
+        "com",
+        "punnyajoshi",
+        "Ecommerce",
+        "Pages",
+        "CartPage",
+        "org",
+        "openqa",
+        "selenium",
+        "By",
+        "org",
+        "openqa",
+        "selenium",
+        "WebDriver",
+        "org",
+        "openqa",
+        "selenium",
+        "WebElement",
+        "java",
+        "util",
+        "org",
+        "junit",
+        "jupiter",
+        "api",
+        "Assertions",
+        "assertTrue",
+        "driver",
+        "cartPage",
+        "driver",
+        "driver",
+        "driver",
+        "cartPage",
+        "driver",
+        "cartPage",
+        "navigateToCartPage",
+        "removeButtons",
+        "driver",
+        "findElements",
+        "By",
+        "xpath",
+        "removeButton",
+        "removeButtons",
+        "removeButton",
+        "click",
+        "assertTrue",
+        "cartPage",
+        "isCartEmpty",
+        "cartPage",
+        "getCartMessage",
+        "contains"
+    ],
+    "literals": [
+        "\"//your-xpath-to-find-remove-buttons\"",
+        "\"Cart is not empty after cleanup.\"",
+        "\"Your cart is empty\""
+    ],
+    "variables": [
+        "driver",
+        "cartPage"
+    ],
+    "comments": [
+        "Implement logic to remove the product from the cart",
+        "For example, if there is a \"Remove\" button for each product, you can find the button and click it",
+        "Confirm the cart is empty",
+        "Implement logic to check if the cart is empty",
+        "For example, if there is a message indicating the cart is empty, you can check for that message"
+    ],
+    "docstrings": [],
+    "functions": [
+        "CartCleanup",
+        "cleanCart",
+        "isCartEmpty"
+    ],
+    "classes": [
+        "CartCleanup"
+    ]
+}

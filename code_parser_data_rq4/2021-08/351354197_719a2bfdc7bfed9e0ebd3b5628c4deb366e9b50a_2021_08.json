@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "unittest",
+        "os",
+        "explainaboard",
+        "explainaboard_main",
+        "em",
+        "unittest",
+        "TestCase",
+        "em",
+        "run_explainaboard",
+        "os",
+        "devnull",
+        "em",
+        "run_explainaboard",
+        "os",
+        "devnull",
+        "em",
+        "run_explainaboard",
+        "os",
+        "devnull",
+        "em",
+        "run_explainaboard",
+        "os",
+        "devnull",
+        "em",
+        "run_explainaboard",
+        "os",
+        "devnull",
+        "em",
+        "run_explainaboard",
+        "os",
+        "devnull",
+        "em",
+        "run_explainaboard",
+        "os",
+        "devnull",
+        "unittest",
+        "main"
+    ],
+    "literals": [
+        "'absa'",
+        "'explainaboard/example/test-laptop.tsv'",
+        "'chunk'",
+        "'explainaboard/example/test-conll00.tsv'",
+        "'cws'",
+        "'explainaboard/example/test-ctb.tsv'",
+        "'ner'",
+        "'explainaboard/example/test-conll03.tsv'",
+        "'nli'",
+        "'explainaboard/example/test-snli.tsv'",
+        "'pos'",
+        "'explainaboard/example/test-ptb2.tsv'",
+        "'tc'",
+        "'explainaboard/example/test-atis.tsv'",
+        "'__main__'"
+    ],
+    "variables": [],
+    "comments": [
+        "TODO: There is no example for relation extraction?",
+        "def test_re_single(self):",
+        "em.run_explainaboard('re', ['explainaboard/example/test-XXX.tsv'], os.devnull)"
+    ],
+    "docstrings": [
+        "'''\n  Does integration tests of end-to-end running of ExplainaBoard\n  '''"
+    ],
+    "functions": [
+        "test_absa_single",
+        "test_chunk_single",
+        "test_cws_single",
+        "test_ner_single",
+        "test_nli_single",
+        "test_pos_single",
+        "test_tc_single"
+    ],
+    "classes": [
+        "IntegrationTest"
+    ]
+}

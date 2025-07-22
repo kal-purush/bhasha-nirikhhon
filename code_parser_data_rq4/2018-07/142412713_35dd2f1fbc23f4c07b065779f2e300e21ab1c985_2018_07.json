@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "os",
+        "subprocess",
+        "sp",
+        "pytest",
+        "extension",
+        "each_file",
+        "os",
+        "listdir",
+        "os",
+        "getcwd",
+        "each_file",
+        "endswith",
+        "extension",
+        "file_list",
+        "append",
+        "each_file",
+        "file_list",
+        "file_list",
+        "collect_files",
+        "each_script",
+        "file_list",
+        "each_script",
+        "sp",
+        "call",
+        "file_name",
+        "shell",
+        "returncode_list",
+        "append",
+        "returncode",
+        "i",
+        "len",
+        "file_list",
+        "returncode_list",
+        "i",
+        "file_list",
+        "i",
+        "file_list",
+        "i"
+    ],
+    "literals": [
+        "\".sh\"",
+        "' \"./'",
+        "'\"'",
+        "' -nogui'",
+        "\"Test Failed for \"",
+        "\"test passed for \""
+    ],
+    "variables": [
+        "file_list",
+        "returncode_list",
+        "file_name",
+        "returncode"
+    ],
+    "comments": [
+        "Initialize empty list for collecting all required files",
+        "This for loop collects all the required files from current working directory"
+    ],
+    "docstrings": [
+        "'''\n    Collects all the files with a particular extension from the current working directory\n    :param extension: extension of files that are to be collected\n    :return: list containing all the names of files with a given extension\n    '''",
+        "'''\n    Tests all the shell scripts based on its exit code\n    :param file_list: contains files that are to be tested\n    :return: exitcode of each file\n    '''"
+    ],
+    "functions": [
+        "collect_files",
+        "test_shell_scripts"
+    ],
+    "classes": []
+}

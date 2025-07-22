@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "java",
+        "io",
+        "ByteArrayOutputStream",
+        "java",
+        "io",
+        "java",
+        "io",
+        "InputStream",
+        "java",
+        "net",
+        "MalformedURLException",
+        "java",
+        "net",
+        "URL",
+        "org",
+        "apache",
+        "log4j",
+        "Logger",
+        "log",
+        "Logger",
+        "getLogger",
+        "urlStr",
+        "log",
+        "info",
+        "url",
+        "urlStr",
+        "streamPath",
+        "url",
+        "getPath",
+        "fileType",
+        "streamPath",
+        "substring",
+        "streamPath",
+        "lastIndexOf",
+        "multipart",
+        "mainStream",
+        "multipart",
+        "openStream",
+        "url",
+        "mainStream",
+        "log",
+        "info",
+        "outputStream",
+        "dataToWrite",
+        "filePart",
+        "filePart",
+        "outputStream",
+        "write",
+        "dataToWrite",
+        "filePart",
+        "filePart",
+        "mainStream",
+        "read",
+        "dataToWrite"
+    ],
+    "literals": [
+        "\"Starting to download the manifest file ...\"",
+        "\"A file part is being downloaded ...\""
+    ],
+    "variables": [],
+    "comments": [
+        "An output stream where the data is written into a byte array",
+        "TODO: Show the downloaded part"
+    ],
+    "docstrings": [
+        "Logger used for debugging and testing purposes",
+        "* The main method of downloading a manifest stream (which might have multiple parts)\n\t * \n\t * @param urlStr\n\t *            This is provided by the user\n\t * @throws IOException",
+        "* This method is to download a direct part (txt, jpg, ...)\n\t * \n\t * @throws IOException"
+    ],
+    "functions": [
+        "download",
+        "downloadPart"
+    ],
+    "classes": [
+        "Downloader"
+    ]
+}

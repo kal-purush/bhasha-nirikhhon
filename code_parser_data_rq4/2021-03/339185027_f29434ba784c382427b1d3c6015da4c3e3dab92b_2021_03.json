@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "styled",
+        "theme",
+        "AddMovieContainerProps",
+        "CrossItemProps",
+        "Input",
+        "styled",
+        "AddMovieContainerProps",
+        "p",
+        "p",
+        "theme",
+        "styled",
+        "theme",
+        "theme",
+        "styled",
+        "styled",
+        "Input",
+        "theme",
+        "styled",
+        "CrossItemProps",
+        "theme"
+    ],
+    "literals": [
+        "'../../../theme'",
+        "'./AddMovie.interface'",
+        "'../../common/input/Input.style'",
+        "display: ${(p) => (p.open === false ? 'none' : 'block')};\n  position: fixed;\n  width: 100%;\n  height: 100%;\n  top: 0;\n  left: 0;\n  right: 0;\n  bottom: 0;\n  background-color: ${theme.colors.black};\n  z-index: 1;",
+        "'none'",
+        "'block'",
+        "position: relative;\n  max-width: 580px;\n  height: 80vh;\n  margin: 3vh auto 0 auto;\n  padding: 50px 60px;\n  border-radius: 6px;\n  background-color: ${theme.colors.black};\n  overflow-y: scroll;\n  border: 3px solid ${theme.colors.pink};",
+        "margin-bottom: 30px;",
+        "margin-top: 15px;\n  background-color: ${theme.colors.gray};\n  width: 95%;",
+        "& > svg {\n    position: absolute;\n    right: 45px;\n    width: 20px;\n    fill: ${theme.colors.white};\n    &:hover {\n      cursor: pointer;\n    }\n  }"
+    ],
+    "variables": [
+        "AddMovieContainer",
+        "AddMovieForm",
+        "AddMovieInputItem",
+        "AddMovieInput",
+        "CrossItem"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

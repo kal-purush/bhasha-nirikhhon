@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "math",
+        "voxelx",
+        "voxely",
+        "voxelz",
+        "math",
+        "pi"
+    ],
+    "literals": [
+        "'E:\\\\CS539 Machine Learning\\\\3d-object-detection-for-autonomous-vehicles'",
+        "'car'",
+        "'pedestrian'",
+        "'animal'",
+        "'other_vehicle'",
+        "'bus'",
+        "'motorcycle'",
+        "'truck'",
+        "'emergency_vehicle'",
+        "'bicycle'"
+    ],
+    "variables": [
+        "lyft_data_dir",
+        "voxelx",
+        "voxely",
+        "voxelz",
+        "nx",
+        "ny",
+        "nz",
+        "anchors",
+        "maxPoints",
+        "pointIndex",
+        "catToNum",
+        "maxRegions",
+        "iouLowerBound",
+        "iouUpperBound"
+    ],
+    "comments": [
+        "Directory for Lyft dataset",
+        "size of voxel",
+        "Number of voxels in space that we care about",
+        "-50 to 50 m",
+        "number of anchors",
+        "Limit of points per voxel to reduce size of data.",
+        "index of points in input tensor",
+        "map of categories:",
+        "============================",
+        "RPN Constants",
+        "region limiter"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

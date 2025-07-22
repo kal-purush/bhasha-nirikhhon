@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Http",
+        "Observable",
+        "Cache",
+        "Injectable",
+        "_http",
+        "_cache",
+        "url",
+        "key",
+        "Observable",
+        "key",
+        "url",
+        "res",
+        "res",
+        "json",
+        "key",
+        "json"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/http'",
+        "'rxjs/Observable'",
+        "'rxjs/add/observable/of'",
+        "'rxjs/add/operator/do'",
+        "'rxjs/add/operator/share'",
+        "'./universal-cache'"
+    ],
+    "variables": [
+        "key",
+        "url"
+    ],
+    "comments": [
+        "whatever domain/feature method name",
+        "you want to return the cache if there is a response in it. This would cache the first response so if your API isn't idempotent you probably want to remove the item from the cache after you use it. LRU of 1",
+        "you probably shouldn't .share() and you should write the correct logic"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getModel"
+    ],
+    "classes": [
+        "ApiService"
+    ]
+}

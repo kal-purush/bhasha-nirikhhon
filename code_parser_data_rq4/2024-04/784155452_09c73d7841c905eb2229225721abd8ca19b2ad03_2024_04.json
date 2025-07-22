@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "componentsImg",
+        "propsImg",
+        "jsxImg",
+        "stateImg",
+        "componentsImg",
+        "jsxImg",
+        "propsImg",
+        "stateImg"
+    ],
+    "literals": [
+        "'./assets/components.png'",
+        "'./assets/config.png'",
+        "'./assets/jsx-ui.png'",
+        "'./assets/state-mgmt.png'",
+        "'Components'",
+        "'The core UI building block - compose the user interface by combining multiple components.'",
+        "'JSX'",
+        "'Return (potentially dynamic) HTML(ish) code to define the actual markup that will be rendered.'",
+        "'Props'",
+        "'Make components configurable (and therefore reusable) by passing input data to them.'",
+        "'State'",
+        "'React-managed data which, when changed, causes the component to re-render & the UI to update.'",
+        "'Components'",
+        "'Components are the building blocks of React applications. A component is a self-contained module (HTML + optional CSS + JS) that renders some output.'",
+        "function Welcome() {\n  return <h1>Hello, World!</h1>;\n}",
+        "'JSX'",
+        "'JSX is a syntax extension to JavaScript. It is similar to a template language, but it has full power of JavaScript (e.g., it may output dynamic content).'",
+        "<div>\n  <h1>Welcome {userName}</h1>\n  <p>Time to learn React!</p>\n</div>",
+        "'Props'",
+        "'Components accept arbitrary inputs called props. They are like function arguments.'",
+        "function Welcome(props) {\n  return <h1>Hello, {props.name}</h1>;\n}",
+        "'State'",
+        "'State allows React components to change their output over time in response to user actions, network responses, and anything else.'",
+        "function Counter() {\n  const [isVisible, setIsVisible] = useState(false);\n\n  function handleClick() {\n    setIsVisible(true);\n  }\n\n  return (\n    <div>\n      <button onClick={handleClick}>Show Details</button>\n      {isVisible && <p>Amazing details!</p>}\n    </div>\n  );\n}"
+    ],
+    "variables": [
+        "CORE_CONCEPTS",
+        "EXAMPLES"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "censys",
+        "certificates",
+        "csv",
+        "settings",
+        "UID",
+        "SECRET",
+        "censys",
+        "certificates",
+        "CensysCertificates",
+        "UID",
+        "SECRET",
+        "open",
+        "newline",
+        "file",
+        "csv",
+        "writer",
+        "file",
+        "writer",
+        "writerow",
+        "c",
+        "certificates",
+        "search",
+        "fields",
+        "fields",
+        "writer",
+        "writerow",
+        "c",
+        "c",
+        "c"
+    ],
+    "literals": [
+        "\"parsed.fingerprint_sha256\"",
+        "\"parsed.validity.start\"",
+        "\"parsed.validity.end\"",
+        "'results.csv'",
+        "'w'",
+        "''",
+        "\"SHA256 fingerprint\"",
+        "\"validity start date\"",
+        "\"validity end date\"",
+        "\"parsed.names: censys.io, tags: trusted\"",
+        "\"parsed.fingerprint_sha256\"",
+        "\"parsed.validity.start\"",
+        "\"parsed.validity.end\""
+    ],
+    "variables": [
+        "certificates",
+        "fields",
+        "writer"
+    ],
+    "comments": [
+        "for c in certificates.search(\"parsed.names: censys.io, tags: trusted\", fields=fields):",
+        "print(c[\"parsed.validity.start\"] + \" \" + c[\"parsed.fingerprint_sha256\"] + \" \" + str(c[\"parsed.validity.end\"]))"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

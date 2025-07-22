@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "re",
+        "tests",
+        "checks",
+        "common",
+        "AgentCheckTest",
+        "load_check",
+        "AgentCheckTest",
+        "re",
+        "compile",
+        "conf",
+        "load_check",
+        "conf",
+        "check",
+        "tags_from_topic_name",
+        "pattern",
+        "assertEqual",
+        "prod_result",
+        "check",
+        "tags_from_topic_name",
+        "pattern",
+        "assertEqual",
+        "canary_result",
+        "check",
+        "tags_from_topic_name",
+        "pattern",
+        "assertEqual",
+        "empty_result"
+    ],
+    "literals": [
+        "'nsq'",
+        "'init_config'",
+        "'topic_name_regex'",
+        "'service-(?P<stage>prod|canary)$'",
+        "'instances'",
+        "'url'",
+        "'http://localhost:4151'",
+        "'init_config'",
+        "'topic_name_regex'",
+        "'nsq'",
+        "'service-prod'",
+        "'stage:prod'",
+        "'service-canary'",
+        "'stage:canary'",
+        "'other-topic'"
+    ],
+    "variables": [
+        "CHECK_NAME",
+        "conf",
+        "pattern",
+        "check",
+        "prod_result",
+        "canary_result",
+        "empty_result"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "test_tags_from_topic_name"
+    ],
+    "classes": [
+        "TestFileUnit"
+    ]
+}

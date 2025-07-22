@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "Unicorn",
+        "Tests",
+        "Data",
+        "DataProvider"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "AddVersion_ShouldNotAddVersion_WhenSerializationIsDisabled",
+        "AddVersion_ShouldNotAddVersion_WhenPredicateExcludesItem",
+        "AddVersion_ShouldAddV1_WhenNoVersionsExist",
+        "AddVersion_ShouldAddV1_WhenNoVersionsExist_AndSourceIsTransparentSyncItem",
+        "AddVersion_ShouldAddV4_WhenVersion3Exists",
+        "AddVersion_ShouldAddV4_WhenVersion3Exists_AndSourceIsTransparentSyncItem",
+        "AddVersion_ShouldAddBlankVersion_WhenBaseVersionIsLessThanOne",
+        "AddVersion_ShouldAddBlankVersion_WhenBaseVersionIsLessThanOne_AndSourceIsTransparentSyncItem",
+        "AddVersion_ShouldCopyBaseVersion_WhenBaseVersionIsOneOrMore",
+        "AddVersion_ShouldCopyBaseVersion_WhenBaseVersionIsOneOrMore_AndSourceIsTransparentSyncItem"
+    ],
+    "classes": [
+        "UnicornDataProviderTests"
+    ]
+}

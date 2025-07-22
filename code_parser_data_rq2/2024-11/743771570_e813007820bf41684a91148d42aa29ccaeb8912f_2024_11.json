@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "com",
+        "hula",
+        "core",
+        "user",
+        "service",
+        "com",
+        "hula",
+        "common",
+        "enums",
+        "LoginTypeEnum",
+        "TokenService",
+        "token",
+        "token",
+        "uid",
+        "loginTypeEnum"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @author nyh",
+        "* 校验token是不是有效",
+        "* 刷新token有效期",
+        "* @param uid 用户id\n     * @param loginTypeEnum 登录类型\n     * @return {@link String } 令牌",
+        "* 延长token有效期"
+    ],
+    "functions": [
+        "verify",
+        "renewalTokenIfNecessary",
+        "createToken",
+        "refreshToken"
+    ],
+    "classes": []
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "Input",
+        "GetMouseButton",
+        "Camera",
+        "main",
+        "ScreenToWorldPoint",
+        "Input",
+        "mousePosition",
+        "Physics2D",
+        "Raycast",
+        "worldPoint",
+        "Vector2",
+        "zero",
+        "hit",
+        "collider",
+        "hit",
+        "collider",
+        "gameObject",
+        "tag",
+        "hit",
+        "collider",
+        "gameObject",
+        "SendMessageUpwards",
+        "SendMessageOptions",
+        "DontRequireReceiver"
+    ],
+    "literals": [
+        "\"player\"",
+        "\"Explosive\""
+    ],
+    "variables": [
+        "Vector2",
+        "worldPoint",
+        "RaycastHit2D",
+        "hit"
+    ],
+    "comments": [
+        "Use this for initialization",
+        "Update is called once per frame",
+        "print (\"hit collider\");",
+        "hit.collider.gameObject.SendMessage(\"Explosive\", SendMessageOptions.DontRequireReceiver);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update"
+    ],
+    "classes": [
+        "MainController"
+    ]
+}

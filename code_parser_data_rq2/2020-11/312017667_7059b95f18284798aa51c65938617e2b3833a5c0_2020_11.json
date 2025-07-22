@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "vscode",
+        "uri",
+        "vscode",
+        "token",
+        "vscode",
+        "vscode",
+        "vscode",
+        "uri",
+        "splices",
+        "splices",
+        "splices",
+        "filename",
+        "vscode",
+        "splices",
+        "vscode",
+        "vscode",
+        "vscode",
+        "context",
+        "vscode",
+        "vscode",
+        "folders",
+        "folders",
+        "vscode",
+        "QuickDiffer"
+    ],
+    "literals": [
+        "'console'",
+        "'vscode'",
+        "'/'",
+        "'.yuque'",
+        "'/'",
+        "'yuque'",
+        "'Yuque Modification'",
+        "'modification'",
+        "'Changes'"
+    ],
+    "variables": [
+        "splices",
+        "filename",
+        "folders"
+    ],
+    "comments": [
+        "TODO",
+        "const fileSystemWatcher = vscode.workspace.createFileSystemWatcher(",
+        "new vscode.RelativePattern(this.workspaceFolder, \"*.md\"));",
+        "fileSystemWatcher.onDidChange(uri => this.onResourceChange(uri), context.subscriptions);",
+        "fileSystemWatcher.onDidCreate(uri => this.onResourceChange(uri), context.subscriptions);",
+        "fileSystemWatcher.onDidDelete(uri => this.onResourceChange(uri), context.subscriptions);",
+        "onResourceChange(uri: vscode.Uri) {",
+        "console.log(uri);",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "provideOriginalResource"
+    ],
+    "classes": [
+        "QuickDiffer",
+        "SourceControl"
+    ]
+}

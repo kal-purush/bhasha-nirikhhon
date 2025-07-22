@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "PassengerForComponent",
+        "PassengerDashboardService",
+        "Component",
+        "passengerService",
+        "passenger",
+        "passenger",
+        "passenger",
+        "passenger",
+        "passenger",
+        "passenger",
+        "passenger"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"../../models/passenger.interface\"",
+        "\"../../passenger-dashboard.service\"",
+        "\"passenger-dashboard\"",
+        "\"passenger-dashboard.component.scss\"",
+        "<div>\n      <passenger-count [items]=\"passengers\"> </passenger-count>\n      <div *ngFor=\"let pass of passengers\">{{ pass.fullname }}</div>\n\n      <passenger-detail\n        *ngFor=\"let passenger of passengers\"\n        [detail]=\"passenger\"\n        (edit)=\"handleEdit($event)\"\n        (remove)=\"handleRemove($event)\"\n      ></passenger-detail>\n    </div>"
+    ],
+    "variables": [],
+    "comments": [
+        "Dependency resolved automatically using this"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "handleRemove",
+        "handleEdit"
+    ],
+    "classes": [
+        "PassengerDashboardComponent"
+    ]
+}

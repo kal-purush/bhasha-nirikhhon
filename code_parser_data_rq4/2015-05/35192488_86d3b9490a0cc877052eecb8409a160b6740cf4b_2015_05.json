@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "require",
+        "React",
+        "Button",
+        "AsyncComponent",
+        "React",
+        "React",
+        "React",
+        "Button",
+        "React",
+        "require",
+        "require",
+        "AsyncComponent",
+        "require",
+        "async",
+        "React",
+        "React",
+        "App"
+    ],
+    "literals": [
+        "'./index.css'",
+        "'react/addons'",
+        "'./Button'",
+        "'./AsyncComponent'",
+        "'./AsyncComponent'",
+        "'./AsyncComponent'",
+        "'main'"
+    ],
+    "variables": [
+        "App",
+        "async"
+    ],
+    "comments": [
+        "<reference path='../typings/tsd.d.ts' />"
+    ],
+    "docstrings": [
+        "* If we don't use AsyncComponent at the value level, tsc won't emit require\n * statement and so we won't have it bundled. Though type info is acquired and\n * we can load the module later and assign the type to it."
+    ],
+    "functions": [
+        "render",
+        "getInitialState",
+        "componentDidMount"
+    ],
+    "classes": []
+}

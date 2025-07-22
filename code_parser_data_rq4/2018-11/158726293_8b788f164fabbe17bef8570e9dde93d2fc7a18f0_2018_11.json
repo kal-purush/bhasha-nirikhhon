@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "bindings",
+        "bindings",
+        "value",
+        "value",
+        "buffer",
+        "buffer"
+    ],
+    "literals": [
+        "'bindings'",
+        "'serialism'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @ignore\n * @hidden\n * @internal",
+        "* Serialize a JavaScript value.\n * @param value The value to serialize.\n * @returns A buffer containing the serialized data.\n * @throws Throws an error if a non-serializable is encountered. (Symbol, Native object, etc)",
+        "* Deserialize a NodeJS.Buffer to a JavaScript value.\n * @param buffer The buffer to deserialize.\n * @returns The deserialized object.\n * @throws Throws an error if the buffer is incompatible or malformed."
+    ],
+    "functions": [
+        "serializeNative",
+        "deserializeNative"
+    ],
+    "classes": []
+}

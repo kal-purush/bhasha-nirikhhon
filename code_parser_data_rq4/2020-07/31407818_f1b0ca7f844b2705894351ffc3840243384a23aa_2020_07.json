@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "com",
+        "giderosmobile",
+        "android",
+        "plugins",
+        "gshare",
+        "java",
+        "lang",
+        "WeakReference",
+        "android",
+        "app",
+        "Activity",
+        "android",
+        "os",
+        "Build",
+        "sActivity",
+        "activity",
+        "sActivity",
+        "activity",
+        "mimeType",
+        "data",
+        "shareIntent",
+        "shareIntent",
+        "setAction",
+        "Intent",
+        "ACTION_SEND",
+        "shareIntent",
+        "setType",
+        "mimeType",
+        "mimeType",
+        "startsWith",
+        "sendIntent",
+        "putExtra",
+        "Intent",
+        "EXTRA_TEXT",
+        "startActivity",
+        "Intent",
+        "createChooser",
+        "shareIntent",
+        "getResources",
+        "getText",
+        "R",
+        "send_to"
+    ],
+    "literals": [
+        "\"text/\"",
+        "\"This is my text to send.\""
+    ],
+    "variables": [
+        "sActivity"
+    ],
+    "comments": [],
+    "docstrings": [
+        "File file = new File(context.getCacheDir(), filename);\n\t\t    Uri contentUri = FileProvider.getUriForFile(context, \"com.package.example\", file);\n\t\t\tshareIntent.putExtra(Intent.EXTRA_STREAM, contentUri);"
+    ],
+    "functions": [
+        "onCreate",
+        "share"
+    ],
+    "classes": [
+        "Share"
+    ]
+}

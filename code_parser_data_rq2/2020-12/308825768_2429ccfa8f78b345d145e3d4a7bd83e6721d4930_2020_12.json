@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "styled",
+        "Button",
+        "styled",
+        "Button",
+        "ConfirmWindow"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'./variables'",
+        "position: absolute;\n\n    width:100%;\n    height:100%;\n\n    display:flex;\n    flex-direction:column;\n    justify-content: center;\n    align-items:center;\n\n    background-color:rgba(255,255,255,0.9);\n    transform: translateY(2rem);\n    transition: all ease .5s;\n    opacity: 0;\n    visibility: hidden;\n    .txt{\n        font-size: 1rem;\n        color: black;\n        padding:1rem 2rem;\n    }\n    button {\n        cursor:pointer;\n        outline: none;\n        background: #fff;\n        color: black;\n        border:2px solid black;\n        padding:0.3rem 0.8rem;\n        margin:0 0.1rem;\n        border-radius:${Button.radius};\n        &:hover {\n            outline: none;\n            background: tomato;\n            color: #fff;\n            border:2px solid tomato;\n        }\n    }\n    &.visible {\n        opacity: 1;\n        visibility: visible;\n        transform: translateY(0rem);\n    }"
+    ],
+    "variables": [
+        "ConfirmWindow"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

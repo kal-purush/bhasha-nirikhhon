@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "app",
+        "models",
+        "java",
+        "util",
+        "java",
+        "io",
+        "app",
+        "models",
+        "PeteDb",
+        "id",
+        "Db",
+        "loadCollection",
+        "attribute",
+        "value",
+        "Db",
+        "loadCollectionWhere",
+        "attribute",
+        "value",
+        "Override",
+        "id",
+        "Override",
+        "dbRecordId",
+        "id",
+        "dbRecordId",
+        "Db",
+        "save",
+        "Db",
+        "load",
+        "id",
+        "id",
+        "id",
+        "load"
+    ],
+    "literals": [],
+    "variables": [
+        "id"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Abstract class for models\n * @author Pete Schmidt\n * @version 0.1 [August 30, 2013]",
+        "Unique id for this document",
+        "* Get collection of all records",
+        "* Get filtered collection of records",
+        "* Get the unique id for this record\n     * @return      a unique string to identify this record",
+        "* Set the unique id for this record\n     * @param dbRecordId the unique string to identify this record",
+        "* Save record",
+        "* Load record",
+        "* Load record by id"
+    ],
+    "functions": [
+        "getCollection",
+        "getCollectionWhere",
+        "getDbRecordId",
+        "setDbRecordId",
+        "save",
+        "T",
+        "load",
+        "T",
+        "load"
+    ],
+    "classes": [
+        "AbstractModel"
+    ]
+}

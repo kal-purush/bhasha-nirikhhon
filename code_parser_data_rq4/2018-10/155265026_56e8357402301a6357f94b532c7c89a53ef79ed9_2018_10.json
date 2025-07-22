@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "flask_login",
+        "UserMixin",
+        "werkzeug",
+        "security",
+        "generate_password_hash",
+        "check_password_hash",
+        "app",
+        "db",
+        "loginManager",
+        "UserMixin",
+        "db",
+        "Model",
+        "db",
+        "Column",
+        "db",
+        "primary_key",
+        "db",
+        "Column",
+        "db",
+        "index",
+        "unique",
+        "db",
+        "Column",
+        "db",
+        "password",
+        "password",
+        "password",
+        "password_hash",
+        "password",
+        "loginManager",
+        "user_loader",
+        "id",
+        "User",
+        "query",
+        "get",
+        "id"
+    ],
+    "literals": [],
+    "variables": [
+        "id",
+        "username",
+        "password_hash",
+        "password_hash"
+    ],
+    "comments": [
+        "self.password_hash = generate_password_hash(password)",
+        "return check_password_hash(self.password_hash, password)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "set_password",
+        "check_password",
+        "load_user"
+    ],
+    "classes": [
+        "User"
+    ]
+}

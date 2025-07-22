@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "com",
+        "pes",
+        "androidmaterialcolorpickerdialog",
+        "android",
+        "annotation",
+        "SuppressLint",
+        "android",
+        "support",
+        "annotation",
+        "IntRange",
+        "colorValue",
+        "colorValue",
+        "colorValue",
+        "colorValue",
+        "SuppressLint",
+        "IntRange",
+        "to",
+        "colorValue",
+        "format",
+        "colorValue"
+    ],
+    "literals": [
+        "\"DefaultLocale\"",
+        "\"%3d\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Checks whether the specified value is between (including bounds) 0 and 255\n     *\n     * @param colorValue Color value\n     * @return Specified input value if between 0 and 255, otherwise 0",
+        "* Left-pads the specified color value with 0 to 2 spaces, depending on the color value length\n     *\n     * @param colorValue Color value\n     * @return Left-padded (with Strings) color value as a String"
+    ],
+    "functions": [
+        "assertColorValueInRange",
+        "leftPadColorValue"
+    ],
+    "classes": [
+        "ColorFormatHelper"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "CodegenConfig",
+        "process",
+        "process",
+        "process",
+        "port",
+        "chainId",
+        "app",
+        "config"
+    ],
+    "literals": [
+        "'@graphql-codegen/cli'",
+        "'dotenv/config'",
+        "http://localhost:${port}/chains/${chainId}/applications/${app}",
+        "'src/**/*.{ts,tsx}'",
+        "'./src/__generated__/'",
+        "'client'",
+        "'gql'"
+    ],
+    "variables": [
+        "app",
+        "port",
+        "chainId",
+        "config"
+    ],
+    "comments": [
+        "Make sure you set the correct chainId, app, and port in your .env file.\n\n  This assumes that all your source files are in a top-level `src/` directory - you might need to adjust this to your file structure"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

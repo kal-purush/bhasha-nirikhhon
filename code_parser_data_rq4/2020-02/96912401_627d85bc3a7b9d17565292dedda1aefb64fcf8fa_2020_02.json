@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Component",
+        "tracked",
+        "setComponentTemplate",
+        "createTemplate",
+        "test",
+        "render",
+        "settled",
+        "test",
+        "Component",
+        "tracked",
+        "tracked",
+        "owner",
+        "args",
+        "owner",
+        "args",
+        "parent",
+        "Component",
+        "setComponentTemplate",
+        "ParentComponent",
+        "createTemplate",
+        "setComponentTemplate",
+        "ChildComponent",
+        "createTemplate",
+        "render",
+        "ParentComponent",
+        "parent",
+        "parent",
+        "settled"
+    ],
+    "literals": [
+        "'@glimmer/component'",
+        "'@glimmer/tracking'",
+        "'@glimmer/core'",
+        "'@glimmer/core/test/utils'",
+        "'[@glimmer/component] Component Arguments'",
+        "'Getters that depend on `args` re-render correctly'",
+        "'Tom'",
+        "'is dope'",
+        "string",
+        "${this.args.firstName} Dale",
+        "'<ChildComponent @firstName={{this.firstName}} @status={{this.status}} />'",
+        "'{{this.name}} {{@status}}'",
+        "'Tom Dale is dope'",
+        "'Thom'",
+        "'is dank'",
+        "'Thom Dale is dank'"
+    ],
+    "variables": [
+        "parent"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "name"
+    ],
+    "classes": [
+        "ParentComponent",
+        "ChildComponent"
+    ]
+}

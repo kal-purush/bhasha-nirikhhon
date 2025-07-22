@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "functools",
+        "typing",
+        "Any",
+        "Callable",
+        "Optional",
+        "django",
+        "utils",
+        "functional",
+        "LazyObject",
+        "SimpleLazyObject",
+        "empty",
+        "func",
+        "Callable",
+        "SimpleLazyObject",
+        "Optional",
+        "functools",
+        "wraps",
+        "func",
+        "error",
+        "error",
+        "error",
+        "func",
+        "exc",
+        "exc",
+        "SimpleLazyObject",
+        "_wrapper",
+        "obj",
+        "LazyObject",
+        "Any",
+        "obj",
+        "_wrapped",
+        "empty",
+        "obj",
+        "_setup",
+        "obj",
+        "_wrapped"
+    ],
+    "literals": [],
+    "variables": [
+        "error",
+        "error"
+    ],
+    "comments": [
+        "If it was already evaluated, and it crashed, then do not re-attempt.",
+        "type: ignore[attr-defined] # valid attribute",
+        "type: ignore[attr-defined] # valid attribute",
+        "type: ignore[attr-defined] # valid attribute"
+    ],
+    "docstrings": [
+        "\"\"\"Wrap SimpleLazyObject while ensuring it is never re-evaluated on failure.\n\n    Wraps a given function into a ``SimpleLazyObject`` class while ensuring\n    if ``func`` fails, then ``func`` is never invoked again.\n\n    This mitigates an issue where an expensive ``func`` can be rerun for\n    each GraphQL resolver instead of flagging it as rejected/failed.\n    \"\"\"",
+        "\"\"\"Return the value of a given ``LazyObject``.\"\"\""
+    ],
+    "functions": [
+        "lazy_no_retry",
+        "_wrapper",
+        "unwrap_lazy"
+    ],
+    "classes": []
+}

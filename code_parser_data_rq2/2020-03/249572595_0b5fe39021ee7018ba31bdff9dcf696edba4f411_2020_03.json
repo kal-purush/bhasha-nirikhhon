@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "LitElement",
+        "html",
+        "LitElement",
+        "html",
+        "e",
+        "e",
+        "customElements",
+        "GoogleSignIn"
+    ],
+    "literals": [
+        "'lit-element'",
+        "<div ?hidden=${!this.loggedIn}>\n            <form method=\"post\" action=\"${this.logoutUrl}\">\n            <input type=\"hidden\" name=\"${this.csrfParameterName}\" value=\"${this.csrfToken}\"/>\n                <vaadin-button @click=\"${e => this.submit(e)}\">Logout</vaadin-button>\n            </form>\n        </div>\n        <slot></slot>",
+        "'form'",
+        "'google-sign-in'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "properties",
+        "render",
+        "submit"
+    ],
+    "classes": [
+        "GoogleSignIn"
+    ]
+}

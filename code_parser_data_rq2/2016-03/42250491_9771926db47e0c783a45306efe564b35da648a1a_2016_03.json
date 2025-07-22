@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "s",
+        "s",
+        "s",
+        "s",
+        "d",
+        "dPad",
+        "d",
+        "dPad",
+        "d",
+        "d",
+        "month",
+        "day",
+        "s",
+        "s",
+        "parts",
+        "parseInt",
+        "parts",
+        "parseInt",
+        "parts",
+        "parseInt",
+        "parts"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "'0'",
+        "string",
+        "''",
+        "''",
+        "${d.getFullYear()}-${month}-${day}",
+        "string",
+        "'-'"
+    ],
+    "variables": [
+        "month",
+        "day",
+        "parts"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "dPad",
+        "dToS",
+        "sToD"
+    ],
+    "classes": []
+}

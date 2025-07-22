@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "require",
+        "tableName",
+        "data",
+        "data",
+        "data",
+        "value",
+        "value",
+        "value",
+        "value",
+        "tableName",
+        "keys",
+        "values",
+        "pool",
+        "queryString",
+        "tableName",
+        "result",
+        "result",
+        "error",
+        "tableName",
+        "error",
+        "error",
+        "tableName",
+        "tableName",
+        "pool",
+        "queryString",
+        "tableName",
+        "result",
+        "result",
+        "error",
+        "tableName",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'./db'",
+        "', '",
+        "'string'",
+        "'${value}'",
+        "', '",
+        "INSERT INTO ${tableName} (${keys}) VALUES (${values}) RETURNING *",
+        "Entry created successfully in ${tableName}:",
+        "Error creating entry in ${tableName}:",
+        "SELECT * FROM ${tableName}",
+        "Entries fetched from ${tableName}:",
+        "Error fetching entries from ${tableName}:"
+    ],
+    "variables": [
+        "pool",
+        "keys",
+        "values",
+        "queryString",
+        "result",
+        "queryString",
+        "result"
+    ],
+    "comments": [
+        "crud.js",
+        "Implement update and delete operations similarly"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createEntry",
+        "readEntries"
+    ],
+    "classes": []
+}

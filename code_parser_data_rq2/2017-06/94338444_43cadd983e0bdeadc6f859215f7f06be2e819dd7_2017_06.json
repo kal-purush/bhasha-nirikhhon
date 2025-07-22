@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "React",
+        "ReactDOM",
+        "DatePicker",
+        "axios",
+        "React",
+        "city",
+        "city",
+        "axios",
+        "res",
+        "res",
+        "res",
+        "proxy",
+        "lat",
+        "lon",
+        "time",
+        "axios",
+        "url",
+        "res",
+        "res",
+        "target",
+        "target",
+        "div",
+        "input",
+        "DatePicker",
+        "button",
+        "button",
+        "div",
+        "ReactDOM",
+        "Weather"
+    ],
+    "literals": [
+        "'react'",
+        "'react-dom'",
+        "'react-datepicker'",
+        "'axios'",
+        "'react-datepicker/dist/react-datepicker.css'",
+        "''",
+        "'http://maps.googleapis.com/maps/api/geocode/json?address='",
+        "'&sensor=false'",
+        "\"0\"",
+        "\"0\"",
+        "'1497549600'",
+        "'https://cors-anywhere.herokuapp.com/'",
+        "'https://api.darksky.net/forecast/1d91e20fc6218bafefe2b9bd74b2df12/'",
+        "','",
+        "','",
+        "\"city\"",
+        "'text'",
+        "'Enter a city'",
+        "'root'"
+    ],
+    "variables": [
+        "lat",
+        "lon",
+        "time",
+        "proxy",
+        "url"
+    ],
+    "comments": [
+        "http://maps.googleapis.com/maps/api/geocode/json?address=Miami+FL&sensor=false",
+        "const posts = res.data.data.children.map(obj => obj.data);",
+        "console.log(res.data.results[\"0\"].geometry.location);",
+        "https://api.darksky.net/forecast/[key]/[latitude],[longitude]"
+    ],
+    "docstrings": [],
+    "functions": [
+        "findLatLongByCityName",
+        "handleChange",
+        "render"
+    ],
+    "classes": [
+        "Weather"
+    ]
+}

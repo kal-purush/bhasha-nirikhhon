@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "OrangeHRM",
+        "App",
+        "UI",
+        "Tests",
+        "Pages",
+        "TechTalk",
+        "SpecFlow",
+        "OrangeHRM",
+        "App",
+        "UI",
+        "Tests",
+        "Steps",
+        "Binding",
+        "LoginTestsSetup",
+        "LoginPage",
+        "Given",
+        "loginPage",
+        "GoToPageUrl",
+        "Given",
+        "loginPage",
+        "EnterValidCredentials",
+        "Given",
+        "name",
+        "password",
+        "loginPage",
+        "EnterInvalidCredentials",
+        "name",
+        "password",
+        "When",
+        "loginPage",
+        "ClickLoginButton",
+        "Then",
+        "loginPage",
+        "ValidateLoginSuccess",
+        "Then",
+        "loginPage",
+        "ValidateUnsuccessfulLogin"
+    ],
+    "literals": [],
+    "variables": [
+        "LoginPage",
+        "loginPage"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "GivenUserIsOnTheOrangeHRMAppLoginPage",
+        "GivenUserHasEnteredLoginCredentials",
+        "GivenUserHasEnteredInvalidLoginCredentials",
+        "WhenIPressALoginButton",
+        "ThenUserShouldBeRedirectedToDashboardPage",
+        "ThenUserShouldHaveFailedLoginToTheApplication"
+    ],
+    "classes": [
+        "LoginSteps"
+    ]
+}

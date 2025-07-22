@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Unity",
+        "WebApplication1",
+        "Lazy",
+        "IUnityContainer",
+        "Lazy",
+        "IUnityContainer",
+        "UnityContainer",
+        "RegisterTypes",
+        "container",
+        "container",
+        "container",
+        "Value",
+        "IUnityContainer",
+        "container"
+    ],
+    "literals": [],
+    "variables": [
+        "container",
+        "container",
+        "IUnityContainer",
+        "Container"
+    ],
+    "comments": [
+        "Specifies the Unity configuration for the main container.",
+        "</summary>",
+        "Configured Unity Container.",
+        "</summary>",
+        "Registers the type mappings with the Unity container.",
+        "</summary>",
+        "<param name=\"container\">The unity container to configure.</param>",
+        "<remarks>",
+        "There is no need to register concrete types such as controllers or",
+        "API controllers (unless you want to change the defaults), as Unity",
+        "allows resolving a concrete type even if it was not previously",
+        "registered.",
+        "</remarks>",
+        "NOTE: To load from web.config uncomment the line below.",
+        "Make sure to add a Unity.Configuration to the using statements.",
+        "container.LoadConfiguration();",
+        "TODO: Register your type's mappings here.",
+        "container.RegisterType<IProductRepository, ProductRepository>();"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "RegisterTypes"
+    ],
+    "classes": [
+        "UnityConfig"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "IResponseRepository",
+        "IPaymentRepository",
+        "singleton",
+        "inject",
+        "singleton",
+        "inject",
+        "payment",
+        "inject",
+        "response",
+        "body",
+        "sig",
+        "body",
+        "sig"
+    ],
+    "literals": [
+        "'$/packages/domain/http/response'",
+        "'$/packages/domain/payment'",
+        "'tsyringe'",
+        "'IPaymentRepository'",
+        "'IResponseRepository'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "execute"
+    ],
+    "classes": [
+        "HandleWebhookUseCase"
+    ]
+}

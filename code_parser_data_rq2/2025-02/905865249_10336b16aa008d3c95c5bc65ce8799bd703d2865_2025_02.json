@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "Globalization",
+        "Avalonia",
+        "Data",
+        "Converters",
+        "Vatsim",
+        "Vatis",
+        "Ui",
+        "Converters",
+        "IValueConverter",
+        "value",
+        "Type",
+        "targetType",
+        "parameter",
+        "CultureInfo",
+        "culture",
+        "value",
+        "value",
+        "rate",
+        "rate",
+        "ToString",
+        "CultureInfo",
+        "InvariantCulture",
+        "value",
+        "value",
+        "Type",
+        "targetType",
+        "parameter",
+        "CultureInfo",
+        "culture",
+        "value",
+        "value",
+        "rateString",
+        "TryParse",
+        "rateString",
+        "Replace",
+        "CultureInfo",
+        "InvariantCulture",
+        "result",
+        "result",
+        "value"
+    ],
+    "literals": [
+        "\"x\"",
+        "\"\""
+    ],
+    "variables": [],
+    "comments": [
+        "Converts a numeric speech rate (e.g., 0.5) to a formatted string (e.g., \"0.5x\").",
+        "</summary>",
+        "Converts a double value representing the speech rate to a formatted string (e.g., \"0.5x\").",
+        "</summary>",
+        "<param name=\"value\">The value to convert (expected to be a double representing the speech rate).</param>",
+        "<param name=\"targetType\">The target type (not used in this implementation).</param>",
+        "<param name=\"parameter\">Any optional parameters (not used in this implementation).</param>",
+        "<param name=\"culture\">The culture info (not used in this implementation).</param>",
+        "<returns>A string formatted as the speech rate with an 'x' suffix (e.g., \"1.0x\").</returns>",
+        "Format as 0.5x, 1.0x, etc.",
+        "Converts a formatted string (e.g., \"0.5x\") back to a double value representing the speech rate.",
+        "</summary>",
+        "<param name=\"value\">The value to convert (expected to be a string formatted as \"0.5x\").</param>",
+        "<param name=\"targetType\">The target type (expected to be a double).</param>",
+        "<param name=\"parameter\">Any optional parameters (not used in this implementation).</param>",
+        "<param name=\"culture\">The culture info (not used in this implementation).</param>",
+        "<returns>A double representing the speech rate (e.g., 0.5).</returns>",
+        "If converting back (e.g., from \"0.5x\" to 0.5), remove the \"x\" and parse the number."
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Convert",
+        "ConvertBack"
+    ],
+    "classes": [
+        "SpeechRateMultiplierConverter"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "spyder",
+        "py3compat",
+        "PY2",
+        "text",
+        "PY2",
+        "len",
+        "text",
+        "text",
+        "encode",
+        "len",
+        "utf16_text",
+        "utf16_text",
+        "length",
+        "length"
+    ],
+    "literals": [
+        "'utf16'",
+        "b'\\xff\\xfe'",
+        "b'\\xff\\xff'",
+        "b'\\xfe\\xff'"
+    ],
+    "variables": [
+        "utf16_text",
+        "length"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "",
+        "Copyright © Spyder Project Contributors",
+        "Licensed under the terms of the MIT License",
+        "(see spyder/__init__.py for details)",
+        "I don't know what this is encoded in, so there is nothing I can do.",
+        "Remove Byte order mark.",
+        "TODO: All unicode Non-characters should be removed"
+    ],
+    "docstrings": [
+        "\"\"\"QString compatibility.\"\"\"",
+        "\"\"\"\n    Tries to compute what the length of an utf16-encoded QString would be.\n    \"\"\""
+    ],
+    "functions": [
+        "qstring_length"
+    ],
+    "classes": []
+}

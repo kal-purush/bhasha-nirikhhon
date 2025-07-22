@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "subject",
+        "consume",
+        "error",
+        "wrap",
+        "subject",
+        "callback",
+        "callback",
+        "e",
+        "consume",
+        "e",
+        "subject",
+        "wrap",
+        "subject",
+        "callback",
+        "callback",
+        "log",
+        "subject",
+        "wrapper",
+        "callback",
+        "Proxy",
+        "subject",
+        "target",
+        "prop",
+        "receiver",
+        "prop",
+        "subjectSymbol",
+        "subject",
+        "wrapper",
+        "wrap",
+        "target",
+        "prop",
+        "receiver",
+        "wrapper",
+        "target",
+        "thisArg",
+        "argumentsList",
+        "wrapper",
+        "thisArg",
+        "thisArg",
+        "subjectSymbol",
+        "thisArg",
+        "wrap",
+        "target",
+        "thisArg",
+        "argumentsList",
+        "wrapper"
+    ],
+    "literals": [
+        "'proxy-subject'"
+    ],
+    "variables": [
+        "log",
+        "subjectSymbol"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This function takes an API entry point for a typical chaining-style\n * assertion library and wraps it so errors are passed to a callback\n * instead of being thrown.\n * \n * @param {T} subject An API entry point for an assertion library, e.g. 'strict'\n * in the node.js assert module, or 'expect' in chai.\n * \n * @param {(error: any) => void} consume A callback to which to pass trapped errors."
+    ],
+    "functions": [
+        "soften",
+        "silence",
+        "wrap"
+    ],
+    "classes": []
+}

@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "integrationName"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "Name of the extension",
+        "Some description for the extension",
+        "Contribution points"
+    ],
+    "docstrings": [
+        "* Integrations are popup windows that appear when clicking on a file menu\n     * or the \"New item\" menu.",
+        "* Specify an array of file extensions (`.png`) or MIME types (`image/png`).\n         * `*` accepts all files, and `image/*` accepts all files with MIME type beginning with `image/`.\n         * See: https://html.spec.whatwg.org/multipage/input.html#attr-input-accept\n         *\n         * If an empty array is passed, then the integration will appear instead\n         * in the \"New item\" menu.",
+        "* The text to display on the menu.",
+        "* URL to the integration window.\n         * Learn more: https://tmp-docs.spacet.me/extensions-api.html#integrations-api"
+    ],
+    "functions": [],
+    "classes": []
+}

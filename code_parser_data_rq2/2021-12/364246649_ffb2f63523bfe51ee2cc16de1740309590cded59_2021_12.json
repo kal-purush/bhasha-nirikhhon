@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "LitElement",
+        "PharosComponentMixin",
+        "registerComponents",
+        "prefix",
+        "classes",
+        "LitElement",
+        "classes",
+        "clazz",
+        "clazz",
+        "customElements",
+        "prefix",
+        "prefix",
+        "kebab",
+        "PharosComponentMixin",
+        "clazz",
+        "registerComponents"
+    ],
+    "literals": [
+        "'lit'",
+        "'./mixins/pharos-component'",
+        "string",
+        "'$1-$2'",
+        "'-'",
+        "${prefix ? prefix + '-' : ''}${kebab}",
+        "'-'",
+        "''"
+    ],
+    "variables": [
+        "registerComponents",
+        "kebab"
+    ],
+    "comments": [
+        "Define with a trivial subclass to ensure uniqueness and use Pharos component mixin to ensure base class name is used on attribute"
+    ],
+    "docstrings": [
+        "* @param prefix The prefix to use in the tag name.\n * @param classes The Pharos classes to register as custom elements."
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "require",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "ALCHEMY_MAINNET_API_KEY_URL",
+        "ALCHEMY_SEPOLIA_API_KEY_URL",
+        "ACCOUNT_PRIVATE_KEY",
+        "ALCHEMY_MUMBAI_API_KEY_URL",
+        "ACCOUNT_PRIVATE_KEY",
+        "POLYGONSCAN_API_KEY"
+    ],
+    "literals": [
+        "\"@nomicfoundation/hardhat-toolbox\"",
+        "\"dotenv\"",
+        "\".env\"",
+        "\"0.8.24\""
+    ],
+    "variables": [
+        "ALCHEMY_MAINNET_API_KEY_URL",
+        "ALCHEMY_SEPOLIA_API_KEY_URL",
+        "ALCHEMY_MUMBAI_API_KEY_URL",
+        "ACCOUNT_PRIVATE_KEY",
+        "POLYGONSCAN_API_KEY"
+    ],
+    "comments": [
+        "import { HardhatUserConfig } from \"hardhat/config\";",
+        "apiKey: process.env.ETHERSCAN_API_KEY,"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

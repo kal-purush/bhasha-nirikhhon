@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "FunctionHandler",
+        "Handler",
+        "HTTP",
+        "Log",
+        "Logger",
+        "Joi",
+        "IoT",
+        "Congito",
+        "CustomerDB",
+        "CreateUser",
+        "CreateUserError",
+        "FunctionHandler",
+        "IoT",
+        "Congito",
+        "CustomerDB",
+        "Handler",
+        "Log",
+        "HTTP",
+        "HTTP",
+        "CreateUser",
+        "HTTP",
+        "CreateUser",
+        "Joi",
+        "CreateUserError",
+        "isValid",
+        "isValid",
+        "customer",
+        "CreateUserError",
+        "customer",
+        "CreateUserError",
+        "customer",
+        "username",
+        "username",
+        "customer",
+        "err",
+        "err",
+        "CreateUserError"
+    ],
+    "literals": [
+        "'@ananseio/serverless-common'",
+        "'joi'",
+        "'../../../lib'",
+        "'../../../public'",
+        "${customer.shortCode}-${event.body.username}",
+        "'success'"
+    ],
+    "variables": [
+        "isValid",
+        "customer",
+        "username",
+        "oneTimePassword"
+    ],
+    "comments": [
+        "create Cognito User",
+        "add to Cognito User Group"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handler"
+    ],
+    "classes": [
+        "CreateUserHandler"
+    ]
+}

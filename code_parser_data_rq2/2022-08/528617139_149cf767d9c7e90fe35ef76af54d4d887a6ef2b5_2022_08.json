@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "IBaseApi",
+        "ILondonPrayerTimesApi",
+        "useFetch",
+        "data",
+        "LondonPrayerTimesApi"
+    ],
+    "literals": [
+        "\"!api/interfaces\"",
+        "\"!api/LondonPrayerTimes/interfaces\"",
+        "\"2a99f189-6e3b-4015-8fb8-ff277642561d\"",
+        "\"times\"",
+        "\"json\"",
+        "\"https://www.londonprayertimes.com\"",
+        "${this._baseUrl}/api/${this._path}?format=${this._format}&key=${this._key}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "get"
+    ],
+    "classes": [
+        "LondonPrayerTimesApi"
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "requirementList",
+        "requirementList",
+        "value",
+        "StoryEvent",
+        "StoryEvent",
+        "_eventsFired",
+        "_eventsFired",
+        "value",
+        "Instance",
+        "Instance",
+        "Destroy",
+        "gameObject",
+        "Instance",
+        "DontDestroyOnLoad",
+        "gameObject"
+    ],
+    "literals": [],
+    "variables": [
+        "score",
+        "privateScore",
+        "dayCount",
+        "turnCount",
+        "RequirementList",
+        "requirementList",
+        "RequirementList",
+        "requirements",
+        "_eventsFired",
+        "eventsFired",
+        "GameManager",
+        "Instance"
+    ],
+    "comments": [
+        "Singleton instanciating",
+        "Check if there are any other instances conflicting",
+        "If that is the case, we destroy other instances",
+        "Here we save our singleton instance",
+        "Makes sure that we don't destroy between scenes"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Awake"
+    ],
+    "classes": [
+        "GameManager"
+    ]
+}

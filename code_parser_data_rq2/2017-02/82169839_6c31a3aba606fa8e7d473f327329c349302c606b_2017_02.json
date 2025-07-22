@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "form",
+        "form"
+    ],
+    "literals": [
+        "\"form[name='registration']\"",
+        "\"required\"",
+        "\"required\"",
+        "\"Please enter your firstname\"",
+        "\"Please enter your lastname\"",
+        "\"Please provide a phonenumber\"",
+        "\"Your phonenumber must be at least 10 digit\"",
+        "\"Please enter only number\"",
+        "\"Please enter a valid email address\"",
+        "\"Please provide a zipcode\"",
+        "\"Your zipcode more than 6 digit\"",
+        "\"Please enter only number\""
+    ],
+    "variables": [],
+    "comments": [
+        "Initialize form validation on the registration form.",
+        "It has the name attribute \"registration\"",
+        "Specify validation rules",
+        "The key name on the left side is the name attribute",
+        "of an input field. Validation rules are defined",
+        "on the right side",
+        "Specify that email should be validated",
+        "by the built-in \"email\" rule",
+        "Specify validation error messages",
+        "Make sure the form is submitted to the destination defined",
+        "in the \"action\" attribute of the form when valid"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

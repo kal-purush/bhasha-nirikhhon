@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "basededatos",
+        "java",
+        "sql",
+        "con",
+        "con",
+        "Class",
+        "forName",
+        "newInstance",
+        "e",
+        "e",
+        "toString",
+        "con",
+        "DriverManager",
+        "getConnection",
+        "ex",
+        "ex",
+        "getMessage",
+        "query",
+        "con",
+        "rs",
+        "cmd",
+        "conectar",
+        "cmd",
+        "con",
+        "createStatement",
+        "rs",
+        "cmd",
+        "executeQuery",
+        "query",
+        "ex",
+        "ex",
+        "getMessage",
+        "rs"
+    ],
+    "literals": [
+        "\"com.mysql.jdbc.Driver\"",
+        "\"Registro exitoso\"",
+        "\"jdbc:mysql://localhost/next.book?user=root&password=\"",
+        "\"SQLException: \"",
+        "\"SQLException: \""
+    ],
+    "variables": [
+        "con"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* To change this license header, choose License Headers in Project Properties.\n * To change this template file, choose Tools | Templates\n * and open the template in the editor.",
+        "*\n * @author digut",
+        "while (rs.next()) {\n                 String nombre = rs.getString(\"nombre\") + \" \" + rs.getString(\"apellido\") ;\n                 System.out.println(nombre);\n             }\n\n             rs.close();"
+    ],
+    "functions": [
+        "conectar",
+        "ResultSet",
+        "consulta"
+    ],
+    "classes": [
+        "conexion"
+    ]
+}

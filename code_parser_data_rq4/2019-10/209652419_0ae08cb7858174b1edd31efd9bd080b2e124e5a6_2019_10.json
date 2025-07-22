@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "sqlalchemy",
+        "Column",
+        "dbcore",
+        "Base",
+        "Base",
+        "Column",
+        "primary_key",
+        "Column",
+        "index",
+        "Column",
+        "name"
+    ],
+    "literals": [
+        "'category'"
+    ],
+    "variables": [
+        "__tablename__",
+        "id",
+        "name",
+        "is_active"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "Инициализация полей таблицы"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Класс для создания таблицы Category товара, основан на декларативном\n    стиле sqlalchemy\n\n    \"\"\"",
+        "\"\"\"\n        Метод возвращает формальное строковое представление указанного объекта\n\n        \"\"\""
+    ],
+    "functions": [
+        "__repr__"
+    ],
+    "classes": [
+        "Category"
+    ]
+}

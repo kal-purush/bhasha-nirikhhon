@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "wagtail",
+        "api",
+        "v2",
+        "views",
+        "PagesAPIViewSet",
+        "wagtail",
+        "api",
+        "v2",
+        "router",
+        "WagtailAPIRouter",
+        "wagtail",
+        "images",
+        "api",
+        "v2",
+        "views",
+        "ImagesAPIViewSet",
+        "wagtail",
+        "documents",
+        "api",
+        "v2",
+        "views",
+        "DocumentsAPIViewSet",
+        "WagtailAPIRouter",
+        "api_router",
+        "register_endpoint",
+        "PagesAPIViewSet",
+        "api_router",
+        "register_endpoint",
+        "ImagesAPIViewSet",
+        "api_router",
+        "register_endpoint",
+        "DocumentsAPIViewSet"
+    ],
+    "literals": [
+        "'wagtailapi'",
+        "'pages'",
+        "'images'",
+        "'documents'"
+    ],
+    "variables": [
+        "api_router"
+    ],
+    "comments": [
+        "api.py",
+        "Create the router. \"wagtailapi\" is the URL namespace",
+        "Add the three endpoints using the \"register_endpoint\" method.",
+        "The first parameter is the name of the endpoint (such as pages, images). This",
+        "is used in the URL of the endpoint",
+        "The second parameter is the endpoint class that handles the requests"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

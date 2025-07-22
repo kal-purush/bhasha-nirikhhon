@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "RefObject",
+        "useLayoutEffect",
+        "message",
+        "error",
+        "useLayoutEffect",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'preact'",
+        "'preact/hooks'",
+        "string",
+        "string",
+        "''"
+    ],
+    "variables": [],
+    "comments": [
+        "Sync errors to native form validation API. This will prevent submission",
+        "of the form until the error is resolved."
+    ],
+    "docstrings": [
+        "* Sync custom validation error messages to the browser's native validation\n * state.\n *\n * @param ref - An `HTMLInputElement` or other element that supports the\n *   Constraint Validation API\n * @param error - The current error or undefined if the field input is valid"
+    ],
+    "functions": [
+        "useValidationError"
+    ],
+    "classes": []
+}

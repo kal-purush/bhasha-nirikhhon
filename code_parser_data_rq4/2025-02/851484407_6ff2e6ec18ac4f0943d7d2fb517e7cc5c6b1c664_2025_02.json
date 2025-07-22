@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "first",
+        "second",
+        "isinstance",
+        "first",
+        "first",
+        "ValueError",
+        "isinstance",
+        "second",
+        "second",
+        "ValueError",
+        "first",
+        "second",
+        "input",
+        "first",
+        "ValueError",
+        "ValueError",
+        "e",
+        "e",
+        "input",
+        "second",
+        "ValueError",
+        "ValueError",
+        "e",
+        "e",
+        "first",
+        "second",
+        "first",
+        "second",
+        "first",
+        "second",
+        "Triangle",
+        "first",
+        "second",
+        "ValueError",
+        "e",
+        "e",
+        "Triangle",
+        "triangle2",
+        "read",
+        "triangle2",
+        "hypotenuse"
+    ],
+    "literals": [
+        "\"Катет 'a' должен быть положительным числом.\"",
+        "\"Катет 'b' должен быть положительным числом.\"",
+        "\"Введите катет 'a': \"",
+        "\"Катет 'a' должен быть положительным числом.\"",
+        "\"Введите катет 'b': \"",
+        "\"Катет 'b' должен быть положительным числом.\"",
+        "f\"Катет 'a': {self.first}\"",
+        "f\"Катет 'b': {self.second}\"",
+        "\"__main__\"",
+        "f\"Гипотенуза: {triangle2.hypotenuse()}\""
+    ],
+    "variables": [
+        "first",
+        "second",
+        "first",
+        "second",
+        "triangle2"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"triangle1 = Triangle(3, 4)\n\n\n    triangle1.display()\n\n    hypotenuse = triangle1.hypotenuse()\n    print(f\"Гипотенуза: {hypotenuse}\")\"\"\"",
+        "\"\"\"triangle3 = make_Triangle(5, 12)\n    if triangle3:\n        triangle3.display()\n        print(f\"Гипотенуза: {triangle3.hypotenuse()}\")\"\"\""
+    ],
+    "functions": [
+        "read",
+        "display",
+        "hypotenuse",
+        "make_Triangle"
+    ],
+    "classes": [
+        "Triangle"
+    ]
+}

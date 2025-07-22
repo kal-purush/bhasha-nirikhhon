@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "persistence",
+        "DAO",
+        "MemberDAO",
+        "persistence",
+        "DAO",
+        "RecipeDAO",
+        "persistence",
+        "DTO",
+        "MemberDTO",
+        "persistence",
+        "DTO",
+        "RecipeDTO",
+        "persistence",
+        "GpsTransfer",
+        "persistence",
+        "MyBatisConnectionFactory",
+        "persistence",
+        "Weather",
+        "java",
+        "util",
+        "args",
+        "testDTO",
+        "memberDAO",
+        "MyBatisConnectionFactory",
+        "getSqlSessionFactory",
+        "gpsTransfer",
+        "gpsTransfer",
+        "transfer",
+        "gpsTransfer",
+        "getStringLat",
+        "gpsTransfer",
+        "getStringLon",
+        "weather",
+        "gpsTransfer",
+        "getStringLat",
+        "gpsTransfer",
+        "getStringLon",
+        "weather",
+        "weather",
+        "weather",
+        "getWeatherConditions",
+        "weather",
+        "getTemperature"
+    ],
+    "literals": [
+        "\"결과 : \"",
+        "\",\"",
+        "\", \""
+    ],
+    "variables": [],
+    "comments": [
+        "import persistence.MyBatisConnectionFactory;",
+        "import persistence.dao.*;",
+        "import service.*;",
+        "DAO 생성",
+        "RecipeDAO test = new RecipeDAO(MyBatisConnectionFactory.getSqlSessionFactory());",
+        "List<RecipeDTO> arr;",
+        "String s = \"\";",
+        "s += test.getRandom();",
+        "System.out.println(s);",
+        "System.out.println(memberDAO.idExist(\"1233\"));",
+        "System.out.println(memberDAO.passwordExist(\"15123\"));",
+        "System.out.println(memberDAO.login(\"123\", \"111\"));",
+        "System.out.println(memberDAO.insertMember(\"1233\", \"15123\"));",
+        "추가"
+    ],
+    "docstrings": [
+        "* 이 클래스는 DB연결 함수확인용"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "Main"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "messages",
+        "require",
+        "TypescriptApp",
+        "helper",
+        "helper",
+        "TypescriptApp",
+        "messages",
+        "myTypescript"
+    ],
+    "literals": [
+        "'exports?Messages!./message'",
+        "'lodash'",
+        "\"DOMContentLoaded\""
+    ],
+    "variables": [
+        "lodash",
+        "myTypescript"
+    ],
+    "comments": [
+        "This is an \"internal\" module native to Typescript.  This file will have a",
+        "module defined in it and then made availible on the page.  Typescript will",
+        "put the module on the global namespace. (Thus the reason for using the 'modules').",
+        "<reference path=\"./message\" />",
+        "To use within something like Webpack, that wraps all files in a closure, we ned to",
+        "treat internals like externals. Adding a line like below in addition to the",
+        "referance path above.",
+        "",
+        "(CON: typescript doesn't like this, doesn't know we are using aditional tooling)",
+        "This is an \"external\" modules."
+    ],
+    "docstrings": [],
+    "functions": [
+        "run"
+    ],
+    "classes": [
+        "App"
+    ]
+}

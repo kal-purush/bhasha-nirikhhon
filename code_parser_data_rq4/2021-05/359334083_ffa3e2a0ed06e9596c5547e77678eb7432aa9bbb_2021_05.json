@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "mysql",
+        "connector",
+        "mysql",
+        "connector",
+        "connect",
+        "host",
+        "DBhost",
+        "database",
+        "DBdatabase",
+        "user",
+        "DBuser",
+        "password",
+        "DBpassword",
+        "connection",
+        "cursor",
+        "cursor",
+        "execute",
+        "sql",
+        "connection",
+        "commit",
+        "cursor",
+        "close",
+        "connection",
+        "close"
+    ],
+    "literals": [
+        "'localhost'",
+        "'learn_pon'",
+        "'root'",
+        "'HsuanHao_0610'"
+    ],
+    "variables": [
+        "DBhost",
+        "DBdatabase",
+        "DBuser",
+        "DBpassword",
+        "connection",
+        "sql",
+        "cursor"
+    ],
+    "comments": [
+        "資料庫",
+        "帳號",
+        "密碼",
+        "DBpassword='root'#密碼",
+        "ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,"
+    ],
+    "docstrings": [
+        "'''CREATE TABLE  membertable  (\n    id INT AUTO_INCREMENT PRIMARY KEY,\n    username VARCHAR(255) NOT NULL,\n    useremail VARCHAR(255) NOT NULL,\n    userpassword VARCHAR(25) NOT NULL,\n    time datetime DEFAULT CURRENT_TIMESTAMP);'''"
+    ],
+    "functions": [],
+    "classes": []
+}

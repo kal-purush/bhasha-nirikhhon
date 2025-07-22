@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "state",
+        "action",
+        "state",
+        "state",
+        "initialState",
+        "action",
+        "SET_STAGE_SIZE",
+        "state",
+        "action",
+        "SET_FULL_SCREEN",
+        "action",
+        "state",
+        "state",
+        "stageSize",
+        "SET_STAGE_SIZE",
+        "stageSize",
+        "isFullScreen",
+        "SET_FULL_SCREEN",
+        "isFullScreen",
+        "reducer",
+        "setStageSize",
+        "setFullScreen",
+        "STAGE_SIZES"
+    ],
+    "literals": [
+        "'scratch-gui/StageSize/SET_STAGE_SIZE'",
+        "'scratch-gui/StageSize/SET_FULL_SCREEN'",
+        "'large'",
+        "'small'",
+        "'large'",
+        "'undefined'"
+    ],
+    "variables": [
+        "SET_STAGE_SIZE",
+        "SET_FULL_SCREEN",
+        "initialState",
+        "STAGE_SIZES",
+        "reducer",
+        "setStageSize",
+        "setFullScreen"
+    ],
+    "comments": [
+        "stage size constants",
+        "`isFullScreen` is a separate value because \"stage size\" does not",
+        "actually apply to full screen mode, so they are treated as separate",
+        "values to be assessed."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

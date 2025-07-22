@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "IRange",
+        "INumericallyComparable",
+        "lower",
+        "upper",
+        "ClosedRange",
+        "lower",
+        "upper",
+        "lower",
+        "upper",
+        "lower",
+        "upper",
+        "RangeError",
+        "lower",
+        "upper",
+        "lower",
+        "upper",
+        "value",
+        "value",
+        "value",
+        "otherRange",
+        "otherRange",
+        "otherRange",
+        "ClosedRange",
+        "otherRange",
+        "otherRange",
+        "otherRange",
+        "otherRange",
+        "otherRange",
+        "otherRange",
+        "otherRange"
+    ],
+    "literals": [
+        "'./IRange'",
+        "'./INumericallyComparable'",
+        "Range ${lower}...${upper} is invalid",
+        "Cannot form union of ${this.toString()} and ${otherRange.toString()};",
+        "'they do not overlap'",
+        "${this.lower}...${this.upper}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "fromTo",
+        "containsValue",
+        "containsRange",
+        "overlapsRange",
+        "union",
+        "equals",
+        "toString"
+    ],
+    "classes": [
+        "ClosedRange"
+    ]
+}

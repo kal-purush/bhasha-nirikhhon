@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "Test",
+        "with_context",
+        "factories",
+        "AppFactory",
+        "UserFactory",
+        "pybossa",
+        "jobs",
+        "get_export_task_jobs",
+        "Test",
+        "with_context",
+        "AppFactory",
+        "create",
+        "get_export_task_jobs",
+        "len",
+        "jobs",
+        "len",
+        "jobs",
+        "jobs",
+        "job",
+        "app",
+        "id",
+        "msg",
+        "job",
+        "msg"
+    ],
+    "literals": [
+        "\"There should be only one job.\"",
+        "\"The job should be for the same app.id\"",
+        "'args'",
+        "\"The job should be enqueued in low priority.\"",
+        "'queue'",
+        "'low'"
+    ],
+    "variables": [
+        "app",
+        "jobs",
+        "msg",
+        "job",
+        "msg",
+        "msg"
+    ],
+    "comments": [
+        "-*- coding: utf8 -*-",
+        "This file is part of PyBossa.",
+        "",
+        "Copyright (C) 2013 SF Isle of Man Limited",
+        "",
+        "PyBossa is free software: you can redistribute it and/or modify",
+        "it under the terms of the GNU Affero General Public License as published by",
+        "the Free Software Foundation, either version 3 of the License, or",
+        "(at your option) any later version.",
+        "",
+        "PyBossa is distributed in the hope that it will be useful,",
+        "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+        "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+        "GNU Affero General Public License for more details.",
+        "",
+        "You should have received a copy of the GNU Affero General Public License",
+        "along with PyBossa.  If not, see <http://www.gnu.org/licenses/>.",
+        "from mock import patch"
+    ],
+    "docstrings": [
+        "\"\"\"Test JOB export task jobs works.\"\"\""
+    ],
+    "functions": [
+        "test_get_export_task_jobs"
+    ],
+    "classes": [
+        "TestExport"
+    ]
+}

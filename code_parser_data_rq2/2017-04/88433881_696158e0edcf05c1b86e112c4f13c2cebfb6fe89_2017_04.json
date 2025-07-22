@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "IntEnum"
+    ],
+    "literals": [
+        "\"NodeStatus\""
+    ],
+    "variables": [
+        "__all__",
+        "DEFAULT",
+        "NEW",
+        "COMMISSIONING",
+        "FAILED_COMMISSIONING",
+        "MISSING",
+        "READY",
+        "RESERVED",
+        "DEPLOYED",
+        "RETIRED",
+        "BROKEN",
+        "DEPLOYING",
+        "ALLOCATED",
+        "FAILED_DEPLOYMENT",
+        "RELEASING",
+        "FAILED_RELEASING",
+        "DISK_ERASING",
+        "FAILED_DISK_ERASING",
+        "RESCUE_MODE",
+        "ENTERING_RESCUE_MODE",
+        "FAILED_ENTERING_RESCUE_MODE",
+        "EXITING_RESCUE_MODE",
+        "FAILED_EXITING_RESCUE_MODE",
+        "TESTING",
+        "FAILED_TESTING"
+    ],
+    "comments": [
+        ": A node starts out as NEW (DEFAULT is an alias for NEW).",
+        ": The node has been created and has a system ID assigned to it.",
+        ": Testing and other commissioning steps are taking place.",
+        ": The commissioning step failed.",
+        ": The node can't be contacted.",
+        ": The node is in the general pool ready to be deployed.",
+        ": The node is ready for named deployment.",
+        ": The node has booted into the operating system of its owner's choice",
+        ": and is ready for use.",
+        ": The node has been removed from service manually until an admin",
+        ": overrides the retirement.",
+        ": The node is broken: a step in the node lifecyle failed.",
+        ": More details can be found in the node's event log.",
+        ": The node is being installed.",
+        ": The node has been allocated to a user and is ready for deployment.",
+        ": The deployment of the node failed.",
+        ": The node is powering down after a release request.",
+        ": The releasing of the node failed.",
+        ": The node is erasing its disks.",
+        ": The node failed to erase its disks.",
+        ": The node is in rescue mode.",
+        ": The node is entering rescue mode.",
+        ": The node failed to enter rescue mode.",
+        ": The node is exiting rescue mode.",
+        ": The node failed to exit rescue mode.",
+        ": Running tests on Node",
+        ": Testing has failed"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "NodeStatus"
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "addDatabaseToConnectionString",
+        "connectionString",
+        "databaseName",
+        "expectedConnectionString",
+        "addDatabaseToConnectionString",
+        "connectionString",
+        "databaseName",
+        "modifiedConnectionString",
+        "expectedConnectionString",
+        "suite",
+        "test",
+        "testAddDatabaseToConectionString",
+        "testAddDatabaseToConectionString",
+        "testAddDatabaseToConectionString",
+        "testAddDatabaseToConectionString",
+        "testAddDatabaseToConectionString",
+        "testAddDatabaseToConectionString"
+    ],
+    "literals": [
+        "'assert'",
+        "'../extension.bundle'",
+        "string",
+        "string",
+        "string",
+        "postgresConnectionStrings",
+        "addDatabaseToConnectionString",
+        "postgres://user:password@test:5432/",
+        "'testdb'",
+        "'postgres://user:password@test:5432/testdb'",
+        "postgres://user:password@test:5432/testdb",
+        "'testdb2'",
+        "postgres://user:password@test:5432/testdb2",
+        "postgres://user:password@test:5432",
+        "'testdb'",
+        "'postgres://user:password@test:5432/testdb'",
+        "postgres://user:password@test:5432/?ssl=true&sslmode=require",
+        "'testdb'",
+        "postgres://user:password@test:5432/testdb?ssl=true&sslmode=require",
+        "postgres://user:password@test:5432/testdb?ssl=true&sslmode=require",
+        "'testdb2'",
+        "postgres://user:password@test:5432/testdb2?ssl=true&sslmode=require",
+        "postgres://user:password@test:5432/",
+        "test%20",
+        "postgres://user:password@test:5432/test%2520"
+    ],
+    "variables": [
+        "modifiedConnectionString"
+    ],
+    "comments": [
+        "---------------------------------------------------------------------------------------------\n *  Copyright (c) Microsoft Corporation. All rights reserved.\n *  Licensed under the MIT License. See License.txt in the project root for license information.\n *--------------------------------------------------------------------------------------------",
+        "Connection strings follow the following format (https://www.postgresql.org/docs/12/libpq-connect.html):",
+        "postgres://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]"
+    ],
+    "docstrings": [],
+    "functions": [
+        "testAddDatabaseToConectionString"
+    ],
+    "classes": []
+}

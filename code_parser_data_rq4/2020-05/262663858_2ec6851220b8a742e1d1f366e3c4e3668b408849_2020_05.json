@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "args",
+        "writeNbrs",
+        "writeNbrs",
+        "writeNbrs",
+        "n",
+        "n",
+        "n",
+        "writeNbrs",
+        "n",
+        "n"
+    ],
+    "literals": [
+        "\"can't be less than 1.\"",
+        "\"1\"",
+        "\", \""
+    ],
+    "variables": [],
+    "comments": [
+        "writeNums - Recursion - Ch12, Ex2, p831",
+        "",
+        "Write a method that takes an integer n as a parameter and prints to the",
+        "console the first n integers starting with 1 in sequential order,",
+        "separated by commas.",
+        "Include an IllegalArgumentException if passed a value less than 1.",
+        "",
+        "By: Michael Gilson",
+        "Date: 5/9/2020",
+        "call the writeNbrs method 3 times to test for various outputs",
+        "should return \"1, 2, 3, 4, 5\"",
+        "should return \"1, 2, 3, 4, 5 ,6 ,7 ,8 ,9 ,10, 11, 12\"",
+        "should return IllegalArgumentException error",
+        "create method that accepts an integer as a parameter",
+        "Establish Illegal Argument Exception with message output",
+        "Establish base case - if n ever equals 1, it will print \"1\".",
+        "Set up recursive loop: while n is larger than 1, it will go back through",
+        "the method with n-1, until \"1\" is reached. It will then print \"1\", and",
+        "return to the previous loop where it left off, printing \", 2\", then return",
+        "to the next previous loop until \"n\" is reached, thus printing the numbers",
+        "in sequential order.",
+        "End else",
+        "End method",
+        "End class"
+    ],
+    "docstrings": [
+        "*******************************************************************",
+        "*******************************************************************"
+    ],
+    "functions": [
+        "main",
+        "writeNbrs"
+    ],
+    "classes": [
+        "writeNums"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "fs",
+        "path",
+        "Command",
+        "ICommandArgs",
+        "ensurePathExists",
+        "getDependencies",
+        "Command",
+        "repository",
+        "repository",
+        "getDependencies",
+        "repository",
+        "dependencies",
+        "repository",
+        "repository",
+        "ensurePathExists",
+        "repository",
+        "path",
+        "sourceModules",
+        "path",
+        "fs",
+        "destination",
+        "source"
+    ],
+    "literals": [
+        "\"mz/fs\"",
+        "\"path\"",
+        "\"../command\"",
+        "\"../utils\"",
+        "string",
+        "\"directory\"",
+        "\"repository\"",
+        "string",
+        "\"node_modules\"",
+        "\"dir\""
+    ],
+    "variables": [
+        "dependencies",
+        "sourceModules",
+        "source",
+        "destination"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Arguments for a LinkToRepository command.",
+        "* Name of the repository.",
+        "* Links a repository to its local dependencies.",
+        "* Executes the command.\n     *\n     * @returns A Promise for running the command.",
+        "* Links to this repository in another repository.\n     *\n     * @param repository   Repository to link to this one.\n     * @returns A Promise for creating a symlink."
+    ],
+    "functions": [
+        "execute",
+        "linkRepositoryTo"
+    ],
+    "classes": [
+        "LinkToRepository"
+    ]
+}

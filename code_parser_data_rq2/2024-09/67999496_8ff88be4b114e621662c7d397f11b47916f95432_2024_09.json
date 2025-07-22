@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "com",
+        "gentics",
+        "mesh",
+        "core",
+        "data",
+        "node",
+        "field",
+        "com",
+        "gentics",
+        "mesh",
+        "core",
+        "data",
+        "node",
+        "field",
+        "nesting",
+        "ListableField",
+        "com",
+        "gentics",
+        "mesh",
+        "core",
+        "rest",
+        "node",
+        "field",
+        "FieldModel",
+        "ReferencingListField",
+        "index",
+        "item",
+        "item"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* An extension for {@link ListField} with the items being the references to another entities, rather than primitives/strings.\n * \n * @author plyhun\n *\n * @param <T>\n * @param <RM>\n * @param <U>",
+        "* Insert a new reference item upon the given index.\n\t * \n\t * @param index\n\t * @param item",
+        "* Delete the referenced item;\n\t * \n\t * @param item"
+    ],
+    "functions": [
+        "insertReferenced",
+        "deleteReferenced"
+    ],
+    "classes": []
+}

@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "re",
+        "urllib",
+        "collections",
+        "defaultdict",
+        "file",
+        "defaultdict",
+        "i",
+        "re",
+        "findall",
+        "urllib",
+        "urlopen",
+        "myurl",
+        "read",
+        "re",
+        "I",
+        "i",
+        "myurl",
+        "i",
+        "myurl",
+        "i",
+        "i",
+        "ee",
+        "re",
+        "findall",
+        "urllib",
+        "urlopen",
+        "i",
+        "read",
+        "re",
+        "I",
+        "ee",
+        "ee",
+        "asset_track",
+        "ee",
+        "append",
+        "i"
+    ],
+    "literals": [
+        "'crawler_results.txt'",
+        "'wt'",
+        "\"http://www.alexanderinteractive.com\"",
+        "\"Crawling \"",
+        "\"tel:\"",
+        "\".css\"",
+        "\".js\""
+    ],
+    "variables": [
+        "textfile",
+        "myurl",
+        "asset_track",
+        "i"
+    ],
+    "comments": [
+        "Append domain to beginning of URL if it isn't already there",
+        "Skip telephones, should replace this with a regex later"
+    ],
+    "docstrings": [
+        "\"\"\"\n\tAsset crawler\n\tAuthor: Brian Lam\n\n\tThis will crawl a website and report how often a .js or .css file is\n\tused, and what pages it's used on. Developed while interning at \n\tAlexander Interactive. \n\n\tUsed this as a starting template:\n\thttp://null-byte.wonderhowto.com/inspiration/basic-website-crawler-python-12-lines-code-0132785/\n\"\"\"",
+        "'''href=[\"'](.[^\"']+)[\"']'''",
+        "'''href=[\"'](.[^\"']+)[\"']'''",
+        "\"\"\"\nTODO\n\tRegex for telephone, css, and js\n\tOnly crawl on alexanderinteractive.com domain\n\tCall this recursively for a multi-level call\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

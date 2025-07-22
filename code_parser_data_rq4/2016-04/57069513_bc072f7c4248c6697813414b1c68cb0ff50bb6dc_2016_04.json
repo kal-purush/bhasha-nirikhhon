@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "commandWord",
+        "secondWord",
+        "firstWord",
+        "secondWord",
+        "commandWord",
+        "firstWord",
+        "secondWord",
+        "secondWord",
+        "commandWord",
+        "secondWord",
+        "commandWord",
+        "secondWord"
+    ],
+    "literals": [],
+    "variables": [
+        "commandWord",
+        "secondWord"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This class is part of the \"World of Zuul\" application. \n * \"World of Zuul\" is a very simple, text based adventure game.  \n *\n * This class holds information about a command that was issued by the user.\n * A command currently consists of two strings: a command word and a second\n * word (for example, if the command was \"take map\", then the two strings\n * obviously are \"take\" and \"map\").\n * \n * The way this is used is: Commands are already checked for being valid\n * command words. If the user entered an invalid command (a word that is not\n * known) then the command word is <null>.\n *\n * If the command had only one word, then the second word is <null>.\n * \n * @author  Michael Kölling and David J. Barnes\n * @version 2011.07.31",
+        "* Create a command object. First and second word must be supplied, but\n     * either one (or both) can be null.\n     * @param firstWord The first word of the command. Null if the command\n     *                  was not recognised.\n     * @param secondWord The second word of the command.",
+        "* Return the command word (the first word) of this command. If the\n     * command was not understood, the result is null.\n     * @return The command word.",
+        "* @return The second word of this command. Returns null if there was no\n     * second word.",
+        "* @return true if this command was not understood.",
+        "* @return true if the command has a second word."
+    ],
+    "functions": [
+        "Command",
+        "getCommandWord",
+        "getSecondWord",
+        "isUnknown",
+        "hasSecondWord"
+    ],
+    "classes": [
+        "Command"
+    ]
+}

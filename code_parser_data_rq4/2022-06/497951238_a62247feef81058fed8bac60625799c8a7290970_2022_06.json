@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "MongoClient",
+        "MongoConnet",
+        "callback",
+        "MongoClient",
+        "uri",
+        "client",
+        "_db",
+        "client",
+        "err",
+        "err",
+        "getDb",
+        "_db",
+        "_db"
+    ],
+    "literals": [
+        "\"mongodb\"",
+        "\"mongodb+srv://aniket:Sigdvpk5I6uIkMZE@cluster0.rhm8d.mongodb.net/shop?retryWrites=true&w=majority\"",
+        "\"connected\"",
+        "\"No database found\""
+    ],
+    "variables": [
+        "uri",
+        "_db",
+        "MongoConnet",
+        "getDb"
+    ],
+    "comments": [
+        "const client = new MongoClient(uri, {",
+        "useNewUrlParser: true,",
+        "useUnifiedTopology: true,",
+        "serverApi: ServerApiVersion.v1,",
+        "});",
+        "client.connect((err) => {",
+        "const collection = client.db(\"test\").collection(\"devices\");",
+        "// perform actions on the collection object",
+        "client.close();",
+        "});",
+        "callback(client);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

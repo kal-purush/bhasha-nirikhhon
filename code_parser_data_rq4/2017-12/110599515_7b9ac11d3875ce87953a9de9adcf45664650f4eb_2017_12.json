@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "PetProjects",
+        "Framework",
+        "Kafka",
+        "Exceptions",
+        "maxRequest",
+        "maxRequest"
+    ],
+    "literals": [
+        "\"There is no bootstrap server configured. Please add at least one.\"",
+        "\"ClientId cannot be null or whitespace. Please fix.\"",
+        "\"GroupId cannot be null or whitespace. Please fix.\"",
+        "\"Retries must be greater than 0.\"",
+        "\"BatchSize must be greater than 0.\"",
+        "\"Interval must be greater than 0.\"",
+        "\"PollInterval must be greater than 0.\"",
+        "\"Could dispose consumer\""
+    ],
+    "variables": [
+        "InvalidBoostrapServers",
+        "InvalidClientIdInput",
+        "InvalidGroupIdInput",
+        "InvalidRetriesIdempotence",
+        "InvalidBatchSizeInput",
+        "InvalidIntervalInput",
+        "InvalidPollIntervalInput",
+        "CouldNotDisposeConsumer"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "InvalidMaxInFlightRequestPerConnectionIdempotence"
+    ],
+    "classes": [
+        "ExceptionMessages",
+        "Common",
+        "ProducerErrorMessages",
+        "ConsumerErrorMessages"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "input",
+        "word",
+        "letters_list",
+        "join",
+        "letters_list",
+        "word_str",
+        "join",
+        "letters_list",
+        "word_str"
+    ],
+    "literals": [
+        "\"Please enter a one-word string: \"",
+        "\"A list of the word's letters is:\"",
+        "''",
+        "\"That list reassembled as a string is:\"",
+        "','",
+        "\"Now with commas\""
+    ],
+    "variables": [
+        "word",
+        "letters_list",
+        "word_str",
+        "word_str"
+    ],
+    "comments": [
+        "STRING TO LIST:",
+        "list() function iterates through the string,",
+        "making each letter a string element of the list.",
+        "LIST TO STRING:",
+        "join() function assembles letters of a list,",
+        "with the lead string between each letter.",
+        "If that lead string is the empty string,",
+        "it just makes the list of letters a single string."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

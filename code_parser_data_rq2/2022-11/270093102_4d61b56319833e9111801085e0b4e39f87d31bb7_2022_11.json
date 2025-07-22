@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "logging",
+        "pyserini",
+        "pyclass",
+        "autoclass",
+        "logging",
+        "getLogger",
+        "autoclass",
+        "index_dir",
+        "index_dir",
+        "JLuceneIndexer",
+        "index_dir",
+        "doc",
+        "addDocument",
+        "doc",
+        "close"
+    ],
+    "literals": [
+        "'io.anserini.index.SimpleIndexer'"
+    ],
+    "variables": [
+        "logger",
+        "JLuceneIndexer",
+        "index_dir"
+    ],
+    "comments": [
+        "",
+        "Pyserini: Reproducible IR research with sparse and dense representations",
+        "",
+        "Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "you may not use this file except in compliance with the License.",
+        "You may obtain a copy of the License at",
+        "",
+        "http://www.apache.org/licenses/LICENSE-2.0",
+        "",
+        "Unless required by applicable law or agreed to in writing, software",
+        "distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+        "See the License for the specific language governing permissions and",
+        "limitations under the License.",
+        ""
+    ],
+    "docstrings": [
+        "\"\"\"Wrapper class for ``SimpleIndexer`` in Anserini. Provides basic functionality of on-the-fly indexing via a\n    programmatic API, i.e., indexing in-process objects as opposed to on-file documents.\n\n    Parameters\n    ----------\n    index_dir : str\n        Path to Lucene index directory.\n    \"\"\"",
+        "\"\"\"Add a document to the index.\n\n        Parameters\n        ----------\n        doc : str\n            Document to add.\n        \"\"\"",
+        "\"\"\"Close this indexer, committing all in-memory data to disk.\"\"\""
+    ],
+    "functions": [
+        "add",
+        "close"
+    ],
+    "classes": [
+        "LuceneIndexer"
+    ]
+}

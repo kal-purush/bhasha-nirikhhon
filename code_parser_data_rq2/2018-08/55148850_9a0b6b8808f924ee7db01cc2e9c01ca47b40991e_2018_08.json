@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "com",
+        "espirit",
+        "moddev",
+        "serverrunner",
+        "de",
+        "espirit",
+        "firstspirit",
+        "access",
+        "Connection",
+        "de",
+        "espirit",
+        "firstspirit",
+        "access",
+        "ConnectionManager",
+        "de",
+        "espirit",
+        "firstspirit",
+        "common",
+        "MaximumNumberOfSessionsExceededException",
+        "de",
+        "espirit",
+        "firstspirit",
+        "server",
+        "authentication",
+        "AuthenticationException",
+        "java",
+        "io",
+        "lombok",
+        "slf4j",
+        "Slf4j",
+        "Slf4j",
+        "PROBLEM_CONNECTING",
+        "hostname",
+        "socketPort",
+        "adminPassword",
+        "connection",
+        "ConnectionManager",
+        "getConnection",
+        "hostname",
+        "socketPort",
+        "ConnectionManager",
+        "SOCKET_MODE",
+        "adminPassword",
+        "connection",
+        "connect",
+        "e",
+        "log",
+        "trace",
+        "PROBLEM_CONNECTING",
+        "e"
+    ],
+    "literals": [
+        "\"Problem connecting to FirstSpirit server process\"",
+        "\"Admin\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Used to check whether a socket connection can be established to a given server.",
+        "* Tests if a FirstSpirit server can be reached\n     *\n     * @param hostname the hostname of the FirstSpirit server\n     * @param socketPort the socket port to connect to\n     * @return whether the server can be reached"
+    ],
+    "functions": [
+        "SocketConnectionTester",
+        "testConnection"
+    ],
+    "classes": [
+        "SocketConnectionTester"
+    ]
+}

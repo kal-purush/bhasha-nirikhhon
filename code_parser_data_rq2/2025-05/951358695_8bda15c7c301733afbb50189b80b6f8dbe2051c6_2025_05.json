@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "fetch",
+        "downloadAndConvertToBase64",
+        "fileUrl",
+        "fetch",
+        "fileUrl",
+        "response",
+        "fileUrl",
+        "response",
+        "response",
+        "response",
+        "fileBuffer",
+        "base64String",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'node-fetch'",
+        "string",
+        "string",
+        "Error while downloading ${fileUrl}: ${response.status} ${response.statusText}",
+        "string",
+        "'base64'",
+        "\"Error while downloading or converting file to base64 :\"",
+        "''"
+    ],
+    "variables": [
+        "downloadAndConvertToBase64",
+        "response",
+        "fileBuffer",
+        "base64String"
+    ],
+    "comments": [
+        "1. download the file from the URL",
+        "check if the file is downloaded successfully",
+        "2. get file content in a Buffer",
+        "3. Convert Buffer to base64"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

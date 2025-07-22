@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "express",
+        "require",
+        "app",
+        "express",
+        "mongoose",
+        "requireDir",
+        "app",
+        "require",
+        "app"
+    ],
+    "literals": [
+        "'express'",
+        "\"mongoose\"",
+        "'require-dir'",
+        "'./src/models/Products'",
+        "'mongodb://localhost:27017/nodeapi'",
+        "'./src/models'",
+        "'/api'",
+        "\"./src/routes\""
+    ],
+    "variables": [
+        "express",
+        "mongoose",
+        "requireDir",
+        "app"
+    ],
+    "comments": [
+        "npm install require-dir for requiring automatically",
+        "Initializing the API",
+        "Creates a db schema",
+        "Tell the API to allow receiving json data",
+        "Initializing the DB",
+        "accepts all requests with this route",
+        "and send it to routes including '/api' before that)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

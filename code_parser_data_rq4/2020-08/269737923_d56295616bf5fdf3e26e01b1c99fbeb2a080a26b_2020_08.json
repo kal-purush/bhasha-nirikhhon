@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "Microsoft",
+        "Extensions",
+        "Diagnostics",
+        "HealthChecks",
+        "Collections",
+        "Generic",
+        "StefaniniCore",
+        "API",
+        "HealthChecks",
+        "IHealthChecksBuilder",
+        "builder",
+        "name",
+        "connectionString",
+        "HealthStatus",
+        "failureStatus",
+        "tags",
+        "thresholdInBytes",
+        "builder",
+        "AddSqlServer",
+        "connectionString",
+        "name",
+        "failureStatus",
+        "HealthStatus",
+        "Degraded",
+        "tags",
+        "TimeSpan",
+        "FromSeconds",
+        "builder"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Check the Health of SQL Server instance.",
+        "</summary>",
+        "<param name=\"builder\"></param>",
+        "<param name=\"name\">Name field on JSON.</param>",
+        "<param name=\"connectionString\">Connection String.</param>",
+        "<param name=\"failureStatus\"></param>",
+        "<param name=\"tags\"></param>",
+        "<param name=\"thresholdInBytes\"></param>",
+        "<returns></returns>",
+        "Set the ConnectionString."
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "IHealthChecksBuilder",
+        "AddSQLServerInfo"
+    ],
+    "classes": [
+        "SqlServerHealthCheck"
+    ]
+}

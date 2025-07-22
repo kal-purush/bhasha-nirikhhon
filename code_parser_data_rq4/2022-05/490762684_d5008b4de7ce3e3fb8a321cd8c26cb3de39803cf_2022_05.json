@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Handler",
+        "BAD_REQUEST",
+        "PRECONDITION_FAILED",
+        "Joi",
+        "getCodes",
+        "code",
+        "PRECONDITION_FAILED",
+        "BAD_REQUEST",
+        "givenCodes",
+        "code",
+        "givenCodes",
+        "code",
+        "BAD_REQUEST",
+        "verifyFields",
+        "body",
+        "schema",
+        "Joi",
+        "Joi",
+        "schema",
+        "body",
+        "schemaValidated",
+        "schemaValidated",
+        "schemaValidated",
+        "Handler",
+        "field",
+        "getCodes",
+        "field",
+        "getCodes",
+        "verifyFields"
+    ],
+    "literals": [
+        "'core/handler'",
+        "'http-status'",
+        "'joi'",
+        "string",
+        "'any.required'",
+        "'object.unknown'",
+        "''"
+    ],
+    "variables": [
+        "getCodes",
+        "givenCodes",
+        "verifyFields",
+        "schemaValidated",
+        "field"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Return a status code depending the validation error.\n * @param code string\n * @returns number",
+        "* Schema verification with Joi.\n * @param requiredFields string[]\n * @param field {}\n * @returns false | string[]"
+    ],
+    "functions": [],
+    "classes": []
+}

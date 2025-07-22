@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Component",
+        "FORM_DIRECTIVES",
+        "NgForm",
+        "NgIf",
+        "Component",
+        "Component",
+        "FORM_DIRECTIVES",
+        "NgForm",
+        "StressItem",
+        "regForm",
+        "regForm",
+        "i",
+        "maxCount",
+        "i",
+        "i"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common'",
+        "'stress-item'",
+        "'value'",
+        "<li>{{value}}</li>",
+        "'stress-tester'",
+        "<p>Stress test Augury by adding values to the list. \n     Warning: may crash Augury and/or Chrome.</p>\n    <form #regForm=\"ngForm\" (ngSubmit)=\"onSubmit(regForm)\" novalidate>\n      <div>\n        <label for=\"node-count\">Specify number of values: </label>\n        <input type=\"number\" id=\"node-count\" ngControl=\"count\">\n      </div>\n      <button type=\"submit\">Add</button>\n    </form>\n    <br>\n    <h4>List of values</h4>\n    <ul>\n      <stress-item *ngFor=\"let val of values\" value=\"{{val}}\"></stress-item>\n      <li *ngIf=\"values.length === 0\">Hint: type a number and click Add above.</li>\n    </ul>"
+    ],
+    "variables": [
+        "maxCount",
+        "i"
+    ],
+    "comments": [
+        "StressComponent wraps a list item around an Angular 2 component",
+        "for Augury to detect.",
+        "",
+        "onSubmit make an array of the specified count. Each element will result in",
+        "a new Angular 2 component."
+    ],
+    "docstrings": [],
+    "functions": [
+        "onSubmit"
+    ],
+    "classes": [
+        "StressItem",
+        "StressTester"
+    ]
+}

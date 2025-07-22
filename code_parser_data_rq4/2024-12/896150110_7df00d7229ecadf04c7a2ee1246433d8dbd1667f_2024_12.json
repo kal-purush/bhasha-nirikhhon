@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "express",
+        "bodyParser",
+        "reportsRoutes",
+        "authMiddleware",
+        "projectRoutes",
+        "express",
+        "app",
+        "bodyParser",
+        "app",
+        "reportsRoutes",
+        "app",
+        "projectRoutes",
+        "app",
+        "PORT",
+        "PORT",
+        "app"
+    ],
+    "literals": [
+        "\"App starting...\"",
+        "'express'",
+        "'body-parser'",
+        "'./routes/reports'",
+        "'./middleware/auth'",
+        "'./routes/projectsRoutes'",
+        "'/reports'",
+        "'/api'",
+        "Server is running on http://localhost:${PORT}"
+    ],
+    "variables": [
+        "app",
+        "PORT"
+    ],
+    "comments": [
+        "import projectsRoutes from './routes/projects';",
+        "Middleware to parse JSON",
+        "Optional: Protect all routes with authentication middleware",
+        "app.use(authMiddleware);",
+        "app.use('/projects', projectsRoutes);",
+        "Start the Express server"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

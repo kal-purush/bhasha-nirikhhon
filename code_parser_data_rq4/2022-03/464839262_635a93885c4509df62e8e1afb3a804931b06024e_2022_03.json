@@ -1,0 +1,17 @@
+{
+    "identifiers": [
+        "createGlobalStyle",
+        "createGlobalStyle"
+    ],
+    "literals": [
+        "'styled-components'",
+        "* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    outline: 0;\n    text-decoration: none;\n    -webkit-tap-highlight-color: transparent;\n  }\n\n  html {\n    @media (max-width: 1080px){\n      font-size: 93.75%; // 15px\n    }\n    @media (max-width: 720px){\n      font-size: 81.25%; // 13px\n    }\n  }\n\n    html {\n    @media (max-width: 1080px){\n      font-size: 93.75%; // 15px\n    }\n    @media (max-width: 720px){\n      font-size: 81.25%; // 13px\n    }\n  }\n\n  img {\n    display: block;\n    -webkit-user-drag: none;\n    -khtml-user-drag: none;\n    -moz-user-drag: none;\n    -o-user-drag: none;\n  }\n\n  label {\n    cursor: inherit;\n  }\n\n  button {\n    border: 0;\n  }\n\n  html, body {\n    width: 100%;\n  }\n\n  body {\n    -webkit-font-smoothing: antialiased;\n    overflow-x: hidden;\n    -webkit-box-sizing: border-box;\n    -moz-box-sizing: border-box;\n    box-sizing: border-box;\n  }\n\n  body, input, button {\n    font-size: 1rem;\n  }\n\n  button {\n    cursor: pointer;\n    background-color: transparent;\n  }"
+    ],
+    "variables": [
+        "GlobalStyle"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

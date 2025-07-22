@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "id",
+        "id",
+        "$",
+        "dataString"
+    ],
+    "literals": [
+        "'#category'",
+        "\":selected\"",
+        "\"ID\"",
+        "'cat_id='",
+        "'addProducts.php'"
+    ],
+    "variables": [
+        "id",
+        "dataString"
+    ],
+    "comments": [
+        "url : 'getCategory.php',",
+        "dataType : 'json',",
+        "data : dataString,",
+        "cache : false,",
+        "success : function(categoryData){",
+        "if(categoryData){",
+        "console.log(\"DATA\",categoryData);",
+        "$('#subcategory').text(categoryData.subcategory);",
+        "}",
+        "else{",
+        "alert(\"No DATA\");",
+        "}",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

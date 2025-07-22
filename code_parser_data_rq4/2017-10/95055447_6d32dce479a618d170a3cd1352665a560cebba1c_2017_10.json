@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Controller",
+        "inject",
+        "controller",
+        "computed",
+        "Controller",
+        "controller",
+        "computed",
+        "email",
+        "users",
+        "users",
+        "user",
+        "email",
+        "invite",
+        "email",
+        "error",
+        "error",
+        "error",
+        "owner"
+    ],
+    "literals": [
+        "'@ember/controller'",
+        "'@ember/object'",
+        "'crate'",
+        "'crateController.model'",
+        "'user'",
+        "'firstObject'",
+        "'crate-owner-invite'",
+        "'crate.crate_name'",
+        "'crate.crate_id'",
+        "'invited'",
+        "An invite has been sent to ${email}",
+        "'inviteError'",
+        "Error in accepting invite: ${error.payload.errors[0].detail}",
+        "'inviteError'",
+        "'Error sending invite'"
+    ],
+    "variables": [
+        "user"
+    ],
+    "comments": [
+        "get user from email",
+        "TODO: validation fail: no user",
+        "TODO: remove user from crate"
+    ],
+    "docstrings": [],
+    "functions": [
+        "addOwner",
+        "removeOwner"
+    ],
+    "classes": []
+}

@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "require",
+        "app",
+        "fs",
+        "app",
+        "req",
+        "res",
+        "res",
+        "noteList",
+        "app",
+        "req",
+        "res",
+        "noteList",
+        "lastId",
+        "noteList",
+        "note",
+        "note",
+        "lastId",
+        "lastId",
+        "noteList",
+        "req",
+        "res",
+        "noteList",
+        "app",
+        "req",
+        "res",
+        "noteList",
+        "id",
+        "req",
+        "noteList",
+        "noteList",
+        "findNote",
+        "res"
+    ],
+    "literals": [
+        "\"fs\"",
+        "'./db/db.json'",
+        "'utf8'",
+        "\"/api/notes\"",
+        "'/api/notes'",
+        "'/api/notes/:id'",
+        "\"Note was deleted\""
+    ],
+    "variables": [
+        "fs",
+        "noteList",
+        "lastId",
+        "id",
+        "findNote"
+    ],
+    "comments": [
+        "API Routing:",
+        "get Id of last note if it exists",
+        "Otherwise set to 0",
+        "console.log(lastId);",
+        "Starts the id's at 1",
+        "pushes the id of the note along with the rest of the text/input of the array in the request.body",
+        "Removes last index",
+        "finds note by id, then converts the string into a JSON object with the id parameters of the request made",
+        "Delete object matching the index of the note ID"
+    ],
+    "docstrings": [
+        "* GET `/api/notes` - Should read the `db.json` file and return all saved notes as JSON.",
+        "* POST `/api/notes` - Should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client.",
+        "* DELETE `/api/notes/:id` -"
+    ],
+    "functions": [],
+    "classes": []
+}

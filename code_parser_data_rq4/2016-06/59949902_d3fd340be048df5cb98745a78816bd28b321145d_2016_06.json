@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "json",
+        "time",
+        "gevent",
+        "urllib2",
+        "pid",
+        "urllib2",
+        "urlopen",
+        "json",
+        "loads",
+        "response",
+        "read",
+        "pid",
+        "result",
+        "time",
+        "time",
+        "i",
+        "fetch",
+        "i",
+        "time",
+        "time",
+        "start",
+        "time_cost",
+        "time",
+        "time",
+        "i",
+        "threads",
+        "append",
+        "gevent",
+        "spawn",
+        "fetch",
+        "i",
+        "gevent",
+        "joinall",
+        "threads",
+        "time",
+        "time",
+        "start",
+        "time_cost",
+        "sync",
+        "async"
+    ],
+    "literals": [
+        "'http://test.btcjp.me/time'",
+        "'Process %s: %s'",
+        "'now'",
+        "'sync time cost: %.5f'",
+        "'async time cost: %.5f'",
+        "'Sync:'",
+        "'Async:'"
+    ],
+    "variables": [
+        "response",
+        "result",
+        "start",
+        "time_cost",
+        "start",
+        "threads",
+        "time_cost"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "'''\nSync:\n    Process 0: 1464754877.25\n    Process 1: 1464754877.47\n    Process 2: 1464754877.7\n    Process 3: 1464754877.92\n    Process 4: 1464754878.15\n    Process 5: 1464754878.36\n    Process 6: 1464754878.59\n    Process 7: 1464754878.82\n    Process 8: 1464754879.02\n    Process 9: 1464754879.23\n    sync time cost: 2.59578\nAsync:\n    Process 0: 1464754879.43\n    Process 1: 1464754879.64\n    Process 2: 1464754879.85\n    Process 3: 1464754880.05\n    Process 4: 1464754880.25\n    Process 5: 1464754880.47\n    Process 6: 1464754880.67\n    Process 7: 1464754880.87\n    Process 8: 1464754881.09\n    Process 9: 1464754881.3\n    async time cost: 2.07313\n'''"
+    ],
+    "functions": [
+        "fetch",
+        "sync",
+        "async"
+    ],
+    "classes": []
+}

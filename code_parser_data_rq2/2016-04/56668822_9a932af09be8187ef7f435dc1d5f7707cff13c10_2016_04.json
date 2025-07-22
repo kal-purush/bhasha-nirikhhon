@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "myAnyType",
+        "myAnyType",
+        "Color",
+        "Color",
+        "c",
+        "ColorAlternative0",
+        "ColorAlternative0",
+        "cAlt0",
+        "ColorAlternative1",
+        "ColorAlternative1",
+        "colorName",
+        "alert"
+    ],
+    "literals": [
+        "\"free\"",
+        "'I want a string'",
+        "string",
+        "\"This is my warning message\""
+    ],
+    "variables": [
+        "listNum",
+        "listAny",
+        "myAnyType",
+        "listNumAlternative",
+        "c",
+        "cAlt0",
+        "colorName"
+    ],
+    "comments": [
+        "http://www.typescriptlang.org/Handbook#basic-types-array",
+        "Los tipos de variables son: boolean, number, string, array, enum, any y void.\n* Los que no encontramos en JavaScript directamente se explican a continuacion",
+        "EJEMPLO DE TIPO CONOCIDO EN JS",
+        "TIPOS NUEVOS",
+        "Podemos usar <any> para indicar cualquier tipo",
+        "ARRAY",
+        "Con una variable normal:",
+        "TUPLE",
+        "http://www.typescriptlang.org/docs/handbook/basic-types.html#tuple",
+        "Al contratio que otros lenguajes, como python, las tuplas pueden cambiar.",
+        "ENUM",
+        "http://www.typescriptlang.org/Handbook#basic-types-enum",
+        "El enum funciona al contrario que un Array.\nEn lugar de acceder a \"Green\" mediante la posicion 1,\naccedemos al 1 mediante \"Green\"",
+        "let doc: https://basarat.gitbooks.io/typescript/content/docs/let.html",
+        "let es como var pero actua dentro del bloque de codigo. Ojo compatibilidad.\nvar i = 0\nfor (let i = 0; i < 3; i++) {\n    // la variable i declarada con let existira solamente dentro del for\n}\n// En el alert usamos la \"i\" declarada con var no con let\nalert(i); // 0",
+        "Tenemos dos alternativas:",
+        "1.- Cambiamos la ordenacion.",
+        "2.- Accedemos mediante posicion en lugar de su nombre */",
+        "El tipo void es el contrario a any, no devuelve nada.\n* Suele verse en funciones que no tienen return"
+    ],
+    "docstrings": [],
+    "functions": [
+        "warnUser"
+    ],
+    "classes": []
+}

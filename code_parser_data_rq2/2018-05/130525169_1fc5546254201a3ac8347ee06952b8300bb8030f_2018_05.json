@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "winston",
+        "winston",
+        "config",
+        "winston",
+        "winston",
+        "winston",
+        "winston",
+        "winston",
+        "info",
+        "args",
+        "timestamp",
+        "ts",
+        "level",
+        "message",
+        "args",
+        "args",
+        "Logger"
+    ],
+    "literals": [
+        "'config'",
+        "'winston'",
+        "'logger'",
+        "'T'",
+        "' '",
+        "${ts} [${level}]: ${message} ${Object.keys(args).length ? JSON.stringify(args, null, 2) : ''}",
+        "''"
+    ],
+    "variables": [
+        "config",
+        "winston",
+        "info",
+        "ts"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Logger"
+    ]
+}

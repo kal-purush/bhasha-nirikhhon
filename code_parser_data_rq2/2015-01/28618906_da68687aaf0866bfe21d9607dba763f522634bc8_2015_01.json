@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "page",
+        "page",
+        "system",
+        "startTime",
+        "checkLoaded",
+        "clearInterval",
+        "checkCompleteInterval",
+        "page",
+        "result",
+        "setTimeout",
+        "phantom",
+        "setInterval",
+        "checkComplete"
+    ],
+    "literals": [
+        "'system'",
+        "'webpage'",
+        "\"compositionComplete\""
+    ],
+    "variables": [
+        "system",
+        "page",
+        "startTime",
+        "checkComplete",
+        "result",
+        "checkCompleteInterval"
+    ],
+    "comments": [
+        "Open the page",
+        "Check whether all rendering is complete every second, and timeout after 10 seconds",
+        "Need to do it this way to prevent security error message from appearing",
+        "Let us check to see if the page is finished rendering"
+    ],
+    "docstrings": [],
+    "functions": [
+        "checkLoaded"
+    ],
+    "classes": []
+}

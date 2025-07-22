@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "THREE",
+        "THREE",
+        "THREE",
+        "THREE",
+        "THREE",
+        "THREE",
+        "lights_mmd_toon_pars_fragment",
+        "mmd_toon_matcap_fragment",
+        "THREE",
+        "MMDToonShader"
+    ],
+    "literals": [
+        "varying vec3 vViewPosition;\n\n#ifndef FLAT_SHADED\n\n\tvarying vec3 vNormal;\n\n#endif\n\n\nstruct BlinnPhongMaterial {\n\n\tvec3 diffuseColor;\n\tvec3 specularColor;\n\tfloat specularShininess;\n\tfloat specularStrength;\n\n};\n\nvoid RE_Direct_BlinnPhong( const in IncidentLight directLight, const in GeometricContext geometry, const in BlinnPhongMaterial material, inout ReflectedLight reflectedLight ) {\n\n\tvec3 irradiance = getGradientIrradiance( geometry.normal, directLight.direction ) * directLight.color;\n\n\t#ifndef PHYSICALLY_CORRECT_LIGHTS\n\n\t\tirradiance *= PI; // punctual light\n\n\t#endif\n\n\treflectedLight.directDiffuse += irradiance * BRDF_Diffuse_Lambert( material.diffuseColor );\n\n\treflectedLight.directSpecular += irradiance * BRDF_Specular_BlinnPhong( directLight, geometry, material.specularColor, material.specularShininess ) * material.specularStrength;\n\n}\n\nvoid RE_IndirectDiffuse_BlinnPhong( const in vec3 irradiance, const in GeometricContext geometry, const in BlinnPhongMaterial material, inout ReflectedLight reflectedLight ) {\n\n\treflectedLight.indirectDiffuse += irradiance * BRDF_Diffuse_Lambert( material.diffuseColor );\n\n}\n\n#define RE_Direct\t\t\t\tRE_Direct_BlinnPhong\n#define RE_IndirectDiffuse\t\tRE_IndirectDiffuse_BlinnPhong\n\n#define Material_LightProbeLOD( material )\t(0)",
+        "#ifdef USE_MATCAP\n\n\tvec3 viewDir = normalize( vViewPosition );\n\tvec3 x = normalize( vec3( viewDir.z, 0.0, - viewDir.x ) );\n\tvec3 y = cross( viewDir, x );\n\tvec2 uv = vec2( dot( x, normal ), dot( y, normal ) ) * 0.495 + 0.5; // 0.495 to remove artifacts caused by undersized matcap disks\n\tvec4 matcapColor = texture2D( matcap, uv );\n\tmatcapColor = matcapTexelToLinear( matcapColor );\n\n\t#ifdef MATCAP_BLENDING_MULTIPLY\n\n\t\toutgoingLight *= matcapColor.rgb;\n\n\t#elif defined( MATCAP_BLENDING_ADD )\n\n\t\toutgoingLight += matcapColor.rgb;\n\n\t#endif\n\n#endif",
+        "'#include <common>'",
+        "#ifdef USE_MATCAP\n\t\t\t\t\t\tuniform sampler2D matcap;\n\t\t\t\t\t#endif\n\n\t\t\t\t\t#include <common>",
+        "'#include <envmap_common_pars_fragment>'",
+        "#include <gradientmap_pars_fragment>\n\t\t\t\t\t#include <envmap_common_pars_fragment>",
+        "'#include <lights_phong_pars_fragment>'",
+        "'#include <envmap_fragment>'",
+        "#include <envmap_fragment>\n\t\t\t\t\t${mmd_toon_matcap_fragment}"
+    ],
+    "variables": [
+        "lights_mmd_toon_pars_fragment",
+        "mmd_toon_matcap_fragment",
+        "MMDToonShader"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* MMD Toon Shader\n *\n * This shader is extended from MeshPhongMaterial, and merged algorithms with\n * MeshToonMaterial and MeshMetcapMaterial.\n * Ideas came from https://github.com/mrdoob/three.js/issues/19609\n *\n * Combining steps:\n *  * Declare matcap uniform.\n *  * Add gradientmap_pars_fragment.\n *  * Use gradient irradiances instead of dotNL irradiance from MeshPhongMaterial.\n *    (Replace lights_phong_pars_fragment with lights_mmd_toon_pars_fragment)\n *  * Add mmd_toon_matcap_fragment."
+    ],
+    "functions": [],
+    "classes": []
+}

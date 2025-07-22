@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "defaultJobMachine",
+        "developBranch",
+        "productionBranch",
+        "STEP",
+        "defaultJobMachine",
+        "STEP",
+        "developBranch",
+        "productionBranch",
+        "productionBranch",
+        "productionBranch",
+        "STEP",
+        "STEP",
+        "STEP",
+        "STEP",
+        "STEP",
+        "STEP",
+        "developBranch"
+    ],
+    "literals": [
+        "'./constants'",
+        "'./steps'",
+        "'release'",
+        "'0 1 * * SAT'",
+        "'release_on_demand'",
+        "'fetch-depth'",
+        "Git fetch ${productionBranch}",
+        "git fetch --no-tags --prune --progress --no-recurse-submodules origin +${productionBranch}:${productionBranch}",
+        "'Do semantic release'",
+        "GITHUB_REF=refs/heads/${developBranch} GITHUB_ACTION=run8 npm run release",
+        "'${{ secrets.REPO_ACCESS }}'",
+        "'${{ secrets.NPM_PUBLISH_TOKEN }}'"
+    ],
+    "variables": [],
+    "comments": [
+        "eslint-disable-next-line @typescript-eslint/naming-convention",
+        "eslint-disable-next-line @typescript-eslint/naming-convention",
+        "eslint-disable-next-line @typescript-eslint/naming-convention, no-secrets/no-secrets"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

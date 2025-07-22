@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "styled",
+        "Hashtag",
+        "PersonAdd",
+        "Settings",
+        "styled",
+        "Props",
+        "styled",
+        "Hashtag",
+        "styled",
+        "PersonAdd",
+        "styled",
+        "Settings"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'styled-icons/heroicons-outline'",
+        "'styled-icons/material'",
+        "display: flex;\n  align-items: center;\n  justify-content: space-between;\n\n  cursor: pointer;\n\n  padding: 5px 3px;\n  border-radius: 5px;\n\n  background-color: transparent;\n  transition: background-color 0.2s;\n\n  > div {\n    display: flex;\n    align-items: center;\n  }\n\n  > div span {\n    font-size: 15px;\n    margin-left: 5px;\n    color: var(--senary);\n  }\n\n  > div:nth-child(2) {\n    display: none;\n  }\n\n  &:hover,\n  &:active {\n    background-color: var(--quinary);\n    > div:last-child {\n      display: block;\n    }\n\n    > div {\n      span {\n        color: var(--white);\n      }\n    }\n  }",
+        "width: 20px;\n  height: 20px;\n\n  color: var(--symbol);",
+        "width: 16px;\n  height: 16px;\n  margin-right: 5px;\n\n  color: var(--symbol);\n  cursor: pointer;\n\n  transition: color 0.2s;\n\n  &:hover {\n    color: var(--white);\n  }",
+        "width: 16px;\n  height: 16px;\n\n  color: var(--symbol);\n  cursor: pointer;\n\n  transition: color 0.2s;\n\n  &:hover {\n    color: var(--white);\n  }"
+    ],
+    "variables": [
+        "Container",
+        "HastagIcon",
+        "InviteIcon",
+        "SettingsIcon"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

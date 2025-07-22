@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "Service",
+        "interfaces",
+        "data",
+        "interfaces",
+        "IGame",
+        "IFileHandler",
+        "path",
+        "game",
+        "path"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* read and write Game Data from Files",
+        "* read a Game Document\n     *\n     * @param path Path to the Document\n     * @return IGame Object",
+        "* save a Game Object to a File\n     *\n     * @param game Game Object, that will be saved\n     * @param path Path to the File\n     * @return true if operation was successful"
+    ],
+    "functions": [
+        "IGame",
+        "readGameFile",
+        "saveGame"
+    ],
+    "classes": []
+}

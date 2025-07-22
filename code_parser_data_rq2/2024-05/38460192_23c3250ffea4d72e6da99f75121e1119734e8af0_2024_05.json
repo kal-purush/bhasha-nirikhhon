@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Helpers",
+        "React",
+        "React",
+        "refs",
+        "React",
+        "value",
+        "refs",
+        "Helpers",
+        "value",
+        "React",
+        "value"
+    ],
+    "literals": [
+        "\"./helpers\""
+    ],
+    "variables": [],
+    "comments": [
+        "If the ref is a function, it's a callback ref and we call it with the value.",
+        "If the ref is an object (not null and not undefined), it's an object ref.",
+        "We assign the value to its 'current' property."
+    ],
+    "docstrings": [
+        "* Used to merge multiple React refs into a single callback ref.\n *\n * @example\n * ```tsx\n * <div ref={mergeRefs([ref, forwardedRef])} />\n * ```"
+    ],
+    "functions": [
+        "mergeRefs"
+    ],
+    "classes": []
+}

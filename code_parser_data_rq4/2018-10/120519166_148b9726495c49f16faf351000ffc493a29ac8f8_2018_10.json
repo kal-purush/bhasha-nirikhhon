@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "StatusBarItem",
+        "StatusBarAlignment",
+        "workspace",
+        "StatusbarUi",
+        "StatusbarUi",
+        "StatusBarAlignment",
+        "workspace",
+        "StatusbarUi",
+        "StatusbarUi",
+        "setTimeout",
+        "StatusbarUi",
+        "workingMsg",
+        "StatusbarUi",
+        "workingMsg",
+        "StatusbarUi",
+        "StatusbarUi",
+        "StatusbarUi",
+        "StatusbarUi",
+        "StatusbarUi",
+        "StatusbarUi"
+    ],
+    "literals": [
+        "'vscode'",
+        "'warpscript.showButton'",
+        "'loading...'",
+        "string",
+        "'Working on it...'",
+        "$(sync~spin) ${workingMsg}",
+        "'In case if it takes long time, try to close all browser window.'",
+        "'$(triangle-right) Exec WS'",
+        "'extension.execWS'",
+        "'Click execute your WarpScript'"
+    ],
+    "variables": [],
+    "comments": [
+        "Show status bar only if user wants :)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "statusbar",
+        "Init",
+        "Working",
+        "Execute",
+        "dispose"
+    ],
+    "classes": [
+        "StatusbarUi"
+    ]
+}

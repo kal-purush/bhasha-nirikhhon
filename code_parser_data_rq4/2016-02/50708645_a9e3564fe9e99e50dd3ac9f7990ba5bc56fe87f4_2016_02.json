@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "cofh",
+        "api",
+        "block",
+        "net",
+        "minecraft",
+        "block",
+        "Block",
+        "net",
+        "minecraft",
+        "world",
+        "IBlockAccess",
+        "net",
+        "minecraftforge",
+        "common",
+        "util",
+        "ForgeDirection",
+        "IBlockAppearance",
+        "world",
+        "x",
+        "y",
+        "z",
+        "side",
+        "world",
+        "x",
+        "y",
+        "z",
+        "side"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Implement this interface on blocks that can mimic the appearance of other blocks. Note that this is meant to be available server-side, so ensure the code is\n * server-safe and doesn't use client-side code.\n *",
+        "* This function returns the block that is being shown on a given side.\n\t * <p>\n\t * <b>Do not</b> return <tt>null</tt> from this method.\n\t *\n\t * @param world\n\t *            Reference to the world.\n\t * @param x\n\t *            X coordinate of the block.\n\t * @param y\n\t *            Y coordinate of the block.\n\t * @param z\n\t *            Z coordinate of the block.\n\t * @param side\n\t *            The side of the block.",
+        "* This function returns metadata of the block that is being shown on a given side.\n\t *\n\t * @param world\n\t *            Reference to the world.\n\t * @param x\n\t *            X coordinate of the block.\n\t * @param y\n\t *            Y coordinate of the block.\n\t * @param z\n\t *            Z coordinate of the block.\n\t * @param side\n\t *            The side of the block.",
+        "* This function returns whether the block's renderer will visually connect to other blocks implementing IBlockAppearance."
+    ],
+    "functions": [
+        "Block",
+        "getVisualBlock",
+        "getVisualMeta",
+        "supportsVisualConnections"
+    ],
+    "classes": []
+}

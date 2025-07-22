@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Relay",
+        "AuthProviderType",
+        "Relay",
+        "Relay",
+        "Relay"
+    ],
+    "literals": [
+        "'react-relay'",
+        "'../types/types'",
+        "string",
+        "string",
+        "mutation{disableAuthProvider}",
+        "fragment on DisableAuthProviderPayload {\n        authProvider\n      }",
+        "'FIELDS_CHANGE'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getMutation",
+        "getFatQuery",
+        "getConfigs",
+        "getVariables"
+    ],
+    "classes": [
+        "DisableAuthProviderMutation"
+    ]
+}

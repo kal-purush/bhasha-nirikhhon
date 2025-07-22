@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "useMutation",
+        "axios",
+        "DeleteOrderRequest",
+        "DeleteOrderResponse",
+        "useDeleteOrder",
+        "useMutation",
+        "data",
+        "axios",
+        "data",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'@tanstack/react-query'",
+        "'axios'",
+        "'../models/ts/DeleteOrder'",
+        "'/store/order/{orderId}'"
+    ],
+    "variables": [
+        "useDeleteOrder"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @description For valid response try integer IDs with value < 1000. Anything above 1000 or nonintegers will generate API errors\n * @summary Delete purchase order by ID\n * @link /store/order/{orderId}"
+    ],
+    "functions": [],
+    "classes": []
+}

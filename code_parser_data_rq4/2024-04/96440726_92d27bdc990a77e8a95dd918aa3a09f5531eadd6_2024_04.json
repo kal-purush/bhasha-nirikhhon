@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "el",
+        "el",
+        "el",
+        "el",
+        "scrollAttribute",
+        "value",
+        "page",
+        "page",
+        "scrollAttribute",
+        "elementsWithScroll",
+        "element",
+        "element",
+        "scrollAttribute",
+        "scrollTop",
+        "scrollLeft",
+        "element",
+        "options",
+        "removeScrollAttribute",
+        "element",
+        "el",
+        "el",
+        "scrollAttribute"
+    ],
+    "literals": [
+        "'data-save-scroll'",
+        "[${scrollAttribute}]",
+        "'[0,0]'"
+    ],
+    "variables": [
+        "scrollAttribute",
+        "value",
+        "elementsWithScroll",
+        "scrollTop",
+        "scrollLeft",
+        "options"
+    ],
+    "comments": [
+        "!\n * V4Fire Client Core\n * https://github.com/V4Fire/Client\n *\n * Released under the MIT license\n * https://github.com/V4Fire/Client/blob/master/LICENSE"
+    ],
+    "docstrings": [
+        "* Adds an attribute to the element with the scroll value\n * @param el",
+        "* Restores the scroll position for saved DOM nodes on the page\n * @param page",
+        "* Removes the scroll attribute from the element\n * @param el"
+    ],
+    "functions": [
+        "saveScrollIntoAttribute",
+        "restorePageElementsScroll",
+        "removeScrollAttribute"
+    ],
+    "classes": []
+}

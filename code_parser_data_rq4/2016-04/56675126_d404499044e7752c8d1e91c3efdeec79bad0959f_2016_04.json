@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "KnightComponent",
+        "KnightService",
+        "Knight",
+        "Component",
+        "KnightComponent",
+        "KnightService",
+        "_knightService",
+        "knight",
+        "knight",
+        "knights",
+        "knights"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "\"./knight.component\"",
+        "\"./knight.service\"",
+        "\"./knight\"",
+        "'knight-list'",
+        "<ul>\n            <li *ngFor=\"#knight of knights\"\n                (click)=\"onSelect(knight)\"   \n                [class.clicked]=\"selectedKnight === knight\"\n                style=\"cursor: pointer\"\n            >Knight {{knight.name}} </li>\n        </ul>\n        <knight [knight]=\"selectedKnight\"> </knight>",
+        "\"../src/css/knight-list.component.css\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "onSelect",
+        "getKnights"
+    ],
+    "classes": [
+        "KnightListComponent"
+    ]
+}

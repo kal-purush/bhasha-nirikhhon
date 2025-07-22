@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "colors",
+        "i",
+        "colors",
+        "colors",
+        "i",
+        "colors"
+    ],
+    "literals": [
+        "'use strict'",
+        "'red'",
+        "'blue'",
+        "'white'",
+        "'yellow'",
+        "'green'",
+        "'black'",
+        "'orange'",
+        "'gray'",
+        "'brown'",
+        "'pink'",
+        "'.btnNext'",
+        "'#btnPrev'",
+        "'kvadrat'",
+        "background-color: ${colors[i++ % colors.length]};",
+        "'kvadrat'",
+        "background-color: ${colors[i-- % colors.length]};"
+    ],
+    "variables": [
+        "i",
+        "colors",
+        "btnNext",
+        "btnPrev"
+    ],
+    "comments": [
+        "btnNext.onclick = renderNext();"
+    ],
+    "docstrings": [],
+    "functions": [
+        "renderNext",
+        "renderPrev"
+    ],
+    "classes": []
+}

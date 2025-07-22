@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "org",
+        "trellisldp",
+        "http",
+        "impl",
+        "memento",
+        "weakEtags",
+        "mementoDates",
+        "jsonLdProfile",
+        "baseUrl",
+        "memento",
+        "weakEtags",
+        "mementoDates",
+        "jsonLdProfile",
+        "baseUrl",
+        "memento",
+        "memento",
+        "weakEtags",
+        "weakEtags",
+        "mementoDates",
+        "mementoDates",
+        "jsonLdProfile",
+        "jsonLdProfile",
+        "baseUrl",
+        "baseUrl",
+        "memento",
+        "weakEtags",
+        "mementoDates",
+        "jsonLdProfile",
+        "baseUrl"
+    ],
+    "literals": [],
+    "variables": [
+        "memento",
+        "weakEtags",
+        "mementoDates",
+        "jsonLdProfile",
+        "baseUrl"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Create a configuration object for the GetHandler.\n     * @param memento whether this resource is a memento\n     * @param weakEtags whether to use weak ETags\n     * @param mementoDates whether to use memento date parameters\n     * @param jsonLdProfile the default JSON-LD profile\n     * @param baseUrl the configured baseURL",
+        "* Get whether the resource is a Memento.\n     * @return true if the resource is a Memento; false otherwise",
+        "* Get whether to use weak ETags.\n     * @return true to use weak ETags; false otherwise",
+        "* Get whether to include Memento dates in header responses.\n     * @return true to include Memento date parameters",
+        "* Get the default JSON-LD profile.\n     * @return the default JSON-LD profile, may be {@code null}",
+        "* Get the base url.\n     * @return the configured base url, may be {@code null}"
+    ],
+    "functions": [
+        "GetConfiguration",
+        "isMemento",
+        "useWeakEtags",
+        "includeMementoDates",
+        "defaultJsonLdProfile",
+        "getBaseUrl"
+    ],
+    "classes": [
+        "GetConfiguration"
+    ]
+}

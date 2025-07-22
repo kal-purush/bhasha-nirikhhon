@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "validator",
+        "description",
+        "value",
+        "validator",
+        "value"
+    ],
+    "literals": [
+        "\"validator\"",
+        "string",
+        "string",
+        "string",
+        "\"Expected a valid email!\""
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"../typings/node/node.d.ts\" />",
+        "<reference path=\"../typings/validator/validator.d.ts\" />",
+        "It seems that if you have imported some external module, you must export it as well",
+        "person.ts does not import anything and so does not have to export itself. Weird!"
+    ],
+    "docstrings": [
+        "* Contact"
+    ],
+    "functions": [],
+    "classes": [
+        "Email"
+    ]
+}

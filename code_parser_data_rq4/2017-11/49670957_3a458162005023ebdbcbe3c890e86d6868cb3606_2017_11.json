@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "org",
+        "eclipse",
+        "rdf4j",
+        "repository",
+        "http",
+        "helpers",
+        "org",
+        "eclipse",
+        "rdf4j",
+        "repository",
+        "http",
+        "HTTPRepository",
+        "org",
+        "eclipse",
+        "rdf4j",
+        "rio",
+        "RioSetting",
+        "org",
+        "eclipse",
+        "rdf4j",
+        "rio",
+        "helpers",
+        "RioSettingImpl",
+        "org",
+        "slf4j",
+        "Logger",
+        "org",
+        "slf4j",
+        "LoggerFactory",
+        "log",
+        "LoggerFactory",
+        "getLogger",
+        "MAX_STATEMENT_BUFFER_SIZE"
+    ],
+    "literals": [
+        "\"org.eclipse.rdf4j.http.maxstatementbuffersize\"",
+        "\"Maximum number of statement buffered in memory\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*****************************************************************************\n * Copyright (c) 2017 Eclipse RDF4J contributors, Aduna, and others.\n * All rights reserved. This program and the accompanying materials\n * are made available under the terms of the Eclipse Distribution License v1.0\n * which accompanies this distribution, and is available at\n * http://www.eclipse.org/org/documents/edl-v10.php.\n ******************************************************************************",
+        "* Class encapsulates configuration settings specific for {@link HTTPRepository}.\n * \n * @author Jacek Grzebyta",
+        "* Maximum size (in number of statements) allowed for statement buffers \n     * before they are forcibly flushed.\n     * <p>\n     * By default inner buffers within {@link HTTPRepositoryConnection} keep in memory up to 200000 statement before they are \n     * flushed to the remote repository."
+    ],
+    "functions": [],
+    "classes": [
+        "HTTPRepositorySettings"
+    ]
+}

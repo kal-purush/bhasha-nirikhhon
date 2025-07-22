@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpClient",
+        "BehaviorSubject",
+        "Observable",
+        "empty",
+        "environment",
+        "User",
+        "Injectable",
+        "http",
+        "localStorage",
+        "BehaviorSubject",
+        "v",
+        "username",
+        "password",
+        "environment",
+        "user",
+        "localStorage",
+        "user",
+        "user",
+        "user",
+        "localStorage",
+        "user"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common/http'",
+        "'rxjs'",
+        "'rxjs/operators'",
+        "'src/environments/environment.prod'",
+        "'src/core/models/user'",
+        "'root'",
+        "'currentUser'",
+        "string",
+        "string",
+        "${environment.apiUrl}/authentication",
+        "'currentUser'",
+        "'currentUser'"
+    ],
+    "variables": [
+        "v",
+        "user"
+    ],
+    "comments": [
+        "store user details and jwt token in local storage to keep user logged in between page refreshes",
+        "remove user from local storage to log user out"
+    ],
+    "docstrings": [],
+    "functions": [
+        "currentUserValue",
+        "login",
+        "logout"
+    ],
+    "classes": [
+        "AuthenticationService"
+    ]
+}

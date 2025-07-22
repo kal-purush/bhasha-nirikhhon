@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "mysql",
+        "connector",
+        "keyring",
+        "mysql",
+        "connector",
+        "connect",
+        "user",
+        "password",
+        "keyring",
+        "get_password",
+        "database",
+        "cnx",
+        "cursor",
+        "mysql",
+        "connector",
+        "err",
+        "err",
+        "errno",
+        "errorcode",
+        "ER_ACCESS_DENIED_ERROR",
+        "err",
+        "errno",
+        "errorcode",
+        "ER_BAD_DB_ERROR",
+        "err",
+        "cnx",
+        "close",
+        "connectToDB",
+        "cursor",
+        "execute",
+        "add_foods",
+        "data_foods",
+        "cnx",
+        "commit"
+    ],
+    "literals": [
+        "'root'",
+        "\"system\"",
+        "\"root\"",
+        "'foods'",
+        "\"Something is wrong with your user name or password\"",
+        "\"Database does not exist\"",
+        "\"INSERT INTO foods \"",
+        "\"(prod_name, ss_size, chol, salt, sodium, carb, fiber, sugars, proteins) \"",
+        "\"VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)\""
+    ],
+    "variables": [
+        "cnx",
+        "cursor",
+        "add_foods",
+        "data_foods"
+    ],
+    "comments": [
+        "attempt to connect to DB",
+        "insert statement",
+        "TO DO",
+        "retrieve values",
+        "insert new food and get last id",
+        "commit"
+    ],
+    "docstrings": [],
+    "functions": [
+        "connectToDB",
+        "insertToDB"
+    ],
+    "classes": []
+}

@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "tasks",
+        "interviews",
+        "n",
+        "numbers",
+        "n",
+        "numbers",
+        "numbers",
+        "i",
+        "i",
+        "n",
+        "i",
+        "numbers",
+        "i",
+        "numbers",
+        "i",
+        "numbers",
+        "i",
+        "numbers",
+        "n",
+        "a",
+        "b",
+        "next",
+        "i",
+        "i",
+        "n",
+        "i",
+        "next",
+        "a",
+        "b",
+        "a",
+        "b",
+        "b",
+        "next",
+        "a",
+        "n",
+        "n",
+        "n",
+        "numberNRecursive",
+        "n",
+        "numberNRecursive",
+        "n"
+    ],
+    "literals": [],
+    "variables": [
+        "next"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Написать программу, которая выводит 4\n * последовательность первых n чисел Фибоначч.\n *\n * @author Aleksei Sapozhnikov (vermucht@gmail.com)\n * @version 0.1\n * @since 0.1",
+        "* Последовательность чисел Фибоначчи.\n     *\n     * @param n Сколько чисел брать.\n     * @return Массив с числами.",
+        "* Число Фибоначчи с данным номером.\n     *\n     * @param n Номер числа.\n     * @return Число.",
+        "* Рекурсивный способ НЕ РЕКОМЕНДУЕТСЯ, поскольку\n     * при вызове, например, f(5) будет вызван\n     * f(4), f(3), f(2) и f(1) - многократное повторение\n     * одних и тех же операций.\n     *\n     * @param n Номер числа Фибоначчи.\n     * @return Число Фибоначчи с номером n."
+    ],
+    "functions": [
+        "firstN",
+        "numberN",
+        "numberNRecursive"
+    ],
+    "classes": [
+        "Fibonacci"
+    ]
+}

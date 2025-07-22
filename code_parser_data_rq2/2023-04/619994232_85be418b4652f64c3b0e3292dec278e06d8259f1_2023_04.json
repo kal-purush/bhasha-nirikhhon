@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "withClerkMiddleware",
+        "NextResponse",
+        "withClerkMiddleware",
+        "NextResponse"
+    ],
+    "literals": [
+        "\"@clerk/nextjs/server\"",
+        "\"next/server\"",
+        "\"Middleware running\"",
+        "\"/((?!static|.*\\\\..*|_next|favicon.ico).*)\"",
+        "\"/\""
+    ],
+    "variables": [
+        "config"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Match all request paths except for the ones starting with:\n     * - _next\n     * - static (static files)\n     * - favicon.ico (favicon file)\n     * - public folder"
+    ],
+    "functions": [],
+    "classes": []
+}

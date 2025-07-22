@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "os",
+        "fuel",
+        "config",
+        "fuel",
+        "datasets",
+        "H5PYDataset",
+        "H5PYDataset",
+        "which_set",
+        "size",
+        "load_in_memory",
+        "kwargs",
+        "size",
+        "ValueError",
+        "format",
+        "size",
+        "CalTech101Silhouettes",
+        "data_path",
+        "which_set",
+        "which_set",
+        "load_in_memory",
+        "load_in_memory",
+        "kwargs",
+        "property",
+        "os",
+        "path",
+        "join",
+        "config",
+        "data_path",
+        "filename"
+    ],
+    "literals": [
+        "u\"\"\"CalTech 101 Silhouettes dataset.\n\n    This dataset provides `split1` train/validation/test split of the \n    CalTech 101 Silhouette dataset prepared by Benjamin M. Marlin's [MARLIN].\n\n    This class provides both the 16x16 and the 28x28 pixel sized version.\n\n    .. [MARLIN] https://people.cs.umass.edu/~marlin/data.shtml\n\n    Parameters\n    ----------\n\n    which_set : 'train' or 'valid' or 'test'\n        Whether to load the training set (4,100 samples) or the validation\n        set (2,264 samples) or the test set (2,307 samples).\n    size : int\n        Either 16 or 28 to select the 16x16 or 28x28 pixels version\n        of the dataset (default: 28).\n\n    \"\"\"",
+        "'size must be 16 or 28'",
+        "'caltech101_silhouettes{}.hdf5'"
+    ],
+    "variables": [
+        "filename"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [],
+    "functions": [
+        "data_path"
+    ],
+    "classes": [
+        "CalTech101Silhouettes"
+    ]
+}

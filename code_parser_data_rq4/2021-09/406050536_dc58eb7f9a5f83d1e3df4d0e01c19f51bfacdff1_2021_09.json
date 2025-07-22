@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "requests",
+        "get",
+        "value",
+        "get",
+        "response",
+        "content",
+        "decode",
+        "encoding",
+        "response",
+        "encoding",
+        "el",
+        "content",
+        "split",
+        "CharCode_list",
+        "append",
+        "el",
+        "split",
+        "item",
+        "content",
+        "split",
+        "value_list",
+        "append",
+        "item",
+        "split",
+        "replace",
+        "CharCode_list",
+        "value_list",
+        "pairs_dict",
+        "get",
+        "value",
+        "upper",
+        "currency_rates",
+        "currency_rates",
+        "currency_rates"
+    ],
+    "literals": [
+        "'http://www.cbr.ru/scripts/XML_daily.asp'",
+        "'<CharCode>'",
+        "'</CharCode>'",
+        "'<Value>'",
+        "'</Value>'",
+        "','",
+        "'.'",
+        "'USD'",
+        "'EUR'",
+        "'GBP'"
+    ],
+    "variables": [
+        "CharCode_list",
+        "value_list",
+        "response",
+        "content",
+        "pairs_dict"
+    ],
+    "comments": [
+        "Функция для вывода курсов валют, полученных с API",
+        "Создаём два пустых списка, для данныч с API",
+        "Получение данных API",
+        "Меняем декодируем бинарный код полученных данных",
+        "Проверка кода валюты - добавляем в список, если есть совпадение",
+        "Возвращем курс валюты и переводим в число меняя разделитель дробной части",
+        "Записываем значения в словарь",
+        "Возвращаем словарь"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Написать функцию currency_rates(), принимающую в качестве аргумента код валюты\n    (например, USD, EUR, GBP, ...) и возвращающую курс этой\n    валюты по отношению к рублю. Использовать библиотеку requests.\n    В качестве API можно использовать http://www.cbr.ru/scripts/XML_daily.asp.\n    \"\"\""
+    ],
+    "functions": [
+        "currency_rates"
+    ],
+    "classes": []
+}

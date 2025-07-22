@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "styled"
+    ],
+    "literals": [
+        "\"@emotion/styled\"",
+        "padding: 40px;\n  background-color: rgba(255, 255, 255, 0.1);\n  > .author-top{\n    display: flex;\n    margin-bottom: 25px;\n  }\n  border-radius: ${theme.borderRadius['base']};\n  ${theme.breakpoints.down('xxl')} {\n    border-radius: ${theme.borderRadius['xxl']};\n  }\n  ${theme.breakpoints.down('xl')} {\n    border-radius: ${theme.borderRadius['xl']};\n  }\n  ${theme.breakpoints.down('lg')} {\n    border-radius: ${theme.borderRadius['lg']};\n  }\n  ${theme.breakpoints.down('sm')} {\n    border-radius: ${theme.borderRadius['sm']};\n  }",
+        "'base'",
+        "'xxl'",
+        "'xxl'",
+        "'xl'",
+        "'xl'",
+        "'lg'",
+        "'lg'",
+        "'sm'",
+        "'sm'",
+        "display: flex;\n  align-items: center;\n  span{\n    margin-left: 20px;\n    font-size: 20px;\n    font-weight: bold;\n  }"
+    ],
+    "variables": [
+        "AuthorS",
+        "Name"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

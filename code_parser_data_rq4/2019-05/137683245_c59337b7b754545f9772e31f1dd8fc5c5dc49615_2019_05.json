@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "os",
+        "photorec",
+        "config",
+        "get_cofnig",
+        "ProdConfig",
+        "LocalConfig",
+        "DevConfig",
+        "get_cofnig",
+        "config",
+        "ProdConfig",
+        "os",
+        "environ",
+        "get_cofnig",
+        "config",
+        "LocalConfig",
+        "os",
+        "environ",
+        "pop",
+        "os",
+        "environ",
+        "get_cofnig",
+        "config",
+        "DevConfig",
+        "os",
+        "environ",
+        "pop"
+    ],
+    "literals": [
+        "\"LOCAL\"",
+        "\"True\"",
+        "\"LOCAL\"",
+        "\"DEBUG\"",
+        "\"True\"",
+        "\"DEBUG\""
+    ],
+    "variables": [
+        "config",
+        "config",
+        "config"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "test_get_config_when_no_env_set_then_return_prod_config",
+        "test_get_config_when_local_env_set_then_return_local_config",
+        "test_get_config_when_debug_set_then_return_dev_config"
+    ],
+    "classes": []
+}

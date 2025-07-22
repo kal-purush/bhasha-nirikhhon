@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "http",
+        "GenericMessageEvent",
+        "pkg",
+        "ExpressReceiver",
+        "App",
+        "app",
+        "message",
+        "say",
+        "msg",
+        "http",
+        "receiver"
+    ],
+    "literals": [
+        "\"@serverless/cloud\"",
+        "\"@slack/bolt\"",
+        "\"@slack/bolt\"",
+        "\"hello\"",
+        "Hey there <@${msg.user}>!"
+    ],
+    "variables": [
+        "pkg",
+        "receiver",
+        "app",
+        "msg"
+    ],
+    "comments": [
+        "api, data, schedule,",
+        "Listens to incoming messages that contain \"hello\"",
+        "say() sends a message to the channel where the event was triggered"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

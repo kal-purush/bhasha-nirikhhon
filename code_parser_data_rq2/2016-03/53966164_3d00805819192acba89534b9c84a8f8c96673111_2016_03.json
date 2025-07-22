@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "Component",
+        "HeroService",
+        "HeroesComponent",
+        "HeroDetailComponent",
+        "RouteConfig",
+        "ROUTER_DIRECTIVES",
+        "ROUTER_PROVIDERS",
+        "DashboardComponent",
+        "Component",
+        "ROUTER_DIRECTIVES",
+        "ROUTER_PROVIDERS",
+        "RouteConfig",
+        "DashboardComponent",
+        "HeroesComponent",
+        "HeroDetailComponent"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./hero.service'",
+        "'./heroes.component'",
+        "'./hero-detail.component'",
+        "'angular2/router'",
+        "'./dashboard.component'",
+        "'my-app'",
+        "<h1>{{title}}</h1>\n        <nav>\n            <a [routerLink]=\"['Dashboard']\">Dashboard</a>\n            <a [routerLink]=\"['Heroes']\">Heroes</a>\n        </nav>\n        <router-outlet></router-outlet>",
+        "'/dashboard'",
+        "'Dashboard'",
+        "'/heroes'",
+        "'Heroes'",
+        "'/detail/:id'",
+        "'HeroDetail'",
+        "'Tour of Heroes'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppComponent"
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "dataclasses",
+        "dataclass",
+        "dataclass",
+        "AnimalClass",
+        "snowman",
+        "snowman",
+        "habitat",
+        "AnimalClass",
+        "habitat",
+        "name",
+        "duck",
+        "duck",
+        "habitat",
+        "AnimalClass",
+        "habitat"
+    ],
+    "literals": [
+        "'yeti'",
+        "'Himalayas'",
+        "'lake'",
+        "'duck'",
+        "'lake'"
+    ],
+    "variables": [
+        "name",
+        "habitat",
+        "teeth",
+        "snowman",
+        "duck",
+        "duck"
+    ],
+    "comments": [
+        "Output:",
+        "AnimalClass(name='yeti', habitat='Himalayas', teeth=46)",
+        "Himalayas",
+        "Output:",
+        "AnimalClass(name='duck', habitat='lake', teeth=0)",
+        "lake",
+        "Error:",
+        "Traceback (most recent call last):",
+        "File \"/Users/ryo/Desktop/til/Python/data_class.py\", line 16, in <module>",
+        "duck = AnimalClass(habitat='lake')",
+        "TypeError: __init__() missing 1 required positional argument: 'name'"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AnimalClass"
+    ]
+}

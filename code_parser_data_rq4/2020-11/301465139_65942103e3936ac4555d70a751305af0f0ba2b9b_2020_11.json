@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "Handlebars",
+        "argoCommands",
+        "Handlebars",
+        "prOpenedSource",
+        "template",
+        "argoCommands"
+    ],
+    "literals": [
+        "\"handlebars\"",
+        "\"./argoCommands\"",
+        "string",
+        "Hi, I'm a bot that helps with Kubernetes deployments. Invoke me via \\`botCommand\\` on PRs.\n\n* :mag: To show a diff for a specific app, comment:\n    * \\`{{ BotActions.Diff }} {{ BotDiffActions.App }} <app_name>\\`\n* :ledger: To show a diff for all apps, comment:\n    * \\`{{ BotActions.Diff }} {{ BotDiffActions.App }}\\`\n* :question: To show full help for argo, comment:\n    * \\`{{ BotActions.Help }}\\`",
+        "string"
+    ],
+    "variables": [
+        "prOpenedSource",
+        "template",
+        "prOpenedComment"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

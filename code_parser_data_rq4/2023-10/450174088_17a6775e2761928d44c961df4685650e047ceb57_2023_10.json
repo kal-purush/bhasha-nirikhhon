@@ -1,0 +1,19 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [
+        "WORKFLOW_CONFIG_EXAMPLE_JSON",
+        "WORKFLOW_CONCEPT_EXPLAINER"
+    ],
+    "comments": [
+        "This script does not contain any serious code, it's supposed to document concepts, examples",
+        "that are beyond particular functions or modules",
+        "These may be used in future manual writing."
+    ],
+    "docstrings": [
+        "\"\"\"\nExample config of a method\n{'deleted': False,\n 'inputs': {'Dummy.bai': 'this.aligned_bai', 'Dummy.bam': 'this.aligned_bam'},\n 'methodConfigVersion': 3,\n 'methodRepoMethod': {'methodUri': 'dockstore://github.com%2Fbroadinstitute%2Flong-read-pipelines%2FDummy/sh_dummy',\n                      'sourceRepo': 'dockstore',\n                      'methodPath': 'github.com/broadinstitute/long-read-pipelines/Dummy',\n                      'methodVersion': 'sh_dummy'},\n 'name': 'Dummy',\n 'namespace': 'broad-firecloud-dsde-methods',\n 'outputs': {},\n 'prerequisites': {},\n 'rootEntityType': 'clr-flowcell'}\n\"\"\"",
+        "\"\"\"\nA little explanation on terminology regarding several concepts:\n[method, method_config, submission, workflow].\n\nDuring casual discussions with contexts, for many, the word 'workflow' and \na concept describing a set of WDLs organized around a main WDL callable 'workflow' unit \n(also commonly referred to as--though a bit ambiguously--a pipeline) \nare used interchangeably.\n\nHowever, here, and on Terra, we want to be more precise and follow a naming convention.\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\n%%%%%\nA method is a particular WDL pipeline with a main `workflow` callable.\nA WDL pipeline, when brought into a Terra workspace, can be duplicated to different names.\nThese duplicates all point to the same WDL pipeline (though possibly different versions of it)\ncan be configured to run on different root entity types\n(if the WDL pipeline is designed with such flexibility), or \nconfigured only slightly differently for experimentation.\nA method corresponds to one record on the 'WORKFLOWS' page on Terra.\n\n%%%%%\nA method_config is a method with a particular configuration.\nThe configuration of a method may be modified multiple times during its lifetime in a workspace.\nNote that, when a method's config is changed, its name in submissions prior to the change \nis automatically updated by Terra by appending a random string.\n\n%%%%%\nA submission is a single record on the 'JOB HISTORY' page. \nA submission always has a unique submission ID in a Terra workspace.\n\n%%%%%\nA submission contains one or more workflows/executions for a particular method_config.\nHence here, workflow and execution are used interchangeably.\nA workflow always has a unique workflow ID in a Terra workspace.\n\n%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%\nTHEREFORE, IN lrmaCUX, WE DO NOT USE workflow, method, AND method_config INTERCHANGEABLY. \n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

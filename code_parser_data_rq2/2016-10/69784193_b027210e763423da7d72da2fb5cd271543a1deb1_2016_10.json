@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "Repository",
+        "AppActions",
+        "AppDispatcher",
+        "Component",
+        "Input",
+        "actions",
+        "dispatcher"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../app.state'",
+        "'../app.actions'",
+        "'../app.dispatcher'",
+        "'select-repository'",
+        "<h1>select your repos.</h1>\n    <input type=\"button\" value=\"add\" (click)=\"add()\" />\n    <div *ngFor=\"let repo of repositories\">\n      <input [(ngModel)]=\"repo.owner\" />\n      <input [(ngModel)]=\"repo.name\" />\n    </div>\n    <input type=\"submit\" value=\"save\" (click)=\"onSubmit($event)\"/>",
+        "''",
+        "''"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "add",
+        "onSubmit"
+    ],
+    "classes": [
+        "SelectRepositoryComponent"
+    ]
+}

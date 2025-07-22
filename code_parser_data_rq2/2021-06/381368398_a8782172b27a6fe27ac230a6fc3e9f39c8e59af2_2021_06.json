@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "url",
+        "fetch",
+        "url",
+        "response",
+        "response",
+        "data",
+        "data",
+        "data",
+        "container",
+        "pokemon",
+        "btn",
+        "container",
+        "btn",
+        "btn",
+        "container",
+        "data",
+        "container",
+        "data",
+        "getPokemonList",
+        "base_URL",
+        "url",
+        "fetch",
+        "url",
+        "response",
+        "response",
+        "data",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "\"https://pokeapi.co/api/v2/pokemon/\"",
+        "\".pokemon-list-container\"",
+        "\"\"",
+        "<button onclick=\"getPokemonInfo('${btn.url}')\">${btn.name}</button>",
+        "<br><br><button onclick=\"getPokemonList('${data.next}')\">Next</button>",
+        "<br><br><button onclick=\"getPokemonList('${data.previous}')\">Previous</button>",
+        "\".pokemon-info\"",
+        "<img src=\"${data.sprites.front_default} \">"
+    ],
+    "variables": [
+        "base_URL",
+        "pokemon",
+        "container"
+    ],
+    "comments": [
+        "Function to fetch a list of pokemon",
+        "Convert data from JSON",
+        "Stuff to do with data",
+        "Console log to make sure I am getting the data",
+        "Get the list of pokemon from the results",
+        "Get element from HTML to write buttons in",
+        "Clear the container",
+        "Loop over pokemon list and create an HTML button for each one. Add the button to the container",
+        "Add a next pokemon button",
+        "Get default pokemon list",
+        "Function to get information about a specific pokemin",
+        "Make sure data comes throufg",
+        "Write data to pokemon information container"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getPokemonList",
+        "getPokemonInfo"
+    ],
+    "classes": []
+}

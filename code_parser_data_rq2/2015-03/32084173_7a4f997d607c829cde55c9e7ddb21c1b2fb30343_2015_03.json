@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "org",
+        "fcrepo",
+        "migration",
+        "MigrationIDMapper",
+        "dsInfo"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* An interface whose implementations represent methods to \n * convert Fedora 3 PIDs into fedora 4 paths.",
+        "* Takes a Fedora 3 Object reference and returns the path \n     * that object would have in Fedora 4.\n     * @param object an ObjectReference for a Fedora 3 object.\n     * @return a path suitable for use in Fedora 4.",
+        "* Takes a Fedora 3 DatastreamInfo object and returns the path\n     * that datastream would have in Fedora 4.\n     * @param dsInfo a DatastreamInfo for a Fedora 3 datastream\n     * @return a path suitable for use in Fedora 4."
+    ],
+    "functions": [
+        "mapObjectPath",
+        "mapDatastreamPath"
+    ],
+    "classes": []
+}

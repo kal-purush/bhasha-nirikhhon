@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "contentdiv",
+        "htmlhome",
+        "contentdiv",
+        "menuhtml",
+        "contentdiv",
+        "contacthtml",
+        "tabname",
+        "tabname",
+        "renderhome",
+        "rendermenu",
+        "rendercontact",
+        "renderhome",
+        "renderhome"
+    ],
+    "literals": [
+        "'content'",
+        "<header>\n    <div class=\"headerContainer\">\n      <div class=\"logo\">\n        <img src=\"img/logo.png\">\n      </div>\n      <nav>\n        <ul>\n          <li><a href=\"javascript:void(0)\" onclick=\"openTab('home')\">Home</a></li>\n          <li><a href=\"javascript:void(0)\" onclick=\"openTab('menu')\">Menu</a></li>\n          <li><a href=\"javascript:void(0)\" onclick=\"openTab('contact')\">Contact Us</a></li>\n        </ul>\n      </nav>\n    </div>\n  </header>\n\n\n<div class=\"containerhome\">\n<div class=\"textmain\"> \n  <h1>Join us and experience mouthwatering <p>dishes at affordable prices!</p></h1>\n  <button onclick=\"openTab('menu')\">Order Now</button> \n</div>\n</div>",
+        "\"content\"",
+        "<header>\n    <div class=\"headerContainer\">\n      <div class=\"logo\">\n      <img src=\"img/logo.png\">\n      </div>\n      <nav>\n        <ul>\n          <li><a href=\"javascript:void(0)\" onclick=\"openTab('home')\">Home</a></li>\n          <li><a href=\"javascript:void(0)\" onclick=\"openTab('menu')\">Menu</a></li>\n          <li><a href=\"javascript:void(0)\" onclick=\"openTab('contact')\">Contact Us</a></li>\n        </ul>\n      </nav>\n    </div>\n  </header>\n\n\n  <div class=\"project\">\n  <h2>Menu</h2>\n  <div class=\"row\">\n  <div class=\"column\">\n    <div class=\"card\">\n      <h3>Bugger</h3>\n      <p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium accumsan leo, vel pellentesque elit malesuada vel. Morbi a justo felis. </p>\n     \n      <p>SSed vitae semper tortor. Aenean eget leo vel turpis blandit tincidunt ac ac turpis. Ut eu sagittis lacust</p>\n     \n    </div>\n  </div>\n\n  <div class=\"column\">\n    <div class=\"card\">\n      <h3>Fries</h3>\n      <p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium accumsan leo, vel pellentesque elit malesuada vel. Morbi a justo felis. </p>\n      <p>SSed vitae semper tortor. Aenean eget leo vel turpis blandit tincidunt ac ac turpis. Ut eu sagittis lacust</p>\n     \n    </div>\n  </div>\n\n\n\n\n\n\n  <div class=\"column\">\n    <div class=\"card\">\n      <h3>Pizza</h3>\n      <p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium accumsan leo, vel pellentesque elit malesuada vel. Morbi a justo felis. </p>\n      <p>SSed vitae semper tortor. Aenean eget leo vel turpis blandit tincidunt ac ac turpis. Ut eu sagittis lacust</p>\n    \n    \n    </div>\n  </div>\n<br>\n  <div class=\"column\">\n    <div class=\"card\">\n      <h3>Fries</h3>\n      <p>\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce pretium accumsan leo, vel pellentesque elit malesuada vel. Morbi a justo felis. </p>\n      <p>SSed vitae semper tortor. Aenean eget leo vel turpis blandit tincidunt ac ac turpis. Ut eu sagittis lacust</p>\n     \n    </div>\n  </div>\n\n\n\n\n\n</div>",
+        "\"content\"",
+        "<header>\n     <div class=\"headerContainer\">\n       <div class=\"logo\">\n       <img src=\"img/logo.png\">\n       </div>\n       <nav>\n         <ul>\n           <li><a href=\"javascript:void(0)\" onclick=\"openTab('home')\">Home</a></li>\n           <li><a href=\"javascript:void(0)\" onclick=\"openTab('menu')\">Menu</a></li>\n           <li><a href=\"javascript:void(0)\" onclick=\"openTab('contact')\">Contact Us</a></li>\n         </ul>\n       </nav>\n     </div>\n   </header>\n\n\n   <div class=\"contacthead\">\n   <h1> Contact Us</h1>\n  \n </div>\n\n\n<div class=\"contactcontent\">\n\n<p><ion-icon name=\"map\"></ion-icon>\n 1024 Obud Aval\n San Diego, CA 2334 </p>\n\n \n<p><ion-icon name=\"call-sharp\"></ion-icon> : 55545-8894</p>\n \n\n <h2> Send Us A Message</h2>\n<div class=\"container\">\n <form action=\"/action_page.php\">\n   <label for=\"fname\">Name</label>\n   <input type=\"text\" id=\"fname\" name=\"firstname\" placeholder=\"Your name..\">\n\n\n   <label for=\"fname\">Email</label>\n   <input type=\"text\" id=\"fname\" name=\"firstname\" placeholder=\"Email\">\n\n   \n\n   <label for=\"subject\">Message</label>\n   <textarea id=\"subject\" name=\"subject\" placeholder=\"Write something..\" style=\"height:200px\"></textarea>\n\n   <input type=\"submit\" value=\"Submit\">\n </form>\n\n\n \n\n</div>",
+        "'home'",
+        "'menu'",
+        "'contact'"
+    ],
+    "variables": [
+        "contentdiv",
+        "htmlhome",
+        "contentdiv",
+        "menuhtml",
+        "contentdiv",
+        "contacthtml"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "renderhome",
+        "rendermenu",
+        "rendercontact",
+        "openTab"
+    ],
+    "classes": []
+}

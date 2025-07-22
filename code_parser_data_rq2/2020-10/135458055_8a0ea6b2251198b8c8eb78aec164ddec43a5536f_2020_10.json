@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "Component",
+        "moment",
+        "Moment",
+        "Event",
+        "Component",
+        "moment",
+        "moment",
+        "moment",
+        "startTime",
+        "endTime"
+    ],
+    "literals": [
+        "'@glimmer/component'",
+        "'moment'",
+        "'open-event-frontend/models/event'",
+        "string",
+        "string",
+        "'z'",
+        "'day'",
+        "string",
+        "'YYYYMMDD[T]HHmmSS[Z]'",
+        "'YYYYMMDD[T]HHmmSS[Z]'",
+        "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=${startTime}/${endTime}&text=${event.name}&location=${this.args.location}&ctz=${event.timezone}&details=${event.description}"
+    ],
+    "variables": [
+        "startTime",
+        "endTime"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "timezone",
+        "startsAt",
+        "endsAt",
+        "isSingleDay",
+        "calendarUrl"
+    ],
+    "classes": [
+        "AddToCalender"
+    ]
+}

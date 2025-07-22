@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "$",
+        "$sidebarStyles",
+        "$",
+        "$sidebarStyles",
+        "$",
+        "$",
+        "$sidebarStyles",
+        "$",
+        "$",
+        "$scontacts",
+        "$contactList",
+        "$scontacts",
+        "$contactList",
+        "$scontacts",
+        "hash",
+        "$",
+        "$",
+        "hash",
+        "$",
+        "$",
+        "$",
+        "$",
+        "activateTab",
+        "activateTab",
+        "$",
+        "init",
+        "jQuery"
+    ],
+    "literals": [
+        "'.sidebar'",
+        "'style'",
+        "\"\"",
+        "' min-height: '",
+        "'px;'",
+        "'.sidebar'",
+        "'style'",
+        "'#contact-list-secondary'",
+        "'#contact-list'",
+        "'/tags.html'",
+        "'/categories.html'",
+        "'.tab-pane'",
+        "'a[href=\"'",
+        "'\"]'",
+        "'show'",
+        "'.tab-pane'",
+        "'.cat-tag-menu li a'",
+        "'show'",
+        "'hashchange'"
+    ],
+    "variables": [
+        "$scontacts",
+        "$contactList",
+        "hash"
+    ],
+    "comments": [
+        "Sidebar height set",
+        "Secondary contact links",
+        "watch hash change and activate relevant tab",
+        "initial activation",
+        "run init on document ready"
+    ],
+    "docstrings": [
+        "* Tags & categories tab activation based on hash value. If hash is undefined then first tab is activated."
+    ],
+    "functions": [
+        "init",
+        "activateTab"
+    ],
+    "classes": []
+}

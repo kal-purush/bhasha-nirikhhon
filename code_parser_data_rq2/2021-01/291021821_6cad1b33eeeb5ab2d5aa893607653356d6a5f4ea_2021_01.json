@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "useEffect",
+        "StateSelector",
+        "shallow",
+        "Options",
+        "AuthState",
+        "useAuth",
+        "EventBusState",
+        "useEventBus",
+        "authSelector",
+        "state",
+        "state",
+        "eventBusSelector",
+        "state",
+        "state",
+        "state",
+        "options",
+        "useAuth",
+        "authSelector",
+        "useEventBus",
+        "eventBusSelector",
+        "shallow",
+        "useEffect",
+        "auth",
+        "open",
+        "auth",
+        "options",
+        "close",
+        "auth",
+        "close",
+        "open",
+        "options"
+    ],
+    "literals": [
+        "'react'",
+        "'zustand'",
+        "'zustand/shallow'",
+        "'@wuespace/vertx-event-bus'",
+        "'./use-auth'",
+        "'./use-event-bus'",
+        "'auth'",
+        "'openEventBus'",
+        "'closeEventBus'"
+    ],
+    "variables": [
+        "authSelector",
+        "eventBusSelector",
+        "auth"
+    ],
+    "comments": [
+        "zustand selectors",
+        "on change of authentication -> close event bus"
+    ],
+    "docstrings": [
+        "* Handles the event bus creation automatically.\n *\n * It opens and closes the event bus\n * based on the application authentication state.\n *\n * If a user is logged in, the event bus will automatically be opened,\n * and if the user logs out again or nobody is logged in\n * the event bus will be closed.\n *\n * @param options - options passed to the event bus instance to control it\n * and set it up\n *\n * @example\n * Commonly used as:\n * ```ts\n * import { TelestionClient, useEventBusManager } from '@wuespace/telestion-client-core';\n *\n * export function App() {\n * \tuseEventBusManager({ pingInterval: 2000 });\n *\n * \treturn (\n * \t\t<TelestionClient title=\"My Application\">\n * \t\t\t...\n * \t\t</TelestionClient>\n * \t);\n * }\n * ```"
+    ],
+    "functions": [
+        "useEventBusManager"
+    ],
+    "classes": []
+}

@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Diagnostics",
+        "Runtime",
+        "InteropServices",
+        "Security",
+        "Security",
+        "Cryptography",
+        "SMAStudio",
+        "Util",
+        "data",
+        "data",
+        "Length",
+        "Buffer",
+        "BlockCopy",
+        "data",
+        "ToCharArray",
+        "Length",
+        "ProtectedData",
+        "Protect",
+        "s_aditionalEntropy",
+        "DataProtectionScope",
+        "CurrentUser",
+        "CryptographicException",
+        "e",
+        "Debug",
+        "WriteLine",
+        "Debug",
+        "WriteLine",
+        "e",
+        "ToString",
+        "data",
+        "ProtectedData",
+        "Unprotect",
+        "data",
+        "s_aditionalEntropy",
+        "DataProtectionScope",
+        "CurrentUser",
+        "CryptographicException",
+        "e",
+        "Debug",
+        "WriteLine",
+        "Debug",
+        "WriteLine",
+        "e",
+        "ToString"
+    ],
+    "literals": [
+        "\"Data was not encrypted. An error occurred.\"",
+        "\"Data was not decrypted. An error occurred.\""
+    ],
+    "variables": [
+        "s_aditionalEntropy"
+    ],
+    "comments": [
+        "Create byte array for additional entropy when using Protect method.",
+        "Encrypt the data using DataProtectionScope.CurrentUser. The result can be decrypted",
+        "only by the same current user.",
+        "Decrypt the data using DataProtectionScope.CurrentUser."
+    ],
+    "docstrings": [],
+    "functions": [
+        "Protect",
+        "Unprotect"
+    ],
+    "classes": [
+        "DataProtection"
+    ]
+}

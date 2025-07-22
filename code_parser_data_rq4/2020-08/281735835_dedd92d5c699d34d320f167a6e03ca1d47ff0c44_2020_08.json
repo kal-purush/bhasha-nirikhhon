@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "getClient",
+        "AutomationSheetID",
+        "SheetWrapper",
+        "writeLog",
+        "message",
+        "now",
+        "now",
+        "now",
+        "now",
+        "now",
+        "now",
+        "now",
+        "message",
+        "getClient",
+        "SheetWrapper",
+        "AutomationSheetID",
+        "client",
+        "logSheetWrapper",
+        "log",
+        "log",
+        "log",
+        "error",
+        "error",
+        "writeLog"
+    ],
+    "literals": [
+        "'./tokenUtil'",
+        "'./constants'",
+        "'./SheetWrapper'",
+        "string",
+        "string",
+        "string",
+        "${now.getFullYear()}-${now.getMonth()}-${now.getDay()} ${now.getHours()}:${now.getMinutes()}:${now.getSeconds()}.${now.getMilliseconds()}",
+        "'B'",
+        "'Logs'",
+        "[${log.DateTime}] ${log.Message}",
+        "'Encountered error while logging'"
+    ],
+    "variables": [
+        "writeLog",
+        "now",
+        "log",
+        "client",
+        "logSheetWrapper"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

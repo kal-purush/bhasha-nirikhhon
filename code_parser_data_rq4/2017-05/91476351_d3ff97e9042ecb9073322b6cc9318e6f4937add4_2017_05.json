@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "iso6346",
+        "classmethod",
+        "cls",
+        "cls",
+        "next_serial",
+        "cls",
+        "next_serial",
+        "result",
+        "classmethod",
+        "cls",
+        "owner_code",
+        "cls",
+        "owner_code",
+        "contents",
+        "classmethod",
+        "cls",
+        "owner_code",
+        "items",
+        "cls",
+        "owner_code",
+        "items",
+        "classmethod",
+        "cls",
+        "owner_code",
+        "args",
+        "cls",
+        "owner_code",
+        "args",
+        "staticmethod",
+        "owner_code",
+        "contents",
+        "owner_code",
+        "contents",
+        "ShippingContainer",
+        "_get_next_serial"
+    ],
+    "literals": [],
+    "variables": [
+        "next_serial",
+        "result",
+        "owner_code",
+        "contents",
+        "serial"
+    ],
+    "comments": [
+        "@staticmethod",
+        "def _get_next_serial():",
+        "result = ShippingContainer.next_serial",
+        "ShippingContainer.next_serial += 1",
+        "return result"
+    ],
+    "docstrings": [],
+    "functions": [
+        "_get_next_serial",
+        "create_empty",
+        "create_with_items_list",
+        "create_with_items_parameters"
+    ],
+    "classes": [
+        "ShippingContainer"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "matrix_list",
+        "isinstance",
+        "matrix_list",
+        "i",
+        "_",
+        "matrix_list",
+        "isinstance",
+        "matrix_list",
+        "i",
+        "len",
+        "matrix_list",
+        "len",
+        "matrix_list",
+        "IndexError",
+        "i",
+        "_",
+        "matrix_list",
+        "isinstance",
+        "matrix_list",
+        "i",
+        "i",
+        "isinstance",
+        "matrix_list",
+        "i",
+        "i",
+        "matrix_list",
+        "i",
+        "i",
+        "len",
+        "matrix_list",
+        "i",
+        "length",
+        "leading_diag",
+        "matrix_list",
+        "i",
+        "i",
+        "secondary_diag",
+        "matrix_list",
+        "i",
+        "length",
+        "i",
+        "leading_diag",
+        "secondary_diag",
+        "leading_diag",
+        "secondary_diag",
+        "leading_diag",
+        "secondary_diag"
+    ],
+    "literals": [
+        "\"Enter the matrix as a list of lists\"",
+        "\"The elements in the list, should also be a list\"",
+        "\"Invalid Matrix Size, Enter a square matrix\"",
+        "f\"Invalid type of entry{type(matrix_list[i][i])}\"",
+        "'Sum of the diagonals are:'",
+        "f'Principal diagonal = {leading_diag}'",
+        "f'Secondary duagonal = {secondary_diag}'",
+        "f'sum of both the diagonal elements are = {leading_diag+secondary_diag}'"
+    ],
+    "variables": [
+        "leading_diag",
+        "secondary_diag",
+        "length"
+    ],
+    "comments": [
+        "Principal diagonal",
+        "secondary diagonal"
+    ],
+    "docstrings": [
+        "'''To find the sum of both leading and secondary diagonals'''",
+        "'''This function takes in a valid list as matrix and returns the sum of both the diagonals '''"
+    ],
+    "functions": [
+        "diagonal_sum"
+    ],
+    "classes": []
+}

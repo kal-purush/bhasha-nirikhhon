@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "sqlite3",
+        "json",
+        "datetime",
+        "datetime",
+        "post_data",
+        "sqlite3",
+        "connect",
+        "conn",
+        "conn",
+        "cursor",
+        "db_cursor",
+        "execute",
+        "post_data",
+        "post_data",
+        "post_data",
+        "post_data",
+        "post_data",
+        "post_data",
+        "post_data",
+        "db_cursor",
+        "lastrowid",
+        "json",
+        "dumps",
+        "id"
+    ],
+    "literals": [
+        "\"./db.sqlite3\"",
+        "\"user_id\"",
+        "\"category_id\"",
+        "\"title\"",
+        "\"publication_date\"",
+        "\"image_url\"",
+        "\"content\"",
+        "\"approved\"",
+        "\"token\"",
+        "\"valid\""
+    ],
+    "variables": [
+        "db_cursor",
+        "id"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n        INSERT INTO Posts(user_id, category_id, title, publication_date, image_url, content, approved)\n        VALUES (?,?,?,?,?,?,?)  \n\n        \"\"\""
+    ],
+    "functions": [
+        "new_post"
+    ],
+    "classes": []
+}

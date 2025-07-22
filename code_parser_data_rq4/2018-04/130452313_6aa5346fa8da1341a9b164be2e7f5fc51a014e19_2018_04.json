@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "tools",
+        "length",
+        "width",
+        "length",
+        "width",
+        "length",
+        "width",
+        "basic",
+        "length",
+        "width"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "% weight=0 color=#3CB371 icon=\"\\uf0ad\" block=\"Tools\"",
+        "% blockId=\"areaOfRectangle\" block=\"area of rectangle length %length|width %width\"",
+        "% blockGap=2 weight=0 blockExternalInputs=true",
+        "% blockId=\"ledOfRectangle\" block=\"show area of rectangle length %length|width %width\"",
+        "% blockGap=2 weight=1"
+    ],
+    "docstrings": [
+        "* 計算長方形面積，並回傳",
+        "* 計算長方形面積，不回傳，只顯示在LED"
+    ],
+    "functions": [
+        "areaOfRectangle",
+        "ledOfRectangle"
+    ],
+    "classes": []
+}

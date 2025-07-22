@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "AbstractApi",
+        "AbstractApi",
+        "id",
+        "id",
+        "webhook",
+        "webhook",
+        "webhook",
+        "update",
+        "webhook",
+        "update",
+        "webhook",
+        "webhook",
+        "WebhookApi",
+        "instance"
+    ],
+    "literals": [
+        "'api/common/AbstractApi'",
+        "'/webhooks'",
+        "/webhooks/${id}",
+        "'/webhooks'",
+        "'post'",
+        "/webhooks/${webhook.id}",
+        "'put'",
+        "/webhooks/${webhook.id}",
+        "'delete'"
+    ],
+    "variables": [
+        "instance"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "all",
+        "get",
+        "create",
+        "update",
+        "remove"
+    ],
+    "classes": [
+        "WebhookApi"
+    ]
+}

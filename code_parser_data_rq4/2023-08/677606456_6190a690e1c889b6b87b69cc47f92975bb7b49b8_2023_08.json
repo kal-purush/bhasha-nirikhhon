@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "pembagi",
+        "error",
+        "error",
+        "alert"
+    ],
+    "literals": [
+        "'Pembagi bernilai 0'",
+        "\"Succsess\"",
+        "\"Ada error\"",
+        "\"Maaf ada yang error\""
+    ],
+    "variables": [
+        "bilangan",
+        "pembagi"
+    ],
+    "comments": [
+        "function nameValidation(firstName, lastName){",
+        "if (firstName == \"\" || lastName == \"\") {",
+        "console.log('Nama Kosong')",
+        "} else {",
+        "console.log('Success')",
+        "}",
+        "}",
+        "nameValidation(\"asdfa\", \"sdfa\")",
+        "const inputField = document.getElementById(\"tinggi-input\");",
+        "const button = document.getElementById('count-button')",
+        "inputField.addEventListener('input', function(){",
+        "const inputValue = inputField.value",
+        "if (inputValidation(inputValue)){",
+        "console.log('Success')",
+        "// button.style.display = \"block\"",
+        "button.disabled = false",
+        "} else{",
+        "console.log('Invalid')",
+        "button.disabled = true",
+        "// button.style.display = \"none\"",
+        "}",
+        "})",
+        "function inputValidation(input){",
+        "const integerRegex = /^-?\\d+$/",
+        "return integerRegex.test(input)",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

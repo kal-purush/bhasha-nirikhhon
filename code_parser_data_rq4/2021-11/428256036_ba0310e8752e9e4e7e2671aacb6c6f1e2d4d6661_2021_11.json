@@ -1,0 +1,18 @@
+{
+    "identifiers": [
+        "ALL_ROCKETS",
+        "ONE_ROCKET"
+    ],
+    "literals": [
+        "query allRockets {\n    allRockets {\n      name\n      id\n      imagesLinks\n    }\n  }",
+        "query oneRocket($rocketId: String!) {\n    oneRocket(rocketId: $rocketId) {\n      name\n      id\n      imagesLinks\n      height {\n        meters\n        feet\n      }\n      diameter {\n        meters\n        feet\n      }\n      mass {\n        kg\n        lb\n      }\n      stages\n      active\n      costPerLaunch\n      firstFlight\n      description\n      engines {\n        type\n        number\n        propellants\n      }\n      successRatePct\n      wiki\n    }\n  }"
+    ],
+    "variables": [
+        "ALL_ROCKETS",
+        "ONE_ROCKET"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

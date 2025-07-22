@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "grunt",
+        "grunt",
+        "grunt"
+    ],
+    "literals": [
+        "'grunt-war'",
+        "'public'",
+        "'adminTool'",
+        "'index.html'",
+        "'adminTool'",
+        "'woff'",
+        "'application/font-woff'",
+        "'public'",
+        "'**'",
+        "''"
+    ],
+    "variables": [],
+    "comments": [
+        ",\n                webxml_webapp_extras: function() {\n                  return \"<servlet><servlet-name>default</servlet-name><servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class><init-param><param-name>debug</param-name><param-value>0</param-value></init-param><init-param><param-name>listings</param-name><param-value>true</param-value></init-param><load-on-startup>1</load-on-startup></servlet><servlet-mapping><servlet-name>default</servlet-name><url-pattern>/profileadminapp/adminTool</url-pattern></servlet-mapping>\";\n                }"
+    ],
+    "docstrings": [
+        "* Build a WAR (web archive) without Maven or the JVM installed."
+    ],
+    "functions": [],
+    "classes": []
+}

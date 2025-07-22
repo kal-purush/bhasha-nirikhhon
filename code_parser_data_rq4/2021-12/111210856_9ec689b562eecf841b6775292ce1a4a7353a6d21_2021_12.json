@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "annotations",
+        "typing",
+        "TYPE_CHECKING",
+        "Any",
+        "Dict",
+        "Union",
+        "Request",
+        "TelegramMethod",
+        "TYPE_CHECKING",
+        "client",
+        "bot",
+        "Bot",
+        "TelegramMethod",
+        "Union",
+        "bot",
+        "Bot",
+        "Request",
+        "Dict",
+        "Any",
+        "Request",
+        "method",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "\"banChatSenderChat\""
+    ],
+    "variables": [
+        "__returning__",
+        "chat_id",
+        "sender_chat_id",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Use this method to ban a channel chat in a supergroup or a channel. Until the chat is `unbanned <https://core.telegram.org/bots/api#unbanchatsenderchat>`_, the owner of the banned chat won't be able to send messages on behalf of **any of their channels**. The bot must be an administrator in the supergroup or channel for this to work and must have the appropriate administrator rights. Returns :code:`True` on success.\n\n    Source: https://core.telegram.org/bots/api#banchatsenderchat\n    \"\"\"",
+        "\"\"\"Unique identifier for the target chat or username of the target channel (in the format :code:`@channelusername`)\"\"\"",
+        "\"\"\"Unique identifier of the target sender chat\"\"\""
+    ],
+    "functions": [
+        "build_request"
+    ],
+    "classes": [
+        "BanChatSenderChat"
+    ]
+}

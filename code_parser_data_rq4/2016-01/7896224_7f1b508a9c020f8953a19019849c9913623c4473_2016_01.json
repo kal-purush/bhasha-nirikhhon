@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "django",
+        "http",
+        "django",
+        "template",
+        "RequestContext",
+        "TemplateDoesNotExist",
+        "loader",
+        "Template",
+        "django",
+        "utils",
+        "translation",
+        "get_language",
+        "request",
+        "template_name",
+        "loader",
+        "get_template",
+        "template_name",
+        "TemplateDoesNotExist",
+        "Template",
+        "Page",
+        "objects",
+        "active",
+        "language",
+        "get_language",
+        "IndexError",
+        "page",
+        "template",
+        "render",
+        "RequestContext",
+        "request",
+        "request",
+        "path",
+        "page",
+        "http",
+        "HttpResponseNotFound",
+        "body",
+        "content_type",
+        "content_type"
+    ],
+    "literals": [
+        "'404.html'",
+        "'<h1>Not Found</h1>'",
+        "'<p>The requested URL {{ request_path }} was not found on this server.</p>'",
+        "'text/html'",
+        "'request_path'",
+        "'feincms_page'"
+    ],
+    "variables": [
+        "template",
+        "content_type",
+        "template",
+        "content_type",
+        "page",
+        "page",
+        "request",
+        "_feincms_page",
+        "body"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "this method is for django version < 1.9",
+        "for newer versions use view.v2.page_not_found",
+        "Django will use DEFAULT_CONTENT_TYPE"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Standard 404 view + feincms_page in context. Like this we can display\n    navigations in 404 page, without using the add_page_if_missing middleware.\n    We don't want to use the middleware, cause the page preview function,\n    doe't work correctly with it.\n    \"\"\""
+    ],
+    "functions": [
+        "page_not_found"
+    ],
+    "classes": []
+}

@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "require",
+        "EventResponse",
+        "args",
+        "args",
+        "data",
+        "data",
+        "issue",
+        "issue",
+        "issue",
+        "issue",
+        "issue",
+        "issue",
+        "data",
+        "data",
+        "data",
+        "l",
+        "l",
+        "data",
+        "actor",
+        "issue",
+        "issue",
+        "Issue"
+    ],
+    "literals": [
+        "'../EventResponse'",
+        "'This event gets fired when a test issue event is executed'",
+        "Issue #${issue.iid}: ${issue.title}",
+        "'A test issue event was fired from the GitLab integrations page'",
+        "'Description'",
+        "${issue.description.split('\\n').slice(0, 4).join('\\n').slice(0, 2000)}\\n\\u200B",
+        "'\\n'",
+        "'\\n'",
+        "'State'",
+        "'Created At'",
+        "'Labels'",
+        "\\`${l.title}\\",
+        "', '",
+        "'None'",
+        "🤦‍♂️ **${actor.name}** tested an issue event, and issue **#${issue.iid}** was sent.",
+        "<${issue.url}>",
+        "'\\n'"
+    ],
+    "variables": [
+        "EventResponse",
+        "issue",
+        "actor",
+        "issue",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "embed",
+        "text"
+    ],
+    "classes": [
+        "Issue"
+    ]
+}

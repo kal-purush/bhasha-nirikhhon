@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "RdAngularCompilerModule",
+        "CompiledResultModel",
+        "TemplateCompiler",
+        "Compiler",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require"
+    ],
+    "literals": [
+        "'@rd/compiler'",
+        "\"rxjs\"",
+        "\"@angular/core\"",
+        "\"@angular/common\"",
+        "\"@angular/forms\"",
+        "\"@angular/platform-browser\"",
+        "\"@angular/http\"",
+        "\"@angular/platform-browser-dynamic\"",
+        "\"@angular/compiler\"",
+        "\"@angular/core\"",
+        "\"@angular/compiler\""
+    ],
+    "variables": [
+        "ngCore",
+        "ngCore",
+        "compiler"
+    ],
+    "comments": [
+        "var compiler = require(\"@rd/compiler\")",
+        "var jitCompiler = new compiler.JitCompiler()",
+        "jitCompiler.compileModuleAndAllComponentsAsync()",
+        "compiler.CompiledResultModel()"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

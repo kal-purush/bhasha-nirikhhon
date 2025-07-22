@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "all",
+        "ComponentResourceOptions",
+        "Output",
+        "RandomPassword",
+        "Component",
+        "FunctionArgs",
+        "functionBuilder",
+        "Input",
+        "Component",
+        "name",
+        "args",
+        "opts",
+        "__pulumiType",
+        "name",
+        "args",
+        "opts",
+        "createKey",
+        "createServer",
+        "server",
+        "key",
+        "registerOutputs",
+        "RandomPassword",
+        "name",
+        "functionBuilder",
+        "name",
+        "args",
+        "key",
+        "args",
+        "args",
+        "v",
+        "v",
+        "all",
+        "url",
+        "key",
+        "OpenControl",
+        "__pulumiType"
+    ],
+    "literals": [
+        "\"@pulumi/pulumi\"",
+        "\"@pulumi/random\"",
+        "\"../component\"",
+        "\".\"",
+        "\"./helpers/function-builder\"",
+        "\"../input\"",
+        "string",
+        "string",
+        "string",
+        "${name}Key",
+        "${name}Server",
+        "${url}${key}",
+        "\"sst:aws:OpenControl\""
+    ],
+    "variables": [
+        "key",
+        "server",
+        "url",
+        "key",
+        "__pulumiType"
+    ],
+    "comments": [
+        "@ts-expect-error"
+    ],
+    "docstrings": [
+        "* The URL of the OpenControl server.",
+        "* The underlying [resources](/docs/components/#nodes) this component creates.",
+        "* The Function component for the server."
+    ],
+    "functions": [
+        "registerOutputs",
+        "createKey",
+        "createServer",
+        "url",
+        "nodes"
+    ],
+    "classes": [
+        "OpenControl"
+    ]
+}

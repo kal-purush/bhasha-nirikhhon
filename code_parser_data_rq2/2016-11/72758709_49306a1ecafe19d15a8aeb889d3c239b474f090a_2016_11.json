@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "formatWebpackMessages",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "Entities",
+        "ansiHTML",
+        "SockJS",
+        "stripAnsi",
+        "url",
+        "Entities",
+        "entities"
+    ],
+    "literals": [
+        "'./formatWebpackMessages'",
+        "'ansi-html'",
+        "'sockjs-client'",
+        "'strip-ansi'",
+        "'url'",
+        "'html-entities'"
+    ],
+    "variables": [
+        "ansiHTML",
+        "SockJS",
+        "stripAnsi",
+        "url",
+        "Entities",
+        "entities"
+    ],
+    "comments": [
+        "This alternative WebpackDevServer combines the functionality of:",
+        "https://github.com/webpack/webpack-dev-server/blob/webpack-1/client/index.js",
+        "https://github.com/webpack/webpack/blob/webpack-1/hot/dev-server.js",
+        "It only supports their simplest configuration (hot updates on same server).",
+        "It makes some opinionated choices on top, like adding a syntax error overlay",
+        "that looks similar to our console output. The error overlay is inspired by:",
+        "https://github.com/glenjamin/webpack-hot-middleware"
+    ],
+    "docstrings": [
+        "* Copyright (c) 2015-present, Facebook, Inc.\n * All rights reserved.\n *\n * This source code is licensed under the BSD-style license found in the\n * LICENSE file in the root directory of this source tree. An additional grant\n * of patent rights can be found in the PATENTS file in the same directory.",
+        "* Adapted for TypeScript by Zalando / Team Norris\n *\n * See https://github.com/facebookincubator/create-react-app/tree/master/packages/react-dev-utils\n * for original implementation."
+    ],
+    "functions": [],
+    "classes": []
+}

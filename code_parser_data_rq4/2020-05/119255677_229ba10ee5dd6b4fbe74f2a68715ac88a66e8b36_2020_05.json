@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "useRef",
+        "useState",
+        "useEffect",
+        "rollingMeanLen",
+        "updateLen",
+        "useState",
+        "useRef",
+        "useRef",
+        "rollingMeanLen",
+        "useRef",
+        "useEffect",
+        "updateFrameRate",
+        "timestamp",
+        "prevFrameTimestampRef",
+        "timestamp",
+        "prevFrameTimestampRef",
+        "frameLengthsRef",
+        "frameLengthsRef",
+        "frameLength",
+        "frameLength",
+        "lastUpdateRef",
+        "updateLen",
+        "setFrameRate",
+        "meanFrameRate",
+        "lastUpdateRef",
+        "prevFrameTimestampRef",
+        "timestamp",
+        "requestAnimationFrame",
+        "updateFrameRate",
+        "requestAnimationFrame",
+        "updateFrameRate",
+        "setFrameRate",
+        "updateLen",
+        "frameRate"
+    ],
+    "literals": [
+        "'react'"
+    ],
+    "variables": [
+        "frameRate",
+        "setFrameRate",
+        "prevFrameTimestampRef",
+        "frameLengthsRef",
+        "lastUpdateRef",
+        "updateFrameRate",
+        "frameLength",
+        "meanFrameRate"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Estimate and report current frame rate of app. Called with\n     * requestAnimationFrame. Uses average frame length over\n     * rollingMeanLen."
+    ],
+    "functions": [
+        "useFrameRate"
+    ],
+    "classes": []
+}

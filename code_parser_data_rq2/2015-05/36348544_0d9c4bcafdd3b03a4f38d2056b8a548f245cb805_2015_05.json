@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "require",
+        "AWS",
+        "AWS",
+        "ec2",
+        "req",
+        "err",
+        "result",
+        "result"
+    ],
+    "literals": [
+        "\"aws-sdk\"",
+        "\"i-82e538af\""
+    ],
+    "variables": [
+        "AWS",
+        "ec2",
+        "req"
+    ],
+    "comments": [
+        "<reference path=\"../../typings/tsd.d.ts\" />",
+        "var req: AWS.EC2Module.DescribeInstancesRequest = {\n  InstanceIds: [ \"\" ]\n}\n\n\nec2.describeInstances(req, (err, result) => {\n\n});\n\nec2.describeInstances({}, (err, result) => {\n  result.Instances.forEach((i: AWS.Instance, idx) => {\n    i.\n  })\n});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

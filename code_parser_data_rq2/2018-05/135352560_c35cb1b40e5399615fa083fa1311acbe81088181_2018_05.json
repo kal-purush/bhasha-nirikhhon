@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "shell",
+        "require",
+        "command",
+        "shell",
+        "command",
+        "result",
+        "exec",
+        "all",
+        "all",
+        "exec",
+        "compareVersions",
+        "CURRENT",
+        "PUBLISHED",
+        "CURRENT",
+        "PUBLISHED",
+        "exec",
+        "PUBLISHED",
+        "shell",
+        "CURRENT",
+        "PUBLISHED",
+        "shell"
+    ],
+    "literals": [
+        "\"shelljs\"",
+        "\"compare-versions\"",
+        "string",
+        "string",
+        "npm show autotune versions --json",
+        "npm version",
+        "* package.json version is ${CURRENT} but ${PUBLISHED} is published. Patching...",
+        "npm version ${PUBLISHED} --force --no-git-tag-version",
+        "npm version patch --no-git-tag-version",
+        "* package.json version is ${CURRENT} but ${PUBLISHED} is published. Patching...",
+        "npm version patch --no-git-tag-version"
+    ],
+    "variables": [
+        "compareVersions",
+        "result",
+        "PUBLISHED",
+        "all",
+        "CURRENT"
+    ],
+    "comments": [
+        "If the version in package.json is less than or equal to",
+        "the published version on npm, set the version to a patch",
+        "on top of the npm version so we can publish.",
+        "Get the highest published version of any tag",
+        "Greater than published, nothing to do"
+    ],
+    "docstrings": [],
+    "functions": [
+        "exec"
+    ],
+    "classes": []
+}

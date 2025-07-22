@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Message",
+        "Listener",
+        "OrderCreatedEvent",
+        "Subjects",
+        "queueGroupName",
+        "expirationQueue",
+        "Listener",
+        "Subjects",
+        "Subjects",
+        "queueGroupName",
+        "data",
+        "msg",
+        "data",
+        "delay",
+        "expirationQueue",
+        "data",
+        "msg"
+    ],
+    "literals": [
+        "'node-nats-streaming'",
+        "'@puppytickets/common'",
+        "'./queue-group.name'",
+        "'../../queues/expiration-queue'",
+        "'data'",
+        "'Waiting this many milliseconds to process the job: '"
+    ],
+    "variables": [
+        "delay"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "onMessage"
+    ],
+    "classes": [
+        "OrderCreatedListener"
+    ]
+}

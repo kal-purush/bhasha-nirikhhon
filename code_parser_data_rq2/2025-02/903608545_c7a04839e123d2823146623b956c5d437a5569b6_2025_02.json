@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "useMutation",
+        "useQueryClient",
+        "toast",
+        "addToLibrary",
+        "addToWishList",
+        "AddGameRequest",
+        "useQueryClient",
+        "useMutation",
+        "gameData",
+        "addToLibrary",
+        "gameData",
+        "data",
+        "queryClient",
+        "toast",
+        "data",
+        "error",
+        "toast",
+        "error",
+        "useQueryClient",
+        "useMutation",
+        "gameData",
+        "addToWishList",
+        "gameData",
+        "data",
+        "queryClient",
+        "toast",
+        "data",
+        "error",
+        "toast",
+        "error"
+    ],
+    "literals": [
+        "'@tanstack/react-query'",
+        "'sonner'",
+        "'@/core/api/services/library.service'",
+        "'library'",
+        "${data.game.name} added to your library!",
+        "'Failed to add game to library'",
+        "'Add to library error: '",
+        "'wishlist'",
+        "${data.game.name} added to your wishlist!",
+        "'Failed to add game to wishlist'",
+        "'Add to wishlist error:'"
+    ],
+    "variables": [
+        "queryClient",
+        "queryClient"
+    ],
+    "comments": [
+        "Invalidate libraries queries to refresh data",
+        "Show success toast",
+        "Invalidate wishlist queries to refresh data",
+        "Show success toast"
+    ],
+    "docstrings": [],
+    "functions": [
+        "useAddToLibrary",
+        "useAddToWishlist"
+    ],
+    "classes": []
+}

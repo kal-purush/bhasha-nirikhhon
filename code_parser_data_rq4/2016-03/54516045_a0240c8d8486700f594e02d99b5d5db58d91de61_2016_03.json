@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "ArmyComponent",
+        "Army",
+        "EditArmyDetailsComponent",
+        "NewArmyComponent",
+        "DonePipe",
+        "Component",
+        "DonePipe",
+        "ArmyComponent",
+        "EditArmyDetailsComponent",
+        "NewArmyComponent",
+        "EventEmitter",
+        "clickedArmy",
+        "clickedArmy",
+        "clickedArmy",
+        "tempArmy",
+        "Army",
+        "tempArmy",
+        "tempArmy",
+        "tempArmy",
+        "filterOption",
+        "filterOption"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./army.component'",
+        "'./army.model'",
+        "'./edit-army-details.component'",
+        "'./new-army.component'",
+        "'./done.pipe'",
+        "'army-list'",
+        "'armyList'",
+        "'onArmySelect'",
+        "<select (change)=\"onChange($event.target.value)\">\n    <option value=\"all\">Show All</option>\n    <option value=\"broken\">Show Broken</option>\n    <option value=\"notBroken\" selected=\"selected\">Not Broken</option>\n  </select>\n  <army-display *ngFor=\"#currentArmy of armyList | broken:filterBroken\"\n    (click)=\"armyClicked(currentArmy)\"\n    [class.selected]=\"currentArmy === selectedArmy\"\n    [army]=\"currentArmy\">\n  </army-display>\n  <edit-army-details *ngIf=\"selectedArmy\" [army]=\"selectedArmy\">\n  </edit-army-details>\n  <new-army (onSubmitNewArmy)=\"createArmy($event)\"></new-army>",
+        "string",
+        "\"notBroken\"",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "armyClicked",
+        "createArmy",
+        "onChange"
+    ],
+    "classes": [
+        "ArmyListComponent"
+    ]
+}

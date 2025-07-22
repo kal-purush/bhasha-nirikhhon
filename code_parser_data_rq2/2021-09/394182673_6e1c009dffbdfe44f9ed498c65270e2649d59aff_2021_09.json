@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "delay",
+        "got",
+        "url",
+        "msToDely",
+        "retryTimes",
+        "retryTimes",
+        "got",
+        "url",
+        "response",
+        "retryTimes",
+        "delay",
+        "msToDely",
+        "fetchData",
+        "url",
+        "msToDely",
+        "retryTimes",
+        "response"
+    ],
+    "literals": [
+        "'delay'",
+        "'got'",
+        "string"
+    ],
+    "variables": [
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* if retryTimes is big than 0, make a request, if the response statusCode is not 200, meaning requset failed,delay and retry\n * @param {string} url\n * @param {number} msToDely\n * @param {number} [retryTimes=2]"
+    ],
+    "functions": [
+        "fetchData"
+    ],
+    "classes": []
+}

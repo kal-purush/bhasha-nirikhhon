@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "first",
+        "second",
+        "first",
+        "second",
+        "first",
+        "second",
+        "equality",
+        "first",
+        "second",
+        "equality",
+        "DistinctCollector",
+        "values",
+        "input",
+        "DistinctCollector",
+        "values",
+        "input",
+        "values",
+        "input",
+        "values",
+        "accumulated",
+        "accumulated",
+        "array",
+        "value",
+        "equality",
+        "first",
+        "second",
+        "array",
+        "i",
+        "i",
+        "equality",
+        "array",
+        "i",
+        "value"
+    ],
+    "literals": [],
+    "variables": [
+        "i"
+    ],
+    "comments": [
+        "<reference path=\"Collector\" />",
+        "Default (identity) equals function.",
+        "The equality function.",
+        "Returns an empty array.",
+        "Adds the new element to the accumulated array, if it doesn't already contains, it according to the equality function.",
+        "Returns the accumulated array."
+    ],
+    "docstrings": [
+        "* Very basic implementation of a collector, that collects distinct values.\n * In the future this should use some kind of hash data structure for filtering duplicates.",
+        "* Constructor.\n\t * @param equality The equality function.",
+        "* Checks if a given array contains the given element according to the given equality function.\n\t * @param array The array\n\t * @param value The value.\n\t * @param equality The equality function."
+    ],
+    "functions": [
+        "initial",
+        "accumulate",
+        "finish",
+        "contains"
+    ],
+    "classes": [
+        "DistinctCollector"
+    ]
+}

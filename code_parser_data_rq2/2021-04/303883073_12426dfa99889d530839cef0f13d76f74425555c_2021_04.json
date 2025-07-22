@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "PasswordRequirement",
+        "PasswordRequirementType",
+        "PasswordRequirementType",
+        "PasswordRequirementType",
+        "PasswordRequirementType",
+        "PasswordRequirementType",
+        "PasswordRequirementType",
+        "PasswordRequirementType",
+        "PasswordRequirementType"
+    ],
+    "literals": [
+        "'../models/auth/password-requirement.model'",
+        "'../models/auth/password-requirement-type.enum'",
+        "'odm.auth.form.requirements.title'",
+        "'odm.auth.form.requirements.min-chars-long'",
+        "'odm.auth.form.requirements.one-upper-case'",
+        "'odm.auth.form.requirements.one-lower-case'",
+        "'odm.auth.form.requirements.digit'",
+        "'odm.auth.form.requirements.three-unique-chars'",
+        "'odm.auth.form.requirements.one-special-char'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Gets password requirements for this application.\n * @returns password requirements"
+    ],
+    "functions": [
+        "getPasswordRequirements"
+    ],
+    "classes": []
+}

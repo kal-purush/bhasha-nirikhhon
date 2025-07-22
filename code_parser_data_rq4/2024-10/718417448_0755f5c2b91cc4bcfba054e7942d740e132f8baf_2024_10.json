@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "java",
+        "io",
+        "File",
+        "java",
+        "time",
+        "java",
+        "util",
+        "javax",
+        "net",
+        "ssl",
+        "certPath",
+        "File",
+        "separator",
+        "rootsToTest",
+        "DISTRUST_DATE",
+        "LocalDate",
+        "of",
+        "atStartOfDay",
+        "ZoneOffset",
+        "UTC",
+        "args",
+        "distrust",
+        "args",
+        "tms",
+        "distrust",
+        "getTMF",
+        "distrust",
+        "getTMF",
+        "notBefore",
+        "distrust",
+        "getNotBefore",
+        "DISTRUST_DATE",
+        "distrust",
+        "testCertificateChain",
+        "certPath",
+        "notBefore",
+        "tms",
+        "rootsToTest"
+    ],
+    "literals": [
+        "\"chains\"",
+        "\"entrust\"",
+        "\"entrustevca\"",
+        "\"entrustrootcaec1\"",
+        "\"entrustrootcag2\"",
+        "\"entrustrootcag4\"",
+        "\"entrust2048ca\"",
+        "\"affirmtrustcommercialca\"",
+        "\"affirmtrustnetworkingca\"",
+        "\"affirmtrustpremiumca\"",
+        "\"affirmtrustpremiumeccca\"",
+        "\"PKIX\"",
+        "\"SunX509\""
+    ],
+    "variables": [],
+    "comments": [
+        "Each of the roots have a test certificate chain stored in a file",
+        "named \"<root>-chain.pem\".",
+        "Date when the restrictions take effect"
+    ],
+    "docstrings": [
+        "* Copyright (c) 2024, Oracle and/or its affiliates. All rights reserved.\n * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.\n *\n * This code is free software; you can redistribute it and/or modify it\n * under the terms of the GNU General Public License version 2 only, as\n * published by the Free Software Foundation.\n *\n * This code is distributed in the hope that it will be useful, but WITHOUT\n * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\n * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\n * version 2 for more details (a copy is included in the LICENSE file that\n * accompanied this code).\n *\n * You should have received a copy of the GNU General Public License version\n * 2 along with this work; if not, write to the Free Software Foundation,\n * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.\n *\n * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA\n * or visit www.oracle.com if you need additional information or have any\n * questions.",
+        "* @test\n * @bug 8337664 8341059\n * @summary Check that TLS Server certificates chaining back to distrusted\n *          Entrust roots are invalid\n * @library /test/lib\n * @modules java.base/sun.security.validator\n * @run main/othervm Entrust after policyOn invalid\n * @run main/othervm Entrust after policyOff valid\n * @run main/othervm Entrust before policyOn valid\n * @run main/othervm Entrust before policyOff valid"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "Entrust"
+    ]
+}

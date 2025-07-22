@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "purchase",
+        "payment",
+        "purchase",
+        "payment",
+        "amount",
+        "purchase",
+        "purchase",
+        "amount",
+        "moneyGiven",
+        "payment",
+        "payment",
+        "moneyGiven",
+        "payment",
+        "purchase",
+        "printf",
+        "giveChange"
+    ],
+    "literals": [
+        "\"Your change is: %.2f\""
+    ],
+    "variables": [
+        "purchase",
+        "payment"
+    ],
+    "comments": [],
+    "docstrings": [
+        "•\tREVIEW Assignment for CS176\n•\tCreate a class called CashRegister.\n•\tCashRegister will use two instance variables:\npurchase (double) will be a total of all purchases made by the customer\npayment (double) will be the amount the customer is submitting to pay for purchases.\n•\tCashRegister methods:\no\tConstructor will create a cash register with purchase = 0 and payment = 0.\no\trecordPurchase will record a sale and add the new sale amount to purchase\no\treceivePayment will receive the amount paid by the customer into payment\no\tgiveChange will calculate and return the amount of change due to the customer (purchase – payment)\n•\tCreate a tester called CashRegisterTester which will:\no\tCreate a CashRegister object\no\tUse a loop to accept purchases from the screen until a SENTINEL value of -1 is typed\no\tAccept the payment for the purchases\no\tCalculate and print the amount of change due to the customer\n•\tDocument all components of the CashRegister class\n•\tRun CashRegisterTester several times to achieve the results shown below"
+    ],
+    "functions": [
+        "CashRegister",
+        "recordPurchase",
+        "receivePayment",
+        "giveChange",
+        "printChange"
+    ],
+    "classes": [
+        "CashRegister"
+    ]
+}

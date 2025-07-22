@@ -1,0 +1,85 @@
+{
+    "identifiers": [
+        "Text",
+        "Json",
+        "Text",
+        "Json",
+        "Serialization",
+        "Couchbase",
+        "Extensions",
+        "Locks",
+        "Internal",
+        "JsonConverter",
+        "DateTimeKind",
+        "Utc",
+        "Utf8JsonReader",
+        "reader",
+        "Type",
+        "typeToConvert",
+        "JsonSerializerOptions",
+        "options",
+        "reader",
+        "TokenType",
+        "JsonTokenType",
+        "reader",
+        "GetDouble",
+        "dbl",
+        "TimeSpan",
+        "TicksPerMillisecond",
+        "UnixEpoch",
+        "Ticks",
+        "ticks",
+        "DateTimeKind",
+        "Utc",
+        "reader",
+        "TokenType",
+        "JsonTokenType",
+        "reader",
+        "GetDateTime",
+        "JsonException",
+        "Utf8JsonWriter",
+        "writer",
+        "value",
+        "JsonSerializerOptions",
+        "options",
+        "value",
+        "Kind",
+        "DateTimeKind",
+        "Local",
+        "value",
+        "value",
+        "ToUniversalTime",
+        "value",
+        "UnixEpoch",
+        "TotalMilliseconds",
+        "writer",
+        "WriteNumberValue",
+        "unixMilliseconds"
+    ],
+    "literals": [
+        "\"Expected number or string for DateTime value.\""
+    ],
+    "variables": [
+        "UnixEpoch",
+        "dbl",
+        "ticks",
+        "unixMilliseconds"
+    ],
+    "comments": [
+        "System.Text.Json converter that represents DateTime as milliseconds since the Unix epoch.",
+        "</summary>",
+        "Backward compatibility for consumers using System.Text.Json when this library was designed",
+        "for Newtonsoft.Json, in which case ISO8601 strings were stored."
+    ],
+    "docstrings": [
+        "<summary>",
+        "************************************************************\n *\n *    @author Couchbase <info@couchbase.com>\n *    @copyright 2021 Couchbase, Inc.\n *\n *    Licensed under the Apache License, Version 2.0 (the \"License\");\n *    you may not use this file except in compliance with the License.\n *    You may obtain a copy of the License at\n *\n *        http://www.apache.org/licenses/LICENSE-2.0\n *\n *    Unless required by applicable law or agreed to in writing, software\n *    distributed under the License is distributed on an \"AS IS\" BASIS,\n *    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n *    See the License for the specific language governing permissions and\n *    limitations under the License.\n *\n * ***********************************************************"
+    ],
+    "functions": [
+        "Read",
+        "Write"
+    ],
+    "classes": [
+        "UnixMillisecondsJsonConverter"
+    ]
+}

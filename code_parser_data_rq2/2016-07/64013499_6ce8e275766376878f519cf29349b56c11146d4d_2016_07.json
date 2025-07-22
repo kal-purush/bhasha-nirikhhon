@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "require",
+        "xml2js",
+        "require",
+        "require",
+        "source",
+        "callback",
+        "request",
+        "source",
+        "err",
+        "resp",
+        "body",
+        "err",
+        "callback",
+        "err",
+        "resp",
+        "parser",
+        "body",
+        "err",
+        "result",
+        "err",
+        "callback",
+        "err",
+        "jsonResult",
+        "callback",
+        "jsonResult",
+        "resp",
+        "callback",
+        "err",
+        "parseRSS"
+    ],
+    "literals": [
+        "'xml2js'",
+        "'fs'",
+        "'request'",
+        "'http://www.uisdc.com/feed'",
+        "'request failed'",
+        "'xmlParser error'",
+        "'fail statusCode：'"
+    ],
+    "variables": [
+        "xml2js",
+        "parser",
+        "fs",
+        "request",
+        "source",
+        "jsonResult",
+        "result"
+    ],
+    "comments": [
+        "JSON.stringify(result);",
+        "fs.appendFile('./ss.txt', jsonResult, function (err) {",
+        "if (err) return;",
+        "});",
+        "console.log(result);"
+    ],
+    "docstrings": [
+        "* RSSParser"
+    ],
+    "functions": [
+        "parseRSS"
+    ],
+    "classes": []
+}

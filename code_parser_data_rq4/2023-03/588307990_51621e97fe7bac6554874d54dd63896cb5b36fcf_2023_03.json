@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "DECIMAL_DISPLAY",
+        "changePolarity",
+        "delta",
+        "hasTrendAccess",
+        "thisIsBad",
+        "hasTrendAccess",
+        "delta",
+        "DECIMAL_ROUNDING_PRECISION",
+        "delta",
+        "DECIMAL_ROUNDING_PRECISION",
+        "thisIsBad",
+        "polarity",
+        "polarity",
+        "metricChange",
+        "delta",
+        "hasTrendAccess",
+        "fallback",
+        "hasTrendAccess",
+        "delta",
+        "DECIMAL_DISPLAY",
+        "fallback",
+        "defineIcon",
+        "polarity",
+        "thisIsBad",
+        "thisIsBad",
+        "polarity",
+        "polarity",
+        "polarity"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "${Math.abs(delta).toFixed(DECIMAL_DISPLAY)}%",
+        "string",
+        "'arrowUp'",
+        "'arrowDown'",
+        "'noData'"
+    ],
+    "variables": [
+        "DECIMAL_DISPLAY",
+        "DECIMAL_ROUNDING_PRECISION",
+        "changePolarity",
+        "polarity",
+        "metricChange",
+        "defineIcon"
+    ],
+    "comments": [
+        "Used to render a percentage display (eg: 30.97%)",
+        "Rounding precision for raw values (eg: 0.3097)",
+        "Flip the bit if change is detrimental"
+    ],
+    "docstrings": [
+        "* Beneficial increase (eg: Traffic) is considered good.\n * Detrimental increase (eg: Error traffic) is considered bad, and behave in the opposite manner.\n * @param {number} delta - A numeric representation of week-to-week change\n * @param {Boolean} thisIsBad - Flag to determine whether change is beneficial or detrimental\n * @returns {string}",
+        "* Determines the trend value to be displayed by the metric card\n * @param {number} delta The change amount during the given time period\n * @param {Boolean} hasTrendAccess Whether the user's Tier allows it\n * @returns {string}",
+        "* Determines whether to display an upward or downward trend, or no change"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "_lerp",
+        "IPolygon",
+        "vecAlloc",
+        "vecReset",
+        "poly",
+        "t",
+        "vecAlloc",
+        "poly",
+        "len",
+        "vecReset",
+        "NaN",
+        "NaN",
+        "t",
+        "t",
+        "len",
+        "len",
+        "len",
+        "t",
+        "p0",
+        "len",
+        "vecReset",
+        "_lerp",
+        "poly",
+        "p0",
+        "poly",
+        "p1",
+        "t",
+        "p0",
+        "_lerp",
+        "poly",
+        "p0",
+        "poly",
+        "p1",
+        "t",
+        "p0"
+    ],
+    "literals": [
+        "\"../internal/_lerp\"",
+        "\"../types\"",
+        "\"../vecFunctions/vecAlloc\"",
+        "\"../vecFunctions/vecReset\""
+    ],
+    "variables": [
+        "len",
+        "p0",
+        "p1"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Computes a point along the polygon's perimeter, parameterized according to linear interpolation between\n * adjacent vertices, cycling back to the start after its last vertex.\n *\n * A polygon with _N_ sides is parameterized according to _t_, where integer values of _t0_ correspond to the polygon's\n * vertices in order, and smooth values of _t0_ therein interpolate linearly between adjacent vertices, with an\n * additional segment connecting the last vertex to the first.\n *\n * @param poly the polygon to compute a point on\n * @param t the parameter variable at which a point should be calculated\n * @param out"
+    ],
+    "functions": [
+        "polygonGetPerimeterPointAt"
+    ],
+    "classes": []
+}

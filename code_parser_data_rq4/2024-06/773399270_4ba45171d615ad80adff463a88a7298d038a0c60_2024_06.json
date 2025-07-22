@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "dotenv",
+        "Pool",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "axios",
+        "process",
+        "tmdbResponse",
+        "movie",
+        "movies",
+        "pool",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "error",
+        "error",
+        "error",
+        "populateDatabase"
+    ],
+    "literals": [
+        "\"axios\"",
+        "\"pg\"",
+        "\"dotenv\"",
+        "\"../.env\"",
+        "https://api.themoviedb.org/3/discover/movie?language=pt-BR",
+        "Bearer ${process.env.TOKEN}",
+        "\"INSERT INTO movies (id, title, overview, poster_path) VALUES ($1, $2, $3, $4) ON CONFLICT (id) DO NOTHING\"",
+        "\"Movies fetched and stored successfully\"",
+        "\"Error fetching and storing movies:\"",
+        "\"An unknown error occurred while fetching and storing movies\""
+    ],
+    "variables": [
+        "axios",
+        "pkg",
+        "dotenv",
+        "pkg",
+        "pool",
+        "tmdbResponse",
+        "movies"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "populateDatabase"
+    ],
+    "classes": []
+}

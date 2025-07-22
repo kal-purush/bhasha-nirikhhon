@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "VcMetadata",
+        "SignedCredential",
+        "credential",
+        "credential",
+        "metadata",
+        "credential",
+        "credential",
+        "credential",
+        "credential",
+        "baseMetadata",
+        "addOnMetadata",
+        "VcMetadataParser",
+        "credential",
+        "credential",
+        "entriesIn",
+        "entry",
+        "targetResources",
+        "entry",
+        "entriesOut",
+        "error",
+        "error",
+        "vcType",
+        "vcType",
+        "HealthPassportParser",
+        "VcMetadataParser"
+    ],
+    "literals": [
+        "'@affinidi/affinity-metrics-lib'",
+        "'../../dto/shared.dto'",
+        "'data'",
+        "'Specimen'",
+        "'Observation'",
+        "'Organization'",
+        "'Error:'",
+        "string",
+        "'HealthPassportBundleCredentialV1'"
+    ],
+    "variables": [
+        "metadata",
+        "baseMetadata",
+        "addOnMetadata",
+        "targetResources",
+        "entriesIn",
+        "entriesOut"
+    ],
+    "comments": [
+        "anything to data will be overwritten by SpecificVcMetadada.data",
+        "parse vcType-agnostic metadata",
+        "parse vcType-specific metadata",
+        "eslint-disable-next-line no-unused-vars",
+        "TODO: can we import this value from vc-data in a modular way?"
+    ],
+    "docstrings": [],
+    "functions": [
+        "parseCommon",
+        "parseSpecific",
+        "parse",
+        "parseSpecific",
+        "createParser"
+    ],
+    "classes": [
+        "VcMetadataParser",
+        "HealthPassportParser",
+        "VcMetadataParserFactory"
+    ]
+}

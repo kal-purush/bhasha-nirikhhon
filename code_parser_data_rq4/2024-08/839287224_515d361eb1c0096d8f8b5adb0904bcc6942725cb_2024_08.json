@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Controller",
+        "Delete",
+        "Get",
+        "Post",
+        "Put",
+        "UserService",
+        "Controller",
+        "userService",
+        "Get",
+        "Get",
+        "Post",
+        "Get",
+        "Put",
+        "Delete"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'./user.service'",
+        "'users'",
+        "string",
+        "'/check-health'",
+        "string",
+        "'Ok'",
+        "string",
+        "'/:id'",
+        "string",
+        "'/:id'",
+        "string",
+        "'/:id'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "Nhan cac req tu clien -> server va response server -> clienr (data from service)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getUsers",
+        "checkHealth",
+        "createUser",
+        "detailUser",
+        "updateUser",
+        "deleteUser"
+    ],
+    "classes": [
+        "UserController"
+    ]
+}

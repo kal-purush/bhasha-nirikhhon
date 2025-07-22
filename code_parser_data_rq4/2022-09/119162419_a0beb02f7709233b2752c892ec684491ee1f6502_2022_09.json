@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "OAuthConfig",
+        "OAuthUserConfig",
+        "options",
+        "HubSpotConfig",
+        "HubSpotConfig",
+        "options",
+        "HubSpotConfig",
+        "HubSpotConfig",
+        "context",
+        "HubSpotConfig",
+        "context",
+        "fetch",
+        "url",
+        "response",
+        "profile",
+        "userInfo",
+        "userInfo",
+        "userInfo"
+    ],
+    "literals": [
+        "\".\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"https://app.hubspot.com/oauth/authorize\"",
+        "\"https://api.hubapi.com/oauth/v1/token\"",
+        "\"https://api.hubapi.com/oauth/v1/access-tokens\"",
+        "\"hubspot\"",
+        "\"HubSpot\"",
+        "\"oauth\"",
+        "\"oauth\"",
+        "\"client_secret_post\"",
+        "${HubSpotConfig.profileUrl}/${context.tokens.access_token}",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "\"GET\""
+    ],
+    "variables": [
+        "HubSpotConfig",
+        "url",
+        "response",
+        "userInfo",
+        "profile"
+    ],
+    "comments": [
+        "TODO: figure out additional fields, for now using",
+        "https://legacydocs.hubspot.com/docs/methods/oauth2/get-access-token-information",
+        "TODO: get image from profile once it's available",
+        "Details available https://community.hubspot.com/t5/APIs-Integrations/Profile-photo-is-not-retrieved-with-User-API/m-p/325521"
+    ],
+    "docstrings": [],
+    "functions": [
+        "HubSpot",
+        "request",
+        "profile"
+    ],
+    "classes": []
+}

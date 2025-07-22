@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Aurelia",
+        "HttpClient",
+        "BaseConfig",
+        "aurelia",
+        "aurelia",
+        "HttpClient",
+        "aurelia",
+        "BaseConfig",
+        "httpClient",
+        "config",
+        "config",
+        "baseConfig",
+        "request",
+        "request",
+        "request",
+        "request",
+        "response",
+        "response",
+        "response",
+        "response"
+    ],
+    "literals": [
+        "\"fetch\"",
+        "\"aurelia-framework\"",
+        "'aurelia-fetch-client'",
+        "\"baseConfig\"",
+        "'Accept'",
+        "'application/json'",
+        "'X-Requested-With'",
+        "'Fetch'",
+        "Requesting ${request.method} ${request.url}",
+        "Received ${response.status} ${response.url}"
+    ],
+    "variables": [
+        "httpClient",
+        "baseConfig"
+    ],
+    "comments": [
+        "import \"fetch\" is required for IE",
+        "'Authorization': `Bearer xxxxx` // Add the beaere toke here",
+        "you can return a modified Request, or you can short-circuit the request by returning a Response",
+        "you can return a modified Response"
+    ],
+    "docstrings": [],
+    "functions": [
+        "configure",
+        "request",
+        "response"
+    ],
+    "classes": []
+}

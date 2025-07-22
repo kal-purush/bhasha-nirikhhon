@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "InternalTextureCreationOptions"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Defines texture type (int by default)",
+        "Defines sampling mode (trilinear by default)",
+        "Defines format (RGBA by default)",
+        "Defines sample count (1 by default)",
+        "Texture creation flags",
+        "Specifies whether or not a depth should be allocated in the texture (true by default)",
+        "Specifies whether or not a stencil should be allocated in the texture (false by default)",
+        "Specifies whether or not a stencil should be allocated in the texture",
+        "Specifies whether or not bilinear filtering is enable on the texture",
+        "Specifies the comparison function to set on the texture. If 0 or undefined, the texture is not in comparison mode",
+        "Specifies if the created texture is a cube texture",
+        "Specifies the sample count of the depth/stencil texture texture"
+    ],
+    "docstrings": [
+        "* Define options used to create an internal texture",
+        "* Specifies if mipmaps must be created. If undefined, the value from generateMipMaps is taken instead",
+        "* Specifies if mipmaps must be generated",
+        "* Define options used to create a render target texture",
+        "* Define options used to create a depth texture",
+        "* Type used to define a texture size (either with a number or with a rect width and height)"
+    ],
+    "functions": [],
+    "classes": [
+        "InternalTextureCreationOptions",
+        "RenderTargetCreationOptions",
+        "DepthTextureCreationOptions"
+    ]
+}

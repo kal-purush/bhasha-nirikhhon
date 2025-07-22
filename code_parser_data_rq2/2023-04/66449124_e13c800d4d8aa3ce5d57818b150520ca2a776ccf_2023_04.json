@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "abc",
+        "dataclasses",
+        "dataclass",
+        "field",
+        "dataclass",
+        "abc",
+        "ABC",
+        "field",
+        "init",
+        "field",
+        "init",
+        "field",
+        "init",
+        "field",
+        "init",
+        "classmethod",
+        "cls",
+        "image_name",
+        "centos",
+        "scientific_linux",
+        "rocky",
+        "subclass",
+        "cls",
+        "__subclasses__",
+        "identifier",
+        "subclass",
+        "os_identifiers",
+        "identifier",
+        "casefold",
+        "image_name",
+        "casefold",
+        "subclass",
+        "ValueError",
+        "image_name"
+    ],
+    "literals": [
+        "\"OsDescription\"",
+        "f\"Could not find OS for image {image_name}\""
+    ],
+    "variables": [
+        "os_identifiers",
+        "aq_os_name",
+        "aq_os_version",
+        "aq_default_personality"
+    ],
+    "comments": [
+        "This breaks the circular import, by loading subclasses",
+        "dynamically when we need them",
+        "noinspection PyUnresolvedReferences"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Abstract base class for OS descriptions\n    \"\"\""
+    ],
+    "functions": [
+        "from_image_name"
+    ],
+    "classes": [
+        "OsDescription"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Microsoft",
+        "Performance",
+        "Toolkit",
+        "Plugins",
+        "Runtime",
+        "Validation",
+        "Microsoft",
+        "Performance",
+        "Toolkit",
+        "Plugins",
+        "Runtime",
+        "IReadOnlyCollection",
+        "IPluginValidator",
+        "Empty",
+        "IPluginValidator",
+        "NeverPassInvalidPluginsGate"
+    ],
+    "literals": [],
+    "variables": [
+        "ValidateSdkVersion",
+        "AdditionalValidators",
+        "IInvalidPluginsGate",
+        "InvalidPluginsGate"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft Corporation.",
+        "Licensed under the MIT License.",
+        "Options for creating a <see cref=\"PluginsSystem\"/>.",
+        "</summary>",
+        "Gets or sets a value indicating whether or not plugins SDK versions should",
+        "be checked for compatibility with the running SDK. The default value is",
+        "<c>true</c>.",
+        "</summary>a",
+        "Gets or sets additional <see cref=\"IPluginValidator\"/>s that will be used to validate",
+        "plugins during plugin discovery, installation, and loading.",
+        "</summary>",
+        "Gets or sets an <see cref=\"IInvalidPluginsGate\"/> to use when determining whether",
+        "to continue a plugins system operation despite plugin validation errors.",
+        "The default behavior is that operations will *never* continue if validation errors occur.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "PluginsSystemCreationOptions"
+    ]
+}

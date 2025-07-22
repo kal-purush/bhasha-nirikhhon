@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Microsoft",
+        "Extensions",
+        "Logging",
+        "Collections",
+        "Generic",
+        "Diagnostics",
+        "Linq",
+        "Threading",
+        "Tasks",
+        "WebApplicationTeam1",
+        "Models",
+        "WebApplicationTeam1",
+        "DataAccess",
+        "WebApplicationTeam1",
+        "Controllers",
+        "Controller",
+        "AppDbContext",
+        "context",
+        "dbContext",
+        "context",
+        "View"
+    ],
+    "literals": [],
+    "variables": [
+        "AppDbContext",
+        "dbContext"
+    ],
+    "comments": [
+        "linking db context to our controller",
+        "linking our controller to the dbcontext for link commands",
+        "context.Database.EnsureCreated();",
+        "here's where we create the linq queries for the data ???",
+        "private readonly ILogger<HomeController> _logger;",
+        "public HomeController(ILogger<HomeController> logger)",
+        "{",
+        "_logger = logger;",
+        "} was put here bvy default",
+        "public IActionResult Privacy()",
+        "{",
+        "return View();",
+        "}was put here by default",
+        "[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]",
+        "public IActionResult Error()",
+        "{",
+        "return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });",
+        "} was put here by default"
+    ],
+    "docstrings": [],
+    "functions": [
+        "HomeController",
+        "IActionResult",
+        "Index"
+    ],
+    "classes": [
+        "HomeController"
+    ]
+}

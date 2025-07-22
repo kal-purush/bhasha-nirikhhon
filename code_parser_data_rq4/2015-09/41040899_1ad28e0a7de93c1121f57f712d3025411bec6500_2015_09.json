@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "division",
+        "print_function",
+        "vispy",
+        "color",
+        "BaseColormap",
+        "BaseColormap",
+        "BaseColormap"
+    ],
+    "literals": [],
+    "variables": [
+        "glsl_map",
+        "glsl_map"
+    ],
+    "comments": [
+        "create colormaps that work well for translucent and additive volume rendering"
+    ],
+    "docstrings": [
+        "\"\"\"\n        vec4 translucent_fire(float t) {\n        return vec4(pow(t, 0.5), t, t*t, max(0, t*1.05 - 0.05));\n        }\n        \"\"\"",
+        "\"\"\"\n        vec4 translucent_grays(float t) {\n        return vec4(t, t, t, t*0.05);\n        }\n        \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "TransFire",
+        "TransGrays"
+    ]
+}

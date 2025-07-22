@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "division",
+        "print_function",
+        "ansible",
+        "module_utils",
+        "basic",
+        "AnsibleModule",
+        "ansible_collections",
+        "synthesio",
+        "ovh",
+        "plugins",
+        "module_utils",
+        "ovh",
+        "OVH",
+        "ovh_argument_spec",
+        "ovh_argument_spec",
+        "module_args",
+        "update",
+        "service_name",
+        "required",
+        "AnsibleModule",
+        "argument_spec",
+        "module_args",
+        "supports_check_mode",
+        "OVH",
+        "check_mode",
+        "exit_json",
+        "msg",
+        "service_name",
+        "changed",
+        "client",
+        "wrap_call",
+        "service_name",
+        "exit_json",
+        "changed",
+        "compatible_templates",
+        "compatible_templates",
+        "run_module",
+        "main"
+    ],
+    "literals": [
+        "r\"\"\"\n- name: Retrieve all compatible templates for an OVH dedicated server\n  synthesio.ovh.dedicated_server_compatible_templates:\n    service_name: \"{{ service_name }}\"\n  delegate_to: localhost\n  register: dedicated_templates\n\"\"\"",
+        "r\"\"\"\ncompatible_templates:\n    description: List of available templates for a the given host\n    returned: always\n    type: dict\n    sample: {\n              \"ovh\": [\n                       \"debian11_64\",\n                       \"debian12-plesk18_64\",\n                       \"debian12_64\",\n              ],\n              \"personal\": [\n                       \"template_1\",\n                       \"template_2\"\n              ]\n    }\n\"\"\"",
+        "\"service_name\"",
+        "f\"Retrieving templates for {service_name} - (dry run mode)\"",
+        "\"GET\"",
+        "f\"/dedicated/server/{service_name}/install/compatibleTemplates\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "__metaclass__",
+        "DOCUMENTATION",
+        "EXAMPLES",
+        "RETURN",
+        "module_args",
+        "client",
+        "service_name",
+        "compatible_templates"
+    ],
+    "comments": [
+        "!/usr/bin/python",
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "\"\"\"\n---\nmodule: dedicated_server_compatible_templates\nshort_description: Retrieve all compatible templates for a OVH dedicated server\ndescription:\n    - This module retrieves all compatible templates for a OVH dedicated server\nauthors: Saul Bertuccio, Atlantis Boengkih\nrequirements:\n    - ovh >= 0.5.0\noptions:\n    service_name:\n        required: true\n        description: The service name\n\"\"\""
+    ],
+    "functions": [
+        "run_module",
+        "main"
+    ],
+    "classes": []
+}

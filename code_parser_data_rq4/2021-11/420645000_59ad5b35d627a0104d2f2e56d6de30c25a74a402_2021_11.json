@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "require",
+        "mongoose",
+        "Schema",
+        "mongoose",
+        "TempUser"
+    ],
+    "literals": [
+        "\"mongoose\"",
+        "'tempuser'",
+        "\"TempUser\""
+    ],
+    "variables": [
+        "mongoose",
+        "Schema",
+        "TempUser"
+    ],
+    "comments": [
+        "username: {",
+        "type: String,",
+        "required: true,",
+        "min: 3,",
+        "max:255",
+        "},",
+        "email: {",
+        "type:String,",
+        "required: true,",
+        "min:3,",
+        "max: 255",
+        "},"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

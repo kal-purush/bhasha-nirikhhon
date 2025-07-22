@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "com",
+        "stackroute",
+        "keepnote",
+        "org",
+        "springframework",
+        "boot",
+        "SpringApplication",
+        "org",
+        "springframework",
+        "boot",
+        "autoconfigure",
+        "SpringBootApplication",
+        "org",
+        "springframework",
+        "boot",
+        "web",
+        "servlet",
+        "FilterRegistrationBean",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Bean",
+        "com",
+        "stackroute",
+        "keepnote",
+        "jwtfilter",
+        "JwtFilter",
+        "SpringBootApplication",
+        "Bean",
+        "registrationBean",
+        "registrationBean",
+        "setFilter",
+        "registrationBean",
+        "addUrlPatterns",
+        "registrationBean",
+        "args",
+        "SpringApplication",
+        "run",
+        "args"
+    ],
+    "literals": [
+        "\"/api/v1/category/*\""
+    ],
+    "variables": [],
+    "comments": [
+        "registrationBean.addUrlPatterns(\"/api/v1/usertrackservice/user/*\");"
+    ],
+    "docstrings": [
+        "* The @SpringBootApplication annotation is equivalent to using @Configuration, @EnableAutoConfiguration \n * and @ComponentScan with their default attributes",
+        "* Define the bean for Filter registration. Create a new FilterRegistrationBean\n\t * object and use setFilter() method to set new instance of JwtFilter object.\n\t * Also specifies the Url patterns for registration bean.",
+        "y command = below path is for controller class url ,it matches the url pattern and applied this filter only for this url",
+        "* \n\t * You need to run SpringApplication.run, because this method start whole spring\n\t * framework. Code below integrates your main() with SpringBoot"
+    ],
+    "functions": [
+        "FilterRegistrationBean",
+        "jwtFilter",
+        "main"
+    ],
+    "classes": [
+        "CategoryServiceApplication"
+    ]
+}

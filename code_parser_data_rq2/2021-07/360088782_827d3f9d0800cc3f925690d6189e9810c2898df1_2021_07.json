@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "MetricName",
+        "S3KeyPrefix"
+    ],
+    "literals": [
+        "'ConstructHub/Discovery'",
+        "'BatchProcessingTime'",
+        "'ChangeCount'",
+        "'PackageVersionAge'",
+        "'PackageVersionCount'",
+        "'RelevantPackageVersions'",
+        "'RemainingTime'",
+        "'StagingFailureCount'",
+        "'StagingTime'",
+        "'UnprocessableEntity'",
+        "'failed/'",
+        "'staged/'"
+    ],
+    "variables": [
+        "METRIC_NAMESPACE"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Key prefix used by the built-in discovery function to store failed records.",
+        "* Key prefix used by the built-in discovery function to stage tarballs."
+    ],
+    "functions": [],
+    "classes": []
+}

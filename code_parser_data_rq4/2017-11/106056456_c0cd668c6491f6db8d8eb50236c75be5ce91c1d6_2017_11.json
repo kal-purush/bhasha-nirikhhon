@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "RPCNode",
+        "RPCClient",
+        "CustomNodeConfig",
+        "RPCNode",
+        "config",
+        "config",
+        "config",
+        "endpoint",
+        "key",
+        "config",
+        "config",
+        "headers",
+        "btoa",
+        "username",
+        "password",
+        "RPCClient",
+        "endpoint",
+        "headers"
+    ],
+    "literals": [
+        "'../rpc'",
+        "'../rpc/client'",
+        "'config/data'",
+        "${config.url}:${config.port}",
+        "string",
+        "string",
+        "Basic ${btoa(`${username}:${password}`)}",
+        "${username}:${password}"
+    ],
+    "variables": [
+        "endpoint",
+        "headers"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "CustomNode"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "GoogleGenerativeAI",
+        "Step",
+        "GoogleGenerativeAI",
+        "genAI",
+        "fetchAI",
+        "task",
+        "systemPrompt",
+        "task",
+        "model",
+        "prompt",
+        "result",
+        "text",
+        "clearText",
+        "steps"
+    ],
+    "literals": [
+        "'@google/generative-ai'",
+        "'./store'",
+        "'gemini-1.5-flash'",
+        "You are an expert task planner. Your task is to break down a given task into detailed steps and output them in JSON format. The output should be a list of steps that the user needs to follow to complete the task.\n\n**Steps to follow:**\n\n1. Carefully analyze the given task.\n2. Identify all necessary sub-tasks required to complete the main task.\n3. Order the sub-tasks in a logical and sequential manner.\n4. Format the ordered list of sub-tasks into a JSON object with the key \"steps\".\n\n**Format:\n\"{\n    \"steps\": [\n        \"1. Sub-task 1\",\n        \"2. Sub-task 2\",\n        \"3. Sub-task 3\"\n    ]\n}\"\n\n**Examples:**\n\n1. User Input: \"방 청소\"\n   AI Output:\n   \"{\n       \"steps\": [\n           \"1. 책상 정리\",\n           \"2. 쓰레기통 비우기\",\n           \"3. 물걸레 청소\"\n       ]\n   }\"\n\n2. User Input: \"요리하기\"\n   AI Output:\n   \"{\n       \"steps\": [\n           \"1. 재료 준비하기\",\n           \"2. 재료 씻기\",\n           \"3. 재료 손질하기\",\n           \"4. 요리하기\",\n           \"5. 접시에 담기\"\n       ]\n   }\"\n\n3. User Input: \"보고서 작성\"\n   AI Output:\n   \"{\n       \"steps\": [\n           \"1. 주제 선정\",\n           \"2. 자료 조사\",\n           \"3. 목차 작성\",\n           \"4. 초안 작성\",\n           \"5. 검토 및 수정\",\n           \"6. 최종 작성\",\n           \"7. 제출\"\n       ]\n   }\"\n\nTake a deep breath and let's work this out in a step by step way to be sure we have the right answer.",
+        "string",
+        "System: ${systemPrompt} \\nUser: ${task}",
+        "''"
+    ],
+    "variables": [
+        "genAI",
+        "model",
+        "systemPrompt",
+        "fetchAI",
+        "prompt",
+        "result",
+        "text",
+        "clearText",
+        "steps"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

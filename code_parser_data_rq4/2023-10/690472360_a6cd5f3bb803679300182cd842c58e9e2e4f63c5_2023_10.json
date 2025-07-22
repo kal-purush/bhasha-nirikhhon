@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "baseUrl",
+        "limit",
+        "sortKey",
+        "orderBy",
+        "fetch",
+        "baseUrl",
+        "response",
+        "response",
+        "response",
+        "response",
+        "response",
+        "response",
+        "response",
+        "response"
+    ],
+    "literals": [
+        "'../../constants'",
+        "string",
+        "'asc'",
+        "'desc'",
+        "'created_at'",
+        "'desc'",
+        "${baseUrl}/api/v1/case",
+        "'POST'",
+        "'application/json'",
+        "'Content-Type'",
+        "'application/json'"
+    ],
+    "variables": [],
+    "comments": [
+        "const queryParams: string = objectToQueryParams<TGetCaseDetilsParams>(params);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getCaseDetails"
+    ],
+    "classes": []
+}

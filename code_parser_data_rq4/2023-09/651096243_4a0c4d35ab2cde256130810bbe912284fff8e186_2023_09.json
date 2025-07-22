@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "itertools",
+        "islice",
+        "torch",
+        "utils",
+        "data",
+        "IterDataPipe",
+        "IterDataPipe",
+        "datapipe",
+        "sampler",
+        "samples_per_volume",
+        "datapipe",
+        "sampler",
+        "samples_per_volume",
+        "subject",
+        "datapipe",
+        "sampler",
+        "subject",
+        "islice",
+        "iterable",
+        "samples_per_volume"
+    ],
+    "literals": [],
+    "variables": [
+        "datapipe",
+        "sampler",
+        "samples_per_volume",
+        "iterable"
+    ],
+    "comments": [
+        "in my experience this turned out to be faster than using yield from islice(iterable, self.samples_per_volume)) and removing the UnBatcher"
+    ],
+    "docstrings": [],
+    "functions": [
+        "__iter__"
+    ],
+    "classes": [
+        "PatchesSampler"
+    ]
+}

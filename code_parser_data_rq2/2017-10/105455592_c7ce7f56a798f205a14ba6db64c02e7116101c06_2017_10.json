@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Client",
+        "DdeType",
+        "Store",
+        "db",
+        "tryCatch",
+        "Util",
+        "util",
+        "Log",
+        "Log",
+        "Log",
+        "Log",
+        "db",
+        "require",
+        "opt",
+        "symbol",
+        "opt",
+        "symbol",
+        "opt",
+        "Client",
+        "Log",
+        "Log",
+        "service",
+        "topic",
+        "item",
+        "text",
+        "db",
+        "e",
+        "e",
+        "Log"
+    ],
+    "literals": [
+        "'ts-dde'",
+        "'ns-store'",
+        "'ns-common'",
+        "'../../config/config'",
+        "string",
+        "string",
+        "'.T'",
+        "服务:${this.conn.service()},连接失败！",
+        "'disconnected'",
+        "服务:${this.conn.service()},主题:${this.conn.topic()},断开连接！",
+        "'advise'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "关闭dde服务:${this.conn.service()}。"
+    ],
+    "variables": [],
+    "comments": [
+        "订阅数据信息",
+        "订阅连接对象",
+        "断开事件",
+        "订阅事件",
+        "写入数据库",
+        "订阅DDE数据"
+    ],
+    "docstrings": [
+        "* @class\n  * @classdesc DDE服务器"
+    ],
+    "functions": [
+        "close"
+    ],
+    "classes": [
+        "DdeServer"
+    ]
+}

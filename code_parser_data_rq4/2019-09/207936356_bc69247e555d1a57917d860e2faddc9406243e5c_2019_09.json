@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "require",
+        "describe",
+        "it",
+        "myFunc",
+        "fileName",
+        "expect",
+        "output",
+        "it",
+        "myFunc",
+        "fileName",
+        "expect",
+        "output",
+        "it",
+        "myFunc",
+        "fileName",
+        "expect",
+        "output",
+        "it",
+        "expect",
+        "myFunc",
+        "e",
+        "expect",
+        "e"
+    ],
+    "literals": [
+        "'./core'",
+        "'core'",
+        "'./sample.json'",
+        "'should create a CSV'",
+        "BillOfLading,Invoice,ItemNumber,Quantity\nbill1,inv1,item1,1\nbill1,inv1,item2,2\nbill2,inv2,item3,3",
+        "'should create reverse csv'",
+        "BillOfLading,Invoice,ItemNumber,Quantity\nbill2,inv2,item3,3\nbill1,inv1,item2,2\nbill1,inv1,item1,1",
+        "'should do caps'",
+        "BillOfLading,Invoice,ItemNumber,Quantity\nBILL1,INV1,ITEM1,1\nBILL1,INV1,ITEM2,2\nBILL2,INV2,ITEM3,3",
+        "'should fail on no bill of lading number'",
+        "'./bad.json'"
+    ],
+    "variables": [
+        "myFunc",
+        "fileName",
+        "output",
+        "output",
+        "output"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

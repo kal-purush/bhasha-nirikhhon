@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "NUnit",
+        "Framework",
+        "UnityEngine",
+        "UnityEngine",
+        "TestTools",
+        "SetUp",
+        "TearDown",
+        "Test",
+        "Assert",
+        "That",
+        "UnityTest",
+        "Assert",
+        "IsTrue"
+    ],
+    "literals": [
+        "\"simple test\""
+    ],
+    "variables": [
+        "i",
+        "a"
+    ],
+    "comments": [
+        "pass the app from the setup to the tests",
+        "private Game game;",
+        "A setup method is run before every test function is run",
+        "do whatever setup we need here",
+        "normally this will be creating a game object for the app",
+        "GameObject gameGameObject = MonoBehaviour.Instantiate(Resources.Load<GameObject>(\"Prefabs/Game\"));",
+        "game = gameGameObject.GetComponent<Game>();",
+        "A Teardown method is run after every test method is run",
+        "do whatever cleanuo we need here",
+        "normally this is cleaning up the game object",
+        "Object.Destroy(game.gameObject);",
+        "A Test behaves as an ordinary method",
+        "Use the Assert class to test conditions",
+        "A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use",
+        "`yield return null;` to skip a frame.",
+        "Use the Assert class to test conditions.",
+        "Use yield to skip a frame.",
+        "test our code using asserts"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Setup",
+        "Teardown",
+        "ExampleTestSuiteSimplePasses",
+        "IEnumerator",
+        "ExampleTestSuiteWithEnumeratorPasses"
+    ],
+    "classes": [
+        "ExampleTestSuite"
+    ]
+}

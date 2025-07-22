@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "events",
+        "Model",
+        "events",
+        "_value",
+        "value",
+        "value",
+        "value",
+        "value",
+        "DependencyDetector",
+        "callback",
+        "newValue",
+        "callback",
+        "Property",
+        "defaultValue",
+        "defaultValue",
+        "Property",
+        "defaultValue",
+        "defaultValue",
+        "Property",
+        "defaultValue",
+        "defaultValue",
+        "Property",
+        "func",
+        "func",
+        "func",
+        "func",
+        "value",
+        "DependencyDetector",
+        "DependencyDetector",
+        "callback",
+        "value",
+        "DependencyDetector",
+        "callback",
+        "value",
+        "DependencyDetector",
+        "changedObservables",
+        "observable",
+        "observable",
+        "callback",
+        "observable",
+        "DependencyDetector",
+        "DependencyDetector",
+        "observable"
+    ],
+    "literals": [
+        "'events'",
+        "'change'",
+        "'change'",
+        "string",
+        "\"\"",
+        "\"Computed required a function\"",
+        "\"Computed cannot retrieve a new value!\""
+    ],
+    "variables": [
+        "changedObservables"
+    ],
+    "comments": [
+        "<reference path=\"./typings/node-0.10.d.ts\" />",
+        "listener for if a dependency is being updated",
+        "TODO: only track if not computing or something",
+        "TODO: remove old bindings"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get",
+        "onChange",
+        "get",
+        "trackDependencies",
+        "bindDependencies",
+        "notifyObserved"
+    ],
+    "classes": [
+        "Property",
+        "Computed",
+        "Reference",
+        "Model",
+        "DependencyDetector"
+    ]
+}

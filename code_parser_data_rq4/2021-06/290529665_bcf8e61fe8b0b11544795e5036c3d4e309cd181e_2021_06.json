@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "admin",
+        "admin",
+        "admin",
+        "PROJ_ID",
+        "firebaseApp",
+        "db",
+        "admin",
+        "db"
+    ],
+    "literals": [
+        "'firebase-admin'",
+        "'slack-in-your-time'",
+        "https://${PROJ_ID}.firebaseio.com"
+    ],
+    "variables": [
+        "PROJ_ID",
+        "firebaseApp",
+        "db"
+    ],
+    "comments": [
+        "firebase project ID",
+        "initialize firebase in order to access its services",
+        "note: the env var for `GOOGLE_APPLICATION_CREDENTIALS` must be set (see: https://firebase.google.com/docs/admin/setup#initialize-sdk)",
+        "initialize the database and collections",
+        "database settings",
+        "export them so it can be globally accessed"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Text",
+        "EasyNetQ",
+        "FluentConfiguration",
+        "IRequestConfiguration",
+        "queueName",
+        "IRequestConfiguration",
+        "queueName",
+        "QueueName",
+        "queueName"
+    ],
+    "literals": [],
+    "variables": [
+        "QueueName"
+    ],
+    "comments": [
+        "Allows request configuration to be fluently extended without adding overloads to IBus",
+        "",
+        "e.g.",
+        "x => x.WithQueueName(\"MyQueue\")",
+        "</summary>",
+        "Sets the queue name to publish to",
+        "</summary>",
+        "<param name=\"queueName\">The queue name</param>",
+        "<returns>IPublishConfiguration</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IRequestConfiguration",
+        "WithQueueName",
+        "IRequestConfiguration",
+        "WithQueueName"
+    ],
+    "classes": [
+        "RequestConfiguration"
+    ]
+}

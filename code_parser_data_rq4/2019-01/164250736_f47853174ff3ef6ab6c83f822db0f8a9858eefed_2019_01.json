@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "datetime",
+        "datetime",
+        "db",
+        "get_database",
+        "psycopg2",
+        "extras",
+        "RealDictCursor",
+        "app",
+        "api",
+        "v2",
+        "models",
+        "meetup_model",
+        "MeetupModel",
+        "get_database",
+        "questions",
+        "conn",
+        "cursor",
+        "execute",
+        "questions",
+        "meetup_id",
+        "conn",
+        "cursor",
+        "cursor_factory",
+        "RealDictCursor",
+        "cursor",
+        "execute",
+        "query_string",
+        "meetup_id",
+        "cursor",
+        "fetchall",
+        "conn",
+        "cursor",
+        "cursor_factory",
+        "RealDictCursor",
+        "cursor",
+        "execute",
+        "query_string",
+        "conn",
+        "commit",
+        "conn",
+        "commit"
+    ],
+    "literals": [
+        "'SELECT * FROM questions WHERE meetup_id = %s;'",
+        "'update questions set upvotes = upvotes +1;'"
+    ],
+    "variables": [
+        "conn",
+        "query_string",
+        "cursor",
+        "query_string",
+        "cursor"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''This module represents the question entity'''",
+        "'''Entity representation for a question'''",
+        "'''initialize db connection'''",
+        "'''Add a new question to the data store'''",
+        "\"\"\"\n            INSERT INTO questions (title, body, meetup_id, created_by) VALUES (%(title)s, %(body)s, %(meetup_id)s, %(created_by)s);\"\"\"",
+        "'''Fetch all meetup questions'''",
+        "'''Increment votes'''",
+        "'''update questions set upvotes = upvotes +1;'''"
+    ],
+    "functions": [
+        "add_question",
+        "get_all_questions_by_meetup_id",
+        "update_upvotes"
+    ],
+    "classes": [
+        "QuestionModel"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Component",
+        "RouteConfig",
+        "ROUTER_DIRECTIVES",
+        "ROUTER_PROVIDERS",
+        "Hero",
+        "HeroService",
+        "MenuService",
+        "DashboardComponent",
+        "HeroesComponent",
+        "HeroDetailComponent",
+        "Component",
+        "ROUTER_DIRECTIVES",
+        "ROUTER_PROVIDERS",
+        "HeroService",
+        "MenuService",
+        "RouteConfig",
+        "HeroesComponent",
+        "DashboardComponent",
+        "HeroDetailComponent",
+        "_menuService",
+        "heroes",
+        "heroes"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/router'",
+        "'./hero'",
+        "'./hero.service'",
+        "'./menu.service'",
+        "'./dashboard.component'",
+        "'./heroes.component'",
+        "'./hero-detail.component'",
+        "'my-app'",
+        "<nav class=\"navbar navbar-default navbar-fixed-top\">\n      <div class=\"container\">\n        <div class=\"navbar-header\">\n          <button type=\"button\" class=\"navbar-toggle collapsed\" data-toggle=\"collapse\" data-target=\"#navbar\" aria-expanded=\"false\" aria-controls=\"navbar\">\n            <span class=\"sr-only\">Toggle navigation</span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n            <span class=\"icon-bar\"></span>\n          </button>\n          <a class=\"navbar-brand\" href=\"#\">Project name</a>\n        </div>\n        \n        <div id=\"navbar\" class=\"navbar-collapse collapse\">\n          <ul class=\"nav navbar-nav\">\n            <li class=\"active\"><a [routerLink]=\"['Dashboard']\">Dashboard</a></li>\n            <li><a [routerLink]=\"['Dashboard','DashboardDetail']\">Dashboard detail</a></li>\n            <li><a [routerLink]=\"['Heroes']\">Heroes</a></li>\n          </ul>\n        </div><!--/.nav-collapse -->\n      </div>\n    </nav>\n    <div class=\"container-fluid\">\n      <div class=\"row\">\n        <div class=\"col-sm-3 col-md-2 sidebar\">\n          <ul class=\"nav nav-sidebar\">         \n            <li  *ngFor=\"#menu of menus\"><a [routerLink]=\"['Dashboard']\">{{menu.name}}<span class=\"sr-only\">(current)</span></a></li>\n          </ul>\n       </div>\n       <div class=\"col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main\">\n           <router-outlet></router-outlet>\n       </div>\n    </div>\n   </div>",
+        "'/heroes'",
+        "'Heroes'",
+        "'/dashboard/...'",
+        "'Dashboard'",
+        "'/detail/:id'",
+        "'HeroDetail'",
+        "'Tour of Heroes'"
+    ],
+    "variables": [],
+    "comments": [
+        "styleUrls: ['app/app.component.css'],"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getMenuItems",
+        "ngOnInit"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "behave",
+        "when",
+        "then",
+        "x",
+        "y",
+        "x",
+        "y",
+        "when",
+        "context",
+        "num_1",
+        "num_2",
+        "soma",
+        "num_1",
+        "num_2",
+        "then",
+        "context",
+        "result",
+        "context",
+        "resultado",
+        "result",
+        "main"
+    ],
+    "literals": [
+        "'somar \"{num_1:d}\" com \"{num_2:d}\"'",
+        "'o resultado deve ser \"{result:d}\"'"
+    ],
+    "variables": [
+        "context",
+        "resultado"
+    ],
+    "comments": [
+        "!flask/bin/python",
+        "-*- coding: UTF-8 -*-"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Função...\n    \"\"\"",
+        "\"\"\"\n    Executa a função de soma e guarda seu resultado no contexto do behave\n    \"\"\"",
+        "\"\"\"\n    Usa o valor armazenado no contexto e valida se é igual ao resultado\n    \"\"\""
+    ],
+    "functions": [
+        "soma",
+        "executa_soma",
+        "assert_resultado"
+    ],
+    "classes": []
+}

@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "assetFragment",
+        "graphql",
+        "graphql",
+        "graphql",
+        "assetFragment",
+        "graphql",
+        "graphql",
+        "productDetailFragment",
+        "graphql",
+        "productDetailFragment"
+    ],
+    "literals": [
+        "'@/graphql/fragments.js'",
+        "'@/graphql/graphql.js'",
+        "query ProductList($options: ProductListOptions) {\n        products(options: $options) {\n            items {\n                id\n                createdAt\n                updatedAt\n                featuredAsset {\n                    id\n                    preview\n                }\n                name\n                slug\n                enabled\n            }\n            totalItems\n        }\n    }",
+        "fragment ProductDetail on Product {\n            id\n            createdAt\n            updatedAt\n            enabled\n            name\n            slug\n            description\n            featuredAsset {\n                ...Asset\n            }\n            assets {\n                ...Asset\n            }\n            translations {\n                id\n                languageCode\n                name\n                slug\n                description\n            }\n\n            facetValues {\n                id\n                name\n                code\n                facet {\n                    id\n                    name\n                    code\n                }\n            }\n        }",
+        "query ProductVariantList($options: ProductVariantListOptions, $productId: ID) {\n        productVariants(options: $options, productId: $productId) {\n            items {\n                id\n                name\n                sku\n                price\n                priceWithTax\n            }\n        }\n    }",
+        "query ProductDetail($id: ID!) {\n            product(id: $id) {\n                ...ProductDetail\n            }\n        }",
+        "mutation UpdateProduct($input: UpdateProductInput!) {\n            updateProduct(input: $input) {\n                ...ProductDetail\n            }\n        }"
+    ],
+    "variables": [
+        "productListDocument",
+        "productDetailFragment",
+        "productVariantListDocument",
+        "productDetailDocument",
+        "updateProductDocument"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

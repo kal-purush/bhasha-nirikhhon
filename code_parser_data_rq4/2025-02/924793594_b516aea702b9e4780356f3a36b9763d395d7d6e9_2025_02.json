@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "typing",
+        "Dict",
+        "Any",
+        "asyncio",
+        "data",
+        "Dict",
+        "Dict",
+        "data",
+        "graph",
+        "Dict",
+        "Dict",
+        "correlations",
+        "Dict",
+        "Dict",
+        "Dict",
+        "Dict",
+        "Dict",
+        "Dict",
+        "Dict",
+        "MLCorrelationModel",
+        "TimeSeriesAnalyzer"
+    ],
+    "literals": [
+        "\"groups\""
+    ],
+    "variables": [
+        "SecurityAlert",
+        "EnrichedAlert",
+        "AttackChain",
+        "CorrelationData",
+        "TemporalPatterns",
+        "ResponseRecommendations",
+        "mlModel",
+        "timeSeriesAnalyzer"
+    ],
+    "comments": [
+        "We will need to create these classes later",
+        "Types"
+    ],
+    "docstrings": [],
+    "functions": [
+        "correlate",
+        "findPatterns",
+        "findAttackPaths",
+        "getCurrentContext",
+        "getRelevantThreats"
+    ],
+    "classes": [
+        "MLCorrelationModel",
+        "TimeSeriesAnalyzer",
+        "GraphAnalyzer",
+        "SecurityContext",
+        "ThreatIntelligence",
+        "AlertCorrelationEngine"
+    ]
+}

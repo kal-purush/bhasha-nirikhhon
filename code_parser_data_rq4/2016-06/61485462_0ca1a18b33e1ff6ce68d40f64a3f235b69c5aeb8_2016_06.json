@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "sys",
+        "acl_get",
+        "acl_set",
+        "set_flags",
+        "get_flags",
+        "SyncFile",
+        "sync_dir",
+        "fdatasync",
+        "swidth",
+        "API_VERSION",
+        "sys",
+        "platform",
+        "startswith",
+        "linux",
+        "acl_get",
+        "acl_set",
+        "linux",
+        "set_flags",
+        "get_flags",
+        "linux",
+        "SyncFile",
+        "linux",
+        "swidth",
+        "API_VERSION",
+        "sys",
+        "platform",
+        "startswith",
+        "freebsd",
+        "acl_get",
+        "acl_set",
+        "freebsd",
+        "swidth",
+        "API_VERSION",
+        "sys",
+        "platform",
+        "darwin",
+        "acl_get",
+        "acl_set",
+        "darwin",
+        "swidth",
+        "API_VERSION"
+    ],
+    "literals": [
+        "'linux'",
+        "'freebsd'",
+        "'darwin'"
+    ],
+    "variables": [],
+    "comments": [
+        "pragma: linux only",
+        "pragma: freebsd only",
+        "pragma: darwin only"
+    ],
+    "docstrings": [
+        "\"\"\"\nPlatform-specific APIs.\n\nPublic APIs are documented in platform.base.\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

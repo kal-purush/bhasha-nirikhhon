@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "sqlexercise",
+        "config",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Configuration",
+        "org",
+        "springframework",
+        "web",
+        "servlet",
+        "config",
+        "annotation",
+        "CorsRegistry",
+        "org",
+        "springframework",
+        "web",
+        "servlet",
+        "config",
+        "annotation",
+        "WebMvcConfigurer",
+        "Configuration",
+        "Override",
+        "registry",
+        "registry",
+        "addMapping",
+        "allowedOriginPatterns",
+        "allowedHeaders",
+        "allowedMethods",
+        "maxAge",
+        "allowCredentials"
+    ],
+    "literals": [
+        "\"/**\"",
+        "\"*\"",
+        "\"*\"",
+        "\"POST\"",
+        "\"GET\"",
+        "\"PUT\"",
+        "\"OPTIONS\"",
+        "\"DELETE\""
+    ],
+    "variables": [],
+    "comments": [
+        ".allowedOrigins(\"*\")"
+    ],
+    "docstrings": [
+        "* @program: sqlPlatform\n * @description: 跨域配置\n * @author: wxy\n * @date: 2022-10-22\n *"
+    ],
+    "functions": [
+        "addCorsMappings"
+    ],
+    "classes": [
+        "CORSConfig"
+    ]
+}

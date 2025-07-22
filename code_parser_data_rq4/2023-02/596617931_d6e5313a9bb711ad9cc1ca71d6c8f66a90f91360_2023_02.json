@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "flex",
+        "flex",
+        "flex",
+        "flex",
+        "flex",
+        "flex",
+        "flex",
+        "flex",
+        "flex",
+        "isSupported",
+        "isSupported",
+        "checkFlexGap",
+        "workInProgress",
+        "alert",
+        "workInProgress"
+    ],
+    "literals": [
+        "\"div\"",
+        "\"flex\"",
+        "\"column\"",
+        "\"1px\"",
+        "\"div\"",
+        "\"div\"",
+        "\"no-flexbox-gap\"",
+        "\"This website is based off a fictional startup company created by Jason Haw - Some parts are still work in progress, e.g. mobile/tablets viewports optimzation\""
+    ],
+    "variables": [
+        "flex",
+        "isSupported",
+        "workInProgress"
+    ],
+    "comments": [
+        "",
+        "Fixing flexbox gap property missing in some Safari versions",
+        "https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js",
+        ".no-flexbox-gap .main-nav-list li:not(:last-child) {\n  margin-right: 4.8rem;\n}\n\n.no-flexbox-gap .list-item:not(:last-child) {\n  margin-bottom: 1.6rem;\n}\n\n.no-flexbox-gap .list-icon:not(:last-child) {\n  margin-right: 1.6rem;\n}\n\n.no-flexbox-gap .delivered-faces {\n  margin-right: 1.6rem;\n}\n\n.no-flexbox-gap .meal-attribute:not(:last-child) {\n  margin-bottom: 2rem;\n}\n\n.no-flexbox-gap .meal-icon {\n  margin-right: 1.6rem;\n}\n\n.no-flexbox-gap .footer-row div:not(:last-child) {\n  margin-right: 6.4rem;\n}\n\n.no-flexbox-gap .social-links li:not(:last-child) {\n  margin-right: 2.4rem;\n}\n\n.no-flexbox-gap .footer-nav li:not(:last-child) {\n  margin-bottom: 2.4rem;\n}\n\n@media (max-width: 75em) {\n  .no-flexbox-gap .main-nav-list li:not(:last-child) {\n    margin-right: 3.2rem;\n  }\n}\n\n@media (max-width: 59em) {\n  .no-flexbox-gap .main-nav-list li:not(:last-child) {\n    margin-right: 0;\n    margin-bottom: 4.8rem;\n  }\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "checkFlexGap"
+    ],
+    "classes": []
+}

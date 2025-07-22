@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "bisect",
+        "num",
+        "bisect",
+        "insort",
+        "_numbers",
+        "num",
+        "join",
+        "num",
+        "num",
+        "_numbers",
+        "OrderedList",
+        "ol",
+        "add",
+        "ol",
+        "__str__",
+        "ol",
+        "add",
+        "ol",
+        "__str__",
+        "ol",
+        "add",
+        "ol",
+        "add",
+        "ol",
+        "__str__"
+    ],
+    "literals": [
+        "', '"
+    ],
+    "variables": [
+        "_numbers",
+        "ol"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nComplete the add method of the OrderedList class which takes a num argument and adds that\nto the self._numbers list keeping it ordered upon insert.\n\nUsing a manual .sort() or .sorted() each time is not allowed. Look into the bisect module\nhow to do it ...\n\nHere is how it should works:\n\norder = OrderedList()\norder.add(10)\nprint(order)  # __str__ already provided\norder.add(1)\nprint(order)\norder.add(16)\nprint(order)\norder.add(5)\nprint(order)\nOutput:\n\n10\n1, 10\n1, 10, 16\n1, 5, 10, 16\nPicking the right data structure is usually half of the battle.\nGood luck and keep calm and code more Python!\n\"\"\""
+    ],
+    "functions": [
+        "add",
+        "__str__"
+    ],
+    "classes": [
+        "OrderedList"
+    ]
+}

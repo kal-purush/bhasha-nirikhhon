@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "org",
+        "springframework",
+        "data",
+        "neo4j",
+        "core",
+        "convert",
+        "java",
+        "util",
+        "org",
+        "apiguardian",
+        "api",
+        "API",
+        "org",
+        "neo4j",
+        "driver",
+        "Value",
+        "API",
+        "status",
+        "API",
+        "Status",
+        "STABLE",
+        "since",
+        "Neo4jPersistentPropertyToMapConverter",
+        "property",
+        "neo4jConversionService",
+        "source",
+        "neo4jConversionService"
+    ],
+    "literals": [
+        "\"6.0\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2011-2020 the original author or authors.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      https://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* You need to provide an implementation of this interface in case you want to store a property of an entity as separate\n * properties on a node. The entity needs to be decomposed into a map and composed from a map for that purpose.\n *\n * <p>The calling mechanism will take care of adding and removing configured prefixes and transforming keys and values into\n * something that Neo4j can understand.\n *\n * @param <K> The type of the keys (Only Strings and Enums are supported).\n * @param <P> The type of the property.\n * @author Michael J. Simons\n * @soundtrack Metallica - Helping Hands… Live & Acoustic At The Masonic\n * @since 6.0",
+        "* Decomposes an object into a map. A conversion service is provided in case delegation is needed.\n\t *\n\t * @param property               The source property\n\t * @param neo4jConversionService The conversion service to delegate to if necessary\n\t * @return The decomposed object.",
+        "* Composes the object back from the map. The map contains the raw driver values, as SDN cannot know how you want to\n\t * handle them. Therefore, the conversion service to convert driver values is provided.\n\t *\n\t * @param source                 The source map\n\t * @param neo4jConversionService The conversion service in case you want to delegate the work for some values in the map\n\t * @return The composed object."
+    ],
+    "functions": [
+        "decompose",
+        "P",
+        "compose"
+    ],
+    "classes": []
+}

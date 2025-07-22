@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "require",
+        "exports",
+        "context",
+        "callback",
+        "Alexa",
+        "context",
+        "alexa",
+        "APP_ID",
+        "alexa",
+        "handlers",
+        "alexa",
+        "FACTS",
+        "FACTS",
+        "factIndex",
+        "randomFact",
+        "speechOutput",
+        "SKILL_NAME",
+        "randomFact",
+        "speechOutput",
+        "reprompt"
+    ],
+    "literals": [
+        "'use strict'",
+        "'alexa-sdk'",
+        "'Air Quality'",
+        "'LaunchRequest'",
+        "'GetQuality'",
+        "'GetNewFactIntent'",
+        "'GetFact'",
+        "'GetFact'",
+        "\"Here's your fact: \"",
+        "':tellWithCard'",
+        "'AMAZON.HelpIntent'",
+        "\"You can say tell me a space fact, or, you can say exit... What can I help you with?\"",
+        "\"What can I help you with?\"",
+        "':ask'",
+        "'AMAZON.CancelIntent'",
+        "':tell'",
+        "'Goodbye!'",
+        "'AMAZON.StopIntent'",
+        "':tell'",
+        "'Goodbye!'"
+    ],
+    "variables": [
+        "Alexa",
+        "APP_ID",
+        "SKILL_NAME",
+        "alexa",
+        "handlers",
+        "factIndex",
+        "randomFact",
+        "speechOutput",
+        "speechOutput",
+        "reprompt"
+    ],
+    "comments": [
+        "OPTIONAL: replace with \"amzn1.echo-sdk-ams.app.[your-unique-value-here]\";",
+        "Get a random space fact from the space facts list",
+        "Create speech output"
+    ],
+    "docstrings": [
+        "* Array containing space facts."
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'spotifyBanList1596014060721'",
+        "'CREATE TABLE `spotify_song_ban` (`spotifyUri` varchar(255) NOT NULL, `title` varchar(255) NOT NULL, `artists` text NOT NULL, PRIMARY KEY (`spotifyUri`)) ENGINE=InnoDB'",
+        "'DROP TABLE `spotify_song_ban`'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "spotifyBanList1596014060721"
+    ]
+}

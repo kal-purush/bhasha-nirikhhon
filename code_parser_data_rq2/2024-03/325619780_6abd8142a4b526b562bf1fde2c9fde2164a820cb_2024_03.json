@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "slskd",
+        "Users",
+        "Collections",
+        "Concurrent",
+        "Collections",
+        "Generic",
+        "Net",
+        "First",
+        "Last",
+        "filename",
+        "IPAddress",
+        "ip",
+        "ip",
+        "GetAddressBytes",
+        "Cache",
+        "TryGetValue",
+        "first",
+        "cidrs",
+        "ToUint32",
+        "ip",
+        "cidr",
+        "cidrs",
+        "ipAsUint32",
+        "cidr",
+        "Item1",
+        "ipAsUint32",
+        "cidr",
+        "Item2",
+        "IPAddress",
+        "ip",
+        "ip",
+        "GetAddressBytes",
+        "BitConverter",
+        "IsLittleEndian",
+        "Reverse",
+        "BitConverter",
+        "ToUInt32"
+    ],
+    "literals": [],
+    "variables": [
+        "Cache",
+        "first",
+        "ipAsUint32"
+    ],
+    "comments": [
+        "<copyright file=\"Blacklist.cs\" company=\"slskd Team\">",
+        "Copyright (c) slskd Team. All rights reserved.",
+        "",
+        "This program is free software: you can redistribute it and/or modify",
+        "it under the terms of the GNU Affero General Public License as published",
+        "by the Free Software Foundation, either version 3 of the License, or",
+        "(at your option) any later version.",
+        "",
+        "This program is distributed in the hope that it will be useful,",
+        "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+        "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+        "GNU Affero General Public License for more details.",
+        "",
+        "You should have received a copy of the GNU Affero General Public License",
+        "along with this program.  If not, see https://www.gnu.org/licenses/.",
+        "</copyright>",
+        "A managed blacklist for CIDRs.",
+        "</summary>",
+        "todo:",
+        "_stream_ contents of file into a ConcurrentDictionary<int, List<>>",
+        "load that dictionary into the Cache",
+        "enjoy"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "Load",
+        "Contains",
+        "ToUint32"
+    ],
+    "classes": [
+        "Blacklist"
+    ]
+}

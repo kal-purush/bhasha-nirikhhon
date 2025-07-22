@@ -1,0 +1,18 @@
+{
+    "identifiers": [
+        "io",
+        "github",
+        "pr0methean",
+        "betterrandom",
+        "prng",
+        "concurrent"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Implementations of {@link java.util.Random} designed to be used concurrently from multiple\n * threads, backed by instances of {@link java.util.SplittableRandom} or\n * {@link java.lang.ThreadLocal}{@code <?>}. An instance in a given state may give different\n * pseudorandom numbers depending on which thread is calling, and the mapping of threads to seeds\n * cannot in general be deserialized (since threads do not have a serializable identity).\n * {@link io.github.pr0methean.betterrandom.prng.BaseRandom#setSeed(byte[])} may be thread-local."
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "i",
+        "i",
+        "space",
+        "end",
+        "j"
+    ],
+    "literals": [
+        "\" \"",
+        "\"\""
+    ],
+    "variables": [
+        "space"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\\\n1) List\n2) Create a Scorecard\n3) Nested for loops to generate pattern\n\"\"\"",
+        "\"\"\"\nruns = 0\n\novers = 0.0\nmax_overs =1\n\nwickets = 0\nmax_wickets = 10\n\ncurrent_bal_in_over = 0\nno_of_balls_in_over='6'\n\n\ntypes_of_runs = ['0', '1', '2', '3', '4', '5', '6']\ntypes_of_extras = ['wd', 'nb']\ntypes_of_wickets = ['lbw', 'b', 'catch', 'ro', 'stump', 'wicket']\n\nprint (\"---------------------\")\nprint(F\"Types of runs: {',' .join(types_of_runs)}\")\nprint(F\"Types of wickets: {',' .join(types_of_wickets)}\")\n\nprint(f'{runs}/{wickets}')\nprint(f'{overs}/{max_overs}')\nprint(\"---------------------\")\n\nwhile True :\n    if wickets == 10 or overs == max_overs:\n        break\n    _input = str(input(\"Enter a run\")).strip()\n    if _input in types_of_extras:\n        runs += 1\n    elif _input in types_of_runs:\n        runs += int[_input]\n        current_bal_in_over +=1\n    elif _input() in types_of_wickets:\n        wickets +=1\n        current_bal_in_over += 1\n    else:\n        print (\"Wrong Input\")\n    if current_bal_in_over == no_of_balls_in_over:\n        overs += 1\n        current_bal_in_over =0\n\n    print (F'{runs} / {wickets}')\n    print (F'{overs}.{current_bal_in_over} ({max_overs})')\n\"\"\"",
+        "'''\nfor i in range (0,5):\n    for j in range (0,5):\n        print(\"*\", end=\" \")\n    print(\"\")\n'''",
+        "'''\nfor i in range (0,5):\n    for j in range (0,5):\n        print(\"1\", end=\" \")\n    print(\"\")\n'''",
+        "'''\nfor i in range (0,5):\n    for j in range (0,5):\n        print(f\"{i % 2}\", end=\" \")\n    print(\"\")\n'''",
+        "''' (f)\nfor i in range (0,5):\n    for j in range (1,6):\n        print(f\"{j}\", end=\" \")\n    print(\"\")\n'''",
+        "'''(E)\nfor i in range (1,6):\n    for j in range (1,6):\n        print(f\"{j % 2}\", end=\" \")\n        if (i==j):\n            break\n    print(\"\")\n'''",
+        "'''(D)\n\nfor i in range (1,6):\n    for j in range (1,6):\n        if((i+j)%2 == 0):\n            print(0, end=\"\")\n        else:\n            print(1, end=\"\")\n        if (i==j):\n            break\n    print(\"\")\n\n'''",
+        "'''g\nfor i in range (0,5):\n    for j in range (1,6):\n        print(\"\",5*i+j, end=\"\")\n    print(\"\")\n\n'''",
+        "''' (h)\n\nfor i in range(5,0,-1):\n    for j in range(i,0,-1):\n        if (i+j) % 2 == 0:\n            print(\"1\",end=\"\")\n        else:\n            print(\"0\", end=\"\")\n    print(\"\")\n\n'''",
+        "'''L)\nfor i in range(1,7):\n    for j in range(1, i+1):\n        print(2**j, end=\" \")\n    print(\"\")\n\n'''",
+        "'''\nfor i in range(4,-1,-1):\n    space =\" \"*i\n    print(space, end=\"\")\n    for j in range(5,i,-1):\n        print(\"1\",end=\" \")\n    print(\"\")\n'''",
+        "'''\n\nfor i in range(1, 4):\n    for j in range(1,6):\n        print(i*j, end=\" \")\n    print(\"\")\n    for k in range(5,0,-1):\n        print(i*k, end=\" \")\n    print(\"\")\n\n'''",
+        "'''\nfor i in range (0,5):\n    for j in range (0,i+1):\n        print(\"*\", end=\"\")\n    print(\"\")\n    for k in range(5, 0, -1):\n        for l in range(1, k):\n            print(\"*\", end=\"\")\n        print(\"\")\n\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

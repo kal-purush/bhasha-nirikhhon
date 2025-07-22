@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "galleryItems",
+        "galleryItems",
+        "createImagesMarkup",
+        "galleryItems",
+        "imgContainer",
+        "imgGallery",
+        "galleryItems",
+        "galleryItems",
+        "original",
+        "preview",
+        "original",
+        "description",
+        "imgContainer",
+        "onImgClick",
+        "evt",
+        "evt",
+        "evt",
+        "evt",
+        "basicLightbox",
+        "imgUrl",
+        "instance"
+    ],
+    "literals": [
+        "'./gallery-items.js'",
+        "\".gallery\"",
+        "'beforeend'",
+        "<div class=\"gallery__item\">\n      <a class=\"gallery__link\" href=\"${original}\">\n        <img\n          class=\"gallery__image\"\n          src=\"${preview}\"\n          data-source=\"${original}\"\n          alt=\"${description}\"\n        />\n      </a>\n    </div>",
+        "''",
+        "\"click\"",
+        "'gallery__image'",
+        "<img src=\"${imgUrl}\">"
+    ],
+    "variables": [
+        "imgContainer",
+        "imgGallery",
+        "imgUrl",
+        "instance"
+    ],
+    "comments": [
+        "Change code below this line"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createImagesMarkup",
+        "onImgClick"
+    ],
+    "classes": []
+}

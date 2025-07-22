@@ -1,0 +1,84 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Microsoft",
+        "OData",
+        "Edm",
+        "Vocabularies",
+        "V1",
+        "IEdmModel",
+        "model",
+        "IEdmVocabularyAnnotatable",
+        "target",
+        "IEdmTerm",
+        "term",
+        "EdmUtil",
+        "CheckArgumentNull",
+        "model",
+        "EdmUtil",
+        "CheckArgumentNull",
+        "target",
+        "EdmUtil",
+        "CheckArgumentNull",
+        "target",
+        "model",
+        "FindVocabularyAnnotations",
+        "IEdmVocabularyAnnotation",
+        "target",
+        "term",
+        "FirstOrDefault",
+        "annotation",
+        "annotation",
+        "Value",
+        "IEdmCollectionExpression",
+        "collectionExpression",
+        "collectionExpression",
+        "Elements",
+        "collectionExpression",
+        "Elements",
+        "OfType",
+        "IEdmStringConstantExpression",
+        "Select",
+        "e",
+        "Value",
+        "Empty"
+    ],
+    "literals": [
+        "\"model\"",
+        "\"target\"",
+        "\"term\""
+    ],
+    "variables": [
+        "IEdmVocabularyAnnotation",
+        "annotation",
+        "IEdmCollectionExpression",
+        "collectionExpression"
+    ],
+    "comments": [
+        "---------------------------------------------------------------------",
+        "<copyright file=\"VocabularyAnnotationExtensions.cs\" company=\"Microsoft\">",
+        "Copyright (C) Microsoft Corporation. All rights reserved. See License.txt in the project root for license information.",
+        "</copyright>",
+        "---------------------------------------------------------------------",
+        "Extension methods for the vocabulary annotations.",
+        "</summary>",
+        "Gets the collection of string for a target annotatable.",
+        "</summary>",
+        "<param name=\"model\">The model referenced to.</param>",
+        "<param name=\"target\">The target annotatable to find annotation.</param>",
+        "<param name=\"term\">The target annotatable to find annotation.</param>",
+        "<returns>Null or a collection string of qualified type name.</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "GetVocabularyStringCollection"
+    ],
+    "classes": [
+        "VocabularyAnnotationExtensions"
+    ]
+}

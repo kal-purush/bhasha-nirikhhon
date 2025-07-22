@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "org",
+        "dmfs",
+        "dav",
+        "rfc5689",
+        "org",
+        "dmfs",
+        "dav",
+        "rfc4918",
+        "WebDav",
+        "org",
+        "dmfs",
+        "xmlobjects",
+        "ElementDescriptor",
+        "org",
+        "dmfs",
+        "xmlobjects",
+        "QualifiedName",
+        "NAMESPACE",
+        "WebDav",
+        "NAMESPACE",
+        "MKCOL",
+        "ElementDescriptor",
+        "register",
+        "QualifiedName",
+        "get",
+        "NAMESPACE",
+        "MkCol",
+        "BUILDER",
+        "MKCOL_RESPONSE",
+        "ElementDescriptor",
+        "register",
+        "QualifiedName",
+        "get",
+        "NAMESPACE",
+        "MkColResponse",
+        "BUILDER"
+    ],
+    "literals": [
+        "\"mkcol\"",
+        "\"mkcol-response\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (C) 2015 Marten Gajda <marten@dmfs.org>\n *\n * This program is free software; you can redistribute it and/or modify\n * it under the terms of the GNU General Public License as published\n * by the Free Software Foundation; either version 2 of the License,\n * or (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful, but\n * WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU\n * General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with this program; if not, write to the Free Software\n * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307\n * USA",
+        "* Defines the new XML elements specified in <a href=\"https://tools.ietf.org/html/rfc5689#section-5.1\">RFC 5689</a>, Extended MKCOL for Web Distributed\n * Authoring and Versioning (WebDAV).\n * \n * @author Marten Gajda <marten@dmfs.org>",
+        "* Extended MkCol uses the {@link WebDav#NAMESPACE} namespace.",
+        "* Element descriptor of {@link MkCol}.",
+        "* Element descriptor of {@link MkColResponse}."
+    ],
+    "functions": [],
+    "classes": [
+        "ExtendedMkCol"
+    ]
+}

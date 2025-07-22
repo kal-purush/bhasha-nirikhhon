@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "searchForm",
+        "e",
+        "e",
+        "searchQuery",
+        "e",
+        "fetchAPI",
+        "searchQuery",
+        "APP_ID",
+        "APP_key",
+        "fetch",
+        "baseURL",
+        "response",
+        "generateHTML",
+        "data",
+        "data",
+        "results",
+        "container",
+        "results",
+        "result",
+        "generatedHTML",
+        "result",
+        "result",
+        "result",
+        "result",
+        "result",
+        "result",
+        "result",
+        "searchResultDiv",
+        "generatedHTML"
+    ],
+    "literals": [
+        "'form'",
+        "'.search-result'",
+        "'.container'",
+        "''",
+        "'44acf9ba'",
+        "\"e68d3efcd7f83a41933774afb0ed417e\t\"",
+        "'submit'",
+        "'input'",
+        "https://api.edamam.com/search?q=${searchQuery}&app_id=${APP_ID}&app_key=${APP_key}&to=20",
+        "'initial'",
+        "''",
+        "<div class=\"item\">\n        <img src=\"${result.recipe.image}\" alt=\"img\">\n        <div class=\"flex-container\">\n          <h1 class=\"title\">${result.recipe.label}</h1>\n          <a class=\"view-recipe\" target=\"_blank\" href=\"${result.recipe.url}\">View Recipe</a>\n        </div>\n        <p class=\"item-data\">Calories: ${result.recipe.calories.toFixed(2)}</p>\n        <p class=\"item-data\">Diet label: ${result.recipe.dietLabels.length > 0 ? result.recipe.dietLabels : 'No Data Found'}</p>\n        <p class=\"item-data\">Health labels: ${result.recipe.healthLabels}</p>\n      </div>",
+        "'No Data Found'"
+    ],
+    "variables": [
+        "searchForm",
+        "searchResultDiv",
+        "container",
+        "searchQuery",
+        "APP_ID",
+        "APP_key",
+        "baseURL",
+        "response",
+        "data",
+        "generatedHTML"
+    ],
+    "comments": [
+        "console.log(container)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchAPI",
+        "generateHTML"
+    ],
+    "classes": []
+}

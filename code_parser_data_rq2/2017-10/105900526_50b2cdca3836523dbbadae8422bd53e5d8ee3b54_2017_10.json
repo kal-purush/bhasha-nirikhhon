@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "csvReader",
+        "java",
+        "io",
+        "BufferedReader",
+        "java",
+        "io",
+        "FileNotFoundException",
+        "java",
+        "io",
+        "FileReader",
+        "java",
+        "io",
+        "args",
+        "csvBR",
+        "executeRead",
+        "executeRead",
+        "readData",
+        "csvBR"
+    ],
+    "literals": [
+        "\"slatecode test.csv\""
+    ],
+    "variables": [],
+    "comments": [
+        "we declare a buffer reader that will read the csv file and pass the csv file to it...",
+        "we declare an instance of the ReadFile class",
+        "run the method that reads the csv file and give the declared buffer reader as an argument"
+    ],
+    "docstrings": [
+        "*\n * @author NobleSoft",
+        "* @param args the command line arguments\n     * @throws java.io.IOException\n     * @throws java.io.FileNotFoundException"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "CsvReaderMain"
+    ]
+}

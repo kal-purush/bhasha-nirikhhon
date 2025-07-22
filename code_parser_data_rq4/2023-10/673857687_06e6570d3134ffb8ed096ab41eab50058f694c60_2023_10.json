@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "user",
+        "java",
+        "sql",
+        "conn",
+        "pstmt",
+        "rs",
+        "url",
+        "user",
+        "Class",
+        "forName",
+        "conn",
+        "DriverManager",
+        "getConnection",
+        "url",
+        "user",
+        "e",
+        "e",
+        "printStackTrace",
+        "userID",
+        "userPassword",
+        "SQL",
+        "pstmt",
+        "conn",
+        "prepareStatement",
+        "SQL",
+        "pstmt",
+        "setString",
+        "userID",
+        "rs",
+        "pstmt",
+        "executeQuery",
+        "rs",
+        "next",
+        "rs",
+        "getString",
+        "equals",
+        "userPassword",
+        "e",
+        "e",
+        "printStackTrace"
+    ],
+    "literals": [
+        "\"jdbc:oracle:thin:@localhost:1521:xe\"",
+        "\"scott\"",
+        "\"tiger\"",
+        "\"oracle.jdbc.driver.OracleDriver\"",
+        "\"SELECT userPassword FROM USERT WHERE userID = ?\""
+    ],
+    "variables": [
+        "conn",
+        "pstmt",
+        "rs"
+    ],
+    "comments": [
+        "로그인 성공",
+        "비밀번호 불일치",
+        "아이디가 없음",
+        "데이터베이스 오류"
+    ],
+    "docstrings": [],
+    "functions": [
+        "UserDAO",
+        "login"
+    ],
+    "classes": [
+        "UserDAO"
+    ]
+}

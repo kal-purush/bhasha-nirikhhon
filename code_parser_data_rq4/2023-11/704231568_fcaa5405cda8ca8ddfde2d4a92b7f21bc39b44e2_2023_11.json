@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "input",
+        "input",
+        "good_widgets",
+        "rejects_widgets",
+        "rejects_widgets",
+        "total_widgets",
+        "rejects_percent",
+        "rejects_percent",
+        "rejects_percent"
+    ],
+    "literals": [
+        "\"How many good widgets have been produced this shift? \"",
+        "\"How many reject widgets have been produced this shift? \"",
+        "\"The percentage of rejects is\"",
+        "\"%\"",
+        "\"Shift output is good!\"",
+        "\"Shift output is satisfactory.\"",
+        "\"Shift output is unsatisfactory.\""
+    ],
+    "variables": [
+        "good_widgets",
+        "rejects_widgets",
+        "total_widgets",
+        "rejects_percent"
+    ],
+    "comments": [
+        "Percentage of rejects is less than 3%, so it is good.",
+        "Percentage of rejects is greater than 3%, but less than 5%, so it is satisfactory.",
+        "Percentage of rejects is greater than 5%, so it is unsatisfactory."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

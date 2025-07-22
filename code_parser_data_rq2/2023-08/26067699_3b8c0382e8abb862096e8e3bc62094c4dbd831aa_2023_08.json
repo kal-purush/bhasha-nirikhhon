@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "Collections",
+        "Concurrent",
+        "Collections",
+        "Generic",
+        "Threading",
+        "Hangfire",
+        "PostgreSql",
+        "Utils",
+        "ConcurrentDictionary",
+        "AutoResetEvent",
+        "WaitHandle",
+        "eventKeys",
+        "eventKey",
+        "eventKeys",
+        "_events",
+        "TryGetValue",
+        "eventKey",
+        "AutoResetEvent",
+        "handle",
+        "handle",
+        "_events",
+        "GetOrAdd",
+        "eventKey",
+        "AutoResetEvent",
+        "newHandle",
+        "eventKey",
+        "_events",
+        "TryGetValue",
+        "eventKey",
+        "AutoResetEvent",
+        "handle",
+        "handle"
+    ],
+    "literals": [],
+    "variables": [
+        "_events",
+        "AutoResetEvent",
+        "newHandle"
+    ],
+    "comments": [
+        "Represents a registry for managing AutoResetEvent instances using event keys.",
+        "</summary>",
+        "Retrieves the wait handles associated with the specified event keys.",
+        "</summary>",
+        "<param name=\"eventKeys\">The event keys.</param>",
+        "<returns>An enumerable of wait handles.</returns>",
+        "Sets the specified event.",
+        "</summary>",
+        "<param name=\"eventKey\">The event key.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "GetWaitHandles"
+    ],
+    "classes": [
+        "AutoResetEventRegistry"
+    ]
+}

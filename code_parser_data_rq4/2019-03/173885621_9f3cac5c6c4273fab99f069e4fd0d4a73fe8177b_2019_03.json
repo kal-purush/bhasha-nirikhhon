@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "resolve",
+        "commonjs",
+        "sourceMaps",
+        "camelCase",
+        "typescript",
+        "json",
+        "require",
+        "libraryName",
+        "pkg",
+        "camelCase",
+        "libraryName",
+        "pkg",
+        "json",
+        "typescript",
+        "commonjs",
+        "resolve",
+        "sourceMaps"
+    ],
+    "literals": [
+        "'rollup-plugin-node-resolve'",
+        "'rollup-plugin-commonjs'",
+        "'rollup-plugin-sourcemaps'",
+        "'lodash.camelcase'",
+        "'rollup-plugin-typescript2'",
+        "'rollup-plugin-json'",
+        "'./package.json'",
+        "'deep-mutate'",
+        "src/${libraryName}.ts",
+        "'umd'",
+        "'es'",
+        "'src/**'"
+    ],
+    "variables": [
+        "pkg",
+        "libraryName"
+    ],
+    "comments": [
+        "Indicate here external modules you don't wanna include in your bundle (i.e.: 'lodash')",
+        "Allow json resolution",
+        "Compile TypeScript files",
+        "Allow bundling cjs modules (unlike webpack, rollup doesn't understand cjs)",
+        "Allow node_modules resolution, so you can use 'external' to control",
+        "which external modules to include in the bundle",
+        "https://github.com/rollup/rollup-plugin-node-resolve#usage",
+        "Resolve source maps to the original source"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

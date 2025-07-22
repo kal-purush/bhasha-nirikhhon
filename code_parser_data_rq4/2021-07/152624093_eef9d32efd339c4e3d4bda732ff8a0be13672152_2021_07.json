@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "software",
+        "amazon",
+        "awssdk",
+        "crt",
+        "checksums",
+        "software",
+        "amazon",
+        "awssdk",
+        "crt",
+        "CrtResource",
+        "input",
+        "crc32",
+        "input",
+        "input",
+        "crc32c",
+        "input",
+        "input",
+        "previous",
+        "input",
+        "previous"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.\n * SPDX-License-Identifier: Apache-2.0.",
+        "java built in implementation of crc32 and crc32c returns a long, this can cause some confusion if not handled\n       properly as crc32 and crc32c only result in 32 bits. be careful when mixing the built in implementation with this\n       one"
+    ],
+    "functions": [
+        "crc32",
+        "crc32c",
+        "crc32",
+        "crc32c"
+    ],
+    "classes": [
+        "Checksums"
+    ]
+}

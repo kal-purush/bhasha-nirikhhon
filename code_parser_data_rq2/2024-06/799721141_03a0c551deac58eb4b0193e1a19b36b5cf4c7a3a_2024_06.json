@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "ActionManager",
+        "TrackAudioManager",
+        "handleStationStatusAdded",
+        "callsign",
+        "TrackAudioManager",
+        "ActionManager",
+        "actionManager",
+        "trackAudio",
+        "trackAudio",
+        "callsign"
+    ],
+    "literals": [
+        "\"../../actionManager\"",
+        "\"../../trackAudioManager\"",
+        "string"
+    ],
+    "variables": [
+        "handleStationStatusAdded",
+        "trackAudio",
+        "actionManager"
+    ],
+    "comments": [
+        "If this is the first button added then connect to TrackAudio. That will",
+        "also cause a dump of the current state of all stations in TrackAudio.",
+        "Otherwise just request the state for the newly added station status."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

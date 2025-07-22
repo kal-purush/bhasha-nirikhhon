@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "ru",
+        "yandex",
+        "qatools",
+        "htmlelements",
+        "annotations",
+        "java",
+        "lang",
+        "annotation",
+        "ElementType",
+        "java",
+        "lang",
+        "annotation",
+        "Retention",
+        "java",
+        "lang",
+        "annotation",
+        "RetentionPolicy",
+        "java",
+        "lang",
+        "annotation",
+        "Target",
+        "Retention",
+        "RetentionPolicy",
+        "RUNTIME",
+        "Target",
+        "ElementType",
+        "TYPE",
+        "ElementType",
+        "FIELD",
+        "Timeout",
+        "value"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Annotation that is used for setting waiting timeout value, which will be used for waiting an element to appear.\n * For example:\n * <p/>\n * <pre class=\"code\">\n * &#64;FindBy(css = \"my_form_css\")\n * &#64;Timeout(3)\n * public class MyForm extends HtmlElement {\n * &#64;FindBy(css = \"text_input_css\")\n * &#64;Timeout(3)\n * private TextInput textInput;\n * <p/>\n * // Other elements and methods here\n * }\n * </pre>\n *\n * @author emaks emaksimenko2106@gmail.com"
+    ],
+    "functions": [],
+    "classes": []
+}

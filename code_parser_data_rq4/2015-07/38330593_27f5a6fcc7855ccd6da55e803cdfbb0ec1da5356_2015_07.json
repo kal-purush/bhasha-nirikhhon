@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Facebook",
+        "Web",
+        "Mvc",
+        "Web",
+        "WebPages",
+        "Web",
+        "Helpers",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "FacebookApi",
+        "FacebookClient",
+        "client",
+        "Get",
+        "me",
+        "first_name",
+        "me",
+        "last_name"
+    ],
+    "literals": [
+        "\"4\""
+    ],
+    "variables": [
+        "client",
+        "dynamic",
+        "me",
+        "firstName",
+        "lastName"
+    ],
+    "comments": [
+        "public void UserInfo()",
+        "{",
+        "var accessToken = Session[\"AccessToken\"].ToString();",
+        "var client = new FacebookClient(accessToken);",
+        "dynamic result = client.Get(\"me\", new { fields = \"name,id\" });",
+        "string id = result.id;",
+        "string name = result.name;",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "doThis"
+    ],
+    "classes": [
+        "Class1"
+    ]
+}

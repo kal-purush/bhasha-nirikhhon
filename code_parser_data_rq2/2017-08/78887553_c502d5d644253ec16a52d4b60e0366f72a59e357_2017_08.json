@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "key",
+        "key",
+        "config",
+        "config",
+        "setInterval",
+        "key",
+        "value",
+        "key",
+        "value",
+        "key",
+        "key",
+        "config",
+        "defaultConfig",
+        "config",
+        "key",
+        "callback",
+        "key",
+        "callback",
+        "key",
+        "array",
+        "key",
+        "array",
+        "intervalFunctions",
+        "key",
+        "intervalFunctions",
+        "key",
+        "func",
+        "func",
+        "element",
+        "element",
+        "values",
+        "key",
+        "key",
+        "values",
+        "values",
+        "func",
+        "values",
+        "key",
+        "values"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "defaultConfig",
+        "intervalFunctions",
+        "func"
+    ],
+    "comments": [
+        "Get a key.",
+        "Set a key.",
+        "Clear the cache.",
+        "Set the config by assigning it to the default config.",
+        "Get the current config.",
+        "Add a function to the function queue.",
+        "Add a function array to the function queue.",
+        "Get the interval functions.",
+        "Run all actions and update cache."
+    ],
+    "docstrings": [],
+    "functions": [
+        "get",
+        "clear",
+        "setConfig",
+        "getConfig",
+        "addCacheFunction",
+        "addCacheFunctions",
+        "getCacheFunctions",
+        "runCacheFunctions"
+    ],
+    "classes": [
+        "Cache"
+    ]
+}

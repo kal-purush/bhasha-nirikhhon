@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "util",
+        "opts",
+        "opts",
+        "msg",
+        "msg",
+        "levels",
+        "i",
+        "arguments",
+        "i",
+        "arguments",
+        "i",
+        "lvl",
+        "lvl",
+        "lvl",
+        "process",
+        "env",
+        "env"
+    ],
+    "literals": [
+        "'util'",
+        "'error'",
+        "'info'",
+        "'debug'",
+        "string",
+        "string",
+        "'debug'",
+        "':'",
+        "string",
+        "'LOG_LEVEL'"
+    ],
+    "variables": [
+        "levels",
+        "i",
+        "env"
+    ],
+    "comments": [
+        "<reference path=\"typings/tsd.d.ts\"/>",
+        "Default Levels",
+        "0: error",
+        "1: info",
+        "2: debug",
+        "Allow manual setting of the level",
+        "Get level from environment",
+        "Get level from this logger's options"
+    ],
+    "docstrings": [],
+    "functions": [
+        "write",
+        "lvlNum",
+        "debug",
+        "setLevel"
+    ],
+    "classes": [
+        "Log"
+    ]
+}

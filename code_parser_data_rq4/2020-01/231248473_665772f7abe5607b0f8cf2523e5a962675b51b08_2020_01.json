@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "S3",
+        "makeTokenizer",
+        "describe",
+        "S3",
+        "describe",
+        "disableChunked",
+        "makeTokenizer",
+        "s3",
+        "disableChunked",
+        "tokenizer",
+        "tokenizer",
+        "it",
+        "checkFileInfo",
+        "it",
+        "checkFileInfo"
+    ],
+    "literals": [
+        "'aws-sdk/clients/s3'",
+        "'chai'",
+        "'../lib'",
+        "'S3 Tokenizer'",
+        "'initialize tokenizer.fileInfo'",
+        "'music-metadata'",
+        "'Various Artists - 2008 - netBloc Vol 13 (color in a world of monochrome) {BSCOMP0013} [MP3-V0]/01 - Nils Hoffmann - Sweet Man Like Me.mp3'",
+        "'audio/mp3'",
+        "'tokenizer.fileInfo.mimeType'",
+        "'tokenizer.fileInfo.size'",
+        "'from chunked transfer'",
+        "'from stream'"
+    ],
+    "variables": [
+        "s3",
+        "tokenizer"
+    ],
+    "comments": [
+        "Note that: Amazon S3 returns 'audio/mp3', however the correct MIME-type for MP3 is 'audio/mpeg'"
+    ],
+    "docstrings": [],
+    "functions": [
+        "checkFileInfo"
+    ],
+    "classes": []
+}

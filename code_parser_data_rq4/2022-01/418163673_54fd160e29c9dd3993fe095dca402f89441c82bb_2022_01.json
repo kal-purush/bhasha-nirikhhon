@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "axios",
+        "logger",
+        "secretKey",
+        "responseToken",
+        "axios",
+        "verifyUrl",
+        "secretKey",
+        "responseToken",
+        "responseData",
+        "response",
+        "error",
+        "logger",
+        "error",
+        "responseData",
+        "responseData"
+    ],
+    "literals": [
+        "'axios'",
+        "'../logging'",
+        "string",
+        "string",
+        "\"error-codes\"",
+        "string",
+        "string",
+        "string",
+        "'https://www.google.com/recaptcha/api/siteverify'",
+        "'post'",
+        "'Failed request to reCaptcha'",
+        "${error}"
+    ],
+    "variables": [
+        "verifyUrl",
+        "responseData",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "verifyRecaptchaResponse"
+    ],
+    "classes": []
+}

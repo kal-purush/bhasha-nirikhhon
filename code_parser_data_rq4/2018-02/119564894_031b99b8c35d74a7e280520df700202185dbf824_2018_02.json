@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Diagnostics",
+        "Threading",
+        "Threading",
+        "Tasks",
+        "DockerCliWrapper",
+        "Extensions",
+        "Process",
+        "process",
+        "CancellationToken",
+        "cancellationToken",
+        "CancellationToken",
+        "TaskCompletionSource",
+        "process",
+        "EnableRaisingEvents",
+        "process",
+        "Exited",
+        "sender",
+        "args",
+        "tcs",
+        "TrySetResult",
+        "cancellationToken",
+        "CancellationToken",
+        "cancellationToken",
+        "Register",
+        "tcs",
+        "SetCanceled",
+        "tcs"
+    ],
+    "literals": [],
+    "variables": [
+        "tcs"
+    ],
+    "comments": [
+        "Waits asynchronously for the process to exit.",
+        "</summary>",
+        "<param name=\"process\">The process to wait for cancellation.</param>",
+        "<param name=\"cancellationToken\">A cancellation token. If invoked, the task will return",
+        "immediately as canceled.</param>",
+        "<returns>A Task representing waiting for the process to end.</returns>",
+        "<remarks>Taken from <see cref=\"https://stackoverflow.com/questions/470256/process-waitforexit-asynchronously\"/></remarks>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "WaitForExitAsync"
+    ],
+    "classes": [
+        "AsyncProcessExtensions"
+    ]
+}

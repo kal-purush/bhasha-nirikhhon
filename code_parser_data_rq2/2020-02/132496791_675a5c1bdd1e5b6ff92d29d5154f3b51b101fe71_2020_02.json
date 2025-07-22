@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "CYCLING_MOVE_STREAM",
+        "RUNNING_MOVE_STREAM",
+        "describe",
+        "it",
+        "done",
+        "CYCLING_MOVE_STREAM",
+        "meterPerSec",
+        "index",
+        "CYCLING_MOVE_STREAM",
+        "index",
+        "isResting",
+        "restSpeeds",
+        "meterPerSec",
+        "restSpeeds",
+        "maxRestingSpeed",
+        "maxRestingSpeed",
+        "done",
+        "it",
+        "done",
+        "RUNNING_MOVE_STREAM",
+        "meterPerSec",
+        "index",
+        "RUNNING_MOVE_STREAM",
+        "index",
+        "isResting",
+        "restSpeeds",
+        "meterPerSec",
+        "restSpeeds",
+        "maxRestingSpeed",
+        "maxRestingSpeed",
+        "done"
+    ],
+    "literals": [
+        "'./fixtures/movingTimeAnalysis/move_cycling_strava_stream.json'",
+        "'./fixtures/movingTimeAnalysis/move_running_strava_stream.json'",
+        "'Moving time analysis from strava based velocity and rest streams'",
+        "'should find cycling rest speed threshold'",
+        "'Cycling rest speed threshold in meter per seconds: '",
+        "'Cycling rest speed threshold in kilometers per hours: '",
+        "'should find running rest speed threshold'",
+        "'Running rest speed threshold in meter per seconds: '",
+        "'Running rest speed threshold in kilometers per hours: '"
+    ],
+    "variables": [
+        "restSpeeds",
+        "isResting",
+        "maxRestingSpeed",
+        "restSpeeds",
+        "isResting",
+        "maxRestingSpeed"
+    ],
+    "comments": [
+        "Stream URL: https://www.strava.com/activities/2621275265/streams?stream_types%5B%5D=velocity_smooth&stream_types%5B%5D=resting"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

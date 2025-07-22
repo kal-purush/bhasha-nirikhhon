@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "categoria",
+        "pergunta",
+        "resposta",
+        "cartao",
+        "cartao",
+        "categoria",
+        "pergunta",
+        "resposta",
+        "respostaEstaVisivel",
+        "respostaEstaVisivel",
+        "cartao",
+        "respostaEstaVisivel",
+        "cartao",
+        "viraCartao",
+        "container",
+        "cartao"
+    ],
+    "literals": [
+        "'container'",
+        "'article'",
+        "'cartao'",
+        "<div class=\"cartao__conteudo\">\n    <h3>${categoria}</h3>\n    <div class=\"cartao__conteudo__pergunta\">\n        <p>${pergunta}</p>\n    </div>\n    <div class=\"cartao__conteudo__resposta\">\n        <p>${resposta}</p>\n    </div>\n    </div>",
+        "'active'",
+        "'click'"
+    ],
+    "variables": [
+        "container",
+        "cartao",
+        "respostaEstaVisivel"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "criaCartao",
+        "viraCartao"
+    ],
+    "classes": []
+}

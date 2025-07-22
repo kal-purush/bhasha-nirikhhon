@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "com",
+        "uwsoft",
+        "editor",
+        "view",
+        "stage",
+        "tools",
+        "transformStrategy",
+        "com",
+        "badlogic",
+        "gdx",
+        "math",
+        "MathUtils",
+        "mouseDeltaX",
+        "mouseDeltaY",
+        "rotation",
+        "mouseDragAngle",
+        "MathUtils",
+        "atan2",
+        "mouseDeltaY",
+        "mouseDeltaX",
+        "MathUtils",
+        "radDeg",
+        "deltaA",
+        "rotation",
+        "mouseDragAngle",
+        "c",
+        "sqrt",
+        "mouseDeltaX",
+        "mouseDeltaX",
+        "mouseDeltaY",
+        "mouseDeltaY",
+        "a",
+        "c",
+        "MathUtils",
+        "cosDeg",
+        "deltaA",
+        "xComponent",
+        "a",
+        "MathUtils",
+        "cosDeg",
+        "rotation",
+        "yComponent",
+        "a",
+        "MathUtils",
+        "sinDeg",
+        "rotation",
+        "a",
+        "xComponent",
+        "yComponent"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "float c = TransformUtils.hypotenuse(mouseDeltaX, mouseDeltaY);"
+    ],
+    "docstrings": [
+        "* Created by Sasun Poghosyan on 4/14/2016.",
+        "* on every anchor drag calculates width/height, x and y amounts.\n     * @param mouseDeltaX mouse delta on x axis\n     * @param mouseDeltaY mouse delta on y axis\n     * @param rotation    entity rotation. If you want to find vertical anchors drag value add 90 to {@link rotation}\n     * @return array of three floats (new float[]{width/height, xComponent, yComponent};)"
+    ],
+    "functions": [
+        "calculateSizeAndXyAmount"
+    ],
+    "classes": [
+        "AbstractTransformStrategy"
+    ]
+}

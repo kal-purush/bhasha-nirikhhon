@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "IO",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "WindowsFormsApp1",
+        "IValidar",
+        "Cliente",
+        "nombre_ingresado",
+        "nombre",
+        "nombre_ingresado",
+        "StreamReader",
+        "nombre",
+        "datos_cliente",
+        "archivo",
+        "ReadLine",
+        "datos_cliente",
+        "Split",
+        "linea",
+        "stringValidable",
+        "NotImplementedException",
+        "cuitValidable",
+        "NotImplementedException"
+    ],
+    "literals": [
+        "\".txt\"",
+        "\"\""
+    ],
+    "variables": [
+        "clientes",
+        "nombre",
+        "StreamReader",
+        "archivo",
+        "linea",
+        "datos_cliente",
+        "campos"
+    ],
+    "comments": [
+        "Cliente nuevoCliente = new Cliente(campos[0], campos[1], campos[2], decimal.Parse(campos[3]));\n                    // Si el arreglo esta lleno...\n                    if (linea == clientes.Length)\n                    {\n                        Array.Resize(ref clientes, linea + 1);\n                    }\n                    clientes[linea] = nuevoCliente;",
+        "nombre = nombre_ingresado;\n\nusing (StreamReader archivo = new StreamReader(@\"D:\\Drive\\UTN\\_Programacion 3\\Práctica\\Proyectos VS\\TP3\\\" + nombre + \".txt\"))\n{\n   int linea = 0;\n   string datos_cliente = \"\";\n   while ((datos_cliente = archivo.ReadLine()) != null)\n   {\n       string[] campos = datos_cliente.Split('|');\n\n       Cliente nuevoCliente = new Cliente(campos[0], campos[1], campos[2], decimal.Parse(campos[3]));\n       // Si el arreglo esta lleno...\n       if (linea == clientes.Length)\n       {\n           Array.Resize(ref clientes, linea + 1);\n       }\n       clientes[linea] = nuevoCliente;\n\n       linea++;\n   }\n\n}\n\npublic bool AgregarCliente(string nombre, string apellido, string cuit)\n{\n\n// Controla si un cuit existe o no detro de la cartera de clientes\nbool NuevoCuitEsUnico(string nuevo_cuit)\n{\n   bool result = true;\n   foreach (Cliente cliente in clientes)\n   {\n       if (cliente.Cuit == nuevo_cuit)\n       {\n           result = false;\n       }\n   }\n   return result;\n}\n\n// Validar la entrada\n// @nombre, @apellido string sin numero ni caracteres especiales\n// @cuit string de 11 numeros sin símbolos\n\nbool error = false;\n\nif (!ValidarString(nombre))\n{\n   Console.WriteLine(\"Nombre inválido\");\n   error = true;\n}\nelse if (!ValidarString(apellido))\n{\n   Console.WriteLine(\"Apellido inválido\");\n   error = true;\n}\nelse if (!ValidarCuit(cuit))\n{\n   Console.WriteLine(\"CUIT inválido\");\n   error = true;\n}\nelse if (!NuevoCuitEsUnico(cuit))\n{\n   Console.WriteLine(\"El CUIT ingresado ya pertenece a un usuario\");\n   error = true;\n}\n// Si no hay error...\nif (!error)\n{\n   //Instancia un cliente\n   Cliente nuevoCliente = new Cliente(nombre, apellido, cuit);\n   // Agranda el arreglo\n   Array.Resize(ref clientes, clientes.Length + 1);\n   // Inserta el cliente en la una posicion vacía del arreglo\n   clientes[clientes.Length - 1] = nuevoCliente;\n   // Informa estado actual del banco\n   Console.WriteLine(\"\\nCantidad actualizada de clientes del banco: \" + clientes.Length + \" clientes.\");\n   Console.WriteLine(\"Saldo en Tesorería: $\" + SaldoActualTesoreria());\n   return true;\n}\nelse\n{\n   return false;\n}\n\n}\n\npublic decimal SaldoActualTesoreria()\n{\ndecimal saldo = 0;\nforeach (Cliente cliente in clientes)\n{\n   if (cliente != null)\n   {\n       saldo += cliente.Saldo();\n   }\n   else\n   {\n       break;\n   }\n}\nreturn saldo;\n}\n\npublic Cliente OperarCliente(string cuitBuscado)\n{\nforeach (Cliente cliente in clientes)\n{\n   if (cliente.Cuit == cuitBuscado)\n   {\n       return cliente;\n   }\n}\nreturn null;\n}\n\npublic void Cerrar()\n{\nConsole.Clear();\nConsole.WriteLine(\"Saliendo...\\n\\nSaldo total en tesorería del banco: \" + SaldoActualTesoreria());\nConsole.ReadLine();\nvoid PersistirClientes()\n{\n   Console.WriteLine(\"\\nPersisitiendo listado de clientes del banco.\");\n   string[] lineas_clientes = new string[clientes.Length];\n   for (int i = 0; i < clientes.Length; i++)\n   {\n       lineas_clientes[i] = clientes[i].Nombre + \"|\" + clientes[i].Apellido + \"|\" + clientes[i].Cuit + \"|\" + clientes[i].Monto.ToString();\n       File.WriteAllLines(@\"D:\\Drive\\UTN\\_Programacion 3\\Práctica\\Proyectos VS\\TP3\\\" + nombre + \".txt\", lineas_clientes);\n   }\n}\nPersistirClientes();\n}\n\npublic bool ValidarString(string texto)\n{\nreturn Regex.IsMatch(texto, @\"^[a-zA-Z]+$\");\n}\n\npublic bool ValidarCuit(string cuit)\n{\nif (string.IsNullOrEmpty(cuit)) throw new ArgumentNullException(nameof(cuit));\nif (cuit.Length != 13) throw new ArgumentException(nameof(cuit));\nbool rv = false;\nint verificador;\nint resultado = 0;\nstring cuit_nro = cuit.Replace(\"-\", string.Empty);\nstring codes = \"6789456789\";\nlong cuit_long = 0;\nif (long.TryParse(cuit_nro, out cuit_long))\n{\n   verificador = int.Parse(cuit_nro[cuit_nro.Length - 1].ToString());\n   int x = 0;\n   while (x < 10)\n   {\n       int digitoValidador = int.Parse(codes.Substring((x), 1));\n       int digito = int.Parse(cuit_nro.Substring((x), 1));\n       int digitoValidacion = digitoValidador * digito;\n       resultado += digitoValidacion;\n       x++;\n   }\n   resultado = resultado % 11;\n   rv = (resultado == verificador);\n}\nreturn rv;\n\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Banco",
+        "AgregarCliente",
+        "Cliente",
+        "BuscarCliente",
+        "SaldoTesoreria",
+        "OperarCliente",
+        "Cerrar",
+        "ValidarString",
+        "ValidarCuit"
+    ],
+    "classes": [
+        "Banco"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "gql",
+        "useQuery",
+        "useLazyQuery",
+        "gql",
+        "useGetLoggedInUserQuery",
+        "useQuery",
+        "GET_USER_QUERY",
+        "useLazyGetLoggedInUserQuery",
+        "useLazyQuery",
+        "GET_USER_QUERY"
+    ],
+    "literals": [
+        "\"graphql-tag\"",
+        "\"@apollo/react-hooks\"",
+        "string",
+        "string",
+        "string",
+        "query getUser {\n    user {\n      id\n      name\n      email\n    }\n  }"
+    ],
+    "variables": [
+        "GET_USER_QUERY",
+        "useGetLoggedInUserQuery",
+        "useLazyGetLoggedInUserQuery"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

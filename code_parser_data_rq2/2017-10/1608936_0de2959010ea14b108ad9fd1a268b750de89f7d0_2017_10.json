@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "org",
+        "hibernate",
+        "ogm",
+        "utils",
+        "java",
+        "util",
+        "Collections",
+        "java",
+        "util",
+        "org",
+        "hibernate",
+        "Session",
+        "org",
+        "hibernate",
+        "SessionFactory",
+        "org",
+        "hibernate",
+        "ogm",
+        "datastore",
+        "options",
+        "AssociationStorageType",
+        "Override",
+        "sessionFactory",
+        "Override",
+        "session",
+        "getNumberOfEntities",
+        "session",
+        "getSessionFactory",
+        "Override",
+        "session",
+        "getNumberOfAssociations",
+        "session",
+        "getSessionFactory",
+        "Override",
+        "Override",
+        "Collections",
+        "emptyMap",
+        "Override",
+        "sessionFactory"
+    ],
+    "literals": [
+        "\"This datastore does not support different association storage strategies.\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Hibernate OGM, Domain model persistence for NoSQL datastores\n *\n * License: GNU Lesser General Public License (LGPL), version 2.1 or later\n * See the lgpl.txt file in the root directory or <http://www.gnu.org/licenses/lgpl-2.1.html>.",
+        "* Base class for {@link GridDialectTestHelper} that collects common implementations of the method among the dialects.\n * <p>\n * The main purpose of this class is to make it easier to update the {@link GridDialectTestHelper} implementations\n * across dialects in separate repositories.\n *\n * @author Davide D'Alto"
+    ],
+    "functions": [
+        "prepareDatabase",
+        "getNumberOfEntities",
+        "getNumberOfAssociations",
+        "backendSupportsTransactions",
+        "getAdditionalConfigurationProperties",
+        "getNumberOfAssociations"
+    ],
+    "classes": [
+        "BaseGridDialectTestHelper"
+    ]
+}

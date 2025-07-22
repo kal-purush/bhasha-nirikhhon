@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "Props",
+        "props",
+        "props",
+        "props",
+        "props"
+    ],
+    "literals": [
+        "'styled-components'",
+        "string",
+        "string",
+        "background-image: url('${ props => props.imageMobile }');\n    background-position: center;\n    background-repeat: no-repeat;\n    background-size: cover;\n    width: 150%;\n    height: 150%;\n    position: absolute;\n    top: 0;\n    left: 0;\n    z-index: -1;\n\n    @media(min-width: 1024px) {\n        background-image: url('${ props => props.image }');\n    }"
+    ],
+    "variables": [
+        "Container"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

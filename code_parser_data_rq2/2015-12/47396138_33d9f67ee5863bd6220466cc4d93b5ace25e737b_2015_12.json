@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "utils",
+        "options",
+        "options",
+        "options",
+        "choice",
+        "options",
+        "choice",
+        "choice",
+        "res",
+        "options",
+        "res",
+        "ChoiceField",
+        "ChoiceField"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "'./base'",
+        "'../utils'",
+        "string",
+        "'display_name'",
+        "'value'",
+        "string",
+        "'radio'",
+        "string",
+        "'select'"
+    ],
+    "variables": [
+        "res",
+        "options"
+    ],
+    "comments": [
+        "FIXME write functional tests for this"
+    ],
+    "docstrings": [
+        "* Base string field interface.",
+        "* List of accepted values.",
+        "* Base ChoiceField class."
+    ],
+    "functions": [
+        "getExtraTemplateOptions"
+    ],
+    "classes": [
+        "ChoiceField",
+        "RadioField",
+        "SelectField"
+    ]
+}

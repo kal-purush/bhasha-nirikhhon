@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "warnings",
+        "DefaultConfig"
+    ],
+    "literals": [
+        "'/home/jipuzhao/user/Kaggle18/data/'",
+        "'/home/jipuzhao/user/Kaggle18/project/model/checkpoints/'",
+        "'/home/jipuzhao/user/Kaggle18/project/utils/saved_loss.csv'",
+        "'/home/jipuzhao/user/Kaggle18/project/utils/saved_lr.csv'",
+        "'/home/jipuzhao/user/Kaggle18/data/stage1_sample_submission.csv'"
+    ],
+    "variables": [
+        "root",
+        "model_save_path",
+        "loss_save_path",
+        "lr_save_path",
+        "test_save_path",
+        "resize",
+        "resize_width",
+        "resize_height",
+        "filp",
+        "swap",
+        "rotate",
+        "batch_size",
+        "num_workers",
+        "pin_memory",
+        "use_gpu",
+        "lr",
+        "lr_decay",
+        "weight_decay",
+        "epoch",
+        "threshold",
+        "model_save_freq",
+        "opt"
+    ],
+    "comments": [
+        "coding:utf-8",
+        "data path",
+        "save",
+        "data prepprocess",
+        "load data",
+        "how many subprocesses",
+        "if True loader will copy tensors in CUDA pinned memory before return them",
+        "train",
+        "get rle",
+        "if epoch%save_freq == 0: save"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "DefaultConfig"
+    ]
+}

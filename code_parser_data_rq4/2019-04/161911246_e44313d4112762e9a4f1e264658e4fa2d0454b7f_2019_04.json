@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "os",
+        "invoke",
+        "task",
+        "task",
+        "c",
+        "docker_image",
+        "docker_image_tag",
+        "DEFAULT_DOCKER_IMAGE_TAG",
+        "c",
+        "run",
+        "docker_image",
+        "docker_image_tag",
+        "DEFAULT_DOCKER_IMAGE_TAG",
+        "DOCKER_IMAGE_TAG_ENV_VARIABLE",
+        "os",
+        "environ",
+        "os",
+        "environ",
+        "DOCKER_IMAGE_TAG_ENV_VARIABLE",
+        "c",
+        "run",
+        "docker_image_tag"
+    ],
+    "literals": [
+        "'orbin/gramhopper'",
+        "'DOCKER_IMAGE_TAG'",
+        "'Building package...'",
+        "'python setup.py sdist bdist_wheel'",
+        "'Building docker image...'",
+        "f'docker build -t {docker_image_tag} .'"
+    ],
+    "variables": [
+        "DEFAULT_DOCKER_IMAGE_TAG",
+        "DOCKER_IMAGE_TAG_ENV_VARIABLE",
+        "docker_image_tag"
+    ],
+    "comments": [
+        "If not specified the tag as a flag, the tag from the environment variable is preferred"
+    ],
+    "docstrings": [],
+    "functions": [
+        "build"
+    ],
+    "classes": []
+}

@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "h",
+        "k",
+        "h",
+        "e",
+        "e",
+        "k",
+        "h",
+        "k",
+        "h",
+        "e",
+        "e",
+        "k",
+        "e",
+        "e",
+        "h",
+        "k",
+        "Header",
+        "h",
+        "k",
+        "r",
+        "r",
+        "h",
+        "k",
+        "v",
+        "h",
+        "k",
+        "h"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "r"
+    ],
+    "comments": [
+        "export interface IHeaders {\n    [Symbol.iterator](): IterableIterator<HeaderEntry>;\n    length: number;\n    toArray(): HeaderEntry[];\n    getFirst(k: string): string;\n    has(k: string): boolean;\n    get(k: string): string[];\n    add(k: string, v: string): void;\n    remove(k: string): this;\n}\n\nexport class Headers implements IHeaders {\n    _h: HeaderEntry[];\n\n    constructor(h?: Iterable<HeaderEntry>) {\n        for(let [k, v] of h) {\n            this._h.push([k, v]);\n        }\n    }\n    get length() {\n        return this._h.length;\n    }\n    [Symbol.iterator](): IterableIterator<HeaderEntry> {\n        return this._h[Symbol.iterator]();\n    }\n    toArray(): HeaderEntry[] {\n        return this._h.map(e => <HeaderEntry> e.slice(0));\n    }\n    get(key: string): string[] {\n        return this._h.filter(e => e[0] === key).map(e => e[1]);\n    }\n    has(key: string): boolean {\n        return this._h.some(e => e[0] === key);\n    }\n    getFirst(key: string): string {\n        let r = this.get(key);\n        return r.length === 0 ? null : r[0];\n    }\n    add(key: string, value: string): void {\n        this._h.push([key, value]);\n    }\n    remove(key: string): Headers {\n        this._h = this._h.filter();\n    }\n}",
+        "TODO!",
+        "return h.filter()"
+    ],
+    "docstrings": [],
+    "functions": [
+        "has",
+        "get",
+        "getFirst",
+        "add",
+        "removeAll",
+        "clone"
+    ],
+    "classes": [
+        "Header"
+    ]
+}

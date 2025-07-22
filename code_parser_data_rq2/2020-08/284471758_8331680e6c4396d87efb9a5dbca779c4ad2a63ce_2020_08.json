@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "BepInEx",
+        "BepInEx",
+        "Bootstrap",
+        "HarmonyLib",
+        "UnityEngine",
+        "ModAPI",
+        "BepInPlugin",
+        "BepInProcess",
+        "BaseUnityPlugin",
+        "Chainloader",
+        "PluginInfos",
+        "ContainsKey",
+        "Debug",
+        "LogError",
+        "Chainloader",
+        "PluginInfos",
+        "Instance",
+        "ModAPI",
+        "ResourceRedirectManager",
+        "GetInstance",
+        "name",
+        "_HM",
+        "Harmony",
+        "_HM",
+        "PatchAll",
+        "UI",
+        "Init",
+        "UI",
+        "Unload",
+        "_HM",
+        "UnpatchAll"
+    ],
+    "literals": [
+        "\"plugins.modapi\"",
+        "\"Mod API\"",
+        "\"1.0.0.0\"",
+        "\"PathOfWuxia.exe\"",
+        "\"plugins.modapi\"",
+        "\"Tried to optain ModApi Instance but it was not loaded!\"",
+        "\"plugins.modapi\"",
+        "\"ModAPI\"",
+        "\"ModAPI\"",
+        "\"ModAPI\""
+    ],
+    "variables": [
+        "Harmony",
+        "_HM",
+        "ResourceRedirectManager",
+        "ResourceRedirector"
+    ],
+    "comments": [
+        "Hooking",
+        "Initing in game console (basically just a log viewer right now)",
+        "Cleaning up in reverse order in which we set everything up."
+    ],
+    "docstrings": [],
+    "functions": [
+        "ModAPI",
+        "GetInstance",
+        "Awake",
+        "OnDestroy"
+    ],
+    "classes": [
+        "ModAPI"
+    ]
+}

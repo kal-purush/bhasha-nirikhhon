@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "math",
+        "point_a",
+        "point_b",
+        "point_a",
+        "point_b",
+        "point",
+        "buffer",
+        "b",
+        "a",
+        "cross_product",
+        "point",
+        "a",
+        "cross_product",
+        "norm",
+        "buffer",
+        "b",
+        "a",
+        "dot_product",
+        "point",
+        "a",
+        "dot_product",
+        "a",
+        "squared_distance_to",
+        "b",
+        "dot_product",
+        "distance",
+        "line_segment",
+        "buffer",
+        "abs",
+        "b",
+        "a",
+        "dot_product",
+        "line_segment",
+        "b",
+        "line_segment",
+        "a",
+        "buffer"
+    ],
+    "literals": [],
+    "variables": [
+        "a",
+        "b",
+        "cross_product",
+        "dot_product",
+        "distance"
+    ],
+    "comments": [
+        "First check if the a->b and a->point are colinear. If they are,",
+        "the cross product should be zero (with some buffer for errors)",
+        "If the dot product between a->b and a->point is negative then",
+        "point lays outside the a---b boundaries",
+        "Finally if it is greater than the a->b squared distance it also lays",
+        "out of bounds"
+    ],
+    "docstrings": [],
+    "functions": [
+        "includes_point",
+        "is_orthogonal_to"
+    ],
+    "classes": [
+        "LineSegment"
+    ]
+}

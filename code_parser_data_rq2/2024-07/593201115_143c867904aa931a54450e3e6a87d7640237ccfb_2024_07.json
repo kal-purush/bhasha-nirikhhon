@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "LitElement",
+        "css",
+        "customElement",
+        "html",
+        "property",
+        "customElement",
+        "LitElement",
+        "property",
+        "property",
+        "property",
+        "e",
+        "e",
+        "e",
+        "e",
+        "FormData",
+        "target",
+        "CustomEvent",
+        "data",
+        "target",
+        "e",
+        "CustomEvent",
+        "e",
+        "index",
+        "ev",
+        "ev",
+        "ev",
+        "CustomEvent",
+        "index",
+        "html",
+        "t",
+        "index",
+        "html",
+        "index",
+        "index",
+        "t",
+        "html",
+        "t",
+        "html",
+        "css"
+    ],
+    "literals": [
+        "\"lit-element\"",
+        "\"tag-list\"",
+        "string",
+        "\"add\"",
+        "\"tag\"",
+        "\"remove\"",
+        "\"click\"",
+        "<div class=\"tags-list\">\n      ${this.tags.map((t, index)=>html`<span @click=${this.onClick.bind(this, index)} class=\"tag${this.selected=== index?\" selected\":\"\"}\">\n        <span class=\"tag-name\">${t}</span>\n        ${this.editable? html`<button name=${t} class=\"tag-delete\" @click=${this.onRemove}>×</button>`:null}\n      </span>`)}\n      ${this.editable? html`<form class=\"add-tag\" @submit=${this.onAdd}>\n        <input type=\"text\" name=\"tag\" placeholder=\"add tag\" required minlength=\"1\" maxlength=\"20\">\n        <input type=\"submit\" value=\"✓\">\n      </form>`: null}\n    </div>",
+        "<span @click=${this.onClick.bind(this, index)} class=\"tag${this.selected=== index?\" selected\":\"\"}\">\n        <span class=\"tag-name\">${t}</span>\n        ${this.editable? html`<button name=${t} class=\"tag-delete\" @click=${this.onRemove}>×</button>`:null}\n      </span>",
+        "\" selected\"",
+        "\"\"",
+        "<button name=${t} class=\"tag-delete\" @click=${this.onRemove}>×</button>",
+        "<form class=\"add-tag\" @submit=${this.onAdd}>\n        <input type=\"text\" name=\"tag\" placeholder=\"add tag\" required minlength=\"1\" maxlength=\"20\">\n        <input type=\"submit\" value=\"✓\">\n      </form>",
+        ".tags-list{\n      display: flex;\n      gap: 2px;\n    }\n\n    .tag, .add-tag{\n      color: white;\n      padding: .125em;\n      border-radius: .75em;\n      border: 1px solid var(--color-secondary);\n      background: var(--color-highlight);\n    }\n    .tag:hover, .tag.selected{\n      background-color: var(--color-secondary);\n    }\n\n    .tag .tag-name{\n      padding-left: .375em;\n      cursor: pointer;\n    }\n\n    .tag .tag-name:last-child{\n      padding-right: .375em;\n    }\n\n    .tag .tag-delete{\n      display: inline;\n      background-color: var(--color-highlight);\n      color: white;\n      border: 1px solid transparent;\n      border-radius: .75em;\n      padding: 1px 4.5px;\n      margin: 1px;\n      box-sizing: border-box;\n      cursor: pointer;\n      transition: background-color .1s ease;\n    }\n\n    .tag .tag-delete:hover{\n      background-color: var(--color-secondary);\n      border-color: var(--color-secondary-light);\n    }\n\n    .add-tag{\n      position: relative;\n    }\n\n    .add-tag input{\n      color: inherit;\n      border: none;\n      background: none;\n      height: 100%;\n      box-sizing: border-box;\n    }\n\n    .add-tag input:focus-visible{\n      outline: none;\n    }\n\n    .add-tag input[type=\"text\"]{\n      max-width:12ch;\n    }\n\n    .add-tag input[type=\"submit\"]{\n      cursor: pointer;\n      opacity: 0;\n    }\n    \n    .add-tag:valid input[type=\"submit\"]{\n      opacity: 1;\n    }\n\n    .add-tag input[type=\"submit\"]:hover{\n      color: var(--color-success);\n      background-color: var(--color-secondary); \n      border-radius: .75em;\n    }"
+    ],
+    "variables": [
+        "target",
+        "data"
+    ],
+    "comments": [
+        "List of tag names to display",
+        "show add/remove elements"
+    ],
+    "docstrings": [],
+    "functions": [
+        "render"
+    ],
+    "classes": [
+        "TagList"
+    ]
+}

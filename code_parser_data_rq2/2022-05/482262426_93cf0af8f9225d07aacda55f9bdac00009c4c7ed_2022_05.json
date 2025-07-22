@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "profileReducer",
+        "dialogReducer",
+        "key",
+        "observer",
+        "observer",
+        "action",
+        "profileReducer",
+        "action",
+        "dialogReducer",
+        "action"
+    ],
+    "literals": [
+        "\"./reducers/profileReducer\"",
+        "\"./reducers/dialogsReducer\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'first post'",
+        "'Hello im here'",
+        "'whats up?'",
+        "'im lucky'",
+        "'Privet'",
+        "''",
+        "'Andrew'",
+        "'Ivan'",
+        "'Oleg'",
+        "'Maria'",
+        "'Katya'",
+        "'Hello'",
+        "'How are you?'",
+        "'Im fine'",
+        "'its cool'",
+        "''"
+    ],
+    "variables": [
+        "store"
+    ],
+    "comments": [
+        "export let state = {\n    posts: ['first post', 'Hello im here', 'whats up?', 'im lucky', 'Privet'],\n    dialogsPage: {\n        dialogs: ['Andrew', 'Ivan', 'Oleg', 'Maria', 'Katya'],\n        messages: ['Hello', 'How are you?', 'Im fine', 'its cool']\n    }\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "_subscribe",
+        "getState",
+        "_rerenderEntireTree",
+        "dispatch"
+    ],
+    "classes": []
+}

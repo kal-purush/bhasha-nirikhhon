@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "EnsureThat",
+        "Hl7",
+        "Fhir",
+        "Model",
+        "Microsoft",
+        "Health",
+        "Extensions",
+        "Fhir",
+        "Observation",
+        "originalObservation",
+        "Observation",
+        "updatedObservation",
+        "EnsureArg",
+        "IsNotNull",
+        "originalObservation",
+        "nameof",
+        "originalObservation",
+        "EnsureArg",
+        "IsNotNull",
+        "updatedObservation",
+        "nameof",
+        "updatedObservation",
+        "EnsureArg",
+        "IsFalse",
+        "originalObservation",
+        "updatedObservation",
+        "optsFn",
+        "o",
+        "WithMessage",
+        "nameof",
+        "originalObservation",
+        "nameof",
+        "updatedObservation",
+        "originalObservation",
+        "IsExactly",
+        "updatedObservation",
+        "updatedObservation",
+        "Status",
+        "ObservationStatus",
+        "Amended"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "-------------------------------------------------------------------------------------------------",
+        "Copyright (c) Microsoft Corporation. All rights reserved.",
+        "Licensed under the MIT License (MIT). See LICENSE in the repo root for license information.",
+        "-------------------------------------------------------------------------------------------------",
+        "Compares two observations to see if they are different.  If they are different the <paramref name=\"updatedObservation\"/> status is changed to Amended.",
+        "</summary>",
+        "<param name=\"originalObservation\">The original unmodified observation.</param>",
+        "<param name=\"updatedObservation\">The potentially modified observation.</param>",
+        "<returns>Returns true if the <paramref name=\"updatedObservation\"/> is different than the <paramref name=\"originalObservation\"/>.  Otherwise false is returned.</returns>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "AmendIfChanged"
+    ],
+    "classes": [
+        "ObservationExtensions"
+    ]
+}

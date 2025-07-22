@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "fetch",
+        "response",
+        "response",
+        "data",
+        "data",
+        "beer",
+        "beer",
+        "beer",
+        "beer",
+        "beer",
+        "beer",
+        "beer",
+        "beer",
+        "beer",
+        "beer",
+        "html",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "\"https://api.punkapi.com/v2/beers\"",
+        "<div class=\"beer\" id=${beer.id}>\n          <div class=\"beer__img\">\n            <img\n              src=${beer.image_url}\n              alt=\"beer\"\n                width=\"100\"\n            />\n            <h3>${beer.tagline}</h3>\n            \n          </div>\n          <div class=\"beer__details\">\n            \n            <h3>Name: ${beer.name}</h3>\n            \n            <p>${beer.description.substring(1, 50)}...</p>\n            <p>First Brewed - ${beer.first_brewed}</p>\n            <p>Brewer tips: ${beer.brewers_tips}</p>\n            <p>By - ${beer.contributed_by}</p>\n          </div>\n        </div>",
+        "\"#app\"",
+        "\"afterbegin\""
+    ],
+    "variables": [
+        "html"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "callApi"
+    ],
+    "classes": []
+}

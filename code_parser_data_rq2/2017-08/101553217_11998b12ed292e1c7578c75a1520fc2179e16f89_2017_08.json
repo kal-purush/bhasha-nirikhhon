@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "flask",
+        "Flask",
+        "render_template",
+        "request",
+        "Flask",
+        "app",
+        "route",
+        "render_template",
+        "templateData",
+        "app",
+        "route",
+        "changePin",
+        "action",
+        "render_template",
+        "templateData"
+    ],
+    "literals": [
+        "\"/\"",
+        "'main.html'",
+        "\"/manual/<changePin>/<action>\"",
+        "'main.html'"
+    ],
+    "variables": [
+        "app",
+        "templateData",
+        "templateData"
+    ],
+    "comments": [
+        "for pin in pins:",
+        "pins[pin]['state'] = GPIO.input(pin)",
+        "'pins' : pins",
+        "changePin = int(changePin)",
+        "deviceName = pins[changePin]['name']",
+        "'pins' : pins"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main",
+        "m_action"
+    ],
+    "classes": []
+}

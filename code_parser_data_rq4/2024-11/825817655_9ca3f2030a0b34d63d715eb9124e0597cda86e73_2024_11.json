@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "Net",
+        "Security",
+        "Newtonsoft",
+        "Json",
+        "Newtonsoft",
+        "Json",
+        "Converters",
+        "Auth0",
+        "ManagementApi",
+        "Models",
+        "Keys",
+        "JsonProperty",
+        "JsonProperty",
+        "JsonConverter",
+        "StringEnumConverter",
+        "JsonProperty",
+        "JsonConverter",
+        "StringEnumConverter",
+        "JsonProperty",
+        "JsonProperty",
+        "JsonProperty",
+        "JsonProperty"
+    ],
+    "literals": [
+        "\"kid\"",
+        "\"type\"",
+        "\"state\"",
+        "\"created_at\"",
+        "\"updated_at\"",
+        "\"parent_kid\"",
+        "\"public_key\""
+    ],
+    "variables": [
+        "Kid",
+        "EncryptionKeyType",
+        "Type",
+        "EncryptionKeyState",
+        "State",
+        "CreatedAt",
+        "UpdatedAt",
+        "ParentKid",
+        "PublicKey"
+    ],
+    "comments": [
+        "Represents and Encryption Key",
+        "</summary>",
+        "Key ID",
+        "</summary>",
+        "<inheritdoc cref=\"EncryptionKeyType\"/>",
+        "<inheritdoc cref=\"EncryptionKeyState\"/>",
+        "Key creation timestamp",
+        "</summary>",
+        "Key update timestamp",
+        "</summary>",
+        "ID of the parent wrapping key.",
+        "</summary>",
+        "Public key in PEM format",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "EncryptionKey"
+    ]
+}

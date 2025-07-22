@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "mongoose",
+        "chai",
+        "chaiHttp",
+        "chai",
+        "describe",
+        "it",
+        "done",
+        "done"
+    ],
+    "literals": [
+        "'mongoose'",
+        "'chai'",
+        "'chai-http'",
+        "'Auth Routes'",
+        "'should pass'",
+        "'wow'",
+        "'string'"
+    ],
+    "variables": [
+        "should"
+    ],
+    "comments": [
+        "eslint-disable no-unused-vars",
+        "eslint-disable no-undef",
+        "import server from '../server';",
+        "import Player from '../app/models/player';",
+        "chai.use(chaiHttp);",
+        "beforeEach((done) => {",
+        "Player.find({}, (err, user) => {",
+        "console.log(user);",
+        "done();",
+        "});",
+        "});",
+        "after((done) => {",
+        "server.close(() => {",
+        "done();",
+        "});",
+        "});",
+        "it('user first logging', (done) => {",
+        "chai.request('server')",
+        ".get('/auth/logout')",
+        ".set('Content-Type', 'application/json')",
+        ".end((err, res) => {",
+        "console.log(err);",
+        "console.log('response is ', res);",
+        "done();",
+        "});",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

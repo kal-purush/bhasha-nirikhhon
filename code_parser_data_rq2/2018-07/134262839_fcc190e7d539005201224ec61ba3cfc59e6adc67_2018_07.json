@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "debug",
+        "DynamoDBStreamEvent",
+        "LambdaContext",
+        "TableHandler",
+        "debug",
+        "tableHandlers",
+        "tableHandlers",
+        "handler",
+        "handler",
+        "tableName",
+        "tableName",
+        "tableName",
+        "handler",
+        "logger",
+        "sourceARN",
+        "parseDynamoDBStreamARN",
+        "sourceARN",
+        "streamMetadata",
+        "sourceARN",
+        "streamMetadata",
+        "handler",
+        "logger",
+        "streamMetadata",
+        "handler",
+        "logger",
+        "sourceARN",
+        "context",
+        "context",
+        "error",
+        "context",
+        "error",
+        "arn",
+        "arn",
+        "arnRegex",
+        "match",
+        "match",
+        "match",
+        "match",
+        "match"
+    ],
+    "literals": [
+        "\"debug\"",
+        "\"./dynamodb_stream_event\"",
+        "\"./lambda_context\"",
+        "\"./table_handler\"",
+        "\"dynamo-types-stream:StreamHandler\"",
+        "string",
+        "You can't put more than one handler for given table: ${tableName}",
+        "\"handler: sourceARN - %s\"",
+        "Invalid Source Arn : ${sourceARN}",
+        "\"handler: start table handler: %s\"",
+        "\"handler: sourceARN - %s, There is no table handler for arn\"",
+        "string"
+    ],
+    "variables": [
+        "logger",
+        "tableName",
+        "sourceARN",
+        "streamMetadata",
+        "handler",
+        "arnRegex",
+        "match"
+    ],
+    "comments": [
+        "Even though each records has own eventSourceARN,",
+        "one event only has one eventSoruceARN.",
+        "Thus, select \"one\" event source arn.",
+        "arn:aws:dynamodb:us-east-1:921281748045:table/qna_production_questions/stream/2017-12-22T02:02:25.496"
+    ],
+    "docstrings": [
+        "*\n * @param arn\n * @returns - null means invalid arn"
+    ],
+    "functions": [
+        "handler",
+        "lambdaHandler",
+        "parseDynamoDBStreamARN"
+    ],
+    "classes": [
+        "StreamHandler"
+    ]
+}

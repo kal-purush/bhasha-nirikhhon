@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "_",
+        "meta",
+        "meta",
+        "meta",
+        "meta",
+        "entity",
+        "entity",
+        "entityGroup",
+        "renderer",
+        "entityGroup",
+        "entity",
+        "renderer",
+        "entity",
+        "entityGroup",
+        "renderer",
+        "controller",
+        "entityGroup",
+        "renderer",
+        "controller",
+        "entityGroupMeta",
+        "entityGroupMeta",
+        "groupA",
+        "groupB",
+        "cb",
+        "CollisionEvent",
+        "groupA",
+        "groupB",
+        "cb",
+        "topic",
+        "topic",
+        "cb",
+        "Game"
+    ],
+    "literals": [
+        "'2d'"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"../../typings/underscore/underscore.d.ts\" />",
+        "Describes the entity groups of which the game is aware.",
+        "setup whatever controller event handling we need,",
+        "like subscribing to input/game events, etc."
+    ],
+    "docstrings": [
+        "* Descriptive information about a game entity group"
+    ],
+    "functions": [
+        "onTick",
+        "renderEntityGroup",
+        "getContext",
+        "addEntityGroup",
+        "bootstrapEntityGroup",
+        "addGroupCollisionEvent",
+        "broadcast",
+        "subscribe"
+    ],
+    "classes": [
+        "Game"
+    ]
+}

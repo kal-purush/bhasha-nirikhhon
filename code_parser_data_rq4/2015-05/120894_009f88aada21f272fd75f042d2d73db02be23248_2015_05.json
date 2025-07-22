@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "unittest",
+        "TestCase",
+        "xml",
+        "dom",
+        "minidom",
+        "breathe",
+        "renderer",
+        "rst",
+        "doxygen",
+        "compound",
+        "get_param_decl",
+        "breathe",
+        "parser",
+        "doxygen",
+        "compoundsuper",
+        "memberdefType",
+        "TestCase",
+        "minidom",
+        "parseString",
+        "xml",
+        "memberdefType",
+        "factory",
+        "memberdef",
+        "buildChildren",
+        "doc",
+        "documentElement",
+        "assertEqual",
+        "get_param_decl",
+        "memberdef",
+        "param"
+    ],
+    "literals": [
+        "'param'",
+        "'int(*p)[3]'"
+    ],
+    "variables": [
+        "xml",
+        "doc",
+        "memberdef"
+    ],
+    "comments": [
+        "From declaration:",
+        "int f(int (*p)[3]);",
+        "in: examples/specific/parameters.h"
+    ],
+    "docstrings": [
+        "\"\"\"\n        <param>\n          <type>int(*)</type>\n          <declname>p</declname>\n          <array>[3]</array>\n        </param>\n        \"\"\""
+    ],
+    "functions": [
+        "test_param_decl"
+    ],
+    "classes": [
+        "TestUtils"
+    ]
+}

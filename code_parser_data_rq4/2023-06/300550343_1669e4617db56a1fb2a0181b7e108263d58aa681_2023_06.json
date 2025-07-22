@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "LootLocker",
+        "LootLockerEnums",
+        "LootLocker",
+        "Requests",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "UI",
+        "CanvasScaler",
+        "LootLocker",
+        "LootLockerEnums",
+        "LootLockerAccountLinkingProcessStatus",
+        "Undefined",
+        "Started",
+        "Cancelled",
+        "Completed",
+        "LootLocker",
+        "Requests",
+        "LootLockerResponse",
+        "LootLockerResponse",
+        "LootLockerAccountLinkingProcessStatus",
+        "Undefined",
+        "LootLockerResponse",
+        "LootLockerResponse"
+    ],
+    "literals": [],
+    "variables": [
+        "Link_id",
+        "Code",
+        "Qr_code",
+        "Code_page_url",
+        "LootLockerAccountLinkingProcessStatus",
+        "Status",
+        "Created_at"
+    ],
+    "comments": [
+        "==================================================",
+        "Response Definitions",
+        "=================================================="
+    ],
+    "docstrings": [
+        "* Possible account linking process statuses. Undefined means that the object couldn't be constructed correctly",
+        "*",
+        "* ID of the account linking process. Save this as you will need it for checking the linking process status and if you want to cancel it.",
+        "* Used by the user in the online account linking process",
+        "* Base64 encoded PNG image of a qr code that can be shown to the player for them to scan and open the account linking flow",
+        "* URL to where the user can continue the online account linking process",
+        "*",
+        "* Current status of the specified account linking process",
+        "* Time when the specified account linking process was started",
+        "* This response will be empty unless there's an error",
+        "* This response will be empty unless there's an error"
+    ],
+    "functions": [],
+    "classes": [
+        "LootLockerAccountLinkStartResponse",
+        "LootLockerAccountLinkProcessStatusResponse",
+        "LootLockerCancelAccountLinkingProcessResponse",
+        "LootLockerUnlinkProviderFromAccountResponse"
+    ]
+}

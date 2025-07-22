@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "fetch",
+        "Headers",
+        "PropertyModel",
+        "getUserProfile",
+        "rhUUID",
+        "rhUUID",
+        "Headers",
+        "userQuery",
+        "headers",
+        "process",
+        "headers",
+        "fetch",
+        "process",
+        "body",
+        "user",
+        "res",
+        "populateMongooseDocWithUser",
+        "propertyDocument",
+        "propertyDocument",
+        "property",
+        "getUserProfile",
+        "property",
+        "property",
+        "user",
+        "property",
+        "user",
+        "property"
+    ],
+    "literals": [
+        "\"node-fetch\"",
+        "\"./schema\"",
+        "string",
+        "query GetUsers{\n      getUsersBy(rhatUUID:\"${rhUUID}\") {\n          cn\n          mail\n          uid\n          rhatUUID\n        }\n  }",
+        "Authorization",
+        "${process.env.GATEWAY_AUTH_TOKEN}",
+        "Content-Type",
+        "application/json",
+        "${process.env.API_GATEWAY}",
+        "POST",
+        "\"getUsersBy\"",
+        "string"
+    ],
+    "variables": [
+        "getUserProfile",
+        "userQuery",
+        "headers",
+        "body",
+        "user",
+        "res",
+        "populateMongooseDocWithUser",
+        "property",
+        "user"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This helper fn is used to convert mongoose doc to a mutable object\n * And replaced rhUUId created by field with user details\n * @param {PropertyModel} propertyDocument: input property document\n * @returns {Object}: Mutated document as object"
+    ],
+    "functions": [],
+    "classes": []
+}

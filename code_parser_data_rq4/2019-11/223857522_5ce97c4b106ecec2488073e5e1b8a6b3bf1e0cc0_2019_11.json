@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "require",
+        "Joi",
+        "Joi",
+        "Joi",
+        "Joi",
+        "Joi",
+        "Joi",
+        "Joi",
+        "Joi",
+        "Joi",
+        "Joi",
+        "Joi",
+        "Joi",
+        "Joi",
+        "Joi",
+        "Joi"
+    ],
+    "literals": [
+        "'@hapi/joi'",
+        "'com'",
+        "'net'",
+        "'password'",
+        "'username'",
+        "'birth_year'"
+    ],
+    "variables": [
+        "Joi"
+    ],
+    "comments": [
+        ".max(4),",
+        ".xor('password', 'access_token')",
+        ".with('password', 'repeat_password');"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

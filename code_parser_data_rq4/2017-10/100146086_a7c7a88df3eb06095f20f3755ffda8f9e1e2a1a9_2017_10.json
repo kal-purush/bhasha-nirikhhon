@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "create",
+        "most",
+        "getPartyApiHost",
+        "EventSource",
+        "url",
+        "messageName",
+        "EventSource",
+        "getPartyApiHost",
+        "url",
+        "e",
+        "e",
+        "e",
+        "e",
+        "e",
+        "e",
+        "Source",
+        "e",
+        "eventType",
+        "create",
+        "add",
+        "end",
+        "error",
+        "addEvent",
+        "e",
+        "add",
+        "e",
+        "end",
+        "addError",
+        "e",
+        "error",
+        "eventType",
+        "addEvent",
+        "addError",
+        "eventType",
+        "addEvent",
+        "addError"
+    ],
+    "literals": [
+        "'@most/create'",
+        "'most'",
+        "'./request'",
+        "string",
+        "string",
+        "string",
+        "${getPartyApiHost()}${url}",
+        "'Received message: '",
+        "'open'",
+        "'Opened event stream for '",
+        "'open'",
+        "'message'",
+        "string",
+        "'EventSource failed.'",
+        "'error'",
+        "'error'"
+    ],
+    "variables": [
+        "opening",
+        "addEvent",
+        "addError"
+    ],
+    "comments": [
+        "tslint:disable-next-line:no-reference",
+        "<reference path=\"../typings/sse.d.ts\" />",
+        "tslint:disable-next-line:no-console",
+        "tslint:disable-next-line:no-console",
+        "sse.ReadyState.CLOSED"
+    ],
+    "docstrings": [],
+    "functions": [
+        "parseMessage",
+        "opened",
+        "messages",
+        "on",
+        "close"
+    ],
+    "classes": [
+        "Source"
+    ]
+}

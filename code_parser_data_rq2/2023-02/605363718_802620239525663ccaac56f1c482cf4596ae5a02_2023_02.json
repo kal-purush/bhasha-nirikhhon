@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "axios",
+        "response",
+        "response",
+        "response",
+        "artist",
+        "quotesFromServer",
+        "contentDiv",
+        "artist",
+        "artist",
+        "artist",
+        "error",
+        "error",
+        "alert",
+        "getArtists"
+    ],
+    "literals": [
+        "'script sourced'",
+        "'/artist'",
+        "'#artistTableBody'",
+        "<tr>\n                    <td>${artist.name}</td>\n                    <td>${artist.born}</td>\n                    <td>${artist.died}</td>\n                </tr>",
+        "'Something went wrong.'"
+    ],
+    "variables": [
+        "quotesFromServer",
+        "contentDiv"
+    ],
+    "comments": [
+        "Axios GET request",
+        "Code that will run on successful response",
+        "from the server.",
+        "quotesFromServer will be an Array of quotes",
+        "ALWAYS add .catch",
+        "TODO Add ajax request for /songs and display on DOM"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getArtists"
+    ],
+    "classes": []
+}

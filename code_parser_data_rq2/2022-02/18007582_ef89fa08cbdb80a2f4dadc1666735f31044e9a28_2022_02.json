@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "CommandLine",
+        "Sketchup2GTA",
+        "ExportModes",
+        "Sketchup2GTA",
+        "Verb",
+        "HelpText",
+        "ExportOptions",
+        "Option",
+        "shortName",
+        "longName",
+        "Default",
+        "HelpText",
+        "Option",
+        "shortName",
+        "longName",
+        "Required",
+        "HelpText",
+        "Option",
+        "Default",
+        "HelpText",
+        "MapExportMode",
+        "Input",
+        "ID"
+    ],
+    "literals": [
+        "\"map\"",
+        "\"Export Sketchup scene to GTA Map files.\"",
+        "\"game\"",
+        "\"vc\"",
+        "\"Game version, currently only VC is supported\"",
+        "\"input\"",
+        "\"Path to Sketchup file\"",
+        "\"Starting ID to generate IDE files.\""
+    ],
+    "variables": [
+        "Game",
+        "Input",
+        "ID"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ExportMode",
+        "CreateExportMode"
+    ],
+    "classes": [
+        "ExportMapOptions"
+    ]
+}

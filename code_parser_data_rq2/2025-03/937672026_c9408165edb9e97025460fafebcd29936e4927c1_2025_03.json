@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "com",
+        "beachape",
+        "quiam",
+        "domain",
+        "errors",
+        "message",
+        "message",
+        "message",
+        "cause",
+        "message",
+        "cause",
+        "Override"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* A custom exception class for domain-specific exceptions that are meant to be caught (checked).\n * This exception class overrides the {@link Throwable#fillInStackTrace()} method to avoid the\n * performance penalty of filling in the stack trace."
+    ],
+    "functions": [
+        "DomainException",
+        "DomainException",
+        "DomainException",
+        "fillInStackTrace"
+    ],
+    "classes": [
+        "DomainException"
+    ]
+}

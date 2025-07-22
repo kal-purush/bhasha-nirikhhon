@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "browser",
+        "ExtendedStorageInterface",
+        "browser",
+        "key",
+        "value",
+        "key",
+        "value",
+        "key",
+        "key",
+        "key",
+        "key",
+        "key",
+        "data",
+        "data",
+        "e",
+        "keys",
+        "keys"
+    ],
+    "literals": [
+        "'webextension-polyfill'",
+        "'../../common/storage'",
+        "string",
+        "'async'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "extension storage API",
+        "TODO: Implement some kind of transaction to ensure atomicity, if possible",
+        "Note: We only use this method for Firefox if \"Never Remember History\" is enabled"
+    ],
+    "docstrings": [
+        "* @file\n * This file is part of AdGuard Browser Extension (https://github.com/AdguardTeam/AdguardBrowserExtension).\n *\n * AdGuard Browser Extension is free software: you can redistribute it and/or modify\n * it under the terms of the GNU General Public License as published by\n * the Free Software Foundation, either version 3 of the License, or\n * (at your option) any later version.\n *\n * AdGuard Browser Extension is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n * See the GNU General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with AdGuard Browser Extension. If not, see <http://www.gnu.org/licenses/>.",
+        "* Wrapper for browser.storage.local with dev-friendly interface.",
+        "* Sets data to storage.\n     *\n     * @param key Storage key.\n     * @param value Storage value.",
+        "* Returns data from storage.\n     *\n     * @param key Storage key.\n     * @returns Storage value.",
+        "* Removes data from storage.\n     *\n     * @param key Storage key.",
+        "* Sets multiple key-value pairs in the storage.\n     *\n     * @param data The key-value pairs to set.\n     *\n     * @returns True if all operations were successful, false otherwise.\n     *\n     * @example\n     * ```ts\n     * const storage = new Storage();\n     * await storage.setMultiple({\n     *    key1: 'value1',\n     *    key2: 'value2',\n     * });\n     * ```",
+        "* Removes multiple key-value pairs from the storage.\n     *\n     * @param keys The keys to remove.\n     *\n     * @returns True if all operations were successful, false otherwise.",
+        "* Get the entire contents of the storage.\n     *\n     * @returns Promise that resolves with the entire contents of the storage.",
+        "* Get all keys from the storage.\n     *\n     * @returns Promise that resolves with all keys from the storage."
+    ],
+    "functions": [
+        "get",
+        "remove",
+        "setMultiple",
+        "removeMultiple",
+        "entries",
+        "keys"
+    ],
+    "classes": [
+        "BrowserStorage"
+    ]
+}

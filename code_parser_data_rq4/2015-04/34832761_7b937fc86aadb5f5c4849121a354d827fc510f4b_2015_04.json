@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "createServer",
+        "quinn",
+        "json",
+        "respond",
+        "GET",
+        "createRouter",
+        "GET",
+        "respond",
+        "GET",
+        "json",
+        "createRouter",
+        "MyResource",
+        "createServer",
+        "quinn",
+        "router",
+        "server"
+    ],
+    "literals": [
+        "'http'",
+        "'quinn'",
+        "'quinn/respond'",
+        "'wegweiser'",
+        "\"/mine\"",
+        "'Mine!\\n'",
+        "\"/json\"",
+        "'Something bad(ish)!'",
+        "'Listening.'"
+    ],
+    "variables": [
+        "router",
+        "server"
+    ],
+    "comments": [
+        "<reference path=\"typings/node/node.d.ts\" />",
+        "<reference path='typings/quinn/quinn.d.ts' />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getMine",
+        "getJson"
+    ],
+    "classes": [
+        "MyResource"
+    ]
+}

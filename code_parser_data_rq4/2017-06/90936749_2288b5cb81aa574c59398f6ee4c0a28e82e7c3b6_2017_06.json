@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "using System.Collections;\nusing System.Collections.Generic;\nusing UnityEngine;\n\npublic class AudioMasterSliders : SoundManager {\n\n    public AudioMixer masterMixer;\n\n    public void SetMusicMix(float musicMix)\n    {\n        SoundManager.SetRTPC(Slider_Music_Mix, musicMix);\n    }\n\n    public void SetAmbiMix(float ambiMix)\n    {\n        SoundManager.SetRTPC(Slider_Ambience_Mix, ambiMix);\n    }\n\n    public void SetSoundFXMix(float sfxMix)\n    {\n        SoundManager.SetRTPC(Slider_SoundFX_Mix, sfxMix);\n    }\n}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

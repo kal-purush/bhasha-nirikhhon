@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "gameObject",
+        "SetActive",
+        "isShown",
+        "Collision2D",
+        "other",
+        "other",
+        "gameObject",
+        "tag",
+        "isShown",
+        "isShown"
+    ],
+    "literals": [
+        "\"Player\""
+    ],
+    "variables": [
+        "isShown"
+    ],
+    "comments": [
+        "TLDR\n    if the key has been collided with a player, dont spawn it again when we walk back into it"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "OnCollisionEnter2D",
+        "ResetAllVals"
+    ],
+    "classes": [
+        "DestroyOnCollected"
+    ]
+}

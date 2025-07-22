@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "week1",
+        "day1",
+        "assignments",
+        "args",
+        "calculated",
+        "remainder",
+        "original",
+        "nput",
+        "original",
+        "nput",
+        "nput",
+        "remainder",
+        "nput",
+        "nput",
+        "nput",
+        "calculated",
+        "calculated",
+        "remainder",
+        "remainder",
+        "remainder",
+        "original",
+        "calculated",
+        "calculated",
+        "calculated"
+    ],
+    "literals": [
+        "\" \"",
+        "\"is armstrong number\"",
+        "\" \"",
+        "\"is Not armstrong number\""
+    ],
+    "variables": [
+        "remainder",
+        "original"
+    ],
+    "comments": [],
+    "docstrings": [
+        "int input = 153;\n\t\tint calculated=0;\n\t\tint remainder;\n\t\tint original;\n\t\toriginal=input;\n\t\twhile(input>0)\n\t\t{\n\t\t\t\t\n\t\t\tremainder=(input%10);\n\t\t\t//System.out.println(remainder);\n\t\t\tinput=(input/10);\n\t\t\t//System.out.println(quotient);\n\t\t\tinput=original;\n\t\t\tcalculated=calculated+(remainder*remainder*remainder);\n\t\t\tSystem.out.println(input);\n\t\t\t\n\t\t}\n\t\t\n\t\tif(original==input)  \n\t\t    System.out.println(\"armstrong number\");   \n\t\t    else  \n\t\t        System.out.println(\"Not armstrong number\");   \n\t\t   \n\t\t\n\t}"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "ArmstrongNumber"
+    ]
+}

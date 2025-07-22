@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "division",
+        "print_function",
+        "unicode_literals",
+        "gnlpy",
+        "ipvs",
+        "IpvsClient",
+        "errno",
+        "os",
+        "unittest",
+        "unittest",
+        "TestCase",
+        "client",
+        "add_service",
+        "client",
+        "add_dest",
+        "client",
+        "add_dest",
+        "weight",
+        "client",
+        "update_dest",
+        "weight",
+        "client",
+        "del_dest",
+        "IpvsClient",
+        "cleanup",
+        "cleanup",
+        "client",
+        "get_pools",
+        "pool",
+        "pools",
+        "pool",
+        "service",
+        "client",
+        "del_service",
+        "service",
+        "vip",
+        "service",
+        "port",
+        "unittest",
+        "main"
+    ],
+    "literals": [
+        "'1.1.1.1'",
+        "'1.1.1.1'",
+        "'2.2.2.1'",
+        "'1.1.1.1'",
+        "'2.2.2.2'",
+        "'1.1.1.1'",
+        "'2.2.2.1'",
+        "'1.1.1.1'",
+        "'2.2.2.1'",
+        "'__main__'"
+    ],
+    "variables": [
+        "client",
+        "pools",
+        "service"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "modify",
+        "delete"
+    ],
+    "docstrings": [
+        "'''\n        Set up environment by creating a client and cleaning up services\n        '''",
+        "'''\n        Clean up services when tearing down test\n        '''",
+        "'''\n        helper function that clear ALL services from ipvs\n        '''"
+    ],
+    "functions": [
+        "test_add_dest_tunnel",
+        "setUp",
+        "tearDown",
+        "cleanup"
+    ],
+    "classes": [
+        "TestAddingDest"
+    ]
+}

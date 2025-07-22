@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "AnyRequestMethodName",
+        "AnyReceiveMethodName",
+        "AnyRequestMethodNameWithProps",
+        "AnyRequestMethodNameWithoutProps",
+        "AnyMethodName",
+        "AnyIOMethodName",
+        "AnyRequestOnlyMethodName",
+        "AnyReceiveOnlyMethodName"
+    ],
+    "literals": [
+        "'./bridge'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Name of a method that can be sent.\n * @alias AnyRequestMethodName\n * @deprecated",
+        "* Name of a method that can be received.\n * @alias AnyReceiveMethodName\n * @deprecated",
+        "* Name of a method that can be only sent.\n * @alias AnyRequestOnlyMethodName\n * @deprecated",
+        "* Name of a method that can be only received.\n * @alias AnyReceiveOnlyMethodName\n * @deprecated",
+        "* Name of a method which contains properties\n * @alias AnyRequestMethodNameWithProps\n * @deprecated",
+        "* Name of a method which doesn't contain properties\n * @alias AnyRequestMethodNameWithoutProps\n * @deprecated",
+        "* Type of any method name.\n * @alias AnyMethodName\n * @deprecated",
+        "* The name of the method that can be both sent and received.\n * @alias AnyIOMethodName\n * @deprecated"
+    ],
+    "functions": [],
+    "classes": []
+}

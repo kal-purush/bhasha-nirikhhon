@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Ravelin",
+        "Models",
+        "Events",
+        "Event",
+        "IPaymentMethodEvent"
+    ],
+    "literals": [],
+    "variables": [
+        "CustomerId",
+        "TempCustomerId",
+        "PaymentMethod",
+        "PaymentMethod",
+        "PaymentMethodId",
+        "OrderId"
+    ],
+    "comments": [
+        "Customer performing the transaction",
+        "</summary>",
+        "A session ID, if the customer has not logged in yet",
+        "</summary>",
+        "Payment method used for this transaction",
+        "</summary>",
+        "If a payment method was already added for this user in a previous event, it can be referenced here.",
+        "Mutually exclusive with the PaymentMethod field.",
+        "</summary>",
+        "Order this transaction is (partially) resolving",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "TransactionEventBase"
+    ]
+}

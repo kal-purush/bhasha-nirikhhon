@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "flask",
+        "Flask",
+        "flask",
+        "render_template",
+        "Flask",
+        "app",
+        "route",
+        "render_template",
+        "app",
+        "route",
+        "render_template",
+        "app",
+        "run",
+        "debug"
+    ],
+    "literals": [
+        "\"/\"",
+        "'home.html'",
+        "\"/about\"",
+        "\"about.html\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "app"
+    ],
+    "comments": [
+        "import re",
+        "handles html",
+        "test before introducing render_template",
+        "@app.route('/')",
+        "# @app.route(\"/about/\") #means the content is in about page",
+        "def home():",
+        "return \"Website home page goes here!\"",
+        "@app.route(\"/about\")",
+        "def about():",
+        "return \"this is the about page\"",
+        "using render template and creating template folder",
+        "to keep html files"
+    ],
+    "docstrings": [],
+    "functions": [
+        "home",
+        "about"
+    ],
+    "classes": []
+}

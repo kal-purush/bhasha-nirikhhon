@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "com",
+        "jess",
+        "wideeyes",
+        "mvp",
+        "model",
+        "api",
+        "cache",
+        "com",
+        "jess",
+        "arms",
+        "http",
+        "BaseCacheManager",
+        "javax",
+        "inject",
+        "Inject",
+        "javax",
+        "inject",
+        "Singleton",
+        "Singleton",
+        "mCommonCache",
+        "Inject",
+        "commonCache",
+        "mCommonCache",
+        "commonCache",
+        "mCommonCache"
+    ],
+    "literals": [],
+    "variables": [
+        "mCommonCache"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Created by jess on 8/30/16 13:54\n * Contact with jess.yan.effort@gmail.com",
+        "* 如果需要添加Cache只需在构造方法中添加对应的Cache,\n     * 在提供get方法返回出去,只要在CacheModule提供了该Cache Dagger2会自行注入\n     * @param commonCache"
+    ],
+    "functions": [
+        "CacheManager",
+        "CommonCache",
+        "getCommonCache"
+    ],
+    "classes": [
+        "CacheManager"
+    ]
+}

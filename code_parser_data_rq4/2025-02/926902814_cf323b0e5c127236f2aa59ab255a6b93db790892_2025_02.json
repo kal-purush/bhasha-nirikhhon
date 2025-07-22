@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "OpenAI",
+        "OpenAI",
+        "messages",
+        "OpenAI",
+        "options",
+        "OpenAIService",
+        "openai",
+        "options",
+        "messages",
+        "options",
+        "options",
+        "response",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'openai'",
+        "string",
+        "'gpt-4o-mini'",
+        "'OpenAI API Error:'",
+        "'Failed to get completion from OpenAI'"
+    ],
+    "variables": [
+        "openai",
+        "response"
+    ],
+    "comments": [
+        "Optional: Add custom configuration",
+        "Important: Prevent exposing API key client-side",
+        "Utility function for chat completion with error handling and streaming",
+        "Set to true for streaming responses"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getInstance",
+        "getChatCompletion"
+    ],
+    "classes": [
+        "OpenAIService"
+    ]
+}

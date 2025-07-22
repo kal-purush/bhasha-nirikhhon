@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "resolve",
+        "reject",
+        "setTimeout",
+        "resolve",
+        "delay",
+        "randomDelay",
+        "done",
+        "randomDelay",
+        "randomDelay"
+    ],
+    "literals": [
+        "'bluebird'",
+        "'lodash'",
+        "'promise starting'",
+        "'promise then 1'",
+        "'promise then 2'",
+        "'promise then 3'",
+        "'promise then 3.1'",
+        "'promise then 4'",
+        "'promise end <-- but this returns out of sequence'"
+    ],
+    "variables": [
+        "_",
+        "delay"
+    ],
+    "comments": [
+        "Lesson 0x05: using Bluebird promises\n\nBluebird promises are organized differently from Async.\nA function that cannot complete immediately simply returns\na promise object. When the promised function is complete\n(or \"resolved\"), it'll trigger the follow-on action.\n\n\nthis outputs:\n-------------\nresolving promise\npromise starting\npromise end <-- but this returns out of sequence\npromise then 1\npromise then 2\npromise then 3\npromise then 3.1\npromise then 4",
+        "randomDelay returns a promise",
+        "the follow-on action is a simple function. Once",
+        "this is complete the next follow-on action starts.",
+        "this action returns a new promise. The next action",
+        "starts when this new promise is resolved.",
+        "this action returns a new promise that itself",
+        "returns a promise. The next action starts when",
+        "this inner promise is resolved.",
+        "the last of the chain.",
+        "now we're outside the promise chain, so this is executed",
+        "immediately after the randomDelay method returns its",
+        "(unresolved) promised."
+    ],
+    "docstrings": [
+        "*\tReturns a promise that resolves in a random amount of time"
+    ],
+    "functions": [
+        "randomDelay"
+    ],
+    "classes": []
+}

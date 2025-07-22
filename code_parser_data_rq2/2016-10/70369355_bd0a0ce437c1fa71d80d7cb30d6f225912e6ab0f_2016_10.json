@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour"
+    ],
+    "literals": [
+        "\"http://wallpapershome.com/images/pages/pic_hs/8910.png\""
+    ],
+    "variables": [
+        "url"
+    ],
+    "comments": [
+        "Plane material = new Plane();",
+        "IEnumerator Start() {\n\t\trenderer.material.mainTexture = new Texture2D (4, 4, TextureFormat.DXT1, false);\n\n\t\twhile (true) {\n\t\t\tvar www = new WWW(url);\n\t\t\tyield www;\n\t\t\twww.LoadImageIntoTexture(renderer.sharedMaterial.mainTexure\n\t\t\tRenderer renderer = GetComponent<Renderer> ();\n\t\t\trenderer.material.mainTexture = www.texture;\n\t\t}\n\t}\n\n\t// Update is called once per frame\n\t//\tvoid Update () {\n\n\t//\t}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Background"
+    ]
+}

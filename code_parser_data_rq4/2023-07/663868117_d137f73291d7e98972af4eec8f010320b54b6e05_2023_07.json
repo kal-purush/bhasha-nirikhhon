@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "django",
+        "test",
+        "SimpleTestCase",
+        "weblate",
+        "auth",
+        "utils",
+        "format_address",
+        "SimpleTestCase",
+        "assertEqual",
+        "format_address",
+        "assertEqual",
+        "format_address"
+    ],
+    "literals": [
+        "\"Michal Čihař\"",
+        "\"michal@weblate.org\"",
+        "\"Michal Čihař <michal@weblate.org>\"",
+        "\"<a>\"",
+        "\"noreply@example.com\"",
+        "\"a <noreply@example.com>\""
+    ],
+    "variables": [],
+    "comments": [
+        "Copyright © Michal Čihař <michal@weblate.org>",
+        "",
+        "SPDX-License-Identifier: GPL-3.0-or-later"
+    ],
+    "docstrings": [
+        "\"\"\"Tests for various helper utilities.\"\"\""
+    ],
+    "functions": [
+        "test_unicode",
+        "test_invalid"
+    ],
+    "classes": [
+        "FormatAddressTestCase"
+    ]
+}

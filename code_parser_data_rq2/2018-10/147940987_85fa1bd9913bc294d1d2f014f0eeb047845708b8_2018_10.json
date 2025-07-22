@@ -1,0 +1,18 @@
+{
+    "identifiers": [
+        "query",
+        "pgPool"
+    ],
+    "literals": [
+        "const { Pool } = require('pg')\n\n  const pool = new Pool({\n    max: 10,\n    idleTimeoutMillis: 30000,\n    connectionTimeoutMillis: 2000,\n    host: \"localhost\",\n    user: \"yourusername\",\n    password: \"yourpassword\",\n    database: \"mydb\"\n  })\n\n  const connect = function(callback) {\n    pool.connect(function(err, client) {\n      if (err) return callback(err);\n      callback(err, client);\n    });\n  };\n\n  module.exports = connect;"
+    ],
+    "variables": [
+        "query"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "pgPool"
+    ],
+    "classes": []
+}

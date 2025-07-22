@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "MessageReaction",
+        "BlackjackReacts",
+        "Api",
+        "BlackJackGameResponse",
+        "blackjackHitCommand",
+        "blackjackStandCommand",
+        "blackjackDoubleDownCommand",
+        "react",
+        "sender_id",
+        "Api",
+        "react",
+        "sender_id",
+        "game",
+        "react",
+        "BlackjackReacts",
+        "blackjackHitCommand",
+        "react",
+        "sender_id",
+        "BlackjackReacts",
+        "blackjackStandCommand",
+        "react",
+        "sender_id",
+        "BlackjackReacts",
+        "blackjackDoubleDownCommand",
+        "react",
+        "sender_id"
+    ],
+    "literals": [
+        "\"discord.js\"",
+        "\"btbot-types\"",
+        "\"../helpers\"",
+        "\"../types\"",
+        "\"../commands\"",
+        "string",
+        "gamble/blackjack/server/${react.message.guild.id}?user_id=${sender_id}"
+    ],
+    "variables": [
+        "game"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "blackjackReact"
+    ],
+    "classes": []
+}

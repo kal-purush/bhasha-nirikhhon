@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "overclockAPI",
+        "infra",
+        "cors",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Value",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Configuration",
+        "org",
+        "springframework",
+        "web",
+        "servlet",
+        "config",
+        "annotation",
+        "WebMvcConfigurer",
+        "Configuration",
+        "Value",
+        "allowedOrigins",
+        "Override",
+        "registry",
+        "registry",
+        "addMapping",
+        "allowedOrigins",
+        "allowedOrigins",
+        "allowedMethods",
+        "allowedHeaders"
+    ],
+    "literals": [
+        "\"${cors.allowed-origins:http://localhost:3000}\"",
+        "\"/**\"",
+        "\"GET\"",
+        "\"POST\"",
+        "\"DELETE\"",
+        "\"*\""
+    ],
+    "variables": [
+        "allowedOrigins"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "addCorsMappings"
+    ],
+    "classes": [
+        "CorsConfig"
+    ]
+}

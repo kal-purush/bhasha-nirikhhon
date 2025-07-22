@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "vscode",
+        "getUri",
+        "getNonce",
+        "vscode",
+        "vscode",
+        "panel",
+        "vscode",
+        "extensionUri",
+        "vscode",
+        "extensionUri",
+        "panel",
+        "extensionUri",
+        "message",
+        "message",
+        "vscode",
+        "message",
+        "extensionUri",
+        "vscode",
+        "NewConnectionPannel",
+        "NewConnectionPannel",
+        "vscode",
+        "vscode",
+        "vscode",
+        "extensionUri",
+        "NewConnectionPannel",
+        "NewConnectionPannel",
+        "panel",
+        "extensionUri",
+        "NewConnectionPannel",
+        "NewConnectionPannel",
+        "NewConnectionPannel",
+        "x",
+        "x",
+        "webview",
+        "vscode",
+        "extensionUri",
+        "vscode",
+        "getUri",
+        "webview",
+        "extensionUri",
+        "getNonce",
+        "nonce",
+        "webviewUri"
+    ],
+    "literals": [
+        "\"vscode\"",
+        "\"../utils/getUri\"",
+        "\"../utils/getNonce\"",
+        "\"kdb.newConnection.saveConnection\"",
+        "\"kdb.newConnection.saveConnection\"",
+        "\"kdbNewConnection\"",
+        "\"New Connection\"",
+        "\"out\"",
+        "\"out\"",
+        "\"webview.js\"",
+        "<!DOCTYPE html>\n        <html lang=\"en\">\n        <head>\n            <meta charset=\"UTF-8\">\n            <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n            <title>New Connection</title>\n        </head>\n        <body>\n            <kdb-new-connection-view/>\n            <script type=\"module\" nonce=\"${nonce}\" src=\"${webviewUri}\"></script>\n        </body>\n        </html>"
+    ],
+    "variables": [
+        "panel",
+        "x",
+        "webviewUri",
+        "nonce"
+    ],
+    "comments": [
+        "html"
+    ],
+    "docstrings": [
+        "* Copyright (c) 1998-2023 Kx Systems Inc.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the\n * License. You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an\n * \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the\n * specific language governing permissions and limitations under the License."
+    ],
+    "functions": [
+        "render",
+        "close",
+        "dispose",
+        "_getWebviewContent"
+    ],
+    "classes": [
+        "NewConnectionPannel"
+    ]
+}

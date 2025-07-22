@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "designType",
+        "designType",
+        "subElements",
+        "SubElementType",
+        "xml",
+        "DesignElement",
+        "Types",
+        "AdventureDesc",
+        "DockScreen",
+        "EconomyType",
+        "EffectType",
+        "Image",
+        "ItemTable",
+        "ItemType",
+        "MissionType",
+        "NameGenerator",
+        "OverlayType",
+        "Power",
+        "ShipClass",
+        "ShipClassOverride",
+        "ShipTable",
+        "Sound",
+        "Sovereign",
+        "SpaceEnvironmentType",
+        "StationType",
+        "SystemMap",
+        "SystemTable",
+        "SystemType",
+        "TemplateType",
+        "Type",
+        "Override",
+        "TypeFactory",
+        "createDesignType"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "@Override"
+    ],
+    "docstrings": [
+        "public int compareTo(Object arg0) {\n\tif(arg0 instanceof Type) {\n\t\tint unid = Integer.valueOf(getAttributeByName(\"UNID\").getValue());\n\t\tint unid_other = Integer.valueOf(((Type) arg0).getAttributeByName(\"UNID\").getValue());\n\t\tif(unid > unid_other) {\n\t\t\treturn 1;\n\t\t} else if(unid < unid_other) {\n\t\t\treturn -1;\n\t\t}\n\t}\n\treturn 0;\n}"
+    ],
+    "functions": [
+        "DesignElement",
+        "create"
+    ],
+    "classes": []
+}

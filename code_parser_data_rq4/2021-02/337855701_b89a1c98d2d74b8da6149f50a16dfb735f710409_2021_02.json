@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "drawCard",
+        "$",
+        "discardAllCards",
+        "$",
+        "imageDirectory",
+        "randomNumber",
+        "cardImageTag",
+        "srcAddress",
+        "cardImageTag",
+        "$",
+        "cardImageTag",
+        "$",
+        "$",
+        "$",
+        "lastCardDealt"
+    ],
+    "literals": [
+        "\"cards-png-100x153-numbered\"",
+        "\"img#drawDeck\"",
+        "\"button#discardAllButton\"",
+        "\"<img>\"",
+        "${imageDirectory}/${randomNumber}",
+        "\"src\"",
+        "\"alt\"",
+        "\"playing card\"",
+        "\"div#playArea\"",
+        "\"div#playArea img:last-child\"",
+        "\"div#playArea img\"",
+        "\"div#discardPile\""
+    ],
+    "variables": [
+        "imageDirectory",
+        "randomNumber",
+        "cardImageTag",
+        "srcAddress",
+        "lastCardDealt"
+    ],
+    "comments": [
+        "similar to let but cannot be changed"
+    ],
+    "docstrings": [],
+    "functions": [
+        "drawCard",
+        "discardAllCards"
+    ],
+    "classes": []
+}

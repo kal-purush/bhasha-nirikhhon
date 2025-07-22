@@ -1,0 +1,85 @@
+{
+    "identifiers": [
+        "Lint",
+        "ts",
+        "OPTION_ALWAYS",
+        "OPTION_NEVER",
+        "BOOLEAN_RULE_VALUES",
+        "Lint",
+        "Lint",
+        "Lint",
+        "OPTION_ALWAYS",
+        "OPTION_NEVER",
+        "BOOLEAN_RULE_OBJECT",
+        "OPTION_ALWAYS",
+        "OPTION_NEVER",
+        "sourceFile",
+        "ts",
+        "Lint",
+        "JsxBooleanValueWalker",
+        "sourceFile",
+        "Lint",
+        "node",
+        "ts",
+        "node",
+        "node",
+        "ts",
+        "node",
+        "node",
+        "kind",
+        "ts",
+        "OPTION_ALWAYS",
+        "OPTION_NEVER",
+        "noOptionsSet",
+        "OPTION_NEVER",
+        "isValueTrue",
+        "node",
+        "node",
+        "Rule",
+        "node",
+        "OPTION_ALWAYS",
+        "node",
+        "node",
+        "Rule"
+    ],
+    "literals": [
+        "\"tslint\"",
+        "\"typescript\"",
+        "\"always\"",
+        "\"never\"",
+        "\"string\"",
+        "\"jsx-boolean-value\"",
+        "\"Enforce boolean attribute notation in jsx.\"",
+        "One of the following two options must be provided:\n            * \\`\"${OPTION_ALWAYS}\"\\` requires JSX boolean values to always be set.\n            * \\`\"${OPTION_NEVER}\"\\` prevents JSX boolean values to be explicity set as \\`true\\",
+        "\"array\"",
+        "[true, \"${OPTION_ALWAYS}\"]",
+        "[true, \"${OPTION_NEVER}\"]",
+        "\"style\"",
+        "Value must be omitted for boolean attributes",
+        "Value must be set for boolean attributes"
+    ],
+    "variables": [
+        "OPTION_ALWAYS",
+        "OPTION_NEVER",
+        "BOOLEAN_RULE_VALUES",
+        "BOOLEAN_RULE_OBJECT",
+        "kind",
+        "isValueTrue",
+        "noOptionsSet"
+    ],
+    "comments": [
+        "tslint:disable:object-literal-sort-keys",
+        "tslint:enable:object-literal-sort-keys"
+    ],
+    "docstrings": [
+        "* @license\n * Copyright 2017 Palantir Technologies, Inc.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License."
+    ],
+    "functions": [
+        "apply",
+        "visitJsxAttribute"
+    ],
+    "classes": [
+        "Rule",
+        "JsxBooleanValueWalker"
+    ]
+}

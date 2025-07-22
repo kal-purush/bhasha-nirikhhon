@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "tortoise",
+        "fields",
+        "tortoise",
+        "models",
+        "Model",
+        "Model",
+        "fields",
+        "BigIntField",
+        "pk",
+        "fields",
+        "CharField",
+        "max_length"
+    ],
+    "literals": [
+        "\"main_site_bot\""
+    ],
+    "variables": [
+        "id",
+        "avatar",
+        "table"
+    ],
+    "comments": [
+        "start_date = fields.DatetimeField(null=True)",
+        "expiry_date = fields.DatetimeField(null=True)",
+        "node = fields.ForeignKeyField(\"models.Node\", related_name=\"node\")",
+        "confirmed = fields.BooleanField(default=False)",
+        "logplex_url = fields.TextField(null=True)",
+        "last_log_timestamp = fields.CharField(max_length=30, null=True)",
+        "current_build_id = fields.CharField(max_length=45, null=True)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Bot",
+        "Meta"
+    ]
+}

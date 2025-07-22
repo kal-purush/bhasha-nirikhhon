@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "errors",
+        "prettyPrintSpreeSdkErrors",
+        "error",
+        "errors",
+        "error",
+        "error",
+        "error",
+        "errors",
+        "prettyOutput",
+        "error",
+        "error",
+        "errors",
+        "prettyOutput",
+        "error",
+        "prettyOutput",
+        "prettyPrintSpreeSdkErrors"
+    ],
+    "literals": [
+        "'@spree/storefront-api-v2-sdk'",
+        "string",
+        "Name: ${error.name}\\nMessage: ${error.message}",
+        "\\nSpree summary: ${error.summary}",
+        "\\nSpree validation errors:\\n${JSON.stringify(\n        error.errors,\n        null,\n        2\n      )}"
+    ],
+    "variables": [
+        "prettyPrintSpreeSdkErrors",
+        "prettyOutput"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

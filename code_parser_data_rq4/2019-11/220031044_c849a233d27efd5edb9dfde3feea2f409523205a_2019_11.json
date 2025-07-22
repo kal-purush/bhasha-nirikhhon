@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "Component",
+        "startWith",
+        "mapTo",
+        "ErrorBoundary",
+        "Component",
+        "ErrorBoundary",
+        "errorBoundary",
+        "mapTo",
+        "mapTo",
+        "startWith"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'rxjs/operators'",
+        "'./error-boundary.service'",
+        "'error-boundary'",
+        "<ng-content *ngIf=\"hasError | async\" select=\"[fallback]\"></ng-content>\n    <ng-content *ngIf=\"noError | async\"></ng-content>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "ErrorBoundaryComponent"
+    ]
+}

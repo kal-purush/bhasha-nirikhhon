@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "Component",
+        "Injectable",
+        "bootstrap",
+        "TranslateService",
+        "TranslatePipe",
+        "HTTP_PROVIDERS",
+        "Http",
+        "Rx",
+        "Injectable",
+        "Component",
+        "TranslatePipe",
+        "translate",
+        "http",
+        "http",
+        "translate",
+        "navigator",
+        "userLang",
+        "userLang",
+        "userLang",
+        "translate",
+        "translate",
+        "userLang",
+        "res",
+        "res",
+        "Rx",
+        "res",
+        "res",
+        "bootstrap",
+        "HelloApp",
+        "TranslateService",
+        "HTTP_PROVIDERS"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/platform/browser'",
+        "'ng2-translate/ng2-translate'",
+        "'angular2/http'",
+        "'rxjs/Rx'",
+        "'hello-app'",
+        "Normal Expression Copyright: {{version}}\n        <br/>\n        Expression with Translate Pipe Copyright: \"<b>{{ 'FOOTER.COPYRIGHT' | translate:{version: version} }}</b>\"\n        <br/>\n        <button (click) = 'changeVersion()'>change version value (set the value with hardcode value)</button>\n        <br/>\n        <br/>\n        <button (click) = 'getVersion()'>request http to change version value (set the value with http request result)</button>\n        <br/>\n        Change langage:\n        <select (change)=\"translate.use($event.target.value)\">\n            <option *ngFor=\"#lang of languages\" [selected]=\"lang === translate.currentLang\">{{lang}}</option>\n        </select>",
+        "string",
+        "string",
+        "'1.0.0'",
+        "string",
+        "'en'",
+        "'an'",
+        "'en'",
+        "'-'",
+        "'en'",
+        "\"i18n\"",
+        "\".json\"",
+        "'version 2.2.2.2 changed from click'",
+        "'http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=44db6a862fba0b067b1930da0d769e98'"
+    ],
+    "variables": [
+        "userLang"
+    ],
+    "comments": [
+        "not required as \"en\" is the default",
+        "use navigator lang if available",
+        "Use a static file",
+        "this trigger the use of the userLang language after setting the translations",
+        "I got it from http://openweathermap.org/current,",
+        "if it was expired, you can refresh from this site.",
+        "Instantiate TranslateService in the bootstrap so that we can keep it as a singleton"
+    ],
+    "docstrings": [],
+    "functions": [
+        "changeVersion",
+        "getVersion"
+    ],
+    "classes": [
+        "HelloApp"
+    ]
+}

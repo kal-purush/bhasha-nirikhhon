@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Router",
+        "AuthComponent",
+        "Router",
+        "router",
+        "AuthComponent",
+        "router",
+        "AuthComponent",
+        "router",
+        "AuthComponent",
+        "router"
+    ],
+    "literals": [
+        "'express'",
+        "'../components'",
+        "'/signup'",
+        "'/login'",
+        "'/logout'"
+    ],
+    "variables": [
+        "router"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @constant {express.Router}",
+        "* POST method route\n * @example http://localhost:PORT/signup\n * @swagger\n * /auth/signup/:\n *  post:\n *    description: sign up user to application\n *    tags: [\"auth\"]\n *    requestBody:\n *      description: sign up body\n *      required: true\n *      content:\n *        application/json:\n *          schema:\n *            $ref: '#/components/schemas/UserSchema'\n *          example:\n *            email: test.user@mail.com\n *            password: test_test\n *    responses:\n *      200:\n *        description: user successfuly signed in\n *        content:\n *          appication/json:\n *            example:\n *              status: 200\n *              logged: true\n *              message: Sign in successfull!!\n *      400:\n *        description: sign in failed\n *        content:\n *          application/json:\n *            example:\n *              status: 400\n *              logged: false\n *              message: Email already exists",
+        "* POST method route\n * @example http://localhost:PORT/login\n * \n * @swagger\n * /auth/login/:\n *  post:\n *    description: Login user to application\n *    tags: [\"auth\"]\n *    requestBody:\n *      description: login body\n *      required: true\n *      content:\n *        application/json:\n *          schema:\n *            $ref: '#/components/schemas/UserSchema'\n *          example:\n *            email: test.user@mail.com\n *            password: test_test\n *    responses:\n *      200:\n *        description: user successfuly logged\n *        content:\n *          appication/json:\n *            example:\n *              status: 200\n *              logged: true\n *              message: Successfully logged!\n *      401:\n *        description: Not logged, invalid credentials\n *        content:\n *          application/json:\n *            example:\n *              status: 401\n *              logged: false\n *              message: Invalid credentials",
+        "* POST method route\n * @example http://localhost:3000\n * \n * @swagger\n * /auth/logout/:\n *  post:\n *    description: Loogout from application\n *    tags: [\"auth\"]\n *    responses:\n *      200:\n *        description: users successfuly logout\n *        content:\n *          application/json:\n *            example:\n *              status: 200\n *              logged: false\n *              message: Successfuly logged out\n *      401:\n *        description: cant logout user, because he didnt login to app\n *        content:\n *          application/json:\n *            example:\n *              status: 401\n *              logged: false\n *              message: You are not authorized to app. Can't logout",
+        "* @export {express.Router}"
+    ],
+    "functions": [],
+    "classes": []
+}

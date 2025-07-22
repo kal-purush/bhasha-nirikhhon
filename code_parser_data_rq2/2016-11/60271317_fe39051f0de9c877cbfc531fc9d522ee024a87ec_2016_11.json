@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "eta",
+        "express",
+        "eta",
+        "req",
+        "express",
+        "res",
+        "express",
+        "callback",
+        "env",
+        "key",
+        "eta",
+        "sql",
+        "err",
+        "eta",
+        "rows",
+        "err",
+        "eta",
+        "err",
+        "callback",
+        "eta",
+        "i",
+        "rows",
+        "i",
+        "rows",
+        "i",
+        "rows",
+        "i",
+        "rows",
+        "i",
+        "rows",
+        "i",
+        "callback",
+        "rows"
+    ],
+    "literals": [
+        "\"eta-lib\"",
+        "\"express\"",
+        "string",
+        "string",
+        "SELECT\n                OnlineRoom.letter,\n                OnlineRoom.url,\n                GROUP_CONCAT(CONCAT(Course.subject, ' ', Course.number) ORDER BY Course.subject, Course.number SEPARATOR '\\\\n') AS rawCourses\n            FROM\n                OnlineRoom\n                    LEFT JOIN Course ON\n                        OnlineRoom.letter = Course.room\n            WHERE\n                OnlineRoom.date = CURDATE()\n            GROUP BY OnlineRoom.letter\n            ORDER BY OnlineRoom.letter ASC",
+        "\"\\n\"",
+        "\"\"",
+        "\"rooms\""
+    ],
+    "variables": [
+        "sql",
+        "i"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "render"
+    ],
+    "classes": [
+        "Model"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "parameterNotUsingCommonTypes",
+        "parameters",
+        "_opts",
+        "ctx",
+        "parameters",
+        "parameters",
+        "parameters",
+        "ctx",
+        "parameters",
+        "swagger",
+        "allParams",
+        "param",
+        "param",
+        "paramsWithNameProperty",
+        "param",
+        "param",
+        "paramNames",
+        "pName",
+        "commonTypesParametersNames",
+        "pName",
+        "paramsFromCommonTypes",
+        "pName",
+        "pName",
+        "ctx",
+        "errors"
+    ],
+    "literals": [
+        "\"subscriptionId\"",
+        "\"api-version\"",
+        "\"resourceGroupName\"",
+        "\"operationId\"",
+        "\"location\"",
+        "\"managementGroupName\"",
+        "\"scope\"",
+        "\"tenantId\"",
+        "\"ifMatch\"",
+        "\"ifNoneMatch\"",
+        "\"name\"",
+        "Not using the common-types defined parameter \"${pName}\"."
+    ],
+    "variables": [
+        "parameterNotUsingCommonTypes",
+        "commonTypesParametersNames",
+        "swagger",
+        "allParams",
+        "paramsWithNameProperty",
+        "paramNames",
+        "paramsFromCommonTypes",
+        "errors"
+    ],
+    "comments": [
+        "Verifies that parameters already defined in common-types are not being redefined."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

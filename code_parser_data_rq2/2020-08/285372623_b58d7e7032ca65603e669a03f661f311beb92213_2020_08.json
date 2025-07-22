@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "partial",
+        "$",
+        "$",
+        "$w",
+        "viewTop",
+        "$w",
+        "$t",
+        "_top",
+        "$t",
+        "partial",
+        "_bottom",
+        "_top",
+        "partial",
+        "_top",
+        "_bottom",
+        "compareBottom",
+        "viewBottom",
+        "compareTop",
+        "viewTop",
+        "$",
+        "$",
+        "$animated",
+        "i",
+        "el",
+        "$",
+        "el",
+        "el",
+        "el",
+        "win",
+        "$animated",
+        "i",
+        "el",
+        "$",
+        "el",
+        "el",
+        "el",
+        "inView"
+    ],
+    "literals": [
+        "\".animated\"",
+        "\"already-visible\"",
+        "\"come-in\""
+    ],
+    "variables": [
+        "$t",
+        "$w",
+        "viewTop",
+        "viewBottom",
+        "_top",
+        "_bottom",
+        "compareTop",
+        "compareBottom",
+        "win",
+        "$animated",
+        "el",
+        "el"
+    ],
+    "comments": [
+        "// Add scrollspy to <body>\n    $('body').scrollspy({target: \".navbar\", offset: 0});   \n\n\n    // Add smooth scrolling on all links inside the navbar\n    $(\".navigationSidebar__navList a\").on('click', function(event) {\n\n    // Make sure this.hash has a value before overriding default behavior\n    if (this.hash !== \"\") {\n\n        // Prevent default anchor click behavior\n        event.preventDefault();\n\n        // Store hash\n        var hash = this.hash;\n\n        // Using jQuery's animate() method to add smooth page scroll\n        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area\n        $('html, body').animate({\n        scrollTop: $(hash).offset().top\n        }, 800, function(){\n\n        // Add hash (#) to URL when done scrolling (default click behavior)\n        window.location.hash = hash;\n        });\n\n    } // End if\n\n    });\n\n    $('#menu-toggle').click(function(){\n        var $navbar = $('.navigationSidebar__nav');\n\n        $(this).toggleClass('open');\n        $navbar.toggleClass('open');\n    });\n\n    $('.navigationSidebar__navListItemLink').click(function(){\n        var $navbar = $('.navigationSidebar__nav');\n        var $menu = $('#menu-toggle');\n\n        if ($menu.hasClass('open')) {\n            $menu.toggleClass('open');\n            $navbar.toggleClass('open');\n        }\n\t\t});",
+        "When an element comes into viewport"
+    ],
+    "docstrings": [],
+    "functions": [
+        "inView"
+    ],
+    "classes": []
+}

@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Inject",
+        "ClientProxy",
+        "lastValueFrom",
+        "ItemDTO",
+        "ItemCategory",
+        "Injectable",
+        "Inject",
+        "itemMicroserviceClient",
+        "item",
+        "item",
+        "lastValueFrom",
+        "res",
+        "val",
+        "lastValueFrom",
+        "req",
+        "val",
+        "category",
+        "category",
+        "lastValueFrom",
+        "req",
+        "val",
+        "id",
+        "id",
+        "lastValueFrom",
+        "req",
+        "val"
+    ],
+    "literals": [
+        "\"@nestjs/common\"",
+        "'@nestjs/microservices'",
+        "\"rxjs\"",
+        "\"../../pkg/dtos/item.dto\"",
+        "\"../../core/entities/item-categories.entity\"",
+        "'ITEMS_MICROSERVICE'",
+        "'create_item'",
+        "'get_all_items'",
+        "'get_items_per_category'",
+        "'get_item_by_id'"
+    ],
+    "variables": [
+        "res",
+        "val",
+        "req",
+        "val",
+        "req",
+        "val",
+        "req",
+        "val"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "createItem",
+        "getItems",
+        "getItemsPerCategory",
+        "getItemById"
+    ],
+    "classes": [
+        "ExternalItemService"
+    ]
+}

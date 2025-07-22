@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "$_documentContainer",
+        "$_documentContainer"
+    ],
+    "literals": [
+        "'@vaadin/vaadin-lumo-styles/all-imports'",
+        "'@vaadin/vaadin-charts/theme/vaadin-chart-default-theme'",
+        "'template'",
+        "<custom-style>\n  <style>\n    html {\n    }\n  </style>\n</custom-style>\n\n\n<custom-style>\n  <style>\n    html {\n      overflow:hidden;\n    }\n    vaadin-app-layout vaadin-tab a:hover {\n      text-decoration: none;\n    }\n  </style>\n</custom-style>\n\n<dom-module id=\"chart\" theme-for=\"vaadin-chart\">\n  <template>\n    <style include=\"vaadin-chart-default-theme\">\n      :host {\n        --vaadin-charts-color-0: var(--lumo-primary-color);\n        --vaadin-charts-color-1: var(--lumo-error-color);\n        --vaadin-charts-color-2: var(--lumo-success-color);\n        --vaadin-charts-color-3: var(--lumo-contrast);\n      }\n      .highcharts-container {\n        font-family: var(--lumo-font-family);\n      }\n      .highcharts-background {\n        fill: var(--lumo-base-color);\n      }\n      .highcharts-title {\n        fill: var(--lumo-header-text-color);\n        font-size: var(--lumo-font-size-xl);\n        font-weight: 600;\n        line-height: var(--lumo-line-height-xs);\n      }\n      .highcharts-legend-item text {\n        fill: var(--lumo-body-text-color);\n      }\n      .highcharts-axis-title,\n      .highcharts-axis-labels {\n        fill: var(--lumo-secondary-text-color);\n      }\n      .highcharts-axis-line,\n      .highcharts-grid-line,\n      .highcharts-tick {\n        stroke: var(--lumo-contrast-10pct);\n      }\n      .highcharts-column-series rect.highcharts-point {\n        stroke: var(--lumo-base-color);\n      }\n    </style>\n  </template>\n</dom-module>"
+    ],
+    "variables": [
+        "$_documentContainer"
+    ],
+    "comments": [
+        "eagerly import theme styles so as we can override them"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

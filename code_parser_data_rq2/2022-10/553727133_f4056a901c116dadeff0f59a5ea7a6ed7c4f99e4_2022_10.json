@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "NextRequest",
+        "NextResponse",
+        "PersonalizeMiddleware",
+        "MiddlewarePlugin",
+        "config",
+        "PosResolver",
+        "PersonalizeMiddleware",
+        "config",
+        "config",
+        "config",
+        "process",
+        "parseInt",
+        "process",
+        "process",
+        "process",
+        "process",
+        "parseInt",
+        "process",
+        "PosResolver",
+        "req",
+        "res",
+        "req",
+        "res",
+        "PersonalizePlugin"
+    ],
+    "literals": [
+        "'next/server'",
+        "'@sitecore-jss/sitecore-jss-nextjs/middleware'",
+        "'..'",
+        "'temp/config'",
+        "'lib/pos-resolver'",
+        "''",
+        "''"
+    ],
+    "variables": [
+        "personalizePlugin"
+    ],
+    "comments": [
+        "Using 1 to leave room for things like redirects to occur first",
+        "Configuration for your Sitecore Experience Edge endpoint",
+        "Configuration for your Sitecore CDP endpoint",
+        "This function determines if the middleware should be turned off.",
+        "IMPORTANT: You should implement based on your cookie consent management solution of choice.",
+        "You may also wish to disable in development mode (process.env.NODE_ENV === 'development').",
+        "By default it is always enabled.",
+        "This function determines if a route should be excluded from personalization.",
+        "Certain paths are ignored by default (e.g. files and Next.js API routes), but you may wish to exclude more.",
+        "This is an important performance consideration since Next.js Edge middleware runs on every request.",
+        "This function resolves point of sale for cdp calls.",
+        "Point of sale may differ by locale and middleware will use request language to get the correct value every time it's invoked"
+    ],
+    "docstrings": [
+        "* This is the personalize middleware plugin for Next.js.\n * It is used to enable Sitecore personalization of pages in Next.js.\n *\n * The `PersonalizeMiddleware` will\n *  1. Make a call to the Sitecore Experience Edge to get the personalization information about the page.\n *  2. Based on the response, make a call to the Sitecore CDP (with request/user context) to determine the page variant.\n *  3. Rewrite the response to the specific page variant."
+    ],
+    "functions": [
+        "exec"
+    ],
+    "classes": [
+        "PersonalizePlugin"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "os",
+        "os",
+        "environ",
+        "os",
+        "path",
+        "join",
+        "home",
+        "os",
+        "path",
+        "join",
+        "home",
+        "os",
+        "path",
+        "join",
+        "home",
+        "f",
+        "config_files",
+        "open",
+        "f",
+        "close"
+    ],
+    "literals": [
+        "\"HOME\"",
+        "\"home\"",
+        "\".Renviron\"",
+        "\"repo\"",
+        "\"dot-Renviron\"",
+        "\"home\"",
+        "\"Rprofile.site\"",
+        "\"repo\"",
+        "\"Rprofile.site\"",
+        "\"home\"",
+        "\"rconfig\"",
+        "\"repo\"",
+        "\"rconfig.r\"",
+        "\"home\"",
+        "'a'"
+    ],
+    "variables": [
+        "home",
+        "config_files"
+    ],
+    "comments": [
+        "! /usr/bin/env python",
+        "",
+        "Create dummy files for testing install",
+        "Run after rm_r_sym_links.py",
+        "",
+        "dir = os.path.dirname(os.path.abspath(sys.argv[0])) # Very simple, may need to revisit",
+        "build a list of all the config files and their corresponding repo names"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

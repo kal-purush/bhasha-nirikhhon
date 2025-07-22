@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "cv2",
+        "cv2",
+        "CascadeClassifier",
+        "cv2",
+        "imread",
+        "cv2",
+        "cvtColor",
+        "img",
+        "cv2",
+        "COLOR_BGR2GRAY",
+        "trained_face_data",
+        "detectMultiScale",
+        "grayscaled_img",
+        "x",
+        "y",
+        "w",
+        "h",
+        "face_coordinates",
+        "cv2",
+        "rectangle",
+        "img",
+        "x",
+        "y",
+        "x",
+        "w",
+        "y",
+        "h",
+        "cv2",
+        "imshow",
+        "img",
+        "cv2",
+        "waitKey"
+    ],
+    "literals": [
+        "'haarcascade_frontalface_default.xml'",
+        "'RDJ.jpg'",
+        "\"Aashish's Face Detector\"",
+        "\"Code Completed\""
+    ],
+    "variables": [
+        "trained_face_data",
+        "img",
+        "grayscaled_img",
+        "face_coordinates"
+    ],
+    "comments": [
+        "Load some pre-trained data on face frontals from opencv (haar cascade algorithm)",
+        "Choose an Image to detect faces in",
+        "img = cv2.imread('Image2.JPG')   # Try this by removing the hash",
+        "Must convert to grayscale",
+        "Detect Faces",
+        "Draw rectangles around the faces For loop is used when multiple images are detected",
+        "print(face_coordinates)",
+        "",
+        "Wait here in the code and listen for a key press"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

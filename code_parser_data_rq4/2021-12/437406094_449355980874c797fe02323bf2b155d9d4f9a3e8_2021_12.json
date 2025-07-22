@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "React",
+        "Component",
+        "DataComponent",
+        "Component",
+        "props",
+        "props",
+        "DataComponent",
+        "App"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"./Components/DataComponent\""
+    ],
+    "variables": [],
+    "comments": [
+        "import data from \"./data\";",
+        "<div className=\"container\">\n                <div class=\"jumbotron\">\n                    <h1 class=\"display-4\">Products</h1>\n                </div>\n                <div>\n                    <input placeholder=\"Search\" />\n                </div>\n                {data.map((post) => (\n                    <div className=\"card\" key={post.id}>\n                        <div className=\"card-header\">\n                            {post.name}\n                        </div>\n                        <div className=\"card-body\">\n                            <h5>Details: {post.details}</h5>\n                            <h5>Price: {post.price}</h5>\n                            <h5> Location: {post.location}</h5>\n                            <img src=\"https://via.placeholder.com/150/92c952\"></img>\n                        </div>\n                    </div>\n                ))}\n            </div>\n        );\n    }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "render"
+    ],
+    "classes": [
+        "App"
+    ]
+}

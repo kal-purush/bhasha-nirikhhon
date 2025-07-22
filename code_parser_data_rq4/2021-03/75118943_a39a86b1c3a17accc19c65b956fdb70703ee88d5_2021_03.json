@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Collections",
+        "Linq",
+        "Text",
+        "Threading",
+        "GMap",
+        "NET",
+        "ObjectModel",
+        "T",
+        "IEnumerator",
+        "T",
+        "IEnumerator",
+        "T",
+        "IEnumerator",
+        "T",
+        "inner",
+        "@lock",
+        "m_Inner",
+        "inner",
+        "m_Lock",
+        "@lock",
+        "Monitor",
+        "Enter",
+        "m_Lock",
+        "Monitor",
+        "Exit",
+        "m_Lock",
+        "m_Inner",
+        "MoveNext",
+        "m_Inner",
+        "Reset",
+        "m_Inner",
+        "Current",
+        "IEnumerator",
+        "Current"
+    ],
+    "literals": [],
+    "variables": [
+        "m_Inner",
+        "m_Lock",
+        "T",
+        "Current",
+        "Current"
+    ],
+    "comments": [
+        "this is the (thread-unsafe)",
+        "enumerator of the underlying collection",
+        "this is the object we shall lock on.",
+        "entering lock in constructor",
+        ".. and exiting lock on Dispose()",
+        "This will be called when foreach loop finishes",
+        "we just delegate actual implementation",
+        "to the inner enumerator, that actually iterates",
+        "over some collection"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ThreadSafeEnumerator",
+        "Dispose",
+        "MoveNext",
+        "Reset"
+    ],
+    "classes": [
+        "ThreadSafeEnumerator"
+    ]
+}

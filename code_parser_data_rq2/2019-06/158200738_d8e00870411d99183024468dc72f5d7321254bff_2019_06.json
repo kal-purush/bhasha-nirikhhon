@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "obj",
+        "obj",
+        "clone",
+        "key",
+        "clone",
+        "key",
+        "obj",
+        "key",
+        "deepClone",
+        "obj",
+        "key",
+        "obj",
+        "key",
+        "obj",
+        "obj",
+        "clone",
+        "obj",
+        "clone",
+        "obj",
+        "obj",
+        "clone",
+        "deepClone"
+    ],
+    "literals": [
+        "'object'"
+    ],
+    "variables": [
+        "clone"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* 深层克隆对象\n *\n * @param obj\n * @returns {*}\n * @example\n *\n * const a = { foo: 'bar', obj: { a: 1, b: 2 } };\n * const b = deepClone(a);\n * // => a !== b, a.obj !== b.obj"
+    ],
+    "functions": [
+        "deepClone"
+    ],
+    "classes": []
+}

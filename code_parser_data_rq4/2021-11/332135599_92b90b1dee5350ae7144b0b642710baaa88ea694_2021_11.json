@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "jest",
+        "chart",
+        "testSymbols",
+        "testYf",
+        "consoleSilent",
+        "consoleRestore",
+        "testYf",
+        "describe",
+        "testSymbols",
+        "s",
+        "symbolsToSkip",
+        "s",
+        "it",
+        "symbols",
+        "symbol",
+        "yf",
+        "symbol",
+        "symbol"
+    ],
+    "literals": [
+        "\"@jest/globals\"",
+        "\"./chart.js\"",
+        "\"../../tests/symbols.js\"",
+        "\"../../tests/testYf.js\"",
+        "\"../../tests/console.js\"",
+        "\"chart\"",
+        "\"ADH\"",
+        "\"BEKE\"",
+        "\"BFLY\"",
+        "\"^VXAPL\"",
+        "\"passes validation for symbol '%s'\"",
+        "\"2020-01-01\"",
+        "\"2020-01-03\"",
+        "chart-${symbol}-2020-01-01-to-2020-01-03.json"
+    ],
+    "variables": [
+        "yf",
+        "symbolsToSkip",
+        "symbols"
+    ],
+    "comments": [
+        "See also common module tests in moduleExec.spec.js",
+        "currency: null; Yahoo-finance does show a chart though, should we allow this?",
+        "BadRequestError: Data doesn't exist for startDate = 1577836800, endDate = 1578009600",
+        "BadRequestError: Data doesn't exist for startDate = 1577836800, endDate = 1578009600",
+        "firstTradeDate: null; Yahoo-finance shows an empty chart even though there's some data.",
+        "const symbols = [\"ADH\"];",
+        "describe(\"transformWith\", () => {\n    const yf = { _moduleExec: jest.fn(), historical };\n    // @ts-ignore: TODO\n    yf.historical(\"symbol\", { period1: \"required-but-not-used\" });\n    // @ts-ignore: TODO\n    const { transformWith } = yf._moduleExec.mock.calls[0][0].query;\n\n    it(\"uses today's date as default for period2\", () => {\n      const now = new Date();\n      const options = transformWith({ period1: \"2020-01-01\" });\n      expect(options.period2).toBeDefined();\n      expect(options.period2).toBe(Math.floor(now.getTime() / 1000));\n    });\n  });\n\n  // #208\n  describe(\"null values\", () => {\n    it(\"strips all-null rows\", async () => {\n      const createHistoricalPromise = () =>\n        yf.historical(\n          \"EURGBP=X\",\n          {\n            period1: 1567728000,\n            period2: 1570665600,\n          },\n          { devel: \"historical-EURGBP-nulls.json\" }\n        );\n\n      await expect(createHistoricalPromise()).resolves.toBeDefined();\n\n      const result = await createHistoricalPromise();\n\n      // Without stripping, it's about 25 rows.\n      expect(result.length).toBe(5);\n\n      // No need to really check there are no nulls in the data, as\n      // validation handles that for us automatically.\n    });\n\n    it(\"throws on a row with some nulls\", () => {\n      consoleSilent();\n      return expect(\n        yf\n          .historical(\n            \"EURGBP=X\",\n            { period1: 1567728000, period2: 1570665600 },\n            { devel: \"historical-EURGBP-nulls.fake.json\" }\n          )\n          .finally(consoleRestore)\n      ).rejects.toThrow(\"SOME (but not all) null values\");\n    });\n  });"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

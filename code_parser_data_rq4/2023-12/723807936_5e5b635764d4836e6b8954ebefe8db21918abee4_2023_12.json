@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "container",
+        "container",
+        "container",
+        "container",
+        "container",
+        "alert",
+        "alert",
+        "word",
+        "words",
+        "words",
+        "index",
+        "word",
+        "word",
+        "s",
+        "i",
+        "i",
+        "s",
+        "html",
+        "Game"
+    ],
+    "literals": [
+        "'.word'",
+        "'.status__wins'",
+        "'.status__loss'",
+        "\"symbol_current\"",
+        "\"symbol_current\"",
+        "'symbol_correct'",
+        "'symbol_current'",
+        "'Победа!'",
+        "'Вы проиграли!'",
+        "'bob'",
+        "'awesome'",
+        "'netology'",
+        "'hello'",
+        "'kitty'",
+        "'rock'",
+        "'youtube'",
+        "'popcorn'",
+        "'cinema'",
+        "'love'",
+        "'javascript'",
+        "<span class=\"symbol ${i === 0 ? 'symbol_current': ''}\">${s}</span>",
+        "'symbol_current'",
+        "''",
+        "''",
+        "'.symbol_current'",
+        "'game'"
+    ],
+    "variables": [
+        "word",
+        "words",
+        "index",
+        "html"
+    ],
+    "comments": [
+        "TODO:\n      Написать обработчик события, который откликается\n      на каждый введённый символ.\n      В случае правильного ввода слова вызываем this.success()\n      При неправильном вводе символа - this.fail();\n      DOM-элемент текущего символа находится в свойстве this.currentSymbol."
+    ],
+    "docstrings": [],
+    "functions": [
+        "reset",
+        "registerEvents",
+        "success",
+        "fail",
+        "setNewWord",
+        "getWord",
+        "renderWord"
+    ],
+    "classes": [
+        "Game"
+    ]
+}

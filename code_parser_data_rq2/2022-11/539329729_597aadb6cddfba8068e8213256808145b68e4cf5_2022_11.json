@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "ru",
+        "nsu",
+        "kgurin",
+        "java",
+        "util",
+        "ConcurrentModificationException",
+        "java",
+        "util",
+        "Iterator",
+        "java",
+        "util",
+        "java",
+        "util",
+        "queue",
+        "modCount",
+        "vertex",
+        "queue",
+        "add",
+        "vertex",
+        "modCount",
+        "vertex",
+        "getModCount",
+        "Override",
+        "queue",
+        "isEmpty",
+        "Override",
+        "next",
+        "queue",
+        "poll",
+        "modCount",
+        "next",
+        "getModCount",
+        "queue",
+        "addAll",
+        "next",
+        "getChildren",
+        "next"
+    ],
+    "literals": [
+        "\"Changing structure while iterating\""
+    ],
+    "variables": [
+        "modCount"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* BFS algorithm for traversing a tree in depth.",
+        "* Initialization of BFS Iterator.\n     *\n     * @param vertex vertex from DFS is executed",
+        "* Check if the next node exists.\n     *\n     * @return true if there is next vertex, false otherwise",
+        "* Switch to the next node of the tree.\n     *\n     * @return the current node"
+    ],
+    "functions": [
+        "BreadthFirstSearchIterator",
+        "hasNext",
+        "next"
+    ],
+    "classes": [
+        "BreadthFirstSearchIterator"
+    ]
+}

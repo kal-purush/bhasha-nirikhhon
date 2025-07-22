@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "require",
+        "express",
+        "require",
+        "require",
+        "process",
+        "require",
+        "app",
+        "cors",
+        "app",
+        "express",
+        "process",
+        "process",
+        "MongoClient",
+        "uri",
+        "run",
+        "app",
+        "req",
+        "res",
+        "res",
+        "app",
+        "port",
+        "port"
+    ],
+    "literals": [
+        "'express'",
+        "'cors'",
+        "'dotenv'",
+        "'mongodb'",
+        "mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.iimwc2a.mongodb.net/?retryWrites=true&w=majority",
+        "\"Pinged your deployment. You successfully connected to MongoDB!\"",
+        "'/'",
+        "'Task Management Server'",
+        "Server is running port ${port}"
+    ],
+    "variables": [
+        "express",
+        "app",
+        "cors",
+        "port",
+        "uri",
+        "client"
+    ],
+    "comments": [
+        "middleware",
+        "Create a new MongoClient",
+        "Connect the client to the server\t(optional starting in v4.7)",
+        "await client.connect();",
+        "Send a ping to confirm a successful connection",
+        "await client.db(\"admin\").command({ ping: 1 });",
+        "Ensures that the client will close when you finish/error",
+        "await client.close();"
+    ],
+    "docstrings": [],
+    "functions": [
+        "run"
+    ],
+    "classes": []
+}

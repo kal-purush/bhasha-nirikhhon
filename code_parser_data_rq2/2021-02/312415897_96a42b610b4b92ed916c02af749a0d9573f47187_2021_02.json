@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "axios",
+        "surveyResponse",
+        "axios",
+        "DEV_URL",
+        "surveyResponse",
+        "result",
+        "result",
+        "uuid",
+        "axios",
+        "DEV_URL",
+        "uuid",
+        "result",
+        "result",
+        "putSurveyResult",
+        "getSurveyResult"
+    ],
+    "literals": [
+        "'axios'",
+        "'https://7h8jqdiilc.execute-api.us-west-2.amazonaws.com/dev'",
+        "${DEV_URL}/result",
+        "${DEV_URL}/result?uuid=${uuid}"
+    ],
+    "variables": [
+        "DEV_URL",
+        "result",
+        "result"
+    ],
+    "comments": [
+        "Calls to API gateway rest API , integrated with DynamoDB to store data.",
+        "obviously change this later",
+        "TODO: Add authorization requirement to this in API Gateway"
+    ],
+    "docstrings": [],
+    "functions": [
+        "putSurveyResult",
+        "getSurveyResult"
+    ],
+    "classes": []
+}

@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "logform",
+        "redacted",
+        "suggestedReplacement",
+        "suggestedReplacement",
+        "redactions",
+        "message",
+        "redactions",
+        "r",
+        "output",
+        "output",
+        "output",
+        "r",
+        "r",
+        "output",
+        "output",
+        "logInfo",
+        "logform",
+        "logform",
+        "logInfo",
+        "redactions",
+        "r",
+        "output",
+        "output",
+        "output",
+        "r",
+        "r",
+        "output",
+        "logInfo",
+        "output"
+    ],
+    "literals": [
+        "\"logform\"",
+        "string",
+        "string",
+        "\"[REDACTED]\"",
+        "string",
+        "string",
+        "\"string\"",
+        "\"string\""
+    ],
+    "variables": [
+        "redactions",
+        "replacement",
+        "addLogRedaction",
+        "addRedaction",
+        "output",
+        "message",
+        "output"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Prepare the logging to exclude something.\n * If you know you're about to, say, spawn a process that will get printed\n * to the log and will reveal something secret, then prepare the logger to\n * exclude that secret thing.\n *\n * Pass a regular expression that will match the secret thing and very little else.",
+        "* @deprecated use addRedaction"
+    ],
+    "functions": [
+        "addRedaction",
+        "redact",
+        "redactLog"
+    ],
+    "classes": []
+}

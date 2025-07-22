@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "listItem",
+        "listItem",
+        "onclick",
+        "listItem",
+        "pushState",
+        "pushState",
+        "history",
+        "currentFolder",
+        "thelist",
+        "i",
+        "i",
+        "i",
+        "show",
+        "thelist",
+        "listItem",
+        "j",
+        "j",
+        "j",
+        "movie",
+        "thelist",
+        "movieListItem"
+    ],
+    "literals": [
+        "string",
+        "\"Unknown\"",
+        "\"li\"",
+        "\"<div><img src=\\\"icons/genre.png\\\"/> \"",
+        "\" (\"",
+        "\" movies & \"",
+        "\" shows)</div>\"",
+        "\"\"",
+        "\"\""
+    ],
+    "variables": [
+        "listItem",
+        "onclick",
+        "i",
+        "show",
+        "listItem",
+        "j",
+        "movie",
+        "movieListItem"
+    ],
+    "comments": [
+        "we must bind the click method to this Genre object in order to make the \"this\" object in the handler point to this Genre object",
+        "push the state into the browser history so can navigate back to it",
+        "pushState(stateObject, title, url)"
+    ],
+    "docstrings": [
+        "* The name of this genre.",
+        "* The list of movies associated with this genre.",
+        "* The list of TV shows associated with this genre."
+    ],
+    "functions": [
+        "CreateListItem",
+        "Open"
+    ],
+    "classes": [
+        "Genre"
+    ]
+}

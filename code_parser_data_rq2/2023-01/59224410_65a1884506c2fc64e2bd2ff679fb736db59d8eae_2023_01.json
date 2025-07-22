@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Sample",
+        "OutboxWebApi",
+        "Application",
+        "Sample",
+        "OutboxWebApi",
+        "DataAccess",
+        "SlimMessageBus",
+        "CreateCustomerCommandHandler",
+        "IMessageBus",
+        "Bus",
+        "CustomerContext",
+        "CustomerContext",
+        "IRequestHandler",
+        "CreateCustomerCommand",
+        "Guid",
+        "Guid",
+        "CreateCustomerCommand",
+        "request",
+        "Customer",
+        "request",
+        "Firstname",
+        "request",
+        "Lastname",
+        "CustomerContext",
+        "Customers",
+        "AddAsync",
+        "customer",
+        "CustomerContext",
+        "SaveChangesAsync",
+        "Bus",
+        "Publish",
+        "CustomerCreatedEvent",
+        "customer",
+        "Id",
+        "customer",
+        "Firstname",
+        "customer",
+        "Lastname",
+        "customer",
+        "Id"
+    ],
+    "literals": [],
+    "variables": [
+        "customer"
+    ],
+    "comments": [
+        "Note: This handler will be already wrapped in a transaction: see Program.cs and .UseTransactionScope() / .UseSqlTransaction()",
+        "Announce to anyone outside of this micro-service that a customer has been created (this will go out via an transactional outbox)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "OnHandle"
+    ],
+    "classes": []
+}

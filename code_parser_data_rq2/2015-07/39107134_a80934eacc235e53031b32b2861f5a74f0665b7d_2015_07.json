@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "load",
+        "load",
+        "exhibit",
+        "turtle",
+        "i",
+        "i",
+        "turtle",
+        "exhibit",
+        "turtle",
+        "i",
+        "i",
+        "turtle",
+        "exhibit",
+        "turtle",
+        "i",
+        "turtle",
+        "turtle",
+        "turtle",
+        "i",
+        "i",
+        "imports",
+        "patterns",
+        "runs"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "import turtle${i} from \"${turtle.require}\";",
+        "'\\n'",
+        "let pattern${i} = parse(\"${turtle.pattern}\");",
+        "'\\n'",
+        "// ${turtle.name}: ${turtle.pattern} => ${turtle.require}\n\t\t\tif (pattern${i}.match(state)) { return turtle${i}(state); }",
+        "'\\n'",
+        "import {parse} from 'object-parser';\n\t\t${imports}\n\t\t${patterns}\n\t\texport default view(state) {\n\t\t\t${runs}\n\t\t}"
+    ],
+    "variables": [
+        "exhibit",
+        "imports",
+        "patterns",
+        "runs"
+    ],
+    "comments": [
+        "ES6 module source information",
+        "Turtle description",
+        "A name can be useful to visitors of a zoo",
+        "An object-pattern this turtle matches against",
+        "Examples of states zoo visitors may find this turtle in a zoo",
+        "View to import and call",
+        "The JSON description that produces a view",
+        "A name can be useful to visitors of a zoo",
+        "An ordered list of turtles to see"
+    ],
+    "docstrings": [],
+    "functions": [
+        "translate"
+    ],
+    "classes": []
+}

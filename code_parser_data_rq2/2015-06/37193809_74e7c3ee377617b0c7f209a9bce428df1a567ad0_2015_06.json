@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "express",
+        "app",
+        "express",
+        "__dirname",
+        "cfenv",
+        "app",
+        "appEnv",
+        "appEnv",
+        "appEnv"
+    ],
+    "literals": [
+        "'express'",
+        "'cfenv'",
+        "'/public'",
+        "\"server starting on \""
+    ],
+    "variables": [
+        "express",
+        "cfenv",
+        "app",
+        "appEnv"
+    ],
+    "comments": [
+        "jshint node:true",
+        "------------------------------------------------------------------------------",
+        "node.js starter application for Bluemix",
+        "------------------------------------------------------------------------------",
+        "This application uses express as it's web server",
+        "for more info, see: http://expressjs.com",
+        "cfenv provides access to your Cloud Foundry environment",
+        "for more info, see: https://www.npmjs.com/package/cfenv",
+        "create a new express server",
+        "serve the files out of ./public as our main files",
+        "get the app environment from Cloud Foundry",
+        "start server on the specified port and binding host",
+        "print a message when the server starts listening"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "name",
+        "contextInstace",
+        "name",
+        "name",
+        "instantiator",
+        "contextInstace",
+        "name",
+        "name",
+        "instantiator",
+        "name",
+        "contextInstace",
+        "name",
+        "name",
+        "name",
+        "name",
+        "ContextualActivator"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "There is no instantiator with the given name [${name}]"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Serve as an instantiator repository used to instantiate the build-in components of the library and allow override them.",
+        "* Creates a new instance of the conext activator.",
+        "* Represents a dictionary of instantiators that are keyed by the unique name.",
+        "* Set an instantiator for a particular name, if exists is overrided.\n     * @param {string} name Represents the name that identify the instantiator.\n     * @param {(contextInstace:ContextType, name:string) => InstanceType} instantiator Represents the instantiator that create and return the object.",
+        "* Get the instantiator for the provided name.\n     * @param {string} name Represents the name that identify the instantiator.\n     * @returns {(contextInstace:ContextType, name:string) => InstanceType} The instantiator that create and return the object."
+    ],
+    "functions": [
+        "setContextInstantiator",
+        "getContextInstatiator"
+    ],
+    "classes": [
+        "ContextualActivator"
+    ]
+}

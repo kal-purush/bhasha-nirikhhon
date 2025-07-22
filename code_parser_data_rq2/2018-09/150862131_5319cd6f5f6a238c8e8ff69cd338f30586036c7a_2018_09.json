@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "IO",
+        "Threading",
+        "Tasks",
+        "MadDroid",
+        "Helpers",
+        "T",
+        "path",
+        "T",
+        "value",
+        "Run",
+        "Json",
+        "StringifyAsync",
+        "value",
+        "File",
+        "WriteAllText",
+        "path",
+        "json",
+        "T",
+        "T",
+        "path",
+        "Run",
+        "File",
+        "ReadAllText",
+        "path",
+        "Json",
+        "ToObjectAsync",
+        "T",
+        "json"
+    ],
+    "literals": [],
+    "variables": [
+        "json",
+        "json"
+    ],
+    "comments": [
+        "A helper class to save and retrieve objects",
+        "</summary>",
+        "Save an object to specified path",
+        "</summary>",
+        "<typeparam name=\"T\">The type of the object to be saved</typeparam>",
+        "<param name=\"path\">The path where to save the object</param>",
+        "<param name=\"value\">The object to be saved</param>",
+        "<returns></returns>",
+        "Make async",
+        "Stringfy the object",
+        "Write the file to disk",
+        "Read an object from the specified path",
+        "</summary>",
+        "<typeparam name=\"T\">The type of the object that will be retrieved</typeparam>",
+        "<param name=\"path\">The path where the object is stored</param>",
+        "<returns></returns>",
+        "Make async",
+        "Read the file from disk",
+        "Return the object deserialized"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "SaveAsync",
+        "ReadAsync"
+    ],
+    "classes": [
+        "Storage"
+    ]
+}

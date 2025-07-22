@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "dotenv",
+        "dotenv",
+        "process",
+        "queryRunner",
+        "queryRunner",
+        "dbMainSchema",
+        "queryRunner",
+        "dbMainSchema",
+        "queryRunner"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'dotenv'",
+        "'InsertTasks1662909030388'",
+        "INSERT INTO \"${dbMainSchema}\".\"applications\" (\"createdBy\", \"lastChangedBy\",\"name\") values ('ADMIN', 'ADMIN', 'app 1')",
+        "INSERT INTO \"${dbMainSchema}\".\"tasks\" (\"createdBy\", \"lastChangedBy\", \"name\", \"hash\",\"ref\", \"applicationId\", \"payload\") values ('ADMIN', 'ADMIN', 'task 1', '1234','ref', 1, '{\"foo\":\"bar\"}')"
+    ],
+    "variables": [
+        "dbMainSchema"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "InsertTasks1662909030388"
+    ]
+}

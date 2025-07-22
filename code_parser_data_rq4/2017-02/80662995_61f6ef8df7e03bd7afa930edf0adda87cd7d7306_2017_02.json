@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "// Set global variables\nvar weatherData = {};\n\n// After loading the page, get lat lon from ipinfo and execute the first function\n$(document).ready(function() {\n  $.get(\"http://ipinfo.io/geo\", function(response) {\n    var latLon = (response.loc).split(',');\n    var latitude = latLon[0];\n    var longitude = latLon[1];\n    document.getElementById(\"city\").innerHTML = \"The current weather in<br>\" + response.city;\n    getWeatherDetail(latitude, longitude);\n  }, \"jsonp\")\n});\n\n// Pull the weather from openweathermap and post the weather on the page\nfunction getWeatherDetail(lat, lon) {\n  var output = $.ajax({\n    url: \"http://api.openweathermap.org/data/2.5/weather?lat=\" + lat + \"&lon=\" + lon + \"&units=imperial&APPID=09449d6c9c3b937d6a67e55e34b1bfab\",\n    type: 'GET',\n    data: {},\n    dataType: 'json',\n    success: function(data) {\n    // assign the weatherData for future use, and set the page values to current weather\n      weatherData = data;\n      changeBackgroundImg(weatherData.weather[0].main);\n      getFahrenheit();\n      document.getElementById(\"conditions\").innerHTML = weatherData.weather[0].description;\n    },\n    error: function(err) { alert(err); },\n  });\n};\n\n// change the background image\nfunction changeBackgroundImg(group) {\n  document.body.style.backgroundImage = \"url(https://s3.amazonaws.com/assetsanewdevio/fccweather/\" + group + \".jpg)\";\n}\n\n// get celsius temp from fahrenheit\nfunction getCelsius() {\n  document.getElementById(\"temp\").innerHTML = Math.round((weatherData.main.temp - 32) * 5 / 9) + '° <a onclick=\"getFahrenheit()\" href=\"#\">C</span>';\n}\n\n// get fahrenheit from api data\nfunction getFahrenheit() {\n  document.getElementById(\"temp\").innerHTML = Math.round(weatherData.main.temp) + '° <a onclick=\"getCelsius()\" href=\"#\">F</span>';\n}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

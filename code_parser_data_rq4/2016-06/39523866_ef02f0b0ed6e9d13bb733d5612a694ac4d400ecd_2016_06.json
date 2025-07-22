@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "Zone",
+        "fn",
+        "done",
+        "Zone",
+        "_FakeAsyncTestZoneSpecType",
+        "Zone",
+        "fakeAsyncTestZoneSpec",
+        "args",
+        "fakeAsyncZone",
+        "fn",
+        "args",
+        "flushMicrotasks",
+        "res",
+        "fakeAsyncTestZoneSpec",
+        "fakeAsyncTestZoneSpec",
+        "fakeAsyncTestZoneSpec",
+        "fakeAsyncTestZoneSpec",
+        "res",
+        "Zone",
+        "zoneSpec",
+        "zoneSpec",
+        "millis",
+        "_getFakeAsyncZoneSpec",
+        "millis",
+        "_getFakeAsyncZoneSpec",
+        "zoneSpec",
+        "zoneSpec",
+        "_getFakeAsyncZoneSpec"
+    ],
+    "literals": [
+        "'FakeAsyncTestZoneSpec'",
+        "'FakeAsyncTestZoneSpec'",
+        "'fakeAsync() calls can not be nested'",
+        "${fakeAsyncTestZoneSpec.pendingPeriodicTimers.length}",
+        "periodic timer(s) still in the queue.",
+        "${fakeAsyncTestZoneSpec.pendingTimers.length} timer(s) still in the queue.",
+        "'FakeAsyncTestZoneSpec'",
+        "'The code should be running in the fakeAsync zone to call this function'"
+    ],
+    "variables": [
+        "Zone",
+        "_FakeAsyncTestZoneSpecType",
+        "fakeAsyncTestZoneSpec",
+        "fakeAsyncZone",
+        "res",
+        "res",
+        "zoneSpec",
+        "zoneSpec",
+        "pendingTimers"
+    ],
+    "comments": [
+        "Do nothing."
+    ],
+    "docstrings": [
+        "* Wraps a function to be executed in the fakeAsync zone:\n * - microtasks are manually executed by calling `flushMicrotasks()`,\n * - timers are synchronous, `tick()` simulates the asynchronous passage of time.\n *\n * If there are any pending timers at the end of the function, an exception will be thrown.\n *\n * Can be used to wrap inject() calls.\n *\n * ## Example\n *\n * {@example testing/ts/fake_async.ts region='basic'}\n *\n * @param fn\n * @returns {Function} The function wrapped to be executed in the fakeAsync zone",
+        "* Clear the queue of pending timers and microtasks.\n * Tests no longer need to call this explicitly.\n *\n * @deprecated",
+        "* Simulates the asynchronous passage of time for the timers in the fakeAsync zone.\n *\n * The microtasks queue is drained at the very start of this function and after any timer callback\n * has been executed.\n *\n * ## Example\n *\n * {@example testing/ts/fake_async.ts region='basic'}\n *",
+        "* Discard all remaining periodic tasks.",
+        "* Flush any pending microtasks."
+    ],
+    "functions": [
+        "fakeAsync",
+        "_getFakeAsyncZoneSpec",
+        "clearPendingTimers",
+        "tick",
+        "discardPeriodicTasks",
+        "flushMicrotasks"
+    ],
+    "classes": []
+}

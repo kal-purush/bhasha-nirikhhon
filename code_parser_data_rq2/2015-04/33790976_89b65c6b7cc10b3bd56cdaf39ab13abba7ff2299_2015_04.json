@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "battlejack",
+        "difficulty",
+        "enemyNum",
+        "enemyNum",
+        "enemies",
+        "difficulty",
+        "enemies",
+        "difficulty",
+        "CPUEntityInBattle",
+        "Entity",
+        "Hand"
+    ],
+    "literals": [],
+    "variables": [
+        "enemies",
+        "enemyNum"
+    ],
+    "comments": [
+        "<reference path=\"_all.ts\"/>",
+        "TODO: Make a constructor that allows this to make different types of enemies.",
+        "TODO: Make this change based upon difficulty."
+    ],
+    "docstrings": [
+        "* Created by dhnishi on 4/19/15."
+    ],
+    "functions": [
+        "generateBattle",
+        "generateEnemy"
+    ],
+    "classes": [
+        "ArenaBattleFactory"
+    ]
+}

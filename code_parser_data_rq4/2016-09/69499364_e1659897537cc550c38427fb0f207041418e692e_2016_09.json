@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "hasLandedOn",
+        "hasLandedOn",
+        "isStartingPlatform",
+        "Collision",
+        "col",
+        "col",
+        "gameObject",
+        "GetComponent",
+        "Player",
+        "GameManager",
+        "Instance",
+        "LandedOnNewPlatform",
+        "hasLandedOn"
+    ],
+    "literals": [],
+    "variables": [
+        "hasLandedOn",
+        "isStartingPlatform",
+        "HasLandedOn"
+    ],
+    "comments": [
+        "&& col.gameObject.GetComponent<Player>().Body.velocity.y > 0f)",
+        "Player landed so call the landing"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Awake",
+        "OnCollisionEnter"
+    ],
+    "classes": [
+        "Platform"
+    ]
+}

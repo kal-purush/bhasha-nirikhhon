@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "spacy",
+        "spacy",
+        "tokens",
+        "spacy",
+        "load",
+        "nlp",
+        "text",
+        "ent",
+        "doc",
+        "ents",
+        "ent",
+        "text",
+        "entities_dict",
+        "ent",
+        "text",
+        "ent",
+        "label_",
+        "text",
+        "label",
+        "entities_dict",
+        "items",
+        "text",
+        "label"
+    ],
+    "literals": [
+        "\"en_core_web_sm\"",
+        "\"Microsoft was founded by Bill Gates and Paul Allen. They are also known for their significant contributions to technology. Recently, Microsoft has acquired LinkedIn and is working on new AI technologies.\"",
+        "'LinkedIn'",
+        "'ORG'",
+        "'AI'",
+        "'TECHNOLOGY'"
+    ],
+    "variables": [
+        "nlp",
+        "text",
+        "doc",
+        "entities_dict",
+        "entities_dict",
+        "entities_dict",
+        "entities_dict"
+    ],
+    "comments": [
+        "Load the pre-trained model",
+        "Process the text",
+        "Initialize a dictionary to store unique entities and their labels",
+        "Iterate through entities to add them to the dictionary",
+        "Check if the entity is already in the dictionary",
+        "If it's already there, you might want to handle label conflicts",
+        "For simplicity, we'll keep the first encountered label",
+        "Manually adjust labels if necessary  OPTIONAL",
+        "Adjust LinkedIn to ORG",
+        "Adjust AI to TECHNOLOGY or any other label you prefer",
+        "Print the unique entities and their labels",
+        "Note that model will recognize the entities based on the entity list in the pre-trained model used.",
+        "If you want specific entity recongnition you can manually adjust labels."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

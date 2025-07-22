@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "com",
+        "alibaba",
+        "nacos",
+        "core",
+        "distributed",
+        "distro",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Value",
+        "org",
+        "springframework",
+        "stereotype",
+        "Component",
+        "Component",
+        "Value",
+        "syncDelayMillis",
+        "Value",
+        "syncRetryDelayMillis",
+        "Value",
+        "verifyIntervalMillis",
+        "Value",
+        "loadDataRetryDelayMillis",
+        "syncDelayMillis",
+        "syncDelayMillis",
+        "syncDelayMillis",
+        "syncDelayMillis",
+        "syncRetryDelayMillis",
+        "syncRetryDelayMillis",
+        "syncRetryDelayMillis",
+        "syncRetryDelayMillis",
+        "verifyIntervalMillis",
+        "verifyIntervalMillis",
+        "verifyIntervalMillis",
+        "verifyIntervalMillis",
+        "loadDataRetryDelayMillis",
+        "loadDataRetryDelayMillis",
+        "loadDataRetryDelayMillis",
+        "loadDataRetryDelayMillis"
+    ],
+    "literals": [
+        "\"${nacos.core.protocol.distro.data.sync_delay_ms:1000}\"",
+        "\"${nacos.core.protocol.distro.data.sync_retry_delay_ms:3000}\"",
+        "\"${nacos.core.protocol.distro.data.verify_interval_ms:5000}\"",
+        "\"${nacos.core.protocol.distro.data.load_retry_delay_ms:30000}\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 1999-2018 Alibaba Group Holding Ltd.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Distro configuration.\n *\n * @author xiweng.yy"
+    ],
+    "functions": [
+        "getSyncDelayMillis",
+        "setSyncDelayMillis",
+        "getSyncRetryDelayMillis",
+        "setSyncRetryDelayMillis",
+        "getVerifyIntervalMillis",
+        "setVerifyIntervalMillis",
+        "getLoadDataRetryDelayMillis",
+        "setLoadDataRetryDelayMillis"
+    ],
+    "classes": [
+        "DistroConfig"
+    ]
+}

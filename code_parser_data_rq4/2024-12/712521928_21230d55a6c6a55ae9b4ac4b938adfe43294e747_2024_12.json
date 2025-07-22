@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "nums",
+        "len",
+        "nums",
+        "i",
+        "n",
+        "nums",
+        "i",
+        "n",
+        "nums",
+        "nums",
+        "i",
+        "nums",
+        "i",
+        "nums",
+        "i",
+        "nums",
+        "i",
+        "nums",
+        "correct_idx",
+        "nums",
+        "correct_idx",
+        "nums",
+        "i",
+        "i",
+        "n",
+        "nums",
+        "i",
+        "i",
+        "i",
+        "n"
+    ],
+    "literals": [],
+    "variables": [
+        "n",
+        "correct_idx"
+    ],
+    "comments": [
+        "Step 1: Performing Cyclic Sort",
+        "Step 2: Find First missing positive integer"
+    ],
+    "docstrings": [
+        "\"\"\"\n41. First Missing Positive\n\nGiven an unsorted integer array `nums`. Return the smallest positive integer\nthat is not present in `nums`.\n\nYou must implement an algorithm that runs in O(n) time and uses O(1)\nauxiliary space.\n\"\"\"",
+        "\"\"\"\nExample 1:\nInput: nums = [1,2,0]\nOutput: 3\n\nExplanation: The numbers in the range [1,2] are all in the array.\n\nExample 2:\nInput: nums = [3,4,-1,1]\nOutput: 2\n\nExplanation: 1 is in the array but 2 is missing.\n\nExample 3:\nInput: nums = [7,8,9,11,12]\nOutput: 1\n\nExplanation: The smallest positive integer 1 is missing.\n\"\"\""
+    ],
+    "functions": [
+        "firstMissingPositive"
+    ],
+    "classes": [
+        "Solution"
+    ]
+}

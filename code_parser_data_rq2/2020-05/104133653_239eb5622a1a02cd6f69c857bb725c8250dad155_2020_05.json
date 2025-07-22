@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "React",
+        "getDocument",
+        "DialogOptions",
+        "dialogRef",
+        "React",
+        "options",
+        "React",
+        "React",
+        "options",
+        "onFocus",
+        "target",
+        "options",
+        "options",
+        "target",
+        "getDocument",
+        "dialogRef",
+        "onFocus",
+        "onFocus",
+        "options",
+        "options",
+        "dialogRef",
+        "React",
+        "options",
+        "onMouseDown",
+        "options",
+        "disclosure",
+        "onMouseDown",
+        "disclosure",
+        "onMouseDown",
+        "options",
+        "options",
+        "options"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"reakit-utils/getDocument\"",
+        "\"../Dialog\"",
+        "\"focus\"",
+        "\"focus\"",
+        "\"mousedown\"",
+        "\"mousedown\""
+    ],
+    "variables": [
+        "onFocus",
+        "target",
+        "onMouseDown",
+        "disclosure"
+    ],
+    "comments": [
+        "We get the last focused element before the dialog opens, so we can move",
+        "focus back to it when the dialog closes.",
+        "Safari and Firefox on MacOS don't focus on buttons on mouse down.",
+        "Instead, they focus on the closest focusable parent (ultimately, the",
+        "body element). This works around that by preventing that behavior and",
+        "forcing focus on the disclosure button. Otherwise, we wouldn't be able",
+        "to close the dialog by clicking again on the disclosure."
+    ],
+    "docstrings": [],
+    "functions": [
+        "useDisclosureRef"
+    ],
+    "classes": []
+}

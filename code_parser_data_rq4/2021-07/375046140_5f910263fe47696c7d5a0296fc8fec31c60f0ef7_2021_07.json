@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Threading",
+        "Tasks",
+        "Core",
+        "Entities",
+        "Core",
+        "Interfaces",
+        "IUnitOfWork",
+        "IGenericRepository",
+        "TEntity",
+        "TEntity",
+        "TEntity",
+        "BaseEntity"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Main station to management entities",
+        "Sometimes is required save data inside one method to differents tables",
+        "This class collect all tables to saving and with complete method data are inserted",
+        "</summary>",
+        "Reference to all common sql methods",
+        "</summary>",
+        "<typeparam name=\"TEntity\"></typeparam>",
+        "<returns>Query defined on specific entity</returns>",
+        "Save all collected entities to database",
+        "</summary>",
+        "<returns>Number of entities saved in database if successful</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Repository",
+        "CompleteAsync"
+    ],
+    "classes": []
+}

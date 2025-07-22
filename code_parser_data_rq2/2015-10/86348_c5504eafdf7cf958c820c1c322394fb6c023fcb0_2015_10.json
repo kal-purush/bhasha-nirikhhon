@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "scikits",
+        "sparse",
+        "cholmod",
+        "cholesky",
+        "ImportError",
+        "pykrylov",
+        "linop",
+        "LinearOperator",
+        "LinearOperator",
+        "A",
+        "kwargs",
+        "A",
+        "shape",
+        "m",
+        "n",
+        "ValueError",
+        "cholesky",
+        "A",
+        "CholeskyOperator",
+        "n",
+        "n",
+        "matvec",
+        "cholesky_matvec",
+        "symmetric",
+        "kwargs",
+        "rhs",
+        "__factor",
+        "rhs"
+    ],
+    "literals": [
+        "\"Please install scikits.sparse\"",
+        "'restructuredtext'",
+        "\"Input matrix must be square\""
+    ],
+    "variables": [
+        "__docformat__",
+        "m",
+        "n",
+        "__factor"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "\"\"\"Cholesky Factorization Operator.\"\"\"",
+        "\"\"\"Inverse as a Cholesky factorization.\n\n    Linear operator to represent the inverse of a\n    symmetric and positive definite sparse matrix\n    using its sparse Cholesky factorization.\n    \"\"\"",
+        "\"\"\"CholeskyOperator corresponding to the sparse matrix `A`.\n\n        CholeskyOperator(A)\n\n        The sparse matrix `A` must be in one of the SciPy sparse\n        matrix formats.\n        \"\"\"",
+        "\"\"\"Solve a linear system with right-hand side `rhs`.\"\"\""
+    ],
+    "functions": [
+        "cholesky_matvec"
+    ],
+    "classes": [
+        "CholeskyOperator"
+    ]
+}

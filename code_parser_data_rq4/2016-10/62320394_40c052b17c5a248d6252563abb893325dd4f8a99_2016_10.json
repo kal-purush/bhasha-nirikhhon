@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "DS",
+        "OsfSerializer",
+        "Ember",
+        "OsfSerializer",
+        "snapshot",
+        "arguments",
+        "res",
+        "rel",
+        "snapshot",
+        "Ember",
+        "rel",
+        "snapshot",
+        "rel",
+        "res",
+        "relationship",
+        "id",
+        "relTypes",
+        "rel",
+        "res",
+        "snapshot",
+        "res",
+        "snapshot",
+        "res"
+    ],
+    "literals": [
+        "'ember-data'",
+        "'./osf-serializer'",
+        "'ember'",
+        "'subjects'",
+        "'subjects'",
+        "'files'",
+        "'nodes'",
+        "'providers'"
+    ],
+    "variables": [
+        "res",
+        "relationship",
+        "id",
+        "relTypes"
+    ],
+    "comments": [
+        "Normal OSF serializer strips out relationships. We need to add back primaryFile/node/provider for this endpoint",
+        "Type mapping for preprint relationship fields"
+    ],
+    "docstrings": [],
+    "functions": [
+        "serialize"
+    ],
+    "classes": []
+}

@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "seedu",
+        "smartlib",
+        "model",
+        "book",
+        "seedu",
+        "smartlib",
+        "commons",
+        "util",
+        "AppUtil",
+        "checkArgument",
+        "MIN_VALUE",
+        "MAX_VALUE",
+        "TEMP_BARCODE_VALUE",
+        "MESSAGE_CONSTRAINTS",
+        "value",
+        "barcode",
+        "isValidBarcode",
+        "barcode",
+        "checkArgument",
+        "isValidBarcode",
+        "barcode",
+        "MESSAGE_CONSTRAINTS",
+        "value",
+        "barcode",
+        "value",
+        "barcode",
+        "barcode",
+        "Barcode",
+        "MIN_VALUE",
+        "barcode",
+        "Barcode",
+        "MAX_VALUE",
+        "barcode",
+        "TEMP_BARCODE_VALUE",
+        "Override",
+        "value",
+        "Override",
+        "other",
+        "other",
+        "other",
+        "value",
+        "other",
+        "value",
+        "Override",
+        "toString",
+        "hashCode"
+    ],
+    "literals": [
+        "\"Barcodes should only contain numbers, and it should only contain 10 digits.\"",
+        "\"\""
+    ],
+    "variables": [
+        "value"
+    ],
+    "comments": [
+        "short circuit if same object",
+        "instanceof handles nulls",
+        "state check"
+    ],
+    "docstrings": [
+        "* Represents an Barcode of a book in SmartLib.\n * Guarantees: immutable; is valid as declared in {@link #isValidBarcode(int)}",
+        "* Constructs a {@code barcode}.\n     *\n     * @param barcode A valid barcode.",
+        "* Returns the value of the barcode.\n     * @return The value of the barcode.",
+        "* Returns true if the barcode is valid.\n     * @return True if the barcode is valid."
+    ],
+    "functions": [
+        "Barcode",
+        "getValue",
+        "isValidBarcode",
+        "toString",
+        "equals",
+        "hashCode"
+    ],
+    "classes": [
+        "Barcode"
+    ]
+}

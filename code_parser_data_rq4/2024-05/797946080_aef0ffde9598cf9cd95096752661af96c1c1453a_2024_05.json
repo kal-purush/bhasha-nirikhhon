@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Component",
+        "FieldType",
+        "FieldTypeConfig",
+        "ColorPickerModule",
+        "Component",
+        "ColorPickerModule",
+        "FieldType"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@ngx-formly/core'",
+        "'ngx-color-picker'",
+        "'app-color-picker'",
+        "<input [colorPicker]=\"color\" [style.background]=\"color\" [value]=\"color\" (colorPickerChange)=\"onChange($event)\" />",
+        "'./color-picker.component.scss'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "color",
+        "onChange"
+    ],
+    "classes": [
+        "ColorPickerComponent"
+    ]
+}

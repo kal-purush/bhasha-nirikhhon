@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "FormControl",
+        "require",
+        "controlName",
+        "validate",
+        "controlName",
+        "controlName",
+        "validate",
+        "validate",
+        "validate",
+        "validate",
+        "control",
+        "control",
+        "validate"
+    ],
+    "literals": [
+        "'@angular/forms'",
+        "\"node_modules/validate.js/validate.js\"",
+        "string",
+        "string",
+        "${control}"
+    ],
+    "variables": [
+        "validate"
+    ],
+    "comments": [
+        "npm install --save validate.js",
+        "Example\n\tlet validateText = new BossyFormValidator('someTextKey', {min:2, max:10})\n\tlet validateEmail = new BossyFormValidator('someEmailKey',{email: true})\n\n\tformBuilder.group({\n\t\tsomeTextKey: [null, validateText.validateElement],\n\t\tsomeEmailKey: [null, validateEmail.validateElement]\n\t})"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "BossyFormValidator"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "grails",
+        "spring",
+        "security",
+        "saml",
+        "org",
+        "springframework",
+        "security",
+        "saml",
+        "SAMLAuthenticationProvider",
+        "org",
+        "springframework",
+        "security",
+        "saml",
+        "SAMLCredential",
+        "Override",
+        "credential",
+        "userDetail",
+        "userDetail",
+        "userDetail",
+        "credential",
+        "getNameID",
+        "getValue"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* A {@link org.springframework.security.saml.SAMLAuthenticationProvider} subclass to return\n * principal as UserDetails Object.\n *\n * @author feroz.panwaskar",
+        "* @param credential credential used to authenticate user\n     * @param userDetail loaded user details, can be null\n     * @return principal to store inside Authentication object"
+    ],
+    "functions": [
+        "GrailsSAMLAuthenticationProvider",
+        "getPrincipal"
+    ],
+    "classes": [
+        "GrailsSAMLAuthenticationProvider"
+    ]
+}

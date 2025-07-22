@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "HttpClient",
+        "inject",
+        "Injectable",
+        "signal",
+        "environment",
+        "User",
+        "Router",
+        "Injectable",
+        "inject",
+        "HttpClient",
+        "environment",
+        "signal",
+        "inject",
+        "Router",
+        "url",
+        "token",
+        "url",
+        "token",
+        "error",
+        "error",
+        "url",
+        "response",
+        "response",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'@angular/common/http'",
+        "'@angular/core'",
+        "'../../../environments/environment'",
+        "'../../shared/interfaces/user'",
+        "'@angular/router'",
+        "'root'",
+        "${environment.apiUrl}/auth",
+        "${this.baseUrl}/loginWithLinkedIn",
+        "string",
+        "${this.baseUrl}/startUserSession",
+        "'/'",
+        "'Error setting access token as cookie:'",
+        "${this.baseUrl}/user",
+        "'Error fetching user data:'"
+    ],
+    "variables": [
+        "url",
+        "url",
+        "url"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "logInWithLinkedIn",
+        "startUserSession",
+        "getUser"
+    ],
+    "classes": [
+        "AuthService"
+    ]
+}

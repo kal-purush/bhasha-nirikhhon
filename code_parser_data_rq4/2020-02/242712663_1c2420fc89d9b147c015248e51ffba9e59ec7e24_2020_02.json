@@ -1,0 +1,42 @@
+{
+    "identifiers": [],
+    "literals": [
+        "\"output\"",
+        "\"\"",
+        "\"gene_symbol\\:(.*)(\\s|$)\"",
+        "\"/path/to/evidence.txt\"",
+        "\"path/to/matchedFeatures.txt\"",
+        "\"/path/to/peptides.txt\""
+    ],
+    "variables": [
+        "output_dir",
+        "path_to_fasta",
+        "tol",
+        "n_term_prob_cutoff",
+        "c_term_prob_cutoff",
+        "positional_probability_cutoff",
+        "fdr",
+        "regex",
+        "excluded_samples",
+        "path_to_evidence",
+        "path_to_matched_features",
+        "path_to_peptides",
+        "mz_tol",
+        "rt_tol"
+    ],
+    "comments": [
+        "!/usr/bin/env python2",
+        "-*- coding: utf-8 -*-",
+        "output folder",
+        "",
+        "regex for extraction gene symbol from fasta",
+        "path to MaxQuant's table, allPeptides.txt",
+        "m/z tolerance for the fetching unidentified features",
+        "# retention time tolerance for the fetching unidentified features"
+    ],
+    "docstrings": [
+        "\"\"\"\nCreated on Wed Jul 11 10:14:41 2018\n\n@author: ernestmordret\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

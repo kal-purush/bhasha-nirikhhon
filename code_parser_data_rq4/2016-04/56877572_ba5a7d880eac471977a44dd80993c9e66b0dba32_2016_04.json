@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "key",
+        "key",
+        "key",
+        "key",
+        "key",
+        "key",
+        "value",
+        "key",
+        "value",
+        "key",
+        "value",
+        "key",
+        "key",
+        "key"
+    ],
+    "literals": [
+        "{\"${document.cookie.replace(/; /g, \",\").replace(/=/g, `\":\"`)}\"}",
+        "\",\"",
+        "\":\"",
+        "string",
+        "Cookie \"${key}\" does not exist.",
+        "string",
+        "string",
+        "${key}=${value};",
+        "string",
+        "\"; expires=Thu, 01 Jan 1970 00:00:01 GMT\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Wraps Cookie sessions into a decent-to-use class for TypeScript projects\n * Allows for most usual operations done over cookies, ie:\n *  - get a Cookie - getKey(<key:string>)\n *  - set a Cookie - setKey(<key:string>, <value:string>)\n *  - remove a Cookie - removeKey(<key:string>)\n *\n *  TODO: A Cookie interface\n *  TODO: Keys as an Observable",
+        "* Populates this.keys as a Javascript Object",
+        "* Returns a key stored in the Cookie session\n     * @param key\n     * @returns {any}",
+        "* Sets a cookie in the Cookie session\n     * @param key\n     * @param value",
+        "* Removes a cookie from the Cookie session\n     * @param key"
+    ],
+    "functions": [
+        "parseKeys",
+        "getKey",
+        "setKey",
+        "removeKey"
+    ],
+    "classes": [
+        "CookieWrapper"
+    ]
+}

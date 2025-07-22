@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "PatternsPractice",
+        "Structural",
+        "_implementor",
+        "value",
+        "_implementor",
+        "_implementor",
+        "Operation",
+        "Abstraction",
+        "Execute",
+        "Implementor",
+        "Implementor",
+        "WriteLine",
+        "Implementor",
+        "WriteLine"
+    ],
+    "literals": [
+        "\"From ImplementationA.\"",
+        "\"From ImplementationB.\""
+    ],
+    "variables": [
+        "Implementor",
+        "_implementor",
+        "Implementor",
+        "Implementor"
+    ],
+    "comments": [
+        "public static void Main(string[] args)",
+        "{",
+        "Abstraction a = new RefinedAbstraction();",
+        "a._implementor = new ImplementationA();",
+        "a.Execute();",
+        "a._implementor = new ImplementationB();",
+        "a.Execute();",
+        "Console.ReadKey();",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Execute",
+        "Execute",
+        "Operation",
+        "Operation",
+        "Operation"
+    ],
+    "classes": [
+        "BridgePattern",
+        "Abstraction",
+        "RefinedAbstraction",
+        "ImplementationA",
+        "ImplementationB"
+    ]
+}

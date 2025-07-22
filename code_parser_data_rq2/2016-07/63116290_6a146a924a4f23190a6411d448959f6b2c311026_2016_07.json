@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "ElementMarker",
+        "require",
+        "require",
+        "element",
+        "element",
+        "element",
+        "DOM",
+        "element",
+        "element",
+        "ElementMarker",
+        "parent",
+        "parent",
+        "lnglat",
+        "LngLat",
+        "lnglat",
+        "DOM",
+        "pos",
+        "pos"
+    ],
+    "literals": [
+        "'use strict'",
+        "'../util/dom'",
+        "'../geo/lng_lat'",
+        "'div'",
+        "'mapboxgl-marker'",
+        "'move'",
+        "'move'",
+        "'translate('",
+        "'px,'",
+        "'px)'"
+    ],
+    "variables": [
+        "DOM",
+        "LngLat",
+        "parent",
+        "pos"
+    ],
+    "comments": [
+        "eslint-disable"
+    ],
+    "docstrings": [
+        "* Creates a marker component\n * @class ElementMarker\n * @param {HTMLElement=} element DOM element to use as a marker (creates a div element by default)\n * @example\n * var marker = new mapboxgl.ElementMarker()\n *   .setLngLat([30.5, 50.5])\n *   .addTo(map);",
+        "* Attaches the marker to a map\n     * @param {Map} map\n     * @returns {ElementMarker} `this`",
+        "* Removes the marker from a map\n     * @example\n     * var marker = new mapboxgl.ElementMarker().addTo(map);\n     * marker.remove();\n     * @returns {ElementMarker} `this`",
+        "* Get the marker's geographical location\n     * @returns {LngLat}",
+        "* Set the marker's geographical position and move it.\n     * @param {LngLat} lnglat\n     * @returns {Popup} `this`"
+    ],
+    "functions": [
+        "ElementMarker"
+    ],
+    "classes": []
+}

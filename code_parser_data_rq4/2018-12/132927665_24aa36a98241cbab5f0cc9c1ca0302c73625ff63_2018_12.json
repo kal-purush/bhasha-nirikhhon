@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "_resolverPath",
+        "_moduleName",
+        "_detail",
+        "_resolverPath",
+        "_detail",
+        "IllegalResolverInvocationError",
+        "IllegalResolverInvocationError"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "GraphQL-Modules Error: Illegal Resolver Invocation!\n        - Resolver #${_resolverPath} is invoked unsafely outside of GraphQL-Modules.\n        -- Detail: ${_detail}\n\n      Possible solutions:\n      - You may forget to pass context of the module to your GraphQL Server.\n      -- Check if it is passed like below;\n      ---  const { schema, context } = YourModule;\n      ---  new ApolloServer({ schema, context });'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "resolverPath",
+        "moduleName",
+        "detail"
+    ],
+    "classes": [
+        "IllegalResolverInvocationError"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "describe",
+        "it",
+        "done",
+        "fetchBreedDescription",
+        "err",
+        "desc",
+        "err",
+        "expectedDesc",
+        "desc",
+        "done",
+        "it",
+        "done",
+        "fetchBreedDescription",
+        "err",
+        "desc",
+        "err",
+        "err",
+        "expectedDesc",
+        "done"
+    ],
+    "literals": [
+        "'../breedFetcher'",
+        "'chai'",
+        "'fetchBreedDescription'",
+        "'returns a string description for a valid breed, via callback'",
+        "'Siberian'",
+        "\"The Siberians dog like temperament and affection makes the ideal lap cat and will live quite happily indoors. Very agile and powerful, the Siberian cat can easily leap and reach high places, including the tops of refrigerators and even doors.\"",
+        "'returns null when for an invalid breed, via callback'",
+        "'FakeCat'"
+    ],
+    "variables": [
+        "expectedDesc",
+        "expectedDesc"
+    ],
+    "comments": [
+        "we expect no error for this scenario",
+        "compare returned description"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

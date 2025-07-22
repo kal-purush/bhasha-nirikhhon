@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "AdminDBType",
+        "ObjectId",
+        "jwt",
+        "settings",
+        "user",
+        "token",
+        "token",
+        "jwt",
+        "token",
+        "settings",
+        "ObjectId",
+        "result",
+        "error"
+    ],
+    "literals": [
+        "'../repositories/types'",
+        "'mongodb'",
+        "'jsonwebtoken'",
+        "'../settings'",
+        "\"jwttoken\"",
+        "string"
+    ],
+    "variables": [
+        "jwtUtility",
+        "token",
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @param user\n     * @return Returns JWT-token"
+    ],
+    "functions": [
+        "createJWT",
+        "getUserIdByToken"
+    ],
+    "classes": []
+}

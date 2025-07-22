@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "REST",
+        "Routes",
+        "createEmbed",
+        "DiscordTransportHandler",
+        "token",
+        "channel",
+        "REST",
+        "token",
+        "channel",
+        "info",
+        "meta",
+        "next",
+        "createEmbed",
+        "info",
+        "meta",
+        "Routes",
+        "embed",
+        "err",
+        "err",
+        "next"
+    ],
+    "literals": [
+        "'@discordjs/rest'",
+        "'discord-api-types/v10'",
+        "'../utilities'",
+        "'../types'",
+        "string",
+        "string",
+        "string",
+        "'10'",
+        "'Failed sending to Discord.'"
+    ],
+    "variables": [
+        "embed"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* RESTful Discord API client.",
+        "* Discord channel ID.",
+        "* Prepares a Discord bot-based transport handler.\n     * \n     * @param {string} token \n     * @param {string} channel",
+        "* Logs an event using bots.\n     * \n     * @param {any} info \n     * @param {any} meta \n     * @param {function} next"
+    ],
+    "functions": [
+        "log"
+    ],
+    "classes": [
+        "BotHandler"
+    ]
+}

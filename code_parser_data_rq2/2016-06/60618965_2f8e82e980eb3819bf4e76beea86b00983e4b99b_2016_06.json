@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "actualCompleted",
+        "totalCompleted",
+        "id",
+        "name",
+        "totalCompleted",
+        "AchievementCategories",
+        "category",
+        "id",
+        "id",
+        "name",
+        "name",
+        "totalCompleted",
+        "totalCompleted",
+        "myCategory",
+        "category"
+    ],
+    "literals": [
+        "\"achievements\""
+    ],
+    "variables": [
+        "TABLE_NAME",
+        "id",
+        "name",
+        "description",
+        "actualCompleted",
+        "totalCompleted",
+        "AchievementCategories",
+        "myCategory",
+        "isCompleted"
+    ],
+    "comments": [
+        "Id of achievement in DB",
+        "Name of achievement",
+        "Description of achievement",
+        "Actual elements for this achievement",
+        "Total elements needed for complete this achievement",
+        "public void save()\n    {\n        Service.db.Update(TABLE_NAME, this);\n    }\n\n    public void load()\n    {\n        Service.db.Select(TABLE_NAME, this);\n    }\n\n    public bool create()\n    {\n        return Service.db.Insert(TABLE_NAME, this);\n    }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Achievement"
+    ],
+    "classes": [
+        "Achievement"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [
+        "CODEFILE_XSD"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "-*- coding: UTF-8 -*-"
+    ],
+    "docstrings": [
+        "\"\"\"\n@brief XSD file for MK201 module\n@Author Vasilij\n\"\"\"",
+        "\"\"\"<?xml version=\"1.0\" encoding=\"ISO-8859-1\" ?>\n<xsd:schema xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\"\n            xmlns:xhtml=\"http://www.w3.org/1999/xhtml\">\n  <xsd:element name=\"%(codefile_name)s\">\n    <xsd:complexType>\n      <xsd:sequence>\n        %(includes_section)s\n        <xsd:element name=\"variables\">\n          <xsd:complexType>\n            <xsd:sequence>\n              <xsd:element name=\"variable\" minOccurs=\"0\" maxOccurs=\"unbounded\">\n                <xsd:complexType>\n                  <xsd:attribute name=\"name\" type=\"xsd:string\" use=\"required\"/>\n                  <xsd:attribute name=\"type\" type=\"xsd:string\" use=\"required\"/>\n                  <xsd:attribute name=\"class\" use=\"optional\">\n                    <xsd:simpleType>\n                      <xsd:restriction base=\"xsd:string\">\n                        <xsd:enumeration value=\"input\"/>\n                        <xsd:enumeration value=\"memory\"/>\n                        <xsd:enumeration value=\"output\"/>\n                      </xsd:restriction>\n                    </xsd:simpleType>\n                  </xsd:attribute>\n                  <xsd:attribute name=\"initial\" type=\"xsd:string\" use=\"optional\" default=\"\"/>\n                  <xsd:attribute name=\"desc\" type=\"xsd:string\" use=\"optional\" default=\"\"/>\n                  <xsd:attribute name=\"onchange\" type=\"xsd:string\" use=\"optional\" default=\"\"/>\n                  <xsd:attribute name=\"opts\" type=\"xsd:string\" use=\"optional\" default=\"\"/>\n                  <xsd:attribute name=\"address\" type=\"xsd:string\" use=\"optional\" default=\"\"/>\n                  <xsd:attribute name=\"len\" type=\"xsd:string\" use=\"optional\" default=\"\"/>\n                  <xsd:attribute name=\"devid\" type=\"xsd:string\" use=\"optional\" default=\"\"/>\n                  <xsd:attribute name=\"txtype\" type=\"xsd:string\" use=\"optional\" default=\"\"/>\n                  <xsd:attribute name=\"period\" type=\"xsd:string\" use=\"optional\" default=\"\"/>\n                </xsd:complexType>\n              </xsd:element>\n            </xsd:sequence>\n          </xsd:complexType>\n        </xsd:element>\n        %(sections)s\n      </xsd:sequence>\n    </xsd:complexType>\n  </xsd:element>\n  <xsd:complexType name=\"CodeText\">\n    <xsd:annotation>\n      <xsd:documentation>Formatted text according to parts of XHTML 1.1</xsd:documentation>\n    </xsd:annotation>\n    <xsd:sequence>\n      <xsd:any namespace=\"http://www.w3.org/1999/xhtml\" processContents=\"lax\"/>\n    </xsd:sequence>\n  </xsd:complexType>\n</xsd:schema>\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

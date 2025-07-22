@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "tracked",
+        "isDestroyed",
+        "isDestroying",
+        "waitForPromise",
+        "LifecycleResource",
+        "ArgsWrapper",
+        "previous",
+        "args",
+        "LifecycleResource",
+        "FUNCTION_TO_RUN",
+        "tracked",
+        "FUNCTION_TO_RUN",
+        "result",
+        "result",
+        "recordValue",
+        "value",
+        "isDestroying",
+        "isDestroyed",
+        "value",
+        "waitForPromise",
+        "result",
+        "result",
+        "recordValue",
+        "result"
+    ],
+    "literals": [
+        "'@glimmer/tracking'",
+        "'@ember/destroyable'",
+        "'@ember/test-waiters'",
+        "'./lifecycle'",
+        "'../types'",
+        "'FUNCTION TO RUN'",
+        "'object'",
+        "'then'"
+    ],
+    "variables": [
+        "FUNCTION_TO_RUN",
+        "result",
+        "recordValue"
+    ],
+    "comments": [
+        "type UnwrapAsync<T> = T extends Promise<infer U> ? U : T;",
+        "type GetReturn<T extends () => unknown> = UnwrapAsync<ReturnType<T>>;",
+        "Set when using useResource"
+    ],
+    "docstrings": [
+        "* All positional args are consumed"
+    ],
+    "functions": [
+        "value",
+        "funArgs",
+        "setup",
+        "update"
+    ],
+    "classes": [
+        "FunctionRunner"
+    ]
+}

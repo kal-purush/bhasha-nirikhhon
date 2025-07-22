@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "offset",
+        "threshold",
+        "scale"
+    ],
+    "literals": [
+        "void main(void) {\n        // 输出数据\n        ivec4 oPos = getOutputTensorPos();\n        float o = getValueFromTensorPos_origin(oPos.r, oPos.g, oPos.b, oPos.a);\n        float res = o * min(max(0.0, o + float(${offset})), float(${threshold})) / float(${scale});\n        setOutput(res);\n    }",
+        "'offset'",
+        "'scale'",
+        "'threshold'",
+        "'getValueFromTensorPos'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @file hard_swish"
+    ],
+    "functions": [
+        "mainFunc"
+    ],
+    "classes": []
+}

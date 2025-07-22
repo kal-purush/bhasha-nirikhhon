@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "pymysql",
+        "config",
+        "pymysql",
+        "connect",
+        "config",
+        "devUrl",
+        "config",
+        "devUserName",
+        "config",
+        "devPassward",
+        "config",
+        "database_name",
+        "charset",
+        "db",
+        "cursor",
+        "table_name",
+        "table_name",
+        "cursor",
+        "fetchall",
+        "table_data_list",
+        "sql",
+        "cursor",
+        "execute",
+        "sql",
+        "cursor",
+        "fetchone",
+        "one",
+        "sql",
+        "cursor",
+        "execute",
+        "sql",
+        "cursor",
+        "fetchall",
+        "all",
+        "sql",
+        "sql",
+        "cursor",
+        "execute",
+        "sql",
+        "db",
+        "commit",
+        "db",
+        "rollback"
+    ],
+    "literals": [
+        "\"utf8\"",
+        "\"select * from \"",
+        "\"成功\"",
+        "\"失败\""
+    ],
+    "variables": [
+        "db",
+        "cursor",
+        "sql",
+        "table_data_list",
+        "one",
+        "all"
+    ],
+    "comments": [
+        "查询表整个表",
+        "根据sql语句查询一个",
+        "根据sql查询所有",
+        "",
+        "更新 例如: update_sql = \"update bs_car_series set en_name = '%s' where id = %d\" % (en_name, id)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_table_data",
+        "get_one_by_sql",
+        "get_all_by_sql",
+        "update_db"
+    ],
+    "classes": [
+        "MysqlHepler"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Threading",
+        "Tasks",
+        "ToDoList",
+        "Model",
+        "ToDoList",
+        "Controllers"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860",
+        "[Route(\"api/login\")]",
+        "[ApiController]",
+        "public class AuthenticationController : ControllerBase",
+        "{",
+        "// POST Login with new login details",
+        "[HttpPost]",
+        "public void Post([FromBody] Authentication Auth)",
+        "{",
+        "Auth.Login();",
+        "}",
+        "// DELETE api/<AuthenticationController>/5",
+        "[HttpDelete(\"{AuthenticationKey}\")]",
+        "public void Delete(string AuthenticationKey)",
+        "{",
+        "}",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

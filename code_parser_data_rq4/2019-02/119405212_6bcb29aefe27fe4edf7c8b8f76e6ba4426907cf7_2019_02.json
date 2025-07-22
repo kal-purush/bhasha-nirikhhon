@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "date",
+        "date",
+        "parseInt",
+        "timezone_offset_min",
+        "timezone_offset_min",
+        "timezone_offset_min",
+        "timezone_standard",
+        "timezone_offset_min",
+        "DateUtils",
+        "offset_hrs",
+        "DateUtils",
+        "offset_min",
+        "date",
+        "timezone_standard",
+        "offset",
+        "offset",
+        "offset",
+        "offset"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "'+00'",
+        "'-'",
+        "'+'",
+        "${DateUtils.getOffsetWithZero(offset_hrs)}${DateUtils.getOffsetWithZero(offset_min)}",
+        "'Z'",
+        "string",
+        "0${offset}"
+    ],
+    "variables": [
+        "timezone_offset_min",
+        "offset_hrs",
+        "offset_min",
+        "timezone_standard"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "toCorrectIso8601",
+        "getOffsetWithZero"
+    ],
+    "classes": [
+        "DateUtils"
+    ]
+}

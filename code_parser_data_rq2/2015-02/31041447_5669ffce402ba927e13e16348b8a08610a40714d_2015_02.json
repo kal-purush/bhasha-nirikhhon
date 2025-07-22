@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "thicket",
+        "_",
+        "IPid",
+        "IProcessSpec",
+        "spec",
+        "ProcessManager"
+    ],
+    "literals": [
+        "\"thicket\"",
+        "\"underscore\"",
+        "\"bluebird\"",
+        "\"../concepts/IPid\"",
+        "\"../concepts/IProcessSpec\""
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"../lib.d.ts\" />",
+        "",
+        "var ProcessManager = function() {",
+        "this.initialize.apply(this, arguments);",
+        "};",
+        "",
+        "_.extend(ProcessManager.prototype, {",
+        "initialize: function() {",
+        "",
+        "},",
+        "",
+        "launch: Promise.method(function(spec : IProcessSpec) {",
+        "})",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [
+        "launch"
+    ],
+    "classes": [
+        "ProcessManager"
+    ]
+}

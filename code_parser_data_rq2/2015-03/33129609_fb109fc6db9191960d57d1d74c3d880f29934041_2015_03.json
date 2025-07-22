@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "mobSpeed",
+        "mobX",
+        "mobY",
+        "mobDirection",
+        "imgMonsterARun",
+        "createjs",
+        "imgMonsterARun",
+        "bmpAnimation",
+        "createjs",
+        "spriteSheet",
+        "bmpAnimation",
+        "bmpAnimation",
+        "createjs",
+        "bmpAnimation",
+        "bmpAnimation",
+        "bmpAnimation",
+        "mobSpeed",
+        "bmpAnimation",
+        "mobX",
+        "bmpAnimation",
+        "mobY",
+        "bmpAnimation",
+        "mobDirection",
+        "bmpAnimation",
+        "stage",
+        "bmpAnimation",
+        "stage",
+        "loadMonster",
+        "speed",
+        "y"
+    ],
+    "literals": [
+        "\"assets/images/MonsterARun.png\"",
+        "\"walk\"",
+        "\"walk\"",
+        "\"#454\"",
+        "\"monster1\""
+    ],
+    "variables": [
+        "spriteSheet",
+        "speed",
+        "y"
+    ],
+    "comments": [
+        "imgMonsterARun.onload = handleImageLoad;",
+        "imgMonsterARun.onerror = handleImageError;",
+        "create spritesheet and assign the associated data.",
+        "image to use",
+        "width, height & registration point of each sprite",
+        "create a BitmapAnimation instance to display and play back the sprite sheet:",
+        "start playing the first sequence:",
+        "animate",
+        "set up a shadow. Note that shadows are ridiculously expensive. You could display hundreds",
+        "of animated rats if you disabled the shadow.",
+        "Speed",
+        "X Plane (Starting pos)",
+        "Y Plane (Run on this line)",
+        "Left or Right",
+        "Start at frame one",
+        "Set monster speed",
+        "bmpAnimation.direction = 90;\n        bmpAnimation.vX = 4;\n        bmpAnimation.x = 16;\n        bmpAnimation.y = 32;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "loadMonster",
+        "newMonster"
+    ],
+    "classes": []
+}

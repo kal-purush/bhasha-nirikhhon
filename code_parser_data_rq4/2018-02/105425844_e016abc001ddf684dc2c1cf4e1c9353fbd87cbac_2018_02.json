@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Component",
+        "Component",
+        "code",
+        "code"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "<div ace-editor\n       [(text)]=\"text\" \n       [mode]=\"'json'\" \n       [options]=\"options\"\n       [readOnly]=\"false\"\n       [autoUpdateContent]=\"true\" //change content when [text] change\n       [durationBeforeCallback]=\"1000\" //wait 1s before callback 'textChanged' sends new value\n       (textChanged)=\"onChange($event)\"\n       style=\"min-height: 200px; width:100%; overflow: auto;\"></div>",
+        "string",
+        "\"\"",
+        "\"new code\""
+    ],
+    "variables": [],
+    "comments": [
+        "add \"AceEditorDirective\" to your modules list",
+        "import { AceEditorDirective } from 'ng2-ace-editor';",
+        "to use theme \"eclipse\"",
+        "with angular-cli add \"../node_modules/ace-builds/src-min/ace.js\"",
+        "and \"../node_modules/ace-builds/src-min/theme-eclipse.js\" to \"scripts\" var into the file angular-cli.json"
+    ],
+    "docstrings": [],
+    "functions": [
+        "onChange"
+    ],
+    "classes": [
+        "AceEditor"
+    ]
+}

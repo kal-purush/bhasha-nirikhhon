@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "requests",
+        "test_cases",
+        "requests",
+        "post",
+        "json",
+        "response",
+        "json",
+        "get",
+        "result",
+        "result",
+        "result",
+        "result",
+        "test_firewall_rules"
+    ],
+    "literals": [
+        "'src_ip'",
+        "'192.168.1.1'",
+        "'dst_ip'",
+        "'10.0.0.1'",
+        "'src_port'",
+        "'dst_port'",
+        "'protocol'",
+        "'TCP'",
+        "'payload'",
+        "'test'",
+        "'src_ip'",
+        "'192.168.1.2'",
+        "'dst_ip'",
+        "'10.0.0.1'",
+        "'src_port'",
+        "'dst_port'",
+        "'protocol'",
+        "'TCP'",
+        "'payload'",
+        "'malicious'",
+        "'http://localhost:5000/process_packet'",
+        "'result'",
+        "''",
+        "\"ALLOWED\"",
+        "'payload'",
+        "'malicious'",
+        "f\"Failed Penetration Test: {case} - Expected denial but got: {result}\"",
+        "\"DENIED\"",
+        "'payload'",
+        "'malicious'",
+        "f\"Successful Penetration Test: {case} - Correctly denied\"",
+        "f\"Test Case Result: {case} - {result}\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "test_cases",
+        "response",
+        "result"
+    ],
+    "comments": [
+        "Determine if the penetration is successful or failed based on the result"
+    ],
+    "docstrings": [],
+    "functions": [
+        "test_firewall_rules"
+    ],
+    "classes": []
+}

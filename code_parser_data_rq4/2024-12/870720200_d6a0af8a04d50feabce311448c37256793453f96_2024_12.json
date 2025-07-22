@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "HttpContext",
+        "User",
+        "registerValidator",
+        "loginValidator",
+        "AccessToken",
+        "User",
+        "response",
+        "users",
+        "request",
+        "loginValidator",
+        "User",
+        "email",
+        "password",
+        "User",
+        "user",
+        "response",
+        "token",
+        "user",
+        "request",
+        "registerValidator",
+        "User",
+        "payload",
+        "response",
+        "user",
+        "auth",
+        "auth",
+        "token",
+        "response",
+        "User",
+        "user",
+        "token",
+        "response"
+    ],
+    "literals": [
+        "'@adonisjs/core/http'",
+        "'#models/user'",
+        "'#validators/auth'",
+        "'@adonisjs/auth/access_tokens'",
+        "string",
+        "string",
+        "string",
+        "'identifier'",
+        "'Token not found'",
+        "'Logged out'"
+    ],
+    "variables": [
+        "users",
+        "user",
+        "token",
+        "payload",
+        "user",
+        "user",
+        "token"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Contrôleur d'authentification pour gérer les actions d'utilisateur.",
+        "* Affiche la liste de tous les utilisateurs.\n   * @param {HttpContext} context - Le contexte de la requête HTTP\n   * @returns {Promise<void>} Répond avec la liste des utilisateurs en JSON",
+        "* Gère la connexion de l'utilisateur.\n   * @param {HttpContext} context - Le contexte de la requête HTTP\n   * @returns {Promise<void>} Répond avec le token d'accès et les informations de l'utilisateur",
+        "* Gère l'enregistrement d'un nouvel utilisateur.\n   * @param {HttpContext} context - Le contexte de la requête HTTP\n   * @returns {Promise<void>} Répond avec les informations de l'utilisateur créé",
+        "* Gère la déconnexion de l'utilisateur.\n   * @param {HttpContext} context - Le contexte de la requête HTTP\n   * @returns {Promise<void>} Répond avec un message de confirmation de déconnexion"
+    ],
+    "functions": [
+        "index",
+        "login",
+        "register",
+        "logout"
+    ],
+    "classes": [
+        "AuthController"
+    ]
+}

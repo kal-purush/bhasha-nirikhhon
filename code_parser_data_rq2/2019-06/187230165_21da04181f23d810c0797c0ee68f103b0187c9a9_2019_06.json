@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "Wrapper",
+        "Label",
+        "Input",
+        "Border"
+    ],
+    "literals": [
+        "'styled-components'",
+        "position: relative;\n  margin-bottom: 30px;",
+        "font-size: 16px;\n  padding: 10px 0;\n  display: block;\n  color: #ffffff;\n  background: transparent;\n  width: 100%;\n  border: none;\n  border-bottom: 1px solid #ccc;\n  &:focus {\n    outline: none;\n  }\n\n  &:focus ~ span:before,\n  &:focus ~ span:after {\n    width: 50%;\n  }\n\n  &:focus ~ label,\n  &:valid ~ label {\n    top: -15px;\n    font-size: 14px;\n    color: #ffffff;\n  }",
+        "position: relative;\n  display: block;\n  width: 100%;\n  &::before,\n  &::after {\n    content: '';\n    height: 2px;\n    width: 0;\n    bottom: 0;\n    position: absolute;\n    background: #ffffff;\n    transition: 0.2s ease all;\n  }\n  &::before {\n    left: 50%;\n  }\n  &::after {\n    right: 50%;\n  }",
+        "color: #ffffff;\n  font-size: 18px;\n  position: absolute;\n  pointer-events: none;\n  left: 10px;\n  top: 15px;\n  transition: 0.2s ease all;"
+    ],
+    "variables": [
+        "Wrapper",
+        "Input",
+        "Border",
+        "Label"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

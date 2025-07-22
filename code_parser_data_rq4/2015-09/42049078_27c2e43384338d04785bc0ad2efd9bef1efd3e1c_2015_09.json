@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "http",
+        "http",
+        "request",
+        "response",
+        "response",
+        "response",
+        "server"
+    ],
+    "literals": [
+        "\"http\"",
+        "\"Content-Type\"",
+        "\"text/plain\"",
+        "'[{ \"id\": 1, \"name\": \"alessandro\", \"surname\": \"giorgetti\"}, { \"id\": 2, \"name\": \"mario\", \"surname\": \"rossi\" }]'",
+        "\"Server running at hhtp://127.0.0.1:8010/\""
+    ],
+    "variables": [
+        "server"
+    ],
+    "comments": [
+        "<reference path=\"../../typings/tsd.d.ts\" />",
+        "Configure our HTTP server to respond with Hello World to all requests."
+    ],
+    "docstrings": [],
+    "functions": [
+        "StartHttpServer"
+    ],
+    "classes": []
+}

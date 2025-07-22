@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "unittest",
+        "os",
+        "importlib",
+        "util",
+        "unittest",
+        "TestCase",
+        "importlib",
+        "util",
+        "find_spec",
+        "assertTrue",
+        "torch_installed",
+        "importlib",
+        "util",
+        "find_spec",
+        "assertTrue",
+        "transformers_installed",
+        "unittest",
+        "main"
+    ],
+    "literals": [
+        "\"torch\"",
+        "\"torch library is not installed\"",
+        "\"transformers\"",
+        "\"transformers library is not installed\"",
+        "'__main__'"
+    ],
+    "variables": [
+        "torch_installed",
+        "transformers_installed"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\" Test if torch library is installed \"\"\"",
+        "\"\"\" Test if transformers library is installed \"\"\""
+    ],
+    "functions": [
+        "test_library_torch_installed",
+        "test_library_transformers_installed"
+    ],
+    "classes": [
+        "TestLLMBench"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Pipe",
+        "Pipe",
+        "value",
+        "args",
+        "args",
+        "args",
+        "f",
+        "value"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'date'",
+        "'h:m'"
+    ],
+    "variables": [
+        "f"
+    ],
+    "comments": [
+        "Pipe to convert a string to a date object",
+        "let s = value.split(':');",
+        "let h = parseInt(s[0], 10);",
+        "return (h > 12 ? h - 12) + ':' + s[1] + ' ' + (h > 12 ? 'p' : 'a') + 'm';"
+    ],
+    "docstrings": [
+        "* This is a custom pipe which converts a string into a Date object\n* in order to use Angular's pipe to format a date.\n*\n* Angular2 DatePipes are currently only working on Chrome and Opera\n* so until this is fixed we are using a custom date-format Component\n* in order to style our dates.\n*\n* https://github.com/angular/angular/issues/3917\n*\n*"
+    ],
+    "functions": [
+        "transform"
+    ],
+    "classes": [
+        "DatePipe"
+    ]
+}

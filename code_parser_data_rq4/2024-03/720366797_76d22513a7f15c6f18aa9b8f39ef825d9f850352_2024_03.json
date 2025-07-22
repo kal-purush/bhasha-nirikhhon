@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "pipeline",
+        "pipeline",
+        "vectorA",
+        "vectorB",
+        "i",
+        "vectorA",
+        "i",
+        "prod",
+        "vectorA",
+        "i",
+        "vectorB",
+        "i",
+        "prod",
+        "vector",
+        "dotProduct",
+        "vector",
+        "vector",
+        "vectorA",
+        "vectorB",
+        "dotProduct",
+        "vectorA",
+        "vectorB",
+        "magnitude",
+        "vectorA",
+        "magnitude",
+        "vectorB",
+        "dotProd",
+        "magnitudeProd",
+        "extractor",
+        "cosineSimilarity",
+        "embed"
+    ],
+    "literals": [
+        "\"https://cdn.jsdelivr.net/npm/@xenova/transformers@2.15.1/dist/transformers.min.js\"",
+        "\"feature-extraction\"",
+        "\"Xenova/all-mpnet-base-v2\"",
+        "\"mean\""
+    ],
+    "variables": [
+        "extractor",
+        "prod",
+        "i",
+        "dotProd",
+        "magnitudeProd"
+    ],
+    "comments": [
+        "this is gross but necessary if we're mixing module and non-module scripts",
+        "(i.e., exporting functions from this module for use by non-modules)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "dotProduct",
+        "magnitude",
+        "cosineSimilarity",
+        "embed"
+    ],
+    "classes": []
+}

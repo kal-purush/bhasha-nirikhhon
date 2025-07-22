@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "val",
+        "val",
+        "val",
+        "val",
+        "val",
+        "val",
+        "isObject",
+        "val",
+        "isNumber",
+        "val",
+        "val",
+        "val",
+        "val",
+        "val",
+        "val",
+        "val",
+        "val",
+        "val",
+        "val",
+        "val",
+        "errType",
+        "message",
+        "val",
+        "errType",
+        "message"
+    ],
+    "literals": [
+        "'object'",
+        "'function'",
+        "string",
+        "'string'",
+        "'number'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2016 Stephane M. Catala\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *  http://www.apache.org/licenses/LICENSE-2.0\n * Unless required by applicable law or agreed to in writing,\n * software distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * Limitations under the License.",
+        "* @public\n * @function isObject\n * @param {any} val\n * @return {val is Object} true if val is a _non-null_ {Object}",
+        "* @public\n * @function isArrayLike\n * @param {any} val\n * @return {val is Object} true if `val` is an {Object}\n * with a {number} length property",
+        "* @public\n * @param {any} val\n * @return {val is Function}",
+        "* @public\n * @param {any} val\n * @return {val is string}",
+        "* @public\n * @param {any} val\n * @return {val is number}",
+        "* @public\n * @function assert\n * @param {boolean} val\n * @param {typeof Error} errType\n * @param {string} message\n * @throw {Error} of type `errType` with the given `message` when val is false"
+    ],
+    "functions": [
+        "isObject",
+        "isArrayLike",
+        "isFunction",
+        "isString",
+        "isNumber"
+    ],
+    "classes": []
+}

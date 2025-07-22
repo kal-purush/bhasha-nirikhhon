@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "OrganisationArchive",
+        "DAL",
+        "Models",
+        "Collections",
+        "Generic",
+        "ComponentModel",
+        "DataAnnotations",
+        "Text",
+        "OrganisationArchive",
+        "DAL",
+        "CustomValidations",
+        "AttributeUsage",
+        "AttributeTargets",
+        "Property",
+        "ValidationAttribute",
+        "value",
+        "ValidationContext",
+        "validationContext",
+        "validationContext",
+        "ObjectInstance",
+        "Person",
+        "member",
+        "member",
+        "DateOfBirth",
+        "Now",
+        "ValidationResult",
+        "ValidationResult",
+        "Success"
+    ],
+    "literals": [
+        "\"Date of Birth must not be greater than current date\""
+    ],
+    "variables": [
+        "member"
+    ],
+    "comments": [
+        "public bool ValidateStartDate { get; set; }",
+        "public bool ValidateEndDate { get; set; }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ValidationResult",
+        "IsValid"
+    ],
+    "classes": [
+        "CorrectDate"
+    ]
+}

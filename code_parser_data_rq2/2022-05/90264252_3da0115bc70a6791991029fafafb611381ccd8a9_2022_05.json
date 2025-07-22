@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Injectable",
+        "CustomNGXLoggerService",
+        "NGXLogger",
+        "NgxLoggerLevel",
+        "Injectable",
+        "customNgxLoggerService",
+        "customNgxLoggerService",
+        "modifiedConfig",
+        "NgxLoggerLevel",
+        "modifiedConfig"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../../../../../src/public_api'",
+        "'root'",
+        "'I do business'"
+    ],
+    "variables": [
+        "modifiedConfig"
+    ],
+    "comments": [
+        "Even if the appmodule has set ERROR level, this should be printed because we are using local instance of logger",
+        "And for that local instance the level is set to TRACE",
+        "Do stuff"
+    ],
+    "docstrings": [],
+    "functions": [
+        "doBusiness"
+    ],
+    "classes": [
+        "BusinessService"
+    ]
+}

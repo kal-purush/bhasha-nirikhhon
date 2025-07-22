@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "OnInit",
+        "Component",
+        "Input",
+        "Input",
+        "textStr",
+        "textStr",
+        "textStr",
+        "textStr"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"read-more-description\"",
+        "<span>\n      {{ currentText }}\n      <p-button\n        *ngIf=\"!hideToggle\"\n        severity=\"secondary\"\n        [rounded]=\"true\"\n        (click)=\"toggleView()\"\n        [icon]=\"isCollapsed ? 'pi pi-angle-right' : 'pi pi-angle-left'\"\n        label=\"Read {{ isCollapsed ? 'more' : 'less' }}\"\n        styleClass=\"small-button\"\n      ></p-button>\n    </span>",
+        ":host ::ng-deep .small-button {\n        position: relative;\n        top: -1px;\n        font-size: 0.8em;\n        height: 1.5em;\n        padding: 5px 5px;\n        line-height: 1em;\n      }",
+        "string",
+        "string",
+        "\"...\""
+    ],
+    "variables": [
+        "textStr"
+    ],
+    "comments": [
+        "Ensure text is treated as a string"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "toggleView",
+        "determineView"
+    ],
+    "classes": [
+        "ReadMoreDescriptionComponent"
+    ]
+}

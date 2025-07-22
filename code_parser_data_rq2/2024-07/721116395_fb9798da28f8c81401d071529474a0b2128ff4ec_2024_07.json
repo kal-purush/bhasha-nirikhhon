@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "TaskExecutor",
+        "pinoPrettyLogger",
+        "fileURLToPath",
+        "fileURLToPath",
+        "URL",
+        "main",
+        "TaskExecutor",
+        "pinoPrettyLogger",
+        "DIR_NAME",
+        "executor",
+        "exe",
+        "exe",
+        "error",
+        "error",
+        "executor"
+    ],
+    "literals": [
+        "\"@golem-sdk/task-executor\"",
+        "\"@golem-sdk/pino-logger\"",
+        "\"url\"",
+        "\".\"",
+        "\"info\"",
+        "file://${DIR_NAME}/alpine.gvmi",
+        "\"linear\"",
+        "\"echo 'Hello World'\"",
+        "\"Computation failed:\""
+    ],
+    "variables": [
+        "DIR_NAME",
+        "executor"
+    ],
+    "comments": [
+        "if the image url starts with \"file://\" it will be treated as a local file",
+        "and the sdk will automatically serve it to the provider"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

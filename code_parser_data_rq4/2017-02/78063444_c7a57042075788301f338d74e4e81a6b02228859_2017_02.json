@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "DataType",
+        "k"
+    ],
+    "literals": [
+        "'./is.func'",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* A descriptive model of what an object is expected to be.\n *\n * @export\n * @interface isTypeSchema",
+        "* The entirety of the options available to use with `is`\n *\n * @export\n * @interface isOptions\n * @extends {isOptionsNumber}\n * @extends {isOptionsString}\n * @extends {isOptionsArray}\n * @extends {isOptionsObject}",
+        "* The options available to use on a number type use case with `is`\n *\n * @export\n * @interface isOptionsNumber\n * @extends {isOptionsMinMax}",
+        "* The options available to use on a string type use case with `is`\n *\n * @export\n * @interface isOptionsString",
+        "* The options available to use on an Array type use case with `is`\n *\n * @export\n * @interface isOptionsArray\n * @extends {isOptionsMinMax}\n * @extends {isOptionsSchema}",
+        "* The options available to use on an Object type use case with `is`\n *\n * @export\n * @interface isOptionsObject\n * @extends {isOptionsSchema}",
+        "* A shared interface for those option sets that use the `schema` options\n *\n * @export\n * @interface isOptionsSchema",
+        "* A shared interface for those option sets that use the `min` and `max` options\n *\n * @export\n * @interface isOptionsMinMax"
+    ],
+    "functions": [],
+    "classes": []
+}

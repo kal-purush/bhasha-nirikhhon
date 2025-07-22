@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Context",
+        "start",
+        "start",
+        "process",
+        "process",
+        "start",
+        "end",
+        "end",
+        "ctx",
+        "next",
+        "clock",
+        "startTime",
+        "startTimeString",
+        "ctx",
+        "ctx",
+        "ctx",
+        "ctx",
+        "ctx",
+        "ctx",
+        "next",
+        "startTimeString",
+        "clock",
+        "startTime",
+        "result"
+    ],
+    "literals": [
+        "'koa'",
+        "''",
+        "request ${startTimeString}",
+        "'url href is'",
+        "'ctx request is'",
+        "'ctx request headers are'",
+        "'GET'",
+        "'ctx request query is'",
+        "'ctx request body is'",
+        "Request ${startTimeString} finished in ${clock(startTime)} ms"
+    ],
+    "variables": [
+        "end",
+        "startTime",
+        "startTimeString",
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "clock",
+        "logMiddleware"
+    ],
+    "classes": []
+}

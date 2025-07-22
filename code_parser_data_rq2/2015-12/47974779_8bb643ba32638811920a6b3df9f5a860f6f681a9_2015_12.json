@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "alert",
+        "$",
+        "cleanText",
+        "searchName",
+        "searchNameFmt",
+        "$",
+        "searchNameFmt",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$"
+    ],
+    "literals": [
+        "'ccccc'",
+        "\"#account\"",
+        "\"#account\"",
+        "\"#loginForm\"",
+        "\"action\"",
+        "'./login'",
+        "\"#loginForm\"",
+        "\"#account\"",
+        "\"value\"",
+        "''",
+        "\"#password\"",
+        "\"value\"",
+        "''",
+        "\"#loginForm\"",
+        "\"action\"",
+        "''"
+    ],
+    "variables": [
+        "searchName",
+        "searchNameFmt"
+    ],
+    "comments": [
+        "清空",
+        "function searchComic() {\n\tvar searchName = $(\"#searchName\").val();\n\tvar searchNameFmt = cleanText(searchName);\n\tif (searchNameFmt != null) {\n\t\t$(\"#searchName\").val(searchNameFmt);\n\t}\n\n\t$(\"#searchForm\").attr(\"action\", './list_comics.html');\n\t$(\"#searchForm\").submit();\n\n\t// 清空\n\t$(\"#searchName\").attr(\"value\", '');\n\t$(\"#searchForm\").attr(\"action\", '');\n}\n\nfunction onSearch(keyword) {\n\tif (keyword == null || keyword == '' || keyword == undefined) {\n\t\treturn;\n\t}\n\n\t$(\"#searchName\").attr(\"value\", keyword);\n\tsearchVideo();\n}\n\n// 头动画\nfunction showHeadGif() {\n\tvar gifImgs = [];\n\tgifImgs[0] = \"./img/gif/as_1.gif\";\n\tgifImgs[1] = \"./img/gif/as_2.gif\";\n\tgifImgs[2] = \"./img/gif/as_3.gif\";\n\tgifImgs[3] = \"./img/gif/flk_1.gif\";\n\tgifImgs[4] = \"./img/gif/j3_1.gif\";\n\tvar randomBgIndex = Math.round(Math.random() * 4);\n\tvar img = document.getElementById('onepieceGif');\n\timg.setAttribute(\"src\", gifImgs[randomBgIndex]);\n}\nwindow.setInterval(function() {\n\tshowHeadGif()\n}, 10000);",
+        "Scroll page to the bottom",
+        "$(document).ready(function() {",
+        "$('html, body').animate({",
+        "scrollTop : $(document).height()",
+        "}, 'slow');",
+        "});",
+        "////////////////////////////"
+    ],
+    "docstrings": [],
+    "functions": [
+        "login"
+    ],
+    "classes": []
+}

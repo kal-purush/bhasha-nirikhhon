@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "random",
+        "Diner",
+        "Diner",
+        "bs4",
+        "BeautifulSoup",
+        "urllib",
+        "request",
+        "ssl",
+        "staticmethod",
+        "random",
+        "randint",
+        "Diner",
+        "RestaurantHelper",
+        "generateRandName",
+        "staticmethod",
+        "ssl",
+        "_create_unverified_context",
+        "urllib",
+        "request",
+        "urlopen",
+        "RestaurantHelper",
+        "URL",
+        "context",
+        "context",
+        "BeautifulSoup",
+        "page",
+        "read",
+        "soup",
+        "find",
+        "class_",
+        "orderedListName",
+        "find",
+        "text",
+        "split"
+    ],
+    "literals": [
+        "\"http://random-name-generator.info/\"",
+        "\"html.parser\"",
+        "\"nameList\"",
+        "\"li\""
+    ],
+    "variables": [
+        "URL",
+        "context",
+        "page",
+        "soup",
+        "orderedListName"
+    ],
+    "comments": [
+        "Input: -",
+        "Return value: a new Diner object with a random name",
+        "OR",
+        "None (aka no new diner has arrived)",
+        "UNCOMMENT THIS IF DOING EC OPTION 2",
+        "also comment out the above definition of the method",
+        "@staticmethod",
+        "def randomDinerGenerator():",
+        "if random.randint(1, 10) % 3 == 0:",
+        "return Diner(RestaurantHelper.generateRandName(), random.randrange(3))",
+        "else:",
+        "return None",
+        "Input: -",
+        "Return: random name",
+        "DO NOT make any method calls to generateRandName"
+    ],
+    "docstrings": [
+        "\"\"\"\nThis helper class is intended to be used to randomly generate new diners for a restaurant Simulation\n    - randomDinerGenerator() will randomly generate either a diner or return None\n    - generateRandomName() will randomly generate a name (str) that is used for the random diner\n\n* Note: if you have not installed the BeautifulSoup4 module in Pycharm, these methods cannot be used\n    To install beautifulsoup4: go to Preferences (Mac) or Settings (PC), and under Project Interpreter,\n    add and install beautifulsoup4\n\"\"\""
+    ],
+    "functions": [
+        "randomDinerGenerator",
+        "generateRandName"
+    ],
+    "classes": [
+        "RestaurantHelper"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "express",
+        "require",
+        "chokidar",
+        "Watcher",
+        "filepath",
+        "hasFileChanged",
+        "app",
+        "req",
+        "res",
+        "next",
+        "res",
+        "app",
+        "req",
+        "res",
+        "next",
+        "hasFileChanged",
+        "res",
+        "res",
+        "app"
+    ],
+    "literals": [
+        "'chokidar'",
+        "'express'",
+        "'log-timestamp'",
+        "'data.txt'",
+        "'change'",
+        "'/'",
+        "\"Welcome to the file watching API\"",
+        "'/changed'",
+        "\"File has been changed\"",
+        "\"File has not been changed\"",
+        "Server running on port 8080"
+    ],
+    "variables": [
+        "chokidar",
+        "express",
+        "app",
+        "Watcher",
+        "log",
+        "hasFileChanged"
+    ],
+    "comments": [
+        "At this point the file has changed"
+    ],
+    "docstrings": [
+        "* This file is only a proof of concept on an idea on how to make it work. \n * The file will probably change a lot.\n * \n * What do I want to improve on this: \n *      * Templating on responses\n *      * Socket.io for live view\n *      * Maybe even add a master/node(s) architecture on this",
+        "* We need access to the filesystem, md5 hashing library and express framework",
+        "* We want date and time in our console window",
+        "* Let us start the server and listen on the port provided by the configuration file"
+    ],
+    "functions": [],
+    "classes": []
+}

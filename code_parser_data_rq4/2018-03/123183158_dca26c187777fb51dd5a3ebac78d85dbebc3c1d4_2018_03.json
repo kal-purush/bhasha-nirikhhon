@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "angr",
+        "claripy",
+        "angr",
+        "Project",
+        "claripy",
+        "BVS",
+        "arg1",
+        "project",
+        "factory",
+        "entry_state",
+        "args",
+        "args",
+        "project",
+        "factory",
+        "simgr",
+        "state",
+        "pg",
+        "explore",
+        "find",
+        "avoid",
+        "format",
+        "pg",
+        "found",
+        "state",
+        "se",
+        "eval",
+        "arg1",
+        "cast_to"
+    ],
+    "literals": [
+        "\"./neophyte\"",
+        "'arg1'",
+        "\"./neophyte\"",
+        "\"Flag: {0}\""
+    ],
+    "variables": [
+        "project",
+        "arg1",
+        "args",
+        "state",
+        "pg"
+    ],
+    "comments": [
+        "Open up an angr project on this file",
+        "Using claripy to generate a symbolic buffer.",
+        "We know this needs to be 41 bytes in length (our input)",
+        "Create the argv array which is just the binary name and our arg",
+        "Explore. Find the puts(\"yes\") location. Avoid the locations where we know we",
+        "have failed (such as setting the success variable to False)",
+        "Print out our winning flag."
+    ],
+    "docstrings": [
+        "'''\n Initializes an entry state starting at the address of the program entry point\n We simply pass it the same kind of argument vector that would be passed to the\n program, in execv() for example.\n'''",
+        "'''\n Create a new SimulationManager from the entry state\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "Component",
+        "EventEmitter"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'my-confirm'",
+        "<h1>You submitted the following details. Is this correct?</h1>\n        <p>Your name is <span class=\"highlight\">{{myself.name}}</span> and you're <span class=\"highlight\">{{myself.age}}</span> years old. Please click on 'Confirm' if you have made any changes to this information.</p>\n        <div>\n            <label for=\"name\">Your Name</label>\n            <input type=\"text\" id=\"name\" [(ngModel)]=\"myself.name\" (keyup)=\"onKeyup()\">\n        </div>\n        <div>\n            <label for=\"age\">Your Age</label>\n            <input type=\"text\" id=\"age\" [(ngModel)]=\"myself.age\" (keyup)=\"onKeyup()\">\n        </div>\n        <br>\n        <div>Filled out: {{isFilled ? 'Yes' : 'No'}}</div>\n        <div>Valid: {{isValid ? 'Yes' : 'No'}}</div>\n        <br>\n        <button [disabled]=\"!isValid\" (click)=\"onConfirm()\">Submit</button>",
+        "'myself'",
+        "'confirmed'",
+        "''",
+        "''",
+        "string",
+        "string",
+        "''",
+        "''",
+        "''"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "onKeyup",
+        "onConfirm"
+    ],
+    "classes": [
+        "ConfirmComponent"
+    ]
+}

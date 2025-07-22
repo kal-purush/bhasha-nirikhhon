@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Timestamp",
+        "FormBuilder",
+        "FormGroup",
+        "Validators",
+        "AngularFirestore",
+        "Component",
+        "OnInit",
+        "Engagement",
+        "ENGAGEMENT",
+        "Component",
+        "Validators",
+        "Validators",
+        "firestore",
+        "formBuilder",
+        "ENGAGEMENT",
+        "dates",
+        "dates",
+        "x",
+        "x",
+        "x",
+        "x",
+        "groupedArray"
+    ],
+    "literals": [
+        "'@firebase/firestore-types'",
+        "'@angular/forms'",
+        "'@angular/fire/firestore'",
+        "'@angular/core'",
+        "'../engagement/engagement-dto'",
+        "'../common/collection-names'",
+        "'app-report-date-range-query'",
+        "<form [formGroup]=\"form\" (ngSubmit)=\"getData()\">\n      <mat-form-field class=\"w-full\">\n        <mat-label>From Date</mat-label>\n        <input matInput [matDatepicker]=\"fromDate\" formControlName=\"fromDate\" />\n        <mat-datepicker-toggle\n          matSuffix\n          [for]=\"fromDate\"\n        ></mat-datepicker-toggle>\n        <mat-datepicker #fromDate></mat-datepicker>\n      </mat-form-field>\n\n      <mat-form-field class=\"w-full\">\n        <mat-label>To Date</mat-label>\n        <input matInput [matDatepicker]=\"toDate\" formControlName=\"toDate\" />\n        <mat-datepicker-toggle matSuffix [for]=\"toDate\"></mat-datepicker-toggle>\n        <mat-datepicker #toDate></mat-datepicker>\n      </mat-form-field>\n\n      <div class=\"flex justify-end\">\n        <button mat-raised-button color=\"primary\">Generate</button>\n      </div>\n    </form>",
+        "''",
+        "''",
+        "'engagementDate'",
+        "'>'",
+        "'engagementDate'",
+        "'<'",
+        "'id'"
+    ],
+    "variables": [
+        "dates",
+        "groupedArray"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "getData"
+    ],
+    "classes": [
+        "ReportDateRangeQueryComponent"
+    ]
+}

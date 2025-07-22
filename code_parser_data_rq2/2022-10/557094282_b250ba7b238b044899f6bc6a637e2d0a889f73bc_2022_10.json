@@ -1,0 +1,24 @@
+{
+    "identifiers": [],
+    "literals": [
+        "'ts-jest'",
+        "'node'",
+        "'.ts'",
+        "'^(\\\\.{1,2}/.*)\\\\.js$'",
+        "'$1'",
+        "'^.+\\\\.tsx?$'",
+        "'ts-jest'",
+        "\"src\""
+    ],
+    "variables": [],
+    "comments": [
+        "@type {import('ts-jest').JestConfigWithTsJest}",
+        "CR-someday: from https://kulshekhar.github.io/ts-jest/docs/guides/esm-support/",
+        "Replace this with a jest preset at some point",
+        "'^.+\\\\.[tj]sx?$' to process js/ts with `ts-jest`",
+        "'^.+\\\\.m?[tj]sx?$' to process js/ts/mjs/mts with `ts-jest`"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

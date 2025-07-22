@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Diagnostics",
+        "Text",
+        "Xunit",
+        "Ben",
+        "Demystifier",
+        "Test",
+        "Theory",
+        "InlineData",
+        "InlineData",
+        "InlineData",
+        "original",
+        "expected",
+        "EnhancedStackTrace",
+        "TryGetFullPath",
+        "original",
+        "Assert",
+        "Equal",
+        "expected",
+        "NormalizePath",
+        "converted",
+        "path",
+        "path",
+        "Replace"
+    ],
+    "literals": [
+        "\"\\\\\"",
+        "\"/\""
+    ],
+    "variables": [
+        "converted"
+    ],
+    "comments": [
+        "To be deterministic, the C# compiler can take a /pathmap command line option.",
+        "This option force the compiler to emit the same bits even when their built from the",
+        "differrent locations.",
+        "The binaries built with the pathmap usually don't have an absolute path,",
+        "but have some prefix like \\.\\.",
+        "This test case makes sure that EhancedStackTrace can deal with such kind of paths.",
+        "Used in tests to avoid platform-specific issues."
+    ],
+    "docstrings": [],
+    "functions": [
+        "RelativePathIsConvertedToAnAbsolutePath",
+        "NormalizePath"
+    ],
+    "classes": [
+        "EnhancedStackTraceTests"
+    ]
+}

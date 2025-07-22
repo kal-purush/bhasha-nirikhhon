@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "key",
+        "localStorage",
+        "key",
+        "key",
+        "value",
+        "key",
+        "LocalStorageEmptyKeyError",
+        "localStorage",
+        "key",
+        "value",
+        "key",
+        "key",
+        "LocalStorageEmptyKeyError",
+        "localStorage",
+        "key",
+        "nullableString",
+        "nullableString"
+    ],
+    "literals": [
+        "'Chave vazia ao tentar salvar ou buscar dado no LocalStorage'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "''"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @description Define uma base para gravar e ler dados do LocalStorage\n * Atenção: Quando o objeto não for uma string é necessário utilizar JSON.stringify\n * para codificação e JSON.parse para realizar a leitura.\n *"
+    ],
+    "functions": [],
+    "classes": [
+        "LocalStorageEmptyKeyError",
+        "BaseLocalStorage"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "spacy",
+        "spacy",
+        "load",
+        "text",
+        "text",
+        "endswith",
+        "nlp",
+        "text",
+        "token",
+        "doc",
+        "token",
+        "tag_",
+        "WH_TAGS"
+    ],
+    "literals": [
+        "'en_core_web_sm'",
+        "'WDT'",
+        "'WP'",
+        "'WP$'",
+        "'WRB'",
+        "'?'"
+    ],
+    "variables": [
+        "nlp",
+        "WH_TAGS",
+        "doc"
+    ],
+    "comments": [
+        "",
+        "Copyright (C) 2020 IBM. All Rights Reserved.",
+        "",
+        "See LICENSE.txt file in the root directory",
+        "of this source tree for licensing information.",
+        "",
+        "WH word tags. These signify the presence of an interrogative word"
+    ],
+    "docstrings": [
+        "\"\"\"\n        A function to check if text is phrased as a question.\n\n        Algorithm:\n            1. Test if the text ends with \"?\". If yes, then it's a question.\n            2. Test if the text contains any \"WH\" word tags (indicative of WH type of question)\n\n        Args:\n            text (str): a text to be tested\n\n        Returns:\n            (bool): True if the text is a question.\n        \"\"\""
+    ],
+    "functions": [
+        "is_question"
+    ],
+    "classes": [
+        "QuestionDetection"
+    ]
+}

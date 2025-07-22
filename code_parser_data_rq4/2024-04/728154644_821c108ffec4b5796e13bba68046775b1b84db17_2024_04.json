@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "TeacherType",
+        "StudentType",
+        "gql",
+        "graphQLClient",
+        "getConversationByParticipants",
+        "participants",
+        "graphQLClient",
+        "getConversationQuery",
+        "participants",
+        "response",
+        "error",
+        "error",
+        "SendMessageApi",
+        "variables",
+        "graphQLClient",
+        "createMessageMutation",
+        "variables",
+        "response",
+        "response",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "\"./teacher\"",
+        "\"./student\"",
+        "\"graphql-tag\"",
+        "\"@/config/gqlConfig\"",
+        "query GetConversation($receiverId: String!, $senderId: String!) {\n    getConversation(receiverId: $receiverId, senderId: $senderId) {\n      id\n      participants {\n        firstName\n        id\n        lastName\n      }\n      messages {\n        message\n        id\n        senderId\n        receiverId\n      }\n    }\n  }",
+        "mutation CreateMessage($senderId: String!, $receiverId: String!, $message: String!) {\n    createMessage(senderId: $senderId, receiverId: $receiverId, message: $message) {\n      success\n      message\n      data\n    }\n  }",
+        "\"661baf229d2e0fa0b53f3099\"",
+        "\"661bae479d2e0fa0b53f3094\"",
+        "\"How are you?\"",
+        "An error occurred while fetching all course. Due to this error:${error}",
+        "\"================:\"",
+        "\"\""
+    ],
+    "variables": [
+        "getConversationQuery",
+        "createMessageMutation",
+        "variables",
+        "getConversationByParticipants",
+        "response",
+        "SendMessageApi",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

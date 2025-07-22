@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "limo",
+        "transform",
+        "parent",
+        "GetComponent",
+        "Limousine",
+        "Collider2D",
+        "collision",
+        "collision",
+        "gameObject",
+        "GetComponent",
+        "ChickenHealth",
+        "chickenHealth",
+        "collision",
+        "transform",
+        "parent",
+        "chickenHealth",
+        "collision",
+        "transform",
+        "parent",
+        "GetComponent",
+        "ChickenHealth",
+        "chickenHealth",
+        "chickenHealth",
+        "FlashChicken",
+        "limo",
+        "flashDuration"
+    ],
+    "literals": [],
+    "variables": [
+        "Limousine",
+        "limo",
+        "ChickenHealth",
+        "chickenHealth"
+    ],
+    "comments": [
+        "Check if Hit Chicken",
+        "if (gameObject.transform.position.x - collision.transform.position.x > 1)",
+        "{",
+        "chickenHealth.FlashChicken(flashDuration);",
+        "}",
+        "else",
+        "{",
+        "HandleChickenCollision(chickenHealth);",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "OnTriggerEnter2D"
+    ],
+    "classes": [
+        "LimoFlash"
+    ]
+}

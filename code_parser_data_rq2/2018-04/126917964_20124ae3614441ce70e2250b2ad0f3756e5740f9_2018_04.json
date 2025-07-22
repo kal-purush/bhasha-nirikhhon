@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "name",
+        "name",
+        "html",
+        "form_sponsors",
+        "captcha",
+        "name",
+        "html",
+        "form_charla",
+        "captcha",
+        "name",
+        "html",
+        "form_donaciones",
+        "$",
+        "$",
+        "html",
+        "captcha",
+        "captchaContainer",
+        "grecaptcha",
+        "response",
+        "response",
+        "loadCaptcha",
+        "$",
+        "$"
+    ],
+    "literals": [
+        "<h3>Quiero que den una charla en mi ciudad</h3>\n<div class=\"form_argent\" >\n\t<div class=\"forms-builder-wrapper\" >\n\t\t<form class=\"description\" action=\"https://my.sendinblue.com/users/subscribeembed/js_id/2tksq/id/2\" method=\"POST\">\n\t\t\t<input type=\"hidden\" name=\"js_id\" id=\"js_id\" value=\"2tksq\"><input type=\"hidden\" name=\"listid\" id=\"listid\" value=\"12\"><input type=\"hidden\" name=\"from_url\" id=\"from_url\" value=\"yes\"><input type=\"hidden\" name=\"hdn_email_txt\" id=\"hdn_email_txt\" value=\"\"> <input type=\"hidden\" name=\"sib_simple\" value=\"simple\"> <input type=\"hidden\" name=\"sib_forward_url\" value=\"http://atomiclab.org/argentinaron\" id=\"sib_forward_url\">\n\t\t\t<div class=\"sib-container rounded\" >\n\t\t\t\t<input type=\"hidden\" name=\"req_hid\" id=\"req_hid\" value=\"~NOMBRE~SURNAME\" >\n\t\t\t\t<div class=\"view-messages\" > </div>\n\t\t\t\t<!-- an email as primary -->\n\t\t\t\t<div class=\"primary-group email-group forms-builder-group ui-sortable\" >\n\t\t\t\t\t<div class=\"row\" >\n\t\t\t\t\t\t<div class=\"lbl-tinyltr\" >\n\t\t\t\t\t\t\tNombre\n\t\t\t\t\t\t\t<red ></red>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<input required type=\"text\" name=\"NOMBRE\" id=\"NOMBRE\" value=\"\" >\n\t\t\t\t\t\t<div class=\"clear\" ></div>\n\t\t\t\t\t\t<div class=\"hidden-btns\"> <a class=\"btn move\" href=\"#\"><i class=\"fa fa-arrows\"></i></a><br> <a class=\"btn btn-danger delete\" href=\"#\"><i class=\"fa fa-trash-o fa-inverse\"></i></a> </div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"row\" >\n\t\t\t\t\t\t<div class=\"lbl-tinyltr\" >Apellido<span ></span></div>\n\t\t\t\t\t\t<input type=\"text\" name=\"SURNAME\" id=\"SURNAME\" value=\"\" >\n\t\t\t\t\t\t<div class=\"clear\" ></div>\n\t\t\t\t\t\t<div class=\"hidden-btns\"> <a class=\"btn move\" href=\"#\"><i class=\"fa fa-arrows\"></i></a><br> <a class=\"btn btn-danger delete\" href=\"#\"><i class=\"fa fa-trash-o fa-inverse\"></i></a> </div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"row mandatory-email\" >\n\t\t\t\t\t\t<div class=\"lbl-tinyltr\" >Correo electrónico</div>\n\t\t\t\t\t\t<input type=\"email\" name=\"email\" id=\"email\" value=\"\" >\n\t\t\t\t\t\t<div ></div>\n\t\t\t\t\t\t<div class=\"hidden-btns\">\n\t\t\t\t\t\t\t<a class=\"btn move\" href=\"#\"><i class=\"fa fa-arrows\"></i></a><br> <!--<a class=\"btn btn-danger delete\" href=\"#\"><i class=\"fa fa-trash-o fa-inverse\"></i></a>-->\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"captcha forms-builder-group\" >\n\t\t\t\t\t<div class=\"row\">\n\t\t\t\t\t\t<div id=\"gcaptcha\" ></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<!-- end of primary -->\n\t\t\t\t<div id=\"recaptcha\"></div>\n\t\t\t\t<div class=\"byline\"> <button class=\"button editable \" type=\"submit\" data-editfield=\"subscribe\">Enviar</button></div>\n\t\t\t</div>\n\t\t</form>\n\t</div>\n</div>",
+        "<h3>Ser sponsor</h3>\n<div class=\"form_argent\" >\n\t<div class=\"forms-builder-wrapper\" >\n\t\t<form class=\"description\" action=\"https://my.sendinblue.com/users/subscribeembed/js_id/2tksq/id/3\" method=\"POST\">\n\t\t\t<input type=\"hidden\" name=\"js_id\" id=\"js_id\" value=\"2tksq\"><input type=\"hidden\" name=\"listid\" id=\"listid\" value=\"13\"><input type=\"hidden\" name=\"from_url\" id=\"from_url\" value=\"yes\"><input type=\"hidden\" name=\"hdn_email_txt\" id=\"hdn_email_txt\" value=\"\"> <input type=\"hidden\" name=\"sib_simple\" value=\"simple\"> <input type=\"hidden\" name=\"sib_forward_url\" value=\"http://atomiclab.org/argentinaton\" id=\"sib_forward_url\">\n\t\t\t<div class=\"sib-container rounded\" >\n\t\t\t\t<input type=\"hidden\" name=\"req_hid\" id=\"req_hid\" value=\"~NOMBRE~SURNAME~EMPRESA\" >\n\t\t\t\t<div class=\"view-messages\" > </div>\n\t\t\t\t<!-- an email as primary -->\n\t\t\t\t<div class=\"primary-group email-group forms-builder-group ui-sortable\" >\n\t\t\t\t\t<div class=\"row\" >\n\t\t\t\t\t\t<div class=\"lbl-tinyltr\" >\n\t\t\t\t\t\t\tEmpresa\n\t\t\t\t\t\t\t<red ></red>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<input required type=\"text\" name=\"EMPRESA\" id=\"EMPRESA\" value=\"\" >\n\t\t\t\t\t\t<div class=\"clear\" ></div>\n\t\t\t\t\t\t<div class=\"hidden-btns\"> <a class=\"btn move\" href=\"#\"><i class=\"fa fa-arrows\"></i></a><br> <a class=\"btn btn-danger delete\" href=\"#\"><i class=\"fa fa-trash-o fa-inverse\"></i></a> </div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"row\" >\n\t\t\t\t\t\t<div class=\"lbl-tinyltr\" >\n\t\t\t\t\t\t\tNombre\n\t\t\t\t\t\t\t<red ></red>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<input required type=\"text\" name=\"NOMBRE\" id=\"NOMBRE\" value=\"\" >\n\t\t\t\t\t\t<div class=\"clear\" ></div>\n\t\t\t\t\t\t<div class=\"hidden-btns\"> <a class=\"btn move\" href=\"#\"><i class=\"fa fa-arrows\"></i></a><br> <a class=\"btn btn-danger delete\" href=\"#\"><i class=\"fa fa-trash-o fa-inverse\"></i></a> </div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"row\" >\n\t\t\t\t\t\t<div class=\"lbl-tinyltr\" >\n\t\t\t\t\t\t\tApellido\n\t\t\t\t\t\t\t<red ></red>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<input required type=\"text\" name=\"SURNAME\" id=\"SURNAME\" value=\"\" >\n\t\t\t\t\t\t<div class=\"clear\" ></div>\n\t\t\t\t\t\t<div class=\"hidden-btns\"> <a class=\"btn move\" href=\"#\"><i class=\"fa fa-arrows\"></i></a><br> <a class=\"btn btn-danger delete\" href=\"#\"><i class=\"fa fa-trash-o fa-inverse\"></i></a> </div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"row mandatory-email\" >\n\t\t\t\t\t\t<div class=\"lbl-tinyltr\" >\n\t\t\t\t\t\t\t<red ><font color=\"#343434\">Correo electrónico laboral</font></red>\n\t\t\t\t\t\t\t<red ></red>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<input required type=\"email\" name=\"email\" id=\"email\" value=\"\" >\n\t\t\t\t\t\t<div ></div>\n\t\t\t\t\t\t<div class=\"hidden-btns\">\n\t\t\t\t\t\t\t<a class=\"btn move\" href=\"#\"><i class=\"fa fa-arrows\"></i></a><br> <!--<a class=\"btn btn-danger delete\" href=\"#\"><i class=\"fa fa-trash-o fa-inverse\"></i></a>-->\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"captcha forms-builder-group\" >\n\t\t\t\t\t<div class=\"row\" >\n\t\t\t\t\t\t<div id=\"gcaptcha\" ></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<!-- end of primary -->\n\t\t\t\t<div id=\"recaptcha\"></div>\n\t\t\t\t<div class=\"byline\" > <button class=\"button editable \" type=\"submit\" data-editfield=\"subscribe\" >Enviar</button></div>\n\t\t\t</div>\n\t\t</form>\n\t</div>\n</div>",
+        "<div>\n\t<h3>Doná al proyecto</h3>\n\t<div class=\"form_donaciones\">\n\t\t<p>Donando a Argentinatón nos ayudás a llegar a más personas en todo el país.</p>\n\t\t<div class=\"donations\">\n\t\t\t<div class=\"donation_item\">\n\t\t\t\t<a target=\"_blank\" href=\"http://mpago.la/tGgI\">\n\t\t\t\t\t<p class=\"km\">200<span> kilómetros</span></p>\n\t\t\t\t\t<p class=\"valor\">$2.000 (ARS)</p>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t\t<div class=\"donation_item\">\n\t\t\t\t<a target=\"_blank\" href=\"http://mpago.la/eyjF\">\n\t\t\t\t\t<p class=\"km\">100<span> kilómetros</span></p>\n\t\t\t\t\t<p class=\"valor\">$1.000 (ARS)</p>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t\t<div class=\"donation_item\">\n\t\t\t\t<a target=\"_blank\" href=\"http://mpago.la/XBAU\">\n\t\t\t\t\t<p class=\"km\">50<span> kilómetros</span></p>\n\t\t\t\t\t<p class=\"valor\">$500 (ARS)</p>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</div>",
+        "''",
+        "'sponsor'",
+        "'charla'",
+        "'donar'",
+        "'body'",
+        "'full_pop_show'",
+        "'.full_view_output'",
+        "'recaptcha'",
+        "'sitekey'",
+        "'6Ld-BFAUAAAAADih-o6oeDjZreC3S5oalMQ2-4g9'",
+        "'callback'",
+        "'body'",
+        "'full_pop_show'",
+        "'.full_view_output'",
+        "''"
+    ],
+    "variables": [
+        "form_charla",
+        "form_sponsors",
+        "form_donaciones",
+        "html",
+        "captcha",
+        "captchaContainer",
+        "loadCaptcha"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "open_form",
+        "close_full_popup"
+    ],
+    "classes": []
+}

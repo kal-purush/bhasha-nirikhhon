@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "environment",
+        "ChampionEntity",
+        "HintChampion",
+        "IClientStorage",
+        "LocalStorageService",
+        "ServiceFactory",
+        "ServiceFactoryHttp",
+        "AxiosAdapter",
+        "Http",
+        "ChampionService",
+        "AxiosAdapter",
+        "ServiceFactoryHttp",
+        "environment",
+        "LocalStorageService",
+        "champion",
+        "HintChampion",
+        "hintChampion"
+    ],
+    "literals": [
+        "'src/environments/environment'",
+        "'../domain/entities/champion/champion-entity'",
+        "'../domain/usecases/HintChampion'",
+        "'../infra/client-storage/iclient-storage'",
+        "'../infra/client-storage/local-storage.service'",
+        "'../infra/factory/ServiceFactory'",
+        "'../infra/factory/ServiceFactoryHttp'",
+        "'../infra/http/AxiosAdapter'",
+        "'../infra/http/http'",
+        "'../services/ChampionService'"
+    ],
+    "variables": [
+        "hintChampion"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getService",
+        "hint"
+    ],
+    "classes": [
+        "ChampionController"
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "unittest",
+        "warnings",
+        "numpy",
+        "np",
+        "hummingbird",
+        "ml",
+        "_utils",
+        "lightgbm_installed",
+        "xgboost_installed",
+        "unittest",
+        "TestCase",
+        "warnings",
+        "filterwarnings",
+        "lightgbm_installed",
+        "warnings",
+        "filterwarnings",
+        "xgboost_installed",
+        "hummingbird",
+        "ml",
+        "convert",
+        "fail",
+        "unittest",
+        "main"
+    ],
+    "literals": [
+        "\"ignore\"",
+        "\"ignore\"",
+        "\"Unexpected Error on importing convert without extra packages\"",
+        "\"__main__\""
+    ],
+    "variables": [],
+    "comments": [
+        "Test no LGBM returns false on lightgbm_installed()",
+        "Test no XGB returns false on xgboost_installed()",
+        "Test that we can import the converter successfully without installing [extra]",
+        "TODO something more specific?"
+    ],
+    "docstrings": [
+        "\"\"\"\nTest Hummingbird when no extra dependencies are installed.\n\"\"\"",
+        "\"\"\"\n    These tests are meant to be run on a clean container after doing\n    `pip install hummingbird-ml` without any of the `extra` packages\n    \"\"\""
+    ],
+    "functions": [
+        "test_lightgbm_installed_false",
+        "test_xgboost_installed_false",
+        "test_import_convert_no_extra"
+    ],
+    "classes": [
+        "TestNoExtra"
+    ]
+}

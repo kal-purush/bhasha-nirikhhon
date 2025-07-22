@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "BatchShaderGenerator",
+        "BatchGeometry",
+        "BaseBatchRenderer",
+        "defaultVertex",
+        "defaultFragment",
+        "options",
+        "defaultVertex",
+        "defaultFragment",
+        "BatchGeometry",
+        "options",
+        "BatchPlugin",
+        "BaseBatchRenderer",
+        "renderer",
+        "renderer",
+        "BatchShaderGenerator",
+        "vertex",
+        "fragment",
+        "geometryClass",
+        "vertexSize",
+        "defaultVertex",
+        "defaultFragment",
+        "BatchPluginFactory"
+    ],
+    "literals": [
+        "'./BatchShaderGenerator'",
+        "'./BatchGeometry'",
+        "'./BatchRenderer'",
+        "'./texture.vert'",
+        "'./texture.frag'"
+    ],
+    "variables": [
+        "BatchRenderer"
+    ],
+    "comments": [
+        "Setup the default BatchRenderer plugin, this is what",
+        "we'll actually export at the root level"
+    ],
+    "docstrings": [
+        "* Used to create new, custom BatchRenderer plugins for the Renderer.\n * @example\n * const fragment = `\n * varying vec2 vTextureCoord;\n * varying vec4 vColor;\n * varying float vTextureId;\n * uniform sampler2D uSamplers[%count%];\n *\n * void main(void){\n *     vec4 color;\n *     %forloop%\n *     gl_FragColor = vColor * vec4(color.a - color.rgb, color.a);\n * }\n * `;\n * const InvertBatchRenderer = PIXI.BatchPluginFactory.create({ fragment });\n * PIXI.Renderer.registerPlugin('invert', InvertBatchRenderer);\n * const sprite = new PIXI.Sprite();\n * sprite.pluginName = 'invert';\n *\n * @class\n * @memberof PIXI",
+        "* Create a new BatchRenderer plugin for Renderer. this convenience can provide an easy way\n     * to extend BatchRenderer with all the necessary pieces.\n     *\n     * @static\n     * @param {object} [options]\n     * @param {string} [options.vertex=PIXI.BatchPluginFactory.defaultVertexSrc] - Vertex shader source\n     * @param {string} [options.fragment=PIXI.BatchPluginFactory.defaultFragmentTemplate] - Fragment shader template\n     * @param {number} [options.vertexSize=6] - Vertex size\n     * @param {object} [options.geometryClass=PIXI.BatchGeometry]\n     * @return {PIXI.BatchRenderer} New batch renderer plugin.",
+        "* The default vertex shader source\n     *\n     * @static\n     * @type {string}\n     * @constant",
+        "* The default fragment shader source\n     *\n     * @static\n     * @type {string}\n     * @constant"
+    ],
+    "functions": [
+        "create",
+        "defaultVertexSrc",
+        "defaultFragmentTemplate"
+    ],
+    "classes": [
+        "BatchPluginFactory"
+    ]
+}

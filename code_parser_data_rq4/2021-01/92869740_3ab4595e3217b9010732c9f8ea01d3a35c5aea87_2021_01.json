@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "com",
+        "navercorp",
+        "pinpoint",
+        "test",
+        "util",
+        "object1",
+        "object2",
+        "object1",
+        "object2",
+        "object1",
+        "object2",
+        "object1",
+        "equals",
+        "object2"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* copy apache-commons-lang\n     * https://github.com/apache/commons-lang/blob/LANG_2_6/src/main/java/org/apache/commons/lang/ObjectUtils.java\n     *\n     * <p>Compares two objects for equality, where either one or both\n     * objects may be <code>null</code>.</p>\n     *\n     * <pre>\n     * ObjectUtils.equals(null, null)                  = true\n     * ObjectUtils.equals(null, \"\")                    = false\n     * ObjectUtils.equals(\"\", null)                    = false\n     * ObjectUtils.equals(\"\", \"\")                      = true\n     * ObjectUtils.equals(Boolean.TRUE, null)          = false\n     * ObjectUtils.equals(Boolean.TRUE, \"true\")        = false\n     * ObjectUtils.equals(Boolean.TRUE, Boolean.TRUE)  = true\n     * ObjectUtils.equals(Boolean.TRUE, Boolean.FALSE) = false\n     * </pre>\n     *\n     * @param object1  the first object, may be <code>null</code>\n     * @param object2  the second object, may be <code>null</code>\n     * @return <code>true</code> if the values of both objects are the same"
+    ],
+    "functions": [
+        "equals"
+    ],
+    "classes": [
+        "ObjectUtils"
+    ]
+}

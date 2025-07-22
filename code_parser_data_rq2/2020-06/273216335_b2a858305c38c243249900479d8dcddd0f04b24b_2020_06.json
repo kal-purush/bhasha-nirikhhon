@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "notmuch2",
+        "_capi",
+        "notmuch2",
+        "_base",
+        "notmuch2",
+        "_database",
+        "notmuch2",
+        "_errors",
+        "notmuch2",
+        "_message",
+        "notmuch2",
+        "_tags",
+        "notmuch2",
+        "_thread",
+        "_capi",
+        "lib",
+        "NOTMUCH_TAG_MAX",
+        "_capi",
+        "x",
+        "locals",
+        "copy",
+        "values",
+        "hasattr",
+        "x",
+        "x"
+    ],
+    "literals": [
+        "'__module__'"
+    ],
+    "variables": [
+        "NOTMUCH_TAG_MAX",
+        "x",
+        "__module__"
+    ],
+    "comments": [
+        "Re-home all the objects to the package.  This leaves __qualname__ intact."
+    ],
+    "docstrings": [
+        "\"\"\"Pythonic API to the notmuch database.\n\nCreating Objects\n================\n\nOnly the :class:`Database` object is meant to be created by the user.\nAll other objects should be created from this initial object.  Users\nshould consider their signatures implementation details.\n\nErrors\n======\n\nAll errors occuring due to errors from the underlying notmuch database\nare subclasses of the :exc:`NotmuchError`.  Due to memory management\nit is possible to try and use an object after it has been freed.  In\nthis case a :exc:`ObjectDestroyedError` will be raised.\n\nMemory Management\n=================\n\nLibnotmuch uses a hierarchical memory allocator, this means all\nobjects have a strict parent-child relationship and when the parent is\nfreed all the children are freed as well.  This has some implications\nfor these Python bindings as parent objects need to be kept alive.\nThis is normally schielded entirely from the user however and the\nPython objects automatically make sure the right references are kept\nalive.  It is however the reason the :class:`BaseObject` exists as it\ndefines the API all Python objects need to implement to work\ncorrectly.\n\nCollections and Containers\n==========================\n\nLibnotmuch exposes nearly all collections of things as iterators only.\nIn these python bindings they have sometimes been exposed as\n:class:`collections.abc.Container` instances or subclasses of this\nlike :class:`collections.abc.Set` or :class:`collections.abc.Mapping`\netc.  This gives a more natural API to work with, e.g. being able to\ntreat tags as sets.  However it does mean that the\n:meth:`__contains__`, :meth:`__len__` and frieds methods on these are\nusually more and essentially O(n) rather than O(1) as you might\nusually expect from Python containers.\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

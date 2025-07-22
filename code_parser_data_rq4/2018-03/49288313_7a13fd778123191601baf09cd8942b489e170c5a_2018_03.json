@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "ConfigurationReader",
+        "ACConstants",
+        "vscode",
+        "vscode",
+        "workspaceConfiguration",
+        "ConfigurationReader",
+        "workspaceConfiguration",
+        "loginEndpoint",
+        "ACConstants",
+        "vscode",
+        "workspaceConfiguration",
+        "ConfigurationReader",
+        "workspaceConfiguration",
+        "apiEndpoint",
+        "ACConstants",
+        "vscode",
+        "workspaceConfiguration",
+        "ConfigurationReader",
+        "workspaceConfiguration",
+        "apiEndpoint",
+        "ACConstants",
+        "vscode",
+        "workspaceConfiguration",
+        "ConfigurationReader",
+        "workspaceConfiguration",
+        "enabled"
+    ],
+    "literals": [
+        "'../common/configurationReader'",
+        "'../extension/appcenter/appCenterConstants'",
+        "'vscode'",
+        "string",
+        "'cordova.appcenter.loginendpoint'",
+        "string",
+        "'cordova.appcenter.loginendpoint'",
+        "string",
+        "'cordova.appcenter.api.endpoint'",
+        "string",
+        "'cordova.appcenter.api.endpoint'",
+        "string",
+        "'cordova.appcenter.legacycodepushservice'",
+        "string",
+        "'cordova.appcenter.legacycodepushservice'",
+        "'cordova.appcenter.legacycodepushserviceenabled'",
+        "'cordova.appcenter.legacycodepushserviceenabled'"
+    ],
+    "variables": [
+        "workspaceConfiguration",
+        "loginEndpoint",
+        "workspaceConfiguration",
+        "apiEndpoint",
+        "workspaceConfiguration",
+        "apiEndpoint",
+        "workspaceConfiguration",
+        "enabled"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Get appcenter login endpoint setting",
+        "* Get appcenter api endpoint setting",
+        "* Get old codepush endpoint setting"
+    ],
+    "functions": [
+        "getAppCenterLoginEndpoint",
+        "getAppCenterAPIEndpoint",
+        "getLegacyCodePushEndpoint",
+        "getLegacyCodePushServiceEnabled"
+    ],
+    "classes": [
+        "ConfigurationHelper"
+    ]
+}

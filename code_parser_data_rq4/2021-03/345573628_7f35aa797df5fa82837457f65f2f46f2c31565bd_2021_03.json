@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "mylisttitle",
+        "props",
+        "$h",
+        "mylistitem",
+        "props",
+        "$h",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "foo",
+        "props",
+        "props",
+        "props",
+        "props",
+        "Framework7",
+        "mylisttitle",
+        "Framework7",
+        "mylistitem"
+    ],
+    "literals": [
+        "<h1 style=\"background-color:green;\"><b>Custom Component:</b></h1>",
+        "'bar'",
+        "<span>\n        <div class=\"navbar\">\n          <div class=\"navbar-bg\"></div>\n          <div class=\"navbar-inner\">\n            <div class=\"left\">\n              <a href=\"#\" class=\"back link\">\n                <i class=\"icon icon-back\"></i>\n                <span>Back</span>\n              </a>\n            </div>\n          </div>\n        </div>\n    \n        <my-list-title />\n        <a class=\"link external\" href=\"${props.http}\">Open LINK</a>\n        <ul>\n          <li class=\"item-content\" id=\"${props.id}\" foo=\"${props.foo}\">${props.id}</li>\n          <li class=\"item-content\" id=\"${props.id}\" foo=\"${props.foo}\">${foo}</li>\n          <li class=\"item-content\" id=\"${props.id}\" foo=\"${props.foo}\">000</li>\n          <li class=\"item-content\" id=\"${props.id}\" foo=\"${props.foo}\">000</li>\n        </ul>\n    \n        </span>",
+        "'my-list-title'",
+        "'my-list-item'"
+    ],
+    "variables": [
+        "mylisttitle",
+        "mylistitem",
+        "foo"
+    ],
+    "comments": [
+        "----------------------------------------------------------------------------------------------------------------",
+        "let foo = 'bar';",
+        "----------------------------------------------------------------------------------------------------------------",
+        "--------------------------------------COMPONENTS REGSTRATION-------------------------------------------------------",
+        "component name, // component function",
+        "component name, // component function"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

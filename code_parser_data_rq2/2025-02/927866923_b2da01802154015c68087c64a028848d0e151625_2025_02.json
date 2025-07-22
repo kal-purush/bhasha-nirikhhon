@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "onRequest",
+        "logger",
+        "onDocumentCreated",
+        "initializeApp",
+        "getFirestore",
+        "functions",
+        "admin",
+        "initializeApp",
+        "onRequest",
+        "req",
+        "res",
+        "req",
+        "getFirestore",
+        "original",
+        "res",
+        "writeResult",
+        "onDocumentCreated",
+        "logger",
+        "original",
+        "original",
+        "functions",
+        "request",
+        "response",
+        "response"
+    ],
+    "literals": [
+        "\"firebase-functions/v2/https\"",
+        "\"firebase-functions/logger\"",
+        "\"firebase-functions/v2/firestore\"",
+        "\"firebase-admin/app\"",
+        "\"firebase-admin/firestore\"",
+        "\"firebase-functions\"",
+        "\"firebase-admin\"",
+        "'messages'",
+        "Message with ID: ${writeResult.id} added.",
+        "\"/messages/{documentId}\"",
+        "\"Uppercasing\"",
+        "\"Hello from Firebase!\""
+    ],
+    "variables": [
+        "addMessage",
+        "original",
+        "writeResult",
+        "makeUppercase",
+        "original",
+        "uppercase",
+        "helloWorld"
+    ],
+    "comments": [
+        "Cloud functions for Firebase SDK to create Cloud Functions and triggers",
+        "The firebase Admin SDK to access Firestore.",
+        "Start writing functions",
+        "https://firebase.google.com/docs/functions/typescript",
+        "Create and deploy your first functions",
+        "https://firebase.google.com/docs/functions/get-started",
+        "exports.helloWorld = onRequest((request, response) => {",
+        "logger.info(\"Hello logs!\", {structuredData: true});",
+        "response.send(\"Hello from Firebase!\");",
+        "});"
+    ],
+    "docstrings": [
+        "* Import function triggers from their respective submodules:\n *\n * const {onCall} = require(\"firebase-functions/v2/https\");\n * const {onDocumentWritten} = require(\"firebase-functions/v2/firestore\");\n *\n * See a full list of supported triggers at https://firebase.google.com/docs/functions"
+    ],
+    "functions": [],
+    "classes": []
+}

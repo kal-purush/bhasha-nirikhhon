@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "HardhatRuntimeEnvironment",
+        "DeployFunction",
+        "hre",
+        "hre",
+        "hre",
+        "deploy",
+        "deployer",
+        "deployAssetTagger",
+        "deployAssetTagger"
+    ],
+    "literals": [
+        "\"hardhat/types\"",
+        "\"hardhat-deploy/types\"",
+        "\"AssetTagger\"",
+        "\"AssetTagger\""
+    ],
+    "variables": [
+        "deployAssetTagger"
+    ],
+    "comments": [
+        "On localhost, the deployer account is the one that comes with Hardhat, which is already funded.\n\n    When deploying to live networks (e.g `yarn deploy --network goerli`), the deployer account\n    should have sufficient balance to pay for the gas fees for contract creation.\n\n    You can generate a random account with `yarn generate` which will fill DEPLOYER_PRIVATE_KEY\n    with a random private key in the .env file (then used on hardhat.config.ts)\n    You can run the `yarn account` command to check your balance in every network.",
+        "Contract constructor arguments",
+        "autoMine: can be passed to the deploy function to make the deployment process faster on local networks by",
+        "automatically mining the contract deployment transaction. There is no effect on live networks.",
+        "Get the deployed contract",
+        "const AssetTagger = await hre.ethers.getContract(\"AssetTagger\", deployer);",
+        "Tags are useful if you have multiple deploy files and only want to run one of them.",
+        "e.g. yarn deploy --tags AssetTagger"
+    ],
+    "docstrings": [
+        "* Deploys a contract named \"AssetTagger\" using the deployer account and\n * constructor arguments set to the deployer address\n *\n * @param hre HardhatRuntimeEnvironment object."
+    ],
+    "functions": [],
+    "classes": []
+}

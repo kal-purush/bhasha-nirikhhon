@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "require",
+        "gql",
+        "parent",
+        "args",
+        "context",
+        "args",
+        "pubsub",
+        "LOGIN_NOTIFICATION",
+        "username",
+        "username",
+        "_",
+        "__",
+        "pubsub",
+        "LOGIN_NOTIFICATION",
+        "PubSub",
+        "ApolloServer",
+        "server",
+        "url"
+    ],
+    "literals": [
+        "\"apollo-server\"",
+        "type Query {\n      greet: String!\n    }\n\n    input User {\n      username: String!\n      password: String!\n    }\n\n    type Mutation {\n      login(user: User!): String!\n    }\n\n    type Subscription {\n      loginNotification: String!\n\n    }",
+        "'LOGIN_NOTIFICATION'",
+        "\"Hello World from Apollo GraphQL\"",
+        "\"******\"",
+        "Successfully ${username} login",
+        "Successfully ${username} login",
+        "server started at ${url}"
+    ],
+    "variables": [
+        "typeDefs",
+        "LOGIN_NOTIFICATION",
+        "resolvers",
+        "args",
+        "context",
+        "pubsub",
+        "server"
+    ],
+    "comments": [
+        "This works only apollo server 2 \n\n\n\n\n1. Subscription Type loginNotification resolver waiting for \"LOGIN_NOTIFICATION\" to publish by resolver\n\n2. Mutation Type login  Resolver publish an event called \"LOGIN_NOTIFICATION\" with loginNotification Subscription resolver\n\nsubscription{\n  loginNotification\n}\n\nmutation {\n  login(user: {username: \"Raj\", password: \"123\"})\n}\n\nquery {\n  greet\n}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

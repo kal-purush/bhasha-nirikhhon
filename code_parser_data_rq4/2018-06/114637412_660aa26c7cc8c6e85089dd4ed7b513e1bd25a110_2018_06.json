@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "ComponentFactory",
+        "circularProgressBarDriverFactory",
+        "coreCircularProgressBarDriverFactory",
+        "CircularProgressBarDriver",
+        "CoreCircularProgressBarDriver",
+        "BaseDriver",
+        "DriverFactory",
+        "tooltipDriverFactory",
+        "circularProgressBarDriverFactory",
+        "tooltipDriverFactory",
+        "element",
+        "coreCircularProgressBarDriverFactory",
+        "errorIcon",
+        "element",
+        "successIcon",
+        "element",
+        "coreProgressBarDriver",
+        "tooltipDriver",
+        "tooltipDriver",
+        "errorIcon",
+        "successIcon"
+    ],
+    "literals": [
+        "'wix-ui-test-utils/driver-factory'",
+        "'wix-ui-core/dist/src/components/CircularProgressBar/CircularProgressBar.driver'",
+        "'wix-ui-test-utils/driver-factory'",
+        "'../Tooltip/Tooltip.driver'",
+        "[data-hook='tooltip']",
+        "[data-hook='error-icon']",
+        "[data-hook='success-icon']"
+    ],
+    "variables": [
+        "circularProgressBarDriverFactory",
+        "tooltipDriver",
+        "coreProgressBarDriver",
+        "errorIcon",
+        "successIcon"
+    ],
+    "comments": [
+        "Returns true if the tooltip is shown",
+        "Returns true if the error icon is shown",
+        "Returns true if the success icon is shown",
+        "Returns the tooltip driver"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "prisma",
+        "prisma",
+        "linkWebhooks",
+        "l",
+        "l",
+        "a",
+        "b",
+        "b",
+        "a",
+        "sortedLinkWebhooks",
+        "sortedLinkWebhooks",
+        "prisma",
+        "sortedLinkWebhooks",
+        "l",
+        "l",
+        "links",
+        "links",
+        "main"
+    ],
+    "literals": [
+        "\"@dub/prisma\"",
+        "\"dotenv-flow/config\"",
+        "\"linkId\"",
+        "Found ${sortedLinkWebhooks.length} links with multiple webhooks",
+        "\"projectId\"",
+        "Found ${links.length} projects with multiple links webhooks"
+    ],
+    "variables": [
+        "linkWebhooks",
+        "sortedLinkWebhooks",
+        "links"
+    ],
+    "comments": [
+        "One time script to analyze links that are associated with multiple webhooks.\n\n  Also analyze projects that those links belong to.",
+        "order by _count desc"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

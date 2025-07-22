@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "io",
+        "opentracing",
+        "propagation",
+        "io",
+        "opentracing",
+        "SpanContext",
+        "java",
+        "nio",
+        "ByteBuffer",
+        "Binary"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2016-2019 The OpenTracing Authors\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n * in compliance with the License. You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software distributed under the License\n * is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express\n * or implied. See the License for the specific language governing permissions and limitations under\n * the License.",
+        "* Binary is an interface defining the required operations for a binary carrier for\n * Tracer.inject() and Tracer.extract(). Binary can be defined either as inbound (extraction)\n * or outbound (injection).\n *\n * When Binary is defined as inbound, extractionBuffer() will be called to retrieve the ByteBuffer\n * containing the data used for SpanContext extraction.\n *\n * When Binary is defined as outbound, setInjectBufferLength() will be called in order to hint\n * the required buffer length to inject the SpanContext, and injectionBuffer() will be called\n * afterwards to retrieve the actual ByteBuffer used for the SpanContext injection.\n *\n * @see Format.Builtin#BINARY\n * @see io.opentracing.Tracer#inject(SpanContext, Format, Object)\n * @see io.opentracing.Tracer#extract(Format, Object)"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "gql",
+        "disableFragmentWarnings",
+        "printWithReducedWhitespace",
+        "hideLiterals",
+        "disableFragmentWarnings",
+        "describe",
+        "gql",
+        "cases",
+        "test",
+        "name",
+        "expect",
+        "printWithReducedWhitespace",
+        "input",
+        "output",
+        "describe",
+        "gql",
+        "cases",
+        "test",
+        "name",
+        "expect",
+        "printWithReducedWhitespace",
+        "hideLiterals",
+        "input",
+        "output"
+    ],
+    "literals": [
+        "'graphql-tag'",
+        "'../transforms'",
+        "'printWithReducedWhitespace'",
+        "'lots of whitespace'",
+        "query Foo($a: Int) {\n          user(\n            name: \"   tab->\tyay\"\n            other: \"\"\"\n            apple\n               bag\n            cat\n            \"\"\"\n          ) {\n            name\n          }\n        }",
+        "'query Foo($a:Int){user(name:\"   tab->\\\\tyay\",other:\"apple\\\\n   bag\\\\ncat\"){name}}'",
+        "'hideLiterals'",
+        "'full test'",
+        "query Foo($b: Int, $a: Boolean) {\n          user(name: \"hello\", age: 5) {\n            ...Bar\n            ... on User {\n              hello\n              bee\n            }\n            tz\n            aliased: name\n          }\n        }\n\n        fragment Bar on User {\n          age @skip(if: $a)\n          ...Nested\n        }\n\n        fragment Nested on User {\n          blah\n        }",
+        "'query Foo($b:Int,$a:Boolean){user(name:\"\",age:0){...Bar...on User{hello bee}tz aliased:name}}'",
+        "'fragment Bar on User{age@skip(if:$a)...Nested}fragment Nested on User{blah}'"
+    ],
+    "variables": [
+        "cases",
+        "cases"
+    ],
+    "comments": [
+        "The gql duplicate fragment warning feature really is just warnings; nothing",
+        "breaks if you turn it off in tests.",
+        "Note: there's a tab after \"tab->\", which prettier wants to keep as a",
+        "literal tab rather than \\t.  In the output, there should be a literal",
+        "backslash-t."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

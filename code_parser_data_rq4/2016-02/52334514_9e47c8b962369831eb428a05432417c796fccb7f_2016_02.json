@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "Component",
+        "ResizerDirective",
+        "Component",
+        "ResizerDirective"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./attribute-directives/resizer.directive'",
+        "'my-app'",
+        "<div id=\"topnav\" >Top navbar </div>\n             <div id=\"sidebar\">\n              <h3>Side navbar</h3>\n             </div>\n\n             <div id=\"sidebar-resizer\" jmResizer [resizerWidth]=6\n                    [resizerLeft]=\"'sidebar'\" [resizerRight]=\"'content'\"></div>\n\n             <div id=\"content\">\n              <div id=\"top-content\">Top Content</div>\n              <div id=\"bottom-content\">Bottom Content</div>\n             </div>",
+        "'app/app.component.css'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppComponent"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "getClientConfig",
+        "ACCESS_CODE_PREFIX",
+        "useAccessStore",
+        "value",
+        "value",
+        "apiKey",
+        "useAccessStore",
+        "getClientConfig",
+        "apiKey",
+        "headers",
+        "bearer",
+        "apiKey",
+        "accessStore",
+        "isApp",
+        "accessStore",
+        "headers",
+        "bearer",
+        "ACCESS_CODE_PREFIX",
+        "accessStore",
+        "headers"
+    ],
+    "literals": [
+        "\"@/app/config/client\"",
+        "\"@/app/constant\"",
+        "\"@/app/store\"",
+        "string",
+        "Bearer ${value.trim()}",
+        "\"\"",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "accessStore",
+        "isApp",
+        "headers"
+    ],
+    "comments": [
+        "use user's api key first",
+        "or use access code"
+    ],
+    "docstrings": [],
+    "functions": [
+        "bearer",
+        "getAuthHeaders"
+    ],
+    "classes": []
+}

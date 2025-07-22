@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Xml",
+        "UrdfUnity",
+        "Util",
+        "UrdfUnity",
+        "Parse",
+        "Xacro",
+        "Models",
+        "name",
+        "parameters",
+        "XmlElement",
+        "xml",
+        "Preconditions",
+        "IsNotEmpty",
+        "name",
+        "Preconditions",
+        "IsNotNull",
+        "parameters",
+        "Preconditions",
+        "IsNotNull",
+        "xml",
+        "Name",
+        "name",
+        "Parameters",
+        "parameters",
+        "Xml",
+        "xml"
+    ],
+    "literals": [
+        "\"Xacro macro must have a name\"",
+        "\"Xacro macro parameter list must not be null\"",
+        "\"Xacro macro XML element must not be null\""
+    ],
+    "variables": [
+        "Name",
+        "Parameters",
+        "XmlElement",
+        "Xml"
+    ],
+    "comments": [
+        "Models a Xacro macro, storing its name, parameters and its XML representation via XmlElement.",
+        "</summary>",
+        "<remarks>",
+        "The result of the Xacro macro per specified arguments may be injected throughout a URDF file",
+        "by referencing it as an XML element by its name with the Xacro namespace prefix.",
+        "</remarks>",
+        "<seealso cref=\"http://wiki.ros.org/xacro\"/>",
+        "<seealso cref=\"XacroMacroParser\"/>",
+        "The name of the Xacro macro.",
+        "</summary>",
+        "The names of parameters that may be passed to the macro.",
+        "</summary>",
+        "The original XML definition of the macro.",
+        "</summary>",
+        "Creates a new instance of XacroMacro.",
+        "</summary>",
+        "<param name=\"name\">The name of the Xacro macro. MUST NOT BE NULL OR EMPTY</param>",
+        "<param name=\"parameters\">The names of parameters that may be passed to the macro. MUST NOT BE NULL</param>",
+        "<param name=\"xml\">The original XML definition of the macro. MUST NOT BE NULL</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "XacroMacro"
+    ],
+    "classes": [
+        "XacroMacro"
+    ]
+}

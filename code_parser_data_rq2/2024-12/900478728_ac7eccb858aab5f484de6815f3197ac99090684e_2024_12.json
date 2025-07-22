@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "typing",
+        "Dict",
+        "Any",
+        "langchain",
+        "callbacks",
+        "BaseCallbackHandler",
+        "langchain",
+        "schema",
+        "LLMResult",
+        "BaseCallbackHandler",
+        "serialized",
+        "Dict",
+        "Any",
+        "prompts",
+        "kwargs",
+        "Any",
+        "Any",
+        "prompts",
+        "response",
+        "LLMResult",
+        "kwargs",
+        "Any",
+        "Any",
+        "response",
+        "generations",
+        "text"
+    ],
+    "literals": [
+        "f\"***prompt to llm was:***\\n{prompts[0]}\"",
+        "\"*************\"",
+        "f\"***LLM Response:***\\n{response.generations[0][0].text}\"",
+        "\"*************\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Run hen LLM starts running\"\"\"",
+        "\"\"\"Run when LLM ends running.\"\"\""
+    ],
+    "functions": [
+        "on_llm_start",
+        "on_llm_end"
+    ],
+    "classes": [
+        "AgentCallbackHandler"
+    ]
+}

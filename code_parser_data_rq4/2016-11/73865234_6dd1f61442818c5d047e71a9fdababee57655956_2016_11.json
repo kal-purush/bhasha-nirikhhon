@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "NaiveScheduler",
+        "value",
+        "error",
+        "fun",
+        "asyncStyle",
+        "NaiveScheduler",
+        "fun",
+        "asyncStyle",
+        "NaiveScheduler",
+        "asyncStyle",
+        "fun",
+        "NaiveScheduler",
+        "NaiveScheduler",
+        "resolve",
+        "reject",
+        "resolve",
+        "reject",
+        "process",
+        "NaiveScheduler",
+        "NaiveScheduler",
+        "NaiveScheduler",
+        "NaiveScheduler",
+        "error",
+        "value",
+        "error",
+        "value",
+        "error",
+        "e",
+        "e",
+        "fun",
+        "asyncStyle",
+        "NaiveScheduler",
+        "fun",
+        "asyncStyle",
+        "task",
+        "resolve",
+        "resolve",
+        "task",
+        "resolve",
+        "process",
+        "resolve",
+        "NaiveScheduler",
+        "AsyncStyle",
+        "NaiveScheduler"
+    ],
+    "literals": [],
+    "variables": [
+        "task"
+    ],
+    "comments": [
+        "`T | Thenable<T>` is hard to type"
+    ],
+    "docstrings": [
+        "* Schedule a function to be run.  Functions are run one at a time, meaning that one must\n   * complete before the next one starts.  Functions are run in the order in which they are\n   * scheduled.\n   *\n   * @param {Function} fun The function to schedule\n   * @param {AsyncStyle=} asyncStyle Describes how the function singals when it is complete, if it\n   *     failed, and what value it'd like to return. @see NaiveScheduler.AsyncStyle for details.\n   *\n   * @returns {Promise.<T>} A promise which will resolve/reject to the function's value",
+        "* Gets a promise which resolves once all the scheduled tasks are complete.\n   *\n   * @returns {Promise.<void>}",
+        "* Flags to signifiy how a function implements asynchronous behavior\n   * @enum {number}\n   * @prop {number} PROMISE Function returns a promise\n   * @prop {number} TWO_CBS Function takes two callback functions, the first for success and the\n   *     second for failure.\n   * @prop {number} DOT_FAIL Function takes one callback function, which is used for success.  This\n   *     callback function has a property `fail`, which is the callback function for failure\n   * @prop {number} NODE Function takes one callback function.  If the first argument to that\n   *     callback funtion is `null` or `undefined`, that signifies success and the second argument\n   *     should be used for the return value.  If the first argument is something else, that\n   *     signifies failure and the first argument is the error to return.\n   * @prop {number} INFER Function may or may not take a callback function.  If it takes one or\n   *     more arguments, assume it uses `TWO_CBS` style.  Otherwise, it uses `NODE` style."
+    ],
+    "functions": [
+        "run",
+        "schedule",
+        "complete",
+        "runNextTask"
+    ],
+    "classes": [
+        "NaiveScheduler"
+    ]
+}

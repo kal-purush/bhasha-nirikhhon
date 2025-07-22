@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Http",
+        "environment",
+        "Injectable",
+        "http",
+        "environment",
+        "res",
+        "res",
+        "id",
+        "environment",
+        "id",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/http'",
+        "'rxjs/add/operator/map'",
+        "'../environments/environment'",
+        "${environment.BASE_URL}/api/ingredients",
+        "${environment.BASE_URL}/api/ingredients/${id}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getIngredients",
+        "getIngredient"
+    ],
+    "classes": [
+        "IngredientsService"
+    ]
+}

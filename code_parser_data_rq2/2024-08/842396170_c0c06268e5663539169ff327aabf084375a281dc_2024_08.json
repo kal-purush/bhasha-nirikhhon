@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "express",
+        "cors",
+        "express",
+        "app",
+        "cors",
+        "app",
+        "req",
+        "res",
+        "visitorCount",
+        "res",
+        "visitorCount",
+        "app",
+        "port",
+        "port"
+    ],
+    "literals": [
+        "'express'",
+        "'cors'",
+        "'/visitors'",
+        "Visitor counter API listening at http://localhost:${port}/visitors"
+    ],
+    "variables": [
+        "app",
+        "visitorCount",
+        "port"
+    ],
+    "comments": [
+        "import express from 'express';\nimport cors from 'cors';\n\nconst app = express();\nconst port = 3001;\n\napp.use(cors());\n\nlet visitorCount = 0;\n\napp.get('/visitors', (req, res) => {\n  visitorCount += 1;\n  res.json({ count: visitorCount });\n});\n\napp.listen(port, () => {\n  console.log(`Visitor counter API listening at http://localhost:${port}`);\n});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

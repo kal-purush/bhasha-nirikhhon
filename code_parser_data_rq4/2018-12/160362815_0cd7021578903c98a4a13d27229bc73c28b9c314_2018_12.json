@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "s",
+        "s",
+        "split",
+        "words",
+        "join",
+        "words_reversed",
+        "reverse_words",
+        "reverse_words",
+        "reverse_words",
+        "s",
+        "do_something_strange"
+    ],
+    "literals": [
+        "' '",
+        "'dogs hate cats'",
+        "'cats hate dogs'",
+        "'dog eat dog'",
+        "'dog eat dog'",
+        "'one two three four'",
+        "'four three two one'"
+    ],
+    "variables": [
+        "words",
+        "words_reversed"
+    ],
+    "comments": [
+        "uncomment next line in step 9",
+        "return [len(word) for word in s.split()]",
+        "uncomment this function in step 6",
+        "def test_get_word_lengths():",
+        "text = \"Three tomatoes are walking down the street\"",
+        "assert get_word_lengths(text) == [5, 8, 3, 7, 4, 3, 6]"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Reverses order or words in string s.\n    \"\"\"",
+        "\"\"\"\n    Returns a list of integers representing\n    the word lengths in string s.\n    \"\"\"",
+        "\"\"\"\n    Example of a function that is never tested.\n    \"\"\""
+    ],
+    "functions": [
+        "reverse_words",
+        "test_reverse_words",
+        "get_word_lengths",
+        "obscure_function"
+    ],
+    "classes": []
+}

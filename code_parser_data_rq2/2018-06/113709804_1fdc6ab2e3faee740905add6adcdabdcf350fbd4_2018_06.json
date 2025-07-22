@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "xml2js",
+        "Destination",
+        "name",
+        "hostname",
+        "name",
+        "hostname",
+        "resolve",
+        "reject",
+        "parser",
+        "rawDestination",
+        "err",
+        "parsed",
+        "err",
+        "reject",
+        "err",
+        "parsed",
+        "parsed",
+        "parsed",
+        "xml2js",
+        "builder",
+        "parsed",
+        "resolve",
+        "xml"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "\"promise\"",
+        "\"xml2js\"",
+        "\"Network\"",
+        "\"<?xml version=\\\"1.0\\\" encoding=\\\"UTF-8\\\"?>\\n\"",
+        "\"<WalkupScanDestination xmlns=\\\"http://www.hp.com/schemas/imaging/con/rest/walkupscan/2009/09/21\\\" xmlns:xsi=\\\"http://www.w3.org/2001/XMLSchema-instance\\\" \\n\"",
+        "\"xsi:schemaLocation=\\\"http://www.hp.com/schemas/imaging/con/rest/walkupscan/2009/09/21 WalkupScanDestinations.xsd\\\">\\n\"",
+        "\"<Hostname xmlns=\\\"http://www.hp.com/schemas/imaging/con/dictionaries/2009/04/06\\\"></Hostname>\\n\"",
+        "\"<Name xmlns=\\\"http://www.hp.com/schemas/imaging/con/dictionaries/1.0/\\\"></Name>\\n\"",
+        "\"<LinkType>Network</LinkType>\\n\"",
+        "\"</WalkupScanDestination>\""
+    ],
+    "variables": [
+        "xml2js",
+        "parser",
+        "rawDestination",
+        "builder",
+        "xml"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Callback used by myFunction.\n     * @callback Destination~toXmlCallback\n     * @param {error} err\n     * @param {?string} xml",
+        "* Do something.\n     * @returns {Promise.<String|Error>}"
+    ],
+    "functions": [
+        "toXML"
+    ],
+    "classes": []
+}

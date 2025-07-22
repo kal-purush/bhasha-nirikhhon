@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Component",
+        "RouteConfig",
+        "ROUTER_DIRECTIVES",
+        "ROUTER_PROVIDERS",
+        "HeroService",
+        "DashboardComponent",
+        "HeroesComponent",
+        "HeroDetailComponent",
+        "Component",
+        "ROUTER_DIRECTIVES",
+        "ROUTER_PROVIDERS",
+        "HeroService",
+        "RouteConfig",
+        "DashboardComponent",
+        "HeroDetailComponent",
+        "HeroesComponent"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router-deprecated'",
+        "'./hero.service'",
+        "'./dashboard.component'",
+        "'./heroes.component'",
+        "'./hero-detail.component'",
+        "'my-app'",
+        "<h1>{{title}}</h1>\n    <nav>\n      <a [routerLink]=\"['Dashboard']\">Dashboard</a>\n      <a [routerLink]=\"['Heroes']\">Heroes</a>\n    </nav>\n    <router-outlet></router-outlet>",
+        "'app/app.component.css'",
+        "'/dashboard'",
+        "'Dashboard'",
+        "'/detail/:id'",
+        "'HeroDetail'",
+        "'/heroes'",
+        "'Heroes'",
+        "'Tour of Heroes'"
+    ],
+    "variables": [],
+    "comments": [
+        "Copyright 2016 Google Inc. All Rights Reserved.\nUse of this source code is governed by an MIT-style license that\ncan be found in the LICENSE file at http://angular.io/license"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppComponent"
+    ]
+}

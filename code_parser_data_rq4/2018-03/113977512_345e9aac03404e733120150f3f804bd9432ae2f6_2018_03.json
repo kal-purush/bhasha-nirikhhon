@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "routerRedux",
+        "login",
+        "state",
+        "state",
+        "state",
+        "state",
+        "payload"
+    ],
+    "literals": [
+        "'dva/router'",
+        "'services/login'",
+        "'authentication'",
+        "'driver'",
+        "'customer'",
+        "'________________________'"
+    ],
+    "variables": [],
+    "comments": [
+        "const data = yield call(login, payload)\n      const { locationQuery } = yield select(_ => _.app)\n      if (data.success) {\n        const { from } = locationQuery\n        yield put({ type: 'app/query' })\n        if (from && from !== '/login') {\n          yield put(routerRedux.push(from))\n        } else {\n          yield put(routerRedux.push('/dashboard'))\n        }\n      } else {\n        throw data\n      }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "driver",
+        "customer",
+        "register"
+    ],
+    "classes": []
+}

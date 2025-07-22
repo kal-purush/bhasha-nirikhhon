@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Mirage",
+        "Components",
+        "NetworkBehaviour",
+        "Action",
+        "SyncVar",
+        "hook",
+        "nameof",
+        "OnReadyChanged",
+        "invokeHookOnServer",
+        "_isReady",
+        "ready",
+        "_isReady",
+        "ready"
+    ],
+    "literals": [],
+    "variables": [
+        "OnReadyChanged",
+        "_isReady",
+        "IsReady"
+    ],
+    "comments": [
+        "Simple component to track if a player is ready in a lobby",
+        "<para>",
+        "To best use this component Set Sync Direction from owner to server",
+        "</para>",
+        "</summary>",
+        "note need a methods to set syncvar, otherwise scripts in another asmdef will not set if via weaver"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "SetReady"
+    ],
+    "classes": [
+        "ReadyCheck"
+    ]
+}

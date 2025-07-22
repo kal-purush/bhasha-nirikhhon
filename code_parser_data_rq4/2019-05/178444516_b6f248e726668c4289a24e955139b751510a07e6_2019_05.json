@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "Component",
+        "layout",
+        "classNames",
+        "tagName",
+        "FILE_INPUT",
+        "FILE_INPUT_HAS_SELECTION",
+        "FILE_UPLOAD_INPUT",
+        "DISABLED",
+        "FILL",
+        "LARGE",
+        "action",
+        "computed",
+        "htmlSafe",
+        "tagName",
+        "classNames",
+        "FILE_INPUT",
+        "Component",
+        "layout",
+        "computed",
+        "htmlSafe",
+        "FILE_INPUT_HAS_SELECTION",
+        "DISABLED",
+        "FILL",
+        "LARGE",
+        "FILE_UPLOAD_INPUT",
+        "action"
+    ],
+    "literals": [
+        "'@ember/component'",
+        "'./template'",
+        "'@ember-decorators/component'",
+        "'../../-private/common/classes'",
+        "'@ember-decorators/object'",
+        "'@ember/string'",
+        "'label'",
+        "string",
+        "'Choose file...'",
+        "'style'",
+        "'style'",
+        "hasSelection:${FILE_INPUT_HAS_SELECTION}",
+        "disabled:${DISABLED}",
+        "fill:${FILL}",
+        "large:${LARGE}",
+        "'Style'",
+        "'onInputChange'",
+        "'onInputChange'"
+    ],
+    "variables": [],
+    "comments": [
+        "@ts-ignore: Ignore import of compiled template",
+        "inline style to its parent",
+        "normal class body definition here"
+    ],
+    "docstrings": [
+        "* Whether the file input is non-interactive.\n    * Setting this to `true` will automatically disable the child input too.",
+        "* Whether the file input should take up the full width of its container.",
+        "* Whether the user has made a selection in the input. This will affect the component's\n   * text styling. Make sure to set a non-empty value for the text prop as well.\n   * @default false",
+        "* The props to pass to the child input.\n   * `disabled` will be ignored in favor of the top-level prop.\n   * `type` will be ignored, because the input _must_ be `type=\"file\"`.",
+        "* Whether the file input should appear with large styling.",
+        "* Callback invoked on `<input>` `change` events.",
+        "* The text to display.\n   * @default \"Choose file...\""
+    ],
+    "functions": [
+        "Style",
+        "handleInputChange"
+    ],
+    "classes": [
+        "FileInput"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "osgi",
+        "enroute",
+        "examples",
+        "vaadin",
+        "api",
+        "org",
+        "osgi",
+        "annotation",
+        "versioning",
+        "ConsumerType",
+        "com",
+        "vaadin",
+        "server",
+        "UICreateEvent",
+        "com",
+        "vaadin",
+        "ui",
+        "UI",
+        "ConsumerType",
+        "Application",
+        "SERVICE_PROPERY_ALIAS"
+    ],
+    "literals": [
+        "\"alias\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* A service interface for bundles that want to create a Vaadin application.\n * These services should be registered with the {@link #SERVICE_PROPERY_ALIAS}\n * to the path where the application should reside.\n * <p>\n * Normally in Vaadin the instances are created by Vaadin but in this case the\n * application can setup the instances.\n * \n * @param <T>\n *            the UI type this application supports",
+        "* Service property for the alias",
+        "* Return the class to be used for the UI. This class can contain the @Theme annotation \n\t * @return the class",
+        "* Create an instance for a new session. This class must extend the class returned from {@link #getUIClass()}\n\t * \n\t * @param event the create event\n\t * @return"
+    ],
+    "functions": [
+        "getUIClass",
+        "T",
+        "getInstance"
+    ],
+    "classes": []
+}

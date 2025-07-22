@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "com",
+        "dragovorn",
+        "gamecraft",
+        "game",
+        "com",
+        "dragovorn",
+        "gamecraft",
+        "player",
+        "GamePlayer",
+        "org",
+        "bukkit",
+        "ChatColor",
+        "java",
+        "util",
+        "java",
+        "util",
+        "players",
+        "color",
+        "name",
+        "color",
+        "name",
+        "color",
+        "color",
+        "name",
+        "name",
+        "color",
+        "name",
+        "gamePlayer",
+        "players",
+        "add",
+        "gamePlayer",
+        "gamePlayer",
+        "players",
+        "remove",
+        "gamePlayer",
+        "gamePlayer",
+        "players",
+        "contains",
+        "gamePlayer"
+    ],
+    "literals": [],
+    "variables": [
+        "color",
+        "name"
+    ],
+    "comments": [
+        "Set because cannot have duplicates anyway and want the function fo a collection."
+    ],
+    "docstrings": [
+        "* @author Cam\n * @since 2017-12-07",
+        "*\n     * Creates a new team with the passed in color\n     * and name.\n     *\n     * @param color Color of team.\n      * @param name Team name.",
+        "*\n     * Returns the color assigned to the team.\n     *\n     * @return Team color.",
+        "*\n     * Returns the name of the team.\n     *\n     * @return Team name.",
+        "*\n     * Adds a player to the list of players\n     * contained in the list.\n     *\n     * @param gamePlayer Player to add to team.",
+        "*\n     * Removes the passed in player from the team.\n     *\n     * @param gamePlayer Player to remove.",
+        "*\n     * Returns a boolean based on if the passed in\n     * player is in the team.\n     *\n     * @param gamePlayer Player to check for.\n     * @return If player is in team."
+    ],
+    "functions": [
+        "Team",
+        "ChatColor",
+        "getColor",
+        "getName",
+        "add",
+        "remove",
+        "contains"
+    ],
+    "classes": [
+        "Team"
+    ]
+}

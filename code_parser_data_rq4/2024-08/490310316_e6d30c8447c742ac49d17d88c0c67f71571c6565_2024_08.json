@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "styled",
+        "FlexDivColumnCentered",
+        "styled",
+        "FlexDivColumnCentered",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'styles/common'",
+        "color: ${(props) => props.theme.overdrop.textColor.quaternary};\n    background-color: ${(props) =>\n        props?.active ? props.theme.overdrop.textColor.primary : props.theme.overdrop.background.quaternary};\n    margin-right: 5px;\n    border-radius: 50%;\n    width: 20px;\n    min-height: 20px;\n    font-size: 11px;\n    font-weight: 900;\n    justify-content: center;\n    text-align: center;"
+    ],
+    "variables": [
+        "Circle"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

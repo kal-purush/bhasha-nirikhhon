@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "runAuthenticatedQuery",
+        "gql",
+        "describe",
+        "gql",
+        "it",
+        "runAuthenticatedQuery",
+        "mutation",
+        "context",
+        "expect",
+        "data",
+        "it",
+        "runAuthenticatedQuery",
+        "mutation",
+        "context",
+        "expect",
+        "data"
+    ],
+    "literals": [
+        "\"schema/v2/test/utils\"",
+        "\"lib/gql\"",
+        "\"myCollectionDeleteArtworkMutation\"",
+        "mutation {\n      myCollectionDeleteArtwork(input: { artworkId: \"foo\" }) {\n        artworkOrError {\n          ... on MyCollectionArtworkMutationDeleteSuccess {\n            success\n          }\n          ... on MyCollectionArtworkMutationFailure {\n            mutationError {\n              message\n            }\n          }\n        }\n      }\n    }",
+        "\"returns an error\"",
+        "https://stagingapi.artsy.net/api/v1/my_collection/artworks/foo - {\"error\":\"Error deleting artwork\"}",
+        "\"Error deleting artwork\"",
+        "\"deletes an artwork\"",
+        "\"My Collection\""
+    ],
+    "variables": [
+        "mutation",
+        "context",
+        "data",
+        "context",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

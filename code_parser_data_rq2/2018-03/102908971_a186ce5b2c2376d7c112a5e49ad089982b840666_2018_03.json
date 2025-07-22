@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "psqlgraph",
+        "sheepdog",
+        "transactions",
+        "upload",
+        "entity",
+        "UploadEntity",
+        "sheepdog",
+        "transactions",
+        "upload",
+        "sub_entities",
+        "NonFileUploadEntity",
+        "sheepdog",
+        "transactions",
+        "upload",
+        "sub_entities",
+        "FileUploadEntity",
+        "node_type",
+        "psqlgraph",
+        "Node",
+        "get_subclass",
+        "node_type",
+        "cls",
+        "_dictionary",
+        "get",
+        "staticmethod",
+        "transaction",
+        "doc",
+        "config",
+        "isinstance",
+        "doc",
+        "UploadEntity",
+        "transaction",
+        "config",
+        "doc",
+        "get",
+        "get_node_category",
+        "node_type",
+        "node_category",
+        "UploadEntity",
+        "DATA_FILE_CATEGORIES",
+        "FileUploadEntity",
+        "transaction",
+        "config",
+        "NonFileUploadEntity",
+        "transaction",
+        "config"
+    ],
+    "literals": [
+        "'category'",
+        "'type'"
+    ],
+    "variables": [
+        "cls",
+        "node_type",
+        "node_category"
+    ],
+    "comments": [
+        "We cannot determine category, just create base class",
+        "NOTE: This error with doc will get recorded using record_error()",
+        "when the parse() function gets called to support",
+        "more helpful debugging"
+    ],
+    "docstrings": [
+        "\"\"\"\nClass Factory for creating new upload entities\n\"\"\"",
+        "\"\"\"\n    Get the category for the given node type specified\n\n    Args:\n        node_type (str): the type of node\n\n    Returns:\n        str: node category\n    \"\"\"",
+        "\"\"\"\n    Class factory for creating new upload entities based on the\n    attributes specified in the given doc.\n    \"\"\"",
+        "\"\"\"\n        Will attempt to parse the  type from the doc and check the dictionary\n        for that node type's category.\n\n        Will then return an instance of UploadEntity or one of its\n        subclasses based on the discovered category.\n        \"\"\""
+    ],
+    "functions": [
+        "get_node_category",
+        "create"
+    ],
+    "classes": [
+        "UploadEntityFactory"
+    ]
+}

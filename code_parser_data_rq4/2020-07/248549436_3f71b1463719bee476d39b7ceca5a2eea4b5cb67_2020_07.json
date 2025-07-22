@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "\"typeorm\"",
+        "'blurhashForAvatarBanner1595077605646'",
+        "ALTER TABLE \"user\" DROP COLUMN \"avatarColor\"",
+        "ALTER TABLE \"user\" DROP COLUMN \"bannerColor\"",
+        "ALTER TABLE \"user\" ADD \"avatarBlurhash\" character varying(128)",
+        "ALTER TABLE \"user\" ADD \"bannerBlurhash\" character varying(128)",
+        "ALTER TABLE \"user\" DROP COLUMN \"bannerBlurhash\"",
+        "ALTER TABLE \"user\" DROP COLUMN \"avatarBlurhash\"",
+        "ALTER TABLE \"user\" ADD \"bannerColor\" character varying(32)",
+        "ALTER TABLE \"user\" ADD \"avatarColor\" character varying(32)"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "blurhashForAvatarBanner1595077605646"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "Virtex",
+        "viewport",
+        "obj",
+        "obj",
+        "bufferGeometry",
+        "bufferGeometry",
+        "bufferGeometry",
+        "bufferGeometry",
+        "bufferGeometry",
+        "bufferGeometry",
+        "bufferGeometry",
+        "sizeX",
+        "sizeX",
+        "sizeY",
+        "sizeY",
+        "sizeZ",
+        "sizeZ",
+        "diagonalSize",
+        "bufferGeometry",
+        "bufferGeometry",
+        "bufferGeometry",
+        "bufferGeometry",
+        "bufferGeometry",
+        "bufferGeometry",
+        "obj",
+        "scale",
+        "obj",
+        "midX",
+        "scale",
+        "obj",
+        "midY",
+        "scale",
+        "obj",
+        "midZ",
+        "scale",
+        "obj",
+        "obj",
+        "viewport",
+        "obj",
+        "viewport"
+    ],
+    "literals": [],
+    "variables": [
+        "bufferGeometry",
+        "sizeX",
+        "sizeY",
+        "sizeZ",
+        "diagonalSize",
+        "scale",
+        "midX",
+        "midY",
+        "midZ"
+    ],
+    "comments": [
+        "const material = new THREE.MeshStandardMaterial({vertexColors: THREE.VertexColors});\n            let geometry;\n            // Point cloud does not have face indices.\n            if (bufferGeometry.index == null) {\n                geometry = new THREE.Points(bufferGeometry, material);\n            } else {\n                bufferGeometry.computeVertexNormals();\n                geometry = new THREE.Mesh(bufferGeometry, material);\n            }",
+        "Compute range of the geometry coordinates for proper rendering.",
+        "obj = geometry;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setup"
+    ],
+    "classes": [
+        "CORTOFileTypeHandler"
+    ]
+}

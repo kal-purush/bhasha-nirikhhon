@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "config",
+        "config",
+        "settings",
+        "settings",
+        "base_dir",
+        "settings",
+        "base_dir"
+    ],
+    "literals": [
+        "'codeforces'",
+        "'https://raw.githubusercontent.com/sudiptob2/cf-stats/main/assets/cflogo.svg'",
+        "'https://codeforces.com/api/user.info?handles={0}'",
+        "'https://codeforces.com/api/user.status?handle={0}'",
+        "'https://codeforces.com/api/user.rating?handle={0}'",
+        "'badge'",
+        "'card'",
+        "'rating'",
+        "'max_rating'",
+        "'light_card'",
+        "f'{settings.base_dir}/template'",
+        "f'{settings.base_dir}/output'"
+    ],
+    "variables": [
+        "CODEFORCES",
+        "LOGO",
+        "USER_INFO",
+        "USER_STATUS",
+        "USER_RATING",
+        "BADGE",
+        "CARD",
+        "RATING",
+        "MAX_RATING",
+        "LIGHT_CARD",
+        "TEMPLATE_FOLDER",
+        "OUTPUT_FOLDER",
+        "ACC_MAX_LEN"
+    ],
+    "comments": [
+        "website names",
+        "API endpoints",
+        "SVG types",
+        "Badge type",
+        "Template location",
+        "Output folder location",
+        "Acronym MAX lenght"
+    ],
+    "docstrings": [
+        "\"\"\"Class for organizing constants.\"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "Constant"
+    ]
+}

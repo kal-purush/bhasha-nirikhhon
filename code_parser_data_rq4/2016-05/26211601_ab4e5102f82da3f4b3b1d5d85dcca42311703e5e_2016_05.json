@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "com",
+        "contentful",
+        "java",
+        "cma",
+        "java",
+        "util",
+        "java",
+        "util",
+        "FETCH",
+        "FETCH",
+        "put",
+        "target",
+        "defaults",
+        "key",
+        "defaults",
+        "keySet",
+        "target",
+        "containsKey",
+        "key",
+        "target",
+        "put",
+        "key",
+        "defaults",
+        "get",
+        "key"
+    ],
+    "literals": [
+        "\"Do not create instance from this class!\"",
+        "\"limit\"",
+        "\"100\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Internal class for storing default http query parameter.",
+        "* Do not initiate this class. Its only used in static contexts.\n   *\n   * @throws UnsupportedOperationException since it should not be used.",
+        "* Use these parameter for every fetch, unless overwritten by user.\n   *\n   * Right now set the limit to 100.",
+        "* Update a given map with some default values if not already present in map.\n\n   * @param target the map to be filled with values, if a key for them is not set already.\n   * @param defaults the list of defaults, to be set."
+    ],
+    "functions": [
+        "DefaultQueryParameter",
+        "putIfNotSet"
+    ],
+    "classes": [
+        "DefaultQueryParameter"
+    ]
+}

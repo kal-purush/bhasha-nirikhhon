@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "constants",
+        "getAuth",
+        "signInWithEmailAndPassword",
+        "constants",
+        "getAuth",
+        "e",
+        "e",
+        "email",
+        "pwd",
+        "email",
+        "pwd",
+        "btnRequest",
+        "btnRequest",
+        "signInWithEmailAndPassword",
+        "email",
+        "pwd",
+        "userCredential",
+        "error",
+        "error",
+        "error",
+        "errorCode",
+        "errorMessage",
+        "btnRequest",
+        "btnRequest",
+        "alert",
+        "errorMessage",
+        "LoginComponent"
+    ],
+    "literals": [
+        "\"../../utils/constants\"",
+        "\"firebase/auth\"",
+        "'#form-id'",
+        "'#txt-user'",
+        "'#txt-pwd'",
+        "'#btn-request'",
+        "<h1>\n                Inicio de sesión\n            </h1>\n            <div class=form\">\n                <form id=\"${this.stringElements.idForm.replace('#', '')}\">\n                    <input type=\"text\" id=\"${this.stringElements.txtUser.replace('#', '')}\" placeholder=\"Correo\">\n                    <input type=\"password\" id=\"${this.stringElements.txtPwd.replace('#', '')}\" placeholder=\"Contraseña\">\n                    <button type=\"submit\" id=\"${this.stringElements.btnSubmit.replace('#', '')}\">Iniciar sesión</button>\n                </form>\n            </div>",
+        "'#'",
+        "''",
+        "'#'",
+        "''",
+        "'#'",
+        "''",
+        "'#'",
+        "''",
+        "'submit'",
+        "'beforeend'",
+        "'disabled'",
+        "'disabled'",
+        "'Iniciando...'",
+        "'Login successfully'",
+        "'auth'",
+        "'disabled'",
+        "'Iniciar sesión'"
+    ],
+    "variables": [
+        "email",
+        "pwd",
+        "btnRequest",
+        "errorCode",
+        "errorMessage"
+    ],
+    "comments": [
+        "Attach HTML components to parent div",
+        "Add DOM HTML component"
+    ],
+    "docstrings": [
+        "* Author: Richard R.\n * Email: rrivas@usaly.co\n *\n * Main component to encapsulate components"
+    ],
+    "functions": [
+        "template",
+        "events",
+        "registerElement",
+        "login",
+        "render"
+    ],
+    "classes": [
+        "LoginComponent"
+    ]
+}

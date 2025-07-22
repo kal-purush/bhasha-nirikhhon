@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "Text",
+        "Json",
+        "Serialization",
+        "JsonPropertyName",
+        "JsonPropertyName",
+        "JsonPropertyName",
+        "JsonPropertyName",
+        "JsonPropertyName",
+        "JsonPropertyName",
+        "JsonPropertyName",
+        "JsonPropertyName"
+    ],
+    "literals": [
+        "\"Name0\"",
+        "\"Name1\"",
+        "\"bootSt0\"",
+        "\"bootSt1\"",
+        "\"delay0\"",
+        "\"delay1\"",
+        "\"reset0\"",
+        "\"reset0\""
+    ],
+    "variables": [
+        "ChannelName0",
+        "ChannelName1",
+        "BootState0",
+        "BootState1",
+        "Delay0",
+        "Delay1",
+        "Reset0",
+        "Reset1"
+    ],
+    "comments": [
+        "Schaltzustand nach Systemstart - Relay 0",
+        "0: Off",
+        "1: On",
+        "2: Last state",
+        "</summary>",
+        "Schaltzustand nach Systemstart - Relay 1",
+        "0: Off",
+        "1: On",
+        "2: Last state",
+        "</summary>",
+        "Einschaltverzögerung nach Systemstart in Sekunden - Relay 0",
+        "</summary>",
+        "Einschaltverzögerung nach Systemstart in Sekunden - Relay 1",
+        "</summary>",
+        "Automatisches Wiedereinschalten nach Ausschalten nach x Sekunden (0 = deaktiviert) - Relay 0",
+        "</summary>",
+        "Automatisches Wiedereinschalten nach Ausschalten nach x Sekunden (0 = deaktiviert) - Relay 1",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "SetSwitchSettings"
+    ]
+}

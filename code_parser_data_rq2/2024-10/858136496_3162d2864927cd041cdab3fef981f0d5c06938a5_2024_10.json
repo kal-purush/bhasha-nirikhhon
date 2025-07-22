@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "account_number",
+        "customer_name",
+        "date_of_opening",
+        "balance",
+        "account_number",
+        "customer_name",
+        "date_of_opening",
+        "balance",
+        "amount",
+        "balance",
+        "amount",
+        "amount",
+        "balance",
+        "amount",
+        "balance",
+        "amount",
+        "balance",
+        "amount",
+        "amount",
+        "balance",
+        "balance",
+        "customer_name",
+        "account_number",
+        "date_of_opening",
+        "balance",
+        "BankAccount",
+        "account_number",
+        "customer_name",
+        "date_of_opening",
+        "balance",
+        "account",
+        "deposit",
+        "account",
+        "withdraw",
+        "account",
+        "withdraw",
+        "account",
+        "check_balance",
+        "account",
+        "customer_details"
+    ],
+    "literals": [
+        "f\"Ksh {amount} has been deposited. New balance is: Ksh {self.balance:.2f}\"",
+        "\"Insufficient balance!\"",
+        "f\"Ksh {amount} has been withdrawn. New balance is: Ksh {self.balance:.2f}\"",
+        "f\"Current balance: Ksh {self.balance:.2f}\"",
+        "f\"Customer Name: {self.customer_name}\"",
+        "f\"Account Number: {self.account_number}\"",
+        "f\"Date of Opening: {self.date_of_opening}\"",
+        "f\"Current Balance: Ksh {self.balance:.2f}\"",
+        "\"915457234\"",
+        "\"susan\"",
+        "\"2024-10-15\""
+    ],
+    "variables": [
+        "account_number",
+        "customer_name",
+        "date_of_opening",
+        "balance",
+        "account"
+    ],
+    "comments": [
+        "Depositing 5000",
+        "Withdrawing 2000",
+        "Trying to withdraw more than the balance"
+    ],
+    "docstrings": [],
+    "functions": [
+        "deposit",
+        "withdraw",
+        "check_balance",
+        "customer_details"
+    ],
+    "classes": [
+        "BankAccount"
+    ]
+}

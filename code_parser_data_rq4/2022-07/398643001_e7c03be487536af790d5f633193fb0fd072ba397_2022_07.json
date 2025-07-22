@@ -1,0 +1,93 @@
+{
+    "identifiers": [
+        "Threading",
+        "Tasks",
+        "Coflnet",
+        "Payments",
+        "Models",
+        "Coflnet",
+        "Payments",
+        "Services",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Payments",
+        "Controllers",
+        "ApiController",
+        "Route",
+        "ControllerBase",
+        "PaymentContext",
+        "db",
+        "ProductService",
+        "productService",
+        "GroupService",
+        "groupService",
+        "RuleEngine",
+        "ruleEngine",
+        "db",
+        "db",
+        "productService",
+        "productService",
+        "groupService",
+        "groupService",
+        "ruleEngine",
+        "ruleEngine",
+        "HttpPost",
+        "SystemState",
+        "state",
+        "state",
+        "Products",
+        "state",
+        "Products",
+        "Count",
+        "ApiException",
+        "productService",
+        "ApplyProductList",
+        "state",
+        "Products",
+        "productService",
+        "ApplyTopupList",
+        "state",
+        "TopUpProducts",
+        "groupService",
+        "ApplyGroupList",
+        "state",
+        "Groups",
+        "ruleEngine",
+        "ApplyRuleList",
+        "state",
+        "Rules"
+    ],
+    "literals": [
+        "\"[controller]\"",
+        "\"No products provided, this is likely an mistake, blocking applying of state\""
+    ],
+    "variables": [
+        "PaymentContext",
+        "db",
+        "ProductService",
+        "productService",
+        "GroupService",
+        "groupService",
+        "RuleEngine",
+        "ruleEngine"
+    ],
+    "comments": [
+        "Brings all products, groups and roles into the given state",
+        "will disable/delete anything not present so use carefully",
+        "</summary>",
+        "<param name=\"state\"></param>",
+        "<returns></returns>",
+        "<exception cref=\"ApiException\"></exception>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "ApplyController",
+        "ApplyState"
+    ],
+    "classes": [
+        "ApplyController"
+    ]
+}

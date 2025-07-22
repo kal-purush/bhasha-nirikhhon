@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "ErrorTolerantWalker",
+        "Lint",
+        "sourceFile",
+        "ts",
+        "Lint",
+        "NoForInRuleWalker",
+        "sourceFile",
+        "ErrorTolerantWalker",
+        "node",
+        "ts",
+        "node",
+        "node",
+        "Rule",
+        "initializer",
+        "expression",
+        "node",
+        "node",
+        "msg"
+    ],
+    "literals": [
+        "'./ErrorTolerantWalker'",
+        "'Do not use for in statements, use Object.keys instead: '",
+        "string",
+        "string",
+        "string",
+        "'for ('",
+        "' in '",
+        "')'"
+    ],
+    "variables": [
+        "initializer",
+        "expression",
+        "msg"
+    ],
+    "comments": [
+        "<reference path=\"references.ts\" />"
+    ],
+    "docstrings": [
+        "* Implementation of the no-for-in rule."
+    ],
+    "functions": [
+        "apply",
+        "visitForInStatement"
+    ],
+    "classes": [
+        "Rule",
+        "NoForInRuleWalker"
+    ]
+}

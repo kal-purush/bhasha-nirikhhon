@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "props",
+        "props",
+        "styled",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "STATUS_COLORS",
+        "styled",
+        "StatusProps",
+        "props",
+        "props",
+        "STATUS_COLORS",
+        "props"
+    ],
+    "literals": [
+        "'styled-components'",
+        "flex: 1;\n  padding: 3.5rem;\n\n  display: flex;\n  flex-direction: column;\n\n  h1 {\n    font-size: 1.5rem;\n    color: ${(props) => props.theme['gray-100']};\n  }",
+        "'gray-100'",
+        "flex: 1;\n  overflow: auto;\n  margin-top: 2rem;\n\n  table {\n    width: 100%;\n    border-collapse: collapse;\n    min-width: '600px';\n\n    th {\n      background-color: ${(props) => props.theme['gray-600']};\n      padding: 1rem;\n      text-align: left;\n      color: ${(props) => props.theme['gray-100']};\n      font-size: 0.875rem;\n      line-height: 1.6;\n\n      &:first-child {\n        border-top-left-radius: '8px';\n        padding-left: 1.5rem;\n      }\n\n      &:last-child {\n        border-top-left-radius: '8px';\n        padding-right: 1.5rem;\n      }\n    }\n\n    td {\n      background-color: ${(props) => props.theme['gray-700']};\n      border-top: 4px solid ${(props) => props.theme['gray-800']};\n      padding: 1rem;\n      font-size: 0.875rem;\n      line-height: 1.6;\n\n      &:first-child {\n        width: 50%;\n        padding-left: 1.5rem;\n      }\n\n      &:last-child {\n        padding-right: 1.5rem;\n      }\n    }\n  }",
+        "'gray-600'",
+        "'gray-100'",
+        "'gray-700'",
+        "'gray-800'",
+        "'yellow-500'",
+        "'green-500'",
+        "'red-500'",
+        "display: flex;\n  align-items: center;\n  gap: 0.5rem;\n\n  &::before {\n    content: '';\n    width: 0.5rem;\n    height: 0.5rem;\n    border-radius: 50%;\n    background-color: ${(props) =>\n      props.theme[STATUS_COLORS[props.statusColor]]};\n  }"
+    ],
+    "variables": [
+        "HistoryContainer",
+        "HistoryList",
+        "STATUS_COLORS",
+        "Status"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

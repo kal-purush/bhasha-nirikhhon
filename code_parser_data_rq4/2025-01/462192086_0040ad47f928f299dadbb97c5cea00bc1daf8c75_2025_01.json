@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "n",
+        "i",
+        "n",
+        "i",
+        "n",
+        "i",
+        "i",
+        "result",
+        "append",
+        "left_stars",
+        "spaces",
+        "right_stars",
+        "result",
+        "append",
+        "n",
+        "i",
+        "n",
+        "i",
+        "n",
+        "i",
+        "i",
+        "result",
+        "append",
+        "left_stars",
+        "spaces",
+        "right_stars",
+        "join",
+        "result",
+        "input",
+        "butterfly_pattern",
+        "n"
+    ],
+    "literals": [
+        "\"*\"",
+        "\" \"",
+        "\"*\"",
+        "\"*\"",
+        "\"*\"",
+        "\" \"",
+        "\"*\"",
+        "\"\\n\"",
+        "\"__main__\"",
+        "\"Enter the size of the butterfly pattern: \""
+    ],
+    "variables": [
+        "result",
+        "left_stars",
+        "spaces",
+        "right_stars",
+        "left_stars",
+        "spaces",
+        "right_stars",
+        "n"
+    ],
+    "comments": [
+        "Upper part",
+        "Middle part",
+        "Lower part"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Creates a butterfly pattern of size n and returns it as a string.\n\n    >>> print(butterfly_pattern(3))\n    *   *\n    ** **\n    *****\n    ** **\n    *   *\n    >>> print(butterfly_pattern(5))\n    *       *\n    **     **\n    ***   ***\n    **** ****\n    *********\n    **** ****\n    ***   ***\n    **     **\n    *       *\n    \"\"\""
+    ],
+    "functions": [
+        "butterfly_pattern"
+    ],
+    "classes": []
+}

@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "i",
+        "i",
+        "inputValues",
+        "i",
+        "validation",
+        "inputValues",
+        "i",
+        "inputValues",
+        "i",
+        "errorNotice",
+        "errorNotice",
+        "i",
+        "i",
+        "totalPoints",
+        "inputValues",
+        "i",
+        "multipliers",
+        "i",
+        "totalPoints"
+    ],
+    "literals": [
+        "\"div.cursor\"",
+        "\"div.custom_hidden\"",
+        "\"[0-9]+$\"",
+        "'percentInput'",
+        "'error'",
+        "\"Lūdzu ievadi pareizus datus :)\"",
+        "\"\"",
+        "'totalPoints'"
+    ],
+    "variables": [
+        "validation",
+        "multipliers",
+        "inputValues",
+        "errorNotice",
+        "i",
+        "totalPoints",
+        "i"
+    ],
+    "comments": [
+        "var array=document.getElementsByName('qty');\n    var totalPoints=0;\n    var multipliers = [2.5,3.5,2.0,2.0];\n    document.getElementById('totalPoints').value=totalPoints;\n    alert(array[i].value+'COOL');\n    for(var i=0;i<4;i++) {\n        if (!/^[0-9]+$/.test(array[i].value)) {\n            document.getElementById('total').value = \"Ievadi ciparus :(\";\n            return;\n        }\n    }\n    for(var i=0;i<4;i++) {\n        totalPoints +=arr[i].value * multipliers[i];\n    }\n    document.getElementById('totalPoints').innerHTML=totalPoints;\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "calculatePoints"
+    ],
+    "classes": []
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "Controller",
+        "UseGuards",
+        "Post",
+        "Delete",
+        "Patch",
+        "Body",
+        "Param",
+        "AuthGuard",
+        "ApiBearerAuth",
+        "ApiUnauthorizedResponse",
+        "ApiInternalServerErrorResponse",
+        "ApiUseTags",
+        "ICreateCourseItemData",
+        "SwaggerTags",
+        "UseGuards",
+        "AuthGuard",
+        "ApiBearerAuth",
+        "ApiUnauthorizedResponse",
+        "ApiInternalServerErrorResponse",
+        "ApiUseTags",
+        "SwaggerTags",
+        "Controller",
+        "Post",
+        "Body",
+        "createCourseItemDto",
+        "Delete",
+        "Param",
+        "courseItemIdAsString",
+        "Patch",
+        "Body",
+        "courseItemDto"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'@nestjs/passport'",
+        "'@nestjs/swagger'",
+        "'../models/courses.models'",
+        "'../constants'",
+        "'You have to authorize and provide a token in headers'",
+        "'Server internal error'",
+        "'course-items'",
+        "':courseItemId'",
+        "'courseItemId'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "createCourseItem",
+        "removeCourseItem",
+        "modifyCourseItem"
+    ],
+    "classes": [
+        "CourseItemsController"
+    ]
+}

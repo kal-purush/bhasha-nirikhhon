@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "fetch",
+        "response",
+        "response",
+        "data",
+        "data",
+        "data",
+        "i",
+        "contributors",
+        "i",
+        "contributorImageURL",
+        "i",
+        "contributors",
+        "i",
+        "contributorGitHubURL",
+        "i",
+        "contributors",
+        "i",
+        "contributorsName",
+        "i",
+        "contributors",
+        "i",
+        "contributor",
+        "i",
+        "contributorGitHubURL",
+        "i",
+        "contributorImageURL",
+        "i",
+        "contributorsName",
+        "i",
+        "contributor",
+        "contributorBox",
+        "contributor",
+        "e",
+        "e",
+        "fetchData"
+    ],
+    "literals": [
+        "'https://api.github.com/repos/SauravMukherjee44/CodeIN-Community-Website/contributors'",
+        "\"No contributors\"",
+        "<a href=\"${contributorGitHubURL[i]}\"><img src=\"${contributorImageURL[i]}\" alt=\"${contributorsName[i]}\"></a>",
+        "\"#contributor\"",
+        "\"\""
+    ],
+    "variables": [
+        "contributors",
+        "contributorsName",
+        "contributorImageURL",
+        "contributorGitHubURL",
+        "contributor",
+        "i",
+        "contributorBox"
+    ],
+    "comments": [
+        "fetching data",
+        "api for the get request",
+        "check if data is null or undifined uing nullish coolision js(2020)\n            if undified return no contributors",
+        "getting contibutors img and url",
+        "getting dom elements",
+        "call the function"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchData"
+    ],
+    "classes": []
+}

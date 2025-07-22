@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpClient",
+        "Group",
+        "Observable",
+        "environment",
+        "FilterDateAdapter",
+        "DateModel",
+        "Injectable",
+        "httpClient",
+        "filterDateAdapter",
+        "group",
+        "environment",
+        "group",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common/http'",
+        "'../../shared/models/group'",
+        "'rxjs'",
+        "'../../../environments/environment'",
+        "'rxjs/operators'",
+        "'../../shared/adapters/filter-date.adapter'",
+        "'../../shared/models/date-selection/date.model'",
+        "'root'",
+        "${environment.api}/groups/${group.id}/date-filter"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getFilterData"
+    ],
+    "classes": [
+        "DateService"
+    ]
+}

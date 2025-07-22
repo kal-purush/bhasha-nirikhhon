@@ -1,0 +1,88 @@
+{
+    "identifiers": [
+        "HtcSharp",
+        "HttpModule",
+        "Core",
+        "Http",
+        "Features",
+        "AppContext",
+        "TryGetSwitch",
+        "enabled",
+        "SuppressSameSiteNone",
+        "enabled",
+        "Path",
+        "DateTimeOffset",
+        "SuppressSameSiteNone",
+        "SameSiteMode",
+        "SameSiteMode",
+        "Unspecified",
+        "TimeSpan"
+    ],
+    "literals": [
+        "\"Microsoft.AspNetCore.SuppressSameSiteNone\"",
+        "\"/\""
+    ],
+    "variables": [
+        "SuppressSameSiteNone",
+        "Domain",
+        "Path",
+        "Expires",
+        "Secure",
+        "SameSiteMode",
+        "SameSite",
+        "HttpOnly",
+        "MaxAge",
+        "IsEssential"
+    ],
+    "comments": [
+        "Options used to create a new cookie.",
+        "</summary>",
+        "True (old): https://tools.ietf.org/html/draft-west-first-party-cookies-07#section-3.1",
+        "False (new): https://tools.ietf.org/html/draft-ietf-httpbis-rfc6265bis-03#section-4.1.1",
+        "Creates a default cookie with a path of '/'.",
+        "</summary>",
+        "Gets or sets the domain to associate the cookie with.",
+        "</summary>",
+        "<returns>The domain to associate the cookie with.</returns>",
+        "Gets or sets the cookie path.",
+        "</summary>",
+        "<returns>The cookie path.</returns>",
+        "Gets or sets the expiration date and time for the cookie.",
+        "</summary>",
+        "<returns>The expiration date and time for the cookie.</returns>",
+        "Gets or sets a value that indicates whether to transmit the cookie using Secure Sockets Layer (SSL)--that is, over HTTPS only.",
+        "</summary>",
+        "<returns>true to transmit the cookie only over an SSL connection (HTTPS); otherwise, false.</returns>",
+        "Gets or sets the value for the SameSite attribute of the cookie. The default value is <see cref=\"SameSiteMode.Unspecified\"/>",
+        "</summary>",
+        "<returns>The <see cref=\"SameSiteMode\"/> representing the enforcement mode of the cookie.</returns>",
+        "Gets or sets a value that indicates whether a cookie is accessible by client-side script.",
+        "</summary>",
+        "<returns>true if a cookie must not be accessible by client-side script; otherwise, false.</returns>",
+        "Gets or sets the max-age for the cookie.",
+        "</summary>",
+        "<returns>The max-age date and time for the cookie.</returns>",
+        "Indicates if this cookie is essential for the application to function correctly. If true then",
+        "consent policy checks may be bypassed. The default value is false.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "CookieOptions",
+        "CookieOptions"
+    ],
+    "classes": [
+        "CookieOptions"
+    ]
+}

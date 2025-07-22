@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "constants",
+        "XHR",
+        "XHR",
+        "count",
+        "navigator",
+        "alert",
+        "position",
+        "position",
+        "elLocation",
+        "coords",
+        "coords",
+        "xhr",
+        "constants",
+        "coords",
+        "coords",
+        "constants",
+        "navigator"
+    ],
+    "literals": [
+        "'./constants'",
+        "'./utils/xhr'",
+        "'Geolocation is not supported by your browser'",
+        "'geolocation'",
+        "${coords.latitude}, ${coords.longitude}",
+        "${constants.GEO_URL}find?lat=${coords.latitude}&lon=${coords.longitude}&cnt=${this.count}&appid=${constants.GEO_API_KEY}",
+        "'Unable to retrieve your location'"
+    ],
+    "variables": [
+        "xhr",
+        "coords",
+        "elLocation"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getPos",
+        "getPosError",
+        "getPosition"
+    ],
+    "classes": [
+        "Geo"
+    ]
+}

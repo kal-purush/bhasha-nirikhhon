@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "\"typeorm\"",
+        "'mutingNotificationTypes1600353287890'",
+        "ALTER TABLE \"user_profile\" DROP COLUMN \"includingNotificationTypes\"",
+        "DROP TYPE \"public\".\"user_profile_includingnotificationtypes_enum\"",
+        "CREATE TYPE \"user_profile_mutingnotificationtypes_enum\" AS ENUM('follow', 'mention', 'reply', 'renote', 'quote', 'reaction', 'pollVote', 'receiveFollowRequest', 'followRequestAccepted', 'groupInvited', 'app')",
+        "ALTER TABLE \"user_profile\" ADD \"mutingNotificationTypes\" \"user_profile_mutingnotificationtypes_enum\" array NOT NULL DEFAULT '{}'",
+        "ALTER TABLE \"user_profile\" DROP COLUMN \"mutingNotificationTypes\"",
+        "DROP TYPE \"user_profile_mutingnotificationtypes_enum\"",
+        "CREATE TYPE \"public\".\"user_profile_includingnotificationtypes_enum\" AS ENUM('follow', 'mention', 'reply', 'renote', 'quote', 'reaction', 'pollVote', 'receiveFollowRequest', 'followRequestAccepted', 'groupInvited', 'app')",
+        "ALTER TABLE \"user_profile\" ADD \"includingNotificationTypes\" \"user_profile_includingnotificationtypes_enum\" array"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "mutingNotificationTypes1600353287890"
+    ]
+}

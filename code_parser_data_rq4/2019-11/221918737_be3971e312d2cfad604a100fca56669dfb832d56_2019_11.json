@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "createGlobalStyle",
+        "reboot",
+        "defaultTheme",
+        "defaultTheme",
+        "createGlobalStyle",
+        "reboot",
+        "rebootOptions",
+        "defaultTheme",
+        "GlobalStyle"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'styled-reboot'",
+        "'./defaultTheme'",
+        "@import url('https://fonts.googleapis.com/css?family=Poppins|Open+Sans');\n  ${reboot(rebootOptions)}\n  h1, h2, h3, h4, h5, h6 {\n    font-family: ${defaultTheme.font.family.title}\n  }"
+    ],
+    "variables": [
+        "rebootOptions",
+        "GlobalStyle"
+    ],
+    "comments": [
+        "TODO: Replace these with correct values when in theme",
+        "headingsMarginBottom: space[3],",
+        "paragraphMarginBottom: space[4],",
+        "labelMarginBottom: space[3],",
+        "lineHeightBase: font.lineHeights.display,"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

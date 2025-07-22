@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "curSpeed",
+        "Random",
+        "Range",
+        "origPos",
+        "transform",
+        "position",
+        "tag",
+        "player",
+        "GameObject",
+        "Find",
+        "GetComponent",
+        "MainPlayer",
+        "transform",
+        "rotation",
+        "Quaternion",
+        "LookRotation",
+        "player",
+        "transform",
+        "position",
+        "transform",
+        "position",
+        "GetComponent",
+        "Rigidbody",
+        "MovePosition",
+        "transform",
+        "position",
+        "transform",
+        "forward",
+        "curSpeed",
+        "Time",
+        "deltaTime",
+        "playerDistance",
+        "Vector3",
+        "Distance",
+        "player",
+        "transform",
+        "position",
+        "transform",
+        "position",
+        "playerDistance",
+        "Move"
+    ],
+    "literals": [
+        "\"Enemy\"",
+        "\"Player\""
+    ],
+    "variables": [
+        "Vector3",
+        "origPos",
+        "MainPlayer",
+        "player",
+        "curSpeed",
+        "playerDistance"
+    ],
+    "comments": [
+        "speed the enemy will move",
+        "distance player currently is",
+        "maybe change ranges based on level",
+        "Use this for initialization",
+        "where the enemy spawns, not ready yet",
+        "always moves towards player, will implement AI eventually",
+        "Update is called once per frame",
+        "always check where the player is",
+        "don't keep going towards player if close enough"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Awake",
+        "Start",
+        "Move",
+        "Update",
+        "FixedUpdate"
+    ],
+    "classes": [
+        "Enemy"
+    ]
+}

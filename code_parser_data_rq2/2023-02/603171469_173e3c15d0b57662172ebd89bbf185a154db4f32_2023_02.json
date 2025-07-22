@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "copy",
+        "collections",
+        "deque",
+        "container",
+        "i",
+        "len",
+        "container",
+        "container",
+        "i",
+        "container",
+        "len",
+        "container",
+        "i",
+        "left",
+        "right",
+        "container",
+        "deque",
+        "container",
+        "i",
+        "len",
+        "container",
+        "container_copy",
+        "popleft",
+        "container_copy",
+        "pop",
+        "left",
+        "right"
+    ],
+    "literals": [],
+    "variables": [
+        "left",
+        "right",
+        "container_copy",
+        "left",
+        "right"
+    ],
+    "comments": [
+        "this line converts the input container into an equivalent deque;",
+        "converting from one form of a container into another has the runtime",
+        "of performing a copy on the container you are converting into"
+    ],
+    "docstrings": [
+        "'''\n    checks whether the input container reads the same forwards as it does backwards\n\n    >>> check_palindrome_1('abcdcba')\n    True\n    >>> check_palindrome_1('abcd')\n    False\n\n    >>> check_palindrome_1(['a', 'b', 'c', 'd', 'c', 'b', 'a'])\n    True\n    >>> check_palindrome_1(['a', 'b', 'c', 'd'])\n    False\n\n    >>> check_palindrome_1(deque(['a', 'b', 'c', 'd', 'c', 'b', 'a']))\n    True\n    >>> check_palindrome_1(deque(['a', 'b', 'c', 'd']))\n    False\n    '''",
+        "'''\n    checks whether the input container reads the same forwards as it does backwards\n\n    >>> check_palindrome_2('abcdcba')\n    True\n    >>> check_palindrome_2('abcd')\n    False\n\n    >>> check_palindrome_2(['a', 'b', 'c', 'd', 'c', 'b', 'a'])\n    True\n    >>> check_palindrome_2(['a', 'b', 'c', 'd'])\n    False\n\n    >>> check_palindrome_2(deque(['a', 'b', 'c', 'd', 'c', 'b', 'a']))\n    True\n    >>> check_palindrome_2(deque(['a', 'b', 'c', 'd']))\n    False\n    '''"
+    ],
+    "functions": [
+        "check_palindrome_1",
+        "check_palindrome_2"
+    ],
+    "classes": []
+}

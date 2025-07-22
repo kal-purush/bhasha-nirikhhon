@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Checkout",
+        "Payments"
+    ],
+    "literals": [],
+    "variables": [
+        "Id",
+        "Email",
+        "Name"
+    ],
+    "comments": [
+        "Represents a customer in a payment response.",
+        "</summary>",
+        "Gets or sets the unique identifier of the customer. This can be specified in a <see cref=\"CustomerSource\"/>",
+        "in subsequent payment requests to use the customer's default payment method.",
+        "</summary>",
+        "Gets or sets the customer email address.",
+        "</summary>",
+        "Gets or sets the customer full name.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "CustomerResponse"
+    ]
+}

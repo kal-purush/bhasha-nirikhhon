@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "describe",
+        "beforeAll",
+        "fakeUA",
+        "originUA",
+        "afterEach",
+        "jest",
+        "jest",
+        "fakeUA",
+        "test",
+        "expect",
+        "test",
+        "fakeUA",
+        "expect",
+        "test",
+        "fakeUA",
+        "expect"
+    ],
+    "literals": [
+        "'@outdated-browser'",
+        "string",
+        "'userAgent'",
+        "'render nothing if SUPPORTED_BROWSER is nil'",
+        "''",
+        "'..'",
+        "'render nothing if SUPPORTED_BROWSER is defined and match userAgent '",
+        "'a'",
+        "'a'",
+        "'..'",
+        "'render banner if SUPPORTED_BROWSER is defined and does not mtch userAgen '",
+        "'b'",
+        "'a'",
+        "'..'"
+    ],
+    "variables": [
+        "originUA",
+        "fakeUA"
+    ],
+    "comments": [
+        "@ts-expect-error global mock",
+        "@ts-expect-error global mock",
+        "@ts-expect-error global mock"
+    ],
+    "docstrings": [
+        "* @jest-environment jsdom"
+    ],
+    "functions": [
+        "get"
+    ],
+    "classes": []
+}

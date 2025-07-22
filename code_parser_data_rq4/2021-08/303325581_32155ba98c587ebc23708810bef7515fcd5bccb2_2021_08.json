@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "APIGatewayEvent",
+        "logger",
+        "v2",
+        "cloudinary",
+        "UploadApiResponse",
+        "cloudinary",
+        "process",
+        "process",
+        "handler",
+        "_context",
+        "logger",
+        "resolve",
+        "reject",
+        "cloudinary",
+        "image64",
+        "error",
+        "result",
+        "error",
+        "reject",
+        "error",
+        "resolve",
+        "result",
+        "uploadResult"
+    ],
+    "literals": [
+        "'aws-lambda'",
+        "'src/lib/logger'",
+        "'cloudinary'",
+        "'irevdev'",
+        "'Invoked image-upload function'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'Content-Type'",
+        "'application/json'"
+    ],
+    "variables": [
+        "handler",
+        "uploadResult"
+    ],
+    "comments": [
+        "import { requireOwnership } from 'src/lib/owner'",
+        "import { requireAuth } from 'src/lib/auth'",
+        "requireAuth()",
+        "await requireOwnership({projectId})"
+    ],
+    "docstrings": [
+        "* The handler function is your code that processes http request events.\n * You can use return and throw to send a response or error, respectively.\n *\n * Important: When deployed, a custom serverless function is an open API endpoint and\n * is your responsibility to secure appropriately.\n *\n * @see {@link https://redwoodjs.com/docs/serverless-functions#security-considerations|Serverless Function Considerations}\n * in the RedwoodJS documentation for more information.\n *\n * @typedef { import('aws-lambda').APIGatewayEvent } APIGatewayEvent\n * @typedef { import('aws-lambda').Context } Context\n * @param { APIGatewayEvent } event - an object which contains information from the invoker.\n * @param { Context } context - contains information about the invocation,\n * function, and execution environment."
+    ],
+    "functions": [],
+    "classes": []
+}

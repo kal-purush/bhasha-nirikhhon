@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "httpRest",
+        "fetch",
+        "response",
+        "response",
+        "data",
+        "data",
+        "data",
+        "pokemon",
+        "fetch",
+        "pokemon",
+        "response",
+        "response",
+        "details",
+        "details",
+        "isWaterType",
+        "details",
+        "details",
+        "stat",
+        "stats",
+        "stat",
+        "stat",
+        "stats",
+        "verda",
+        "imageUrl",
+        "pokemon",
+        "details",
+        "details",
+        "statsString",
+        "verda",
+        "httpRest"
+    ],
+    "literals": [
+        "\"\"",
+        "'https://pokeapi.co/api/v2/pokemon?limit=150'",
+        "'water'",
+        "${stat.stat.name}: ${stat.base_stat}",
+        "', '",
+        "<div class=\"col-4\">\n                                <div class=\"card\" class=\"col-6 col-sm-3\" style=\"width: 18rem; box-shadow: 15px 6px 10px rgba(0, 0, 0, 0.5);\">\n                                <img src=\"${imageUrl}\" class=\"card-img-top\" alt=\"...\">\n                                <div class=\"card-body\">\n                                <h5 class=\"card-title\">${pokemon.name}</h5>\n                                <p class=\"card-text\">Altura: ${details.height} | Peso: ${details.weight} </p>\n                                <p class=\"card-text\"> ${statsString}</p>\n                                <hr>\n                                </div>\n                                </div>\n                            </div>",
+        "\"cuerpo\""
+    ],
+    "variables": [
+        "httpRest",
+        "verda",
+        "isWaterType",
+        "imageUrl",
+        "stats",
+        "statsString"
+    ],
+    "comments": [
+        "Haciendo una nueva solicitud para obtener detalles de cada Pokémon",
+        "Verificar si el Pokémon es de tipo agua (tipo \"water\")",
+        "Accede a la URL de la imagen del frente del Pokémon"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

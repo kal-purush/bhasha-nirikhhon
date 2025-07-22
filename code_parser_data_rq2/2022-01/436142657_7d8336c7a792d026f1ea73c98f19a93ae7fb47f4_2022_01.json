@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "glob",
+        "grayMatter",
+        "readFile",
+        "join",
+        "parse",
+        "AppLinkProps",
+        "glob",
+        "guidesFolder",
+        "guideFiles",
+        "file",
+        "grayMatter",
+        "readFile",
+        "join",
+        "guidesFolder",
+        "file",
+        "data",
+        "order",
+        "order",
+        "data",
+        "parse",
+        "file",
+        "data",
+        "links",
+        "a",
+        "b",
+        "a",
+        "b"
+    ],
+    "literals": [
+        "\"fast-glob\"",
+        "\"gray-matter\"",
+        "\"node:fs/promises\"",
+        "\"node:path\"",
+        "\"~/modules/navigation/app-link\"",
+        "\"app/routes/guides\"",
+        "string",
+        "**/*.md",
+        "\"router\"",
+        "/guides/${parse(file).name}"
+    ],
+    "variables": [
+        "guidesFolder",
+        "guideFiles",
+        "links",
+        "order"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "loadGuideLinks"
+    ],
+    "classes": []
+}

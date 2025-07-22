@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Actor",
+        "HttpAgent",
+        "idlFactory",
+        "idlFactory",
+        "process",
+        "createActor",
+        "canisterId",
+        "options",
+        "HttpAgent",
+        "options",
+        "process",
+        "agent",
+        "err",
+        "err",
+        "Actor",
+        "idlFactory",
+        "options",
+        "createActor",
+        "canisterId"
+    ],
+    "literals": [
+        "\"@dfinity/agent\"",
+        "'./rust_starter.did.js'",
+        "'./rust_starter.did.js'",
+        "\"production\"",
+        "\"Unable to fetch root key. Check to ensure that your local replica is running\""
+    ],
+    "variables": [
+        "canisterId",
+        "createActor",
+        "agent",
+        "rust_starter"
+    ],
+    "comments": [
+        "Imports and re-exports candid interface",
+        "CANISTER_ID is replaced by webpack based on node environment",
+        "Fetch root key for certificate validation during development",
+        "Creates an actor with using the candid interface and the HttpAgent"
+    ],
+    "docstrings": [
+        "* \n * @param {string | import(\"@dfinity/principal\").Principal} canisterId Canister ID of Agent\n * @param {{agentOptions?: import(\"@dfinity/agent\").HttpAgentOptions; actorOptions?: import(\"@dfinity/agent\").ActorConfig}} [options]\n * @return {import(\"@dfinity/agent\").ActorSubclass<import(\"./rust_starter.did.js\")._SERVICE>}",
+        "* A ready-to-use agent for the rust_starter canister\n * @type {import(\"@dfinity/agent\").ActorSubclass<import(\"./rust_starter.did.js\")._SERVICE>}"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "notification",
+        "fetch",
+        "json",
+        "error",
+        "call",
+        "response",
+        "response",
+        "handleResult",
+        "json",
+        "response",
+        "errTxt",
+        "response",
+        "response",
+        "message",
+        "errTxt",
+        "response",
+        "response",
+        "errTxt",
+        "err",
+        "err",
+        "err",
+        "err",
+        "handleError",
+        "handleError",
+        "error",
+        "shouldPostNotif",
+        "notification",
+        "errContext",
+        "error"
+    ],
+    "literals": [
+        "\"antd\"",
+        "string",
+        "${response.status} ${response.statusText}\\n\"${message}\"",
+        "${response.status} ${response.statusText}",
+        "\"error\""
+    ],
+    "variables": [
+        "response",
+        "json",
+        "errTxt",
+        "error",
+        "shouldPostNotif"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Deals with API errors in a consistent manner and will surface a UI notification unless supressed by the `handleError` callback\n * @param call callback which returns a (`fetch`) `Response` object\n * @param handleResult callback which parses the API response. Whatever is returned here is passed through as the return value of `handleApiCall`\n * @param errContext Title of the generated error notification\n * @param handleError Optional callback which is passed caught errors, if return value is `false`, `handleApiCall` will not surface a notification"
+    ],
+    "functions": [
+        "handleApiCall"
+    ],
+    "classes": []
+}

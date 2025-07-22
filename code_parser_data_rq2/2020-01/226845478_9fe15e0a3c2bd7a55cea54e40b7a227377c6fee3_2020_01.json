@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "oos_template_method_pattern",
+        "meatUsed",
+        "cheeseUsed",
+        "veggiesUsed",
+        "Override",
+        "item",
+        "meatUsed",
+        "item",
+        "substring",
+        "length",
+        "Override",
+        "item",
+        "cheeseUsed",
+        "item",
+        "substring",
+        "length",
+        "Override",
+        "item",
+        "veggiesUsed",
+        "item",
+        "substring",
+        "length"
+    ],
+    "literals": [
+        "\"sweetLittleYellowChickensTurnRed\"",
+        "\"cheddar\"",
+        "\"gouda\"",
+        "\"emmentaler\"",
+        "\"jalapenos\"",
+        "\"green pepper\"",
+        "\"olives\"",
+        "\"\"",
+        "\" \"",
+        "\"Added: \"",
+        "\"\"",
+        "\" \"",
+        "\"Added: \"",
+        "\"\"",
+        "\" \"",
+        "\"Added: \""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* use the template method to create the chickenteriyakisandwhich",
+        "* override our forced abstract methods with the ingredients of our \n\t * tasty sandwich"
+    ],
+    "functions": [
+        "addMeat",
+        "addCheese",
+        "addVegetables"
+    ],
+    "classes": [
+        "ChickenTeriyakiSandwichConcreteClass"
+    ]
+}

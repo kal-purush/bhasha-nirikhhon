@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "_",
+        "require",
+        "VersionBump",
+        "VersionBump",
+        "localOptions",
+        "_",
+        "DEFAULT_WORKSPACE_PLUGIN_OPTIONS",
+        "localOptions",
+        "getCmdLineWorkspacePluginOptions",
+        "argv",
+        "argv",
+        "matches",
+        "matches",
+        "options",
+        "packageToken",
+        "options",
+        "exclusiveMarkerToken",
+        "EXCLUSIVE_PACKAGE_SYMBOL",
+        "argv",
+        "options",
+        "argv",
+        "options",
+        "argv",
+        "options"
+    ],
+    "literals": [
+        "\"underscore\"",
+        "\"yargs\"",
+        "\"p\"",
+        "\"package\"",
+        "\"v\"",
+        "\"verbose\"",
+        "string",
+        "string",
+        "\"!\""
+    ],
+    "variables": [
+        "argv",
+        "DEFAULT_WORKSPACE_PLUGIN_OPTIONS",
+        "EXCLUSIVE_PACKAGE_SYMBOL",
+        "options",
+        "matches",
+        "exclusiveMarkerToken",
+        "packageToken"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* A type of increment to apply when bumping up version numbers.",
+        "* Represents the global options that are applied across all plugins.",
+        "* The name of the workspace package to focus streaming on.",
+        "* If [[NpmWorkspacePluginOptions#package]] is specified, then true will only\n     * stream that named package; false will stream that named package and its\n     * associated dependencies.",
+        "* A switch to determine if logging should be enabled.",
+        "* A switch to determine if verbose logging should be enabled.",
+        "* A [[VersionBump]] value that determine how version numbers are bumped up\n     * during a publish.",
+        "* The default plugin options.",
+        "* Returns the workspace plugin options.\n *\n * @param localOptions An optional set of options that should override the defaults.\n *\n * @returns An [[NpmWorkspacePluginOptions]] object that is a combination of the default\n * workspace plugin options, the provided options, and the options taken from the command line.\n *\n * Option precedence is command line options -> local options -> default options.",
+        "* Returns the options that are set on the command line."
+    ],
+    "functions": [
+        "getWorkspacePluginOptions",
+        "getCmdLineWorkspacePluginOptions"
+    ],
+    "classes": []
+}

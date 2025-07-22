@@ -1,0 +1,17 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "var randomPosition=generateRandomNumber(letters.length)",
+        "var randomLetter= letters[randomPosition];",
+        "var letters=[\"a\",\"b\",\"c\",\"d\",\"e\",\"f\",\"g\",\"h\",\"i\",\"j\",\"k\",\"l\",\"m\",\"n\",\"o\",\"p\",\"q\",\"r\",\"s\",\"t\",\"u\",\"v\",\"w\",\"x\",\"y\",\"z\"];",
+        "var letters1=[\"A\",\"B\",\"C\",\"D\",\"E\",\"F\",\"G\",\"H\",\"I\",\"J\",\"K\",\"L\",\"M\",\"N\",\"O\",\"P\",\"Q\",\"R\",\"S\",\"T\",\"U\",\"V\",\"W\",\"X\",\"Y\",\"Z\"];",
+        "line 21 in html was initially readonly but i switched to required",
+        "function generateRandomNumber(maxValue) {\n    var randomNumber=Math.random();\n  \n    var result=Math.floor(randomNumber * maxValue);\n    return result\n  }\n  \n  \n  function getRandomeElementFromArray(array) {\n  \n    var randomPosition=generateRandomNumber(array.length);\n    return array [randomPosition];\n  }\n  \n\n\n  console.log(getRandomeElementFromArray(num));\n\n\nconsole.log(getRandomeElementFromArray(sym));\n\nfunction getRandomeElementFromArray(array) {\n\n  var randomPosition=generateRandomNumber(array.length);\n  return array [randomPosition];\n}\n\nfunction getRandomeElementFromArray(array) {\n\n  var randomPosition=generateRandomNumber(array.length);\n  return array [randomPosition];\n}\n\n\n/*var intergerValue= Math.floor();\n\nvar randomNumber=Math.random();\n\nvar result=Math.floor(randomNumber * 10);\nalert(result);",
+        "function generate () {\n  confirm (\"Welcome To My Password Generator\");\n\nvar generatePassword = prompt(\"How many characters would you like your password to have? Enter a number between 8 and 128\");\n}\n\n\nfunction generateRandomNumber(maxValue) {\nvar randomNumber=Math.random();\n\nvar result=Math.floor(randomNumber * maxValue);\nreturn result\n}\n\n\nfunction getRandomeElementFromArray(array) {\n\nvar randomPosition=generateRandomNumber(array.length);\nreturn array [randomPosition];\n}\n\nvar letters=[\"a\",\"b\",\"c\",\"d\",\"e\",\"f\",\"g\",\"h\",\"i\",\"j\",\"k\",\"l\",\"m\",\"n\",\"o\",\"p\",\"q\",\"r\",\"s\",\"t\",\"u\",\"v\",\"w\",\"x\",\"y\",\"z\"];\n\n\nconsole.log(getRandomeElementFromArray(letters));\n\nfunction getRandomeElementFromArray(array) {\n\nvar randomPosition=generateRandomNumber(array.length);\nreturn array [randomPosition];\n}\n\nvar letters1=[\"A\",\"B\",\"C\",\"D\",\"E\",\"F\",\"G\",\"H\",\"I\",\"J\",\"K\",\"L\",\"M\",\"N\",\"O\",\"P\",\"Q\",\"R\",\"S\",\"T\",\"U\",\"V\",\"W\",\"X\",\"Y\",\"Z\"];\n\nconsole.log(getRandomeElementFromArray(letters1));\n\nfunction getRandomeElementFromArray(array) {\n\nvar randomPosition=generateRandomNumber(array.length);\nreturn array [randomPosition];\n}\n\nvar symbols=[\"!\",\"@\",\"#\",\"$\",\"%\",\"^\",\"&\",\"*\"];\n\nconsole.log(getRandomeElementFromArray(symbols));\n\nfunction getRandomeElementFromArray(array) {\n\nvar randomPosition=generateRandomNumber(array.length);\nreturn array [randomPosition];\n}\n\nvar numbers=[0,1,2,3,4,5,6,7,8,9];\n\nconsole.log(getRandomeElementFromArray(numbers));"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

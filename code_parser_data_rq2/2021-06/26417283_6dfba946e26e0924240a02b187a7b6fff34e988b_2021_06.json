@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Component",
+        "AfterViewInit",
+        "OnChanges",
+        "SimpleChanges",
+        "Input",
+        "ChangeDetectionStrategy",
+        "GridStack",
+        "GridStackWidget",
+        "Component",
+        "Input",
+        "GridStack",
+        "changes",
+        "changes"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'gridstack'",
+        "'gridstack/dist/h5/gridstack-dd-native'",
+        "'app-angular-ng-for-test'",
+        "<button (click)=\"add()\">add item</button><button (click)=\"delete()\">remove item</button><button (click)=\"change()\">modify item</button>\n     <div class=\"grid-stack\">\n       <!-- using angular templating to create DOM, otherwise an easier way is to simply call grid.load(items) -->\n       <div *ngFor=\"let n of items; let i = index\" class=\"grid-stack-item\" [attr.gs-w]=\"n.w\" [attr.gs-h]=\"n.h\" [attr.gs-x]=\"n.x\" [attr.gs-y]=\"n.y\">\n         <div class=\"grid-stack-item-content\">item {{i}}</div>\n       </div>\n     </div>",
+        "'items changed'"
+    ],
+    "variables": [],
+    "comments": [
+        "gridstack.min.css and other custom styles should be included in global styles.scss",
+        "tell Angular only @Input will change - doesn't help",
+        "changeDetection: ChangeDetectionStrategy.OnPush",
+        "wait until after DOM is ready to init gridstack - can't be ngOnInit() as angular ngFor needs to run first!",
+        "this SHOULD trigger ngOnChanges() but not seeing it... and doing ngDoCheck() seem extreme ?",
+        "https://www.reddit.com/r/angular/comments/azjefs/change_detection_for_arraysobjects/",
+        "https://angular.io/guide/lifecycle-hooks#docheck",
+        "this.items.push({x: 1, y: 6, w: 3});",
+        "todo",
+        "todo",
+        "TODO: ... figure what is new and call makeWidget(), old -> removeWidget(el,false) and changed -> update()"
+    ],
+    "docstrings": [
+        "* Example using Angular ngFor to loop through items and create DOM items",
+        "* this would be easier with addWidget(), removeWidget(), update() but simulating angular change detection instead..."
+    ],
+    "functions": [
+        "ngAfterViewInit",
+        "add",
+        "change",
+        "ngOnChanges"
+    ],
+    "classes": [
+        "AngularNgForTestComponent"
+    ]
+}

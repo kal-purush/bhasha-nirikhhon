@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "avocado",
+        "Test",
+        "skipIf",
+        "skipUnless",
+        "Test",
+        "skipUnless",
+        "x",
+        "x",
+        "SUPPORTED_ENVS",
+        "skipIf",
+        "x",
+        "getattr",
+        "x",
+        "skipUnless",
+        "x",
+        "x",
+        "SUPPORTED_ENVS",
+        "skipUnless",
+        "x",
+        "x",
+        "SUPPORTED_ENVS",
+        "BaseTest",
+        "BaseTest"
+    ],
+    "literals": [
+        "'BARE_METAL'",
+        "'Bare metal environment is required'",
+        "'MEMORY'",
+        "'Not enough memory for test'",
+        "'VIRTUAL_MACHINE'",
+        "'Virtual Machine environment is required'",
+        "'CONTAINER'",
+        "'Container environment is required'",
+        "'BARE_METAL'",
+        "'VIRTUAL_MACHINE'",
+        "'CONTAINER'"
+    ],
+    "variables": [
+        "SUPPORTED_ENVS",
+        "SUPPORTED_ENVS",
+        "MEMORY",
+        "SUPPORTED_ENVS"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Base class for tests\n\n    :avocado: disable\n    \"\"\""
+    ],
+    "functions": [
+        "test_bare_metal",
+        "test_large_memory",
+        "test_nested_virtualization",
+        "test_container",
+        "test_specific",
+        "test_specific"
+    ],
+    "classes": [
+        "BaseTest",
+        "BareMetal",
+        "NonBareMetal"
+    ]
+}

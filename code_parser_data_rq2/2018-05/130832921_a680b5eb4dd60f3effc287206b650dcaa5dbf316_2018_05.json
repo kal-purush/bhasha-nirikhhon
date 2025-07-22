@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Reflection",
+        "Reflection",
+        "Emit",
+        "Harmony",
+        "RimWorld",
+        "Verse",
+        "UnityEngine",
+        "Replace_Stuff",
+        "HarmonyPatch",
+        "GhostDrawer",
+        "CodeInstruction",
+        "CodeInstruction",
+        "instructions",
+        "AccessTools",
+        "Field",
+        "ShaderDatabase",
+        "AccessTools",
+        "Field",
+        "ShaderDatabase",
+        "CodeInstruction",
+        "i",
+        "instructions",
+        "i",
+        "opcode",
+        "OpCodes",
+        "Ldsfld",
+        "i",
+        "operand",
+        "TransparentInfo",
+        "i",
+        "operand",
+        "MetaOverlayInfo",
+        "i",
+        "HarmonyPatch",
+        "ThingDefGenerator_Buildings",
+        "ThingDef",
+        "__result",
+        "__result",
+        "graphicData",
+        "shaderType",
+        "ShaderType",
+        "MetaOverlay"
+    ],
+    "literals": [
+        "\"GhostGraphicFor\"",
+        "\"Transparent\"",
+        "\"MetaOverlay\"",
+        "\"NewBlueprintDef_Thing\""
+    ],
+    "variables": [
+        "FieldInfo",
+        "TransparentInfo",
+        "FieldInfo",
+        "MetaOverlayInfo"
+    ],
+    "comments": [
+        "private static Graphic GhostGraphicFor(Graphic baseGraphic, ThingDef thingDef, Color ghostCol)",
+        "ldsfld       class [UnityEngine]UnityEngine.Shader Verse.ShaderDatabase::Transparent",
+        "private static ThingDef NewBlueprintDef_Thing(ThingDef def, bool isInstallBlueprint, ThingDef normalBlueprint = null)",
+        "__result.altitudeLayer = AltitudeLayer.MetaOverlays;",
+        "__result.drawerType = DrawerType.RealtimeOnly;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Transpiler",
+        "Postfix"
+    ],
+    "classes": [
+        "ShowGhostOverFog",
+        "ShowBluePrintOverFog"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "plop",
+        "plop",
+        "moduleGenerator",
+        "plop",
+        "open",
+        "open"
+    ],
+    "literals": [
+        "'fs'",
+        "'path'",
+        "'./module/index.js'",
+        "'module'",
+        "'curly'",
+        "'{'",
+        "'}'"
+    ],
+    "variables": [
+        "fs",
+        "path",
+        "moduleGenerator"
+    ],
+    "comments": [
+        "plop.addHelper('directory', (comp) => {\n    try {\n      fs.accessSync(path.join(__dirname, `../../app/containers/${comp}`), fs.F_OK);\n      return `containers/${comp}`;\n    } catch (e) {\n      return `components/${comp}`;\n    }\n  });"
+    ],
+    "docstrings": [
+        "* generator/index.js\n *\n * Exports the generators so plop knows them"
+    ],
+    "functions": [],
+    "classes": []
+}

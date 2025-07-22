@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "rest",
+        "RestClient",
+        "domain",
+        "token",
+        "telemetry",
+        "domain",
+        "RestClient",
+        "jwt",
+        "token",
+        "telemetry",
+        "telemetry",
+        "domain",
+        "url",
+        "email",
+        "fields",
+        "include_fields",
+        "email",
+        "join",
+        "fields",
+        "include_fields",
+        "lower",
+        "client",
+        "get",
+        "_url"
+    ],
+    "literals": [
+        "'https://%s/api/v2/users-by-email'",
+        "'email'",
+        "'fields'",
+        "','",
+        "'include_fields'"
+    ],
+    "variables": [
+        "domain",
+        "client",
+        "url"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Auth0 users by email endpoints\n\n    Args:\n        domain (str): Your Auth0 domain, e.g: 'username.auth0.com'\n\n        token (str): Management API v2 Token\n\n        telemetry (bool, optional): Enable or disable Telemetry\n            (defaults to True)\n    \"\"\"",
+        "\"\"\"List or search users.\n\n        Args:\n \n            email: Email to search\n \n            fields (list of str, optional): A list of fields to include or\n                exclude from the result (depending on include_fields). Empty to\n                retrieve all fields.\n\n            include_fields (bool, optional): True if the fields specified are\n                to be include in the result, False otherwise.\n        \"\"\""
+    ],
+    "functions": [
+        "_url",
+        "search_users_by_email"
+    ],
+    "classes": [
+        "UsersByEmail"
+    ]
+}

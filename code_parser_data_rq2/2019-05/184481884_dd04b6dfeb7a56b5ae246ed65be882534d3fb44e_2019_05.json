@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "responseJSon",
+        "response",
+        "$",
+        "i",
+        "responseJson",
+        "i",
+        "$",
+        "responseJson",
+        "i",
+        "response",
+        "i",
+        "responseJson",
+        "i",
+        "$",
+        "username",
+        "username",
+        "fetch",
+        "url",
+        "response",
+        "response",
+        "response",
+        "response",
+        "responseJson",
+        "displayResults",
+        "responseJson",
+        "err",
+        "$",
+        "err",
+        "$",
+        "$",
+        "getUser",
+        "searchName",
+        "$",
+        "getUser"
+    ],
+    "literals": [
+        "'use strict'",
+        "'#results-list'",
+        "'#results-list'",
+        "<li><h3>${responseJson[i].name}</h3>\n            <p><a href = \"${response.Json[i].html_url}</a></p>\n            <p>${responseJson[i].description}</p>\n            </li>",
+        "'#results'",
+        "'hidden'",
+        "'getUser ran'",
+        "https://api.github.com/users/${username}/repos",
+        "'#js-error-message'",
+        "Something Went wrong: ${err.message}",
+        "'#js-form'",
+        "'#js-search-name'"
+    ],
+    "variables": [
+        "i",
+        "url",
+        "searchName"
+    ],
+    "comments": [
+        "remove previous results",
+        "iterates through results, lists name of repos with link"
+    ],
+    "docstrings": [],
+    "functions": [
+        "displayResults",
+        "getUser",
+        "watchForm"
+    ],
+    "classes": []
+}

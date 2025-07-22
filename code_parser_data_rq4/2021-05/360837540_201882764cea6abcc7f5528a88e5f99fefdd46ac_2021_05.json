@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpClient",
+        "HttpHeaders",
+        "Observable",
+        "Proposal",
+        "Injectable",
+        "http",
+        "data",
+        "HttpHeaders",
+        "data",
+        "body",
+        "httpOptions"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common/http'",
+        "'rxjs'",
+        "'../types'",
+        "'root'",
+        "'http://52.57.253.240:3000/api/proposals'",
+        "'Content-Type'",
+        "'application/json'",
+        "'Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjo0fQ.5rkd4zXemzKWHF9i-VylcjH_ll306bU7wDVrFk52BRA'"
+    ],
+    "variables": [
+        "httpOptions",
+        "body"
+    ],
+    "comments": [
+        "const token = localStorage.getItem('token');",
+        "Authorization: `Bearer ${token}`"
+    ],
+    "docstrings": [],
+    "functions": [
+        "postData"
+    ],
+    "classes": [
+        "NeedService"
+    ]
+}

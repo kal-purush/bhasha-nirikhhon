@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "require",
+        "MongoClient",
+        "error",
+        "client",
+        "client",
+        "error",
+        "db",
+        "count",
+        "count",
+        "err"
+    ],
+    "literals": [
+        "'mongodb'",
+        "'mongodb://localhost:27017'",
+        "'databasename1'",
+        "'unable to connect'",
+        "'connect to database'",
+        "'mytablename1'",
+        "'kumar'",
+        "'-----------------------------------------------'",
+        "'total records are'",
+        "'_________________________'",
+        "'unable to count----'"
+    ],
+    "variables": [
+        "db"
+    ],
+    "comments": [
+        "const MongoClient=require('mongodb').MongoClient;",
+        "deleteOne",
+        "db.collection('mytablename1').deleteOne({name:'testname'}).then((count)=>{",
+        "console.log('-----------------------------------------------')",
+        "console.log('total records are',count);",
+        "console.log('_________________________')",
+        "},(err)=>{",
+        "console.log('unable to count---');",
+        "})",
+        "deleteMany",
+        "db.collection('mytablename1').deleteMany({name:'testname'}).then((count)=>{",
+        "console.log('-----------------------------------------------')",
+        "console.log('total records are',count);",
+        "console.log('_________________________')",
+        "},(err)=>{",
+        "console.log('unable to count---');",
+        "})",
+        "findOneAndDelete"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

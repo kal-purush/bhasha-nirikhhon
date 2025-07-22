@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "createGlobalStyle",
+        "createGlobalStyle",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'#4ECDC4'",
+        "'#FF6B6B'",
+        "'#f7f7f7'",
+        "'#333'",
+        "'#FF6B6B'",
+        "* {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n  }\n\n  body {\n    font-family: 'Inter', sans-serif;\n    background-color: ${({ theme }) => theme.colors.bg};\n    color: ${({ theme }) => theme.colors.text};\n  }\n\n  button {\n    cursor: pointer;\n  }"
+    ],
+    "variables": [
+        "theme",
+        "GlobalStyle"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "notebook",
+        "util",
+        "notebook",
+        "model",
+        "User",
+        "user",
+        "isValid",
+        "user",
+        "user",
+        "setFirstName",
+        "user",
+        "getFirstName",
+        "replaceAll",
+        "trim",
+        "user",
+        "setLastName",
+        "user",
+        "getLastName",
+        "replaceAll",
+        "trim",
+        "user",
+        "setPhone",
+        "user",
+        "getPhone",
+        "replaceAll",
+        "trim",
+        "user",
+        "user",
+        "user",
+        "getFirstName",
+        "isEmpty",
+        "user",
+        "getLastName",
+        "isEmpty",
+        "user",
+        "getPhone",
+        "isEmpty"
+    ],
+    "literals": [
+        "\"Имя не должно быть пустым!\"",
+        "\" \"",
+        "\"\"",
+        "\" \"",
+        "\"\"",
+        "\" \"",
+        "\"\""
+    ],
+    "variables": [],
+    "comments": [
+        "if (user.getFirstName().isEmpty()) throw new IllegalStateException",
+        "(\"Имя не должно быть пустым!\");",
+        "if (user.getLastName().isEmpty()) throw new IllegalStateException",
+        "(\"Фамилия не должна быть пустым!\");",
+        "if (user.getPhone().isEmpty()) throw new IllegalStateException",
+        "(\"Номер телефона не должен быть пустым!\");",
+        "или"
+    ],
+    "docstrings": [],
+    "functions": [
+        "User",
+        "validate",
+        "isValid"
+    ],
+    "classes": [
+        "UserValidator"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "entities",
+        "ACTIVE_STATE",
+        "CLOSED_STATE",
+        "PENDING_STATE",
+        "CANCELED_STATE",
+        "name",
+        "state",
+        "iteration",
+        "name",
+        "state",
+        "iteration",
+        "name",
+        "name",
+        "state",
+        "state",
+        "iteration",
+        "iteration",
+        "iteration",
+        "addActivity"
+    ],
+    "literals": [
+        "\"active\"",
+        "\"closed\"",
+        "\"pending\"",
+        "\"canceled\""
+    ],
+    "variables": [
+        "name",
+        "state",
+        "iteration"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Evaluate if an activity is active.\n     *\n     * @return true if the activity is in state pending or active, otherwise return false."
+    ],
+    "functions": [
+        "Activity",
+        "isActive"
+    ],
+    "classes": [
+        "Activity"
+    ]
+}

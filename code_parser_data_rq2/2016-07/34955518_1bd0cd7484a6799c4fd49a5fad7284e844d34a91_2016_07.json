@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Builder",
+        "AspNet",
+        "Security",
+        "OAuth",
+        "Automatic"
+    ],
+    "literals": [
+        "\"AutomaticLabs\"",
+        "\"AutomaticLabs\"",
+        "\"AutomaticLabs\"",
+        "\"/signin-automatic\"",
+        "\"https://accounts.automatic.com/oauth/authorize\"",
+        "\"https://accounts.automatic.com/oauth/access_token\"",
+        "\"https://api.automatic.com/user/me/\""
+    ],
+    "variables": [
+        "AuthenticationScheme",
+        "DisplayName",
+        "Issuer",
+        "CallbackPath",
+        "AuthorizationEndpoint",
+        "TokenEndpoint",
+        "UserInformationEndpoint"
+    ],
+    "comments": [
+        "Default values used by the Automatic authentication middleware.",
+        "</summary>",
+        "Default value for <see cref=\"AuthenticationOptions.AuthenticationScheme\"/>.",
+        "</summary>",
+        "Default value for <see cref=\"RemoteAuthenticationOptions.DisplayName\"/>.",
+        "</summary>",
+        "Default value for <see cref=\"AuthenticationOptions.ClaimsIssuer\"/>.",
+        "</summary>",
+        "Default value for <see cref=\"RemoteAuthenticationOptions.CallbackPath\"/>.",
+        "</summary>",
+        "Default value for <see cref=\"OAuthOptions.AuthorizationEndpoint\"/>.",
+        "</summary>",
+        "Default value for <see cref=\"OAuthOptions.TokenEndpoint\"/>.",
+        "</summary>",
+        "Default value for <see cref=\"OAuthOptions.UserInformationEndpoint\"/>.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "* Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)\n * See https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers\n * for more information concerning the license and the contributors participating to this project.",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "AutomaticAuthenticationDefaults"
+    ]
+}

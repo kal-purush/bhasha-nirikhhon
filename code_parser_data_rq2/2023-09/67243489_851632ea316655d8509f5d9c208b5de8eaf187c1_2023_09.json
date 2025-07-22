@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Net",
+        "Http",
+        "DSharpPlus",
+        "Net",
+        "IRestRequest"
+    ],
+    "literals": [],
+    "variables": [
+        "Url",
+        "Route",
+        "IsExemptFromGlobalLimit"
+    ],
+    "comments": [
+        "Serves as a generic constraint for the rest client.",
+        "</summary>",
+        "Builds the current rest request object into a request message.",
+        "</summary>",
+        "The URL this request is made to. This is distinct from the <seealso cref=\"Route\"/> in that the route",
+        "cannot contain query parameters or secondary IDs necessary for the request.",
+        "</summary>",
+        "The ratelimiting route this request is made to.",
+        "</summary>",
+        "Specifies whether this request is exempt from the global limit. Generally applies to webhook requests.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "HttpRequestMessage",
+        "Build"
+    ],
+    "classes": []
+}

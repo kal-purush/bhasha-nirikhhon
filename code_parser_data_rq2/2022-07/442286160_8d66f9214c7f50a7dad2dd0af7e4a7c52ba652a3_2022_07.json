@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Net",
+        "Http",
+        "Threading",
+        "Tasks",
+        "LockstepSDK",
+        "Models",
+        "LockstepSDK",
+        "Clients",
+        "LockstepApi",
+        "client",
+        "_client",
+        "client",
+        "LockstepResponse",
+        "GroupAccountModel",
+        "_client",
+        "Request",
+        "GroupAccountModel",
+        "HttpMethod",
+        "Get",
+        "url",
+        "LockstepResponse",
+        "GroupAccountModel",
+        "Guid",
+        "id",
+        "body",
+        "id",
+        "_client",
+        "Request",
+        "GroupAccountModel",
+        "HttpMethod",
+        "url",
+        "body"
+    ],
+    "literals": [
+        "\"PATCH\""
+    ],
+    "variables": [
+        "LockstepApi",
+        "_client",
+        "url",
+        "url"
+    ],
+    "comments": [
+        "API methods related to GroupAccounts",
+        "</summary>",
+        "Constructor",
+        "</summary>",
+        "Retrieves group account data for the current user.",
+        "",
+        "</summary>",
+        "Updates a group account that matches the specified id with the requested information.",
+        "",
+        "The PATCH method allows you to change specific values on the object while leaving other values alone.  As input you should supply a list of field names and new values.  If you do not provide the name of a field, that field will remain unchanged.  This allows you to ensure that you are only updating the specific fields desired.",
+        "",
+        "</summary>",
+        "<param name=\"id\">The unique ID number of the Group Account to retrieve</param>",
+        "<param name=\"body\">A list of changes to apply to this Group Account</param>"
+    ],
+    "docstrings": [
+        "*\n * Lockstep Platform SDK for C#\n *\n * (c) 2021-2022 Lockstep, Inc.\n *\n * For the full copyright and license information, please view the LICENSE\n * file that was distributed with this source code.\n *\n * @author     Lockstep Network <support@lockstep.io>\n * @copyright  2021-2022 Lockstep, Inc.\n * @link       https://github.com/Lockstep-Network/lockstep-sdk-csharp",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "GroupAccountsClient",
+        "RetrieveGroupAccountData",
+        "UpdateGroupAccount"
+    ],
+    "classes": [
+        "GroupAccountsClient"
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "MidnightLizard",
+        "settings",
+        "DI",
+        "ISettingsExporter",
+        "_doc",
+        "_app",
+        "MidnightLizard",
+        "settings",
+        "settings",
+        "fileContentObject",
+        "propName",
+        "propVal",
+        "propName",
+        "excludeSettingsForExport",
+        "propName",
+        "fileContentObject",
+        "propName",
+        "propVal",
+        "fileLink",
+        "settings",
+        "fileLink",
+        "encodeURIComponent",
+        "fileContentText",
+        "fileLink",
+        "fileLink",
+        "fileLink"
+    ],
+    "literals": [
+        "\"Midnight Lizard Color Scheme File\"",
+        "\"a\"",
+        "${(settings.colorSchemeName || \"midnight lizard color scheme\").replace(/\\W/gi, \"-\")}.json",
+        "\"midnight lizard color scheme\"",
+        "\"-\"",
+        "data:application/json;charset=utf-8,${encodeURIComponent(fileContentText)}"
+    ],
+    "variables": [
+        "fileContentObject",
+        "fileContentText",
+        "fileLink"
+    ],
+    "comments": [
+        "<reference path=\"../DI/-DI.ts\" />",
+        "<reference path=\"../Settings/IApplicationSettings.ts\" />",
+        "<reference path=\"../Settings/ColorScheme.ts\" />",
+        "<reference path=\"../Settings/SettingsFile.ts\" />"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "SettingsExporter"
+    ]
+}

@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "os",
+        "key",
+        "env_key",
+        "type_cast",
+        "confluent_config",
+        "items",
+        "env_key",
+        "os",
+        "environ",
+        "type_cast",
+        "os",
+        "environ",
+        "env_key",
+        "config"
+    ],
+    "literals": [
+        "\"bootstrap.servers\"",
+        "\"KAFKA_BROKER_URL\"",
+        "\"group.id\"",
+        "\"KAFKA_CONSUMER_GROUP_ID\"",
+        "\"client.id\"",
+        "\"KAFKA_CLIENT_ID\"",
+        "\"message.max.bytes\"",
+        "\"KAFKA_MESSAGE_MAX_BYTES\"",
+        "\"receive.message.max.bytes\"",
+        "\"KAFKA_RECEIVE_MESSAGE_MAX_BYTES\"",
+        "\"security.protocol\"",
+        "\"KAFKA_SECURITY_PROTOCOL\"",
+        "\"ssl.certificate.location\"",
+        "\"KAFKA_SSL_CERTIFICATE_LOCATION\"",
+        "\"ssl.ca.location\"",
+        "\"KAFKA_SSL_CA_LOCATION\"",
+        "\"ssl.endpoint.identification.algorithm\"",
+        "\"KAFKA_SSL_ENDPOINT_IDENTIFICATION_ALGORITHM\"",
+        "\"ssl.key.location\"",
+        "\"KAFKA_SSL_KEY_LOCATION\"",
+        "\"ssl.key.password\"",
+        "\"KAFKA_SSL_KEY_PASSWORD\"",
+        "\"sasl.mechanism\"",
+        "\"KAFKA_SASL_MECHANISM\"",
+        "\"sasl.username\"",
+        "\"KAFKA_SASL_USERNAME\"",
+        "\"sasl.password\"",
+        "\"KAFKA_SASL_PASSWORD\"",
+        "\"group.instance.id\"",
+        "\"KAFKA_CONSUMER_GROUP_INSTANCE_ID\"",
+        "\"max.poll.interval.ms\"",
+        "\"KAFKA_CONSUMER_MAX_POLL_INTERVAL_MS\"",
+        "\"enable.auto.commit\"",
+        "\"KAFKA_CONSUMER_ENABLE_AUTO_COMMIT\"",
+        "\"auto.offset.reset\"",
+        "\"KAFKA_CONSUMER_AUTO_OFFSET_RESET\""
+    ],
+    "variables": [
+        "confluent_config",
+        "config",
+        "config",
+        "key"
+    ],
+    "comments": [
+        "For more configuration options go to https://github.com/edenhill/librdkafka/blob/master/CONFIGURATION.md",
+        "and add them to these dictionaries"
+    ],
+    "docstrings": [
+        "\"\"\"Helper functions for generating confluent kafka configuration.\"\"\"",
+        "\"\"\" Generate Confluent Kafka configuration from environment variables. \"\"\""
+    ],
+    "functions": [
+        "kafka_config_from_env"
+    ],
+    "classes": []
+}

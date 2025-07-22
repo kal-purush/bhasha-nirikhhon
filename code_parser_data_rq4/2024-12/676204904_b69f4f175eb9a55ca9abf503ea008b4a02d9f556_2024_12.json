@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "createApi",
+        "fetchBaseQuery",
+        "createApi",
+        "fetchBaseQuery",
+        "YANDEX_BASE_URL",
+        "builder",
+        "builder",
+        "btoa",
+        "clientId",
+        "clientSecret",
+        "URLSearchParams"
+    ],
+    "literals": [
+        "'@reduxjs/toolkit/query/react'",
+        "'https://oauth.yandex.ru/token'",
+        "'yandexAuthApi'",
+        "''",
+        "'POST'",
+        "'Content-Type'",
+        "'application/x-www-form-urlencoded'",
+        "Basic ${btoa(`${clientId}:${clientSecret}`)}",
+        "${clientId}:${clientSecret}",
+        "'authorization_code'"
+    ],
+    "variables": [
+        "YANDEX_BASE_URL",
+        "yandexAuthApi",
+        "yandexAuthApi"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

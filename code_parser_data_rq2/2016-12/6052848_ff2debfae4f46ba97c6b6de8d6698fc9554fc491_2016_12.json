@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "Raspberry",
+        "IO",
+        "InterIntegratedCircuit",
+        "Raspberry",
+        "Timers",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Raspberry",
+        "IO",
+        "Components",
+        "Sensors",
+        "Light",
+        "RPI",
+        "Sensor",
+        "Sensors",
+        "Light",
+        "I2cDeviceConnection",
+        "connection",
+        "Connection",
+        "connection",
+        "Connection",
+        "Write",
+        "Connection",
+        "Write",
+        "Connection",
+        "Write",
+        "Connection",
+        "Write",
+        "HighResolutionTimer",
+        "Sleep",
+        "TimeSpanUtility",
+        "FromMicroseconds",
+        "Connection",
+        "Read",
+        "readBuf",
+        "valf",
+        "readBuf",
+        "valf"
+    ],
+    "literals": [],
+    "variables": [
+        "I2cDeviceConnection",
+        "Connection",
+        "readBuf",
+        "valf"
+    ],
+    "comments": [
+        "var valf = ((readBuf[0] << 8) | readBuf[1]) / 1.2;",
+        "return valf;",
+        "return Math.Round(valf / (2 * 1.2), 2);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "BH1750Connection",
+        "SetOff",
+        "SetOn",
+        "Reset",
+        "GetData"
+    ],
+    "classes": [
+        "BH1750Connection"
+    ]
+}

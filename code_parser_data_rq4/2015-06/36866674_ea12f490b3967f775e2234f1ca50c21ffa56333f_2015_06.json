@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "src",
+        "callback",
+        "src",
+        "options",
+        "callback",
+        "src",
+        "options",
+        "src",
+        "callback",
+        "src",
+        "options",
+        "callback",
+        "src",
+        "options",
+        "options",
+        "code",
+        "lang",
+        "callback",
+        "marked"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"marked\""
+    ],
+    "variables": [
+        "marked"
+    ],
+    "comments": [
+        "Type definitions for Marked",
+        "Project: https://github.com/chjj/marked",
+        "Definitions by: William Orr <https://github.com/worr>",
+        "Definitions: https://github.com/borisyankov/DefinitelyTyped"
+    ],
+    "docstrings": [
+        "* Compiles markdown to HTML.\n     *\n     * @param src String of markdown source to be compiled\n     * @param callback Function called when the markdownString has been fully parsed when using async highlighting\n     * @return String of compiled HTML",
+        "* Compiles markdown to HTML.\n     *\n     * @param src String of markdown source to be compiled\n     * @param options Hash of options\n     * @param callback Function called when the markdownString has been fully parsed when using async highlighting\n     * @return String of compiled HTML",
+        "* @param src String of markdown source to be compiled\n     * @param options Hash of options",
+        "* Compiles markdown to HTML.\n     *\n     * @param src String of markdown source to be compiled\n     * @param callback Function called when the markdownString has been fully parsed when using async highlighting\n     * @return String of compiled HTML",
+        "* Compiles markdown to HTML.\n     *\n     * @param src String of markdown source to be compiled\n     * @param options Hash of options\n     * @param callback Function called when the markdownString has been fully parsed when using async highlighting\n     * @return String of compiled HTML",
+        "* @param options Hash of options",
+        "* Sets the default options.\n     *\n     * @param options Hash of options",
+        "* Enable GitHub flavored markdown.",
+        "* Enable GFM tables. This option requires the gfm option to be true.",
+        "* Enable GFM line breaks. This option requires the gfm option to be true.",
+        "* Conform to obscure parts of markdown.pl as much as possible. Don't fix any of the original markdown bugs or poor behavior.",
+        "* Sanitize the output. Ignore any HTML that has been input.",
+        "* Use smarter list behavior than the original markdown. May eventually be default with the old behavior moved into pedantic.",
+        "* Shows an HTML error message when rendering fails.",
+        "* A function to highlight code blocks. The function takes three arguments: code, lang, and callback.",
+        "* Set the prefix for code block classes.",
+        "* Use \"smart\" typograhic punctuation for things like quotes and dashes."
+    ],
+    "functions": [],
+    "classes": []
+}

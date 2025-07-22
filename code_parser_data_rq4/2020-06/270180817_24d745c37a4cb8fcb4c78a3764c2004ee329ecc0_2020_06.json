@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "reason",
+        "reason",
+        "message",
+        "message",
+        "source",
+        "source",
+        "message",
+        "message",
+        "cause",
+        "cause",
+        "message",
+        "message"
+    ],
+    "literals": [
+        "\"Unknown reason!\"",
+        "\"unknown source\"",
+        "f\"A ratelimit was hit! ({source})\"",
+        "\"unknown cause\"",
+        "f\"Invalid player name or uuid was provided! ({cause})\""
+    ],
+    "variables": [
+        "message",
+        "message",
+        "message"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"class for other exceptions/errors\"\"\"",
+        "\"\"\"Raised when a ratelimit is reached\"\"\"",
+        "\"\"\"Raised when an invalid player name or uuid is provided\"\"\""
+    ],
+    "functions": [
+        "__str__",
+        "__str__",
+        "__str__"
+    ],
+    "classes": [
+        "RateLimitError",
+        "InvalidPlayerError"
+    ]
+}

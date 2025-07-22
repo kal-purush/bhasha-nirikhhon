@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "isAuthorizedToManageLayer",
+        "layer",
+        "userName",
+        "allOrganisations",
+        "allOrganisations",
+        "organisation",
+        "organisation",
+        "layer",
+        "layerOrganisationWithRolesOfUser",
+        "layerOrganisationWithRolesOfUser",
+        "layer",
+        "userName"
+    ],
+    "literals": [
+        "\"admin\"",
+        "\"supplier\"",
+        "\"supplier\""
+    ],
+    "variables": [
+        "isAuthorizedToManageLayer",
+        "layerOrganisationWithRolesOfUser"
+    ],
+    "comments": [
+        "Check if the user is allowed to manage the raster or wms layer.",
+        "The user is allowed to manage the layer if",
+        "the user has the 'admin' role in the organisation of the layer or",
+        "the user is the supplier of the layer",
+        "and has the 'supplier' role in the organisation of the layer.",
+        "Check if user is \"admin\" in the organisation of the layer or",
+        "\"supplier\" in the organisation of the layer and supplier of the layer."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

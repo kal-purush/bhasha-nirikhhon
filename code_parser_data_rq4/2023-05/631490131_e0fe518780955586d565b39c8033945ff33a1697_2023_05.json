@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "com",
+        "sopt",
+        "wokat",
+        "config",
+        "security",
+        "provider",
+        "java",
+        "util",
+        "attributes",
+        "attributes",
+        "attributes",
+        "attributes",
+        "Override",
+        "valueOf",
+        "attributes",
+        "get",
+        "Override",
+        "Override",
+        "getKakaoAccount",
+        "get",
+        "Override",
+        "getProfile",
+        "get",
+        "Override",
+        "isDefaultImage",
+        "getProfile",
+        "get",
+        "imageURL",
+        "isDefaultImage",
+        "getProfile",
+        "get",
+        "imageURL",
+        "attributes",
+        "get",
+        "getKakaoAccount",
+        "get"
+    ],
+    "literals": [
+        "\"id\"",
+        "\"kakao\"",
+        "\"email\"",
+        "\"nickname\"",
+        "\"is_default_image\"",
+        "\"https://wokat-default-image.s3.ap-northeast-2.amazonaws.com/default-profileImage.png\"",
+        "\"profile_image_url\"",
+        "\"kakao_account\"",
+        "\"profile\""
+    ],
+    "variables": [
+        "attributes"
+    ],
+    "comments": [
+        "! 카카오에서 가져오는 유저의 정보들",
+        "https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api의 값들을 key로 설정해 가져오기"
+    ],
+    "docstrings": [],
+    "functions": [
+        "KakaoUserInfo",
+        "getProviderId",
+        "getProvider",
+        "getUserEmail",
+        "getNickName",
+        "getProfileImage",
+        "getKakaoAccount",
+        "getProfile"
+    ],
+    "classes": [
+        "KakaoUserInfo"
+    ]
+}

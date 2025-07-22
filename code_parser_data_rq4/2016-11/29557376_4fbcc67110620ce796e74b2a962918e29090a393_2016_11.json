@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "com",
+        "aol",
+        "cyclops",
+        "types",
+        "higherkindedtypes",
+        "constructors",
+        "java",
+        "util",
+        "Optional",
+        "org",
+        "derive4j",
+        "hkt",
+        "Higher",
+        "lombok",
+        "AccessLevel",
+        "lombok",
+        "AllArgsConstructor",
+        "OptionalType",
+        "Optional",
+        "Optional",
+        "Optional",
+        "Optional",
+        "narrow",
+        "AllArgsConstructor",
+        "access",
+        "AccessLevel",
+        "PRIVATE",
+        "boxed",
+        "boxed"
+    ],
+    "literals": [],
+    "variables": [
+        "boxed"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Simulates Higher Kinded Types for Optional's\n * \n * OptionalType is a Optional and a Higher Kinded Type (OptionalType.µ,T)\n * \n * @author johnmcclean\n *\n * @param <T> Data type stored within the Optional",
+        "* Witness type\n     * \n     * @author johnmcclean\n     *",
+        "* Convert a Optional to a simulated HigherKindedType that captures Optional nature\n     * and Optional element data type separately. Recover via @see OptionalType#narrow\n     * \n     * If the supplied Optional implements OptionalType it is returned already, otherwise it\n     * is wrapped into a Optional implementation that does implement OptionalType\n     * \n     * @param Optional Optional to widen to a OptionalType\n     * @return OptionalType encoding HKT info about Optionals",
+        "* Convert the HigherKindedType definition for a Optional into\n     * \n     * @param Optional Type Constructor to convert back into narrowed type\n     * @return Optional from Higher Kinded Type",
+        "* @return wrapped Optional"
+    ],
+    "functions": [
+        "widen",
+        "narrow",
+        "narrow"
+    ],
+    "classes": [
+        "µ",
+        "Box"
+    ]
+}

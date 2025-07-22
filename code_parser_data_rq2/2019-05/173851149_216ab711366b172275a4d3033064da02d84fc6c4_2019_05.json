@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "win32com",
+        "client",
+        "wc",
+        "os",
+        "re",
+        "os",
+        "path",
+        "abspath",
+        "path",
+        "all_FileNum",
+        "os",
+        "listdir",
+        "path",
+        "f",
+        "files",
+        "f",
+        "f",
+        "path",
+        "f",
+        "wc",
+        "Dispatch",
+        "word",
+        "Documents",
+        "Open",
+        "doc",
+        "SaveAs",
+        "tmp",
+        "doc",
+        "Close",
+        "all_FileNum",
+        "Translate",
+        "mypath",
+        "all_FileNum"
+    ],
+    "literals": [
+        "'./docxfile-part1'",
+        "'~'",
+        "'.'",
+        "'\\\\'",
+        "'.doc'",
+        "'Word.Application'",
+        "'.docx'",
+        "'__main__'",
+        "'文件总数 = '"
+    ],
+    "variables": [
+        "mypath",
+        "all_FileNum",
+        "files",
+        "tmp",
+        "word",
+        "doc",
+        "all_FileNum"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "_*_ coding:utf-8 _*_",
+        "该目录下所有文件的名字",
+        "除去后边的.doc后缀",
+        "# tmp = new[:-4]",
+        "print(tmp)",
+        "# 改成txt格式",
+        "word = wc.Dispatch('Word.Application')",
+        "print(word)",
+        "doc = word.Documents.Open(new)",
+        "doc.SaveAs(tmp + '.docx', 16)",
+        "# doc.SaveAs(sss, 4)",
+        "doc.Close()",
+        "all_FileNum = all_FileNum + 1",
+        "filename = re.sub(\"\\D\", \"\", f)",
+        "除去后边的.doc后缀"
+    ],
+    "docstrings": [
+        "'''将一个目录下所有doc文件转成docx'''"
+    ],
+    "functions": [
+        "Translate"
+    ],
+    "classes": []
+}

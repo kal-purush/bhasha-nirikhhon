@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "\"typeorm\"",
+        "'AddAlertCreationDate1736344989806'",
+        "ALTER TABLE \"SizeAlert\" ADD \"creationDate\" TIMESTAMP NOT NULL DEFAULT now()",
+        "ALTER TABLE \"StorageFillAlert\" ADD \"creationDate\" TIMESTAMP NOT NULL DEFAULT now()",
+        "ALTER TABLE \"CreationDateAlert\" ADD \"creationDate\" TIMESTAMP NOT NULL DEFAULT now()",
+        "ALTER TABLE \"CreationDateAlert\" DROP COLUMN \"creationDate\"",
+        "ALTER TABLE \"StorageFillAlert\" DROP COLUMN \"creationDate\"",
+        "ALTER TABLE \"SizeAlert\" DROP COLUMN \"creationDate\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "AddAlertCreationDate1736344989806"
+    ]
+}

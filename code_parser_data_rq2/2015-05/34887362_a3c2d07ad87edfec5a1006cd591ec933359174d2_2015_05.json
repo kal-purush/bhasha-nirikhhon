@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "BitSet",
+        "BitSet",
+        "BitSet",
+        "types",
+        "ComponentTypeManager",
+        "t",
+        "types",
+        "ComponentTypeManager",
+        "t",
+        "types",
+        "ComponentTypeManager",
+        "t",
+        "types",
+        "ComponentTypeManager",
+        "t",
+        "types",
+        "ComponentTypeManager",
+        "t",
+        "types",
+        "ComponentTypeManager",
+        "t",
+        "types",
+        "types",
+        "types",
+        "Aspect",
+        "aspect",
+        "types",
+        "aspect",
+        "types",
+        "Aspect",
+        "aspect",
+        "types",
+        "aspect",
+        "Aspect"
+    ],
+    "literals": [],
+    "variables": [
+        "aspect",
+        "aspect"
+    ],
+    "comments": [
+        "<reference path=\"utils/BitSet.ts\" />",
+        "<reference path=\"ComponentType.ts\" />",
+        "<reference path=\"ComponentTypeManager.ts\" />"
+    ],
+    "docstrings": [
+        "* An Aspects is used by systems as a matcher against entities, to check if a system is\n * interested in an entity. Aspects define what sort of component types an entity must\n * possess, or not possess.\n * \n * This creates an aspect where an entity must possess A and B and C:\n * Aspect.getAspectForAll(A.class, B.class, C.class)\n * \n * This creates an aspect where an entity must possess A and B and C, but must not possess U or V.\n * Aspect.getAspectForAll(A.class, B.class, C.class).exclude(U.class, V.class)\n * \n * This creates an aspect where an entity must possess A and B and C, but must not possess U or V, but must possess one of X or Y or Z.\n * Aspect.getAspectForAll(A.class, B.class, C.class).exclude(U.class, V.class).one(X.class, Y.class, Z.class)\n *\n * You can create and compose aspects in many ways:\n * Aspect.getEmpty().one(X.class, Y.class, Z.class).all(A.class, B.class, C.class).exclude(U.class, V.class)\n * is the same as:\n * Aspect.getAspectForAll(A.class, B.class, C.class).exclude(U.class, V.class).one(X.class, Y.class, Z.class)\n *\n *",
+        "* Returns an aspect where an entity must possess all of the specified component types.\n\t * @param type a required component type\n\t * @param types a required component type\n\t * @return an aspect that can be matched against entities",
+        "* Excludes all of the specified component types from the aspect. A system will not be\n\t * interested in an entity that possesses one of the specified exclusion component types.\n\t * \n\t * @param type component type to exclude\n\t * @param types component type to exclude\n\t * @return an aspect that can be matched against entities",
+        "* Returns an aspect where an entity must possess one of the specified component types.\n\t * @param type one of the types the entity must possess\n\t * @param types one of the types the entity must possess\n\t * @return an aspect that can be matched against entities",
+        "* Creates an aspect where an entity must possess all of the specified component types.\n\t * \n\t * @param type the type the entity must possess\n\t * @param types the type the entity must possess\n\t * @return an aspect that can be matched against entities\n\t * \n\t * @deprecated\n\t * @see getAspectForAll",
+        "* Creates an aspect where an entity must possess all of the specified component types.\n\t * \n\t * @param type a required component type\n\t * @param types a required component type\n\t * @return an aspect that can be matched against entities",
+        "* Creates an aspect where an entity must possess one of the specified component types.\n\t * \n\t * @param type one of the types the entity must possess\n\t * @param types one of the types the entity must possess\n\t * @return an aspect that can be matched against entities",
+        "* Creates and returns an empty aspect. This can be used if you want a system that processes no entities, but\n\t * still gets invoked. Typical usages is when you need to create special purpose systems for debug rendering,\n\t * like rendering FPS, how many entities are active in the world, etc.\n\t * \n\t * You can also use the all, one and exclude methods on this aspect, so if you wanted to create a system that\n\t * processes only entities possessing just one of the components A or B or C, then you can do:\n\t * Aspect.getEmpty().one(A,B,C);\n\t * \n\t * @return an empty Aspect that will reject all entities."
+    ],
+    "functions": [
+        "getAllSet",
+        "getExclusionSet",
+        "getOneSet",
+        "all",
+        "exclude",
+        "one",
+        "getAspectFor",
+        "getAspectForAll",
+        "getAspectForOne",
+        "getEmpty"
+    ],
+    "classes": [
+        "Aspect"
+    ]
+}

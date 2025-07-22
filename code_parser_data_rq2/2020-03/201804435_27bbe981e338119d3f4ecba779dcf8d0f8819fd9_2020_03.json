@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "elements",
+        "clearRecipe",
+        "elements",
+        "createIngredient",
+        "ingredient",
+        "ingredient",
+        "ingredient",
+        "ingredient",
+        "renderRecipe",
+        "recipe",
+        "recipe",
+        "recipe",
+        "recipe",
+        "recipe",
+        "recipe",
+        "recipe",
+        "el",
+        "createIngredient",
+        "el",
+        "recipe",
+        "recipe",
+        "elements",
+        "html"
+    ],
+    "literals": [
+        "'./base'",
+        "''",
+        "<li class=\"recipe__item\">\n        <svg class=\"recipe__icon\">\n            <use href=\"img/icons.svg#icon-check\"></use>\n        </svg>\n        <div class=\"recipe__count\">${ingredient.count}</div>\n        <div class=\"recipe__ingredient\">\n            <span class=\"recipe__unit\">${ingredient.units}</span>\n            ${ingredient.ingredient}\n        </div>\n    </li>",
+        "<figure class=\"recipe__fig\">\n            <img src=\"${recipe.img}\" alt=\"${recipe.title}\" class=\"recipe__img\">\n            <h1 class=\"recipe__title\">\n                <span>${recipe.title}</span>\n            </h1>\n        </figure>\n        <div class=\"recipe__details\">\n            <div class=\"recipe__info\">\n                <svg class=\"recipe__info-icon\">\n                    <use href=\"img/icons.svg#icon-stopwatch\"></use>\n                </svg>\n                <span class=\"recipe__info-data recipe__info-data--minutes\">${recipe.time}</span>\n                <span class=\"recipe__info-text\"> minutes</span>\n            </div>\n            <div class=\"recipe__info\">\n                <svg class=\"recipe__info-icon\">\n                    <use href=\"img/icons.svg#icon-man\"></use>\n                </svg>\n                <span class=\"recipe__info-data recipe__info-data--people\">${recipe.servings}</span>\n                <span class=\"recipe__info-text\"> servings</span>\n\n                <div class=\"recipe__info-buttons\">\n                    <button class=\"btn-tiny\">\n                        <svg>\n                            <use href=\"img/icons.svg#icon-circle-with-minus\"></use>\n                        </svg>\n                    </button>\n                    <button class=\"btn-tiny\">\n                        <svg>\n                            <use href=\"img/icons.svg#icon-circle-with-plus\"></use>\n                        </svg>\n                    </button>\n                </div>\n\n            </div>\n            <button class=\"recipe__love\">\n                <svg class=\"header__likes\">\n                    <use href=\"img/icons.svg#icon-heart-outlined\"></use>\n                </svg>\n            </button>\n        </div>\n\n\n\n        <div class=\"recipe__ingredients\">\n            <ul class=\"recipe__ingredient-list\">\n            ${recipe.ingredients.map(el => createIngredient(el)).join('')}\n            </ul>\n\n            <button class=\"btn-small recipe__btn\">\n                <svg class=\"search__icon\">\n                    <use href=\"img/icons.svg#icon-shopping-cart\"></use>\n                </svg>\n                <span>Add to shopping list</span>\n            </button>\n        </div>\n\n        <div class=\"recipe__directions\">\n            <h2 class=\"heading-2\">How to cook it</h2>\n            <p class=\"recipe__directions-text\">\n                This recipe was carefully designed and tested by\n                <span class=\"recipe__by\">${recipe.publisher}</span>. Please check out directions at their website.\n            </p>\n            <a class=\"btn-small recipe__btn\" href=\"${recipe.url}\" target=\"_blank\">\n                <span>Directions</span>\n                <svg class=\"search__icon\">\n                    <use href=\"img/icons.svg#icon-triangle-right\"></use>\n                </svg>\n\n            </a>\n        </div>",
+        "''",
+        "'afterbegin'"
+    ],
+    "variables": [
+        "clearRecipe",
+        "createIngredient",
+        "renderRecipe",
+        "html"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

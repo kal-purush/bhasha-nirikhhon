@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "urllib",
+        "os",
+        "input",
+        "var1",
+        "lower",
+        "dictionary",
+        "var1",
+        "lower",
+        "input",
+        "read_text",
+        "usr_inp",
+        "exit",
+        "ValueError",
+        "exit",
+        "usr_inp2",
+        "open",
+        "usr_inp2",
+        "file_name",
+        "read",
+        "check_profanity",
+        "contents_of_file",
+        "file_name",
+        "close",
+        "text_to_check",
+        "urllib",
+        "urlopen",
+        "text_to_check",
+        "connection",
+        "read",
+        "output",
+        "connection",
+        "close",
+        "output",
+        "output",
+        "ValueError",
+        "begin"
+    ],
+    "literals": [
+        "\"Python command line program for checking misspelled words aswell as profanity \"",
+        "'Would you like to check a file using a DICTIONARY or PROFANITY checker for errors? \\n>>>'",
+        "'dictionary'",
+        "'profanity'",
+        "\"File to be checked for profanity?(e.g C:\\root\\python\\Scripts\\file.txt) \\n\"",
+        "\"Error\"",
+        "'http://www.wdyl.com/profanity?q='",
+        "'true'",
+        "'Profanity!'",
+        "'false'",
+        "'No profanity located'",
+        "\"Error checking document\"",
+        "\"Dictionary\""
+    ],
+    "variables": [
+        "var1",
+        "usr_inp",
+        "file_name",
+        "contents_of_file",
+        "connection",
+        "output"
+    ],
+    "comments": [
+        "user_input = raw_input('File to check? \\n')",
+        "quotes = open(r'C:\\Python27\\bad_word.txt') # reads a file with text",
+        "print(contents_of_file)",
+        "passes contents_of_file through check_profanity function",
+        "opens/establishes connection",
+        "checks if profanity is prescent in document",
+        "read_text()",
+        "check_profanity(raw_input('Text to check? \\n>>> '))"
+    ],
+    "docstrings": [
+        "'''\nChecks a string of text for a curse word using the wdyl website.\nAdd the ability to check against a dictionary for misspelled words\n\n'''"
+    ],
+    "functions": [
+        "begin",
+        "read_text",
+        "check_profanity",
+        "dictionary"
+    ],
+    "classes": []
+}

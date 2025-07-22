@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "simpledsl",
+        "NodeVisitor",
+        "Node",
+        "n",
+        "LiteralNode",
+        "n",
+        "NodeVisitor",
+        "Node",
+        "n",
+        "LiteralNode",
+        "n"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "void VisitNil(NilNode n);",
+        "void VisitSymbol(SymbolNode n);\n        void VisitAddSub(AddSubNode n);\n        void VisitMulDiv(MulDivNode n);\n        void VisitPow(PowNode n);\n        void VisitNegate(NegateNode n);\n        void VisitFx(FxNode n);\n        void VisitRelational(RelationalNode n);\n        void VisitLogic(LogicNode n);\n        void VisitLogicNot(LogicNotNode n);",
+        "empty",
+        "empty",
+        "void VisitNil(NilNode n);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "VisitNode",
+        "VisitLiteral",
+        "VisitNode",
+        "VisitLiteral"
+    ],
+    "classes": [
+        "NodeVisitorImpl"
+    ]
+}

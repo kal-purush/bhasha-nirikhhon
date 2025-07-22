@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "require",
+        "studentId",
+        "courseId",
+        "term",
+        "year",
+        "axios",
+        "BASE_URL",
+        "studentId",
+        "courseId",
+        "term",
+        "year",
+        "response",
+        "studentId",
+        "axios",
+        "BASE_URL",
+        "studentId",
+        "response"
+    ],
+    "literals": [
+        "'axios'",
+        "''",
+        "${BASE_URL}/enrollment/student=${studentId}&course=${courseId}&term=${term}&year=${year}",
+        "${BASE_URL}/student=${studentId}"
+    ],
+    "variables": [
+        "axios",
+        "BASE_URL",
+        "response",
+        "response"
+    ],
+    "comments": [
+        "POST enrollment/student=[student_id]",
+        "&course=[course_id]",
+        "&term=(fall|spring)",
+        "&year=[year_int]",
+        "GET student/<student_id>"
+    ],
+    "docstrings": [],
+    "functions": [
+        "enrollStudent",
+        "getStudent"
+    ],
+    "classes": []
+}

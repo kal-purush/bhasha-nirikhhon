@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "x",
+        "y",
+        "radius",
+        "createVector",
+        "x",
+        "y",
+        "createVector",
+        "createVector",
+        "radius",
+        "radius",
+        "force",
+        "p5",
+        "force",
+        "divedForce",
+        "delta",
+        "width",
+        "width",
+        "delta",
+        "height",
+        "height",
+        "delta",
+        "ellipse"
+    ],
+    "literals": [],
+    "variables": [
+        "divedForce",
+        "delta",
+        "delta",
+        "delta"
+    ],
+    "comments": [
+        "반지름에 맞춰서 질량을 맞추기",
+        "construsctor = 생산자x,y",
+        "쓰고 싶은 변수들을 여x,y기에 적는다",
+        "앞에 this는 반드시 들어가야함",
+        "force.div(this.mass);",
+        "이걸하면 업데이트에서 this.acc.mult(0)을 해야함",
+        "속도에 가속도를 더하고 위치에 속도를 더한다",
+        "초기화, 이거 안하면 진짜 이상하게 움직임"
+    ],
+    "docstrings": [],
+    "functions": [
+        "applyForce",
+        "update",
+        "edgeBounce",
+        "display"
+    ],
+    "classes": [
+        "Mover"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "action_type",
+        "x",
+        "y",
+        "r",
+        "g",
+        "b",
+        "notification",
+        "detect",
+        "action_type",
+        "x",
+        "y",
+        "r",
+        "g",
+        "b",
+        "notification",
+        "detect",
+        "action_type",
+        "x",
+        "y",
+        "r",
+        "g",
+        "b",
+        "notification",
+        "detect"
+    ],
+    "literals": [
+        "\"click\"",
+        "\"color\"",
+        "f'{self.action_type} {self.x} {self.y} {self.r} {self.g} {self.b} {self.notification} {self.detect}'"
+    ],
+    "variables": [
+        "click",
+        "color",
+        "action_type",
+        "x",
+        "y",
+        "r",
+        "g",
+        "b",
+        "notification",
+        "detect",
+        "replay_loops",
+        "log_comments",
+        "log_actions",
+        "log_debug",
+        "click_delay_min",
+        "click_delay_max",
+        "notification_delay",
+        "notification_loops"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getActionString"
+    ],
+    "classes": [
+        "ActionType",
+        "DetectType",
+        "Action",
+        "Settings"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "router",
+        "passport",
+        "router",
+        "passport",
+        "req",
+        "res",
+        "req",
+        "CarsService",
+        "carInfo",
+        "resp",
+        "resp",
+        "res",
+        "resp",
+        "res",
+        "resp",
+        "req",
+        "res",
+        "req",
+        "CarsService",
+        "carInfo",
+        "resp",
+        "resp",
+        "res",
+        "resp",
+        "res",
+        "resp",
+        "CarsController"
+    ],
+    "literals": [
+        "'use strict'",
+        "'../services/cars'",
+        "'jwt-simple'",
+        "'../config/secrets'",
+        "'/car'",
+        "'jwt'",
+        "\"success\"",
+        "\"success\""
+    ],
+    "variables": [
+        "CarsService",
+        "jwt",
+        "secrets",
+        "carInfo",
+        "carInfo"
+    ],
+    "comments": [
+        "this.router.get('/car', this.passport.authenticate('jwt', { session: false }), this.getCar.bind(this));"
+    ],
+    "docstrings": [],
+    "functions": [
+        "registerRoutes",
+        "getCar",
+        "postCar"
+    ],
+    "classes": [
+        "CarsController"
+    ]
+}

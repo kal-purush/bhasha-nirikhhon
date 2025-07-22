@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "ComponentModel",
+        "Composition",
+        "Microsoft",
+        "DotNet",
+        "ImageBuilder",
+        "Export",
+        "IManifestToolService",
+        "IManifestToolService",
+        "manifestFile",
+        "isDryRun",
+        "ExecuteHelper",
+        "ExecuteWithRetry",
+        "manifestFile",
+        "isDryRun"
+    ],
+    "literals": [
+        "\"manifest-tool\""
+    ],
+    "variables": [],
+    "comments": [
+        "Licensed to the .NET Foundation under one or more agreements.",
+        "The .NET Foundation licenses this file to you under the MIT license.",
+        "See the LICENSE file in the project root for more information.",
+        "ExecuteWithRetry because the manifest-tool fails periodically while communicating",
+        "with the Docker Registry."
+    ],
+    "docstrings": [],
+    "functions": [
+        "PushFromSpec"
+    ],
+    "classes": [
+        "ManifestToolService"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "m_FirstBootGame",
+        "m_DefineGameSizeAndScale",
+        "gv_MyGame",
+        "gv_MyGame",
+        "gv_MyGame",
+        "m_DefineGameSizeAndScale",
+        "gv_MyGame",
+        "Phaser",
+        "gv_MyGame",
+        "gv_MyGame",
+        "Phaser",
+        "gv_MyGame",
+        "gv_MyGame",
+        "gv_MyGame",
+        "gv_MyGame",
+        "gv_StandartGameWidth",
+        "gv_MyGame",
+        "gv_StandartGameHeight",
+        "gv_scaleRatio"
+    ],
+    "literals": [
+        "\"resize\"",
+        "''",
+        "\"mavOS\"",
+        "\"mavOS\""
+    ],
+    "variables": [
+        "gv_MyGame",
+        "gv_LevelComplete",
+        "gv_LevelDifficulty",
+        "gv_StandartGameWidth",
+        "gv_StandartGameHeight"
+    ],
+    "comments": [
+        "-------------------------------------------------------------------------------------------------------------------",
+        "gv_MyGame.GameWidth = 1000;",
+        "gv_MyGame.GameHeight = 800;",
+        "Phaser.AUTO",
+        "var lv_game = new Phaser.Game(640, 480, Phaser.AUTO, '');",
+        "Phaser.game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;",
+        "lv_game.scale.pageAlignHorizontally = true;",
+        "lv_game.scale.pageAlignVertically = true;",
+        "gv_MyGame.game = lv_game;",
+        "gv_MyGame.game.state.add(\"ZackPuzzleGame\", gv_MyGame.ZackPuzzleGame);",
+        "gv_MyGame.game.state.add(\"CodyPuzzleGame\", gv_MyGame.CodyPuzzleGame);",
+        "-------------------------------------------------------------------------------------------------------------------",
+        "gv_MyGame.GameWidth = window.innerWidth;\n\tgv_MyGame.GameHeight = window.innerHeight;\n\tgv_scaleRatio = window.devicePixelRatio / 3;\n\n\tvar gv_scaleRatio_1 = gv_MyGame.GameWidth/gv_StandartGameWidth;// 700 - ������ �� ���������\n\tvar gv_scaleRatio_2 = gv_MyGame.GameHeight/gv_StandartGameHeight;// 500 - ������ �� ���������\n\t\n\tif(gv_scaleRatio_2 < gv_scaleRatio_1)\n\t  gv_scaleRatio = gv_scaleRatio_2;\n\telse\n\t  gv_scaleRatio = gv_scaleRatio_1;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "m_FirstBootGame",
+        "m_DefineGameSizeAndScale"
+    ],
+    "classes": []
+}

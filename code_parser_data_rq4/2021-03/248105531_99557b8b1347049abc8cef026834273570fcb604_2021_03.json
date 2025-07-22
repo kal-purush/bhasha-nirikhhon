@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Disposable",
+        "Emitter",
+        "Emitter",
+        "targetDescription",
+        "targetDescription",
+        "fn",
+        "targetDescription",
+        "fn",
+        "fn",
+        "fn"
+    ],
+    "literals": [
+        "'event-kit'",
+        "string",
+        "'enter-drop-target'",
+        "'leave-drop-target'",
+        "string",
+        "'enter-drop-target'",
+        "'leave-drop-target'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* The drag and drop manager is implemented to manage drag and drop events\n * that we want to track app wide without updating the enter app state.\n *\n * This was specifically implemented due to reduced performance during drag and\n * drop when updating app state variables to track drag element changes during a\n * drag event."
+    ],
+    "functions": [
+        "emitEnterDropTarget",
+        "emitLeaveDropTarget",
+        "onEnterDropTarget",
+        "onLeaveDropTarget"
+    ],
+    "classes": [
+        "DragAndDropManager"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "async",
+        "ComponentFixture",
+        "TestBed",
+        "BotStrategyPageComponent",
+        "describe"
+    ],
+    "literals": [
+        "'@angular/core/testing'",
+        "'./bot-strategy-page.component'",
+        "'BotStrategyPageComponent'"
+    ],
+    "variables": [],
+    "comments": [
+        "let component: BotStrategyPageComponent;",
+        "let fixture: ComponentFixture<BotStrategyPageComponent>;",
+        "beforeEach(async(() => {",
+        "TestBed.configureTestingModule({",
+        "declarations: [ BotStrategyPageComponent ]",
+        "})",
+        ".compileComponents();",
+        "}));",
+        "beforeEach(() => {",
+        "fixture = TestBed.createComponent(BotStrategyPageComponent);",
+        "component = fixture.componentInstance;",
+        "fixture.detectChanges();",
+        "});",
+        "it('should create', () => {",
+        "expect(component).toBeTruthy();",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

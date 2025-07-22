@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "dataclasses",
+        "dataclass",
+        "typing",
+        "assert_type",
+        "ClassVar",
+        "Final",
+        "dataclass",
+        "Final",
+        "Final",
+        "ClassVar",
+        "Final",
+        "assert_type",
+        "D",
+        "final_classvar",
+        "D",
+        "final_no_default",
+        "final_with_default",
+        "assert_type",
+        "d",
+        "final_no_default",
+        "assert_type",
+        "d",
+        "final_with_default"
+    ],
+    "literals": [
+        "\"foo\"",
+        "\"bar\"",
+        "\"baz\"",
+        "\"baz\""
+    ],
+    "variables": [
+        "final_no_default",
+        "final_with_default",
+        "final_classvar",
+        "D",
+        "final_classvar",
+        "d",
+        "d",
+        "final_no_default",
+        "d",
+        "final_with_default",
+        "D",
+        "final_no_default",
+        "D",
+        "final_with_default"
+    ],
+    "comments": [
+        "we don't require support for Final[ClassVar[...]] because the dataclasses",
+        "runtime implementation won't recognize it as a ClassVar either",
+        "An explicitly marked ClassVar can be accessed on the class:",
+        "...but not assigned to, because it's Final:",
+        "E: can't assign to final attribute",
+        "A non-ClassVar attribute (with or without default) is a dataclass field:",
+        "... but can't be assigned to (on the class or on an instance):",
+        "E: can't assign to final attribute",
+        "E: can't assign to final attribute",
+        "E: can't assign to final attribute / can't assign instance attr on class",
+        "E: can't assign to final attribute / can't assign instance attr on class"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "D"
+    ]
+}

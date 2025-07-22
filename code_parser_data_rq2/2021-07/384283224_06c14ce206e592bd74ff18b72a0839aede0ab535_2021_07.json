@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "Injectable",
+        "RealmService",
+        "Injectable",
+        "realm",
+        "currentRealm",
+        "element",
+        "encodeURIComponent",
+        "data",
+        "element",
+        "currentRealm",
+        "dateFileName",
+        "element",
+        "element",
+        "element",
+        "element",
+        "date",
+        "date",
+        "date",
+        "date",
+        "date",
+        "date",
+        "date",
+        "year",
+        "month",
+        "day",
+        "hours",
+        "minutes",
+        "seconds",
+        "miliseconds"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'./realm/realm.service'",
+        "'root'",
+        "'a'",
+        "'href'",
+        "'data:text/json;charset=UTF-8,'",
+        "'download'",
+        "${currentRealm.name}_${dateFileName}.json",
+        "'none'",
+        "${date.getMonth() + 1}",
+        "'0'",
+        "${date.getDate()}",
+        "'0'",
+        "${date.getHours()}",
+        "'0'",
+        "${date.getMinutes()}",
+        "'0'",
+        "${date.getSeconds()}",
+        "'0'",
+        "${date.getMilliseconds()}",
+        "'0'",
+        "${year}${month}${day}_${hours}${minutes}${seconds}${miliseconds}"
+    ],
+    "variables": [
+        "currentRealm",
+        "data",
+        "dateFileName",
+        "element",
+        "date",
+        "year",
+        "month",
+        "day",
+        "hours",
+        "minutes",
+        "seconds",
+        "miliseconds"
+    ],
+    "comments": [
+        "simulate click"
+    ],
+    "docstrings": [],
+    "functions": [
+        "download",
+        "getDateString"
+    ],
+    "classes": [
+        "FileService"
+    ]
+}

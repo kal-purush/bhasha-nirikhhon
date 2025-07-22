@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "ts",
+        "FactoryGenerator",
+        "FactoryInfo",
+        "generator",
+        "generator",
+        "sourceFilePath",
+        "factoryPath",
+        "sourceFilePath",
+        "moduleSymbolNames",
+        "factoryPath",
+        "sf",
+        "ts",
+        "factorySymbolName",
+        "sf",
+        "sf",
+        "factorySymbolName"
+    ],
+    "literals": [
+        "'typescript'",
+        "'./factory_generator'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "moduleSymbolNames"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @license\n * Copyright Google Inc. All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.io/license",
+        "* Maintains a mapping of which symbols in a .ngfactory file have been used.\n *\n * .ngfactory files are generated with one symbol per defined class in the source file, regardless\n * of whether the classes in the source files are NgModules (because that isn't known at the time\n * the factory files are generated). The `FactoryTracker` exists to support removing factory symbols\n * which didn't end up being NgModules, by tracking the ones which are."
+    ],
+    "functions": [
+        "track"
+    ],
+    "classes": [
+        "FactoryTracker"
+    ]
+}

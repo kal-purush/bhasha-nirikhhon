@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "split",
+        "h",
+        "m",
+        "s",
+        "nb_sec",
+        "nb_sec",
+        "nb_sec",
+        "h",
+        "nb_sec",
+        "nb_sec",
+        "m",
+        "h",
+        "m",
+        "s",
+        "str_to_sec",
+        "sec_to_str",
+        "str_to_sec"
+    ],
+    "literals": [
+        "\"Alban\"",
+        "':'",
+        "\"%02d:%02d:%02d\"",
+        "\"__main__\"",
+        "\"13:20:50\"",
+        "\"13:20:50\""
+    ],
+    "variables": [
+        "Author",
+        "h",
+        "m",
+        "s",
+        "h",
+        "m",
+        "s"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Convertit une chaine de caractere au format HH:MM:SS en un nombre de secondes (depuis 00:00:00)\n    :param string: chaine de caractere au format HH:MM:SS\n    :return: Entier correspondant au nombre de secondes ecoulees depuis 00:00:00\n    \"\"\"",
+        "\"\"\"\n    Convertit un nombre de seconde donne en une chaine au format HH:MM:SS\n    :param nb_sec: nombre de seconde du temps a convertir\n    :return: Chaine de caractere au format HH:MM:SS\n    \"\"\""
+    ],
+    "functions": [
+        "str_to_sec",
+        "sec_to_str"
+    ],
+    "classes": []
+}

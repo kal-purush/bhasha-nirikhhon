@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "Threading",
+        "Tasks",
+        "Microsoft",
+        "AspNetCore",
+        "Http",
+        "Nop",
+        "Core",
+        "Data",
+        "Nop",
+        "Core",
+        "Http",
+        "RequestDelegate",
+        "next",
+        "_next",
+        "next",
+        "Microsoft",
+        "AspNetCore",
+        "Http",
+        "HttpContext",
+        "context",
+        "IWebHelper",
+        "webHelper",
+        "DataSettingsHelper",
+        "DatabaseIsInstalled",
+        "Format",
+        "webHelper",
+        "GetStoreLocation",
+        "webHelper",
+        "GetThisPageUrl",
+        "StartsWith",
+        "installUrl",
+        "StringComparison",
+        "InvariantCultureIgnoreCase",
+        "context",
+        "Response",
+        "Redirect",
+        "installUrl",
+        "_next",
+        "context"
+    ],
+    "literals": [
+        "\"{0}install\""
+    ],
+    "variables": [
+        "RequestDelegate",
+        "_next",
+        "installUrl"
+    ],
+    "comments": [
+        "Represents middleware that checks whether database is installed and redirects to installation URL in otherwise",
+        "</summary>",
+        "Invoke middleware actions",
+        "</summary>",
+        "<param name=\"context\">HTTP context</param>",
+        "<param name=\"webHelper\">Web helper</param>",
+        "<returns>Task</returns>",
+        "whether database is installed",
+        "redirect",
+        "or call the next middleware in the request pipeline"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "InstallUrlMiddleware",
+        "Invoke"
+    ],
+    "classes": [
+        "InstallUrlMiddleware"
+    ]
+}

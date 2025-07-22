@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "org",
+        "ewgf",
+        "services",
+        "org",
+        "springframework",
+        "jdbc",
+        "core",
+        "JdbcTemplate",
+        "org",
+        "springframework",
+        "stereotype",
+        "Service",
+        "org",
+        "springframework",
+        "transaction",
+        "annotation",
+        "Propagation",
+        "org",
+        "springframework",
+        "transaction",
+        "annotation",
+        "Transactional",
+        "java",
+        "util",
+        "Service",
+        "jdbcTemplate",
+        "jdbcTemplate",
+        "jdbcTemplate",
+        "jdbcTemplate",
+        "Transactional",
+        "propagation",
+        "Propagation",
+        "REQUIRES_NEW",
+        "batchUpdates",
+        "sql",
+        "jdbcTemplate",
+        "batchUpdate",
+        "sql",
+        "batchUpdates"
+    ],
+    "literals": [
+        "\"\"\"\n            INSERT INTO character_stats (player_id, character_id, dan_rank, game_version, wins, losses)\n            VALUES (?, ?, ?, ?, ?,?)\n            ON CONFLICT (player_id, character_id, game_version)\n            DO UPDATE SET\n                wins = EXCLUDED.wins,\n                losses = EXCLUDED.losses\n            \"\"\""
+    ],
+    "variables": [
+        "jdbcTemplate"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "BatchExecutorService",
+        "executeBatchUpdate"
+    ],
+    "classes": [
+        "BatchExecutorService"
+    ]
+}

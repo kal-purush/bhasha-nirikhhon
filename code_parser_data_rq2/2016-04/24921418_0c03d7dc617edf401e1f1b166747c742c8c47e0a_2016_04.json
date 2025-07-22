@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "require",
+        "cfg",
+        "processors",
+        "autoprefixer",
+        "cfg",
+        "cwd",
+        "dest",
+        "src"
+    ],
+    "literals": [
+        "'use strict'",
+        "'autoprefixer'",
+        "'last 2 versions'",
+        "'Explorer >= 8'",
+        "'Firefox ESR'",
+        "'Android >= 2.3'",
+        "'iOS >= 7'",
+        "'<%%= path.styles %>'",
+        "'<%%= path.css %>'",
+        "'<%%= path.css %>'",
+        "'**/*.css'"
+    ],
+    "variables": [
+        "autoprefixer"
+    ],
+    "comments": [
+        "Parse CSS and add vendor prefixes",
+        "",
+        "grunt-postcss: <https://github.com/nDmitry/grunt-postcss>",
+        "Autoprefixer: <https://github.com/postcss/autoprefixer>",
+        "Targeting notation: <https://github.com/ai/browserslist#queries>"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

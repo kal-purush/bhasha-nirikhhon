@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "DarkReader",
+        "url",
+        "url",
+        "rules",
+        "r",
+        "isUrlMatched",
+        "url",
+        "r",
+        "found",
+        "r",
+        "found",
+        "found",
+        "found",
+        "found",
+        "readJson",
+        "result",
+        "rules",
+        "result",
+        "error",
+        "readJson",
+        "result",
+        "rules",
+        "result",
+        "error",
+        "rules",
+        "urlTemplateSorter",
+        "rules"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "'url matches '",
+        "'https://raw.githubusercontent.com/alexanderby/darkreader/master/src/DarkReader/generation/rules.json'",
+        "'rules.json'",
+        "'Loaded local CSS-rules. Remote error: '"
+    ],
+    "variables": [
+        "found",
+        "rules",
+        "rules"
+    ],
+    "comments": [
+        "Search for match with given URL",
+        "rules = readJsonSync<ContrarySelectors>('rules.json')",
+        "Sort"
+    ],
+    "docstrings": [
+        "* Returns CSS-rule, configured for given URL.\n     * @param url If no matches found, common selectors will be used.",
+        "* Static CSS-rule dictionary."
+    ],
+    "functions": [
+        "getRuleFor"
+    ],
+    "classes": []
+}

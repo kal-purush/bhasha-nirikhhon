@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "Vector3",
+        "zero",
+        "controller",
+        "GetComponent",
+        "CharacterController",
+        "gameObject",
+        "transform",
+        "position",
+        "Vector3",
+        "controller",
+        "isGrounded",
+        "moveDirection",
+        "Vector3",
+        "Input",
+        "GetAxis",
+        "Input",
+        "GetAxis",
+        "moveDirection",
+        "transform",
+        "TransformDirection",
+        "moveDirection",
+        "moveDirection",
+        "moveDirection",
+        "speed",
+        "Input",
+        "GetButton",
+        "moveDirection",
+        "y",
+        "jumpSpeed",
+        "moveDirection",
+        "y",
+        "moveDirection",
+        "y",
+        "gravity",
+        "Time",
+        "deltaTime",
+        "controller",
+        "Move",
+        "moveDirection",
+        "Time",
+        "deltaTime"
+    ],
+    "literals": [
+        "\"Horizontal\"",
+        "\"Vertical\"",
+        "\"Jump\""
+    ],
+    "variables": [
+        "speed",
+        "jumpSpeed",
+        "gravity",
+        "Vector3",
+        "moveDirection",
+        "CharacterController",
+        "controller"
+    ],
+    "comments": [
+        "The GameObject is made to bounce using the space key.",
+        "Also the GameOject can be moved forward/backward and left/right.",
+        "Add a Quad to the scene so this GameObject can collider with a floor.",
+        "let the gameObject fall down",
+        "We are grounded, so recalculate",
+        "move direction directly from axes",
+        "Apply gravity",
+        "Move the controller"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update"
+    ],
+    "classes": [
+        "PlayerMove"
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "kOS",
+        "Safe",
+        "Execution",
+        "kOS",
+        "Safe",
+        "Exceptions",
+        "kOS",
+        "Safe",
+        "Compilation",
+        "kOS",
+        "Safe",
+        "Encapsulation",
+        "kOS",
+        "Safe",
+        "Utilities",
+        "KOSNomenclature",
+        "UserDelegate",
+        "GetHashCode",
+        "ICpu",
+        "cpu",
+        "cpu",
+        "cpu",
+        "GetCurrentContext",
+        "instance",
+        "instance",
+        "NoDelegate",
+        "instance",
+        "NoDelegate",
+        "Cpu",
+        "KOSCannotCallException",
+        "Format",
+        "o",
+        "o",
+        "GetType",
+        "NoDelegate",
+        "sameHashForAllInstances"
+    ],
+    "literals": [
+        "\"NoDelegate\"",
+        "\"All EmptyDelegate Instances are Equal 0987654321.123456789\"",
+        "\"DoNothingDelegate\""
+    ],
+    "variables": [
+        "sameHashForAllInstances",
+        "NoDelegate",
+        "instance",
+        "NoDelegate",
+        "Instance"
+    ],
+    "comments": [
+        "A UserDelegate that cannot actually ever executesany user code.",
+        "Instead, when OpcodeCall() is executed for it, it will merely",
+        "crash with an exception.  The idea is to give scripts something",
+        "they can use to \"unset\" a callback hook.",
+        "</summary>",
+        "force it to do nothing.",
+        "all DoNothingDelegates are the same:"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "NoDelegate",
+        "KOSDelegate",
+        "Clone",
+        "PushUnderArgs",
+        "Structure",
+        "CallWithArgsPushedAlready",
+        "ToString",
+        "Equals",
+        "GetHashCode"
+    ],
+    "classes": [
+        "NoDelegate"
+    ]
+}

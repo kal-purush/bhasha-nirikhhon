@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "createClient",
+        "WebSocket",
+        "axios",
+        "Market",
+        "process",
+        "process",
+        "NODE_URL",
+        "createClient",
+        "WebSocket",
+        "GRAPHQL_WS_URL",
+        "client",
+        "data",
+        "markets",
+        "markets",
+        "postDiscordAlert",
+        "markets",
+        "error",
+        "error",
+        "postDiscordAlert",
+        "market",
+        "axios",
+        "WEBHOOK_URL",
+        "market",
+        "market",
+        "market"
+    ],
+    "literals": [
+        "'graphql-ws'",
+        "'ws'",
+        "'axios'",
+        "'../../src/model'",
+        "bs",
+        "wss://processor.bsr.zeitgeist.pm/graphql",
+        "wss://processor.rpc-0.zeitgeist.pm/graphql",
+        "subscription {\n        markets(where: {status_in: [Closed, Reported, Disputed, Resolved]}, limit: 1, orderBy: marketId_DESC) {\n          marketId\n          question\n          status\n        }\n      }",
+        "'error'",
+        "'done!'",
+        "Market ${market.status} Alert",
+        "''",
+        "'11584734'",
+        "https://app.zeitgeist.pm/markets/${market.marketId}"
+    ],
+    "variables": [
+        "NODE_URL",
+        "WEBHOOK_URL",
+        "GRAPHQL_WS_URL",
+        "client",
+        "postDiscordAlert"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Script to subscribe to new market proposals\n * Run using `ts-node scripts/subscribe/marketStatus.ts wss://bsr.zeitgeist.pm <webhook-url>`"
+    ],
+    "functions": [],
+    "classes": []
+}

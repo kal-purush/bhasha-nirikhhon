@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "FakeItEasy",
+        "Compatibility",
+        "Reflection",
+        "MethodInfo",
+        "methodInfo",
+        "Type",
+        "Method",
+        "methodInfo",
+        "ReflectedType"
+    ],
+    "literals": [],
+    "variables": [
+        "MethodInfo",
+        "Method",
+        "Type",
+        "ReflectedType"
+    ],
+    "comments": [
+        "This is a wrapper class that stores the ReflectedType for a MethodInfo.",
+        "Until ReflectedType is back in RTM (tracked by CoreFX issue 5381), this",
+        "wrapper is used to temporarily provide the needed ReflectedType.",
+        "</summary>",
+        "Initializes a new instance of the <see cref=\"MethodInfoWrapper\" /> class.",
+        "</summary>",
+        "<param name=\"methodInfo\">The <see cref=\"System.Reflection.MethodInfo\"/> instance to wrap.</param>",
+        "<param name=\"type\">The owning type of the <see cref=\"System.Reflection.MethodInfo\"/> instance.</param>",
+        "Gets the wrapped MethodInfo instance.",
+        "</summary>",
+        "Gets the reflected type of the wrapped MethodInfo instance.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "MethodInfoWrapper"
+    ],
+    "classes": [
+        "MethodInfoWrapper"
+    ]
+}

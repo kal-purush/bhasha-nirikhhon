@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "org",
+        "codice",
+        "ddf",
+        "platform",
+        "http",
+        "java",
+        "io",
+        "javax",
+        "servlet",
+        "ServletException",
+        "javax",
+        "servlet",
+        "http",
+        "HttpServletRequest",
+        "javax",
+        "servlet",
+        "http",
+        "HttpServletResponse",
+        "HttpFilter",
+        "request",
+        "response",
+        "filterChain"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) Codice Foundation\n *\n * <p>This is free software: you can redistribute it and/or modify it under the terms of the GNU\n * Lesser General Public License as published by the Free Software Foundation, either version 3 of\n * the License, or any later version.\n *\n * <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;\n * without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the\n * GNU Lesser General Public License for more details. A copy of the GNU Lesser General Public\n * License is distributed along with this program and can be found at\n * <http://www.gnu.org/licenses/lgpl.html>.",
+        "* An HttpFilter is an object that performs filtering tasks on either the request to a resource (a\n * servlet or static content), or on the response from a resource, or both.\n *\n * <p>It is modelled after {@link javax.servlet.Filter} but its {@code doFilter} method accepts\n * {@link HttpServletRequest} and {@link HttpServletResponse} arguments instead."
+    ],
+    "functions": [
+        "doFilter"
+    ],
+    "classes": []
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "Swiper",
+        "Img",
+        "Page",
+        "contentArt",
+        "Img",
+        "Img",
+        "contentArt",
+        "Img",
+        "data",
+        "Page",
+        "contentHtml",
+        "val",
+        "initHTMl",
+        "initHTMl",
+        "Swiper"
+    ],
+    "literals": [
+        "'swiper'",
+        "'./../less/test.less'",
+        "'./../assets/contact_kv.png'",
+        "'./../utils/page'",
+        "\"./../art/test.art\"",
+        "'.swiper-container'",
+        "'.swiper-button-next'",
+        "'.swiper-button-prev'",
+        "'.swiper-pagination'"
+    ],
+    "variables": [
+        "data",
+        "contentHtml",
+        "swiper"
+    ],
+    "comments": [
+        "console.log(val)",
+        "setTimeout(function(){\n    console.log(1)\n\n    //document.querySelector('#App').innerHTML=contentHtml;\n\n    Page(contentHtml).then((val)=>{\n        console.log(val)\n        initHTMl()\n    });\n\n},1000)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "initHTMl"
+    ],
+    "classes": []
+}

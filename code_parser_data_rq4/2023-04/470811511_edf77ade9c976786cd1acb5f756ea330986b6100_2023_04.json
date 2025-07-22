@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "sessionStorage",
+        "filters",
+        "filters",
+        "filters",
+        "CSS",
+        "key",
+        "detailElement",
+        "value",
+        "detailElement",
+        "detailElement",
+        "details",
+        "detail",
+        "detail",
+        "filters",
+        "detail",
+        "sessionStorage",
+        "filters"
+    ],
+    "literals": [
+        "'use strict'",
+        "'django.admin.filtersState'",
+        "[data-filter-title='${CSS.escape(key)}']",
+        "'open'",
+        "''",
+        "'open'",
+        "'details'",
+        "'toggle'",
+        "${event.target.dataset.filterTitle}",
+        "'django.admin.filtersState'"
+    ],
+    "variables": [
+        "filters",
+        "key",
+        "value",
+        "detailElement",
+        "details"
+    ],
+    "comments": [
+        "Init filters.",
+        "Check if the filter is present, it could be from other view.",
+        "Save filter state when clicks."
+    ],
+    "docstrings": [
+        "* Persist changelist filters state (collapsed/expanded)."
+    ],
+    "functions": [],
+    "classes": []
+}

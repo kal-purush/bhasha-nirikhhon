@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "os",
+        "subprocess",
+        "sys",
+        "subprocess",
+        "run",
+        "stdout",
+        "subprocess",
+        "PIPE",
+        "stdout",
+        "decode",
+        "output",
+        "get_bookmarks_list",
+        "bookmarks_list",
+        "split",
+        "line",
+        "lines",
+        "line"
+    ],
+    "literals": [
+        "'/bin/bash'",
+        "'/storage/src/devops/bin/bookmarks_list.sh'",
+        "'utf-8'",
+        "\"__main__\"",
+        "'\\n'"
+    ],
+    "variables": [
+        "output",
+        "bookmarks_list",
+        "lines"
+    ],
+    "comments": [
+        "output = subprocess.check_output(['/bin/bash', '/storage/src/devops/bin/bookmarks_list.sh'])",
+        "TODO: call fzf and dmenu like on the shellscript \"search_posts_and_trigger_vim_by_file_contents.sh\""
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_bookmarks_list"
+    ],
+    "classes": []
+}

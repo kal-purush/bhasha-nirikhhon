@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "ethicsandsecurity",
+        "java",
+        "io",
+        "Serializable",
+        "java",
+        "text",
+        "DecimalFormat",
+        "java",
+        "util",
+        "Random",
+        "lookup",
+        "df",
+        "lookup",
+        "i",
+        "i",
+        "i",
+        "setRandom",
+        "i",
+        "at",
+        "min",
+        "max",
+        "random",
+        "max",
+        "min",
+        "scaled",
+        "random",
+        "nextDouble",
+        "shifted",
+        "scaled",
+        "min",
+        "lookup",
+        "at",
+        "parseDouble",
+        "df",
+        "format",
+        "shifted",
+        "at",
+        "lookup",
+        "at",
+        "at",
+        "lookup",
+        "at"
+    ],
+    "literals": [
+        "\"#.00\""
+    ],
+    "variables": [
+        "lookup"
+    ],
+    "comments": [
+        "initialize the quantizer class to create random lookup",
+        "generate random values between -0.53 and 1.07",
+        "set a lookup position to an actual value",
+        "get the value from a specified position"
+    ],
+    "docstrings": [
+        "*   This class creates a random value lookup array of size 256. Each encryption\n *   routine will send the raw data points into the lookup array so that it can\n *   be used for encryption\n *   @author Joshua Barney"
+    ],
+    "functions": [
+        "Quantizer",
+        "setRandom",
+        "setValue",
+        "getValue"
+    ],
+    "classes": [
+        "Quantizer"
+    ]
+}

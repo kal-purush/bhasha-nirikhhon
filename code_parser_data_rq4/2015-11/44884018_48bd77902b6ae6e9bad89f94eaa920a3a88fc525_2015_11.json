@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "AIPokerPlayer",
+        "Poker",
+        "Cards",
+        "AIPokerPlayer",
+        "Players",
+        "Card",
+        "name",
+        "startingChipCount",
+        "position",
+        "chipCount",
+        "startingChipCount",
+        "name",
+        "name",
+        "Card",
+        "cards",
+        "playerHand",
+        "Card",
+        "cards",
+        "chipCount",
+        "name",
+        "amount",
+        "amount",
+        "chipCount",
+        "Abs",
+        "amount",
+        "result",
+        "chipCount",
+        "chipCount",
+        "chipCount",
+        "amount",
+        "result",
+        "chipCount",
+        "result"
+    ],
+    "literals": [],
+    "variables": [
+        "chipCount",
+        "positionOnBoard",
+        "name",
+        "playerHand",
+        "result"
+    ],
+    "comments": [
+        "Written by Alex Ciaramella",
+        "the player's current chip count",
+        "the player's two cards held in their hand",
+        "get the player's decision for their next move",
+        "adds the 2 cards to the player's starting hand",
+        "returns the player's chip count",
+        "increases or decreases the player's chip count depending on if the amount is positive or negative",
+        "check if this will put our player in negative chips"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Player",
+        "requestAction",
+        "addCardsToHand",
+        "getChipCount",
+        "getName",
+        "modifyChipCount"
+    ],
+    "classes": [
+        "Player"
+    ]
+}

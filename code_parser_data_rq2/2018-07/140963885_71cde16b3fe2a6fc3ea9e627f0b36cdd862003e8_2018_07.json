@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "Body",
+        "Controller",
+        "Get",
+        "Param",
+        "Post",
+        "Res",
+        "IngredienteService",
+        "TransferenciaService",
+        "TransferenciaEntity",
+        "Controller",
+        "_transferenciaService",
+        "Get",
+        "Param",
+        "paramParams",
+        "Res",
+        "response",
+        "paramParams",
+        "response",
+        "usuarios",
+        "Get",
+        "Param",
+        "paramParams",
+        "Res",
+        "response",
+        "paramParams",
+        "response",
+        "usuarios",
+        "Post",
+        "Body",
+        "idUsuarioPide",
+        "Body",
+        "idUsuarioOfrece",
+        "Body",
+        "idIngredientePedido",
+        "Body",
+        "idIngredienteOfertado",
+        "idUsuarioPide",
+        "idUsuarioOfrece",
+        "idIngredientePedido",
+        "idIngredienteOfertado",
+        "Post",
+        "transferencias"
+    ],
+    "literals": [
+        "\"@nestjs/common\"",
+        "\"../ingrediente/ingrediente.service\"",
+        "\"./transferencia.service\"",
+        "\"./transferencia.entity\"",
+        "'transferencia'",
+        "'peticionesRealizadas/:idUsuario'",
+        "'peticionesRecibidas/:idUsuario'",
+        "'agregar'",
+        "'usuarioPide'",
+        "'usuarioOfrece'",
+        "'ingredientePedido'",
+        "'ingredienteOfertado'",
+        "'crearLista'"
+    ],
+    "variables": [
+        "usuarios",
+        "usuarios",
+        "transferencias"
+    ],
+    "comments": [
+        "@Post('/:usuarioPideId/:usuarioOfreceId/:ingredientePedidoId/:ingredienteOfertadoId')\n    async crearTransferenciaBase(\n        @Param() paramParams,\n        @Res() response\n    ) {\n        const transferencia = this._transferenciaService.crearTransferencia(paramParams.usuarioPideId, paramParams.usuarioOfreceId, paramParams.ingredientePedidoId, paramParams.ingredienteOfertadoId);\n        return response.send(transferencia);\n    }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "obtenerPeticionesRealizadasPorUsuario",
+        "obtenerPeticionesRecibidasPorUsuario",
+        "crear",
+        "crearTransferenciasBase"
+    ],
+    "classes": [
+        "TransferenciaController"
+    ]
+}

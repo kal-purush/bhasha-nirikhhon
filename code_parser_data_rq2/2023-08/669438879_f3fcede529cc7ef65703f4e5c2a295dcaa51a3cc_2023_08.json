@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "loginRouter",
+        "request",
+        "response",
+        "request",
+        "User",
+        "user",
+        "bcrypt",
+        "password",
+        "user",
+        "user",
+        "passwordCorrect",
+        "response",
+        "user",
+        "user",
+        "jwt",
+        "userForToken",
+        "process",
+        "process",
+        "response",
+        "user",
+        "user",
+        "loginRouter"
+    ],
+    "literals": [
+        "'jsonwebtoken'",
+        "'bcrypt'",
+        "'express'",
+        "'../models/user'",
+        "'/'",
+        "'invalid username or password'",
+        "'SECRET'"
+    ],
+    "variables": [
+        "jwt",
+        "bcrypt",
+        "loginRouter",
+        "User",
+        "user",
+        "passwordCorrect",
+        "userForToken",
+        "token"
+    ],
+    "comments": [
+        "const token = jwt.sign(userForToken, process.env.SECRET)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

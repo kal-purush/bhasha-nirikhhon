@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "bufmgr",
+        "java",
+        "io",
+        "java",
+        "util",
+        "diskmgr",
+        "numbufs",
+        "replacerArg",
+        "pin_pgid",
+        "page",
+        "emptyPage",
+        "PageId_in_a_DB",
+        "dirty",
+        "firstpage",
+        "howmany",
+        "globalPageId",
+        "pageid"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "YOUR CODE HERE",
+        "YOUR CODE HERE",
+        "YOUR CODE HERE",
+        "YOUR CODE HERE",
+        "YOUR CODE HERE",
+        "YOUR CODE HERE",
+        "YOUR CODE HERE",
+        "YOUR CODE HERE",
+        "YOUR CODE HERE"
+    ],
+    "docstrings": [
+        "...",
+        "* Create the BufMgr object.\n   * Allocate pages (frames) for the buffer pool in main memory and\n   * make the buffer manage aware that the replacement policy is\n   * specified by replacerArg.\n   *\n   * @param numbufs number of buffers in the buffer pool.\n   * @param replacerArg name of the buffer replacement policy.",
+        "* Pin a page.\n   * First check if this page is already in the buffer pool.\n   * If it is, increment the pin_count and return a pointer to this\n   * page.  If the pin_count was 0 before the call, the page was a\n   * replacement candidate, but is no longer a candidate.\n   * If the page is not in the pool, choose a frame (from the\n   * set of replacement candidates) to hold this page, read the\n   * page (using the appropriate method from {diskmgr} package) and pin it.\n   * Also, must write out the old page in chosen frame if it is dirty\n   * before reading new page.  (You can assume that emptyPage==false for\n   * this assignment.)\n   *\n   * @param Page_Id_in_a_DB page number in the minibase.\n   * @param page the pointer poit to the page.\n   * @param emptyPage true (empty page); false (non-empty page)",
+        "* Unpin a page specified by a pageId.\n   * This method should be called with dirty==true if the client has\n   * modified the page.  If so, this call should set the dirty bit\n   * for this frame.  Further, if pin_count>0, this method should\n   * decrement it. If pin_count=0 before this call, throw an exception\n   * to report error.  (For testing purposes, we ask you to throw\n   * an exception named PageUnpinnedException in case of error.)\n   *\n   * @param globalPageId_in_a_DB page number in the minibase.\n   * @param dirty the dirty bit of the frame",
+        "* Allocate new pages.\n   * Call DB object to allocate a run of new pages and\n   * find a frame in the buffer pool for the first page\n   * and pin it. (This call allows a client of the Buffer Manager\n   * to allocate pages on disk.) If buffer is full, i.e., you\n   * can't find a frame for the first page, ask DB to deallocate\n   * all these pages, and return null.\n   *\n   * @param firstpage the address of the first page.\n   * @param howmany total number of allocated new pages.\n   *\n   * @return the first page id of the new pages.  null, if error.",
+        "* This method should be called to delete a page that is on disk.\n   * This routine must call the method in diskmgr package to\n   * deallocate the page.\n   *\n   * @param globalPageId the page number in the data base.",
+        "* Used to flush a particular page of the buffer pool to disk.\n   * This method calls the write_page method of the diskmgr package.\n   *\n   * @param pageid the page number in the database.",
+        "Flushes all pages of the buffer pool to disk",
+        "Gets the total number of buffers.\n   *\n   * @return total number of buffer frames.",
+        "Gets the total number of unpinned buffer frames.\n   *\n   * @return total number of unpinned buffer frames."
+    ],
+    "functions": [
+        "BufMgr",
+        "pinPage",
+        "unpinPage",
+        "PageId",
+        "newPage",
+        "freePage",
+        "flushPage",
+        "flushAllPages",
+        "getNumBuffers",
+        "getNumUnpinnedBuffers"
+    ],
+    "classes": [
+        "BufMgr"
+    ]
+}

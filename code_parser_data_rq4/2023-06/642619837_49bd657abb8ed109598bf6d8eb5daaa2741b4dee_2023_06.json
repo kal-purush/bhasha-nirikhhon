@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "confluent_kafka",
+        "Producer",
+        "json",
+        "json",
+        "dumps",
+        "message",
+        "err",
+        "msg",
+        "err",
+        "err",
+        "msg",
+        "topic",
+        "msg",
+        "partition",
+        "msg",
+        "offset",
+        "bootstrap_servers",
+        "Producer",
+        "conf",
+        "producer",
+        "produce",
+        "topic",
+        "value",
+        "message_json",
+        "callback",
+        "delivery_report",
+        "producer",
+        "flush"
+    ],
+    "literals": [
+        "'localhost:9092'",
+        "'payments'",
+        "\"id\"",
+        "\"1234567\"",
+        "\"paymentStatus\"",
+        "\"SUCCESSFUL\"",
+        "f'Falha ao entregar a mensagem: {err}'",
+        "f'Mensagem entregue com sucesso: {msg.topic()} [{msg.partition()}] at offset {msg.offset()}'",
+        "'bootstrap.servers'"
+    ],
+    "variables": [
+        "bootstrap_servers",
+        "topic",
+        "message",
+        "message_json",
+        "conf",
+        "producer"
+    ],
+    "comments": [
+        "Configurações do Kafka",
+        "Dados da mensagem",
+        "Serializa a mensagem para formato JSON",
+        "Função de callback para confirmação de entrega",
+        "Configura o produtor Kafka",
+        "Produz a mensagem no tópico",
+        "Espera pela confirmação de entrega"
+    ],
+    "docstrings": [],
+    "functions": [
+        "delivery_report"
+    ],
+    "classes": []
+}

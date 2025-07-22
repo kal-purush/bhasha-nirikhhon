@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Command",
+        "Flags",
+        "path",
+        "fs",
+        "CODE_CLIMBER_META_DIR",
+        "ERROR_LOG_NAME",
+        "Command",
+        "Flags",
+        "Log",
+        "flags",
+        "lines",
+        "path",
+        "CODE_CLIMBER_META_DIR",
+        "ERROR_LOG_NAME",
+        "fs",
+        "errorLogPath",
+        "errorLogContent",
+        "lines"
+    ],
+    "literals": [
+        "'@oclif/core'",
+        "'node:path'",
+        "'node:fs'",
+        "'../../utils/node.util'",
+        "'Get the latest 50 lines of error logs'",
+        "'l'",
+        "'Number of lines to get'",
+        "Getting latest ${lines} lines of error logs...",
+        "'utf8'",
+        "'\\n'",
+        "'\\n'"
+    ],
+    "variables": [
+        "lines",
+        "errorLogPath",
+        "errorLogContent"
+    ],
+    "comments": [
+        "oclif command to get the latest 50 lines of error logs from the log file"
+    ],
+    "docstrings": [],
+    "functions": [
+        "run"
+    ],
+    "classes": [
+        "Log"
+    ]
+}

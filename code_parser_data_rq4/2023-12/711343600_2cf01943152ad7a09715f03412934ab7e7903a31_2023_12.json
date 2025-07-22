@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "NextApiRequest",
+        "NextApiResponse",
+        "handler",
+        "req",
+        "res",
+        "req",
+        "req",
+        "req",
+        "cfConnectingIp",
+        "ipAddress",
+        "cfConnectingIp",
+        "ipAddress",
+        "forwardedFor",
+        "ipAddress",
+        "forwardedFor",
+        "res",
+        "handler"
+    ],
+    "literals": [
+        "'next'",
+        "'x-real-ip'",
+        "string",
+        "'x-forwarded-for'",
+        "string",
+        "'cf-connecting-ip'",
+        "string",
+        "','",
+        "'Unknown'",
+        "','",
+        "'Unknown'"
+    ],
+    "variables": [
+        "handler",
+        "ipAddress",
+        "forwardedFor",
+        "cfConnectingIp"
+    ],
+    "comments": [
+        "With CF infront, the user IP will be in this header instead of the x-forwared-for"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

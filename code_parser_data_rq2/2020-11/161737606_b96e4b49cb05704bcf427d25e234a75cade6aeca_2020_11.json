@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "api",
+        "api",
+        "api",
+        "section",
+        "section",
+        "isExpanded",
+        "api",
+        "control",
+        "control",
+        "api",
+        "display",
+        "api",
+        "display",
+        "api",
+        "display",
+        "api",
+        "display",
+        "wp"
+    ],
+    "literals": [
+        "'ready'",
+        "'dokan_store'",
+        "'enable_theme_sidebar'",
+        "'sidebar_heading'",
+        "'store_map'",
+        "'contact_seller'",
+        "'store_open_close'"
+    ],
+    "variables": [
+        "display"
+    ],
+    "comments": [
+        "console.log('dokan store expanded', isExpanded);",
+        "var url;",
+        "if (isExpanded) {",
+        "url = api.settings.url.home;",
+        "api.previewer.previewUrl.set(url);",
+        "}"
+    ],
+    "docstrings": [
+        "* Run function when customizer is ready.",
+        "* Show hide controls if using theme sidebar"
+    ],
+    "functions": [],
+    "classes": []
+}

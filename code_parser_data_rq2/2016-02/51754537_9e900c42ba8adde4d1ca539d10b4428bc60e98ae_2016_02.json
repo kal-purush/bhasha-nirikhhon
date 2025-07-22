@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "target",
+        "source",
+        "source",
+        "name",
+        "name",
+        "target",
+        "name",
+        "target",
+        "name",
+        "source",
+        "name",
+        "defaultOptions",
+        "mixins",
+        "options",
+        "options",
+        "extend",
+        "o",
+        "options",
+        "defaultOptions",
+        "extend",
+        "o",
+        "defaultOptions",
+        "mixins",
+        "mixin",
+        "mixin",
+        "o",
+        "mixins",
+        "mixin",
+        "extend",
+        "ctor",
+        "mixin",
+        "ctor",
+        "compose"
+    ],
+    "literals": [
+        "\"constructor\""
+    ],
+    "variables": [
+        "ctor",
+        "o"
+    ],
+    "comments": [
+        "our constructor function that will be called every time a new composed object is created",
+        "clone options given to the constructor",
+        "complete with the defaultOptions",
+        "call the constructor function of all the mixins",
+        "add all mixins properties and methods to the constructor prototype for all",
+        "created objects to have them"
+    ],
+    "docstrings": [
+        "* Copy properties of source object to target object excluding constructor.\n * If a property with the same exists on the target it is NOT overwritten.\n *\n * @param target\n * @param source",
+        "* Create a constructor function for a class implementing the given mixins.\n *\n * @param defaultOptions options that will be used if some options are missing at construction time\n * @param mixins array of classes to be mixed together. The constructor of those classes will receive the options given\n *               to the constructor of the composed object\n * @returns {{new(any): {}}} a constructor function"
+    ],
+    "functions": [
+        "extend",
+        "compose"
+    ],
+    "classes": []
+}

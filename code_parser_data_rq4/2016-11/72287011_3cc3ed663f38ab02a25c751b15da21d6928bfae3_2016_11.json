@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Route",
+        "compile",
+        "listing",
+        "listing",
+        "name",
+        "args",
+        "key",
+        "key",
+        "name",
+        "compile",
+        "key",
+        "args"
+    ],
+    "literals": [
+        "\"./route\"",
+        "'path-to-regexp'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* List of all routes in the application",
+        "* @param listing",
+        "* Get url of named route\n     * @param name\n     * @param args\n     * @returns {string|undefined}",
+        "* Get a listing of all routes\n     * @returns {Array<Route>}"
+    ],
+    "functions": [
+        "named",
+        "all"
+    ],
+    "classes": [
+        "Routes"
+    ]
+}

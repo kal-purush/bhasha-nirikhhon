@@ -1,0 +1,85 @@
+{
+    "identifiers": [
+        "Component",
+        "NavController",
+        "NavParams",
+        "UtilsService",
+        "ModalController",
+        "TemplateData",
+        "ViewController",
+        "AddTemplatePage",
+        "Component",
+        "navCtrl",
+        "navParams",
+        "dataService",
+        "view",
+        "utilsService",
+        "modalCtrl",
+        "templates",
+        "templates",
+        "templates",
+        "templates",
+        "i",
+        "templates",
+        "i",
+        "i",
+        "templates",
+        "i"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'ionic-angular'",
+        "'../../services/utils/utils'",
+        "'ionic-angular/components/modal/modal-controller'",
+        "'../../providers/data/data'",
+        "'ionic-angular/navigation/view-controller'",
+        "'../add-template/add-template'",
+        "'page-edit-set'",
+        "'edit-set.html'",
+        "'set'",
+        "'set'",
+        "'ionViewDidLoad AddSetPage'",
+        "\"\"",
+        "'top'",
+        "\"Set can not be saved without a title!\""
+    ],
+    "variables": [
+        "i"
+    ],
+    "comments": [
+        "else {",
+        "this.utilsService.showToastWithCloseButton(\"top\", \"Please add a template first\", \"OK\");",
+        "this.addTemplate();",
+        "this.close();",
+        "}",
+        "for (var i = 0; i < this.templates.length; i++) {",
+        "if (this.type == this.templates[i].title) {",
+        "this.template = this.templates[i];",
+        "break;",
+        "}",
+        "}",
+        "addTemplate() {",
+        "let addModal = this.modalCtrl.create(AddTemplatePage);",
+        "addModal.onDidDismiss((template) => {",
+        "if (template) {",
+        "this.createTemplate(template);",
+        "}",
+        "});",
+        "addModal.present();",
+        "}",
+        "createTemplate(template) {",
+        "this.dataService.createTemplate(template);",
+        "}"
+    ],
+    "docstrings": [
+        "* Generated class for the EditSetPage page.\n *\n * See https://ionicframework.com/docs/components/#navigation for more info on\n * Ionic pages and navigation."
+    ],
+    "functions": [
+        "ionViewDidLoad",
+        "saveSet",
+        "close"
+    ],
+    "classes": [
+        "EditSetPage"
+    ]
+}

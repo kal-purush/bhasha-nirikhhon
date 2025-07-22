@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "_init_paths",
+        "collections",
+        "Counter",
+        "os",
+        "os",
+        "path",
+        "osp",
+        "pickle",
+        "tree",
+        "tree",
+        "word",
+        "child",
+        "tree",
+        "children",
+        "words",
+        "get_tree_words",
+        "child",
+        "words",
+        "Counter",
+        "tree_file",
+        "sorted",
+        "os",
+        "listdir",
+        "train_dir",
+        "osp",
+        "join",
+        "train_dir",
+        "tree_file",
+        "open",
+        "tree_path",
+        "f",
+        "pickle",
+        "load",
+        "f",
+        "get_tree_words",
+        "tree",
+        "c",
+        "update",
+        "tree_words",
+        "c",
+        "len",
+        "c"
+    ],
+    "literals": [
+        "'/local-scratch/cjc/GenerativeNeuralModuleNetwork/data/CLEVR/clevr-dataset-gen/output/SIZE64/trees/train'",
+        "'/local-scratch/cjc/GenerativeNeuralModuleNetwork/data/CLEVR/clevr-dataset-gen/output/SIZE64/trees/test'",
+        "'rb'"
+    ],
+    "variables": [
+        "words",
+        "train_dir",
+        "test_dir",
+        "c",
+        "tree_path",
+        "tree",
+        "tree_words"
+    ],
+    "comments": [
+        "for tree_file in sorted(os.listdir(test_dir)):",
+        "tree_words = get_tree_words(tree)",
+        "c.update(tree_words)",
+        "print(c)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_tree_words"
+    ],
+    "classes": []
+}

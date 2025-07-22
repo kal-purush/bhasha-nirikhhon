@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Inject",
+        "Service",
+        "UserRepository",
+        "UnauthorizedException",
+        "Jwt",
+        "BaseAuthMiddleware",
+        "Service",
+        "BaseAuthMiddleware",
+        "Inject",
+        "jwtService",
+        "userRepository",
+        "userName",
+        "user",
+        "UnauthorizedException",
+        "user"
+    ],
+    "literals": [
+        "'typedi'",
+        "'@database/repositories'",
+        "'@shared/exceptions'",
+        "'@utils/jwt'",
+        "'@middlewares/auth/BaseAuth.middleware'",
+        "'jsonwebtoken.jwt'",
+        "string",
+        "'User not found, please authenticate.'"
+    ],
+    "variables": [
+        "user"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "validate"
+    ],
+    "classes": [
+        "AuthMiddleware"
+    ]
+}

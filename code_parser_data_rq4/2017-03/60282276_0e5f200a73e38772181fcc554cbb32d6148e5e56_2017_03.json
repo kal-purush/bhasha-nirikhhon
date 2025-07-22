@@ -1,0 +1,90 @@
+{
+    "identifiers": [
+        "IO",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Windows",
+        "Storage",
+        "Windows",
+        "Storage",
+        "Streams",
+        "Microsoft",
+        "Tools",
+        "WindowsDevicePortal",
+        "StorageFile",
+        "file",
+        "Stream",
+        "stream",
+        "file",
+        "Name",
+        "Format",
+        "fn",
+        "fn",
+        "data",
+        "Encoding",
+        "ASCII",
+        "GetBytes",
+        "contentDisposition",
+        "stream",
+        "Write",
+        "data",
+        "data",
+        "Length",
+        "data",
+        "Encoding",
+        "ASCII",
+        "GetBytes",
+        "contentType",
+        "stream",
+        "Write",
+        "data",
+        "data",
+        "Length",
+        "file",
+        "OpenReadAsync",
+        "ras",
+        "AsStreamForRead",
+        "fs",
+        "CopyTo",
+        "stream"
+    ],
+    "literals": [
+        "\"Content-Disposition: form-data; name=\\\"{0}\\\"; filename=\\\"{1}\\\"\\r\\n\"",
+        "\"Content-Type: application/octet-stream\\r\\n\\r\\n\""
+    ],
+    "variables": [
+        "data",
+        "fn",
+        "contentDisposition",
+        "contentType",
+        "IRandomAccessStreamWithContentType",
+        "ras",
+        "Stream",
+        "fs"
+    ],
+    "comments": [
+        "----------------------------------------------------------------------------------------------",
+        "<copyright file=\"RequestHelpers.cs\" company=\"Microsoft Corporation\">",
+        "Licensed under the MIT License. See LICENSE.TXT in the project root license information.",
+        "</copyright>",
+        "----------------------------------------------------------------------------------------------",
+        "<content>",
+        "Methods for working with Http requests.",
+        "</content>",
+        "Copies a file to the specified stream and prepends the necessary content information",
+        "required to be part of a multipart form data request.",
+        "</summary>",
+        "<param name=\"file\">The file to be copied.</param>",
+        "<param name=\"stream\">The stream to which the file will be copied.</param>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "CopyFileToRequestStream"
+    ],
+    "classes": [
+        "DevicePortal"
+    ]
+}

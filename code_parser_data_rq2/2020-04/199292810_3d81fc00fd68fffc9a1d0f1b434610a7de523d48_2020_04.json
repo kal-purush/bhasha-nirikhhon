@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "createGlobalStyle",
+        "Theme",
+        "createGlobalStyle",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'./theme'",
+        "body {\n    margin: 0;\n    hyphens: auto;\n    background: ${(props: Props): string => props.theme.background};\n    color: ${(props: Props): string => props.theme.textColor};\n    a {\n      text-decoration: none;\n      color: ${(props: Props): string => props.theme.links};\n      :hover {\n        color: ${(props: Props): string => props.theme.hoveredLinks};\n      }\n    }\n  }",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

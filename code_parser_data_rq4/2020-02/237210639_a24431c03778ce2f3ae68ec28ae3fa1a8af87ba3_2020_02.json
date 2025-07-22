@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "types",
+        "TracebackType",
+        "typing",
+        "Any",
+        "AsyncIterator",
+        "Dict",
+        "Optional",
+        "Tuple",
+        "Type",
+        "iterator",
+        "AsyncIterator",
+        "close_func",
+        "Any",
+        "empty",
+        "iterator",
+        "iterator",
+        "close_func",
+        "AsyncIterator",
+        "chunk",
+        "iterator",
+        "chunk",
+        "close_func",
+        "close_func",
+        "method",
+        "url",
+        "Tuple",
+        "headers",
+        "Tuple",
+        "stream",
+        "AsyncByteStream",
+        "timeout",
+        "Dict",
+        "Optional",
+        "Tuple",
+        "Tuple",
+        "AsyncByteStream",
+        "NotImplementedError",
+        "exc_type",
+        "Type",
+        "exc_value",
+        "traceback",
+        "TracebackType",
+        "close"
+    ],
+    "literals": [
+        "b\"\"",
+        "\"AsyncHTTPTransport\""
+    ],
+    "variables": [
+        "iterator",
+        "close_func"
+    ],
+    "comments": [
+        "pragma: nocover"
+    ],
+    "docstrings": [
+        "\"\"\"\n    The base interface for request and response bodies.\n\n    Concrete implementations should subclass this class, and implement\n    the `\\\\__aiter__` method, and optionally the `close` method.\n    \"\"\"",
+        "\"\"\"\n        Yield bytes representing the request or response body.\n        \"\"\"",
+        "\"\"\"\n        Must be called by the client to indicate that the stream has been closed.\n        \"\"\"",
+        "\"\"\"\n    The base interface for sending HTTP requests.\n\n    Concete implementations should subclass this class, and implement\n    the `request` method, and optionally the `close` method.\n    \"\"\"",
+        "\"\"\"\n        The interface for sending a single HTTP request, and returning a response.\n\n        **Parameters:**\n\n        * **method** - `bytes` - The HTTP method, such as `b'GET'`.\n        * **url** - `Tuple[bytes, bytes, int, bytes]` - The URL as a 4-tuple of (scheme, host, port, path).\n        * **headers** - `Optional[List[Tuple[bytes, bytes]]]` - Any HTTP headers to send with the request.\n        * **stream** - `Optional[AsyncByteStream]` - The body of the HTTP request.\n        * **timeout** - `Optional[Dict[str, Optional[float]]]` - A dictionary of timeout values for I/O operations.\n\n        ** Returns:**\n\n        A five-tuple of:\n\n        * **http_version** - `bytes` - The HTTP version used by the server, such as `b'HTTP/1.1'`.\n        * **status_code** - `int` - The HTTP status code, such as `200`.\n        * **reason_phrase** - `bytes` - Any HTTP reason phrase, such as `b'OK'`.\n        * **headers** - `List[Tuple[bytes, bytes]]` - Any HTTP headers included on the response.\n        * **stream** - `AsyncByteStream` - The body of the HTTP response.\n        \"\"\"",
+        "\"\"\"\n        Close the implementation, which should close any outstanding response streams,\n        and any keep alive connections.\n        \"\"\""
+    ],
+    "functions": [
+        "empty",
+        "__aiter__",
+        "close",
+        "request",
+        "close",
+        "__aenter__",
+        "__aexit__"
+    ],
+    "classes": [
+        "AsyncByteStream",
+        "AsyncHTTPTransport"
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "contract",
+        "ethers",
+        "contractsQueryResult",
+        "i",
+        "contractsQueryResult",
+        "i",
+        "contractsQueryResult",
+        "i",
+        "contractResult",
+        "contractResult",
+        "ethers",
+        "contractAddress",
+        "coreContract",
+        "ethers",
+        "coreVersion",
+        "ethers",
+        "coreType",
+        "outputCalldata",
+        "ethers",
+        "contractAddress",
+        "outputCalldata",
+        "coreVersionBytes32",
+        "outputCalldata",
+        "coreTypeBytes32",
+        "outputCalldata",
+        "buildCoreRegistryTransaction",
+        "process",
+        "error",
+        "error",
+        "process"
+    ],
+    "literals": [
+        "\"hardhat\"",
+        "\"./engine-contracts-staging.json\"",
+        "string",
+        "string",
+        "\"IGenArt721CoreContractV3_Base\"",
+        "string",
+        "\"\""
+    ],
+    "variables": [
+        "outputCalldata",
+        "i",
+        "contractResult",
+        "contractAddress",
+        "coreType",
+        "coreContract",
+        "coreVersion",
+        "coreVersionBytes32",
+        "coreTypeBytes32"
+    ],
+    "comments": [
+        "This script is a one-off script to backfill the core registry with all of the",
+        "contracts that have been deployed to a network. It is a one-off script that should be ran with:",
+        "`yarn hardhat run --network <network> scripts/one-off/backfill-engine-contracts.ts`",
+        "Core registry function inputs for bulk registration",
+        "get version from direct call",
+        "convert version and type to bytes32",
+        "add to output json",
+        "output to console"
+    ],
+    "docstrings": [
+        "* Converts a query of our indexed data to a calldata array for the core registry\n * `registerContracts` function. This is a one-off script to backfill the core registry\n * with a subsequent etherscan/multisig call to register all of the contracts."
+    ],
+    "functions": [
+        "buildCoreRegistryTransaction"
+    ],
+    "classes": []
+}

@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "unittest",
+        "werkzeug",
+        "datastructures",
+        "MultiDict",
+        "alerta",
+        "app",
+        "create_app",
+        "qb",
+        "unittest",
+        "TestCase",
+        "create_app",
+        "MultiDict",
+        "app",
+        "test_request_context",
+        "qb",
+        "from_params",
+        "search_params",
+        "MultiDict",
+        "app",
+        "test_request_context",
+        "qb",
+        "from_params",
+        "search_params",
+        "app",
+        "config",
+        "startswith",
+        "assertIn",
+        "query",
+        "where",
+        "assertEqual",
+        "query",
+        "vars",
+        "assertEqual",
+        "query",
+        "where"
+    ],
+    "literals": [
+        "'status'",
+        "'open'",
+        "'environment'",
+        "'Production'",
+        "'attributes.country_code'",
+        "'US'",
+        "'DATABASE_URL'",
+        "'postgres'",
+        "'AND attributes @> %(attr_country_code)s'",
+        "'attr_country_code'",
+        "'country_code'",
+        "'US'",
+        "'attributes.country_code'",
+        "'US'"
+    ],
+    "variables": [
+        "app",
+        "search_params",
+        "query",
+        "search_params",
+        "query"
+    ],
+    "comments": [
+        "service, tags (=, !=, =~, !=~)",
+        "attributes (=, !=, =~, !=~)",
+        "everything else (=, !=, =~, !=~)",
+        "self.assertEqual(query.where, 'foo')",
+        "self.assertEqual(query.sort, 'foo')",
+        "self.assertEqual(query.group, 'foo')",
+        "def test_from_dict(self):",
+        "",
+        "self.qb.from_dict()"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setUp",
+        "test_equal_to",
+        "test_attributes"
+    ],
+    "classes": [
+        "SearchTestCase"
+    ]
+}

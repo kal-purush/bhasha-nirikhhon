@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "PURCHASE_STORES",
+        "CATEGORIES",
+        "PRODUCTS",
+        "FAVORITES"
+    ],
+    "literals": [],
+    "variables": [
+        "PURCHASE_STORES",
+        "CATEGORIES",
+        "PRODUCTS",
+        "FAVORITES",
+        "TABLES"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"CREATE TABLE Purchase_stores (\n   id INT UNSIGNED NOT NULL AUTO_INCREMENT,\n   Store_name VARCHAR(255) NOT NULL,\n   PRIMARY KEY (id)\n   ) ENGINE=InnoDB\"\"\"",
+        "\"\"\"CREATE TABLE Categories(\n   id INT UNSIGNED NOT NULL AUTO_INCREMENT,\n   Category_name VARCHAR(255) NOT NULL,\n   PRIMARY KEY (id)\n   ) ENGINE=InnoDB\"\"\"",
+        "\"\"\"CREATE TABLE Products (\n   id INT UNSIGNED NOT NULL AUTO_INCREMENT,\n   Product_name VARCHAR(255) NOT NULL,\n   Nutriscore VARCHAR(1) NOT NULL,\n   Links TEXT NOT NULL,\n   Details TEXT,\n   Category_id INT UNSIGNED NOT NULL,\n   Store_id INT UNSIGNED NOT NULL,\n   PRIMARY KEY (id),\n\n   CONSTRAINT fk_categories_id \n        FOREIGN KEY (Category_id)\n        REFERENCES Categories(id),\n\n   CONSTRAINT fk_store_id\n        FOREIGN KEY (Store_id)\n        REFERENCES Purchase_stores(id)\n\n) ENGINE=InnoDB\"\"\"",
+        "\"\"\"CREATE TABLE Favorites (\n    id INT UNSIGNED NOT NULL AUTO_INCREMENT,\n    Product_id INT UNSIGNED NOT NULL,\n    PRIMARY KEY (id),\n    CONSTRAINT fk_product_id \n        FOREIGN KEY (Product_id)\n        REFERENCES Products(id)\n\n) ENGINE=InnoDB\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

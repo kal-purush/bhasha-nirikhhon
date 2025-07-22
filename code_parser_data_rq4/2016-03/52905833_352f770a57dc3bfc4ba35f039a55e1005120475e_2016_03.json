@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Schema",
+        "TextInput",
+        "NumberInput",
+        "FormsConfig",
+        "TextInput",
+        "TextInput",
+        "NumberInput",
+        "NumberInput",
+        "Schema",
+        "form"
+    ],
+    "literals": [
+        "'marvelous-aurelia-forms'",
+        "string",
+        "string",
+        "'First Name'",
+        "'Last Name'",
+        "'Age'",
+        "'integer'",
+        "'Amount'",
+        "'decimal'"
+    ],
+    "variables": [
+        "form"
+    ],
+    "comments": [
+        "overrides default configuration",
+        "by default validation triggers on blur only when form has been submitted at least once",
+        "this configuration will result with form being validated on every blur"
+    ],
+    "docstrings": [],
+    "functions": [
+        "submit"
+    ],
+    "classes": [
+        "Configuration"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "TKUnit",
+        "utils",
+        "isIOS",
+        "TKUnit",
+        "utils",
+        "TKUnit",
+        "utils",
+        "isIOS",
+        "test_releaseNativeObject_canBeCalledWithNativeObject_iOS",
+        "test_releaseNativeObject_canBeCalledWithNativeObject_Android",
+        "NSObject",
+        "deallocated",
+        "TKUnit",
+        "obj",
+        "utils",
+        "obj",
+        "NSThread",
+        "TKUnit",
+        "deallocated",
+        "java",
+        "TKUnit",
+        "obj",
+        "utils",
+        "obj",
+        "TKUnit",
+        "obj",
+        "obj"
+    ],
+    "literals": [
+        "\"../TKUnit\"",
+        "\"tns-core-modules/utils/utils\"",
+        "\"tns-core-modules/platform\"",
+        "\"Method utils.GC() should be defined!\"",
+        "\"Method utils.releaseNativeObject() should be defined!\"",
+        "\"Object description should match!\"",
+        "\"NativeObject must have been deallocated!\"",
+        "\"Object description should match!\"",
+        "\"Should throw an error!\""
+    ],
+    "variables": [
+        "deallocated",
+        "obj",
+        "obj"
+    ],
+    "comments": [
+        "Need to sleep to make the delayed release get executed"
+    ],
+    "docstrings": [],
+    "functions": [
+        "test_GC_isDefined",
+        "test_releaseNativeObject_isDefined",
+        "test_releaseNativeObject_canBeCalledWithNativeObject",
+        "test_releaseNativeObject_canBeCalledWithNativeObject_iOS",
+        "test_releaseNativeObject_canBeCalledWithNativeObject_Android"
+    ],
+    "classes": []
+}

@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "subprocess",
+        "rospy",
+        "sensor_msgs",
+        "msg",
+        "CompressedImage",
+        "std_msgs",
+        "msg",
+        "Empty",
+        "rospy",
+        "init_node",
+        "anonymous",
+        "rospy",
+        "Publisher",
+        "Empty",
+        "queue_size",
+        "rospy",
+        "Subscriber",
+        "CompressedImage",
+        "subscribe",
+        "rospy",
+        "Rate",
+        "SLEEP_RATE_HZ",
+        "message",
+        "rospy",
+        "loginfo",
+        "open",
+        "f",
+        "write",
+        "message",
+        "data",
+        "f",
+        "close",
+        "rospy",
+        "is_shutdown",
+        "stream_topic",
+        "publish",
+        "Empty",
+        "sleep_rate",
+        "sleep",
+        "subprocess",
+        "call",
+        "Node",
+        "start"
+    ],
+    "literals": [
+        "'receive_image_node'",
+        "'request_capture'",
+        "'camera_stream'",
+        "'RECEIVED IMAGE'",
+        "'received_image.jpg'",
+        "'w'",
+        "'rm'",
+        "'receive_image.jpg'",
+        "'__main__'"
+    ],
+    "variables": [
+        "SLEEP_RATE_HZ",
+        "stream_topic",
+        "subscriber",
+        "sleep_rate",
+        "f"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "register camera node to ROS",
+        "register publisher wanted to publish message of web camera"
+    ],
+    "docstrings": [],
+    "functions": [
+        "subscribe",
+        "start"
+    ],
+    "classes": [
+        "Node"
+    ]
+}

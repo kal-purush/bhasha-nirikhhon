@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "Collection",
+        "autorun",
+        "test",
+        "expect",
+        "Collection",
+        "autorun",
+        "col",
+        "col",
+        "c",
+        "d",
+        "c",
+        "d",
+        "col",
+        "expect",
+        "col",
+        "dispose"
+    ],
+    "literals": [
+        "\"./init\"",
+        "\"mobx\"",
+        "\"unobserve\"",
+        "\"bigData\""
+    ],
+    "variables": [
+        "col",
+        "dispose"
+    ],
+    "comments": [
+        "test.skip(\"insert\", async () => {\n\texpect.assertions(1);\n\tconst col = new Collection(\"bigData\");\n\tfor (let i = 0; i < 500; i++) {\n\t\tawait col.add({\n\t\t\tnumber: i + 1000\n\t\t});\n\t\tconsole.log(i);\n\t}\n}, 1000000000);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "CityDefender",
+        "Phaser",
+        "Phaser",
+        "Phaser",
+        "tween"
+    ],
+    "literals": [
+        "'city'",
+        "'assets/images/city.png'",
+        "'MainMenu'"
+    ],
+    "variables": [
+        "tween"
+    ],
+    "comments": [
+        "<reference path=\"./phaser.d.ts\"/>",
+        "this.preloadBar = this.add.sprite(200, 250, 'preload');",
+        "this.load.setPreloadSprite();"
+    ],
+    "docstrings": [],
+    "functions": [
+        "preload",
+        "create",
+        "startMainMenu"
+    ],
+    "classes": [
+        "Preloader"
+    ]
+}

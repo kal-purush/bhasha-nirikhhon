@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "schedule",
+        "PluginFunction",
+        "posthog",
+        "formattedStats",
+        "entry",
+        "ms",
+        "formattedStats",
+        "entry",
+        "ms",
+        "formattedStats",
+        "key",
+        "schedule",
+        "schedule",
+        "posthog",
+        "teamId",
+        "pluginStats",
+        "teamId",
+        "increment",
+        "functionRan",
+        "teamId",
+        "teamId",
+        "PluginDurationStats",
+        "teamId",
+        "functionRan",
+        "increment",
+        "teamId",
+        "increment",
+        "schedule",
+        "posthog",
+        "StatusReport"
+    ],
+    "literals": [
+        "'node-schedule'",
+        "'./../types'",
+        "'./posthog'",
+        "string",
+        "string",
+        "${entry}_time_ms",
+        "${entry}_time_seconds",
+        "'$plugin_running_duration'",
+        "'0 * * * *'"
+    ],
+    "variables": [
+        "formattedStats",
+        "entry",
+        "ms",
+        "teamId",
+        "pluginStats",
+        "statusReport"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "formatStatsForReport",
+        "captureStatusReport",
+        "addToTimeSpentRunningPlugins",
+        "startStatusReportSchedule",
+        "stopStatusReportSchedule"
+    ],
+    "classes": [
+        "PluginDurationStats",
+        "StatusReport"
+    ]
+}

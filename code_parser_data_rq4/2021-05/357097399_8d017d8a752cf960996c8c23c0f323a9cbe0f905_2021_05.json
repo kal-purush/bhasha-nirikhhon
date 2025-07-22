@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "Collections",
+        "ObjectModel",
+        "Collections",
+        "Generic",
+        "Management",
+        "Automation",
+        "Language",
+        "Management",
+        "Automation",
+        "Subsystem",
+        "DSC",
+        "ICrossPlatformDsc",
+        "ISubsystem",
+        "ISubsystem",
+        "SubsystemKind",
+        "CrossPlatformDsc",
+        "ISubsystem",
+        "Collection",
+        "errors",
+        "DynamicKeyword",
+        "keyword",
+        "name",
+        "name"
+    ],
+    "literals": [],
+    "variables": [
+        "SubsystemKind",
+        "Kind",
+        "FunctionsToDefine"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft Corporation.",
+        "Licensed under the MIT License.",
+        "Interface for implementing a cross platform desired state configuration component.",
+        "</summary>",
+        "Subsystem kind.",
+        "</summary>",
+        "Default implementation. No function is required for this subsystem.",
+        "</summary>",
+        "DSC initializer function.",
+        "</summary>",
+        "Clear internal class caches.",
+        "</summary>",
+        "Returns resource usage string.",
+        "</summary>",
+        "Checks if a string is one of dynamic keywords that can be used in both configuration and meta configuration.",
+        "</summary>",
+        "Checks if a string matches default module name used for meta configuration resources.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "LoadDefaultKeywords",
+        "ClearCache",
+        "GetDSCResourceUsageString",
+        "IsSystemResourceName",
+        "IsDefaultModuleNameForMetaConfigResource"
+    ],
+    "classes": []
+}

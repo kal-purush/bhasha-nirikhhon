@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Component",
+        "AuthService",
+        "GameListServices",
+        "userService",
+        "gameListSevices",
+        "userService",
+        "gameListSevices",
+        "ArenaComponent",
+        "user",
+        "_this",
+        "user",
+        "user",
+        "isPlaying",
+        "_this",
+        "isPlaying",
+        "isPlaying",
+        "isPlaying",
+        "_this",
+        "isPlaying",
+        "isPlaying",
+        "ArenaComponent",
+        "ArenaComponent",
+        "Component",
+        "ArenaComponent",
+        "AuthService",
+        "GameListServices",
+        "ArenaComponent"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "\"../../auth/auth.service\"",
+        "\"../game-list/game-list.services\"",
+        "'my-arena'",
+        "\"<div class=\\\"row\\\" *ngIf=\\\"isUserPlaying==false\\\">\\n\\n    <div class=\\\"col-md-5\\\" >\\n        <h1>{{userName}}</h1>\\n        <opponent-find></opponent-find>\\n    </div>\\n    <div class=\\\"col-md-7\\\">\\n        <game-list></game-list>\\n    </div>\\n</div>\\n   <div class=\\\"row\\\" *ngIf=\\\"isUserPlaying==true\\\">\\n        <div class=\\\"col-md-5\\\" >\\n        <arena-playing [arenas]=\\\"arenas\\\"></arena-playing>\\n        </div>\\n    </div>\\n\\n\\n\""
+    ],
+    "variables": [
+        "ArenaComponent",
+        "_this"
+    ],
+    "comments": [
+        "@nocollapse"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ArenaComponent"
+    ],
+    "classes": []
+}

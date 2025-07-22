@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "tech",
+        "pegasys",
+        "ethsigner",
+        "util",
+        "java",
+        "nio",
+        "charset",
+        "StandardCharsets",
+        "UTF_8",
+        "tech",
+        "pegasys",
+        "ethsigner",
+        "TransactionSignerInitializationException",
+        "java",
+        "io",
+        "java",
+        "nio",
+        "file",
+        "Path",
+        "com",
+        "google",
+        "common",
+        "io",
+        "Files",
+        "org",
+        "apache",
+        "logging",
+        "log4j",
+        "LogManager",
+        "org",
+        "apache",
+        "logging",
+        "log4j",
+        "Logger",
+        "LOG",
+        "LogManager",
+        "getLogger",
+        "path",
+        "password",
+        "Files",
+        "asCharSource",
+        "path",
+        "toFile",
+        "UTF_8",
+        "readFirstLine",
+        "password",
+        "password",
+        "isEmpty",
+        "LOG",
+        "error",
+        "path",
+        "path",
+        "password"
+    ],
+    "literals": [
+        "\"Cannot read password from empty file: \"",
+        "\"Cannot read password from empty file: \""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2020 ConsenSys AG.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with\n * the License. You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on\n * an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the\n * specific language governing permissions and limitations under the License.",
+        "* Read password from the first line of specified file\n   *\n   * @param path The file to read the password from\n   * @return Password\n   * @throws IOException For file operations\n   * @throws TransactionSignerInitializationException If password file is empty"
+    ],
+    "functions": [
+        "readPasswordFromFile"
+    ],
+    "classes": [
+        "PasswordFileUtil"
+    ]
+}

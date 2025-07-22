@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "Router",
+        "Observable",
+        "Subject",
+        "HeroSearchService",
+        "Hero",
+        "Component",
+        "HeroSearchService",
+        "Subject",
+        "heroSearchService",
+        "router",
+        "term",
+        "term",
+        "term",
+        "term",
+        "term",
+        "Observable",
+        "error",
+        "error",
+        "Observable",
+        "hero",
+        "hero",
+        "link"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router'",
+        "'rxjs/Observable'",
+        "'rxjs/Subject'",
+        "'./hero-search.service'",
+        "'./hero'",
+        "'hero-search'",
+        "'app/hero-search.component.html'",
+        "'app/hero-search.component.css'",
+        "string",
+        "string",
+        "'/detail'"
+    ],
+    "variables": [
+        "link"
+    ],
+    "comments": [
+        "Push a search term into the observable stream.",
+        "wait for 300ms pause in events",
+        "ignore if next search term is same as previous",
+        "switch to new observable each time",
+        "return the http search observable",
+        "or the observable of empty heroes if no search term",
+        "TODO: real error handling",
+        "Every qualifying key event can trigger an http call. Even with a 300ms pause between requests, we could have multiple http requests in flight and they may not return in the order sent.\n\n      switchMap preserves the original request order while returning only the observable from the most recent http call. Results from prior calls are canceled and discarded."
+    ],
+    "docstrings": [],
+    "functions": [
+        "search",
+        "ngOnInit",
+        "gotoDetail"
+    ],
+    "classes": [
+        "HeroSearchComponent"
+    ]
+}

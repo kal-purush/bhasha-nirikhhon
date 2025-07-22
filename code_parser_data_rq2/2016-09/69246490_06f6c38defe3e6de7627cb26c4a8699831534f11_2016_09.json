@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "require",
+        "request",
+        "url",
+        "oauth",
+        "e",
+        "r",
+        "b",
+        "e",
+        "r",
+        "b",
+        "e"
+    ],
+    "literals": [
+        "'request'",
+        "'your app key'",
+        "'your app secret'",
+        "'your access token'",
+        "'your access token secret'",
+        "'https://{YOUR BASE URI}/api/account/{YOUR ACCOUNT NUMBER}/configuration/engagement-window/auto-messages/{YOUR SKILL ID}?v=1'",
+        "'Content-Type'",
+        "'application/json'"
+    ],
+    "variables": [
+        "request",
+        "oauth",
+        "url"
+    ],
+    "comments": [
+        "LivePerson LE 2.0 Automatic Messages API Example\n    Author: Scott Westover - LivePerson\n    Web call needed to discover baseURI needed to call Automatic Messages API for individual LiveEngage accounts for Accounts:\n    https://api.liveperson.net/api/account/{YOUR ACCOUNT NUMBER}/service/accountConfigReadWrite/baseURI.json?version=1.0\n    Expected response example:\n    {\n     \"service\":\"accountConfigReadWrite\",\n     \"account\":\"56072331\",\n     \"baseURI\":\"va-a.ac.liveperson.net\"\n    }",
+        "To run this example, you will need to install the Request module.",
+        "run -  npm install request",
+        "Query the API",
+        "Example URL: https://va-a.ac.liveperson.net/api/account/56072331/configuration/engagement-window/auto-messages/139321310?v=1"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

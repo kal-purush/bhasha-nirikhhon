@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "History",
+        "Location",
+        "LocationDescriptor",
+        "IMiddleware",
+        "IStore",
+        "IAction",
+        "IReducer",
+        "reactRouterRedux",
+        "store",
+        "selectLocationState",
+        "state",
+        "syncHistory",
+        "history",
+        "routeReducer",
+        "state",
+        "action",
+        "nextLocation",
+        "nextLocation",
+        "n",
+        "reactRouterRedux"
+    ],
+    "literals": [
+        "\"history\"",
+        "\"redux\"",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "routeActions",
+        "UPDATE_LOCATION",
+        "TRANSITION"
+    ],
+    "comments": [
+        "<reference path=\"typings/main.d.ts\" />"
+    ],
+    "docstrings": [
+        "* By default, the syncing logic will not respond to replaying of actions, which means it won't work with projects like redux-devtools. Call this function on the middleware object returned from syncHistory and give it the store to listen to, and it will properly work with action replays.\n\t\t * Obviously, you would do that after you have created the store and everything else has been set up.\n\t\t * Supply an optional function selectLocationState to customize where to find the location state on your app state. It defaults to state => state.routing.location, so you would install the reducer under the name \"routing\". Feel free to change this to whatever you like.\n\t\t * \n\t\t * @param {IStore<TState>} store (description)\n\t\t * @param {(state:TState) => Location} selectLocationState (description)",
+        "* Call this on the middleware returned from syncHistory to stop the syncing process set up by listenForReplays.",
+        "* Call this to create a middleware that can be applied with Redux's applyMiddleware to allow actions to call history methods. The middleware will look for route actions created by push, replace, etc. and applies them to the history.\n\t * \n\t * @export\n\t * @template TState\n\t * @param {History} history (description)\n\t * @returns {IRouterReduxMiddleware<TState>} (description)",
+        "* A reducer function that keeps track of the router state. You must add this reducer to your app reducers when creating the store. \n\t * It will return a location property in state. If you use combineReducers, it will be nested under wherever property you add it to (state.routing in the example above).\n\t * Warning: It is a bad pattern to use react-redux's connect decorator to map the state from this reducer to props on your Route components. This can lead to infinite loops and performance problems. react-router already provides this for you via this.props.location.\n\t * \n\t * @export\n\t * @param {Location} state (description)\n\t * @param {IAction} action (description)\n\t * @returns {Location} (description)",
+        "* An object that contains all the actions creators you can use to manipulate history:\n\t * \n\t * @export",
+        "* Action type for when the location is updated\n\t * @export"
+    ],
+    "functions": [],
+    "classes": []
+}

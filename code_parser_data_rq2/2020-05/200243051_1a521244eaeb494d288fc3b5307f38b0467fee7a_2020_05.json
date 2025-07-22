@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "BroadcastChannel",
+        "o",
+        "o",
+        "action",
+        "value",
+        "BroadcastChannel",
+        "onmessage",
+        "o",
+        "BroadcastChannel",
+        "channelId",
+        "onmessage",
+        "o",
+        "InstanceDetails",
+        "channelId",
+        "discoveryChannel",
+        "o",
+        "close",
+        "discoveryChannel"
+    ],
+    "literals": [
+        "\"paritytech#playground-instance\"",
+        "\"paritytech#playground-instance\"",
+        "\"someUniqueId\""
+    ],
+    "variables": [],
+    "comments": [
+        "Instance side",
+        "extract command, .. from message and execute",
+        "close all individual channels"
+    ],
+    "docstrings": [],
+    "functions": [
+        "next",
+        "close",
+        "details",
+        "send"
+    ],
+    "classes": [
+        "Discoverer",
+        "Instance",
+        "Listener"
+    ]
+}

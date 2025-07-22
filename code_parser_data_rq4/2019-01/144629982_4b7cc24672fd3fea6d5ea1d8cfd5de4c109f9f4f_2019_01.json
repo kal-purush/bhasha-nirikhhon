@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "StyleChecker",
+        "Test",
+        "Refactoring",
+        "DiscardingReturnValue",
+        "Collections",
+        "Generic",
+        "Parse",
+        "Parse",
+        "Contains",
+        "Empty"
+    ],
+    "literals": [
+        "\"32\"",
+        "\"True\"",
+        "\"\""
+    ],
+    "variables": [],
+    "comments": [
+        "@ ^int.Parse(string)",
+        "@ ^bool.Parse(string)",
+        "@ ^System.Collections.Generic.List<T>.Contains(T)",
+        "@ ^System.Array.Empty<T>()"
+    ],
+    "docstrings": [],
+    "functions": [
+        "IntParse",
+        "BooleanParse",
+        "Parse"
+    ],
+    "classes": [
+        "Methods"
+    ]
+}

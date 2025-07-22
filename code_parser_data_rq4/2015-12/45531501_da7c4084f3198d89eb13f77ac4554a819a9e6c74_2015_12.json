@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "os",
+        "platform",
+        "sys",
+        "gcc_version",
+        "gcc_version",
+        "replace",
+        "os",
+        "system",
+        "image_name",
+        "os",
+        "path",
+        "abspath",
+        "os",
+        "path",
+        "curdir",
+        "curdir",
+        "image_name",
+        "os",
+        "system",
+        "command"
+    ],
+    "literals": [
+        "\"__main__\"",
+        "\"4.6\"",
+        "\"4.8\"",
+        "\"4.9\"",
+        "\"5.2\"",
+        "\"lasote/conangcc%s\"",
+        "\".\"",
+        "\"\"",
+        "\"sudo docker pull %s\"",
+        "'sudo docker run --rm  -v %s:/home/conan/project -v '",
+        "'~/.conan/data:/home/conan/.conan/data -i %s /bin/sh -c '",
+        "'\"cd project && python build.py\"'"
+    ],
+    "variables": [
+        "image_name",
+        "curdir",
+        "command"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

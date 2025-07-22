@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "IPropertyPaneCustomFieldProps",
+        "propertyPath",
+        "oldValue",
+        "newValue"
+    ],
+    "literals": [
+        "'@microsoft/sp-webpart-base'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Public properties of the PropertyFieldSpinButton custom field",
+        "* Property field label displayed on top",
+        "* Defines an onPropertyChange function to raise when the selected value changes.\n\t * Normally this function must be defined with the 'this.onPropertyChange'\n\t * method of the web part object.",
+        "* The number to use for the initial value (The minimum value is used by default)",
+        "* The difference between the two adjacent values of the SpinButton (default is 1)",
+        "* The minimum value (no minimum when unspecified)",
+        "* The maximum value (no maximum when unspecified)",
+        "* Whether the property pane field is enabled or not.",
+        "* An UNIQUE key indicates the identity of this control",
+        "* Parent Web Part properties",
+        "* The name of the UI Fabric Font Icon to use for the increment button (defaults to ChevronUpSmall)",
+        "* The name of the UI Fabric Font Icon to use for the decrement button (defaults to ChevronDownSmall)"
+    ],
+    "functions": [],
+    "classes": []
+}

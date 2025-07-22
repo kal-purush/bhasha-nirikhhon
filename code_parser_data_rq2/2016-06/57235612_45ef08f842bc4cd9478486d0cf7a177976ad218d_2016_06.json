@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "flask_failsafe",
+        "failsafe",
+        "werkzeug",
+        "serving",
+        "run_simple",
+        "failsafe",
+        "server",
+        "create_app",
+        "create_app",
+        "create_app",
+        "app",
+        "run",
+        "host",
+        "port",
+        "debug",
+        "start_app",
+        "create_app"
+    ],
+    "literals": [
+        "'localhost'",
+        "\"__main__\""
+    ],
+    "variables": [
+        "application",
+        "app",
+        "application"
+    ],
+    "comments": [
+        "importable wsgi application"
+    ],
+    "docstrings": [
+        "\"\"\"\nMain app script to load a logistics wizard app model and either run it (DEV mode)\nor make it available to the parent service as a WSGI module.\n\nConfiguration is done via environment variables. The current config keys\nare:\n\nDATABASE_URL     The url to connect to the database, defaults to a sqlite\n                 file called 'test.db' in this module's directory.\n\n         ENV     Set the environment flag, can be DEV, TEST, or PROD.\n                 Defaults to DEV.\n\nTOKEN_SECRET     The secret to be used for creating JSON Web Tokens, should\n                 be long and hard to guess, like a password.\n\n\"\"\"",
+        "\"\"\"\n    Wires the flask applications together into one wsgi app\n    :return: A flask/wsgi app that is composed of multiple sub apps\n    \"\"\"",
+        "\"\"\"\n    Run in development mode, never used in production.\n    \"\"\""
+    ],
+    "functions": [
+        "create_app",
+        "start_app"
+    ],
+    "classes": []
+}

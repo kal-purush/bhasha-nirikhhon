@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Plugin",
+        "CordovaProperty",
+        "IonicNativePlugin",
+        "Plugin",
+        "Injectable",
+        "IonicNativePlugin",
+        "CordovaProperty",
+        "CordovaProperty",
+        "CordovaProperty",
+        "CordovaProperty",
+        "CordovaProperty"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@ionic-native/core'",
+        "'Uid'",
+        "'https://github.com/hygieiasoft/cordova-plugin-uid'",
+        "'cordova.plugins.uid'",
+        "'https://github.com/hygieiasoft/cordova-plugin-uid'",
+        "'Android'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "Get the device Universally Unique Identifier (UUID).",
+        "Get the device International Mobile Station Equipment Identity (IMEI).",
+        "Get the device International mobile Subscriber Identity (IMSI).",
+        "Get the sim Integrated Circuit Card Identifier (ICCID).",
+        "Get the Media Access Control address (MAC)."
+    ],
+    "docstrings": [
+        "* @name Uid\n * @description\n * Get unique identifiers: UUID, IMEI, IMSI, ICCID and MAC.\n *\n * @usage\n * ```typescript\n * import { Uid } from '@ionic-native/uid';\n * import { AndroidPermissions } from '@ionic-native/android-permissions';\n *\n * constructor(private uid: Uid, private androidPermissions: AndroidPermissions) { }\n *\n * \n * async getImei() {\n *  const { hasPermission } = await this.androidPermissions.checkPermission(\n *    this.androidPermissions.PERMISSION.READ_PHONE_STATE\n *  );\n *  \n *  if (!hasPermission) {\n *    const result = await this.androidPermissions.requestPermission(\n *      this.androidPermissions.PERMISSION.READ_PHONE_STATE\n *    );\n *\n *    if (!result.hasPermission) {\n *      throw new Error('Permissions required');\n *    }\n * \n *    // ok, a user gave us permission, we can get him identifiers after restart app\n *    return;\n *  }\n * \n *   return this.uid.IMEI\n * }\n * ```"
+    ],
+    "functions": [],
+    "classes": [
+        "Uid"
+    ]
+}

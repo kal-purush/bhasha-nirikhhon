@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "express",
+        "axios",
+        "response",
+        "router",
+        "routers",
+        "routers",
+        "router",
+        "routers",
+        "router",
+        "hostRule",
+        "hostRule",
+        "ret",
+        "hostRule",
+        "ret",
+        "error",
+        "error",
+        "app",
+        "req",
+        "res",
+        "fetchTraefikRoutes",
+        "routes",
+        "routes",
+        "route",
+        "route",
+        "route",
+        "res",
+        "htmlContent",
+        "app",
+        "port",
+        "port"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"axios\"",
+        "\"http://traefik:8080/api/http/routers\"",
+        "\"Erreur lors de la récupération des routes de Traefik:\"",
+        "\"/\"",
+        "<!DOCTYPE html>\n    <html lang=\"en\">\n    <head>\n        <meta charset=\"UTF-8\">\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n        <title>Liste des domaines</title>\n        <style>\n            body {\n                font-family: Arial, sans-serif;\n                background-color: #f4f4f9;\n                color: #333;\n                text-align: center;\n                padding: 20px;\n            }\n            h1 {\n                color: #4CAF50;\n                font-size: 2.5em;\n            }\n            a {\n                display:block;    \n                background-color: #fff;\n                margin: 10px;\n                padding: 15px;\n                border-radius: 5px;\n                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\n                transition: transform 0.2s ease;\n                text-decoration: none;\n                color: #2196F3;\n                font-weight: bold;\n            }\n            a:hover {\n                color: #0b7dda;\n            }\n        </style>\n    </head>\n    <body>\n        <h1>Domains Configured in Traefik</h1>\n        ${routes.map(route => `<div><a href=\"https://${route}\">${route}</a></div>`).join('')}\n    </body>\n    </html>",
+        "<div><a href=\"https://${route}\">${route}</a></div>",
+        "''",
+        "Serveur en écoute sur http://localhost:${port}"
+    ],
+    "variables": [
+        "express",
+        "axios",
+        "app",
+        "port",
+        "response",
+        "routers",
+        "ret",
+        "hostRule",
+        "routes",
+        "htmlContent"
+    ],
+    "comments": [
+        "Fonction pour obtenir les routes Traefik",
+        "Route principale pour afficher les liens",
+        "Démarrage du serveur"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchTraefikRoutes"
+    ],
+    "classes": []
+}

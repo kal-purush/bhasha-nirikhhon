@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "NextApiRequest",
+        "NextApiResponse",
+        "fs",
+        "req",
+        "res",
+        "req",
+        "fs",
+        "sessionsDir",
+        "directoryExists",
+        "directoryExists",
+        "directoryExists",
+        "fs",
+        "sessionsDir",
+        "fs",
+        "req",
+        "req",
+        "res",
+        "err",
+        "err",
+        "res"
+    ],
+    "literals": [
+        "\"next\"",
+        "\"fs/promises\"",
+        "\"../sessions\"",
+        "\"CREATING SESSION DIR\"",
+        "../sessions/${req.body.uuid}.json"
+    ],
+    "variables": [
+        "sessionsDir",
+        "directoryExists"
+    ],
+    "comments": [
+        "create a folder in ../sessions if it doesn't exist"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handler"
+    ],
+    "classes": []
+}

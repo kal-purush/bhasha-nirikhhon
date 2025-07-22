@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "word",
+        "word",
+        "alert",
+        "fetch",
+        "url",
+        "response",
+        "response",
+        "data",
+        "data",
+        "data",
+        "meanings",
+        "meanings",
+        "definition",
+        "meanings",
+        "meanings",
+        "synonyms",
+        "data",
+        "data",
+        "data",
+        "audioElement",
+        "audioUrl",
+        "audioElement",
+        "audioElement",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "\"wordInput\"",
+        "\"https://api.dictionaryapi.dev/api/v2/entries/en/\"",
+        "\"please enter the word\"",
+        "\"definition\"",
+        "<b>Definition: <i>  ${definition} </i></b>",
+        "\", \"",
+        "\"synonyms\"",
+        "\"Synonyms: \"",
+        "\"synonyms\"",
+        "\"Synonyms: Not available\"",
+        "\"audio\"",
+        "\"audio\"",
+        "\"\"",
+        "\"audio\"",
+        "\"audio\"",
+        "\"Audio: Not available\"",
+        "\"wordInput\"",
+        "\"\"",
+        "\"Error fetching definition:\"",
+        "\"definition\"",
+        "\"Failed to fetch definition.\""
+    ],
+    "variables": [
+        "word",
+        "url",
+        "meanings",
+        "definition",
+        "synonyms",
+        "audioUrl",
+        "audioElement"
+    ],
+    "comments": [
+        "Extracting definition",
+        "Extracting synonyms",
+        "Extracting audio pronunciation"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getValue"
+    ],
+    "classes": []
+}

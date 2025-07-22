@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "FinishedNodes",
+        "Rest",
+        "rest",
+        "rest",
+        "data"
+    ],
+    "literals": [
+        "\"../types/dashboard\"",
+        "\"./rest\"",
+        "${this.rest.getBaseRoute()}/dashboard",
+        "${this.getDashboardRoute()}/finished_nodes",
+        "${this.getFinishedNodesRoute()}",
+        "'get'"
+    ],
+    "variables": [
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getDashboardRoute",
+        "getFinishedNodesRoute"
+    ],
+    "classes": [
+        "DashboardClient"
+    ]
+}

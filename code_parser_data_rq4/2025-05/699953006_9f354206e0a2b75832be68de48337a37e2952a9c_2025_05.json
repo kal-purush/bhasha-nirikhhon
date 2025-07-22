@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "OpenapiSchemaObjectBase",
+        "openapiPageParamProperty",
+        "paramName",
+        "bodySegment",
+        "bodySegment",
+        "bodySegment",
+        "bodySegment",
+        "bodySegment",
+        "paramName",
+        "openapiPageParamProperty",
+        "bodySegment"
+    ],
+    "literals": [
+        "'@rvoh/dream'",
+        "'./pageParamOpenapiProperty.js'",
+        "string",
+        "'object'",
+        "'object'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @internal\n *\n * Used to carefully bind implicit pagination params\n * to the requestBody properties. It will not apply\n * the pagination param unless the provided bodySegment\n * is:\n *\n * a.) falsey (null, undefined, etc...)\n * b.) an openapi object (must have { type: 'object'})\n *\n * If neither of these apply, it will simply return\n * what was given to it, without any modifications"
+    ],
+    "functions": [
+        "safelyAttachPaginationParamToRequestBodySegment"
+    ],
+    "classes": []
+}

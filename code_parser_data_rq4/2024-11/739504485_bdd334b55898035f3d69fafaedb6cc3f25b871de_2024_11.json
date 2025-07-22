@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "EventHandlerRequest",
+        "H3Event",
+        "url",
+        "chatId",
+        "msgId",
+        "URL",
+        "url",
+        "urlObj",
+        "paths",
+        "paths",
+        "paths",
+        "chatId",
+        "msgId",
+        "value",
+        "send",
+        "value"
+    ],
+    "literals": [
+        "'h3'",
+        "string",
+        "string",
+        "'/'",
+        "'Invalid URL'",
+        "-100${paths[2]}",
+        "'application/json'"
+    ],
+    "variables": [
+        "urlObj",
+        "paths",
+        "chatId",
+        "msgId"
+    ],
+    "comments": [
+        "https://t.me/c/[chatId]/[msgId]"
+    ],
+    "docstrings": [],
+    "functions": [
+        "parseMsgUrl",
+        "sendJson"
+    ],
+    "classes": []
+}

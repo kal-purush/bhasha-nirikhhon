@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "os",
+        "path",
+        "wordcloud",
+        "WordCloud",
+        "path",
+        "dirname",
+        "open",
+        "path",
+        "join",
+        "d",
+        "read",
+        "WordCloud",
+        "generate",
+        "text",
+        "matplotlib",
+        "pyplot",
+        "plt",
+        "plt",
+        "imshow",
+        "wordcloud",
+        "plt",
+        "axis",
+        "WordCloud",
+        "max_font_size",
+        "relative_scaling",
+        "generate",
+        "text",
+        "plt",
+        "figure",
+        "plt",
+        "imshow",
+        "wordcloud",
+        "plt",
+        "axis",
+        "plt",
+        "show"
+    ],
+    "literals": [
+        "'../data/input/constitution.txt'",
+        "\"off\"",
+        "\"off\""
+    ],
+    "variables": [
+        "d",
+        "text",
+        "wordcloud",
+        "wordcloud"
+    ],
+    "comments": [
+        "!/usr/bin/env python2",
+        "Read the whole text.",
+        "text = open(path.join(d, '../data/input/aaa.txt')).read()",
+        "text = unicode(text, \"utf8\")",
+        "Generate constitution.txt word cloud image",
+        "Display the generated image:",
+        "the matplotlib way:",
+        "take relative word frequencies into account, lower max_font_size",
+        "The pil way (if you don't have matplotlib)",
+        "image = wordcloud.to_image()",
+        "image.show()"
+    ],
+    "docstrings": [
+        "\"\"\"\nMinimal Example\n===============\nGenerating constitution.txt square wordcloud from the US constitution using default arguments.\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

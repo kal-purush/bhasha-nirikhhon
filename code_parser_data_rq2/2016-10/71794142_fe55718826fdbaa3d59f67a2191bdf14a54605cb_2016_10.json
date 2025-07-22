@@ -1,0 +1,86 @@
+{
+    "identifiers": [
+        "Gulpclass",
+        "SequenceTask",
+        "gulp",
+        "gts",
+        "nodemon",
+        "uglify",
+        "concat",
+        "rename",
+        "Gulpclass",
+        "gts",
+        "gts",
+        "gts",
+        "tsResult",
+        "gulp",
+        "done",
+        "nodemon",
+        "callBackCalled",
+        "callBackCalled",
+        "done",
+        "done",
+        "gulp",
+        "done",
+        "gulp",
+        "concat",
+        "gulp",
+        "rename",
+        "uglify",
+        "gulp",
+        "SequenceTask"
+    ],
+    "literals": [
+        "'gulpclass/Decorators'",
+        "'gulp'",
+        "'gulp-typescript'",
+        "'gulp-nodemon'",
+        "'gulp-uglify'",
+        "'gulp-concat'",
+        "'gulp-rename'",
+        "'del'",
+        "'./tsconfig.json'",
+        "string",
+        "'dist/app'",
+        "'./dist/app/app.js'",
+        "'start'",
+        "'src/**/*.ts'",
+        "'compile'",
+        "''",
+        "'compile'",
+        "'dist/app/**/*.js'",
+        "'all.js'",
+        "'dist/production'",
+        "'all.min.js'",
+        "'dist/production'",
+        "'compile'",
+        "'nodemon'",
+        "'watch'"
+    ],
+    "variables": [
+        "tsResult",
+        "callBackCalled"
+    ],
+    "comments": [
+        "import * as browser_sync from 'browser-sync';",
+        "tạo biến project của gulp-typescript",
+        "thư mục sẽ chứa các file js đã được compile"
+    ],
+    "docstrings": [
+        "* lớp là lớp chính để chạy gulp\n * muốn thêm task thì thêm vào trong đây\n * \n * luật chung khi tạo 1 task:\n * - task phải trả về stream\n * - nếu không trả về stream được thì phải nhận vào 1 callback function\n *   và gọi nó khi muốn báo là task đã dừng\n * \n * vì nếu không trả về hoặc báo là dừng thì task đó sẽ không bao giờ dừng\n * \n * đọc ở đây để biết thêm:\n * https://github.com/gulpjs/gulp/blob/master/docs/API.md",
+        "* task này sẽ compile các file\n     * được khai báo trong phần files của tsconfig\n     * và đưa vào thư mục dist/app",
+        "* task này sẽ chạy nodemon\n     * và nodemon này sẽ chạy file app.js\n     * và sau đó nodemon sẽ tự động giám sát thư mục hiện tại\n     * mà nó được gọi là NODEJS-API-SECURIRY này và tự động restart lại khi có sự thay đổi\n     * \n     * lên đây để biết thêm chi tiết https://github.com/remy/nodemon",
+        "* task này sẽ chạy gulp.watch\n     * và nó sẽ giám sát sự thay đổi các file ts trong thư mục src\n     * và chạy task compile khi có sự thay đổi",
+        "* task này phụ thuộc vào 2 task clean và compile\n     * chỉ khi clean và compile chạy xong thì task này mới chạy\n     * \n     * task này có nhiệm vụ là lấy tất cả các file js\n     * trong thư mục src và nối lại thành file all.js\n     * bỏ vào thư mục dist/production, và sau đó tạo file all.min.js\n     * và minify file all.js vào file đó và bỏ vào thư mục dist/production",
+        "* task này là default khi chỉ chạy gulp trong command line\n     * nó sẽ chạy lần lượt các task compile,nodemon,watch"
+    ],
+    "functions": [
+        "compile",
+        "nodemon",
+        "watch",
+        "build"
+    ],
+    "classes": [
+        "Gulpfile"
+    ]
+}

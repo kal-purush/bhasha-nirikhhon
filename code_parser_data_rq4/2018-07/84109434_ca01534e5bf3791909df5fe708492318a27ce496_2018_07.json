@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "require",
+        "MongoClient",
+        "process",
+        "err",
+        "db",
+        "err",
+        "err",
+        "process",
+        "db",
+        "err",
+        "err",
+        "err",
+        "db",
+        "process",
+        "db"
+    ],
+    "literals": [
+        "'mongodb'",
+        "'mongodb://localhost/Result'",
+        "\"Crashed at init:\"",
+        "\"Analyze\"",
+        "\"_id.Batch\"",
+        "\"2014\"",
+        "\"$_id.Programme\"",
+        "\"$_id.Batch\"",
+        "\"$_id.CollegeCode\"",
+        "\"$_id.Semester\"",
+        "\"$Students\"",
+        "\"ClassOverall\"",
+        "\"Crashed at Aggregate framework:\"",
+        "\"Done.\""
+    ],
+    "variables": [
+        "MongoClient"
+    ],
+    "comments": [
+        "{ $unwind: \"$Students\" },",
+        "{ $sort: { \"Students.Scores\": -1 } },",
+        "{ $group: {",
+        "_id: \"$_id\",",
+        "Students: { $push: \"$Students\" },",
+        "count: { $sum: 1 }",
+        "} },"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

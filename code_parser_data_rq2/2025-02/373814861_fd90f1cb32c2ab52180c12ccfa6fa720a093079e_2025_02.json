@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "logger",
+        "isMockBackend",
+        "checkJwks",
+        "isMockBackend",
+        "process",
+        "jwksUri",
+        "logger",
+        "fetch",
+        "jwksUri",
+        "response",
+        "logger",
+        "jwksUri",
+        "response",
+        "response",
+        "error",
+        "logger",
+        "jwksUri",
+        "error"
+    ],
+    "literals": [
+        "'@navikt/next-logger'",
+        "'./environment'",
+        "'Missing IDPORTEN_JWKS_URI environment variable'",
+        "'GET'",
+        "Failed to contact ${jwksUri}: ${response.status} ${response.statusText}",
+        "Error connecting to ${jwksUri}: ${JSON.stringify(error)}"
+    ],
+    "variables": [
+        "checkJwks",
+        "jwksUri",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

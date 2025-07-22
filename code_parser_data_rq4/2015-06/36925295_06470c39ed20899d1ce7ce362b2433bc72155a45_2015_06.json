@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "onFulfilled",
+        "value",
+        "onRejected",
+        "error",
+        "onFulfilled",
+        "value",
+        "onRejected",
+        "error",
+        "callback",
+        "resolve",
+        "value",
+        "reject",
+        "error",
+        "onFulfilled",
+        "value",
+        "onRejected",
+        "error",
+        "onFulfilled",
+        "value",
+        "onRejected",
+        "error",
+        "onRejected",
+        "error",
+        "resolve",
+        "value",
+        "reject",
+        "error",
+        "all",
+        "promises",
+        "race",
+        "promises",
+        "rsvp",
+        "foo",
+        "rsvp"
+    ],
+    "literals": [
+        "'es6-promise'"
+    ],
+    "variables": [
+        "foo"
+    ],
+    "comments": [
+        "Type definitions for es6-promise",
+        "Project: https://github.com/jakearchibald/ES6-Promise",
+        "Definitions by: François de Campredon <https://github.com/fdecampredon/>, vvakame <https://github.com/vvakame>",
+        "Definitions: https://github.com/borisyankov/DefinitelyTyped",
+        "Temp variable to reference Promise in local context"
+    ],
+    "docstrings": [
+        "* If you call resolve in the body of the callback passed to the constructor,\n\t * your promise is fulfilled with result object passed to resolve.\n\t * If you call reject your promise is rejected with the object passed to resolve.\n\t * For consistency and debugging (eg stack traces), obj should be an instanceof Error.\n\t * Any errors thrown in the constructor callback will be implicitly passed to reject().",
+        "* onFulfilled is called when/if \"promise\" resolves. onRejected is called when/if \"promise\" rejects.\n\t * Both are optional, if either/both are omitted the next onFulfilled/onRejected in the chain is called.\n\t * Both callbacks have a single parameter , the fulfillment value or rejection reason.\n\t * \"then\" returns a new promise equivalent to the value you return from onFulfilled/onRejected after being passed through Promise.resolve.\n\t * If an error is thrown in the callback, the returned promise rejects with that error.\n\t *\n\t * @param onFulfilled called when/if \"promise\" resolves\n\t * @param onRejected called when/if \"promise\" rejects",
+        "* Sugar for promise.then(undefined, onRejected)\n\t *\n\t * @param onRejected called when/if \"promise\" rejects",
+        "* Make a new promise from the thenable.\n\t * A thenable is promise-like in as far as it has a \"then\" method.",
+        "* Make a promise that rejects to obj. For consistency and debugging (eg stack traces), obj should be an instanceof Error",
+        "* Make a promise that fulfills when every item in the array fulfills, and rejects if (and when) any item rejects.\n\t * the array passed to all can be a mixture of promise-like objects and other objects.\n\t * The fulfillment value is an array (in order) of fulfillment values. The rejection value is the first rejection value.",
+        "* Make a Promise that fulfills when any item fulfills, and rejects if any item rejects."
+    ],
+    "functions": [],
+    "classes": []
+}

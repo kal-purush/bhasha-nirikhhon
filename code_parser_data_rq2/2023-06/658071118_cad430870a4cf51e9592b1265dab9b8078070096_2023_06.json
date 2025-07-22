@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "require",
+        "express",
+        "require",
+        "require",
+        "app",
+        "express",
+        "__dirname",
+        "main",
+        "err",
+        "err",
+        "mongoose",
+        "process",
+        "apiController",
+        "app",
+        "app",
+        "port"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"mongoose\"",
+        "\"./controllers/apiController\"",
+        "\"/assets\"",
+        "\"/public\"",
+        "mongodb://${\n        process.env.MONGO_HOSTNAME || \"localhost\"\n      }:27017/node-api-demo",
+        "\"localhost\"",
+        "\"Connected.\""
+    ],
+    "variables": [
+        "express",
+        "app",
+        "mongoose",
+        "apiController",
+        "port"
+    ],
+    "comments": [
+        "mongo instead of localhost for docker-compose"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

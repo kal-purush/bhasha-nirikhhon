@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "merit",
+        "pointText",
+        "defaultPointText",
+        "merit",
+        "timesPurchased",
+        "timesPurchased",
+        "pointText",
+        "defaultPointText",
+        "merit",
+        "merit",
+        "merit",
+        "pointText",
+        "plural",
+        "timesText",
+        "flaw",
+        "pointText",
+        "defaultPointText",
+        "pointText",
+        "defaultPointText",
+        "flaw",
+        "flaw",
+        "flaw",
+        "pointText",
+        "plural"
+    ],
+    "literals": [
+        "' point'",
+        "''",
+        "X ${timesPurchased}",
+        "'s'",
+        "''",
+        "${merit.name} (${merit.points}${pointText}${plural}${timesText})",
+        "'s'",
+        "''",
+        "${flaw.name} (${flaw.points}${pointText}${plural})"
+    ],
+    "variables": [
+        "defaultPointText",
+        "timesPurchased",
+        "timesText",
+        "plural",
+        "plural"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getSelectedMeritDescription",
+        "getFlawDescription"
+    ],
+    "classes": []
+}

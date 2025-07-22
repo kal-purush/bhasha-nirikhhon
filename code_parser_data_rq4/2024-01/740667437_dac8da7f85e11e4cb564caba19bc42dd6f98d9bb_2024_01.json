@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "Beacon",
+        "Sdk",
+        "Beacon",
+        "Permission",
+        "UnityEngine",
+        "TezosSDK",
+        "Tezos",
+        "CreateAssetMenu",
+        "fileName",
+        "menuName",
+        "order",
+        "ScriptableObject",
+        "Tooltip",
+        "SerializeField",
+        "NetworkType",
+        "ghostnet",
+        "Tooltip",
+        "SerializeField",
+        "Tooltip",
+        "SerializeField",
+        "Tooltip",
+        "SerializeField",
+        "baseUrlFormat",
+        "Replace",
+        "network",
+        "ToString",
+        "documentationUrl",
+        "network",
+        "requestTimeoutSeconds"
+    ],
+    "literals": [
+        "\"DataProviderConfigSO\"",
+        "\"Tezos/Data Provider Configuration\"",
+        "\"Select the network to use for querying data.\"",
+        "\"The URL format for the base API endpoint. Use {network} as a placeholder for the network type.\"",
+        "\"https://api.{network}.tzkt.io/v1/\"",
+        "\"Timeout for requests to the data provider.\"",
+        "\"URL to the documentation of the data provider. (Optional)\"",
+        "\"https://api.tzkt.io/\"",
+        "\"{network}\""
+    ],
+    "variables": [
+        "NetworkType",
+        "network",
+        "baseUrlFormat",
+        "requestTimeoutSeconds",
+        "documentationUrl",
+        "BaseUrl",
+        "DocumentationUrl",
+        "NetworkType",
+        "Network",
+        "RequestTimeoutSeconds"
+    ],
+    "comments": [
+        "The URL format string for the base API endpoint. Use {network} as a placeholder for the network type.",
+        "Example format: \"https://api.{network}.tzkt.io/v1/\"",
+        "If NetworkType is set to 'ghostnet', the resulting URL will be: \"https://api.ghostnet.tzkt.io/v1/\""
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "DataProviderConfigSO"
+    ]
+}

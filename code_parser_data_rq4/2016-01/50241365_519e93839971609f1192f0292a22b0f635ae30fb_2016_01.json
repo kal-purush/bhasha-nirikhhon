@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Component",
+        "Attribute",
+        "Input",
+        "Allergy",
+        "MemberService",
+        "OnInit",
+        "OnChanges",
+        "Member",
+        "Component",
+        "MemberService",
+        "_memberService"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'../model/allergy'",
+        "'../services/member.service'",
+        "'angular2/core'",
+        "\"../model/member\"",
+        "'member-demographics'",
+        "<div *ngIf=\"member\">\n        <h2>{{title}}</h2>\n        <div><label>id: </label>{{member.externalMemberId}}</div>\n        <div><label>First name: </label>{{member.firstName}}</div>\n        <div><label>Last name: </label>{{member.lastName}}</div>\n        <div><label>Age: </label>{{member.age}}</div>\n        <div><label>Gender: </label>{{member.gender.value}}</div>\n        <div><label>Date of birth: </label>{{member.birthDate}}</div>\n     </div>",
+        "'member'",
+        "\"Demographics\""
+    ],
+    "variables": [],
+    "comments": [
+        "templateUrl:'app/components/templates/member-allergies.component.html',"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnChanges"
+    ],
+    "classes": [
+        "MemberDemographicsComponent"
+    ]
+}

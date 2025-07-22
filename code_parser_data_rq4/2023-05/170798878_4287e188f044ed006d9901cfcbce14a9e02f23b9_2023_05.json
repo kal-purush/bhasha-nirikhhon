@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "MetadataRoute",
+        "siteConfig",
+        "Article",
+        "getAllArticles",
+        "MetadataRoute",
+        "getAllArticles",
+        "article",
+        "article",
+        "publishedArticles",
+        "article",
+        "siteConfig",
+        "article",
+        "article"
+    ],
+    "literals": [
+        "\"next\"",
+        "\"config/site\"",
+        "\"contentlayer/generated\"",
+        "\"lib/get-articles-data\"",
+        "${siteConfig.details.url}/articles/${article.slug}"
+    ],
+    "variables": [
+        "publishedArticles"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "sitemap"
+    ],
+    "classes": []
+}

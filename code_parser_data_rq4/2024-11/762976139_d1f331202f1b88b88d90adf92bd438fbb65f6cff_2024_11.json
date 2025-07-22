@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "requests",
+        "json",
+        "file_config",
+        "file_config",
+        "open",
+        "file_config",
+        "f",
+        "json",
+        "load",
+        "f",
+        "requests",
+        "post",
+        "DEBEZIUM_SERVER_CONS",
+        "json",
+        "connector_config",
+        "headers",
+        "headers",
+        "response",
+        "status_code",
+        "response",
+        "status_code",
+        "response",
+        "text",
+        "create_connection"
+    ],
+    "literals": [
+        "\"http://debezium:8083/connectors\"",
+        "f\"🔗 Creating connection for {file_config} ...\"",
+        "f\"./registers/{file_config}.json\"",
+        "\"Accept\"",
+        "\"application/json\"",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "\"✅ Connector created successfully!\"",
+        "f\"❌ Error: {response.status_code}\"",
+        "\"-\"",
+        "\"__main__\"",
+        "\"postgres\""
+    ],
+    "variables": [
+        "DEBEZIUM_SERVER_CONS",
+        "connector_config",
+        "headers",
+        "response"
+    ],
+    "comments": [
+        "create_connection(\"mongo\")"
+    ],
+    "docstrings": [],
+    "functions": [
+        "create_connection"
+    ],
+    "classes": []
+}

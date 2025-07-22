@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "com",
+        "betware",
+        "rampart",
+        "client",
+        "clientData",
+        "clientData",
+        "clientData",
+        "clientData",
+        "clientData",
+        "clientData",
+        "result",
+        "e",
+        "result",
+        "e"
+    ],
+    "literals": [],
+    "variables": [
+        "clientData"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* LaCaixaBankCallbackHandler.java\n *\n * This file was auto-generated from WSDL\n * by the Apache Axis2 version: 1.5.2  Built on : Sep 06, 2010 (09:42:01 CEST)",
+        "*  LaCaixaBankCallbackHandler Callback class, Users can extend this class and implement\n *  their own receiveResult and receiveError methods.",
+        "* User can pass in any object that needs to be accessed once the NonBlocking\n     * Web service call is finished and appropriate method of this CallBack is called.\n     * @param clientData Object mechanism by which the user can pass in user data\n     * that will be avilable at the time this callback is called.",
+        "* Please use this constructor if you don't want to set any clientData",
+        "* Get the client data",
+        "* auto generated Axis2 call back method for echo method\n     * override this method for handling normal response from echo operation",
+        "* auto generated Axis2 Error handler\n     * override this method for handling error response from echo operation",
+        "* auto generated Axis2 call back method for sayHello method\n     * override this method for handling normal response from sayHello operation",
+        "* auto generated Axis2 Error handler\n     * override this method for handling error response from sayHello operation"
+    ],
+    "functions": [
+        "RampartCallbackHandler",
+        "RampartCallbackHandler",
+        "getClientData",
+        "receiveResultecho",
+        "receiveErrorecho",
+        "receiveResultsayHello",
+        "receiveErrorsayHello"
+    ],
+    "classes": [
+        "RampartCallbackHandler"
+    ]
+}

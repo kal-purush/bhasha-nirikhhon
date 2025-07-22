@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "prismaObjectType",
+        "prismaObjectType",
+        "t",
+        "t",
+        "t",
+        "parent",
+        "ards",
+        "ctx",
+        "ctx",
+        "user",
+        "me",
+        "user",
+        "prisma",
+        "user",
+        "user",
+        "user",
+        "user",
+        "user",
+        "user",
+        "user",
+        "user",
+        "result",
+        "me"
+    ],
+    "literals": [
+        "'nexus-prisma'",
+        "'Query'",
+        "'*'",
+        "'me'",
+        "'PartyAccount'",
+        "'cognito:username'"
+    ],
+    "variables": [
+        "Query",
+        "ctx",
+        "me",
+        "result"
+    ],
+    "comments": [
+        "Expose all generated `Todo`-queries",
+        "const me = await ctx.prisma.user({",
+        "cognitoId: user.sub,",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [
+        "definition"
+    ],
+    "classes": []
+}

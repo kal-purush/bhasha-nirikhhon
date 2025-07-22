@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "Controller",
+        "Get",
+        "Post",
+        "Body",
+        "Patch",
+        "Param",
+        "Delete",
+        "JenkinsService",
+        "CreateJenkinDto",
+        "Controller",
+        "jenkinsService",
+        "Post",
+        "Body",
+        "createJenkinDto",
+        "createJenkinDto",
+        "Get",
+        "Get",
+        "Param",
+        "id",
+        "id",
+        "Delete",
+        "Param",
+        "id",
+        "id"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'./jenkins.service'",
+        "'./dto/create-jenkin.dto'",
+        "'jenkins'",
+        "':id'",
+        "'id'",
+        "string",
+        "':id'",
+        "'id'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "import { UpdateJenkinDto } from './dto/update-jenkin.dto';",
+        "@Patch(':id')",
+        "update(@Param('id') id: string, @Body() updateJenkinDto: UpdateJenkinDto) {",
+        "return this.jenkinsService.update(+id, updateJenkinDto);",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "create",
+        "findAll",
+        "findOne",
+        "remove"
+    ],
+    "classes": [
+        "JenkinsController"
+    ]
+}

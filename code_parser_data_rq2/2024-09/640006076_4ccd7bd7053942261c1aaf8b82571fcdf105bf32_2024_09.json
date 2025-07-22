@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "nodeTest",
+        "RuleTester",
+        "noAmplifyErrors",
+        "RuleTester",
+        "nodeTest",
+        "RuleTester",
+        "nodeTest",
+        "RuleTester",
+        "nodeTest",
+        "RuleTester",
+        "ruleTester",
+        "noAmplifyErrors"
+    ],
+    "literals": [
+        "'node:test'",
+        "'@typescript-eslint/rule-tester'",
+        "'./no_amplify_errors'",
+        "'no-amplify-errors'",
+        "'throw new Error()'",
+        "'throw new AmplifyUserError()'",
+        "'useOfAmplifyErrorDetected'",
+        "'throw new AmplifyFault()'",
+        "'useOfFaultDetected'"
+    ],
+    "variables": [
+        "ruleTester"
+    ],
+    "comments": [
+        "See https://typescript-eslint.io/packages/rule-tester/#with-specific-frameworks",
+        "Node test runner methods return promises which are not relevant in the context of testing.",
+        "We do ignore them in other places with void keyword.",
+        "eslint-disable-next-line @typescript-eslint/no-misused-promises",
+        "eslint-disable-next-line @typescript-eslint/no-misused-promises"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "express",
+        "app",
+        "express",
+        "path",
+        "__dirname",
+        "app",
+        "req",
+        "res",
+        "res",
+        "path",
+        "app",
+        "req",
+        "res",
+        "res",
+        "path",
+        "app",
+        "port",
+        "port"
+    ],
+    "literals": [
+        "'express'",
+        "'path'",
+        "'./static'",
+        "\"/home\"",
+        "'./static/home/home.html'",
+        "\"/menu\"",
+        "'./static/menu/menu.html'",
+        "Server started on port ${port}"
+    ],
+    "variables": [
+        "express",
+        "path",
+        "app",
+        "port"
+    ],
+    "comments": [
+        "app.use(express.static(path.join('./static/menu')));",
+        "app.use(express.static(path.join('./static/home')));"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

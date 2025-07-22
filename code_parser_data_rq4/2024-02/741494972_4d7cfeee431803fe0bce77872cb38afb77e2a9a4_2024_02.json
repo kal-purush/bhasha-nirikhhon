@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "frc",
+        "robot",
+        "bindings",
+        "java",
+        "util",
+        "Optional",
+        "edu",
+        "wpi",
+        "first",
+        "wpilibj2",
+        "command",
+        "button",
+        "Trigger",
+        "frc",
+        "robot",
+        "commands",
+        "ChurroLowerCommand",
+        "frc",
+        "robot",
+        "commands",
+        "ChurroRaiseCommand",
+        "frc",
+        "robot",
+        "subsystems",
+        "SK24Churro",
+        "frc",
+        "robot",
+        "Ports",
+        "OperatorPorts",
+        "subsystem",
+        "churroButton",
+        "subsystem",
+        "subsystem",
+        "subsystem",
+        "churroButton",
+        "kChurro",
+        "button",
+        "subsystem",
+        "isPresent",
+        "m_example",
+        "subsystem",
+        "get",
+        "churroButton",
+        "onTrue",
+        "m_example",
+        "churroButton",
+        "onFalse",
+        "m_example"
+    ],
+    "literals": [],
+    "variables": [
+        "subsystem",
+        "churroButton"
+    ],
+    "comments": [
+        "If subsystem is present then this method will bind the buttons"
+    ],
+    "docstrings": [
+        "* The class that is used to bind all the commands for the arm subsystem\n     * \n     * @param controller\n     *            The contoller that the commands are being bound to\n     * @param subsystem\n     *            The required drive subsystem for the commands\n     * @return"
+    ],
+    "functions": [
+        "SK24ChurroBinder",
+        "bindButtons"
+    ],
+    "classes": [
+        "SK24ChurroBinder"
+    ]
+}

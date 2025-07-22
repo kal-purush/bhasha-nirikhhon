@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "useRef",
+        "useCallback",
+        "useState",
+        "MutableRefObject",
+        "useIsomorphicLayoutEffect",
+        "State",
+        "state",
+        "unmountedRef",
+        "payload",
+        "useState",
+        "useRef",
+        "state",
+        "useIsomorphicLayoutEffect",
+        "stateRef",
+        "state",
+        "useRef",
+        "useCallback",
+        "payload",
+        "_",
+        "payload",
+        "_",
+        "stateRef",
+        "k",
+        "payload",
+        "k",
+        "stateRef",
+        "k",
+        "payload",
+        "k",
+        "stateDependenciesRef",
+        "k",
+        "shouldRerender",
+        "shouldRerender",
+        "unmountedRef",
+        "rerender",
+        "stateRef",
+        "stateDependenciesRef",
+        "setState"
+    ],
+    "literals": [
+        "'react'",
+        "'./env'",
+        "'./types'"
+    ],
+    "variables": [
+        "rerender",
+        "stateRef",
+        "stateDependenciesRef",
+        "setState",
+        "shouldRerender",
+        "k"
+    ],
+    "comments": [
+        "If a state property (data, error or isValidating) is accessed by the render",
+        "function, we mark the property as a dependency so if it is updated again",
+        "in the future, we trigger a rerender.",
+        "This is also known as dependency-tracking.",
+        "Type casting to work around the `for...in` loop",
+        "https://github.com/Microsoft/TypeScript/issues/3500",
+        "If the property hasn't changed, skip",
+        "If the property is accessed by the component, a rerender should be",
+        "triggered.",
+        "config.suspense isn't allowed to change during the lifecycle",
+        "eslint-disable-next-line react-hooks/exhaustive-deps"
+    ],
+    "docstrings": [
+        "* An implementation of state with dependency-tracking.",
+        "* @param payload To change stateRef, pass the values explicitly to setState:\n   * @example\n   * ```js\n   * setState({\n   *   isValidating: false\n   *   data: newData // set data to newData\n   *   error: undefined // set error to undefined\n   * })\n   *\n   * setState({\n   *   isValidating: false\n   *   data: undefined // set data to undefined\n   *   error: err // set error to err\n   * })\n   * ```"
+    ],
+    "functions": [
+        "useStateWithDeps"
+    ],
+    "classes": []
+}

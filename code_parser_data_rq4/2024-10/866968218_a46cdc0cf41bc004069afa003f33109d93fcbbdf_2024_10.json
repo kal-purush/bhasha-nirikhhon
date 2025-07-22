@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "sys",
+        "file_name",
+        "header_length",
+        "file_name",
+        "read_header",
+        "file_name",
+        "len",
+        "jpeg_header",
+        "file_name",
+        "file_name",
+        "file_name",
+        "is_jpeg",
+        "file_name",
+        "file_name",
+        "is_gif",
+        "file_name",
+        "file_name",
+        "is_png",
+        "file_name",
+        "file_name",
+        "file_name",
+        "sys",
+        "argv",
+        "print_file_type",
+        "file_name"
+    ],
+    "literals": [
+        "b'\\xff\\xd8'",
+        "b'GIF87a'",
+        "b'GIF89a'",
+        "b'\\x89PNG\\r\\n\\x1a\\n'",
+        "b'xxx'",
+        "f'Soubor {file_name} je typu jpeg'",
+        "f'Soubor {file_name} je typu gif'",
+        "f'Soubor {file_name} je typu png'",
+        "f'Soubor {file_name} je neznámého typu'",
+        "'__main__'"
+    ],
+    "variables": [
+        "jpeg_header",
+        "gif_header1",
+        "gif_header2",
+        "png_header",
+        "header",
+        "file_name"
+    ],
+    "comments": [
+        "definice úvodních binárních sekvencí obrázkových souborů",
+        "načti hlavičku souboru",
+        "vyhodnoť zda je soubor jpeg",
+        "vyhodnoť zda je soubor gif",
+        "vyhodnoť zda je soubor png",
+        "přidej try-except blok, odchyť obecnou vyjímku Exception a vypiš ji"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Tato funkce načte binární soubor z cesty file_name,\n    z něj přečte prvních header_length bytů a ty vrátí pomocí return\n    \"\"\"",
+        "\"\"\"\n    Funkce zkusí přečíst ze souboru hlavičku obrázku jpeg,\n    tu srovná s definovanou hlavičkou v proměnné jpeg_header\n    \"\"\"",
+        "\"\"\"\n    Funkce zkusí přečíst ze souboru hlavičku obrázku jpeg,\n    tu srovná s definovanými hlavičkami v proměnných gif_header1 a gif_header2\n    \"\"\"",
+        "\"\"\"\n    Funkce zkusí přečíst ze souboru hlavičku obrázku jpeg,\n    tu srovná s definovanou hlavičkou v proměnné png_header\n    \"\"\"",
+        "\"\"\"\n    Funkce vypíše typ souboru - tuto funkci není třeba upravovat\n    \"\"\""
+    ],
+    "functions": [
+        "read_header",
+        "is_jpeg",
+        "is_gif",
+        "is_png",
+        "print_file_type"
+    ],
+    "classes": []
+}

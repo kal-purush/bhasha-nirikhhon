@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "gulp",
+        "gulp",
+        "sass",
+        "sass",
+        "autoprefixer",
+        "gulp",
+        "gulp",
+        "gulp"
+    ],
+    "literals": [
+        "'use strict'",
+        "'gulp'",
+        "'gulp-sass'",
+        "'gulp-autoprefixer'",
+        "'sass'",
+        "'./sass/**/*.scss'",
+        "'error'",
+        "'last 5 versions'",
+        "'./css'",
+        "'sass:watch'",
+        "'./sass/**/*.scss'",
+        "'sass'"
+    ],
+    "variables": [
+        "gulp",
+        "sass",
+        "autoprefixer"
+    ],
+    "comments": [
+        "gulp.task('default', ['sass', 'sass:watch']);",
+        "autoprefixer@@@@@@@@@@@@@@@@@@@@@@@@@@@@@",
+        "gulp.task('autoprefixer', function() {",
+        "return gulp.src('./sass/**/*.scss')",
+        ".pipe(autoprefixer({",
+        "browsers: ['last 2 versions'],",
+        "cascade: false",
+        "}))",
+        ".pipe(gulp.dest('./css'));",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

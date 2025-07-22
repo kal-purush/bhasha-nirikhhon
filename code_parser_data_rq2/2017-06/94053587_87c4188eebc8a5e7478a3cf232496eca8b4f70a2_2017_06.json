@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "ObjectID",
+        "userID",
+        "User",
+        "userID",
+        "user",
+        "user",
+        "user",
+        "e",
+        "e"
+    ],
+    "literals": [
+        "'mongodb'",
+        "'./../server/db/mongoose'",
+        "'./../server/models/todo'",
+        "'./../server/models/user'",
+        "'5941f921001ca41704bd3107'",
+        "'Object ID is not valid.'",
+        "'User not found.'",
+        "'User: '"
+    ],
+    "variables": [
+        "userID"
+    ],
+    "comments": [
+        "var id = '59488e3eee0c1a1e09f77520';",
+        "if(!ObjectID.isValid(id)){",
+        "return console.log('Object ID is not valid.');",
+        "}",
+        "Todo.find({",
+        "_id: id",
+        "}).then((todos) => {",
+        "console.log('Todos: ', todos);",
+        "});",
+        "Todo.findOne({",
+        "_id: id",
+        "}).then((todo) => {",
+        "console.log('Todo: ', todo);",
+        "});",
+        "Todo.findById(id).then((todo) => {",
+        "console.log('Todo by ID:', todo)",
+        "}).catch((e) => {",
+        "console.log(e);",
+        "});",
+        "User",
+        "1. User not found",
+        "2. User was found. Print User",
+        "3. Print error"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "IO",
+        "FileNameChanger",
+        "args",
+        "Directory",
+        "GetFiles",
+        "diretoryPath",
+        "ToList",
+        "file",
+        "files",
+        "File",
+        "ReadAllText",
+        "file",
+        "filedata",
+        "filedata",
+        "Replace",
+        "Trim",
+        "IsNullOrWhiteSpace",
+        "filedata",
+        "filedata",
+        "filedata",
+        "Substring",
+        "filedata",
+        "IndexOf",
+        "newName",
+        "newName",
+        "Replace",
+        "Trim",
+        "newName",
+        "i",
+        "File",
+        "Move",
+        "file",
+        "diretoryPath",
+        "i",
+        "newName"
+    ],
+    "literals": [
+        "\"<?xml version=\\\"1.0\\\" encoding=\\\"utf-16\\\"?>\"",
+        "\"\"",
+        "\"\\0\"",
+        "\" \"",
+        "\".xml\"",
+        "\".\"",
+        "\".xml\""
+    ],
+    "variables": [
+        "diretoryPath",
+        "files",
+        "i",
+        "filedata",
+        "newName",
+        "checkName"
+    ],
+    "comments": [
+        "if (File.Exists(diretoryPath + checkName))",
+        "{",
+        "i++;",
+        "File.Move(file, diretoryPath+newName + i + \".xml\");",
+        "}",
+        "else",
+        "{",
+        "File.Move(file,diretoryPath+newName + \".xml\");",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Main"
+    ],
+    "classes": [
+        "Program"
+    ]
+}

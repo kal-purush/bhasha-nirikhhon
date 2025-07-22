@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "db",
+        "UserDto",
+        "checkTableExists",
+        "dropTableIfExist",
+        "db",
+        "dropTableIfExist",
+        "checkTableExists",
+        "mok",
+        "el",
+        "mok",
+        "db",
+        "el",
+        "el",
+        "db",
+        "recordset",
+        "recordset",
+        "UserDto",
+        "recordset",
+        "id",
+        "db",
+        "recordset",
+        "recordset",
+        "UserDto",
+        "recordset"
+    ],
+    "literals": [
+        "'../../db/databaseClient'",
+        "'./Users.dto'",
+        "'../../db/CommonQueries'",
+        "'users'",
+        "CREATE TABLE ${this.tableName} (\n            id INT IDENTITY(1,1) PRIMARY KEY,\n            name VARCHAR(255) NOT NULL,\n            age INT CHECK (age BETWEEN 0 AND 130) NOT NULL,\n            birth TIMESTAMP NOT NULL\n        )",
+        "'id'",
+        "'Alice'",
+        "'Bob'",
+        "'Charlie'",
+        "'David'",
+        "'Eve'",
+        "'INSERT INTO users (name, age) VALUES (@name, @age)'",
+        "SELECT * FROM ${this.tableName}",
+        "'SELECT * FROM Users WHERE id = @id'"
+    ],
+    "variables": [
+        "users"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "createTable",
+        "dropTableIfExist",
+        "checkTableExists",
+        "insertMockData",
+        "selectAll",
+        "selectById"
+    ],
+    "classes": [
+        "UserDao"
+    ]
+}

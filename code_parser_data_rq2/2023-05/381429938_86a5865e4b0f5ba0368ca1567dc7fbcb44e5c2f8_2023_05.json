@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Threading",
+        "Arc",
+        "Threading",
+        "ILockable",
+        "Monitor",
+        "IsEntered",
+        "syncObject",
+        "Monitor",
+        "Enter",
+        "syncObject",
+        "lockTaken",
+        "lockTaken",
+        "Monitor",
+        "Exit",
+        "syncObject"
+    ],
+    "literals": [],
+    "variables": [
+        "IsLocked",
+        "lockTaken",
+        "syncObject"
+    ],
+    "comments": [
+        "Copyright (c) All contributors. All rights reserved. Licensed under the MIT license.",
+        "<see cref=\"MonitorLock\"/> class implements <see cref=\"ILockable\"/>, which is actually a wrapper class for an object and <see cref=\"Monitor\"/> methods.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "Enter",
+        "Exit"
+    ],
+    "classes": [
+        "MonitorLock"
+    ]
+}

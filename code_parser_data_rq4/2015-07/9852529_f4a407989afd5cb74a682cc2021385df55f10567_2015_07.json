@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Xrm",
+        "Sdk",
+        "Xrm",
+        "Sdk",
+        "Messages",
+        "Xrm",
+        "Sdk",
+        "Messages",
+        "OrganizationRequest",
+        "Attribute",
+        "SerialiseValue",
+        "Target",
+        "Attribute",
+        "SerialiseValue",
+        "Assignee"
+    ],
+    "literals": [
+        "\"<request i:type=\\\"c:AssignRequest\\\" xmlns:a=\\\"http://schemas.microsoft.com/xrm/2011/Contracts\\\" xmlns:c=\\\"http://schemas.microsoft.com/crm/2011/Contracts\\\">\"",
+        "\"        <a:Parameters xmlns:b=\\\"http://schemas.datacontract.org/2004/07/System.Collections.Generic\\\">\"",
+        "\"          <a:KeyValuePairOfstringanyType>\"",
+        "\"            <b:key>Target</b:key>\"",
+        "\"          </a:KeyValuePairOfstringanyType>\"",
+        "\"          <a:KeyValuePairOfstringanyType>\"",
+        "\"            <b:key>Assignee</b:key>\"",
+        "\"          </a:KeyValuePairOfstringanyType>\"",
+        "\"        </a:Parameters>\"",
+        "\"        <a:RequestId i:nil=\\\"true\\\" />\"",
+        "\"        <a:RequestName>Assign</a:RequestName>\"",
+        "\"      </request>\""
+    ],
+    "variables": [
+        "EntityReference",
+        "Target",
+        "EntityReference",
+        "Assignee"
+    ],
+    "comments": [
+        "AssignRequest.cs",
+        ""
+    ],
+    "docstrings": [],
+    "functions": [
+        "Serialise"
+    ],
+    "classes": [
+        "AssignRequest"
+    ]
+}

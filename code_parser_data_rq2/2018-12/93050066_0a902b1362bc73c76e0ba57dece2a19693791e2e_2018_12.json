@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Log",
+        "BaseListViewCommandSet",
+        "Command",
+        "IListViewCommandSetListViewUpdatedParameters",
+        "IListViewCommandSetExecuteEventParameters",
+        "sp",
+        "BaseListViewCommandSet",
+        "Log",
+        "LOG_SOURCE",
+        "_",
+        "sp",
+        "printCommand",
+        "printCommand",
+        "component",
+        "dialog",
+        "dialog",
+        "dialog",
+        "dialog",
+        "dialog"
+    ],
+    "literals": [
+        "'@microsoft/decorators'",
+        "'@microsoft/sp-core-library'",
+        "'@microsoft/sp-listview-extensibility'",
+        "\"@pnp/sp\"",
+        "string",
+        "string",
+        "'PrintCommandSet'",
+        "'Initialized PrintCommandSet'",
+        "'COMMAND_Print'",
+        "'COMMAND_Print'",
+        "'./components/print-dialog'",
+        "'ID'",
+        "'Title'",
+        "'Unknown command'"
+    ],
+    "variables": [
+        "LOG_SOURCE",
+        "printCommand",
+        "component",
+        "dialog"
+    ],
+    "comments": [
+        "This is an example; replace with your own properties",
+        "Setup PnP core to use current context",
+        "This command should be hidden unless exactly one row is selected.",
+        "webpackMode: \"lazy\"",
+        "webpackChunkName: 'multisharedialog-component'"
+    ],
+    "docstrings": [
+        "* If your command set uses the ClientSideComponentProperties JSON input,\n * it will be deserialized into the BaseExtension.properties object.\n * You can define an interface to describe it."
+    ],
+    "functions": [
+        "onInit",
+        "onListViewUpdated",
+        "onExecute"
+    ],
+    "classes": [
+        "PrintCommandSet"
+    ]
+}

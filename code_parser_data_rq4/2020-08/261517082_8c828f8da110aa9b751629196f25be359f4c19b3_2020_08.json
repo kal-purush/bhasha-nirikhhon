@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "word",
+        "firstCapital",
+        "allCapital",
+        "i",
+        "i",
+        "word",
+        "length",
+        "i",
+        "word",
+        "charAt",
+        "i",
+        "word",
+        "charAt",
+        "i",
+        "i",
+        "firstCapital",
+        "firstCapital",
+        "i",
+        "allCapital",
+        "allCapital",
+        "firstCapital",
+        "allCapital"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "Given a word, you need to judge whether the usage of capitals in it is right or not.\n\n        We define the usage of capitals in a word to be right when one of the following cases holds:\n\n        All letters in this word are capitals, like \"USA\".\n        All letters in this word are not capitals, like \"leetcode\".\n        Only the first letter in this word is capital, like \"Google\".\n        Otherwise, we define that this word doesn't use capitals in a right way.\n        \n\n        Example 1:\n        Input: \"USA\"\n        Output: True\n        \n\n        Example 2:\n        Input: \"FlaG\"\n        Output: False\n        \n\n        Note: The input will be a non-empty word consisting of uppercase and lowercase latin letters."
+    ],
+    "functions": [
+        "detectCapitalUse"
+    ],
+    "classes": [
+        "Solution"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [],
+    "literals": [
+        "\"Mauro Risonho de Paula Assumpção (firebits)\"",
+        "\"This module will install/update radare2 - is a portable reversing framework\"",
+        "\"GIT\"",
+        "\"https://github.com/radare/radare2\"",
+        "\"radare2\"",
+        "\"git,make,gcc\"",
+        "\"git,make,gcc\"",
+        "\"cd {INSTALL_LOCATION},sys/install.sh\"",
+        "\"radare2\""
+    ],
+    "variables": [
+        "AUTHOR",
+        "DESCRIPTION",
+        "INSTALL_TYPE",
+        "REPOSITORY_LOCATION",
+        "INSTALL_LOCATION",
+        "DEBIAN",
+        "FEDORA",
+        "AFTER_COMMANDS",
+        "LAUNCHER"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "",
+        "Installation module for radare2",
+        "",
+        "AUTHOR OF MODULE NAME",
+        "DESCRIPTION OF THE MODULE",
+        "INSTALL TYPE GIT, SVN, FILE DOWNLOAD",
+        "OPTIONS = GIT, SVN, FILE",
+        "LOCATION OF THE FILE OR GIT/SVN REPOSITORY",
+        "WHERE DO YOU WANT TO INSTALL IT",
+        "DEPENDS FOR DEBIAN INSTALLS",
+        "DEPENDS FOR FEDORA INSTALLS",
+        "COMMANDS TO RUN AFTER",
+        "THIS WILL CREATE AN AUTOMATIC LAUNCHER FOR THE TOOL"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

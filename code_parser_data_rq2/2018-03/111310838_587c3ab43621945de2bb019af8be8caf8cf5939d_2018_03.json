@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Component",
+        "Inject",
+        "Input",
+        "forwardRef",
+        "ViewChild",
+        "ElementRef",
+        "ChangeDetectorRef",
+        "AfterViewInit",
+        "TabConfig",
+        "DashboardTab",
+        "Event",
+        "Emitter",
+        "nls",
+        "Component",
+        "DashboardTab",
+        "forwardRef",
+        "DashboardErrorContainer",
+        "DashboardTab",
+        "Input",
+        "Emitter",
+        "ViewChild",
+        "ElementRef",
+        "Inject",
+        "forwardRef",
+        "ChangeDetectorRef",
+        "_cd",
+        "errorMessage",
+        "nls"
+    ],
+    "literals": [
+        "'vs/css!./dashboardErrorContainer'",
+        "'@angular/core'",
+        "'sql/parts/dashboard/common/dashboardWidget'",
+        "'sql/parts/dashboard/common/interfaces'",
+        "'vs/base/common/event'",
+        "'vs/nls'",
+        "'dashboard-error-container'",
+        "<div class=\"error-container\">\n\t\t\t<div class=\"icon globalError\">\n\t\t\t</div>\n\t\t\t<div class=\"error-message\" #errorMessage>\n\t\t\t</div>\n\t\t</div>",
+        "'errorMessage'",
+        "'dashboardNavSection_loadTabError'",
+        "'The {0} has an invalid content. Please contact extension owner.'",
+        "string"
+    ],
+    "variables": [
+        "errorMessage"
+    ],
+    "comments": [
+        "---------------------------------------------------------------------------------------------\n *  Copyright (c) Microsoft Corporation. All rights reserved.\n *  Licensed under the Source EULA. See License.txt in the project root for license information.\n *--------------------------------------------------------------------------------------------"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngAfterViewInit",
+        "id",
+        "editable",
+        "layout",
+        "refresh"
+    ],
+    "classes": [
+        "DashboardErrorContainer"
+    ]
+}

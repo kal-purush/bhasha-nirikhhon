@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "json",
+        "context",
+        "json",
+        "dumps",
+        "body",
+        "response"
+    ],
+    "literals": [
+        "\"message\"",
+        "\"Go Serverless v1.0! Your function executed successfully!\"",
+        "\"input\"",
+        "\"statusCode\"",
+        "\"body\""
+    ],
+    "variables": [
+        "body",
+        "response"
+    ],
+    "comments": [
+        "Use this code if you don't use the http event with the LAMBDA-PROXY",
+        "integration"
+    ],
+    "docstrings": [
+        "\"\"\"\n    return {\n        \"message\": \"Go Serverless v1.0! Your function executed successfully!\",\n        \"event\": event\n    }\n    \"\"\""
+    ],
+    "functions": [
+        "create_thumbnail"
+    ],
+    "classes": []
+}

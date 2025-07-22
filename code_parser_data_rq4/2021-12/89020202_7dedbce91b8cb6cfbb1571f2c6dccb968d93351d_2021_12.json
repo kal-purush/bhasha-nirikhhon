@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "pathlib",
+        "Path",
+        "hat",
+        "doit",
+        "c",
+        "exe_suffix",
+        "CBuild",
+        "Path",
+        "Path",
+        "Path",
+        "build_dir",
+        "build_c_dir",
+        "exe_suffix",
+        "_build",
+        "get_task_exe",
+        "exe_path",
+        "_build",
+        "get_task_objs",
+        "_build",
+        "get_task_deps",
+        "CBuild",
+        "src_paths",
+        "src_c_dir",
+        "rglob",
+        "src_dir",
+        "src_c_dir",
+        "build_dir",
+        "build_c_dir",
+        "cc_flags",
+        "deps_dir",
+        "task_dep"
+    ],
+    "literals": [
+        "'task_c'",
+        "'task_c_obj'",
+        "'task_c_dep'",
+        "'build'",
+        "'src_c'",
+        "'deps'",
+        "'c'",
+        "f'opcut-calculate{exe_suffix}'",
+        "'*.c'",
+        "'-fPIC'",
+        "'-O2'",
+        "f'-I{deps_dir / \"jsmn\"}'",
+        "\"jsmn\"",
+        "'deps'"
+    ],
+    "variables": [
+        "__all__",
+        "build_dir",
+        "src_c_dir",
+        "deps_dir",
+        "build_c_dir",
+        "exe_path",
+        "_build"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Build native app\"\"\"",
+        "\"\"\"Build .o files\"\"\"",
+        "\"\"\"Build .d files\"\"\""
+    ],
+    "functions": [
+        "task_c",
+        "task_c_obj",
+        "task_c_dep"
+    ],
+    "classes": []
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "os",
+        "path",
+        "dirname",
+        "join",
+        "realpath",
+        "dirname",
+        "realpath",
+        "SublimeLinter",
+        "lint",
+        "Linter",
+        "Linter",
+        "join",
+        "FOLDER_PATH",
+        "script_path"
+    ],
+    "literals": [
+        "'lua'",
+        "'findglobals.lua'",
+        "'lua \"'",
+        "'\" \"@\"'",
+        "r'\\s*\\[(?P<line>\\d+)\\]\\s+'",
+        "r'((?P<warning>G:)|(?P<error>S:))'",
+        "r'(?P<message>.+?(?::\\s(?P<near>.*)|$))'",
+        "\"lua\""
+    ],
+    "variables": [
+        "FOLDER_PATH",
+        "syntax",
+        "script_path",
+        "cmd",
+        "regex",
+        "tempfile_suffix"
+    ],
+    "comments": [
+        "",
+        "linter.py",
+        "Linter for SublimeLinter3, a code checking framework for Sublime Text 3",
+        "",
+        "Written by Patrick Kish",
+        "Copyright (c) 2014 Patrick Kish",
+        "",
+        "License: MIT",
+        ""
+    ],
+    "docstrings": [
+        "\"\"\"This module exports the LuaGlobals plugin class.\"\"\"",
+        "\"\"\"Provides an interface to lua-globals.\"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "LuaGlobals"
+    ]
+}

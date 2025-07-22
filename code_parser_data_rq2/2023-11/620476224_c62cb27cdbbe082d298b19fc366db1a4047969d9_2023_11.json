@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "Game",
+        "Phaser",
+        "game",
+        "Phaser"
+    ],
+    "literals": [
+        "\"phaser\"",
+        "precision mediump float;\n\nuniform sampler2D uMainSampler;\n\nvarying vec2 outTexCoord;\n\nvoid main()\n{\n    gl_FragColor = 1.0 - texture2D(uMainSampler, outTexCoord);\n}",
+        "'InvertPostFX'",
+        "'uMainSampler'"
+    ],
+    "variables": [
+        "fragShader"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "InvertPostFX"
+    ]
+}

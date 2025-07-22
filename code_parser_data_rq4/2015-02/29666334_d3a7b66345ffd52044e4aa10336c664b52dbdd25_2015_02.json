@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "$",
+        "$body",
+        "$",
+        "$html",
+        "$",
+        "$html",
+        "$",
+        "smoothScrollLink",
+        "e",
+        "e",
+        "$",
+        "$"
+    ],
+    "literals": [
+        "'body'",
+        "'html'",
+        "'no-js'",
+        "'a[href^=\"#\"]'",
+        "'click'",
+        "'swing'",
+        "'href'"
+    ],
+    "variables": [],
+    "comments": [
+        "JS is enabled/available",
+        "$('pl-nav .pl-link').bind('click', navShowCurrent);",
+        "smoothscroll to target links",
+        "show indicator for current element in navigation",
+        "function navShowCurrent(e) {",
+        "(e).preventDefault();",
+        "if ($(this).href == window.location.href) {",
+        "$(this).closest('.nav-list-item').addClass('is-current');",
+        "}",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "smoothScrollLink"
+    ],
+    "classes": []
+}

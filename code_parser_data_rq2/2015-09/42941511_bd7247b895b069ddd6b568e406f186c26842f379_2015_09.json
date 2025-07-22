@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "text_process",
+        "clean_text",
+        "nltk",
+        "word_tokenize",
+        "index_reader",
+        "index_reader",
+        "query",
+        "word_tokenize",
+        "clean_text",
+        "query",
+        "index_reader",
+        "search",
+        "words",
+        "defaultdict",
+        "word",
+        "doc_scores",
+        "results",
+        "doc_id",
+        "score",
+        "doc_scores",
+        "doc_scores_sum",
+        "doc_id",
+        "score",
+        "sorted",
+        "doc_scores_sum",
+        "key",
+        "doc_scores_sum",
+        "get",
+        "reverse",
+        "doc_id",
+        "doc_scores_sum",
+        "k",
+        "doc_id",
+        "sorted_doc_ids"
+    ],
+    "literals": [
+        "\"document_id\"",
+        "\"score\""
+    ],
+    "variables": [
+        "index_reader",
+        "words",
+        "results",
+        "doc_scores_sum",
+        "sorted_doc_ids"
+    ],
+    "comments": [
+        "Sort all the doc_ids by the score descending"
+    ],
+    "docstrings": [
+        "\"\"\"Searches the index for the query.\n\n        Returns a list of dictiories containing keys \"document_id\" and\n        \"score\" sorted in descending order.\n        \"\"\""
+    ],
+    "functions": [
+        "search"
+    ],
+    "classes": [
+        "Searcher"
+    ]
+}

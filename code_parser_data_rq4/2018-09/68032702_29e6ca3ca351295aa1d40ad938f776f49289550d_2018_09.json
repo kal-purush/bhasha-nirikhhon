@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "danger",
+        "Issues",
+        "issues",
+        "issues",
+        "issue",
+        "issue",
+        "danger",
+        "issues",
+        "issues",
+        "issue"
+    ],
+    "literals": [
+        "\"danger\"",
+        "\"github-webhook-event-types\"",
+        "\"RFC:\"",
+        "\"[RFC]\"",
+        "\"Adding label to the issue\"",
+        "\"RFC\"",
+        "\"053a68\"",
+        "\"Indicates that this PR is a Request For Comments\""
+    ],
+    "variables": [
+        "issue"
+    ],
+    "comments": [
+        "Marks it as an RFC"
+    ],
+    "docstrings": [
+        "* When an an issue/PR is created, check to see if the title includes\n * RFC, if it does - then add (or create) the label \"RFC\"."
+    ],
+    "functions": [],
+    "classes": []
+}

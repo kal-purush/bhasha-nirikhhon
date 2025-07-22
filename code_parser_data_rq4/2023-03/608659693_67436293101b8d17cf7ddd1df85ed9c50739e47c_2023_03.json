@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "chapter",
+        "fetch",
+        "url",
+        "response",
+        "json",
+        "json",
+        "randomIndex",
+        "randomObject"
+    ],
+    "literals": [
+        "https://raw.githubusercontent.com/gita/Datasets/main/chanakya/Chanakya-Niti/chapter${chapter}.json"
+    ],
+    "variables": [
+        "chapter",
+        "url",
+        "response",
+        "json",
+        "randomIndex",
+        "randomObject"
+    ],
+    "comments": [
+        "console.log(randomObject.text)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchData"
+    ],
+    "classes": []
+}

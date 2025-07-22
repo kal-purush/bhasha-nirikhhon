@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Expect",
+        "Test",
+        "TestCase",
+        "util",
+        "Test",
+        "util",
+        "util",
+        "lua",
+        "Expect",
+        "result",
+        "Test",
+        "util",
+        "util",
+        "lua",
+        "Expect",
+        "result"
+    ],
+    "literals": [
+        "\"alsatian\"",
+        "\"../src/util\"",
+        "\"overload1\"",
+        "function abc(def: number): string;\n            function abc(def: string): string;\n            function abc(def: number | string): string {\n                if (typeof def == \"number\") {\n                    return \"jkl\" + (def * 3);\n                } else {\n                    return def;\n                }\n            }\n            return abc(3);",
+        "\"jkl9\"",
+        "\"overload2\"",
+        "function abc(def: number): string;\n            function abc(def: string): string;\n            function abc(def: number | string): string {\n                if (typeof def == \"number\") {\n                    return \"jkl\" + (def * 3);\n                } else {\n                    return def;\n                }\n            }\n            return abc(\"ghj\");",
+        "\"ghj\""
+    ],
+    "variables": [
+        "lua",
+        "result",
+        "lua",
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "overload1",
+        "overload2"
+    ],
+    "classes": [
+        "OverloadTests"
+    ]
+}

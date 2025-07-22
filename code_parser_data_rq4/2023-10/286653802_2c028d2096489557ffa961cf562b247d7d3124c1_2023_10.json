@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "fs",
+        "path",
+        "getRawTypeFromPackageJson",
+        "getTypeOrDefault",
+        "value",
+        "process",
+        "process",
+        "process",
+        "currentDir",
+        "path",
+        "currentDir",
+        "fs",
+        "packageJsonPath",
+        "fs",
+        "packageJsonPath",
+        "packageJsonContents",
+        "packageData",
+        "packageData",
+        "currentDir",
+        "currentDir",
+        "path",
+        "currentDir",
+        "value",
+        "value",
+        "valueLower",
+        "valueLower",
+        "valueLower"
+    ],
+    "literals": [
+        "\"fs\"",
+        "\"path\"",
+        "string",
+        "\"package.json\"",
+        "\"utf8\"",
+        "string",
+        "\"/\"",
+        "string",
+        "\"commonjs\"",
+        "\"module\"",
+        "\"\"",
+        "\"commonjs\"",
+        "\"module\"",
+        "\"commonjs\""
+    ],
+    "variables": [
+        "value",
+        "currentDir",
+        "packageJsonPath",
+        "packageJsonContents",
+        "packageData",
+        "valueLower"
+    ],
+    "comments": [
+        "Get the current working directory",
+        "Move up a directory and continue the search",
+        "No package.json"
+    ],
+    "docstrings": [
+        "* Looks for a `package.json` file starting in the current working directory and traversing upwards\n * until it finds one or reaches root.\n * @returns \"commonjs\" or \"module\", defaulting to \"module\" if no `package.json` is found or if the found\n * file does not include a `type` property."
+    ],
+    "functions": [
+        "determineModuleType",
+        "getRawTypeFromPackageJson",
+        "getTypeOrDefault"
+    ],
+    "classes": []
+}

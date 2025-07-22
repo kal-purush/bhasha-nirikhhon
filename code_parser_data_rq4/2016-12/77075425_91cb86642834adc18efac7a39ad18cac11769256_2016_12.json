@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "sqlite3",
+        "isbnlib",
+        "recreate",
+        "sqlite3",
+        "connect",
+        "connection",
+        "cursor",
+        "recreate",
+        "cursor",
+        "execute",
+        "sqlite3",
+        "OperationalError",
+        "cursor",
+        "execute",
+        "dbcreate_cmd",
+        "connection",
+        "commit",
+        "connection",
+        "close"
+    ],
+    "literals": [
+        "\"books.sqlite\"",
+        "\"Dropping table...\"",
+        "\"Table dropped.\"",
+        "\"\\n!!! === No table present === !!!\\n\"",
+        "\"Creating table...\"",
+        "\"Table created.\""
+    ],
+    "variables": [
+        "connection",
+        "cursor",
+        "dbcreate_cmd"
+    ],
+    "comments": [
+        "ReadDB v 0.0.1",
+        "Francis Windram 2016",
+        "Python 3.4",
+        "",
+        "Created:  21/12/16",
+        "Modified: 21/12/16",
+        "",
+        "A Python3/SQL project for building and maintaining a book database.",
+        "",
+        "Dependencies:",
+        "- sqlite3",
+        "- isbnlib",
+        "",
+        "===== TO DO LIST =====",
+        "TODO - If extant, open SQLite db",
+        "DONE - Else construct new DB on first run with required tables/columns",
+        "TODO - ADD basic SQL logic for addition & deletion",
+        "TODO - ADD SQL search functionality",
+        "TODO - ADD auto-ISBN lookup for quick entry (using isbntools)",
+        "- isbnlib.meta() returns dict in the following style:",
+        "{",
+        "'Year':'yyyy',",
+        "'ISBN-13':'xxxxxxxxxxxxx',",
+        "'Publisher':'publisher',",
+        "'Authors':['Fore M. Sur', 'First Last'],",
+        "'Title':'The Title of the Book'",
+        "'Language':'language'",
+        "}",
+        "TODO - ADD csv import function",
+        "TODO - ADD error logging",
+        "TODO - ADD tkinter interface"
+    ],
+    "docstrings": [
+        "\"\"\"Creates DB with correct tables (drops table if required)\"\"\"",
+        "\"\"\"DROP TABLE employee;\"\"\"",
+        "\"\"\"\n    CREATE TABLE books (\n    bookid INTEGER PRIMARY KEY,\n    surname VARCHAR(30),\n    forename VARCHAR(30),\n    title VARCHAR(255),\n    isbn INTEGER(13),\n    publisher VARCHAR(100),\n    year INTEGER,\n    language VARCHAR(30));\"\"\""
+    ],
+    "functions": [
+        "create_db"
+    ],
+    "classes": []
+}

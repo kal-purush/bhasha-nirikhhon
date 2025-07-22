@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "client",
+        "name",
+        "client",
+        "name",
+        "histograms",
+        "name",
+        "histogram",
+        "name",
+        "durationMs",
+        "histograms",
+        "name",
+        "durationMs",
+        "client",
+        "metrics",
+        "m",
+        "m",
+        "histogram",
+        "histogram",
+        "bucket",
+        "bucket",
+        "performanceMetrics",
+        "label",
+        "bucket",
+        "res",
+        "histogram",
+        "performanceMetrics",
+        "res"
+    ],
+    "literals": [
+        "\"prom-client\"",
+        "string",
+        "string",
+        "\"histogram\"",
+        "\"<= \""
+    ],
+    "variables": [
+        "histograms",
+        "histogram",
+        "res",
+        "metrics",
+        "performanceMetrics",
+        "label"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Register a duration for some histogram"
+    ],
+    "functions": [
+        "initHistogram",
+        "registerDuration",
+        "getMetrics"
+    ],
+    "classes": []
+}

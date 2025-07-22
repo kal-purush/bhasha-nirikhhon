@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "br",
+        "com",
+        "caelum",
+        "ingresso",
+        "dao",
+        "java",
+        "util",
+        "javax",
+        "persistence",
+        "EntityManager",
+        "javax",
+        "persistence",
+        "PersistenceContext",
+        "org",
+        "springframework",
+        "stereotype",
+        "Repository",
+        "br",
+        "com",
+        "caelum",
+        "ingresso",
+        "model",
+        "Sala",
+        "br",
+        "com",
+        "caelum",
+        "ingresso",
+        "model",
+        "Sessao",
+        "Repository",
+        "PersistenceContext",
+        "manager",
+        "sessao",
+        "manager",
+        "persist",
+        "sessao",
+        "sala",
+        "manager",
+        "createQuery",
+        "setParameter",
+        "sala",
+        "getResultList"
+    ],
+    "literals": [
+        "\"select s from Sessao s where s.sala = :sala\"",
+        "\"sala\""
+    ],
+    "variables": [
+        "manager"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "save",
+        "buscaSessoesDaSala"
+    ],
+    "classes": [
+        "SessaoDao"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "fetch",
+        "city",
+        "response",
+        "response",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "display_temp",
+        "high_temp",
+        "display_temp",
+        "low_temp",
+        "display_temp",
+        "forecast",
+        "i",
+        "display_temp"
+    ],
+    "literals": [
+        "'#input-city'",
+        "http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=c941c9ca854444abd337e4baa9e01cb5",
+        "'td'",
+        "#row${i+1}"
+    ],
+    "variables": [
+        "city",
+        "high_temp",
+        "low_temp",
+        "forecast",
+        "display_temp"
+    ],
+    "comments": [
+        "let selected_city =",
+        "Im trying to test out one row before I fill the rest of my columns",
+        "but I cant even get one row to populate data ..... :("
+    ],
+    "docstrings": [],
+    "functions": [
+        "getJson"
+    ],
+    "classes": []
+}

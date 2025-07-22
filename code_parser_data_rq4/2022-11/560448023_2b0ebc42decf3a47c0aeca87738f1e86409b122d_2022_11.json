@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "HardhatUserConfig",
+        "dotenv",
+        "dotenv",
+        "process",
+        "process",
+        "process",
+        "process",
+        "AURORA_TESTNET_PRIVATE_KEY",
+        "AURORA_RPC_URL",
+        "AURORA_MAINNET_PRIVATE_KEY",
+        "AURORASCAN_API_KEY",
+        "config"
+    ],
+    "literals": [
+        "\"hardhat/config\"",
+        "\"@nomicfoundation/hardhat-toolbox\"",
+        "\"dotenv\"",
+        "\"0.8.17\"",
+        "'https://testnet.aurora.dev'",
+        "0x${AURORA_TESTNET_PRIVATE_KEY}",
+        "0x${AURORA_MAINNET_PRIVATE_KEY}"
+    ],
+    "variables": [
+        "AURORA_TESTNET_PRIVATE_KEY",
+        "AURORA_MAINNET_PRIVATE_KEY",
+        "AURORA_RPC_URL",
+        "AURORASCAN_API_KEY",
+        "config"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

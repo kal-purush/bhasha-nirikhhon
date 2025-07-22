@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "msToWaitForRequests",
+        "callback",
+        "args",
+        "resolve",
+        "clearTimeout",
+        "countdownTimer",
+        "countdownTimer",
+        "setTimeout",
+        "countdownTimer",
+        "resolve",
+        "callback",
+        "args",
+        "msToWaitForRequests",
+        "debounce"
+    ],
+    "literals": [],
+    "variables": [
+        "countdownTimer"
+    ],
+    "comments": [
+        "the `countdownTimer` remains outside the closure of the subsequent",
+        "returned function so that it only ever exists once for all invocations",
+        "of the debounced function"
+    ],
+    "docstrings": [
+        "* Maintains an internal counter of time for when to execute the supplied\n * callback with the arguments. Every time the debounced function is invoked,\n * the internal timer resets so as to only ever execute once if called multiple\n * times.\n *\n * Takes duration as the first argument (to facilitate partially applied\n * debounced actions), then expects a callback function as the second argument\n * which then returns a function that expects the arguments that will be passed\n * to the callback function.\n *\n * These are the behaviours and properties you can expect of this function:\n * * will only invoke the callback once\n * * callback will be invoked when the delay timer expires\n * * calling the debounced function multiple times resets the timer\n *\n * Even when called multiple times, this function will only execute the\n * callback fn once after waiting for duration of time. Each time this function\n * is called, the duration counter is reset.\n *\n * @param {Number} msToWaitForRequests\n *\n *   The amount of time that must elapse before the invoked debounced function\n *   will fire off. Any future invocations (of the debounced callback function)\n *   that occur before the elapsed time runs out will reset the countdown\n *   timer.\n *\n * @return {function(callback: CallableFunction): function(...args):\n *   Promise<callback>}\n *\n *   Returns a function that expects a `callback` function that returns a\n *   function that expects a list of arguments to supply to the callback\n *   function. Finally, returns the promisified callback function after waiting\n *   `msToWaitForRequests` milliseconds.\n *\n * @example\n *\n * import { debounce } from \"holdon\";\n *\n * const greet = name => `hello ${name}`; // this is the callback function\n *\n * const ms = 2000;\n * const debounceTwoSeconds = debounce(ms);\n * const greetInTwoSeconds = debounceTwoSeconds(greet); // or all at once `debounce(2000)(greet);`\n *\n * greetInTwoSeconds(\"John\"); // countdown timer = +2000 ms\n * await delay(1000);         // countdown timer = +1000 ms\n * greetInTwoSeconds(\"John\"); // countdown timer = +2000 ms\n * await delay(1500);         // countdown timer = +500 ms\n * await delay(400);          // countdown timer = +100 ms\n * await delay(99);           // countdown timer = +1 ms\n * greetInTwoSeconds(\"John\"); // countdown timer = +2000 ms (callback has never fired yet)\n *\n * // ...two seconds later\n * greetInTwoSeconds(\"John\"); //=> \"hello John\" (two seconds after the last fn call is made to `greetInTwoSeconds(...args)`\n *"
+    ],
+    "functions": [
+        "debounce"
+    ],
+    "classes": []
+}

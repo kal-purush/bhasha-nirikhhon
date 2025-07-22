@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "mongoose",
+        "dotenv",
+        "dotenv",
+        "process",
+        "process",
+        "mongoose",
+        "process",
+        "process",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "\"mongoose\"",
+        "'dotenv'",
+        "'Missing environment variables for database connection'",
+        "mongodb://${process.env.DB_HOST}/${process.env.DB_NAME}",
+        "'Connected to the database'",
+        "'Error connecting to the database'"
+    ],
+    "variables": [],
+    "comments": [
+        "die db.ts ist nur um eine Verbindung zur Datenbank herzustellen",
+        "die Datenbank kann ich mit Compass oder mongoAtlas nutzen",
+        "wichtig ist hier der richtige Pfad zur Datenbank"
+    ],
+    "docstrings": [],
+    "functions": [
+        "connect"
+    ],
+    "classes": []
+}

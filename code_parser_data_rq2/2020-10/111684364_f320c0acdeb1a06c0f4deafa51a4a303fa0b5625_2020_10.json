@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "\"typeorm\"",
+        "CREATE TABLE wallets (\n                \"address\" VARCHAR(36) PRIMARY KEY NOT NULL,\n                \"public_key\" VARCHAR(66) UNIQUE,\n                \"balance\" BIGINT NOT NULL,\n                \"nonce\" BIGINT NOT NULL,\n                \"attributes\" JSONB NOT NULL\n            );",
+        "DROP TABLE wallets;"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "CreateWalletsTable20201013000000"
+    ]
+}

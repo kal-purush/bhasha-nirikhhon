@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "org",
+        "netxms",
+        "client",
+        "constants",
+        "java",
+        "util",
+        "java",
+        "util",
+        "org",
+        "slf4j",
+        "Logger",
+        "org",
+        "slf4j",
+        "LoggerFactory",
+        "NetworkPathFailureReason",
+        "NONE",
+        "ROUTER_DOWN",
+        "SWITCH_DOWN",
+        "WIRELESS_AP_DOWN",
+        "PROXY_NODE_DOWN",
+        "PROXY_AGENT_UNREACHABLE",
+        "VPN_TUNNEL_DOWN",
+        "ROUTING_LOOP",
+        "INTERFACE_DISABLED",
+        "logger",
+        "LoggerFactory",
+        "getLogger",
+        "lookupTable",
+        "element",
+        "NetworkPathFailureReason",
+        "values",
+        "lookupTable",
+        "put",
+        "element",
+        "value",
+        "element",
+        "value",
+        "value",
+        "value",
+        "value",
+        "value",
+        "value",
+        "element",
+        "lookupTable",
+        "get",
+        "value",
+        "element",
+        "logger",
+        "warn",
+        "value",
+        "NONE",
+        "element"
+    ],
+    "literals": [
+        "\"Unknown element \""
+    ],
+    "variables": [
+        "value"
+    ],
+    "comments": [
+        "fallback"
+    ],
+    "docstrings": [
+        "* NetXMS - open source network management system\n * Copyright (C) 2003-2024 Victor Kirhenshtein\n *\n * This program is free software; you can redistribute it and/or modify\n * it under the terms of the GNU General Public License as published by\n * the Free Software Foundation; either version 2 of the License, or\n * (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with this program; if not, write to the Free Software\n * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.",
+        "* Network path failure reason",
+        "* Internal constructor\n    *  \n    * @param value integer value",
+        "* Get integer value\n    * \n    * @return integer value",
+        "* Get enum element by integer value\n    * \n    * @param value integer value\n    * @return enum element corresponding to given integer value or fall-back element for invalid value"
+    ],
+    "functions": [
+        "NetworkPathFailureReason",
+        "getValue",
+        "NetworkPathFailureReason",
+        "getByValue"
+    ],
+    "classes": []
+}

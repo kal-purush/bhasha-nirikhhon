@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "CriConnection",
+        "CriConnection",
+        "port",
+        "DEFAULT_PORT",
+        "hostname",
+        "DEFAULT_HOSTNAME",
+        "port",
+        "hostname",
+        "sessionId",
+        "sessionId",
+        "method",
+        "sessionId",
+        "paramArgs",
+        "method",
+        "sessionId",
+        "paramArgs"
+    ],
+    "literals": [
+        "'lighthouse/lighthouse-core/gather/connections/cri'",
+        "'localhost'",
+        "'9222'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "DEFAULT_HOSTNAME",
+        "DEFAULT_PORT"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* this class got patched to enable connecting to a remote path like\n * ws://192.168.0.39:4444/session/349a44a32846c2659c703e71403bd472/se/cdp\n * as it requires to attach to a session before.",
+        "* Add constructor for typing safety\n     * @param {number=} port Optional port number. Defaults to 9222;\n     * @param {string=} hostname Optional hostname. Defaults to localhost.\n     * @constructor",
+        "* force every command to be send with the given session id"
+    ],
+    "functions": [
+        "setSessionId",
+        "sendCommand"
+    ],
+    "classes": [
+        "ChromeProtocolPatched"
+    ]
+}

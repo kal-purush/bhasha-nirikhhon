@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "arr",
+        "data",
+        "arr",
+        "data",
+        "arr",
+        "lowerBound",
+        "upperBound",
+        "count",
+        "mid",
+        "lowerBound",
+        "upperBound",
+        "data",
+        "arr",
+        "mid",
+        "upperBound",
+        "mid",
+        "data",
+        "arr",
+        "mid",
+        "lowerBound",
+        "mid",
+        "matchedData",
+        "arr",
+        "mid",
+        "matchedData",
+        "matchedData",
+        "result",
+        "mid",
+        "result",
+        "arr",
+        "result",
+        "count",
+        "result",
+        "binSearch"
+    ],
+    "literals": [
+        "'binSearch:The first argument excepts an array'",
+        "'number'",
+        "'binSearch:The second argument excepts a number'"
+    ],
+    "variables": [
+        "binSearch",
+        "upperBound",
+        "lowerBound",
+        "mid",
+        "count",
+        "matchedData",
+        "result"
+    ],
+    "comments": [
+        "if not find data, return null"
+    ],
+    "docstrings": [
+        "* 二分查找\n * @param {array} arr - 升序排列的数组\n * @param {number} data - 待查找的数据\n * @returns {*} - 如果没有找到，直接返回null，找到了就返回一个数组[12, index: 0, input: arr, count: 2]\n * 0：找到的值\n * index: 找到的值在arr中的索引\n * input: 自己输入待查找的字符串\n * count: 二分查找的次数"
+    ],
+    "functions": [],
+    "classes": []
+}

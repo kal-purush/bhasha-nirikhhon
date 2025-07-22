@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "ApiFlickr",
+        "dataObject",
+        "$",
+        "dataObject",
+        "response",
+        "response",
+        "response",
+        "response",
+        "photoObject",
+        "size",
+        "photoObject",
+        "photoObject",
+        "photoObject",
+        "photoObject",
+        "size",
+        "photoUrl",
+        "size",
+        "photoUrl",
+        "photoUrl"
+    ],
+    "literals": [
+        "\"https://api.flickr.com/services/rest\"",
+        "\"POST\"",
+        "\"JSON\"",
+        "\"https://farm\"",
+        "\".staticflickr.com/\"",
+        "\"/\"",
+        "\"_\"",
+        "\"string\"",
+        "\"_\"",
+        "\".jpg\""
+    ],
+    "variables": [
+        "apiFlickr",
+        "photoUrl"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* flickrPhotoSearch - Private method for initiating AJAX calls to Flickr API, modified to include the static url.\n     * @param {Object} dataObject - Object containing all data keys to be passed to Flickr API.",
+        "* getImageUrl - Returns the static url for the given image.  If a size is also given, image url returned is that size.\n     * @param {Object} photoObject - Object containing a single image object.\n     * @param {string} size - Character suffix for determining size of image in returned object. See https://www.flickr.com/services/api/misc.urls.html for list of suffixes.\n     * @returns {string}"
+    ],
+    "functions": [
+        "ApiFlickr",
+        "flickrPhotoSearch",
+        "getImageUrl"
+    ],
+    "classes": []
+}

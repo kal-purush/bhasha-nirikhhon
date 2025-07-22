@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "Endpoint",
+        "Search",
+        "SEARCH",
+        "SEARCH",
+        "SUGGESTIONS",
+        "Package",
+        "packageName",
+        "PACKAGE",
+        "encodeURIComponent",
+        "packageName",
+        "PACKAGE",
+        "MGET"
+    ],
+    "literals": [
+        "'package'",
+        "'search'",
+        "'suggestions'",
+        "'mget'",
+        "string",
+        "/${SEARCH}",
+        "string",
+        "/${SEARCH}/${SUGGESTIONS}",
+        "string",
+        "string",
+        "/${PACKAGE}/${encodeURIComponent(packageName)}",
+        "string",
+        "/${PACKAGE}/${MGET}"
+    ],
+    "variables": [
+        "PACKAGE",
+        "SEARCH",
+        "SUGGESTIONS",
+        "MGET"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "search",
+        "suggestions",
+        "packageInfo",
+        "multiPackageInfo"
+    ],
+    "classes": []
+}

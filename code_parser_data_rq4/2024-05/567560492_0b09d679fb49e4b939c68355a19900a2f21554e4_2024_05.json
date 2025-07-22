@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "spack",
+        "BundlePackage",
+        "maintainers",
+        "version",
+        "depends_on"
+    ],
+    "literals": [
+        "\"https://www.access-nri.org.au\"",
+        "\"https://github.com/ACCESS-NRI/ACCESS-ESM1.5.git\"",
+        "\"penguian\"",
+        "\"latest\"",
+        "\"cice4\""
+    ],
+    "variables": [
+        "homepage",
+        "git"
+    ],
+    "comments": [
+        "Copyright 2013-2024 Lawrence Livermore National Security, LLC and other",
+        "Spack Project Developers. See the top-level COPYRIGHT file for details.",
+        "",
+        "Copyright 2024 ACCESS-NRI",
+        "",
+        "SPDX-License-Identifier: (Apache-2.0 OR MIT)",
+        "TODO: Can be enabled after initial testing is finished",
+        "depends_on(\"mom5@access-esm1.5\")",
+        "depends_on(\"um7\")",
+        "There is no need for install() since there is no code."
+    ],
+    "docstrings": [
+        "\"\"\"ACCESS-ESM1.5 bundle contains the coupled UM7, CICE4 and MOM5 models.\n\n    ACCESS-ESM1.5 comprises of:\n\n    * The UKMO UM atmospheric model (v7.3), in the same configuration as\n      ACCESS1.4, at N96 (1.875×1.25 degree), 38 level resolution\n    * The CABLE land surface model with biogeochemistry (CASA-CNP) (CABLE2.4)\n    * The GFDL MOM5 ocean model at 1 degree resolution (code base as ACCESS-CM2)\n    * The WOMBAT ocean carbon model\n    * The LANL CICE4.1 sea ice model (version as ACCESS1.4)\n    * The OASIS-MCT coupler\n    \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "AccessEsm1p5"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "element14",
+        "args",
+        "s1",
+        "s2",
+        "s1",
+        "s2",
+        "s1",
+        "s2",
+        "s1",
+        "equalsIgnoreCase",
+        "s2"
+    ],
+    "literals": [
+        "\"abc\"",
+        "\"abc\"",
+        "\"s1 == s2 is = \"",
+        "\"s1 == s2 is \""
+    ],
+    "variables": [],
+    "comments": [
+        "this will return true, as they are the same values in the String pool",
+        "this will only return false, as these two strings should have been compared with equals method",
+        "this will return: s1 == s2 is true, as s1 and s2 are compared with the correct method"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "NatQuestion"
+    ]
+}

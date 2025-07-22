@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "os",
+        "sys",
+        "os",
+        "path",
+        "normpath",
+        "os",
+        "path",
+        "abspath",
+        "os",
+        "path",
+        "join",
+        "os",
+        "path",
+        "dirname",
+        "locals",
+        "os",
+        "path",
+        "expanduser",
+        "os",
+        "path",
+        "exists",
+        "DESTINATION",
+        "sys",
+        "exit",
+        "open",
+        "DESTINATION",
+        "fp",
+        "fp",
+        "write",
+        "TEMPLATE",
+        "os",
+        "chmod",
+        "DESTINATION",
+        "locals"
+    ],
+    "literals": [
+        "'..'",
+        "'~/Desktop/gpodder-git.desktop'",
+        "'%(DESTINATION)s already exists, not overwriting'",
+        "'w'",
+        "'Wrote %(DESTINATION)s'"
+    ],
+    "variables": [
+        "BASE",
+        "TEMPLATE",
+        "DESTINATION"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "create-desktop-icon.py: Create a Desktop icon",
+        "2016-12-22 Thomas Perl <m@thp.io>"
+    ],
+    "docstrings": [
+        "\"\"\"# Created by %(__file__)s\n[Desktop Entry]\nName=gPodder (Git)\nExec=%(BASE)s/bin/gpodder\nIcon=%(BASE)s/share/icons/hicolor/scalable/apps/gpodder.svg\nTerminal=false\nType=Application\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

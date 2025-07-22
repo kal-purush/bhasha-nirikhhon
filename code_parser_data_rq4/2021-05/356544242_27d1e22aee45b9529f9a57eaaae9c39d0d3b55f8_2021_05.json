@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "pixelToRem",
+        "size",
+        "size",
+        "pixelToRem",
+        "pixelToRem",
+        "pixelToRem",
+        "pixelToRem",
+        "pixelToRem",
+        "pixelToRem",
+        "pixelToRem",
+        "deviceSizes",
+        "deviceSizes",
+        "deviceSizes",
+        "deviceSizes",
+        "deviceSizes",
+        "theme"
+    ],
+    "literals": [
+        "${size / 16}rem",
+        "\"320px\"",
+        "\"375px\"",
+        "\"700px\"",
+        "\"820px\"",
+        "\"1024px\"",
+        "only screen and (max-width: ${deviceSizes.mobileS})",
+        "only screen and (max-width: ${deviceSizes.mobileM})",
+        "only screen and (max-width: ${deviceSizes.mobileL})",
+        "only screen and (max-width: ${deviceSizes.tablet})",
+        "only screen and (max-width: ${deviceSizes.tabletL})",
+        "\"#000000\"",
+        "\"#bcbcbc\"",
+        "\"#3cb46e\"",
+        "\"#8c80ff\"",
+        "\"rgba(77, 77, 77, 0.838)\"",
+        "background : #8c80ff;\n    color : white;\n    padding: 5px 20px 5px 20px;\n    border: none;\n    border-radius : 20px;\n    outline:0px;\n\tcursor:pointer;\n    text-decoration: none;"
+    ],
+    "variables": [
+        "pixelToRem",
+        "fontSizes",
+        "deviceSizes",
+        "device",
+        "colors",
+        "common",
+        "theme"
+    ],
+    "comments": [
+        "fontSize",
+        "0.8rem",
+        "1rem",
+        "3.1rem"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "html",
+        "observable",
+        "when",
+        "uuidv4",
+        "formatAbsoluteChange",
+        "Column",
+        "columnStyles",
+        "TRADER_DATUM",
+        "level1TraderCondition",
+        "html",
+        "when",
+        "x",
+        "x",
+        "html",
+        "when",
+        "x",
+        "x",
+        "html",
+        "x",
+        "x",
+        "x",
+        "cell",
+        "formatAbsoluteChange",
+        "cell",
+        "cell",
+        "Column",
+        "observable",
+        "TRADER_DATUM",
+        "level1TraderCondition",
+        "TRADER_DATUM",
+        "level1TraderCondition",
+        "TRADER_DATUM",
+        "TRADER_DATUM",
+        "LastPriceAbsoluteChangeColumn",
+        "uuidv4",
+        "columnTemplate",
+        "columnStyles"
+    ],
+    "literals": [
+        "'../../../vendor/fast-element.min.js'",
+        "'../../../lib/ppp-crypto.js'",
+        "'../../../lib/intl.js'",
+        "'./column.js'",
+        "'../../../lib/const.js'",
+        "'../order.js'",
+        "<template>\n    ${when((x) => x.isBalance, html`<span></span>`)}\n    ${when(\n      (x) => !x.isBalance,\n      html`\n        <span\n          class=\"${(x) =>\n            x.lastPriceAbsoluteChange > 0\n              ? 'positive'\n              : x.lastPriceAbsoluteChange < 0\n              ? 'negative'\n              : ''}\"\n        >\n          ${(cell) =>\n            formatAbsoluteChange(\n              cell.lastPriceAbsoluteChange,\n              cell.datum?.instrument\n            )}\n        </span>\n      `\n    )}\n  </template>",
+        "<span></span>",
+        "<span\n          class=\"${(x) =>\n            x.lastPriceAbsoluteChange > 0\n              ? 'positive'\n              : x.lastPriceAbsoluteChange < 0\n              ? 'negative'\n              : ''}\"\n        >\n          ${(cell) =>\n            formatAbsoluteChange(\n              cell.lastPriceAbsoluteChange,\n              cell.datum?.instrument\n            )}\n        </span>",
+        "'positive'",
+        "'negative'",
+        "''",
+        "ppp-${uuidv4()}"
+    ],
+    "variables": [
+        "columnTemplate"
+    ],
+    "comments": [
+        "@decorator",
+        "noinspection JSVoidFunctionReturnValueUsed"
+    ],
+    "docstrings": [],
+    "functions": [
+        "connectedCallback",
+        "disconnectedCallback"
+    ],
+    "classes": [
+        "LastPriceAbsoluteChangeColumn"
+    ]
+}

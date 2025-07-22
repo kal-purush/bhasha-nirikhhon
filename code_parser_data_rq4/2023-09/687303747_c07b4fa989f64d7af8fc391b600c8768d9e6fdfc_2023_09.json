@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "require",
+        "req",
+        "res",
+        "next",
+        "req",
+        "req",
+        "token",
+        "token",
+        "token",
+        "jwt",
+        "token",
+        "process",
+        "err",
+        "decoded",
+        "req",
+        "err",
+        "decoded",
+        "req",
+        "err",
+        "decoded",
+        "next",
+        "req",
+        "next"
+    ],
+    "literals": [
+        "'jsonwebtoken'",
+        "'Authorization'",
+        "'Bearer '",
+        "''"
+    ],
+    "variables": [
+        "jwt",
+        "token"
+    ],
+    "comments": [
+        "Check for the token being sent in a header or as a query parameter",
+        "Remove the 'Bearer ' if it was included in the token header",
+        "Check if token is valid and not expired",
+        "If valid token, decoded will be the token's entire payload",
+        "If invalid token, err will be set",
+        "If your app cares... (optional)",
+        "No token was sent"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

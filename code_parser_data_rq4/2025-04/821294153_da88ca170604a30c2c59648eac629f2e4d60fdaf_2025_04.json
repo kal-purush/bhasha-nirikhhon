@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "Input",
+        "Output",
+        "MatchType",
+        "Component",
+        "Input",
+        "MatchType",
+        "Output",
+        "EventEmitter"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"../../../../generated/graphql\"",
+        "\"app-match-type-segmented-toggle\"",
+        "<app-segmented-toggle\n    legend=\"Show performance using data from\"\n    [(ngModel)]=\"matchType\"\n    (ngModelChange)=\"emitChange()\"\n  >\n    <app-segmented-toggle-item\n      name=\"match-type\"\n      identifier=\"estimated\"\n      value=\"estimated\"\n      label=\"Estimated\"\n    />\n    <app-segmented-toggle-item\n      name=\"match-type\"\n      identifier=\"evidenced\"\n      value=\"evidenced\"\n      label=\"Evidenced\"\n    />\n  </app-segmented-toggle>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "emitChange"
+    ],
+    "classes": [
+        "MatchTypeSegmentedToggleComponent"
+    ]
+}

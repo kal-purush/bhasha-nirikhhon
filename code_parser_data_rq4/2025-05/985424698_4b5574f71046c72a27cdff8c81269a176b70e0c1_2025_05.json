@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "registrationLink",
+        "name",
+        "title",
+        "registrationLink"
+    ],
+    "literals": [
+        "<html>\n      <head>\n        <title>Congratulations on Your Job Selection</title>\n        <style>\n          body {\n            font-family: Arial, sans-serif;\n            background-color: #f4f4f9;\n            margin: 0;\n            padding: 0;\n          }\n          .container {\n            width: 80%;\n            margin: 20px auto;\n            padding: 20px;\n            background-color: #ffffff;\n            border: 1px solid #dddddd;\n            border-radius: 10px;\n          }\n          h1 {\n            color: #4CAF50;\n          }\n          p {\n            font-size: 16px;\n            color: #333;\n          }\n          .button {\n            background-color: #4CAF50;\n            color: white;\n            padding: 10px 20px;\n            text-align: center;\n            text-decoration: none;\n            display: inline-block;\n            font-size: 16px;\n            margin-top: 20px;\n            border-radius: 5px;\n          }\n          .tips {\n            margin-top: 30px;\n          }\n          .tips h3 {\n            color: #333;\n          }\n          .tips ul {\n            padding-left: 20px;\n          }\n          .tips ul li {\n            margin-bottom: 10px;\n          }\n        </style>\n      </head>\n      <body>\n        <div class=\"container\">\n          <h1>Congratulations, ${name}!</h1>\n          <p>We are thrilled to inform you that you have been selected for the title of <strong>${title}</strong> at our company.</p>\n          <p>To complete your registration, please follow the link below:</p>\n          <a href=\"${registrationLink}\" class=\"button\">Complete Your Registration</a>\n          <p>If you have any questions, feel free to reach out to us. We look forward to having you onboard!</p>\n          <p>Best regards, <br> The HR Team</p>\n        </div>\n      </body>\n      </html>"
+    ],
+    "variables": [],
+    "comments": [
+        "jobSelectionCongrats.js",
+        "<div class=\"tips\">",
+        "<h3>Here are some tips to help you get started:</h3>",
+        "<ul>",
+        "${tips.map(tip => `<li>${tip}</li>`).join('')}",
+        "</ul>",
+        "</div>"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

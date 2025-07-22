@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "importlib",
+        "resources",
+        "shutil",
+        "pathlib",
+        "Path",
+        "dsp_tools",
+        "models",
+        "exceptions",
+        "UserError",
+        "Path",
+        "template_path_of_user",
+        "mkdir",
+        "OSError",
+        "UserError",
+        "importlib",
+        "resources",
+        "files",
+        "joinpath",
+        "file",
+        "template_path_of_distribution",
+        "iterdir",
+        "importlib",
+        "resources",
+        "as_file",
+        "file",
+        "f",
+        "Path",
+        "f",
+        "shutil",
+        "copy",
+        "file_path",
+        "template_path_of_user",
+        "file",
+        "name",
+        "template_path_of_user",
+        "file",
+        "name"
+    ],
+    "literals": [
+        "\"0100-template-repo\"",
+        "\"A folder '0100-template-repo' already exists in your current working directory.\"",
+        "\"dsp_tools\"",
+        "\"resources/0100-template-repo\"",
+        "f\"Created {template_path_of_user / file.name}\""
+    ],
+    "variables": [
+        "template_path_of_user",
+        "template_path_of_distribution",
+        "file_path"
+    ],
+    "comments": [
+        "copy contents of src/dsp_tools/resources/0100-template-repo to cwd/template-repo"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Copies the folder src/dsp_tools/resources/0100-template-repo to the working directory.\n\n    Raises:\n        UserError: If a folder with the same name already exists in the working directory\n\n    Returns:\n        True if the folder could be copied without problems\n    \"\"\""
+    ],
+    "functions": [
+        "generate_template_repo"
+    ],
+    "classes": []
+}

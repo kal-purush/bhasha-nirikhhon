@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "ErrnoException",
+        "NodeJS",
+        "require",
+        "require",
+        "process",
+        "process",
+        "writeFile",
+        "targetPath",
+        "envConfigFile",
+        "err",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "'fs'",
+        "'./src/environments/environment.prod.ts'",
+        "'dotenv'",
+        "export const environment = {\n   production: true,\n   supabaseUrl: '${process.env.ANGULAR_APP_SUPABASE_URL}',\n   supabaseKey: '${process.env.ANGULAR_APP_SUPABASE_KEY}'\n  };"
+    ],
+    "variables": [
+        "targetPath",
+        "envConfigFile"
+    ],
+    "comments": [
+        "Configure Angular `environment.ts` file path",
+        "read environment variables from .env file",
+        "`environment.ts` file structure"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

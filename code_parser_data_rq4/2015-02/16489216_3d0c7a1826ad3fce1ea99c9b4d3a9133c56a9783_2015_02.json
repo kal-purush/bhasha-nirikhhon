@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Net",
+        "Net",
+        "localAddress",
+        "localPort",
+        "remoteAddress",
+        "remotePort",
+        "transformerName",
+        "key",
+        "config",
+        "buffer",
+        "buffer",
+        "to",
+        "freedom_ChurnPipe",
+        "freedom_ChurnPipe",
+        "t",
+        "f",
+        "message",
+        "freedom_ChurnPipe",
+        "t",
+        "f",
+        "provider"
+    ],
+    "literals": [
+        "'../networking-typings/net.types'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'message'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path='../../build/third_party/typings/es6-promise/es6-promise.d.ts' />",
+        "TODO: rename once https://github.com/Microsoft/TypeScript/issues/52 is fixed",
+        "TODO: uncomment once https://github.com/Microsoft/TypeScript/issues/52 is fixed",
+        "declare module freedom {",
+        "TODO: Can the freedom.json be generated from this using the IDL compiler?",
+        "}",
+        "TODO: adding to the freedom object would have to be done in a separate file",
+        "that is loaded by typescript when compiling freedom.",
+        "interface Freedom {",
+        "churnPipe() : freedom_ChurnPipe;",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

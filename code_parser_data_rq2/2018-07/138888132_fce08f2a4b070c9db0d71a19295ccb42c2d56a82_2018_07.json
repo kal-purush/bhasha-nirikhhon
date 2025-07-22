@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "require",
+        "express",
+        "require",
+        "router",
+        "req",
+        "res",
+        "axios",
+        "req",
+        "process",
+        "response",
+        "res",
+        "response",
+        "error",
+        "error",
+        "router"
+    ],
+    "literals": [
+        "'express'",
+        "'axios'",
+        "'/'",
+        "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photoreference=${req.query.photoreference}&sensor=false&key=${process.env.API_KEY}"
+    ],
+    "variables": [
+        "express",
+        "router",
+        "axios"
+    ],
+    "comments": [
+        "GET photo from google place photo api using the photo reference."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

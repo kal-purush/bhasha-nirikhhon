@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Car_Rental_APIs",
+        "DTOs",
+        "Car_Rental_APIs",
+        "Models",
+        "Microsoft",
+        "AspNetCore",
+        "Http",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Car_Rental_APIs",
+        "Controllers",
+        "Route",
+        "ApiController",
+        "ControllerBase"
+    ],
+    "literals": [
+        "\"api/[controller]\""
+    ],
+    "variables": [],
+    "comments": [
+        "private CarService _carService;",
+        "public CarController(CarService carService)",
+        "{",
+        "_carService = carService;",
+        "}",
+        "[HttpGet]",
+        "public IActionResult getCars([FromQuery] int pageNumber, [FromQuery] int pageSize)",
+        "{",
+        "List<Car> cars = _carService.getAll(pageNumber, pageSize).ToList();",
+        "return Ok(cars);",
+        "}",
+        "[HttpPost(\"{pageNumber},{pageSize}\")]",
+        "public IActionResult getCars( int pageNumber,  int pageSize,[FromQuery] CarFilter filter)",
+        "{",
+        "CarDataDTO cars = _carService.getAllWithFilter(pageNumber, pageSize, filter);",
+        "return Ok(cars);",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "CarController"
+    ]
+}

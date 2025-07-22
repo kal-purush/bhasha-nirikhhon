@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "name",
+        "name",
+        "nameMaxLength",
+        "name",
+        "nameMinLength",
+        "regex",
+        "name",
+        "isValidMaxLength",
+        "nameMaxLength",
+        "isValidMinLength",
+        "nameMinLength",
+        "isValidPattern",
+        "channelNameValidator"
+    ],
+    "literals": [
+        "Name must be less than ${nameMaxLength} characters",
+        "Name must be more than ${nameMinLength} characters",
+        "Name must contain valid characters"
+    ],
+    "variables": [
+        "nameMaxLength",
+        "nameMinLength",
+        "regex",
+        "isValidMaxLength",
+        "isValidMinLength",
+        "isValidPattern"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "channelNameValidator"
+    ],
+    "classes": []
+}

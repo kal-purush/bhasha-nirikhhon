@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "find",
+        "ServiceConfiguration",
+        "AeroGearConfiguration",
+        "config",
+        "config",
+        "service",
+        "service",
+        "service",
+        "id",
+        "find",
+        "service",
+        "service",
+        "service",
+        "id"
+    ],
+    "literals": [
+        "\"lodash.find\"",
+        "\"loglevel\"",
+        "\"./\"",
+        "string",
+        "string",
+        "\"Configuration not initialized.\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Abstraction for AeroGear configuration",
+        "* @param config configuration that should be injected to all available SDK's",
+        "* Get a service configuration object, provided an existing type is given\n  * @param type - The type of the service",
+        "* Get a service configuration object, provided an existing id is given\n   * @param id - unique id of the service"
+    ],
+    "functions": [
+        "getConfigByType",
+        "getConfigById"
+    ],
+    "classes": [
+        "ConfigurationService"
+    ]
+}

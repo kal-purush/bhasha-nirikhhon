@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "require",
+        "AWS",
+        "exports",
+        "context",
+        "callback",
+        "operation",
+        "dynamo",
+        "callback",
+        "callback",
+        "response",
+        "dynamo",
+        "callback",
+        "callback",
+        "response",
+        "dynamo",
+        "callback",
+        "callback",
+        "response",
+        "dynamo",
+        "callback",
+        "callback",
+        "response",
+        "dynamo",
+        "callback",
+        "callback",
+        "response",
+        "callback",
+        "callback",
+        "callback"
+    ],
+    "literals": [
+        "'Loading function'",
+        "'aws-sdk'",
+        "\"Access-Control-Allow-Origin\"",
+        "\"*\"",
+        "\"Access-Control-Allow-Credentials\"",
+        "\"message\"",
+        "\"CORS enabled\"",
+        "'create'",
+        "'read'",
+        "'update'",
+        "'delete'",
+        "'list'",
+        "'echo'",
+        "\"Success\"",
+        "'ping'",
+        "\"pong\"",
+        "'Unknown operation: ${operation}'"
+    ],
+    "variables": [
+        "AWS",
+        "dynamo",
+        "operation",
+        "response"
+    ],
+    "comments": [
+        "console.log('Received event:', JSON.stringify(event, null, 2));",
+        "Required for CORS support to work",
+        "Required for cookies, authorization headers with HTTPS"
+    ],
+    "docstrings": [
+        "* Provide an event that contains the following keys:\n *\n *   - operation: one of the operations in the switch statement below\n *   - tableName: required for operations that interact with DynamoDB\n *   - payload: a parameter to pass to the operation being performed"
+    ],
+    "functions": [],
+    "classes": []
+}

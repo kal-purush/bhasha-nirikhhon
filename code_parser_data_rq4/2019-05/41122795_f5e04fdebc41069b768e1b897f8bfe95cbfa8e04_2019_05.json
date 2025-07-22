@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "com",
+        "google",
+        "ads",
+        "mediation",
+        "imobile",
+        "com",
+        "google",
+        "android",
+        "gms",
+        "ads",
+        "AdRequest",
+        "jp",
+        "co",
+        "imobile",
+        "sdkads",
+        "android",
+        "FailNotificationReason",
+        "reason",
+        "reason",
+        "RESPONSE",
+        "UNKNOWN",
+        "AdRequest",
+        "ERROR_CODE_INTERNAL_ERROR",
+        "PARAM",
+        "AUTHORITY",
+        "PERMISSION",
+        "AdRequest",
+        "ERROR_CODE_INVALID_REQUEST",
+        "NETWORK_NOT_READY",
+        "NETWORK",
+        "AdRequest",
+        "ERROR_CODE_NETWORK_ERROR",
+        "AD_NOT_READY",
+        "NOT_DELIVERY_AD",
+        "SHOW_TIMEOUT",
+        "AdRequest",
+        "ERROR_CODE_NO_FILL",
+        "AdRequest",
+        "ERROR_CODE_INTERNAL_ERROR"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Convert i-mobile fail reason to AdMob error code."
+    ],
+    "docstrings": [
+        "* Helper of mediation adapter.",
+        "* Convert i-mobile fail reason to AdMob error code.\n     *\n     * @param reason i-mobile fail reason\n     * @return AdMob error code"
+    ],
+    "functions": [
+        "convertToAdMobErrorCode"
+    ],
+    "classes": [
+        "AdapterHelper"
+    ]
+}

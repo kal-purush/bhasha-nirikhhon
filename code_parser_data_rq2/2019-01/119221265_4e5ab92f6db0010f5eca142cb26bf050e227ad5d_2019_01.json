@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "input",
+        "input",
+        "input",
+        "convertDMSToDD",
+        "input",
+        "input",
+        "input",
+        "input",
+        "convertDMSToDD",
+        "input",
+        "input",
+        "input",
+        "input",
+        "lat",
+        "lng",
+        "lat",
+        "lng",
+        "degrees",
+        "minutes",
+        "seconds",
+        "direction",
+        "degrees",
+        "minutes",
+        "seconds",
+        "direction",
+        "direction",
+        "direction",
+        "direction",
+        "dd",
+        "dd",
+        "dd",
+        "file",
+        "file"
+    ],
+    "literals": [
+        "','",
+        "'S'",
+        "'W'",
+        "'s'",
+        "'w'",
+        "'image/jpeg'"
+    ],
+    "variables": [
+        "lat",
+        "lng",
+        "dd"
+    ],
+    "comments": [
+        "Don't do anything for N or E"
+    ],
+    "docstrings": [
+        "* Get raw longitude and latitude data from a file's metadata",
+        "* Convert a latitude longitude position from DMS(degrees, minutes, seconds) to\n* DD(decimal degrees)",
+        "* Determine whether or not file is a jpeg"
+    ],
+    "functions": [
+        "parseDMS",
+        "convertDMSToDD",
+        "checkFileExtension"
+    ],
+    "classes": []
+}

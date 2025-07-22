@@ -1,0 +1,29 @@
+{
+    "identifiers": [],
+    "literals": [
+        "\"https://someinstance.service-now.com/\"",
+        "\"user.account\"",
+        "\"somePassword\"",
+        "\"https://someinstance2.service-now.com/\"",
+        "\"user.account.2\"",
+        "\"somePassword2\"",
+        "\"debug\"",
+        "\".git, .settings, .sass-cache\""
+    ],
+    "variables": [
+        "userInfo",
+        "loggerLevel",
+        "successCommand",
+        "cannotUploadCommand",
+        "warningCommand",
+        "ignoreDirs"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nterminal-notifier -message \"%(filename)s\" -title \"File updated\" -group codesync\n\"\"\"",
+        "\"\"\"\nterminal-notifier -message \"%(person)s updated it at %(remoteDate)s, your version is %(localDate)s\" -title \"Cannot upload file\"  -group codesync\n\"\"\"",
+        "\"\"\"\nterminal-notifier -message \"%(msg)s\" -title \"%(title)s\"  -group codesync\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

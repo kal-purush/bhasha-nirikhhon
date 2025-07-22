@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Component",
+        "BittenBuild",
+        "BittenStep",
+        "BuildService",
+        "Component",
+        "BuildService",
+        "_buildService",
+        "data",
+        "i",
+        "data",
+        "i",
+        "BittenBuild",
+        "build",
+        "data",
+        "i",
+        "build",
+        "data",
+        "i",
+        "build",
+        "data",
+        "i",
+        "build",
+        "data",
+        "i",
+        "build",
+        "data",
+        "i",
+        "build",
+        "data",
+        "i",
+        "build",
+        "data",
+        "i",
+        "build",
+        "data",
+        "i",
+        "build",
+        "data",
+        "i",
+        "build",
+        "build"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./bittenbuild'",
+        "'./bittenstep'",
+        "'./build_service'",
+        "'bitten-latest'",
+        "<div *ngIf=\"latestBuilds.length>0\">\n  <h3 class=\"builds\"><a href=\"#\">Latest Build</a> for {{latestBuilds[0].config}}</h3>\n  <table class=\"builds\">\n    <tbody>\n        <tr>\n            <th>\n                [{{latestBuilds[0].rev}}]\n                <p class=\"date\">{{latestBuilds[0].rev_time.toUTCString()}}</p>\n            </th>\n            <td *ngFor=\"#latestBuild of latestBuilds\" class=\"{{latestBuild.status.toLowerCase()}}\">\n                    <p><a href=\"/builds/{{latestBuild.id}}\">{{latestBuild.platform}}</a></p>\n                    <p>{{latestBuild.started.toUTCString()}}</p>\n                    <p>{{latestBuild.slave}}</p>\n                    <p class=\"status\"><b>{{latestBuild.status}}</b></p>\n            </td>\n        </tr>\n    </tbody>\n  </table>\n  </div>"
+    ],
+    "variables": [
+        "i",
+        "build"
+    ],
+    "comments": [
+        "latestBuilds: BittenBuild[] = [{id: 14, config: 'branches/0.6.x', platform: 'Linux', rev: 1574, rev_time: new Date(\"Mon, 21 Sep 2015 10:32:11 GMT\"), slave: 'domu-12-31-39-0b-bd-44 (54.224.94.46)', started: new Date(\"Mon, 21 Sep 2015 12:00:00 GMT\"), status: 'Success', stopped: new Date(\"Mon, 21 Sep 2015 12:21:45 GMT\")}, {id: 14, config: 'branches/0.6.x', platform: 'Windows', rev: 1574, rev_time: new Date(\"Mon, 21 Sep 2015 10:32:11 GMT\"), slave: 'domu-12-31-39-0b-bd-44 (54.224.94.46)', started: new Date(\"Mon, 21 Sep 2015 12:00:00 GMT\"), status: 'Success', stopped: new Date(\"Mon, 21 Sep 2015 12:21:45 GMT\")}];"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "BittenLatest"
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "OpenSage",
+        "condition",
+        "message",
+        "condition",
+        "message",
+        "message",
+        "message"
+    ],
+    "literals": [
+        "\"Impossible\"",
+        "\"Impossible\""
+    ],
+    "variables": [],
+    "comments": [
+        "In the future, we may want to downgrade this to a Debug.Assert call,",
+        "so that it only crashes in debug builds. For now, we want to crash",
+        "in all builds, so that we know about problems.",
+        "In the future, we may want to downgrade this to a Debug.Fail call,",
+        "so that it only crashes in debug builds. For now, we want to crash",
+        "in all builds, so that we know about problems."
+    ],
+    "docstrings": [],
+    "functions": [
+        "AssertCrash",
+        "Crash"
+    ],
+    "classes": [
+        "DebugUtility"
+    ]
+}

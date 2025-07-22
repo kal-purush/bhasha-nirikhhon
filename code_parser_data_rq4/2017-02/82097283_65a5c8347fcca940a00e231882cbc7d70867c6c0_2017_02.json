@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "resolve",
+        "reject",
+        "require",
+        "mysql",
+        "queryText",
+        "connection",
+        "queryText",
+        "error",
+        "result",
+        "error",
+        "error",
+        "reject",
+        "result",
+        "resolve",
+        "connection",
+        "exports",
+        "myAction"
+    ],
+    "literals": [
+        "'Setting up mysql database'",
+        "'mysql'",
+        "'DELETE FROM cats WHERE id=?'",
+        "'Querying: '",
+        "'Disconnecting from the mysql database.'"
+    ],
+    "variables": [
+        "mysql",
+        "connection",
+        "queryText"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2016 IBM Corp. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *  https://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* This action removes a Cat by ID from a MySQL database\n *\n * @param   params.MYSQL_HOST                   MySQL host\n * @param   params.MYSQL_USER                   MySQL user\n * @param   params.MYSQL_PASSWORD               MySQL password\n * @param   params.MYSQL_DATABASE               MySQL database\n * @param   params.id                           ID of the cat to remove\n \n * @return  Promise for the MySQL result"
+    ],
+    "functions": [
+        "myAction"
+    ],
+    "classes": []
+}

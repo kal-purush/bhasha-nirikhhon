@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "NextRequest",
+        "NextResponse",
+        "process",
+        "request",
+        "request",
+        "token",
+        "NextResponse",
+        "signInURL",
+        "request",
+        "NextResponse"
+    ],
+    "literals": [
+        "'next/server'",
+        "https://github.com/login/oauth/authorize?client_id=${process.env.NEXT_PUBLIC_GITHUB_CLIENT_ID}",
+        "'token'",
+        "'Set-Cookie'",
+        "redirectTo=${request.url}; Path=/; HttpOnly; max-age=20;",
+        "'/memories/:path*'"
+    ],
+    "variables": [
+        "signInURL",
+        "token",
+        "config"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "middleware"
+    ],
+    "classes": []
+}

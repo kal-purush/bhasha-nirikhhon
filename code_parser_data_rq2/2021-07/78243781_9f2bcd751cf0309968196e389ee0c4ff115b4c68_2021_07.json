@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "answerRenderer",
+        "IPC",
+        "AppDataComplete",
+        "SyncGetRevResult",
+        "initLocalFileSyncAdapter",
+        "answerRenderer",
+        "IPC",
+        "ev",
+        "ev",
+        "filePath",
+        "data",
+        "localRev",
+        "answerRenderer",
+        "IPC",
+        "ev",
+        "ev",
+        "filePath",
+        "localRev",
+        "answerRenderer",
+        "IPC",
+        "ev",
+        "ev",
+        "filePath",
+        "localRev"
+    ],
+    "literals": [
+        "'./better-ipc'",
+        "'./ipc-events.const'",
+        "'../src/app/imex/sync/sync.model'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "initLocalFileSyncAdapter"
+    ],
+    "comments": [
+        "TODO kill existing watcher before and kill after",
+        "if (!existsSync(BACKUP_DIR)) {",
+        "return false;",
+        "}",
+        "const files = readdirSync(BACKUP_DIR);",
+        "if (!files.length) {",
+        "return false;",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

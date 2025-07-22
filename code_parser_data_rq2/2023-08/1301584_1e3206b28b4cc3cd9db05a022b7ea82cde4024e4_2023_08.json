@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "name",
+        "mod",
+        "importlib",
+        "utils",
+        "warn",
+        "importlib",
+        "import_module",
+        "mod",
+        "getattr",
+        "fiff_mod",
+        "name",
+        "warn",
+        "mod",
+        "name",
+        "_dep_msg",
+        "FutureWarning",
+        "obj"
+    ],
+    "literals": [
+        "\"is deprecated will be removed in 1.6, use documented public API instead. \"",
+        "\"If no appropriate public API exists, please open an issue on GitHub.\"",
+        "f\"mne._fiff.{mod}\"",
+        "f\"mne.io.{mod}.{name} {_dep_msg}\""
+    ],
+    "variables": [
+        "_dep_msg",
+        "fiff_mod",
+        "obj"
+    ],
+    "comments": [
+        "Authors: Eric Larson <larson.eric.d@gmail.com>",
+        "",
+        "License: BSD-3-Clause",
+        "All imports should be done directly to submodules, so we don't import",
+        "anything here",
+        "Helper for keeping some attributes en mne/io/*.py"
+    ],
+    "docstrings": [
+        "\"\"\"Private module for FIF basic I/O routines.\"\"\""
+    ],
+    "functions": [
+        "_io_dep_getattr"
+    ],
+    "classes": []
+}

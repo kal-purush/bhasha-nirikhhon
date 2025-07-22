@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "org",
+        "mskcc",
+        "cbio",
+        "portal",
+        "util",
+        "javax",
+        "crypto",
+        "Mac",
+        "javax",
+        "crypto",
+        "spec",
+        "SecretKeySpec",
+        "org",
+        "apache",
+        "commons",
+        "codec",
+        "binary",
+        "Base64",
+        "PORTAL_NAME",
+        "username",
+        "secretKey",
+        "timeStamp",
+        "valueOf",
+        "currentTimeMillis",
+        "message",
+        "PORTAL_NAME",
+        "username",
+        "timeStamp",
+        "sha256_HMAC",
+        "Mac",
+        "getInstance",
+        "secret_key",
+        "secretKey",
+        "getBytes",
+        "sha256_HMAC",
+        "init",
+        "secret_key",
+        "hash",
+        "Base64",
+        "encodeBase64String",
+        "sha256_HMAC",
+        "doFinal",
+        "message",
+        "getBytes",
+        "hash",
+        "e"
+    ],
+    "literals": [
+        "\"cbioportal\"",
+        "\"?\"",
+        "\"user=\"",
+        "\"&t=\"",
+        "\"HmacSHA256\"",
+        "\"HmacSHA256\""
+    ],
+    "variables": [],
+    "comments": [
+        "~ Static fields",
+        "========================================================================================================",
+        "~ Methods",
+        "========================================================================================================"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generateTokenByHmacSHA256"
+    ],
+    "classes": [
+        "MskWholeSlideViewerTokenGenerator"
+    ]
+}

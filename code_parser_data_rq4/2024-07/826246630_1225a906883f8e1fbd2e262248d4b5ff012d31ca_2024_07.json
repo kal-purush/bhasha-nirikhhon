@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "defineConfig",
+        "devices",
+        "defineConfig",
+        "devices"
+    ],
+    "literals": [
+        "'@playwright/test'",
+        "'./tests'",
+        "'junit'",
+        "'test-results/results.xml'",
+        "'html'",
+        "'html-reports/'",
+        "'always'",
+        "'retain-on-failure'",
+        "'only-on-failure'",
+        "'Chrome'",
+        "'**/*.spec.ts'",
+        "'Desktop Chrome'",
+        "'test-results/'"
+    ],
+    "variables": [],
+    "comments": [
+        "eslint-disable import/no-default-export",
+        "Maximum time one test can run for.",
+        "Reporter to use. See https://playwright.dev/docs/test-reporters",
+        "Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions.",
+        "Maximum time each action such as `click()` can take. Defaults to 0 (no limit).",
+        "Retain trace for failed tests. See https://playwright.dev/docs/trace-viewer",
+        "Configure projects for major browsers",
+        "Folder for test artifacts such as screenshots, videos, traces, etc."
+    ],
+    "docstrings": [
+        "* Maximum time expect() should wait for the condition to be met.\n     * For example in `await expect(locator).toHaveText();`"
+    ],
+    "functions": [],
+    "classes": []
+}

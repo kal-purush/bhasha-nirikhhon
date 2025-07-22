@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "collectorTutorial",
+        "speed",
+        "currentSpeed",
+        "speed",
+        "init",
+        "offset",
+        "init",
+        "game",
+        "bg",
+        "scene",
+        "offset",
+        "currentSpeed",
+        "game",
+        "offset",
+        "bg",
+        "offset",
+        "bg",
+        "offset",
+        "offset",
+        "bg",
+        "scene",
+        "target",
+        "camera",
+        "scene",
+        "target",
+        "bg",
+        "offset",
+        "target",
+        "bg",
+        "offset",
+        "bg",
+        "scrollBackgroundWithSpeed",
+        "speed",
+        "startBackgroundScrolling",
+        "speed"
+    ],
+    "literals": [],
+    "variables": [
+        "init",
+        "offset",
+        "currentSpeed",
+        "bg"
+    ],
+    "comments": [
+        "% block=\"scroll background\"",
+        "% blockNamespace=scene",
+        "% blockId=collectorTutorial_scrollBackgroun",
+        "% group=\"Scrolling\"",
+        "% weight=2",
+        "% blockGap=8",
+        "% block=\"scroll background with speed $speed\"",
+        "% blockNamespace=scene",
+        "% blockId=collectorTutorial_scrollBackgroundWithSpeed",
+        "% speed.defl=-90",
+        "% group=\"Scrolling\"",
+        "% weight=0",
+        "% blockGap=8"
+    ],
+    "docstrings": [
+        "* Makes the current background scroll in the negative x direction",
+        "* Make the current background image scroll in the x direction at the given speed\n     * \n     * @param speed The speed to scroll in pixels per second"
+    ],
+    "functions": [
+        "startBackgroundScrolling",
+        "scrollBackground",
+        "scrollBackgroundWithSpeed"
+    ],
+    "classes": []
+}

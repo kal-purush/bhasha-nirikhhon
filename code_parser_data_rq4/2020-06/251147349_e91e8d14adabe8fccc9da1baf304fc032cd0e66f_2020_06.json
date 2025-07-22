@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "admin",
+        "firebase",
+        "AccountInterface",
+        "Account",
+        "firebase",
+        "firebase",
+        "firebase",
+        "admin",
+        "Account",
+        "org",
+        "org",
+        "org",
+        "val",
+        "key",
+        "key",
+        "Account",
+        "key",
+        "val",
+        "snapshot",
+        "options",
+        "snapshot",
+        "options",
+        "userData",
+        "rest",
+        "Org",
+        "rest",
+        "snapshot",
+        "snapshot",
+        "snapshot",
+        "Org"
+    ],
+    "literals": [
+        "'firebase-admin'",
+        "'@tutorbook/firebase'",
+        "'./account'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "[WARNING] Tried to create user (${snapshot.ref.id}) from",
+        "'non-existent Firestore document.'"
+    ],
+    "variables": [
+        "key",
+        "val",
+        "userData",
+        "userData"
+    ],
+    "comments": [
+        "eslint-disable-next-line @typescript-eslint/no-unsafe-assignment"
+    ],
+    "docstrings": [
+        "* Type aliases so that we don't have to type out the whole type. We could try\n * importing these directly from the `@firebase/firestore-types` or the\n * `@google-cloud/firestore` packages, but that's not recommended.\n * @todo Perhaps figure out a way to **only** import the type defs we need.",
+        "* An `Org` object represents a non-profit organization that is using Tutorbook\n * to manage their virtual tutoring programs.\n * @typedef {Object} Org\n * @property members - An array of user UIDs that are members of this org."
+    ],
+    "functions": [
+        "fromFirestore"
+    ],
+    "classes": [
+        "Org"
+    ]
+}

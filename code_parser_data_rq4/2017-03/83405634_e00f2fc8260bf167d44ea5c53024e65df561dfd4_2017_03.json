@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Suite",
+        "memoryFs",
+        "memoryFs",
+        "encodeURIComponent",
+        "testPath",
+        "Suite",
+        "mfs",
+        "testPath",
+        "mfs",
+        "encodedTestPath",
+        "currentTarget",
+        "currentTarget"
+    ],
+    "literals": [
+        "'benchmark'",
+        "'memory-fs'",
+        "/Dev/fusebox-chain-plugin/component/main.scss",
+        "'/'",
+        "'memoryfs existsSync'",
+        "'full'",
+        "'encoded'",
+        "'start'",
+        "${currentTarget.name} benchmark:",
+        "'cycle'",
+        "'complete'",
+        "${currentTarget.filter('fastest').map('name')} is fastest",
+        "'fastest'",
+        "'name'",
+        "'async'"
+    ],
+    "variables": [
+        "mfs",
+        "testPath",
+        "encodedTestPath"
+    ],
+    "comments": [
+        "<reference path='../node_modules/@types/node/index.d.ts' />",
+        "<reference path='../node_modules/@types/benchmark/index.d.ts' />",
+        "decodeURIComponent(encodedTestPath).slice(1);",
+        "run async"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

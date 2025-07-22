@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "math",
+        "sys",
+        "math",
+        "pi",
+        "some_tuple",
+        "some_tuple",
+        "some_variable",
+        "has_key",
+        "has_key",
+        "bar",
+        "bar",
+        "bar",
+        "bar",
+        "bar",
+        "bar",
+        "sys",
+        "path",
+        "some_string"
+    ],
+    "literals": [
+        "'a'",
+        "'long'",
+        "'Long code lines should be wrapped within 79 characters.'",
+        "'other'",
+        "'This is a long string that goes on'",
+        "'more'",
+        "'inner'",
+        "'This whole logical line should be wrapped.'",
+        "'has_key() is deprecated'",
+        "'f'",
+        "''"
+    ],
+    "variables": [
+        "some_tuple",
+        "some_variable",
+        "bar",
+        "some_string"
+    ],
+    "comments": [
+        "This is a long comment. This should be wrapped to fit within 72",
+        "characters.",
+        "Comments should have a space after the hash."
+    ],
+    "docstrings": [
+        "\"\"\"\n                       Indentation in multiline strings should not be touched.\nOnly actual code should be reindented.\n\"\"\""
+    ],
+    "functions": [
+        "example1",
+        "example2"
+    ],
+    "classes": [
+        "Example3"
+    ]
+}

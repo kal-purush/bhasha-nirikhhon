@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "Windows",
+        "Windows",
+        "Controls",
+        "Projet_Mines_Official",
+        "dynamic",
+        "element",
+        "FrameworkElement",
+        "element",
+        "FrameworkElement",
+        "element",
+        "e",
+        "LogicalTreeHelper",
+        "GetChildren",
+        "element",
+        "FrameworkElement",
+        "ParentElement",
+        "Type",
+        "typeOfElement",
+        "Action",
+        "dynamic",
+        "ExecuteInTextBox",
+        "ChildElement",
+        "LogicalTreeHelper",
+        "GetChildren",
+        "ParentElement",
+        "TryParseFrameworkElement",
+        "ChildElement",
+        "ChildElement",
+        "GetType",
+        "typeOfElement",
+        "ExecuteInTextBox",
+        "ChildElement",
+        "HasChilds",
+        "FrameworkElement",
+        "ChildElement",
+        "GetElements",
+        "FrameworkElement",
+        "ChildElement",
+        "typeOfElement",
+        "ExecuteInTextBox"
+    ],
+    "literals": [],
+    "variables": [
+        "FrameworkElement",
+        "t"
+    ],
+    "comments": [
+        "this function will check if the Element is A Frameworkelement",
+        "</summary>",
+        "<param name=\"element\"></param>",
+        "<returns>Returns true if the element is FrameworkElement and false if it's not</returns>",
+        "this function will check it the Passed Element Has Childs",
+        "</summary>",
+        "<param name=\"element\"></param>",
+        "<returns>Returns True if The Element has childs and false if it hasn't</returns>",
+        "this fucnction Will Loop trough all the TextBoxes inside the given Element",
+        "</summary>",
+        "<param name=\"ParentElement\"></param>",
+        "<param name=\"typeOfElement\">The type of the Element to Get</param>",
+        "<param name=\"ExecuteInTextBox\">This function will be executed for each Textbox found and Will Receive the current TextBox Found as a parameter</param>",
+        "<Note PayAttention=\"this function may block your program (Call it in asynchronously)\"></Note>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "TryParseFrameworkElement",
+        "HasChilds",
+        "GetElements"
+    ],
+    "classes": [
+        "ElementsLooper"
+    ]
+}

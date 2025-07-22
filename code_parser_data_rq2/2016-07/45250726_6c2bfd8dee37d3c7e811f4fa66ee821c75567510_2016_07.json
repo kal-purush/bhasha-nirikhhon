@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "element",
+        "element",
+        "selection",
+        "element",
+        "selection",
+        "selection",
+        "result",
+        "err",
+        "result",
+        "result",
+        "element",
+        "Clipboard",
+        "element",
+        "Clipboard",
+        "res",
+        "Clipboard",
+        "res",
+        "text",
+        "textArea",
+        "textArea",
+        "textArea",
+        "textArea",
+        "textArea",
+        "textArea",
+        "textArea",
+        "textArea",
+        "textArea",
+        "textArea",
+        "textArea",
+        "text",
+        "textArea",
+        "textArea",
+        "Clipboard",
+        "textArea",
+        "res"
+    ],
+    "literals": [
+        "'use strict'",
+        "'copy'",
+        "'copy'",
+        "string",
+        "'textarea'",
+        "'fixed'",
+        "'0'",
+        "'0'",
+        "'2em'",
+        "'2em'",
+        "'0'",
+        "'none'",
+        "'none'",
+        "'none'",
+        "'transparent'"
+    ],
+    "variables": [
+        "selection",
+        "result",
+        "res",
+        "textArea",
+        "res"
+    ],
+    "comments": [
+        "Ensure it has a small width and height. Setting to 1px / 1em",
+        "doesn't work as this gives a negative w/h on some browsers.",
+        "We don't need padding, reducing the size if it does flash render.",
+        "Clean up any borders.",
+        "Avoid flash of white box if rendered for any reason."
+    ],
+    "docstrings": [],
+    "functions": [
+        "isSupported",
+        "selectElement",
+        "deselect",
+        "copySelected",
+        "copyElement",
+        "copyCustom"
+    ],
+    "classes": [
+        "Clipboard"
+    ]
+}

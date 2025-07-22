@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "BullseyeTests",
+        "Bullseye",
+        "Internal",
+        "Xbehave",
+        "Xunit",
+        "BullseyeTests",
+        "Infra",
+        "Helper",
+        "Scenario",
+        "TargetCollection",
+        "targets",
+        "first",
+        "second",
+        "x",
+        "Ensure",
+        "targets",
+        "Add",
+        "CreateTarget",
+        "first",
+        "x",
+        "targets",
+        "Add",
+        "CreateTarget",
+        "second",
+        "x",
+        "targets",
+        "RunAsync",
+        "x",
+        "Assert",
+        "first",
+        "x",
+        "Assert",
+        "second"
+    ],
+    "literals": [
+        "\"Given a target\"",
+        "\"first\"",
+        "\"And another target which depends on the first target with a different case\"",
+        "\"second\"",
+        "\"FIRST\"",
+        "\"When I run the second target with a different case\"",
+        "\"SECOND\"",
+        "\"Then the first target is run\"",
+        "\"And the second target is run\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "MixingCase"
+    ],
+    "classes": [
+        "CaseInsensitivity"
+    ]
+}

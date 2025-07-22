@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "com",
+        "google",
+        "cloud",
+        "hadoop",
+        "gcsio",
+        "com",
+        "google",
+        "common",
+        "Preconditions",
+        "checkArgument",
+        "com",
+        "google",
+        "common",
+        "Strings",
+        "isNullOrEmpty",
+        "V2_BUCKET_NAME_PREFIX",
+        "v1BucketName",
+        "checkArgument",
+        "isNullOrEmpty",
+        "v1BucketName",
+        "V2_BUCKET_NAME_PREFIX",
+        "v1BucketName"
+    ],
+    "literals": [
+        "\"projects/_/buckets/\"",
+        "\"v1BucketName cannot be null or empty\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2021 Google Inc. All Rights Reserved.\n *\n *  Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except\n * in compliance with the License. You may obtain a copy of the License at\n *\n *  http://www.apache.org/licenses/LICENSE-2.0\n *\n *  Unless required by applicable law or agreed to in writing, software distributed under the\n * License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either\n * express or implied. See the License for the specific language governing permissions and\n * limitations under the License.",
+        "Utility methods for gRPC channel",
+        "* @param v1BucketName name of the bucket\n   * @return bucket name in to GCS v2 bucket name format"
+    ],
+    "functions": [
+        "GrpcChannelUtils",
+        "toV2BucketName"
+    ],
+    "classes": [
+        "GrpcChannelUtils"
+    ]
+}

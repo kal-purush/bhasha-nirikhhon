@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "HydraClient",
+        "ResourceFilterableCollection",
+        "TypesCollection",
+        "IApiDocumentation",
+        "IClass",
+        "IWebResource",
+        "apiDocumentation",
+        "client",
+        "apiDocumentation",
+        "apiDocumentation",
+        "apiDocumentation",
+        "apiDocumentation",
+        "apiDocumentation",
+        "ResourceFilterableCollection",
+        "apiDocumentation",
+        "ResourceFilterableCollection",
+        "apiDocumentation",
+        "apiDocumentation",
+        "client"
+    ],
+    "literals": [
+        "\"../HydraClient\"",
+        "\"./Collections/ResourceFilterableCollection\"",
+        "\"./Collections/TypesCollection\"",
+        "\"./IApiDocumentation\"",
+        "\"./IClass\"",
+        "\"./IWebResource\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Provides a default implementation of the {@link IApiDocumentation} interface.\n * @class",
+        "* Initializes a new instance of the {@link ApiDocumentation} class.\n   * @param apiDocumentation {IApiDocumentation} Original resource to copy details from.\n   * @param client {HydraClient} Hydra client instance to be used when obtaining an entry point."
+    ],
+    "functions": [
+        "getEntryPoint"
+    ],
+    "classes": [
+        "ApiDocumentation"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "os",
+        "psutil",
+        "psutil",
+        "Process",
+        "os",
+        "getpid",
+        "color",
+        "tag",
+        "message",
+        "colors",
+        "color",
+        "tag",
+        "colors",
+        "message",
+        "message",
+        "__log",
+        "message",
+        "message",
+        "__log",
+        "message",
+        "message",
+        "__log",
+        "message",
+        "process",
+        "memory_info",
+        "rss",
+        "usage_in_bytes",
+        "__log",
+        "usage_in_mb"
+    ],
+    "literals": [
+        "\"WHITE\"",
+        "\"\\033[1;0m\"",
+        "\"GREY\"",
+        "\"\\033[1;30m\"",
+        "\"RED\"",
+        "\"\\033[1;31m\"",
+        "\"GREEN\"",
+        "\"\\033[1;32m\"",
+        "\"YELLOW\"",
+        "\"\\033[1;33m\"",
+        "\"BLUE\"",
+        "\"\\033[1;34m\"",
+        "\"PINK\"",
+        "\"\\033[1;35m\"",
+        "\"CYAN\"",
+        "\"\\033[1;36m\"",
+        "\"\\t\"",
+        "\"WHITE\"",
+        "\"RED\"",
+        "\"[ERROR]\"",
+        "\"GREEN\"",
+        "\"[INFO]\"",
+        "\"GREY\"",
+        "\"[DEBUG]\"",
+        "\"GREY\"",
+        "\"[MEM_USAGE]\"",
+        "f\"{usage_in_mb}MB\""
+    ],
+    "variables": [
+        "colors",
+        "process",
+        "usage_in_bytes",
+        "usage_in_mb"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Base message format for all logs.\"\"\""
+    ],
+    "functions": [
+        "__log",
+        "error",
+        "info",
+        "debug",
+        "memory_usage"
+    ],
+    "classes": [
+        "Logger"
+    ]
+}

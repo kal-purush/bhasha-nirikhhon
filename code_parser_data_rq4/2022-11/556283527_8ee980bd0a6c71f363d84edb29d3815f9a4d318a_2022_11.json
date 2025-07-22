@@ -1,0 +1,91 @@
+{
+    "identifiers": [
+        "icons",
+        "data",
+        "render",
+        "data",
+        "data",
+        "data",
+        "data",
+        "render",
+        "markup",
+        "markup",
+        "data",
+        "data",
+        "newMarkup",
+        "newDOM",
+        "newElements",
+        "newEl",
+        "i",
+        "curElements",
+        "i",
+        "newEl",
+        "curEl",
+        "newEl",
+        "curEl",
+        "newEl",
+        "newEl",
+        "curEl",
+        "newEl",
+        "attr",
+        "curEl",
+        "attr",
+        "attr",
+        "icons",
+        "markup",
+        "message",
+        "icons",
+        "message",
+        "markup",
+        "message",
+        "icons",
+        "message",
+        "markup"
+    ],
+    "literals": [
+        "'url:../../img/icons.svg'",
+        "'afterbegin'",
+        "'*'",
+        "'*'",
+        "''",
+        "''",
+        "<div class=\"spinner\">\n        <svg>\n          <use href=\"${icons}#icon-loader\"></use>\n        </svg>\n      </div>",
+        "'afterbegin'",
+        "<div class=\"error\">\n        <div>\n          <svg>\n            <use href=\"${icons}#icon-alert-triangle\"></use>\n          </svg>\n        </div>\n        <p>${message}</p>\n      </div>",
+        "'afterbegin'",
+        "<div class=\"message\">\n        <div>\n          <svg>\n            <use href=\"${icons}#icon-smile\"></use>\n          </svg>\n        </div>\n        <p>${message}</p>\n      </div>",
+        "'afterbegin'"
+    ],
+    "variables": [
+        "markup",
+        "newMarkup",
+        "newDOM",
+        "newElements",
+        "curElements",
+        "curEl",
+        "markup",
+        "markup",
+        "markup"
+    ],
+    "comments": [
+        "Parcel 2",
+        "console.log(curEl, newEl.isEqualNode(curEl));",
+        "Updates changed TEXT",
+        "console.log('💥', newEl.firstChild.nodeValue.trim());",
+        "Updates changed ATTRIBUES"
+    ],
+    "docstrings": [
+        "* Render the received object to the DOM\n   * @param {Object | Object[]} data The data to be rendered (e.g. recipe)\n   * @param {boolean} [render=true] If false, create markup string instead of rendering to the DOM\n   * @returns {undefined | string} A markup string is returned if render=false\n   * @this {Object} View instance\n   * @author Jonas Schmedtmann\n   * @todo Finish implementation"
+    ],
+    "functions": [
+        "render",
+        "update",
+        "_clear",
+        "renderSpinner",
+        "renderError",
+        "renderMessage"
+    ],
+    "classes": [
+        "View"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "Injectable",
+        "inject",
+        "HttpClient",
+        "HttpParams",
+        "Observable",
+        "Carro",
+        "Injectable",
+        "inject",
+        "HttpClient",
+        "carro",
+        "carro",
+        "id",
+        "id",
+        "url"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common/http'",
+        "'rxjs'",
+        "'src/models/Carro'",
+        "'root'",
+        "string",
+        "'http://localhost:8080/api/carro'",
+        "'/erro'",
+        "${this.API}/${id}"
+    ],
+    "variables": [
+        "url"
+    ],
+    "comments": [
+        "CASO PRECISE ENVIAR REQUEST PARAMS, BASTA DECLARAR ASSIM E INCLUIR NA REQUISIÇÃO HTTP\n\n  let params = new HttpParams()\n      .set('empresaId', empresaId.toString())\n\n  return this.http.get<Pessoa[]>(this.API, { params: params});\n\n  \n  \n  SE PRECISAR COLOCAR COISAS NO HEADER DA REQUISIÇÃO\n\n\n      let headers = new HttpHeaders()\n      .set(\"Content-Type\", \"application/json\");\n\n\n        return this.http.get<Pessoa[]>(this.API, { headers: headers});"
+    ],
+    "docstrings": [],
+    "functions": [
+        "listAll",
+        "save",
+        "exemploErro"
+    ],
+    "classes": [
+        "CarroService"
+    ]
+}

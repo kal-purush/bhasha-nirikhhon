@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "options",
+        "defaults",
+        "defaults",
+        "options",
+        "value"
+    ],
+    "literals": [
+        "'view'",
+        "string"
+    ],
+    "variables": [
+        "DEFAULT_PAGE_SIZE",
+        "PAGE_DEFAULTS",
+        "SPACE_DEFAULTS",
+        "_",
+        "value"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Default values for pagination across the application.\n * These values should be used consistently throughout the codebase.",
+        "* Default page size for all list operations.\n * This value determines how many items are returned in a single page by default.",
+        "* Default values for page operations",
+        "* Default body format for page content",
+        "* Whether to include page labels by default",
+        "* Whether to include page properties by default",
+        "* Whether to include web resources by default",
+        "* Whether to include collaborators by default",
+        "* Whether to include version information by default",
+        "* Default values for space operations",
+        "* Whether to include description in space results",
+        "* Whether to include permissions in space results",
+        "* Apply default values to options object.\n * This utility ensures that default values are consistently applied.\n *\n * @param options Options object that may have some values undefined\n * @param defaults Default values to apply when options values are undefined\n * @returns Options object with default values applied\n *\n * @example\n * const options = applyDefaults({ limit: 10 }, { limit: DEFAULT_PAGE_SIZE, includeLabels: true });\n * // Result: { limit: 10, includeLabels: true }"
+    ],
+    "functions": [
+        "applyDefaults"
+    ],
+    "classes": []
+}

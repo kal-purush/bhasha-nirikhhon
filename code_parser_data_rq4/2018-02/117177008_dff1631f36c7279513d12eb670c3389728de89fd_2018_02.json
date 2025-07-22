@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "Collider",
+        "other",
+        "other",
+        "gameObject",
+        "name",
+        "Debug",
+        "Log",
+        "transform",
+        "LookAt",
+        "target",
+        "transform",
+        "Translate",
+        "Vector3",
+        "back",
+        "moveSpeed",
+        "Time",
+        "deltaTime",
+        "Collision",
+        "other",
+        "other",
+        "gameObject",
+        "name",
+        "transform",
+        "position",
+        "chickenPen",
+        "position",
+        "transform",
+        "rotation",
+        "chickenPen",
+        "rotation"
+    ],
+    "literals": [
+        "\"Player\"",
+        "\"Player has entered chickens trigger\"",
+        "\"Player\""
+    ],
+    "variables": [
+        "moveSpeed",
+        "Transform",
+        "target",
+        "Transform",
+        "chickenPen",
+        "points"
+    ],
+    "comments": [
+        "public Rigidbody enemy;",
+        "chickenPen = GameObject.Find(\"ChickenPen\");",
+        "Destroy(gameObject);",
+        "Add points to score.",
+        "scoreManager.AddPoints(points);",
+        "Send chicken to chicken pen."
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "OnTriggerStay",
+        "OnCollisionEnter"
+    ],
+    "classes": [
+        "ChickenAI"
+    ]
+}

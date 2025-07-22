@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "io",
+        "debezium",
+        "connector",
+        "oracle",
+        "io",
+        "debezium",
+        "relational",
+        "TableId",
+        "identifier",
+        "parts",
+        "TableId",
+        "parseParts",
+        "identifier",
+        "parts",
+        "length",
+        "tableName",
+        "parts",
+        "parts",
+        "length",
+        "schemaName",
+        "parts",
+        "parts",
+        "length",
+        "catalogName",
+        "resolveCatalogFromDomainName",
+        "parts",
+        "catalogName",
+        "schemaName",
+        "tableName",
+        "TableId",
+        "parse",
+        "identifier",
+        "parts",
+        "catalogName",
+        "parts",
+        "index",
+        "index",
+        "parts",
+        "length",
+        "index",
+        "catalogName",
+        "append",
+        "append",
+        "parts",
+        "index",
+        "catalogName",
+        "toString"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Oracle identifiers may be in the format of \"domain\".\"schema\".\"table\" where the domain is also",
+        "a multi-dotted value. In this case, we should effectively treat the last two parts as the",
+        "schema and table respectively while concatenating the former parts as the catalog."
+    ],
+    "docstrings": [
+        "* Copyright Debezium Authors.\n *\n * Licensed under the Apache Software License version 2.0, available at http://www.apache.org/licenses/LICENSE-2.0",
+        "* Specialized parser implementation for Oracle {@link TableId} instances.\n *\n * @author Chris Cranford"
+    ],
+    "functions": [
+        "TableId",
+        "parse",
+        "resolveCatalogFromDomainName"
+    ],
+    "classes": [
+        "OracleTableIdParser"
+    ]
+}

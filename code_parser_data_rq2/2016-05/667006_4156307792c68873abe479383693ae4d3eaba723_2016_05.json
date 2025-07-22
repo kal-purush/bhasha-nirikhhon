@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "TrackButton",
+        "Component",
+        "Fn",
+        "AudioTrackMenuItem",
+        "TrackButton",
+        "player",
+        "options",
+        "options",
+        "player",
+        "player",
+        "player",
+        "options",
+        "items",
+        "tracks",
+        "items",
+        "i",
+        "tracks",
+        "i",
+        "tracks",
+        "i",
+        "items",
+        "AudioTrackMenuItem",
+        "track",
+        "items",
+        "Component",
+        "AudioTrackButton",
+        "AudioTrackButton"
+    ],
+    "literals": [
+        "'../track-button.js'",
+        "'../../component.js'",
+        "'../../utils/fn.js'",
+        "'./audio-track-menu-item.js'",
+        "'aria-label'",
+        "'Audio Menu'",
+        "vjs-audio-button ${super.buildCSSClass()}",
+        "'selectable'",
+        "'track'",
+        "'AudioTrackButton'"
+    ],
+    "variables": [
+        "tracks",
+        "i",
+        "track"
+    ],
+    "comments": [
+        "MenuItem is selectable"
+    ],
+    "docstrings": [
+        "* @file audio-track-button.js",
+        "* The base class for buttons that toggle specific text track types (e.g. subtitles)\n *\n * @param {Player|Object} player\n * @param {Object=} options\n * @extends TrackButton\n * @class AudioTrackButton",
+        "* Allow sub components to stack CSS class names\n   *\n   * @return {String} The constructed class name\n   * @method buildCSSClass",
+        "* Create a menu item for each audio track\n   *\n   * @return {Array} Array of menu items\n   * @method createItems"
+    ],
+    "functions": [
+        "buildCSSClass",
+        "createItems"
+    ],
+    "classes": [
+        "AudioTrackButton"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "scapy",
+        "sendrecv",
+        "sniff",
+        "staticmethod",
+        "Capture",
+        "_capture_instance",
+        "Capture",
+        "Capture",
+        "_capture_instance",
+        "Capture",
+        "_capture_instance",
+        "filter_name",
+        "sniff",
+        "count",
+        "filter_name",
+        "packages"
+    ],
+    "literals": [
+        "\"The Capture class is Singleton. Only one object can be created.\""
+    ],
+    "variables": [
+        "_capture_instance",
+        "packages",
+        "Capture",
+        "_capture_instance",
+        "packages"
+    ],
+    "comments": [
+        "Instanta clasei Capture.",
+        "Pachetele ce caracterizeaza o captura"
+    ],
+    "docstrings": [
+        "\"\"\"\n        Metoda statica.\n        :return: Instanta clasei Capture\n        \"\"\"",
+        "\"\"\"\n        Constructor ce initializeaza clasa Capture.\n        Implementeaza logica Singleton.\n        \"\"\"",
+        "\"\"\"\n        Metoda prin care putem sa facem o captura pe toate interfetele de retea.\n        Numarul de pachete este lasat default la 15 de catre mine.\n        Un filtru se poate da ca parametru, insa nu este obligatoriu.\n        :param filter_name: Numele filtrului. Poate sa fie tcp, udp, https, etc.\n        :return: Cele 15 pachete componente ale capturii.\n        \"\"\""
+    ],
+    "functions": [
+        "get_instance",
+        "sniff_packages"
+    ],
+    "classes": [
+        "Capture"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "form",
+        "e",
+        "e",
+        "input",
+        "input",
+        "messages",
+        "message",
+        "axios",
+        "message",
+        "apiKey",
+        "response",
+        "messages",
+        "chatbotResponse"
+    ],
+    "literals": [
+        "\"chat-form\"",
+        "\"chat-input\"",
+        "\"chat-messages\"",
+        "\"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\"",
+        "\"submit\"",
+        "\"\"",
+        "<div class=\"message user-message\">\n  <img src=\"./cat3.jpeg\" alt=\"user icon\"> <span>${message}</span>\n  </div>",
+        "\"https://api.openai.com/v1/completions\"",
+        "\"text-davinci-003\"",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "Bearer ${apiKey}",
+        "<div class=\"message bot-message\">\n  <img src=\"./logo.png\" alt=\"bot icon\"> <span>${chatbotResponse}</span>\n  </div>"
+    ],
+    "variables": [
+        "form",
+        "input",
+        "messages",
+        "apiKey",
+        "message",
+        "response",
+        "chatbotResponse"
+    ],
+    "comments": [
+        "Use axios library to make a POST request to the OpenAI API"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

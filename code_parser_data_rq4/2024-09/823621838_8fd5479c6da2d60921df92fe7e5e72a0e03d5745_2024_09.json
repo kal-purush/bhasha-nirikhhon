@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "DEFAULT_PROVIDERS",
+        "SSMSetOptions",
+        "SSMProvider",
+        "setParameter",
+        "name",
+        "options",
+        "DEFAULT_PROVIDERS",
+        "DEFAULT_PROVIDERS",
+        "SSMProvider",
+        "DEFAULT_PROVIDERS",
+        "name",
+        "options",
+        "setParameter"
+    ],
+    "literals": [
+        "'../base/DefaultProviders.js'",
+        "'../types/SSMProvider.js'",
+        "'./SSMProvider.js'",
+        "string",
+        "'ssm'"
+    ],
+    "variables": [
+        "setParameter"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* ## Intro\n * The Parameters utility provides an SSMProvider that allows setting parameters in AWS Systems Manager.\n *\n * ## Getting started\n *\n * This utility supports AWS SDK v3 for JavaScript only. This allows the utility to be modular, and you to install only\n * the SDK packages you need and keep your bundle size small.\n *\n * To use the provider, you must install the Parameters utility and the AWS SDK v3 for JavaScript for SSM:\n *\n * ```sh\n * npm install @aws-lambda-powertools/parameters @aws-sdk/client-ssm\n *```\n *\n * ## Basic Usage\n *\n * @example\n * ```typescript\n * import { setParameter } from '@aws-lambda-powertools/parameters/ssm';\n *\n * export const handler = async (): Promise<void> => {\n *  // Set a parameter\n *  const version = await setParameter('/my-parameter', { value: 'my-value' });\n *  console.log(Parameter version: ${version});\n * };\n * ```\n *\n * ## Advanced Usage\n *\n * ### Overwriting a parameter\n *\n * By default, the provider will not overwrite a parameter if it already exists. You can force the provider to overwrite the parameter by using the `overwrite` option.\n *\n * @example\n * ```typescript\n * import { setParameter } from '@aws-lambda-powertools/parameters/ssm';\n *\n * export const handler = async (): Promise<void> => {\n *  // Set a parameter and overwrite it\n *  const version = await setParameter('/my-parameter', {\n *    value: 'my-value',\n *    overwrite: true,\n *  });\n *  console.log(Parameter version: ${version});\n * };\n * ```\n *\n * ### Extra SDK options\n *\n * When setting a parameter, you can pass extra options to the AWS SDK v3 for JavaScript client by using the sdkOptions parameter.\n *\n * @example\n * ```typescript\n * import { setParameter } from '@aws-lambda-powertools/parameters/ssm';\n *\n * export const handler = async (): Promise<void> => {\n *  // Set a parameter with extra options\n *  const version = await setParameter('/my-parameter', {\n *    value: 'my-value',\n *    sdkOptions: {\n *      Overwrite: true,\n *    },\n *  });\n * };\n *  ```\n *\n *  This object accepts the same options as the AWS SDK v3 for JavaScript `PutParameterCommandInput` interface.\n *\n *  ### Built-in provider class\n *\n *  For greater flexibility such as configuring the underlying SDK client used by built-in providers, you can use the {@link SSMProvider} class.\n *\n *  ### Options\n *\n *   You can customize the storage of the value by passing options to the function:\n * * `value` - The value of the parameter, which is a mandatory option.\n * * `overwrite` - Whether to overwrite the value if it already exists (default: `false`)\n * * `description` - The description of the parameter\n * * `parameterType` - The type of the parameter, can be one of `String`, `StringList`, or `SecureString` (default: `String`)\n * * `tier` - The parameter tier to use, can be one of `Standard`, `Advanced`, and `Intelligent-Tiering` (default: `Standard`)\n * * `kmsKeyId` - The KMS key id to use to encrypt the parameter\n * * `sdkOptions` - Extra options to pass to the AWS SDK v3 for JavaScript client\n *\n *  For more usage examples, see [our documentation](https://docs.powertools.aws.dev/lambda/typescript/latest/utilities/parameters/).\n *\n *  @param {string} name - Name of the parameter\n *  @param {SSMSetOptions} options - Options to configure the parameter\n *  @see https://docs.powertools.aws.dev/lambda/typescript/latest/utilities/parameters/"
+    ],
+    "functions": [],
+    "classes": []
+}

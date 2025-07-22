@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "java",
+        "util",
+        "Calendar",
+        "java",
+        "util",
+        "java",
+        "util",
+        "ContactManager",
+        "name",
+        "notes"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "int addFutureMeeting (Set<Contact> contacts, Calendar date);",
+        "PastMeeting getPastMeeting(int id);",
+        "FutureMeeting getFutureMeeting(int id);",
+        "Meeting getMeeting(int id);",
+        "List<Meeting> getFutureMeetingList(Contact contact);",
+        "List<Meeting> getFutureMeetingList(Calendar date);",
+        "List<Meeting> getPastMeetingList(Contact contact);",
+        "void addNewPastMeeting(Set<Contact> contacts, Calendar date, String text);",
+        "void addMeetingNotes(int id, String txt);",
+        "void addNewContact (String name, String notes);",
+        "Set<Contact> getContacts (int ids);",
+        "Set<Contact> getContacts(String name);",
+        "void flush();"
+    ],
+    "docstrings": [
+        "* A class to manage your contacts and meetings.\n*",
+        "* Create a new contact with the specified name and notes.\n\t* \n\t* @param name the name of the contact.\n\t* @param notes notes to be added about the contact.\n\t* @return the ID for the new contact\n\t* @throws IllegalArgument if the name or the notes are empty strings.\n\t* @throws NullPointerException if the name or the notes are nulll.\n\t*"
+    ],
+    "functions": [
+        "addNewContact"
+    ],
+    "classes": []
+}

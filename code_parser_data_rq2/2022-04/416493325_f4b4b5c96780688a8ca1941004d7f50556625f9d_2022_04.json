@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "org",
+        "tribuo",
+        "math",
+        "neighbour",
+        "org",
+        "tribuo",
+        "math",
+        "distance",
+        "DistanceType",
+        "org",
+        "tribuo",
+        "math",
+        "neighbour",
+        "bruteforce",
+        "NeighboursBruteForceFactory",
+        "org",
+        "tribuo",
+        "math",
+        "neighbour",
+        "kdtree",
+        "KDTreeFactory",
+        "NeighboursQueryFactoryType",
+        "BRUTE_FORCE",
+        "KD_TREE",
+        "nqFactoryType",
+        "distanceType",
+        "numThreads",
+        "neighboursQueryFactory",
+        "nqFactoryType",
+        "BRUTE_FORCE",
+        "neighboursQueryFactory",
+        "distanceType",
+        "numThreads",
+        "KD_TREE",
+        "neighboursQueryFactory",
+        "distanceType",
+        "numThreads",
+        "nqFactoryType",
+        "neighboursQueryFactory"
+    ],
+    "literals": [
+        "\"Unknown neighbour query factory \""
+    ],
+    "variables": [
+        "neighboursQueryFactory"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2022, Oracle and/or its affiliates. All rights reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* These are the supported neighbour query implementations. A factory object is used to emit instances of its\n * implementation.",
+        "* A factory which emits nearest neighbour query objects using a brute-force search.\n     * {@link NeighboursBruteForceFactory}",
+        "* A factory which emits nearest neighbour query objects using a k-d tree search.\n     * {@link KDTreeFactory}",
+        "* Returns the appropriate {@link NeighboursQueryFactory} implementation.\n     * @param distanceType The distance function.\n     * @param numThreads The number of threads to be used to parallelize the computation."
+    ],
+    "functions": [
+        "NeighboursQueryFactory",
+        "getNeighboursQueryFactory"
+    ],
+    "classes": []
+}

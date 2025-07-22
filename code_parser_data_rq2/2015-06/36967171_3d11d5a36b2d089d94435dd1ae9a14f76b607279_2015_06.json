@@ -1,0 +1,93 @@
+{
+    "identifiers": [
+        "Inflate",
+        "deflated",
+        "deflated",
+        "FlateEnumerable",
+        "deflated",
+        "iterator",
+        "Inflate",
+        "iterator",
+        "source",
+        "_target",
+        "_factory",
+        "Inflate",
+        "iterator",
+        "verify",
+        "result",
+        "iterator",
+        "Inflate",
+        "result",
+        "cm",
+        "cm",
+        "result",
+        "iterator",
+        "Inflate",
+        "cm",
+        "result",
+        "iterator",
+        "adler32",
+        "byteSignificance",
+        "result",
+        "iterator",
+        "byteSignificance",
+        "need",
+        "result",
+        "need",
+        "result",
+        "need",
+        "result",
+        "need",
+        "result",
+        "byteSignificance",
+        "need",
+        "adler32"
+    ],
+    "literals": [
+        "\"./inflate\"",
+        "\"No Inflate source specidied\"",
+        "\"unknown compression method\"",
+        "\"invalid window size\"",
+        "\"incorrect header check\"",
+        "\"Invalid Adler-32 checksum\""
+    ],
+    "variables": [
+        "result",
+        "cm",
+        "need",
+        "byteSignificance",
+        "result"
+    ],
+    "comments": [
+        "<reference path=\"../typings/zlib-ts.d.ts\" />",
+        "",
+        "Copyright (c) ENikS.  All rights reserved.",
+        "",
+        "Licensed under the Apache License, Version 2.0  ( the  \"License\" );  you may",
+        "not use this file except in compliance with the License.  You may  obtain  a",
+        "copy of the License at",
+        "",
+        "http://www.apache.org/licenses/LICENSE-2.0",
+        "",
+        "Unless required  by  applicable  law  or  agreed  to  in  writing,  software",
+        "distributed under the License is distributed on an \"AS  IS\"  BASIS,  WITHOUT",
+        "WARRANTIES OR CONDITIONS  OF  ANY  KIND, either express or implied.  See the",
+        "License for the specific  language  governing  permissions  and  limitations",
+        "under the License.",
+        "Returns JavaScript iterator",
+        "",
+        "stream check value"
+    ],
+    "docstrings": [
+        "* Inflates deflated archave stored in Iterable<T> \n* @param source An Array, Typed array, String or other Iterable object.\n* @example\n*  var iterable: Iterable<T> = inflate(arr);",
+        "* Inflates deflated archave packaged as zlib stream and stored in Iterable<T> object.\n* @param source An Array, Typed array, String or other Iterable object.\n* @example\n*  var iterable: Iterable<T> = zlibInflate(arr);"
+    ],
+    "functions": [
+        "asInflatable",
+        "zlibInflate"
+    ],
+    "classes": [
+        "FlateEnumerable",
+        "ZLibInflate"
+    ]
+}

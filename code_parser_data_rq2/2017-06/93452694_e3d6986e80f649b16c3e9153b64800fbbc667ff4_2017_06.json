@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "init",
+        "widthRadioBtn",
+        "toggleOptionDisplay",
+        "deviceRadioBtn",
+        "toggleOptionDisplay",
+        "displayOptions",
+        "displayOptions"
+    ],
+    "literals": [
+        "\"url-input\"",
+        "\"width\"",
+        "\"device\"",
+        "\"deviceOptions\"",
+        "\"width\"",
+        "\"none\"",
+        "\"block\""
+    ],
+    "variables": [
+        "urlInput",
+        "widthRadioBtn",
+        "deviceRadioBtn",
+        "displayOptions"
+    ],
+    "comments": [
+        "URL Input",
+        "Radio Buttons",
+        "End of init",
+        "Div holding the device display options",
+        "Hide on width based testing",
+        "Show on device-based testing",
+        "End of toggleOptionDisplay"
+    ],
+    "docstrings": [
+        "* File Name: main.js\n * Description: Main javascript file that contains all methods for manipulating\n *      what the iframes will display, the dimensions of each iframe, and the\n *      total number of iframes that will be displayed.",
+        "* init - Method for assigning event methods for various\n *      DOM elements\n * @return null",
+        "* toggleOptionDisplay - Toggle the visibility of the\n *      device display options\n * @return {[type]} [description]"
+    ],
+    "functions": [
+        "init",
+        "toggleOptionDisplay"
+    ],
+    "classes": []
+}

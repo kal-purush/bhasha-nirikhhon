@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "Harmony",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Reflection",
+        "Text",
+        "Verse",
+        "Desynchronized",
+        "Compatibility"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "[HarmonyPatch(typeof(CleanserUtil))]\n    [HarmonyPatch(\"InitUsedTalePawns\", MethodType.Normal)]\n    public class PostFix_RuntimeGC_CleanserUtils_TaleNewsPawns\n    {\n        [HarmonyPrepare]\n        private static bool DetectRuntimeGC()\n        {\n            return LoadedModManager.RunningMods.Any((ModContentPack m) => m.Name.Contains(\"RuntimeGC\"));\n        }\n\n\n    }"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

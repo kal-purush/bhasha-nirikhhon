@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "connect",
+        "sqlPoolConnect",
+        "IResult",
+        "getConfigProperty",
+        "form",
+        "sessionUser",
+        "sqlPoolConnect",
+        "getConfigProperty",
+        "form",
+        "form",
+        "pool",
+        "form",
+        "callOutDateTimeString",
+        "callOutDateTimeString",
+        "form",
+        "form",
+        "form",
+        "form",
+        "sessionUser",
+        "result"
+    ],
+    "literals": [
+        "'@cityssm/mssql-multi-pool'",
+        "'mssql'",
+        "'../helpers/functions.config.js'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'mssql'",
+        "${form.callOutDateString} ${form.callOutTimeString}",
+        "string",
+        "'recordId'",
+        "'callOutDateTime'",
+        "''",
+        "'callOutHours'",
+        "'natureOfCallOut'",
+        "'responseTypeId'",
+        "'recordComment'",
+        "'record_userName'",
+        "'record_dateTime'",
+        "update MonTY.CallOutRecords\n      set callOutDateTime = @callOutDateTime,\n        callOutHours = @callOutHours,\n        natureOfCallOut = @natureOfCallOut,\n        responseTypeId = @responseTypeId,\n        recordComment = @recordComment,\n        recordUpdate_userName = @record_userName,\n        recordUpdate_dateTime = @record_dateTime\n      where recordId = @recordId\n        and recordDelete_dateTime is null"
+    ],
+    "variables": [
+        "pool",
+        "callOutDateTimeString",
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "updateCallOutRecord"
+    ],
+    "classes": []
+}

@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "describe",
+        "it",
+        "jest",
+        "authMiddleware",
+        "nextMock",
+        "expect",
+        "nextMock",
+        "it",
+        "jest",
+        "authMiddleware",
+        "nextMock",
+        "nextMock",
+        "expect",
+        "error",
+        "expect",
+        "error",
+        "ApiError",
+        "expect",
+        "error",
+        "expect",
+        "error",
+        "expect",
+        "error"
+    ],
+    "literals": [
+        "'../../../src/lib/errors/ApiError'",
+        "'../../../src/middlewares/auth'",
+        "'Authorization Middleware'",
+        "'should not call #next with [error] argument when provided valid auth token'",
+        "'x-api-key'",
+        "'some-valid-token'",
+        "'should call #next with appropriate ApiError argument when NOT provided valid auth token'",
+        "'x-api-key'",
+        "'some-fake-token'",
+        "'Invalid api key provided'"
+    ],
+    "variables": [
+        "ApiError",
+        "authMiddleware",
+        "nextMock",
+        "nextMock",
+        "error"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

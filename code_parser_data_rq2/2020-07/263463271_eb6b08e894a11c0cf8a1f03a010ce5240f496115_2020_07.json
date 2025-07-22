@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "com",
+        "apicatalog",
+        "rdf",
+        "RdfValue",
+        "ValueType",
+        "IRI",
+        "BLANK_NODE",
+        "LITERAL",
+        "Override",
+        "o",
+        "Override"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* \n * Represents an immutable RDF value.\n * \n * @since 0.8.4",
+        "* The type of a {@link RdfValue}.",
+        "* Indicates if the value type is {@link ValueType#LITERAL}.\n     *\n     * @return <code>true</code> if the value type is literal, <code>false</code> otherwise.",
+        "* Indicates if the value type is {@link ValueType#IRI}.\n     *\n     * @return <code>true</code> if the value type is IRI, <code>false</code> otherwise.",
+        "* Indicates if the value type is {@link ValueType#BLANK_NODE}.\n     *\n     * @return <code>true</code> if the value type is blank node, <code>false</code> otherwise.",
+        "* Returns the value type of this RDF value.\n     *\n     * @return RDF value type",
+        "* Return the RdfValue as a RdfResource\n     *\n     * @return the RdfValue as a RdfResource\n     * @throws ClassCastException if the RdfValue is not a RdfResource\n     *",
+        "* Return the RdfValue as a RdfLiteral\n     *\n     * @return the RdfValue as a RdfLiteral\n     * @throws ClassCastException if the RdfValue is not a RdfLiteral\n     *"
+    ],
+    "functions": [
+        "isLiteral",
+        "isIRI",
+        "isBlankNode",
+        "ValueType",
+        "getValueType",
+        "RdfResource",
+        "asResource",
+        "RdfLiteral",
+        "asLiteral",
+        "equals",
+        "hashCode"
+    ],
+    "classes": []
+}

@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "exports",
+        "app",
+        "require",
+        "app",
+        "request",
+        "response",
+        "response",
+        "app",
+        "request",
+        "response",
+        "response"
+    ],
+    "literals": [
+        "'./database.js'",
+        "'/lessons/application/'",
+        "'lessonApplication/index'",
+        "'/register/student/*'",
+        "'lessonApplication/index'"
+    ],
+    "variables": [],
+    "comments": [
+        "app.post('/register/student/', function(request, response) {\n\t\t// DATABASE CONNECTION\n\t\tapp.client.query(\"SELECT * FROM test;\")\n\t\t.on('row', function(row) {\n\t\t    console.log(row);\n\t\t});\n\t\tvar student = request.body;\n\t\t//response.send('Student Registered');\n\t\tresponse.sendStatus('201');\n\t\t//response.sendStatus('500');\n\t});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

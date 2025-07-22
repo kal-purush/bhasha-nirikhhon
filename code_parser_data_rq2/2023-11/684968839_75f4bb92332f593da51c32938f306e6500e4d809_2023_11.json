@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "sanityProjectId",
+        "sanityProjectDataset",
+        "fetch",
+        "process",
+        "sanityProjectId",
+        "sanityProjectDataset",
+        "response",
+        "data",
+        "e",
+        "e"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "'triger github workflow'",
+        "https://api.github.com/repos/focusreactive/Demo-NextJS13-Sanity/actions/workflows/75419986/dispatches",
+        "'POST'",
+        "Bearer ${process.env.GITHUB_PERSONAL_ACCESS_TOKEN}",
+        "'Content-Type'",
+        "'application/json'",
+        "'auto-roll-out'",
+        "'sanity-project-id'",
+        "'sanity-project-dataset'",
+        "'github workflow response: '"
+    ],
+    "variables": [
+        "response",
+        "data"
+    ],
+    "comments": [
+        "switch to main when merged"
+    ],
+    "docstrings": [],
+    "functions": [
+        "trigerWorkflowtoFillDataset"
+    ],
+    "classes": []
+}

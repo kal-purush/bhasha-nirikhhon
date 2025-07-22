@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "val",
+        "val",
+        "date",
+        "month",
+        "monthString",
+        "monthString",
+        "monthString",
+        "monthString",
+        "monthString",
+        "monthString",
+        "monthString",
+        "monthString",
+        "monthString",
+        "monthString",
+        "monthString",
+        "monthString",
+        "monthString",
+        "date",
+        "date",
+        "date",
+        "date"
+    ],
+    "literals": [
+        "\"\"",
+        "\"Jan\"",
+        "\"feb\"",
+        "\"mar\"",
+        "\"apr\"",
+        "\"may\"",
+        "\"jun\"",
+        "\"jul\"",
+        "\"avg\"",
+        "\"sep\"",
+        "\"oct\"",
+        "\"nov\"",
+        "\"dec\"",
+        "${monthString} ${date.getDate()} ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}"
+    ],
+    "variables": [
+        "date",
+        "month",
+        "monthString"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "dateString"
+    ],
+    "classes": []
+}

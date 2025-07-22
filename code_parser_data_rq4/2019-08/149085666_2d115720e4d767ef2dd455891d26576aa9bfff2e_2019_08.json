@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "com",
+        "wumin",
+        "boot152",
+        "nginxTest",
+        "config",
+        "com",
+        "ifly",
+        "qxb",
+        "uap",
+        "client",
+        "web",
+        "SSOFilter",
+        "org",
+        "springframework",
+        "boot",
+        "web",
+        "servlet",
+        "FilterRegistrationBean",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Bean",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Configuration",
+        "java",
+        "util",
+        "java",
+        "util",
+        "Configuration",
+        "Bean",
+        "registrationBean",
+        "ssoFilter",
+        "registrationBean",
+        "setFilter",
+        "ssoFilter",
+        "put",
+        "registrationBean",
+        "setInitParameters",
+        "registrationBean"
+    ],
+    "literals": [
+        "\"configPath\"",
+        "\"/sso/sso.properties\""
+    ],
+    "variables": [],
+    "comments": [
+        "registrationBean.addUrlPatterns(\"/*\");",
+        "registrationBean.setName(\"ssoFilter\");"
+    ],
+    "docstrings": [
+        "* 添加其他jar包中的filter，并配置相应属性\n     * @return"
+    ],
+    "functions": [
+        "FilterRegistrationBean",
+        "addMyFilter"
+    ],
+    "classes": [
+        "SSOFilterConfig"
+    ]
+}

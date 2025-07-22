@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "require",
+        "page",
+        "page",
+        "server",
+        "data",
+        "status",
+        "status",
+        "page",
+        "phantom"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "'webpage'",
+        "'http://www2.correios.com.br/sistemas/rastreamento/resultado.cfm?'",
+        "'acao=track&objetos=ID_OBJETO&btnPesq=Buscar'",
+        "\"Referer\"",
+        "\"http://www2.correios.com.br/sistemas/rastreamento/\"",
+        "'post'",
+        "'success'",
+        "'Unable to post!'"
+    ],
+    "variables": [
+        "page",
+        "server",
+        "data"
+    ],
+    "comments": [
+        "curl -Ls 'http://www2.correios.com.br/sistemas/rastreamento/resultado.cfm?' -H 'Accept-Language: en-US,en;q=0.5' -H 'Content-Type: application/json; charset=utf-8' -H 'Referer: http://www2.correios.com.br/sistemas/rastreamento/' --data 'acao=track&objetos=SEUIDDOOBJETO&btnPesq=Buscar'"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

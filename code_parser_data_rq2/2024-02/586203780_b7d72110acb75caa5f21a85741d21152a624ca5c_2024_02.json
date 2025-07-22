@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Pathfinding",
+        "AStarMovement",
+        "init",
+        "preMoveChecksDone",
+        "path",
+        "vectorPath",
+        "Reverse",
+        "preMoveChecksDone",
+        "path",
+        "vectorPath",
+        "currentWaypoint",
+        "transform",
+        "position",
+        "normalized",
+        "enemy",
+        "moveInDirection",
+        "direction",
+        "Vector3",
+        "Distance",
+        "transform",
+        "position",
+        "path",
+        "vectorPath",
+        "currentWaypoint",
+        "distance",
+        "nextWayPointDist",
+        "currentWaypoint"
+    ],
+    "literals": [],
+    "variables": [
+        "Vector3",
+        "direction",
+        "distance"
+    ],
+    "comments": [
+        "Reverse the direction of the path to flee",
+        "Move character towards next waypoint",
+        "Check if close enough to the current waypoint, then proceed to the next one"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "preMoveChecksDone",
+        "FixedUpdate"
+    ],
+    "classes": [
+        "FleeingAStarMovement"
+    ]
+}

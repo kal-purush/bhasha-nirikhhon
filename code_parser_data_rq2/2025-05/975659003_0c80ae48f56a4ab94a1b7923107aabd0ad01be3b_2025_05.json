@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "sqlite3",
+        "os",
+        "kivy",
+        "uix",
+        "screenmanager",
+        "Screen",
+        "kivy",
+        "lang",
+        "Builder",
+        "kivy",
+        "app",
+        "App",
+        "kivy",
+        "uix",
+        "boxlayout",
+        "BoxLayout",
+        "kivy",
+        "uix",
+        "label",
+        "Label",
+        "Screen",
+        "kwargs",
+        "kwargs",
+        "Builder",
+        "load_file",
+        "os",
+        "path",
+        "join",
+        "os",
+        "path",
+        "dirname",
+        "sqlite3",
+        "connect",
+        "conexao",
+        "cursor",
+        "cursor",
+        "execute",
+        "sqlite3",
+        "Row",
+        "cursor",
+        "fetchall",
+        "conexao",
+        "close",
+        "App",
+        "Estoque",
+        "EstoqueApp",
+        "run"
+    ],
+    "literals": [
+        "'estoque.kv'",
+        "'BD/projeto.db'",
+        "'SELECT produto_id, nome_produto, tipo_produto, qntd_produto, preco_produto FROM produto, estoque'",
+        "'__main__'"
+    ],
+    "variables": [
+        "conexao",
+        "cursor",
+        "cursor",
+        "row_factory",
+        "produtos"
+    ],
+    "comments": [
+        "Carrega o arquivo KV",
+        "Busca produtos do banco",
+        "para acessar colunas pelo nome (ex: produto['nome_produto'])",
+        "para rodar o código como se fosse o principal"
+    ],
+    "docstrings": [],
+    "functions": [
+        "build"
+    ],
+    "classes": [
+        "Estoque",
+        "EstoqueApp"
+    ]
+}

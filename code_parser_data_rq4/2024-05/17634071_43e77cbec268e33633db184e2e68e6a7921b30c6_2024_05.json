@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "org",
+        "jabref",
+        "model",
+        "openoffice",
+        "com",
+        "sun",
+        "star",
+        "text",
+        "XTextDocument",
+        "com",
+        "sun",
+        "star",
+        "text",
+        "XTextRange",
+        "DocumentAnnotation",
+        "doc",
+        "name",
+        "absorb"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Represents a document annotation.\n *\n * @param doc    The document\n * @param name   For the ReferenceMark, Bookmark, TextSection. If the name is already in use, LibreOffice may change the name.\n * @param range  Cursor marking the location or range for the thing to be inserted.\n * @param absorb ReferenceMark, Bookmark and TextSection can incorporate a text range. If absorb is true, the text in the range becomes part of the thing. If absorb is false, the thing is inserted at the end of the range."
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "IWrite",
+        "IRead",
+        "InternalError",
+        "item",
+        "id",
+        "item",
+        "id",
+        "id",
+        "InternalError",
+        "message",
+        "message"
+    ],
+    "literals": [
+        "'@src/repositories/interfaces/IWrite'",
+        "'@src/repositories/interfaces/IRead'",
+        "'@src/util/errors/internal-error'",
+        "'Method not implemented.'",
+        "'Method not implemented.'",
+        "string",
+        "'Method not implemented.'",
+        "string",
+        "'Method not implemented.'",
+        "'Method not implemented.'",
+        "string",
+        "Unexpected error during the service tracking processing: ${message}"
+    ],
+    "variables": [],
+    "comments": [
+        "import all interfaces",
+        "that class only can be extended",
+        "eslint-disable-next-line @typescript-eslint/no-unused-vars",
+        "eslint-disable-next-line @typescript-eslint/no-unused-vars",
+        "eslint-disable-next-line @typescript-eslint/no-unused-vars",
+        "eslint-disable-next-line @typescript-eslint/no-unused-vars"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getAll",
+        "create",
+        "update",
+        "getById"
+    ],
+    "classes": [
+        "TrackerServiceInternalError"
+    ]
+}

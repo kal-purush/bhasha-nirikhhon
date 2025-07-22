@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "db",
+        "auth",
+        "db",
+        "model",
+        "desc",
+        "model",
+        "posts"
+    ],
+    "literals": [
+        "'server-only'",
+        "'./db'",
+        "'@clerk/nextjs/server'",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "posts"
+    ],
+    "comments": [
+        "export async function getUserPosts(userId: number) {",
+        "const user = auth()",
+        "if (!user.userId) throw new Error('User not found')",
+        "const posts: Post[] = await db.query.posts.findMany({",
+        "where: (model, {eq}) => eq(model.userId, userId),",
+        "orderBy: (model, { desc }) => desc(model.id)",
+        "})",
+        "return posts",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getPosts"
+    ],
+    "classes": []
+}

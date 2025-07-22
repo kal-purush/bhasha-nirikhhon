@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "Text",
+        "Lesson_02",
+        "AccountType",
+        "Undefined",
+        "Current",
+        "Credit",
+        "Deposit",
+        "UInt64",
+        "accNumber",
+        "_number",
+        "accNumber",
+        "_number",
+        "_number",
+        "amount",
+        "_number",
+        "_balance",
+        "amount",
+        "_balance",
+        "amount",
+        "_number",
+        "amount",
+        "_balance",
+        "_balance",
+        "_balance",
+        "amount",
+        "_balance",
+        "_number",
+        "_balance",
+        "AccountType",
+        "accountType",
+        "_number",
+        "_type",
+        "accountType",
+        "_number",
+        "_type"
+    ],
+    "literals": [
+        "\"Account doesn't exist\"",
+        "\"Account doesn't exist\"",
+        "\"Account doesn't exist\"",
+        "\"Account doesn't exist\"",
+        "\"Account doesn't exist\""
+    ],
+    "variables": [
+        "UInt64",
+        "_number",
+        "Decimal",
+        "_balance",
+        "AccountType",
+        "_type"
+    ],
+    "comments": [
+        "Создать класс счет в банке с закрытыми полями: номер счета, баланс, тип банковского счета (использовать перечислимый тип).",
+        "Предусмотреть методы для доступа к данным – заполнения и чтения.",
+        "Создать объект класса, заполнить его поля и вывести информацию об объекте класса на печать"
+    ],
+    "docstrings": [],
+    "functions": [
+        "UInt64",
+        "CreateAccount",
+        "UInt64",
+        "GetAccountNumber",
+        "PutTheMoney",
+        "WithdrawMoney",
+        "GetAccountAmount",
+        "SetAccountType",
+        "AccountType",
+        "GetAccountType"
+    ],
+    "classes": [
+        "AccountTask01"
+    ]
+}

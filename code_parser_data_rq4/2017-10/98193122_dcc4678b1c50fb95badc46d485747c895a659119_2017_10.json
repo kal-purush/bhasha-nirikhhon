@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "PaderbornUniversity",
+        "SILab",
+        "Hip",
+        "UserStore",
+        "Model",
+        "Rest"
+    ],
+    "literals": [],
+    "variables": [
+        "Tenant",
+        "Username",
+        "Email",
+        "EmailVerified"
+    ],
+    "comments": [
+        "Represents the user arguments that are handed from the Auth0 Post-User-Registration hook to UserStore.",
+        "This class is modeled after the Auth0 Hooks API. See also:",
+        "https://auth0.com/docs/hooks/extensibility-points/post-user-registration#starter-code-and-parameters.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "UserArgsAuth0"
+    ]
+}

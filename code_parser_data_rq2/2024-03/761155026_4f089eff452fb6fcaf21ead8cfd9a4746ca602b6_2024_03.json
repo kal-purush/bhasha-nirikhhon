@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "require",
+        "playerName",
+        "puppeteer",
+        "browser",
+        "page",
+        "encodeURIComponent",
+        "playerName",
+        "page",
+        "page",
+        "page",
+        "element",
+        "element",
+        "rankElement",
+        "rankText",
+        "error",
+        "error",
+        "browser"
+    ],
+    "literals": [
+        "\"puppeteer\"",
+        "https://fortnitetracker.com/profile/all/${encodeURIComponent(\n        playerName\n      )}",
+        "\".trn-defstat__value\"",
+        "\".trn-defstat__value\"",
+        "\"Error scrapig player rank:\""
+    ],
+    "variables": [
+        "puppeteer",
+        "browser",
+        "page",
+        "rankElement",
+        "rankText"
+    ],
+    "comments": [
+        "RankScraper.js",
+        "Import any necessary libraries or modules",
+        "Define a function to scrape player rank",
+        "Launch a headless browser",
+        "Open a new page",
+        "Navigate to the Fortnite Tracker website",
+        "Wait for the player rank element to be present",
+        "Extract the player rank",
+        "Close the browser",
+        "Export the function to make it accessible from other modules"
+    ],
+    "docstrings": [],
+    "functions": [
+        "scrapePlayerRank"
+    ],
+    "classes": []
+}

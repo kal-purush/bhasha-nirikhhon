@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Injectable",
+        "require",
+        "Injectable",
+        "Primus",
+        "settings",
+        "settings",
+        "settings",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "callback",
+        "callback",
+        "data"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../../../shared/models/map'",
+        "'../primus.gen'",
+        "''",
+        "'http'",
+        "''",
+        "'http'",
+        "${settings.protocol}://${settings.hostname}:${settings.port}",
+        "'data'",
+        "handle${data.updateType}",
+        "handle${data.updateType}",
+        "string",
+        "'plugin:map:request'"
+    ],
+    "variables": [
+        "Primus",
+        "settings"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "initSocket",
+        "handleMap",
+        "emit",
+        "requestMap"
+    ],
+    "classes": [
+        "PrimusService"
+    ]
+}

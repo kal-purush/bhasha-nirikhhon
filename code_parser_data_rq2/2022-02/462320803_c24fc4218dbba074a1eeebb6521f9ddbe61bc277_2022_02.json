@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "products",
+        "pd",
+        "pd",
+        "productColor"
+    ],
+    "literals": [
+        "'water bottle'",
+        "'yellow'",
+        "'mobile phone'",
+        "'black'",
+        "'smart watch'",
+        "'black'",
+        "'sticky note'",
+        "'pink'",
+        "'water glass'",
+        "'white'",
+        "'black'"
+    ],
+    "variables": [
+        "products",
+        "productColor"
+    ],
+    "comments": [
+        "array filter",
+        "const numbers=[10, 12, 13, 15 ,20 ,25];\nconst bigNumbers = numbers.filter(n => n>21);// numbers.filter(number => number>21);\nconsole.log(bigNumbers);",
+        "object filter",
+        "const products = [\n    { name: 'water bottle', price: 50, color: 'yellow' },\n    { name: 'mobile phone', price: 15000, color: 'black' },\n    { name: 'smart watch', price: 3000, color: 'black' },\n    { name: 'sticky note', price: 30, color: 'pink' },\n    { name: 'water glass', price: 3, color: 'white' }\n];\nconst productPrices = products.filter(pd=>pd.price>500);\n//products.filter(product=>product.price>500);\nconsole.log(productPrices);",
+        "string filter",
+        "products.filter(product=>product.color=='black');"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

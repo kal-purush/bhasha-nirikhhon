@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "'typeorm'",
+        "ALTER TABLE pantries\n                ADD COLUMN date_applied TIMESTAMP NOT NULL DEFAULT NOW()",
+        "ALTER TABLE pantries\n                DROP COLUMN date_applied"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "UpdatePantriesTable1739056029076"
+    ]
+}

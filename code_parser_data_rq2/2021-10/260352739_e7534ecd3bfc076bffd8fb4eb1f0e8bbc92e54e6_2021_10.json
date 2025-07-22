@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpClient",
+        "environment",
+        "Injectable",
+        "http",
+        "query",
+        "environment",
+        "query",
+        "query",
+        "environment",
+        "query"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"@angular/common/http\"",
+        "\"../../environments/environment\"",
+        "\"root\"",
+        "${environment.host}/search/list/${query}",
+        "${environment.host}/search/user/${query}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "listSearch",
+        "userSearch"
+    ],
+    "classes": [
+        "SearchService"
+    ]
+}

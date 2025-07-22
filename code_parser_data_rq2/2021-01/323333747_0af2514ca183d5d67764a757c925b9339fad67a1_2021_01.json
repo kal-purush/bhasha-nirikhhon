@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "uk",
+        "ac",
+        "ox",
+        "ndph",
+        "mts",
+        "practitioner_service",
+        "converter",
+        "org",
+        "hl7",
+        "fhir",
+        "r4",
+        "model",
+        "Reference",
+        "org",
+        "springframework",
+        "stereotype",
+        "Component",
+        "uk",
+        "ac",
+        "ox",
+        "ndph",
+        "mts",
+        "practitioner_service",
+        "model",
+        "RoleAssignment",
+        "Component",
+        "input",
+        "fhirPractitionerRole",
+        "fhirPractitionerRole",
+        "setOrganization",
+        "input",
+        "getSiteId",
+        "fhirPractitionerRole",
+        "setPractitioner",
+        "input",
+        "getPractitionerId",
+        "fhirPractitionerRole",
+        "addCode",
+        "setText",
+        "input",
+        "getRoleId",
+        "fhirPractitionerRole"
+    ],
+    "literals": [
+        "\"Organization/\"",
+        "\"Practitioner/\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Implement an EntityConverter for RoleAssignment",
+        "* Convert a RoleAssignment to an hl7 model PractitionerRole.\n     *\n     * @param input the MTS PractitionerRole to convert.\n     * @return org.hl7.fhir.r4.model.PractitionerRole"
+    ],
+    "functions": [
+        "convert"
+    ],
+    "classes": [
+        "RoleAssignmentConverter"
+    ]
+}

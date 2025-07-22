@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "django",
+        "forms",
+        "django",
+        "forms",
+        "ModelForm",
+        "DIY",
+        "models",
+        "ModleForm",
+        "DIYUser",
+        "ModelForm",
+        "ItemService",
+        "forms",
+        "Form"
+    ],
+    "literals": [
+        "'username'",
+        "'first_name'",
+        "'last_name'",
+        "'email'",
+        "'password'",
+        "'image'",
+        "'details'"
+    ],
+    "variables": [
+        "model",
+        "fields",
+        "model",
+        "fields"
+    ],
+    "comments": [
+        "username = forms.CharField(label='Desired username', max_length=30)",
+        "first_name = forms.CharField(label='Your first name', max_length=30)",
+        "last_name = forms.CharField(label='Your last name', max_length=30)",
+        "email = forms.EmailField()",
+        "password = forms.Pass"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "DIYUserForm",
+        "Meta",
+        "ItemServiceForm",
+        "Meta",
+        "OfferForm"
+    ]
+}

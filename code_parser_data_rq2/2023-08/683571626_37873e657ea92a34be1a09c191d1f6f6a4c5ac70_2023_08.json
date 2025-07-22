@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "cdk",
+        "Construct",
+        "cdk",
+        "scope",
+        "id",
+        "props",
+        "cdk",
+        "scope",
+        "id",
+        "props",
+        "func"
+    ],
+    "literals": [
+        "'aws-cdk-lib'",
+        "'constructs'",
+        "'aws-cdk-lib/aws-lambda'",
+        "string",
+        "'murataTestLambda'",
+        "'index.handler'",
+        "'../services/'",
+        "'murataTestFunction'"
+    ],
+    "variables": [
+        "func"
+    ],
+    "comments": [
+        "import * as s3 from 'aws-cdk-lib/aws-s3'",
+        "import * as db from 'aws-cdk-lib/aws-dynamodb'",
+        "S3",
+        "const bucket = new s3.Bucket(this, 'murataTestS3Bucket', {",
+        "bucketName: 'murata-test-s3-bucket',",
+        "versioned: false,",
+        "publicReadAccess: false,",
+        "})",
+        "console.log(bucket)",
+        "dynamoDB",
+        "const table = new db.Table(this, 'murataTestDynamoDB', {",
+        "tableName: 'murata-test-dynamoDB-sex',",
+        "readCapacity: 3,",
+        "writeCapacity: 3,",
+        "partitionKey: { name: 'sex', type: db.AttributeType.STRING },",
+        "})",
+        "lambda"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "InfraStack"
+    ]
+}

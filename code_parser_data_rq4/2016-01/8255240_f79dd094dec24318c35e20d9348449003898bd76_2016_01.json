@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "op",
+        "add_column",
+        "sa",
+        "Column",
+        "sa",
+        "Unicode",
+        "nullable",
+        "op",
+        "drop_column"
+    ],
+    "literals": [
+        "'2b8f5a6f10a4'",
+        "'d07c5ef2d03'",
+        "'candidates'",
+        "'fas_name'",
+        "'candidates'",
+        "'fas_name'"
+    ],
+    "variables": [
+        "revision",
+        "down_revision"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic."
+    ],
+    "docstrings": [
+        "\"\"\"Store fas_name locally\n\nRevision ID: 2b8f5a6f10a4\nRevises: d07c5ef2d03\nCreate Date: 2016-01-21 16:53:38.956503\n\n\"\"\"",
+        "\"\"\" Add the fas_name column to the candidates table. \"\"\"",
+        "\"\"\" Drop the fas_name column from the candidates table. \"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

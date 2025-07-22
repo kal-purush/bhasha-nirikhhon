@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "ApolloServer",
+        "gql",
+        "fetch",
+        "gql",
+        "_",
+        "fetch",
+        "name",
+        "r",
+        "r",
+        "response",
+        "response",
+        "subreddit",
+        "subreddit",
+        "subreddit",
+        "child",
+        "child",
+        "ApolloServer",
+        "server"
+    ],
+    "literals": [
+        "'apollo-server-micro'",
+        "'isomorphic-fetch'",
+        "string",
+        "string",
+        "string",
+        "type Query {\n    subreddit(name: String!): Subreddit\n  }\n\n  type Subreddit {\n    posts: [Post!]!\n  }\n\n  type Post {\n    id: String!\n    title: String!\n    author: String!\n    \"\"\"\n    The upvotes a post has received\n    \"\"\"\n    ups: Int!\n  }",
+        "https://www.reddit.com/r/${name}.json",
+        "'/api/graphql'"
+    ],
+    "variables": [
+        "typeDefs",
+        "resolvers",
+        "response",
+        "server",
+        "config"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

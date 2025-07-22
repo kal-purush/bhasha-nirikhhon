@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "logging",
+        "botocore",
+        "auth",
+        "HmacV1Auth",
+        "logging",
+        "getLogger",
+        "HmacV1Auth",
+        "credentials",
+        "expires",
+        "DEFAULT_EXPIRES",
+        "credentials",
+        "expires",
+        "_expires",
+        "string_to_sign",
+        "sign_string",
+        "string_to_sign",
+        "method",
+        "split",
+        "headers",
+        "expires",
+        "auth_path",
+        "credentials",
+        "token",
+        "credentials",
+        "token",
+        "canonical_string",
+        "method",
+        "split",
+        "headers",
+        "auth_path",
+        "auth_path",
+        "string_to_sign"
+    ],
+    "literals": [
+        "'x-amz-security-token'"
+    ],
+    "variables": [
+        "logger",
+        "DEFAULT_EXPIRES",
+        "credentials",
+        "_expires",
+        "headers",
+        "string_to_sign"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Generates a presigned request for s3.\n\n    Spec from this document:\n\n    http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html\n    #RESTAuthenticationQueryStringAuth\n\n    \"\"\""
+    ],
+    "functions": [
+        "_get_date",
+        "get_signature",
+        "get_string_to_sign"
+    ],
+    "classes": [
+        "HmacV1QueryAuth"
+    ]
+}

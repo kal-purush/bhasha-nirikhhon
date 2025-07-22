@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "NextRequest",
+        "updateSession",
+        "request",
+        "updateSession",
+        "request"
+    ],
+    "literals": [
+        "'next/server'",
+        "'@/utils/supabase/middleware'",
+        "'/((?!_next/static|_next/image|favicon.ico|.*\\\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)'"
+    ],
+    "variables": [
+        "config"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Match all request paths except for the ones starting with:\n         * - _next/static (static files)\n         * - _next/image (image optimization files)\n         * - favicon.ico (favicon file)\n         * Feel free to modify this pattern to include more paths."
+    ],
+    "functions": [
+        "middleware"
+    ],
+    "classes": []
+}

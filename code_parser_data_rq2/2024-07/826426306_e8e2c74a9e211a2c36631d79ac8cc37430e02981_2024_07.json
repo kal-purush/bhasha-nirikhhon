@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "require",
+        "checkNotAuth",
+        "req",
+        "res",
+        "next",
+        "req",
+        "token",
+        "jwt",
+        "token",
+        "err",
+        "decoded",
+        "err",
+        "next",
+        "res",
+        "next",
+        "checkNotAuth"
+    ],
+    "literals": [
+        "'jsonwebtoken'",
+        "'pninfosystytytt'",
+        "'/home'"
+    ],
+    "variables": [
+        "jwt",
+        "checkNotAuth"
+    ],
+    "comments": [
+        "Middleware to check if user is not authenticated",
+        "If there's an error, proceed to the login page",
+        "If the token is valid, redirect to the home page",
+        "If there's no token, proceed to the login page"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

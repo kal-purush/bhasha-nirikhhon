@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "annotations",
+        "logging",
+        "requests",
+        "logging",
+        "getLogger",
+        "url_path",
+        "requests",
+        "Response",
+        "url_path",
+        "url_path",
+        "startswith",
+        "url_path",
+        "API_URL",
+        "url_path",
+        "logger",
+        "info",
+        "full_url",
+        "requests",
+        "get",
+        "full_url",
+        "response"
+    ],
+    "literals": [
+        "\"https://swapi.dev/api\"",
+        "\"https://\"",
+        "f\"{self.API_URL}{url_path}\"",
+        "f\"SWAPI GET request {full_url=}, {params=}\""
+    ],
+    "variables": [
+        "logger",
+        "API_URL",
+        "full_url",
+        "full_url",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Call StarWars API. `url_path` should be with starting /.\"\"\""
+    ],
+    "functions": [
+        "get"
+    ],
+    "classes": [
+        "SWApi"
+    ]
+}

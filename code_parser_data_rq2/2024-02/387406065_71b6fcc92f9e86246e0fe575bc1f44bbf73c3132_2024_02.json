@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "IO",
+        "Hashing",
+        "Text",
+        "Xamarin",
+        "Android",
+        "Tasks",
+        "name",
+        "is64Bit",
+        "name",
+        "Length",
+        "UInt64",
+        "MaxValue",
+        "HashBytes",
+        "Encoding",
+        "Unicode",
+        "GetBytes",
+        "name",
+        "is64Bit",
+        "is64Bit",
+        "is64Bit",
+        "XxHash64",
+        "HashToUInt64",
+        "XxHash32",
+        "HashToUInt32"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Hash the given Java type name for use in java-to-managed typemap array.",
+        "</summary>",
+        "Native code (EmbeddedAssemblies::typemap_java_to_managed in embedded-assemblies.cc) will operate on wchar_t cast to a byte array, we need to do",
+        "the same"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "HashJavaName",
+        "HashBytes"
+    ],
+    "classes": [
+        "TypeMapHelper"
+    ]
+}

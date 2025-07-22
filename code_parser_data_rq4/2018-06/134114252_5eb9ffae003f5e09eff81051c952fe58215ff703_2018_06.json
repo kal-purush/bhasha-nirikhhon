@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "IGeneticsItem",
+        "IGenetics",
+        "ICoords",
+        "getDistanceBetweenR2Vectors",
+        "randomIntBetween",
+        "curGeneration",
+        "curGeneration",
+        "generation",
+        "generation",
+        "vector",
+        "targetVector",
+        "originVector",
+        "getDistanceBetweenR2Vectors",
+        "originVector",
+        "targetVector",
+        "getDistanceBetweenR2Vectors",
+        "vector",
+        "targetVector",
+        "_unitFromTarget",
+        "_originFromTarget",
+        "a",
+        "a",
+        "n1",
+        "n2",
+        "n1",
+        "n2",
+        "a",
+        "score",
+        "prob",
+        "score",
+        "sum",
+        "prob"
+    ],
+    "literals": [
+        "'./interfaces/i-genetics'",
+        "'./interfaces/i-coords'",
+        "'./utils'"
+    ],
+    "variables": [
+        "_originFromTarget",
+        "_unitFromTarget",
+        "sum",
+        "prob"
+    ],
+    "comments": [
+        "bumps the current generation to previous",
+        "and adds the new generation to current",
+        "TODO: confirm this math checks out",
+        "to be run every time a new population is generated",
+        "the goal being the highest probablity will go to",
+        "parents with the highest score all while still",
+        "allowing generations from lower scoring parents"
+    ],
+    "docstrings": [],
+    "functions": [
+        "cycleGeneration",
+        "getScore",
+        "getProbability"
+    ],
+    "classes": [
+        "Genetics"
+    ]
+}

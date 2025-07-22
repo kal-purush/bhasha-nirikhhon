@@ -1,0 +1,89 @@
+{
+    "identifiers": [
+        "web",
+        "web",
+        "header",
+        "web",
+        "input",
+        "myfile",
+        "x",
+        "x",
+        "myfile",
+        "filename",
+        "replace",
+        "filepath",
+        "split",
+        "open",
+        "filedir",
+        "filename",
+        "x",
+        "myfile",
+        "file",
+        "read",
+        "byte_string",
+        "byte_string",
+        "decode",
+        "strip",
+        "utf_string",
+        "fout",
+        "write",
+        "utf_string",
+        "fout",
+        "close",
+        "web",
+        "seeother",
+        "web",
+        "application",
+        "urls",
+        "globals",
+        "app",
+        "run"
+    ],
+    "literals": [
+        "'/upload'",
+        "'Upload'",
+        "\"Content-Type\"",
+        "\"text/html; charset=utf-8\"",
+        "'/Users/tnosov/Documents/tim/hack_the_north'",
+        "'myfile'",
+        "'\\\\'",
+        "'/'",
+        "'/'",
+        "'/'",
+        "'w'",
+        "'utf-8'",
+        "'—'",
+        "'/upload'",
+        "\"__main__\""
+    ],
+    "variables": [
+        "urls",
+        "x",
+        "filedir",
+        "filepath",
+        "filename",
+        "fout",
+        "byte_string",
+        "utf_string",
+        "app"
+    ],
+    "comments": [
+        "change this to the directory you want to store the file in.",
+        "to check if the file-object is created",
+        "replaces the windows-style slashes with linux ones.",
+        "splits the and chooses the last part (the filename with extension)",
+        "creates the file where the uploaded file should be stored",
+        "writes the uploaded file to the newly created file.",
+        "closes the file, upload complete."
+    ],
+    "docstrings": [
+        "\"\"\"<html><head></head><body>\n<form method=\"POST\" enctype=\"multipart/form-data\" action=\"\">\n<input type=\"file\" name=\"myfile\" />\n<br/>\n<input type=\"submit\" />\n</form>\n</body></html>\"\"\""
+    ],
+    "functions": [
+        "GET",
+        "POST"
+    ],
+    "classes": [
+        "Upload"
+    ]
+}

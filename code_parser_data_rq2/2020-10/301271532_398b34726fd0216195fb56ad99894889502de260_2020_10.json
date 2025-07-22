@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "escape",
+        "div",
+        "div",
+        "tweet",
+        "$",
+        "tweet",
+        "tweet",
+        "tweet",
+        "escape",
+        "tweet",
+        "tweet",
+        "$tweet",
+        "tweets",
+        "item",
+        "tweets",
+        "createTweetElement",
+        "item",
+        "$",
+        "result",
+        "$",
+        "res",
+        "$",
+        "renderTweets",
+        "res",
+        "message",
+        "$",
+        "$",
+        "$",
+        "message"
+    ],
+    "literals": [
+        "\"div\"",
+        "<article>\n    <header>\n      <div>\n        <p>\n          <img src=\"${tweet.user.avatars}\">\n          <span>${tweet.user.name}</span>\n        </p> \n        <span class=\"reveal\">${tweet.user.handle}</span> \n      </div>\n    </header>\n    <div class=\"user-tweet\">\n      <p>${escape(tweet.content.text)}</p>\n    </div>\n    <footer>\n      <div>\n        <p>${new Date(tweet.created_at).toLocaleString()}</p>\n        <p class=\"icons\">\n          <i class=\"fas fa-flag\"></i> \n          <i class=\"fas fa-retweet\"></i> \n          <i class=\"fas fa-heart\"></i>\n        </p>\n      </div>\n    </footer>\n  </article>",
+        "\".tweets\"",
+        "\"/tweets\"",
+        "\"GET\"",
+        "\".tweets\"",
+        "\"#error\"",
+        "\"#error\"",
+        "\"warning\"",
+        "\"#error\""
+    ],
+    "variables": [
+        "escape",
+        "div",
+        "createTweetElement",
+        "$tweet",
+        "renderTweets",
+        "result",
+        "loadTweets",
+        "showError"
+    ],
+    "comments": [
+        "Helps escape possible XSS attepmts"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

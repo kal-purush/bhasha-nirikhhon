@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "defineDocumentType",
+        "makeSource",
+        "titleFilter",
+        "props",
+        "props",
+        "defineDocumentType",
+        "post",
+        "titleFilter",
+        "post",
+        "post",
+        "titleFilter",
+        "post",
+        "makeSource",
+        "Post"
+    ],
+    "literals": [
+        "'contentlayer/source-files'",
+        "string",
+        "'+'",
+        "''",
+        "'Post'",
+        "'**/*.(md|mdx)'",
+        "'mdx'",
+        "'string'",
+        "'Title of the post'",
+        "'list'",
+        "'string'",
+        "'Tags of the post'",
+        "'string'",
+        "'Description of the post'",
+        "'date'",
+        "'Date of the post'",
+        "'string'",
+        "'serise of the post'",
+        "'string'",
+        "'string'",
+        "/posts/${titleFilter(post.title)}",
+        "'public/posts'"
+    ],
+    "variables": [
+        "titleFilter",
+        "Post"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

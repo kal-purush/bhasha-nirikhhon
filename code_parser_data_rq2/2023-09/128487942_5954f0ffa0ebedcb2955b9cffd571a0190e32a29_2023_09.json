@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "method",
+        "className",
+        "auth",
+        "className",
+        "auth",
+        "auth",
+        "method",
+        "method",
+        "method",
+        "Parse",
+        "Parse",
+        "error",
+        "classesWithMasterOnlyAccess",
+        "className",
+        "auth",
+        "auth",
+        "method",
+        "className",
+        "Parse",
+        "Parse",
+        "error",
+        "auth",
+        "method",
+        "method",
+        "method",
+        "method",
+        "Parse",
+        "Parse",
+        "error"
+    ],
+    "literals": [
+        "'_JobStatus'",
+        "'_PushStatus'",
+        "'_Hooks'",
+        "'_GlobalConfig'",
+        "'_JobSchedule'",
+        "'_Idempotency'",
+        "'_Installation'",
+        "'delete'",
+        "'find'",
+        "Clients aren't allowed to perform the ${method} operation on the installation collection.",
+        "Clients aren't allowed to perform the ${method} operation on the ${className} collection.",
+        "'delete'",
+        "'create'",
+        "'update'",
+        "read-only masterKey isn't allowed to perform the ${method} operation."
+    ],
+    "variables": [
+        "classesWithMasterOnlyAccess",
+        "error",
+        "error",
+        "error"
+    ],
+    "comments": [
+        "Disallowing access to the _Role collection except by master key",
+        "all volatileClasses are masterKey only",
+        "readOnly masterKey is not allowed"
+    ],
+    "docstrings": [],
+    "functions": [
+        "enforceRoleSecurity"
+    ],
+    "classes": []
+}

@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "VNode",
+        "VNodeDirective",
+        "CustomEvent",
+        "CustomEvent",
+        "el",
+        "binding",
+        "vnode",
+        "el",
+        "onmouseup",
+        "clearTimeout",
+        "parseInt",
+        "el",
+        "vnode",
+        "vnode",
+        "el",
+        "longPressStop",
+        "onmouseup",
+        "el",
+        "onmouseup",
+        "setTimeout",
+        "vnode",
+        "vnode",
+        "el",
+        "longPressStart",
+        "binding",
+        "el",
+        "timeout",
+        "el",
+        "onmousedown",
+        "el",
+        "clearTimeout",
+        "parseInt",
+        "el",
+        "el",
+        "el",
+        "directiveOption"
+    ],
+    "literals": [
+        "'vue/types/vnode'",
+        "string",
+        "'long-press-stop'",
+        "'long-press-start'",
+        "'long-press-stop'",
+        "'mouseup'",
+        "'mouseup'",
+        "'long-press-start'",
+        "'mousedown'",
+        "'mousedown'"
+    ],
+    "variables": [
+        "longPressStop",
+        "longPressStart",
+        "directiveOption",
+        "onmouseup",
+        "timeout"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* NOTE: since unbind usually involes removing the element\n   * just remove all mousedown listener on the element\n   *\n   * If you are using the mousedown event and unbinding this directive,\n   * your mousedown event may be removed"
+    ],
+    "functions": [
+        "bind",
+        "unbind"
+    ],
+    "classes": []
+}

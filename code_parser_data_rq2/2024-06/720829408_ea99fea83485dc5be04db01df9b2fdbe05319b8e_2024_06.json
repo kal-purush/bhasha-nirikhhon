@@ -1,0 +1,87 @@
+{
+    "identifiers": [
+        "gyp",
+        "xcode_emulation",
+        "XcodeSettings",
+        "sys",
+        "unittest",
+        "unittest",
+        "TestCase",
+        "sys",
+        "platform",
+        "skipTest",
+        "XcodeSettings",
+        "target",
+        "xcode_settings",
+        "GetCflags",
+        "configuration_name",
+        "assertEqual",
+        "cflags",
+        "path",
+        "path",
+        "XcodeSettings",
+        "target",
+        "xcode_settings",
+        "GetLdflags",
+        "configuration_name",
+        "GypToBuildPath",
+        "assertEqual",
+        "ldflags",
+        "unittest",
+        "main"
+    ],
+    "literals": [
+        "\"darwin\"",
+        "\"This test only runs on macOS\"",
+        "\"type\"",
+        "\"static_library\"",
+        "\"configurations\"",
+        "\"Release\"",
+        "\"Release\"",
+        "\"arm64\"",
+        "\"-fasm-blocks\"",
+        "\"-mpascal-strings\"",
+        "\"-Os\"",
+        "\"-gdwarf-2\"",
+        "\"-arch\"",
+        "\"arm64\"",
+        "\"type\"",
+        "\"static_library\"",
+        "\"configurations\"",
+        "\"Release\"",
+        "\"Release\"",
+        "\"PRODUCT_DIR\"",
+        "\"arm64\"",
+        "\"-arch\"",
+        "\"arm64\"",
+        "\"-LPRODUCT_DIR\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "target",
+        "configuration_name",
+        "xcode_settings",
+        "cflags",
+        "target",
+        "configuration_name",
+        "xcode_settings",
+        "ldflags"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "Do not quote `-arch arm64` with spaces in one string.",
+        "Do not quote `-arch arm64` with spaces in one string."
+    ],
+    "docstrings": [
+        "\"\"\"Unit tests for the xcode_emulation.py file.\"\"\""
+    ],
+    "functions": [
+        "setUp",
+        "test_GetCflags",
+        "GypToBuildPath",
+        "test_GetLdflags"
+    ],
+    "classes": [
+        "TestXcodeSettings"
+    ]
+}

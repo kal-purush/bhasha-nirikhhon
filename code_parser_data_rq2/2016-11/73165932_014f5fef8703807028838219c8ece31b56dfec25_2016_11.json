@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "m_fCurrentSum",
+        "m_currentPurchaseList",
+        "fInitValue",
+        "fInitValue",
+        "m_fCurrentSum",
+        "fInitValue",
+        "m_fCurrentSum",
+        "newPurchaseItem",
+        "m_currentPurchaseList",
+        "addPurchaseItem",
+        "newPurchaseItem",
+        "m_currentPurchaseList",
+        "getPurchaseListAsArray",
+        "m_currentPurchaseList",
+        "getPurchasedListSum",
+        "fPaidAmount",
+        "fPaidAmount",
+        "fPaidAmount",
+        "fChange",
+        "fCurrentPurchaseSum",
+        "m_currentPurchaseList",
+        "getPurchasedListSum",
+        "fChange",
+        "fPaidAmount",
+        "fCurrentPurchaseSum",
+        "m_fCurrentSum",
+        "fCurrentPurchaseSum",
+        "m_currentPurchaseList",
+        "clearPurchaseList",
+        "fChange"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "represent the sum of money currently stored in the cashier ( without the on going purchase)",
+        "represent the list of item for the current customer",
+        "default constructor",
+        "constructor with an initial sum of money in the cashier",
+        "retrieves the current sum of money in the cashier (without the on going purchase)",
+        "adds a new item to the current purchase list.",
+        "retrieves the current purchase list as an array of PurchaseItem",
+        "retrieves the current purchase sum",
+        "performs a payment process (the customer pays and the cashier sum is updated) if the paid amount is less then the current purchase list sum",
+        "then a negative change is return otherwise the change from the paid amount is returned"
+    ],
+    "docstrings": [
+        "* This class represent a cashier for a store, the class holds the current purchase list of a customer and the current sum of money stored in the cashier"
+    ],
+    "functions": [
+        "Cashier",
+        "Cashier",
+        "getCurrentCashierSum",
+        "addNewPurchaseItem",
+        "getPurchasedItemArray",
+        "getCurrentPurchaseSum",
+        "performPayment"
+    ],
+    "classes": [
+        "Cashier"
+    ]
+}

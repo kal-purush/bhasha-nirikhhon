@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "PIL",
+        "Image",
+        "numpy",
+        "np",
+        "imagePath",
+        "img_shape",
+        "isinstance",
+        "img_shape",
+        "len",
+        "img_shape",
+        "img_shape",
+        "img_shape",
+        "Image",
+        "open",
+        "imagePath",
+        "image",
+        "resize",
+        "h",
+        "w",
+        "resample",
+        "Image",
+        "BILINEAR",
+        "np",
+        "array",
+        "processed_img",
+        "astype",
+        "np",
+        "uint8",
+        "processed_img",
+        "transpose",
+        "processed_img",
+        "reshape",
+        "n",
+        "c",
+        "h",
+        "w",
+        "processed_img"
+    ],
+    "literals": [],
+    "variables": [
+        "n",
+        "c",
+        "h",
+        "w",
+        "image",
+        "processed_img",
+        "processed_img",
+        "processed_img",
+        "processed_img"
+    ],
+    "comments": [
+        "Model input format",
+        "Change data layout from HWC to CHW"
+    ],
+    "docstrings": [
+        "\"\"\"pre process an image from image path.\n    \n    Arguments:\n        imagePath {str} -- input image file path.\n        img_shape {tuple} -- Target height and width as a tuple.\n    \n    Returns:\n        np.array -- Preprocessed image.\n    \"\"\""
+    ],
+    "functions": [
+        "pre_process_image"
+    ],
+    "classes": []
+}

@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "React",
+        "styled",
+        "Section",
+        "wrapContext",
+        "wrapContext",
+        "styled",
+        "isMobile",
+        "isMobile",
+        "styled",
+        "Section"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"@emotion/styled\"",
+        "\"components/common\"",
+        "\"components/common\"",
+        "grid-row: 1/6;\n  grid-column: 1/2;\n  height: calc(4vw + 30px);\n  padding: ${({ isMobile }) =>\n    isMobile ? \"10px 0 10px 0\" : \" 10px 0 10px 20%\"};\n  justify-self: ${({ isMobile }) => (isMobile ? \"center\" : \"start\")};",
+        "\"10px 0 10px 0\"",
+        "\" 10px 0 10px 20%\"",
+        "\"center\"",
+        "\"start\"",
+        "position: relative;\n  background: white;"
+    ],
+    "variables": [
+        "Logo",
+        "HeaderSection"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

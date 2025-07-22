@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Component",
+        "Q1Component",
+        "Q2Component",
+        "Q3Component",
+        "Component",
+        "Q1Component",
+        "Q2Component",
+        "Q3Component",
+        "jsonData"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../q1/q1.component'",
+        "'../q2/q2.component'",
+        "'../q3/q3.component'",
+        "'app-chart-page'",
+        "'./chart-page.component.html'"
+    ],
+    "variables": [],
+    "comments": [
+        "La page servant juste à afficher les enfants, elle ne gère que leur import et chaque enfant importera le module de chart dont il a besoin",
+        "On cast le JSON en DataFromJson pour éviter les erreurs de type"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "ChartPageComponent"
+    ]
+}

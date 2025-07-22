@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'addVinylCovers1672066678831'",
+        "ALTER TABLE \\`vinyl\\` ADD \\`coverLarge\\` varchar(255) NULL",
+        "ALTER TABLE \\`vinyl\\` ADD \\`coverSmall\\` varchar(255) NULL",
+        "ALTER TABLE \\`vinyl\\` DROP COLUMN \\`coverSmall\\",
+        "ALTER TABLE \\`vinyl\\` DROP COLUMN \\`coverLarge\\"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "addVinylCovers1672066678831"
+    ]
+}

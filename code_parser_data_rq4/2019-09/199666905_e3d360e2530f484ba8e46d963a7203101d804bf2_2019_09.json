@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "cuspatial",
+        "_lib",
+        "spatial",
+        "cpp_point_in_polygon_bitmap",
+        "p1_lat",
+        "p1_lon",
+        "p2_lat",
+        "p2_lon",
+        "camera_latlon",
+        "lon_coords",
+        "lat_coords",
+        "x_points",
+        "y_points",
+        "polygon_ids",
+        "polygon_end_indices",
+        "polygons_x",
+        "polygons_y",
+        "cpp_point_in_polygon_bitmap",
+        "x_points",
+        "y_points",
+        "polygon_ids",
+        "polygon_end_indices",
+        "polygons_x",
+        "polygons_y"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "COPYRIGHT 2019 NVIDIA"
+    ],
+    "docstrings": [
+        "\"\"\" Compute the directed Hausdorff distances between any groupings\n    of polygons.\n\n    params\n    x: x coordinates\n    y: y coordinates\n    count: size of each polygon\n    \n    Parameters\n    ----------\n    {params}\n\n    returns\n    DataFrame: 'min', 'max' columns of Hausdorff distances for each polygon\n    \"\"\"",
+        "\"\"\" Compute the haversine distances between an arbitrary list of lat/lon\n    pairs\n\n    params\n    p1_lat: latitude of first set of coords\n    p1_lon: longitude of first set of coords\n    p2_lat: latitude of second set of coords\n    p2_lon: longitude of second set of coords\n    \n    Parameters\n    ----------\n    {params}\n\n    returns\n    Series: distance between all pairs of lat/lon coords\n    \"\"\"",
+        "\"\"\" Convert lonlat coordinates to km x,y coordinates based on some camera\n    origin.\n\n    params\n    camera_latlon: Series - latitude and longitude of camera\n    lon_coords: Series of longitude coords to convert to x\n    lat_coords: Series of latitude coords to convert to y\n    \n    Parameters\n    ----------\n    {params}\n\n    returns\n    DataFrame: 'x', 'y' columns for new km positions of coords\n    \"\"\"",
+        "\"\"\" Compute from a set of points and a set of polygons which points fall\n    within which polygons.\n\n    Parameters\n    ----------\n    {params}\n    \"\"\""
+    ],
+    "functions": [
+        "directed_hausdorff_distance",
+        "haversine_distance",
+        "lonlat_to_xy_km_coordinates",
+        "point_in_polygon_bitmap"
+    ],
+    "classes": []
+}

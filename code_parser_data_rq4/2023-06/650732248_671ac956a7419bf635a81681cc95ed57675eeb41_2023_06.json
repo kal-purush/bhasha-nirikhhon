@@ -1,0 +1,28 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Задача 1.",
+        "Напишите программу, которая принимает на вход число (А) и выдаёт сумму чисел от 1 до А.",
+        "Через Цыкл FOR",
+        "void FindSum1toA (int num_a)\n{\n    int sumofElem =0;\n    for (int current = 1; current <= num_a; current++)\n    {\n        sumofElem += current; // sumofElem = sumofelem + current\n        Console.Write(sumofElem + \"\");\n    }\n    Console.WriteLine($\"SUm of element from 1 to {num_a} is {sumofElem}\");\n}\nConsole.WriteLine(\"Input your number: \");\nint user_num = Convert.ToInt32(Console.ReadLine());\n\nif (user_num > 0)\n{\n    FindSum1toA(user_num);\n}\nelse\n{\n    Console.WriteLine(\"Imbossible value\");\n}",
+        "Через ЦЫКЛ  WHILE",
+        "void FindSumWhile(int user_num)\n{\n    int current = 0;\n    int temp = 1;\n    while(temp <= user_num)\n    {\n        current += temp;\n        temp++;\n    }\n     Console.WriteLine($\"SUm of element from 1 to {user_num} is {current}\");\n} \nConsole.WriteLine(\"Input your number: \");\nint user_num = Convert.ToInt32(Console.ReadLine());\n\nif (user_num > 0)\n{\n    FindSumWhile(user_num);\n}\nelse\n{\n    Console.WriteLine(\"Imbossible value\");\n}",
+        "Напишите программу, которая принимает на вход число и выдаёт количество цифр в числе.",
+        "456 -> 3",
+        "78 -> 2",
+        "89126 -> 5",
+        "int CountOfdigits(int num_user)\n{\n    int count = 0;\n    while (num_user > 0)\n    {\n        num_user /= 10; //num_user = num_user /10\n        count++;\n    }\n    return count;\n}\nConsole.WriteLine(\"Input your number \");\nint user_num = Convert.ToInt32(console.ReadLine());\n\nint count_res;\n\n\nif (user_num >= 0)\n    count = CountOfdigits(user_num);\nelse\n{\n    int user_num1 = (-1) * user_num;\n    count_res = CountOfdigits(user_num1);\n}\nConsole.WriteLine(count_res);",
+        "int FindMulty (int user_n)\n{\n    int multi = 1;\n    for (int count =1; user_n >= count; count++)\n    {\n        multi *=count;\n    }\n    return multi;\n}\n\nConsole.WriteLine(\"Input your number \");\nint user_num = Convert.ToInt32(console.ReadLine());\n\nint multy_res;\nif (user_n <= 0) \n    multy_res = 0;\nelse \n    multy_res = FindMulty(user_num);\nConsole.WriteLine(multy_res);",
+        "Напишите программу, которая выводит массив из 8 элементов,",
+        "заполненный нулями и единицами в случайном порядке.",
+        "[1,0,1,1,0,1,0,0]",
+        "int [] CreateNewArray (int size_array)\n{\n    int [] random1array = new int[size_array];\n}",
+        "Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и возводит число A в натуральную степень B.",
+        "//3, 5 -> 243 (3⁵)\n//2, 4 -> 16\n\nЗадача 27: Напишите программу, которая принимает на вход число и выдаёт сумму цифр в числе.\n452 -> 11\n82 -> 10\n9012 -> 12\n\nЗадача 29: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.\n1, 2, 5, 7, 19 -> [1, 2, 5, 7, 19]\n6, 1, 33 -> [6, 1, 33]"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

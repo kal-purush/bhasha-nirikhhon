@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "BaseSchema",
+        "BaseSchema",
+        "table",
+        "table",
+        "table",
+        "table"
+    ],
+    "literals": [
+        "\"@adonisjs/lucid/schema\"",
+        "\"blocks\"",
+        "\"is_root_block\"",
+        "CREATE UNIQUE INDEX unique_root_block_per_attribute ON ${this.tableName} (attribute_id) WHERE is_root_block = true;",
+        "\"is_root_block\"",
+        "\"DROp INDEX IF EXISTS unique_root_block_per_attribute\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": []
+}

@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Command",
+        "Executor",
+        "handleCommand",
+        "handleCommand",
+        "state",
+        "command",
+        "dispatch",
+        "command",
+        "command",
+        "dispatch",
+        "command"
+    ],
+    "literals": [
+        "'redux-executor'",
+        "'PARALLEL'",
+        "'PARALLEL'"
+    ],
+    "variables": [
+        "parallelCommandExecutor"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* ParallelCommand is a command that will execute all commands from payload in parallel.\n * As a payload of ParallelCommand is a list of commands, you can put there another\n * ParallelCommand or SequenceCommand and build nested tree of execution."
+    ],
+    "functions": [],
+    "classes": []
+}

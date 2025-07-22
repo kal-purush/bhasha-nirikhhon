@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Custom Type Definitions\n * When including 3rd party modules you also need to include the type definition for the module\n * if they don't provide one within the module. You can try to install it with typings\n\ntypings install node --save\n\n * If you can't find the type definition in the registry we can make an ambient definition in\n * this file for now. For example\n\ndeclare module \"my-module\" {\n  export function doesSomething(value: string): string;\n}\n\n *\n * If you're prototying and you will fix the types later you can also declare it as type any\n *\n\ndeclare var assert: any;\n\n *\n * If you're importing a module that uses Node.js modules which are CommonJS you need to import as\n *\n\nimport * as _ from 'lodash'\n\n * You can include your type definitions in this file until you create one for the typings registry\n * see https://github.com/typings/registry\n *"
+    ],
+    "functions": [],
+    "classes": []
+}

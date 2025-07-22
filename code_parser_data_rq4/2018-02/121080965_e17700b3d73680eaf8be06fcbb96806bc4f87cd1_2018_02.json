@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "requests",
+        "srv",
+        "item",
+        "srv",
+        "logging",
+        "debug",
+        "item",
+        "service",
+        "item",
+        "target",
+        "srv",
+        "logging",
+        "debug",
+        "item",
+        "addrs",
+        "item",
+        "addrs",
+        "requests",
+        "get",
+        "item",
+        "addrs",
+        "item",
+        "message",
+        "item",
+        "addrs",
+        "item",
+        "topic",
+        "item",
+        "addrs",
+        "item",
+        "addrs",
+        "item",
+        "addrs",
+        "srv",
+        "logging",
+        "debug",
+        "e",
+        "srv",
+        "logging",
+        "warning",
+        "e"
+    ],
+    "literals": [
+        "'Michael Brougham'",
+        "'Copyright 2018 Michael Brougham'",
+        "\"*** MODULE=%s: service=%s, target=%s\"",
+        "\"Sending to autoremote service\"",
+        "\"https://\"",
+        "\":\"",
+        "'https://autoremotejoaomgcd.appspot.com/sendmessage?key='",
+        "'&message='",
+        "'&target='",
+        "'&sender='",
+        "'&password='",
+        "'&ttl='",
+        "'&collapseKey='",
+        "\"Successfully sent to autoremote service\"",
+        "\"Failed to send message to autoremote service\""
+    ],
+    "variables": [
+        "__author__",
+        "__copyright__",
+        "__license__",
+        "url"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "-*- coding: utf-8 -*-",
+        "import json"
+    ],
+    "docstrings": [
+        "'''\n__author__    = 'Bram Hendrickx'\n__copyright__ = 'Copyright 2016 Bram Hendrickx'\n__license__   = \"\"\"Eclipse Public License - v 1.0 (http://www.eclipse.org/legal/epl-v10.html)\"\"\"\n\nOriginal script by Bram Hendrickx. https://github.com/jpmens/mqttwarn/blob/master/services/ifttt.py\nModified to work with the autoremote api https://joaoapps.com/autoremote/\n\n'''",
+        "\"\"\"Eclipse Public License - v 1.0 (http://www.eclipse.org/legal/epl-v10.html)\"\"\"",
+        "''' expects (apikey, password, target, group, ttl) in addrs '''"
+    ],
+    "functions": [
+        "plugin"
+    ],
+    "classes": []
+}

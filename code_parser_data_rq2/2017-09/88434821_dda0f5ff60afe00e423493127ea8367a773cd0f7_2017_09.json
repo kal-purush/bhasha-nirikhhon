@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "org",
+        "rocksdb",
+        "java",
+        "util",
+        "concurrent",
+        "atomic",
+        "AtomicBoolean",
+        "owningHandle_",
+        "owningHandle",
+        "owningHandle_",
+        "owningHandle",
+        "Override",
+        "owningHandle_",
+        "get",
+        "owningHandle_",
+        "Override",
+        "owningHandle_",
+        "compareAndSet",
+        "disposeInternal"
+    ],
+    "literals": [],
+    "variables": [
+        "owningHandle_"
+    ],
+    "comments": [
+        "Copyright (c) 2016, Facebook, Inc.  All rights reserved.",
+        "This source code is licensed under the BSD-style license found in the",
+        "LICENSE file in the root directory of this source tree. An additional grant",
+        "of patent rights can be found in the PATENTS file in the same directory."
+    ],
+    "docstrings": [
+        "* Offers functionality for implementations of\n * {@link AbstractNativeReference} which have an immutable reference to the\n * underlying native C++ object",
+        "* A flag indicating whether the current {@code AbstractNativeReference} is\n   * responsible to free the underlying C++ object",
+        "* Releases this {@code AbstractNativeReference} from  the responsibility of\n   * freeing the underlying native C++ object\n   * <p>\n   * This will prevent the object from attempting to delete the underlying\n   * native object in its finalizer. This must be used when another object\n   * takes over ownership of the native object or both will attempt to delete\n   * the underlying object when garbage collected.\n   * <p>\n   * When {@code disOwnNativeHandle()} is called, {@code dispose()} will\n   * subsequently take no action. As a result, incorrect use of this function\n   * may cause a memory leak.\n   * </p>\n   *\n   * @see #dispose()",
+        "* The helper function of {@link AbstractImmutableNativeReference#dispose()}\n   * which all subclasses of {@code AbstractImmutableNativeReference} must\n   * implement to release their underlying native C++ objects."
+    ],
+    "functions": [
+        "AbstractImmutableNativeReference",
+        "isOwningHandle",
+        "disOwnNativeHandle",
+        "close",
+        "disposeInternal"
+    ],
+    "classes": [
+        "AbstractImmutableNativeReference"
+    ]
+}

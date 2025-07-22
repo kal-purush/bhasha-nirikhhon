@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "ucsp",
+        "is2",
+        "model",
+        "java",
+        "util",
+        "java",
+        "io",
+        "File",
+        "javazoom",
+        "jlgui",
+        "basicplayer",
+        "BasicPlayer",
+        "javax",
+        "persistence",
+        "Entity",
+        "Entity",
+        "Reproductor",
+        "player",
+        "player",
+        "y",
+        "player",
+        "play",
+        "ruta",
+        "player",
+        "open",
+        "ruta",
+        "player",
+        "pause",
+        "player",
+        "resume",
+        "player",
+        "stop",
+        "reproducemp3",
+        "mi_reproductor",
+        "mi_reproductor",
+        "AbrirFichero",
+        "Users",
+        "luis",
+        "Desktop",
+        "Musica"
+    ],
+    "literals": [
+        "\"/Users/luis/Desktop/Musica”);\n            mi_reproductor.Play();\n        } catch (Exception ex) {\n            System.out.println(\"",
+        "\" + ex.getMessage());\n        }\n    }\n\n    private int searchSong(String[] findSong, String songSearch) {\n       int result = -1;\n       int cant = 0;\n       for(String songFounded : findSong){\n           if(findSong[cant].equals(songSearch)){\n               result = cant;\n           }\n           cant++;\n       }\n       return result;\n    } \n\n    public static void main(String args[]) throws Exception{\n     Reproductor y = new Reproductor();\n     y.AbrirFichero(\""
+    ],
+    "variables": [
+        "player"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "Reproductor",
+        "funciones",
+        "Play",
+        "AbrirFichero",
+        "Pausa",
+        "Continuar",
+        "Stop"
+    ],
+    "classes": []
+}

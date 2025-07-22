@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "time",
+        "time",
+        "date",
+        "date",
+        "parseDate",
+        "parseDate",
+        "parseDate",
+        "parseDate",
+        "parseTime",
+        "parseTime",
+        "parseTime",
+        "parseTime",
+        "Time",
+        "currentTime",
+        "currentTime",
+        "currentTime",
+        "currentTime",
+        "currentTime",
+        "currentTime",
+        "currentTime",
+        "currentTime"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\".\"",
+        "\":\"",
+        "string",
+        "${+currentTime.year - +this.year} 년 전",
+        "${+currentTime.month - +this.month} 달 전",
+        "${+currentTime.hour - +this.hour} 시간 전",
+        "${+currentTime.minuate - +this.minuate} 분 전",
+        "\"지금\""
+    ],
+    "variables": [
+        "date",
+        "parseDate",
+        "parseTime",
+        "currentTime"
+    ],
+    "comments": [
+        "!\n * @author yochoi\n * @brief 시간을 파싱하고, 상대시간 (e.g. 15분전 )도 계산해주는 미친 클래스\n * @details\n *          1. const date = new Time(\"2021-07-31T05:41:48.342Z\");\n *              -> 시간 형식은 Date 객체가 허용하는 한 사용 가능함\n *          2. console.log(date.month)\n *              -> 출력 예상: 7\n *          3. console.log(date.getRelativeTime())\n *              -> 출력 예상: 3 달 전 (사용 시점에 따라 달라짐)\n * @warings\n *          getRelativeTime 메소드는 Time 클래스를 선언할 때 사용한 시간이 과거여만 함\n *          미래의 시간을 넣을 시 Undefined Behavior",
+        "!\n     * @author yochoi\n     * @brief parsing date",
+        "!\n     * @author yochoi\n     * @brief parsing time"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getRelativeTime"
+    ],
+    "classes": [
+        "Time"
+    ]
+}

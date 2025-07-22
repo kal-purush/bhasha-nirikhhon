@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "org",
+        "commcare",
+        "cases",
+        "query",
+        "key",
+        "value",
+        "key",
+        "value",
+        "key",
+        "key",
+        "value",
+        "value",
+        "key"
+    ],
+    "literals": [],
+    "variables": [
+        "key",
+        "value"
+    ],
+    "comments": [],
+    "docstrings": [
+        "*\n * A negative indexed value lookup is a singular key/value comparison where the key being checked is\n * indexed by the current platform\n *\n * IE:\n *\n * index != 'a'\n *\n * Created by cellowitz on 11/23/2020."
+    ],
+    "functions": [
+        "NegativeIndexedValueLookup",
+        "getKey"
+    ],
+    "classes": [
+        "NegativeIndexedValueLookup"
+    ]
+}

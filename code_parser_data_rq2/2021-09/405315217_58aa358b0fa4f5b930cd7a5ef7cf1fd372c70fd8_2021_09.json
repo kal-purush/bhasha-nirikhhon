@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "process",
+        "endpoint",
+        "method",
+        "data",
+        "apiKey",
+        "method",
+        "method",
+        "config",
+        "data",
+        "API_URL",
+        "endpoint",
+        "apiKey",
+        "fetch",
+        "url",
+        "config",
+        "response",
+        "response",
+        "endpoint",
+        "request",
+        "endpoint",
+        "endpoint",
+        "data",
+        "request",
+        "endpoint",
+        "data",
+        "endpoint",
+        "data",
+        "request",
+        "endpoint",
+        "data",
+        "endpoint",
+        "request",
+        "endpoint",
+        "_delete"
+    ],
+    "literals": [
+        "'https://api.airtable.com/v0/appBFUZ0hSOmXC476'",
+        "'GET'",
+        "'Content-type'",
+        "'aplication/json'",
+        "'Authorization'",
+        "Bearer ${apiKey}",
+        "'Post'",
+        "'PATCH'",
+        "${API_URL}${endpoint}?api_key=${apiKey}",
+        "'POST'",
+        "'PATCH'",
+        "'DELETE'"
+    ],
+    "variables": [
+        "API_URL",
+        "apiKey",
+        "config",
+        "url"
+    ],
+    "comments": [
+        "response status"
+    ],
+    "docstrings": [],
+    "functions": [
+        "request",
+        "get",
+        "post",
+        "patch",
+        "_delete"
+    ],
+    "classes": []
+}

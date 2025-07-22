@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "username",
+        "fetch",
+        "username",
+        "res",
+        "res",
+        "i",
+        "fetch",
+        "username",
+        "i",
+        "repositories",
+        "repo",
+        "totalStars",
+        "repo",
+        "totalStars",
+        "starCounter"
+    ],
+    "literals": [
+        "string",
+        "https://api.github.com/users/${username}",
+        "'no public repositories'",
+        "https://api.github.com/users/${username}/repos?per_page=100&page=${i + 1}"
+    ],
+    "variables": [
+        "res",
+        "totalStars",
+        "pages",
+        "i",
+        "pages",
+        "repositories"
+    ],
+    "comments": [
+        "Inspired by: https://gist.github.com/yyx990803/7745157"
+    ],
+    "docstrings": [],
+    "functions": [
+        "starCounter"
+    ],
+    "classes": []
+}

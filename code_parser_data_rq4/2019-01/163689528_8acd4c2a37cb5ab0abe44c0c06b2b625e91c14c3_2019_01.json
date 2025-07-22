@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "array",
+        "array",
+        "currentIndex",
+        "randomIndex",
+        "currentIndex",
+        "currentIndex",
+        "temporaryValue",
+        "array",
+        "currentIndex",
+        "array",
+        "currentIndex",
+        "array",
+        "randomIndex",
+        "array",
+        "randomIndex",
+        "temporaryValue",
+        "array"
+    ],
+    "literals": [],
+    "variables": [
+        "currentIndex",
+        "temporaryValue",
+        "randomIndex"
+    ],
+    "comments": [
+        "Shuffle function from http://stackoverflow.com/a/2450976"
+    ],
+    "docstrings": [
+        "* Create a list that holds all of your cards",
+        "* Display the cards on the page\n *   - shuffle the list of cards using the provided \"shuffle\" method below\n *   - loop through each card and create its HTML\n *   - add each card's HTML to the page",
+        "* set up the event listener for a card. If a card is clicked:\n *  - display the card's symbol (put this functionality in another function that you call from this one)\n *  - add the card to a *list* of \"open\" cards (put this functionality in another function that you call from this one)\n *  - if the list already has another card, check to see if the two cards match\n *    + if the cards do match, lock the cards in the open position (put this functionality in another function that you call from this one)\n *    + if the cards do not match, remove the cards from the list and hide the card's symbol (put this functionality in another function that you call from this one)\n *    + increment the move counter and display it on the page (put this functionality in another function that you call from this one)\n *    + if all cards have matched, display a message with the final score (put this functionality in another function that you call from this one)"
+    ],
+    "functions": [
+        "shuffle"
+    ],
+    "classes": []
+}

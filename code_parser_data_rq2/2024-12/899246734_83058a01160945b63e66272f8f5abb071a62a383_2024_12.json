@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpClient",
+        "HttpHeaders",
+        "Observable",
+        "throwError",
+        "catchError",
+        "Injectable",
+        "http",
+        "localStorage",
+        "localStorage",
+        "HttpHeaders",
+        "token",
+        "token",
+        "username",
+        "username",
+        "catchError",
+        "error",
+        "error",
+        "throwError"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common/http'",
+        "'rxjs'",
+        "'rxjs/operators'",
+        "'root'",
+        "'https://buddy-board-infosys-internship-oct2024.onrender.com/api/user'",
+        "string",
+        "'undefined'",
+        "'token'",
+        "'Content-Type'",
+        "'application/json'",
+        "Bearer ${token}",
+        "''",
+        "string",
+        "${this.apiUrl}/${username}",
+        "'Error fetching user profile:'",
+        "'Failed to fetch user profile data. Please try again.'"
+    ],
+    "variables": [
+        "token",
+        "headers"
+    ],
+    "comments": [
+        "Replace with the actual user API endpoint"
+    ],
+    "docstrings": [
+        "* Retrieves the auth token from localStorage.\n   * @returns The stored token or null if not found.",
+        "* Helper method to construct authorization headers.\n   * @returns An instance of HttpHeaders with the Authorization header if a token is present.",
+        "* Fetches user profile data from the server based on the username.\n   * @param username The username of the profile to fetch.\n   * @returns Observable containing user data or an error if the request fails."
+    ],
+    "functions": [
+        "getAuthToken",
+        "createAuthHeaders",
+        "getUserProfile"
+    ],
+    "classes": [
+        "UserProfileService"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "DOMTemplate",
+        "DOMTemplate",
+        "img",
+        "img",
+        "img",
+        "BackDrop",
+        "BackDrop",
+        "BackDrop",
+        "img",
+        "BackDrop",
+        "isFuzzy",
+        "isFuzzy",
+        "BackDrop",
+        "imgLocation"
+    ],
+    "literals": [
+        "\"./base-component\"",
+        "string",
+        "\"\"",
+        "string",
+        "\"backdrop-fuzzy\"",
+        "\"backdrop-clean\"",
+        "string",
+        "\"backdrop\"",
+        "url(${this.backImg})",
+        "string",
+        "${this._baseClass} ${this.class}",
+        "\"../../assets/images/background.jpg\""
+    ],
+    "variables": [
+        "imgLocation",
+        "backDropInstance"
+    ],
+    "comments": [
+        "single singleton",
+        "console.log(this.element);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getInstance",
+        "triggerFuzzy",
+        "setElementClass"
+    ],
+    "classes": [
+        "BackDrop"
+    ]
+}

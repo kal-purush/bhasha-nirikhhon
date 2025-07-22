@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "talon",
+        "speech_system",
+        "actions",
+        "split",
+        "d",
+        "len",
+        "cancel_phrase",
+        "d",
+        "n",
+        "d",
+        "n",
+        "after",
+        "cancel_phrase",
+        "d",
+        "actions",
+        "app",
+        "notify",
+        "join",
+        "before",
+        "speech_system",
+        "register",
+        "pre_phrase"
+    ],
+    "literals": [
+        "\"cancel cancel\"",
+        "\"text\"",
+        "'text'",
+        "\"parsed\"",
+        "f\"Command canceled: {' '.join(before)!r}\"",
+        "' '",
+        "\"pre:phrase\""
+    ],
+    "variables": [
+        "cancel_phrase",
+        "n",
+        "before",
+        "after",
+        "_sequence"
+    ],
+    "comments": [
+        "to disable command cancellation, comment out this entire file.",
+        "you may also wish to adjust the commands in misc/cancel.talon.",
+        "To change the phrase used to cancel commands, you must also adjust misc/cancel.talon",
+        "cancel the command"
+    ],
+    "docstrings": [],
+    "functions": [
+        "pre_phrase"
+    ],
+    "classes": []
+}

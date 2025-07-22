@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "$",
+        "loadProfile",
+        "callback",
+        "localStorage",
+        "localStorage",
+        "localStorage",
+        "profileName",
+        "profileReAuthEmail",
+        "profileImgSrc",
+        "callback",
+        "profileImgSrc",
+        "profileName",
+        "profileReAuthEmail",
+        "supportsHTML5Storage",
+        "getLocalProfile",
+        "profileImgSrc",
+        "profileName",
+        "profileReAuthEmail",
+        "$",
+        "profileImgSrc",
+        "$",
+        "profileName",
+        "$",
+        "profileReAuthEmail",
+        "$",
+        "$",
+        "e",
+        "supportsHTML5Storage",
+        "localStorage",
+        "localStorage",
+        "localStorage"
+    ],
+    "literals": [
+        "\"PROFILE_IMG_SRC\"",
+        "\"PROFILE_NAME\"",
+        "\"PROFILE_REAUTH_EMAIL\"",
+        "\"#profile-img\"",
+        "\"src\"",
+        "\"#profile-name\"",
+        "\"#reauth-email\"",
+        "\"#inputEmail\"",
+        "\"#remember\"",
+        "'localStorage'",
+        "'localStorage'",
+        "\"PROFILE_IMG_SRC\"",
+        "\"//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120\"",
+        "\"PROFILE_NAME\"",
+        "\"C�sar Izquierdo Tello\"",
+        "\"PROFILE_REAUTH_EMAIL\"",
+        "\"oneaccount@gmail.com\""
+    ],
+    "variables": [
+        "profileImgSrc",
+        "profileName",
+        "profileReAuthEmail"
+    ],
+    "comments": [
+        "DOM ready",
+        "Test data",
+        "testLocalStorageData();",
+        "Load profile if it exits",
+        "we have to provide to the callback the basic",
+        "information to set the profile",
+        "changes in the UI"
+    ],
+    "docstrings": [
+        "* To test the script you should discomment the function\n     * testLocalStorageData and refresh the page. The function\n     * will load some test data and the loadProfile\n     * will do the changes in the UI",
+        "* Function that gets the data of the profile in case\n * thar it has already saved in localstorage. Only the\n * UI will be update in case that all data is available\n *\n * A not existing key in localstorage return null\n *",
+        "* Main function that load the profile if exists\n * in localstorage",
+        "* function that checks if the browser supports HTML5\n * local storage\n *\n * @returns {boolean}",
+        "* Test data. This data will be safe by the web app\n * in the first successful login of a auth user.\n * To Test the scripts, delete the localstorage data\n * and comment this call.\n *\n * @returns {boolean}",
+        "*"
+    ],
+    "functions": [
+        "getLocalProfile",
+        "loadProfile",
+        "supportsHTML5Storage",
+        "testLocalStorageData"
+    ],
+    "classes": []
+}

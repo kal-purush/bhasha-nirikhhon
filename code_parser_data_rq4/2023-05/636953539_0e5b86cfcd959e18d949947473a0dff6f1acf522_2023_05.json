@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "sonido",
+        "vuelto",
+        "m",
+        "cualProducto",
+        "exp",
+        "p",
+        "m1",
+        "p",
+        "exp",
+        "comprarProducto",
+        "m",
+        "cualProducto",
+        "sonido",
+        "p",
+        "consumir",
+        "m1",
+        "exp",
+        "getVuelto",
+        "vuelto",
+        "vuelto",
+        "m1",
+        "getValor",
+        "vuelto",
+        "sonido"
+    ],
+    "literals": [],
+    "variables": [
+        "m1"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Comprador utiliza el expendedor, entregando una moneda, eligiendo producto, quizas monedas como vuelto e indica que consumio",
+        "*\n     * @param m Es la moneda que se recibe como medio de pago\n     * @param cualProducto Es el producto que se intentara comprar al expendedor\n     * @param exp Es el expendedor elegido para comprar productos\n     * @throws PagoIncorrectoException Si la moneda es null, entrega el mensaje de error\n     * @throws NoHayProductoException Si no quedan productos del tipo que se pide en el almacen correspondiente, entrega este mensaje de error\n     * @throws PagoInsuficienteException Si la moneda es de valor inferior al precio del producto, se entrega este mensaje de error",
+        "* @return retorna la cantidad total del vuelto que se recibe, si es que es el caso",
+        "* @return Retorna un string indicando el nombre del producto que consumio"
+    ],
+    "functions": [
+        "Comprador",
+        "cuantoVuelto",
+        "queConsumio"
+    ],
+    "classes": [
+        "Comprador"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "Setting",
+        "CDNService",
+        "ModalComponent",
+        "Component",
+        "vuejs",
+        "require",
+        "Component",
+        "require",
+        "Vue",
+        "url",
+        "CDNService",
+        "url",
+        "ModalComponent",
+        "c",
+        "c",
+        "index",
+        "obj",
+        "obj",
+        "obj",
+        "obj"
+    ],
+    "literals": [
+        "'use strict'",
+        "\"../../services/settingService.ts\"",
+        "\"../../services/cdnService.ts\"",
+        "\"../modal/modalComponent.ts\"",
+        "\"vue-class-component\"",
+        "\"vue\"",
+        "\"./settingView.html\"",
+        "\"assets/storeImages/layout/g-background_generic.jpg\"",
+        "\"select-champion\""
+    ],
+    "variables": [
+        "Vue"
+    ],
+    "comments": [
+        "<reference path=\"../../_app.ts\" />",
+        "This field here is not actually used by anything.",
+        "However, having it here and binding it to our setting property",
+        "will somehow teach Vue that it needs to observe our setting.",
+        "If this is removed, Vue will not observe when the property value",
+        "changes, and as such will not update the view.",
+        "Read the above note about this property.",
+        "TODO",
+        "Notify the server of this change.",
+        "Because we change the contents of the value",
+        "not the actual value reference itself,",
+        "the custom setter will not pick it up automatically.",
+        "We do it manually here."
+    ],
+    "docstrings": [],
+    "functions": [
+        "data",
+        "getOrNone",
+        "openChampionPicker",
+        "openSpellPicker",
+        "toggleMembership"
+    ],
+    "classes": [
+        "SettingComponent"
+    ]
+}

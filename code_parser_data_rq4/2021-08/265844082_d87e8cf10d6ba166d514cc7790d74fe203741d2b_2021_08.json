@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "com",
+        "iluwatar",
+        "fanout",
+        "fanin",
+        "java",
+        "util",
+        "Arrays",
+        "java",
+        "util",
+        "java",
+        "util",
+        "stream",
+        "Collectors",
+        "lombok",
+        "slf4j",
+        "Slf4j",
+        "Slf4j",
+        "args",
+        "numbers",
+        "Arrays",
+        "asList",
+        "LOGGER",
+        "info",
+        "numbers",
+        "requests",
+        "numbers",
+        "stream",
+        "SquareNumberRequest",
+        "collect",
+        "Collectors",
+        "toList",
+        "consumer",
+        "sumOfSquaredNumbers",
+        "FanOutFanIn",
+        "fanOutFanIn",
+        "requests",
+        "consumer",
+        "LOGGER",
+        "info",
+        "sumOfSquaredNumbers"
+    ],
+    "literals": [
+        "\"Numbers to be squared and get sum --> {}\"",
+        "\"Sum of all squared numbers --> {}\""
+    ],
+    "variables": [],
+    "comments": [
+        "Pass the request and the consumer to fanOutFanIn or sometimes referred as Orchestrator",
+        "function"
+    ],
+    "docstrings": [
+        "* The MIT License\n * Copyright © 2014-2021 Ilkka Seppälä\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy\n * of this software and associated documentation files (the \"Software\"), to deal\n * in the Software without restriction, including without limitation the rights\n * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\n * copies of the Software, and to permit persons to whom the Software is\n * furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included in\n * all copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\n * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\n * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\n * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\n * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN\n * THE SOFTWARE.",
+        "* FanOut/FanIn pattern is a concurrency pattern that refers to executing multiple instances of the\n * activity function concurrently. The \"fan out\" part is essentially splitting the data into\n * multiple chunks and then calling the activity function multiple times, passing the chunks.\n *\n * <p>When each chunk has been processed, the \"fan in\" takes place that aggregates results from each\n * instance of function and forms a single final result.\n *\n * <p>This pattern is only really useful if you can “chunk” the workload in a meaningful way for\n * splitting up to be processed in parallel.",
+        "* Entry point.\n   *\n   * <p>Implementation provided has a list of numbers that has to be squared and added. The list can\n   * be chunked in any way and the \"activity function\" {@link\n   * SquareNumberRequest#delayedSquaring(Consumer)} i.e. squaring the number ca be done\n   * concurrently. The \"fan in\" part is handled by the {@link Consumer} that takes in the result\n   * from each instance of activity and aggregates it whenever that particular activity function\n   * gets over."
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "App"
+    ]
+}

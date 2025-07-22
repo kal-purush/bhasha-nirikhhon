@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "Blockly",
+        "Blockly",
+        "Blockly",
+        "Blockly",
+        "block",
+        "usedBlocks",
+        "block",
+        "block",
+        "varModel",
+        "varsUsed",
+        "varModel",
+        "name",
+        "varName",
+        "name",
+        "block",
+        "block",
+        "varDefinitionBlocks",
+        "varName",
+        "varDefinitionBlocks",
+        "varName",
+        "varDefinitionBlocks",
+        "varName",
+        "block",
+        "usedVars",
+        "varName",
+        "Blockly",
+        "varDefinitionBlocks",
+        "usedVars",
+        "varName",
+        "passingVarDefinitions",
+        "varName",
+        "definitionBlocks",
+        "passingVarDefinitions",
+        "count"
+    ],
+    "literals": [
+        "\"blockly\"",
+        "string",
+        "string",
+        "string",
+        "\"variables_set\"",
+        "\"variables_change\"",
+        "string"
+    ],
+    "variables": [
+        "varDefinitionBlocks",
+        "usedVars",
+        "varsUsed",
+        "varName",
+        "passingVarDefinitions",
+        "varName",
+        "definitionBlocks"
+    ],
+    "comments": [
+        "<reference path=\"../../localtypings/pxtpackage.d.ts\" />",
+        "Validates that variables are created and used within the workspace.",
+        "Name is optional. If undefined or empty, all variable names are permitted.",
+        "Returns the definition blocks for variables that passed the check.",
+        "Variable created",
+        "Variable used",
+        "Var passes check if it is both used and defined.",
+        "We return the definition blocks to allow for recursively checking how the var was set."
+    ],
+    "docstrings": [],
+    "functions": [
+        "validateVariableUsage"
+    ],
+    "classes": []
+}

@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Injectable",
+        "FirebaseInfraService",
+        "User",
+        "Injectable",
+        "firebaseInfraService",
+        "a",
+        "a",
+        "email",
+        "resolve",
+        "reject",
+        "resolve",
+        "e",
+        "e",
+        "email"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'./firebase-infra.service'",
+        "'./user'",
+        "'root'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "updating the users local array by subscribe the users observable array."
+    ],
+    "docstrings": [
+        "* for handling the promise returned, use \"promise.then((data) =>{'data' hold the wanted user...})\"\n   * for catching error use \"promise.then().catch(e){...handling error...}\"\n   * @param email of user.\n   * @returns Promise object"
+    ],
+    "functions": [
+        "updateUsersArray",
+        "getUserByEmail"
+    ],
+    "classes": [
+        "UserInfaService"
+    ]
+}

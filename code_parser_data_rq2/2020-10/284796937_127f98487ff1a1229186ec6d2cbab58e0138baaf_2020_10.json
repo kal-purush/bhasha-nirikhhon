@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "MMALSharp",
+        "Common",
+        "Utility",
+        "MMALSharp",
+        "Components",
+        "MMALSharp",
+        "Ports",
+        "Outputs",
+        "OutputPort",
+        "_resolution",
+        "_resolution",
+        "Resolution",
+        "value",
+        "Width",
+        "value",
+        "Height",
+        "IntPtr",
+        "ptr",
+        "IComponent",
+        "comp",
+        "Guid",
+        "guid",
+        "ptr",
+        "comp",
+        "guid",
+        "IPort",
+        "copyFrom",
+        "IntPtr",
+        "copyFrom",
+        "Ptr",
+        "copyFrom",
+        "ComponentReference",
+        "copyFrom",
+        "Guid"
+    ],
+    "literals": [],
+    "variables": [
+        "Resolution",
+        "_resolution",
+        "Resolution",
+        "Resolution"
+    ],
+    "comments": [
+        "<copyright file=\"SplitterOutputPort.cs\" company=\"Techyian\">",
+        "Copyright (c) Ian Auty and contributors. All rights reserved.",
+        "Licensed under the MIT License. Please see LICENSE.txt for License info.",
+        "</copyright>",
+        "Represents a splitter component output port.",
+        "</summary>",
+        "<inheritdoc />",
+        "The splitter component doesn't support resolution changes. This override has been",
+        "added in case the user wants to use the splitter component with the Image Processing",
+        "library and will use this property to inform what resolution it's running at. Applied",
+        "via port config.",
+        "Creates a new instance of <see cref=\"SplitterOutputPort\"/>.",
+        "</summary>",
+        "<param name=\"ptr\">The native pointer.</param>",
+        "<param name=\"comp\">The component this port is associated with.</param>",
+        "<param name=\"guid\">Managed unique identifier for this port.</param>",
+        "Creates a new instance of <see cref=\"SplitterOutputPort\"/>.",
+        "</summary>",
+        "<param name=\"copyFrom\">The port to copy data from.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "SplitterOutputPort",
+        "SplitterOutputPort"
+    ],
+    "classes": [
+        "SplitterOutputPort"
+    ]
+}

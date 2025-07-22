@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "org",
+        "openshift",
+        "activemq",
+        "discoveryagent",
+        "PeerAddressResolver"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*  Copyright 2015 Red Hat, Inc.\n *\n *  Red Hat licenses this file to you under the Apache License, version\n *  2.0 (the \"License\"); you may not use this file except in compliance\n *  with the License.  You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n *  Unless required by applicable law or agreed to in writing, software\n *  distributed under the License is distributed on an \"AS IS\" BASIS,\n *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or\n *  implied.  See the License for the specific language governing\n *  permissions and limitations under the License.",
+        "* PeerAddressResolver\n * <p/>\n * Interface which provides a list of IP addresses corresponding to peers in a\n * mesh.",
+        "* @return the name of the service providing an openwire (tcp) transport",
+        "* @return a list of IPs corresponding to the available peers in a mesh.",
+        "* @return the port for the transport associated with the mesh"
+    ],
+    "functions": [
+        "getServiceName",
+        "getPeerIPs",
+        "getServicePort"
+    ],
+    "classes": []
+}

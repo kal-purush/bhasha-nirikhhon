@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "GameObject",
+        "Collider",
+        "other",
+        "other",
+        "attachedRigidbody",
+        "velocity",
+        "y",
+        "GameManagerPractice",
+        "score",
+        "Random",
+        "Range",
+        "Zones",
+        "Length",
+        "Player",
+        "transform",
+        "position",
+        "Zones",
+        "zoneIndex",
+        "transform",
+        "position",
+        "Debug",
+        "Log"
+    ],
+    "literals": [
+        "\"hello dubdubdubd\"",
+        "\"detector\""
+    ],
+    "variables": [
+        "GameObject",
+        "Player",
+        "Zones",
+        "ScoreManagerPractice",
+        "scoreManager",
+        "Camera",
+        "camera",
+        "varabar",
+        "zoneIndex"
+    ],
+    "comments": [
+        "public Transform Teleport;",
+        "public Transform[] teleportZone;",
+        "var teleportZone : Transform[]",
+        "GameManager.score++;",
+        "Player.transform.rotation = Zones[zoneIndex].transform.rotation;",
+        "camera = GetComponentInParent<Camera>();",
+        "GameObject hands = GameObject.Find(\"Hands\");",
+        "hands.transform.position = camera.transform.rotation.ToEulerAngles();",
+        "Player.transform.position = Teleport.transform.position;",
+        "scoreManager = new ScoreManagerPractice();",
+        "scoreManager.Start(varabar);",
+        "scoreManager.MakeCall(\"Hoop da da da\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "OnTriggerExit"
+    ],
+    "classes": [
+        "BasketDetectorPractice"
+    ]
+}

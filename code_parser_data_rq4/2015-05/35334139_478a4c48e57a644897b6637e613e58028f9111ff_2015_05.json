@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "UrlUtils",
+        "describe",
+        "describe",
+        "it",
+        "UrlUtils",
+        "query",
+        "it",
+        "UrlUtils",
+        "query",
+        "it",
+        "UrlUtils",
+        "query"
+    ],
+    "literals": [
+        "'assert'",
+        "'../src/url-utils'",
+        "'UrlUtils'",
+        "'githubParamsFromUrl'",
+        "'should return empty parameters from issues URL'",
+        "'https://github.com/ForNeVeR/memhub/issues'",
+        "'ForNeVeR'",
+        "'memhub'",
+        "''",
+        "'should return null for improper URL'",
+        "'https://github.com/help'",
+        "'should return params for URL with parameters'",
+        "'https://github.com/ForNeVeR/memhub/issues?q=xxx'",
+        "'ForNeVeR'",
+        "'memhub'",
+        "'?q=xxx'"
+    ],
+    "variables": [
+        "query",
+        "query",
+        "query"
+    ],
+    "comments": [
+        "<reference path=\"../typings/tsd.d.ts\"/>"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

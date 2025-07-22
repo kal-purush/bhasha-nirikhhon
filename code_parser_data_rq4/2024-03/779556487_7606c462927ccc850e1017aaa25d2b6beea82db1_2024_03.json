@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "df",
+        "write",
+        "saveAsTable",
+        "pyspark",
+        "sql",
+        "functions",
+        "df",
+        "withColumn",
+        "current_date",
+        "display",
+        "df",
+        "drop",
+        "df",
+        "display",
+        "spark",
+        "read",
+        "json"
+    ],
+    "literals": [
+        "\"Gayatri.Constructor\"",
+        "\"ingestion_date\"",
+        "\"url\"",
+        "\"dbfs:/FileStore/tables/formula1_raw/constructors.json\""
+    ],
+    "variables": [
+        "df"
+    ],
+    "comments": [
+        "Databricks notebook source",
+        "MAGIC %sql",
+        "MAGIC select * from json.`dbfs:/FileStore/tables/formula1_raw/constructors.json`",
+        "COMMAND ----------",
+        "COMMAND ----------",
+        "COMMAND ----------",
+        "COMMAND ----------",
+        "COMMAND ----------",
+        "COMMAND ----------",
+        "COMMAND ----------",
+        "MAGIC %fs ls"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

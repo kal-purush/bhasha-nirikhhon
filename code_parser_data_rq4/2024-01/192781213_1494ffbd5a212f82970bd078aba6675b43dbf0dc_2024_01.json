@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "ChangelogData"
+    ],
+    "literals": [
+        "\"../../utils/ComponentChangelogTable\"",
+        "\"Prerelease\"",
+        "\"Prerelease\"",
+        "\"Update\"",
+        "\"Accessibility\"",
+        "\"Documentation\"",
+        "\"Updates tab set to be scrollable when the width of the tab set is greater than the viewport\""
+    ],
+    "variables": [
+        "changelogData"
+    ],
+    "comments": [
+        "This data is used to populate the ComponentChangelogTable component.\n *\n * date: string (when adding new entry during development, set value as \"Prerelease\")\n * version: string (when adding new entry during development, set value as \"Prerelease\")\n * type: \"Bug Fix\" | \"New Feature\" | \"Update\";\n * affects: array[\"Accessibility\" | \"Documentation\" | \"Functionality\" | \"Styles\"];\n * notes: array (will render as a bulleted list, add one array element for each list element)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

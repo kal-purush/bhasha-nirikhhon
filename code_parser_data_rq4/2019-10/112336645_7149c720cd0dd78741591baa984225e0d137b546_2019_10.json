@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "ignite",
+        "metrics",
+        "Precision",
+        "Recall",
+        "beta",
+        "output_transform",
+        "x",
+        "x",
+        "average",
+        "precision",
+        "recall",
+        "device",
+        "beta",
+        "ValueError",
+        "format",
+        "beta",
+        "precision",
+        "Precision",
+        "output_transform",
+        "output_transform",
+        "average",
+        "device",
+        "device",
+        "precision",
+        "_average",
+        "ValueError",
+        "recall",
+        "Recall",
+        "output_transform",
+        "output_transform",
+        "average",
+        "device",
+        "device",
+        "recall",
+        "_average",
+        "ValueError",
+        "beta",
+        "precision",
+        "recall",
+        "beta",
+        "precision",
+        "recall",
+        "average",
+        "fbeta",
+        "mean",
+        "item",
+        "fbeta"
+    ],
+    "literals": [
+        "\"Beta should be a positive integer, but given {}\"",
+        "\"Input precision metric should have average=False\"",
+        "\"Input recall metric should have average=False\""
+    ],
+    "variables": [
+        "precision",
+        "recall",
+        "fbeta",
+        "fbeta"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Calculates F-beta score\n\n    Args:\n        beta (float): weight of precision in harmonic mean\n        output_transform (callable, optional): a callable that is used to transform the\n            :class:`~ignite.engine.Engine`'s `process_function`'s output into the\n            form expected by the metric. This can be useful if, for example, you have a multi-output model and\n            you want to compute the metric with respect to one of the outputs.\n        average (bool, optional): if True, F-beta score is computed as the unweighted average (across all classes\n            in multiclass case), otherwise, returns a tensor with F-beta score for each class in multiclass case.\n        precision (Precision, optional): precision object metric with `average=False` to compute F-beta score\n        recall (Precision, optional): recall object metric with `average=False` to compute F-beta score\n        device (str of torch.device, optional): device specification in case of distributed computation usage.\n            In most of the cases, it can be defined as \"cuda:local_rank\" or \"cuda\"\n            if already set `torch.cuda.set_device(local_rank)`. By default, if a distributed process group is\n            initialized and available, device is set to `cuda`.\n\n    Returns:\n        MetricsLambda, F-beta metric\n    \"\"\""
+    ],
+    "functions": [
+        "Fbeta"
+    ],
+    "classes": []
+}

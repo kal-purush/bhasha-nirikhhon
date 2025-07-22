@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "jedi",
+        "api",
+        "Script",
+        "Interpreter",
+        "NotFoundError",
+        "set_debug_function",
+        "jedi",
+        "api",
+        "preload_module",
+        "defined_names",
+        "names",
+        "jedi",
+        "settings"
+    ],
+    "literals": [
+        "'0.9.0'"
+    ],
+    "variables": [
+        "__version__"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nJedi is a static analysis tool for Python that can be used in IDEs/editors. Its\nhistoric focus is autocompletion, but does static analysis for now as well.\nJedi is fast and is very well tested. It understands Python on a deeper level\nthan all other static analysis frameworks for Python.\n\nJedi has support for two different goto functions. It's possible to search for\nrelated names and to list all names in a Python file and infer them. Jedi\nunderstands docstrings and you can use Jedi autocompletion in your REPL as\nwell.\n\nJedi uses a very simple API to connect with IDE's. There's a reference\nimplementation as a `VIM-Plugin <https://github.com/davidhalter/jedi-vim>`_,\nwhich uses Jedi's autocompletion.  We encourage you to use Jedi in your IDEs.\nIt's really easy.\n\nTo give you a simple example how you can use the Jedi library, here is an\nexample for the autocompletion feature:\n\n>>> import jedi\n>>> source = '''\n... import datetime\n... datetime.da'''\n>>> script = jedi.Script(source, 3, len('datetime.da'), 'example.py')\n>>> script\n<Script: 'example.py'>\n>>> completions = script.completions()\n>>> completions                                         #doctest: +ELLIPSIS\n[<Completion: date>, <Completion: datetime>, ...]\n>>> print(completions[0].complete)\nte\n>>> print(completions[0].name)\ndate\n\nAs you see Jedi is pretty simple and allows you to concentrate on writing a\ngood text editor, while still having very good IDE features for Python.\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Request",
+        "express",
+        "read",
+        "req",
+        "express",
+        "res",
+        "express",
+        "next",
+        "express",
+        "renderPage",
+        "req",
+        "res",
+        "req",
+        "express",
+        "res",
+        "express",
+        "parentZoneDelegate",
+        "currentZone",
+        "targetZone",
+        "error",
+        "res",
+        "Zone",
+        "res",
+        "req"
+    ],
+    "literals": [
+        "'express'",
+        "\"express\"",
+        "'fs'",
+        "'Error in SSR, serving for direct CSR'",
+        "'index.html'",
+        "'./dist'",
+        "'CSR fallback'",
+        "\"index\"",
+        "\"/\"",
+        "\"http://localhost:3000\""
+    ],
+    "variables": [],
+    "comments": [
+        "export function sitemapPage(req:express.Request, res:express.Response, next:express.NextFunction){",
+        "res.send(require('../../sitemap.xml'));",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngApp",
+        "renderPage",
+        "onHandleError"
+    ],
+    "classes": []
+}

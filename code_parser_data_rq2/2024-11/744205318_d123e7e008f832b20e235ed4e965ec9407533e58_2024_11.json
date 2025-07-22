@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "typing",
+        "Dict",
+        "Optional",
+        "pydantic",
+        "BaseModel",
+        "Field",
+        "BaseModel",
+        "Field",
+        "description",
+        "Optional",
+        "Field",
+        "description",
+        "Field",
+        "min_length",
+        "Field",
+        "min_length",
+        "Optional",
+        "Dict",
+        "Field",
+        "description",
+        "Optional",
+        "Dict",
+        "Field",
+        "description",
+        "Optional",
+        "Field",
+        "description",
+        "Optional",
+        "Field",
+        "description"
+    ],
+    "literals": [
+        "\"Unique identifier for the author\"",
+        "\"Author's ORCID identifier\"",
+        "\"Author's institutional affiliations\"",
+        "\"Research workstreams the author is involved in\"",
+        "\"List of collaborator UUIDs\"",
+        "\"List of research output UUIDs\""
+    ],
+    "variables": [
+        "uuid",
+        "orcid",
+        "first_name",
+        "last_name",
+        "affiliations",
+        "workstreams",
+        "collaborators",
+        "outputs"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Data model representing an academic author or contributor\n    with their associated metadata and relationships.\n    \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "AuthorModel"
+    ]
+}

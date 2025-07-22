@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "context",
+        "node",
+        "node",
+        "node",
+        "sourceValue",
+        "specifiers",
+        "specifier",
+        "specifier",
+        "forbiddenImports",
+        "specifier",
+        "context",
+        "specifier",
+        "sourceValue",
+        "patternflyPackage",
+        "fixer",
+        "specifier",
+        "patternflyPackage",
+        "fixer",
+        "node",
+        "importStatement",
+        "specifier",
+        "forbiddenImports",
+        "specifier",
+        "context",
+        "specifier",
+        "sourceValue",
+        "patternflyPackage",
+        "fixer",
+        "specifier",
+        "patternflyPackage",
+        "fixer",
+        "node",
+        "importStatement"
+    ],
+    "literals": [
+        "'ErrorBoundary'",
+        "'ErrorState'",
+        "'NotAuthorized'",
+        "'suggestion'",
+        "'disallow already migrated components'",
+        "'Possible run errors'",
+        "'code'",
+        "'@patternfly/react-component-groups'",
+        "'@redhat-cloud-services/frontend-components'",
+        "'ImportDefaultSpecifier'",
+        "Importing ${specifier.local.name} from ${sourceValue} is deprecated, use import from ${patternflyPackage} instead.",
+        "import ${specifier.local.name} from '${patternflyPackage}';",
+        "'ImportSpecifier'",
+        "Importing ${specifier.imported.name} from ${sourceValue} is deprecated, use import from ${patternflyPackage} instead.",
+        "import { ${specifier.imported.name} } from '${patternflyPackage}';"
+    ],
+    "variables": [
+        "forbiddenImports",
+        "sourceValue",
+        "specifiers",
+        "patternflyPackage",
+        "importStatement",
+        "importStatement"
+    ],
+    "comments": [
+        "Please add any components moved to the @patternfly/react-component-groups repo from this one"
+    ],
+    "docstrings": [
+        "* @fileoverview Rule to disallow importing components already migrated to @patternfly/react-component-groups\n * @author Filip Hlavac"
+    ],
+    "functions": [
+        "ImportDeclaration",
+        "fix",
+        "fix"
+    ],
+    "classes": []
+}

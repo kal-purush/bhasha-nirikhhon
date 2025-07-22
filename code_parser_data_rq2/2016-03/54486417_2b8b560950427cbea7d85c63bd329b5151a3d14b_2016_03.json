@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "Component",
+        "EventEmitter",
+        "userDescription",
+        "userDescription",
+        "userDescription"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./task.model'",
+        "'new-task'",
+        "'onSubmitNewTask'",
+        "<div class=\"task-form\">\n    <h3>Create Task:</h3>\n    <input placeholder=\"Description\" class=\"col-sm-8 input-lg\" #newDescription>\n    <button (click)=\"addTask(newDescription)\">Add</button>\n    </div>",
+        "\"\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "addTask"
+    ],
+    "classes": [
+        "NewTaskComponent"
+    ]
+}

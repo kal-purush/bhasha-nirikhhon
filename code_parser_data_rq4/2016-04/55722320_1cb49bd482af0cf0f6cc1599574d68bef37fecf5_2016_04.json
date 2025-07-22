@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "Component",
+        "Component",
+        "todo",
+        "todo",
+        "todo"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'my-app'",
+        "<h1>{{title}}</h1>\n    <h2>Enter To Do Items Below:</h2>\n    <input (keyup.enter)=\"onKey(todo)\" #todo>\n    <div *ngIf=\"toDoList.length>0\">\n        <p>Your To Do Items:</p>\n    </div>\n    <div style=\"padding: 10px 0 0 0\">\n    <table width=\"300\" border=\"1\" cellpadding=\"5\" style=\"text-align: center\">\n        <tr>\n            <th>Index</th>\n            <th>To Do Item</th>\n        </tr>\n        <tr *ngFor=\"#toDo of toDoList, #i=index, #last=last, #odd=odd, #even=even\"  [ngClass]=\"{'odd-color':odd, 'even-color':even, 'last-color' : last }\">\n            <td>{{i}}</td>\n            <td>{{toDo}}</td>\n        </tr>\n    </table>\n    </div>",
+        "''",
+        "'My To Do List'",
+        "''"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Created by Namita Malik on 4/5/16."
+    ],
+    "functions": [
+        "onKey"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "mqtt_client",
+        "openai_client",
+        "logger",
+        "mqtt_client",
+        "openai_client",
+        "logger",
+        "input_text",
+        "speaker",
+        "gpt3",
+        "input_text",
+        "gpt3",
+        "__openai_client",
+        "Completion",
+        "create",
+        "model",
+        "prompt",
+        "input_text",
+        "max_tokens",
+        "temperature",
+        "openai_response",
+        "replace",
+        "__mqtt_client",
+        "publish",
+        "speaker",
+        "__mqtt_client",
+        "publish",
+        "output_text",
+        "text",
+        "__mqtt_client",
+        "publish",
+        "text"
+    ],
+    "literals": [
+        "\"all\"",
+        "\"text-davinci-003\"",
+        "\"choices\"",
+        "\"text\"",
+        "\"\\n\"",
+        "\"\"",
+        "\"voice-alert/speakers\"",
+        "\"voice-alert/text\"",
+        "\"message-alerts\""
+    ],
+    "variables": [
+        "__mqtt_client",
+        "__openai_client",
+        "__mqtt_client",
+        "__openai_client",
+        "logger",
+        "output_text",
+        "openai_response",
+        "output_text"
+    ],
+    "comments": [
+        "Send a voice alert",
+        "Process the message using GPT3 if required",
+        "Send the message",
+        "Send a message alert"
+    ],
+    "docstrings": [],
+    "functions": [
+        "voice",
+        "message"
+    ],
+    "classes": [
+        "Alert"
+    ]
+}

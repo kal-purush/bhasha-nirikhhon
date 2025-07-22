@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "room",
+        "roomnum",
+        "exit",
+        "exit_list",
+        "room",
+        "roomnum",
+        "exit",
+        "room",
+        "roomnum",
+        "exit",
+        "exitstr",
+        "format",
+        "exit",
+        "exitstr",
+        "format",
+        "exit",
+        "format",
+        "room",
+        "roomnum",
+        "room",
+        "roomnum",
+        "exitstr"
+    ],
+    "literals": [
+        "\"\"",
+        "\"n\"",
+        "\"s\"",
+        "\"e\"",
+        "\"w\"",
+        "\"leadsto\"",
+        "\"isclosed\"",
+        "\"<{}> \"",
+        "\"{} \"",
+        "\"{}\\n{}\\n\\nExits: {}\\n\"",
+        "'name'",
+        "'desc'"
+    ],
+    "variables": [
+        "exitstr",
+        "exit_list"
+    ],
+    "comments": [
+        "Show the room name, description, and exits to players."
+    ],
+    "docstrings": [],
+    "functions": [
+        "look"
+    ],
+    "classes": []
+}

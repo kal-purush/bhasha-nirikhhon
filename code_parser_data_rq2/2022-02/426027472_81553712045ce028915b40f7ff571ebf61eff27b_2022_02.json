@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "createSlice",
+        "PayloadAction",
+        "createSlice",
+        "state",
+        "action",
+        "state",
+        "action",
+        "state",
+        "action",
+        "state",
+        "action",
+        "state",
+        "action",
+        "state",
+        "action",
+        "state",
+        "action",
+        "state",
+        "action",
+        "state",
+        "action",
+        "state",
+        "action",
+        "state",
+        "action",
+        "state",
+        "action",
+        "metrics"
+    ],
+    "literals": [
+        "'@reduxjs/toolkit'",
+        "'metrics'"
+    ],
+    "variables": [
+        "metrics"
+    ],
+    "comments": [
+        "Set initial state and values",
+        "Number of blocks added to ledger per second\n    After simulator is run for N blocks,\n    if a block reaches a quorum, it is considered as added",
+        "blocks per second",
+        "Time from client to send a transaction to finally be appended on the ledger.\n    Assume client to nearest validator time to be negligible or a small constant.\n    In future, this could also account for time to transmit the transactions\n    to the mempool too.\n    Run simulator for N (maybe 10000) blocks",
+        "seconds",
+        "Number of validators that would need to collude together to slow down or\n    block the blockchain from functioning properly.\n    Depends on config of network and protocol\n    Calculated from config",
+        "number of nodes",
+        "actions are called by react component that trigger reducer",
+        "implement actions",
+        "action.payload is value passed in by button"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

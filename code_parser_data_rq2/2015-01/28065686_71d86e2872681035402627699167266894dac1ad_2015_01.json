@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "exports",
+        "exports",
+        "silky",
+        "silky",
+        "value",
+        "options",
+        "value",
+        "silky",
+        "data",
+        "options",
+        "data",
+        "data",
+        "extendText",
+        "silky",
+        "data",
+        "options",
+        "done",
+        "done"
+    ],
+    "literals": [
+        "'customCommand'",
+        "'route:willResponse'",
+        "\"<!--\"",
+        "\"-->\"",
+        "'build:didCompile'"
+    ],
+    "variables": [
+        "extendText"
+    ],
+    "comments": [
+        "声明这是一个silky插件，必需存在",
+        "注册silky插件",
+        "注册handlebars的helper，关于handlebars，请参考：http://handlebarsjs.com/",
+        "直接返回value，什么也不做，你可以根据需要返回具体的数据",
+        "将要响应路由时hook",
+        "如果是html文件，则在最后面加上一个时间戳",
+        "编译完成后的的hook",
+        "这里声明使用异步，如果async:true，那么必需显式调用done()",
+        "这里可以做任何你想做的事，比如说合并文件等",
+        "更多的hook如下，具体的hook使用方法，请参考API文档\n\n     initial: 'route:initial'\n     willPrepareDirectory: 'route:willPrepareDirectory'\n     didPrepareDirectory: 'route:didPrepareDirectory'\n     willResponse: 'route:willResponse'\n     willCompress: 'build:willCompress'\n     didCompress: 'build:didCompress'\n     willBuild: 'build:willBuild'\n     didBuild: 'build:didBuild'\n     willCompile: 'build:willCompile'\n     didCompile: 'build:didCompile'\n     willProcess: 'build:willProcess'\n     didProcess: 'build:didProcess'"
+    ],
+    "docstrings": [
+        "* Created by wvv8oo on 1/26/15.\n * 支持javascript和coffeescript"
+    ],
+    "functions": [],
+    "classes": []
+}

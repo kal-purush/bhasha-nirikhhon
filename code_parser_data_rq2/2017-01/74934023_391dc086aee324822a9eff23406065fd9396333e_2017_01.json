@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "require",
+        "i",
+        "translationFiles",
+        "i",
+        "fs",
+        "translationFiles",
+        "i",
+        "translations",
+        "insertTranslationStatements",
+        "insertTranslationStatements",
+        "insertStmt",
+        "sqlFormat",
+        "insertTranslationStatements",
+        "fs",
+        "sql"
+    ],
+    "literals": [
+        "'fs'",
+        "\"CREATE TABLE IF NOT EXISTS LAST_READER (ID SERIAL PRIMARY KEY, VALUE JSON NOT NULL);\\n\"",
+        "\"\\n\"",
+        "\"DROP TABLE IF EXISTS TRANSLATIONS;\\n\"",
+        "\"CREATE TABLE TRANSLATIONS (ID SERIAL PRIMARY KEY, VALUE JSON NOT NULL);\\n\"",
+        "\"{0}\\n\"",
+        "\"\\n\"",
+        "'english_translations.json'",
+        "'german_translations.json'",
+        "''",
+        "'data/'",
+        "'INSERT INTO TRANSLATIONS (VALUE) VALUES (\\''",
+        "'\\');'",
+        "\"\\n\"",
+        "\"{0}\"",
+        "'scripts/create_database.sql'"
+    ],
+    "variables": [
+        "fs",
+        "sqlFormat",
+        "translationFiles",
+        "insertTranslationStatements",
+        "i",
+        "translations",
+        "insertStmt",
+        "sql"
+    ],
+    "comments": [
+        "Read in the translations"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

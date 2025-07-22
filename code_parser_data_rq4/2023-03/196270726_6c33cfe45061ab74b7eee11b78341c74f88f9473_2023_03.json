@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "Theme",
+        "isHighContrast",
+        "isHighContrastEnabled",
+        "isHighContrast",
+        "_t",
+        "isHighContrastEnabled"
+    ],
+    "literals": [
+        "'@fluentui-react-native/theme-types'"
+    ],
+    "variables": [
+        "isHighContrastEnabled"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Used to set isHighContrast state for FURN\n * Specifically for macOS, where you cannot ask for HC state,\n * so you have to store the value to keep track of it.\n *\n * @platform macOS\n * @param isHighContrast New value of high contrast state",
+        "* Gives the state of high contrast in FURN.\n * On win32, the t parameter is required, but on other platforms\n * it's not needed.\n *\n * @param t The Theme object. Required on win32."
+    ],
+    "functions": [
+        "setIsHighContrast",
+        "isHighContrast"
+    ],
+    "classes": []
+}

@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "_",
+        "fs",
+        "__INFO",
+        "ConfigurationContract",
+        "Inject",
+        "AutoLoader",
+        "Application",
+        "require",
+        "Inject",
+        "Application",
+        "path",
+        "fs",
+        "path",
+        "instance",
+        "path",
+        "__INFO",
+        "__INFO",
+        "env",
+        "env",
+        "path",
+        "fs",
+        "path",
+        "instance",
+        "path",
+        "__INFO",
+        "env",
+        "env",
+        "__INFO",
+        "key",
+        "key",
+        "key",
+        "value",
+        "key",
+        "value"
+    ],
+    "literals": [
+        "\"lodash\"",
+        "\"fs\"",
+        "\"../Core/Debug\"",
+        "\"../Core/Contracts/ConfigurationContract\"",
+        "\"huject\"",
+        "\"../Core/AutoLoader\"",
+        "\"../Core/Application\"",
+        "'nconf'",
+        "\"AutoLoader\"",
+        "\"env\"",
+        "'config.json'",
+        "'config.json'",
+        "\"Loading default config config.json\"",
+        "\"env\"",
+        "\"Set application env to \"",
+        "'config.\"+env+\".json'",
+        "'config.json'",
+        "\"Loading \"",
+        "\" env config config.\"",
+        "\".json\"",
+        "\"Loading args config\"",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "instance",
+        "env"
+    ],
+    "comments": [
+        "<reference path=\"../../../typings/main.d.ts\" />",
+        "Force env"
+    ],
+    "docstrings": [
+        "* Configuration container used to store data on runtime\n * @todo Throwing an exception when calling Configuration#get() if the key is not found would be smarter, as it's instantly clear a key doesn't exist\n * @todo Proposal to make Configuration#set() read-only, so it can't be overwritten once set",
+        "* Fetch a key from the configuration data\n     * @param {string} key\n     * @returns {*}",
+        "* Set a key in the configuration\n     * @todo Why are we splitting the key exactly, can't we just store it as is? ~@Paradoxis\n     * @param {string} key\n     * @param {*} value\n     * @returns {void}"
+    ],
+    "functions": [
+        "load",
+        "get"
+    ],
+    "classes": [
+        "Configuration"
+    ]
+}

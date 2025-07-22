@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "getAssetFromKV",
+        "mapRequestToAsset",
+        "addEventListener",
+        "handleEvent",
+        "e",
+        "DEBUG",
+        "Response",
+        "e",
+        "e",
+        "Response",
+        "URL",
+        "DEBUG",
+        "options",
+        "getAssetFromKV",
+        "options",
+        "e",
+        "DEBUG",
+        "getAssetFromKV",
+        "req",
+        "Request",
+        "URL",
+        "req",
+        "req",
+        "Response",
+        "notFoundResponse",
+        "notFoundResponse",
+        "e",
+        "Response",
+        "e",
+        "e",
+        "prefix",
+        "request",
+        "mapRequestToAsset",
+        "request",
+        "URL",
+        "defaultAssetKey",
+        "url",
+        "url",
+        "prefix",
+        "Request",
+        "url",
+        "defaultAssetKey"
+    ],
+    "literals": [
+        "'@cloudflare/kv-asset-handler'",
+        "'fetch'",
+        "'Internal Error'",
+        "${new URL(req.url).origin}/404.html",
+        "'/'"
+    ],
+    "variables": [
+        "DEBUG",
+        "url",
+        "options",
+        "notFoundResponse",
+        "defaultAssetKey",
+        "url"
+    ],
+    "comments": [
+        "options.mapRequestToAsset = handlePrefix(/^\\/docs/)",
+        "customize caching",
+        "if an error is thrown try to serve the asset at 404.html",
+        "compute the default (e.g. / -> index.html)",
+        "strip the prefix from the path for lookup",
+        "inherit all other props from the default request"
+    ],
+    "docstrings": [
+        "* The DEBUG flag will do two things that help during development:\n * 1. we will skip caching on the edge, which makes it easier to\n *    debug.\n * 2. we will return an error message on exception in your Response rather\n *    than the default 404.html page.",
+        "* You can add custom logic to how we fetch your assets\n   * by configuring the function `mapRequestToAsset`",
+        "* Here's one example of how to modify a request to\n * remove a specific prefix, in this case `/docs` from\n * the url. This can be useful if you are deploying to a\n * route on a zone, or if you only want your static content\n * to exist at a specific path."
+    ],
+    "functions": [
+        "handleEvent",
+        "handlePrefix"
+    ],
+    "classes": []
+}

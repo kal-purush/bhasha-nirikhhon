@@ -1,0 +1,88 @@
+{
+    "identifiers": [
+        "fs",
+        "path",
+        "DataFiller",
+        "relativePath",
+        "fs",
+        "path",
+        "relativePath",
+        "fs",
+        "path",
+        "relativePath",
+        "fileName",
+        "baseDir",
+        "path",
+        "relativePath",
+        "fileName",
+        "path",
+        "relativePath",
+        "fileName",
+        "realDir",
+        "fileName",
+        "fs",
+        "pathToBaseFile",
+        "relativePath",
+        "fileName",
+        "fs",
+        "pathToRealFile",
+        "relativePath",
+        "fileName",
+        "fs",
+        "pathToBaseFile",
+        "pathToRealFile",
+        "fileName",
+        "baseDir",
+        "path",
+        "relativePath",
+        "fileName",
+        "fs",
+        "pathToFile",
+        "relativePath",
+        "fileName"
+    ],
+    "literals": [
+        "\"fs\"",
+        "\"path\"",
+        "string",
+        "string",
+        "\"server\"",
+        "\"data-base\"",
+        "string",
+        "\"server\"",
+        "\"data\"",
+        "\"server\"",
+        "\"data-base\"",
+        "\"server\"",
+        "\"data\"",
+        "Creating real data folder: ${relativePath.join(\"/\")}/${fileName}",
+        "\"/\"",
+        "Copying to real data file: ${relativePath.join(\"/\")}/${fileName}",
+        "\"/\"",
+        "\"server\"",
+        "\"data\""
+    ],
+    "variables": [
+        "baseDir",
+        "realDir",
+        "pathToBaseFile",
+        "pathToRealFile",
+        "pathToFile"
+    ],
+    "comments": [
+        "for every file or subdirectory in baseDir",
+        "if it doesn't exist in our real data folder",
+        "call recursively on all subdirectories",
+        "if it's a subdirectory, recreate the subdirectory in the real folder"
+    ],
+    "docstrings": [
+        "* For any file in /data-base that doesn't exist in /data,\n   * creates a version of that file in /data"
+    ],
+    "functions": [
+        "fillDataFolder",
+        "fillDataFolderRecurse"
+    ],
+    "classes": [
+        "DataFiller"
+    ]
+}

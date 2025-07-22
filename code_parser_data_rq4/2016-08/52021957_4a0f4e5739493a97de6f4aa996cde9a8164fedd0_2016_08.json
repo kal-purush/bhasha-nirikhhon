@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "CORE_DIRECTIVES",
+        "ToastData",
+        "Component",
+        "CORE_DIRECTIVES",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "$event",
+        "$event"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common'",
+        "'./toasty.service'",
+        "'ng2-toast'",
+        "<div class=\"toast\" [ngClass]=\"[toast.type, toast.theme]\">\n            <div *ngIf=\"toast.showClose\" class=\"close-button\" (click)=\"close($event)\"></div>\n            <div *ngIf=\"toast.title || toast.msg\" class=\"toast-text\">\n                <span *ngIf=\"toast.title\" class=\"toast-title\">{{toast.title}}</span>\n                <br *ngIf=\"toast.title && toast.msg\" />\n                <span *ngIf=\"toast.msg\" class=\"toast-msg\">{{toast.msg}}</span>\n            </div>\n        </div>",
+        "'closeToast'"
+    ],
+    "variables": [],
+    "comments": [
+        "Copyright (C) 2016 Sergey Akopkokhyants",
+        "This project is licensed under the terms of the MIT license.",
+        "https://github.com/akserg/ng2-toasty"
+    ],
+    "docstrings": [
+        "* A Toast component shows message with title and close button.",
+        "* Event handler invokes when user clicks on close button.\n   * This method emit new event into ToastyContainer to close it."
+    ],
+    "functions": [
+        "close"
+    ],
+    "classes": [
+        "ToastComponent"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Observable",
+        "Subject",
+        "BehaviorSubject",
+        "Subject",
+        "subject",
+        "subject",
+        "subject",
+        "BehaviorSubject",
+        "subject",
+        "subject",
+        "validatorFn",
+        "t",
+        "i",
+        "validatorFn",
+        "t",
+        "i"
+    ],
+    "literals": [
+        "'rxjs'",
+        "'rxjs/Subject'",
+        "'rxjs/BehaviorSubject'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Base class for providing an observer to changing item.",
+        "* Set next item.",
+        "* Function interface for validating item within AppObserverArray<T> class.",
+        "* Base class for providing an observer to changing array of items.",
+        "* Remove all items.",
+        "* Return number of items available in the observable.",
+        "* Append new item.",
+        "* Remove item(s) from array. The caller must provide comparison implementation\n     * for the item removal check."
+    ],
+    "functions": [
+        "setSubject",
+        "removeAllSubjects",
+        "observerArrayLength",
+        "addSubject",
+        "removeSubject"
+    ],
+    "classes": []
+}

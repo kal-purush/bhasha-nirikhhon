@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "CodeEditor",
+        "detectTextFormat",
+        "value",
+        "autoFormatEditor",
+        "editor",
+        "createEditorSettings",
+        "options"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "GlobalCodeMirrorOptions"
+    ],
+    "comments": [
+        "<reference path=\"../../includes.d.ts\" />"
+    ],
+    "docstrings": [
+        "* Module that contains several helper functions related to hawtio's code editor\n *\n * @module CodeEditor\n * @main CodeEditor",
+        "* Options for the CodeMirror text editor\n     *\n     * @class CodeMirrorOptions",
+        "* @property theme\n         * @type String",
+        "* @property tabSize\n         * @type number",
+        "* @property lineNumbers\n         * @type boolean",
+        "* @property indentWithTabs\n         * @type boolean",
+        "* @property lineWrapping\n         * @type boolean",
+        "* @property autoClosetags\n         * @type boolean",
+        "* @property GlobalCodeMirrorOptions\n     * @for CodeEditor\n     * @type CodeMirrorOptions",
+        "* Tries to figure out what kind of text we're going to render in the editor, either\n     * text, javascript or XML.\n     *\n     * @method detectTextFormat\n     * @for CodeEditor\n     * @static\n     * @param value\n     * @returns {string}",
+        "* Auto formats the CodeMirror editor content to pretty print\n     *\n     * @method autoFormatEditor\n     * @for CodeEditor\n     * @static\n     * @param {CodeMirrorEditor} editor\n     * @return {void}",
+        "* Used to configures the default editor settings (per Editor Instance)\n     *\n     * @method createEditorSettings\n     * @for CodeEditor\n     * @static\n     * @param {Object} options\n     * @return {Object}"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "obj1",
+        "obj2",
+        "stringifyAndSort",
+        "obj",
+        "obj",
+        "obj",
+        "stringifyAndSort",
+        "obj1",
+        "stringifyAndSort",
+        "obj2",
+        "compareJSON",
+        "obj1",
+        "obj2",
+        "areEqual"
+    ],
+    "literals": [
+        "\"Person 1\"",
+        "\"Person 1\""
+    ],
+    "variables": [
+        "stringifyAndSort",
+        "obj1",
+        "obj2",
+        "areEqual"
+    ],
+    "comments": [
+        "var data = new XMLHttpRequest();\ndata.open(\"GET\",\"https://restcountries.com/v2/all\");\ndata.send();\ndata.onload = function()\n{\n    var rs = JSON.parse(data.response);\n    console.log(rs);\n}\nfor(let i in rs){\n    console.log(rs[i].name);\n}",
+        "true"
+    ],
+    "docstrings": [],
+    "functions": [
+        "compareJSON"
+    ],
+    "classes": []
+}

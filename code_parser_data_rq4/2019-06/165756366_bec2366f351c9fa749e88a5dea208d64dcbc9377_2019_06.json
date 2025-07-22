@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "axios",
+        "AxiosInstance",
+        "InsufficientCreditsError",
+        "InvalidParameterError",
+        "InvalidStateError",
+        "RevAiApiError",
+        "require",
+        "url",
+        "accessToken",
+        "axios",
+        "url",
+        "accessToken",
+        "sdkVersion",
+        "method",
+        "url",
+        "headers",
+        "responseType",
+        "method",
+        "method",
+        "method",
+        "url",
+        "data",
+        "headers",
+        "responseType",
+        "response",
+        "error",
+        "error",
+        "error",
+        "error",
+        "InvalidParameterError",
+        "error",
+        "RevAiApiError",
+        "error",
+        "InsufficientCreditsError",
+        "error",
+        "InvalidStateError",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'axios'",
+        "'./models/RevAiApiError'",
+        "'post'",
+        "'get'",
+        "'delete'",
+        "'stream'",
+        "'json'",
+        "'text'",
+        "'../package.json'",
+        "string",
+        "string",
+        "'Authorization'",
+        "Bearer ${accessToken}",
+        "'User-Agent'",
+        "RevAi-NodeSDK/${sdkVersion}",
+        "string",
+        "'get'",
+        "'delete'"
+    ],
+    "variables": [
+        "sdkVersion",
+        "data",
+        "response"
+    ],
+    "comments": [
+        "tslint:disable-next-line",
+        "Single instance of axios which uses provided arguments for all requests"
+    ],
+    "docstrings": [
+        "* Abstract class which should be inherited to make use of creating api calls\n *\n * This class handles creating and sending requests as well as catching common errors"
+    ],
+    "functions": [
+        "makeApiRequest"
+    ],
+    "classes": [
+        "ApiRequestHandler"
+    ]
+}

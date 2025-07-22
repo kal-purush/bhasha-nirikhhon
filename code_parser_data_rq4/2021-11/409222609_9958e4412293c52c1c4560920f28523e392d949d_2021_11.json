@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "callback",
+        "timeoutDelay",
+        "rest",
+        "clearTimeout",
+        "timeoutId",
+        "timeoutId",
+        "setTimeout",
+        "callback",
+        "rest",
+        "timeoutDelay",
+        "debounce"
+    ],
+    "literals": [],
+    "variables": [
+        "timeoutId"
+    ],
+    "comments": [
+        "Функция взята из интернета и доработана",
+        "Источник - https://www.freecodecamp.org/news/javascript-debounce-example",
+        "Используем замыкания, чтобы id таймаута у нас навсегда приклеился",
+        "к возвращаемой функции с setTimeout, тогда мы его сможем перезаписывать",
+        "Перед каждым новым вызовом удаляем предыдущий таймаут,",
+        "чтобы они не накапливались",
+        "Затем устанавливаем новый таймаут с вызовом колбэка на ту же задержку",
+        "Таким образом цикл «поставить таймаут - удалить таймаут» будет выполняться,",
+        "пока действие совершается чаще, чем переданная задержка timeoutDelay"
+    ],
+    "docstrings": [],
+    "functions": [
+        "debounce"
+    ],
+    "classes": []
+}

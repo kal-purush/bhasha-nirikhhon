@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "Component",
+        "HighlightDirective",
+        "DraggableDirective",
+        "Component",
+        "HighlightDirective",
+        "DraggableDirective",
+        "CARDS",
+        "card",
+        "card",
+        "i",
+        "i",
+        "i",
+        "CARDS",
+        "i",
+        "i",
+        "CARDS"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./attribute-directives/highlight/highlight'",
+        "'./attribute-directives/draggable/draggable.directive'",
+        "string",
+        "'my-app'",
+        "<div class=\"tasks\">\n    <div class=\"task\" myHighlight myDraggable *ngFor=\"#card of cards\" [class.selected]=\"card === selectedCard\" (click)=\"onSelect(card)\">{{card.title}}</div>\n    </div>",
+        ".tasks {\n         display: inline-flex;\n      }\n\n      .task {\n        width:        250px;\n        height:       75px;\n        border:       1px solid black;\n        margin-right: 10px;\n      }\n\n      .task:last-child {\n        margin-right: inherit;\n      }\n\n      .selected {\n        color:      blue;\n        background-color: green !important;\n      }\n\n      .highlight {\n        background-color: yellow;\n      }",
+        "'Tour of Heroes'",
+        "Task ${i+1}",
+        "'cards'"
+    ],
+    "variables": [
+        "CARDS",
+        "i"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "onSelect"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

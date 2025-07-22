@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "org",
+        "apache",
+        "dubbo",
+        "rpc",
+        "cluster",
+        "org",
+        "apache",
+        "dubbo",
+        "common",
+        "URL",
+        "org",
+        "apache",
+        "dubbo",
+        "rpc",
+        "Invoker",
+        "ClusterInvoker"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Licensed to the Apache Software Foundation (ASF) under one or more\n * contributor license agreements.  See the NOTICE file distributed with\n * this work for additional information regarding copyright ownership.\n * The ASF licenses this file to You under the Apache License, Version 2.0\n * (the \"License\"); you may not use this file except in compliance with\n * the License.  You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* This is the final Invoker type referenced by the RPC proxy on Consumer side.\n * <p>\n * A ClusterInvoker holds a group of normal invokers, stored in a Directory, mapping to one Registry.\n * The ClusterInvoker implementation usually provides LB or HA policies, like FailoverClusterInvoker.\n * <p>\n * In multi-registry subscription scenario, the final ClusterInvoker will referr to several sub ClusterInvokers, with each\n * sub ClusterInvoker representing one Registry. Take ZoneAwareClusterInvoker as an example, it is specially customized for\n * multi-registry use cases: first, pick up one ClusterInvoker, then do LB inside the chose ClusterInvoker.\n *\n * @param <T>"
+    ],
+    "functions": [
+        "URL",
+        "getRegistryUrl",
+        "getDirectory"
+    ],
+    "classes": []
+}

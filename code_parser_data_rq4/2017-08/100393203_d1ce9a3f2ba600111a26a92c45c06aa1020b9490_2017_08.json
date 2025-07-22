@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "express",
+        "config",
+        "path",
+        "AuthorizationMiddleware",
+        "RouterFinder",
+        "buildURL",
+        "Paths",
+        "express",
+        "req",
+        "express",
+        "res",
+        "express",
+        "res",
+        "config",
+        "buildURL",
+        "req",
+        "Paths",
+        "AuthorizationMiddleware",
+        "requiredRoles",
+        "accessDeniedCallback",
+        "unprotectedPaths",
+        "app",
+        "express",
+        "app",
+        "defendantResponseRequestHandler",
+        "app",
+        "RouterFinder",
+        "path",
+        "__dirname"
+    ],
+    "literals": [
+        "'express'",
+        "'config'",
+        "'path'",
+        "'idam/authorizationMiddleware'",
+        "'common/router/routerFinder'",
+        "'utils/CallbackBuilder'",
+        "'app/paths'",
+        "${config.get('idam.authentication-web.url')}/login?continue-url=${buildURL(req, Paths.receiver.uri)}",
+        "'idam.authentication-web.url'",
+        "'cmc-private-beta'",
+        "'/testing-support/*'",
+        "'/'",
+        "'routes'"
+    ],
+    "variables": [
+        "requiredRoles",
+        "unprotectedPaths"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "defendantResponseRequestHandler",
+        "accessDeniedCallback",
+        "enableFor"
+    ],
+    "classes": [
+        "TestingSupportFeature"
+    ]
+}

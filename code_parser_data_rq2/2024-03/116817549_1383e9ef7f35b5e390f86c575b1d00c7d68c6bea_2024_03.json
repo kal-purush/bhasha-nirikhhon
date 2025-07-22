@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "IdValue",
+        "invariant",
+        "ReadStoreContext",
+        "FragmentMatcherInterface",
+        "PossibleTypesMap",
+        "IntrospectionResultData",
+        "options",
+        "options",
+        "options",
+        "options",
+        "idValue",
+        "typeCondition",
+        "context",
+        "invariant",
+        "context",
+        "idValue",
+        "idValue",
+        "obj",
+        "isRootQuery",
+        "isRootQuery",
+        "invariant",
+        "__typename",
+        "obj",
+        "__typename",
+        "typeCondition",
+        "typeCondition",
+        "__typename",
+        "implementingTypes",
+        "implementingTypes",
+        "__typename",
+        "introspectionResultData",
+        "introspectionResultData",
+        "typeMap",
+        "implementingType",
+        "implementingType",
+        "typeMap"
+    ],
+    "literals": [
+        "\"apollo-utilities\"",
+        "\"ts-invariant\"",
+        "\"apollo-cache-inmemory\"",
+        "string",
+        "\"FragmentMatcher.match() was called before FragmentMatcher.init()\"",
+        "\"ROOT_QUERY\"",
+        "\"Query\"",
+        "Cannot match fragment because __typename property is missing: ${JSON.stringify(obj)}",
+        "\"UNION\"",
+        "\"INTERFACE\""
+    ],
+    "variables": [
+        "obj",
+        "isRootQuery",
+        "obj",
+        "implementingTypes",
+        "typeMap"
+    ],
+    "comments": [
+        "https://github.com/apollographql/apollo-client/pull/4620"
+    ],
+    "docstrings": [],
+    "functions": [
+        "match",
+        "parseIntrospectionResult"
+    ],
+    "classes": [
+        "IntrospectionFragmentMatcher"
+    ]
+}

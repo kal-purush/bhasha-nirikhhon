@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "resolve",
+        "fetch",
+        "response",
+        "resolve",
+        "data",
+        "key",
+        "queryString",
+        "key",
+        "key",
+        "resolve",
+        "fetch",
+        "queryString",
+        "response",
+        "resolve",
+        "data"
+    ],
+    "literals": [
+        "\"http://localhost:8080/products\"",
+        "\"\"",
+        "${key}=${filter[key]}&",
+        "\"http://localhost:8080/products?\""
+    ],
+    "variables": [
+        "response",
+        "data",
+        "queryString",
+        "response",
+        "data"
+    ],
+    "comments": [
+        "TODO: we wil not hardcode the server URL here",
+        "TODO: we wil not hardcode the server URL here"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchAllProducts",
+        "fetchProductsByFilter"
+    ],
+    "classes": []
+}

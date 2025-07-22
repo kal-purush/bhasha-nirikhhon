@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "url",
+        "fetch",
+        "url",
+        "res",
+        "obj",
+        "getChefBirthday",
+        "id",
+        "fetchData",
+        "id",
+        "fetchData",
+        "recipe",
+        "chef",
+        "getChefBirthday",
+        "birthday",
+        "birthday",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "https://dummyjson.com/recipes/${id}",
+        "https://dummyjson.com/users/${recipe.userId}",
+        "\"Data di nascita dello chef:\"",
+        "\"Errore:\""
+    ],
+    "variables": [
+        "res",
+        "obj",
+        "getChefBirthday",
+        "recipe",
+        "chef"
+    ],
+    "comments": [
+        "In questo esercizio, utilizzerai async/await per creare la funzione getChefBirthday(id). Questa funzione accetta un id di una ricetta e deve:\nRecuperare la ricetta da https://dummyjson.com/recipes/{id}\nEstrarre la proprietà userId dalla ricetta\nUsare userId per ottenere le informazioni dello chef da https://dummyjson.com/users/{userId}\nRestituire la data di nascita dello chef\nNote del docente:\nScrivi la funzione getChefBirthday(id), che deve:\nEssere asincrona (async).\nUtilizzare await per chiamare le API.\nRestituire una Promise con la data di nascita dello chef.\nGestire gli errori con try/catch",
+        "funzione di supporto per il parse dei json"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchData"
+    ],
+    "classes": []
+}

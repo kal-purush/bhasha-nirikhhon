@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "require",
+        "process",
+        "process",
+        "build",
+        "build",
+        "build",
+        "result",
+        "result",
+        "text",
+        "location",
+        "location",
+        "location",
+        "esbuild",
+        "production",
+        "production",
+        "esbuildProblemMatcherPlugin",
+        "watch",
+        "ctx",
+        "ctx",
+        "ctx",
+        "main",
+        "e",
+        "e",
+        "process"
+    ],
+    "literals": [
+        "\"esbuild\"",
+        "'--production'",
+        "'--watch'",
+        "'esbuild-problem-matcher'",
+        "'[watch] build started'",
+        "✘ [ERROR] ${text}",
+        "${location.file}:${location.line}:${location.column}:",
+        "'[watch] build finished'",
+        "'src/extension.ts'",
+        "'cjs'",
+        "'node'",
+        "'dist/extension.js'",
+        "'vscode'",
+        "'silent'"
+    ],
+    "variables": [
+        "esbuild",
+        "production",
+        "watch",
+        "esbuildProblemMatcherPlugin",
+        "ctx"
+    ],
+    "comments": [
+        "add to the end of plugins array"
+    ],
+    "docstrings": [
+        "* @type {import('esbuild').Plugin}"
+    ],
+    "functions": [
+        "setup",
+        "main"
+    ],
+    "classes": []
+}

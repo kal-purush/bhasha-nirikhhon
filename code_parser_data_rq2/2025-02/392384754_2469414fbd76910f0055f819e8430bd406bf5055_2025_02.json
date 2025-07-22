@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "LocalizedString",
+        "localizedStringFromGraphQL",
+        "placeholders"
+    ],
+    "literals": [
+        "\"LocalizedString\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "LocalizedString"
+    ],
+    "comments": [
+        "Make sure that the placeholder object is not empty"
+    ],
+    "docstrings": [
+        "* Represents a localized string with placeholders.\n * This type will be used by the `relay-compiler` when generating types for\n * a string with placeholders.\n *\n * You should **not** have to use this type directly, instead use the `format` function\n * from the `useFormat` hook to unwrap the localized string and provide the placeholders.\n *\n * @param T The type of the placeholders object.\n * @example\n * ```ts\n * // Note: This would be part of a generated type, you should not have to write this yourself.\n * type MyLocalizedStrings = StringWithPlaceholders<{\n *  name: string;\n *  age: number;\n * }>;\n * ```",
+        "* Extract the placeholders from a localized string.\n * Guarantees that the placeholder object is not empty.",
+        "* The NovaLocalization type is used to provide the `useFormat` hook to the components.\n * The `useFormat` hook should support replacing placeholders in a localized string.\n *\n * You provide this type to the `NovaLocalizationProvider` component to make\n * it available to the components in your application.\n *\n * The components will be able to use `useFormat` from `@nova/react` to\n * access the `format` function."
+    ],
+    "functions": [],
+    "classes": []
+}

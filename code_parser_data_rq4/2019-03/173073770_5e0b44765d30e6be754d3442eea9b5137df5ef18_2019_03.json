@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "axios",
+        "GetButtionList",
+        "data",
+        "axios",
+        "data",
+        "QueryButtionList",
+        "data",
+        "axios",
+        "data",
+        "GetMenuChildList",
+        "data",
+        "axios",
+        "data",
+        "AddOrModifyButton",
+        "data",
+        "axios",
+        "data",
+        "DeleteButton",
+        "data",
+        "axios",
+        "data",
+        "getAllButton",
+        "data",
+        "axios",
+        "data"
+    ],
+    "literals": [
+        "\"../libs/api.Axios\"",
+        "'/button/queryButtonList'",
+        "'get'",
+        "'/button/queryButtonListForTerm'",
+        "'get'",
+        "'/menu/queryMenuChildSelect'",
+        "'get'",
+        "'/button/addOrModifyButton'",
+        "'post'",
+        "/button/deleteButton?buttonId=${data}",
+        "'delete'",
+        "'/button/queryAllButtonList'",
+        "'get'"
+    ],
+    "variables": [
+        "GetButtionList",
+        "QueryButtionList",
+        "GetMenuChildList",
+        "AddOrModifyButton",
+        "DeleteButton",
+        "getAllButton"
+    ],
+    "comments": [
+        "得到按钮列表数据",
+        "修改调用接口",
+        "获取菜单列表",
+        "修改、新增保存调用接口",
+        "删除接口",
+        "获取所有按钮"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

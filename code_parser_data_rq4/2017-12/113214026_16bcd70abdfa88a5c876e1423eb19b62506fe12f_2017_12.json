@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "seconds",
+        "clearInterval",
+        "countdown",
+        "now",
+        "seconds",
+        "displayTimeLeft",
+        "then",
+        "countdown",
+        "setInterval",
+        "timeLeft",
+        "then",
+        "timeLeft",
+        "clearInterval",
+        "countdown",
+        "displayTimeLeft",
+        "timeLeft",
+        "seconds",
+        "seconds",
+        "seconds",
+        "padTime",
+        "minutes",
+        "seconds",
+        "minutes",
+        "seconds",
+        "minutes",
+        "minutes",
+        "seconds",
+        "seconds"
+    ],
+    "literals": [
+        "${minutes < 10 ? '0': ''}${minutes}:${seconds < 10 ? '0' : ''}${seconds}",
+        "'0'",
+        "''",
+        "'0'",
+        "''"
+    ],
+    "variables": [
+        "countdown",
+        "now",
+        "then",
+        "minutes"
+    ],
+    "comments": [
+        "stores a reference to setInterval. Initialized in the function 'timer'",
+        "clear any existing timer",
+        "get the time at which the timer will stop",
+        "takes in a parameter in seconds and formats it in a human friendly way",
+        "pads time so it is consistent and readable. Instead of '5:3'",
+        "(5 minutes and 3 seconds), it returns a string '05:03'",
+        "timer(124);"
+    ],
+    "docstrings": [
+        "*********************************************************************\n* Name: Ryan Mack\n* Date: 12/5/2017\n* Description: A file that contains the code for a pomodoro clock\n**********************************************************************",
+        "*********************************************************************\n* timer function -- sets and resets the a timer saved to the variable\n* countdown.\n**********************************************************************"
+    ],
+    "functions": [
+        "timer",
+        "displayTimeLeft",
+        "padTime"
+    ],
+    "classes": []
+}

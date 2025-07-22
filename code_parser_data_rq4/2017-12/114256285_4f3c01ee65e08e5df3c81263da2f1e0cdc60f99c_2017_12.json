@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "Element",
+        "PolymerElement",
+        "html",
+        "strings",
+        "values",
+        "strings",
+        "values",
+        "v",
+        "i",
+        "v",
+        "strings",
+        "i",
+        "PolymerElement",
+        "fav",
+        "fav",
+        "html",
+        "customElements",
+        "DemoElement"
+    ],
+    "literals": [
+        "\"../../node_modules/@polymer/polymer/polymer-element.js\"",
+        "\"../../node_modules/@polymer/iron-icons/iron-icons.js\"",
+        "\"../icon-toggle.js\"",
+        "''",
+        "'You really like me!'",
+        "'Do you like me?'",
+        "<style>\n        :host {\n          font-family: sans-serif;\n          --icon-toggle-color: lightgrey;\n          --icon-toggle-outline-color: black;\n          --icon-toggle-pressed-color: red;\n        }\n      </style>\n  \n      <h3>Statically-configured icon-toggles</h3>\n    \n      <icon-toggle toggle-icon=\"star\"></icon-toggle>\n      <icon-toggle toggle-icon=\"star\" pressed></icon-toggle>\n    \n      <h3>Data-bound icon-toggle</h3>\n\n      <!-- use a computed binding to generate the message -->\n      <div><span>[[_message(isFav)]]</span></div>\n\n      <!-- curly brackets ({{}}} allow two-way binding --> \n      <icon-toggle toggle-icon=\"favorite\" pressed=\"{{isFav}}\"></icon-toggle>",
+        "'demo-element'"
+    ],
+    "variables": [
+        "html"
+    ],
+    "comments": [
+        "export const html = Polymer.html;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "_message",
+        "template"
+    ],
+    "classes": [
+        "DemoElement"
+    ]
+}

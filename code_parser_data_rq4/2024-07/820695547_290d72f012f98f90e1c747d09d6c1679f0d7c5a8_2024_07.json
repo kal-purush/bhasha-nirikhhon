@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "NextApiRequest",
+        "NextApiResponse",
+        "createUploadthing",
+        "FileRouter",
+        "UploadThingError",
+        "createUploadthing",
+        "auth",
+        "req",
+        "res",
+        "f",
+        "auth",
+        "req",
+        "res",
+        "user",
+        "UploadThingError",
+        "user",
+        "metadata",
+        "file",
+        "metadata",
+        "ourFileRouter"
+    ],
+    "literals": [
+        "\"next\"",
+        "\"uploadthing/next-legacy\"",
+        "\"uploadthing/server\"",
+        "\"fakeId\"",
+        "\"4MB\"",
+        "\"Unauthorized\"",
+        "\"Upload complete for userId:\"",
+        "\"file url\""
+    ],
+    "variables": [
+        "f",
+        "auth",
+        "ourFileRouter",
+        "user"
+    ],
+    "comments": [
+        "Fake auth function",
+        "FileRouter for your app, can contain multiple FileRoutes",
+        "Define as many FileRoutes as you like, each with a unique routeSlug",
+        "Set permissions and file types for this FileRoute",
+        "This code runs on your server before upload",
+        "If you throw, the user will not be able to upload",
+        "Whatever is returned here is accessible in onUploadComplete as `metadata`",
+        "This code RUNS ON YOUR SERVER after upload",
+        "!!! Whatever is returned here is sent to the clientside `onClientUploadComplete` callback"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

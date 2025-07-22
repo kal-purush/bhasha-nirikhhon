@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "path",
+        "userToken"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "1. Get commit tree from GitHub based on path",
+        "2. Filter tree on files only (check for size property)",
+        "3. Get sandbox files"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getFileDifferences"
+    ],
+    "classes": []
+}

@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "requests",
+        "json",
+        "django",
+        "conf",
+        "settings",
+        "settings",
+        "OPEN_API_KEY",
+        "city_name",
+        "open_weather_url",
+        "city_name",
+        "open_weather_secret_key",
+        "city_url",
+        "requests",
+        "get",
+        "city_url",
+        "response",
+        "json",
+        "res",
+        "res",
+        "res",
+        "res",
+        "tem_kv",
+        "res"
+    ],
+    "literals": [
+        "\"https://api.openweathermap.org/data/2.5/weather?\"",
+        "\"kigali\"",
+        "\"q=\"",
+        "\"&appid=\"",
+        "\"cod\"",
+        "\"404\"",
+        "'main'",
+        "'temp'",
+        "'main'",
+        "'pressure'",
+        "'main'",
+        "'humidity'",
+        "\"Sorry we cant find your city\""
+    ],
+    "variables": [
+        "open_weather_secret_key",
+        "open_weather_url",
+        "city_url",
+        "response",
+        "res",
+        "tem_kv",
+        "pressure",
+        "humidity",
+        "tem_c"
+    ],
+    "comments": [
+        "calls in an api key that is generated from open weather platfrom",
+        "make sure you sign up for an api key if you dont have any",
+        "the open weather url",
+        "call the api url and get a respone",
+        "format the data into a python json object",
+        "Check to see if the City exits"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_weather_date"
+    ],
+    "classes": []
+}

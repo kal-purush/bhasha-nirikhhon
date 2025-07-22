@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "RJL",
+        "HW4",
+        "OOP",
+        "Classes",
+        "Task2",
+        "agregatCountDetails",
+        "AgregatCountDetails",
+        "agregatCountDetails"
+    ],
+    "literals": [],
+    "variables": [
+        "AgregatCountDetails"
+    ],
+    "comments": [
+        "public decimal getCountDaysForAssembly(int agregatCountDetails, int countDetailsPerDay)",
+        "{",
+        "decimal temp = agregatCountDetails / countDetailsPerDay;",
+        "decimal countDaysForAssembly = Math.Ceiling(temp);",
+        "return countDaysForAssembly;",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Agregat"
+    ],
+    "classes": [
+        "Agregat"
+    ]
+}

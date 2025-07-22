@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "erDev",
+        "getContextPathForStaticContent",
+        "getContextPathFromWindowLocation",
+        "erDev",
+        "context_path",
+        "getContextPathFromWindowLocation",
+        "pathname",
+        "pathname"
+    ],
+    "literals": [
+        "\"../nav-soknad/utils/rest-utils\"",
+        "\"soknadsosialhjelp\"",
+        "\"soknadsosialhjelp-server\"",
+        "\"sosialhjelp-test\"",
+        "\"sosialhjelp-api-test\"",
+        "string",
+        "\"\"",
+        "string",
+        "string",
+        "\"$1\"",
+        "\"$1\"",
+        "string",
+        "'/soknadsosialhjelp/link'"
+    ],
+    "variables": [
+        "CONTEXT_PATH",
+        "API_CONTEXT_PATH",
+        "HEROKU_MASTER_APP_NAME",
+        "HEROKU_API_MASTER_APP_NAME",
+        "getContextPathForStaticContent",
+        "context_path",
+        "getContextPathFromWindowLocation"
+    ],
+    "comments": [
+        "@ts-ignore",
+        "return window.location.pathname.replace(`/^/(([^/]+/)?${CONTEXT_PATH}).+$/`, \"$1\")",
+        "return window.location.pathname.replace( /^\\/(([^/]+\\/)?soknadsosialhjelp).+$/, \"/$1\");",
+        "return \"/soknadsosialhjelp\""
+    ],
+    "docstrings": [],
+    "functions": [
+        "getContextPathBasename",
+        "getRedirectPathname"
+    ],
+    "classes": []
+}

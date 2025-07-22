@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "styled",
+        "themeColor",
+        "themeSpacing",
+        "TextArea",
+        "AscTextArea",
+        "ErrorMessage",
+        "ErrorWrapper",
+        "styled",
+        "ErrorMessage",
+        "themeSpacing",
+        "styled",
+        "AscTextArea",
+        "themeSpacing",
+        "rows",
+        "lineHeight",
+        "maxRows",
+        "lineHeight",
+        "lineHeight",
+        "styled",
+        "themeColor",
+        "themeSpacing",
+        "infoFontSize",
+        "ErrorWrapper"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'@amsterdam/asc-ui'",
+        "'components/ErrorMessage'",
+        "margin-bottom: ${themeSpacing(2)};",
+        "margin-top: ${themeSpacing(1)};\n  font-family: inherit;\n  vertical-align: top; /* https://stackoverflow.com/questions/7144843/extra-space-under-textarea-differs-along-browsers */\n  min-height: ${({ rows = 5 }) => rows * lineHeight}px;\n  resize: vertical;\n  max-height: ${({ maxRows = 15 }) => maxRows * lineHeight}px;\n  line-height: ${lineHeight}px;",
+        "color: ${themeColor('tint', 'level5')};\n  margin-top: ${themeSpacing(2)};\n  font-size: ${infoFontSize}px;",
+        "'tint'",
+        "'level5'"
+    ],
+    "variables": [
+        "lineHeight",
+        "infoFontSize",
+        "StyledErrorMessage",
+        "StyledArea",
+        "InfoText"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "importlib",
+        "typing",
+        "TYPE_CHECKING",
+        "Any",
+        "TYPE_CHECKING",
+        "langchain_azure_ai",
+        "chat_message_histories",
+        "cosmos_db",
+        "CosmosDBChatMessageHistory",
+        "name",
+        "Any",
+        "name",
+        "_module_lookup",
+        "importlib",
+        "import_module",
+        "_module_lookup",
+        "name",
+        "getattr",
+        "name",
+        "AttributeError",
+        "name"
+    ],
+    "literals": [
+        "\"CosmosDBChatMessageHistory\"",
+        "\"CosmosDBChatMessageHistory\"",
+        "\"langchain_azure_ai.chat_message_histories.cosmos_db\"",
+        "f\"module {__name__} has no attribute {name}\""
+    ],
+    "variables": [
+        "__all__",
+        "_module_lookup"
+    ],
+    "comments": [
+        "noqa: E501"
+    ],
+    "docstrings": [
+        "\"\"\"**Chat message history** stores a history of the message interactions in a chat.\n\n**Class hierarchy:**\n\n.. code-block::\n\n    BaseChatMessageHistory --> <name>ChatMessageHistory  # Examples: CosmosDBChatMessageHistory\n\n**Main helpers:**\n\n.. code-block::\n\n    AIMessage, HumanMessage, BaseMessage\n\n\"\"\""
+    ],
+    "functions": [
+        "__getattr__"
+    ],
+    "classes": []
+}

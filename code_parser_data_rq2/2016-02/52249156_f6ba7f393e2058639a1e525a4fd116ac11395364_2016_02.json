@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "Component",
+        "Host",
+        "NgFormModel",
+        "ValidationService",
+        "Component",
+        "Host",
+        "_formDir",
+        "_formDir",
+        "propertyName",
+        "c",
+        "c",
+        "propertyName",
+        "c",
+        "ValidationService",
+        "propertyName"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/common'",
+        "'../service/ValidationService'",
+        "'control-messages'",
+        "'controlName: control'",
+        "'<div *ngIf=\"errorMessage !== null\">{{errorMessage}}</div>'",
+        "string"
+    ],
+    "variables": [
+        "c"
+    ],
+    "comments": [
+        "Find the control in the Host (Parent) form",
+        "If control has a error",
+        "Return the appropriate error message from the Validation Service"
+    ],
+    "docstrings": [],
+    "functions": [
+        "errorMessage"
+    ],
+    "classes": [
+        "ControlMessages"
+    ]
+}

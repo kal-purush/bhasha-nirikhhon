@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "numpy",
+        "pi",
+        "sqrt",
+        "exp",
+        "x",
+        "mu",
+        "sigma",
+        "sqrt",
+        "pi",
+        "sigma",
+        "exp",
+        "x",
+        "mu",
+        "sigma",
+        "doctest",
+        "doctest",
+        "testmod"
+    ],
+    "literals": [
+        "\"__main__\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nReference: https://en.wikipedia.org/wiki/Gaussian_function\n\npython/black : True\npython : 3.7.3\n\n\"\"\"",
+        "\"\"\"\n    >>> gaussian(1)\n    0.24197072451914337\n      \n    >>> gaussian(24)\n    3.342714441794458e-126\n\n    Supports NumPy Arrays\n    Use numpy.meshgrid with this to generate gaussian blur on images.\n    >>> import numpy as np\n    >>> x = np.arange(15)\n    >>> gaussian(x)\n    array([3.98942280e-01, 2.41970725e-01, 5.39909665e-02, 4.43184841e-03,\n           1.33830226e-04, 1.48671951e-06, 6.07588285e-09, 9.13472041e-12,\n           5.05227108e-15, 1.02797736e-18, 7.69459863e-23, 2.11881925e-27,\n           2.14638374e-32, 7.99882776e-38, 1.09660656e-43])\n           \n    >>> gaussian(15)\n    5.530709549844416e-50\n\n    >>> gaussian([1,2, 'string'])\n    Traceback (most recent call last):\n        ...\n    TypeError: unsupported operand type(s) for -: 'list' and 'float'\n\n    >>> gaussian('hello world')\n    Traceback (most recent call last):\n        ...\n    TypeError: unsupported operand type(s) for -: 'str' and 'float'\n\n    >>> gaussian(10**234) # doctest: +IGNORE_EXCEPTION_DETAIL\n    Traceback (most recent call last):\n        ...\n    OverflowError: (34, 'Result too large')\n\n    >>> gaussian(10**-326)\n    0.3989422804014327\n\n    >>> gaussian(2523, mu=234234, sigma=3425)\n    0.0\n  \"\"\""
+    ],
+    "functions": [
+        "gaussian"
+    ],
+    "classes": []
+}

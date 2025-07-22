@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "django",
+        "conf",
+        "settings",
+        "django",
+        "core",
+        "exceptions",
+        "ImproperlyConfigured",
+        "django",
+        "test",
+        "TestCase",
+        "django",
+        "test",
+        "utils",
+        "override_settings",
+        "adyen",
+        "config",
+        "get_config",
+        "override_settings",
+        "ADYEN_IDENTIFIER",
+        "ADYEN_SECRET_KEY",
+        "ADYEN_ACTION_URL",
+        "ADYEN_SKIN_CODE",
+        "TestCase",
+        "get_config",
+        "__class__",
+        "get_config",
+        "get_action_url",
+        "override_settings",
+        "settings",
+        "ADYEN_ACTION_URL",
+        "assertRaises",
+        "ImproperlyConfigured",
+        "get_config",
+        "override_settings",
+        "ADYEN_CONFIG_CLASS",
+        "TestCase",
+        "get_config",
+        "__class__",
+        "override_settings",
+        "ADYEN_ACTION_URL",
+        "get_config",
+        "get_action_url"
+    ],
+    "literals": [
+        "'foo'",
+        "'foo'",
+        "'foo'",
+        "'foo'",
+        "'FromSettingsConfig'",
+        "'foo'",
+        "'foo'",
+        "'tests.test_config.DummyConfigClass'",
+        "'DummyConfigClass'",
+        "'bar'",
+        "'foo'"
+    ],
+    "variables": [],
+    "comments": [
+        "https://docs.djangoproject.com/en/1.8/topics/testing/tools/#django.test.modify_settings",
+        "Override settings is needed to let us delete settings on a per-test basis.",
+        "If the setting is missing, a proper exception is raised"
+    ],
+    "docstrings": [
+        "\"\"\"\n    This test case tests the FromSettings confic class, which just fetches its\n    values from the Django settings.\n    \"\"\"",
+        "\"\"\"\n    This test case checks that it's possible to replace the FromSettings confic class\n    by one's own, and that it is used to fetch values as expected.\n    \"\"\"",
+        "\"\"\"\n        Check that we indeed ignore Django settings (apart from the config class).\n        \"\"\""
+    ],
+    "functions": [
+        "test_is_default",
+        "test_value_passing_works",
+        "test_complains_when_not_fully_configured",
+        "get_action_url",
+        "test_class_gets_picked_up",
+        "test_settings_ignored"
+    ],
+    "classes": [
+        "FromSettingsTestCase",
+        "DummyConfigClass",
+        "CustomConfigClassTestCase"
+    ]
+}

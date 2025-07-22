@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Request",
+        "Response",
+        "NextFunction",
+        "HTTP400Error",
+        "HTTP422Error",
+        "Submodel",
+        "logger",
+        "Adapter",
+        "checkReqBodyEmpty",
+        "req",
+        "res",
+        "next",
+        "req",
+        "req",
+        "HTTP400Error",
+        "next",
+        "validateCreateAdaptersRequest",
+        "req",
+        "res",
+        "next",
+        "req",
+        "adaptersArray",
+        "adapter",
+        "adapter",
+        "adapter",
+        "adapter",
+        "logger",
+        "adapterId",
+        "adapterId",
+        "logger",
+        "HTTP422Error",
+        "submodelId",
+        "semanticId",
+        "logger",
+        "HTTP422Error",
+        "next"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"../utils/httpErrors\"",
+        "\"i40-aas-objects\"",
+        "\"../utils/log\"",
+        "\"../services/registry/interfaces/IRegistryResultSet\"",
+        "\"Submodel JSON is empty, check request body!\"",
+        "\"id \"",
+        "\"Missing id in adapter \"",
+        "\"Missing required fields in Request: adapterId\"",
+        "\"Missing submodelId or SubmodelSemanticId \"",
+        "\"Missing submodelId or SubmodelSemanticId\""
+    ],
+    "variables": [
+        "checkReqBodyEmpty",
+        "validateCreateAdaptersRequest",
+        "adaptersArray",
+        "adapterId",
+        "submodelId",
+        "semanticId"
+    ],
+    "comments": [
+        "check if the req body is empty"
+    ],
+    "docstrings": [
+        "* Validation function to check that the submodels request contains valid\n * submodels elements\n * @param req\n * @param next"
+    ],
+    "functions": [],
+    "classes": []
+}

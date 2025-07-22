@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "IO",
+        "Microsoft",
+        "Extensions",
+        "CommandLineUtils",
+        "KoreBuild",
+        "Commands",
+        "SubCommandBase",
+        "CommandContext",
+        "context",
+        "context",
+        "CommandLineApplication",
+        "application",
+        "application",
+        "Description",
+        "Configure",
+        "application",
+        "Context",
+        "KoreBuildVersion",
+        "Context",
+        "RepoPath",
+        "Path",
+        "Combine",
+        "Context",
+        "KoreBuildDir",
+        "Reporter",
+        "IsVerbose",
+        "args",
+        "Add",
+        "args",
+        "Add",
+        "RunDotnet",
+        "args",
+        "Context",
+        "RepoPath"
+    ],
+    "literals": [
+        "\"Generates baselines for all projects in this repo.\"",
+        "\"msbuild\"",
+        "\"/nologo\"",
+        "\"/m\"",
+        "\"\\\"/p:GenerateBaselines=true\\\"\"",
+        "\"\\\"/p:SkipTests=true\\\"\"",
+        "\"/clp:Summary\"",
+        "\"KoreBuild.proj\"",
+        "\"\\\"/v:n\\\"\"",
+        "\"\\\"/v:m\\\"\""
+    ],
+    "variables": [
+        "args"
+    ],
+    "comments": [
+        "Copyright (c) .NET Foundation. All rights reserved.",
+        "Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information."
+    ],
+    "docstrings": [],
+    "functions": [
+        "ApiBaselinesGenerateCommand",
+        "Configure",
+        "Execute"
+    ],
+    "classes": [
+        "ApiBaselinesGenerateCommand"
+    ]
+}

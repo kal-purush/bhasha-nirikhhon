@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "coordinates",
+        "x1",
+        "coordinates",
+        "y1",
+        "coordinates",
+        "x2",
+        "coordinates",
+        "y2",
+        "coordinates",
+        "i",
+        "i",
+        "coordinates",
+        "length",
+        "i",
+        "xi",
+        "coordinates",
+        "i",
+        "yi",
+        "coordinates",
+        "i",
+        "yi",
+        "y1",
+        "x2",
+        "x1",
+        "y2",
+        "y1",
+        "xi",
+        "x1"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Cross-multiply to avoid division: (y3 - y1) * (x2 - x1) == (y2 - y1) * (x3 - x1)"
+    ],
+    "docstrings": [
+        "* Leetcode 1232: Check If It Is a Straight Line. Java. Easy.\n * O(N) runtime and O(1) space complexity.\n * Uses integer cross-multiplication to compare slopes between points, avoiding floating-point precision issues.\n *\n * Input: coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]\n * Step 1: Use first two points (x1,y1), (x2,y2) to define base slope.\n * Step 2: For each (xi, yi), check:\n *   (yi - y1) * (x2 - x1) == (y2 - y1) * (xi - x1)\n *\n * 5/1/2025 Winston Tsui"
+    ],
+    "functions": [
+        "checkStraightLine"
+    ],
+    "classes": [
+        "Solution"
+    ]
+}

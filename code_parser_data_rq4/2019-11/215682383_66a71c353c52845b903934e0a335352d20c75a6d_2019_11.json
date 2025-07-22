@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "rospy",
+        "std_msgs",
+        "msg",
+        "Int64",
+        "myDepth",
+        "setDepth",
+        "myDepth",
+        "value",
+        "value",
+        "depth",
+        "rospy",
+        "Publisher",
+        "Int64",
+        "queue_size",
+        "rospy",
+        "init_node",
+        "anonymous",
+        "rospy",
+        "Rate",
+        "pub",
+        "publish",
+        "getDepth",
+        "rospy",
+        "loginfo",
+        "getDepth",
+        "rate",
+        "sleep"
+    ],
+    "literals": [
+        "'depthChatter'",
+        "'depthTalker'",
+        "'Current Depth: %d'"
+    ],
+    "variables": [
+        "depth",
+        "pub",
+        "rate"
+    ],
+    "comments": [
+        "if __name__ == '__main__':",
+        "try:",
+        "talker()",
+        "except rospy.ROSInterruptException:",
+        "pass"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setDepth",
+        "getDepth",
+        "talker"
+    ],
+    "classes": [
+        "depthSub"
+    ]
+}

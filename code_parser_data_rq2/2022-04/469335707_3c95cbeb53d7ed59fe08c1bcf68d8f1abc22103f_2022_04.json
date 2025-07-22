@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "createApi",
+        "fetchBaseQuery",
+        "IPlaylist",
+        "IUser",
+        "TRootState",
+        "createApi",
+        "fetchBaseQuery",
+        "headers",
+        "getState",
+        "state",
+        "user",
+        "headers",
+        "user",
+        "headers",
+        "builder",
+        "builder",
+        "rawResult",
+        "meta",
+        "rawResult",
+        "builder",
+        "id",
+        "id"
+    ],
+    "literals": [
+        "'@reduxjs/toolkit/query/react'",
+        "'../interfacesAndTypes'",
+        "'playlistsApi'",
+        "'https://api.spotify.com/v1'",
+        "'Authorization'",
+        "Bearer ${user.accessToken}",
+        "string",
+        "'/me/playlists'",
+        "'GET'",
+        "string",
+        "playlists/${id}",
+        "'GET'"
+    ],
+    "variables": [
+        "playlistsApi",
+        "state",
+        "user",
+        "playlistsApi"
+    ],
+    "comments": [
+        "Need to use the React-specific entry point to allow generating React hooks",
+        "Define a service using a base URL and expected endpoints",
+        "The return value for `transformResponse` must match `ResultType`",
+        "Export hooks for usage in function components, which are",
+        "auto-generated based on the defined endpoints"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "leetcode",
+        "Y2023",
+        "daily",
+        "hard",
+        "org",
+        "junit",
+        "Test",
+        "java",
+        "util",
+        "org",
+        "junit",
+        "Assert",
+        "assertEquals",
+        "satisfaction",
+        "n",
+        "satisfaction",
+        "length",
+        "Arrays",
+        "sort",
+        "satisfaction",
+        "res",
+        "total",
+        "i",
+        "n",
+        "i",
+        "satisfaction",
+        "i",
+        "total",
+        "i",
+        "total",
+        "satisfaction",
+        "i",
+        "res",
+        "total",
+        "res",
+        "Test",
+        "assertEquals",
+        "maxSatisfaction"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*\n* If we cook some dishes,\nthey must be the most satisfied among all choices.\n\nAnother important observation is that,\nwe will cook the dish with small satisfication,\nand leave the most satisfied dish in the end.\n\nExplanation\nWe choose dishes from most satisfied.\nEverytime we add a new dish to the menu list,\nall dishes on the menu list will be cooked one time unit later,\nso the result += total satisfaction on the list.\nWe'll keep doing this as long as A[i] + total > 0.\n*"
+    ],
+    "functions": [
+        "maxSatisfaction",
+        "test"
+    ],
+    "classes": [
+        "Q1402ReducingDishes"
+    ]
+}

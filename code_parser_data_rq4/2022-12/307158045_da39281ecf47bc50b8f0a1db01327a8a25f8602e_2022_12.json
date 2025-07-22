@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Linq",
+        "XamlX",
+        "TypeSystem",
+        "Avalonia",
+        "NameGenerator",
+        "Generator",
+        "IXamlType",
+        "clrType",
+        "clrType",
+        "HasControlBaseType",
+        "clrType",
+        "HasIControlInterface",
+        "IXamlType",
+        "clrType",
+        "clrType",
+        "FullName",
+        "clrType",
+        "BaseType",
+        "IsAvaloniaControl",
+        "clrType",
+        "BaseType",
+        "IXamlType",
+        "clrType",
+        "clrType",
+        "Interfaces",
+        "Any",
+        "abstraction",
+        "IsInterface",
+        "abstraction",
+        "FullName"
+    ],
+    "literals": [
+        "\"Avalonia.Controls.Control\"",
+        "\"Avalonia.Controls.IControl\""
+    ],
+    "variables": [],
+    "comments": [
+        "Check for the base type since IControl interface is removed.",
+        "https://github.com/AvaloniaUI/Avalonia/pull/9553"
+    ],
+    "docstrings": [],
+    "functions": [
+        "IsAvaloniaControl",
+        "HasControlBaseType",
+        "HasIControlInterface"
+    ],
+    "classes": [
+        "ResolverExtensions"
+    ]
+}

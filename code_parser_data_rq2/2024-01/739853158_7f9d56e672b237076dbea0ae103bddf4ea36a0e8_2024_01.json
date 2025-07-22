@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "ContextMessageUpdate",
+        "Middleware",
+        "userRepository",
+        "replyError",
+        "createUser",
+        "ctx",
+        "ctx",
+        "userRepository",
+        "ctx",
+        "ctx",
+        "e",
+        "replyError",
+        "ctx"
+    ],
+    "literals": [
+        "\"telegraf\"",
+        "\"../repository/user\"",
+        "\"../utils/common\"",
+        "'Добро пожаловать!\\nВведите /help для ознакомления с возможностями бота!'"
+    ],
+    "variables": [
+        "createUser"
+    ],
+    "comments": [
+        "await ctx.replyWithMarkdown('```' + String(e) + '```');"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

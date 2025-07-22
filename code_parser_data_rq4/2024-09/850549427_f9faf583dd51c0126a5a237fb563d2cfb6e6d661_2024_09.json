@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "name",
+        "email",
+        "message",
+        "formDataArray",
+        "formData",
+        "formDataArray",
+        "alert",
+        "formDataArray"
+    ],
+    "literals": [
+        "'contactForm'",
+        "'submit'",
+        "'name'",
+        "'email'",
+        "'message'",
+        "'Form Data Array:'",
+        "'contactForm'",
+        "'Thank you for contacting us! Your message has been saved.'"
+    ],
+    "variables": [
+        "formDataArray",
+        "name",
+        "email",
+        "message",
+        "formData"
+    ],
+    "comments": [
+        "Array to store contact form details",
+        "Function to handle form submission",
+        "Prevent the form from submitting the traditional way",
+        "Get form values",
+        "Create an object to store the form data",
+        "Push the form data object into the array",
+        "Log the formDataArray to the console (for testing)",
+        "Optionally, clear the form fields after submission",
+        "Alert the user that the form was submitted successfully"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

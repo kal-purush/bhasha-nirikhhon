@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "require",
+        "https",
+        "requestOptions",
+        "response",
+        "response",
+        "response",
+        "data",
+        "data",
+        "response"
+    ],
+    "literals": [
+        "'https'",
+        "'sytantris.github.io'",
+        "'/http-examples/step1.html'",
+        "'utf8'",
+        "'data'",
+        "'Chunk Received. Length:'",
+        "'end'",
+        "'Response stream complete.'"
+    ],
+    "variables": [
+        "https",
+        "requestOptions"
+    ],
+    "comments": [
+        "set encoding of received data to UTF-8",
+        "the callback is invoked when a `data` chunk is received",
+        "the callback is invoked when all of the data has been received",
+        "(the `end` of the stream)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getAndPrintHTMLChunks"
+    ],
+    "classes": []
+}

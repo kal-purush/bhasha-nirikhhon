@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "requests",
+        "bs4",
+        "BeautifulSoup",
+        "requests",
+        "get",
+        "url",
+        "headers",
+        "headers",
+        "response",
+        "status_code",
+        "BeautifulSoup",
+        "response",
+        "content",
+        "soup",
+        "find",
+        "class_",
+        "find_all",
+        "class_",
+        "item",
+        "news",
+        "item",
+        "text"
+    ],
+    "literals": [
+        "'https://esstu.ru/index.htm'",
+        "'User-Agent'",
+        "'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'",
+        "\"html.parser\"",
+        "'div'",
+        "'index-category-text index-category-text-active'",
+        "'a'",
+        "'c3'"
+    ],
+    "variables": [
+        "url",
+        "headers",
+        "response",
+        "soup",
+        "news"
+    ],
+    "comments": [
+        "nazvanie = soup.find('div', {'class' :'anime-title'}).find('h1')",
+        "print ('Аниме: ' + nazvanie.text)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

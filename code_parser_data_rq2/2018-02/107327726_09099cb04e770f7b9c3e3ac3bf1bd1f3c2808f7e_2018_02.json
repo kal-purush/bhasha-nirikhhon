@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "Directive",
+        "Input",
+        "OnDestroy",
+        "TemplateRef",
+        "ViewContainerRef",
+        "ObservableMedia",
+        "Subject",
+        "combineLatest",
+        "startWith",
+        "Directive",
+        "Subject",
+        "combineLatest",
+        "startWith",
+        "matcher",
+        "condition",
+        "condition",
+        "Input",
+        "value",
+        "value",
+        "template",
+        "viewContainer",
+        "media"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/flex-layout'",
+        "'rxjs/Subject'",
+        "'rxjs/observable/combineLatest'",
+        "'rxjs/operators'",
+        "'[msMediaIf]'",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "matcher",
+        "_",
+        "condition"
+    ],
+    "comments": [
+        "this is needed since fxHide does not actually remove hidden elements from the DOM",
+        "this directive is the recommended work around for this issue",
+        "see https://github.com/angular/flex-layout/issues/142 for more details"
+    ],
+    "docstrings": [],
+    "functions": [
+        "msMediaIf",
+        "ngOnDestroy"
+    ],
+    "classes": [
+        "MediaIfDirective"
+    ]
+}

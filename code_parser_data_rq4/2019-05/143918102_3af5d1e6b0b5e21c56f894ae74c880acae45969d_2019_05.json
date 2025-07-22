@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "createLogger",
+        "format",
+        "transports",
+        "winston",
+        "printf",
+        "timestamp",
+        "label",
+        "level",
+        "message",
+        "winston",
+        "createLogger",
+        "transports",
+        "transports",
+        "transports",
+        "combine",
+        "colorize",
+        "timestamp",
+        "myFormat",
+        "msg",
+        "msg",
+        "msg",
+        "fileName",
+        "msg",
+        "winstonLogger",
+        "msg",
+        "fileName",
+        "msg",
+        "winstonLogger",
+        "msg",
+        "fileName",
+        "msg",
+        "winstonLogger",
+        "msg",
+        "fileName"
+    ],
+    "literals": [
+        "'winston'",
+        "'winston'",
+        "${timestamp} [${label}] ${level}: ${message}",
+        "'debug'",
+        "'icon-magic-run.log'",
+        "'silly'",
+        "'icon-magic-error.log'",
+        "'error'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "format",
+        "myFormat",
+        "winstonLogger"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Initializing winston's logger to capture the run and error logs",
+        "* Wrapper around winston's logger",
+        "* Wrapper around winston's logger that takes in a fileName\n * @param fileName name of the file that's added as a label to the logging data"
+    ],
+    "functions": [
+        "logger"
+    ],
+    "classes": []
+}

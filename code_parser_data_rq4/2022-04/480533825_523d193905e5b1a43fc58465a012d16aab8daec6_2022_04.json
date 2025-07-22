@@ -1,0 +1,90 @@
+{
+    "identifiers": [
+        "i",
+        "MAX",
+        "key",
+        "key",
+        "h",
+        "ord",
+        "h",
+        "MAX",
+        "key",
+        "val",
+        "get_hash",
+        "key",
+        "arr",
+        "val",
+        "key",
+        "get_hash",
+        "key",
+        "arr",
+        "h",
+        "key",
+        "get_hash",
+        "key",
+        "arr",
+        "HashTable",
+        "t",
+        "t",
+        "t",
+        "t",
+        "t",
+        "arr"
+    ],
+    "literals": [
+        "'march 6'",
+        "'march 1'",
+        "'dec 17'",
+        "'march 6'",
+        "'march 1'",
+        "'dec 17'",
+        "'march 6'"
+    ],
+    "variables": [
+        "MAX",
+        "arr",
+        "h",
+        "h",
+        "h",
+        "h",
+        "h",
+        "h",
+        "t",
+        "t",
+        "t",
+        "t"
+    ],
+    "comments": [
+        "def get_hash(key):",
+        "h = 0",
+        "for char in key:",
+        "h += ord(char)",
+        "return h % 100",
+        "out = get_hash('march 22')",
+        "print(out)",
+        "Hash function",
+        "add/insert function",
+        "get function. Calling it by key",
+        "delete item function",
+        "using function",
+        "print(t.__setitem__('march 6', 130))",
+        "print(t.__getitem__('march 6'))",
+        "using dictionary",
+        "setitem",
+        "getitem",
+        "should delete 130 from the dictionary",
+        "printing dictionary"
+    ],
+    "docstrings": [
+        "'''\nPracticing implementing hashmaps\n'''"
+    ],
+    "functions": [
+        "get_hash",
+        "__setitem__",
+        "__getitem__",
+        "__delitem__"
+    ],
+    "classes": [
+        "HashTable"
+    ]
+}

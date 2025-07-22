@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "MixedSchema",
+        "addFaker",
+        "MixedFaker",
+        "MixedSchema",
+        "CustomMixedSchema",
+        "customMixed",
+        "CustomMixedSchema",
+        "addFaker",
+        "customMixed",
+        "MixedFaker",
+        "customMixed"
+    ],
+    "literals": [
+        "'yup'",
+        "'yup-schema-faker'",
+        "'custom-mixed'"
+    ],
+    "variables": [
+        "customMixed"
+    ],
+    "comments": [
+        "Define a custom schema",
+        "yup-schema-faker use type to distinguish diffrent schema",
+        "Here we just rename it to simulate that it is not built-in schema",
+        "Since the type of CustomMixedSchema is changed, you must have to register it to distinguish the schema.",
+        "We register the custom schema and simply use the existing faker to fake the schema.",
+        "Expose to window for demo"
+    ],
+    "docstrings": [],
+    "functions": [
+        "create"
+    ],
+    "classes": [
+        "CustomMixedSchema"
+    ]
+}

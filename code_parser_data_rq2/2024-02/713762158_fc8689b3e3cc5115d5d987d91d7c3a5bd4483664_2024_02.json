@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "node",
+        "node",
+        "ids",
+        "getUsers",
+        "ids",
+        "t",
+        "t",
+        "t",
+        "t",
+        "user",
+        "user",
+        "ids",
+        "ids",
+        "id",
+        "id",
+        "id"
+    ],
+    "literals": [
+        "'fuse'",
+        "string",
+        "string",
+        "string",
+        "'User'",
+        "'name'",
+        "'avatar_url'",
+        "' '",
+        "string",
+        "Peter #${id}",
+        "https://i.pravatar.cc/300?u=${id}"
+    ],
+    "variables": [
+        "UserNode"
+    ],
+    "comments": [
+        "\"Nodes\" are the core abstraction of Fuse. Each node represents",
+        "a resource/entity with multiple fields and has to define two things:",
+        "1. load(): How to fetch from the underlying data source",
+        "2. fields: What fields should be exposed and added for clients",
+        "rename to camel-case",
+        "Add an additional firstName field",
+        "Fake function to fetch users. In real applications, this would",
+        "talk to an underlying REST API/gRPC service/third-party API/…"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getUsers"
+    ],
+    "classes": []
+}

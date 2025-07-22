@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Inputting",
+        "Inputs",
+        "Inputting",
+        "InputDefinitions",
+        "AnyAsTouchscreenInputDefinition",
+        "IInputDefinition",
+        "TouchscreenInputDefinition",
+        "EffectiveText",
+        "IInputDefinition",
+        "baseInputDefinition",
+        "targetX",
+        "targetY",
+        "keepsName",
+        "_baseInputDefinition",
+        "baseInputDefinition",
+        "_targetX",
+        "targetX",
+        "_targetY",
+        "targetY",
+        "_keepsName",
+        "keepsName",
+        "_baseInputDefinition",
+        "InputRegex",
+        "Input",
+        "Input",
+        "_baseInputDefinition",
+        "Parse",
+        "input",
+        "_keepsName",
+        "input",
+        "DisplayedText",
+        "_targetX",
+        "_targetY",
+        "TouchscreenInput",
+        "displayedText",
+        "EffectiveText",
+        "_targetX",
+        "_targetY"
+    ],
+    "literals": [],
+    "variables": [
+        "EffectiveText",
+        "IInputDefinition",
+        "_baseInputDefinition",
+        "_targetX",
+        "_targetY",
+        "_keepsName",
+        "InputRegex",
+        "input",
+        "displayedText"
+    ],
+    "comments": [
+        "This is basically an aliased or remapped touchscreen coordinate.",
+        "It gets parsed like the passed in input definition,",
+        "but gets executed like an input parsed by a <see cref=\"TouchscreenInputDefinition\"/>.",
+        "This input definition creates inputs of type <see cref=\"TouchscreenInput\"/>.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "AnyAsTouchscreenInputDefinition",
+        "Parse"
+    ],
+    "classes": []
+}

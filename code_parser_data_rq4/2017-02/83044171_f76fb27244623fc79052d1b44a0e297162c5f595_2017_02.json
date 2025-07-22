@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "$",
+        "requestURL",
+        "data",
+        "mainJSON",
+        "$",
+        "mainJSON",
+        "changeOne",
+        "$",
+        "mainJSON",
+        "setTimeout",
+        "changeTwo",
+        "$",
+        "mainJSON",
+        "setTimeout",
+        "changeThree",
+        "$"
+    ],
+    "literals": [
+        "\"https://koivist9.firebaseio.com/.json\"",
+        "\".main-text\"",
+        "\".main-text\"",
+        "\".main-text\"",
+        "\".bg-image\"",
+        "'swing'",
+        "\"reverse\""
+    ],
+    "variables": [
+        "requestURL",
+        "slideContents",
+        "mainJSON",
+        "data"
+    ],
+    "comments": [
+        "SLIDE TEKSTIN VAIHTAMINEN",
+        "$(document).ready(function(){\n    $(\"button\").click(function(){\n        $.getJSON(\"https://koivist9.firebaseio.com/.json\", function(result){\n            console.log(result);\n        });\n    });\n});"
+    ],
+    "docstrings": [],
+    "functions": [
+        "changeOne",
+        "changeTwo",
+        "changeThree"
+    ],
+    "classes": []
+}

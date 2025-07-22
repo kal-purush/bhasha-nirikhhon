@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "ISourceMapMetadata",
+        "SourceMap",
+        "loadSourceMap",
+        "metadata",
+        "metadata",
+        "existing",
+        "existing",
+        "loadSourceMap",
+        "metadata",
+        "metadata",
+        "created",
+        "created",
+        "m",
+        "m"
+    ],
+    "literals": [
+        "'../common/sourceMaps/sourceMap'",
+        "'../common/sourceUtils'",
+        "'../common/disposable'",
+        "string"
+    ],
+    "variables": [
+        "existing",
+        "created"
+    ],
+    "comments": [
+        "---------------------------------------------------------\n * Copyright (C) Microsoft Corporation. All rights reserved.\n *--------------------------------------------------------"
+    ],
+    "docstrings": [
+        "* A cache of source maps shared between the Thread and Predictor to avoid\n * duplicate loading.",
+        "* Loads the provided source map.",
+        "* @inheritdoc"
+    ],
+    "functions": [
+        "load",
+        "dispose"
+    ],
+    "classes": [
+        "SourceMapCache"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "container",
+        "container",
+        "i",
+        "i",
+        "confetti",
+        "confetti",
+        "colors",
+        "colors",
+        "angle",
+        "spread",
+        "angle",
+        "spread",
+        "confetti",
+        "endX",
+        "confetti",
+        "endY",
+        "confetti",
+        "confetti",
+        "confetti",
+        "container",
+        "confetti",
+        "createConfetti"
+    ],
+    "literals": [
+        "\"\"",
+        "'div'",
+        "'confetti-piece'",
+        "'#ffd700'",
+        "'#ff3e00'",
+        "'#00ff00'",
+        "'#00ffff'",
+        "'#ff00ff'",
+        "'--end-x'",
+        "${endX}px",
+        "'--end-y'",
+        "${endY}px",
+        "${Math.random() * 0.2}s",
+        "${0.8 + Math.random() * 0.4}s",
+        "'--rotation'",
+        "${Math.random() * 720 - 360}deg"
+    ],
+    "variables": [
+        "i",
+        "confetti",
+        "colors",
+        "angle",
+        "spread",
+        "endX",
+        "endY"
+    ],
+    "comments": [
+        "Cores aleatórias para o confetti",
+        "Cálculo da dispersão em 360 graus",
+        "Calculando posições finais usando seno e cosseno para movimento circular",
+        "Variando velocidades e delays para movimento mais natural",
+        "Rotação aleatória para cada peça"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createConfetti"
+    ],
+    "classes": []
+}

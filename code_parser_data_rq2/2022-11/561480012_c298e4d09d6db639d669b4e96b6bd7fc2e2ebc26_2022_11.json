@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "GolfSolitaire",
+        "eCardState",
+        "drawpile",
+        "tableau",
+        "target",
+        "discard",
+        "Card",
+        "Header",
+        "eCardState",
+        "drawpile",
+        "CardGolf",
+        "CardGolf",
+        "Golf",
+        "S",
+        "CardClicked",
+        "OnMouseUpAsButton"
+    ],
+    "literals": [
+        "\"Set Dynamically: CardGolf\""
+    ],
+    "variables": [
+        "eCardState",
+        "state",
+        "hiddenBy",
+        "layoutID",
+        "SlotDef",
+        "slotDef"
+    ],
+    "comments": [
+        "This is how you use the enum eCardState",
+        "The hiddenBy list stores which other cards will keep this one face down",
+        "The layoutID matches this card to the tableau XML if it's a tableau card",
+        "The SlotDef class stores information pulled in from the LayoutXML <slot>",
+        "Start is called before the first frame update",
+        "Call the CardClicked method on the Prospector singleton",
+        "Also call the base class (Card.cs) version of this method",
+        "a"
+    ],
+    "docstrings": [],
+    "functions": [
+        "OnMouseUpAsButton"
+    ],
+    "classes": [
+        "CardGolf"
+    ]
+}

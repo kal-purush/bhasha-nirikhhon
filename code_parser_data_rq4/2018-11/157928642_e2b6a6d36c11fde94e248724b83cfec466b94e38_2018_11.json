@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "com",
+        "sun",
+        "jna",
+        "Library",
+        "com",
+        "sun",
+        "jna",
+        "Native",
+        "com",
+        "sun",
+        "jna",
+        "Platform",
+        "Unmanaged",
+        "instance",
+        "Native",
+        "loadLibrary",
+        "n",
+        "n",
+        "Native",
+        "register",
+        "args",
+        "result",
+        "Unmanaged",
+        "instance",
+        "world",
+        "UnmanagedC",
+        "calculate"
+    ],
+    "literals": [
+        "\"called.dll\"",
+        "\"called.dll\"",
+        "\"Starting...\"",
+        "\"Hasil dari calculate(0) adalah \""
+    ],
+    "variables": [
+        "result"
+    ],
+    "comments": [
+        "Setidaknya ketiga modul ini harus tersedia.",
+        "Buat sebuah interface (alternatif-1)",
+        "Alternatif ini merupakan cara standard dan stabil untuk memetakan",
+        "fungsi native dan kode Java.",
+        "Deklarasikan fungsi-fungsi yang dapat dipanggil (impor dari DLL)",
+        "Buat sebuah kelas statis (alternatif-2)",
+        "Deklarasikan fungsi-fungsi yang dapat dipanggil (impor dari DLL)",
+        "Memanggil fungsi static world() dengan pendekatan alternatif pertama",
+        "Memanggil calculate() dengan pendekatan alternatif kedua"
+    ],
+    "docstrings": [
+        "Memanggil C++ dari Java.\n\nMenggunakan JNA (Java Native Access) untuk memuat dan menjalankan kode native.\nAda beberapa alternative, lihat lebih banyak contohnya di repository `CodeInterop-Exercise`\n\nCompile:\n    $ javac -cp jna.jar invoke.java\n\nRun: \n    (windows)\n    $ java -cp \"jna.jar;.\" invoke\n\n    (linux)\n    $ java -cp \"jna.jar:.\" invoke\n\nPastikan JNA.jar berada dalam CLASSPATH atau dapat diakses oleh project.",
+        "Pada dasarnya, hanya JNI yang didukung sebagai satu-satunya cara untuk berinteraksi \nantara kode Java dan kode native.\nHal ini akan berbeda apabila proposal JEP 191 Foreign Function Interface benar-benar \ntelah diimplementasikan dan dapat digunakan.\n\nJNA merupakan library luar yang tidak disediakan secara default oleh Java (Oracle JDK \nmaupun OpenJDK). JNA dapat diperoleh melalui\n\n    https://github.com/java-native-access/jna\n\nJNA 4.5.1 digunakan sebagai contoh."
+    ],
+    "functions": [
+        "world",
+        "calculate",
+        "world",
+        "calculate",
+        "main"
+    ],
+    "classes": [
+        "invoke",
+        "UnmanagedC"
+    ]
+}

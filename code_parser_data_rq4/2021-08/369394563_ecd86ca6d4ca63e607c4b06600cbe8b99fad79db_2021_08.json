@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "fse",
+        "memoizeOne",
+        "memoizeOne",
+        "__WIN32__",
+        "fse",
+        "WindowsOpenSSHPath",
+        "isWindowsSSHAvailable",
+        "useWindowsSSH",
+        "WindowsOpenSSHPath"
+    ],
+    "literals": [
+        "'fs-extra'",
+        "'memoize-one'",
+        "'C:\\\\Windows\\\\System32\\\\OpenSSH\\\\ssh.exe'",
+        "'-c'",
+        "core.sshCommand=\"${WindowsOpenSSHPath}\""
+    ],
+    "variables": [
+        "WindowsOpenSSHPath",
+        "isWindowsSSHAvailable",
+        "useWindowsSSH"
+    ],
+    "comments": [
+        "Replace git sshCommand with Windows' OpenSSH executable path"
+    ],
+    "docstrings": [
+        "* Returns the git arguments related to SSH depending on the current context\n * (OS and user settings)."
+    ],
+    "functions": [
+        "getSSHArguments"
+    ],
+    "classes": []
+}

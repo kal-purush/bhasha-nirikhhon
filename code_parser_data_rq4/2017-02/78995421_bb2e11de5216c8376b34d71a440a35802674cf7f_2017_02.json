@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "astroid",
+        "MANAGER",
+        "astroid",
+        "scoped_nodes",
+        "obj_",
+        "obj_",
+        "name",
+        "f",
+        "obj_",
+        "locals",
+        "scoped_nodes",
+        "f",
+        "linter",
+        "MANAGER",
+        "register_transform",
+        "scoped_nodes",
+        "Class",
+        "pyside_transform"
+    ],
+    "literals": [
+        "'Signal'",
+        "\"connect\"",
+        "\"emit\""
+    ],
+    "variables": [
+        "f"
+    ],
+    "comments": [
+        "if obj_.name == \"os\":",
+        "print \"*********************************************************\"",
+        "for f in [\"startfile\"]:",
+        "obj_.locals[f] = [scoped_nodes.Class(f, None)]",
+        "",
+        "if obj_.name == \"email\":",
+        "print \"<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\"",
+        "for f in [\"MIMEMultipart\"]:",
+        "obj_.locals[f] = [scoped_nodes.Class(f, None)]"
+    ],
+    "docstrings": [
+        "\"\"\"called when loaded by pylint --load-plugins, register our tranformation\n    function here\n    \"\"\""
+    ],
+    "functions": [
+        "pyside_transform",
+        "register"
+    ],
+    "classes": []
+}

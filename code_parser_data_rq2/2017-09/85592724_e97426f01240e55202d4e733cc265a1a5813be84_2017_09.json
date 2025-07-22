@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "controls",
+        "i",
+        "count",
+        "i",
+        "controls",
+        "i",
+        "control",
+        "control",
+        "control",
+        "control",
+        "elt",
+        "elt",
+        "elt",
+        "elt"
+    ],
+    "literals": [
+        "'smart-focus-highlight'",
+        "'disable-focus-highlight'",
+        "'keydown'",
+        ".${this.kSmartFocusHighlightClass}",
+        "''",
+        "' '"
+    ],
+    "variables": [
+        "controls",
+        "count",
+        "i",
+        "control"
+    ],
+    "comments": [
+        "add to all elements to enable smart focus highlight functionality",
+        "added to elements when appropriate to disable focus highlight",
+        "Installs a keydown handler on the document which will enable button focus highlighting.",
+        "Should be called once during application initialization.",
+        "Enables button focus highlighting; designed to be called from the keydown handler above",
+        "but available separately for implementations that require it.",
+        "cf. https://developer.mozilla.org/en-US/docs/Web/API/NodeList#Example",
+        "cf. http://stackoverflow.com/questions/195951/change-an-elements-class-with-javascript",
+        "prevent extraneous focus highlight on click while maintaining keyboard accessibility",
+        "see https://www.paciellogroup.com/blog/2012/04/how-to-remove-css-outlines-in-an-accessible-manner/"
+    ],
+    "docstrings": [
+        "* This component is a very thin wrapper around a standard button designed to prevent\n * extraneous focus highlighting added by browsers when clicking on a button while\n * maintaining keyboard accessibility. See\n * https://www.paciellogroup.com/blog/2012/04/how-to-remove-css-outlines-in-an-accessible-manner/\n * for details. The upshot is that we use mouse events on the button to disable the\n * focus highlight -- mousing/clicking on a push button should not be used as an\n * indicator that the user would like to keyboard-interact with that button, which\n * is what focusing a clicked button implies.\n * IMPORTANT: To maintain accessibility, there must be code somewhere to reenable\n * the focus highlight when appropriate. This can be done for 'keydown' by calling\n * enableButtonFocusHighlightOnKeyDown() during application/page initialization,\n * or by adding your own event handler that calls enableButtonFocusHighlight()."
+    ],
+    "functions": [
+        "enableFocusHighlightOnKeyDown",
+        "enableFocusHighlight",
+        "suppressFocusHighlight"
+    ],
+    "classes": [
+        "SmartFocusHighlight"
+    ]
+}

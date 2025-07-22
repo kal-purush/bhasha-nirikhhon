@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "transforms",
+        "InapplicableTransform",
+        "local_transforms",
+        "LocalTransform",
+        "inference_numpyro",
+        "node",
+        "node",
+        "node",
+        "parents",
+        "is_observed",
+        "has_observed_descendent",
+        "pars_included",
+        "isinstance",
+        "node",
+        "cond_dist",
+        "VMapDist",
+        "InapplicableTransform",
+        "node",
+        "cond_dist",
+        "in_axes",
+        "InapplicableTransform",
+        "node",
+        "cond_dist",
+        "base_cond_dist",
+        "bernoulli",
+        "InapplicableTransform",
+        "is_observed",
+        "InapplicableTransform",
+        "makerv",
+        "node",
+        "cond_dist",
+        "axis_size",
+        "parents",
+        "binomial",
+        "n",
+        "p",
+        "new_node",
+        "numpy",
+        "np",
+        "np",
+        "array",
+        "sum",
+        "is_observed",
+        "new_node",
+        "new_val",
+        "LocalTransform",
+        "bernoulli_to_binomial_extractor",
+        "bernoulli_to_binomial_regenerator"
+    ],
+    "literals": [
+        "\"node not vmapped\"",
+        "\"node in_axes not None\"",
+        "\"base dist not bernoulli\"",
+        "\"not observed\"",
+        "f\"{new_node=}\""
+    ],
+    "variables": [
+        "n",
+        "p",
+        "new_node",
+        "new_val",
+        "bernoulli_to_binomial"
+    ],
+    "comments": [
+        "p = node.parents[0]"
+    ],
+    "docstrings": [
+        "\"\"\"\nLook for vmapped bernoulli RVs with observations and convert them into binomial RVs \nwith observations. For any variables that might reference that RV, it is replaced \nwith a Constant. (Satisfies the `pangolin.transforms.transforms.Transform` protocol.) \n\"\"\""
+    ],
+    "functions": [
+        "bernoulli_to_binomial_extractor",
+        "bernoulli_to_binomial_regenerator"
+    ],
+    "classes": []
+}

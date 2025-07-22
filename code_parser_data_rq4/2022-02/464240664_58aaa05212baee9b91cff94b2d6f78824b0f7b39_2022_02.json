@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "desafio",
+        "java",
+        "util",
+        "Scanner",
+        "entrada",
+        "args",
+        "word1",
+        "entrada",
+        "next",
+        "word2",
+        "entrada",
+        "next",
+        "isAnagrama",
+        "word1",
+        "word2",
+        "word1",
+        "word2",
+        "r",
+        "i",
+        "i",
+        "word1",
+        "length",
+        "i",
+        "r",
+        "r",
+        "word1",
+        "charAt",
+        "i",
+        "i",
+        "i",
+        "word2",
+        "length",
+        "i",
+        "r",
+        "r",
+        "word2",
+        "charAt",
+        "i",
+        "r"
+    ],
+    "literals": [
+        "\"Digite a primeira palavra: \"",
+        "\"Digite a segunda palavra: \"",
+        "\"� anagrama\"",
+        "\"N�o � anagrama\"",
+        "\"Opera��o finalizada\""
+    ],
+    "variables": [],
+    "comments": [
+        "se retornar zero � verdadeiro, senao � falso"
+    ],
+    "docstrings": [
+        "captura o valor das teclas",
+        "* m�todo pra determinar se � um anagrama. se word1 � anagrama de word2",
+        "* Varrer todos os carecteres de word1 e word2. O charAt pega um caracter numa\n\t * determinada posicao i e sua representacao � numerica. Essa representacao pode\n\t * ser enxergada como um sequencia de bits. Com o operador '^' funciona da\n\t * seguinte forma: dados dois bits de entrada.Se os dois bits forem iguais 1 e 1\n\t * ou 0 e 0 o resultado � sempre zero(0).Caso os bits forem diferentes, o\n\t * resultado � 1. Entao cada vez que aparecer uma letra da segunda palavra igual\n\t * a primeira palavra. a varivavel 'r' ser� igual zero. Portanto, a variavel 'r'\n\t * acumula zero. No final se o 'r' retornar zero � uma anagrama. Caso contrario,\n\t * se d� igual a 1. N�o � anagrama"
+    ],
+    "functions": [
+        "main",
+        "isAnagrama"
+    ],
+    "classes": [
+        "anagrama"
+    ]
+}

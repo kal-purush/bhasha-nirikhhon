@@ -1,0 +1,17 @@
+{
+    "identifiers": [],
+    "literals": [
+        "query ListMembersMood($groupId: ID!, $page: Int, $max: Int) {\n  getLastVotingByGroup(groupId: $groupId) {\n    votes(page: $page, max: $max) {\n      total\n      data {\n        score\n        hueMood\n        createdBy {\n          name\n        }\n      }\n    }\n  }\n}",
+        "query GetFavouriteGroup {\n  getMyFavouriteGroup {\n    id\n  }\n}"
+    ],
+    "variables": [
+        "ListMembersMood",
+        "GetFavouriteGroup"
+    ],
+    "comments": [
+        "!\n * Copyright (C) 2019 Kaleidos Open Source SL\n *\n * This file is part of Dont Worry Be Happy (DWBH).\n * DWBH is free software: you can redistribute it and/or modify\n * it under the terms of the GNU General Public License as published by\n * the Free Software Foundation, either version 3 of the License, or\n * (at your option) any later version.\n *\n * DWBH is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with DWBH.  If not, see <https://www.gnu.org/licenses/>."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

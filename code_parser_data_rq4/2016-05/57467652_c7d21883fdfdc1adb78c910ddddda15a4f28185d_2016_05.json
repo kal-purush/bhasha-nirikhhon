@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "smooth",
+        "size",
+        "Camera",
+        "main",
+        "orthographicSize",
+        "script",
+        "gm",
+        "GetComponent",
+        "GameManager",
+        "script",
+        "isFallen",
+        "fallenPlayer",
+        "script",
+        "fallenPlayer",
+        "Camera",
+        "main",
+        "orthographicSize",
+        "transform",
+        "position",
+        "Vector3",
+        "Lerp",
+        "transform",
+        "position",
+        "fallenPlayer",
+        "transform",
+        "position",
+        "Time",
+        "deltaTime",
+        "smooth"
+    ],
+    "literals": [],
+    "variables": [
+        "GameObject",
+        "gm",
+        "GameObject",
+        "fallenPlayer",
+        "smooth",
+        "size",
+        "GameManager",
+        "script"
+    ],
+    "comments": [
+        "Use this for initialization",
+        "Update is called once per frame",
+        "Camera.main.orthographicSize = size;",
+        "check if camera is at right position",
+        "if (Mathf.Abs(transform.position.x - fallenPlayer.transform.position.x)<20 && Mathf.Abs(transform.position.y - fallenPlayer.transform.position.y)<20) {\n                script.isFallen = false;\n\t\t\t\tfallenPlayer.GetComponent<PlayerController> ().triggerPlayerFall ();\n\t\t\t}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "FixedUpdate"
+    ],
+    "classes": [
+        "CameraController"
+    ]
+}

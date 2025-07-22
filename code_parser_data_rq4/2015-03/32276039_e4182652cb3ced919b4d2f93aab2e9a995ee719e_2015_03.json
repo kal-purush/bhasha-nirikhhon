@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Reflection",
+        "Emit",
+        "Text",
+        "Threading",
+        "Tasks",
+        "enbask",
+        "utils",
+        "T",
+        "T",
+        "Func",
+        "T",
+        "mObjectCreator",
+        "T",
+        "objectType",
+        "GetConstructor",
+        "Type",
+        "DynamicMethod",
+        "name",
+        "Format",
+        "Guid",
+        "NewGuid",
+        "returnType",
+        "objectType",
+        "parameterTypes",
+        "dynMethod",
+        "GetILGenerator",
+        "il",
+        "Emit",
+        "OpCodes",
+        "Newobj",
+        "defaultCtor",
+        "il",
+        "Emit",
+        "OpCodes",
+        "Ret",
+        "mObjectCreator",
+        "dynMethod",
+        "CreateDelegate",
+        "Func",
+        "T",
+        "Func",
+        "T",
+        "mObjectCreator"
+    ],
+    "literals": [
+        "\"_{0:N}\""
+    ],
+    "variables": [
+        "mObjectCreator",
+        "objectType",
+        "defaultCtor",
+        "dynMethod",
+        "ILGenerator",
+        "il"
+    ],
+    "comments": [
+        "since this is a static generic class, every type of T will have its",
+        "own instance. This leads to a unique mObjectCreator for every type of T.",
+        "lazy create the alloc generator",
+        "This introduces a branch test for every allocation, which could be removed",
+        "if you implemented a pre-create system for Types that use this.",
+        "There is no getting around having to make a function call to execute the newobj op code",
+        "The the JIT will also never inline this, as it's a delegate call.",
+        "This is why we can never be as fast as new Object() if the type is known at compile time."
+    ],
+    "docstrings": [],
+    "functions": [
+        "T",
+        "New"
+    ],
+    "classes": [
+        "FastObjectAllocator"
+    ]
+}

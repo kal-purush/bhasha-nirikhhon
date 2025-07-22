@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "io",
+        "realm",
+        "objectstore",
+        "io",
+        "realm",
+        "RealmSchema",
+        "io",
+        "realm",
+        "exceptions",
+        "RealmError",
+        "io",
+        "realm",
+        "NativeContext",
+        "io",
+        "realm",
+        "NativeObject",
+        "nativeFinalizerPtr",
+        "nativeGetFinalizerMethodPtr",
+        "mappingPointer",
+        "sharedRealmNativePointer",
+        "mappingPointer",
+        "nativeCreateMapping",
+        "sharedRealmNativePointer",
+        "NativeContext",
+        "dummyContext",
+        "addReference",
+        "Override",
+        "mappingPointer",
+        "Override",
+        "nativeFinalizerPtr",
+        "sharedRealmNativePointer"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2021 Realm Inc.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Wrapper for ObjectStore's KeyPathMapping class.\n * <p>\n * The primary use case for this  class is to make sure that we release native memory for any old\n * mappings when the schema is updated.\n * <p>\n * It will use the already constructed ObjectStore schema to create the mappings required by\n * the Query Parser.\n *\n * @see RealmSchema#refresh()"
+    ],
+    "functions": [
+        "OsKeyPathMapping",
+        "getNativePtr",
+        "getNativeFinalizerPtr",
+        "nativeGetFinalizerMethodPtr",
+        "nativeCreateMapping"
+    ],
+    "classes": [
+        "OsKeyPathMapping"
+    ]
+}

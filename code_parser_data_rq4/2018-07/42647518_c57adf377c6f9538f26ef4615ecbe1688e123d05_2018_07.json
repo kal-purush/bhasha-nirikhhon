@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "options",
+        "options",
+        "property",
+        "options",
+        "m",
+        "property",
+        "options",
+        "arch",
+        "options",
+        "profile"
+    ],
+    "literals": [
+        "'debug'"
+    ],
+    "variables": [
+        "attributes",
+        "options"
+    ],
+    "comments": [
+        "Copyright (c) 2017 Tencent Inc.",
+        "All rights reserved.",
+        "",
+        "Author: Li Wenting <wentingli@tencent.com>",
+        "Date:   February 22, 2017",
+        "Global target attributes object"
+    ],
+    "docstrings": [
+        "\"\"\"\nThis module defines the global build target attributes,\nsuch as bits: 32/64, profile: debug/release.\n\n\"\"\"",
+        "\"\"\"Build target attributes. \"\"\""
+    ],
+    "functions": [
+        "bits",
+        "arch",
+        "is_debug"
+    ],
+    "classes": [
+        "TargetAttributes"
+    ]
+}

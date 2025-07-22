@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "JetBrains",
+        "Annotations",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "OpenIddict",
+        "Mvc",
+        "Microsoft",
+        "AspNetCore",
+        "Builder",
+        "NotNull",
+        "OpenIddictBuilder",
+        "builder",
+        "builder",
+        "ArgumentNullException",
+        "nameof",
+        "builder",
+        "builder",
+        "Services",
+        "Configure",
+        "MvcOptions",
+        "options",
+        "ModelBinderProviders",
+        "Insert",
+        "OpenIddictModelBinder",
+        "builder"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Registers the ASP.NET Core MVC model binders used by OpenIddict.",
+        "</summary>",
+        "<param name=\"builder\">The services builder used by OpenIddict to register new services.</param>",
+        "<returns>The <see cref=\"OpenIddictBuilder\"/>.</returns>"
+    ],
+    "docstrings": [
+        "* Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)\n * See https://github.com/openiddict/openiddict-core for more information concerning\n * the license and the contributors participating to this project.",
+        "<summary>"
+    ],
+    "functions": [
+        "OpenIddictBuilder",
+        "AddMvcBinders"
+    ],
+    "classes": [
+        "OpenIddictExtensions"
+    ]
+}

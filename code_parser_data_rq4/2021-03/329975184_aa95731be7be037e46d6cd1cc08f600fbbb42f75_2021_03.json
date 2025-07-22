@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "sqlalchemy",
+        "create_engine",
+        "sqlalchemy",
+        "ext",
+        "declarative",
+        "declarative_base",
+        "sqlalchemy",
+        "orm",
+        "sessionmaker",
+        "db_username",
+        "db_password",
+        "db_url",
+        "db_name",
+        "create_engine",
+        "SQLALCHEMY_DATABASE_URL",
+        "connect_args",
+        "sessionmaker",
+        "autocommit",
+        "autoflush",
+        "bind",
+        "engine",
+        "declarative_base"
+    ],
+    "literals": [
+        "'database-1.cqooqygygpon.us-east-2.rds.amazonaws.com'",
+        "'postgres'",
+        "'moodydb'",
+        "'Group10SW'",
+        "f'postgresql://{db_username}:{db_password}@{db_url}/{db_name}'"
+    ],
+    "variables": [
+        "db_url",
+        "db_name",
+        "db_username",
+        "db_password",
+        "SQLALCHEMY_DATABASE_URL",
+        "engine",
+        "SessionLocal",
+        "Base"
+    ],
+    "comments": [
+        "SQLALCHEMY_DATABASE_URL = \"sqlite:///./moody.db\""
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

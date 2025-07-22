@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "setupNetwork",
+        "chainId",
+        "provider",
+        "provider",
+        "chainId",
+        "provider",
+        "chainId",
+        "error",
+        "error",
+        "chainId"
+    ],
+    "literals": [
+        "'wallet_addEthereumChain'",
+        "0x${chainId.toString(16)}",
+        "'xDai'",
+        "'xDai'",
+        "'xDai'",
+        "'https://rpc.xdaichain.com/'",
+        "'https://blockscout.com/xdai/mainnet'",
+        "Can't setup the network with chainId: ${chainId} on metamask because window.ethereum is undefined"
+    ],
+    "variables": [
+        "setupNetwork",
+        "provider"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

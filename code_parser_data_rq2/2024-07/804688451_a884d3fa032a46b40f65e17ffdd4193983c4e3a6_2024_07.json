@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "dotenv",
+        "dotenv",
+        "name",
+        "process",
+        "name",
+        "value",
+        "name",
+        "value",
+        "getEnvironmentVariable",
+        "getEnvironmentVariable",
+        "getEnvironmentVariable",
+        "getEnvironmentVariable"
+    ],
+    "literals": [
+        "'dotenv'",
+        "string",
+        "string",
+        "${name} must be set.",
+        "'DB_USER'",
+        "'DB_HOST'",
+        "'DB_DATABASE'",
+        "'DB_PASSWORD'"
+    ],
+    "variables": [
+        "value",
+        "dbConfig"
+    ],
+    "comments": [
+        "Cargar las variables de entorno desde el archivo .env",
+        "Obtener las variables de entorno",
+        "Exportar las configuraciones de la base de datos",
+        "Exportar otras configuraciones si es necesario"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getEnvironmentVariable"
+    ],
+    "classes": []
+}

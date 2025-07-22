@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "re",
+        "collections",
+        "Counter",
+        "numpy",
+        "np",
+        "pandas",
+        "pd",
+        "utils",
+        "extract_featuers",
+        "nltk",
+        "download",
+        "nltk",
+        "download",
+        "file_name",
+        "words",
+        "word",
+        "probs",
+        "maxret",
+        "source",
+        "target",
+        "ins_cost",
+        "del_cost",
+        "rep_cost",
+        "YOUR",
+        "CODE",
+        "HERE",
+        "D",
+        "med"
+    ],
+    "literals": [
+        "'twitter_samples'",
+        "'stopwords'",
+        "\"hello\"",
+        "\"world\""
+    ],
+    "variables": [
+        "words",
+        "data",
+        "lower_case_data",
+        "words"
+    ],
+    "comments": [
+        "@title Q1 Process Data",
+        "return this variable correctly",
+        "START CODE HERE ###",
+        "Open the file, read its contents into a string variable",
+        "convert all letters to lower case",
+        "with words as keys, ensure that we have a count of their occurrences",
+        "END CODE HERE ###",
+        "@title Q2: N-gram most likely next words",
+        "@title Q3: The Minimum Edit Distnance"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Input:\n        A file_name which is found in your current directory. You just have to read it in.\n    Output:\n        wordprobs: a dictionary where keys are all the processed lowercase words and the \n             values are the frequency that it occurs in the corpus (text file you read).\n    \"\"\"",
+        "\"\"\"\n    Input:\n        word - The misspelled word\n        probs - A dictionary of word --> prob\n        maxret - Maximum number of words to return\n    Returns:\n        Tuples of the words and their probabilities, ordered by highest frequency.\n        [(word1, prob1), ... ]\n    \"\"\"",
+        "'''\n    Input:\n        source: starting string\n        target: ending string\n        ins_cost: integer representing insert cost\n        del_cost: integer representing delete cost\n        rep_cost: integer representing replace cost\n    Output:\n        D: matrix of size (len(source)+1 , len(target)+1) \n           with minimum edit distances\n        med: the minimum edit distance required to convert\n             source to target\n    '''"
+    ],
+    "functions": [
+        "process_data",
+        "probable_substitutes",
+        "min_edit_distance"
+    ],
+    "classes": []
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "com",
+        "company",
+        "c",
+        "isLetter",
+        "c",
+        "args",
+        "c",
+        "StdIn",
+        "isEmpty",
+        "c",
+        "StdIn",
+        "readChar",
+        "isAlpha",
+        "c",
+        "c",
+        "c",
+        "c"
+    ],
+    "literals": [],
+    "variables": [
+        "c"
+    ],
+    "comments": [],
+    "docstrings": [
+        "Author:         Samuel Larsson\n    Copyright:      2018\n    Description:    A program that replicates a file but replaces all characters\n                    that aren't alphabetical, space or new line with blanks.\n\n    Dependancies:   StdIn.java\n    Compilation:    javac -d . OnlyAlphaBlank.java StdIn.java\n    Execution:      java com.company.OnlyAlphaBlank < inputFilename > outputFilename\n    Usage:          Replace inputFilename with the file that should be replicated\n                    and replace outputFilename with where the result should go."
+    ],
+    "functions": [
+        "isAlpha",
+        "main"
+    ],
+    "classes": [
+        "OnlyAlphaBlank"
+    ]
+}

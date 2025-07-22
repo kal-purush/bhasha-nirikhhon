@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "Input",
+        "OnDestroy",
+        "FormGroup",
+        "Validators",
+        "Subscription",
+        "moment",
+        "FormField",
+        "Component",
+        "Input",
+        "Input",
+        "Input",
+        "values",
+        "values",
+        "values"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/forms'",
+        "'rxjs'",
+        "'moment'",
+        "'../form-field.model'",
+        "'tw-treeview-txt'",
+        "<div [formGroup]='group'>\n   <leo-dropdown-treeview id=\"treeview_{{field.id}}\" [config]=\"selectConfig\" [items]=\"field.options\" (selectedChange)=\"updateModel($event)\"></leo-dropdown-treeview>\n    <input [formControlName]='field.id' name='{{field.id}}' type='hidden' class='form-control' [(ngModel)]=\"request[field.id]\"/>\n</div>",
+        "','",
+        "''"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "updateModel"
+    ],
+    "classes": [
+        "TreeViewTxtComponent"
+    ]
+}

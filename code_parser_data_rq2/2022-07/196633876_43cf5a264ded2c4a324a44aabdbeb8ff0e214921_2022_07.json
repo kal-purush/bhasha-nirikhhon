@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "domino",
+        "container",
+        "BaseContainer",
+        "BaseContainer",
+        "vertical_scrollable",
+        "horizontal_scrollable",
+        "vertical_scrollable",
+        "horizontal_scrollable",
+        "vertical_scrollable",
+        "zero_position",
+        "zero_position",
+        "horizontal_scrollable",
+        "zero_position",
+        "zero_position",
+        "elements",
+        "linter",
+        "reflect"
+    ],
+    "literals": [],
+    "variables": [
+        "vertical_scrollable",
+        "horizontal_scrollable"
+    ],
+    "comments": [
+        "el scrolling de las fichas se maneja con la variable zero_position que",
+        "es el corrimiento que se debe agregar a su posicion en el momento de",
+        "dibujarlas",
+        "manejando scrolling de las fichas",
+        "UP",
+        "DOWN",
+        "RIGHT",
+        "LEFT",
+        "r"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Esta clase representa un panel en donde se pueden ubicar fichas\n\n    Parametros\n    ----------\n    window(Window): tablero en donde se dibujaran las fichas\n    vertical_scrollable(bool): Booleano que indica si las fichas se pueden mover\n        en direccion vertical\n    horizontal_scrollable(bool): Booleano que indica si las fichas se pueden\n        mover en direccion horizontal\n    \"\"\""
+    ],
+    "functions": [
+        "input_handler"
+    ],
+    "classes": [
+        "Board"
+    ]
+}

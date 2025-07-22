@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "functools",
+        "wraps",
+        "django",
+        "contrib",
+        "messages",
+        "utils",
+        "msg",
+        "msg",
+        "utils",
+        "get_setting",
+        "view_func",
+        "request",
+        "args",
+        "kwargs",
+        "request",
+        "user",
+        "utils",
+        "is_integrated",
+        "user",
+        "msg",
+        "request",
+        "callable",
+        "msg",
+        "msg",
+        "messages",
+        "error",
+        "request",
+        "text",
+        "view_func",
+        "request",
+        "args",
+        "kwargs",
+        "wraps",
+        "view_func",
+        "wrapped",
+        "inner_decorator"
+    ],
+    "literals": [
+        "'WITHINGS_DECORATOR_MESSAGE'"
+    ],
+    "variables": [
+        "msg",
+        "user",
+        "text"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Adds a message to inform the user about Withings integration if their\n    account is not already integrated with Withings.\n\n    :param msg: The message text to use if the user is not integrated. If msg\n        is a callable, it is called with the request as the only parameter.\n        Otherwise, msg is passed in as the message text. If no message is\n        provided, the value in :ref:`WITHINGS_DECORATOR_MESSAGE` is used.\n\n    This decorator does not prevent the user from seeing the view if they are\n    not integrated with Withings - it only adds a message to the user's\n    messages. If you would like to change the behavior of your view based on\n    whether the user is integrated, you can check the user's status by using\n    :py:func:`withingsapp.utils.is_integrated`.\n\n    Example::\n\n        from django.http import HttpResponse\n        from django.contrib.auth.decorators import login_required\n        from withingsapp.decorators import withings_integration_warning\n\n        @withings_integration_warning(msg=\"Integrate your account with Withings!\")\n        @login_required\n        def my_view(request):\n            return HttpResponse('Visible to authenticated users regardless'\n                                'of Withings integration status')\n\n    In this example, the ``withings_integration_warning`` decorator only\n    operates if the user is logged in. The view content is visible to all\n    users who are logged in, regardless of Withings integration status.\n\n    The template(s) for any view with this decorator should display a user's\n    messages.\n    \"\"\""
+    ],
+    "functions": [
+        "withings_integration_warning",
+        "inner_decorator",
+        "wrapped"
+    ],
+    "classes": []
+}

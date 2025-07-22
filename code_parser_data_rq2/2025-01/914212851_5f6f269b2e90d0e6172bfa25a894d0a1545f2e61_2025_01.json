@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "api",
+        "getCookie",
+        "getBoards",
+        "api",
+        "response",
+        "error",
+        "error",
+        "error",
+        "getBoardDetail",
+        "boardId",
+        "api",
+        "boardId",
+        "response",
+        "error",
+        "error",
+        "error",
+        "shareBoard",
+        "boardId",
+        "api",
+        "boardId",
+        "getCookie",
+        "response",
+        "error",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'./axios_config'",
+        "'../utils/cookie'",
+        "'/boards'",
+        "'보드 목록 가져오기 실패:'",
+        "/boards/${boardId}",
+        "'보드 상세 정보 가져오기 실패:'",
+        "'/boards/share'",
+        "Bearer ${getCookie('access_token')}",
+        "'access_token'",
+        "'보드 공유 실패:'"
+    ],
+    "variables": [
+        "getBoards",
+        "response",
+        "getBoardDetail",
+        "response",
+        "shareBoard",
+        "response"
+    ],
+    "comments": [
+        "axios 설정 파일",
+        "인증 토큰 추가"
+    ],
+    "docstrings": [
+        "* 모든 보드 목록을 가져오는 API\n * @returns {Promise} - 보드 목록 데이터",
+        "* 특정 보드의 상세 정보를 가져오는 API\n * @param {number} boardId - 보드 ID\n * @returns {Promise} - 보드 상세 정보 데이터",
+        "* 보드를 공유하는 API\n * @param {number} boardId - 보드 ID\n * @returns {Promise} - 공유 링크 데이터"
+    ],
+    "functions": [],
+    "classes": []
+}

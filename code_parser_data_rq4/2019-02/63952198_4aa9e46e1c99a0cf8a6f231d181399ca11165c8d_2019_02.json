@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "org",
+        "helpapaw",
+        "helpapaw",
+        "data",
+        "repositories",
+        "com",
+        "backendless",
+        "Backendless",
+        "com",
+        "backendless",
+        "async",
+        "callback",
+        "AsyncCallback",
+        "com",
+        "backendless",
+        "exceptions",
+        "BackendlessFault",
+        "com",
+        "backendless",
+        "push",
+        "DeviceRegistrationResult",
+        "Override",
+        "Backendless",
+        "Messaging",
+        "registerDevice",
+        "Override",
+        "response",
+        "Override",
+        "fault"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Log.d(\"INFO\", \"Device registered with toke: \" + response.getDeviceToken());",
+        "Log.d(\"ERROR\", \"Device registration fault: \" + fault.getMessage());"
+    ],
+    "docstrings": [],
+    "functions": [
+        "registerDeviceForToken",
+        "handleResponse",
+        "handleFault"
+    ],
+    "classes": [
+        "BackendlessPushNotifications"
+    ]
+}

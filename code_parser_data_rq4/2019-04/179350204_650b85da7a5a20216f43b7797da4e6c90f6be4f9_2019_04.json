@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "librispect",
+        "lspct",
+        "librispect",
+        "features",
+        "spectrogram",
+        "predict",
+        "glob",
+        "librosa",
+        "numpy",
+        "np",
+        "pytest",
+        "lspct",
+        "features",
+        "spectrogram",
+        "HPARAMS",
+        "predict",
+        "spect_predict_maker",
+        "hparams",
+        "terms",
+        "TERMS",
+        "predict_terms",
+        "PREDICT_TERMS",
+        "glob",
+        "glob",
+        "lspct",
+        "paths",
+        "WAV_DIR",
+        "as_posix",
+        "test_spect_predict_maker",
+        "batch_iter",
+        "path_list",
+        "len",
+        "pred_spect",
+        "batch_size",
+        "test_spect_predict_maker",
+        "split_validation",
+        "path_list",
+        "train_path_list",
+        "val_path_list",
+        "test_spect_predict_maker"
+    ],
+    "literals": [
+        "'*.wav'",
+        "\"training: \"",
+        "\"\\n\"",
+        "\"validation: \"",
+        "\"Uneven batch size\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "SPECT_HEIGHT",
+        "STFT_HEIGHT",
+        "WINDOW_SIZE",
+        "BATCH_SIZE",
+        "STEP_SIZE",
+        "TERMS",
+        "PREDICT_TERMS",
+        "hparams",
+        "test_spect_predict_maker",
+        "path_list",
+        "pred_spect",
+        "batch_size",
+        "train_path_list",
+        "val_path_list"
+    ],
+    "comments": [
+        "term_batch, pterm_batch, labels, idxs",
+        "turn batch_set into param for epoch",
+        "if (actual batch_per_epoch(batch_size) == expected batch_size)",
+        "expected batch size:",
+        "run batch_per_epoch? then create training/val sets"
+    ],
+    "docstrings": [
+        "'''integration testing of prediction generation'''"
+    ],
+    "functions": [
+        "test_spect_predict_maker"
+    ],
+    "classes": []
+}

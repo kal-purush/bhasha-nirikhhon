@@ -1,0 +1,16 @@
+{
+    "identifiers": [
+        "com",
+        "bluegosling",
+        "collections",
+        "concurrent"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* New implementations of concurrent data structures.\n * \n * This package contains several blocking queue and deque implementations that are lock-free. Under\n * certain workloads, particularly where contention might arise (many consumers and/or many\n * producers), these implementations may provide superior performance to the standard\n * implementations included in the {@code java.util.concurrent} package (JSR 166).\n * \n * There is also a factory class for instantiating\n * {@linkplain com.bluegosling.collections.concurrent.ShardedConcurrentSets concurrent sets}. It\n * operates using normal not-thread-safe set implementations and makes them\n * thread-safe using sharding, for parallelism, and read-write locks, for thread-safety.\n * \n * <p>Also present are concurrent structures that use persistent collections and compare-and-swap.\n * These include both a\n * {@linkplain com.bluegosling.collections.concurrent.PersistentListBackedConcurrentList list}\n * (which implements a new {@link com.bluegosling.collections.concurrent.ConcurrentList} interface)\n * and a {@linkplain com.bluegosling.collections.concurrent.PersistentMapBackedConcurrentMap map}."
+    ],
+    "functions": [],
+    "classes": []
+}

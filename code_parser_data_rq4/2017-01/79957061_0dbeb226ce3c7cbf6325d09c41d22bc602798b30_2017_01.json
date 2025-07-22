@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "Tossit",
+        "Core",
+        "_confirmReceiptTimeoutSeconds",
+        "_confirmReceiptTimeoutSeconds",
+        "DEAFULT_CONFIRM_RECEIPT_TIMEOUT",
+        "_confirmReceiptTimeoutSeconds",
+        "value"
+    ],
+    "literals": [],
+    "variables": [
+        "DEAFULT_CONFIRM_RECEIPT_TIMEOUT",
+        "_confirmReceiptTimeoutSeconds",
+        "ConfirmReceiptTimeoutSeconds",
+        "ConfirmReceiptIsActive"
+    ],
+    "comments": [
+        "General options to send.",
+        "</summary>",
+        "Default confirm receipt timeout as second. Value: 10 sec.",
+        "</summary>",
+        "ConfirmReceiptTimeoutSeconds field.",
+        "</summary>",
+        "Default 10 seconds. Wait until a dispatched data have been confirmed.",
+        "Returns default if not specified.",
+        "</summary>",
+        "True if u want to wait to successfully receive message from broker until timeout, otherwise should be false.",
+        "It is highly recommended to be true.",
+        "Default: true.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "SendOptions"
+    ]
+}

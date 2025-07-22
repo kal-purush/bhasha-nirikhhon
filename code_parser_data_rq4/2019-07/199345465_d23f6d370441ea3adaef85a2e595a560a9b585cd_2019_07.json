@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "comunication",
+        "java",
+        "io",
+        "DataInputStream",
+        "java",
+        "io",
+        "java",
+        "io",
+        "InputStream",
+        "java",
+        "io",
+        "OutputStream",
+        "java",
+        "net",
+        "Socket",
+        "input",
+        "output",
+        "socket",
+        "input",
+        "socket",
+        "getInputStream",
+        "output",
+        "socket",
+        "getOutputStream",
+        "bytesOutput",
+        "byteArrayInputed",
+        "processOutput",
+        "output",
+        "bytesOutput",
+        "byteArrayInputed",
+        "processInput",
+        "input",
+        "ex",
+        "byteArrayInputed",
+        "input",
+        "dataInputStream",
+        "input",
+        "buffer",
+        "dataInputStream",
+        "available",
+        "dataInputStream",
+        "readFully",
+        "buffer",
+        "buffer",
+        "output",
+        "bytesOutput",
+        "bytesOutput",
+        "length",
+        "output",
+        "write",
+        "bytesOutput",
+        "bytesOutput",
+        "length",
+        "output",
+        "flush",
+        "ex"
+    ],
+    "literals": [],
+    "variables": [
+        "input",
+        "output"
+    ],
+    "comments": [
+        "tratar isso aqui depois",
+        "Tratar isso aqui depois"
+    ],
+    "docstrings": [
+        "*Class integrated to Connection.java that is responsable for deal with the stream\n * of the socket\n * @author Juliana",
+        "*  Turn the socket to an object of input and other for output\n     * @param socket\n     * @throws IOException",
+        "*That method starts with a empty byte array \"byteArrayInputed\",\n     * call the methods processOutput, passing the bytesOutput by param, and processInput, the last one \n     * responsible for set a new value for \"byteArrayInputed\"   \n     * @param bytesOutput\n     * @return the value of the inputStream as the value of byteArrayInputed"
+    ],
+    "functions": [
+        "ConnectionIO",
+        "processStream",
+        "processInput",
+        "processOutput"
+    ],
+    "classes": [
+        "ConnectionIO"
+    ]
+}

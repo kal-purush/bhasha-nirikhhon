@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "optimus_manager",
+        "detection",
+        "get_bus_ids",
+        "enabled",
+        "enabled",
+        "_set_mode",
+        "_set_mode",
+        "mode",
+        "get_bus_ids",
+        "notation_fix",
+        "bus_ids",
+        "open",
+        "pci_path",
+        "f",
+        "f",
+        "write",
+        "mode",
+        "FileNotFoundError",
+        "PCIError",
+        "pci_path",
+        "IOError",
+        "PCIError",
+        "pci_path"
+    ],
+    "literals": [
+        "\"auto\"",
+        "\"on\"",
+        "\"/sys/bus/pci/devices/0000:%s/power/control\"",
+        "\"nvidia\"",
+        "\"w\"",
+        "\"Cannot find Nvidia PCI path at %s\"",
+        "\"Error writing to %s\""
+    ],
+    "variables": [
+        "bus_ids",
+        "pci_path"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "set_power_management",
+        "_set_mode"
+    ],
+    "classes": [
+        "PCIError"
+    ]
+}

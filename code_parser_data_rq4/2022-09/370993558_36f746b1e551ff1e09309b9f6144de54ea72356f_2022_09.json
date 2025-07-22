@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "'typeorm'",
+        "DROP INDEX \"unique_userId_vocabularyId\"",
+        "ALTER TABLE \"LeitnerSystems\"\n                ADD CONSTRAINT \"unique_userId_vocabularyId\" UNIQUE (\"userId\", \"vocabularyId\")",
+        "ALTER TABLE \"LeitnerSystems\"\n            DROP CONSTRAINT \"unique_userId_vocabularyId\"",
+        "CREATE UNIQUE INDEX \"unique_userId_vocabularyId\" ON \"LeitnerSystems\" (\"userId\", \"vocabularyId\")"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "UniqueUserIdVocabularyIdInLeitnerSystemsTable1664085331065"
+    ]
+}

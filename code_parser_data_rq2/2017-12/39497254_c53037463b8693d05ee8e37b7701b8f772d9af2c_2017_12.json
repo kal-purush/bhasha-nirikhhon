@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "fs",
+        "promisify",
+        "fs",
+        "fs",
+        "fs",
+        "fs",
+        "fs",
+        "fs",
+        "fs",
+        "fs",
+        "fs",
+        "fs",
+        "fs",
+        "fs",
+        "path",
+        "resolve",
+        "fs",
+        "path",
+        "fileExists",
+        "resolve",
+        "fileExists",
+        "path",
+        "mode",
+        "F_OK",
+        "resolve",
+        "fs",
+        "path",
+        "mode",
+        "err",
+        "err",
+        "resolve",
+        "resolve",
+        "path",
+        "exists",
+        "path",
+        "exists",
+        "exists",
+        "fileAccess",
+        "path",
+        "W_OK"
+    ],
+    "literals": [
+        "\"fs\"",
+        "\"util\"",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "W_OK",
+        "R_OK",
+        "X_OK",
+        "F_OK"
+    ],
+    "comments": [
+        "This is an fs lib that uses Q instead of callbacks.",
+        "back-compat",
+        "back-compat",
+        "back-compat",
+        "back-compat"
+    ],
+    "docstrings": [
+        "* Returns a promise resolved true or false if a file is accessible\n * with the given mode (F_OK, R_OK, W_OK, X_OK)",
+        "* Given a valid path, resolves true if the file represented by the path\n * can be written to. Files that do not exist are assumed writable."
+    ],
+    "functions": [
+        "exists",
+        "fileAccess",
+        "canWriteTo"
+    ],
+    "classes": []
+}

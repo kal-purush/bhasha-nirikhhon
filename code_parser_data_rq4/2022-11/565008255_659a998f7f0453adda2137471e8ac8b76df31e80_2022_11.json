@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "process",
+        "fs",
+        "argv",
+        "require",
+        "s",
+        "atob",
+        "s",
+        "require",
+        "pako",
+        "Uint8Array",
+        "data",
+        "c",
+        "c",
+        "decodeURIComponent",
+        "inf"
+    ],
+    "literals": [
+        "'fs'",
+        "'ohm-js'",
+        "'yargs/yargs'",
+        "'UTF-8'",
+        "'atob'",
+        "DrawioWithTabs {\n  main = mxFileBegin diagram+ mxFileEnd\n\n  mxFileBegin = \"<mxFile\" ~\">\"+ \">\"\n  mxFileEnd = \"</mxfile>\"\n\n  diagram = \"<diagram\" ~\">\"+ \">\"\n}",
+        "DrawioWithTabs {\n  main [mxFileBegin diagram+ mxFileEnd] = ‛«mxFileBegin»«diagram»«mxFileEnd»’\n  mxFileBegin [kopen cs+ kclose] = ‛«kopen»«cs»«kclose»’\n  mxFileEnd [kclose] = ‛«kclose»’\n  diagram [kopen cs+ kclose] = ‛«kopen»«cs»«kclose»’\n}",
+        "'pako'",
+        "'string'"
+    ],
+    "variables": [
+        "fs",
+        "ohm",
+        "argv",
+        "drawio",
+        "atob",
+        "grammar",
+        "fab",
+        "data",
+        "pako",
+        "inf"
+    ],
+    "comments": [
+        "npm install atob",
+        "npm install pako"
+    ],
+    "docstrings": [],
+    "functions": [
+        "uncompress"
+    ],
+    "classes": []
+}

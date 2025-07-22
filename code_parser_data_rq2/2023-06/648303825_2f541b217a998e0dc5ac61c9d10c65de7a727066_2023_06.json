@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "round1decimal",
+        "num",
+        "num",
+        "roundedFctm",
+        "fcm",
+        "fck",
+        "fck",
+        "fctmSmaller50",
+        "fck",
+        "fck",
+        "fctmBigger50",
+        "fck",
+        "fcm",
+        "fck",
+        "fctm",
+        "fck",
+        "fck",
+        "fctmBigger50",
+        "fck",
+        "fck",
+        "fctmSmaller50",
+        "fck",
+        "currFctm",
+        "fctk005",
+        "fctm",
+        "fctm",
+        "fctm",
+        "fctk005",
+        "fctmSmaller50",
+        "fctmBigger50",
+        "round1decimal"
+    ],
+    "literals": [],
+    "variables": [
+        "round1decimal",
+        "roundedFctm",
+        "fcm",
+        "fctmSmaller50",
+        "fctmBigger50",
+        "fctm",
+        "currFctm",
+        "fctk005"
+    ],
+    "comments": [
+        "const round = (decimals, num) => {",
+        "const roundedFctm =",
+        "(Math.round((num + Number.EPSILON) * 1 * decimals) / 10) * decimals;",
+        "return roundedFctm;",
+        "};",
+        "const fbd = (fctk005, verbundBedingung) => {",
+        "if (verbundBedingung ===\"guterVerbund\") {",
+        "const eta1",
+        "} if (verbundBedingung ===\"schlechterVerbund\") {",
+        "const eta1",
+        "}",
+        "};"
+    ],
+    "docstrings": [
+        "* Returns rounded number\n * @param {number} decimals\n * @param {number} num number you want to round\n * @returns number",
+        "* Mittelwert der Zylinderdruckfestigkeit des Betons\n * @param {number} fck charakteristische Zylinderdruckfestigkeit nach 28d\n * @returns number",
+        "* Mittelwert der zentrischen Zugfestigkeit des Betons\n * Für fck <= 50  (12 - 30) [N/mm²]\n * @param {number} fck char. Zylinderdruckfestigkeit des Betons nach 28d\n * @returns number",
+        "* Mittelwert der zentrischen Zugfestigkeit des Betons\n * Für fck > 50 (55 - 100) [N/mm²]\n * @param {number} fck char. Zylinderdruckfestigkeit des Betons nach 28d\n * @returns number",
+        "* Entscheidungsfunktion - Mittelwert der zentrischen Zugfestigkeit des Betons\n * Die Funktion ruft in Abhängigkeit von fck die entsprechende\n * Berechnungsfunktion auf.\n * @param {number} fck char. Zylinderdruckfestigkeit des Betons nach 28d\n * @returns number",
+        "* unterercharakteristischer Grenzwert der zentrischen Betonzugfestigkeit\n * @param {number} fctm Mittelwert der zentrischen Zugfestigkeit des Betons\n * @returns number"
+    ],
+    "functions": [
+        "verbundspannung"
+    ],
+    "classes": []
+}

@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "TrustedHTML",
+        "TrustedScript",
+        "TrustedScriptURL",
+        "TrustedTypePolicy",
+        "TrustedTypePolicyFactory",
+        "policy",
+        "policy",
+        "policy",
+        "s",
+        "s",
+        "s",
+        "s",
+        "s",
+        "s",
+        "policy",
+        "html",
+        "getPolicy",
+        "html",
+        "html",
+        "script",
+        "getPolicy",
+        "script",
+        "script",
+        "url",
+        "getPolicy",
+        "url",
+        "url"
+    ],
+    "literals": [
+        "'../global'",
+        "'./trusted_type_defs'",
+        "'angular#unsafe-bypass'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "policy"
+    ],
+    "comments": [
+        "trustedTypes.createPolicy throws if called with a name that is",
+        "already registered, even in report-only mode. Until the API changes,",
+        "catch the error not to break the applications functionally. In such",
+        "cases, the code will fall back to using strings."
+    ],
+    "docstrings": [
+        "* @license\n * Copyright Google LLC All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.io/license",
+        "* @fileoverview\n * A module to facilitate use of a Trusted Types policy internally within\n * Angular specifically for bypassSecurityTrust* and custom sanitizers. It\n * lazily constructs the Trusted Types policy, providing helper utilities for\n * promoting strings to Trusted Types. When Trusted Types are not available,\n * strings are used as a fallback.\n * @security All use of this module is security-sensitive and should go through\n * security review.",
+        "* The Trusted Types policy, or null if Trusted Types are not\n * enabled/supported, or undefined if the policy has not been created yet.",
+        "* Returns the Trusted Types policy, or null if Trusted Types are not\n * enabled/supported. The first call to this function will create the policy.",
+        "* Unsafely promote a string to a TrustedHTML, falling back to strings when\n * Trusted Types are not available.\n * @security This is a security-sensitive function; any use of this function\n * must go through security review. In particular, it must be assured that it\n * is only passed strings that come directly from custom sanitizers or the\n * bypassSecurityTrust* functions.",
+        "* Unsafely promote a string to a TrustedScript, falling back to strings when\n * Trusted Types are not available.\n * @security This is a security-sensitive function; any use of this function\n * must go through security review. In particular, it must be assured that it\n * is only passed strings that come directly from custom sanitizers or the\n * bypassSecurityTrust* functions.",
+        "* Unsafely promote a string to a TrustedScriptURL, falling back to strings\n * when Trusted Types are not available.\n * @security This is a security-sensitive function; any use of this function\n * must go through security review. In particular, it must be assured that it\n * is only passed strings that come directly from custom sanitizers or the\n * bypassSecurityTrust* functions."
+    ],
+    "functions": [
+        "getPolicy",
+        "trustedHTMLFromStringBypass",
+        "trustedScriptFromStringBypass",
+        "trustedScriptURLFromStringBypass"
+    ],
+    "classes": []
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "DBCourse",
+        "dbCourseToCourseData",
+        "CourseData",
+        "getCourseInfo",
+        "year",
+        "term",
+        "courseCode",
+        "year",
+        "term",
+        "fetch",
+        "API_URL",
+        "year",
+        "term",
+        "courseCode",
+        "data",
+        "json",
+        "dbCourseToCourseData",
+        "json",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'../interfaces/dbCourse'",
+        "'../interfaces/courseData'",
+        "'http://localhost:3001/api'",
+        "string",
+        "string",
+        "string",
+        "${year}-${term}",
+        "${API_URL}/terms/${year}-${term}/courses/${courseCode}/",
+        "'Fetch did not get results'"
+    ],
+    "variables": [
+        "API_URL",
+        "getCourseInfo",
+        "ty",
+        "data",
+        "json"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Amazon",
+        "Lambda",
+        "CloudWatchEvents",
+        "TranscribeEvents"
+    ],
+    "literals": [],
+    "variables": [
+        "TranscriptionJobName",
+        "TranscriptionJobStatus",
+        "FailureReason"
+    ],
+    "comments": [
+        "This class represents the details of a Transcribe Job State Change sent via EventBridge.",
+        "For more see - https://docs.aws.amazon.com/transcribe/latest/dg/monitoring-events.html",
+        "</summary>",
+        "The transcription job name.",
+        "</summary>",
+        "The transcription job status.",
+        "</summary>",
+        "If the TranscriptionJobStatus is FAILED, this field contains information about the failure.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "TranscribeJobStateChange"
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "requests",
+        "random",
+        "sys",
+        "requests",
+        "get",
+        "cat_url",
+        "r",
+        "json",
+        "fact",
+        "r_obj_list",
+        "fact_list",
+        "append",
+        "fact",
+        "fact_arr",
+        "fact_arr",
+        "random",
+        "randint",
+        "len",
+        "fact_list",
+        "select_random_fact",
+        "fact_list",
+        "random_fact",
+        "random_fact"
+    ],
+    "literals": [
+        "\"https://cat-fact.herokuapp.com/facts\"",
+        "\"text\"",
+        "f\"::set-output name=fact::{random_fact}\""
+    ],
+    "variables": [
+        "cat_url",
+        "r",
+        "r_obj_list",
+        "fact_list",
+        "random_fact"
+    ],
+    "comments": [
+        "Make an HTTP GET request to the cat-fact API",
+        "Create an empty list to store individual facts in",
+        "This will make it easy to select a random one later",
+        "Add the \"text\" of every object into the fact_list list",
+        "Select a random fact from the fact_list and return it",
+        "into a variable named random_fact so we can use it",
+        "Print the individual randomly returned cat-fact",
+        "Set the fact-output of the action as the value of random_fact"
+    ],
+    "docstrings": [],
+    "functions": [
+        "select_random_fact"
+    ],
+    "classes": []
+}

@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "connect",
+        "sql",
+        "jest",
+        "connect",
+        "afterAll",
+        "db",
+        "test",
+        "db",
+        "sql",
+        "db",
+        "sql",
+        "db",
+        "sql",
+        "expect",
+        "result"
+    ],
+    "literals": [
+        "'..'",
+        "'booleans'",
+        "CREATE TABLE booleans_test_booleans (id INT NOT NULL PRIMARY KEY, test_value BOOLEAN NOT NULL);",
+        "INSERT INTO booleans_test_booleans (id, test_value)\n    VALUES (1, ${true}),\n           (2, ${false});",
+        "SELECT id, test_value from booleans_test_booleans;"
+    ],
+    "variables": [
+        "db",
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

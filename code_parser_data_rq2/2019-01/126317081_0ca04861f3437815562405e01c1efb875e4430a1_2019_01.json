@@ -1,0 +1,35 @@
+{
+    "identifiers": [],
+    "literals": [
+        "\"data\"",
+        "\"filterByBlock\"",
+        "\"id\"",
+        "\"4\"",
+        "\"name\"",
+        "\"3rd\"",
+        "\"blockId\"",
+        "\"errors\"",
+        "\"message\"",
+        "\"Floors not found in this block\"",
+        "\"locations\"",
+        "\"line\"",
+        "\"column\"",
+        "\"path\"",
+        "\"filterByBlock\"",
+        "\"data\"",
+        "\"filterByBlock\""
+    ],
+    "variables": [
+        "filter_by_block_query",
+        "filter_by_block_response",
+        "filter_by_non_existent_block",
+        "error_response"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''query {\n    filterByBlock(blockId: 1){\n        id\n        name\n        blockId\n        }\n    }'''",
+        "'''query {\n    filterByBlock(blockId: 8){\n        id\n        name\n        blockId\n        }\n    }'''"
+    ],
+    "functions": [],
+    "classes": []
+}

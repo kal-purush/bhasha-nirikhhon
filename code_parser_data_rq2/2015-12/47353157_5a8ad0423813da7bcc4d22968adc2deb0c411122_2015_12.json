@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "grunt",
+        "grunt",
+        "grunt",
+        "grunt"
+    ],
+    "literals": [
+        "'compressed'",
+        "'_includes/main.css'",
+        "'css/main.scss'",
+        "'grunt-contrib-sass'",
+        "'default'",
+        "'sass'"
+    ],
+    "variables": [],
+    "comments": [
+        "Project configuration",
+        "SCSS compilation",
+        "Let grunt handle this so we can get a .css file and copy it into the _includes dir.",
+        "This allows us to include the .css file inline when jekyll builds out",
+        "Load the plugin that provides the \"sass\" task.",
+        "Registered grunt tasks"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

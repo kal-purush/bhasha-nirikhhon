@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "Schema",
+        "Effect",
+        "pipe",
+        "Pg",
+        "Schema",
+        "Schema",
+        "Pg",
+        "Pg",
+        "Pg",
+        "User",
+        "pipe",
+        "createUsersTable",
+        "Effect",
+        "insertUser",
+        "Effect",
+        "selectUser",
+        "Effect",
+        "result",
+        "Effect",
+        "result",
+        "Effect",
+        "Pg",
+        "Effect",
+        "Pg",
+        "Effect"
+    ],
+    "literals": [
+        "'@effect/schema/Schema'",
+        "'effect'",
+        "'effect-pg'",
+        "'CREATE TABLE IF NOT EXISTS users (name TEXT NOT NULL)'",
+        "'INSERT INTO users (name) VALUES ($1)'",
+        "'SELECT * FROM users'",
+        "'patrik'",
+        "User: ${JSON.stringify(result)}"
+    ],
+    "variables": [
+        "User",
+        "createUsersTable",
+        "insertUser",
+        "selectUser"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

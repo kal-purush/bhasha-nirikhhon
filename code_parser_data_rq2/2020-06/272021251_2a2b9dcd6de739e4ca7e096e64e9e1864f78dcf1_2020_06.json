@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "grid",
+        "container",
+        "grid",
+        "container",
+        "grid",
+        "i",
+        "grid",
+        "grid",
+        "i",
+        "container",
+        "cell",
+        "prompt",
+        "gridSize",
+        "alert",
+        "makegrid",
+        "makegrid",
+        "gridSize",
+        "request",
+        "gridCell",
+        "cells",
+        "elem",
+        "elem",
+        "elem"
+    ],
+    "literals": [
+        "'container'",
+        "repeat(${grid}, 10fr)",
+        "repeat(${grid}, 10fr)",
+        "'div'",
+        "\"gridCell\"",
+        "'Enter a grid size you want (Max size 64)'",
+        "'Dude, I just told you the max size'",
+        "'.gridCell'",
+        "'mouseover'",
+        "'black'"
+    ],
+    "variables": [
+        "container",
+        "i",
+        "cell",
+        "gridSize",
+        "gridCell",
+        "cells"
+    ],
+    "comments": [
+        "size=40;",
+        "if(grid>16){size=grid};",
+        "if(grid>32){size=grid/5};",
+        "console.log(size,'px');"
+    ],
+    "docstrings": [],
+    "functions": [
+        "makegrid",
+        "request"
+    ],
+    "classes": []
+}

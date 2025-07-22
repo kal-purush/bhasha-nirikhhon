@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "value",
+        "error",
+        "error",
+        "error",
+        "index",
+        "error",
+        "replace",
+        "error",
+        "value",
+        "error",
+        "error_abs",
+        "error"
+    ],
+    "literals": [
+        "'str'",
+        "\"%\"",
+        "\"%\"",
+        "\"\""
+    ],
+    "variables": [
+        "error",
+        "error_abs"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    If an error is a percentage, we convert to a float, then\n    calculate the percentage of the supplied value\n    :param value: base value, e.g. 10\n    :param error: e.g. 20.0%\n    :return: the absolute error, e.g. 12 for the above case.\n    \"\"\""
+    ],
+    "functions": [
+        "percentage_processor"
+    ],
+    "classes": []
+}

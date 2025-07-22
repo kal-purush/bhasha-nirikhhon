@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "op",
+        "create_table",
+        "sa",
+        "Column",
+        "sa",
+        "primary_key",
+        "sa",
+        "Column",
+        "sa",
+        "sa",
+        "Column",
+        "sa",
+        "sa",
+        "Column",
+        "sa",
+        "sa",
+        "Column",
+        "sa",
+        "op",
+        "drop_table"
+    ],
+    "literals": [
+        "'39f126113a68'",
+        "'bf0ac877b0c'",
+        "'audit_log'",
+        "'id'",
+        "'user'",
+        "'message'",
+        "'timestamp'",
+        "'player_name'",
+        "'audit_log'"
+    ],
+    "variables": [
+        "revision",
+        "down_revision"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic."
+    ],
+    "docstrings": [
+        "\"\"\"Create audit log table\n\nRevision ID: 39f126113a68\nRevises: bf0ac877b0c\nCreate Date: 2015-09-13 03:45:06.886460\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Observable",
+        "HttpClient",
+        "Table",
+        "ExceptionST",
+        "ContinueNode",
+        "BreakNode",
+        "require",
+        "Injectable",
+        "_http",
+        "cadena",
+        "cadena"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'rxjs'",
+        "'@angular/common/http'",
+        "'../../st/Table'",
+        "'../../st/ExceptionST'",
+        "'../../st/TypeError'",
+        "'../../nodes/Expresiones/ContinueNode'",
+        "'../../nodes/Expresiones/BreakNode'",
+        "'../../parser/grammar.js'",
+        "'root'",
+        "'/ejecutar'"
+    ],
+    "variables": [
+        "parser"
+    ],
+    "comments": [
+        "const tree = parser.parse(cadena);\n    const tabla = new Table(null);\n\n    tree.instructions.map((m: any) => {\n      const res = m.execute(tabla, tree);\n\n      if (res instanceof BreakNode) {\n        const error = new ExceptionST(TypeError.SEMANTICO,\n          `Sentencia break fuera de un ciclo`,\n          res.line, res.column);\n        tree.excepciones.push(error);\n        tree.console.push(error.toString());\n      } else if (res instanceof ContinueNode) {\n        const error = new ExceptionST(TypeError.SEMANTICO,\n          `Sentencia continue fuera de un ciclo`,\n          res.line, res.column);\n        tree.excepciones.push(error);\n        tree.console.push(error.toString());\n      }\n    });"
+    ],
+    "docstrings": [],
+    "functions": [
+        "analizar"
+    ],
+    "classes": [
+        "DataService"
+    ]
+}

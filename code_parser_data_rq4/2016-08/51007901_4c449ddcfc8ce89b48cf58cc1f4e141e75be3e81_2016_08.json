@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "Text",
+        "ReSharper20162CSharp",
+        "StringBuilder",
+        "myStringBuilder"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "20162RTM: Typing assistance: dot/semicolon inside parentheses, dot after semicolon",
+        "(a chain of all three shown here: https://twitter.com/controlflow/status/734508760761270272/)",
+        "1. dot inside parentheses:",
+        "myStringBuilder.AppendLine(.) -> myStringBuilder.AppendLine().{caret}",
+        "2. Semicolon inside parentheses:",
+        "myStringBuilder.AppendLine(;) -> myStringBuilder.AppendLine({caret});",
+        "3. dot after semicolon:",
+        "myStringBuilder.AppendLine().Capacity;. -> myStringBuilder.AppendLine().Capacity.{caret};"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Foo"
+    ],
+    "classes": [
+        "TypingAssistance"
+    ]
+}

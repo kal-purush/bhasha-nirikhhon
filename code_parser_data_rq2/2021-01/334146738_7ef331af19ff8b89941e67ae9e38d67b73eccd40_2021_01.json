@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "socket",
+        "threading",
+        "sys",
+        "socket",
+        "signal",
+        "signal",
+        "socket",
+        "recv",
+        "data",
+        "decode",
+        "input",
+        "input",
+        "socket",
+        "socket",
+        "socket",
+        "AF_INET",
+        "socket",
+        "SOCK_STREAM",
+        "sock",
+        "connect",
+        "host",
+        "port",
+        "input",
+        "sys",
+        "exit",
+        "threading",
+        "target",
+        "receive",
+        "args",
+        "sock",
+        "receiveThread",
+        "start",
+        "input",
+        "sock",
+        "sendall",
+        "encode",
+        "message"
+    ],
+    "literals": [
+        "\"utf-8\"",
+        "\"You have been disconnected from the server\"",
+        "\"Host: \"",
+        "\"Port: \"",
+        "\"Could not make a connection to the server\"",
+        "\"Press enter to quit\""
+    ],
+    "variables": [
+        "data",
+        "signal",
+        "host",
+        "port",
+        "sock",
+        "receiveThread",
+        "message"
+    ],
+    "comments": [
+        "Wait for incoming data from server",
+        ".decode is used to turn the message in bytes to a string",
+        "Get host and port",
+        "Attempt connection to server",
+        "Create new thread to wait for data",
+        "Send data to server",
+        "str.encode is used to turn the string message into bytes so it can be sent across the network"
+    ],
+    "docstrings": [],
+    "functions": [
+        "receive"
+    ],
+    "classes": []
+}

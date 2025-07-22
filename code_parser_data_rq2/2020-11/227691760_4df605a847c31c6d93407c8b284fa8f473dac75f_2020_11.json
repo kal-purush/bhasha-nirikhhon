@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "enumObj",
+        "key",
+        "k",
+        "enumObj",
+        "k",
+        "key",
+        "enumObj",
+        "k",
+        "enumObj",
+        "k"
+    ],
+    "literals": [
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Parse a string into the given (string) enum type. Returns undefined if the\n * enum type provided did not match any of the keys in the enum.\n *\n * Resist the urge to use Object.entries().find() to get this down to a\n * one-liner. I measured it and this is 200x faster and doesn't allocate any\n * unnecessary arrays."
+    ],
+    "functions": [
+        "parseEnumValue"
+    ],
+    "classes": []
+}

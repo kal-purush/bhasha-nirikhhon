@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Extensions",
+        "Configuration",
+        "IO",
+        "Azure",
+        "Storage",
+        "Blobs",
+        "PhotoSharingApp",
+        "args",
+        "ConfigurationBuilder",
+        "SetBasePath",
+        "Directory",
+        "GetCurrentDirectory",
+        "AddJsonFile",
+        "builder",
+        "Build",
+        "configuration",
+        "GetConnectionString",
+        "BlobContainerClient",
+        "connectionString",
+        "containerName",
+        "container",
+        "CreateIfNotExists",
+        "container",
+        "GetBlobClient",
+        "blobName",
+        "blobClient",
+        "Upload",
+        "fileName",
+        "container",
+        "GetBlobs",
+        "blob",
+        "blobs",
+        "WriteLine",
+        "blob",
+        "Name",
+        "blob",
+        "Properties",
+        "CreatedOn",
+        "blob",
+        "Properties",
+        "ContentLength"
+    ],
+    "literals": [
+        "\"appsettings.json\"",
+        "\"StorageAccount\"",
+        "\"photos\"",
+        "\"docs-and-friends-selfie-stick\"",
+        "\"docs-and-friends-selfie-stick.png\""
+    ],
+    "variables": [
+        "builder",
+        "configuration",
+        "connectionString",
+        "containerName",
+        "BlobContainerClient",
+        "container",
+        "blobName",
+        "fileName",
+        "BlobClient",
+        "blobClient",
+        "blobs"
+    ],
+    "comments": [
+        "Get a connection string to our Azure Storage account.",
+        "Get a reference to the container client object so you can create the \"photos\" container",
+        "Uploads the image to Blob storage.  If a blb already exists with this name it will be overwritten",
+        "List out all the blobs in the container"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Main"
+    ],
+    "classes": [
+        "Program"
+    ]
+}

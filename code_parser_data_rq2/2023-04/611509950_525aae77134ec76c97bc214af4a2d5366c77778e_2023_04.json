@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "Directus",
+        "Auth",
+        "url",
+        "init",
+        "Directus",
+        "url",
+        "collectionName",
+        "query",
+        "collectionName",
+        "query",
+        "response",
+        "collectionName",
+        "id",
+        "collectionName",
+        "id",
+        "response",
+        "itemName",
+        "createPayload",
+        "itemName",
+        "createPayload",
+        "response",
+        "response",
+        "response",
+        "itemName",
+        "itemId",
+        "requestPayload",
+        "itemName",
+        "itemId",
+        "requestPayload",
+        "response",
+        "response",
+        "response",
+        "process",
+        "process",
+        "DirectusInstance",
+        "url"
+    ],
+    "literals": [
+        "'@directus/sdk'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "response",
+        "response",
+        "response",
+        "response",
+        "url",
+        "init",
+        "directusEnv"
+    ],
+    "comments": [
+        "const directus = new Directus('http://localhost:8055');",
+        "console.log('url', url, init);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getMany",
+        "getOne",
+        "post",
+        "patch"
+    ],
+    "classes": [
+        "DirectusInstance"
+    ]
+}

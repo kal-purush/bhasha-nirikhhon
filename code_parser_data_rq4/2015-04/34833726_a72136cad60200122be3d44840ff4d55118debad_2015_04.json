@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Logger",
+        "Config",
+        "filePath",
+        "flag",
+        "filePath",
+        "filePath",
+        "Config",
+        "Logger",
+        "filePath",
+        "flag",
+        "Config",
+        "Factory",
+        "runtimeLogPath",
+        "Config",
+        "Factory",
+        "serverLogPath",
+        "Factory"
+    ],
+    "literals": [
+        "\"./logger\"",
+        "\"../config\"",
+        "''",
+        "\"use strict\"",
+        "\"use strict\"",
+        "'RUNTIME'",
+        "\"use strict\"",
+        "'SERVER'"
+    ],
+    "variables": [
+        "runtimeLogPath",
+        "serverLogPath"
+    ],
+    "comments": [
+        "<reference path=\"../../defs/node/node.d.ts\" />"
+    ],
+    "docstrings": [
+        "* Factory Helper\n *\n * Factories main objects to help decoupling the code",
+        "* Gets a new Logger instance\n     * @param filePath Log file path\n     * @param flag Log flag (default: RUNTIME)\n     * @returns {Logger}",
+        "* Gets a new Logger instance to log runtime messages\n     * @returns {Logger}",
+        "* Gets a new Logger instance to log server messages\n     * @returns {Logger}"
+    ],
+    "functions": [
+        "getLogger",
+        "getRuntimeLogger",
+        "getServerLogger"
+    ],
+    "classes": [
+        "Factory"
+    ]
+}

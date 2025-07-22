@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "WebComponent",
+        "logo",
+        "customElements",
+        "HeaderContainer"
+    ],
+    "literals": [
+        "'./product-card.js'",
+        "<style>\n\t\t    .header {\n\t\t        display: flex;\n\t\t        flex-direction: column;\n\t\t        align-items: center;\n\t\t    }\n\t\t    \n\t\t    .header__content, .header__categories {\n\t\t        width: 95%;\n\t\t        max-width: 1440px;\n\t\t    }\n\t\t    \n\t\t    .header__content {\n\t\t        padding: 20px 10px;\n\t\t    }\n\t\t    \n\t\t    .category-button-container, .logo, .basket-search-container {\n\t\t        width: 300px;\n\t\t    }\n\t\t    \n\t\t    .header__content {\n\t\t        display: flex;\n\t\t        justify-content: space-between;\n\t\t        align-items: center;\n\t\t    }\n\t\t    \n\t\t    .category-button-container {\n\t\t        height: 40px;\n\t\t        display: flex;\n\t\t        align-items: center;\n\t\t    }\n\t\t    \n\t\t    .category-button {\n\t\t        width: 33px;\n\t\t        height: 33px;\n\t\t        cursor: pointer;\n\t\t        position: absolute;\n\t\t        opacity: 0.8;\n\t\t        transition: all 0.2s ease-out;\n\t\t    }\n\t\t    \n\t\t    .category-button:hover {\n\t\t        opacity: 1;\n\t\t    }\n\t\t    \n\t\t    .button__top-line, .button__bottom-line {\n\t\t        height: 2px;\n\t\t        width: 40px;\n\t\t        background-color: azure;\n\t\t        border-radius: 1px 1px 1px 1px;\n\t\t        position: relative;\n\t\t    }\n\t\t    \n\t\t    .button__top-line {\n\t\t        transform: rotate(45deg);\n\t\t        top: 16px;\n\t\t        left: -3px;\n\t\t    }\n\t\t    \n\t\t    .button__bottom-line {\n\t\t        transform: rotate(-45deg);\n\t\t        top: 14px;\n\t\t        left: -3px;\n\t\t    }\n\t\t    \n            .logo {\n                color: azure;\n                margin: 0;\n                text-align: center;\n                font: 40px \"Circe Bold\";\n            }\n            \n            .basket-search-container, .basket-container, .search-container {\n                display: flex;\n                align-items: center;\n            }\n            \n            .basket-search-container {\n                justify-content: space-between;\n            }\n            \n            .basket-icon {\n                width: 30px;\n                height: 30px;\n                color: azure;\n                background-image: url('/img/icons/basket-icon.png');\n            }\n            \n\t\t</style>",
+        "<header class=\"header\">\n            <div class=\"header__content\">    \n                <div class=\"category-button-container\">\n                    <div class=\"category-button\">\n                        <div class=\"button__top-line\"></div>\n                        <div class=\"button__bottom-line\"></div>\n                    </div>\n                </div>\n                <h1 class=\"logo\"></h1>\n                <div class=\"basket-search-container\">\n                    <div class=\"basket-container\">\n                        <span class=\"basket-counter\"></span>\n                        <div class=\"basket-icon\"></div>\n                    </div>\n                    <form class=\"search-container\">\n                        <input type=\"text\" class=\"search-bar\" placeholder=\"Поиск...\">\n                        <div class=\"search-icon\">\n                        <button class=\"search-button\"></button>\n                        </div>\n                    </form>\n                </div>\n                \n            </div>\n            <div class=\"header__categories\">\n                <div class=\"tst-div\"></div>\n            </div>\n        </header>",
+        "'.logo'",
+        "'COSE RUBATE'",
+        "'header-container'"
+    ],
+    "variables": [
+        "logo"
+    ],
+    "comments": [
+        "const basketIcon = this.shadowRoot.querySelector('.basket-icon')",
+        "basketIcon.style.backgroundImage = 'url(img/icons/basket-icon.png);'",
+        "addListeners() {",
+        "this.addEventListener('add_product_to_cart', ({detail}) => {",
+        "const idx = window.shop.products.findIndex(el => el.id === +detail)",
+        "this.calculateAmount(window.shop.products[idx])",
+        "})",
+        "}",
+        "",
+        "calculateAmount(product) {",
+        "const price = product.price",
+        "if (product.discount) {",
+        "const priceDiscount = (product.price * (100 - product.discount)/100)",
+        "this.amount += priceDiscount",
+        "} else {",
+        "this.amount += price",
+        "}",
+        "this.renderAmount()",
+        "}",
+        "",
+        "renderAmount() {",
+        "this.shadowRoot.querySelector('.amount').innerText = this.amount",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "css",
+        "html",
+        "connectedCallback"
+    ],
+    "classes": [
+        "HeaderContainer"
+    ]
+}

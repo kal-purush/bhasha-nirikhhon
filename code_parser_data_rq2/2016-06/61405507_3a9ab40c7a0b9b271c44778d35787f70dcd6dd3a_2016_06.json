@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "by",
+        "bindingModel",
+        "opt_parentElement",
+        "opt_parentElement",
+        "bindingModel",
+        "matches",
+        "result",
+        "matches",
+        "result",
+        "matches",
+        "result",
+        "matches",
+        "result",
+        "pageUrl",
+        "browser",
+        "pageUrl",
+        "browser",
+        "result",
+        "result",
+        "result",
+        "browser",
+        "result",
+        "result",
+        "exports",
+        "config",
+        "browser",
+        "addValueBindLocator",
+        "browser",
+        "loadAndWaitForAureliaPage",
+        "browser",
+        "waitForRouterComplete",
+        "exports",
+        "config",
+        "exports",
+        "config"
+    ],
+    "literals": [
+        "'valueBind'",
+        "'*[value\\\\.bind=\"'",
+        "'\"]'",
+        "'var cb = arguments[arguments.length - 1];'",
+        "'document.addEventListener(\"aurelia-composed\", function (e) {'",
+        "'  cb(\"Aurelia App composed\")'",
+        "'}, false);'",
+        "'var cb = arguments[arguments.length - 1];'",
+        "'document.querySelector(\"[aurelia-app]\")'",
+        "'.aurelia.subscribeOnce(\"router:navigation:complete\", function() {'",
+        "'  cb(true)'",
+        "'});'"
+    ],
+    "variables": [
+        "matches",
+        "result"
+    ],
+    "comments": [
+        "Aurelia Protractor Plugin",
+        "Plugin hooks",
+        "Ignore the default Angular synchronization helpers",
+        "add the aurelia specific valueBind locator",
+        "attach a new way to browser.get a page and wait for Aurelia to complete loading",
+        "wait for router navigations to complete"
+    ],
+    "docstrings": [],
+    "functions": [
+        "addValueBindLocator",
+        "loadAndWaitForAureliaPage",
+        "waitForRouterComplete"
+    ],
+    "classes": []
+}

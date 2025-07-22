@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "pygame",
+        "pygame",
+        "init",
+        "pygame",
+        "joystick",
+        "init",
+        "pygame",
+        "joystick",
+        "get_count",
+        "nof_joysticks",
+        "i",
+        "nof_joysticks",
+        "pygame",
+        "joystick",
+        "Joystick",
+        "i",
+        "js",
+        "get_id",
+        "js",
+        "get_name",
+        "pygame",
+        "joystick",
+        "Joystick",
+        "joystick",
+        "init",
+        "joystick",
+        "get_id",
+        "joystick",
+        "get_numbuttons",
+        "joystick",
+        "get_numaxes",
+        "joystick",
+        "get_numhats"
+    ],
+    "literals": [
+        "\"Could not find any joystick controllers\"",
+        "\"Joystick #%d is called '%s'\"",
+        "\"Using joystick #%d with %d buttons, %d axes and %d hats\""
+    ],
+    "variables": [
+        "joystick",
+        "nof_joysticks",
+        "js",
+        "joystick"
+    ],
+    "comments": [
+        "Support for PlayStation DualShock 4 Controllers",
+        "Initialize pygame and the joystick module; both functions are safe to call multiple times",
+        "Do we have any controllers plugged in?",
+        "Print out the names of all joysticks; this can be done before initializing them",
+        "Pick the first one",
+        "Print out some more details; this can only be done after initializing"
+    ],
+    "docstrings": [
+        "\"\"\"Represent and initialize a PS4 Controller device, called \"joystick\" in pygame.\n    If we find more than one, only the first one will be initialized.\n    \"\"\"",
+        "\"\"\"Initialize the joystick module.\"\"\""
+    ],
+    "functions": [
+        "init"
+    ],
+    "classes": [
+        "PS4Controller"
+    ]
+}

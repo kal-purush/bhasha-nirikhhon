@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "pick",
+        "ActionType",
+        "getType",
+        "StoreActions",
+        "ChannelsActions",
+        "TransportActions",
+        "MessagesActions",
+        "StoreActions",
+        "ChannelsActions",
+        "TransportActions",
+        "MessagesActions",
+        "RaidenActions",
+        "pick",
+        "RaidenActions",
+        "RaidenActions",
+        "RaidenActions",
+        "RaidenActions",
+        "getType",
+        "RaidenEvents"
+    ],
+    "literals": [
+        "'lodash'",
+        "'typesafe-actions'",
+        "'./store/actions'",
+        "'./channels/actions'",
+        "'./transport/actions'",
+        "'./messages/actions'"
+    ],
+    "variables": [
+        "RaidenActions",
+        "RaidenEvents"
+    ],
+    "comments": [
+        "Tagged union of all action types from the action creators",
+        "Mapping { [type: string]: Action } of a subset of RaidenActions exposed as events",
+        "Tagged union of RaidenEvents actions"
+    ],
+    "docstrings": [
+        "* Aggregate types and exported properties from actions from all modules"
+    ],
+    "functions": [],
+    "classes": []
+}

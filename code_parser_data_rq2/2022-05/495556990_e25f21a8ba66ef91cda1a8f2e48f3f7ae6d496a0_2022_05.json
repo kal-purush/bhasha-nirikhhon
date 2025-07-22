@@ -1,0 +1,90 @@
+{
+    "identifiers": [
+        "spack",
+        "CMakePackage",
+        "version",
+        "branch",
+        "variant",
+        "description",
+        "depends_on",
+        "depends_on",
+        "depends_on",
+        "depends_on",
+        "depends_on",
+        "when",
+        "depends_on",
+        "when",
+        "depends_on",
+        "args",
+        "name",
+        "flags",
+        "name",
+        "name",
+        "spec",
+        "target",
+        "flags",
+        "append",
+        "flags",
+        "flags"
+    ],
+    "literals": [
+        "\"https://bricks.run/\"",
+        "'https://github.com/CtopCsUtahEdu/bricklib.git'",
+        "'ztuowen'",
+        "'drhansj'",
+        "'r0.1'",
+        "'r0.1'",
+        "'cuda'",
+        "'Build bricks with CUDA enabled'",
+        "'cmake~openssl'",
+        "'build'",
+        "'autoconf'",
+        "'build'",
+        "'automake'",
+        "'build'",
+        "'libtool'",
+        "'build'",
+        "'opencl-clhpp'",
+        "'+cuda'",
+        "'cuda'",
+        "'+cuda'",
+        "'mpi'",
+        "'cflags'",
+        "'cxxflags'",
+        "'cppflags'",
+        "'cxxflags'",
+        "'x86_64'",
+        "'-mavx512f'"
+    ],
+    "variables": [
+        "homepage",
+        "git",
+        "maintainers",
+        "args"
+    ],
+    "comments": [
+        "url for your package's homepage here.",
+        "List of GitHub accounts to notify when the package is updated.",
+        "Building a variant of cmake without openssl is to match how the",
+        "ECP E4S project builds cmake in their e4s-base-cuda Docker image",
+        "There are many vector instrinsics used in this package. If",
+        "the package is built on a native architecture, then it likely",
+        "will not run (illegal instruction fault) on a less feature-",
+        "rich architecture.",
+        "If you intend to use this package in an architecturally-",
+        "heterogeneous environment, then the package should be build",
+        "with \"target=x86_64\". This will ensure that all Intel",
+        "architectures can use the libraries and tests in this",
+        "project by forceing the AVX512F flag in gcc."
+    ],
+    "docstrings": [
+        "\"\"\"Bricks is a data layout and code generation framework, enabling performance-portable stencil computations across a multitude of architectures.\"\"\""
+    ],
+    "functions": [
+        "cmake_args",
+        "flag_handler"
+    ],
+    "classes": [
+        "Bricks"
+    ]
+}

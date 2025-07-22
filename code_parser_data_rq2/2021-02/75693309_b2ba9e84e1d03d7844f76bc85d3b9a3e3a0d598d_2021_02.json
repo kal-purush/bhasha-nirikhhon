@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "com",
+        "oracle",
+        "bmc",
+        "computeinstanceagent",
+        "com",
+        "oracle",
+        "bmc",
+        "computeinstanceagent",
+        "requests",
+        "com",
+        "oracle",
+        "bmc",
+        "computeinstanceagent",
+        "responses",
+        "javax",
+        "annotation",
+        "Generated",
+        "value",
+        "comments",
+        "Plugin",
+        "endpoint",
+        "region",
+        "regionId",
+        "request",
+        "request"
+    ],
+    "literals": [
+        "\"OracleSDKGenerator\"",
+        "\"API Version: 20180530\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2016, 2021, Oracle and/or its affiliates.  All rights reserved.\n * This software is dual-licensed to you under the Universal Permissive License (UPL) 1.0 as shown at https://oss.oracle.com/licenses/upl or Apache License 2.0 as shown at http://www.apache.org/licenses/LICENSE-2.0. You may choose either license.",
+        "* API for the Oracle Cloud Agent software running on compute instances. Oracle Cloud Agent\n * is a lightweight process that monitors and manages compute instances.\n *",
+        "* Sets the endpoint to call (ex, https://www.example.com).\n     * @param endpoint The endpoint of the service.",
+        "* Gets the set endpoint for REST call (ex, https://www.example.com)",
+        "* Sets the region to call (ex, Region.US_PHOENIX_1).\n     * <p>\n     * Note, this will call {@link #setEndpoint(String) setEndpoint} after resolving the endpoint.  If the service is not available in this Region, however, an IllegalArgumentException will be raised.\n     * @param region The region of the service.",
+        "* Sets the region to call (ex, 'us-phoenix-1').\n     * <p>\n     * Note, this will first try to map the region ID to a known Region and call\n     * {@link #setRegion(Region) setRegion}.\n     * <p>\n     * If no known Region could be determined, it will create an endpoint based on the\n     * default endpoint format ({@link com.oracle.bmc.Region#formatDefaultRegionEndpoint(Service, String)}\n     * and then call {@link #setEndpoint(String) setEndpoint}.\n     * @param regionId The public region ID.",
+        "* The API to get information for a plugin.\n     * @param request The request object containing the details to send\n     * @return A response object containing details about the completed operation\n     * @throws BmcException when an error occurs.\n     *\n     * <b>Example: </b>Click <a href=\"https://docs.cloud.oracle.com/en-us/iaas/tools/java-sdk-examples/latest/computeinstanceagent/GetInstanceAgentPluginExample.java.html\" target=\"_blank\" rel=\"noopener noreferrer\" >here</a> to see how to use GetInstanceAgentPlugin API.",
+        "* The API to get one or more plugin information.\n     * @param request The request object containing the details to send\n     * @return A response object containing details about the completed operation\n     * @throws BmcException when an error occurs.\n     *\n     * <b>Example: </b>Click <a href=\"https://docs.cloud.oracle.com/en-us/iaas/tools/java-sdk-examples/latest/computeinstanceagent/ListInstanceAgentPluginsExample.java.html\" target=\"_blank\" rel=\"noopener noreferrer\" >here</a> to see how to use ListInstanceAgentPlugins API.",
+        "* Gets the pre-configured paginators available for list operations in this service which may return multiple\n     * pages of data. These paginators provide an {@link java.lang.Iterable} interface so that service responses, or\n     * resources/records, can be iterated through without having to manually deal with pagination and page tokens.\n     *\n     * @return The service paginators."
+    ],
+    "functions": [
+        "setEndpoint",
+        "getEndpoint",
+        "setRegion",
+        "setRegion",
+        "GetInstanceAgentPluginResponse",
+        "getInstanceAgentPlugin",
+        "ListInstanceAgentPluginsResponse",
+        "listInstanceAgentPlugins",
+        "PluginPaginators",
+        "getPaginators"
+    ],
+    "classes": []
+}

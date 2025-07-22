@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "cartodb",
+        "vis",
+        "layers",
+        "layers",
+        "layers",
+        "e",
+        "pos",
+        "latlng",
+        "data",
+        "search",
+        "data",
+        "vis",
+        "err",
+        "err",
+        "data",
+        "data",
+        "data",
+        "main"
+    ],
+    "literals": [
+        "'carto-map'",
+        "'http://philakeyspots.cartodb.com/api/v2/viz/75f8c996-b86f-11e4-92ef-0e4fddd5de28/viz.json'",
+        "'featureOver'"
+    ],
+    "variables": [],
+    "comments": [
+        "layer 0 is the base layer, layer 1 is cartodb layer",
+        "setInteraction is disabled by default",
+        "cartodb.log.log(e, pos, latlng, data);",
+        "you can get the native map to work with it",
+        "now, perform any operations you need",
+        "map.setZoom(3);",
+        "map.panTo([50.5, 30.5]);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main",
+        "search"
+    ],
+    "classes": []
+}

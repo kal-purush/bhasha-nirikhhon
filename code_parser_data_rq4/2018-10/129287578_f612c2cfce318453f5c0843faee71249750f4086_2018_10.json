@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "os",
+        "shutil",
+        "subprocess",
+        "sys",
+        "os",
+        "environ",
+        "cmd_list",
+        "join",
+        "cmd_list",
+        "subprocess",
+        "call",
+        "cmd_list",
+        "retcode",
+        "join",
+        "cmd_list",
+        "sys",
+        "exit",
+        "run_program",
+        "run_program",
+        "run_program",
+        "shutil",
+        "copy"
+    ],
+    "literals": [
+        "'PYTHONUNBUFFERED'",
+        "'1'",
+        "\"Running (%s)\"",
+        "\" \"",
+        "\"Build failed: %s\"",
+        "' '",
+        "\"Building iofirmware\"",
+        "\"./waf\"",
+        "\"configure\"",
+        "\"--board\"",
+        "'iomcu'",
+        "\"./waf\"",
+        "\"clean\"",
+        "\"./waf\"",
+        "\"iofirmware\"",
+        "'build/iomcu/bin/iofirmware.bin'",
+        "'Tools/IO_Firmware/fmuv2_IO.bin'"
+    ],
+    "variables": [
+        "retcode"
+    ],
+    "comments": [
+        "!/usr/bin/env python"
+    ],
+    "docstrings": [
+        "\"\"\"\nscript to build iofirmware and copy to Tools/IO_Firmware\n\"\"\""
+    ],
+    "functions": [
+        "run_program"
+    ],
+    "classes": []
+}

@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "java",
+        "util",
+        "strs",
+        "groups",
+        "letters",
+        "s",
+        "strs",
+        "charArr",
+        "s",
+        "toCharArray",
+        "Arrays",
+        "fill",
+        "letters",
+        "c",
+        "charArr",
+        "letters",
+        "c",
+        "rep",
+        "i",
+        "letters",
+        "rep",
+        "i",
+        "groups",
+        "containsKey",
+        "rep",
+        "groups",
+        "put",
+        "rep",
+        "groups",
+        "get",
+        "rep",
+        "add",
+        "s",
+        "groups",
+        "values"
+    ],
+    "literals": [
+        "\"\"",
+        "\"#\""
+    ],
+    "variables": [],
+    "comments": [
+        "Time Complexity : O(n * k) where n is the no of strs and k is length of the longest string",
+        "Space Complexity : O(n * k)",
+        "Did this code successfully run on Leetcode : Yes",
+        "Any problem you faced while coding this : No",
+        "In this approach, I am first finding the count of each letter in a string and then create a unique representation string from it, which represents a group of Anagrams",
+        "the commented code below give (n* (k *log k) time complexity",
+        "Arrays.sort(charArr);",
+        "if (!groups.containsKey(String.valueOf(charArr))) {",
+        "groups.put(String.valueOf(charArr), new ArrayList<String>());",
+        "}",
+        "groups.get(String.valueOf(charArr)).add(s);",
+        "resetting the count for new string",
+        "creating a unique representation of group of anagrams"
+    ],
+    "docstrings": [],
+    "functions": [
+        "groupAnagrams"
+    ],
+    "classes": [
+        "Problem1",
+        "Solution"
+    ]
+}

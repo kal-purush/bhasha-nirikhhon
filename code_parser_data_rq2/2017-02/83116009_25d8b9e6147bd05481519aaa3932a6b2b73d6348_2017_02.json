@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "mailu",
+        "app",
+        "db",
+        "mailu",
+        "admin",
+        "models",
+        "op",
+        "add_column",
+        "sa",
+        "Column",
+        "sa",
+        "nullable",
+        "server_default",
+        "sa",
+        "sql",
+        "expression",
+        "app",
+        "config",
+        "get",
+        "fetch",
+        "models",
+        "Fetch",
+        "query",
+        "all",
+        "db",
+        "session",
+        "commit",
+        "op",
+        "batch_alter_table",
+        "batch",
+        "batch",
+        "drop_column"
+    ],
+    "literals": [
+        "'3f6994568962'",
+        "'2335c80a6bc3'",
+        "'fetch'",
+        "'keep'",
+        "\"FETCHMAIL_KEEP\"",
+        "\"False\"",
+        "\"True\"",
+        "'fetch'",
+        "'keep'"
+    ],
+    "variables": [
+        "revision",
+        "down_revision",
+        "fetch",
+        "keep"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic.",
+        "also apply the current config value if set"
+    ],
+    "docstrings": [
+        "\"\"\" Add keep as an option in fetches\n\nRevision ID: 3f6994568962\nRevises: 2335c80a6bc3\nCreate Date: 2017-02-02 22:31:00.719703\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

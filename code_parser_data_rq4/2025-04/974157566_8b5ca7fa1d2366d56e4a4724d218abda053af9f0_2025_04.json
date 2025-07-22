@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "xpath",
+        "xpath",
+        "XPathResult",
+        "elementsToChange",
+        "item",
+        "getElementByXPath",
+        "item",
+        "element",
+        "element",
+        "element",
+        "element",
+        "item",
+        "element",
+        "item",
+        "alert"
+    ],
+    "literals": [
+        "'use strict'",
+        "'/html/body/main/div[7]/div/article[1]/div/h4'",
+        "'111123 mali'",
+        "'input'",
+        "'textarea'",
+        "'✅ Scripti u exe me sukses!'"
+    ],
+    "variables": [
+        "elementsToChange",
+        "element"
+    ],
+    "comments": [
+        "==UserScript==",
+        "@name         Blikudo XPath Batch Value Changer with Alert",
+        "@namespace    http://lemurbrowser.com/",
+        "@version      1.1",
+        "@description  Change multiple fields by XPath and show an alert when done",
+        "@match        https://blikudo.al/*",
+        "@grant        none",
+        "==/UserScript==",
+        "Helper to find an element by XPath",
+        "Array of elements and values",
+        "Iterate over each item",
+        "Show alert after all fields are filled"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getElementByXPath"
+    ],
+    "classes": []
+}

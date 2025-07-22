@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "SerializeField",
+        "MeshRenderer",
+        "MeshRenderer",
+        "MeshRenderer",
+        "ball",
+        "balls",
+        "ball",
+        "sharedMaterial",
+        "SetFloat",
+        "GameStateController",
+        "_instance",
+        "m_NewFrame",
+        "AddListener",
+        "distortionRate",
+        "GameStateController",
+        "GetCurrentFrame"
+    ],
+    "literals": [
+        "\"Vector1_75BF3378\""
+    ],
+    "variables": [
+        "balls",
+        "distortionRate"
+    ],
+    "comments": [
+        "foreach(MeshRenderer ball in balls) {\n                ball.sharedMaterial.SetFloat(\"Vector1_75BF3378\", GameStateController.GetCurrentFrame() * distortionRate);\n            }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start"
+    ],
+    "classes": [
+        "BallDistorter"
+    ]
+}

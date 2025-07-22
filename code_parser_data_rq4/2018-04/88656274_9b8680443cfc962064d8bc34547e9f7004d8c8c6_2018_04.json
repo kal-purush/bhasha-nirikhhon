@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "VISA_Driver",
+        "VISA_Driver",
+        "VISA_Driver",
+        "quant",
+        "value",
+        "sweepRate",
+        "options",
+        "quant",
+        "name",
+        "askAndLog",
+        "quant",
+        "getCmdStringFromValue",
+        "value",
+        "old_clock",
+        "new_clock",
+        "writeAndLog",
+        "new_clock",
+        "new_clock",
+        "writeAndLog",
+        "writeAndLog",
+        "VISA_Driver",
+        "performSetValue",
+        "quant",
+        "value",
+        "sweepRate",
+        "options",
+        "options",
+        "value"
+    ],
+    "literals": [
+        "'Clock source'",
+        "':CLK:SOUR?'",
+        "':CLK:SOUR %s'",
+        "'CLKIN'",
+        "':CLK:FREQ 19.2E9'",
+        "':CAL:SCLK'",
+        "'__main__'"
+    ],
+    "variables": [
+        "old_clock",
+        "new_clock",
+        "value"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "start with setting local quant value",
+        "proceed depending on command",
+        "for clock source, first read current value",
+        "get command string for new value, check if they match",
+        "clock has changed, update",
+        "if internal, make sure clock frequency is 19.2 GHz",
+        "after clock change, we need to calibrate the system clock",
+        "for all other cases, call VISA driver"
+    ],
+    "docstrings": [
+        "\"\"\" This class implements the Keysight PXI LO\"\"\"",
+        "\"\"\"Perform the Set Value instrument operation. This function should\n        return the actual value set by the instrument\"\"\""
+    ],
+    "functions": [
+        "performSetValue"
+    ],
+    "classes": [
+        "Driver"
+    ]
+}

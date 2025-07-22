@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "$",
+        "jq",
+        "jq",
+        "btngoogle",
+        "jq",
+        "GM_openInTab",
+        "googleUrl",
+        "kw",
+        "node"
+    ],
+    "literals": [
+        "'use strict'",
+        "'https://www.google.com/search?q='",
+        "'#kw'",
+        "'<input type=\"submit\" value=\"Google\" id=\"su2\" class=\" bg s_btn\" style=\"margin-left: 10px;float: right;\">'",
+        "'#su'",
+        "'#su2'"
+    ],
+    "variables": [
+        "jq",
+        "googleUrl",
+        "kw",
+        "btngoogle"
+    ],
+    "comments": [
+        "==UserScript==",
+        "@name         我的测试脚本 http://www.ttlsa.com/docs/greasemonkey/#basic",
+        "@namespace    http://tampermonkey.net/",
+        "@version      0.1",
+        "@description  tamptest",
+        "@author       zhaodong.xzd",
+        "@match        https://www.baidu.com/*",
+        "@exclude      https://www.baidu.com/link*",
+        "@grant        GM_openInTab",
+        "@require      http://code.jquery.com/jquery-1.11.1.min.js",
+        "@run-at document-body",
+        "==/UserScript==",
+        "Your code here...",
+        "alert('Hello, from Tampermonkey.');"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

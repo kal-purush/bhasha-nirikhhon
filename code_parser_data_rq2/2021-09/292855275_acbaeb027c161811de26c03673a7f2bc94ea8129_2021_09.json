@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "parseAddSSHHostPrompt",
+        "describe",
+        "describe",
+        "it",
+        "parseAddSSHHostPrompt",
+        "prompt",
+        "expect",
+        "info",
+        "it",
+        "parseAddSSHHostPrompt",
+        "prompt",
+        "expect",
+        "info"
+    ],
+    "literals": [
+        "'../../src/lib/ssh/ssh'",
+        "'SSH'",
+        "'parsing SSH prompts'",
+        "'extracts info from github.com host key fingerprint'",
+        "The authenticity of host 'github.com (140.82.121.3)' can't be established.\nRSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.\nAre you sure you want to continue connecting (yes/no/[fingerprint])?",
+        "'github.com'",
+        "'140.82.121.3'",
+        "'SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8'",
+        "'RSA'",
+        "'extracts info from fake host key fingerprint'",
+        "The authenticity of host 'my-domain.com (1.2.3.4)' can't be established.\nFAKE-TYPE key fingerprint is ThisIsAFakeFingerprintForTestingPurposes.\nThis key is not known by any other names.\nAre you sure you want to continue connecting (yes/no/[fingerprint])?",
+        "'my-domain.com'",
+        "'1.2.3.4'",
+        "'ThisIsAFakeFingerprintForTestingPurposes'",
+        "'FAKE-TYPE'"
+    ],
+    "variables": [
+        "prompt",
+        "info",
+        "prompt",
+        "info"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

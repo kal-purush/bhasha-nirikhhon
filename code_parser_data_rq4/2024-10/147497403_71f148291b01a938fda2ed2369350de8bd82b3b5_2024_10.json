@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "os",
+        "allure",
+        "pytest",
+        "allure",
+        "feature",
+        "allure",
+        "feature",
+        "allure",
+        "feature",
+        "pytest",
+        "skip",
+        "allure",
+        "feature"
+    ],
+    "literals": [
+        "'test_success'",
+        "'test_failure'",
+        "'test_skip'",
+        "'for a reason!'",
+        "'test_broken'",
+        "'oops'"
+    ],
+    "variables": [],
+    "comments": [
+        "if __name__ == '__main__':",
+        "# pytest.main([\"-s\",\"allure-test.py\"])",
+        "'''",
+        "-q: 安静模式, 不输出环境信息",
+        "-v: 丰富信息模式, 输出更详细的用例执行信息",
+        "-s: 显示程序中的print/logging输出",
+        "'''",
+        "print(\"1111\")",
+        "pytest.main(['-s', '-q', 'test_allure02.py', '--clean-alluredir', '--alluredir=./allure-results'])",
+        "os.system(r\"allure generate -c -o allure-report\")"
+    ],
+    "docstrings": [
+        "\"\"\"this test succeeds\"\"\"",
+        "\"\"\"this test fails\"\"\"",
+        "\"\"\"this test is skipped\"\"\""
+    ],
+    "functions": [
+        "test_success",
+        "test_failure",
+        "test_skip",
+        "test_broken"
+    ],
+    "classes": []
+}

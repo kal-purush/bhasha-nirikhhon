@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "TopDownProteomics",
+        "Biochemistry",
+        "symbol",
+        "symbol",
+        "symbol",
+        "symbol",
+        "symbol",
+        "sequence",
+        "i",
+        "sequence",
+        "Length",
+        "i",
+        "IsAmbiguousAminoAcidResidue",
+        "sequence",
+        "i"
+    ],
+    "literals": [],
+    "variables": [
+        "i"
+    ],
+    "comments": [
+        "<param name=\"symbol\">The residue symbol.</param>",
+        "<param name=\"sequence\">The sequence.</param>"
+    ],
+    "docstrings": [
+        "<summary>A class containing biochemistry utility functions.</summary>",
+        "<summary>Determines whether the specified symbol corresponds to an ambiguous residue.</summary>",
+        "<summary>Determines whether the specified sequence contains an ambiguous residue.</summary>"
+    ],
+    "functions": [
+        "IsAmbiguousAminoAcidResidue",
+        "ContainsAmbiguousAminoAcidResidue"
+    ],
+    "classes": [
+        "BiochemistryUtility"
+    ]
+}

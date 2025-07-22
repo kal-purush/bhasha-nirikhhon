@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "MGen"
+    ],
+    "literals": [
+        "\"{{interfaceName | name}}Model\""
+    ],
+    "variables": [
+        "GenerateNestedClasses",
+        "DestinationNamePattern",
+        "SourceNamePattern"
+    ],
+    "comments": [
+        "If true then the interface types for the properties in this interface will also get classes generated.",
+        "</summary>",
+        "The pattern for creating the name for the class.",
+        "</summary>",
+        "The <see cref=\"System.Text.RegularExpressions.Regex\"/> pattern for getting values from the interface name.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "GenerateAttribute"
+    ]
+}

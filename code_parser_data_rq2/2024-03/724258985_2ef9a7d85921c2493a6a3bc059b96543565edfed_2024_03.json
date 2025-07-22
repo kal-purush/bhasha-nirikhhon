@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "TelemetryExporter",
+        "Core",
+        "Extensions",
+        "paths",
+        "Path",
+        "Combine",
+        "AppDomain",
+        "CurrentDomain",
+        "BaseDirectory",
+        "paths"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Using to access solution resources like images with \"BuildAcion=None\", \"CopyToOutputDirectory=CopyAlways\" <para />",
+        "Path.Combine([AppDomain.CurrentDomain.BaseDirectory, ..paths])",
+        "</summary>",
+        "<param name=\"paths\">Example: [\"Images\", \"example.png\"]</param>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "Combine"
+    ],
+    "classes": [
+        "PathExtensions"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "com",
+        "itheima",
+        "dao",
+        "com",
+        "itheima",
+        "domain",
+        "ContactInfo",
+        "java",
+        "util",
+        "ContactInfoDAO",
+        "id",
+        "contact",
+        "id",
+        "contactInfo",
+        "pageOff",
+        "pageSize"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "通讯录相关DAO",
+        "public List<ContactInfo> queryAll();",
+        "public int delContact(String id);",
+        "public int addContact(ContactInfo contact);",
+        "public List<ContactInfo> queryPage(int pageOffset, int pageSize);"
+    ],
+    "docstrings": [
+        "* 查询所有通讯录记录\n     * @return 所有通讯录记录",
+        "* 删除指定的通讯录\n     * @param id 通过通讯录的id进行删除\n     * @return 此条sql语句，受影响的记录有几条",
+        "* 添加通讯录\n     * @param contact 通讯录JavaBean\n     * @return 受影响的记录有几条",
+        "* 分页查询通讯录记录\n     * @param pageOffset limit第1个关键字\n     * @param pageSize   limit第2个关键字\n     * @return 分页查询的结果",
+        "* 统计有多少条记录\n     * @return 记录的条数",
+        "* 根据唯一标识查询通讯录\n     * @param id 唯一标识\n     * @return 查询所得到的结果",
+        "* 修改通讯录记录\n     * @param contact 通讯录记录的实体\n     * @return 修改所造成的影响的记录有几条"
+    ],
+    "functions": [
+        "queryRecordCount",
+        "queryContactById",
+        "modifyContact",
+        "queryAll",
+        "delContact",
+        "addContact",
+        "queryPage"
+    ],
+    "classes": []
+}

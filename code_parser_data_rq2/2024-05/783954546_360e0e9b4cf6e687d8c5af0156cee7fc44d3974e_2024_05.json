@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "Runtime",
+        "CompilerServices",
+        "UnityEngine",
+        "MonoBehaviour",
+        "Collision2D",
+        "collision",
+        "collision",
+        "gameObject",
+        "tag",
+        "collision",
+        "gameObject",
+        "GetComponent",
+        "Player",
+        "playerHealth",
+        "DamagePlayer",
+        "damage"
+    ],
+    "literals": [
+        "\"Player\""
+    ],
+    "variables": [
+        "damage",
+        "Player",
+        "playerHealth"
+    ],
+    "comments": [
+        "Start is called before the first frame update",
+        "Update is called once per frame",
+        "Rigidbody2D rb = collision.gameObject.GetComponent<Rigidbody2D>();",
+        "Vector2 knockbackDirection = collision.transform.position - transform.position;",
+        "",
+        "rb.AddForce(knockbackDirection.normalized * knockback, ForceMode2D.Impulse);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update",
+        "OnCollisionStay2D"
+    ],
+    "classes": [
+        "SpikeTrap"
+    ]
+}

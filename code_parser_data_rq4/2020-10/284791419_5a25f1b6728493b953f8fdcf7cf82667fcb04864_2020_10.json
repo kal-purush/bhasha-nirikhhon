@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "createGlobalStyle",
+        "theme",
+        "createGlobalStyle",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'./theme'",
+        "body {\n    color: ${theme.colors.textOnBackground};\n    background-color: ${theme.colors.backgroundMain};\n    box-sizing: border-box;\n    font-family: 'Inter', sans-serif;\n    -webkit-font-smoothing: antialiased;\n    -moz-osx-font-smoothing: grayscale;\n  }\n\n  body * {\n    box-sizing: inherit;\n  }\n\n  html, input {\n    font-size: 14px;\n    @media (${theme.breakpoints.minTablet}) {\n      font-size: 16px;\n    }\n    @media (${theme.breakpoints.minLaptop}) {\n      font-size: 18px;\n    }\n    @media (${theme.breakpoints.minDesktop}) {\n      font-size: 20px;\n    }\n  }"
+    ],
+    "variables": [
+        "GlobalStyle"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

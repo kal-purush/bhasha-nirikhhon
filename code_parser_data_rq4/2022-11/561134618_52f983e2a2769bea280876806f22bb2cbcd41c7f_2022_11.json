@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "fetch",
+        "response",
+        "data",
+        "max",
+        "max",
+        "randomInteger",
+        "data",
+        "randomInteger",
+        "data",
+        "output",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "body",
+        "output",
+        "fetchData"
+    ],
+    "literals": [
+        "\"https://ghibliapi.herokuapp.com/films\"",
+        "'body'",
+        "<article>\n\n      <h1>${movie.title}</h1>\n      <h3 class=\"h3\">${movie.original_title_romanised}</h3>\n      <img src=\"${movie.image}\" alt\"Picture of ${movie.title}\">\n      <ul>\n        <li><b>Original Title</b>: ${movie.original_title}\n        <li><b>Director</b>: ${movie.director}</li>\n        <li><b>Producer(s)</b>: ${movie.producer}</li>\n        <li><b>Release Date (Year)</b>: ${movie.release_date}</li>\n        <li><b>Runtime</b>: ${movie.running_time} minutes</li>\n        <li><b>Review Score</b>: ${movie.rt_score}% on Rotten Tomatoes</li>\n        <li><b>Plot Summary</b>:<em> ${movie.description}</li> \n      </ul>\n\n    </article>",
+        "'https://ghibliapi.herokuapp.com/films'",
+        "\"Thank you for reading and enjoy the films!\"",
+        "\"For more information click\"",
+        "'https://ghibliapi.herokuapp.com/films'"
+    ],
+    "variables": [
+        "fetchData",
+        "response",
+        "data",
+        "randomInteger",
+        "randomInteger",
+        "movie",
+        "body"
+    ],
+    "comments": [
+        "Console Log"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

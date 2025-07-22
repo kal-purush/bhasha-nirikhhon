@@ -1,0 +1,88 @@
+{
+    "identifiers": [
+        "MUnique",
+        "OpenMU",
+        "GameServer",
+        "MessageHandler",
+        "Login",
+        "Runtime",
+        "InteropServices",
+        "Microsoft",
+        "Extensions",
+        "Logging",
+        "MUnique",
+        "OpenMU",
+        "GameLogic",
+        "MUnique",
+        "OpenMU",
+        "GameLogic",
+        "PlayerActions",
+        "MUnique",
+        "OpenMU",
+        "GameLogic",
+        "Views",
+        "Login",
+        "MUnique",
+        "OpenMU",
+        "Network",
+        "Packets",
+        "ClientToServer",
+        "MUnique",
+        "OpenMU",
+        "PlugIns",
+        "PlugIn",
+        "Guid",
+        "BelongsToGroup",
+        "LogInOutGroup",
+        "GroupKey",
+        "ISubPacketHandlerPlugIn",
+        "LogOutByCheatDetection",
+        "SubCode",
+        "Player",
+        "player",
+        "Memory",
+        "packet",
+        "player",
+        "Logger",
+        "LogError",
+        "player",
+        "_logoutAction",
+        "LogoutAsync",
+        "player",
+        "LogoutType",
+        "CloseGame",
+        "ConfigureAwait"
+    ],
+    "literals": [
+        "\"Logout by cheat handler\"",
+        "\"Handler for logout (by cheat) packets.\"",
+        "\"AE611B1E-3E3D-4189-B39C-79696D27BFBD\"",
+        "\"Logged out by detected cheat on client side. Player: {player}\""
+    ],
+    "variables": [
+        "LogoutAction",
+        "_logoutAction",
+        "IsEncryptionExpected",
+        "Key"
+    ],
+    "comments": [
+        "<copyright file=\"LogOutByCheatDetectionHandlerPlugIn.cs\" company=\"MUnique\">",
+        "Licensed under the MIT License. See LICENSE file in the project root for full license information.",
+        "</copyright>",
+        "Handler for logout by cheat packets.",
+        "</summary>",
+        "<inheritdoc/>",
+        "<inheritdoc/>",
+        "<inheritdoc/>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "ValueTask",
+        "HandlePacketAsync"
+    ],
+    "classes": [
+        "LogOutByCheatDetectionHandlerPlugIn"
+    ]
+}

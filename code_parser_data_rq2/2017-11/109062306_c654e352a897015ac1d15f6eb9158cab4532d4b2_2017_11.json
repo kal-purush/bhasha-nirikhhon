@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "java",
+        "util",
+        "java",
+        "io",
+        "File",
+        "graphData",
+        "v",
+        "u",
+        "v",
+        "v"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Return the out degree of vertex v.\n\t * @param v\n\t * @return out degree of vertex v.",
+        "* Calculate the BFS path from vertex u to vertex v.\n\t * @param u, start vertex\n\t * @param v, finish vertex\n\t * @return ArrayList of strings repr bfs path from vertex u to vertex v.",
+        "* For strongly connected graphs, the diameter is the smallest number, d, \n\t * such that there is a path of length <= d between any pair of \n\t * vertices. \n\t * \n\t * For graphs that are not strongly connected\n\t * the diameter is 2n. \n\t * @return diameter of the graph.",
+        "* Given a vertex x in V, the centrality of x is the number \n\t * of shortest paths that go via x. \n\t * \n\t * {<x, y> | x, y in V, at least one shortest path from x to y via v}\n\t * @param v\n\t * @return"
+    ],
+    "functions": [
+        "GraphProcessor",
+        "outDegree",
+        "bfsPath",
+        "diameter",
+        "centrality"
+    ],
+    "classes": [
+        "GraphProcessor"
+    ]
+}

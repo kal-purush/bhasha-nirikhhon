@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "purchase",
+        "format",
+        "purchase",
+        "format",
+        "purchase",
+        "format",
+        "purchase",
+        "format",
+        "purchase",
+        "format",
+        "purchase"
+    ],
+    "literals": [
+        "'Susan Sim'",
+        "\"ses@drsusansim.org\"",
+        "\"2015 Susan Sim\"",
+        "\"MIT License\"",
+        "\"Amount of purchase: {0:.2f}\"",
+        "\"Provincial tax: {0:.2f}\"",
+        "\"Federal tax: {0:.2f}\"",
+        "\"Total tax: {0:.2f}\"",
+        "\"Total sale: {0:.2f}\""
+    ],
+    "variables": [
+        "__author__",
+        "__email__",
+        "__copyright__",
+        "__license__"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "Rewrite this code to use global constants, local variables and functions",
+        "Output the text to a file instead of printing it"
+    ],
+    "docstrings": [
+        "\"\"\" Graded Lab #4 for Inf1340, Fall 2015\n\n    This program computes federal and provincial sales tax.\n    Assume that the provincial sales tax is 5 percent and\n    the federal sales tax is 2.5 percent. It displays the\n    amount of the purchase, the provincial sales tax, the\n    federal sales tax, the total tax, and the total of the\n    sale.\n\"\"\""
+    ],
+    "functions": [
+        "bill_of_sale"
+    ],
+    "classes": []
+}

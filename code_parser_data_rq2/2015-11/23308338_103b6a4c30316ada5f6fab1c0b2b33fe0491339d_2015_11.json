@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "OData",
+        "Core"
+    ],
+    "literals": [],
+    "variables": [
+        "ErrorCode",
+        "Message",
+        "Target"
+    ],
+    "comments": [
+        "---------------------------------------------------------------------",
+        "<copyright file=\"ODataErrorDetail.cs\" company=\"Microsoft\">",
+        "Copyright (C) Microsoft Corporation. All rights reserved. See License.txt in the project root for license information.",
+        "</copyright>",
+        "---------------------------------------------------------------------",
+        "Class representing an error detail.",
+        "</summary>",
+        "<returns>The error code to be used in payloads.</returns>",
+        "<returns>The error message.</returns>",
+        "<returns>For example, the name of the property in error</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>Gets or sets the error code to be used in payloads.</summary>",
+        "<summary>Gets or sets the error message.</summary>",
+        "<summary>Gets or sets the target of the particular error.</summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "ODataErrorDetail"
+    ]
+}

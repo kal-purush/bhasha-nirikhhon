@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Provider",
+        "AuditLog",
+        "ColumnBuilderFn",
+        "AnyObject",
+        "auditLogs",
+        "auditLogs",
+        "auditLogs",
+        "auditLogs",
+        "log",
+        "log",
+        "log",
+        "log",
+        "log"
+    ],
+    "literals": [
+        "'@loopback/core'",
+        "'@sourceloop/audit-log'",
+        "'../../../types'",
+        "'@loopback/repository'",
+        "${JSON.stringify(log.before)} ${JSON.stringify(\n        log.after,\n      )}",
+        "${log.actedOn} ${log.actionKey}"
+    ],
+    "variables": [],
+    "comments": [
+        "this is intentional"
+    ],
+    "docstrings": [],
+    "functions": [
+        "value",
+        "columnBuilder"
+    ],
+    "classes": [
+        "ColumnBuilderProvider"
+    ]
+}

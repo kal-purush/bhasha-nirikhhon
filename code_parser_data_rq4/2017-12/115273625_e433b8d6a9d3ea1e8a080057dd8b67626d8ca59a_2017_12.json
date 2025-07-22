@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "zbarlight",
+        "PIL",
+        "Image",
+        "cv2",
+        "cv2",
+        "VideoCapture",
+        "cv2",
+        "waitKey",
+        "ord",
+        "capture",
+        "read",
+        "cv2",
+        "imshow",
+        "frame",
+        "cv2",
+        "cvtColor",
+        "frame",
+        "cv2",
+        "COLOR_BGR2GRAY",
+        "Image",
+        "fromarray",
+        "gray",
+        "zbarlight",
+        "scan_codes",
+        "pil_im",
+        "codes",
+        "main"
+    ],
+    "literals": [
+        "'q'",
+        "'Current'",
+        "'qrcode'",
+        "'QR codes: %s'",
+        "\"__main__\""
+    ],
+    "variables": [
+        "capture",
+        "ret",
+        "frame",
+        "gray",
+        "pil_im",
+        "codes"
+    ],
+    "comments": [
+        "Begin capturing video",
+        "To quit this program press q",
+        "Breaks down the video into frames",
+        "Displays the current frame",
+        "Converts image to grayscale.",
+        "Uses PIL to convert the grayscale image into an array that zbarlight can understand.",
+        "Scans the zbarlight image.",
+        "Prints data from image."
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Vue",
+        "Component",
+        "mixins",
+        "GetThemeIcon",
+        "Vue",
+        "mixins",
+        "Props",
+        "GetThemeIcon",
+        "Component",
+        "MixinsDeclaration"
+    ],
+    "literals": [
+        "'vue'",
+        "'vue-class-component'",
+        "'../../../mixins/getThemeIcon'",
+        "string"
+    ],
+    "variables": [
+        "Props",
+        "MixinsDeclaration"
+    ],
+    "comments": [
+        "Add icon prop and provide computed themeIcon"
+    ],
+    "docstrings": [
+        "* The icon from the theme, optional when\n\t\t * using the slot instead of theme icon",
+        "* The icon from the theme matching the icon prop value\n\t *\n\t * @returns {string|undefined} The icon if it exists"
+    ],
+    "functions": [
+        "themeIcon"
+    ],
+    "classes": [
+        "ThemeIcon"
+    ]
+}

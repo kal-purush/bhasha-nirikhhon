@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "re",
+        "pydantic",
+        "BaseModel",
+        "BaseModel",
+        "classmethod",
+        "cls",
+        "cls",
+        "value",
+        "name",
+        "re",
+        "sub",
+        "value",
+        "strip",
+        "value",
+        "ValueError",
+        "name",
+        "value",
+        "cls",
+        "value",
+        "name",
+        "value",
+        "lower",
+        "re",
+        "sub",
+        "value",
+        "re",
+        "sub",
+        "value",
+        "kw",
+        "len",
+        "kw",
+        "strip",
+        "value",
+        "split",
+        "keywords",
+        "len",
+        "keywords",
+        "ValueError",
+        "name",
+        "keywords"
+    ],
+    "literals": [
+        "\"Subclass must override\"",
+        "r\"\\s+\"",
+        "\" \"",
+        "f\"{name} must not be empty\"",
+        "r\"\\s+\"",
+        "\" \"",
+        "r\"’\"",
+        "\"'\"",
+        "\",\"",
+        "f\"{name} must not be empty\""
+    ],
+    "variables": [
+        "value",
+        "value",
+        "value",
+        "value",
+        "keywords"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Pydantic base model for remote settings suggestions as they should be\nserialized in the output JSON, plus related helpers.\n\"\"\"",
+        "\"\"\"Pydantic base model for remote settings suggestions as they should be\n    serialized in the output JSON.\n    \"\"\"",
+        "\"\"\"Map field (column) names in the input CSV to suggestion property\n        names in the output JSON. Subclasses must override this method.\n        \"\"\"",
+        "\"\"\"Validate a string value and return the validated value. Leading and\n        trailing whitespace is stripped, and all whitespace is replaced with\n        spaces and collapsed. Subclasses may call this method to validate\n        strings in their models. To validate comma-separated keyword strings,\n        use `_validate_keywords()` instead.\n        \"\"\"",
+        "\"\"\"Validate a comma-separated string of keywords and return the\n        validated list of keyword strings. Each keyword is converted to\n        lowercase, some non-ASCII characters are replaced with ASCII\n        equivalents that users are more likely to type, leading and trailing\n        whitespace is stripped, and all whitespace is replaced with spaces and\n        collapsed. Subclasses may call this method to validate keywords in their\n        models.\n        \"\"\""
+    ],
+    "functions": [
+        "csv_to_json",
+        "_validate_str",
+        "_validate_keywords"
+    ],
+    "classes": [
+        "BaseSuggestion"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "content",
+        "field",
+        "field",
+        "field",
+        "field",
+        "field",
+        "before",
+        "after",
+        "before",
+        "whitespaceAtStart",
+        "newlinesToPrepend",
+        "whitespaceAtStart",
+        "after",
+        "whitespaceAtEnd",
+        "newlinesToAppend",
+        "whitespaceAtEnd",
+        "newlinesToPrepend",
+        "content",
+        "newlinesToAppend"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "''",
+        "''",
+        "'\\n'",
+        "'\\n'"
+    ],
+    "variables": [
+        "before",
+        "after",
+        "whitespaceAtStart",
+        "whitespaceAtEnd",
+        "newlinesToAppend",
+        "newlinesToPrepend"
+    ],
+    "comments": [
+        "Wraps string in at least two newlines on each side,",
+        "as long as the field doesn't already have them.",
+        "Code adapted from GitHub."
+    ],
+    "docstrings": [],
+    "functions": [
+        "smartBlockWrap"
+    ],
+    "classes": []
+}

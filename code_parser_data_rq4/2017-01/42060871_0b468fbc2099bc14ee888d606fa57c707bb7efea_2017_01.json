@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Configuration",
+        "Data",
+        "Linq",
+        "Threading",
+        "Tasks",
+        "Windows",
+        "Windows",
+        "Threading",
+        "lab5",
+        "Application",
+        "sender",
+        "DispatcherUnhandledExceptionEventArgs",
+        "e",
+        "MessageBox",
+        "Show",
+        "e",
+        "Message",
+        "e",
+        "Handled"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Логика взаимодействия для App.xaml",
+        "</summary>",
+        "private void OnStartup(object sender, StartupEventArgs e)\n        {\n            MainWindow view = new MainWindow();\n            view.DataContext = new MainViewModel();\n            view.Show();\n        }"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "GlobalExceptionHandler"
+    ],
+    "classes": [
+        "App"
+    ]
+}

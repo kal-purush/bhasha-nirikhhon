@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "// Uncomment this class to provide custom runtime policy for Glimpse\n\nusing Glimpse.AspNet.Extensions;\nusing Glimpse.Core.Extensibility;\n\nnamespace ProjectCourse\n{\n    public class GlimpseSecurityPolicy:IRuntimePolicy\n    {\n        public RuntimePolicy Execute(IRuntimePolicyContext policyContext)\n        {\n            // You can perform a check like the one below to control Glimpse's permissions within your application.\n\t\t\t// More information about RuntimePolicies can be found at http://getglimpse.com/Help/Custom-Runtime-Policy\n\t\t\t// var httpContext = policyContext.GetHttpContext();\n            // if (!httpContext.User.IsInRole(\"Administrator\"))\n\t\t\t// {\n            //     return RuntimePolicy.Off;\n\t\t\t// }\n\n            return RuntimePolicy.On;\n        }\n\n        public RuntimeEvent ExecuteOn\n        {\n\t\t\t// The RuntimeEvent.ExecuteResource is only needed in case you create a security policy\n\t\t\t// Have a look at http://blog.getglimpse.com/2013/12/09/protect-glimpse-axd-with-your-custom-runtime-policy/ for more details\n            get { return RuntimeEvent.EndRequest | RuntimeEvent.ExecuteResource; }\n        }\n    }\n}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

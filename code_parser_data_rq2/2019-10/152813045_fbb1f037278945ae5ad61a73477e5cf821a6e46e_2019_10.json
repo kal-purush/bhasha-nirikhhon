@@ -1,0 +1,92 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Reflection",
+        "BuildXL",
+        "Cache",
+        "ContentStore",
+        "Interfaces",
+        "Results",
+        "Xunit",
+        "BuildXL",
+        "Cache",
+        "ContentStore",
+        "Distributed",
+        "Test",
+        "Fact",
+        "ResultBase",
+        "Type",
+        "AppDomain",
+        "CurrentDomain",
+        "GetAssemblies",
+        "Where",
+        "assembly",
+        "FullName",
+        "Contains",
+        "SelectMany",
+        "assembly",
+        "GetTypes",
+        "Where",
+        "resultBaseType",
+        "IsAssignableFrom",
+        "t",
+        "t",
+        "IsInterface",
+        "t",
+        "IsAbstract",
+        "t",
+        "IsGenericType",
+        "t",
+        "FullName",
+        "resultBaseType",
+        "FullName",
+        "t",
+        "Name",
+        "ErrorResult",
+        "nameof",
+        "ValidateAsResult",
+        "Type",
+        "resultType",
+        "resultTypes",
+        "ErrorResult",
+        "GetMethod",
+        "nameof",
+        "ErrorResult",
+        "AsResult",
+        "MakeGenericMethod",
+        "Type",
+        "resultType",
+        "asResultMethod",
+        "Invoke",
+        "testError"
+    ],
+    "literals": [
+        "\"BuildXL\"",
+        "\"CustomError\""
+    ],
+    "variables": [
+        "resultBaseType",
+        "resultTypes",
+        "testError",
+        "MethodInfo",
+        "asResultMethod"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft. All rights reserved.",
+        "Licensed under the MIT license. See LICENSE file in the project root for full license information.",
+        "Validate that all implementations of ResultBase include the necessary constructor to use the AsResult extension method.",
+        "</summary>",
+        "testError.AsResult<resultType>();"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "ValidateAsResult"
+    ],
+    "classes": [
+        "TestErrorResultConverter"
+    ]
+}

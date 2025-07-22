@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "input",
+        "input",
+        "minNum",
+        "maxNum",
+        "digit",
+        "get",
+        "digit",
+        "original",
+        "mirror",
+        "i",
+        "len",
+        "original",
+        "check_mirror",
+        "original",
+        "i",
+        "mirror",
+        "i",
+        "i",
+        "minNum",
+        "maxNum",
+        "i",
+        "original",
+        "read_original",
+        "original",
+        "mirror",
+        "original",
+        "mirror"
+    ],
+    "literals": [
+        "'__main__'",
+        "\"Introduce dos números enteros\"",
+        "\"El primer parámentro debe de ser menor que el segundo parámentro.\"",
+        "\"0\"",
+        "\"0\"",
+        "\"1\"",
+        "\"1\"",
+        "\"6\"",
+        "\"9\"",
+        "\"8\"",
+        "\"8\"",
+        "\"9\"",
+        "\"6\"",
+        "'Los números reversibles dentro del rango indicado son: '"
+    ],
+    "variables": [
+        "minNum",
+        "maxNum",
+        "original",
+        "mirror"
+    ],
+    "comments": [
+        "mirror = mirror.replace(\"6\",\"a\") podría volver a voltear el 6 y el 9, pero entonces el output de las dos columnas mostraría el mismo número.",
+        "mirror = mirror.replace(\"9\",\"6\") llegado a este punto es mejor revisar el código para ver como funciona y detecta los números \"espejables\"",
+        "mirror = mirror.replace(\"a\",\"9\") que fijarese en el propio output."
+    ],
+    "docstrings": [],
+    "functions": [
+        "check_mirror",
+        "read_original"
+    ],
+    "classes": []
+}

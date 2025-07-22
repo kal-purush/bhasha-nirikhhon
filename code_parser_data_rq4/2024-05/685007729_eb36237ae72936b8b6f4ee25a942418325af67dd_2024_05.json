@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "robot",
+        "api",
+        "SuiteVisitor",
+        "SuiteVisitor",
+        "list_skip_test",
+        "list_skip_test",
+        "list_skip_test",
+        "list_skip_test",
+        "replace",
+        "test",
+        "test",
+        "name",
+        "list_skip_test",
+        "split",
+        "test",
+        "tags",
+        "add"
+    ],
+    "literals": [
+        "\"List of tests to be skipped:\"",
+        "f\" - {self.list_skip_test.replace(',', '\\n - ')}\"",
+        "','",
+        "'\\n - '",
+        "\"No tests to be skipped\"",
+        "\",\"",
+        "\"robot:skip\""
+    ],
+    "variables": [
+        "list_skip_test"
+    ],
+    "comments": [
+        "set `robot:skip` tag"
+    ],
+    "docstrings": [
+        "\"\"\"Pre-run modifier that skips tests by their name.\n\nTests to skip are specified by Test Name\n\"\"\"",
+        "\"\"\"Set tag to skip tests\"\"\""
+    ],
+    "functions": [
+        "visit_test"
+    ],
+    "classes": [
+        "SkipTests"
+    ]
+}

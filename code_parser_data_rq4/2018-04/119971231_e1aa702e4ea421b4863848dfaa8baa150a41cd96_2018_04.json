@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Runtime",
+        "Serialization",
+        "HubSpot",
+        "NET",
+        "Api",
+        "Contact",
+        "Dto",
+        "HubSpot",
+        "NET",
+        "Core",
+        "Interfaces",
+        "HubSpot",
+        "NET",
+        "Api",
+        "Deal",
+        "Dto",
+        "DataContract",
+        "T",
+        "DealListHubSpotModel",
+        "T",
+        "IHubSpotModel",
+        "T",
+        "DealHubSpotModel",
+        "DataMember",
+        "Name",
+        "IList",
+        "T",
+        "T"
+    ],
+    "literals": [
+        "\"results\""
+    ],
+    "variables": [
+        "Deals"
+    ],
+    "comments": [
+        "Models a set of results returned when querying for sets of deals",
+        "</summary>",
+        "<remarks>",
+        "The sole reason for this class is because HubSpot returns the list for recently modified/created deals",
+        "in a 'results' property instead of the 'deals' property used when retrieving all deals.",
+        "</remarks>",
+        "Gets or sets the deals.",
+        "</summary>",
+        "<value>",
+        "The deals.",
+        "</value>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "DealRecentListHubSpotModel"
+    ]
+}

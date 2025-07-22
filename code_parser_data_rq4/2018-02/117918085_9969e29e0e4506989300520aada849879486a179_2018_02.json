@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "Injectable",
+        "require",
+        "Injectable",
+        "tag",
+        "recipe_id",
+        "recipe_id",
+        "comment",
+        "rating",
+        "rated_by",
+        "recipe_id",
+        "recipe_id",
+        "calories",
+        "sodium",
+        "cooking_directions",
+        "ingredients",
+        "recipe_detail",
+        "recipe_detail",
+        "recipe_detail",
+        "recipe_detail",
+        "calories",
+        "recipe_detail",
+        "sodium",
+        "recipe_detail",
+        "cooking_directions",
+        "recipe_detail",
+        "ingredients",
+        "firebase",
+        "recipe_id",
+        "recipe_detail"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"nativescript-plugin-firebase\"",
+        "'ratings'",
+        "'health_tag'",
+        "'image'",
+        "\"image_URL\"",
+        "'calories'",
+        "'sodium'",
+        "'cooking_directions'",
+        "'ingredients'",
+        "'/recipes/'"
+    ],
+    "variables": [
+        "firebase",
+        "recipe_detail"
+    ],
+    "comments": [],
+    "docstrings": [
+        "*   Add health tag to recipe",
+        "*   Add rating to recipe's rating list",
+        "*   Return the recipe if the recipe exists in our database",
+        "*   Push new recipe when rated/commented/favorited"
+    ],
+    "functions": [
+        "add_health_tag",
+        "add_rating",
+        "get_recipe_if_exists",
+        "push_new_recipe"
+    ],
+    "classes": [
+        "FirebaseRecipeService"
+    ]
+}

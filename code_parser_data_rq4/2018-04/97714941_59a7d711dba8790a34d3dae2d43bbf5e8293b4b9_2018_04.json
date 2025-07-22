@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "tests",
+        "v",
+        "v",
+        "pattern"
+    ],
+    "literals": [
+        "\"'test'\"",
+        "\"'hello' world\"",
+        "\"aren't shouldn't 'couldnt'\"",
+        "'\"$1\"'"
+    ],
+    "variables": [
+        "pattern",
+        "tests"
+    ],
+    "comments": [
+        "Imagine you have written a story and used single quotation marks throughout\nto mark pieces of dialogue. Now you want to replace all the dialogue quotes\nwith double quotes, while keeping the single quotes used in contractions like\naren’t.\nThink of a pattern that distinguishes these two kinds of quote usage and\ncraft a call to the replace method that does the proper replacement.",
+        "Eloquent solution -> console.log(text.replace(/(^|\\W)'|'(\\W|$)/g, '$1\"$2'));"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

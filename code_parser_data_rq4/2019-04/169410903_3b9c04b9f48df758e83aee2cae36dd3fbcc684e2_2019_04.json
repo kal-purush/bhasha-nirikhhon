@@ -1,0 +1,91 @@
+{
+    "identifiers": [
+        "com",
+        "evbox",
+        "everon",
+        "ocpp",
+        "mock",
+        "ocpp",
+        "com",
+        "evbox",
+        "everon",
+        "ocpp",
+        "simulator",
+        "message",
+        "CallResult",
+        "lombok",
+        "slf4j",
+        "Slf4j",
+        "java",
+        "util",
+        "concurrent",
+        "TimeUnit",
+        "java",
+        "util",
+        "concurrent",
+        "locks",
+        "Condition",
+        "java",
+        "util",
+        "concurrent",
+        "locks",
+        "Lock",
+        "java",
+        "util",
+        "concurrent",
+        "locks",
+        "ReentrantLock",
+        "Slf4j",
+        "DEFAULT_TIMEOUT",
+        "condition",
+        "newCondition",
+        "stationResponse",
+        "stationResponse",
+        "stationResponse",
+        "stationResponse",
+        "condition",
+        "signal",
+        "unlock",
+        "stationResponse",
+        "isDetectablyElapsed",
+        "condition",
+        "await",
+        "DEFAULT_TIMEOUT",
+        "TimeUnit",
+        "MILLISECONDS",
+        "isDetectablyElapsed",
+        "DEFAULT_TIMEOUT",
+        "e",
+        "e",
+        "getMessage",
+        "e",
+        "unlock",
+        "response",
+        "stationResponse",
+        "stationResponse",
+        "response"
+    ],
+    "literals": [
+        "\"Waiting time of [\"",
+        "\"] millis had elapsed. No response had been offered.\""
+    ],
+    "variables": [
+        "stationResponse"
+    ],
+    "comments": [
+        "5 seconds"
+    ],
+    "docstrings": [
+        "* Synchronizer between request send to the station and response received.",
+        "* Offers a station response and signals to waiting thread to awaken.\n     *\n     * @param stationResponse response from the station",
+        "* Block until station response is offered. If waiting time is elapsed then throw {@link IllegalStateException}.\n     *\n     * @return station response"
+    ],
+    "functions": [
+        "offer",
+        "CallResult",
+        "take"
+    ],
+    "classes": [
+        "RequestResponseSynchronizer"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "with_statement",
+        "fabric",
+        "api",
+        "local",
+        "fabric",
+        "colors",
+        "green",
+        "local",
+        "green",
+        "bold",
+        "local",
+        "green",
+        "bold",
+        "local",
+        "style_path",
+        "style_path",
+        "green",
+        "bold",
+        "git_pull",
+        "install_requirements",
+        "compile_styling"
+    ],
+    "literals": [
+        "\"git pull origin\"",
+        "\"Updated local code.\"",
+        "\"pip install -r requirements.txt\"",
+        "\"Installed requirements.\"",
+        "\"static/css/\"",
+        "\"lessc --clean-css %smain.less > %smain.css\"",
+        "\"Style sheets have been compiled successfully.\""
+    ],
+    "variables": [
+        "style_path"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Compile main.less into main.css.\n    This command requires Less (CSS pre-processor). More information about it can be\n    found at http://lesscss.org/.\n    \"\"\""
+    ],
+    "functions": [
+        "git_pull",
+        "install_requirements",
+        "compile_styling",
+        "deploy"
+    ],
+    "classes": []
+}

@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "HarmonyLib",
+        "LethalConfig",
+        "Patches",
+        "HarmonyPatch",
+        "StartOfRound",
+        "HarmonyPatch",
+        "HarmonyPostfix",
+        "LethalConfigManager",
+        "RunLateAutoGeneration"
+    ],
+    "literals": [
+        "\"Start\""
+    ],
+    "variables": [],
+    "comments": [
+        "Call LateRegistration Config Files",
+        "Adds any final config items that were not already added",
+        "Very hacky, probably needs an alternative in the future."
+    ],
+    "docstrings": [],
+    "functions": [
+        "StartPostFix"
+    ],
+    "classes": [
+        "StartOfRoundPatches"
+    ]
+}

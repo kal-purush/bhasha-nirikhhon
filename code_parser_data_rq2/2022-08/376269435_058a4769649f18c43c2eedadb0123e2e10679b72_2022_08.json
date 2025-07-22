@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "Falu",
+        "MessageBatches"
+    ],
+    "literals": [],
+    "variables": [
+        "Accepted",
+        "Sending",
+        "Sent",
+        "Failed",
+        "Delivered",
+        "Cancelled"
+    ],
+    "comments": [
+        "Represents the status of the messages in a batch.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>Number of messages in the <c>accepted</c> status.</summary>",
+        "<summary>Number of messages in the <c>sending</c> status.</summary>",
+        "<summary>Number of messages in the <c>sent</c> status.</summary>",
+        "<summary>Number of messages in the <c>failed</c> status.</summary>",
+        "<summary>Number of messages in the <c>delivered</c> status.</summary>",
+        "<summary>Number of messages in the <c>cancelled</c> status.</summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "MessageBatchStatus"
+    ]
+}

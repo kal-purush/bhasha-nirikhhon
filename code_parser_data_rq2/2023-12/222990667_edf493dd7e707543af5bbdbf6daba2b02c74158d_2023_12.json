@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "AgentContext",
+        "DidRegistrar",
+        "DidResolver",
+        "DidDocument",
+        "DidCreateOptions",
+        "DidCreateResult",
+        "DidUpdateResult",
+        "DidDeactivateResult",
+        "DidResolutionResult",
+        "DidRecord",
+        "DidDocumentRole",
+        "DidRepository",
+        "agentContext",
+        "options",
+        "did",
+        "didDocument",
+        "did",
+        "didDocument",
+        "DidRecord",
+        "didDocument",
+        "DidDocumentRole",
+        "didDocument",
+        "key",
+        "key",
+        "agentContext",
+        "DidRepository",
+        "didRepository",
+        "agentContext",
+        "didRecord",
+        "didDocument",
+        "agentContext",
+        "did",
+        "did",
+        "didDocument",
+        "did"
+    ],
+    "literals": [
+        "'../../../agent'",
+        "'../../dids'",
+        "'../../dids'",
+        "'inmemory'",
+        "string",
+        "'failed'",
+        "'InMemoryDidRegistrar requires to specify both did and didDocument'",
+        "'finished'",
+        "'failed'",
+        "notImplemented: updating did:inmemory not implemented yet",
+        "'failed'",
+        "notImplemented: deactivating did:inmemory not implemented yet",
+        "string",
+        "'notFound'",
+        "resolver_error: Unable to resolve did '${did}'",
+        "'application/did+ld+json'"
+    ],
+    "variables": [
+        "options",
+        "didRecord",
+        "didRepository",
+        "didDocument"
+    ],
+    "comments": [
+        "Save the did so we know we created it and can use it for didcomm",
+        "We need to save the recipientKeys, so we can find the associated did",
+        "of a key when we receive a message from another connection."
+    ],
+    "docstrings": [],
+    "functions": [
+        "create",
+        "update",
+        "deactivate",
+        "resolve"
+    ],
+    "classes": [
+        "InMemoryDidRegistry"
+    ]
+}

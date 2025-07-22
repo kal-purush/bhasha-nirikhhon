@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Cake",
+        "Common",
+        "Tools",
+        "MSBuild"
+    ],
+    "literals": [],
+    "variables": [
+        "Assembly",
+        "Class",
+        "Parameters"
+    ],
+    "comments": [
+        "Contains settings for specifying a MSBuild logger.",
+        "</summary>",
+        "Gets or sets the assembly containing the logger. Should match the format {AssemblyName[,StrongName] | AssemblyFile}",
+        "</summary>",
+        "Gets or sets the class implementing the logger. Should match the format [PartialOrFullNamespace.]LoggerClassName",
+        "If the assembly contains only one logger, class does not need to be specified.",
+        "</summary>",
+        "Gets or sets the parameters to be passed to the logger.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "MSBuildLogger"
+    ]
+}

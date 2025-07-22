@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "gql",
+        "IProduct",
+        "gql",
+        "gql"
+    ],
+    "literals": [
+        "\"react-apollo/lib\"",
+        "\"../product/model\"",
+        "string",
+        "string",
+        "query allProducts($categoryId: Int, $offset: Int, $first: Int) {\n    allProducts(categoryId: $categoryId, offset: $offset, first: $first) {\n      total\n      products {\n        id\n        name\n        shortDescription\n        brand {\n          id\n          name\n        }\n        category {\n          id\n          name\n        }\n        imagesWithColor {\n          id\n          src\n          width\n          height\n          colorName\n          colorValue\n          isTitle\n        }\n        subProducts {\n          id\n          article\n          price\n          oldPrice\n          discount\n        }\n      }\n    }\n  }",
+        "query category($id: Int) {\n    category(id: $id) {\n      id\n      name\n    }\n  }"
+    ],
+    "variables": [
+        "ALL_PRODUCTS_QUERY",
+        "CATEGORY_QUERY"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

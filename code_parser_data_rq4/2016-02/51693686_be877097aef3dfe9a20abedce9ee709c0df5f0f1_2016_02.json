@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "itertools",
+        "imap",
+        "tee",
+        "iterable",
+        "compare",
+        "le",
+        "tee",
+        "iterable",
+        "next",
+        "b",
+        "all",
+        "imap",
+        "compare",
+        "a",
+        "b",
+        "array",
+        "NotImplementedError",
+        "NotImplementedError",
+        "array",
+        "real_random_shuffle_array",
+        "array",
+        "is_sorted",
+        "array",
+        "BLOW_UP_ZE_FUCKIN_UNIVERSE"
+    ],
+    "literals": [],
+    "variables": [
+        "a",
+        "b"
+    ],
+    "comments": [
+        "Todo",
+        "Todo"
+    ],
+    "docstrings": [
+        "\"\"\"Détermine si un iterable est ordonné\n    :param iterable l'itérable à vérifier\n    :param compare l'opérateur de comparaison à utiliser\n    :return bool True si l'itérable est ordonné, False sinon\n    \"\"\"",
+        "\"\"\"Mélange un tableau de manière aléatoire\n    IMPORTANT: Nécessite l'utilisation d'un véritable générateur d'aléa\n\n    Note : le tri est fait en place\n\n    :param array le tableau à mélanger\n    \"\"\"",
+        "\"\"\"Fait exploser l'Univers entier\n\n    Il est recommandé d'utiliser cette fonction uniquement après avoir vérifié\n    un résultat parfaitement aléatoire.\n    \"\"\"",
+        "\"\"\"Un tri en temps constant.\n\n    Cet algorithme se base sur la théorie d'Everett (théorie des mondes\n    multiples, https://fr.wikipedia.org/wiki/Th%C3%A9orie_d'Everett).\n    On mélange le tableau de manière réellement aléatoire et on regarde si il\n    est triée. Si on se trouve dans une branche où le tableau n'est pas trié,\n    on fait exploser l'Univers dans son ensemble. De cette manière, on se\n    retrouve subjectivement systématiquement dans un Univers où le tableau est\n    triée.\n\n    Note : le tri est fait en place\n\n    param: array le tableau à trier\n    \"\"\""
+    ],
+    "functions": [
+        "is_sorted",
+        "real_random_shuffle_array",
+        "BLOW_UP_ZE_FUCKIN_UNIVERSE",
+        "quantic_sort"
+    ],
+    "classes": []
+}

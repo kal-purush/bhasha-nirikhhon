@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "styled",
+        "shade",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "shade"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'polished'",
+        "",
+        "padding: 32px;\n  background: #28262e;",
+        "max-width: 1120px;\n  margin: 0 auto;\n  display: flex;\n  align-items: center;\n\n  > img {\n    height: 80px;\n  }\n\n  button {\n    margin-left: auto;\n    background: transparent;\n    border: 0;\n\n    svg {\n      color: #999591;\n      width: 20px;\n      height: 20px;\n    }\n  }",
+        "display: flex;\n  align-items: center;\n  margin-left: 80px;\n  img {\n    width: 56px;\n    height: 56px;\n    border-radius: 50%;\n  }\n  div {\n    display: flex;\n    flex-direction: column;\n    margin-left: 16px;\n    line-height: 24px;\n    span {\n      color: #f4ede8;\n    }\n\n    a {\n      text-decoration: none;\n      color: #ff9000;\n      &:hover {\n        opacity: 0.8;\n      }\n    }\n  }",
+        "max-width: 1120px;\n  margin: 64px auto;\n  display: flex;",
+        "flex: 1;\n  margin-right: 120px;\n  h1 {\n    font-size: 36px;\n  }\n  p {\n    margin-top: 8px;\n    color: #ff9000;\n    display: flex;\n    align-items: center;\n    font-weight: 500;\n  }\n  span {\n    display: flex;\n    position: relative;\n    align-items: center;\n  }\n\n  span + span::before {\n    content: '';\n    width: 1px;\n    height: 11px;\n    background: #ff9000;\n    margin: 0 8px;\n  }",
+        "margin-top: 64px;\n  > strong {\n    color: #999591;\n    font-size: 20px;\n    font-weight: 400;\n  }\n\n  div {\n    background: #3e3b47;\n    display: flex;\n    align-items: center;\n    padding: 16px 24px;\n    border-radius: 10px;\n    margin-top: 24px;\n    position: relative;\n\n    &::before {\n      content: '';\n      position: absolute;\n      height: 80%;\n      width: 2px;\n      left: 0;\n      top: 10%;\n      background: #ff9000;\n    }\n    img {\n      width: 80px;\n      height: 80px;\n      border-radius: 50%;\n    }\n\n    strong {\n      margin-left: 24px;\n      color: #fff;\n    }\n    span {\n      margin-left: auto;\n      display: flex;\n      align-items: center;\n      color: #999591;\n\n      svg {\n        color: #ff9000;\n        margin-right: 8px;\n      }\n    }\n  }",
+        "margin-top: 48px;\n  > strong {\n    color: #999591;\n    font-size: 20px;\n    line-height: 26px;\n    border-bottom: 1px solid #3e3b47;\n    display: block;\n    padding-bottom: 16px;\n    margin-bottom: 16px;\n  }\n  > p {\n    color: #999591;\n  }",
+        "display: flex;\n  align-items: center;\n  & + div {\n    margin-top: 16px;\n  }\n  span {\n    margin-left: auto;\n    display: flex;\n    align-items: center;\n    color: #f4ede8;\n    width: 70px;\n    svg {\n      color: #ff9000;\n      margin-right: 8px;\n    }\n  }\n  div {\n    background: #3e3b47;\n    flex: 1;\n    display: flex;\n    align-items: center;\n    padding: 16px 24px;\n    border-radius: 10px;\n    margin-left: 24px;\n    img {\n      width: 56px;\n      height: 56px;\n      border-radius: 50%;\n    }\n\n    strong {\n      margin-left: 24px;\n      color: #fff;\n      font-size: 20px;\n    }\n  }",
+        "width: 380px;\n  .DayPicker {\n    background: #28262e;\n    border-radius: 10px;\n  }\n\n  .DayPicker-wrapper {\n    padding-bottom: 0;\n  }\n\n  .DayPicker,\n  .DayPicker-Month {\n    width: 100%;\n  }\n\n  .DayPicker-Month {\n    border-collapse: separate;\n    border-spacing: 8px;\n    margin: 16px;\n  }\n\n  .DayPicker-Day {\n    width: 40px;\n    height: 40px;\n  }\n\n  .DayPicker-Day--available:not(.DayPicker-Day--outside) {\n    background: #3e3b47;\n    border-radius: 10px;\n    color: #fff;\n  }\n\n  .DayPicker:not(.DayPicker--interactionDisabled)\n    .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {\n    background: ${shade(0.2, '#3e3b47')};\n  }\n\n  .DayPicker-Day--today {\n    font-weight: normal;\n  }\n\n  .DayPicker-Day--disabled {\n    color: #666360 !important;\n    background: transparent !important;\n  }\n\n  .DayPicker-Day--selected {\n    background: #ff9000 !important;\n    border-radius: 10px;\n    color: #232129 !important;\n  }",
+        "'#3e3b47'"
+    ],
+    "variables": [
+        "Container",
+        "Header",
+        "HeaderContent",
+        "Profile",
+        "Content",
+        "Schedule",
+        "NextAppointment",
+        "Section",
+        "Appointment",
+        "Calendar"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

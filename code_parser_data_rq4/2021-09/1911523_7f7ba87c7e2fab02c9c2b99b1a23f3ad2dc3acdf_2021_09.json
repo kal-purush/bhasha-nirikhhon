@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "io",
+        "vertx",
+        "core",
+        "json",
+        "jackson",
+        "com",
+        "fasterxml",
+        "jackson",
+        "databind",
+        "SimpleModule",
+        "io",
+        "vertx",
+        "core",
+        "buffer",
+        "Buffer",
+        "io",
+        "vertx",
+        "core",
+        "json",
+        "JsonArray",
+        "io",
+        "vertx",
+        "core",
+        "json",
+        "JsonObject",
+        "java",
+        "time",
+        "Instant",
+        "addSerializer",
+        "addSerializer",
+        "addSerializer",
+        "addDeserializer",
+        "addSerializer",
+        "addDeserializer",
+        "addSerializer",
+        "addDeserializer"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "custom types",
+        "he have 2 extensions: RFC-7493"
+    ],
+    "docstrings": [
+        "* Copyright (c) 2011-2021 Contributors to the Eclipse Foundation\n *\n * This program and the accompanying materials are made available under the\n * terms of the Eclipse Public License 2.0 which is available at\n * http://www.eclipse.org/legal/epl-2.0, or the Apache License, Version 2.0\n * which is available at https://www.apache.org/licenses/LICENSE-2.0.\n *\n * SPDX-License-Identifier: EPL-2.0 OR Apache-2.0",
+        "* A Jackson {@code Module} to provide following VertX Serializers and Deserializers\n * that can be reused for building custom mappers :\n * <ul>\n *   <li>{@code JsonObjectSerializer} of {@code JsonObject} </li>\n *   <li>{@code JsonArraySerializer} of {@code JsonArray}</li>\n *   <li>{@code InstantSerializer} and {@code InstantDeserializer} of {@code Instant}</li>\n *   <li>{@code ByteArraySerializer} and {@code ByteArraySerializer} of {@code byte[]}</li>\n *   <li>{@code BufferSerializer} and {@code BufferSerializer} of {@code Buffer}</li>\n * </ul>"
+    ],
+    "functions": [
+        "VertxModule"
+    ],
+    "classes": [
+        "VertxModule"
+    ]
+}

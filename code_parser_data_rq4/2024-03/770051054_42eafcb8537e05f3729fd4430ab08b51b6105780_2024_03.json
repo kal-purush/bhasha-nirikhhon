@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$"
+    ],
+    "literals": [
+        "'body'",
+        "'background'",
+        "'yellow'"
+    ],
+    "variables": [],
+    "comments": [
+        "most jquery js documents start\nwith the $(document).ready function.\nThis ensures the document is\nready for the code inside of the\nfunction to be executed",
+        "jquery follows its own syntax. it uses\n    the $ symbol to look for an element. \n    followed by () which is the element to find\n    inside of the parentheses. followed a\n    . and an event. this event then triggers the\n    following function, executing the code\n    inside the curly brackets.",
+        "random background color from an array",
+        "let colors = ['blue', 'red', 'green', 'purple', 'yellow']",
+        "$('body').click(function(){",
+        "var color = colors[Math.floor(Math.random() * colors.length)];",
+        "$(this).css('background', color);",
+        "});",
+        "add a character to a list",
+        "$('li').mouseover(function(){",
+        "$(this).append('👋');",
+        "});",
+        "make a bug follow your cursor and resize",
+        "$('body').append('<div id=\"follow\">🦟</div>');",
+        "$(document).on(\"mousemove\", function (event) {",
+        "$('#follow').css({",
+        "'font-size' : event.pageY/10+'px',",
+        "'position' : 'absolute',",
+        "'left' : event.pageX+10+'px',",
+        "'top' : event.pageY+10+'px'",
+        "});",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

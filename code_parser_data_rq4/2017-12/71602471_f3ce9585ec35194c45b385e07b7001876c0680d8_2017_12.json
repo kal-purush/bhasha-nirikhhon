@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "nums",
+        "k",
+        "end",
+        "num",
+        "nums",
+        "product",
+        "num",
+        "product",
+        "k",
+        "start",
+        "end",
+        "product",
+        "nums",
+        "start",
+        "start",
+        "subarrays",
+        "end",
+        "start",
+        "subarrays"
+    ],
+    "literals": [
+        "'jake'",
+        "'leetcode'"
+    ],
+    "variables": [
+        "_author_",
+        "_project_",
+        "subarrays",
+        "start",
+        "product"
+    ],
+    "comments": [
+        "https://leetcode.com/problems/subarray-product-less-than-k/",
+        "You are given an array of positive integers nums. Count and print the number of (contiguous) subarrays where the",
+        "product of all the elements in the subarray is less than k.",
+        "Maintain a window with product <= k. For each num, add to window product. While window contains some nums and",
+        "product is too large, remove from window start. Increment result by window length since each subarray ending at end",
+        "is valid. If start > end then product == 1.",
+        "Time - O(n)",
+        "Space - O(1)",
+        "index of window start",
+        "current product",
+        "remove from window if product too large and window non-zero",
+        "if start = end + 1 then nothing added"
+    ],
+    "docstrings": [
+        "\"\"\"\n        :type nums: List[int]\n        :type k: int\n        :rtype: int\n        \"\"\""
+    ],
+    "functions": [
+        "numSubarrayProductLessThanK"
+    ],
+    "classes": [
+        "Solution"
+    ]
+}

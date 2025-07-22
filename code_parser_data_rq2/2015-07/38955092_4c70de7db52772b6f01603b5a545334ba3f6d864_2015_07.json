@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Tasks",
+        "Mongo",
+        "Meteor",
+        "Template",
+        "Session",
+        "Tasks",
+        "Tasks",
+        "Session",
+        "Tasks",
+        "Template",
+        "Session",
+        "Tasks",
+        "text",
+        "Meteor",
+        "Meteor",
+        "Template",
+        "Tasks",
+        "Tasks",
+        "Accounts",
+        "Meteor",
+        "Meteor"
+    ],
+    "literals": [
+        "\"tasks\"",
+        "\"hideCompleted\"",
+        "\"hideCompleted\"",
+        "\"change .hide-completed input\"",
+        "\"hideCompleted\"",
+        "\"submit .new-task\"",
+        "\"\"",
+        "\"click .toggle-checked\"",
+        "\"click .delete\"",
+        "\"USERNAME_ONLY\""
+    ],
+    "variables": [
+        "text"
+    ],
+    "comments": [
+        "simple-todos.js",
+        "This code only runs on the client",
+        "If hide completed is checked, filter tasks",
+        "Otherwise, return all of the tasks",
+        "Add to Template.body.helpers",
+        "Inside the if (Meteor.isClient) block, right after Template.body.helpers:",
+        "Add to Template.body.events",
+        "This function is called when the new task form is submitted",
+        "_id of logged in user",
+        "username of logged in user // current time",
+        "Clear form",
+        "Prevent default form submit",
+        "In the client code, below everything else",
+        "Set the checked property to the opposite of its current value",
+        "At the bottom of the client code",
+        "code to run on server at startup"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

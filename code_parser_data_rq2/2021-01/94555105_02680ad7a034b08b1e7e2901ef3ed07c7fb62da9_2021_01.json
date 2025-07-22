@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "OnDestroy",
+        "ActivatedRoute",
+        "ReplaySubject",
+        "takeUntil",
+        "Component",
+        "ReplaySubject",
+        "route",
+        "takeUntil",
+        "response",
+        "response",
+        "response",
+        "response"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router'",
+        "'rxjs'",
+        "'rxjs/operators'",
+        "'download'",
+        "'./download-in-bulk.component.html'",
+        "'./download-in-bulk.component.scss'",
+        "string",
+        "''"
+    ],
+    "variables": [],
+    "comments": [
+        "This holds url to download",
+        "Observable to unsubscribe all the store listeners to avoid memory leaks"
+    ],
+    "docstrings": [
+        "* Initializes the component\n     *\n     * @memberof DownloadBulkInvoiceComponent",
+        "* Releases the memory\n     *\n     * @memberof DownloadBulkInvoiceComponent"
+    ],
+    "functions": [
+        "ngOnInit",
+        "ngOnDestroy"
+    ],
+    "classes": [
+        "DownloadInBulkComponent"
+    ]
+}

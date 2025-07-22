@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "re",
+        "app",
+        "main",
+        "checks",
+        "base_check",
+        "BaseCheck",
+        "answer",
+        "app",
+        "utils",
+        "parse_for_html",
+        "format_header",
+        "BaseCheck",
+        "presentation",
+        "filename",
+        "presentation",
+        "filename",
+        "split",
+        "re",
+        "fullmatch",
+        "reg",
+        "filename",
+        "answer",
+        "answer",
+        "filename"
+    ],
+    "literals": [
+        "'.'",
+        "r\"(\\bПрезентация|\\bПРЕЗЕНТАЦИЯ)_(ВКР|НИР)_(([А-ЯЁ][а-яё]+)|([А-ЯЁ]*))\"",
+        "\"Пройдена!\"",
+        "f'Название файла презентации \"<i>{self.filename}</i>\" не соответствует шаблону. Допустимые форматы:<br>   Презентация_ВКР_Иванов<br>   ПРЕЗЕНТАЦИЯ_НИР_ИВАНОВ'"
+    ],
+    "variables": [
+        "filename",
+        "reg"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "check"
+    ],
+    "classes": [
+        "TemplateNameCheck"
+    ]
+}

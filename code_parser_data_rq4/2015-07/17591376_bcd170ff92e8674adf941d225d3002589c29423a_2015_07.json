@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "MyCorp",
+        "NSB",
+        "Contracts",
+        "Commands",
+        "NServiceBus",
+        "ScheduleWorker",
+        "IBus",
+        "bus",
+        "bus",
+        "bus",
+        "WriteLine",
+        "bus",
+        "SendLocal",
+        "ProcessInventoryChangesMessage",
+        "Guid",
+        "Guid",
+        "NewGuid",
+        "InventoryCode"
+    ],
+    "literals": [
+        "\"Sending ProcessInventoryChangesMessage\"",
+        "\"INV_001\""
+    ],
+    "variables": [
+        "IBus",
+        "bus"
+    ],
+    "comments": [
+        "using SendLocal for simlicity",
+        "same for the rest:",
+        "Bus.Send(new ProcessSalesOrderChanges());",
+        "Bus.Send(new ProcessSalesShipmentChanges());"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Worker",
+        "DoWork"
+    ],
+    "classes": [
+        "Worker"
+    ]
+}

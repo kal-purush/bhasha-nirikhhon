@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Migration",
+        "Migration"
+    ],
+    "literals": [
+        "'@mikro-orm/migrations'",
+        "'TRUNCATE registry_key'",
+        "'TRUNCATE registry_operator'",
+        "'TRUNCATE el_meta_entity'",
+        "'TRUNCATE sr_module_entity'",
+        "'alter table \"registry_key\" add column \"vetted\" boolean not null;'",
+        "'TRUNCATE registry_key'",
+        "'TRUNCATE registry_operator'",
+        "'TRUNCATE el_meta_entity'",
+        "'TRUNCATE sr_module_entity'",
+        "'alter table \"registry_key\" drop column \"vetted\";'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "Migration20240904131054"
+    ]
+}

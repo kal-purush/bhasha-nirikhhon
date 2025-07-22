@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "user",
+        "user",
+        "user",
+        "user",
+        "seach_list",
+        "html",
+        "user",
+        "user",
+        "seach_list",
+        "html",
+        "$",
+        "$",
+        "input",
+        "$",
+        "input",
+        "users",
+        "users",
+        "$",
+        "users",
+        "users",
+        "user",
+        "appendUser",
+        "user",
+        "appendErrMsgToHTML",
+        "alert"
+    ],
+    "literals": [
+        "\"#user-search-result\"",
+        "<div class=\"chat-group-user clearfix\">\n                  <p class=\"chat-group-user__name\">${user.name}</p>\n                  <a class=\"user-search-add chat-group-user__btn chat-group-user__btn--add\" data-user-id=\"${user.id}\" data-user-nickname=\"${user.name}\">追加</a>\n                </div>",
+        "<div class='chat-group-user clearfix'>${ user }\n                </div>",
+        "\"#user-search-field\"",
+        "\"keyup\"",
+        "\"#user-search-field\"",
+        "\"Get\"",
+        "\"/users\"",
+        "\"json\"",
+        "\"#user-search-result\"",
+        "\"一致するユーザーはいません\"",
+        "\"検索に失敗しました\""
+    ],
+    "variables": [
+        "seach_list",
+        "html",
+        "html",
+        "input"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "appendUser",
+        "appendErrMsgToHTML"
+    ],
+    "classes": []
+}

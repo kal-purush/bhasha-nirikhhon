@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "numlib",
+        "quotient_rings",
+        "Zmodp",
+        "numlib",
+        "elliptic_curves",
+        "Montgomery",
+        "Weierstrass",
+        "Zmodp",
+        "negatives",
+        "Montgomery",
+        "GF",
+        "GF",
+        "Curve25519",
+        "pointorder",
+        "Curve25519",
+        "order",
+        "Curve25519",
+        "pointorder",
+        "Curve25519",
+        "point",
+        "GF",
+        "Weierstrass",
+        "a",
+        "GF",
+        "b",
+        "GF",
+        "Wei25519",
+        "pointorder",
+        "Wei25519",
+        "order",
+        "Wei25519",
+        "pointorder",
+        "Wei25519",
+        "point",
+        "GF",
+        "GF",
+        "doctest",
+        "doctest",
+        "testmod"
+    ],
+    "literals": [
+        "\"__main__\""
+    ],
+    "variables": [
+        "GF",
+        "Curve25519",
+        "Wei25519"
+    ],
+    "comments": [
+        "This is the x-line of Curve25519; i.e., the curve modulo negation.",
+        "This Weierstrass curve is isomorphic to Curve25519; it is the whole",
+        "curve, so not the quotient modulo negation."
+    ],
+    "docstrings": [
+        "\"\"\"\nConstruct various curves, with basepoint and orders\n\nExamples:\n\n    >>> E = Wei25519\n    >>> g = E(*E.point)\n    >>> print(E.order * g)\n    [0: 1: 0]\n    >>> E.pointorder * g == 0\n    True\n\n    >>> E = Curve25519\n    >>> g = E(*E.point)\n    >>> print(g)\n    (9, _)\n    >>> #print(E.basepoint_order * E.basepoint)\n    (0, _)\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "Component",
+        "IPropertyRow",
+        "ROUTE_ANIMATION",
+        "ROUTE_ANIMATION_HOST",
+        "Component",
+        "ROUTE_ANIMATION_HOST",
+        "ROUTE_ANIMATION",
+        "x",
+        "i",
+        "i",
+        "currentPage",
+        "alert",
+        "currentPage",
+        "currentPage",
+        "currentPage"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../shared/properties-table/properties-table.component'",
+        "'./../app.routing.animation'",
+        "'app-pagination'",
+        "'./pagination.component.html'",
+        "'./pagination.component.scss'",
+        "'currentPage'",
+        "'number'",
+        "The current active page",
+        "'1'",
+        "'enableFirstAndLastPageButtons'",
+        "'boolean'",
+        "Show first and last page buttons",
+        "'false'",
+        "'itemsPerPage'",
+        "'number'",
+        "Number of items per page",
+        "''",
+        "'maxPageButtons'",
+        "'number'",
+        "Number of page to display",
+        "'5'",
+        "'totalItems'",
+        "'number'",
+        "Total items",
+        "''",
+        "'pageChange'",
+        "'EventEmitter<number>'",
+        "Event triggered when a page button is clicked. The return value is the new current page.",
+        "''",
+        "Current page is : ${currentPage}"
+    ],
+    "variables": [],
+    "comments": [
+        "tslint:disable-line:use-host-property-decorator",
+        "playground",
+        "table properties"
+    ],
+    "docstrings": [],
+    "functions": [
+        "paginationTogalPages",
+        "pageOptions",
+        "pageChange",
+        "playgroundPageChange"
+    ],
+    "classes": [
+        "PaginationComponent"
+    ]
+}

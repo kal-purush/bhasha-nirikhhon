@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Web",
+        "DuyKhanhHR",
+        "Mobile",
+        "HttpContext",
+        "context",
+        "context",
+        "Request",
+        "context",
+        "Response",
+        "req",
+        "Headers",
+        "IsNullOrEmpty",
+        "origin",
+        "res",
+        "AddHeader",
+        "origin",
+        "res",
+        "AddHeader",
+        "res",
+        "AddHeader",
+        "req",
+        "Headers",
+        "req",
+        "Headers",
+        "IsNullOrEmpty",
+        "methods",
+        "res",
+        "AddHeader",
+        "methods",
+        "IsNullOrEmpty",
+        "headers",
+        "res",
+        "AddHeader",
+        "headers",
+        "req",
+        "HttpMethod",
+        "res",
+        "StatusCode",
+        "res",
+        "End"
+    ],
+    "literals": [
+        "\"Origin\"",
+        "\"Access-Control-Allow-Origin\"",
+        "\"Access-Control-Allow-Credentials\"",
+        "\"true\"",
+        "\"Vary\"",
+        "\"Origin\"",
+        "\"Access-Control-Request-Method\"",
+        "\"Access-Control-Request-Headers\"",
+        "\"Access-Control-Allow-Methods\"",
+        "\"Access-Control-Allow-Headers\"",
+        "\"OPTIONS\""
+    ],
+    "variables": [
+        "req",
+        "res",
+        "origin",
+        "methods",
+        "headers"
+    ],
+    "comments": [
+        "NOTE",
+        "The following change to web.config is required",
+        "<system.serviceModel>",
+        "<serviceHostingEnvironment aspNetCompatibilityEnabled=\"true\" />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "HandlePreflightRequest"
+    ],
+    "classes": [
+        "CorsSupport"
+    ]
+}

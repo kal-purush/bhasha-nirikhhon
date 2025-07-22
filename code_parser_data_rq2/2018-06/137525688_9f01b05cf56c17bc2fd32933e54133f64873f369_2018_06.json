@@ -1,0 +1,89 @@
+{
+    "identifiers": [
+        "IO",
+        "Media",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "SoundTest",
+        "audioFilePath",
+        "SoundPlayer",
+        "SoundPlayer",
+        "AudioPath",
+        "audioFilePath",
+        "WriteLine",
+        "SoundPlayer",
+        "LoadTimeout",
+        "SoundPlayer",
+        "SoundLocation",
+        "AudioPath",
+        "SoundPlayer",
+        "LoadAsync",
+        "WriteLine",
+        "WriteLine",
+        "SoundPlayer",
+        "PlayLooping",
+        "WriteLine",
+        "TimeoutException",
+        "WriteLine",
+        "SoundPlayer",
+        "LoadTimeout",
+        "ToString",
+        "InvalidOperationException",
+        "WriteLine",
+        "WriteLine",
+        "SoundPlayer",
+        "Stop",
+        "WriteLine",
+        "e",
+        "WriteLine",
+        "e",
+        "Message"
+    ],
+    "literals": [
+        "\"Attempting to load specified sound file.\"",
+        "\"Sound file load completed.\"",
+        "\"Attempting to start sound playback.\"",
+        "\"Sound playback started successfully.\"",
+        "\"Loading specified file took longer than allowed timeout of \"",
+        "\"ms.\"",
+        "\"Specified playback file is not a valid sound file.\"",
+        "\"Attempting to stop sound playback.\"",
+        "\"Sound playback stop performed successfully.\"",
+        "\"Unexpected error occurred while attempting to stop sound playback: \""
+    ],
+    "variables": [
+        "AudioPath",
+        "SoundPlayer",
+        "SoundPlayer"
+    ],
+    "comments": [
+        "Class for performing audio playback tasks.",
+        "</summary>",
+        "Method which starts playing specified sound file in a separate thread.",
+        "</summary>",
+        "<returns>True if sound playback start was successful, otherwise returns False.</returns>",
+        "30s should hopefully cover loading of most WAV files.",
+        "Definitely way more than enough for a file with 10s of sound in it at 44kHz.",
+        "Method which stops playback of specified sound file.",
+        "</summary>",
+        "<returns>True if sound playback was terminated successfully, otherwise returns false.</returns>",
+        "No idea why this function could throw an exception, but just in case, to aid debugging..."
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "PlaybackManager",
+        "PlaySound",
+        "StopSound"
+    ],
+    "classes": [
+        "PlaybackManager"
+    ]
+}

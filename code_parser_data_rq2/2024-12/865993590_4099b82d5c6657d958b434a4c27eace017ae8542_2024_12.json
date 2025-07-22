@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "mongoose",
+        "mongoose",
+        "mongoose",
+        "mongoose",
+        "mongoose",
+        "FeebackSchema",
+        "FeebackModel"
+    ],
+    "literals": [
+        "'mongoose'",
+        "'customer'",
+        "'product'",
+        "'feedback'"
+    ],
+    "variables": [
+        "FeebackSchema",
+        "FeebackModel"
+    ],
+    "comments": [
+        "Chỉ import mongoose một lần",
+        "Dùng ObjectId để liên kết đến khách hàng",
+        "Tham chiếu đến collection 'customer'",
+        "Dùng ObjectId để liên kết đến sản phẩm",
+        "Tham chiếu đến collection 'product'",
+        "Đổi tên từ 'start' thành 'stars' cho đúng nghĩa",
+        "Xếp hạng thường từ 1 đến 5",
+        "Đặt ngày mặc định là ngày hiện tại",
+        "Sử dụng export thay vì module.exports nếu dùng ES6"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

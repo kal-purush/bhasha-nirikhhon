@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "require",
+        "db",
+        "db",
+        "db",
+        "db",
+        "db"
+    ],
+    "literals": [
+        "\"./db\"",
+        "\"DELETE FROM invoices\"",
+        "\"DELETE FROM companies\"",
+        "\"SELECT setval('invoices_id_seq', 1, false)\"",
+        "INSERT INTO companies (code, name, description)\n                    VALUES ('apple', 'Apple', 'Maker of OSX.'),\n                           ('ibm', 'IBM', 'Big blue.')",
+        "INSERT INTO invoices (comp_code, amt, paid, add_date, paid_date)\n           VALUES ('apple', 100, false, '2018-01-01', null),\n                  ('apple', 200, true, '2018-02-01', '2018-02-02'), \n                  ('ibm', 300, false, '2018-03-01', null)\n           RETURNING id"
+    ],
+    "variables": [
+        "db",
+        "inv"
+    ],
+    "comments": [
+        "code common to tests."
+    ],
+    "docstrings": [],
+    "functions": [
+        "createData"
+    ],
+    "classes": []
+}

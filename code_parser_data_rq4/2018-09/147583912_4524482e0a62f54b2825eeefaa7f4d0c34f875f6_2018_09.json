@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "os",
+        "subprocess",
+        "check_output",
+        "dirName",
+        "subdirList",
+        "fileList",
+        "os",
+        "walk",
+        "strSearchRoot",
+        "dirName",
+        "endswith",
+        "dirName",
+        "check_output",
+        "dirToProcess",
+        "strRepoError",
+        "strResults",
+        "strResults",
+        "strRepoError",
+        "dirToProcess",
+        "len",
+        "strResults",
+        "dirToProcess"
+    ],
+    "literals": [
+        "'/bhs00p10/Scripts'",
+        "\"Invalid GIT repository\"",
+        "\"/.git\"",
+        "\"bash\"",
+        "\"-c\"",
+        "'cd %s;git diff-files'",
+        "'Invalid git repository at %s'",
+        "'%s has uncommitted changes'"
+    ],
+    "variables": [
+        "strSearchRoot",
+        "strRepoError",
+        "dirToProcess",
+        "strResults",
+        "strResults"
+    ],
+    "comments": [
+        "",
+        "Editable variables",
+        "",
+        "Root from which to search for git repos",
+        "print('Found git directory %s' % dirName)",
+        "strip .git and use that folder",
+        "print('Will diff directory %s' % dirToProcess)",
+        "print('%s has no uncommitted changes' % dirToProcess)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

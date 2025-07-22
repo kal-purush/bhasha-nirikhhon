@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "com",
+        "emanuelef",
+        "remote_capture",
+        "interfaces",
+        "java",
+        "io",
+        "PcapDumper",
+        "data"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "A dumper implements the ability to dump PCAP data.\n * It has the following lifecycle:\n *\n * startDumper -> ... dumpData ... -> stopDumper",
+        "* Starts the dumper.\n     * @throws IOException",
+        "* Terminates the dumper.\n     * @throws IOException",
+        "* Dump an unspecified number of PCAP records. The dumper must check if this is the first data\n     * sent, in which case it should send the Utils.PCAP_HEADER bofore the PCAP records data.\n     * @throws IOException"
+    ],
+    "functions": [
+        "startDumper",
+        "stopDumper",
+        "dumpData"
+    ],
+    "classes": []
+}

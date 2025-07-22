@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "workspace",
+        "NodeJS",
+        "setInterval",
+        "initialMessage",
+        "initialMessage",
+        "text",
+        "text",
+        "clearInterval",
+        "item",
+        "textToDisplay",
+        "workspace",
+        "text"
+    ],
+    "literals": [
+        "'coc.nvim'",
+        "'⠋'",
+        "'⠙'",
+        "'⠹'",
+        "'⠸'",
+        "'⠼'",
+        "'⠴'",
+        "'⠦'",
+        "'⠧'",
+        "'⠇'",
+        "'⠏'",
+        "''",
+        "string",
+        "string",
+        "string",
+        "\"\""
+    ],
+    "variables": [
+        "item",
+        "textToDisplay",
+        "text"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* ProgressItem is meant to mimic the the progress you can display using\n * `workspace.createStatusBarItem(0, { progress: true})`. Since we can't\n * guarauntee a user has a statusline integration, it won't do a lot of \n * good to display longer processes there. This will ensure that the user\n * can still see it is a longer running process as a workspace messages.\n * Later on, logic can be build in to handle the case where a user may\n * have a statusline and would like to have this displayed there along\n * with other long lived processes."
+    ],
+    "functions": [
+        "createStatusBarItem",
+        "getText",
+        "showProgress"
+    ],
+    "classes": [
+        "ProgressItem"
+    ]
+}

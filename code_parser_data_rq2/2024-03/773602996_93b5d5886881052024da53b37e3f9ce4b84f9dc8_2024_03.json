@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "header",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "movie",
+        "movies",
+        "createCardHTML",
+        "cardsHTML"
+    ],
+    "literals": [
+        "'Top Five Marvel Movies!'",
+        "'.header'",
+        "\"Captain America The Winter Soldier\"",
+        "\"3/13/2014\"",
+        "\"136 minutes\"",
+        "\"$714.4 million\"",
+        "\"https://upload.wikimedia.org/wikipedia/en/9/9e/Captain_America_The_Winter_Soldier_poster.jpg\"",
+        "\"Iron Man 2\"",
+        "\"4/26/2010\"",
+        "\"125 minutes\"",
+        "\"$623.9 million\"",
+        "\"https://upload.wikimedia.org/wikipedia/en/e/ed/Iron_Man_2_poster.jpg\"",
+        "\"Spider-Man No Way Home\"",
+        "\"12/17/2021\"",
+        "\"148 minutes\"",
+        "\"$1.922 billion\"",
+        "\"https://upload.wikimedia.org/wikipedia/en/0/00/Spider-Man_No_Way_Home_poster.jpg\"",
+        "\"Guardians of the Galaxy, Vol. 2\"",
+        "\"5/5/2017\"",
+        "\"136 minutes\"",
+        "\"$869.8 million\"",
+        "\"https://upload.wikimedia.org/wikipedia/en/3/32/Guardians_of_the_Galaxy_Vol._2_poster.jpg\"",
+        "\"Thor Ragnarok\"",
+        "\"11/3/2017\"",
+        "\"130 minutes\"",
+        "\"$865 million\"",
+        "\"https://upload.wikimedia.org/wikipedia/en/7/7d/Thor_Ragnarok_poster.jpg\"",
+        "<div class=\"card\">\n      <img class=\"card-img\" src=\"${movie.imgUrl}\" alt=\"${movie.name}\">\n      <div class=\"card-details\">\n        <h2 class=\"card-title\">${movie.name}</h2>\n        <p class=\"card-date\">Date: ${movie.date}</p>\n        <p class=\"card-time\">Duration: ${movie.time}</p>\n        <p class=\"card-box\">Box Office: ${movie.boxOffice}</p>\n      </div>\n    </div>",
+        "\"\"",
+        "'.cards'"
+    ],
+    "variables": [
+        "header",
+        "movies",
+        "cardsHTML"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "createCardHTML"
+    ],
+    "classes": []
+}

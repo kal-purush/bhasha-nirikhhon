@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "A",
+        "B",
+        "K",
+        "A",
+        "K",
+        "B",
+        "K",
+        "A",
+        "K",
+        "inclusive",
+        "solution"
+    ],
+    "literals": [],
+    "variables": [
+        "inclusive",
+        "inclusive"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\n    Write a function:\n    ```\n    def solution(A, B, K)\n    ```\n\n    that, given three integers `A`, `B` and `K`, returns the number of integers within the range `[A..B]` that are\n    divisible by `K`, i.e.:\n    ```\n    { i : A ≤ i ≤ B, i mod K = 0 }\n    ```\n\n    For example, for `A = 6`, `B = 11` and `K = 2`, your function should return `3`, because there are three numbers\n    divisible by `2` within the range `[6..11]`, namely `6`, `8` and `10`.\n\n    Write an efficient algorithm for the following assumptions:\n\n    * `A` and `B` are integers within the range `[0..2,000,000,000]`;\n    * `K` is an integer within the range `[1..2,000,000,000]`;\n    * `A ≤ B`.\n'''",
+        "'''\n    Number of integer in range [A..B] that are divisible by K.\n\n    Parameters\n    ----------\n    A : Int\n        Start of range.\n    B : Int\n        End of range.\n    K : Int\n        Number to find divs.\n\n    Returns\n    -------\n    : Int\n        Number of divs by K.\n    '''"
+    ],
+    "functions": [
+        "solution"
+    ],
+    "classes": []
+}

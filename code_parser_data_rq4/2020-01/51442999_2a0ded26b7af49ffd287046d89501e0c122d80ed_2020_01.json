@@ -1,0 +1,85 @@
+{
+    "identifiers": [
+        "cmd2",
+        "cmd2",
+        "style",
+        "cmd2",
+        "Cmd",
+        "multiline_commands",
+        "persistent_history_file",
+        "startup_script",
+        "use_ipython",
+        "style",
+        "fg",
+        "bg",
+        "bold",
+        "settable",
+        "cmd2",
+        "with_category",
+        "CUSTOM_CATEGORY",
+        "_",
+        "poutput",
+        "intro",
+        "cmd2",
+        "with_category",
+        "CUSTOM_CATEGORY",
+        "arg",
+        "poutput",
+        "style",
+        "arg",
+        "fg",
+        "foreground_color",
+        "BasicApp",
+        "app",
+        "cmdloop"
+    ],
+    "literals": [
+        "'My Custom Commands'",
+        "'echo'",
+        "'cmd2_history.dat'",
+        "'scripts/startup.txt'",
+        "'Welcome to cmd2!'",
+        "'red'",
+        "'white'",
+        "'myapp> '",
+        "'... '",
+        "'cmd2 Built-in Commands'",
+        "'cyan'",
+        "'foreground_color'",
+        "'Foreground color to use with echo command'",
+        "'__main__'"
+    ],
+    "variables": [
+        "CUSTOM_CATEGORY",
+        "intro",
+        "prompt",
+        "continuation_prompt",
+        "locals_in_py",
+        "default_category",
+        "foreground_color",
+        "app"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "coding=utf-8",
+        "Prints an intro banner once upon application startup",
+        "Show this as the prompt when asking for input",
+        "Used as prompt for multiline commands after the first line",
+        "Allow access to your application in py and ipy via self",
+        "Set the default category name",
+        "Color to output text in with echo command",
+        "Make echo_fg settable at runtime"
+    ],
+    "docstrings": [
+        "\"\"\"A simple example cmd2 application demonstrating the following:\n     1) Colorizing/stylizing output\n     2) Using multiline commands\n     3) Persistent history\n     4) How to run an initialization script at startup\n     5) How to group and categorize commands when displaying them in help\n     6) Opting-in to using the ipy command to run an IPython shell\n     7) Allowing access to your application in py and ipy\n     8) Displaying an intro banner upon starting your application\n     9) Using a custom prompt\n    10) How to make custom attributes settable at runtime\n\"\"\"",
+        "\"\"\"Display the intro banner\"\"\"",
+        "\"\"\"Example of a multiline command\"\"\""
+    ],
+    "functions": [
+        "do_intro",
+        "do_echo"
+    ],
+    "classes": [
+        "BasicApp"
+    ]
+}

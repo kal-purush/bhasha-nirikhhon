@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "model",
+        "jquery",
+        "xn",
+        "yn",
+        "model",
+        "x",
+        "xn",
+        "model",
+        "y",
+        "yn",
+        "model",
+        "p",
+        "x",
+        "p",
+        "y",
+        "p",
+        "data",
+        "model",
+        "data",
+        "program",
+        "program",
+        "jquery",
+        "start",
+        "start"
+    ],
+    "literals": [
+        "\"./model\"",
+        "\"jquery\"",
+        "string",
+        "\"canvas\"",
+        "\".\"",
+        "\"data/dots.json\"",
+        "\"GET\"",
+        "\"text\""
+    ],
+    "variables": [
+        "x",
+        "y",
+        "p",
+        "program"
+    ],
+    "comments": [
+        "<reference path=\"./lib/jquery.d.ts\" />",
+        "var program = new model.Program(<HTMLCanvasElement>document.getElementById(\"canvas\"));",
+        "",
+        "program._rootStatement.add(point(5, 5));",
+        "program._rootStatement.add(point(15, 15));"
+    ],
+    "docstrings": [],
+    "functions": [
+        "point",
+        "start"
+    ],
+    "classes": []
+}

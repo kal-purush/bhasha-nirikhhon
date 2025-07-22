@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "annotations",
+        "gdb",
+        "pwndbg",
+        "cmd",
+        "pwndbg",
+        "commands",
+        "commands",
+        "cmd",
+        "command_name",
+        "gdb",
+        "execute",
+        "name",
+        "to_string",
+        "gdb",
+        "execute",
+        "name",
+        "to_string",
+        "gdb_out",
+        "rstrip",
+        "argparse_out",
+        "rstrip"
+    ],
+    "literals": [
+        "f\"help {name}\"",
+        "f\"{name} -h\""
+    ],
+    "variables": [
+        "name",
+        "gdb_out",
+        "argparse_out"
+    ],
+    "comments": [
+        "I would rather not strip, but gdb is inconsistent between versions."
+    ],
+    "docstrings": [
+        "\"\"\"\n    Tests that the help printed by gdb (via `help cmd`) is\n    the exact same as the help printed by argparse (via `cmd -h`).\n    \"\"\""
+    ],
+    "functions": [
+        "test_consistent_help"
+    ],
+    "classes": []
+}

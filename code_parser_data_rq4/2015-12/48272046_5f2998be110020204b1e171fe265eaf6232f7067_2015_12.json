@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "PricklyThistle",
+        "IRequestDetails",
+        "PricklyThistle",
+        "clientId",
+        "requestUrl",
+        "redirectUrl"
+    ],
+    "literals": [
+        "string",
+        "\"enterYourOwnClientID\"",
+        "string",
+        "\"https://accounts.google.com/o/oauth2/v2/auth?response_type=token&scope=profile\"",
+        "string",
+        "\"http://localhost:63342/OAuthClient/index.html\""
+    ],
+    "variables": [
+        "clientId",
+        "requestUrl",
+        "redirectUrl",
+        "googleAuthDetails"
+    ],
+    "comments": [
+        "setup your own project and get your own client id here: https://console.developers.google.com/apis/credentials"
+    ],
+    "docstrings": [
+        "* Created by Giles on 19/12/2015."
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "KN",
+        "$rootScope",
+        "ng",
+        "$window",
+        "ng",
+        "updateInterval",
+        "appCache",
+        "appCache",
+        "appCache",
+        "action",
+        "appCache",
+        "uptime",
+        "action",
+        "action",
+        "setInterval"
+    ],
+    "literals": [
+        "'ngInject'",
+        "'updateready'",
+        "'$stateChangeSuccess'"
+    ],
+    "variables": [
+        "appCache",
+        "appCache",
+        "action",
+        "uptime"
+    ],
+    "comments": [
+        "<reference path=\"./kn-appcache.d.ts\" />",
+        "in milliseconds",
+        "Если страничка была открыта недавно (менее 30 секунд назад), то перезагрузить принудительно",
+        "Если пользователь откроет другую страничку, обновится автоматически"
+    ],
+    "docstrings": [],
+    "functions": [
+        "init",
+        "_getUptime",
+        "_addListeners",
+        "_startChecking"
+    ],
+    "classes": [
+        "AppCache"
+    ]
+}

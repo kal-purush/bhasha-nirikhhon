@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "ProcessOut",
+        "configuration",
+        "configuration",
+        "configuration",
+        "paymentsClient",
+        "paymentsClient",
+        "google",
+        "paymentsClient",
+        "getGooglePaymentsClient",
+        "paymentsClient",
+        "baseRequest",
+        "response",
+        "response",
+        "addGooglePayButton",
+        "err",
+        "err",
+        "container",
+        "getGooglePaymentsClient",
+        "paymentsClient",
+        "onGooglePaymentButtonClicked",
+        "container",
+        "button",
+        "baseRequest",
+        "getGooglePaymentsClient",
+        "paymentsClient",
+        "paymentDataRequest",
+        "paymentData",
+        "processPayment",
+        "paymentData",
+        "err",
+        "err",
+        "paymentData",
+        "paymentData",
+        "onGooglePayLoaded"
+    ],
+    "literals": [
+        "\"CARD\"",
+        "\"PAYMENT_GATEWAY\"",
+        "\"example\"",
+        "\"exampleGatewayMerchantId\"",
+        "\"TEST\"",
+        "\"Error checking Google Pay readiness:\"",
+        "\"google-pay-button-container\"",
+        "\"Container element not found.\"",
+        "\"fill\"",
+        "\"US\"",
+        "\"USD\"",
+        "\"FINAL\"",
+        "\"1.00\"",
+        "\"Error loading payment data:\"",
+        "\"Google Pay payment data:\""
+    ],
+    "variables": [
+        "baseRequest",
+        "paymentsClient",
+        "paymentsClient",
+        "container",
+        "paymentsClient",
+        "button",
+        "paymentDataRequest",
+        "paymentsClient"
+    ],
+    "comments": [
+        "<reference path=\"../references.ts\" />",
+        "TODO: Implement Google Pay logic",
+        "@ts-ignore // TODO: fill with merchant configuration",
+        "TODO: fill with invoice details"
+    ],
+    "docstrings": [],
+    "functions": [
+        "initializeGooglePay",
+        "getGooglePaymentsClient",
+        "onGooglePayLoaded",
+        "addGooglePayButton",
+        "onGooglePaymentButtonClicked",
+        "processPayment"
+    ],
+    "classes": [
+        "GooglePayClient"
+    ]
+}

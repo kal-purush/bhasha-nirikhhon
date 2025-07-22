@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "TrainManager",
+        "Car",
+        "Systems",
+        "CarBase",
+        "car",
+        "Car",
+        "car",
+        "CurrentAcceleration"
+    ],
+    "literals": [],
+    "variables": [
+        "CarBase",
+        "Car"
+    ],
+    "comments": [
+        "<param name=\"CurrentAcceleration\">The current acceleration output</param>"
+    ],
+    "docstrings": [
+        "<summary>An abstract readhesion device</summary>",
+        "<summary>Holds a reference to the base car</summary>",
+        "<summary>Called once a frame to update the re-adhesion device when powering</summary>",
+        "<summary>Called to reset the readhesion device after a jump</summary>"
+    ],
+    "functions": [
+        "AbstractReAdhesionDevice",
+        "Update",
+        "Jump"
+    ],
+    "classes": [
+        "AbstractReAdhesionDevice"
+    ]
+}

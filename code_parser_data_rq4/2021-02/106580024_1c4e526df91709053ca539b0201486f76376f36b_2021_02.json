@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "os",
+        "unittest",
+        "azure",
+        "cli",
+        "testsdk",
+        "ScenarioTest",
+        "ResourceGroupPreparer",
+        "msrestazure",
+        "azure_exceptions",
+        "CloudError",
+        "ScenarioTest",
+        "vcr",
+        "VmwareDatastoresScenarioTest",
+        "setUp",
+        "ResourceGroupPreparer",
+        "name_prefix",
+        "cmd",
+        "cmd",
+        "cmd",
+        "cmd",
+        "cmd"
+    ],
+    "literals": [
+        "'scheme'",
+        "'method'",
+        "'path'",
+        "'query'",
+        "'cli_test_vmware_datastores'",
+        "'az vmware datastore show --name rasivagu-iscsi-datastore --resource-group rasivagu-cloudsan-rg --cluster Cluster-1 --private-cloud rasivagu-sddc'",
+        "'az vmware datastore list --resource-group rasivagu-cloudsan-rg --cluster Cluster-1 --private-cloud rasivagu-sddc'",
+        "'az vmware datastore create --name ANFDatastore1 --resource-group rasivagu-cloudsan-rg --cluster Cluster-1 --private-cloud rasivagu-sddc --nfs-file-path ANFVol1FilePath --nfs-provider-ip 10.50.1.4'",
+        "'az vmware datastore show --name ANFDatastore1 --resource-group rasivagu-cloudsan-rg --cluster Cluster-1 --private-cloud rasivagu-sddc'",
+        "'az vmware datastore delete --name ANFDatastore1 --resource-group rasivagu-cloudsan-rg --cluster Cluster-1 --private-cloud rasivagu-sddc'"
+    ],
+    "variables": [
+        "match_on"
+    ],
+    "comments": [
+        "--------------------------------------------------------------------------------------------",
+        "Copyright (c) Microsoft Corporation. All rights reserved.",
+        "Licensed under the MIT License. See License.txt in the project root for license information.",
+        "--------------------------------------------------------------------------------------------",
+        "https://vcrpy.readthedocs.io/en/latest/configuration.html#request-matching",
+        "not 'host', 'port'",
+        "Get a pre-created iSCSI datastore",
+        "List all existing datastores",
+        "Create a new ANF based datastore",
+        "Get the newly created ANF based datastore",
+        "Delete the newly created ANF based datastore"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setUp",
+        "test_vmware_datastores"
+    ],
+    "classes": [
+        "VmwareDatastoresScenarioTest"
+    ]
+}

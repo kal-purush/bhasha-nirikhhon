@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "absolute_import",
+        "division",
+        "print_function",
+        "unittest",
+        "ppdet",
+        "unittest",
+        "TestCase",
+        "set_config",
+        "ppdet",
+        "core",
+        "workspace",
+        "load_config",
+        "cfg_file",
+        "ppdet",
+        "engine",
+        "Trainer",
+        "cfg",
+        "mode",
+        "TestFasterRCNN",
+        "TestFasterRCNN",
+        "TestFasterRCNN",
+        "TestFasterRCNN",
+        "unittest",
+        "main"
+    ],
+    "literals": [
+        "'configs/faster_rcnn/faster_rcnn_r50_fpn_1x_coco.yml'",
+        "'test'",
+        "'configs/mask_rcnn/mask_rcnn_r50_fpn_1x_coco.yml'",
+        "'configs/cascade_rcnn/cascade_rcnn_r50_fpn_1x_coco.yml'",
+        "'configs/yolov3/yolov3_darknet53_270e_coco.yml'",
+        "'configs/ssd/ssd_vgg16_300_240e_voc.yml'",
+        "'__main__'"
+    ],
+    "variables": [
+        "cfg_file",
+        "cfg",
+        "trainer",
+        "cfg_file",
+        "cfg_file",
+        "cfg_file",
+        "cfg_file"
+    ],
+    "comments": [
+        "Copyright (c) 2021 PaddlePaddle Authors. All Rights Reserved.",
+        "",
+        "Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "you may not use this file except in compliance with the License.",
+        "You may obtain a copy of the License at",
+        "",
+        "http://www.apache.org/licenses/LICENSE-2.0",
+        "",
+        "Unless required by applicable law or agreed to in writing, software",
+        "distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+        "See the License for the specific language governing permissions and",
+        "limitations under the License.",
+        "Trainer __init__ will build model and DataLoader",
+        "'train' and 'eval' mode include dataset loading",
+        "use 'test' mode to simplify tests"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setUp",
+        "set_config",
+        "test_trainer",
+        "set_config",
+        "set_config",
+        "set_config",
+        "set_config"
+    ],
+    "classes": [
+        "TestFasterRCNN",
+        "TestMaskRCNN",
+        "TestCascadeRCNN",
+        "TestYolov3",
+        "TestSSD"
+    ]
+}

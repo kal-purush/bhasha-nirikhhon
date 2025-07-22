@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "app",
+        "ng",
+        "app",
+        "app",
+        "$rootScope",
+        "ng",
+        "currentUser",
+        "app",
+        "loginModalService",
+        "app",
+        "$rootScope",
+        "currentUser",
+        "loginModalService",
+        "ng",
+        "next",
+        "next",
+        "next",
+        "angular",
+        "RouteChangeHandler"
+    ],
+    "literals": [
+        "string",
+        "'$routeChangeStart'",
+        "'$rootScope'",
+        "'currentUser'",
+        "'app.auth.LoginModalService'",
+        "'/'",
+        "'app'",
+        "'app.RouteChangeHandler'"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"../scripts/typings/all.d.ts\" />",
+        "",
+        "Authenticated users are always allowed to proceed.",
+        "",
+        "",
+        "If requesting the root path, then allow the user",
+        "to proceed.",
+        "",
+        "",
+        "Otherwise, do not let the user continue.",
+        ""
+    ],
+    "docstrings": [],
+    "functions": [
+        "initialize"
+    ],
+    "classes": [
+        "RouteChangeHandler"
+    ]
+}

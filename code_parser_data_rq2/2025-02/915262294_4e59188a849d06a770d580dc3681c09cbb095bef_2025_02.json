@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "api",
+        "CREATE_PAYMENT_FAILURE",
+        "CREATE_PAYMENT_REQUEST",
+        "UPDATE_PAYMENT_FAILURE",
+        "UPDATE_PAYMENT_REQUEST",
+        "createPayment",
+        "orderId",
+        "dispatch",
+        "dispatch",
+        "CREATE_PAYMENT_REQUEST",
+        "api",
+        "orderId",
+        "data",
+        "data",
+        "error",
+        "dispatch",
+        "CREATE_PAYMENT_FAILURE",
+        "error",
+        "updatePayment",
+        "reqData",
+        "dispatch",
+        "dispatch",
+        "UPDATE_PAYMENT_REQUEST",
+        "api",
+        "reqData",
+        "reqData",
+        "data",
+        "error",
+        "dispatch",
+        "UPDATE_PAYMENT_FAILURE",
+        "error"
+    ],
+    "literals": [
+        "\"../../config/apiConfig\"",
+        "\"./ActionType\"",
+        "/api/payments/${orderId}",
+        "/api/payments?payment_id=${reqData.paymentID}&order_id=${reqData.orderId}",
+        "\"update amount\""
+    ],
+    "variables": [
+        "createPayment",
+        "updatePayment"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

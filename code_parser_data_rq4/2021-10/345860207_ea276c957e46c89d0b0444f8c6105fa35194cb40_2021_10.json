@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "isoToLocaleString",
+        "iso",
+        "iso",
+        "SG_LOCALE",
+        "isoToDateOnlyString",
+        "iso",
+        "iso",
+        "SG_LOCALE"
+    ],
+    "literals": [
+        "\"en-sg\"",
+        "\"\"",
+        "string",
+        "\"short\"",
+        "\"long\"",
+        "\"numeric\"",
+        "\"numeric\"",
+        "\"numeric\"",
+        "\"numeric\"",
+        "\"\"",
+        "string",
+        "\"T\"",
+        "\"UTC\"",
+        "\"long\"",
+        "\"numeric\"",
+        "\"numeric\""
+    ],
+    "variables": [
+        "SG_LOCALE",
+        "isoToLocaleString",
+        "isoToDateOnlyString"
+    ],
+    "comments": [
+        "Replica of https://github.com/Notarise-gov-sg/healthcert-renderer/blob/352bc3ce4e24308942dce295b604a13daa394b0e/src/util/datetime.ts",
+        "FIXME: \"en-sg\" locale may not be supported in user's browser",
+        "Remove time if present"
+    ],
+    "docstrings": [
+        "* Returns a nicely formatted date-time string using \"en-sg\" locale.\n * @param iso \"2020-09-28T06:15:00Z\"\n * @returns \"28 September 2020, 2:15 pm SGT\"",
+        "* Returns a nicely formatted date-only string that is not affected by time.\n * Good for birth dates.\n * @param iso \"2020-09-28T06:15:00Z\"\n * @returns \"28 September 2020\"",
+        "* Should not respect provided timezone. Instead, should force \"UTC\" timezone\n     * because this generated date object is always going to be ...T00:00:00.000Z\n     * Explanation: https://github.com/Notarise-gov-sg/healthcert-renderer/pull/52\n     *"
+    ],
+    "functions": [],
+    "classes": []
+}

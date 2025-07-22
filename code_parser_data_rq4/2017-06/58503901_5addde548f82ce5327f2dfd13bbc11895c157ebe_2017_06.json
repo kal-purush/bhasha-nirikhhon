@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "client",
+        "client",
+        "client",
+        "key",
+        "key",
+        "key",
+        "key",
+        "key",
+        "key",
+        "key",
+        "key",
+        "resolve",
+        "reject",
+        "err",
+        "res",
+        "err",
+        "reject",
+        "err",
+        "resolve",
+        "res",
+        "ex",
+        "ex"
+    ],
+    "literals": [
+        "'Batch disposed'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Constructor\n\t * @param {Object} client",
+        "* Key exists\n\t * @param {string} key",
+        "* Get a key value\n\t * @param {string} key",
+        "* Get a hash set\n\t * @param {string} key\n\t * @return {*}",
+        "* Get a set\n\t * @param {string} key\n\t * @return {*}",
+        "* Execute a batch of commands\n\t * @return {Promise<Array<Object>>}",
+        "* Check to make sure this batch is still open\n\t * @returns null\n\t * @private"
+    ],
+    "functions": [
+        "exists",
+        "get",
+        "hgetall",
+        "smembers",
+        "exec",
+        "_checkDisposed"
+    ],
+    "classes": [
+        "Batch"
+    ]
+}

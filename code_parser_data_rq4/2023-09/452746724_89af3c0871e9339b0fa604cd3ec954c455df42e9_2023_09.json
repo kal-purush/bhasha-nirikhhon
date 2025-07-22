@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "useQuery",
+        "getGitpodService",
+        "useCurrentOrg",
+        "useDebounce",
+        "useFeatureFlag",
+        "useSearchRepositories",
+        "useFeatureFlag",
+        "useCurrentOrg",
+        "useDebounce",
+        "searchString",
+        "useQuery",
+        "org",
+        "debouncedSearchString",
+        "getGitpodService",
+        "org",
+        "repositoryFinderSearchEnabled",
+        "org",
+        "debouncedSearchString"
+    ],
+    "literals": [
+        "\"@tanstack/react-query\"",
+        "\"../../service/service\"",
+        "\"../organizations/orgs-query\"",
+        "\"../../hooks/use-debounce\"",
+        "\"../featureflag-query\"",
+        "string",
+        "\"repositoryFinderSearch\"",
+        "\"search-repositories\"",
+        "\"\"",
+        "\"\""
+    ],
+    "variables": [
+        "useSearchRepositories",
+        "repositoryFinderSearchEnabled",
+        "org",
+        "debouncedSearchString"
+    ],
+    "comments": [
+        "This disables the search behavior when flag is disabled",
+        "Need this to keep previous results while we wait for a new search to complete since debouncedSearchString changes and updates the key",
+        "We intentionally don't want to trigger refetches here to avoid a loading state side effect of focusing"
+    ],
+    "docstrings": [
+        "* Copyright (c) 2023 Gitpod GmbH. All rights reserved.\n * Licensed under the GNU Affero General Public License (AGPL).\n * See License.AGPL.txt in the project root for license information."
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "locust",
+        "task",
+        "chainbench",
+        "user",
+        "evm",
+        "EVMBenchUser",
+        "EVMBenchUser",
+        "task",
+        "make_call",
+        "name",
+        "method",
+        "task",
+        "make_call",
+        "name",
+        "method",
+        "_block_by_number_params_factory",
+        "task",
+        "make_call",
+        "name",
+        "method",
+        "_get_logs_params_factory"
+    ],
+    "literals": [
+        "\"trace_transaction\"",
+        "\"debug_traceTransaction\"",
+        "\"block\"",
+        "\"trace_block\"",
+        "\"get_logs\"",
+        "\"eth_getLogs\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nEthereum profile (heavy mode).\n\"\"\""
+    ],
+    "functions": [
+        "trace_transaction_task",
+        "block_task",
+        "get_logs_task"
+    ],
+    "classes": [
+        "EthereumHeavyProfile"
+    ]
+}

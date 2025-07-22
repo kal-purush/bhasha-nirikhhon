@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "platform",
+        "subprocess",
+        "sys",
+        "Linux",
+        "Darwin",
+        "Windows",
+        "platform",
+        "system",
+        "join",
+        "PYTEST_ARGS",
+        "sys",
+        "exit",
+        "subprocess",
+        "call",
+        "PYTEST_ARGS",
+        "cwd"
+    ],
+    "literals": [
+        "\"-vv\"",
+        "\"--cov\"",
+        "\"simpy\"",
+        "\"--cov-report\"",
+        "\"term-missing:skip-covered\"",
+        "\"--cov-fail-under\"",
+        "\"92\"",
+        "\"-k\"",
+        "\"not(test_rt)\"",
+        "\"-k\"",
+        "\"not(exception_chaining)\"",
+        "\"__main__\"",
+        "\"Running pytest with\"",
+        "\" \"",
+        "\"pytest\"",
+        "\"tests\""
+    ],
+    "variables": [
+        "PYTEST_ARGS"
+    ],
+    "comments": [
+        "measure coverage",
+        "too slow for realtime tests",
+        "test assumes POSIX paths"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

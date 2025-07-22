@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Threading",
+        "Tasks",
+        "MessagePackAnalyzer",
+        "Microsoft",
+        "CodeAnalysis",
+        "Xunit",
+        "VerifyCS",
+        "CSharpCodeFixVerifier",
+        "MessagePackAnalyzer",
+        "MessagePackAnalyzer",
+        "MessagePackAnalyzer",
+        "MessagePackCodeFixProvider",
+        "Fact",
+        "VerifyCS",
+        "VerifyAnalyzerWithoutMessagePackReferenceAsync",
+        "input",
+        "Fact",
+        "Preamble",
+        "VerifyCS",
+        "VerifyAnalyzerAsync",
+        "input",
+        "Fact",
+        "Preamble",
+        "Preamble",
+        "VerifyCS",
+        "VerifyCodeFixAsync",
+        "input",
+        "output",
+        "Fact",
+        "VerifyCS",
+        "VerifyCodeFixAsync",
+        "input",
+        "output"
+    ],
+    "literals": [],
+    "variables": [
+        "Preamble",
+        "input",
+        "input",
+        "input",
+        "output",
+        "input",
+        "output"
+    ],
+    "comments": [
+        "Copyright (c) All contributors. All rights reserved.",
+        "Licensed under the MIT license. See LICENSE file in the project root for full license information.",
+        "Don't use Preamble because we want to test that it works without a using statement at the top."
+    ],
+    "docstrings": [],
+    "functions": [
+        "NoMessagePackReference",
+        "NullStringKey",
+        "AddAttributesToMembers",
+        "AddAttributeToType"
+    ],
+    "classes": [
+        "MessagePackAnalyzerTests"
+    ]
+}

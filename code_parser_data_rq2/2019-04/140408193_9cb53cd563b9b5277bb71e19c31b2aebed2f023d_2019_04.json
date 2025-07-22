@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "Browser",
+        "Page",
+        "Top",
+        "page",
+        "browser",
+        "page",
+        "browser",
+        "cb",
+        "url",
+        "page",
+        "baseUrl",
+        "cb",
+        "cb",
+        "email",
+        "password",
+        "cb",
+        "email",
+        "password",
+        "cb",
+        "Top",
+        "topPage",
+        "cb",
+        "cb",
+        "cb",
+        "Top",
+        "topPage",
+        "cb"
+    ],
+    "literals": [
+        "'puppeteer'",
+        "'./top'",
+        "${baseUrl}/ja/login",
+        "'#__layout > div > div:nth-child(3) > form'",
+        "string",
+        "string",
+        "'input[name=\"email\"]'",
+        "'input[name=\"password\"]'",
+        "'#__layout > div > div:nth-child(3) > form > button'",
+        "'#__layout > div > div.signin > a'"
+    ],
+    "variables": [
+        "baseUrl",
+        "topPage",
+        "topPage"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "open",
+        "assertThisPageVisited",
+        "doLogin",
+        "doLogout"
+    ],
+    "classes": [
+        "Login"
+    ]
+}

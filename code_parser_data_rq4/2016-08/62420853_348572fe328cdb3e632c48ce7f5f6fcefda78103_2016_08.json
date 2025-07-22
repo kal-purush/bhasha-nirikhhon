@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "PackageInfo",
+        "PackageSource",
+        "PackageSource",
+        "repo",
+        "path",
+        "repo",
+        "path",
+        "name",
+        "name",
+        "targetDirectory"
+    ],
+    "literals": [
+        "\"./PackageInfo\"",
+        "\"./PackageSource\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"master\"",
+        "string",
+        "\"Not implemented.\"",
+        "string",
+        "string",
+        "\"Not implemented.\""
+    ],
+    "variables": [],
+    "comments": [
+        "TODO: Download package.json from github.com/repo/path",
+        "TODO: Check name prefix for package type (translator or onboarding)",
+        "TODO: Download all package files from GitHub"
+    ],
+    "docstrings": [
+        "* Acquires OpenT2T packages from a GitHub repo.\n *\n * To acquire from multiple repos and/or paths, use a PackageSourceUnion.",
+        "* Gets information about an OpenT2T package from the source\n     * (potentially without downloading the whole package).\n     *\n     * @param {string} name  Name of the package\n     * @returns {(Promise<PackageInfo | null)} Information about the requested\n     * package, or null if the requested package is not found at the source",
+        "* Downloads or copies a package to a target (cache) directory.\n     *\n     * @param {string} name  Name of the package\n     * @param {string} targetDirectory  Directory where the package is to be extracted"
+    ],
+    "functions": [
+        "getPackageInfoAsync",
+        "copyPackageAsync"
+    ],
+    "classes": [
+        "GithubPackageSource"
+    ]
+}

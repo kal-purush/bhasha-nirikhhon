@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "os",
+        "urllib",
+        "request",
+        "request",
+        "zipfile",
+        "textSummarizer",
+        "logging",
+        "logger",
+        "textSummarizer",
+        "utils",
+        "common",
+        "get_size",
+        "textSummarizer",
+        "entity",
+        "DataIngestionConfig",
+        "pathlib",
+        "Path",
+        "config",
+        "DataIngestionConfig",
+        "config",
+        "os",
+        "path",
+        "exists",
+        "config",
+        "local_data_file",
+        "request",
+        "urlretrieve",
+        "url",
+        "config",
+        "source_URL",
+        "filename",
+        "config",
+        "local_data_file",
+        "logger",
+        "info",
+        "filename",
+        "headers",
+        "logger",
+        "info",
+        "get_size",
+        "Path",
+        "config",
+        "local_data_file",
+        "config",
+        "unzip_dir",
+        "os",
+        "makedirs",
+        "unzip_path",
+        "exist_ok",
+        "zipfile",
+        "ZipFile",
+        "config",
+        "local_data_file",
+        "zip_ref",
+        "zip_ref",
+        "extractall",
+        "unzip_path"
+    ],
+    "literals": [
+        "f\"{filename} download! with following info: \\n{headers}\"",
+        "f\"File already exists of size: {get_size(Path(self.config.local_data_file))}\"",
+        "'r'"
+    ],
+    "variables": [
+        "config",
+        "filename",
+        "headers",
+        "unzip_path"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n        zip_file_path: str\n        Extracts the zip file into the data directory\n        Function returns None\n        \"\"\""
+    ],
+    "functions": [
+        "download_file",
+        "extract_zip_file"
+    ],
+    "classes": [
+        "DataIngestion"
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "sqlalchemy",
+        "sa",
+        "alembic",
+        "op",
+        "op",
+        "execute",
+        "op",
+        "execute",
+        "op",
+        "execute",
+        "op",
+        "execute"
+    ],
+    "literals": [
+        "\"f02c42a17695\"",
+        "\"bd93d1497694\""
+    ],
+    "variables": [
+        "revision",
+        "down_revision",
+        "branch_labels",
+        "depends_on"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic."
+    ],
+    "docstrings": [
+        "\"\"\"add 3rd party sharing feature\n\nRevision ID: f02c42a17695\nRevises: bd93d1497694\nCreate Date: 2023-04-20 09:23:09.429028\n\n\"\"\"",
+        "\"\"\"\n            ALTER TABLE public.object ADD share_3rd_party boolean NOT NULL DEFAULT true;\n        \"\"\"",
+        "\"\"\"\n            UPDATE public.group\n            SET capabilities = array_append(capabilities, 'modify_3rd_party_sharing')\n            WHERE array_position(capabilities, 'manage_users') IS NOT NULL;\n        \"\"\"",
+        "\"\"\"\n            ALTER TABLE public.object\n            DROP COLUMN share_3rd_party;\n        \"\"\"",
+        "\"\"\"\n            UPDATE public.group\n            SET capabilities = array_remove(capabilities, 'modify_3rd_party_sharing');\n        \"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$newReviewForm",
+        "$newReviewForm",
+        "$",
+        "$",
+        "$",
+        "reservationId",
+        "$",
+        "$",
+        "reviewRating",
+        "reservationId",
+        "getIndividualReservation",
+        "reservationId",
+        "data",
+        "data",
+        "data",
+        "reviewBody",
+        "reviewRating",
+        "submitReview",
+        "dataObj",
+        "result",
+        "views_manager"
+    ],
+    "literals": [
+        "<form>\n      <textarea id=\"new-review-body\" rows=\"4 cols=\"50\"></textarea>\n      <label for=\"new-review-rating\">Select a rating:</label>\n      <select name=\"rating\" id=\"new-review-rating\">\n        <option value=\"\">-- Select a rating --</option>\n        <option value=\"1\">1 star</option>\n        <option value=\"2\">2 stars</option>\n        <option value=\"3\">3 stars</option>\n        <option value=\"4\">4 stars</option>\n        <option value=\"5\">5 stars</option>\n      </select>\n      <div id=\"datatag\" class=\"hidden\"></div>\n      <button type=\"submit\">Submit</button>\n    </form>",
+        "'submit'",
+        "'#new-review-body'",
+        "'#new-review-rating'",
+        "'#datatag h4'",
+        "'#new-review-rating'",
+        "\"\"",
+        "\"#new-review-body\"",
+        "\"\"",
+        "'listings'"
+    ],
+    "variables": [
+        "$newReviewForm",
+        "reviewBody",
+        "reviewRating",
+        "reservationId",
+        "dataObj"
+    ],
+    "comments": [
+        "clear our review fields"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "importScripts",
+        "importScripts",
+        "firebase",
+        "firebase",
+        "messaging",
+        "payload",
+        "payload",
+        "payload",
+        "title",
+        "options"
+    ],
+    "literals": [
+        "'https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js'",
+        "'https://www.gstatic.com/firebasejs/8.3.2/firebase-messaging.js'",
+        "\"AIzaSyDlXc7Zceehcn-2kM7AXloUCRpqDyRIzYY\"",
+        "\"push-notification-d9539.firebaseapp.com\"",
+        "\"push-notification-d9539\"",
+        "\"push-notification-d9539.appspot.com\"",
+        "\"585225948031\"",
+        "\"1:585225948031:web:4730e7cc736d76c484284a\"",
+        "\"G-74RB5C2JCH\"",
+        "\"Message received.\"",
+        "\"Hello world is awesome\"",
+        "\"https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png\"",
+        "\"https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png\""
+    ],
+    "variables": [
+        "messaging",
+        "title",
+        "options"
+    ],
+    "comments": [
+        "Give the service worker access to Firebase Messaging.",
+        "Note that you can only use Firebase Messaging here. Other Firebase libraries",
+        "are not available in the service worker.importScripts('https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js');",
+        "Initialize the Firebase app in the service worker by passing in the messagingSenderId.",
+        "Retrieve an instance of Firebase Messaging so that it can handle background",
+        "messages."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

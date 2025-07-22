@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "Request",
+        "Response",
+        "knex",
+        "request",
+        "response",
+        "knex",
+        "require",
+        "os",
+        "dev",
+        "ifaces",
+        "ifaces",
+        "dev",
+        "details",
+        "details",
+        "details",
+        "iface",
+        "address",
+        "iface",
+        "items",
+        "item",
+        "item",
+        "item",
+        "item",
+        "address",
+        "porta",
+        "item",
+        "response",
+        "serializedItems",
+        "ItemsController"
+    ],
+    "literals": [
+        "'express'",
+        "'../database/connection'",
+        "'items'",
+        "'*'",
+        "'3333'",
+        "'os'",
+        "'IPv4'",
+        "http://${address}:${porta}/uploads/${item.image}"
+    ],
+    "variables": [
+        "items",
+        "porta",
+        "address",
+        "os",
+        "ifaces",
+        "iface",
+        "serializedItems"
+    ],
+    "comments": [
+        "Pegar IP",
+        "Local ip address that we're trying to calculate",
+        "Provides a few basic operating-system related utility functions (built-in)",
+        "Network interfaces",
+        "Iterate over interfaces ...",
+        "grava os dados em address",
+        "... and find the one that matches the criteria"
+    ],
+    "docstrings": [],
+    "functions": [
+        "index"
+    ],
+    "classes": [
+        "ItemsController"
+    ]
+}

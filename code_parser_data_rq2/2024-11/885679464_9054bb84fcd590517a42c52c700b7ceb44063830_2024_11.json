@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "profileSchema",
+        "db",
+        "clerkClient",
+        "currentUser",
+        "redirect",
+        "createProfileAction",
+        "prevState",
+        "formData",
+        "currentUser",
+        "user",
+        "user",
+        "formData",
+        "profileSchema",
+        "rawData",
+        "db",
+        "user",
+        "user",
+        "user",
+        "validatedFields",
+        "clerkClient",
+        "client",
+        "user",
+        "error",
+        "error",
+        "error",
+        "error",
+        "redirect"
+    ],
+    "literals": [
+        "'use server'",
+        "'./schemas'",
+        "'./db'",
+        "'@clerk/nextjs/server'",
+        "'next/navigation'",
+        "'Please login to create a profile'",
+        "''",
+        "'An unexpected error has occurred'",
+        "'/'"
+    ],
+    "variables": [
+        "createProfileAction",
+        "user",
+        "rawData",
+        "validatedFields",
+        "client"
+    ],
+    "comments": [
+        "eslint-disable @typescript-eslint/no-explicit-any",
+        "import { auth, clerkClient, currentUser } from '@clerk/nextjs/server';",
+        "import { revalidatePath } from 'next/cache';"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

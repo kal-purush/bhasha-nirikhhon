@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "navigator",
+        "navigator",
+        "lang",
+        "locale",
+        "supported",
+        "supported",
+        "supported",
+        "lang",
+        "locale",
+        "supported_lang",
+        "lang",
+        "locale",
+        "supported",
+        "lang",
+        "supported_lang",
+        "lang",
+        "supported_lang",
+        "getBestSuitableSupportedLang",
+        "lang",
+        "locale",
+        "supported",
+        "referrer",
+        "referrer",
+        "hostname",
+        "landingPage",
+        "current_lang",
+        "suitable_lang",
+        "suitable_lang"
+    ],
+    "literals": [
+        "'-'",
+        "'_'",
+        "'_'",
+        "'en'",
+        "'fr'",
+        "'pt'",
+        "\"-\"",
+        "\"-\"",
+        "'/'",
+        "'/'"
+    ],
+    "variables": [
+        "lang",
+        "locale",
+        "supported",
+        "supported_lang",
+        "current_lang",
+        "suitable_lang",
+        "hostname",
+        "referrer",
+        "landingPage"
+    ],
+    "comments": [
+        "https://meumobi.github.io/jekyll/2019/06/05/multi-languages-with-jekyll.html",
+        "Detect browser language",
+        "N.B.: I'm hard-coding this part until I figure out a better way. --Pedro",
+        "Exclude first element, default language",
+        "var [lang, locale] = (((navigator.userLanguage || navigator.language).replace('-', '_')).toLowerCase()).split('_');",
+        "var supported_languages = ['en', 'fr', 'pt'];"
+    ],
+    "docstrings": [
+        "* Auto switcher\n *\n * The auto-switcher is responsible for defining the best suitable lang\n * supported for browser lang and when redirect user to it.\n *\n * Best suitable lang supported\n *\n * We can detect the best suitable lang supported as done below. We check first\n * if we can satisfy the lang and locale (or region), if not we check for only\n * lang. For instance, if we support en and browser lang is en-US, our function\n * will return en. If none is supported the function return the default lang\n * (1st of supported array).",
+        "* NB: we use includes method on array, that is not supported by IE, but who\n * cares about IE ?…",
+        "* Redirect\n *\n * Then, if current lang of site is different of best suitable returned by\n * function getBestSuitableSupportedLang means we should redirect user. And\n * should works as described below:",
+        "* Disable this since we need to check landing page, further below --Pedro\n *\n *if (current_lang !== suitable_lang) {\n *  window.location = '/' + suitable_lang + '/';\n *}",
+        "* Check if landing page\n *\n * But the auto-switcher to be compliant with static-switcher we should add a\n * mechanism to detect if user choose the language, if yes then disable\n * auto-switcher. To achieve it we check if user is landing on our site, if yes\n * enable auto-switcher if not means user choose a different language and we\n * disable auto-switcher.",
+        "* Redirect only home\n *\n * And because all pages not necessarly are translated we’ll enable\n * auto-switcher ONLY on home. For instance, if user access directly the page\n * /en/about we’ll not redirect him to /pt/sobre (user could use\n * static-switcher to achieve it). This is done by including the auto-switcher\n * on page only for index.html, using a specific layout for it or a conditional\n * include.\n *\n * N.B.: Taken care of by Minimal-Mistakes 'page_js' frontmatter. --Pedro"
+    ],
+    "functions": [
+        "getBestSuitableSupportedLang"
+    ],
+    "classes": []
+}

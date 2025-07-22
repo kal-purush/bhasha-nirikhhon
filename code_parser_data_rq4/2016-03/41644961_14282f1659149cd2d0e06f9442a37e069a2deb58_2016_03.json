@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "reportlab",
+        "graphics",
+        "barcode",
+        "createBarcodeDrawing",
+        "openerp",
+        "osv",
+        "osv",
+        "openerp",
+        "addons",
+        "ir",
+        "ir_qweb",
+        "HTMLSafe",
+        "osv",
+        "AbstractModel",
+        "cr",
+        "uid",
+        "value",
+        "field",
+        "options",
+        "context",
+        "options",
+        "get",
+        "pool",
+        "barcode",
+        "barcode_type",
+        "value",
+        "key",
+        "value",
+        "key",
+        "value",
+        "options",
+        "items",
+        "key",
+        "HTMLSafe",
+        "barcode",
+        "encode"
+    ],
+    "literals": [
+        "'ir.qweb.field.barcode'",
+        "'ir.qweb.field'",
+        "'type'",
+        "'Code128'",
+        "'report'",
+        "'width'",
+        "'height'",
+        "'humanreadable'",
+        "'<img src=\"data:%s;base64,%s\">'",
+        "'png'",
+        "'base64'"
+    ],
+    "variables": [
+        "_name",
+        "_inherit",
+        "barcode_type",
+        "barcode"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\" ``barcode`` widget rendering, inserts a data:uri-using image tag in the\n    document. May be overridden by e.g. the website module to generate links\n    instead.\n    \"\"\""
+    ],
+    "functions": [
+        "value_to_html"
+    ],
+    "classes": [
+        "BarcodeConverter"
+    ]
+}

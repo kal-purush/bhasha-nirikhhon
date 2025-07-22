@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "beta_0",
+        "beta_1",
+        "n_obs",
+        "np",
+        "random",
+        "random",
+        "size",
+        "n_obs",
+        "beta_0",
+        "beta_1",
+        "xs",
+        "xs",
+        "ys"
+    ],
+    "literals": [],
+    "variables": [
+        "xs",
+        "ys"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"A module for generating toy data sets for generalized neural networks.\n\nGeneralized here simply refers to datasets that aren't specific to image\nprocessing or natural language processing.\n\"\"\"",
+        "\"\"\"Generate data that follows a y = beta_0 + beta_1 * x_1 relationship.\n\n    Args:\n    ----\n        beta_1: int/float\n        beta_0: int/float\n        n_obs: int\n\n    Return:\n    ------\n        ys: 1d np.ndarray\n        xs: 1d np.ndarray\n    \"\"\""
+    ],
+    "functions": [
+        "gen_simple_linear"
+    ],
+    "classes": []
+}

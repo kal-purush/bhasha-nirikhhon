@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "printQuote"
+    ],
+    "literals": [
+        "'loadQuote'",
+        "\"click\""
+    ],
+    "variables": [],
+    "comments": [
+        "Study guide for this project - https://drive.google.com/file/d/1s5grutGuQFwJcQP8bFwEI69Q8FCkGdDk/view?usp=sharing",
+        "Remember to delete the comments that came with this file, and replace them with your own code comments."
+    ],
+    "docstrings": [
+        "****************************************\nTreehouse Techdegree:\nFSJS project 1 - A Random Quote Generator\n*****************************************",
+        "* \n  Create the array of quote objects and name it `quotes`.\n  Add at least five quote objects to the `quotes` array.\n  Give each quote object a `quote` and `source` property.\n\n  Recommended: \n    - Add at least one `year` and/or `citation` property to at least one \n      quote object.\n**",
+        "*\n  Create the `getRandomQuote` function to:\n   - generate a random number \n   - use the random number to `return` a random quote object from the \n     `quotes` array.\n**",
+        "*\n  Create the `printQuote` function to: \n   - call the `getRandomQuote` function and assign it to a variable.\n   - use the properties of the quote object stored in the variable to \n     create your HTML string.\n   - use conditionals to make sure the optional properties exist before \n     they are added to the HTML string.\n   - set the `innerHTML` of the `quote-box` div to the HTML string. \n**",
+        "*\n  When the \"Show another quote\" button is clicked, the event listener \n  below will be triggered, and it will call, or \"invoke\", the `printQuote` \n  function. So do not make any changes to the line of code below this \n  comment.\n**"
+    ],
+    "functions": [],
+    "classes": []
+}

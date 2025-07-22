@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "Runtime",
+        "CompilerServices",
+        "Runtime",
+        "InteropServices",
+        "UnmanagedCallConv",
+        "CallConvs",
+        "Type",
+        "CallConvCdecl",
+        "DllImport",
+        "EntryPoint",
+        "arg",
+        "UnmanagedCallConv",
+        "CallConvs",
+        "Type",
+        "CallConvCdecl",
+        "CallConvSuppressGCTransition",
+        "DllImport",
+        "EntryPoint",
+        "arg",
+        "UnmanagedCallConv",
+        "CallConvs",
+        "Type",
+        "CallConvStdcall",
+        "DllImport",
+        "EntryPoint",
+        "arg",
+        "UnmanagedCallConv",
+        "CallConvs",
+        "Type",
+        "CallConvStdcall",
+        "CallConvSuppressGCTransition",
+        "DllImport",
+        "EntryPoint",
+        "arg"
+    ],
+    "literals": [
+        "\"NativeLibrary\"",
+        "\"native_function_cdecl\"",
+        "\"NativeLibrary\"",
+        "\"native_function_cdecl\"",
+        "\"NativeLibrary\"",
+        "\"native_function_stdcall\"",
+        "\"NativeLibrary\"",
+        "\"native_function_stdcall\""
+    ],
+    "variables": [],
+    "comments": [
+        "<SnippetCdecl>",
+        "Target will be invoked using the cdecl calling convention",
+        "Target will be invoked using the cdecl calling convention and with the GC transition suppressed",
+        "</SnippetCdecl>",
+        "<SnippetStdcall>",
+        "Target will be invoked using the stdcall calling convention",
+        "Target will be invoked using the stdcall calling convention and with the GC transition suppressed",
+        "</SnippetStdcall>"
+    ],
+    "docstrings": [],
+    "functions": [
+        "NativeFunction",
+        "NativeFunction_NoGCTransition",
+        "NativeFunction",
+        "NativeFunction_NoGCTransition"
+    ],
+    "classes": [
+        "Cdecl",
+        "Stdcall"
+    ]
+}

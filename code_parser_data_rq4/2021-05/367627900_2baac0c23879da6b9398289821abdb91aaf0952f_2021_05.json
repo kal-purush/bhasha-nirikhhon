@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "el",
+        "target",
+        "duration",
+        "movement",
+        "callback",
+        "stepCallback",
+        "x",
+        "y",
+        "autostart",
+        "targetX",
+        "elX",
+        "targetY",
+        "elY",
+        "elX",
+        "offset",
+        "targetX",
+        "elY",
+        "offset",
+        "targetY",
+        "elX",
+        "elY",
+        "offset",
+        "offset",
+        "offset",
+        "offset",
+        "top",
+        "left"
+    ],
+    "literals": [
+        "\"cubic-bezier(0.49, -0.29, 0.75, 0.41)\"",
+        "top:${offset[1]}px;left:${offset[0]}px;transition: left ${this.duration}ms linear,top ${this.duration}ms ${this.movement};",
+        "\"transitionrun\"",
+        "\"transitionend\"",
+        "top:${this.initialization[1]}px;left:${this.initialization[0]}px",
+        "top:${top}px;left:${left}px;"
+    ],
+    "variables": [
+        "elX",
+        "elY",
+        "targetX",
+        "targetY",
+        "offset"
+    ],
+    "comments": [
+        "起点元素",
+        "目标元素",
+        "运动时间",
+        "运动函数",
+        "运动后执行的回调函数",
+        "运动过程中执行的回调函数",
+        "是否自动开始运动",
+        "判断起点元素是否自动运动",
+        "运动函数，开始执行动画",
+        "获取起点元素的位置",
+        "获取目标元素的位置",
+        "计算起点元素的偏移位置",
+        "记录起点元素的初始位置,只会记录第一次",
+        "小球运动",
+        "监听起点元素运动",
+        "监听起点元素运动结束",
+        "重置函数,重置元素的位置",
+        "停止函数,停止动画"
+    ],
+    "docstrings": [
+        "* @description: 小球抛物线动画，起点元素和目标元素必须定位\n * @param {HTMLElement} el 起点元素 传入一个html元素\n * @param {HTMLElement} target 目标元素 传入一个html元素\n * @param {Number} duration 运动的时间，默认500毫秒\n * @param {Function} movement 运动的函数，默认的函数为贝塞尔曲线函数cubic-bezier(0.49, -0.29, 0.75, 0.41)\n * @param {Function} callback 运动后执行的回调函数，this指向该对象\n * @param {Function} stepCallback 运动过程中执行的回调函数，this指向该对象，接受x，y参数，分别表示X，Y轴的偏移位置\n * @param {Boolean} autostart 是否自动开始运动，默认为false\n * @return {*}"
+    ],
+    "functions": [
+        "start",
+        "reset",
+        "stop"
+    ],
+    "classes": [
+        "Parabola"
+    ]
+}

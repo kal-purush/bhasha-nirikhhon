@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "createComponent",
+        "createApp",
+        "app",
+        "App",
+        "container"
+    ],
+    "literals": [
+        "<div class=\"counter-display\">\n            <span class=\"counter-label\">恭喜你，你已经写了</span>\n            <span class=\"counter-text\">{{ count }}</span>\n            <span class=\"counter-label\">斤代码！</span>\n        </div>\n        <div class=\"counter-btns\">\n            <button class=\"btn\" @click=\"increase\">写一斤</button>\n            <button class=\"btn\" @click=\"reset\">删库啦</button>\n        </div>",
+        "<div class=\"container\">\n          <h3>计数器示例</h3>\n          <Counter />\n      </div>",
+        "'#app'"
+    ],
+    "variables": [
+        "Vue",
+        "Counter",
+        "App",
+        "container",
+        "app"
+    ],
+    "comments": [
+        "计数器组件",
+        "根组件",
+        "const App = createComponent({",
+        "components: { Counter },",
+        "template: `",
+        "<div class=\"container\">",
+        "<h3>计数器示例</h3>",
+        "<Counter />",
+        "</div>",
+        "`",
+        "})",
+        "启动"
+    ],
+    "docstrings": [],
+    "functions": [
+        "data",
+        "increase",
+        "reset"
+    ],
+    "classes": []
+}

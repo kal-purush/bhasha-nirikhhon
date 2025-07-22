@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "entity",
+        "describe",
+        "beforeEach",
+        "done",
+        "entity",
+        "entity",
+        "entity",
+        "done",
+        "it",
+        "done",
+        "entity",
+        "expect",
+        "tickets",
+        "expect",
+        "tickets",
+        "done"
+    ],
+    "literals": [
+        "'use strict'",
+        "'../../../src/server/entity/ticket'",
+        "'start'",
+        "'ticket'",
+        "'title'",
+        "'desc'",
+        "'findAll'"
+    ],
+    "variables": [
+        "tickets"
+    ],
+    "comments": [
+        "describe('ticket', async () => {",
+        "await entity.TicketModel.sync({ force: true });",
+        "let ticket = await entity.TicketModel.create(entity.Ticket.of('title', 'desc'));",
+        "it('findAll', async () => {",
+        "let tickets = await entity.TicketModel.findAll();",
+        "console.log(tickets);",
+        "expect(1).actual(tickets.length);",
+        "});",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

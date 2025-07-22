@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "sys",
+        "data",
+        "crc",
+        "table",
+        "x",
+        "ord",
+        "x",
+        "sys",
+        "version_info",
+        "major",
+        "x",
+        "data",
+        "crc",
+        "table",
+        "crc",
+        "bytes_to_int",
+        "crc",
+        "data",
+        "crc",
+        "_crc16",
+        "data",
+        "crc",
+        "CRC16_XMODEM_TABLE"
+    ],
+    "literals": [],
+    "variables": [
+        "CRC16_XMODEM_TABLE",
+        "bytes_to_int",
+        "crc"
+    ],
+    "comments": [
+        "coding: utf-8",
+        "see: https://stackoverflow.com/questions/33974678/crc16-xmodem-from-hexstring-python"
+    ],
+    "docstrings": [
+        "\"\"\"table for caclulating CRC (list of 256 integers)\n    :param bytes data: Data for calculating CRC.\n    :param int crc: Initial value.\n    :param list table: Table for caclulating CRC (list of 256 integers)\n    :return: calculated value of CRC\n    \"\"\"",
+        "\"\"\"Calculate CRC-CCITT (XModem) variant of CRC16.\n    :param bytes data: Data for calculating CRC.\n    :param int crc: Initial value.\n    :return: Calculated value of CRC\n    \"\"\""
+    ],
+    "functions": [
+        "_crc16",
+        "crc16xmodem"
+    ],
+    "classes": []
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Microsoft",
+        "Azure",
+        "Functions",
+        "PowerShellWorker",
+        "DependencyManagement",
+        "IsNullOrEmpty",
+        "Environment",
+        "GetEnvironmentVariable",
+        "AzureWebsiteInstanceId",
+        "IsAppService",
+        "IsNullOrEmpty",
+        "Environment",
+        "GetEnvironmentVariable",
+        "ContainerName",
+        "IsAppService",
+        "IsNullOrEmpty",
+        "Environment",
+        "GetEnvironmentVariable",
+        "ContainerName",
+        "IsNullOrEmpty",
+        "Environment",
+        "GetEnvironmentVariable",
+        "LegionServiceHost"
+    ],
+    "literals": [
+        "\"WEBSITE_INSTANCE_ID\"",
+        "\"CONTAINER_NAME\"",
+        "\"LEGION_SERVICE_HOST\""
+    ],
+    "variables": [
+        "AzureWebsiteInstanceId",
+        "ContainerName",
+        "LegionServiceHost"
+    ],
+    "comments": [
+        "Hold information about the environment.",
+        "</summary>",
+        "Environment variables to help figure out if we are running in Azure."
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "IsAppService",
+        "IsLinuxConsumption",
+        "IsLinuxConsumptionOnLegion"
+    ],
+    "classes": [
+        "WorkerEnvironment"
+    ]
+}

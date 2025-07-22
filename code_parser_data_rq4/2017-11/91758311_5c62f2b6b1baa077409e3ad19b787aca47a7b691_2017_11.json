@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Platform",
+        "Events",
+        "Geolocation",
+        "GeolocationOptions",
+        "Storage",
+        "Injectable",
+        "platform",
+        "storage",
+        "geolocation",
+        "events",
+        "storageGeofence",
+        "storageGeofence",
+        "storageGeofence",
+        "error",
+        "deg",
+        "deg",
+        "location",
+        "google",
+        "location",
+        "location",
+        "google",
+        "google",
+        "circleLatLng",
+        "latLng",
+        "distance",
+        "location",
+        "distance",
+        "accuracyOffset"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'ionic-angular'",
+        "'rxjs/add/operator/map'",
+        "'@ionic-native/geolocation'",
+        "'@ionic/storage'",
+        "'Hello GeofenceProvider Provider'",
+        "\"Saving geofence to storage\"",
+        "'geofence'",
+        "\"In ititGeofence\"",
+        "'geofence'",
+        "'setupGeofence:runInBackground'",
+        "\"Got the geofence from the DB\"",
+        "\"Not able to get the geofence from storage\"",
+        "\"Seeing if a point is currently in the geofence\"",
+        "\"Distance: \"",
+        "\"Radius: \"",
+        "\"Accuracy: \""
+    ],
+    "variables": [
+        "google",
+        "accuracyOffset",
+        "latLng",
+        "circleLatLng",
+        "distance"
+    ],
+    "comments": [
+        "Generated class for the GeofenceProvider provider.",
+        "See if the current position is in the geofence",
+        "//var distance = Math.sqrt(Math.pow((location.coords.latitude - this.geofence.x), 2) + Math.pow((location.coords.longitude - this.geofence.y), 2));\n      var R = 6371.009; // Radius of the earth in km\n      //var R = 6367444.65712259;\n      var differenceLatitude = this.deg2rad(location.coords.latitude - this.geofence.x);  // deg2rad below\n      var differenceLongitute = this.deg2rad(location.coords.longitude - this.geofence.y); \n      var a = \n        Math.sin(differenceLatitude/2) * Math.sin(differenceLatitude/2) +\n        Math.cos(this.deg2rad(this.geofence.x)) * Math.cos(this.deg2rad(location.coords.latitude)) * \n        Math.sin(differenceLongitute/2) * Math.sin(differenceLongitute/2)\n        ; \n      var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a)); \n      var d = R * c; // Distance in km\n      var distance = d;\n      //var distance = d * (1000); // convert km to meters\n    \n      console.log(\"Distance: \", distance);\n      console.log(\"Radius: \", this.geofence.radius);\n      console.log(\"Accuracy: \", location.coords.accuracy);\n      console.log(\"Latitude: \" + location.coords.latitude + \" Longitude: \" + location.coords.longitude);\n      console.log(\"x: \" + this.geofence.x + \" y: \" + this.geofence.y);\n      if(distance < this.geofence.radius){\n        return true;\n      } else {\n        return false;\n      }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "updateGeofence",
+        "initGeofence",
+        "deg2rad",
+        "currentlyInGeofence"
+    ],
+    "classes": [
+        "GeofenceProvider"
+    ]
+}

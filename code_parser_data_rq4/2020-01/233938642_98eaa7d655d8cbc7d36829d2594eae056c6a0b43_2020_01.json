@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "require",
+        "breed",
+        "functionToRunWhenThingsAreDone",
+        "fs",
+        "breed",
+        "error",
+        "data",
+        "error",
+        "functionToRunWhenThingsAreDone",
+        "data",
+        "functionToRunWhenThingsAreDone",
+        "printOutCatBreed",
+        "breed",
+        "breed",
+        "breedDetailsFromFile"
+    ],
+    "literals": [
+        "\"fs\"",
+        "\"breedDetailsFromFile: Calling readFile...\"",
+        "./data/${breed}.txt",
+        "\"utf8\"",
+        "\"In readFile's Callback: it has the data.\"",
+        "\"Return Value: \""
+    ],
+    "variables": [
+        "fs",
+        "breedDetailsFromFile",
+        "printOutCatBreed"
+    ],
+    "comments": [
+        "CHANGE: Pass data into callback instead of returning it directly",
+        "CHANGE 1: Moved the console.log into a new function:",
+        "=> print out details correctly.",
+        "CHANGE 2: we're now passing two arguments into breedDetailsFromFile: breed string and a callback function",
+        "breedDetailsFromFile(\"Bombay\", printOutCatBreed);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

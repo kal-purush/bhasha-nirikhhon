@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "callback",
+        "callback",
+        "propertyName",
+        "callback",
+        "propertyName",
+        "cancel"
+    ],
+    "literals": [
+        "string",
+        "'propertyChanged'",
+        "string",
+        "'propertyChanging'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"IEventEmitter.d.ts\" />",
+        "<reference path=\"FAction.d.ts\" />",
+        "IEventEmitter",
+        "When a property has changed."
+    ],
+    "docstrings": [
+        "* Before a property might change.\n\t * cancel is provided in the callback if cancellation is supported."
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "urllib",
+        "request",
+        "cv2",
+        "numpy",
+        "np",
+        "os",
+        "urllib",
+        "request",
+        "urlopen",
+        "neg_images_link",
+        "read",
+        "decode",
+        "os",
+        "path",
+        "exists",
+        "os",
+        "makedirs",
+        "i",
+        "neg_image_urls",
+        "split",
+        "i",
+        "urllib",
+        "request",
+        "urlretrieve",
+        "i",
+        "pic_num",
+        "cv2",
+        "imread",
+        "pic_num",
+        "cv2",
+        "IMREAD_GRAYSCALE",
+        "cv2",
+        "resize",
+        "img",
+        "cv2",
+        "imwrite",
+        "pic_num",
+        "resized_image",
+        "pic_num",
+        "e",
+        "e",
+        "store_raw_images"
+    ],
+    "literals": [
+        "'http://www.image-net.org/api/text/imagenet.synset.geturls?wnid=n04409515'",
+        "'neg'",
+        "'neg'",
+        "'\\n'",
+        "\"neg/\"",
+        "\".jpg\"",
+        "\"neg/\"",
+        "\".jpg\"",
+        "\"neg/\"",
+        "\".jpg\""
+    ],
+    "variables": [
+        "neg_images_link",
+        "neg_image_urls",
+        "pic_num",
+        "img",
+        "resized_image"
+    ],
+    "comments": [
+        "should be larger than samples / pos pic (so we can place our image on it)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "store_raw_images"
+    ],
+    "classes": []
+}

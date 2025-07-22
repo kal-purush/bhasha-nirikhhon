@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "HarmonyLib",
+        "UnityEngine",
+        "UnityEngine",
+        "UI",
+        "ValheimPlus",
+        "GameClasses",
+        "HarmonyPatch",
+        "UnityEngine",
+        "EventSystems",
+        "EventSystem",
+        "hasFocus",
+        "PlayerPrefs",
+        "GetInt",
+        "hasFocus",
+        "AudioListener",
+        "volume",
+        "PlayerPrefs",
+        "GetFloat",
+        "AudioListener",
+        "volume"
+    ],
+    "literals": [
+        "\"OnApplicationFocus\"",
+        "\"MuteGameInBackground\"",
+        "\"MasterVolume\""
+    ],
+    "variables": [],
+    "comments": [
+        "Mute all sound when the application loses focus",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "Postfix"
+    ],
+    "classes": [
+        "EventSystem_OnApplicationFocus_Patch"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "axios",
+        "checkAuthMiddleware",
+        "store",
+        "next",
+        "action",
+        "cookie",
+        "cookie",
+        "csrfCookie",
+        "axios",
+        "response",
+        "store",
+        "setAuthToken",
+        "response",
+        "error",
+        "error",
+        "store",
+        "removeAuthToken",
+        "next",
+        "action"
+    ],
+    "literals": [
+        "\"axios\"",
+        "'CHECK_AUTH'",
+        "';'",
+        "'XSRF-TOKEN='",
+        "'Cookie tidak ditemukan'",
+        "'/sanctum/csrf-cookie'",
+        "'Error checking CSRF cookie:'"
+    ],
+    "variables": [
+        "checkAuthMiddleware",
+        "action",
+        "csrfCookie"
+    ],
+    "comments": [
+        "CSRF cookie valid, atur token ke Redux state",
+        "CSRF cookie tidak valid, hapus token dari Redux state"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

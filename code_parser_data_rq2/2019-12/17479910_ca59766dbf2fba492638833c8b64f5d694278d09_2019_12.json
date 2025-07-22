@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "NServiceBus",
+        "Gateway",
+        "AcceptanceTests",
+        "Linq",
+        "Threading",
+        "Tasks",
+        "AcceptanceTesting",
+        "Logging",
+        "NUnit",
+        "Framework",
+        "NServiceBusAcceptanceTest",
+        "Test",
+        "Scenario",
+        "Define",
+        "ScenarioContext",
+        "WithEndpoint",
+        "EndpointWithLegacyConfiguration",
+        "Done",
+        "c",
+        "EndpointsStarted",
+        "Run",
+        "context",
+        "Logs",
+        "Where",
+        "l",
+        "Level",
+        "LogLevel",
+        "Warn",
+        "Select",
+        "l",
+        "Message",
+        "Assert",
+        "That",
+        "warnings",
+        "Any",
+        "l",
+        "Contains",
+        "EndpointConfigurationBuilder",
+        "EndpointSetup",
+        "GatewayEndpointWithNoStorage",
+        "c",
+        "UsePersistence",
+        "InMemoryPersistence",
+        "StorageType",
+        "GatewayDeduplication",
+        "c",
+        "Gateway",
+        "gatewayConfiguration",
+        "AddReceiveChannel"
+    ],
+    "literals": [
+        "\"Endpoint is configured to use the legacy in-memory gateway deduplication storage\"",
+        "\"http://localhost:25999/SiteA/\""
+    ],
+    "variables": [
+        "context",
+        "warnings",
+        "gatewayConfiguration"
+    ],
+    "comments": [
+        "legacy configuration API (not passing a storage as parameter):"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Should_log_warning",
+        "EndpointWithLegacyConfiguration"
+    ],
+    "classes": [
+        "When_using_legacy_inmemory_persistence",
+        "EndpointWithLegacyConfiguration"
+    ]
+}

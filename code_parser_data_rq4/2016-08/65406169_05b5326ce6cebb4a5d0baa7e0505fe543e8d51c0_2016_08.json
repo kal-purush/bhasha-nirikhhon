@@ -1,0 +1,35 @@
+{
+    "identifiers": [],
+    "literals": [
+        "\"<kmsEncryptedHookUrl>\"",
+        "\"<unencryptedHookUrl>\"",
+        "\"#general\"",
+        "\"AWS SNS via Lamda\"",
+        "\"us-east-1\"",
+        "\":robot_face:\"",
+        "\"\"",
+        "\"\"",
+        "\"ElasticBeanstalkNotifications\"",
+        "\"CloudWatchNotifications\"",
+        "\"CodeDeploy\"",
+        "\"ElastiCache\""
+    ],
+    "variables": [],
+    "comments": [
+        "encrypted slack webhook url",
+        "unencrypted slack webhook url",
+        "slack channel to send a message to",
+        "slack username to user for messages",
+        "default region for links in services that dont include region in sns",
+        "slack emoji icon to use for messages",
+        "url to icon for your organization for display in the footer of messages",
+        "name of your organization for display in the footer of messages",
+        "text in the sns message or topicname to match on to process this service type",
+        "text in the sns message or topicname to match on to process this service type",
+        "text in the sns message or topicname to match on to process this service type",
+        "text in the sns message or topicname to match on to process this service type"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

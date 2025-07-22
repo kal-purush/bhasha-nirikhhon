@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "Microsoft",
+        "Extensions",
+        "Localization",
+        "OrchardCore",
+        "Deployment",
+        "OrchardCore",
+        "DisplayManagement",
+        "Handlers",
+        "OrchardCore",
+        "Settings",
+        "Deployment",
+        "TModel",
+        "TLocalizer",
+        "IServiceCollection",
+        "services",
+        "Func",
+        "IStringLocalizer",
+        "LocalizedString",
+        "title",
+        "Func",
+        "IStringLocalizer",
+        "description",
+        "TModel",
+        "TLocalizer",
+        "services",
+        "AddTransient",
+        "IDeploymentSource",
+        "SiteSettingsPropertyDeploymentSource",
+        "TModel",
+        "services",
+        "AddScoped",
+        "IDisplayDriver",
+        "DeploymentStep",
+        "sp",
+        "GetService",
+        "IStringLocalizer",
+        "TLocalizer",
+        "SiteSettingsPropertyDeploymentStepDriver",
+        "TModel",
+        "title",
+        "stringLocalizer",
+        "description",
+        "stringLocalizer",
+        "services",
+        "AddSingleton",
+        "IDeploymentStepFactory",
+        "SiteSettingsPropertyDeploymentStepFactory",
+        "TModel"
+    ],
+    "literals": [],
+    "variables": [
+        "stringLocalizer"
+    ],
+    "comments": [
+        "Registers a <see cref=\"SiteSettingsPropertyDeploymentSource{TModel}\"/> step.",
+        "</summary>",
+        "Do not name this S, it should not be collected up by the po extractor."
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "AddSiteSettingsPropertyDeploymentStep"
+    ],
+    "classes": [
+        "ServiceCollectionExtensions"
+    ]
+}

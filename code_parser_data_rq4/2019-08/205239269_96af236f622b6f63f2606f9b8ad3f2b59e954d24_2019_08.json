@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "foodObj",
+        "foodObj",
+        "foodObj",
+        "foodObj",
+        "foodHTML",
+        "dogs",
+        "foodList",
+        "dogs",
+        "fetch",
+        "foods",
+        "foods",
+        "parsedFoods",
+        "parsedFoods",
+        "item",
+        "createFoodHTML",
+        "item",
+        "addFoodtoDom",
+        "foodAsHTML"
+    ],
+    "literals": [
+        "\"yo, duh\"",
+        "<section>\n        <h3>Name: ${foodObj.name}</h3>\n        <p>Category: ${foodObj.category}</p>\n        <p>Ethnicity: ${foodObj.ethnicity}</p>\n    </section>",
+        "\".foodList\"",
+        "\"http://localhost:8088/food\""
+    ],
+    "variables": [
+        "foodHTML",
+        "foodList",
+        "foodAsHTML"
+    ],
+    "comments": [
+        "\"name\": \"Ravioli\",",
+        "\"category\": \"pasta\",",
+        "\"ethnicity\": \"italian\",",
+        "\"id\": 6,",
+        "\"restaurantId\": 2",
+        "fetch(\"http://localhost:8088/food\")",
+        ".then(foods => foods.json())",
+        ".then(parsedFoods => {",
+        "console.table(parsedFoods);",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createFoodHTML",
+        "addFoodtoDom"
+    ],
+    "classes": []
+}

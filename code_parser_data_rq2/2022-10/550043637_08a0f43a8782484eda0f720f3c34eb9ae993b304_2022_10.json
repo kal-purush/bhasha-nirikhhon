@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "os",
+        "fabric",
+        "api",
+        "number",
+        "number",
+        "number",
+        "sorted",
+        "os",
+        "listdir",
+        "archives",
+        "pop",
+        "i",
+        "number",
+        "lcd",
+        "local",
+        "format",
+        "a",
+        "a",
+        "archives",
+        "cd",
+        "run",
+        "split",
+        "a",
+        "a",
+        "archives",
+        "a",
+        "archives",
+        "pop",
+        "i",
+        "number",
+        "run",
+        "format",
+        "a",
+        "a",
+        "archives"
+    ],
+    "literals": [
+        "\"versions\"",
+        "\"versions\"",
+        "\"rm ./{}\"",
+        "\"/data/web_static/releases\"",
+        "\"ls -tr\"",
+        "\"web_static_\"",
+        "\"rm -rf ./{}\""
+    ],
+    "variables": [
+        "env",
+        "hosts",
+        "number",
+        "archives",
+        "archives",
+        "archives"
+    ],
+    "comments": [
+        "!/usr/bin/python3"
+    ],
+    "docstrings": [
+        "\"\"\"Delete out-of-date archives.\n    Args:\n        number (int): The number of archives to keep.\n    If number is 0 or 1, keeps only the most recent archive. If\n    number is 2, keeps the most and second-most recent archives,\n    etc.\n    \"\"\""
+    ],
+    "functions": [
+        "do_clean"
+    ],
+    "classes": []
+}

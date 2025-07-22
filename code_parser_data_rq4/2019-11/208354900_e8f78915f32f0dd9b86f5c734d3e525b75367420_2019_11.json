@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "AbstractEffect",
+        "damage",
+        "damage",
+        "user",
+        "target",
+        "target",
+        "target",
+        "clone",
+        "user",
+        "StatusFolds",
+        "clone",
+        "target",
+        "user",
+        "StatusFolds",
+        "target",
+        "target",
+        "user",
+        "Player",
+        "Game",
+        "RunStatistics",
+        "oldHealth",
+        "target",
+        "NonlethalDamageEffect"
+    ],
+    "literals": [
+        "string",
+        "do up to ${this.damage} nonlethal damage"
+    ],
+    "variables": [
+        "oldHealth",
+        "clone"
+    ],
+    "comments": [
+        "<reference path=\"../AbstractEffect.ts\" />",
+        "check if we can damage normally",
+        "deal damage normally",
+        "deal the exact right amount of damage to bring health to 1, bypassing defenses"
+    ],
+    "docstrings": [],
+    "functions": [
+        "effect",
+        "toString",
+        "clone"
+    ],
+    "classes": [
+        "NonlethalDamageEffect"
+    ]
+}

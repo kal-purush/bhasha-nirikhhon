@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "basicAttachment",
+        "roomId",
+        "instance",
+        "basicAttachment",
+        "basicAttachment",
+        "basicAttachment",
+        "basicAttachment",
+        "basicAttachment",
+        "basicAttachment",
+        "basicAttachment",
+        "basicAttachment",
+        "roomId",
+        "instance",
+        "encodeURIComponent",
+        "res",
+        "res",
+        "download_url",
+        "expiration"
+    ],
+    "literals": [
+        "\"GET\"",
+        "rooms/${encodeURIComponent(this._roomId)}/attachments/${\n          this._id\n        }"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "url",
+        "urlExpiry",
+        "_fetchNewDownloadURL"
+    ],
+    "classes": [
+        "Attachment"
+    ]
+}

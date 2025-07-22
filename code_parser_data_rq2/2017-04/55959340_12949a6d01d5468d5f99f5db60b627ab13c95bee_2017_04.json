@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Injectable",
+        "AuthHttp",
+        "ConfigService",
+        "Injectable",
+        "http",
+        "config",
+        "apiUrl",
+        "headers",
+        "apiUrl",
+        "headers",
+        "apiUrl",
+        "data",
+        "headers",
+        "apiUrl",
+        "data",
+        "headers",
+        "apiUrl",
+        "data",
+        "headers",
+        "apiUrl",
+        "data",
+        "headers",
+        "apiUrl",
+        "headers",
+        "apiUrl",
+        "headers"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'angular2-jwt'",
+        "'../config.service'",
+        "string",
+        "'mobileContentApiUrl'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Service for sending request to the mobile content API.",
+        "* Adds the URL of the mobile content API to the API Call and does a HTTP GET request.\n   *\n   * @param apiUrl relative path for the call\n   * @param headers additional headers\n   * @returns {Observable<Response>}",
+        "* Adds the URL of the mobile content API to the API Call and does a HTTP GET request.\n   *\n   * @param apiUrl relative path for the call\n   * @param data the data which shall be send\n   * @param headers additional headers\n   * @returns {Observable<Response>}",
+        "* Adds the URL of the mobile content API to the API Call and does a HTTP GET request.\n   *\n   * @param apiUrl relative path for the call\n   * @param data the data which shall be send\n   * @param headers additional headers\n   * @returns {Observable<Response>}",
+        "* Adds the URL of the mobile content API to the API Call and does a HTTP DELETE request.\n   *\n   * @param apiUrl relative path for the call\n   * @param headers additional headers\n   * @returns {Observable<Response>}"
+    ],
+    "functions": [
+        "setUrl",
+        "getUrl",
+        "postUrl",
+        "putUrl",
+        "deleteUrl"
+    ],
+    "classes": [
+        "MobileContentApiService"
+    ]
+}

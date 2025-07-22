@@ -1,0 +1,19 @@
+{
+    "identifiers": [
+        "useMediaQuery",
+        "useMediaQuery"
+    ],
+    "literals": [
+        "\"./use-media-query.js\"",
+        "\"(orientation:portrait)\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Determine if current device is in portrait orientation.\n *\n * @returns true if portrait, false if landscape\n *\n * @example\n * Check if the device is in portrait mode.\n * ```tsx\n * import { useIsPortait } from \"@trashpanda001/helpers/react\"\n *\n * function Component() {\n *   const isPortrait = useIsPortrait()\n *   return <div>{isPortrait ? \"portrait\" : \"landscape\"}</div>\n * }\n * ```"
+    ],
+    "functions": [
+        "useIsPortrait"
+    ],
+    "classes": []
+}

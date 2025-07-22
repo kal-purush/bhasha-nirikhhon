@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "axelrod",
+        "Actions",
+        "Player",
+        "init_args",
+        "random_choice",
+        "axelrod",
+        "strategy_transformers",
+        "RetaliateUntilApologyTransformer",
+        "Actions",
+        "C",
+        "Actions",
+        "D",
+        "RetaliateUntilApologyTransformer",
+        "Player",
+        "init_args",
+        "p",
+        "Player",
+        "p",
+        "opponent",
+        "random_choice",
+        "p",
+        "choice",
+        "name",
+        "round",
+        "p"
+    ],
+    "literals": [
+        "'Naive Prober'",
+        "'memory_depth'",
+        "'stochastic'",
+        "'makes_use_of'",
+        "'inspects_source'",
+        "'manipulates_source'",
+        "'manipulates_state'",
+        "\"%s: %s\""
+    ],
+    "variables": [
+        "C",
+        "D",
+        "name",
+        "classifier",
+        "p",
+        "choice"
+    ],
+    "comments": [
+        "Four-Vector = (1.,0.,1.,0.)"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Like tit-for-tat, but it occasionally defects with a small probability.\n    \"\"\"",
+        "\"\"\"\n        Parameters\n        ----------\n        p, float\n            The probability to defect without provoking\n        \"\"\""
+    ],
+    "functions": [
+        "strategy",
+        "__repr__"
+    ],
+    "classes": [
+        "NaiveProber"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "express",
+        "json",
+        "cookieSession",
+        "errorHandler",
+        "NotFoundError",
+        "currentUser",
+        "createTicketRouter",
+        "express",
+        "app",
+        "app",
+        "json",
+        "app",
+        "cookieSession",
+        "process",
+        "app",
+        "currentUser",
+        "app",
+        "createTicketRouter",
+        "app",
+        "req",
+        "res",
+        "NotFoundError",
+        "app",
+        "errorHandler",
+        "app"
+    ],
+    "literals": [
+        "\"express\"",
+        "'express-async-errors'",
+        "\"body-parser\"",
+        "'cookie-session'",
+        "\"@bluepink-tickets/common\"",
+        "\"./routes/new\"",
+        "'trust proxy'",
+        "'test'",
+        "'*'"
+    ],
+    "variables": [
+        "app"
+    ],
+    "comments": [
+        "import routes",
+        "trust requests because traffic is currently being proxied to our app through ingress-nginx",
+        "cookies will not be encrypted because the contained JWT is already so.",
+        "require that cookies only be sent back if users visit our app over an HTTPS connection.",
+        "we will use an env variable to make secure false when sending requests in a test env, otherwise true",
+        "make sure this comes after the cookieSession middleware so that the cookieSession middleware can take a look at the cookie and set the req.session property",
+        "handle routes",
+        "handle invalid routes"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

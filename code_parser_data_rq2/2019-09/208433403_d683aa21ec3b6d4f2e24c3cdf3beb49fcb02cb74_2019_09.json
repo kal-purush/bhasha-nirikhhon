@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "core",
+        "name",
+        "options",
+        "core",
+        "name",
+        "core",
+        "inputFullName",
+        "options",
+        "value",
+        "value",
+        "core",
+        "name",
+        "getInput",
+        "getInput"
+    ],
+    "literals": [
+        "'@actions/core'",
+        "string",
+        "string",
+        "'_'",
+        "string",
+        "string",
+        "'target'",
+        "'component'"
+    ],
+    "variables": [
+        "inputFullName",
+        "value"
+    ],
+    "comments": [
+        "Workaround for a GH bug: https://github.com/actions/toolkit/issues/127",
+        "",
+        "For input `all-features: true` it will generate the `INPUT_ALL-FEATURES: true`",
+        "env variable, which looks too weird.",
+        "Here we are trying to get proper name `INPUT_NO_DEFAULT_FEATURES` first,",
+        "and if it does not exist, trying the `INPUT_NO-DEFAULT-FEATURES`"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getInput",
+        "components_args"
+    ],
+    "classes": []
+}

@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "Ywdsoft",
+        "Utility",
+        "Quartz",
+        "IO",
+        "Ywdsoft",
+        "Utility",
+        "ConfigHandler",
+        "Ywdsoft",
+        "TaskSet",
+        "DisallowConcurrentExecution",
+        "IJob",
+        "IJobExecutionContext",
+        "context",
+        "FileHelper",
+        "GetAbsolutePath",
+        "Directory",
+        "GetFiles",
+        "LogDir",
+        "SearchOption",
+        "AllDirectories",
+        "item",
+        "files",
+        "fi",
+        "FileInfo",
+        "item",
+        "Now",
+        "fi",
+        "CreationTime",
+        "TotalDays",
+        "LogConfig",
+        "Days",
+        "File",
+        "Delete",
+        "item",
+        "ex",
+        "JobExecutionException",
+        "ex",
+        "LogHelper",
+        "WriteLog",
+        "ex",
+        "e2",
+        "RefireImmediately"
+    ],
+    "literals": [
+        "\"/Logs\"",
+        "\"*.*\"",
+        "\"日志清理任务异常\""
+    ],
+    "variables": [
+        "LogDir",
+        "files",
+        "FileInfo",
+        "fi",
+        "JobExecutionException",
+        "e2"
+    ],
+    "comments": [
+        "",
+        "</summary>",
+        "<remarks>DisallowConcurrentExecution属性标记任务不可并行，要是上一任务没运行完即使到了运行时间也不会运行</remarks>",
+        "1.立即重新执行任务"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "Execute"
+    ],
+    "classes": [
+        "LogClearJob"
+    ]
+}

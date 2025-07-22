@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "cv2",
+        "numpy",
+        "np",
+        "cv2",
+        "cv2",
+        "VideoCapture",
+        "cap",
+        "read",
+        "ret",
+        "cv2",
+        "imshow",
+        "frame",
+        "cv2",
+        "waitKey",
+        "ord",
+        "current_state",
+        "annotation_list",
+        "append",
+        "current_state",
+        "annotation_list",
+        "annotation_list",
+        "cap",
+        "release",
+        "cv2",
+        "destroyAllWindows"
+    ],
+    "literals": [
+        "'03MC_Nabeelcropped.mpg'",
+        "'frame'",
+        "' '"
+    ],
+    "variables": [
+        "cap",
+        "current_state",
+        "annotation_list",
+        "ret",
+        "frame",
+        "current_state",
+        "annotation_list"
+    ],
+    "comments": [
+        "",
+        "1) load and play video in slow motion",
+        "2) Press key \"spacebar and hold\" when there is eye-contact",
+        "5) record 1 when space bar is pressed and hold",
+        "6) record 0 if no key is being pressed",
+        "7) output csv file 0 or 1 for all seconds in series ( x= i+1, y= 0 or 1)",
+        "",
+        "Read one frame.",
+        "Show one frame.",
+        "Check, if the space bar is pressed to switch the mode.",
+        "Convert the list of boolean values to a list of int values."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "esbuild",
+        "globalExternals",
+        "globals",
+        "esbuild",
+        "globals",
+        "modulePaths",
+        "pluginName",
+        "build",
+        "build",
+        "moduleFilter",
+        "args",
+        "args",
+        "pluginName",
+        "build",
+        "pluginName",
+        "args",
+        "globals",
+        "args",
+        "variableName",
+        "args",
+        "variableName"
+    ],
+    "literals": [
+        "\"esbuild\"",
+        "string",
+        "string",
+        "\"global-externals\"",
+        "^(?:${modulePaths.join(\"|\")})$",
+        "\"|\"",
+        "Unknown module path: ${args.path}",
+        "export default ${variableName};"
+    ],
+    "variables": [
+        "globalExternals",
+        "pluginName",
+        "modulePaths",
+        "moduleFilter",
+        "variableName"
+    ],
+    "comments": [
+        "Shouldn't happen"
+    ],
+    "docstrings": [
+        "* Tell esbuild that some external modules equate to corresponding global\n * variables and avoid them to be bundled.\n *\n * @param globals\n * Mapping from module paths to variable names, e.g. `jquery: \"$\"`."
+    ],
+    "functions": [
+        "setup"
+    ],
+    "classes": []
+}

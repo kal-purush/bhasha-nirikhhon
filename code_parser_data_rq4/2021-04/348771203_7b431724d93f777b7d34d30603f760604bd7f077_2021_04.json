@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "normalizeUrl",
+        "generateNameContextName",
+        "generateShexName",
+        "fileName",
+        "normalizeUrl",
+        "id",
+        "normalizeUrl",
+        "id",
+        "id",
+        "generateShexName",
+        "fileName",
+        "generateNameContextName",
+        "id",
+        "typed",
+        "normalizeUrl",
+        "id",
+        "childShapes",
+        "childShapes",
+        "childShapes",
+        "shape",
+        "generateNameContextName",
+        "shape",
+        "shape"
+    ],
+    "literals": [
+        "\"../common\"",
+        "\"../typescript/generates\"",
+        "string",
+        "string",
+        "string",
+        "export const ${normalizeUrl(id).replace(\n    \"Shape\",\n    \"\"\n  )} = new Shape<${normalizeUrl(id, true)}>({\n  id: \"${id}\",\n  shape: ${generateShexName(fileName)},\n  context: ${generateNameContextName(id)},\n  ${typed ? `type: ${normalizeUrl(id, true) + \"Type\"},` : \"\"}\n  ${\n    Array.isArray(childShapes) && childShapes.length > 1\n      ? `childContexts: [${childShapes\n          .map((shape) => generateNameContextName(shape))\n          .join(\", \")}],`\n      : \"\"\n  }\n})\\n",
+        "\"Shape\"",
+        "\"\"",
+        "type: ${normalizeUrl(id, true) + \"Type\"},",
+        "\"Type\"",
+        "\"\"",
+        "childContexts: [${childShapes\n          .map((shape) => generateNameContextName(shape))\n          .join(\", \")}],",
+        "\", \"",
+        "\"\"",
+        "import { Shape } from \"shex-methods\";\\n"
+    ],
+    "variables": [
+        "shape"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "generateShapeMethodsExport",
+        "generateShapeMethodsImport"
+    ],
+    "classes": []
+}

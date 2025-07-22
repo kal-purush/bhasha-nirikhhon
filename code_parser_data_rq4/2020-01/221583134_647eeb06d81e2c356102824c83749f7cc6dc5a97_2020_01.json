@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "CommandoClient",
+        "Command",
+        "CommandoMessage",
+        "Message",
+        "Command",
+        "client",
+        "client",
+        "msg",
+        "args",
+        "args",
+        "CommandoMessage",
+        "msg",
+        "args",
+        "messagesToDelete",
+        "args",
+        "args",
+        "msg",
+        "messagesToDelete",
+        "msg",
+        "args",
+        "msg"
+    ],
+    "literals": [
+        "'discord.js-commando'",
+        "\"discord.js\"",
+        "'clear'",
+        "'general'",
+        "'clear'",
+        "'cls'",
+        "'Clear messages.'",
+        "Clear messages",
+        "'clear 10'",
+        "'MANAGE_MESSAGES'",
+        "'MANAGE_MESSAGES'",
+        "'numbers'",
+        "'number'",
+        "'What number of message would you like to delete?'",
+        "\"integer|message\"",
+        "\"Messages deleted.\""
+    ],
+    "variables": [
+        "messagesToDelete"
+    ],
+    "comments": [
+        "If the parameter is a message ID",
+        "Retrieve all messages that are more recent",
+        "Add the message to the list so it's deleted too",
+        "Otherwise delete the X last messages +1 because the user just wrote the command"
+    ],
+    "docstrings": [],
+    "functions": [
+        "run"
+    ],
+    "classes": [
+        "ClearCommand"
+    ]
+}

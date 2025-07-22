@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "os",
+        "limit",
+        "offset",
+        "order_by",
+        "extra_params",
+        "extra_params",
+        "order_by",
+        "clause",
+        "format",
+        "order_by",
+        "limit",
+        "clause",
+        "limit",
+        "limit",
+        "offset",
+        "clause",
+        "offset",
+        "clause",
+        "os",
+        "path",
+        "join",
+        "os",
+        "path",
+        "dirname",
+        "os",
+        "path",
+        "abspath",
+        "join",
+        "_"
+    ],
+    "literals": [
+        "\"\"",
+        "\" ORDER BY {0}\"",
+        "\" LIMIT :limit\"",
+        "'limit'",
+        "\" OFFSET :offset\"",
+        "'offset'",
+        "'..'",
+        "'sql'",
+        "\" (\"",
+        "\", \"",
+        "\"?\"",
+        "\") \""
+    ],
+    "variables": [
+        "clause",
+        "SQL_FOLDER"
+    ],
+    "comments": [
+        "NOTE; Order by should NEVER be user specified, as this would be",
+        "a SQL injection vulnerability."
+    ],
+    "docstrings": [],
+    "functions": [
+        "limit_offset_helper",
+        "place_holder_generator"
+    ],
+    "classes": []
+}

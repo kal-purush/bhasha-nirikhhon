@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "base_page",
+        "BasePage",
+        "selenium",
+        "webdriver",
+        "common",
+        "by",
+        "By",
+        "locators",
+        "ProductPageLocators",
+        "BasePage",
+        "browser",
+        "is_element_present",
+        "ProductPageLocators",
+        "BTN_BASKET",
+        "browser",
+        "find_element",
+        "ProductPageLocators",
+        "BTN_BASKET",
+        "btn_basket",
+        "click",
+        "browser",
+        "find_element",
+        "ProductPageLocators",
+        "PRODUCT_NAME",
+        "text",
+        "browser",
+        "find_element",
+        "ProductPageLocators",
+        "PRODUCT_IN_BASKET",
+        "text",
+        "product_name",
+        "product_name_in_basket",
+        "browser",
+        "find_element",
+        "ProductPageLocators",
+        "PRODUCT_PRICE",
+        "text",
+        "browser",
+        "find_element",
+        "ProductPageLocators",
+        "BASKET_PRICE",
+        "text",
+        "product_price",
+        "basket_price"
+    ],
+    "literals": [
+        "\"Add to basket button is not presented\"",
+        "\"Product name does not match the product name in basket\"",
+        "\"Product price does not match the basket price\""
+    ],
+    "variables": [
+        "btn_basket",
+        "product_name",
+        "product_name_in_basket",
+        "product_price",
+        "basket_price"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "should_be_button_add_to_basket",
+        "add_product_to_basket",
+        "should_be_name_product_matches_product_in_basket",
+        "should_be_pirce_product_matches_price_basket"
+    ],
+    "classes": [
+        "ProductPage"
+    ]
+}

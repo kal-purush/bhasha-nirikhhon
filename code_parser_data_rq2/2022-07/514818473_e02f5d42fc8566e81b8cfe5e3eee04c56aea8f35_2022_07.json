@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "express",
+        "app",
+        "require",
+        "path",
+        "__dirname",
+        "app",
+        "express",
+        "publicDirectoryPath",
+        "app",
+        "req",
+        "res",
+        "res",
+        "Myimages",
+        "app",
+        "PORT",
+        "PORT"
+    ],
+    "literals": [
+        "'./modules/module'",
+        "\"express\"",
+        "'view engine'",
+        "'ejs'",
+        "\"path\"",
+        "\"./views/templates\"",
+        "\"\"",
+        "\"index\"",
+        "\"Server is up on port \""
+    ],
+    "variables": [
+        "PORT",
+        "Myimages",
+        "express",
+        "app",
+        "path",
+        "publicDirectoryPath"
+    ],
+    "comments": [
+        "let images = [];",
+        "Myimages.forEach((img) =>{",
+        "images.push(img.download_url);",
+        "});",
+        "console.log(images);",
+        "app.get(\"/img\", (req, res) => {",
+        "res.render(\"img\");",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

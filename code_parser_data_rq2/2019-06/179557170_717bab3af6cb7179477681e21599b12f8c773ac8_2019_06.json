@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "Injectable",
+        "AngularFireDatabase",
+        "AngularFireList",
+        "AngularFireObject",
+        "AngularFireAuth",
+        "User",
+        "FormGroup",
+        "UserCredential",
+        "firebase",
+        "Router",
+        "Injectable",
+        "DUSocialDB",
+        "authService",
+        "router",
+        "registrationForm",
+        "registrationForm",
+        "registrationForm",
+        "registrationForm",
+        "registrationForm",
+        "registrationForm",
+        "registrationForm",
+        "registrationForm",
+        "registrationForm",
+        "newUser",
+        "newUser",
+        "onFailure",
+        "onFailure",
+        "alert",
+        "onFailure",
+        "onSuccess",
+        "onSuccess",
+        "alert",
+        "currentUser",
+        "currentUser",
+        "newUser",
+        "user",
+        "user"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/fire/database'",
+        "'@angular/fire/auth'",
+        "'../models/user'",
+        "'@angular/forms'",
+        "'@angular/router'",
+        "'root'",
+        "'user-list'",
+        "'firstName'",
+        "'lastName'",
+        "'gender'",
+        "'userName'",
+        "'password'",
+        "'birthdate'",
+        "'age'",
+        "'email'",
+        "'Failed registering new user for Firebase authentication. Reason: '",
+        "'Success registering new user for Firebase authentication. User:'",
+        "'Check your email for email address verification.'",
+        "'login'"
+    ],
+    "variables": [
+        "newUser"
+    ],
+    "comments": [
+        "1) add the user to Authentication Firebase.",
+        "2) add it to the database.",
+        "push it to the user list."
+    ],
+    "docstrings": [],
+    "functions": [
+        "addUser",
+        "usersList",
+        "updateUser"
+    ],
+    "classes": [
+        "UserService"
+    ]
+}

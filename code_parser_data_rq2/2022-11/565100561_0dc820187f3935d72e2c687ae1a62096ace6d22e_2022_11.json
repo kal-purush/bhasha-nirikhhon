@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "s",
+        "s",
+        "np",
+        "array",
+        "S",
+        "S",
+        "np",
+        "array",
+        "S",
+        "S",
+        "np",
+        "array",
+        "S",
+        "S",
+        "np",
+        "array",
+        "S",
+        "S",
+        "np",
+        "array",
+        "a",
+        "b",
+        "c",
+        "d",
+        "Pw"
+    ],
+    "literals": [],
+    "variables": [
+        "S",
+        "a",
+        "b",
+        "c",
+        "d",
+        "Pw"
+    ],
+    "comments": [
+        "STUDENT CODE START #####",
+        "STUDENT CODE END #####"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Estimate the world coordinates of the April tag corners, assuming the world origin\n    is at the center of the tag, and that the xy plane is in the plane of the April\n    tag with the z axis in the tag's facing direction. See world_setup.jpg for details.\n    Input:\n        s: side length of the April tag\n\n    Returns:\n        Pw: 4x3 numpy array describing the world coordinates of the April tag corners\n            in the order of a, b, c, d for row order. See world_setup.jpg for details.\n\n    \"\"\""
+    ],
+    "functions": [
+        "est_Pw"
+    ],
+    "classes": []
+}

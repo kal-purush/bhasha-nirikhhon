@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Component",
+        "bootstrap",
+        "FORM_DIRECTIVES",
+        "StudentTrackService",
+        "StudentService",
+        "StudentFormatter",
+        "Student",
+        "StudentTrack",
+        "Component",
+        "FORM_DIRECTIVES",
+        "StudentFormatter",
+        "studentService",
+        "studentTrackService",
+        "studentService",
+        "students",
+        "students",
+        "studentTrackService",
+        "studentTracks",
+        "studentTracks",
+        "form",
+        "form",
+        "form",
+        "form"
+    ],
+    "literals": [
+        "\"angular2/core\"",
+        "'angular2/platform/browser'",
+        "\"angular2/common\"",
+        "'./services/studenttrackservice'",
+        "'./services/studentservice'",
+        "'./pipes/studentformatter'",
+        "'./models/student'",
+        "'demo-form-sku'",
+        "<div class=\"trackform light-primary-color text-primary-color\"><h1 class=\"dark-primary-color text-primary-color\">Add studenttrack or student to track</h1>\n    <br/>\n    <form ... style=\"display:inline;margin-left:50px;\">\n    <span class=\"form-group\">\n      <label for=\"trackname\">Add a new track</label>\n      <input type=\"text\" class=\"form-control\" id=\"trackName\" placeholder=\"Track Name\" ... required />\n       <button type=\"submit\" class=\"btn btn-default\" ... >Add</button>\n    </span>\n   \n    </form>\n    <form ... style=\"float:right;margin-right:100px;\">\n    <span class=\"form-group\">\n      <label for=\"student\">Add Student</label>\n      <select name=\"student\" id=\"student\" ngControl=\"student\">\n        <option value=\"\">-select a student-</option>\n        <option *ngFor=\"#student of students\" ...>...</option>\n      </select>\n      <label for=\"track\">to track</label>\n     <select name=\"track\" id=\"student\" ngControl=\"track\" required>\n        <option value=\"\" selected>-select a track-</option>\n        <option *ngFor=\"#track of studentTracks\" ...>....</option>\n      </select>\n       <button type=\"submit\" class=\"btn btn-default\" ...>Add</button>\n    </span>\n    </form>\n    <br/><br/>\n    </div>",
+        ".trackform { border:1px solid black;margin:5px;padding:0px; }\n\t .trackform h1 { margin:0px;padding:15px;}"
+    ],
+    "variables": [],
+    "comments": [
+        "add a studenttrack to the studenttrack list",
+        "add the selected student to the selected studenttrack"
+    ],
+    "docstrings": [],
+    "functions": [
+        "onSubmitFormA",
+        "onSubmitFormB"
+    ],
+    "classes": [
+        "DemoFormSku"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "identifiers": [],
+    "literals": [
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Intent schema",
+        "* The name of the intent, default nameing convention is UpperCamelCase",
+        "* An optional display name for the intent, \"name\" will be used if left empty",
+        "* A list of the contexts the intent accepts. This will typically be a set of namespaced context types, e.g. \"org.symphony.contact\"",
+        "* Custom configuration for the intent that may be required for a particular desktop agent.",
+        "* Application schema, to be used in the AppDirectory for apps declaring supported intents\n* The full application definiton will be extended with properties defined in the AppDirectory WG",
+        "* List of the intents the application supports"
+    ],
+    "functions": [],
+    "classes": []
+}

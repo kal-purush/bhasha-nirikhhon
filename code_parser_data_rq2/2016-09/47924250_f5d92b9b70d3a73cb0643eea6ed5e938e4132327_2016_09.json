@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour"
+    ],
+    "literals": [],
+    "variables": [
+        "meter",
+        "kilometer",
+        "megameter",
+        "gigameter",
+        "terameter",
+        "petameter",
+        "exameter",
+        "zetameter",
+        "yottameter",
+        "au",
+        "pi",
+        "luminosityOfSun",
+        "massOfSun",
+        "radiusOfSun",
+        "massOfJupiter",
+        "radiusOfJupiter",
+        "massOfEarth",
+        "radiusOfEarth"
+    ],
+    "comments": [
+        "meters, IAU 2012 Resolution B2",
+        "public const double parsec = // Can be derived from au",
+        "public const double kiloparsec = // Can be derived from au",
+        "watts\t\tAllen's Astrophysical Quantities 4th Ed.",
+        "kilograms\tAllen's Astrophysical Quantities 4th Ed.",
+        "meters\t\tAllen's Astrophysical Quantities 4th Ed.",
+        "kilograms\tAllen's Astrophysical Quantities 4th Ed.",
+        "meters\t\tAllen's Astrophysical Quantities 4th Ed.",
+        "kilograms\tAllen's Astrophysical Quantities 4th Ed.",
+        "meters\t\tAllen's Astrophysical Quantities 4th Ed."
+    ],
+    "docstrings": [
+        "* We statically assign the size of each scale so that we can\n\t * quickly access the different scale sizes",
+        "* Create the astronomical constants in SI units\n\t * https://github.com/astropy/astropy/blob/master/astropy/constants/si.py"
+    ],
+    "functions": [],
+    "classes": [
+        "Contstants"
+    ]
+}

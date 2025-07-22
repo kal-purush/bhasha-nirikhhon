@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Showreviewctrl",
+        "id",
+        "id",
+        "$",
+        "json",
+        "s",
+        "json",
+        "$",
+        "s",
+        "Showreviewctrl",
+        "id",
+        "id",
+        "$",
+        "json",
+        "s",
+        "json",
+        "$",
+        "s",
+        "Showreviewctrl",
+        "id",
+        "txt",
+        "$",
+        "Showreviewctrl",
+        "shre",
+        "shre",
+        "shre"
+    ],
+    "literals": [
+        "\"subject.php\"",
+        "\"getTitle\"",
+        "'#subjects'",
+        "'editreview.html'",
+        "\"subject.php\"",
+        "\"getTitle\"",
+        "'#subjects'",
+        "'<li>'",
+        "'</li>'",
+        "'subjectlist.html'",
+        "\"edit\"",
+        "\"_close\""
+    ],
+    "variables": [
+        "shre",
+        "TransitionSource"
+    ],
+    "comments": [
+        "$.getJSON(\"student.php\",{method:\"subjects\"},function(json){\n    for(var s of json){\n        $('#subjects').append('<li>'+s+'</li>');\n    }\n});"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Showreviewctrl"
+    ],
+    "classes": []
+}

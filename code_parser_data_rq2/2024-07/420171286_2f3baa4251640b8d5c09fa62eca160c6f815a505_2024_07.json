@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "WorkflowOperationError",
+        "Project",
+        "INode",
+        "WorkflowOperationError",
+        "areOwnedBySameProject",
+        "subworkflowProject",
+        "subworkflowId",
+        "subworkflowId",
+        "node",
+        "description"
+    ],
+    "literals": [
+        "'n8n-workflow'",
+        "'@/databases/entities/Project'",
+        "'n8n-workflow'",
+        "string",
+        "'Change the settings of the sub-workflow so it can be called by this one.'",
+        "An admin for the ${subworkflowProject.name} project can make this change. You may need to tell them the ID of the sub-workflow, which is ${subworkflowId}",
+        "Target workflow ID ${subworkflowId} may not be called"
+    ],
+    "variables": [
+        "description"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "SubworkflowPolicyDenialError"
+    ]
+}

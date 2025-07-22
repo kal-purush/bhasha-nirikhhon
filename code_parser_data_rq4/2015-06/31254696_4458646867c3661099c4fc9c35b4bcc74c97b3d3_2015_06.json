@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "geopy",
+        "geocoders",
+        "Nominatim",
+        "geocoder",
+        "address",
+        "Nominatim",
+        "geolocator",
+        "geocode",
+        "address",
+        "geocoder",
+        "elevation",
+        "address",
+        "time",
+        "sleep",
+        "location",
+        "latitude",
+        "location",
+        "longitude",
+        "ele",
+        "meters"
+    ],
+    "literals": [
+        "'Service timed out'",
+        "'Service timed out'"
+    ],
+    "variables": [
+        "geolocator",
+        "location",
+        "ele"
+    ],
+    "comments": [
+        "",
+        "Function to determine latitude, longitude and elevation given location place name details.",
+        "Details are returned as a list.",
+        "For example if called as:",
+        "loc = get_coords(\"My Gliding Club UK\")",
+        "then:",
+        "latitude = loc[0], longitude = loc[1], elevation = loc[2]",
+        "",
+        "",
+        "loc = get_coords(\"Yorkshire Gliding Club UK\")",
+        "print \"latitude: \", loc[0], \" longitude: \", loc[1], \" elevation: \", loc[2]"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_coords"
+    ],
+    "classes": []
+}

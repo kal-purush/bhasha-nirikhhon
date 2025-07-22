@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "Entity",
+        "CampaignDeviceMetadataDeploymentState"
+    ],
+    "literals": [
+        "\"../../../common/entity\"",
+        "\"./types\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*CampaignDeviceMetadata",
+        "*The device's campaign ID\n     *@example 015bf72fccda00000000000100100280",
+        "*The time the campaign was created\n     *@example 2017-05-22T12:37:55.576563Z",
+        "*The state of the update campaign on the device",
+        "*Description",
+        "*The device ID\n     *@example 015c2fec9bba0000000000010010036f",
+        "*How the firmware is delivered (connector or direct)\n     *@example connector",
+        "*The Device Management Connect URL",
+        "*The record name\n     *@example default_object_name",
+        "*The record was modified in the database format: date-time\n     *@example 2017-05-22T12:37:58.776736Z"
+    ],
+    "functions": [],
+    "classes": []
+}

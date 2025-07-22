@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "NextRequest",
+        "NextResponse",
+        "nodemailer",
+        "req",
+        "req",
+        "process",
+        "EMAIL_HOST",
+        "USER_EMAIL_TO",
+        "nodemailer",
+        "parseInt",
+        "EMAIL_PORT",
+        "USER_EMAIL",
+        "USER_EMAIL_PASS",
+        "USER_EMAIL",
+        "USER_EMAIL_TO",
+        "email",
+        "message",
+        "name",
+        "phone",
+        "transporter",
+        "mailOptions",
+        "NextResponse",
+        "err",
+        "err",
+        "NextResponse"
+    ],
+    "literals": [
+        "\"next/server\"",
+        "\"nodemailer\"",
+        "\"Outlook365\"",
+        "\"SSLv3\"",
+        "\"Contato - QuinteraTI\"",
+        "<h3>De: ${email}</h3>\n        <p>${message}<p/>\n        <footer>\n          Atenciosamente ${name} - ${phone} \n        <footer/>",
+        "\"E-mail enviado com sucesso\"",
+        "\"Erro ao enviar e-mail\""
+    ],
+    "variables": [
+        "transporter",
+        "mailOptions"
+    ],
+    "comments": [
+        "POST req to submit email",
+        "Para produção, use variáveis de ambiente para as credenciais",
+        "host: EMAIL_HOST,",
+        "ignoreTLS: true,",
+        "Opções do e-mail"
+    ],
+    "docstrings": [],
+    "functions": [
+        "POST"
+    ],
+    "classes": []
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "com",
+        "atguigu",
+        "www",
+        "sync",
+        "java",
+        "util",
+        "java",
+        "util",
+        "java",
+        "util",
+        "UUID",
+        "SuppressWarnings",
+        "args",
+        "i",
+        "i",
+        "i",
+        "add",
+        "UUID",
+        "randomUUID",
+        "toString",
+        "substring",
+        "valueOf",
+        "i",
+        "start"
+    ],
+    "literals": [
+        "\"all\""
+    ],
+    "variables": [],
+    "comments": [
+        "i<3次数少时能明显看出数据丢失"
+    ],
+    "docstrings": [
+        "* ArrayList集合是不行的，如果多线程同时添加元素，有可能产生线程安全问题造成数据丢失，程序也有可能报错。\n * 例如：一个线知程正准备往进去写数据，突然切到另一个线程它先写了进入，在切回来这个线程并不道这个位置已经写入了数据，\n * 所以它还是会傻傻的写入数据，这样另一个线程的数据就被覆盖了。\n * 如果是一边添加 ，一边遍历的话程序会产生ConcurrentModificationException异常。"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "NotifyWaitDemo"
+    ]
+}

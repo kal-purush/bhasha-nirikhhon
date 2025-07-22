@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "__",
+        "useBlockProps",
+        "InnerBlocks",
+        "div",
+        "useBlockProps",
+        "InnerBlocks",
+        "div"
+    ],
+    "literals": [
+        "\"@wordpress/i18n\"",
+        "\"@wordpress/block-editor\"",
+        "\"./editor.scss\"",
+        "\"core/paragraph\"",
+        "\"core/heading\"",
+        "\"core/paragraph\"",
+        "\"Write a paragraph...\"",
+        "\"core/heading\"",
+        "\"Write a heading...\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Retrieves the translation of text.\n *\n * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-i18n/",
+        "* React hook that is used to mark the block wrapper element.\n * It provides all the necessary props like the class name.\n *\n * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops",
+        "* Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.\n * Those files can contain any CSS code that gets applied to the editor.\n *\n * @see https://www.npmjs.com/package/@wordpress/scripts#using-css",
+        "* The edit function describes the structure of your block in the context of the\n * editor. This represents what the editor will render when the block is used.\n *\n * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-edit-save/#edit\n *\n * @return {Element} Element to render."
+    ],
+    "functions": [
+        "Edit"
+    ],
+    "classes": []
+}

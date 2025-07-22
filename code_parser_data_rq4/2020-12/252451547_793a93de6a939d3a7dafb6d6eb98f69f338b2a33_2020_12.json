@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "OnInit",
+        "Collaborator",
+        "environment",
+        "Component",
+        "Input",
+        "projectId",
+        "environment"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'src/app/models/domain/collaborator'",
+        "'src/environments/environment'",
+        "'app-collaborator'",
+        "'./collaborator.component.html'",
+        "'./collaborator.component.scss'"
+    ],
+    "variables": [],
+    "comments": [
+        "TODO: Implement this function when following users is added to the backend"
+    ],
+    "docstrings": [
+        "* Method that is called when a user clicks the follow button on a collaborator\n   * This functionality is not implemented YET",
+        "* Check whether the the application is running in production mode\n   * So we can hide the items that are not implemented yet"
+    ],
+    "functions": [
+        "ngOnInit",
+        "onFollowClick",
+        "isProduction"
+    ],
+    "classes": [
+        "CollaboratorComponent"
+    ]
+}

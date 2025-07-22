@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "ActivatedRoute",
+        "OrdersService",
+        "ORDER_STATUS",
+        "MessageService",
+        "Component",
+        "ORDER_STATUS",
+        "orderService",
+        "route",
+        "messageService",
+        "order",
+        "order",
+        "order"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router'",
+        "'@ghost/orders'",
+        "'primeng/api'",
+        "'ngshop-user-orders'",
+        "'./user-orders.component.html'",
+        "''",
+        "'success'",
+        "'Success'",
+        "Order is update",
+        "'error'",
+        "'Error'",
+        "'Order is not Updated'"
+    ],
+    "variables": [],
+    "comments": [
+        "eslint-disable @angular-eslint/no-empty-lifecycle-method"
+    ],
+    "docstrings": [
+        "* Methode qui permet de récupérer une commande\n     * Récuperation de l'ID depuis l'URL\n     * @return Order",
+        "* Methode qui écoute les changements de la DropDown\n     * @param event nouveau status choisi par l'Utilisateur"
+    ],
+    "functions": [
+        "ngOnInit",
+        "_getOrder",
+        "onStatusChange"
+    ],
+    "classes": [
+        "UserOrdersComponent"
+    ]
+}

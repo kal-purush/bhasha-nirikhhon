@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "BaseRepository",
+        "IUseCaseFactory",
+        "StorageNames",
+        "SaleDto",
+        "checkInternet",
+        "thorApi",
+        "saleRepository",
+        "BaseRepository",
+        "StorageNames",
+        "checkInternet",
+        "hasInternet",
+        "thorApi",
+        "cpf",
+        "content",
+        "GetCustomerByCpf"
+    ],
+    "literals": [
+        "\"../../repository/baseRepository\"",
+        "\"../useCaseFactory.interface\"",
+        "\"../../repository/storageNames\"",
+        "\"../../models/gestor\"",
+        "\"../../providers/internetConnection\"",
+        "\"../../providers/thorApi\"",
+        "string",
+        "/customer/find_user/${cpf}"
+    ],
+    "variables": [
+        "hasInternet",
+        "getCustomerByCpf"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "execute"
+    ],
+    "classes": [
+        "GetCustomerByCpf"
+    ]
+}

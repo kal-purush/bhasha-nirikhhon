@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "br",
+        "atletismo",
+        "controle",
+        "java",
+        "io",
+        "java",
+        "util",
+        "java",
+        "util",
+        "java",
+        "util",
+        "Random",
+        "javax",
+        "servlet",
+        "RequestDispatcher",
+        "javax",
+        "servlet",
+        "ServletException",
+        "javax",
+        "servlet",
+        "annotation",
+        "WebServlet",
+        "javax",
+        "servlet",
+        "http",
+        "HttpServlet",
+        "javax",
+        "servlet",
+        "http",
+        "HttpServletRequest",
+        "javax",
+        "servlet",
+        "http",
+        "HttpServletResponse",
+        "br",
+        "atletismo",
+        "dominio",
+        "Atleta",
+        "WebServlet",
+        "serialVersionUID",
+        "request",
+        "response"
+    ],
+    "literals": [
+        "\"/AtletaControler\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "ist<Atleta> atleta = (List<Atleta>)getServletContext().getAttribute(\"Atletas\");\n\t\tif (atleta == null){\n\t\t\tatleta = new ArrayList<Atleta>();\n\t\t\tgetServletContext().setAttribute(\"Atletas\", atleta);\n\t\t}\n\t\t\n\t\tString nome = request.getParameter(\"nome\");\n\t\tString sexo = request.getParameter(\"sexo\");\n\t\tString cmd = request.getParameter(\"cmd\");\n\t\t\n\t\tString msg = \"oi\";\n\t\t\n\t\tif (\"Cadastrar\".equals(cmd)){\n\t\t\tAtleta at = new Atleta();\n\t\t\tat.setNome(nome);\n\t\t\tat.setSexo(sexo);\n\t\t\t\n\t\t\tatleta.add(at);\n\t\t\t\n\t\t\tmsg = \"Seu cadastro foi realizado com sucesso!!!\";\n\t\t}\n\t\t\n\t\trequest.setAttribute(\"Mensagem\", msg);\n\t\t\n\t\tRequestDispatcher rd = request.getRequestDispatcher(\"./AtletaCadastro.jsp\");\n\t\trd.forward(request, response);"
+    ],
+    "functions": [
+        "AtletaControler",
+        "doPost"
+    ],
+    "classes": [
+        "AtletaControler"
+    ]
+}

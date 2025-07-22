@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Saltarelle",
+        "Compiler",
+        "LiftType",
+        "Regular",
+        "Comparison",
+        "Equality",
+        "Inequality"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Describes the kind of lift that is supposed to be performed by <see cref=\"IRuntimeLibrary.Lift\"/>",
+        "</summary>",
+        "A regular lift, ie. return null if any of the operands is null.",
+        "</summary>",
+        "A comparison lift (except except for == / !=), ie. return false if any of the operands is null.",
+        "</summary>",
+        "A lift of the == operator, ie. return true if all values are null, otherwise false if any value is null.",
+        "</summary>",
+        "A lift of the != operator, ie. return false if all values are null, otherwise true if any value is null.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": []
+}

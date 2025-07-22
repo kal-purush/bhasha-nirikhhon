@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "com",
+        "tictaeto",
+        "x_project",
+        "db",
+        "android",
+        "content",
+        "Context",
+        "android",
+        "database",
+        "sqlite",
+        "SQLiteDatabase",
+        "android",
+        "database",
+        "sqlite",
+        "SQLiteOpenHelper",
+        "context",
+        "context",
+        "Override",
+        "db",
+        "db",
+        "execSQL",
+        "db",
+        "execSQL",
+        "db",
+        "execSQL",
+        "db",
+        "execSQL",
+        "Override",
+        "db",
+        "oldVersion",
+        "newVersion"
+    ],
+    "literals": [
+        "\"db\"",
+        "\"create table chat(id integer primary key autoincrement,chat_contact_id, name text, photo_id integer)\"",
+        "\"create table message(id integer primary key autoincrement, chat_id integer, contact_id integer, content text)\"",
+        "\"create table contact(id integer primary key autoincrement, chat_contact_id integer, name text, )\"",
+        "\"create table chat_contact(chat_id integer, contact_id integer)\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Created by DEN on 30.08.2015."
+    ],
+    "functions": [
+        "DBHelper",
+        "onCreate",
+        "onUpgrade"
+    ],
+    "classes": [
+        "DBHelper"
+    ]
+}

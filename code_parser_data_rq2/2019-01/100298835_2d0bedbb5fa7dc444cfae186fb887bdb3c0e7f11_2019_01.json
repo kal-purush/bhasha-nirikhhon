@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "cp",
+        "glob",
+        "gulp",
+        "decompress",
+        "download",
+        "os",
+        "path",
+        "path",
+        "os",
+        "version",
+        "glob",
+        "extensionPath",
+        "version",
+        "existingExtensions",
+        "download",
+        "version",
+        "decompress",
+        "file",
+        "file",
+        "file",
+        "file",
+        "file",
+        "file",
+        "gulp",
+        "extensionPath",
+        "process",
+        "env",
+        "env",
+        "env",
+        "path",
+        "__dirname",
+        "cp",
+        "exports",
+        "gulp",
+        "installAzureAccount",
+        "test"
+    ],
+    "literals": [
+        "'child_process'",
+        "'glob'",
+        "'gulp'",
+        "'gulp-decompress'",
+        "'gulp-download'",
+        "'os'",
+        "'path'",
+        "'0.4.3'",
+        ".vscode/extensions/ms-vscode.azure-account-${version}",
+        "'*'",
+        "http://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/azure-account/${version}/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "'extension/'",
+        "\"Azure Account extension already installed.\"",
+        "'1'",
+        "'mocha-junit-reporter'",
+        "'test-results.xml'",
+        "'node'",
+        "'./node_modules/vscode/bin/test'",
+        "'inherit'"
+    ],
+    "variables": [
+        "version",
+        "extensionPath",
+        "existingExtensions",
+        "env"
+    ],
+    "comments": [
+        "---------------------------------------------------------------------------------------------\n *  Copyright (c) Microsoft Corporation. All rights reserved.\n *  Licensed under the MIT License. See License.txt in the project root for license information.\n *--------------------------------------------------------------------------------------------",
+        "tslint:disable-next-line:no-http-string",
+        "We need to signal to gulp that we've completed this async task"
+    ],
+    "docstrings": [
+        "* Installs the azure account extension before running tests (otherwise our extension would fail to activate)\n * NOTE: The version isn't super important since we don't actually use the account extension in tests"
+    ],
+    "functions": [
+        "installAzureAccount",
+        "test"
+    ],
+    "classes": []
+}

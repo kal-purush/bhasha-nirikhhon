@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "cmdm",
+        "cm",
+        "am",
+        "Q",
+        "cmdm",
+        "Parse",
+        "cmdm",
+        "args",
+        "options",
+        "cm",
+        "Q",
+        "Q",
+        "args",
+        "process",
+        "process",
+        "process",
+        "data",
+        "contents",
+        "data",
+        "process",
+        "contents",
+        "process",
+        "eval",
+        "defer",
+        "err",
+        "err",
+        "Q",
+        "defer",
+        "creds",
+        "am"
+    ],
+    "literals": [
+        "'../lib/tfcommand'",
+        "'../lib/common'",
+        "'../lib/auth'",
+        "'q'",
+        "string",
+        "'parse json by piping json result from another tfx command'",
+        "string",
+        "'<jsonFilter>'",
+        "string",
+        "'filter is required'",
+        "''",
+        "'utf8'",
+        "'data'",
+        "'end'",
+        "'obj'"
+    ],
+    "variables": [
+        "isServerOperation",
+        "hideBanner",
+        "defer",
+        "contents",
+        "obj"
+    ],
+    "comments": [
+        "export ID=tfx build get 5 | tfx parse .id",
+        "export ID=tfx build query --top 1 | tfx parse [0].id",
+        "this just offers description for help and to offer sub commands",
+        "doesn't require auth, connect etc...",
+        "since this is parsing and assign output to script variable, we can't have banner showing",
+        "not s server operation"
+    ],
+    "docstrings": [],
+    "functions": [
+        "describe",
+        "argsFormat",
+        "getCommand",
+        "exec",
+        "output"
+    ],
+    "classes": [
+        "Parse"
+    ]
+}

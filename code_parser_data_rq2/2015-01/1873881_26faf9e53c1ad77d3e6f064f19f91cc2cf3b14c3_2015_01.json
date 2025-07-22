@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "org",
+        "nutz",
+        "mvc",
+        "adaptor",
+        "java",
+        "lang",
+        "reflect",
+        "Type",
+        "Override",
+        "pm",
+        "datefmt",
+        "clazz",
+        "paramTypes",
+        "pm",
+        "datefmt",
+        "clazz",
+        "paramTypes"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* 普通的 HTTP 请求当调用 req.getParameterValues 时，会读请求体。 这个适配器将只从 QueryString\n * 读取请求参数，这样对用 HTML5 的上传流，可以不破坏其结构\n * \n * @author zozoh(zozohtnt@gmail.com)"
+    ],
+    "functions": [
+        "ParamInjector",
+        "getNameInjector"
+    ],
+    "classes": [
+        "QueryStringAdaptor"
+    ]
+}

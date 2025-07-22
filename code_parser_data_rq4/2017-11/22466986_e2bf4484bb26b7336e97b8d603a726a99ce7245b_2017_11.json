@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "require",
+        "ContentEvent",
+        "ContentEvent",
+        "domainId",
+        "faker",
+        "faker",
+        "lorem",
+        "lorem",
+        "faker",
+        "address",
+        "address",
+        "address"
+    ],
+    "literals": [
+        "'use strict'",
+        "'faker/locale/en'",
+        "'2016-01-01'",
+        "'2019-01-01'",
+        "${address.streetAddress()}, ${address.city()}, ${address.stateAbbr()}"
+    ],
+    "variables": [
+        "faker",
+        "address",
+        "lorem"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

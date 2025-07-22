@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "onActivated",
+        "onMounted",
+        "elName",
+        "getEl",
+        "el",
+        "onMounted",
+        "getEl",
+        "onActivated",
+        "getEl",
+        "el",
+        "scrollTop"
+    ],
+    "literals": [
+        "'vue'",
+        "string",
+        "'.game-app'"
+    ],
+    "variables": [
+        "scrollTop",
+        "getEl",
+        "el",
+        "el",
+        "el"
+    ],
+    "comments": [
+        "onDeactivated(() => {",
+        "const el = getEl()",
+        "scrollTop.value = el!.scrollTop",
+        "console.log(scrollTop.value)",
+        "})",
+        "console.log(el)",
+        "el.addEventListener('scroll', (e) => {",
+        "scrollTop.value = (e.target as any).scrollTop",
+        "console.log(scrollTop.value)",
+        "})"
+    ],
+    "docstrings": [],
+    "functions": [
+        "usePagePosition"
+    ],
+    "classes": []
+}

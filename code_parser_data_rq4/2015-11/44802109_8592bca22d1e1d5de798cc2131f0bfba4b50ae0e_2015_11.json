@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "name",
+        "weight",
+        "likes",
+        "name",
+        "weight",
+        "likes",
+        "init",
+        "Pet",
+        "pickles",
+        "picklesJSON",
+        "picklesJSON",
+        "anotherPickles",
+        "Pet",
+        "pickles",
+        "tilla",
+        "petsArray"
+    ],
+    "literals": [
+        "\"cat\"",
+        "\"Pickles\"",
+        "\"sleeping\"",
+        "\"purring\"",
+        "\"eating butter\"",
+        "\"dog\"",
+        "\"Tilla\"",
+        "\"sleeping\"",
+        "\"eating\"",
+        "\"walking\""
+    ],
+    "variables": [
+        "pickles",
+        "picklesJSON",
+        "anotherPickles",
+        "tilla",
+        "petsArray",
+        "petsArrayJSON"
+    ],
+    "comments": [
+        "Exercise 1",
+        "var springColors = [ \"AF7575\", \"EFD8A1\", \"BCD693\", \"AFD7DB\", \"3D9CA8\" ];",
+        "var temperatures = [ 47.5, 63.2, 56.7, 53, 51.2 ];",
+        "var pickles = {",
+        "type: \"cat\",",
+        "name: \"Pickles\",",
+        "weight: 7,",
+        "likes: [\"sleeping\", \"purring\", \"eating butter\"]",
+        "};",
+        "window.onload = init;",
+        "",
+        "function init() {",
+        "console.log(springColors);",
+        "console.log(temperatures);",
+        "console.log(pickles);",
+        "}",
+        "Exercise 2",
+        "console.log(pickles);",
+        "console.log(tilla);",
+        "var tillaJSON = JSON.stringify(tilla);",
+        "console.log(tillaJSON);",
+        "console.log(petsArrayJSON);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Pet",
+        "init"
+    ],
+    "classes": []
+}

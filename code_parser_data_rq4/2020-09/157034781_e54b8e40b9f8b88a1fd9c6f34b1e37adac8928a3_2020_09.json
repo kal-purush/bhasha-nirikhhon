@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "ITyperighterTelemetryEvent",
+        "ISuggestionAcceptedEvent",
+        "TYPERIGHTER_TELEMETRY_TYPE",
+        "IMarkAsCorrectEvent",
+        "ISidebarClickEvent",
+        "sendTelemetryEvent",
+        "app",
+        "stage",
+        "tags",
+        "TYPERIGHTER_TELEMETRY_TYPE",
+        "tags",
+        "TYPERIGHTER_TELEMETRY_TYPE",
+        "tags",
+        "TYPERIGHTER_TELEMETRY_TYPE",
+        "tags",
+        "TYPERIGHTER_TELEMETRY_TYPE",
+        "tags",
+        "TYPERIGHTER_TELEMETRY_TYPE",
+        "tags",
+        "TYPERIGHTER_TELEMETRY_TYPE",
+        "TyperighterTelemetryAdapter"
+    ],
+    "literals": [
+        "\"../interfaces/ITelemetryData\"",
+        "string",
+        "string",
+        "\"tags\"",
+        "\"tags\"",
+        "\"tags\"",
+        "\"tags\"",
+        "\"tags\"",
+        "\"tags\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "suggestionIsAccepted",
+        "matchIsMarkedAsCorrect",
+        "documentIsChecked",
+        "typerighterIsOpened",
+        "typerighterIsClosed",
+        "sidebarMatchClicked"
+    ],
+    "classes": [
+        "TyperighterTelemetryAdapter"
+    ]
+}

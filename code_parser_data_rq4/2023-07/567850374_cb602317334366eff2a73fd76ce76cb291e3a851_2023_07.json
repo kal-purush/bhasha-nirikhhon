@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "IO",
+        "PraticasComArquivos",
+        "args",
+        "sr",
+        "File",
+        "OpenText",
+        "sourcePath",
+        "sr",
+        "ReadToEnd",
+        "WriteLine",
+        "s",
+        "ex",
+        "WriteLine",
+        "sr",
+        "sr",
+        "Close"
+    ],
+    "literals": [
+        "\"Deu Ruim!\""
+    ],
+    "variables": [
+        "sourcePath",
+        "StreamReader",
+        "sr",
+        "s"
+    ],
+    "comments": [
+        "FileStream fs = null;",
+        "fs = new FileStream(sourcePath, FileMode.Open);",
+        "Forma mais limpa",
+        "if (fs != null) fs.Close();"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Main"
+    ],
+    "classes": [
+        "Program"
+    ]
+}

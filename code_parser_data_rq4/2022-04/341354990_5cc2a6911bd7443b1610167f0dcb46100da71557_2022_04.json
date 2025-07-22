@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Hkmp",
+        "Eventing",
+        "Hkmp",
+        "Api",
+        "Eventing",
+        "EventSubscription",
+        "EventSubscription",
+        "SubscriptionToken",
+        "token",
+        "_subscriptions",
+        "FirstOrDefault",
+        "t",
+        "SubscriptionToken",
+        "Equals",
+        "token",
+        "sub",
+        "_subscriptions",
+        "Remove",
+        "sub",
+        "Action",
+        "strategy",
+        "EventSubscription",
+        "SubscriptionToken",
+        "Unsubscribe",
+        "strategy",
+        "_subscriptions",
+        "Add",
+        "sub",
+        "sub",
+        "SubscriptionToken",
+        "payload",
+        "subscription",
+        "_subscriptions",
+        "subscription",
+        "ExecutionStrategy",
+        "payload"
+    ],
+    "literals": [],
+    "variables": [
+        "_subscriptions",
+        "sub",
+        "sub"
+    ],
+    "comments": [
+        "Base type for all events.",
+        "</summary>",
+        "List containing event subscriptions for this event.",
+        "</summary>",
+        "Unsubscribes an action from the event by its token.",
+        "</summary>",
+        "<param name=\"token\">The token that denotes the subscription.</param>",
+        "Internal implementation of subscribe, with types erased.",
+        "</summary>",
+        "<param name=\"strategy\">The strategy to execute when an event is triggered.</param>",
+        "<returns>A token that represents this subscription and can be used to unsubscribe.</returns>",
+        "Internal implementation of publish, with types erased.",
+        "</summary>",
+        "<param name=\"payload\">The payload object to publish.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Unsubscribe",
+        "SubscriptionToken",
+        "SubscribeInternal",
+        "PublishInternal"
+    ],
+    "classes": [
+        "EventBase"
+    ]
+}

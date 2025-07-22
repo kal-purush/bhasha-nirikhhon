@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "com",
+        "pi4j",
+        "catalog",
+        "com",
+        "pi4j",
+        "context",
+        "Context",
+        "java",
+        "util",
+        "logging",
+        "Logger",
+        "Application",
+        "pi4j",
+        "getClass",
+        "getSimpleName",
+        "getClass",
+        "getName",
+        "milliseconds",
+        "sleep",
+        "milliseconds",
+        "e",
+        "currentThread",
+        "interrupt",
+        "logger",
+        "Logger",
+        "getLogger",
+        "msg",
+        "logger",
+        "info",
+        "msg",
+        "msg",
+        "logger",
+        "severe",
+        "msg"
+    ],
+    "literals": [
+        "\"Pi4J-App\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This interface should be implemented by each CrowPi example / application",
+        "* Represents the main application entrypoint called by the launcher.\n     * This should execute whatever the application is supposed to do.\n     *\n     * @param pi4j Pi4J context",
+        "* Returns a unique name which is used to determine how the application can be called.\n     * This uses the simple class name by default, so that the application has the same name as its class.\n     *\n     * @return Unique application name",
+        "* Returns a human-readable description what this application is doing.\n     * This returns a short explanation together with the class FQDN by default.\n     *\n     * @return Human-readable application description",
+        "* Utility function to sleep for the specified amount of milliseconds.\n     * An {@link InterruptedException} will be catched and ignored while setting the interrupt flag again.\n     *\n     * @param milliseconds Time in milliseconds to sleep",
+        "* Logger instance"
+    ],
+    "functions": [
+        "execute",
+        "getName",
+        "getDescription",
+        "delay",
+        "logInfo",
+        "logError"
+    ],
+    "classes": []
+}

@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Injectable",
+        "FavorRequest",
+        "environment",
+        "HttpClient",
+        "Observable",
+        "Favor",
+        "Injectable",
+        "environment",
+        "http",
+        "favor",
+        "favor"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../../interfaces/favor-request'",
+        "'../../../environments/environment'",
+        "'@angular/common/http'",
+        "'rxjs'",
+        "'../../interfaces/entities/favor'",
+        "'root'",
+        "string",
+        "string",
+        "${this.baseApiUrl}/favor_request"
+    ],
+    "variables": [],
+    "comments": [
+        "async createTalent(talent: Talent): Promise<Talent> {\n    const userId = this.userService.getLocalUser()!.id;\n    const url = `${this.apiResourceUrl}/user/${userId}`;\n    const newTalent = await lastValueFrom(this.http.post<Talent>(url, talent));\n    return newTalent;\n  }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getFavorRequests",
+        "postFavorRequest"
+    ],
+    "classes": [
+        "FavorService"
+    ]
+}

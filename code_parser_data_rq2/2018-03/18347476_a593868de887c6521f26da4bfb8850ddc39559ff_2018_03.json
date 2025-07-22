@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "com",
+        "google",
+        "samples",
+        "apps",
+        "iosched",
+        "shared",
+        "di",
+        "java",
+        "lang",
+        "annotation",
+        "Documented",
+        "java",
+        "lang",
+        "annotation",
+        "Retention",
+        "java",
+        "lang",
+        "annotation",
+        "RetentionPolicy",
+        "javax",
+        "inject",
+        "Scope",
+        "Documented",
+        "Scope",
+        "Retention",
+        "RetentionPolicy",
+        "RUNTIME",
+        "ActivityScoped"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2018 Google LLC\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     https://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* By default, if no scope annotation is present, the injector creates an instance , uses the\n * instance for one injection, and then forgets it. If a scope annotation is present, the\n * injector may retain the instance for possible reuse in a later injection.\n * (from: https://docs.oracle.com/javaee/6/api/javax/inject/Scope.html)\n *\n * Scopes TL;DR:\n * No scope = new instance created every time\n * [@Singleton] = only one instance\n * [@CustomScope] = instance reused depending on the component’s lifecycle\n *\n * In Dagger, an unscoped component cannot depend on a scoped component. As\n * AppComponent is a scoped component ({@code @Singleton}, we create a custom\n * scope to be used by all fragment components. Additionally, a component with a specific scope\n * cannot have a sub component with the same scope.\n *\n * The ActivityScoped scoping annotation specifies that the lifespan of a dependency be the same\n * as that of an Activity. This is used to annotate dependencies that behave like a singleton\n * within the lifespan of an Activity.\n *\n * [@Singleton] is used to specify that the lifespan of a dependency be the same as that of the\n * Application."
+    ],
+    "functions": [],
+    "classes": []
+}

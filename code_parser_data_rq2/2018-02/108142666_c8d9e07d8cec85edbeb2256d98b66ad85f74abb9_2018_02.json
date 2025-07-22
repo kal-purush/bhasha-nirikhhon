@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "fetch",
+        "Claim",
+        "promisify",
+        "promisify",
+        "setTimeout",
+        "url",
+        "url",
+        "id",
+        "fetch",
+        "id",
+        "publicKey",
+        "fetch",
+        "publicKey",
+        "claim",
+        "fetch",
+        "claim",
+        "delay"
+    ],
+    "literals": [
+        "'node-fetch'",
+        "'poet-js'",
+        "'util'",
+        "string",
+        "string",
+        "'http://localhost:18080'",
+        "string",
+        "'/works/'",
+        "string",
+        "'/works/?publicKey='",
+        "'/works/'",
+        "'POST'",
+        "'Accept'",
+        "'application/json'",
+        "'Content-Type'",
+        "'application/json'"
+    ],
+    "variables": [
+        "delay"
+    ],
+    "comments": [],
+    "docstrings": [
+        "*  Give the Node 300ms for the messages to be passed around and responded internally.\n *  Not particularly deterministic, but we can expect something to be wrong if integration\n *  tests cause such big delays."
+    ],
+    "functions": [
+        "getWork",
+        "getWorksByPublicKey",
+        "postWork",
+        "waitForNode"
+    ],
+    "classes": [
+        "Client"
+    ]
+}

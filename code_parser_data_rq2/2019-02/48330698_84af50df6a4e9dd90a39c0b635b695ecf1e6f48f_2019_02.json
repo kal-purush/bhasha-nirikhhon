@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Issue",
+        "ABAPRule",
+        "ABAPFile",
+        "BasicRuleConfig",
+        "ExecSQL",
+        "BasicRuleConfig",
+        "ABAPRule",
+        "NoExecSQLConf",
+        "file",
+        "statement",
+        "file",
+        "statement",
+        "ExecSQL",
+        "statement",
+        "Issue",
+        "issues",
+        "issue",
+        "issues",
+        "conf",
+        "conf"
+    ],
+    "literals": [
+        "\"../issue\"",
+        "\"./_abap_rule\"",
+        "\"../files\"",
+        "\"./_basic_rule_config\"",
+        "\"../abap/statements\"",
+        "string",
+        "\"no_exec_sql\"",
+        "string",
+        "\"No EXEC SQL\""
+    ],
+    "variables": [
+        "issues",
+        "start",
+        "issue"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getKey",
+        "getDescription",
+        "runParsed",
+        "getConfig",
+        "setConfig"
+    ],
+    "classes": [
+        "NoExecSQLConf",
+        "NoExecSQL"
+    ]
+}

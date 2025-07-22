@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "revalidatePath",
+        "revalidateTag",
+        "path",
+        "path",
+        "revalidatePath",
+        "path",
+        "revalidatePath",
+        "path",
+        "path",
+        "revalidatePath",
+        "error",
+        "error",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'use server'",
+        "'next/cache'",
+        "'next/cache'",
+        "string",
+        "'path'",
+        "'layout'",
+        "'path'",
+        "'path'",
+        "'layout'",
+        "Successfully revalidated ${path}",
+        "'/'",
+        "'layout'",
+        "'Successfully revalidated entire cache'",
+        "'Revalidation error:'",
+        "'Unknown revalidation error'"
+    ],
+    "variables": [],
+    "comments": [
+        "If no path is provided, revalidate entire cache"
+    ],
+    "docstrings": [
+        "* Revalidate data for a specific path or entire cache\n * @param path Optional path to revalidate\n * @param type Optional revalidation type (path or layout)"
+    ],
+    "functions": [
+        "revalidateData"
+    ],
+    "classes": []
+}

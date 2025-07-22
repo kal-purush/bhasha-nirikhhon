@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "drizzle",
+        "createClient",
+        "schema",
+        "createClient",
+        "process",
+        "process",
+        "drizzle",
+        "client",
+        "db"
+    ],
+    "literals": [
+        "\"drizzle-orm/libsql\"",
+        "\"@libsql/client\"",
+        "\"./schema\""
+    ],
+    "variables": [
+        "client",
+        "db"
+    ],
+    "comments": [
+        "export const db = drizzle(",
+        "new Client({",
+        "url: env.DATABASE_URL,",
+        "}).connection(),",
+        "{ schema },",
+        ");",
+        "const connection = connect({",
+        "url: process.env.DATABASE_URL,",
+        "});",
+        "",
+        "export const db = drizzle(connection, { schema });",
+        "\"migrations:generate\": \"drizzle-kit generate:mysql\",",
+        "\"migrations:push\": \"node -r esbuild-register src/server/db/migrate.ts\",",
+        "\"migrations:push\": \"drizzle-kit push:sqlite\","
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

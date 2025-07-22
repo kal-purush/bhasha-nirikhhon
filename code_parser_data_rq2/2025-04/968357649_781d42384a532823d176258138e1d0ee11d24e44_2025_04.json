@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "NextAuthConfig",
+        "auth",
+        "nextUrl",
+        "isOnDashboard",
+        "isLoggedIn",
+        "isLoggedIn",
+        "Response",
+        "URL",
+        "nextUrl"
+    ],
+    "literals": [
+        "'next-auth'",
+        "'/login'",
+        "'/dashboard'",
+        "'/dashboard'"
+    ],
+    "variables": [
+        "authConfig",
+        "isLoggedIn",
+        "isOnDashboard"
+    ],
+    "comments": [
+        "Redirect unauthenticated users to login page",
+        "Add providers with an empty array for now"
+    ],
+    "docstrings": [],
+    "functions": [
+        "authorized"
+    ],
+    "classes": []
+}

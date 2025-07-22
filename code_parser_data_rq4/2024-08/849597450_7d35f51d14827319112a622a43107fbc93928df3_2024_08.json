@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "i",
+        "duration",
+        "i",
+        "investmentValue",
+        "expectedReturn",
+        "investmentValue",
+        "interestEarnedInYear",
+        "annualInvestment",
+        "annualData",
+        "i",
+        "interestEarnedInYear",
+        "investmentValue",
+        "annualInvestment",
+        "annualData"
+    ],
+    "literals": [
+        "\"en-US\"",
+        "\"currency\"",
+        "\"USD\""
+    ],
+    "variables": [
+        "annualData",
+        "investmentValue",
+        "initialInvestment",
+        "i",
+        "interestEarnedInYear",
+        "formatter"
+    ],
+    "comments": [
+        "Esta função espera um objeto JS como argumento",
+        "O objeto deve conter as seguintes propriedades",
+        "- initialInvestment: O valor do investimento inicial",
+        "- annualInvestment: O valor investido a cada ano",
+        "- expectedReturn: A taxa de retorno esperada (anual)",
+        "- duration: A duração do investimento (período de tempo)",
+        "identificador do ano",
+        "o valor dos juros ganhos neste ano",
+        "valor do investimento no final do ano",
+        "investimento adicionado neste ano",
+        "A API Intl fornecida pelo navegador é usada para preparar um objeto formatador",
+        "Este objeto oferece um método \"format()\" que pode ser usado para formatar números como moeda",
+        "Exemplo de uso: formatter.format(1000) => yields \"$1,000\""
+    ],
+    "docstrings": [],
+    "functions": [
+        "calculateInvestmentResults"
+    ],
+    "classes": []
+}

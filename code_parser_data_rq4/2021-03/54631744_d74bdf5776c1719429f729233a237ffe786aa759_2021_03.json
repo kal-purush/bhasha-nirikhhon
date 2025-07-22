@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "NgModule",
+        "CommonModule",
+        "ComingSoonComponent",
+        "MatButtonModule",
+        "FlexModule",
+        "MatIconModule",
+        "RouterModule",
+        "NgModule",
+        "ComingSoonComponent",
+        "CommonModule",
+        "MatButtonModule",
+        "FlexModule",
+        "MatIconModule",
+        "RouterModule",
+        "ComingSoonComponent",
+        "RouterModule"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"@angular/common\"",
+        "\"./coming-soon/coming-soon.component\"",
+        "\"@angular/material/button\"",
+        "\"@angular/flex-layout\"",
+        "\"@angular/material/icon\"",
+        "\"@angular/router\"",
+        "\":feature\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Provides a generic page to announce features that are not implemented yet including tracking user interest to analytics.\n *\n * Either use the {@link ComingSoonComponent} in a template or lazy-load this module and simply navigate to it\n * with a parameter holding the feature id:\n *\n * Routing:\n```\n {\n    path: \"coming-soon\",\n    loadChildren: () =>\n      import(\"./core/coming-soon/coming-soon.module\").then(\n        (m) => m[\"ComingSoonModule\"]\n      ),\n  }\n```\n *\n * navigation to \"coming-soon/my-new-feature\" will then show a coming soon page and track interest for \"my-new-feature\"."
+    ],
+    "functions": [],
+    "classes": [
+        "ComingSoonModule"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "e",
+        "stack",
+        "e",
+        "stack",
+        "lines",
+        "lines",
+        "last",
+        "matches",
+        "matches",
+        "i",
+        "scripts",
+        "i",
+        "scripts",
+        "i",
+        "el",
+        "url",
+        "el",
+        "currentScript",
+        "currentScript",
+        "polyfill"
+    ],
+    "literals": [
+        "''",
+        "\"\\n\"",
+        "'script'",
+        "'object'",
+        "'currentScript'",
+        "'currentScript'"
+    ],
+    "variables": [
+        "stack",
+        "lines",
+        "last",
+        "matches",
+        "url",
+        "scripts",
+        "i",
+        "el"
+    ],
+    "comments": [
+        "",
+        "Simplified partial polyfill for document.currentScript for IE 11.",
+        "Inspired by https://github.com/JamesMGreene/currentExecutingScript",
+        "but trying to actually polyfill currentScript more or less correctly",
+        "instead of doing something different.",
+        "",
+        "Won't work in some cases, such as inline scripts, but seems enough",
+        "for patching up emscripten 1.38.10's usage in initialization.",
+        "",
+        "(c) 2018 Brion Vibber",
+        "MIT license, see bundled COPYING file.",
+        "",
+        "Get a stack trace",
+        "The last line should be \"Global code\" if we're in immediate",
+        "script execution; otherwise we'd return null.",
+        "Look for the script with matching src.",
+        "Can't use an attribute selector, as that'll match against",
+        "the attribute value which may be a relative path."
+    ],
+    "docstrings": [],
+    "functions": [
+        "currentScript",
+        "polyfill"
+    ],
+    "classes": []
+}

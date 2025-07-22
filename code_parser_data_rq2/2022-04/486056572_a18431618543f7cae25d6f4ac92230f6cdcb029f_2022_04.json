@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "require",
+        "rootMain",
+        "rootMain",
+        "rootMain",
+        "rootMain",
+        "config",
+        "rootMain",
+        "config",
+        "rootMain",
+        "config",
+        "config"
+    ],
+    "literals": [
+        "'../../../.storybook/main'",
+        "'webpack5'",
+        "'../atoms/src/lib/**/*.stories.ts'",
+        "'../molecules/src/lib/**/*.stories.ts'"
+    ],
+    "variables": [
+        "rootMain"
+    ],
+    "comments": [
+        "'../src/lib/**/*.stories.mdx',",
+        "'../src/lib/**/*.stories.@(js|jsx|ts|tsx)',",
+        "apply any global webpack configs that might have been specified in .storybook/main.js",
+        "add your own webpack tweaks if needed"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Threading",
+        "Threading",
+        "Tasks",
+        "Ardalis",
+        "GuardClauses",
+        "Clean",
+        "Architecture",
+        "Core",
+        "Interfaces",
+        "Clean",
+        "Architecture",
+        "Core",
+        "ProjectAggregate",
+        "Events",
+        "MediatR",
+        "Clean",
+        "Architecture",
+        "Core",
+        "ProjectAggregate",
+        "Handlers",
+        "INotificationHandler",
+        "ToDoItemCompletedEvent",
+        "IEmailSender",
+        "emailSender",
+        "_emailSender",
+        "emailSender",
+        "ToDoItemCompletedEvent",
+        "domainEvent",
+        "CancellationToken",
+        "cancellationToken",
+        "Guard",
+        "Against",
+        "Null",
+        "domainEvent",
+        "nameof",
+        "domainEvent",
+        "_emailSender",
+        "SendEmailAsync",
+        "domainEvent",
+        "CompletedItem",
+        "Title",
+        "domainEvent",
+        "CompletedItem",
+        "ToString"
+    ],
+    "literals": [
+        "\"test@test.com\"",
+        "\"test@test.com\""
+    ],
+    "variables": [
+        "IEmailSender",
+        "_emailSender"
+    ],
+    "comments": [
+        "In a REAL app you might want to use the Outbox pattern and a command/queue here...",
+        "configure a test email server to demo this works",
+        "https://ardalis.com/configuring-a-local-test-email-server"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ItemCompletedEmailNotificationHandler",
+        "Handle"
+    ],
+    "classes": [
+        "ItemCompletedEmailNotificationHandler"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "com",
+        "pimpelkram",
+        "inventory",
+        "server",
+        "config",
+        "javax",
+        "json",
+        "JsonObject",
+        "javax",
+        "json",
+        "JsonReader",
+        "javax",
+        "json",
+        "JsonString",
+        "org",
+        "slf4j",
+        "Logger",
+        "org",
+        "slf4j",
+        "LoggerFactory",
+        "logger",
+        "LoggerFactory",
+        "getLogger",
+        "settings",
+        "reader",
+        "settings",
+        "settings",
+        "jobject",
+        "reader",
+        "readObject",
+        "jsonServerFolder",
+        "jobject",
+        "getJsonString",
+        "settings",
+        "setServerFolder",
+        "jsonServerFolder",
+        "getString",
+        "e",
+        "logger",
+        "error",
+        "e",
+        "settings"
+    ],
+    "literals": [
+        "\"serverFolder\"",
+        "\"Fehler beim Auslesen der JSON Konfigurationsdatei\""
+    ],
+    "variables": [],
+    "comments": [
+        "Property 1: Wurzelverzeichnis(se) für das Einlesen von",
+        "Lieferungen:"
+    ],
+    "docstrings": [
+        "Baut aus einer JSON-Datei das Settings-Objekt. Alle JsonStrings werden ohne\n * umschließende Anführungszeichen übernommen.\n * @author borsutzha"
+    ],
+    "functions": [
+        "Settings",
+        "build"
+    ],
+    "classes": [
+        "JsonSettingsBuilder"
+    ]
+}

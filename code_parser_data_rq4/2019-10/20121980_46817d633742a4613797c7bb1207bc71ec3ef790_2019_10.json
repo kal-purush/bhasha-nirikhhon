@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "Ttrx",
+        "Trx",
+        "TestCoin",
+        "coinName",
+        "coinName",
+        "Ttrx",
+        "Trx",
+        "TestCoin",
+        "coinName"
+    ],
+    "literals": [
+        "\"./coin/trx/network/ttrx\"",
+        "\"./coin/trx/network/trx\"",
+        "\"./coin/testcoin\"",
+        "string",
+        "'ttrx'",
+        "'trx'",
+        "'test'",
+        "Coin ${coinName} not supported"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* We \"hide\" this class from the outside world because we don't really want it being called directly.\n * It's only exposed as a static provider."
+    ],
+    "functions": [
+        "getCoin"
+    ],
+    "classes": []
+}

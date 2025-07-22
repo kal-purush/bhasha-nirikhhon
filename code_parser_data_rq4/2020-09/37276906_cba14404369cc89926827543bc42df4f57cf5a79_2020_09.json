@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "styled",
+        "css",
+        "transparentize",
+        "colors",
+        "styled",
+        "colors",
+        "props",
+        "props",
+        "css",
+        "colors",
+        "styled",
+        "styled",
+        "colors",
+        "styled",
+        "styled",
+        "transparentize",
+        "colors"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'polished'",
+        "'@keen.io/colors'",
+        "background: ${colors.white[500]};\n  cursor: pointer;\n\n  &:hover {\n    box-shadow: 0 2px 4px 1px rgba(39, 86, 109, 0.3);\n  }\n\n  ${(props) =>\n    props.isActive &&\n    css`\n      box-shadow: 0 2px 4px 1px rgba(39, 86, 109, 0.3);\n      & > td:last-of-type {\n        border-right: solid 6px ${colors.blue[500]};\n      }\n    `}\n\n  transition: all .2s linear;",
+        "box-shadow: 0 2px 4px 1px rgba(39, 86, 109, 0.3);\n      & > td:last-of-type {\n        border-right: solid 6px ${colors.blue[500]};\n      }",
+        "display: inline-block;\n  margin: 0 5px 5px 0;",
+        "padding: 20px 10px 20px 20px;\n  max-width: 240px;\n\n  font-size: 14px;\n  line-height: 17px;\n  font-family: 'Lato Regular', sans-serif;\n  color: ${colors.blue[500]};",
+        "padding: 20px 10px 20px 10px;",
+        "padding: 0 20px 0 10px;\n  font-size: 12px;\n  line-height: 15px;\n  font-family: 'Lato Regular', sans-serif;\n  color: ${transparentize(0.5, colors.black[500])};"
+    ],
+    "variables": [
+        "Container",
+        "Tag",
+        "QueryName",
+        "Labels",
+        "UpdateDate"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

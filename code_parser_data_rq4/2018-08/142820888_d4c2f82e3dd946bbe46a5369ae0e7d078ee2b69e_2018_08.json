@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "tensorflow",
+        "tf",
+        "keras",
+        "K",
+        "tf",
+        "ConfigProto",
+        "tf_config",
+        "gpu_options",
+        "K",
+        "backend",
+        "tensorflow_backend",
+        "set_session",
+        "tf",
+        "Session",
+        "config",
+        "tf_config"
+    ],
+    "literals": [],
+    "variables": [
+        "tf_config",
+        "allow_growth",
+        "tf_config",
+        "log_device_placement"
+    ],
+    "comments": [
+        "dynamically grow the memory used on the GPU",
+        "to log device placement (on which device the operation ran)",
+        "(nothing gets printed in Jupyter, only if you run it standalone)"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Por padrão, O Keras/TensorFlow reserva toda a memória de GPU disponivel.\n    Isso impede que mais de um treino seja feito simultaneamente.\n    Chamando essa função, o Keras/TensorFlow vai alocar a memória conforma necessário.\n\n    No caso do treinamento de textgenrnn, o uso foi de 5.5GB para 413MB\n    \"\"\""
+    ],
+    "functions": [
+        "keras_share_gpu"
+    ],
+    "classes": []
+}

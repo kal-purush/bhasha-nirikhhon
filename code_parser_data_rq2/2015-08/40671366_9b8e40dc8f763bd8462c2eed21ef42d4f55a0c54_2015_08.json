@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "req",
+        "res",
+        "User",
+        "req",
+        "newList",
+        "err",
+        "doc",
+        "res",
+        "doc",
+        "req",
+        "res",
+        "User",
+        "req",
+        "updateList",
+        "err",
+        "doc",
+        "res",
+        "req",
+        "listController"
+    ],
+    "literals": [
+        "'../models/user.js'",
+        "'../models/list.js'"
+    ],
+    "variables": [
+        "User",
+        "apiController",
+        "newList",
+        "updateList"
+    ],
+    "comments": [
+        "Simple controller for creating and updating list on user object",
+        "Handle incoming requests for the '/user/lists' route",
+        "res.post(req.user)",
+        "Handle incoming requests for the '/user/updateList' route",
+        ",",
+        "templates: function(req, res){",
+        "res.render('templates/' + req.params.templateName, {",
+        "user: req.user",
+        "} )",
+        "// res.send(req.user)",
+        "}",
+        "Export our index control"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

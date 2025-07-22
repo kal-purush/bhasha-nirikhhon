@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "gRPCExceptionHandler",
+        "httpExceptionHandler",
+        "wsExceptionHandler",
+        "IOCContainer",
+        "message",
+        "code",
+        "status",
+        "message",
+        "status",
+        "code",
+        "ctx",
+        "ctx",
+        "gRPCExceptionHandler",
+        "ctx",
+        "wsExceptionHandler",
+        "ctx",
+        "httpExceptionHandler",
+        "ctx",
+        "target",
+        "IOCContainer",
+        "target",
+        "target",
+        "identifier",
+        "IOCContainer",
+        "target"
+    ],
+    "literals": [
+        "\"./handler/grpc\"",
+        "\"./handler/http\"",
+        "\"./handler/ws\"",
+        "\"koatty_container\"",
+        "\"Exception\"",
+        "string",
+        "\"grpc\"",
+        "\"ws\"",
+        "\"wss\"",
+        "class ${identifier} does not inherit from class 'Exception'",
+        "\"COMPONENT\"",
+        "\"ExceptionHandler\""
+    ],
+    "variables": [
+        "identifier"
+    ],
+    "comments": [
+        "if (identifier === \"Exception\") {",
+        "throw new Error(\"class name cannot be `Exception`\");",
+        "}",
+        "if (!identifier.endsWith(\"Exception\")) {",
+        "throw Error(\"class name must end with 'Exception'\");",
+        "}",
+        "if (!target.prototype.type) {",
+        "throw new Error(\"class's property 'type' must be set\");",
+        "}"
+    ],
+    "docstrings": [
+        "* @ author: richen\n * @ copyright: Copyright (c) - <richenlin(at)gmail.com>\n * @ license: BSD (3-Clause)\n * @ version: 2020-12-15 11:49:15",
+        "* Predefined runtime exception\n *\n * @export\n * @class HttpError\n * @extends {Error}",
+        "* Creates an instance of Exception.\n   * @param {string} message\n   * @param {number} [code=1]\n   * @param {number} [status]\n   * @memberof Exception",
+        "* Default exception handler\n   *\n   * @param {KoattyContext} ctx\n   * @returns {*}  \n   * @memberof Exception",
+        "* Indicates that an decorated class is a \"ExceptionHandler\".\n * @ExceptionHandler()\n * \n * export class BusinessException extends Exception { \n *    constructor(message: string, code: number, status: number) { ... }\n *    handler(ctx: KoattyContext) { \n * \n *      ...//Handling business exceptions \n * \n *    }\n * }\n *\n * @export\n * @param {string} [identifier] class name\n * @returns {ClassDecorator}"
+    ],
+    "functions": [
+        "ExceptionHandler"
+    ],
+    "classes": []
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "frame",
+        "frame",
+        "frame",
+        "frame",
+        "frame",
+        "mutations",
+        "mutations",
+        "m",
+        "m",
+        "m",
+        "node",
+        "node",
+        "node",
+        "observer",
+        "frame",
+        "monaco",
+        "frame",
+        "frame",
+        "monaco"
+    ],
+    "literals": [
+        "'iframe'",
+        "'./monaco-loader.html'",
+        "'sandbox'",
+        "'allow-scripts allow-same-origin'",
+        "'none'",
+        "'childList'"
+    ],
+    "variables": [
+        "frame",
+        "observer",
+        "monaco"
+    ],
+    "comments": [
+        "setTimeout(() => {",
+        "const styles = frame.contentDocument.querySelectorAll('style,link[rel=\"stylesheet\"]');",
+        "console.log(styles)",
+        "styles.forEach(el => {",
+        "document.head.appendChild(el.cloneNode())",
+        "})",
+        "}, 100)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

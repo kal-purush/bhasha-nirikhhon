@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "fastapi",
+        "FastAPI",
+        "typing",
+        "Optional",
+        "pydantic",
+        "BaseModel",
+        "FastAPI",
+        "app",
+        "get",
+        "limit",
+        "published",
+        "sort",
+        "published",
+        "limit",
+        "app",
+        "get",
+        "id",
+        "id",
+        "BaseModel",
+        "Optional",
+        "app",
+        "post",
+        "blog",
+        "Blog",
+        "blog",
+        "title"
+    ],
+    "literals": [
+        "'/'",
+        "'data'",
+        "f\"{limit} blogs from th db\"",
+        "'data'",
+        "f'blogs are not published'",
+        "'/blog/{id}'",
+        "\"data\"",
+        "'/blog'",
+        "\"data\"",
+        "f\"In blog title is {blog.title}\""
+    ],
+    "variables": [
+        "app",
+        "title",
+        "body",
+        "published"
+    ],
+    "comments": [
+        "instantiating",
+        "print(blog)"
+    ],
+    "docstrings": [
+        "'''\nFastAPI is a framework to simply design API's.\ndecorators which are made for different different opertaions .basically they present the url which will hitted from frontend.\nwe are using swaggerUI ,for operations to accessing it->localhost:8000/docs\nfor running the file we use uvicorn main:app,here unicorn is the universal command,main is the file name \n            app is the instance of fastAPI. for reloading after commnad --reload.\nchanging of the name of the function not effect the working of the app.\nif the name of the function for different operation will same, that not effect the working of the path operation function.\n\nfor dynamic url we use {} and to set datatype in prefix  we use (:int,:str,bool,..)\nurl is of type string means in dynamic url whatever will thrown will be of type string.\nfastAPI read line by line ex->if two functions having same operation but slight change in url will execute the first coming operation. \nso all datatype validation is covered by pydantic \n\nlike swaggerUI fastAPI is having somthing for reading the documentation and showing the route .in URL-> localhost/redoc,it will show all routes on left side\npathparameter and queryparaetr are two different things.Path parameter exists in url and not contained ? with it whereas.\nQuryparameter comes with ? mark .when we want to limit our data while fetcing for efficiency of Database we use queryparameter. \nlike dynamic url we have accept the queryparameter.in function we use limit keyword\nif two queryparameter are given and from browser only one parameter is fired then it will shoe error and demand for another parameter,to bypass this problem we gave default values\nex->def index(limit:int=10,published:bool=True):\nsometimes we use optional imported from typing.we use it when we can get any parameter or not get any parameter,also in that case we have to use default value.\n'''",
+        "'''\nfrom browser we cannot send data thats when request body is needed.for that we need pydantic models.\nwe inherit BaseModel of pydantic and make a schema ,schema can have optional field.scema will field :data_type.\nwe can change the port on which our app is runnning .for that __name__==\"__main__\" will checked and uvicorn take parameter(app,host=\"127.0.0.1\",port=9000)\nFastAPI dont use a SQL(relational databases)\n\n'''"
+    ],
+    "functions": [
+        "index",
+        "about",
+        "create_blog"
+    ],
+    "classes": [
+        "Blog"
+    ]
+}

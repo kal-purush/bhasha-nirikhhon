@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Kilt",
+        "senderUri",
+        "Kilt",
+        "receiverUri",
+        "Kilt",
+        "cTypeHash",
+        "Kilt",
+        "Kilt",
+        "Kilt",
+        "senderUri",
+        "Kilt",
+        "receiverUri",
+        "cTypeHash",
+        "senderUri",
+        "Kilt",
+        "requestCredentialContent",
+        "challenge",
+        "Kilt",
+        "messageBody",
+        "senderUri",
+        "receiverUri",
+        "message",
+        "message"
+    ],
+    "literals": [
+        "'@kiltprotocol/sdk-js'",
+        "'request-credential'",
+        "Generated message: ${JSON.stringify(message, null, 4)}"
+    ],
+    "variables": [
+        "challenge",
+        "requestCredentialContent",
+        "messageBody",
+        "message"
+    ],
+    "comments": [
+        "Creating a challenge to submit to the receiver",
+        "Sender uri is checked if it is a valid URI",
+        "Receiver uri is checked if it is a valid URI",
+        "The content of the 'request-credential' message",
+        "It includes a CType that is being requested, this can be for attestation or verification",
+        "The sender is the trusted attester in the scenario",
+        "The message will throw an Error if invalid"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generateRequestCredentialMessage"
+    ],
+    "classes": []
+}

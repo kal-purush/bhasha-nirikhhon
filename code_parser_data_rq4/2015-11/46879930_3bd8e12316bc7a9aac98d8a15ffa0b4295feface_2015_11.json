@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Sprite",
+        "Utils",
+        "Sprite",
+        "options",
+        "PIXI",
+        "texture",
+        "options",
+        "Utils",
+        "mouseData",
+        "dt",
+        "Utils",
+        "Utils",
+        "Nuage"
+    ],
+    "literals": [
+        "'pixi.js'",
+        "'../utils/number-utils'",
+        "\"../img/nuage.png\"",
+        "\"MOUSE OVER nuage!\"",
+        "\"DEAD\""
+    ],
+    "variables": [
+        "texture"
+    ],
+    "comments": [
+        "if(this.life <= 1000){",
+        "this.alpha =(this.life/1000);",
+        "}",
+        "this.life -= dt;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "update",
+        "reset"
+    ],
+    "classes": [
+        "Nuage"
+    ]
+}

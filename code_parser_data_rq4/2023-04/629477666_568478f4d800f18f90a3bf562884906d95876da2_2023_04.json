@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "defineConfig",
+        "resetStubs",
+        "auth",
+        "tokenVerification",
+        "defineConfig",
+        "on",
+        "on",
+        "resetStubs",
+        "auth",
+        "tokenVerification"
+    ],
+    "literals": [
+        "'cypress'",
+        "'./integration_tests/mockApis/wiremock'",
+        "'./integration_tests/mockApis/auth'",
+        "'./integration_tests/mockApis/tokenVerification'",
+        "'integration_tests/fixtures'",
+        "'integration_tests/screenshots'",
+        "'integration_tests/videos'",
+        "'cypress-multi-reporters'",
+        "'reporter-config.json'",
+        "'task'",
+        "'http://localhost:3007'",
+        "'**/!(*.cy).ts'",
+        "'integration_tests/e2e/**/*.cy.{js,jsx,ts,tsx}'",
+        "'integration_tests/support/index.ts'"
+    ],
+    "variables": [],
+    "comments": [
+        "We've imported your old cypress plugins here.",
+        "You may want to clean this up later by importing these."
+    ],
+    "docstrings": [],
+    "functions": [
+        "setupNodeEvents"
+    ],
+    "classes": []
+}

@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "options",
+        "message",
+        "duration",
+        "child",
+        "message",
+        "child",
+        "child",
+        "duration",
+        "setTimeout",
+        "child",
+        "duration",
+        "child",
+        "child",
+        "child",
+        "child",
+        "index",
+        "child",
+        "child",
+        "$q",
+        "Flash",
+        "value",
+        "duration",
+        "flash",
+        "result",
+        "flash_child",
+        "result",
+        "duration",
+        "setTimeout",
+        "flash",
+        "flash_child",
+        "duration",
+        "$q",
+        "value",
+        "done",
+        "done"
+    ],
+    "literals": [
+        "'flash'",
+        "'flash'",
+        "'div'",
+        "'class'",
+        "'id'",
+        "string",
+        "'span'",
+        "'angular'",
+        "'undefined'",
+        "'angular'",
+        "'flash-client'",
+        "'$flash'",
+        "'...'"
+    ],
+    "variables": [
+        "child",
+        "index",
+        "flash",
+        "flash_child",
+        "done"
+    ],
+    "comments": [
+        "jslint browser: true",
+        "try to find existing flash container",
+        "create new [id=flash] element and attach it to the document",
+        "insert it at the top of the body",
+        "Inject $flash and use like:\n\n      $flash('OMG it burns!', 5000)\n\n  or\n\n      $flash(asyncResultPromise)",
+        "value can be a string or a promise\n\n    default to a 3 second timeout, but allow permanent flashes by setting duration = null",
+        "for some reason, .finally() doesn't get the promise's value,",
+        "so we have to use .then(a, a)",
+        "if duration is falsey (e.g., null or 0), leave the message permanently",
+        "wrap value with .when() to support both strings and promises of strings"
+    ],
+    "docstrings": [],
+    "functions": [
+        "container",
+        "addMessage",
+        "removeChild",
+        "removeAllChildren"
+    ],
+    "classes": [
+        "Flash"
+    ]
+}

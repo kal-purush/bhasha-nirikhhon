@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "Entity",
+        "PrimaryKey",
+        "Property",
+        "SimpleLogger",
+        "MikroORM",
+        "mockLogger",
+        "Entity",
+        "PrimaryKey",
+        "Property",
+        "Entity",
+        "Property",
+        "beforeAll",
+        "orm",
+        "MikroORM",
+        "Book",
+        "BookSimple",
+        "options",
+        "SimpleLogger",
+        "options",
+        "orm",
+        "beforeEach",
+        "orm",
+        "afterAll",
+        "orm",
+        "test",
+        "mockLogger",
+        "orm",
+        "orm",
+        "BookSimple",
+        "expect",
+        "mock",
+        "r",
+        "r"
+    ],
+    "literals": [
+        "'@mikro-orm/core'",
+        "'@mikro-orm/postgresql'",
+        "'../../bootstrap'",
+        "string",
+        "'select title from book'",
+        "string",
+        "'virtual_entities'",
+        "'virtual entities (postgres)'",
+        "[query] select * from (select title from book) as \"b0\" order by \"b0\".\"title\" asc",
+        "[query] select count(*) as count from (select title from book) as \"b0\""
+    ],
+    "variables": [
+        "orm",
+        "mock"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Book",
+        "BookSimple"
+    ]
+}

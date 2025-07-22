@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "tree",
+        "target",
+        "findClosestValueInBstHelper",
+        "tree",
+        "target",
+        "closest",
+        "tree",
+        "target",
+        "closest",
+        "tree",
+        "closest",
+        "abs",
+        "target",
+        "closest",
+        "abs",
+        "target",
+        "tree",
+        "value",
+        "tree",
+        "value",
+        "target",
+        "tree",
+        "value",
+        "findClosestValueInBstHelper",
+        "tree",
+        "left",
+        "target",
+        "closest",
+        "target",
+        "tree",
+        "value",
+        "findClosestValueInBstHelper",
+        "tree",
+        "right",
+        "target",
+        "closest",
+        "closest",
+        "value",
+        "value"
+    ],
+    "literals": [
+        "'inf'"
+    ],
+    "variables": [
+        "closest",
+        "closest",
+        "value",
+        "left",
+        "right"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Recursion, create a helper function wich will compute the closest value, if the diference of target number and closest is grather than the diference\n    between the current value of the node. In that case set closest value to the current value of the tree.\n    Then recursively update closest and discart left of right part of the tree if the values are far from the target.\n    BigO:\n    Time: O(log(n))\n    Space: O(log(n))\n    \"\"\""
+    ],
+    "functions": [
+        "findClosestValueInBst",
+        "findClosestValueInBstHelper"
+    ],
+    "classes": [
+        "BST"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "bootstrap",
+        "AppComponent",
+        "ROUTER_PROVIDERS",
+        "Http",
+        "HTTP_PROVIDERS",
+        "bootstrap",
+        "AppComponent",
+        "ROUTER_PROVIDERS",
+        "Http",
+        "HTTP_PROVIDERS"
+    ],
+    "literals": [
+        "'angular2/platform/browser'",
+        "'./components/app.component'",
+        "'angular2/router'",
+        "'angular2/http'"
+    ],
+    "variables": [],
+    "comments": [
+        "use this imports in order to use # url strtegy",
+        "import {provide} from 'angular2/core';",
+        "import {LocationStrategy, HashLocationStrategy} from 'angular2/router';",
+        "use this provide in order to use # url strtegy",
+        ", provide(LocationStrategy, { useClass: HashLocationStrategy }) // .../#/crisis-center/"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

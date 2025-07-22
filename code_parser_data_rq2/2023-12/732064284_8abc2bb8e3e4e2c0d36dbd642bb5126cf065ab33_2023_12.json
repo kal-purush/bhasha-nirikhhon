@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "os",
+        "os",
+        "path",
+        "dirname",
+        "os",
+        "path",
+        "dirname",
+        "os",
+        "path",
+        "abspath",
+        "ROOT_PATH",
+        "ROOT_PATH",
+        "ROOT_PATH"
+    ],
+    "literals": [
+        "f\"{ROOT_PATH}/dataset/train/images\"",
+        "f\"{ROOT_PATH}/dataset/val/images\"",
+        "f\"{ROOT_PATH}/train/config.yaml\""
+    ],
+    "variables": [
+        "ROOT_PATH",
+        "TRAIN_PATH_IMGS",
+        "VAL_PATH_IMGS",
+        "YML_PATH",
+        "EPOCHS",
+        "BATCH"
+    ],
+    "comments": [
+        "This code will get the absolute path of the /vehicles_counting, you don't need",
+        "to change the directory mannually.",
+        "The dir of training and validation images respectively, use for create config.yaml",
+        "Directory of the config.yaml",
+        "Hyper-params for training our model"
+    ],
+    "docstrings": [
+        "\"\"\"\n===========================================================================================================\nLatest update: 12-07-23 \n@author: anhnd\n===========================================================================================================\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "varName",
+        "l",
+        "l",
+        "latLngMatch",
+        "l",
+        "latLngPattern",
+        "l",
+        "latLngMatch",
+        "latLngMatch",
+        "age",
+        "l",
+        "l",
+        "l",
+        "l",
+        "maxAge",
+        "a",
+        "b",
+        "a",
+        "b",
+        "bestLocation",
+        "bestLocation",
+        "bestLocation",
+        "gmapsUrl"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "\"%LOC\"",
+        "\"%LOCTMS\"",
+        "\"%LOCN\"",
+        "\"%LOCNTMS\"",
+        "\"%TIMES\"",
+        "http;//maps.google.com/maps?z=12&t=m&q=loc:${bestLocation.Lat}+${bestLocation.Lng}",
+        "\"Unable to get location\""
+    ],
+    "variables": [
+        "latLngPattern",
+        "maxAge",
+        "bestLocation",
+        "latLngMatch",
+        "age",
+        "gmapsUrl"
+    ],
+    "comments": [
+        "20 mins"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ComposePingResponse"
+    ],
+    "classes": []
+}

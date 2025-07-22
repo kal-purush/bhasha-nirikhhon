@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "LovefieldService",
+        "LovefieldService",
+        "lf",
+        "connectOptions",
+        "db",
+        "db",
+        "db",
+        "LovefieldService",
+        "lf",
+        "schemaBuilder",
+        "lf",
+        "lf",
+        "schemaBuilder",
+        "LovefieldService",
+        "testLogsRaw",
+        "testLogsRaw",
+        "testLog",
+        "testLog",
+        "tests",
+        "testLog",
+        "testRows",
+        "row",
+        "testRows",
+        "q1"
+    ],
+    "literals": [
+        "'tests'",
+        "'wptview'",
+        "'tests'",
+        "'id'",
+        "'test_id'",
+        "'id'",
+        "\"test_start\"",
+        "'test_id'"
+    ],
+    "variables": [
+        "LovefieldService",
+        "connectOptions",
+        "schemaBuilder",
+        "testLogsRaw",
+        "testRows",
+        "tests",
+        "row",
+        "q1"
+    ],
+    "comments": [
+        "Following member variables are initialized within getDbConnection()."
+    ],
+    "docstrings": [
+        "* Initializes member variables that can't be initialized before getting a\n * connection to the database.\n * @private",
+        "* Instantiates the DB connection (re-entrant).\n * @return {!IThenable<!lf.Database>}",
+        "* Builds the database schema.\n * @return {!lf.schema.Builder}\n * @private"
+    ],
+    "functions": [],
+    "classes": []
+}

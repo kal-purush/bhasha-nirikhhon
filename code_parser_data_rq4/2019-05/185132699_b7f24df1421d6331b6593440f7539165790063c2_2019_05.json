@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "Dao",
+        "Utils",
+        "Model",
+        "Collections",
+        "Generic",
+        "Data",
+        "SqlClient",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Dao",
+        "Category",
+        "DbUtil",
+        "getCommand",
+        "sql",
+        "cmd",
+        "ExecuteReader",
+        "Category",
+        "Category",
+        "sdr",
+        "HasRows",
+        "sdr",
+        "Read",
+        "Category",
+        "category",
+        "Id",
+        "sdr",
+        "GetInt32",
+        "category",
+        "CategoryName",
+        "sdr",
+        "GetString",
+        "category",
+        "CategoryDesc",
+        "sdr",
+        "GetString",
+        "category",
+        "Priority",
+        "sdr",
+        "GetInt32",
+        "Add",
+        "category",
+        "sdr",
+        "Close",
+        "DbUtil",
+        "close"
+    ],
+    "literals": [
+        "\"SELECT * FROM tb_category\""
+    ],
+    "variables": [
+        "sql",
+        "SqlCommand",
+        "cmd",
+        "SqlDataReader",
+        "sdr",
+        "Category",
+        "category"
+    ],
+    "comments": [
+        "category.CategoryImg = sdr.GetString(3);",
+        "category.ParentId = sdr.GetInt32(5);",
+        "category.CreateTime = sdr.GetDateTime(6);",
+        "category.ModifyTime = sdr.GetDateTime(7);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "queryAllCategory"
+    ],
+    "classes": [
+        "CategoryDao"
+    ]
+}

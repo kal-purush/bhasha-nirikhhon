@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "click",
+        "zipfile",
+        "base64",
+        "merkle",
+        "payload",
+        "timestamp",
+        "timestamp",
+        "to_bytes",
+        "byteorder",
+        "len",
+        "payload",
+        "to_bytes",
+        "byteorder",
+        "payload",
+        "encode",
+        "base64",
+        "b64encode",
+        "MerkleTree",
+        "merkle_tree",
+        "add",
+        "encode",
+        "merkle_tree",
+        "add",
+        "encode",
+        "base64",
+        "b64encode",
+        "merkle_tree",
+        "build",
+        "run"
+    ],
+    "literals": [
+        "b'\\x00\\x00'",
+        "'big'",
+        "b'\\x80\\x00'",
+        "'big'",
+        "b'\\x00\\x00'",
+        "b'\\x00'",
+        "'{ \"thing\": \"stuff\" }'",
+        "'utf-8'",
+        "b'\\x00'",
+        "'{ \"huh, no cbor? :)\": \"nope, none!\" }'",
+        "'utf-8'",
+        "'__main__'"
+    ],
+    "variables": [
+        "merkle_tree"
+    ],
+    "comments": [
+        "@click.command()",
+        "@click.option('--filename', prompt='downloaded file name')",
+        "def run(filename):",
+        "result = zipfile.is_zipfile(filename)",
+        "print(result)",
+        "print(\"finename provided is: \" + filename)",
+        "leaf = LeafGenerator(\"AAAAAAFSeasJ5IAAAABZeyAib3duZXIiOiAiRm9yZXN0cnkgQ29tbWlzc2lvbiIsICJlbmQtZGF0ZSI6ICIiLCAiZ292ZXJubWVudC1kb21haW4iOiAiN3N0YW5lcy5nb3YudWsiIH0AAA==\")",
+        "leaf = LeafGenerator.createLeafInput('{\"key\":\"value\"}', 1452868835667)",
+        "print(leaf)",
+        "encodedValue = \"AAAAAAFSjeCvzYAAAAAUeyAidGhpbmciOiAic3R1ZmYiIH0AAA==\".encode('utf-8')",
+        "print(encodedValue)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createLeafInput",
+        "run"
+    ],
+    "classes": [
+        "LeafGenerator"
+    ]
+}

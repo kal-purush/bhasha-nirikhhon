@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "java",
+        "io",
+        "Serializable",
+        "volumeId",
+        "volumeId",
+        "setVolumeId",
+        "volumeId",
+        "VolumeId",
+        "volumeId",
+        "VolumeId",
+        "volumeId",
+        "volumeId",
+        "setVolumeId",
+        "volumeId",
+        "Override",
+        "sb",
+        "sb",
+        "append",
+        "getVolumeId",
+        "sb",
+        "append",
+        "getVolumeId",
+        "sb",
+        "append",
+        "sb",
+        "toString",
+        "Override",
+        "obj",
+        "obj",
+        "obj",
+        "obj",
+        "other",
+        "obj",
+        "other",
+        "getVolumeId",
+        "getVolumeId",
+        "other",
+        "getVolumeId",
+        "other",
+        "getVolumeId",
+        "equals",
+        "getVolumeId"
+    ],
+    "literals": [
+        "\"{\"",
+        "\"SnapshotId: \"",
+        "\",\"",
+        "\"}\""
+    ],
+    "variables": [
+        "volumeId"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* <p>\n     * The size of the volume, in GiBs.\n     * </p>\n     * <p>\n     * Constraints: 1-16384 for <code>gp2</code>, 4-16384 for <code>io1</code>,\n     * 500-16384 for <code>st1</code>, 500-16384 for <code>sc1</code>, and\n     * 1-1024 for <code>standard</code>. If you specify a snapshot, the volume\n     * size must be equal to or larger than the snapshot size.\n     * </p>\n     * <p>\n     * Default: If you're creating the volume from a snapshot and don't specify\n     * a volume size, the default is the snapshot size.\n     * </p>",
+        "* <p>\n     * The snapshot from which to create the volume.\n     * </p>"
+    ],
+    "functions": [
+        "CreateSnapshotRequest",
+        "CreateSnapshotRequest",
+        "setVolumeId",
+        "getVolumeId",
+        "CreateSnapshotRequest",
+        "withVolumeId",
+        "toString",
+        "equals"
+    ],
+    "classes": [
+        "CreateSnapshotRequest"
+    ]
+}

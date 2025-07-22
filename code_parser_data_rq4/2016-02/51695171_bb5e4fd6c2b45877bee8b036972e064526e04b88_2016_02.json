@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "ag23",
+        "valueFactory",
+        "valueFactory",
+        "valueFactory",
+        "valueFactory",
+        "LAZY_OFF"
+    ],
+    "literals": [
+        "\"Argument valueFactory = \"",
+        "\" is not function\"",
+        "\"Value is not created.\""
+    ],
+    "variables": [
+        "LAZY_OFF"
+    ],
+    "comments": [
+        "ag-lazy-ts 0.1.0",
+        "Lazy initialization for TypeScript and JavaScript.",
+        "Author: Alexey Gorshkov",
+        "Project: https://github.com/agorshkov23/ag23-lazy-ts",
+        "License: MIT",
+        "Flag to globally disable lazy initialization.",
+        "Provides support for lazy initialization.",
+        "Initializes a new instance of the Lazy<T> class. When lazy initialization occurs, the specified initialization function is used.",
+        "Gets a value that indicates whether a value has been created for this Lazy<T> instance.",
+        "Gets the lazily initialized value of the current Lazy<T> instance.",
+        "Creates and returns a string representation of the Lazy<T>. Value property for this instance."
+    ],
+    "docstrings": [],
+    "functions": [
+        "isValueCreated",
+        "value",
+        "toString",
+        "createValue"
+    ],
+    "classes": [
+        "Lazy"
+    ]
+}

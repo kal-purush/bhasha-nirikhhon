@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "enable",
+        "process",
+        "enableMockApi",
+        "enable",
+        "localStorage",
+        "enable",
+        "enableMockApi",
+        "localStorage",
+        "worker",
+        "error",
+        "error",
+        "localStorage"
+    ],
+    "literals": [
+        "\"development\"",
+        "\"enableMockApi\"",
+        "\"true\"",
+        "\"false\"",
+        "\"enableMockApi\"",
+        "\"true\"",
+        "\"./browser\"",
+        "\"Failed to start mock service worker\"",
+        "\"enableMockApi\"",
+        "\"false\""
+    ],
+    "variables": [
+        "enableMockApi"
+    ],
+    "comments": [
+        "Add a function to window that can enable api mocking",
+        "Start the mock service worker",
+        "Set the local storage value to false by default"
+    ],
+    "docstrings": [],
+    "functions": [
+        "enableApiMocking"
+    ],
+    "classes": []
+}

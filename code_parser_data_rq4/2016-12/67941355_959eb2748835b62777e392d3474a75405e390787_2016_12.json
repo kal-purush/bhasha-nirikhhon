@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "info",
+        "DontDestroyOnLoad",
+        "gameObject",
+        "info",
+        "info",
+        "Destroy",
+        "gameObject"
+    ],
+    "literals": [],
+    "variables": [
+        "GameInfo",
+        "info",
+        "currentSubreddit",
+        "currentThread"
+    ],
+    "comments": [
+        "GameInfo.cs\n * Author: Caleb Whitman\n * December 23, 2016\n * \n * Stores data that exists between all scenes AND is not stored within any physical object.\n * Right now I plan to use this to keep track of the current Subreddit/Thread we are in. This may change in the future.\n * \n * This is basically a singleton class.",
+        "called first thing no matter what",
+        "ensures that only on object of this type is present at all times"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Awake"
+    ],
+    "classes": [
+        "GameInfo"
+    ]
+}

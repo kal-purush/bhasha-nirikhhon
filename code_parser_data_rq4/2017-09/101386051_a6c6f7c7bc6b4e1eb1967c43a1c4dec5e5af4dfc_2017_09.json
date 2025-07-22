@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Wale",
+        "CoreAudio",
+        "disposing",
+        "disposedValue",
+        "disposing",
+        "disposedValue",
+        "Dispose"
+    ],
+    "literals": [],
+    "variables": [
+        "disposedValue"
+    ],
+    "comments": [
+        "using NAudio.CoreAudioApi;",
+        "private AudioSessionControl ASC;\n        public float Relative = 0;\n        public double AveragePeak { get; private set; }\n        public bool AutoIncluded = true, Averaging = true;\n\n        public SessionState State { get => GetState(); }\n\n        public uint PID { get; private set; }\n        public string Identifier { get; private set; }\n        public string Name { get; private set; }\n        public float Volume { get => GetVolume(); set => SetVolume(value); }\n        public float Peak { get => GetPeak(); }\n\n        public Session3(AudioSessionControl asc)\n        {\n            this.ASC = asc;\n            this.PID = asc.GetProcessID;\n            this.Identifier = asc.GetSessionIdentifier;\n            this.Name = MakeName(asc.GetSessionIdentifier);\n        }\n        private string MakeName(string name)\n        {\n            int startidx = name.IndexOf(\"|\"), endidx = name.IndexOf(\"%b\");\n            name = name.Substring(startidx, endidx - startidx + 2);\n            if (name == \"|#%b\") name = \"System\";\n            else\n            {\n                startidx = name.LastIndexOf(\"\\\\\") + 1; endidx = name.IndexOf(\"%b\");\n                name = name.Substring(startidx, endidx - startidx);\n                if (name.EndsWith(\".exe\")) name = name.Substring(0, name.LastIndexOf(\".exe\"));\n            }\n            return name;\n        }\n\n        private List<double> Peaks = new List<double>();\n        private int AvCount = 0;\n        private double AvTime;\n\n        public void SetAvTime(double critTime, double unitTime) { AvCount = (int)(critTime / unitTime); AvTime = unitTime * (double)AvCount; }\n        public void ResetAverage() { Peaks.Clear(); AveragePeak = 0; }\n        public void SetAverage(double peak)\n        {\n            if (Peaks.Count > AvCount) Peaks.RemoveAt(0);\n            Peaks.Add(peak);\n            AveragePeak = Peaks.Average();\n            //Console.WriteLine($\"Av={AveragePeak}, PC={Peaks.Count}, AvT={AvTime}\");\n        }\n\n        private SessionState GetState()\n        {\n            switch (ASC.State)\n            {\n                case NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateActive:\n                    return SessionState.Active;\n                case NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateInactive:\n                    return SessionState.Inactive;\n                case NAudio.CoreAudioApi.Interfaces.AudioSessionState.AudioSessionStateExpired:\n                    return SessionState.Expired;\n                default:\n                    return SessionState.Expired;\n            }\n        }\n        private float GetVolume()\n        {\n            //using (var volumeObject = new SimpleAudioVolume(BasePtr))\n            //{\n            //return volumeObject.MasterVolume;\n            //}\n            return ASC.SimpleAudioVolume.Volume;\n        }\n        private void SetVolume(float value)\n        {\n            //using (var volumeObject = new SimpleAudioVolume(BasePtr))\n            //{\n            //volumeObject.MasterVolume = value;\n            //}\n            ASC.SimpleAudioVolume.Volume = value;\n        }\n        private float GetPeak()\n        {\n            //using (var peakObject = new AudioMeterInformation(BasePtr))\n            //{\n            //return peakObject.PeakValue;\n            //}\n            return ASC.AudioMeterInformation.MasterPeakValue;\n        }",
+        "To detect redundant calls",
+        "TODO: dispose managed state (managed objects).",
+        "if (ASC != null) System.Runtime.InteropServices.Marshal.ReleaseComObject(ASC);",
+        "TODO: free unmanaged resources (unmanaged objects) and override a finalizer below.",
+        "TODO: set large fields to null.",
+        "TODO: override a finalizer only if Dispose(bool disposing) above has code to free unmanaged resources.",
+        "~Session3() {",
+        "Do not change this code. Put cleanup code in Dispose(bool disposing) above.",
+        "Dispose(false);",
+        "}",
+        "This code added to correctly implement the disposable pattern.",
+        "Do not change this code. Put cleanup code in Dispose(bool disposing) above.",
+        "TODO: uncomment the following line if the finalizer is overridden above.",
+        "GC.SuppressFinalize(this);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Dispose",
+        "Dispose"
+    ],
+    "classes": [
+        "Session3"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "index",
+        "iterations",
+        "index",
+        "iterations",
+        "index",
+        "index",
+        "iterations",
+        "iterations",
+        "index",
+        "iterations"
+    ],
+    "literals": [],
+    "variables": [
+        "index",
+        "iterations"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* \n * class used to return both the index of the item found\n * \t\tand the number of iterations it took to find result\n *",
+        "* index of the item found - should be -1 if not found",
+        "* number of iterations in the search loop",
+        "* constructor to create a new search result\n\t * @param index\n\t * @param iterations",
+        "* \n\t * @return index of item found",
+        "* \n\t * @return number of iterations in search loop"
+    ],
+    "functions": [
+        "SearchResult",
+        "getIndex",
+        "getIterations"
+    ],
+    "classes": [
+        "SearchResult"
+    ]
+}

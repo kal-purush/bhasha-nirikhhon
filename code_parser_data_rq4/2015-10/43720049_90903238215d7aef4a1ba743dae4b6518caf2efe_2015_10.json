@@ -1,0 +1,19 @@
+{
+    "identifiers": [],
+    "literals": [
+        "\"mayaRep\"",
+        "\"Maya/Soldier/soldier_rep.mb\"",
+        "\"callerScript\""
+    ],
+    "variables": [
+        "t",
+        "t",
+        "t"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\n-- this script is in lua format\n-- this is a meta script that fills in data that is passed to 'myScript' that in turn calls C++ function\n-- some of the data can be set by default, some of the data might be required to be edited from maya\nfunction fillMetaInfoTable(args) -- the script fromat requires existance of this function\n\n-- user modifed data\nargs['myScript']=\"SoldierNPC.lua\"\nargs['myScriptPackage']=\"CharacterControl\"\n\nargs['skinName'] = \"SoldierTransform.mesha\"\nargs['skinPackage'] = \"Soldier\"\n\nargs['gunMeshName'] = \"m98.x_m98main_mesh.mesha\"\nargs['gunMeshPackage'] = \"CharacterControl\"\n\n\nargs['npcType'] = 'Guard'\n\nend -- required\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

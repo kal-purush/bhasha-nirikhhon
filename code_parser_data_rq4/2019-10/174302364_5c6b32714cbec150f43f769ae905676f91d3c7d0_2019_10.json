@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "ghidra",
+        "app",
+        "plugin",
+        "core",
+        "datamgr",
+        "tree",
+        "filterArrays",
+        "filterPointers",
+        "filterArrays",
+        "filterArrays",
+        "filterArrays",
+        "filterArrays",
+        "filterPointers",
+        "filterPointers",
+        "filterPointers",
+        "filterPointers"
+    ],
+    "literals": [],
+    "variables": [
+        "filterArrays",
+        "filterPointers"
+    ],
+    "comments": [],
+    "docstrings": [
+        "###\n * IP: GHIDRA\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * \n *      http://www.apache.org/licenses/LICENSE-2.0\n * \n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Class to maintain the state of whether or not the Data Type Manager Tree is showing\n * pointers and/or arrays.  \n * \n * Note: Not sure if this needs to be synchronized or not.  The set methods are called\n * from the awt thread, but the getter methods are often called by a background worker\n * thread. The theory is that we don't need to synchronize this because if the state\n * of this object changes, the tree will later be rebuilt in a follow-up task.",
+        "* Returns true if the tree should NOT show arrays\n\t * @return  true if the tree should NOT show arrays",
+        "* Sets whether the tree should show arrays.\n\t * @param filterArrays if true the tree will NOT show arrays.",
+        "* Returns true if the tree should NOT show pointers\n\t * @return  true if the tree should NOT show pointers",
+        "* Sets whether the tree should show pointers.\n\t * @param filterPointers if true the tree will NOT show pointers."
+    ],
+    "functions": [
+        "filterArrays",
+        "setFilterArrays",
+        "filterPointers",
+        "setFilterPointers"
+    ],
+    "classes": [
+        "ArrayPointerFilterState"
+    ]
+}

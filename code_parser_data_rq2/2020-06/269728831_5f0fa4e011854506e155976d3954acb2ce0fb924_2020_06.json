@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "arg",
+        "action",
+        "e",
+        "action",
+        "e",
+        "fs",
+        "args",
+        "handleRejection",
+        "input",
+        "exportDiagram",
+        "input",
+        "args",
+        "args",
+        "handleRejection",
+        "result",
+        "fs",
+        "args",
+        "result"
+    ],
+    "literals": [
+        "'fs'",
+        "'console-inject'",
+        "'arg'",
+        "'./index'",
+        "'--export'",
+        "'-x'",
+        "'--export'",
+        "'--output'",
+        "'-o'",
+        "'--output'",
+        "'--page-index'",
+        "'-p'",
+        "'--page-index'",
+        "'--format'",
+        "'-f'",
+        "'--format'",
+        "${action} failed with",
+        "'--export'",
+        "'utf-8'",
+        "'reading input'",
+        "'--page-index'",
+        "'--format'",
+        "'exporting'",
+        "'--output'"
+    ],
+    "variables": [
+        "fs",
+        "arg",
+        "exportDiagram",
+        "args"
+    ],
+    "comments": [
+        "Options are modelled after the Draw.io Desktop CLI; ideally we should be a",
+        "1:1 substitute.",
+        "Input filename",
+        "Output filename",
+        "Page index (from 0); defaults to 0",
+        "Diagram format; defaults to \"pdf\""
+    ],
+    "docstrings": [],
+    "functions": [
+        "handleRejection"
+    ],
+    "classes": []
+}

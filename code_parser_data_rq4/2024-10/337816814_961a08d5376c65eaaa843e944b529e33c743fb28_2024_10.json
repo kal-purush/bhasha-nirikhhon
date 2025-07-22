@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "forceUpdate",
+        "createObserver",
+        "component",
+        "mutationObserver",
+        "mutationObserver",
+        "createObserver",
+        "processMutations",
+        "mutationObserver",
+        "component",
+        "observerOptions",
+        "component",
+        "observed",
+        "component",
+        "processMutations",
+        "mutationObserver",
+        "mutationObserver",
+        "observed",
+        "mutationObserver",
+        "element",
+        "observerOptions",
+        "mutations",
+        "mutations",
+        "forceUpdate",
+        "target"
+    ],
+    "literals": [
+        "\"@stencil/core\"",
+        "\"./observers\"",
+        "\"observe\"",
+        "\"childList\"",
+        "\"mutation\""
+    ],
+    "variables": [
+        "observed",
+        "mutationObserver",
+        "observerOptions",
+        "element"
+    ],
+    "comments": [
+        "we explicitly process queued mutations and disconnect and reconnect",
+        "the observer until MutationObserver gets an `unobserve` method",
+        "see https://github.com/whatwg/dom/issues/126"
+    ],
+    "docstrings": [
+        "* Defines interface for components with a dynamically changing slot.\n *\n * @deprecated Use `onSlotchange` event with `slotChangeHasAssignedElement` DOM utility instead.\n *\n * ```\n * <slot onSlotchange={(event) => this.mySlotHasElement = slotChangeHasAssignedElement(event)} />}\n * ```",
+        "* The host element.",
+        "* Helper to set up a conditional slot component on connectedCallback.\n *\n * @param component\n * @deprecated Use `onSlotchange` event with `slotChangeHasAssignedElement` DOM utility instead.\n *\n * ```\n * <slot onSlotchange={(event) => this.mySlotHasElement = slotChangeHasAssignedElement(event)} />}\n * ```",
+        "* Helper to tear down a conditional slot component on disconnectedCallback.\n *\n * @param component\n * @deprecated Use `onSlotchange` event with `slotChangeHasAssignedElement` DOM utility instead.\n *\n * ```\n * <slot onSlotchange={(event) => this.mySlotHasElement = slotChangeHasAssignedElement(event)} />}\n * ```"
+    ],
+    "functions": [
+        "connectConditionalSlotComponent",
+        "disconnectConditionalSlotComponent",
+        "processMutations"
+    ],
+    "classes": []
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Copy",
+        "org",
+        "testng",
+        "annotations",
+        "AfterMethod",
+        "org",
+        "testng",
+        "annotations",
+        "BeforeMethod",
+        "org",
+        "testng",
+        "annotations",
+        "Parameters",
+        "Parameters",
+        "BeforeMethod",
+        "Environment",
+        "Environment",
+        "equalsIgnoreCase",
+        "UrlP",
+        "Environment",
+        "equalsIgnoreCase",
+        "UrlQA",
+        "AfterMethod"
+    ],
+    "literals": [
+        "\"Environment\"",
+        "\"Prod\"",
+        "\"https://www.flipkart.com/\"",
+        "\"Production Environment\"",
+        "\"QA\"",
+        "\"https://www.amazon.in/?tag=googinhydmabk-21&ref_=pd_mn_ABKror78\"",
+        "\"QA Environment\"",
+        "\"TearDown\""
+    ],
+    "variables": [],
+    "comments": [
+        "if (System.getProperty(\"env1\").equalsIgnoreCase(\"prod\")) {",
+        "System.out.println(\"Abhishek prod env\");",
+        "}",
+        "",
+        "if (System.getProperty(\"env1\").equalsIgnoreCase(\"QA\")) {",
+        "System.out.println(\"Srii QA env\");",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "EnvironmentSetup",
+        "TearDown"
+    ],
+    "classes": [
+        "Basic"
+    ]
+}

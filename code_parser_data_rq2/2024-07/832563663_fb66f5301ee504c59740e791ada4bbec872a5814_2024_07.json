@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "path",
+        "outputDirectory",
+        "path",
+        "__dirname",
+        "fs",
+        "outputDirectory",
+        "fs",
+        "outputDirectory",
+        "err",
+        "err",
+        "process",
+        "ffmpegPath",
+        "inputVideo",
+        "outputFile",
+        "exec",
+        "ffmpegCommand",
+        "error",
+        "stdout",
+        "stderr",
+        "error",
+        "error",
+        "stderr",
+        "stderr",
+        "stdout"
+    ],
+    "literals": [
+        "'child_process'",
+        "'path'",
+        "'fs'",
+        "'input.mp4'",
+        "'output_hls'",
+        "'output.m3u8'",
+        "'ffmpeg'",
+        "Error creating output directory: ${err.message}",
+        "\"${ffmpegPath}\" -i \"${inputVideo}\" -codec: copy -start_number 0 -hls_time 10 -hls_list_size 0 -f hls \"${outputFile}\"",
+        "Error executing FFmpeg: ${error.message}",
+        "FFmpeg stderr: ${stderr}",
+        "FFmpeg stdout: ${stdout}",
+        "'Thành công!'"
+    ],
+    "variables": [
+        "path",
+        "fs",
+        "inputVideo",
+        "outputDirectory",
+        "outputFile",
+        "ffmpegPath",
+        "ffmpegCommand"
+    ],
+    "comments": [
+        "Tạo thư mục lưu hls",
+        "Thực thi lệnh FFmpeg"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

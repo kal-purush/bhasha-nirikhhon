@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "customElement",
+        "TemplateResult",
+        "html",
+        "property",
+        "HacsRepositoryButton",
+        "customElement",
+        "HacsRepositoryButton",
+        "property",
+        "html",
+        "message"
+    ],
+    "literals": [
+        "\"lit-element\"",
+        "\"./HacsRepositoryButton\"",
+        "\"hacs-button-clear-new\"",
+        "string",
+        "<mwc-button @click=${this.ExecuteAction}>\n                ${this.hass.localize(`component.hacs.store.clear_new`)}\n            </mwc-button>",
+        "component.hacs.store.clear_new",
+        "\"hacs/settings\"",
+        "\"clear_new\""
+    ],
+    "variables": [
+        "message"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "render",
+        "ExecuteAction"
+    ],
+    "classes": [
+        "HacsButtonClearNew"
+    ]
+}

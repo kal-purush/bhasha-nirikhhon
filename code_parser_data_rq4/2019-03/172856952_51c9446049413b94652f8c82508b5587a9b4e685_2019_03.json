@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "Vue",
+        "DefineMutations",
+        "DefineGetters",
+        "DefineContext",
+        "DefineActions",
+        "DefineNamespace",
+        "state",
+        "state",
+        "state",
+        "state",
+        "value",
+        "state",
+        "value",
+        "mutations",
+        "getters",
+        "payload",
+        "commit",
+        "payload",
+        "mutations",
+        "getters",
+        "actions",
+        "mutations",
+        "getters",
+        "actions"
+    ],
+    "literals": [
+        "'vue'",
+        "'@/utilities/VuexDecorator'",
+        "string",
+        "''",
+        "' getter'",
+        "string",
+        "string",
+        "'setTypeSafe'",
+        "'type-safe-vuex'"
+    ],
+    "variables": [
+        "state",
+        "getters",
+        "mutations",
+        "actions",
+        "typeSafeVuexNS"
+    ],
+    "comments": [
+        "@ts-ignore",
+        "値をストアに保存"
+    ],
+    "docstrings": [
+        "* store 用インターフェイス",
+        "* state",
+        "* getters",
+        "* mutations",
+        "* actions",
+        "* typeSafeAction\n   * @param state\n   * @param commit\n   * @param payload",
+        "* namespace",
+        "* types"
+    ],
+    "functions": [
+        "typeSafeGetter",
+        "setTypeSafe",
+        "typeSafeAction"
+    ],
+    "classes": []
+}

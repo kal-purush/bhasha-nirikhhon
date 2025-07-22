@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "app",
+        "mainurl",
+        "alert",
+        "mainurl",
+        "app",
+        "theImage",
+        "theImage",
+        "app",
+        "mainurl",
+        "onInApp",
+        "app",
+        "onInApp",
+        "app",
+        "onInApp",
+        "app",
+        "onInApp",
+        "app"
+    ],
+    "literals": [
+        "'http://www.kimhauser.ch'",
+        "'deviceready'",
+        "\"\"",
+        "\"Error loading website \"",
+        "'logo'",
+        "'style'",
+        "'-webkit-transform:scale(1); opacity:1;'",
+        "'_blank'",
+        "'location=no,closebuttoncaption=Done,toolbar=no'",
+        "\"loadstart\"",
+        "\"loadstop\"",
+        "\"loaderror\"",
+        "\"exit\""
+    ],
+    "variables": [
+        "mainurl",
+        "app",
+        "onInApp"
+    ],
+    "comments": [
+        "Application Constructor",
+        "Bind Event Listeners",
+        "",
+        "Bind any events that are required on startup. Common events are:",
+        "'load', 'deviceready', 'offline', and 'online'.",
+        "document.addEventListener('load', this.onLoad, false);",
+        "deviceready Event Handler",
+        "",
+        "The scope of 'this' is the event. In order to call the 'receivedEvent'",
+        "function, we must explicitly call 'app.receivedEvent(...);'",
+        "onLoad: function() {",
+        "app.receivedEvent('load');",
+        "},",
+        "app.receivedEvent('deviceready');",
+        "This is needed on some phones!",
+        "Open in Chrome",
+        "window.open(mainurl, '_system');",
+        "Open in WebView",
+        "Update DOM on a Received Event",
+        "receivedEvent: function(id) {\n        console.log('Received Event: ' + id);\n        if(id == \"deviceready\")\n            app.loadLogo();\n    }"
+    ],
+    "docstrings": [
+        "* Licensed to the Apache Software Foundation (ASF) under one\n * or more contributor license agreements.  See the NOTICE file\n * distributed with this work for additional information\n * regarding copyright ownership.  The ASF licenses this file\n * to you under the Apache License, Version 2.0 (the\n * \"License\"); you may not use this file except in compliance\n * with the License.  You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing,\n * software distributed under the License is distributed on an\n * \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n * KIND, either express or implied.  See the License for the\n * specific language governing permissions and limitations\n * under the License."
+    ],
+    "functions": [],
+    "classes": []
+}

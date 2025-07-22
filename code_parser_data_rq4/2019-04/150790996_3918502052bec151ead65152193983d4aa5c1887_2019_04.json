@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "Output",
+        "EventEmitter",
+        "Guia",
+        "FormGroup",
+        "Subscription",
+        "GuiaService",
+        "NotifierService",
+        "BsModalRef",
+        "Component",
+        "guiaService",
+        "notifier",
+        "bsModalRef",
+        "Output",
+        "EventEmitter",
+        "FormGroup",
+        "form",
+        "numero",
+        "guia",
+        "guia"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'src/model/guia.model'",
+        "'@angular/forms'",
+        "'rxjs'",
+        "'src/app/shared/guia.service'",
+        "'angular-notifier'",
+        "'ngx-bootstrap/modal'",
+        "'app-eliminar-guiabloque'",
+        "'./eliminar-guiabloque.component.html'",
+        "'./eliminar-guiabloque.component.css'",
+        "'success'",
+        "'Se ha modificado la guía correctamente'"
+    ],
+    "variables": [
+        "numero"
+    ],
+    "comments": [
+        "error => {",
+        "this.notifier.notify('error', 'El número modificado ya existe');",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "onSubmit"
+    ],
+    "classes": [
+        "EliminarGuiabloqueComponent"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "date",
+        "hours",
+        "date",
+        "minutes",
+        "date",
+        "seconds",
+        "date",
+        "hour_rotation",
+        "hours",
+        "minutes",
+        "minute_rotation",
+        "minutes",
+        "seconds",
+        "second_rotation",
+        "seconds",
+        "hour",
+        "hour_rotation",
+        "minute",
+        "minute_rotation",
+        "second",
+        "second_rotation",
+        "setTimeout",
+        "setInterval",
+        "updateTime",
+        "updateTime"
+    ],
+    "literals": [
+        "translate(-50%, 0%) rotate(${hour_rotation}deg)",
+        "translate(-50%, 0%) rotate(${minute_rotation}deg)",
+        "translate(-50%, 0%) rotate(${second_rotation}deg)"
+    ],
+    "variables": [],
+    "comments": [
+        "multiple webpages will tik together"
+    ],
+    "docstrings": [],
+    "functions": [
+        "updateTime"
+    ],
+    "classes": []
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "sys",
+        "os",
+        "path",
+        "sys",
+        "path",
+        "append",
+        "path",
+        "dirname",
+        "path",
+        "dirname",
+        "path",
+        "abspath",
+        "src",
+        "automated_planner",
+        "AutomatedPlanner",
+        "src",
+        "heuristics",
+        "hs",
+        "AutomatedPlanner",
+        "hs",
+        "zero_heuristic",
+        "apla",
+        "initial_state",
+        "apla",
+        "heuristic",
+        "AutomatedPlanner",
+        "hs",
+        "goal_count_heuristic",
+        "apla",
+        "initial_state",
+        "apla",
+        "heuristic"
+    ],
+    "literals": [
+        "\"data/domain.pddl\"",
+        "\"data/problem.pddl\"",
+        "\"data/domain.pddl\"",
+        "\"data/problem.pddl\""
+    ],
+    "variables": [
+        "apla",
+        "heuristic",
+        "apla",
+        "heuristic"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "\"\"\"\nTesting the heuristics in different situations\nTo do:\n    - Run search algorithms and test value of h when at goal\n\"\"\""
+    ],
+    "functions": [
+        "test_zero_heuristic",
+        "test_goal_count_heuristic"
+    ],
+    "classes": []
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "com",
+        "jay",
+        "biz_movie",
+        "min",
+        "max",
+        "n",
+        "n",
+        "max",
+        "min",
+        "max",
+        "min",
+        "result",
+        "n",
+        "count",
+        "count",
+        "n",
+        "num",
+        "random",
+        "max",
+        "min",
+        "min",
+        "flag",
+        "j",
+        "j",
+        "n",
+        "j",
+        "num",
+        "result",
+        "j",
+        "flag",
+        "flag",
+        "result",
+        "count",
+        "num",
+        "count",
+        "result"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "条件校验",
+        "记录随机数的个数",
+        "Math.random() 返回带正号的 double 值，该值的区间为[0.0,1.0)",
+        "(max=10,min=1,random=0): num=1;",
+        "(max=10,min=1,random=0.5): num=4;",
+        "标记是否有重复元素",
+        "遍历整个数组查找重复项",
+        "当前随机数不包含在数组中，添加进数组"
+    ],
+    "docstrings": [
+        "* @author wangxuejie\n * @version 1.0\n * @date 2020/8/16",
+        "* 随机指定范围内N个不重复的随机数\n     * 最简单最易理解的两重循环去重\n     *\n     * @param min 指定范围最小值\n     * @param max 指定范围最大值\n     * @param n   随机数个数"
+    ],
+    "functions": [
+        "getRandomNumArray"
+    ],
+    "classes": [
+        "NumberUtils"
+    ]
+}

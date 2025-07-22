@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "jieba",
+        "time",
+        "time",
+        "perf_counter",
+        "text1",
+        "text2",
+        "jieba",
+        "cut",
+        "text1",
+        "jieba",
+        "cut",
+        "text2",
+        "len",
+        "words1",
+        "intersection",
+        "words2",
+        "len",
+        "words1",
+        "len",
+        "words2",
+        "intersection",
+        "intersection",
+        "union",
+        "similarity",
+        "jaccard_similarity",
+        "original_text",
+        "plagiarized_text",
+        "similarity",
+        "time",
+        "perf_counter",
+        "end",
+        "start"
+    ],
+    "literals": [
+        "\"今天是星期天，天气晴，今天晚上我要去看电影。\"",
+        "\"今天是星期天，天气晴，今天晚上我要去看电影。\"",
+        "f\"Jaccard相似度: {similarity:.2f}\"",
+        "f\"程序运行时间:{end - start:0.4f}秒\""
+    ],
+    "variables": [
+        "start",
+        "words1",
+        "words2",
+        "intersection",
+        "union",
+        "similarity",
+        "original_text",
+        "plagiarized_text",
+        "similarity",
+        "end"
+    ],
+    "comments": [
+        "使用jieba分词将文本转换为词语集合（集合可以确保唯一性）",
+        "计算Jaccard相似度"
+    ],
+    "docstrings": [
+        "'''with open(\"orig.txt\", \"r\", encoding='utf-8') as f:\n    original_text = f.read()\n\nwith open(\"orig_0.8_add.txt\", \"r\", encoding='utf-8') as f:\n    plagiarized_text = f.read()'''"
+    ],
+    "functions": [
+        "jaccard_similarity"
+    ],
+    "classes": []
+}

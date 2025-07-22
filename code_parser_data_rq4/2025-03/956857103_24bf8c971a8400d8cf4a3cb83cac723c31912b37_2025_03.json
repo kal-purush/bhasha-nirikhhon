@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "BlockCommandCallback",
+        "ExportFormat",
+        "getExporter",
+        "registerExportCommand",
+        "registerExportCommand",
+        "registerExportCommand",
+        "registerExportCommand",
+        "error",
+        "error",
+        "format",
+        "exportCallback",
+        "e",
+        "getExporter",
+        "format",
+        "exporter",
+        "e",
+        "error",
+        "format",
+        "error",
+        "logseq",
+        "format",
+        "formatToDisplayName",
+        "format",
+        "logseq",
+        "menuText",
+        "exportCallback",
+        "format",
+        "format",
+        "format"
+    ],
+    "literals": [
+        "'@logseq/libs/dist/LSPlugin.user'",
+        "'../core/types'",
+        "'../exports'",
+        "'Slack'",
+        "'WhatsApp'",
+        "'GoogleDocs'",
+        "'RichText'",
+        "'Error registering export commands:'",
+        "Error in ${format} export command:",
+        "Error exporting to ${format} format",
+        "Export to ${menuText}",
+        "string",
+        "'GoogleDocs'",
+        "'Google Docs'"
+    ],
+    "variables": [
+        "logseq",
+        "exportCallback",
+        "exporter",
+        "menuText"
+    ],
+    "comments": [
+        "Register export commands for each format",
+        "Create callback function for this format",
+        "Get the appropriate exporter",
+        "Export the block",
+        "Format the menu item text",
+        "Register with Logseq"
+    ],
+    "docstrings": [
+        "* Register export commands with Logseq",
+        "* Register an export command for a specific format\n * @param format The format to register a command for",
+        "* Format export format enum to display name\n * @param format The format enum value\n * @returns Formatted display name"
+    ],
+    "functions": [
+        "registerExportCommands",
+        "registerExportCommand",
+        "formatToDisplayName"
+    ],
+    "classes": []
+}

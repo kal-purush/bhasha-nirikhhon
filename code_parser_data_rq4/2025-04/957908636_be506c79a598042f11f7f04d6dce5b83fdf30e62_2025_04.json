@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "parsePhoneNumberWithError",
+        "phoneNumber",
+        "parsePhoneNumberWithError",
+        "phoneNumber",
+        "result",
+        "result",
+        "result"
+    ],
+    "literals": [
+        "'libphonenumber-js'",
+        "string",
+        "'ethio_telecom'",
+        "'safaricom'",
+        "string",
+        "string",
+        "'ET'",
+        "'Invalid phone number'",
+        "'9'",
+        "'ethio_telecom'",
+        "'safaricom'"
+    ],
+    "variables": [
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Parses and validates a phone number using libphonenumber-js.\n *\n * If the number is valid, returns the number in E.164 format and identifies\n * the provider based on the national number. Numbers starting with '9' are\n * assumed to belong to 'ethio_telecom', others to 'safaricom'.\n *\n * @param {string} phoneNumber - The phone number to parse and validate.\n *\n * @returns data - {@link ParsePhoneResult} - An object containing the parsed number and provider, or an error message.\n *\n * @example\n * const result = parsePhone('+251912345678');\n * if (result.error) {\n *   console.error(result.error);\n * } else {\n *   console.log(result.data?.number);   // \"+251912345678\"\n *   console.log(result.data?.provider); // \"ethio_telecom\"\n * }"
+    ],
+    "functions": [
+        "parsePhone"
+    ],
+    "classes": []
+}

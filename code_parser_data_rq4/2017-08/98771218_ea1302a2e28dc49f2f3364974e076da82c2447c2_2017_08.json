@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "NgModule",
+        "ModuleWithProviders",
+        "Routes",
+        "RouterModule",
+        "TasksFormComponent",
+        "TasksFormComponent",
+        "TasksFormComponent",
+        "NgModule",
+        "RouterModule",
+        "appRoutes",
+        "RouterModule"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/core'",
+        "'@angular/router'",
+        "'./components/tasks-form/tasks-form.component'",
+        "'add'",
+        "'edit/:id'"
+    ],
+    "variables": [
+        "appRoutes"
+    ],
+    "comments": [
+        "{ path: 'login', component: LoginComponent, canActivate: [LoginGuard]},",
+        "{ path: 'my-account', component: MyAccountComponent,canActivate: [AuthGuard]},",
+        "{ path: '**', redirectTo: 'not-found'}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppRoutingModule"
+    ]
+}

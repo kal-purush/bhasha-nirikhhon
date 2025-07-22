@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "math",
+        "val",
+        "rng",
+        "val",
+        "rng",
+        "val",
+        "rng",
+        "rng",
+        "rng",
+        "span",
+        "val",
+        "offs",
+        "span",
+        "math",
+        "floor",
+        "val_scaled",
+        "ColorMap",
+        "jet",
+        "cmap_idx",
+        "rgb"
+    ],
+    "literals": [],
+    "variables": [
+        "parula",
+        "jet",
+        "cmap_idx",
+        "cmap_idx",
+        "span",
+        "offs",
+        "val_scaled",
+        "cmap_idx",
+        "rgb"
+    ],
+    "comments": [
+        "if __name__ == \"__main__\":",
+        "test = ColorMap.get_rgb(0) # sb 0.0",
+        "test2 = ColorMap.get_rgb(0.5) # sb 0.75",
+        "test3 = ColorMap.get_rgb(-0.5) # sb 0.25",
+        "pass"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_rgb"
+    ],
+    "classes": [
+        "ColorMap"
+    ]
+}

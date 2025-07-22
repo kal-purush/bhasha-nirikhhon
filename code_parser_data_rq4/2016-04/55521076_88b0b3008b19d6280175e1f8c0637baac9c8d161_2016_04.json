@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "BaseSelector",
+        "i",
+        "current",
+        "record",
+        "results"
+    ],
+    "literals": [
+        "'./selectors/base'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Configuration Settings for a standard Storm instance.",
+        "* The is the data object that will be modified and provided during trials.",
+        "* The maxium number of generations, or a function which returns a boolean indicating when complete.\n     * When it is a function two parameters are recieved: generation number and current results (min, max, all, etc.).",
+        "* The maximum size of each generation.",
+        "* Used to execute target code by mapping supplied parameters to the correct usage.\n     * @param {any} params - The dynamic data set created randomly or via breeding/mutation.",
+        "* An optional transform function to convert a result into a numerical score.\n     * @param {IStormRecord} record - The current record, including runtime duration, initial parameters, and result data.",
+        "* Optional object for handling the selection of the best canidates from each generation.",
+        "* An unabridged collection of records with aggregated data used at the end of each generation.",
+        "* The sum of all of the scores across all generations (used to find averages).",
+        "* The average score across all generations.",
+        "* The average score for the current generation.",
+        "* The lowest scored record for the current generation.",
+        "* The highest scored record for the current generation.",
+        "* All records for the current generation.",
+        "* The lowest scored record across all generations.",
+        "* The highest scored record across all generations.",
+        "* All records across all generations.",
+        "* Creates a new StormResult to house the generation and lifetime data.",
+        "* Adds a new generation to the result instance.",
+        "* A single unit representing a completed run.",
+        "* The unique identifier for the record.",
+        "* The generation number of the record.",
+        "* The score this record has revieved. If the trial failed, the score will be zero.",
+        "* Flag to determine if the trial was succesful.",
+        "* The dynamic dataset that was provided in this trial.",
+        "* The calculated result of the run function.",
+        "* The number of milliseconds it took for this trial to execute."
+    ],
+    "functions": [],
+    "classes": [
+        "StormResult"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "SenseNet",
+        "ContentRepository",
+        "Security",
+        "SenseNet",
+        "Services",
+        "Virtualization",
+        "ILogoutExecutor",
+        "ultimateLogout",
+        "Func",
+        "PortalPrincipal"
+    ],
+    "literals": [],
+    "variables": [
+        "LoadPortalPrincipalForLogout"
+    ],
+    "comments": [
+        "An ultimate logout feature, that helps users to log out from their sessions on all workstations they were logged in.",
+        "</summary>",
+        "Executes the logout process.",
+        "</summary>",
+        "<param name=\"ultimateLogout\">Whether this should be an ultimate logout. If set to True, the user will be logged out from all clients.</param>",
+        "Loads the portal principal from the repository by the given user name.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Logout"
+    ],
+    "classes": []
+}

@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "GameObject",
+        "GameObject",
+        "winner"
+    ],
+    "literals": [
+        "'../game-engine/gameObject.js'",
+        "'P1'",
+        "'P2'",
+        "'left'",
+        "P1 - ${this.p1Score}",
+        "'right'",
+        "P2 - ${this.p2Score}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "p1Point",
+        "p2Point",
+        "checkGameOver",
+        "draw",
+        "onGameOver"
+    ],
+    "classes": [
+        "Score"
+    ]
+}

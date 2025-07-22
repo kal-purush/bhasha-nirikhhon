@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "MongoClient",
+        "Db",
+        "run",
+        "MongoClient",
+        "MONGODB_URI",
+        "client",
+        "dbInstance",
+        "client",
+        "dbInstance",
+        "fn",
+        "user",
+        "client"
+    ],
+    "literals": [
+        "\"mongodb\"",
+        "\"mongodb://localhost:27017/test-database\"",
+        "\"'Juan Pérez';sleep(5000)\"",
+        "'function () { const search ='",
+        "';return this.name == search;}'",
+        "\"users\""
+    ],
+    "variables": [
+        "dbInstance",
+        "MONGODB_URI",
+        "run",
+        "client",
+        "fn",
+        "user"
+    ],
+    "comments": [
+        "const user = await dbInstance.collection(\"users\").findOne({\n    $where: function () {\n      const nombre = search;\n      return this.nombre == nombre;\n    },\n  });"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

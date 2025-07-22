@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "Component",
+        "View",
+        "EventEmitter",
+        "GrandParentCmp",
+        "ParentCmp",
+        "GrandChildCmp",
+        "Component",
+        "View",
+        "GrandChildCmp",
+        "EventEmitter"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'client/grandparent'",
+        "'client/parent'",
+        "'client/grandchild'",
+        "'child'",
+        "'update'",
+        "<div style=\"background-color: orange; padding: 10px;\">\n    <h1>Child</h1>\n\n    <div style=\"text-align: center;\">\n      <p>{{counter}}</p>\n      <button (click)=\"onClick()\" class=\"btn\">Click Me</button>\n      <button (^click)=\"onClick()\" class=\"btn\">Click Parent</button>\n    </div>\n\n\n    <grand-child></grand-child>\n  </div>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "onClick"
+    ],
+    "classes": [
+        "ChildCmp"
+    ]
+}

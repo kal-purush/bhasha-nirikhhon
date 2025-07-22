@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "AWS",
+        "AWS",
+        "dynamo",
+        "getParams",
+        "err",
+        "data",
+        "err",
+        "data"
+    ],
+    "literals": [
+        "\"aws-sdk\"",
+        "\"http://localhost:8000\"",
+        "\"ap-north-east1\"",
+        "\"User\"",
+        "\"SlackID\"",
+        "\"GitHubID\"",
+        "\"SlackID\"",
+        "\"User\""
+    ],
+    "variables": [
+        "dynamo",
+        "getParams"
+    ],
+    "comments": [
+        "put Item\ndynamo.putItem(params, (err, data) => {\n  console.log(err);\n  console.log(data);\n});",
+        "get Item"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

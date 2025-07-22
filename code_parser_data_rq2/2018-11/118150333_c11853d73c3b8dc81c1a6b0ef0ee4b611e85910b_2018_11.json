@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "tools",
+        "Client",
+        "Options",
+        "Client",
+        "server",
+        "protocol",
+        "server",
+        "protocol",
+        "error",
+        "tools",
+        "error",
+        "setTimeout",
+        "Options",
+        "protocol",
+        "protocol",
+        "server",
+        "protocol",
+        "setTimeout",
+        "tools",
+        "ClientRE"
+    ],
+    "literals": [
+        "'./lib/tools'",
+        "'./lib/client'",
+        "'./options'",
+        "string",
+        "string",
+        "'clientError'",
+        "'close'",
+        "'#'",
+        "''",
+        "'尝试重连服务器失败，五分钟后再次重新连接'"
+    ],
+    "variables": [
+        "server",
+        "protocol"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* 客户端, 可自动重连\n *\n * @class ClientRE\n * @extends {Client}",
+        "* Creates an instance of ClientRE.\n   * @param {string} server\n   * @param {string} protocol\n   * @memberof Client",
+        "* 重连次数, 以五次为阈值\n   *\n   * @type {number}\n   * @memberof ClientRE",
+        "* 重新连接\n   *\n   * @private\n   * @memberof ClientRE",
+        "* 5分钟后重新连接\n   *\n   * @private\n   * @memberof ClientRE"
+    ],
+    "functions": [
+        "_ClientReConnect",
+        "_DelayReConnect"
+    ],
+    "classes": [
+        "ClientRE"
+    ]
+}

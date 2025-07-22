@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "random",
+        "randrange",
+        "randrange",
+        "randrange",
+        "id",
+        "id",
+        "collision_occurred",
+        "Collision",
+        "get_point_string",
+        "collision_point"
+    ],
+    "literals": [
+        "\"Y\"",
+        "\"N\"",
+        "\"CL1\"",
+        "\"CL2\"",
+        "\"CL3\"",
+        "\"CL4\"",
+        "\"CL5\"",
+        "\"CP1\"",
+        "\"CS1\"",
+        "\"CS2\"",
+        "\"None\"",
+        "f\"{self.collision_occurred}, {Collision.get_point_string(self.collision_point)}\"",
+        "\"Collision, Collision_point\""
+    ],
+    "variables": [
+        "collision_occurred",
+        "collision_point"
+    ],
+    "comments": [
+        "Generate collision point"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_point_string",
+        "__repr__",
+        "get_headers"
+    ],
+    "classes": [
+        "Collision"
+    ]
+}

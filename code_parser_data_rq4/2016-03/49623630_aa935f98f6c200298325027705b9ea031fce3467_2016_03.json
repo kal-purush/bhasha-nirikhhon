@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "com",
+        "android",
+        "bluetooth",
+        "gatt",
+        "java",
+        "util",
+        "java",
+        "util",
+        "Iterator",
+        "java",
+        "util",
+        "java",
+        "util",
+        "UUID",
+        "TYPE_PRIMARY_SERVICE",
+        "TYPE_SECONDARY_SERVICE",
+        "TYPE_INCLUDED_SERVICE",
+        "TYPE_CHARACTERISTIC",
+        "TYPE_DESCRIPTOR",
+        "id",
+        "uuid",
+        "attributeHandle",
+        "startHandle",
+        "endHandle",
+        "properties"
+    ],
+    "literals": [],
+    "variables": [
+        "id",
+        "uuid",
+        "type",
+        "attributeHandle",
+        "startHandle",
+        "endHandle",
+        "properties"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (C) 2016 The Android Open Source Project\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Helper class for passing gatt db elements between java and JNI, equal to\n * native btgatt_db_element_t.\n * @hide",
+        "* If type is TYPE_PRIMARY_SERVICE, or TYPE_SECONDARY_SERVICE,\n     * this contains the start and end attribute handles.",
+        "* If type is TYPE_CHARACTERISTIC, this contains the properties of\n     * the characteristic."
+    ],
+    "functions": [
+        "GattDbElement"
+    ],
+    "classes": [
+        "GattDbElement"
+    ]
+}

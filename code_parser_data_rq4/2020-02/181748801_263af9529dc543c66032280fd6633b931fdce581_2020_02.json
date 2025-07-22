@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "org",
+        "odpi",
+        "egeria",
+        "connectors",
+        "ibm",
+        "ia",
+        "clientlibrary",
+        "java",
+        "util",
+        "java",
+        "util",
+        "java",
+        "util",
+        "regex",
+        "Pattern",
+        "COOKIE_WHITELIST",
+        "Pattern",
+        "compile",
+        "VALID_COOKIE_NAMES",
+        "createValidCookieNames",
+        "add",
+        "add",
+        "add",
+        "add",
+        "VALID_COOKIE_NAMES"
+    ],
+    "literals": [
+        "\"^[{}.+/=:; a-zA-Z0-9_%\\\\-]+$\"",
+        "\"LtpaToken2\"",
+        "\"JSESSIONID\"",
+        "\"X-IBM-IISSessionId\"",
+        "\"X-IBM-IISSessionToken\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "SPDX-License-Identifier: Apache-2.0",
+        "Copyright Contributors to the ODPi Egeria project.",
+        "* Set of constants for IA REST API usage.",
+        "* Retrieve the set of valid cookie names for the IGC REST API.\n     *\n     * @return {@code Set<String>}"
+    ],
+    "functions": [
+        "createValidCookieNames",
+        "getValidCookieNames"
+    ],
+    "classes": [
+        "IARestConstants"
+    ]
+}

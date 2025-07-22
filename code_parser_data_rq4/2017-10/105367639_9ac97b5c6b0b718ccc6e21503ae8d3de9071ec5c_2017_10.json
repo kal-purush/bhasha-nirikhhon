@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Product",
+        "products",
+        "Injectable",
+        "products"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'./product.class'",
+        "'./product.mockData'"
+    ],
+    "variables": [],
+    "comments": [
+        "stub",
+        "the following function is to simulate a slow connection, it's just for testing",
+        "getProductsSlowly(): Promise<Product[]> {",
+        "return new Promise(resolve => {",
+        "// Simulate server latency with 2 second delay",
+        "setTimeout(() => resolve(this.getProducts()), 2000);",
+        "});",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getProducts"
+    ],
+    "classes": [
+        "ProductService"
+    ]
+}

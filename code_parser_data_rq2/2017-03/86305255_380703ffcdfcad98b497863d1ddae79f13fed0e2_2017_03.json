@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "require",
+        "Infinity",
+        "$isFinite",
+        "ignore",
+        "$isFinite",
+        "isFinite",
+        "number",
+        "number",
+        "$isNaN",
+        "number",
+        "number",
+        "Infinity",
+        "number",
+        "Infinity"
+    ],
+    "literals": [
+        "'use strict'",
+        "'is-nan'",
+        "'function'",
+        "'number'"
+    ],
+    "variables": [
+        "$isNaN",
+        "$isFinite"
+    ],
+    "comments": [
+        "eslint strict: 1",
+        "global module",
+        "eslint-disable-line no-extra-semi"
+    ],
+    "docstrings": [
+        "* @file\n * <a href=\"https://travis-ci.org/Xotic750/is-finite-x\"\n * title=\"Travis status\">\n * <img\n * src=\"https://travis-ci.org/Xotic750/is-finite-x.svg?branch=master\"\n * alt=\"Travis status\" height=\"18\">\n * </a>\n * <a href=\"https://david-dm.org/Xotic750/is-finite-x\"\n * title=\"Dependency status\">\n * <img src=\"https://david-dm.org/Xotic750/is-finite-x.svg\"\n * alt=\"Dependency status\" height=\"18\"/>\n * </a>\n * <a\n * href=\"https://david-dm.org/Xotic750/is-finite-x#info=devDependencies\"\n * title=\"devDependency status\">\n * <img src=\"https://david-dm.org/Xotic750/is-finite-x/dev-status.svg\"\n * alt=\"devDependency status\" height=\"18\"/>\n * </a>\n * <a href=\"https://badge.fury.io/js/is-finite-x\" title=\"npm version\">\n * <img src=\"https://badge.fury.io/js/is-finite-x.svg\"\n * alt=\"npm version\" height=\"18\">\n * </a>\n *\n * ES6-compliant shim for Number.isFinite.\n *\n * Requires ES3 or above.\n *\n * @see {@link http://www.ecma-international.org/ecma-262/6.0/#sec-number.isfinite|20.1.2.2 Number.isFinite ( number )}\n *\n * @version 1.0.0\n * @author Xotic750 <Xotic750@gmail.com>\n * @copyright  Xotic750\n * @license {@link <https://opensource.org/licenses/MIT> MIT}\n * @module is-finite-x",
+        "* This method determines whether the passed value is a finite number.\n   *\n   * @param {*} number The value to be tested for finiteness.\n   * @return {boolean} A Boolean indicating whether or not the given value is a finite number.\n   * @example\n   * var numIsFinite = require('is-finite-x');\n   *\n   * numIsFinite(Infinity);  // false\n   * numIsFinite(NaN);       // false\n   * numIsFinite(-Infinity); // false\n   *\n   * numIsFinite(0);         // true\n   * numIsFinite(2e64);      // true\n   *\n   * numIsFinite('0');       // false, would've been true with\n   *                         // global isFinite('0')\n   * numIsFinite(null);      // false, would've been true with"
+    ],
+    "functions": [],
+    "classes": []
+}

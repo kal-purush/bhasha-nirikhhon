@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "com",
+        "got",
+        "familytree",
+        "org",
+        "springframework",
+        "boot",
+        "CommandLineRunner",
+        "org",
+        "springframework",
+        "boot",
+        "SpringApplication",
+        "org",
+        "springframework",
+        "boot",
+        "autoconfigure",
+        "SpringBootApplication",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Bean",
+        "com",
+        "got",
+        "familytree",
+        "service",
+        "CharacterService",
+        "SpringBootApplication",
+        "args",
+        "SpringApplication",
+        "run",
+        "args",
+        "Bean",
+        "characterService",
+        "args",
+        "characterService",
+        "storeCharactersFromJsonFile"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "import org.springframework.beans.factory.annotation.Autowired;",
+        "@Autowired",
+        "private CharacterService characterService;",
+        "",
+        "public GotFamilyTreeApplication(CharacterService characterService) {",
+        "this.characterService = characterService;",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main",
+        "CommandLineRunner",
+        "runner"
+    ],
+    "classes": [
+        "GotFamilyTreeApplication"
+    ]
+}

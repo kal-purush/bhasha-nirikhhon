@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "com",
+        "abhishek",
+        "myappclient",
+        "com",
+        "netflix",
+        "hystrix",
+        "contrib",
+        "javanica",
+        "annotation",
+        "HystrixCommand",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Autowired",
+        "org",
+        "springframework",
+        "stereotype",
+        "Service",
+        "org",
+        "springframework",
+        "web",
+        "client",
+        "RestTemplate",
+        "Service",
+        "Autowired",
+        "restTemplate",
+        "HystrixCommand",
+        "fallbackMethod",
+        "url",
+        "restTemplate",
+        "getForObject",
+        "url",
+        "hystrixException"
+    ],
+    "literals": [
+        "\"helloFallback\"",
+        "\"http://MYAPP-SERVER/api/server\"",
+        "\"fallback hello\""
+    ],
+    "variables": [
+        "restTemplate"
+    ],
+    "comments": [
+        "Note: Hystrix command works only with @Component or @Service",
+        "Throwable obj will have the actual error which caused for fallback"
+    ],
+    "docstrings": [
+        "* Created by jawala on 6/26/2017."
+    ],
+    "functions": [
+        "getHelloServer",
+        "helloFallback"
+    ],
+    "classes": [
+        "ClientService"
+    ]
+}

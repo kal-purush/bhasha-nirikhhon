@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "readFileSync",
+        "warn",
+        "compile",
+        "serverRender",
+        "UserConfig",
+        "createFrontendPage",
+        "target",
+        "options",
+        "readFileSync",
+        "target",
+        "serverRender",
+        "page",
+        "ssr",
+        "servercompiled",
+        "a",
+        "a",
+        "e",
+        "warn",
+        "e",
+        "compile",
+        "page",
+        "browserSource",
+        "browserSource",
+        "createFrontendPage",
+        "ssr",
+        "options",
+        "build",
+        "build",
+        "browserSource",
+        "output"
+    ],
+    "literals": [
+        "'fs'",
+        "'@zely-js/logger'",
+        "'segify'",
+        "'~/zely-js-core/types'",
+        "'..'",
+        "string",
+        "'utf-8'",
+        "''",
+        "''",
+        "${e.toString()} -> server rendered html will not be applied",
+        "${browserSource};const __props = JSON.parse(document.getElementById(\"__fe_props\").innerText);document.getElementById(\"__fe\").innerHTML = \"\";var __c=new Component(__props);__c.render(document.getElementById(\"__fe\"));",
+        "'__fe'",
+        "'__fe_props'",
+        "'application/json'",
+        "'%props%'",
+        "'link'",
+        "'@zely-js/core:html'",
+        "'js'"
+    ],
+    "variables": [
+        "page",
+        "ssr",
+        "servercompiled",
+        "browserSource",
+        "output"
+    ],
+    "comments": [
+        "TODO : hydration"
+    ],
+    "docstrings": [
+        "* Enhanced html renderer - using https://segify.vercel.app/"
+    ],
+    "functions": [
+        "useEnhancedHTML",
+        "setup"
+    ],
+    "classes": []
+}

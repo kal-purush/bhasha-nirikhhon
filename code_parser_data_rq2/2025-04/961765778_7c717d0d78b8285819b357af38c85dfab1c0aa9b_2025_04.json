@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Rule"
+    ],
+    "literals": [
+        "\"../types/rules\"",
+        "\"code-style\"",
+        "\"Code Style and Patterns\"",
+        "\"General TypeScript, naming, and formatting conventions\"",
+        "# Code Style and Patterns\n\n- Follow TypeScript best practices.\n- Use meaningful variable and function names.\n- Naming conventions:\n  - PascalCase for components\n  - camelCase for variables and functions\n- Structure conventions:\n  - Follow existing folder and file organization patterns\n- Create semantically correct components with clear boundaries:\n  - Each component should have a single, well-defined purpose.\n  - Separate UI elements with different responsibilities (e.g., navigation vs. data manipulation).\n  - Avoid mixing unrelated functionality (e.g., don't place action buttons inside breadcrumb components).\n- Maintain consistent formatting.\n- Prioritize readability and maintainability.\n- Throw errors sparingly. Error messages should end with a period.\n- Use TanStack Query for all API interactions.",
+        "\"component-rules\"",
+        "\"React Aria Components\"",
+        "\"Rules for building reusable React Aria components\"",
+        "# React Aria Components\n\nWhen implementing UI components in the frontend, follow these rules carefully.\n\n## File and Naming Conventions _(Rule Type: File Creation Only)_\n\n- Component filenames **must use PascalCase**.  \n  ✅ \\`Checkbox.tsx\\`, \\`UserCard.tsx\\`  \n  ❌ \\`checkbox.tsx\\`, \\`user-card.tsx\\`\n- The filename must match the exported component name exactly.\n- Use PascalCase for component exports (e.g., \\`export const UserCard = () => {}\\`).\n- Use camelCase for variable and function names.\n- Avoid default exports — always use named exports.\n- Folders can use lowercase unless otherwise standardized in the project.\n\n## Implementation Guidelines\n\n- Use React Aria components from \\`src/components/ui/ComponentName\\`.\n- Prefer clear, descriptive names over comments.\n- Use the \\`@components\\` alias or search relevant folders to locate existing components.\n- Reuse existing components instead of duplicating UI.\n- Apply proper accessibility (ARIA) attributes.\n- Follow each component's documentation and established usage patterns.",
+        "\"file-naming\"",
+        "\"File and Naming Conventions\"",
+        "\"Rules for filenames, exports, and folder organization\"",
+        "# File and Naming Conventions\n\n_(Rule Type: File Creation Only)_\n\n- Component filenames **must use PascalCase**.  \n  ✅ \\`Checkbox.tsx\\`, \\`UserCard.tsx\\`  \n  ❌ \\`checkbox.tsx\\`, \\`user-card.tsx\\`\n- The filename must match the exported component name exactly.\n- Use PascalCase for component exports (e.g., \\`export const UserCard = () => {}\\`).\n- Use camelCase for variable and function names.\n- Avoid default exports — always use named exports.\n- Folders can use lowercase unless otherwise standardized in the project.",
+        "\"form-validation\"",
+        "\"Form Validation Rules\"",
+        "\"Form validation conventions using react-hook-form and zod\"",
+        "# Form Validation Rules\n\nThis file outlines project-specific rules and patterns for building and validating forms in the frontend.\n\n## Libraries\n\n- Use \\`react-hook-form\\` for form state management.\n- Use \\`zod\\` for schema-based validation.\n- Integrate both via \\`@hookform/resolvers/zod\\`.\n- Use \\`yup\\` **only** if working on legacy forms. Prefer migrating to \\`zod\\` when refactoring.\n\n## Validation Rules\n\n- Always define a schema for validation.\n- Define validation schemas in a separate file under \\`src/validations/\\` or \\`src/forms/schemas/\\`.\n- Do not use inline validation rules directly in JSX.\n- Display validation errors next to the relevant field.\n- Use the \\`FormErrorMessage\\` component to show errors consistently.\n- Fields marked as \\`required\\` must be clearly labeled with an asterisk or hint text.\n- Use \\`isRequired\\` and \\`aria-required\\` attributes on required fields.\n- Match field names in the schema exactly with the component's \\`name\\` prop.\n- Validate on submit by default. Use \\`onBlur\\` or \\`onChange\\` only if needed for better UX."
+    ],
+    "variables": [
+        "DEFAULT_RULES"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "prometheus_client",
+        "pc",
+        "prometheus_push_client",
+        "formats",
+        "BaseFormat",
+        "BaseFormat",
+        "maketrans",
+        "sample",
+        "metric",
+        "sample",
+        "labels",
+        "k",
+        "v",
+        "translate",
+        "ESCAPING",
+        "k",
+        "v",
+        "sample",
+        "labels",
+        "items",
+        "join",
+        "tags",
+        "sample",
+        "timestamp",
+        "sample",
+        "timestamp",
+        "FMT_DATAPOINT",
+        "measurement",
+        "sample",
+        "name",
+        "tag_set",
+        "tag_set",
+        "value",
+        "sample",
+        "value",
+        "timestamp",
+        "ts"
+    ],
+    "literals": [
+        "\"%(measurement)s%(tag_set)s %(value)s%(timestamp)s\"",
+        "'\"'",
+        "r'\\\"'",
+        "'\\\\'",
+        "r'\\\\'",
+        "'\\n'",
+        "r'\\n'",
+        "\"\"",
+        "f'{k}=\"{v.translate(self.ESCAPING)}\"'",
+        "\"{%s}\"",
+        "\",\"",
+        "\"\"",
+        "\" %s\""
+    ],
+    "variables": [
+        "FMT_DATAPOINT",
+        "ESCAPING",
+        "tag_set",
+        "tags",
+        "tag_set",
+        "ts",
+        "ts"
+    ],
+    "comments": [
+        "TODO: TYPE string?"
+    ],
+    "docstrings": [
+        "\"\"\"\n    As described at:\n    https://github.com/OpenObservability/OpenMetrics/blob/main/specification/OpenMetrics.md\n    \"\"\""
+    ],
+    "functions": [
+        "format_sample"
+    ],
+    "classes": [
+        "OpenMetricsFormat"
+    ]
+}

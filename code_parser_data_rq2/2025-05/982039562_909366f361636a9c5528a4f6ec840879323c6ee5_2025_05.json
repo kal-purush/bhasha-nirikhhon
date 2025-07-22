@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "process",
+        "process",
+        "mysql",
+        "config",
+        "pool",
+        "pool",
+        "err",
+        "connection",
+        "err",
+        "err",
+        "err",
+        "err",
+        "err",
+        "connection",
+        "connection",
+        "pool"
+    ],
+    "literals": [
+        "\"mysql2\"",
+        "\"dotenv\"",
+        "\"localhost\"",
+        "'BookCycle'",
+        "'PROTOCOL_CONNECTION_LOST'",
+        "'Database connection was closed.'",
+        "'ER_CON_COUNT_ERROR'",
+        "'Database has too many connections.'",
+        "'ECONNREFUSED'",
+        "'Database connection was refused.'",
+        "'ETIMEDOUT'",
+        "'Database connection timed out.'",
+        "'MySQL 연결 성공'"
+    ],
+    "variables": [
+        "mysql",
+        "config",
+        "pool",
+        "promisePool"
+    ],
+    "comments": [
+        "연결 설정",
+        "20초",
+        "max idle connections, the default value is the same as `connectionLimit`",
+        "idle connections timeout, in milliseconds, the default value 60000",
+        "연결 풀 생성",
+        "프로미스 래퍼 사용",
+        "연결 테스트"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

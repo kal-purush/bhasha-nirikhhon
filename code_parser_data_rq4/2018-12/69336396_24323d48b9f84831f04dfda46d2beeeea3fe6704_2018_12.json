@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "os",
+        "sys",
+        "time",
+        "raw_input",
+        "input",
+        "input",
+        "os",
+        "system",
+        "hostip",
+        "ippacketData",
+        "number",
+        "icmp_startattack"
+    ],
+    "literals": [
+        "\"target system's ip address\"",
+        "\"Enter the size of each of the ip packet\"",
+        "\"Enter the number of packets to sent\"",
+        "\"Attacking the target with crafted icmp packets\"",
+        "\"ping\"",
+        "\"-l\"",
+        "\"-n\"",
+        "\"Attack finished\""
+    ],
+    "variables": [
+        "hostip",
+        "ippacketData",
+        "number"
+    ],
+    "comments": [
+        "This is python script for peforming the icmp flood attack",
+        "789sk.gupta@gmail.com",
+        "icmp_ping for defragmentation of the network packets",
+        "system commands exexution module",
+        "import socket",
+        "recommended size 65500 which is max available for ip packet",
+        "execution of the attack in the shell",
+        "t = time.time()",
+        "os.popen(\"ping 192.168.43.1 -w 1 -n 2\")",
+        "os command to start attack",
+        "where n points to time b/w per echo request and reply",
+        "and n points to the number of packets with which every icmp request is to be sent to the h",
+        "called the main attack execution function",
+        "temporarily program ends"
+    ],
+    "docstrings": [],
+    "functions": [
+        "icmp_startattack"
+    ],
+    "classes": []
+}

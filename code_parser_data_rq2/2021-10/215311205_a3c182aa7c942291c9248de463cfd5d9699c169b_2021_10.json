@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "suds",
+        "ulmo",
+        "pyhis",
+        "pyhis",
+        "Services",
+        "services",
+        "get_data_providers",
+        "idx",
+        "provider",
+        "providers",
+        "iterrows",
+        "provider",
+        "provider",
+        "name",
+        "end",
+        "flush",
+        "ulmo",
+        "cuahsi",
+        "wof",
+        "get_sites",
+        "wsdl",
+        "e",
+        "e",
+        "i",
+        "f",
+        "failed",
+        "items",
+        "i",
+        "f"
+    ],
+    "literals": [
+        "'NetworkName'",
+        "'servURL'",
+        "f'Querying {name}...'",
+        "''",
+        "'success'",
+        "'FAILED'",
+        "'\\nThe following providers failed during GetSites query'",
+        "f'{i}: {f}'"
+    ],
+    "variables": [
+        "services",
+        "providers",
+        "failed",
+        "name",
+        "wsdl",
+        "sites",
+        "failed",
+        "name"
+    ],
+    "comments": [
+        "wsdl = 'https://hydro1.gesdisc.eosdis.nasa.gov/daac-bin/his/1.0/NLDAS_FORA_002.cgi?WSDL'",
+        "client = suds.client.Client(wsdl)",
+        "for method in client.wsdl.services[0].ports[0].methods.values():",
+        "print('%s(%s)' % (method.name, ', '.join('%s: %s' % (part.type, part.name) for part in method.soap.input.body.parts)))",
+        "import pdb; pdb.set_trace()",
+        "def test_his_getsites():"
+    ],
+    "docstrings": [
+        "\"\"\"\nFAILED: TRMM_3B42_7 - Type not found: 'queryInfo'\nFAILED: EnviroDIY - HTTP Error 500: Internal Server Error\nFAILED: NLDAS_FORA - Server raised fault: 'Unrecognized service. List of available method(s): GetSites GetSitesXml GetSiteInfo GetSiteInfoObject GetVariableInfo GetVariableInfoObject GetValues GetValuesObject'\nFAILED: TarlandHydrology - <unknown>:138:7: mismatched tag\nFAILED: WW2100 OHIS - <unknown>:138:7: mismatched tag\nFAILED: NLDAS_NOAH - Server raised fault: 'Unrecognized service. List of available method(s): GetSites GetSitesXml GetSiteInfo GetSiteInfoObject GetVariableInfo GetVariableInfoObject GetValues GetValuesObject'\nFAILED: OGIMET-ARCTIC - <unknown>:1:269: not well-formed (invalid token)\nFAILED: GHCN - 'location'\nFAILED: EPA_Lake_Harsha_Data - <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1056)>\nFAILED: RushValley - HTTP Error 404: Not Found\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

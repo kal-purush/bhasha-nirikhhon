@@ -1,0 +1,93 @@
+{
+    "identifiers": [
+        "todos",
+        "$scope",
+        "$location",
+        "ng",
+        "todoStorage",
+        "filterFilter",
+        "$scope",
+        "todoStorage",
+        "$scope",
+        "$scope",
+        "$scope",
+        "$scope",
+        "$scope",
+        "path",
+        "path",
+        "$location",
+        "$location",
+        "$scope",
+        "$location",
+        "path",
+        "path",
+        "path",
+        "newTodo",
+        "TodoItem",
+        "newTodo",
+        "todoItem",
+        "todoItem",
+        "todoItem",
+        "todoItem",
+        "todoItem",
+        "todoItem",
+        "todoItem",
+        "todoItem",
+        "todoItem",
+        "todoItem",
+        "todoItem",
+        "completed",
+        "todoItem",
+        "todoItem",
+        "completed"
+    ],
+    "literals": [
+        "'use strict'",
+        "'$scope'",
+        "'$location'",
+        "'todoStorage'",
+        "'filterFilter'",
+        "''",
+        "'todos'",
+        "'location.path()'",
+        "''",
+        "'/'",
+        "string",
+        "'/active'",
+        "'/completed'",
+        "string",
+        "''"
+    ],
+    "variables": [
+        "newTodo"
+    ],
+    "comments": [
+        "<reference path='../_all.ts' />",
+        "$inject annotation.",
+        "It provides $injector with information about dependencies to be injected into constructor",
+        "it is better to have it close to the constructor, because the parameters must match in count and type.",
+        "See http://docs.angularjs.org/guide/di",
+        "dependencies are injected via AngularJS $injector",
+        "controller's name is registered in Application.ts and specified from ng-controller attribute in index.html",
+        "'vm' stands for 'view model'. We're adding a reference to the controller to the scope",
+        "for its methods to be accessible from view / HTML",
+        "watching for events/changes in scope, which are caused by view/user input",
+        "if you subscribe to scope or event with lifetime longer than this controller, make sure you unsubscribe."
+    ],
+    "docstrings": [
+        "* The333333 main controller for the app. The controller:\n     * - retrieves and persists the model via the todoStorage service\n     * - exposes the model to the template and provides event handlers"
+    ],
+    "functions": [
+        "onPath",
+        "onTodos",
+        "addTodo",
+        "editTodo",
+        "doneEditing",
+        "removeTodo",
+        "clearDoneTodos",
+        "markAll"
+    ],
+    "classes": [
+        "TodoCtrl"
+    ]
+}

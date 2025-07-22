@@ -1,0 +1,85 @@
+{
+    "identifiers": [
+        "sourceCollection",
+        "sourceCollection",
+        "item",
+        "sourceCollection",
+        "add",
+        "item",
+        "_size",
+        "len",
+        "join",
+        "other",
+        "item",
+        "other",
+        "result",
+        "add",
+        "item",
+        "result",
+        "other",
+        "other",
+        "other",
+        "len",
+        "len",
+        "other",
+        "iter",
+        "other",
+        "item",
+        "item",
+        "next",
+        "otherIter",
+        "item",
+        "current",
+        "current",
+        "item",
+        "total",
+        "total",
+        "_modCount",
+        "_modCount"
+    ],
+    "literals": [
+        "\"[\"",
+        "\", \"",
+        "\"]\""
+    ],
+    "variables": [
+        "_size",
+        "_modCount",
+        "result",
+        "otherIter",
+        "total",
+        "_size",
+        "_modCount"
+    ],
+    "comments": [
+        "Constructor",
+        "Accessor methods"
+    ],
+    "docstrings": [
+        "\"\"\"\nFile: abstractcollection.py\nAuthor: YOUR NAME GOES HERE\n\"\"\"",
+        "\"\"\"An abstract collection implementation.\"\"\"",
+        "\"\"\"Sets the initial state of self, which includes the\n        contents of sourceCollection, if it's present.\"\"\"",
+        "\"\"\"-> The number of items in self.\"\"\"",
+        "\"\"\"Returns the string representation of self.\"\"\"",
+        "\"\"\"Returns a new collection consisting of the\n        items in self and other.\"\"\"",
+        "\"\"\"Returns True if self equals other,\n        or False otherwise.\"\"\"",
+        "\"\"\"Returns the number of instances of item in self.\"\"\"",
+        "\"\"\"Returns the number of mutations to this collection.\"\"\"",
+        "\"\"\"Increments the number of mutations by one.\"\"\"",
+        "\"\"\"Resets the numbers of items and mutations to 0.\"\"\""
+    ],
+    "functions": [
+        "__len__",
+        "isEmpty",
+        "__str__",
+        "__add__",
+        "__eq__",
+        "count",
+        "getModCount",
+        "incModCount",
+        "resetSizeAndModCount"
+    ],
+    "classes": [
+        "AbstractCollection"
+    ]
+}

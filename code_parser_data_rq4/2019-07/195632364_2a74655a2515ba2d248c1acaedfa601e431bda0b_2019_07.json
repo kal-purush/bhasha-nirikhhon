@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "scp",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Value",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "GetMapping",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "RestController",
+        "RestController",
+        "Value",
+        "appName",
+        "Value",
+        "eurekaServerName",
+        "Value",
+        "port",
+        "GetMapping",
+        "sb",
+        "sb",
+        "append",
+        "append",
+        "appName",
+        "append",
+        "append",
+        "eurekaServerName",
+        "append",
+        "append",
+        "port",
+        "sb",
+        "toString"
+    ],
+    "literals": [
+        "\"${spring.application.name}\"",
+        "\"${eureka.client.service-url.defaultZone}\"",
+        "\"${server.port}\"",
+        "\"/configInfo\"",
+        "\"appName=\"",
+        "\", eurekaServerName=\"",
+        "\", port=\""
+    ],
+    "variables": [
+        "appName",
+        "eurekaServerName",
+        "port"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getConfigInfo"
+    ],
+    "classes": [
+        "ClientConfigInfo"
+    ]
+}

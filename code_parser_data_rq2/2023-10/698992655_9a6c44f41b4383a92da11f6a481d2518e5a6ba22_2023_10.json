@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "fetch",
+        "BlobCommandOptions",
+        "BlobError",
+        "getApiUrl",
+        "getApiVersionHeader",
+        "getTokenFromOptionsOrEnv",
+        "validateBlobApiResponse",
+        "fromUrl",
+        "toPathname",
+        "options",
+        "options",
+        "BlobError",
+        "options",
+        "BlobError",
+        "getApiVersionHeader",
+        "getTokenFromOptionsOrEnv",
+        "options",
+        "options",
+        "headers",
+        "options",
+        "options",
+        "headers",
+        "options",
+        "options",
+        "headers",
+        "options",
+        "fetch",
+        "getApiUrl",
+        "toPathname",
+        "fromUrl",
+        "validateBlobApiResponse",
+        "blobApiResponse",
+        "blobApiResponse"
+    ],
+    "literals": [
+        "'undici'",
+        "'./helpers'",
+        "'./helpers'",
+        "'public'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'missing options, see usage'",
+        "'public'",
+        "'access must be \"public\"'",
+        "string",
+        "string",
+        "Bearer ${getTokenFromOptionsOrEnv(options)}",
+        "'x-add-random-suffix'",
+        "'1'",
+        "'0'",
+        "'x-content-type'",
+        "'x-cache-control-max-age'",
+        "/${toPathname}?fromUrl=${fromUrl}",
+        "'PUT'"
+    ],
+    "variables": [
+        "headers",
+        "blobApiResponse"
+    ],
+    "comments": [
+        "eslint-disable-next-line @typescript-eslint/no-unnecessary-condition -- Runtime check for DX.",
+        "eslint-disable-next-line @typescript-eslint/no-unnecessary-condition -- Runtime check for DX."
+    ],
+    "docstrings": [
+        "* Adds a random suffix to the filename.\n   * @defaultvalue false",
+        "* Copy blob to another location in your store.\n * @param fromUrl - The blob URL to copy. You can only copy blobs that are in the store, that your 'BLOB_READ_WRITE_TOKEN' has access to.\n * @param toPathname - The pathname to copy the blob to. This includes the filename.\n * @param options - Additional options. The copy method will not preserve any metadata configuration (e.g.: 'cacheControlMaxAge') of the source blob. If you want to copy the metadata, you need to define it here again."
+    ],
+    "functions": [
+        "copy"
+    ],
+    "classes": []
+}

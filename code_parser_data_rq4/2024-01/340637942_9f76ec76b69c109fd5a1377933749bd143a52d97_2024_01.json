@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "query",
+        "fetchAreas",
+        "query",
+        "pattern",
+        "pattern",
+        "page",
+        "perPage",
+        "data",
+        "cache",
+        "city",
+        "cache",
+        "city",
+        "text",
+        "cache",
+        "series",
+        "cache",
+        "text",
+        "series"
+    ],
+    "literals": [
+        "\"../query\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "{\n    areaSearch(\n        ${pattern ? `pattern: \"${pattern}\"`: ''}\n        page: ${page}\n        perPage: ${perPage}\n    ){\n        area\n        city\n    }\n}",
+        "pattern: \"${pattern}\"",
+        "''",
+        "string"
+    ],
+    "variables": [
+        "fetchAreas",
+        "cache",
+        "text",
+        "series"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

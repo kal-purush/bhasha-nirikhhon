@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "Output",
+        "Component",
+        "Output",
+        "EventEmitter"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'app-toolbar'",
+        "'./toolbar.component.html'",
+        "'./toolbar.component.scss'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Right aligned map buttons.\n * Note: This does not include the base layer picker or the view chooser, these are hard coded into Cesium's toolbar.\n * Eventually this can be made callpsible, but will need to merge the 2 Cesium buttons outlined above.",
+        "* Split map toggled on/off\n   * If on, sets imagerySplitPosition and adds handlers\n   * If off, resets all active layer split directions to NONE"
+    ],
+    "functions": [
+        "toggleToolbar",
+        "toggleShowMapSplit"
+    ],
+    "classes": [
+        "ToolbarComponent"
+    ]
+}

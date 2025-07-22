@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Tests",
+        "I",
+        "UA",
+        "helperIua",
+        "ComposeMailHelper",
+        "helperIua",
+        "LoginHelper",
+        "org",
+        "testng",
+        "annotations",
+        "BeforeClass",
+        "pageObjectsIua",
+        "Drafts",
+        "pageObjectsIua",
+        "MailBoxPage",
+        "pageObjectsIua",
+        "SentMailPage",
+        "loginHelper",
+        "composeMailHelper",
+        "mailBoxPage",
+        "sentMailPage",
+        "drafts",
+        "BeforeClass",
+        "loginHelper",
+        "composeMailHelper",
+        "mailBoxPage",
+        "MailBoxPage",
+        "getMailBoxPage",
+        "sentMailPage",
+        "SentMailPage",
+        "getSentMailPage",
+        "drafts",
+        "Drafts",
+        "getDraftsPage"
+    ],
+    "literals": [],
+    "variables": [
+        "loginHelper",
+        "composeMailHelper",
+        "mailBoxPage",
+        "sentMailPage",
+        "drafts"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Created by Liliia_Klymenko on 02-Jun-15.",
+        "@AfterClass\n    public void startWebDriver() {\n        Page.quitDriver();\n    }"
+    ],
+    "functions": [
+        "initPages"
+    ],
+    "classes": [
+        "BaseTest"
+    ]
+}

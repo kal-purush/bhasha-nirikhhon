@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "webbrowser",
+        "os",
+        "re",
+        "entries",
+        "__dict__",
+        "update",
+        "entries",
+        "idx",
+        "md",
+        "movie_data",
+        "movies",
+        "append",
+        "Movie",
+        "md",
+        "ValueError",
+        "idx",
+        "md",
+        "m",
+        "movies",
+        "m",
+        "title"
+    ],
+    "literals": [
+        "\"No title\"",
+        "\"about:blank\"",
+        "\"default_poster.gif\"",
+        "'title'",
+        "\"Zombies\"",
+        "'trailer_url'",
+        "\"http://sdaff\"",
+        "'poster_image'",
+        "\"poster1.gif\"",
+        "'title'",
+        "\"Movie Title\"",
+        "'trailer_url'",
+        "\"http://sdaff\"",
+        "\"Movie data item #%d is not a dictionary: %s given.\""
+    ],
+    "variables": [
+        "title",
+        "url",
+        "poster_image",
+        "movie_data",
+        "movies"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "An elegant way to set the object variables",
+        "A better way is to use json or yaml to store movies data, but to simplify things we just create a list of python dictionaries.",
+        "Create a list of Movie objects in cycle",
+        "'**' unpacks dictionary into keyword arguments"
+    ],
+    "docstrings": [
+        "''' A movie with default properties. '''"
+    ],
+    "functions": [],
+    "classes": [
+        "Movie"
+    ]
+}

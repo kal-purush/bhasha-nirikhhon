@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "BTCPayServer",
+        "Data",
+        "Microsoft",
+        "EntityFrameworkCore",
+        "Infrastructure",
+        "Microsoft",
+        "EntityFrameworkCore",
+        "Migrations",
+        "BTCPayServer",
+        "Migrations",
+        "DbContext",
+        "ApplicationDbContext",
+        "Migration",
+        "DBScript",
+        "DBScriptsMigration",
+        "MigrationBuilder",
+        "migrationBuilder",
+        "migrationBuilder",
+        "DropPrimaryKey",
+        "name",
+        "table",
+        "migrationBuilder",
+        "RenameColumn",
+        "name",
+        "table",
+        "newName",
+        "migrationBuilder",
+        "Sql",
+        "migrationBuilder",
+        "AddPrimaryKey",
+        "name",
+        "table",
+        "columns",
+        "Up",
+        "migrationBuilder",
+        "MigrationBuilder",
+        "migrationBuilder"
+    ],
+    "literals": [
+        "\"20240923065254_refactorpayments\"",
+        "\"005.PaymentsRenaming.sql\"",
+        "\"PK_Payments\"",
+        "\"Payments\"",
+        "\"Type\"",
+        "\"Payments\"",
+        "\"PaymentMethodId\"",
+        "\"UPDATE \\\"Payments\\\" SET \\\"PaymentMethodId\\\"='' WHERE \\\"PaymentMethodId\\\" IS NULL;\"",
+        "\"PK_Payments\"",
+        "\"Payments\"",
+        "\"Id\"",
+        "\"PaymentMethodId\""
+    ],
+    "variables": [],
+    "comments": [
+        "<inheritdoc />",
+        "<inheritdoc />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Up",
+        "Down"
+    ],
+    "classes": [
+        "refactorpayments"
+    ]
+}

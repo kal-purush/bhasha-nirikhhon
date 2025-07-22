@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "ColumnDefinitions",
+        "MigrationBuilder",
+        "pgm",
+        "pgm",
+        "pgm",
+        "pgm"
+    ],
+    "literals": [
+        "'node-pg-migrate'",
+        "'petitions'",
+        "'timestamp'",
+        "'petitions'",
+        "'deleted_at'"
+    ],
+    "variables": [
+        "shorthands"
+    ],
+    "comments": [
+        "Add the deleted_at column for soft deletion",
+        "Allow null for soft deletion",
+        "Remove the deleted_at column if rolling back"
+    ],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": []
+}

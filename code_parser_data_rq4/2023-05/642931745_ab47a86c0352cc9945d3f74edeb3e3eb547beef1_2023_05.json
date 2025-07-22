@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "BenchmarkDotNet",
+        "Attributes",
+        "Text",
+        "DemoCryptoLib",
+        "Benchmarks",
+        "Params",
+        "Benchmark",
+        "Baseline",
+        "Encoding",
+        "UTF8",
+        "GetBytes",
+        "DemoCryptoLib",
+        "GeneratePasswordHashUsingSalt",
+        "password",
+        "salt",
+        "Benchmark",
+        "Encoding",
+        "UTF8",
+        "GetBytes",
+        "DemoCryptoLib",
+        "GeneratePasswordHashUsingSaltOptimized",
+        "password",
+        "salt"
+    ],
+    "literals": [
+        "\"dummyPassword\"",
+        "\"dummySalt01234567890\"",
+        "\"dummyPassword\"",
+        "\"dummySalt01234567890\""
+    ],
+    "variables": [
+        "IterationCount",
+        "password",
+        "salt",
+        "password",
+        "salt"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "Base",
+        "Optimized"
+    ],
+    "classes": [
+        "PasswordHashGeneratorBenchmark"
+    ]
+}

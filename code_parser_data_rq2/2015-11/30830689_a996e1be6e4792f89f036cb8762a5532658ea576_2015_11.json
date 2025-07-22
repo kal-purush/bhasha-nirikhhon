@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Linq",
+        "NAudio",
+        "Wave",
+        "IWaveProvider",
+        "WaveFormat",
+        "wf",
+        "WaveFormat",
+        "wf",
+        "buffer",
+        "offset",
+        "count",
+        "offset",
+        "count",
+        "pos",
+        "end",
+        "pos",
+        "buffer",
+        "pos",
+        "count"
+    ],
+    "literals": [],
+    "variables": [
+        "end",
+        "pos",
+        "offset",
+        "WaveFormat",
+        "WaveFormat"
+    ],
+    "comments": [
+        "ReSharper disable once CheckNamespace",
+        "Silence producing wave provider",
+        "Useful for playing silence when doing a WASAPI Loopback Capture",
+        "</summary>",
+        "Creates a new silence producing wave provider",
+        "</summary>",
+        "<param name=\"wf\">Desired WaveFormat (should be PCM / IEE float</param>",
+        "Read silence from into the buffer",
+        "</summary>",
+        "WaveFormat of this silence producing wave provider",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "SilenceProvider",
+        "Read"
+    ],
+    "classes": [
+        "SilenceProvider"
+    ]
+}

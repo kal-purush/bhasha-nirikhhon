@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "require",
+        "express",
+        "require",
+        "mysql",
+        "process",
+        "process",
+        "process",
+        "process",
+        "router",
+        "req",
+        "res",
+        "db",
+        "query",
+        "err",
+        "results",
+        "err",
+        "err",
+        "res",
+        "res",
+        "results",
+        "router"
+    ],
+    "literals": [
+        "'express'",
+        "'mysql'",
+        "'/pt100'",
+        "\"SELECT DATE_FORMAT(fecha, '%Y-%m-%d %H:%i:%s') as Fecha, Serie as Temperatura FROM datos ORDER BY fecha DESC LIMIT 10\"",
+        "'Error en la consulta:'",
+        "'Error en la consulta'"
+    ],
+    "variables": [
+        "express",
+        "router",
+        "mysql",
+        "db",
+        "query"
+    ],
+    "comments": [
+        "Configuración de la base de datos",
+        "Ruta para obtener los datos del PT100"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

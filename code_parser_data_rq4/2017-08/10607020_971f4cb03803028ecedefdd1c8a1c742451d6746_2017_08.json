@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "compair",
+        "models",
+        "convention",
+        "op",
+        "batch_alter_table",
+        "naming_convention",
+        "convention",
+        "batch_op",
+        "batch_op",
+        "add_column",
+        "sa",
+        "Column",
+        "sa",
+        "Text",
+        "nullable",
+        "op",
+        "batch_alter_table",
+        "naming_convention",
+        "convention",
+        "batch_op",
+        "batch_op",
+        "drop_column"
+    ],
+    "literals": [
+        "'346c3877ffae'",
+        "'d402c96606ce'",
+        "'lti_membership'",
+        "'lis_result_sourcedids'",
+        "'lti_membership'",
+        "'lis_result_sourcedids'"
+    ],
+    "variables": [
+        "revision",
+        "down_revision"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic."
+    ],
+    "docstrings": [
+        "\"\"\"Add lis_result_sourcedid to lti_membership\n\nRevision ID: 346c3877ffae\nRevises: d402c96606ce\nCreate Date: 2017-08-15 23:30:27.653010\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

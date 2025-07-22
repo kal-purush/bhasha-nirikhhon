@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Plugin",
+        "config",
+        "isProduction",
+        "config",
+        "originalHTML",
+        "originalHTML",
+        "gtag",
+        "isProduction",
+        "gtag",
+        "isProduction",
+        "isProduction",
+        "FLAT_ELECTRON_PROD",
+        "FLAT_ELECTRON_DEV"
+    ],
+    "literals": [
+        "\"vite\"",
+        "\"flat:gtag\"",
+        "\"pre\"",
+        "\"pre\"",
+        "\"<!-- FLAG_GTAG -->\"",
+        "<!-- Google tag (gtag.js) -->\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-8G3P2T2DBF\"></script>\n    <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-8G3P2T2DBF');\n    </script>",
+        "<!-- Google tag (gtag.js) -->\n    <script async src=\"https://www.googletagmanager.com/gtag/js?id=G-1VSFBNGGCC\"></script>\n    <script>\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){dataLayer.push(arguments);}\n    gtag('js', new Date());\n\n    gtag('config', 'G-1VSFBNGGCC');\n    </script>",
+        "string"
+    ],
+    "variables": [
+        "isProduction",
+        "html",
+        "FLAT_ELECTRON_DEV",
+        "FLAT_ELECTRON_PROD",
+        "gtag"
+    ],
+    "comments": [
+        "cspell:disable",
+        "cspell:enable"
+    ],
+    "docstrings": [],
+    "functions": [
+        "injectGtag",
+        "configResolved",
+        "transform"
+    ],
+    "classes": []
+}

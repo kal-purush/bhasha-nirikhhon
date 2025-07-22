@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "axios",
+        "axiosRetry",
+        "IAxiosRetryConfig",
+        "ILogger",
+        "axios",
+        "axios",
+        "configureAxios",
+        "deps",
+        "axios",
+        "axios",
+        "deps",
+        "axiosRetry",
+        "axiosInstance",
+        "deps",
+        "DEFAULT_RETRIES",
+        "err",
+        "RETRYABLE_STATUS_CODES",
+        "err",
+        "axiosRetry",
+        "err",
+        "deps",
+        "needRetry",
+        "err",
+        "needRetry",
+        "DEFAULT_RETRY_DELAY_MS",
+        "retryCount",
+        "err",
+        "deps",
+        "retryCount",
+        "err",
+        "err",
+        "retryCount",
+        "deps",
+        "retryCount",
+        "err",
+        "axiosInstance"
+    ],
+    "literals": [
+        "'axios'",
+        "'axios-retry'",
+        "'../domain/types'",
+        "retryCondition - needRetry: ${needRetry}",
+        "retrying HTTP request due to error [count: ${retryCount}]:",
+        "max retries exceeded on HTTP request [count: ${retryCount}]"
+    ],
+    "variables": [
+        "DEFAULT_RETRIES",
+        "DEFAULT_RETRY_DELAY_MS",
+        "RETRYABLE_STATUS_CODES",
+        "configureAxios",
+        "axiosInstance",
+        "needRetry"
+    ],
+    "comments": [
+        "to avoid setting \"accept\"/\"content-type\" headers by default",
+        "prettier-ignore"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

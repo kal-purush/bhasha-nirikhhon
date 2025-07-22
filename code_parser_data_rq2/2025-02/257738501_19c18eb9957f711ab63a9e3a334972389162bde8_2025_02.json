@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "FeatureFlagDefinitions",
+        "OSSReleaseStageValue",
+        "DO_NOT_MODIFY_COMMENT",
+        "getKotlinTypeFromDefaultValue",
+        "signedsource",
+        "ossReleaseStage",
+        "OSSReleaseStageValue",
+        "ossReleaseStage",
+        "ossReleaseStage",
+        "definitions",
+        "FeatureFlagDefinitions",
+        "ossReleaseStage",
+        "OSSReleaseStageValue",
+        "signedsource",
+        "signedsource",
+        "DO_NOT_MODIFY_COMMENT",
+        "getClassSignature",
+        "ossReleaseStage",
+        "definitions",
+        "flagConfig",
+        "ossReleaseStage",
+        "flagName",
+        "getKotlinTypeFromDefaultValue",
+        "flagConfig",
+        "flagConfig"
+    ],
+    "literals": [
+        "'../../types'",
+        "'../../utils'",
+        "'signedsource'",
+        "'experimental'",
+        "'ReactNativeFeatureFlagsOverrides_RNOSS_Experimental_Android : ReactNativeFeatureFlagsOverrides_RNOSS_Canary_Android()'",
+        "'canary'",
+        "'ReactNativeFeatureFlagsOverrides_RNOSS_Canary_Android : ReactNativeFeatureFlagsDefaults()'",
+        "'ReactNativeFeatureFlagsOverrides_RNOSS_Stable_Android : ReactNativeFeatureFlagsProvider'",
+        "/*\n * Copyright (c) Meta Platforms, Inc. and affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n *\n * ${signedsource.getSigningToken()}\n */\n\n${DO_NOT_MODIFY_COMMENT}\n\npackage com.facebook.react.internal.featureflags\n\npublic open class ${getClassSignature(ossReleaseStage)} {\n  // We could use JNI to get the defaults from C++,\n  // but that is more expensive than just duplicating the defaults here.\n\n${Object.entries(definitions.common)\n  .map(([flagName, flagConfig]) => {\n    if (flagConfig.ossReleaseStage === ossReleaseStage) {\n      return `  override fun ${flagName}(): ${getKotlinTypeFromDefaultValue(\n        flagConfig.metadata.expectedReleaseValue,\n      )} = ${JSON.stringify(flagConfig.metadata.expectedReleaseValue)}`;\n    }\n  })\n  .filter(Boolean)\n  .join('\\n\\n')}\n}",
+        "override fun ${flagName}(): ${getKotlinTypeFromDefaultValue(\n        flagConfig.metadata.expectedReleaseValue,\n      )} = ${JSON.stringify(flagConfig.metadata.expectedReleaseValue)}",
+        "'\\n\\n'"
+    ],
+    "variables": [
+        "flagName",
+        "flagConfig"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) Meta Platforms, Inc. and affiliates.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE file in the root directory of this source tree.\n *\n * @flow strict\n * @format"
+    ],
+    "functions": [
+        "getClassSignature"
+    ],
+    "classes": []
+}

@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "d3",
+        "importedData",
+        "data",
+        "a",
+        "b",
+        "parseFloat",
+        "b",
+        "parseFloat",
+        "a",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "row",
+        "row",
+        "data",
+        "row",
+        "row",
+        "data",
+        "row",
+        "row",
+        "trace1",
+        "Plotly",
+        "chartData",
+        "layout"
+    ],
+    "literals": [
+        "\"data/data.json\"",
+        "\"Car Miles\"",
+        "\"bar\"",
+        "\"h\"",
+        "\"Car Miles for Employee Used Cars\"",
+        "\"plot\""
+    ],
+    "variables": [
+        "data",
+        "importedData",
+        "trace1",
+        "chartData",
+        "layout"
+    ],
+    "comments": [
+        "Use d3 to read the JSON file.",
+        "The data from the JSON file is arbitrarily named importedData as the argument.",
+        "console.log(importedData);",
+        "Sort the data array by using the miles value.",
+        "Slice the first 10 objects for plotting.",
+        "Reverse the array because of the Plotly defaults.",
+        "Trace1 for the car miles data.",
+        "Data",
+        "Apply the group bar mode to the layout.",
+        "Render the plot to the div tag with the id of \"plot\"."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

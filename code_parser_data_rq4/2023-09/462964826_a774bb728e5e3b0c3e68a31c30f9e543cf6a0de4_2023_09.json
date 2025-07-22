@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "ProjectUtils",
+        "Component",
+        "Project",
+        "getTypeSafeApiTaskEnvironment",
+        "Component",
+        "project",
+        "project",
+        "c",
+        "ProjectUtils",
+        "c",
+        "TypeSafeApiCommandEnvironment",
+        "project",
+        "TypeSafeApiCommandEnvironment",
+        "project",
+        "TypeSafeApiCommandEnvironment",
+        "project",
+        "project",
+        "project",
+        "getTypeSafeApiTaskEnvironment",
+        "project",
+        "key",
+        "value"
+    ],
+    "literals": [
+        "\"@aws/monorepo\"",
+        "\"projen\"",
+        "\"./utils\""
+    ],
+    "variables": [
+        "key",
+        "value"
+    ],
+    "comments": [
+        "! Copyright [Amazon.com](http://amazon.com/), Inc. or its affiliates. All Rights Reserved.\nSPDX-License-Identifier: Apache-2.0",
+        "Add all environment variables to the task environment"
+    ],
+    "docstrings": [
+        "* Component for setting up the environemnt for type safe api commands",
+        "* Retrieves an instance of TypeSafeApiCommandEnvironment if one is associated to the given project.\n   *\n   * @param project project instance.",
+        "* Retrieves an instance of TypeSafeApiCommandEnvironment if one is associated to the given project,\n   * otherwise creates a TypeSafeApiCommandEnvironment instance for the project.\n   *\n   * @param project project instance."
+    ],
+    "functions": [
+        "of",
+        "ensure"
+    ],
+    "classes": [
+        "TypeSafeApiCommandEnvironment"
+    ]
+}

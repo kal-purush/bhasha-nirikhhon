@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "head",
+        "n",
+        "temp",
+        "fast",
+        "temp",
+        "slow",
+        "temp",
+        "temp",
+        "next",
+        "head",
+        "i",
+        "i",
+        "n",
+        "i",
+        "fast",
+        "fast",
+        "next",
+        "fast",
+        "fast",
+        "fast",
+        "next",
+        "slow",
+        "slow",
+        "next",
+        "slow",
+        "next",
+        "slow",
+        "next",
+        "next",
+        "temp",
+        "next"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "LeetCode Problem 19\n\nRemove Nth Node From End of List\n\nGiven a linked list, remove the n-th node from the end of list and return its head.\n\nExample:\n\nGiven linked list: 1->2->3->4->5, and n = 2.\n\nAfter removing the 2nd node from the end, the linked list becomes 1->2->3->5.",
+        "The solution to this problem is easy if you do two passes. In the 1st pass, calculate the length of the linked list.\nIn the next pass, you can find the nth node from the end and remove it.\n\nOne-pass solution: Two-pointer technique.\n\nInitialize two pointers fast and slow to head. Move fast pointer ahead by n places.\nNow move both pointers ahead by 1 until fast reaches the end. Because the distance between the two pointers is n,\nthe slow pointer will point towards the nth node from end of the list. Remove it.\n\nTime Complexity: O(n)"
+    ],
+    "functions": [
+        "ListNode",
+        "removeNthFromEnd"
+    ],
+    "classes": []
+}

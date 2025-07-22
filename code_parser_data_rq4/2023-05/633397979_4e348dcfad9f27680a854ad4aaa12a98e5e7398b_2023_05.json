@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "getOrFail",
+        "get",
+        "CollectionEntity",
+        "CE",
+        "unwrap",
+        "debug",
+        "pending",
+        "success",
+        "Action",
+        "Context",
+        "getChangeCollectionOwnerEvent",
+        "Action",
+        "context",
+        "pending",
+        "OPERATION",
+        "context",
+        "unwrap",
+        "context",
+        "getChangeCollectionOwnerEvent",
+        "debug",
+        "OPERATION",
+        "get",
+        "context",
+        "CE",
+        "entity",
+        "success",
+        "OPERATION",
+        "context",
+        "entity"
+    ],
+    "literals": [
+        "'@kodadot1/metasquid/entity'",
+        "'../../model'",
+        "'../utils/extract'",
+        "'../utils/logger'",
+        "'../utils/types'",
+        "'./getters'",
+        "${context.block.height}",
+        "${event.id} by ${event.caller}}"
+    ],
+    "variables": [
+        "OPERATION",
+        "entity"
+    ],
+    "comments": [
+        "import { getO } from './getters'"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handleCollectionOwnerChange"
+    ],
+    "classes": []
+}

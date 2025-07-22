@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "stripeApi",
+        "stripeApi",
+        "process",
+        "User",
+        "app",
+        "app",
+        "req",
+        "res",
+        "req",
+        "User",
+        "req",
+        "user",
+        "user",
+        "user",
+        "stripe",
+        "user",
+        "req",
+        "e",
+        "e",
+        "stripe",
+        "user",
+        "e",
+        "e",
+        "stripe",
+        "user",
+        "req"
+    ],
+    "literals": [
+        "'stripe'",
+        "'../../models/User.js'",
+        "'/api/stripe'",
+        "'authorization'",
+        "' '",
+        "customer update error: ${e}",
+        "'usd'",
+        "'0.99¢ for account'",
+        "charge successful.",
+        "customer charge error: ${e}",
+        "'User was not found. Creating new stripe customer.'"
+    ],
+    "variables": [
+        "stripe",
+        "userToken",
+        "source",
+        "charge",
+        "customer"
+    ],
+    "comments": [
+        "get jwt token",
+        "find user based on jwt token",
+        "User.findOne({ verifiedToken: userToken }).then(async user => {",
+        "attempt to add card information to stripe customer",
+        "attempt to charge stripe customer with newly added card"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "ITranslationFunction",
+        "Logger",
+        "Logger",
+        "translationCallback",
+        "namespaces",
+        "key",
+        "sourceString",
+        "language",
+        "namespaces",
+        "log",
+        "key",
+        "language",
+        "namespaces",
+        "log",
+        "key",
+        "language",
+        "localized",
+        "key",
+        "log",
+        "localized",
+        "localized",
+        "log",
+        "sourceString",
+        "sourceString"
+    ],
+    "literals": [
+        "'../types'",
+        "'./Logger'",
+        "'TranslatorWithFallback'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "Trying to localize key ${key} into ${language}",
+        "Trying namespace ${namespace}",
+        "${namespace}:${key}",
+        "Successfully localized to ${localized}",
+        "Falling back to default string: ${sourceString}"
+    ],
+    "variables": [
+        "log",
+        "localized"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Performs localizations with a custom fallback strategy: It tries all the\n * namespaces specified in the tryLocalize(...) call or in the constructor (in\n * the order of the list). If no localization was found, it will fallback to the\n * source string passed to tryLocalize.",
+        "*",
+        "* Tries localizing the key. If it fails (indicated by the fact that the key\n     * is part of the localized string), it will return the original source\n     * string. Tries through all the namespaces specified before falling back.\n     * @param key the key to look up the translation in the i18n data\n     * @param sourceString the original English string received from the Hub\n     * @param language the desired language\n     * @param namespaces (optional) the namespaces to try. Will default to the\n     * namespaces passed into the constructor if unspecified.\n     * @returns the localized string or the original English source string"
+    ],
+    "functions": [
+        "tryLocalize"
+    ],
+    "classes": [
+        "TranslatorWithFallback"
+    ]
+}

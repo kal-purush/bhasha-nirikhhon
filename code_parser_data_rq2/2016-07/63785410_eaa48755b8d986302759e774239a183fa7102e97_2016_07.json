@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "navigator",
+        "navigator",
+        "navigator",
+        "$",
+        "$",
+        "battery",
+        "$",
+        "battery",
+        "$",
+        "battery",
+        "tizen",
+        "tizen",
+        "tizen",
+        "alarm"
+    ],
+    "literals": [
+        "\"#BatteryInformation\"",
+        "\"#WifiInformation\"",
+        "\"charging: \"",
+        "'charging'",
+        "'not charging'",
+        "\"#WifiInformation\"",
+        "\"charging Time: \"",
+        "\"#WifiInformation\"",
+        "\"level: \"",
+        "'%'",
+        "\"org.tizen.browser\""
+    ],
+    "variables": [
+        "battery",
+        "alarm"
+    ],
+    "comments": [
+        "Charging status: true or false",
+        "document.querySelector('#charging').textContent = battery.charging ? 'charging' : 'not charging';",
+        "Battery charging time: seconds (for example, 3600) or Infinity",
+        "document.querySelector('#chargingTime').textContent = battery.chargingTime / 60;",
+        "Battery life: seconds (for example, 3600) or Infinity",
+        "document.querySelector('#dischargingTime').textContent = battery.dischargingTime / 60;",
+        "Battery.level: between 0 and 1 (for example, 0.50)",
+        "document.querySelector('#level').textContent = Math.floor(battery.level * 100) + '%';"
+    ],
+    "docstrings": [],
+    "functions": [
+        "GetInfo",
+        "StartAlarm"
+    ],
+    "classes": []
+}

@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "IController",
+        "require",
+        "View",
+        "View",
+        "model",
+        "view",
+        "NavigationController"
+    ],
+    "literals": [
+        "'../Interfaces/IController'",
+        "'../Views/NavigationView'",
+        "'Home'",
+        "'#'",
+        "'About'",
+        "'#/about'",
+        "'#nav-region'"
+    ],
+    "variables": [
+        "model",
+        "view"
+    ],
+    "comments": [
+        "File: NavigationController.ts",
+        "<reference path=\"../Interfaces/IController\" />",
+        "<reference path=\"../Views/NavigationView\" />",
+        "<reference path=\"../../../../typings/jquery/jquery.d.ts\"/>"
+    ],
+    "docstrings": [],
+    "functions": [
+        "renderViews"
+    ],
+    "classes": [
+        "NavigationController"
+    ]
+}

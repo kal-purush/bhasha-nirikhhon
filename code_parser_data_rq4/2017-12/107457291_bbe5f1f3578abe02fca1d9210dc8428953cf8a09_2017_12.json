@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "SeaBattleFramework",
+        "ShipType",
+        "SingleDecker",
+        "TwoDecker",
+        "ThreeDecker",
+        "FourDecker",
+        "ShipStatus",
+        "Full",
+        "Damaged",
+        "Destroyed",
+        "ShipStatus",
+        "Full",
+        "Point",
+        "Status",
+        "Health",
+        "ShipStatus",
+        "Destroyed",
+        "ShipStatus",
+        "Damaged",
+        "ShipType",
+        "Point",
+        "pos",
+        "Type",
+        "Position",
+        "Point",
+        "Type",
+        "i",
+        "Type",
+        "i",
+        "Position",
+        "i",
+        "pos",
+        "i",
+        "Id",
+        "Position",
+        "X",
+        "Position",
+        "Y",
+        "Health",
+        "Type"
+    ],
+    "literals": [
+        "\"UnknownShip\""
+    ],
+    "variables": [
+        "Id",
+        "Name",
+        "ShipType",
+        "Type",
+        "ShipStatus",
+        "Status",
+        "Position",
+        "Health",
+        "i"
+    ],
+    "comments": [
+        "TODO: добавить список имён и генерировать случайно из него",
+        "Инициализирует новый экземпляр класса <c>Ship</c> с указанным типом и расположением на поле",
+        "</summary>",
+        "<param name=\"type\">Тип корабля</param>",
+        "<param name=\"pos\">Отсортированный список позиций.",
+        "Первый элемент - позиция головы корбля, последний элмент - позиция хвоста</param>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "ShipStatus",
+        "Injury",
+        "Ship"
+    ],
+    "classes": [
+        "Ship"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "IExtensionApi",
+        "IExtensionContext",
+        "ExtensionMode",
+        "activate",
+        "deactivate",
+        "context",
+        "context",
+        "ExtensionMode",
+        "realEntryPoint",
+        "eval",
+        "entryPoint",
+        "realEntryPoint",
+        "context",
+        "ex",
+        "ex",
+        "realEntryPoint",
+        "eval",
+        "realEntryPoint",
+        "context",
+        "realEntryPoint"
+    ],
+    "literals": [
+        "'./standalone/api/api'",
+        "'./platform/common/types'",
+        "'vscode'",
+        "'../out/extension.node'",
+        "'./extension.node'",
+        "'require'",
+        "'Failed to activate extension, falling back to `./extension.node`'",
+        "'require'",
+        "'./extension.node'"
+    ],
+    "variables": [
+        "realEntryPoint",
+        "entryPoint"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft Corporation.",
+        "Licensed under the MIT License.",
+        "In smoke tests, we do not want to load the out/extension.node."
+    ],
+    "docstrings": [],
+    "functions": [
+        "activate",
+        "deactivate"
+    ],
+    "classes": []
+}

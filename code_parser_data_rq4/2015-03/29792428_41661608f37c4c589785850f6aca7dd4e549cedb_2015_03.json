@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Roadkill",
+        "Core",
+        "Converters"
+    ],
+    "literals": [],
+    "variables": [
+        "BoldToken",
+        "UnderlineToken",
+        "ItalicToken",
+        "LinkStartToken",
+        "LinkEndToken",
+        "ImageStartToken",
+        "ImageEndToken",
+        "BulletListToken",
+        "NumberedListToken",
+        "HeadingToken"
+    ],
+    "comments": [
+        "Contains help documentation for a parser.",
+        "</summary>",
+        "The start and end tokens to indicate bold text.",
+        "</summary>",
+        "The start end end tokens to underline italic text.",
+        "</summary>",
+        "The start end end tokens to indicate italic text.",
+        "</summary>",
+        "The start token for a link.",
+        "</summary>",
+        "The ending token for a link.",
+        "</summary>",
+        "The start token for an image.",
+        "</summary>",
+        "The end token for an image.",
+        "</summary>",
+        "The start token for a bulleted list item.",
+        "</summary>",
+        "The start token for a n umbered list item.",
+        "</summary>",
+        "The start and end tokens for headings. H5 headings are assumed to repeat this token 5 times.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "MarkupParserHelp"
+    ]
+}

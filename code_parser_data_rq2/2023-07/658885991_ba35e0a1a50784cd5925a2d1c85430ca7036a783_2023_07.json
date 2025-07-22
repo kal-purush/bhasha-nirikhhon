@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "openai",
+        "dotenv",
+        "dotenv_values",
+        "user_context",
+        "job_context",
+        "dotenv_values",
+        "config",
+        "openai",
+        "ChatCompletion",
+        "create",
+        "model",
+        "messages",
+        "job_context",
+        "user_context",
+        "response",
+        "content"
+    ],
+    "literals": [
+        "\".env\"",
+        "\"OPENAI_API_KEY\"",
+        "\"gpt-3.5-turbo\"",
+        "\"role\"",
+        "\"system\"",
+        "\"content\"",
+        "\"You are responding to linkedin offers by email\"",
+        "\"role\"",
+        "\"user\"",
+        "\"content\"",
+        "\"Respond to this job offer in an email format:\\n\"",
+        "\"\\n\\nThis is mi curriculum vitae:\\n\"",
+        "\"\\n\\nStart with a brief introduction about myself, mentioning the position im interested in. Highlight me skills and relevant experience that make me an ideal candidate for the position! Get all my details from the curriculum vitae. Important: dont use more than 3000 characters\"",
+        "'choices'",
+        "'message'",
+        "'content'"
+    ],
+    "variables": [
+        "config",
+        "openai",
+        "api_key",
+        "response",
+        "content"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "get_response"
+    ],
+    "classes": []
+}

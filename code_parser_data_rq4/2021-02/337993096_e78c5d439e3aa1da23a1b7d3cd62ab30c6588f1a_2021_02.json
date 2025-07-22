@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "back",
+        "java",
+        "util",
+        "java",
+        "util",
+        "Optional",
+        "dao",
+        "Dao",
+        "entity",
+        "Hop",
+        "hopDao",
+        "args",
+        "id",
+        "hop",
+        "hopDao",
+        "get",
+        "id",
+        "hop",
+        "orElseGet",
+        "hopDao",
+        "getAll",
+        "hop",
+        "hopDao",
+        "update",
+        "hop",
+        "hop",
+        "hopDao",
+        "save",
+        "hop",
+        "hop",
+        "hopDao",
+        "hop"
+    ],
+    "literals": [
+        "\"non-existing hop\"",
+        "\"no-acid-concentrate\"",
+        "\"no-country\""
+    ],
+    "variables": [
+        "hopDao"
+    ],
+    "comments": [
+        "public HopsBackMain() {",
+        "super();",
+        "// TODO Auto-generated constructor stub",
+        "}",
+        "Hop hop1 = getHop(getAllHops().size() - 1);",
+        "System.out.println(hop1);",
+        "updateHop(hop1, new String[]{\"Galaxy\", \"14.5\", \"AUS\"});",
+        "saveHop(new Hop(\"TestHop\", \"99.9\", \"PL\"));",
+        "//deleteHop(getHop(2));",
+        "getAllHops().forEach(hop -> System.out.println(hop.getName()));"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main",
+        "Hop",
+        "getHop",
+        "getAllHops",
+        "updateHop",
+        "saveHop",
+        "deleteHop"
+    ],
+    "classes": [
+        "HopsBackMain"
+    ]
+}

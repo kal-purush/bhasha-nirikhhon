@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "div",
+        "h2",
+        "h2",
+        "div",
+        "dangerous",
+        "div",
+        "div",
+        "color",
+        "div",
+        "div",
+        "Classes"
+    ],
+    "literals": [
+        "'./index.css'",
+        "'blue'",
+        "${dangerous ? 'wd-bg-red' : 'wd-bg-green'}\n                                   wd-fg-black wd-padding-10px",
+        "'wd-bg-red'",
+        "'wd-bg-green'",
+        "wd-bg-${color} wd-fg-black wd-padding-10px"
+    ],
+    "variables": [
+        "color",
+        "dangerous"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "Classes"
+    ],
+    "classes": []
+}

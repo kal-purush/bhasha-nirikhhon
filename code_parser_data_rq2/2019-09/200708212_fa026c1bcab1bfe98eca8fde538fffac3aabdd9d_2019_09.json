@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Statistic",
+        "addElementDOM",
+        "removeContainerChildren",
+        "userTotalRating",
+        "getWatchedFilmsAmount",
+        "getTotalDuration",
+        "getTopGenre",
+        "statisticFiltersId",
+        "statisticContainer",
+        "statisticContainer",
+        "statisticFiltersId",
+        "statisticFiltersId",
+        "statisticParams",
+        "Statistic",
+        "userTotalRating",
+        "statisticParams",
+        "addElementDOM",
+        "newFilter",
+        "removeContainerChildren",
+        "newFilter",
+        "newFilter",
+        "getWatchedFilmsAmount",
+        "getTotalDuration",
+        "getTopGenre",
+        "StatisticController"
+    ],
+    "literals": [
+        "'../components/statistic.js'",
+        "'../utils.js'",
+        "'../data.js'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Class representaing controller of statistic.",
+        "* Create statistic controller.\n   * @param {HTMLElement} statisticContainer",
+        "* Create statistic.",
+        "* Add statistic to DOM and fill handlers.\n   * @param {object} statisticParams\n   * @param {string} filter",
+        "* Filter statistic.\n   * @param {string} newFilter",
+        "* Return statistic params.\n   * @return {object}"
+    ],
+    "functions": [
+        "init",
+        "_addStatistic",
+        "onUpdateStatistic",
+        "_getStatisticParams"
+    ],
+    "classes": [
+        "StatisticController"
+    ]
+}

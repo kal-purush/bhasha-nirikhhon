@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "randomUUID",
+        "execSync",
+        "Environment",
+        "PrismaClient",
+        "PrismaClient",
+        "schema",
+        "process",
+        "URL",
+        "process",
+        "url",
+        "schema",
+        "url",
+        "randomUUID",
+        "generateDatabaseURL",
+        "schema",
+        "process",
+        "databaseURL",
+        "execSync",
+        "prisma",
+        "schema",
+        "prisma"
+    ],
+    "literals": [
+        "\"node:crypto\"",
+        "\"node:child_process\"",
+        "\"vitest\"",
+        "\"dotenv/config\"",
+        "\"@prisma/client\"",
+        "string",
+        "\"Please provide a DATABASE_URL environment variable.\"",
+        "\"schema\"",
+        "\"prisma\"",
+        "\"web\"",
+        "\"npx prisma migrate deploy\"",
+        "DROP SCHEMA IF EXISTS \"${schema}\" CASCADE"
+    ],
+    "variables": [
+        "prisma",
+        "url",
+        "schema",
+        "databaseURL"
+    ],
+    "comments": [
+        "postgresql://docker:docker@localhost:5434/apisolid?schema=public",
+        "bcdedit /set hypervisorlaunchtype auto",
+        "bcdedit /set hypervisorlaunchtype off",
+        "deploy ao inves de \"dev\" pq deploy apenas executa as migrations, enquanto que dev compara as existentes migrations e depois atualiza"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generateDatabaseURL",
+        "setup",
+        "teardown"
+    ],
+    "classes": []
+}

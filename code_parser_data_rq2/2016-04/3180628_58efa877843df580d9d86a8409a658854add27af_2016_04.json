@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "angular",
+        "mnAutocompleteOff",
+        "link",
+        "autocompleteOff",
+        "$scope",
+        "$element",
+        "$attr",
+        "angular",
+        "input",
+        "$attr",
+        "input",
+        "$attr",
+        "$element",
+        "input",
+        "$element",
+        "$element",
+        "$element",
+        "$element",
+        "$element"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "'mnAutocompleteOff'",
+        "'mnAutocompleteOff'",
+        "'<input style=\"display:none\" readonly disabled>'",
+        "\"type\"",
+        "\"name\"",
+        "'autocomplete'",
+        "'off'",
+        "'readonly'",
+        "'focus'",
+        "'readonly'"
+    ],
+    "variables": [
+        "autocompleteOff",
+        "input"
+    ],
+    "comments": [
+        "this module is hack for avoiding autocomplete only for one filed - password.",
+        "because all major browsers are moving towards ignoring the attribute for password fields.",
+        "http://stackoverflow.com/questions/3868299/is-autocomplete-off-compatible-with-all-modern-browsers/21348793#21348793",
+        "avoiding autocomplete via additional input",
+        "avoiding autocomplete via readonly attr"
+    ],
+    "docstrings": [],
+    "functions": [
+        "mnAutocompleteOff",
+        "link"
+    ],
+    "classes": []
+}

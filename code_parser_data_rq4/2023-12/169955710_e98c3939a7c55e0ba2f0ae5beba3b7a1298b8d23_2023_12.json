@@ -1,0 +1,29 @@
+{
+    "identifiers": [],
+    "literals": [
+        "'/src/index.js'",
+        "import React, { StrictMode } from \"react\";\nimport { createRoot } from \"react-dom/client\";\nimport \"./styles.css\";\n\nimport App from \"./App\";\n\nconst root = createRoot(document.getElementById(\"root\"));\nroot.render(\n  <StrictMode>\n    <App />\n  </StrictMode>\n);",
+        "'/package.json'",
+        "'react.dev'",
+        "'0.0.0'",
+        "'/src/index.js'",
+        "'react-scripts start'",
+        "'react-scripts build'",
+        "'react-scripts test --env=jsdom'",
+        "'react-scripts eject'",
+        "'^18.0.0'",
+        "'react-dom'",
+        "'^18.0.0'",
+        "'react-scripts'",
+        "'^5.0.0'",
+        "'/public/index.html'",
+        "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Document</title>\n</head>\n<body>\n  <div id=\"root\"></div>\n</body>\n</html>"
+    ],
+    "variables": [
+        "template"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "ApolloLink",
+        "Amplify",
+        "Auth",
+        "awsconfig",
+        "AWSAppSyncClient",
+        "createAppSyncLink",
+        "createLinkWithCache",
+        "withClientState",
+        "appSyncConfig",
+        "Amplify",
+        "awsconfig",
+        "defaultState",
+        "typeDefs",
+        "mutationResolvers",
+        "createLinkWithCache",
+        "cache",
+        "withClientState",
+        "defaultState",
+        "mutationResolvers",
+        "createAppSyncLink",
+        "appSyncConfig",
+        "appSyncConfig",
+        "appSyncConfig",
+        "appSyncConfig",
+        "Auth",
+        "ApolloLink",
+        "stateLink",
+        "appSyncLink",
+        "AWSAppSyncClient"
+    ],
+    "literals": [
+        "'apollo-link'",
+        "'aws-amplify'",
+        "'./aws-exports'",
+        "'aws-appsync/lib'",
+        "'apollo-link-state'",
+        "'./AppSync'",
+        "'./data/setup/DefaultState'",
+        "'./data/setup/TypeDefs'",
+        "'./data/resolvers/Mutations'",
+        "''"
+    ],
+    "variables": [
+        "stateLink",
+        "appSyncLink",
+        "link",
+        "client"
+    ],
+    "comments": [
+        "import local state",
+        "create local state",
+        "subscription is enabled by default",
+        "whenever appsync need to call backend, it will grab the token and verify user",
+        "congnito user group allows users to be grouped",
+        "client to write queries without being in a component",
+        "disableOffline should be added in the first arg"
+    ],
+    "docstrings": [
+        "*aws amplify imports - download from mobile hub",
+        "*aws appsync imports - download from AppSync",
+        "*configure using mobilehub export"
+    ],
+    "functions": [],
+    "classes": []
+}

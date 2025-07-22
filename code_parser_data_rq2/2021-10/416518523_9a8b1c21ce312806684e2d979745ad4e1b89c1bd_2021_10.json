@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "fetchData",
+        "url",
+        "url",
+        "fetch",
+        "url",
+        "response",
+        "renderData",
+        "data",
+        "error",
+        "error",
+        "data",
+        "key",
+        "data",
+        "itemCard",
+        "card",
+        "itemCard",
+        "itemList",
+        "itemList",
+        "data",
+        "key",
+        "itemCard",
+        "itemList"
+    ],
+    "literals": [
+        "\"https://s3.amazonaws.com/dolartoday/data.json\"",
+        "\".container\"",
+        "\"div\"",
+        "\"item-card\"",
+        "\"li\"",
+        "\"actual-value\""
+    ],
+    "variables": [
+        "url",
+        "response",
+        "data",
+        "card",
+        "itemCard",
+        "itemList"
+    ],
+    "comments": [
+        "console.log(`${key} = ${data.USD[key]}`);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchData",
+        "renderData"
+    ],
+    "classes": []
+}

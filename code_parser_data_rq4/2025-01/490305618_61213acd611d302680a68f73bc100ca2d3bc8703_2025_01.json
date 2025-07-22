@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "runAppleScript",
+        "popToRoot",
+        "runAppleScript",
+        "script",
+        "popToRoot"
+    ],
+    "literals": [
+        "\"run-applescript\"",
+        "\"@raycast/api\"",
+        "tell application \"System Events\"\n    set isGhosttyRunning to exists (processes where name is \"Ghostty\")\n  end tell\n\n  tell application \"Ghostty\"\n    if not isGhosttyRunning then\n      activate\n    else\n      -- If Ghostty is already running, activate Finder first then activate Ghostty and send Cmd+N to create new window\n      tell application \"Finder\" to activate\n      activate\n      tell application \"System Events\"\n        tell process \"Ghostty\"\n          keystroke \"t\" using {command down}\n        end tell\n      end tell\n    end if\n  end tell"
+    ],
+    "variables": [
+        "script"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "Command"
+    ],
+    "classes": []
+}

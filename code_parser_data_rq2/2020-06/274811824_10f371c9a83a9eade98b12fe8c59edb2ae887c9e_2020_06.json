@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "getWeatherData",
+        "city",
+        "URL",
+        "city",
+        "API_KEY",
+        "fetch",
+        "FULL_URL",
+        "weatherPromise",
+        "response",
+        "response",
+        "searchCity",
+        "getWeatherData",
+        "city",
+        "response",
+        "response",
+        "showWeatherData",
+        "response",
+        "error",
+        "error",
+        "showWeatherData",
+        "weatherData",
+        "weatherData",
+        "weatherData",
+        "weatherData",
+        "weatherData",
+        "weatherData"
+    ],
+    "literals": [
+        "\"a8e71c9932b20c4ceb0aed183e6a83bb\"",
+        "\"https://api.openweathermap.org/data/2.5/weather\"",
+        "${URL}?q=${city}&appid=${API_KEY}&units=imperial",
+        "'city-input'",
+        "\"city-name\"",
+        "\"weather-type\"",
+        "\"temp\"",
+        "\"min-temp\"",
+        "\"max-temp\""
+    ],
+    "variables": [
+        "API_KEY",
+        "URL",
+        "FULL_URL",
+        "weatherPromise",
+        "city"
+    ],
+    "comments": [
+        "API_KEY for maps api - think of it like a password - provided by Openweathermap",
+        "HINT: Use template literals to create a url with input and an API key",
+        "CODE GOES HERE",
+        "CODE GOES HERE",
+        "CODE GOES HERE"
+    ],
+    "docstrings": [
+        "* Weather App\n * DONE: Complete getWeatherData() to return json response Promise\n * DONE: Complete searchCity() to get user input & get data using getWeatherData()\n * DONE: Complete showWeatherData() to set data in html file from response",
+        "* Retrieve weather data from openweathermap\n * HINT: Use fetch()\n * HINT: URL should look like this: \n * https://api.openweathermap.org/data/2.5/weather?q=detroit&appid=a8e71c9932b20c4ceb0aed183e6a83bb&units=imperial",
+        "* Retrieve city input and get the weather data\n * HINT: Use the promise returned from getWeatherData()",
+        "* Show the weather data in HTML\n * HINT: make sure to console log weatherData to see what data looks like"
+    ],
+    "functions": [],
+    "classes": []
+}

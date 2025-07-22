@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "HomePage",
+        "AboutPage",
+        "ArticlePage",
+        "FooPage",
+        "BarPage",
+        "TRoute",
+        "NotFoundPage",
+        "YoloPage",
+        "HelloPage",
+        "LaPage",
+        "OurPage",
+        "HomePage",
+        "FooPage",
+        "BarPage",
+        "YoloPage",
+        "HelloPage",
+        "AboutPage",
+        "LaPage",
+        "OurPage",
+        "ArticlePage",
+        "NotFoundPage"
+    ],
+    "literals": [
+        "\"./pages/HomePage\"",
+        "\"./pages/AboutPage\"",
+        "\"./pages/ArticlePage\"",
+        "\"./pages/FooPage\"",
+        "\"./pages/BarPage\"",
+        "\"../src/components/Router\"",
+        "\"./pages/NotFoundPage\"",
+        "\"./pages/YoloPage\"",
+        "\"./pages/HelloPage\"",
+        "\"./pages/LaPage\"",
+        "\"./pages/OurPage\"",
+        "\"/\"",
+        "\"/foo\"",
+        "\"/bar\"",
+        "\"/yolo\"",
+        "\"/hello\"",
+        "\"/about\"",
+        "\"/a-propos\"",
+        "\"/uber\"",
+        "\"/la\"",
+        "\"/our\"",
+        "\"/blog/:id\"",
+        "\"/blog-fr/:id\"",
+        "\"/blog-de/:id\"",
+        "\"red\"",
+        "\"/:rest\""
+    ],
+    "variables": [
+        "routesList"
+    ],
+    "comments": [
+        "path: { en: \"/foo\", fr: \"/foo-fr\", de: \"/foo-de\" },",
+        "path: \"/about\",",
+        "path: \"/blog/:id\","
+    ],
+    "docstrings": [
+        "* Define routes list"
+    ],
+    "functions": [],
+    "classes": []
+}

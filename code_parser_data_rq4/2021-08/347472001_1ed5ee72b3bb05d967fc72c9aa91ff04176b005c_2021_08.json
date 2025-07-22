@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "styled"
+    ],
+    "literals": [
+        "'styled-components'",
+        "padding: 8px;\n  display: flex;\n  flex-direction: row;",
+        "img {\n    max-width: 400px;\n    max-height: 400px;\n    min-width: 400px;\n  }",
+        "img {\n    max-width: 70px;\n    max-height: 70px;\n    cursor: pointer;\n    margin: auto;\n  }\n\n  ul {\n    display: flex;\n    flex-direction: column;\n    list-style: none;\n\n    li {\n      display: flex;\n      margin: 8px;\n      border: 2px silver solid;\n      padding: 8px;\n      height: 70px;\n      width: 70px;\n      transition: ease-in-out 0.3s;\n\n      &:hover {\n        border: 2px solid #cf5711;\n      }\n    }\n  }"
+    ],
+    "variables": [
+        "Container",
+        "FeatureImage",
+        "Gallery"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

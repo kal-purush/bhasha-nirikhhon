@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "_skybase",
+        "_Skydome",
+        "honeybee",
+        "typing",
+        "typing",
+        "_Skydome",
+        "density",
+        "typing",
+        "int_in_range",
+        "density",
+        "input_name",
+        "sky_hemisphere",
+        "density",
+        "ground_hemisphere"
+    ],
+    "literals": [
+        "'Sky subdivision density'",
+        "'#@rfluxmtx h=u u=Y\\n%s\\n\\n#@rfluxmtx h=r%d u=Y\\n%s\\n'"
+    ],
+    "variables": [
+        "density"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Virtual skydome for daylight coefficient studies with constant radiance.\n\nHere is an example of the output.\n\n#@rfluxmtx h=u u=Y\nvoid glow grd_glow\n0\n0\n4 1 1 1 0\n\ngrd_glow source ground\n0\n0\n4 0 0 -1 180\n\n#@rfluxmtx h=r1 u=Y\nvoid glow sky_glow\n0\n0\n4 1 1 1 0\n\nsky_glow source sky\n0\n0\n4 0 0 1 180\n\"\"\"",
+        "\"\"\"Virtual skydome for daylight coefficient studies with constant radiance.\n\n    Use this sky to calculate daylight matrix.\n    \"\"\"",
+        "\"\"\"Radiance definition for Skydome.\n\n        Args:\n            density: Sky patch subdivision density. This values is similar to -m option\n                in gendaymtx command. Default is 1 which means 145 sky patches and 1\n                patch for the ground.\n\n                One can add to the resolution typically by factors of two (2, 4, 8, ...)\n                which yields a higher resolution sky using the Reinhart patch subdivision\n                For example, setting density to 4 yields a sky with 2305 patches plus one\n                patch for the ground.\n        \"\"\""
+    ],
+    "functions": [
+        "to_radiance"
+    ],
+    "classes": [
+        "Skydome"
+    ]
+}

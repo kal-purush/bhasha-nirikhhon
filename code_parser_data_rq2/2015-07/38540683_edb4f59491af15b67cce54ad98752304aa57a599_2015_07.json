@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "View",
+        "Component",
+        "View",
+        "EventEmitter",
+        "lovesNg2",
+        "lovesNg2"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'question-card'",
+        "'guest'",
+        "'answerselected'",
+        "<div class=\"card grey lighten-3\">\n      <div class=\"card-content\">\n        <span class=\"card-title black-text\">{{guest.name}}</span>\n      </div>\n      <div class=\"card-action\">\n        <p>Loves Angular2?</p>\n        <a (click)=\"optionSelected(true)\">yes</a>\n        <a (click)=\"optionSelected(false)\">no</a>\n      </div>\n    </div>"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"../typings/angular2/angular2.d.ts\" />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "optionSelected"
+    ],
+    "classes": [
+        "QuestionCard"
+    ]
+}

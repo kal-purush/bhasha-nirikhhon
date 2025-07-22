@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "print_function",
+        "Dist",
+        "Dist",
+        "pyspark",
+        "SparkConf",
+        "SparkContext",
+        "Dist",
+        "config",
+        "Spark",
+        "config",
+        "config",
+        "pop",
+        "SparkConf",
+        "setAll",
+        "config",
+        "items",
+        "SparkContext",
+        "getOrCreate",
+        "sparkConf",
+        "npartitions",
+        "sparkContext",
+        "getConf",
+        "get",
+        "npartitions",
+        "mapper",
+        "reducer",
+        "BuildRanges",
+        "nentries",
+        "npartitions",
+        "sparkContext",
+        "parallelize",
+        "ranges",
+        "npartitions",
+        "parallel_collection",
+        "mapper",
+        "treeReduce",
+        "reducer"
+    ],
+    "literals": [
+        "'npartitions'",
+        "'spark.executor.instances'"
+    ],
+    "variables": [
+        "npartitions",
+        "sparkConf",
+        "sparkContext",
+        "npartitions",
+        "npartitions",
+        "ranges",
+        "parallel_collection"
+    ],
+    "comments": [
+        "Remove the value of 'npartitions' from config dict",
+        "Set the value of 'npartitions' if it doesn't exist",
+        "getConf().get('spark.executor.instances') could return a string",
+        "Get range pairs",
+        "Build parallel collection",
+        "Map-Reduce using Spark"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Backend that executes the computational graph\n    using using `Spark` framework for distributed\n    execution.\n\n    \"\"\"",
+        "\"\"\"\n        Creates an instance of the Spark\n        backend class.\n\n        Parameters\n        ----------\n        config : dict (optional)\n            The config options for Spark backend. The default\n            value is an empty Python dictionary `{}`. Config\n            should be a dictionary of Spark configuration\n            options and their values with 'npartitions' as\n            the only allowed extra parameter.\n            For example :-\n\n            config = {\n            'npartitions':20,\n            'spark.master':'myMasterURL',\n            'spark.executor.instances':10,\n            'spark.app.name':'mySparkAppName'\n            }\n\n            IMPORTANT NOTE :- If a SparkContext is already set\n            in the current environment, the Spark configuration\n            parameters from 'config' will be ignored and the already\n            existing SparkContext would be used.\n\n        \"\"\"",
+        "\"\"\"\n        Performs map-reduce using Spark framework.\n\n        Parameters\n        ----------\n        mapper : function\n            A function that runs the computational graph\n            and returns a list of values.\n\n        reducer : function\n            A function that merges two lists that were\n            returned by the mapper.\n\n        Returns\n        -------\n        Python list\n            This list represents the values of action nodes\n            returned after computation (Map-Reduce).\n\n        \"\"\""
+    ],
+    "functions": [
+        "ProcessAndMerge"
+    ],
+    "classes": [
+        "Spark"
+    ]
+}

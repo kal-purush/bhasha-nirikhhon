@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "exception",
+        "B2Error",
+        "B2Error",
+        "filename",
+        "encoding",
+        "EnvironmentEncodingError",
+        "filename",
+        "encoding",
+        "filename",
+        "encoding"
+    ],
+    "literals": [],
+    "variables": [
+        "filename",
+        "encoding"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"file name %s cannot be decoded with system encoding (%s).\nWe think this is an environment error which you should workaround by\nsetting your system encoding properly, for example like this:\nexport LANG=en_US.UTF-8\"\"\""
+    ],
+    "functions": [
+        "__str__"
+    ],
+    "classes": [
+        "EnvironmentEncodingError"
+    ]
+}

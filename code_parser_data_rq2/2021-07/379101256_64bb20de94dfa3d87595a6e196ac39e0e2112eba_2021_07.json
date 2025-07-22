@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "Controller",
+        "Get",
+        "Res",
+        "UseGuards",
+        "Inject",
+        "Req",
+        "Header",
+        "Response",
+        "FtAuthGuard",
+        "AuthenticatedGuard",
+        "AuthenticationProvider",
+        "UsersService",
+        "Controller",
+        "Inject",
+        "authService",
+        "userService",
+        "Get",
+        "UseGuards",
+        "FtAuthGuard",
+        "Req",
+        "res",
+        "Get",
+        "UseGuards",
+        "FtAuthGuard",
+        "Req",
+        "req",
+        "Res",
+        "res",
+        "req",
+        "req",
+        "res",
+        "token",
+        "res",
+        "Get",
+        "UseGuards",
+        "AuthenticatedGuard",
+        "Get"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'express'",
+        "'./guards/ft.guard'",
+        "'./auth'",
+        "'src/users/users.service'",
+        "'auth'",
+        "'AUTH_SERVICE'",
+        "'login'",
+        "'redirect'",
+        "'access_token'",
+        "'http://127.0.0.1:3000/'",
+        "'status'",
+        "'ok'",
+        "'logout'"
+    ],
+    "variables": [
+        "token"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* /auth/login\n   * Oauth provider로 redirect가 이뤄질 곳",
+        "* /auth/redirect\n   * Oauth provider가 부를 redirect url",
+        "* /auth/logout"
+    ],
+    "functions": [
+        "login",
+        "redirect",
+        "status",
+        "logout"
+    ],
+    "classes": [
+        "AuthController"
+    ]
+}

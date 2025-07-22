@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "CLIENT_ID",
+        "SCOPES",
+        "RESPONSE_TYPE",
+        "init",
+        "apisToLoad",
+        "angular",
+        "apisToLoad",
+        "gapi",
+        "callback",
+        "apiRoot",
+        "gapi",
+        "callback"
+    ],
+    "literals": [
+        "'767636924532-43i4f4p4nsuqhabgfbkufd3jiia172ba.apps.googleusercontent.com'",
+        "'https://www.googleapis.com/auth/userinfo.email'",
+        "'token id_token'",
+        "'//'",
+        "'/_ah/api'",
+        "\"App\"",
+        "'hangman'",
+        "'v1'",
+        "'oauth2'",
+        "'v2'"
+    ],
+    "variables": [
+        "apisToLoad",
+        "apiRoot",
+        "callback"
+    ],
+    "comments": [
+        "Copyright 2013 Sfeir Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "Below is for the deployed",
+        "CLIENT_ID = '767636924532-a69g5elglcgv4rk8a9d64ng41jrvcuns.apps.googleusercontent.com';",
+        "Below is for localhost testing",
+        "bootstrap manually angularjs after our api are loaded",
+        "must match number of calls to gapi.client.load()"
+    ],
+    "docstrings": [
+        "* Client ID of the application (from the APIs Console).\n *\n * @type {string}",
+        "* Scopes used by the application.\n *\n * @type {string}",
+        "* Response type of the auth token.\n *\n * @type {string}",
+        "* Initializes the application. It loads asynchronously all needed libraries\n *\n * @param {string}\n *            apiRoot Root of the API's path."
+    ],
+    "functions": [],
+    "classes": []
+}

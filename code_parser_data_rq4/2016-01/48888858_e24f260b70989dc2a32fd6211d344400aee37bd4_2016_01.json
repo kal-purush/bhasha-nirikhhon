@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "crypto",
+        "primitives",
+        "AES",
+        "AES_I",
+        "crypto",
+        "tools",
+        "k",
+        "m",
+        "AES",
+        "m",
+        "k",
+        "fn",
+        "crypto",
+        "games",
+        "game_prf",
+        "GamePRF",
+        "crypto",
+        "simulator",
+        "world_sim",
+        "WorldSim",
+        "GamePRF",
+        "F",
+        "key_len",
+        "block_len",
+        "WorldSim",
+        "g",
+        "A",
+        "s",
+        "compute_advantage"
+    ],
+    "literals": [
+        "'__main__'",
+        "\"The advantage of your adversary is ~\""
+    ],
+    "variables": [
+        "block_len",
+        "key_len",
+        "F",
+        "g",
+        "s"
+    ],
+    "comments": [
+        "Block & key size in bytes."
+    ],
+    "docstrings": [
+        "\"\"\"\nNote: Based on exercise in slide 30, PRF lecture.\n\nThe family of functions F: {0, 1}^128 x {0, 1}^128 --> {0, 1}^128 is defined by:\n\"\"\"",
+        "\"\"\"\nShow that F is not a secure PRF by presenting a practical adversary A such\nthat Adv(prf, F, A) is close to one and makes at most 2 queries to its Fn\noracle. Fill in the code for adversary A, verify it's advantage by running your code and describe the running time.\n\"\"\"",
+        "\"\"\"\n    You must fill in this method.\n\n    :param fn: This is the oracle supplied by GamePRF, you can call this\n    oracle to get an \"encryption\" of the data you pass into it.\n    :return: return 1 to indicate your adversary believes it is the real world\n    and return 0 to indicate that your adversary believes it is in the random\n    world.\n    \"\"\"",
+        "\"\"\"\nFormally prove that: 1. Your adversary has an advantage of 1 - 2^-128.\n---&---\n[Answer here].\n\"\"\""
+    ],
+    "functions": [
+        "A"
+    ],
+    "classes": []
+}

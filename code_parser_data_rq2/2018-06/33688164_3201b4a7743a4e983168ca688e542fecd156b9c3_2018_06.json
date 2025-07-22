@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "com",
+        "rolfje",
+        "anonimatron",
+        "anonymizer",
+        "BankAccountAnonymizer",
+        "numberOfDigits"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* An {@linkplain Anonymizer} for Bank Accounts.\n *\n * @author Erik-Berndt Scheper",
+        "* Generate a bank account using the given number of digits.\n\t *\n\t * @param numberOfDigits the number of digits in the account number.\n\t * @return the bank account",
+        "* Generate a valid bank code.\n\t *\n\t * @return a valid bank code"
+    ],
+    "functions": [
+        "generateBankAccount",
+        "generateBankCode"
+    ],
+    "classes": []
+}

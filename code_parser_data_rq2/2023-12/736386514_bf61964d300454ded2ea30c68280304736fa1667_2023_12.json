@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "process",
+        "franc",
+        "input",
+        "langCode",
+        "langs",
+        "langCode",
+        "language"
+    ],
+    "literals": [
+        "'franc'",
+        "'langs'",
+        "'colors'",
+        "'und'",
+        "'解析できませんでした。違う文章でもう一度試してください。'",
+        "'3'",
+        "${language.name}でしょうか？"
+    ],
+    "variables": [
+        "franc",
+        "langs",
+        "colors",
+        "input",
+        "langCode",
+        "language"
+    ],
+    "comments": [
+        "const langCode = franc('Alle menslike wesens word vry');",
+        "const language = langs.where('3', 'langCode');",
+        "console.log(language);",
+        "console.log(language.name);",
+        "node index.js '日本語の文章を渡してみる'",
+        "Japanese"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

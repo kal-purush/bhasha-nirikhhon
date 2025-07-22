@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "NextResponse",
+        "auth",
+        "getSpacesForUser",
+        "auth",
+        "session",
+        "NextResponse",
+        "session",
+        "getSpacesForUser",
+        "session",
+        "spaces",
+        "NextResponse",
+        "spaces",
+        "error",
+        "error",
+        "NextResponse"
+    ],
+    "literals": [
+        "'next/server'",
+        "'@/app/(auth)/auth'",
+        "'@/lib/db/queries'",
+        "'Unauthorized'",
+        "'Fetching spaces for user:'",
+        "'Found spaces:'",
+        "'Error fetching spaces:'",
+        "'Failed to fetch spaces'"
+    ],
+    "variables": [
+        "session",
+        "spaces"
+    ],
+    "comments": [
+        "Check authentication",
+        "Get all spaces for the user",
+        "Return the spaces"
+    ],
+    "docstrings": [],
+    "functions": [
+        "GET"
+    ],
+    "classes": []
+}

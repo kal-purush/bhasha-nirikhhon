@@ -1,0 +1,20 @@
+{
+    "identifiers": [
+        "createGlobalStyle",
+        "reset",
+        "createGlobalStyle",
+        "reset"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'styled-reset'",
+        "${reset}\n  /* other styles */\n  @import url('https://fonts.googleapis.com/css?family=Maven+Pro&display=swap');\n  *{\n      box-sizing: border-box;\n  }\n  body{\n      font-family: -apple-system,system-ui,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,sans-serif\n  }\n  a{\n      color: inherit;\n      text-decoration: none\n  }\n  input,\n  button{\n      &:focus, &:active{outline:none}\n  }"
+    ],
+    "variables": [
+        "GlobalStyle"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

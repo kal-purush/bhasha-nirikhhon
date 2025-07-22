@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "DeviceClient",
+        "Features",
+        "Bitcore",
+        "ByteBuffer",
+        "DeviceMessageHelper",
+        "FlashWrite",
+        "DeviceMessages",
+        "VerifyFlashHash",
+        "sectorData",
+        "sectorData",
+        "sectorData",
+        "sectorData",
+        "ByteBuffer",
+        "Bitcore",
+        "length",
+        "client",
+        "challenge",
+        "client",
+        "features",
+        "VerifyFlashHash",
+        "challenge",
+        "challenge",
+        "ByteBuffer",
+        "Bitcore",
+        "VerifyFlashHash",
+        "sectorData",
+        "DeviceMessageHelper",
+        "message",
+        "sectorData",
+        "message",
+        "sectorData",
+        "message"
+    ],
+    "literals": [
+        "\"../device-client\"",
+        "\"../global/features\"",
+        "\"bitcore-lib\"",
+        "'bytebuffer'",
+        "\"../device-message-helper\"",
+        "'FlashWrite'"
+    ],
+    "variables": [
+        "length",
+        "message"
+    ],
+    "comments": [
+        "(0x080C0f32,0x080DFFFF),",
+        "for (i=0 to 63) buffer[i] = fromCharCode()"
+    ],
+    "docstrings": [],
+    "functions": [
+        "initializeSectorTable",
+        "operation"
+    ],
+    "classes": [
+        "VerifyFlashHash"
+    ]
+}

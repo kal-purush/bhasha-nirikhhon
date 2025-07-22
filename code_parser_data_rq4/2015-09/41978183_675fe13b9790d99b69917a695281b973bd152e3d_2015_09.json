@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "refresh",
+        "vsKey"
+    ],
+    "literals": [
+        "\"bluebird\"",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "The configurations for all installed versions of Visual Studio",
+        "Configuration for Visual Studio 2010 (v10.0), if present",
+        "Configuration for Visual Studio 2013 (v12.0), if present",
+        "Configuration for Visual Studio 2015 (v14.0), if present",
+        "The configuration for a specific version of Visual Studio",
+        "The main product install directory",
+        "Promise representing cached configuration."
+    ],
+    "docstrings": [
+        "* Load VS information from the registry.\n     * @param refresh {boolean} Refresh the configuration if it has already been loaded?\n     * @return A promise that resolves to the VisualStudio instance.",
+        "* Get the product installation directory from the specified Visual Studio registry key.\n     * @param vsKey {} The Visual Studio registry key.\n     * @return The \"ProductDir\" registry value, or null if not present (or vsKey is null)."
+    ],
+    "functions": [],
+    "classes": [
+        "VisualStudio"
+    ]
+}

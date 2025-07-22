@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "promisify",
+        "nodemailer",
+        "tri",
+        "logger",
+        "process",
+        "stringToArray",
+        "stringToConvert",
+        "stringToConvert",
+        "stringToConvert",
+        "stringSplit",
+        "password",
+        "smtpHost",
+        "smtpPort",
+        "emailFrom",
+        "stringToArray",
+        "emailTo",
+        "nodemailer",
+        "promisify",
+        "options",
+        "logger",
+        "moduleName",
+        "options",
+        "options",
+        "tri",
+        "options",
+        "result",
+        "err",
+        "logger",
+        "options",
+        "moduleName"
+    ],
+    "literals": [
+        "'util'",
+        "'nodemailer'",
+        "'tri'",
+        "'../../utils/logging'",
+        "'Email'",
+        "string",
+        "string",
+        "','",
+        "string",
+        "string",
+        "'The email account is not configured'",
+        "Error sending email to ${options.to}"
+    ],
+    "variables": [
+        "moduleName",
+        "user",
+        "password",
+        "stringToArray",
+        "stringSplit",
+        "result"
+    ],
+    "comments": [
+        "eslint-disable-line no-process-env"
+    ],
+    "docstrings": [
+        "* Convert an string comma separated into an Array.\n * @param {string} stringToConvert String comma separated",
+        "* Wrapper for nodemailer to send emails.",
+        "* Send an email.\n     * @param options Options for the email."
+    ],
+    "functions": [
+        "send"
+    ],
+    "classes": [
+        "Email"
+    ]
+}

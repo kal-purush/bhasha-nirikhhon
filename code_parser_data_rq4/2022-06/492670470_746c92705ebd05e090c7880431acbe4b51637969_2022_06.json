@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "PassThrough",
+        "GetVariantSettingsFn",
+        "VariantSetting",
+        "contentType",
+        "name",
+        "PassThrough",
+        "defaultGetVariantSettings",
+        "original",
+        "contentType"
+    ],
+    "literals": [
+        "'stream'",
+        "'../types'",
+        "string",
+        "string",
+        "'original'"
+    ],
+    "variables": [
+        "defaultGetVariantSettings"
+    ],
+    "comments": [
+        "Mirrors source content type"
+    ],
+    "docstrings": [
+        "* @param contentType - the content type of input file.\n * @param name - See {@link VariantSetting.name}. Defaults to `original`.\n * @returns The variant setting that does a identity transform (no transform at all).",
+        "* The default variant setting getter function. It will create just one variant, `original`,\n * no matter what type of file we are currently uploading."
+    ],
+    "functions": [
+        "original"
+    ],
+    "classes": []
+}

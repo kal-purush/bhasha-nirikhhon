@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Http",
+        "Linq",
+        "adyen_dotnet_online_payments",
+        "Services",
+        "IUrlService",
+        "IUrlService",
+        "IHttpContextAccessor",
+        "httpContextAccessor",
+        "_httpContextAccessor",
+        "httpContextAccessor",
+        "_httpContextAccessor",
+        "HttpContext",
+        "Request",
+        "Headers",
+        "FirstOrDefault"
+    ],
+    "literals": [
+        "\"Origin\""
+    ],
+    "variables": [
+        "IHttpContextAccessor",
+        "_httpContextAccessor"
+    ],
+    "comments": [
+        "Retrieves the host url using the origin in the headers of the request.",
+        "This is used to generate the correct host url when running on either http(s)://localhost:* or http(s)://*.gitpod.",
+        "For usage see <see cref=\"adyen_dotnet_online_payments.Controllers.ApiController.Sessions()\"/>",
+        "</summary>",
+        "<returns>Returns the host url.</returns>",
+        "<inheritdoc/>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "GetHostUrl",
+        "UrlService",
+        "GetHostUrl"
+    ],
+    "classes": [
+        "UrlService"
+    ]
+}

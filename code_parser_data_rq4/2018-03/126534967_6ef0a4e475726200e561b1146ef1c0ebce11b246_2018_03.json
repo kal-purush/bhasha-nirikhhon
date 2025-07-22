@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "NgModule",
+        "Routes",
+        "RouterModule",
+        "LandingComponent",
+        "LandingComponent",
+        "NgModule",
+        "RouterModule",
+        "appRoutes",
+        "RouterModule"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router'",
+        "'./landing/landing.component'",
+        "'welcome'",
+        "''",
+        "'/welcome'",
+        "'full'"
+    ],
+    "variables": [
+        "appRoutes"
+    ],
+    "comments": [
+        "{",
+        "path: 'home',",
+        "component: ,",
+        "children: [",
+        "{ path: 'about', component: AboutComponent },",
+        "{ path: 'contact', component: ContactFormComponent },",
+        "{ path: 'muaythai', component: MuaythaiComponent },",
+        "{ path: 'photography', component: PhotographyComponent }",
+        "]",
+        "},",
+        "{ path: '**', component: ErrorPageComponent }"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppRouting"
+    ]
+}

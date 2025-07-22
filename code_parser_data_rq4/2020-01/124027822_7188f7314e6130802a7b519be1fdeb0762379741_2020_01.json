@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "NETSTANDARD2_0",
+        "TestCentric",
+        "Engine",
+        "Agents",
+        "TestAgentTransport",
+        "RemoteTestAgent",
+        "agent",
+        "agent",
+        "_agent",
+        "StopSignal",
+        "TestPackage",
+        "_agent",
+        "CreateRunner"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Copyright (c) Charlie Poole and TestCentric Engine contributors.",
+        "Licensed under the MIT License. See LICENSE.txt in root directory.",
+        "TODO: Start and Stop essentially do nothing in .NET Core",
+        "at this point. They need to be implemented using an appropriate",
+        "communications protoc0l before we actually call the code."
+    ],
+    "docstrings": [
+        "***********************************************************************",
+        "***********************************************************************"
+    ],
+    "functions": [
+        "NetCoreTransport",
+        "Start",
+        "Stop",
+        "ITestEngineRunner",
+        "CreateRunner"
+    ],
+    "classes": [
+        "NetCoreTransport"
+    ]
+}

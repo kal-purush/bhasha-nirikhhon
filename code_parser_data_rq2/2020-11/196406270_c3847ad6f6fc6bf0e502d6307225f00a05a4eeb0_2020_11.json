@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "torch",
+        "einsum",
+        "backpack",
+        "extensions",
+        "firstorder",
+        "FirstOrderModuleExtension",
+        "backpack",
+        "utils",
+        "conv",
+        "convUtils",
+        "FirstOrderModuleExtension",
+        "N",
+        "N",
+        "ext",
+        "g_inp",
+        "g_out",
+        "backproped",
+        "convUtils",
+        "get_bias_gradient_factors",
+        "g_out",
+        "C_axis",
+        "N",
+        "ext",
+        "g_inp",
+        "g_out",
+        "backproped",
+        "convUtils",
+        "get_weight_gradient_factors",
+        "input0",
+        "g_out",
+        "N",
+        "einsum",
+        "dE_dY",
+        "X",
+        "dE_dY",
+        "X"
+    ],
+    "literals": [
+        "\"nmi,nki,nmj,nkj->n\""
+    ],
+    "variables": [
+        "N",
+        "C_axis",
+        "X",
+        "dE_dY"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "bias",
+        "weight"
+    ],
+    "classes": [
+        "BatchL2ConvND"
+    ]
+}

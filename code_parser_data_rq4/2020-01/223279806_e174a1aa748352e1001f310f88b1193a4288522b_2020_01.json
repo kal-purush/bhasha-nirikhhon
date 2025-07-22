@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "getConnection",
+        "getRepository",
+        "UserSession",
+        "refreshToken",
+        "getRepository",
+        "UserSession",
+        "session",
+        "getConnection",
+        "UserSession"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'../../../db/entity/userSession'",
+        "string",
+        "'session'",
+        "'session.refreshToken = :refreshToken'",
+        "'session.user'",
+        "'user'",
+        "'refreshToken = :refreshToken'",
+        "'Logout error'"
+    ],
+    "variables": [
+        "session"
+    ],
+    "comments": [
+        "eslint-disable-next-line no-return-await"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

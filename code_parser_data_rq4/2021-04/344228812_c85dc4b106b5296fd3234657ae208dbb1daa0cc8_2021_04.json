@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "GalleryBucket",
+        "userId",
+        "props",
+        "GalleryBucket",
+        "imageKey",
+        "imageData"
+    ],
+    "literals": [
+        "'../../services/s3'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "${Date.now()}-${Math.floor(Math.random() * 100000)}.jpg"
+    ],
+    "variables": [
+        "props",
+        "imageKey"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "AddToGallery"
+    ],
+    "classes": [
+        "Gallery"
+    ]
+}

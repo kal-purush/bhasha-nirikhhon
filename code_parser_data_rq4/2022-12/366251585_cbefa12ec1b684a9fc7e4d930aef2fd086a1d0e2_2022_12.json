@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "op",
+        "batch_alter_table",
+        "schema",
+        "batch_op",
+        "batch_op",
+        "drop_constraint",
+        "type_",
+        "batch_op",
+        "create_unique_constraint",
+        "op",
+        "batch_alter_table",
+        "schema",
+        "batch_op",
+        "batch_op",
+        "drop_constraint",
+        "type_",
+        "batch_op",
+        "create_unique_constraint"
+    ],
+    "literals": [
+        "'459218b0844c'",
+        "'d429095b570f'",
+        "'project'",
+        "'unique_integration_name_company_id'",
+        "'unique'",
+        "'unique_project_name_company_id'",
+        "'name'",
+        "'company_id'",
+        "'project'",
+        "'unique_project_name_company_id'",
+        "'unique'",
+        "'unique_integration_name_company_id'",
+        "'name'",
+        "'company_id'"
+    ],
+    "variables": [
+        "revision",
+        "down_revision",
+        "branch_labels",
+        "depends_on"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"fix_unique_constraint\n\nRevision ID: 459218b0844c\nRevises: d429095b570f\nCreate Date: 2022-12-26 13:40:57.141241\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

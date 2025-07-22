@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "fastapi",
+        "FastAPI",
+        "pydantic",
+        "BaseModel",
+        "tiktoken",
+        "FastAPI",
+        "BaseModel",
+        "app",
+        "post",
+        "request",
+        "QuestionRequest",
+        "request",
+        "question",
+        "tiktoken",
+        "encoding_for_model",
+        "encoding",
+        "encode",
+        "text",
+        "len",
+        "tokens",
+        "token_count",
+        "cost_per_million",
+        "round",
+        "cost",
+        "cost",
+        "token_count"
+    ],
+    "literals": [
+        "\"/api/\"",
+        "\"gpt-3.5-turbo-0125\"",
+        "\"私は静かな図書館で本を読みながら、時間の流れを忘れてしまいました。\"",
+        "\"gpt-3.5-turbo-0125\"",
+        "\"answer\"",
+        "f\"The input would cost approximately {cost} cents (for {token_count} tokens).\"",
+        "\"links\"",
+        "\"url\"",
+        "\"https://discourse.onlinedegree.iitm.ac.in/t/ga5-question-8-clarification/155939/4\"",
+        "\"text\"",
+        "\"Use the model that’s mentioned in the question.\"",
+        "\"url\"",
+        "\"https://discourse.onlinedegree.iitm.ac.in/t/ga5-question-8-clarification/155939/3\"",
+        "\"text\"",
+        "\"My understanding is that you just have to use a tokenizer to get the number of tokens and multiply by the given rate.\"",
+        "\"answer\"",
+        "\"I'm not sure. Please provide more context.\"",
+        "\"links\""
+    ],
+    "variables": [
+        "app",
+        "question",
+        "image",
+        "text",
+        "encoding",
+        "tokens",
+        "token_count",
+        "cost_per_million",
+        "cost",
+        "cost"
+    ],
+    "comments": [
+        "optional base64 image",
+        "Count tokens for this Japanese sentence",
+        "50 cents per million tokens"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_answer"
+    ],
+    "classes": [
+        "QuestionRequest"
+    ]
+}

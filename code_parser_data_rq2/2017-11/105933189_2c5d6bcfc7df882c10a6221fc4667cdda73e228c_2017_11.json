@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Plugin",
+        "Cordova",
+        "IonicNativePlugin",
+        "Plugin",
+        "Injectable",
+        "IonicNativePlugin",
+        "Cordova",
+        "Cordova",
+        "Cordova",
+        "Cordova",
+        "Cordova",
+        "Cordova",
+        "Cordova",
+        "Cordova"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@ionic-native/core'",
+        "'SWTX9'",
+        "'cordova-plugin-swt-x9'",
+        "'cordova.plugin.swt.x9'",
+        "'https://github.com/BlyncSync/cordova-plugin-swt-x9'",
+        "'Android'",
+        "'iOS'"
+    ],
+    "variables": [
+        "cordova"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @name SWT X9\n * @description\n * Implementation of the Shenzen Wearable Technologies X9 SDK\n *\n * @usage\n * ```typescript\n * import { SWTX9 } from '@ionic-native/swt-x9';\n *\n * constructor(private X9: SWTX9) { }\n *\n * X9.getHeartRateData()\n *   .then((responseUintArray, responseStr) => {\n *     console.log(responseUintArray);\n *     console.log(responseStr);\n *   })\n *   .catch((errorMessage) => {\n *     console.log(errorMessage);\n *   });\n * \n * X9.getSleepData()\n *   .then((responseUintArray, responseStr) => {\n *     console.log(responseUintArray);\n *     console.log(responseStr);\n *   })\n *   .catch((errorMessage) => {\n *     console.log(errorMessage);\n *   });\n * ```\n *\n * @returns\n * The ble plugin uses typed Arrays or ArrayBuffers for sending and receiving data. The success callback will return the data as responseUintArray, responseStr in the following format:\n *\n * var responseUintArray = new Uint8Array(response);\n * var responseStr = String.fromCharCode.apply(String, new Uint8Array(response));",
+        "* Starts a scan for X9 devices and returns the MAC address of the first X9 found.\n   *\n   *@returns {Promise<any>}",
+        "* Connect to an X9 device.  Accepts a MAC address as input, but if none is given then it scans for and (if found) connects to the first X9 found.\n   * Returns the MAC address of the connected device.\n   *\n   *@returns {Promise<any>}",
+        "* Return heart rate data from an X9 device.\n   * If no device MAC address is input and no X9 is connected, this method will scan for and (if found) connect to an X9, start the heart rate monitoring service, and return the response.\n   * It will take ~20 or more seconds to run the heart rate monitoring service and return the results.\n   *\n   *@returns {Promise<any>}",
+        "* Scan for and connect to the X9 device, start the heart rate monitoring service, and return the response.\n   * It will take ~20 or more seconds to run the heart rate monitoring service and return the results.\n   *\n   *@returns {Promise<any>}",
+        "* Return heart rate data from an X9 device.\n   * This method is intended to be an internal method and should not (but ultimately can) be called directly.\n   * If no X9 has been connect previously, it will call getHeartRateData to handle the automatic scan and connection process.\n   *\n   * @returns {Promise<any>}",
+        "* Return sleep data from an X9 device.\n   * This method is intended to be an internal method and should not (but ultimately can) be called directly.\\\n   *\n   * @returns {Promise<any>}",
+        "* Return current verbosity (true = verbose, false = silent)\n   *\n   * @returns {Promise<any>}",
+        "* Toggle verbosity\n   *\n   * @returns {Promise<any>}"
+    ],
+    "functions": [
+        "startScan",
+        "connect",
+        "getHeartRateData",
+        "readHeartRateData",
+        "getSleepData",
+        "readSleepData",
+        "getVerbosity",
+        "toggleVerbosity"
+    ],
+    "classes": [
+        "SWTX9"
+    ]
+}

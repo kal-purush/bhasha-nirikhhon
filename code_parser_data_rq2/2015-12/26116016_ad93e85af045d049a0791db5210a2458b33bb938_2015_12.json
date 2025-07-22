@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "setuptools",
+        "command",
+        "easy_install",
+        "easy_install",
+        "easy_install",
+        "distutils",
+        "dist",
+        "Distribution",
+        "Distribution",
+        "dist",
+        "initialize_options",
+        "dist",
+        "verbose",
+        "easy_install_default",
+        "distutils",
+        "errors",
+        "e",
+        "finalize_options",
+        "distutils",
+        "errors",
+        "DistutilsError",
+        "e",
+        "install_dir",
+        "rstrip",
+        "distutils",
+        "sysconfig",
+        "distutils",
+        "sysconfig",
+        "get_python_lib",
+        "rstrip"
+    ],
+    "literals": [
+        "'/\\\\'",
+        "'/\\\\'"
+    ],
+    "variables": [
+        "dist",
+        "distribution",
+        "_dry_run",
+        "verbose",
+        "force",
+        "help",
+        "finalized",
+        "e"
+    ],
+    "comments": [
+        "! /usr/bin/env python",
+        "============================================================================",
+        "Copyright (c) 2011-2012 University of Pennsylvania",
+        "Copyright (c) 2013-2014 Andreas Schuh",
+        "All rights reserved.",
+        "",
+        "See COPYING file for license information or visit",
+        "http://opensource.andreasschuh.com/cmake-basis/download.html#license",
+        "============================================================================",
+        "",
+        "@file  get_python_lib.py",
+        "@brief Auxiliary Python script to get installation directory for site packages.",
+        "",
+        "this uses the same as packages which use easy_install for the installation",
+        "and returns also the proper site-packages directory on Ubuntu",
+        "however, if the setuptools are not installed, fall back to the distutils"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "easy_install_default"
+    ]
+}

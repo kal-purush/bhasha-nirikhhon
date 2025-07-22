@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "shiro",
+        "shiro",
+        "org",
+        "apache",
+        "shiro",
+        "SecurityUtils",
+        "org",
+        "apache",
+        "shiro",
+        "authc",
+        "UsernamePasswordToken",
+        "org",
+        "apache",
+        "shiro",
+        "config",
+        "IniSecurityManagerFactory",
+        "org",
+        "apache",
+        "shiro",
+        "mgt",
+        "SecurityManager",
+        "org",
+        "apache",
+        "shiro",
+        "subject",
+        "Subject",
+        "org",
+        "apache",
+        "shiro",
+        "util",
+        "Factory",
+        "args",
+        "factory",
+        "securityManager",
+        "factory",
+        "getInstance",
+        "SecurityUtils",
+        "setSecurityManager",
+        "securityManager",
+        "currentUser",
+        "SecurityUtils",
+        "getSubject",
+        "token",
+        "currentUser",
+        "login",
+        "token",
+        "e",
+        "e",
+        "printStackTrace"
+    ],
+    "literals": [
+        "\"classpath:shiro.ini\"",
+        "\"acey\"",
+        "\"123456\"",
+        "\"登录成功\"",
+        "\"登录失败\""
+    ],
+    "variables": [],
+    "comments": [
+        "加载配置文件,初始化 SecurityManager 工厂",
+        "获取 SecurityManager 实例",
+        "把 SecurityManager 绑定到 SecurityUtils 中",
+        "得到当前执行的用户",
+        "创建 token 令牌,用户名/密码",
+        "身份验证"
+    ],
+    "docstrings": [
+        "* Created by acey on 4/29/17."
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "HelloWorld"
+    ]
+}

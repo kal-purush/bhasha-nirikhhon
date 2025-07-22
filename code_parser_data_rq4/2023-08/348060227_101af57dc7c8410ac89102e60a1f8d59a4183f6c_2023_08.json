@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "os",
+        "protocol",
+        "hostname",
+        "port",
+        "os",
+        "nInterface",
+        "nInterface",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "detail",
+        "hostname",
+        "wildcardHosts",
+        "hostname",
+        "hostname",
+        "host",
+        "host",
+        "host",
+        "protocol",
+        "host",
+        "port",
+        "detail",
+        "NetworkAddress",
+        "url",
+        "NetworkAddress",
+        "url",
+        "NetworkAddress"
+    ],
+    "literals": [
+        "'os'",
+        "string",
+        "string",
+        "'0.0.0.0'",
+        "'::'",
+        "'0000:0000:0000:0000:0000:0000:0000:0000'",
+        "'http'",
+        "'https'",
+        "'http'",
+        "string",
+        "string",
+        "'IPv4'",
+        "'127.0.0.1'",
+        "'localhost'",
+        "':'",
+        "[${host}]",
+        "${protocol}://${host}:${port}${base ? base : ''}",
+        "''",
+        "'127.0.0.1'"
+    ],
+    "variables": [
+        "wildcardHosts",
+        "NetworkAddress",
+        "host",
+        "url"
+    ],
+    "comments": [
+        "this code from vite https://github.com/vitejs/vite/blob/d09bbd093a4b893e78f0bbff5b17c7cf7821f403/packages/vite/src/node/utils.ts#L892-L914",
+        "@ts-expect-error Node 18.0 - 18.3 returns number",
+        "ipv6 host"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getNetworkAddress"
+    ],
+    "classes": []
+}

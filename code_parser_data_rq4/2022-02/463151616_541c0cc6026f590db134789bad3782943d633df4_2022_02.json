@@ -1,0 +1,20 @@
+{
+    "identifiers": [
+        "app"
+    ],
+    "literals": [
+        "'filter-form'",
+        "<div class=\"filter-menu\">\n        <form class=\"filter-form\" @submit.prevent=\"onSubmit\">\n            <h3>Rechercher un pokémon</h3>\n            <input id=\"name\" v-model=\"name\" placeholder=\"Nom ou id ...\">\n            <input class=\"button\" type=\"submit\" value=\"Recherche\">\n        </form>\n    </div>",
+        "''",
+        "'research-pokemon'"
+    ],
+    "variables": [],
+    "comments": [
+        "html"
+    ],
+    "docstrings": [],
+    "functions": [
+        "onSubmit"
+    ],
+    "classes": []
+}

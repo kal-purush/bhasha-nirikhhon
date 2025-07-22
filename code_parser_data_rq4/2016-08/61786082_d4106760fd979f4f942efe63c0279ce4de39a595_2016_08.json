@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "com",
+        "bilibili",
+        "magicasakura",
+        "utils",
+        "android",
+        "view",
+        "inputmethod",
+        "InputConnection",
+        "android",
+        "view",
+        "inputmethod",
+        "InputConnectionWrapper",
+        "target",
+        "mutable",
+        "target",
+        "mutable",
+        "Override",
+        "start",
+        "end",
+        "start",
+        "end",
+        "setSelection",
+        "start",
+        "end"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "If the given selection is out of bounds, just ignore it.",
+        "Most likely the text was changed out from under the IME,",
+        "and the IME is going to have to update all of its state",
+        "anyway."
+    ],
+    "docstrings": [
+        "* just used for fix <pre>java.lang.IndexOutOfBoundsException</pre> while\n * invoke {@link InputConnection#setSelection(int, int)}\n * @author Yann Chou\n * @email zhouyanbin1029@gmail.com\n * @create 2016-08-29 11:37"
+    ],
+    "functions": [
+        "InputConnectionImpl",
+        "setSelection"
+    ],
+    "classes": [
+        "InputConnectionImpl"
+    ]
+}

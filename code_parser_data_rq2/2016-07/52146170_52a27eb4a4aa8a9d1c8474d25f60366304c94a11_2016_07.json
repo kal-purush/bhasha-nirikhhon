@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "LazyLoadImageDirective",
+        "Component",
+        "LazyLoadImageDirective",
+        "Input",
+        "BgImageComponent"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../src/lazyload-image.directive'",
+        "'bg-image'",
+        "div {\n            min-width: 1497px;\n            width: 100%;\n            min-height: 1127px;\n            background-position: center;\n            background-size: cover;\n            transition: opacity 1s;\n            opacity: 0;\n        }\n\n        .ng2-lazyloaded {\n            opacity: 1;\n        }",
+        "<div src=\"https://www.placecage.com/1000/1000\" [lazyLoad]=\"image\" offset=\"0\">",
+        "'src'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "BgImageComponent"
+    ]
+}

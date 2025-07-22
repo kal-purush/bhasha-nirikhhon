@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "fetch",
+        "BASE_URL",
+        "response",
+        "response",
+        "id",
+        "fetch",
+        "BASE_URL",
+        "id",
+        "response",
+        "id",
+        "fetch",
+        "BASE_URL",
+        "id",
+        "response",
+        "name",
+        "email",
+        "body",
+        "postId",
+        "fetch",
+        "BASE_URL",
+        "id",
+        "fetch",
+        "BASE_URL",
+        "id"
+    ],
+    "literals": [
+        "'https://frontend-candidate.dev.sdh.com.ua/v1/contact/'",
+        "${BASE_URL}",
+        "${BASE_URL}${id}",
+        "${BASE_URL}${id}",
+        "'DELETE'",
+        "string",
+        "string",
+        "string",
+        "${BASE_URL}",
+        "'POST'",
+        "'Content-type'",
+        "'application/json; charset=UTF-8'",
+        "${BASE_URL}${id}",
+        "'PUT'",
+        "'Content-type'",
+        "'application/json; charset=UTF-8'"
+    ],
+    "variables": [
+        "BASE_URL",
+        "response",
+        "response",
+        "response"
+    ],
+    "comments": [
+        "eslint-disable-next-line no-console"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getAllUsers",
+        "getUser",
+        "delUser",
+        "createUser",
+        "updateUser"
+    ],
+    "classes": []
+}

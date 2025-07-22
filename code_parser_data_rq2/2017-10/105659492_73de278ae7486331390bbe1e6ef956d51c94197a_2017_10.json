@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "x",
+        "np",
+        "exp",
+        "x",
+        "np",
+        "sum",
+        "np",
+        "exp",
+        "x",
+        "axis",
+        "SoftMax",
+        "sm",
+        "softmax",
+        "scores",
+        "T"
+    ],
+    "literals": [
+        "'__main__'"
+    ],
+    "variables": [
+        "scores",
+        "sm"
+    ],
+    "comments": [
+        "\"\"\"Compute softmax values for each sets of scores in x.\"\"\"",
+        "scores = [1.0, 2.0, 3.0]",
+        "Plot softmax curves",
+        "juypeter notebook",
+        "import matplotlib.pyplot as plt",
+        "x = np.arange(-2.0, 6.0, 0.1)",
+        "x = np.arange(-1.0,2,0.1)",
+        "scores_ = self.getVstack(x)",
+        "r = softmax(scores_)",
+        "plt.plot(x, softmax(scores).T, linewidth=2)",
+        "plt.show()"
+    ],
+    "docstrings": [
+        "\"\"\"Softmax.\"\"\""
+    ],
+    "functions": [
+        "softmax"
+    ],
+    "classes": [
+        "SoftMax"
+    ]
+}

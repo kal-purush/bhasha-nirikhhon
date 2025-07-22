@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "clients",
+        "client",
+        "clients",
+        "append",
+        "client",
+        "client",
+        "Name",
+        "sender",
+        "message",
+        "client",
+        "clients",
+        "client",
+        "sender",
+        "client",
+        "AddReceivedMessage",
+        "sender",
+        "Name",
+        "message",
+        "sender",
+        "Name",
+        "message"
+    ],
+    "literals": [
+        "'%s joined the chat room.'",
+        "'%s: %s'",
+        "'%s sent the following to all users: \\\"%s\\\"'"
+    ],
+    "variables": [
+        "clients"
+    ],
+    "comments": [],
+    "docstrings": [
+        "''' Responsible for handling the communication between\n        clients in the chatroom (a Mediator class).\n    '''"
+    ],
+    "functions": [
+        "Clients",
+        "AddClient",
+        "SendMessageToAll"
+    ],
+    "classes": [
+        "Chatroom"
+    ]
+}

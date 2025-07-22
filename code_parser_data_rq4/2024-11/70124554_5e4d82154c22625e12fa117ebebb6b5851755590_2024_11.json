@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "sqlalchemy",
+        "sa",
+        "alembic",
+        "op",
+        "op",
+        "add_column",
+        "sa",
+        "Column",
+        "sa",
+        "BigInteger",
+        "nullable",
+        "op",
+        "drop_column"
+    ],
+    "literals": [
+        "\"d4c174934fd0\"",
+        "\"e9e574a6e22d\"",
+        "\"sessions\"",
+        "\"batch_timeout\"",
+        "\"sessions\"",
+        "\"batch_timeout\""
+    ],
+    "variables": [
+        "revision",
+        "down_revision",
+        "branch_labels",
+        "depends_on"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic."
+    ],
+    "docstrings": [
+        "\"\"\"add sessions batch_timeout column\n\nRevision ID: d4c174934fd0\nRevises: e9e574a6e22d\nCreate Date: 2024-11-11 16:47:05.150825\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "Property",
+        "React",
+        "useHotkeys",
+        "ReactZoomPanPinchRef",
+        "React",
+        "React",
+        "React",
+        "React",
+        "React",
+        "React",
+        "useHotkeys",
+        "transformWarperRef",
+        "React",
+        "Property",
+        "isDisabled",
+        "isPanning",
+        "isZooming",
+        "isDeZooming",
+        "isDisabled",
+        "isPanning",
+        "isZooming",
+        "isDeZooming",
+        "useHotkeys",
+        "setIsDisabled",
+        "isDisabled",
+        "isDisabled"
+    ],
+    "literals": [
+        "\"csstype\"",
+        "\"react\"",
+        "\"react-hotkeys-hook\"",
+        "\"react-zoom-pan-pinch\"",
+        "\"x\"",
+        "\"not-allowed\"",
+        "\"grabbing\"",
+        "\"zoom-in\"",
+        "\"zoom-out\"",
+        "\"grab\"",
+        "\"ctrl\""
+    ],
+    "variables": [
+        "speed",
+        "isDisabled",
+        "setIsDisabled",
+        "isPanning",
+        "setIsPanning",
+        "isZooming",
+        "setIsZooming",
+        "isDeZooming",
+        "setIsDeZooming",
+        "isTransition",
+        "startTransition",
+        "transformWarperRef",
+        "cursor"
+    ],
+    "comments": [
+        "TODO Reimplement this later...",
+        "useHotkeys(\"w\", () => {\n        const current = transformWarperRef.current;\n        if (current) {\n            const x = current.instance.transformState.positionX;\n            const y = current.instance.transformState.positionY;\n            const scale = current.instance.transformState.scale;\n            current.setTransform(x, y + speed, scale);\n        }\n    }, [transformWarperRef]);\n    useHotkeys(\"s\", () => {\n        const current = transformWarperRef.current;\n        if (current) {\n            const x = current.instance.transformState.positionX;\n            const y = current.instance.transformState.positionY;\n            const scale = current.instance.transformState.scale;\n            current.setTransform(x, y - speed, scale);\n        }\n    }, [transformWarperRef]);\n    useHotkeys(\"a\", () => {\n        const { current } = transformWarperRef;\n        if (current) {\n            const x = current.instance.transformState.positionX;\n            const y = current.instance.transformState.positionY;\n            const scale = current.instance.transformState.scale;\n            current.setTransform(x + speed, y, scale);\n        }\n    }, [transformWarperRef]);\n    useHotkeys(\"d\", () => {\n        const current = transformWarperRef.current;\n        if (current) {\n            const x = current.instance.transformState.positionX;\n            const y = current.instance.transformState.positionY;\n            const scale = current.instance.transformState.scale;\n            current.setTransform(x - speed, y, scale);\n        }\n    }, [transformWarperRef]);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "useImageState"
+    ],
+    "classes": []
+}

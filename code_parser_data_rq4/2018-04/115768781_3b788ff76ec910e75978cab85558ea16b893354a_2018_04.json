@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "boto3",
+        "logging",
+        "time",
+        "sleep",
+        "botocore",
+        "exceptions",
+        "ClientError",
+        "boto3",
+        "client",
+        "context",
+        "client",
+        "describe_snapshots",
+        "Filters",
+        "image_id",
+        "i",
+        "response",
+        "client",
+        "delete_snapshot",
+        "SnapshotId",
+        "i",
+        "ClientError",
+        "e",
+        "logging",
+        "error",
+        "e"
+    ],
+    "literals": [
+        "'ec2'",
+        "'detail'",
+        "'requestParameters'",
+        "'imageId'",
+        "'Name'",
+        "'description'",
+        "'Values'",
+        "'Created by CreateImage(*) for '",
+        "' from *'",
+        "'Snapshots'",
+        "'SnapshotId'",
+        "\"Delete snapshot error: %s\""
+    ],
+    "variables": [
+        "client",
+        "image_id",
+        "response"
+    ],
+    "comments": [
+        "削除された対象のAMI IDを取得",
+        "削除対象のスナップショットを取得",
+        "スナップショットの削除"
+    ],
+    "docstrings": [],
+    "functions": [
+        "lambda_handler"
+    ],
+    "classes": []
+}

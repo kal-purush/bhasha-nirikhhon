@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Logger",
+        "Module",
+        "OnApplicationBootstrap",
+        "OnModuleInit",
+        "CronsService",
+        "RecordModule",
+        "ZoneModule",
+        "DataSource",
+        "EntityManager",
+        "Repository",
+        "Table",
+        "InjectDataSource",
+        "InjectRepository",
+        "RecordService",
+        "RecordRepository",
+        "dataSource",
+        "Module",
+        "RecordModule",
+        "ZoneModule",
+        "CronsService"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'./crons.service'",
+        "'src/record/record.module'",
+        "'src/zone/zone.module'",
+        "'typeorm'",
+        "'@nestjs/typeorm'",
+        "'src/record/entities/record.entity'",
+        "'src/record/record.service'",
+        "'src/record/record.repository'",
+        "'../typeorm.config'"
+    ],
+    "variables": [],
+    "comments": [
+        "private databaseService: DatabaseService",
+        "this.databaseService.createDatabaseTablesIfNotExist()",
+        "this.databaseService.createDatabaseTablesIfNotExist()",
+        "const createTablesMigration = new CreateTablesMigration()\n    if(!dataSource.isInitialized){\n      await dataSource.initialize()\n    }\n    console.log(\"About To Apply Migration\")\n    const queryRunner = dataSource.createQueryRunner()\n    await queryRunner.connect()\n    await createTablesMigration.up(dataSource.createQueryRunner())\n    console.log(\"Done!\")"
+    ],
+    "docstrings": [],
+    "functions": [
+        "onApplicationBootstrap",
+        "onModuleInit"
+    ],
+    "classes": [
+        "CronsModule"
+    ]
+}

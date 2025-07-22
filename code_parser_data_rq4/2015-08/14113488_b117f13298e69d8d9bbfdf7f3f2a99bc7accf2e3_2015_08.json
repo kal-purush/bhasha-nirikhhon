@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "com",
+        "belerweb",
+        "social",
+        "weixin",
+        "bean",
+        "org",
+        "json",
+        "JSONObject",
+        "com",
+        "belerweb",
+        "social",
+        "bean",
+        "JsonBean",
+        "com",
+        "belerweb",
+        "social",
+        "bean",
+        "Result",
+        "jsonObject",
+        "jsonObject",
+        "ticket",
+        "expiresIn",
+        "ticket",
+        "ticket",
+        "ticket",
+        "ticket",
+        "expiresIn",
+        "expiresIn",
+        "expiresIn",
+        "expiresIn",
+        "jsonObject",
+        "jsonObject",
+        "obj",
+        "jsonObject",
+        "obj",
+        "ticket",
+        "jsonObject",
+        "getString",
+        "obj",
+        "expiresIn",
+        "Result",
+        "parseLong",
+        "jsonObject",
+        "opt",
+        "obj"
+    ],
+    "literals": [
+        "\"ticket\"",
+        "\"expires_in\""
+    ],
+    "variables": [
+        "ticket",
+        "expiresIn"
+    ],
+    "comments": [
+        "ticket是公众号用于调用微信JS接口的临时票据",
+        "jsapi_ticket接口调用凭证超时时间，单位（秒）"
+    ],
+    "docstrings": [
+        "* jsapi_ticket是公众号用于调用微信JS接口的临时票据。正常情况下，jsapi_ticket的有效期为7200秒，通过access_token来获取。"
+    ],
+    "functions": [
+        "JSApiTicket",
+        "JSApiTicket",
+        "getTicket",
+        "setTicket",
+        "getExpiresIn",
+        "setExpiresIn",
+        "JSApiTicket",
+        "parse"
+    ],
+    "classes": [
+        "JSApiTicket"
+    ]
+}

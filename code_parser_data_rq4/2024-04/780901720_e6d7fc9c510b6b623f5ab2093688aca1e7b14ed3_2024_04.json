@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "FluentValidation",
+        "TestBuildersPattern",
+        "ClassLibrary",
+        "Entities",
+        "TestBuildersPattern",
+        "ClassLibrary",
+        "Validators",
+        "AbstractValidator",
+        "Client",
+        "RuleFor",
+        "c",
+        "Name",
+        "Length",
+        "WithMessage",
+        "RuleFor",
+        "c",
+        "Description",
+        "Length",
+        "WithMessage",
+        "RuleFor",
+        "c",
+        "Author",
+        "Length",
+        "WithMessage",
+        "RuleFor",
+        "c",
+        "Age",
+        "GreaterThan",
+        "WithMessage"
+    ],
+    "literals": [
+        "\"Name need to have 3 to 150 characters.\"",
+        "\"Description need to have 3 to 1000 characters.\"",
+        "\"Author need to have 3 to 100 characters.\"",
+        "\"Age need to be greather than 0.\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ClientValidator"
+    ],
+    "classes": [
+        "ClientValidator"
+    ]
+}

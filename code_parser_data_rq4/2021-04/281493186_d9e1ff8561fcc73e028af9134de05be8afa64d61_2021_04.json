@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "google",
+        "privateca_v1beta1",
+        "Client",
+        "Client",
+        "google",
+        "authorityId",
+        "location",
+        "privateca_v1beta1",
+        "location",
+        "authorityId",
+        "result",
+        "callback",
+        "data",
+        "privateca_v1beta1",
+        "nextPageToken",
+        "nextPageToken",
+        "data",
+        "privateca_v1beta1",
+        "certificateAuthority",
+        "data",
+        "callback",
+        "certificateAuthority",
+        "caId",
+        "caLocation",
+        "callback",
+        "data",
+        "privateca_v1beta1",
+        "nextPageToken",
+        "caLocation",
+        "caId",
+        "nextPageToken",
+        "data",
+        "privateca_v1beta1",
+        "certificate",
+        "data",
+        "callback",
+        "certificate"
+    ],
+    "literals": [
+        "'googleapis'",
+        "'../../google-cloud/client'",
+        "'v1beta1'",
+        "string",
+        "string",
+        "projects/${this.projectId}/locations/${location}/certificateAuthorities/${authorityId}",
+        "projects/${this.projectId}/locations/-",
+        "string",
+        "string",
+        "projects/${this.projectId}/locations/${caLocation}/certificateAuthorities/${caId}"
+    ],
+    "variables": [
+        "auth",
+        "result",
+        "auth",
+        "auth"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getAuthorityPolicy",
+        "iterateCertificateAuthorities",
+        "iterateAuthorityCertificates"
+    ],
+    "classes": [
+        "PrivateCaClient"
+    ]
+}

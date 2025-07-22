@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "JsonPlaceholder",
+        "_",
+        "fetchPostsAndUsers",
+        "dispatch",
+        "getState",
+        "dispatch",
+        "fetchPosts",
+        "_",
+        "getState",
+        "id",
+        "dispatch",
+        "fetchUser",
+        "id",
+        "fetchPosts",
+        "dispatch",
+        "getState",
+        "JsonPlaceholder",
+        "dispatch",
+        "response",
+        "fetchUser",
+        "id",
+        "dispatch",
+        "_fetchUser",
+        "id",
+        "dispatch",
+        "_",
+        "id",
+        "dispatch",
+        "JsonPlaceholder",
+        "id",
+        "dispatch",
+        "response"
+    ],
+    "literals": [
+        "\"../api/JsonPlaceholder\"",
+        "\"lodash\"",
+        "\"userId\"",
+        "\"/posts\"",
+        "\"FETCH_POSTS\"",
+        "/users/${id}",
+        "\"FETCH_USER\""
+    ],
+    "variables": [
+        "fetchPostsAndUsers",
+        "fetchPosts",
+        "response",
+        "fetchUser",
+        "_fetchUser",
+        "response"
+    ],
+    "comments": [
+        "const userIds = _.uniq(_.map(getState().posts, \"userId\"));",
+        "userIds.forEach((id) => dispatch(fetchUser(id)));",
+        "SAME AS",
+        "Memoize approach to cache retrieved data"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

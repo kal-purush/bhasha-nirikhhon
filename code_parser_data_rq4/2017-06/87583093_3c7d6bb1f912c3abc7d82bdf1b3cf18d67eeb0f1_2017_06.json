@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "pytest",
+        "pytest",
+        "mark",
+        "req",
+        "pytest",
+        "mark",
+        "author",
+        "pytest",
+        "mark",
+        "t_area",
+        "pytest",
+        "mark",
+        "mat3",
+        "pytest",
+        "mark",
+        "mat3",
+        "pytest",
+        "mark",
+        "t_type"
+    ],
+    "literals": [
+        "\"PLAT-2378\"",
+        "\"jherrin\"",
+        "\"ANY\"",
+        "\"Normal\""
+    ],
+    "variables": [
+        "pytestmark"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n===============================\ntest_rc_airshow_default_disable\n===============================\n\n:Module Desc:   Verify the Airshow feature is disabled after restoring factory\n                default settings.\n                \n\n:Test Reviewer:\n:Req Coverage:  Full\n\n\n\"\"\"",
+        "\"\"\"\n    Setup for all tests in this module\n\n    Module Setup Steps:\n\n    #. Connect a Test PC to the Maintenance port (or Eth10) of the LRU\n    #. Open a browser on the test laptop and Navigate to wizard.gogo.aero, or \n    #. enter the IP address 172.20.1.1\n    #. Login to the maintenance page with username \"gogo\" and password \"gogopassword\" \n    \n    #. Note: This module should be run on an LRU that was previously configured for\n    #.       RC Airshow enabled.\n\n    \"\"\"",
+        "\"\"\"\n    Setup for every test case in this module\n\n    Function Setup Steps:\n\n    #. Navigate to the Features Active Status page\n    #. Verify the Rockwell Collins Airshow App shows \"Enabled\"\n    #. Navigate to the Equipment Configuration page\n    #. Factory reset is on Manage System page\n    \"\"\"",
+        "\"\"\"\n    Teardown to be run after every test case\n\n    Function Teardown Steps:\n\n    #. Close the browser window on the Test PC.\n    #. Remove connection between the Test PC and the maintenance port on the LRU.\n\n    \"\"\"",
+        "\"\"\"\n    Teardown after all tests in this module\n\n    Module Teardown Steps:\n\n    #. Since the test function just did a Factory Default, nothing to do here.\n\n    \"\"\"",
+        "\"\"\"\n    :Test Description: PLAT-2378 The LRU shall disable Rockwell Collins Airshow feature on the cabin bridge by default.\n                       \n\n    **Setup:**\n\n        #. Execute the steps from :func:`setup_module`\n        #. Execute the steps from :func:`setup_function`\n\n\n    **Teststeps:**\n\n        #. From the laptop browser, navigate to the Manage System tab of the GUI\n        #. In the Restore Factory Defaults tile, click on the Reset button\n        #. In the dialog box that appears, click Confirm to initiate the reboot sequence\n        #. When the system reboots (approximately 90 seconds), log into the LRU again\n        #. In the browser of the Test PC, navigate to the Features Active page\n        #. Verify that the Rockwell Collins Airshow App shows Disabled\n        \n\n    **Teardown:**\n\n        #. Execute the steps from :func:`teardown_function`\n        #. Execute the steps from :func:`teardown_module`\n\n    \"\"\""
+    ],
+    "functions": [
+        "setup_module",
+        "setup_function",
+        "teardown_function",
+        "teardown_module",
+        "test_rc_airshow_default_disable"
+    ],
+    "classes": []
+}

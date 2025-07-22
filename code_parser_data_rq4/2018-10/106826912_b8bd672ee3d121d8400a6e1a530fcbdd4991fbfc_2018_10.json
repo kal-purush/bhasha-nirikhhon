@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "models",
+        "kinematics",
+        "newtonian_model",
+        "nm",
+        "input",
+        "userFunc",
+        "i",
+        "append",
+        "input",
+        "i",
+        "nm",
+        "distance",
+        "userFunc",
+        "i",
+        "append",
+        "input",
+        "i",
+        "nm",
+        "vel_final_dist",
+        "userFunc",
+        "i",
+        "append",
+        "input",
+        "i",
+        "nm",
+        "vel_final_time"
+    ],
+    "literals": [
+        "\"\\n\\n--------------------------------------\"",
+        "\"Welcome to the Physics Problem Solver!\"",
+        "\"--------------------------------------\"",
+        "\"--------------------------------------\\n\"",
+        "\"Enter a function code:\\n\"",
+        "\"distance\"",
+        "\"Enter parameter %d\\t\"",
+        "\"fvd\"",
+        "\"Enter parameter %d\\t\"",
+        "\"fvt\"",
+        "\"Enter parameter %d\\t\""
+    ],
+    "variables": [
+        "userFunc"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"[function name]\\t\\t:\\t[code]\\t:\\t\\t[required parameters]\\n\ndistance\\t\\t\\t:\\t(dis)\\t:\\tinitial velocity, acceleration, time\nfinal velocity\\t\\t:\\t(fvd)\\t:\\tinitial velocity, acceleration, distance\nfinal velocity\\t\\t:\\t(fvt)\\t:\\tinitial velocity, acceleration, time\nhorizontal range\\t:\\t(hr)\\t:\\tinitial velocity, angle, gravity\nhorizontal range\\t:\\t(hri)\\t:\\tinitial velocity, angle, initial height, gravity\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

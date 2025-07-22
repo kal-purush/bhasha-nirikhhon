@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "com",
+        "mangopay",
+        "core",
+        "APIs",
+        "com",
+        "mangopay",
+        "entities",
+        "UboDeclaration",
+        "UboDeclarationApi",
+        "id",
+        "declaration"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Class handling API methods concerning the UBO declaration entity.",
+        "* Retrieves a UBO declaration.\n     *\n     * @param id ID of the UBO declaration to retrieve\n     * @return UboDeclaration instance from the API\n     * @throws Exception",
+        "* Updates a UBO declaration.\n     *\n     * @param declaration Updated data object\n     * @return Updated UBO declaration object\n     * @throws Exception"
+    ],
+    "functions": [
+        "UboDeclaration",
+        "get",
+        "UboDeclaration",
+        "update"
+    ],
+    "classes": []
+}

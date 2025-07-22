@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "Net",
+        "Http",
+        "Text",
+        "Microsoft",
+        "Azure",
+        "IoTSolutions",
+        "ReverseProxy",
+        "HttpClient",
+        "Xunit",
+        "ProxyAgent",
+        "Test",
+        "HttpClient",
+        "Fact",
+        "HttpRequest",
+        "Encoding",
+        "UTF8",
+        "GetBytes",
+        "body",
+        "target",
+        "SetContent",
+        "content",
+        "mediaType",
+        "HttpRequestMessage",
+        "Method",
+        "HttpMethod",
+        "Post",
+        "RequestUri",
+        "Uri",
+        "Content",
+        "target",
+        "Content",
+        "httpRequest",
+        "Content",
+        "Headers",
+        "TryAddWithoutValidation",
+        "mediaType",
+        "Assert",
+        "headerAdded"
+    ],
+    "literals": [
+        "\"multipart/form-data; boundary=--------------------------950452406595708528247546\"",
+        "\"--------------------------950452406595708528247546\\n\"",
+        "\"Content-Disposition: form-data; name=\\\"file\\\"; filename=\\\"SetFuelLevel-method.js\\\"\\n\"",
+        "\"Content-Type: application/octet-stream\\n\"",
+        "\"\\n\"",
+        "\"foo\\n\"",
+        "\"--------------------------950452406595708528247546--\"",
+        "\"http://localhost\"",
+        "\"Content-Type\""
+    ],
+    "variables": [
+        "target",
+        "mediaType",
+        "body",
+        "content",
+        "httpRequest",
+        "headerAdded"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft. All rights reserved.",
+        "Note: HttpClient is not testable, so this is only a PoC.",
+        "The following is not testing the real code, but validating a copy of the code",
+        "used in HttpClient.SetHeaders().",
+        "Arrange",
+        "Act",
+        "Assert"
+    ],
+    "docstrings": [],
+    "functions": [
+        "HttpClient_SetHeaders_CanSetHeadersOnContent"
+    ],
+    "classes": [
+        "HttpClientTest"
+    ]
+}

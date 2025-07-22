@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "basePath",
+        "createClientModal",
+        "e",
+        "createClientModal",
+        "submitBtn",
+        "submitBtn",
+        "submitBtn",
+        "submitBtn"
+    ],
+    "literals": [
+        "\"../../../general/js/config.js\"",
+        "\"./client-creation.js\"",
+        "'create-client-btn'",
+        "'click'",
+        "'modal-footer'",
+        "'afterbegin'",
+        "'<div class=\"lds-ellipsis\"><div></div><div></div><div></div><div></div></div>'",
+        "'modal-submit-btn'",
+        "'modal-submit-btn-loading'",
+        "'lds-ellipsis'",
+        "'modal-submit-btn'",
+        "'modal-submit-btn-loading'"
+    ],
+    "variables": [
+        "submitBtn",
+        "submitBtn"
+    ],
+    "comments": [
+        "document.addEventListener('keydown', function (e) {",
+        "// When user focuses the card with the keyboard (tab or arrow keys)",
+        "const card = e.target.closest('.client-profile-card');",
+        "// Fire click event when Enter or space bar is pressed",
+        "if (card && (e.key === 'Enter' || e.key === ' ')) {",
+        "card.click();",
+        "}",
+        "});"
+    ],
+    "docstrings": [
+        "* Show client modal loader",
+        "* Hide client modal loader"
+    ],
+    "functions": [
+        "showClientModalLoader",
+        "hideClientModalLoader"
+    ],
+    "classes": []
+}

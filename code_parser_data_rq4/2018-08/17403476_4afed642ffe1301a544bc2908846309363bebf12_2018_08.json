@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "upgrade_version_pairs",
+        "apt",
+        "upgrade_version_pairs",
+        "kano_updater",
+        "scenarios",
+        "PreUpdate",
+        "PreUpdate",
+        "start_version",
+        "pre",
+        "covers_update",
+        "upgrade_version_pairs",
+        "apt",
+        "upgrade_version_pairs",
+        "kano_updater",
+        "scenarios",
+        "PostUpdate",
+        "PostUpdate",
+        "start_version",
+        "post",
+        "covers_update"
+    ],
+    "literals": [],
+    "variables": [
+        "start_version",
+        "dummy_upgrade_version",
+        "pre",
+        "start_version",
+        "dummy_upgrade_version",
+        "post"
+    ],
+    "comments": [
+        "",
+        "scenarios.py",
+        "",
+        "Copyright (C) 2018 Kano Computing Ltd.",
+        "License: http://www.gnu.org/licenses/gpl-2.0.txt GNU GPL v2",
+        "",
+        "Tests for the scenario coverage",
+        ""
+    ],
+    "docstrings": [],
+    "functions": [
+        "test_preupdate_covers_upgrade_to_later_versions",
+        "test_postupdate_covers_upgrade_to_later_versions"
+    ],
+    "classes": []
+}

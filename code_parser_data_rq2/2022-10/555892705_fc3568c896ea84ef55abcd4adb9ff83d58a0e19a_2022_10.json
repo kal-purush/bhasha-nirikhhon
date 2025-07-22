@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Candoumbe",
+        "Pipelines",
+        "Components",
+        "GitHubPublishConfiguration",
+        "PublishConfiguration",
+        "githubToken",
+        "Uri",
+        "source",
+        "Func",
+        "canBeUsed",
+        "githubToken",
+        "source",
+        "canBeUsed",
+        "Func"
+    ],
+    "literals": [
+        "\"GitHub\""
+    ],
+    "variables": [],
+    "comments": [
+        "Wraps configuration used to publish packages to nuget.org feed.",
+        "</summary>",
+        "Builds a new <see cref=\"NugetPublishConfiguration\"/> instance.",
+        "</summary>",
+        "<param name=\"githubToken\">API Key used to interact with <see href=\"nuget.org\"/> API</param>",
+        "<param name=\"source\">Nuget API endpoint</param>",
+        "<param name=\"canBeUsed\">Lazily indicates if the configuration can be used.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "GitHubPublishConfiguration"
+    ],
+    "classes": []
+}

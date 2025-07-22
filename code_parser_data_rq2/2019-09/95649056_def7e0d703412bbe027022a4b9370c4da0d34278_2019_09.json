@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "laserchicken",
+        "feature_extractor",
+        "base_feature_extractor",
+        "FeatureExtractor",
+        "laserchicken",
+        "keys",
+        "point",
+        "laserchicken",
+        "utils",
+        "get_xyz",
+        "get_point",
+        "FeatureExtractor",
+        "lower_limit",
+        "upper_limit",
+        "lower_limit",
+        "upper_limit",
+        "classmethod",
+        "cls",
+        "format",
+        "classmethod",
+        "cls",
+        "point_cloud",
+        "neighborhoods",
+        "target_point_cloud",
+        "target_index",
+        "volume_description",
+        "volume_description",
+        "TYPE",
+        "volume_description",
+        "TYPE",
+        "ValueError",
+        "get_xyz",
+        "point_cloud",
+        "neighborhoods",
+        "xyz",
+        "np",
+        "sum",
+        "z",
+        "upper_limit",
+        "z",
+        "lower_limit",
+        "xyz",
+        "shape",
+        "lower_limit",
+        "upper_limit"
+    ],
+    "literals": [
+        "'band_ratio_{}-{}'",
+        "'band_ratio'",
+        "'infinite cylinder'",
+        "'cell'",
+        "'The volume must be a cylinder'"
+    ],
+    "variables": [
+        "is_vectorized",
+        "lower_limit",
+        "upper_limit",
+        "xyz",
+        "z"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Calculate echo ratio.\n\nSee https://github.com/eEcoLiDAR/eEcoLiDAR/issues/21\n\"\"\"",
+        "\"\"\"Feature extractor for the point density.\"\"\"",
+        "\"\"\"\n        Get a list of names of the point attributes that are needed for this feature extraction.\n\n        For simple features, this could be just x, y, and z. Other features can build on again\n        other features to have been computed first.\n\n        :return: List of feature names\n        \"\"\"",
+        "\"\"\"\n        Get a list of names of the feature values.\n\n        This will return as many names as the number feature values that will be returned.\n        For instance, if a feature extractor returns the first 3 Eigen values, this method\n        should return 3 names, for instance 'eigen_value_1', 'eigen_value_2' and 'eigen_value_3'.\n\n        :return: List of feature names\n        \"\"\"",
+        "\"\"\"\n        Extract the feature value(s) of the point cloud at location of the target.\n\n        :param point_cloud: environment (search space) point cloud\n        :param neighborhood: array of indices of points within the point_cloud argument\n        :param target_point_cloud: point cloud that contains target point\n        :param target_index: index of the target point in the target point cloud\n        :param volume_description: volume object that describes the shape and size of the search volume\n        :return: feature value\n        \"\"\"",
+        "\"\"\"\n        Return a tuple of parameters involved in the current feature extractorobject.\n\n        Needed for provenance.\n        \"\"\""
+    ],
+    "functions": [
+        "requires",
+        "provides",
+        "extract",
+        "get_params"
+    ],
+    "classes": [
+        "BandRatioFeatureExtractor"
+    ]
+}

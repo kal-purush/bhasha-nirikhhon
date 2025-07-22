@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "config",
+        "config",
+        "config",
+        "cpu_perc",
+        "config",
+        "memory_alloc",
+        "config",
+        "cpu",
+        "config",
+        "uid",
+        "config",
+        "gid",
+        "config",
+        "policy",
+        "attr",
+        "config",
+        "attr",
+        "attr",
+        "value",
+        "config",
+        "value"
+    ],
+    "literals": [],
+    "variables": [
+        "RUNNING",
+        "WAITING",
+        "STOPPED",
+        "ZOMBIE",
+        "config",
+        "cpu_perc",
+        "memory_alloc",
+        "current_state",
+        "uid",
+        "gid",
+        "policy",
+        "attr"
+    ],
+    "comments": [
+        "Model/Process.py",
+        "Generic model for a process",
+        "http://www.tldp.org/LDP/tlk/kernel/processes.html",
+        "Properties",
+        "cpu_perc -> Percentage of resources allocated in processer",
+        "state -> One of [Running]",
+        "",
+        "Identifiers",
+        "Scheduling",
+        "... etc",
+        "Getters and Setters"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get"
+    ],
+    "classes": [
+        "Process"
+    ]
+}

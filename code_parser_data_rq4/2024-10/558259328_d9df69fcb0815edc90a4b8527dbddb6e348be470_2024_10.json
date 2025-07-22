@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "request",
+        "getMyQuestions",
+        "request",
+        "getQuestionItems",
+        "qid",
+        "request",
+        "submitQuestion",
+        "data",
+        "request",
+        "data"
+    ],
+    "literals": [
+        "'@/utils/request'",
+        "'/question/oQuestionUser/myQuestions'",
+        "string",
+        "'/question/oQuestionItem/list'",
+        "''",
+        "'/question/oQuestionUser/submitResponse'"
+    ],
+    "variables": [
+        "getMyQuestions",
+        "getQuestionItems",
+        "submitQuestion"
+    ],
+    "comments": [
+        "https://gty.einsh.com/qqyq-v5/question/oQuestionUser/myQuestions?page=1&pageSize=10",
+        "https://gty.einsh.com/qqyq-v5/question/oQuestionItem/list?qid=1844965451563536386&page=&pageSize=999",
+        "/question/oQuestionUser/submitResponse"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

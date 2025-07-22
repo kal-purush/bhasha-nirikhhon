@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "colorBtn",
+        "changeColor"
+    ],
+    "literals": [
+        "\"howdy doodle!\"",
+        "\"a-button\"",
+        "\"a-button\"",
+        "\"darkseagreen\"",
+        "\"orange\"",
+        "\"darkseagreen\"",
+        "\"click\""
+    ],
+    "variables": [
+        "btn",
+        "colorBtn"
+    ],
+    "comments": [
+        "const btn = document.querySelector(\"button\");",
+        "function random(number) {",
+        "return Math.floor(Math.random() * (number + 1));",
+        "}",
+        "btn.addEventListener(\"click\", () => {",
+        "const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;",
+        "document.body.style.backgroundColor = rndCol;",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [
+        "changeColor"
+    ],
+    "classes": []
+}

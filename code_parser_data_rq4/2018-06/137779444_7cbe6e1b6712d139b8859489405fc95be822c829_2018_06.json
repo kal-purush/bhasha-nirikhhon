@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "moves",
+        "moves",
+        "dict_moves",
+        "dict_moves",
+        "dict_moves",
+        "dict_moves",
+        "dict_moves"
+    ],
+    "literals": [
+        "'U'",
+        "'D'",
+        "'R'",
+        "'L'",
+        "'L'",
+        "'R'",
+        "'U'",
+        "'D'"
+    ],
+    "variables": [
+        "dict_moves",
+        "dict_moves"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nInitially, there is a Robot at position (0, 0). Given a sequence of its moves,\njudge if this robot makes a circle, which means it moves back to the original place.\n\nThe move sequence is represented by a string. And each move is represent by a\ncharacter. The valid robot moves are R (Right), L (Left), U (Up) and D (down).\nThe output should be true or false representing whether the robot makes a circle.\n\nExample 1:\nInput: \"UD\"\nOutput: true\nExample 2:\nInput: \"LL\"\nOutput: false\n\"\"\""
+    ],
+    "functions": [
+        "judge_circle"
+    ],
+    "classes": []
+}

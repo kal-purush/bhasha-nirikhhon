@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "GameWordLength",
+        "getGridTemplateAreas",
+        "ScoreCellsVariant",
+        "describe",
+        "describe",
+        "describe",
+        "expected6ScoreTemplate",
+        "expected6CorrectnessTemplate",
+        "expected7ScoreTemplate",
+        "expected7CorrectnessTemplate",
+        "it",
+        "getGridTemplateAreas",
+        "gameWordLength",
+        "scoreCellVariant",
+        "expect",
+        "actual",
+        "expectedTemplate",
+        "gameWordLength",
+        "scoreCellVariant"
+    ],
+    "literals": [
+        "'../../../domain/game-word-service'",
+        "'./grid-template-service'",
+        "'./ScoreCells'",
+        "'getGridTemplateAreas'",
+        "gameWordLength\n    ${6}\n    ${7}",
+        "'WHEN gameWordLength = $gameWordLength'",
+        "scoreCellVariant\n      ${'SCORE'}\n      ${'CORRECTNESS'}",
+        "'SCORE'",
+        "'CORRECTNESS'",
+        "'AND scoreCellVariant = $scoreCellVariant'",
+        "\"game-word-letter-0 game-word-letter-1 game-word-letter-2 game-word-letter-3 game-word-letter-4 game-word-letter-5    .                \"\n  \"round-0-letter-0   round-0-letter-1   round-0-letter-2   .                  .                  .                     round-0-score    \"\n  \"round-1-letter-0   round-1-letter-1   round-1-letter-2   round-1-letter-3   .                  .                     round-1-score    \"\n  \".                  round-2-letter-0   round-2-letter-1   round-2-letter-2   round-2-letter-3   .                     round-2-score    \"\n  \".                  .                  round-3-letter-0   round-3-letter-1   round-3-letter-2   round-3-letter-3      round-3-score    \"\n  \".                  .                  .                  round-4-letter-0   round-4-letter-1   round-4-letter-2      round-4-score    \"\n  \".                  .                  round-5-letter-0   round-5-letter-1   round-5-letter-2   round-5-letter-3      round-5-score    \"\n  \".                  round-6-letter-0   round-6-letter-1   round-6-letter-2   round-6-letter-3   round-6-letter-4      round-6-score    \"\n  \"round-7-letter-0   round-7-letter-1   round-7-letter-2   round-7-letter-3   round-7-letter-4   .                     round-7-score    \"\n  \"round-8-letter-0   round-8-letter-1   round-8-letter-2   round-8-letter-3   round-8-letter-4   round-8-letter-5      round-8-score    \"\n  \".                  round-9-letter-0   round-9-letter-1   round-9-letter-2   round-9-letter-3   round-9-letter-4    round-9-score    \"\n  \"round-10-letter-0  round-10-letter-1  round-10-letter-2  round-10-letter-3  round-10-letter-4  round-10-letter-5   round-10-score   \"\n  \"bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label   bonus-point-value\"\n  \"total-score-label  total-score-label  total-score-label  total-score-label  total-score-label  total-score-label   total-score-value\"",
+        "\"game-word-letter-0 game-word-letter-1 game-word-letter-2 game-word-letter-3 game-word-letter-4 game-word-letter-5    .                        .\"\n  \"round-0-letter-0   round-0-letter-1   round-0-letter-2   .                  .                  .                     round-0-matching-letter  round-0-non-matching-letter\"\n  \"round-1-letter-0   round-1-letter-1   round-1-letter-2   round-1-letter-3   .                  .                     round-1-matching-letter  round-1-non-matching-letter\"\n  \".                  round-2-letter-0   round-2-letter-1   round-2-letter-2   round-2-letter-3   .                     round-2-matching-letter  round-2-non-matching-letter\"\n  \".                  .                  round-3-letter-0   round-3-letter-1   round-3-letter-2   round-3-letter-3      round-3-matching-letter  round-3-non-matching-letter\"\n  \".                  .                  .                  round-4-letter-0   round-4-letter-1   round-4-letter-2      round-4-matching-letter  round-4-non-matching-letter\"\n  \".                  .                  round-5-letter-0   round-5-letter-1   round-5-letter-2   round-5-letter-3      round-5-matching-letter  round-5-non-matching-letter\"\n  \".                  round-6-letter-0   round-6-letter-1   round-6-letter-2   round-6-letter-3   round-6-letter-4      round-6-matching-letter  round-6-non-matching-letter\"\n  \"round-7-letter-0   round-7-letter-1   round-7-letter-2   round-7-letter-3   round-7-letter-4   .                     round-7-matching-letter  round-7-non-matching-letter\"\n  \"round-8-letter-0   round-8-letter-1   round-8-letter-2   round-8-letter-3   round-8-letter-4   round-8-letter-5      round-8-matching-letter  round-8-non-matching-letter\"\n  \".                  round-9-letter-0   round-9-letter-1   round-9-letter-2   round-9-letter-3   round-9-letter-4    round-9-matching-letter  round-9-non-matching-letter\"\n  \"round-10-letter-0  round-10-letter-1  round-10-letter-2  round-10-letter-3  round-10-letter-4  round-10-letter-5   round-10-matching-letter round-10-non-matching-letter\"\n  \"bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label   bonus-point-value        bonus-point-value\"\n  \"total-score-label  total-score-label  total-score-label  total-score-label  total-score-label  total-score-label   total-score-value        total-score-value\"",
+        "\"game-word-letter-0 game-word-letter-1 game-word-letter-2 game-word-letter-3 game-word-letter-4 game-word-letter-5  game-word-letter-6  .                \"\n  \"round-0-letter-0   round-0-letter-1   round-0-letter-2   .                  .                  .                   .                   round-0-score    \"\n  \"round-1-letter-0   round-1-letter-1   round-1-letter-2   round-1-letter-3   .                  .                   .                   round-1-score    \"\n  \".                  round-2-letter-0   round-2-letter-1   round-2-letter-2   round-2-letter-3   .                   .                   round-2-score    \"\n  \".                  .                  round-3-letter-0   round-3-letter-1   round-3-letter-2   round-3-letter-3    .                   round-3-score    \"\n  \".                  .                  .                  round-4-letter-0   round-4-letter-1   round-4-letter-2    round-4-letter-3    round-4-score    \"\n  \".                  .                  round-5-letter-0   round-5-letter-1   round-5-letter-2   round-5-letter-3    round-5-letter-4    round-5-score    \"\n  \".                  round-6-letter-0   round-6-letter-1   round-6-letter-2   round-6-letter-3   round-6-letter-4    .                   round-6-score    \"\n  \"round-7-letter-0   round-7-letter-1   round-7-letter-2   round-7-letter-3   round-7-letter-4   .                   .                   round-7-score    \"\n  \"round-8-letter-0   round-8-letter-1   round-8-letter-2   round-8-letter-3   round-8-letter-4   round-8-letter-5    .                   round-8-score    \"\n  \".                  round-9-letter-0   round-9-letter-1   round-9-letter-2   round-9-letter-3   round-9-letter-4   round-9-letter-5   round-9-score    \"\n  \"round-10-letter-0  round-10-letter-1  round-10-letter-2  round-10-letter-3  round-10-letter-4  round-10-letter-5  round-10-letter-6  round-10-score   \"\n  \"bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-value\"\n  \"total-score-label  total-score-label  total-score-label  total-score-label  total-score-label  total-score-label  total-score-label  total-score-value\"",
+        "\"game-word-letter-0 game-word-letter-1 game-word-letter-2 game-word-letter-3 game-word-letter-4 game-word-letter-5  game-word-letter-6  .                        .\"\n  \"round-0-letter-0   round-0-letter-1   round-0-letter-2   .                  .                  .                   .                   round-0-matching-letter  round-0-non-matching-letter\"\n  \"round-1-letter-0   round-1-letter-1   round-1-letter-2   round-1-letter-3   .                  .                   .                   round-1-matching-letter  round-1-non-matching-letter\"\n  \".                  round-2-letter-0   round-2-letter-1   round-2-letter-2   round-2-letter-3   .                   .                   round-2-matching-letter  round-2-non-matching-letter\"\n  \".                  .                  round-3-letter-0   round-3-letter-1   round-3-letter-2   round-3-letter-3    .                   round-3-matching-letter  round-3-non-matching-letter\"\n  \".                  .                  .                  round-4-letter-0   round-4-letter-1   round-4-letter-2    round-4-letter-3    round-4-matching-letter  round-4-non-matching-letter\"\n  \".                  .                  round-5-letter-0   round-5-letter-1   round-5-letter-2   round-5-letter-3    round-5-letter-4    round-5-matching-letter  round-5-non-matching-letter\"\n  \".                  round-6-letter-0   round-6-letter-1   round-6-letter-2   round-6-letter-3   round-6-letter-4    .                   round-6-matching-letter  round-6-non-matching-letter\"\n  \"round-7-letter-0   round-7-letter-1   round-7-letter-2   round-7-letter-3   round-7-letter-4   .                   .                   round-7-matching-letter  round-7-non-matching-letter\"\n  \"round-8-letter-0   round-8-letter-1   round-8-letter-2   round-8-letter-3   round-8-letter-4   round-8-letter-5    .                   round-8-matching-letter  round-8-non-matching-letter\"\n  \".                  round-9-letter-0   round-9-letter-1   round-9-letter-2   round-9-letter-3   round-9-letter-4   round-9-letter-5   round-9-matching-letter  round-9-non-matching-letter\"\n  \"round-10-letter-0  round-10-letter-1  round-10-letter-2  round-10-letter-3  round-10-letter-4  round-10-letter-5  round-10-letter-6  round-10-matching-letter round-10-non-matching-letter\"\n  \"bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-label  bonus-point-value        bonus-point-value\"\n  \"total-score-label  total-score-label  total-score-label  total-score-label  total-score-label  total-score-label  total-score-label  total-score-value        total-score-value\"",
+        "string",
+        "'THEN has expected output'"
+    ],
+    "variables": [
+        "expected6ScoreTemplate",
+        "expected6CorrectnessTemplate",
+        "expected7ScoreTemplate",
+        "expected7CorrectnessTemplate",
+        "expectedTemplate",
+        "actual"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

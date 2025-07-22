@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "n_pregunta",
+        "p_level",
+        "n_pregunta",
+        "p_level",
+        "n_pregunta",
+        "p_level",
+        "level",
+        "choose_level",
+        "choose_level",
+        "choose_level",
+        "choose_level"
+    ],
+    "literals": [
+        "'basicas'",
+        "'intermedias'",
+        "'avanzadas'",
+        "'__main__'"
+    ],
+    "variables": [
+        "level",
+        "level",
+        "level"
+    ],
+    "comments": [
+        "Construir lógica para escoger el nivel",
+        "verificar resultados",
+        "básicas",
+        "intermedias",
+        "avanzadas",
+        "intermedias"
+    ],
+    "docstrings": [
+        "'''\n    n_pregunta --> turno pregunta, asignación de nro\n    p_level --> nro preguntas por nivel\n\n    p_level = 1\n    1.- basica         p == n_pregunta\n    2.- media          2 * P == n_pregunta\n    3.- avanzada       3 * p == n_pregunta\n\n    p_level = 2\n    1 y 2 basicas     1 * p_level >= n_pregunta  \n    3 y 4 intermedia  2 * p_level >= n_pregunta\n    5 y 6 avanzadas   2 * P_level < n_pregunta\n\n    p_level = 3\n    1,2,3 basica         1 * p_level \n    4,5,6 intermedia     2 * p_level\n    7,8,9 avanzad        3 * p_level\n    '''"
+    ],
+    "functions": [
+        "choose_level"
+    ],
+    "classes": []
+}

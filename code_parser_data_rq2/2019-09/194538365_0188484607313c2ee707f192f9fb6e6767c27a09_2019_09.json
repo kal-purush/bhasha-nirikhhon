@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "Env",
+        "CiProvider",
+        "env",
+        "eventPayload",
+        "prNumber",
+        "isNaN",
+        "prNumber",
+        "prNumber",
+        "require",
+        "eventPath",
+        "error",
+        "error",
+        "sha",
+        "sha",
+        "projectSlug",
+        "projectSlug"
+    ],
+    "literals": [
+        "\"./types\"",
+        "\"GITHUB_WORKFLOW\"",
+        "\"GITHUB_EVENT_NAME\"",
+        "\"pull_request\"",
+        "\"GITHUB_EVENT_PATH\"",
+        "\"\"",
+        "Could not parse Github event JSON file: ${error}",
+        "string",
+        "\"GITHUB_SHA\"",
+        "\"Couldn't get target SHA\"",
+        "\"GITHUB_HEAD_REF\"",
+        "string",
+        "\"GITHUB_REPOSITORY\"",
+        "\"Missing GITHUB_REPOSITORY\""
+    ],
+    "variables": [
+        "eventPayload",
+        "prNumber",
+        "eventPath",
+        "sha",
+        "projectSlug"
+    ],
+    "comments": [
+        "This is only set for forked repositories",
+        "@see https://help.github.com/en/articles/virtual-environments-for-github-actions#default-environment-variables"
+    ],
+    "docstrings": [],
+    "functions": [
+        "isCurrentlyRunning",
+        "getPullRequestID",
+        "getEventPayload",
+        "getCurrentSha",
+        "isFork",
+        "getProjectSlug",
+        "supportsSpeculativeBranchSelection"
+    ],
+    "classes": [
+        "Github"
+    ]
+}

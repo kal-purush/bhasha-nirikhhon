@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "tests",
+        "compat",
+        "unittest",
+        "boto",
+        "cloudfront",
+        "cf",
+        "unittest",
+        "TestCase",
+        "cf",
+        "invalidation",
+        "InvalidationBatch",
+        "assertEqual",
+        "batch",
+        "escape",
+        "assertEqual",
+        "batch",
+        "escape",
+        "assertEqual",
+        "batch",
+        "escape",
+        "assertEqual",
+        "batch",
+        "escape",
+        "assertEqual",
+        "batch",
+        "escape",
+        "unittest",
+        "main"
+    ],
+    "literals": [
+        "\"/*\"",
+        "\"/*\"",
+        "\"/foo*\"",
+        "\"/foo*\"",
+        "\"/foo/bar/*\"",
+        "\"/foo/bar/*\"",
+        "\"/nowildcard\"",
+        "\"/nowildcard\"",
+        "\"/other special characters\"",
+        "\"/other%20special%20characters\"",
+        "'__main__'"
+    ],
+    "variables": [
+        "cloudfront",
+        "batch"
+    ],
+    "comments": [
+        "!/usr/bin/env python"
+    ],
+    "docstrings": [
+        "\"\"\"\n        Test that wildcards are retained as literals\n        See: http://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Invalidation.html#invalidation-specifying-objects-paths\n        \"\"\""
+    ],
+    "functions": [
+        "test_wildcard_escape"
+    ],
+    "classes": [
+        "CFInvalidationTest"
+    ]
+}

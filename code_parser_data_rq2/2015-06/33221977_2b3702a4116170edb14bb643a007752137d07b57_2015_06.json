@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "numero",
+        "informacion",
+        "$",
+        "info",
+        "response",
+        "alert",
+        "response",
+        "xhr",
+        "ajaxOptions",
+        "thrownError",
+        "alert",
+        "xhr",
+        "alert",
+        "thrownError",
+        "urlLink",
+        "$",
+        "urlLink",
+        "response",
+        "$",
+        "response",
+        "urlLink",
+        "$",
+        "xhr",
+        "ajaxOptions",
+        "thrownError",
+        "alert",
+        "xhr",
+        "alert",
+        "thrownError"
+    ],
+    "literals": [
+        "'{\"nombre\":\"juanma\"}'",
+        "\"group\"",
+        "\"thing\"",
+        "\"POST\"",
+        "\"application/json; charset=utf-8\"",
+        "\"php/ajax.php\"",
+        "\"exito\"",
+        "\"GET\"",
+        "\"application/json; charset=utf-8\"",
+        "\"#principal\"",
+        "'principal.htm'",
+        "'.pgwSlider'"
+    ],
+    "variables": [
+        "numero",
+        "informacion",
+        "info"
+    ],
+    "comments": [
+        "dataType: 'json',",
+        "async: true,",
+        "ejecuta esta funcion una vez que el servidor responde.",
+        "tratamiento de errores",
+        "var numero = 12;\n  var informacion = '{\"nombre\":\"Dardo\"}';\n  var info = {\n    \"group\": numero,\n    \"thing\": informacion\n  };",
+        "dataType: 'json',",
+        "async: true,",
+        "data: JSON.stringify(info),",
+        "alert(\"exito\");",
+        "console.log(info);",
+        "selector jquery para el div con id \"principal\"que le modifica el contenido html"
+    ],
+    "docstrings": [],
+    "functions": [
+        "enviarPost",
+        "enviarGet"
+    ],
+    "classes": []
+}

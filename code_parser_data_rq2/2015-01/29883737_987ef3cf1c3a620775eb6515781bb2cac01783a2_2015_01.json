@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "rootURL",
+        "rootURL",
+        "createXMLHttpRequest",
+        "XMLHttpRequest",
+        "e",
+        "ActiveXObject",
+        "e",
+        "sgxError",
+        "Ultra",
+        "methodName",
+        "cbfn",
+        "methodName",
+        "createXMLHttpRequest",
+        "thisGetRequest",
+        "thisGetRequest",
+        "cbfn",
+        "cbfn",
+        "cbfn",
+        "thisGetRequest",
+        "url",
+        "e",
+        "Ultra",
+        "dbField",
+        "cbfn",
+        "dbField",
+        "url",
+        "cbfn"
+    ],
+    "literals": [
+        "\"Msxml2.XMLHTTP\"",
+        "\"XMLHttpRequest not supported - you can not retrieve external data files\"",
+        "'readyState'",
+        "'status'",
+        "'responseText'",
+        "\"GET\"",
+        "\"db/\""
+    ],
+    "variables": [
+        "url",
+        "thisGetRequest",
+        "thisFile",
+        "url"
+    ],
+    "comments": [
+        "thisFile.close();",
+        "even from  local, i.e. window.location.href.indexOf(\"http\")==-1",
+        "thisFile.onFileOpenFailed(thisFile);",
+        "thisFile.onFileOpenFailed(thisFile);",
+        "var u  = new Ultra(\"http://localhost:8088/\");\nu.get(\"two.htm\");\nu.get(\"one.htm\", function(data) { alert(data); });\n\nu.get(\"db.user.3.name\", function(data) { alert(data); });"
+    ],
+    "docstrings": [
+        "* @constructor",
+        "* @constructor"
+    ],
+    "functions": [
+        "Ultra"
+    ],
+    "classes": []
+}

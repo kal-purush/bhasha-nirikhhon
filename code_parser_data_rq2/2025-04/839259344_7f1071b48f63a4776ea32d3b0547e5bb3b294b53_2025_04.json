@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "I18N",
+        "DotNet",
+        "PersistenceLayer",
+        "DataAccess",
+        "Entities",
+        "DomainLayer",
+        "BusinessLogic",
+        "Mailing",
+        "Models",
+        "MailModel",
+        "Ticket",
+        "newTicket",
+        "Localizer",
+        "localizer",
+        "MailTitle",
+        "localizer",
+        "Localize",
+        "newTicket",
+        "Title",
+        "Localizer",
+        "localizer",
+        "NewTicket",
+        "newTicket",
+        "FormattedCreationDate",
+        "newTicket",
+        "CreationDate",
+        "ToString",
+        "localizer",
+        "TargetCulture",
+        "DateTimeFormat",
+        "ShortDatePattern",
+        "localizer",
+        "TargetCulture",
+        "RelatedTicketId",
+        "newTicket",
+        "Id"
+    ],
+    "literals": [
+        "\"NewTicket\""
+    ],
+    "variables": [
+        "TemplateName",
+        "Ticket",
+        "NewTicket",
+        "FormattedCreationDate"
+    ],
+    "comments": [
+        "Model for new ticket email",
+        "</summary>",
+        "<inheritdoc/>",
+        "The new ticket",
+        "</summary>",
+        "Creation date of the <see cref=\"NewTicket\"/> formatted to locale",
+        "</summary>",
+        "Create an instance of <see cref=\"NewTicketModel\"/> from a <see cref=\"Ticket\"/>",
+        "</summary>",
+        "<param name=\"newTicket\">The new ticket</param>",
+        "<param name=\"localizer\">Localizer to use for mail generation</param>",
+        "<returns>The generated model</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "NewTicketModel",
+        "FromTicket"
+    ],
+    "classes": [
+        "NewTicketModel"
+    ]
+}

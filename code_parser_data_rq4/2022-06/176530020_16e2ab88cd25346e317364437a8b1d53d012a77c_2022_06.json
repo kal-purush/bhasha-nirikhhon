@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "domifaConfig",
+        "queryRunner",
+        "domifaConfig",
+        "domifaConfig",
+        "domifaConfig",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "\"typeorm\"",
+        "\"../config\"",
+        "\"addIndicatif1651583630498\"",
+        "\"prod\"",
+        "\"preprod\"",
+        "\"local\"",
+        "ALTER TABLE \"structure\" ADD \"telephone\" jsonb NOT NULL DEFAULT '{\"indicatif\": \"fr\", \"numero\": \"\"}'",
+        "ALTER TABLE \"usager\" ADD \"telephone\" jsonb DEFAULT '{\"indicatif\": \"fr\", \"numero\": \"\"}'",
+        "ALTER TABLE \"usager\" ALTER COLUMN \"preference\" SET DEFAULT '{\"email\": false, \"phone\": false, \"phoneNumber\": null, \"telephone\": {\"indicatif\": \"fr\", \"numero\": \"\"}}'",
+        "ALTER TABLE \"usager\" ALTER COLUMN \"preference\" SET DEFAULT '{\"email\": false, \"phone\": false, \"phoneNumber\": null}'",
+        "ALTER TABLE \"usager\" DROP COLUMN \"telephone\"",
+        "ALTER TABLE \"structure\" DROP COLUMN \"telephone\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "manualMigration1651583630498"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "identifiers": [
+        "Component",
+        "Component"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'nz-demo-timeline-position'",
+        "<nz-timeline nzMode=\"custom\">\n      <nz-timeline-item nzPosition=\"left\" [nzDot]=\"soccerTemplate\">Alice 20'</nz-timeline-item>\n      <nz-timeline-item nzPosition=\"left\" [nzDot]=\"soccerTemplate\">Susan 28'</nz-timeline-item>\n      <nz-timeline-item nzPosition=\"right\" nzColor=\"red\" [nzDot]=\"soccerTemplate\">Tim 45'</nz-timeline-item>\n      <nz-timeline-item nzPosition=\"left\" [nzDot]=\"soccerTemplate\">Bob 79'</nz-timeline-item>\n    </nz-timeline>\n    <ng-template #soccerTemplate>\n      ⚽\n    </ng-template>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "NzDemoTimelinePositionComponent"
+    ]
+}

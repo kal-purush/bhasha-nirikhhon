@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "com",
+        "hafele",
+        "bos",
+        "dao",
+        "java",
+        "util",
+        "com",
+        "hafele",
+        "bos",
+        "dao",
+        "IBaseDao",
+        "com",
+        "hafele",
+        "bos",
+        "domain",
+        "IFunctionDao",
+        "id",
+        "id",
+        "id"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* <p>Title: IFunctionDao</p>  \n * <p>Description: 权限管理Dao接口</p>  \n * @author Dragon.Wen\n * @date Aug 21, 2018",
+        "* <p>Title: findByUserId</p>  \n\t * <p>Description: 根据用户Id查询对应的权限</p>  \n\t * @param id\n\t * @return",
+        "* <p>Title: findAllMenu</p>  \n\t * <p>Description: 查询所有菜单</p>  \n\t * @return",
+        "* <p>Title: findMenuByUserId</p>  \n\t * <p>Description: 根据用户ID查询对应的基本功能菜单</p>  \n\t * @param id\n\t * @return",
+        "* <p>Title: findParentNodeAll</p>  \n\t * <p>Description: 获取所有父节点菜单</p>  \n\t * @return",
+        "* <p>Title: findAllSystemMenu</p>  \n\t * <p>Description: 查询所有管理员菜单</p>  \n\t * @return",
+        "* <p>Title: findSystemMenuByUserId</p>  \n\t * <p>Description: 根据管理员ID查询对应的系统管理员菜单</p>  \n\t * @param id\n\t * @return"
+    ],
+    "functions": [
+        "findFunctionListByUserId",
+        "findAllMenu",
+        "findMenuByUserId",
+        "findParentNodeAll",
+        "findAllSystemMenu",
+        "findSystemMenuByUserId"
+    ],
+    "classes": []
+}

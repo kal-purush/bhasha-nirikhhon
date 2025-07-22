@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "RequireComponent",
+        "Rigidbody2D",
+        "MonoBehaviour",
+        "rigidBody",
+        "GetComponent",
+        "Rigidbody2D",
+        "EntityAwake",
+        "EntityStart",
+        "EntityUpdate",
+        "Collision2D",
+        "other",
+        "Collision2D",
+        "other",
+        "other",
+        "gameObject",
+        "GetComponent",
+        "BodyGenerator",
+        "body",
+        "rigidBody",
+        "velocity",
+        "sqrMagnitude",
+        "MinimumLatchVelocitySqr",
+        "body",
+        "body",
+        "transform",
+        "parent",
+        "body",
+        "gameObject",
+        "transform",
+        "rigidBody",
+        "isKinematic",
+        "EntityOnCollisionStay2D",
+        "other"
+    ],
+    "literals": [],
+    "variables": [
+        "BodyGenerator",
+        "body",
+        "Rigidbody2D",
+        "rigidBody",
+        "MinimumLatchVelocitySqr",
+        "BodyGenerator",
+        "body"
+    ],
+    "comments": [
+        "When it enters another collider",
+        "If what you collided with has a bodygenerator, that means it's a body and that you should latch on to it",
+        "But only latch on to it if you're velocity is small enough"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Awake",
+        "Start",
+        "Update",
+        "EntityAwake",
+        "EntityStart",
+        "EntityUpdate",
+        "EntityOnCollisionStay2D",
+        "OnCollisionStay2D"
+    ],
+    "classes": [
+        "EntityBehaviour"
+    ]
+}

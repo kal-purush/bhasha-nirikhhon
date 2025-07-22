@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "frappe",
+        "frappe",
+        "model",
+        "utils",
+        "rename_field",
+        "rename_field",
+        "rename_field",
+        "frappe",
+        "db",
+        "sql"
+    ],
+    "literals": [
+        "\"Process Statement Of Accounts\"",
+        "\"group_by\"",
+        "\"categorize_by\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n\t\tUPDATE\n    \t\t`tabProcess Statement Of Accounts`\n\t\tSET\n\t\t\tcategorize_by = CASE\n\t\t\t\tWHEN categorize_by = 'Group by Voucher (Consolidated)' THEN 'Categorize by Voucher (Consolidated)'\n\t\t\t\tWHEN categorize_by = 'Group by Voucher' THEN 'Categorize by Voucher'\n\t\t\tEND\n\t\tWHERE\n\t\t\tcategorize_by IN ('Group by Voucher (Consolidated)', 'Group by Voucher')\n\t\"\"\""
+    ],
+    "functions": [
+        "execute"
+    ],
+    "classes": []
+}

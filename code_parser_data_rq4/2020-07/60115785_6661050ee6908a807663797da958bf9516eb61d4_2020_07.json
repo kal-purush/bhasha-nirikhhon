@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "org",
+        "eclipse",
+        "xtend",
+        "ide",
+        "tests",
+        "contentassist",
+        "org",
+        "eclipse",
+        "xtend",
+        "ide",
+        "tests",
+        "contentassist",
+        "AbstractXtendContentAssistBugTest",
+        "org",
+        "junit",
+        "Test",
+        "SuppressWarnings",
+        "Test",
+        "newBuilder",
+        "append",
+        "assertText",
+        "Test",
+        "newBuilder",
+        "append",
+        "assertText"
+    ],
+    "literals": [
+        "\"all\"",
+        "\"class Outer {\\n\\t\\t\\tint inOuter = 1;\\n\\t\\t\\tstatic class StaticInner {\\n\\t\\t\\t\\tint inStaticInner = 2;\\n\\t\\t\\t\\tclass Inner {\\n\\t\\t\\t\\t\\tint inInner = in\"",
+        "\"inInner\"",
+        "\"inStaticInner\"",
+        "\"instanceof - type test and autocast\"",
+        "\"internalArrayEquals()\"",
+        "\"class Outer {\\n\\t\\t\\tstatic int inOuter = 1;\\n\\t\\t\\tint instanceInOuter = 2\\n\\t\\t\\tstatic def m() {\\n\\t\\t\\t\\tnew Object() {\\n\\t\\t\\t\\t\\tint inLocal = in\"",
+        "\"inOuter\"",
+        "\"inLocal\"",
+        "\"instanceof - type test and autocast\"",
+        "\"internalArrayEquals()\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2020 Sebastian Zarnekow and others.\n * This program and the accompanying materials are made available under the\n * terms of the Eclipse Public License 2.0 which is available at\n * http://www.eclipse.org/legal/epl-2.0.\n * \n * SPDX-License-Identifier: EPL-2.0",
+        "* @author Sebastian Zarnekow - Initial contribution and API"
+    ],
+    "functions": [
+        "testMembersOfEnclosingTypeAreProposed",
+        "testNoInstanceMembersProposedInStaticLocalClass"
+    ],
+    "classes": [
+        "Issue624Test"
+    ]
+}

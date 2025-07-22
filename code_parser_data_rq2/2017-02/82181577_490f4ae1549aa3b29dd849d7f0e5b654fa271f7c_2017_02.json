@@ -1,0 +1,88 @@
+{
+    "identifiers": [
+        "java",
+        "io",
+        "File",
+        "java",
+        "io",
+        "FilenameFilter",
+        "java",
+        "io",
+        "PrintWriter",
+        "extension",
+        "fileExtensionNoDot",
+        "extension",
+        "fileExtensionNoDot",
+        "Override",
+        "dir",
+        "name",
+        "name",
+        "endsWith",
+        "extension",
+        "args",
+        "directory",
+        "txtFileList",
+        "output",
+        "txtFileList",
+        "txtFiles",
+        "directory",
+        "listFiles",
+        "number",
+        "k",
+        "file",
+        "txtFiles",
+        "k",
+        "file",
+        "getName",
+        "indexOf",
+        "output",
+        "write",
+        "number",
+        "file",
+        "getName",
+        "substring",
+        "k",
+        "number",
+        "output",
+        "flush",
+        "output",
+        "close"
+    ],
+    "literals": [
+        "\".\"",
+        "\".\"",
+        "\"txtFileList.txt\"",
+        "\"txt\"",
+        "\".\"",
+        "\".\"",
+        "\"\\r\\n\""
+    ],
+    "variables": [
+        "k"
+    ],
+    "comments": [
+        "System.out.println(directory);",
+        "Create a file to save the txt file list",
+        "List all the txt files in directory",
+        "System.out.println(\"\\n当前目录下的所有txt文件:\");",
+        "给txt文件列表前面添加序号",
+        "Save the txt file list to txtFileList.txt",
+        "System.out.print(file.getName() + \"\\n\");",
+        "文件名后缀.所在的下标",
+        "\\r\\n即为换行, substring(0, k)截取文件名后缀名之前的部分",
+        "把缓冲区内容压入文件",
+        "Close file"
+    ],
+    "docstrings": [
+        "* Created on 2017/2/24.",
+        "// List all the files in directory\n        File[] files = directory.listFiles();\n        System.out.println(\"\\n目录\" + directory.getName() + \"下的所有文件:\");\n        for (File file : files) {\n            System.out.print(file.getName() + \"\\n\");\n        }"
+    ],
+    "functions": [
+        "FileNameSelector",
+        "accept",
+        "main"
+    ],
+    "classes": [
+        "FileNameSelector"
+    ]
+}

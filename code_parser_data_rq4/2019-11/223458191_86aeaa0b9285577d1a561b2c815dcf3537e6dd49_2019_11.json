@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "org",
+        "junit",
+        "Test",
+        "org",
+        "junit",
+        "Assert",
+        "java",
+        "util",
+        "logging",
+        "Logger",
+        "org",
+        "hamcrest",
+        "CoreMatchers",
+        "org",
+        "hamcrest",
+        "CoreMatchers",
+        "equalTo",
+        "junit",
+        "framework",
+        "TestCase",
+        "assertEquals",
+        "Test",
+        "p1",
+        "Assert",
+        "assertThat",
+        "p1",
+        "name",
+        "equalTo",
+        "Test",
+        "DBServlet",
+        "addPatient",
+        "s",
+        "DBServlet",
+        "getPatient",
+        "Assert",
+        "assertThat",
+        "s",
+        "equalTo"
+    ],
+    "literals": [
+        "\"Martin\"",
+        "\" Holloway\"",
+        "\"888888888\"",
+        "\"Martin\"",
+        "\"Martin\"",
+        "\" Holloway\"",
+        "\"888888888\"",
+        "\"Hi\"",
+        "\"Holloway\"",
+        "\"select * from patients where lastname = 'Holloway';\""
+    ],
+    "variables": [],
+    "comments": [
+        "private static final Logger log= Logger.getLogger(Patient.class.getName());",
+        "System.out.println(\"Hi\");",
+        "DBServlet info= new DBServlet();"
+    ],
+    "docstrings": [],
+    "functions": [
+        "TestaddPatient",
+        "TestaddDB"
+    ],
+    "classes": [
+        "TestDatabase"
+    ]
+}

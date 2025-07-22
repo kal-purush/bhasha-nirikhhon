@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "RenderView",
+        "EditorEntity",
+        "IPage",
+        "IPageData",
+        "data",
+        "data",
+        "data",
+        "page",
+        "page",
+        "time",
+        "renderView"
+    ],
+    "literals": [
+        "'../Renderer/RenderView'",
+        "'../world/EditorEntity'",
+        "'./interfaces/IPage'",
+        "'./interfaces/IPageData'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Base compoenent Class resposible with rendering/updating",
+        "* class constructor\n     * @param {IComponentData} data",
+        "* get owner",
+        "* set owner\n     * @param {EditorEntity} page",
+        "* load",
+        "* update method\n     * @param {number} time",
+        "* render method\n     * @param {RenderView} renderView"
+    ],
+    "functions": [
+        "page",
+        "setOwner",
+        "load",
+        "update",
+        "render"
+    ],
+    "classes": []
+}

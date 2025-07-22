@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "React",
+        "PropTypes",
+        "PropTypes",
+        "PropTypes",
+        "React",
+        "PropTypes",
+        "ContextType",
+        "PropTypes",
+        "ContextType",
+        "React",
+        "App"
+    ],
+    "literals": [
+        "'react'"
+    ],
+    "variables": [
+        "ContextType"
+    ],
+    "comments": [
+        "Navigation manager, e.g. history.push('/home')",
+        "https://github.com/mjackson/history",
+        "Enables critical path CSS rendering",
+        "https://github.com/kriasoft/isomorphic-style-loader",
+        "NOTE: If you need to add or modify header, footer etc. of the app,",
+        "please do that inside the Layout component."
+    ],
+    "docstrings": [
+        "* React Starter Kit (https://www.reactstarterkit.com/)\n *\n * Copyright © 2014-2016 Kriasoft, LLC. All rights reserved.\n *\n * This source code is licensed under the MIT license found in the\n * LICENSE.txt file in the root directory of this source tree.",
+        "* The top-level React component setting context (global) variables\n * that can be accessed from all the child components.\n *\n * https://facebook.github.io/react/docs/context.html\n *\n * Usage example:\n *\n *   const context = {\n *     history: createBrowserHistory(),\n *     store: createStore(),\n *   };\n *\n *   ReactDOM.render(<App context={context}><HomePage /></App>, container);"
+    ],
+    "functions": [
+        "getChildContext",
+        "render"
+    ],
+    "classes": [
+        "App"
+    ]
+}

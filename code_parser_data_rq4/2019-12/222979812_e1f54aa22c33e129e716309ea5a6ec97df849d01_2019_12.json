@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "pkgutil",
+        "filters",
+        "filterset",
+        "FilterSet",
+        "pkgutil",
+        "find_loader",
+        "rest_framework",
+        "pkgutil",
+        "version",
+        "version",
+        "split",
+        "p",
+        "v",
+        "p",
+        "isdigit",
+        "ret",
+        "append",
+        "p",
+        "ret",
+        "append",
+        "p",
+        "ret",
+        "parse_version",
+        "__version__"
+    ],
+    "literals": [
+        "'rest_framework'",
+        "'2.2.0'",
+        "'.'"
+    ],
+    "variables": [
+        "__version__",
+        "v",
+        "ret",
+        "VERSION"
+    ],
+    "comments": [
+        "flake8: noqa",
+        "We make the `rest_framework` module available without an additional import.",
+        "If DRF is not installed, no-op."
+    ],
+    "docstrings": [
+        "'''\n    '0.1.2.dev1' -> (0, 1, 2, 'dev1')\n    '0.1.2' -> (0, 1, 2)\n    '''"
+    ],
+    "functions": [
+        "parse_version"
+    ],
+    "classes": []
+}

@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "Component",
+        "Component"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'nz-demo-collapse-extra'",
+        "<nz-collapse>\n      <nz-collapse-panel\n        *ngFor=\"let panel of panels\"\n        [nzHeader]=\"panel.name\"\n        [nzActive]=\"panel.active\"\n        [nzExtra]=\"extraTpl\"\n        [nzDisabled]=\"panel.disabled\"\n      >\n        <p style=\"margin:0;\">\n          A dog is a type of domesticated animal. Known for its loyalty and faithfulness, it can be found as a welcome\n          guest in many households across the world.\n        </p>\n      </nz-collapse-panel>\n    </nz-collapse>\n    <ng-template #extraTpl>\n      <i nz-icon nzType=\"setting\"></i>\n    </ng-template>",
+        "'This is panel header 1'",
+        "'This is panel header 2'",
+        "'This is panel header 3'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "NzDemoCollapseExtraComponent"
+    ]
+}

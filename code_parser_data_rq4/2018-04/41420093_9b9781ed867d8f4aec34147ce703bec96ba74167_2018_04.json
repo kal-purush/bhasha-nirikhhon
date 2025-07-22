@@ -1,0 +1,92 @@
+{
+    "identifiers": [
+        "functools",
+        "wraps",
+        "math",
+        "floor",
+        "time",
+        "sys",
+        "threading",
+        "ratelimit",
+        "exception",
+        "RateLimitException",
+        "time",
+        "monotonic",
+        "hasattr",
+        "time",
+        "time",
+        "time",
+        "calls",
+        "period",
+        "clock",
+        "now",
+        "max",
+        "min",
+        "sys",
+        "maxsize",
+        "floor",
+        "calls",
+        "period",
+        "clock",
+        "clock",
+        "threading",
+        "RLock",
+        "func",
+        "wraps",
+        "func",
+        "args",
+        "kargs",
+        "clock",
+        "last_reset",
+        "period",
+        "elapsed",
+        "remaining_period",
+        "clock",
+        "num_calls",
+        "num_calls",
+        "clamped_calls",
+        "RateLimitException",
+        "func",
+        "args",
+        "kargs",
+        "wrapper"
+    ],
+    "literals": [
+        "'monotonic'",
+        "'too many calls'"
+    ],
+    "variables": [
+        "now",
+        "clamped_calls",
+        "period",
+        "clock",
+        "last_reset",
+        "num_calls",
+        "elapsed",
+        "remaining_period",
+        "num_calls",
+        "last_reset"
+    ],
+    "comments": [
+        "Use monotonic time if available, otherwise fall back to the system clock.",
+        "Initialise the decorator state.",
+        "Add thread safety.",
+        "If the time window has elapsed then reset.",
+        "Increase the number of attempts to call the method.",
+        "If the number of attempts to call the method exceeds the",
+        "maximum then raise an exception."
+    ],
+    "docstrings": [
+        "'''\n    Rate limit decorator class.\n    '''",
+        "'''\n        Instantiate a RateLimitDecorator with some sensible defaults. By\n        default the Twitter rate limiting window is respected (15 calls every\n        15 minutes).\n\n        :param int calls: Maximum function invocations allowed within a time period. Must be a number greater than 0.\n        :param float period: An upper bound time period (in seconds) before the rate limit resets. Must be a number greater than 0.\n        :param function clock: An optional function retuning the current time. This is used primarily for testing.\n        :return: A function decorator.\n        :rtype: function\n        '''",
+        "'''\n        Return a wrapped function that prevents further function invocations if\n        previously called within a specified period of time.\n\n        :param function func: The function to decorate.\n        :return: Decorated function.\n        :rtype: function\n        '''",
+        "'''\n            Extend the behaviour of the decoated function, forwarding function\n            invocations previously called no sooner than a specified period of\n            time. The decorator will raise an exception if the function cannot\n            be called so the caller may implement a retry strategy such as an\n            exponential backoff.\n\n            :param args:\n            :param kargs:\n            :raises: RateLimitException\n            '''"
+    ],
+    "functions": [
+        "__call__",
+        "wrapper"
+    ],
+    "classes": [
+        "RateLimitDecorator"
+    ]
+}

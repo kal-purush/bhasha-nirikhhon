@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "com",
+        "hugovs",
+        "gls",
+        "input",
+        "com",
+        "hugovs",
+        "gls",
+        "receiver",
+        "AudioData",
+        "com",
+        "hugovs",
+        "gls",
+        "receiver",
+        "AudioInput",
+        "org",
+        "apache",
+        "log4j",
+        "Logger",
+        "java",
+        "io",
+        "java",
+        "net",
+        "DatagramPacket",
+        "java",
+        "net",
+        "DatagramSocket",
+        "java",
+        "net",
+        "SocketException",
+        "log",
+        "Logger",
+        "getLogger",
+        "socket",
+        "receive",
+        "port",
+        "totalBufferSize",
+        "receive",
+        "totalBufferSize",
+        "socket",
+        "port",
+        "e",
+        "e",
+        "Override",
+        "packet",
+        "receive",
+        "receive",
+        "length",
+        "socket",
+        "receive",
+        "packet",
+        "AudioData",
+        "wrap",
+        "packet",
+        "getData",
+        "e",
+        "log",
+        "error",
+        "e"
+    ],
+    "literals": [
+        "\"Failed to receive packet: \""
+    ],
+    "variables": [
+        "socket",
+        "receive"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* An {@link AudioInput} implementation that receive audio from udp packets in a given port.\n *\n * @author Hugo Sartori",
+        "* Creates an {@link UdpAudioInput} instance.\n     *\n     * @param port: the port to listen to udp packets.\n     * @param totalBufferSize: the buffer size in bytes to store received data.",
+        "* Read or wait for packets coming from the given port.\n     *\n     * @return  {@link AudioData} : representing the most recent packet received;\n     *          {@code null}      : if a packet was received with error."
+    ],
+    "functions": [
+        "UdpAudioInput",
+        "AudioData",
+        "read"
+    ],
+    "classes": [
+        "UdpAudioInput"
+    ]
+}

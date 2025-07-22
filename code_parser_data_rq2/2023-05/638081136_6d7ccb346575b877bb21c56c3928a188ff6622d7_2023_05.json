@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "HttpClient",
+        "Injectable",
+        "Observable",
+        "Config",
+        "Injectable",
+        "Config",
+        "http",
+        "task",
+        "task",
+        "urlWithId",
+        "task",
+        "task",
+        "urlWithId",
+        "task",
+        "task",
+        "task"
+    ],
+    "literals": [
+        "'@angular/common/http'",
+        "'@angular/core'",
+        "'rxjs'",
+        "'../Task'",
+        "'../config'",
+        "'root'",
+        "${this.config.apiUrl}/${task.id}",
+        "${this.config.apiUrl}/${task.id}"
+    ],
+    "variables": [
+        "urlWithId",
+        "urlWithId"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getAllTasks",
+        "deleteTask",
+        "updateTask",
+        "addTask"
+    ],
+    "classes": [
+        "TaskRepository"
+    ]
+}

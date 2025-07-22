@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "org",
+        "exoplatform",
+        "social",
+        "core",
+        "jpa",
+        "storage",
+        "dao",
+        "org",
+        "exoplatform",
+        "commons",
+        "api",
+        "persistence",
+        "GenericDAO",
+        "org",
+        "exoplatform",
+        "social",
+        "core",
+        "jpa",
+        "storage",
+        "entity",
+        "SpaceExternalInvitationEntity",
+        "java",
+        "util",
+        "SpaceExternalInvitationDAO",
+        "SpaceId",
+        "email",
+        "email"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* find the list of space external invitations by space Id\n     *\n     * @param SpaceId the space Id",
+        "* find the list of external invitations spaces by email\n     *\n     * @param email",
+        "* delete space external invitations by email\n     *\n     * @param email"
+    ],
+    "functions": [
+        "findSpaceExternalInvitationsBySpaceId",
+        "findExternalInvitationsSpacesByEmail",
+        "deleteExternalUserInvitations"
+    ],
+    "classes": []
+}

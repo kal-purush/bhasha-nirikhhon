@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "TokenGrant",
+        "TokenVendor",
+        "SigninManager",
+        "state",
+        "grant",
+        "state",
+        "grant",
+        "grant",
+        "grant",
+        "tokenVendor",
+        "tokenVendor",
+        "SigninManager",
+        "tokenVendor",
+        "SIGN_IN_CONNECTION_ID",
+        "state",
+        "SigninManager",
+        "state",
+        "state",
+        "token",
+        "grant",
+        "refreshed",
+        "grant",
+        "token",
+        "grant",
+        "grant",
+        "grant",
+        "SigninManager",
+        "SigninManager",
+        "grant"
+    ],
+    "literals": [
+        "\"@breadboard-ai/connection-client\"",
+        "\"$sign-in\"",
+        "\"signedout\"",
+        "\"valid\"",
+        "\"anonymous\"",
+        "string",
+        "string",
+        "string",
+        "\"anonymous\"",
+        "\"signedout\"",
+        "\"expired\"",
+        "\"anonymous\"",
+        "\"valid\""
+    ],
+    "variables": [
+        "SIGN_IN_CONNECTION_ID",
+        "token",
+        "token",
+        "grant",
+        "refreshed"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @license\n * Copyright 2024 Google LLC\n * SPDX-License-Identifier: Apache-2.0",
+        "* The three states are:\n *\n * - \"signedout\" -- the user is not yet signed in or has signed out, but the\n *                  runtime is configured to use sign in.\n * - \"valid\" -- the user is currently signed in.\n * - \"anonymous\" -- the runtime is not configured to use the sign in."
+    ],
+    "functions": [
+        "create"
+    ],
+    "classes": [
+        "SigninManager"
+    ]
+}

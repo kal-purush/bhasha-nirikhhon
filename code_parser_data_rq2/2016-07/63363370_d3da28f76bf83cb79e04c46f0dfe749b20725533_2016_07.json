@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "selector",
+        "index",
+        "milliseconds",
+        "element",
+        "by",
+        "selector",
+        "by",
+        "options",
+        "options",
+        "index",
+        "milliseconds",
+        "browser",
+        "milliseconds",
+        "selector",
+        "item",
+        "milliseconds",
+        "element",
+        "by",
+        "selector",
+        "item",
+        "milliseconds",
+        "browser",
+        "milliseconds",
+        "selector",
+        "milliseconds",
+        "element",
+        "by",
+        "selector",
+        "by",
+        "options",
+        "options",
+        "options",
+        "randomNumber",
+        "options",
+        "randomNumber",
+        "text",
+        "text",
+        "milliseconds",
+        "browser",
+        "milliseconds"
+    ],
+    "literals": [
+        "string",
+        "'option'",
+        "'undefined'",
+        "string",
+        "string",
+        "'undefined'",
+        "string",
+        "'option'",
+        "string",
+        "'undefined'"
+    ],
+    "variables": [
+        "browser",
+        "element",
+        "by",
+        "randomNumber"
+    ],
+    "comments": [
+        "var desiredOption: any;"
+    ],
+    "docstrings": [
+        "* Usage: selectDropdownByNumber ( selector, index)\n* selector : select element\n* index : index in the dropdown, 1 base.",
+        "* Usage: selectDropdownByValue (selector, item)\n* selector : select element\n* item : option(s) in the dropdown.",
+        "* Usage: selectRandomDropdownReturnText ( selector, milliseconds)\n* selector : select random element\n* index : wait time to select value for drop down."
+    ],
+    "functions": [
+        "selectDropdownByNumber",
+        "selectDropdownByValue",
+        "selectRandomDropdownReturnText"
+    ],
+    "classes": []
+}

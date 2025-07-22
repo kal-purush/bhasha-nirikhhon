@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "Plugin",
+        "ContentScriptType",
+        "plugin",
+        "id",
+        "scriptPath",
+        "contentScriptId",
+        "callback"
+    ],
+    "literals": [
+        "'../Plugin'",
+        "'./types'",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Registers a new content script. Unlike regular plugin code, which runs in\n     * a separate process, content scripts run within the main process code and\n     * thus allow improved performances and more customisations in specific\n     * cases. It can be used for example to load a Markdown or editor plugin.\n     *\n     * Note that registering a content script in itself will do nothing - it\n     * will only be loaded in specific cases by the relevant app modules (eg.\n     * the Markdown renderer or the code editor). So it is not a way to inject\n     * and run arbitrary code in the app, which for safety and performance\n     * reasons is not supported.\n     *\n     * The plugin generator provides a way to build any content script you might\n     * want to package as well as its dependencies. See the [Plugin Generator\n     * doc](https://github.com/laurent22/joplin/blob/dev/packages/generator-joplin/README.md)\n     * for more information.\n     *\n     * * [View the renderer demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/content_script)\n     * * [View the editor demo plugin](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/codemirror_content_script)\n     *\n     * See also the [postMessage demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages)\n     *\n     * @param type Defines how the script will be used. See the type definition for more information about each supported type.\n     * @param id A unique ID for the content script.\n     * @param scriptPath Must be a path relative to the plugin main script. For example, if your file content_script.js is next to your index.ts file, you would set `scriptPath` to `\"./content_script.js`.",
+        "* Listens to a messages sent from the content script using postMessage().\n     * See {@link ContentScriptType} for more information as well as the\n     * [postMessage\n     * demo](https://github.com/laurent22/joplin/tree/dev/packages/app-cli/tests/support/plugins/post_messages)"
+    ],
+    "functions": [],
+    "classes": [
+        "JoplinContentScripts"
+    ]
+}

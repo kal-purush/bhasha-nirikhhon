@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "parsl",
+        "config",
+        "Config",
+        "parsl",
+        "channels",
+        "LocalChannel",
+        "parsl",
+        "executors",
+        "HighThroughputExecutor",
+        "parsl",
+        "providers",
+        "TorqueProvider",
+        "parsl",
+        "addresses",
+        "address_by_route",
+        "address_by_query",
+        "address_by_hostname",
+        "parsl",
+        "launchers",
+        "SingleNodeLauncher",
+        "Config",
+        "executors",
+        "HighThroughputExecutor",
+        "label",
+        "cores_per_worker",
+        "address",
+        "address_by_route",
+        "provider",
+        "TorqueProvider",
+        "channel",
+        "LocalChannel",
+        "worker_init",
+        "walltime",
+        "scheduler_options",
+        "nodes_per_block",
+        "max_blocks"
+    ],
+    "literals": [
+        "\"gardner_plink_1ppn\"",
+        "\"module load gcc/6.2.0; module load plink/2.0; module load python/3.8.1; python3 -c 'import parsl; print(parsl.__version__)'\"",
+        "\"01:00:00\"",
+        "\"#PBS -l mem=2gb\""
+    ],
+    "variables": [
+        "sbayesr_config"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "-*- coding: utf-8 -*-",
+        "address=address_by_hostname(), # Gets cri16in001 as address",
+        "address=address_by_query(), # Gets 128.135.245.36 as address",
+        "Gets 10.50.178.250 as address",
+        "address=\"128.135.245.36\",",
+        "Default if not given",
+        "launcher=SingleNodeLauncher(),"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

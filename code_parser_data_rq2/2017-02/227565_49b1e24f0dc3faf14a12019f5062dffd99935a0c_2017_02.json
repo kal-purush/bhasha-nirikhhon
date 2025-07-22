@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "django",
+        "conf",
+        "urls",
+        "include",
+        "url",
+        "django",
+        "contrib",
+        "admin",
+        "admin",
+        "autodiscover",
+        "url",
+        "include",
+        "admin",
+        "site",
+        "urls",
+        "url",
+        "include",
+        "url",
+        "url",
+        "url",
+        "url",
+        "url"
+    ],
+    "literals": [
+        "r'^admin/'",
+        "r'q/'",
+        "'questionnaire.urls'",
+        "r'^take/(?P<questionnaire_id>[0-9]+)/$'",
+        "'questionnaire.views.generate_run'",
+        "r'^$'",
+        "'questionnaire.page.views.page'",
+        "'page_to_render'",
+        "'index'",
+        "r'^(?P<lang>..)/(?P<page_to_trans>.*)\\.html$'",
+        "'questionnaire.page.views.langpage'",
+        "r'^(?P<page_to_render>.*)\\.html$'",
+        "'questionnaire.page.views.page'",
+        "r'^setlang/$'",
+        "'questionnaire.views.set_language'"
+    ],
+    "variables": [
+        "urlpatterns"
+    ],
+    "comments": [
+        "questionnaire urls"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

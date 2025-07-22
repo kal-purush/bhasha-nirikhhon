@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "sys",
+        "charmhelpers",
+        "contrib",
+        "charmsupport",
+        "nrpe",
+        "nrpe",
+        "NRPE",
+        "format",
+        "ip_address",
+        "port",
+        "success",
+        "uri",
+        "nrpe_compat",
+        "add_check",
+        "shortname",
+        "description",
+        "check_cmd",
+        "check_cmd",
+        "nrpe_compat",
+        "write",
+        "nrpe",
+        "NRPE",
+        "nrpe_compat",
+        "remove_checks",
+        "sys",
+        "argv",
+        "hook_name",
+        "hook_name",
+        "remove_nrpe_check",
+        "update_nrpe_checks"
+    ],
+    "literals": [
+        "'127.0.0.1'",
+        "'/static/gui/build/app/version.json'",
+        "'version'",
+        "'check_http -I {} -p {} -r {} -u {}'",
+        "'gui-is-accessible'",
+        "'Check_the_GUI_responds'",
+        "'__main__'",
+        "'departed'",
+        "'broken'"
+    ],
+    "variables": [
+        "nrpe_compat",
+        "port",
+        "ip_address",
+        "uri",
+        "success",
+        "check_cmd",
+        "nrpe_compat",
+        "hook_name"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "The use of port 80 assumes the 'secure' charm configuration",
+        "value is false, which is the scenario for our deployment on",
+        "staging and production. If testing this functionality on a",
+        "free-standing GUI charm deployment be sure to change the secure",
+        "setting."
+    ],
+    "docstrings": [],
+    "functions": [
+        "update_nrpe_checks",
+        "remove_nrpe_check"
+    ],
+    "classes": []
+}

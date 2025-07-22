@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "router",
+        "getAllThoughts",
+        "createThought",
+        "router",
+        "getThoughtById",
+        "updateThought",
+        "deleteThought",
+        "router",
+        "createReaction",
+        "deleteReaction",
+        "router"
+    ],
+    "literals": [
+        "'express'",
+        "'../../controllers/thoughtController'",
+        "'/'",
+        "'/:postId'",
+        "'/:thoughtId/reactions'"
+    ],
+    "variables": [
+        "router"
+    ],
+    "comments": [
+        "/api/thoughts",
+        "/api/thoughts/:thoughtId",
+        "/api/thoughts/:thoughtId/reactions"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "fs",
+        "IConfiguration",
+        "IConfigurationValidator",
+        "ValidatorResults",
+        "vimrc",
+        "config",
+        "ValidatorResults",
+        "config",
+        "fs",
+        "vimrc",
+        "result",
+        "config",
+        "result",
+        "config"
+    ],
+    "literals": [
+        "'fs'",
+        "'../iconfiguration'",
+        "'../iconfigurationValidator'",
+        "'../vimrc'",
+        "'error'",
+        ".vimrc not found at ${config.vimrc.path}"
+    ],
+    "variables": [
+        "result"
+    ],
+    "comments": [
+        "no-op"
+    ],
+    "docstrings": [],
+    "functions": [
+        "validate",
+        "disable"
+    ],
+    "classes": [
+        "VimrcValidator"
+    ]
+}

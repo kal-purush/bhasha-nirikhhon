@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Component",
+        "ButtonNumberComponent",
+        "CalculatorModel",
+        "OperationMap",
+        "ButtonsService",
+        "Component",
+        "CalculatorModel",
+        "ButtonsService",
+        "ButtonNumberComponent",
+        "model",
+        "operationMap",
+        "buttonsService",
+        "buttonsArray",
+        "buttonsArray",
+        "error",
+        "error",
+        "numb",
+        "numb"
+    ],
+    "literals": [
+        "\"angular2/core\"",
+        "\"./button.components/number.component\"",
+        "\"./button.model/CalculatorModel\"",
+        "\"./calculator.operation/OperationMap\"",
+        "\"./button.service/buttons.service\"",
+        "'calculator'",
+        "<div>\n        <tr *ngFor=\"#array of buttonsArray\">\n            <td  *ngFor=\"#ob of array\">\n                <numberButton [numb]='ob' (resultChanged)=\"displayResult($event)\"></numberButton>\n            </td>\n        </tr>\n    </div>\n    <input type=\"text\" class=\"calcText\" value=\"{{result}}\">",
+        "\"../src/css/app.css\"",
+        "string",
+        "'Error: '"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "getButtons",
+        "displayResult"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "betterOpenBrowserAsync",
+        "target",
+        "options",
+        "process",
+        "betterOpenBrowserAsync",
+        "target",
+        "options",
+        "process",
+        "process",
+        "process",
+        "process",
+        "betterOpenBrowserAsync",
+        "target",
+        "options",
+        "process",
+        "oldSystemRoot"
+    ],
+    "literals": [
+        "'better-opn'",
+        "string",
+        "'child_process'",
+        "'win32'"
+    ],
+    "variables": [
+        "oldSystemRoot"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Due to a bug in `open`, which is used as fallback on Windows, we need to ensure `process.env.SYSTEMROOT` is set.\n * This environment variable is set by Windows on `SystemRoot`, causing `open` to execute a command with an \"unknown\" drive letter.\n *\n * @see https://github.com/sindresorhus/open/issues/205"
+    ],
+    "functions": [
+        "openBrowserAsync"
+    ],
+    "classes": []
+}

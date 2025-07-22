@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "chalk",
+        "lstatSync",
+        "readdirSync",
+        "util",
+        "rimraf",
+        "join",
+        "APP_SRC",
+        "done",
+        "deleteAndWalk",
+        "APP_SRC",
+        "done",
+        "path",
+        "readdirSync",
+        "path",
+        "i",
+        "files",
+        "i",
+        "join",
+        "path",
+        "files",
+        "i",
+        "lstatSync",
+        "curPath",
+        "deleteAndWalk",
+        "curPath",
+        "path",
+        "rimraf",
+        "join",
+        "path",
+        "util",
+        "chalk",
+        "path",
+        "rimraf",
+        "join",
+        "path",
+        "util",
+        "chalk",
+        "path",
+        "e",
+        "util",
+        "chalk",
+        "path",
+        "e",
+        "walk",
+        "path"
+    ],
+    "literals": [
+        "'chalk'",
+        "'fs'",
+        "'gulp-util'",
+        "'rimraf'",
+        "'path'",
+        "'../../config'",
+        "'*.js'",
+        "'Deleted'",
+        "${path}/*.js",
+        "'*.js.map'",
+        "'Deleted'",
+        "${path}/*.js.map",
+        "'Error while deleting'",
+        "${path}/*.js"
+    ],
+    "variables": [
+        "files",
+        "i",
+        "curPath"
+    ],
+    "comments": [
+        "recurse"
+    ],
+    "docstrings": [
+        "* Executes the build process, deleting all JavaScript and Source Map files (which were transpiled from the TypeScript sources) with in\n * the `src/client` directory.",
+        "* Recursively walks along the given path and deletes all JavaScript files.\n * @param {any} path - The path to walk and clean.",
+        "* Deletes the JavaScript file with the given path.\n * @param {any} path - The path of the JavaScript file to be deleted."
+    ],
+    "functions": [
+        "walk",
+        "deleteAndWalk"
+    ],
+    "classes": []
+}

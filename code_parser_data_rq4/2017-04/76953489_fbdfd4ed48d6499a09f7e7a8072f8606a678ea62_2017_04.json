@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "fakeAsync",
+        "customAsyncInject",
+        "TestUtils",
+        "AvailabilitySvc",
+        "AvailabilityCom",
+        "model",
+        "ServiceMock",
+        "DecHttp",
+        "describe",
+        "it",
+        "expect",
+        "it",
+        "checkboxes",
+        "checkboxes",
+        "checkboxes",
+        "model",
+        "expect",
+        "morningModel",
+        "expect",
+        "morningModel",
+        "expect",
+        "morningModel"
+    ],
+    "literals": [
+        "'@angular/core/testing'",
+        "'../../../../test/di-exports'",
+        "'../availability.service'",
+        "'../availability.component'",
+        "'./availability.fixture'",
+        "'./availability.mocks'",
+        "'../../../utils/http'",
+        "'Availability component'",
+        "'initialises'",
+        "'Updates the availability model correctly after UI interaction.'",
+        "'input'"
+    ],
+    "variables": [
+        "checkboxes",
+        "morningModel"
+    ],
+    "comments": [
+        "beforeEach(customAsyncInject({\n\t\tComponent: AvailabilityCom,\n\t\tproviders: [\n\t\t\tprovide(AvailabilitySvc, {useClass: ServiceMock}),\n\t\t\tDecHttp\n\t\t],\n\t\ttestSpecContext: this,\n\t\tdetectChanges: false\n\t}));"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

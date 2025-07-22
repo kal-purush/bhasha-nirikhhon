@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "parseUri",
+        "o",
+        "o",
+        "i",
+        "uri",
+        "o",
+        "i",
+        "m",
+        "i",
+        "uri",
+        "o",
+        "uri",
+        "o",
+        "o",
+        "$0",
+        "$1",
+        "$2",
+        "$1",
+        "uri",
+        "o",
+        "$1",
+        "$2",
+        "uri",
+        "parseUri"
+    ],
+    "literals": [
+        "'strict'",
+        "'loose'",
+        "''",
+        "'source'",
+        "'protocol'",
+        "'authority'",
+        "'userInfo'",
+        "'user'",
+        "'password'",
+        "'host'",
+        "'port'",
+        "'relative'",
+        "'path'",
+        "'directory'",
+        "'file'",
+        "'query'",
+        "'anchor'",
+        "'queryKey'"
+    ],
+    "variables": [
+        "o",
+        "m",
+        "uri",
+        "i"
+    ],
+    "comments": [
+        "from http://blog.stevenlevithan.com/archives/parseuri",
+        "eslint-disable no-useless-escape",
+        "eslint-disable-next-line @typescript-eslint/ban-ts-comment",
+        "@ts-ignore"
+    ],
+    "docstrings": [
+        "* Allows to break down a url into multiple params\n * @param str",
+        "* Validates an url\n * @param str"
+    ],
+    "functions": [
+        "parseUri",
+        "validateUrl"
+    ],
+    "classes": []
+}

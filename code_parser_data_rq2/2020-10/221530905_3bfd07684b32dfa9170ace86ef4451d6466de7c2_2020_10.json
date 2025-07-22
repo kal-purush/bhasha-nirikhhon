@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "Directive",
+        "Input",
+        "OnDestroy",
+        "OnInit",
+        "TemplateRef",
+        "ViewContainerRef",
+        "Subscription",
+        "Router",
+        "AuthService",
+        "exit",
+        "permissionsByRole",
+        "Directive",
+        "Input",
+        "value",
+        "value",
+        "router",
+        "templateRef",
+        "viewContainer",
+        "authservice",
+        "value",
+        "x",
+        "x",
+        "elementV",
+        "value",
+        "permissionsByRole",
+        "elementV",
+        "pRole",
+        "permissionsByRole",
+        "elementV",
+        "pRole",
+        "authorized",
+        "exit",
+        "pRole",
+        "authorized",
+        "exit",
+        "authorized"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'rxjs'",
+        "'@angular/router'",
+        "'../_services'",
+        "'process'",
+        "\"../_helpers/permissionsByRole\"",
+        "'[appCanAccess]'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'role'",
+        "'role'",
+        "'roles'",
+        "'roles'"
+    ],
+    "variables": [
+        "authorized"
+    ],
+    "comments": [
+        "how to use it",
+        "into the templates you can add this:",
+        "<div *appCanAccess=\"['view_user_profile']\"> CODE  </div>",
+        "if current user has permisions to this string (you can send an array of strings), the contet is displayed",
+        "console.log(this.currentUser);",
+        "let permissionsByRole: {} = {\n        'view_user_profile': ['student', 'professor'],\n        'view_user_profile_2': ['admin', 'recruiter'],\n        'view_user_profile_3': ['student', 'professor'],\n    };",
+        "this.currentUser['roles'] = ['student', 'professor', 'admin', 'employee'];",
+        "check if logged user has this role"
+    ],
+    "docstrings": [],
+    "functions": [
+        "appCanAccess",
+        "ngOnInit",
+        "applyPermission",
+        "ngOnDestroy"
+    ],
+    "classes": [
+        "CanAccessDirective"
+    ]
+}

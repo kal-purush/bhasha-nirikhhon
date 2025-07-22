@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "fetch",
+        "dotenv",
+        "dotenv",
+        "URL",
+        "process",
+        "process",
+        "fetch",
+        "process",
+        "process",
+        "process",
+        "response_00",
+        "response_00_json",
+        "process",
+        "process",
+        "fetch",
+        "process",
+        "process",
+        "process",
+        "response_01",
+        "response_01_json",
+        "process",
+        "process",
+        "fetch",
+        "process",
+        "process",
+        "process",
+        "response_02",
+        "response_02_json"
+    ],
+    "literals": [
+        "'node-fetch'",
+        "'dotenv'",
+        "'./.env'",
+        "http://localhost:${process.env.HTTP_AUTH_PORT}/vmq/lua",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'",
+        "http://localhost:${process.env.HTTP_AUTH_PORT}/vmq/lua",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'",
+        "http://localhost:${process.env.HTTP_AUTH_PORT}/vmq/lua",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'"
+    ],
+    "variables": [
+        "response_00",
+        "response_00_json",
+        "response_01",
+        "response_01_json",
+        "response_02",
+        "response_02_json"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Before running this test prepare the environment:\n * - create a .env file based on the \"template.env\" file\n * - activate the environment by executring the following linux commands:\n *     set -a\n *     source .env\n *     set +a\n * - run the server\n *     npm start"
+    ],
+    "functions": [],
+    "classes": []
+}

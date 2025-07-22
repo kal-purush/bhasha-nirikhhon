@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "L",
+        "L",
+        "L",
+        "$",
+        "data",
+        "L",
+        "data",
+        "feature",
+        "latlng",
+        "L",
+        "latlng",
+        "ratIcon",
+        "feature",
+        "feature",
+        "marker",
+        "feature",
+        "marker"
+    ],
+    "literals": [
+        "'map'",
+        "'https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}'",
+        "'Esri, HERE, Garmin, © OpenStreetMap'",
+        "'http://maptimeboston.github.io/leaflet-intro/rat.gif'",
+        "\"https://raw.githubusercontent.com/orhuna/WebGIS_SLU_M1/main/Module%201/Assignment%201/data/sf_crime.geojson\""
+    ],
+    "variables": [
+        "ratIcon",
+        "marker"
+    ],
+    "comments": [
+        "Initialize the Leaflet map",
+        "Add a tile layer",
+        "Define a custom icon for markers",
+        "Load GeoJSON data from a URL and add it to the map",
+        "Bind a popup to the marker if there is a description in the feature properties"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

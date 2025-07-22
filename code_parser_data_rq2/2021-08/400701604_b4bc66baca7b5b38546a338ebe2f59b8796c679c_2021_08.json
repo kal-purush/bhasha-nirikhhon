@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "gulp",
+        "gulp",
+        "paths",
+        "dir",
+        "dir",
+        "paths",
+        "paths",
+        "gulp",
+        "paths",
+        "gulp",
+        "gulp",
+        "paths",
+        "paths",
+        "gulp",
+        "version"
+    ],
+    "literals": [
+        "'gulp'",
+        "'./utils.js'",
+        "'build:static'",
+        "${dir}/**/*",
+        "./${paths.dir.dev}",
+        "'build:push'",
+        "'**/*'",
+        "./${paths.dir.prod}",
+        "live/${version}"
+    ],
+    "variables": [
+        "gulp"
+    ],
+    "comments": [
+        "--------------------------------------------------------------------------",
+        "Build",
+        "--------------------------------------------------------------------------"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

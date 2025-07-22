@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "name",
+        "age",
+        "email",
+        "alert",
+        "table",
+        "row",
+        "row",
+        "name",
+        "age",
+        "email",
+        "gender",
+        "department",
+        "btn",
+        "btn",
+        "row",
+        "row"
+    ],
+    "literals": [
+        "\"name\"",
+        "\"age\"",
+        "\"email\"",
+        "\"gender\"",
+        "\"department\"",
+        "\"Please fill all fields\"",
+        "\"tablebody\"",
+        "<td>${row.rowIndex}</td><td>${name}</td><td>${age}</td><td>${email}</td><td>${gender}</td><td>${department}</td><td><button class='delete-btn' onclick='deleteRow(this)'>Delete</button></td>",
+        "\"s-info\""
+    ],
+    "variables": [
+        "name",
+        "age",
+        "email",
+        "gender",
+        "department",
+        "table",
+        "row",
+        "row"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "adddata",
+        "deleteRow"
+    ],
+    "classes": []
+}

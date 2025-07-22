@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "Injectable",
+        "MaplibreMap",
+        "SbbInteractionOptions",
+        "Injectable",
+        "interactionOptions",
+        "interactionOptions",
+        "borderId",
+        "blockerWidth",
+        "borderId",
+        "blockerWidth",
+        "borderId",
+        "borderId",
+        "viewport",
+        "viewport",
+        "viewport",
+        "viewport",
+        "viewport",
+        "viewport",
+        "viewport",
+        "viewport",
+        "viewport",
+        "viewport",
+        "width",
+        "Uint8Array",
+        "width",
+        "width",
+        "width",
+        "width",
+        "data",
+        "borderId",
+        "width",
+        "symbolId",
+        "borderId",
+        "width"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'maplibre-gl'",
+        "'../../journey-maps.interfaces'",
+        "'root'",
+        "map-viewport-line",
+        "string",
+        "'geojson'",
+        "'Feature'",
+        "'LineString'",
+        "'pixel'",
+        "string",
+        "map-viewport-line-symbols",
+        "'symbol'",
+        "'icon-image'",
+        "'pixel'",
+        "'symbol-placement'",
+        "'line'",
+        "'symbol-spacing'"
+    ],
+    "variables": [
+        "borderId",
+        "blockerWidth",
+        "viewport",
+        "data",
+        "symbolId"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Hides the labels which get cut off by the border, if the given interaction options allow so.\n   *\n   * @param map The map to hide the overflowing labels on.\n   * @param interactionOptions The interaction options to decide whether to hide or not.",
+        "* Create border as source around map.\n   *\n   * @param map The map to add the border to.\n   * @param borderId ID of the border.",
+        "* Initialize image to remove text nearer than the given width to the boarder.\n   *\n   * @param map The map to add the blocker-image to.",
+        "* Add layer with images on map border.\n   *\n   * @param map The map to add the blocker-images to the border.\n   * @param borderId ID of the border."
+    ],
+    "functions": [
+        "hideOverflowingLabels",
+        "_addBorderSource",
+        "_addBlockerImage",
+        "_addBlockerImageOnBorder"
+    ],
+    "classes": [
+        "SbbMapOverflowingLabelService"
+    ]
+}

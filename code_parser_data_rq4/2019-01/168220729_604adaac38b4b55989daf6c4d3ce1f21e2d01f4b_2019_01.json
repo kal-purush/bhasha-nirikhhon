@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Command",
+        "flags",
+        "path",
+        "Client",
+        "Command",
+        "flags",
+        "IndexDelete",
+        "require",
+        "path",
+        "Client",
+        "config",
+        "client",
+        "flags",
+        "flags",
+        "client",
+        "flags",
+        "response",
+        "flags",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "\"@oclif/command\"",
+        "\"path\"",
+        "\"../../lib/client\"",
+        "\"Delete specified index\"",
+        "\"i\"",
+        "\"Elasticsearch index\"",
+        "\"config.json\"",
+        "Specified index ${flags.index} doesn't exist in this cluster",
+        "Index ${flags.index} has been deleted successfully"
+    ],
+    "variables": [
+        "config",
+        "client",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "run"
+    ],
+    "classes": [
+        "IndexDelete"
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "org",
+        "irenical",
+        "norm",
+        "query",
+        "postgresql",
+        "java",
+        "util",
+        "Arrays",
+        "org",
+        "irenical",
+        "norm",
+        "query",
+        "postgresql",
+        "builders",
+        "ExpressionBuilder",
+        "org",
+        "irenical",
+        "norm",
+        "query",
+        "postgresql",
+        "builders",
+        "SelectBuilder",
+        "org",
+        "irenical",
+        "norm",
+        "query",
+        "postgresql",
+        "templates",
+        "ExpressionTemplate",
+        "org",
+        "irenical",
+        "norm",
+        "query",
+        "postgresql",
+        "templates",
+        "SelectTemplate",
+        "commaSeparatedLiterals",
+        "qb",
+        "commaSeparatedLiterals",
+        "commaSeparatedLiterals",
+        "length",
+        "qb",
+        "literals",
+        "Arrays",
+        "asList",
+        "commaSeparatedLiterals",
+        "qb",
+        "prefix",
+        "qb",
+        "prefix",
+        "qb",
+        "literal",
+        "prefix",
+        "qb"
+    ],
+    "literals": [
+        "\"select\"",
+        "\" \"",
+        "\",\""
+    ],
+    "variables": [
+        "commaSeparatedLiterals"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Creates a new SELECT operation\n   * @param commaSeparatedLiterals - zero or more literals, a convenient way to\n   * declare the SELECT's fields. Ex: createSelect(\"id\", \"name\") will create an\n   * expression starting with SELECT id, name...\n   * @return Returns a new instance of a SelectTemplate"
+    ],
+    "functions": [
+        "SelectTemplate",
+        "createSelect",
+        "ExpressionTemplate",
+        "createExpression"
+    ],
+    "classes": [
+        "PostgresQueryBuilder"
+    ]
+}

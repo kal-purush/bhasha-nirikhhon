@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "os",
+        "os",
+        "path",
+        "join",
+        "os",
+        "path",
+        "abspath",
+        "os",
+        "path",
+        "dirname",
+        "os",
+        "path",
+        "dirname",
+        "filepath",
+        "FILEPATH",
+        "open",
+        "filepath",
+        "f",
+        "f",
+        "readlines",
+        "x",
+        "strip",
+        "x",
+        "strings",
+        "x",
+        "x",
+        "strings",
+        "x",
+        "x",
+        "startswith",
+        "strings",
+        "insert",
+        "strings"
+    ],
+    "literals": [
+        "'blns.txt'",
+        "'r'",
+        "u'\\n'",
+        "u'#'",
+        "u\"\""
+    ],
+    "variables": [
+        "FILEPATH",
+        "strings",
+        "strings",
+        "strings",
+        "strings"
+    ],
+    "comments": [
+        "put all lines in the file into a Python list",
+        "above line leaves trailing newline characters; strip them out",
+        "remove empty-lines and comments",
+        "insert empty string since all are being removed"
+    ],
+    "docstrings": [
+        "\"\"\"Path to the file\"\"\"",
+        "\"\"\"Get the list of naughty_strings.\n\n    By default this will get the strings from the blns.txt file\n\n    Code is a simple port of what is already in the /scripts directory\n\n    :param filepath: Optional filepath the the blns.txt file\n    :returns: The list of naughty strings\n    \"\"\""
+    ],
+    "functions": [
+        "naughty_strings"
+    ],
+    "classes": []
+}

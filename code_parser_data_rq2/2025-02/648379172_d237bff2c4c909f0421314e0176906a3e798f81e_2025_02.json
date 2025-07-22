@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "containsString",
+        "Result",
+        "buffer",
+        "value",
+        "containsString",
+        "buffer",
+        "value"
+    ],
+    "literals": [
+        "'./bytes'",
+        "'./types'",
+        "string",
+        "'qt'",
+        "'mov'",
+        "'video/quicktime'",
+        "'heic'",
+        "'heic'",
+        "'image/heic'",
+        "'avif'",
+        "'avif'",
+        "'image/avif'",
+        "'M4V'",
+        "'m4v'",
+        "'video/x-m4v'",
+        "'mp4'",
+        "'video/mp4'"
+    ],
+    "variables": [],
+    "comments": [
+        "https://en.wikipedia.org/wiki/Container_format",
+        "https://en.wikipedia.org/wiki/ISO_base_media_file_format",
+        "if (is('M4P')) {",
+        "return { ext: 'm4p', mime: 'video/mp4' };",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "parseFileTypeBoxFiles"
+    ],
+    "classes": []
+}

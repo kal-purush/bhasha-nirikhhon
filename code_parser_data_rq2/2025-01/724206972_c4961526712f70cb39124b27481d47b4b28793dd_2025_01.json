@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "Language",
+        "MediaType",
+        "seasonNumber",
+        "episodeNumber",
+        "seasonNumber",
+        "episodeNumber",
+        "seasonNumber",
+        "seasonNumber",
+        "mediaType",
+        "language",
+        "tmdbId",
+        "seasonNumber",
+        "episodeNumber",
+        "language",
+        "tmdbId",
+        "seasonNumber",
+        "episodeNumber",
+        "seasonNumber",
+        "language",
+        "tmdbId",
+        "seasonNumber",
+        "language",
+        "tmdbId"
+    ],
+    "literals": [
+        "'@/types/languages'",
+        "'@/types/media-type'",
+        "(S${String(seasonNumber).padStart(2, '0')}E${String(episodeNumber).padStart(2, '0')})",
+        "'0'",
+        "'0'",
+        "(S${String(seasonNumber).padStart(2, '0')})",
+        "'0'",
+        "'MOVIE'",
+        "/${language}/movies/${tmdbId}",
+        "/${language}/tv-series/${tmdbId}/seasons/${seasonNumber}/episodes/${episodeNumber}",
+        "/${language}/tv-series/${tmdbId}/seasons/${seasonNumber}",
+        "/${language}/tv-series/${tmdbId}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getEpisodeBadge",
+        "getReviewHref"
+    ],
+    "classes": []
+}

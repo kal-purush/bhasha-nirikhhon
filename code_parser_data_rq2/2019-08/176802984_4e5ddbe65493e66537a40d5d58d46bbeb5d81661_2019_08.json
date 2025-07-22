@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "org",
+        "candlepin",
+        "insights",
+        "logging",
+        "ch",
+        "qos",
+        "logback",
+        "classic",
+        "spi",
+        "ILoggingEvent",
+        "ch",
+        "qos",
+        "logback",
+        "core",
+        "Filter",
+        "ch",
+        "qos",
+        "logback",
+        "core",
+        "spi",
+        "FilterReply",
+        "Override",
+        "getLoggerName",
+        "equals",
+        "FilterReply",
+        "ACCEPT",
+        "FilterReply",
+        "DENY"
+    ],
+    "literals": [
+        "\"com.j256.cloudwatchlogbackappender.CloudWatchAppender\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2009 - 2019 Red Hat, Inc.\n *\n * This program is free software: you can redistribute it and/or modify\n * it under the terms of the GNU General Public License as published by\n * the Free Software Foundation, either version 3 of the License, or\n * (at your option) any later version.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU General Public License for more details.\n *\n * You should have received a copy of the GNU General Public License\n * along with this program.  If not, see <https://www.gnu.org/licenses/>.\n *\n * Red Hat trademarks are not licensed under GPLv3. No permission is\n * granted to use or replicate Red Hat trademarks that are incorporated\n * in this software or its documentation.",
+        "* Filter that is used to show only com.j256.cloudwatchlogbackappender.CloudWatchAppender messages.\n *\n * CloudWatchAppender writes *all* messages to its emergency appender if it encounters a problem, but\n * we only want to see messages that tell us that CloudWatchAppender is not functioning, as we'll write\n * logs to ConsoleAppender already.\n *\n * This filter allows us to write all log messages to both CloudWatch and the console, without unnecessary\n * repetitions."
+    ],
+    "functions": [
+        "FilterReply",
+        "decide"
+    ],
+    "classes": [
+        "CloudWatchEmergencyFilter"
+    ]
+}

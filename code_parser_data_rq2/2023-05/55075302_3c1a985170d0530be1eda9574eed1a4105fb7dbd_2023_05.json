@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "Linq",
+        "Java",
+        "Lang",
+        "Invoke",
+        "ANDROID_34",
+        "Java",
+        "Lang",
+        "ITypeDescriptor",
+        "IOfMethod",
+        "ParameterArray",
+        "Collections",
+        "IList",
+        "ITypeDescriptor",
+        "IOfMethod",
+        "Android",
+        "Runtime",
+        "JavaList",
+        "Java",
+        "Lang",
+        "Class",
+        "ParameterList",
+        "Java",
+        "Lang",
+        "Invoke",
+        "MethodType",
+        "num",
+        "Java",
+        "Lang",
+        "ptypesToInsert",
+        "InsertParameterTypes",
+        "num",
+        "ptypesToInsert",
+        "Cast",
+        "Java",
+        "Lang",
+        "Class",
+        "ToArray"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "A new interface (Java.Lang.Invoke.ITypeDescriptor.IOfMethod) was added to the MethodType class in API-34.",
+        "The existing methods have covariant return types so they cannot fulfill the interface contract,",
+        "and we cannot change them without breaking API. Create new versions of these interface",
+        "methods that can fulfill the contract.",
+        "Helper method needed to cast Object to Class for an explicitly implemented method:",
+        "Java.Lang.Invoke.ITypeDescriptor.IOfMethod.InsertParameterTypes (int p0, params Java.Lang.Object[]? p1)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ParameterArray",
+        "ParameterList",
+        "InsertParameterTypes"
+    ],
+    "classes": [
+        "MethodType"
+    ]
+}

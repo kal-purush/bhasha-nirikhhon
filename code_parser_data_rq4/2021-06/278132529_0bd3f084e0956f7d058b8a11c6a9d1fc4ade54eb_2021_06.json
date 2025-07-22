@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "TFlow",
+        "clear",
+        "createSymlinks",
+        "createTempAssets",
+        "exit",
+        "npmAuditFix",
+        "printRuntimeDigest",
+        "yarnImport",
+        "yarnInstall",
+        "yarnLockToPkgLock",
+        "printRuntimeDigest",
+        "clear",
+        "createTempAssets",
+        "createSymlinks",
+        "yarnLockToPkgLock",
+        "npmAuditFix",
+        "yarnImport",
+        "yarnInstall",
+        "clear",
+        "clear",
+        "exit",
+        "printRuntimeDigest",
+        "clear",
+        "exit"
+    ],
+    "literals": [
+        "\"./ifaces\"",
+        "\"./stages\"",
+        "'Runtime digest'",
+        "'Preparing temp assets...'",
+        "'Generating package-lock.json from yarn.lock...'",
+        "'Applying npm audit fix...'",
+        "'Updating yarn.lock from package-lock.json...'",
+        "'Done'",
+        "'Failure!'",
+        "'Runtime digest'",
+        "'Failure!'"
+    ],
+    "variables": [
+        "convert",
+        "patch"
+    ],
+    "comments": [
+        "Compose `npm audit fix` with lockfile converter.",
+        "Inject `yarn audit --json` data to lockfile."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "UnityEngine",
+        "UI",
+        "TMPro",
+        "MonoBehaviour",
+        "hintButton",
+        "GetComponent",
+        "Button",
+        "gameManager",
+        "GameObject",
+        "FindObjectOfType",
+        "GameManager",
+        "dataController",
+        "FindObjectOfType",
+        "DataController",
+        "gameManager",
+        "getCurrentQuestion",
+        "hintButton",
+        "onClick",
+        "AddListener",
+        "gameManager",
+        "getCurrentQuestion",
+        "hint",
+        "GetComponent",
+        "PopUpSystem",
+        "pop",
+        "popUp",
+        "hintText",
+        "hintButton",
+        "onClick",
+        "RemoveAllListeners"
+    ],
+    "literals": [],
+    "variables": [
+        "Button",
+        "hintButton",
+        "GameManager",
+        "gameManager",
+        "DataController",
+        "dataController",
+        "Question",
+        "question",
+        "hintText",
+        "PopUpSystem",
+        "pop"
+    ],
+    "comments": [
+        "PopUpSystem pop = this.GetComponent<PopUpSystem>();",
+        "StartCoroutine(\"WaitForSec\");",
+        "IEnumerator WaitForSec()\n    {\n        yield return new WaitForSeconds(3);\n        hintText.text = \"\";\n    }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Destroy"
+    ],
+    "classes": [
+        "HintButtonhandler"
+    ]
+}

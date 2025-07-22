@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Env",
+        "CISource",
+        "ensureEnvKeysExist",
+        "ensureEnvKeysAreInt",
+        "env",
+        "ensureEnvKeysExist",
+        "ensureEnvKeysExist",
+        "mustHave",
+        "ensureEnvKeysAreInt",
+        "mustBeInts"
+    ],
+    "literals": [
+        "\"../ci_source\"",
+        "\"../ci_source_helpers\"",
+        "string",
+        "\"Cirrus CI\"",
+        "\"CIRRUS_CI\"",
+        "\"CIRRUS_CI\"",
+        "\"CIRRUS_PR\"",
+        "\"CIRRUS_REPO_FULL_NAME\"",
+        "\"CIRRUS_PR\"",
+        "string",
+        "string",
+        "https://cirrus-ci.com/task/${this.env.CIRRUS_TASK_ID}"
+    ],
+    "variables": [
+        "mustHave",
+        "mustBeInts"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "name",
+        "isCI",
+        "isPR",
+        "pullRequestID",
+        "repoSlug",
+        "ciRunURL"
+    ],
+    "classes": [
+        "Travis"
+    ]
+}

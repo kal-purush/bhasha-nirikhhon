@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "Component",
+        "BaseUIComponent",
+        "Component",
+        "BaseUIComponent"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'./base-ui-component'",
+        "'app-ui-textarea'",
+        "<mat-form-field [style.width]=\"uiModel?.containerProperties?.width || '100%'\">\n            <textarea matInput [placeholder]=\"uiModel?.itemProperties?.placeholder\"\n                [rows]=\"uiModel?.itemProperties?.rows\"\n                [style.width]=\"uiModel?.itemProperties?.width\"\n                [(ngModel)]=\"dataModel[uiModel.itemProperties?.dataModelPath]\"></textarea>\n        </mat-form-field>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "TextareaUIComponent"
+    ]
+}

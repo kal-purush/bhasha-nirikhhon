@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "Compori",
+        "Testing",
+        "Xunit",
+        "AssemblyRunner",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "ConsoleApp1",
+        "args",
+        "RunnerFactory",
+        "XunitAssemblyRunnerFactory",
+        "SampleTest",
+        "MySampleTest",
+        "Assembly",
+        "Location",
+        "sut",
+        "factory",
+        "Create",
+        "location",
+        "sut",
+        "Execute",
+        "WriteLine",
+        "sut",
+        "Summary",
+        "Total",
+        "WriteLine",
+        "sut",
+        "Summary",
+        "Failed",
+        "WriteLine",
+        "sut",
+        "Summary",
+        "Skipped"
+    ],
+    "literals": [],
+    "variables": [
+        "factory",
+        "Runner",
+        "sut",
+        "location"
+    ],
+    "comments": [
+        "SampleTest.MySampleTest.Context = \"A sample value\";",
+        "",
+        "var location = new Uri(typeof(SampleTest.MySampleTest).Assembly.CodeBase).LocalPath;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Main"
+    ],
+    "classes": [
+        "Program"
+    ]
+}

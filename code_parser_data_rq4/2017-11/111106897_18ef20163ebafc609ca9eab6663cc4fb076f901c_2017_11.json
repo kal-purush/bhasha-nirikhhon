@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "axios",
+        "info",
+        "AUTH",
+        "info",
+        "info",
+        "info",
+        "axios",
+        "PROFILES",
+        "request",
+        "email",
+        "axios",
+        "GET_USER",
+        "request"
+    ],
+    "literals": [
+        "'axios'",
+        "\"AUTH\"",
+        "\"PROFILES\"",
+        "'S3_UPLOAD'",
+        "'GET_USER'",
+        "'/api/profiles'",
+        "'/api/profile/:email'"
+    ],
+    "variables": [
+        "AUTH",
+        "PROFILES",
+        "S3_UPLOAD",
+        "GET_USER",
+        "request",
+        "request"
+    ],
+    "comments": [
+        "let response = await axios.create('/api/profile', info);",
+        "console.log(response)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "auth",
+        "facebookInfo",
+        "getProfiles",
+        "getUserProfile"
+    ],
+    "classes": []
+}

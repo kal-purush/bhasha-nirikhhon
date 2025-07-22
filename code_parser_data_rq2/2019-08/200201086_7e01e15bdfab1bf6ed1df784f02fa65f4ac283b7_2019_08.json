@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "Fuzzer",
+        "t",
+        "NonEmptyArray",
+        "cons",
+        "nonEmptyArrayFuzzer",
+        "c",
+        "t",
+        "c",
+        "c",
+        "t",
+        "c",
+        "ctx",
+        "n0",
+        "hc",
+        "ha",
+        "cons",
+        "hc",
+        "n0",
+        "ctx",
+        "ha",
+        "n0",
+        "ctx"
+    ],
+    "literals": [
+        "'./fuzzer'",
+        "'io-ts'",
+        "'fp-ts/lib/NonEmptyArray'",
+        "NonEmptyArray<${c.name}>",
+        "'name'",
+        "'fuzzer'"
+    ],
+    "variables": [
+        "nonEmptyArrayFuzzer"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @experimental 4.1.0 This will be superseded by a generic handler for NonEmptyArrays in io-ts-types when https://github.com/gcanti/io-ts-types/issues/102 is fixed."
+    ],
+    "functions": [],
+    "classes": []
+}

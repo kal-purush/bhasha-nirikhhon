@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "LookitWindow",
+        "Handlebars",
+        "PluginInfo",
+        "TrialType",
+        "consentDocumentTemplate",
+        "consentVideoTrialTemplate",
+        "initI18nAndTemplates",
+        "consentVideo",
+        "trial",
+        "initI18nAndTemplates",
+        "trial",
+        "Handlebars",
+        "consentDocumentTemplate",
+        "trial",
+        "PIName",
+        "PIContact",
+        "Handlebars",
+        "consentVideoTrialTemplate",
+        "trial"
+    ],
+    "literals": [
+        "\"@lookit/data/dist/types\"",
+        "\"handlebars\"",
+        "\"jspsych\"",
+        "\"../hbs/consent-document.hbs\"",
+        "\"../hbs/consent-video-trial.hbs\"",
+        "\"./utils\"",
+        "\"lookit-jspsych-video-container\""
+    ],
+    "variables": [
+        "video_container_id",
+        "consentVideo",
+        "experiment",
+        "trial",
+        "consent"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Translate, render, and get consent document HTML.\n *\n * @param trial - JsPsych trial object containing trial params\n * @returns Consent document HTML"
+    ],
+    "functions": [],
+    "classes": []
+}

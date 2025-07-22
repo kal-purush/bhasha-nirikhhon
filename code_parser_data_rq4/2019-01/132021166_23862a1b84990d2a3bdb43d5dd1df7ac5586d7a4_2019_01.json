@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "IO",
+        "Net",
+        "Microsoft",
+        "ML",
+        "Data",
+        "Microsoft",
+        "ML",
+        "Auto",
+        "Test",
+        "DefaultColumnNames",
+        "Label",
+        "_uciAdultDataView",
+        "DownloadUciAdultDataset",
+        "_uciAdultDataView",
+        "MLContext",
+        "Data",
+        "AutoRead",
+        "uciAdultDataFile",
+        "UciAdultLabel",
+        "_uciAdultDataView",
+        "DownloadIfNotExists",
+        "baseGitPath",
+        "dataFile",
+        "File",
+        "Exists",
+        "dataFile",
+        "WebClient",
+        "client",
+        "DownloadFile",
+        "Uri",
+        "baseGitPath",
+        "dataFile",
+        "dataFile"
+    ],
+    "literals": [
+        "\"https://raw.githubusercontent.com/dotnet/machinelearning/f0e639af5ffdc839aae8e65d19b5a9a1f0db634a/test/data/adult.tiny.with-schema.txt\"",
+        "\"uciadult.dataset\""
+    ],
+    "variables": [
+        "UciAdultLabel",
+        "IDataView",
+        "_uciAdultDataView",
+        "uciAdultDataFile",
+        "client"
+    ],
+    "comments": [
+        "downloads the UCI Adult dataset from the ML.Net repo",
+        "if file doesn't already exist, download it"
+    ],
+    "docstrings": [],
+    "functions": [
+        "IDataView",
+        "GetUciAdultDataView",
+        "DownloadUciAdultDataset",
+        "DownloadIfNotExists"
+    ],
+    "classes": [
+        "DatasetUtil"
+    ]
+}

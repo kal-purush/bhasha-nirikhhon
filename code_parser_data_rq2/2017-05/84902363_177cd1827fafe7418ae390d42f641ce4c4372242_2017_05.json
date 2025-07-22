@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "org",
+        "dimigo",
+        "exception",
+        "title",
+        "limitAge",
+        "title",
+        "limitage",
+        "title",
+        "title",
+        "limitAge",
+        "limitage",
+        "title",
+        "limitAge",
+        "age",
+        "age",
+        "limitAge",
+        "getTitle",
+        "getLimitAge",
+        "title"
+    ],
+    "literals": [
+        "\"은/는 \"",
+        "\"세 이상 관람가입니다.\"",
+        "\" 즐감하세요.\""
+    ],
+    "variables": [
+        "title",
+        "limitAge"
+    ],
+    "comments": [
+        "try {",
+        "",
+        "System.out.println(getTitle()+\" 즐감하세요.\");",
+        "}catch (Exception e){"
+    ],
+    "docstrings": [
+        "* <pre>\n * org.dimigo.exception\n *   |_Movie\n *\n * 1. 개요 :\n * 2. 작성일 : 2017. 5. 29.\n * <pre>\n *\n * @author : Seung\n * @version : 1.0"
+    ],
+    "functions": [
+        "Movie",
+        "getTitle",
+        "getLimitAge",
+        "buyTicket"
+    ],
+    "classes": [
+        "Movie"
+    ]
+}

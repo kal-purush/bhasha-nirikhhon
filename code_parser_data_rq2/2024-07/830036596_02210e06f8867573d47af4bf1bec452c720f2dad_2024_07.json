@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "pipeline",
+        "env",
+        "env",
+        "env",
+        "progress_callback",
+        "pipeline",
+        "MyPipeline",
+        "x",
+        "x",
+        "recommender",
+        "x",
+        "recommender",
+        "x",
+        "output"
+    ],
+    "literals": [
+        "'@xenova/transformers'",
+        "'text-generation'",
+        "'Xenova/distilgpt2'",
+        "'message'",
+        "'update'",
+        "'complete'"
+    ],
+    "variables": [
+        "recommender",
+        "output"
+    ],
+    "comments": [
+        "Listen for messages from the main thread",
+        "Retrieve the translation pipeline. When called for the first time,",
+        "this will load the pipeline and save it for future use.",
+        "We also add a progress callback to the pipeline so that we can",
+        "track model loading.",
+        "Actually perform the translation",
+        "Allows for partial output",
+        "Send the output back to the main thread"
+    ],
+    "docstrings": [
+        "* This class uses the Singleton pattern to ensure that only one instance of the\n * pipeline is loaded. This is because loading the pipeline is an expensive\n * operation and we don't want to do it every time we want to translate a sentence."
+    ],
+    "functions": [
+        "getInstance"
+    ],
+    "classes": [
+        "MyPipeline"
+    ]
+}

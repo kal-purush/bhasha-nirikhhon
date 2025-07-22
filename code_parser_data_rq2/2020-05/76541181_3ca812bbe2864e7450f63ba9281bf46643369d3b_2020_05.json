@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "Jymfony",
+        "Jymfony",
+        "Jymfony",
+        "AbstractRecursivePass",
+        "tagName",
+        "tagName",
+        "value",
+        "isRoot",
+        "value",
+        "value",
+        "Reference",
+        "id",
+        "Reference",
+        "id",
+        "value",
+        "value",
+        "isRoot",
+        "container",
+        "id",
+        "container",
+        "container",
+        "id",
+        "definition",
+        "InvalidArgumentException",
+        "__jymfony",
+        "id",
+        "id",
+        "container",
+        "id",
+        "aliasId",
+        "container",
+        "aliasId",
+        "definition",
+        "id",
+        "aliasId",
+        "container"
+    ],
+    "literals": [
+        "'container.private'",
+        "'The \"%s\" service is private: it cannot have the \"%s\" tag.'",
+        "'.'",
+        "'.'",
+        "'Accessing the \"%alias_id%\" service directly from the container is deprecated, use dependency injection instead.'"
+    ],
+    "variables": [
+        "AbstractRecursivePass",
+        "InvalidArgumentException",
+        "Reference",
+        "id",
+        "definition",
+        "aliasId"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @memberOf Jymfony.Component.DependencyInjection.Compiler",
+        "* Constructor.\n     *\n     * @param {string} tagName",
+        "* @type {string}\n         *\n         * @private",
+        "* @type {Object.<string, string>}\n         *\n         * @private",
+        "* @inheritdoc",
+        "* @inheritdoc"
+    ],
+    "functions": [
+        "__construct",
+        "_processValue",
+        "process"
+    ],
+    "classes": [
+        "AliasDeprecatedPublicServicesPass"
+    ]
+}

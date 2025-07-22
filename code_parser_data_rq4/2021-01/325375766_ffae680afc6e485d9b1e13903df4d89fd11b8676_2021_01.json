@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Chronos",
+        "Timer",
+        "Core",
+        "ITimer",
+        "ITimeTrackingStrategy",
+        "timeTrackingStrategy",
+        "ITimerTask",
+        "timerTasks"
+    ],
+    "literals": [],
+    "variables": [
+        "TimeSpan",
+        "ElapsedTime",
+        "TimeSpan",
+        "TimeLeft",
+        "Guid",
+        "Id"
+    ],
+    "comments": [
+        "A timer which runs in the Chronos timer runtime.",
+        "</summary>",
+        "The elapsed time since the timer was initially started.",
+        "</summary>",
+        "The time left before the execution of the next action.",
+        "</summary>",
+        "The Timer's UID used to register/unregister with the Chronos timer runtime.",
+        "</summary>",
+        "Unpauses the timer and restarts tracking time.",
+        "</summary>",
+        "Pauses the timer and stops tracking time.",
+        "</summary>",
+        "Returns true if the tracker is not running.",
+        "</summary>",
+        "<returns></returns>",
+        "Wipes the elapsed time stored in the tracker. Does not pause the timer.",
+        "</summary>",
+        "Initializes the timer with the given time tracking strategy and its associated tasks.",
+        "</summary>",
+        "<param name=\"timeTrackingStrategy\">The strategy which will provide the elapsed time.</param>",
+        "<param name=\"timerTasks\">List of tasks to be executed by this timer.</param>",
+        "Updates the elapsed time stored in the timer.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Unpause",
+        "Pause",
+        "IsStopped",
+        "Clear",
+        "Initialize",
+        "Update"
+    ],
+    "classes": []
+}

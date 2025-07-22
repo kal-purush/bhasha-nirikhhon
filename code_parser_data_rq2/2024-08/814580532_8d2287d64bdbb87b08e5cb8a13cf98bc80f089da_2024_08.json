@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "argparse",
+        "elftools",
+        "elf",
+        "elffile",
+        "ELFFile",
+        "elftools",
+        "elf",
+        "enums",
+        "ENUM_ST_INFO_BIND",
+        "elf_file_path",
+        "open",
+        "elf_file_path",
+        "elf",
+        "ELFFile",
+        "elf",
+        "elffile",
+        "get_section_by_name",
+        "symbol",
+        "dynsym_section",
+        "iter_symbols",
+        "symbol",
+        "symbol",
+        "symbol",
+        "name",
+        "symbol",
+        "argparse",
+        "ArgumentParser",
+        "prog",
+        "description",
+        "epilog",
+        "parser",
+        "add_argument",
+        "help",
+        "parser",
+        "parse_args",
+        "get_weak_symbols",
+        "args",
+        "filename"
+    ],
+    "literals": [
+        "\"rb\"",
+        "\".dynsym\"",
+        "\"st_info\"",
+        "\"bind\"",
+        "\"STB_WEAK\"",
+        "\"st_value\"",
+        "\"PROVIDE (%s = 0x%lx);\"",
+        "\"st_value\"",
+        "\"__main__\"",
+        "\"get_weak_symbols.py\"",
+        "\"Part of mambo-lift repository.\"",
+        "\"filename\"",
+        "\"ELF file to be processed.\""
+    ],
+    "variables": [
+        "elffile",
+        "dynsym_section",
+        "parser",
+        "args"
+    ],
+    "comments": [
+        "!/bin/python3",
+        "Copyright 2024 Igor Wodiany",
+        "Licensed under the Apache License, Version 2.0 (the \"License\")"
+    ],
+    "docstrings": [
+        "\"\"\"\n                        Print all weak symbols from the .dynsym section of a binary in the linker script\n                        format `PROVIDE (symbol = address);`. Only symbols with non-zero st_value are\n                        printed.\n                        \"\"\""
+    ],
+    "functions": [
+        "get_weak_symbols"
+    ],
+    "classes": []
+}

@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "OdeToCode",
+        "AddFeatureFolders",
+        "AreaFolderName",
+        "DefaultAreaViewLocation",
+        "FeatureFolderName"
+    ],
+    "literals": [
+        "\"Areas\"",
+        "\"Features\""
+    ],
+    "variables": [
+        "AreaFolderName",
+        "DefaultAreaViewLocation",
+        "FeatureFolderName"
+    ],
+    "comments": [
+        "Options to control the area feature folders",
+        "</summary>",
+        "The name of the root area folder on disk (default: 'Areas')",
+        "</summary>",
+        "The default view location for areas. Helps intellisense find razor views. Example:",
+        "\"\\Areas\\{2}\\{1}\\{0}.cshtml\".",
+        "Razor replaces the area name into {2} placeholder, the controller name into {1} placeholder & view name into the {0} placeholder.",
+        "</summary>",
+        "The name of the root feature folder on disk (default: 'Features')",
+        "Only change this if there is a custom feature folder name set in the feature folder options.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "AreaFeatureFolderOptions"
+    ],
+    "classes": [
+        "AreaFeatureFolderOptions"
+    ]
+}

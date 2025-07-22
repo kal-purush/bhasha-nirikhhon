@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "axios",
+        "EventEmitter",
+        "_",
+        "require",
+        "EventEmitter",
+        "axios",
+        "options",
+        "options",
+        "options",
+        "debug",
+        "_",
+        "axios",
+        "options",
+        "options",
+        "options",
+        "options",
+        "options",
+        "options",
+        "config",
+        "axios",
+        "config",
+        "results",
+        "Client"
+    ],
+    "literals": [
+        "'axios'",
+        "'events'",
+        "'lodash'",
+        "'debug'",
+        "'freshsales:client'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'apiCall'",
+        "'apiCall'",
+        "'method'",
+        "'url'",
+        "'Please provide a domain'",
+        "https://${this.domain}.freshsales.io/api/",
+        "'Please provide an apiKey'",
+        "Token token=${this.apiKey}"
+    ],
+    "variables": [
+        "debug",
+        "API_TIMEOUT",
+        "MAX_USE_PERCENT_DEFAULT",
+        "results"
+    ],
+    "comments": [
+        "import Leads from './leads';",
+        "define how long to wait API response before throwing a timeout error",
+        "this.qs = {};",
+        "this.contacts = new Contact(this);",
+        "try {",
+        "const results = await this.axios(config);",
+        "console.log(results);",
+        "return results;",
+        "} catch (err) {",
+        "console.log(err);",
+        "throw err;",
+        "}",
+        "to add: count API calls and handle response"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setBaseUrl",
+        "setApiKey",
+        "request"
+    ],
+    "classes": [
+        "Client"
+    ]
+}

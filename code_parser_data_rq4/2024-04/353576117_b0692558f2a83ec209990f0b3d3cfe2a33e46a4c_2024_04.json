@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "mergeConfig",
+        "svgr",
+        "dirname",
+        "join",
+        "value",
+        "dirname",
+        "require",
+        "join",
+        "value",
+        "getAbsolutePath",
+        "getAbsolutePath",
+        "config",
+        "mergeConfig",
+        "config",
+        "svgr"
+    ],
+    "literals": [
+        "'vite'",
+        "'vite-plugin-svgr'",
+        "'path'",
+        "string",
+        "'package.json'",
+        "'../src/stories/**/*.mdx'",
+        "'../src/stories/**/*.stories.@(js|jsx|mjs|ts|tsx)'",
+        "'@storybook/addon-essentials'",
+        "'@storybook/react-vite'",
+        "'**/*.svg'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This function is used to resolve the absolute path of a package.\n * It is needed in projects that use Yarn PnP or are set up within a monorepo."
+    ],
+    "functions": [
+        "getAbsolutePath"
+    ],
+    "classes": []
+}

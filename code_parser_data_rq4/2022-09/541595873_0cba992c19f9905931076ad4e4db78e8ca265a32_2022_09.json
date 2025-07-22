@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "os",
+        "filename",
+        "format",
+        "filename",
+        "os",
+        "open",
+        "filePath",
+        "os",
+        "O_RDONLY",
+        "os",
+        "O_BINARY",
+        "os",
+        "read",
+        "disk_fd",
+        "oneSectorSize",
+        "data",
+        "data",
+        "i",
+        "i",
+        "hex",
+        "data",
+        "i",
+        "data_toHex",
+        "data_toHex_remove0x",
+        "end",
+        "readOneSector",
+        "diskName",
+        "indexMBR",
+        "data",
+        "main"
+    ],
+    "literals": [
+        "r\"\\\\.\\{0}\"",
+        "\"\\n\"",
+        "\" \"",
+        "\"E:\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "oneSectorSize",
+        "filePath",
+        "disk_fd",
+        "data",
+        "data_toHex",
+        "data_toHex_remove0x",
+        "diskName",
+        "data"
+    ],
+    "comments": [
+        "Kích thước của một Sector",
+        "Nhận vào tên của thư mục muốn kiểm tra, trả về MBR của thư mục đó",
+        "Output trả về là dạng mảng",
+        "print(data)",
+        "Duyệt sector",
+        "giá trị data[i] hiện tại ở dạng số từ 0 -> 255, convert về hex",
+        "trả về ở lệnh trên ở dạng 0xMãHex, lệnh này để lọc bớt đi 0x"
+    ],
+    "docstrings": [],
+    "functions": [
+        "readOneSector",
+        "indexMBR",
+        "main"
+    ],
+    "classes": []
+}

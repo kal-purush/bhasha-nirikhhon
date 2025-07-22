@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "Output",
+        "OnInit",
+        "OnDestroy",
+        "AfterViewInit",
+        "EventEmitter",
+        "Component",
+        "Input",
+        "Input",
+        "Input",
+        "Input",
+        "Input",
+        "Input",
+        "Input",
+        "Input",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "s",
+        "s",
+        "s",
+        "s",
+        "setInterval",
+        "clearInterval",
+        "intervalID",
+        "playerID",
+        "playerID"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'k-player'",
+        "'./player.component.html'",
+        "'./player.component.scss'",
+        "string",
+        "string",
+        "'http://cdnapi.kaltura.com'",
+        "string",
+        "\"\"",
+        "\"Kaltura Player::Missing parameters. Please provide pid, uiconfid and entryid.\"",
+        "\"kalturaPlayerLib\"",
+        "'script'",
+        "${this.cdnUrl}/p/${this.pid}/sp/${this.pid}00/embedIframeJs/uiconf_id/${this.uiconfid}/partner_id/${this.pid}",
+        "\"kalturaPlayerLib\"",
+        "'kWidget'",
+        "\"undefined\"",
+        "'kWidget'",
+        "\"targetId\"",
+        "\"kaltura_player_\"",
+        "\"wid\"",
+        "\"_\"",
+        "\"uiconf_id\"",
+        "\"flashvars\"",
+        "\"cache_st\"",
+        "\"entry_id\"",
+        "\"readyCallback\"",
+        "'kWidget'"
+    ],
+    "variables": [
+        "s",
+        "intervalID"
+    ],
+    "comments": [
+        "validation",
+        "load player lib if doesn't exist",
+        "wait for lib to load if not loaded and then embed player"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngAfterViewInit",
+        "Embed",
+        "doEmbed",
+        "ngOnDestroy"
+    ],
+    "classes": [
+        "KalturaPlayerComponent"
+    ]
+}

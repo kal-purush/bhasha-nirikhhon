@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "sys",
+        "subprocess",
+        "tempfile",
+        "NamedTemporaryFile",
+        "MAX_RUN_COUNT",
+        "RETRY_CODES",
+        "sys",
+        "argv",
+        "try_num",
+        "MAX_RUN_COUNT",
+        "NamedTemporaryFile",
+        "stdout",
+        "NamedTemporaryFile",
+        "stderr",
+        "subprocess",
+        "Popen",
+        "arguments",
+        "stdout",
+        "stdout",
+        "stderr",
+        "stderr",
+        "process",
+        "wait",
+        "returncode",
+        "RETRY_CODES",
+        "sys",
+        "exit",
+        "returncode",
+        "main"
+    ],
+    "literals": [
+        "'__main__'"
+    ],
+    "variables": [
+        "MAX_RUN_COUNT",
+        "RETRY_CODES",
+        "arguments",
+        "process",
+        "returncode"
+    ],
+    "comments": [
+        "!/usr/bin/python3",
+        "A simple script that runs adt-run, and retries a certain number of times",
+        "if it didn't succeed.",
+        "",
+        "To use: simply call this with all the adt-run arguments afterwards, including",
+        "the adt-run call as well:",
+        "",
+        "./scripts/run-adt.py adt-run --unbuilt-tree foo -o results .....",
+        "Number of times to run adt-run before giving up.",
+        "adt-run exit codes we should re-run the adt-run call on:"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

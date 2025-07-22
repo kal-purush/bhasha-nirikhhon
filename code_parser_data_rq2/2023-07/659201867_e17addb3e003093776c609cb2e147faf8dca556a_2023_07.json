@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "\"typeorm\"",
+        "'ModifiedRelationOnBookAndCategory1688259081475'",
+        "ALTER TABLE \"books\" DROP CONSTRAINT \"FK_a0f13454de3df36e337e01dbd55\"",
+        "ALTER TABLE \"books\"\n            ADD CONSTRAINT \"FK_a0f13454de3df36e337e01dbd55\" FOREIGN KEY (\"categoryId\") REFERENCES \"categories\"(\"id\") ON DELETE CASCADE ON UPDATE CASCADE",
+        "ALTER TABLE \"books\" DROP CONSTRAINT \"FK_a0f13454de3df36e337e01dbd55\"",
+        "ALTER TABLE \"books\"\n            ADD CONSTRAINT \"FK_a0f13454de3df36e337e01dbd55\" FOREIGN KEY (\"categoryId\") REFERENCES \"categories\"(\"id\") ON DELETE NO ACTION ON UPDATE NO ACTION"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "ModifiedRelationOnBookAndCategory1688259081475"
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "enumObj",
+        "enumObj",
+        "key",
+        "isNaN",
+        "parseInt",
+        "key",
+        "key",
+        "enumObj",
+        "key"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Returns available values of an enum\n *\n * @example\n * ```\n *  enum LambdaEnum {\n *    NONE = 0,\n *    A = 1,\n *    B = 2,\n * }\n * // become => { \"0\": \"NONE\", \"1\": \"A\", \"2\": \"B\", \"NONE\": 0, \"A\": 1, \"B\": 2}\n *\n * const values = getEnumValues(LambdaEnum); // returns [ 0, 1, 2 ]\n * ```\n * @param enumObj\n * @returns The values of the enum"
+    ],
+    "functions": [
+        "getEnumValues"
+    ],
+    "classes": []
+}

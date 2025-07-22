@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "childProcess",
+        "getInfo",
+        "waitOnFn",
+        "childProcess",
+        "getInfo",
+        "args",
+        "serveCmd",
+        "childProcess",
+        "cmd",
+        "args",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "data",
+        "waitOnFn",
+        "waitOn",
+        "status",
+        "status",
+        "status"
+    ],
+    "literals": [
+        "'child_process'",
+        "'./getInfo'",
+        "'wait-on'",
+        "' '",
+        "'pipe'",
+        "'data'",
+        "${data.toString()}",
+        "'data'",
+        "ENOENT",
+        "status: ${status}",
+        "${status}",
+        "'stop the server.'"
+    ],
+    "variables": [
+        "cmd"
+    ],
+    "comments": [
+        "initial delay in ms, default 0",
+        "poll interval in ms, default 250ms",
+        "timeout in ms, default Infinity",
+        "tcp timeout in ms, default 300ms"
+    ],
+    "docstrings": [],
+    "functions": [
+        "serve",
+        "stop"
+    ],
+    "classes": [
+        "Server"
+    ]
+}

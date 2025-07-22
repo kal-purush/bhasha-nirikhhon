@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "consumer",
+        "consumer",
+        "message",
+        "messages",
+        "message",
+        "content",
+        "content",
+        "button",
+        "input",
+        "chatChannel",
+        "content",
+        "input"
+    ],
+    "literals": [
+        "\"./consumer\"",
+        "\"RoomChannel\"",
+        "'messages'",
+        "'speak'",
+        "'DOMContentLoaded'",
+        "'chat-input'",
+        "'button'",
+        "'click'",
+        "''"
+    ],
+    "variables": [
+        "chatChannel",
+        "messages",
+        "input",
+        "button",
+        "content"
+    ],
+    "comments": [
+        "Called when the subscription is ready for use on the server",
+        "Called when the subscription has been terminated by the server",
+        "Called when there's incoming data on the websocket for this channel"
+    ],
+    "docstrings": [],
+    "functions": [
+        "connected",
+        "disconnected",
+        "received"
+    ],
+    "classes": []
+}

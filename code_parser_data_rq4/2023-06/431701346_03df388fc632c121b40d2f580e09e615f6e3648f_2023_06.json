@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "log",
+        "OrganizationRepositoryV2",
+        "FilterOptions",
+        "Organization",
+        "delegateRepository",
+        "organizationRepository",
+        "options",
+        "options",
+        "log",
+        "organizationRepository",
+        "options",
+        "trees",
+        "log",
+        "organizationRepository",
+        "options",
+        "trees",
+        "organizationRepository",
+        "options",
+        "trees",
+        "organization",
+        "organization",
+        "organization",
+        "organization",
+        "links",
+        "delegateRepository",
+        "delegateRepository",
+        "delegateRepository"
+    ],
+    "literals": [
+        "'loglevel'",
+        "'infra/database/OrganizationRepositoryV2'",
+        "'interfaces/FilterOptions'",
+        "'interfaces/Organization'",
+        "'../infra/database/delegateRepository'",
+        "string",
+        "'using planter filter...'",
+        "'using planter filter...'",
+        "/trees?organization_id=${organization.id}&limit=20&offset=0",
+        "/planters?organization_id=${organization.id}&limit=20&offset=0",
+        "/species?organization_id=${organization.id}&limit=20&offset=0",
+        "'getById'",
+        "'getByMapName'",
+        "'getFeaturedOrganizations'"
+    ],
+    "variables": [
+        "trees",
+        "trees",
+        "trees",
+        "links"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getByFilter",
+        "getOrganizationLinks"
+    ],
+    "classes": []
+}

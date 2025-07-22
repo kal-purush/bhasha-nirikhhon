@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "com",
+        "YourCompany",
+        "HorizonUIPluginDemo",
+        "com",
+        "google",
+        "android",
+        "vending",
+        "expansion",
+        "downloader",
+        "DownloaderClientMarshaller",
+        "android",
+        "content",
+        "BroadcastReceiver",
+        "android",
+        "content",
+        "Context",
+        "android",
+        "content",
+        "Intent",
+        "android",
+        "content",
+        "pm",
+        "PackageManager",
+        "NameNotFoundException",
+        "Override",
+        "context",
+        "intent",
+        "DownloaderClientMarshaller",
+        "startDownloadServiceIfRequired",
+        "context",
+        "intent",
+        "e",
+        "e",
+        "printStackTrace"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (C) 2012 The Android Open Source Project\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* You should start your derived downloader class when this receiver gets the message \n * from the alarm service using the provided service helper function within the\n * DownloaderClientMarshaller. This class must be then registered in your AndroidManifest.xml\n * file with a section like this:\n *         <receiver android:name=\".AlarmReceiver\"/>"
+    ],
+    "functions": [
+        "onReceive"
+    ],
+    "classes": [
+        "AlarmReceiver"
+    ]
+}

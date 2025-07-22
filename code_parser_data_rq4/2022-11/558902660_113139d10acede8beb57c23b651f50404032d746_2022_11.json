@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "Alarm",
+        "DayOfWeekVO",
+        "IdVO",
+        "TimeVO",
+        "id",
+        "dayOfWeek",
+        "hours",
+        "minutes",
+        "id",
+        "dayOfWeek",
+        "hours",
+        "minutes",
+        "IdVO",
+        "id",
+        "DayOfWeekVO",
+        "dayOfWeek",
+        "TimeVO",
+        "hours",
+        "minutes",
+        "Alarm",
+        "idVO",
+        "dayOfWeekVO",
+        "timeVO",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'./alarm'",
+        "'./value-objects/dayOfWeek.vo'",
+        "'./value-objects/id.vo'",
+        "'./value-objects/time.vo'",
+        "string",
+        "'Invalid alarm'",
+        "Failed to create alarm: ${error.message}"
+    ],
+    "variables": [
+        "idVO",
+        "dayOfWeekVO",
+        "timeVO"
+    ],
+    "comments": [
+        "if (dayOfWeek < 0 || dayOfWeek > 6) {\n        throw new Error('dayOfWeek must be between 0 and 6');\n      }",
+        "if (hours < 8 || hours > 16) {\n        throw new Error('hours must be between 8 and 16');\n      }\n\n      if (minutes < 0 || minutes > 59) {\n        throw new Error('minutes must be between 0 and 59');\n      }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "create"
+    ],
+    "classes": [
+        "AlarmFactory"
+    ]
+}

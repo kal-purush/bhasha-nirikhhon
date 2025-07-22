@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Trade",
+        "currencyEquals",
+        "Percent",
+        "Percent",
+        "Percent",
+        "tradeA",
+        "tradeB",
+        "minimumDelta",
+        "ZERO_PERCENT",
+        "tradeA",
+        "tradeB",
+        "tradeB",
+        "tradeA",
+        "tradeA",
+        "tradeB",
+        "tradeA",
+        "tradeB",
+        "currencyEquals",
+        "tradeA",
+        "tradeB",
+        "currencyEquals",
+        "tradeB",
+        "tradeB",
+        "minimumDelta",
+        "ZERO_PERCENT",
+        "tradeA",
+        "tradeB",
+        "tradeA",
+        "minimumDelta",
+        "ONE_HUNDRED_PERCENT",
+        "tradeB"
+    ],
+    "literals": [
+        "'@uniswap/sdk'",
+        "'0'",
+        "'1'",
+        "'Trades are not comparable'"
+    ],
+    "variables": [
+        "ZERO_PERCENT",
+        "ONE_HUNDRED_PERCENT"
+    ],
+    "comments": [
+        "returns whether tradeB is better than tradeA by at least a threshold percentage amount"
+    ],
+    "docstrings": [],
+    "functions": [
+        "isTradeBetter"
+    ],
+    "classes": []
+}

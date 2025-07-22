@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "PrismaClient",
+        "PrismaClient",
+        "prisma",
+        "prisma",
+        "englishLanguage",
+        "georgianLanguage",
+        "error",
+        "error",
+        "error",
+        "prisma",
+        "require",
+        "seedTranslations",
+        "error",
+        "error",
+        "process",
+        "seedTranslations"
+    ],
+    "literals": [
+        "\"@prisma/client\"",
+        "\"🌱 Seeding languages...\"",
+        "\"en\"",
+        "\"en\"",
+        "\"English\"",
+        "\"ka\"",
+        "\"ka\"",
+        "\"ქართული\"",
+        "\"✅ Languages seeded successfully:\"",
+        "\"❌ Error seeding translations:\""
+    ],
+    "variables": [
+        "prisma",
+        "englishLanguage",
+        "georgianLanguage"
+    ],
+    "comments": [
+        "This file can be used to seed initial languages and translations",
+        "Run with: npm run seed:translations",
+        "Create English language (default)",
+        "Create Georgian language",
+        "Add your translations here when needed",
+        "Example structure:",
+        "const translations = [",
+        "{ key: 'common.welcome', value: 'Welcome', languageId: englishLanguage.id, namespace: 'common' },",
+        "{ key: 'common.welcome', value: 'მოგესალმებით', languageId: georgianLanguage.id, namespace: 'common' },",
+        "];",
+        "",
+        "await prisma.translation.createMany({",
+        "data: translations,",
+        "skipDuplicates: true,",
+        "});",
+        "Run the seed function if this file is executed directly"
+    ],
+    "docstrings": [],
+    "functions": [
+        "seedTranslations"
+    ],
+    "classes": []
+}

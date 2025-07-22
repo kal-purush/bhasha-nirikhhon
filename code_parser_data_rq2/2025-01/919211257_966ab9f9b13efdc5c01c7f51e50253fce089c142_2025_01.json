@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "transformers",
+        "Trainer",
+        "TrainingArguments",
+        "TrainingArguments",
+        "trainer",
+        "model",
+        "training_args",
+        "train_dataset",
+        "tokenized_datasets",
+        "eval_dataset",
+        "tokenized_datasets",
+        "data_collator",
+        "data_collator",
+        "tokenizer",
+        "tokenizer",
+        "trainer",
+        "train"
+    ],
+    "literals": [
+        "\"test-trainer\"",
+        "\"train\"",
+        "\"validation\""
+    ],
+    "variables": [
+        "training_args",
+        "trainer"
+    ],
+    "comments": [
+        "1. prepare dataset",
+        "2. load pretrained tokenizer, call it with dataset => Encoding",
+        "3. build pytorch dataset with encodings",
+        "4. load pretrained model",
+        "5. - load trainer and train int",
+        "- native pytorch training loop"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

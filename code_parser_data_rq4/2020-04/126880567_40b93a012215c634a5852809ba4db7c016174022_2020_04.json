@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "IPortal",
+        "getHubLocaleAssetUrl",
+        "locale",
+        "portal",
+        "getHubLocaleAssetUrl",
+        "portal",
+        "assetBase",
+        "locale",
+        "fetch",
+        "url",
+        "options",
+        "response",
+        "response",
+        "err",
+        "locale",
+        "url",
+        "err"
+    ],
+    "literals": [
+        "\"@esri/arcgis-rest-portal\"",
+        "\"..\"",
+        "string",
+        "${assetBase}/locales/${locale}.json",
+        "\"GET\"",
+        "\"same-origin\"",
+        "\"no-cors\"",
+        "Attempt to fetch locale ${locale} from ${url} failed: ${JSON.stringify(\n          err\n        )}"
+    ],
+    "variables": [
+        "assetBase",
+        "url",
+        "options"
+    ],
+    "comments": [
+        "to support web-tier auth, we must always send same-origin credentials"
+    ],
+    "docstrings": [
+        "* Fetch the Hub translation file for a given locale\n * These are all public urls and should never require auth/tokens etc\n * @param {String} locale Locale code - i.e. `es`\n * @param {Object} portal Portal Self"
+    ],
+    "functions": [
+        "fetchHubTranslation"
+    ],
+    "classes": []
+}

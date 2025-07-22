@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "pytest",
+        "astropy",
+        "table",
+        "Table",
+        "astropy",
+        "time",
+        "Time",
+        "pystrometry",
+        "get_ephemeris",
+        "Time",
+        "Time",
+        "get_ephemeris",
+        "center",
+        "center",
+        "target",
+        "target",
+        "start_time",
+        "start_time",
+        "stop_time",
+        "stop_time",
+        "step_size",
+        "step_size",
+        "isinstance",
+        "result",
+        "Table",
+        "len",
+        "result",
+        "result",
+        "colnames",
+        "result",
+        "colnames",
+        "result",
+        "colnames"
+    ],
+    "literals": [
+        "'g@399'",
+        "'0'",
+        "'2023-01-01T00:00:00'",
+        "'2024-01-10T00:00:00'",
+        "'1d'",
+        "\"Result should be an Astropy Table\"",
+        "\"Result table should not be empty\"",
+        "'X'",
+        "\"Result table should contain 'x' column\"",
+        "'Y'",
+        "\"Result table should contain 'y' column\"",
+        "'Z'",
+        "\"Result table should contain 'z' column\""
+    ],
+    "variables": [
+        "center",
+        "target",
+        "start_time",
+        "stop_time",
+        "step_size",
+        "result"
+    ],
+    "comments": [
+        "Define valid test inputs",
+        "Call the function",
+        "Validate the result"
+    ],
+    "docstrings": [],
+    "functions": [
+        "test_get_ephemeris_valid_input"
+    ],
+    "classes": []
+}

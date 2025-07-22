@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "OnDestroy",
+        "Component",
+        "group",
+        "group",
+        "openGroup",
+        "group",
+        "group",
+        "openGroup",
+        "group",
+        "group",
+        "group",
+        "index",
+        "index",
+        "Component",
+        "Input",
+        "Input",
+        "value",
+        "value",
+        "value",
+        "accordion"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'accordion'",
+        "<ng-content></ng-content>",
+        "'class'",
+        "'panel-group'",
+        "'accordion-group'",
+        "<div class=\"panel panel-default\" [ngClass]=\"{'panel-open': isOpen}\">\n                  <div class=\"panel-heading\" (click)=\"toggleOpen($event)\">\n                    <h4 class=\"panel-title\">\n                      <a href tabindex=\"0\"><span>{{heading}}</span></a>\n                    </h4>\n                  </div>\n                  <div class=\"panel-collapse\" [hidden]=\"!isOpen\">\n                    <div class=\"panel-body\">\n                        <ng-content></ng-content>\n                    </div>\n                  </div>\n                </div>",
+        "string"
+    ],
+    "variables": [
+        "index"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "addGroup",
+        "closeOthers",
+        "removeGroup",
+        "isOpen",
+        "isOpen",
+        "ngOnDestroy",
+        "toggleOpen"
+    ],
+    "classes": [
+        "Accordion",
+        "AccordionGroup"
+    ]
+}

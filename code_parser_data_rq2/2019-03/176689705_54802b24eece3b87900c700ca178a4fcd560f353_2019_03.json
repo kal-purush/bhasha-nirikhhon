@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "color",
+        "$",
+        "color",
+        "color",
+        "$",
+        "color",
+        "color",
+        "$",
+        "color",
+        "Body",
+        "Body",
+        "Links",
+        "Body",
+        "Body",
+        "Links"
+    ],
+    "literals": [
+        "'a'",
+        "'color'",
+        "'body'",
+        "'color'",
+        "'body'",
+        "'backgroundColor'",
+        "'body'",
+        "'night'",
+        "'black'",
+        "'white'",
+        "'day'",
+        "'white'",
+        "'white'",
+        "'black'",
+        "'night'",
+        "'blue'"
+    ],
+    "variables": [
+        "Links",
+        "Body",
+        "target"
+    ],
+    "comments": [
+        "var alist = document.querySelectorAll('a');",
+        "var i = 0;",
+        "while(i < alist.length){",
+        "alist[i].style.color = color;",
+        "i = i + 1;",
+        "}",
+        "document.querySelector('body').style.color = color;",
+        "document.querySelector('body').style.backgroundColor = color;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "nightDayHandler"
+    ],
+    "classes": []
+}

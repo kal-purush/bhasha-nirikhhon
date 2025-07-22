@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "mysql",
+        "connector",
+        "mod_python",
+        "apache",
+        "req",
+        "req",
+        "write",
+        "req",
+        "check",
+        "radiobutton",
+        "req",
+        "write",
+        "check",
+        "radiobutton"
+    ],
+    "literals": [
+        "'text/html'",
+        "'text/html'"
+    ],
+    "variables": [
+        "req",
+        "content_type",
+        "req",
+        "content_type"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nTitle: HTML-Python voor webinterface\nBeschrijving: Zie title\nBronnen:-\nAuteurs: Alex Staritsky en William Sies\nDatum: Donderdag 19 mei 2016 - ?\nVersie:1\nUpdates:-\nCopyright\n\"\"\"",
+        "\"\"\"<html>\n    <head>\n    <link rel=\"stylesheet\" \"type=\"text/css\" href=\"Webinterface.css\" >\n\t<title>Blast results champignon dataset</title>\n    </head>\n    <body>\n\t<div class=\"global\">\n\t<h1>Blast results champignon dataset</h1>\n\t<div class=\"introtext\">\n\t<h3>Fill in this form to filter the BLAST results of the champignon dataset.</h3>\n\t<p>The dataset visualised by this webtool is derived from the genetic data in champignon fertilizer.\n\tThis tool contains information about sequence alignments made with BLAST to look proteins and organisms that live in the fertilize.\n\tFill in this form to show the results.</p>\n\t</div>\n\t<hr>\n\t<form value='information' action='http://cytosine.nl/~owe4_bi1e_2/Python/HTMLwebTest.py/infofunc'>\n\t<input type='text' name='check'>\n\t<div class='radiobuttons'>\n\t<p>Radiobuttons:<p><input type='radio' name='radiobutton' value='optie1'>Optie1<br>\n\t<input type='radio' name='radiobutton' value='optie2'>Optie2<br>\n\t<input type='radio' name='radiobutton' value='optie3'>Optie3<br>\n\t</div>\n\t<input type='submit' name='klik' value='submit'>\n\t</form>\n\t</div>\n\t</body>\n    </html>\"\"\"",
+        "\"\"\"<html>\n    <head>\n    <link rel=\"stylesheet\" \"type=\"text/css\" href=\"http://cytosine.nl/~owe4_bi1e_2/Python/Webinterface.css\" >\n    </head>\n    <body>\n\t<div class=\"global\">\n\t<h1>Should be blue</h1>\n\t<div class=\"textarea\">\n\t<textarea disabled>Your input in the textfield was:\"\"\"",
+        "\"\"\"\nYour radiobutton choice was: \"\"\"",
+        "\"\"\"</textarea>\n\t</div>\n\t</div>\n\t</body>\n\t</html>\"\"\""
+    ],
+    "functions": [
+        "index",
+        "infofunc"
+    ],
+    "classes": []
+}

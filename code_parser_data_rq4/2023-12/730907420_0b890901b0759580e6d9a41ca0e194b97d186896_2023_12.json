@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "torch",
+        "torch",
+        "nn",
+        "nn",
+        "nn",
+        "Module",
+        "d_model",
+        "vocab_size",
+        "d_model",
+        "vocab_size",
+        "nn",
+        "Embedding",
+        "vocab_size",
+        "d_model",
+        "x",
+        "torch",
+        "Tensor",
+        "torch",
+        "Tensor",
+        "embedding",
+        "x"
+    ],
+    "literals": [],
+    "variables": [
+        "d_model",
+        "vocab_size",
+        "embedding"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Construct the input embeddings.\n\n    Args:\n        d_model: the hidden dimension of the model in the paper\n        vocab_size: the vocabulary size\n\n    Returns:\n        a nn.Embedding layer\n    \"\"\"",
+        "\"\"\"\n        Embeds the input token ids.\n\n        Args:\n            x: the input token ids\n\n        Returns:\n            the embedded input tokens\n        \"\"\""
+    ],
+    "functions": [
+        "forward"
+    ],
+    "classes": [
+        "InputEmbeddings"
+    ]
+}

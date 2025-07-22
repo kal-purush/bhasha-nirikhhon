@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "javaslang",
+        "circuitbreaker",
+        "javaslang",
+        "collection",
+        "java",
+        "util",
+        "concurrent",
+        "ArrayBlockingQueue",
+        "java",
+        "util",
+        "concurrent",
+        "locks",
+        "ReentrantLock",
+        "fifoQueue",
+        "capacity",
+        "capacity",
+        "fifoQueue",
+        "capacity",
+        "fifoQueue",
+        "size",
+        "fifoQueue",
+        "isEmpty",
+        "fifoQueue",
+        "remainingCapacity",
+        "ofAll",
+        "fifoQueue",
+        "element",
+        "fifoQueue",
+        "offer",
+        "element",
+        "fifoQueue",
+        "remove",
+        "fifoQueue",
+        "add",
+        "element",
+        "unlock"
+    ],
+    "literals": [
+        "\"CircularFifoBuffer capacity must be greater than 0\""
+    ],
+    "variables": [
+        "fifoQueue"
+    ],
+    "comments": [],
+    "docstrings": [
+        "*\n *  Copyright 2015 Robert Winkler\n *\n *  Licensed under the Apache License, Version 2.0 (the \"License\");\n *  you may not use this file except in compliance with the License.\n *  You may obtain a copy of the License at\n *\n *         http://www.apache.org/licenses/LICENSE-2.0\n *\n *  Unless required by applicable law or agreed to in writing, software\n *  distributed under the License is distributed on an \"AS IS\" BASIS,\n *  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n *  See the License for the specific language governing permissions and\n *  limitations under the License.\n *\n *",
+        "* A CircularFifoBuffer is a first in first out buffer with a fixed size that replaces its oldest element if full.\n *",
+        "* Creates an {@code CircularFifoBuffer} with the given (fixed)\n     * capacity\n     *\n     * @param capacity the capacity of this CircularFifoBuffer\n     * @throws IllegalArgumentException if {@code capacity < 1}",
+        "* Returns the number of elements in this CircularFifoBuffer.\n     *\n     * @return the number of elements in this CircularFifoBuffer",
+        "* Returns <tt>true</tt> if this CircularFifoBuffer contains no elements.\n     *\n     * @return <tt>true</tt> if this CircularFifoBuffer contains no elements",
+        "* Returns <tt>true</tt> if this CircularFifoBuffer is full.\n     *\n     * @return <tt>true</tt> if this CircularFifoBuffer is full",
+        "* Returns a list containing all of the elements in this CircularFifoBuffer.\n     * The elements are copied into an array.\n     *\n     * @return a list containing all of the elements in this CircularFifoBuffer",
+        "* Overwrites the oldest element when full."
+    ],
+    "functions": [
+        "CircularFifoBuffer",
+        "size",
+        "isEmpty",
+        "isFull",
+        "toList",
+        "add"
+    ],
+    "classes": [
+        "CircularFifoBuffer"
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "ApolloBoost",
+        "gql",
+        "ApolloBoost",
+        "gql",
+        "client",
+        "getUsers",
+        "response",
+        "response",
+        "user",
+        "html",
+        "user",
+        "html",
+        "gql",
+        "client",
+        "getPosts",
+        "response",
+        "response",
+        "post",
+        "html",
+        "post",
+        "post",
+        "html"
+    ],
+    "literals": [
+        "'apollo-boost'",
+        "'http://localhost:4000'",
+        "query {\n        users {\n            id\n            name\n        }\n    }",
+        "''",
+        "<div>\n                <h3>${user.name}</h3>\n            </div>",
+        "'users'",
+        "query {\n        posts {\n            title\n            author {\n                name\n            }\n        }\n    }",
+        "''",
+        "<div>\n                <h3>${post.title}</h3>\n                <h4>${post.author.name}</h4>\n            </div>",
+        "'posts'"
+    ],
+    "variables": [
+        "client",
+        "getUsers",
+        "html",
+        "getPosts",
+        "html"
+    ],
+    "comments": [
+        "Questions:",
+        "1. How do we define an operation in JavaScript?",
+        "2. How do we send that off to the server to fetch a response?",
+        "3. How do we access the response?",
+        "",
+        "Goal: Render all published posts to the browser",
+        "",
+        "1. Define the operation using gql",
+        "2. Send off the query using client",
+        "3. Use the response data to render a list of post titles along with author names",
+        "4. Test your work"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Policy",
+        "isNil",
+        "omitBy",
+        "queryString",
+        "ajax",
+        "getPolicies",
+        "ajax",
+        "queryString",
+        "omitBy",
+        "sortField",
+        "isNil",
+        "r",
+        "r"
+    ],
+    "literals": [
+        "'common/typedefs/Policy'",
+        "'lodash'",
+        "'querystring'",
+        "'services/ajax'",
+        "/policies?${queryString.stringify(\n        omitBy(\n          {\n            limit,\n            offset,\n            query,\n            sort: sortField,\n            sortOrder,\n          },\n          isNil,\n        ),\n      )}"
+    ],
+    "variables": [
+        "getPolicies"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

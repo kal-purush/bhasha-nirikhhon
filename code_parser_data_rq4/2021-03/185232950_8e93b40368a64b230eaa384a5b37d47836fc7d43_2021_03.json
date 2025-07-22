@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "React",
+        "PopupStack",
+        "useAlwaysCloseOnOutsideClick",
+        "stackRef",
+        "React",
+        "onClose",
+        "React",
+        "onClose",
+        "onCloseRef",
+        "onClose",
+        "React",
+        "stackRef",
+        "PopupStack",
+        "stackRef",
+        "onCloseRef",
+        "stackRef",
+        "React",
+        "onClick",
+        "stackRef",
+        "onClick"
+    ],
+    "literals": [
+        "'react'",
+        "'@workday/canvas-kit-popup-stack'",
+        "'mousedown'",
+        "'data-behavior-click-outside-close'",
+        "'always'",
+        "'mousedown'"
+    ],
+    "variables": [
+        "useAlwaysCloseOnOutsideClick",
+        "onCloseRef",
+        "onClick"
+    ],
+    "comments": [
+        "Use `PopupStack.contains` instead of `ref.current.contains` so that the application can",
+        "decide if clicking the target should toggle the popup rather than it toggling implicitly",
+        "because the target is outside `ref.current`"
+    ],
+    "docstrings": [
+        "* Registers global listener for all clicks. It will only call the `onClose` callback if the click\n * happened outside the `stackRef` element and its children regardless of the position in the stack.\n * This is useful for Tooltips or hierarchical menus.\n *\n * The `stackRef` should be the same as the one passed to `usePopupStack` or the `Popper` component\n * since `Popper` uses `usePopupStack` internally.\n * @param stackRef\n * @param onClose"
+    ],
+    "functions": [],
+    "classes": []
+}

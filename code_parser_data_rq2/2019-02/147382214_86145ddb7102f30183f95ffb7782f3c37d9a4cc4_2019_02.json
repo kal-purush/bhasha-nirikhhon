@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "Yup",
+        "Did",
+        "Encoder",
+        "DidDocument",
+        "encodedDidDocument",
+        "didMethodName",
+        "hashAlgorithmAsMultihashCode",
+        "Did",
+        "encodedDidDocument",
+        "didMethodName",
+        "hashAlgorithmAsMultihashCode",
+        "Encoder",
+        "encodedDidDocument",
+        "decodedJsonString",
+        "decodedDidDocument",
+        "DidDocument",
+        "decodedDidDocument",
+        "didDocument",
+        "did",
+        "didDocument",
+        "encodedOriginalDocument",
+        "allowedMaxSizeInBytes",
+        "Encoder",
+        "encodedOriginalDocument",
+        "allowedMaxSizeInBytes",
+        "originalDocumentBuffer",
+        "allowedMaxSizeInBytes",
+        "Yup",
+        "Yup",
+        "Yup",
+        "originalDocumentBuffer",
+        "documentSchema",
+        "originalDocument"
+    ],
+    "literals": [
+        "'yup'",
+        "'./Did'",
+        "'../Encoder'",
+        "'@decentralized-identity/did-common-typescript'",
+        "string",
+        "string",
+        "'placeholder'",
+        "string",
+        "'@context'",
+        "'https://w3id.org/did/v1'"
+    ],
+    "variables": [
+        "did",
+        "decodedJsonString",
+        "decodedDidDocument",
+        "didDocument",
+        "originalDocumentBuffer",
+        "documentSchema",
+        "originalDocument"
+    ],
+    "comments": [
+        "// Get the protocol version according to the transaction time to decide on the hashing algorithm used for the DID.",
+        "const protocol = getProtocol(transactionTime);",
+        "Compute the hash of the DID Document in the create payload as the DID",
+        "Decode the encoded DID Document.",
+        "Construct real DID document and return it.",
+        "NOTE: DidDocument class requires 'id' property, where as Sidetree original document does not.",
+        "So here we create a placeholder 'id' property before passing to DidDocument constructor.",
+        "Replace the placeholder DID with real DID before returning it.",
+        "Verify size of each operation does not exceed the maximum allowed limit.",
+        "Define the schema for the original document accepted by Sidetree.",
+        "The public key array must contain at least 1 value."
+    ],
+    "docstrings": [
+        "* Class containing reusable DID Document related operations specific to Sidetree.\n * NOTE: The class is intentionally named to disambiguate from the `DidDocument` class in '@decentralized-identity/did-common-typescript'.",
+        "* Creates a DID Document with a valid Sidetree DID from an encoded initial Sidetree DID document.",
+        "* Verifies that the given object is a valid encoded DID Document that can be accepted by the Sidetree create operation."
+    ],
+    "functions": [
+        "isValidOriginalDocument"
+    ],
+    "classes": [
+        "Document"
+    ]
+}

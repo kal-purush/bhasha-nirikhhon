@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "ISignal",
+        "args"
+    ],
+    "literals": [
+        "'use strict'",
+        "'phosphor-signaling'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "-----------------------------------------------------------------------------\n| Copyright (c) 2014-2015, PhosphorJS Contributors\n|\n| Distributed under the terms of the BSD 3-Clause License.\n|\n| The full license is in the file LICENSE, distributed with this software.\n|----------------------------------------------------------------------------"
+    ],
+    "docstrings": [
+        "* The interface required for the phosphor implementation \n * of the Command Pattern, as described here:\n * https://en.wikipedia.org/wiki/Command_pattern\n *",
+        "* A read-only unique identifier for this Command.\n   *\n   * `Namespaces` can be used with dot separators, eg.\n   * 'global.document.copy'.",
+        "* Called to invoke the command.",
+        "* A flag to determine whether this command is disabled\n   * or not.",
+        "* A signal fired when the disabled flag changes.\n   *",
+        "* A longer, more descriptive string."
+    ],
+    "functions": [],
+    "classes": []
+}

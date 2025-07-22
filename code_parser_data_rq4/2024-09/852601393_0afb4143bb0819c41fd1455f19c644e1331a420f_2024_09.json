@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "com",
+        "boot",
+        "ExceptionHandler",
+        "org",
+        "springframework",
+        "http",
+        "HttpStatus",
+        "org",
+        "springframework",
+        "ui",
+        "Model",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "ControllerAdvice",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "ExceptionHandler",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "ResponseStatus",
+        "ControllerAdvice",
+        "ExceptionHandler",
+        "ResponseStatus",
+        "HttpStatus",
+        "INTERNAL_SERVER_ERROR",
+        "ex",
+        "model",
+        "ExceptionHandler",
+        "ResponseStatus",
+        "HttpStatus",
+        "INTERNAL_SERVER_ERROR",
+        "ex",
+        "model"
+    ],
+    "literals": [
+        "\"common/error\"",
+        "\"common/error\""
+    ],
+    "variables": [],
+    "comments": [
+        "model.addAttribute(\"error\", ex.getMessage());",
+        "model.addAttribute(\"error\", ex.getMessage());"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handleException",
+        "handleIllegalArgumentException"
+    ],
+    "classes": [
+        "GlobalExceptionHandler"
+    ]
+}

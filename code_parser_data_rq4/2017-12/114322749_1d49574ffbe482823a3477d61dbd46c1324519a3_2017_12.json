@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "obj",
+        "obj",
+        "DS",
+        "obj",
+        "DS",
+        "DS",
+        "obj",
+        "exports",
+        "exports",
+        "exports",
+        "DS",
+        "exports",
+        "DS",
+        "root",
+        "DS",
+        "DS"
+    ],
+    "literals": [
+        "'object'",
+        "'object'",
+        "'undefined'",
+        "'undefined'",
+        "'1.0.0'"
+    ],
+    "variables": [
+        "root",
+        "DS"
+    ],
+    "comments": [
+        "DScript.js 1.0.0\n*     (c) 2017 Deepak Ranjan Jena, Frontend Atchitect\n*     DScript may be freely distributed under the MIT license.",
+        "Establish the root object, `window` (`self`) in the browser, `global`",
+        "on the server, or `this` in some virtual machines. We use `self`",
+        "instead of `window` for `WebWorker` support.",
+        "Create a safe reference to the DScript object for use below.",
+        "Export the DScript object for **Node.js**, with",
+        "backwards-compatibility for their old module API. If we're in",
+        "the browser, add `DS` as a global object.",
+        "(`nodeType` is checked to ensure that `module`",
+        "and `exports` are not HTML elements.)",
+        "Current version."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "org",
+        "infinispan",
+        "persistence",
+        "remote",
+        "org",
+        "kohsuke",
+        "MetaInfServices",
+        "reactor",
+        "blockhound",
+        "BlockHound",
+        "reactor",
+        "blockhound",
+        "integration",
+        "BlockHoundIntegration",
+        "MetaInfServices",
+        "Override",
+        "builder",
+        "builder",
+        "allowBlockingCallsInside"
+    ],
+    "literals": [
+        "\"org.infinispan.client.hotrod.impl.transport.netty.ChannelInitializer\"",
+        "\"initSsl\""
+    ],
+    "variables": [],
+    "comments": [
+        "TODO: this needs to be moved to the client hotrod module when it adds BlockHound"
+    ],
+    "docstrings": [],
+    "functions": [
+        "applyTo"
+    ],
+    "classes": [
+        "RemoteStoreBlockHoundIntegration"
+    ]
+}

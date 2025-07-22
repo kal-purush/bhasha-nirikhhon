@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "selected",
+        "styled",
+        "styled",
+        "styled",
+        "styled"
+    ],
+    "literals": [
+        "'styled-components'",
+        "position: fixed;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background-color: rgba(0, 0, 0, 0.5);\n  display: flex;\n  justify-content: center;\n  align-items: center;",
+        "/* border: 1px solid black; */\n  /* background-color: yellow; */\n  /* background-color: transparent; */\n  display: flex;\n  flex-direction: column;\n  width: 95vw;\n  max-width: 1500px;\n  max-height: 1200px; /* 반응형 높이 */\n  align-items: center;",
+        "/* padding: 0 15px; */\n  display: flex;\n  justify-content: flex-end;\n  align-items: center;\n  height: 40px; \n  width: 100%;\n  background-color: #f0f0f0;\n  border-top-left-radius: 50px;\n  border-top-right-radius: 50px;\n  cursor: move; /* 드래그 가능하도록 커서 변경 */\n\n  button{\n  border: none;\n  background-color: transparent;\n  margin-right: 20px;\n  font-size: 25px;\n}",
+        "height: 120px; /* 비율에 따른 높이 */\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background-color: #f0f0f0;\n  border-radius: 0 0 50px 50px;",
+        "width: 80px;\n  height: 80px;\n  border-radius: 50%;\n  background-color: #554E4E;\n  background-image: url('../assets/Logo_Smile.png');\n  border: none;\n  cursor: pointer;\n\n  color: white;\n  font-size: 16px;",
+        "/// 카메라 창과 바텀 바를 연결\n  display: flex;\n  flex-direction: row;\n  width: 100%;\n  height: 57vw;\n  max-height: 900px;\n  justify-content: center;",
+        "flex: 1;\n  display: flex;\n  width: 76vw;\n  height: 57vw;\n  max-height: 900px;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  h3 {\n    position: absolute;\n    top: 100px;\n    color: white;\n    margin: 0;\n  }",
+        "display: flex;\n  flex-direction: column;\n  justify-content: space-between;\n  align-items: center;\n  width: 17vw;\n  height: 57vw;\n  max-height: 900px;\n  background-color: rgba(0, 0, 0, 0.5);\n  padding: 20px;\n  \n  #btn_wapper{\n    display: flex;\n    flex-direction: column;\n  }",
+        "width: 16vw;\n  margin: 10px 0;\n  padding: 10px;\n  background-color: ${({ selected }) => (selected ? '#FFD700' : '#f0f0f0')};\n  border: none;\n  border-radius: 5px;\n  cursor: pointer;",
+        "'#FFD700'",
+        "'#f0f0f0'",
+        "position: relative;\n    width: 12vw;\n    bottom: 50px;\n\n  img {\n    width: 12vw;\n    height: auto;\n    border: 4px solid #8181F7;\n    border-radius: 5px;\n    }",
+        "position: absolute;\n  top: -12px;\n  right: -21px;\n  background-color: #8181F7;\n  color: white;\n  border-radius: 50%;\n  width: 35px;\n  height: 35px;\n  display: flex;\n  justify-content: center;\n  align-items: center;",
+        "margin-left: 10px;\n  background: none;\n  border: none;\n  font-size: 1.2em;\n  cursor: pointer;",
+        "display: flex;\n  width: 100%;\n  height: 57vw; /* 비율에 따른 높이 */\n  background-color: white;\n  position: relative;"
+    ],
+    "variables": [
+        "ModalBackground",
+        "ModalContent",
+        "TopBar",
+        "BottomBar",
+        "CaptureButton",
+        "Snap_Container",
+        "CameraView",
+        "RightPanel",
+        "EmotionButton",
+        "Thumbnail",
+        "Thumbnail_Count",
+        "Button",
+        "CameraContainer"
+    ],
+    "comments": [
+        "포토스냅모달",
+        "포토스냅(모달창 칠드런)",
+        ""
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

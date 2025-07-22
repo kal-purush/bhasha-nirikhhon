@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "re",
+        "attr",
+        "mozilla_version",
+        "parser",
+        "positive_int_or_none",
+        "version",
+        "ShipItVersion",
+        "attr",
+        "s",
+        "frozen",
+        "eq",
+        "hash",
+        "ShipItVersion",
+        "attr",
+        "ib",
+        "converter",
+        "positive_int_or_none",
+        "re",
+        "compile",
+        "re",
+        "VERBOSE",
+        "ShipItVersion",
+        "_MANDATORY_NUMBERS",
+        "_OPTIONAL_NUMBERS",
+        "major_number",
+        "minor_number",
+        "beta_number",
+        "version",
+        "beta_number",
+        "version",
+        "field",
+        "field",
+        "_create_bump_kwargs",
+        "field",
+        "field",
+        "kwargs",
+        "kwargs",
+        "property",
+        "beta_number",
+        "property"
+    ],
+    "literals": [
+        "r\"\"\"\n        ^(?P<major_number>\\d+)\n        \\.(?P<minor_number>\\d+)\n        (\\.(?P<beta_number>\\d+))?$\"\"\"",
+        "\"beta_number\"",
+        "f\"{self.major_number}.{self.minor_number}\"",
+        "f\".{self.beta_number}\"",
+        "\"patch_number\"",
+        "\"minor_number\"",
+        "\"beta_number\"",
+        "\"beta_number\""
+    ],
+    "variables": [
+        "beta_number",
+        "_VALID_ENOUGH_VERSION_PATTERN",
+        "_OPTIONAL_NUMBERS",
+        "_ALL_NUMBERS",
+        "version",
+        "field",
+        "kwargs"
+    ],
+    "comments": [
+        "If we get a bump request for anything but the beta number, remove it"
+    ],
+    "docstrings": [
+        "\"\"\"Defines the characteristics of an iOS version number.\"\"\"",
+        "\"\"\"\n    Class representing an iOS version number.\n\n    iOS version numbers are a bit different in that they use the patch number as beta\n    indicator instead since appstoreconnect doesn't allow us to ship versions with a `b`\n    suffix in it.\n    \"\"\"",
+        "\"\"\"\n        Format the version as a string.\n\n        Because iOS is different, the format is \"major.minor(.beta)\".\n        \"\"\"",
+        "\"\"\"\n        Create a version bump for the required field.\n\n        Version bumping is a bit different for iOS as we don't have a patch number\n        despite shipit expecting one. So when asked to bump the patch version, we bump\n        the minor instead.\n        \"\"\"",
+        "\"\"\"Returns true if the version is considered a beta one.\"\"\"",
+        "\"\"\"\n        Returns true if the version is a release candidate.\n\n        For iOS versions, this is always false.\n        \"\"\""
+    ],
+    "functions": [
+        "__str__",
+        "_create_bump_kwargs",
+        "is_beta",
+        "is_release_candidate"
+    ],
+    "classes": [
+        "MobileIosVersion"
+    ]
+}

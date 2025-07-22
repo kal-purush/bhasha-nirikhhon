@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "DumperImpl",
+        "Interfaces",
+        "DLogConnection",
+        "java",
+        "io",
+        "DataOutputStream",
+        "java",
+        "io",
+        "java",
+        "net",
+        "Socket",
+        "socket",
+        "host",
+        "port",
+        "host",
+        "port",
+        "host",
+        "host",
+        "port",
+        "port",
+        "Override",
+        "socket",
+        "host",
+        "port",
+        "e",
+        "Override",
+        "socket",
+        "close",
+        "e",
+        "Override",
+        "message",
+        "socket",
+        "isConnectionSuccessFul",
+        "createConnection",
+        "isConnectionSuccessFul",
+        "dataOutputStream",
+        "socket",
+        "getOutputStream",
+        "dataOutputStream",
+        "writeUTF",
+        "message",
+        "e"
+    ],
+    "literals": [
+        "\"Couldn't Connect to Server\"",
+        "\"Couldn't Send Message\""
+    ],
+    "variables": [
+        "host",
+        "port"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* TCP Server Connection for Sending Message",
+        "* Instantiates the server details.\n     * @param host The server host\n     * @param port The port the server is running on",
+        "* Creates the TCP connection.\n     * @return true on success",
+        "* Removes the connection.\n     * @return",
+        "* Sends the message over TCP to the LogDumper Server\n     * @param message The translated message to be sent\n     * @throws IOException on send/connection error"
+    ],
+    "functions": [
+        "DefaultLogConnection",
+        "createConnection",
+        "removeConnection",
+        "sendMessage"
+    ],
+    "classes": [
+        "DefaultLogConnection"
+    ]
+}

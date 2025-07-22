@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "net",
+        "conjur",
+        "api",
+        "AuthnProvider",
+        "useCachedToken"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "TODO orenbm: Do we need this?"
+    ],
+    "docstrings": [
+        "* Copyright 2018 XEBIALABS\n *\n * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n *\n * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n *\n * THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.",
+        "* Provides Conjur authentication tokens.",
+        "* Return an authentication token.  This method should be equivalent to {@code authenticate(true)}\n     * if the implementation supports token caching.\n     * @return a Conjur authentication token",
+        "* Return an authentication token.  If the implementation supports token caching\n     * and useCachedToken is true, it should return a cached token if a valid (non-expired)\n     * one is available.  If useCachedToken is false, it should always fetch a fresh token from\n     * the Conjur authn service.\n     *\n     * @param useCachedToken whether to use a cached token.\n     * @return a Conjur authentication token"
+    ],
+    "functions": [
+        "Token",
+        "authenticate",
+        "Token",
+        "authenticate"
+    ],
+    "classes": []
+}

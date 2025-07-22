@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "pt",
+        "webdetails",
+        "cdc",
+        "listeners",
+        "org",
+        "apache",
+        "commons",
+        "logging",
+        "Log",
+        "org",
+        "apache",
+        "commons",
+        "logging",
+        "LogFactory",
+        "org",
+        "springframework",
+        "context",
+        "ApplicationEvent",
+        "org",
+        "springframework",
+        "context",
+        "ApplicationListener",
+        "org",
+        "springframework",
+        "core",
+        "Ordered",
+        "com",
+        "hazelcast",
+        "core",
+        "Hazelcast",
+        "logger",
+        "LogFactory",
+        "getLog",
+        "order",
+        "Ordered",
+        "LOWEST_PRECEDENCE",
+        "Override",
+        "logger",
+        "info",
+        "Hazelcast",
+        "shutdownAll",
+        "Override",
+        "order"
+    ],
+    "literals": [
+        "\"Shutdown ALL local Hazelcast instances!!\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2002 - 2014 Webdetails, a Pentaho company.  All rights reserved.\n*\n* This software was developed by Webdetails and is provided under the terms\n* of the Mozilla Public License, Version 2.0, or any later version. You may not use\n* this file except in compliance with the license. If you need a copy of the license,\n* please go to  http://mozilla.org/MPL/2.0/. The Initial Developer is Webdetails.\n*\n* Software distributed under the Mozilla Public License is distributed on an \"AS IS\"\n* basis, WITHOUT WARRANTY OF ANY KIND, either express or  implied. Please refer to\n* the license for the specific language governing your rights and limitations.",
+        "* This class is needed only as a workaround solution while BISERVER-12931 is not fixed. Once BISERVER-12931 is fixed\n * you can remove this class. When ContextClosedEvent which happens on shutdown is caught, the CdcShutdownListener will\n * shut down all hazelcast instances running on the same JVM.\n * \n * @author Joao L. M. Pereira (Joao.Pereira{[at]}pentaho.com)\n * @version 1.0"
+    ],
+    "functions": [
+        "onApplicationEvent",
+        "getOrder"
+    ],
+    "classes": [
+        "CdcShutdownListener"
+    ]
+}

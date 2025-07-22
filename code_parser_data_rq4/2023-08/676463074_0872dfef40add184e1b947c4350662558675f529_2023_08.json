@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "gql",
+        "QueryLazyOptions",
+        "useLazyQuery",
+        "useDispatch",
+        "UserProfileSetType",
+        "gql",
+        "options",
+        "useRefreshReduxMe",
+        "useLazyQuery",
+        "Me",
+        "useDispatch",
+        "deleteMe",
+        "reduxDispatcher",
+        "UserProfileSetType",
+        "updateMe",
+        "data",
+        "data",
+        "data",
+        "reduxDispatcher",
+        "UserProfileSetType",
+        "data",
+        "useRefreshReduxMe"
+    ],
+    "literals": [
+        "\"@apollo/client\"",
+        "\"react-redux\"",
+        "\"../store/user/Reducer\"",
+        "query me {\n    me {\n      ... on EntityResult {\n        messages\n      }\n      ... on User {\n        id\n        userName\n        threads {\n          id\n          title\n        }\n        threadItems {\n          id\n          thread {\n            id\n          }\n          body\n        }\n      }\n    }\n  }",
+        "string"
+    ],
+    "variables": [
+        "Me",
+        "useRefreshReduxMe",
+        "execMe",
+        "reduxDispatcher",
+        "deleteMe",
+        "updateMe"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

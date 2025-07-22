@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "typing",
+        "Any",
+        "typing",
+        "first",
+        "Any",
+        "second",
+        "Any",
+        "first",
+        "Any",
+        "second",
+        "Any",
+        "first",
+        "Any",
+        "second",
+        "Any",
+        "first_value",
+        "second_value",
+        "first_value",
+        "Any",
+        "second_value",
+        "Any",
+        "word",
+        "text",
+        "data",
+        "data"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nThis is a list of functions that should be completed.\n\"\"\"",
+        "\"\"\"\n    If @first and @second has same value should return True\n    In another case should return False\n    \"\"\"",
+        "\"\"\"\n    If @first and @second has same type should return True\n    In another case should return False\n    \"\"\"",
+        "\"\"\"\n    If @first and @second has same type should return True\n    In another case should return False\n    \"\"\"",
+        "\"\"\"\n    Should calculate product of all args.\n    if first_value or second_value is not int should raise ValueError\n\n    Raises:\n        ValueError\n\n    Params:\n        first_value: value for multiply\n        second_value\n    Returns:\n        Product of elements\n    \"\"\"",
+        "\"\"\"\n    If possible to convert arguments to int value - convert and multiply them.\n    If it is impossible raise ValueError\n\n    Args:\n        first_value: number for multiply\n        second_value: number for multiply\n\n    Raises:\n        ValueError\n\n    Returns: multiple of two numbers.\n\n    Examples:\n        multiple_ints_with_conversion(6, 6)\n        >>> 36\n        multiple_ints_with_conversion(2, 2.0)\n        >>> 4\n        multiple_ints_with_conversion(\"12\", 1)\n        >>> 12\n        try:\n            multiple_ints_with_conversion(\"Hello\", 2)\n        except ValueError:\n            print(\"Not valid input data\")\n        >>> \"Not valid input data\"\n    \"\"\"",
+        "\"\"\"\n    If text contain word return True\n    In another case return False.\n\n    Args:\n        word: Searchable substring\n        text: Text for searching\n\n    Examples:\n        is_word_in_text(\"Hello\", \"Hello word\")\n        >>> True\n        is_word_in_text(\"Glad\", \"Nice to meet you \")\n        >>> False\n\n    \"\"\"",
+        "\"\"\"\n    Use loop to create list that contain int values from 0 to 12 except 6 and 7\n    \"\"\"",
+        "\"\"\"\n    Use loops to solve this task.\n    You could use data.remove(negative_number) to solve this issue.\n    Also you could create new list with only positive numbers.\n    Examples:\n        remove_from_list_all_negative_numbers([1, 5, -7, 8, -1])\n        >>> [1, 5, 8]\n    \"\"\"",
+        "\"\"\"\n    Create dict which keys is alphabetic characters. And values their number in alphabet\n    Notes You could see an implementaion of this one in test, but create another one\n    Examples:\n        alphabet()\n        >>> {\"a\": 1, \"b\": 2 ...}\n    \"\"\"",
+        "\"\"\"\n    Sort list of ints without using built-in methods.\n    Examples:\n        simple_sort([2, 9, 6, 7, 3, 2, 1])\n        >>> [1, 2, 2, 3, 6, 7, 9]\n    Returns:\n\n    \"\"\""
+    ],
+    "functions": [
+        "is_two_object_has_same_value",
+        "is_two_objects_has_same_type",
+        "is_two_objects_is_the_same_objects",
+        "multiple_ints",
+        "multiple_ints_with_conversion",
+        "is_word_in_text",
+        "some_loop_exercise",
+        "remove_from_list_all_negative_numbers",
+        "alphabet",
+        "simple_sort"
+    ],
+    "classes": [
+        "OurAwesomeException"
+    ]
+}

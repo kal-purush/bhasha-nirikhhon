@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Vue",
+        "AOS",
+        "Vue",
+        "AOS"
+    ],
+    "literals": [
+        "'vue'",
+        "\"aos\"",
+        "\"aos/dist/aos.css\"",
+        "'DOMContentLoaded'",
+        "'aos-init'",
+        "'aos-animate'",
+        "'ease-in-out'",
+        "'top-bottom'"
+    ],
+    "variables": [],
+    "comments": [
+        "Global settings:",
+        "accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function",
+        "name of the event dispatched on the document, that AOS should initialize on",
+        "class applied after initialization",
+        "class applied on animation",
+        "if true, will add content of `data-aos` as classes on scroll",
+        "disables automatic mutations' detections (advanced)",
+        "the delay on debounce used while resizing window (advanced)",
+        "the delay on throttle used while scrolling the page (advanced)",
+        "Settings that can be overridden on per-element basis, by `data-aos-*` attributes:",
+        "offset (in px) from the original trigger point",
+        "values from 0 to 3000, with step 50ms",
+        "values from 0 to 3000, with step 50ms",
+        "default easing for AOS animations",
+        "whether animation should happen only once - while scrolling down",
+        "whether elements should animate out while scrolling past them",
+        "defines which position of the element regarding to window should trigger the animation",
+        "https://github.com/michalsnik/aos#animations"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

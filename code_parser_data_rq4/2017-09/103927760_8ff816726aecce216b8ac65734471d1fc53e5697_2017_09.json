@@ -1,0 +1,88 @@
+{
+    "identifiers": [
+        "com",
+        "github",
+        "zzfluke",
+        "persistance",
+        "config",
+        "org",
+        "h2",
+        "tools",
+        "Server",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Value",
+        "org",
+        "springframework",
+        "boot",
+        "autoconfigure",
+        "condition",
+        "ConditionalOnExpression",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Bean",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Configuration",
+        "java",
+        "sql",
+        "SQLException",
+        "Configuration",
+        "Value",
+        "h2TcpPort",
+        "Value",
+        "h2WebPort",
+        "Bean",
+        "ConditionalOnExpression",
+        "Server",
+        "createTcpServer",
+        "h2TcpPort",
+        "start",
+        "Bean",
+        "ConditionalOnExpression",
+        "Server",
+        "createWebServer",
+        "h2WebPort",
+        "start"
+    ],
+    "literals": [
+        "\"${h2.tcp.port:9092}\"",
+        "\"${h2.web.port:8082}\"",
+        "\"${h2.tcp.enabled:true}\"",
+        "\"-tcp\"",
+        "\"-tcpAllowOthers\"",
+        "\"-tcpPort\"",
+        "\"${h2.web.enabled:true}\"",
+        "\"-web\"",
+        "\"-webAllowOthers\"",
+        "\"-webPort\""
+    ],
+    "variables": [
+        "h2TcpPort",
+        "h2WebPort"
+    ],
+    "comments": [
+        "TCP port for remote connections, default 9092",
+        "Web port, default 8082"
+    ],
+    "docstrings": [
+        "* TCP connection to connect with SQL clients to the embedded h2 database.\n     * <p>\n     * Connect to \"jdbc:h2:tcp://localhost:9092/mem:testdb\", username \"sa\", password empty.",
+        "* Web console for the embedded h2 database.\n     * <p>\n     * Go to http://localhost:8082 and connect to the database \"jdbc:h2:mem:testdb\", username \"sa\", password empty."
+    ],
+    "functions": [
+        "Server",
+        "h2TcpServer",
+        "Server",
+        "h2WebServer"
+    ],
+    "classes": [
+        "H2ServerConfiguration"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "React",
+        "graphql",
+        "Layout",
+        "data",
+        "Layout",
+        "h1",
+        "post",
+        "h1",
+        "div",
+        "post",
+        "Layout",
+        "graphql"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"gatsby\"",
+        "'../components/layout'",
+        "query($slug: String!) {\n        markdownRemark(fields: { slug: {eq: $slug}}) {\n            html\n            frontmatter {\n                title\n            }\n        }\n    }"
+    ],
+    "variables": [
+        "post",
+        "query"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

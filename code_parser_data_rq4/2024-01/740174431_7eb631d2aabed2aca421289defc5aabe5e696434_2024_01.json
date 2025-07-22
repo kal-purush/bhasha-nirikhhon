@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "a",
+        "b",
+        "resolve",
+        "reject",
+        "setTimeout",
+        "resolve",
+        "c",
+        "callMe",
+        "a",
+        "one",
+        "b",
+        "two",
+        "c",
+        "three",
+        "callMe"
+    ],
+    "literals": [
+        "I am A",
+        "I am B",
+        "I am C"
+    ],
+    "variables": [
+        "a",
+        "b",
+        "c",
+        "callMe",
+        "one",
+        "two",
+        "three"
+    ],
+    "comments": [
+        "const b = () => {\n    setTimeout(() => {\n        return `Run after 3s`;\n    }, 3000)\n    return `I am B`;\n}",
+        "i want c to execute when the execution of b is done",
+        "--> we can do that by async",
+        "a();",
+        "c();",
+        "b();"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "Dbosoft",
+        "OVN",
+        "OSCommands",
+        "Dbosoft",
+        "OVN",
+        "ISystemEnvironment",
+        "processId",
+        "serviceName"
+    ],
+    "literals": [],
+    "variables": [
+        "IFileSystem",
+        "FileSystem"
+    ],
+    "comments": [
+        "Abstraction of the operating system.",
+        "</summary>",
+        "Provides an abstraction of the file system.",
+        "</summary>",
+        "Creates a new process or attaches to an existing",
+        "process when the <paramref name=\"processId\"/> is",
+        "not <c>0</c>.",
+        "</summary>",
+        "Returns a service manager for the service with",
+        "the given <paramref name=\"serviceName\"/>.",
+        "</summary>",
+        "Returns an OVS extension manager which can be used",
+        "to check the availability of the OVS kernel extensions.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IProcess",
+        "CreateProcess",
+        "IServiceManager",
+        "GetServiceManager",
+        "IOvsExtensionManager",
+        "GetOvsExtensionManager"
+    ],
+    "classes": []
+}

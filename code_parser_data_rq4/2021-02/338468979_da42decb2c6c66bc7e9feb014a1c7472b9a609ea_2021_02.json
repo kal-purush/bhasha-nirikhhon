@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "aws_cdk",
+        "core",
+        "aws_lambda",
+        "aws_dynamodb",
+        "core",
+        "Construct",
+        "property",
+        "_handler",
+        "property",
+        "_table",
+        "scope",
+        "core",
+        "Construct",
+        "id",
+        "downstream",
+        "aws_lambda",
+        "IFunction",
+        "kwargs",
+        "scope",
+        "id",
+        "kwargs",
+        "aws_dynamodb",
+        "Table",
+        "partition_key",
+        "aws_dynamodb",
+        "AttributeType",
+        "STRING",
+        "removal_policy",
+        "core",
+        "RemovalPolicy",
+        "DESTROY",
+        "aws_lambda",
+        "runtime",
+        "aws_lambda",
+        "Runtime",
+        "PYTHON_3_7",
+        "handler",
+        "code",
+        "aws_lambda",
+        "Code",
+        "asset",
+        "environment",
+        "downstream",
+        "function_name",
+        "_table",
+        "table_name",
+        "_table",
+        "grant_read_write_data",
+        "handler",
+        "downstream",
+        "grant_invoke",
+        "handler"
+    ],
+    "literals": [
+        "'Hits'",
+        "'name'",
+        "'path'",
+        "'type'",
+        "'HitCounterHandler'",
+        "'hitcount.handler'",
+        "'lambda'",
+        "'DOWNSTREAM_FUNCTION_NAME'",
+        "'HITS_TABLE_NAME'"
+    ],
+    "variables": [
+        "_table",
+        "_handler"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\nWhat’s going on here?\nWe declared a new construct class called HitCounter.\nAs usual, constructor arguments are scope, id and kwargs, and we propagate them to the cdk.Construct base class.\nThe HitCounter class also takes one explicit keyword parameter downstream of type lambda.IFunction.\n This is where we are going to “plug in” the Lambda function we created in the previous chapter \n so it can be hit-counted.\n'''",
+        "'''\nWhat did we do here?\nThis code is hopefully quite easy to understand:\n\nWe defined a DynamoDB table with path as the partition key (every DynamoDB table must have a single partition key).\nWe defined a Lambda function which is bound to the lambda/hitcount.handler code.\nWe wired the Lambda’s environment variables to the function_name and table_name of our resources.\n'''"
+    ],
+    "functions": [
+        "handler",
+        "table"
+    ],
+    "classes": [
+        "HitCounter"
+    ]
+}

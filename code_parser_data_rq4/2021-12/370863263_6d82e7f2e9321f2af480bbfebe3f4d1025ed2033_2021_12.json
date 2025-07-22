@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "Client",
+        "client",
+        "fs",
+        "client",
+        "pdfData",
+        "fs",
+        "client",
+        "imgData",
+        "client",
+        "res",
+        "client",
+        "loadFile"
+    ],
+    "literals": [
+        "'fs'",
+        "'pg'",
+        "''",
+        "''",
+        "'./postgresql-14-US.pdf'",
+        "'INSERT INTO images VALUES($1, $2)'",
+        "'postgresql-14-US'",
+        "'../src/img/image-panel.png'",
+        "'INSERT INTO images VALUES($1, $2)'",
+        "'image-panel'",
+        "'Select count(1) from images'",
+        "'SELECT Result'"
+    ],
+    "variables": [
+        "fs",
+        "client",
+        "pdfData",
+        "imgData",
+        "res"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Connect to Postgres",
+        "* Load PDF to Postgres",
+        "* Load Image to Postgres",
+        "* Check number of records",
+        "* End Session"
+    ],
+    "functions": [
+        "loadFile"
+    ],
+    "classes": []
+}

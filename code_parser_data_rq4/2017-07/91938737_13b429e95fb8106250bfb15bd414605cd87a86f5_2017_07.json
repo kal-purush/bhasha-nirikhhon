@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "subtotal",
+        "animal",
+        "emotion",
+        "n",
+        "array",
+        "bucketOfSloths"
+    ],
+    "literals": [
+        "\"Furry\"",
+        "\"Danger\"",
+        "\"Assassin\"",
+        "\"Slow\"",
+        "\"Pumpkin\"",
+        "\"Bullet\"",
+        "\"Proof\"",
+        "\"Sloth\"",
+        "\"Boos\"",
+        "\"Boos\"",
+        "\"Bun\"",
+        "\"Jungle\"",
+        "\"Fuzz\""
+    ],
+    "variables": [
+        "bucketOfSloths"
+    ],
+    "comments": [
+        "A restuarnt adds to the original cost of any bill:",
+        "8 % tax",
+        "20 % tip",
+        "write a function called billTotal that takes the bill cost as an input and returns the total bill amount (including the tax and the tips) as an output",
+        "your code is here",
+        "write a function called animalNoise that takes two arguments, the animal name and its emotion, and returns",
+        "a string of that animal sound according to its emotion, note: No limits for the way you would like to represent the sound of an animal.",
+        "consider at least three animals with two emotions each.",
+        "ex : animalNoise('cat', 'sad')  // ===> 'meawww'",
+        "your code is here",
+        "write a function called factorial ,",
+        "that takes a number as an input and returns the factorail of that number as an output (using recursion).",
+        "factorial(3); // => 3 * 2 * 1 => 6",
+        "factorial(4); // => 4 * 3 * 2 * 1 => 24",
+        "factorial(5); // => 5 * 4 * 3 * 2 * 1 => 120",
+        "your code is here",
+        "write a function called addOne that takes an array of numbers as an input, and returns a new array with all the array elements incremented by one as an output",
+        "Note : solve this question using while loop",
+        "addOne( [1,2,3,4] ) ==> [2,3,4,5]",
+        "addOne( [3,6,9] ) ==> [4,7,10]",
+        "your code is here",
+        "Use JS to represent 2 people in your family. Please include the below:\n  - Name\n  - Relationship to you\n  - Age\n  - Occupation",
+        "write a function called longestName, that takes an array as an input (in this case its bucketOfSloths array)",
+        "and returns the sloth with the longest name in that array",
+        "Note that: the longest name is not only the first name, its first, middle and last name compined.",
+        "your code is here"
+    ],
+    "docstrings": [],
+    "functions": [
+        "billTotal",
+        "animalNoise",
+        "factorial",
+        "addOne",
+        "longestName"
+    ],
+    "classes": []
+}

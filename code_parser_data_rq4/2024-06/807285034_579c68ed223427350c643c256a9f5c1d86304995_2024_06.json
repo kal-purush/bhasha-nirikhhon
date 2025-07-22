@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "MailerService",
+        "Injectable",
+        "ConfigService",
+        "SendUserConfirmationDto",
+        "Injectable",
+        "mailerService",
+        "configService",
+        "sendUserConfirmationDto",
+        "name",
+        "baseUrl",
+        "token",
+        "email"
+    ],
+    "literals": [
+        "'@nestjs-modules/mailer'",
+        "'@nestjs/common'",
+        "'@nestjs/config'",
+        "'./dto'",
+        "'FRONT_END_HOST'",
+        "Bienvenido ${name}",
+        "'BarberHub'",
+        "${baseUrl}?token=${token}",
+        "'https://res.cloudinary.com/dvzycdk7y/image/upload/v1717911007/barber-hub/logo/cj2ghikqwbc3wnyo0kt8.png'",
+        "'./confirmation'"
+    ],
+    "variables": [
+        "sendUserConfirmationDto",
+        "baseUrl",
+        "subject",
+        "appName",
+        "url",
+        "logo"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "sendUserConfirmation"
+    ],
+    "classes": [
+        "EmailService"
+    ]
+}

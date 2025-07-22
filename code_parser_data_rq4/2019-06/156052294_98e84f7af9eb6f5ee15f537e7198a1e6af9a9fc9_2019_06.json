@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "defer",
+        "data",
+        "defer",
+        "data",
+        "errorObject",
+        "defer",
+        "errorObject"
+    ],
+    "literals": [
+        "'rxjs'"
+    ],
+    "variables": [],
+    "comments": [
+        "Create async observable that emits-once and completes\n *  after a JS engine turn",
+        "Create async observable error that errors\n *  after a JS engine turn",
+        "Copyright Google LLC. All Rights Reserved.\nUse of this source code is governed by an MIT-style license that\ncan be found in the LICENSE file at http://angular.io/license"
+    ],
+    "docstrings": [
+        "* Mock async observables that return asynchronously.\n* The observable either emits once and completes or errors.\n*\n* Must call `tick()` when test with `fakeAsync()`.\n*\n* THE FOLLOWING DON'T WORK\n* Using `of().delay()` triggers TestBed errors;\n* see https://github.com/angular/angular/issues/10127 .\n*\n* Using `asap` scheduler - as in `of(value, asap)` - doesn't work either."
+    ],
+    "functions": [
+        "asyncData",
+        "asyncError"
+    ],
+    "classes": []
+}

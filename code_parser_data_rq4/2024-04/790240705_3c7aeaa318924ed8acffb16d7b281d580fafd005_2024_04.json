@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "asyncio",
+        "time",
+        "__import__",
+        "async_comprehension",
+        "time",
+        "time",
+        "i",
+        "tasks",
+        "append",
+        "asyncio",
+        "create_task",
+        "async_comprehension",
+        "asyncio",
+        "gather",
+        "tasks",
+        "time",
+        "time",
+        "end_time",
+        "start_time"
+    ],
+    "literals": [
+        "'1-async_comprehension'"
+    ],
+    "variables": [
+        "async_comprehension",
+        "tasks",
+        "start_time",
+        "end_time"
+    ],
+    "comments": [
+        "!/usr/bin/env python3"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Import async_generator from the previous task and then write a coroutine\n    called async_comprehension that takes no arguments.\n    The coroutine will collect 10 random numbers using an async comprehensing\n    over async_generator, then return the 10 random numbers.\n\"\"\"",
+        "\"\"\" measures the runtime of executing async_comprehension() concurrently 4 times \"\"\""
+    ],
+    "functions": [
+        "measure_runtime"
+    ],
+    "classes": []
+}

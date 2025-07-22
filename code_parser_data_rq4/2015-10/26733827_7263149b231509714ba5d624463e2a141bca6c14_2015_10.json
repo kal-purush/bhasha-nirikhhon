@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "flash",
+        "Flash",
+        "logging",
+        "Flash",
+        "target",
+        "Flash_nrf52",
+        "target",
+        "flash_algo"
+    ],
+    "literals": [
+        "'load_address'",
+        "'instructions'",
+        "'pc_init'",
+        "'pc_eraseAll'",
+        "'pc_erase_sector'",
+        "'pc_program_page'",
+        "'begin_data'",
+        "'page_buffers'",
+        "'begin_stack'",
+        "'static_base'",
+        "'min_program_length'",
+        "'analyzer_supported'",
+        "'analyzer_address'"
+    ],
+    "variables": [
+        "flash_algo"
+    ],
+    "comments": [
+        "Analyzer uses a max of 0.5 KB data (128 pages * 4 bytes / page)",
+        "Enable double buffering",
+        "Analyzer 0x20004000..0x20004600"
+    ],
+    "docstrings": [
+        "\"\"\"\n mbed CMSIS-DAP debugger\n Copyright (c) 2006-2015 ARM Limited\n\n Licensed under the Apache License, Version 2.0 (the \"License\");\n you may not use this file except in compliance with the License.\n You may obtain a copy of the License at\n\n     http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.\n\"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "Flash_nrf52"
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "fs",
+        "path",
+        "matter",
+        "path",
+        "process",
+        "fs",
+        "postsDirectory",
+        "fileNames",
+        "fileName",
+        "fileName",
+        "path",
+        "postsDirectory",
+        "fileName",
+        "matter",
+        "fullPath",
+        "matterResult",
+        "allPostsData",
+        "a",
+        "b",
+        "a",
+        "b"
+    ],
+    "literals": [
+        "\"fs\"",
+        "\"path\"",
+        "\"gray-matter\"",
+        "\"posts\"",
+        "string",
+        "\"\""
+    ],
+    "variables": [
+        "postsDirectory",
+        "fileNames",
+        "allPostsData",
+        "id",
+        "fullPath",
+        "matterResult"
+    ],
+    "comments": [
+        "Get file names under /posts",
+        "Remove \".md\" from file name to get id",
+        "Read markdown file as string",
+        "const fileContents = fs.readFileSync(fullPath, \"utf8\")",
+        "Use gray-matter to parse the post metadata section",
+        "Combine the data with the id",
+        "Sort posts by date"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getSortedPostsData"
+    ],
+    "classes": []
+}

@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "NextApiRequest",
+        "NextApiResponse",
+        "request",
+        "response",
+        "request",
+        "Buffer",
+        "hash",
+        "response",
+        "script",
+        "yaml",
+        "yaml",
+        "yaml"
+    ],
+    "literals": [
+        "'next'",
+        "string",
+        "'base64'",
+        "'ascii'",
+        "#!/bin/bash\n# Theme Configuration\nreadonly THEME_NAME=\"%THEME_NAME%\"\nreadonly THEME_CONTENT='%THEME_INPUT%'\n# Warp Variables\nreadonly WARP_THEME_DIR=\"$HOME/.warp/themes\"\n# Colors\nGREEN_BOLD=\"\\\\033[1;32m\"\nRESET=\"\\\\033[0m\"\nYELLOW=\"\\\\033[1;33m\"\nRED_BOLD=\"\\\\033[1;31m\"\nBLUE_BOLD=\"\\\\033[1;34m\"\nprintf \"\\${BLUE_BOLD}Installing theme: \\${RESET}%s\\n\" \"\\${THEME_NAME}\"\n# Check if WARP_THEME_DIR exists\nif [ ! -d \"\\${WARP_THEME_DIR}\" ]; then\n\tprintf \"\\${YELLOW}Creating Warp Theme Directory:\\${RESET} %s\\n\" \"\\${WARP_THEME_DIR}\"\n\tmkdir -p \"\\${WARP_THEME_DIR}\"\nfi\n# Check if theme file already exists\nif [ -f \"\\${WARP_THEME_DIR}/\\${THEME_NAME}.yaml\" ]; then\n\tprintf \"\\${RED_BOLD}Theme already exists:\\${RESET} %s\\n\\${RED_BOLD}Delete the file to continue\\n\\nCopy: \\${RESET}rm \\${WARP_THEME_DIR}/\\${THEME_NAME}.yaml\\n\" \"\\${WARP_THEME_DIR}/\\${THEME_NAME}.yaml\"\n\texit 1\nfi\ntouch \"\\${WARP_THEME_DIR}/\\${THEME_NAME}.yaml\"\necho \"\\${THEME_CONTENT}\" > \"\\${WARP_THEME_DIR}/\\${THEME_NAME}.yaml\"\t\nprintf \"\\${GREEN_BOLD}Successfully installed the theme \\nRestart Warp to apply your newly installed theme ✨\\n\"",
+        "'%THEME_NAME%'",
+        "';'",
+        "'%THEME_INPUT%'",
+        "';'",
+        "';'",
+        "''"
+    ],
+    "variables": [
+        "yaml",
+        "script"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "handler"
+    ],
+    "classes": []
+}

@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "numpy",
+        "network",
+        "network",
+        "network",
+        "network",
+        "network",
+        "network",
+        "network",
+        "network",
+        "network",
+        "network",
+        "inputN",
+        "weight",
+        "i",
+        "len",
+        "inputN",
+        "outputN",
+        "arctan",
+        "inputN",
+        "i",
+        "weight",
+        "i",
+        "outputN",
+        "inputNetwork",
+        "i",
+        "network"
+    ],
+    "literals": [],
+    "variables": [
+        "network",
+        "layer1Input",
+        "layer1Weight",
+        "layer2Input",
+        "layer2Weight",
+        "layer3Input",
+        "layer3Weight",
+        "layer4Input",
+        "layer4Weight",
+        "layer5Input",
+        "layer5Weight",
+        "outputN"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "-*- coding: utf-8 -*-",
+        "contient les poids des neurones",
+        "contient dans chaque case les différentes entrées de la couche 1 (la plus complexe)",
+        "la couche 1 prend un nombre différents",
+        "on prend liste input et liste poids",
+        "on peut remplacer arctan par autre chose",
+        "on prend les input qu'on met sur les input decouche 1"
+    ],
+    "docstrings": [
+        "\"\"\"\nCreated on Fri Nov 29 08:49:04 2019\n\n@author: adrien\n\"\"\""
+    ],
+    "functions": [
+        "neurone",
+        "reflection"
+    ],
+    "classes": [
+        "solarNetwork"
+    ]
+}

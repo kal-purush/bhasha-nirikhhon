@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "read",
+        "path",
+        "callback",
+        "error",
+        "node"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "N.b.: Directories have size.",
+        "local filename of this node, does not contain any parental information",
+        "type of file, one of \"file\", \"directory\", \"device\", \"symlink\", \"fifo\", or \"socket\" (fs.Stats.is*())",
+        "The total size of file in bytes (fs.Stats.size)",
+        "Epoch time when file data last accessed (fs.Stats.atime.getTime() / 1000)",
+        "Epoch time when file data last modified (fs.Stats.mtime.getTime() / 1000)",
+        "Epoch time when file status was last changed (inode data modification) (fs.Stats.ctime.getTime() / 1000)",
+        "Epoch time of file creation. Set once when the file is created (fs.Stats.birthtime.getTime() / 1000)",
+        "If type == 'file', represents the SHA-1 checksum of the file, as a hex digest",
+        "If type == 'directory', represents the children of this node (files inside this directory)",
+        "If type == 'symlink', represents the target of the link",
+        ""
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

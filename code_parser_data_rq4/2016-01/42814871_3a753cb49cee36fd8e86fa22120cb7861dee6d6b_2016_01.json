@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "ru",
+        "furnituranatali",
+        "app",
+        "ACTION_UPDATE",
+        "ACTION_TIMER_FINISH",
+        "EXTRA_NAME_UPD_TARGET",
+        "EXTRA_NAME_CODE_OF_ELEM",
+        "EXTRA_VAL_ALL",
+        "EXTRA_VAL_LEVEL",
+        "EXTRA_VAL_ELEMENT",
+        "EXTRA_NAME_MESSAGE",
+        "EXTRA_NAME_SVC_FINISH",
+        "EXTRA_NAME_SVC_WAITTIME",
+        "EXTRA_VAL_SUCCESS",
+        "EXTRA_VAL_ERROR",
+        "EXTRA_VAL_FINISH"
+    ],
+    "literals": [
+        "\"ru.furnituranatali.app.action.UPDATE\"",
+        "\"ru.furnituranatali.app.action.TIMER_FINISH\"",
+        "\"ru.furnituranatali.app.extra.name.UPDATE_TARGET\"",
+        "\"ru.furnituranatali.app.extra.name.CODE_OF_ELEMENT\"",
+        "\"ru.furnituranatali.app.extra.val.ALL\"",
+        "\"ru.furnituranatali.app.extra.val.LEVEL\"",
+        "\"ru.furnituranatali.app.extra.val.ELEMENT\"",
+        "\"ru.furnituranatali.app.extra.name.MESSAGE\"",
+        "\"ru.furnituranatali.app.extra.name.SVC_FINISH\"",
+        "\"ru.furnituranatali.app.extra.name.SVC_WAITTIME\"",
+        "\"ru.furnituranatali.app.extra.val.SUCCESS\"",
+        "\"ru.furnituranatali.app.extra.val.ERROR\"",
+        "\"ru.furnituranatali.app.extra.val.FINISH\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Класс, описывающий константы, общие для всего приложения",
+        "* Значения для намерений, передаваемых сервису\n     * Использование:\n     * intent ACTION_UPDATE, ExtraData String EXTRA_ALL.\n     * intent ACTION_UPDATE, ExtraData String EXTRA_LEVEL, ExtraData long parentElem\n     *  (parentElem - код елемента-родителя для искомого уровня)\n     * intent ACTION_UPDATE, ExtraData String EXTRA_ELEMENT, ExtraData long codeElem\n     *  (codeElem - код искомого елемента)"
+    ],
+    "functions": [],
+    "classes": [
+        "Const"
+    ]
+}

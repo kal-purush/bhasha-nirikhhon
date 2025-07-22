@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "Hero",
+        "HeroService",
+        "Observable",
+        "Component",
+        "_heroService",
+        "heroes",
+        "heroes",
+        "error",
+        "error",
+        "name",
+        "name",
+        "name",
+        "hero",
+        "hero",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./hero'",
+        "'./hero.service'",
+        "\"rxjs/Observable\"",
+        "'hero-list'",
+        "<h3>Heroes:</h3>\n  <ul>\n    <li *ngFor=\"#hero of heroes\">\n      {{ hero.name }}\n    </li>\n  </ul>\n  New Hero:\n  <input #newHero />\n  <button (click)=\"addHero(newHero.value); newHero.value=''\">\n    Add Hero\n  </button>\n  <div class=\"error\" *ngIf=\"errorMessage\">{{errorMessage}}</div>",
+        "'.error {color:red;}'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "getHeroes",
+        "addHero"
+    ],
+    "classes": [
+        "HeroListComponent"
+    ]
+}

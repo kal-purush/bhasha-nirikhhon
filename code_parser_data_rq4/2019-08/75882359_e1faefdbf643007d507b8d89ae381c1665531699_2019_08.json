@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Sodium",
+        "Obsolete",
+        "Obsolete",
+        "SecretAeadChaCha20Poly1305",
+        "GenerateNonce",
+        "Obsolete",
+        "message",
+        "nonce",
+        "key",
+        "additionalData",
+        "SecretAeadChaCha20Poly1305",
+        "Encrypt",
+        "message",
+        "nonce",
+        "key",
+        "additionalData",
+        "Obsolete",
+        "cipher",
+        "nonce",
+        "key",
+        "additionalData",
+        "SecretAeadChaCha20Poly1305",
+        "Decrypt",
+        "cipher",
+        "nonce",
+        "key",
+        "additionalData"
+    ],
+    "literals": [
+        "\"Use SecretAeadChaCha20Poly1305 instead\"",
+        "\"Use SecretAeadChaCha20Poly1305.GenerateNonce instead\"",
+        "\"Use SecretAeadChaCha20Poly1305.Encrypt instead\"",
+        "\"Use SecretAeadChaCha20Poly1305.Decrypt instead\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "GenerateNonce",
+        "Encrypt",
+        "Decrypt"
+    ],
+    "classes": [
+        "SecretAead"
+    ]
+}

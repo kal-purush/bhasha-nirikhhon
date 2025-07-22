@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Given",
+        "Then",
+        "When",
+        "getConceptVersionUrl",
+        "Given",
+        "cy",
+        "getConceptVersionUrl",
+        "When",
+        "cy",
+        "When",
+        "cy",
+        "When",
+        "cy",
+        "When",
+        "menuItem",
+        "cy",
+        "menuItem",
+        "Then",
+        "cy"
+    ],
+    "literals": [
+        "\"cypress-cucumber-preprocessor/steps\"",
+        "\"../../../utils\"",
+        "\"the user is on the edit concept page\"",
+        "${getConceptVersionUrl()}edit/",
+        "\"the user edits the concept name\"",
+        "\"input[name='names[0].name']\"",
+        "\"test concept edited\"",
+        "\"the user submits the form\"",
+        "\"form\"",
+        "\"the user clicks the Menu button\"",
+        "\"Menu\"",
+        "\"the concept should be retired\"",
+        "\"not.contain\"",
+        "'/edit'"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference types=\"cypress\" />",
+        "<reference types=\"../../../\" />",
+        "This has some weird behaviour, we shall come back to it later",
+        "Then(\"the concept should be updated\", () => {",
+        "cy.url().should(\"not.contain\", '/edit');",
+        "cy.findByText(\"test concept edited\").should(\"be.visible\");",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

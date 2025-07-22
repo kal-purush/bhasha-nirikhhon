@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "require",
+        "path",
+        "graphql",
+        "res",
+        "edge",
+        "createPage",
+        "blogTempalte",
+        "edge",
+        "edge"
+    ],
+    "literals": [
+        "'path'",
+        "'./src/templates/blog.js'",
+        "query {\n      allContentfulBlogPost {\n        edges {\n          node {\n            slug\n          }\n        }\n      }\n    }",
+        "/blog/${edge.node.slug}"
+    ],
+    "variables": [
+        "path",
+        "actions",
+        "blogTempalte",
+        "res"
+    ],
+    "comments": [
+        "1. get path to template",
+        "2. get markdown data",
+        "3. create new pages"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "UnityEngine",
+        "SceneManagement",
+        "Yarn",
+        "Unity",
+        "MonoBehaviour",
+        "RunnerTEST",
+        "FindObjectOfType",
+        "Yarn",
+        "Unity",
+        "DialogueRunner",
+        "RunnerTEST",
+        "StartDialogue",
+        "conversationStartNode",
+        "interactable",
+        "StartConversation"
+    ],
+    "literals": [],
+    "variables": [
+        "DialogueRunner",
+        "RunnerTEST",
+        "conversationStartNode",
+        "interactable"
+    ],
+    "comments": [
+        "this file is attached to every character in the scene and so will affect only",
+        "the targeted character object when functions are called",
+        "disable scene interaction, activate speaker indicator, and",
+        "run dialogue from {conversationStartNode}",
+        "private bool isinteractable = true;",
+        "private bool isconvoalreadyhappening = false;",
+        "if this character is enabled and no conversation is already running",
+        "then run this character's conversation",
+        "Update is called once per frame"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "StartConversation",
+        "OnMouseDown"
+    ],
+    "classes": [
+        "TESTDialogueYarnInteractable"
+    ]
+}

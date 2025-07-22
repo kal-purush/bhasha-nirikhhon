@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "hibernate",
+        "controller",
+        "javax",
+        "servlet",
+        "ServletContext",
+        "javax",
+        "servlet",
+        "ServletException",
+        "javax",
+        "servlet",
+        "ServletRegistration",
+        "org",
+        "springframework",
+        "web",
+        "WebApplicationInitializer",
+        "org",
+        "springframework",
+        "web",
+        "context",
+        "support",
+        "AnnotationConfigWebApplicationContext",
+        "org",
+        "springframework",
+        "web",
+        "servlet",
+        "DispatcherServlet",
+        "Override",
+        "servletContext",
+        "appContext",
+        "appContext",
+        "register",
+        "dispatcher",
+        "servletContext",
+        "addServlet",
+        "appContext",
+        "dispatcher",
+        "setLoadOnStartup",
+        "dispatcher",
+        "addMapping"
+    ],
+    "literals": [
+        "\"SpringDispatcher\"",
+        "\"/\""
+    ],
+    "variables": [],
+    "comments": [
+        "change this to code"
+    ],
+    "docstrings": [
+        "servlet>\n\t      <servlet-name>SpringMVC_Hibernate4</servlet-name>\n\t      <servlet-class>\n\t         org.springframework.web.servlet.DispatcherServlet\n\t      </servlet-class>\n\t  \t <init-param>\n\t        <param-name>contextConfigLocation</param-name>\n\t        <param-value>/WEB-INF/spring/appServlet/servlet-context.xml</param-value>\n\t    </init-param>\n\t    <load-on-startup>1</load-on-startup>\n\t    <servlet-mapping>\n      \t\t<servlet-name>SpringMVC_Hibernate4</servlet-name>\n      \t\t<url-pattern>/</url-pattern>\n   \t\t</servlet-mapping>\n \n\t </servlet>"
+    ],
+    "functions": [
+        "onStartup"
+    ],
+    "classes": [
+        "ApplicationConfig"
+    ]
+}

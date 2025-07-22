@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "NextRequest",
+        "NextResponse",
+        "getValidStravaAccessToken",
+        "auth",
+        "req",
+        "auth",
+        "session",
+        "session",
+        "NextResponse",
+        "session",
+        "getValidStravaAccessToken",
+        "userId",
+        "activityId",
+        "fetch",
+        "url",
+        "accessToken",
+        "stravaRes",
+        "stravaRes",
+        "NextResponse",
+        "error",
+        "stravaRes",
+        "stravaRes",
+        "NextResponse",
+        "data",
+        "e",
+        "NextResponse",
+        "e"
+    ],
+    "literals": [
+        "\"next/server\"",
+        "\"@/strava\"",
+        "\"@/auth\"",
+        "string",
+        "\"Not authenticated\"",
+        "https://www.strava.com/api/v3/activities/${activityId}/streams?keys=latlng&key_by_type=true",
+        "Bearer ${accessToken}",
+        "\"Failed to fetch activity streams from Strava\"",
+        "\"Unknown error\""
+    ],
+    "variables": [
+        "session",
+        "userId",
+        "accessToken",
+        "activityId",
+        "url",
+        "stravaRes",
+        "error",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "GET"
+    ],
+    "classes": []
+}

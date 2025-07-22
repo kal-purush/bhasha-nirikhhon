@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "sys",
+        "os",
+        "os",
+        "environ",
+        "KratosMultiphysics",
+        "KratosMultiphysics",
+        "IsogeometricApplication",
+        "Kernel",
+        "MultiNURBSPatchMatlabExporter",
+        "MultiNURBSPatchGeoImporter2D",
+        "mpatch_import",
+        "Import",
+        "mp"
+    ],
+    "literals": [
+        "'KRATOS_ROOT_PATH'",
+        "\"../../tests/geo_Lshaped_mp.txt\""
+    ],
+    "variables": [
+        "kratos_root_path",
+        "kernel",
+        "mpatch_export",
+        "mpatch_import",
+        "mp"
+    ],
+    "comments": [
+        "",
+        "include.py   ############################",
+        "",
+        "ekate - Enhanced KRATOS for Advanced Tunnel Enineering #####",
+        "copyright by CIMNE, Barcelona, Spain                   #####",
+        "and Institute for Structural Mechanics, RUB   #####",
+        "all rights reserved                                    #####",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "importing Kratos modules",
+        "defining kernel",
+        "patch = mp[0].GetReference()",
+        "print(patch)",
+        "mpatch_export.Export(patch, \"infinite_plate.m\")"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "jest",
+        "jest",
+        "uri",
+        "options",
+        "jest",
+        "ConfigModule",
+        "Test",
+        "TestingModule",
+        "Connection",
+        "createConnection",
+        "mongodbConfig",
+        "databaseConnectionProviders",
+        "DATABASE_CONNECTION",
+        "describe",
+        "beforeEach",
+        "Test",
+        "ConfigModule",
+        "mongodbConfig",
+        "databaseConnectionProviders",
+        "conn",
+        "DATABASE_CONNECTION",
+        "it",
+        "expect",
+        "conn",
+        "it",
+        "expect",
+        "createConnection"
+    ],
+    "literals": [
+        "'mongoose'",
+        "'@nestjs/config'",
+        "'@nestjs/testing'",
+        "'mongoose'",
+        "'../config/mongodb.config'",
+        "'./database-connection.providers'",
+        "'./database.constants'",
+        "'DatabaseConnectionProviders'",
+        "'DATABASE_CONNECTION should be defined'",
+        "'connect is called'",
+        "\"mongodb://localhost/blog\""
+    ],
+    "variables": [
+        "conn"
+    ],
+    "comments": [
+        "expect(conn).toBeDefined();",
+        "expect(createConnection).toHaveBeenCalledTimes(1); // it is 2 here. why?",
+        "see: https://mongoosejs.com/docs/deprecations.html#findandmodify"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

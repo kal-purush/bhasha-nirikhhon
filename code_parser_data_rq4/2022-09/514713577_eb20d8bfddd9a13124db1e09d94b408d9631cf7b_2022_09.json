@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "email",
+        "host",
+        "host",
+        "host",
+        "url",
+        "host",
+        "host",
+        "host",
+        "url",
+        "htmlEmail",
+        "textEmail"
+    ],
+    "literals": [
+        "${email.replace(/\\./g, '&#8203;.')}",
+        "'&#8203;.'",
+        "${host.replace(/\\./g, '&#8203;.')}",
+        "'&#8203;.'",
+        "<html>\n    <head>\n       <style>\n          @import url('https://fonts.googleapis.com/css?family=3DRubik');\n          .container {\n          max-width: 512px;\n          }\n          .footer {\n          text-align: center;\n          font-size: 14px;\n          }\n          .social {\n          background: orange;\n          width: 24px;\n          height: 24px;\n          margin: 0 0.2rem;\n          padding: 0.5rem;\n          border-radius: 10rem;\n          }\n          p {\n          padding: 0 1rem;\n          font-family: 'Rubik', sans-serif;\n          }\n          svg {\n          padding: 0.5rem;\n          border-radius: 10rem;\n          background: orange;\n          }\n          a {\n          color: orange;\n          }\n       </style>\n    </head>\n    <body>\n       <table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n          <tr>\n             <td align=\"center\">\n                <div class=\"container\">\n                   <img\n                   style=\"object-fit: contain; width: 100%;\"\n                   src=\"http://cdn.mcauto-images-production.sendgrid.net/cbb380edd52c8d3a/365ccc75-f697-4164-a1d8-c675caf2925d/1600x400.png\"/>\n                   <br/>\n                   <br/>\n                   <p style=\"text-align:left\">\n                      Hey,\n                   </p>\n                   <p style=\"text-align:left\">\n                      You are receving this email because someone has tried to login to ${host} with your email addresss.\n                   </p>\n                   <p style=\"text-align:left\">\n                     If you are trying to login to ${host}, click <a href=\"${url}\">here</a> to sign in.\n                     If you did not attempt to sign-in to this site, you can ignore this email.\n                   </p>\n                   <p style=\"text-align:left\">\n                      The Citrus Hack Team\n                   </p>\n                   <br/>\n                   <hr/>\n                   <br/>\n                   <div class=\"footer\">\n                      <p>\n                         Head back to our website at <a href=\"${host}\">${host}</a>\n                      </p>\n                      <p>\n                         Contact us, whenever at <a href=\"mailto:citrushack@gmail.com\">citrushack@gmail.com</a>\n                      </p>\n                      <a href=\"http://localhost:3000\"><img class=\"social\" src=\"http://cdn.mcauto-images-production.sendgrid.net/cbb380edd52c8d3a/18518ec5-9e99-4737-8748-aaf321c86d93/24x24.png\"/></a>\n                      <a href=\"http://localhost:3000\"><img class=\"social\" src=\"http://cdn.mcauto-images-production.sendgrid.net/cbb380edd52c8d3a/6b62002f-f863-4ca1-9f6c-c11ee2cef453/24x24.png\" /></a>\n                      <a href=\"http://locahost:3000\"><img class=\"social\" src=\"http://cdn.mcauto-images-production.sendgrid.net/cbb380edd52c8d3a/5bc8e9f4-455c-4f40-b6aa-cc552e812c04/24x24.png\" /></a>\n                      <a href=\"http://localhost:3000\"><img class=\"social\" src=\"http://cdn.mcauto-images-production.sendgrid.net/cbb380edd52c8d3a/0061c602-b7f9-4a2c-a015-66c3aa221f33/24x24.png\" /></a>\n                   </div>\n                </div>\n             </td>\n             <td align=\"center\">\n             </td>\n          </tr>\n       </table>\n    </body>\n  </html>",
+        "Sign in to ${host}\\n${url}\\n\\n"
+    ],
+    "variables": [
+        "escapedEmail",
+        "escapedHost"
+    ],
+    "comments": [
+        "Fallback for non-HTML email clients"
+    ],
+    "docstrings": [],
+    "functions": [
+        "htmlEmail",
+        "textEmail"
+    ],
+    "classes": []
+}

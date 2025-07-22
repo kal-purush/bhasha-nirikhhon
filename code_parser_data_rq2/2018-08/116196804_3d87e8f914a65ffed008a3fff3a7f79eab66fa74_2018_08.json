@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "IdentityModel",
+        "Clients",
+        "ActiveDirectory",
+        "Configuration",
+        "SampleCPMProject",
+        "context",
+        "AuthenticationContext",
+        "ConfigurationManager",
+        "AppSettings",
+        "ConfigurationManager",
+        "AppSettings",
+        "credentials",
+        "ClientCredential",
+        "ConfigurationManager",
+        "AppSettings",
+        "ConfigurationManager",
+        "AppSettings",
+        "authenticationResult",
+        "context",
+        "AcquireTokenAsync",
+        "ConfigurationManager",
+        "AppSettings",
+        "credentials",
+        "Result",
+        "AdalException",
+        "e",
+        "retryCounter",
+        "retryCounter",
+        "e",
+        "authenticationResult",
+        "authenticationResult",
+        "AccessToken"
+    ],
+    "literals": [
+        "\"AadInstance\"",
+        "\"TenantId\"",
+        "\"ClientId\"",
+        "\"ClientSecret\"",
+        "\"AppResourceId\""
+    ],
+    "variables": [
+        "AuthenticationContext",
+        "context",
+        "ClientCredential",
+        "credentials",
+        "retryCounter",
+        "AuthenticationResult",
+        "authenticationResult"
+    ],
+    "comments": [
+        "After 3 retries fail the operation.Exception would get logged by middleware."
+    ],
+    "docstrings": [],
+    "functions": [
+        "AadAuthentication",
+        "GetAccessTokenForCpmApi"
+    ],
+    "classes": [
+        "AadAuthentication"
+    ]
+}

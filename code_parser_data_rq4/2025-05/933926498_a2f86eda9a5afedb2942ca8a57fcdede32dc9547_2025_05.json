@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpClient",
+        "HttpHeaders",
+        "Observable",
+        "Injectable",
+        "http",
+        "prompt",
+        "HttpHeaders"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common/http'",
+        "'rxjs'",
+        "'root'",
+        "'http://localhost:3000/chatbot/ask'",
+        "string",
+        "string",
+        "'Content-Type'",
+        "'application/json'",
+        "string"
+    ],
+    "variables": [
+        "headers"
+    ],
+    "comments": [
+        "NestJS API URL"
+    ],
+    "docstrings": [
+        "* 사용자 프롬프트를 서버에 전달하고 응답을 가져옵니다.\n   * @param prompt 사용자 입력 메시지\n   * @returns 서버에서 반환된 메시지"
+    ],
+    "functions": [
+        "askChatbot"
+    ],
+    "classes": [
+        "ChatbotService"
+    ]
+}

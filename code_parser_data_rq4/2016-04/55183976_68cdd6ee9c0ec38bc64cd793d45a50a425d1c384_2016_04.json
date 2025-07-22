@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "open",
+        "file",
+        "read",
+        "strip",
+        "file",
+        "close",
+        "word",
+        "s",
+        "split",
+        "word_count",
+        "has_key",
+        "word",
+        "word_count",
+        "word",
+        "open",
+        "key",
+        "word_count",
+        "output",
+        "write",
+        "key",
+        "word_count",
+        "key",
+        "output",
+        "close"
+    ],
+    "literals": [
+        "'Alec'",
+        "\"rosalind_ini6.txt\"",
+        "'r'",
+        "\" \"",
+        "\"output1.txt\"",
+        "\"w\"",
+        "\" \"",
+        "\"\\n\""
+    ],
+    "variables": [
+        "__author__",
+        "file",
+        "s",
+        "word_count",
+        "word_count",
+        "word",
+        "output"
+    ],
+    "comments": [
+        "obtain string",
+        "s = raw_input(\"String? \")",
+        "create empty dictionary/map",
+        "iterate through words in string",
+        "if the word exists as a key, increment value",
+        "if the word does not exist, create with initial value of 1",
+        "print keys and values"
+    ],
+    "docstrings": [
+        "\"\"\"\nGiven: A string s of length at most 10000 letters.\n\nReturn: How many times any word occurred in string. Each letter case (upper or lower) in word matters. Lines in output can be in any order.\n\nSample Dataset:\n\nWe tried list and we tried dicts also we tried Zen\n\nSample Output:\n\nand 1\nWe 1\ntried 3\ndicts 1\nlist 1\nwe 2\nalso 1\nZen 1\n\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

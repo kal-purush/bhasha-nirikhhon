@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Threading",
+        "Tasks",
+        "Diagnostics",
+        "CompilerHost",
+        "Security",
+        "CertificateAuth",
+        "Func",
+        "CertificateFailedContext",
+        "CompletedTask",
+        "Func",
+        "CertificateValidatedContext",
+        "CompletedTask",
+        "CertificateFailedContext",
+        "context",
+        "OnAuthenticationFailed",
+        "context",
+        "CertificateValidatedContext",
+        "context",
+        "OnCertificateValidated",
+        "context"
+    ],
+    "literals": [],
+    "variables": [
+        "OnAuthenticationFailed",
+        "OnCertificateValidated"
+    ],
+    "comments": [
+        "A delegate assigned to this property will be invoked when the authentication fails.",
+        "</summary>",
+        "A delegate assigned to this property will be invoked when a certificate has passed basic validation, but where custom validation may be needed.",
+        "</summary>",
+        "<remarks>",
+        "You must provide a delegate for this property for authentication to occur.",
+        "In your delegate you should construct an authentication principal from the user details,",
+        "attach it to the context.Principal property and finally call context.Success();",
+        "</remarks>",
+        "Invoked when a certificate fails authentication.",
+        "</summary>",
+        "<param name=\"context\"></param>",
+        "<returns></returns>",
+        "Invoked after a certificate has been validated",
+        "</summary>",
+        "<param name=\"context\"></param>",
+        "<returns></returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "AuthenticationFailed",
+        "CertificateValidated"
+    ],
+    "classes": [
+        "CertificateAuthEvents"
+    ]
+}

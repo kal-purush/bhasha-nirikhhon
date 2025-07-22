@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Toast",
+        "axios",
+        "orderData",
+        "Api",
+        "types",
+        "setOrder",
+        "data",
+        "types",
+        "getAllOrder",
+        "setAnimation",
+        "dispatch",
+        "setAnimation",
+        "setTimeout",
+        "dispatch",
+        "setOrder",
+        "orderData",
+        "setAnimation"
+    ],
+    "literals": [
+        "'react-native-toast-message'",
+        "'axios'",
+        "\"../../Utils/mockData\"",
+        "'../../Utils/Api'",
+        "'../types/types'"
+    ],
+    "variables": [
+        "setOrder",
+        "getAllOrder"
+    ],
+    "comments": [
+        "setAnimation(true);",
+        "axios.get(`${Api}/order/findall`)",
+        ".then(async (res) => {",
+        "dispatch(setCategories(res?.data));",
+        "setAnimation(false);",
+        "})",
+        ".catch((err) => {",
+        "setAnimation(false);",
+        "Toast.show({",
+        "type: 'error',",
+        "text1: err?.response?.data?.message ? err?.response?.data?.message : 'Network error'",
+        "});",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

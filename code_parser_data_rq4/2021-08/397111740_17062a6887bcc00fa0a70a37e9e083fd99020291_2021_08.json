@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "Claim",
+        "Identity",
+        "IDIDManager",
+        "parseIdentity",
+        "identity",
+        "identity",
+        "parts",
+        "scheme",
+        "method",
+        "identifier",
+        "parts",
+        "parts",
+        "parts",
+        "did",
+        "identity",
+        "did",
+        "parseIdentity",
+        "identity",
+        "parts",
+        "parts",
+        "parts",
+        "parts",
+        "issuer",
+        "claim",
+        "issuer",
+        "_issuer",
+        "claim"
+    ],
+    "literals": [
+        "'./interfaces/credential'",
+        "'./interfaces/did'",
+        "':'",
+        "'did'",
+        "'ethr'",
+        "'Unknown identity type'",
+        "string",
+        "${parts.scheme}:${parts.method}:${parts.identifier}"
+    ],
+    "variables": [
+        "parseIdentity",
+        "scheme",
+        "method",
+        "identifier",
+        "parts",
+        "scheme",
+        "method",
+        "identifier",
+        "parts",
+        "_issuer"
+    ],
+    "comments": [
+        "parse DID identity into 3 parts. (https://www.w3.org/TR/did-core/#a-simple-example)",
+        "ex) did:ethr:0xabc => { did, ethr, 0xabc }",
+        "if no colon found, use default scheme and method.",
+        "it's real identity syntax.",
+        "other cannot be parsed."
+    ],
+    "docstrings": [],
+    "functions": [
+        "validate"
+    ],
+    "classes": [
+        "IdentityController"
+    ]
+}

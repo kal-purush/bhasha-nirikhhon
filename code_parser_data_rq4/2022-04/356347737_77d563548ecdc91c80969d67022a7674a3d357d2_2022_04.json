@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "render",
+        "html",
+        "TemplateResult",
+        "anyFeatures",
+        "showWarningIfNecessary",
+        "anyFeatures",
+        "showWarning",
+        "html",
+        "officialUrl",
+        "showWarning",
+        "html",
+        "officialUrl",
+        "showWarning",
+        "message",
+        "container",
+        "html",
+        "razzmatazz",
+        "white",
+        "white",
+        "white",
+        "white",
+        "razzmatazz",
+        "message",
+        "render",
+        "warning",
+        "container",
+        "container"
+    ],
+    "literals": [
+        "\"lit-html\"",
+        "\"./features\"",
+        "\"https://identity.ic0.app\"",
+        "This is an insecure development version of Internet\n      Identity.\n      <a\n        class=\"features-warning-btn\"\n        target=\"_blank\"\n        rel=\"noopener noreferrer\"\n        href=\"https://github.com/dfinity/internet-identity#build-features\"\n        >more</a\n      >",
+        "This is not the official Internet Identity.\n      <a\n        class=\"features-warning-btn\"\n        target=\"_blank\"\n        rel=\"noopener noreferrer\"\n        href=${officialUrl}\n        >go to official</a\n      >",
+        "\"div\"",
+        "\"features-warning-container\"",
+        "\"#ED1E79\"",
+        "\"#FFFFFF\"",
+        "<style>\n      .features-warning-container {\n        background: ${razzmatazz};\n        color: ${white};\n        width: 100%;\n        box-sizing: border-box;\n        padding: 0.5em 1em;\n        text-align: center;\n      }\n\n      .features-warning-btn {\n        display: inline-block;\n        margin-left: 1em;\n        border-radius: 4px;\n        border: ${white} solid 1px;\n        padding: 0.2em 0.4em;\n        text-decoration: none;\n      }\n\n      .features-warning-btn:link,\n      .features-warning-btn:visited {\n        color: ${white};\n      }\n\n      .features-warning-btn:hover,\n      .features-warning-btn:focus {\n        background: ${white};\n        color: ${razzmatazz};\n      }\n    </style>\n    ${message}"
+    ],
+    "variables": [
+        "showWarningIfNecessary",
+        "officialUrl",
+        "showWarning",
+        "container",
+        "razzmatazz",
+        "white",
+        "warning"
+    ],
+    "comments": [
+        "Show a warning banner if the build is not \"official\". This happens if either the build",
+        "is a flavored build, or if the origin is not 'identity.ic0.app'."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

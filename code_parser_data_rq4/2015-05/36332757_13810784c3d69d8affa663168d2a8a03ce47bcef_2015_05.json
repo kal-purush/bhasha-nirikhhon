@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Vue",
+        "Vue",
+        "task",
+        "task",
+        "delIndex",
+        "delIndex",
+        "oldTasks",
+        "task",
+        "task",
+        "task",
+        "task",
+        "count",
+        "task",
+        "count",
+        "TodoApp"
+    ],
+    "literals": [
+        "'vue'",
+        "string",
+        "''",
+        "'#todoapp'",
+        "'do this 1'",
+        "'do this 2'",
+        "'do this 3'",
+        "'do this 4'",
+        "''"
+    ],
+    "variables": [
+        "task",
+        "oldTasks",
+        "count",
+        "todoApp"
+    ],
+    "comments": [
+        "<reference path=\"./typings/vue/vue.d.ts\" />",
+        "タスク一覧",
+        "新規タスク",
+        "to defer compilation in Vue"
+    ],
+    "docstrings": [
+        "* タスクの追加",
+        "* タスクの削除\n     * @param index :削除する行番号",
+        "* 済タスクの一括削除",
+        "* 完了済み件数の取得\n     * @return 完了済み件数"
+    ],
+    "functions": [
+        "addNew",
+        "deleteTask",
+        "deleteDone",
+        "getDoneCount"
+    ],
+    "classes": [
+        "TodoApp"
+    ]
+}

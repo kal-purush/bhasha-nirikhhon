@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "BABYLON",
+        "BABYLON",
+        "BABYLON",
+        "BABYLON",
+        "BABYLON",
+        "BABYLON",
+        "BABYLON",
+        "scene",
+        "camera",
+        "BABYLON",
+        "camera",
+        "BABYLON",
+        "BABYLON",
+        "scene",
+        "BABYLON",
+        "scene",
+        "sphere",
+        "BABYLON",
+        "scene",
+        "sphere",
+        "sphere",
+        "BABYLON",
+        "scene",
+        "scene"
+    ],
+    "literals": [
+        "\"canvas\"",
+        "\"resize\"",
+        "\"camera1\"",
+        "\"light1\"",
+        "\"sphere1\"",
+        "\"t1\"",
+        "\"ground1\""
+    ],
+    "variables": [
+        "scene",
+        "camera",
+        "light",
+        "sphere",
+        "ground"
+    ],
+    "comments": [
+        "run the render loop",
+        "the canvas/window resize event handler",
+        "create a basic BJS Scene object",
+        "create a FreeCamera, and set its position to (x:0, y:5, z:-10)",
+        "target the camera to scene origin",
+        "attach the camera to the canvas",
+        "create a basic light, aiming 0,1,0 - meaning, to the sky",
+        "create a built-in \"sphere\" shape; its constructor takes 5 params: name, width, depth, subdivisions, scene",
+        "create a built-in \"ground\" shape; its constructor takes the same 5 params as the sphere's one",
+        "return the created scene"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createScene"
+    ],
+    "classes": [
+        "Render"
+    ]
+}

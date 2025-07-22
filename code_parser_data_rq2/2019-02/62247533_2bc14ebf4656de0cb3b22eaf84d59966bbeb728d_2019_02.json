@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "mypy",
+        "types",
+        "TupleType",
+        "Instance",
+        "mypy",
+        "join",
+        "join_type_list",
+        "typ",
+        "TupleType",
+        "Instance",
+        "typ",
+        "partial_fallback",
+        "info",
+        "fullname",
+        "typ",
+        "partial_fallback",
+        "Instance",
+        "info",
+        "join_type_list",
+        "typ",
+        "items"
+    ],
+    "literals": [
+        "'builtins.tuple'"
+    ],
+    "variables": [
+        "info"
+    ],
+    "comments": [
+        "TODO: Move more type operations here"
+    ],
+    "docstrings": [
+        "\"\"\"Miscellaneuus type operations and helpers for use during type checking.\n\nNOTE: These must not be accessed from mypy.nodes or mypy.types to avoid import\n      cycles. These must not be called from the semantic analysis main pass\n      since these may assume that MROs are ready.\n\"\"\"",
+        "\"\"\"Return fallback type for a tuple.\"\"\""
+    ],
+    "functions": [
+        "tuple_fallback"
+    ],
+    "classes": []
+}

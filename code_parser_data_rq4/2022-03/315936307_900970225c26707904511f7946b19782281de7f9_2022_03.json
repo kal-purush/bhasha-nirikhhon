@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Orchestrator",
+        "Core",
+        "Constants"
+    ],
+    "literals": [
+        "\"DurableOrchestratorFunction\"",
+        "\"OrchestrationTriggerFunction\"",
+        "\"DurableActivity_Create\"",
+        "\"DurableActivity_Update\"",
+        "\"DurableActivity_Delete\"",
+        "\"DurableActivity_Suspend\"",
+        "\"DurableActivity_Reinstate\"",
+        "\"DurableActivity_CompleteAction\"",
+        "\"%ingressQueueName%\"",
+        "\"ingressServiceBusConnectionString\"",
+        "\"egressServiceBusConnectionString\"",
+        "\"egressQueueName\""
+    ],
+    "variables": [
+        "DurableOrchestrator",
+        "OrchestrationTrigger",
+        "Create",
+        "Update",
+        "Delete",
+        "Suspend",
+        "Reinstate",
+        "CompleteAction",
+        "ingressQueueName_",
+        "ingressConnectionString",
+        "egressConnectionString",
+        "egressQueueName"
+    ],
+    "comments": [
+        "Percent symbol (%) denotes reference to Application Setting. ServiceBusTrigger attribute requires reference in this way."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Constants",
+        "DurableActivity",
+        "ConfigurationConstants"
+    ]
+}

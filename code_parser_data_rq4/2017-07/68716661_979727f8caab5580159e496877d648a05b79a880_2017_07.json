@@ -1,0 +1,23 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [
+        "followersRegExp",
+        "fromRegExp",
+        "nearRegExp",
+        "sinceRegExp",
+        "untilRegExp",
+        "filterRegExp"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Followers RegExp\n *\n * ^ asserts position at start of the string.\n * followers: matches the characters followers: literally (case sensitive)\n *\n * ([^\\s]+) - First capturing group\n * [^\\s] - Match every non whitespace character\n * Quantifier(+) - Matches between one and unlimited times, as many times as possible, giving back as needed (greedy)",
+        "* From RegExp\n *\n * from: matches the characters from: literally (case sensitive)\n *\n * ([^\\s]+) - First capturing group\n * [^\\s] - Match every non whitespace character\n * Quantifier(+) - Matches between one and unlimited times, as many times as possible, giving back as needed (greedy)",
+        "* Near RegExp\n *\n * near: matches the characters near: literally (case sensitive)\n *\n * ([^\\s]+) - First capturing group\n * [^\\s] - Match every non whitespace character\n * Quantifier(+) - Matches between one and unlimited times, as many times as possible, giving back as needed (greedy)",
+        "* Since RegExp\n *\n * since: matches the characters since: literally (case sensitive)\n *\n * ([^\\s]+) - First capturing group\n * [^\\s] - Match every non whitespace character\n * Quantifier(+) - Matches between one and unlimited times, as many times as possible, giving back as needed (greedy)",
+        "* Until RegExp\n *\n * until: matches the characters until: literally (case sensitive)\n *\n * ([^\\s]+) - First capturing group\n * [^\\s] - Match every non whitespace character\n * Quantifier(+) - Matches between one and unlimited times, as many times as possible, giving back as needed (greedy)",
+        "* Filter RegExp\n *\n * filter: matches the characters filter: literally (case sensitive)\n *\n * ([^\\s]+) - First capturing group\n * [^\\s] - Match every non whitespace character\n * Quantifier(+) - Matches between one and unlimited times, as many times as possible, giving back as needed (greedy)"
+    ],
+    "functions": [],
+    "classes": []
+}

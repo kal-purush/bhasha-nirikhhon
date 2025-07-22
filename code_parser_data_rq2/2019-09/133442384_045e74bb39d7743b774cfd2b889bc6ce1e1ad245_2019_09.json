@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "sendAsync",
+        "dispatch",
+        "Conn",
+        "ConnImpl",
+        "options",
+        "options",
+        "dialTLSDefaults",
+        "options",
+        "sendAsync",
+        "dispatch",
+        "options",
+        "ConnImpl",
+        "res",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "\"./dispatch_json.ts\"",
+        "\"./dispatch.ts\"",
+        "\"./net.ts\"",
+        "string",
+        "\"127.0.0.1\"",
+        "\"tcp\""
+    ],
+    "variables": [
+        "dialTLSDefaults",
+        "res"
+    ],
+    "comments": [
+        "Copyright 2018-2019 the Deno authors. All rights reserved. MIT license.",
+        "TODO(ry) There are many configuration options to add...",
+        "https://docs.rs/rustls/0.16.0/rustls/struct.ClientConfig.html"
+    ],
+    "docstrings": [
+        "* dialTLS establishes a secure connection over TLS (transport layer security)."
+    ],
+    "functions": [
+        "dialTLS"
+    ],
+    "classes": []
+}

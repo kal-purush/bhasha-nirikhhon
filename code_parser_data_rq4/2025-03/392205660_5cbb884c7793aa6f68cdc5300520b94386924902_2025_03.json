@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Stream",
+        "error",
+        "html",
+        "pdf2htmlSync",
+        "source",
+        "options",
+        "pdf2html",
+        "source",
+        "options",
+        "callback",
+        "pdf2html",
+        "source",
+        "callback",
+        "pdf2html",
+        "pdf2htmlSync",
+        "pdf2html"
+    ],
+    "literals": [
+        "\"stream\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "Project: https://github.com/shebinleo/pdf2html",
+        "Definitions by: manuzcheruz <https://github.com/manuzcheruz>",
+        "Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped",
+        "<reference types=\"node\" />",
+        "Path to the pdftohtml binary",
+        "First page to convert",
+        "Last page to convert",
+        "Generate complex output",
+        "Generate a single HTML file",
+        "No background images",
+        "No frames in HTML",
+        "Zoom factor"
+    ],
+    "docstrings": [
+        "* Configuration options for PDF to HTML conversion",
+        "* Error type for PDF2HTML conversion errors",
+        "* Callback function type for async operations",
+        "* Convert PDF file to HTML synchronously\n * @param source - Path to PDF file or readable stream\n * @param options - Conversion options\n * @returns HTML string",
+        "* Convert PDF file to HTML asynchronously\n * @param source - Path to PDF file or readable stream\n * @param options - Conversion options\n * @param callback - Callback function",
+        "* Convert PDF file to HTML asynchronously (overload without options)\n * @param source - Path to PDF file or readable stream\n * @param callback - Callback function"
+    ],
+    "functions": [],
+    "classes": []
+}

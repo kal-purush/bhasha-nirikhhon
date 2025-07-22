@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Nop",
+        "Core",
+        "Caching",
+        "Nop",
+        "Web",
+        "Framework",
+        "Models",
+        "Cms",
+        "WidgetPrefixCacheKey"
+    ],
+    "literals": [
+        "\"Nop.pres.widget-{0}-{1}-{2}-{3}\"",
+        "\"Nop.pres.widget\""
+    ],
+    "variables": [
+        "CacheKey",
+        "WidgetModelKey",
+        "WidgetPrefixCacheKey"
+    ],
+    "comments": [
+        "Key for widget info",
+        "</summary>",
+        "<remarks>",
+        "{0} : current customer role IDs hash",
+        "{1} : current store ID",
+        "{2} : widget zone",
+        "{3} : current theme name",
+        "</remarks>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "WidgetModelDefaults"
+    ]
+}

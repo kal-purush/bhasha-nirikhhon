@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "base64url",
+        "createHash",
+        "jwk",
+        "key",
+        "jwk",
+        "jwk",
+        "jwk",
+        "jwk",
+        "jwk",
+        "jwk",
+        "key",
+        "createHash",
+        "preimage",
+        "base64url",
+        "digest"
+    ],
+    "literals": [
+        "'base64url'",
+        "'crypto'",
+        "string",
+        "string",
+        "string",
+        "'sha256'",
+        "'utf8'"
+    ],
+    "variables": [
+        "key",
+        "preimage",
+        "digest"
+    ],
+    "comments": [
+        "---------------------------------------------------------------------------------------------\n *  Copyright (c) Microsoft Corporation. All rights reserved.\n *  Licensed under the MIT License. See License in the project root for license information.\n *--------------------------------------------------------------------------------------------"
+    ],
+    "docstrings": [
+        "* for a given json web key calculate the thumbprint as defined by RFC 7638\n * @param jwk json web key instance\n * @returns thumbprint"
+    ],
+    "functions": [
+        "createJwkThumbprint"
+    ],
+    "classes": []
+}

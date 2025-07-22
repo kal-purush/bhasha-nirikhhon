@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "connection",
+        "Mongo",
+        "error",
+        "lastError",
+        "error",
+        "start",
+        "connection",
+        "diff",
+        "timeout",
+        "lastError",
+        "exit",
+        "sleep"
+    ],
+    "literals": [
+        "\"localhost:27017\"",
+        "\"waitForMongo.js: Successfully connected to local MongoDB instance:\"",
+        "\"waitForMongo.js: Could not connect to local MongoDB instance:\""
+    ],
+    "variables": [
+        "timeout",
+        "start",
+        "connection",
+        "lastError",
+        "diff"
+    ],
+    "comments": [
+        "",
+        "Command to be run by mongosh to ensure that a local MongoDB instance is up",
+        "",
+        "30 seconds"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "theme",
+        "styled",
+        "theme",
+        "styled",
+        "styled",
+        "$isPath",
+        "theme",
+        "$isPath",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "'use client'",
+        "'styled-components'",
+        "padding: 24px 24px 0 24px;\n  background: ${({theme}) => theme.palette.dark.primary};\n  border-radius: 6px 6px 0 0;",
+        "font-size: 24px;\n  font-weight: 700;\n  color: ${({theme}) => theme.palette.dark.secondary};",
+        "display: flex;\n  gap: 24px;",
+        "font-weight: 400;\n  font-size: 16px;\n  padding: 16px 0;\n  border-bottom: 2px solid ${({theme, $isPath}) => ($isPath ? theme.palette.light.blue : 'transparent')};\n  color: ${({theme, $isPath}) => ($isPath ? theme.palette.light.blue : 'inherit')};\n\n  &:hover,\n  &:focus {\n    color: ${({theme}) => theme.palette.light.blue};\n  }",
+        "'transparent'",
+        "'inherit'"
+    ],
+    "variables": [
+        "HeaderWrapper",
+        "StyledTitle",
+        "StyledTabs",
+        "StyledTab"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

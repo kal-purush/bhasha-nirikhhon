@@ -1,0 +1,17 @@
+{
+    "identifiers": [
+        "styled",
+        "styled"
+    ],
+    "literals": [
+        "'styled-components'",
+        "padding: 0.8em 1.7em;\n    background-color: transparent;\n    border-radius: 0.3em;\n    position: relative;\n    overflow: hidden;\n    cursor: pointer;\n    transition: 0.5s;\n    font-weight: 400;\n    font-size: 17px;\n    border: 1px solid #61dafb;\n    text-transform: uppercase;\n    color: #61dafb;\n    z-index: 1;\n    margin-top: 25px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 5px;\n\n    &::before,\n    &::after {\n        content: '';\n        display: block;\n        width: 50px;\n        height: 50px;\n        transform: translate(-50%, -50%);\n        position: absolute;\n        border-radius: 50%;\n        z-index: -1;\n        background-color: #61dafb;\n        transition: 1s ease;\n    }\n\n    &::before {\n        top: -1em;\n        left: -1em;\n    }\n\n    &::after {\n        left: calc(100% + 1em);\n        top: calc(100% + 1em);\n    }\n\n    &:hover::before,\n    &:hover::after {\n        height: 410px;\n        width: 410px;\n    }\n\n    &:hover {\n        color: #333;\n    }\n\n    &:active {\n        filter: brightness(0.8);\n    }"
+    ],
+    "variables": [
+        "ButtonStyled"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

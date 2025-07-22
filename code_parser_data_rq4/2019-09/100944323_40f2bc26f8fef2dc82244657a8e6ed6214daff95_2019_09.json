@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "dotenv",
+        "dotenv",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "serviceName",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process"
+    ],
+    "literals": [
+        "'dotenv'",
+        "'.env'",
+        "'kartoffel'",
+        "'.'",
+        "''",
+        "','",
+        "''",
+        "'production'",
+        "'true'",
+        "'true'",
+        "'testAudience'",
+        "'testIssuer'",
+        "${process.env.JWT_PUBLIC_KEY_BASE_URL}:${process.env.JWT_PUBLIC_KEY_PORT}"
+    ],
+    "variables": [
+        "serviceName",
+        "config"
+    ],
+    "comments": [
+        "host url + port",
+        "path in the host to get the public key"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

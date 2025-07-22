@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "Router",
+        "ActivatedRoute",
+        "Params",
+        "Observable",
+        "BusStore",
+        "Component",
+        "router",
+        "activatedRoute",
+        "busStore",
+        "city",
+        "route",
+        "direction"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router'",
+        "'rxjs'",
+        "'../bus.store'",
+        "'app-route'",
+        "'./route.component.html'",
+        "'./route.component.scss'",
+        "'get'",
+        "'city'",
+        "'get'",
+        "'route'",
+        "'get'",
+        "'direction'",
+        "'merge'"
+    ],
+    "variables": [],
+    "comments": [
+        "this.busStore.busStopOfArrival$.subscribe((res) => {",
+        "console.log('aaa', res);",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "onDirection"
+    ],
+    "classes": [
+        "RouteComponent"
+    ]
+}

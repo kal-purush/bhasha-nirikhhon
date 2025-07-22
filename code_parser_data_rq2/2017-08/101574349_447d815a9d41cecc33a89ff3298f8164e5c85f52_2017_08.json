@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "angular",
+        "emailDuplicateChecker",
+        "$http",
+        "$q",
+        "linkFunc",
+        "directive",
+        "scope",
+        "element",
+        "attrs",
+        "modelCtrl",
+        "modelCtrl",
+        "modelCtrl",
+        "modelCtrl",
+        "modelValue",
+        "viewValue",
+        "modelCtrl",
+        "modelValue",
+        "$q",
+        "$q",
+        "$http",
+        "scope",
+        "scope",
+        "modelValue",
+        "successCallback",
+        "result",
+        "result",
+        "deferred",
+        "deferred",
+        "failureCallback",
+        "result",
+        "result",
+        "deferred"
+    ],
+    "literals": [
+        "'use strict'",
+        "'emailDuplicateChecker'",
+        "'emailDuplicateChecker'",
+        "'A'",
+        "'ngModel'",
+        "'@'",
+        "'@'",
+        "'?'",
+        "'='"
+    ],
+    "variables": [
+        "directive",
+        "deferred"
+    ],
+    "comments": [
+        "make GET RESTful api which returns email address already exists if api returns boolean data\n   * example: <input api=\"/api/v1/users\" query=\"email\" ng-model=\"vm.form.email\"/> will call api '/api/v1/users?email={{ vm.form.email }}'\n   * < RESULT according to return value >\n   * true: the email address already exists\n   * false: the email address does not exist",
+        "@ngInject",
+        "will make form.$error.isDuplicate true",
+        "will make form.$error.isDuplicate undefined."
+    ],
+    "docstrings": [
+        "* AngularJS directive used to check if the email input already exists.\n * Used in soundfloor.net\n *\n * @author jolcaleb"
+    ],
+    "functions": [
+        "emailDuplicateChecker",
+        "linkFunc"
+    ],
+    "classes": []
+}

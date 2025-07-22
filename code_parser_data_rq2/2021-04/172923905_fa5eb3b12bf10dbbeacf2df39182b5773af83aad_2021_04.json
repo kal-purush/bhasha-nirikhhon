@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Threading",
+        "Threading",
+        "Tasks",
+        "Messerli",
+        "LinqToRest",
+        "TResult",
+        "TResult",
+        "IQueryable",
+        "TResult",
+        "queryable",
+        "Uri",
+        "customRequestUri",
+        "CancellationToken",
+        "cancellationToken",
+        "queryable",
+        "Provider",
+        "IRestQueryProvider",
+        "queryableProvider",
+        "TResult",
+        "queryableProvider",
+        "ExecuteAsync",
+        "queryable",
+        "Expression",
+        "customRequestUri",
+        "cancellationToken",
+        "InvalidOperationException",
+        "TResult"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "<exception cref=\"InvalidOperationException\">Thrown when the <paramref name=\"queryable\"/> is not from <c>LinqToRest</c>.</exception>"
+    ],
+    "docstrings": [
+        "<summary>Executes a custom request. Note that any sub-entities are fetched using the default URL naming scheme.</summary>"
+    ],
+    "functions": [
+        "ExecuteCustomAsync"
+    ],
+    "classes": [
+        "RestQueryableExtensions"
+    ]
+}

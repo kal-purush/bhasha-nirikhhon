@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "json",
+        "config",
+        "get_config",
+        "result",
+        "Result",
+        "requests",
+        "get_config",
+        "msg",
+        "msg",
+        "result",
+        "json",
+        "dumps",
+        "result",
+        "Result",
+        "result",
+        "task_def",
+        "cells",
+        "requests",
+        "post",
+        "config",
+        "R_WORKER_URL",
+        "headers",
+        "data",
+        "json",
+        "dumps",
+        "request",
+        "r",
+        "json",
+        "i",
+        "len",
+        "resultR",
+        "resultR",
+        "i",
+        "resultR",
+        "i",
+        "doublet_scores",
+        "_format_result",
+        "result"
+    ],
+    "literals": [
+        "\"body\"",
+        "\"cells\"",
+        "\"cells\"",
+        "f\"{config.R_WORKER_URL}/v0/getDoubletScore\"",
+        "\"content-type\"",
+        "\"application/json\"",
+        "'cells_id'",
+        "'cells_id'",
+        "'doublet_scores'",
+        "\"doubletScore\""
+    ],
+    "variables": [
+        "config",
+        "task_def",
+        "result",
+        "cells",
+        "request",
+        "r",
+        "resultR",
+        "result",
+        "cell",
+        "doublet_scores",
+        "result",
+        "cell"
+    ],
+    "comments": [
+        "JSONify result.",
+        "Return a list of formatted results.",
+        "the cells to get doublet score data for"
+    ],
+    "docstrings": [],
+    "functions": [
+        "_format_result",
+        "compute"
+    ],
+    "classes": [
+        "GetDoubletScore"
+    ]
+}

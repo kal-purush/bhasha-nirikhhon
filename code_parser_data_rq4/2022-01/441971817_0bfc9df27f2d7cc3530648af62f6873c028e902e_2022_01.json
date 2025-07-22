@@ -1,0 +1,21 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "anonymous function",
+        "var hello=function()\n{\n    console.log(\"Hello\")\n}\nhello()",
+        "var hello=function(a,b)\n{\n    var c=a+b\n    console.log(\"sum is \",c)\n}\nhello(23,4)",
+        "var hello=function(a,b)\n{\n    var c=a+b\n    return c\n}\nvar t=hello(23,4)\nconsole.log(\"sum is \",t)",
+        "var hello=function(a,b,k){\n    var c=a+b\n    console.log(\"sum is\",c)\n    k()\n}\nhello(23,4,function(){\n    console.log(\"How are you\")\n})",
+        "function Hello()\n{\n    return function()\n    {\n        var a=34,b=43,c\n        c=a+b\n        console.log(\"Sum is \",c)\n    }\n}\nvar t=Hello();\nconsole.log(t)\nt()",
+        "function Hello()\n{\n    return function()\n    {\n        var a=34,b=43,c\n        c=a+b\n        // console.log(\"Sum is \",c)\n        return c\n    }\n}\nvar t=Hello();\nvar sd=t()\nconsole.log(sd)",
+        "var ab=()=>{\n    var a=23,b=3\n    console.log(\"Value is \",a)\n}\nab()",
+        "var par=(a,b)=>{\n    console.log(\"the value is \",(a+b))\n}\npar(23,5)",
+        "var c=(a,b)=>{\n    return (a+b)\n}\nvar t=c(22,6)\nconsole.log(t)",
+        "var t=(a,b)=>a+b\nvar k=t(23,4)\nconsole.log(\"sum is \",k)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "number",
+        "i",
+        "number",
+        "i",
+        "number",
+        "i",
+        "truthList",
+        "truthList",
+        "isPrime",
+        "number",
+        "i",
+        "number",
+        "i",
+        "number",
+        "i",
+        "factors",
+        "i",
+        "number",
+        "i",
+        "factors",
+        "primeFactorList"
+    ],
+    "literals": [
+        "'FALSE - This is NOT a Prime number'",
+        "'TRUE - This is a Prime number'",
+        "'the prime factors in ascending order are:'"
+    ],
+    "variables": [
+        "truthList",
+        "i",
+        "factors",
+        "i"
+    ],
+    "comments": [
+        "Exercises found on https://sites.google.com/site/prologsite/prolog-problems",
+        "2. Arithmethic",
+        "2.1 Determine whether a given integer number is prime.",
+        "Example:\n\t\tisPrime(7).\n\t\tresult = true",
+        "Definition of a prime: A prime number (or a prime) is a natural number greater than 1 that has no positive divisors other than 1 and itself. (wikipedia)",
+        "2.2 Determine the prime factors of a given positive integer.",
+        "Example:\n\t\tprimeFactorList(315, L).\n\t\tresult = true",
+        "find divisors starting with 2",
+        "console.log(i, 'i')",
+        "console.log(number /= i, 'number /= i')",
+        "Q===========> WHY do i get [3,3,5,7]. why is 3 twice in this list. Also, if I uncomment the two console logs, why does it only display [3,5]"
+    ],
+    "docstrings": [],
+    "functions": [
+        "isPrime",
+        "primeFactorList"
+    ],
+    "classes": []
+}

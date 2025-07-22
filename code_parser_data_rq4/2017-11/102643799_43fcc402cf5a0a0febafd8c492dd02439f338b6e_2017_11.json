@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Board",
+        "test",
+        "chunkPart",
+        "sampleCsvFiles",
+        "sampleCsvFiles",
+        "chunkPart",
+        "sampleCsvFiles",
+        "chunkPart",
+        "csvFile",
+        "Board",
+        "csvFile",
+        "actualChunk",
+        "expect",
+        "actualChunk"
+    ],
+    "literals": [
+        "'./Board'",
+        "X,X,X,X,X,X,X,X,X,X,X,X,X,X\nX,X,X,X,X,X,X,X,X,X,X,X,X,X\nX,X,.,.,.,.,.,.,.,.,.,.,X,X\nX,X,.,X,X,X,X,X,X,X,.,.,X,X\nX,X,.,X,X,X,X,X,X,X,.,.,X,X\nX,X,.,X,X,X,X,X,X,X,.,.,.,.\nX,X,.,.,.,.,.,.,.,.,.,.,X,X\nX,X,.,X,X,.,X,X,.,X,X,.,X,X\nX,X,O,X,X,.,X,X,.,X,O,.,X,X\nX,X,X,X,X,.,X,X,.,.,.,X,X,X\nX,X,X,X,X,.,X,X,X,X,X,X,X,X",
+        "X,X,X,X,X,X,X,X,X,X,X,X,X,X\nX,.,.,.,.,.,.,.,.,.,.,.,O,X\nX,.,X,.,.,X,X,.,X,X,X,X,.,X\nX,.,X,X,.,X,X,.,X,,,X,.,X\nX,.,.,X,.,X,X,.,X,X,X,X,.,X\n.,.,.,.,.,.,.,.,.,.,.,.,.,X\nX,.,X,X,.,X,X,X,.,X,X,X,X,X\nX,.,X,X,.,X,X,X,.,X,,,,\nX,.,X,X,.,.,.,.,.,X,,,,\nX,O,X,X,X,X,X,X,.,X,,,,\nX,X,X,,,,,X,.,X,,,,",
+        ",,,,X,.,X,X,X,X,X,,,X\n,,,,X,.,X,X,X,X,X,,,X\n,,,,X,.,X,X,,,,,,\n,,,,X,.,X,X,,,X,X,X,\nX,X,X,X,X,.,X,X,,,X,,,\nX,,,,,.,,,,,X,,,\nX,X,X,X,X,.,X,X,,,X,,,\n,,,,X,.,X,X,,,X,X,X,X\n,,,,X,.,X,X,,,,,,\n,,,,X,.,X,X,,X,X,X,X,X\n,,,,X,.,X,X,,X,X,X,X,X",
+        "X,,,X,X,X,X,X,.,X,,,,\nX,,,X,X,X,X,X,.,X,,,,\n,,,,,,X,X,.,X,,,,\n,X,X,X,,,X,X,.,X,,,,\n,,,X,,,X,X,.,X,X,X,X,X\n,,,X,,,,,.,,,,,X\n,,,X,,,X,X,.,X,X,X,X,X\nX,X,X,X,,,X,X,.,X,,,,\n,,,,,,X,X,.,X,,,,\nX,X,X,X,X,,X,X,.,X,,,,\nX,X,X,X,X,,X,X,.,X,,,,",
+        "X,X,X,X,X,.,X,X,X,X,X,X,X,X\nX,.,.,.,.,.,.,.,.,.,.,.,.,X\nX,.,X,X,X,.,X,X,X,X,X,X,.,X\nX,.,X,.,.,.,.,.,.,.,O,X,.,X\nX,.,X,.,X,X,X,X,X,X,.,X,.,X\nX,.,.,.,X,X,,,X,X,.,.,.,.\nX,.,X,.,X,X,X,X,X,X,.,X,.,X\nX,.,X,.,.,.,.,.,.,.,.,X,.,X\nX,.,X,X,X,X,X,X,.,X,X,X,.,X\nX,O,.,.,.,.,.,.,.,.,.,.,.,X\nX,X,X,X,X,X,X,X,X,X,X,X,X,X",
+        "X,X,X,X,X,X,X,X,.,X,X,X,X,X\nX,.,.,.,.,.,.,.,.,.,.,.,.,X\nX,.,X,X,.,X,X,X,X,X,X,X,.,X\nX,.,X,O,.,.,.,.,.,.,.,.,.,X\nX,.,X,.,X,X,.,X,X,X,.,X,.,X\n.,.,X,.,X,X,.,X,X,X,.,X,.,X\nX,.,X,.,X,X,.,X,X,X,.,X,.,X\nX,.,X,.,.,.,.,.,O,.,.,.,.,X\nX,.,X,.,X,X,X,X,X,X,X,X,.,X\nX,.,.,.,.,.,.,.,.,.,.,.,.,X\nX,X,X,X,X,X,X,X,X,X,X,X,X,X",
+        "'CSV file parsing'",
+        "Map:\\n${csvFile}",
+        "Chunk:\\n${actualChunk}"
+    ],
+    "variables": [
+        "sampleCsvFiles",
+        "csvFile",
+        "actualChunk"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

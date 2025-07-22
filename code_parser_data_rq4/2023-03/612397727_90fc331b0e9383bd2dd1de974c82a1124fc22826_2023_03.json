@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "typing",
+        "Dict",
+        "Optional",
+        "common_params",
+        "Optional",
+        "Dict",
+        "emr_serverless_params",
+        "Optional",
+        "Dict",
+        "emr_ec2_params",
+        "Optional",
+        "Dict",
+        "common_params",
+        "emr_serverless_params",
+        "emr_ec2_params",
+        "deployment_type",
+        "deployment_type",
+        "SUPPORTED_ENVIRONMENTS",
+        "ValueError",
+        "deployment_type",
+        "k",
+        "v",
+        "_common",
+        "items",
+        "v",
+        "k",
+        "v",
+        "_environment_params",
+        "deployment_type",
+        "items",
+        "v",
+        "join",
+        "k",
+        "v",
+        "k",
+        "v",
+        "conf_items",
+        "items"
+    ],
+    "literals": [
+        "\"emr_serverless\"",
+        "\"emr_ec2\"",
+        "\"emr_serverless\"",
+        "\"emr_ec2\"",
+        "f\"{deployment_type} environment is not supported.\"",
+        "\" \"",
+        "f\"--conf {k}={v}\""
+    ],
+    "variables": [
+        "SUPPORTED_ENVIRONMENTS",
+        "_common",
+        "_environment_params",
+        "conf_items",
+        "conf_items",
+        "k",
+        "conf_items",
+        "k"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    SparkParams allows deployment packages to specify different sets of\n    Spark `--conf` parameters based on the environment being deployed to.\n    \"\"\"",
+        "\"\"\"\n        Return a set of string spark-submit parameters for the provided deployment type.\n        \"\"\""
+    ],
+    "functions": [
+        "params_for"
+    ],
+    "classes": [
+        "SparkParams"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "lines",
+        "lines",
+        "lines",
+        "firstLine",
+        "lastLine",
+        "lastLine",
+        "lines",
+        "line",
+        "line",
+        "indent"
+    ],
+    "literals": [
+        "string",
+        "\"\\n\"",
+        "\"\"",
+        "\"The first line of an indented string must be empty.\"",
+        "\"\"",
+        "\"The last line of an indented string may only contain whitespace.\"",
+        "\"\"",
+        "^${indent}",
+        "\"\"",
+        "\"\\n\""
+    ],
+    "variables": [
+        "lines",
+        "firstLine",
+        "lastLine",
+        "indent"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* An imitation of Swift's multiline string literals.\n *\n * The tagged template literal can be indented to match the surrounding code.\n * The whitespace before the closing backtick (`) determines what whitespace to\n * ignore before all of the other lines. However, if you write whitespace at the\n * beginning of a line in addition to what’s before the closing backtick, that\n * whitespace is included."
+    ],
+    "functions": [
+        "indented"
+    ],
+    "classes": []
+}

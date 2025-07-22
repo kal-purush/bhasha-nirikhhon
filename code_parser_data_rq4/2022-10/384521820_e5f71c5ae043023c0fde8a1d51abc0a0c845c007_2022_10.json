@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "inject",
+        "provide",
+        "Logger",
+        "Game",
+        "SyncHandler",
+        "FetchEpicGames",
+        "BatchInsertEpicGames",
+        "ListEpicGamesFromDB",
+        "provide",
+        "EpicSync",
+        "fetchEpicGames",
+        "listFromDB",
+        "insertEpicGames",
+        "inject",
+        "logger",
+        "dryRun",
+        "game",
+        "game",
+        "dryRun",
+        "diff",
+        "diff",
+        "diff",
+        "diff"
+    ],
+    "literals": [
+        "'immutable'",
+        "'inversify'",
+        "'inversify-binding-decorators'",
+        "'winston'",
+        "'../../domain/Game'",
+        "'../../interfaces'",
+        "'../../usecases'",
+        "string",
+        "'Logger'",
+        "[EpicSync][dry-run mode] ${diff.count()} games should be added",
+        "'Method not implemented.'"
+    ],
+    "variables": [
+        "diff"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "load",
+        "insert",
+        "clean"
+    ],
+    "classes": [
+        "EpicSync"
+    ]
+}

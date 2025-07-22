@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "org",
+        "dasein",
+        "cloud",
+        "javax",
+        "annotation",
+        "Nonnull",
+        "javax",
+        "annotation",
+        "retryAfter",
+        "resourceId",
+        "Nonnull",
+        "resourceId",
+        "resourceId",
+        "Nonnull",
+        "resourceId",
+        "reason",
+        "resourceId",
+        "reason",
+        "Nonnull",
+        "resourceId",
+        "retryAfter",
+        "resourceId",
+        "retryAfter",
+        "Nonnull",
+        "resourceId",
+        "retryAfter",
+        "reason",
+        "reason",
+        "resourceId",
+        "resourceId",
+        "retryAfter",
+        "retryAfter",
+        "retryAfter",
+        "Nonnull",
+        "resourceId"
+    ],
+    "literals": [
+        "\"Resource not ready\"",
+        "\"Resource not ready\""
+    ],
+    "variables": [
+        "retryAfter",
+        "resourceId"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @author Stas Maksimov (stas.maksimov@software.dell.com)\n * @since 0.9.9",
+        "* Operation on the resource <code>resourceId</code> was unsuccessful, no retry suggestions are given\n     * @param resourceId resource identifier",
+        "* Operation on the resource <code>resourceId</code> was unsuccessful, no retry suggestions are given\n     * @param resourceId resource identifier\n     * @param reason additional explanation",
+        "* Operation on the resource <code>resourceId</code> was unsuccessful, but it may be possible to retry after \n     * a timeout of <code>retryAfter</code> seconds.\n     * @param resourceId resource identifier\n     * @param retryAfter suggested timeout in seconds",
+        "* Operation on the resource <code>resourceId</code> was unsuccessful, but it may be possible to retry after \n     * a timeout of <code>retryAfter</code> seconds.\n     * @param resourceId resource identifier\n     * @param retryAfter suggested timeout in seconds\n     * @param reason additional explanation",
+        "* Last operation on the resource may be repeated after a given timeout, unless the timeout value is negative.\n     * @return retry timeout in seconds, retry is not recommended if value is negative",
+        "* Identifier of the resource upon which the last operation was unsuccessful.\n     * @return resource identifier"
+    ],
+    "functions": [
+        "ResourceNotReadyException",
+        "ResourceNotReadyException",
+        "ResourceNotReadyException",
+        "ResourceNotReadyException",
+        "getRetryAfter",
+        "getResourceId"
+    ],
+    "classes": [
+        "ResourceNotReadyException"
+    ]
+}

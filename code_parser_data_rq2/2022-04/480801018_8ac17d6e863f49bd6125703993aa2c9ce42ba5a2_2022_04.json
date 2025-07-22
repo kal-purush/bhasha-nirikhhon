@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "styled",
+        "css",
+        "spacing",
+        "styled",
+        "isMdxMode",
+        "spacing",
+        "styled",
+        "height",
+        "overflow",
+        "styled",
+        "styled",
+        "isMdxMode",
+        "css",
+        "spacing"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "\"../constants/spacingSize\"",
+        "padding: ${({ isMdxMode }) => (isMdxMode ? 0 : `${spacing.s40}px 0`)};\n  border-bottom: 1px solid #3d4168;\n  color: #ffffff;\n  font-family: inherit;",
+        "${spacing.s40}px 0",
+        "string",
+        "string",
+        "height: ${({ height }) => `${height}px`};\n  overflow-y: ${({ overflow }) => `${overflow}`};\n  transition: height 1s ease;",
+        "${height}px",
+        "${overflow}",
+        "display: flex;\n  align-items: center;\n  gap: 16px;",
+        "${({ isMdxMode = true }) =>\n    isMdxMode\n      ? css`\n          padding-bottom: ${spacing.s50}px;\n          > *:last-child {\n            margin-bottom: 0;\n          }\n        `\n      : \"\"}",
+        "padding-bottom: ${spacing.s50}px;\n          > *:last-child {\n            margin-bottom: 0;\n          }",
+        "\"\""
+    ],
+    "variables": [
+        "StyledAccordion",
+        "AccordionBodyWrapper",
+        "AccordionTitleWrapper",
+        "InnerContentWrapper"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

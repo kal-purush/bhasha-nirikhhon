@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "mongoose",
+        "mongoose",
+        "mongoose",
+        "collectionName",
+        "collections",
+        "mongoose",
+        "collectionName",
+        "collection",
+        "mongoose",
+        "collectionName",
+        "collections",
+        "mongoose",
+        "collectionName",
+        "collection",
+        "error",
+        "error",
+        "error",
+        "databaseName",
+        "runSaveMiddleware",
+        "beforeAll",
+        "databaseName",
+        "mongoose",
+        "url",
+        "beforeEach",
+        "seedDb",
+        "runSaveMiddleware",
+        "afterEach",
+        "removeAllCollections",
+        "afterAll",
+        "dropAllCollections",
+        "mongoose"
+    ],
+    "literals": [
+        "'./seeds'",
+        "'mongoose'",
+        "'useCreateIndex'",
+        "'ns not found'",
+        "'a background operation is currently running'",
+        "string",
+        "mongodb://127.0.0.1/${databaseName}"
+    ],
+    "variables": [
+        "mongoose",
+        "collections",
+        "collection",
+        "collections",
+        "collection",
+        "url"
+    ],
+    "comments": [
+        "global beforeAll beforeEach afterEach afterAll",
+        "Sometimes this error happens, but you can safely ignore it",
+        "This error occurs when you use it.todo. You can",
+        "safely ignore this error too",
+        "Connect to Mongoose",
+        "there should be different local databases for each test file to prevent data spills",
+        "Toys database before each test",
+        "Cleans up database between each test",
+        "Disconnect Mongoose"
+    ],
+    "docstrings": [],
+    "functions": [
+        "removeAllCollections",
+        "dropAllCollections",
+        "setupDB"
+    ],
+    "classes": []
+}

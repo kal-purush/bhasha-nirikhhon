@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "input",
+        "line",
+        "row",
+        "line",
+        "col",
+        "col",
+        "row",
+        "input",
+        "input",
+        "arr",
+        "arr",
+        "nodes",
+        "node",
+        "i",
+        "row",
+        "col",
+        "row",
+        "col",
+        "row",
+        "col",
+        "row",
+        "col",
+        "pos",
+        "nodes",
+        "el",
+        "el",
+        "pos",
+        "el",
+        "pos",
+        "node",
+        "fn",
+        "args",
+        "args",
+        "cache",
+        "key",
+        "cache",
+        "key",
+        "fn",
+        "args",
+        "cache",
+        "key",
+        "result",
+        "result",
+        "memo",
+        "cache",
+        "memo"
+    ],
+    "literals": [
+        "c${col}r${row}"
+    ],
+    "variables": [
+        "nodes",
+        "height",
+        "width",
+        "node",
+        "up",
+        "dn",
+        "lt",
+        "rt",
+        "cache",
+        "key",
+        "result"
+    ],
+    "comments": [
+        "A list of snippets which may generally be useful",
+        "General memoizing function, with .cache property for inspection",
+        "more adaptable",
+        "const key = args.join(' ') // better for this case"
+    ],
+    "docstrings": [
+        "* Given input as lines, creates an array of linked nodes (up, dn, lt, rt)"
+    ],
+    "functions": [
+        "memoize",
+        "memo"
+    ],
+    "classes": []
+}

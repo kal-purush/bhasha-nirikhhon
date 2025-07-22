@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "gql",
+        "gql",
+        "MessageFields",
+        "gql",
+        "gql",
+        "MessageFields"
+    ],
+    "literals": [
+        "\"@apollo/client\"",
+        "id\n  sender {\n    id\n    username\n  }\n  body\n  createdAt",
+        "query Messages($conversationId: String!) {\n        messages(conversationId: $conversationId) {\n          ${MessageFields}\n        }\n      }",
+        "mutation SendMessage(\n        $id: String!\n        $conversationId: String!\n        $senderId: String!\n        $body: String!\n      ) {\n        sendMessage(\n          id: $id\n          conversationId: $conversationId\n          senderId: $senderId\n          body: $body\n        )\n      }",
+        "subscription MessageSent($conversationId: String!) {\n        messageSent(conversationId: $conversationId) {\n          ${MessageFields}\n        }\n      }"
+    ],
+    "variables": [
+        "MessageFields"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

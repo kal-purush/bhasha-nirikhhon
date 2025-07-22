@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "datadogRum",
+        "CommonProperties",
+        "RumPublicApi",
+        "RumGlobal",
+        "RumInitConfiguration",
+        "RumUserConfiguration",
+        "RumEvent",
+        "RumActionEvent",
+        "RumErrorEvent",
+        "RumLongTaskEvent",
+        "RumResourceEvent",
+        "RumViewEvent",
+        "RumEventDomainContext",
+        "RumViewEventDomainContext",
+        "RumErrorEventDomainContext",
+        "RumActionEventDomainContext",
+        "RumFetchResourceEventDomainContext",
+        "RumXhrResourceEventDomainContext",
+        "RumOtherResourceEventDomainContext",
+        "RumLongTaskEventDomainContext"
+    ],
+    "literals": [
+        "'./boot/rumSlim.entry'",
+        "'@datadog/browser-rum-core'"
+    ],
+    "variables": [],
+    "comments": [
+        "Keep the following in sync with packages/rum/src/index.ts",
+        "Events",
+        "Events context"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

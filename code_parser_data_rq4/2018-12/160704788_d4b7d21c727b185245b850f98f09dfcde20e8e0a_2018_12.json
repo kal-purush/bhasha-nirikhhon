@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "requestAPI",
+        "fetch",
+        "request",
+        "response",
+        "myJson",
+        "myJson",
+        "myJson"
+    ],
+    "literals": [
+        "'http://api.openweathermap.org/data/2.5/weather?q='",
+        "'tfCity'",
+        "'&APPID=0afbd2dc40130488ab73ab64f3f9573a'",
+        "'city not found'",
+        "'temp'",
+        "'La ville '",
+        "'tfCity'",
+        "' n\\'a pas été trouvée'",
+        "'temp'",
+        "'temp'",
+        "'Température à '",
+        "'tfCity'",
+        "' '",
+        "'°C'"
+    ],
+    "variables": [
+        "requestAPI",
+        "request",
+        "response",
+        "myJson"
+    ],
+    "comments": [
+        "try{\n        \n    } catch(error){\n        \n    }",
+        "extract JSON from the http response",
+        "let temperatureBlock = document.createElement(\"h1\");",
+        "temperatureBlock.textContent = document.createElement('Température à ' + document.getElementById('tfCity').value + ' ' + (myJson.main.temp -273.15) + ' °C');",
+        "document.body.appendChild(temperatureBlock);",
+        "do something with myJson"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

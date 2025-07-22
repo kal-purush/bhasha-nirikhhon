@@ -1,0 +1,87 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Web",
+        "Script",
+        "Serialization",
+        "rosette_api",
+        "rosette_apiExamples",
+        "args",
+        "Empty",
+        "args",
+        "Length",
+        "apikey",
+        "args",
+        "alturl",
+        "args",
+        "Length",
+        "args",
+        "Empty",
+        "IsNullOrEmpty",
+        "alturl",
+        "CAPI",
+        "apikey",
+        "CAPI",
+        "apikey",
+        "alturl",
+        "EntitiesLinkedCAPI",
+        "Entity",
+        "entities_linked_text_data",
+        "KeyValuePair",
+        "h",
+        "response",
+        "Headers",
+        "WriteLine",
+        "Format",
+        "h",
+        "Key",
+        "h",
+        "Value",
+        "WriteLine",
+        "response",
+        "ContentAsJson",
+        "e",
+        "WriteLine",
+        "e",
+        "Message"
+    ],
+    "literals": [
+        "\"Your API key\"",
+        "\"social-media\"",
+        "\"{0}:{1}\"",
+        "\"Exception: \""
+    ],
+    "variables": [
+        "apikey",
+        "alturl",
+        "CAPI",
+        "EntitiesLinkedCAPI",
+        "entities_linked_text_data",
+        "RosetteResponse",
+        "response"
+    ],
+    "comments": [
+        "Example code to call Rosette API to get linked (against Wikipedia) entities from a piece of text.",
+        "Requires Nuget Package:",
+        "rosette_api",
+        "</summary>",
+        "To use the C# API, you must provide an API key",
+        "You may set the API key via command line argument:",
+        "entities_linked yourapikeyhere",
+        "The results of the API call will come back in the form of a Dictionary"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "Main"
+    ],
+    "classes": [
+        "entities_linked"
+    ]
+}

@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "DataValidationCriteria",
+        "allowInvalid",
+        "helpText",
+        "values",
+        "allowInvalid",
+        "helpText",
+        "values"
+    ],
+    "literals": [
+        "'./DataValidationCriteria'",
+        "string",
+        "''",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "Imports",
+        "Class & methods"
+    ],
+    "docstrings": [
+        "* DataValidationBuilder class.",
+        "* Constructor",
+        "* Returns true if the rule shows a warning when input fails data validation, or false if it rejects the input entirely.\n   * The default for new data-validation rules is true.",
+        "* Gets the rule's criteria type as defined in the DataValidationCriteria enum.",
+        "* Gets an array of arguments for the rule's criteria.",
+        "* Gets the rule's help text, or null if no help text is set."
+    ],
+    "functions": [
+        "getAllowInvalid",
+        "getCriteriaType",
+        "getCriteriaValues",
+        "getHelpText"
+    ],
+    "classes": [
+        "DataValidation"
+    ]
+}

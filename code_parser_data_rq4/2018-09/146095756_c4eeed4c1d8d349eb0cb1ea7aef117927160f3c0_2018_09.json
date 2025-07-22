@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "Request",
+        "Response",
+        "DbClient",
+        "HumidityInfo",
+        "waterBodyId",
+        "DbClient",
+        "humidityQuery",
+        "waterBodyId",
+        "queryResult",
+        "row",
+        "queryResult",
+        "HumidityInfo",
+        "row",
+        "row",
+        "row",
+        "waterBodyId",
+        "humidityData",
+        "humidityInfo",
+        "humidityData"
+    ],
+    "literals": [
+        "'express'",
+        "'../server'",
+        "'../models/humidity_info.model'",
+        "\"SELECT to_char(humidity_data.datetime, 'DD-MM-YYYY') AS date, \"",
+        "\"to_char(humidity_data.datetime, 'HH:MI:SS') AS time, \"",
+        "\"humidity_data.humidity \"",
+        "\"FROM water_bodies INNER JOIN humidity_data ON \"",
+        "\"water_bodies.id=humidity_data.water_body_id \"",
+        "\"AND humidity_data.water_body_id=$1 \"",
+        "\"ORDER BY humidity_data.datetime DESC\""
+    ],
+    "variables": [
+        "humidityQuery",
+        "queryResult",
+        "humidityData",
+        "humidityInfo"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getHumidityData"
+    ],
+    "classes": [
+        "HumidityController"
+    ]
+}

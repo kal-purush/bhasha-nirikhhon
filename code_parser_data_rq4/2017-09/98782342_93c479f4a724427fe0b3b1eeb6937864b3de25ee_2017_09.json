@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Vostok",
+        "Flow",
+        "Serializers",
+        "BaseTypedSerializer",
+        "serializedValue",
+        "value",
+        "TryParse",
+        "serializedValue",
+        "value"
+    ],
+    "literals": [
+        "\"byte\""
+    ],
+    "variables": [
+        "Id"
+    ],
+    "comments": [
+        "CR(iloktionov): 1. Идентификаторы типов надо бы сделать такими, чтобы не пострадал interop с джавой (например, там byte - число со знаком, то есть вот это - \"ubyte\").",
+        "CR(iloktionov): 2. Забыли bool."
+    ],
+    "docstrings": [],
+    "functions": [
+        "TryDeserialize"
+    ],
+    "classes": [
+        "ByteSerializer"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "\"typeorm\"",
+        "'Networksettings1727821532429'",
+        "ALTER TABLE network ALTER \"exploreSettings\" TYPE JSONB USING \"exploreSettings\"::JSONB",
+        "ALTER TABLE network ADD COLUMN temp character varying(1024)",
+        "UPDATE network set lol = \"buttonTemplates\"",
+        "ALTER TABLE network ALTER temp TYPE JSONB USING temp::JSONB",
+        "ALTER TABLE network DROP COLUMN \"buttonTemplates\"",
+        "ALTER TABLE network ADD COLUMN \"buttonTemplates\" character JSONB",
+        "UPDATE network set \"buttonTemplates\" = temp",
+        "UPDATE network DROP COLUMN temp"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "Networksettings1727821532429"
+    ]
+}

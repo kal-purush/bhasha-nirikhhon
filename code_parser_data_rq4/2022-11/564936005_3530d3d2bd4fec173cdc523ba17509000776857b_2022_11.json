@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "createApi",
+        "fetchBaseQuery",
+        "PizzaApi",
+        "SearchPizzaParams",
+        "createAsyncThunk",
+        "axios",
+        "pickBy",
+        "identity",
+        "createAsyncThunk",
+        "dateOfHomeParams",
+        "axios",
+        "pickBy",
+        "currentPage",
+        "category",
+        "sortBy",
+        "order",
+        "search",
+        "identity",
+        "data"
+    ],
+    "literals": [
+        "'@reduxjs/toolkit/query/react'",
+        "'../store/types'",
+        "'@reduxjs/toolkit'",
+        "'axios'",
+        "'lodash/pickBy'",
+        "'lodash/identity'",
+        "'pizza/fetchPizzasStatus'",
+        "https://631aef4edc236c0b1ee7b8c6.mockapi.io/items"
+    ],
+    "variables": [
+        "fetchPizzas",
+        "dateOfHomeParams"
+    ],
+    "comments": [
+        "https://631aef4edc236c0b1ee7b8c6.mockapi.io/items?page=1&sortBy=price&order=desc&search=%D0%B1%D1%83%D1%80",
+        "limit: 3,",
+        "!under development for switch",
+        "export const fetchPizzas=createApi({",
+        "reducerPath:'api/pizzas',",
+        "baseQuery:fetchBaseQuery({baseUrl:'https://631aef4edc236c0b1ee7b8c6.mockapi.io'}),",
+        "endpoints:build=>({",
+        "getProducts:build.query<PizzaApi[], string>({query:",
+        "(all)=>({",
+        "url:`/items?${all}`,",
+        "})",
+        "})",
+        "})",
+        "})",
+        "export const {useGetProductsQuery}=fetchPizzas",
+        "TODO:",
+        "?-1) test 3 fetch in the function",
+        "?-2)switch to RTK query",
+        "?-3)Pagination"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

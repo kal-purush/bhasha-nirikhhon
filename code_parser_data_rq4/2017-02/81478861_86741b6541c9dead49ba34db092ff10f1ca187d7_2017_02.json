@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Pipe",
+        "PipeTransform",
+        "Pipe",
+        "keyword",
+        "keyword",
+        "keyword",
+        "value",
+        "keyword",
+        "value",
+        "keyword",
+        "array",
+        "keyword",
+        "array",
+        "keyword",
+        "array",
+        "keyword"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "'sortBy'",
+        "string",
+        "'string'",
+        "\"IMA STRING! WUTTTTT!\""
+    ],
+    "variables": [],
+    "comments": [
+        "if(type == 'object'){",
+        "return array.filter(this.filterByObject(filter));",
+        "} else {",
+        "console.log(\"Unknown filter type???\");",
+        "console.log(type);",
+        "console.log(filter);",
+        "return array;",
+        "}"
+    ],
+    "docstrings": [
+        "* Created by cookx876 on 2/13/17."
+    ],
+    "functions": [
+        "sortByString",
+        "transform"
+    ],
+    "classes": [
+        "sortBy"
+    ]
+}

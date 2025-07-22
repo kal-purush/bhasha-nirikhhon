@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "styled",
+        "css",
+        "Tooltip",
+        "styled",
+        "ContainerProps",
+        "props",
+        "props",
+        "css",
+        "props",
+        "props",
+        "css",
+        "props",
+        "props",
+        "css",
+        "styled",
+        "Tooltip"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'../Tooltip'",
+        "background: #232129;\n  border-radius: 10px;\n  padding: 16px;\n  width: 100%;\n\n  border: 2px solid #232129;\n  color: #666360;\n\n  display: flex;\n  align-items: center;\n\n  & + div {\n    margin-top: 8px;\n  }\n\n  ${props =>\n    props.isErrored &&\n    css`\n      border-color: #c53030;\n    `}\n\n  ${props =>\n    props.isFocused &&\n    css`\n      color: #ff9000;\n      border-color: #ff9000;\n    `}\n  ${props =>\n    props.isFilled &&\n    css`\n      color: #ff9000;\n    `}\n\n  input {\n    flex: 1;\n    background: transparent;\n    border: 0;\n    color: #f4ede8;\n\n    &::placeholder {\n      color: #666360;\n    }\n  }\n\n  svg {\n    margin-right: 16px;\n  }",
+        "border-color: #c53030;",
+        "color: #ff9000;\n      border-color: #ff9000;",
+        "color: #ff9000;",
+        "height: 20px;\n  margin-left: 16px;\n\n  svg {\n    margin: 0;\n  }\n\n  span {\n    background: #c53030;\n    color: #fff;\n\n    &::before {\n      border-color: #c53030 transparent;\n    }\n  }"
+    ],
+    "variables": [
+        "Container"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "os",
+        "pymongo",
+        "MongoClient",
+        "dotenv",
+        "load_dotenv",
+        "load_dotenv",
+        "os",
+        "getenv",
+        "MONGO_URI",
+        "ValueError",
+        "MongoClient",
+        "MONGO_URI"
+    ],
+    "literals": [
+        "\"MONGODB_URI\"",
+        "\"MONGODB_URI not set in environment variables.\""
+    ],
+    "variables": [
+        "MONGO_URI",
+        "conn"
+    ],
+    "comments": [
+        "Import the 'os' module to interact with the environment variables",
+        "Import the MongoDB client to connect to MongoDB",
+        "Import the 'load_dotenv' function to load variables from the .env file",
+        "Load the environment variables from the .env file",
+        "Get the MongoDB URI from environment variables",
+        "If the environment variable isn't found, raise an error",
+        "Create the MongoDB connection using the URI"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

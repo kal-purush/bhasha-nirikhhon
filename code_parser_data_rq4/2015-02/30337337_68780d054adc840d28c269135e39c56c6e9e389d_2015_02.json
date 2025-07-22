@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "TSC",
+        "sourceCode",
+        "TSC",
+        "sourceCode",
+        "sourceCode",
+        "i",
+        "lineSplitCode",
+        "i",
+        "lineSplitCode",
+        "i",
+        "TSC",
+        "lineSplitCode",
+        "i",
+        "lineSplitCode",
+        "j",
+        "lineSplitCode",
+        "j",
+        "currentLine",
+        "currentLine",
+        "tokenStream",
+        "tokenCounter",
+        "tokenMatch",
+        "tokenCounter",
+        "tokenMatch",
+        "currentLine",
+        "tokenStream",
+        "tokenVal",
+        "TSC",
+        "Token"
+    ],
+    "literals": [
+        "\"taSourceCode\"",
+        "\"\"",
+        "string"
+    ],
+    "variables": [
+        "sourceCode",
+        "tokenStream",
+        "tokenCounter",
+        "lineSplitCode",
+        "i",
+        "currentLine",
+        "j",
+        "tokenMatch"
+    ],
+    "comments": [
+        "lexer.ts",
+        "Grab the \"raw\" source code.",
+        "Trim the leading and trailing spaces.",
+        "Regex Match For:                 ID      Integers           Strings     +    EQ   NEQ  =   TypeI TypeS    TypeB     BoolF   BoolT  Parens  IF   WHILE   PRINT   Bracks  Space",
+        "new Token(tokenMatch);",
+        "TODO: Check if regex match removes previous token data, else shift currentLine string and match again"
+    ],
+    "docstrings": [],
+    "functions": [
+        "lex",
+        "generateToken"
+    ],
+    "classes": [
+        "Lexer"
+    ]
+}

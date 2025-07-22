@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "angular",
+        "mainApp",
+        "$state",
+        "$state",
+        "mainApp",
+        "$stateProvider",
+        "$urlRouterProvider",
+        "$stateProvider",
+        "$urlRouterProvider"
+    ],
+    "literals": [
+        "'peopleManager'",
+        "'ui.router'",
+        "'ui.gravatar'",
+        "'ui.bootstrap'",
+        "'ngStorage'",
+        "'toaster'",
+        "'peopleManager.person'",
+        "'peopleManager.login'",
+        "'$state'",
+        "'login'",
+        "'$stateProvider'",
+        "'$urlRouterProvider'",
+        "'login'",
+        "'/login'",
+        "'./components/login/views/loginView.html'",
+        "'loginController'",
+        "'newaccount'",
+        "'/login/new'",
+        "'./components/login/views/newAccount.html'",
+        "'newUserController'",
+        "'newperson'",
+        "'/people/new'",
+        "'./components/person/views/newPerson.html'",
+        "'peopleController'",
+        "'people'",
+        "'/people'",
+        "'./components/person/views/personList.html'",
+        "'peopleController'",
+        "'personprofile'",
+        "'/people/:id'",
+        "'./components/person/views/showPerson.html'",
+        "'peopleController'",
+        "'login'"
+    ],
+    "variables": [
+        "mainApp"
+    ],
+    "comments": [
+        "Archivo principal de aplicación AngularJS",
+        "Carga de Módulos",
+        "'peopleManager.error'",
+        "Ruta por default",
+        "Configuración de routing interno",
+        "UI-Route",
+        ".state('error', {\n            url: '/error',\n              templateUrl: './components/error/views/error.html',\n              controller: 'errorController'\n          })"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

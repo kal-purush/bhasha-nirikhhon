@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Knex",
+        "db",
+        "data",
+        "db",
+        "data",
+        "db",
+        "withdrawCode",
+        "db",
+        "withdrawCode",
+        "db",
+        "withdrawId",
+        "db",
+        "withdrawId",
+        "db",
+        "userId",
+        "db",
+        "userId"
+    ],
+    "literals": [
+        "'knex'",
+        "'Withdraw'",
+        "'Ward'",
+        "'Ward.wardId'",
+        "'Withdraw.Ward_wardId'",
+        "'Requisition'",
+        "'Requisition.requisitionCode'",
+        "'Withdraw.Requisition_requisitionCode'",
+        "'withdrawCode'",
+        "'status_withdraw'",
+        "'2'",
+        "'withdrawId'",
+        "'Users_userId'",
+        "'withdrawCode'"
+    ],
+    "variables": [],
+    "comments": [
+        ".innerJoin('WithdrawDetail', 'WithdrawDetail.Withdraw_withdrawId', 'Withdraw.withdrawId')"
+    ],
+    "docstrings": [],
+    "functions": [
+        "insertWithdraw",
+        "getWithdrawByCode",
+        "statusWithdraw",
+        "getWithdrawByUserId"
+    ],
+    "classes": [
+        "WithdrawModel"
+    ]
+}

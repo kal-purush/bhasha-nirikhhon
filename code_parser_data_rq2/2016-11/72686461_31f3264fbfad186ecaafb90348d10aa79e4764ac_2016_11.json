@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "RPi",
+        "GPIO",
+        "GPIO",
+        "time",
+        "GPIO",
+        "setmode",
+        "GPIO",
+        "BCM",
+        "GPIO",
+        "setwarnings",
+        "GPIO",
+        "setup",
+        "GPIO",
+        "OUT",
+        "GPIO",
+        "output",
+        "GPIO",
+        "HIGH",
+        "time",
+        "sleep",
+        "GPIO",
+        "output",
+        "GPIO",
+        "LOW"
+    ],
+    "literals": [
+        "\"LED on\"",
+        "\"LED off\""
+    ],
+    "variables": [],
+    "comments": [
+        "Language: Python",
+        "File name: LED.py",
+        "Description: This will toggle an LED for 1 second then turn it off",
+        "Tells the GPIO library to use Broadcom references",
+        "Disables warnings",
+        "Tells the pi which pin will be in use",
+        "Prints \"LED on\" before the LED turns on",
+        "Turns on the LED",
+        "Waits one second",
+        "Prints \"LED off\" before turning the LED off",
+        "Turns off the LED"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "logging",
+        "pkg_resources",
+        "iter_entry_points",
+        "fiona",
+        "fio",
+        "cli",
+        "cli",
+        "logging",
+        "getLogger",
+        "entry_point",
+        "iter_entry_points",
+        "entry_point",
+        "load",
+        "ImportError",
+        "log",
+        "exception",
+        "entry_point"
+    ],
+    "literals": [
+        "\"Fiona\"",
+        "'fiona.fio_commands'",
+        "'Encountered import error when loading entry point: %s'"
+    ],
+    "variables": [
+        "log"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "main: loader of all the command entry points.",
+        "Find and load all entry points in the fiona.rio_commands group.",
+        "This includes the standard commands included with Fiona as well",
+        "as commands provided by other packages.",
+        "",
+        "At a mimimum, commands must use the fiona.fio.cli.cli command",
+        "group decorator like so:",
+        "",
+        "from fiona.fio.cli import cli",
+        "",
+        "@cli.command()",
+        "def foo(...):",
+        "..."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

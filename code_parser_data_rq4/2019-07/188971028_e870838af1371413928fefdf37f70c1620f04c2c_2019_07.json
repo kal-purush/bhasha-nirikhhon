@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "path",
+        "__dirname",
+        "getBotConfig",
+        "msg",
+        "genChallEmbed",
+        "msg",
+        "descEmbed",
+        "chall"
+    ],
+    "literals": [
+        "'path'",
+        "'../util/util'",
+        "RSA... RSA...\n\nOutput of the below script is [here](https://paste.ee/r/HowMY/0).\n\n\\`\\`\\`python\nfrom Crypto.Util.number import getPrime, bytes_to_long\n\nN = getPrime(1024)*getPrime(1024) \ne = 17\n\nM1 = bytes_to_long(b'MISCCTF{first part of the flag goes here')\nM2 = bytes_to_long(b'second part is here!}')\nb = M1 - M2 + getPrime(208)*N\n\nC1 = pow(M1, e, N)\nC2 = pow(M2, e,  N)\nprint(f'e={e}\\\\nN={N}\\\\nb={b}\\\\nC1={C1}\\\\nC2={C2}')\n\\`\\`\\",
+        "'crypto14'",
+        "'RSA Level 8'",
+        "'Cryptography'",
+        "'111028987836313600'",
+        "'Joseph'",
+        "'da5f28de59da2196fe934536030365d352c4efb3b5f75c6868e70169016c5bbd'"
+    ],
+    "variables": [
+        "path",
+        "description",
+        "chall",
+        "chall",
+        "descEmbed"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

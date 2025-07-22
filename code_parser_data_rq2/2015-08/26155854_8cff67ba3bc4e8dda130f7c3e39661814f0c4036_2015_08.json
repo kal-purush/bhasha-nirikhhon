@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "edu",
+        "myinst",
+        "extensions",
+        "blackboard",
+        "admin",
+        "persist",
+        "course",
+        "CloneConfig",
+        "blackboard",
+        "admin",
+        "persist",
+        "course",
+        "CourseEventListener",
+        "blackboard",
+        "persist",
+        "Id",
+        "sourceId",
+        "targetId",
+        "cfg",
+        "sourceId",
+        "toExternalString",
+        "targetId",
+        "cfg",
+        "getLoggedOnUser",
+        "courseId",
+        "courseId",
+        "toExternalString"
+    ],
+    "literals": [
+        "\"Course Cloned. Source ID: \"",
+        "\" Target ID: \"",
+        "\" Clong Config: \"",
+        "\"Course Created ID: \""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This Class handles course create and course clone events.\n *\n * A course create event occurs when a course is created.\n *\n * A course clone event occurs when course content is copied from one course to another.\n *",
+        "* executed by the blackboard.cmsadmin.postCloneCourseEventListener extension point.\n     *\n     * This method is called after a course copy operation.  This might be a full course copy, or\n     * it might only be a copy of a subset of course content.\n     *\n     * @param sourceId The Id of the source course.\n     * @param targetId The Id of the target course\n     * @param cfg The CloneConfig object which was used when cloning the course.\n     * @throws Exception",
+        "* executed by the blackboard.cmsadmin.postCreateCourseEventListener extension point.\n     *\n     * This method is called after a course is created.\n     *\n     * @param courseId the Id of the newly created course."
+    ],
+    "functions": [
+        "courseCloned",
+        "courseCreated"
+    ],
+    "classes": [
+        "CourseEventHandler"
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "pulumi",
+        "pulumi_digitalocean",
+        "kubernetes",
+        "pulumi",
+        "Config",
+        "kubernetes",
+        "Cluster",
+        "region",
+        "version",
+        "node_pool",
+        "opts",
+        "pulumi",
+        "ResourceOptions",
+        "environs",
+        "do_token",
+        "pulumi",
+        "do_cluster",
+        "endpoint",
+        "pulumi",
+        "do_cluster",
+        "kube_configs"
+    ],
+    "literals": [
+        "\"do_token\"",
+        "\"doCluster\"",
+        "\"sfo2\"",
+        "\"1.20.2-do.0\"",
+        "\"name\"",
+        "\"worker-pool\"",
+        "\"size\"",
+        "\"s-2vcpu-2gb\"",
+        "\"nodeCount\"",
+        "\"DIGITALOCEAN_TOKEN\"",
+        "\"clusterEndpoint\"",
+        "\"clusterKubeconfig\"",
+        "\"rawConfig\""
+    ],
+    "variables": [
+        "do_token",
+        "do_cluster"
+    ],
+    "comments": [
+        "Define the DO token.",
+        "Create a new Digital Ocean Kubernetes cluster in the sfo2 region.",
+        "Export the cluster's endpoint and Kubeconfig."
+    ],
+    "docstrings": [
+        "\"\"\"A Python Pulumi program\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

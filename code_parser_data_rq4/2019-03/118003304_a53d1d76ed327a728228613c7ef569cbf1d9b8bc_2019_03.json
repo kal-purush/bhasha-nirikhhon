@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "classToPlain",
+        "plainToClass",
+        "Expose",
+        "Exclude",
+        "IPaymentRequestAttrs",
+        "ITransactionOptions",
+        "Exclude",
+        "Expose",
+        "transactionDetails",
+        "transactionDetails",
+        "Expose",
+        "description",
+        "description",
+        "Expose",
+        "callbackURL",
+        "callbackURL",
+        "classToPlain",
+        "json",
+        "plainToClass",
+        "json"
+    ],
+    "literals": [
+        "'class-transformer'",
+        "'./interactionTokens.types'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @class\n * Class representing a payment request for signing. Encodable in JWT",
+        "* Set the transaction details encoded in the payload\n   * This will be used as input to create a transaction on receiver side\n   * @example paymentRequest.transactionDetails = {\n      receiverAddress: 'yourAddress',\n      amountInEther: '0.1'\n    }",
+        "* Set the description section encoded in the payload\n   * @example paymentRequest.description = 'Payment for EV charging'",
+        "* Get the callback url encoded in the payload\n   * @example `console.log(paymentRequest.callbackURL) // 'http://example.com/payment/pending'`",
+        "* Set the callback url encoded in the payload\n   * @example `paymentRequest.callbackURL = 'http://example.com/payment/pending'`",
+        "* Serializes the {@link PaymentRequest} request as JSON-LD",
+        "* Instantiates a {@link PaymentRequest} from it's JSON form\n   * @param json - JSON encoded payment request / response"
+    ],
+    "functions": [
+        "transactionDetails",
+        "transactionDetails",
+        "description",
+        "description",
+        "callbackURL",
+        "callbackURL",
+        "toJSON",
+        "fromJSON"
+    ],
+    "classes": [
+        "PaymentRequest"
+    ]
+}

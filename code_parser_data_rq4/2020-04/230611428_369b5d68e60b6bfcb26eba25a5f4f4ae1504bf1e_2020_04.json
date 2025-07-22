@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "python_shader",
+        "python2shader",
+        "i32",
+        "f32",
+        "python2shader",
+        "index",
+        "i32",
+        "data1",
+        "i32",
+        "data2",
+        "i32",
+        "data1",
+        "index",
+        "python2shader",
+        "index",
+        "i32",
+        "data1",
+        "i32",
+        "data2",
+        "f32",
+        "data3",
+        "f32",
+        "f32",
+        "data1",
+        "index",
+        "data2",
+        "index"
+    ],
+    "literals": [
+        "\"input\"",
+        "\"GlobalInvocationId\"",
+        "\"buffer\"",
+        "\"buffer\"",
+        "\"input\"",
+        "\"GlobalInvocationId\"",
+        "\"buffer\"",
+        "\"buffer\"",
+        "\"buffer\""
+    ],
+    "variables": [
+        "data2",
+        "index",
+        "data3",
+        "index"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nA few compute examples. Compute shaders do not have vertex buffer inputs, nor\noutputs. Any data you need must be provided as uniform, buffer or texture.\n\"\"\""
+    ],
+    "functions": [
+        "compute_shader_copy",
+        "compute_shader_multiply"
+    ],
+    "classes": []
+}

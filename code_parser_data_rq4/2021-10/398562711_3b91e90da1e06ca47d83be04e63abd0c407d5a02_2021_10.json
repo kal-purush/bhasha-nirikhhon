@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "logger",
+        "LogLevel",
+        "ReplaceResult",
+        "replace",
+        "fixImportPaths",
+        "message",
+        "args",
+        "results",
+        "replace",
+        "process",
+        "error",
+        "logger",
+        "error",
+        "LogLevel",
+        "message",
+        "logger",
+        "message",
+        "args",
+        "results",
+        "fixImportPaths"
+    ],
+    "literals": [
+        "'@flex-development/grease/utils/logger.util'",
+        "'@flex-development/log/enums/log-level.enum'",
+        "'replace-in-file'",
+        "'replace-in-file'",
+        "string",
+        "'./cjs/**/*'",
+        "'./esm/**/*'",
+        "'./types/**/*'",
+        "(../.*)?${process.env.NODE_MODULES}/",
+        "''"
+    ],
+    "variables": [
+        "fixImportPaths",
+        "results"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @file Helpers - fixImportPaths\n * @module tools/helpers/fixImportPaths",
+        "* When using [TypeScript path mapping][1], path aliases are interpreted exactly\n * as written. This function fixes all import paths that match either of the\n * following regex patterns:\n *\n * - `/(../.*)?node_modules/g`\n * - `/@packages/g`\n *\n * @see https://github.com/adamreisnz/replace-in-file\n *\n * [1]: https://www.typescriptlang.org/docs/handbook/module-resolution.html#path-mapping\n *\n * @param {string} [message] - Success log message\n * @param {any[]} [args=[]] - Success log arguments\n * @return {ReplaceResult[]} Replacement results"
+    ],
+    "functions": [],
+    "classes": []
+}

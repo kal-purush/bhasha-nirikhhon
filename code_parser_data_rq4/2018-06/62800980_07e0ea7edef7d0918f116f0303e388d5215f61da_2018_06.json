@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "has",
+        "ArticleItem",
+        "route",
+        "route",
+        "invalidator",
+        "invalidator",
+        "category",
+        "page",
+        "category",
+        "category",
+        "category",
+        "page",
+        "category",
+        "has",
+        "fetch",
+        "catKey",
+        "page",
+        "response",
+        "response",
+        "id",
+        "id",
+        "has",
+        "fetch",
+        "id",
+        "response",
+        "response"
+    ],
+    "literals": [
+        "'@dojo/has/has'",
+        "'./interfaces'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'top'",
+        "'news'",
+        "'new'",
+        "'newest'",
+        "'content'",
+        "'build-time-render'",
+        "https://node-hnapi.herokuapp.com/${catKey}?page=${page}",
+        "string",
+        "'comments'",
+        "'build-time-render'",
+        "https://node-hnapi.herokuapp.com/item/${id}"
+    ],
+    "variables": [
+        "catKey"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "route",
+        "route",
+        "fetchStories",
+        "fetchItem"
+    ],
+    "classes": [
+        "Context"
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "CreateNextContextOptions",
+        "getAuth",
+        "clerkClient",
+        "prisma",
+        "User",
+        "createInnerTRPCContext",
+        "createTRPCContext",
+        "opts",
+        "getAuth",
+        "opts",
+        "userId",
+        "clerkClient",
+        "userId",
+        "user",
+        "getUser",
+        "createInnerTRPCContext",
+        "initTRPC",
+        "TRPCError",
+        "superjson",
+        "initTRPC",
+        "createTRPCContext",
+        "superjson",
+        "shape",
+        "t",
+        "ctx",
+        "TRPCError",
+        "next",
+        "ctx",
+        "t",
+        "t",
+        "t",
+        "isAuthed"
+    ],
+    "literals": [
+        "\"@trpc/server/adapters/next\"",
+        "\"@clerk/nextjs/server\"",
+        "\"../db\"",
+        "\"@clerk/nextjs/dist/api\"",
+        "\"@trpc/server\"",
+        "\"superjson\"",
+        "\"UNAUTHORIZED\""
+    ],
+    "variables": [
+        "createInnerTRPCContext",
+        "createTRPCContext",
+        "user",
+        "user",
+        "t",
+        "isAuthed",
+        "createTRPCRouter",
+        "publicProcedure",
+        "protectedProcedure"
+    ],
+    "comments": [
+        "get userId from request",
+        "get full user object",
+        "check if the user is signed in, otherwise through a UNAUTHORIZED CODE"
+    ],
+    "docstrings": [
+        "* YOU PROBABLY DON'T NEED TO EDIT THIS FILE, UNLESS:\n * 1. You want to modify request context (see Part 1)\n * 2. You want to create a new middleware or type of procedure (see Part 3)\n *\n * tl;dr - this is where all the tRPC server stuff is created and plugged in.\n * The pieces you will need to use are documented accordingly near the end",
+        "* 1. CONTEXT\n *\n * This section defines the \"contexts\" that are available in the backend API\n *\n * These allow you to access things like the database, the session, etc, when\n * processing a request\n *",
+        "* This helper generates the \"internals\" for a tRPC context. If you need to use\n * it, you can export it from here\n *\n * Examples of things you may need it for:\n * - testing, so we dont have to mock Next.js' req/res\n * - trpc's `createSSGHelpers` where we don't have req/res\n * @see https://create.t3.gg/en/usage/trpc#-servertrpccontextts",
+        "* This is the actual context you'll use in your router. It will be used to\n * process every request that goes through your tRPC endpoint\n * @link https://trpc.io/docs/context",
+        "* 2. INITIALIZATION\n *\n * This is where the trpc api is initialized, connecting the context and\n * transformer",
+        "* 3. ROUTER & PROCEDURE (THE IMPORTANT BIT)\n *\n * These are the pieces you use to build your tRPC API. You should import these\n * a lot in the /src/server/api/routers folder",
+        "* This is how you create new routers and subrouters in your tRPC API\n * @see https://trpc.io/docs/router",
+        "* Public (unauthed) procedure\n *\n * This is the base piece you use to build new queries and mutations on your\n * tRPC API. It does not guarantee that a user querying is authorized, but you\n * can still access user session data if they are logged in"
+    ],
+    "functions": [
+        "getUser",
+        "errorFormatter"
+    ],
+    "classes": []
+}

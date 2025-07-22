@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "requests",
+        "bs4",
+        "BeautifulSoup",
+        "link",
+        "link",
+        "get",
+        "link",
+        "get",
+        "link",
+        "get",
+        "endswith",
+        "requests",
+        "get",
+        "URL",
+        "BeautifulSoup",
+        "response",
+        "content",
+        "soup",
+        "find_all",
+        "link",
+        "get",
+        "link",
+        "links",
+        "keep_it",
+        "link",
+        "link",
+        "yellow_taxi_parquet_links",
+        "link",
+        "main"
+    ],
+    "literals": [
+        "'https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page'",
+        "'href'",
+        "'yellow_tripdata'",
+        "'href'",
+        "'href'",
+        "'.parquet'",
+        "'html.parser'",
+        "'a'",
+        "'href'",
+        "\"__main__\""
+    ],
+    "variables": [
+        "URL",
+        "response",
+        "soup",
+        "links",
+        "yellow_taxi_parquet_links"
+    ],
+    "comments": [
+        "Fetch the page content",
+        "Find all links on the page",
+        "Filter out links that contain 'yellow_tripdata' and end with '.parquet'"
+    ],
+    "docstrings": [
+        "\"\"\"\nPull all the links to download NYC Yellow Taxi records\n\"\"\""
+    ],
+    "functions": [
+        "keep_it",
+        "main"
+    ],
+    "classes": []
+}

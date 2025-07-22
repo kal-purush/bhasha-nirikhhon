@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "pandas",
+        "pd",
+        "numpy",
+        "np",
+        "scipy",
+        "interpolate",
+        "interp",
+        "wl",
+        "tol",
+        "band",
+        "bands",
+        "wl",
+        "bands",
+        "band",
+        "wl",
+        "bands",
+        "band"
+    ],
+    "literals": [
+        "\"gband\"",
+        "\"C2_O\"",
+        "\"C2_N\""
+    ],
+    "variables": [
+        "bands"
+    ],
+    "comments": [
+        "Author: Devin Whitten",
+        "Date: Nov 12, 2016",
+        "print(\"Checking wavelength for band\", wl)",
+        "Checks to see if wavelength is within unacceptable limits of known bands",
+        "print(band, bands[band])",
+        "print(\"\\t in \", band)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "in_molecular_band"
+    ],
+    "classes": []
+}

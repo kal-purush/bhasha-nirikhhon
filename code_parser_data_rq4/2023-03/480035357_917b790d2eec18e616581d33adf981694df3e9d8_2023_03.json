@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "className",
+        "customProperty",
+        "prevClassName",
+        "prevCustomProperty",
+        "isLast",
+        "prevCustomProperty",
+        "prevCustomProperty",
+        "customProperty",
+        "prevCustomProperty",
+        "prevCustomProperty",
+        "prevCustomProperty",
+        "prevCustomProperty",
+        "isLast",
+        "customProperty",
+        "customProperty",
+        "customProperty",
+        "customProperty",
+        "prevCustomProperty",
+        "customProperty",
+        "prevGridClassStrings",
+        "customProperty",
+        "gridClassStrings",
+        "prevCustomProperty",
+        "customProperty",
+        "prevGridClassStrings"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"object\"",
+        "\"object\"",
+        "''",
+        ":root {\n    --grid-column-count: var(${prevCustomProperty.name}-column-count);\n    --grid-column-gap: var(${prevCustomProperty.name}-column-gap);\n    --grid-column-offset: var(${prevCustomProperty.name}-column-offset);\n    --grid-max-width: var(${prevCustomProperty.name}-max-width);\n  }",
+        ":root {\n    --grid-column-count: var(${customProperty.name}-column-count);\n    --grid-column-gap: var(${customProperty.name}-column-gap);\n    --grid-column-offset: var(${customProperty.name}-column-offset);\n    --grid-max-width: var(${customProperty.name}-max-width);\n  }",
+        "\\n@media (min-width: ${prevCustomProperty.value.breakpoint}px) and (max-width: ${customProperty.value.breakpoint}px) {\n${prevGridClassStrings}\n}\n\n@media (min-width: ${customProperty.value.breakpoint}px) {\n${gridClassStrings}\n}",
+        "\\n@media (min-width: ${prevCustomProperty.value.breakpoint}px) and (max-width: ${customProperty.value.breakpoint}px) {\n${prevGridClassStrings}\n}"
+    ],
+    "variables": [
+        "prevGridClassStrings",
+        "gridClassStrings"
+    ],
+    "comments": [
+        "TODO: descr"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

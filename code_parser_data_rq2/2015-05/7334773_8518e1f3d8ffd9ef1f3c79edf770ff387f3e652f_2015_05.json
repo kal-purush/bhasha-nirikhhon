@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "c",
+        "c",
+        "c",
+        "a",
+        "b",
+        "a",
+        "b",
+        "c",
+        "a",
+        "b",
+        "s",
+        "c",
+        "c",
+        "c",
+        "printTHIS"
+    ],
+    "literals": [
+        "\"=============== What is this ==================\"",
+        "\"===============================================\"",
+        "\"We are printing sum of \"",
+        "\" and \"",
+        "\": \"",
+        "\"=============== What is this ==================\"",
+        "\"===============================================\""
+    ],
+    "variables": [
+        "c",
+        "s"
+    ],
+    "comments": [
+        "print(3, 4);",
+        "print.call(null, 7, 9);",
+        "print.call({}, 7, 9);",
+        "print.call({name:'phoenix', age:27});",
+        "print.apply(null, [8, -1]);",
+        "print.apply({}, [8, -1]);",
+        "new print(6, -12);",
+        "Questions:"
+    ],
+    "docstrings": [
+        "* classical way to call print",
+        "* call print by `call`",
+        "* call print by `apply`",
+        "* call print by `new`",
+        "* Where is `call` and `apply` defined",
+        "* What is the first argument in `call` and `apply`",
+        "* What is `new`"
+    ],
+    "functions": [
+        "printTHIS"
+    ],
+    "classes": []
+}

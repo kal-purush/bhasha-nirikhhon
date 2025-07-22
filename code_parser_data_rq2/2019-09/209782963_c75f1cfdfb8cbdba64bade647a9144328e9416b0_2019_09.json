@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "django",
+        "template",
+        "Library",
+        "django",
+        "utils",
+        "safestring",
+        "mark_safe",
+        "json",
+        "obj",
+        "dumper",
+        "kwargs",
+        "dumper",
+        "json",
+        "dumps",
+        "dumper",
+        "obj",
+        "kwargs",
+        "replace",
+        "replace",
+        "replace",
+        "replace",
+        "rv",
+        "Library",
+        "register",
+        "is_safe",
+        "value",
+        "mark_safe",
+        "htmlsafe_json_dumps",
+        "value"
+    ],
+    "literals": [
+        "u'<'",
+        "u'\\\\u003c'",
+        "u'>'",
+        "u'\\\\u003e'",
+        "u'&'",
+        "u'\\\\u0026'",
+        "u\"'\"",
+        "u'\\\\u0027'"
+    ],
+    "variables": [
+        "dumper",
+        "rv",
+        "register"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Works exactly like :func:`dumps` but is safe for use in ``<script>``\n    tags.  It accepts the same arguments and returns a JSON string.  Note that\n    this is available in templates through the ``|tojson`` filter which will\n    also mark the result as safe.  Due to how this function escapes certain\n    characters this is safe even if used outside of ``<script>`` tags.\n\n    The following characters are escaped in strings:\n\n    -   ``<``\n    -   ``>``\n    -   ``&``\n    -   ``'``\n\n    This makes it safe to embed such strings in any place in HTML with the\n    notable exception of double quoted attributes.  In that case single\n    quote your attributes or HTML escape it in addition.\n    \"\"\""
+    ],
+    "functions": [
+        "htmlsafe_json_dumps",
+        "tojson"
+    ],
+    "classes": []
+}

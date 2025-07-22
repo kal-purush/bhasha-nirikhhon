@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "os",
+        "path",
+        "op",
+        "subprocess",
+        "sp",
+        "path",
+        "op",
+        "split",
+        "op",
+        "dirname",
+        "path",
+        "getParentDirectory",
+        "op",
+        "dirname",
+        "cloneDir",
+        "format",
+        "cloneDir",
+        "format",
+        "gitDir",
+        "op",
+        "exists",
+        "format",
+        "gitDir",
+        "sp",
+        "check_output",
+        "format",
+        "gitDir",
+        "cwd",
+        "cloneDir",
+        "shell",
+        "output"
+    ],
+    "literals": [
+        "'Parent directory is: {0}'",
+        "'git package is located at: {0}'",
+        "'\\nUpdating pyRevit from github repository...'",
+        "'{0}\\git\\cmd\\git.exe'",
+        "r'{0}\\git\\cmd\\git.exe pull'",
+        "'Can not find portable git package.'"
+    ],
+    "variables": [
+        "cloneDir",
+        "gitDir",
+        "output"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\nCopyright (c) 2014-2016 Ehsan Iran-Nejad\nPython scripts for Autodesk Revit\n\nThis file is part of pyRevit repository at https://github.com/eirannejad/pyRevit\n\npyRevit is a free set of scripts for Autodesk Revit: you can redistribute it and/or modify\nit under the terms of the GNU General Public License version 3, as published by\nthe Free Software Foundation.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\n\nSee this link for a copy of the GNU General Public License protecting this package.\nhttps://github.com/eirannejad/pyRevit/blob/master/LICENSE\n'''"
+    ],
+    "functions": [
+        "getParentDirectory"
+    ],
+    "classes": []
+}

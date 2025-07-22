@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "TbrCore"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "@type {string} Display name in the application menu.",
+        "@type {MenuItem[]} Array of menu items contained in the submenu.",
+        "@type {string} Describes the menu item type. Possible values include: separator",
+        "@type {boolean} Determines the menu item visibility in the application menu.",
+        "@type {boolean} Determines whether or not commands will dispatch from this menu item. Disabled\n         *                  menu items are visually dimmed.",
+        "@type {string} The command to be dispatched when this menu item is triggerd.\n         *  @see AtomCore.CommandRegistry.dispatch",
+        "@type {string} The command detail sent to the dispatch method when this menu item is triggered.\n         *  @see AtomCore.CommandRegistry.dispatch",
+        "@type {MenuItem} Property used by the MenuUpdater to refer to this menu item's containing submenu."
+    ],
+    "docstrings": [
+        "* Menu item object from Atom's menu template",
+        "* An object that contains the html for a menu label, a plain-text label name, and the alt key that\n     * triggers this menu item"
+    ],
+    "functions": [],
+    "classes": []
+}

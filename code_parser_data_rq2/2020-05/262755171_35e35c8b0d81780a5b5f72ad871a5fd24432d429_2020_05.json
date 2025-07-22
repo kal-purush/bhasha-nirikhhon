@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "require",
+        "require"
+    ],
+    "literals": [
+        "'jquery'",
+        "'bootstrap'",
+        "'../css/app.scss'",
+        "'Hello Webpack Encore! Edit me in assets/js/app.js'"
+    ],
+    "variables": [
+        "$"
+    ],
+    "comments": [
+        "this \"modifies\" the jquery module: adding behavior to it",
+        "the bootstrap module doesn't export/return anything",
+        "any CSS you import will output into a single css file (app.scss in this case)",
+        "Need jQuery? Install it with \"yarn add jquery\", then uncomment to import it.",
+        "import $ from 'jquery';"
+    ],
+    "docstrings": [
+        "* Welcome to your app's main JavaScript file!\n *\n * We recommend including the built version of this JavaScript file\n * (and its CSS file) in your base layout (base.html.twig)."
+    ],
+    "functions": [],
+    "classes": []
+}

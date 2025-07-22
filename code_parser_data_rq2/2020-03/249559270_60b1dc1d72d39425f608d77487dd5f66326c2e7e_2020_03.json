@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "random",
+        "random",
+        "choice",
+        "list_of_words",
+        "index",
+        "len",
+        "current_word",
+        "guessed_letters",
+        "append",
+        "current_number_of_guesses",
+        "max_number_of_guesses",
+        "guessed_letters",
+        "input",
+        "guess",
+        "current_word",
+        "index",
+        "len",
+        "current_word",
+        "current_word",
+        "index",
+        "guess",
+        "guess",
+        "current_number_of_guesses",
+        "max_number_of_guesses",
+        "current_number_of_guesses",
+        "guessed_letters",
+        "current_number_of_guesses",
+        "max_number_of_guesses",
+        "current_word",
+        "HangmangameSol2"
+    ],
+    "literals": [
+        "\"south\"",
+        "\"ocean\"",
+        "\"water\"",
+        "\"canada\"",
+        "\"virus\"",
+        "\"_\"",
+        "\"What is your guess \"",
+        "f\"You have {max_number_of_guesses - current_number_of_guesses} guesses left, try again\"",
+        "\"_\"",
+        "\"You win!\"",
+        "f\"You lose!, the word was {current_word}\""
+    ],
+    "variables": [
+        "list_of_words",
+        "max_number_of_guesses",
+        "current_number_of_guesses",
+        "current_word",
+        "guessed_letters",
+        "guess",
+        "guessed_letters",
+        "index"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\nwords = ['one', 'twenty', 'hundred']\n\nimport random\n\nword_index = random.randint(0,len(words)-1) #random.choice\nword = words[word_index]\n\nanswer = []\n\nfor char in word:\n    answer += '_'\nprint(answer, end= '')\n\nguess = input('please take guess: ')\nletter_position = word.find(guess,0,len(word)-1)\n\nif letter_position == -1:\n    guess = input('guess again: ')\nelse:\n    answer.replace(guess,letter_position,len(word)-1)\n\nprint(answer)\n'''"
+    ],
+    "functions": [
+        "HangmangameSol2"
+    ],
+    "classes": []
+}

@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "com",
+        "seckill",
+        "demo",
+        "redis",
+        "java",
+        "util",
+        "concurrent",
+        "TimeUnit",
+        "java",
+        "util",
+        "concurrent",
+        "locks",
+        "Lock",
+        "locked",
+        "exclusiveOwnerThread",
+        "e",
+        "time",
+        "unit",
+        "time",
+        "unit",
+        "e",
+        "e",
+        "printStackTrace",
+        "e",
+        "time",
+        "unit",
+        "time",
+        "unit",
+        "currentThread",
+        "getExclusiveOwnerThread",
+        "setExclusiveOwnerThread",
+        "thread",
+        "exclusiveOwnerThread",
+        "thread",
+        "exclusiveOwnerThread",
+        "useTimeout",
+        "time",
+        "unit",
+        "interrupt"
+    ],
+    "literals": [
+        "\"\"",
+        "\"current thread does not hold the lock\""
+    ],
+    "variables": [
+        "exclusiveOwnerThread"
+    ],
+    "comments": [
+        "TODO ignore",
+        "TODO 检查当前线程是否持有锁"
+    ],
+    "docstrings": [
+        "* @author ss\n * @date 2018/7/23 13:52",
+        "* <pre>\n     * 这里需不需要保证可见性值得讨论, 因为是分布式的锁,\n     * 1.同一个jvm的多个线程使用不同的锁对象其实也是可以的, 这种情况下不需要保证可见性\n     * 2.同一个jvm的多个线程使用同一个锁对象, 那可见性就必须要保证了.\n     * </pre>",
+        "* 当前jvm内持有该锁的线程(if have one)",
+        "* 阻塞式获取锁的实现\n     *\n     * @param useTimeout\n     * @param time\n     * @param unit\n     * @param interrupt\n     *            是否响应中断\n     * @return\n     * @throws InterruptedException"
+    ],
+    "functions": [
+        "lockInterruptibly",
+        "tryLock",
+        "tryLockInterruptibly",
+        "unlock",
+        "setExclusiveOwnerThread",
+        "getExclusiveOwnerThread"
+    ],
+    "classes": [
+        "AbstractLock"
+    ]
+}

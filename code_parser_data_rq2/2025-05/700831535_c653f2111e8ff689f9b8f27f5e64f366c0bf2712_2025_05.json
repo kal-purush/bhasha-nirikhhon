@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "process",
+        "tapes",
+        "validateTape",
+        "MixTape",
+        "tapes",
+        "tapes",
+        "t",
+        "validateTape",
+        "t",
+        "e",
+        "e",
+        "exitCode",
+        "validateCenturionTapes",
+        "tapes",
+        "exitCode",
+        "process",
+        "exitCode"
+    ],
+    "literals": [
+        "'node:process'",
+        "'./modules/modes/centurion/tapes'",
+        "'Validate Centurion tapes...'",
+        "'Validation successful.'"
+    ],
+    "variables": [
+        "exitCode"
+    ],
+    "comments": [
+        "Perform validations",
+        "Exit the program. Uses exit code 0 (OK) by default, but 1 if some validation failed."
+    ],
+    "docstrings": [
+        "* This file performs validation on the compile-time configuration of Aurora.",
+        "* Validate that all Centurion tapes do not contain simple copy-paste errors\n * @param tapes"
+    ],
+    "functions": [
+        "validateCenturionTapes"
+    ],
+    "classes": []
+}

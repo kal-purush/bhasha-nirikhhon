@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "ApolloClient",
+        "InMemoryCache",
+        "gql",
+        "HttpLink",
+        "fetch",
+        "ApolloClient",
+        "HttpLink",
+        "process",
+        "process",
+        "InMemoryCache",
+        "gql",
+        "gql"
+    ],
+    "literals": [
+        "\"@apollo/client\"",
+        "\"cross-fetch\"",
+        "https://graphql.contentful.com/content/v1/spaces/${\n      process.env.CONTENTFUL_SPACE_ID as string\n    }?access_token=${process.env.CONTENTFUL_DELIVERY_KEY as string}",
+        "string",
+        "string",
+        "query getAllExhibits {\n    ourExhibitsCollection {\n      items {\n        name\n        picture {\n          url\n        }\n      }\n    }\n  }",
+        "query getExhibitByName($name: String!) {\n    ourExhibitsCollection(where: { name_contains: $name }) {\n      items {\n        name\n        description\n        picture {\n          url\n        }\n      }\n    }\n  }"
+    ],
+    "variables": [
+        "client",
+        "GET_ALL_EXHIBITS",
+        "GET_EXHIBIT"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Must be imported before any query can be run.",
+        "* @returns all Muse Exhibits from Contentful\n * Doesn't return Exhibit description because it isn't used in the frontend component.",
+        "* Get an Exhibit by its  name.\n * @returns An object containing information about the Exhibit."
+    ],
+    "functions": [],
+    "classes": []
+}

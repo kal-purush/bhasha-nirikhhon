@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "tugas",
+        "org",
+        "eclipse",
+        "ui",
+        "plugin",
+        "AbstractUIPlugin",
+        "org",
+        "osgi",
+        "framework",
+        "BundleContext",
+        "PLUGIN_ID",
+        "plugin",
+        "context",
+        "start",
+        "context",
+        "plugin",
+        "context",
+        "plugin",
+        "stop",
+        "context",
+        "plugin"
+    ],
+    "literals": [
+        "\"tugas\""
+    ],
+    "variables": [
+        "plugin"
+    ],
+    "comments": [
+        "The plug-in ID",
+        "$NON-NLS-1$",
+        "The shared instance"
+    ],
+    "docstrings": [
+        "* The activator class controls the plug-in life cycle",
+        "* The constructor",
+        "* (non-Javadoc)\n\t * @see org.eclipse.ui.plugin.AbstractUIPlugin#start(org.osgi.framework.BundleContext)",
+        "* (non-Javadoc)\n\t * @see org.eclipse.ui.plugin.AbstractUIPlugin#stop(org.osgi.framework.BundleContext)",
+        "* Returns the shared instance\n\t *\n\t * @return the shared instance"
+    ],
+    "functions": [
+        "Activator",
+        "start",
+        "stop",
+        "Activator",
+        "getDefault"
+    ],
+    "classes": [
+        "Activator"
+    ]
+}

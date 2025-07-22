@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "useEffect",
+        "useApplicationContextSafe",
+        "useData",
+        "useLatestCallback",
+        "IUseLatestPromiseResult",
+        "callback",
+        "defaultResult",
+        "deps",
+        "useApplicationContextSafe",
+        "useData",
+        "callback",
+        "defaultResult",
+        "deps",
+        "app",
+        "useLatestCallback",
+        "result",
+        "useEffect",
+        "app",
+        "app",
+        "refreshCallback",
+        "unsubscribe",
+        "app",
+        "refreshCallback",
+        "result"
+    ],
+    "literals": [
+        "'react'",
+        "'./useApplicationContext.hook'",
+        "'./useData.hook'",
+        "'./useLatestCallback.hook'",
+        "'./useLatestPromise.hook'"
+    ],
+    "variables": [
+        "app",
+        "result",
+        "refreshCallback",
+        "unsubscribe"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* A react hook which invokes a promise factory callback whenever any of its dependencies\n * changes *and* on app-wide refreshes\n *\n * Returns the default result until the first promise resolves.\n *\n * The promise factory is not called if any of the deps are null or undefined.\n *\n * This can be useful when fetching data based on a users keyboard input, for example.\n * This behavior is similar to RxJS switchMap.\n *\n * @param callback the callback to be invoked whenever dependencies change and on a polling schedule\n * @param deps array of dependencies, which (when changed) cause the callback to be invoked again\n * @returns an object with the result and current status of the promise"
+    ],
+    "functions": [
+        "useDataWithRefresh"
+    ],
+    "classes": []
+}

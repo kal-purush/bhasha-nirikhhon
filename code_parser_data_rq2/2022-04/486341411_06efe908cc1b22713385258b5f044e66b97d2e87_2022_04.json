@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "__dirname",
+        "require",
+        "__dirname",
+        "nativeImage",
+        "app",
+        "app",
+        "app",
+        "icon",
+        "BrowserWindow",
+        "win",
+        "app",
+        "createWindow",
+        "app",
+        "process",
+        "app",
+        "app",
+        "BrowserWindow",
+        "createWindow"
+    ],
+    "literals": [
+        "\"electron\"",
+        "\"electron-reload\"",
+        "${__dirname}/node_modules/electron",
+        "${app.getAppPath()}/build/icon.png",
+        "\"index.html\"",
+        "\"window-all-closed\"",
+        "\"darwin\"",
+        "\"activate\""
+    ],
+    "variables": [
+        "icon",
+        "win"
+    ],
+    "comments": [
+        "Habilita o live reload no Electron e no FrontEnd da aplicação com a lib electron-reload",
+        "Assim que alguma alteração no código é feita",
+        "Note that the path to electron may vary according to the main file",
+        "Função que cria uma janela desktop",
+        "Adicionando um ícone na barra de tarefas/dock",
+        "Cria uma janela de desktop",
+        "habilita a integração do Node.js no FrontEnd",
+        "carrega a janela com o conteúdo dentro de index.html",
+        "Abre o console do navegador (DevTools),",
+        "manter apenas quando estiver desenvolvendo a aplicação,",
+        "pode utilizar variáveis de ambiente do node para executar esse código apenas quando estiver em modo DEV",
+        "win.webContents.openDevTools();",
+        "Método vai ser chamado assim que o Electron finalizar sua inicialização",
+        "e estiver pronto para abrir e manipular o nosso código.",
+        "Algumas APIs podem ser usadas somente depois que este evento ocorre.",
+        "Quando clicarmos no botão de fechar a janela no app desktop",
+        "O evento vai ser ouvido aqui no arquivo main.js e algum procedimento pode ser realizado",
+        "tipo fechar alguma conexão de banco de dados por exemplo.",
+        "No MacOS quando fecha uma janela, na verdade ela é \"minimizada\"",
+        "e o processo executa em segundo-plano tipo um app do celular",
+        "Para fechar e encerrar o app tem que teclar Cmd+Q ou no dock (barra de tarefas)",
+        "clicar com botão direito e encerrar o app",
+        "Esse evento é disparado pelo MacOS quando clica no ícone do aplicativo no Dock.",
+        "Basicamente cria a janela se não foi criada.",
+        "Abaixo você pode colocar seus códigos específicos do BackEnd que precisam executar no processo principal",
+        "pode criar pastas e arquivos separados e importar aqui (boa prática)."
+    ],
+    "docstrings": [],
+    "functions": [
+        "createWindow"
+    ],
+    "classes": []
+}

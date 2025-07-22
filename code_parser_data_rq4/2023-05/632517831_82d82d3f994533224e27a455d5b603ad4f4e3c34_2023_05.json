@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "SharedCartScenario",
+        "SharedCartScenario",
+        "requestParams",
+        "requestParams",
+        "cart",
+        "requestParams",
+        "cartResponse",
+        "cartRelationships",
+        "cartResponse",
+        "items",
+        "item",
+        "cart",
+        "item",
+        "requestParams",
+        "cart",
+        "__ENV",
+        "requestParams",
+        "cart"
+    ],
+    "literals": [
+        "\"../../../../cross-product/storefront/scenarios/cart/shared-cart-scenario.js\"",
+        "${this.cartHelper.getCartsUrl()}/${cart.id}/?include=items",
+        "'/'",
+        "'/items/'",
+        "'009_30692991'"
+    ],
+    "variables": [
+        "cart",
+        "cartResponse",
+        "cartRelationships",
+        "items"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "_setUp"
+    ],
+    "classes": [
+        "CartScenario"
+    ]
+}

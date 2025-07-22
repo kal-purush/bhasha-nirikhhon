@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "OnDestroy",
+        "HostListener",
+        "Subscription",
+        "SortService",
+        "GamesTableComponent",
+        "Component",
+        "sortService",
+        "Input",
+        "Input",
+        "HostListener"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'rxjs/Subscription'",
+        "'../sort.service'",
+        "'../games-table/games-table.component'",
+        "'[sortable-column]'",
+        "'./sortable-column.component.html'",
+        "'sortable-column'",
+        "string",
+        "'sort-direction'",
+        "string",
+        "''",
+        "'click'",
+        "'asc'",
+        "'desc'",
+        "'asc'",
+        "''"
+    ],
+    "variables": [],
+    "comments": [
+        "subscribe to sort changes so we can react when other columns are sorted",
+        "reset this column's sort direction to hide the sort icons"
+    ],
+    "docstrings": [],
+    "functions": [
+        "sort",
+        "ngOnInit",
+        "ngOnDestroy"
+    ],
+    "classes": [
+        "SortableColumnComponent"
+    ]
+}

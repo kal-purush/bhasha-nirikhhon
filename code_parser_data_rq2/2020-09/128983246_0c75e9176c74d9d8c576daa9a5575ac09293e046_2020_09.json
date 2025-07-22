@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "TimelineObjectCoreExt",
+        "TSR",
+        "TimelineObjId",
+        "TimelineObjType",
+        "StudioId",
+        "TSR"
+    ],
+    "literals": [
+        "'tv-automation-sofie-blueprints-integration'",
+        "'../../../lib/collections/Timeline'",
+        "'../../../lib/collections/Studios'",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "Unique _id (generally obj.studioId + '_' + obj.id)",
+        "Unique within a timeline (ie within a studio)",
+        "Set when the id of the object is prefixed",
+        "Studio installation Id",
+        "The id of the group object this object is in"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

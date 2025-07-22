@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "abc",
+        "abc",
+        "ABC",
+        "abc",
+        "abstractmethod",
+        "abc",
+        "abstractmethod",
+        "abc",
+        "abstractmethod",
+        "payload"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "'''\n\t\tLoad from persistent storage.\n\t\tReturn True if OK (private key exists) or False if privake key doesn't exists\n\t\t'''",
+        "'''\n\t\tStore to persistent storage. Can be NOOP. \n\t\t'''",
+        "'''\n\t\tGenerate a private key.\n\t\t'''",
+        "'''\n\t\tGet a public key for a private key\n\t\t'''",
+        "'''\n\t\tSign a payload, return 'r' and 's'.\n\t\t'''"
+    ],
+    "functions": [
+        "load",
+        "store",
+        "generate_private_key",
+        "get_public_key",
+        "sign"
+    ],
+    "classes": [
+        "HSM"
+    ]
+}

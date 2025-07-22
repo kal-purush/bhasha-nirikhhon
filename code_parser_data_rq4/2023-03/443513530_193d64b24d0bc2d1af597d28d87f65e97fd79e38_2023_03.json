@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "FluentAssertions",
+        "Xunit",
+        "DotNetDev",
+        "ArcadeLight",
+        "Common",
+        "DotNetDev",
+        "ArcadeLight",
+        "Common",
+        "Tests",
+        "Fact",
+        "ArgumentEscaper",
+        "EscapeAndConcatenateArgArrayForProcessStart",
+        "args",
+        "escaped",
+        "Should",
+        "Be"
+    ],
+    "literals": [
+        "\"subcommand\"",
+        "\"--not-escaped\"",
+        "\"1.0.0-prerelease.21165.2\"",
+        "\"--with-space\"",
+        "\"/mnt/d/Program Files\"",
+        "\"--already-escaped\"",
+        "\"\\\"some value\\\"\"",
+        "\"containing-\\\"-quote\"",
+        "\"subcommand \"",
+        "\"--not-escaped 1.0.0-prerelease.21165.2 \"",
+        "\"--with-space \\\"/mnt/d/Program Files\\\" \"",
+        "\"--already-escaped \\\"some value\\\" \"",
+        "\"\\\"containing-\\\\\\\"-quote\\\"\""
+    ],
+    "variables": [
+        "args",
+        "escaped"
+    ],
+    "comments": [
+        "Licensed to the .NET Foundation under one or more agreements.",
+        "The .NET Foundation licenses this file to you under the MIT license."
+    ],
+    "docstrings": [],
+    "functions": [
+        "EscapesOnlyArgsWithSpecialCharacters"
+    ],
+    "classes": [
+        "ArgumentEscaperTests"
+    ]
+}

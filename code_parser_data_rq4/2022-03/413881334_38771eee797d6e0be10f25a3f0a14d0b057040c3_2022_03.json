@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "App",
+        "ChatPostMessageResponse",
+        "ConversationsOpenResponse",
+        "CheckIn",
+        "convoId",
+        "convoId",
+        "app",
+        "app",
+        "conversationResponse",
+        "conversationResponse",
+        "conversationResponse",
+        "conversationResponse",
+        "app",
+        "CheckIn",
+        "conversationId",
+        "introMessageResponse",
+        "introMessageResponse"
+    ],
+    "literals": [
+        "\"@slack/bolt\"",
+        "\"@slack/web-api\"",
+        "string",
+        "\"section\"",
+        "\"mrkdwn\"",
+        "\":movie_camera: *Meet with Zoom*\"",
+        "\"section\"",
+        "\"mrkdwn\"",
+        "\"Working remotely? Connect your Zoom account to automatically create Zoom meetings and connect over video!\"",
+        "\"button\"",
+        "\"plain_text\"",
+        "\"Get Started\"",
+        "\"view_alternate_1\"",
+        "\"section\"",
+        "\"mrkdwn\"",
+        "\":calendar: *Schedule with Outlook or Google Calendar*\"",
+        "\"section\"",
+        "\"mrkdwn\"",
+        "\"If you use Outlook or Google Calendar, you can schedule your donuts directly through Slack! If you haven't linked your calendar yet, click the 'Get started' button to do so.\"",
+        "\"button\"",
+        "\"plain_text\"",
+        "\"Get Started\"",
+        "\"view_alternate_2\"",
+        "\"U02CPHBDP5G,ULY75MW4A\"",
+        "Conversation could not be opened. Error: ${conversationResponse.error}",
+        "string",
+        "string",
+        "Intro message could not be sent. Error: ${introMessageResponse.error}"
+    ],
+    "variables": [
+        "CheckIn",
+        "conversationResponse",
+        "conversationId",
+        "introMessageResponse"
+    ],
+    "comments": [
+        "get DM conversation id from the response",
+        "post messages to convo id"
+    ],
+    "docstrings": [],
+    "functions": [
+        "findConversation"
+    ],
+    "classes": []
+}

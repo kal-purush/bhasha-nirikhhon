@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "factory",
+        "exports",
+        "factory",
+        "require",
+        "require",
+        "define",
+        "define",
+        "define",
+        "factory",
+        "factory",
+        "$",
+        "Spinner",
+        "$",
+        "opts",
+        "color",
+        "$",
+        "$this",
+        "data",
+        "data",
+        "data",
+        "opts",
+        "opts",
+        "$",
+        "color",
+        "$this",
+        "$",
+        "opts",
+        "opts",
+        "data",
+        "Spinner",
+        "opts",
+        "$"
+    ],
+    "literals": [
+        "'object'",
+        "'jquery'",
+        "'spin.js'",
+        "'function'",
+        "'jquery'",
+        "'spin'",
+        "'Spin.js not present'",
+        "'color'"
+    ],
+    "variables": [
+        "$this",
+        "data"
+    ],
+    "comments": [
+        "Basic Usage:\n============\n\n$('#el').spin(); // Creates a default Spinner using the text color of #el\n$('#el').spin({ ... }); // Creates a Spinner using the provided options\n\n$('#el').spin(false); // Stops and removes the spinner\n\nUsing Presets:\n==============\n\n$('#el').spin('small'); // Creates a 'small' Spinner using the text color of #el\n$('#el').spin('large', '#fff'); // Creates a 'large' white Spinner\n\nAdding a custom preset:\n=======================\n\n$.fn.spin.presets.flower = {\n  lines:   9,\n  length: 10,\n  width:  20,\n  radius:  0\n};\n\n$('#el').spin('flower', 'red');",
+        "CommonJS",
+        "AMD, register as anonymous module",
+        "Browser globals"
+    ],
+    "docstrings": [
+        "* Copyright (c) 2011-2014 Felix Gnass\n * Licensed under the MIT license\n * http://spin.js.org/"
+    ],
+    "functions": [],
+    "classes": []
+}

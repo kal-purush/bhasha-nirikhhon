@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "ROUTER_DIRECTIVES",
+        "Component",
+        "ROUTER_DIRECTIVES"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router'",
+        "'my-app'",
+        "<ul>\n      <li><a [routerLink]=\"['/pique', 'pique']\"><img src=\"pages/pique/01.jpg\"></a></li>\n      <li><a [routerLink]=\"['/angular2', 'angular2']\"><img src=\"pages/angular2/01-1.png\"></a></li>\n    </ul>\n    <router-outlet></router-outlet>",
+        "img {\n    height: 100%;\n  }\n  ul {\n    margin-top: 0px;\n    background-color: #eee;\n  }\n  li {\n    display: inline-block;\n    background-color: #ccc;\n    background-position: center center;\n    background-repeat: no-repeat;\n    margin: 5px;\n    width: 40px;\n    height: 50px;\n    border: 1px solid #ccc;\n    background-size: contain;\n    text-align: center;\n  }"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppComponent"
+    ]
+}

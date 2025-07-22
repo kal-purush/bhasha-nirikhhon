@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "org",
+        "ow2",
+        "proactive",
+        "permissions",
+        "org",
+        "ow2",
+        "proactive",
+        "policy",
+        "ClientsPolicy",
+        "serialVersionUID"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "This serial version uid is meant to prevent issues when restoring Resource Manager database from a previous version.",
+        "any addition to this class (new method, field, etc) should imply to change this uid."
+    ],
+    "docstrings": [
+        "* ProActive Parallel Suite(TM):\n * The Open Source library for parallel and distributed\n * Workflows & Scheduling, Orchestration, Cloud Automation\n * and Big Data Analysis on Enterprise Grids & Clouds.\n *\n * Copyright (c) 2007 - 2017 ActiveEon\n * Contact: contact@activeeon.com\n *\n * This library is free software: you can redistribute it and/or\n * modify it under the terms of the GNU Affero General Public License\n * as published by the Free Software Foundation: version 3 of\n * the License.\n *\n * This program is distributed in the hope that it will be useful,\n * but WITHOUT ANY WARRANTY; without even the implied warranty of\n * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n * GNU Affero General Public License for more details.\n *\n * You should have received a copy of the GNU Affero General Public License\n * along with this program. If not, see <http://www.gnu.org/licenses/>.\n *\n * If needed, contact us to obtain a release under GPL Version 2 or 3\n * or a different license than the AGPL.",
+        "* The NSAdminPermission is a permission that implies all other permissions.\n * It is an equivalent of java.security.AllPermission and could be granted\n * to the resource manager of scheduler clients. java.security.AllPermission\n * cannot be granted to them.\n * @see ClientsPolicy"
+    ],
+    "functions": [],
+    "classes": [
+        "NSAdminPermission"
+    ]
+}

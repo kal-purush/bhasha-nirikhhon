@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "dgroomes",
+        "datasystem",
+        "DataSystem",
+        "query",
+        "table"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* An instance of {@link DataSystem} is a \"read-only object datastore and query engine\". It is a specific data system\n * limited to the goals of this project. Basically, it lets you query table-like data with a primitive query API.\n * <p>\n * Specific implementations of {@link DataSystem} offer a way to load data into the system but that varies for different\n * providers. For a SQL-based system, for example, the write/load interface would be JDBC.",
+        "* Execute the given query and return a list of matching records.\n     * <p>\n     * The result set is a pruned table. Consider a table that represents a city. It has two columns: \"city_name\" and\n     * \"state code\". Return a new table where its component columns are pruned down to the rows that\n     * matched the criteria."
+    ],
+    "functions": [
+        "QueryResult",
+        "match"
+    ],
+    "classes": []
+}

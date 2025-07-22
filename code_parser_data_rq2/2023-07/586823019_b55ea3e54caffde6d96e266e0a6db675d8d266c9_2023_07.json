@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "NetEvolve",
+        "Extensions",
+        "NUnit",
+        "NUnit",
+        "Framework",
+        "NUnit",
+        "Framework",
+        "Interfaces",
+        "Threading",
+        "Tasks",
+        "SetUp",
+        "_stopExecution",
+        "Assert",
+        "Inconclusive",
+        "CompletedTask",
+        "TearDown",
+        "TestContext",
+        "CurrentContext",
+        "Result",
+        "Outcome",
+        "Status",
+        "TestStatus",
+        "Failed",
+        "_stopExecution",
+        "CompletedTask"
+    ],
+    "literals": [
+        "\"Previous test failed, further execution for this test class has been disabled!\""
+    ],
+    "variables": [
+        "_stopExecution"
+    ],
+    "comments": [
+        "Basic implementation for the execution of continuous tests, based on <see cref=\"OrderAttribute\"/>.",
+        "If a test fails, all subsequent tests are disabled.",
+        "</summary>",
+        "Setup method, that checks whether the triggered test should be executed or cancelled.",
+        "</summary>",
+        "Tear-down method, which determines whether the previous test was faulty. If <see langword=\"true\"/>, the following tests are disabled.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "SetUpAsync",
+        "TearDownAsync"
+    ],
+    "classes": [
+        "ContinuousTestBase"
+    ]
+}

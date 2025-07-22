@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "mysql",
+        "connector",
+        "mysql",
+        "connector",
+        "connect",
+        "host",
+        "user",
+        "password",
+        "database",
+        "conn",
+        "cursor",
+        "query",
+        "create_table_queries",
+        "cursor",
+        "execute",
+        "query",
+        "conn",
+        "commit",
+        "conn",
+        "close"
+    ],
+    "literals": [
+        "\"localhost\"",
+        "\"root\"",
+        "\"\"",
+        "\"SMS\""
+    ],
+    "variables": [
+        "conn",
+        "cursor",
+        "create_table_queries"
+    ],
+    "comments": [
+        "Connect to MySQL",
+        "Create a cursor object to execute SQL queries",
+        "Define CREATE TABLE queries",
+        "Execute each CREATE TABLE query",
+        "Commit changes and close connection"
+    ],
+    "docstrings": [
+        "\"\"\"\n    CREATE TABLE level_category (\n        level_categoryID INT AUTO_INCREMENT PRIMARY KEY,\n        level_category_name VARCHAR(255)\n    )\n    \"\"\"",
+        "\"\"\"\n    CREATE TABLE level (\n        levelID INT AUTO_INCREMENT PRIMARY KEY,\n        levelname VARCHAR(255),\n        level_categoryID INT,\n        FOREIGN KEY (level_categoryID) REFERENCES level_category(level_categoryID)\n    )\n    \"\"\"",
+        "\"\"\"\n    CREATE TABLE faculty (\n        facultyID INT AUTO_INCREMENT PRIMARY KEY,\n        facultyname VARCHAR(255),\n        levelID INT,\n        FOREIGN KEY (levelID) REFERENCES level(levelID)\n    )\n    \n    \"\"\"",
+        "\"\"\"\n    CREATE TABLE Class (\n        classID INT AUTO_INCREMENT PRIMARY KEY,\n        classname VARCHAR(255),\n        facultyID INT,\n        FOREIGN KEY (facultyID) REFERENCES faculty(facultyID)\n    )\n    \n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

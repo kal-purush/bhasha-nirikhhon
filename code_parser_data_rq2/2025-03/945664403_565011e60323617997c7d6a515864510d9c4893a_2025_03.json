@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "resolve",
+        "setTimeout",
+        "resolve",
+        "questionElement",
+        "questionElement",
+        "questionText",
+        "encodeURIComponent",
+        "questionText",
+        "wolframAppId",
+        "fetch",
+        "apiUrl",
+        "response",
+        "data",
+        "answer",
+        "answer",
+        "newTab",
+        "newTab",
+        "answer",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "\".question-text\"",
+        "\"Question element not found.\"",
+        "\"Extracted Question:\"",
+        "\"QT2P6U-64HYVYUAK3\"",
+        "https://api.wolframalpha.com/v2/query?input=${encodeURIComponent(questionText)}&format=plaintext&output=JSON&appid=${wolframAppId}",
+        "\"Failed to extract answer from API.\"",
+        "\"Solution:\"",
+        "\"about:blank\"",
+        "\"_blank\"",
+        "<html><body><h1>Solution</h1><p>${answer}</p></body></html>",
+        "\"Popup blocked. Allow popups and try again.\"",
+        "\"Error fetching or processing answer:\""
+    ],
+    "variables": [
+        "questionElement",
+        "questionText",
+        "wolframAppId",
+        "apiUrl",
+        "response",
+        "data",
+        "answer",
+        "newTab"
+    ],
+    "comments": [
+        "Wait for the page to load",
+        "Step 1: Extract the Question",
+        "Update selector if needed",
+        "Step 2: Fetch Answer from Wolfram Alpha API",
+        "Replace with your Wolfram Alpha API Key",
+        "Extract answer from API response",
+        "Step 3: Open a New Tab with the Answer"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

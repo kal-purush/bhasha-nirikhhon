@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "styled",
+        "css",
+        "media",
+        "Wrapper",
+        "HeadingWrapper",
+        "styled",
+        "HeadingWrapper",
+        "styled",
+        "css",
+        "theme",
+        "theme",
+        "media",
+        "styled",
+        "css",
+        "theme",
+        "theme",
+        "theme",
+        "styled",
+        "css",
+        "theme",
+        "theme",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'styled-media-query'",
+        "'components/Heading/heading.styles'",
+        "${HeadingWrapper} {\n    text-transform: uppercase;\n  }",
+        "${({ theme }) => css`\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    gap: ${theme.grid.gutter};\n    margin-top: ${theme.spacings.medium};\n    ${media.greaterThan('medium')`\n      grid-template-columns: repeat(4, 1fr)\n    `}\n  `}",
+        "display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    gap: ${theme.grid.gutter};\n    margin-top: ${theme.spacings.medium};\n    ${media.greaterThan('medium')`\n      grid-template-columns: repeat(4, 1fr)\n    `}",
+        "'medium'",
+        "grid-template-columns: repeat(4, 1fr)",
+        "${({ theme }) => css`\n    a,\n    span {\n      display: block;\n      color: ${theme.colors.gray};\n      text-decoration: none;\n      margin-bottom: ${theme.spacings.xxsmall};\n      font-size: ${theme.font.sizes.small};\n    }\n    a:hover {\n      text-decoration: underline;\n    }\n  `}",
+        "a,\n    span {\n      display: block;\n      color: ${theme.colors.gray};\n      text-decoration: none;\n      margin-bottom: ${theme.spacings.xxsmall};\n      font-size: ${theme.font.sizes.small};\n    }\n    a:hover {\n      text-decoration: underline;\n    }",
+        "${({ theme }) => css`\n    color: ${theme.colors.gray};\n    font-size: ${theme.font.sizes.xsmall};\n    margin-top: ${theme.spacings.large};\n    margin-bottom: ${theme.spacings.medium};\n    text-align: center;\n  `}",
+        "color: ${theme.colors.gray};\n    font-size: ${theme.font.sizes.xsmall};\n    margin-top: ${theme.spacings.large};\n    margin-bottom: ${theme.spacings.medium};\n    text-align: center;"
+    ],
+    "variables": [
+        "Wrapper",
+        "Content",
+        "Column",
+        "Copyright"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "__dirname",
+        "__dirname",
+        "__dirname",
+        "__dirname"
+    ],
+    "literals": [
+        "'Gatsby + Netlify CMS Starter'",
+        "'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.'",
+        "'gatsby-plugin-react-helmet'",
+        "'gatsby-plugin-sass'",
+        "'gatsby-source-filesystem'",
+        "${__dirname}/static/img",
+        "'uploads'",
+        "'gatsby-source-filesystem'",
+        "${__dirname}/src/pages",
+        "'pages'",
+        "'gatsby-source-filesystem'",
+        "${__dirname}/src/img",
+        "'images'",
+        "'gatsby-plugin-sharp'",
+        "'gatsby-transformer-sharp'",
+        "'gatsby-transformer-remark'",
+        "'gatsby-remark-relative-images'",
+        "'uploads'",
+        "'gatsby-remark-images'",
+        "'gatsby-remark-copy-linked-files'",
+        "'static'",
+        "'gatsby-plugin-netlify-cms'",
+        "${__dirname}/src/cms/cms.js",
+        "'gatsby-plugin-purgecss'",
+        "'/all.sass'",
+        "'gatsby-plugin-netlify'"
+    ],
+    "variables": [],
+    "comments": [
+        "keep as first gatsby-source-filesystem plugin for gatsby image support",
+        "It's important to specify the maxWidth (in pixels) of",
+        "the content container as this plugin uses this as the",
+        "base for generating different widths of each image.",
+        "purges all unused/unreferenced css rules",
+        "Activates purging in npm run develop",
+        "applies purging only on the bulma css file",
+        "must be after other CSS plugins",
+        "make sure to keep it last in the array"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

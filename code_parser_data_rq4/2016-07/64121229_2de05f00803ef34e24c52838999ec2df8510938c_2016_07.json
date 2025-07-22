@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "context",
+        "fs",
+        "path",
+        "context",
+        "DATA",
+        "path",
+        "context",
+        "fs",
+        "src",
+        "fs",
+        "src",
+        "path",
+        "context",
+        "fs",
+        "dst",
+        "data",
+        "fs",
+        "src"
+    ],
+    "literals": [
+        "'fs'",
+        "'path'",
+        "// Added by plugin cordova-plugin-firebaseservice\napply plugin: 'com.google.gms.google-services'\nbuildscript {\n    repositories {\n        jcenter()\n    }\n\n    dependencies {\n        classpath 'com.google.gms:google-services:3.0.0'\n    }\n}",
+        "'platforms'",
+        "'android'",
+        "'build.gradle'",
+        "'www'",
+        "'google-services.json'",
+        "'platforms'",
+        "'android'",
+        "'google-services.json'"
+    ],
+    "variables": [
+        "fs",
+        "path",
+        "DATA",
+        "src",
+        "data",
+        "dst"
+    ],
+    "comments": [
+        "Check of gradle file that we are going to append to the main build.gradle",
+        "Modify the build.gradle to add support for the gms plugin",
+        "Get the google-services.json from the uncompressed zip file and move it to the andorid project folder"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

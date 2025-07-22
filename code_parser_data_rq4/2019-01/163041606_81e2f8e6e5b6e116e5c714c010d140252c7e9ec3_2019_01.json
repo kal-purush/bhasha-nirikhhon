@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "ApolloServer",
+        "mergeSchemas",
+        "getSchemas",
+        "getSchemas",
+        "mergeSchemas",
+        "userSchema",
+        "postSchema",
+        "linkTypeDefs",
+        "parent",
+        "args",
+        "context",
+        "info",
+        "info",
+        "postSchema",
+        "parent",
+        "ApolloServer",
+        "server",
+        "url"
+    ],
+    "literals": [
+        "'apollo-server'",
+        "'./getSchemas'",
+        "extend type User {\n    posts: [Post]\n  }",
+        "'http://localhost:4001/graphql'",
+        "'http://localhost:4002/graphql'",
+        "fragment UserFragment on User { id }",
+        "string",
+        "'query'",
+        "'posts'",
+        "🚀  Server ready at ${url}"
+    ],
+    "variables": [
+        "linkTypeDefs",
+        "userSchema",
+        "postSchema",
+        "schema",
+        "server"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "resolve"
+    ],
+    "classes": []
+}

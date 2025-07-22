@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "Knex",
+        "knex",
+        "knex",
+        "knex",
+        "knex"
+    ],
+    "literals": [
+        "'knex'",
+        "'admin_defined_shapes'",
+        "set \n  search_path = invasivesbc, \n  public;\n  -- Add column to pull agencies from\n  ALTER TABLE \n    activity_incoming_data \n  DROP \n    COLUMN IF EXISTS short_id, \n  ADD \n    COLUMN short_id TEXT;\n  -- Migration part\n  WITH short_payload AS (\n    SELECT \n      activity_id AS id, \n      activity_payload ->> 'short_id' AS short_id \n    FROM \n      activity_incoming_data\n  ) \n  UPDATE \n    activity_incoming_data \n  SET \n    short_id = sp.short_id \n  FROM \n    short_payload sp \n  WHERE \n    activity_id = sp.id;\n  -- Trigger part\n  CREATE \n  OR REPLACE FUNCTION short_id_update() RETURNS TRIGGER LANGUAGE PLPGSQL AS $$ BEGIN WITH short_payload AS (\n    SELECT \n      activity_id AS id, \n      activity_payload ->> 'short_id' AS short_id \n    FROM \n      activity_incoming_data\n  ) \n  UPDATE \n    activity_incoming_data \n  SET \n    short_id = sp.short_id \n  FROM \n    short_payload sp \n  WHERE \n    activity_id = sp.id \n    AND activity_incoming_data_id = NEW.activity_incoming_data_id;\n  RETURN NEW;\n  END $$;\n  DROP \n    TRIGGER IF EXISTS activity_short_id ON activity_incoming_data;\n  CREATE TRIGGER activity_short_id \n  AFTER \n    INSERT ON activity_incoming_data FOR EACH ROW EXECUTE PROCEDURE short_id_update();\n  END",
+        "set schema 'invasivesbc';\n    set search_path = invasivesbc,public;\n    DROP TRIGGER IF EXISTS activity_short_id ON activity_incoming_data;"
+    ],
+    "variables": [
+        "table_name"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": []
+}

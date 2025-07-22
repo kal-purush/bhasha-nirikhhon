@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "request",
+        "pu",
+        "ui",
+        "info",
+        "info",
+        "info",
+        "data",
+        "_",
+        "_",
+        "text",
+        "text",
+        "text",
+        "isIP",
+        "text",
+        "text",
+        "pu",
+        "request",
+        "url",
+        "resp",
+        "resp",
+        "formatGeoInfo",
+        "geoInfo",
+        "ui",
+        "url",
+        "getIPInfo"
+    ],
+    "literals": [
+        "'../utils/request'",
+        "'../utils/promise'",
+        "'../ui/helper'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "', '",
+        "string",
+        "string",
+        "string",
+        "https://freegeoip.net/json/${text}",
+        "GeoIP: ${formatGeoInfo(geoInfo)} ${ui.getExternalLinkCode(url)}",
+        "string",
+        "\"it is not an IP\""
+    ],
+    "variables": [
+        "data",
+        "url",
+        "geoInfo"
+    ],
+    "comments": [
+        "<reference path=\"../../typings/es6-promise/es6-promise.d.ts\" />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "formatGeoInfo",
+        "isIP",
+        "getIPInfo"
+    ],
+    "classes": []
+}

@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "User",
+        "CheckRegFormService",
+        "FlashMessagesService",
+        "Component",
+        "checkRegFormService",
+        "messageService"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "\"../models/user\"",
+        "\"../services/check-reg-form.service\"",
+        "\"angular2-flash-messages\"",
+        "'app-reg'",
+        "'./reg.component.html'",
+        "'./reg.component.scss'",
+        "''",
+        "''",
+        "''",
+        "''",
+        "'Неверно заполнена форма: '",
+        "'alert-danger'"
+    ],
+    "variables": [],
+    "comments": [
+        "простая проверка на заполненность формы (со временем можно добавить валидацию по каждому полю)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "registerNewPlayer"
+    ],
+    "classes": [
+        "RegComponent"
+    ]
+}

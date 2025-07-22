@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "org",
+        "screwdriver",
+        "idm",
+        "service",
+        "org",
+        "screwdriver",
+        "idm",
+        "dto",
+        "AccountDTO",
+        "ITokenService",
+        "account",
+        "token"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*\n     * @param account DTO with account data to be bundled into token\n     * @return Base64 encoded token String containing account and expiration data with mac\n     * @throws Exception",
+        "*\n     * @param token Authentication token to be validated\n     * @throws Exception"
+    ],
+    "functions": [
+        "generateToken",
+        "validate"
+    ],
+    "classes": []
+}

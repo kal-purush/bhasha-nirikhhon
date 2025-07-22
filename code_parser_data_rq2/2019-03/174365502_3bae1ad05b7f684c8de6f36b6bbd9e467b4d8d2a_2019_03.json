@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "companyData",
+        "taxData",
+        "companyData",
+        "company",
+        "company",
+        "sum",
+        "num",
+        "sum",
+        "num",
+        "taxData",
+        "company",
+        "salesSum",
+        "output",
+        "company",
+        "output",
+        "company",
+        "output",
+        "company",
+        "salesSum",
+        "output",
+        "company",
+        "taxSum",
+        "output",
+        "company",
+        "salesSum",
+        "taxSum",
+        "output",
+        "calculateSalesTax",
+        "companySalesData",
+        "salesTaxRates",
+        "results"
+    ],
+    "literals": [
+        "\"Telus\"",
+        "\"BC\"",
+        "\"Bombardier\"",
+        "\"AB\"",
+        "\"Telus\"",
+        "\"SK\""
+    ],
+    "variables": [
+        "salesTaxRates",
+        "companySalesData",
+        "output",
+        "salesSum",
+        "taxSum",
+        "results"
+    ],
+    "comments": [
+        "if it exists, calculate sum.",
+        "else, create object and set sum.",
+        "Expected Results:\n{\n  Telus: {\n    totalSales: 1300,\n    totalTaxes: 144\n  },\n  Bombardier: {\n    totalSales: 800,\n    totalTaxes: 40\n  }\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "calculateSalesTax"
+    ],
+    "classes": []
+}

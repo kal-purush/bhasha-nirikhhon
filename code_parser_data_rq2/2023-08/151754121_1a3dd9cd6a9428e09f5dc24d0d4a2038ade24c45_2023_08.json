@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "ConfigurationSchema",
+        "ConfigurationSchema"
+    ],
+    "literals": [
+        "'@jbrowse/core/configuration'",
+        "'FormatAbout'",
+        "'frozen'",
+        "'formats configuration object in about dialog'",
+        "'config'",
+        "'boolean'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* #config FormatAbout\n * generally exists on the config.json or root config as configuration.formatAbout",
+        "* #slot configuration.formatAbout.config",
+        "* #slot configuration.formatAbout.hideUris"
+    ],
+    "functions": [
+        "FormatAboutConfigSchemaFactory"
+    ],
+    "classes": []
+}

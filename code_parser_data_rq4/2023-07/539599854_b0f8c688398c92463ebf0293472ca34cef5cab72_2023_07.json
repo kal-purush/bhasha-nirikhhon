@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "cardsJSON",
+        "name",
+        "jobTitle",
+        "company",
+        "experience",
+        "school",
+        "major",
+        "email",
+        "linkedInUrl",
+        "codeLanguages",
+        "name",
+        "jobTitle",
+        "company",
+        "experience",
+        "school",
+        "major",
+        "email",
+        "linkedInUrl",
+        "codeLanguages",
+        "cardHTML",
+        "cardHTML",
+        "container",
+        "cardHTML",
+        "card",
+        "cards"
+    ],
+    "literals": [
+        "'[ { \"name\": \"Paolo Maldini\", \"jobTitle\": \"Front End Developer\", \"company\": \"Web Weavers\", \"experience\": \"3 years\", \"school\": \"University of Washington\", \"major\": \"Marketing\", \"email\": \"paolo@example.com\", \"linkedInUrl\": \"paolo.linkedinprofile.com\", \"codeLanguages\": [ \"HTML\", \"CSS\", \"JavaScript\", \"Node\", \"Express\" ] }, { \"name\": \"Barbara Bonansea\", \"jobTitle\": \"Software Engineer\", \"company\": \"Excellence in the Cloud\", \"experience\": \"12 years\", \"school\": \"University of Southern California\", \"major\": \"Computer Science\", \"email\": \"barbara@example.com\", \"linkedInUrl\": \"barbara.linkedinprofile.com\", \"codeLanguages\": [ \"HTML\", \"JavaScript\", \"C\", \"Go\" ] }, { \"name\": \"Javier Hernandez\", \"jobTitle\": \"User Experience Engineer\", \"company\": \"Web Sites and More\", \"experience\": \"5 years\", \"school\": \"Seattle University\", \"major\": \"Performing Arts\", \"email\": \"javier@example.com\", \"linkedInUrl\": \"javier.linkedinprofile.com\", \"codeLanguages\": [ \"HTML\", \"CSS\" ] }, { \"name\": \"Maribel Dominguez\", \"jobTitle\": \"Front End Engineer\", \"company\": \"Bits and Bytes\", \"experience\": \"6 years\", \"school\": \"University of Washington\", \"major\": \"Mechanical Engineering\", \"email\": \"maribel@example.com\", \"linkedInUrl\": \"maribel.linkedinprofile.com\", \"codeLanguages\": [ \"HTML\", \"CSS\", \"JavaScript\", \"React\", \"Vue\", \"Redux\" ] } ]'",
+        "'.template-hook'",
+        "'div'",
+        "'card'",
+        "<div class=\"photo\">\n        <img src=\"img/headshot.jpg\" alt=\"Placeholder Headshot\">\n        <h2 class=\"name\">${this.name}</h2>\n        <h3 class=\"title\">${this.jobTitle}</h3>\n      </div>\n      <div class=\"info\">\n        <ul>\n          <li><b>Company:</b> ${this.company}</li>\n          <li><b>Experience:</b> ${this.experience}</li>\n          <li><b>School:</b> ${this.school}</li>\n          <li><b>Major:</b> ${this.major}</li>\n          <li><b>Email:</b> <a href=\"mailto:${this.email}</a></li>\n          <li><img src=\"img/linkedin.svg\" alt=\"LinkedIn Icon\"> <a href=\"${this.linkedInUrl}\">${this.linkedInUrl}</a></li>\n        </ul>\n      </div>"
+    ],
+    "variables": [
+        "cardsJSON",
+        "cards",
+        "container",
+        "cardHTML"
+    ],
+    "comments": [
+        "json data -- how can I import this???",
+        "the instructions in the README and online seem to conflict :(",
+        "parse into js object",
+        "get html container for population",
+        "create card class constructor",
+        "expected parameters",
+        "set equal to instance -- there must be a better way to do this?",
+        "for bonus if time allows",
+        "card creation method",
+        "append created html block to container"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createCard"
+    ],
+    "classes": [
+        "Card"
+    ]
+}

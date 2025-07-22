@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "cn",
+        "dev33",
+        "satoken",
+        "sign",
+        "cn",
+        "dev33",
+        "satoken",
+        "SaManager",
+        "cn",
+        "dev33",
+        "satoken",
+        "config",
+        "SaSignConfig",
+        "cn",
+        "dev33",
+        "satoken",
+        "error",
+        "SaErrorCode",
+        "cn",
+        "dev33",
+        "satoken",
+        "exception",
+        "SaSignException",
+        "cn",
+        "dev33",
+        "satoken",
+        "fun",
+        "SaParamRetFunction",
+        "cn",
+        "dev33",
+        "satoken",
+        "util",
+        "SaFoxUtil",
+        "findSaSignConfigMethod",
+        "appid",
+        "SaManager",
+        "getConfig",
+        "getSignMany",
+        "get",
+        "appid",
+        "appid",
+        "SaFoxUtil",
+        "isEmpty",
+        "appid",
+        "SaManager",
+        "getSaSignTemplate",
+        "config",
+        "findSaSignConfigMethod",
+        "run",
+        "appid",
+        "config",
+        "appid",
+        "setCode",
+        "SaErrorCode",
+        "CODE_12211",
+        "config"
+    ],
+    "literals": [
+        "\"未找到签名配置，appid=\""
+    ],
+    "variables": [],
+    "comments": [
+        "appid 为空，返回全局默认 SaSignTemplate",
+        "获取 SaSignConfig",
+        "创建 SaSignTemplate 并返回"
+    ],
+    "docstrings": [
+        "* Copyright 2020-2099 sa-token.cc\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* API 参数签名算法 - 多实例总控类\n *\n * @author click33\n * @since 1.41.0",
+        "* 根据 appid 获取 SaSignConfig，允许自定义",
+        "* 获取 SaSignTemplate，根据 appid\n\t * @param appid /\n\t * @return /"
+    ],
+    "functions": [
+        "SaSignTemplate",
+        "getSignTemplate"
+    ],
+    "classes": [
+        "SaSignMany"
+    ]
+}

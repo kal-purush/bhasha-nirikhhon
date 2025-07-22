@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "scopeName",
+        "locator",
+        "scopeName",
+        "callback",
+        "err",
+        "grammar",
+        "path",
+        "scopeName",
+        "lineText",
+        "prevState"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "---------------------------------------------------------\n * Copyright (C) Microsoft Corporation. All rights reserved.\n *--------------------------------------------------------"
+    ],
+    "docstrings": [
+        "* A registry helper that can locate grammar file paths given scope names.",
+        "* The registry that will hold all grammars.",
+        "* Load the grammar for `scopeName` and all referenced included grammars asynchronously.",
+        "* Load the grammar at `path` synchronously.",
+        "* Get the grammar for `scopeName`. The grammar must first be created via `loadGrammar` or `loadGrammarFromPathSync`.",
+        "* A grammar",
+        "* Tokenize `lineText` using previous line state `prevState`.",
+        "* The `prevState` to be passed on to the next line tokenization.",
+        "* Should not be used by consumers, as its shape might change at any time."
+    ],
+    "functions": [],
+    "classes": [
+        "Registry"
+    ]
+}

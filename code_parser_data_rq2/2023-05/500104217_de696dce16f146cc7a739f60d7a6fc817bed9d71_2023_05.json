@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "NUnit",
+        "Framework",
+        "Dapper",
+        "DubUrl",
+        "QA",
+        "Dapper",
+        "DubUrl",
+        "Registering",
+        "DubUrl",
+        "Extensions",
+        "DependencyInjection",
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "Microsoft",
+        "Extensions",
+        "Configuration",
+        "Data",
+        "DubUrl",
+        "QA",
+        "CockRoach",
+        "Category",
+        "Category",
+        "BaseAdoProvider",
+        "Test",
+        "QueryCustomer",
+        "Test",
+        "QueryCustomerWithDatabase",
+        "Test",
+        "QueryCustomerWithParams",
+        "Test",
+        "QueryCustomerWithPositionalParameter",
+        "Test",
+        "QueryCustomerWithDapper"
+    ],
+    "literals": [
+        "\"CockRoach\"",
+        "\"AdoProvider\"",
+        "\"select FullName from Customer where CustomerId=1\"",
+        "\"select FullName from Customer where CustomerId=1\"",
+        "\"select FullName from Customer where CustomerId=@CustId\"",
+        "\"select FullName from Customer where CustomerId=($1)\"",
+        "\"select * from Customer\""
+    ],
+    "variables": [
+        "ConnectionString"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "QueryCustomer",
+        "QueryCustomerWithDatabase",
+        "QueryCustomerWithParams",
+        "QueryCustomerWithPositionalParameter",
+        "QueryCustomerWithDapper"
+    ],
+    "classes": [
+        "AdoProviderCockRoach"
+    ]
+}

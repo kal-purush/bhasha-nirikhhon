@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "\"typeorm\"",
+        "'AddPizzaNameId1744901543365'",
+        "ALTER TABLE \"pizza_sizes\" ADD \"pizzaNameID\" character varying NOT NULL DEFAULT 'unnamed'",
+        "ALTER TABLE \"pizza_sizes\" DROP COLUMN \"pizzaNameID\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "AddPizzaNameId1744901543365"
+    ]
+}

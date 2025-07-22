@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "WebActivator",
+        "PostApplicationStartMethod",
+        "TimeLogging",
+        "App_Start",
+        "SimpleInjectorInitializer",
+        "TimeLogging",
+        "App_Start",
+        "Reflection",
+        "Web",
+        "Mvc",
+        "SimpleInjector",
+        "SimpleInjector",
+        "Extensions",
+        "SimpleInjector",
+        "Integration",
+        "Web",
+        "SimpleInjector",
+        "Integration",
+        "Web",
+        "Mvc",
+        "TimeLogging",
+        "DataAccess",
+        "Container",
+        "container",
+        "Options",
+        "DefaultScopedLifestyle",
+        "WebRequestLifestyle",
+        "InitializeContainer",
+        "container",
+        "container",
+        "RegisterMvcControllers",
+        "Assembly",
+        "GetExecutingAssembly",
+        "DependencyResolver",
+        "SetResolver",
+        "SimpleInjectorDependencyResolver",
+        "container",
+        "Container",
+        "container",
+        "container",
+        "Register",
+        "IIimeLogService",
+        "TimeLogService",
+        "Lifestyle",
+        "Scoped"
+    ],
+    "literals": [
+        "\"Initialize\""
+    ],
+    "variables": [
+        "container"
+    ],
+    "comments": [
+        "container.Verify();",
+        "For instance:",
+        "container.Register<IUserRepository, SqlUserRepository>(Lifestyle.Scoped);"
+    ],
+    "docstrings": [
+        "<summary>Initialize the container and register it as MVC3 Dependency Resolver.</summary>"
+    ],
+    "functions": [
+        "Initialize",
+        "InitializeContainer"
+    ],
+    "classes": [
+        "SimpleInjectorInitializer"
+    ]
+}

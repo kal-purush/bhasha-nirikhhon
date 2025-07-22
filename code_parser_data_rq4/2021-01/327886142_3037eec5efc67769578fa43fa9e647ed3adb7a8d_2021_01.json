@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "Styled",
+        "css",
+        "Styled",
+        "Styled",
+        "theme",
+        "Styled",
+        "css",
+        "theme",
+        "theme",
+        "Styled",
+        "css",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "'styled-components'",
+        "",
+        "margin-bottom: ${({ theme }) => theme.spacings.small};\ntransition: opacity 300ms ease-in-out;\n&:hover {\n  opacity: 0.5;\n}\nimg{\n  max-width: 100%;\n  display: block;\n  object-fit: cover;\n  height: 150px;\n  margin: 0 auto;\n}",
+        "${({ theme }) => css`\n  font-size: ${theme.font.sizes.medium};\n  a {\n    color: ${theme.colors.darkGray};\n  }\n`}\n:first",
+        "font-size: ${theme.font.sizes.medium};\n  a {\n    color: ${theme.colors.darkGray};\n  }",
+        "${({ theme }) => css`\n   small {\n     color: ${theme.colors.darkGray};\n   }\n   small:first-child {\n     padding-right: ${theme.spacings.small};\n   }\n `};",
+        "small {\n     color: ${theme.colors.darkGray};\n   }\n   small:first-child {\n     padding-right: ${theme.spacings.small};\n   }"
+    ],
+    "variables": [
+        "Container",
+        "PostCardCover",
+        "PostCardHeading",
+        "Published"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

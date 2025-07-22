@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Logger",
+        "err",
+        "task",
+        "Logger",
+        "err",
+        "task",
+        "task",
+        "TaskQueue"
+    ],
+    "literals": [
+        "'queue'",
+        "'./util/logger'",
+        "'error'",
+        "Error running task: ${err}"
+    ],
+    "variables": [
+        "taskQueue"
+    ],
+    "comments": [
+        "TODO: Report via telemetry API?"
+    ],
+    "docstrings": [
+        "* Adds a task to the task queue."
+    ],
+    "functions": [
+        "enqueueTask"
+    ],
+    "classes": [
+        "TaskQueue"
+    ]
+}

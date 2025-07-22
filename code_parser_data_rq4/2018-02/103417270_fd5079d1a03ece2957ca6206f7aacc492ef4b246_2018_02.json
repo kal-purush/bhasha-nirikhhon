@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "addTodo",
+        "el",
+        "el",
+        "switchStatus",
+        "el",
+        "items",
+        "el",
+        "items",
+        "el",
+        "setValue",
+        "el",
+        "el",
+        "removeItem",
+        "el",
+        "el"
+    ],
+    "literals": [],
+    "variables": [
+        "addTodo",
+        "switchStatus",
+        "items",
+        "setValue",
+        "removeItem"
+    ],
+    "comments": [
+        "add new todo only when user press Enter",
+        "if input value is empty, don't add new todo",
+        "if (el.keyCode !== 13 || !el.target.value) return",
+        "return {",
+        "type: 'ADD_TODO',",
+        "name: el.target.value",
+        "}",
+        "set item as done with one click",
+        "remove item with double click"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

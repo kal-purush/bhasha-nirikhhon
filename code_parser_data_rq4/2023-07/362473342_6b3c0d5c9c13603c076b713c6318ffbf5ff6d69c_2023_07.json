@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "inject",
+        "require",
+        "party",
+        "party",
+        "party",
+        "party",
+        "party",
+        "party",
+        "checkFastTrackUpliftsEnabled",
+        "fastTrackUpliftsEnabled",
+        "I",
+        "party",
+        "I",
+        "I",
+        "party",
+        "within",
+        "party",
+        "I",
+        "party",
+        "party",
+        "within",
+        "party",
+        "I",
+        "party",
+        "I",
+        "party",
+        "I"
+    ],
+    "literals": [
+        "'./../../api/testingSupport'",
+        "#${party}DQFixedRecoverableCosts_isSubjectToFixedRecoverableCostRegime",
+        "'Yes'",
+        "'No'",
+        "#${party}DQFixedRecoverableCosts_band",
+        "'BAND_1'",
+        "'BAND_2'",
+        "'BAND_3'",
+        "'BAND_4'",
+        "#${party}DQFixedRecoverableCosts_complexityBandingAgreed",
+        "'Yes'",
+        "'No'",
+        "#${party}DQFixedRecoverableCosts_reasons",
+        "${this.fields(party).band.id}-${this.fields(party).band.options.band1}",
+        "'Some good reasons'"
+    ],
+    "variables": [
+        "fastTrackUpliftsEnabled"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "fixedRecoverableCosts"
+    ],
+    "classes": []
+}

@@ -1,0 +1,16 @@
+{
+    "identifiers": [
+        "Polymer"
+    ],
+    "literals": [
+        "'banner-edv'"
+    ],
+    "variables": [],
+    "comments": [
+        "S: (pattern) ->\n      return $(this.$$(pattern))\n    nextword: ->\n      random_idx = Math.random() * vocabulary.length |> Math.floor\n      random_word = vocabulary[random_idx]\n      {english, romaji, kanji} = random_word\n      this.S('#englishword').text english\n      this.S('#japaneseword').text romaji\n    ready: ->\n      this.nextword()",
+        "properties: {\n      width: {\n        type: Number\n        value: 500\n        #observer: 'size_changed'\n      }\n      height: {\n        type: Number\n        value: 300\n        #observer: 'size_changed'\n      }\n    }\n    S: (pattern) ->\n      return $(this.$$(pattern))\n    size_changed: ->\n      $(this).css {\n        width: this.width\n        height: this.height\n      }\n      this.S('#edvframe').css {\n        width: this.width\n        height: this.height\n      }"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

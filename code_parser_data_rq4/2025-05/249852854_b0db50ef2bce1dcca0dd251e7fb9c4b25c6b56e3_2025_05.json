@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "commonItems",
+        "ImperatorToCK3",
+        "CK3",
+        "Titles",
+        "ImperatorToCK3",
+        "Imperator",
+        "Countries",
+        "ImperatorToCK3",
+        "Mappers",
+        "TagTitle",
+        "Xunit",
+        "ImperatorToCK3",
+        "UnitTests",
+        "Mappers",
+        "TagTitle",
+        "Collection",
+        "Fact",
+        "BufferedReader",
+        "RankMapping",
+        "reader",
+        "Assert",
+        "Null",
+        "rankMapping",
+        "Match",
+        "territoriesCount",
+        "GovernmentType",
+        "monarchy",
+        "Assert",
+        "Null",
+        "rankMapping",
+        "Match",
+        "territoriesCount",
+        "GovernmentType",
+        "republic",
+        "Assert",
+        "Equal",
+        "TitleRank",
+        "duchy",
+        "rankMapping",
+        "Match",
+        "territoriesCount",
+        "GovernmentType",
+        "tribal"
+    ],
+    "literals": [
+        "\"Sequential\"",
+        "\"ir=local_power ir_government_type=tribal ck3=d\"",
+        "\"local_power\"",
+        "\"local_power\"",
+        "\"local_power\""
+    ],
+    "variables": [
+        "reader",
+        "rankMapping"
+    ],
+    "comments": [
+        "Should not match for a monarchy or a republic.",
+        "Should match for a tribal country."
+    ],
+    "docstrings": [],
+    "functions": [
+        "MappingCanContainIRGovernmentType"
+    ],
+    "classes": [
+        "RankMappingTests"
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Greedy",
+        "nums",
+        "jumps",
+        "currEnd",
+        "currFarthest",
+        "i",
+        "i",
+        "nums",
+        "length",
+        "i",
+        "currFarthest",
+        "max",
+        "currFarthest",
+        "i",
+        "nums",
+        "i",
+        "i",
+        "currEnd",
+        "currEnd",
+        "currFarthest",
+        "jumps",
+        "jumps"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Initialize the number of jumps taken, the current range we are exploring (currEnd),",
+        "and the farthest index we can reach so far (currFarthest)",
+        "Iterate through the array up to the second last element (nums.length - 1),",
+        "as we don’t need to check the last element since we are jumping towards it",
+        "Update the farthest point that can be reached from the current index",
+        "When we reach the current \"end of range\" for this jump (currEnd),",
+        "it means we need to make a new jump",
+        "Move the current range (currEnd) to the farthest point we can reach (currFarthest)",
+        "Increment the jump count as we need to jump again to explore further",
+        "Return the total number of jumps needed to reach the last index"
+    ],
+    "docstrings": [],
+    "functions": [
+        "jump"
+    ],
+    "classes": [
+        "JumpGame_2",
+        "Solution"
+    ]
+}

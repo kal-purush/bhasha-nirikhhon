@@ -1,0 +1,18 @@
+{
+    "identifiers": [
+        "require",
+        "Vue"
+    ],
+    "literals": [
+        "'vue/dist/vue.js'",
+        "'error-messages'",
+        "<div v-if=\"errors\">\n    <div class=\"govuk-error-summary\" aria-labelledby=\"error-summary-title\" role=\"alert\" tabindex=\"-1\" data-module=\"error-summary\">\n      <h2 class=\"govuk-error-summary__title\" id=\"error-summary-title\">\n        There is a problem\n      </h2>\n      <div class=\"govuk-error-summary__body\">\n        <ul class=\"govuk-list govuk-error-summary__list\">\n          <li v-for=\"error in errors\">\n              <a v-bind:href=\"error.target\">{{ error.message }}</a>\n          </li>\n        </ul>\n      </div>\n    </div>\n  </div>"
+    ],
+    "variables": [
+        "Vue"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

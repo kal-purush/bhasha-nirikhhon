@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Office",
+        "Office",
+        "Office",
+        "Office",
+        "Office",
+        "message",
+        "getGlobal",
+        "g",
+        "action"
+    ],
+    "literals": [
+        "\"Performed action.\"",
+        "\"Icon.80x80\"",
+        "\"action\"",
+        "\"undefined\"",
+        "\"undefined\"",
+        "\"undefined\""
+    ],
+    "variables": [
+        "message",
+        "g"
+    ],
+    "comments": [
+        "global global, Office, self, window",
+        "If needed, Office.js is ready to be called",
+        "Show a notification message",
+        "Be sure to indicate when the add-in command function is complete",
+        "the add-in command functions need to be available in global scope"
+    ],
+    "docstrings": [
+        "* Copyright (c) Microsoft Corporation. All rights reserved. Licensed under the MIT license.\n * See LICENSE in the project root for license information.",
+        "* Shows a notification when the add-in command is executed.\n * @param event"
+    ],
+    "functions": [
+        "action",
+        "getGlobal"
+    ],
+    "classes": []
+}

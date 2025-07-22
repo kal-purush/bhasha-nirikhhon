@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Authorization",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "OngProject",
+        "Common",
+        "OngProject",
+        "Core",
+        "DTOs",
+        "OngProject",
+        "Core",
+        "Entities",
+        "OngProject",
+        "Core",
+        "Interfaces",
+        "IServices",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Threading",
+        "Tasks",
+        "OngProject",
+        "Controllers",
+        "Route",
+        "ApiController",
+        "ControllerBase",
+        "IActivitiesServices",
+        "activitiesServices",
+        "_activitiesServices",
+        "activitiesServices",
+        "HttpGet",
+        "ActivitiesDTO",
+        "_activitiesServices",
+        "GetAll",
+        "HttpGet",
+        "IActionResult",
+        "id",
+        "_activitiesServices",
+        "EntityExists",
+        "id",
+        "NotFound",
+        "_activitiesServices",
+        "GetById",
+        "id",
+        "Ok",
+        "activity"
+    ],
+    "literals": [
+        "\"[controller]\"",
+        "\"{id}\""
+    ],
+    "variables": [
+        "IActivitiesServices",
+        "_activitiesServices",
+        "activity"
+    ],
+    "comments": [
+        "Endpoint para obtener todas las entradas de Activities. Se debe ser ADMINISTRADOR",
+        "</summary>",
+        "<response code=\"200\">Solicitud concretada con exito</response>",
+        "<response code=\"401\">Credenciales no validas</response>",
+        "Endpoint para obtener una activity por id. Se debe ser ADMINISTRADOR",
+        "</summary>",
+        "<response code=\"200\">Solicitud concretada con exito</response>",
+        "<response code=\"401\">Credenciales no validas</response>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "ActivitiesController",
+        "GetAll",
+        "Get"
+    ],
+    "classes": [
+        "ActivitiesController"
+    ]
+}

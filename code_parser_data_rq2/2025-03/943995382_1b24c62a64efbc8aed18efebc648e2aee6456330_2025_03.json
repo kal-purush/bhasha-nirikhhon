@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "axios",
+        "ArticleResponse",
+        "process",
+        "getPopularArticles",
+        "period",
+        "axios",
+        "BASE_URL",
+        "period",
+        "API_KEY",
+        "response",
+        "error",
+        "axios",
+        "error",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'axios'",
+        "'../types/article'",
+        "'https://api.nytimes.com/svc/mostpopular/v2'",
+        "${BASE_URL}/viewed/${period}.json?api-key=${API_KEY}",
+        "'Failed to fetch articles'"
+    ],
+    "variables": [
+        "API_KEY",
+        "BASE_URL",
+        "getPopularArticles",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

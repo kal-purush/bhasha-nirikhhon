@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "Activity",
+        "ActivityTable",
+        "a",
+        "b",
+        "a",
+        "b",
+        "a",
+        "b",
+        "a",
+        "b",
+        "describe",
+        "Calculator",
+        "it",
+        "expect",
+        "calculator",
+        "it",
+        "expect",
+        "calculator",
+        "describe",
+        "Activity",
+        "Activity",
+        "activities",
+        "activity1",
+        "activities",
+        "activity2",
+        "ActivityTable",
+        "activity1",
+        "it",
+        "expect",
+        "activityTable",
+        "it",
+        "expect",
+        "activityTable",
+        "it",
+        "expect",
+        "activityTable"
+    ],
+    "literals": [
+        "\"../Activity.js\"",
+        "\"../ActivityTable.js\"",
+        "\"calculatorSuite\"",
+        "\"should add two numbers together\"",
+        "\"should subtract two numbers from eachother\"",
+        "\"ActivityTableSuite\"",
+        "\"should have at least one activity\"",
+        "\"should sum its activities' stationary times into a total stationary duration\"",
+        "\"should sum its activities' active times into a total active duration\""
+    ],
+    "variables": [
+        "calculator",
+        "activity1",
+        "activity2",
+        "activities",
+        "activityTable"
+    ],
+    "comments": [
+        "example test",
+        "describe(description, specDefinitions)",
+        "specDefinitions is simply a function containing tests for your class",
+        "it(description, testFunction *optional*, timeout *optional*)",
+        "expect(thing).toBe(realThing);",
+        "other versions of toBe:   toBeGreaterThan, toBeLessThan, https://jasmine.github.io/api/3.3/matchers.html",
+        "Real Tests"
+    ],
+    "docstrings": [],
+    "functions": [
+        "add",
+        "subtract"
+    ],
+    "classes": [
+        "Calculator"
+    ]
+}

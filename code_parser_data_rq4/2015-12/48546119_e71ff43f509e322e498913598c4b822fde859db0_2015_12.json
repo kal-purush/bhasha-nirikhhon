@@ -1,0 +1,17 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "ʱ����صĲ��� API",
+        "var myDate = new Date();\nmyDate.getYear();        //��ȡ��ǰ���(2λ)\nmyDate.getFullYear();    //��ȡ���������(4λ,1970-????)\nmyDate.getMonth();       //��ȡ��ǰ�·�(0-11,0����1��)\nmyDate.getDate();        //��ȡ��ǰ��(1-31)\nmyDate.getDay();         //��ȡ��ǰ����X(0-6,0����������)\nmyDate.getTime();        //��ȡ��ǰʱ��(��1970.1.1��ʼ�ĺ�����)\nmyDate.getHours();       //��ȡ��ǰСʱ��(0-23)\nmyDate.getMinutes();     //��ȡ��ǰ������(0-59)\nmyDate.getSeconds();     //��ȡ��ǰ����(0-59)\nmyDate.getMilliseconds();    //��ȡ��ǰ������(0-999)\nmyDate.toLocaleDateString();     //��ȡ��ǰ����\nvar mytime=myDate.toLocaleTimeString();     //��ȡ��ǰʱ��\nmyDate.toLocaleString( );        //��ȡ������ʱ��\n*"
+    ],
+    "docstrings": [
+        "**************��������ؾ���ĺ���***************************************",
+        "* @author [meddkim]\n * @since  [0.0.1]\n * @param  detail:������Ҫ��һ�죬����0����ϵͳ��ǰʱ�䣬-n������ǰ�Ƽ��죬n���������Ƽ���\n *         separator�������ڷָ�������\n * @return {time}"
+    ],
+    "functions": [
+        "getNowFormatDate"
+    ],
+    "classes": []
+}

@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "java",
+        "io",
+        "java",
+        "net",
+        "DatagramSocket",
+        "java",
+        "net",
+        "DatagramPacket",
+        "java",
+        "net",
+        "InetAddress",
+        "host",
+        "motorPort",
+        "telemetryPort",
+        "_motorPort",
+        "motorPort",
+        "_telemPort",
+        "telemetryPort",
+        "_motorPort",
+        "_telemPort",
+        "vals",
+        "n",
+        "vals",
+        "length",
+        "n",
+        "i",
+        "i",
+        "n",
+        "i",
+        "l",
+        "doubleToRawLongBits",
+        "vals",
+        "i",
+        "j",
+        "j",
+        "j",
+        "i",
+        "j",
+        "l",
+        "j",
+        "args",
+        "copter"
+    ],
+    "literals": [
+        "\"127.0.0.1\""
+    ],
+    "variables": [
+        "_motorPort",
+        "_telemPort"
+    ],
+    "comments": [
+        "motorSocket.close();",
+        "Adapted from view-source:https://stackoverflow.com/questions/2905556/how-can-i-convert-a-byte-array-into-a-double-and-back"
+    ],
+    "docstrings": [
+        "Java Multicopter class\n\n Uses UDP sockets to communicate with MulticopterSim\n\n Copyright(C) 2019 Simon D.Levy\n\n MIT License",
+        "addr = InetAddress.getByName(HOST);\n\n        motorSocket = DatagramSocket;\n        motorSocket.setReuseAddress(1);\n\n        telemetrySocket = DatagramSocket(TELEM_PORT);\n        telemetrySocket.setReuseAddress(1);\n        telemetrySocket.setSoTimeout(1000);\n\n        telemetryBytes = ByteConverter.toByteArray(zeros(1,1));\n        telemetryPacket = DatagramPacket(telemetryBytes, 8);",
+        "while true\n           \n            motorBytes = ByteConverter.toByteArray(0.6*ones(1,4));\n            motorPacket = DatagramPacket(motorBytes, length(motorBytes), addr, MOTOR_PORT);\n            \n            try\n                motorSocket.send(motorPacket);\n            catch sendPacketError\n                try\n                    motorSocket.close;\n                catch\n                    % do nothing.\n                end % try\n                \n                error('%s.m--Failed to send UDP packet.\\nJava error message follows:\\n%s',mfilename,sendPacketError.message);\n                \n            end % try    \n            \n            try\n                telemetrySocket.receive(telemetryPacket);\n                \n            catch receivePacketError\n                try\n                    telemetrySocket.close;\n                catch\n                end % try\n            \n                break\n            \n            end % try   \n            \n            telemetry = telemetryPacket.getData;\n            \n            %fprintf('%5d: %d\\n', count, length(telemetry));\n            count = count + 1;\n            \n        end"
+    ],
+    "functions": [
+        "Multicopter",
+        "start",
+        "stop",
+        "doublesToBytes",
+        "main"
+    ],
+    "classes": [
+        "Multicopter"
+    ]
+}

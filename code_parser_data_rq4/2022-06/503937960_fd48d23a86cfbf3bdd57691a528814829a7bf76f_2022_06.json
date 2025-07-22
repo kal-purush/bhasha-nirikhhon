@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "NextApiRequest",
+        "NextApiResponse",
+        "client",
+        "Memory",
+        "createMemory",
+        "req",
+        "res",
+        "req",
+        "client",
+        "process",
+        "client",
+        "createMemory",
+        "res"
+    ],
+    "literals": [
+        "'next'",
+        "'@/lib/graphql'",
+        "'@/graphql/types/GetMemory'",
+        "'@/graphql/mutations/addMemory'",
+        "string",
+        "string",
+        "string",
+        "Bearer ${process.env.GRAPHCMS_MUTATION_TOKEN}"
+    ],
+    "variables": [],
+    "comments": [
+        "Next.js API route support: https://nextjs.org/docs/api-routes/introduction",
+        "This function will send to the GraphCMS the mutation"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handler"
+    ],
+    "classes": []
+}

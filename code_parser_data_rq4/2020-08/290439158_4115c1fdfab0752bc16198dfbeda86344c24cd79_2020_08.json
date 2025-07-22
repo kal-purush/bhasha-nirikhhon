@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Text",
+        "TimeManagementBooking",
+        "ITimeBProcessor",
+        "Employee",
+        "employee",
+        "date",
+        "duration",
+        "employee",
+        "empId",
+        "ArgumentOutOfRangeException",
+        "date",
+        "Today",
+        "date",
+        "Today",
+        "ArgumentOutOfRangeException",
+        "duration",
+        "ArgumentOutOfRangeException"
+    ],
+    "literals": [
+        "\"Employee id cannot be 0\"",
+        "\"You can book for today only.\"",
+        "\"You can book for 9hrs only\""
+    ],
+    "variables": [],
+    "comments": [
+        "private readonly IBookingProcessor _bookingProcessor;\n\n        public TimeBProcessor(IBookingProcessor bookingprocessor)\n        {\n            _bookingProcessor= bookingprocessor;\n        }",
+        "return _bookingProcessor.Create(employee.empId,date,duration);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "BookTime"
+    ],
+    "classes": [
+        "TimeBProcessor"
+    ]
+}

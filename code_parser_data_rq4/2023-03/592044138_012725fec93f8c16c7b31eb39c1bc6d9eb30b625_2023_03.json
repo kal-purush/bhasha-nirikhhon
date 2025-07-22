@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "com",
+        "odeproject",
+        "readerThread",
+        "fileName",
+        "filename",
+        "fileName",
+        "filename",
+        "readerThread",
+        "filename",
+        "thread",
+        "readerThread",
+        "thread",
+        "start",
+        "thread",
+        "join",
+        "e",
+        "e",
+        "readerThread",
+        "getData"
+    ],
+    "literals": [],
+    "variables": [
+        "readerThread",
+        "fileName"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @class DataReader\n * @brief A class for reading data from a file",
+        "The thread that reads data from the file.",
+        "The name of the file to read from.",
+        "* @brief Constructor for DataReader class\n     * @param filename The name of the file to read from\n     * @details Creates a new FileReaderThread object to read data from the file on a new thread, and starts the thread.",
+        "* @brief Reads data from the file\n     * @return The data read from the file as a string\n     * Waits for the reader thread to finish reading the data from the file and returns the data."
+    ],
+    "functions": [
+        "DataReader",
+        "readDataFromFile"
+    ],
+    "classes": [
+        "DataReader"
+    ]
+}

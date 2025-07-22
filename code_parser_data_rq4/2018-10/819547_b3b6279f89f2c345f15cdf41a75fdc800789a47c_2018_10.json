@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "org",
+        "jboss",
+        "weld",
+        "context",
+        "java",
+        "util",
+        "Collection",
+        "javax",
+        "enterprise",
+        "context",
+        "spi",
+        "AlterableContext",
+        "org",
+        "jboss",
+        "weld",
+        "context",
+        "api",
+        "ContextualInstance",
+        "WeldAlterableContext",
+        "getClass",
+        "setOfInstances",
+        "getClass"
+    ],
+    "literals": [
+        "\"getAll() is not implemented for context \"",
+        "\"reset() is not implemented for context \""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* JBoss, Home of Professional Open Source\n * Copyright 2018, Red Hat, Inc., and individual contributors\n * by the @authors tag. See the copyright.txt in the distribution for a\n * full listing of individual contributors.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * http://www.apache.org/licenses/LICENSE-2.0\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Enriched version of {@link AlterableContext} which allows to capture all instances from given context or to set them to\n * previously obtained values.\n *\n * Most built-in contexts implement this in order to support context propagation. Exception are {@link ApplicationContext} which\n * works out of the box and then {@link SingletonContext} and {@link DependentContext} which are not to be propagated.\n *\n * @author <a href=\"mailto:manovotn@redhat.com\">Matej Novotny</a>",
+        "* Retrieves set of {@link ContextualInstance} within the context. This entails all instances that were created up to this point - Weld creates\n     * them lazily so unless some beans were already used, they have not been stored.\n     *\n     * @return Set of all {@link ContextualInstance} existing in this context",
+        "* Clears the backing bean store and feeds it with the set of {@link ContextualInstance} provided as parameter.\n     * All {@link ContextualInstance} have to belong to the same scope as does this {@link WeldAlterableContext} otherwise\n     * {@code IllegalArgumentException} is thrown.\n     *\n     * @param setOfInstances set of {@link ContextualInstance} which are to become the new bean store for this context\n     * @throws IllegalArgumentException if {@link ContextualInstance}s belong to different scope than this context"
+    ],
+    "functions": [
+        "getAllContextualInstances",
+        "clearAndSet"
+    ],
+    "classes": []
+}

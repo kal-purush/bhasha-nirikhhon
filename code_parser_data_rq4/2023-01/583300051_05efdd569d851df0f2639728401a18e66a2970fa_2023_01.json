@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "BOT_MENTION",
+        "prepareForConversationDomain",
+        "prepareForSlack",
+        "describe",
+        "describe",
+        "it",
+        "botUserId",
+        "botUserId",
+        "expect",
+        "prepareForConversationDomain",
+        "input",
+        "describe",
+        "it",
+        "BOT_MENTION",
+        "BOT_MENTION",
+        "expect",
+        "prepareForSlack",
+        "input"
+    ],
+    "literals": [
+        "\"@wisegpt/gpt-conversation-prompt\"",
+        "\"../../../src/domain/slack-adapter/conversation-mentions\"",
+        "\"mentions\"",
+        "\"prepareForConversationDomain()\"",
+        "\"should replace all occurrences\"",
+        "\"U01\"",
+        "hey <@${botUserId}>! how is it going? '<@${botUserId}>'",
+        "\"hey <@bot>! how is it going? '<@bot>'\"",
+        "\"prepareForSlack()\"",
+        "\"should replace all ocurrences\"",
+        "\"U01\"",
+        "hey ${BOT_MENTION}! how is it going? '${BOT_MENTION}'",
+        "\"hey <@U01>! how is it going? '<@U01>'\""
+    ],
+    "variables": [
+        "botUserId",
+        "input",
+        "botUserId",
+        "input"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

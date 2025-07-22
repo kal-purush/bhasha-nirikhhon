@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "Component",
+        "MinesweeperComponent",
+        "createGame",
+        "Component",
+        "MinesweeperComponent",
+        "createGame"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'../minesweeper/minesweeper.component'",
+        "'../minesweeper/game'",
+        "'app'",
+        "<minesweeper [game]=\"game\" #minesweeper></minesweeper>\n  <ul class=\"actions\">\n    <li><a (click)=\"startNewGame()\">New game</a></li>\n    <li><a (click)=\"minesweeper.undo()\" [hidden]=\"!minesweeper.canUndo()\">Undo</a></li>\n  </ul>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "onInit",
+        "startNewGame"
+    ],
+    "classes": [
+        "App"
+    ]
+}

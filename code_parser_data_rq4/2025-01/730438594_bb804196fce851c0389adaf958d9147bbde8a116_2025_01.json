@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "getPortfolioTokenBalances",
+        "PortfolioTokenBalances",
+        "isApiError",
+        "UseQueryResult",
+        "useQuery",
+        "Address",
+        "useQuery",
+        "address",
+        "getPortfolioTokenBalances",
+        "address",
+        "isApiError",
+        "response",
+        "response",
+        "response",
+        "response",
+        "address"
+    ],
+    "literals": [
+        "'@/core/api/getPortfolioTokenBalances'",
+        "'@/core/api/types'",
+        "'@/core/utils/isApiResponseError'",
+        "'@tanstack/react-query'",
+        "'viem'",
+        "'usePortfolioTokenBalances'"
+    ],
+    "variables": [
+        "response"
+    ],
+    "comments": [
+        "Safe to coerce to Address because useQuery's enabled flag will prevent the query from running if address is undefined",
+        "refresh on window focus",
+        "refresh on mount every 5 minutes",
+        "refresh in background every 15 minutes"
+    ],
+    "docstrings": [],
+    "functions": [
+        "usePortfolioTokenBalances"
+    ],
+    "classes": []
+}

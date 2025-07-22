@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "_",
+        "input",
+        "input",
+        "split",
+        "input",
+        "split",
+        "x",
+        "x",
+        "K",
+        "arr",
+        "i",
+        "N",
+        "temp",
+        "ls",
+        "i",
+        "sum",
+        "x",
+        "abs",
+        "x",
+        "K",
+        "ls",
+        "i",
+        "temp",
+        "temp2",
+        "temp",
+        "temp2",
+        "result"
+    ],
+    "literals": [],
+    "variables": [
+        "N",
+        "K",
+        "arr",
+        "ls",
+        "temp",
+        "temp2",
+        "temp2",
+        "result"
+    ],
+    "comments": [
+        "print(temp2)",
+        "print(temp, temp2, i)"
+    ],
+    "docstrings": [
+        "\"\"\"\nChef wants to take Chefina on a date. However, he has to complete one more task before leaving. Since he does not want\nto be late, he is asking you for help.\nThere are N bags with coins in a row (numbered 1 through N); for each valid i, the i-th bag contains Ai coins.\nChef should make the number of coins in each bag divisible by a given integer K in the following way:\n\nchoose an integer c between 0 and N (inclusive)\ntake some coins from the first c bags ― formally, for each i (1≤i≤c), he may choose any number of coins between 0 and Ai\n inclusive and take them out of the i-th bag\nmove some of these coins to some of the last N−c bags ― formally, for each i (c+1≤i≤N), he may place a non-negative\nnumber of coins in the i-th bag\nOf course, the number of coins placed in the last N−c bags must not exceed the number of coins taken out from the first\nc bags, but there may be some coins left over. Let's denote the number of these coins by R. You should find the smallest\npossible value of R.\n\nInput\nThe first line of the input contains a single integer T denoting the number of test cases. The description of T test\ncases follows.\nThe first line of each test case contains two integers N and K.\nThe second line contains N space-separated integers A1,A2,…,AN.\nOutput\nFor each test case, print a single line containing one integer ― the smallest value of R.\n\nConstraints\n1≤T≤103\n1≤N≤105\n0≤Ai≤109 for each valid i\n1≤K≤109\nthe sum of N over all test cases does not exceed 105\n\nSubtasks\nSubtask #1 (10 points): K=2\nSubtask #2 (20 points): N≤3\nSubtask #3 (70 points): original constraints\n\nExample Input\n2\n5 7\n1 14 4 41 1\n3 9\n1 10 19\n\nExample Output\n5\n3\n\nExplanation\n\nExample case 1: One of the possible solutions is to choose c=4, remove 1, 0, 4 and 13 coins from bags 1, 2, 3 and 4\nrespectively, and add 13 coins to bag 5.\n\nExample case 2: The optimal solution is to choose c=3 and remove one coin from each bag.\n\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

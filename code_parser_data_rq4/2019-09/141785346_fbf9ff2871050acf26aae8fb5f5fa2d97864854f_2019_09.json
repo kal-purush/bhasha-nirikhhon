@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "value",
+        "arg",
+        "arg2",
+        "arg2",
+        "arg",
+        "arg2",
+        "arg",
+        "value",
+        "plural_suffix",
+        "ValueError",
+        "len",
+        "value",
+        "plural_suffix",
+        "singular_suffix",
+        "pluralize"
+    ],
+    "literals": [
+        "'s'",
+        "''",
+        "'pluralize'"
+    ],
+    "variables": [
+        "singular_suffix",
+        "plural_suffix",
+        "singular_suffix",
+        "plural_suffix"
+    ],
+    "comments": [
+        "Modified version of https://github.com/audreyr/jinja2_pluralize",
+        "Invalid string that's not a number.",
+        "Value isn't a string or a number; maybe it's a list?",
+        "len() of unsized object.",
+        "filter map"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Adapted from django.template.defaultfilters:\n    https://github.com/django/django/blob/master/django/template/defaultfilters.py\n\n    Returns a plural suffix if the value is not 1. By default, 's' is used as\n    the suffix:\n\n    * If value is 0, vote{{ value | pluralize }} displays \"0 votes\".\n    * If value is 1, vote{{ value | pluralize }} displays \"1 vote\".\n    * If value is 2, vote{{ value | pluralize }} displays \"2 votes\".\n\n    If an argument is provided, that string is used instead:\n\n    * If value is 0, class{{ value | pluralize('es') }} displays \"0 classes\".\n    * If value is 1, class{{ value | pluralize('es') }} displays \"1 class\".\n    * If value is 2, class{{ value | pluralize('es') }} displays \"2 classes\".\n\n    If the provided argument contains a comma, the text before the comma is\n    used for the singular case and the text after the comma is used for the\n    plural case:\n\n    * If value is 0, cand{{ value | pluralize('y','ies') }} displays \"0 candies\".\n    * If value is 1, cand{{ value | pluralize('y','ies') }} displays \"1 candy\".\n    * If value is 2, cand{{ value | pluralize('y','ies') }} displays \"2 candies\".\n    \"\"\"",
+        "''' adds pluralize filter '''"
+    ],
+    "functions": [
+        "pluralize",
+        "filters"
+    ],
+    "classes": [
+        "FilterModule"
+    ]
+}

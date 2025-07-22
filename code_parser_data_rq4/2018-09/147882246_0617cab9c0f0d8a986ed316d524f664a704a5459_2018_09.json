@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "require",
+        "url",
+        "opts",
+        "accessToken",
+        "headers",
+        "headers",
+        "accessToken",
+        "method",
+        "url",
+        "body",
+        "fetch",
+        "url",
+        "res",
+        "res",
+        "res",
+        "res",
+        "textBody",
+        "textBody",
+        "body",
+        "body",
+        "body"
+    ],
+    "literals": [
+        "'node-fetch'",
+        "'Accept'",
+        "'application/json'",
+        "'Content-Type'",
+        "'application/json'",
+        "'User-Agent'",
+        "'http://localhost:3000'",
+        "'GET'",
+        "'Authorization'",
+        "Bearer ${accessToken}",
+        "Making ${method} request to url=${url} with body ${body}",
+        "Received response with body=${JSON.stringify(body)}"
+    ],
+    "variables": [
+        "fetch",
+        "headers",
+        "opts"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "apiRequest"
+    ],
+    "classes": []
+}

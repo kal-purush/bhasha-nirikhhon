@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpClient",
+        "Injectable",
+        "http",
+        "searchTerm",
+        "searchTerm",
+        "searchTerm",
+        "url",
+        "url"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common/http'",
+        "'e232a3275cbdf250596b676a9f84fb7d'",
+        "'fbef367ebcfbb5b0'",
+        "'https://api.flickr.com/services/rest/?method=flickr.photos.search&format=json&api_key=API_KEY&text=TEXT'",
+        "'Entering searchPhotos, search for: '",
+        "'API_KEY'",
+        "'TEXT'",
+        "'url: '",
+        "'text'"
+    ],
+    "variables": [
+        "url"
+    ],
+    "comments": [
+        "needed as we're injecting Http service into this service"
+    ],
+    "docstrings": [],
+    "functions": [
+        "searchPhotos"
+    ],
+    "classes": [
+        "FlickrService"
+    ]
+}

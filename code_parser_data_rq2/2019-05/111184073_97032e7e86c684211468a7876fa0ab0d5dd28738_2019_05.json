@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "ModulesWithMethods",
+        "Metadata",
+        "fromV0",
+        "fromV4",
+        "metadata",
+        "metadata",
+        "fromV4",
+        "metadata",
+        "fromV0",
+        "metadata"
+    ],
+    "literals": [
+        "'@polkadot/types/primitive/Method'",
+        "'@polkadot/types/Metadata'",
+        "'./v0'",
+        "'./v4'"
+    ],
+    "variables": [],
+    "comments": [
+        "Copyright 2017-2019 @polkadot/extrinsics authors & contributors",
+        "This software may be modified and distributed under the terms",
+        "of the Apache-2.0 license. See the LICENSE file for details.",
+        "For v4, we use fromV4 function",
+        "For v0-v3 we convert to v0, and use the fromV0 function to parse"
+    ],
+    "docstrings": [
+        "* Extend a storage object with the storage modules & module functions present\n * in the metadata.\n *\n * @param extrinsics - An extrinsics object to be extended.\n * @param metadata - The metadata to extend the storage object against."
+    ],
+    "functions": [
+        "fromMetadata"
+    ],
+    "classes": []
+}

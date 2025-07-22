@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Threading",
+        "Tasks",
+        "LiquidProjections",
+        "Abstractions",
+        "CreateSubscription",
+        "lastProcessedCheckpoint",
+        "Func",
+        "IReadOnlyList",
+        "Transaction",
+        "handler",
+        "subscriptionId"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Creates a subscription on an event store, starting at the transaction following",
+        "<paramref name=\"lastProcessedCheckpoint\"/>, identified by <paramref name=\"subscriptionId\"/>, and which",
+        "passed transactions to the provided <paramref name=\"handler\"/>.",
+        "</summary>",
+        "<param name=\"lastProcessedCheckpoint\"></param>",
+        "<param name=\"handler\"></param>",
+        "<param name=\"subscriptionId\"></param>",
+        "<returns></returns>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": []
+}

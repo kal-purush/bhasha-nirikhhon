@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "vscode",
+        "PythonEnvInfo",
+        "isParentPath",
+        "env",
+        "env",
+        "vscode",
+        "folders",
+        "root",
+        "folders",
+        "f",
+        "f",
+        "isParentPath",
+        "env",
+        "root"
+    ],
+    "literals": [
+        "'vscode'",
+        "'./base/info'",
+        "'./common/externalDependencies'"
+    ],
+    "variables": [
+        "folders"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft Corporation. All rights reserved.",
+        "Licensed under the MIT License.",
+        "Note `env.searchLocation` carries the root where the env was discovered which may",
+        "not be related this workspace root. Hence use `env.executable.filename` directly.",
+        "For now we consider all \"workspace environments\" to be unsafe by default."
+    ],
+    "docstrings": [
+        "* Keeps track of which environments are safe to execute.",
+        "* Returns `true` the environment is safe to execute, `false` otherwise.",
+        "* Mark all environments to be safe.",
+        "* Keeps track of which environments are safe to execute.",
+        "* Carries `true` if it's secure to run all environment executables, `false` otherwise."
+    ],
+    "functions": [
+        "isEnvSafe",
+        "markAllEnvsAsSafe"
+    ],
+    "classes": [
+        "EnvironmentsSecurity"
+    ]
+}

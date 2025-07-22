@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "lesson1",
+        "task3",
+        "title",
+        "author",
+        "available",
+        "title",
+        "author",
+        "title",
+        "title",
+        "author",
+        "author",
+        "available",
+        "title",
+        "title",
+        "title",
+        "title",
+        "author",
+        "author",
+        "author",
+        "author",
+        "available",
+        "available",
+        "available",
+        "available",
+        "format",
+        "title",
+        "author",
+        "available",
+        "Override",
+        "displayInfo"
+    ],
+    "literals": [
+        "\"Название книги: %s\\n\"",
+        "\"Автор: %s\\n\"",
+        "\"Доступность: %s\\n\""
+    ],
+    "variables": [
+        "title",
+        "author",
+        "available"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Класс \"Книга\" (Book):\n\nПриватные поля \"название\" (title) и \"автор\" (author) типа String для хранения названия\nи автора книги соответственно.\nПриватное поле \"доступность\" (available) типа boolean для указания доступности книги.\nПубличные методы доступа (геттеры и сеттеры) для полей \"название\" и \"автор\".\nПубличные методы доступа (геттеры и сеттеры) для поля \"доступность\".\nПубличный метод \"показать информацию\" (displayInfo), который выводит на консоль информацию о книге\n(название, автор, доступность).\n *"
+    ],
+    "functions": [
+        "Book",
+        "getTitle",
+        "setTitle",
+        "getAuthor",
+        "setAuthor",
+        "getAvailable",
+        "setAvailable",
+        "displayInfo",
+        "toString"
+    ],
+    "classes": [
+        "Book"
+    ]
+}

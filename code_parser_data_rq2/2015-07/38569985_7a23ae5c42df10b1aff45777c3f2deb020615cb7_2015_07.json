@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "grunt",
+        "grunt",
+        "grunt",
+        "grunt",
+        "grunt",
+        "grunt",
+        "grunt"
+    ],
+    "literals": [
+        "'use strict'",
+        "'Gruntfile.js'",
+        "'tasks/*.js'",
+        "'<%= nodeunit.tests %>'",
+        "'.jshintrc'",
+        "'build'",
+        "'tmp'",
+        "'md5'",
+        "'utf8'",
+        "'build/lib/tiny/tiny-lib/require.js'",
+        "'build/main.js'",
+        "'tmp/main.json'",
+        "'build/index.html'",
+        "'build'",
+        "'./'",
+        "'tasks'",
+        "'grunt-contrib-jshint'",
+        "'grunt-contrib-clean'",
+        "'test'",
+        "'clean'",
+        "'marsRev'",
+        "'default'",
+        "'jshint'",
+        "'test'"
+    ],
+    "variables": [],
+    "comments": [
+        "Project configuration.",
+        "Before generating any new files, remove any previously-created files.",
+        "Configuration to be run (and then tested).",
+        "hash算法",
+        "文件编码",
+        "hash命名的长度",
+        "require.js的路径",
+        "data-main 文件的路径",
+        "require.config中的配置提取到单独的json文件中",
+        "引入require.js的html文件",
+        "必填, 要hash的所有文件的目录名",
+        "Actually load this plugin's task(s).",
+        "These plugins provide necessary tasks.",
+        "Whenever the \"test\" task is run, first clean the \"tmp\" dir, then run this",
+        "plugin's task(s), then test the result.",
+        "By default, lint and run all tests."
+    ],
+    "docstrings": [
+        "* marsrev\n * https://github.com/fenglang0203/grunt-marsrevT\n *\n * Copyright (c) 2015 dutao\n * Licensed under the MIT license."
+    ],
+    "functions": [],
+    "classes": []
+}

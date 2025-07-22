@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Injectable",
+        "NgRedux",
+        "Redux",
+        "RootState",
+        "RandomNumberService",
+        "Injectable",
+        "ngRedux",
+        "randomNumberService",
+        "CounterActions",
+        "CounterActions",
+        "counter",
+        "delay",
+        "setTimeout",
+        "delay",
+        "CounterActions"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'ng2-redux'",
+        "'redux'",
+        "'../store'",
+        "'../services/random-number'",
+        "string",
+        "'INCREMENT_COUNTER'",
+        "string",
+        "'DECREMENT_COUNTER'",
+        "string",
+        "'RANDOMIZE_COUNTER'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Action creators in Angular 2. We may as well adopt a more\n * class-based approach to satisfy Angular 2's OOP idiom. It\n * has the advantage of letting us use the dependency injector\n * as a replacement for redux-thunk."
+    ],
+    "functions": [
+        "increment",
+        "decrement",
+        "incrementIfOdd",
+        "incrementAsync",
+        "randomize"
+    ],
+    "classes": [
+        "CounterActions"
+    ]
+}

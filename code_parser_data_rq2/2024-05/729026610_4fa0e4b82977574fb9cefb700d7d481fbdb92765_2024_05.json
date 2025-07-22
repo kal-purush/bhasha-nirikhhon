@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "Gml",
+        "Web",
+        "Api",
+        "Core",
+        "Middlewares",
+        "Microsoft",
+        "AspNetCore",
+        "Authentication",
+        "Microsoft",
+        "AspNetCore",
+        "Hosting",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Testing",
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "Microsoft",
+        "IdentityModel",
+        "Tokens",
+        "Gml",
+        "WebApi",
+        "Tests",
+        "WebApplicationFactory",
+        "Program",
+        "IWebHostBuilder",
+        "builder",
+        "builder",
+        "ConfigureServices",
+        "services",
+        "AddAuthentication",
+        "options",
+        "DefaultAuthenticateScheme",
+        "options",
+        "DefaultScheme",
+        "options",
+        "DefaultChallengeScheme",
+        "AddScheme",
+        "AuthenticationSchemeOptions",
+        "TestAuthenticationHandler"
+    ],
+    "literals": [
+        "\"TestScheme\"",
+        "\"TestScheme\"",
+        "\"TestScheme\"",
+        "\"TestScheme\""
+    ],
+    "variables": [],
+    "comments": [
+        "",
+        "services.AddAuthentication(\"TestScheme\")",
+        ".AddScheme<AuthenticationSchemeOptions, TestAuthenticationHandler>(\"TestScheme\", options => { });"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ConfigureWebHost"
+    ],
+    "classes": [
+        "GmlApiApplicationFactory"
+    ]
+}

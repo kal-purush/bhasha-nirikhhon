@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "Security",
+        "Cryptography",
+        "X509Certificates",
+        "Whipstaff",
+        "Runtime",
+        "Cryptography",
+        "X509",
+        "X509Certificate2",
+        "certificate",
+        "certificate",
+        "HasPrivateKey",
+        "ArgumentException",
+        "nameof",
+        "certificate"
+    ],
+    "literals": [
+        "\"Certificate does not have a private key\""
+    ],
+    "variables": [],
+    "comments": [
+        "Copyright (c) 2022 DHGMS Solutions and Contributors. All rights reserved.",
+        "This file is licensed to you under the MIT license.",
+        "See the LICENSE file in the project root for full license information.",
+        "Extension methods for <see cref=\"X509Certificate2\"/>.",
+        "</summary>",
+        "Check to ensure that the certificate has a private key.",
+        "</summary>",
+        "<param name=\"certificate\">Certificate to check.</param>",
+        "we wrap in try block as HasPrivateKey throws an exception on certain runtimes.",
+        "no op"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "EnsurePrivateKey"
+    ],
+    "classes": [
+        "X509Certificate2Extensions"
+    ]
+}

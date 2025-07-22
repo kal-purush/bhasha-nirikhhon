@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "isAzExtTreeItem",
+        "TreeView",
+        "TreeViewOptions",
+        "BranchDataItemCache",
+        "ResourceGroupsItem",
+        "ResourceTreeDataProviderBase",
+        "viewId",
+        "options",
+        "viewId",
+        "options",
+        "treeView",
+        "options",
+        "modifyReveal",
+        "treeView",
+        "options",
+        "options",
+        "treeView",
+        "treeView",
+        "treeDataProvider",
+        "itemCache",
+        "treeView",
+        "treeView",
+        "treeView",
+        "treeView",
+        "treeView",
+        "element",
+        "options",
+        "isAzExtTreeItem",
+        "element",
+        "itemCache",
+        "element",
+        "treeDataProvider",
+        "element",
+        "element",
+        "treeView",
+        "item",
+        "options"
+    ],
+    "literals": [
+        "\"@microsoft/vscode-azext-utils\"",
+        "\"vscode\"",
+        "\"./BranchDataItemCache\"",
+        "\"./ResourceGroupsItem\"",
+        "\"./ResourceTreeDataProviderBase\"",
+        "'reveal'",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "treeView",
+        "item"
+    ],
+    "comments": [
+        "---------------------------------------------------------------------------------------------\n*  Copyright (c) Microsoft Corporation. All rights reserved.\n*  Licensed under the MIT License. See License.txt in the project root for license information.\n*--------------------------------------------------------------------------------------------",
+        "For compatibility: convert AzExtTreeItems into ResourceGroupsItems",
+        "eslint-disable-next-line @typescript-eslint/no-non-null-assertion"
+    ],
+    "docstrings": [
+        "* See {@link TreeView.description}",
+        "* Wrapper for `window.createTreeView`\n * - sets the `description` if present in options\n * - modifies `TreeView.reveal` {@link ResourceTreeDataProviderBase.reveal}",
+        "* v1.5 compatibility for TreeView.reveal"
+    ],
+    "functions": [
+        "createTreeView",
+        "modifyReveal"
+    ],
+    "classes": []
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "index",
+        "navigator",
+        "navigator",
+        "navigator",
+        "stream",
+        "resolve",
+        "resolve",
+        "width",
+        "height",
+        "width",
+        "height",
+        "width",
+        "height",
+        "VIDEO_PIXELS",
+        "VIDEO_PIXELS",
+        "VIDEO_PIXELS",
+        "VIDEO_PIXELS"
+    ],
+    "literals": [
+        "\".Camera\"",
+        "\"canvas\"",
+        "\"environment\""
+    ],
+    "variables": [
+        "VIDEO_PIXELS",
+        "stream"
+    ],
+    "comments": [
+        "TODO",
+        "TODO",
+        "TODO: hook up with the report button"
+    ],
+    "docstrings": [
+        "* Requests access to the camera and return a Promise with the native width\n   * and height of the video element when resolved.\n   *\n   * @async\n   * @returns {Promise<CameraDimentions>} A promise with the width and height\n   * of the video element used as the camera."
+    ],
+    "functions": [
+        "setupCamera",
+        "setupVideoDimensions",
+        "pauseCamera",
+        "unPauseCamera",
+        "snapshot"
+    ],
+    "classes": [
+        "Camera"
+    ]
+}

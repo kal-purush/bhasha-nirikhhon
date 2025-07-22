@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "transporter",
+        "Match",
+        "getHtml",
+        "match",
+        "coachEmail",
+        "match",
+        "coachEmail",
+        "division",
+        "array",
+        "array",
+        "array",
+        "getHtml",
+        "transporter",
+        "html",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'../transporter'",
+        "'@/models/Match'",
+        "'@/integrations/react-email/templates/ask-convocation'",
+        "'toPlainObject'",
+        "string",
+        "string",
+        "Demande de convocation ${division} - Match n°${this._match.matchNumber}",
+        "'argenteuilbasketball@hotmail.fr'",
+        "'convocation@basket95.com'",
+        "'dm3'",
+        "'convocation@basket95.com'",
+        "'convocation@argenteuilbasketball.com'",
+        "'argenteuilbasketball@hotmail.fr'",
+        "'X-Mailgun-Native-Send'",
+        "'true'",
+        "\"Erreur lors de l'envoi de la convocation :\""
+    ],
+    "variables": [
+        "division",
+        "array",
+        "html"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "to",
+        "subject",
+        "cc",
+        "getHtml",
+        "send"
+    ],
+    "classes": [
+        "AskConvocationService"
+    ]
+}

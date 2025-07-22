@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "AspNet",
+        "Security",
+        "OAuth",
+        "DigitalOcean"
+    ],
+    "literals": [
+        "\"urn:digitalocean:email_verified\"",
+        "\"read\"",
+        "\"write\""
+    ],
+    "variables": [
+        "EmailVerified",
+        "Read",
+        "Write"
+    ],
+    "comments": [
+        "Contains constants specific to the <see cref=\"DigitalOceanAuthenticationHandler\"/>.",
+        "</summary>",
+        "The claim for determining if the user's email address has been verified.",
+        "</summary>",
+        "DigitalOcean API Scopes",
+        "<para>https://docs.digitalocean.com/reference/api/oauth-api/</para>",
+        "</summary>",
+        "Read Access to the DigitalOcean account.",
+        "<para>Default scope</para>",
+        "</summary>",
+        "Write Access to the DigitalOcean account.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "* Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)\n * See https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers\n * for more information concerning the license and the contributors participating to this project.",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "DigitalOceanAuthenticationConstants",
+        "Claims",
+        "Scopes"
+    ]
+}

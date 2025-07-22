@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "ProjectFirmaModels",
+        "Models",
+        "ProjectFirma",
+        "Web",
+        "Models",
+        "Organization",
+        "organization",
+        "OrganizationID",
+        "organization",
+        "OrganizationID",
+        "OrganizationName",
+        "organization",
+        "OrganizationName",
+        "OrganizationGuid",
+        "organization",
+        "OrganizationGuid",
+        "OrganizationShortName",
+        "organization",
+        "OrganizationShortName",
+        "OrganizationTypeID",
+        "organization",
+        "OrganizationTypeID",
+        "IsActive",
+        "organization",
+        "IsActive",
+        "OrganizationUrl",
+        "organization",
+        "OrganizationUrl",
+        "Guid"
+    ],
+    "literals": [],
+    "variables": [
+        "OrganizationID",
+        "OrganizationName",
+        "OrganizationGuid",
+        "OrganizationShortName",
+        "OrganizationTypeID",
+        "IsActive",
+        "OrganizationUrl"
+    ],
+    "comments": [
+        "This Dto exists solely for posting Organizations created through Keystone login to an external system for tenants that source Organizations externally",
+        "For all other uses, use the Dto in ProjectFirmaApi.Models",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "OrganizationDto",
+        "OrganizationDto"
+    ],
+    "classes": [
+        "OrganizationDto"
+    ]
+}

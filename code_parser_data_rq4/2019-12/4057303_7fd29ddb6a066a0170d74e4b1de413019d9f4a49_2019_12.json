@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "net",
+        "dempsy",
+        "container",
+        "java",
+        "util",
+        "MessageDeliveryJob"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* <p>\n     * It's possible that the message can be wholly rejected by calling the reject\n     * method above. But once 'individuate' has been called, the message can be rejected\n     * piecemeal by calling 'reject' on the individual ContainerJob</o>",
+        "* Either executeAllContainers will be called meaning the ThreadingModel has opted\n     * to deliver the message to all containers from the current thread in succession,\n     * (X)OR the individuate method will be called so that the delivery to the container\n     * can be broken up and staged asynchronously.",
+        "* <p>\n     * Either executeAllContainers will be called meaning the ThreadingModel has opted\n     * to deliver the message to all containers from the current thread in succession,\n     * (X)OR the individuate method will be called so that the delivery to the container\n     * can be broken up and staged asynchronously.\n     * </p>\n     *\n     * <p>\n     * It's possible that the message can be wholly rejected by calling the reject\n     * method above. But once 'individuate' has been called, the message can be rejected\n     * piecemeal by calling 'reject' on the individual ContainerJob</o>",
+        "* If the job is individuated, then once all of the jobs are finished, this callback\n     * will be called from the ThreadingModel."
+    ],
+    "functions": [
+        "containersCalculated",
+        "containerData",
+        "calculateContainers",
+        "rejected",
+        "executeAllContainers",
+        "individuate",
+        "individuatedJobsComplete"
+    ],
+    "classes": []
+}

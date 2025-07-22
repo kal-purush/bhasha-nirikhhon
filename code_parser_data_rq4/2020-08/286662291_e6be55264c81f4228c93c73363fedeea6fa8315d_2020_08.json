@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "pyttsx3",
+        "pyttsx3",
+        "init",
+        "engine",
+        "getProperty",
+        "voice",
+        "voices",
+        "engine",
+        "setProperty",
+        "voice",
+        "id",
+        "engine",
+        "say",
+        "engine",
+        "runAndWait",
+        "speech_recognition",
+        "sr",
+        "sr",
+        "Recognizer",
+        "sr",
+        "Microphone",
+        "source",
+        "r",
+        "listen",
+        "source",
+        "r",
+        "recognize_google",
+        "audio",
+        "t"
+    ],
+    "literals": [
+        "'voices'",
+        "'voice'",
+        "'The quick brown fox jumped over the lazy dog.'",
+        "'listening...'"
+    ],
+    "variables": [
+        "engine",
+        "voices",
+        "r",
+        "audio",
+        "t"
+    ],
+    "comments": [
+        "TEXT TO SPEECH",
+        "rate = engine.getProperty('rate')",
+        "engine.setProperty('rate', rate-60)",
+        "SPEECH TO TEXT",
+        "ques2 of assignment"
+    ],
+    "docstrings": [
+        "'''import wikipedia\nfrom nltk.corpus import stopwords\nimport nltk\nfrom nltk import ne_chunk\n\na = wikipedia.summary('php',sentences=2)\ntokens = nltk.word_tokenize(a)\nc = stopwords.words('english')\n\nde = [i for i in tokens if i not in c]\nnew = nltk.pos_tag(de)\nchunk = ne_chunk(new)\n\nchunk.draw()'''",
+        "'''import datetime\nimport pyttsx3\nimport speech_recognition as sr\nimport wikipedia\nimport webbrowser\nimport os\n#using pyttsx3\nengine = pyttsx3.init('sapi5')\nvoices = engine.getProperty('voices')\nengine.setProperty('voices',voices[0].id)\n\n\ndef speak(audio):   #speak function\n    engine.say(audio)\n    engine.runAndWait()\n\n\ndef wishMe():    #for wishing morning,evening or night\n    hour=int(datetime.datetime.now().hour)\n    if hour>=6 and hour<12:\n        speak(\"Good Morning\")\n    elif hour>=0 and hour<16:\n        speak(\"Good Afternoon\")\n    elif hour>=16 and hour<19:\n        speak(\"Good Evening\")\n    else:\n        speak(\"good night\")\n    speak(\" I am Assistant Maam. Please tell me how may i help you\")\n\n\ndef takeCommand():\n    # it takes microphone input from user and returns string output\n    r = sr.Recognizer()\n    with sr.Microphone() as source:\n        print(\"Listening...\")\n        sr.pause_threshold = 1\n        audio = r.listen(source)\n\n    try:\n        print(\"Recognizing...\")\n        query = r.recognize_google(audio)\n        print(f\"user said:{query}\\n\")   \n    except :\n        print(\"Say that again please...\")\n        return\"None\"\n    return query\n\n\nif _name_ == \"_main_\":\n    wishMe()\n    takeCommand()\n    #while True:\n    if 1:\n        query=takeCommand().lower() #query converted into lower case so can be matched easily\n\n        #logic for executing task\n        if 'wikipedia' in query: #for wikipedia search\n           query = query.replace(\"wikipedia\",\"\")\n           results = wikipedia.summary(query, sentences=2)\n           print(results)\n           speak(\"according to Wikipiedia\")\n           speak(results)\n        elif 'open youtube ' in query:\n            webbrowser.open(\"youtube.com\") #for youtube search\n        elif 'open google ' in query:\n            webbrowser.open(\"google.com\")\n        elif 'the time' in query:     #telling the time\n            strTime = datetime.datetime.now().strftime(\"%H:%M:%S\")\n            speak(f\"Maam, the time is {strTime}\")\n        else:\n            speak(\"Sorry Maam, i can not find it\")'''"
+    ],
+    "functions": [],
+    "classes": []
+}

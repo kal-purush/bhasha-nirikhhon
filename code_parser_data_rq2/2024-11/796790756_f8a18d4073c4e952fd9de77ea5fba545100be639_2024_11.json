@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "require",
+        "express",
+        "require",
+        "router",
+        "productController",
+        "router",
+        "productController",
+        "router",
+        "productController",
+        "router"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"../Admin/product.controller\"",
+        "\"/admin/product\"",
+        "\"/admin/product/:productId\"",
+        "\"/admin/product/create\""
+    ],
+    "variables": [
+        "express",
+        "router",
+        "productController"
+    ],
+    "comments": [
+        "Importing the required controllers",
+        "Defining routes for CRUD operations on products",
+        "----------------------------------------------------------------",
+        "Get routes",
+        "----------------------------------------------------------------",
+        "Get all products",
+        "Get product by ID",
+        "----------------------------------------------------------------",
+        "Post routes",
+        "----------------------------------------------------------------",
+        "Add a new product"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

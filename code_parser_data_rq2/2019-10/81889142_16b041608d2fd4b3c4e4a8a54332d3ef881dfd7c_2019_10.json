@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "useEffect",
+        "useRef",
+        "useState",
+        "value",
+        "options",
+        "useState",
+        "value",
+        "useRef",
+        "useEffect",
+        "value",
+        "timeout",
+        "setTimeout",
+        "onStartTime",
+        "setDelayedValue",
+        "value",
+        "delay",
+        "onStartTime",
+        "onStartTime",
+        "turnOff",
+        "onStartTime",
+        "setDelayedValue",
+        "value",
+        "timeSpent",
+        "duration",
+        "turnOff",
+        "timeout",
+        "setTimeout",
+        "turnOff",
+        "duration",
+        "timeSpent",
+        "timeout",
+        "clearTimeout",
+        "timeout",
+        "timeout",
+        "value",
+        "duration",
+        "delay",
+        "delayedValue"
+    ],
+    "literals": [
+        "'react'"
+    ],
+    "variables": [
+        "options",
+        "delayedValue",
+        "setDelayedValue",
+        "onStartTime",
+        "timeout",
+        "timeSpent",
+        "turnOff"
+    ],
+    "comments": [
+        "Minimal amount of time the switch will be on.",
+        "Delay after which switch will turn on.",
+        "If toggling to \"on\" state we always setTimout no matter how long we have been \"off\".",
+        "If toggling to \"off\" state we check how much time we were already \"on\".",
+        "We already spent enough time \"on\" so change right away."
+    ],
+    "docstrings": [
+        "* Hook that delays changing of boolean switch to prevent too much time spent in \"on\" state. It is kind of a throttle\n * but you can specify different time for on and off throttling so this only allows a boolean values and also prefers\n * to stay \"off\" so turning \"on\" is always delayed while turning \"off\" is throttled.\n *\n * This is useful for showing loading elements to prevent it flashing too much in case of quick loading time or\n * prevent it flash if loaded state comes right after switch to loading."
+    ],
+    "functions": [
+        "useDelayedSwitch"
+    ],
+    "classes": []
+}

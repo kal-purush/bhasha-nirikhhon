@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "args",
+        "movable",
+        "movable",
+        "car",
+        "movable",
+        "get",
+        "anotherMovable",
+        "anotherMovable",
+        "anotherCar",
+        "movable",
+        "get",
+        "t",
+        "t",
+        "t",
+        "t",
+        "t"
+    ],
+    "literals": [],
+    "variables": [
+        "t"
+    ],
+    "comments": [
+        "This line compiles without error or warning.",
+        "Compiles with unchecked warning - raw type loses type information of movable so compiler can check for type safety",
+        "Car car = movable.get();                // Compiler error - type information not set on Movable so T is of type Object. Cannot be assigned without explicit cast",
+        "This line replaces one above to ensure successful compilation.",
+        "Unchecked conversion warning",
+        "No warnings here We have type information for anotherMovable so the compiler is able to verify the object we are passing as argument to the method",
+        "No need for explicit cast here - we have type information for movable so will know what is returned from get() is of type Car so can be assigned to variable of type Car"
+    ],
+    "docstrings": [
+        "* Code block below works with generic objects being assigned\n         * to a reference variable of a raw type - no type information provided",
+        "* Code block below works with raw objects being assigned\n         * to a reference variable of a generic type - type information provided"
+    ],
+    "functions": [
+        "main",
+        "T",
+        "get"
+    ],
+    "classes": [
+        "GenericRawAssignment",
+        "Movable",
+        "Car"
+    ]
+}

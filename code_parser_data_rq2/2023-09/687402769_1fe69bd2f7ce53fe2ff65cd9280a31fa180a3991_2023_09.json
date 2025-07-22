@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "player",
+        "opponent",
+        "isGameOver",
+        "player",
+        "player",
+        "winningScore",
+        "isGameOver",
+        "p1",
+        "p2",
+        "p1",
+        "p2",
+        "player",
+        "player",
+        "p1",
+        "updateScores",
+        "p1",
+        "p2",
+        "p2",
+        "updateScores",
+        "p2",
+        "p1",
+        "winningScoreSelection",
+        "winningScore",
+        "parseInt",
+        "reset",
+        "resetall",
+        "reset",
+        "isGameOver",
+        "p",
+        "p1",
+        "p2",
+        "p",
+        "p",
+        "p",
+        "p"
+    ],
+    "literals": [
+        "'#p1Button'",
+        "'#p1'",
+        "'#p2Button'",
+        "'#p2'",
+        "'#reset'",
+        "'#playto'",
+        "'has-text-success'",
+        "'has-text-danger'",
+        "'click'",
+        "'click'",
+        "'change'",
+        "'click'",
+        "'has-text-success'",
+        "'has-text-danger'"
+    ],
+    "variables": [
+        "p1",
+        "p2",
+        "winningScore",
+        "isGameOver",
+        "resetall",
+        "winningScoreSelection"
+    ],
+    "comments": [
+        "--------------- WITHOUT REFACTORING -------------------\nlet p1Score = 0;\nlet p2Score = 0;\nconst buttonp1 = document.querySelector('#p1Button');\nconst p1 = document.querySelector('#p1');\nconst buttonp2 = document.querySelector('#p2Button');\nconst p2 = document.querySelector('#p2');\n\nbuttonp1.addEventListener('click', function () {\n    if (!isGameOver) {\n        p1Score += 1;\n        if (p1Score === winningScore) {\n            isGameOver = true;\n            // p1.style.color = 'green';\n            // p2.style.color = 'red';\n            p1.classList.add('has-text-success');\n            p2.classList.add('has-text-danger');\n            buttonp1.disabled = true;\n            buttonp2.disabled = true;\n        }\n        p1.textContent = p1Score;\n\n    }\n\n});\n\nbuttonp2.addEventListener('click', function () {\n    if (!isGameOver) {\n        p2Score += 1;\n        if (p2Score === winningScore) {\n            isGameOver = true;\n            // p2.style.color = 'green';\n            // p1.style.color = 'red';\n            p2.classList.add('has-text-success');\n            p1.classList.add('has-text-danger');\n            buttonp1.disabled = true;\n            buttonp2.disabled = true;\n        }\n        p2.textContent = p2Score;\n\n    }\n});\n\nfunction reset() {\n    isGameOver = false;\n    p1Score = 0;\n    p2Score = 0;\n    p1.textContent = 0;\n    p2.textContent = 0;\n    // p1.style.color = 'black';\n    // p2.style.color = 'black';\n    p1.classList.remove('has-text-success', 'has-text-danger');\n    p2.classList.remove('has-text-success', 'has-text-danger');\n    buttonp1.disabled = false;\n    buttonp2.disabled = false;\n\n    ---------------------------OR------------------------------------\n\n    p1.score = 0;\n    p2.score = 0;\n    p1.display.textContent = 0;\n    p2.display.textContent = 0;\n    p1.display.classList.remove('has-text-success', 'has-text-danger');\n    p2.display.classList.remove('has-text-success', 'has-text-danger');\n    p1.button.disabled = false;\n    p2.button.disabled = false;\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "updateScores",
+        "reset"
+    ],
+    "classes": []
+}

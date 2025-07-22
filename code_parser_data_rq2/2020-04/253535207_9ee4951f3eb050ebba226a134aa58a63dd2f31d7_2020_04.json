@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Router",
+        "Request",
+        "Response",
+        "filterImageFromURL",
+        "validURL",
+        "deleteLocalFiles",
+        "Router",
+        "router",
+        "req",
+        "res",
+        "req",
+        "image_url",
+        "res",
+        "validURL",
+        "image_url",
+        "res",
+        "filterImageFromURL",
+        "image_url",
+        "filtered_url",
+        "image",
+        "res",
+        "image",
+        "err",
+        "err",
+        "err",
+        "deleteLocalFiles",
+        "image",
+        "error",
+        "error",
+        "res",
+        "error"
+    ],
+    "literals": [
+        "'express'",
+        "'../../../util/util'",
+        "\"/filteredimage\"",
+        "Image URL is required",
+        "'Malformed image URL'"
+    ],
+    "variables": [
+        "router",
+        "filtered_url",
+        "FilteredimageRouter",
+        "router"
+    ],
+    "comments": [
+        "> try it {{host}}/cars?filter=make",
+        "validate the query URL",
+        "filtered_url.catch(error => {\n        console.error(error);\n        res.status(400).send(error);\n    });"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

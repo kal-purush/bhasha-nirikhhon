@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "useQuery",
+        "UseQueryOptions",
+        "axios",
+        "parseAxiosError",
+        "EnvironmentId",
+        "PodMetrics",
+        "queryKeys",
+        "environmentId",
+        "namespaceName",
+        "queryOptions",
+        "useQuery",
+        "queryKeys",
+        "environmentId",
+        "namespaceName",
+        "getMetricsForNamespace",
+        "environmentId",
+        "namespaceName",
+        "queryOptions",
+        "environmentId",
+        "namespaceName",
+        "axios",
+        "environmentId",
+        "namespaceName",
+        "pods",
+        "e",
+        "parseAxiosError",
+        "e"
+    ],
+    "literals": [
+        "'@tanstack/react-query'",
+        "'@/portainer/services/axios'",
+        "'@/react/portainer/environments/types'",
+        "'../types'",
+        "'./query-keys'",
+        "string",
+        "string",
+        "kubernetes/${environmentId}/metrics/pods/namespace/${namespaceName}",
+        "'Unable to retrieve metrics for all pods'"
+    ],
+    "variables": [
+        "pods"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "useMetricsForNamespace",
+        "getMetricsForNamespace"
+    ],
+    "classes": []
+}

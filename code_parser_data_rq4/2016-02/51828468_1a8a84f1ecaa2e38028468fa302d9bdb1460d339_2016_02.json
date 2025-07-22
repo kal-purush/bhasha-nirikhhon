@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Observable",
+        "ReplaySubject",
+        "FIREBASE_URL",
+        "Injectable",
+        "Firebase",
+        "FIREBASE_URL",
+        "ReplaySubject",
+        "authData",
+        "res",
+        "authData",
+        "listenAuth",
+        "res"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'rxjs/Observable'",
+        "'rxjs'",
+        "'./firebase/config'"
+    ],
+    "variables": [
+        "res"
+    ],
+    "comments": [
+        "<reference path=\"firebase/firebase.d.ts\" />",
+        "Use replaySubject because we are only interested in the latest value",
+        "We never stop listening"
+    ],
+    "docstrings": [],
+    "functions": [
+        "user",
+        "onAuth",
+        "listenAuth"
+    ],
+    "classes": [
+        "AuthService"
+    ]
+}

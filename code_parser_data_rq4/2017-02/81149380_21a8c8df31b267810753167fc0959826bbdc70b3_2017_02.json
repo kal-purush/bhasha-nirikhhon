@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "api",
+        "IAdmin",
+        "className",
+        "year",
+        "instructorName",
+        "capacity",
+        "className",
+        "year",
+        "capacity",
+        "className",
+        "year",
+        "className",
+        "year",
+        "className",
+        "year"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Created by Vincent on 21/2/2017.",
+        "* Create class {@code className} with capacity {@code capacity} and assign instructor {@code instructorName}\n     * The className/year pair must be unique and no instructor can be assigned to more than two courses in a year.\n     *\n     * @param className Name of the class to be created\n     * @param year Calendar year in which the course is to be taught, cannot be in the past\n     * @param instructorName Name of instructor to be assigned,\n     * @param capacity Maximum capacity of this class > 0",
+        "* Adjust the capacity (maximum number of students) of class {@code className} to new capacity {@code capacity}\n     *\n     * @param className Name of the class for which capacity should be changed\n     * @param year Year in which this class is taught\n     * @param capacity New capacity of this class, must be at least equal to the number of students enrolled",
+        "* @return Whether class {@code className} exists in year {@code year}",
+        "* @return The name of the instructor for class {@code className} in year {@code year}",
+        "* @return The capacity (maximum number of enrollees) for class {@code className} in year {@code year}"
+    ],
+    "functions": [
+        "createClass",
+        "changeCapacity",
+        "classExists",
+        "getClassInstructor",
+        "getClassCapacity"
+    ],
+    "classes": []
+}

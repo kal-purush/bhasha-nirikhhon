@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "by",
+        "chemerisuk",
+        "cordova",
+        "firebase",
+        "android",
+        "Manifest",
+        "androidx",
+        "activity",
+        "result",
+        "ActivityResultLauncher",
+        "androidx",
+        "activity",
+        "result",
+        "contract",
+        "ActivityResultContracts",
+        "androidx",
+        "appcompat",
+        "app",
+        "AppCompatActivity",
+        "requestPermissionLauncher",
+        "registerForActivityResult",
+        "isGranted",
+        "isGranted",
+        "requestPermissionLauncher",
+        "launch",
+        "Manifest",
+        "permission",
+        "ACCESS_NOTIFICATION_POLICY"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Register the permissions callback, which handles the user's response to the",
+        "system permissions dialog. Save the return value, an instance of",
+        "ActivityResultLauncher, as an instance variable.",
+        "Permission is granted. Continue the action or workflow in your",
+        "app.",
+        "Explain to the user that the feature is unavailable because the",
+        "feature requires a permission that the user has denied. At the",
+        "same time, respect the user's decision. Don't link to system",
+        "settings in an effort to convince the user to change their",
+        "decision."
+    ],
+    "docstrings": [],
+    "functions": [
+        "launchPermissions"
+    ],
+    "classes": [
+        "FirebaseMessagingActivity"
+    ]
+}

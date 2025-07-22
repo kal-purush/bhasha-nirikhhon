@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nThe mock module provides mock instances of common neurodata types which can be used to write\ntests for downstream libraries. For instance, to write an RoiResponseSeries, you need a\nPlaneSegmentation, which requires an ImagingPlane, which in turn requires an\nOpticalChannel and a Device, all of which need to be populated with reasonable mock\ndata. This library streamlines the process of creating mock objects by generating the\nrequired prerequisites for this object on-the-fly and automatically using reasonable\ndefaults. Any of these default objects and parameters can be overridden.\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

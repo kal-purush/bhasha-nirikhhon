@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "os",
+        "GitHubPackage",
+        "GitHubPackage",
+        "revision",
+        "configure_flags",
+        "arch",
+        "arch",
+        "arch",
+        "Package",
+        "profile",
+        "name",
+        "local_configure_flags",
+        "extend",
+        "MonoLlvmPackage"
+    ],
+    "literals": [
+        "'mono'",
+        "'llvm'",
+        "'3.0'",
+        "'a173357a14509a4244c775c4494b169cd06b88ed'",
+        "'--enable-optimized'",
+        "'--enable-assertions=no'",
+        "'--enable-targets=\"x86,x86_64\"'",
+        "'darwin-64'",
+        "'--build=x86_64-apple-darwin11.2.0'",
+        "'darwin-32'",
+        "'--build=i386-apple-darwin11.2.0'",
+        "'darwin'",
+        "'--enable-libcpp=yes'"
+    ],
+    "variables": [
+        "needs_lipo",
+        "ld_flags",
+        "cpp_flags",
+        "local_configure_flags",
+        "local_configure_flags"
+    ],
+    "comments": [
+        "This package would like to be lipoed.",
+        "TODO: find out which flags are causing issues. reset ld_flags for the package",
+        "64-bit  build pass",
+        "LLVM says that libstdc++4.6 is broken and we should use libstdc++4.7. This switches it to the right libstdc++."
+    ],
+    "docstrings": [],
+    "functions": [
+        "arch_build"
+    ],
+    "classes": [
+        "MonoLlvmPackage"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "describe",
+        "it",
+        "app",
+        "service",
+        "it",
+        "app",
+        "user",
+        "user",
+        "it",
+        "app",
+        "user"
+    ],
+    "literals": [
+        "'assert'",
+        "'../../src/app'",
+        "'\\'users\\' service'",
+        "'registered the service'",
+        "'users'",
+        "'Registered the service'",
+        "'creates a user, encrypts password and adds gravatar'",
+        "'users'",
+        "'test@example.com'",
+        "'secret'",
+        "'https://s.gravatar.com/avatar/55502f40dc8b7c769880b10874abc9d0?s=60'",
+        "'secret'",
+        "'removes password for external requests'",
+        "'rest'",
+        "'users'",
+        "'test2@example.com'",
+        "'secret'"
+    ],
+    "variables": [
+        "app",
+        "service",
+        "user",
+        "user"
+    ],
+    "comments": [
+        "Verify Gravatar has been set as we'd expect",
+        "Makes sure the password got encrypted",
+        "Setting `provider` indicates an external request",
+        "Make sure password has been removed"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

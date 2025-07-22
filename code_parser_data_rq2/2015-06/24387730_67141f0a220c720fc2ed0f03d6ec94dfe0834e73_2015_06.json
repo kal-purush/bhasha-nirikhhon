@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "abc",
+        "abc",
+        "ABCMeta",
+        "classmethod",
+        "abc",
+        "abstractmethod",
+        "cls",
+        "abc",
+        "abstractmethod",
+        "code",
+        "code",
+        "get_descriptors",
+        "code",
+        "abc",
+        "abstractmethod",
+        "code",
+        "descriptor",
+        "code",
+        "descriptor",
+        "add_descriptor",
+        "code",
+        "descriptor",
+        "os",
+        "path",
+        "osp",
+        "smqtk",
+        "utils",
+        "plugin",
+        "get_plugins",
+        "osp",
+        "abspath",
+        "osp",
+        "dirname",
+        "cls",
+        "cls",
+        "is_usable",
+        "get_plugins",
+        "this_dir",
+        "helper_var",
+        "CodeIndex",
+        "fltr"
+    ],
+    "literals": [
+        "'purg'",
+        "'CODE_INDEX_CLASS'"
+    ],
+    "variables": [
+        "__author__",
+        "__metaclass__",
+        "this_dir",
+        "helper_var",
+        "fltr"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Abstract base class for LSH small-code index storage\n    \"\"\"",
+        "\"\"\"\n        Return boolean that describes whether this implementation is available\n        for use. If this is false, then it will not be returned as an available\n        plugin implementation.\n\n        :return: If this implementation is usable or not.\n        :rtype: bool\n\n        \"\"\"",
+        "\"\"\"\n        Get iterable of descriptors associated to this code. This may be empty.\n\n        Runtime: O(1)\n\n        :param code: Integer code bits\n        :type code: int\n\n        :return: Iterable of descriptors\n        :rtype: collections.Iterable[smqtk.data_rep.DescriptorElement]\n\n        \"\"\"",
+        "\"\"\"\n        Add a descriptor to this index given a matching small-code\n\n        :param code: bit-hash of the given descriptor in integer form\n        :type code: int\n\n        :param descriptor: Descriptor to index\n        :type descriptor: smqtk.data_rep.DescriptorElement\n\n        \"\"\"",
+        "\"\"\"\n    Discover and return small-code index implementation classes found in the\n    plugin directory.\n    Keys in the returned map are the names of the discovered implementations and\n    the paired values are the actual class type objects.\n\n    We look for modules (directories or files) that start with and alphanumeric\n    character ('_' prefixed files/directories are hidden, but not recommended).\n\n    Within a module, we first look for a helper variable by the name\n    ``CODE_INDEX_CLASS``, which can either be a single class object or\n    an iterable of class objects, to be exported. If the variable is set to\n    None, we skip that module and do not import anything. If the variable is not\n    present, we look for a class by the same na e and casing as the module's\n    name. If neither are found, the module is skipped.\n\n    :return: Map of discovered class objects of type ``CodeIndex`` whose\n        keys are the string names of the classes.\n    :rtype: dict[str, type]\n\n    \"\"\""
+    ],
+    "functions": [
+        "is_usable",
+        "get_descriptors",
+        "__getitem__",
+        "add_descriptor",
+        "__setitem__",
+        "get_index_types"
+    ],
+    "classes": [
+        "CodeIndex"
+    ]
+}

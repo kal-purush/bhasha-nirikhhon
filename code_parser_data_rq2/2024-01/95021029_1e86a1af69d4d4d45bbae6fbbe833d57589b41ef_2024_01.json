@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "expect",
+        "ProjectDeployStartExecutor",
+        "nls",
+        "describe",
+        "it",
+        "ProjectDeployStartExecutor",
+        "projectDeployStartNoFlag",
+        "expect",
+        "projectDeployStartCommand",
+        "projectDeployStartNoFlag",
+        "commonParams",
+        "expect",
+        "projectDeployStartCommand",
+        "nls",
+        "it",
+        "ProjectDeployStartExecutor",
+        "projectDeployStartIgnoreConflicts",
+        "expect",
+        "projectDeployStartCommand",
+        "projectDeployStartIgnoreConflicts",
+        "commonParams",
+        "expect",
+        "projectDeployStartCommand",
+        "nls"
+    ],
+    "literals": [
+        "'chai'",
+        "'../../../src/commands'",
+        "'../../../src/messages'",
+        "'Project Deploy Start'",
+        "'--json'",
+        "'Should build the project deploy start command with no flag'",
+        "sfdx ${projectDeployStartNoFlag.params.command} ${commonParams}",
+        "'project_deploy_start_default_org_text'",
+        "'Should build the project deploy start command with ignore conflicts flag'",
+        "'--ignore-conflicts'",
+        "sfdx ${projectDeployStartIgnoreConflicts.params.command} ${commonParams} --ignore-conflicts",
+        "'project_deploy_start_ignore_conflicts_default_org_text'"
+    ],
+    "variables": [
+        "commonParams",
+        "projectDeployStartNoFlag",
+        "projectDeployStartCommand",
+        "projectDeployStartIgnoreConflicts",
+        "projectDeployStartCommand"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2017, salesforce.com, inc.\n * All rights reserved.\n * Licensed under the BSD 3-Clause license.\n * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause"
+    ],
+    "functions": [],
+    "classes": []
+}

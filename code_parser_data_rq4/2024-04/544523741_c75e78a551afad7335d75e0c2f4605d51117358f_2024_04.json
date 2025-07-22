@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "databaseName",
+        "MongoClient",
+        "ObjectId",
+        "client",
+        "teamId",
+        "workspaceId",
+        "client",
+        "databaseName",
+        "workspaceMembersCol",
+        "ObjectId",
+        "teamId",
+        "ObjectId",
+        "workspaceId",
+        "client",
+        "teamId",
+        "client",
+        "databaseName",
+        "collectionsCol",
+        "ObjectId",
+        "teamId"
+    ],
+    "literals": [
+        "\"@/lib/mongodb\"",
+        "\"mongodb\"",
+        "string",
+        "string",
+        "\"collections\"",
+        "string",
+        "\"collections\""
+    ],
+    "variables": [
+        "workspaceMembersCol",
+        "collectionsCol"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Remove all workspace's collections",
+        "* Remove all collections for  team. Operation to be performed when a team is deleted"
+    ],
+    "functions": [
+        "removeAllWorkspaceCollection",
+        "removeAllTeamCollections"
+    ],
+    "classes": []
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "addGraphQLResolvers",
+        "addGraphQLQuery",
+        "addGraphQLResolvers",
+        "root",
+        "args",
+        "mergeFeedQueries",
+        "doQuery",
+        "limit",
+        "after",
+        "addGraphQLSchema",
+        "addGraphQLQuery"
+    ],
+    "literals": [
+        "'../../lib/vulcan-lib/graphql'",
+        "string",
+        "type TagHistoryFeedSchema {\n    type: String!\n    tagCreated: TagHistoryCreated\n    tagRevision: TagHistoryRevision\n    tagApplied: TagHistoryApplied\n  }\n  type TagHistoryCreated {\n    date: Date!\n    user: User!\n  }\n  type TagHistoryRevision {\n    date: Date!\n    user: User!\n  }\n  type TagHistoryApplied {\n    date: Date!\n    user: User!\n    post: Post!\n  }",
+        "\"TagHistoryFeed(tagId: String!, limit: Int, after: Date): TagHistoryFeedSchema\""
+    ],
+    "variables": [
+        "args"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "TagHistoryFeed",
+        "mergeFeedQueries"
+    ],
+    "classes": []
+}

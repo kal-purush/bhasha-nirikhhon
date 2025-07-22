@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "Bun",
+        "Deno",
+        "Web",
+        "Bun",
+        "Deno",
+        "Web"
+    ],
+    "literals": [
+        "\"./bun.js\"",
+        "\"./deno.js\"",
+        "\"./web.js\"",
+        "\"./node.js\""
+    ],
+    "variables": [],
+    "comments": [
+        "This file is a stud for the documentation.",
+        "You shouldn't import it as it might execute code for different platforms."
+    ],
+    "docstrings": [
+        "* @module setup\n *\n * @description\n * Simplify the setup proccess of the WhatsAppAPI for different platforms\n *\n * @example\n * ```ts\n * import WhatsAppAPI from \"whatsapp-api-js\";\n * import { NodeNext } from \"whatsapp-api-js/setup/node\";\n *\n * const api = new WhatsAppAPI(NodeNext({\n *     token: \"YOUR_TOKEN\",\n *     appSecret: \"YOUR_APP_SECRET\"\n * }));\n * ```"
+    ],
+    "functions": [],
+    "classes": []
+}

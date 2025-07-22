@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "axios",
+        "config",
+        "fs",
+        "startServer",
+        "config",
+        "startServer",
+        "axios",
+        "port",
+        "res",
+        "fs",
+        "__dirname",
+        "html",
+        "generateStaticHtml",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "\"axios\"",
+        "\"config\"",
+        "\"fs\"",
+        "\"./start-server\"",
+        "\"server.port\"",
+        "http://localhost:${port}/",
+        "${__dirname}/../../dist/index.html",
+        "failed to generate static HTML: ${err}"
+    ],
+    "variables": [
+        "port",
+        "res",
+        "html"
+    ],
+    "comments": [
+        "tslint:disable:non-literal-fs-path"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generateStaticHtml"
+    ],
+    "classes": []
+}

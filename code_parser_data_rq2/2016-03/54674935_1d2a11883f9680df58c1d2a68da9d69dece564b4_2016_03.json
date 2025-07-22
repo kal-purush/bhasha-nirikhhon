@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "Component",
+        "EventEmitter",
+        "artist",
+        "artist",
+        "artist"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'artist-select'",
+        "'artistList'",
+        "'onArtistSelect'",
+        "<select (change)=\"changeArtist($event.target.value)\">\n      <option>All</option>\n      <option *ngFor=\"#currentArtist of artistList\">{{ currentArtist }}</option>\n    </select>",
+        "string",
+        "string",
+        "string",
+        "'artist-select emit'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "changeArtist"
+    ],
+    "classes": [
+        "ArtistSelectComponent"
+    ]
+}

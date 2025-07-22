@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpClient",
+        "IDeck",
+        "HttpHeaders",
+        "Injectable",
+        "http",
+        "HttpHeaders",
+        "headers",
+        "deck_id",
+        "deck_id"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "'@angular/common/http'",
+        "\"./deck.model\"",
+        "'@angular/common/http'",
+        "\"https://deckofcardsapi.com/api/deck/new/shuffle/?deck_count=1\"",
+        "string",
+        "https://deckofcardsapi.com/api/deck/${deck_id}/draw/?count=2"
+    ],
+    "variables": [
+        "headers"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getShuffledDeck",
+        "getCards"
+    ],
+    "classes": [
+        "CardsService"
+    ]
+}

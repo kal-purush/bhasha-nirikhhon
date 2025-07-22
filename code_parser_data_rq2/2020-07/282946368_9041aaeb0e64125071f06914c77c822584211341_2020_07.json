@@ -1,0 +1,33 @@
+{
+    "identifiers": [],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"retweeted_status\"",
+        "string",
+        "\"id\"",
+        "\"id_str\"",
+        "\"created_at\"",
+        "\"id\"",
+        "\"\"",
+        "\"id\"",
+        "\"screen_name\"",
+        "string",
+        "string",
+        "\"fulfilled\"",
+        "\"rejected\""
+    ],
+    "variables": [],
+    "comments": [
+        "https://twitter.com/i/web/status/ のここに入るやつ",
+        "b.hatena.ne.jp から始まるものははてなブックマーク経由、urlパラメータがない場合はリダイレクト",
+        "htn.to は記事へのリダイレクタ",
+        "その下に対象のTweetのid_strも載ってる場合がある（一緒なら無視していいが、違う場合は引用RTかな？）",
+        "引用RTの場合、entitiesのurlsに対象の記事のURLが無いかもしれないので、こっちをまず優先してみる"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

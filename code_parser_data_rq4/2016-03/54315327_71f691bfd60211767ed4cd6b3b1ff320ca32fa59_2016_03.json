@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "Component",
+        "Rx",
+        "ZundokoModel",
+        "Observable",
+        "Component",
+        "require",
+        "ZundokoModel",
+        "model",
+        "Rx",
+        "zundokoStream",
+        "x",
+        "x",
+        "val",
+        "val",
+        "kiyoshiStream",
+        "x",
+        "x",
+        "x",
+        "Rx",
+        "subsriber",
+        "setTimeout",
+        "isStop",
+        "subsriber",
+        "count",
+        "count",
+        "timer",
+        "timer",
+        "isStop",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "\"angular2/core\"",
+        "'rxjs'",
+        "\"./zundoko.model\"",
+        "\"rxjs/Observable\"",
+        "'kiyoshi'",
+        "'./kiyoshi.component.scss'",
+        "<div class=\"kiyoshi-check rank-{{rank}}\" (keydown)=\"keydown($event)\" tabindex=\"1\">\n    <h2>キヨシチェック</h2>\n    <div class=\"form-panel\">\n      <button (click)=\"start()\">start</button>\n      <button (click)=\"stop()\">stop</button>\n      Speed: <input type=\"range\" max=\"1000\" min=\"100\" step=\"10\" [(ngModel)]=\"speed\"> {{speed}}\n    </div>\n    <div class=\"zundoko-container\">\n      <div class=\"zundoko-item\" *ngFor=\"#item of items\">{{item}} </div>\n    </div>\n    <span class=\"kiyoshi\" [hidden]=\"!kiyoshi\">＼キ・ヨ・シ！／</span>\n  </div>",
+        "'event'",
+        "'KeyZ'",
+        "'ズン'",
+        "'KeyD'",
+        "'ドコ'",
+        "''",
+        "'ズンズンズンズンドコ'",
+        "'ドコ'",
+        "'timer'",
+        "'Error'"
+    ],
+    "variables": [
+        "zundokoStream",
+        "kiyoshiStream",
+        "count",
+        "isStop"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "keydown",
+        "start",
+        "updateZundoko",
+        "stop",
+        "createIntervalStream",
+        "timer",
+        "createSubscriber"
+    ],
+    "classes": [
+        "KiyoshiComponent"
+    ]
+}

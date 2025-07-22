@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "process",
+        "process",
+        "process",
+        "mongojs",
+        "mongoUrl",
+        "mongoCollection",
+        "db",
+        "mongoCollection",
+        "query",
+        "coll",
+        "coll",
+        "portfolio",
+        "tn",
+        "findAsync",
+        "res",
+        "res",
+        "exports",
+        "handle"
+    ],
+    "literals": [
+        "\"bluebird\"",
+        "\"mongojs\"",
+        "\"mongodb://#{process.env.MONGO_PORT_27017_TCP_ADDR}:#{process.env.MONGO_PORT_27017_TCP_PORT}\"",
+        "string",
+        "string",
+        "\"handler.ts:24>>>\""
+    ],
+    "variables": [
+        "mongojs",
+        "mongoUrl",
+        "mongoCollection",
+        "db",
+        "coll",
+        "findAsync"
+    ],
+    "comments": [
+        "<reference path=\"../typings/tsd.d.ts\" />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handle"
+    ],
+    "classes": []
+}

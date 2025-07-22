@@ -1,0 +1,18 @@
+{
+    "identifiers": [
+        "Digest",
+        "Digest",
+        "secretKey"
+    ],
+    "literals": [
+        "\"./Digest\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* A HMAC ( commonly referred to as a Hash ) (hash-based message authentication\n * code) is a type of message authentication code (MAC) that uses a\n * cryptographic hash function and a secret key. It may be used to verify data\n * integrity and authentication of a message.\n *\n * Strontium assumes that HMAC functions will run on input that is entirely\n * in memory. The interface does not currently support calculations against a\n * stream.\n *\n * The exact nature or security properties of a given HMAC implementation\n * will vary based on the implementing class.",
+        "* Create a new HMAC Encrypter.\n   *\n   * @param secretKey - The shared secret to use for encryption."
+    ],
+    "functions": [],
+    "classes": []
+}

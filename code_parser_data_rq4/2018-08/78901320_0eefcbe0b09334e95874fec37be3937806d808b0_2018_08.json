@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "math",
+        "limit",
+        "limit",
+        "i",
+        "limit",
+        "PrimeList",
+        "i",
+        "i",
+        "j",
+        "limit",
+        "i",
+        "j",
+        "j",
+        "i",
+        "limit",
+        "PrimeList",
+        "i",
+        "Primes",
+        "append",
+        "i",
+        "Primes",
+        "S",
+        "math",
+        "floor",
+        "math",
+        "sqrt",
+        "N"
+    ],
+    "literals": [],
+    "variables": [
+        "j",
+        "PrimeList",
+        "Primes",
+        "PrimeList",
+        "j",
+        "j",
+        "j",
+        "N",
+        "rootN"
+    ],
+    "comments": [
+        "PE633 - Square Prime Factors II",
+        "Approach:",
+        "1 - Find list of primes less than or equal to N.",
+        "2 - Multiply each number in list by every other number in list.",
+        "3 - If squares are less than or equal to N, increment C sum.",
+        "4 - Any non-squares that are less or equal to the square root on N",
+        "are added to the list.",
+        "5 - Repeat from step 2, by multiplying new entries by full list.",
+        "6 - Stop when every product is greater than N.",
+        "A simple sieve technique to create a single long list of all prime numbers below \"limit\".",
+        "This is useful for generating a list of primes to iterate through. Not as efficient for",
+        "generating a list of primes to find a specific value in.",
+        "Set all of the composite number indices to False",
+        "Create a single list containing all prime numbers under a given limit"
+    ],
+    "docstrings": [
+        "\"\"\"\nnumList = list(Sieve(N))\nC_sum = 0\nminProd = rootN\nnewIndex = 0\n\nwhile(minProd <= N):\n    newList = list()\n    for i in range(newIndex,len(numList)):\n        for j in numList:\n            prod = i*j\n            if(i == j)&(prod<=N):\n                C_sum = C_sum + 1\n            elif(prod<=rootN):\n                newList.add(prod)\n\"\"\""
+    ],
+    "functions": [
+        "Sieve"
+    ],
+    "classes": []
+}

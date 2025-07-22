@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "game"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "'player'",
+        "'images/player-sprite-sheet.png'",
+        "'zombie'",
+        "'images/zombie-sprite-sheet.png'"
+    ],
+    "variables": [],
+    "comments": [
+        "This is gathering the parent game object and relying on JS traversing.",
+        "I could pass the game object to the constructor.",
+        "Load spritesheet - arguments(name, image path, width, height, number of frames in image)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "load"
+    ],
+    "classes": [
+        "Sprites"
+    ]
+}

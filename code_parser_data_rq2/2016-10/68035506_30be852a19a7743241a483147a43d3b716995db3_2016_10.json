@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "django",
+        "http",
+        "HttpResponse",
+        "django",
+        "views",
+        "generic",
+        "django",
+        "template",
+        "loader",
+        "django",
+        "shortcuts",
+        "render",
+        "profiles",
+        "models",
+        "request",
+        "models",
+        "Profile",
+        "objects",
+        "all",
+        "users",
+        "render",
+        "request",
+        "template_name",
+        "context"
+    ],
+    "literals": [
+        "\"search/search_it.html\"",
+        "'users'"
+    ],
+    "variables": [
+        "template_name",
+        "users",
+        "context"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\n    class ShowProfile(LoginRequiredMixin, generic.TemplateView):\n    template_name = \"profiles/show_profile.html\"\n    http_method_names = ['get']\n\n    def get(self, request, *args, **kwargs):\n        slug = self.kwargs.get('slug')\n        if slug:\n            profile = get_object_or_404(models.Profile, slug=slug)\n            user = profile.user\n        else:\n            user = self.request.user\n\n        if user == self.request.user:\n            kwargs[\"editable\"] = True\n        kwargs[\"show_user\"] = user\n        return super(ShowProfile, self).get(request, *args, **kwargs)\n\n    users = models.Profile.objects.all()\n    template = loader.get_template('search/search_it.html')\n    context = { 'users':users }\n\n    print(context)\n    return HttpResponse(template.render(context, request))\n    '''"
+    ],
+    "functions": [
+        "search"
+    ],
+    "classes": []
+}

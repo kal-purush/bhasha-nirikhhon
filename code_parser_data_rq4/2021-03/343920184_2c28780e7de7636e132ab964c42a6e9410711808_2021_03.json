@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "jokeBtn",
+        "generateJoke",
+        "generateJoke",
+        "fetch",
+        "config",
+        "res",
+        "jokeEl",
+        "data"
+    ],
+    "literals": [
+        "'joke'",
+        "'jokeBtn'",
+        "'click'",
+        "'Accept'",
+        "'application/json'",
+        "'https://icanhazdadjoke.com'"
+    ],
+    "variables": [
+        "jokeEl",
+        "jokeBtn",
+        "config",
+        "res",
+        "data"
+    ],
+    "comments": [
+        "function generateJoke() {",
+        "const config = {",
+        "headers: {",
+        "'Accept': 'application/json'",
+        "}",
+        "}",
+        "fetch('https://icanhazdadjoke.com', config)",
+        ".then((res) => res.json())",
+        ".then((data) => {",
+        "jokeEl.innerText = data.joke})",
+        "}"
+    ],
+    "docstrings": [
+        "********This is without async/await usage************ */"
+    ],
+    "functions": [
+        "generateJoke"
+    ],
+    "classes": []
+}

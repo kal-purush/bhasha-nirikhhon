@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "json",
+        "boto3",
+        "context",
+        "boto3",
+        "client",
+        "open",
+        "mode",
+        "encoding",
+        "csv_file",
+        "runtime",
+        "invoke_endpoint",
+        "EndpointName",
+        "Body",
+        "csv_file",
+        "read",
+        "encode",
+        "ContentType",
+        "json",
+        "dumps",
+        "json",
+        "loads",
+        "response",
+        "read",
+        "decode"
+    ],
+    "literals": [
+        "\"sagemaker-runtime\"",
+        "'training_feature_names.csv'",
+        "\"r\"",
+        "\"utf-8\"",
+        "\"sagemaker-scikit-learn-2023-06-05-07-35-00-839\"",
+        "'utf-8'",
+        "\"text/csv\"",
+        "'statusCode'",
+        "'body'",
+        "\"Body\"",
+        "'utf-8'"
+    ],
+    "variables": [
+        "runtime",
+        "response"
+    ],
+    "comments": [
+        "Make sure that the training_feature_names.csv file is located at the root of the Lambda folder",
+        "Replace the following value with your deployed Endpoint name"
+    ],
+    "docstrings": [],
+    "functions": [
+        "lambda_handler"
+    ],
+    "classes": []
+}

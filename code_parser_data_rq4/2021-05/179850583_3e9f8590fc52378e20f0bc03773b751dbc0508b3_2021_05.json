@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "org",
+        "casbin",
+        "adapter",
+        "org",
+        "casbin",
+        "spring",
+        "boot",
+        "autoconfigure",
+        "properties",
+        "CasbinExceptionProperties",
+        "org",
+        "springframework",
+        "jdbc",
+        "core",
+        "JdbcTemplate",
+        "INIT_TABLE_SQL",
+        "jdbcTemplate",
+        "casbinExceptionProperties",
+        "autoCreateTable",
+        "jdbcTemplate",
+        "casbinExceptionProperties",
+        "autoCreateTable",
+        "Override",
+        "INIT_TABLE_SQL"
+    ],
+    "literals": [
+        "\"CREATE TABLE IF NOT EXISTS CASBIN_RULE (\"",
+        "\" id SERIAL PRIMARY KEY, \"",
+        "\" ptype varchar(255) NOT NULL,\"",
+        "\" v0 varchar(255) DEFAULT NULL,\"",
+        "\" v1 varchar(255) DEFAULT NULL,\"",
+        "\" v2 varchar(255) DEFAULT NULL,\"",
+        "\" v3 varchar(255) DEFAULT NULL,\"",
+        "\" v4 varchar(255) DEFAULT NULL,\"",
+        "\" v5 varchar(255) DEFAULT NULL\"",
+        "\")\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @author fangzhengjin\n * @version V1.0\n * @title: PostgreSQLAdapter\n * @package org.casbin.adapter\n * @description:\n * @date 2021/05/28 09:30"
+    ],
+    "functions": [
+        "PostgreSQLAdapter",
+        "getInitTableSql"
+    ],
+    "classes": [
+        "PostgreSQLAdapter"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Application",
+        "Response",
+        "Request",
+        "Keycloak",
+        "AbstractService",
+        "AbstractService",
+        "app",
+        "keycloak",
+        "app",
+        "keycloak",
+        "req",
+        "res"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"keycloak-connect\"",
+        "\"../abstract-service\"",
+        "/rest/v1${this.toPath('/deliveryQualities')}",
+        "'/deliveryQualities'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Constructor\n   * \n   * @param app Express app\n   * @param keycloak Keycloak",
+        "* Lists delivery qualities\n   * @summary Lists delivery qualities\n   * Accepted parameters:\n    * - (query) ItemGroupCategory itemGroupCategory - filter by item group category"
+    ],
+    "functions": [],
+    "classes": []
+}

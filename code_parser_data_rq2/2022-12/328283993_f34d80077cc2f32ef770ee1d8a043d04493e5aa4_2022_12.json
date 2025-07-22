@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "Template"
+    ],
+    "literals": [
+        "'../../models'",
+        "'ocaml'",
+        "'Ocaml Starter'",
+        "'assets/templates/ocaml.svg'",
+        "'script'",
+        "'html'",
+        "'<div id=\"app\">Loading...</div>\\n'",
+        "'css'",
+        ".container,\n.container button {\n  text-align: center;\n  font: 1em sans-serif;\n}\n.logo {\n  width: 250px;\n}",
+        "'ocaml'",
+        "module App =\n  struct\n    let make ~name  =\n      let title = \"Hello, \" ^ name ^ \"!\" in\n\n      let (count,setCount) = React.useState (fun ()  -> 0) in\n\n      let times =\n        match count with\n        | 1 -> \"once\"\n        | 2 -> \"twice\"\n        | n -> (string_of_int n) ^ \" times\" in\n\n      ((div ~className: \"container\"\n          ~children:[((h1 ~children: [React.string title] ())[@JSX ]);\n                    ((img ~className: \"logo\"\n                        ~src: \"http://127.0.0.1:8080/livecodes/assets/templates/ocaml.svg\"\n                        ~children:[] ())[@JSX ]);\n                    ((p\n                        ~children:[React.string (\"You clicked \"\n                                                ^ times)] ())[@JSX ]);\n                    ((button\n                        ~onClick:(fun _  -> setCount (fun _  -> count + 1))\n                        ~children:[React.string \"Click me\"] ())\n                    [@JSX ])] ())[@JSX ])[@@react.component ]\n  end\n\nlet _ =\n  match ReactDOM.querySelector \"#app\" with\n  | ((Some (app))[@explicit_arity ]) ->\n      ReactDOM.render\n        ((App.createElement\n            ~name: \"OCaml\"\n            ~children:[] ())[@JSX ]) app\n  | None  -> ()\n\nlet _ = print_endline \"Hello, OCaml!\"",
+        "''"
+    ],
+    "variables": [
+        "ocamlStarter"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

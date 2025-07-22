@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Filters",
+        "NewsBook",
+        "Models",
+        "Data",
+        "NewsBook",
+        "Authorization",
+        "AttributeUsage",
+        "AttributeTargets",
+        "Class",
+        "AttributeTargets",
+        "Method",
+        "Attribute",
+        "IAuthorizationFilter",
+        "IList",
+        "Role",
+        "Role",
+        "roles",
+        "_roles",
+        "roles",
+        "Role",
+        "AuthorizationFilterContext",
+        "context",
+        "context",
+        "ActionDescriptor",
+        "EndpointMetadata",
+        "OfType",
+        "AllowAnonymousAttribute",
+        "Any",
+        "allowAnonymous",
+        "User",
+        "context",
+        "HttpContext",
+        "Items",
+        "user",
+        "_roles",
+        "Any",
+        "_roles",
+        "Contains",
+        "user",
+        "Role",
+        "context",
+        "Result",
+        "JsonResult",
+        "message",
+        "StatusCode",
+        "StatusCodes",
+        "Status401Unauthorized"
+    ],
+    "literals": [
+        "\"User\"",
+        "\"Unauthorized\""
+    ],
+    "variables": [
+        "_roles",
+        "allowAnonymous",
+        "user"
+    ],
+    "comments": [
+        "skip authorization if action is decorated with [AllowAnonymous] attribute",
+        "authorization",
+        "not logged in or role not authorized"
+    ],
+    "docstrings": [],
+    "functions": [
+        "AuthorizeAttribute",
+        "OnAuthorization"
+    ],
+    "classes": [
+        "AuthorizeAttribute"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "os",
+        "kaggle_web_client",
+        "KaggleWebClient",
+        "KaggleWebClient",
+        "os",
+        "getenv",
+        "_KAGGLE_TPU_NAME_ENV_VAR_NAME",
+        "dataset_dir",
+        "TPU",
+        "has_tpu",
+        "AUTO_ML",
+        "dataset_dir",
+        "integration_type",
+        "web_client",
+        "make_post_request",
+        "data",
+        "GET_GCS_PATH_ENDPOINT",
+        "result"
+    ],
+    "literals": [
+        "'TPU_NAME'",
+        "'/requests/CopyDatasetVersionToKnownGcsBucketRequest'",
+        "'MountSlug'",
+        "'IntegrationType'",
+        "'destinationBucket'"
+    ],
+    "variables": [
+        "_KAGGLE_TPU_NAME_ENV_VAR_NAME",
+        "GET_GCS_PATH_ENDPOINT",
+        "AUTO_ML",
+        "TPU",
+        "web_client",
+        "has_tpu",
+        "integration_type",
+        "data",
+        "result"
+    ],
+    "comments": [
+        "Integration types for GCS"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_gcs_path"
+    ],
+    "classes": [
+        "KaggleDatasets"
+    ]
+}

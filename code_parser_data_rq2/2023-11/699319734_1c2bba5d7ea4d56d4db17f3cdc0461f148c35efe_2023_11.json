@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "GameContext",
+        "GameState",
+        "NextStateOptions",
+        "context",
+        "players",
+        "p",
+        "p",
+        "player",
+        "index",
+        "index",
+        "index",
+        "players",
+        "players",
+        "index",
+        "GameState",
+        "players",
+        "index",
+        "player",
+        "players",
+        "index",
+        "currentRound",
+        "GameState",
+        "GameState"
+    ],
+    "literals": [
+        "'../../interfaces'",
+        "'../common'",
+        "'Unexpected error. Could not find player in game context.'"
+    ],
+    "variables": [
+        "player",
+        "context",
+        "index"
+    ],
+    "comments": [
+        "Find the current player in turn order.",
+        "Find the next player in turn order that has not already passed.",
+        "If everyone has passed then we can clean up for the next round, or end the game if",
+        "we are on the final round."
+    ],
+    "docstrings": [],
+    "functions": [
+        "determineNextState"
+    ],
+    "classes": [
+        "NextStateDetermination"
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "jumble",
+        "jumbled",
+        "s",
+        "t",
+        "sorted",
+        "s",
+        "sorted",
+        "t",
+        "same",
+        "jumbled",
+        "same",
+        "jumbled",
+        "same",
+        "jumbled"
+    ],
+    "literals": [
+        "\"abbcd\"",
+        "\"abbcd\"",
+        "\"abbc\"",
+        "\"abcc\"",
+        "\"abbcc\"",
+        "\"aabc\"",
+        "\"abac\"",
+        "\"bcaa\"",
+        "\"aabc\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nNose tests for jumble.py\n\nWe cannot test for randomness here (no effective oracle),\nbut we can test that the elements in the returned string\nare correct.\n\"\"\"",
+        "\"\"\"\n    Same characters (possibly in different order)\n    in two strings s and t.\n    \"\"\""
+    ],
+    "functions": [
+        "same",
+        "test_jumbled_single",
+        "test_jumbled_pair",
+        "test_jumbled_more"
+    ],
+    "classes": []
+}

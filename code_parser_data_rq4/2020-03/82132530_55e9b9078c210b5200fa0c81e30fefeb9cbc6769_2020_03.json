@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "MongoConnector",
+        "NatsConnector",
+        "RedisConnector",
+        "config",
+        "GraphqlPubSubConnector",
+        "Transporter",
+        "GenericObject",
+        "ILogger",
+        "transporter",
+        "logger",
+        "transporter",
+        "transporter",
+        "GraphqlPubSubConnector",
+        "transporter",
+        "NatsConnector",
+        "GraphqlPubSubConnector",
+        "transporter",
+        "NatsConnector",
+        "transporter",
+        "GraphqlPubSubConnector",
+        "transporter",
+        "MongoConnector",
+        "config",
+        "RedisConnector"
+    ],
+    "literals": [
+        "'./mongo-connector'",
+        "'./nats-connector'",
+        "'./redis-connector'",
+        "'../config'",
+        "'./graphql-pubsub-connector'",
+        "'moleculer'",
+        "'bunyan'",
+        "string",
+        "'string'",
+        "'TCP'",
+        "'NATS'",
+        "'NATS'",
+        "'NATS'"
+    ],
+    "variables": [],
+    "comments": [
+        "TODO pass constructor options"
+    ],
+    "docstrings": [
+        "*  Connection broker class\n *\n * @class ConnectionBroker",
+        "* Creates an instance of ConnectionBroker.\n     * @param {*} options\n     * @memberof ConnectionBroker"
+    ],
+    "functions": [
+        "mongoConnection",
+        "redisDataloaderClient",
+        "natsConnection",
+        "graphqlPubsub",
+        "stop"
+    ],
+    "classes": [
+        "ConnectionBroker"
+    ]
+}

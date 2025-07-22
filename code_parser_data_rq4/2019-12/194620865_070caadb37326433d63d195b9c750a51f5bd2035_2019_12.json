@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "Arcus",
+        "Messaging",
+        "Health",
+        "Tcp",
+        "GuardNet",
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "IServiceCollection",
+        "services",
+        "Action",
+        "IHealthChecksBuilder",
+        "configureHealthChecks",
+        "Guard",
+        "NotNull",
+        "services",
+        "nameof",
+        "services",
+        "services",
+        "AddHealthChecks",
+        "configureHealthChecks",
+        "Invoke",
+        "healthCheckBuilder",
+        "services",
+        "AddHostedService",
+        "TcpHealthListener",
+        "services"
+    ],
+    "literals": [],
+    "variables": [
+        "healthCheckBuilder"
+    ],
+    "comments": [
+        "ReSharper disable once CheckNamespace",
+        "ReSharper disable once InconsistentNaming",
+        "Adds TCP health probing",
+        "</summary>",
+        "<remarks>",
+        "In order for the TCP health probes to work, ASP.NET Core Health Checks must be configured. You can configure",
+        "it here or do it yourself as well.",
+        "</remarks>",
+        "<param name=\"services\">Collection of services to use in the application</param>",
+        "<param name=\"configureHealthChecks\">Capability to configure the required health checks to expose, if required</param>",
+        "<returns>Collection of services to use in the application</returns>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "IServiceCollection",
+        "AddTcpHealthProbes"
+    ],
+    "classes": [
+        "IServiceCollectionExtensions"
+    ]
+}

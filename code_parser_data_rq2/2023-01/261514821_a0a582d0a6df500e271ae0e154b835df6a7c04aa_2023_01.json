@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "KubeOps",
+        "KubernetesClient",
+        "Entities",
+        "EntityDefinition",
+        "kind",
+        "listKind",
+        "group",
+        "version",
+        "singular",
+        "plural",
+        "EntityScope",
+        "scope",
+        "Kind",
+        "kind",
+        "ListKind",
+        "listKind",
+        "Group",
+        "group",
+        "Version",
+        "version",
+        "Singular",
+        "singular",
+        "Plural",
+        "plural",
+        "Scope",
+        "scope",
+        "T",
+        "T",
+        "ToEntityDefinition"
+    ],
+    "literals": [],
+    "variables": [
+        "Kind",
+        "ListKind",
+        "Group",
+        "Version",
+        "Singular",
+        "Plural",
+        "EntityScope",
+        "Scope"
+    ],
+    "comments": [
+        "Entity (\"resource\") definition. This is not a full CRD (custom resource definition) of",
+        "Kubernetes, but all parts that regard the resource. This is used to construct a CRD out of a type",
+        "of kubernetes entities/resources.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "EntityDefinition",
+        "EntityDefinition",
+        "FromType"
+    ],
+    "classes": []
+}

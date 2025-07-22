@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "define",
+        "$",
+        "ko",
+        "ko",
+        "ko",
+        "ko",
+        "ko",
+        "MessagesViewModel"
+    ],
+    "literals": [
+        "\"jquery\"",
+        "\"knockout-3.3.0\"",
+        "'use strict'",
+        "''",
+        "''",
+        "''",
+        "''",
+        "''",
+        "''"
+    ],
+    "variables": [],
+    "comments": [
+        "var promiseCount = 0;\nfunction testPromise() {\n    var thisPromiseCount = ++promiseCount;\n\n    var log = document.getElementById('log');\n    log.insertAdjacentHTML('beforeend', thisPromiseCount +\n        ') ������ (������ ����������� ����)');\n\n    // ������ ��������, ������������ 'result' (�� ��������� 3-� ������)\n    var p1 = new Promise(\n        // ������� ���������� ��������� ��������� ������� ���\n        // ��������� ��������\n        function(resolve, reject) {\n            log.insertAdjacentHTML('beforeend', thisPromiseCount +\n                ') ������ �������� (������ ������������ ����)');\n            // ��� ����� ���� ������ �������������\n            window.setTimeout(\n                function() {\n                    // �������� ���������!\n                    resolve(thisPromiseCount)\n                }, Math.random() * 2000 + 1000);\n        });\n\n    // ���������, ��� ������� � ����������� ���������\n    p1.then(\n        // ���������� � ��������\n        function(val) {\n            log.insertAdjacentHTML('beforeend', val +\n                ') �������� ��������� (����������� ��� ��������)');\n        });\n\n    log.insertAdjacentHTML('beforeend', thisPromiseCount +\n        ') �������� ������� (���������� ��� ��������)');\n}"
+    ],
+    "docstrings": [
+        "* Created by vitali.nalivaika on 30.07.2015."
+    ],
+    "functions": [
+        "MessagesViewModel"
+    ],
+    "classes": []
+}

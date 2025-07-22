@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "SlimeWeb",
+        "Core",
+        "Data",
+        "NonDataModels"
+    ],
+    "literals": [],
+    "variables": [
+        "Manufacturer",
+        "Model",
+        "Orientation",
+        "Orientation_Rotation",
+        "X_resolution",
+        "Y_resolution",
+        "Resolution_Unit",
+        "Exposure_Time",
+        "F_number",
+        "Exposure_Program",
+        "YCbCr_Positioning",
+        "DateTaken",
+        "Brightness",
+        "GPSDateStamp",
+        "GPSAltitude",
+        "GPSLatitude",
+        "GPSLongitude",
+        "ImageWidth",
+        "ImageLength",
+        "Aperture"
+    ],
+    "comments": [
+        "public DateTime DateAndTime { get; set; }\n        \n         public string Compression { get; set; }"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "ExifModel"
+    ]
+}

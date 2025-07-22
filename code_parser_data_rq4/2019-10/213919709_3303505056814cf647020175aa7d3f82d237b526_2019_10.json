@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "React",
+        "Switch",
+        "Redirect",
+        "Home",
+        "HomeView",
+        "Login",
+        "LoginView",
+        "Leaderboard",
+        "LeaderboardView",
+        "RouteWithLayout",
+        "Main",
+        "MainLayout",
+        "Routes",
+        "Switch",
+        "RouteWithLayout",
+        "HomeView",
+        "MainLayout",
+        "RouteWithLayout",
+        "LoginView",
+        "MainLayout",
+        "Switch",
+        "Routes"
+    ],
+    "literals": [
+        "'react'",
+        "'react-router-dom'",
+        "'./views'",
+        "'./components'",
+        "'./layouts'",
+        "\"/\"",
+        "\"/login\""
+    ],
+    "variables": [
+        "Routes"
+    ],
+    "comments": [
+        "const Routes = () => {",
+        "return (",
+        "<div>",
+        "<Route exact path=\"/\" component={HomeView}/>",
+        "<Route path=\"/login\" component={LoginView}/>",
+        "<Route path=\"/leaderboard\" component={LeaderboardView}/>",
+        "</div>",
+        ")",
+        "};"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "APIResource",
+        "APIList",
+        "APIResource",
+        "parent",
+        "id",
+        "id",
+        "parent",
+        "id",
+        "APIList",
+        "APIAdminResourceCluster"
+    ],
+    "literals": [
+        "'./APIResource'",
+        "'./APIList'",
+        "'Resource ID cannot be null!'",
+        "'clusters'",
+        "'devices'"
+    ],
+    "variables": [],
+    "comments": [
+        "/clusters/{id}/devices"
+    ],
+    "docstrings": [
+        "* APIAdminResourceCluster\n *\n * @class\n * @extends APIResource",
+        "* /clusters/{id}\n   *\n   * Constructor"
+    ],
+    "functions": [
+        "devices"
+    ],
+    "classes": [
+        "APIAdminResourceCluster"
+    ]
+}

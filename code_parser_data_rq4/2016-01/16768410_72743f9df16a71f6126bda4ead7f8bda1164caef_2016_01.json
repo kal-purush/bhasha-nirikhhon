@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "unittest",
+        "cryptography",
+        "x509",
+        "cryptography",
+        "hazmat",
+        "backends",
+        "default_backend",
+        "u2flib_server",
+        "attestation",
+        "matchers",
+        "get_ext_by_oid",
+        "unittest",
+        "TestCase",
+        "x509",
+        "load_pem_x509_certificate",
+        "YUBICO_ATTESTATION_CERT_SERIAL_544338083",
+        "default_backend",
+        "assertEqual",
+        "get_ext_by_oid",
+        "attestation_cert",
+        "assertEqual",
+        "get_ext_by_oid",
+        "attestation_cert"
+    ],
+    "literals": [
+        "b'1.3.6.1.4.1.41482.1.2'",
+        "'1.3.6.1.4.1.41482.2'",
+        "b'\\x03\\x02\\x040'",
+        "'1.3.6.1.4.1.45724.2.1.1'"
+    ],
+    "variables": [
+        "YUBICO_ATTESTATION_CERT_SERIAL_544338083",
+        "attestation_cert"
+    ],
+    "comments": [
+        "From https://www.iana.org/assignments/enterprise-numbers/enterprise-numbers",
+        "Regsitered number     Enterprise",
+        "1.3.6.1.4.1.41482     Yubico",
+        "1.3.6.1.4.1.45724     FIDO Alliance, Inc."
+    ],
+    "docstrings": [
+        "'''-----BEGIN CERTIFICATE-----\nMIICIjCCAQygAwIBAgIEIHHwozALBgkqhkiG9w0BAQswDzENMAsGA1UEAxMEdGVz\ndDAeFw0xNTA4MTEwOTAwMzNaFw0xNjA4MTAwOTAwMzNaMCkxJzAlBgNVBAMTHll1\nYmljbyBVMkYgRUUgU2VyaWFsIDU0NDMzODA4MzBZMBMGByqGSM49AgEGCCqGSM49\nAwEHA0IABPdFG1pBjBBQVhLrD39Qg1vKjuR2kRdBZnwLI/zgzztQpf4ffpkrkB/3\nE0TXj5zg8gN9sgMkX48geBe+tBEpvMmjOzA5MCIGCSsGAQQBgsQKAgQVMS4zLjYu\nMS40LjEuNDE0ODIuMS4yMBMGCysGAQQBguUcAgEBBAQDAgQwMAsGCSqGSIb3DQEB\nCwOCAQEAb3YpnmHHduNuWEXlLqlnww9034ZeZaojhPAYSLR8d5NPk9gc0hkjQKmI\naaBM7DsaHbcHMKpXoMGTQSC++NCZTcKvZ0Lt12mp5HRnM1NNBPol8Hte5fLmvW4t\nQ9EzLl4gkz7LSlORxTuwTbae1eQqNdxdeB+0ilMFCEUc+3NGCNM0RWd+sP5+gzMX\nBDQAI1Sc9XaPIg8t3du5JChAl1ifpu/uERZ2WQgtxeBDO6z1Xoa5qz4svf5oURjP\nZjxS0WUKht48Z2rIjk5lZzERSaY3RrX3UtrnZEIzCmInXOrcRPeAD4ZutpiwuHe6\n2ABsjuMRnKbATbOUiLdknNyPYYQz2g==\n-----END CERTIFICATE-----'''"
+    ],
+    "functions": [
+        "test_get_ext_by_oid_yubico",
+        "test_get_ext_by_oid_fido_alliance"
+    ],
+    "classes": [
+        "X509ExtensionsTest"
+    ]
+}

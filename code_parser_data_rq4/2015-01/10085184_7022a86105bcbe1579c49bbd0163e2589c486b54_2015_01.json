@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "org",
+        "jboss",
+        "forge",
+        "furnace",
+        "org",
+        "jboss",
+        "forge",
+        "furnace",
+        "exception",
+        "ContainerException",
+        "serialVersionUID"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Thrown when a deadlock is detected in the {@link LockManager}. It is intentional that this type does not extend from\n * {@link ContainerException} because it represents a developer error, and should NEVER be caught. (This is the reason\n * why it extends from {@link Error})\n * \n * @author <a href=\"mailto:lincolnbaxter@gmail.com\">Lincoln Baxter, III</a>",
+        "* Create a new {@link DeadlockException} with the given message."
+    ],
+    "functions": [
+        "DeadlockException"
+    ],
+    "classes": [
+        "DeadlockException"
+    ]
+}

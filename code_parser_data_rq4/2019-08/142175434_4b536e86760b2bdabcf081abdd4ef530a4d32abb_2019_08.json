@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Game",
+        "GAME_STATE",
+        "PACMAN_STATE",
+        "expect",
+        "config",
+        "config",
+        "Game",
+        "describe",
+        "it",
+        "expect",
+        "defaultGame",
+        "expect",
+        "defaultGame",
+        "it",
+        "defaultGame",
+        "testGame",
+        "it",
+        "it",
+        "it"
+    ],
+    "literals": [
+        "\"../src/lib/game\"",
+        "'../src/constants/states'",
+        "'chai'",
+        "\"../src/constants/config\"",
+        "\"mocha\"",
+        "\"Game\"",
+        "\"should check if the game is instantiated\"",
+        "\"should check the PacMan state after game start\"",
+        "\"should update the PacMan position\"",
+        "\"should draw PacMan on the canvas\"",
+        "\"should pause and unpause the game\""
+    ],
+    "variables": [
+        "PACMAN_RADIUS",
+        "testGame"
+    ],
+    "comments": [
+        "The below lines should be mocked with testdouble as the pacman object is not part of this unit test",
+        "expect(testGame.pacman.size).to.equal({x: PACMAN_RADIUS, y: PACMAN_RADIUS});",
+        "expect(testGame.pacman.pacmanState).to.equal(PACMAN_STATE);",
+        "The testdouble library should mock pacman and check flow",
+        "A placeholder for the time when we do canvas testing",
+        "First opportunity for TDD"
+    ],
+    "docstrings": [],
+    "functions": [
+        "defaultGame"
+    ],
+    "classes": []
+}

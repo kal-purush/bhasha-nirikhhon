@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Document",
+        "Schema",
+        "Types",
+        "model",
+        "Types",
+        "Types",
+        "Schema",
+        "Schema",
+        "machineIdentityAccessTokenSchema",
+        "model",
+        "machineIdentityAccessTokenSchema"
+    ],
+    "literals": [
+        "\"mongoose\"",
+        "\"zod\"",
+        "\"MachineIdentityClientSecret\"",
+        "\"MachineIdentityAccessToken\""
+    ],
+    "variables": [
+        "machineIdentityAccessTokenSchema",
+        "MachineIdentityClientSecret"
+    ],
+    "comments": [
+        "number of times access token has been used",
+        "number of times access token can be used for",
+        "default: used as many times as needed",
+        "default: does not expire",
+        "no refresh mechanism yet"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

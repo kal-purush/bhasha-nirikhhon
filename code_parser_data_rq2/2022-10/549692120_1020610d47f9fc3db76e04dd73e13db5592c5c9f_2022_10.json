@@ -1,0 +1,19 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Первый вид методов:",
+        "void Method1()\n{\n    Console.WriteLine(\"Автор: ooze\");\n}\nMethod1();",
+        "Второй вид методов:",
+        "void Method2(string msg)\n{\n    Console.WriteLine(msg);\n}\nMethod2(\"Вызываем второй метод\");",
+        "void Method21(string msg, int count)\n{\n    int i = 0;\n    while(i<count)\n    {\n        Console.WriteLine(msg);\n        i++; // ++ инкримент, -- декримент\n    }\n}\nMethod21(count: 4, msg: \"Текст, 4 раза\"); // именованные аргументы не обязательно использовать по порядку\n// Ctrl + C - если завис терминал",
+        "Третий вид методов:",
+        "int Method3()\n{\n    return DateTime.Now.Year;\n}\nint year = Method3();\nConsole.WriteLine(year);",
+        "Четвертый вид методов:",
+        "string Method4(int count, string text)\n{\n    int i = 0;\n    string result = String.Empty;\n    \n    while(i < count)\n    {\n        result = result + text;\n        i++;\n    }\n    return result;\n}\nstring res = Method4(10, \"asdf\");\nConsole.WriteLine(res);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

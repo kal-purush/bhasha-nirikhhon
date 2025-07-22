@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "co",
+        "com",
+        "globallogic",
+        "certification",
+        "pokemon",
+        "models",
+        "com",
+        "google",
+        "gson",
+        "annotations",
+        "Expose",
+        "com",
+        "google",
+        "gson",
+        "annotations",
+        "SerializedName",
+        "lombok",
+        "AllArgsConstructor",
+        "lombok",
+        "Builder",
+        "lombok",
+        "Data",
+        "lombok",
+        "NoArgsConstructor",
+        "java",
+        "util",
+        "id",
+        "id",
+        "id",
+        "id",
+        "name",
+        "name",
+        "name",
+        "name",
+        "SerializedName",
+        "Expose",
+        "id",
+        "SerializedName",
+        "Expose",
+        "name"
+    ],
+    "literals": [
+        "\"id\"",
+        "\"name\""
+    ],
+    "variables": [
+        "id",
+        "name"
+    ],
+    "comments": [
+        "@SerializedName(\"names\")"
+    ],
+    "docstrings": [
+        "public List<Name> getNames() {\n        return names;\n    }\n\n    public void setNames(List<Name> names) {\n        this.names = names;\n    }",
+        "@Expose\n    private List<Name> names;",
+        "@SerializedName(\"version_group\")\n    @Expose\n    private VersionGroup versionGroup;"
+    ],
+    "functions": [
+        "getId",
+        "setId",
+        "getName",
+        "setName"
+    ],
+    "classes": [
+        "DataPokemon"
+    ]
+}

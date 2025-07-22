@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "query",
+        "options",
+        "token",
+        "workspace",
+        "registerFileSearchProvider",
+        "scheme",
+        "provider"
+    ],
+    "literals": [
+        "'vscode'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "---------------------------------------------------------------------------------------------\n *  Copyright (c) Microsoft Corporation. All rights reserved.\n *  Licensed under the MIT License. See License.txt in the project root for license information.\n *--------------------------------------------------------------------------------------------",
+        "https://github.com/microsoft/vscode/issues/73524"
+    ],
+    "docstrings": [
+        "* The parameters of a query for file search.",
+        "* The search pattern to match against file paths.",
+        "* Options that apply to file search.",
+        "* The maximum number of results to be returned.",
+        "* A CancellationToken that represents the session for this search query. If the provider chooses to, this object can be used as the key for a cache,\n\t\t * and searches with the same session object can search the same cache. When the token is cancelled, the session is complete and the cache can be cleared.",
+        "* A FileSearchProvider provides search results for files in the given folder that match a query string. It can be invoked by quickopen or other extensions.\n\t *\n\t * A FileSearchProvider is the more powerful of two ways to implement file search in the editor. Use a FileSearchProvider if you wish to search within a folder for\n\t * all files that match the user's query.\n\t *\n\t * The FileSearchProvider will be invoked on every keypress in quickopen. When `workspace.findFiles` is called, it will be invoked with an empty query string,\n\t * and in that case, every file in the folder should be returned.",
+        "* Provide the set of files that match a certain file path pattern.\n\t\t * @param query The parameters for this query.\n\t\t * @param options A set of options to consider while searching files.\n\t\t * @param token A cancellation token.",
+        "* Register a search provider.\n\t\t *\n\t\t * Only one provider can be registered per scheme.\n\t\t *\n\t\t * @param scheme The provider will be invoked for workspace folders that have this file scheme.\n\t\t * @param provider The provider.\n\t\t * @return A {@link Disposable} that unregisters this provider when being disposed."
+    ],
+    "functions": [],
+    "classes": []
+}

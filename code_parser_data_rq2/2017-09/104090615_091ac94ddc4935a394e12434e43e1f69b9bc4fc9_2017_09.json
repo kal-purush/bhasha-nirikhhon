@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "Diagnostics",
+        "Autodesk",
+        "Revit",
+        "Attributes",
+        "Autodesk",
+        "Revit",
+        "DB",
+        "Autodesk",
+        "Revit",
+        "UI",
+        "GREYSMITH",
+        "Autodesk",
+        "Revit",
+        "Base",
+        "IExternalCommand",
+        "ExternalCommandData",
+        "Application",
+        "CurrentApplication",
+        "ActiveUIDocument",
+        "Document",
+        "CurrentApplication",
+        "ActiveUIDocument",
+        "IExternalCommand",
+        "ExternalCommandData",
+        "excmd",
+        "mainmessage",
+        "ElementSet",
+        "elemset",
+        "MainMessage",
+        "mainmessage",
+        "ExternalCommandData",
+        "excmd",
+        "ElementSet",
+        "elemset",
+        "InternalExecute",
+        "Work",
+        "Debug",
+        "WriteLine",
+        "TaskDialog",
+        "Show",
+        "Result",
+        "Failed"
+    ],
+    "literals": [
+        "\"Command failed because of an exception\"",
+        "\"Command Failed\"",
+        "\"There was an error behind the scenes that caused the command to fail horribly and die.\""
+    ],
+    "variables": [
+        "ExternalCommandData",
+        "ExternalCommandData",
+        "MainMessage",
+        "ElementSet",
+        "ElementSet",
+        "UIApplication",
+        "CurrentApplication",
+        "Document",
+        "CurrentDocument",
+        "UIDocument",
+        "UiDocument"
+    ],
+    "comments": [
+        "necessary method that Revit needs to call",
+        "Internal method that allows this class to use this private fields it contains",
+        "without having to set them necessarily.",
+        "defined in derived classes"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Result",
+        "Execute",
+        "Result",
+        "InternalExecute",
+        "Result",
+        "Work"
+    ],
+    "classes": [
+        "BaseCommand"
+    ]
+}

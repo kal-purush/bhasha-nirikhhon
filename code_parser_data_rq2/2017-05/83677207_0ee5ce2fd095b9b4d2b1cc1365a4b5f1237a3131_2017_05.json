@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "MANIFAST_PATH",
+        "xml2js",
+        "changeCase",
+        "fs",
+        "xml2js",
+        "xml2js",
+        "xml2js",
+        "xml2js",
+        "permissionName",
+        "callback",
+        "err",
+        "result",
+        "result",
+        "result",
+        "result",
+        "changeCase",
+        "permissionName",
+        "callback",
+        "result",
+        "fs",
+        "MANIFAST_PATH"
+    ],
+    "literals": [
+        "\"./constants/ManifestPath\"",
+        "\"xml2js\"",
+        "\"change-case\"",
+        "\"fs\"",
+        "string",
+        "'uses-permission'",
+        "'uses-permission'",
+        "'uses-permission'",
+        "'$'",
+        "'android:name'",
+        "android.permission.${changeCase.upperCase(permissionName)}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @desc Add permission to Manfest\n     *\n     * @param {string} permissionName - To add permission of name\n     * @param callback"
+    ],
+    "functions": [
+        "addPermissionToManifest",
+        "getManifestContent"
+    ],
+    "classes": [
+        "PermissionManager"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "ModelRegister",
+        "reference",
+        "ModelRegister",
+        "Todo",
+        "reference",
+        "ctx",
+        "next",
+        "next",
+        "id",
+        "next",
+        "next",
+        "id",
+        "Todo"
+    ],
+    "literals": [
+        "'@mean-expert/model-register/index'",
+        "'before save'",
+        "'operation'",
+        "'id'",
+        "'string'",
+        "'result'",
+        "'object'",
+        "'/:id/my-remote'",
+        "'get'",
+        "'Todo: Before Save'",
+        "string",
+        "My Remote Example: ${id}"
+    ],
+    "variables": [],
+    "comments": [
+        "shared class reference",
+        "register hooks here",
+        "register remote methods here",
+        "Example Operation Hook",
+        "Example Remote Method",
+        "End of Todo Model"
+    ],
+    "docstrings": [
+        "* @module Todo\n * @description\n *  Write a useful Todo Model description\n *",
+        "* @method constructor\n   * @description\n   * Register model hooks and methods."
+    ],
+    "functions": [
+        "beforeSave",
+        "myRemote"
+    ],
+    "classes": [
+        "Todo"
+    ]
+}

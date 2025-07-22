@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "de",
+        "libutzki",
+        "axon",
+        "localeventstore",
+        "org",
+        "axonframework",
+        "eventhandling",
+        "EventMessage",
+        "org",
+        "axonframework",
+        "messaging",
+        "InterceptorChain",
+        "org",
+        "axonframework",
+        "messaging",
+        "MessageHandlerInterceptor",
+        "org",
+        "axonframework",
+        "messaging",
+        "unitofwork",
+        "UnitOfWork",
+        "origin",
+        "origin",
+        "origin",
+        "origin",
+        "Override",
+        "unitOfWork",
+        "interceptorChain",
+        "eventMessage",
+        "unitOfWork",
+        "getMessage",
+        "eventIsFromOwnOrigin",
+        "eventMessage",
+        "getMetaData",
+        "getOrDefault",
+        "MetadataKeys",
+        "ORIGIN",
+        "equals",
+        "origin",
+        "eventIsFromOwnOrigin",
+        "interceptorChain",
+        "proceed"
+    ],
+    "literals": [
+        "\"\""
+    ],
+    "variables": [
+        "origin"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This interceptor makes sure that events with the own origin are filtered. This ensures that events originating from\n * the same bounded context are not processed twice."
+    ],
+    "functions": [
+        "OriginFilteringEventHandlerInterceptor",
+        "handle"
+    ],
+    "classes": [
+        "OriginFilteringEventHandlerInterceptor"
+    ]
+}

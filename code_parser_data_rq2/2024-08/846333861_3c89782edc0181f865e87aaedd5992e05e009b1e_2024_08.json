@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "name",
+        "isDone",
+        "name",
+        "name",
+        "name",
+        "isDone",
+        "isDone",
+        "isDone",
+        "isDone",
+        "Override",
+        "getStatusIcon",
+        "name"
+    ],
+    "literals": [
+        "\"[X]\"",
+        "\"[ ]\"",
+        "\" \""
+    ],
+    "variables": [
+        "name",
+        "isDone"
+    ],
+    "comments": [
+        "初始状态为未完成",
+        "返回状态图标，完成为[X]，未完成为[ ]",
+        "返回带状态图标的任务字符串"
+    ],
+    "docstrings": [],
+    "functions": [
+        "markAsDone",
+        "markAsNotDone",
+        "getStatusIcon",
+        "toString"
+    ],
+    "classes": []
+}

@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "socket",
+        "socket",
+        "socket",
+        "socket",
+        "AF_INET",
+        "socket",
+        "SOCK_DGRAM",
+        "s_ipv4",
+        "connect",
+        "s_ipv4",
+        "getsockname",
+        "s_ipv4",
+        "close",
+        "ipv4",
+        "urllib2",
+        "urllib2",
+        "urlopen",
+        "timeout",
+        "f",
+        "read",
+        "public_ipv4",
+        "socket",
+        "socket",
+        "socket",
+        "AF_INET6",
+        "socket",
+        "SOCK_DGRAM",
+        "s_ipv6",
+        "connect",
+        "s_ipv6",
+        "getsockname",
+        "s_ipv6",
+        "close",
+        "ipv6",
+        "localipv4",
+        "publicipv4",
+        "ipv6"
+    ],
+    "literals": [
+        "'1.2.3.4'",
+        "\"http://api.ipify.org\"",
+        "'2001:db8::8080'",
+        "'__main__'"
+    ],
+    "variables": [
+        "s_ipv4",
+        "ipv4",
+        "ipv4",
+        "f",
+        "public_ipv4",
+        "public_ipv4",
+        "s_ipv6",
+        "ipv6",
+        "ipv6"
+    ],
+    "comments": [
+        "!/usr/bin/python -OO",
+        "Option: use 100.64.1.1 (IANA-Reserved IPv4 Prefix for Shared Address Space)",
+        "f = urllib.urlopen(\"http://api.ipify.org\")     # urllib has no timeout parameter, so:",
+        "timeout 2 seconds, in case website is not accessible",
+        "IPv6 prefix for documentation purpose"
+    ],
+    "docstrings": [],
+    "functions": [
+        "localipv4",
+        "publicipv4",
+        "ipv6"
+    ],
+    "classes": []
+}

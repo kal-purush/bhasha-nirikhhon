@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "ModelInstance",
+        "config",
+        "SchemaBlockModel",
+        "ApplicationSerializer",
+        "SerializedRelationships",
+        "ApplicationSerializer",
+        "model",
+        "model",
+        "apiUrl",
+        "model",
+        "model",
+        "relationships"
+    ],
+    "literals": [
+        "'ember-cli-mirage'",
+        "'ember-get-config'",
+        "'ember-osf-web/models/schema-block'",
+        "'./application'",
+        "'registration-schema'",
+        "${apiUrl}/v2/schemas/registrations/${model.schema!.id}/",
+        "'schema'"
+    ],
+    "variables": [
+        "config",
+        "relationships"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "buildRelationships"
+    ],
+    "classes": [
+        "SchemaBlockSerializer"
+    ]
+}

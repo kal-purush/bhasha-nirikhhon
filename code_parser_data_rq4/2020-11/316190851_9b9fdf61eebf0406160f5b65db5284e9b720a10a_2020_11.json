@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpInterceptor",
+        "HttpEvent",
+        "HttpHandler",
+        "HttpRequest",
+        "Observable",
+        "environment",
+        "Injectable",
+        "req",
+        "next",
+        "req",
+        "next",
+        "req",
+        "environment",
+        "req",
+        "baseUrl",
+        "req",
+        "next",
+        "apiReq"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common/http'",
+        "'rxjs'",
+        "'@env/environment'",
+        "'assets'",
+        "${baseUrl}${req.url}"
+    ],
+    "variables": [
+        "baseUrl",
+        "apiReq"
+    ],
+    "comments": [
+        "Skip interceptor if request is for assets folder"
+    ],
+    "docstrings": [],
+    "functions": [
+        "intercept"
+    ],
+    "classes": [
+        "ApiUrlInterceptor"
+    ]
+}

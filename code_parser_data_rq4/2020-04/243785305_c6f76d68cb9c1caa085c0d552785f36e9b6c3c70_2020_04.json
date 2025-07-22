@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "snakemake",
+        "parser",
+        "snakefmt",
+        "parser",
+        "grammar",
+        "classmethod",
+        "cls",
+        "target_keywords",
+        "existing_keywords",
+        "existing_keywords",
+        "difference",
+        "target_keywords",
+        "len",
+        "spurious_keywords",
+        "spurious_keywords",
+        "target_keywords",
+        "difference",
+        "existing_keywords",
+        "len",
+        "missing_keywords",
+        "missing_keywords",
+        "parser",
+        "Python",
+        "subautomata",
+        "grammar",
+        "SnakeGlobal",
+        "spec",
+        "check_completeness",
+        "target_keywords",
+        "existing_keywords",
+        "parser",
+        "Subworkflow",
+        "subautomata",
+        "grammar",
+        "SnakeSubworkflow",
+        "spec",
+        "check_completeness",
+        "target_keywords",
+        "existing_keywords",
+        "parser",
+        "Rule",
+        "subautomata",
+        "grammar",
+        "SnakeRule",
+        "spec",
+        "check_completeness",
+        "target_keywords",
+        "existing_keywords"
+    ],
+    "literals": [
+        "f\"Keywords {spurious_keywords} do not exist in snakemake grammar\"",
+        "f\"Keywords {missing_keywords} from snakemake grammar are missing\""
+    ],
+    "variables": [
+        "spurious_keywords",
+        "missing_keywords",
+        "target_keywords",
+        "existing_keywords",
+        "target_keywords",
+        "existing_keywords",
+        "target_keywords",
+        "existing_keywords"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nCompleteness tests: checks that the grammar used is a bijection of the snakemake grammar.\n    To use the latest snakemake grammar, run `poetry update snakemake` from this repo\n\"\"\""
+    ],
+    "functions": [
+        "check_completeness",
+        "test_global_context_completeness",
+        "test_subworkflow_context_completeness",
+        "test_rule_context_completeness"
+    ],
+    "classes": [
+        "TestCompleteness"
+    ]
+}

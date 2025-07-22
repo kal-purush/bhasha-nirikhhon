@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "ta5k_gen",
+        "session",
+        "session",
+        "perform_command",
+        "response",
+        "split",
+        "line",
+        "response",
+        "line",
+        "line",
+        "split",
+        "line",
+        "port_auth_status",
+        "port_auth_status",
+        "ta5k_gen",
+        "loginCli",
+        "new_session",
+        "login",
+        "ip",
+        "get_interface_port_auth_status",
+        "new_session",
+        "interface_port_auth_status",
+        "new_session",
+        "perform_command",
+        "output"
+    ],
+    "literals": [
+        "'show port-auth interface efm-port '",
+        "'\\r\\n'",
+        "\"Port Auth Status\"",
+        "':'",
+        "'port auth error'",
+        "'10.213.253.40'",
+        "'1/17/1'",
+        "'interface '",
+        "' port status: '",
+        "'show system inventory'"
+    ],
+    "variables": [
+        "response",
+        "response",
+        "port_auth_status",
+        "line",
+        "port_auth_status",
+        "ip",
+        "new_session",
+        "interface_port_auth_status",
+        "output"
+    ],
+    "comments": [
+        "example python test case",
+        "would be out in a library of show commands with related functions",
+        "perform command",
+        "analyze response to return port auth status - could do this in main if desired",
+        "initialize variables",
+        "open sessions",
+        "provision/verify something",
+        "perform some other commands if needed"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_interface_port_auth_status"
+    ],
+    "classes": []
+}

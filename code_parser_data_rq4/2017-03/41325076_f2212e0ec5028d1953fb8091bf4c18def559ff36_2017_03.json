@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "fake_switches",
+        "cisco",
+        "cisco_core",
+        "BaseCiscoSwitchCore",
+        "fake_switches",
+        "cisco",
+        "command_processor",
+        "config",
+        "ConfigCommandProcessor",
+        "fake_switches",
+        "cisco",
+        "command_processor",
+        "config_interface",
+        "ConfigInterfaceCommandProcessor",
+        "fake_switches",
+        "cisco",
+        "command_processor",
+        "config_vlan",
+        "ConfigVlanCommandProcessor",
+        "fake_switches",
+        "cisco",
+        "command_processor",
+        "config_vrf",
+        "ConfigVRFCommandProcessor",
+        "fake_switches",
+        "cisco",
+        "command_processor",
+        "enabled",
+        "EnabledCommandProcessor",
+        "BaseCiscoSwitchCore",
+        "EnabledCommandProcessor",
+        "config",
+        "ConfigCommandProcessor",
+        "config_vlan",
+        "ConfigVlanCommandProcessor",
+        "config_vrf",
+        "ConfigVRFCommandProcessor",
+        "config_interface",
+        "Cisco6500ConfigInterfaceCommandProcessor",
+        "ConfigInterfaceCommandProcessor",
+        "port"
+    ],
+    "literals": [],
+    "variables": [
+        "unicast_reverse_path_forwarding"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "new_command_processor",
+        "_handle_ip_verify_unicast"
+    ],
+    "classes": [
+        "Cisco6500SwitchCore",
+        "Cisco6500ConfigInterfaceCommandProcessor"
+    ]
+}

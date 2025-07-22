@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "fabric",
+        "task",
+        "task",
+        "c",
+        "c",
+        "run",
+        "c",
+        "run",
+        "task",
+        "c",
+        "c",
+        "put",
+        "c",
+        "run",
+        "c",
+        "run",
+        "task",
+        "c",
+        "c",
+        "run"
+    ],
+    "literals": [
+        "\"touch holbertonwebapp.tar.gz\"",
+        "\"tar --exclude='*.tar.gz' -cvzf holbertonwebapp.tar.gz .\"",
+        "\"ubuntu\"",
+        "\"holbertonwebapp.tar.gz\"",
+        "\"/tmp\"",
+        "\"mkdir /tmp/holbertonwebapp\"",
+        "\"tar -C /tmp/holbertonwebapp -xzvf /tmp/holbertonwebapp.tar.gz\"",
+        "\"rm holbertonwebapp.tar.gz\""
+    ],
+    "variables": [
+        "c",
+        "user"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "Fabfile defining functions to pack, deploy, and clean the",
+        "current directory to a remote server."
+    ],
+    "docstrings": [
+        "\"\"\"Create a tar gzipped archive of the current directory.\"\"\"",
+        "\"\"\"Upload the archive to the remote server in the /tmp/ directory.\"\"\"",
+        "\"\"\"Deletes holbertonwebapp.tar.gz on the local machine.\"\"\""
+    ],
+    "functions": [
+        "pack",
+        "deploy",
+        "clean"
+    ],
+    "classes": []
+}

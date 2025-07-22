@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "get",
+        "apiCallId",
+        "gdcSdkCache",
+        "gdcSdkCache",
+        "gdcSdkCache",
+        "cacheKey",
+        "onCacheMiss",
+        "getSdkCache",
+        "get",
+        "sdkCache",
+        "cacheKey",
+        "cachedResponse",
+        "cachedResponse",
+        "onCacheMiss",
+        "sdkCache",
+        "cacheKey",
+        "promise",
+        "promise",
+        "sdkCache",
+        "promise"
+    ],
+    "literals": [
+        "'lodash/get'",
+        "'lodash/set'",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "gdcSdkCache",
+        "sdkCache",
+        "cachedResponse",
+        "promise"
+    ],
+    "comments": [
+        "(C) 2007-2019 GoodData Corporation"
+    ],
+    "docstrings": [
+        "* Clears whole cache\n * Needs to be called manually on-demand\n *\n * @method clearSdkCache",
+        "* Wraps some async call defined by onCacheMiss param and caches its result for next re-use.\n * If cached result is rejected it is removed from cache to unblock future calls\n *\n * @method getCachedOrLoad\n * @param {String} cacheKey - unique key to identify cached value\n * @param {Function} onCacheMiss - async function returning promise to call when value is not found in cache\n * @return {Promise} value from cache or result of onCacheMiss invocation"
+    ],
+    "functions": [
+        "getSdkCache",
+        "clearSdkCache",
+        "getCachedOrLoad"
+    ],
+    "classes": []
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "condition",
+        "value",
+        "condition",
+        "value",
+        "array",
+        "array",
+        "x",
+        "x",
+        "When",
+        "x",
+        "x",
+        "x",
+        "When",
+        "x",
+        "x"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Usage:\n *\n * let result = (new When).filter([\n *     1,\n *     new When(true, 2),\n *     new When(false, () => { return 3 })\n * ]);\n *\n * result = [1, 2]"
+    ],
+    "functions": [
+        "evaluate"
+    ],
+    "classes": [
+        "When"
+    ]
+}

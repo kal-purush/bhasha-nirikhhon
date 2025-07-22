@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Core",
+        "Features",
+        "Core",
+        "Helpers",
+        "DTO",
+        "Models",
+        "Core",
+        "Extensions",
+        "User",
+        "user",
+        "password",
+        "IEncryptionSettings",
+        "encryptionSettings",
+        "password",
+        "Length",
+        "PasswordEncryption",
+        "Decrypt",
+        "user",
+        "Password",
+        "encryptionSettings",
+        "password"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Extensions methods for User.",
+        "</summary>",
+        "Checks if the password from user's account is equal with the one that was provided.",
+        "</summary>",
+        "<param name=\"user\">User's account.</param>",
+        "<param name=\"password\">Password to check.</param>",
+        "<param name=\"encryptionSettings\">EncryptionSettings that provides the encryption KEY.</param>",
+        "<returns></returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "CheckPassword"
+    ],
+    "classes": [
+        "UserExtensions"
+    ]
+}

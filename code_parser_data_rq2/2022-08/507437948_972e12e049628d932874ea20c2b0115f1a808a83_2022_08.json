@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "logging",
+        "adobe_captivate_prime_api",
+        "CaptivatePrimeAPI",
+        "api",
+        "CaptivatePrimeAPI",
+        "lo_types",
+        "isinstance",
+        "lo_types",
+        "lo_types",
+        "lo_types_options",
+        "logging",
+        "debug",
+        "lo_types_options",
+        "isinstance",
+        "lo_types",
+        "lo_type",
+        "lo_types",
+        "lo_type",
+        "lo_types_options",
+        "lo_types",
+        "remove",
+        "lo_type",
+        "logging",
+        "debug",
+        "lo_types",
+        "lo_types_options",
+        "lo_types",
+        "api",
+        "fetch",
+        "method",
+        "endpoint"
+    ],
+    "literals": [
+        "\"course\"",
+        "\"course\"",
+        "\"learningProgram\"",
+        "\"certification\"",
+        "\"course\"",
+        "'Invalid lo_types value, \"course\" used as default. Expected values: %s'",
+        "\"Invalid lo_type value(s) are removed, and used as %s. \"",
+        "\"Expected values: %s\"",
+        "\"filter.loTypes\"",
+        "\"GET\"",
+        "\"ecommerce/maxPrice\""
+    ],
+    "variables": [
+        "lo_types_options",
+        "lo_types"
+    ],
+    "comments": [
+        "pylint:disable=confusing-consecutive-elif"
+    ],
+    "docstrings": [
+        "\"\"\"Module providing set of Ecommerce API functions.\"\"\"",
+        "\"\"\"Retrieves max price of any LO present in account.\n\n    :param api: CaptivatePrimeAPI\n    :param lo_types: str or list\n    :return: list\n\n    \"\"\""
+    ],
+    "functions": [
+        "get_ecommerce_max_price"
+    ],
+    "classes": []
+}

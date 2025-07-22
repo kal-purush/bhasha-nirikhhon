@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "com",
+        "bolingcavalry",
+        "grabpush",
+        "extend",
+        "lombok",
+        "slf4j",
+        "Slf4j",
+        "org",
+        "bytedeco",
+        "javacpp",
+        "DoublePointer",
+        "org",
+        "bytedeco",
+        "opencv",
+        "opencv_core",
+        "Mat",
+        "org",
+        "bytedeco",
+        "opencv",
+        "opencv_core",
+        "Point",
+        "org",
+        "bytedeco",
+        "opencv",
+        "opencv_core",
+        "minMaxLoc",
+        "Slf4j",
+        "AGES",
+        "classifierModelFilePath",
+        "cnnProtoFilePath",
+        "cnnModelFilePath",
+        "classifierModelFilePath",
+        "cnnProtoFilePath",
+        "cnnModelFilePath",
+        "Override",
+        "prob",
+        "pointer",
+        "max",
+        "minMaxLoc",
+        "prob",
+        "pointer",
+        "max",
+        "AGES",
+        "max",
+        "x"
+    ],
+    "literals": [
+        "\"0-2\"",
+        "\"4-6\"",
+        "\"8-13\"",
+        "\"15-20\"",
+        "\"25-32\"",
+        "\"38-43\"",
+        "\"48-53\"",
+        "\"60-\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @author willzhao\n * @version 1.0\n * @description 检测年龄的服务\n * @date 2021/12/3 8:09",
+        "* 构造方法，在此指定proto和模型文件的下载地址\n     *\n     * @param classifierModelFilePath\n     * @param cnnProtoFilePath\n     * @param cnnModelFilePath"
+    ],
+    "functions": [
+        "AgeDetectService",
+        "getDescriptionFromPredictResult"
+    ],
+    "classes": [
+        "AgeDetectService"
+    ]
+}

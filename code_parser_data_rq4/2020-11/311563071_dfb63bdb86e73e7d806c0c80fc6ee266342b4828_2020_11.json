@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "statusElm",
+        "companyName",
+        "statusElm",
+        "statusElm",
+        "yourName",
+        "statusElm",
+        "statusElm",
+        "email",
+        "email",
+        "email",
+        "statusElm",
+        "statusElm",
+        "project",
+        "statusElm",
+        "statusElm"
+    ],
+    "literals": [
+        "\"overlay\"",
+        "\"100%\"",
+        "\"overlay\"",
+        "\"0%\"",
+        "'.submit'",
+        "'Click'",
+        "'.companyname'",
+        "'.yourname'",
+        "'.email'",
+        "'.project'",
+        "'.status'",
+        "\"<div>companyName Valid</div>\"",
+        "\"<div>companyName Not Valid</div>\"",
+        "\"<div>yourName Valid</div>\"",
+        "\"<div>yourName Not Valid</div>\"",
+        "'@'",
+        "'.'",
+        "\"<div>Email Valid</div>\"",
+        "\"<div>Email Not Valid</div>\"",
+        "\"<div>project Valid</div>\"",
+        "\"<div>project Not Valid</div>\""
+    ],
+    "variables": [
+        "companyName",
+        "yourName",
+        "email",
+        "project",
+        "statusElm"
+    ],
+    "comments": [
+        "Menu",
+        "$(\".menu-btn a\").click(function () {\n      $(\".overlay\").fadeToggle(200);\n      $(this).toggleClass('btn-open').toggleClass('btn-close');\n  });\n\n  $('.overlay-content').on('click', function () {\n      $(\".overlay-content\").fadeToggle(200);\n      $(\".menu-btn a\").toggleClass('btn-open').toggleClass('btn-close');\n  });\n\n  $('.menu-item a').on('click', function () {\n      $(\".overlay-content\").fadeToggle(200);\n      $(\".menu-btn a\").toggleClass('btn-open').toggleClass('btn-close');\n  });",
+        "Contact"
+    ],
+    "docstrings": [],
+    "functions": [
+        "openNav",
+        "closeNav"
+    ],
+    "classes": []
+}

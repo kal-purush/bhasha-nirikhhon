@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "movieViews",
+        "movieViews",
+        "strin",
+        "strin",
+        "strin",
+        "movieViews",
+        "strin",
+        "movieViews",
+        "strin",
+        "movieViews",
+        "movieV",
+        "buildstat",
+        "movieV"
+    ],
+    "literals": [
+        "'Wreck it Ralph'",
+        "'4.5 Star'",
+        "'Ex MAchina'",
+        "'5 Star'",
+        "'Jurassic Park'",
+        "'5 Star'",
+        "'Moana'",
+        "'5 Star'",
+        "'Sin City'",
+        "'5 Star'",
+        "'Dr. Strange'",
+        "'5 Star'",
+        "\"You have \"",
+        "\"watched \"",
+        "\"not seen \"",
+        "\"\\\"\"",
+        "\"\\\" - \"",
+        "\"stars\""
+    ],
+    "variables": [
+        "movieViews",
+        "strin"
+    ],
+    "comments": [
+        "Practice with Array's and Objects",
+        "a for loop set to go through each object in the array and form a sentence based on whether it has been viewed or not",
+        "for (m = 0; m < movieViews.length; m++) {",
+        "if (movieViews[m].watched == false) {",
+        "console.log('You have not seen ' + (movieViews[m].title)+ ', it has been rated as a '+ (movieViews[m].rating)+ ' picture!' );",
+        "} else {",
+        "console.log('You have seen ' +(movieViews[m].title) +', You rated it as a ' +(movieViews[m].rating)+ ' picture!');",
+        "}",
+        "};",
+        "attempt at making better code by using forEach loop (had to do this as a code along as got lost with the buildstat function)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "buildstat"
+    ],
+    "classes": []
+}

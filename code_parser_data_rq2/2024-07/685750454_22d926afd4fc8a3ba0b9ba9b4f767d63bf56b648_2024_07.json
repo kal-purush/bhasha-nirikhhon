@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "finlang",
+        "hal",
+        "ffi",
+        "FinObj",
+        "i32",
+        "FuncPtr",
+        "i32",
+        "a",
+        "i32",
+        "b",
+        "FuncPtr",
+        "FuncPtr",
+        "func_ptr",
+        "ptr",
+        "func_ptr",
+        "FuncPtr",
+        "func_ptr",
+        "ptr",
+        "func_ptr",
+        "i32",
+        "a",
+        "i32",
+        "b",
+        "ptr",
+        "ptr",
+        "a",
+        "b"
+    ],
+    "literals": [],
+    "variables": [
+        "ptr"
+    ],
+    "comments": [
+        "Returns i32, takes two ints. We don't have generics yet.",
+        "</summary>",
+        "public static implicit operator FuncIntIntInt(FuncPtr func_ptr)",
+        "{",
+        "return new FuncIntIntInt(func_ptr);",
+        "}"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "FuncIntIntInt",
+        "i32",
+        "call"
+    ],
+    "classes": [
+        "FuncIntIntInt"
+    ]
+}

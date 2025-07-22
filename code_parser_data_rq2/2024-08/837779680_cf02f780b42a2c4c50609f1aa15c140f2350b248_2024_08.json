@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "Router",
+        "toggleProductToUserWishlist",
+        "getUserWishList",
+        "methodNotAllowed",
+        "validateJoiRequest",
+        "wishlistIdValidation",
+        "wishListProductIdValidation",
+        "authMiddleware",
+        "Router",
+        "wishListRouter",
+        "authMiddleware",
+        "validateJoiRequest",
+        "wishListProductIdValidation",
+        "toggleProductToUserWishlist",
+        "authMiddleware",
+        "validateJoiRequest",
+        "wishlistIdValidation",
+        "getUserWishList",
+        "wishListRouter",
+        "methodNotAllowed",
+        "wishListRouter"
+    ],
+    "literals": [
+        "'express'",
+        "'../controllers/wishListsController'",
+        "'../controllers/suspicionController'",
+        "'../middlewares/validateJoiRequest'",
+        "'../validators/wishlistFieldsValidation'",
+        "'../middlewares/authMiddleware'",
+        "'/'",
+        "'*'"
+    ],
+    "variables": [
+        "wishListRouter"
+    ],
+    "comments": [
+        "wishlistRouter.route('/:id')",
+        ".get(",
+        "authMiddleware,",
+        "validateJoiRequest({ paramsSchema: wishlistIdValidation }),",
+        "getReviewById,",
+        ")",
+        ".delete(",
+        "authMiddleware,",
+        "validateJoiRequest({ paramsSchema: wishlistIdValidation }),",
+        "deleteReviewById,",
+        ");"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

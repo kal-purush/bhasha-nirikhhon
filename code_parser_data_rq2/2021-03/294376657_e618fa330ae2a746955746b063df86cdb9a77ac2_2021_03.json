@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "NezuClient",
+        "client",
+        "client",
+        "mod",
+        "command",
+        "mod",
+        "mod",
+        "mod",
+        "mod",
+        "x",
+        "x",
+        "client",
+        "command"
+    ],
+    "literals": [
+        "\"../../struct/NezuClient\"",
+        "'help'",
+        "'Get bot commands.'",
+        "${mod.emoji} | ${mod.name} [${mod.cmds.length}]\\n${mod.cmds.map((x: any) => x).join(\", \")}\\n\\n",
+        "\", \"",
+        "'text'",
+        "\"\""
+    ],
+    "variables": [
+        "command"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "exec"
+    ],
+    "classes": []
+}

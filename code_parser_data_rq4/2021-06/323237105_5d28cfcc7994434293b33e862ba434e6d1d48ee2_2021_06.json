@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "withDot",
+        "withDot",
+        "ext",
+        "e",
+        "e",
+        "ext",
+        "withDot",
+        "withDot",
+        "ext",
+        "e",
+        "e",
+        "ext"
+    ],
+    "literals": [
+        "string",
+        "'md'",
+        "'rmd'",
+        "'markdown'",
+        "'txt'",
+        "'mdx'",
+        "'.'",
+        "string",
+        "'tex'",
+        "'json'",
+        "'yaml'",
+        "'yml'",
+        "'.'"
+    ],
+    "variables": [
+        "ext",
+        "ext"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @ignore\n * BEGIN HEADER\n *\n * Contains:        File extension functions\n * CVM-Role:        <none>\n * Maintainer:      Hendrik Erz\n * License:         GNU GPL v3\n *\n * Description:     Two small utility functions to centralise which file\n *                  extensions are allowed both for Markdown and code files.\n *\n * END HEADER",
+        "* Returns an array with all recognised Markdown file extensions (lowercase)\n *\n * @param   {boolean}       withDot  If true, returns the extensions with dot.\n *\n * @return  {string[]}               The list of valid file extensions",
+        "* Returns an array with all recognised Code file extensions (lowercase)\n *\n * @param   {boolean}       withDot  If true, returns the extensions with dot.\n *\n * @return  {string[]}               The list of valid file extensions"
+    ],
+    "functions": [
+        "mdFileExtensions",
+        "codeFileExtensions"
+    ],
+    "classes": []
+}

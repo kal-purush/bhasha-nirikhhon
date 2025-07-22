@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "INVALID_DID",
+        "keccak256",
+        "CHALLENGE_EXPIRATION_TIME",
+        "challengeExpirationTime",
+        "CHALLENGE_EXPIRATION_TIME",
+        "challengeSecret",
+        "did",
+        "did",
+        "INVALID_DID",
+        "did",
+        "did",
+        "challenge",
+        "did",
+        "INVALID_DID",
+        "did",
+        "expected",
+        "challenge",
+        "did",
+        "keccak256",
+        "did",
+        "timestamp"
+    ],
+    "literals": [
+        "'../errors'",
+        "'js-sha3'",
+        "'../defaults'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "${did}-${this.secret}-${timestamp}"
+    ],
+    "variables": [
+        "expected",
+        "timestamp"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "get",
+        "verify",
+        "calculateChallenge"
+    ],
+    "classes": [
+        "ChallengeVerifier"
+    ]
+}

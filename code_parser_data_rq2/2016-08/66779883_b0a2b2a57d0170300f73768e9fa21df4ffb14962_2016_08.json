@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "setInterval",
+        "clearInterval",
+        "trackCall",
+        "CustomFTF",
+        "$",
+        "$",
+        "frame_src"
+    ],
+    "literals": [
+        "\"body\"",
+        "\"full-text-frame\"",
+        "\"iframe\""
+    ],
+    "variables": [
+        "trackCall",
+        "frame_src"
+    ],
+    "comments": [
+        "Tested for 16.2",
+        "Call this script by placing the below line in bottom branding",
+        "<script id=\"custom-eds\" src=\"../redirect.js\"></script>",
+        "alert(\"redirecting to \"+frame_src);"
+    ],
+    "docstrings": [
+        "*Check to see if jQuery is loaded\n*Stop checking after jQuery is loaded and run Customisation code",
+        "*Function to load FTF view code"
+    ],
+    "functions": [
+        "CustomFTF"
+    ],
+    "classes": []
+}

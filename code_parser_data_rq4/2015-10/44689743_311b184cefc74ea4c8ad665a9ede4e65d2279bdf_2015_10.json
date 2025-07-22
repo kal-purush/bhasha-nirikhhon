@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "jobCount",
+        "obj1",
+        "obj1"
+    ],
+    "literals": [
+        "\"TO_DO: complete WorkFactory.createWork\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* A factory class for generating JobWorkables to be placed in Jobs.\n * You can extend this class and then create a Submittor with an\n * instance of your extended class to create the \"work\" for Jobs.\n * @author matt\n * @version 1.0\n * <p>Copyright: Copyright (c) 2015, 2004 by Matt Evett</p>\n *",
+        "* Return a new instance of a class that implements JobWorkable.\n\t\t * You should provide that class."
+    ],
+    "functions": [
+        "JobWorkable",
+        "createWork"
+    ],
+    "classes": [
+        "WorkFactory"
+    ]
+}

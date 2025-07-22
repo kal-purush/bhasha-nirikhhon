@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "WebSocket",
+        "IChargePoint",
+        "EventType",
+        "Notification",
+        "WebSocket",
+        "wss",
+        "WebSocket",
+        "wss",
+        "chargePoint",
+        "EventType",
+        "chargePoint",
+        "chargePoint",
+        "chargePoint",
+        "client",
+        "client",
+        "notification",
+        "NotificationService"
+    ],
+    "literals": [
+        "'ws'",
+        "'../models/charge-point.model'",
+        "'../models/message.model'",
+        "'../models/notification.model'",
+        "Updated ${chargePoint.name} status to ${chargePoint.status}"
+    ],
+    "variables": [
+        "notification"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "sendChargePointStatusChange"
+    ],
+    "classes": [
+        "NotificationService"
+    ]
+}

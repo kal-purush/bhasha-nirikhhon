@@ -1,0 +1,88 @@
+{
+    "identifiers": [
+        "isNode",
+        "path",
+        "createScheduler",
+        "createWorker",
+        "ImageLike",
+        "PSM",
+        "Scheduler",
+        "WorkerOptions",
+        "WorkerParams",
+        "TextReaderInterface",
+        "TextReaderConfig",
+        "config",
+        "config",
+        "createScheduler",
+        "addThread",
+        "createWorker",
+        "workerConfig",
+        "worker",
+        "worker",
+        "worker",
+        "worker",
+        "tesseractConfig",
+        "worker",
+        "addThread",
+        "imageSource",
+        "imageSource",
+        "data",
+        "data",
+        "isNode",
+        "path",
+        "__dirname",
+        "process",
+        "process",
+        "process"
+    ],
+    "literals": [
+        "'detect-node'",
+        "'path'",
+        "'tesseract.js'",
+        "'../../types/interfaces/TextReader'",
+        "'eng'",
+        "''",
+        "string",
+        "'recognize'",
+        "'300'",
+        "'10'",
+        "'123456789'",
+        "'..'",
+        "'..'",
+        "'..'",
+        "'public'",
+        "'ocr'",
+        "'none'",
+        "${process.env.PUBLIC_URL}/ocr",
+        "${process.env.PUBLIC_URL}/ocr/worker.min.js",
+        "${process.env.PUBLIC_URL}/ocr/tesseract-core.wasm.js"
+    ],
+    "variables": [
+        "addThread",
+        "worker",
+        "tesseractConfig",
+        "workerConfig"
+    ],
+    "comments": [
+        "2 threads seems a good compromise on mobile devices",
+        "TODO: Dynamically determine optimal thread count.",
+        "@inheritDoc",
+        "@inheritDoc",
+        "Precaution, as Tesseract sometimes returns multiple chars!",
+        "@inheritDoc",
+        "Configure Tesseract worker to not make external download requests...",
+        "It should be faster to cache the uncompressed lang data, although there seems to be no",
+        "real difference in practice; so we may as well keep the repo smaller."
+    ],
+    "docstrings": [
+        "* \"Translates\" our configuration into Tesseract's."
+    ],
+    "functions": [
+        "load",
+        "read",
+        "destruct"
+    ],
+    "classes": [
+        "TextReader"
+    ]
+}

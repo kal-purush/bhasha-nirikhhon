@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "parseUnits",
+        "Currency",
+        "CurrencyAmount",
+        "JSBI",
+        "value",
+        "currency",
+        "value",
+        "currency",
+        "parseUnits",
+        "value",
+        "currency",
+        "typedValueParsed",
+        "CurrencyAmount",
+        "currency",
+        "JSBI",
+        "typedValueParsed",
+        "error",
+        "value",
+        "error"
+    ],
+    "literals": [
+        "'@ethersproject/units'",
+        "'@uniswap/sdk-core'",
+        "'jsbi'",
+        "string",
+        "'0'",
+        "Failed to parse input amount: \"${value}\""
+    ],
+    "variables": [
+        "typedValueParsed"
+    ],
+    "comments": [
+        "fails if the user specifies too many decimal places of precision (or maybe exceed max uint?)"
+    ],
+    "docstrings": [
+        "* Parses a CurrencyAmount from the passed string.\n * Returns the CurrencyAmount, or undefined if parsing fails."
+    ],
+    "functions": [
+        "tryParseCurrencyAmount"
+    ],
+    "classes": []
+}

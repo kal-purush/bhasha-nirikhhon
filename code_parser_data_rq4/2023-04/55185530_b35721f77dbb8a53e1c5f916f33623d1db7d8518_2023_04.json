@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "MySqlConnector",
+        "Protocol",
+        "Serialization",
+        "MySqlConnector",
+        "Protocol",
+        "Payloads",
+        "columnCount",
+        "metadataFollows",
+        "ColumnCount",
+        "columnCount",
+        "MetadataFollows",
+        "metadataFollows",
+        "span",
+        "supportsMetaSkip",
+        "ByteArrayReader",
+        "span",
+        "reader",
+        "ReadLengthEncodedInteger",
+        "supportsMetaSkip",
+        "reader",
+        "ReadByte",
+        "ColumnCountPayload",
+        "columnCount",
+        "metadataFollows"
+    ],
+    "literals": [],
+    "variables": [
+        "ColumnCount",
+        "MetadataFollows",
+        "reader",
+        "columnCount",
+        "metadataFollows"
+    ],
+    "comments": [
+        "Helper class to parse Column count packet.",
+        "https://mariadb.com/kb/en/result-set-packets/#column-count-packet",
+        "Packet contains a columnCount, and - if capability MARIADB_CLIENT_CACHE_METADATA is set - a flag to indicate if metadata follows",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "ColumnCountPayload",
+        "ColumnCountPayload",
+        "Create"
+    ],
+    "classes": [
+        "ColumnCountPayload"
+    ]
+}

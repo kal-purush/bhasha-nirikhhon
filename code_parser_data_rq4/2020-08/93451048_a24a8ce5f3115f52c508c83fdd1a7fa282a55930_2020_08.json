@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "H",
+        "H",
+        "H",
+        "H",
+        "React",
+        "React",
+        "props",
+        "React",
+        "props",
+        "React",
+        "React",
+        "React",
+        "React",
+        "H",
+        "React",
+        "React",
+        "message",
+        "callback",
+        "ok",
+        "React",
+        "React",
+        "React",
+        "React",
+        "withRouter",
+        "React",
+        "component",
+        "React",
+        "React"
+    ],
+    "literals": [
+        "'react-router-dom'",
+        "'history'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'slash'",
+        "'noslash'",
+        "'hashbang'"
+    ],
+    "variables": [],
+    "comments": [
+        "eslint-disable @typescript-eslint/ban-types",
+        "working version of https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/react-router/index.d.ts",
+        "and https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/react-router-dom/index.d.ts",
+        "There is a known issue in TypeScript, which doesn't allow decorators to change the signature of the classes",
+        "they are decorating. Due to this, if you are using @withRouter decorator in your code,",
+        "you will see a bunch of errors from TypeScript. The current workaround is to use withRouter() as a function call",
+        "on a separate line instead of as a decorator."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Route",
+        "Switch",
+        "HashRouter"
+    ]
+}

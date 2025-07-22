@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "AlertServiceAbstract",
+        "Sentry",
+        "Injectable",
+        "Logger",
+        "Injectable",
+        "AlertServiceAbstract",
+        "Logger",
+        "SentryAlertServiceService",
+        "exception",
+        "Sentry",
+        "exception",
+        "Sentry",
+        "isFlushed"
+    ],
+    "literals": [
+        "'@core'",
+        "'@sentry/nestjs'",
+        "'@nestjs/common'",
+        "'Exception was not flushed after 1000 ms'"
+    ],
+    "variables": [
+        "isFlushed"
+    ],
+    "comments": [
+        "just logger",
+        "Create new logger"
+    ],
+    "docstrings": [
+        "* This class implements Sentry exceptions capturing",
+        "* Captures exception and flush it and this moment. This was done because current env is serverless,\n   * and it should guarantee that exception was delivered to the Sentry\n   * @param exception exception to send in Sentry"
+    ],
+    "functions": [
+        "processException"
+    ],
+    "classes": [
+        "SentryAlertServiceService"
+    ]
+}

@@ -1,0 +1,84 @@
+{
+    "identifiers": [
+        "json",
+        "requests",
+        "Captcha",
+        "filename",
+        "cnt",
+        "retry",
+        "username",
+        "password",
+        "timeout",
+        "softid",
+        "softkey",
+        "typeid",
+        "open",
+        "filename",
+        "requests",
+        "post",
+        "url",
+        "data",
+        "payload",
+        "files",
+        "multiple_files",
+        "json",
+        "loads",
+        "r",
+        "text",
+        "e",
+        "cnt",
+        "format",
+        "time",
+        "strftime",
+        "e"
+    ],
+    "literals": [
+        "'http://api.ysdm.net/create.json'",
+        "'a61323636'",
+        "'123456'",
+        "'b40ffbee5c1cf4e38028c197eb2fc751'",
+        "'username'",
+        "'password'",
+        "'timeout'",
+        "'softid'",
+        "'softkey'",
+        "'typeid'",
+        "'image'",
+        "'captcha.gif'",
+        "'rb'",
+        "'image/gif'",
+        "'{0} [INFO] {1}'",
+        "'%Y-%m-%d %H:%M:%S'"
+    ],
+    "variables": [
+        "url",
+        "username",
+        "password",
+        "timeout",
+        "softid",
+        "softkey",
+        "typeid",
+        "cnt",
+        "retry",
+        "payload",
+        "multiple_files",
+        "r",
+        "cnt"
+    ],
+    "comments": [
+        "encoding: utf-8",
+        "over max_retry_cnt",
+        "captcha = Captcha()",
+        "imgurl = 'http://ce.wooyun.org/captcha.php'",
+        "print captcha.verification(imgurl)"
+    ],
+    "docstrings": [
+        "\"\"\"docstring for Captcha\"\"\""
+    ],
+    "functions": [
+        "verification"
+    ],
+    "classes": [
+        "Captcha"
+    ]
+}

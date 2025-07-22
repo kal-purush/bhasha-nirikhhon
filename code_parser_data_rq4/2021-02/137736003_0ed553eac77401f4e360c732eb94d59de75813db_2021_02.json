@@ -1,0 +1,18 @@
+{
+    "identifiers": [],
+    "literals": [
+        "\"([\\u06F0-\\u06F90-9-_.*]{16,20})\"",
+        "\"img\""
+    ],
+    "variables": [
+        "cardNumberRegex",
+        "acceptableKeywords"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This Regex can find all kind of Iranian Banks' card number into a text such as these models:\n * 1. 6219-8610-3452-9007\n * 2. 5022291070873466\n * 3. ۵۰۲۲۲۹۱۰۸۱۸۷۳۴۶۶\n * 4. ۵۰۲۲-۲۹۱۰-۷۰۸۷-۳۴۶۶\n * 5. ۵۰۲۲.۲۹۱۰.۷۰۸۷.۳۴۶۶\n * 6. ۵۰۲۲_۲۹۱۰_۷۰۸۷_۳۴۶۶\n * 7. ۵۰۲۲*۲۹۱۰*۷۰۸۷*۳۴۶۶\n *\n * @constant",
+        "* Acceptable keywords between numbers are:\n * 1. Star -> *\n * 2. Underscore -> _\n * 3. Dash -> -\n * 4. Dot -> .\n *\n * @example:\n * 5022*2910_7087-3466\n * @constant"
+    ],
+    "functions": [],
+    "classes": []
+}

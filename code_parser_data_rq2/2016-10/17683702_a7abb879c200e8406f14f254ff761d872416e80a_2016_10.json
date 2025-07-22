@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "op",
+        "batch_alter_table",
+        "batch_op",
+        "batch_op",
+        "add_column",
+        "sa",
+        "Column",
+        "sa",
+        "sa",
+        "ForeignKey",
+        "nullable",
+        "op",
+        "batch_alter_table",
+        "batch_op",
+        "batch_op",
+        "drop_column"
+    ],
+    "literals": [
+        "'38f01b0893b8'",
+        "'3c34cfd19bf8'",
+        "'campaign_phone'",
+        "'call_in_campaign_id'",
+        "'campaign_campaign.id'",
+        "'campaign_phone'",
+        "'call_in_campaign_id'"
+    ],
+    "variables": [
+        "revision",
+        "down_revision",
+        "branch_labels",
+        "depends_on"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic."
+    ],
+    "docstrings": [
+        "\"\"\"Add call_in_campaign_id to TwilioPhoneNumber\n\nRevision ID: 38f01b0893b8\nRevises: 3c34cfd19bf8\nCreate Date: 2016-10-21 18:59:13.190060\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

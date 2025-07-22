@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "require",
+        "NATS",
+        "server1",
+        "request",
+        "replyTo",
+        "request",
+        "server1",
+        "replyTo",
+        "request"
+    ],
+    "literals": [
+        "'nats'",
+        "'nats://ruser:T0pS3cr3t@gnatsd:4222'",
+        "'NodeJS Server #1 Listening to channel \"api\"'",
+        "'api'",
+        "'queue'",
+        "'api.requests'",
+        "'Handling '",
+        "'NodeJS Server #1: '"
+    ],
+    "variables": [
+        "NATS",
+        "server1"
+    ],
+    "comments": [
+        "var server2 = NATS.connect();",
+        "",
+        "request/reply example",
+        "",
+        "server2.subscribe('help', function(request, replyTo) {",
+        "setTimeout(function() {",
+        "server1.publish(replyTo, 'NodeJS Server #2: ' + request);",
+        "}, 500);",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

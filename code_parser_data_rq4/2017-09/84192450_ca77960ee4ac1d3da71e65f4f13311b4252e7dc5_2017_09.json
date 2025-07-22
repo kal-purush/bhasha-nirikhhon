@@ -1,0 +1,20 @@
+{
+    "identifiers": [],
+    "literals": [
+        "'@commitlint/config-angular'",
+        "'header-max-length'",
+        "\"always\"",
+        "'scope-case'",
+        "\"always\""
+    ],
+    "variables": [],
+    "comments": [
+        "Conventional Changelog Enforcer Script\nCopyright Siemens AG 2017\n\nCopying and distribution of this file, with or without modification,\nare permitted in any medium without royalty provided the copyright\nnotice and this notice are preserved.  This file is offered as-is,\nwithout any warranty.\n\nDescription: Commitlint Config\nDefines rules for the conventional changelog based on this info:\nhttps://github.com/fossology/fossology/blob/master/CONTRIBUTING.md#user-content-git-commit-conventions\n\nRules are made up by a name and a configuration array. The configuration array contains:\n\nLevel [0..2]: 0 disables the rule. For 1 it will be considered a warning for 2 an error.\nApplicable always|never: never inverts the rule.\nValue: value to use for this rule.\n\nfrom https://github.com/marionebl/commitlint/blob/master/docs/reference-rules.md",
+        "=> use angular standard as default",
+        "72 chars commit limit -> just warning",
+        "scope should not be lowercase -> disabled"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

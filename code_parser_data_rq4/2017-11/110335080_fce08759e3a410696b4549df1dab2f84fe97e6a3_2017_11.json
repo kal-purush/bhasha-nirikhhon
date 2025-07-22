@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Web",
+        "Web",
+        "Mvc",
+        "MvcValidation",
+        "Models",
+        "Text",
+        "RegularExpressions",
+        "MvcValidation",
+        "Controllers",
+        "Controller",
+        "View",
+        "HttpPost",
+        "Employee",
+        "employee",
+        "ModelState",
+        "IsValid",
+        "View",
+        "View"
+    ],
+    "literals": [
+        "\"Index\"",
+        "\"Index\""
+    ],
+    "variables": [],
+    "comments": [
+        "GET: Home",
+        "if (string.IsNullOrWhiteSpace(employee.Name))",
+        "{",
+        "ModelState.AddModelError(\"Name\", \"Please Enter Name. \");",
+        "}",
+        "if (!string.IsNullOrWhiteSpace(employee.Email))",
+        "{",
+        "string emailRegex = @\"^([a-zA-Z0-9_\\.\\-])+\\@(([a-zA-Z0-9\\-])+\\.)+([a-zA-Z0-9]{2,4})+$\";",
+        "Regex re = new Regex(emailRegex);",
+        "if (!re.IsMatch(employee.Email))",
+        "{",
+        "ModelState.AddModelError(\"Email\", \"Please Enter Correct Email Address\");",
+        "}",
+        "}",
+        "else",
+        "{",
+        "ModelState.AddModelError(\"Email\", \"Please Enter Email Address\");",
+        "}",
+        "if (string.IsNullOrWhiteSpace(employee.Mobile))",
+        "{",
+        "//Mobile is textbox id",
+        "ModelState.AddModelError(\"Mobile\", \"Please enter your mobile no\");",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ActionResult",
+        "Index",
+        "ActionResult",
+        "Index"
+    ],
+    "classes": [
+        "HomeController"
+    ]
+}

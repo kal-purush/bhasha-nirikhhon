@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "ethers",
+        "currentTimestampInSeconds",
+        "ethers",
+        "ethers",
+        "Lock",
+        "unlockTime",
+        "lockedAmount",
+        "ethers",
+        "lockedAmount",
+        "unlockTime",
+        "main",
+        "error",
+        "error",
+        "process"
+    ],
+    "literals": [
+        "\"hardhat\"",
+        "\"0.001\"",
+        "\"Lock\"",
+        "Lock with ${ethers.utils.formatEther(lockedAmount)}ETH and unlock timestamp ${unlockTime} deployed to ${lock.address}"
+    ],
+    "variables": [
+        "currentTimestampInSeconds",
+        "unlockTime",
+        "lockedAmount",
+        "Lock"
+    ],
+    "comments": [
+        "We recommend this pattern to be able to use async/await everywhere",
+        "and properly handle errors."
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

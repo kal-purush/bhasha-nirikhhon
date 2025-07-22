@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "com",
+        "app",
+        "mvc",
+        "common",
+        "com",
+        "app",
+        "mvc",
+        "acl",
+        "util",
+        "RequestHolder",
+        "lombok",
+        "slf4j",
+        "Slf4j",
+        "org",
+        "springframework",
+        "web",
+        "servlet",
+        "ModelAndView",
+        "org",
+        "springframework",
+        "web",
+        "servlet",
+        "handler",
+        "HandlerInterceptorAdapter",
+        "javax",
+        "servlet",
+        "http",
+        "HttpServletRequest",
+        "javax",
+        "servlet",
+        "http",
+        "HttpServletResponse",
+        "Slf4j",
+        "Override",
+        "request",
+        "response",
+        "handler",
+        "Override",
+        "request",
+        "response",
+        "handler",
+        "modelAndView",
+        "removeThreadLocalInfo",
+        "Override",
+        "request",
+        "response",
+        "handler",
+        "ex",
+        "removeThreadLocalInfo",
+        "RequestHolder",
+        "remove"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "正常返回时, 显式回收threadLocal里的信息",
+        "出异常时, 显式回收threadLocal里的信息"
+    ],
+    "docstrings": [
+        "* Created by Gaven8 on 16/7/12."
+    ],
+    "functions": [
+        "preHandle",
+        "postHandle",
+        "afterCompletion",
+        "removeThreadLocalInfo"
+    ],
+    "classes": [
+        "HttpInterceptor"
+    ]
+}

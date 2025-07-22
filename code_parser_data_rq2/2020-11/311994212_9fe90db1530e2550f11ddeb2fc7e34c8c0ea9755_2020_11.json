@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "isSmall",
+        "isSmall",
+        "styled"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "margin: 0 5%;\n@media (min-width: 576px) {\n  margin: 0 10%;\n  }",
+        "margin: 0 20px;\n  justify-content: center;\n  display: flex;\n  flex-wrap: wrap;\n  padding: 0 4px;\n  @media (min-width: 576px) {\n    margin: 0;\n  }",
+        "flex: 100%;\n  max-width: 100%;\n  padding: 0 4px;\n  background-color: #000;\n  @media (min-width: 576px) {\n    flex: 35%;\n    max-width: 35%;\n  }\n  @media (min-width: 768px) {\n    flex: 25%;\n    max-width: 25%;\n  }\n   img {\n  margin-top: 8px;\n  vertical-align: middle;\n  width: 100%;\n  &:hover,\n  &:focus {\n    transform: scale3d(1.040, 1.040, 1);\n\n    &::after {\n      opacity: 1;\n    }\n  }\n}",
+        "margin: ${({ isSmall }) => (isSmall ? \"20px 0 \" : \"40px 0;\")};\n  text-align: center;\n  font-family: 'Chivo', sans-serif;\n  font-weight: 500;\n  font-size: 1.5rem;\n  letter-spacing: -0.03em;\n  color: #344854;\n:before,\n:after {\n  background-color: #000;\n  content: \"\";\n  display: inline-block;\n  height: 2px;\n  position: relative;\n  vertical-align: middle;\n  width: 10%;\n}\n:before {\n  right: 0.5em;\n  margin-left: -50%;\n}\n:after {\n  left: 0.5em;\n  margin-right: -50%;\n}\n@media (min-width: 576px) {\n  margin: ${({ isSmall }) => (isSmall ? \"60px 0 35px 0\" : \"60px 0;\")};\n  font-size: 2rem;\n  }\n  @media (min-width: 768px) {\n    font-size: 2.5rem;\n  }",
+        "\"20px 0 \"",
+        "\"40px 0;\"",
+        "\"60px 0 35px 0\"",
+        "\"60px 0;\"",
+        "margin-bottom: 40px;\n  white-space: normal;\n  text-align: center;\n  font-family: 'Chivo', sans-serif;\n  font-size: 1rem;\n  color: #344854;\n  a {\n    color: #344854;\n\n  }\n  @media (min-width: 768px) {\n    font-size: 1.125rem;\n    margin-bottom: 70px;\n  }"
+    ],
+    "variables": [
+        "Wrapper",
+        "ImageGridContainer",
+        "ImageGridColumn",
+        "SectionTitle",
+        "Subtitle"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

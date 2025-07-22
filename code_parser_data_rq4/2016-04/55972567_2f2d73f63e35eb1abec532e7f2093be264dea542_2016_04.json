@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "name",
+        "tuple1",
+        "Color",
+        "Color",
+        "co",
+        "Color1",
+        "Color1",
+        "Color1",
+        "co1",
+        "co2"
+    ],
+    "literals": [
+        "string",
+        "\"alvin\"",
+        "string",
+        "hello${name}",
+        "string",
+        "\"1\"",
+        "'2'",
+        "string",
+        "\"1\"",
+        "\"1\"",
+        "\"23\"",
+        "string",
+        "'2'",
+        "\"枚举\"",
+        "\"枚举\"",
+        "\"枚举\""
+    ],
+    "variables": [
+        "flag",
+        "name",
+        "age",
+        "arr",
+        "arr1",
+        "arr2",
+        "tuple1",
+        "co",
+        "co1",
+        "co2"
+    ],
+    "comments": [
+        "boolean",
+        "string",
+        "number",
+        "'`'中时使用${} 表达式",
+        "array",
+        "元组 初始化的时候顺序必须正确,",
+        "ok",
+        "var tuple:[string,number]= [1, \"2\"];//error",
+        "ok",
+        "tuple[5]=true;//error",
+        "必须每个类型都有的方法才可以调用",
+        "console.info(tuple[2].substr(1)); //error",
+        "enum",
+        "打印下标",
+        "指定下标"
+    ],
+    "docstrings": [
+        "* Created by LENOVO on 2016/4/11."
+    ],
+    "functions": [],
+    "classes": []
+}

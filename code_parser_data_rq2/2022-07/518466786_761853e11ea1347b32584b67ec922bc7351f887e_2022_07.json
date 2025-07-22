@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "google",
+        "myLatLng",
+        "google",
+        "myLatLng"
+    ],
+    "literals": [
+        "\"map\"",
+        "\"ул. Тургеневская, 10/6\""
+    ],
+    "variables": [
+        "myLatLng"
+    ],
+    "comments": [
+        "function abbrevName(firstName, lastName){\n    const initials = firstName[0].toUpperCase() + \".\" + lastName[0].toUpperCase()\n    console.log (initials)\n    }\n  abbrevName('alexander', 'kovalenko')\n\n\n  function past(h, m, s){\n    let time = h*3600000 + m*60000 + s*1000\n    console.log(time)\n  }\n\n past(23, 59, 59);\n\n function openOrSenior(data){\n  const emptyArray = []\n  for(i = 0; i < data.length; i++) {\n    if(data[i][0] >= 55 && data[i][1] > 7) {\n      emptyArray.push('Senior')\n    }\n    else {\n      emptyArray.push('Open')\n    }\n  }\n  return emptyArray\n}\n\nconsole.log(openOrSenior([[25, 8]]))"
+    ],
+    "docstrings": [],
+    "functions": [
+        "initMap"
+    ],
+    "classes": []
+}

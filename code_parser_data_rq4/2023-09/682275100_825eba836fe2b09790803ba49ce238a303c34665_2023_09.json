@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "requests",
+        "config",
+        "all",
+        "key",
+        "config",
+        "key",
+        "Requester",
+        "CONFIG_KEYS",
+        "format",
+        "Requester",
+        "CONFIG_KEYS",
+        "config",
+        "config",
+        "config",
+        "config",
+        "config",
+        "time",
+        "requests",
+        "request",
+        "url",
+        "headers",
+        "headers",
+        "data",
+        "payload",
+        "timeout",
+        "time",
+        "response",
+        "time",
+        "makeRequest",
+        "time",
+        "requests",
+        "exceptions",
+        "ReadTimeout",
+        "response",
+        "response",
+        "requests",
+        "exceptions",
+        "RequestError"
+    ],
+    "literals": [
+        "\"url\"",
+        "\"headers\"",
+        "\"payload\"",
+        "\"Config is missing one or more keys in the following list: {0}\\nConfig: {1}\"",
+        "\"url\"",
+        "\"headers\"",
+        "\"payload\"",
+        "\"GET\"",
+        "\"makePersistentRequest failed after 5 attempts\""
+    ],
+    "variables": [
+        "CONFIG_KEYS",
+        "config",
+        "url",
+        "headers",
+        "payload",
+        "response",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"A module to make webscraping requests easier.\"\"\"",
+        "\"\"\"Returns a GET request. Makes the request 5 times.\"\"\""
+    ],
+    "functions": [
+        "makeRequest",
+        "makePersistentRequest"
+    ],
+    "classes": [
+        "Requester"
+    ]
+}

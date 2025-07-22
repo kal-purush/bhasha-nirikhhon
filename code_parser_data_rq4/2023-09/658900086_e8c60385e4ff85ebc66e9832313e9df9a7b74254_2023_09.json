@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Firestore",
+        "DocumentData",
+        "serverTimestamp",
+        "addDoc",
+        "setDoc",
+        "DocumentReference",
+        "createDocRef",
+        "createCollectionRef",
+        "addCollectionItem",
+        "db",
+        "collectionPath",
+        "id",
+        "id",
+        "createDocRef",
+        "db",
+        "collectionPath",
+        "id",
+        "setDoc",
+        "docRef",
+        "serverTimestamp",
+        "serverTimestamp",
+        "docRef",
+        "createCollectionRef",
+        "db",
+        "collectionPath",
+        "addDoc",
+        "collectionRef",
+        "serverTimestamp",
+        "serverTimestamp",
+        "data",
+        "data",
+        "data",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'firebase/firestore'",
+        "'./createDocRef'",
+        "'./createCollectionRef'",
+        "string",
+        "string",
+        "'new version'",
+        "'data:'",
+        "'no data'",
+        "Error adding document: ${error}"
+    ],
+    "variables": [
+        "addCollectionItem",
+        "docRef",
+        "collectionRef",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Asynchronously adds a new document to a Firestore collection.\n * If an ID is provided, the document with that ID is set with the new data.\n *\n * @template T - The type that extends `DocumentData` which the new document is expected to conform to.\n * @param {Firestore} db - The Firestore database instance.\n * @param {string} collectionPath - The path to the Firestore collection.\n * @param {T} params - The data to be added to the new document.\n * @param {string} [id] - Optional. The ID of the document to set. If not provided, Firestore will auto-generate an ID.\n *\n * @returns {Promise<DocumentReference<T>>} - A promise that resolves to the reference of the newly added document.\n *\n * @throws Will throw an error if the document could not be added.\n *\n * @example\n * ```typescript\n * const db: Firestore = getFirestore();\n * const params: UserData = { name: 'John', age: 30 };\n * const newDocRef = await addCollectionItem(db, 'users', params);\n * console.log('New document added with ID:', newDocRef.id);\n * ```"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "com",
+        "commonsware",
+        "cwac",
+        "cam2",
+        "RESULT_STACK_TRACE",
+        "ERROR_LIST_CAMERAS",
+        "ERROR_OPEN_CAMERA",
+        "ERROR_LIST_CAMERAS",
+        "ERROR_CLOSE_CAMERA",
+        "ERROR_LIST_CAMERAS",
+        "ERROR_VIDEO_TAKEN",
+        "ERROR_LIST_CAMERAS",
+        "ERROR_STOPPING",
+        "ERROR_LIST_CAMERAS",
+        "ERROR_SWITCHING_CAMERAS",
+        "ERROR_LIST_CAMERAS",
+        "ERROR_STOPPING_VIDEO",
+        "ERROR_LIST_CAMERAS",
+        "ERROR_MISC",
+        "ERROR_LIST_CAMERAS"
+    ],
+    "literals": [
+        "\"stackTrace\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*\n Copyright (c) 2016 CommonsWare, LLC\n\n Licensed under the Apache License, Version 2.0 (the \"License\"); you may\n not use this file except in compliance with the License. You may obtain\n a copy of the License at http://www.apache.org/licenses/LICENSE-2.0\n\n Unless required by applicable law or agreed to in writing, software\n distributed under the License is distributed on an \"AS IS\" BASIS,\n WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n See the License for the specific language governing permissions and\n limitations under the License.",
+        "* Constants related to the data passed to the ResultReceiver\n * that you can optionally register via `onError()` with\n * an `IntentBuilder`, to find out about errors that occur\n * inside the Cam2 activities.",
+        "* Key for the Bundle provided to the ResultReceiver,\n   * with the text of the stack trace of the exception that\n   * triggered this callback.",
+        "* resultCode for ResultReceiver, indicating that there was\n   * a problem listing the available cameras",
+        "* resultCode for ResultReceiver, indicating that there was\n   * a problem opening a camera",
+        "* resultCode for ResultReceiver, indicating that there was\n   * a problem closing a camera",
+        "* resultCode for ResultReceiver, indicating that there was\n   * a problem when trying to complete the act of taking a video",
+        "* resultCode for ResultReceiver, indicating that there was\n   * a problem shutting down the CameraController and engine",
+        "* resultCode for ResultReceiver, indicating that there was\n   * a problem while trying to switch cameras from the FAB",
+        "* resultCode for ResultReceiver, indicating that there was\n   * a problem trying to end recording of a video",
+        "* resultCode for ResultReceiver, indicating that there was\n   * some other problem deep in the innards of Cam2"
+    ],
+    "functions": [],
+    "classes": [
+        "ErrorConstants"
+    ]
+}

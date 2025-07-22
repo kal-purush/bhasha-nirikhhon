@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "IQueryHandler",
+        "QueryHandler",
+        "GetAdverseEventsQuery",
+        "InjectRepository",
+        "FactTransAdverseEvents",
+        "Repository",
+        "QueryHandler",
+        "GetAdverseEventsQuery",
+        "InjectRepository",
+        "FactTransAdverseEvents",
+        "repository",
+        "query",
+        "query",
+        "adultsAEs",
+        "query",
+        "query",
+        "adultsAEs",
+        "query",
+        "query",
+        "adultsAEs",
+        "query",
+        "query",
+        "adultsAEs",
+        "query",
+        "adultsAEs"
+    ],
+    "literals": [
+        "'@nestjs/cqrs'",
+        "'../impl/get-adverse-events.query'",
+        "'@nestjs/typeorm'",
+        "'../../entities/fact-trans-adverse-events.model'",
+        "'typeorm'",
+        "'mssql'",
+        "'f'",
+        "'SUM([AdverseEvent_Total]) total, AgeGroup, Gender, CAST((cast(SUM([AdverseEvent_Total]) as decimal (9,2))/ (SUM(SUM([AdverseEvent_Total])) OVER (PARTITION BY AgeGroup ORDER BY AgeGroup))*100) as decimal(9,2))  AS adverseEventsByAgeGroup'",
+        "'[AgeGroup] IS NOT NULL'",
+        "'f.County IN (:...counties)'",
+        "'f.SubCounty IN (:...subCounties)'",
+        "'f.FacilityName IN (:...facilities)'",
+        "'f.CTPartner IN (:...partners)'",
+        "'AgeGroup, Gender'"
+    ],
+    "variables": [
+        "adultsAEs"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "execute"
+    ],
+    "classes": [
+        "GetAdverseEventsHandler"
+    ]
+}

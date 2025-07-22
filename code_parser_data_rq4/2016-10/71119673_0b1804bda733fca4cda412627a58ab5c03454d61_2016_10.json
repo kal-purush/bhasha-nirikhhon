@@ -1,0 +1,19 @@
+{
+    "identifiers": [],
+    "literals": [
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Root directory where all the reports are generated and screen captures are saved.\n     * example:\n     *          rootResultDirectory: 'reports'",
+        "* Configuration options for the integrated reporting plugin. Enabled and configure the plugin to \n     * get XML result file at a location specified by configuration values.\n     * example:\n     *          reporter: {\n     *              enableReporter: true,\n     *              resultsDirectoryName: 'test-results',\n     *              resultsFileName: 'xmlReport'\n     *          }",
+        "* Enables or disables the test result reporting feature. Reporting creates a XML file\n         * containing the tests that was run and the associated results of thoese tests.\n         * example:\n         *      enableReporter: true",
+        "* Name of the directory in which the XML results file is created if reporter is enabled\n         * example:\n         *      resultsDirectoryName: 'results'",
+        "* Name of the file that contains the results of the tests runs. This file is created inside the \n         * directory specified by the resultsDirectoryName.\n         * example:\n         *      resultsFileName: 'xmlOutput'"
+    ],
+    "functions": [],
+    "classes": []
+}

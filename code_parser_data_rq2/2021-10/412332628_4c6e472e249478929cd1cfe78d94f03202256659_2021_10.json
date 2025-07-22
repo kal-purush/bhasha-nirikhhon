@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "weatherForm",
+        "e",
+        "e",
+        "search",
+        "messageOne",
+        "messageTwo",
+        "fetch",
+        "location",
+        "response",
+        "response",
+        "data",
+        "data",
+        "messageOne",
+        "data",
+        "messageOne",
+        "data",
+        "messageTwo",
+        "data"
+    ],
+    "literals": [
+        "'client side js file'",
+        "'form'",
+        "'input'",
+        "'#message-1'",
+        "'#message-2'",
+        "'submit'",
+        "'Loading...'",
+        "''",
+        "'http://localhost:3000/weather?address='"
+    ],
+    "variables": [
+        "weatherForm",
+        "search",
+        "messageOne",
+        "messageTwo",
+        "location"
+    ],
+    "comments": [
+        "fetch('https://puzzle.mead.io/puzzle').then((response) =>{",
+        "response.json().then((data) =>{",
+        "console.log(data)",
+        "})",
+        "})",
+        "matches the first element form , input",
+        "messageOne.textContent = ''",
+        "console.log(data.error)",
+        "console.log(data.location)",
+        "console.log(data.forecast)",
+        "console.log(location)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

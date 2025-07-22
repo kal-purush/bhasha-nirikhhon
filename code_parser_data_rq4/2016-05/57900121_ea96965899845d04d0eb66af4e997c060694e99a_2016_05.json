@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Component",
+        "MapService",
+        "NgFor",
+        "NgModel",
+        "NgControl",
+        "Component",
+        "NgFor",
+        "NgModel",
+        "MapService",
+        "_mapService",
+        "response",
+        "response",
+        "response",
+        "layerId",
+        "layerId",
+        "initialSelection",
+        "legendLayer",
+        "legendLayer"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./map.service'",
+        "'angular2/common'",
+        "'esri-layer'",
+        "<form>\n              <div class = \"form-group\">\n                    <template ngFor #legendLayer [ngForOf]=\"legendLayers\">\n                      <div>\n                          <input\n                            type = \"checkbox\"\n                            [(ngModel)]=\"legendLayer['checked']\"\n                            (click)=\"onClick(legendLayer)\"/>\n                            <label for=\"legendLayer\" >{{legendLayer.name}}</label>\n                      </div>\n                    </template>\n                </div>\n              </form>",
+        "'name'",
+        "''",
+        "'checked'",
+        "'name'",
+        "'checked'"
+    ],
+    "variables": [
+        "initialSelection"
+    ],
+    "comments": [
+        "temprary used as checkboxs",
+        "set all the layers visible",
+        "maybe changed in the future"
+    ],
+    "docstrings": [],
+    "functions": [
+        "init",
+        "handleLayerCollection",
+        "onClick",
+        "ngOnDestroy"
+    ],
+    "classes": [
+        "LayerComponent"
+    ]
+}

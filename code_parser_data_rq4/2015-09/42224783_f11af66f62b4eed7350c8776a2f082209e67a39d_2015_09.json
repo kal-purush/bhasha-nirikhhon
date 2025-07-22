@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Xunit",
+        "InfluxDB",
+        "LineProtocol",
+        "Payload",
+        "Collections",
+        "Generic",
+        "IO",
+        "InfluxDB",
+        "LineProtocol",
+        "Tests",
+        "Fact",
+        "LineProtocolPoint",
+        "DateTimeKind",
+        "Utc",
+        "StringWriter",
+        "point",
+        "Format",
+        "sw",
+        "Assert",
+        "Equal",
+        "expected",
+        "sw",
+        "ToString"
+    ],
+    "literals": [
+        "\"\\\"measurement\\\\ with\\\\ quotes\\\",tag\\\\ key\\\\ with\\\\ spaces=tag\\\\,value\\\\,with\\\"commas\\\" field_key\\\\\\\\\\\\\\\\=\\\"string field value, only \\\\\\\" need be quoted\\\" 1441756800000000000\"",
+        "\"\\\"measurement with quotes\\\"\"",
+        "\"field_key\\\\\\\\\\\\\\\\\"",
+        "\"string field value, only \\\" need be quoted\"",
+        "\"tag key with spaces\"",
+        "\"tag,value,with\\\"commas\\\"\""
+    ],
+    "variables": [
+        "expected",
+        "point",
+        "sw"
+    ],
+    "comments": [
+        "Given in: https://influxdb.com/docs/v0.9/write_protocols/write_syntax.html"
+    ],
+    "docstrings": [],
+    "functions": [
+        "CompleteExampleFromDocs"
+    ],
+    "classes": [
+        "LineProtcolPointTests"
+    ]
+}

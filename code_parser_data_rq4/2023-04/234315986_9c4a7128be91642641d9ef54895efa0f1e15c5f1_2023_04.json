@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "css",
+        "space",
+        "until",
+        "css",
+        "until",
+        "space",
+        "space",
+        "space",
+        "space",
+        "css",
+        "until",
+        "space",
+        "space",
+        "space",
+        "css",
+        "until",
+        "space",
+        "space"
+    ],
+    "literals": [
+        "\"@emotion/react\"",
+        "\"@guardian/src-foundations\"",
+        "\"@guardian/src-foundations/mq\"",
+        "${until.mobileMedium} {\n        padding-top: 10px;\n        margin-bottom: ${space[4]}px;\n    }\n    ${from.mobileMedium} {\n        padding-top: 8px;\n        margin-bottom: ${space[4]}px;\n     }\n     ${from.tablet} {\n        padding-top: ${space[3]}px;\n     }\n     ${from.desktop} {\n        margin-bottom: ${space[6]}px;\n     }",
+        "${until.tablet} {\n        margin-bottom: ${space[3]}px;\n     }\n     ${from.tablet} {\n        margin-bottom: ${space[4]}px;\n     }\n     ${from.desktop} {\n        margin-bottom: ${space[6]}px;\n     }",
+        "${until.tablet} {\n        margin-bottom: ${space[4]}px\n     }\n     ${from.tablet} {\n        margin-bottom: ${space[3]}px\n     }"
+    ],
+    "variables": [
+        "bannerSpacing"
+    ],
+    "comments": [
+        "WIP - Any styling changes made to base moment template styling here should be reviewed by a designer!",
+        "bannerVisual: {",
+        "},",
+        "bannerCtas: {",
+        "},"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

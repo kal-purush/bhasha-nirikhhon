@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "Router",
+        "Charity",
+        "CharityService",
+        "Component",
+        "router",
+        "charityService",
+        "charities",
+        "charities"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router'",
+        "'../../constants/data-types'",
+        "'../../services/charity.service'",
+        "'charities'",
+        "'/charities.component.html'",
+        "'./charities.component.css'"
+    ],
+    "variables": [],
+    "comments": [
+        "gotoDetail(hero:Hero):void {",
+        "let link = ['/detail', hero.id];",
+        "this.router.navigate(link);",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit"
+    ],
+    "classes": [
+        "CharitiesComponent"
+    ]
+}

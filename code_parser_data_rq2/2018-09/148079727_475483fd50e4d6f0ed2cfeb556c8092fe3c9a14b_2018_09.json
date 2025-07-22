@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "args",
+        "ora",
+        "args",
+        "args",
+        "getLocation",
+        "getWeather",
+        "location",
+        "spinner",
+        "location",
+        "weather",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "err",
+        "spinner",
+        "err"
+    ],
+    "literals": [
+        "'ora'",
+        "'../utils/weather'",
+        "'../utils/location'",
+        "Weather forecast for ${location}",
+        "\\t${item.date} - Low: ${item.low}°C | High: ${item.high}°C | ${\n          item.text\n        }"
+    ],
+    "variables": [
+        "ora",
+        "getWeather",
+        "getLocation",
+        "spinner",
+        "location",
+        "weather"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

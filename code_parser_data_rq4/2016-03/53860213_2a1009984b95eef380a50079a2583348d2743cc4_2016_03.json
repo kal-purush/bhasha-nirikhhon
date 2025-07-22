@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "pg",
+        "require",
+        "dbConfig",
+        "dbConfig",
+        "dbConfig",
+        "dbConfig",
+        "dbConfig",
+        "query",
+        "resolve",
+        "reject",
+        "pg",
+        "connectionString",
+        "err",
+        "client",
+        "done",
+        "err",
+        "err",
+        "reject",
+        "err",
+        "client",
+        "query",
+        "err",
+        "result",
+        "done",
+        "err",
+        "err",
+        "reject",
+        "err",
+        "resolve",
+        "result"
+    ],
+    "literals": [
+        "'pg'",
+        "\"es6-promise\"",
+        "'../config/database'",
+        "\"postgres://\"",
+        "\":\"",
+        "\"@\"",
+        "\":\"",
+        "\"/\"",
+        "string",
+        "'Error fetching client from pool: '",
+        "'Error running query: '"
+    ],
+    "variables": [
+        "dbConfig",
+        "connectionString"
+    ],
+    "comments": [
+        "example: \"postgres://username:password@localhost/database\"",
+        "release the client back to the pool"
+    ],
+    "docstrings": [
+        "* Database wrapper for the PostgreSQL database.",
+        "*\n   *\n   * @param query\n   * @returns"
+    ],
+    "functions": [
+        "query"
+    ],
+    "classes": [
+        "Database"
+    ]
+}

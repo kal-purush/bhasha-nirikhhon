@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "base_kwargs",
+        "func",
+        "func",
+        "func",
+        "__doc__",
+        "func",
+        "func",
+        "__module__",
+        "args",
+        "kwargs",
+        "np",
+        "vectorize",
+        "func",
+        "base_kwargs",
+        "args",
+        "kwargs",
+        "len",
+        "arr",
+        "shape",
+        "np",
+        "asscalar",
+        "arr",
+        "arr",
+        "obj",
+        "obj",
+        "func",
+        "__get__",
+        "obj",
+        "__class__",
+        "new_func",
+        "_vectorize_desc"
+    ],
+    "literals": [],
+    "variables": [
+        "func",
+        "__doc__",
+        "__module__",
+        "arr",
+        "arr",
+        "new_func"
+    ],
+    "comments": [
+        "See",
+        "http://www.ianbicking.org/blog/2008/10/decorators-and-descriptors.html",
+        "for a description of this pattern",
+        "Save a reference to the function and set various properties so the",
+        "docstrings etc. get passed through",
+        "This gets called whenever the wrapped function is invoked",
+        "As a descriptor, this gets called whenever this is used to wrap a",
+        "function, and simply binds it to the instance"
+    ],
+    "docstrings": [
+        "\"\"\"\nA set of miscellaneous routines that don't really fit anywhere more specific.\n\nRoutines\n========\n\n.. autosummary::\n    :toctree: generated/\n\n    vectorize\n\"\"\"",
+        "\"\"\"An improved vectorization decorator.\n\n    Unlike the :class:`np.vectorize` decorator this version works on methods in\n    addition to functions. It also gives an actual scalar value back for any\n    scalar input, instead of returning a 0-dimension array.\n\n    Parameters\n    ----------\n    **kwargs\n        Any keyword arguments accepted by :class:`np.vectorize`\n\n    Returns\n    -------\n    vectorized_function : func\n    \"\"\""
+    ],
+    "functions": [
+        "vectorize",
+        "__call__",
+        "__get__"
+    ],
+    "classes": [
+        "_vectorize_desc"
+    ]
+}

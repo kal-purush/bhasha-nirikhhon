@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "retrieve",
+        "store",
+        "fire",
+        "retrieve",
+        "loggedIn",
+        "user",
+        "store",
+        "loggedIn",
+        "loggedIn",
+        "user",
+        "store",
+        "user",
+        "store",
+        "user",
+        "fire",
+        "user",
+        "loggedIn",
+        "fire"
+    ],
+    "literals": [
+        "'phovea_core/src/session'",
+        "'phovea_core/src/event'",
+        "'logged_in'",
+        "string",
+        "'logged_in'",
+        "'username'",
+        "'user'",
+        "'USER_LOGGED_IN'",
+        "'USER_LOGGED_OUT'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* provides a template wrapper around an application for including CLUE. Includes the common frame for switching modes, provenance, and story visualizations\n *\n * Created by Samuel Gratzl on 27.08.2015."
+    ],
+    "functions": [
+        "isLoggedIn",
+        "setLoggedIn"
+    ],
+    "classes": []
+}

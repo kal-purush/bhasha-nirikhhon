@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Runtime",
+        "Loader",
+        "Threading",
+        "Worker1",
+        "args",
+        "ProcessSignalWaiter",
+        "processSignalWaiter",
+        "GetToken",
+        "token",
+        "IsCancellationRequested",
+        "WriteLine",
+        "Sleep",
+        "processSignalWaiter",
+        "Complete",
+        "WriteLine",
+        "CancellationTokenSource",
+        "ManualResetEventSlim",
+        "AssemblyLoadContext",
+        "Default",
+        "Unloading",
+        "cancelTokenSource",
+        "Cancel",
+        "ended",
+        "Wait",
+        "Sleep",
+        "cancelTokenSource",
+        "Token",
+        "ended"
+    ],
+    "literals": [
+        "\"A message from worker1.\"",
+        "\"Worker exited.\""
+    ],
+    "variables": [
+        "processSignalWaiter",
+        "token",
+        "CancellationTokenSource",
+        "cancelTokenSource",
+        "ManualResetEventSlim",
+        "ended"
+    ],
+    "comments": [
+        "loop to do actual work",
+        "signal that work is complete",
+        "Console.WriteLine(\"Process exit is fired.\");",
+        "Console.WriteLine(\"Process is exiting.\");",
+        "Console.WriteLine(\"Process complete is called.\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Main",
+        "ProcessSignalWaiter",
+        "CancellationToken",
+        "GetToken",
+        "Complete"
+    ],
+    "classes": [
+        "Program",
+        "ProcessSignalWaiter"
+    ]
+}

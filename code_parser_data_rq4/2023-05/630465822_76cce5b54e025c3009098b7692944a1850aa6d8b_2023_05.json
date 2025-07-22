@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "StateCreator",
+        "allowanceStatusType",
+        "staderCommand",
+        "createAllowanceSlice",
+        "staderCommand"
+    ],
+    "literals": [
+        "\"zustand\"",
+        "\"../../types\"",
+        "\"../staderDaemon\"",
+        "\"\"",
+        "\"deposit-sd-allowance\""
+    ],
+    "variables": [
+        "createAllowanceSlice"
+    ],
+    "comments": [
+        "staderCommand(`node deposit-sd-allowance`).then((data: any) => {",
+        "if (data.status === \"error\") {",
+        "setFeedback(data.error);",
+        "} else {",
+        "const allowance: bigint = BigInt(data.allowance)",
+        "if (allowance > 0) {",
+        "setSdApproveButtonDisabled(true);",
+        "setSdAllowanceOK(true);",
+        "} else {",
+        "setSdApproveButtonDisabled(false);",
+        "setSdAllowanceOK(false);",
+        "}",
+        "}",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

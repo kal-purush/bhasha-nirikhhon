@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "ackage gamestudio;\n\nimport gamestudio.game.core.Boxes;\nimport gamestudio.game.core.Field;\nimport gamestudio.game.consoleui.ConsoleUI;\nimport gamestudio.service.CommentServiceJDBC;\nimport gamestudio.service.RatingServiceJDBC;\nimport gamestudio.service.ScoreServiceJDBC;\n\npublic class Main {\n    public static void main(String[] args) {\n        Boxes boxes = new Boxes();\n        boxes.UpdateBoxes();\n\n\n        Field field = new Field(boxes);\n\n\n        ConsoleUI ui = new ConsoleUI(field,new ScoreServiceJDBC(),new RatingServiceJDBC(), new CommentServiceJDBC());\n\n        ui.Play(field, boxes);\n        // boxes.getPrintingField();\n    }\n}"
+    ],
+    "functions": [],
+    "classes": []
+}

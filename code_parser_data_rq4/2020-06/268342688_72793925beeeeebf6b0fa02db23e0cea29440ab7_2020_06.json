@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "entries",
+        "entries",
+        "entry",
+        "animateCSS",
+        "entry",
+        "IntersectionObserver",
+        "callback",
+        "targets",
+        "target",
+        "observer",
+        "target",
+        "animateCSS",
+        "element",
+        "animation",
+        "prefix",
+        "resolve",
+        "reject",
+        "prefix",
+        "animation",
+        "node",
+        "node",
+        "prefix",
+        "animationName",
+        "node",
+        "handleAnimationEnd",
+        "resolve",
+        "node",
+        "handleAnimationEnd"
+    ],
+    "literals": [
+        "'fadeInUp'",
+        "\".show-on-scroll\"",
+        "'animate__'",
+        "${prefix}${animation}",
+        "'show-on-scroll'",
+        "${prefix}animated",
+        "'animationend'",
+        "'Animation ended'",
+        "'animationend'"
+    ],
+    "variables": [
+        "callback",
+        "observer",
+        "targets",
+        "animateCSS",
+        "animationName",
+        "node",
+        "element"
+    ],
+    "comments": [
+        "We create a Promise and return it",
+        "const node = document.querySelector(element);",
+        "When the animation ends, we clean the classes and resolve the Promise",
+        "node.classList.remove(`${prefix}animated`, animationName);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handleAnimationEnd"
+    ],
+    "classes": []
+}

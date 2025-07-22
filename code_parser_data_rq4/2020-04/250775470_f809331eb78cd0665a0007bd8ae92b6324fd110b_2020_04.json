@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "ChangeDetectionStrategy",
+        "Component",
+        "EventEmitter",
+        "Input",
+        "Output",
+        "HelpRequest",
+        "User",
+        "Component",
+        "ChangeDetectionStrategy",
+        "Input",
+        "Input",
+        "Output",
+        "EventEmitter",
+        "Output",
+        "EventEmitter",
+        "Output",
+        "EventEmitter",
+        "user",
+        "user"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../../../../../shared/model/help-request.model'",
+        "'../../../../../shared/model/user.model'",
+        "'app-smart-help-request-detail-action-bar'",
+        "<div class=\"container text-center mt-3 mb-3\" *ngIf=\"isParticipant(); else participantContainer\">\n          <div class=\"row pt-2 centered\">\n              <div class=\"col-6\">\n                  <button class=\"btn btn-lg btn-primary\" (click)=\"volunteer.emit()\">Ofera-te ca voluntar</button>\n              </div>\n          </div>\n      </div>\n      <ng-template #participantContainer>\n          <div class=\"container text-center mt-3 mb-3\">\n              <div class=\"row pt-2 centered\">\n                  <button class=\"col-6 btn btn-lg btn-danger\" (click)=\"removeParticipation.emit()\">Retrage-te din lista\n                      de\n                      voluntari\n                  </button>\n              </div>\n              <div class=\"row pt-2 centered\">\n                  <button class=\"col-6 btn btn-lg btn-success\" (click)=\"markAsDone.emit(helpRequest.id)\">Marcheaza fapta\n                      ca\n                      rezolvata\n                  </button>\n              </div>\n          </div>\n      </ng-template>",
+        "'./smart-help-request-detail-action-bar.component.scss'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "isParticipant"
+    ],
+    "classes": [
+        "SmartHelpRequestDetailActionBarComponent"
+    ]
+}

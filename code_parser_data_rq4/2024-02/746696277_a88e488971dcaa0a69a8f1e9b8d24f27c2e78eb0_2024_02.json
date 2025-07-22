@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "text",
+        "color",
+        "color",
+        "text",
+        "Colors",
+        "RESET",
+        "args",
+        "kwargs",
+        "join",
+        "args",
+        "Colors",
+        "GREEN",
+        "args_string",
+        "Colors",
+        "RESET",
+        "args",
+        "kwargs",
+        "join",
+        "args",
+        "Colors",
+        "RED",
+        "args_string",
+        "Colors",
+        "RESET",
+        "args",
+        "kwargs",
+        "join",
+        "args",
+        "Colors",
+        "YELLOW",
+        "args_string",
+        "Colors",
+        "RESET"
+    ],
+    "literals": [
+        "\"\\033[0m\"",
+        "\"\\033[31m\"",
+        "\"\\033[32m\"",
+        "\"\\033[33m\"",
+        "\"\\033[34m\"",
+        "\"\\033[35m\"",
+        "\"\\033[36m\"",
+        "\"\\033[37m\"",
+        "f\"{color}{text}{Colors.RESET}\"",
+        "' '",
+        "f\"{Colors.GREEN}{args_string}{Colors.RESET}\"",
+        "' '",
+        "f\"{Colors.RED}{args_string}{Colors.RESET}\"",
+        "' '",
+        "f\"{Colors.YELLOW}{args_string}{Colors.RESET}\""
+    ],
+    "variables": [
+        "RESET",
+        "RED",
+        "GREEN",
+        "YELLOW",
+        "BLUE",
+        "MAGENTA",
+        "CYAN",
+        "WHITE",
+        "args_string",
+        "args_string",
+        "args_string"
+    ],
+    "comments": [
+        "Function to print colored text"
+    ],
+    "docstrings": [],
+    "functions": [
+        "print_colored_text",
+        "print_log",
+        "print_error",
+        "print_warning"
+    ],
+    "classes": [
+        "Colors"
+    ]
+}

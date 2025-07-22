@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "Modal",
+        "dialogElementId",
+        "overlayElementId",
+        "options",
+        "dialogElementId",
+        "overlayElementId",
+        "options",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "top",
+        "$",
+        "$dialogElement",
+        "left",
+        "$",
+        "$dialogElement",
+        "$dialogElement",
+        "top",
+        "$",
+        "left",
+        "$"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"overlay\"",
+        "#${this.dialogElementId}",
+        "\"z-index\"",
+        "\"position\"",
+        "\"absolute\"",
+        "#${this.overlayElementId}",
+        "\"z-index\"",
+        "\"background-color\"",
+        "\"#000\"",
+        "\"opacity\"",
+        "\"position\"",
+        "\"absolute\"",
+        "\"top\"",
+        "\"left\"",
+        "\"width\"",
+        "\"100%\"",
+        "\"height\"",
+        "#${this.dialogElementId}",
+        "#${this.overlayElementId}",
+        "#${this.dialogElementId}"
+    ],
+    "variables": [
+        "top",
+        "left",
+        "$dialogElement"
+    ],
+    "comments": [
+        "<reference path=\"../../../scripts/typings/jquery/jquery.d.ts\" />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Open",
+        "Close",
+        "Center"
+    ],
+    "classes": [
+        "Dialog"
+    ]
+}

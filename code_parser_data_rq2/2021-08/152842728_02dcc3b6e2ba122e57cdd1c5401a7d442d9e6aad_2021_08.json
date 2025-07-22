@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "args",
+        "obj",
+        "obj",
+        "obj",
+        "obj",
+        "isInstanceOf",
+        "obj",
+        "obj",
+        "args",
+        "args"
+    ],
+    "literals": [
+        "\"object\""
+    ],
+    "variables": [],
+    "comments": [
+        "---------------------------------------------------------------------------------------------\n* Copyright (c) Bentley Systems, Incorporated. All rights reserved.\n* See LICENSE.md in the project root for license terms and full copyright notice.\n*--------------------------------------------------------------------------------------------",
+        "@packageDocumentation\n * @module Utils",
+        "The inverse of TypeScript's Readonly<T> type, producing a type that has all the properties of `T` with any `readonly` modifiers removed.\n * @public",
+        "Generically represents a class `T`, for use in type annotations.\n * @note A variable of type `Constructor<T>` matches a class `T` only if `T` has a **public** constructor.\n * @see [[asInstanceOf]] to attempt to cast an arbitrary value to class `T`.\n * @see [[isInstanceOf]] to determine if an arbitrary value is an instance of class `T`.\n * @public",
+        "Returns true if `obj` is an object of class `T`.\n * @see [[asInstanceOf]] to cast `obj` to class `T`.\n * @public",
+        "Cast `obj` to an instance of class `T`, or return undefined if `obj` is not an instance of class `T`.\n * @see [[isInstanceOf]] to query whether `obj` is of class `T`.\n * @public",
+        "Extracts the names of all public properties of `T` that are not of type `function`.\n * This includes properties defined using `get` syntax. Care should be used when using this type in conjunction with\n * the object spread (`...`) operator, because the spread operator omits properties defined using `get` syntax and, therefore,\n * so too does the type that TypeScript infers from that operator.\n * `get` syntax. For example:\n * ```ts\n *  class Thing {\n *     private _a = \"a\"; // a private variable\n *     public b = \"b\"; // a public variable\n *     public get c() { return \"c\"; } // a public property\n *     public d() { return \"d\"; } // a public method\n *     public e = () => \"e\"; // a public variable of type `function`\n *  }\n *\n *  // The following can have the values \"b\" or \"c\" - those are the public, non-function properties of Thing.\n *  let nonFunctionProperty: NonFunctionPropertyNamesOf<Thing> = \"c\";\n *\n *  // The following produces an error: \"Property 'c' is missing in type '{ b: string; e: () => string; }' but required in type 'NonFunctionPropertiesOf<Thing>'\"\n *  const thing1 = new Thing();\n *  const thing2: NonFunctionPropertiesOf<Thing> = { ...thing1 };\n * ```\n * @see [[NonFunctionPropertiesOf]] to obtain a type that includes only these properties.\n * @public",
+        "Produces a type consisting of all of the public properties of `T` except for those of type `function`.\n * @see [[NonFunctionPropertyNamesOf]] for potential pitfalls when used in conjunction with the object spread operator.\n * @public",
+        "Any function returning a Promise.\n * @see [[AsyncMethodsOf]] to extract all async methods from a type.\n * @see [[PromiseReturnType]] to extract the type to which the Promise resolves.\n * @public",
+        "Extracts the names of all function properties of `T` that return a Promise.\n * @public",
+        "Extracts the type to which the Promise returned by an async function resolves.\n * @public"
+    ],
+    "docstrings": [],
+    "functions": [
+        "isInstanceOf",
+        "asInstanceOf"
+    ],
+    "classes": []
+}

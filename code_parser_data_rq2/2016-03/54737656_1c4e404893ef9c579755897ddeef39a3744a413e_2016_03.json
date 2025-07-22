@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "MealListComponent",
+        "Meal",
+        "Component",
+        "MealListComponent",
+        "clickedMeal",
+        "clickedMeal"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./meal-list.component'",
+        "'./meal.model'",
+        "'my-app'",
+        "<div class=\"container\">\n    <h1>Today's Meals:</h1>\n    <meal-list\n      [mealList]=\"meals\"\n      (onMealSelect)=\"mealWasSelected($event)\">\n    </meal-list>\n  </div>",
+        "\"parent\""
+    ],
+    "variables": [],
+    "comments": [
+        "trunk view \"decorator\"//",
+        "trunk controller//"
+    ],
+    "docstrings": [],
+    "functions": [
+        "mealWasSelected"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

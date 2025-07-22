@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "trySafe",
+        "useCallback",
+        "useContext",
+        "useMemo",
+        "z",
+        "TenantsContext",
+        "useMeCustomData",
+        "useUserDefaultTenantId",
+        "useMeCustomData",
+        "useContext",
+        "TenantsContext",
+        "useMemo",
+        "trySafe",
+        "z",
+        "key",
+        "z",
+        "data",
+        "key",
+        "storedId",
+        "tenants",
+        "id",
+        "storedId",
+        "storedId",
+        "tenants",
+        "data",
+        "tenants",
+        "useCallback",
+        "currentTenantId",
+        "defaultTenantId",
+        "updateMeCustomData",
+        "key",
+        "currentTenantId",
+        "currentTenantId",
+        "defaultTenantId",
+        "updateMeCustomData",
+        "useUserDefaultTenantId"
+    ],
+    "literals": [
+        "'@silverhand/essentials'",
+        "'react'",
+        "'zod'",
+        "'@/contexts/TenantsProvider'",
+        "'./use-me-custom-data'",
+        "'defaultTenantId'"
+    ],
+    "variables": [
+        "key",
+        "useUserDefaultTenantId",
+        "updateMeCustomData",
+        "defaultTenantId",
+        "storedId",
+        "updateIfNeeded"
+    ],
+    "comments": [
+        "Ensure the stored ID is still available to the user.",
+        "Fall back to the first tenant ID."
+    ],
+    "docstrings": [
+        "* A hook that gets the default tenant ID for the current user from user's `customData`.\n *\n * - By default, the default tenant ID is empty, which means the first tenant is the default tenant.\n * - If the default tenant ID is not available to the user anymore, it semantically equals to the first tenant ID.\n * - If the user manually navigates to a tenant, the default tenant ID will be set to the target tenant ID.",
+        "* Update the default tenant ID to the current tenant ID if:\n     *\n     * 1. The current tenant ID is not empty.\n     * 2. The default tenant ID does not equal to the current tenant ID."
+    ],
+    "functions": [],
+    "classes": []
+}

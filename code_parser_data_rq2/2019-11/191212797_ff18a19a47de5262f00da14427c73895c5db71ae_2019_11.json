@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "Messages",
+        "Messages",
+        "__dirname",
+        "key",
+        "tokens",
+        "key",
+        "tokens",
+        "descriptionKey",
+        "isLightningBundle",
+        "tokens",
+        "extra",
+        "descriptionKey",
+        "tokens",
+        "isLightningBundle",
+        "extra",
+        "examples",
+        "isLightningBundle",
+        "extra",
+        "isLightningBundle",
+        "extra",
+        "examples",
+        "acc",
+        "current",
+        "acc",
+        "current",
+        "Messages",
+        "isLightning",
+        "isLightning",
+        "MessageUtil"
+    ],
+    "literals": [
+        "'@salesforce/core'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'\\n'",
+        "''",
+        "string",
+        "string",
+        "string",
+        "''",
+        "'HelpExamplesTitle'",
+        "${current}\\n",
+        "''",
+        "'salesforcedx-templates'",
+        "'messages'",
+        "string",
+        "'HelpDefaults'",
+        "'HelpOutputDirRelative'",
+        "'HelpOutputDirRelativeLightning'",
+        "''"
+    ],
+    "variables": [],
+    "comments": [
+        "TODO: Update util when sfdxdocgen is updated to support oclif"
+    ],
+    "docstrings": [
+        "* Copyright (c) 2019, salesforce.com, inc.\n * All rights reserved.\n * Licensed under the BSD 3-Clause license.\n * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause",
+        "* Get the message for a given key\n   * @param key The key of the message\n   * @param tokens The values to substitute in the message",
+        "* Get the description used in the --help output for the command\n   * @param descriptionKey The message key for the description text\n   * @param isLightningBundle If the command is for a lightning bundle\n   * @param tokens The values to substitute in the message\n   * @param extra Extra text to append to the description at the end",
+        "* Get the help text displayed in site documentation for the command\n   *\n   * **USE `buildDescription` FOR SETTING THE `description` PROPERTY OF\n   * A COMMAND. THIS IS EXCLUSIVELY USED TO SET THE `help` PROPERTY ON THE COMMAND FOR\n   * DOC GENERATING PURPOSES AND IS NOT SHOWN IN THE --help OUTPUT.**\n   * @param examples Example uses of the command\n   * @param isLightningBundle If the command is for a lightning bundle\n   * @param extra Extra text to append to the help message before the examples"
+    ],
+    "functions": [
+        "get",
+        "buildDescription",
+        "buildHelpText",
+        "getHelpHead"
+    ],
+    "classes": [
+        "MessageUtil"
+    ]
+}

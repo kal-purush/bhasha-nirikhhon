@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "require",
+        "req",
+        "res",
+        "req",
+        "res",
+        "req",
+        "nombre",
+        "email",
+        "mensaje",
+        "res",
+        "nodemailer",
+        "transporter",
+        "email",
+        "nombre",
+        "email",
+        "mensaje",
+        "res",
+        "error",
+        "error",
+        "res"
+    ],
+    "literals": [
+        "'nodemailer'",
+        "'POST'",
+        "'Método no permitido'",
+        "'Faltan campos requeridos'",
+        "'gmail'",
+        "'TUCORREO@gmail.com'",
+        "'TU_CONTRASEÑA_APP'",
+        "\"Contacto desde web\" <${email}>",
+        "'ariel.barrozo@gmail.com'",
+        "'barrozo.ariel@inta.gob.ar'",
+        "'Mensaje del formulario de contacto en la web por Ariel B.'",
+        "Nombre: ${nombre}\\nEmail: ${email}\\nMensaje: ${mensaje}",
+        "'Correo enviado correctamente'",
+        "'Error al enviar correo:'",
+        "'Error al enviar el correo'"
+    ],
+    "variables": [
+        "nodemailer",
+        "transporter"
+    ],
+    "comments": [
+        "Transporter con una cuenta Gmail de prueba",
+        "Cambia esto por tu correo Gmail",
+        "Usá una contraseña de aplicación",
+        "Receptor (puede ser el mismo)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

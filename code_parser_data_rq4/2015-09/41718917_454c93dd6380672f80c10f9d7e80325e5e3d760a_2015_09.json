@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "java",
+        "util",
+        "Type",
+        "ADD",
+        "DELETE",
+        "VIEW",
+        "EXIT",
+        "INVALID",
+        "taskInput",
+        "taskTitle",
+        "taskLabel",
+        "taskDetail",
+        "taskTime",
+        "setTaskInput",
+        "taskTitle",
+        "taskLabel",
+        "taskDetail",
+        "taskTime",
+        "taskInput",
+        "taskInput",
+        "taskInput",
+        "taskInput",
+        "taskTitle",
+        "taskTitle",
+        "taskTitle",
+        "taskLabel",
+        "taskLabel",
+        "taskLabel",
+        "taskDetail",
+        "taskDetail",
+        "taskDetail",
+        "taskTime",
+        "taskTime",
+        "taskTime"
+    ],
+    "literals": [],
+    "variables": [
+        "type",
+        "taskInput",
+        "taskTitle",
+        "taskLabel",
+        "taskDetail",
+        "taskTime"
+    ],
+    "comments": [
+        "================================================================",
+        "\"Add\" command methods",
+        "================================================================",
+        "================================================================",
+        "TO DO: \"Delete\" command methods",
+        "================================================================",
+        "================================================================",
+        "TO DO: \"View\" command methods",
+        "================================================================"
+    ],
+    "docstrings": [
+        "* Command is a class that contains all the required information for Logic to\n * execute it. It is created by CommandParser's parse method.\n * \n * @author Bobby Lin\n *"
+    ],
+    "functions": [
+        "Command",
+        "Type",
+        "getCommandType",
+        "getTaskTitle",
+        "getTaskLabel",
+        "getTaskDetail",
+        "getTaskTime",
+        "getTaskInput",
+        "setTaskInput",
+        "setTaskTitle",
+        "setTaskLabel",
+        "setTaskDetail",
+        "setTaskTime"
+    ],
+    "classes": [
+        "Command"
+    ]
+}

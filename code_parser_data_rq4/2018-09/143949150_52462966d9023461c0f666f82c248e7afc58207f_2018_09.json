@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "TSE",
+        "json",
+        "json",
+        "json",
+        "json",
+        "json",
+        "json",
+        "KeyboardMovementBehaviorData",
+        "data",
+        "json",
+        "KeyboardMovementBehavior",
+        "data",
+        "BaseBehavior",
+        "data",
+        "data",
+        "data",
+        "time",
+        "InputManager",
+        "Keys",
+        "InputManager",
+        "Keys",
+        "InputManager",
+        "Keys",
+        "InputManager",
+        "Keys",
+        "time",
+        "BehaviorManager",
+        "KeyboardMovementBehaviorBuilder"
+    ],
+    "literals": [
+        "string",
+        "\"Name must be defined in behavior data.\"",
+        "string",
+        "\"keyboardMovement\""
+    ],
+    "variables": [
+        "data"
+    ],
+    "comments": [
+        "<reference path=\"basebehavior.ts\" />",
+        "<reference path=\"behaviormanager.ts\" />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setFromJson",
+        "buildFromJson",
+        "update"
+    ],
+    "classes": [
+        "KeyboardMovementBehaviorData",
+        "KeyboardMovementBehaviorBuilder",
+        "KeyboardMovementBehavior"
+    ]
+}

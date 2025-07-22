@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "EventConnectionPoint",
+        "EventConnectionPointType",
+        "ACCEPTED_TOUCH_EVENT_TYPES",
+        "BaseNodeType",
+        "NodeParamsConfig",
+        "ParamConfig",
+        "TypedInputEventNode",
+        "EVENT_PARAM_OPTIONS",
+        "EventContext",
+        "NodeParamsConfig",
+        "ParamConfig",
+        "node",
+        "TouchEventNode",
+        "node",
+        "ParamConfig",
+        "EVENT_PARAM_OPTIONS",
+        "ParamConfig",
+        "EVENT_PARAM_OPTIONS",
+        "ParamConfig",
+        "EVENT_PARAM_OPTIONS",
+        "TouchEventParamsConfig",
+        "TypedInputEventNode",
+        "ParamsConfig",
+        "ACCEPTED_TOUCH_EVENT_TYPES",
+        "n",
+        "n",
+        "ACCEPTED_TOUCH_EVENT_TYPES",
+        "event_type",
+        "EventConnectionPoint",
+        "event_type",
+        "EventConnectionPointType",
+        "p",
+        "p",
+        "p",
+        "v",
+        "v",
+        "event_context",
+        "event_context",
+        "event_context",
+        "event_context"
+    ],
+    "literals": [
+        "'../utils/io/connections/Event'",
+        "'../../scene/utils/events/TouchEventsController'",
+        "'../_Base'",
+        "'../utils/params/ParamsConfig'",
+        "'./_BaseInput'",
+        "'../../scene/utils/events/_BaseEventsController'",
+        "'touch'",
+        "${n}",
+        "'params_label'",
+        "', '"
+    ],
+    "variables": [
+        "ParamsConfig"
+    ],
+    "comments": [
+        "@param toggle on to allow any event to be listened to",
+        "@param toggle on to listen to touchstart events",
+        "@param toggle on to listen to touchmove events",
+        "@param toggle on to listen to touchend events"
+    ],
+    "docstrings": [
+        "* Allows to trigger touch events.\n *\n *"
+    ],
+    "functions": [
+        "acceptedEventTypes",
+        "initializeNode",
+        "processEvent"
+    ],
+    "classes": [
+        "TouchEventParamsConfig",
+        "TouchEventNode"
+    ]
+}

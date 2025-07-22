@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "LinkPreview",
+        "logger",
+        "imageProbe",
+        "getUrlFavicon",
+        "getDomain",
+        "generateImageUrlPreview",
+        "url",
+        "getUrlFavicon",
+        "getWebsiteUrl",
+        "url",
+        "getDomain",
+        "url",
+        "url",
+        "imageProbe",
+        "url",
+        "url",
+        "error",
+        "logger",
+        "error",
+        "getWebsiteUrl",
+        "url",
+        "URL",
+        "url",
+        "urlObj",
+        "urlObj"
+    ],
+    "literals": [
+        "\"../../../types\"",
+        "\"../../../../../core/platform/framework\"",
+        "\"probe-image-size\"",
+        "\"../../../utils\"",
+        "string",
+        "\"/\"",
+        "failed to generate image url preview: ${error}",
+        "string",
+        "${urlObj.protocol}//${urlObj.hostname}"
+    ],
+    "variables": [
+        "generateImageUrlPreview",
+        "favicon",
+        "domain",
+        "title",
+        "img_height",
+        "img_width",
+        "getWebsiteUrl",
+        "urlObj"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Generate a preview for a given image url.\n *\n * @param {String} url - the input url\n * @returns {Promise<LinkPreview>} - resolves when the preview is generated"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "process",
+        "process",
+        "process",
+        "axios",
+        "config",
+        "response",
+        "response",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'axios'",
+        "'dotenv'",
+        "'get'",
+        "https://api.trello.com/1/boards/${process.env.BOARD_ID}/lists?key=${process.env.API_KEY}&token=${process.env.API_TOKEN}",
+        "Name: ${list.name}\\t| ID: ${list.id}"
+    ],
+    "variables": [
+        "axios",
+        "config"
+    ],
+    "comments": [
+        "process.env[\"NODE_TLS_REJECT_UNAUTHORIZED\"] = '0';"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

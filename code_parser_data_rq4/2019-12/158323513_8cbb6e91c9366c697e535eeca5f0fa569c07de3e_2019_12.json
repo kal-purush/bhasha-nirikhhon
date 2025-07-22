@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "validateSchema",
+        "makeExecutableSchema",
+        "applyConnectionTransform",
+        "connectionDirectiveDeclaration",
+        "booleanLiteral",
+        "test",
+        "connectionDirectiveDeclaration",
+        "applyConnectionTransform",
+        "expect",
+        "newTypeDefs",
+        "makeExecutableSchema",
+        "validateSchema",
+        "finalSchema",
+        "expect",
+        "errors"
+    ],
+    "literals": [
+        "'graphql'",
+        "'graphql-tools'",
+        "'../src'",
+        "'@babel/types'",
+        "'cacheControl test'",
+        "${connectionDirectiveDeclaration}\n    directive @sql on FIELD_DEFINITION\n    directive @cacheControl (\n      maxAge: Int\n      scope: CacheControlScope\n    ) on FIELD_DEFINITION | OBJECT | INTERFACE\n    enum CacheControlScope {\n      PUBLIC\n      PRIVATE\n    }\n\n    type User {\n      userId: Int\n      smallPosts: Post @connection @cacheControl(maxAge: 10)\n      posts: [Post!]! @sql @connection\n      bigPosts: [Post!]! @connection @sql\n      multilinePosts(\n        myArg: String\n      ): Post @connection @cacheControl(maxAge: 0)\n      inlinePosts(myArg: String): Post @connection\n      # ignoredPost: Post @connection\n    }\n\n    type Post @cacheControl(maxAge: 20) {\n      postId: Int\n    }\n\n    type Query {\n      user: User\n    }",
+        "'type PageInfo {\\n  hasNextPage: Boolean!\\n  hasPreviousPage: Boolean!\\n  startCursor: String\\n  endCursor: String\\n}\\n\\ntype PostEdge @cacheControl(maxAge: 10) {\\n  cursor: String!\\n  node: Post\\n}\\n\\ntype PostConnection {\\n  totalCount: Int!\\n  edges: [PostEdge] @cacheControl(maxAge: 10)\\n  pageInfo: PageInfo! @cacheControl(maxAge: 10)\\n}\\n\\ndirective @connection on FIELD_DEFINITION\\n\\ndirective @sql on FIELD_DEFINITION\\n\\ndirective @cacheControl(maxAge: Int, scope: CacheControlScope) on FIELD_DEFINITION | OBJECT | INTERFACE\\n\\nenum CacheControlScope {\\n  PUBLIC\\n  PRIVATE\\n}\\n\\ntype User {\\n  userId: Int\\n  smallPosts(after: String, first: Int, before: String, last: Int): PostConnection @cacheControl(maxAge: 10)\\n  posts(after: String, first: Int, before: String, last: Int): PostConnection @sql\\n  bigPosts(after: String, first: Int, before: String, last: Int): PostConnection @sql\\n  multilinePosts(myArg: String, after: String, first: Int, before: String, last: Int): PostConnection @cacheControl(maxAge: 0)\\n  inlinePosts(myArg: String, after: String, first: Int, before: String, last: Int): PostConnection\\n}\\n\\ntype Post @cacheControl(maxAge: 20) {\\n  postId: Int\\n}\\n\\ntype Query {\\n  user: User\\n}\\n'"
+    ],
+    "variables": [
+        "typeDefs",
+        "newTypeDefs",
+        "finalSchema",
+        "errors"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "IsLowerCase",
+        "IsNumeric",
+        "IsUpperCase",
+        "WordSeparators"
+    ],
+    "literals": [
+        "'./internal'",
+        "string",
+        "''",
+        "string",
+        "string",
+        "string",
+        "string",
+        "''",
+        "string",
+        "''",
+        "''"
+    ],
+    "variables": [],
+    "comments": [
+        "Split a string (almost) like Lodash's `_.words()` function.\n\n- Split on each word that begins with a capital letter.\n- Split on each {@link WordSeparators}.\n- Split on numeric sequence.\n\n@example\n```\ntype Words0 = SplitWords<'helloWorld'>; // ['hello', 'World']\ntype Words1 = SplitWords<'helloWORLD'>; // ['hello', 'WORLD']\ntype Words2 = SplitWords<'hello-world'>; // ['hello', 'world']\ntype Words3 = SplitWords<'--hello the_world'>; // ['hello', 'the', 'world']\ntype Words4 = SplitWords<'lifeIs42'>; // ['life', 'Is', '42']\n```\n\n@internal\n@category Change case\n@category Template literal",
+        "Skip word separator",
+        "Fist char of word",
+        "Case change: non-numeric to numeric, push word",
+        "Case change: numeric to non-numeric, push word",
+        "No case change: concat word",
+        "Case change: lower to upper, push word",
+        "Case change: upper to lower, brings back the last character, push word",
+        "No case change: concat word"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

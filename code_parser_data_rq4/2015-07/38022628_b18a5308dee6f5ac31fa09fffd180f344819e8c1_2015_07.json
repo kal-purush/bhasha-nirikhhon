@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "RequireComponent",
+        "Collider",
+        "RequireComponent",
+        "NavMeshObstacle",
+        "MonoBehaviour",
+        "id",
+        "_buildingID_",
+        "state",
+        "BuildingState",
+        "SPAWNING",
+        "GetComponent",
+        "Collider",
+        "isTrigger",
+        "BuildingState",
+        "state",
+        "state",
+        "state",
+        "state",
+        "BuildingState",
+        "IDLE",
+        "SwitchToIdle",
+        "BuildingState",
+        "DESTROYING",
+        "SwitchToDestroying",
+        "BuildingState",
+        "CUSTOM",
+        "SwitchToCustom",
+        "BuildingState",
+        "SPAWNING",
+        "IDLE",
+        "DESTROYING",
+        "CUSTOM"
+    ],
+    "literals": [],
+    "variables": [
+        "_buildingID_",
+        "id",
+        "BuildingState",
+        "state"
+    ],
+    "comments": [
+        "Use this for initialization",
+        "Update is called once per frame"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update",
+        "OnSpawning",
+        "OnIdle",
+        "OnDestroy",
+        "OnCustom",
+        "SwitchToState",
+        "SwitchToIdle",
+        "SwitchToDestroying",
+        "SwitchToCustom"
+    ],
+    "classes": [
+        "Building"
+    ]
+}

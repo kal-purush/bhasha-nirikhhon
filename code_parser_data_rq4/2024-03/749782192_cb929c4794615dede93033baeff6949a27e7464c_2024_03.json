@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "IoAdapter",
+        "ServerOptions",
+        "createAdapter",
+        "createClient",
+        "IoAdapter",
+        "createAdapter",
+        "app",
+        "host",
+        "port",
+        "app",
+        "createClient",
+        "pubClient",
+        "pubClient",
+        "subClient",
+        "createAdapter",
+        "pubClient",
+        "subClient",
+        "port",
+        "options",
+        "port",
+        "options",
+        "server",
+        "server"
+    ],
+    "literals": [
+        "'@nestjs/platform-socket.io'",
+        "'socket.io'",
+        "'@socket.io/redis-adapter'",
+        "'redis'",
+        "string",
+        "redis://${this.host}:${this.port}"
+    ],
+    "variables": [
+        "pubClient",
+        "subClient",
+        "server"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "connectToRedis",
+        "createIOServer"
+    ],
+    "classes": [
+        "RedisIoAdapter"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "spyder_kernels",
+        "utils",
+        "misc",
+        "is_module_installed",
+        "modname",
+        "second_level_attrs",
+        "modname",
+        "FakeObject",
+        "second_level_attrs",
+        "attr",
+        "second_level_attrs",
+        "setattr",
+        "__spy_mod__",
+        "attr",
+        "FakeObject",
+        "name",
+        "is_module_installed",
+        "__spy_modname__",
+        "__import__",
+        "__spy_modname__",
+        "__spy_mod__",
+        "getattr",
+        "__spy_mod__",
+        "name",
+        "_LazyModuleLoader",
+        "_LazyModuleLoader",
+        "_LazyModuleLoader",
+        "_LazyModuleLoader",
+        "_LazyModuleLoader"
+    ],
+    "literals": [
+        "'numpy'",
+        "'MaskedArray'",
+        "'pandas'",
+        "'PIL'",
+        "'Image'",
+        "'bs4'",
+        "'NavigableString'",
+        "'scipy.io'"
+    ],
+    "variables": [
+        "__spy_modname__",
+        "__spy_mod__",
+        "__spy_mod__",
+        "numpy",
+        "pandas",
+        "PIL",
+        "bs4",
+        "scipy"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "-----------------------------------------------------------------------------",
+        "Copyright (c) 2009- Spyder Kernels Contributors",
+        "",
+        "Licensed under the terms of the MIT License",
+        "(see spyder_kernels/__init__.py for details)",
+        "-----------------------------------------------------------------------------",
+        "=============================================================================",
+        "Auxiliary classes",
+        "=============================================================================",
+        "Set required second level attributes",
+        "=============================================================================",
+        "Lazy modules",
+        "============================================================================="
+    ],
+    "docstrings": [
+        "\"\"\"\nDelayed modules classes.\n\nThey are useful to not import big modules until it's really necessary.\n\"\"\"",
+        "\"\"\"Fake class used in replacement of missing objects\"\"\"",
+        "\"\"\"Lazy module loader class.\"\"\"",
+        "\"\"\"\n        Lazy module loader class.\n\n        Parameters\n        ----------\n        modname: str\n            Module name to lazy load.\n        second_level_attrs: list (optional)\n            List of second level attributes to add to the FakeObject\n            that stands for the module in case it's not found.\n        \"\"\""
+    ],
+    "functions": [
+        "__getattr__"
+    ],
+    "classes": [
+        "FakeObject",
+        "_LazyModuleLoader"
+    ]
+}

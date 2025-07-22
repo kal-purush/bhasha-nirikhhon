@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "requests",
+        "tqdm",
+        "autonotebook",
+        "tqdm",
+        "logging",
+        "logging",
+        "getLogger",
+        "url",
+        "save_path",
+        "chunk_size",
+        "requests",
+        "get",
+        "url",
+        "stream",
+        "r",
+        "headers",
+        "get",
+        "open",
+        "save_path",
+        "fd",
+        "tqdm",
+        "desc",
+        "save_path",
+        "total",
+        "total",
+        "unit",
+        "unit_scale",
+        "unit_divisor",
+        "chunk_size",
+        "bar",
+        "data",
+        "r",
+        "iter_content",
+        "chunk_size",
+        "chunk_size",
+        "fd",
+        "write",
+        "data",
+        "bar",
+        "update",
+        "size"
+    ],
+    "literals": [
+        "'Content-Length'",
+        "'wb'",
+        "'iB'"
+    ],
+    "variables": [
+        "logger",
+        "r",
+        "total",
+        "size"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Download url with progress bar using tqdm\n    https://stackoverflow.com/questions/15644964/python-progress-bar-and-downloads\n    Args:\n        url (str): downloadable url\n        save_path (str): local path to save the downloaded file\n        chunk_size (int, optional): chunking of files. Defaults to 1024.\n    \"\"\""
+    ],
+    "functions": [
+        "download_url"
+    ],
+    "classes": []
+}

@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "getDockerComposeContents",
+        "describe",
+        "it",
+        "getDockerComposeContents",
+        "expect",
+        "result"
+    ],
+    "literals": [
+        "\"./get-docker-compose-contents\"",
+        "\"getDockerComposeContents\"",
+        "\"should return docker compose contents\"",
+        "\"mock service name\"",
+        "\"postgres\"",
+        "version: '3.9'\nservices:\n  mock service name:\n    container_name: mock service name\n    # command: yarn docker-develop\n    restart: always\n    build: .\n    ports:\n      - \\${PORT}:\\${PORT}\n    env_file:\n      - .env\n    depends_on:\n      - mock service name_postgres\n    volumes:\n      - .:/app\n      - ./src/public:/app/dist/public\n      - ./src:/app/src\n      - ./dist:/app/dist\n\n\n  mock service name_pgadmin:\n    container_name: mock service name_pgadmin\n    restart: always\n    image: dpage/pgadmin4\n    env_file:\n      - .env\n    ports:\n      - \\${PGADMIN_LISTEN_PORT}:\\${PGADMIN_LISTEN_PORT}\n    depends_on:\n      - mock service name_postgres\n\n  mock service name_postgres:\n    container_name: mock service name_postgres\n    image: postgres\n    ports:\n      - \\${DB_PORT}:5432\n    volumes:\n      - mock service name:/data/db_mock service name_postgres\n    environment:\n      - POSTGRES_PASSWORD=\\${DB_PASSWORD}\n      - POSTGRES_DB=\\${DB_NAME}\n\nvolumes:\n  mock service name: {}"
+    ],
+    "variables": [
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

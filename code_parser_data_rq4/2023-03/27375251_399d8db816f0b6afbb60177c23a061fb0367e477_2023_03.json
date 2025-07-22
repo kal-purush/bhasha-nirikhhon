@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Orc",
+        "Controls",
+        "Automation",
+        "Windows",
+        "Windows",
+        "Input",
+        "Orc",
+        "Automation",
+        "NamedAutomationMethodRun",
+        "FrameworkElement",
+        "owner",
+        "AutomationMethod",
+        "method",
+        "AutomationValue",
+        "result",
+        "result",
+        "AutomationValue",
+        "FromValue",
+        "owner",
+        "Controls",
+        "NumericTextBox",
+        "numericTextBox",
+        "numericTextBox",
+        "IsKeyboardFocused",
+        "beenFocused",
+        "numericTextBox",
+        "MoveFocus",
+        "TraversalRequest",
+        "FocusNavigationDirection",
+        "Next",
+        "method",
+        "Parameters",
+        "ExtractValue",
+        "numericTextBox",
+        "SetCurrentValue",
+        "Controls",
+        "NumericTextBox",
+        "ValueProperty",
+        "value",
+        "beenFocused",
+        "Keyboard",
+        "Focus",
+        "numericTextBox"
+    ],
+    "literals": [],
+    "variables": [
+        "beenFocused",
+        "value"
+    ],
+    "comments": [
+        "We should move focus of the control",
+        "TODO:Vladimir:this is actually bug in control, but it prevent us from testing other controls based on this one, so... would be fixed lately"
+    ],
+    "docstrings": [],
+    "functions": [
+        "TryInvoke"
+    ],
+    "classes": [
+        "SetNumericTextBoxValueRun"
+    ]
+}

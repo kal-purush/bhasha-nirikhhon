@@ -1,0 +1,86 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "IO",
+        "Text",
+        "Xml",
+        "iTextSharp",
+        "text",
+        "iTextSharp",
+        "text",
+        "pdf",
+        "Microsoft",
+        "VisualStudio",
+        "TestTools",
+        "UnitTesting",
+        "iTextSharp",
+        "LGPLv2",
+        "Core",
+        "FunctionalTests",
+        "Issues",
+        "TestClass",
+        "TestMethod",
+        "XmlDocument",
+        "xmlDoc",
+        "CreateElement",
+        "xmlDoc",
+        "AppendChild",
+        "form1",
+        "form1",
+        "AppendChild",
+        "xmlDoc",
+        "CreateElement",
+        "form1",
+        "AppendChild",
+        "xmlDoc",
+        "CreateElement",
+        "form1",
+        "AppendChild",
+        "xmlDoc",
+        "CreateElement",
+        "XfaForm",
+        "SerializeDoc",
+        "xmlDoc",
+        "Encoding",
+        "UTF8",
+        "GetString",
+        "text",
+        "IndexOf",
+        "XmlDeclarationFragment",
+        "StringComparison",
+        "InvariantCultureIgnoreCase",
+        "Assert",
+        "IsFalse",
+        "containsXmlDeclaration"
+    ],
+    "literals": [
+        "\"<?xml version=\"",
+        "\"form1\"",
+        "\"subObject\"",
+        "\"subObject\"",
+        "\"subObject\""
+    ],
+    "variables": [
+        "XmlDeclarationFragment",
+        "xmlDoc",
+        "form1",
+        "text",
+        "containsXmlDeclaration"
+    ],
+    "comments": [
+        "https://github.com/VahidN/iTextSharp.LGPLv2.Core/issues/95",
+        "</summary>",
+        "We check for the presence of the \"<?xml ... \" fragment in the serialized document.",
+        "It should not be there, as its presence causes the parsing of the XFA data to fail."
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "Verify_Issue95_XfaForm_SerializeDoc_Does_Not_Add_Xml_Declaration"
+    ],
+    "classes": [
+        "Issue95"
+    ]
+}

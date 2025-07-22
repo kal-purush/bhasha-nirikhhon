@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "useTheme",
+        "useEffect",
+        "useState",
+        "Sun",
+        "Moon",
+        "ThemeSwitcher",
+        "useTheme",
+        "useState",
+        "useEffect",
+        "setMounted",
+        "mounted",
+        "button",
+        "setTheme",
+        "resolvedTheme",
+        "Sun",
+        "resolvedTheme",
+        "Moon",
+        "resolvedTheme",
+        "div",
+        "resolvedTheme",
+        "div",
+        "button",
+        "ThemeSwitcher"
+    ],
+    "literals": [
+        "\"use client\"",
+        "\"next-themes\"",
+        "\"react\"",
+        "\"lucide-react\"",
+        "\"light\"",
+        "\"dark\"",
+        "\"light\"",
+        "\"relative flex items-center w-[48px] h-[24px] px-1 rounded-full cursor-pointer bg-gray-300 dark:bg-gray-700 transition-colors\"",
+        "absolute left-[6px] transition-opacity ${resolvedTheme === \"dark\" ? \"opacity-30\" : \"opacity-100\"}",
+        "\"dark\"",
+        "\"opacity-30\"",
+        "\"opacity-100\"",
+        "absolute right-[6px] transition-opacity ${resolvedTheme === \"dark\" ? \"opacity-100\" : \"opacity-30\"}",
+        "\"dark\"",
+        "\"opacity-100\"",
+        "\"opacity-30\"",
+        "absolute size-[18px] bg-white dark:bg-gray-900 rounded-full shadow-md transition-transform ${resolvedTheme === \"dark\" ? \"translate-x-[22px]\" : \"translate-x-0\"\n                    }",
+        "\"dark\"",
+        "\"translate-x-[22px]\"",
+        "\"translate-x-0\""
+    ],
+    "variables": [
+        "ThemeSwitcher",
+        "mounted",
+        "setMounted"
+    ],
+    "comments": [
+        "Ensures this runs only on the client side",
+        "Ensure the component is mounted before accessing the theme",
+        "Prevents hydration errors"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

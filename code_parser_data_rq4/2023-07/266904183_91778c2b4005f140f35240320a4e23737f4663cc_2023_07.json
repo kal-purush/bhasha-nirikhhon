@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'lastLogin1688034112009'",
+        "ALTER TABLE \"pupil\" ADD \"lastLogin\" TIMESTAMP DEFAULT now()",
+        "ALTER TABLE \"screener\" ADD \"lastLogin\" TIMESTAMP DEFAULT now()",
+        "ALTER TABLE \"student\" ADD \"lastLogin\" TIMESTAMP DEFAULT now()",
+        "ALTER TABLE \"mentor\" ADD \"lastLogin\" TIMESTAMP DEFAULT now()",
+        "ALTER TABLE \"mentor\" DROP COLUMN \"lastLogin\"",
+        "ALTER TABLE \"student\" DROP COLUMN \"lastLogin\"",
+        "ALTER TABLE \"screener\" DROP COLUMN \"lastLogin\"",
+        "ALTER TABLE \"pupil\" DROP COLUMN \"lastLogin\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "lastLogin1688034112009"
+    ]
+}

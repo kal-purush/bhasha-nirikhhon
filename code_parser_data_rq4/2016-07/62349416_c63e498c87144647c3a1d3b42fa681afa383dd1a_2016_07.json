@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Component",
+        "Output",
+        "EventEmitter",
+        "Apollo",
+        "ApolloQuery",
+        "client",
+        "ProductShortComponent",
+        "Product",
+        "InventorySelectQuery",
+        "gql",
+        "Component",
+        "ProductShortComponent",
+        "Apollo",
+        "component",
+        "gql",
+        "Output",
+        "EventEmitter",
+        "Output",
+        "EventEmitter",
+        "product",
+        "product",
+        "product",
+        "product",
+        "product",
+        "product",
+        "product",
+        "i",
+        "i",
+        "product"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'angular2-apollo'",
+        "'../apollo-client-init'",
+        "'../product/product-short.component'",
+        "'./inventory-select.interface'",
+        "'graphql-tag'",
+        "'inventory-select'",
+        "<h3>Selected</h3>\n      <table *ngIf=\"productsSelected.length\">\n        <tr>\n          <th>Name</th>\n          <th>SKU</th>\n          <th>Cost to Manufacture</th>\n          <th>Retail Price</th>\n          <th>Quantity</th>\n          <th></th>\n        </tr>\n        <tr *ngFor=\"let product of productsSelected\">\n          <product-short [sku]=\"product.sku\"></product-short>\n          <th (click)=\"_remove(product)\">Remove</th>\n        </tr>\n      </table>\n      <h3>Available</h3>\n      <table *ngIf=\"!data.loading\">\n        <tr>\n          <th>Name</th>\n          <th>SKU</th>\n          <th>Cost to Manufacture</th>\n          <th>Retail Price</th>\n          <th>Quantity</th>\n          <th></th>\n        </tr>\n        <tr *ngFor=\"let product of data.products\">\n          <product-short [sku]=\"product.sku\"></product-short>\n          <th *ngIf=\"!product.added\" (click)=\"_add(product)\">Add</th>\n        </tr>\n      </table>",
+        "query getInventory {\n          products {\n            sku\n          }\n        }"
+    ],
+    "variables": [
+        "i"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "_add",
+        "_remove"
+    ],
+    "classes": [
+        "InventorySelectComponent"
+    ]
+}

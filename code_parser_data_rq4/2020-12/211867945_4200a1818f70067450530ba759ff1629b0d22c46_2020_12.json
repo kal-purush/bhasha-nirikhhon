@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Blockcore",
+        "Persistence",
+        "Blockcore",
+        "Builder",
+        "IFullNodeBuilder",
+        "builder",
+        "IPersistenceProviderManager",
+        "persistenceProviderManager",
+        "builder",
+        "FullNodeBuilder",
+        "nodeBuilder",
+        "PersistenceProviderManager",
+        "persistenceProviderManager",
+        "builder"
+    ],
+    "literals": [],
+    "variables": [
+        "nodeBuilder"
+    ],
+    "comments": [
+        "A class providing extension methods for <see cref=\"IFullNodeBuilder\"/>.",
+        "</summary>",
+        "Makes the full node builder use specific node settings.",
+        "</summary>",
+        "<param name=\"builder\">Full node builder to which inject persistence provider manager.</param>",
+        "<param name=\"persistenceProviderManager\">The persistence provider manager to use to.</param>",
+        "<returns>Interface to allow fluent code.</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IFullNodeBuilder",
+        "UsePersistenceProviderMananger"
+    ],
+    "classes": [
+        "FullNodeBuilderIPersistenceProviderManagerExtension"
+    ]
+}

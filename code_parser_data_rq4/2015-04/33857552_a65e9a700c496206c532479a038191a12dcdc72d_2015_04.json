@@ -1,0 +1,53 @@
+{
+    "identifiers": [],
+    "literals": [
+        "'\\033[0;37;41m'",
+        "'\\033[0m'",
+        "''",
+        "''",
+        "'filesline'",
+        "'pcolor'",
+        "'fileline'"
+    ],
+    "variables": [
+        "WARNING",
+        "ENDC",
+        "ENDC",
+        "WARNING",
+        "__all__"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "-*- coding: utf-8 -*-",
+        ".---.         .-----------",
+        "/     \\  __  /    ------",
+        "/ /     \\(  )/    -----   (`-')  _ _(`-')              <-. (`-')_",
+        "//////    '\\/ `   ---      ( OO).-/( (OO ).->     .->      \\( OO) )     .->",
+        "//// / //  :   : ---      (,------. \\    .'_ (`-')----. ,--./ ,--/  ,--.'  ,-.",
+        "// /   /  / `\\/ '--         |  .---' '`'-..__)( OO).-. ' |   \\ |  | (`-')'.'  /",
+        "//          //..\\\\          (|  '--.  |  |  ' |( _) | | | |  . '|  |)(OO \\    /",
+        "============UU====UU====      |  .--'  |  |  / : \\|  |)| | |  |\\    |  |  /   /)",
+        "'//||\\\\`          |  `---. |  '-'  /  '  '-' ' |  | \\   |  `-/   /`",
+        "''``            `------' `------'    `-----' `--'  `--'    `--'",
+        "######################################################################################",
+        "",
+        "Author: edony - edonyzpc@gmail.com",
+        "",
+        "twitter : @edonyzpc",
+        "",
+        "Last modified: 2015-04-23 19:47",
+        "",
+        "Filename: __init__.py",
+        "",
+        "Description: All Rights Are Reserved"
+    ],
+    "docstrings": [
+        "''' This class is for colored print in the python interpreter!\n    \"F2\" call Addpy() function to add this class which is defined\n    in the .vimrc for vim Editor.\n    \n    STYLE: \\033['display model';'foreground';'background'm\n    DETAILS:\n    FOREGROUND        BACKGOUND       COLOR\n    ---------------------------------------\n    30                40              black\n    31                41              red\n    32                42              green\n    33                43              yellow\n    34                44              blue\n    35                45              purple\n    36                46              cyan\n    37                47              white\n    DISPLAY MODEL    DETAILS\n    -------------------------\n    0                default\n    1                highlight\n    4                underline\n    5                flicker\n    7                reverse\n    8                non-visiable\n    \n    e.g：\n    \\033[1;31;40m   <!--1-highlight;31-foreground red;40-background black-->\n    \\033[0m         <!--set all into default-->\n    '''"
+    ],
+    "functions": [
+        "disable"
+    ],
+    "classes": [
+        "pcolor"
+    ]
+}

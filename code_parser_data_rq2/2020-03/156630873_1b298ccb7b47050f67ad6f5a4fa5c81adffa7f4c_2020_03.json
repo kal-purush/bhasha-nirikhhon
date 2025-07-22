@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "useState",
+        "useRef",
+        "useEffect",
+        "useEventListener",
+        "isVisibilityStateVisible",
+        "useState",
+        "isVisibilityStateVisible",
+        "useEventListener",
+        "setIsVisible",
+        "isVisibilityStateVisible",
+        "isVisible",
+        "onPoll",
+        "useRef",
+        "useVisibilityChange",
+        "isVisible",
+        "enabled",
+        "useEffect",
+        "savedCallback",
+        "onPoll",
+        "useEffect",
+        "isPolling",
+        "setTimeout",
+        "unscheduleNextPoll",
+        "id",
+        "setTimeout",
+        "poll",
+        "interval",
+        "clearTimeout",
+        "id",
+        "savedCallback",
+        "scheduleNextPoll",
+        "immediate",
+        "poll",
+        "scheduleNextPoll",
+        "unscheduleNextPoll",
+        "interval",
+        "immediate",
+        "isPolling"
+    ],
+    "literals": [
+        "'react'",
+        "'./useEventListener'",
+        "'visible'",
+        "'visibilitychange'"
+    ],
+    "variables": [
+        "isVisibilityStateVisible",
+        "isVisible",
+        "setIsVisible",
+        "savedCallback",
+        "isVisible",
+        "isPolling",
+        "id"
+    ],
+    "comments": [
+        "Using this reflection to get return type of setTimeout so we don't have to",
+        "use window.setTimeout, makes this more cross-environment compatible",
+        "Sourced from: https://stackoverflow.com/a/51040768"
+    ],
+    "docstrings": [
+        "* How frequently should we call the onPoll handler. Defaults to 30 seconds.\n   * @default 30000",
+        "* Should we immediately trigger the onPoll handler.\n   * @default true",
+        "* Should we be polling.\n   * @default true"
+    ],
+    "functions": [
+        "useVisibilityChange",
+        "usePoller",
+        "scheduleNextPoll",
+        "unscheduleNextPoll",
+        "poll"
+    ],
+    "classes": []
+}

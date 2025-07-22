@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "Component",
+        "Collision",
+        "col",
+        "gun",
+        "GetComponentsInChildren",
+        "Rigidbody",
+        "Rigidbody",
+        "thing",
+        "gun",
+        "thing",
+        "isKinematic",
+        "rb",
+        "GetComponent",
+        "Rigidbody",
+        "rb",
+        "isKinematic",
+        "GetComponent",
+        "Transform",
+        "DetachChildren"
+    ],
+    "literals": [],
+    "variables": [
+        "Rigidbody",
+        "rb",
+        "gun"
+    ],
+    "comments": [
+        "if (col.gameObject.name == \"projectile\")",
+        "{",
+        "Destroy(col.gameObject);",
+        "}",
+        "Use this for initialization",
+        "Update is called once per frame"
+    ],
+    "docstrings": [],
+    "functions": [
+        "OnCollisionEnter",
+        "Start",
+        "Update"
+    ],
+    "classes": [
+        "CannonDestroy"
+    ]
+}

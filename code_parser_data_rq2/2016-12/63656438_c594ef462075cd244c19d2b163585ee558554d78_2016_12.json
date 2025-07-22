@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "formData",
+        "data",
+        "data",
+        "$",
+        "$",
+        "alert",
+        "data",
+        "data",
+        "location"
+    ],
+    "literals": [
+        "'#loginForm'",
+        "'submit'",
+        "'user'",
+        "'input[name=user]'",
+        "'password'",
+        "'input[name=password]'",
+        "'POST'",
+        "'LoginServlet'",
+        "'json'",
+        "'Denied'",
+        "'input[name=user]'",
+        "\"\"",
+        "'input[name=password]'",
+        "\"\"",
+        "'OK'",
+        "\"index.jsp\""
+    ],
+    "variables": [
+        "formData"
+    ],
+    "comments": [
+        "get the form data",
+        "there are many ways to get this data using jQuery (you can use the class or id also)",
+        "define the type of HTTP verb we want to use (POST for our form)",
+        "the url where we want to POST",
+        "our data object",
+        "what type of data do we expect back from the server",
+        "using the done promise callback",
+        "here we will handle errors and validation messages",
+        "$('#ErrorMessage').text(data.message);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

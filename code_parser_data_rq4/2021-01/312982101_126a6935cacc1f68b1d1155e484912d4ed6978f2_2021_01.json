@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "Credentials",
+        "Route53",
+        "STS",
+        "AWSLambda",
+        "cfnEventHandler",
+        "resourceProps",
+        "cfnEventHandler",
+        "resourceProps",
+        "props",
+        "isDeleteEvent",
+        "getCrossAccountCredentials",
+        "AssumeRoleArn",
+        "Route53",
+        "route53",
+        "ParentZoneId",
+        "isDeleteEvent",
+        "DelegatedZoneName",
+        "DelegatedZoneNameServers",
+        "ns",
+        "ns",
+        "roleArn",
+        "STS",
+        "sts",
+        "roleArn",
+        "timestamp",
+        "assumedCredentials",
+        "Credentials",
+        "assumedCredentials",
+        "assumedCredentials",
+        "assumedCredentials"
+    ],
+    "literals": [
+        "'aws-sdk'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'Create'",
+        "'Update'",
+        "'Delete'",
+        "'DELETE'",
+        "'UPSERT'",
+        "'NS'",
+        "string",
+        "cross-account-zone-delegation-${timestamp}",
+        "'Error getting assume role credentials'"
+    ],
+    "variables": [
+        "resourceProps",
+        "props",
+        "credentials",
+        "route53",
+        "sts",
+        "timestamp",
+        "assumedCredentials"
+    ],
+    "comments": [
+        "eslint-disable-next-line import/no-extraneous-dependencies"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handler",
+        "cfnEventHandler",
+        "getCrossAccountCredentials"
+    ],
+    "classes": []
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "DecoratorProps",
+        "decoratorconfig",
+        "fodselnr",
+        "enhetnr",
+        "fodselnr",
+        "fodselnr",
+        "enhetnr",
+        "enhetnr",
+        "fnr",
+        "fnr",
+        "enhet",
+        "enhet",
+        "decoratorconfig"
+    ],
+    "literals": [
+        "'@/internflateDekorator/decoratorprops'",
+        "string",
+        "string",
+        "'tiltaksgjennomføring'",
+        "''",
+        "''",
+        "string",
+        "'fnr byttet'",
+        "string",
+        "'enhet byttet'"
+    ],
+    "variables": [
+        "decoratorconfig"
+    ],
+    "comments": [
+        "tslint:disable:no-console",
+        "fnr som blir sendt til context-holder",
+        "enhet som blir sendt til context-holder",
+        "satt true pr default. Vil ikke trigges så lenge gyldig fnr eller enhet er satt.",
+        "callback funksjon. Denne blir kalt av context-holder når fnr har forandret seg",
+        "callback funksjon. Denne blir kalt av context-holder når enhet har forandret seg."
+    ],
+    "docstrings": [],
+    "functions": [
+        "onSok",
+        "onEnhetChange"
+    ],
+    "classes": []
+}

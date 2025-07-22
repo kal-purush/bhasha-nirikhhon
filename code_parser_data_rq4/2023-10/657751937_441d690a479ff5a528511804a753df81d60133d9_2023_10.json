@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "osprey",
+        "client",
+        "all_sources",
+        "osprey",
+        "client",
+        "create_source",
+        "all_sources",
+        "create_source",
+        "name",
+        "name",
+        "url",
+        "url",
+        "name",
+        "url",
+        "all_sources",
+        "exp_resp"
+    ],
+    "literals": [
+        "'test-1'",
+        "'https://dummyjson.com/products/1'",
+        "'description'",
+        "'id'",
+        "'modifier'",
+        "'name'",
+        "'timer'",
+        "'url'",
+        "'verifier'"
+    ],
+    "variables": [
+        "name",
+        "url",
+        "exp_resp"
+    ],
+    "comments": [
+        "when database is not populated, assert empty",
+        "add data and assert that it is not empty"
+    ],
+    "docstrings": [],
+    "functions": [
+        "test_list_sources",
+        "test_create_source",
+        "test_get_file",
+        "test_list_proxies"
+    ],
+    "classes": []
+}

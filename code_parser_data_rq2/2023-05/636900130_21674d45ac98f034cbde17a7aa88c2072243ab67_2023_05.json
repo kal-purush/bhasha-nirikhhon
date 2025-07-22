@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "express",
+        "axios",
+        "express",
+        "app",
+        "express",
+        "app",
+        "req",
+        "res",
+        "req",
+        "beachName",
+        "beachName",
+        "mapbox_token",
+        "url",
+        "axios",
+        "url",
+        "res",
+        "response",
+        "response",
+        "error",
+        "error",
+        "app",
+        "PORT",
+        "PORT"
+    ],
+    "literals": [
+        "'dotenv/config'",
+        "'express'",
+        "'axios'",
+        "'/get/:beachName'",
+        "\"REQ BODY: \"",
+        "'pk.eyJ1IjoianlvanlvIiwiYSI6ImNsaGFvdnRieTBqZmgzcnMwbnZmZzZmcWoifQ.6AksXc5oklL4ZU-MPrkKWw'",
+        "'https://api.mapbox.com/geocoding/v5/mapbox.places/'",
+        "${beachName}",
+        "'.json?access_token='",
+        "${mapbox_token}",
+        "Server listening on port ${PORT}..."
+    ],
+    "variables": [
+        "PORT",
+        "app",
+        "beachName",
+        "mapbox_token",
+        "url",
+        "response"
+    ],
+    "comments": [
+        "receive beach name from POST from React app,",
+        "then send this name to mapbox API which will convert the name to lat/long.",
+        "This lat/long will be a JSON obj and you send this JSON obj back to the React app.",
+        "This API will be public on your github which will be linked to render.com for public use",
+        "GET CONTROLLER     ######################################"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

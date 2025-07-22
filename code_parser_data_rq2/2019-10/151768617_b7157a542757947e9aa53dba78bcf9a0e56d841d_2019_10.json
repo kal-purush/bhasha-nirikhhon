@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "IMessagingService",
+        "FactoryProvider",
+        "AuthService",
+        "AdminMessagingProviderId",
+        "MessagingProviderId",
+        "AbstractMessagingProvider",
+        "AdminService",
+        "AbstractMessagingProvider",
+        "messaging",
+        "adminService",
+        "authService",
+        "messaging",
+        "MessagingProviderId",
+        "AdminService",
+        "AuthService",
+        "AdminMessagingProviderId",
+        "messaging",
+        "adminService",
+        "authService",
+        "AdminMessaging",
+        "messaging",
+        "adminService",
+        "authService",
+        "admin"
+    ],
+    "literals": [
+        "\"@connext/messaging\"",
+        "\"@nestjs/common/interfaces\"",
+        "\"../auth/auth.service\"",
+        "\"../constants\"",
+        "\"../util\"",
+        "\"./admin.service\"",
+        "string",
+        "string",
+        "\"admin.get-no-free-balance\""
+    ],
+    "variables": [
+        "adminProviderFactory",
+        "admin"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* October 30, 2019\n   *\n   * Some channels do not have a `freeBalanceAppInstance` key stored in their\n   * state channel object at the path:\n   * `{prefix}/{nodeXpub}/channel/{multisigAddress}`, meaning any attempts that\n   * rely on checking the free balance (read: all app protocols) will fail.\n   *\n   * Additionally, any `restoreState` or state migration methods will fail\n   * since they will be migrating corrupted states.\n   *\n   * This method will return the userXpub and the multisig address for all\n   * channels that fit this description."
+    ],
+    "functions": [
+        "getNoFreeBalance",
+        "setupSubscriptions"
+    ],
+    "classes": [
+        "AdminMessaging"
+    ]
+}

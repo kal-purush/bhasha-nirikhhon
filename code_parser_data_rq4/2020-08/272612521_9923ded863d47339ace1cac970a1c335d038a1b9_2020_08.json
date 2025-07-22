@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "NodeJS",
+        "task",
+        "delay",
+        "task",
+        "delay",
+        "clearInterval",
+        "setInterval",
+        "clearInterval",
+        "err",
+        "err"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*****************************************************************************\n\n    Define the task manager that uses timer to periodically execute\n    a registered task function.\n\n    Copyright:\n        Copyright (c) 2020 BOS Platform Foundation Korea\n        All rights reserved.\n\n    License:\n        MIT License. See LICENSE for details.\n\n ******************************************************************************",
+        "* The class that defines the TaskManager.\n * It uses timer to periodically execute a registered task function.",
+        "* The return value when `setInterval` is run.\n     * This is necessary to execute `clearInterval`.",
+        "* The registered task function",
+        "* The interval of the timer (milliseconds)",
+        "* Constructor\n     * @param task The task to register\n     * @param delay The interval of the timer (milliseconds)",
+        "* Start the timer",
+        "* Stop the timer",
+        "* Terminate the timer",
+        "* The function executed by timer\n     * It runs internally registered tasks.\n     * It stops the timer before running the task,\n     * and restarts the timer after the task is terminated."
+    ],
+    "functions": [
+        "start",
+        "stop",
+        "terminate",
+        "work"
+    ],
+    "classes": [
+        "TaskManager"
+    ]
+}

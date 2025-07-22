@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "API",
+        "Controllers",
+        "BaseApiController",
+        "HttpGet",
+        "NotFound",
+        "HttpGet",
+        "BadRequest",
+        "HttpGet",
+        "HttpGet",
+        "Unauthorized"
+    ],
+    "literals": [
+        "\"not-found\"",
+        "\"bad-request\"",
+        "\"This is a bad request\"",
+        "\"server-error\"",
+        "\"This is a server error\"",
+        "\"unauthorised\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ActionResult",
+        "GetNotFound",
+        "ActionResult",
+        "GetBadRequest",
+        "ActionResult",
+        "GetServerError",
+        "ActionResult",
+        "GetUnauthorised"
+    ],
+    "classes": [
+        "BuggyController"
+    ]
+}

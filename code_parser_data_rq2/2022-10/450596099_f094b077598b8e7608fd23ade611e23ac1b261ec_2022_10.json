@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "math",
+        "_math",
+        "head",
+        "tail",
+        "head",
+        "tail",
+        "head",
+        "tail",
+        "head",
+        "tail",
+        "property",
+        "_math",
+        "sqrt",
+        "components",
+        "components",
+        "property",
+        "_math",
+        "acos",
+        "components",
+        "norm",
+        "angle",
+        "components",
+        "angle",
+        "i",
+        "components",
+        "i",
+        "len",
+        "components"
+    ],
+    "literals": [],
+    "variables": [
+        "head",
+        "tail",
+        "components",
+        "angle"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Two-dimensional vector `v = (v1, v2)`.\n\n    Attributes\n    ----------\n    head : tuple[int or float, int or float]\n        Two-dimensional point at which the vector is pointing.\n    tail : tuple[int or float, int or float]\n        Two-dimensional point at which the vector starts.\n    \"\"\"",
+        "\"\"\"Norm of the vector.\"\"\"",
+        "\"\"\"Angle between the vector and the x-axis in radians. This angle \\\n        is a real number in the interval [-π, π]. If the angle is positive \\\n        it indicates an anticlockwise rotation from the x-axis, this means \\\n        that the vector is on the first or the second quadrant. If the angle \\\n        is negative it indicates a clockwise rotation from the x-axis, this \\\n        means that the vector is on the third or fourth quadrant.\n        \"\"\""
+    ],
+    "functions": [
+        "norm",
+        "angle",
+        "__getitem__",
+        "__len__"
+    ],
+    "classes": []
+}

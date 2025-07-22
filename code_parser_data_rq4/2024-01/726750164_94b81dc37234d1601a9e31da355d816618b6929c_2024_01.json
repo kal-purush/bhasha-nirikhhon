@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "CompanyInfo",
+        "ListJobs",
+        "AxiosResponse",
+        "LoaderFunctionArgs",
+        "api",
+        "api",
+        "api",
+        "companyInfoRes",
+        "companyJobsRes",
+        "err"
+    ],
+    "literals": [
+        "\"@data/interface\"",
+        "\"axios\"",
+        "\"react-router-dom\"",
+        "\"@utils/axios\"",
+        "/companies/${params.params.id}",
+        "/companies/${params.params.id}/jobs"
+    ],
+    "variables": [
+        "companyInfoRes",
+        "companyJobsRes",
+        "companyInfo",
+        "companyJobs"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "companyDetailLoader"
+    ],
+    "classes": []
+}

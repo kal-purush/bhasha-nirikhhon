@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "AppRegistry",
+        "Navigation",
+        "registerScreens",
+        "palette",
+        "registerScreens",
+        "nStyle",
+        "palette",
+        "palette",
+        "palette",
+        "palette",
+        "palette",
+        "palette",
+        "Navigation",
+        "nStyle",
+        "startApp"
+    ],
+    "literals": [
+        "\"react-native\"",
+        "\"react-native-navigation\"",
+        "\"./jsbin/screens/navigationIndex\"",
+        "\"./jsbin/util/palette\"",
+        "\"screens.MainScreen\"",
+        "\"Vocabulary Helper\"",
+        "\"screens.MainScreen\"",
+        "\"rgba(0,0,0,0.25)\"",
+        "\"MMDrawer\"",
+        "\"door\"",
+        "\"slide-down\""
+    ],
+    "variables": [],
+    "comments": [
+        "unique ID registered with Navigation.registerScreen",
+        "title of the screen as appears in the nav bar (optional)",
+        "override the navigator style for the screen, see \"Styling the navigator\" below (optional)",
+        "override the nav buttons for the screen, see \"Adding buttons to the navigator\" below (optional)",
+        "optional, add this if you want a side menu drawer in your app",
+        "optional, define if you want a drawer from the left",
+        "unique ID registered with Navigation.registerScreen",
+        "simple serializable object that will pass as props to all top screens (optional)",
+        "can the drawer be opened with a swipe instead of button (optional, Android only)",
+        "a fixed width you want your left drawer to have (optional)",
+        "( iOS only )",
+        "optional, add this if you want a side menu drawer shadow",
+        "optional, add this if you want a overlay color when drawer is open",
+        "optional, add this if you want a define left drawer width (50=percent)",
+        "optional, add this if you want a define right drawer width (50=percent)",
+        "optional, iOS only, types: 'TheSideBar', 'MMDrawer' default: 'MMDrawer'",
+        "optional, iOS only, for MMDrawer: 'door', 'parallax', 'slide', 'slide-and-scale'",
+        "for TheSideBar: 'airbnb', 'facebook', 'luvocracy','wunder-list'",
+        "optional, can the drawer, both right and left, be opened with a swipe instead of button",
+        "simple serializable object that will pass as props to all top screens (optional)",
+        "optional, add transition animation to root change: 'none', 'slide-down', 'fade'"
+    ],
+    "docstrings": [],
+    "functions": [
+        "startApp"
+    ],
+    "classes": []
+}

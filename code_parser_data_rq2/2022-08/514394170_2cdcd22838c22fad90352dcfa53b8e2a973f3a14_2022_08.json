@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Dispatch",
+        "initialState",
+        "counterReducer",
+        "state",
+        "initialState",
+        "action",
+        "action",
+        "state",
+        "state",
+        "state",
+        "action",
+        "state",
+        "incCounterValueAC",
+        "setValueFromLocalStorageAC",
+        "value",
+        "incCounterValueAC",
+        "setValueFromLocalStorageAC"
+    ],
+    "literals": [
+        "\"redux\"",
+        "'INC-COUNTER-VALUE'",
+        "'SET-VALUE-FROM-LOCAL-STORAGE'",
+        "'INC-COUNTER-VALUE'",
+        "'SET-VALUE-FROM-LOCAL-STORAGE'"
+    ],
+    "variables": [
+        "initialState",
+        "counterReducer",
+        "incCounterValueAC",
+        "setValueFromLocalStorageAC"
+    ],
+    "comments": [
+        "import { AppStoreType } from \"./store-test\";",
+        "THUNK",
+        "export const incCounterValueTC = () => (dispatch: Dispatch, getState: () => AppStoreType) => {",
+        "let currentValue = getState().counter.value;",
+        "localStorage.setItem('counterValue', JSON.stringify(currentValue + 1))",
+        "dispatch(incCounterValueAC())",
+        "}",
+        "export const setValueFromLocalStorageTC = () => (dispatch: Dispatch) => {",
+        "let valueAsString = localStorage.getItem('counterValue');",
+        "if (valueAsString) {",
+        "let newValue = JSON.parse(valueAsString)",
+        "dispatch(setValueFromLocalStorageAC(newValue))",
+        "}",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

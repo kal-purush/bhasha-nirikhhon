@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "Fidget",
+        "Commander",
+        "Fidget",
+        "Commander",
+        "Dispatch",
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "IServiceCollection",
+        "services",
+        "services",
+        "ArgumentNullException",
+        "nameof",
+        "services",
+        "services",
+        "AddTransient",
+        "ICommandAdapter",
+        "CommandAdapter",
+        "services",
+        "AddTransient",
+        "ICommandAdapterFactory",
+        "CommandAdapterFactory",
+        "services",
+        "AddTransient",
+        "ICommandDispatcher",
+        "CommandDispatcher",
+        "services"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Extension methods for registering Fidget.Commander with the stock dependency injection.",
+        "</summary>",
+        "Adds Fidget.Commander to the services collection.",
+        "You will need to register your handlers and decorators independently.",
+        "</summary>",
+        "<param name=\"services\">Services collection.</param>",
+        "<remarks>",
+        "When using Fidget.Commander with the standard dependency injection container, it is recommended",
+        "that you also use Scrutor to add all your handlers and decorators by scanning the assembly.",
+        "</remarks>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IServiceCollection",
+        "AddFidgetCommander"
+    ],
+    "classes": [
+        "FidgetCommanderRegistration"
+    ]
+}

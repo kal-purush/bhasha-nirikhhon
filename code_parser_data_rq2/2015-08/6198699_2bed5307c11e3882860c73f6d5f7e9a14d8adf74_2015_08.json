@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "angular",
+        "GridRowColumnFactory",
+        "$parse",
+        "$filter",
+        "GridRowColumn",
+        "row",
+        "col",
+        "GridRowColumn",
+        "row",
+        "col",
+        "GridRowColumn",
+        "$parse",
+        "getter",
+        "context",
+        "GridRowColumn",
+        "filterName",
+        "$filter",
+        "filterName",
+        "e",
+        "getFilterIfExists",
+        "value",
+        "value",
+        "matches",
+        "re",
+        "value",
+        "$filter",
+        "matches",
+        "value",
+        "matches",
+        "matches",
+        "value",
+        "GridRowColumn"
+    ],
+    "literals": [
+        "'use strict'",
+        "'ui.grid'",
+        "'GridRowColumn'",
+        "'$parse'",
+        "'$filter'",
+        "\"Using GridRowColumn as a function insead of as a constructor. Must be called with `new` keyword\"",
+        "''"
+    ],
+    "variables": [
+        "GridRowColumn",
+        "getter",
+        "context",
+        "value",
+        "getFilterIfExists",
+        "re",
+        "matches"
+    ],
+    "comments": [
+        "Check if this is filter name or a filter string",
+        "We have the template version of a filter so we need to parse it apart",
+        "Get the filter params out using a regex",
+        "Test out this regex here https://regex101.com/r/rC5eR5/2",
+        "View your result using the matches-variable.",
+        "eg matches[0] etc."
+    ],
+    "docstrings": [
+        "* @ngdoc object\n   * @name ui.grid.class:GridRowColumn\n   * @param {GridRow} row The row for this pair\n   * @param {GridColumn} column The column for this pair\n   * @description A row and column pair that represents the intersection of these two entities.\n   * Must be instantiated as a constructor using the `new` keyword.",
+        "* @ngdoc object\n         * @name row\n         * @propertyOf ui.grid.class:GridRowColumn\n         * @description {@link ui.grid.class:GridRow }",
+        "* @ngdoc object\n         * @name col\n         * @propertyOf ui.grid.class:GridRowColumn\n         * @description {@link ui.grid.class:GridColumn }",
+        "* @ngdoc function\n       * @name getIntersectionValueRaw\n       * @methodOf ui.grid.class:GridRowColumn\n       * @description Gets the intersection of where the row and column meet.\n       * @returns {String|Number|Object} The value from the grid data that this GridRowColumn points too.\n       *          If the column has a cellFilter this will NOT return the filtered value.",
+        "* @ngdoc function\n       * @name getIntersectionValueFiltered\n       * @methodOf ui.grid.class:GridRowColumn\n       * @description Gets the intersection of where the row and column meet.\n       * @returns {String|Number|Object} The value from the grid data that this GridRowColumn points too.\n       *          If the column has a cellFilter this will also apply the filter to it and return the value that the filter displays."
+    ],
+    "functions": [],
+    "classes": []
+}

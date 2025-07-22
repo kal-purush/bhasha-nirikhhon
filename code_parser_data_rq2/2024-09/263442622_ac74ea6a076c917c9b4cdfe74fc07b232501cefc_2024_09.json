@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "org",
+        "openrewrite",
+        "java",
+        "search",
+        "lombok",
+        "EqualsAndHashCode",
+        "lombok",
+        "Value",
+        "org",
+        "jspecify",
+        "annotations",
+        "org",
+        "openrewrite",
+        "Value",
+        "EqualsAndHashCode",
+        "callSuper",
+        "Option",
+        "displayName",
+        "description",
+        "example",
+        "fullyQualifiedTypeName",
+        "Option",
+        "displayName",
+        "description",
+        "required",
+        "includeImplicit",
+        "Override",
+        "Override",
+        "Override",
+        "Preconditions",
+        "fullyQualifiedTypeName",
+        "includeImplicit"
+    ],
+    "literals": [
+        "\"Fully-qualified type name\"",
+        "\"A fully-qualified type name, that is used to find matching type references. \"",
+        "\"Supports glob expressions. `java..*` finds every type from every subpackage of the `java` package.\"",
+        "\"java.util.List\"",
+        "\"Include implicit type references\"",
+        "\"Whether to include implicit type references, such as those in method signatures.\"",
+        "\"Check whether a type is **not** in use\"",
+        "\"Useful as a precondition to skip over compilation units using the argument type.\""
+    ],
+    "variables": [
+        "fullyQualifiedTypeName",
+        "includeImplicit"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2024 the original author or authors.\n * <p>\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * <p>\n * https://www.apache.org/licenses/LICENSE-2.0\n * <p>\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License."
+    ],
+    "functions": [
+        "getDisplayName",
+        "getDescription",
+        "getVisitor"
+    ],
+    "classes": [
+        "DoesNotUseType"
+    ]
+}

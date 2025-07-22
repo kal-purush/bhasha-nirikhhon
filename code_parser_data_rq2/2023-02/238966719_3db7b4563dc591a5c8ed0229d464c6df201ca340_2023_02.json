@@ -1,0 +1,93 @@
+{
+    "identifiers": [
+        "Runtime",
+        "InteropServices",
+        "starsky",
+        "foundation",
+        "injection",
+        "starsky",
+        "foundation",
+        "Helpers",
+        "starsky",
+        "foundation",
+        "Trash",
+        "Helpers",
+        "starsky",
+        "foundation",
+        "Trash",
+        "Interfaces",
+        "starsky",
+        "foundation",
+        "Trash",
+        "Service",
+        "ITrashService",
+        "InjectionLifetime",
+        "InjectionLifetime",
+        "Scoped",
+        "ITrashService",
+        "RuntimeInformation",
+        "IsOSPlatform",
+        "OSPlatform",
+        "Linux",
+        "RuntimeInformation",
+        "IsOSPlatform",
+        "OSPlatform",
+        "FreeBSD",
+        "Environment",
+        "UserName",
+        "Environment",
+        "UserInteractive",
+        "RuntimeInformation",
+        "IsOSPlatform",
+        "OSPlatform",
+        "Windows",
+        "driveHasBin",
+        "WindowsShellTrashBindingHelper",
+        "DriveHasRecycleBin",
+        "driveHasBin",
+        "fullPath",
+        "OperatingSystemHelper",
+        "GetPlatform",
+        "MacOsTrashBindingHelper",
+        "Trash",
+        "fullPath",
+        "currentPlatform",
+        "windowsTrash",
+        "WindowsShellTrashBindingHelper",
+        "Trash",
+        "fullPath",
+        "currentPlatform",
+        "macOsTrash",
+        "windowsTrash"
+    ],
+    "literals": [
+        "\"root\""
+    ],
+    "variables": [
+        "currentPlatform",
+        "macOsTrash"
+    ],
+    "comments": [
+        "Is the system trash supported",
+        "</summary>",
+        "<returns>true if supported, false if not supported</returns>",
+        "ReSharper disable once ConvertIfStatementToReturnStatement",
+        "ReSharper disable once InvertIf",
+        "Does not check if the file exists",
+        "Trash file for Mac OS and Windows",
+        "</summary>",
+        "<param name=\"fullPath\">system path</param>",
+        "<returns>operation succeed (NOT if file is gone)</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "DetectToUseSystemTrash",
+        "Trash"
+    ],
+    "classes": [
+        "TrashService"
+    ]
+}

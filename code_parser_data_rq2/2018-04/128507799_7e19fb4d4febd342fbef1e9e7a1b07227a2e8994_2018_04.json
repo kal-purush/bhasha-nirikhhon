@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "ISPService",
+        "ILibsOptions",
+        "LibsOrderBy",
+        "ISPLists",
+        "IWebPartContext",
+        "SPHttpClient",
+        "SPHttpClientResponse",
+        "context",
+        "context",
+        "options",
+        "options",
+        "queryUrl",
+        "options",
+        "LibsOrderBy",
+        "options",
+        "queryUrl",
+        "options",
+        "filtered",
+        "options",
+        "queryUrl",
+        "filtered",
+        "filtered",
+        "queryUrl",
+        "SPHttpClient",
+        "response",
+        "response",
+        "SPService"
+    ],
+    "literals": [
+        "\"./ISPService\"",
+        "\"../common/spEntities\"",
+        "\"@microsoft/sp-webpart-base\"",
+        "\"@microsoft/sp-http\"",
+        "string",
+        "${this._context.pageContext.web.absoluteUrl}/_api/web/lists?$select=Title,id,BaseTemplate",
+        "&$orderby=${options.orderBy === LibsOrderBy.Id ? 'Id': 'Title'}",
+        "'Id'",
+        "'Title'",
+        "&$filter=BaseTemplate eq ${options.baseTemplate}",
+        "' and Hidden eq false'",
+        "'&$filter=Hidden eq false'"
+    ],
+    "variables": [
+        "filtered",
+        "queryUrl"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getLibs"
+    ],
+    "classes": [
+        "SPService"
+    ]
+}

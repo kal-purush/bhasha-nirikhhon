@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "pyroute2",
+        "netlink",
+        "nla",
+        "pyroute2",
+        "netlink",
+        "nlmsg",
+        "nlmsg",
+        "nla"
+    ],
+    "literals": [
+        "'DHCP_'",
+        "'family'",
+        "'H'",
+        "'prefixlen'",
+        "'H'",
+        "'index'",
+        "'I'",
+        "'DHCP_UNSPEC'",
+        "'none'",
+        "'DHCP_ADDRESS'",
+        "'ipaddr'",
+        "'DHCP_IFNAME'",
+        "'asciiz'",
+        "'DHCP_AGENTINFO'",
+        "'agentinfo'",
+        "'DHCP_AGENT'",
+        "'asciiz'",
+        "'DHCP_AGENT_PID'",
+        "'uint32'",
+        "'DHCP_AGENT_STATUS'",
+        "'asciiz'"
+    ],
+    "variables": [
+        "prefix",
+        "fields",
+        "nla_map",
+        "nla_map"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\n    Custom message type\n\n    Option for a DHCP agent\n    '''"
+    ],
+    "functions": [],
+    "classes": [
+        "dhcpmsg",
+        "agentinfo"
+    ]
+}

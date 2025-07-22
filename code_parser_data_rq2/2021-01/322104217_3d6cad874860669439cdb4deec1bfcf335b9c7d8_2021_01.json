@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "props",
+        "props",
+        "props",
+        "theme",
+        "theme",
+        "styled",
+        "styled",
+        "Slider"
+    ],
+    "literals": [
+        "'styled-components'",
+        "display: inline-flex;\n\talign-items: center;",
+        "cursor: pointer;\n\tmargin-right: 0.5em;",
+        "cursor: pointer;\n\tmargin-left: 0.5em;",
+        "position: relative;\n\tdisplay: inline-flex;\n\twidth: 60px;\n\theight: 34px;",
+        "'checkbox'",
+        "opacity: 0;\n\twidth: 0;\n\theight: 0;\n\n\t&:checked + .slider {\n\t\tbackground-color: ${({ theme }) => theme.bg.secondary};\n\t}\n\n\t&:focus + .slider {\n\t\tbox-shadow: 0 0 1px ${({ theme }) => theme.bg.secondary};\n\t}\n\n\t&:checked + .slider:before {\n\t\t-webkit-transform: translateX(26px);\n\t\t-ms-transform: translateX(26px);\n\t\ttransform: translateX(26px);\n\t}",
+        "'slider'",
+        "position: absolute;\n\tcursor: pointer;\n\ttop: 0;\n\tleft: 0;\n\tright: 0;\n\tbottom: 0;\n\tbackground-color: #ccc;\n\t-webkit-transition: 0.4s;\n\ttransition: 0.4s;\n\n\t&:before {\n\t\tposition: absolute;\n\t\tcontent: '';\n\t\theight: 26px;\n\t\twidth: 26px;\n\t\tleft: 4px;\n\t\tbottom: 4px;\n\t\tbackground-color: white;\n\t\t-webkit-transition: 0.4s;\n\t\ttransition: 0.4s;\n\t}",
+        "border-radius: 34px;\n\n\t&:before {\n\t\tborder-radius: 50%;\n\t}"
+    ],
+    "variables": [
+        "Wrapper",
+        "LeftLabel",
+        "RightLabel",
+        "Switch",
+        "Checkbox",
+        "Slider",
+        "RoundSlider"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

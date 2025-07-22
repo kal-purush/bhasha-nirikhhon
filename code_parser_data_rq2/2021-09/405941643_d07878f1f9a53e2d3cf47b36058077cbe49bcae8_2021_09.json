@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "require",
+        "cloud",
+        "cloud",
+        "cloud",
+        "exports",
+        "context",
+        "db",
+        "db",
+        "db",
+        "db",
+        "db",
+        "e"
+    ],
+    "literals": [
+        "'wx-server-sdk'",
+        "'sales'",
+        "'sales'",
+        "'华东'",
+        "'上海'",
+        "'sales'",
+        "'华东'",
+        "'南京'",
+        "'sales'",
+        "'华南'",
+        "'广州'",
+        "'sales'",
+        "'华南'",
+        "'深圳'",
+        "'create collection success'"
+    ],
+    "variables": [
+        "cloud",
+        "db"
+    ],
+    "comments": [
+        "创建集合云函数入口函数",
+        "创建集合",
+        "data 字段表示需新增的 JSON 数据",
+        "data 字段表示需新增的 JSON 数据",
+        "data 字段表示需新增的 JSON 数据",
+        "data 字段表示需新增的 JSON 数据",
+        "这里catch到的是该collection已经存在，从业务逻辑上来说是运行成功的，所以catch返回success给前端，避免工具在前端抛出异常"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

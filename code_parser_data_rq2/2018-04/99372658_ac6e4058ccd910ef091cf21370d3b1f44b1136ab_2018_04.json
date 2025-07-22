@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "unittest",
+        "TestCase",
+        "compat",
+        "patch",
+        "mbq",
+        "client",
+        "client",
+        "ServiceClient",
+        "TestCase",
+        "ServiceClient",
+        "patch",
+        "requests_mock",
+        "client",
+        "get",
+        "correlation_id",
+        "assertEquals",
+        "requests_mock",
+        "call_count",
+        "requests_mock",
+        "call_args",
+        "assertEquals",
+        "headers",
+        "patch",
+        "requests_mock",
+        "client",
+        "get",
+        "assertEquals",
+        "requests_mock",
+        "call_count",
+        "requests_mock",
+        "call_args",
+        "assertTrue",
+        "headers"
+    ],
+    "literals": [
+        "'https://foo.com/'",
+        "'requests.get'",
+        "'/url'",
+        "'hello-world'",
+        "'headers'",
+        "'hello-world'",
+        "'X-Correlation-Id'",
+        "'requests.get'",
+        "'/url'",
+        "'headers'",
+        "'X-Correlation-Id'"
+    ],
+    "variables": [
+        "client",
+        "headers",
+        "headers"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "setUp",
+        "test_correlation_id_provided",
+        "test_correlation_id_not_provided"
+    ],
+    "classes": [
+        "CorrelationIDTestCase"
+    ]
+}

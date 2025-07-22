@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "User",
+        "userDocumentToUser",
+        "requireAdmin",
+        "req",
+        "res",
+        "_next",
+        "requireAdmin",
+        "req",
+        "res",
+        "res",
+        "req",
+        "req",
+        "User",
+        "offset",
+        "limit",
+        "User",
+        "res",
+        "res",
+        "users",
+        "userDocumentToUser",
+        "e",
+        "res",
+        "res",
+        "e"
+    ],
+    "literals": [
+        "\"../../models/User\"",
+        "\"../../utility/authHelpers\"",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "You are not authorized to view Users",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "Error getting Users: ${e.message}"
+    ],
+    "variables": [
+        "limit",
+        "offset",
+        "users",
+        "estimatedTotal"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* API endpoint to query Users. Request body should have the following options:\n * {\n *   limit: number, // default 20\n *   offset: number, // default 0\n * }\n *\n * The response has the shape of:\n * {\n *   estimatedTotal: number, // An estimate of the total number of Users\n *   users: TUser[], // Users which match the query\n * }"
+    ],
+    "functions": [
+        "post"
+    ],
+    "classes": []
+}

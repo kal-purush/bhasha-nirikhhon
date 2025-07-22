@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "prev1",
+        "prev2",
+        "prev1",
+        "prev1",
+        "prev2",
+        "prev1",
+        "prev2",
+        "result",
+        "result",
+        "prev2",
+        "prev1",
+        "prev1",
+        "result",
+        "result",
+        "prev1",
+        "prev1",
+        "prev2",
+        "Program"
+    ],
+    "literals": [],
+    "variables": [
+        "result"
+    ],
+    "comments": [
+        "When we have no previous values, assume 0",
+        "The result is the previous two numbers added up",
+        "Exit when our result has become larger than 10.000",
+        "Store the previous two results",
+        "We are cheating here, to get over the 0 state.",
+        "Call ourselves again for the next result in the sequence"
+    ],
+    "docstrings": [],
+    "functions": [
+        "printFibonacci"
+    ],
+    "classes": [
+        "Program"
+    ]
+}

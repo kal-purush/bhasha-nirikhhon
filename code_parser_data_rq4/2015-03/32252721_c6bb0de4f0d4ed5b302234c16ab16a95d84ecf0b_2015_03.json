@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "Boom",
+        "Caching",
+        "MW",
+        "Utils",
+        "localSettings",
+        "wrapResult",
+        "index",
+        "index",
+        "Caching",
+        "Caching",
+        "Caching",
+        "commentsData",
+        "commentsData",
+        "commentsData",
+        "commentsData",
+        "commentsData",
+        "request",
+        "Hapi",
+        "reply",
+        "Utils",
+        "localSettings",
+        "request",
+        "parseInt",
+        "request",
+        "parseInt",
+        "request",
+        "request",
+        "reply",
+        "Boom",
+        "MW",
+        "response",
+        "reply",
+        "transformResponse",
+        "response",
+        "Caching",
+        "response",
+        "cachingTimes",
+        "error",
+        "wrapResult",
+        "error",
+        "reply",
+        "preparedResult",
+        "preparedResult"
+    ],
+    "literals": [
+        "'boom'",
+        "'../../lib/Caching'",
+        "'../../lib/MediaWiki'",
+        "'../../lib/Utils-refactor'",
+        "'../../../config/localSettings'",
+        "'./presenters/resultWrapper'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'Invalid articleId'"
+    ],
+    "variables": [
+        "cachingTimes",
+        "preparedResult"
+    ],
+    "comments": [
+        "<reference path=\"../../../typings/hapi/hapi.d.ts\" />"
+    ],
+    "docstrings": [
+        "* Wrap article comments data response\n *\n * @param commentsData Article comments payload from API\n * @returns Wrapped Article comments object"
+    ],
+    "functions": [
+        "transformResponse",
+        "get"
+    ],
+    "classes": []
+}

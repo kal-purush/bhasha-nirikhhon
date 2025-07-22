@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "ComponentModel",
+        "Composition",
+        "Hosting",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "SuperSocket",
+        "SocketBase",
+        "CompositeTargets",
+        "TTarget",
+        "ICompositeTarget",
+        "Action",
+        "TTarget",
+        "Action",
+        "TTarget",
+        "callback",
+        "m_Callback",
+        "callback",
+        "IAppServer",
+        "appServer",
+        "ExportProvider",
+        "exportProvider",
+        "TTarget",
+        "TryResolve",
+        "appServer",
+        "exportProvider",
+        "result",
+        "m_Callback",
+        "result",
+        "IAppServer",
+        "appServer",
+        "ExportProvider",
+        "exportProvider",
+        "TTarget",
+        "result"
+    ],
+    "literals": [],
+    "variables": [
+        "m_Callback",
+        "TTarget",
+        "result"
+    ],
+    "comments": [
+        "the basic class of composite target",
+        "</summary>",
+        "<typeparam name=\"TTarget\">The type of the target.</typeparam>",
+        "Initializes a new instance of the <see cref=\"CompositeTargetBase{TTarget}\"/> class.",
+        "</summary>",
+        "<param name=\"callback\">The callback which will be invoked after the resolving is finished successfully.</param>",
+        "Resolves the specified application server.",
+        "</summary>",
+        "<param name=\"appServer\">The application server.</param>",
+        "<param name=\"exportProvider\">The export provider.</param>",
+        "<returns></returns>",
+        "Tries to resolve.",
+        "</summary>",
+        "<param name=\"appServer\">The application server.</param>",
+        "<param name=\"exportProvider\">The export provider.</param>",
+        "<param name=\"result\">The resolving result.</param>",
+        "<returns></returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "CompositeTargetBase",
+        "Resolve",
+        "TryResolve"
+    ],
+    "classes": [
+        "CompositeTargetBase"
+    ]
+}

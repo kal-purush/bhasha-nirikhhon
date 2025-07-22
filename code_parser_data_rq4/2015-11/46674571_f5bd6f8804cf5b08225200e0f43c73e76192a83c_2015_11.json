@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "Component",
+        "NgFor",
+        "Component",
+        "NgFor",
+        "About"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'about'",
+        "<p>{{title}}</p>\n\t\t<ul>\n\t\t\t<li *ng-for=\"#item of list\">{{item.name}}</li>\n\t\t</ul>",
+        "string",
+        "'I am the about component!'",
+        "'List item one'",
+        "'List item two'",
+        "'List item three'"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"../../../typings/angular2/angular2.d.ts\" />"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "About"
+    ]
+}

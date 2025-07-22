@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "blogposts",
+        "BlogPost",
+        "BlogPost",
+        "BlogPost",
+        "BlogPost",
+        "newPost",
+        "newPost",
+        "editedPost",
+        "_",
+        "post",
+        "post",
+        "editedPost",
+        "index",
+        "index",
+        "editedPost",
+        "editedPost",
+        "id",
+        "_",
+        "post",
+        "post",
+        "id",
+        "index",
+        "index",
+        "id",
+        "_",
+        "post",
+        "post",
+        "id",
+        "newPosts",
+        "newPosts",
+        "difference"
+    ],
+    "literals": [
+        "'use strict'",
+        "\"First Post\"",
+        "\"This is the body\"",
+        "\"Second Post\"",
+        "\"This is the body\"",
+        "\"Third Post\"",
+        "\"This is the body\"",
+        "\"Fourth Post\"",
+        "\"This is the body\"",
+        "\"No post with id \"",
+        "\"Found \""
+    ],
+    "variables": [
+        "index",
+        "index",
+        "newPosts",
+        "difference"
+    ],
+    "comments": [
+        "<reference path='../../libs/underscore/underscore.d.ts' />",
+        "<reference path='BlogPost.ts' />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "add",
+        "edit",
+        "get",
+        "remove",
+        "nextId"
+    ],
+    "classes": [
+        "InMemoryBlogPostStore"
+    ]
+}

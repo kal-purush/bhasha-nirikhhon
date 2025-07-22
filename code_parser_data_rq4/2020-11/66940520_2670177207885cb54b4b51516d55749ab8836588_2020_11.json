@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "org",
+        "hisp",
+        "dhis",
+        "tracker",
+        "preprocess",
+        "org",
+        "hisp",
+        "dhis",
+        "tracker",
+        "bundle",
+        "TrackerBundle",
+        "BundlePreProcessor",
+        "bundle"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2004-2020, University of Oslo\n * All rights reserved.\n *\n * Redistribution and use in source and binary forms, with or without\n * modification, are permitted provided that the following conditions are met:\n * Redistributions of source code must retain the above copyright notice, this\n * list of conditions and the following disclaimer.\n *\n * Redistributions in binary form must reproduce the above copyright notice,\n * this list of conditions and the following disclaimer in the documentation\n * and/or other materials provided with the distribution.\n * Neither the name of the HISP project nor the names of its contributors may\n * be used to endorse or promote products derived from this software without\n * specific prior written permission.\n *\n * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND\n * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n * WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\n * DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR\n * ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n * (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\n * LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON\n * ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.",
+        "* Interface for classes responsible of preprocessing the payload prior to\n * validation.\n *\n * The validation stage is not supposed to change the payload. A pre-processor\n * can modify the payload content and add data to the preheat if needed. Note\n * that the pre-processing stage takes place after the preheat and before the\n * validation.\n *\n * @author Luciano Fiandesio"
+    ],
+    "functions": [
+        "process"
+    ],
+    "classes": []
+}

@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Component",
+        "VueInfoAddonOptions"
+    ],
+    "literals": [
+        "'vue'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "TODO: Implement!",
+        "TODO: Implement!"
+    ],
+    "docstrings": [
+        "* We accepts Component object and Component name (which is registered globaly)",
+        "* Addon options\n * NOTE: There are no maxProp*** options since we use template strings to render source code.",
+        "* Toggles display of header with component name and description",
+        "* Displays info inline vs click button to view",
+        "* Displays the source of story Component",
+        "* Whether to lookup Components registered globaly (Vue only option)",
+        "* Displays component name in kebab-case instead of PascalCase (Vue only option)",
+        "* Displays Prop Tables with this components",
+        "* Exclude Components from being shown in Prop Tables section",
+        "* Overrides styles of addon.",
+        "* Overrides components used to display markdown",
+        "* Override the component used to render the props table",
+        "* Summary for the Story"
+    ],
+    "functions": [],
+    "classes": []
+}

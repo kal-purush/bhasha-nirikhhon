@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "WebSocket",
+        "Observable",
+        "DDPClient",
+        "DDPCacheEngine",
+        "DDPClient",
+        "cacheEngine",
+        "cacheEngine",
+        "MY_DDP_COLLECTIONS",
+        "ddpServerUrl",
+        "MY_DDP_COLLECTIONS",
+        "error",
+        "data",
+        "since",
+        "since",
+        "MY_DDP_COLLECTIONS",
+        "items",
+        "items",
+        "collectionName",
+        "collectionName"
+    ],
+    "literals": [
+        "'mock-socket'",
+        "'rxjs'",
+        "'../src/ddp-client'",
+        "'../src/ddp-storage'",
+        "'users'",
+        "'chats'",
+        "'users'",
+        "'chats'",
+        "string",
+        "string",
+        "string",
+        "'ws://localhost:8080'",
+        "'login'",
+        "'xxx'",
+        "'xxx'",
+        "'users'",
+        "'chats'",
+        "'Users:'"
+    ],
+    "variables": [
+        "MY_DDP_COLLECTIONS",
+        "ddpServerUrl",
+        "since"
+    ],
+    "comments": [
+        "Events called by DDPClient",
+        "DDP connected, now we can login and subscribe to the publications on the server",
+        "DDP disconnected, notify user",
+        "Custom code on Socket error",
+        "Custom code on Socket closed",
+        "Custom code for handle special DDP server messages",
+        "Custom utility methos",
+        "To access data direcly from the collection you can use the ddpStorage methods"
+    ],
+    "docstrings": [],
+    "functions": [
+        "initCacheStorage",
+        "connect",
+        "login",
+        "logout",
+        "onConnected",
+        "onDisconnected",
+        "onSocketError",
+        "onSocketClosed",
+        "onMessage",
+        "subscribePublications",
+        "observeCollections",
+        "getAllCollectionData$"
+    ],
+    "classes": [
+        "MyDDPClient"
+    ]
+}

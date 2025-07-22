@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "csv",
+        "unicodedata",
+        "datetime",
+        "json",
+        "open",
+        "SERVICE_CREDENTIALS",
+        "f",
+        "json",
+        "load",
+        "f"
+    ],
+    "literals": [
+        "\"./secrets/service-account-credentials.json\""
+    ],
+    "variables": [
+        "SERVICE_CREDENTIALS",
+        "calendar_bot"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "Should be generated as a service account .json file",
+        "in console.developers.google.com .",
+        "",
+        "This account needs access to the Google Calendar API.",
+        "It needs the ability to edit the calendar in question."
+    ],
+    "docstrings": [
+        "\"\"\"\nTake events.csv and put it into a Google calendar, using \npatching to update event info. \n\nPaul \"Worthless\" Nijjar, 2018-08-08\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

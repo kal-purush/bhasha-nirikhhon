@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "cdk",
+        "cfn",
+        "codebuild",
+        "cdk",
+        "cfn",
+        "parent",
+        "cdk",
+        "name",
+        "props",
+        "parent",
+        "name",
+        "parent",
+        "props",
+        "project",
+        "codebuild",
+        "project",
+        "cdk"
+    ],
+    "literals": [
+        "'@aws-cdk/cdk'",
+        "'@aws-cdk/aws-cloudformation'",
+        "'@aws-cdk/aws-codebuild'",
+        "'@aws-cdk/aws-lambda'",
+        "string",
+        "string",
+        "string",
+        "'Custom::CodebuildGithubWebhook'",
+        "'Lambda'",
+        "'arn:aws:lambda:eu-west-1:147597503572:function:cfn-github-webhook-dev-githubWebhook'",
+        "'Resource'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "dependsOnCodebuildProject"
+    ],
+    "classes": [
+        "CodeBuildGithubWebhook"
+    ]
+}

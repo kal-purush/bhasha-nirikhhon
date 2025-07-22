@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "Tetfuza",
+        "IConsole",
+        "IConsole",
+        "keyboard",
+        "_keyboard",
+        "keyboard",
+        "_keyboard",
+        "KeyAvailable",
+        "direction",
+        "rotation",
+        "down",
+        "_keyboard",
+        "ReadKey",
+        "key",
+        "ConsoleKey",
+        "LeftArrow",
+        "direction",
+        "ConsoleKey",
+        "RightArrow",
+        "direction",
+        "ConsoleKey",
+        "Z",
+        "rotation",
+        "ConsoleKey",
+        "X",
+        "rotation",
+        "ConsoleKey",
+        "DownArrow",
+        "down",
+        "ConsoleKey",
+        "C",
+        "_keyboard",
+        "Clear"
+    ],
+    "literals": [],
+    "variables": [
+        "KeyAvailable",
+        "IConsole",
+        "_keyboard",
+        "InputAvailable",
+        "ConsoleKey",
+        "key"
+    ],
+    "comments": [
+        "returns true when a key was pressed and the value is waiting in the input buffer.",
+        "when true, Console.ReadKey will not block.",
+        "</summary>",
+        "<returns>",
+        "true - a value is in the input buffer",
+        "false - no value is available, ReadKey will block",
+        "</returns>",
+        "returns the rotation, direction, and whether the user pressed the",
+        "down key, so we can adjust the pieces on the game board.",
+        "</summary>",
+        "<param name=\"direction\">returns (-1, 0, or 1 for left, none, and right movement)</param>",
+        "<param name=\"rotation\">returns (-1, 0, or 1 for counterclockwise, none, and clockwise rotation)</param>",
+        "<param name=\"down\">returns true to move the piece down one space on next frame, False will wait for auto-drop</param>",
+        "<returns>",
+        "</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "ConsoleKey",
+        "ReadKey",
+        "Clear",
+        "InputChecker",
+        "GetInput"
+    ],
+    "classes": [
+        "InputChecker"
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "Speech",
+        "Behavior",
+        "time",
+        "Config",
+        "DEBUG_MODE",
+        "Speech",
+        "Speech",
+        "Behavior",
+        "Behavior",
+        "speech",
+        "offset",
+        "speech_type",
+        "LAG_SPEECH",
+        "time",
+        "sleep",
+        "LAG_SPEECH",
+        "DEBUG_MODE",
+        "offset",
+        "time",
+        "sleep",
+        "offset",
+        "speech_type",
+        "my_speech",
+        "play_mp3",
+        "speech",
+        "speech_type",
+        "my_speech",
+        "read_text",
+        "speech",
+        "behavior",
+        "offset",
+        "param_behavior",
+        "LAG_BEHAVIOR",
+        "time",
+        "sleep",
+        "LAG_BEHAVIOR",
+        "DEBUG_MODE",
+        "behavior",
+        "DEBUG_MODE",
+        "offset",
+        "time",
+        "sleep",
+        "offset",
+        "my_behavior",
+        "execute_behavior",
+        "behavior",
+        "param_behavior"
+    ],
+    "literals": [
+        "\"init BML_controler\"",
+        "\"Waiting for %f sec\"",
+        "\"mp3\"",
+        "\"text\"",
+        "\"ERROR type : %s\"",
+        "\"Perform behavior: %s\"",
+        "\"Waiting for %f sec\""
+    ],
+    "variables": [
+        "my_speech",
+        "my_behavior"
+    ],
+    "comments": [
+        "Not really needed"
+    ],
+    "docstrings": [
+        "'''\nCreated on 18 juil. 2014\nLast change on Oct. 23, 2014\n\n@author: Javier\n'''",
+        "'''\n    @Class: Intermediate step between BML and the execution of the action. We also manage the static parameters here.\n               \n    @attribute self.my_speech: from where the speeches will be handled and executed.\n    @attribute self.my_behavior: from where the behaviors will be handled executed.\n    '''",
+        "'''\n    @method perform_speech: Perform the speeches (text or mp3) (when creating the action thread)\n    @param speech (for type mp3): is the name of the mp3 file to play\n    @param speech (for type text): is the text that will be read through ACAPELA\n    @param offset: time to wait before executing the speech\n    @param speech_type: \"mp3\" for playing mp3 and \"text\" for reading text \n    \n    @todo: MOVE WAITING TIME MORE DEEPER (if there is some latency + waiting smarter)\n    '''",
+        "'''\n    @method perform_behavior: Perform the behaviors (when creating the action thread)\n    @param behavior: is the name of the behavior to execute\n    @param offset: time to wait before executing the behavior\n    @param angle_param: which will be added to some joints to follow a human\n    \n    @todo: MOVE WAITING TIME MORE DEEPER (if there is some latency + waiting smarter)\n    '''"
+    ],
+    "functions": [
+        "perform_speech",
+        "perform_behavior"
+    ],
+    "classes": [
+        "BML_controler"
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "sys",
+        "random",
+        "randint",
+        "NotImplementedError",
+        "other",
+        "other",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene",
+        "Scene"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "-- Import Statements --#",
+        "-- Class Definitions --#",
+        "Prevent creation of instance objects of type Scene",
+        "Abstract method that will be implemented in all subclasses",
+        "Just check if type of Scene are the same."
+    ],
+    "docstrings": [
+        "\"\"\"Module that holds Scene classes for use in the text adventure game.\n    \n    Classes:\n        Scene - The base class for each scene in the game\n        Death - Scene for when player dies\n        Finished - Scene for when game is completed\n        Central_Corridor - Scene we typically start in\n        Armory - Scene in the laser weapon armory\n        Escape_Pod - Scene where player escapes\n        Bridge -  Scene where bridge is taken\n    \"\"\"",
+        "\"\"\"A base class for each scene in the game.\"\"\"",
+        "\"\"\"Not implemented. Subclass and provide functionality.\n\n        Returns:\n            the name of the next scene in the players path \n        \"\"\"",
+        "\"\"\"---TODO---\"\"\"",
+        "\"\"\"---TODO---\"\"\"",
+        "\"\"\"---TODO---\"\"\"",
+        "\"\"\"---TODO---\"\"\"",
+        "\"\"\"---TODO---\"\"\"",
+        "\"\"\"---TODO---\"\"\""
+    ],
+    "functions": [
+        "enter",
+        "__eq__",
+        "enter",
+        "enter",
+        "enter",
+        "enter",
+        "enter",
+        "enter"
+    ],
+    "classes": [
+        "Scene",
+        "Death",
+        "Finished",
+        "Central_Corridor",
+        "Armory",
+        "Escape_Pod",
+        "Bridge"
+    ]
+}

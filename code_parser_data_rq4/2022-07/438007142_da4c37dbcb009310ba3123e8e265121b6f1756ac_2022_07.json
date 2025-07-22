@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "UnitResponse",
+        "UnitConfig",
+        "BaseResource",
+        "ApiToken",
+        "CreateApiTokenRequest",
+        "BaseResource",
+        "token",
+        "basePath",
+        "config",
+        "token",
+        "basePath",
+        "config",
+        "userId",
+        "request",
+        "userId",
+        "request",
+        "userId",
+        "tokenId",
+        "userId",
+        "tokenId",
+        "userId",
+        "userId"
+    ],
+    "literals": [
+        "\"../types/common\"",
+        "\"./baseResource\"",
+        "\"../types/orgToken\"",
+        "string",
+        "string",
+        "\"/users\"",
+        "string",
+        "/${userId}/api-tokens",
+        "string",
+        "string",
+        "/${userId}/api-tokens/${tokenId}",
+        "string",
+        "/${userId}/api-tokens"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "create",
+        "revoke"
+    ],
+    "classes": [
+        "OrgTokens"
+    ]
+}

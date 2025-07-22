@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "tittle",
+        "text",
+        "tittle",
+        "text",
+        "text",
+        "text",
+        "New",
+        "news",
+        "news",
+        "NewsPrinter",
+        "New",
+        "printNews",
+        "printNews",
+        "printNews"
+    ],
+    "literals": [
+        "'Путин'",
+        "'Новая конституция'",
+        "<div class=\"news\">\n                <h1>${this.news.tittle}</h1>\n                <p>${this.news.text}</p>\n            </div>",
+        "<news>\n                <title>${this.news.tittle}</tittle>\n                <text>${this.news.text}</text>\n                <modified>${this.news.modified}</modified>\n            </news>",
+        "'Путин'",
+        "'Новая конституция'"
+    ],
+    "variables": [
+        "news",
+        "printNews"
+    ],
+    "comments": [
+        "Single Responsobility Principle",
+        "Принцип ответственности одного объекта",
+        "!нарушает принцип - ответственность новости нарушена. Новость не должна отвечать за вывод в html",
+        "toHTML(){",
+        "return `",
+        "<div class=\"news\">",
+        "<h1>${this.tittle}</h1>",
+        "<p>${this.text}</p>",
+        "</div>",
+        "`",
+        "}",
+        "!нарушаем принцип - ответственность новости нарушена. Новость не должна отвечать за вывод в html",
+        "console.log(news.toHTML());"
+    ],
+    "docstrings": [
+        "*Для вывода информации о новости создадим отдельный класс"
+    ],
+    "functions": [
+        "update",
+        "html",
+        "json",
+        "xml"
+    ],
+    "classes": [
+        "New",
+        "NewsPrinter"
+    ]
+}

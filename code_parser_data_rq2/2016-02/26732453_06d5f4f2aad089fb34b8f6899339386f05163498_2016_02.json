@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "LanguageExt",
+        "T",
+        "T",
+        "T",
+        "IEnumerator",
+        "T",
+        "Lst",
+        "T",
+        "empty",
+        "T",
+        "T",
+        "seq",
+        "seq",
+        "seq",
+        "iter",
+        "seq",
+        "GetEnumerator",
+        "T",
+        "sync",
+        "item",
+        "items",
+        "item",
+        "iter",
+        "MoveNext",
+        "items",
+        "items",
+        "Add",
+        "iter",
+        "Current",
+        "iter",
+        "Current",
+        "IEnumerator",
+        "T",
+        "AsEnumerable",
+        "GetEnumerator",
+        "AsEnumerable",
+        "GetEnumerator"
+    ],
+    "literals": [],
+    "variables": [
+        "seq",
+        "iter",
+        "items",
+        "sync"
+    ],
+    "comments": [
+        "Enumerable memoization.  As an enumerable is enumerated each item is retained",
+        "in an internal list, so that future evalation of the enumerable isn't done.",
+        "Only items not seen before are evaluated.",
+        "",
+        "This minimises one of the major problems with the IEnumerable / yield return",
+        "pattern by causing at-most-once evaluation of each item.",
+        "",
+        "Use the IEnumerable extension method Memo for convenience.",
+        "</summary>",
+        "<remarks>",
+        "Although this allows efficient lazy evaluation, it does come at a memory cost.",
+        "Each item is cached internally, so this method doesn't allow for evaluation of",
+        "infinite sequences.",
+        "</remarks>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "MemoEnumerable",
+        "AsEnumerable",
+        "GetEnumerator",
+        "IEnumerator",
+        "GetEnumerator"
+    ],
+    "classes": [
+        "MemoEnumerable"
+    ]
+}

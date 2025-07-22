@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "require",
+        "context",
+        "clientId",
+        "clientSecret",
+        "deviceName",
+        "scope",
+        "clientId",
+        "clientSecret",
+        "deviceName",
+        "scope",
+        "context",
+        "qs",
+        "ClientCredentialsStrategy"
+    ],
+    "literals": [
+        "'qs'",
+        "'post'",
+        "${this.context.getAuthUrl()}/oauth2/token",
+        "'client_credentials'",
+        "'bearer'",
+        "'Authorization'",
+        "Basic ${this.clientSecret}"
+    ],
+    "variables": [
+        "qs"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Implementation of client credentials authentication.\n *\n * @class\n * @See \"Client credentials flow\" section of documentation.",
+        "* @constructor\n   *\n   * @param {Ustream} context\n   * @param {string} clientId   - 40 character sha1 hash, provided by IBM Video\n   *  Streaming.\n   * @param {string} clientSecret - A hash provided along with the Client key.\n   * @param {string} deviceName - Device name.\n   * @param {string} scope      - Currently, only use of the \"broadcaster\"\n   *  scope is supported. If the parameter is empty, no scope will be set.",
+        "* Authorizes request using Ustream client credentials.\n   *\n   * @returns {Promise}"
+    ],
+    "functions": [
+        "authorize"
+    ],
+    "classes": [
+        "ClientCredentialsStrategy"
+    ]
+}

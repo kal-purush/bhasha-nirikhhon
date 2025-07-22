@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Linq",
+        "Threading",
+        "Tasks",
+        "Microsoft",
+        "AspNetCore",
+        "Authorization",
+        "AuthorizationHandler",
+        "HasScopeRequirement",
+        "AuthorizationHandlerContext",
+        "context",
+        "HasScopeRequirement",
+        "requirement",
+        "context",
+        "User",
+        "HasClaim",
+        "c",
+        "Type",
+        "c",
+        "Issuer",
+        "requirement",
+        "Issuer",
+        "CompletedTask",
+        "context",
+        "User",
+        "FindFirst",
+        "c",
+        "Type",
+        "c",
+        "Issuer",
+        "requirement",
+        "Issuer",
+        "Value",
+        "Split",
+        "scopes",
+        "Any",
+        "s",
+        "requirement",
+        "Scope",
+        "context",
+        "Succeed",
+        "requirement",
+        "CompletedTask"
+    ],
+    "literals": [
+        "\"scope\"",
+        "\"scope\""
+    ],
+    "variables": [
+        "scopes"
+    ],
+    "comments": [
+        "If user does not have the scope claim, get out of here",
+        "Split the scopes string into an array",
+        "Succeed if the scope array contains the required scope"
+    ],
+    "docstrings": [],
+    "functions": [
+        "HandleRequirementAsync"
+    ],
+    "classes": [
+        "HasScopeHandler"
+    ]
+}

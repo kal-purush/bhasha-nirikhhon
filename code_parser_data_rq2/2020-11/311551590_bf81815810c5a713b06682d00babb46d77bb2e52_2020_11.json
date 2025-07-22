@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "city",
+        "city",
+        "$",
+        "apiQuery",
+        "res",
+        "$",
+        "res",
+        "$",
+        "res",
+        "$",
+        "res",
+        "$",
+        "res",
+        "res",
+        "$",
+        "weatherInfo"
+    ],
+    "literals": [
+        "\"#city-input\"",
+        "\"https://api.openweathermap.org/data/2.5/forecast?q=\"",
+        "\"&units=imperial&appid=caf932346b78dde952075fa3fc6aed80\"",
+        "\"GET\"",
+        "\".city-name\"",
+        "'#temperature'",
+        "\"Temperature: \"",
+        "'#wind-speed'",
+        "\"wind-speed:\"",
+        "'#humidity'",
+        "\"humidity:\"",
+        "\"#search-button\"",
+        "\"click\""
+    ],
+    "variables": [
+        "city",
+        "apiQuery"
+    ],
+    "comments": [
+        "var queryURL = \"https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/forecast?q=\"+city+\"&appid=caf932346b78dde952075fa3fc6aed80\"",
+        "$.ajax({",
+        "header: origin,",
+        "url: queryURL,",
+        "method:\"GET\"",
+        "}).then(function(response){",
+        "for(var i = 3; i < 36; i=i+8){",
+        "var temp = (((1.8)*(response.list[i].main.temp-273)+32).toFixed(2)).toString()",
+        "var date = response.list[i].dt_txt.substring(0,10)",
+        "var weather = response.list[i].weather[0].icon",
+        "$(\".date\"+i).html(date)",
+        "$(\".temp\"+i).html(\"Temperature: \" + temp + \"°F\")",
+        "$(\".humidity\"+i).html(\"Humidity: \" + response.list[i].main.humidity + \"%\")",
+        "var icon = $(\"<img src = 'http://openweathermap.org/img/wn/\" + weather + \".png'>\")",
+        "$(\".icon\"+i).html(\"\")",
+        "$(\".icon\"+i).append(icon)",
+        "}",
+        "console.log(weather)",
+        "})"
+    ],
+    "docstrings": [],
+    "functions": [
+        "weatherInfo"
+    ],
+    "classes": []
+}

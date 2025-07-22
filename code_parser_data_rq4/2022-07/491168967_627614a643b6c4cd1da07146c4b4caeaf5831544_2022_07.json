@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "message",
+        "confirmModalDiv",
+        "message",
+        "confirmModalDiv",
+        "resolve",
+        "eventHandler",
+        "e",
+        "e",
+        "resolve",
+        "e",
+        "resolve",
+        "e",
+        "e",
+        "eventHandler",
+        "confirmModalDiv",
+        "eventHandler"
+    ],
+    "literals": [
+        "'div'",
+        "<div style=\"position: fixed; height: 100vh; width: 100vw; display: grid; place-items: center; background: #00000052; top: 0; z-index: 2\">\n            <div style=\"background-color: white; padding: 1rem\">\n                <div style=\"font-size: 1rem\">${message}</div>\n                <div style=\"margin-top: 1rem; text-align: right;\">\n                    <button class=\"button button-green\" id=\"p-confirm\">Confirm</button>\n                    <button class=\"button\" id=\"p-cancel\" style=\"margin-left: 0.5rem\">Cancel</button>\n                </div>\n            </div>\n        </div>",
+        "'p-confirm'",
+        "'p-cancel'",
+        "'p-confirm'",
+        "'p-cancel'",
+        "'click'",
+        "'click'"
+    ],
+    "variables": [
+        "confirmModalDiv",
+        "eventHandler"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "createConfirm"
+    ],
+    "classes": []
+}

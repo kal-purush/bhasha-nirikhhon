@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "db",
+        "i",
+        "i",
+        "i",
+        "aPromise",
+        "db",
+        "conn",
+        "sqlUtils",
+        "conn",
+        "err",
+        "err",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "'./dbsetup'",
+        "'./sqlutils'"
+    ],
+    "variables": [
+        "db",
+        "sqlUtils"
+    ],
+    "comments": [
+        "var initDatabase = async () => {",
+        "await db.init();",
+        "}",
+        "",
+        "initDatabase().then( async () => {",
+        "",
+        "for (i = 0; i < 10000; i++) {",
+        "let connection = db.getConnection();",
+        "sqlUtils.doSomething(await connection);",
+        "}",
+        "",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Text",
+        "Threading",
+        "Tasks",
+        "JoySoftware",
+        "HomeAssistant",
+        "NetDaemon",
+        "Common",
+        "Reactive",
+        "Helto4real",
+        "Powertools",
+        "NetDaemonRxApp",
+        "app",
+        "camera",
+        "app",
+        "CameraSnapshot",
+        "camera",
+        "app",
+        "NotifyImage",
+        "camera",
+        "imagePath",
+        "NetDaemonRxApp",
+        "app",
+        "message",
+        "app",
+        "CallService",
+        "message",
+        "message",
+        "target",
+        "NetDaemonRxApp",
+        "app",
+        "message",
+        "imagePath",
+        "imagePath",
+        "app",
+        "CallService",
+        "data",
+        "message",
+        "message",
+        "target"
+    ],
+    "literals": [
+        "\"notify\"",
+        "\"hass_discord\"",
+        "\"511278310584746008\"",
+        "\"images\"",
+        "\"notify\"",
+        "\"hass_discord\"",
+        "\"511278310584746008\""
+    ],
+    "variables": [
+        "imagePath"
+    ],
+    "comments": [
+        "Takes a snapshot of given entity id of camera and sends to private discord server",
+        "</summary>",
+        "<param name=\"app\">NetDaemonApp to extend</param>",
+        "<param name=\"camera\">Unique id of the camera</param>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "CameraTakeSnapshotAndNotify",
+        "Notify",
+        "NotifyImage"
+    ],
+    "classes": [
+        "DaemonAppExtensions"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "getMainWindow",
+        "key",
+        "parse",
+        "getMainWindow",
+        "mainWindow",
+        "mainWindow",
+        "key",
+        "localStorageValue",
+        "localStorageValue",
+        "result",
+        "parse",
+        "localStorageValue",
+        "localStorageValue",
+        "result",
+        "key",
+        "value",
+        "getMainWindow",
+        "mainWindow",
+        "mainWindow",
+        "key",
+        "value"
+    ],
+    "literals": [
+        "\"../main-window\"",
+        "string",
+        "localStorage.getItem(\"${key}\");",
+        "string",
+        "localStorage.setItem(\"${key}\", ${JSON.stringify(value)});"
+    ],
+    "variables": [
+        "settings",
+        "mainWindow",
+        "result",
+        "mainWindow"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @description LocalStorage wrapper for the main window\n * @example\n * import { settings } from \"./utils/settings\";\n *\n * // Get a value\n * const value = settings.get(\"key\", true);\n *\n * // Set a value\n * settings.set(\"key\", value);"
+    ],
+    "functions": [],
+    "classes": []
+}

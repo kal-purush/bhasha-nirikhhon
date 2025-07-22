@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "c_SCHEMAID"
+    ],
+    "literals": [
+        "\"0xfdcfdad2dbe7489e0ce56b260348b7f14e8365a8a325aef9834818c00d46b31b\"",
+        "query Query($where: AttestationWhereInput) {\n          attestations(where: $where) {\n            attester\n            recipient\n            decodedDataJson\n            timeCreated\n          }\n        }",
+        "\"0x621477dBA416E12df7FF0d48E14c4D20DC85D7D9\"",
+        "\"https://optimism.easscan.org/graphql\""
+    ],
+    "variables": [
+        "c_SCHEMAID",
+        "c_QUERY",
+        "c_GQL_VARIABLES",
+        "c_ATTESTER",
+        "c_CLIENT_URI"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

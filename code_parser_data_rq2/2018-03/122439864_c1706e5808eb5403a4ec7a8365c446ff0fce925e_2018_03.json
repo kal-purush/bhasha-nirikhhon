@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "c",
+        "Citizen",
+        "c2",
+        "y",
+        "n",
+        "n",
+        "greet",
+        "y",
+        "x1",
+        "a",
+        "y1",
+        "b",
+        "s",
+        "y1",
+        "x1",
+        "x2",
+        "y2",
+        "x2",
+        "y2",
+        "o",
+        "o",
+        "bivariance",
+        "noun",
+        "bivariance",
+        "city",
+        "bivariance",
+        "newYork"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "\"foo\"",
+        "string",
+        "\"Alice\"",
+        "\"Alice\"",
+        "\"Seattle\"",
+        "string",
+        "string",
+        "string",
+        "\"Noun\"",
+        "\"City\"",
+        "\"NewYork\""
+    ],
+    "variables": [
+        "c",
+        "c2",
+        "y",
+        "x1",
+        "y1",
+        "x2",
+        "y2",
+        "noun",
+        "city",
+        "newYork"
+    ],
+    "comments": [
+        "Structural typing",
+        "comparing functions",
+        "OK",
+        "x1 = y1; // Error",
+        "OK",
+        "y2 = x2; // Error because x()",
+        "lacks a location property",
+        "Bivariance",
+        "allows more specialized and less",
+        "specialized types to be passed",
+        "Sub-types of ICity and Super-types of",
+        "of ICity are compatible."
+    ],
+    "docstrings": [],
+    "functions": [
+        "greet",
+        "bivariance"
+    ],
+    "classes": [
+        "Citizen"
+    ]
+}

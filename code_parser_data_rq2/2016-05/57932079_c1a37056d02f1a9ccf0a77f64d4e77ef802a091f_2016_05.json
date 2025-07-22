@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "neu",
+        "mr",
+        "cs6240",
+        "a3_redux",
+        "java",
+        "util",
+        "neu",
+        "mr",
+        "cs6240",
+        "pseudo_cloud",
+        "AvgPricePerMonthDriver",
+        "preArgs",
+        "args",
+        "validateCLIArgs",
+        "preArgs",
+        "args",
+        "length",
+        "err",
+        "exit",
+        "driver",
+        "driver",
+        "run",
+        "args",
+        "preArgs",
+        "tempArgs",
+        "i",
+        "i",
+        "preArgs",
+        "length",
+        "i",
+        "options",
+        "preArgs",
+        "i",
+        "split",
+        "preArgs",
+        "i",
+        "startsWith",
+        "preArgs",
+        "i",
+        "contains",
+        "options",
+        "length",
+        "tempArgs",
+        "add",
+        "options",
+        "args",
+        "tempArgs",
+        "size",
+        "args",
+        "tempArgs",
+        "toArray",
+        "args",
+        "args"
+    ],
+    "literals": [
+        "\"Usage: -s3JarPath=<s3 Path of Jar> -input=<input path> -output=<output path> -calculate=<e | d | f>\"",
+        "\"Starting--Pseudo\"",
+        "\"=\"",
+        "\"-\"",
+        "\"=\""
+    ],
+    "variables": [],
+    "comments": [
+        "Running the code in pseudo mode"
+    ],
+    "docstrings": [
+        "* @author ajay subramanya & smitha bangalore naresh\n * @date 02/05/2016\n * @info Assignment 3 Main class to start the program Command lines as specified\n *       below to choose appropriate run configuration and calculation",
+        "* Command Line Arguments <input path> <output path> <s | m | p | c> <e | d\n\t * | f>\n\t *\n\t * <s | m | p | c> flags are described as below : s -> Run single threaded\n\t * sequential program m -> Run multi threaded program p -> Run on pseudo\n\t * distributed mode c -> Run on cloud\n\t *\n\t * <e | d | f> flags are described as below : e -> Calculate Mean d ->\n\t * Calculate Median f -> Calculate Fast Median\n\t *",
+        "* validates the arguments coming to the code keeps only arguments passed in\n\t * the format <-someName=someValue> ignores any other format\n\t *\n\t * @param preArgs\n\t *            String array of all the arguments passed to the code\n\t * @return args String array of only valid arguments",
+        "* adding only if (1) argument starts with '-' (2) contains '=' (3)\n\t\t\t * length of the split is more than 1, else for default options will\n\t\t\t * throw ArrayIndexOutOfBoundsException"
+    ],
+    "functions": [
+        "main",
+        "validateCLIArgs"
+    ],
+    "classes": [
+        "App"
+    ]
+}

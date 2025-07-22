@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "df",
+        "df",
+        "df",
+        "df",
+        "event_target",
+        "mail_events",
+        "shape",
+        "repr",
+        "clickcount",
+        "repr",
+        "round",
+        "mail_events",
+        "mail_events",
+        "more_info",
+        "shape",
+        "clickcount",
+        "repr",
+        "round",
+        "sum",
+        "mail_events",
+        "more_info",
+        "startswith",
+        "clickcount"
+    ],
+    "literals": [
+        "'LOGIN'",
+        "'REPORT'",
+        "'Total amount of email clicks: '",
+        "'Percentage of SHOW-IN-SERVICE clicks: '",
+        "'SHOW-IN-SERVICE'",
+        "'Percentage of URL clicks: '",
+        "'http://'"
+    ],
+    "variables": [
+        "mail_events",
+        "clickcount"
+    ],
+    "comments": [
+        "show-in-service & URL mail clicks",
+        "print 'Amount of individual users : '+repr(mail_events.target_email.unique().shape[0])"
+    ],
+    "docstrings": [],
+    "functions": [
+        "click_percentages"
+    ],
+    "classes": []
+}

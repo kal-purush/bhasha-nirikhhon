@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "players",
+        "map_name",
+        "players",
+        "load_data",
+        "map_name"
+    ],
+    "literals": [
+        "'default'"
+    ],
+    "variables": [
+        "players"
+    ],
+    "comments": [
+        "List of player usernames"
+    ],
+    "docstrings": [
+        "\"\"\" Initialize a new game. \"\"\"",
+        "\"\"\" Load game attributes from raw game state. \"\"\"",
+        "\"\"\" Turn game into a serialized game state for storage. \"\"\"",
+        "\"\"\" Execute a round. \"\"\""
+    ],
+    "functions": [
+        "load_from_state",
+        "serialize",
+        "update"
+    ],
+    "classes": [
+        "Game"
+    ]
+}

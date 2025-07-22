@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "ec",
+        "cc",
+        "uf",
+        "ec",
+        "cc",
+        "uf"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "",
+        "Define classes used by tsBot et. al.",
+        "",
+        "API_CHAT, etc.",
+        "!dothis",
+        "function ptr by name",
+        "allocate Table as an empty array of the command class",
+        "Build the CommandTable when it is first allocated",
+        "thus, command !xyz is at the end of the table",
+        "this.Table.push(new command(API_CHAT, \"!xyz\", \"xyz_command\"));",
+        "and command !abc is at the front...",
+        "this.Table.push(new command(API_CHAT, \"!abc\", \"abc_command\"));"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "command",
+        "commandTable"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "HtmlAgilityPack",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "AgilityParkTest",
+        "args",
+        "HtmlWeb",
+        "web",
+        "Load",
+        "html",
+        "htmlDoc",
+        "DocumentNode",
+        "Descendants",
+        "WriteLine",
+        "node",
+        "ReadLine"
+    ],
+    "literals": [
+        "\"//body/\""
+    ],
+    "variables": [
+        "html",
+        "HtmlWeb",
+        "web",
+        "htmlDoc",
+        "node"
+    ],
+    "comments": [
+        "var html = @\"https://www.yelp.com/biz/the-smoking-ribs-garden-grove?osq=Restaurants\";",
+        "var node = htmlDoc.DocumentNode.SelectSingleNode(\"//body/h1\");",
+        "Console.WriteLine(node.OuterHtml);",
+        "var node = htmlDoc.DocumentNode.SelectSingleNode(\"//head/title\");"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Main"
+    ],
+    "classes": [
+        "Program"
+    ]
+}

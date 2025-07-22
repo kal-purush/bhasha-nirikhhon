@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "prisma",
+        "DebugSubmissions",
+        "cache",
+        "Results",
+        "UserData",
+        "DetailedScoreInfo",
+        "getProblemsScore",
+        "user",
+        "user",
+        "prisma",
+        "tid",
+        "tid",
+        "subInfo",
+        "subsInfo",
+        "result",
+        "dpid",
+        "subResult",
+        "subInfo",
+        "result",
+        "cache",
+        "getProblemsScore"
+    ],
+    "literals": [
+        "\"@database/prisma/instance\"",
+        "\"@prisma/client\"",
+        "\"react\"",
+        "\"@/shared/types\"",
+        "\"./getProblemScore\"",
+        "string",
+        "\"dpid\"",
+        "\"diff\"",
+        "\"score\"",
+        "\"result\"",
+        "\"drid\"",
+        "WITH score_table AS (\n      SELECT MAX(ds.score) AS score, ds.dpid\n      FROM debug_submissions ds\n      WHERE ds.tid = ${tid}\n      GROUP BY ds.dpid\n    )\n    SELECT ds.dpid, ds.diff, st.score, ds.result, ds.drid\n    FROM score_table st\n    JOIN debug_submissions ds ON ds.score = st.score AND ds.dpid = st.dpid\n    WHERE ds.tid = ${tid}\n    GROUP BY ds.dpid"
+    ],
+    "variables": [
+        "getProblemsScore",
+        "tid",
+        "subsInfo",
+        "result",
+        "subResult",
+        "getMemoProblemsScore"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

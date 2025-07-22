@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "AuthService",
+        "Review",
+        "FirebaseListObservable",
+        "AngularFire",
+        "Component",
+        "IonicPage",
+        "NavController",
+        "NavParams",
+        "ViewController",
+        "IonicPage",
+        "Component",
+        "navCtrl",
+        "navParams",
+        "af",
+        "authService",
+        "viewCtrl"
+    ],
+    "literals": [
+        "'./../../providers/auth-service'",
+        "'./../../models/review'",
+        "'angularfire2'",
+        "'@angular/core'",
+        "'ionic-angular'",
+        "'page-review-list'",
+        "'review-list.html'",
+        "string",
+        "\"\"",
+        "\"reviewType\"",
+        "/users/${this.authService.authState.uid}/${this.reviewType}Reviews",
+        "'ionViewDidLoad ReviewList'"
+    ],
+    "variables": [],
+    "comments": [
+        "TODO: switch between buyer and Shopper reviews"
+    ],
+    "docstrings": [
+        "* Generated class for the ReviewList page.\n *\n * See http://ionicframework.com/docs/components/#navigation for more info\n * on Ionic pages and navigation."
+    ],
+    "functions": [
+        "ionViewDidLoad",
+        "closeModal"
+    ],
+    "classes": [
+        "ReviewList"
+    ]
+}

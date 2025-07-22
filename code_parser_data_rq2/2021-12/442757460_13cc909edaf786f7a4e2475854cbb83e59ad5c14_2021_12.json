@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "args",
+        "args",
+        "Equal",
+        "Expect",
+        "fn",
+        "fn1",
+        "fn",
+        "v",
+        "v",
+        "fn1",
+        "v",
+        "w",
+        "v"
+    ],
+    "literals": [
+        "\"@type-challenges/utils\"",
+        "string",
+        "string",
+        "\"foo\"",
+        "\"foo\"",
+        "\"foo\"",
+        "\"hello\""
+    ],
+    "variables": [
+        "fn",
+        "fn1"
+    ],
+    "comments": [
+        "2 - Get Return Type\n  -------\n  by Anthony Fu (@antfu) #medium #infer #built-in\n  \n  ### Question\n  \n  Implement the built-in `ReturnType<T>` generic without using it.\n  \n  For example\n  \n  ```ts\n  const fn = (v: boolean) => {\n    if (v)\n      return 1\n    else\n      return 2\n  }\n  \n  type a = MyReturnType<typeof fn> // should be \"1 | 2\"\n  ```\n  \n  > View on GitHub: https://tsch.js.org/2",
+        "_____________ Your Code Here _____________",
+        "_____________ Test Cases _____________",
+        "_____________ Further Steps _____________",
+        "> Share your solutions: https://tsch.js.org/2/answer\n  > View solutions: https://tsch.js.org/2/solutions\n  > More Challenges: https://tsch.js.org"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

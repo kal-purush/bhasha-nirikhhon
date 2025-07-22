@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "app",
+        "BrowserWindow",
+        "ApiServer",
+        "parseArgs",
+        "ArgsCallback",
+        "IConfig",
+        "config",
+        "AppCallback",
+        "config",
+        "ManniApp",
+        "config",
+        "manniApp",
+        "Electron",
+        "config",
+        "ApiServer",
+        "config",
+        "BrowserWindow",
+        "__dirname",
+        "app",
+        "app",
+        "process",
+        "app",
+        "app"
+    ],
+    "literals": [
+        "\"electron\"",
+        "\"./api-server\"",
+        "\"./cli-commands\"",
+        "\"shelljs\"",
+        "\"/../icon.png\"",
+        "\"http://localhost:9482/index.html\"",
+        "\"right\"",
+        "\"closed\"",
+        "\"ready\"",
+        "\"window-all-closed\"",
+        "\"darwin\"",
+        "\"activate\""
+    ],
+    "variables": [
+        "AppCallback",
+        "manniApp"
+    ],
+    "comments": [
+        "Create the browser window.",
+        "tslint:disable-next-line:no-null-keyword",
+        "and load the index.html of the app.",
+        "mainWindow.loadFile(path.join(__dirname, \"app/index.html\"));",
+        "Open the DevTools.",
+        "Emitted when the window is closed.",
+        "Dereference the window object, usually you would store windows",
+        "in an array if your app supports multi windows, this is the time",
+        "when you should delete the corresponding element."
+    ],
+    "docstrings": [],
+    "functions": [
+        "createWindow",
+        "init"
+    ],
+    "classes": [
+        "ManniApp"
+    ]
+}

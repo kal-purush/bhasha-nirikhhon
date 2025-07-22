@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "MappingProviderCore",
+        "Abstract",
+        "IMappingServiceProvider",
+        "Func",
+        "TTarget",
+        "source",
+        "TTarget",
+        "source",
+        "target",
+        "source",
+        "Type",
+        "targetType",
+        "source",
+        "target",
+        "TSource",
+        "TTarget",
+        "Func",
+        "TSource",
+        "TTarget",
+        "TTarget",
+        "func"
+    ],
+    "literals": [],
+    "variables": [
+        "DefaultMapper"
+    ],
+    "comments": [
+        "this namespace contains abstract structures for mapping",
+        "</summary>",
+        "Supplies abstract structure for mapping service providers",
+        "</summary>",
+        "default mapper instance",
+        "</summary>",
+        "this is the abstract definition of map method with a generic type parameter",
+        "</summary>",
+        "<typeparam name=\"TTarget\">target type</typeparam>",
+        "<param name=\"source\">source instance</param>",
+        "<returns>an instance of target type</returns>",
+        "this is the abstract definition of map method with a generic type parameter",
+        "</summary>",
+        "<typeparam name=\"TTarget\">target type</typeparam>",
+        "<param name=\"source\">source instance</param>",
+        "<param name=\"target\">target instance</param>",
+        "<returns>an instance of target type</returns>",
+        "this is the abstract definition of map method",
+        "</summary>",
+        "<param name=\"source\">source instance</param>",
+        "<param name=\"targetType\">target type</param>",
+        "<returns>an instance of target type</returns>",
+        "this definition supplies abstraction for mapper registration",
+        "</summary>",
+        "<typeparam name=\"TSource\">source type</typeparam>",
+        "<typeparam name=\"TTarget\">target type</typeparam>",
+        "<param name=\"func\">mapper function</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "TTarget",
+        "TTarget",
+        "Register"
+    ],
+    "classes": []
+}

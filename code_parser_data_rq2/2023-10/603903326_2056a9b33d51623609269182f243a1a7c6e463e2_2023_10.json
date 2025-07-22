@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "mongoose",
+        "CONNECTION_STR",
+        "DATABASE_NAME",
+        "DATABASE_NAME",
+        "Pet",
+        "pets",
+        "error",
+        "err",
+        "connectDB"
+    ],
+    "literals": [
+        "'mongoose'",
+        "'mongodb://127.0.0.1:27017'",
+        "'test1'",
+        "\"./models/pet\"",
+        "${CONNECTION_STR}/${DATABASE_NAME}",
+        "You have be conected to database:${DATABASE_NAME}...",
+        "'Database error connection'"
+    ],
+    "variables": [
+        "mongoose",
+        "CONNECTION_STR",
+        "DATABASE_NAME",
+        "Pet",
+        "pets"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "connectDB"
+    ],
+    "classes": []
+}

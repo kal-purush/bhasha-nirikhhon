@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "require",
+        "callback",
+        "db",
+        "callback",
+        "Alert",
+        "callback",
+        "db",
+        "Alert",
+        "Alert",
+        "Alert",
+        "Alert",
+        "callback",
+        "Alert",
+        "callback",
+        "db",
+        "Alert",
+        "callback",
+        "Alert"
+    ],
+    "literals": [
+        "'../connexion'",
+        "'SELECT * from alert'",
+        "'Insert into alert(numero_du_conducteur, numero_du_membre, numero_du_trajet, message_alert) values(?,?,?,?)'",
+        "'DELETE from alert WHERE id_alert = ?'"
+    ],
+    "variables": [
+        "db",
+        "Alert"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

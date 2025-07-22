@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "mockData",
+        "IEvent",
+        "IMockData",
+        "mockData",
+        "nextEvent",
+        "disciplines"
+    ],
+    "literals": [
+        "'../data.json'",
+        "'../model/event.model'",
+        "'../model/mockData.model'"
+    ],
+    "variables": [
+        "disciplines"
+    ],
+    "comments": [
+        "const uniqueDisciplines = [...new Set(disciplines)]",
+        "const uniqueDisciplines: Array<string> = disciplines.filter(",
+        "(discipline, index) => disciplines.indexOf(discipline) === index",
+        ")",
+        "return uniqueDisciplines"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getEvents",
+        "getEventsTitle"
+    ],
+    "classes": [
+        "MockDataHelper"
+    ]
+}

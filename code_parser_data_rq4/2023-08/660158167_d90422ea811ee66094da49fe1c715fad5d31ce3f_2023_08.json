@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "com",
+        "dragos",
+        "database",
+        "java",
+        "sql",
+        "Connection",
+        "java",
+        "sql",
+        "DriverManager",
+        "java",
+        "sql",
+        "SQLException",
+        "args",
+        "userWantsToExit",
+        "connection",
+        "getConnection",
+        "connection",
+        "connection",
+        "close",
+        "sleep",
+        "e",
+        "e",
+        "printStackTrace",
+        "userInput",
+        "userInput",
+        "equalsIgnoreCase",
+        "dbUrl",
+        "user",
+        "DriverManager",
+        "getConnection",
+        "dbUrl",
+        "user"
+    ],
+    "literals": [
+        "\"\"",
+        "\"q\"",
+        "\"jdbc:mysql://localhost:3306/bankapp\"",
+        "\"user\"",
+        "\"user\""
+    ],
+    "variables": [],
+    "comments": [
+        "Run the database connection until the user presses a button (e.g., enters \"q\")",
+        "Check if the user pressed the exit button (e.g., entered \"q\")",
+        "Break the loop if the user wants to exit",
+        "Connect to the database and perform your database operations",
+        "Perform your database operations here...",
+        "For example: execute queries, insert data, etc.",
+        "Close the database connection",
+        "Wait for a short duration before the next database connection attempt",
+        "You can adjust the sleep duration as needed",
+        "Method to check if the user wants to exit (for demonstration purposes)",
+        "Implement your logic to detect user input (e.g., pressing a button)",
+        "For demonstration purposes, let's assume the user enters \"q\" to exit.",
+        "Get the user input here (e.g., using Scanner)",
+        "Method to get a database connection"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main",
+        "userWantsToExit",
+        "Connection",
+        "getConnection"
+    ],
+    "classes": [
+        "ContinuousDatabaseConnection"
+    ]
+}

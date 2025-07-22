@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "utils",
+        "init",
+        "import_original_module",
+        "wrappers",
+        "lambda_wrapper",
+        "import_original_module",
+        "getattr",
+        "original_module",
+        "handler_name",
+        "AttributeError",
+        "AttributeError",
+        "format",
+        "handler_name",
+        "module_path",
+        "init",
+        "lambda_wrapper",
+        "init_module"
+    ],
+    "literals": [
+        "'No handler {} in module {}'"
+    ],
+    "variables": [
+        "original_module",
+        "module_path",
+        "handler_name",
+        "wrapper"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nEpsagon generic wrapper used only in Lambda environments.\n\"\"\"",
+        "\"\"\"\n    Initialize user's module handler.\n    :return: wrapper handler.\n    \"\"\""
+    ],
+    "functions": [
+        "init_module"
+    ],
+    "classes": []
+}

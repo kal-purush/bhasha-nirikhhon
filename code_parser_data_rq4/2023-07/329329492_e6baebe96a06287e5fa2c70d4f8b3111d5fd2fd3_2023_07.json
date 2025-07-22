@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "Type",
+        "_angularCore",
+        "_angularCore",
+        "angularCore",
+        "angularCore"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/core'",
+        "'isStandalone'",
+        "'ɵisStandalone'"
+    ],
+    "variables": [
+        "angularCore",
+        "isStandalone"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Checks whether a given Component, Directive or Pipe is marked as standalone.\n * This will return false if passed anything other than a Component, Directive,\n * or Pipe class\n * See this guide for additional information: https://angular.io/guide/standalone-components\n *\n * @param type A reference to a Component, Directive or Pipe.\n *\n * @remarks This is here to support Angular 15.0 where the `isStandalone`\n *   function is named `ɵisStandalone` and considered internal.\n *\n * @deprecated To be removed in Spectacular 16.0.\n *\n * @internal"
+    ],
+    "functions": [],
+    "classes": []
+}

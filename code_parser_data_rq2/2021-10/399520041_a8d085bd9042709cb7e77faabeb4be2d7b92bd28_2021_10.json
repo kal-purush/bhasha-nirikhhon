@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "petsData",
+        "prompt",
+        "userInput",
+        "petsData",
+        "userInput",
+        "petsData",
+        "userInput",
+        "petsData",
+        "userInput",
+        "petsData",
+        "userInput",
+        "gatherInfo",
+        "outputInfo",
+        "gatherInfo",
+        "alert"
+    ],
+    "literals": [
+        "\"Stella\"",
+        "\"Dalmation\"",
+        "\"Cody\"",
+        "\"Corgi\"",
+        "\"Mango\"",
+        "\"Persian\"",
+        "\"Lucy\"",
+        "\"Ball Python\"",
+        "\"Buhmie\"",
+        "\"Bull-dog\"",
+        "\"Please enter a number between  0 and 4\"",
+        "${petsData[userInput].petName} the cat is ${petsData[userInput].age} years old. his cat weighs ${petsData[userInput].weightInKilos} kilos and is a ${petsData[userInput].breed} breed",
+        "\".petsData\"",
+        "${gatherInfo}",
+        "\"Please select your number btween 0 and 4.\""
+    ],
+    "variables": [
+        "petsData",
+        "userInput",
+        "gatherInfo",
+        "outputInfo"
+    ],
+    "comments": [
+        "To know how many values we have in Pets Data.",
+        "console.log(petsData.length) is 5, so the number shloud be btween 0 and 4."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

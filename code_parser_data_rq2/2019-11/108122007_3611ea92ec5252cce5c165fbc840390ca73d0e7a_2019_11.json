@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "Component",
+        "IWidget",
+        "Vue",
+        "MapDatasource",
+        "IMapLayer",
+        "Component",
+        "require",
+        "Vue",
+        "mapboxgl",
+        "i",
+        "i"
+    ],
+    "literals": [
+        "'vue-class-component'",
+        "'@csnext/cs-core'",
+        "'./layers-widget-component.css'",
+        "'vue-property-decorator'",
+        "'../..'",
+        "'../../classes/imap-layer'",
+        "'layers-widget-component'",
+        "'./layers-widget-component.html'"
+    ],
+    "variables": [],
+    "comments": [
+        "if (this.manager.events) {",
+        "this.manager.events.subscribe(",
+        "CsMap.DRAWLAYER,",
+        "(a: string, l: IMapLayer) => {",
+        "}",
+        ");",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "activeLayers",
+        "mounted"
+    ],
+    "classes": [
+        "LayersWidgetComponent"
+    ]
+}

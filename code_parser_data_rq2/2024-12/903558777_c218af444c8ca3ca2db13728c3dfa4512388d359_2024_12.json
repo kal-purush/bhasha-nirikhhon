@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "props",
+        "props",
+        "styled",
+        "SummaryContentContainer",
+        "props",
+        "props",
+        "styled",
+        "props",
+        "props",
+        "styled",
+        "props",
+        "props"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  gap: 2rem;\n  margin: 0 auto;\n  width: 100%;\n  max-width: 1120px;\n  margin-top: -5rem;\n  padding: 0 1.5rem;",
+        "display: flex;\n  flex-direction: column;\n  gap: 0.75rem;\n  padding: 1.5rem;\n  padding-left: 2rem;\n  border-radius: 6px;\n  background-color: ${props => props.theme['gray-600']};",
+        "'gray-600'",
+        "background-color: ${props => props.theme['green-500']};",
+        "'green-500'",
+        "display: flex;\n  justify-content: space-between;\n\n  span {\n    font: 400 1rem Roboto, sans-serif;\n    color: ${props => props.theme['gray-300']};\n    line-height: 1.6;\n  }",
+        "'gray-300'",
+        "font: 700 2rem Roboto, sans-serif;\n  color: ${props => props.theme['gray-100']};\n  line-height: 1.4;",
+        "'gray-100'"
+    ],
+    "variables": [
+        "SummaryContainer",
+        "SummaryContentContainer",
+        "GreenSummaryContentContainer",
+        "SummaryTitleAndIconContainer",
+        "SummaryContentValue"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

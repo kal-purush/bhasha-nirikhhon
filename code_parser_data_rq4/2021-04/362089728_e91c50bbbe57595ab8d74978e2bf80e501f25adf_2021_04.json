@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "com",
+        "sunrise",
+        "utils",
+        "org",
+        "apache",
+        "ibatis",
+        "io",
+        "Resources",
+        "org",
+        "apache",
+        "ibatis",
+        "session",
+        "SqlSession",
+        "org",
+        "apache",
+        "ibatis",
+        "session",
+        "SqlSessionFactory",
+        "org",
+        "apache",
+        "ibatis",
+        "session",
+        "SqlSessionFactoryBuilder",
+        "java",
+        "io",
+        "java",
+        "io",
+        "InputStream",
+        "sqlSessionFactory",
+        "resource",
+        "Resources",
+        "getResourceAsStream",
+        "resource",
+        "sqlSessionFactory",
+        "build",
+        "e",
+        "e",
+        "printStackTrace",
+        "sqlSessionFactory",
+        "openSession"
+    ],
+    "literals": [
+        "\"mybatis-config.xml\""
+    ],
+    "variables": [
+        "sqlSessionFactory"
+    ],
+    "comments": [
+        "提升变量的作用域"
+    ],
+    "docstrings": [
+        "* 使用mybatis步骤：\n * 1.通过静态代码块来获取SqlSessionFactory(使用工厂模式构建)\n * 2.从SqlSessionFactory中获取sqlSession实例"
+    ],
+    "functions": [
+        "MybatisUtils",
+        "SqlSession",
+        "getSqlSession"
+    ],
+    "classes": [
+        "MybatisUtils"
+    ]
+}

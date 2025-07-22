@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "res",
+        "statuscode",
+        "statuscode",
+        "p",
+        "req",
+        "ActiveXObject",
+        "req",
+        "XMLHttpRequest",
+        "req",
+        "req",
+        "req",
+        "req",
+        "p",
+        "p",
+        "p",
+        "req",
+        "req",
+        "req",
+        "p",
+        "p",
+        "req",
+        "p",
+        "req",
+        "p",
+        "req",
+        "req",
+        "p",
+        "req",
+        "p",
+        "req",
+        "p"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'ActiveXObject'",
+        "'Microsoft.XMLHTTP'",
+        "'XMLHttpRequest'",
+        "'json'",
+        "'POST'",
+        "\"POST\"",
+        "'X-Requested-With'",
+        "'XMLHttpRequest'",
+        "'Content-type'",
+        "'application/x-www-form-urlencoded'",
+        "\"GET\"",
+        "''"
+    ],
+    "variables": [
+        "req"
+    ],
+    "comments": [
+        "'GET' or 'POST'. if undefined then 'GET'.",
+        "if undefinded then 'application/x-www-form-urlencoded'",
+        "response type. if 'json' then response parsed to json.",
+        "if dataType is 'json' then res is Object(json). Otherwise res is string.",
+        "not completed",
+        "success",
+        "failed"
+    ],
+    "docstrings": [],
+    "functions": [
+        "nanoAjax"
+    ],
+    "classes": []
+}

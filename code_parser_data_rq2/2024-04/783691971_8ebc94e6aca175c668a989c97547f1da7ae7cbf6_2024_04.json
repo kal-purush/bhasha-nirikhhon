@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Azure",
+        "Messaging",
+        "ServiceBus",
+        "Run",
+        "EventGridTrigger",
+        "ImageEvent",
+        "input",
+        "FunctionContext",
+        "context",
+        "logger",
+        "LogInformation",
+        "JsonConvert",
+        "DeserializeObject",
+        "EventData",
+        "input",
+        "Data",
+        "ToString",
+        "ServiceBusClient",
+        "serviceBusConnectionString",
+        "client",
+        "CreateSender",
+        "queueName",
+        "Now",
+        "imageUploaded",
+        "eventData",
+        "contentType",
+        "sender",
+        "SendMessageAsync",
+        "message"
+    ],
+    "literals": [
+        "\"Event Recieved...................!\"",
+        "\"Endpoint=sb://vv00imgservicebus.servicebus.windows.net/;SharedAccessKeyName=RootManagedSharedAccessKeys;SharedAccessKey=ImDqRVwvvGJL8cU1QQVaHVjeBTO5zicE8+ASbHe0UR4=;EntityPath=vv00imgqueue\""
+    ],
+    "variables": [
+        "eventData",
+        "serviceBusConnectionString",
+        "client",
+        "ServiceBusSender",
+        "sender",
+        "messageValue"
+    ],
+    "comments": [
+        "-----------------------------------------------------------------------------------",
+        "Default URL for triggering event grid function in the local environment.",
+        "http://localhost:7071/runtime/webhooks/EventGrid?functionName={functionname}",
+        "-----------------------------------------------------------------------------------",
+        "[EventGridOutput(TopicEndpointUri = \"MyEventGridTopicUriSetting\", TopicKeySetting = \"MyEventGridTopicKeySetting\")]",
+        "------------------Capture Event and create logs-----------------------------",
+        "------------------Convert Event Data Json to object and get image name-----------------------------",
+        "------------------Send messages to Azure Service Bus-----------------------------",
+        "since ServiceBusClient implements IAsyncDisposable we create it with \"await using\"",
+        "create the sender",
+        "create a message that we can send. UTF-8 encoding is used when providing a string.",
+        "send the message"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

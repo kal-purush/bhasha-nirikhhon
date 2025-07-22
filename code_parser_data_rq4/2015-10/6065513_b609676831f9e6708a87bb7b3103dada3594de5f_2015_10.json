@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "logging",
+        "persistent",
+        "PersistentList",
+        "Products",
+        "CMFCore",
+        "utils",
+        "getToolByName",
+        "logging",
+        "getLogger",
+        "context",
+        "getToolByName",
+        "context",
+        "ctool",
+        "logger",
+        "info",
+        "len",
+        "brains",
+        "brain",
+        "brains",
+        "i",
+        "i",
+        "logger",
+        "info",
+        "i",
+        "brain",
+        "getObject",
+        "PersistentList",
+        "obj",
+        "getRawRelatedItems",
+        "PersistentList",
+        "logger",
+        "warn",
+        "brain",
+        "getPath",
+        "logger",
+        "info"
+    ],
+    "literals": [
+        "\"eea.relations.upgrades\"",
+        "'portal_catalog'",
+        "\"Total of %s objects\"",
+        "\"%s objects updated\"",
+        "\"brain with problems: %s\"",
+        "\"Done adding eea_refs on objects\""
+    ],
+    "variables": [
+        "logger",
+        "ctool",
+        "brains",
+        "i",
+        "obj",
+        "obj",
+        "eea_refs",
+        "obj",
+        "eea_refs",
+        "obj",
+        "_p_changed"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\" Upgrades for eea.relations 7.7\n\"\"\"",
+        "\"\"\"\n    Add the eea_refs attribute to objects\n    if the object has related items, put them in eea_refs\n    \"\"\""
+    ],
+    "functions": [
+        "add_eea_refs"
+    ],
+    "classes": []
+}

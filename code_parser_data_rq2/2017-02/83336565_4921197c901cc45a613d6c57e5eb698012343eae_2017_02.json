@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "path",
+        "require"
+    ],
+    "literals": [
+        "'path'",
+        "'babel-preset-latest'",
+        "'babel-preset-react'",
+        "'babel-preset-stage-0'",
+        "'babel-plugin-transform-class-properties'",
+        "'babel-plugin-transform-object-rest-spread'",
+        "'babel-plugin-transform-regenerator'",
+        "'babel-plugin-transform-runtime'",
+        "'babel-runtime/package'"
+    ],
+    "variables": [
+        "path"
+    ],
+    "comments": [
+        "Don't try to find .babelrc because we want to force this configuration.",
+        "This is a feature of `babel-loader` for webpack (not Babel itself).",
+        "It enables caching results in OS temporary directory for faster rebuilds.",
+        "Latest stable ECMAScript features",
+        "JSX, Flow",
+        "class { handleClick = () => { } }",
+        "{ ...todo, completed: true }",
+        "function* () { yield 42; yield 43; }",
+        "Async functions are converted to generators by babel-preset-latest",
+        "Polyfills the runtime needed for async/await and generators",
+        "Resolve the Babel runtime relative to the config.",
+        "You can safely remove this after ejecting:"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

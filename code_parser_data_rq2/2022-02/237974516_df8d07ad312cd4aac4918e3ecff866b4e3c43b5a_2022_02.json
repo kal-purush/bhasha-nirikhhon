@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "com",
+        "directori",
+        "book",
+        "springboot",
+        "web",
+        "java",
+        "util",
+        "Arrays",
+        "java",
+        "util",
+        "lombok",
+        "RequiredArgsConstructor",
+        "org",
+        "springframework",
+        "core",
+        "env",
+        "Environment",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "GetMapping",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "RestController",
+        "RequiredArgsConstructor",
+        "RestController",
+        "env",
+        "GetMapping",
+        "profiles",
+        "Arrays",
+        "asList",
+        "env",
+        "getActiveProfiles",
+        "realProfiles",
+        "Arrays",
+        "asList",
+        "defaultProfile",
+        "profiles",
+        "isEmpty",
+        "profiles",
+        "get",
+        "profiles",
+        "stream",
+        "realProfiles",
+        "contains",
+        "findAny",
+        "orElse",
+        "defaultProfile"
+    ],
+    "literals": [
+        "\"/profile\"",
+        "\"real\"",
+        "\"real1\"",
+        "\"real2\"",
+        "\"default\""
+    ],
+    "variables": [
+        "env"
+    ],
+    "comments": [
+        "현재 활성화된 profiles를 모두 가져온다. real, oauth, real-db",
+        "무중단 배포에서는 real1, real2만 사용됨"
+    ],
+    "docstrings": [],
+    "functions": [
+        "profile"
+    ],
+    "classes": [
+        "ProfileController"
+    ]
+}

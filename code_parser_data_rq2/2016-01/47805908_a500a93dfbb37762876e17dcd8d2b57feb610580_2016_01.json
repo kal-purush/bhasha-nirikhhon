@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNet",
+        "Mvc",
+        "Filters",
+        "Microsoft",
+        "AspNet",
+        "Mvc",
+        "ViewFeatures",
+        "Internal",
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "Microsoft",
+        "AspNet",
+        "Mvc",
+        "AttributeUsage",
+        "AttributeTargets",
+        "Class",
+        "AttributeTargets",
+        "Method",
+        "AllowMultiple",
+        "Inherited",
+        "Attribute",
+        "IFilterFactory",
+        "IOrderedFilter",
+        "IServiceProvider",
+        "serviceProvider",
+        "serviceProvider",
+        "GetRequiredService",
+        "AutoValidateAntiforgeryTokenAuthorizationFilter"
+    ],
+    "literals": [],
+    "variables": [
+        "Order"
+    ],
+    "comments": [
+        "Copyright (c) .NET Foundation. All rights reserved.",
+        "Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.",
+        "An attribute that causes validation of antiforgery tokens for all unsafe HTTP methods. An antiforgery",
+        "token is required for HTTP methods other than GET, HEAD, OPTIONS, and TRACE.",
+        "</summary>",
+        "<remarks>",
+        "<see cref=\"AutoValidateAntiforgeryTokenAttribute\"/> can be applied at as a global filter to trigger",
+        "validation of antiforgery tokens by default for an application. Use",
+        "<see cref=\"IgnoreAntiforgeryTokenAttribute\"/> to suppress validation of the antiforgery token for",
+        "a controller or action.",
+        "</remarks>",
+        "<inheritdoc />",
+        "<inheritdoc />"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "IFilterMetadata",
+        "CreateInstance"
+    ],
+    "classes": [
+        "AutoValidateAntiforgeryTokenAttribute"
+    ]
+}

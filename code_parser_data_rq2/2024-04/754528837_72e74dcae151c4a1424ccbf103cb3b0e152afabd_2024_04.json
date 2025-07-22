@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "MonoBehaviour",
+        "SerializeField",
+        "Collider",
+        "collidingObject",
+        "collidingObject",
+        "gameObject",
+        "CompareTag",
+        "collidingObject",
+        "gameObject",
+        "GetComponent",
+        "TempItemId",
+        "itemId",
+        "doorId",
+        "Destroy",
+        "parent"
+    ],
+    "literals": [
+        "\"Player\""
+    ],
+    "variables": [
+        "doorId",
+        "GameObject",
+        "parent"
+    ],
+    "comments": [
+        "This class handles collisions with the player and makes sure that the parent object (the door) disappears/opens when",
+        "the player is in range and the prerequisites are met (the right key, or in this case the right player ID).",
+        "Set the ID in the editor for the collider",
+        "</summary>",
+        "Checks if the player has the right ID, and destroys the door if true",
+        "</summary>",
+        "<param name=\"collidingObject\">the object that collides with the collider</param>",
+        "Delete door"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>The unique ID of the door, to check whether the player has the right key/ID to open the door</summary>",
+        "<summary>the door object this script is attached to</summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "OnTriggerEnter"
+    ],
+    "classes": [
+        "DoorCollision"
+    ]
+}

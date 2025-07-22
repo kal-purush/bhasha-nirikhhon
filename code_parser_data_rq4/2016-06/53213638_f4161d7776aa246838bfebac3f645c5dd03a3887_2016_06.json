@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "unittest",
+        "napalm_base",
+        "helpers",
+        "napalm_base",
+        "NetworkDriver",
+        "napalm_base",
+        "test",
+        "ntb",
+        "unittest",
+        "TestCase",
+        "ntb",
+        "TestGettersNetworkDriver",
+        "NetworkDriver",
+        "FakeThing"
+    ],
+    "literals": [],
+    "variables": [
+        "device"
+    ],
+    "comments": [
+        "Note: don't import the TestGettersNetworkDriver class itself, or",
+        "nose finds it and tries to run the tests for it, which yields",
+        "errors."
+    ],
+    "docstrings": [
+        "\"\"\"Ensure that any tests are skipped if not implemented.\"\"\""
+    ],
+    "functions": [
+        "setUp"
+    ],
+    "classes": [
+        "TestSkipNotImplemented",
+        "FakeThing"
+    ]
+}

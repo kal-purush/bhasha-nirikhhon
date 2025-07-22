@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "mimeType",
+        "mimeType",
+        "mimeType",
+        "types",
+        "types",
+        "mimeCssClass",
+        "mimeType"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "\"/\"",
+        "\"image\"",
+        "\"image\"",
+        "\"font\"",
+        "\"font\"",
+        "\"svg+xml\"",
+        "\"html\"",
+        "\"html\"",
+        "\"css\"",
+        "\"css\"",
+        "\"vnd.ms-fontobject\"",
+        "\"font-woff\"",
+        "\"font-woff2\"",
+        "\"x-font-truetype\"",
+        "\"x-font-opentype\"",
+        "\"x-font-woff\"",
+        "\"font\"",
+        "\"javascript\"",
+        "\"x-javascript\"",
+        "\"script\"",
+        "\"json\"",
+        "\"javascript\"",
+        "\"x-shockwave-flash\"",
+        "\"flash\"",
+        "\"other\"",
+        "\"block-\""
+    ],
+    "variables": [
+        "mimeCssClass",
+        "types"
+    ],
+    "comments": [
+        "TODO: can we make this more elegant?",
+        "TODO: perhaps we can setup a new colour for SVG"
+    ],
+    "docstrings": [
+        "* Convert a MIME type into a CSS class\n * @param {string} mimeType"
+    ],
+    "functions": [
+        "mimeToCssClass"
+    ],
+    "classes": []
+}

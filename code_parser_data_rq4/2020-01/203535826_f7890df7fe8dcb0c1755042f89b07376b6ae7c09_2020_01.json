@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "querystring",
+        "INavigationRouterDependency",
+        "callback",
+        "url",
+        "callback",
+        "url",
+        "querystring",
+        "query",
+        "pathname",
+        "qs"
+    ],
+    "literals": [
+        "'querystring'",
+        "'../index'",
+        "''",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'routeChangeComplete'",
+        "http://localhost:4000/${pathname}?${qs}"
+    ],
+    "variables": [
+        "qs"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Minimal navigation router mock that simulates the API\n * of NextRouter for testing."
+    ],
+    "functions": [
+        "push"
+    ],
+    "classes": [
+        "NavigationRouterMock"
+    ]
+}

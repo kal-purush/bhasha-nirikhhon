@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "ru",
+        "geekbrains",
+        "servlet",
+        "org",
+        "slf4j",
+        "Logger",
+        "org",
+        "slf4j",
+        "LoggerFactory",
+        "javax",
+        "servlet",
+        "javax",
+        "servlet",
+        "annotation",
+        "WebServlet",
+        "java",
+        "io",
+        "WebServlet",
+        "name",
+        "urlPatterns",
+        "logger",
+        "LoggerFactory",
+        "getLogger",
+        "config",
+        "Override",
+        "servletConfig",
+        "config",
+        "config",
+        "Override",
+        "config",
+        "Override",
+        "servletRequest",
+        "servletResponse",
+        "logger",
+        "info",
+        "servletResponse",
+        "getWriter",
+        "Override",
+        "Override",
+        "logger",
+        "info",
+        "getServletInfo"
+    ],
+    "literals": [
+        "\"BasicServlet\"",
+        "\"/basic_servlet\"",
+        "\"New request\"",
+        "\"<h1>Servlet content</h1>\"",
+        "\"BasicServlet\"",
+        "\"Servlet {} destroyed\""
+    ],
+    "variables": [
+        "config"
+    ],
+    "comments": [
+        "Метод вызывается контейнером после того как был создан класс сервлета",
+        "Сохраняем полученную от сервера конфигурацию",
+        "Метод вызывается для каждого нового HTTP запроса к данному сервлету",
+        "получаем объект типа BufferedWriter и пишем в него ответ на пришедший запрос",
+        "При завершении работы веб приложения, контейнер вызывает этот метод для всех сервлетов из этого приложения"
+    ],
+    "docstrings": [],
+    "functions": [
+        "init",
+        "ServletConfig",
+        "getServletConfig",
+        "service",
+        "getServletInfo",
+        "destroy"
+    ],
+    "classes": [
+        "BasicServlet"
+    ]
+}

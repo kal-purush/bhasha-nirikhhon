@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "require",
+        "express",
+        "require",
+        "require",
+        "require",
+        "app",
+        "bodyParser",
+        "app",
+        "bodyParser",
+        "app",
+        "PORT",
+        "PORT",
+        "db",
+        "err",
+        "app",
+        "req",
+        "res",
+        "res",
+        "app",
+        "pessoaRoutes"
+    ],
+    "literals": [
+        "'express'",
+        "'./db/connection.js'",
+        "'body-parser'",
+        "'./routes/pessoa.js'",
+        "O express está rodando na porta ${PORT}",
+        "'Conectou ao banco com sucesso!'",
+        "'Ocorreu um erro ao conectar\", err'",
+        "'/'",
+        "'apiPessoas está funcionando!'",
+        "'/'"
+    ],
+    "variables": [
+        "express",
+        "app",
+        "db",
+        "bodyParser",
+        "pessoaRoutes",
+        "PORT"
+    ],
+    "comments": [
+        "db connection",
+        "boot route",
+        "person route"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

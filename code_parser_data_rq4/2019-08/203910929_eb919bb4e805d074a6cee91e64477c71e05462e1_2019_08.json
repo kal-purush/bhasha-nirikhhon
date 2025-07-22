@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "com",
+        "imooc",
+        "spring",
+        "reactive",
+        "loader",
+        "java",
+        "util",
+        "concurrent",
+        "CompletableFuture",
+        "java",
+        "lang",
+        "args",
+        "load",
+        "Override",
+        "CompletableFuture",
+        "runAsync",
+        "loadConfigurations",
+        "thenRun",
+        "loadUsers",
+        "thenRun",
+        "loadOrders",
+        "whenComplete",
+        "result",
+        "throwable",
+        "printf",
+        "currentThread",
+        "getName",
+        "join"
+    ],
+    "literals": [
+        "\"[Thread: %s] Load completed.\\n\""
+    ],
+    "variables": [],
+    "comments": [
+        "耗时 >= 1s",
+        "耗时 >= 2s",
+        "耗时 >= 3s",
+        "完成回掉",
+        "等待完成"
+    ],
+    "docstrings": [
+        "* @Auther: langdylan\n * @Date: 2019-08-29 11:09\n * @Description:",
+        "* [Thread: ForkJoinPool.commonPool-worker-3] loadConfigurations() costs: 1005 ms\n     * [Thread: ForkJoinPool.commonPool-worker-3] loadUsers() costs: 2004 ms\n     * [Thread: ForkJoinPool.commonPool-worker-3] loadOrders costs: 3004 ms\n     * [Thread: ForkJoinPool.commonPool-worker-3] Load completed.\n     * load() total cost: 6072 ms\n     *\n     * @param args"
+    ],
+    "functions": [
+        "main",
+        "doLoad"
+    ],
+    "classes": [
+        "ChainDataLoader"
+    ]
+}

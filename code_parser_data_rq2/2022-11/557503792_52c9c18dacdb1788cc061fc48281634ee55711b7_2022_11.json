@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "requests",
+        "pandas",
+        "pd",
+        "time",
+        "sleep",
+        "host",
+        "dataset_path",
+        "pd",
+        "read_csv",
+        "dataset_path",
+        "index_col",
+        "request_data",
+        "data",
+        "to_dict",
+        "request_data",
+        "requests",
+        "post",
+        "url",
+        "host",
+        "json",
+        "request_data",
+        "response",
+        "status_code",
+        "response",
+        "text",
+        "sleep",
+        "send_requests",
+        "host",
+        "dataset_path",
+        "dataset_path"
+    ],
+    "literals": [
+        "\"localhost:5050\"",
+        "'records'",
+        "f'Request to service: {request_data}'",
+        "f'http://{host}/predict'",
+        "f'Status code: {response.status_code}'",
+        "f'Result: {response.text}'",
+        "\"__main__\"",
+        "\"../data/request.csv\"",
+        "\"predict-attrition-docker.herokuapp.com\""
+    ],
+    "variables": [
+        "data",
+        "response",
+        "dataset_path"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Generates a list of requests from the file and sends it to the host.\n    :param host: hostname:port or URL address\n    :param dataset_path: dataset_path to data to generate request\n    :return: none\n\n    \"\"\""
+    ],
+    "functions": [
+        "send_requests"
+    ],
+    "classes": []
+}

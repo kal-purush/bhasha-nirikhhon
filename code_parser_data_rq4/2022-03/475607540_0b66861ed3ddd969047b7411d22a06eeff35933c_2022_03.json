@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "subprocess",
+        "servers",
+        "server",
+        "servers",
+        "subprocess",
+        "Popen",
+        "cmd",
+        "server",
+        "stdout",
+        "subprocess",
+        "PIPE",
+        "temp",
+        "communicate",
+        "output_list",
+        "append",
+        "output",
+        "output_list",
+        "open",
+        "i",
+        "len",
+        "servers",
+        "servers",
+        "i",
+        "strip",
+        "ping",
+        "servers",
+        "output_list"
+    ],
+    "literals": [
+        "'ping'",
+        "'-c 1'",
+        "'__main__'",
+        "'servers.txt'",
+        "'\\n'"
+    ],
+    "variables": [
+        "cmd",
+        "output_list",
+        "temp",
+        "output",
+        "servers",
+        "servers",
+        "i",
+        "output_list"
+    ],
+    "comments": [
+        "command you want to execute",
+        "send one packet of data to the host",
+        "this is specified by '-c 1' in the argument list",
+        "iterate over all the servers in the list and ping each server",
+        "get the output as a string",
+        "store the output in the list",
+        "get list of servers from the text file",
+        "iterate over all the servers that we read from the text file",
+        "and remove all extra lines. This is just a preprocessing step",
+        "to make sure there aren't any unncesesary lines"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ping"
+    ],
+    "classes": []
+}

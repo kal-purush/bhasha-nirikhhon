@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "qcodes",
+        "dataset",
+        "sqlite_base",
+        "connect",
+        "_connect",
+        "qcodes",
+        "dataset",
+        "sqlite_base",
+        "init_db",
+        "_init_db",
+        "qcodes",
+        "config",
+        "qcodes",
+        "config",
+        "qcodes",
+        "config",
+        "_connect",
+        "get_DB_location",
+        "get_DB_debug",
+        "_init_db",
+        "conn",
+        "conn",
+        "close",
+        "conn"
+    ],
+    "literals": [
+        "\"core\"",
+        "\"db_location\"",
+        "\"core\"",
+        "\"db_debug\""
+    ],
+    "variables": [
+        "conn"
+    ],
+    "comments": [
+        "high-level interface to the database",
+        "init is actually idempotent so it's safe to always call!"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Initialise a database in the location specified by the config object\n    If the database already exists, nothing happens\n\n    Args:\n        config: An instance of the config object\n    \"\"\""
+    ],
+    "functions": [
+        "get_DB_location",
+        "get_DB_debug",
+        "initialise_database"
+    ],
+    "classes": []
+}

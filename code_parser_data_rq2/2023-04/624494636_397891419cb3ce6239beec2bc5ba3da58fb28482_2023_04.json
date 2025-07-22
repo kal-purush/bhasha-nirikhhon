@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "word",
+        "word",
+        "split",
+        "arr",
+        "arr",
+        "vowels",
+        "join",
+        "arr",
+        "arr",
+        "join",
+        "arr",
+        "arr",
+        "pig_latin"
+    ],
+    "literals": [
+        "''",
+        "'a'",
+        "'e'",
+        "'i'",
+        "'o'",
+        "'u'",
+        "''",
+        "'yay'",
+        "\"Hello\"",
+        "''",
+        "'ay'",
+        "'porcupines'"
+    ],
+    "variables": [
+        "arr",
+        "vowels"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Given a word, return the Pig Latin version of the word. \n\n    Pig Latin Rules:\n        1. If the word begins with a consonant (not a, e, i, o, u), \n           move the first letter to the end and add ‘ay’\n        2. If the word begins with a vowel, add ‘yay’ to the end\n    \n    For example:\n\n    >>> pig_latin('porcupines')\n    'orcupinespay'\n\n    >>> pig_latin('apple')\n    'appleyay'\n    \n    \"\"\""
+    ],
+    "functions": [
+        "pig_latin"
+    ],
+    "classes": []
+}

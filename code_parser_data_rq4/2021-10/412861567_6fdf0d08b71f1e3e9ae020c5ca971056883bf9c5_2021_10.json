@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "LitElement",
+        "html",
+        "css",
+        "property",
+        "URL",
+        "LitElement",
+        "property",
+        "css",
+        "html",
+        "logo"
+    ],
+    "literals": [
+        "'lit'",
+        "'lit/decorators.js'",
+        "'../../assets/open-wc-logo.svg'",
+        "'My app'",
+        ":host {\n      min-height: 100vh;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: flex-start;\n      font-size: calc(10px + 2vmin);\n      color: #1a2b42;\n      max-width: 960px;\n      margin: 0 auto;\n      text-align: center;\n      background-color: var(--diplomacy-helper-background-color);\n    }\n\n    main {\n      flex-grow: 1;\n    }\n\n    .logo {\n      margin-top: 36px;\n      animation: app-logo-spin infinite 20s linear;\n    }\n\n    @keyframes app-logo-spin {\n      from {\n        transform: rotate(0deg);\n      }\n      to {\n        transform: rotate(360deg);\n      }\n    }\n\n    .app-footer {\n      font-size: calc(12px + 0.5vmin);\n      align-items: center;\n    }\n\n    .app-footer a {\n      margin-left: 5px;\n    }",
+        "<main>\n        <div class=\"logo\"><img alt=\"open-wc logo\" src=${logo} /></div>\n        <h1>${this.title}</h1>\n\n        <p>Edit <code>src/DiplomacyHelper.ts</code> and save to reload.</p>\n        <a\n          class=\"app-link\"\n          href=\"https://open-wc.org/guides/developing-components/code-examples\"\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n        >\n          Code examples\n        </a>\n      </main>\n\n      <p class=\"app-footer\">\n        🚽 Made with love by\n        <a\n          target=\"_blank\"\n          rel=\"noopener noreferrer\"\n          href=\"https://github.com/open-wc\"\n          >open-wc</a\n        >.\n      </p>"
+    ],
+    "variables": [
+        "logo"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "render"
+    ],
+    "classes": [
+        "DiplomacyHelper"
+    ]
+}

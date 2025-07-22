@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "HardhatRuntimeEnvironment",
+        "DeployFunction",
+        "func",
+        "hre",
+        "hre",
+        "getNamedAccounts",
+        "deploy",
+        "deployer",
+        "NFTeeContract",
+        "deploy",
+        "deployer",
+        "NFTeeContract",
+        "NFTeeStakerContract",
+        "func"
+    ],
+    "literals": [
+        "'hardhat/types'",
+        "'hardhat-deploy/types'",
+        "'NFTee'",
+        "NFTee contract deployed to ${NFTeeContract.address}",
+        "'NFTeeStaker'",
+        "'Staked NFTee'",
+        "'stNFTEE'",
+        "NFTeeStaker contract deployed to ${NFTeeStakerContract.address}"
+    ],
+    "variables": [
+        "func",
+        "deployments",
+        "NFTeeContract",
+        "NFTeeStakerContract"
+    ],
+    "comments": [
+        "Learn more about args here: https://www.npmjs.com/package/hardhat-deploy#deploymentsdeploy",
+        "Learn more about args here: https://www.npmjs.com/package/hardhat-deploy#deploymentsdeploy",
+        "// Getting a previously deployed contract\n    const YourContract = await ethers.getContract(\"YourContract\", deployer);\n    await YourContract.setPurpose(\"Hello\");\n    \n    //const yourContract = await ethers.getContractAt('YourContract', \"0xaAC799eC2d00C013f1F11c37E654e59B0429DF6A\") //<-- if you want to instantiate a version of a contract at a specific address!",
+        "Tenderly verification\nlet verification = await tenderly.verify({\n  name: contractName,\n  address: contractAddress,\n  network: targetNetwork,\n});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

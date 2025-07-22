@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "ssl",
+        "test",
+        "util",
+        "test_infrastructure",
+        "integration_test",
+        "test",
+        "util",
+        "test_runners",
+        "integration_test_case",
+        "IntegrationTestCaseBase",
+        "test",
+        "util",
+        "test_helpers",
+        "utils",
+        "IntegrationTestCaseBase",
+        "testname",
+        "client_params",
+        "environment_params",
+        "CliIntegrationTestOpenSSL",
+        "testname",
+        "client_params",
+        "environment_params",
+        "integration_test",
+        "ssl",
+        "OPENSSL_VERSION",
+        "split",
+        "assertGreaterEqual",
+        "version",
+        "ssl",
+        "OPENSSL_VERSION"
+    ],
+    "literals": [
+        "' '",
+        "\"1.1.1k\"",
+        "f\"Insufficient OpenSSL version, 1.1.1k and above is expected got '{ssl.OPENSSL_VERSION}'\""
+    ],
+    "variables": [
+        "version"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "pragma: no cover"
+    ],
+    "docstrings": [
+        "\"\"\"\nCLI OpenSSL Integration tests\nThis test file handles the main test flows for the variable command\n\"\"\"",
+        "*************** HELPERS ***************"
+    ],
+    "functions": [
+        "setUp",
+        "test_open_ssl_version_is_sufficient"
+    ],
+    "classes": [
+        "CliIntegrationTestOpenSSL"
+    ]
+}

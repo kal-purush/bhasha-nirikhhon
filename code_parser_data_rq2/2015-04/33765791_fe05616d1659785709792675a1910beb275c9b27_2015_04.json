@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "require",
+        "React",
+        "MOCKED_MOVIES_DATA",
+        "View",
+        "styles",
+        "Text",
+        "movie",
+        "Text",
+        "Text",
+        "movie",
+        "Text",
+        "Image",
+        "movie",
+        "styles",
+        "View",
+        "StyleSheet",
+        "AppRegistry",
+        "AwesomeProject"
+    ],
+    "literals": [
+        "'use strict'",
+        "'react-native'",
+        "'Title'",
+        "'2015'",
+        "'http://i.imgur.com/UePbdph.jpg'",
+        "'center'",
+        "'center'",
+        "'#F5FCFF'",
+        "'AwesomeProject'"
+    ],
+    "variables": [
+        "React",
+        "React",
+        "MOCKED_MOVIES_DATA",
+        "AwesomeProject",
+        "movie",
+        "styles"
+    ],
+    "comments": [
+        "render: function() {\n    return (\n      <View style={styles.container}>\n        <Text style={styles.welcome}>\n          Welcome to React Native!\n        </Text>\n\n        <Text style={styles.instructions}>\n          To get started, edit index.ios.js\n        </Text>\n\n        <Text style={styles.instructions}>\n          Press Cmd+R to reload,{'\\n'}\n          Cmd+Control+Z for dev menu\n        </Text>\n\n      </View>\n    );\n  }",
+        "var styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    justifyContent: 'center',\n    alignItems: 'center',\n    backgroundColor: '#F5FCFF',\n  },\n  welcome: {\n    fontSize: 20,\n    textAlign: 'center',\n    margin: 10,\n  },\n  instructions: {\n    textAlign: 'center',\n    color: '#333333',\n    marginBottom: 5,\n  },\n});"
+    ],
+    "docstrings": [
+        "* Sample React Native App\n * https://github.com/facebook/react-native"
+    ],
+    "functions": [],
+    "classes": []
+}

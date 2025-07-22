@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "path",
+        "__dirname",
+        "fs",
+        "path",
+        "__dirname",
+        "err",
+        "data",
+        "err",
+        "err",
+        "fs",
+        "path",
+        "__dirname",
+        "data",
+        "err",
+        "data",
+        "path",
+        "path",
+        "i",
+        "arr",
+        "i",
+        "arr",
+        "i",
+        "fs",
+        "p",
+        "fs",
+        "p",
+        "mkdirSync"
+    ],
+    "literals": [
+        "'fs'",
+        "'path'",
+        "'zl.json'",
+        "'b.json'",
+        "'w'",
+        "'写入成功'",
+        "'/'",
+        "'/'",
+        "'a/b/c/d/e/f'"
+    ],
+    "variables": [
+        "fs",
+        "path",
+        "arr",
+        "i",
+        "p"
+    ],
+    "comments": [
+        "read write",
+        "读取的编码没有指定的类型默认是buffer类型",
+        "默认写都会转换成utf8格式来进行存储 并且会将文件清空，如果文件没有会创建文件",
+        "实现拷贝",
+        "在代码运行期间最好使用异步 运行时使用同步可能会阻塞",
+        "这种拷贝不适合大文件操作 比如视频文件 我们需要读一点写一点 采用流的方式",
+        "如何区分文件大小呢？ 如果文件超过64k，就是用流的方式  小于64k直接 read write",
+        "w 写  a 追加  r 读取",
+        "文件夹操作",
+        "创建目录必须先有 父级 再有子级",
+        "fs.mkdirSync('a/b/c/d/e/f')  // 同步 不需要回调",
+        "比如说我创建一个方法 如果这个文件夹没有 自动帮我们创建 如果有 就不做操作",
+        "accessSync 不存在会报错"
+    ],
+    "docstrings": [
+        "* 实现同步创建\n * @param path"
+    ],
+    "functions": [
+        "mkdirSync"
+    ],
+    "classes": []
+}

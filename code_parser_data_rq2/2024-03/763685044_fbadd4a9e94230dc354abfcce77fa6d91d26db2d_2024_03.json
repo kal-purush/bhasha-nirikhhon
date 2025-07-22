@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "value",
+        "left",
+        "right",
+        "value",
+        "left",
+        "right",
+        "func",
+        "args",
+        "kwargs",
+        "kwargs",
+        "kwargs",
+        "func",
+        "args",
+        "kwargs",
+        "func",
+        "args",
+        "kwargs",
+        "wrapper",
+        "to_bool",
+        "node",
+        "args",
+        "kwargs",
+        "node",
+        "is_tree_balanced",
+        "node",
+        "left",
+        "recursive",
+        "is_tree_balanced",
+        "node",
+        "right",
+        "recursive",
+        "left_height",
+        "right_height",
+        "abs",
+        "left_height",
+        "right_height",
+        "max",
+        "left_height",
+        "right_height"
+    ],
+    "literals": [
+        "'recursive'",
+        "'recursive'"
+    ],
+    "variables": [
+        "value",
+        "left",
+        "right",
+        "left_height",
+        "right_height"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    convert value of decorated func in bool type only if the func is NOT called recursively\n    \"\"\"",
+        "\"\"\"\n    return False if tree is balanced\n    return int number of max tree`s height if tree is balanced\n    \"\"\""
+    ],
+    "functions": [
+        "to_bool",
+        "wrapper",
+        "is_tree_balanced"
+    ],
+    "classes": [
+        "BinaryTree"
+    ]
+}

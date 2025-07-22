@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "require",
+        "AddFoodInMeal",
+        "req",
+        "res",
+        "req",
+        "req",
+        "mealModel",
+        "mealId",
+        "foodId",
+        "action",
+        "res",
+        "action",
+        "err",
+        "res",
+        "err"
+    ],
+    "literals": [
+        "'../models/mealModel'",
+        "'POST'",
+        "'add'",
+        "'remove'",
+        "Food ${action}ed successfully"
+    ],
+    "variables": [
+        "mealModel",
+        "AddFoodInMeal",
+        "action",
+        "result"
+    ],
+    "comments": [
+        "src/controllers/mealController.js",
+        "Hàm để thêm hoặc xóa thực phẩm khỏi bữa ăn",
+        "Lấy mealId và foodId từ request parameters",
+        "Xác định hành động dựa trên phương thức HTTP"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

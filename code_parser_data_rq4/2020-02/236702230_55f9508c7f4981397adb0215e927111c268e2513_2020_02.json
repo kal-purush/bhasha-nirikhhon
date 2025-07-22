@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "os",
+        "pathlib",
+        "os",
+        "path",
+        "abspath",
+        "os",
+        "getcwd",
+        "images_dir_path",
+        "os",
+        "system",
+        "scp_command",
+        "filename",
+        "filename",
+        "pathlib",
+        "PosixPath",
+        "images_dir_path",
+        "path_img",
+        "path_img"
+    ],
+    "literals": [
+        "'/../frams/'",
+        "'sshpass -p \"password\" scp pi@192.168.1.102:proba/* '",
+        "'/image.jpg'"
+    ],
+    "variables": [
+        "images_dir_path",
+        "scp_command",
+        "path_img"
+    ],
+    "comments": [
+        "print(find_last_shot_addr())"
+    ],
+    "docstrings": [
+        "\"\"\"path_img = pathlib.PosixPath(images_dir_path + '/')\n    files_list = os.listdir(path_img)\n    last_file = (0, '')\n    for addr in files_list:\n        number_of_file = get_number_of_image(addr)\n        if number_of_file > last_file[0]:\n            last_file = (number_of_file, addr)\n    return last_file[1]\"\"\""
+    ],
+    "functions": [
+        "download_images_script",
+        "get_number_of_image",
+        "find_last_shot_addr"
+    ],
+    "classes": []
+}

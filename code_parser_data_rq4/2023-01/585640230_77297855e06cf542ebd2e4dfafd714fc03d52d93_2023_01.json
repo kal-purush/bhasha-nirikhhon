@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "styled",
+        "device",
+        "styled",
+        "styled",
+        "p",
+        "p",
+        "device",
+        "device",
+        "styled",
+        "styled",
+        "device",
+        "device",
+        "styled",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p",
+        "p"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'../../../helpers/organizers/breakpoints'",
+        "display: flex;\n  align-items: center;\n  flex-direction: column;\n  flex-flow: row nowrap;\n  overflow-x: clip;\n  height: 50vh;\n  position: relative;",
+        "position: absolute;\n  font: 120px Cabin;\n  line-height: 120px;\n  color: ${(p) => p.theme.colors.primary};\n  opacity: 20%;\n  z-index: -1;\n  transition: transform 0.5s ease-out;\n\n  @media (${device.laptopL}) {\n    font-size: 144px;\n  }\n  @media (${device.desktop}) {\n    font-size: 192px;\n  }",
+        "margin-top: 20%;\n  width: 100vw;\n  display: flex;\n  justify-content: center;",
+        "display: flex;\n  height: 110px;\n  width: 110px;\n  justify-content: center;\n  align-items: center;\n  margin-right: 15px;\n\n  @media (${device.laptopL}) {\n    height: 132px;\n    width: 132px;\n  }\n  @media (${device.desktop}) {\n    height: 176px;\n    width: 176px;\n  }",
+        "string",
+        "string",
+        "transition: all 0.3s ease;\n  mask-image: url(${(p) => p.url});\n  mask-size: cover;\n  mask-repeat: no-repeat;\n  mask-position: center;\n  background-color: ${(p) => p.theme.colors.primary};\n  width: 100%;\n  height: 100%;\n\n  &:hover {\n    opacity: 50%;\n    cursor: pointer;\n    background-color: ${(p) => p.hoverColor};\n  }"
+    ],
+    "variables": [
+        "Container",
+        "ContactTitle",
+        "ContactIcons",
+        "LogoWrapper",
+        "Logo"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

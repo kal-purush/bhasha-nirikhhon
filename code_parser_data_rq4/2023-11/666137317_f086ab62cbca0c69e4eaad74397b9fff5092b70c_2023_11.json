@@ -1,0 +1,19 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "// Adjust this value to control the slowdown factor\n    public float slowdownFactor = 0.5f;\n\n    // List to keep track of objects inside the collider\n    private List<Collider> collidersInside = new List<Collider>();\n\n    private void OnTriggerEnter(Collider other)\n    {\n        // Check if the entering object is the player\n        if (other.CompareTag(\"Player\"))\n        {\n            // Add the player to the list of colliders inside\n            collidersInside.Add(other);\n            // Slow down the player's movement\n            PlayerMovement playerMovement = other.GetComponent<PlayerMovement>();\n            if (playerMovement != null)\n            {\n                playerMovement.SlowPlayer(slowdownFactor);\n            }\n        }\n    }\n\n    private void OnTriggerExit(Collider other)\n    {\n        // Check if the exiting object is the player\n        if (other.CompareTag(\"Player\"))\n        {\n            // Remove the player from the list of colliders inside\n            collidersInside.Remove(other);\n            // If no players are inside, reset the slowdown\n            if (collidersInside.Count == 0)\n            {\n                PlayerMovement playerMovement = other.GetComponent<PlayerMovement>();\n                if (playerMovement != null)\n                {\n                    playerMovement.RestorePlayerSpeed();\n                }\n            }\n        }\n    }"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "MudMechanic"
+    ]
+}

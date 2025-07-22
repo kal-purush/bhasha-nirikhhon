@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "data",
+        "$",
+        "data"
+    ],
+    "literals": [
+        "\"http://52.167.10.58/customer/api/customers\"",
+        "'Ocp-Apim-Subscription-Key'",
+        "'9b87fbabbf0447948a3db01212f96d48;product=unlimited'",
+        "'.clientes'"
+    ],
+    "variables": [],
+    "comments": [
+        "$(document).ready(function() {\n    $.ajax({\n        url: \"http://52.141.219.120/product/api/products\",\n        headers: { 'Ocp-Apim-Subscription-Key': '9db32e4fed844af0aac4537ed2f784c8;product=unlimited' }\n    }).then(function(data) {\n       $('.productos').append(data[Math.floor(Math.random()*3)]);\n    });\n});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

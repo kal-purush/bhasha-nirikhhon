@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "HttpException",
+        "HttpStatus",
+        "HttpException",
+        "HttpStatus",
+        "HttpException",
+        "HttpStatus",
+        "HttpException",
+        "HttpStatus",
+        "HttpException",
+        "HttpStatus",
+        "HttpException",
+        "HttpStatus",
+        "HttpException",
+        "HttpStatus"
+    ],
+    "literals": [
+        "\"@nestjs/common\"",
+        "\"@nestjs/common\"",
+        "{code : 0, message: 일시적인 오류가 발생했습니다.}",
+        "{code : 101, message: 기기 등록에 실패하였습니다.}",
+        "{code : 102, message: 이미 등록된 기기입니다.}",
+        "{code : 111, message: 기기 삭제에 실패하였습니다.}",
+        "{code : 112, message: 존재하지 않는 기기입니다.}",
+        "{code : 121, message: 기기 재연결에 실패하였습니다.}"
+    ],
+    "variables": [],
+    "comments": [
+        "실패 코드 : 1의 자리 \"1\" 로 통일",
+        "devices : 100의 자리 1"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "InternalServerErrorException",
+        "DevicesErrorException",
+        "DevicesExistException",
+        "DeviceDeleteErrorException",
+        "DeviceNotExistException",
+        "DeviceReconnectErrorException"
+    ]
+}

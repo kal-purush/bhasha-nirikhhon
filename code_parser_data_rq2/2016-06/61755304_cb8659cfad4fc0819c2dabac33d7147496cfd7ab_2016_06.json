@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "sqlite3",
+        "sqlite3",
+        "connect",
+        "sqlite3",
+        "connect",
+        "db",
+        "cursor",
+        "cursor",
+        "execute",
+        "db",
+        "commit"
+    ],
+    "literals": [
+        "':memory:'",
+        "'users'"
+    ],
+    "variables": [
+        "db",
+        "db",
+        "cursor"
+    ],
+    "comments": [
+        "Create a database in RAM",
+        "Creates or opens a file called users with a SQLite3 DB",
+        "with sqlite3.connect('leave').db as connection:",
+        "c = connection.cursor()",
+        "c.execute(\"\"\"CREATE TABLE posts(title TEXT,description TEXT)\"\"\")",
+        "c.execute('INSERT INTO posts VALUES(\"good\",\"I\\'m good\")')",
+        "c.execute('INSERT INTO posts VALUES(\"well\",\"I\\'m well\")')",
+        "Get a cursor object"
+    ],
+    "docstrings": [
+        "'''\n    CREATE TABLE users(id INTEGER PRIMARY KEY, name TEXT,\n                       phone TEXT, email TEXT unique, password TEXT)\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "Recipe",
+        "Component",
+        "Input",
+        "Component",
+        "Input"
+    ],
+    "literals": [
+        "'../models/recipe'",
+        "'@angular/core'",
+        "'random-recipe'",
+        "<div class=\"modal-dialog\">\n        <div *ngIf=\"!rolling\">\n            <!-- Modal content-->\n            <div class=\"modal-content  random-recipe\" *ngIf=\"randomRecipe\">\n                <div class=\"modal-header\" style=\"background-color:#022f32;\">\n                    <button type=\"button\" class=\"close\" style=\"color:white;\" data-dismiss=\"modal\">&times;</button>\n                    <h4 class=\"modal-title\" style=\"color:white;\">{{randomRecipe.name}}</h4>\n                </div>\n                <div class=\"modal-body\">\n                    <div>\n                        <!--<rating [(ngModel)]=\"randomRecipe.ratingaverage\" [readonly]=\"true\"></rating>-->\n                        ({{randomRecipe.ratingcount}} ratings)\n                        <div style=\"float:right;margin-top:10px;\" [ngSwitch]=\"randomRecipe.level.id\"><span *ngSwitchCase=\"3\" class=\"tag tag-danger\">Difficult</span>\n                            <span *ngSwitchCase=\"1\" class=\"tag tag-success\">Easy</span> <span *ngSwitchCase=\"2\" class=\"tag tag-warning\">Medium</span>\n                        </div>\n                    </div>\n                    <p><b>{{randomRecipe.duration.range}}</b></p>\n                    <p><i>{{randomRecipe.introduction}}</i></p>\n                    <p><a routerLink=\"/recipes/{{randomRecipe.id}}\" data-dismiss=\"modal\">Go to recipe\n            <span class=\"glyphicon glyphicon-menu-right\"></span><span class=\"glyphicon glyphicon-menu-right\"></span></a>\n                    </p> <span *ngIf=\"randomRecipe.coverpicture\"><img class=\"random-image img-responsive\"\n                                                            src=\"{{baseUrl}}{{randomRecipe.coverpicture.picture.medium.url}}\"></span>\n                    <span *ngIf=\"!randomRecipe.coverpicture\"><img class=\"random-image img-responsive\"\n                                                        src=\"assets/cookie.jpg\"></span></div>\n                <div class=\"modal-footer\">\n                    <p style=\"float:left;\">Random Recipe</p><br><br> <span style=\"float:left;\" *ngIf=\"randomRecipe.coverpicture\"><p>Picture &copy;\n          {{randomRecipe.coverpicture.author}}</p></span>\n                    <!-- <button type=\"button\" class=\"btn btn-default\" (click)=\"reRoll()\">Reroll</button> -->\n                    <button type=\"button\" class=\"btn btn-default\" data-dismiss=\"modal\">Close\n          </button>\n                </div>\n            </div>\n        </div>\n        <div *ngIf=\"rolling\">\n            <div class=\"modal-content roller\"><i class=\"fa fa-refresh fa-spin\"></i></div>\n        </div>\n    </div>",
+        "'./recipe-list.component.scss'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "RandomRecipeModalComponent"
+    ]
+}

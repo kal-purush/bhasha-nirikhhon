@@ -1,0 +1,27 @@
+{
+    "identifiers": [],
+    "literals": [
+        "'unary'",
+        "'request_stream'",
+        "'response_stream'",
+        "'duplex'"
+    ],
+    "variables": [
+        "UNARY",
+        "REQUEST_STREAM",
+        "RESPONSE_STREAM",
+        "DUPLEX"
+    ],
+    "comments": [
+        "Unary call",
+        "Request is a stream",
+        "Response is a stream",
+        "Duplex call where both request and response are streams"
+    ],
+    "docstrings": [
+        "* @module mali-call-types\n *\n * @example\n * const CallType = require('mali-call-types')\n * console.log(CallType.DUPLEX)\n *\n * @example <caption>Within Mali call handler</caption>\n * if(ctx.type === CallType.UNARY) {\n *   console.log('Unary call')\n * }",
+        "* Enum for call type\n   * @readonly\n   * @enum {string}"
+    ],
+    "functions": [],
+    "classes": []
+}

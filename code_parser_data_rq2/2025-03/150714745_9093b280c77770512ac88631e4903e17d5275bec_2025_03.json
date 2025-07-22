@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "rules",
+        "ruleTester",
+        "ruleTester",
+        "rules"
+    ],
+    "literals": [
+        "\"../../rules/require-properties.js\"",
+        "\"./ruleTester.js\"",
+        "\"require-engines\"",
+        "\"require-engines\"",
+        "\"{}\"",
+        "\"engines\"",
+        "\"missing\"",
+        "{\n            \"name\": \"foo\",\n            \"version\": \"1.0.0\"\n            }",
+        "\"engines\"",
+        "\"missing\"",
+        "{\n            \"name\": \"foo\",\n            \"version\": \"1.0.0\",\n            \"bin\": {\n                \"engines\": \"./index.js\"\n            }\n            }",
+        "\"engines\"",
+        "\"missing\"",
+        "{ \"main\": \"./index.js\", \"engines\": { \"node\": \">=20\" } }",
+        "{ \"engines\": { \"node\": \">=20\" } }",
+        "{ \"engines\": 123 }",
+        "{ \"engines\": \"node123\" }"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "NextRequest",
+        "NextResponse",
+        "request",
+        "request",
+        "formData",
+        "formData",
+        "formData",
+        "formData",
+        "organization_id",
+        "product_name",
+        "description",
+        "image",
+        "NextResponse",
+        "fetch",
+        "process",
+        "formData",
+        "apiResponse",
+        "apiResponse",
+        "errorData",
+        "apiResponse",
+        "NextResponse",
+        "data",
+        "error",
+        "error",
+        "error",
+        "error",
+        "NextResponse",
+        "errorMessage"
+    ],
+    "literals": [
+        "\"next/server\"",
+        "\"organization_id\"",
+        "\"name\"",
+        "\"description\"",
+        "\"image\"",
+        "\"すべてのフィールドが必要です\"",
+        "${process.env.API_BASE_URL}/api/newsnacks/",
+        "\"POST\"",
+        "\"お菓子登録に失敗しました\"",
+        "\"エラー:\"",
+        "\"不明なエラーが発生しました\"",
+        "\"エラーが発生しました\""
+    ],
+    "variables": [
+        "formData",
+        "organization_id",
+        "product_name",
+        "description",
+        "image",
+        "apiResponse",
+        "errorData",
+        "data",
+        "errorMessage"
+    ],
+    "comments": [
+        "FastAPIにリクエストを送信",
+        "エラーを安全に扱うための処理"
+    ],
+    "docstrings": [],
+    "functions": [
+        "POST"
+    ],
+    "classes": []
+}

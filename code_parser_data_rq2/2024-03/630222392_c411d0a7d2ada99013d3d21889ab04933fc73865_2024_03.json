@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Threading",
+        "Tasks",
+        "Azure",
+        "Core",
+        "Azure",
+        "Identity",
+        "Microsoft",
+        "DncEng",
+        "SecretManager",
+        "ITokenCredentialProvider",
+        "Lazy",
+        "TokenCredential",
+        "ChainedTokenCredential",
+        "AzureCliCredential",
+        "AzureCliCredentialOptions",
+        "TenantId",
+        "InteractiveBrowserCredential",
+        "InteractiveBrowserCredentialOptions",
+        "TenantId",
+        "TokenCredential",
+        "FromResult",
+        "_credential",
+        "Value"
+    ],
+    "literals": [
+        "\"72f988bf-86f1-41af-91ab-2d7cd011db47\"",
+        "\"72f988bf-86f1-41af-91ab-2d7cd011db47\""
+    ],
+    "variables": [
+        "_credential"
+    ],
+    "comments": [
+        "Expect AzureCliCredential for CI and local dev environments.",
+        "Use InteractiveBrowserCredential as a fallback for local dev environments."
+    ],
+    "docstrings": [],
+    "functions": [
+        "GetCredentialAsync"
+    ],
+    "classes": [
+        "SecretManagerCredentialProvider"
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "identifiers": [
+        "requests",
+        "exceptions",
+        "HTTPError",
+        "six",
+        "moves",
+        "urllib",
+        "parse",
+        "urljoin",
+        "edx_api",
+        "enrollments",
+        "CourseEnrollments",
+        "models",
+        "Certificate",
+        "Certificates",
+        "requester",
+        "base_url",
+        "requester",
+        "base_url",
+        "username",
+        "course_id",
+        "requester",
+        "get",
+        "urljoin",
+        "base_url",
+        "format",
+        "username",
+        "username",
+        "course_key",
+        "course_id",
+        "resp",
+        "raise_for_status",
+        "Certificate",
+        "resp",
+        "json",
+        "username",
+        "course_ids",
+        "course_ids",
+        "CourseEnrollments",
+        "requester",
+        "base_url",
+        "enrollments_client",
+        "get_student_enrollments",
+        "enrollments",
+        "get_enrolled_course_ids",
+        "course_id",
+        "course_ids",
+        "all_certificates",
+        "append",
+        "get_student_certificate",
+        "username",
+        "course_id",
+        "HTTPError",
+        "Certificates",
+        "all_certificates"
+    ],
+    "literals": [
+        "'/api/certificates/v0/certificates/{username}/courses/{course_key}/'"
+    ],
+    "variables": [
+        "requester",
+        "base_url",
+        "resp",
+        "enrollments_client",
+        "enrollments",
+        "course_ids",
+        "all_certificates"
+    ],
+    "comments": [
+        "pylint: disable=import-error",
+        "the request is done in behalf of the current logged in user",
+        "if no course ids are provided, let's get the user enrollments"
+    ],
+    "docstrings": [
+        "\"\"\"\nedX Certificates REST API client class\n\"\"\"",
+        "\"\"\"\n    edX student certificates client\n    \"\"\"",
+        "\"\"\"\n        Args:\n            requester (Requester): an authenticated objects for requests to edX\n            base_url (str): string representing the base URL of an edX LMS instance\n        \"\"\"",
+        "\"\"\"\n        Returns an Certificate object with the user certificates\n\n        Args:\n            username (str): an edx user's username\n            course_id (str): an edX course id.\n\n        Returns:\n            Certificate: object representing the student certificate for a course\n        \"\"\"",
+        "\"\"\"\n        Returns an Certificate object with the user certificates\n\n        Args:\n            username (str): an edx user's username\n            course_ids (list): a list of edX course ids.\n\n        Returns:\n            Certificate: object representing the student certificate for a course\n        \"\"\""
+    ],
+    "functions": [
+        "get_student_certificate",
+        "get_student_certificates"
+    ],
+    "classes": [
+        "UserCertificates"
+    ]
+}

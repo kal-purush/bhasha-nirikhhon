@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "Component",
+        "Inject",
+        "MAT_DIALOG_DATA",
+        "User",
+        "Component",
+        "Inject",
+        "MAT_DIALOG_DATA",
+        "data",
+        "fileInput",
+        "FileReader",
+        "reader",
+        "e",
+        "Image",
+        "image",
+        "e",
+        "image",
+        "rs",
+        "e",
+        "reader",
+        "fileInput"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/material/dialog'",
+        "'src/app/types'",
+        "'app-user-icon-dialog'",
+        "'./user-icon-dialog.component.html'",
+        "'./user-icon-dialog.component.scss'",
+        "''"
+    ],
+    "variables": [
+        "reader",
+        "image"
+    ],
+    "comments": [
+        "import { MatSnackBar } from '@angular/material/snack-bar';",
+        "import { UserService } from 'src/app/services/user.service';",
+        "public sending = false;",
+        "private user;",
+        "private userService: UserService,",
+        "private snackBar: MatSnackBar,",
+        "this.user = JSON.parse(localStorage.getItem('currentUser'));",
+        "this.sending = true;",
+        "this.changeAvatarData();",
+        "this.sending = true;",
+        "this.changeAvatarData();",
+        "private changeAvatarData(): void {",
+        "this.userService",
+        ".update({",
+        "userId: this.user.userId,",
+        "token: this.user.usertoken,",
+        "...this.data,",
+        "})",
+        ".subscribe(",
+        "(data) => {",
+        "this.sending = false;",
+        "// updating user data after edit",
+        "this.userService.changeUserData(data);",
+        "},",
+        "(error) => {",
+        "this.sending = false;",
+        "this.snackBar.open(",
+        "'Error. Data was not saved! Description: ' + error,",
+        "'Hide'",
+        ");",
+        "}",
+        ");",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "changeAvatar",
+        "deleteAvatar"
+    ],
+    "classes": [
+        "UserIconDialogComponent"
+    ]
+}

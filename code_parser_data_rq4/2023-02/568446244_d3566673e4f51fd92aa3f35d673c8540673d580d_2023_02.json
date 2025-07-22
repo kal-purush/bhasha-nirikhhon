@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "input",
+        "menu",
+        "opcao",
+        "input",
+        "valor",
+        "saldo",
+        "valor",
+        "extrato",
+        "valor",
+        "opcao",
+        "input",
+        "valor",
+        "saldo",
+        "valor",
+        "numero_saques",
+        "LIMITE_SAQUES",
+        "excedeu_saldo",
+        "excedeu_limite",
+        "excedeu_saques",
+        "opcao",
+        "extrato",
+        "opcao"
+    ],
+    "literals": [
+        "\"\"",
+        "\"d\"",
+        "'Informe o valor para depósito'",
+        "f\"Depósito: R$ {valor:.2f}\\n\"",
+        "'Operação falou! O valor informado é inválido.'",
+        "\"s\"",
+        "'Informe o valor do saque: '",
+        "'Não há saldo suficiente'",
+        "'Falhou! Saque maior que 500. Tente um valor menor.'",
+        "'Número de saques excedido. Retorne novamente amanhã.'",
+        "\"d\"",
+        "\"Extrato\"",
+        "\"q\""
+    ],
+    "variables": [
+        "menu",
+        "saldo",
+        "limite",
+        "extrato",
+        "numero_saques",
+        "LIMITE_SAQUES",
+        "opcao",
+        "valor",
+        "valor",
+        "excedeu_saldo",
+        "excedeu_limite",
+        "excedeu_saques"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n[d] Depositar\n[s] Sacar\n[d] Extrato\n[d] Sair\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

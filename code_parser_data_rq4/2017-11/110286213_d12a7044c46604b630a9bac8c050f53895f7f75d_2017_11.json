@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "request",
+        "CouchDBOptions",
+        "CouchDBOptions",
+        "options",
+        "CouchDBOptions",
+        "options",
+        "options",
+        "options",
+        "path",
+        "path",
+        "request",
+        "request"
+    ],
+    "literals": [
+        "'request-promise'",
+        "'./couchdb-options.interface'",
+        "string",
+        "'http://127.0.0.1'",
+        "string",
+        "''",
+        "${this.host}:${this.port}/${path}",
+        "'user-agent'",
+        "'couchdb-promises'",
+        "'accept'",
+        "'application/json'",
+        "''",
+        "'_all_dbs'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Get the list of all databases.\n     * @return {Promise}"
+    ],
+    "functions": [
+        "getOptions",
+        "getInfo",
+        "listDatabases"
+    ],
+    "classes": [
+        "CouchDBAdmin"
+    ]
+}

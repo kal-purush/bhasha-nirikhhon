@@ -1,0 +1,20 @@
+{
+    "identifiers": [
+        "com",
+        "amazon",
+        "speech",
+        "slu",
+        "ConfirmationStatus",
+        "NONE",
+        "CONFIRMED",
+        "DENIED"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Indication of whether an intent or slot has been explicitly confirmed or denied by the user, or neither.\n *\n * Intents can be confirmed or denied using\n * {@link com.amazon.speech.speechlet.dialog.directives.ConfirmIntentDirective}, or by indicating\n * in the skill's configured dialog that the intent requires confirmation.\n *\n * Slots can be confirmed or denied using {@link com.amazon.speech.speechlet.dialog.directives.ConfirmSlotDirective},\n * or by indicating in the skill's configured dialog that the intent requires confirmation."
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,88 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Diagnostics",
+        "Linq",
+        "Microsoft",
+        "Quantum",
+        "Simulation",
+        "QCTraceSimulatorRuntime",
+        "initialCapacity",
+        "defaultAvailabilityTime",
+        "DefaultAvailabilityTime",
+        "defaultAvailabilityTime",
+        "QubitAvailableAt",
+        "initialCapacity",
+        "qubitId",
+        "qubitId",
+        "QubitAvailableAt",
+        "Count",
+        "QubitAvailableAt",
+        "qubitId",
+        "DefaultAvailabilityTime",
+        "qubitId",
+        "QubitAvailableAt",
+        "Count",
+        "QubitAvailableAt",
+        "Add",
+        "value",
+        "qubitId",
+        "MaxValue",
+        "IndexOutOfRangeException",
+        "qubitId",
+        "QubitAvailableAt",
+        "Count",
+        "QubitAvailableAt",
+        "AddRange",
+        "Repeat",
+        "DefaultAvailabilityTime",
+        "qubitId",
+        "QubitAvailableAt",
+        "Count",
+        "QubitAvailableAt",
+        "qubitId",
+        "value",
+        "MaxQubitId",
+        "qubitId",
+        "MaxQubitId",
+        "Max",
+        "MaxQubitId",
+        "qubitId"
+    ],
+    "literals": [
+        "\"Too many qubits to track.\""
+    ],
+    "variables": [
+        "DefaultAvailabilityTime",
+        "QubitAvailableAt",
+        "MaxQubitId"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft Corporation.",
+        "Licensed under the MIT License.",
+        "Tracks time when qubits were last used and therefore, time when qubits become available.",
+        "Tracking is done by qubit id, which survives during reuse of qubit.",
+        "</summary>",
+        "Availability time of all qubits starts at 0.",
+        "</summary>",
+        "This tracks time when a qubit was last used, indexed by qubit id.",
+        "</summary>",
+        "Maximum qubit id seen so far.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "QubitAvailabilityTimeTracker",
+        "GetMaxQubitId",
+        "MarkQubitIdUsed"
+    ],
+    "classes": [
+        "QubitAvailabilityTimeTracker"
+    ]
+}

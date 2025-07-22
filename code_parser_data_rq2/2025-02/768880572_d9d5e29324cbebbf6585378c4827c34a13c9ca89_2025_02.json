@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "clockDefinition",
+        "enGB",
+        "clockDefinition",
+        "nl",
+        "clockDefinition",
+        "de",
+        "ClockDefinition",
+        "enGB"
+    ],
+    "literals": [
+        "'./lang/en-GB'",
+        "'./lang/nl'",
+        "'./lang/de'",
+        "'./types/ClockDefinition'",
+        "string",
+        "'en-GB'"
+    ],
+    "variables": [
+        "LINE_DEFS"
+    ],
+    "comments": [
+        "import { clockDefinition as ru } from './lang/ru';",
+        "The clock definition for a specific language is an array of objects, one for each line of the clock.\n  Each object has as keys the words to show on that line, and as values an array with one or more\n  conditions to be true for the word to light up.\n\n  Each condition is an object with one or more of the following keys:\n    - h: hour condition\n    - next_h_from_minute: minute threshold for next hour\n    - m: minute condition\n\n  The `h` condition checks against the current hour. If set to `true`, it means the word is always shown.\n\n  The `m` condition is an array of values that is checked against the current minute rounded to the nearest multiple of five.\n\n  The `next_h_from_minute` value is used in conjunction with `h` conditions. If present, the hour check will \n  use the next hour when the current minute is >= this value. For example, \"ten to five\" at 4:50PM uses \n  next_h_from_minute: 31 to reference the next hour (5) after 31 minutes past the current hour.",
+        "ru,"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

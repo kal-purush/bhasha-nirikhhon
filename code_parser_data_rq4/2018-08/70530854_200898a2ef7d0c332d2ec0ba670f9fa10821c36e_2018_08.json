@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "samtranslator",
+        "plugins",
+        "BasePlugin",
+        "samtranslator",
+        "swagger",
+        "swagger",
+        "SwaggerEditor",
+        "samtranslator",
+        "sdk",
+        "resource",
+        "SamResourceType",
+        "samtranslator",
+        "sdk",
+        "template",
+        "SamTemplate",
+        "BasePlugin",
+        "DefaultDefinitionBodyPlugin",
+        "DefaultDefinitionBodyPlugin",
+        "template_dict",
+        "SamTemplate",
+        "template_dict",
+        "logicalId",
+        "api",
+        "template",
+        "iterate",
+        "SamResourceType",
+        "Api",
+        "value",
+        "api",
+        "properties",
+        "get",
+        "api",
+        "properties",
+        "get",
+        "api",
+        "properties",
+        "SwaggerEditor",
+        "gen_skeleton",
+        "api",
+        "properties"
+    ],
+    "literals": [
+        "'DefinitionBody'",
+        "'DefinitionUri'",
+        "'DefinitionBody'",
+        "'__MANAGE_SWAGGER'"
+    ],
+    "variables": [
+        "template"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    If the user does not provide a DefinitionBody or DefinitionUri\n    on an AWS::Serverless::Api resource, the Swagger constructed by\n    SAM is used. It accomplishes this by simply setting DefinitionBody\n    to a minimum Swagger definition and sets `__MANAGE_SWAGGER: true`.\n    \"\"\"",
+        "\"\"\"\n        Initialize the plugin.\n        \"\"\"",
+        "\"\"\"\n        Hook method that gets called before the SAM template is processed.\n        The template has passed the validation and is guaranteed to contain a non-empty \"Resources\" section.\n\n        :param dict template_dict: Dictionary of the SAM template\n        :return: Nothing\n        \"\"\""
+    ],
+    "functions": [
+        "on_before_transform_template"
+    ],
+    "classes": [
+        "DefaultDefinitionBodyPlugin"
+    ]
+}

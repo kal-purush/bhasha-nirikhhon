@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "NestFactory",
+        "ApplicationModule",
+        "domino",
+        "domino",
+        "template",
+        "NestFactory",
+        "ApplicationModule",
+        "process",
+        "app",
+        "port",
+        "bootstrap"
+    ],
+    "literals": [
+        "'@nestjs/core'",
+        "'./app.module'",
+        "'domino'",
+        "<body></body>",
+        "'window'",
+        "'document'",
+        "'localStorage'"
+    ],
+    "variables": [
+        "template",
+        "app",
+        "port"
+    ],
+    "comments": [
+        "create a mock body that will have a mock document",
+        "Shim for the global window, document and localStorage objects as",
+        "they donot exist natively in a server environment."
+    ],
+    "docstrings": [],
+    "functions": [
+        "bootstrap"
+    ],
+    "classes": []
+}

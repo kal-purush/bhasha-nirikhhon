@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "credentialsToDelete",
+        "queryRunner",
+        "credentialsToDelete",
+        "c",
+        "c",
+        "queryRunner",
+        "_queryRunner"
+    ],
+    "literals": [
+        "'typeorm'",
+        "string",
+        "SELECT credential.id FROM alkemio.credential\n      JOIN agent on credential.agentId = agent.id\n      JOIN account on account.agentId = agent.id\n      WHERE account.spaceId IS NULL;",
+        "'No credentials to delete'",
+        "DELETE FROM credential WHERE id IN (${credentialsToDelete\n        .map(c => `'${c.id}'`)\n        .join(',')});",
+        "'${c.id}'",
+        "','",
+        "DELETE FROM account WHERE spaceId IS NULL;",
+        "'No down migration for deleteAccountsWithoutSpaces1723121607785'"
+    ],
+    "variables": [
+        "credentialsToDelete"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "DeleteAccountsWithoutSpaces1723121607785"
+    ]
+}

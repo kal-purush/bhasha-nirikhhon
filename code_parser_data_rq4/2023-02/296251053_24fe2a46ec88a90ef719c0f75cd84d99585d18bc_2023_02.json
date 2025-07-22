@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Configuration",
+        "launchEditorMiddleware",
+        "process",
+        "isDev",
+        "process",
+        "middlewares",
+        "middlewares",
+        "launchEditorMiddleware",
+        "middlewares",
+        "isDev",
+        "config"
+    ],
+    "literals": [
+        "'@rspack/cli'",
+        "'@react-dev-inspector/middleware'",
+        "'development'",
+        "'/'",
+        "'/rspack/'",
+        "'./src/main.tsx'",
+        "'./index.html'",
+        "'always'",
+        "'[local]'",
+        "'[name].[hash].js'",
+        "'[id].[hash].chunk.js'",
+        "'[name].[hash].[ext]'",
+        "'asset'",
+        "'babel-loader'",
+        "'@babel/preset-typescript'",
+        "'@react-dev-inspector/babel-plugin'"
+    ],
+    "variables": [
+        "isDev",
+        "publicPath",
+        "config"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* react-dev-inspector server config for rspack",
+        "* NOTE: the following `@react-dev-inspector/babel-plugin` is optional,\n       *       only use for online demo"
+    ],
+    "functions": [
+        "setupMiddlewares"
+    ],
+    "classes": []
+}

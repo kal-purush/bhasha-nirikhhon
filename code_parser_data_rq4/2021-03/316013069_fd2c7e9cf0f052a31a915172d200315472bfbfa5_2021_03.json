@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "nodemailer",
+        "email",
+        "url",
+        "process",
+        "transporterOpts",
+        "process",
+        "process",
+        "nodemailer",
+        "transporterOpts",
+        "account",
+        "account",
+        "nodemailer",
+        "transporterOpts",
+        "process",
+        "email",
+        "url",
+        "url",
+        "transporter",
+        "mailOptions",
+        "email",
+        "nodemailer",
+        "info"
+    ],
+    "literals": [
+        "\"nodemailer\"",
+        "string",
+        "string",
+        "\"production\"",
+        "\"gmail\"",
+        "\"smtp.ethereal.email\"",
+        "\"TypeORM API 🔥\" ${process.env.USER_EMAIL || \"<fake@gmail.com>\"}",
+        "\"<fake@gmail.com>\"",
+        "\"Forgot Password\"",
+        "\"You may reset your password by clicking on this link.\"",
+        "<a href=\"${url}\">${url}</a>",
+        "Message sent to ${email}",
+        "\"Preview URL: %s\""
+    ],
+    "variables": [
+        "transporterOpts",
+        "account",
+        "transporter",
+        "mailOptions",
+        "info"
+    ],
+    "comments": [
+        "Administrative email and password for production must be passed through ENV",
+        "In development, we use auto-generated information",
+        "true for 465, false for other ports",
+        "generated ethereal user",
+        "generated ethereal password",
+        "sender address",
+        "list of receivers",
+        "Subject line",
+        "plain text body",
+        "html body",
+        "Preview only available when sending through an Ethereal account"
+    ],
+    "docstrings": [],
+    "functions": [
+        "sendEmail"
+    ],
+    "classes": []
+}

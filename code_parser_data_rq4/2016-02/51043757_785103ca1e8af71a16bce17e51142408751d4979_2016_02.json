@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "body",
+        "author",
+        "id",
+        "body",
+        "author",
+        "id",
+        "i",
+        "bodyParts",
+        "i",
+        "bodyParts",
+        "i",
+        "repost",
+        "bodyParts",
+        "i",
+        "repost",
+        "repost",
+        "Comment"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "''",
+        "'\\n'",
+        "''",
+        "'>'",
+        "'\\n'",
+        "'\\n*Originally asked by /u/'",
+        "' in yesterday\\'s Q&A thread.*\\n***\\n^(Please message /u/BBQLays with any questions or comments about this bot.)'"
+    ],
+    "variables": [
+        "repost",
+        "bodyParts",
+        "i"
+    ],
+    "comments": [
+        "Add the quote syntax to each paragraph of the comment body.",
+        "Add attribution to orginal author and disclaimer."
+    ],
+    "docstrings": [
+        "* Takes an unanswered comment and prepares it get reposted.\n   * \n   * @name prepareComment\n   * @return The comment to repost."
+    ],
+    "functions": [
+        "prepareForRepost"
+    ],
+    "classes": [
+        "Comment"
+    ]
+}

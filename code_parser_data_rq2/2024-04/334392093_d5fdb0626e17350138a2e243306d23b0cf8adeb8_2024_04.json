@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "moment",
+        "testTimeInfo",
+        "moment",
+        "desc",
+        "testTimeInfo",
+        "testTimeStart",
+        "testTimeInfo",
+        "desc",
+        "moment",
+        "moment",
+        "testTimeInfo",
+        "testTimeInfo",
+        "i",
+        "testTimeInfo",
+        "i",
+        "testTimeInfo",
+        "i",
+        "result",
+        "testTimeInfo",
+        "i",
+        "thisTime",
+        "prevTime",
+        "prevTime",
+        "thisTime",
+        "result",
+        "testTimeGetLapTime",
+        "result"
+    ],
+    "literals": [
+        "\"moment\"",
+        "string",
+        "\"Start\"",
+        "string",
+        "string",
+        "string",
+        "\"\"",
+        "\\t${testTimeInfo[i][0]}\\t${thisTime - prevTime}",
+        "\\tLapTime\\t${testTimeGetLapTime()}|"
+    ],
+    "variables": [
+        "testTimeInfo",
+        "prevTime",
+        "result",
+        "i",
+        "thisTime"
+    ],
+    "comments": [
+        "These functions were used to diagnose performance issue",
+        "https://github.com/st3v3nmw/obsidian-spaced-repetition/issues/914"
+    ],
+    "docstrings": [],
+    "functions": [
+        "testTimeStart",
+        "testTimeLog",
+        "testTimeGetLapTime",
+        "testTimeFormatLapInfo"
+    ],
+    "classes": []
+}

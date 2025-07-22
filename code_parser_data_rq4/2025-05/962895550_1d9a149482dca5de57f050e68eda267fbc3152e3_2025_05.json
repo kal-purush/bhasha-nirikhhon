@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "pandas",
+        "pd",
+        "sklearn",
+        "inspection",
+        "permutation_importance",
+        "model",
+        "X_test",
+        "y_test",
+        "permutation_importance",
+        "model",
+        "X_test",
+        "y_test",
+        "n_repeats",
+        "random_state",
+        "scoring",
+        "pd",
+        "DataFrame",
+        "X_test",
+        "columns",
+        "result",
+        "importances_mean",
+        "sort_values",
+        "ascending"
+    ],
+    "literals": [
+        "'neg_mean_absolute_error'",
+        "'feature'",
+        "'importance'",
+        "'importance'"
+    ],
+    "variables": [
+        "result",
+        "importance_df"
+    ],
+    "comments": [
+        "for each feature, shuffle its values and predict on testing set. do this 10 times for a num_features x 10 collection of drops in MAE",
+        "get the mean drop in MAE for each feature and place it next to its feature name in a dataframe"
+    ],
+    "docstrings": [],
+    "functions": [
+        "extract_importances"
+    ],
+    "classes": []
+}

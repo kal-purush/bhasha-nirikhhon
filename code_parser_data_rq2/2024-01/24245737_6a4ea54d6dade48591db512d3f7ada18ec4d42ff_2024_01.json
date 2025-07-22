@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "param_type",
+        "valid",
+        "valid",
+        "_ERROR_MESSAGE",
+        "format",
+        "param_type",
+        "label",
+        "ValueError",
+        "msg",
+        "UserParam",
+        "label",
+        "value",
+        "min",
+        "max",
+        "step",
+        "dtype",
+        "label",
+        "value",
+        "min",
+        "max",
+        "step",
+        "value",
+        "min",
+        "max",
+        "maybe_raise_error",
+        "valid",
+        "dtype",
+        "_check_values_are_float",
+        "value",
+        "min",
+        "max",
+        "step",
+        "dtype",
+        "value",
+        "min",
+        "max",
+        "step",
+        "isinstance",
+        "n",
+        "n",
+        "value",
+        "min",
+        "max",
+        "step",
+        "attr",
+        "getattr",
+        "attr"
+    ],
+    "literals": [
+        "\"Missing or malformed inputs for '{}' Option '{}'\"",
+        "\"\"",
+        "\"slider\""
+    ],
+    "variables": [
+        "_ERROR_MESSAGE",
+        "msg",
+        "label",
+        "value",
+        "min",
+        "max",
+        "step",
+        "valid",
+        "is_float_slider",
+        "is_float_slider"
+    ],
+    "comments": [
+        "Validate option type to make sure values are supplied properly"
+    ],
+    "docstrings": [
+        "\"\"\"\n    A number-based slider input with settable increment.\n\n    Example:\n\n    slider_option = Slider(\"My Slider\", value=123, min=10, max=200, step=0.1)\n\n    Args:\n        label: The displayed label in the UI\n        value: The initial value of the slider\n        min: The minimum possible value of the slider\n        max: The maximum possible value of the slider\n        step: The step between min and max for a range of possible values\n        dtype: either int or float\n    \"\"\""
+    ],
+    "functions": [
+        "maybe_raise_error",
+        "_check_values_are_float",
+        "get"
+    ],
+    "classes": [
+        "UserParam",
+        "Slider"
+    ]
+}

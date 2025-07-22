@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "com",
+        "outdoor",
+        "foodcalc",
+        "domain",
+        "repository",
+        "dish",
+        "com",
+        "outdoor",
+        "foodcalc",
+        "domain",
+        "model",
+        "dish",
+        "Dish",
+        "java",
+        "util",
+        "java",
+        "util",
+        "Optional",
+        "IDishRepo",
+        "categoryId",
+        "id",
+        "dish",
+        "dish",
+        "id",
+        "id"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Product repository responsible for {@link Dish} persistence.\n *\n * @author Olga Borovyk",
+        "* Loads all {@link Dish}.\n     *\n     * @return list of dishes",
+        "* Count dishes number in the dish category\n     * @param categoryId dish category Id\n     * @return dishes number",
+        "* Loads {@link Dish} object by Id.\n     *\n     * @param id dish id\n     * @return loaded dish",
+        "* Add new {@link Dish}.\n     *\n     * @param dish to add\n     * @return auto generated Id",
+        "* Updates selected {@link Dish} with new value.\n     *\n     * @param dish to update\n     * @return if dish was updated",
+        "* Deletes selected {@link Dish}.\n     *\n     * @param id dish to delete\n     * @return if dish was deleted",
+        "* Check if specified {@link Dish} exists.\n     *\n     * @param id dish to check\n     * @return if dish exists"
+    ],
+    "functions": [
+        "getAllDishes",
+        "countDishesInCategory",
+        "getDish",
+        "addDish",
+        "updateDish",
+        "deleteDish",
+        "existsDish"
+    ],
+    "classes": []
+}

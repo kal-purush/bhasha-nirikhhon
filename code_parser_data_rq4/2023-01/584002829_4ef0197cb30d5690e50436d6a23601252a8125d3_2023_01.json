@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "README",
+        "title",
+        "description",
+        "installation",
+        "usage",
+        "credits",
+        "license",
+        "features",
+        "inquirer",
+        "questions",
+        "fileName",
+        "data",
+        "init"
+    ],
+    "literals": [
+        "'inquirer'",
+        "\"fs\"",
+        "#${title}\n##Description\n${description}\n##Installation\n${installation}\n##Usage\n${usage}\n##Credits\n${credits}\n##License\n${license}\n##Features\n${features}",
+        "'input'",
+        "'what is the title of you README?'",
+        "'title'",
+        "'input'",
+        "'a description of your project(motivation? what problem does it solve? what did you learn?)'",
+        "'description'",
+        "'input'",
+        "'what is the installation process?'",
+        "'installation'",
+        "'input'",
+        "'how do you use the application?'",
+        "'usage'",
+        "'input'",
+        "'what resources did you use and who helped you?'",
+        "'credits'",
+        "'input'",
+        "'what license did you use?'",
+        "'license'",
+        "'input'",
+        "'what special features does it have?'",
+        "'features'"
+    ],
+    "variables": [
+        "inquirer",
+        "fs",
+        "README",
+        "questions"
+    ],
+    "comments": [
+        "TODO: Include packages needed for this application",
+        "TODO: Create an array of questions for user input",
+        ".then((answers) => {",
+        "const htmlContent = html(answers)",
+        "fs.appendFile(\"index.html\", JSON.stringify(answers), error =>{",
+        "!error ? console.log('success!')",
+        ": console.log('an error occured')",
+        "})",
+        "})",
+        "TODO: Create a function to write README file",
+        "TODO: Create a function to initialize app",
+        "Function call to initialize app"
+    ],
+    "docstrings": [],
+    "functions": [
+        "writeToFile",
+        "init"
+    ],
+    "classes": []
+}

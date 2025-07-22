@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Injectable",
+        "dotenv",
+        "path",
+        "Injectable",
+        "process",
+        "filename",
+        "process",
+        "dotenv",
+        "path",
+        "process",
+        "filename",
+        "key",
+        "process",
+        "key",
+        "key",
+        "process",
+        "key",
+        "key",
+        "process",
+        "key",
+        "ConfigService"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'dotenv'",
+        "'path'",
+        "'DB_PORT'",
+        "'DB_NAME'",
+        "'DB_HOST'",
+        "'DB_USER'",
+        "'DB_PWD'",
+        "'PORT'",
+        "'.env'",
+        "'test'",
+        ".env.${process.env.NODE_ENV}"
+    ],
+    "variables": [
+        "filename",
+        "configService"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getBoolean",
+        "getNumber",
+        "getString"
+    ],
+    "classes": [
+        "ConfigService"
+    ]
+}

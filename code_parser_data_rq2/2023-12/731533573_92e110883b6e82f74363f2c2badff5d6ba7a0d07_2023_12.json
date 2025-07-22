@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "OktaAuth",
+        "SN_CSM_EC",
+        "SN_CSM_EC",
+        "authClient",
+        "authClient",
+        "userInfoContainer",
+        "idToken",
+        "idToken",
+        "userInfoContainer",
+        "displayUserInfo",
+        "displayUserInfo"
+    ],
+    "literals": [
+        "\"https://dev-16407622.okta.com\"",
+        "\"0oadvrpixrp4jsDvz5d7\"",
+        "\"https://your-redirect-uri.com\"",
+        "\"https://dev-16407622.okta.com\"",
+        "'openid'",
+        "'profile'",
+        "'email'",
+        "\"https://dev175885.service-now.com//#your-engagement-messenger-module-id\"",
+        "'userInfo'",
+        "'idToken'",
+        "'idToken'",
+        "<p>User Info:</p>\n                                       <p>Name: ${idToken.claims.name}</p>\n                                       <p>Email: ${idToken.claims.email}</p>",
+        "'<p>User is not authenticated. Please login first.</p>'",
+        "'getUserInfoButton'",
+        "'click'"
+    ],
+    "variables": [
+        "authClient",
+        "userInfoContainer",
+        "idToken"
+    ],
+    "comments": [
+        "Bootstrap the AuthJS Client for ServiceNow",
+        "Initialize the Engagement Messenger",
+        "Function to display user information",
+        "Check if the user is authenticated",
+        "Display user information",
+        "Event listener for the \"Get User Info\" button click",
+        "Automatically display user information on page load"
+    ],
+    "docstrings": [],
+    "functions": [
+        "displayUserInfo"
+    ],
+    "classes": []
+}

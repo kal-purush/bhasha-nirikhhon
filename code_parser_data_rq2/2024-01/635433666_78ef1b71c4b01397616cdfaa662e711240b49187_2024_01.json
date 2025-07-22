@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "ChatbotPromptSettingsKeys",
+        "ChatbotPromptSettingsKeys",
+        "ChatbotPromptSettingsKeys",
+        "ChatbotPromptSettingsKeys",
+        "GeneralSettingsKeys",
+        "GeneralSettingsKeys",
+        "GeneralSettingsKeys",
+        "GeneralSettingsKeys",
+        "GeneralSettingsKeys"
+    ],
+    "literals": [
+        "'chatbot-prompt'",
+        "'general'",
+        "'system'",
+        "'user'",
+        "'assistant'",
+        "string",
+        "'initialPrompt'",
+        "'chatbotCue'",
+        "'chatbotName'",
+        "string",
+        "string",
+        "'maxCommentLength'",
+        "'maxThreadLength'"
+    ],
+    "variables": [
+        "SettingsKeys",
+        "DEFAULT_GENERAL_SETTINGS"
+    ],
+    "comments": [
+        "Chatbot Prompt Setting keys",
+        "used to allow access using settings[settingKey] syntax",
+        "[key: string]: unknown;",
+        "Chatbot Prompt Setting keys"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

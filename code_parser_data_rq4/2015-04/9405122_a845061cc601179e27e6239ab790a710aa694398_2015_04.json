@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "os",
+        "subprocess",
+        "os",
+        "path",
+        "dirname",
+        "os",
+        "path",
+        "dirname",
+        "os",
+        "path",
+        "realpath",
+        "subprocess",
+        "check_output",
+        "cwd",
+        "build_dir",
+        "strip",
+        "replace",
+        "version",
+        "split",
+        "nano",
+        "join",
+        "major",
+        "minor",
+        "micro",
+        "format",
+        "version",
+        "version",
+        "major",
+        "major",
+        "minor",
+        "minor",
+        "micro",
+        "micro"
+    ],
+    "literals": [
+        "\"git\"",
+        "\"describe\"",
+        "\"--tags\"",
+        "\"--always\"",
+        "\"--long\"",
+        "\"-\"",
+        "\".\"",
+        "\".\"",
+        "\"0\"",
+        "\".\""
+    ],
+    "variables": [
+        "build_dir",
+        "version",
+        "major",
+        "minor",
+        "micro",
+        "nano",
+        "commit",
+        "version"
+    ],
+    "comments": [
+        "!/usr/bin/env python"
+    ],
+    "docstrings": [
+        "\"\"\"\\\n#ifndef __FRIDA_VERSION_H__\n#define __FRIDA_VERSION_H__\n\n#define FRIDA_VERSION \"{version}\"\n\n#define FRIDA_MAJOR_VERSION {major}\n#define FRIDA_MINOR_VERSION {minor}\n#define FRIDA_MICRO_VERSION {micro}\n\n#endif\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

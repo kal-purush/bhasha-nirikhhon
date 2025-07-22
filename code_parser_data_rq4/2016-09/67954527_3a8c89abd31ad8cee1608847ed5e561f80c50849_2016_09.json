@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "ro",
+        "jademy",
+        "java",
+        "util",
+        "numeAgentie",
+        "oferta",
+        "nume",
+        "numeAgentie",
+        "nume",
+        "index",
+        "sejur",
+        "index",
+        "FOUND",
+        "ps",
+        "oferta",
+        "ps",
+        "getIndex",
+        "index",
+        "FOUND",
+        "ps",
+        "addSejur",
+        "sejur",
+        "FOUND",
+        "ps",
+        "ps",
+        "setIndex",
+        "index",
+        "ps",
+        "addSejur",
+        "sejur",
+        "oferta",
+        "add",
+        "ps",
+        "informatiiSejur",
+        "ps",
+        "oferta",
+        "informatiiSejur",
+        "ps",
+        "getIndex",
+        "ps",
+        "pretPachet",
+        "informatiiSejur"
+    ],
+    "literals": [
+        "\"   \"",
+        "\"Sejurul numarul \"",
+        "\" are o valoare de \"",
+        "\" euro.\\n   \""
+    ],
+    "variables": [
+        "numeAgentie"
+    ],
+    "comments": [],
+    "docstrings": [
+        "*",
+        "* @author Andrei\n *",
+        "if (index >= 0 && index < oferta.size()) {\n\t\t\toferta.get(index).addSejur(sejur);\n\t\t\treturn;\n\t\t}\n\t\tif (index >= 0 && index >= oferta.size()) {\n\t\t\tint cateLipsesc = index - oferta.size();\n\n\t\t\tfor (int i = 0; i <= cateLipsesc; i++) {\n\t\t\t\tPachetSejur ps = new PachetSejur();\n\t\t\t\toferta.add(ps);\n\t\t\t}\n\t\t\toferta.get(index).addSejur(sejur);\n\t\t}"
+    ],
+    "functions": [
+        "Agentie",
+        "Agentie",
+        "addSejur",
+        "pretSejur"
+    ],
+    "classes": [
+        "Agentie"
+    ]
+}

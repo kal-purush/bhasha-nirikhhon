@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "Command",
+        "argv",
+        "config",
+        "Config",
+        "args",
+        "options",
+        "val",
+        "config",
+        "Config",
+        "examples",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "commands",
+        "Command"
+    ],
+    "literals": [
+        "'use strict'",
+        "'./util/Config'",
+        "'./rnpm/core/src/getCommands'",
+        "'./server/server'",
+        "'./runIOS/runIOS'",
+        "'./runAndroid/runAndroid'",
+        "'./library/library'",
+        "'./bundle/bundle'",
+        "'./bundle/unbundle'",
+        "'./rnpm/link/link'",
+        "'./rnpm/link/unlink'",
+        "'./rnpm/install/install'",
+        "'./rnpm/install/uninstall'",
+        "'./upgrade/upgrade'",
+        "'./logAndroid/logAndroid'",
+        "'./logIOS/logIOS'",
+        "'./dependencies/dependencies'",
+        "'init'",
+        "'Looks like React Native project already exists in the current'",
+        "'folder. Run this command from a different folder or remove node_modules/react-native'",
+        "'\\n'"
+    ],
+    "variables": [
+        "Config",
+        "getUserCommands",
+        "documentedCommands",
+        "undocumentedCommands"
+    ],
+    "comments": [
+        "The user should never get here because projects are inited by",
+        "using `react-native-cli` from outside a project directory."
+    ],
+    "docstrings": [
+        "* Copyright (c) 2015-present, Facebook, Inc.\n * All rights reserved.\n *\n * This source code is licensed under the BSD-style license found in the\n * LICENSE file in the root directory of this source tree. An additional grant\n * of patent rights can be found in the PATENTS file in the same directory.\n *\n * @flow"
+    ],
+    "functions": [],
+    "classes": []
+}

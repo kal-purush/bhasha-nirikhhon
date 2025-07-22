@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "request",
+        "getSSHKeys",
+        "request",
+        "addSSHKey",
+        "aSSHKeyPub",
+        "request",
+        "aSSHKeyPub",
+        "delSSHKey",
+        "aFingerPrt",
+        "request",
+        "aFingerPrt"
+    ],
+    "literals": [
+        "'@/api/core'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'GET'",
+        "/api/sshkeys",
+        "string",
+        "'POST'",
+        "/api/sshkeys",
+        "string",
+        "'DELETE'",
+        "/api/sshkeys/${aFingerPrt}"
+    ],
+    "variables": [
+        "getSSHKeys",
+        "addSSHKey",
+        "delSSHKey"
+    ],
+    "comments": [
+        "ref: https://github.com/machbase/neo-server/blob/31b78eb95325d4690d178f9a56da2df396d4d5a9/mods/service/httpd/httpd.go#L211"
+    ],
+    "docstrings": [
+        "* Get ssh key list\n * @returns ssh key list",
+        "* Add ssh key\n * @SSHKeyPub string",
+        "* Delete ssh key\n * @FingerPrt string\n * @return status"
+    ],
+    "functions": [],
+    "classes": []
+}

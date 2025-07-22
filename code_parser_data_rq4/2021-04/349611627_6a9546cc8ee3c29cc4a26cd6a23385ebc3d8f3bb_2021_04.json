@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "freq",
+        "sampleRate",
+        "freq",
+        "sampleRate",
+        "SinGenerator",
+        "SinGenerator",
+        "SinGenerator",
+        "prePos",
+        "prePos",
+        "lowerIdx",
+        "SinGenerator",
+        "lowerIdx",
+        "SinGenerator",
+        "lowerIdx",
+        "SinGenerator",
+        "SinGenerator",
+        "a",
+        "b",
+        "dist",
+        "a",
+        "b",
+        "dist",
+        "a",
+        "b",
+        "a",
+        "dist"
+    ],
+    "literals": [],
+    "variables": [
+        "prePos",
+        "lowerIdx",
+        "dist",
+        "a",
+        "b"
+    ],
+    "comments": [
+        "Calculate step in terms of array sin table elements to reduce the",
+        "amount of math we will need to do on the fly.",
+        "TODO: Generate this.",
+        "Advances the sin angle by one step, according to the frequency and",
+        "sample rate.",
+        "Returns the interpolated value of the sin wave at the pre-step position."
+    ],
+    "docstrings": [],
+    "functions": [
+        "Step",
+        "_lerp"
+    ],
+    "classes": [
+        "SinGenerator"
+    ]
+}

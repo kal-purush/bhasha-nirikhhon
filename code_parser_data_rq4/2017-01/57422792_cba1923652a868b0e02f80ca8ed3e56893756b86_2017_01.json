@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "PresenceChannel",
+        "SocketIoChannel",
+        "SocketIoChannel",
+        "eventName",
+        "data",
+        "eventName",
+        "data"
+    ],
+    "literals": [
+        "'./'",
+        "'trigger'",
+        "client-${eventName}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This class represents a Socket.io presence channel.",
+        "* Trigger client event on the channel.\n     *\n     * @param  {string}  eventName\n     * @param  {object}  data\n     * @return {PusherPrivateChannel}"
+    ],
+    "functions": [
+        "whisper"
+    ],
+    "classes": [
+        "SocketIoPrivateChannel"
+    ]
+}

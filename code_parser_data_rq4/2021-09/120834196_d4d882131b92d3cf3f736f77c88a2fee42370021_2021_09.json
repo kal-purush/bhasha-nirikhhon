@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "SearchableType",
+        "Searcher",
+        "buildURL",
+        "query",
+        "buildURL",
+        "query",
+        "query",
+        "buildURL",
+        "query"
+    ],
+    "literals": [
+        "\"@/types\"",
+        "\"@/urlBuilder\"",
+        "string",
+        "string",
+        "\"domain\"",
+        "\"https://www.urlvoid.com\"",
+        "\"URLVoid\"",
+        "string",
+        "string",
+        "/scan/${query}",
+        "string",
+        "string",
+        "/scan/${query}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "searchByDomain",
+        "search"
+    ],
+    "classes": [
+        "URLVoid"
+    ]
+}

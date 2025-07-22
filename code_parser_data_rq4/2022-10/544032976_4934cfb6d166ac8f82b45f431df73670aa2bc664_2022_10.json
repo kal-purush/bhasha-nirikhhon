@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "text",
+        "i",
+        "fnCallback",
+        "i",
+        "text",
+        "text",
+        "i",
+        "setTimeout",
+        "typeWriter",
+        "text",
+        "i",
+        "fnCallback",
+        "fnCallback",
+        "setTimeout",
+        "fnCallback",
+        "i",
+        "dataText",
+        "i",
+        "setTimeout",
+        "StartTextAnimation",
+        "i",
+        "dataText",
+        "i",
+        "typeWriter",
+        "dataText",
+        "i",
+        "StartTextAnimation",
+        "i",
+        "StartTextAnimation"
+    ],
+    "literals": [
+        "\"url('https://www.toptal.com/designers/subtlepatterns/uploads/hypnotize.png')\"",
+        "\"fixed\"",
+        "\"center\"",
+        "'DOMContentLoaded'",
+        "\"Elize Maloney\"",
+        "\"h1\"",
+        "'<span aria-hidden=\"true\"></span>'",
+        "'function'",
+        "'undefined'"
+    ],
+    "variables": [
+        "dataText"
+    ],
+    "comments": [
+        "array with texts to type in typewriter",
+        "type one text in the typwriter",
+        "keeps calling itself until the text is finished",
+        "chekc if text isn't finished yet",
+        "add next character to h1",
+        "wait for a while and call this function again for next character",
+        "text finished, call callback if there is a callback function",
+        "call callback after timeout",
+        "start a typewriter animation for a text in the dataText array",
+        "check if dataText[i] exists",
+        "text exists! start typewriter animation",
+        "after callback (and whole text has been animated), start next text",
+        "start the text animation"
+    ],
+    "docstrings": [],
+    "functions": [
+        "typeWriter",
+        "StartTextAnimation"
+    ],
+    "classes": []
+}

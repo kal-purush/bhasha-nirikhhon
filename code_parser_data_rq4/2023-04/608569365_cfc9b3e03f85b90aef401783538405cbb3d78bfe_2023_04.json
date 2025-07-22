@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "os",
+        "time",
+        "strftime",
+        "some_func",
+        "args",
+        "kwargs",
+        "os",
+        "path",
+        "exists",
+        "os",
+        "mkdir",
+        "open",
+        "log_file",
+        "log_file",
+        "write",
+        "some_func",
+        "strftime",
+        "some_func",
+        "args",
+        "kwargs",
+        "inner_func"
+    ],
+    "literals": [
+        "\"logs\"",
+        "\"logs\"",
+        "f\"logs/{__name__}_log.txt\"",
+        "\"a\"",
+        "f\"Function '{some_func.__name__}' started at {strftime('%d.%m.%Y %H:%M:%S')}\\n\"",
+        "'%d.%m.%Y %H:%M:%S'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Decorator function saves name of function and time when it's called into log file\"\"\""
+    ],
+    "functions": [
+        "func_name_time",
+        "inner_func"
+    ],
+    "classes": []
+}

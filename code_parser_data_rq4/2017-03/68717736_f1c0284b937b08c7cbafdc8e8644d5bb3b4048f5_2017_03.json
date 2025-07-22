@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "ConnectionManager",
+        "Container",
+        "cls",
+        "connectionName",
+        "target",
+        "propertyName",
+        "index",
+        "getValue",
+        "Container",
+        "ConnectionManager",
+        "connectionManager",
+        "connectionName",
+        "connectionName",
+        "connectionManager",
+        "connectionName",
+        "connection",
+        "cls",
+        "index",
+        "Container",
+        "target",
+        "index",
+        "getValue",
+        "Container",
+        "target",
+        "propertyName",
+        "getValue"
+    ],
+    "literals": [
+        "\"typeorm\"",
+        "\"typedi\"",
+        "string",
+        "\"default\"",
+        "string",
+        "Cannot get connection \"${connectionName}\" from the connection manager.",
+        "Make sure you have created such connection. Also make sure you have called useContainer(Container)",
+        "in your application before you established a connection and importing any entity."
+    ],
+    "variables": [
+        "getValue",
+        "connectionManager",
+        "connection"
+    ],
+    "comments": [
+        "todo: looks like typedi wrong type here"
+    ],
+    "docstrings": [
+        "* Allows to inject a Repository using typedi's Container."
+    ],
+    "functions": [
+        "OrmCustomRepository"
+    ],
+    "classes": []
+}

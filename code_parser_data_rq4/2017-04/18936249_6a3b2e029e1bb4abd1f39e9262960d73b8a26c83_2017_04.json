@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "require",
+        "feature",
+        "scenarioOutline",
+        "given",
+        "when",
+        "then"
+    ],
+    "literals": [
+        "'chai'",
+        "Scenario Outline statement",
+        "feeding a suckler cow\n\nExamples:\n    | weight | energy | protein |\n    |    450 |  26500 |     215 |\n    |    500 |  29500 |     245 |\n    |    575 |  31500 |     255 |\n    |    600 |  37000 |     305 |",
+        "\"the cow weighs <weight> kg\"",
+        "\"we calculate the feeding requirements\"",
+        "\"the energy should be <energy> MJ\"",
+        "\"the protein should be <protein> kg\""
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"../app/livedoc.ts\" />"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

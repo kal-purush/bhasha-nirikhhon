@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "owe6",
+        "eindopdrachtlottehouwen",
+        "virus_id",
+        "virusnaam",
+        "virusclasse",
+        "hostid",
+        "hostnaam",
+        "hostclasse",
+        "virus_id",
+        "virus_id",
+        "virusnaam",
+        "virusnaam",
+        "virusclasse",
+        "virusclasse",
+        "hostid",
+        "hostid",
+        "virus_id",
+        "virusnaam",
+        "virusclasse",
+        "hostid",
+        "virus_id",
+        "virus_id",
+        "virus_id",
+        "virus_id",
+        "virusnaam",
+        "virusnaam",
+        "virusnaam",
+        "virusnaam",
+        "virusclasse",
+        "virusclasse",
+        "virusclasse",
+        "virusclasse",
+        "hostid",
+        "hostid",
+        "hostid",
+        "hostid"
+    ],
+    "literals": [],
+    "variables": [
+        "virus_id",
+        "virusnaam",
+        "virusclasse",
+        "hostid"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* To change this license header, choose License Headers in Project Properties.\n * To change this template file, choose Tools | Templates\n * and open the template in the editor.",
+        "*\n * @author lotte",
+        "Virus(String[] virusarray){\n        this.virus_id = virusarray[0];\n        this.virusnaam = virusarray[1];\n        this.virusclasse = virusarray[2];\n        this.refseqid = virusarray[3];\n        \n        this.kegg_genome = virusarray[4];\n        this.kegg_disease = virusarray[5];\n        this.disease = virusarray[6];\n        \n        this.hostid = virusarray[7];\n        this.hostnaam = virusarray[8];\n        this.hostclasse = virusarray[9];\n        this.pmid = virusarray[10];\n        this.evidence = virusarray[11];}\n    }"
+    ],
+    "functions": [
+        "Virus",
+        "Virus",
+        "getVirus_id",
+        "setVirus_id",
+        "getVirusnaam",
+        "setVirusnaam",
+        "getVirusclasse",
+        "setVirusclasse",
+        "getHostid",
+        "setHostid"
+    ],
+    "classes": [
+        "Virus"
+    ]
+}

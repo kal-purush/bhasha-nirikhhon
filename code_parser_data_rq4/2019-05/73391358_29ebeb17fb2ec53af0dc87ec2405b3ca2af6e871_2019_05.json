@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "SenseNet",
+        "ContentRepository",
+        "SenseNet",
+        "ContentRepository",
+        "Storage",
+        "SenseNet",
+        "Packaging",
+        "Func",
+        "PatchContext",
+        "ExecutionResult"
+    ],
+    "literals": [],
+    "variables": [
+        "Version",
+        "Version",
+        "Version",
+        "MinVersion",
+        "Version",
+        "MaxVersion",
+        "MinVersionIsExclusive",
+        "MaxVersionIsExclusive",
+        "Contents",
+        "Execute",
+        "RepositoryStartSettings",
+        "Settings"
+    ],
+    "comments": [
+        "Represents a patch that will be executed only if the current component version",
+        "is lower than the supported version of the component and it is between the defined",
+        "minimum and maximum version numbers in this patch. The component version after",
+        "this patch will be the one defined in the Version property.",
+        "</summary>",
+        "Patch target version.",
+        "</summary>",
+        "If set to true, the patch will not be executed if the current",
+        "component version is the same as the minimum version defined",
+        "in this patch.",
+        "</summary>",
+        "If set to true, the patch will not be executed if the current",
+        "component version is the same as the maximum version defined",
+        "in this patch.",
+        "</summary>",
+        "TODO: add more patch definition options (resource, code, Manifest object)",
+        "Patch definition in a manifest xml format.",
+        "</summary>",
+        "Patch definition in the form of code.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "SnPatch",
+        "PatchContext"
+    ]
+}

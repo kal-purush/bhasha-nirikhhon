@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "com",
+        "juc",
+        "demo",
+        "semaphore",
+        "java",
+        "util",
+        "concurrent",
+        "Semaphore",
+        "java",
+        "util",
+        "concurrent",
+        "TimeUnit",
+        "args",
+        "semaphore",
+        "semaphore",
+        "availablePermits",
+        "i",
+        "i",
+        "i",
+        "bFlag",
+        "bFlag",
+        "semaphore",
+        "tryAcquire",
+        "TimeUnit",
+        "SECONDS",
+        "bFlag",
+        "semaphore",
+        "getQueueLength",
+        "currentThread",
+        "getName",
+        "semaphore",
+        "availablePermits",
+        "TimeUnit",
+        "SECONDS",
+        "sleep",
+        "semaphore",
+        "release",
+        "currentThread",
+        "getName",
+        "currentThread",
+        "getName",
+        "e",
+        "e",
+        "printStackTrace",
+        "i",
+        "start"
+    ],
+    "literals": [
+        "\"可办理业务窗口总数:\"",
+        "\"当前等待办理业务人数: \"",
+        "\"正在办理业务，剩余窗口\"",
+        "\"业务办理结束，已离开\"",
+        "\"选择不办理，傲娇的离开了\"",
+        "\"业务办理-\""
+    ],
+    "variables": [],
+    "comments": [
+        "2个窗口，默认为非公平锁，即不按线程排队顺序执行",
+        "semaphore.acquire(); // 获取资源请求,查看要否有空余窗口,愿意等到天荒地老的忠实客户",
+        "就等 3 秒钟的傲娇客户",
+        "释放资源占用，业务办理结束离开办理窗口"
+    ],
+    "docstrings": [
+        "* 信号量，控制窗口排队办理业务\n * @Auther: wangjian"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "SemaphoreDemo"
+    ]
+}

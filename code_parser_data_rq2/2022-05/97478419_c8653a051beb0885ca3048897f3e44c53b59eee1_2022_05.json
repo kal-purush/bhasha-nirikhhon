@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "readJSONData",
+        "writeJSONData",
+        "Settings",
+        "saveSettings",
+        "newSettings",
+        "storagePrettyPrint",
+        "settings",
+        "newSettings",
+        "writeJSONData",
+        "newSettings",
+        "storagePrettyPrint",
+        "loadSettings",
+        "settings",
+        "readJSONData",
+        "settings",
+        "getSettings",
+        "settings"
+    ],
+    "literals": [
+        "'src/main/libs/storage'",
+        "'src/shared/models/settings.model'",
+        "'settings'",
+        "'settings'"
+    ],
+    "variables": [
+        "settings",
+        "saveSettings",
+        "loadSettings",
+        "getSettings"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Save settings to the storage (electron-json-storage) using a key 'settings'\n * It will save the settings to the user data storage folder:\n * 'settings' --> /%USER_DATA%/mockoon/storage/settings.json",
+        "* Read settings from the storage (electron-json-storage) using a key 'settings'\n * It will retrieve the settings from the user data storage folder:\n * 'settings' --> /%USER_DATA%/mockoon/storage/settings.json",
+        "* Returns the up-to-date app settings store in the main process\n *\n * @returns"
+    ],
+    "functions": [],
+    "classes": []
+}

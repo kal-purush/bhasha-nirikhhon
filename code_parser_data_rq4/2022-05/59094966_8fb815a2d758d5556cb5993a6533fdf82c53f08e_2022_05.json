@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "IHttpClient",
+        "k8sUrl",
+        "IOAuth2Provider",
+        "getResource",
+        "IClusterRole",
+        "client",
+        "auth",
+        "name",
+        "k8sUrl",
+        "getResource",
+        "client",
+        "auth",
+        "url",
+        "name",
+        "name"
+    ],
+    "literals": [
+        "'model/clients/HttpClient'",
+        "'model/services/mapi/k8sUrl'",
+        "'utils/OAuth2/OAuth2'",
+        "'../generic/getResource'",
+        "'./types'",
+        "string",
+        "'rbac.authorization.k8s.io/v1'",
+        "'clusterroles'",
+        "''",
+        "string",
+        "getClusterRole/${name}"
+    ],
+    "variables": [
+        "url"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getClusterRole",
+        "getClusterRoleKey"
+    ],
+    "classes": []
+}

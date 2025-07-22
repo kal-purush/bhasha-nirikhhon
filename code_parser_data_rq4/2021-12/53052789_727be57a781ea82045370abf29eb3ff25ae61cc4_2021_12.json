@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "VisualStudio",
+        "Services",
+        "ServiceEndpoints",
+        "WebApi",
+        "Collections",
+        "Generic",
+        "Text",
+        "Microsoft",
+        "VisualStudio",
+        "Services",
+        "Agent",
+        "Util",
+        "key",
+        "EndpointAuthorizationParameters",
+        "IdToken",
+        "EndpointAuthorizationParameters",
+        "Role",
+        "EndpointAuthorizationParameters",
+        "Scope",
+        "EndpointAuthorizationParameters",
+        "TenantId",
+        "EndpointAuthorizationParameters",
+        "IssuedAt",
+        "EndpointAuthorizationParameters",
+        "ExpiresAt",
+        "EndpointAuthorizationParameters",
+        "Audience",
+        "EndpointAuthorizationParameters",
+        "AuthenticationType",
+        "EndpointAuthorizationParameters",
+        "AuthorizationType",
+        "EndpointAuthorizationParameters",
+        "AccessTokenType",
+        "EndpointAuthorizationParameters",
+        "AccessTokenFetchingMethod",
+        "EndpointAuthorizationParameters",
+        "UseWindowsSecurity",
+        "EndpointAuthorizationParameters",
+        "Unsecured",
+        "EndpointAuthorizationParameters",
+        "OAuthAccessTokenIsSupplied",
+        "EndpointAuthorizationParameters",
+        "Audience",
+        "EndpointAuthorizationParameters",
+        "CompleteCallbackPayload",
+        "EndpointAuthorizationParameters",
+        "AcceptUntrustedCertificates",
+        "authParam",
+        "excludedAuthParams",
+        "Equals",
+        "key",
+        "authParam",
+        "StringComparison",
+        "OrdinalIgnoreCase"
+    ],
+    "literals": [],
+    "variables": [
+        "excludedAuthParams"
+    ],
+    "comments": [
+        "Returns true if endpoint authorization parameter with provided key is a secret",
+        "Masks all keys except the specific fields - for which we know that they don't contain secrets",
+        "</summary>",
+        "<param name=\"key\">Key to check</param>",
+        "<returns>Returns true if key is a secret</returns>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "IsEndpointAuthorizationParametersSecret"
+    ],
+    "classes": [
+        "MaskingUtil"
+    ]
+}

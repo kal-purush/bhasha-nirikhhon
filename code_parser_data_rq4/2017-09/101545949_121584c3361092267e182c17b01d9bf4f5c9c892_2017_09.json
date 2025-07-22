@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "Xml",
+        "IO",
+        "Text",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Web",
+        "WebMatrix",
+        "Data",
+        "Microsoft",
+        "VisualBasic",
+        "Microsoft",
+        "VisualBasic",
+        "FileIO",
+        "Security",
+        "Cryptography",
+        "Database",
+        "Open",
+        "username",
+        "no_leave_applied",
+        "db",
+        "QueryValue",
+        "sql",
+        "username",
+        "no_leave_applied",
+        "leaveLeft",
+        "leaveDeduction",
+        "sufficientLeave",
+        "sufficientLeave",
+        "username",
+        "db",
+        "QueryValue",
+        "sql",
+        "username",
+        "pendingApprovalLeave",
+        "hasPendingLeave",
+        "hasPendingLeave"
+    ],
+    "literals": [
+        "\"HR_System\"",
+        "\"SELECT TOP 1 no_of_leave_left FROM tbl_employeeInfo WHERE username = @0\"",
+        "\"SELECT COUNT(*) FROM tbl_leaveApplication WHERE submitted_by = @0 AND status = 'Pending Approval' \""
+    ],
+    "variables": [
+        "Database",
+        "db",
+        "sufficientLeave",
+        "sql",
+        "leaveLeft",
+        "leaveDeduction",
+        "hasPendingLeave",
+        "sql",
+        "pendingApprovalLeave"
+    ],
+    "comments": [
+        "Summary description for ArchiveTable",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "sufficientLeave",
+        "pendingApprovalLeave"
+    ],
+    "classes": [
+        "LeaveFuction"
+    ]
+}

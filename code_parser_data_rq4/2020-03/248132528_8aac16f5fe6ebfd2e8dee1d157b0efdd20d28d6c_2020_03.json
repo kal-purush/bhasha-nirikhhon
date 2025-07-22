@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "json",
+        "os",
+        "boto3",
+        "reflex_core",
+        "AWSRule",
+        "AWSRule",
+        "_",
+        "CloudtrailLoggingStopped",
+        "json",
+        "loads",
+        "rule",
+        "run_compliance_rule"
+    ],
+    "literals": [
+        "\"Records\"",
+        "\"body\""
+    ],
+    "variables": [
+        "rule"
+    ],
+    "comments": [
+        "TODO: Instantiate whatever boto3 client you'll need, if any.",
+        "Example:",
+        "client = boto3.client(\"s3\")",
+        "TODO: Extract any data you need from the triggering event.",
+        "",
+        "Example:",
+        "self.bucket_name = event[\"detail\"][\"requestParameters\"][\"bucketName\"]",
+        "TODO: Implement a check for determining if the resource is compliant",
+        "TODO (Optional): Fix the non-compliant resource. This only needs to",
+        "be implemented for rules that remediate non-compliant resources.",
+        "Purely detective rules can omit this function.",
+        "TODO: Provide a human readable message describing what occured. This",
+        "message is sent in all notifications.",
+        "",
+        "Example:",
+        "return f\"The S3 bucket {self.bucket_name} was unencrypted. AES-256 encryption was enabled.\""
+    ],
+    "docstrings": [
+        "\"\"\" Module for CloudtrailLoggingStopped \"\"\"",
+        "\"\"\" TODO: A description for your rule \"\"\"",
+        "\"\"\" Extract required event data \"\"\"",
+        "\"\"\"\n        Determine if the resource is compliant with your rule.\n\n        Return True if it is compliant, and False if it is not.\n        \"\"\"",
+        "\"\"\"\n        Fix the non-compliant resource so it conforms to the rule\n        \"\"\"",
+        "\"\"\" Returns a message about the remediation action that occurred \"\"\"",
+        "\"\"\" Handles the incoming event \"\"\""
+    ],
+    "functions": [
+        "extract_event_data",
+        "resource_compliant",
+        "remediate",
+        "get_remediation_message",
+        "lambda_handler"
+    ],
+    "classes": [
+        "CloudtrailLoggingStopped"
+    ]
+}

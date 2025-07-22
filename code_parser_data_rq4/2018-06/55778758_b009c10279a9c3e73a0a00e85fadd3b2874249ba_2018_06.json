@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "IdentityServer4",
+        "IdentityServer4",
+        "Models",
+        "Collections",
+        "Generic",
+        "IdSrv4",
+        "ApiResource",
+        "ApiResource",
+        "ApiResource",
+        "Client",
+        "Client",
+        "Client",
+        "ClientId",
+        "ClientName",
+        "AllowedGrantTypes",
+        "GrantTypes",
+        "Hybrid",
+        "ClientSecrets",
+        "Secret",
+        "Sha256",
+        "RedirectUris",
+        "PostLogoutRedirectUris",
+        "AllowedScopes",
+        "IdentityServerConstants",
+        "StandardScopes",
+        "OpenId",
+        "IdentityServerConstants",
+        "StandardScopes",
+        "Profile",
+        "IdentityServerConstants",
+        "StandardScopes",
+        "Email",
+        "AllowOfflineAccess"
+    ],
+    "literals": [
+        "\"api1\"",
+        "\"My API\"",
+        "\"mvc\"",
+        "\"MVC Client\"",
+        "\"secret\"",
+        "\"http://mvcclient.127.0.0.1.xip.io:80/signin-oidc\"",
+        "\"http://mvcclient.127.0.0.1.xip.io:80/signout-callback-oidc\""
+    ],
+    "variables": [],
+    "comments": [
+        "Copyright (c) Brock Allen & Dominick Baier. All rights reserved.",
+        "Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.",
+        "scopes define the API resources in your system",
+        "clients want to access resources (aka scopes)",
+        "client credentials client",
+        "OpenID Connect hybrid flow and client credentials client (MVC)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "GetApiResources",
+        "GetClients"
+    ],
+    "classes": [
+        "Config"
+    ]
+}

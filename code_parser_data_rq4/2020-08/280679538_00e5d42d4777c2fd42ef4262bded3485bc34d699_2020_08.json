@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "path",
+        "fs",
+        "process",
+        "process",
+        "path",
+        "home",
+        "CONFIG_FILE_PATH",
+        "fs",
+        "configFile",
+        "fs",
+        "configFile",
+        "contents",
+        "config",
+        "err",
+        "err",
+        "getConfiguration"
+    ],
+    "literals": [
+        "\"path\"",
+        "\"fs\"",
+        "\"Klive/klive.config\"",
+        "\"win32\"",
+        "\"USERPROFILE\"",
+        "\"HOME\"",
+        "\"\"",
+        "\"utf8\"",
+        "Cannot read and parse Klive configuration file: ${err}"
+    ],
+    "variables": [
+        "CONFIG_FILE_PATH",
+        "home",
+        "configFile",
+        "contents",
+        "config",
+        "appConfiguration"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* The file that stores the Klive Emulator configuration",
+        "* Represents the Klive configuration that is read during startup",
+        "* Gets the configuration of Klive Emulator from the user folder",
+        "* The application configuration instance"
+    ],
+    "functions": [
+        "getConfiguration"
+    ],
+    "classes": []
+}

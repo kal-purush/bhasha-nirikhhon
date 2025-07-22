@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "express",
+        "util",
+        "pg",
+        "parse",
+        "require",
+        "process",
+        "parse",
+        "dbUrl",
+        "pg",
+        "config",
+        "pool",
+        "req",
+        "express",
+        "res",
+        "express",
+        "req",
+        "util",
+        "internalGameName",
+        "res",
+        "getChatFromDB",
+        "gameIndex",
+        "gameIndex",
+        "pool",
+        "gameIndex",
+        "res",
+        "err",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "'express'",
+        "'../config/gameInfoUtil'",
+        "'pg'",
+        "'pg-connection-string'",
+        "'dotenv'",
+        "string",
+        "''",
+        "string",
+        "'game_name'",
+        "SELECT * \n      FROM kubercade.chat_table\n      WHERE game_index=$1\n      ORDER BY datetime ASC",
+        "'Query error'"
+    ],
+    "variables": [
+        "dbUrl",
+        "config",
+        "pool",
+        "chatController",
+        "internalGameName",
+        "gameIndex",
+        "res"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getChat",
+        "getChatFromDB"
+    ],
+    "classes": []
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "SendAction",
+        "e",
+        "alert",
+        "AccessLoggerItems",
+        "alert",
+        "i",
+        "ButtonTags",
+        "i",
+        "alert",
+        "ButtonTags",
+        "i",
+        "ButtonTags",
+        "i",
+        "ButtonTags",
+        "i",
+        "targetObj",
+        "ButtonTags",
+        "i",
+        "targetObj",
+        "SendAction",
+        "AccessLogger"
+    ],
+    "literals": [
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"a\"",
+        "\"*\"",
+        "\"input\"",
+        "\":\"",
+        "\"button\"",
+        "\"click\""
+    ],
+    "variables": [
+        "ButtonTags",
+        "targetObj",
+        "i"
+    ],
+    "comments": [
+        "このライブラリが対応するすべての要素にアクセスロガーを仕込む",
+        "読み込んだページのinput type=\"button\"にアクセスロガーを設定"
+    ],
+    "docstrings": [
+        "* New typescript file"
+    ],
+    "functions": [
+        "SetLoggerToThisPage",
+        "SetLoggerToButtonThisPage"
+    ],
+    "classes": [
+        "AccessLoggerItems",
+        "AccessLogger"
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "myTest",
+        "path",
+        "__dirname",
+        "fs",
+        "generatePage",
+        "template",
+        "fs",
+        "template",
+        "layout",
+        "pageContent",
+        "HtmlWebpackPlugin",
+        "path",
+        "__dirname",
+        "path",
+        "__dirname",
+        "myTest"
+    ],
+    "literals": [
+        "'fs'",
+        "'path'",
+        "'glob'",
+        "'html-webpack-plugin'",
+        "'\\n\\nmyTest =========================\\n\\n\\n'",
+        "'dist/pages/'",
+        "src/templates/handlebars/index.handlebars",
+        "'utf8'",
+        "'utf-8'",
+        "'{# PAGE_CONTENT #}'",
+        "'My Plugin DEmo page Example JS 1144'",
+        "'../src/templates/handlebars/index.handlebars'",
+        "'../dist/pages/test660000.html'"
+    ],
+    "variables": [
+        "fs",
+        "path",
+        "glob",
+        "HtmlWebpackPlugin",
+        "myTest",
+        "realContentFolderPath",
+        "layout",
+        "generatePage",
+        "pageContent"
+    ],
+    "comments": [
+        "const pages = glob.sync(contentDir + '/**/*.html');",
+        "return pages.map(page => new HtmlWebpackPlugin({\n        templateContent: generatePage(page),\n        filename: page.replace(realContentFolderPath, ''),\n        hash: true\n    }));",
+        "relative to root of the application"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

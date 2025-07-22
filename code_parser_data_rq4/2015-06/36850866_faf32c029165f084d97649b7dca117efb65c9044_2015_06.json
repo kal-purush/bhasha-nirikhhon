@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "com",
+        "libmailcore",
+        "java",
+        "util",
+        "header",
+        "contentID",
+        "uniqueID"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "Abstract message.",
+        "Returns the header of the message.",
+        "Sets the header of the message.",
+        "Returns the MIME part with the given Content-ID.\n        @see com.libmailcore.AbstractPart#contentID()",
+        "Returns the MIME part with the given uniqueID.\n        @see com.libmailcore.AbstractPart#uniqueID()",
+        "Returns the list of attachments, not part of the content of the message.",
+        "Returns the list of attachments that are shown inline in the content of the message.",
+        "Returns the list of the text parts required to render the message properly."
+    ],
+    "functions": [
+        "MessageHeader",
+        "header",
+        "setHeader",
+        "AbstractPart",
+        "partForContentID",
+        "AbstractPart",
+        "partForUniqueID",
+        "attachments",
+        "htmlInlineAttachments",
+        "requiredPartsForRendering"
+    ],
+    "classes": [
+        "AbstractMessage"
+    ]
+}

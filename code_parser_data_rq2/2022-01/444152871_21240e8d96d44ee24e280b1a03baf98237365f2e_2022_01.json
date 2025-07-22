@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "fastapi",
+        "FastAPI",
+        "fastapi",
+        "Body",
+        "FastAPI",
+        "app",
+        "get",
+        "app",
+        "get",
+        "app",
+        "post",
+        "payLoad",
+        "Body",
+        "payLoad",
+        "payLoad",
+        "payLoad"
+    ],
+    "literals": [
+        "'/'",
+        "\"message\"",
+        "\"Hello world!!\"",
+        "'/posts'",
+        "\"data\"",
+        "\"This is your posts\"",
+        "'/posts'",
+        "\"new_post\"",
+        "f\"title: {payLoad['title']} content: {payLoad['content']}\"",
+        "'title'",
+        "'content'"
+    ],
+    "variables": [
+        "app"
+    ],
+    "comments": [
+        "!!!WARNING!!!",
+        "Fast api read the first path request if that match the next are skip",
+        "Each time modify the return we have to relaunch uvicorn server",
+        "--reload allow uvicorn to watch changes",
+        "Stock Post data into a dictionnary variable named payLoad Body is import from Fastapi",
+        "display the data in uvicorn server",
+        "display the data in a python dictionnary (JSON)"
+    ],
+    "docstrings": [
+        "\"\"\" \nGET method\nArguments: Path to root\nReturns: Python dictionnary convert to JSON\n\"\"\"",
+        "\"\"\" \nGET method\nArguments: Path to posts\nReturns: Python dictionnary convert to JSON\n\"\"\"",
+        "\"\"\" \nPOST method\nArguments: Path to posts\nReturns: Python dictionnary convert to JSON\n\"\"\""
+    ],
+    "functions": [
+        "root",
+        "method_name",
+        "create_post"
+    ],
+    "classes": []
+}

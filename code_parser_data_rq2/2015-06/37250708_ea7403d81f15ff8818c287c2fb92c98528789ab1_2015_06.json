@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "require",
+        "Hapi",
+        "server",
+        "process",
+        "process",
+        "process",
+        "require",
+        "server",
+        "require",
+        "server",
+        "require",
+        "require",
+        "models",
+        "config",
+        "require",
+        "server",
+        "server",
+        "server",
+        "server",
+        "process",
+        "server"
+    ],
+    "literals": [
+        "'use strict'",
+        "'hapi'",
+        "'error'",
+        "'development'",
+        "'./routes'",
+        "'./components/logger'",
+        "'./models'",
+        "'./config'",
+        "'./config/seed'",
+        "'INFO'",
+        "'Server is running at '",
+        "' mode'"
+    ],
+    "variables": [
+        "Hapi",
+        "server",
+        "models",
+        "config"
+    ],
+    "comments": [
+        "Set default node environment to development",
+        "Session",
+        "require('./components/session')(server);",
+        "Routing",
+        "Logger",
+        "Sync Database",
+        "Insert seed data",
+        "Start server",
+        "For unit test"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

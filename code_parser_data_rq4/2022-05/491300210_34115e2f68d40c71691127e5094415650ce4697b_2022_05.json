@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "Drawing",
+        "MapRender",
+        "zoom",
+        "Pow",
+        "zoom",
+        "MapPoint",
+        "point",
+        "zoom",
+        "point",
+        "Longitude",
+        "zoom",
+        "Log",
+        "Tan",
+        "point",
+        "Latitude",
+        "PI",
+        "Cos",
+        "point",
+        "Latitude",
+        "PI",
+        "PI",
+        "zoom",
+        "MapTilePoint",
+        "x",
+        "y",
+        "MapTilePoint",
+        "point",
+        "zoom",
+        "Floor",
+        "zoom",
+        "PI",
+        "PI",
+        "point",
+        "Y",
+        "Pow",
+        "roundZoom",
+        "point",
+        "X",
+        "Pow",
+        "roundZoom",
+        "PI",
+        "Atan",
+        "Sinh",
+        "n",
+        "MapPoint",
+        "lon",
+        "lat"
+    ],
+    "literals": [],
+    "variables": [
+        "x",
+        "y",
+        "roundZoom",
+        "n",
+        "lon",
+        "lat"
+    ],
+    "comments": [
+        "Gets number of tiles per one axis at specified zoom.",
+        "To get total number of tiles it needs to be raised to second power.",
+        "</summary>",
+        "<param name=\"zoom\">Zoom level.</param>",
+        "<returns>An integer, representing number of tiles per axis.</returns>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "GetNumberOfTilesAtZoom",
+        "MapTilePoint",
+        "WorldToTilePos",
+        "MapPoint",
+        "TileToWorldPos"
+    ],
+    "classes": [
+        "MapHelper"
+    ]
+}

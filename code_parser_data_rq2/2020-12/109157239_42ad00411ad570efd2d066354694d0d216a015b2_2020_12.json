@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "cz",
+        "o2",
+        "proxima",
+        "commitlog",
+        "cz",
+        "o2",
+        "proxima",
+        "direct",
+        "commitlog",
+        "CommitLogReader",
+        "cz",
+        "o2",
+        "proxima",
+        "direct",
+        "commitlog",
+        "CommitLogReaders",
+        "cz",
+        "o2",
+        "proxima",
+        "storage",
+        "ThroughputLimiter",
+        "java",
+        "time",
+        "Duration",
+        "org",
+        "junit",
+        "Test",
+        "org",
+        "mockito",
+        "Mockito",
+        "Override",
+        "context",
+        "Duration",
+        "ZERO",
+        "Override",
+        "Test",
+        "mockReader",
+        "Mockito",
+        "mock",
+        "Mockito",
+        "doThrow",
+        "when",
+        "mockReader",
+        "getPartitions",
+        "CommitLogReaders",
+        "withThroughputLimit",
+        "mockReader"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "no-op",
+        "Get Partitions may not be supported in test environment, because it may issue remote",
+        "fetches..."
+    ],
+    "docstrings": [
+        "* Copyright 2017-2020 O2 Czech Republic, a.s.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *    http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License."
+    ],
+    "functions": [
+        "Duration",
+        "getPauseTime",
+        "close",
+        "testLimitedReaderInstantiation"
+    ],
+    "classes": [
+        "CommitLogReadersTest",
+        "NoOpThroughputLimiter"
+    ]
+}

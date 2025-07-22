@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "pipe",
+        "logger",
+        "LoggerToken",
+        "mockLogger",
+        "isTestEnv",
+        "registerAll",
+        "BoundDependency",
+        "createContext",
+        "bindTo",
+        "resolve",
+        "Context",
+        "constructContext",
+        "context",
+        "dependencies",
+        "pipe",
+        "context",
+        "createContext",
+        "registerAll",
+        "bindTo",
+        "LoggerToken",
+        "isTestEnv",
+        "mockLogger",
+        "logger",
+        "dependencies",
+        "resolve",
+        "constructContext"
+    ],
+    "literals": [
+        "'fp-ts/lib/pipeable'",
+        "'../logger'",
+        "'../+internal/utils'",
+        "'./context'"
+    ],
+    "variables": [
+        "constructContext",
+        "contextFactory"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Constructs and resolves a new or derived context based on provided dependencies\n * @param context (optional) empty or derived context\n * @param dependencies list of bound dependencies to register in the context\n * @since v3.4.0",
+        "* Constructs and resolves a new context based on provided dependencies\n * @param dependencies list of bound dependencies to register in the context\n * @since v3.2.0"
+    ],
+    "functions": [],
+    "classes": []
+}

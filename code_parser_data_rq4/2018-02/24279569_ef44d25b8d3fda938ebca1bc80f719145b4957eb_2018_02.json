@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Injectable",
+        "name",
+        "name",
+        "name",
+        "focus",
+        "focus",
+        "name",
+        "focus",
+        "name",
+        "focus",
+        "name",
+        "name"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "focus"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Global focus service.",
+        "* Global map of \"focus-able\" objects.\n   *\n   * The key is the name of the focus-able object and the value the function\n   * that puts the focus on this object.",
+        "* Tries to set the focus of the focus-able object with the given name.",
+        "* Registers a focus-able object.",
+        "* Unregisters a focus-able object."
+    ],
+    "functions": [
+        "setFocus",
+        "add",
+        "remove"
+    ],
+    "classes": [
+        "FocusService"
+    ]
+}

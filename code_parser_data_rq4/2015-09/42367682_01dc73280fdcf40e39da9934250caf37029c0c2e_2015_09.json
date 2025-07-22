@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "Component",
+        "View",
+        "FORM_DIRECTIVES",
+        "Component",
+        "View",
+        "FORM_DIRECTIVES",
+        "alert"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'search'",
+        "<div class=\"input-group\">\n\t\t<input type=\"text\" class=\"form-control\" placeholder=\"Search for...\" [(ng-model)]=\"q\">\n\t\t<span class=\"input-group-btn\">\n\t\t\t<button class=\"btn btn-default\" type=\"button\" (click)=\"do_search($event);\">Go!</button>\n\t\t</span>\n\t</div>",
+        ".input-group {\n      padding: 5px;\n\t  border:1px solid;\n    }",
+        "string",
+        "'Search component is supposed to search: '"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "do_search"
+    ],
+    "classes": [
+        "Search"
+    ]
+}

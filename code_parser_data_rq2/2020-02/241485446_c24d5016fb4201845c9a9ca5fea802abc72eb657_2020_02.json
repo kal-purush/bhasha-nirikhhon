@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "$response",
+        "$request",
+        "body",
+        "url",
+        "setfree",
+        "i",
+        "obj",
+        "i",
+        "obj",
+        "i",
+        "body",
+        "obj",
+        "url",
+        "userinfo",
+        "obj",
+        "obj",
+        "body",
+        "obj",
+        "$done"
+    ],
+    "literals": [
+        "'/userInfo'",
+        "'/special/queryByCatalogAll'"
+    ],
+    "variables": [
+        "body",
+        "url",
+        "obj",
+        "userinfo",
+        "setfree",
+        "i"
+    ],
+    "comments": [
+        "克拉壁纸解锁付费壁纸\n\nSurge4：\nhttp-response ^https:\\/\\/claritywallpaper\\.com\\/clarity\\/api\\/(userInfo|special\\/queryByCatalogAll) requires-body=1,max-size=262144,script-path=resources/js/clarity.js\nQX：\n^https:\\/\\/claritywallpaper\\.com\\/clarity\\/api\\/(userInfo|special\\/queryByCatalogAll) url script-response-body clarity.js\n\nSurge & QX MITM = claritywallpaper.com"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

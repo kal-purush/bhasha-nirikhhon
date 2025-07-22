@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "width",
+        "height",
+        "width",
+        "height",
+        "ratio_h",
+        "Round",
+        "ratio_w",
+        "ratio_h",
+        "Mathf",
+        "RoundToInt",
+        "ratio_w",
+        "ratio_h",
+        "Vector2",
+        "Round",
+        "ratio_w",
+        "ratio_h",
+        "ratio_h",
+        "acpectRatio"
+    ],
+    "literals": [],
+    "variables": [
+        "ratio_w",
+        "ratio_h",
+        "Vector2",
+        "acpectRatio"
+    ],
+    "comments": [
+        "ESTE SCRIPT SE USA EN EL SCRIPT PostProcessingScript AL USAR LA FUNCION GetAspectRatio() EN EL",
+        "(float) castea los valores a un valor decimal",
+        "Round() redondea el parametro que se le pase como primer parametro y con la cantidad de digitos de precicion que se especifique en el segundo",
+        "Esta variable debe llamarse igual que la variable en el PostProcessingScript que guardara el valor que retorna esta funcion al usarla, en este caso acpectRatio"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Vector2",
+        "GetAspectRatio"
+    ],
+    "classes": [
+        "AspectRatio"
+    ]
+}

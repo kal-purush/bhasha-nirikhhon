@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "m11_challenge1",
+        "java",
+        "util",
+        "concurrent",
+        "TimeUnit",
+        "java",
+        "util",
+        "concurrent",
+        "locks",
+        "Lock",
+        "java",
+        "util",
+        "concurrent",
+        "locks",
+        "ReentrantLock",
+        "balance",
+        "accountNumber",
+        "accountNumber",
+        "initialBalance",
+        "accountNumber",
+        "accountNumber",
+        "balance",
+        "initialBalance",
+        "amount",
+        "status",
+        "tryLock",
+        "TimeUnit",
+        "MILLISECONDS",
+        "balance",
+        "amount",
+        "status",
+        "unlock",
+        "e",
+        "e",
+        "getMessage",
+        "status",
+        "amount",
+        "status",
+        "tryLock",
+        "TimeUnit",
+        "MILLISECONDS",
+        "balance",
+        "amount",
+        "status",
+        "unlock",
+        "e",
+        "e",
+        "getMessage",
+        "status",
+        "balance"
+    ],
+    "literals": [
+        "\"Could not get the lock\"",
+        "\"Transaction status = \"",
+        "\"Could not get the lock\"",
+        "\"Transaction status = \""
+    ],
+    "variables": [
+        "balance",
+        "accountNumber",
+        "lock"
+    ],
+    "comments": [
+        "Challenge 5:",
+        "Update the code so that the status variable is thread safe",
+        "Rozwiązanie: lokalne zmienne są zawsze thread safe, więc nie trzeba nic zmieniać"
+    ],
+    "docstrings": [],
+    "functions": [
+        "BankAccountStatus",
+        "deposit",
+        "withdraw",
+        "getBalance"
+    ],
+    "classes": [
+        "BankAccountStatus"
+    ]
+}

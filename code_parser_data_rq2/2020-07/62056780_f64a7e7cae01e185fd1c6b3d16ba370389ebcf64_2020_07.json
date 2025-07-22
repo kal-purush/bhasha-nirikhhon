@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "org",
+        "eclipse",
+        "jdt",
+        "ls",
+        "core",
+        "corext",
+        "refactoring",
+        "org",
+        "eclipse",
+        "core",
+        "runtime",
+        "CoreException",
+        "org",
+        "eclipse",
+        "jdt",
+        "core",
+        "dom",
+        "MethodDeclaration",
+        "org",
+        "eclipse",
+        "jdt",
+        "corext",
+        "refactoring",
+        "structure",
+        "CompilationUnitRewrite",
+        "org",
+        "eclipse",
+        "ltk",
+        "core",
+        "refactoring",
+        "RefactoringStatus",
+        "methodDeclaration",
+        "cuRewrite",
+        "result"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*****************************************************************************\n * Copyright (c) 2005, 2008 IBM Corporation and others.\n *\n * This program and the accompanying materials\n * are made available under the terms of the Eclipse Public License 2.0\n * which accompanies this distribution, and is available at\n * https://www.eclipse.org/legal/epl-2.0/\n *\n * SPDX-License-Identifier: EPL-2.0\n *\n * Originally copied from org.eclipse.jdt.internal.corext.refactoring.structure.BodyUpdater\n *\n * Contributors:\n *     IBM Corporation - initial API and implementation\n ******************************************************************************",
+        "* Updates the body of a method declaration. This method is called by the\n\t * {@link ChangeSignatureProcessor} and allows implementors to refactor the body\n\t * of the given method declaration.\n\t *\n\t * @param methodDeclaration\n\t * @param cuRewrite\n\t * @param result\n\t * @throws CoreException",
+        "* Returns whether {@link ChangeSignatureProcessor} should check if\n\t * deleted parameters are currently used in the method body.\n\t *\n\t * @return <code>true</code> by default, subclasses can override"
+    ],
+    "functions": [
+        "updateBody",
+        "needsParameterUsedCheck"
+    ],
+    "classes": [
+        "BodyUpdater"
+    ]
+}

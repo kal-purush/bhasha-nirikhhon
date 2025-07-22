@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "unicode_literals",
+        "mailchimp3",
+        "baseapi",
+        "BaseApi",
+        "BaseApi",
+        "args",
+        "kwargs",
+        "LandingPageAction",
+        "args",
+        "kwargs",
+        "page_id",
+        "page_id",
+        "_mc_client",
+        "_post",
+        "url",
+        "_build_path",
+        "page_id",
+        "page_id",
+        "page_id",
+        "_mc_client",
+        "_post",
+        "url",
+        "_build_path",
+        "page_id"
+    ],
+    "literals": [
+        "'landing-pages'",
+        "'actions/publish'",
+        "'actions/unpublish'"
+    ],
+    "variables": [
+        "endpoint",
+        "page_id",
+        "page_id",
+        "page_id"
+    ],
+    "comments": [
+        "coding=utf-8"
+    ],
+    "docstrings": [
+        "\"\"\"\nThe Landinge Page actions API endpoint\n\nDocumentation: https://mailchimp.com/developer/reference/landing-pages/\n\"\"\"",
+        "\"\"\"\n    Manage your Landing Pages, including publishing and unpublishing.\n    \"\"\"",
+        "\"\"\"\n        Initialize the endpoint\n        \"\"\"",
+        "\"\"\"\n        Publish a landing page that is in draft, unpublished, or has been\n        previously published and edited.\n\n        :param page_id: The unique id for the page.\n        :type page_id: :py:class:`str`\n        \"\"\"",
+        "\"\"\"\n        Unpublish a landing page that is in draft or has been published.\n\n        :param page_id: The unique id for the page.\n        :type page_id: :py:class:`str`\n        \"\"\""
+    ],
+    "functions": [
+        "publish",
+        "unpublish"
+    ],
+    "classes": [
+        "LandingPageAction"
+    ]
+}

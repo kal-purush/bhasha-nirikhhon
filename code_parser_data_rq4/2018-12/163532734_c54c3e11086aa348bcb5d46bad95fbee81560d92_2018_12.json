@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "HTMLElement",
+        "customElements",
+        "InfoToggle"
+    ],
+    "literals": [
+        "'open'",
+        "<style>\n          #info-box {\n             display: none;\n        }\n        </style>\n        <button>Show</button>\n        <p id=\"info-box\">\n        <slot></slot>\n        </p>",
+        "'button'",
+        "'#info-box'",
+        "'click'",
+        "'block'",
+        "'none'",
+        "'Hide'",
+        "'Show'",
+        "'sw-info-toggle'"
+    ],
+    "variables": [],
+    "comments": [
+        "html"
+    ],
+    "docstrings": [],
+    "functions": [
+        "connectedCallback",
+        "_toggleInfoBox"
+    ],
+    "classes": [
+        "InfoToggle"
+    ]
+}

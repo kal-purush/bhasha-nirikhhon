@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "basic",
+        "Laptop",
+        "basic",
+        "Student",
+        "java",
+        "util",
+        "java",
+        "util",
+        "Comparator",
+        "java",
+        "util",
+        "args",
+        "add",
+        "add",
+        "add",
+        "sort",
+        "data1",
+        "data2",
+        "compare",
+        "data2",
+        "id",
+        "data1",
+        "id",
+        "forEach",
+        "data",
+        "data",
+        "id",
+        "data",
+        "name",
+        "data",
+        "course"
+    ],
+    "literals": [
+        "\"Pradeep\"",
+        "\"bca\"",
+        "\"sanjay\"",
+        "\"mca\"",
+        "\"killer\"",
+        "\"mba\"",
+        "\" \"",
+        "\" \""
+    ],
+    "variables": [],
+    "comments": [
+        "Student student = new Student(10, \"pradeep\", \"mca\");",
+        "System.out.println(student.id+\" \"+student.name+\" \"+student.course);",
+        "Laptop laptop = new Laptop(\"lenovo\", \"i7\", \"kill8\");",
+        "System.out.println(laptop.toString()+ laptop);",
+        "list.sort(Comparator.comparing(Student::getId).reversed());",
+        "list.sort((data1, data2) -> data2.getId() - data1.getId());"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "Main"
+    ]
+}

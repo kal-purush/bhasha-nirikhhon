@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "pathlib",
+        "Path",
+        "typing",
+        "Union",
+        "Union",
+        "Path",
+        "value",
+        "chr",
+        "value",
+        "end",
+        "EMPTY",
+        "source",
+        "source",
+        "NyaCommand",
+        "DECREMENT",
+        "_state",
+        "NyaCommand",
+        "INCREMENT",
+        "_state",
+        "NyaCommand",
+        "OUTPUT",
+        "print_char",
+        "_state",
+        "NyaCommand",
+        "RESET",
+        "path",
+        "PathLike",
+        "open",
+        "path",
+        "file",
+        "execute",
+        "file",
+        "read"
+    ],
+    "literals": [
+        "\"n\"",
+        "\"y\"",
+        "\"a\"",
+        "\"~\""
+    ],
+    "variables": [
+        "PathLike",
+        "DECREMENT",
+        "INCREMENT",
+        "OUTPUT",
+        "RESET",
+        "EMPTY",
+        "_state",
+        "_state"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Interprets the `value` as an Unicode codepoint and prints it.\"\"\"",
+        "\"\"\"The `nya~` interpreter.\n\n    - `n` decrements the counter;\n    - `y` increments the counter;\n    - `a` interprets the counter as an Unicode codepoint and prints it;\n    - `~` resets the counter back to 0.\n    \"\"\"",
+        "\"\"\"Executes the `source` string.\"\"\"",
+        "\"\"\"Fetches the code from `path` and executes it.\"\"\""
+    ],
+    "functions": [
+        "print_char",
+        "execute",
+        "execute_path"
+    ],
+    "classes": [
+        "NyaCommand",
+        "Nya"
+    ]
+}

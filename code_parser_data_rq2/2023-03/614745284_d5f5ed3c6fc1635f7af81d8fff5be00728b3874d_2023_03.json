@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "isRegisteredSection",
+        "positionId",
+        "locationId",
+        "Shopware",
+        "positionId",
+        "registeredSections",
+        "section",
+        "section",
+        "locationId",
+        "isRegister",
+        "isRegister"
+    ],
+    "literals": [
+        "'extensionComponentSections'"
+    ],
+    "variables": [
+        "isRegisteredSection",
+        "registeredSections",
+        "isRegister"
+    ],
+    "comments": [
+        "Get extensionComponentSections list"
+    ],
+    "docstrings": [
+        "* To avoid the duplicating the extension component sections\n * We will use this function to check if it is registered with the same the positionId\n *\n * @param positionId\n * @param locationId\n * @returns {Promise<boolean>}"
+    ],
+    "functions": [],
+    "classes": []
+}

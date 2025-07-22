@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "getUserId",
+        "standardError",
+        "GraphQLFieldResolver",
+        "rateLimit",
+        "resolve",
+        "source",
+        "args",
+        "context",
+        "info",
+        "getUserId",
+        "authToken",
+        "rateLimiter",
+        "userId",
+        "fieldName",
+        "perHour",
+        "lastMinute",
+        "perMinute",
+        "lastHour",
+        "perHour",
+        "standardError",
+        "returnType",
+        "returnType",
+        "baseType",
+        "baseType",
+        "fields",
+        "fields",
+        "returnVal",
+        "resolve",
+        "source",
+        "args",
+        "context",
+        "info",
+        "rateLimit"
+    ],
+    "literals": [
+        "'server/utils/authorization'",
+        "'server/utils/standardError'",
+        "'graphql'",
+        "'Rate limit reached'",
+        "'429 Too Many Requests'"
+    ],
+    "variables": [
+        "rateLimit",
+        "context",
+        "info",
+        "userId",
+        "returnVal",
+        "baseType",
+        "fields"
+    ],
+    "comments": [
+        "when we scale horizontally & stop using sticky servers, periodically push to redis",
+        "if (lastMinute > perMinute + 10) {",
+        "TODO Handle suspected bot by dynamically blacklisting in nginx",
+        "}",
+        "this will get sanitized before sent to the client"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

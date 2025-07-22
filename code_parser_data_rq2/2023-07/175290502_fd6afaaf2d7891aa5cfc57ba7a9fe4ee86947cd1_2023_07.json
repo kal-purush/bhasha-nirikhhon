@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "Funcky",
+        "Monads",
+        "IAsyncEnumerable",
+        "TItem",
+        "TItem",
+        "Option",
+        "TItem",
+        "option",
+        "TItem",
+        "option",
+        "Match",
+        "none",
+        "AsyncEnumerable",
+        "Empty",
+        "TItem",
+        "some",
+        "AsyncSequence",
+        "Return"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Returns an <see cref=\"IAsyncEnumerable{T}\"/> that yields exactly one value when the option",
+        "has an item and nothing when the option is empty.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "ToAsyncEnumerable"
+    ],
+    "classes": [
+        "OptionAsyncExtensions"
+    ]
+}

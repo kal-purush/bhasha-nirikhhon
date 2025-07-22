@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "NgModule",
+        "Routes",
+        "RouterModule",
+        "NgModule",
+        "RouterModule",
+        "routes",
+        "RouterModule"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router'",
+        "''",
+        "'login'",
+        "'full'",
+        "'login'",
+        "'./login/login.module#LoginPageModule'",
+        "'register'",
+        "'./register/register.module#RegisterPageModule'",
+        "'details/:id'",
+        "'./details/details.module#DetailsPageModule'",
+        "'home'",
+        "'./home/home.module#HomePageModule'",
+        "'new-task'",
+        "'./new-task/new-task.module#NewTaskPageModule'"
+    ],
+    "variables": [
+        "routes"
+    ],
+    "comments": [
+        "{ path: 'new-task-modal', loadChildren: './new-task-modal/new-task-modal.module#NewTaskModalPageModule' },"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppRoutingModule"
+    ]
+}

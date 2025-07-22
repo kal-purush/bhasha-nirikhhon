@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "path",
+        "process",
+        "require",
+        "path",
+        "__non_webpack_require__",
+        "req",
+        "res",
+        "notFound",
+        "res",
+        "req",
+        "getRoute",
+        "pathname",
+        "route",
+        "route",
+        "res",
+        "res",
+        "route",
+        "res",
+        "route",
+        "route",
+        "req",
+        "route",
+        "browserEnvs",
+        "test",
+        "test",
+        "userAgent",
+        "route",
+        "res",
+        "notFound"
+    ],
+    "literals": [
+        "\"path\"",
+        "\"production\"",
+        "\"connect-gzip-static\"",
+        "\"assets\"",
+        "\"content-type\"",
+        "\"text/html\"",
+        "\"?\"",
+        "\"location\"",
+        "Redirecting to <a href=${JSON.stringify(route.path)}>${\n            route.path\n          }</a>",
+        "\"user-agent\"",
+        "\"\"",
+        "Browser-${\n                browserEnvs.find(({ test }) => !test || test.test(userAgent))\n                  .env\n              }"
+    ],
+    "variables": [
+        "getRoute",
+        "browserEnvs",
+        "assets",
+        "routes",
+        "pathname",
+        "query",
+        "route",
+        "userAgent"
+    ],
+    "comments": [
+        "eslint-disable-next-line"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

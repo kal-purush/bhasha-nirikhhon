@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "arts",
+        "artsDetails",
+        "course",
+        "course",
+        "course",
+        "course",
+        "arts",
+        "course",
+        "course",
+        "course",
+        "discountPercentage"
+    ],
+    "literals": [
+        "\"\"",
+        "\"Class 11th\"",
+        "\"20000\"",
+        "\"24000\"",
+        "\"\"",
+        "\"Class 12th\"",
+        "\"25000\"",
+        "\"32500\"",
+        "\".courses-container-list\"",
+        "\"\"",
+        "<div class=\"course-element\">\n    <img src=\"https://images.unsplash.com/photo-1509062522246-3755977927d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xhc3Nyb29tfGVufDB8fDB8fHww\" alt=\"\">\n    <div class=\"course-details\">\n      <span class=\"name\">${course.courseName}</span>\n      <div class=\"price-container\">\n        <span class=\"special\">Special Discounted Price</span>\n        <div class=\"price\">\n          <span class=\"current-price\">₹ ${course.currentPrice}/year</span>\n          <span class=\"real-price\">₹ ${course.realPrice}/year</span>\n          <span class=\"discount\">${Math.floor(discountPercentage)}% OFF</span>\n        </div>\n      </div>\n      <a href=\"\">Get started</a>\n    </div>\n  </div>"
+    ],
+    "variables": [
+        "artsDetails",
+        "arts",
+        "discountPercentage"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

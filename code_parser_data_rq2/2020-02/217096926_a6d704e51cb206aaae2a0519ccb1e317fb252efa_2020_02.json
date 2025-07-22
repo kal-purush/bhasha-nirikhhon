@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "FshEntity",
+        "FshCode",
+        "FshEntity",
+        "name"
+    ],
+    "literals": [
+        "'.'",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* The Invariant class is used to represent the \"constraint\" field on ElementDefinition\n * Invariant fields map to their corresponding field on \"constraint\" except:\n * description -> constraint.human\n * name -> constraint.key\n * @see {@link https://www.hl7.org/fhir/elementdefinition.html}"
+    ],
+    "functions": [],
+    "classes": [
+        "Invariant"
+    ]
+}

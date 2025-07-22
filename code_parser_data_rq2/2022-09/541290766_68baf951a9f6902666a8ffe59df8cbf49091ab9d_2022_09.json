@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "hideAlert",
+        "el",
+        "el",
+        "el",
+        "showAlert",
+        "msg",
+        "hideAlert",
+        "msg",
+        "markup",
+        "hideAlert"
+    ],
+    "literals": [
+        "'.alert'",
+        "<div class=\"alert alert--${type}\">${msg}</div>",
+        "'body'",
+        "'afterbegin'"
+    ],
+    "variables": [
+        "hideAlert",
+        "el",
+        "showAlert",
+        "markup"
+    ],
+    "comments": [
+        "/// THIS CONTROLLS ALL THE ALERTS TO BE SHOWN /////",
+        "type: 'success' or 'error'",
+        "JS Hack to move to parent & remove the HTML of child elem {here its el}",
+        "1. Always hide alerts first",
+        "2. Create the alert's html",
+        "3. Inject html where needed",
+        "4. Always hide un necessary alerts after 5s {if the user doesn't hide them }"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

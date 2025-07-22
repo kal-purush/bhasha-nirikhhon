@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "FluentAssertions",
+        "Equivalency",
+        "Xunit",
+        "FluentAssertions",
+        "Specs",
+        "Equivalency",
+        "Theory",
+        "InlineData",
+        "InlineData",
+        "InlineData",
+        "InlineData",
+        "InlineData",
+        "InlineData",
+        "InlineData",
+        "xPath",
+        "yPath",
+        "expectedResult",
+        "ObjectReference",
+        "obj",
+        "xPath",
+        "ObjectReference",
+        "obj",
+        "yPath",
+        "x",
+        "Equals",
+        "y",
+        "y",
+        "Equals",
+        "x",
+        "forwardResult",
+        "Should",
+        "Be",
+        "backwardResult",
+        "forwardResult",
+        "Should",
+        "Be",
+        "expectedResult"
+    ],
+    "literals": [
+        "\"\"",
+        "\"\"",
+        "\"[a]\"",
+        "\"\"",
+        "\"[a]\"",
+        "\"[b]\"",
+        "\"[a]\"",
+        "\"[a][b]\"",
+        "\"[a][a]\"",
+        "\"[b][a]\"",
+        "\"[a][b][c][d][e][a]\"",
+        "\"[a]\"",
+        "\"[a][b][c][d][e][a]\"",
+        "\"[a][b][c]\"",
+        "\"because the contract for Equals specifies symmetry\"",
+        "\"because of the semantics of ObjectReference.Equals (sanity check)\""
+    ],
+    "variables": [
+        "obj",
+        "x",
+        "y",
+        "forwardResult",
+        "backwardResult"
+    ],
+    "comments": [
+        "From the .NET documentation:\n\n                 The following statements must be true for all implementations of the Equals(Object) method.\n                 [..]\n\n                 x.Equals(y) returns the same value as y.Equals(x).\n\n              Earlier implementations of ObjectReference.Equals were not symmetrical.",
+        "Arrange",
+        "Act",
+        "Assert"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Equals_should_be_symmetrical"
+    ],
+    "classes": [
+        "ObjectReferenceSpecs"
+    ]
+}

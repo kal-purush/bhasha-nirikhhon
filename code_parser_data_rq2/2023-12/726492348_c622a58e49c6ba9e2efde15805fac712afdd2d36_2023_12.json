@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "jwt",
+        "userEntity",
+        "genToken",
+        "user",
+        "process",
+        "jwt",
+        "user",
+        "user",
+        "configJwtKey",
+        "token"
+    ],
+    "literals": [
+        "'jsonwebtoken'",
+        "'../types/user'",
+        "string",
+        "'HS256'",
+        "'10m'"
+    ],
+    "variables": [
+        "genToken",
+        "configJwtKey",
+        "token"
+    ],
+    "comments": [
+        "Get the JWT secret key from the environment variables",
+        "Sign the user's id and role into a JWT token using the secret key",
+        "10 minutes",
+        "Return the generated token"
+    ],
+    "docstrings": [
+        "* Generates a token for the given user.\n *\n * @param {userEntity} user - The user entity for whom the token is generated.\n * @return {Promise<string>} The generated token."
+    ],
+    "functions": [],
+    "classes": []
+}

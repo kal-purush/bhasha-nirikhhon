@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Yup",
+        "jwt",
+        "authConfig",
+        "Mail",
+        "User",
+        "req",
+        "res",
+        "Yup",
+        "Yup",
+        "schema",
+        "req",
+        "req",
+        "User",
+        "req",
+        "userExists",
+        "res",
+        "jwt",
+        "authConfig",
+        "authConfig",
+        "process",
+        "token",
+        "Mail",
+        "name",
+        "email",
+        "res",
+        "ForgotPasswordController"
+    ],
+    "literals": [
+        "'yup'",
+        "'jsonwebtoken'",
+        "'../../config/auth'",
+        "'../../lib/Mail'",
+        "'../models/User'",
+        "'Digite um e-mail válido'",
+        "'E-mail obrigatorio'",
+        "'id'",
+        "'name'",
+        "'Usuario não existe'",
+        "${process.env.FRONT_URL}/reset?token=${token}",
+        "${name} <${email}>",
+        "'GerenciadordeTarefas - ForgetPassword'",
+        "'forgotpassword'",
+        "'E-mail enviado com sucesso'"
+    ],
+    "variables": [
+        "schema",
+        "userExists",
+        "userExists",
+        "token",
+        "resetPasswordUrl"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "forgot"
+    ],
+    "classes": [
+        "ForgotPasswordController"
+    ]
+}

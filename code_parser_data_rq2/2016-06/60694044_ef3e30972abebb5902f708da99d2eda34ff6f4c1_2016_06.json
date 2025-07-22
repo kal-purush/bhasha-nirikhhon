@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Pipe",
+        "PipeTransform",
+        "Pipe",
+        "value",
+        "searchText",
+        "value",
+        "searchText",
+        "value",
+        "collaborator",
+        "collaborator",
+        "searchText",
+        "collaborator",
+        "searchText",
+        "collaborator",
+        "comp",
+        "collaborator",
+        "comp",
+        "comp",
+        "searchText",
+        "comp",
+        "searchText",
+        "value"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'CollaboratorsPipe'"
+    ],
+    "variables": [],
+    "comments": [
+        "Tell Angular2 we're creating a Pipe with TypeScript decorators",
+        "Transform is the new \"return function(value, args)\" in Angular 1.x",
+        "Si le texte correspond a un nom ou a un prénom, on retourne true",
+        "Sinon on va regarder parmi les compétences du collaborateur courant",
+        "Si il y a une correspondance, on s'arrête sinon on continue à chercher"
+    ],
+    "docstrings": [],
+    "functions": [
+        "transform"
+    ],
+    "classes": [
+        "CollaboratorsPipe"
+    ]
+}

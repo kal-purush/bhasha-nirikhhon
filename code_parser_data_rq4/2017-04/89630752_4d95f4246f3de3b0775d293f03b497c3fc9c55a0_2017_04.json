@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "random",
+        "max",
+        "min",
+        "random",
+        "randint",
+        "min",
+        "max",
+        "i",
+        "lanzamientos",
+        "append",
+        "Dado",
+        "lanzamientos",
+        "sum",
+        "i",
+        "i",
+        "lanza_dado",
+        "caract",
+        "características",
+        "valores",
+        "append",
+        "tirada_3D6",
+        "x",
+        "y",
+        "x",
+        "y",
+        "características",
+        "valores"
+    ],
+    "literals": [
+        "\"Fue\"",
+        "\"Des\"",
+        "\"Con\"",
+        "\"Int\"",
+        "\"Sab\"",
+        "\"Car\""
+    ],
+    "variables": [
+        "lanzamientos",
+        "características",
+        "valores",
+        "características"
+    ],
+    "comments": [
+        "Tirar las características básicas",
+        "Creamos un dado virtual",
+        "Definimos una función para obtener la suma de 3 dados de 6 caras",
+        "inicializamos una lista vacía",
+        "iteramos en un bucle 3 veces",
+        "en cada iteración, lanzamos 1D6, y lo añadimos a la lista",
+        "devuelve una lista con 3 tiradas de D6",
+        "devuelve la suma de los elementos de la lista lanzamientos",
+        "Primero, agrupamos las características en un tuple",
+        "Ahora, los valores irán en una lista, que inicializamos a 0 valores, o lista vacía",
+        "Tiramos el D6 3 veces, una por cada característica",
+        "Finalmente, creamos un diccionario clave:valor, en el que las claves son las características y los valores, los de la lista"
+    ],
+    "docstrings": [
+        "\"\"\"\nReceta para tirar las características básicas, y sus valores fraccionales\n\"\"\"",
+        "\"\"\"Calcula un valor aleatorio entre min y max. Normalmente es necesario\n    sólo dar el valor máximo, pero también puedes dar el valor mínimo.\n    Ejemplos: Dado(20), un dado de 20 caras; Dado(7,2), un dado entre 2 y 7\"\"\"",
+        "\"\"\"Devuelve el valor suma de las 3 tiradas de 1 dado de 6 caras\"\"\"",
+        "\"\"\"devuelve la lista de las 3 tiradas del dado\"\"\""
+    ],
+    "functions": [
+        "Dado",
+        "tirada_3D6",
+        "lanza_dado"
+    ],
+    "classes": []
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "signal",
+        "os",
+        "pid",
+        "sig",
+        "signal",
+        "Signals",
+        "os",
+        "waitpid",
+        "pid",
+        "os",
+        "WIFSTOPPED",
+        "status",
+        "os",
+        "WSTOPSIG",
+        "status",
+        "pid",
+        "stopped_signal",
+        "stopped_signal",
+        "sig",
+        "ValueError",
+        "stopped_signal",
+        "sig"
+    ],
+    "literals": [
+        "f\"Child process {pid} stopped by signal {stopped_signal}\"",
+        "\"Breaking out of loop as SIGTRAP was received.\"",
+        "f\"Signal Raised: {stopped_signal} expected: {sig}\""
+    ],
+    "variables": [
+        "_",
+        "status",
+        "stopped_signal"
+    ],
+    "comments": [
+        "Break the loop if the signal is SIGTRAP"
+    ],
+    "docstrings": [],
+    "functions": [
+        "mywait"
+    ],
+    "classes": []
+}

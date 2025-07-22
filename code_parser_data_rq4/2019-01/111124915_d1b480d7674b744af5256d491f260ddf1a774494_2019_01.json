@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "React",
+        "Formik",
+        "React",
+        "errors",
+        "k",
+        "values",
+        "k",
+        "setFieldTouched",
+        "k"
+    ],
+    "literals": [
+        "'react'",
+        "'formik'"
+    ],
+    "variables": [
+        "errors"
+    ],
+    "comments": [
+        "We might have unmounted while awaiting the errors, so we have to check",
+        "again."
+    ],
+    "docstrings": [
+        "* Given a ref to a Formik component, runs its validator and automatically\n * touches any fields that have both errors and values.\n *\n * Useful to run Formik when it’s initialized with values that might not be\n * valid.\n *\n * Hopefully Formik 2.0 will have something like this built-in:\n * https://github.com/jaredpalmer/formik/issues/288#issuecomment-431670630"
+    ],
+    "functions": [
+        "runInitialValidation"
+    ],
+    "classes": []
+}

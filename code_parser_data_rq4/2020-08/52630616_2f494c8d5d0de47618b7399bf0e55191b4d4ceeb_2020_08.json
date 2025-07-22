@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "useState",
+        "useEffect",
+        "ReactiveVar",
+        "rv",
+        "rv",
+        "rv",
+        "useState",
+        "value",
+        "useEffect",
+        "mute",
+        "value"
+    ],
+    "literals": [
+        "'react'",
+        "'../../core'"
+    ],
+    "variables": [
+        "value",
+        "mute"
+    ],
+    "comments": [
+        "We don't actually care what useState thinks the value of the variable",
+        "is, so we take only the update function from the returned array.",
+        "Once the component is unmounted, ignore future updates. Note that the",
+        "useEffect function returns the mute function without calling it,",
+        "allowing it to be called when the component unmounts. This is",
+        "equivalent to useEffect(() => () => mute(), []), but shorter."
+    ],
+    "docstrings": [],
+    "functions": [
+        "useReactiveVar"
+    ],
+    "classes": []
+}

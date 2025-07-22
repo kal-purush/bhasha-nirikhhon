@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "BaseCommandExec",
+        "PublishComponent",
+        "pull_code_task",
+        "compile_task",
+        "deploy_task",
+        "uninstall_service",
+        "install_service",
+        "connect_server",
+        "disconnect_server",
+        "pull_code_param",
+        "item_flag",
+        "item_flag",
+        "pull_code_task",
+        "pull_code_param",
+        "compile_param",
+        "item_flag",
+        "item_flag",
+        "compile_task",
+        "compile_param",
+        "deploy_server_param",
+        "deploy_server",
+        "deploy_server_param",
+        "deploy_server",
+        "deploy_server",
+        "deploy_server",
+        "deploy_server",
+        "connect_server",
+        "server_info",
+        "uninstall_service",
+        "deploy_server",
+        "deploy_task",
+        "deploy_server",
+        "install_service",
+        "deploy_server",
+        "disconnect_server",
+        "server_info",
+        "connect_server",
+        "server_info",
+        "deploy_task",
+        "deploy_server",
+        "disconnect_server",
+        "server_info"
+    ],
+    "literals": [
+        "'IP'",
+        "'IP'",
+        "'UserName'",
+        "'UserName'",
+        "'PassWord'",
+        "'PassWord'",
+        "'Type'",
+        "'Service'"
+    ],
+    "variables": [
+        "server_info"
+    ],
+    "comments": [
+        "如果部署的服务",
+        "停止服务,卸载服务",
+        "执行部署",
+        "安装服务,启动服务",
+        "如果部署的站点"
+    ],
+    "docstrings": [
+        "\"\"\"\n description: 这里写的封装主要考虑代码以后的扩展性\n\"\"\""
+    ],
+    "functions": [
+        "pull_code_run",
+        "compile_code_run",
+        "deploy_server_run"
+    ],
+    "classes": []
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Ng2Cable",
+        "Broadcaster",
+        "Injectable",
+        "ActionCable",
+        "data",
+        "data",
+        "data",
+        "data",
+        "location",
+        "message",
+        "message"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'rxjs/add/operator/map'",
+        "'ng2-cable/js/index'",
+        "'actioncable-js'",
+        "\"rxjs/operator/map\"",
+        "\"ws://localhost:3000/cable\"",
+        "\"MessageChannel\"",
+        "\"user123\"",
+        "\"connected\"",
+        "\"disconnected\"",
+        "\"rejected\"",
+        "\"message\""
+    ],
+    "variables": [
+        "ActionCable"
+    ],
+    "comments": [
+        "Generated class for the ActionCable provider.\n\n  See https://angular.io/docs/ts/latest/guide/dependency-injection.html\n  for more info on providers and Angular 2 DI.",
+        "public ng2cable: Ng2Cable,\n    public broadcaster: Broadcaster",
+        "this.ng2cable.subscribe('http://localhost:3000/cable', 'MessageChannel');\n\n    this.broadcaster.on<string>('MessageChannel').subscribe(\n      message => {\n        console.log(message);\n      }\n    );",
+        "this.broadcaster.broadcast(\"location\", location)",
+        "this.broadcaster.broadcast(\"message\", message)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "updateLocation",
+        "sendMessage"
+    ],
+    "classes": [
+        "ActionCableService"
+    ]
+}

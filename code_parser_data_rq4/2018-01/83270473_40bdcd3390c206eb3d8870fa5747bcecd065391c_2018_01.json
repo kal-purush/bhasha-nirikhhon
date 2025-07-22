@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "HostBinding",
+        "OnInit",
+        "ChangeDetectionStrategy",
+        "CodeHighlightService",
+        "Component",
+        "ChangeDetectionStrategy",
+        "HostBinding",
+        "Input",
+        "codeHighlightService"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../../../services/code-highlight.service'",
+        "'./article-code.pcss'",
+        "'code'",
+        "string",
+        "string",
+        "'ds-article-code'",
+        "<div class=\"ArticleCode__content\">\n      <h4 class=\"ArticleCode__code-type\">{{codeType}}</h4>\n      <pre class=\"ArticleCode__code\">\n        <code [attr.data-language]=\"content.codeType\">{{content.code}}</code>\n      </pre>\n    </div>",
+        "'class.ArticleCode'",
+        "'JavaScript'",
+        "'javascript'",
+        "'HTML'",
+        "'html'",
+        "'CSS'",
+        "'css'",
+        "'JSON'",
+        "'json'",
+        "'Command Line'",
+        "'shell'",
+        "string",
+        "''"
+    ],
+    "variables": [
+        "ARTICLE_CODE_TYPE"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit"
+    ],
+    "classes": [
+        "CodeModel",
+        "ArticleCode"
+    ]
+}

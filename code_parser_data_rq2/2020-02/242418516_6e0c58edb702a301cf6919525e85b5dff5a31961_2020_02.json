@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "d3",
+        "data",
+        "tbody",
+        "data",
+        "addRow",
+        "tbody",
+        "addRow",
+        "val",
+        "row",
+        "cell",
+        "val",
+        "d3",
+        "date",
+        "filteredData",
+        "filteredData",
+        "row",
+        "row",
+        "date",
+        "buildTable",
+        "filteredData",
+        "d3",
+        "handleClick",
+        "buildTable",
+        "tableData"
+    ],
+    "literals": [
+        "\"tbody\"",
+        "\"\"",
+        "\"tr\"",
+        "\"td\"",
+        "\"#datetime\"",
+        "\"value\"",
+        "\"#filter-btn\"",
+        "\"click\""
+    ],
+    "variables": [
+        "tableData",
+        "data",
+        "tbody",
+        "row",
+        "cell",
+        "date",
+        "filteredData",
+        "tableData"
+    ],
+    "comments": [
+        "from data.js",
+        "get table references",
+        "delete any existing data",
+        "loop through each object in the data and append a rows and cells",
+        "Append a row to the table body",
+        "Loop through each field in the dataRow and add",
+        "each value as a table cell (td)",
+        "Get the date from the filter input",
+        "Look for date entry into the filter field",
+        "Reload the table using the filtered data",
+        "Add an event to listen to clicks on Filter Table button",
+        "Build the full table when page is reloaded"
+    ],
+    "docstrings": [],
+    "functions": [
+        "buildTable",
+        "handleClick"
+    ],
+    "classes": []
+}

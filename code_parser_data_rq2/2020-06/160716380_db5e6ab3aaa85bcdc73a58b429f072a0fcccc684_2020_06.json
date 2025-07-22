@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "gql",
+        "Types",
+        "Types",
+        "Types",
+        "gql"
+    ],
+    "literals": [
+        "'graphql-tag'",
+        "'../../api/schema.generated'",
+        "'ProjectMember'",
+        "'SecuredUser'",
+        "'User'",
+        "'id'",
+        "'avatarLetters'",
+        "'firstName'",
+        "fragment ProjectMemberItem on ProjectMember {\n    user {\n      value {\n        id\n        avatarLetters\n        firstName\n      }\n    }\n  }"
+    ],
+    "variables": [
+        "ProjectMemberItemFragmentDoc"
+    ],
+    "comments": [
+        "eslint-disable import/no-duplicates, @typescript-eslint/no-empty-interface"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

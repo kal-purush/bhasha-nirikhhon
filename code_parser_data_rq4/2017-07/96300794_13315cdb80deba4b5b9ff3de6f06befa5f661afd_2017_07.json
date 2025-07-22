@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "process",
+        "url",
+        "process",
+        "process",
+        "username",
+        "options",
+        "options",
+        "Pool",
+        "options"
+    ],
+    "literals": [
+        "'pg'",
+        "'url'",
+        "'env2'",
+        "'./config.env'",
+        "'Environment variable DATABASE_URL must be set'",
+        "':'",
+        "'/'",
+        "'/'",
+        "'localhost'"
+    ],
+    "variables": [
+        "url",
+        "username",
+        "password",
+        "dbName",
+        "options"
+    ],
+    "comments": [
+        "Create a params object from the URL (use config variables!)",
+        "Options object with all the connection extracted parameters",
+        "SSL should be enabled if you're not testing locally",
+        "Export pool for use in other modules"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

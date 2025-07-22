@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "EventEmitterMany",
+        "EventEmitterMany",
+        "i",
+        "i",
+        "many",
+        "called",
+        "i",
+        "called",
+        "many",
+        "called"
+    ],
+    "literals": [
+        "'../src/modules/emitter/many'",
+        "'Set listeners'",
+        "'test'",
+        "''",
+        "'Set listeners'",
+        "'Call listeners'",
+        "'test'",
+        "'Hello world'",
+        "'Call listeners'"
+    ],
+    "variables": [
+        "many",
+        "called",
+        "i"
+    ],
+    "comments": [
+        "Old Version",
+        "let many = new EventEmitterMany1();",
+        "console.time('Set listeners');",
+        "let called = 0;",
+        "for (let i = 1000000; i > 0; i--) many.onMany('test', () => called++);",
+        "console.log(called);",
+        "console.timeEnd('Set listeners');",
+        "console.time('Call listeners');",
+        "many.emitMany('test', 'Hello world');",
+        "console.log(called);",
+        "console.timeEnd('Call listeners');",
+        "New Version"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

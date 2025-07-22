@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "django",
+        "core",
+        "urlresolvers",
+        "reverse",
+        "django",
+        "utils",
+        "translation",
+        "ugettext_lazy",
+        "_",
+        "admin_tools",
+        "menu",
+        "items",
+        "Menu",
+        "Menu",
+        "kwargs",
+        "Menu",
+        "kwargs",
+        "children",
+        "items",
+        "MenuItem",
+        "_",
+        "reverse",
+        "items",
+        "MenuItem",
+        "children",
+        "items",
+        "MenuItem",
+        "reverse",
+        "items",
+        "MenuItem",
+        "reverse",
+        "items",
+        "Bookmarks",
+        "items",
+        "AppList",
+        "_",
+        "models",
+        "context",
+        "CustomMenu",
+        "init_with_context",
+        "context"
+    ],
+    "literals": [
+        "'Dashboard'",
+        "'admin:index'",
+        "'Lägg till/Ändra område'",
+        "'Lägg till område'",
+        "'admin:django_api_area_add'",
+        "'Ändra ett område'",
+        "'admin:django_api_area_changelist'",
+        "'Administration'",
+        "'django.contrib.*'"
+    ],
+    "variables": [],
+    "comments": [
+        "items.AppList(",
+        "_('Applications'),",
+        "exclude=('django.contrib.*',)",
+        "),"
+    ],
+    "docstrings": [
+        "\"\"\"\nThis file was generated with the custommenu management command, it contains\nthe classes for the admin menu, you can customize this class as you want.\n\nTo activate your custom menu add the following to your settings.py::\n    ADMIN_TOOLS_MENU = 'crag-finder.menu.CustomMenu'\n\"\"\"",
+        "\"\"\"\n    Custom Menu for crag-finder admin site.\n    \"\"\"",
+        "\"\"\"\n        Use this method if you need to access the request context.\n        \"\"\""
+    ],
+    "functions": [
+        "init_with_context"
+    ],
+    "classes": [
+        "CustomMenu"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "urlApi",
+        "fetch",
+        "urlApi",
+        "options",
+        "response",
+        "data",
+        "fetchData",
+        "API",
+        "videos",
+        "video",
+        "video",
+        "video",
+        "video",
+        "content",
+        "view",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "https://youtube-v31.p.rapidapi.com/search?channelId=UCMebXsaxWdvBzBNwus7TmxA&part=snippet%2Cid&order=date&maxResults=9",
+        "'content'",
+        "'GET'",
+        "'X-RapidAPI-Key'",
+        "'d184c3e23amsh3f130883e71e936p1675cdjsn5a978ab2864a'",
+        "'X-RapidAPI-Host'",
+        "'youtube-v31.p.rapidapi.com'",
+        "${videos.items.map(video=>`\n            <div class=\"group relative\">\n            <div\n                class=\"w-full bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none\">\n                <img src=\"${video.snippet.thumbnails.high.url}\" alt=\"${video.snippet.description}\" class=\"w-full\">\n            </div>\n            <div class=\"mt-4 flex justify-between\">\n                <h3 class=\"text-sm text-gray-700\">\n                <span aria-hidden=\"true\" class=\"absolute inset-0\"></span>\n                ${video.snippet.title}\n                </h3>\n            </div>\n            </div>\n        `).slice(0,4).join('')}<!-Para iterar solo 4 videos ->",
+        "<div class=\"group relative\">\n            <div\n                class=\"w-full bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:aspect-none\">\n                <img src=\"${video.snippet.thumbnails.high.url}\" alt=\"${video.snippet.description}\" class=\"w-full\">\n            </div>\n            <div class=\"mt-4 flex justify-between\">\n                <h3 class=\"text-sm text-gray-700\">\n                <span aria-hidden=\"true\" class=\"absolute inset-0\"></span>\n                ${video.snippet.title}\n                </h3>\n            </div>\n            </div>",
+        "''"
+    ],
+    "variables": [
+        "API",
+        "content",
+        "options",
+        "response",
+        "data",
+        "videos",
+        "view"
+    ],
+    "comments": [
+        "aqui agregaremos la iteracion de cada elemento(referencia)",
+        "funcion que se autoinvoca",
+        "cuando cargue el archivo se va a ejecutar",
+        "crearemos un template en html para que itere por los elementos de la respuesta",
+        "view es esa porcion de html",
+        "usamos js para iterar",
+        "en esta API , para acceder a los videos, se refiere a items, se hace un map para devolver un nuevo arreglo con el template por cada resultado",
+        "Aqui agregamos el contenido dentro del id content que es un div en html"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fetchData"
+    ],
+    "classes": []
+}

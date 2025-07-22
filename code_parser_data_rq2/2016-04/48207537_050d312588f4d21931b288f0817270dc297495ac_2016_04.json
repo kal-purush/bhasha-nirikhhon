@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "device",
+        "device",
+        "$",
+        "$",
+        "jQuery"
+    ],
+    "literals": [
+        "\".player\"",
+        "'.big-background, .small-background-section'",
+        "'big-background-default-image'"
+    ],
+    "variables": [],
+    "comments": [
+        "IF YOU WANT TO APPLY SOME BASIC JQUERY TO REMOVE THE VIDEO BACKGROUND ON A SPECIFIC VIEWPORT MANUALLY\n\n     var is_mobile = false;\n\n    if( $('.player').css('display')=='none') {\n        is_mobile = true;       \n    }\n    if (is_mobile == true) {\n        //Conditional script here\n        $('.big-background, .small-background-section').addClass('big-background-default-image');\n    }else{\n        $(\".player\").mb_YTPlayer(); \n    }\n\n    });",
+        "IF YOU WANT TO USE DEVICE.JS TO DETECT THE VIEWPORT AND MANIPULATE THE OUTPUT",
+        "Device.js will check if it is Tablet or Mobile - http://matthewhudson.me/projects/device.js/",
+        "jQuery will add the default background to the preferred class"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

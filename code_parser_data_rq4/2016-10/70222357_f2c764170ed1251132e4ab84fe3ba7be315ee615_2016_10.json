@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "ComponentModel",
+        "DataAnnotations",
+        "Linq",
+        "Web",
+        "ProjectFarmerAPI",
+        "Models",
+        "Required",
+        "Required",
+        "Required",
+        "Address"
+    ],
+    "literals": [],
+    "variables": [
+        "Id",
+        "FirstName",
+        "LastName",
+        "MobileNumber",
+        "PhoneNumber",
+        "EmailAddress",
+        "Address",
+        "PreferedAddress",
+        "Addresses",
+        "EntityRating"
+    ],
+    "comments": [
+        "The Entity Id",
+        "</summary>",
+        "The Entity First Name",
+        "</summary>",
+        "The Customers Last Name",
+        "</summary>",
+        "The Mobile Number of the Entity, It can be different from the Address. We can use this same number for the Address as well.",
+        "</summary>",
+        "The Secondary Phone Number",
+        "</summary>",
+        "Email Address of the Entity",
+        "</summary>",
+        "The Prefered Address of the Entity",
+        "</summary>",
+        "The Other Addresses of the Entity, null in case of no other address",
+        "</summary>",
+        "This is very private information about the Entity and it will not be accesable by outsiders",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "Entity"
+    ]
+}

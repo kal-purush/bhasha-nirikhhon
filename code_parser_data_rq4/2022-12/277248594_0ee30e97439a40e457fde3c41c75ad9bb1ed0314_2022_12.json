@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "PDFiumDotNET",
+        "Components",
+        "Contracts",
+        "Collections",
+        "Generic",
+        "ComponentModel",
+        "IPDFBaseComponent",
+        "INotifyPropertyChanged",
+        "IPDFChildComponent",
+        "IPDFBaseComponent",
+        "parentComponent",
+        "IPDFChildComponent",
+        "childComponent"
+    ],
+    "literals": [],
+    "variables": [
+        "IPDFComponent",
+        "MainComponent",
+        "IPDFBaseComponent",
+        "ParentComponent",
+        "ChildComponents",
+        "IsDisposed"
+    ],
+    "comments": [
+        "Base component for all PDF components.",
+        "</summary>",
+        "Gets the main (top parent) component where this componnent belongs.",
+        "<see cref=\"MainComponent\"/> may be the same as <see cref=\"ParentComponent\"/>.",
+        "</summary>",
+        "Gets the parent component where is this component attached.",
+        "</summary>",
+        "Gets all child components attached to this component.",
+        "</summary>",
+        "Gets a value indicating whether the instance is disposed or not.",
+        "</summary>",
+        "Provides the information for child component he was added to another component as a child.",
+        "</summary>",
+        "<param name=\"parentComponent\">Component where was the component attached.</param>",
+        "Attaches new child component. This method calls <see cref=\"IPDFBaseComponent.AttachedTo(IPDFBaseComponent)\"/> of child component.",
+        "</summary>",
+        "<param name=\"childComponent\">Component to attach.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "AttachedTo",
+        "Attach"
+    ],
+    "classes": []
+}

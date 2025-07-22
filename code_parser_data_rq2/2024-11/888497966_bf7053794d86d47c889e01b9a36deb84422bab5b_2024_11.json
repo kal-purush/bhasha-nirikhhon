@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "connectDB",
+        "mongoose",
+        "process",
+        "conn",
+        "error",
+        "error",
+        "process",
+        "connectDB"
+    ],
+    "literals": [
+        "\"mongoose\"",
+        "\"colors\"",
+        "${process.env.MONGO_URL}",
+        "MongoDB Connected: ${conn.connection.host}",
+        "Error: ${error.message}"
+    ],
+    "variables": [
+        "mongoose",
+        "colors",
+        "connectDB",
+        "conn"
+    ],
+    "comments": [
+        "Exit with a non-zero status code to indicate an error"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

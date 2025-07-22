@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "choices",
+        "choices",
+        "getComputerChoice",
+        "prompt",
+        "choice",
+        "getHumanChoice"
+    ],
+    "literals": [
+        "\"Hello world!\"",
+        "\"rock\"",
+        "\"paper\"",
+        "\"scissors\"",
+        "\"Choose between: rock, paper or scissors: \""
+    ],
+    "variables": [
+        "choices",
+        "choice"
+    ],
+    "comments": [
+        "-------------------------------------------------------------------",
+        "const computer = [\"rock\", \"paper\", \"scissors\"];",
+        "const human = [\"rock\", \"paper\", \"scissors\"];",
+        "console.log(Math.floor(Math.random()*computer.length));",
+        "console.log(computer[Math.floor(Math.random()*computer.length)]);",
+        "-------------------------------------------------------------------",
+        "const choices = [\"rock\", \"paper\", \"scissors\"];"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getComputerChoice",
+        "getHumanChoice"
+    ],
+    "classes": []
+}

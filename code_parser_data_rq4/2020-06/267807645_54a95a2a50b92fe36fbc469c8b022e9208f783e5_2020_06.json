@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "CanActivate",
+        "ExecutionContext",
+        "HttpException",
+        "HttpStatus",
+        "jwt",
+        "ExtractJwt",
+        "context",
+        "context",
+        "ExtractJwt",
+        "request",
+        "token",
+        "token",
+        "admin",
+        "request",
+        "admin",
+        "HttpException",
+        "HttpStatus",
+        "HttpException",
+        "HttpStatus",
+        "token",
+        "resolve",
+        "reject",
+        "jwt",
+        "token",
+        "err",
+        "decode",
+        "err",
+        "reject",
+        "HttpException",
+        "err",
+        "HttpStatus",
+        "resolve",
+        "decode"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'jsonwebtoken'",
+        "'./extract.jwt'",
+        "'x-access-token'",
+        "'admin'",
+        "'The token have not permission!'",
+        "'Auth token is not supplied!'",
+        "string",
+        "'bookingcare'"
+    ],
+    "variables": [
+        "request",
+        "token",
+        "admin"
+    ],
+    "comments": [
+        "const token = request.headers['x-access-token'] || request.headers.authorization;",
+        "tslint:disable-next-line: no-conditional-assignment"
+    ],
+    "docstrings": [],
+    "functions": [
+        "canActivate",
+        "validateToken"
+    ],
+    "classes": [
+        "AdminGuard"
+    ]
+}

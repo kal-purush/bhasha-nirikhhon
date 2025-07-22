@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "Dapper",
+        "LandConquestDB",
+        "Entities",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "LandConquestDB",
+        "Models",
+        "LogWar",
+        "_warId",
+        "DbContext",
+        "GetSqlConnection",
+        "Query",
+        "LogWar",
+        "war_id",
+        "_warId",
+        "ToList"
+    ],
+    "literals": [
+        "\"SELECT * FROM dbo.LogWarData WHERE war_id = @war_id ORDER BY creation_time DESC\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "GetLogWarList"
+    ],
+    "classes": [
+        "LogWarModel"
+    ]
+}

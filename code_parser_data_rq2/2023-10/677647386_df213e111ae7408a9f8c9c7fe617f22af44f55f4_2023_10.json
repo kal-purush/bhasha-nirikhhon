@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "TsdDelivery",
+        "Application",
+        "Models",
+        "TsdDelivery",
+        "Application",
+        "Models",
+        "Reservation",
+        "Request",
+        "TsdDelivery",
+        "Application",
+        "Services",
+        "Momo",
+        "Request",
+        "TsdDelivery",
+        "Domain",
+        "Entities",
+        "TsdDelivery",
+        "Application",
+        "Interface",
+        "IPayPalService",
+        "CreateReservationRequest",
+        "request",
+        "Reservation",
+        "reservation",
+        "clientId",
+        "clientSecret",
+        "paypalUrl"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "public Task<OperationResult<string>> ProcessPayPalPaymentReturn(MomoOneTimePaymentResultRequest paymentResultRequest);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "CreatePaypalPayment",
+        "GenerateAccessToken"
+    ],
+    "classes": []
+}

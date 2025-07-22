@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "org",
+        "bookdash",
+        "android",
+        "presentation",
+        "utils",
+        "android",
+        "arch",
+        "lifecycle",
+        "LifecycleOwner",
+        "android",
+        "arch",
+        "lifecycle",
+        "MutableLiveData",
+        "android",
+        "arch",
+        "lifecycle",
+        "Observer",
+        "android",
+        "support",
+        "annotation",
+        "MainThread",
+        "android",
+        "support",
+        "annotation",
+        "android",
+        "util",
+        "Log",
+        "java",
+        "util",
+        "concurrent",
+        "atomic",
+        "AtomicBoolean",
+        "TAG",
+        "mPending",
+        "MainThread",
+        "owner",
+        "observer",
+        "hasActiveObservers",
+        "Log",
+        "w",
+        "TAG",
+        "observe",
+        "owner",
+        "Override",
+        "t",
+        "mPending",
+        "compareAndSet",
+        "observer",
+        "onChanged",
+        "t",
+        "MainThread",
+        "t",
+        "mPending",
+        "setValue",
+        "t",
+        "MainThread",
+        "setValue"
+    ],
+    "literals": [
+        "\"SingleLiveEvent\"",
+        "\"Multiple observers registered but only one will be notified of changes.\""
+    ],
+    "variables": [],
+    "comments": [
+        "Observe the internal MutableLiveData"
+    ],
+    "docstrings": [
+        "* A lifecycle-aware observable that sends only new updates after subscription, used for events like\n * navigation and Snackbar messages.\n * <p>\n * This avoids a common problem with events: on configuration change (like rotation) an update\n * can be emitted if the observer is active. This LiveData only calls the observable if there's an\n * explicit call to setValue() or call().\n * <p>\n * Note that only one observer is going to be notified of changes.",
+        "* Used for cases where T is Void, to make calls cleaner."
+    ],
+    "functions": [
+        "observe",
+        "onChanged",
+        "setValue",
+        "call"
+    ],
+    "classes": [
+        "SingleLiveEvent"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "com",
+        "seabirdscientific",
+        "skeleton",
+        "org",
+        "junit",
+        "jupiter",
+        "api",
+        "Test",
+        "org",
+        "junit",
+        "jupiter",
+        "api",
+        "Assertions",
+        "Test",
+        "assertTrue"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "@Test",
+        "public void determineBaudRate() {",
+        "SBSInstrument sbsInstrument = mock(SBSInstrument.class);",
+        "RetrieveProtocol retrieveProtocol = new RetrieveProtocol(sbsInstrument);",
+        "assertEquals(expectedBaudRate, retrieveProtocol.getBaudRate);",
+        "}"
+    ],
+    "docstrings": [
+        "* Unit test for simple App.",
+        "* Rigorous Test :-)"
+    ],
+    "functions": [
+        "shouldAnswerWithTrue"
+    ],
+    "classes": [
+        "AppTest"
+    ]
+}

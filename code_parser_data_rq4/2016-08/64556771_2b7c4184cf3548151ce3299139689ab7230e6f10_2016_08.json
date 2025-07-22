@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "user_setting",
+        "get_photo_path",
+        "get_project_name",
+        "os",
+        "path",
+        "join",
+        "prefix",
+        "number",
+        "file_type",
+        "prefix",
+        "number",
+        "file_type",
+        "prefix",
+        "number",
+        "file_type",
+        "project_name",
+        "number",
+        "directory_path",
+        "project_name",
+        "get_project_name",
+        "prefix",
+        "project_name",
+        "number",
+        "number",
+        "number",
+        "number",
+        "instantiate_format",
+        "prefix",
+        "number",
+        "file_type",
+        "directory_path",
+        "join",
+        "directory_path",
+        "image_name",
+        "image_name"
+    ],
+    "literals": [
+        "\"%s_image\"",
+        "\"%04d\"",
+        "\".jpg\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\""
+    ],
+    "variables": [
+        "prefix",
+        "number",
+        "file_type",
+        "project_name",
+        "prefix",
+        "number",
+        "number",
+        "image_name",
+        "image_name"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''If given the project name, then it will use the project name. If not,\n        it will use the project name in user setting. If number is not given, then\n        it will return the format. If given the directory_path, then the method\n        will return a absolute path.\n        '''"
+    ],
+    "functions": [
+        "get_name_format",
+        "instantiate_format",
+        "get_image_name"
+    ],
+    "classes": [
+        "ImageName"
+    ]
+}

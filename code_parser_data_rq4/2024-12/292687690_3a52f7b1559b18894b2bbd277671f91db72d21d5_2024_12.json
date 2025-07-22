@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "WinGet",
+        "RestSource",
+        "PowershellSupport",
+        "Runtime",
+        "InteropServices",
+        "SetDefaultDllDirectories",
+        "DefaultSearchDirectoryFlags",
+        "directory",
+        "AddDllDirectory",
+        "directory",
+        "DllImport",
+        "CharSet",
+        "CharSet",
+        "Unicode",
+        "SetLastError",
+        "directory",
+        "DllImport",
+        "CharSet",
+        "CharSet",
+        "Auto",
+        "SetLastError",
+        "directoryFlags"
+    ],
+    "literals": [
+        "\"kernel32.dll\"",
+        "\"kernel32.dll\""
+    ],
+    "variables": [
+        "DefaultSearchDirectoryFlags"
+    ],
+    "comments": [
+        "-----------------------------------------------------------------------",
+        "<copyright file=\"AddDllSearchDirectory.cs\" company=\"Microsoft Corporation\">",
+        "Copyright (c) Microsoft Corporation. Licensed under the MIT License.",
+        "</copyright>",
+        "-----------------------------------------------------------------------",
+        "Supports adding custom directories to native dll search path.",
+        "</summary>",
+        "LOAD_LIBRARY_SEARCH_DEFAULT_DIRS",
+        "Adds a directory to native dll search path.",
+        "</summary>",
+        "<param name=\"directory\">The directory to be added.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "AddDllSearchDirectory",
+        "AddDirectory",
+        "AddDllDirectory",
+        "SetDefaultDllDirectories"
+    ],
+    "classes": [
+        "AddDllSearchDirectory"
+    ]
+}

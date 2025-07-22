@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "FastifyInstance",
+        "require",
+        "require",
+        "Client",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "fastify",
+        "options",
+        "options",
+        "client",
+        "client",
+        "createUserTable",
+        "client",
+        "createJobTable",
+        "client",
+        "createEntryTable",
+        "fastify",
+        "err",
+        "err",
+        "fastifyPlugin",
+        "dbconnector"
+    ],
+    "literals": [
+        "\"fastify\"",
+        "\"fastify-plugin\"",
+        "\"pg\"",
+        "CREATE TABLE IF NOT EXISTS \"users\" (\n    \"user_id\" INT NOT NULL,\n    \"username\" VARCHAR(100) NOT NULL,\n    PRIMARY KEY (\"user_id\")\n);",
+        "CREATE TABLE IF NOT EXISTS \"jobs\" (\n\t    \"job_id\" INT NOT NULL,\n        \"user_id\" INT NOT NULL,\n        \"ref\" VARCHAR(100) NOT NULL,\n        \"title\" VARCHAR(100) NOT NULL,\n        \"superviser\" VARCHAR(100) NOT NULL,\n        \"thisMonth\" INT NOT NULL,\n        \"lastMonth\" INT NOT NULL,\n        \"total\" INT NOT NULL,\n\t    PRIMARY KEY (\"job_id\")\n    );",
+        "CREATE TABLE IF NOT EXISTS \"entries\" (\n\t    \"entry_id\" INT NOT NULL,\n\t    \"job_id\" INT NOT NULL,\n        \"user_id\" INT NOT NULL,\n\t    \"created_by\" INT NOT NULL,\n        \"hours\" INT NOT NULL,\n        \"worked\" VARCHAR(100) NOT NULL,\n        \"created\" VARCHAR(100) NOT NULL,\n        \"notes\" VARCHAR(1000) NOT NULL,\n\t    PRIMARY KEY (\"entry_id\"),\n        CONSTRAINT FK_job  \n        FOREIGN KEY(job_id)   \n        REFERENCES jobs(job_id),\n        CONSTRAINT FK_user  \n        FOREIGN KEY(user_id)   \n        REFERENCES users(user_id)\n    );",
+        "\"Creating users\"",
+        "\"Creating jobs\"",
+        "\"Creating entries\"",
+        "\"db connected succesfully\"",
+        "\"db\""
+    ],
+    "variables": [
+        "fastifyPlugin",
+        "createUserTable",
+        "createJobTable",
+        "createEntryTable",
+        "client"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "dbconnector"
+    ],
+    "classes": []
+}

@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Configuration",
+        "Logger",
+        "NoopTelemetry",
+        "StatsdTelemetry",
+        "Telemetry",
+        "config",
+        "Logger",
+        "getTelmetryInstance",
+        "config",
+        "logger",
+        "instance",
+        "instance",
+        "config",
+        "config",
+        "config",
+        "StatsdTelemetry",
+        "config",
+        "NoopTelemetry"
+    ],
+    "literals": [
+        "\"../../config\"",
+        "\"../logger\"",
+        "\"./noop-telemetry\"",
+        "\"./statsd-telemetry\"",
+        "\"./telemetry\"",
+        "\"TelemetryFactory\"",
+        "Resolving telemetry engine from configuration: ${instance.constructor.name}"
+    ],
+    "variables": [
+        "logger",
+        "instance"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "createTelemetry",
+        "getTelmetryInstance"
+    ],
+    "classes": []
+}

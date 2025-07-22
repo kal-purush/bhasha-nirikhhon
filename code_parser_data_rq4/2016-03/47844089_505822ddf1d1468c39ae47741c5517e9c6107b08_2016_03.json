@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "request",
+        "qs",
+        "weatherKey",
+        "res",
+        "currentWeatherEndpoint",
+        "qs",
+        "res",
+        "url",
+        "res",
+        "request",
+        "url",
+        "weatherKey",
+        "error",
+        "response",
+        "body",
+        "error",
+        "response",
+        "res",
+        "body",
+        "error",
+        "body",
+        "res",
+        "response",
+        "body"
+    ],
+    "literals": [
+        "'request'",
+        "'querystring'",
+        "'../config/config'",
+        "'http://api.openweathermap.org/data/2.5/weather?'",
+        "'http://api.openweathermap.org/data/2.5/forecast?'",
+        "'http://api.openweathermap.org/data/2.5/forecast/daily?'",
+        "'&appid='",
+        "'GET'"
+    ],
+    "variables": [
+        "currentWeatherEndpoint",
+        "forecastEndpoint",
+        "dailyForecastEndpoint"
+    ],
+    "comments": [
+        "<reference path='../typings/tsd.d.ts' />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getCurrentWeather",
+        "queryOpenWeatherAPI"
+    ],
+    "classes": [
+        "Weather"
+    ]
+}

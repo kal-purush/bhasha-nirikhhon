@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Injectable",
+        "SockJS",
+        "BaseEvent",
+        "__SockJSClient",
+        "SockJSClass",
+        "__SockJSClient",
+        "Subject",
+        "Injectable",
+        "Subject",
+        "Subject",
+        "Subject",
+        "SockJS",
+        "message",
+        "message",
+        "oe",
+        "__SockJSClient",
+        "oe",
+        "Subject",
+        "oe",
+        "ex",
+        "ex",
+        "me",
+        "__SockJSClient",
+        "me",
+        "Subject",
+        "me",
+        "ex",
+        "ex",
+        "ce",
+        "__SockJSClient",
+        "Subject",
+        "ce",
+        "ex",
+        "ex"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'sockjs-client'",
+        "'rxjs/Subject'",
+        "\"http://localhost:9999/echo\"",
+        "\"onMessage \"",
+        "\"closed\""
+    ],
+    "variables": [],
+    "comments": [
+        "sudo typings install dt~sockjs-client --global",
+        "sudo typings info dt~sockjs-client --versions",
+        "= SockJS (\"http://localhost:9999/echo\", null, {});",
+        "= this.openEventSubj.asObservable();",
+        "= this.messageEventSubj.asObservable();",
+        "= this.closeEventSubj.asObservable();"
+    ],
+    "docstrings": [],
+    "functions": [
+        "send",
+        "onOpen",
+        "onMessage",
+        "onClose"
+    ],
+    "classes": [
+        "SocketService"
+    ]
+}

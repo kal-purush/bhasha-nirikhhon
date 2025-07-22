@@ -1,0 +1,85 @@
+{
+    "identifiers": [
+        "unittest",
+        "mock",
+        "MagicMock",
+        "patch",
+        "ops",
+        "lib",
+        "pgsql",
+        "client",
+        "ops",
+        "lib",
+        "use",
+        "args",
+        "kwargs",
+        "args",
+        "args",
+        "pgsql",
+        "_og_use",
+        "args",
+        "kwargs",
+        "ops",
+        "lib",
+        "_use",
+        "patch",
+        "multiple",
+        "pgsql",
+        "client",
+        "_is_ready",
+        "MagicMock",
+        "return_value",
+        "_get_pgsql_leader_data",
+        "_leadership_data",
+        "copy",
+        "_set_pgsql_leader_data",
+        "_leadership_data",
+        "update",
+        "_leadership_data",
+        "clear",
+        "_reset_leadership_data",
+        "_patch",
+        "start",
+        "_reset_leadership_data",
+        "_patch",
+        "stop",
+        "_PGSQLPatch",
+        "__import__",
+        "IndicoOperatorCharm"
+    ],
+    "literals": [
+        "\"IndicoOperatorCharm\"",
+        "\"pgsql_patch\"",
+        "\"use: \"",
+        "\"pgsql\"",
+        "\"postgresql-charmers@lists.launchpad.net\"",
+        "\"charm\""
+    ],
+    "variables": [
+        "__all__",
+        "_og_use",
+        "use",
+        "_leadership_data",
+        "_patch",
+        "pgsql_patch",
+        "IndicoOperatorCharm"
+    ],
+    "comments": [
+        "Copyright 2022 Canonical Ltd.",
+        "See LICENSE file for licensing details.",
+        "borrow some code from",
+        "https://github.com/canonical/ops-lib-pgsql/blob/master/tests/test_client.py"
+    ],
+    "docstrings": [
+        "\"\"\"Patch the ``ops-lib-pgsql`` library for unit testing.\n\nThis script is used to monkey patch necessary code to allow running unit tests with\n``ops-lib-pgsql``. This patch needs to be run prior to the importing of the main module since\nthe main module uses ``ops.lib.use`` which runs ``exec_module`` internally and the\n``ops-lib-pgsql`` just happens to use ``from .client import *``. Combined, that makes patching\nany private variables inside ``pgsql.client`` afterwards impossible.\n\"\"\""
+    ],
+    "functions": [
+        "_use",
+        "_reset_leadership_data",
+        "start",
+        "stop"
+    ],
+    "classes": [
+        "_PGSQLPatch"
+    ]
+}

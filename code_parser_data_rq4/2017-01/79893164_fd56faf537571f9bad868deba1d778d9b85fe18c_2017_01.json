@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "load",
+        "load",
+        "extendWorkload",
+        "$config",
+        "$config",
+        "$super",
+        "$config",
+        "remove",
+        "db",
+        "collName",
+        "i",
+        "i",
+        "db",
+        "collName",
+        "Random",
+        "assertAlways",
+        "res",
+        "assertAlways",
+        "res",
+        "tojson",
+        "res",
+        "$config",
+        "$config"
+    ],
+    "literals": [
+        "'use strict'",
+        "'jstests/concurrency/fsm_libs/extend_workload.js'",
+        "'jstests/concurrency/fsm_workloads/map_reduce_replace.js'"
+    ],
+    "variables": [
+        "$config",
+        "i",
+        "res"
+    ],
+    "comments": [
+        "for extendWorkload",
+        "for $config"
+    ],
+    "docstrings": [
+        "* map_reduce_replace_remove.js\n *\n * Generates some random data and inserts it into a collection. Runs a map-reduce command over the\n * collection that computes the frequency counts of the 'value' field and stores the results in an\n * existing collection. Some of the random data from the source collection is removed while the\n * map-reduce operations are running to verify the cursor state is saved and restored correctly on\n * yields.\n *\n * This workload was designed to reproduce SERVER-15539."
+    ],
+    "functions": [],
+    "classes": []
+}

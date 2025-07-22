@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "DVCLogger",
+        "DVCDefaultLogLevel",
+        "DVCReporter"
+    ],
+    "literals": [
+        "'../../../logger'",
+        "'../../../reporter'",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Options to control the setup of the DevCycle NodeJS Server SDK.",
+        "* Logger override to replace default logger",
+        "* Metrics reporter to capture data about event processing",
+        "* Set log level of the default logger",
+        "* Switches the SDK to use Cloud Bucketing (via the DevCycle Bucketing API) instead of Local Bucketing.",
+        "* Enables the usage of EdgeDB for DevCycle that syncs User Data to DevCycle.\n     * NOTE: This is only available with Cloud Bucketing.",
+        "* Controls the polling interval in milliseconds to fetch new environment config changes, defaults to 10 seconds.\n     * @min 1000",
+        "* Controls the request timeout to fetch new environment config changes, defaults to 5 seconds,\n     * must be less than the configPollingIntervalMS value.\n     * @min 1000",
+        "* Controls the interval between flushing events to the DevCycle servers, defaults to 30 seconds.",
+        "* Disables logging of sdk generated events (e.g. aggVariableEvaluated, aggVariableDefaulted) to DevCycle.",
+        "* Disables logging of custom events or user data to DevCycle.",
+        "* Controls the maximum size the event queue can grow to until a flush is forced. Defaults to `1000`.",
+        "* Controls the maximum size the event queue can grow to until events are dropped. Defaults to `2000`.",
+        "* Allows the SDK to communicate with a proxy of DVC bucketing API / client SDK API. Overrides the base URL.",
+        "* Overrides the default URL for the DVC Events API when using local bucketing.",
+        "* Overrides the default URL for the DVC Config CDN when using local bucketing."
+    ],
+    "functions": [],
+    "classes": []
+}

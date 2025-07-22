@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "Component",
+        "MockServerResultsService",
+        "PagedData",
+        "CorporateEmployee",
+        "Page",
+        "Component",
+        "MockServerResultsService",
+        "Page",
+        "serverResultsService",
+        "pageNumber",
+        "pageNumber",
+        "pageNumber",
+        "pageNumber",
+        "pageNumber",
+        "pagedData",
+        "pagedData",
+        "pagedData"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "\"./mock-server-results-service\"",
+        "\"./model/paged-data\"",
+        "\"./model/corporate-employee\"",
+        "\"./model/page\"",
+        "'server-scrolling-demo'",
+        "<div>\n      <h3>\n        Server-side Scrolling\n        <small>\n          <a href=\"https://github.com/swimlane/ngx-datatable/blob/master/demo/paging/server-scrolling.component.ts\" target=\"_blank\">\n            Source\n          </a>\n        </small>\n      </h3>\n      <ngx-datatable\n        class=\"material\"\n        [rows]=\"rows\"\n        [columns]=\"[{name:'Name'},{name:'Gender'},{name:'Company'}]\"\n        [columnMode]=\"'force'\"\n        [headerHeight]=\"50\"\n        [footerHeight]=\"0\"\n        [rowHeight]=\"50\"\n        [scrollbarV]=\"true\"\n        (page)='onPage($event.offset)'>\n      </ngx-datatable>\n    </div>"
+    ],
+    "variables": [],
+    "comments": [
+        "pre-fetch the next page",
+        "cache the new page, but only once"
+    ],
+    "docstrings": [
+        "* Populate the table with new data based on the page number\n   * @param pageNumber The page number to add"
+    ],
+    "functions": [
+        "ngOnInit",
+        "onPage",
+        "addPage"
+    ],
+    "classes": [
+        "ServerScrollingComponent"
+    ]
+}

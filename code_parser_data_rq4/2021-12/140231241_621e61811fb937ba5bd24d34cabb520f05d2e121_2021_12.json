@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "expectParsedError",
+        "expectResult",
+        "test",
+        "expectResult",
+        "test",
+        "expectResult",
+        "test",
+        "expectParsedError"
+    ],
+    "literals": [
+        "'../utils/testing'",
+        "'draw_data returns first argument if more than one argument'",
+        "draw_data(1, 2);",
+        "1",
+        "'draw_data returns first argument if exactly one argument'",
+        "draw_data(1);",
+        "1",
+        "'draw_data with no arguments throws error'",
+        "draw_data();",
+        "\"Line 1: Expected 1 or more arguments, but got 0.\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

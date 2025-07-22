@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "func",
+        "delay",
+        "args",
+        "clearTimeout",
+        "timer",
+        "timer",
+        "setTimeout",
+        "func",
+        "context",
+        "args",
+        "delay",
+        "func",
+        "delay",
+        "args",
+        "isTriggered",
+        "isTriggered",
+        "timer",
+        "setTimeout",
+        "func",
+        "context",
+        "args",
+        "isTriggered",
+        "delay"
+    ],
+    "literals": [],
+    "variables": [
+        "debounce",
+        "timer",
+        "context",
+        "throtling",
+        "isTriggered",
+        "context"
+    ],
+    "comments": [
+        "Debouncing : Debounce function limits the execution of a function call and \nwaits for a certain amount of time before running it again.\n\nImplementing Debounce:\nThe general idea for debouncing is-\n1) Start with 0 timeout.\n2) If the debounced function is called again, reset the timer to the specified delay.\n3) In case of timeout, call the debounced function.",
+        "console.log('In the log of timeout')",
+        "Throttling is a technique in which the attached function will be executed only once \nin a given time interval. No matter how many times the user fires the event, \nonly the first fired event is executed immediately. Throttling gives us control over the rate \nat which a function is executed. With this, we can optimize the performance of the app \nby limiting the number of calls per interval.",
+        "clearTimeout(timer);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

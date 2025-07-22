@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "DealFortress",
+        "Tests",
+        "Fact"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "arrange",
+        "var request = new ProductRequest(){",
+        "Name= \"CPU\",",
+        "Price= 1000,",
+        "HasReceipt= false,",
+        "IsSoldSeparately= false,",
+        "Warranty= \"\",",
+        "CategoryId= 1,",
+        "Images= new List<ImageRequest>(),",
+        "Condition = Condition.Used",
+        "};",
+        "var sellAd = new SellAd();",
+        "act",
+        "assert",
+        "[Fact]",
+        "public void Get_products_should_return_all_products()",
+        "{",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ToProduct_returns_the_correct_type"
+    ],
+    "classes": [
+        "UnitTest1"
+    ]
+}

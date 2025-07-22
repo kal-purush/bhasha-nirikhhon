@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Component",
+        "Inject",
+        "ToDoActions",
+        "Component",
+        "Inject",
+        "appStore",
+        "todoActions",
+        "text",
+        "text",
+        "action"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./toDoActions'",
+        "'add-todo'",
+        "<input #toDoInput>\n        <button (click)=\"addToDo(toDoInput.value)\">Add todo</button>",
+        "'AppStore'",
+        "string"
+    ],
+    "variables": [
+        "action"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "addToDo"
+    ],
+    "classes": [
+        "AddToDo"
+    ]
+}

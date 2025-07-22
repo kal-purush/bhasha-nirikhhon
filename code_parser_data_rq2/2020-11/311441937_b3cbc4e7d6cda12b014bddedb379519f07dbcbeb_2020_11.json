@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "socket",
+        "sys",
+        "socket",
+        "socket",
+        "socket",
+        "AF_INET",
+        "socket",
+        "SOCK_STREAM",
+        "format",
+        "server_address",
+        "sock",
+        "connect",
+        "server_address",
+        "format",
+        "message",
+        "sock",
+        "sendall",
+        "message",
+        "len",
+        "message",
+        "amount_received",
+        "amount_expected",
+        "sock",
+        "recv",
+        "amount_received",
+        "len",
+        "data",
+        "format",
+        "data",
+        "sock",
+        "close"
+    ],
+    "literals": [
+        "'localhost'",
+        "'Conectando al {} puerto {}'",
+        "b'Este es el mensaje.'",
+        "'Enviando {!r}'",
+        "'Recibido {!r}'",
+        "'Cerrando socket'"
+    ],
+    "variables": [
+        "sock",
+        "server_address",
+        "message",
+        "amount_received",
+        "amount_expected",
+        "data"
+    ],
+    "comments": [
+        "Create a TCP/IP socket",
+        "Connect the socket to the port where the server is listening",
+        "Send data",
+        "Look for the response"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

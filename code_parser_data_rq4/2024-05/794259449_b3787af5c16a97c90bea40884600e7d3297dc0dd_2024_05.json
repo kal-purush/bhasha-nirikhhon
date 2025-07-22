@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Identity",
+        "Xunit",
+        "WebApp",
+        "a",
+        "b",
+        "a",
+        "b",
+        "password",
+        "Regex",
+        "passwordCheck",
+        "IsMatch",
+        "password"
+    ],
+    "literals": [
+        "\"^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$\""
+    ],
+    "variables": [
+        "Regex",
+        "passwordCheck"
+    ],
+    "comments": [
+        "Till­räck­ligt svårt lösenord. En metod för att kon­trol­lera att ett lösenord är svårt nog att gissa.",
+        "Det ska vara minst 8 tec­ken långt, inne­hål­ler både små och stora bok­stä­ver, minst en siffra,",
+        "samt minst ett annat tec­ken. Meto­dens inpa­ra­me­ter ska vara en sträng, lösenor­det,",
+        "och den ska retur­nera en boo­lean – true om lösenord är god­känt, annars false.",
+        "Döp meto­den till IsPas­sword­GoodE­nough.",
+        "public static Arr CreateMockUsers()\n{\n  var read = File.ReadAllText(Path.Combine(\"json/mock-users.json\"));  \n       Arr mockUsers = JSON.Parse(read);\n       Arr successFullyWrittenUsers = Arr();\n\n       foreach(var user in mockUsers)\n       {\n        user.password = \"12345678\";\n       var result = SQLQueryOne(\n        @\"INSERT INTO users(firstName,lastName,email,password)\n        VALUES($firstName,$lastName,$email,$password)\n       \", user);\n       //If we get an error from the DB then we haven't added\n       //the mock users, if not we have so add to the successful list\n       if(!result.HasKey(\"error\")){\n        user.Delete(\"password\"); \n       successFullyWrittenUsers.Push(user); \n       };\n       }\n       return successFullyWrittenUsers;\n}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "SumInts",
+        "IsPasswordGoodEnough"
+    ],
+    "classes": [
+        "Utils"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "identifiers": [],
+    "literals": [
+        "\"/home/luti/Saltar/python/\"",
+        "\".exe.pcap\"",
+        "\".json\"",
+        "\"localhost\"",
+        "\"198.162.40.12\""
+    ],
+    "variables": [
+        "DEBUG_MODE",
+        "MAKE_JSON_FILE",
+        "MAKE_SHRED_JSON_FILE",
+        "DIR_PCAP",
+        "PCAP_EXTENSION",
+        "JSON_EXTENSION",
+        "HOST_NAME",
+        "IP_ADDRESS",
+        "PORT",
+        "MAX_LENGTH_BSON",
+        "MAX_CORES",
+        "MODERATED_CORES",
+        "LOW_CORES"
+    ],
+    "comments": [
+        "Directory where the .exe.pcap files are located",
+        "The extensions of files to be processed",
+        "MongoDB can be",
+        "Port of comunication",
+        "The file needs be particioned, the mongoDB do not acept",
+        "files bigger then 16MB == 16777216 bytes",
+        "Determine the number of cores that should be adjusted due to file size and memory consumption"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Configuration module using simply \".py\" format\n    For diverse configurations, maintain multiple files.\n\n    If maintain multiple files get messy, Saltar team will look for another\n    approach.\n\"\"\"",
+        "************************ General debugging flags ************************",
+        "************************ Path and Files ************************",
+        "************************ MongoDB ************************",
+        "************************ Parallelism configuration ************************"
+    ],
+    "functions": [],
+    "classes": []
+}

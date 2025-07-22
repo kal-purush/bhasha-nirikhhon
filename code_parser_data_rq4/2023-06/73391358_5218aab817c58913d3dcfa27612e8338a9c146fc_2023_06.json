@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "SenseNet",
+        "Common",
+        "value",
+        "maxLength",
+        "maxLength",
+        "InvalidOperationException",
+        "value",
+        "Length",
+        "maxLength",
+        "value",
+        "value",
+        "Substring",
+        "maxLength"
+    ],
+    "literals": [
+        "\"Strings cannot have negative length.\""
+    ],
+    "variables": [],
+    "comments": [
+        "ReSharper disable once CheckNamespace",
+        "Truncates this string to the provided maximum length.",
+        "</summary>",
+        "<param name=\"value\">The original string.</param>",
+        "<param name=\"maxLength\">Maximum length of the new string.</param>",
+        "<returns>A new string containing the original value truncated to the provided max length.</returns>",
+        "<exception cref=\"InvalidOperationException\">Thrown when the provided max length is negative.</exception>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "Truncate"
+    ],
+    "classes": [
+        "StringExtensions"
+    ]
+}

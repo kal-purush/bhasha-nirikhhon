@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "org",
+        "shoppingcart",
+        "org",
+        "shoppingcart",
+        "cart",
+        "ShoppingCart",
+        "org",
+        "shoppingcart",
+        "config",
+        "ProductConfigurationLoader",
+        "org",
+        "shoppingcart",
+        "product",
+        "ProductFactory",
+        "java",
+        "util",
+        "args",
+        "loader",
+        "productFactory",
+        "loader",
+        "loadProductFactory",
+        "shoppingCart",
+        "shoppingCart",
+        "addItem",
+        "productFactory",
+        "getProduct",
+        "shoppingCart",
+        "addItem",
+        "productFactory",
+        "getProduct",
+        "shoppingCart",
+        "addItem",
+        "productFactory",
+        "getProduct",
+        "shoppingCart",
+        "addItem",
+        "productFactory",
+        "getProduct",
+        "shoppingCart",
+        "getTotal"
+    ],
+    "literals": [
+        "\"src/main/resources/product_config.properties\"",
+        "\"src/main/resources/pricing_config.properties\"",
+        "\"apple\"",
+        "\"banana\"",
+        "\"melon\"",
+        "\"lime\"",
+        "\"Total: \""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "Another Option\n        List<String> productNames = Arrays.asList(\"apple\", \"banana\", \"melon\", \"melon\", \"lime\", \"lime\", \"lime\");\n        Map<String, Integer> productQuantities = new HashMap<>();\n\n        for (String productName : productNames) {\n            if (!productQuantities.containsKey(productName)) {\n                productQuantities.put(productName, 1);\n            } else {\n                int quantity = productQuantities.get(productName);\n                productQuantities.put(productName, quantity + 1);\n            }\n        }\n\n\n\n        for (Map.Entry<String, Integer> entry : productQuantities.entrySet()) {\n            String productName = entry.getKey();\n            int quantity = entry.getValue();\n            shoppingCart.addItem(productFactory.getProduct(productName), quantity);\n        }"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "Main"
+    ]
+}

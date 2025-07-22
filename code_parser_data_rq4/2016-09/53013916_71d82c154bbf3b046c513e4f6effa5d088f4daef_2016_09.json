@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "numpy",
+        "scipy",
+        "arg1",
+        "arg2",
+        "arg3",
+        "arg1",
+        "arg2",
+        "arg3"
+    ],
+    "literals": [
+        "\"Copyright 2014, The Open Aggregator\"",
+        "\"GPL\"",
+        "\"James Rising\"",
+        "\"James Rising\"",
+        "\"Solomon Hsiang\"",
+        "\"Bob Kopp\"",
+        "\"James Rising\"",
+        "\"jar2234@columbia.edu\"",
+        "\"Production\"",
+        "\"$Revision$\""
+    ],
+    "variables": [
+        "__copyright__",
+        "__license__",
+        "__author__",
+        "__credits__",
+        "__maintainer__",
+        "__email__",
+        "__status__",
+        "__version__"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "",
+        "Copyright 2014, The Open Aggregator",
+        "GNU General Public License, Ver. 3 (see docs/license.txt)",
+        ""
+    ],
+    "docstrings": [
+        "\"\"\"This module illustrates how to write your docstring in OpenEst\nand other projects related to OpenEst.\"\"\"",
+        "\"\"\"This class docstring shows how to use sphinx and rst syntax\n\n    The first line is brief explanation, which may be completed with \n    a longer one. For instance to discuss about its methods. The only\n    method here is :func:`function1`'s. Identify class params, data types \n    and return values like this: \n\n    :param arg1: description\n    :param arg2: description\n    :type arg1: type description\n    :type arg1: type description\n    :return: return description\n    :rtype: the return type description\n\n\n    :Example:\n\n    followed by a blank line\n\n    .. seealso:: You can add references here, like the numpy documentation\n    .. warnings also:: You can also provide warnings\n    .. note:: something you want users to know\n    .. todo:: and any features or other items for future implementation\n\n    \"\"\"",
+        "\"\"\"\n    returns (arg1 / arg2) + arg3\n\n    :param arg1: the first value\n    :param arg2: the first value\n    :param arg3: the first value\n    :type arg1: int, float,...\n    :type arg2: int, float,...\n    :type arg3: int, float,...\n    :returns: arg1/arg2 +arg3\n    :rtype: int, float\n\n    \n    :Example copied from terminal output:\n\n    >>> import example\n    >>> a = example.MainClass1()\n    >>> a.some_function1(1,1,1)\n    2\n\n    .. note:: can be useful to emphasize\n        important feature\n    .. seealso:: :class:`MainClass2`\n    .. warning:: arg2 must be non-zero.\n    .. todo:: check that arg2 is non zero.\n    \"\"\""
+    ],
+    "functions": [
+        "some_function"
+    ],
+    "classes": [
+        "MainClass1"
+    ]
+}

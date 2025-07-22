@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "pydub",
+        "AudioSegment",
+        "pydub",
+        "silence",
+        "split_on_silence",
+        "file_path",
+        "out_dir",
+        "silent_duration",
+        "thresh",
+        "AudioSegment",
+        "from_file",
+        "file_path",
+        "split_on_silence",
+        "sound_file",
+        "min_silence_len",
+        "silent_duration",
+        "silence_thresh",
+        "thresh",
+        "i",
+        "chunk",
+        "audio_chunks",
+        "os",
+        "path",
+        "join",
+        "out_dir",
+        "format",
+        "i",
+        "out_file",
+        "chunk",
+        "out_file",
+        "format"
+    ],
+    "literals": [
+        "\"chunk{0}.wav\"",
+        "\"exporting\"",
+        "\"wav\""
+    ],
+    "variables": [
+        "sound_file",
+        "audio_chunks",
+        "out_file"
+    ],
+    "comments": [
+        "consider it silent if quieter than -16 dBFS"
+    ],
+    "docstrings": [],
+    "functions": [
+        "split_audio"
+    ],
+    "classes": []
+}

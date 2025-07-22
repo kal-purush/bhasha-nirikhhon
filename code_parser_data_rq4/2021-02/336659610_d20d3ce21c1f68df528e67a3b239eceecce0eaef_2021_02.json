@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "OAuth",
+        "OAuth",
+        "config",
+        "location",
+        "config",
+        "sessionStorage",
+        "cacheKeys",
+        "err",
+        "sessionStorage",
+        "cacheKeys",
+        "oauthResult",
+        "user",
+        "user",
+        "fetchCurrentUser",
+        "oauthResult",
+        "user",
+        "sessionStorage",
+        "cacheKeys",
+        "user",
+        "user",
+        "token",
+        "fetch",
+        "url",
+        "token",
+        "resp",
+        "resp"
+    ],
+    "literals": [
+        "\"./oauth\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"microsoft-current-user\"",
+        "\"https://login.microsoftonline.com/common/oauth2/v2.0/authorize\"",
+        "\"https://login.microsoftonline.com/common/oauth2/v2.0/token\"",
+        "\"User.Read\"",
+        "\"\"",
+        "\"https://graph.microsoft.com/v1.0/me/\"",
+        "\"application/json\"",
+        "Bearer ${token}"
+    ],
+    "variables": [
+        "cacheKeys",
+        "oauthResult",
+        "user",
+        "fetchCurrentUser",
+        "url"
+    ],
+    "comments": [
+        "Azure AD App Registration App ID",
+        "A redirect url you configured in the Azure AD App registration. Defaults to the root of your app",
+        "Defaults to User.Read"
+    ],
+    "docstrings": [],
+    "functions": [
+        "currentUser"
+    ],
+    "classes": [
+        "MicrosoftAuth"
+    ]
+}

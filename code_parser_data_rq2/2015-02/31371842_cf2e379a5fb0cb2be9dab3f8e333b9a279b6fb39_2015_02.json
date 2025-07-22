@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "require",
+        "express",
+        "require",
+        "ghost",
+        "require",
+        "errors",
+        "require",
+        "parentApp",
+        "express",
+        "ghost",
+        "ghostServer",
+        "parentApp",
+        "ghostServer",
+        "ghostServer",
+        "ghostServer",
+        "parentApp",
+        "err",
+        "errors",
+        "err",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "'./core/server/utils/startup-check'",
+        "'express'",
+        "'./core'",
+        "'./core/server/errors'"
+    ],
+    "variables": [
+        "express",
+        "ghost",
+        "parentApp",
+        "errors"
+    ],
+    "comments": [
+        "# Ghost bootloader",
+        "Orchestrates the loading of Ghost",
+        "When run from command line.",
+        "Make sure dependencies are installed and file system permissions are correct.",
+        "Proceed with startup",
+        "Create our parent express app instance.",
+        "Mount our ghost instance on our desired subdirectory path if it exists.",
+        "Let ghost handle starting our server instance."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

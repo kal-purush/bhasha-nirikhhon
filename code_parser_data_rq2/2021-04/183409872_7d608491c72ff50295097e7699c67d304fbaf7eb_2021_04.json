@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "createHash",
+        "CACHE_SIZE",
+        "message",
+        "hashMessage",
+        "message",
+        "messageHashes",
+        "o",
+        "o",
+        "hash",
+        "previouslySeenHash",
+        "message",
+        "messageHashes",
+        "cursor",
+        "hashMessage",
+        "message",
+        "cursor",
+        "cursor",
+        "cursor",
+        "CACHE_SIZE",
+        "cursor",
+        "message",
+        "createHash",
+        "message"
+    ],
+    "literals": [
+        "\"crypto\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"sha256\"",
+        "\"utf8\"",
+        "\"utf8\""
+    ],
+    "variables": [
+        "CACHE_SIZE",
+        "messageHashes",
+        "cursor",
+        "hash",
+        "previouslySeenHash"
+    ],
+    "comments": [
+        "For preventing handling same messages multiple times",
+        "Stores hashes of latest CACHE_SIZE messages in an array",
+        "Position where next cached hash should be written in the array."
+    ],
+    "docstrings": [],
+    "functions": [
+        "handledRecently",
+        "setHandledRecently",
+        "hashMessage"
+    ],
+    "classes": []
+}

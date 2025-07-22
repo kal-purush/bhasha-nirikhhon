@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "HUB_GOOGLE_MAPS_API_KEY",
+        "useEffect",
+        "useState",
+        "HUB_GOOGLE_MAPS_API_KEY",
+        "useGoogleMaps",
+        "language",
+        "useState",
+        "language",
+        "language",
+        "useEffect",
+        "script",
+        "scriptSrc",
+        "languageQueryParam",
+        "script",
+        "google",
+        "setLoading",
+        "script",
+        "setLoading",
+        "script",
+        "setLoading",
+        "script",
+        "script",
+        "languageQueryParam",
+        "loading",
+        "useGoogleMaps"
+    ],
+    "literals": [
+        "'appSettings'",
+        "'react'",
+        "https://maps.googleapis.com/maps/api/js?key=${HUB_GOOGLE_MAPS_API_KEY}&libraries=places&callback=initMap",
+        "string",
+        "&language=${language}",
+        "''",
+        "'script'",
+        "${scriptSrc}${languageQueryParam}",
+        "'data-testid'",
+        "'google-maps-script-tag'",
+        "'Google Maps API is loaded and available'",
+        "'undefined'"
+    ],
+    "variables": [
+        "scriptSrc",
+        "useGoogleMaps",
+        "loading",
+        "setLoading",
+        "languageQueryParam",
+        "script"
+    ],
+    "comments": [
+        "Create the script tag, set the appropriate attributes",
+        "Attach your callback function to the `window` object"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

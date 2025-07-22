@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "IO",
+        "ReleaseTool",
+        "GitClient",
+        "gitClient",
+        "gdkVersion",
+        "File",
+        "Exists",
+        "GdkPinnedFilename",
+        "InvalidOperationException",
+        "GdkPinnedFilename",
+        "File",
+        "WriteAllText",
+        "GdkPinnedFilename",
+        "gdkVersion",
+        "gitClient",
+        "StageFile",
+        "GdkPinnedFilename",
+        "UriKind",
+        "Relative",
+        "version",
+        "Format",
+        "ReleaseBranchNameTemplate",
+        "version"
+    ],
+    "literals": [
+        "\"feature/release-{0}\"",
+        "\"gdk.pinned\"",
+        "\"Could not upgrade gdk version as the file, \""
+    ],
+    "variables": [
+        "ReleaseBranchNameTemplate",
+        "GdkPinnedFilename"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "UpdateGdkVersion",
+        "GetReleaseBranchName"
+    ],
+    "classes": [
+        "CommandsCommon"
+    ]
+}

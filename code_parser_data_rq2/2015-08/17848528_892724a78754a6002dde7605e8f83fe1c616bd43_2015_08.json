@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "org",
+        "iplantc",
+        "de",
+        "shared",
+        "ServiceFacadeLoggerConstants",
+        "METRIC_TYPE_KEY",
+        "APP_EVENT",
+        "APP_ID",
+        "ANALYSIS_ID",
+        "SHARE_EVENT"
+    ],
+    "literals": [
+        "\"metric_type\"",
+        "\"app_event\"",
+        "\"app.id\"",
+        "\"analysis.id\"",
+        "\"share_event\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Contains logger names and constants used to identify and parse certain client-side log records.\n *\n * Primarily, this is intended to facilitate metrics gathering.\n * Created by jstroot on 8/26/15.\n * @author jstroot",
+        "* Used to communicate the intended Elasticsearch type\n     * for event cloning in Logstash."
+    ],
+    "functions": [],
+    "classes": []
+}

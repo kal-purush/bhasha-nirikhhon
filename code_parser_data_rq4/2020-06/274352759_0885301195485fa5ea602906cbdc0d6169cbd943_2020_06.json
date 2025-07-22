@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "ICredentialProvider",
+        "password",
+        "TextEncoder",
+        "enc",
+        "password",
+        "Uint8Array",
+        "Uint8Array",
+        "ArrayBuffer",
+        "keyMaterial",
+        "key",
+        "key"
+    ],
+    "literals": [
+        "'./credentialProvider'",
+        "string",
+        "\"raw\"",
+        "\"name\"",
+        "\"PBKDF2\"",
+        "\"generator\"",
+        "\"prime\"",
+        "\"deriveBits\"",
+        "\"deriveKey\"",
+        "\"name\"",
+        "\"PBKDF2\"",
+        "\"iterations\"",
+        "\"hash\"",
+        "\"SHA-256\"",
+        "\"AES-GCM\"",
+        "\"encrypt\"",
+        "\"decrypt\"",
+        "\"wrapKey\"",
+        "\"unwrapKey\"",
+        "\"no key present\""
+    ],
+    "variables": [
+        "enc",
+        "keyMaterial",
+        "key"
+    ],
+    "comments": [
+        "todo make ciphers configurable",
+        "the next lines are a trick to get the typescript compiler to accept the type :/"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generateFromPassword",
+        "getKey"
+    ],
+    "classes": [
+        "CredentialProviderPassword"
+    ]
+}

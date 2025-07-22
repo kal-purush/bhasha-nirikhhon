@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Stratis",
+        "Bitcoin",
+        "Features",
+        "SmartContracts",
+        "Models"
+    ],
+    "literals": [],
+    "variables": [
+        "WalletName",
+        "Address",
+        "Skip",
+        "Take"
+    ],
+    "comments": [
+        "An optional value allowing (with Take) pagination of the wallet's history. If given,",
+        "the member specifies the numbers of records in the wallet's history to skip before",
+        "beginning record retrieval; otherwise the wallet history records are retrieved starting from 0.",
+        "</summary>",
+        "An optional value allowing (with Skip) pagination of the wallet's history. If given,",
+        "the member specifies the number of records in the wallet's history to retrieve in this call; otherwise all",
+        "wallet history records are retrieved.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "GetHistoryRequest"
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "org",
+        "ws2ten1",
+        "chunks",
+        "java",
+        "util",
+        "Locale",
+        "java",
+        "util",
+        "Optional",
+        "Direction",
+        "ASC",
+        "DESC",
+        "equals",
+        "ASC",
+        "equals",
+        "DESC",
+        "value",
+        "Direction",
+        "valueOf",
+        "value",
+        "toUpperCase",
+        "Locale",
+        "US",
+        "e",
+        "format",
+        "Locale",
+        "US",
+        "value",
+        "e",
+        "value",
+        "Optional",
+        "of",
+        "fromString",
+        "value",
+        "e",
+        "Optional",
+        "empty"
+    ],
+    "literals": [
+        "\"Invalid value '%s' for orders given! Has to be either 'desc' or 'asc' (case insensitive).\""
+    ],
+    "variables": [],
+    "comments": [
+        "NOPMD"
+    ],
+    "docstrings": [
+        "* Copyright 2019 the original author or authors.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Enumeration for sort directions.",
+        "* Returns whether the direction is ascending.\n\t *\n\t * @return {@code true} if this is ascending direction",
+        "* Returns whether the direction is descending.\n\t *\n\t * @return {@code true} if this is descending direction",
+        "* Returns the {@link Direction} enum for the given {@link String} value.\n\t *\n\t * @param value {@code \"ASC\"} or {@code \"DESC\"}\n\t * @return parsed {@link Direction}\n\t * @throws IllegalArgumentException in case the given value cannot be parsed into an enum value.",
+        "* Returns the {@link Direction} enum for the given {@link String} or null if it cannot be parsed into an enum\n\t * value.\n\t *\n\t * @param value {@code \"ASC\"} or {@code \"DESC\"}\n\t * @return parsed {@link Direction} or {@link Optional#empty()}"
+    ],
+    "functions": [
+        "isAscending",
+        "isDescending",
+        "Direction",
+        "fromString",
+        "fromOptionalString"
+    ],
+    "classes": []
+}

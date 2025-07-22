@@ -1,0 +1,20 @@
+{
+    "identifiers": [
+        "generatePage",
+        "name",
+        "github",
+        "name",
+        "github",
+        "generatePage"
+    ],
+    "literals": [
+        "<!DOCTYPE html> \n        <html lang=\"en\"> \n        <head>\n          <meta charset=\"UTF-8\">\n          <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n          <meta http-equiv=\"X-UA-Compatible\" content=\"ie=edge\">\n          <title>Portfolio Demo</title>\n        </head>\n      \n        <body>\n          <h1>${name}</h1>\n          <h2><a href=\"https://github.com/${github}\">Github</a></h2>\n        </body>\n        </html>"
+    ],
+    "variables": [
+        "generatePage"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

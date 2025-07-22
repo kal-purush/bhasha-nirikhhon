@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Controller",
+        "BullProvider",
+        "PrismaMessagesRepository",
+        "PrismaMessageTagsRepository",
+        "PrismaTemplatesRepository",
+        "SendMessage",
+        "SendMessageController",
+        "PrismaContactsRepository",
+        "PrismaMessageTagsRepository",
+        "PrismaMessagesRepository",
+        "messageTagsRepository",
+        "PrismaTemplatesRepository",
+        "PrismaContactsRepository",
+        "BullProvider",
+        "SendMessage",
+        "messagesRepository",
+        "messageTagsRepository",
+        "templatesRepository",
+        "contactsRepository",
+        "queueProvider",
+        "SendMessageController",
+        "sendMessage",
+        "sendMessageController"
+    ],
+    "literals": [
+        "'@core/infra/Controller'",
+        "'@infra/providers/implementations/queue/BullProvider'",
+        "'@modules/broadcasting/repositories/prisma/PrismaMessagesRepository'",
+        "'@modules/broadcasting/repositories/prisma/PrismaMessageTagsRepository'",
+        "'@modules/broadcasting/repositories/prisma/PrismaTemplatesRepository'",
+        "'@modules/broadcasting/useCases/SendMessage/SendMessage'",
+        "'@modules/broadcasting/useCases/SendMessage/SendMessageController'",
+        "'@modules/subscriptions/repositories/prisma/PrismaContactsRepository'"
+    ],
+    "variables": [
+        "messageTagsRepository",
+        "messagesRepository",
+        "templatesRepository",
+        "contactsRepository",
+        "queueProvider",
+        "sendMessage",
+        "sendMessageController"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "makeSendMessageController"
+    ],
+    "classes": []
+}

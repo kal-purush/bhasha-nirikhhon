@@ -1,0 +1,91 @@
+{
+    "identifiers": [
+        "Injectable",
+        "UnauthorizedException",
+        "HttpService",
+        "catchError",
+        "Observable",
+        "OIDCTokenResponse",
+        "Injectable",
+        "http",
+        "username",
+        "password",
+        "username",
+        "password",
+        "username",
+        "password",
+        "URLSearchParams",
+        "body",
+        "username",
+        "body",
+        "password",
+        "body",
+        "body",
+        "URLSearchParams",
+        "body",
+        "body",
+        "body",
+        "body",
+        "body",
+        "body",
+        "res",
+        "res",
+        "catchError",
+        "UnauthorizedException",
+        "obs",
+        "res",
+        "res",
+        "res",
+        "res",
+        "obs",
+        "secondsTillExpiration",
+        "secondsTillExpiration",
+        "clearTimeout",
+        "setTimeout",
+        "refreshTimeout"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'@nestjs/axios'",
+        "'rxjs'",
+        "'../oidc-token-response.dto'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'username'",
+        "'password'",
+        "'grant_type'",
+        "'password'",
+        "'refresh_token'",
+        "'grant_type'",
+        "'refresh_token'",
+        "'client_id'",
+        "'admin-cli'",
+        "'https://keycloak.aam-digital.com/realms/master/protocol/openid-connect/token'"
+    ],
+    "variables": [
+        "body",
+        "body",
+        "obs",
+        "refreshTimeout"
+    ],
+    "comments": [
+        "Refresh token one minute before it expires or after ten seconds"
+    ],
+    "docstrings": [
+        "* Login the admin with the given credentials.\n   * After successful login, the session is kept alive using refresh tokens.\n   * @param username of admin\n   * @param password of admin\n   * @returns OIDCTokenResponse"
+    ],
+    "functions": [
+        "login",
+        "credentialAuth",
+        "refreshTokenAuth",
+        "getToken",
+        "refreshTokenBeforeExpiry"
+    ],
+    "classes": [
+        "AdminAuthService"
+    ]
+}

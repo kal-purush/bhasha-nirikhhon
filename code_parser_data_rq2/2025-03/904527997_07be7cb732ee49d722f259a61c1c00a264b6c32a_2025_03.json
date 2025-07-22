@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "FastEndpoints",
+        "TStorageRecord",
+        "TStorageProvider",
+        "IServiceCollection",
+        "services",
+        "TStorageRecord",
+        "IEventStorageRecord",
+        "TStorageProvider",
+        "IEventSubscriberStorageProvider",
+        "TStorageRecord",
+        "IEventHubStorageProvider",
+        "TStorageRecord",
+        "RemoteConnectionCore",
+        "StorageProviderType",
+        "TStorageProvider",
+        "RemoteConnectionCore",
+        "StorageRecordType",
+        "TStorageRecord",
+        "services",
+        "AddSingleton",
+        "TStorageProvider",
+        "services"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "common extension methods",
+        "</summary>",
+        "register a combined event storage provider for when the machine is acting as both a subscriber and event hub.",
+        "</summary>",
+        "<typeparam name=\"TStorageRecord\">the type of the storage record</typeparam>",
+        "<typeparam name=\"TStorageProvider\"></typeparam>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IServiceCollection",
+        "AddEventStorageProvider"
+    ],
+    "classes": [
+        "CommonExtensions"
+    ]
+}

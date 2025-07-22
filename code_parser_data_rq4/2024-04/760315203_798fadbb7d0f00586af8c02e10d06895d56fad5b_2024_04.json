@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "seedu",
+        "address",
+        "storage",
+        "com",
+        "fasterxml",
+        "jackson",
+        "annotation",
+        "JsonCreator",
+        "com",
+        "fasterxml",
+        "jackson",
+        "annotation",
+        "JsonValue",
+        "seedu",
+        "address",
+        "commons",
+        "exceptions",
+        "IllegalValueException",
+        "seedu",
+        "address",
+        "model",
+        "project",
+        "Member",
+        "seedu",
+        "address",
+        "model",
+        "project",
+        "seedu",
+        "address",
+        "model",
+        "tag",
+        "Tag",
+        "name",
+        "JsonCreator",
+        "name",
+        "name",
+        "name",
+        "source",
+        "name",
+        "source",
+        "getName",
+        "fullName",
+        "JsonValue",
+        "name",
+        "name"
+    ],
+    "literals": [],
+    "variables": [
+        "name"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Constructs a {@code JsonAdaptedMember} with the given {@code name}.",
+        "* Converts a given {@code Member} into this class for Jackson use.",
+        "* Converts this Jackson-friendly adapted Member object into the model's {@code Member} object.\n     *\n     * @throws IllegalValueException if there were any data constraints violated in the adapted Member."
+    ],
+    "functions": [
+        "JsonAdaptedTask",
+        "JsonAdaptedTask",
+        "getTaskName",
+        "toModelType"
+    ],
+    "classes": [
+        "JsonAdaptedTask"
+    ]
+}

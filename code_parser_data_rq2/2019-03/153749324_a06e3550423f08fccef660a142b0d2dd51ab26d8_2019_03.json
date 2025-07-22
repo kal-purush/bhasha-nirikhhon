@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "AnonApexCommand",
+        "VlocodeCommand",
+        "AnonApexCommand",
+        "name",
+        "methodNames",
+        "name",
+        "methodNames",
+        "method",
+        "method",
+        "TelcoAdminConsoleCommand",
+        "VlocodeCommand",
+        "TelcoAdminConsoleCommand",
+        "VlocodeCommand",
+        "TelcoAdminConsoleCommand",
+        "VlocodeCommand",
+        "AnonApexCommand",
+        "VlocodeCommand",
+        "TelcoAdminConsoleCommand",
+        "VlocodeCommand",
+        "command",
+        "command",
+        "command"
+    ],
+    "literals": [
+        "'./anonApexCommand'",
+        "'../constants'",
+        "string",
+        "string",
+        "'%vlocity_namespace%.TelcoAdminConsoleController ctrl = new %vlocity_namespace%.TelcoAdminConsoleController();\\n'",
+        "ctrl.setParameters('{\"methodName\":\"${method}\"}'); ctrl.invokeMethod();",
+        "\\n",
+        "'refreshPriceBook'",
+        "'startProductHierarchyJob'",
+        "'refreshPriceBook'",
+        "'startProductHierarchyJob'",
+        "'Database.executeBatch(new vlocity_cmt.UpdateAllProdAttribJSONBatchJob());)'",
+        "'clearPlatformCache'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "TelcoAdminConsoleCommand"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Component",
+        "ROUTER_DIRECTIVES",
+        "RouteConfig",
+        "ThingsComponent",
+        "Component",
+        "ROUTER_DIRECTIVES",
+        "RouteConfig",
+        "ThingsComponent"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/router'",
+        "'./things.component'",
+        "'my-app'",
+        "<h1>My App</h1>\n    <ul>\n    <li><a [routerLink]=\"['Things', {search: 'foo'}]\">Things Search</a>\n    <li><a [routerLink]=\"['Things', 'ThingsDetail', {id: 30}]\">Thing 30</a>\n    <li><a [routerLink]=\"['Things', {search: 'foo'}, 'ThingsDetail', {id: 30}]\">Thing 30 with search</a>\n    </ul>\n    <router-outlet></router-outlet>",
+        "'/things/...'",
+        "'Things'"
+    ],
+    "variables": [
+        "markerCount"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppComponent"
+    ]
+}

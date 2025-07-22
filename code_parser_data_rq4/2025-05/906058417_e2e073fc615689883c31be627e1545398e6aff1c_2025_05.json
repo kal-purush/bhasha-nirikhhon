@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "attribute",
+        "Attribute",
+        "fbs",
+        "Notification",
+        "time",
+        "notifications",
+        "notifications",
+        "len",
+        "notifications",
+        "notification",
+        "notifications",
+        "notification",
+        "Type",
+        "Attribute",
+        "reactor",
+        "topic",
+        "mode",
+        "settings",
+        "reactor",
+        "topic",
+        "mode",
+        "settings",
+        "data",
+        "Notification",
+        "Notification",
+        "GetRootAsNotification",
+        "data",
+        "queue",
+        "append",
+        "obj",
+        "on_message_top",
+        "obj",
+        "len",
+        "queue",
+        "notifications",
+        "append",
+        "pop",
+        "NotificationPack",
+        "notifications"
+    ],
+    "literals": [],
+    "variables": [
+        "notifications",
+        "obj",
+        "notifications"
+    ],
+    "comments": [
+        "Assuming 1 indicates an alert, 2 error",
+        "---",
+        "---",
+        "---"
+    ],
+    "docstrings": [
+        "\"\"\"\n        Check if the notification list is empty.\n        \"\"\"",
+        "\"\"\"\n        Check if any notification in the list has an alert.\n        \"\"\"",
+        "\"\"\"\n    Attribute for sending boolean values (True or False).\n    Ensures that only valid booleans are sent.\n    \"\"\"",
+        "\"\"\"\n        Callback for handling incoming messages.\n        - Updates the value and triggers the update event.\n        \"\"\"",
+        "\"\"\"\n        Pop all messages from the queue.\n        \"\"\""
+    ],
+    "functions": [
+        "is_empty",
+        "has_alert",
+        "on_att_message",
+        "pop_all"
+    ],
+    "classes": [
+        "NotificationPack",
+        "NotificationAttribute"
+    ]
+}

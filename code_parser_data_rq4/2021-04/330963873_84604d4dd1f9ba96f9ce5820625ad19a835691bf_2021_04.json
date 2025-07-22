@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "fapolicy_analyzer",
+        "pathlib",
+        "len",
+        "s1",
+        "ancillary_trust",
+        "Changeset",
+        "p",
+        "pathlib",
+        "Path",
+        "iterdir",
+        "xs",
+        "add_trust",
+        "p",
+        "xs",
+        "len",
+        "s1",
+        "apply_changeset",
+        "xs",
+        "len",
+        "s2",
+        "ancillary_trust",
+        "t",
+        "s2",
+        "ancillary_trust",
+        "t",
+        "status",
+        "t",
+        "path",
+        "t",
+        "size",
+        "t",
+        "hash"
+    ],
+    "literals": [
+        "f\"system1 has {len(s1.ancillary_trust())} trust entries\"",
+        "\"/bin\"",
+        "f\"adding {xs.len()} trust entries\"",
+        "f\"system2 has {len(s2.ancillary_trust())} trust entries\"",
+        "f\"{t.status} {t.path} {t.size} {t.hash}\""
+    ],
+    "variables": [
+        "s1",
+        "xs",
+        "s2"
+    ],
+    "comments": [
+        "config is loaded from $HOME/.config/fapolicy-analyzer/fapolicy-analyzer.toml"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

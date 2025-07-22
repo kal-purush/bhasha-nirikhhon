@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "React",
+        "ReactDom",
+        "TLDraw",
+        "RepoContext",
+        "node",
+        "ReactDom",
+        "node",
+        "React",
+        "RepoContext",
+        "repo",
+        "React",
+        "TLDraw"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"react-dom/client\"",
+        "\"./components/TLDraw.js\"",
+        "\"@automerge/automerge-repo-react-hooks\""
+    ],
+    "variables": [],
+    "comments": [
+        "workaround different conventions for documentUrl",
+        "We get the Automerge Repo from the global window;",
+        "this is set by either our standalone entrypoint or trailrunner",
+        "eslint-disable-next-line no-undef",
+        "@ts-expect-error - repo is on window"
+    ],
+    "docstrings": [],
+    "functions": [
+        "mount"
+    ],
+    "classes": []
+}

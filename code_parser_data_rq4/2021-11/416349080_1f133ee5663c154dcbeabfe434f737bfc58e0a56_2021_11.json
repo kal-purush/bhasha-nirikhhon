@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "NextApiRequest",
+        "NextApiResponse",
+        "serialize",
+        "parse",
+        "res",
+        "token",
+        "serialize",
+        "TOKEN_NAME",
+        "token",
+        "MAX_AGE",
+        "MAX_AGE",
+        "process",
+        "res",
+        "cookie",
+        "res",
+        "serialize",
+        "TOKEN_NAME",
+        "res",
+        "cookie",
+        "req",
+        "req",
+        "req",
+        "req",
+        "parse",
+        "cookie",
+        "req",
+        "parseCookies",
+        "req",
+        "cookies",
+        "TOKEN_NAME"
+    ],
+    "literals": [
+        "\"next\"",
+        "'cookie'",
+        "'todo_app_token'",
+        "string",
+        "'production'",
+        "'/'",
+        "'lax'",
+        "'Set-Cookie'",
+        "''",
+        "'/'",
+        "'Set-Cookie'",
+        "''"
+    ],
+    "variables": [
+        "TOKEN_NAME",
+        "MAX_AGE",
+        "cookie",
+        "cookie",
+        "cookie",
+        "cookies"
+    ],
+    "comments": [
+        "8 hours",
+        "For API Routes we don't need to parse the cookies.",
+        "For pages we do need to parse the cookies."
+    ],
+    "docstrings": [],
+    "functions": [
+        "setTokenCookie",
+        "removeTokenCookie",
+        "parseCookies",
+        "getTokenCookie"
+    ],
+    "classes": []
+}

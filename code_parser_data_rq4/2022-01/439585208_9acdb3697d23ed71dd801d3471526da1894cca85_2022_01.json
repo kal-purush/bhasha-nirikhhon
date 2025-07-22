@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "django",
+        "test",
+        "TestCase",
+        "models",
+        "Jobs",
+        "TestCase",
+        "Jobs",
+        "objects",
+        "all",
+        "assertEqual",
+        "saved_jobs",
+        "count",
+        "Jobs",
+        "job_name",
+        "average_salary",
+        "is_holiday_on_weekend",
+        "paid_holiday_count",
+        "job",
+        "save",
+        "Jobs",
+        "objects",
+        "all",
+        "assertEqual",
+        "saved_job",
+        "count",
+        "Jobs",
+        "job_name",
+        "average_salary",
+        "is_holiday_on_weekend",
+        "paid_holiday_count",
+        "job",
+        "save",
+        "Jobs",
+        "objects",
+        "first",
+        "assertEqual",
+        "saved_job",
+        "job"
+    ],
+    "literals": [
+        "'singer'",
+        "'writer'"
+    ],
+    "variables": [
+        "saved_jobs",
+        "job",
+        "saved_job",
+        "job",
+        "saved_job"
+    ],
+    "comments": [
+        "testDBなるものが本物とは別に作成される",
+        "1つレコードを適当に作成",
+        "レコードをDBに保存",
+        "Jobテーブルの全レコード取得",
+        "全レコード合計: 1を確認",
+        "保存したばかりのJobテーブルのレコード取得",
+        "保存したjobを取得したものと保存前のjobを比較"
+    ],
+    "docstrings": [
+        "\"\"\"初期状態では何も登録されていないことをチェック\"\"\"",
+        "\"\"\"1つレコードを適当に作成すると、レコードが1つだけカウントされることをテスト\"\"\"",
+        "\"\"\"内容を指定してデータを保存し、すぐに取り出した時に保存した時と同じ値が返されることをテスト\"\"\""
+    ],
+    "functions": [
+        "test_is_empty",
+        "test_is_count_one",
+        "test_saving_and_retrieving_jobs"
+    ],
+    "classes": [
+        "JobsModelTests"
+    ]
+}

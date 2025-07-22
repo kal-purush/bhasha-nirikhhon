@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "gad17",
+        "blatt02",
+        "sortedData",
+        "value",
+        "lower",
+        "sortedData",
+        "valueRange"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Die Klasse BinSea stellt Methoden bereit, in sortierten Feldern binär\n * nach Wertebereichen zu suchen.",
+        "* Diese Methode sucht nach einem Wert in einem einem sortierten Feld. Sie\n   * soll dabei dazu verwendet werden können, den ersten bzw. letzten Index in\n   * einem Intervall zu finden. Wird kein passender Index gefunden, wird\n   * -1 zurückgegeben.\n   *\n   * Beispiel:\n   *\n   *             0 <-----------------------> 5\n   * sortedData: [-10, 33, 50, 99, 123, 4242 ]\n   * value: 80             ^   ^\n   *                       |   |\n   *                       |   `- Ergebnis (3) für ersten Index im Intervall, da 99\n   *                       |      als erster Wert im Feld größer als 80 ist\n   *                       |\n   *                       `- Ergebnis (2) für letzten Index im Intervall, da 50\n   *                          als letzter Wert kleiner als 80 ist\n   *\n   * @param sortedData das sortierte Feld, in dem gesucht wird\n   * @param value der Wert der Intervallbegrenzung, der dem gesucht wird\n   * @param lower true für untere Intervallbegrenzung, false für obere Intervallbegrenzung\n   * @return der passende Index, -1 wenn dieser nicht gefunden werden kann",
+        "* Todo: Aufgabe a)",
+        "* Diese Methode sucht ein Intervall von Indices eines sortierten Feldes, deren Werte\n   * in einem Wertebereich liegen. Es soll dabei binäre Suche verwendet werden.\n   *\n   * Beispiel:\n   *                     0 <-----------------------> 5\n   * sortedData:         [-10, 33, 50, 99, 123, 4242 ]\n   * valueRange: [80;700]              ^   ^\n   *                                   |   |\n   *                                   |   `- Ergebnis (4) für obere Intervallbegrenzung,\n   *                                   |      da 123 als letzter Wert kleiner oder gleich 700 ist\n   *                                   |\n   *                                   `- Ergebnis (3) für untere Intervallbegrenzung,\n   *                                      da 99 als erster Wert größer oder gleich 80 ist\n   *\n   * @param sortedData das sortierte Feld, in dem gesucht wird\n   * @param valueRange der Wertebereich, zu dem Indices gesucht werden",
+        "* Todo: Aufgabe b)"
+    ],
+    "functions": [
+        "search",
+        "Interval",
+        "search"
+    ],
+    "classes": [
+        "BinSea"
+    ]
+}

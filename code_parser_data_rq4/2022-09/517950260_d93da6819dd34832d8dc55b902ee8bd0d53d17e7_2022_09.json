@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Vue",
+        "Vue",
+        "PlayerDet",
+        "Vue",
+        "Vue",
+        "Vue",
+        "Vue"
+    ],
+    "literals": [
+        "'player-details'",
+        "'Alessandra'",
+        "'The Champion'",
+        "'Dani'",
+        "'Second Place'",
+        "'title'",
+        "<div><div class=\"player\" v-for=\"player in playerList\"> \n      <span>Name: {{player.name}}</span> <br>\n      <span>Title: {{player.title}}</span> <br>\n      <span>Age: {{player.age}}</span> </div></div>",
+        "'<h1> {{title}} </h1>'",
+        "'Domi'",
+        "'The Survivor'",
+        "'Desi'",
+        "'Moral Support'",
+        "<div><div class=\"player\" v-for=\"player in playerList\"> \n    <span>Name: {{player.name}}</span> <br>\n    <span>Title: {{player.title}}</span> <br>\n    <span>Age: {{player.age}}</span> </div></div>",
+        "'#details'",
+        "\"Player details\"",
+        "'play-det'",
+        "'player-id'",
+        "<div> <input placeholder=\"Enter player ID\"> \n      <button @click=\"onidEntered\">Confirm</button> <div>",
+        "'applied'",
+        "'#idnumber'",
+        "'Enter player ID'",
+        "\"weapon-det\"",
+        "<div class=\"weapContainer\">\n\n        <div id=\"weapon-name\">\n          <slot name=\"name\"></slot>\n        </div>\n\n        <div id=\"weapon-photo\">\n          <slot name=\"photo\"></slot>\n        </div>\n\n        <div id=\"weapon-desc\">\n          <slot name=\"desc\"></slot>\n        </div>\n\n    </div>",
+        "'weapon'"
+    ],
+    "variables": [
+        "PlayerDet",
+        "app",
+        "playerID",
+        "weaponDet"
+    ],
+    "comments": [
+        "PLAYER DETAILS (global registration)",
+        "PLAYER DETAILS (local registration)",
+        "PLAYER ID (custom events)",
+        "PLAYER WEAPONS (slots)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "onidEntered",
+        "onidEntered"
+    ],
+    "classes": []
+}

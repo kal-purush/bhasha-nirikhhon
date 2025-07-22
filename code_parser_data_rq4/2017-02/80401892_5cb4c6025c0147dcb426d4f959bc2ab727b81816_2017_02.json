@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "Component",
+        "ViewController",
+        "Component",
+        "viewCtrl"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'ionic-angular'",
+        "<form name=\"status\" [formGroup]=\"byStatus\">\n      <ion-list radio-group [(ngModel)]=\"autoManufacturers\">\n        <ion-item *ngFor=\"let a of status\">\n          <ion-label>{{a.title}}</ion-label>\n          <ion-radio [(ngModel)]=\"aa\" value=\"{{a.value}}\"></ion-radio>\n        </ion-item>\n      </ion-list>\n    </form>",
+        "'Closed'",
+        "'1'",
+        "'Satisfied'",
+        "'2'",
+        "\"2\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "close"
+    ],
+    "classes": [
+        "PopoverPage"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "pathlib",
+        "Path",
+        "Path",
+        "Path",
+        "Path",
+        "Path",
+        "Path",
+        "Path",
+        "Path"
+    ],
+    "literals": [
+        "\"/data_local\"",
+        "\"/data\"",
+        "\"/data_all\"",
+        "\"/upload\"",
+        "\"/secrets\"",
+        "\"/settings\"",
+        "\"/sockets\"",
+        "\"_socket1.s\"",
+        "\"_socket2.s\"",
+        "\".tmp\"",
+        "\"resolwe/gregor:ubuntu-18.04\""
+    ],
+    "variables": [
+        "DATA_LOCAL_VOLUME",
+        "DATA_VOLUME",
+        "DATA_ALL_VOLUME",
+        "UPLOAD_VOLUME",
+        "SECRETS_VOLUME",
+        "SETTINGS_VOLUME",
+        "SOCKETS_VOLUME",
+        "CONTAINER_TIMEOUT",
+        "COMMUNICATION_PROCESSING_SOCKET",
+        "SCRIPT_SOCKET",
+        "TMPDIR",
+        "DEFAULT_CONTAINER_IMAGE"
+    ],
+    "comments": [
+        "Where socket files are stored inside container.",
+        "Container image used if no image is specified.",
+        "DEFAULT_CONTAINER_IMAGE = \"resolwe/base:ubuntu-18.04\""
+    ],
+    "docstrings": [
+        "\"\"\"Constants for the executors.\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

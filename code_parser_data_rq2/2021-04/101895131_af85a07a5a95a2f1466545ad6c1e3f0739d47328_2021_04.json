@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Datadog",
+        "Trace",
+        "Agent",
+        "IKeepRateCalculator",
+        "count",
+        "count"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Increment the number of kept traces",
+        "</summary>",
+        "Increment the number of dropped traces",
+        "</summary>",
+        "Get the current keep rate for traces",
+        "</summary>",
+        "Stop updating the buckets. The current Keep rate can continue to be read.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IncrementKeeps",
+        "IncrementDrops",
+        "GetKeepRate",
+        "CancelUpdates"
+    ],
+    "classes": []
+}

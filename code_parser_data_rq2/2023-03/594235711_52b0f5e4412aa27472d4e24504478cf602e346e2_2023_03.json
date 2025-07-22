@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "styled",
+        "keyframes",
+        "keyframes",
+        "styled",
+        "spin",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "0%,\n\t100% {\n\t\tbox-shadow: .2em 0px 0 0px currentcolor;\n\t}\n\t12% {\n\t\tbox-shadow: .2em .2em 0 0 currentcolor;\n\t}\n\t25% {\n\t\tbox-shadow: 0 .2em 0 0px currentcolor;\n\t}\n\t37% {\n\t\tbox-shadow: -.2em .2em 0 0 currentcolor;\n\t}\n\t50% {\n\t\tbox-shadow: -.2em 0 0 0 currentcolor;\n\t}\n\t62% {\n\t\tbox-shadow: -.2em -.2em 0 0 currentcolor;\n\t}\n\t75% {\n\t\tbox-shadow: 0px -.2em 0 0 currentcolor;\n\t}\n\t87% {\n\t\tbox-shadow: .2em -.2em 0 0 currentcolor;\n\t}",
+        "transform: rotateZ(45deg);\n\tperspective: 1000px;\n\tborder-radius: 50%;\n\n\t&::after,\n\t&::before {\n\t\tcontent: \"\";\n\t\tdisplay: block;\n\t\tposition: absolute;\n\t\ttop: 0;\n\t\tleft: 0;\n\t\twidth: inherit;\n\t\theight: inherit;\n\t\tborder-radius: 50%;\n\t\ttransform: rotateX(70deg);\n\t\tanimation: 1s ${spin} linear infinite;\n\t}\n\n\t&::after {\n\t\ttransform: rotateY(70deg);\n\t\tanimation-delay: 0.4s;\n\t}\n\n\t&.small {\n\t\twidth: 48px;\n\t\theight: 48px;\n\t}\n\n\t&.medium {\n\t\twidth: 68px;\n\t\theight: 68px;\n\t}\n\n\t&.large {\n\t\twidth: 96px;\n\t\theight: 96px;\n\t}\n\n\t&.primary {\n\t\tcolor: ${({ theme }) => theme.ui.color.primary_50};\n\n\t\t&::after {\n\t\t\tcolor: ${({ theme }) => theme.ui.randomColor[3]};\n\t\t}\n\t}\n\n\t&.secondary {\n\t\tcolor: ${({ theme }) => theme.ui.color.secondary_50};\n\n\t\t&::after {\n\t\t\tcolor: ${({ theme }) => theme.ui.randomColor[9]};\n\t\t}\n\t}\n\n\t&.tertiary {\n\t\tcolor: ${({ theme }) => theme.ui.color.tertiary_50};\n\n\t\t&::after {\n\t\t\tcolor: ${({ theme }) => theme.ui.randomColor[8]};\n\t\t}\n\t}\n\n\t&.quaternary {\n\t\tcolor: ${({ theme }) => theme.ui.color.quaternary_50};\n\n\t\t&::after {\n\t\t\tcolor: ${({ theme }) => theme.ui.randomColor[2]};\n\t\t}\n\t}"
+    ],
+    "variables": [
+        "spin",
+        "DoubleSnakeSpinner"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

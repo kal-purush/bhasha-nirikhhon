@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "fetch",
+        "BASE_URL",
+        "API_KEY",
+        "res",
+        "res",
+        "res",
+        "res",
+        "breedId",
+        "fetch",
+        "BASE_URL",
+        "API_KEY",
+        "breedId",
+        "res",
+        "res",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "\"https://api.thecatapi.com/v1\"",
+        "\"live_oLklPYUp3iTMxGKwQITghEyymS1FrXwISwwHpuunCk61lgGxaJV3V3xg9sLtiJ3s\"",
+        "${BASE_URL}/breeds?api_key=${API_KEY}",
+        "${BASE_URL}/images/search?api_key=${API_KEY}&breed_ids=${breedId}"
+    ],
+    "variables": [
+        "BASE_URL",
+        "API_KEY"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "fetchBreeds",
+        "fetchCatByBreed"
+    ],
+    "classes": []
+}

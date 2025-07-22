@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "$",
+        "main",
+        "nav",
+        "nav",
+        "main"
+    ],
+    "literals": [
+        "\".navShowHide\"",
+        "\"click\"",
+        "\"#mainSectionContainer\"",
+        "\"#sideNavContainer\"",
+        "\"leftPadding\"",
+        "\"leftPadding\""
+    ],
+    "variables": [
+        "main",
+        "nav"
+    ],
+    "comments": [
+        "const navShowHide = document.querySelector(\".navShowHide\");",
+        "const main = document.getElementById(\"mainSectionContainer\");",
+        "const nav = document.getElementById(\"sideNavContainer\");",
+        "document.addEventListener(\"DOMContentLoaded\", () => {",
+        "navShowHide.addEventListener(\"click\", () => {",
+        "nav.classList.toggle(\"hidden\");",
+        "main.classList.toggle(\"leftPadding\");",
+        "});",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

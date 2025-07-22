@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "contador",
+        "contador",
+        "prompt",
+        "parseInt",
+        "dato",
+        "num",
+        "contador",
+        "contador",
+        "contador",
+        "num"
+    ],
+    "literals": [
+        "'Introduce numero del 1 al 10: '",
+        "''",
+        "'El numero introducido es: '",
+        "'<br>'",
+        "'El contador es: '",
+        "'<br>'",
+        "'<br>'",
+        "'Fin del programa el contador ya NO es menor que 10.'",
+        "'<br>'",
+        "'Ultimo numero introducido es'"
+    ],
+    "variables": [
+        "contador",
+        "dato",
+        "num"
+    ],
+    "comments": [
+        "1\n    document.writeln(\"Hola mundo!\");\n\tdocument.writeln(\"Bienvenidos!\");  \n\t/*Writeln Muestra el mensaje como write, pero a diferencia \n\tque writeln agrega la nueva linea al final",
+        "2\nlet a, b;\na = 10;\nb = 5;\nresultado = a + b;\n\nalert ('La suma de a+b es' + ': ' + resultado);\n\n/* \"let\" es para invocar la variable.\n\"a, b y resultado\" son los nombres de las variables.\ny \"alert\" es para mostrar una ventana emergente, mostrando \nla concatenación",
+        "3\nlet num1 = 0;\nlet num2 = 0;\n\nnum1 = num1 + 11;\nnum2 = num2 + 5;\n/*\"let\" es para invocar la variable.\n\"num1 y num2\" son los nombres de las variables.",
+        "alert('Ahora el numero 1 es ' + num1);\nalert('Ahora el numero 2 es ' + num2);",
+        "y \"alert\" es para mostrar una ventana emergente, mostrando \nla concatenación que dice que el numero 1 aunque su valor sea 0,\nal llamar la variable se sumara 1 y en el caso de numero 2 sumara 5",
+        "4\nconst a = \"Hola \";\nlet b = \"mundo!\";\n\ndocument.write('constante a contiene a: ' + a);\ndocument.write(\"</br>\");\ndocument.write('variable b contiene a: ' + b);\ndocument.write(\"</br>\");\ndocument.write(a + b);",
+        "Const es la constante \"a\" y let es la variable \"b\", \nlo que ejecuta es que \"a\" es = Hola y \"b\" es = a Mundo!",
+        "5\nlet a, b;\na = 2; b = 8;\nresultado = a * b;\n\ndocument.write('variable a contiene ' + a );\ndocument.write(\"</br>\");\ndocument.write('variable b contiene ' + b );\ndocument.write(\"</br>\");\ndocument.write('El producto de a por b es ' + resultado);",
+        "let es una variable de dos datos \"a\" y \"b\" y como\n resultado se multiplicaran los dos datos \"a\" y \"b\"",
+        "6\nlet dato, resultado;\n\ndato = window.prompt(\"Introduce tu nombre\", \"0\");\nresultado = 'Hola, como estas ' + dato;\n\ndocument.write(resultado);",
+        "let es una variable de dos datos \"dato\" y \"resultado\", window.prompt es para introducir datos\n en este caso un nombre y ejecuta resultado",
+        "7\n\nlet dato, num; \ndato = window.prompt(\"Introduce numero ?\", \"0\");\nnum = parseInt(dato);\n\n num = num *2;\n\ndocument.write('El doble es' + num);",
+        "let llama a dos variables \"dato\" y \"num\", dato contiene un prompt para ingresar un numero\n y num requiere que sea un dato de tipo entero y que este sea mutiplicado por 2, ejecutando num *2",
+        "8\nlet dato1, dato2, num1, num2;\n\ndato1 = window.prompt(\"Introduce primer numero\", \"0\");\nnum1 = parseInt(dato1);\ndato2 = window.prompt(\"Introduce segundo numero\", \"0\");\nnum2 = parseInt(dato2);\n\nlet resultado = num1 + num2;\n\n\ndocument.write('La suma es ' + resultado);",
+        "cuatro variables \"dato1\", \"num1\", \"dato2\", \"num2\", dato1 y dato 2 \ncontienen un prompt para introducir el primer y segundo numero y num1 y num2, son los numeros ingresados\nel resultado es la suma de num1 y num2.",
+        "9 \nlet dato, num;\n\ndato = window.prompt(\"Introduce un numero\", \"0\");\nnum = parseInt(dato);\n\nlet resultado = num *2;\n\ndocument.getElementById(\"salida\").innerHTML = ('El doble es' + resultado);",
+        "dos variables \"dato\" y \"num\" dato contiene un prompt para ingresar un \nnumero de tipo entero \"parseInt\"\neste sera multiplicado por 2, dando como resultado el doble del numero.",
+        "la variable contador equivale a 1, y mientras contador sea menor a 5\nla variable dato, es para introducir 5 numeros del 1 al 10, se ejecuta \n\"el numero introducido es + el numero que introduce\" y sumara 1 al contador, cuando llega a 5\nel contador ejecuta \"Fin de programa\""
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

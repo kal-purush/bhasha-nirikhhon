@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "MockBuilder",
+        "MockRender",
+        "Component",
+        "Input",
+        "describe",
+        "beforeEach",
+        "MockBuilder",
+        "HelloComponent",
+        "it",
+        "MockRender",
+        "HelloComponent",
+        "expect",
+        "fixture",
+        "it",
+        "MockRender",
+        "HelloComponent",
+        "expect",
+        "fixture"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'ng-mocks'",
+        "'hello'",
+        "<h1>Hello {{ name }}!</h1>",
+        "string",
+        "'issue-3811'",
+        "'should render mock-render without __ngContext__ on the first run'",
+        "'Joe'",
+        "'should render mock-render without __ngContext__ on the second run'",
+        "'Jane'"
+    ],
+    "variables": [
+        "fixture",
+        "fixture"
+    ],
+    "comments": [
+        "@see https://github.com/help-me-mom/ng-mocks/issues/3811",
+        "The problem is that Angular adds `__ngContext__` on the host element (<mock-render>).",
+        "It's an index of the current context: 0, 1, 2, 3.",
+        "So if you have 2 tests, you have 2 contexts, but if you run only 1 test, you have 1 context,",
+        "and, therefore, the snapshot assertion will fail, because the single run has `0` index, whereas in the suite run,",
+        "it can be any other number.",
+        "The solution is to remove __ngContext__ from the snapshot html, so there is no number with the index in it.",
+        "The test below asserts that snapshots don't have __ngContext__ anymore."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "HelloComponent"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "T",
+        "MonoBehaviour",
+        "SerializeField",
+        "m_Rigidbody2D",
+        "GetComponent",
+        "Rigidbody2D",
+        "m_anim",
+        "GetComponent",
+        "Animator",
+        "inputSource",
+        "inputSource",
+        "GetComponent",
+        "T",
+        "move",
+        "crouch",
+        "attackNum"
+    ],
+    "literals": [],
+    "variables": [
+        "T",
+        "inputSource",
+        "Rigidbody2D",
+        "m_Rigidbody2D",
+        "Animator",
+        "m_anim"
+    ],
+    "comments": [
+        "protected float m_LandingDistance;\t\t\t\t\t\t// Distance when to play landing animation",
+        "protected float m_GravityScale; \t\t\t\t\t\t// gravity multiplyer on Rb2D",
+        "protected float m_FallMultiplyer;\t\t\t\t\t\t// How fast object should fall",
+        "protected float m_JumpForce;\t\t\t\t\t\t\t// Amount of force added when the player jumps.",
+        "protected float m_MovementSmoothing;\t\t\t\t\t// How much to smooth out the movement",
+        "protected bool m_AirControl;\t\t\t\t\t\t\t// Whether or not a player can steer while jumping;",
+        "internal bool m_AllowMove;\t\t\t\t\t\t\t\t// May the object move",
+        "protected float k_GroundedRadius;\t\t \t\t\t\t// Radius of the overlap circle to determine if grounded",
+        "protected float k_CeilingRadius; \t\t\t\t\t\t// Radius of the overlap circle to determine if the player can stand up"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Awake",
+        "Move",
+        "Attack"
+    ],
+    "classes": [
+        "CharacterController"
+    ]
+}

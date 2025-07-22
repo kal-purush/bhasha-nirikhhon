@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "FWCore",
+        "ParameterSet",
+        "Config",
+        "cms",
+        "cms",
+        "Process",
+        "cms",
+        "Source",
+        "fileNames",
+        "cms",
+        "untracked",
+        "vstring",
+        "process",
+        "source",
+        "cms",
+        "untracked",
+        "PSet",
+        "input",
+        "cms",
+        "untracked",
+        "int32",
+        "cms",
+        "OutputModule",
+        "fileName",
+        "cms",
+        "untracked",
+        "cms",
+        "EndPath",
+        "process",
+        "output"
+    ],
+    "literals": [
+        "'NANO'",
+        "\"PoolSource\"",
+        "'../../NanoAOD/test/lzma.root'",
+        "\"PoolOutputModule\"",
+        "'tree.root'"
+    ],
+    "variables": [
+        "process",
+        "process",
+        "source",
+        "fileNames",
+        "process",
+        "maxEvents",
+        "process",
+        "output",
+        "process"
+    ],
+    "comments": [
+        "this fake PSET is needed for local test and for crab to figure the output filename",
+        "you do not need to edit it unless you want to do a local test using a different input file than",
+        "the one marked below",
+        "lumisToProcess=cms.untracked.VLuminosityBlockRange(\"254231:1-254231:24\")",
+        "you can change only this line"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "Instruction",
+        "Vector3",
+        "location",
+        "timer",
+        "Entity",
+        "entity",
+        "entity",
+        "location",
+        "location",
+        "timer",
+        "timer",
+        "WaitForSeconds",
+        "spawnTimer",
+        "SpawnSmall"
+    ],
+    "literals": [],
+    "variables": [
+        "Vector3",
+        "location",
+        "GameObject",
+        "alienSmall",
+        "GameObject",
+        "alienQueen",
+        "nbAlienNeed",
+        "spawnTimer",
+        "timer"
+    ],
+    "comments": [
+        "Instantiate the small aliens at the same position we are at",
+        "Object.Instantiate(alienSmall, location, Quaternion.identity);",
+        "Carry over some variable to Alien script?",
+        "alienSClone.GetComponent<AlienNest>().someVariable = GetComponent<AlienNest>().someVariable;",
+        "StartCoroutine(WaitSpawn());",
+        "Object.Instantiate(instructionRunner, Vector3.back, Quaternion.identity);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "SpawnSmallAlien",
+        "IEnumerator",
+        "WaitSpawn",
+        "SpawnSmall",
+        "Execute"
+    ],
+    "classes": [
+        "SpawnSmallAlien"
+    ]
+}

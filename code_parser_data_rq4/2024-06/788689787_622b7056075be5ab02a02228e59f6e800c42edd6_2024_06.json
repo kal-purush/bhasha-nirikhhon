@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "client",
+        "fs",
+        "path",
+        "client",
+        "components",
+        "components",
+        "component",
+        "component",
+        "component",
+        "part",
+        "part",
+        "part",
+        "components",
+        "c",
+        "c",
+        "fs",
+        "path",
+        "file",
+        "fs",
+        "file",
+        "uniqueNames",
+        "iconName",
+        "iconName",
+        "components",
+        "c",
+        "c",
+        "c",
+        "c",
+        "generateIconsWithSizeProp"
+    ],
+    "literals": [
+        "'../src'",
+        "'fs'",
+        "'path'",
+        "'https://figma.com/file/ABc123IjkLmnOPq?node-id=41-41'",
+        "''",
+        "'src/components/icons.figma.tsx'",
+        "\\\nimport figma from '@figma/code-connect'\n\nimport {\n${Array.from(uniqueNames)\n  .map((iconName) => `  ${iconName},`)\n  .join('\\n')}\n} from './Icons'\n\nconst props = {\n  size: figma.enum('Size', {\n    \"12\": 12,\n    \"16\": 16,\n    \"24\": 24,\n  })\n}\n\n${components\n  .map(\n    (c) => `figma.connect(${c.name}, '${c.figmaUrl}', {\n  props,\n  example: ({ size }) => <${c.name} size={size} />\n})`,\n  )\n  .join('\\n')}",
+        "${iconName},",
+        "'\\n'",
+        "figma.connect(${c.name}, '${c.figmaUrl}', {\n  props,\n  example: ({ size }) => <${c.name} size={size} />\n})",
+        "'\\n'"
+    ],
+    "variables": [
+        "components",
+        "uniqueNames",
+        "file"
+    ],
+    "comments": [
+        "change to: \"import { client } from '@figma/code-connect'\"",
+        "fetch components from a figma file. If the `node-id` query parameter is used,",
+        "only components within those frames will be included. This is useful if your",
+        "file is very large, as this will speed up the query by a lot",
+        "Map from figma to React component names"
+    ],
+    "docstrings": [],
+    "functions": [
+        "generateIconsWithSizeProp"
+    ],
+    "classes": []
+}

@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "Transport",
+        "java",
+        "util",
+        "queue",
+        "queue1",
+        "queue",
+        "toString",
+        "queue1"
+    ],
+    "literals": [
+        "\"Не проходит тех обслуживание\""
+    ],
+    "variables": [
+        "queue",
+        "queue1"
+    ],
+    "comments": [],
+    "docstrings": [
+        "hile(poll(ServiceStation)!= null) {\n        System.out.println(getClass());\n    }",
+        "ublic void addTransport(Transport transport){\n        if (transport != null) {\n            System.out.println(\"Введите автомобиль\");\n        }\n        queue.offer(transport);\n    }\n    public  void  carryOutATechnicalInspection(Transport transport){\n        for(Transport transports: queue){\n            System.out.println(\"проходим ТО\");\n            queue.remove();\n        }\n    }",
+        "element() - возвращает элемент из головы очереди. Элемент не удаляется. Если очередь пуста, инициируется исключение NoSuchElementException.\nЕ remove() - удаляет элемент из головы очереди, возвращая его. Инициирует исключение NoSuchElementException, если очередь пуста.\nЕ peek() - возвращает элемент из головы очереди. Возвращает null, если очередь пуста. Элемент не удаляется.\nЕ роll() - возвращает элемент из головы очереди и удаляет его. Возвращает null, если очередь пуста.\nboolean offer(Е оbj) - пытается добавить оbj в очередь. Возвращает true, если оbj добавлен, и false в противном случае."
+    ],
+    "functions": [
+        "ServiceStation",
+        "ServiceStation"
+    ],
+    "classes": [
+        "ServiceStation"
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "piccolo",
+        "apps",
+        "migrations",
+        "auto",
+        "migration_manager",
+        "MigrationManager",
+        "MigrationManager",
+        "migration_id",
+        "ID",
+        "app_name",
+        "description",
+        "DESCRIPTION",
+        "fake",
+        "manager",
+        "add_raw",
+        "run",
+        "manager"
+    ],
+    "literals": [
+        "\"2024-06-19T18:11:05:793132\"",
+        "\"1.11.0\"",
+        "\"An example fake migration\"",
+        "\"\"",
+        "\"Running fake migration\""
+    ],
+    "variables": [
+        "ID",
+        "VERSION",
+        "DESCRIPTION",
+        "manager"
+    ],
+    "comments": [
+        "This should never run, as this migrations is `fake=True`. It's here",
+        "for testing purposes (to make sure it never gets triggered)."
+    ],
+    "docstrings": [],
+    "functions": [
+        "forwards",
+        "run"
+    ],
+    "classes": []
+}

@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "node",
+        "getSingletonResizeObserver",
+        "observer",
+        "node",
+        "observer",
+        "node",
+        "_singletonResizeObserver",
+        "_singletonResizeObserver",
+        "ResizeObserver",
+        "entries",
+        "entries",
+        "entry",
+        "entry",
+        "CustomEvent",
+        "entry",
+        "_singletonResizeObserver"
+    ],
+    "literals": [
+        "'resize'"
+    ],
+    "variables": [
+        "observer",
+        "_singletonResizeObserver"
+    ],
+    "comments": [
+        "Singleton observer for all nodes"
+    ],
+    "docstrings": [
+        "* Custom Svelte action\n *  - Uses Resize Observer API\n *  - Dispatch custom event when element is resized\n *\n * Example usage: `<div use:watchResize on:resize={handleResize}></div>`\n *\n * Source: https://github.com/jnruel/svelte-observe-resize"
+    ],
+    "functions": [
+        "resizeObserver",
+        "destroy",
+        "getSingletonResizeObserver"
+    ],
+    "classes": []
+}

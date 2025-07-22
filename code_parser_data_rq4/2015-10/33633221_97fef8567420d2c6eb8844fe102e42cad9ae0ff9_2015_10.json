@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "redis",
+        "logging",
+        "requests",
+        "TAG_JOB_ID",
+        "TAG_STATUS",
+        "logging",
+        "basicConfig",
+        "level",
+        "logging",
+        "DEBUG",
+        "redis",
+        "Redis",
+        "job_id",
+        "logging",
+        "debug",
+        "job_id",
+        "__redis_connection",
+        "hget",
+        "name",
+        "key",
+        "job_id",
+        "logging",
+        "debug",
+        "result_location",
+        "__redis_connection",
+        "hget",
+        "name",
+        "key",
+        "job_id",
+        "result_location",
+        "requests",
+        "result_location",
+        "input_cache_location",
+        "requests",
+        "input_cache_location",
+        "__redis_connection",
+        "hdel",
+        "TAG_STATUS",
+        "job_id",
+        "TAG_JOB_ID",
+        "job_id",
+        "TAG_STATUS",
+        "result"
+    ],
+    "literals": [
+        "'redis'",
+        "'Got deletion request for: '",
+        "'results'",
+        "'Deleting result file: '",
+        "'input-file'",
+        "'deleted'"
+    ],
+    "variables": [
+        "__redis_connection",
+        "result_location",
+        "input_cache_location",
+        "req",
+        "req",
+        "result"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "Delete both input and result cache files",
+        "Result file",
+        "logging.debug(str(req.json()))",
+        "Input file",
+        "logging.debug(str(req.json()))",
+        "Delete from status list",
+        "TODO: send status of job to monitor",
+        "self.__monitor.send_json(current_status)"
+    ],
+    "docstrings": [
+        "\"\"\"Delete both job and its result.\n        :return: Success message\n        \"\"\""
+    ],
+    "functions": [
+        "delete_job"
+    ],
+    "classes": [
+        "TaskUtil"
+    ]
+}

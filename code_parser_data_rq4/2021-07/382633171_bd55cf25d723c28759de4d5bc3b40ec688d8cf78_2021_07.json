@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "discord",
+        "discord",
+        "ext",
+        "commands",
+        "asyncio",
+        "random",
+        "os",
+        "sys",
+        "commands",
+        "Cog",
+        "client",
+        "client",
+        "client",
+        "client",
+        "add_cog",
+        "Mods",
+        "client"
+    ],
+    "literals": [],
+    "variables": [
+        "client"
+    ],
+    "comments": [
+        "# FUTURE ALGORITHM",
+        "@commands.command(name=\"MODSEARCHCOMMAND\", aliases=['mod'])",
+        "async def _modsearch(self, ctx, arg):",
+        "",
+        "# Func to search for <arg> on penmodding.pm",
+        "top_result = {first_result}",
+        "",
+        "try # Search func:",
+        "await ctx.send(f'{arg}: {top_result})",
+        "except # Results not found:",
+        "await ctx.send('``! Please input a valid mod name !``')"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setup"
+    ],
+    "classes": [
+        "Mods"
+    ]
+}

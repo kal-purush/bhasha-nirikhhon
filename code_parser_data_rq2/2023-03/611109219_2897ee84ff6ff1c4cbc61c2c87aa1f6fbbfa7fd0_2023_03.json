@@ -1,0 +1,20 @@
+{
+    "identifiers": [
+        "createGlobalStyle",
+        "createGlobalStyle",
+        "theme",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "*{\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n    list-style: none;\n}\n:focus {\n    outline: 0;\n    box-shadow: 0 0 0 2px ${({ theme }) => theme.white};\n  }\n\n\nhtml{\n    font-size: 62.5%;\n}\n\nbody{\n  background: ${({ theme }) => theme.black};\n  color: ${({ theme }) => theme.white};\n\n  -webkit-font-smoothing: antialiased;\n\n  width:100%;\n  /* height:100vh; */\n}\n\nbody,\n  input,\n  textarea,\n  button {\n    font-family: 'Martel-sans', sans-serif;\n    font-weight: 400;\n    font-size: 1rem;\n  }\n\na, button, img{\n    cursor: pointer;\n}\n\na{\n    color: inherit; // poe a cor do link a mesma do elemento pai\n    text-decoration:none; //tirar o underline dos links\n}"
+    ],
+    "variables": [
+        "GlobalStyle"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

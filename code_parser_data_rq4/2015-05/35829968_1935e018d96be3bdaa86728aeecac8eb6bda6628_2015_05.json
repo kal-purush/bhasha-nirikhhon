@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "django",
+        "forms",
+        "advanced_tactics",
+        "models",
+        "UserProfile",
+        "forms",
+        "ModelForm",
+        "forms",
+        "DateInput",
+        "attrs",
+        "UserProfile"
+    ],
+    "literals": [
+        "'birthdate'",
+        "'class'",
+        "'datepicker'",
+        "'user'",
+        "'favorite_hobby'",
+        "'hair_color'",
+        "'birthdate'",
+        "'created'",
+        "'phone'",
+        "'city'",
+        "'state'",
+        "'zipcode'"
+    ],
+    "variables": [
+        "widgets",
+        "model",
+        "fields"
+    ],
+    "comments": [
+        "only show these fields",
+        "fields = '__all__' # default behavior",
+        "exclude = ['birthdate', 'favorite_hobby',] # don't show these fields"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "UserProfileForm",
+        "Meta"
+    ]
+}

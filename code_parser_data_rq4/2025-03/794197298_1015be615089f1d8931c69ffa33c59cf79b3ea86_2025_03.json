@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "Amazon",
+        "Runtime",
+        "Amazon",
+        "Runtime",
+        "Internal",
+        "Amazon",
+        "Runtime",
+        "Internal",
+        "Auth",
+        "IAwsAuthenticator",
+        "ImmutableCredentials",
+        "IRequest",
+        "request",
+        "IClientConfig",
+        "config",
+        "ImmutableCredentials",
+        "credentials",
+        "IAwsAuthenticator",
+        "ImmutableCredentials",
+        "FallbackCredentialsFactory",
+        "GetCredentials",
+        "GetCredentialsAsync",
+        "IRequest",
+        "request",
+        "IClientConfig",
+        "config",
+        "ImmutableCredentials",
+        "credentials",
+        "AWS4Signer",
+        "Sign",
+        "request",
+        "config",
+        "credentials"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.",
+        "SPDX-License-Identifier: Apache-2.0",
+        "Provides AWS authentication and signing capabilities for AWS service requests.",
+        "</summary>",
+        "Asynchronously retrieves AWS credentials that can be used to authenticate requests.",
+        "</summary>",
+        "<returns>",
+        "A Task that resolves to an ImmutableCredentials object containing AWS access credentials.",
+        "The credentials include access key, secret key, and optional session token.",
+        "</returns>",
+        "Signs an AWS request using AWS Signature Version 4.",
+        "</summary>",
+        "Default implementation of IAwsAuthenticator that uses AWS SDK's built-in credential",
+        "and signing mechanisms.",
+        "</summary>",
+        "<inheritdoc/>",
+        "<inheritdoc/>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "GetCredentialsAsync",
+        "Sign",
+        "GetCredentialsAsync",
+        "Sign"
+    ],
+    "classes": [
+        "DefaultAwsAuthenticator"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "emailjs",
+        "z",
+        "formSchema",
+        "formData",
+        "z",
+        "formSchema",
+        "process",
+        "process",
+        "process",
+        "formSchema",
+        "formData",
+        "emailjs",
+        "EMAIL_API_KEY",
+        "emailjs",
+        "SERVICE_KEY",
+        "TEMPLATE_KEY",
+        "validatedData",
+        "error",
+        "error",
+        "z"
+    ],
+    "literals": [
+        "'use server'",
+        "\"@emailjs/browser\"",
+        "\"zod\"",
+        "\"@/components/Kontakt/config/formConfig\"",
+        "string",
+        "\"changeme\"",
+        "\"changeme\"",
+        "\"changeme\"",
+        "\"Takk for din beskjed\"",
+        "\"Ugyldig skjemadata\"",
+        "\"Feil under sending av skjema\""
+    ],
+    "variables": [
+        "EMAIL_API_KEY",
+        "TEMPLATE_KEY",
+        "SERVICE_KEY",
+        "validatedData"
+    ],
+    "comments": [
+        "Validate form data server-side",
+        "Initialize and send email",
+        "Handle validation errors",
+        "Handle other errors"
+    ],
+    "docstrings": [
+        "* Server action to handle contact form submission\n * Uses EmailJS to send emails with provided form data"
+    ],
+    "functions": [
+        "handleContactForm"
+    ],
+    "classes": []
+}

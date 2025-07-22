@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Soenneker",
+        "Extensions",
+        "PropertyInfo",
+        "Tests",
+        "Dtos",
+        "IList",
+        "id",
+        "ICollection",
+        "_revisions",
+        "ICollection",
+        "Revisions"
+    ],
+    "literals": [],
+    "variables": [
+        "_revisions",
+        "Revisions",
+        "GetRevisions",
+        "MaxRevisions"
+    ],
+    "comments": [
+        "Id = id;",
+        "Reviews = new Dictionary<int, string>();",
+        "public int Id { get; }",
+        "public string Description { get; set; }",
+        "public Price Price { get; set; }",
+        "public Uri ImageUrl { get; set; }",
+        "public IDictionary<int, string> Reviews { get; }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Product"
+    ],
+    "classes": [
+        "Product"
+    ]
+}

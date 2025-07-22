@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Spectre",
+        "Generator",
+        "Commands",
+        "Threading",
+        "DocExampleGenerator",
+        "IAnsiConsole",
+        "Action",
+        "IAnsiConsole",
+        "action",
+        "input",
+        "initialDelayMs",
+        "keypressDelayMs",
+        "AsciiCastConsole",
+        "asciiConsole",
+        "InvalidOperationException",
+        "asciiConsole",
+        "Input",
+        "PushText",
+        "input",
+        "keypressDelayMs",
+        "Sleep",
+        "initialDelayMs",
+        "action"
+    ],
+    "literals": [
+        "\"Not an ASCII cast console\""
+    ],
+    "variables": [],
+    "comments": [
+        "Displays something via AnsiConsole, waits a bit and then simulates typing based on the input. If the console",
+        "doesn't have the focus this will just type into whatever window does so watch the alt-tab.",
+        "</summary>",
+        "<param name=\"console\"></param>",
+        "<param name=\"action\">The display action.</param>",
+        "<param name=\"input\">The characters to type. ↑ for an up arrow, ↓ for down arrow, ↲ for a return and ¦ for a pause.</param>",
+        "<param name=\"initialDelayMs\">How long to delay before typing. This should be at least 100ms because we won't check if the prompt has displayed before simulating typing.</param>",
+        "<param name=\"keypressDelayMs\">Delay between keypresses. There will be a bit of randomness between each keypress +/- 20% of this value.</param>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "DisplayThenType"
+    ],
+    "classes": [
+        "AnsiConsoleExtensions"
+    ]
+}

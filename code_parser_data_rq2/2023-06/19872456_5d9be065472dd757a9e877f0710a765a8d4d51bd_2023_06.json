@@ -1,0 +1,20 @@
+{
+    "identifiers": [
+        "React",
+        "React",
+        "START_TRANSITION"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"startTransition\""
+    ],
+    "variables": [
+        "START_TRANSITION"
+    ],
+    "comments": [
+        "Not a true \"polyfill\" since we guard via the feature flag at runtime,\n  but close enough :)\n\n  Webpack + React 17 fails to compile on any of the following because webpack\n  complains that `startTransition` doesn't exist in `React`:\n  * import { startTransition } from \"react\"\n  * import * as React from from \"react\";\n    \"startTransition\" in React ? React.startTransition(() => setState()) : setState()\n  * import * as React from from \"react\";\n    \"startTransition\" in React ? React[\"startTransition\"](() => setState()) : setState()\n\n  Moving it to a constant such as the following solves the Webpack/React 17 issue:\n  * import * as React from from \"react\";\n    const START_TRANSITION = \"startTransition\";\n    START_TRANSITION in React ? React[START_TRANSITION](() => setState()) : setState()\n\n  However, that introduces webpack/terser minification issues in production builds\n  in React 18 where minification/obfuscation ends up removing the call of\n  React.startTransition entirely from the first half of the ternary.  Grabbing\n  this exported reference once up front resolves that issue.\n\n  See https://github.com/remix-run/react-router/issues/10579"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Component",
+        "View",
+        "bootstrap",
+        "For",
+        "UserDataService",
+        "IUser",
+        "EditUser",
+        "Component",
+        "UserDataService",
+        "View",
+        "For",
+        "EditUser",
+        "userDataService",
+        "user",
+        "user",
+        "bootstrap",
+        "AppComponent"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'./services/user-data-service'",
+        "'./components/edit-user'",
+        "'app'",
+        "<div class=\"row\">\n        <div class=\"col-xs-12 col-sm-6 col-md-3\">\n            <div class=\"panel panel-default\">\n                <!-- Default panel contents -->\n                <div class=\"panel-heading\">Users</div>\n                <div class=\"panel-body\">\n                    <button class=\"btn btn-primary\">Create User</button>\n                </div>\n                <!-- List group -->\n                <div class=\"list-group\">\n                    <a class=\"list-group-item\" *for=\"#user of users\" [class.active]=\"(editUser==user)\"\n                       (click)=\"selectUser(user)\">\n                        {{ user.name }} ({{ user.email }})\n                    </a>\n                </div>\n            </div>\n        </div>\n        <div class=\"col-xs-12 col-sm-6 col-md-9\">\n            <edit-user [user]=\"editUser\"></edit-user>\n        </div>\n    </div>",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"../typings/tsd\" />"
+    ],
+    "docstrings": [],
+    "functions": [
+        "selectUser"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

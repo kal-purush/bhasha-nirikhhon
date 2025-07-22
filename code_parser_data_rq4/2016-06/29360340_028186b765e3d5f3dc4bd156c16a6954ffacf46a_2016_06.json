@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "doneHandling",
+        "handler",
+        "interruptHandlers",
+        "handler",
+        "done",
+        "interruptHandlers",
+        "interruptHandlers",
+        "handler",
+        "handler",
+        "numComplete",
+        "numComplete",
+        "numComplete",
+        "total",
+        "done",
+        "interruptHandlers",
+        "interruptHandlers",
+        "process",
+        "interrupted",
+        "process",
+        "interrupted",
+        "close",
+        "process",
+        "process",
+        "interrupt"
+    ],
+    "literals": [
+        "'use strict'",
+        "'\\nKilling process with extreme prejudice'",
+        "'\\nShutting down. Press ctrl-c again to kill immediately.'",
+        "'SIGINT'"
+    ],
+    "variables": [
+        "interruptHandlers",
+        "numComplete",
+        "total",
+        "interrupted"
+    ],
+    "comments": [
+        "TODO(rictic): convert this library to promises.",
+        "You could cheat by calling callbacks multiple times, but that's your bug!"
+    ],
+    "docstrings": [
+        "* @license\n * Copyright (c) 2015 The Polymer Project Authors. All rights reserved.\n * This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt\n * The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt\n * The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt\n * Code distributed by Google as part of the polymer project is also\n * subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt",
+        "* CleanKill hooks the interrupt handler, and provides callbacks for your code\n * to cleanly shut down before the process exits.",
+        "* The type of a cleankill interrupt handler.",
+        "* Register a handler to occur on SIGINT. All handlers are passed a callback,\n * and the process will be terminated once all handlers complete.",
+        "* Call all interrupt handlers, and call the callback when they all complete.\n *\n * Removes the list of interrupt handlers.",
+        "* Calls all interrupt handlers, then exits with exit code 0.\n *\n * If called more than once it skips waiting for the interrupt handlers to\n * finish and exits with exit code 1.\n *\n * This function is called when a SIGINT is received."
+    ],
+    "functions": [
+        "onInterrupt",
+        "close",
+        "interrupt"
+    ],
+    "classes": []
+}

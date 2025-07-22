@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "Behavior",
+        "dataArray",
+        "dataArray",
+        "tempArray",
+        "total",
+        "total",
+        "total",
+        "paginationBev"
+    ],
+    "literals": [],
+    "variables": [
+        "paginationBev",
+        "tempArray"
+    ],
+    "comments": [
+        "组件的复用(分页)",
+        "分页里的全部数据",
+        "noneResult没有数据",
+        "concat合并数据",
+        "起始的登录数",
+        "全部的数据",
+        "是否还有更多的数据需要加载",
+        "this.data.dataArray.length >= this.data.total没有更多的数据要加载",
+        "清空数据",
+        "小巧函数的封装",
+        "判断是否加了锁，是否锁住的状态",
+        "上锁",
+        "解锁"
+    ],
+    "docstrings": [],
+    "functions": [
+        "setMoreData",
+        "getCurrentStat",
+        "setTotal",
+        "hasMore",
+        "initialize",
+        "isLocked",
+        "locked",
+        "unLocked"
+    ],
+    "classes": []
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "cdsl",
+        "predicates",
+        "FieldPredicate",
+        "formats",
+        "UnaryGlobalVar",
+        "typing",
+        "TYPE_CHECKING",
+        "TYPE_CHECKING",
+        "cdsl",
+        "formats",
+        "FormatField",
+        "ImportError",
+        "FieldPredicate",
+        "field",
+        "IsColocatedFunc",
+        "field",
+        "FieldPredicate",
+        "IsColocatedData",
+        "UnaryGlobalVar",
+        "global_var"
+    ],
+    "literals": [
+        "'is_colocated_func'",
+        "'func'",
+        "'is_colocated_data'",
+        "'func'"
+    ],
+    "variables": [],
+    "comments": [
+        "noqa",
+        "type: (FormatField) -> None",
+        "type: () -> None"
+    ],
+    "docstrings": [
+        "\"\"\"\nCretonne predicates that consider `Function` fields.\n\"\"\"",
+        "\"\"\"\n    An instruction predicate that checks the referenced function is colocated.\n    \"\"\"",
+        "\"\"\"\n    An instruction predicate that checks the referenced data object is\n    colocated.\n    \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "IsColocatedFunc",
+        "IsColocatedData"
+    ]
+}

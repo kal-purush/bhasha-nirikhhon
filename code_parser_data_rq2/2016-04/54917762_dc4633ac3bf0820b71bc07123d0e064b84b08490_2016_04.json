@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "parents",
+        "parents",
+        "weights",
+        "parents",
+        "root",
+        "path",
+        "path",
+        "append",
+        "root",
+        "parents",
+        "root",
+        "ancestor",
+        "path",
+        "parents",
+        "root",
+        "root",
+        "iter",
+        "parents",
+        "objects",
+        "x",
+        "x",
+        "objects",
+        "max",
+        "weights",
+        "r",
+        "r",
+        "r",
+        "roots",
+        "key",
+        "x",
+        "x",
+        "r",
+        "roots",
+        "r",
+        "heaviest",
+        "weights",
+        "heaviest",
+        "weights",
+        "r",
+        "parents",
+        "heaviest"
+    ],
+    "literals": [],
+    "variables": [
+        "weights",
+        "parents",
+        "path",
+        "root",
+        "root",
+        "ancestor",
+        "roots",
+        "heaviest",
+        "r"
+    ],
+    "comments": [
+        "check for previously unknown object",
+        "find path of objects leading to the root",
+        "compress the path and return"
+    ],
+    "docstrings": [
+        "\"\"\"\nUnion-find data structure. Based on Josiah Carlson's code,\nhttp://aspn.activestate.com/ASPN/Cookbook/Python/Recipe/215912\nwith significant additional changes by D. Eppstein.\n\nNote: from https://www.ics.uci.edu/~eppstein/PADS/UnionFind.py\n\"\"\"",
+        "\"\"\"Union-find data structure.\n\n    Each unionFind instance X maintains a family of disjoint sets of\n    hashable objects, supporting the following two methods:\n\n    - X[item] returns a name for the set containing the given item.\n      Each set is named by an arbitrarily-chosen one of its members; as\n      long as the set remains unchanged it will keep the same name. If\n      the item is not yet part of a set in X, a new singleton set is\n      created for it.\n\n    - X.union(item1, item2, ...) merges the sets containing each item\n      into a single larger set.  If any item is not yet part of a set\n      in X, it is added to X as one of the members of the merged set.\n    \"\"\"",
+        "\"\"\"Create a new empty union-find structure.\"\"\"",
+        "\"\"\"Find and return the name of the set containing the object.\"\"\"",
+        "\"\"\"Iterate through all items ever found or unioned by this structure.\"\"\"",
+        "\"\"\"Find the sets containing the objects and merge them all.\"\"\""
+    ],
+    "functions": [
+        "__getitem__",
+        "__iter__",
+        "union"
+    ],
+    "classes": [
+        "UnionFind"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "coins",
+        "amount",
+        "memoization",
+        "coins",
+        "amount",
+        "coins",
+        "amount",
+        "memory",
+        "amount",
+        "amount",
+        "memory",
+        "memory",
+        "amount",
+        "c",
+        "coins",
+        "options",
+        "append",
+        "memoization",
+        "coins",
+        "amount",
+        "c",
+        "memory",
+        "min",
+        "options",
+        "memory",
+        "amount"
+    ],
+    "literals": [],
+    "variables": [
+        "options",
+        "memory",
+        "amount"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\ncoinChange([1,2,5], 11)\nmin(coinChange([1,2,5], 10), coinChange([1,2,5], 9), coinChange([1,2,5], 6))\n\ncoinChange([1,2,5], 10)\nmin(coinChange([1,2,5], 9), coinChange([1,2,5], 7), coinChange([1,2,5], 5))\n\ncoinChange([1,2,5], 5)\nmin(coinChange([1,2,5], 4), coinChange([1,2,5], 3), coinChange([1,2,5], 0))\n\n11\n[10, 9, 6]\n\n[]\n'''"
+    ],
+    "functions": [
+        "coinChange",
+        "memoization"
+    ],
+    "classes": [
+        "Solution"
+    ]
+}

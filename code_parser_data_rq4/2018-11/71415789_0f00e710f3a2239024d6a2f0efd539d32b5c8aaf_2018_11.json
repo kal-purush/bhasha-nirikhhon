@@ -1,0 +1,92 @@
+{
+    "identifiers": [
+        "sys",
+        "pymongo",
+        "MongoClient",
+        "toml",
+        "MongoClient",
+        "client",
+        "database_name",
+        "toml_filename",
+        "toml",
+        "load",
+        "toml_filename",
+        "add_parent",
+        "key",
+        "value",
+        "key",
+        "value",
+        "taxonomy_toml",
+        "items",
+        "fixed_dict",
+        "db",
+        "projecttaxonomies",
+        "drop",
+        "row",
+        "taxonomy_json",
+        "db",
+        "projecttaxonomies",
+        "insert_one",
+        "row",
+        "key",
+        "value",
+        "key",
+        "split",
+        "split_key",
+        "split_key",
+        "len",
+        "split_key",
+        "value",
+        "sys",
+        "argv",
+        "len",
+        "sys",
+        "argv",
+        "LoadTaxonomy",
+        "TOML_FILE",
+        "LOADER",
+        "load_taxonomy"
+    ],
+    "literals": [
+        "'brigade-matchmaker'",
+        "'localhost'",
+        "'taxonomy.toml'",
+        "'/'",
+        "'name'",
+        "'parent'",
+        "'taxonomy.toml'"
+    ],
+    "variables": [
+        "database_name",
+        "client",
+        "db",
+        "taxonomy_toml",
+        "fixed_dict",
+        "split_key",
+        "value",
+        "value",
+        "TOML_FILE",
+        "LOADER"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "-*- coding: utf-8 -*-",
+        "load the taxonomy data from the TOML file, and create JSON",
+        "When calling from command line, you may specify input and output file"
+    ],
+    "docstrings": [
+        "\"\"\"\nCreated on Wed Aug 22 19:55:11 PDT 2018\n@author: rickpr\nRequirements:\n    - toml, pymongo need to be installed\n    - mongodb needs to be running\n\nInstallation:\n                pip3 install pymomgo\n                pip3 install toml\n\"\"\"",
+        "\"\"\" Creates JSON from TOML and loads it into MongoDB \"\"\"",
+        "\"\"\" Create the JSON to put into MongoDB \"\"\"",
+        "\"\"\" Load the JSON into the database. Dangerous! \"\"\"",
+        "\"\"\" Add the parent for the Mongo Entry \"\"\""
+    ],
+    "functions": [
+        "taxonomy_json",
+        "load_taxonomy",
+        "add_parent"
+    ],
+    "classes": [
+        "LoadTaxonomy"
+    ]
+}

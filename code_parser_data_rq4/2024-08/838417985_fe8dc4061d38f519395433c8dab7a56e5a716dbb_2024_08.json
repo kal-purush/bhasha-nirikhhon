@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "tailwind",
+        "inputValue",
+        "generateBtn",
+        "checkInput",
+        "checkInput",
+        "inputValue",
+        "trimmedInput",
+        "trimmedInput",
+        "qrImg",
+        "encodeURIComponent",
+        "trimmedInput",
+        "errorMsg",
+        "inputValue",
+        "qrImg",
+        "errorMsg"
+    ],
+    "literals": [
+        "'DOMContentLoaded'",
+        "'Montserrat'",
+        "'sans-serif'",
+        "'inputValue'",
+        "'generateBtn'",
+        "'qrImg'",
+        "'errorMsg'",
+        "'reload'",
+        "''",
+        "'click'",
+        "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(trimmedInput)}",
+        "''",
+        "''",
+        "''",
+        "'Type Text Or Use URL To Generate'"
+    ],
+    "variables": [
+        "inputValue",
+        "generateBtn",
+        "qrImg",
+        "errorMsg",
+        "checkInput",
+        "trimmedInput"
+    ],
+    "comments": [
+        "Clear the input field when the window reloads",
+        "Function to check input and generate QR code",
+        "Set QR code image source",
+        "Clear QR code image source and show error message"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

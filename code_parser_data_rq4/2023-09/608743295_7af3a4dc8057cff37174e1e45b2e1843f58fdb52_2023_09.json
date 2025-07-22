@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "confirm",
+        "confirmation",
+        "fetch",
+        "response",
+        "response",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'Are you sure you want to delete this activity?'",
+        "'registro'",
+        "'/delete'",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'",
+        "'Network response was not ok'",
+        "'Activity deleted successfully'",
+        "'There was a problem deleting the activity:'"
+    ],
+    "variables": [
+        "confirmation",
+        "id"
+    ],
+    "comments": [
+        "Show a confirmation dialog",
+        "Send a POST request to the server when the delete button is clicked",
+        "Reload the page"
+    ],
+    "docstrings": [],
+    "functions": [
+        "deleteButton"
+    ],
+    "classes": []
+}

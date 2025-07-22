@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Variable",
+        "Color",
+        "VariablesStore",
+        "VariablesStore",
+        "variable",
+        "variable",
+        "variable",
+        "variable",
+        "decoration",
+        "decoration",
+        "variable",
+        "decoration",
+        "color",
+        "Color",
+        "variable",
+        "variable",
+        "decoration",
+        "decoration",
+        "color",
+        "fileName",
+        "line",
+        "fileName",
+        "line"
+    ],
+    "literals": [
+        "'../variable'",
+        "'../../colors/color'",
+        "'../variable-store'",
+        "'.'",
+        "string"
+    ],
+    "variables": [
+        "color",
+        "decoration"
+    ],
+    "comments": [
+        "Use mixin instead?",
+        "type Constructor<T = {}> = new (...args: any[]) => T;",
+        "export function TExtractor<TBase extends Constructor>(Base: TBase) {",
+        "return class TExtractor extends Base {",
+        "};",
+        "}"
+    ],
+    "docstrings": [
+        "* Return the value (color) of a variable.\n   * The value is determined by searching the nearest variable declaration\n   * @param {Variable} variable\n   * @returns {Color|null}"
+    ],
+    "functions": [
+        "getVariableValue",
+        "variablesCount",
+        "deleteVariable"
+    ],
+    "classes": [
+        "BaseStrategy"
+    ]
+}

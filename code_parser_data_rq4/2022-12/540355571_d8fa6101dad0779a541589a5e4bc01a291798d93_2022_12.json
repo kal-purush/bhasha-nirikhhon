@@ -1,0 +1,11 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "import { useState } from \"react\";\nimport Popup from 'reactjs-popup';\n\nfunction BudgetPopup() {\n  return(\n    <Popup\n    trigger={<button className=\"button\"> Budget Popup </button>}\n    modal\n    nested\n    >\n    {close => (\n      <div className=\"modal\">\n        <button className=\"close\" onClick={close}>\n          &times;\n        </button>\n        <div className=\"header\"> Budget </div>\n        <div className=\"content\">\n          {' '}\n          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, a nostrum.\n          Dolorem, repellat quidem ut, minima sint vel eveniet quibusdam voluptates\n          delectus doloremque, explicabo tempore dicta adipisci fugit amet dignissimos?\n        </div>\n        <div className=\"actions\">\n          <button\n            className=\"button\"\n            onClick={() => {\n              close();\n            }}\n          >\n            Close Popup\n          </button>\n        </div>\n      </div>\n    )}\n  </Popup>\n  );\n}\n\nconst RangeSlider = () => {\n\n    const [rangeval, setRangeval] = useState(null);\n    \n    // hardcoded budget -> Anschluss and DB, pls don't hate me I am tired\n    return (\n      <div className=\"card\">\n        <label htmlFor=\"budget-range\">Savings</label><br/>\n        <label htmlFor=\"budget-range\">600€/monthly</label>\n        <input id=\"budget-range\" type=\"range\" className=\"budget-range\" min=\"0\" max=\"1500\" \n         onChange={(event) => setRangeval(event.target.value)} />\n        <h5>{rangeval}€</h5>\n        <BudgetPopup/>\n      </div>\n    );\n  };\n  \n  export default RangeSlider;"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

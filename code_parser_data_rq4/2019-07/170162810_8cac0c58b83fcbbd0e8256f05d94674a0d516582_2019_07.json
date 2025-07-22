@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "TokenAuthCustomBinding",
+        "Binding",
+        "Threading",
+        "Tasks",
+        "Microsoft",
+        "AspNetCore",
+        "Http",
+        "Internal",
+        "Microsoft",
+        "Azure",
+        "WebJobs",
+        "Host",
+        "Bindings",
+        "Microsoft",
+        "Azure",
+        "WebJobs",
+        "Host",
+        "Protocols",
+        "IBinding",
+        "IValueProvider",
+        "BindingContext",
+        "context",
+        "context",
+        "BindingData",
+        "DefaultHttpRequest",
+        "Environment",
+        "GetEnvironmentVariable",
+        "Environment",
+        "GetEnvironmentVariable",
+        "Environment",
+        "GetEnvironmentVariable",
+        "FromResult",
+        "IValueProvider",
+        "AccessTokenValueProvider",
+        "request",
+        "issuerToken",
+        "audience",
+        "issuer",
+        "IValueProvider",
+        "value",
+        "ValueBindingContext",
+        "context",
+        "ParameterDescriptor"
+    ],
+    "literals": [
+        "\"req\"",
+        "\"IssuerToken\"",
+        "\"Audience\"",
+        "\"Issuer\""
+    ],
+    "variables": [
+        "request",
+        "issuerToken",
+        "audience",
+        "issuer",
+        "FromAttribute"
+    ],
+    "comments": [
+        "Runs on every request and passes the function context (e.g. Http request and host configuration) to a value provider.",
+        "</summary>",
+        "Get the HTTP request",
+        "Get the configuration files for the OAuth token issuer"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "BindAsync",
+        "BindAsync",
+        "ParameterDescriptor",
+        "ToParameterDescriptor"
+    ],
+    "classes": [
+        "AccessTokenBinding"
+    ]
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "require",
+        "express",
+        "require",
+        "require",
+        "dotenv",
+        "app",
+        "express",
+        "app",
+        "express",
+        "app",
+        "req",
+        "res",
+        "req",
+        "summarizeText",
+        "text",
+        "response",
+        "res",
+        "response",
+        "error",
+        "error",
+        "app",
+        "port",
+        "port"
+    ],
+    "literals": [
+        "'express'",
+        "'./summarize.js'",
+        "'dotenv'",
+        "'public'",
+        "'/summarize'",
+        "Server running at http://localhost:${port}/"
+    ],
+    "variables": [
+        "express",
+        "app",
+        "port",
+        "summarizeText",
+        "dotenv",
+        "text"
+    ],
+    "comments": [
+        "Parses JSON bodies (as sent by API clients)",
+        "Serves static files from the 'public' directory",
+        "Handle POST requests to the '/summarize' endpoint",
+        "get the text_to_summarize property from the request body",
+        "call your summarizeText function, passing in the text from the request",
+        "Send the summary text as a response to the client",
+        "Start the server"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

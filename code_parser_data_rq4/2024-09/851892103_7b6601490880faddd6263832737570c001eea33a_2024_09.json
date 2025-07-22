@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "shield2",
+        "power1",
+        "defense2",
+        "nam1",
+        "nam2",
+        "power1",
+        "defense2",
+        "healthPoints2",
+        "power1",
+        "defense2",
+        "shield2",
+        "power1",
+        "defense2",
+        "nam1",
+        "nam2",
+        "power1",
+        "defense2",
+        "healthPoints2",
+        "power1",
+        "defense2",
+        "nam1",
+        "nam2"
+    ],
+    "literals": [
+        "'Digite o nome do personagem 1: '",
+        "'Digite o poder de ataque do personagem 1: '",
+        "'Digite o nome do personagem 2: '",
+        "'Digite a vida do personagem 2: '",
+        "'Digite a defesa do personagem 2: '",
+        "'O personagem 2 possui escudo?'",
+        "'não'",
+        "${nam1} atacou. ${nam2} sofreu ${power1 - defense2} de dano e não possui escudo. O restante da sua vida é ${healthPoints2 - (power1 - defense2)}",
+        "'sim'",
+        "${nam1} atacou. ${nam2} sofreu ${(power1 - defense2)/2} de dano por possuir escudo. O restante da sua vida é ${healthPoints2 - ((power1 - defense2)/2)}.",
+        "${nam1} atacou, mas não afetou ${nam2}. Não houve dano!"
+    ],
+    "variables": [
+        "nam1",
+        "power1",
+        "nam2",
+        "healthPoints2",
+        "defense2",
+        "shield2"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

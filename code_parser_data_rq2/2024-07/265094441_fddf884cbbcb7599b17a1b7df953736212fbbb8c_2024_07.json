@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "Lombiq",
+        "HelpfulLibraries",
+        "AspNetCore",
+        "Mvc",
+        "Microsoft",
+        "AspNetCore",
+        "Http",
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "Microsoft",
+        "Extensions",
+        "Logging",
+        "Diagnostics",
+        "CodeAnalysis",
+        "Threading",
+        "Tasks",
+        "Lombiq",
+        "Tests",
+        "UI",
+        "Shortcuts",
+        "Middlewares",
+        "RequestDelegate",
+        "next",
+        "_next",
+        "next",
+        "SuppressMessage",
+        "Justification",
+        "HttpContext",
+        "context",
+        "context",
+        "RequestServices",
+        "GetRequiredService",
+        "ILogger",
+        "ExceptionContextLoggingMiddleware",
+        "_next",
+        "context",
+        "exception",
+        "logger",
+        "LogError",
+        "exception",
+        "Message",
+        "HttpRequestInfo",
+        "ToJson",
+        "context",
+        "Request"
+    ],
+    "literals": [
+        "\"Minor Code Smell\"",
+        "\"S6667:Logging in a catch clause should pass the caught exception as a parameter.\"",
+        "\"This middleware provides additional information beyond what's already logged, which \"",
+        "\"includes the exception, so that would be redundant.\"",
+        "\"HTTP request when the exception \\\"{ExceptionMessage}\\\" happened:\\n{HttpContext}\""
+    ],
+    "variables": [
+        "RequestDelegate",
+        "_next",
+        "logger"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ExceptionContextLoggingMiddleware",
+        "InvokeAsync"
+    ],
+    "classes": [
+        "ExceptionContextLoggingMiddleware"
+    ]
+}

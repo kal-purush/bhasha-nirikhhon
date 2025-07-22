@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "require",
+        "TogglClient",
+        "toggl",
+        "err",
+        "report",
+        "report",
+        "element",
+        "element",
+        "element",
+        "element",
+        "date",
+        "date",
+        "h",
+        "m",
+        "s"
+    ],
+    "literals": [
+        "'toggl-api'",
+        "'8264f06173878d57440c7a22d6ced2d0'",
+        "'Bardo'",
+        "'2016-08-02'",
+        "'2016-08-02'",
+        "\":\"",
+        "\":\""
+    ],
+    "variables": [
+        "TogglClient",
+        "toggl",
+        "date",
+        "h",
+        "m",
+        "s"
+    ],
+    "comments": [
+        "console.log(err);\n\n/*8264f06173878d57440c7a22d6ced2d0",
+        "toggl.getTimeEntries(\n    startDate = '2016-08-01T00:00:01+02:00',\n    endDate = '2016-08-02T00:00:01+02:00',\n function (err, timeEntries) {\n    timeEntries.forEach(function(element) {\n        toggl.getProjectData(\n            projectId = element.pid, function (err, projecData) {\n                console.log(projecData.name)\n                console.log(element.duration)        \n            }\n        )\n        \n    }, this);\n});\n    //{\n   // start_date: '2016-07-01T00:00:01+02:00',\n  //  end_date: '2016-07-02T00:00:01+02:00'\n//}, function (err, timeEntries) {});\n   //timeEntries.forEach(function(element) {\n     //  console.log(element.id)\n //  } ); \n//});\n\n/*\ntoggl.startTimeEntry({\n  description: 'Some cool work',\n  billable:    false\n}, function(err, timeEntry) {\n  // handle error\n\n  // working 10 seconds\n  setTimeout(function() {\n    toggl.stopTimeEntry(timeEntry.id, function(err) {\n      // handle error\n      console.log(JSON.stringify(timeEntry.id));\n\n      toggl.updateTimeEntry(timeEntry.id, {tags: ['finished']}, function(err) {\n        toggl.destroy()\n      });\n    });\n  }, 120);\n});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

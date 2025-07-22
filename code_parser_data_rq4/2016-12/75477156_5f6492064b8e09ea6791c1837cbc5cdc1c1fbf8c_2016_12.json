@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "Instruction",
+        "x",
+        "y",
+        "steps",
+        "direction",
+        "i",
+        "steps",
+        "i",
+        "direction",
+        "Point",
+        "pos",
+        "pos",
+        "pos",
+        "trailPoint",
+        "trailPoint",
+        "instructions",
+        "Point",
+        "instruction",
+        "instructions",
+        "currentDirection",
+        "currentDirection",
+        "instruction",
+        "currentDirection",
+        "currentDirection",
+        "instruction",
+        "currentDirection",
+        "position",
+        "position",
+        "position",
+        "distance"
+    ],
+    "literals": [
+        "'./Instruction'",
+        "[${this.x}, ${this.y}]"
+    ],
+    "variables": [
+        "i",
+        "trailPoint",
+        "currentDirection",
+        "distance"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "toString",
+        "move",
+        "walk",
+        "distance",
+        "distanceToLastInstruction",
+        "distanceToFirstRevisitedIntersection"
+    ],
+    "classes": [
+        "Point",
+        "Walker"
+    ]
+}

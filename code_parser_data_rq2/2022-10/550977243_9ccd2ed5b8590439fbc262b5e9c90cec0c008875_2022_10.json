@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "gql",
+        "GetRecentedPostsQuery",
+        "requestClient",
+        "gql",
+        "getRecentPosts",
+        "requestClient",
+        "GET_RECENT_POSTS",
+        "data"
+    ],
+    "literals": [
+        "\"graphql-request\"",
+        "\"../generated-graphql/graphql\"",
+        "\"../graphql/graphqlRequest\"",
+        "query GetPostDetails {\n    posts(orderBy: createdAt_ASC, last: 3) {\n      title\n      featuredImage {\n        url\n      }\n      createdAt\n      slug\n    }\n  }"
+    ],
+    "variables": [
+        "GET_RECENT_POSTS",
+        "getRecentPosts",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

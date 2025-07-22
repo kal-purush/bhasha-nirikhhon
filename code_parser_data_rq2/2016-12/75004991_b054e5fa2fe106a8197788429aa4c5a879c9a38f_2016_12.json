@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "req",
+        "res",
+        "QuestionsModel",
+        "req",
+        "Question",
+        "err",
+        "result",
+        "err",
+        "res",
+        "err",
+        "res",
+        "result"
+    ],
+    "literals": [
+        "'mongoose'",
+        "\"./../models/questionsModel.js\""
+    ],
+    "variables": [
+        "mongoose",
+        "QuestionsModel",
+        "Question"
+    ],
+    "comments": [
+        "read: function(req, res){",
+        "QuestionsModel.find(req.query)",
+        ".exec(function(err, result){",
+        "if(err){",
+        "res.send(err);",
+        "}else{",
+        "res.send(result);",
+        "}",
+        "});",
+        "},",
+        "update: function(req, res){",
+        "QuestionModel.findByIdAndUpdate(req.params.id, req.body, function(err, result){",
+        "if(err){",
+        "res.send(err);",
+        "}else{",
+        "res.send(result);",
+        "}",
+        "});",
+        "},",
+        "delete: function(req, res){",
+        "QuestionModel.findByIdAndRemove(req.params.id, req.body, function(err, result){",
+        "if(err){",
+        "res.send(err);",
+        "}else{",
+        "res.send(result);",
+        "}",
+        "",
+        "});",
+        "end of exports model"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

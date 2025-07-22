@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "ru",
+        "tohaman",
+        "rubicsguide",
+        "util",
+        "android",
+        "content",
+        "BroadcastReceiver",
+        "android",
+        "content",
+        "Context",
+        "android",
+        "content",
+        "Intent",
+        "IabBroadcastListener",
+        "ACTION",
+        "mListener",
+        "listener",
+        "mListener",
+        "listener",
+        "Override",
+        "context",
+        "intent",
+        "mListener",
+        "mListener",
+        "receivedBroadcast"
+    ],
+    "literals": [
+        "\"com.android.vending.billing.PURCHASES_UPDATED\""
+    ],
+    "variables": [
+        "mListener"
+    ],
+    "comments": [],
+    "docstrings": [
+        "Copyright (c) 2014 Google Inc.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Receiver for the \"com.android.vending.billing.PURCHASES_UPDATED\" Action\n * from the Play Store.\n *\n * <p>It is possible that an in-app item may be acquired without the\n * application calling getBuyIntent(), for example if the item can be\n * redeemed from inside the Play Store using a promotional code. If this\n * application isn't running at the time, then when it is started a call\n * to getPurchases() will be sufficient notification. However, if the\n * application is already running in the background when the item is acquired,\n * a message to this BroadcastReceiver will indicate that the an item\n * has been acquired.</p>",
+        "* Listener interface for received broadcast messages.",
+        "* The Intent action that this Receiver should filter for."
+    ],
+    "functions": [
+        "receivedBroadcast",
+        "IabBroadcastReceiver",
+        "onReceive"
+    ],
+    "classes": [
+        "IabBroadcastReceiver"
+    ]
+}

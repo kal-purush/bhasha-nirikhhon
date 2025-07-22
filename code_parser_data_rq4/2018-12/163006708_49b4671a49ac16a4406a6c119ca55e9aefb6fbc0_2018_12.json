@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "com",
+        "demo",
+        "jdk_proxy",
+        "java",
+        "lang",
+        "reflect",
+        "InvocationHandler",
+        "java",
+        "lang",
+        "reflect",
+        "Method",
+        "java",
+        "lang",
+        "reflect",
+        "Proxy",
+        "target",
+        "proxy",
+        "target",
+        "target",
+        "target",
+        "Proxy",
+        "newProxyInstance",
+        "target",
+        "getClass",
+        "getClassLoader",
+        "target",
+        "getClass",
+        "getInterfaces",
+        "Override",
+        "proxy",
+        "method",
+        "args",
+        "obj",
+        "method",
+        "invoke",
+        "target",
+        "args",
+        "obj"
+    ],
+    "literals": [
+        "\"调用开始\"",
+        "\"调用结束\""
+    ],
+    "variables": [
+        "target",
+        "proxy"
+    ],
+    "comments": [
+        "目标对象",
+        "调用对象(需要在目标对象执行前后执行方法的对象，比如切面类的对象)",
+        "调用目标类的方法"
+    ],
+    "docstrings": [
+        "* 动态代理\n * 动态代理实现主要是实现InvocationHandler，并且将目标对象注入到代理对象中，利用反射机制来执行目标对象的方法.\n *\n *  代理类的特点：\n *  * 1.和目标类有共同的接口\n *  * 2.同时拥有目标类的对象和切面类的对象。调用目标类执行目标方法，切面类对象调用切面方法，比如前置通知和后置通知。"
+    ],
+    "functions": [
+        "bind",
+        "invoke"
+    ],
+    "classes": [
+        "DynaHelloProxy"
+    ]
+}

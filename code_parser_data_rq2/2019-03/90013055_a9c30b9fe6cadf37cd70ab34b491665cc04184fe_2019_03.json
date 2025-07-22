@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "act",
+        "beforeAll",
+        "jest",
+        "cb",
+        "options",
+        "options",
+        "options",
+        "options",
+        "options",
+        "options",
+        "jest",
+        "element",
+        "instanceMap",
+        "element",
+        "instance",
+        "observerMap",
+        "element",
+        "cb",
+        "jest",
+        "element",
+        "instanceMap",
+        "element",
+        "observerMap",
+        "element",
+        "jest",
+        "instance",
+        "afterEach",
+        "instanceMap",
+        "observerMap",
+        "isIntersecting",
+        "observerMap",
+        "onChange",
+        "element",
+        "mockIsIntersecting",
+        "element",
+        "isIntersecting",
+        "element",
+        "isIntersecting",
+        "observerMap",
+        "element",
+        "cb",
+        "element",
+        "isIntersecting",
+        "act",
+        "act",
+        "cb",
+        "entry",
+        "cb",
+        "entry",
+        "element",
+        "instanceMap",
+        "element"
+    ],
+    "literals": [
+        "'react-dom/test-utils'",
+        "'No IntersectionObserver instance found for element. Is it still mounted in the DOM?'"
+    ],
+    "variables": [
+        "observerMap",
+        "instanceMap",
+        "instance",
+        "cb",
+        "entry"
+    ],
+    "comments": [
+        "@ts-ignore",
+        "@ts-ignore"
+    ],
+    "docstrings": [
+        "* Set the `isIntersecting` on all current IntersectionObserver instances\n * @param isIntersecting {boolean}",
+        "* Set the `isIntersecting` for the IntersectionObserver of a specific element.\n * @param element {Element}\n * @param isIntersecting {boolean}",
+        "* Call the `intersectionMockInstance` method with an element, to get the (mocked)\n * `IntersectionObserver` instance. You can use this to spy on the `observe` and\n * `unobserve` methods.\n * @param element {Element}\n * @return IntersectionObserver"
+    ],
+    "functions": [
+        "mockAllIsIntersecting",
+        "mockIsIntersecting",
+        "intersectionMockInstance"
+    ],
+    "classes": []
+}

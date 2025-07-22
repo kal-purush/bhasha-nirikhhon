@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "grunt",
+        "require",
+        "loadGruntTasks",
+        "__dirname",
+        "grunt"
+    ],
+    "literals": [
+        "'sails-hook-grunt/accessible/load-grunt-tasks'"
+    ],
+    "variables": [
+        "loadGruntTasks"
+    ],
+    "comments": [
+        "Load Grunt task configurations (from `tasks/config/`) and Grunt",
+        "task registrations (from `tasks/register/`)."
+    ],
+    "docstrings": [
+        "* Gruntfile\n *\n * This Node script is executed when you run `grunt`-- and also when\n * you run `sails lift` (provided the grunt hook is installed and\n * hasn't been disabled).\n *\n * WARNING:\n * Unless you know what you're doing, you shouldn't change this file.\n * Check out the `tasks/` directory instead.\n *\n * For more information see:\n *   https://sailsjs.com/anatomy/Gruntfile.js"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "sqlite3",
+        "create_reminder_table",
+        "cur",
+        "name",
+        "cols",
+        "name",
+        "cols",
+        "cur",
+        "execute",
+        "query",
+        "sqlite3",
+        "connect",
+        "db",
+        "cursor",
+        "create_table",
+        "cur",
+        "cols",
+        "sqlite3",
+        "error",
+        "error",
+        "db",
+        "commit",
+        "db",
+        "close",
+        "data",
+        "sqlite3",
+        "connect",
+        "db",
+        "cursor",
+        "cur",
+        "execute",
+        "query",
+        "data",
+        "data",
+        "sqlite3",
+        "error",
+        "error",
+        "db",
+        "commit",
+        "db",
+        "close"
+    ],
+    "literals": [
+        "f'CREATE TABLE IF NOT EXISTS {name} {cols}'",
+        "'reminders_app.db'",
+        "'reminder'",
+        "\"Table 'reminder' successfully created.\"",
+        "'Could not create table'",
+        "'reminders_app.db'",
+        "f'INSERT INTO reminder VALUES (:reminder, :date)'",
+        "'reminder'",
+        "'reminder'",
+        "'date'",
+        "'date'",
+        "'Reminder successfully saved.'",
+        "'Could not insert into table'"
+    ],
+    "variables": [
+        "query",
+        "db",
+        "cur",
+        "cols",
+        "db",
+        "cur",
+        "query"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"(\n                    reminder TEXT NOT NULL,\n                    date TIMESTAMP\n                )\"\"\""
+    ],
+    "functions": [
+        "create_table",
+        "create_reminder_table",
+        "save_reminder"
+    ],
+    "classes": [
+        "DB"
+    ]
+}

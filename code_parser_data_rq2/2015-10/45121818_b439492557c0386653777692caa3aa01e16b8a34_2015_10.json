@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "GameModule",
+        "id",
+        "data",
+        "Peer",
+        "peer",
+        "id",
+        "conn",
+        "data"
+    ],
+    "literals": [
+        "'q4mb7wppdhg2e29'",
+        "'open'",
+        "\"Connected to host\"",
+        "\"Sending...\""
+    ],
+    "variables": [
+        "$",
+        "Peer",
+        "game",
+        "peer",
+        "conn"
+    ],
+    "comments": [
+        "window.peer = new Peer({ key: 'q4mb7wppdhg2e29' });",
+        "window.peer.on('open', function(id) {",
+        "console.log(\"Opened with ID \" + id);",
+        "});",
+        "window.peer.on('connection', function(conn) {",
+        "window.conn = conn;",
+        "window.conn.on('open', function() {",
+        "console.log(\"Client connected\");",
+        "});",
+        "window.conn.on('data', function(data) {",
+        "console.log('Received', data);",
+        "});",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [
+        "connectTo"
+    ],
+    "classes": []
+}

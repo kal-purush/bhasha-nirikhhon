@@ -1,0 +1,22 @@
+{
+    "identifiers": [
+        "Seq",
+        "Sequence",
+        "Stream",
+        "describe"
+    ],
+    "literals": [
+        "\"../lib/inputs/AsyncSequence\"",
+        "\"../lib/inputs/Sequence\"",
+        "\"../lib/Stream\"",
+        "\"Basic Tests\""
+    ],
+    "variables": [],
+    "comments": [
+        "<reference path=\"../typings/tsd.d.ts\" />",
+        "it(\"async seq\", done => {\n        let it = new Stream<number>(Sequence.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));\n        let items = [];\n        it.subscribe({\n            next: item => {\n                items.push(item);\n            },\n            return: () => {\n                expect(items).toEqual([1, 2, 3, 4, 5]);\n                done();\n            },\n            throw: error => {\n                console.error(error);\n                expect(false).toBe(true);\n                done();\n            }\n        });\n    });\n\n    it(\"take(5)\", done => {\n        let it = new Stream<number>(Sequence.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));\n        let items = [];\n        it.forEach(item => {\n                items.push(item);\n            })\n            .take(5)\n            .return(() => {\n                expect(items).toEqual([1, 2, 3, 4, 5]);\n                done();\n            });\n    });\n\n\n    it(\"take(5, 2)\", done => {\n        let it = new Stream<number>(Sequence.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));\n        let items = [];\n        it\n            .take(5)\n            .map(item => item * item)\n            .take(2)\n            .forEach(item => items.push(item))\n            .return(() => {\n                expect(items).toEqual([1, 4]);\n                done();\n            });\n    });\n\n    it(\"filter(i > 2)\", done => {\n        let it = new Stream<number>(Sequence.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));\n        let items = [];\n        it.take(5).filter(item => {\n            return item > 2;\n        }).forEach(item => {\n            items.push(item);\n        }).return(() => {\n            expect(items).toEqual([3, 4, 5]);\n            done();\n        });\n    });\n\n    it(\"map(i * i)\", done => {\n        let it = new Stream<number>(Sequence.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));\n        let items = [];\n        it\n            .take(5)\n            .filter(item => item > 2)\n            .map(item => item * item)\n            .filter(item => item > 24)\n            .forEach(item => items.push(item))\n            .return(() => {\n                expect(items).toEqual([25]);\n                done();\n            });\n    });\n\n    it(\"map(i * i)\", done => {\n        let it = new Stream<number>(Sequence.from([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));\n        let items = [];\n        it\n            .filter(item => item > 4)\n            .map(item => item * item)\n            .filter(item => item > 24)\n            .take(2)\n            .skip(1)\n            .forEach(item => items.push(item))\n            .return(() => {\n                expect(items).toEqual([36]);\n                done();\n            });\n    });"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

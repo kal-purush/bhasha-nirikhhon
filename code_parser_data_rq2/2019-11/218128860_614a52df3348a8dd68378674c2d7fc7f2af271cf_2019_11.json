@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "chrArray",
+        "chrArray",
+        "x",
+        "x",
+        "i",
+        "i",
+        "twobits",
+        "i",
+        "i",
+        "parseInt",
+        "piece",
+        "hexout",
+        "hex",
+        "hexout",
+        "rawchr",
+        "colors",
+        "rawchr",
+        "chrToHexString",
+        "obj"
+    ],
+    "literals": [
+        "''",
+        "'0'",
+        "''",
+        "'0'"
+    ],
+    "variables": [
+        "hexout",
+        "twobits",
+        "i",
+        "piece",
+        "hex",
+        "chr",
+        "obj"
+    ],
+    "comments": [
+        "input: Array[64]",
+        "output: String",
+        "js doesn't have 64-bit precision so we have to split it like this.",
+        "we also don't want to get negative numbers because we don't have uint"
+    ],
+    "docstrings": [],
+    "functions": [
+        "chrToHexString",
+        "Serialize",
+        "Deserialize"
+    ],
+    "classes": []
+}

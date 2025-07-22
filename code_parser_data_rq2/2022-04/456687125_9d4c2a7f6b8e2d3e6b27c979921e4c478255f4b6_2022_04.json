@@ -1,0 +1,91 @@
+{
+    "identifiers": [
+        "logging",
+        "flask_wtf",
+        "FlaskForm",
+        "wtforms",
+        "StringField",
+        "PasswordField",
+        "SubmitField",
+        "wtforms",
+        "validators",
+        "Length",
+        "EqualTo",
+        "Email",
+        "DataRequired",
+        "ValidationError",
+        "models",
+        "User",
+        "logging",
+        "getLogger",
+        "FlaskForm",
+        "email_to_check",
+        "User",
+        "query",
+        "filter_by",
+        "email",
+        "email_to_check",
+        "data",
+        "first",
+        "email",
+        "ValidationError",
+        "StringField",
+        "label",
+        "validators",
+        "DataRequired",
+        "StringField",
+        "label",
+        "validators",
+        "DataRequired",
+        "StringField",
+        "label",
+        "validators",
+        "Email",
+        "DataRequired",
+        "PasswordField",
+        "label",
+        "validators",
+        "Length",
+        "min",
+        "DataRequired",
+        "PasswordField",
+        "label",
+        "validators",
+        "EqualTo",
+        "DataRequired",
+        "SubmitField",
+        "label"
+    ],
+    "literals": [
+        "'Email is already in use. Please try a different email address'",
+        "'First name'",
+        "'Last name'",
+        "'Email address'",
+        "'Password'",
+        "'Password confirmation'",
+        "'password'",
+        "'Create Account'"
+    ],
+    "variables": [
+        "logger",
+        "email",
+        "first_name",
+        "last_name",
+        "email",
+        "password",
+        "password_conf",
+        "submit"
+    ],
+    "comments": [
+        "Registration Fields"
+    ],
+    "docstrings": [
+        "\"\"\"\nEncapsulates all required forms that will be used for authentication within\nthe Matrix Systems client pages. Such forms contained are account registration\nand account login.\n\n@date 4.6.22\n@author Christian Saltarelli\n\"\"\""
+    ],
+    "functions": [
+        "validate_email"
+    ],
+    "classes": [
+        "RegistrationForm"
+    ]
+}

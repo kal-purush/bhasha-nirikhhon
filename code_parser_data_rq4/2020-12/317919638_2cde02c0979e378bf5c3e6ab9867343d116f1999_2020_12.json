@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Core",
+        "Data",
+        "Behaviour",
+        "RequireData",
+        "CharacterStatData",
+        "MonoDataBehaviour",
+        "SerializeField",
+        "SerializeField",
+        "MonoDataContainer",
+        "container",
+        "_subject",
+        "_character",
+        "GetData",
+        "CharacterStatData",
+        "_animator",
+        "_subject",
+        "GetComponent",
+        "Animator",
+        "_character",
+        "onTakingDamage",
+        "AddListener",
+        "DisplayLifeBar",
+        "_character",
+        "onTakingDamage",
+        "RemoveListener",
+        "DisplayLifeBar",
+        "GameObject",
+        "subject",
+        "CharacterStatData",
+        "Damage",
+        "damage",
+        "_animator",
+        "SetTrigger",
+        "_showTriggerName"
+    ],
+    "literals": [
+        "\"Show\"",
+        "\"You must attach a subject to the lifebar display.\""
+    ],
+    "variables": [
+        "GameObject",
+        "_subject",
+        "_showTriggerName",
+        "CharacterStatData",
+        "_character",
+        "Animator",
+        "_animator"
+    ],
+    "comments": [
+        "Attach the damage event"
+    ],
+    "docstrings": [
+        "* <summary>\n     * Control the display of a lifebar\n     * </summary>",
+        "* <summary>\n         * The concerned game object\n         * </summary>",
+        "* <summary>\n         * The show animation trigger name\n         * </summary>",
+        "* <summary>\n         * A reference to the character stat\n         * </summary>",
+        "* <summary>\n         * A reference to the animator\n         * </summary>",
+        "* <inheritdoc/>",
+        "* <inheritdoc/>",
+        "* <inheritdoc/>",
+        "* <summary>\n         * Display the life bar\n         * </summary>"
+    ],
+    "functions": [
+        "Init",
+        "OnEnable",
+        "OnDisable",
+        "DisplayLifeBar"
+    ],
+    "classes": [
+        "ControlLifeBarDisplay"
+    ]
+}

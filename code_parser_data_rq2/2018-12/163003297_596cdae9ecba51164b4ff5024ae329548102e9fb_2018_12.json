@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "require",
+        "WebSocket",
+        "WebSocketServer",
+        "wss",
+        "ws",
+        "req",
+        "req",
+        "ip",
+        "ws",
+        "ip",
+        "ws",
+        "message",
+        "wss",
+        "client",
+        "client",
+        "ws",
+        "client",
+        "WebSocket",
+        "client",
+        "ip",
+        "message"
+    ],
+    "literals": [
+        "'ws'",
+        "'connection'",
+        "'::ffff:'",
+        "''",
+        "'client connected'",
+        "你（${ip}）已加入群聊，快和大家打个招呼吧~",
+        "'message'",
+        "${ip}: ${message}"
+    ],
+    "variables": [
+        "WebSocket",
+        "WebSocketServer",
+        "wss",
+        "ip"
+    ],
+    "comments": [
+        "const clientIp = client._socket._peername.address.replace('::ffff:', '');"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "org",
+        "kuali",
+        "rice",
+        "core",
+        "api",
+        "cache",
+        "java",
+        "util",
+        "java",
+        "util",
+        "javax",
+        "xml",
+        "bind",
+        "annotation",
+        "XmlAccessType",
+        "javax",
+        "xml",
+        "bind",
+        "annotation",
+        "XmlAccessorType",
+        "javax",
+        "xml",
+        "bind",
+        "annotation",
+        "XmlType",
+        "org",
+        "kuali",
+        "rice",
+        "core",
+        "v2_0",
+        "CacheTargetType",
+        "XmlAccessorType",
+        "XmlAccessType",
+        "FIELD",
+        "XmlType",
+        "name",
+        "propOrder",
+        "cacheTargets",
+        "cacheTargets",
+        "cacheTargets",
+        "cacheTargets"
+    ],
+    "literals": [
+        "\"flush\"",
+        "\"cacheTargets\""
+    ],
+    "variables": [
+        "cacheTargets"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* <p>Java class for flush complex type.\n * \n * <p>The following schema fragment specifies the expected content contained within this class.\n * \n * <pre>\n * &lt;complexType name=\"flush\">\n *   &lt;complexContent>\n *     &lt;restriction base=\"{http://www.w3.org/2001/XMLSchema}anyType\">\n *       &lt;sequence>\n *         &lt;element name=\"cacheTargets\" type=\"{http://rice.kuali.org/core/v2_0}CacheTargetType\" maxOccurs=\"unbounded\" minOccurs=\"0\"/>\n *       &lt;/sequence>\n *     &lt;/restriction>\n *   &lt;/complexContent>\n * &lt;/complexType>\n * </pre>\n * \n *",
+        "* Gets the value of the cacheTargets property.\n     * \n     * <p>\n     * This accessor method returns a reference to the live list,\n     * not a snapshot. Therefore any modification you make to the\n     * returned list will be present inside the JAXB object.\n     * This is why there is not a <CODE>set</CODE> method for the cacheTargets property.\n     * \n     * <p>\n     * For example, to add a new item, do as follows:\n     * <pre>\n     *    getCacheTargets().add(newItem);\n     * </pre>\n     * \n     * \n     * <p>\n     * Objects of the following type(s) are allowed in the list\n     * {@link CacheTargetType }\n     * \n     *"
+    ],
+    "functions": [
+        "getCacheTargets"
+    ],
+    "classes": [
+        "Flush"
+    ]
+}

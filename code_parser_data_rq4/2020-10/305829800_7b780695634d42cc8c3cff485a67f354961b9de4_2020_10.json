@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "java",
+        "util",
+        "TimerTask",
+        "Storage",
+        "PhyMemory",
+        "frequency",
+        "ram",
+        "memsize",
+        "ram",
+        "ram",
+        "ram",
+        "ram",
+        "addr",
+        "value",
+        "addr",
+        "write_back",
+        "ram",
+        "flush"
+    ],
+    "literals": [],
+    "variables": [
+        "ram"
+    ],
+    "comments": [
+        "10sec",
+        "inherited and accessible to subclass",
+        "func stub for future"
+    ],
+    "docstrings": [
+        "* The constructor creates memory with specified size mem_size and a prepared disk",
+        "* writes specified value into memory at specified position - addr",
+        "* returns value that was stored at address addr",
+        "* write back dirty pages periodically",
+        "* start the background thread to write back dirty pages\n     * at the interval of frequency."
+    ],
+    "functions": [
+        "Memory",
+        "Memory",
+        "PhyMemory",
+        "getPhyMemory",
+        "write",
+        "read",
+        "write_back",
+        "startup",
+        "shutdown"
+    ],
+    "classes": [
+        "Memory"
+    ]
+}

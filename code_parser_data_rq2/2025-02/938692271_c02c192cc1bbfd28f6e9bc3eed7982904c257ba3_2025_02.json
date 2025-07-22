@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "sys",
+        "os",
+        "log_file",
+        "target_date",
+        "output_dir",
+        "os",
+        "makedirs",
+        "output_dir",
+        "exist_ok",
+        "os",
+        "path",
+        "join",
+        "output_dir",
+        "target_date",
+        "open",
+        "log_file",
+        "encoding",
+        "f",
+        "open",
+        "output_file",
+        "encoding",
+        "line",
+        "f",
+        "line",
+        "startswith",
+        "target_date",
+        "write",
+        "line",
+        "target_date",
+        "output_file",
+        "FileNotFoundError",
+        "log_file",
+        "e",
+        "e",
+        "len",
+        "sys",
+        "argv",
+        "sys",
+        "exit",
+        "sys",
+        "argv",
+        "extract_logs",
+        "log_file_path",
+        "date"
+    ],
+    "literals": [
+        "\"output\"",
+        "f\"output_{target_date}.txt\"",
+        "\"r\"",
+        "\"utf-8\"",
+        "\"w\"",
+        "\"utf-8\"",
+        "f\"Logs for {target_date} saved to {output_file}\"",
+        "f\"Error: Log file '{log_file}' not found.\"",
+        "f\"An error occurred: {e}\"",
+        "\"__main__\"",
+        "\"Usage: python extract_logs.py <log_file_path> <YYYY-MM-DD>\"",
+        "\"./logs_2024.log\""
+    ],
+    "variables": [
+        "output_file",
+        "log_file_path",
+        "date"
+    ],
+    "comments": [
+        "Ensure output directory exists",
+        "Efficient date filtering"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Extracts logs for the given date from a large log file.\n\n    Args:\n        log_file (str): Path to the log file.\n        target_date (str): The date to filter logs (YYYY-MM-DD).\n        output_dir (str): Directory to store output files.\n    \"\"\""
+    ],
+    "functions": [
+        "extract_logs"
+    ],
+    "classes": []
+}

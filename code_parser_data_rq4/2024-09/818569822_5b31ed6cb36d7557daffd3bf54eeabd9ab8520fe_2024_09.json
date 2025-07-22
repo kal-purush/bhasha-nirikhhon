@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "withTask",
+        "Laminar",
+        "args",
+        "fn",
+        "args",
+        "Laminar",
+        "sessionId",
+        "associationProperties",
+        "associationProperties",
+        "sessionId",
+        "userId",
+        "associationProperties",
+        "associationProperties",
+        "userId",
+        "withTask",
+        "name",
+        "fn",
+        "fn",
+        "args"
+    ],
+    "literals": [
+        "'@traceloop/node-server-sdk'",
+        "'./laminar'",
+        "string",
+        "string",
+        "string",
+        "'Laminar not initialized. Please call Laminar.initialize(projectApiKey) before using observe.'",
+        "\"session_id\"",
+        "\"user_id\""
+    ],
+    "variables": [
+        "associationProperties"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* The main decorator entrypoint for Laminar. This is used to wrap\n * functions and methods to create spans.\n *\n * @param name - Name of the span. Function name is used if not specified.\n * @param user_id - User ID to associate with the span and the following context.\n * @param session_id - Session ID to associate with the span and the following context.\n * @returns Returns the result of the wrapped function.\n * @throws Exception - Re-throws the exception if the wrapped function throws an exception.\n * \n * @example\n * ```typescript\n * import { observe } from '@lmnr-ai/lmnr';\n * \n * await observe({ name: 'my_function' }, () => {\n *    // Your code here\n * });"
+    ],
+    "functions": [
+        "observe"
+    ],
+    "classes": []
+}

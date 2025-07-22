@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "useToast",
+        "useCallback",
+        "useShowToast",
+        "useToast",
+        "useCallback",
+        "title",
+        "description",
+        "status",
+        "toast",
+        "toast",
+        "showToast",
+        "useShowToast"
+    ],
+    "literals": [
+        "\"@chakra-ui/toast\"",
+        "\"react\""
+    ],
+    "variables": [
+        "useShowToast",
+        "toast",
+        "showToast"
+    ],
+    "comments": [
+        "- This file defines a custom React hook to show toast notifications.\n- It uses the useToast hook from Chakra UI for toast management.\n- The showToast function displays a toast with title, description, and status.\n- Toasts have a fixed duration of 3000 milliseconds and can be manually closed.",
+        "Importing necessary hooks and functions from React and Chakra UI",
+        "Definition of the custom hook useShowToast",
+        "Utilizing the useToast hook from Chakra UI to manage toast notifications",
+        "Using useCallback to memorize the showToast function to prevent unnecessary re-renders",
+        "Invoking the toast function with an object containing the toast properties",
+        "Title of the toast",
+        "Description text of the toast",
+        "Status type (e.g., \"error\", \"success\", \"info\", \"warning\")",
+        "Toast visibility duration in milliseconds",
+        "Whether the toast can be closed manually",
+        "Dependencies of useCallback, re-memorize if `toast` changes",
+        "The hook returns the memorized showToast function",
+        "Exporting the useShowToast hook for use in other parts of the application"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

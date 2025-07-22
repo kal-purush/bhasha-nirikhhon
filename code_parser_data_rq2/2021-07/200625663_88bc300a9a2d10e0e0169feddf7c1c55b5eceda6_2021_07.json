@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "axios",
+        "AxiosInstance",
+        "responseHelper",
+        "ApiResponse",
+        "SearchForProductsResponse",
+        "axios",
+        "searchTerm",
+        "page",
+        "searchTerm",
+        "page",
+        "url",
+        "response",
+        "error",
+        "responseHelper",
+        "error",
+        "ProductsApi"
+    ],
+    "literals": [
+        "'axios'",
+        "'@/api/ResponseHelper'",
+        "'@/api/type/ApiResponse'",
+        "'./model/SearchForProductsResponse.model'",
+        "'/api/tesco/product'",
+        "string",
+        "/search/${searchTerm}/${page}"
+    ],
+    "variables": [
+        "url",
+        "response",
+        "productsApi"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "searchForProducts"
+    ],
+    "classes": [
+        "ProductsApi"
+    ]
+}

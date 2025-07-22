@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "com",
+        "netflix",
+        "titus",
+        "ext",
+        "aws",
+        "javax",
+        "inject",
+        "Inject",
+        "javax",
+        "inject",
+        "Provider",
+        "javax",
+        "inject",
+        "Singleton",
+        "com",
+        "amazonaws",
+        "auth",
+        "AWSCredentialsProvider",
+        "com",
+        "amazonaws",
+        "client",
+        "builder",
+        "AwsClientBuilder",
+        "com",
+        "amazonaws",
+        "services",
+        "securitytoken",
+        "AWSSecurityTokenServiceAsync",
+        "com",
+        "amazonaws",
+        "services",
+        "securitytoken",
+        "AWSSecurityTokenServiceAsyncClientBuilder",
+        "Singleton",
+        "amazonStsAsync",
+        "Inject",
+        "configuration",
+        "credentialProvider",
+        "region",
+        "configuration",
+        "getRegion",
+        "trim",
+        "toLowerCase",
+        "amazonStsAsync",
+        "AWSSecurityTokenServiceAsyncClientBuilder",
+        "standard",
+        "withEndpointConfiguration",
+        "region",
+        "region",
+        "withCredentials",
+        "credentialProvider",
+        "build",
+        "Override",
+        "amazonStsAsync"
+    ],
+    "literals": [
+        "\"sts.\"",
+        "\".amazonaws.com\""
+    ],
+    "variables": [
+        "amazonStsAsync"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2019 Netflix, Inc.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License."
+    ],
+    "functions": [
+        "AmazonStsAsyncProvider",
+        "AWSSecurityTokenServiceAsync",
+        "get"
+    ],
+    "classes": [
+        "AmazonStsAsyncProvider"
+    ]
+}

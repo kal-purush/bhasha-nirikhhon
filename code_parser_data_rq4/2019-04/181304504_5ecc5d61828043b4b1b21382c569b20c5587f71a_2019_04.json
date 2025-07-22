@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "getFlagList",
+        "prettyjson",
+        "Items",
+        "formatResponse",
+        "expect",
+        "createSummaryData",
+        "createBarGraphData",
+        "describe",
+        "it",
+        "getFlagList",
+        "formatResponse",
+        "data",
+        "flagList",
+        "createBarGraphData",
+        "flagList"
+    ],
+    "literals": [
+        "'../src/utils/getFlagList'",
+        "'circular-json'",
+        "'prettyjson'",
+        "'../src/utils/types/featureFlagDataModel'",
+        "'../src/utils/formatResponse'",
+        "'chai'",
+        "'../src/utils/createSummaryData'",
+        "'../src/utils/createBarGraphData'",
+        "'Integration test for getFlagList()'",
+        "'should create bar graph data'"
+    ],
+    "variables": [
+        "data",
+        "flagList"
+    ],
+    "comments": [
+        "it('should bring data', async () => {",
+        "const data: Items = await getFlagList();",
+        "// console.log(formatResponse(data))",
+        "expect(data.items.length).to.be.gte(1);",
+        "})",
+        "it('should create summary data', async () => {",
+        "const data: Items = await getFlagList();",
+        "const flagList = formatResponse(data);",
+        "console.log(flagList)",
+        "console.log(createSummaryData(flagList))",
+        "})"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

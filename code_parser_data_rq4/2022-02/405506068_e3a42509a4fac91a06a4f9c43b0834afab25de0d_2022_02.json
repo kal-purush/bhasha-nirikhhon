@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Xunit",
+        "ChangeDB",
+        "Agent",
+        "Postgres",
+        "sqlFile",
+        "database",
+        "host",
+        "port",
+        "user",
+        "password",
+        "password",
+        "Environment",
+        "CurrentDirectory",
+        "host",
+        "port",
+        "user",
+        "database",
+        "sqlFile",
+        "Shell",
+        "Exec",
+        "arguments"
+    ],
+    "literals": [
+        "\"host.docker.internal\"",
+        "\"postgres\"",
+        "\"mypassword\"",
+        "\"docker\""
+    ],
+    "variables": [
+        "arguments"
+    ],
+    "comments": [
+        "docker run -e PGPASSWORD=mypassword -v C:\\Users\\Administrator\\Source\\Repos\\changedb\\test\\ChangeDB.Agent.Postgres.UnitTest\\bin\\Debug\\net5:/app --rm postgres psql -h host.docker.internal -p 44201 -U postgres  -d testdb_084017 -f /app/dump_fq52xi3b.03v.sql"
+    ],
+    "docstrings": [],
+    "functions": [
+        "PSql"
+    ],
+    "classes": [
+        "PostgresCommand"
+    ]
+}

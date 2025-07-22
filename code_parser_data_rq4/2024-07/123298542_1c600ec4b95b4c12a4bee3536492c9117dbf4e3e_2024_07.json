@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "unicode_literals",
+        "django",
+        "db",
+        "migrations",
+        "migrations",
+        "Migration",
+        "migrations",
+        "RunSQL"
+    ],
+    "literals": [
+        "'addons_googledrive'",
+        "'0005_remove_duplicated_file'"
+    ],
+    "variables": [
+        "dependencies",
+        "operations"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "\"\"\"\n                CREATE UNIQUE INDEX osf_googledrive_file_unique_index\n                ON osf_basefilenode(target_object_id, type, _path)\n                WHERE type IN ('osf.googledrivefile', 'osf.googledrivefolder');\n                \"\"\"",
+        "\"\"\"\n                DROP INDEX osf_googledrive_file_unique_index RESTRICT;\n                \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "Migration"
+    ]
+}

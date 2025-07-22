@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "Events",
+        "uri",
+        "uri",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "Server running at: ${uri}",
+        "\"Server registered for Service Discovery.\"",
+        "\"Server unregistered from Service Discovery.\"",
+        "\"Can't register for Service Discovery.\"",
+        "\"Can't unregister from Service Discovery.\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "onServerRunning",
+        "onServiceRegistered",
+        "onServiceUnregistered",
+        "onServiceRegisterError",
+        "onServiceUnregisterError"
+    ],
+    "classes": []
+}

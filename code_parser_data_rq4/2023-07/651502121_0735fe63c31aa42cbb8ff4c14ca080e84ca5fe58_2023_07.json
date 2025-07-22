@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "typing",
+        "psycopg",
+        "settings",
+        "POSTGRES_DB",
+        "POSTGRES_USER",
+        "POSTGRES_PASSWORD",
+        "POSTGRES_HOST",
+        "POSTGRES_PORT",
+        "POSTGRES_DB",
+        "POSTGRES_USER",
+        "POSTGRES_PASSWORD",
+        "POSTGRES_HOST",
+        "POSTGRES_PORT",
+        "psycopg",
+        "connect",
+        "conninfo",
+        "aconn",
+        "aconn",
+        "cursor",
+        "cur",
+        "cur",
+        "execute",
+        "aconn",
+        "commit"
+    ],
+    "literals": [
+        "f\"dbname={POSTGRES_DB} user={POSTGRES_USER} password={POSTGRES_PASSWORD} host={POSTGRES_HOST} port={POSTGRES_PORT}\"",
+        "\"INSERT INTO executions(datetime) VALUES(NOW())\""
+    ],
+    "variables": [
+        "conninfo"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n        Insert into database the datetime informing the time when the spider started\n        \"\"\""
+    ],
+    "functions": [
+        "execution_datetime"
+    ],
+    "classes": [
+        "PostgresDB"
+    ]
+}

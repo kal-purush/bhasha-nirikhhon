@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "com",
+        "mockito",
+        "test",
+        "org",
+        "junit",
+        "Assert",
+        "assertNotNull",
+        "org",
+        "junit",
+        "Test",
+        "org",
+        "junit",
+        "runner",
+        "RunWith",
+        "org",
+        "mockito",
+        "InjectMocks",
+        "org",
+        "mockito",
+        "Mock",
+        "org",
+        "mockito",
+        "Spy",
+        "org",
+        "mockito",
+        "runners",
+        "MockitoJUnitRunner",
+        "testClases",
+        "PlantWaterer",
+        "testClases",
+        "WaterSource",
+        "testClases",
+        "WateringScheduler",
+        "RunWith",
+        "Mock",
+        "waterSourceMock",
+        "Spy",
+        "wateringSchedulerSpy",
+        "InjectMocks",
+        "plantWaterer",
+        "Test",
+        "assertNotNull",
+        "plantWaterer",
+        "getWateringScheduler",
+        "assertNotNull",
+        "plantWaterer",
+        "getWaterSource"
+    ],
+    "literals": [],
+    "variables": [
+        "waterSourceMock",
+        "wateringSchedulerSpy",
+        "plantWaterer"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* injectMocks annotation simplifies mock and spy injection. It can inject\n * objects using constructor injection, setter injection or field injection.\n * \n * @author MXPCL\n *",
+        "* Creates a mock of a given type",
+        "* Creates a spy of a given object",
+        "* Creates an object of a given type and injects mocks and spies existing in\n\t * a test"
+    ],
+    "functions": [
+        "shouldInjectMocks"
+    ],
+    "classes": [
+        "MockInjectingTest"
+    ]
+}

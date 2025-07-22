@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "require",
+        "RollingSpider",
+        "rollingSpider",
+        "rollingSpider",
+        "rollingSpider"
+    ],
+    "literals": [
+        "'use strict'",
+        "\"rolling-spider\""
+    ],
+    "variables": [
+        "RollingSpider",
+        "rollingSpider"
+    ],
+    "comments": [
+        "testing flying the rolling spider drone",
+        "",
+        "var temporal = require('temporal');",
+        "rollingSpider.flatTrim();",
+        "rollingSpider.flatTrim();",
+        "temporal.queue([",
+        "{",
+        "delay: 5000,",
+        "task: function () {",
+        "rollingSpider.takeOff();",
+        "rollingSpider.flatTrim();",
+        "}",
+        "},",
+        "/*{",
+        "delay: 2000,",
+        "task: function () {",
+        "rollingSpider.forward();",
+        "}",
+        "},*/",
+        "{",
+        "delay: 5000,",
+        "task: function () {",
+        "rollingSpider.land();",
+        "}",
+        "},",
+        "{",
+        "delay: 5000,",
+        "task: function () {",
+        "temporal.clear();",
+        "process.exit(0);",
+        "}",
+        "}",
+        "]);",
+        ""
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

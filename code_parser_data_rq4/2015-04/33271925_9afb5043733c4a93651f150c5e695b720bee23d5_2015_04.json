@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "reporters",
+        "name",
+        "options",
+        "reporters",
+        "logDebug",
+        "args",
+        "getAvailable",
+        "getInputCreator",
+        "name",
+        "getOutput",
+        "name",
+        "options",
+        "getOutputs",
+        "filterOrUpdate",
+        "messages",
+        "wrapReporter",
+        "sourceName",
+        "reporterCreator",
+        "options",
+        "report",
+        "messages",
+        "reporters"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "debug",
+        "output"
+    ],
+    "comments": [
+        "<reference path=\"../../typings/source-map/source-map.d.ts\" />",
+        "Create a reporter for a specific node module, messages are captured and send to the output.\n* @param name name of the internal reporter that captures messages\n* @param options Optional options for this reporter",
+        "Collection of reporters the gather information of different node modules in a uniform way to log them all in the same format.",
+        "Enable debug messages",
+        "Function or array of functions that can handle messages.\n    * Assign one or more results from getOutput(...)",
+        "Get a list of availabe built-in reporters that create messages",
+        "Get function that creates a reporter for a node module\n    * @param name name of the reporter to return a create method for",
+        "Get a preconfigured function that handles messages by name\n    * Use reporters.getOutputs() to get a list of available outputs.\n    * @param name name of the internal output handler to load that will report messages\n    * @param options Optional options for this output",
+        "Get a list of available functions that can handle messages",
+        "Called before reporting\n    * This is your change to filter or update messages",
+        "Report messages to the configured outputs\n    * @param messages a list of messages that should be handled by the output (list)."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Plugin",
+        "Cordova",
+        "IonicNativePlugin",
+        "Plugin",
+        "Injectable",
+        "IonicNativePlugin",
+        "Cordova",
+        "imageData",
+        "options"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@ionic-native/core'",
+        "string",
+        "string",
+        "'OpenALPR'",
+        "'cordova-plugin-openalpr'",
+        "'cordova.plugins.OpenALPR'",
+        "'https://github.com/iMicknl/cordova-plugin-openalpr'",
+        "'Android'",
+        "'iOS'",
+        "'eu'",
+        "'us'",
+        "'au'",
+        "'br'",
+        "'kr2'"
+    ],
+    "variables": [],
+    "comments": [
+        "Country used for scanning the license plate",
+        "Amount of results returned",
+        "LicensePlate",
+        "Probability"
+    ],
+    "docstrings": [
+        "* @name OpenALPR\n * @description\n * This Cordova plugin adds support for the OpenALPR (Automatic License Plate Recognition) library, which provides support for retrieving the license plate from a picture. \n *\n * @usage\n * ```typescript\n * import { OpenALPR, OpenALPROptions, OpenALPRResult } from '@ionic-native/openalpr';\n *\n *\n * constructor(private openALPR: OpenALPR) { }\n *\n * const scanOptions: OpenALPROptions = {\n *    country: this.openALPR.Country.EU,\n *    amount: 3\n * }\n *\n * this.openALPR.scan(imageData, scanOptions)\n *   .then((res: [OpenALPRResult]) => console.log(res))\n *   .catch((error: Error) => console.error(error));\n *\n * ```",
+        "* This function does something\n   * @param imageData {any} Base64 encoding of the image data or the image file URI\n   * @param options {OpenALPROptions} Options to pass to the OpenALPR scanner\n   * @return {Promise<any>} Returns a promise that resolves when something happens"
+    ],
+    "functions": [
+        "scan"
+    ],
+    "classes": [
+        "OpenALPR"
+    ]
+}

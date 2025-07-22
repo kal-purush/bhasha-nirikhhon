@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Sithouse",
+        "ISql",
+        "host",
+        "port"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "The interface between all database types. Each format must implement each of these.",
+        "</summary>",
+        "The format for use in the properties file",
+        "</summary>",
+        "<returns>The format name.</returns>",
+        "Here im thinking we have an open connection so we aren't always opening connections\n\t\t * The remote sql server could potentially be on the other side of the world",
+        "Opens a connection to the sql database",
+        "</summary>",
+        "<returns><c>true</c>, if connection was opened, <c>false</c> otherwise.</returns>",
+        "Checks to see if our connection is closed. If it's closed then it will reopen",
+        "</summary>",
+        "<returns>False when no connection, True when a live connection is established</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "GetFormat",
+        "CloseConnection",
+        "OpenConnection",
+        "CheckConnection"
+    ],
+    "classes": []
+}

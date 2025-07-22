@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "angular",
+        "skyEllipsisDirective",
+        "skyEllipsisDirective",
+        "$rootScope",
+        "link",
+        "scope",
+        "element",
+        "element",
+        "element",
+        "element",
+        "element",
+        "wrapped",
+        "angular",
+        "element",
+        "word",
+        "maxHeight",
+        "word",
+        "word",
+        "overflowingElements",
+        "word",
+        "last",
+        "word",
+        "overflowingElements",
+        "angular",
+        "overflowingElements",
+        "ele",
+        "ele",
+        "lastElement",
+        "angular",
+        "lastElement",
+        "directive"
+    ],
+    "literals": [
+        "'use strict'",
+        "'skyEllipsis'",
+        "'skyEllipsis'",
+        "'$rootScope'",
+        "'E'",
+        "'display'",
+        "'block'",
+        "'height'",
+        "'100%'",
+        "'position'",
+        "'relative'",
+        "\"<span>$&</span>\"",
+        "'span'",
+        "'none'",
+        "'<span class=\"dotdotdot\">...</span>'"
+    ],
+    "variables": [
+        "directive",
+        "wrapped",
+        "maxHeight",
+        "overflowingElements",
+        "lastElement"
+    ],
+    "comments": [
+        "These styles must be present",
+        "Wrap each word in a span",
+        "Cache the maxHeight of the box",
+        "(re) set the content to the wrapped content",
+        "Loop through all the spans",
+        "if it is not visible at calc-time, push into hideElement-array",
+        "otherwise - keep reference to last-word (for replacing)",
+        "Hide overflowing elements",
+        "Replace last visible element with ..."
+    ],
+    "docstrings": [
+        "* Angular-component for multi-line text-ellipsis\n\t *\n\t * <sky-ellipsis>Lots of text goes here</sky-ellipsis>\n\t * \n\t * Dont put styles on this element - use wrapper to set height, padding, etc. \n\t *\n\t *"
+    ],
+    "functions": [
+        "skyEllipsisDirective",
+        "link",
+        "calculate"
+    ],
+    "classes": []
+}

@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "exec",
+        "IInitCmdOptions",
+        "IState",
+        "state",
+        "cmd",
+        "cmd",
+        "exec",
+        "code",
+        "code",
+        "exec"
+    ],
+    "literals": [
+        "'shelljs'",
+        "'./activities/preferences'",
+        "'./i-state'",
+        "'Starting `npm install`'",
+        "npm i",
+        "npm exit code: ${code}",
+        "'Npm init done'",
+        "'which docker'"
+    ],
+    "variables": [
+        "code"
+    ],
+    "comments": [
+        "return new Promise<void>((resolve) => {"
+    ],
+    "docstrings": [],
+    "functions": [
+        "init",
+        "dockerCheck"
+    ],
+    "classes": [
+        "Npm"
+    ]
+}

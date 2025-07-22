@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "mongoose",
+        "connectDB",
+        "process",
+        "mongoose",
+        "mongoose",
+        "process"
+    ],
+    "literals": [
+        "'mongoose'",
+        "'development'",
+        "'mongodb://localhost:27017/random-user-api-serverless'",
+        "mongodb+srv://yeukfei02:${process.env.MONGO_ATLAS_PASSWORD}@randomuserapiserverless.mwprw.mongodb.net/test?retryWrites=true&w=majority"
+    ],
+    "variables": [
+        "connectDB"
+    ],
+    "comments": [
+        "mongo local db",
+        "mongo atlas"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

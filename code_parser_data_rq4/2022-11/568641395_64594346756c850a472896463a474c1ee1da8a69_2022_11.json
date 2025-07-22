@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "twentyone",
+        "twentyone",
+        "setTimeout",
+        "twentyone",
+        "setInterval",
+        "parseInt",
+        "twentyone",
+        "parseInt",
+        "drake",
+        "drakeLeft",
+        "drakeLeft",
+        "twentyoneTop",
+        "alert",
+        "jump",
+        "jump"
+    ],
+    "literals": [
+        "\"twentyone\"",
+        "\"drake\"",
+        "\"jump\"",
+        "\"jump\"",
+        "\"jump\"",
+        "\"top\"",
+        "\"left\"",
+        "\"Drake got you! It's over!\"",
+        "\"keydown\"",
+        "\"click\""
+    ],
+    "variables": [
+        "twentyone",
+        "drake",
+        "isAlive",
+        "twentyoneTop",
+        "drakeLeft"
+    ],
+    "comments": [
+        "only adds jump if twentyone classlist doesnt have jump. otherwise gives us false and this doesnt happen",
+        "removes css animation 'jump' after 300ms so you can keep pressing key",
+        "detecting collision or alive",
+        "isAlive performs the function every 10 ms",
+        "gets position of your two things",
+        "gets the top y position of 21 as an integer",
+        "gets the left x value of drake",
+        "detect collision by seeing if drake is somewhere in 21 pixels (between 0-100px)\n    detect if dino y position overlap with drake y?",
+        "collision",
+        "jump on keydown",
+        "jump on click"
+    ],
+    "docstrings": [],
+    "functions": [
+        "jump"
+    ],
+    "classes": []
+}

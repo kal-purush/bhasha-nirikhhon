@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "org",
+        "mamute",
+        "migration",
+        "all",
+        "org",
+        "mamute",
+        "migration",
+        "MigrationOperation",
+        "org",
+        "mamute",
+        "migration",
+        "RawSQLOperation",
+        "org",
+        "mamute",
+        "migration",
+        "SchemaMigration",
+        "javax",
+        "enterprise",
+        "context",
+        "ApplicationScoped",
+        "java",
+        "util",
+        "ApplicationScoped",
+        "Override",
+        "q1",
+        "q2",
+        "RawSQLOperation",
+        "forSqls",
+        "q1",
+        "q2",
+        "Override",
+        "RawSQLOperation",
+        "forSqls"
+    ],
+    "literals": [
+        "\"alter table Users add column receiveAllUpdates tinyint(1) default false\"",
+        "\"update Users set receiveAllUpdates=false\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "M013AddReceiveAllUpdatesToUser"
+    ]
+}

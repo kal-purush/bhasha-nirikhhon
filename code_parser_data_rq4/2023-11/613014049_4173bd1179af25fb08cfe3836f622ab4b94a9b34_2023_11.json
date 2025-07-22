@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "message",
+        "httpStatusCode",
+        "message",
+        "httpStatusCode",
+        "CustomError",
+        "CustomError"
+    ],
+    "literals": [
+        "string",
+        "\"CustomError\""
+    ],
+    "variables": [],
+    "comments": [
+        "Define our httpStatusCode which we can pass through since we don't innately have httpStatusCode",
+        "Constructor to instantiate the Custom Error class"
+    ],
+    "docstrings": [
+        "* Author : Nothile\n * Date Created : 01/11/2023\n * License : MIT\n * \n * This is the error class. It defines a custom error class which has httpStatusCode inside of it\n * We do this so we can handle our 500 responses properly and render the appropriate view using express\n * \n * @class CustomError"
+    ],
+    "functions": [],
+    "classes": [
+        "CustomError"
+    ]
+}

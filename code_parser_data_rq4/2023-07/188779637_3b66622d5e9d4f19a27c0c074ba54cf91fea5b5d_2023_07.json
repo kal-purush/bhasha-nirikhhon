@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "org",
+        "apache",
+        "streampark",
+        "common",
+        "serialVersionUID",
+        "pos",
+        "value",
+        "pos"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Licensed to the Apache Software Foundation (ASF) under one\n * or more contributor license agreements.  See the NOTICE file\n * distributed with this work for additional information\n * regarding copyright ownership.  The ASF licenses this file\n * to you under the Apache License, Version 2.0 (the\n * \"License\"); you may not use this file except in compliance\n * with the License.  You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* The base class of all tuples. Tuples have a fix length and contain a set of fields, which may all\n * be of different types. Because Tuples are strongly typed, each distinct tuple length is\n * represented by its own class. Tuples exists with up to 25 fields and are described in the classes\n * {@link Tuple1} to {@link Tuple4}.\n *\n * <p>The fields in the tuples may be accessed directly a public fields, or via position (zero\n * indexed) {@link #get(int)}.\n *\n * <p>Tuples are in principle serializable. However, they may contain non-serializable fields, in\n * which case serialization will fail.",
+        "* Gets the field at the specified position.\n   *\n   * @param pos The position of the field, zero indexed.\n   * @return The field at the specified position.\n   * @throws IndexOutOfBoundsException Thrown, if the position is negative, or equal to, or larger\n   *     than the number of fields.",
+        "* Sets the field at the specified position.\n   *\n   * @param value The value to be assigned to the field at the specified position.\n   * @param pos The position of the field, zero indexed.\n   * @throws IndexOutOfBoundsException Thrown, if the position is negative, or equal to, or larger\n   *     than the number of fields.",
+        "* Shallow tuple copy.\n   *\n   * @return A new Tuple with the same fields as this."
+    ],
+    "functions": [
+        "T",
+        "get",
+        "T",
+        "copy"
+    ],
+    "classes": [
+        "Tuple"
+    ]
+}

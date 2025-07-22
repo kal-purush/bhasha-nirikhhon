@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "ReadingService",
+        "GraphComp",
+        "moment",
+        "_",
+        "Component",
+        "GraphComp",
+        "Input",
+        "Input",
+        "Readings",
+        "moment",
+        "moment",
+        "$",
+        "initialRange",
+        "ui",
+        "_",
+        "_",
+        "readings",
+        "readings"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./ReadingService'",
+        "'./GraphComp'",
+        "'moment'",
+        "'lodash'",
+        "'graph-paginator'",
+        "<div>\n      <div>\n        <span>Current:</span>&nbsp;\n        <strong>{{currentRangeAsDate.start | date}}</strong> &mdash; <strong>{{currentRangeAsDate.end | date}}</strong>\n      </div>\n      <div>\n        <div style='float: left; padding-right: 15px;'>{{range.start|date}}</div>\n        <div class=\"slider\" style=\"width: 400px; float: left\"></div>\n        <div style='float: left; padding-left: 15px;'>{{range.end|date}}</div>\n        <br style='clear: both'>\n      </div>\n      <div>\n      <graph-graph [data]=\"data\"></graph-graph>\n      </div>\n    </div>",
+        "'weeks'",
+        "\".slider\"",
+        "\"values\""
+    ],
+    "variables": [
+        "initialRange"
+    ],
+    "comments": [
+        "this.Readings.dataStream.skip(1).subscribe(this.readingsChanged.bind(this));",
+        "1 nap"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngAfterContentInit",
+        "sliderChanged"
+    ],
+    "classes": [
+        "GraphPaginator"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "os",
+        "jinja2",
+        "os",
+        "path",
+        "join",
+        "os",
+        "path",
+        "dirname",
+        "repo_root_path",
+        "TEMPLATE_FILE",
+        "repo_root_path",
+        "OUTPUT_FILE",
+        "open",
+        "template_path",
+        "f",
+        "f",
+        "read",
+        "jinja2",
+        "Template",
+        "template_content",
+        "template",
+        "render",
+        "open",
+        "output_path",
+        "f",
+        "f",
+        "write",
+        "config_yaml",
+        "os",
+        "chmod",
+        "output_path"
+    ],
+    "literals": [
+        "\"config.yaml.j2\"",
+        "\"config.yaml\"",
+        "\"../\"",
+        "'w'"
+    ],
+    "variables": [
+        "TEMPLATE_FILE",
+        "OUTPUT_FILE",
+        "repo_root_path",
+        "template_path",
+        "output_path",
+        "template_content",
+        "template",
+        "config_yaml"
+    ],
+    "comments": [
+        "!/usr/bin/env python"
+    ],
+    "docstrings": [
+        "\"\"\"\nRun `config.yaml.j2` template through Jinja to generate `config.yaml` for use by the application\n\nUsage:\n    scripts/generate-config-yaml.py\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

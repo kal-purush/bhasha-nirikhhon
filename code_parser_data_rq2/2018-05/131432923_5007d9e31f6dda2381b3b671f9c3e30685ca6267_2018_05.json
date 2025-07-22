@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "firebase",
+        "config",
+        "firebase",
+        "registerMatricesListeners",
+        "matrices",
+        "matrixId",
+        "index",
+        "firestore",
+        "matrixId",
+        "doc",
+        "doc",
+        "doc",
+        "generateHtmlForMatrix",
+        "matrix",
+        "matrix",
+        "matrix",
+        "r",
+        "matrix",
+        "r",
+        "c",
+        "matrix",
+        "c",
+        "c",
+        "matrix",
+        "r",
+        "tempStr",
+        "matrix",
+        "patternIndex",
+        "tempStr"
+    ],
+    "literals": [
+        "\"AIzaSyB8TYS3-6xV76_YhpD0zmYFPq8JtMBXeo8\"",
+        "\"wot-1819.firebaseapp.com\"",
+        "\"https://wot-1819.firebaseio.com\"",
+        "\"wot-1819\"",
+        "\"wot-1819.appspot.com\"",
+        "\"827619480457\"",
+        "'2eUypCyuAFOY6Kt0rM3k'",
+        "\"matrices\"",
+        "'.matrices-container'",
+        "<div class=\"ledmatrix\" style=\"grid-template-columns: repeat(${ matrix.nCols }, 1fr);\">",
+        "<div>\n  <div class=\"led\" style=\"background:rgb${matrix.pattern[patternIndex]}\">\n  </div>\n</div>",
+        "'</div>'"
+    ],
+    "variables": [
+        "config",
+        "firestore",
+        "matrices",
+        "id",
+        "matrix",
+        "tempStr",
+        "r",
+        "c",
+        "patternIndex"
+    ],
+    "comments": [
+        "Listen for document metadata changes"
+    ],
+    "docstrings": [],
+    "functions": [
+        "registerMatricesListeners",
+        "generateHtmlForMatrix"
+    ],
+    "classes": []
+}

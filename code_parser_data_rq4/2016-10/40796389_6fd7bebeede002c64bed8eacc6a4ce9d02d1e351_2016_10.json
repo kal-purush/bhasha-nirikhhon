@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "utils",
+        "TranspileTestCase",
+        "TranspileTestCase",
+        "assertCodeExecution",
+        "assertCodeExecution",
+        "assertCodeExecution"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n            class MyObject:\n                def getter(self):\n                    print(\"Got attribute\")\n                    return 1234\n\n                attr = property(getter)\n\n            obj = MyObject()\n            print(\"obj.attr =\", obj.attr)\n\n            try:\n                obj.attr = 2345\n                print(\"Shouldn't be able to set attribute.\")\n            except AttributeError:\n                print(\"Couldn't set attribute.\")\n\n            try:\n                del obj.attr\n                print(\"Shouldn't be able to delete attribute.\")\n            except AttributeError:\n                print(\"Couldn't delete attribute.\")\n\n            print(\"Done.\")\n            \"\"\"",
+        "\"\"\"\n            class MyObject:\n                def __init__(self):\n                    self._attr = None\n\n                def getter(self):\n                    print(\"Got attribute\")\n                    return self._attr\n\n                def setter(self, value):\n                    print(\"Setting attribute\")\n                    self._attr = value * 2\n                    print(\"Attribute set\")\n\n                attr = property(getter, setter)\n\n            obj = MyObject()\n            print(\"obj.attr =\", obj.attr)\n            obj.attr = 2345\n            print(\"obj.attr =\", obj.attr)\n\n            try:\n                del obj.attr\n                print(\"Shouldn't be able to delete attribute.\")\n            except AttributeError:\n                print(\"Couldn't delete attribute.\")\n\n            print(\"Done.\")\n            \"\"\"",
+        "\"\"\"\n            class MyObject:\n                def __init__(self):\n                    self._attr = None\n\n                def getter(self):\n                    print(\"Got attribute\")\n                    return self._attr\n\n                def setter(self, value):\n                    print(\"Setting attribute\")\n                    self._attr = value * 2\n                    print(\"Attribute set\")\n\n                def deleter(self, value):\n                    print(\"Setting attribute\")\n                    self._attr = value * 2\n                    print(\"Attribute set\")\n\n                attr = property(getter)\n\n            obj = MyObject()\n            print(\"obj.attr =\", obj.attr)\n            obj.attr = 2345\n            print(\"obj.attr =\", obj.attr)\n            del obj.attr\n            print(\"obj.attr =\", obj.attr)\n            print(\"Done.\")\n            \"\"\""
+    ],
+    "functions": [
+        "test_getter",
+        "test_getter_and_setter",
+        "test_getter_and_setter_and_deleter"
+    ],
+    "classes": [
+        "DescriptorTests"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "alert",
+        "prompt",
+        "$",
+        "$nameDisplay",
+        "playerName",
+        "renderNameDisplay",
+        "$",
+        "$displayQuestion",
+        "$",
+        "$",
+        "$",
+        "next",
+        "nextButton",
+        "$",
+        "q",
+        "$qArray",
+        "$qArray",
+        "$",
+        "$qArray",
+        "q",
+        "q",
+        "q",
+        "$qArray",
+        "$",
+        "nextButton"
+    ],
+    "literals": [
+        "\"i iz loaded...\"",
+        "\"Welcome to the Parks and Recreation Trivia game!\"",
+        "\"Welcome, \"",
+        "\"Woah, woah, woah! Where's the fire? Let's get to know each other. Tell me your name.\"",
+        "\"!\"",
+        "'#name-display'",
+        "'.questions'",
+        "'.questions:nth-child(1)'",
+        "'.next-button'",
+        "'click'",
+        "'.questions'",
+        "'.next-button'",
+        "'Submit Answers'"
+    ],
+    "variables": [
+        "playerName",
+        "$nameDisplay",
+        "$qArray",
+        "q"
+    ],
+    "comments": [
+        "welcome player",
+        "display player name with prompt",
+        "display player name in h2",
+        "menu buttons",
+        "display questions",
+        "next.preventDefault();",
+        "after clicking next button, show next question",
+        "if answer is correct, alert \"correct\"",
+        "if answer is incorrect, alert \"incorrect\", try again?",
+        ""
+    ],
+    "docstrings": [],
+    "functions": [
+        "renderNameDisplay",
+        "nextButton"
+    ],
+    "classes": []
+}

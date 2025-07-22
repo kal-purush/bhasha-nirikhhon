@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "fr",
+        "umlv",
+        "javainside",
+        "java",
+        "lang",
+        "reflect",
+        "RecordComponent",
+        "java",
+        "util",
+        "Arrays",
+        "java",
+        "util",
+        "stream",
+        "Collectors",
+        "record",
+        "t",
+        "record",
+        "getClass",
+        "tab",
+        "t",
+        "getRecordComponents",
+        "Arrays",
+        "stream",
+        "tab",
+        "RecordComponent",
+        "getName",
+        "collect",
+        "Collectors",
+        "joining",
+        "args",
+        "person",
+        "toJSON",
+        "person",
+        "alien",
+        "toJSON",
+        "alien"
+    ],
+    "literals": [
+        "\",\"",
+        "\"John\"",
+        "\"Doe\"",
+        "\"Saturn\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "public static String toJSON(Person person) {\n        return \"\"\"\n      {\n        \"firstName\": \"%s\",\n        \"lastName\": \"%s\"\n      }\n      \"\"\".formatted(person.firstName(), person.lastName());\n    }\n\n    public static String toJSON(Alien alien) {\n        return \"\"\"\n      {\n        \"age\": %s,\n        \"planet\": \"%s\"\n      }\n      \"\"\".formatted(alien.age(), alien.planet());\n    }"
+    ],
+    "functions": [
+        "toJSON",
+        "main"
+    ],
+    "classes": [
+        "JSONPrinter"
+    ]
+}

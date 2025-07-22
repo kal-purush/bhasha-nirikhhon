@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "division",
+        "time",
+        "os",
+        "os",
+        "popen",
+        "read",
+        "split",
+        "i",
+        "len",
+        "rawCommand",
+        "rawCommand",
+        "i",
+        "i",
+        "round",
+        "rawCommand",
+        "valueIndex",
+        "round",
+        "rawCommand",
+        "valueIndex",
+        "os",
+        "popen",
+        "totalStorage",
+        "os",
+        "popen",
+        "full",
+        "time",
+        "sleep"
+    ],
+    "literals": [
+        "\"Starting...\"",
+        "\"df | grep '/dev/sdc1'\"",
+        "' '",
+        "\"\"",
+        "\"echo \"",
+        "\" > /home/pieter/.XmobarValues/totalStorage\"",
+        "\"echo \"",
+        "\" > /home/pieter/.XmobarValues/full\""
+    ],
+    "variables": [
+        "rawCommand",
+        "valueIndex",
+        "valueIndex",
+        "totalStorage",
+        "full"
+    ],
+    "comments": [
+        "!/usr/bin/python",
+        "-----STORAGE-----",
+        "print rawCommand",
+        "print valueIndex, rawCommand[valueIndex]",
+        "save total storage",
+        "save full storage",
+        "print totalStorage, int(totalStorage)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

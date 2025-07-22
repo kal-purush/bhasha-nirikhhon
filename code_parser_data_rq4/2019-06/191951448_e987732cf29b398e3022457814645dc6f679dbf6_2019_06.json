@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "enlace",
+        "descripcion",
+        "enlace",
+        "descripcion",
+        "elemento",
+        "x",
+        "x",
+        "x",
+        "cadena",
+        "x",
+        "x",
+        "cadena",
+        "elemento",
+        "cadena"
+    ],
+    "literals": [
+        "'<div>'",
+        "<a href=\"${this.enlaces[x]}\">${this.descripcion[x]}</a><br>",
+        "'</div>'"
+    ],
+    "variables": [
+        "x",
+        "cadena"
+    ],
+    "comments": [
+        "método que se ejecuta al crear una nueva instancia de Menú",
+        "Se recibe el enlace y descripción del enlace que deseamos agregar al menú",
+        "Se agrega el enlace recibido en la lista de enlaces",
+        "Se agrega la descripción recibida en la lista de descripciones",
+        "Se recibe el Id del elemento donde se desea cargar el menú generado",
+        "Se declara el contador",
+        "Se declara la cadena donde se irá armando el HTML del menú",
+        "Por cada enlace",
+        "Se utilizan las comillas invertidas para utilizar el valor del elemento con ${}",
+        "Se inserta el menú armado en el elemento HTML definido por su Identificador"
+    ],
+    "docstrings": [],
+    "functions": [
+        "insertar",
+        "mostrar"
+    ],
+    "classes": [
+        "Menu"
+    ]
+}

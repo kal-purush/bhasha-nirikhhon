@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "functions",
+        "firestore",
+        "firestore",
+        "exports",
+        "functions",
+        "change",
+        "context",
+        "change",
+        "change",
+        "context",
+        "change",
+        "change",
+        "change",
+        "location",
+        "location"
+    ],
+    "literals": [
+        "'firebase-functions'",
+        "\"firebase\"",
+        "string",
+        "string",
+        "'locations/{locationid}'",
+        "\"Exiting comment count as not an add or delete\"",
+        "Updating location ${context.params.locationid}",
+        "\"No comment found in change\"",
+        "Loc name ${location.name}"
+    ],
+    "variables": [
+        "location"
+    ],
+    "comments": [
+        "import * as admin from 'firebase-admin'",
+        "import  '../../../service-account.json'",
+        "import { app } from 'firebase-admin';",
+        "Exit if this is not a create or delete event",
+        "snapshot.ref.update({ distanceInMiles: 1000})"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

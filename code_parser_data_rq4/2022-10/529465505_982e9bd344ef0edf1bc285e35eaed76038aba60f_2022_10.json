@@ -1,0 +1,16 @@
+{
+    "identifiers": [
+        "kang",
+        "section_13stacks"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* What dose the following code fragment print when N is 50? Give a high-level description of\n * what it does when presented with a positive integer N.\n * <pre>{@code\n * Stack<Integer> stack = new Stack<Integer>();\n * while(N > 0)\n * {\n *      stack.push(N % 2);\n *      N = N / 2;\n * }\n * for (int d : stack) StdOut.print(d);\n * StdOut.println();\n * }</pre>\n *\n * @Answer: Prints the binary representation of N (110010 when N is 50)\n * 输出 N 的二进制。"
+    ],
+    "functions": [],
+    "classes": [
+        "Ex_1_3_05"
+    ]
+}

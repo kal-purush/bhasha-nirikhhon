@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "OpenTelemetry",
+        "Metrics",
+        "MeterProviderBuilder",
+        "builder",
+        "builder",
+        "ArgumentNullException",
+        "nameof",
+        "builder",
+        "builder",
+        "AddMeter",
+        "NRuuviTag",
+        "Telemetry",
+        "MeterName"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Extensions for observing NRuuviTag metrics.",
+        "</summary>",
+        "Adds NRuuviTag metrics instrumentation to the <see cref=\"MeterProviderBuilder\"/>.",
+        "</summary>",
+        "<param name=\"builder\">",
+        "The <see cref=\"MeterProviderBuilder\"/>.",
+        "</param>",
+        "<returns>",
+        "The <see cref=\"MeterProviderBuilder\"/>.",
+        "</returns>",
+        "<exception cref=\"ArgumentNullException\">",
+        "<paramref name=\"builder\"/> is <see langword=\"null\"/>.",
+        "</exception>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "MeterProviderBuilder",
+        "AddNRuuviTagInstrumentation"
+    ],
+    "classes": [
+        "NRuuviTagMetricsExtensions"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "require",
+        "UsuarioRol",
+        "req",
+        "res",
+        "req",
+        "req",
+        "pool",
+        "idRol",
+        "idUsuario",
+        "result",
+        "res",
+        "result",
+        "res",
+        "usuarioActualizado",
+        "error",
+        "error",
+        "res",
+        "error"
+    ],
+    "literals": [
+        "'../db'",
+        "\"Datos recibidos en /UsuarioRol:\"",
+        "UPDATE public.\"USUARIO\"\n             SET \"ID_rol\" = $1\n             WHERE \"ID_usuario\" = $2\n             RETURNING *;",
+        "'Usuario no encontrado'",
+        "'Rol del usuario actualizado correctamente'",
+        "'Error en /UsuarioRol:'",
+        "'Error interno del servidor'"
+    ],
+    "variables": [
+        "pool",
+        "UsuarioRol",
+        "result",
+        "usuarioActualizado"
+    ],
+    "comments": [
+        "Validar que se haya actualizado algún usuario"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

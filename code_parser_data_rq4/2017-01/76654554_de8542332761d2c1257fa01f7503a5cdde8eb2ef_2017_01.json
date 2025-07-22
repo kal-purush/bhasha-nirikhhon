@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Version",
+        "BaseClientSideWebPart",
+        "IPropertyPaneConfiguration",
+        "PropertyPaneTextField",
+        "escape",
+        "styles",
+        "strings",
+        "IExtendGulpWebPartProps",
+        "BaseClientSideWebPart",
+        "styles",
+        "styles",
+        "styles",
+        "styles",
+        "styles",
+        "escape",
+        "styles",
+        "Version",
+        "strings",
+        "strings",
+        "PropertyPaneTextField",
+        "strings"
+    ],
+    "literals": [
+        "'@microsoft/sp-core-library'",
+        "'@microsoft/sp-webpart-base'",
+        "'@microsoft/sp-lodash-subset'",
+        "'./ExtendGulp.module.scss'",
+        "'extendGulpStrings'",
+        "'./IExtendGulpWebPartProps'",
+        "<div class=\"${styles.row}\">\n        <div class=\"${styles.column}\">\n          <span class=\"${styles.title}\">\n            Welcome to SharePoint!\n          </span>\n          <p class=\"${styles.subtitle}\">\n            Customize SharePoint experiences using Web Parts.\n          </p>\n          <p class=\"${styles.description}\">\n            ${escape(this.properties.description)}\n          </p>\n          <a class=\"ms-Button ${styles.button}\" href=\"https://github.com/SharePoint/sp-dev-docs/wiki\">\n            <span class=\"ms-Button-label\">\n              Learn more\n            </span>\n          </a>\n        </div>\n      </div>",
+        "'1.0'",
+        "'description'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "render",
+        "dataVersion",
+        "getPropertyPaneConfiguration"
+    ],
+    "classes": [
+        "ExtendGulpWebPart"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "require",
+        "config"
+    ],
+    "literals": [
+        "\"../src/**/*.mdx\"",
+        "\"../src/**/*.stories.@(js|jsx|mjs|ts|tsx)\"",
+        "\"@storybook/addon-knobs\"",
+        "\"@storybook/addon-styling\"",
+        "\"sass\"",
+        "\"@storybook/addon-viewport\"",
+        "\"@storybook/addon-docs\"",
+        "\"@storybook/addon-backgrounds\"",
+        "\"@storybook/addon-toolbars\"",
+        "\"@storybook/addon-measure\"",
+        "\"@storybook/addon-outline\"",
+        "\"storybook-addon-designs\"",
+        "\"@storybook/react-webpack5\"",
+        "\"tag\"",
+        "\"../public\""
+    ],
+    "variables": [
+        "config"
+    ],
+    "comments": [
+        "@type { import('@storybook/react-webpack5').StorybookConfig }",
+        "Deprecated",
+        "This should be @storybook/addon-knobs, but there is a bug with query params - hence the forked version",
+        "CSS",
+        "addon-essentials",
+        "\"@storybook/addon-actions\",",
+        "\"@storybook/addon-controls\",",
+        "Figma"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

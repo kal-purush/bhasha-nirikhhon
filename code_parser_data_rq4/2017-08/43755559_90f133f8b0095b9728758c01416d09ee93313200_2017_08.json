@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "json",
+        "__salt__",
+        "list_plugin_groovy",
+        "json",
+        "loads",
+        "call_result",
+        "plugin",
+        "plugins",
+        "plugin",
+        "split",
+        "output",
+        "plugin_fields",
+        "plugin_fields",
+        "output",
+        "output"
+    ],
+    "literals": [
+        "\"jenkins_plugins\"",
+        "'jenkins_common.call_groovy_script'",
+        "'@'",
+        "\"jenkins_plugins\"",
+        "\"version\""
+    ],
+    "variables": [
+        "output",
+        "list_plugin_groovy",
+        "call_result",
+        "plugins",
+        "plugin_fields"
+    ],
+    "comments": [
+        "!/usr/bin/env python"
+    ],
+    "docstrings": [
+        "\"\"\"\\\n        pluginList = []\n        Jenkins.instance.pluginManager.plugins.each{ pluginList << (\"'${it.shortName}@${it.version}'\")}\n        print pluginList\n    \"\"\""
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

@@ -1,0 +1,87 @@
+{
+    "identifiers": [
+        "org",
+        "apache",
+        "synapse",
+        "rest",
+        "cors",
+        "org",
+        "apache",
+        "synapse",
+        "config",
+        "SynapsePropertiesLoader",
+        "org",
+        "apache",
+        "synapse",
+        "rest",
+        "RESTConstants",
+        "java",
+        "util",
+        "Arrays",
+        "java",
+        "util",
+        "java",
+        "util",
+        "corsConfigs",
+        "enabled",
+        "allowedOrigins",
+        "allowedHeaders",
+        "enabled",
+        "SynapsePropertiesLoader",
+        "getBooleanProperty",
+        "RESTConstants",
+        "CORS_CONFIGURATION_ENABLED",
+        "allowedOriginListStr",
+        "SynapsePropertiesLoader",
+        "getPropertyValue",
+        "RESTConstants",
+        "CORS_CONFIGURATION_ACCESS_CTL_ALLOW_ORIGIN",
+        "allowedOrigins",
+        "Arrays",
+        "asList",
+        "allowedOriginListStr",
+        "split",
+        "allowedHeaders",
+        "SynapsePropertiesLoader",
+        "getPropertyValue",
+        "RESTConstants",
+        "CORS_CONFIGURATION_ACCESS_CTL_ALLOW_HEADERS",
+        "corsConfigs",
+        "corsConfigs",
+        "corsConfigs",
+        "corsConfigs",
+        "enabled",
+        "allowedOrigins",
+        "allowedHeaders"
+    ],
+    "literals": [
+        "\"\"",
+        "\",\"",
+        "\"\""
+    ],
+    "variables": [
+        "enabled",
+        "allowedOrigins",
+        "allowedHeaders"
+    ],
+    "comments": [
+        "Retrieve allowed origin list",
+        "Retrieve allowed headers",
+        "init CORS configurations"
+    ],
+    "docstrings": [
+        "* Copyright (c) 2019, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.\n *\n * WSO2 Inc. licenses this file to you under the Apache License,\n * Version 2.0 (the \"License\"); you may not use this file except\n * in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing,\n * software distributed under the License is distributed on an\n * \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY\n * KIND, either express or implied. See the License for the\n * specific language governing permissions and limitations\n * under the License.",
+        "* This class holds CORS configurations made in synapse.properties file"
+    ],
+    "functions": [
+        "CORSConfiguration",
+        "CORSConfiguration",
+        "getCORSConfig",
+        "isEnabled",
+        "getAllowedOrigins",
+        "getAllowedHeaders"
+    ],
+    "classes": [
+        "CORSConfiguration"
+    ]
+}

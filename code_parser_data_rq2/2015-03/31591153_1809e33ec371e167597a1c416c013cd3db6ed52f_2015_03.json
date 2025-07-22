@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "com",
+        "migesok",
+        "jaxb",
+        "adapter",
+        "javatime",
+        "java",
+        "time",
+        "MonthDay",
+        "javax",
+        "xml",
+        "bind",
+        "annotation",
+        "adapters",
+        "XmlAdapter",
+        "Override",
+        "stringValue",
+        "stringValue",
+        "MonthDay",
+        "parse",
+        "stringValue",
+        "Override",
+        "value",
+        "value",
+        "value",
+        "toString"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* {@code XmlAdapter} mapping JSR-310 {@code MonthDay} to a string such as --12-03\n * <p>\n * String format details:\n * <ul>\n * <li>{@link java.time.MonthDay#parse(java.lang.CharSequence)}</li>\n * <li>{@link java.time.MonthDay#toString()}</li>\n * </ul>\n *\n * @see javax.xml.bind.annotation.adapters.XmlAdapter\n * @see java.time.MonthDay"
+    ],
+    "functions": [
+        "MonthDay",
+        "unmarshal",
+        "marshal"
+    ],
+    "classes": [
+        "MonthDayXmlAdapter"
+    ]
+}

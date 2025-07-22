@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "util",
+        "com",
+        "example",
+        "model",
+        "id",
+        "name",
+        "coordinates",
+        "STORE",
+        "id",
+        "name",
+        "coordinates",
+        "RESTAURANT",
+        "id",
+        "name",
+        "coordinates",
+        "id",
+        "name",
+        "latitude",
+        "longitude",
+        "coordinates",
+        "latitude",
+        "longitude",
+        "createLocation",
+        "id",
+        "name",
+        "coordinates",
+        "id",
+        "name",
+        "coordinates",
+        "createLocation",
+        "LocationType",
+        "STORE",
+        "id",
+        "name",
+        "coordinates",
+        "id",
+        "name",
+        "coordinates",
+        "createLocation",
+        "LocationType",
+        "RESTAURANT",
+        "id",
+        "name",
+        "coordinates"
+    ],
+    "literals": [
+        "\"Unknown location type: \""
+    ],
+    "variables": [],
+    "comments": [
+        "Overloaded method for creating a location with latitude and longitude instead of Coordinates object",
+        "You can add more factory methods here if needed, for example:"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Location",
+        "createLocation",
+        "Location",
+        "createLocation",
+        "Store",
+        "createStore",
+        "Restaurant",
+        "createRestaurant"
+    ],
+    "classes": [
+        "LocationFactory"
+    ]
+}

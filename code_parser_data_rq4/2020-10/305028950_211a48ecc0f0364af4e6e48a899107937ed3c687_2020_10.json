@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "PersonaInfoData",
+        "ProfileData",
+        "ResumeSchema",
+        "countries",
+        "en",
+        "countries",
+        "en",
+        "resume",
+        "resume",
+        "countries",
+        "resume",
+        "resume",
+        "resume",
+        "p",
+        "p",
+        "URL",
+        "p",
+        "p",
+        "resume",
+        "resume",
+        "resume",
+        "resume",
+        "resume",
+        "extractAddress",
+        "resume",
+        "extractProfiles",
+        "resume"
+    ],
+    "literals": [
+        "\"../components/personal-info\"",
+        "\"../types/resume\"",
+        "'i18n-iso-countries'",
+        "'i18n-iso-countries/langs/en.json'",
+        "string",
+        "${resume.basics.location.city}, ${countries.getName(resume.basics.location.countryCode, 'en')}",
+        "'en'",
+        "''"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "extractAddress",
+        "extractProfiles",
+        "extractPersonalInfo"
+    ],
+    "classes": []
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "strategy",
+        "cenes",
+        "choose",
+        "strategy",
+        "cenes",
+        "story",
+        "BaseStory",
+        "strategy",
+        "model",
+        "GameConfig",
+        "STORY_PLAY",
+        "OTHER",
+        "Override",
+        "allowInputs",
+        "add",
+        "STORY_PLAY",
+        "allowInputs",
+        "add",
+        "OTHER",
+        "userInterface",
+        "showTip",
+        "Override",
+        "userInterface",
+        "showTip",
+        "Override",
+        "inputData",
+        "inputData",
+        "STORY_PLAY",
+        "readyToChoose",
+        "choose",
+        "OTHER",
+        "Override",
+        "Override"
+    ],
+    "literals": [
+        "\"1\"",
+        "\"2\"",
+        "\"遊戲設定\"",
+        "\"(1)故事播放 (2)其他 (尚未開放)\""
+    ],
+    "variables": [],
+    "comments": [
+        "setNextScenes(new ConfigStoryPlayChoose());",
+        "setNextScenes(new MainChoose());"
+    ],
+    "docstrings": [],
+    "functions": [
+        "init",
+        "showTip",
+        "options",
+        "gotoNextScenes",
+        "gotoPreScenes"
+    ],
+    "classes": [
+        "ConfigChoose"
+    ]
+}

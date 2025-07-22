@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "SkyApm",
+        "Config",
+        "Collections",
+        "Generic",
+        "Text",
+        "SkyApm",
+        "Diagnostics",
+        "HttpClient",
+        "Config",
+        "Config"
+    ],
+    "literals": [
+        "\"SkyWalking\"",
+        "\"Component\"",
+        "\"HttpClient\""
+    ],
+    "variables": [
+        "StopHeaderPropagationPaths"
+    ],
+    "comments": [
+        "Stop header propagation on specific paths, path support wildchar match.",
+        "Usage: a/b/c => a/b/c, a/* => a/b, a/** => a/b/c/d, a/?/c => a/b/c",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "HttpClientDiagnosticConfig"
+    ]
+}

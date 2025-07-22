@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "nome",
+        "alert",
+        "email",
+        "email",
+        "alert",
+        "telefone",
+        "alert",
+        "mensagem",
+        "alert",
+        "nome",
+        "email",
+        "telefone",
+        "mensagem",
+        "localStorage",
+        "dadosFormulario"
+    ],
+    "literals": [
+        "'nome'",
+        "\"O nome não deve conter números.\"",
+        "'email'",
+        "\"\"",
+        "'@'",
+        "\"Por favor, insira um endereço de email válido.\"",
+        "'telefone'",
+        "\"\"",
+        "\"Por favor, insira um número de telefone.\"",
+        "'mensagem'",
+        "\"\"",
+        "\"Por favor, escreva uma mensagem.\"",
+        "'assunto'",
+        "'dadosFormulario'",
+        "'pagina-de-dados.html'"
+    ],
+    "variables": [
+        "nome",
+        "email",
+        "telefone",
+        "mensagem",
+        "dadosFormulario"
+    ],
+    "comments": [
+        "Verifica se o campo 'nome' contém algum número",
+        "Verifica se o campo 'email' está vazio ou se não contém um '@'",
+        "Verifica se o campo 'telefone' está vazio",
+        "Verifica se o campo 'mensagem' está vazio",
+        "Armazenar dados no localStorage",
+        "Redirecionar para a nova página",
+        "Impede o envio real do formulário"
+    ],
+    "docstrings": [],
+    "functions": [
+        "validateForm"
+    ],
+    "classes": []
+}

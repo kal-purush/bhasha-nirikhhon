@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "Linq",
+        "UnityEngine",
+        "MonoBehaviour",
+        "CharController",
+        "instance",
+        "instance",
+        "Destroy",
+        "gameObject",
+        "activeChars",
+        "FindObjectsOfType",
+        "CharController",
+        "ToList",
+        "UpdateTurn",
+        "Debug",
+        "Log",
+        "isPlayerTurn",
+        "isPlayerTurn",
+        "playerTurn",
+        "isPlayerTurn",
+        "playerTurn",
+        "activeChars",
+        "Count",
+        "i",
+        "i",
+        "activeChars",
+        "i",
+        "enabled",
+        "activeChars",
+        "RemoveAt",
+        "i",
+        "activeChars",
+        "i",
+        "doneTurn",
+        "allDone",
+        "allDone",
+        "Debug",
+        "Log",
+        "SetPlayerTurn",
+        "activeChar",
+        "activeChars",
+        "activeChar",
+        "doneTurn"
+    ],
+    "literals": [
+        "\"playerturn\"",
+        "\"setting player turn true\""
+    ],
+    "variables": [
+        "GameLoopManager",
+        "instance",
+        "activeChars",
+        "isPlayerTurn",
+        "allDone",
+        "i"
+    ],
+    "comments": [
+        "Start is called before the first frame update",
+        "Update is called once per frame",
+        "iterating in reverse order to be able to safely delete inactive characters",
+        "foreach (var activeChar in activeChars)\n        {\n            if (!activeChar.doneTurn) allDone = false;\n        }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update",
+        "GetPlayerTurn",
+        "SetPlayerTurn",
+        "UpdateTurn"
+    ],
+    "classes": [
+        "GameLoopManager"
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "UnityEditor",
+        "CesiumForUnity"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "https://github.com/Unity-Technologies/UnityCsReference/blob/master/Editor/Mono/EditorGUI.cs",
+        "public static void DrawCreditsInSceneView(SceneView sceneView)\n        {\n            CesiumCreditSystem creditSystem = CesiumCreditSystem.GetDefaultCreditSystem();\n            Handles.BeginGUI();\n            GUILayout.FlexibleSpace();\n            GUIContent testContent = new GUIContent(\"I'm drawing text here!\");\n            GUILayout.Label(creditSystem.onScreenCredits);\n            Handles.EndGUI();\n        }"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "CesiumCreditSystemEditorUI"
+    ]
+}

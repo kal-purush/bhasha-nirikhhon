@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "require",
+        "express",
+        "process",
+        "app",
+        "req",
+        "res",
+        "res",
+        "req",
+        "app",
+        "PORT",
+        "PORT"
+    ],
+    "literals": [
+        "'express'",
+        "'8000'",
+        "'/sample/:message'",
+        "'Hello World'",
+        "Example app listening on port ${PORT}!"
+    ],
+    "variables": [
+        "express",
+        "app",
+        "PORT"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @api {get} /sample/{message} hello world sample request\n * @apiName GetSample\n * @apiParam (Url) {String} message the message to return\n * @apiSuccess (Success_200) {String} data the hello world data\n * @apiSuccess (Success_200) {String} output what the user entered in the url"
+    ],
+    "functions": [],
+    "classes": []
+}

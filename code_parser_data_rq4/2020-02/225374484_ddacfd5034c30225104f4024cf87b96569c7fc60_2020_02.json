@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "url",
+        "fetch",
+        "url",
+        "response",
+        "response",
+        "i",
+        "i",
+        "tabla",
+        "tabla",
+        "json",
+        "i",
+        "tabla",
+        "tabla",
+        "json",
+        "i",
+        "tabla",
+        "tabla",
+        "json",
+        "i",
+        "tabla",
+        "tabla",
+        "response",
+        "loadJson"
+    ],
+    "literals": [
+        "\"<tr>\"",
+        "\"<td><u>id</u></td>\"",
+        "\"<td><u>login</u></td>\"",
+        "\"<td><u>type</u></td></tr>\"",
+        "\"<tr><td>\"",
+        "\"</td><td>\"",
+        "\"</td><td>\"",
+        "\"</td></tr>\"",
+        "'tabla'",
+        "'https://api.github.com/users'"
+    ],
+    "variables": [
+        "response",
+        "json",
+        "tabla",
+        "i"
+    ],
+    "comments": [
+        "hacemos el uso de fetch",
+        "si todo esta ok",
+        "Espera hasta que termine la promesa",
+        "recorremos la api hasta 30 usuarios y pintamos la tabla",
+        "obtenemos el id",
+        "obtenemos el login",
+        "obtenemos el tipo",
+        "si no esta bien, lanza un error",
+        "No entiendo por que me salen más de 30 usuarios si en el",
+        "for le indico claramente que me pinte solo los 30 primeros."
+    ],
+    "docstrings": [],
+    "functions": [
+        "loadJson"
+    ],
+    "classes": []
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "doc",
+        "win",
+        "doc",
+        "dpr",
+        "docEl",
+        "win",
+        "docEl",
+        "scale",
+        "scale",
+        "docEl",
+        "docEl",
+        "docEl",
+        "doc",
+        "metaEl",
+        "metaEl",
+        "scale",
+        "scale",
+        "scale",
+        "docEl",
+        "metaEl",
+        "docEl",
+        "width",
+        "dpr",
+        "width",
+        "dpr",
+        "docEl",
+        "width",
+        "recalc"
+    ],
+    "literals": [
+        "\"data-dpr\"",
+        "'100%'",
+        "'100%'",
+        "'meta'",
+        "'viewport'",
+        "'initial-scale='",
+        "',maximum-scale='",
+        "', minimum-scale='",
+        "'px'"
+    ],
+    "variables": [
+        "docEl",
+        "dpr",
+        "scale",
+        "metaEl",
+        "recalc",
+        "width"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* 移动端布局专用\n * 引入该模块后，当前在640宽的设计图片中，1rem=100px，\n * 当页面宽小于640时，页面会等比例缩放，大于640宽时，页面会保持640宽的大小\n * 举例：\n * 引入该模块后，在640宽的页面html标签上<html data-dpr=\"2\" style=\"font-size: 100px;\">\n * 即1rem = 100px，如果设计图中的某个字体是28px的，那么在CSS上直接font-size: .28rem就OK了，简单易用，又不用计算\n * @author bobo.wong"
+    ],
+    "functions": [],
+    "classes": []
+}

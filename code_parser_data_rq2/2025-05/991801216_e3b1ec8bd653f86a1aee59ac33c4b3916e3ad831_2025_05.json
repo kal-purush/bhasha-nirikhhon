@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "showScreen",
+        "questionCountSelect",
+        "i",
+        "i",
+        "option",
+        "i",
+        "option",
+        "i",
+        "questionCountSelect",
+        "option",
+        "confirm",
+        "clearInterval",
+        "timerId",
+        "showScreen",
+        "showScreen",
+        "showScreen",
+        "currentBreadcrumb",
+        "currentBreadcrumb",
+        "updateBreadcrumb",
+        "showScreen"
+    ],
+    "literals": [
+        "'menu'",
+        "'question-count-select'",
+        "''",
+        "'option'",
+        "${i}問",
+        "'クイズを中断してメニューに戻りますか？'",
+        "'menu'",
+        "'menu'",
+        "'menu'",
+        "'undefined'",
+        "'menu'"
+    ],
+    "variables": [
+        "questionCountSelect",
+        "i",
+        "option"
+    ],
+    "comments": [
+        "main.js",
+        "アプリケーションの初期化",
+        "最初の画面としてメニューを表示",
+        "問題数選択のドロップダウンを生成",
+        "各画面からのメニューに戻る関数",
+        "quiz.jsのtimerIdを停止",
+        "utils.jsのshowScreenを使用",
+        "utils.jsのshowScreenを使用",
+        "utils.jsのshowScreenを使用",
+        "questionList.jsのcurrentBreadcrumbをクリア",
+        "questionList.jsのupdateBreadcrumbを呼び出し",
+        "utils.jsのshowScreenを使用"
+    ],
+    "docstrings": [],
+    "functions": [
+        "backToMenuFromQuiz",
+        "backToMenuFromResult",
+        "backToMenuFromPastResults",
+        "backToMenuFromQuestionList"
+    ],
+    "classes": []
+}

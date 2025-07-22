@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "PrismaClient",
+        "PrismaClient",
+        "prisma",
+        "jobs",
+        "job",
+        "arg0",
+        "arg0",
+        "job",
+        "tag",
+        "tag",
+        "job",
+        "job",
+        "job",
+        "tags",
+        "job",
+        "job",
+        "output",
+        "showJob",
+        "output",
+        "a",
+        "b",
+        "a",
+        "a",
+        "b",
+        "b",
+        "aAcceptRate",
+        "bAcceptRate",
+        "output",
+        "getDefaultSearchJobs"
+    ],
+    "literals": [
+        "\"use server\"",
+        "\"@prisma/client\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"en-GB\"",
+        "\"en-GB\""
+    ],
+    "variables": [
+        "prisma",
+        "output",
+        "jobs",
+        "tags",
+        "showJob",
+        "aAcceptRate",
+        "bAcceptRate"
+    ],
+    "comments": [
+        "TODO : Filter for only jobs that are open",
+        "Waiting for enum to finalize so it can check",
+        "TODO : Filter for accepted application",
+        "TODO : Wait for db schema to change",
+        "TODO : Wait for db schema to change",
+        "async function main() {\n    const jobs = await getDefaultSearchJobs();\n\n    console.log(jobs);\n}\n\nmain();"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getDefaultSearchJobs"
+    ],
+    "classes": []
+}

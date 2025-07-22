@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "TUser",
+        "getName",
+        "handleCommandFromSlack",
+        "mq",
+        "_req",
+        "res",
+        "_next",
+        "user",
+        "getName",
+        "mq",
+        "jobName",
+        "user",
+        "jobName",
+        "res",
+        "res",
+        "slackResponse",
+        "req",
+        "res",
+        "next",
+        "req",
+        "responseUrl",
+        "responseUrl",
+        "handleCommandFromSlack",
+        "req",
+        "res",
+        "next",
+        "makeJobDestroyAllSessions",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "\"@upswyng/types\"",
+        "\"@afuggini/namegenerator\"",
+        "\"../../../utility/handleCommandFromSlack\"",
+        "\"../../../worker/mq\"",
+        "\"-\"",
+        "\"section\"",
+        "\"mrkdwn\"",
+        ":bomb: I'm *destroying all sessions* for you!",
+        "\"section\"",
+        "Your job name is _${jobName}_",
+        "\"mrkdwn\"",
+        "\"in_channel\"",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "\"hooks.slack.com\"",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "\"Tell upswyngbot /destroy-all-sessions to run the Destroy All Sessions job\""
+    ],
+    "variables": [
+        "jobName",
+        "blocks",
+        "slackResponse",
+        "responseUrl"
+    ],
+    "comments": [
+        "eslint-disable-line @typescript-eslint/camelcase",
+        "For now, only allow this endpoint to be called from Slack"
+    ],
+    "docstrings": [
+        "* Adds a Destroy All Sessions job to the queue.\n *\n * Can be called from slack command `/destroy-all-sessions`."
+    ],
+    "functions": [
+        "makeJobDestroyAllSessions",
+        "post"
+    ],
+    "classes": []
+}

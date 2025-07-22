@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "src",
+        "item",
+        "Item",
+        "Item",
+        "name",
+        "price",
+        "quantity",
+        "number_of_sim",
+        "name",
+        "price",
+        "quantity",
+        "number_of_sim",
+        "__class__",
+        "name",
+        "price",
+        "quantity",
+        "number_of_sim",
+        "property",
+        "__number_of_sim",
+        "number_of_sim",
+        "setter",
+        "new_number_of_sim",
+        "isinstance",
+        "new_number_of_sim",
+        "new_number_of_sim",
+        "new_number_of_sim",
+        "ValueError"
+    ],
+    "literals": [
+        "f\"{self.__class__.__name__}('{self.name}', {self.price}, {self.quantity}, {self.number_of_sim})\"",
+        "'Количество физических SIM-карт должно быть целым числом больше нуля'"
+    ],
+    "variables": [
+        "__number_of_sim",
+        "__number_of_sim"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Класс для представления телефона в магазине.\n    \"\"\"",
+        "\"\"\"\n        Создание экземпляра класса Phone.\n\n        :param name: Название телефона.\n        :param price: Цена за единицу телефона.\n        :param quantity: Количество телефонов в магазине.\n        :param number_of_sim: Количество поддерживаемых сим-карт в телефоне.\n        \"\"\"",
+        "\"\"\"\n        Возвращает информацию об объекте: название класса(атрибуты экземпляра)\n        \"\"\"",
+        "\"\"\"\n        Возвращает количество поддерживаемых сим-карт в телефоне\n        \"\"\"",
+        "\"\"\"\n        Присваивает атрибуту number_of_sim значение new_number_of_sim,\n        при условии, что это целое число больше нуля\n        \"\"\""
+    ],
+    "functions": [
+        "__repr__",
+        "number_of_sim",
+        "number_of_sim"
+    ],
+    "classes": [
+        "Phone"
+    ]
+}

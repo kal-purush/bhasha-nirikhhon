@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "standaloneCode",
+        "RJSFSchema",
+        "StrictRJSFSchema",
+        "schemaParser",
+        "createAjvInstance",
+        "CustomValidatorOptionsType",
+        "schema",
+        "options",
+        "schemaParser",
+        "schema",
+        "schemaMaps",
+        "ajvOptionsOverrides",
+        "ajvOptionsOverrides",
+        "createAjvInstance",
+        "additionalMetaSchemas",
+        "customFormats",
+        "compileOptions",
+        "ajvFormatOptions",
+        "AjvClass",
+        "standaloneCode",
+        "ajv"
+    ],
+    "literals": [
+        "'ajv/dist/standalone'",
+        "'@rjsf/utils'",
+        "'./createAjvInstance'",
+        "'./types'"
+    ],
+    "variables": [
+        "schemaMaps",
+        "schemas",
+        "options",
+        "compileOptions",
+        "ajv"
+    ],
+    "comments": [
+        "The function used to compile a schema into javascript code in the form that allows it to be used as a precompiled\n * validator. The main reasons for using a precompiled validator is reducing code size, improving validation speed and,\n * most importantly, avoiding dynamic code compilation when prohibited by a browser's Content Security Policy. For more\n * information about AJV code compilation see: https://ajv.js.org/standalone.html\n *\n * @param schema - The schema to be compiled into a set of precompiled validators functions\n * @param [options={}] - The set of `CustomValidatorOptionsType` information used to alter the AJV validator used for\n *        compiling the schema. They are the same options that are passed to the `customizeValidator()` function in\n *        order to modify the behavior of the regular AJV-based validator.",
+        "Allow users to turn off the `lines: true` feature in their own overrides, but NOT the `source: true`"
+    ],
+    "docstrings": [],
+    "functions": [
+        "compileSchemaValidatorsCode"
+    ],
+    "classes": []
+}

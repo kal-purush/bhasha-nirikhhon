@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "RtError",
+        "RtError",
+        "RtError",
+        "RtError",
+        "RtError",
+        "RtError",
+        "RtError",
+        "RtError",
+        "message",
+        "cause",
+        "message",
+        "repr",
+        "cause",
+        "cause",
+        "RtError"
+    ],
+    "literals": [
+        "' (Caused by '",
+        "\")\""
+    ],
+    "variables": [
+        "cause"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Exceptions collection for the rt library.\"\"\"",
+        "\"\"\" Super class of all Rt Errors \"\"\"",
+        "\"\"\" Exception raised when module cannot access :term:`API` due to invalid\n    or missing credentials. \"\"\"",
+        "\"\"\" Exception raised when request cannot be finished due to\n    insufficient privileges. \"\"\"",
+        "\"\"\" Exception raised when unexpected HTTP code is received. \"\"\"",
+        "\"\"\" Exception raised when response has bad status code (not the HTTP code,\n    but code in the first line of the body as 200 in `RT/4.0.7 200 Ok`)\n    or message parsing fails because of unexpected format. \"\"\"",
+        "\"\"\" Exception raised when syntax error is received. \"\"\"",
+        "\"\"\" Exception raised when API method is not used correctly. \"\"\"",
+        "\"\"\" Exception raised when HTTP code 400 (Bad Request) is received. \"\"\"",
+        "\"\"\" Encapsulation of various exceptions indicating network problems. \"\"\"",
+        "\"\"\" Initialization of exception extented by cause parameter.\n\n        :keyword message: Exception details\n        :keyword cause: Cause exception\n        \"\"\"",
+        "\"\"\" Exception raised when attempting to search RT with an invalid raw query. \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "RtError",
+        "AuthorizationError",
+        "NotAllowed",
+        "UnexpectedResponse",
+        "UnexpectedMessageFormat",
+        "APISyntaxError",
+        "InvalidUse",
+        "BadRequest",
+        "ConnectionError",
+        "InvalidQueryError"
+    ]
+}

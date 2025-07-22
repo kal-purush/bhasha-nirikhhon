@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Pipe",
+        "PipeTransform",
+        "RichText",
+        "Paragraphs",
+        "Pipe",
+        "value",
+        "RichText",
+        "value"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'prismic-dom/dist/prismic-dom.min.js'",
+        "'../../../renderer/src/models/typography.model'",
+        "'renderHtml'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This pipe is used to render an array of Prismic Paragraphs\n * to HTML.\n * \n * @example\n * <!-- text is an array of paragraphs -->\n * <div [innerHTML]=\"doc.data.text | renderHtml\"></div>"
+    ],
+    "functions": [
+        "transform"
+    ],
+    "classes": [
+        "RenderHtmlPipe"
+    ]
+}

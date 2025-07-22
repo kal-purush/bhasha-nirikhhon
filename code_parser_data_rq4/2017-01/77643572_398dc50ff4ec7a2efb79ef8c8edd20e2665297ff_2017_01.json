@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "Directive",
+        "ElementRef",
+        "Input",
+        "Ps",
+        "Directive",
+        "Input",
+        "elementRef",
+        "Ps",
+        "currentHeight",
+        "currentWidth",
+        "currentHeight",
+        "currentWidth",
+        "currentHeight",
+        "currentWidth",
+        "Ps",
+        "Ps",
+        "position",
+        "position"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'perfect-scrollbar'",
+        "'[my-scrollbar]'",
+        "'position: relative !important; overflow: hidden !important;'",
+        "\"lastHeight: \"",
+        "\" currentHeight: \"",
+        "\" lastWidth: \"",
+        "\" currentWidth: \""
+    ],
+    "variables": [
+        "currentHeight",
+        "currentWidth"
+    ],
+    "comments": [
+        "On component init, init the scrollbar.",
+        "Measure the div on start.",
+        "On every view change, update the scrollbar.\n     * I'm using ngAfterViewCheck and not ngDoCheck because ngDoCheck runs before any view changes and will give me the last state of the element, and ngAfterViewCheck gives me the current state.*",
+        "When the directive gets destroyed, remove the scrollbar. *",
+        "Scrolls to a specific point *"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngAfterViewInit",
+        "ngAfterViewChecked",
+        "update",
+        "ngOnDestroy",
+        "scrollTo"
+    ],
+    "classes": [
+        "MyScrollbar"
+    ]
+}

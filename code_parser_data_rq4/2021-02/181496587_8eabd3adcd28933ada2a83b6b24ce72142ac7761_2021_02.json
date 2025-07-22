@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "EventStore",
+        "Core",
+        "Data",
+        "EventStore",
+        "Projections",
+        "Core",
+        "Messages",
+        "NUnit",
+        "Framework",
+        "EventStore",
+        "Projections",
+        "Core",
+        "Tests",
+        "Services",
+        "projection_subscription",
+        "TestFixtureWithProjectionSubscription",
+        "_source",
+        "source",
+        "FromAll",
+        "source",
+        "IncludeEvent",
+        "Test",
+        "TFPos",
+        "_subscription",
+        "Handle",
+        "ReaderSubscriptionMessage",
+        "CommittedEventDistributed",
+        "Sample",
+        "Guid",
+        "NewGuid",
+        "position",
+        "stream",
+        "resolvedLinkToEvent",
+        "Guid",
+        "NewGuid",
+        "eventType"
+    ],
+    "literals": [
+        "\"good-event-type\"",
+        "\"any-stream-name\"",
+        "\"any-event-type\""
+    ],
+    "variables": [
+        "stream",
+        "eventType",
+        "position",
+        "resolvedLinkToEvent"
+    ],
+    "comments": [
+        "resolved linkTo event with incomplete TF position"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Given",
+        "When",
+        "should_gracefully_handle_resolved_linkto_events"
+    ],
+    "classes": [
+        "failing_test_github_issue_2785"
+    ]
+}

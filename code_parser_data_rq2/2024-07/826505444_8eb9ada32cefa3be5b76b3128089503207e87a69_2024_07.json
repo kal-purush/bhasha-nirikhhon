@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Controller",
+        "Inject",
+        "Post",
+        "ClientProxy",
+        "NATS_SERVICE",
+        "Controller",
+        "Inject",
+        "NATS_SERVICE",
+        "client",
+        "Post",
+        "Post",
+        "Post"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'@nestjs/microservices'",
+        "'../config'",
+        "'auth'",
+        "'register'",
+        "'auth.register.user'",
+        "'login'",
+        "'auth.login.user'",
+        "'verify'",
+        "'auth.verify.user'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "registerUser",
+        "loginUser",
+        "verifyUser"
+    ],
+    "classes": [
+        "AuthController"
+    ]
+}

@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "capitalize",
+        "startswith",
+        "whitespace",
+        "removeprefix",
+        "whitespace",
+        "delimeter",
+        "is_empty",
+        "split",
+        "delimeter",
+        "symbol",
+        "index",
+        "symbol",
+        "ValueError",
+        "res",
+        "symbol",
+        "contains",
+        "symbol",
+        "replace",
+        "symbol",
+        "symbol",
+        "startswith",
+        "symbol",
+        "symbol",
+        "endswith",
+        "symbol",
+        "trim",
+        "lst",
+        "joiner",
+        "len",
+        "lst",
+        "length",
+        "i",
+        "length",
+        "lst",
+        "i",
+        "joiner",
+        "lst"
+    ],
+    "literals": [
+        "\" \"",
+        "\",\"",
+        "\"\"",
+        "\"\"",
+        "\", \"",
+        "\"\""
+    ],
+    "variables": [
+        "whitespace",
+        "res",
+        "res",
+        "length"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Класс с полезными утилитами для обработки и анализа строк\n    \"\"\"",
+        "\"\"\"\n        Принимает на вход текст, делает первую букву заглавной и возвращает этот же текст\n        Пример: `capitilize(\"skypro\") -> \"Skypro\"`\n        \"\"\"",
+        "\"\"\"\n        Принимает на вход текст и удаляет пробелы в начале, если они есть\n        Пример: `trim(\"   skypro\") -> \"skypro\"`\n        \"\"\"",
+        "\"\"\"\n        Принимает на вход текст с разделителем и возвращает список строк. \\n\n        Параметры: \\n\n            `string` - строка для обработки \\n\n            `delimeter` - разделитель строк. По умолчанию запятая (\",\") \\n\n        Пример 1: `to_list(\"a,b,c,d\") -> [\"a\", \"b\", \"c\", \"d\"]`\n        Пример 2: `to_list(\"1:2:3\", \":\") -> [\"1\", \"2\", \"3\"]`\n        \"\"\"",
+        "\"\"\"\n        Возвращает `True`, если строка содержит искомый символ и `False` - если нет \\n\n        Параметры: \\n\n            `string` - строка для обработки \\n\n            `symbol` - искомый символ \\n\n        Пример 1: `contains(\"SkyPro\", \"S\") -> True`\n        Пример 2: `contains(\"SkyPro\", \"U\") -> False`\n        \"\"\"",
+        "\"\"\"\n        Удаляет все подстроки из переданной строки \\n\n        Параметры: \\n\n            `string` - строка для обработки \\n\n            `symbol` - искомый символ для удаления \\n\n        Пример 1: `delete_symbol(\"SkyPro\", \"k\") -> \"SyPro\"`\n        Пример 2: `delete_symbol(\"SkyPro\", \"Pro\") -> \"Sky\"`\n        \"\"\"",
+        "\"\"\"\n        Возвращает `True`, если строка начинается с заданного символа и `False` - если нет \\n\n        Параметры: \\n\n            `string` - строка для обработки \\n\n            `symbol` - искомый символ \\n\n        Пример 1: `starts_with(\"SkyPro\", \"S\") -> True`\n        Пример 2: `starts_with(\"SkyPro\", \"P\") -> False`\n        \"\"\"",
+        "\"\"\"\n        Возвращает `True`, если строка заканчивается заданным символом и `False` - если нет \\n\n        Параметры: \\n\n            `string` - строка для обработки \\n\n            `symbol` - искомый символ \\n\n        Пример 1: `end_with(\"SkyPro\", \"o\") -> True`\n        Пример 2: `end_with(\"SkyPro\", \"y\") -> False`\n        \"\"\"",
+        "\"\"\"\n        Возвращает `True`, если строка пустая и `False` - если нет \\n\n        Пример 1: `is_empty(\"\") -> True`\n        Пример 2: `is_empty(\" \") -> True`\n        Пример 3: `is_empty(\"SkyPro\") -> False`\n        \"\"\"",
+        "\"\"\"\n        Преобразует список элементов в строку с указанным разделителем \\n\n        Параметры: \\n\n            `lst` - список элементов \\n\n            `joiner` - разделитель элементов в строке. По умолчанию запятая (\", \") \\n\n        Пример 1: `list_to_string([1,2,3,4]) -> \"1, 2, 3, 4\"`\n        Пример 2: `list_to_string([\"Sky\", \"Pro\"]) -> \"Sky, Pro\"`\n        Пример 3: `list_to_string([\"Sky\", \"Pro\"], \"-\") -> \"Sky-Pro\"`\n        \"\"\""
+    ],
+    "functions": [
+        "capitilize",
+        "trim",
+        "to_list",
+        "contains",
+        "delete_symbol",
+        "starts_with",
+        "end_with",
+        "is_empty",
+        "list_to_string"
+    ],
+    "classes": [
+        "StringUtils"
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "html",
+        "css",
+        "LitElement",
+        "TemplateResult",
+        "property",
+        "iconset",
+        "LitElement",
+        "property",
+        "property",
+        "property",
+        "property",
+        "css",
+        "html",
+        "isCustom",
+        "isCustom",
+        "iconset",
+        "customElements",
+        "customElements",
+        "Icon"
+    ],
+    "literals": [
+        "'lit'",
+        "'lit/decorators.js'",
+        "'./iconset'",
+        "'#000000'",
+        "''",
+        "'svg-path'",
+        "''",
+        "'view-box'",
+        "'0 0 24 24'",
+        ":host {\n      display: inline-block;\n      width: 24px;\n      height: 24px;\n    }\n\n    svg {\n      width: 100%;\n      height: 100%;\n    }",
+        "'Custom'",
+        "<svg\n        xmlns=\"http://www.w3.org/2000/svg\"\n        height=\"24px\"\n        viewBox=${isCustom ? this.viewBox : '0 0 24 24'}\n        width=\"24px\"\n        fill=${this.color}\n      >\n        <path d=${isCustom ? this.svgPath : iconset[this.icon]} />\n      </svg>",
+        "'0 0 24 24'",
+        "'frc-icon'",
+        "'frc-icon'",
+        "'frc-icon'"
+    ],
+    "variables": [
+        "isCustom"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "render"
+    ],
+    "classes": [
+        "Icon"
+    ]
+}

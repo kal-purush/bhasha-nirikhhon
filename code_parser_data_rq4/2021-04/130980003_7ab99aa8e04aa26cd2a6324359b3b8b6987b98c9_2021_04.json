@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "model",
+        "target_layer",
+        "model",
+        "target_layer",
+        "register_forward_hook",
+        "save_activation",
+        "target_layer",
+        "register_backward_hook",
+        "save_gradient",
+        "input",
+        "output",
+        "activations",
+        "append",
+        "output",
+        "grad_input",
+        "grad_output",
+        "grad_input",
+        "gradients",
+        "x",
+        "model",
+        "x"
+    ],
+    "literals": [],
+    "variables": [
+        "model",
+        "gradients",
+        "activations",
+        "gradients",
+        "gradients",
+        "activations"
+    ],
+    "comments": [
+        "Gradients are computed in reverse order"
+    ],
+    "docstrings": [
+        "\"\"\" Class for extracting activations and\n    registering gradients from targetted intermediate layers \"\"\""
+    ],
+    "functions": [
+        "save_activation",
+        "save_gradient",
+        "__call__"
+    ],
+    "classes": [
+        "ActivationsAndGradients"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "SlotController",
+        "customElement",
+        "property",
+        "classMap",
+        "html",
+        "LitElement",
+        "colorContextConsumer",
+        "ColorTheme",
+        "colorContextProvider",
+        "ColorPalette",
+        "styles",
+        "customElement",
+        "LitElement",
+        "styles",
+        "SlotController",
+        "colorContextConsumer",
+        "colorContextProvider",
+        "property",
+        "html",
+        "classMap",
+        "on",
+        "on",
+        "classMap",
+        "classMap",
+        "classMap"
+    ],
+    "literals": [
+        "'@patternfly/pfe-core/controllers/slot-controller.js'",
+        "'lit/decorators/custom-element.js'",
+        "'lit/decorators/property.js'",
+        "'lit/directives/class-map.js'",
+        "'lit'",
+        "'../../lib/context/color/consumer.js'",
+        "'../../lib/context/color/provider.js'",
+        "'./rh-card.css'",
+        "'rh-card'",
+        "'{{version}}'",
+        "'header'",
+        "'footer'",
+        "'color-palette'",
+        "''",
+        "<article part=\"container\" id=\"container\" class=\"${classMap({ [on]: !!on })}\">\n        <header id=\"header\"\n                part=\"header\"\n                class=\"${classMap({ empty: !this.slots.hasSlotted('header') })}\">\n          <slot name=\"header\"></slot>\n        </header>\n        <div id=\"body\"\n             part=\"body\"\n             class=\"${classMap({ empty: !this.querySelector(':not([slot])') })}\">\n          <slot></slot>\n        </div>\n        <footer id=\"footer\"\n                part=\"footer\"\n                class=\"${classMap({ empty: !this.slots.hasSlotted('footer') })}\">\n          <slot name=\"footer\"></slot>\n        </footer>\n      </article>",
+        "'header'",
+        "':not([slot])'",
+        "'footer'",
+        "'rh-card'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Cards are flexible surfaces used to group information in a small layout. They give small previews of information or provide secondary content in relation to the content it's near. Several cards can be used together to group related information.\n * @summary Organizes content or media in various container sizes\n * @slot        header\n *              If this slot is used, we expect a heading level tag (h1, h2, h3, h4, h5, h6).\n *              An icon, svg, or use of the icon component are also valid in this region.\n * @slot        Any content that is not designated for the header or footer slot, will go to this slot.\n * @slot        footer\n *              Use this slot for anything that you want to be stuck to the base of the card.\n * @csspart     container\n *              The container for the card. Contains the header, body, and footer.\n * @csspart     header\n *              The header for the card. Contains the header slot.\n * @csspart     body\n *              The body for the card. Contains the default slot.\n * @csspart     footer\n *              The footer for the card. Contains the footer slot.\n * @cssprop     {<length>} --rh-card-header-font-size\n *              Font size for header on card\n *              {@default `1.5rem`}\n * @cssprop     --rh-border-width-lg\n * @cssprop     --rh-color-border-subtle-on-dark\n * @cssprop     --rh-color-border-subtle-on-light\n * @cssprop     --rh-color-surface-darkest\n * @cssprop     --rh-color-surface-lightest\n * @cssprop     --rh-color-text-primary-on-dark\n * @cssprop     --rh-color-text-primary-on-light\n * @cssprop     --rh-font-family-body-text\n * @cssprop     --rh-font-size-heading-sm\n * @cssprop     --rh-font-weight-body-text-medium\n * @cssprop     --rh-line-height-body-text\n * @cssprop     --rh-space-lg\n * @cssprop     --rh-space-xl\n * @cssprop     --rh-space-2xl\n *",
+        "* Sets color theme based on parent context",
+        "* Sets color palette, which affects the element's styles as well as descendants' color theme.\n   * Overrides parent color context.\n   * Your theme will influence these colors so check there first if you are seeing inconsistencies.\n   * See [CSS Custom Properties](#css-custom-properties) for default values\n   *\n   * Card always resets its context to `base`, unless explicitly provided with a `color-palette`."
+    ],
+    "functions": [
+        "render"
+    ],
+    "classes": [
+        "RhCard"
+    ]
+}

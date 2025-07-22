@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "InputConfigT",
+        "path",
+        "ConfigLoadingContext",
+        "ctx",
+        "require",
+        "path",
+        "ctx",
+        "process",
+        "frame",
+        "frame",
+        "INTERNAL_CALLSITES_REGEX",
+        "frame",
+        "require",
+        "require"
+    ],
+    "literals": [
+        "'metro-config'",
+        "'path'",
+        "'./loadMetroConfig'",
+        "'/Libraries/Renderer/implementations/.+\\\\.js$'",
+        "'/Libraries/BatchedBridge/MessageQueue\\\\.js$'",
+        "'/Libraries/YellowBox/.+\\\\.js$'",
+        "'/Libraries/LogBox/.+\\\\.js$'",
+        "'/Libraries/Core/Timers/.+\\\\.js$'",
+        "'/Libraries/WebSocket/.+\\\\.js$'",
+        "'/Libraries/vendor/.+\\\\.js$'",
+        "'/node_modules/react-devtools-core/.+\\\\.js$'",
+        "'/node_modules/react-refresh/.+\\\\.js$'",
+        "'/node_modules/scheduler/.+\\\\.js$'",
+        "'/node_modules/event-target-shim/.+\\\\.js$'",
+        "'/node_modules/invariant/.+\\\\.js$'",
+        "'/node_modules/react-native/index.js$'",
+        "'/metro-runtime/.+\\\\.js$'",
+        "'^\\\\[native code\\\\]$'",
+        "'|'",
+        "'react-native'",
+        "'browser'",
+        "'main'",
+        "'require'",
+        "'react-native'",
+        "'rn-get-polyfills'",
+        "string",
+        "'react-native/Libraries/Image/AssetRegistry'",
+        "'metro-runtime/src/modules/asyncRequire'",
+        "'metro-react-native-babel-transformer'"
+    ],
+    "variables": [
+        "INTERNAL_CALLSITES_REGEX",
+        "collapse"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This module reproduces defaults from the @react-native/metro-config package,\n * used in ./loadMetroConfig.js to provide a soft upgrade process when upgrading\n * to React Native 0.72.\n *\n * These values will be used when:\n * - RN CLI 11.x or greater is present in a project (from React Native 0.72).\n * - The project has not yet followed the upgrade instructions to update\n *   metro.config.js to extend '@react-native/metro-config'.\n *\n * Until we remove this file in a future release, updates should be made both\n * here and in '@react-native/metro-config'. (Note: Updates to these values are\n * generally rare.)\n *\n * TODO(@huntie): Remove this file in a future React Native release.",
+        "* @deprecated (React Native 0.72.0) Defaults should be updated here and in\n *   https://github.com/facebook/react-native/tree/main/package/metro-config/index.js",
+        "* Get the static Metro config defaults for a React Native project.\n *\n * @deprecated (React Native 0.72.0) Defaults should be updated here and in\n *   https://github.com/facebook/react-native/tree/main/package/metro-config/index.js"
+    ],
+    "functions": [
+        "getDefaultMetroConfig"
+    ],
+    "classes": []
+}

@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "io",
+        "openliberty",
+        "lemminx",
+        "liberty",
+        "services",
+        "org",
+        "eclipse",
+        "lemminx",
+        "utils",
+        "JSONUtility",
+        "io",
+        "openliberty",
+        "lemminx",
+        "liberty",
+        "models",
+        "settings",
+        "instance",
+        "instance",
+        "DEFAULT_SERVER_VERSION",
+        "settings",
+        "xmlSettings",
+        "rootSettings",
+        "JSONUtility",
+        "toModel",
+        "xmlSettings",
+        "rootSettings",
+        "settings",
+        "JSONUtility",
+        "toModel",
+        "rootSettings",
+        "getLiberty",
+        "settings",
+        "version",
+        "settings",
+        "getVersion",
+        "version",
+        "version",
+        "DEFAULT_SERVER_VERSION"
+    ],
+    "literals": [
+        "\"20.0.0.9\""
+    ],
+    "variables": [
+        "settings"
+    ],
+    "comments": [
+        "Singleton so that only 1 Settings Service can be initialized and is",
+        "shared between all Lemminx Language Feature Participants"
+    ],
+    "docstrings": [
+        "* Takes the xml settings object and parses out the Liberty Settings\n   * @param xmlSettings - All xml settings provided by the client"
+    ],
+    "functions": [
+        "SettingsService",
+        "getInstance",
+        "SettingsService",
+        "updateLibertySettings",
+        "getLibertyVersion"
+    ],
+    "classes": [
+        "SettingsService"
+    ]
+}

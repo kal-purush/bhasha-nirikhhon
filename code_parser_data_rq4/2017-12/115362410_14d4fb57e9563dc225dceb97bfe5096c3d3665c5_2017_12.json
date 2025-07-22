@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "csv",
+        "fone",
+        "ftwo",
+        "fthree",
+        "ffour",
+        "ffive",
+        "fsix",
+        "fone",
+        "ftwo",
+        "fthree",
+        "ffour",
+        "ffive",
+        "fsix",
+        "csv",
+        "data",
+        "index",
+        "data",
+        "index",
+        "MyData",
+        "MyCSV",
+        "data",
+        "index",
+        "data",
+        "index",
+        "data",
+        "index",
+        "MyData",
+        "app",
+        "error",
+        "success",
+        "error"
+    ],
+    "literals": [
+        "'express'",
+        "'csv'",
+        "'path'",
+        "'./MyReport.csv'",
+        "\"Error while starting server\"",
+        "\"Server started\""
+    ],
+    "variables": [
+        "app",
+        "csv",
+        "path",
+        "obj",
+        "MyData",
+        "index"
+    ],
+    "comments": [
+        "Define the MyCSV object with parameterized constructor, this will be used for storing the data read from the csv into an array of MyCSV. You will need to define each field as shown above.",
+        "MyData array will contain the data from the CSV file and it will be sent to the clients request over HTTP."
+    ],
+    "docstrings": [],
+    "functions": [
+        "MyCSV"
+    ],
+    "classes": []
+}

@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Threading",
+        "Threading",
+        "Tasks",
+        "NuGet",
+        "VisualStudio",
+        "Contracts",
+        "INuGetProjectService",
+        "InstalledPackagesResult",
+        "Guid",
+        "projectId",
+        "CancellationToken",
+        "cancellationToken"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Copyright (c) .NET Foundation. All rights reserved.",
+        "Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information.",
+        "<remarks>This interface should not be implemented. New methods may be added over time.</remarks>",
+        "<Summary>Gets the list of packages installed in a project.</Summary>",
+        "<param name=\"projectId\">Project ID (GUID).</param>",
+        "<param name=\"cancellationToken\">Cancellation token.</param>",
+        "<returns>The list of packages in the project.</returns>"
+    ],
+    "docstrings": [
+        "<summary>Service to interact with projects in a solution</summary>"
+    ],
+    "functions": [
+        "GetInstalledPackagesAsync"
+    ],
+    "classes": []
+}

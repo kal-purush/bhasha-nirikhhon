@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "bpy",
+        "services",
+        "LogService",
+        "LogService",
+        "get_logger",
+        "_LOG",
+        "set_level",
+        "LogService",
+        "DEBUG",
+        "mode",
+        "bpy",
+        "context",
+        "mode",
+        "current_mode",
+        "mode",
+        "_LOG",
+        "debug",
+        "current_mode",
+        "mode",
+        "bpy",
+        "ops",
+        "mode_set",
+        "mode",
+        "mode",
+        "toggle",
+        "_LOG",
+        "trace",
+        "mode",
+        "checked_mode_set",
+        "checked_mode_set",
+        "checked_mode_set"
+    ],
+    "literals": [
+        "\"abstractrighelper\"",
+        "\"Switching mode (from, to)\"",
+        "\"Current mode is already\"",
+        "'EDIT'",
+        "'POSE'",
+        "'OBJECT'"
+    ],
+    "variables": [
+        "_LOG",
+        "current_mode"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Helper for managing mode switches.\"\"\"",
+        "\"\"\"\n    A helper class for managing rig-related operations in Blender.\n\n    This class provides methods to switch between different modes (Edit, Pose, Object)\n    and ensures that mode changes are performed only when necessary.\n    \"\"\"",
+        "\"\"\"\n        Set the Blender mode if it's different from the current mode.\n\n        Args:\n            mode (str): The desired Blender mode ('EDIT', 'POSE', or 'OBJECT').\n\n        Note:\n            This method checks the current mode before switching to avoid unnecessary mode changes.\n        \"\"\"",
+        "\"\"\"\n        Switch to Edit mode.\n\n        This method is a convenience wrapper for switching to 'EDIT' mode.\n        \"\"\"",
+        "\"\"\"\n        Switch to Pose mode.\n\n        This method is a convenience wrapper for switching to 'POSE' mode.\n        \"\"\"",
+        "\"\"\"\n        Switch to Object mode.\n\n        This method is a convenience wrapper for switching to 'OBJECT' mode.\n        \"\"\""
+    ],
+    "functions": [
+        "checked_mode_set",
+        "edit_mode",
+        "pose_mode",
+        "object_mode"
+    ],
+    "classes": [
+        "AbstractRigHelper"
+    ]
+}

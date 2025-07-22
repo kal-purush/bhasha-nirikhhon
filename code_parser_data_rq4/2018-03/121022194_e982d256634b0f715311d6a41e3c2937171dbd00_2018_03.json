@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Entity",
+        "PrimaryGeneratedColumn",
+        "Column",
+        "JoinColumn",
+        "ManyToOne",
+        "User",
+        "Entity",
+        "PrimaryGeneratedColumn",
+        "ManyToOne",
+        "User",
+        "JoinColumn",
+        "ManyToOne",
+        "User",
+        "JoinColumn",
+        "Column",
+        "Column"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'../User/User'",
+        "'friend_requests'",
+        "'sender_id'",
+        "'id'",
+        "'receiver_id'",
+        "'id'",
+        "'created_at'",
+        "'timestamp'",
+        "'deleted_at'",
+        "'timestamp'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "remove"
+    ],
+    "classes": [
+        "FriendRequest"
+    ]
+}

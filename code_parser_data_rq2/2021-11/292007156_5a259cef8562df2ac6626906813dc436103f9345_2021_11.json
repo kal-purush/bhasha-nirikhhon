@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "GraphQLRuleTester",
+        "rule",
+        "GraphQLRuleTester",
+        "ruleTester",
+        "rule"
+    ],
+    "literals": [
+        "'../src'",
+        "'../src/rules/no-case-insensitive-enum-values-duplicates'",
+        "'no-case-insensitive-enum-values-duplicates'",
+        "'enum A { TEST TesT }'",
+        "'Case-insensitive enum values duplicates are not allowed! Found: \"TesT\"'",
+        "'extend enum A { TEST TesT }'",
+        "'Case-insensitive enum values duplicates are not allowed! Found: \"TesT\"'"
+    ],
+    "variables": [
+        "ruleTester"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

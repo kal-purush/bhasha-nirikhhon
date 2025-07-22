@@ -1,0 +1,19 @@
+{
+    "identifiers": [
+        "Component",
+        "Component"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'notes-container'",
+        ".note-card {\n      padding: 15px;\n      border-radius: 2px;\n      width: 100%;\n      position: relative;\n    }\n    .title {\n      font-size: 1.2rem;\n      font-weight: bold;\n      text-align: left;\n      color: rgba(0,0,0,0.8);\n    }\n    .value {\n      text-align: left;\n      font-size: 1.4rem;\n      font-weight: 200;\n    }\n    .icon {\n      position: absolute;\n      color: black;\n      border: 1px solid lightgrey;\n      background-color: white;\n      font-size: 30px;\n      top: -10px;\n      left: -10px;\n      width: 40px;\n      height: 40px;\n      border-radius: 100%;\n      cursor: pointer;\n    }",
+        "<div class='row center-xs notes'>\n      <div class='col-xs-6 creator'>\n      note creator here\n      </div>\n      <div class='notes col-xs-8'>\n        <div class='row between-xs'>\n          note card here\n        </div>\n      </div>\n    </div>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Notes"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Soenneker",
+        "Cloudflare",
+        "Turnstile",
+        "Validator",
+        "Responses",
+        "Soenneker",
+        "Validators",
+        "Validator",
+        "Abstract",
+        "Threading",
+        "Threading",
+        "Tasks",
+        "Soenneker",
+        "Cloudflare",
+        "Turnstile",
+        "Validator",
+        "Abstract",
+        "ITurnstileValidator",
+        "IValidator",
+        "ValueTask",
+        "TurnstileValidationResponse",
+        "token",
+        "remoteIp",
+        "CancellationToken",
+        "cancellationToken",
+        "ValueTask",
+        "token",
+        "remoteIp",
+        "CancellationToken",
+        "cancellationToken"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "A validation module checking Cloudflare Turnstile tokens",
+        "</summary>",
+        "Asynchronously gets the Turnstile validation response based on the provided token and optional remote IP address.",
+        "</summary>",
+        "<param name=\"token\">The token to validate.</param>",
+        "<param name=\"remoteIp\">The optional remote IP address of the client.</param>",
+        "<param name=\"cancellationToken\">The cancellation token to cancel the operation.</param>",
+        "<returns>A <see cref=\"ValueTask{TResult}\"/> that represents the asynchronous operation, containing a <see cref=\"TurnstileValidationResponse\"/> if the operation succeeds, or <c>null</c> if it fails.</returns>",
+        "Asynchronously validates the provided token with the optional remote IP address.",
+        "</summary>",
+        "<param name=\"token\">The token to validate.</param>",
+        "<param name=\"remoteIp\">The optional remote IP address of the client.</param>",
+        "<param name=\"cancellationToken\">The cancellation token to cancel the operation.</param>",
+        "<returns>A <see cref=\"ValueTask{TResult}\"/> that represents the asynchronous operation, containing <c>true</c> if the validation succeeds, or <c>false</c> if it fails.</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "GetResponse",
+        "Validate"
+    ],
+    "classes": []
+}

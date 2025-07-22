@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "com",
+        "github",
+        "ambry",
+        "commons",
+        "java",
+        "util",
+        "Objects",
+        "BoundType",
+        "UpperBound",
+        "LowerBound",
+        "threshold",
+        "boundType",
+        "threshold",
+        "boundType",
+        "threshold",
+        "threshold",
+        "boundType",
+        "boundType",
+        "value",
+        "Objects",
+        "requireNonNull",
+        "value",
+        "boundType",
+        "BoundType",
+        "UpperBound",
+        "value",
+        "threshold",
+        "value",
+        "threshold",
+        "threshold"
+    ],
+    "literals": [
+        "\"Input value is empty which cannot be applied to threshold check.\""
+    ],
+    "variables": [
+        "threshold",
+        "boundType"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2019 LinkedIn Corp. All rights reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n * http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+        "* Criteria is a data structure that holds predefined threshold value and its type (UpperBound or LowerBound).\n * To meet criteria, the measured value should be lower(higher) than the predefined threshold value if threshold is\n * defined as UpperBound(LowerBound).",
+        "* Criteria ctor\n   * @param threshold the predefined value of threshold\n   * @param boundType specifies whether this threshold is UpperBound or LowerBound.",
+        "* Check if measured value meets the predefined requirement(threshold).\n   * @param value the measured value to check.\n   * @return {@code true} if measured value meets requirement. {@code false} otherwise.\n   * @throws NullPointerException when the input value is null.",
+        "* @return the threshold value associated with this criteria"
+    ],
+    "functions": [
+        "Criteria",
+        "meetRequirement",
+        "getThresholdValue"
+    ],
+    "classes": [
+        "Criteria"
+    ]
+}

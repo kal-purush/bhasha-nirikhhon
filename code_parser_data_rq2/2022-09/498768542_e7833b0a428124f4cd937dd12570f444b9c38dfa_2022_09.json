@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "RelationshipClass",
+        "StepSpec",
+        "IntegrationConfig",
+        "RelationshipClass",
+        "RelationshipClass"
+    ],
+    "literals": [
+        "'@jupiterone/integration-sdk-core'",
+        "'../../../../src/config'",
+        "'fetch-policies'",
+        "'Fetch Policies'",
+        "'Policy'",
+        "'csw_policy'",
+        "'ControlPolicy'",
+        "'string'",
+        "'string'",
+        "'string'",
+        "'array'",
+        "'string'",
+        "'csw_account_has_policy'",
+        "'csw_account'",
+        "'csw_policy'",
+        "'fetch-account'",
+        "'build-policy-scope-relationships'",
+        "'Build Policy -> Scope Relationships'",
+        "'csw_policy_has_scope'",
+        "'csw_policy'",
+        "'csw_scope'",
+        "'fetch-policies'",
+        "'fetch-scopes'"
+    ],
+    "variables": [
+        "policySpec"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* ENDPOINT: [https://localhost/api/v1/applications/{policyId}/policies]\n     * PATTERN: Fetch Entities",
+        "* ENDPOINT: []\n     * PATTERN: Build Child Relationships"
+    ],
+    "functions": [],
+    "classes": []
+}

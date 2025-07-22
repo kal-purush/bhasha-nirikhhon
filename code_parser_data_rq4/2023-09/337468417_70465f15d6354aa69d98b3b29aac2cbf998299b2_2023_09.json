@@ -1,0 +1,17 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [
+        "specdoc_examples",
+        "result_vpc_samples"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Documentation fragments for the vpc module\"\"\"",
+        "'''\n- name: Create a VPC \n  linode.cloud.vpc:\n    label: my-vpc\n    region: us-east\n    description: A description of this VPC.\n    state: present'''",
+        "'''\n- name: Delete a VPC\n  linode.cloud.vpc:\n    label: my-vpc\n    state: absent'''",
+        "'''{\n    \"created\": \"2023-08-31T18:35:01\",\n    \"description\": \"A description of this VPC\",\n    \"id\": 344,\n    \"label\": \"my-vpc\",\n    \"region\": \"us-east\",\n    \"subnets\": [],\n    \"updated\": \"2023-08-31T18:35:03\"\n}'''"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "z",
+        "sql",
+        "z",
+        "z",
+        "z",
+        "z",
+        "z",
+        "z",
+        "FormSchema",
+        "formData",
+        "CreateInvoice",
+        "formData",
+        "formData",
+        "formData",
+        "amount",
+        "sql",
+        "customerId",
+        "amountInCents",
+        "status",
+        "date"
+    ],
+    "literals": [
+        "'use server'",
+        "'zod'",
+        "'@vercel/postgres'",
+        "'pending'",
+        "'paid'",
+        "'customerId'",
+        "'amount'",
+        "'status'",
+        "'T'",
+        "INSERT INTO invoices (customer_id, amount, status, date)\n    VALUES (${customerId}, ${amountInCents}, ${status}, ${date})"
+    ],
+    "variables": [
+        "FormSchema",
+        "CreateInvoice",
+        "amountInCents",
+        "date"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "createInvoice"
+    ],
+    "classes": []
+}

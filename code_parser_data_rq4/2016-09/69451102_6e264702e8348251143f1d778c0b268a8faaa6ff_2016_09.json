@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "org",
+        "springframework",
+        "data",
+        "neo4j",
+        "conversion",
+        "org",
+        "neo4j",
+        "ogm",
+        "typeconversion",
+        "CompositeAttributeConverter",
+        "org",
+        "springframework",
+        "data",
+        "geo",
+        "Point",
+        "java",
+        "util",
+        "java",
+        "util",
+        "Override",
+        "point",
+        "properties",
+        "point",
+        "properties",
+        "put",
+        "point",
+        "getX",
+        "properties",
+        "put",
+        "point",
+        "getY",
+        "properties",
+        "Override",
+        "latitude",
+        "get",
+        "longitude",
+        "get",
+        "latitude",
+        "longitude",
+        "latitude",
+        "longitude"
+    ],
+    "literals": [
+        "\"latitude\"",
+        "\"longitude\"",
+        "\"latitude\"",
+        "\"longitude\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c)  [2011-2016] \"Pivotal Software, Inc.\" / \"Neo Technology\" / \"Graph Aware Ltd.\"\n *\n * This product is licensed to you under the Apache License, Version 2.0 (the \"License\").\n * You may not use this product except in compliance with the License.\n *\n * This product may include a number of subcomponents with\n * separate copyright notices and license terms. Your use of the source\n * code for these subcomponents is subject to the terms and\n * conditions of the subcomponent's license, as noted in the LICENSE file.\n *",
+        "* Converts latitude and longitude properties on a node entity to an instance of Point and vice-versa.\n *\n * @see Point\n * @author Jasper Blues"
+    ],
+    "functions": [
+        "toGraphProperties",
+        "Point",
+        "toEntityAttribute"
+    ],
+    "classes": [
+        "PointConverter"
+    ]
+}

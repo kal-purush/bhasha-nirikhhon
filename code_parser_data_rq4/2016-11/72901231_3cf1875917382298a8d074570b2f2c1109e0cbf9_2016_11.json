@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "mongodb",
+        "express",
+        "app",
+        "express",
+        "__dirname",
+        "app",
+        "bodyParser",
+        "mongodb",
+        "process",
+        "err",
+        "database",
+        "err",
+        "err",
+        "process",
+        "db",
+        "database",
+        "app",
+        "process",
+        "server",
+        "port"
+    ],
+    "literals": [
+        "\"express\"",
+        "\"path\"",
+        "\"body-parser\"",
+        "\"mongodb\"",
+        "\"contacts\"",
+        "\"/public\"",
+        "\"Database connection ready\"",
+        "\"App now running on port\""
+    ],
+    "variables": [
+        "express",
+        "path",
+        "bodyParser",
+        "mongodb",
+        "ObjectID",
+        "CONTACTS_COLLECTION",
+        "app",
+        "db",
+        "server",
+        "port"
+    ],
+    "comments": [
+        "Create a database variable outside of the database connection callback to reuse the connection pool in your app.",
+        "Connect to the database before starting the application server.",
+        "Save database object from the callback for reuse.",
+        "Initialize the app.",
+        "CONTACTS API ROUTES BELOW"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

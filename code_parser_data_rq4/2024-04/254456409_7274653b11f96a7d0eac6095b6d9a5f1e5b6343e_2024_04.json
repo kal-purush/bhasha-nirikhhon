@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "Dorssel",
+        "Utilities",
+        "TEvent",
+        "EventArgs",
+        "IList",
+        "TEvent",
+        "events",
+        "Events",
+        "events",
+        "IList",
+        "TEvent"
+    ],
+    "literals": [],
+    "variables": [
+        "Events"
+    ],
+    "comments": [
+        "SPDX-FileCopyrightText: 2024 Frans van Dorsselaer",
+        "",
+        "SPDX-License-Identifier: MIT",
+        "",
+        "SPDX-FileContributor: Alain van den Berg",
+        "Provides data for the <see cref=\"IBufferer{TEvent}.Buffered\"/> event.",
+        "</summary>",
+        "Initializes a new instance of the <see cref=\"BufferedEventArgs{TEvent}\"/> class.",
+        "</summary>",
+        "<param name=\"events\">The original events accumulated since the previous buffered event was sent.",
+        "<para>Must be greater than 0.</para>",
+        "</param>",
+        "Original events accumulated in this buffered event.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "BufferedEventArgs"
+    ],
+    "classes": [
+        "BufferedEventArgs"
+    ]
+}

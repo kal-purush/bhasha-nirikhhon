@@ -1,0 +1,90 @@
+{
+    "identifiers": [
+        "Command",
+        "SfdxCommandBuilder",
+        "CancelResponse",
+        "ContinueResponse",
+        "FunctionInfo",
+        "ParametersGatherer",
+        "vscode",
+        "nls",
+        "CompositeParametersGatherer",
+        "SfdxCommandlet",
+        "SfdxWorkspaceChecker",
+        "BaseTemplateCommand",
+        "FUNCTION_TYPE",
+        "BaseTemplateCommand",
+        "FUNCTION_TYPE",
+        "data",
+        "data",
+        "data",
+        "SfdxCommandBuilder",
+        "nls",
+        "data",
+        "data",
+        "nls",
+        "vscode",
+        "vscode",
+        "nameInputOptions",
+        "name",
+        "vscode",
+        "nls",
+        "language",
+        "name",
+        "CompositeParametersGatherer",
+        "FunctionInfoGatherer",
+        "SfdxCommandlet",
+        "SfdxWorkspaceChecker",
+        "parameterGatherer",
+        "ForceFunctionCreateExecutor",
+        "commandlet"
+    ],
+    "literals": [
+        "'@salesforce/salesforcedx-utils-vscode/out/src/cli'",
+        "'@salesforce/salesforcedx-utils-vscode/out/src/types'",
+        "'vscode'",
+        "'../../messages'",
+        "'../util'",
+        "'./baseTemplateCommand'",
+        "'./metadataTypeConstants'",
+        "'javascript'",
+        "'js'",
+        "'typescript'",
+        "'ts'",
+        "'force_function_create_text'",
+        "'evergreen:function:create'",
+        "'--language'",
+        "'force_create_function'",
+        "'force_function_enter_function'",
+        "'CANCEL'",
+        "'javascript'",
+        "'typescript'",
+        "'force_function_enter_language'",
+        "'CANCEL'",
+        "'CONTINUE'",
+        "''"
+    ],
+    "variables": [
+        "nameInputOptions",
+        "name",
+        "language",
+        "parameterGatherer",
+        "commandlet"
+    ],
+    "comments": [
+        "In order to reuse code used by other templates that have outputdir",
+        "and extends DirFileNameSelection, we are passing an empty outputdir"
+    ],
+    "docstrings": [
+        "* Copyright (c) 2020, salesforce.com, inc.\n * All rights reserved.\n * Licensed under the BSD 3-Clause license.\n * For full license text, see LICENSE.txt file in the repo root or https://opensource.org/licenses/BSD-3-Clause"
+    ],
+    "functions": [
+        "build",
+        "gather",
+        "forceFunctionCreate"
+    ],
+    "classes": [
+        "ForceFunctionCreateExecutor",
+        "FunctionInfoGatherer"
+    ]
+}

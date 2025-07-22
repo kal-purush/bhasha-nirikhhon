@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "XboxKeyboardMouse",
+        "startingDeadZoneSize",
+        "startingIncrementSize",
+        "CurrentDeadZone",
+        "startingDeadZoneSize",
+        "CalibrationIncrement",
+        "startingIncrementSize",
+        "CurrentDeadZone",
+        "CalibrationIncrement",
+        "CurrentDeadZone",
+        "CurrentDeadZone",
+        "CurrentDeadZone"
+    ],
+    "literals": [],
+    "variables": [
+        "CurrentDeadZone",
+        "CalibrationIncrement"
+    ],
+    "comments": [
+        "<remarks>",
+        "In the end, this should be nearer to matching the game's true dead zone. Some example",
+        "values found with the calibrator:",
+        "5500 for Halo 1",
+        "5950 for GoW 4 (when in-game \"Inner Dead Zone setting\" is at default of \"10\")",
+        "0    for GoW 4 (when in-game \"Inner Dead Zone setting\" is at \"0\" instead; best for mouse here)",
+        "9650 for Minecraft (both new and XboxOne ed.)",
+        "</remarks>",
+        "Cap to avoid short conversion issues when user leaves calibrator running too long."
+    ],
+    "docstrings": [
+        "<summary>Calibrator for Dead Zone settings.</summary>",
+        "<summary>The current dead zone size being tested by the calibrator.</summary>"
+    ],
+    "functions": [
+        "DeadZoneCalibrator",
+        "AdvanceDeadZoneSize"
+    ],
+    "classes": [
+        "DeadZoneCalibrator"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "Observable",
+        "Subject",
+        "Response",
+        "Http",
+        "Headers",
+        "EurekaConfig",
+        "EurekaState",
+        "EurekaInstance",
+        "EurekaApp",
+        "EurekaState",
+        "EurekaState",
+        "EurekaState",
+        "config",
+        "Headers",
+        "getRandomInt",
+        "randomInstance",
+        "EurekaState",
+        "http",
+        "http",
+        "EurekaState",
+        "r",
+        "r",
+        "res",
+        "res",
+        "res",
+        "EurekaState",
+        "res",
+        "EurekaState",
+        "min",
+        "max",
+        "max",
+        "min",
+        "min"
+    ],
+    "literals": [
+        "'rxjs'",
+        "'@angular/http'",
+        "'./eureka-config'",
+        "'./eureka-state'",
+        "'./eureka-instance'",
+        "'./eureka-app'",
+        "'Content-Type'",
+        "'application/json'",
+        "'Accept'",
+        "'application/json'",
+        "${this.config.serviceUrl}/${this.config.decoderName}",
+        "Eureka instaces not found on address: ${this.config.serviceUrl}/${this.config.decoderName}",
+        "Eureka server not available address: ${this.config.serviceUrl}/${this.config.decoderName}"
+    ],
+    "variables": [
+        "EurekaWaitTimeout",
+        "randomInstance",
+        "res"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Returns a random integer between min (inclusive) and max (inclusive)\n * Using Math.round() will give you a non-uniform distribution!"
+    ],
+    "functions": [
+        "instance",
+        "isWaiting",
+        "state",
+        "eurekaInstancesResolver",
+        "discovery",
+        "getRandomInt"
+    ],
+    "classes": [
+        "Eureka"
+    ]
+}

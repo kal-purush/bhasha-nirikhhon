@@ -1,0 +1,86 @@
+{
+    "identifiers": [
+        "fs",
+        "UploadHelper",
+        "Storage",
+        "UploadResponse",
+        "opts",
+        "opts",
+        "opts",
+        "opts",
+        "opts",
+        "Buffer",
+        "creds",
+        "opts",
+        "Storage",
+        "creds",
+        "Storage",
+        "destination",
+        "path",
+        "destination",
+        "idx",
+        "bucketName",
+        "destination",
+        "idx",
+        "prefix",
+        "destination",
+        "idx",
+        "fs",
+        "path",
+        "UploadHelper",
+        "stat",
+        "uploader",
+        "bucketName",
+        "path",
+        "prefix",
+        "uploadedFile",
+        "uploader",
+        "bucketName",
+        "path",
+        "prefix",
+        "uploadedFiles"
+    ],
+    "literals": [
+        "'fs'",
+        "'./upload-helper'",
+        "'@google-cloud/storage'",
+        "string",
+        "'{'",
+        "'base64'",
+        "'utf8'",
+        "string",
+        "string",
+        "''",
+        "'/'"
+    ],
+    "variables": [
+        "creds",
+        "creds",
+        "bucketName",
+        "destination",
+        "prefix",
+        "idx",
+        "stat",
+        "uploader",
+        "uploadedFile",
+        "uploadedFiles"
+    ],
+    "comments": [
+        "If the credentials are not JSON, they are probably base64-encoded. Even",
+        "though we don't instruct users to provide base64-encoded credentials,",
+        "sometimes they still do.",
+        "If destination of the form my-bucket/subfolder get bucket and prefix."
+    ],
+    "docstrings": [
+        "* Copyright 2020 Google LLC\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Available options to create the client.\n *\n * @param credentials GCP JSON credentials (default uses ADC).",
+        "* Handles credential lookup, registration and wraps interactions with the GCS\n * Helper.\n *\n * @param opts List of ClientOptions.",
+        "* Invokes GCS Helper for uploading file or directory.\n   * @param bucketName Name of bucket to upload file/dir.\n   * @param path Path of the file/dir to upload.\n   * @param prefix Optional prefix when uploading to GCS.\n   * @returns List of uploaded file(s)."
+    ],
+    "functions": [
+        "upload"
+    ],
+    "classes": [
+        "Client"
+    ]
+}

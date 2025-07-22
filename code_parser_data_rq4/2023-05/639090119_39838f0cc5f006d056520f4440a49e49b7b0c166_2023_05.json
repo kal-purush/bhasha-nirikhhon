@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "Collision",
+        "collision",
+        "collision",
+        "collider",
+        "name",
+        "Destroy",
+        "gameObject"
+    ],
+    "literals": [
+        "\"Pierde\""
+    ],
+    "variables": [],
+    "comments": [
+        "public void OnTriggerEnter(Collider other)\n    {\n        if (other.collider.name == \"Pierde\")\n        {\n            Destroy(this.gameObject);\n        }\n    }",
+        "Start is called before the first frame update",
+        "Update is called once per frame"
+    ],
+    "docstrings": [],
+    "functions": [
+        "OnCollisionEnter",
+        "Start",
+        "Update"
+    ],
+    "classes": [
+        "ComportamientoPelota"
+    ]
+}

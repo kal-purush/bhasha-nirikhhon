@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "ScenarioTesting",
+        "runType"
+    ],
+    "literals": [
+        "'lodash'",
+        "'path'",
+        "'../log'",
+        "'./UtilMethods'",
+        "'./ParseFunctionConfig'",
+        "'../shellCmds'",
+        "'./TypeDefinitions'"
+    ],
+    "variables": [
+        "_",
+        "path",
+        "UtilMethods",
+        "ParseFunctionConfig",
+        "TypeDefinitions"
+    ],
+    "comments": [
+        "if (_.isEmpty(runType)) this.#runType = 'happy';",
+        "else {",
+        "if (['happy', 'fail', 'chaos'].includes(runType)) this.#runType = runType;",
+        "else this.#runType = 'happy';",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

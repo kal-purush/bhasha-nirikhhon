@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "Injectable",
+        "GCloudStorageService",
+        "Injectable",
+        "gcsStorage",
+        "_req",
+        "file",
+        "cb",
+        "file",
+        "file",
+        "storageUrl",
+        "cb",
+        "_req",
+        "file",
+        "cb",
+        "file",
+        "cb"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'./gcloud-storage.service'"
+    ],
+    "variables": [
+        "storageUrl"
+    ],
+    "comments": [
+        "protected azureStorage: AzureStorageService;",
+        "@Inject(AZURE_STORAGE_MODULE_OPTIONS)",
+        "private readonly options: AzureStorageOptions,",
+        "Logger.log(this.azureStorage, 'AzureMulterStorageService');",
+        "this.azureStorage = new AzureStorageService(options);",
+        "@implement multer.storage",
+        "@implement multer.storage"
+    ],
+    "docstrings": [
+        "* @todo This service is not working with the Multer API. Figure out why!"
+    ],
+    "functions": [
+        "_handleFile",
+        "_removeFile"
+    ],
+    "classes": [
+        "GCloudMulterStorageService"
+    ]
+}

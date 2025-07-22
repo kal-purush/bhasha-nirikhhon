@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "bean",
+        "dao",
+        "PaisDao",
+        "imp",
+        "PaisDaoimp",
+        "java",
+        "util",
+        "java",
+        "util",
+        "javax",
+        "annotation",
+        "PostConstruct",
+        "javax",
+        "enterprise",
+        "context",
+        "RequestScoped",
+        "javax",
+        "faces",
+        "bean",
+        "ManagedBean",
+        "javax",
+        "faces",
+        "model",
+        "SelectItem",
+        "model",
+        "Paises",
+        "ManagedBean",
+        "RequestScoped",
+        "listPaises",
+        "pais",
+        "pDao",
+        "listPaises",
+        "pDao",
+        "listaPaises",
+        "pais",
+        "pais",
+        "pais",
+        "pais",
+        "listPaises",
+        "listPaises",
+        "listPaises",
+        "listPaises",
+        "PostConstruct",
+        "pais",
+        "setListPaises",
+        "pais",
+        "getNombre"
+    ],
+    "literals": [
+        "\"sistem out \"",
+        "\"index?faces-redirect=true\""
+    ],
+    "variables": [
+        "listPaises",
+        "pais"
+    ],
+    "comments": [
+        "private List<SelectItem> listPaises;",
+        "pais = new Paises();"
+    ],
+    "docstrings": [
+        "* To change this license header, choose License Headers in Project Properties.\n * To change this template file, choose Tools | Templates\n * and open the template in the editor.",
+        "*\n * @author urzoi",
+        "ublic List<SelectItem> getListPaises() {\n        this.listPaises = new ArrayList<>();\n        PaisDao pDao = new PaisDaoimp();\n        List<Paises> p = pDao.listaPaises();\n        listPaises.clear();\n        for(Paises paises : p){\n    SelectItem paisItem = new SelectItem(paises.getId(),paises.getNombre());\n    this.listPaises.add(paisItem);\n    }\n        return listPaises;\n    }",
+        "* Creates a new instance of PaisBean"
+    ],
+    "functions": [
+        "setListPaises",
+        "Paises",
+        "getPais",
+        "setPais",
+        "getListPaises",
+        "setListPaises",
+        "init",
+        "PaisBean",
+        "guardar"
+    ],
+    "classes": [
+        "PaisBean"
+    ]
+}

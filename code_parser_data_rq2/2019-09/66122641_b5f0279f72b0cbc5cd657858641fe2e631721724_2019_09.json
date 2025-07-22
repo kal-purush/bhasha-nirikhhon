@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "com",
+        "practice",
+        "declarations",
+        "variable",
+        "privateScopeNumber",
+        "defaultScopeNumber",
+        "protectedScopeNumber",
+        "publicScopeLiteral",
+        "staticPrivateScopeNumber",
+        "staticDefaultScopeNumber",
+        "staticProtectedScopeNumber",
+        "staticPublicLiteral",
+        "args",
+        "diffObject",
+        "privateScopeNumber",
+        "defaultScopeNumber",
+        "protectedScopeNumber",
+        "publicScopeLiteral",
+        "ClassVariableDeclaration",
+        "staticPrivateScopeNumber",
+        "ClassVariableDeclaration",
+        "staticDefaultScopeNumber",
+        "ClassVariableDeclaration",
+        "staticProtectedScopeNumber",
+        "ClassVariableDeclaration",
+        "staticPublicLiteral",
+        "ClassVariableDeclaration",
+        "staticPrivateScopeNumber",
+        "staticPrivateScopeNumber",
+        "diffObject",
+        "staticPrivateScopeNumber"
+    ],
+    "literals": [
+        "\"Welcome\"",
+        "\"This is a Static String\"",
+        "\"Trying to access the static variables set without Object\"",
+        "\"Actually we did not set against the object, static is shared across objects and here is the proof = \"",
+        "\"Actually we did not set against the diffObject, static is shared across objects and here is the proof = \""
+    ],
+    "variables": [
+        "privateScopeNumber",
+        "defaultScopeNumber",
+        "protectedScopeNumber",
+        "publicScopeLiteral",
+        "staticPrivateScopeNumber",
+        "staticDefaultScopeNumber",
+        "staticProtectedScopeNumber",
+        "staticPublicLiteral"
+    ],
+    "comments": [
+        "This is accessible only in this class, No where else",
+        "This is accessible only in the class and within package",
+        "This is accessible only in the class and within package and any inherited classes",
+        "This is accessible only in the class and within package and any inherited classes",
+        "This static is accessible only in this class, No where else",
+        "This static is accessible only in the class and within package",
+        "This static is accessible only in the class and within package and any inherited classes",
+        "This static is accessible only in the class and within package and any inherited classes",
+        "These below are instance variables, To access or set the value of the variable",
+        "First you must create a object using new operator and the constructor like above",
+        "Proof that the private variable is accessible",
+        "Also note any whole number is a integer by default in Java",
+        "Also note any decimal number is a double by default in Java",
+        "If we have assign to a float variable then we need to type cast first.",
+        "Type casting is making the value compatible to the variable",
+        "Here 4.5 is double so type casting to float so that it is compatible to float",
+        "Proof that default is accessible within class.",
+        "Proof that protected is accessible within class.",
+        "Proof that public is accessible within class.",
+        "For static we can directly access or set as given without creating Object.",
+        "It is not a good practice to access a static variable using the object, just showed for demonstration."
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "ClassVariableDeclaration"
+    ]
+}

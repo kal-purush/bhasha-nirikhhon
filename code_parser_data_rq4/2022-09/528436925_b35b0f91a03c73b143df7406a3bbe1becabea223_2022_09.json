@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "com",
+        "flab",
+        "kinoistkino",
+        "controller",
+        "com",
+        "flab",
+        "kinoistkino",
+        "model",
+        "SearchParam",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "RestController",
+        "RequestMapping",
+        "RequestMapping",
+        "method",
+        "RequestMethod",
+        "GET",
+        "path",
+        "GetMapping",
+        "searchParam",
+        "searchParam",
+        "getAccount",
+        "searchParam",
+        "getPassword",
+        "searchParam",
+        "getName",
+        "searchParam",
+        "getEmail",
+        "searchParam",
+        "getPhoneNumber",
+        "searchParam",
+        "getPage",
+        "searchParam"
+    ],
+    "literals": [
+        "\"/api\"",
+        "\"getMethod\"",
+        "\"Hi getMethod\"",
+        "\"getMultiParameter\""
+    ],
+    "variables": [],
+    "comments": [
+        "Spring에게 이곳은 컨트롤러로 사용 할 것이다 라고 알려주는 지시자",
+        "이 곳으로 들어올 API 주소를 맵핑 (/api 경로를 입력하여 받을 path 입력) localhost:8080/api",
+        "Localhost:8080/api/multiParameter?account=abcd&email=study@gmail.com&page=10",
+        "위와 같이 파라미터가 늘어날 때마다 작성해 주는것은 비효율적이기 때문에 객체를 만들어서 가져온다.",
+        "SearchParam 객체에 정의 된 내용을 가져온다.",
+        "값들이 제대로 들어왔는지 확인",
+        "{\"account\" : \"\", \"email\" : \"\", \"page\" : 0} 과 같이 json 형태로도 리턴"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getRequest",
+        "SearchParam",
+        "getMultiParameter"
+    ],
+    "classes": [
+        "GetController"
+    ]
+}

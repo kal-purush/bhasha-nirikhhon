@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "io",
+        "evitadb",
+        "store",
+        "exception",
+        "lombok",
+        "Getter",
+        "java",
+        "io",
+        "Serial",
+        "Serial",
+        "serialVersionUID",
+        "Getter",
+        "encounteredVersion",
+        "Getter",
+        "currentlySupportedVersion",
+        "encounteredVersion",
+        "currentlySupportedVersion",
+        "encounteredVersion",
+        "currentlySupportedVersion",
+        "encounteredVersion",
+        "encounteredVersion",
+        "currentlySupportedVersion",
+        "currentlySupportedVersion"
+    ],
+    "literals": [
+        "\"Cannot deserialize EvitaDB catalog with storage protocol version \"",
+        "\". \"",
+        "\"Currently supported storage protocol version is \"",
+        "\".\""
+    ],
+    "variables": [
+        "encounteredVersion",
+        "currentlySupportedVersion"
+    ],
+    "comments": [],
+    "docstrings": [
+        "*\n *                         _ _        ____  ____\n *               _____   _(_) |_ __ _|  _ \\| __ )\n *              / _ \\ \\ / / | __/ _` | | | |  _ \\\n *             |  __/\\ V /| | || (_| | |_| | |_) |\n *              \\___| \\_/ |_|\\__\\__,_|____/|____/\n *\n *   Copyright (c) 2023-2025\n *\n *   Licensed under the Business Source License, Version 1.1 (the \"License\");\n *   you may not use this file except in compliance with the License.\n *   You may obtain a copy of the License at\n *\n *   https://github.com/FgForrest/evitaDB/blob/master/LICENSE\n *\n *   Unless required by applicable law or agreed to in writing, software\n *   distributed under the License is distributed on an \"AS IS\" BASIS,\n *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n *   See the License for the specific language governing permissions and\n *   limitations under the License.",
+        "* This exception is used in case that evitaDB encounter storage protocol version in evitaDB catalog that is\n * not supported by the currently running version of the library and cannot be upgraded (or is newer than current\n * version).\n *\n * @author Jan Novotný (novotny@fg.cz), FG Forrest a.s. (c) 2021"
+    ],
+    "functions": [
+        "StoredProtocolVersionNotSupportedException"
+    ],
+    "classes": [
+        "StoredProtocolVersionNotSupportedException"
+    ]
+}

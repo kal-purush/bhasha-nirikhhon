@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Apollo",
+        "gql",
+        "_",
+        "cache",
+        "GET_USERS_QUERY",
+        "usersFromCache",
+        "_",
+        "gql",
+        "cache",
+        "userId",
+        "_",
+        "cache",
+        "GET_USERS_QUERY",
+        "previous",
+        "newUser",
+        "cache",
+        "newUser",
+        "gql",
+        "gql",
+        "gql"
+    ],
+    "literals": [
+        "'apollo-angular-boost'",
+        "User:${params.id}",
+        "fragment user on User {\n              id\n              name\n            }",
+        "'User'",
+        "mutation addUser($id: ID!, $name:string) {\n    addUser (id: $id, name : $name)  @client {\n      id\n      name\n    }\n  }",
+        "query getUsers {\n    users  @client {\n      id\n      name\n    }\n  }",
+        "query user($id: ID!) {\n    user (id: $id) @client {\n      id\n      name\n    }\n  }"
+    ],
+    "variables": [
+        "usersFromCache",
+        "userId",
+        "fragment",
+        "previous",
+        "newUser",
+        "data",
+        "ADD_USER_QUERY",
+        "GET_USERS_QUERY",
+        "GET_USER_QUERY"
+    ],
+    "comments": [
+        "",
+        "QUERIES",
+        ""
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

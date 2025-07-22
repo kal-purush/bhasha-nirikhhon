@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "os",
+        "textwrap",
+        "django",
+        "utils",
+        "translation",
+        "ugettext_lazy",
+        "_",
+        "orchestra",
+        "contrib",
+        "orchestration",
+        "ServiceController",
+        "ServiceController",
+        "_",
+        "content",
+        "get_context",
+        "content",
+        "context",
+        "append",
+        "textwrap",
+        "dedent",
+        "context",
+        "content",
+        "get_context",
+        "content",
+        "append",
+        "textwrap",
+        "dedent",
+        "context",
+        "content",
+        "content",
+        "get_absolute_url",
+        "content",
+        "webapp",
+        "data",
+        "get"
+    ],
+    "literals": [
+        "\"WordPress URL\"",
+        "'websites.Content'",
+        "\"content.webapp.type == 'wordpress-php'\"",
+        "'url'",
+        "'url'",
+        "'db_name'",
+        "'db_name'"
+    ],
+    "variables": [
+        "verbose_name",
+        "model",
+        "default_route_match",
+        "context",
+        "context"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Configures WordPress site URL with associated website domain.\n    \"\"\"",
+        "\"\"\"\\\n                mysql %(db_name)s -e 'UPDATE wp_options\n                                      SET option_value=\"%(url)s\"\n                                      WHERE option_id IN (1, 2) AND option_value=\"http:\";'\n                \"\"\"",
+        "\"\"\"\\\n            mysql %(db_name)s -e 'UPDATE wp_options\n                                  SET option_value=\"http:\"\n                                  WHERE option_id IN (1, 2);'\n            \"\"\""
+    ],
+    "functions": [
+        "save",
+        "get_context"
+    ],
+    "classes": [
+        "WordPressURLBackend"
+    ]
+}

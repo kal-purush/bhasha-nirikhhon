@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "Component",
+        "bootstrap",
+        "FORM_DIRECTIVES",
+        "CORE_DIRECTIVES",
+        "Component",
+        "FORM_DIRECTIVES",
+        "CORE_DIRECTIVES",
+        "HEROES",
+        "hero",
+        "hero",
+        "hero",
+        "hero",
+        "bootstrap",
+        "AppComponent"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'my-app'",
+        ".heroes { list-style-type: none; margin-left: 1em; padding: 0; width: 10em; }\n\t\t.heroes li { cursor: pointer, position: relative; left: 0; transition: all 0.2s ease; }\n\t\t.heroes li:hover { color: #369; background-color: #eee; left: .2em; }\n\t\t.heroes .badge { font-size:small; color: white; padding: 0.1em 0.7em; background-color: #369;\n\t\t\tline-height: 1em; position: relative; left: -1em; top: 1px; }\n\t\t.selected { background: #eee; color: #369; }",
+        "<h1>{{title}}</h1>\n\t\t<h2>My Heroes</h2>\n\t\t<ul class=\"heroes\">\n\t\t\t<li *ng-for=\"#hero of heroes\" (click)=\"onSelect(hero)\" [ng-class]=\"getSelectedClass(hero)\">\n\t\t\t\t<span class=\"badge\">{{hero.id}}</span> {{hero.name}}</a>\n\t\t\t</li>\n\t\t</ul>\n\t\t<div *ng-if=\"selectedHero\">\n\t\t\t<h2>{{selectedHero.name}} details!</h2>\n\t\t\t<div>\n\t\t\t\t<label>id: </label>{{selectedHero.id}}\n\t\t\t</div>\n\t\t\t<div>\n\t\t\t\t<label>name: </label>\n\t\t\t\t<div><input [(ng-model)]=\"selectedHero.name\" placeholder=\"name\"></div>\n\t\t\t</div>\n\t\t</div>",
+        "'Tour of Heroes'",
+        "\"Windstorm\"",
+        "'selected'",
+        "string",
+        "\"id\"",
+        "\"name\"",
+        "\"Mr. Nice\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Bombasto\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Celeritas\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Magneta\"",
+        "\"id\"",
+        "\"name\"",
+        "\"RubberMan\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Dynama\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Narco\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Dr. IQ\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Magma\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Tornado\""
+    ],
+    "variables": [
+        "HEROES"
+    ],
+    "comments": [
+        "Typescript"
+    ],
+    "docstrings": [],
+    "functions": [
+        "onSelect",
+        "getSelectedClass"
+    ],
+    "classes": [
+        "AppComponent",
+        "Hero"
+    ]
+}

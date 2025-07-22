@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "value",
+        "vr",
+        "value",
+        "vr",
+        "VRs_TO_BE_INTS",
+        "vr",
+        "VRs_TO_BE_FLOATS",
+        "number_type",
+        "isinstance",
+        "value",
+        "number_type",
+        "e",
+        "e",
+        "value",
+        "number_type",
+        "value",
+        "value"
+    ],
+    "literals": [
+        "'Value'",
+        "'BulkDataURI'",
+        "'InlineBinary'",
+        "\"DS\"",
+        "\"FL\"",
+        "\"FD\"",
+        "\"IS\"",
+        "\"SL\"",
+        "\"SS\"",
+        "\"UL\"",
+        "\"US\""
+    ],
+    "variables": [
+        "JSON_VALUE_KEYS",
+        "VRs_TO_BE_FLOATS",
+        "VRs_TO_BE_INTS",
+        "number_type",
+        "number_type",
+        "number_type",
+        "value",
+        "value"
+    ],
+    "comments": [
+        "Copyright 2008-2019 pydicom authors. See LICENSE file for details.",
+        "Order of keys is significant!"
+    ],
+    "docstrings": [
+        "\"\"\"Methods for converting Datasets and DataElements to/from json\"\"\"",
+        "\"\"\"Makes sure that values are either ints or floats\n    based on their value representation.\n\n    Parameters\n    ----------\n    value: Union[Union[str, int, float], List[Union[str, int, float]]]\n        value of data element\n    vr: str\n        value representation of data element\n\n    Returns\n    -------\n    Union[Union[str, int, float], List[Union[str, int, float]]]\n\n    \"\"\""
+    ],
+    "functions": [
+        "_convert_to_python_number"
+    ],
+    "classes": []
+}

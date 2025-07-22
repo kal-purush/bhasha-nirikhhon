@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Router",
+        "Request",
+        "Response",
+        "StatusCodes",
+        "HashtagService",
+        "HashtagService",
+        "Router",
+        "req",
+        "res",
+        "req",
+        "limit",
+        "res",
+        "StatusCodes",
+        "hashtags"
+    ],
+    "literals": [
+        "'express'",
+        "'http-status-codes'",
+        "'../services/hashtag.service.js'",
+        "'express-async-errors'",
+        "'/hashtags/popular'"
+    ],
+    "variables": [
+        "limit",
+        "hashtags"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @swagger\n     * /api/v1/hashtags/popular:\n     *   get:\n     *     summary: \"인기 해시태그 조회\"\n     *     description: \"매거진의 좋아요 및 북마크 수 기반으로 인기 해시태그를 가져옵니다.\"\n     *     tags:\n     *       - Hashtag\n     *     parameters:\n     *       - in: query\n     *         name: limit\n     *         required: false\n     *         description: \"조회할 해시태그 개수 (기본값: 6)\"\n     *         schema:\n     *           type: number\n     *     responses:\n     *       200:\n     *         description: \"인기 해시태그 조회 성공\"\n     *         content:\n     *           application/json:\n     *             schema:\n     *               type: object\n     *               properties:\n     *                 isSuccess:\n     *                   type: boolean\n     *                   description: \"요청 성공 여부\"\n     *                 code:\n     *                   type: string\n     *                   description: \"응답 코드\"\n     *                   example: \"COMMON200\"\n     *                 message:\n     *                   type: string\n     *                   description: \"응답 메시지\"\n     *                   example: \"성공입니다.\"\n     *                 result:\n     *                   type: object\n     *                   properties:\n     *                     hashtags:\n     *                       type: array\n     *                       items:\n     *                         type: object\n     *                         properties:\n     *                           hashtag_id:\n     *                             type: number\n     *                             description: \"해시태그 ID\"\n     *                           name:\n     *                             type: string\n     *                             description: \"해시태그명\"\n     *                           popularity:\n     *                             type: number\n     *                             description: \"인기 점수 (좋아요 + 북마크 합산)\"\n     *       400:\n     *         description: \"잘못된 요청\""
+    ],
+    "functions": [
+        "initializeRoutes",
+        "getPopularHashtags"
+    ],
+    "classes": [
+        "HashtagController"
+    ]
+}

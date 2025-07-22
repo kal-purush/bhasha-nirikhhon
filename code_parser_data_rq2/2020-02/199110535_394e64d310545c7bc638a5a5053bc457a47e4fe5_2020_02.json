@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Globalization",
+        "Windows",
+        "Data",
+        "Magitek",
+        "Gambits",
+        "Magitek",
+        "Converters",
+        "IMultiValueConverter",
+        "values",
+        "Type",
+        "targetType",
+        "parameter",
+        "CultureInfo",
+        "culture",
+        "values",
+        "values",
+        "GambitGroup",
+        "values",
+        "Gambit",
+        "values",
+        "Tuple",
+        "GambitGroup",
+        "Gambit",
+        "gambitGroup",
+        "gambit",
+        "e",
+        "value",
+        "Type",
+        "targetTypes",
+        "parameter",
+        "CultureInfo",
+        "culture"
+    ],
+    "literals": [],
+    "variables": [
+        "gambitGroup",
+        "gambit"
+    ],
+    "comments": [
+        "catching and doing nothing with an exception here because for whatever reason WPF decides",
+        "to go through every converter on every ICommand action causing exceptions on some of the commands.",
+        "removing this will cause RemoveGambit to throw an error on this converter that MSObject cannot be cast to Gambit",
+        "even though the delete gambit button does not using multibinding or a converter"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Convert",
+        "ConvertBack"
+    ],
+    "classes": [
+        "GambitOrderPositionConverter"
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "initialize",
+        "response",
+        "response",
+        "response",
+        "response",
+        "response",
+        "response",
+        "response",
+        "id",
+        "id",
+        "query",
+        "query",
+        "query",
+        "query"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "\"load\"",
+        "\": \""
+    ],
+    "variables": [],
+    "comments": [
+        "------------------------------ Helper Functions  ------------------------------"
+    ],
+    "docstrings": [
+        "*\n * A webpage for fetching cute pet photos. Puppies (the best) or\n * kitties will be populated on the page after the user selects their desired\n * pet type.",
+        "* TODO: What do we need to initialize?",
+        "* TODO: Fetch data from the CSE 154 ajax pets api!",
+        "* TODO: Implement any other functions you need",
+        "* Helper function to return the response's result text if successful, otherwise\n   * returns the rejected Promise result with an error status and corresponding text\n   * @param {object} response - response to check for success/error\n   * @return {object} - valid result text if response was successful, otherwise rejected\n   *                    Promise result",
+        "* Returns the element that has the ID attribute with the specified value.\n   * @param {string} id - element ID\n   * @return {object} DOM object associated with id.",
+        "* Returns the first element that matches the given CSS selector.\n   * @param {string} query - CSS query selector.\n   * @returns {object[]} array of DOM objects matching the query.",
+        "* Returns the array of elements that match the given CSS selector.\n   * @param {string} query - CSS query selector\n   * @returns {object[]} array of DOM objects matching the query."
+    ],
+    "functions": [
+        "initialize",
+        "makeRequest",
+        "checkStatus",
+        "id",
+        "qs",
+        "qsa"
+    ],
+    "classes": []
+}

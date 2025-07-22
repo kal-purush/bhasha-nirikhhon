@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "RobotGame",
+        "RobotGame",
+        "$",
+        "$classSelected",
+        "$",
+        "$",
+        "RobotGame",
+        "index",
+        "$classSelected",
+        "player1",
+        "index",
+        "player1",
+        "player1",
+        "player1",
+        "$",
+        "$weaponSelected",
+        "$",
+        "$",
+        "RobotGame",
+        "index",
+        "$weaponSelected",
+        "player1",
+        "index",
+        "populateBattlePage",
+        "$",
+        "player1",
+        "player2",
+        "player2",
+        "player1",
+        "populateBattlePage",
+        "$",
+        "player1",
+        "player1",
+        "player1",
+        "player1",
+        "$",
+        "player2",
+        "player2",
+        "player2",
+        "player2"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "'.class_selected'",
+        "\"value\"",
+        "'.weapon_selected'",
+        "\"value\"",
+        "'#attack_button'",
+        "'#playerHp'",
+        "<div id=\"stat__name\"><h1>${player1.playerName}</h1></div>\n                      <div class=\"stat__font\" id=\"stat__health\"><span>You Have <strong>${player1.health}</strong> HP</span></div>\n                      <div class=\"stat__font\" id=\"stat__weapon\"><span>Your weapon is a <strong>${player1.weapon.name}</strong></span></div>\n                      <div class=\"stat__font\" id=\"stat__class\"><span>Your Class is <strong>${player1.class.name}</strong></span></div>",
+        "'#enemyHp'",
+        "<div id=\"stat__name\"><h1>${player2.playerName}</h1></div>\n                      <div class=\"stat__font\" id=\"stat__health\"><span>You Have <strong>${player2.health}</strong> HP</span></div>\n                      <div class=\"stat__font\" id=\"stat__weapon\"><span>Your weapon is a <strong>${player2.weapon.name}</strong></span></div>\n                      <div class=\"stat__font\" id=\"stat__class\"><span>Your Class is <strong>${player2.class.name}</strong></span></div>"
+    ],
+    "variables": [
+        "$classSelected",
+        "$weaponSelected",
+        "player1",
+        "player2",
+        "randomNum"
+    ],
+    "comments": [
+        "randomNum between 0 - 3;",
+        "iterate over every function in an object to determine which class was selected",
+        "index applies the current function",
+        "update HP based on $classSelected",
+        "iterate over every function in an object to determine which class was selected",
+        "index applies the current function",
+        "Attack button battle function",
+        "battle page logic"
+    ],
+    "docstrings": [
+        "****eventListeners - position selected****",
+        "****eventListeners - position selected****",
+        "****eventListeners - weapons selected****",
+        "****eventListeners - weapons selected****"
+    ],
+    "functions": [
+        "populateBattlePage"
+    ],
+    "classes": []
+}

@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "w",
+        "NAT",
+        "split",
+        "w",
+        "format",
+        "iface",
+        "w",
+        "format",
+        "w",
+        "w"
+    ],
+    "literals": [
+        "'ip nat inside source list ACL interface FastEthernet0/1 overload'",
+        "''",
+        "'FastEthernet'",
+        "'{out} GigabitEthernet{iface}'",
+        "'{out} {w}'"
+    ],
+    "variables": [
+        "NAT"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "'''\nЗадание 4.1\n\nОбработать строку NAT таким образом,\nчтобы в имени интерфейса вместо FastEthernet было GigabitEthernet.\n\nОграничение: Все задания надо выполнять используя только пройденные темы.\n\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

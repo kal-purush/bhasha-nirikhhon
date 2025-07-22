@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "flexmock",
+        "atomic_reactor",
+        "cli",
+        "task",
+        "atomic_reactor",
+        "tasks",
+        "orchestrator",
+        "worker",
+        "sources",
+        "common",
+        "task_cls",
+        "flexmock",
+        "flexmock",
+        "common",
+        "TaskParams",
+        "should_receive",
+        "with_args",
+        "TASK_ARGS",
+        "and_return",
+        "flexmock",
+        "task_cls",
+        "should_receive",
+        "with_args",
+        "flexmock",
+        "task_cls",
+        "should_receive",
+        "and_return",
+        "TASK_RESULT",
+        "mock",
+        "orchestrator",
+        "OrchestratorTask",
+        "task",
+        "orchestrator",
+        "TASK_ARGS",
+        "TASK_RESULT",
+        "mock",
+        "worker",
+        "WorkerTask",
+        "task",
+        "worker",
+        "TASK_ARGS",
+        "TASK_RESULT",
+        "mock",
+        "sources",
+        "SourceBuildTask",
+        "task",
+        "source_build",
+        "TASK_ARGS",
+        "TASK_RESULT"
+    ],
+    "literals": [
+        "\"build_dir\"",
+        "\"/build\"",
+        "\"context_dir\"",
+        "\"/context\"",
+        "\"config_file\"",
+        "\"reactor-config-map.yaml\"",
+        "\"user_params\"",
+        "'{\"some_param\": \"some_value\"}'",
+        "\"from_cli_args\"",
+        "\"__init__\"",
+        "\"execute\""
+    ],
+    "variables": [
+        "TASK_ARGS",
+        "TASK_RESULT"
+    ],
+    "comments": [
+        "mock the common TaskParams because child classes do not override from_cli_args"
+    ],
+    "docstrings": [
+        "\"\"\"\nCopyright (c) 2021 Red Hat, Inc\nAll rights reserved.\n\nThis software may be modified and distributed under the terms\nof the BSD license. See the LICENSE file for details.\n\"\"\""
+    ],
+    "functions": [
+        "mock",
+        "test_orchestrator",
+        "test_worker",
+        "test_source_build"
+    ],
+    "classes": []
+}

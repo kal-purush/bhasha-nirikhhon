@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "i",
+        "fontLabels",
+        "i",
+        "rootElement",
+        "rootElement",
+        "fontLabels",
+        "i",
+        "loadCustomFonts"
+    ],
+    "literals": [
+        "'sans'",
+        "'sans-bold'",
+        "'display'",
+        "'display-bold'",
+        "'o-typography--loading-'",
+        "''",
+        "(${loadCustomFonts.toString()}());"
+    ],
+    "variables": [
+        "rootElement",
+        "fontLabels",
+        "i",
+        "loadCustomFontsJS"
+    ],
+    "comments": [
+        "NOTE: Browser caches can be cleared independently of cookies so the",
+        "presence of the cookie does not necessarily mean the file is still",
+        "available in the browser's cache.",
+        "NOTE: This function must be written as ES5 code because it will be stringified",
+        "and embedded in the page to be executed in the browser. This also means all",
+        "data and variables must be scoped within the function."
+    ],
+    "docstrings": [],
+    "functions": [
+        "loadCustomFonts"
+    ],
+    "classes": []
+}

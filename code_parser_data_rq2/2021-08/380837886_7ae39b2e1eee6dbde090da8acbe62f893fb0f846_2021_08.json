@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "promises",
+        "Client",
+        "createDB",
+        "Client",
+        "db",
+        "db",
+        "r",
+        "createSql",
+        "db",
+        "createSql",
+        "db",
+        "main",
+        "createDB",
+        "Client",
+        "db",
+        "db",
+        "db",
+        "promises",
+        "__dirname",
+        "db",
+        "main"
+    ],
+    "literals": [
+        "'fs'",
+        "'pg'",
+        "'postgres://postgres:password@localhost/postgres'",
+        "SELECT 'CREATE DATABASE schemats' as create WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'schemats')",
+        "'postgres://postgres:password@localhost/schemats'",
+        "string",
+        "SELECT version()",
+        "${__dirname}/schema.sql",
+        "'utf-8'"
+    ],
+    "variables": [
+        "createDB",
+        "db",
+        "r",
+        "createSql",
+        "main",
+        "db"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Reflection",
+        "Text",
+        "Parquet",
+        "Utils",
+        "Type",
+        "CustomAttributeData",
+        "CustomAttributes",
+        "FirstOrDefault",
+        "attr",
+        "AttributeType",
+        "Name",
+        "attr",
+        "AttributeType",
+        "Name",
+        "nullableContextAttribute",
+        "PropertyInfo",
+        "property",
+        "GetProperties",
+        "nullableContextAttribute",
+        "property",
+        "CustomAttributes",
+        "FirstOrDefault",
+        "attr",
+        "AttributeType",
+        "Name",
+        "nullableContextAttribute"
+    ],
+    "literals": [
+        "\"NullableContextAttribute\"",
+        "\"NullableAttribute\"",
+        "\"NullableAttribute\""
+    ],
+    "variables": [
+        "nullableContextAttribute"
+    ],
+    "comments": [
+        "This class is used to check if nullable is enabled for a given type - otherwise, it is types will be assumed as nullable",
+        "</summary>",
+        "Checks if a type was compiled using Nullable enabled",
+        "See https://github.com/dotnet/roslyn/blob/main/docs/features/nullable-metadata.md for details",
+        "</summary>",
+        "<param name=\"type\">Type to check</param>",
+        "<returns></returns>",
+        "Check if the NullableContextAttribute is present on the type",
+        "Check if any properties have the NullableContextAttribute"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IsNullableEnabled"
+    ],
+    "classes": [
+        "NullableChecker"
+    ]
+}

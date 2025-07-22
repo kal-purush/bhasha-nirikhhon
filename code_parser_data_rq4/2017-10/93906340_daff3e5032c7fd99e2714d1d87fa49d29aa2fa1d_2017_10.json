@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "readFileSync",
+        "writeFileSync",
+        "join",
+        "ngExpressEngine",
+        "provideModuleMap",
+        "renderModuleFactory",
+        "require",
+        "join",
+        "process",
+        "readFileSync",
+        "join",
+        "DIST_FOLDER",
+        "renderModuleFactory",
+        "AppServerModuleNgFactory",
+        "index",
+        "provideModuleMap",
+        "LAZY_MODULE_MAP",
+        "html",
+        "DIST_FOLDER",
+        "writeFileSync",
+        "join",
+        "DIST_FOLDER",
+        "html"
+    ],
+    "literals": [
+        "'zone.js/dist/zone-node'",
+        "'reflect-metadata'",
+        "'fs'",
+        "'path'",
+        "'@nguniversal/express-engine'",
+        "'@nguniversal/module-map-ngfactory-loader'",
+        "'@angular/platform-server'",
+        "'./dist-server/main.bundle'",
+        "'dist'",
+        "'index.html'",
+        "'utf8'",
+        "'/'",
+        "Replacing 'index.html' file at '${DIST_FOLDER}/index.html'",
+        "'index.html'",
+        "File 'index.html' successfully replaced with server-side version!"
+    ],
+    "variables": [
+        "DIST_FOLDER",
+        "index"
+    ],
+    "comments": [
+        "Load zone.js for the server.",
+        "Express Engine",
+        "Import module map for lazy loading",
+        "Load the index.html file containing references to your application bundle.",
+        "Writes rendered HTML to ./dist/index.html, replacing the file if it already exists."
+    ],
+    "docstrings": [
+        "* NOTE :: leave this as require() since this file is built Dynamically from webpack"
+    ],
+    "functions": [],
+    "classes": []
+}

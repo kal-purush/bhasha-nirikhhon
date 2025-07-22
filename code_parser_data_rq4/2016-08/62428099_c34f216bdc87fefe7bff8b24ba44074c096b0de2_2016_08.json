@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "NgModule",
+        "BrowserModule",
+        "AppComponent",
+        "LoggingService",
+        "OfficeService",
+        "CandidateService",
+        "NgModule",
+        "BrowserModule",
+        "AppComponent",
+        "CandidateService",
+        "OfficeService",
+        "LoggingService",
+        "AppComponent",
+        "logService"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/platform-browser'",
+        "'./app.component'",
+        "'./services/logging.service'",
+        "'./services/office.service'",
+        "'./services/candidate.service'",
+        "'AppModule.ctor(): loaded RC-5 app.module...'"
+    ],
+    "variables": [],
+    "comments": [
+        "import { FormsModule } from '@angular/forms';",
+        "import { HttpModule, XHRBackend } from '@angular/http';",
+        "import { routing } from './app.routing'; //TODO: Create app.routing",
+        "FormsModule,",
+        "HttpModule,",
+        "routing,"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppModule"
+    ]
+}

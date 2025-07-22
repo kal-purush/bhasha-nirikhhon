@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "createAndBind",
+        "_callOnClient",
+        "getCurrentClient",
+        "SentryEvent",
+        "ElectronOptions",
+        "ElectronFrontend",
+        "options",
+        "createAndBind",
+        "ElectronFrontend",
+        "options",
+        "getCurrentClient",
+        "path",
+        "_callOnClient",
+        "path"
+    ],
+    "literals": [
+        "'@sentry/core'",
+        "'@sentry/shim'",
+        "'./backend'",
+        "'./frontend'",
+        "string",
+        "'captureMinidump'"
+    ],
+    "variables": [],
+    "comments": [
+        "Returns the current ElectronFrontend, if any."
+    ],
+    "docstrings": [
+        "* The Sentry Electron SDK Client.\n *\n * To use this SDK, call the {@link create} function as early as possible in the\n * entry modules. This applies to the main process as well as all renderer\n * processes or further sub processes you spawn. To set context information or\n * send manual events, use the provided methods.\n *\n * @example\n * const { create } = require('@sentry/electron');\n *\n * create({\n *   dsn: '__DSN__',\n *   // ...\n * });\n *\n * @example\n * import { setContext } from '@sentry/electron';\n * setContext({\n *   extra: { battery: 0.7 },\n *   tags: { user_mode: 'admin' },\n *   user: { id: '4711' },\n * });\n *\n * @example\n * import { addBreadcrumb } from '@sentry/electron';\n * addBreadcrumb({\n *   message: 'My Breadcrumb',\n *   // ...\n * });\n *\n * @example\n * import * as Sentry from '@sentry/electron';\n * Sentry.captureMessage('Hello, world!');\n * Sentry.captureException(new Error('Good bye'));\n * Sentry.captureEvent({\n *   message: 'Manual',\n *   stacktrace: [\n *     // ...\n *   ],\n * });\n *\n * @see ElectronOptions for documentation on configuration options.",
+        "* Uploads a native crash dump (Minidump) to Sentry.\n *\n * @param path The relative or absolute path to the minidump.\n * @param event Optional event payload to attach to the minidump."
+    ],
+    "functions": [
+        "create",
+        "getCurrentFrontend",
+        "captureMinidump"
+    ],
+    "classes": []
+}

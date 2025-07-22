@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Component",
+        "ROUTER_DIRECTIVES",
+        "RouteConfig",
+        "Router",
+        "RestaurantesList",
+        "RestaurantesDetalle",
+        "Component",
+        "RestaurantesList",
+        "ROUTER_DIRECTIVES",
+        "RouteConfig",
+        "RestaurantesList",
+        "RestaurantesDetalle",
+        "titulo"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/router'",
+        "'./components/restaurantes-list.component'",
+        "'./components/restaurantes-detalle.component'",
+        "'mi-app'",
+        "'app/view/home.html'",
+        "'/'",
+        "'Home'",
+        "'/restautante/:id'",
+        "'Restaurante'",
+        "string",
+        "'Restaurantes'",
+        "string"
+    ],
+    "variables": [
+        "titulo"
+    ],
+    "comments": [
+        "Importar el núcleo de Angular",
+        "Importar libreria estandar para enrutamiento",
+        "Componente estructural contenedor de los items",
+        "Componente local detalle del item",
+        "Decorador component, indicamos en que etiqueta se va a cargar la plantilla",
+        "Habilitar rutas",
+        "Clase del componente donde iran los datos y funcionalidades"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getTitulo"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

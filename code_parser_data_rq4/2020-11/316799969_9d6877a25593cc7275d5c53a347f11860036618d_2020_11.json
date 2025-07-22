@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "numba",
+        "tests",
+        "support",
+        "TestCase",
+        "skip_unless_typeguard",
+        "val",
+        "val",
+        "val",
+        "skip_unless_typeguard",
+        "TestCase",
+        "assertRaises",
+        "guard_args",
+        "assertRaises",
+        "guard_ret",
+        "val",
+        "guard"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nTests to ensure that typeguard is working as expected.\nMostly this contains negative test to proof that typeguard can catch errors.\n\"\"\""
+    ],
+    "functions": [
+        "guard_args",
+        "guard_ret",
+        "test_check_args",
+        "test_check_ret",
+        "test_check_does_not_work_with_inner_func",
+        "guard"
+    ],
+    "classes": [
+        "TestTypeGuard"
+    ]
+}

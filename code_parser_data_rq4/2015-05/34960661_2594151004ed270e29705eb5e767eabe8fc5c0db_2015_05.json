@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "rows",
+        "header",
+        "rows",
+        "rows",
+        "rows",
+        "rows",
+        "rows",
+        "header",
+        "rows",
+        "i",
+        "rows",
+        "i",
+        "i",
+        "header",
+        "name",
+        "name",
+        "i",
+        "i",
+        "i",
+        "row",
+        "row",
+        "row",
+        "i",
+        "i",
+        "row",
+        "row",
+        "RowTable"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "\"Unexpected type for rows!\"",
+        "\"Column \"",
+        "string",
+        "string",
+        "\"Too many fields in row!\""
+    ],
+    "variables": [
+        "i",
+        "i",
+        "i"
+    ],
+    "comments": [
+        "Fields",
+        "Rows",
+        "Insert null values for non existing fields in row!"
+    ],
+    "docstrings": [
+        "* @class Table\n * \n * This is implemented as a row store\n * This is only for research purposes\n * Generally the normal Table should be used."
+    ],
+    "functions": [
+        "header",
+        "numFields",
+        "addField",
+        "rows",
+        "size",
+        "empty",
+        "addRow"
+    ],
+    "classes": [
+        "RowTable"
+    ]
+}

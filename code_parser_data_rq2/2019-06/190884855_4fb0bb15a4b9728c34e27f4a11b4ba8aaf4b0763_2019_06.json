@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Shader",
+        "ShaderVAOInfo",
+        "Engine",
+        "Shader",
+        "gl",
+        "e",
+        "info"
+    ],
+    "literals": [
+        "\"./Shader\"",
+        "\"../Engine\"",
+        "#version 300 es\n\t\t\t\n\t\t\t\tprecision mediump float;\n\t\t\t\t\n\t\t\t\tlayout (location = 0) in vec3 aPosition;\n\t\t\t\tlayout (location = 5) in vec3 aNormal;\n\t\t\t\tlayout (location = 1) in mat4 aModel;\n\t\t\t\t\n\t\t\t\tuniform mat4 uProjection;\n\t\t\t\tuniform mat4 uModelView;\n\t\t\t\t\n\t\t\t\tout vec3 vNormal;\n\t\t\t\tout vec3 vModelPosition;\n\t\t\t\t\n\t\t\t\tvoid main() {\n\t\t\t\t\tvec4 modelPosition = aModel * aPosition;\n\t\t\t\t\tgl_Position = uProjection * uModelView * modelPosition;\n\t\t\t\t\t\n\t\t\t\t\tvModelPosition = vec3(modelPosition.xyz);\n\t\t\t\t\tvNormal = mat3(transpose(inverse(aModel)))*aNormal;\n\t\t\t\t}",
+        "#version 300 es\n\t\t\t\n\t\t\t\tprecision mediump float;\n\t\t\t\t\n\t\t\t\tuniform samplerCube uSkyBox;\n\t\t\t\tuniform vec3 uCameraPos;\n\t\t\t\t\n\t\t\t\tin vec3 vNormal;\n\t\t\t\tin vec3 vModelPosition;\n\t\t\t\t\n\t\t\t\tout vec4 color;\n\t\t\t\t\n\t\t\t\tvoid main() {\n\t\t\t\t\tvec3 I = normalize(vModelPosition-uCameraPos);\n\t\t\t\t\tvec3 R = reflect(I, normalize(vNormal));\n\t\t\t\t\t\n\t\t\t\t\tcolor = texture(uSkybox, R);\n\t\t\t\t}",
+        "'uProjection'",
+        "'uModelView'",
+        "'uSkybox'",
+        "'uCameraPos'",
+        "'aPosition'",
+        "'aTexture'",
+        "'aNormal'",
+        "'aModel'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "render"
+    ],
+    "classes": [
+        "EnvironmentMapShader"
+    ]
+}

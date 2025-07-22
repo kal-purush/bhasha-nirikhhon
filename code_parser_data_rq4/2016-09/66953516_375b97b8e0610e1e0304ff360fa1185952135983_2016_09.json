@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "Item",
+        "OrderService",
+        "Order",
+        "Component",
+        "orderService"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"./item\"",
+        "\"./order.service\"",
+        "\"./order\"",
+        "'order-list'",
+        "<h1>this is Order lists!</h1>\n    <section>\n       <order-detail *ngFor=\"let order of orders\" [order]=\"order\"></order-detail>\n    </section>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit"
+    ],
+    "classes": [
+        "OrderListComponent"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "checkLoginCredentials",
+        "username",
+        "greetingMessage",
+        "username",
+        "greetingMessage",
+        "alert"
+    ],
+    "literals": [
+        "'greetingMessage'",
+        "'Hello '",
+        "'block'",
+        "'Incorrect login credentials. Please try again.'",
+        "'username'",
+        "''",
+        "'password'",
+        "''"
+    ],
+    "variables": [
+        "username",
+        "greetingMessage"
+    ],
+    "comments": [
+        "Assume there is a function to check login credentials, returning the username if successful",
+        "Display greeting message if login is successful",
+        "Display error message and clear input fields if login is unsuccessful"
+    ],
+    "docstrings": [],
+    "functions": [
+        "login",
+        "checkLoginCredentials"
+    ],
+    "classes": []
+}

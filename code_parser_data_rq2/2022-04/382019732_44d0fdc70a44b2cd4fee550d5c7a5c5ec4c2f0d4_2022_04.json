@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "AlienRace",
+        "HarmonyLib",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Reflection",
+        "Reflection",
+        "Emit",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Verse",
+        "SPADE",
+        "IDE0051",
+        "HarmonyPatch",
+        "PawnTextureAtlas",
+        "__result",
+        "Pawn",
+        "pawn",
+        "createdNew",
+        "PawnTextureAtlas",
+        "__instance",
+        "PawnTextureAtlasFrameSet",
+        "___freeFrameSets",
+        "__instance",
+        "FreeCount",
+        "___freeFrameSets",
+        "First",
+        "meshes",
+        "First",
+        "vertices",
+        "First",
+        "x",
+        "pawn",
+        "ThingDef_AlienRace",
+        "alienRace",
+        "generalSettings",
+        "alienPartGenerator",
+        "borderScale",
+        "createdNew",
+        "__result"
+    ],
+    "literals": [
+        "\"TryGetFrameSet\""
+    ],
+    "variables": [],
+    "comments": [
+        "Remove unused private members",
+        "[StaticConstructorOnStartup]\n    static class PatchTestingGround\n        {\n        static PatchTestingGround()\n            {\n            var harmony = new Harmony(\"princess.test\");\n            Log.Message(\"test patching...\");\n            harmony.PatchAll(Assembly.GetExecutingAssembly());\n            }\n        }",
+        "static bool Postfix(bool ret, Pawn pawn, bool createdNew, List<PawnTextureAtlasFrameSet> ___freeFrameSets)\n            {\n            if (createdNew)\n                Log.Message(\"patched method called, returned \" + ret);\n            if (___freeFrameSets.First().meshes.First().vertices.First().x / -1f != ((pawn.def as ThingDef_AlienRace)?.alienRace.generalSettings.alienPartGenerator.borderScale ?? 1f) && ret)\n                Log.Message(\"Pawn atlas reuse detected!\");\n            return ret;\n            }",
+        "static IEnumerable<CodeInstruction> Transpiler(IEnumerable<CodeInstruction> instructions)\n            {\n            foreach (CodeInstruction instruction in instructions)\n                {\n                if (instruction.opcode == OpCodes.Call\n                    && instruction.operand is MethodInfo mt\n                    && mt.Name.Contains(\"Pop\"))\n                    {\n                    yield return new CodeInstruction(OpCodes.Ldarg_1);\n                    yield return CodeInstruction.Call(typeof(SPADE_PawnTextureAtlas_TryGetFrameSet_Patch), nameof(getFrameSetForPawn));\n                    }\n                else\n                    yield return instruction;\n                }\n            }",
+        "public static PawnTextureAtlasFrameSet getFrameSetForPawn(List<PawnTextureAtlasFrameSet> list, Pawn pawn) \n            {\n            // shoutout to the 'goes to' operator\n            // for (int i = list.Count - 1; i > 0; i--)\n            // iterating backwards because you know, vanilla compat and such\n            // also 99% of the time the element is at the tail cause it was just pushed\n            for (int i = list.Count; i --> 0;)\n                {\n                if (list[i].meshes.First().vertices.First().x / -1f == ((pawn.def as ThingDef_AlienRace)?.alienRace.generalSettings.alienPartGenerator.borderScale ?? 1f)) \n                    {\n                    PawnTextureAtlasFrameSet result = list[i];\n                    list.RemoveAt(i);\n                    return result;\n                    }\n                }\n\n            return list.Pop();\n            }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Prefix"
+    ],
+    "classes": [
+        "SPADE_PawnTextureAtlas_TryGetFrameSet_Patch"
+    ]
+}

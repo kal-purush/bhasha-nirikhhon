@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "Asena",
+        "brainly",
+        "usage",
+        "message",
+        "match",
+        "match",
+        "match",
+        "message",
+        "message",
+        "butuh",
+        "MessageType",
+        "axios",
+        "Soal",
+        "response",
+        "response",
+        "soal",
+        "jawaban",
+        "message",
+        "message",
+        "msg",
+        "MessageType"
+    ],
+    "literals": [
+        "'../events'",
+        "'@adiwajshing/baileys'",
+        "'axios'",
+        "'../config'",
+        "\"Finds the answer.\"",
+        "\".brainly <Question>\"",
+        "\"```Enter the Question!```\"",
+        "'brainly ?(.*)'",
+        "''",
+        "https://api.xteam.xyz/brainly?APIKEY=10c4105200edc0f0&soal=${Soal}",
+        "*Soal:* ${soal}\n*Jawaban Brainly:* ${jawaban.replace(/1Question/g, '*(1) Question*').replace(/2Question/g, '*(2) Question*').replace(/3Question/g, '*(3) Question*').replace(/Answer/g, '*Answer*').replace(/Brainly Found/g, '')}",
+        "'*(1) Question*'",
+        "'*(2) Question*'",
+        "'*(3) Question*'",
+        "'*Answer*'",
+        "''"
+    ],
+    "variables": [
+        "Asena",
+        "axios",
+        "Config",
+        "brainly",
+        "usage",
+        "butuh",
+        "Soal",
+        "msg"
+    ],
+    "comments": [
+        "CMD_HELP"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

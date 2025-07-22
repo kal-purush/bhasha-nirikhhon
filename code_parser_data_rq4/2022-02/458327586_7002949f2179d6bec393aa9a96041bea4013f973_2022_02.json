@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "mod",
+        "mod",
+        "mod",
+        "mod",
+        "mod",
+        "exports",
+        "__importDefault",
+        "require",
+        "__importDefault",
+        "require",
+        "express_1",
+        "app",
+        "index_1",
+        "app",
+        "port",
+        "port",
+        "exports",
+        "app"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "\"default\"",
+        "\"__esModule\"",
+        "\"express\"",
+        "\"./routes/index\"",
+        "'/api'",
+        "\"server started at localhost:\""
+    ],
+    "variables": [
+        "__importDefault",
+        "express_1",
+        "index_1",
+        "app",
+        "port"
+    ],
+    "comments": [
+        "create application object",
+        "process.env.PORT if we are running in production || if we run locally",
+        "const port = process.env.PORT || 3000;",
+        "setting the root path to the root route as a middleware",
+        "listen to the server"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

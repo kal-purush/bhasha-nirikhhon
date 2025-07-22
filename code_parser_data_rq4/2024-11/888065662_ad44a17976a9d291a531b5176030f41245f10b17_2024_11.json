@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "socket",
+        "nsip",
+        "socket",
+        "socket",
+        "socket",
+        "AF_INET",
+        "socket",
+        "SOCK_STREAM",
+        "s",
+        "connect",
+        "IP",
+        "PORTANUMERO",
+        "encode",
+        "s",
+        "send",
+        "msg",
+        "s",
+        "recv",
+        "buffer",
+        "decode",
+        "s",
+        "close"
+    ],
+    "literals": [
+        "\"127.0.0.1\"",
+        "\"horaAtual\"",
+        "\"ISO-8859-1\"",
+        "\"Hora certa: %s\"",
+        "\"ISO-8859-1\""
+    ],
+    "variables": [
+        "IP",
+        "PORTANUMERO",
+        "s",
+        "msg",
+        "buffer"
+    ],
+    "comments": [
+        "importando o modulo socket",
+        "definindo o IP do servidor",
+        "definindo a porta do servidor",
+        "criando um socket Internet (INET IPv4) sobre TCP",
+        "conectando ao servidor",
+        "enviando a requisicao",
+        "recebendo a hora do servidor",
+        "imprimindo a hora recebida",
+        "fechando o socket"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

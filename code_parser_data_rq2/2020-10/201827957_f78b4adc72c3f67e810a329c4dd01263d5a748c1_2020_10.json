@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "crypto",
+        "payload",
+        "crypto",
+        "process",
+        "payload",
+        "payload",
+        "crypto",
+        "secret",
+        "payload",
+        "key",
+        "key",
+        "payload",
+        "key",
+        "hash",
+        "check",
+        "payload"
+    ],
+    "literals": [
+        "'crypto'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'sha256'",
+        "'sha256'",
+        "${key}=${payload[key]}",
+        "'\\n'",
+        "'hex'"
+    ],
+    "variables": [
+        "secret",
+        "hash",
+        "check"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "verifyTelegramPayload"
+    ],
+    "classes": []
+}

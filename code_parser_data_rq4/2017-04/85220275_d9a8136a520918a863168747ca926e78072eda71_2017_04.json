@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Facepunch",
+        "WebGame",
+        "Shaders",
+        "ShaderProgram",
+        "context",
+        "context",
+        "gl",
+        "gl",
+        "VertexAttribute",
+        "VertexAttribute",
+        "UniformMatrix4",
+        "UniformMatrix4",
+        "UniformMatrix4",
+        "UniformSampler",
+        "buf",
+        "buf",
+        "buf",
+        "Camera",
+        "buf",
+        "Camera",
+        "buf",
+        "TextureUtils",
+        "gl",
+        "buf",
+        "gl",
+        "buf",
+        "gl",
+        "buf",
+        "buf",
+        "gl",
+        "buf",
+        "value",
+        "buf",
+        "value",
+        "buf",
+        "value"
+    ],
+    "literals": [
+        "attribute vec3 aPosition;\n                    attribute vec2 aTextureCoord;\n\n                    varying vec2 vTextureCoord;\n\n                    uniform mat4 uProjection;\n                    uniform mat4 uView;\n                    uniform mat4 uModel;\n\n                    void main()\n                    {\n                        gl_Position = uProjection * uView * uModel * vec4(aPosition, 1.0);\n                        \n                        vTextureCoord = aTextureCoord;\n                    }",
+        "precision mediump float;\n\n                    varying vec2 vTextureCoord;\n\n                    uniform sampler2D uErrorTexture;\n\n                    void main()\n                    {\n                        gl_FragColor = vec4(texture2D(uErrorTexture, vTextureCoord).rgb, 1.0);\n                    }",
+        "\"aPosition\"",
+        "\"aTextureCoord\"",
+        "\"uProjection\"",
+        "\"uView\"",
+        "\"uModel\"",
+        "\"uErrorTexture\""
+    ],
+    "variables": [
+        "gl",
+        "context",
+        "gl"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "bufferSetup",
+        "bufferModelMatrix"
+    ],
+    "classes": []
+}

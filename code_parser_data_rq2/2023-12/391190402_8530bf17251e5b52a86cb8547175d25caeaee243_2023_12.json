@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "useCallback",
+        "useContext",
+        "useEffect",
+        "useRef",
+        "State",
+        "SearchHeadlessContext",
+        "useSyncExternalStoreWithSelector",
+        "s",
+        "stateSelector",
+        "useContext",
+        "SearchHeadlessContext",
+        "search",
+        "useCallback",
+        "search",
+        "search",
+        "useRef",
+        "useEffect",
+        "isMountedRef",
+        "isMountedRef",
+        "useCallback",
+        "cb",
+        "search",
+        "state",
+        "state",
+        "isMountedRef",
+        "cb",
+        "search",
+        "useSyncExternalStoreWithSelector",
+        "subscribe",
+        "getSnapshot",
+        "getSnapshot",
+        "stateSelector",
+        "selectedState"
+    ],
+    "literals": [
+        "'react'",
+        "'@yext/search-headless'",
+        "'./SearchHeadlessContext'",
+        "'use-sync-external-store/shim/with-selector.js'",
+        "'Attempted to call useSearchState() outside of SearchHeadlessProvider.'",
+        "' Please ensure that \\'useSearchState()\\' is called within an SearchHeadlessProvider component.'"
+    ],
+    "variables": [
+        "search",
+        "getSnapshot",
+        "isMountedRef",
+        "subscribe",
+        "selectedState"
+    ],
+    "comments": [
+        "prevent React state update on an unmounted component"
+    ],
+    "docstrings": [
+        "* Returns the Search State returned by the map function.\n * Uses \"use-sync-external-store/shim\" to handle reading\n * and subscribing from external store in React version\n * pre-18 and 18."
+    ],
+    "functions": [
+        "useSearchState"
+    ],
+    "classes": []
+}

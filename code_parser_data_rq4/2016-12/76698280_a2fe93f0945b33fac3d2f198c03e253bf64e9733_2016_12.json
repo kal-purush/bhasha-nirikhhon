@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "config",
+        "local",
+        "configName",
+        "process",
+        "local",
+        "process",
+        "local",
+        "config",
+        "configName",
+        "getEnv",
+        "PRIVATE_GITHUB_SIGNING_KEY",
+        "process"
+    ],
+    "literals": [
+        "\"config\"",
+        "string",
+        "string",
+        "string",
+        "\"PRIVATE_GITHUB_SIGNING_KEY\"",
+        "\"PRIVATE_GITHUB_SIGNING_KEY\"",
+        "\"Missing config values\""
+    ],
+    "variables": [
+        "PRIVATE_GITHUB_SIGNING_KEY"
+    ],
+    "comments": [
+        "@flow",
+        "Private key for the app\n *\n * To set it on heroku: heroku config:add PRIVATE_GITHUB_SIGNING_KEY=\"$(cat thekey.pem)\"",
+        "Normal validation stuff"
+    ],
+    "docstrings": [
+        "* Pulls out an env var from either the host ENV, or a config file\n *\n * @param {string} local ENV key\n * @param {string} configName Config key\n * @returns {string}"
+    ],
+    "functions": [
+        "getEnv"
+    ],
+    "classes": []
+}

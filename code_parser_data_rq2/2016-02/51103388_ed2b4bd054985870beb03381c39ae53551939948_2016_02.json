@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Component",
+        "AuthenticationService",
+        "Component",
+        "authenticationService",
+        "username",
+        "password",
+        "username",
+        "password"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'../../services/authentication-service'",
+        "'etik-tak-login-form'",
+        "<h1>Log ind</h1>\n        <form (submit)=\"login(username.value, password.value)\">\n            <input #username class=\"form-control\" placeholder=\"Brugernavn\" required=\"required\" type=\"text\" /> <br />\n            <input #password class=\"form-control\" placeholder=\"Adgangskode\" required=\"required\" type=\"password\" /> <br />\n            <button type=\"submit\" class=\"btn btn-default\">Log ind</button>\n        </form>",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "login"
+    ],
+    "classes": [
+        "LoginComponent"
+    ]
+}

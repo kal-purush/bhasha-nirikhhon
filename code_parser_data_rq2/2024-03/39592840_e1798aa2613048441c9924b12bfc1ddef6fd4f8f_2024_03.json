@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "pipe",
+        "PROTOCOL_NAME",
+        "PROTOCOL_VERSION",
+        "Echo",
+        "EchoInterface",
+        "EchoComponents",
+        "EchoInit",
+        "Logger",
+        "Startable",
+        "components",
+        "init",
+        "components",
+        "components",
+        "init",
+        "PROTOCOL_NAME",
+        "PROTOCOL_VERSION",
+        "init",
+        "pipe",
+        "stream",
+        "stream",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "'it-pipe'",
+        "'./constants.js'",
+        "'./index.js'",
+        "'@libp2p/interface'",
+        "string",
+        "'libp2p:echo'",
+        "/${[init.protocolPrefix, PROTOCOL_NAME, PROTOCOL_VERSION].filter(Boolean).join('/')}",
+        "'/'",
+        "'error piping stream'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* A simple echo stream, any data received will be sent back to the sender"
+    ],
+    "functions": [
+        "start",
+        "stop",
+        "isStarted"
+    ],
+    "classes": [
+        "Echo"
+    ]
+}

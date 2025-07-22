@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "ReplSetTest",
+        "tojson",
+        "tojsononeline",
+        "rst",
+        "rst",
+        "jsTestLog",
+        "tojson",
+        "config",
+        "rst",
+        "config",
+        "rst",
+        "jsTestLog",
+        "printjson",
+        "db",
+        "wc",
+        "jsTestLog",
+        "printjson",
+        "db",
+        "wc",
+        "jsTestLog",
+        "rst"
+    ],
+    "literals": [
+        "\"failpoint.logForTLAPlusSpecs\"",
+        "\"alwaysOn\"",
+        "\"RaftMongo\"",
+        "reconfig: ${tojson(config)}",
+        "'admin'",
+        "'test'",
+        "'majority'",
+        "\"single insert\"",
+        "'collection'",
+        "\"bulk insert\"",
+        "'collection'",
+        "primary oplog",
+        "'local'",
+        "'oplog.rs'"
+    ],
+    "variables": [
+        "rst",
+        "config",
+        "db",
+        "wc"
+    ],
+    "comments": [
+        "We don't model truncation in our specs, so disable it",
+        "Skip ReplSetTest's usual logic of initiating a 1-node set and adding the others: we want as",
+        "simple a startup sequence as possible."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

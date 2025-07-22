@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "styled",
+        "themeCssVars",
+        "calc",
+        "CalcType",
+        "styled",
+        "themeCssVars",
+        "calc",
+        "CalcType",
+        "styled",
+        "styled",
+        "calc",
+        "CalcType",
+        "themeCssVars",
+        "styled",
+        "styled",
+        "calc",
+        "CalcType",
+        "calc",
+        "CalcType",
+        "styled",
+        "calc",
+        "CalcType"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'../../theme'",
+        "'../../types'",
+        "background-color: ${themeCssVars.global?.background.paper};\n  width: 500px;\n  border-radius: ${calc(CalcType.spacing, 4)};\n  position: relative;\n  z-index: 100;",
+        "background-color: rgba(0, 0, 0, 0.5);\n  position: fixed;\n  z-index: 10;\n  left: 0;\n  right: 0;\n  top: 0;\n  bottom: 0;",
+        "display: flex;\n  justify-content: space-between;\n  align-items: center;\n  padding: ${calc(CalcType.spacing, 6)};\n  border-bottom: 1px solid ${themeCssVars.global?.background.main};",
+        "border: none;\n  background-color: transparent;\n  padding: 0;\n  margin: 0;\n  cursor: pointer;",
+        "padding: ${calc(CalcType.padding, [6, 6, 4])};\n\n  & > * {\n    margin-bottom: ${calc(CalcType.spacing, 4)};\n  }",
+        "display: flex;\n  justify-content: flex-end;\n  align-items: center;\n  padding: ${calc(CalcType.padding, [0, 6, 6, 4])};"
+    ],
+    "variables": [
+        "DialogWrapper",
+        "DialogBackdrop",
+        "DialogHeader",
+        "DialogHeaderButton",
+        "DialogBody",
+        "DialogFooter"
+    ],
+    "comments": [
+        "Dependencies",
+        "Types",
+        "Styles"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

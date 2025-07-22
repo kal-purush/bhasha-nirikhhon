@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "grunt",
+        "grunt",
+        "grunt",
+        "grunt",
+        "grunt",
+        "grunt",
+        "grunt",
+        "grunt"
+    ],
+    "literals": [
+        "'use strict'",
+        "'Gruntfile.js'",
+        "'tasks/*.js'",
+        "'<%= nodeunit.tests %>'",
+        "'.jshintrc'",
+        "'tmp'",
+        "''",
+        "'Deployment'",
+        "'Grunt deployment has taken place'",
+        "'test/*_test.js'",
+        "'tasks'",
+        "'grunt-contrib-jshint'",
+        "'grunt-contrib-clean'",
+        "'grunt-contrib-nodeunit'",
+        "'test'",
+        "'clean'",
+        "'speedcurve_deploy'",
+        "'nodeunit'",
+        "'default'",
+        "'jshint'",
+        "'test'"
+    ],
+    "variables": [],
+    "comments": [
+        "Project configuration.",
+        "Before generating any new files, remove any previously-created files.",
+        "Configuration to be run (and then tested).",
+        "Unit tests.",
+        "Actually load this plugin's task(s).",
+        "These plugins provide necessary tasks.",
+        "Whenever the \"test\" task is run, first clean the \"tmp\" dir, then run this",
+        "plugin's task(s), then test the result.",
+        "By default, lint and run all tests."
+    ],
+    "docstrings": [
+        "* grunt-speedcurve-deploy \n * https://github.com/adamj88/grunt-speedcurve-deploy \n *\n * Copyright (c) 2016 Adam Johnson\n * Licensed under the MIT license."
+    ],
+    "functions": [],
+    "classes": []
+}

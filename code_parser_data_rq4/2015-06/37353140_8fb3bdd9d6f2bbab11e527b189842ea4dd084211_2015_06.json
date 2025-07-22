@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "express",
+        "passportJwt",
+        "passportJwt",
+        "options",
+        "passportJwt",
+        "callback",
+        "passportJwt",
+        "options",
+        "callback",
+        "req",
+        "express",
+        "options",
+        "req",
+        "req",
+        "req",
+        "req",
+        "options"
+    ],
+    "literals": [
+        "'express'",
+        "'passport-jwt'",
+        "\"BoatAuth\"",
+        "'authorization'",
+        "\"JWT \""
+    ],
+    "variables": [],
+    "comments": [
+        "Project \"BoatAuth\" Single Sign-On Strategy for Passport",
+        "This is essentially just the normal JWT strategy with an extra wrapper to check for an auth cookie.",
+        "(This is because most \"BoatAuth\" apps should be running on the same server/IP address/\"domain\", so",
+        "it makes sense that they may share a cookie as the fastest single-sign on option.)",
+        "Doing this the lazy way by simply converting cookie to header before passing it on",
+        "TODO: Maybe handle if overrides in constructor options?"
+    ],
+    "docstrings": [],
+    "functions": [
+        "authenticate"
+    ],
+    "classes": [
+        "BoatAuthStrategy"
+    ]
+}

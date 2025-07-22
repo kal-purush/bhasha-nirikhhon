@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "division",
+        "unicode_literals",
+        "print_function",
+        "absolute_import",
+        "numpy",
+        "np",
+        "xarray",
+        "xr",
+        "traitlets",
+        "tl",
+        "podpac",
+        "core",
+        "utils",
+        "common_doc",
+        "podpac",
+        "core",
+        "compositor",
+        "compositor",
+        "COMMON_COMPOSITOR_DOC",
+        "BaseCompositor",
+        "common_doc",
+        "COMMON_COMPOSITOR_DOC",
+        "BaseCompositor",
+        "common_doc",
+        "COMMON_COMPOSITOR_DOC",
+        "coordinates",
+        "data_arrays",
+        "result",
+        "next",
+        "data_arrays",
+        "arr",
+        "data_arrays",
+        "res",
+        "combine_first",
+        "arr",
+        "result",
+        "result",
+        "data",
+        "res",
+        "transponse",
+        "result",
+        "dims",
+        "data",
+        "result",
+        "res"
+    ],
+    "literals": [],
+    "variables": [
+        "res",
+        "res"
+    ],
+    "comments": [
+        "TODO: Fix boundary information on the combined data arrays"
+    ],
+    "docstrings": [
+        "\"\"\"Compositor that combines tiled sources.\n    \n    The requested data does not need to be interpolated by the sources before being composited\n\n    Attributes\n    ----------\n    sources : list\n        Source nodes, in order of preference. Later sources are only used where earlier sources do not provide data.\n    source_coordinates : :class:`podpac.Coordinates`\n        Coordinates that make each source unique. Must the same size as ``sources`` and single-dimensional. Optional.\n    \"\"\"",
+        "\"\"\"Composites data_arrays in order that they appear. Once a request contains no nans, the result is returned.\n        \n        Parameters\n        ----------\n        coordinates : :class:`podpac.Coordinates`\n            {requested_coordinates}\n        data_arrays : generator\n            Evaluated source data, in the same order as the sources.\n        result : podpac.UnitsDataArray, optional\n            {eval_output}\n        \n        Returns\n        -------\n        {eval_return} This composites the sources together until there are no nans or no more sources.\n        \"\"\""
+    ],
+    "functions": [
+        "composite"
+    ],
+    "classes": [
+        "DataCompositor"
+    ]
+}

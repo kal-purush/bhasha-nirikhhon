@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "filemanagement",
+        "java",
+        "io",
+        "filename",
+        "filename",
+        "FileData",
+        "filename",
+        "filename",
+        "file",
+        "filename",
+        "number_of_lines",
+        "file",
+        "readLines",
+        "Lines",
+        "file",
+        "OpenFile",
+        "number_of_lines",
+        "Lines",
+        "filepath",
+        "line",
+        "append",
+        "data",
+        "filepath",
+        "append",
+        "data",
+        "writeToFile",
+        "line"
+    ],
+    "literals": [],
+    "variables": [
+        "filename"
+    ],
+    "comments": [],
+    "docstrings": [
+        "public static void main(String[] args) throws IOException{\n\t\tString[] file = Read(\"/home/david//text.txt\");\n\t\tfor (int i = 0; i < file.length; i++){\n\t\t\tSystem.out.println(file[i]);\n\t\t}\n\t}"
+    ],
+    "functions": [
+        "FileData",
+        "Read",
+        "Write"
+    ],
+    "classes": [
+        "FileData"
+    ]
+}

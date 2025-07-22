@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "abc",
+        "ABCMeta",
+        "abstractmethod",
+        "ABCMeta",
+        "abstractmethod",
+        "abstractmethod",
+        "abstractmethod"
+    ],
+    "literals": [],
+    "variables": [
+        "__metaclass__"
+    ],
+    "comments": [
+        "!/usr/bin/python",
+        "-*- coding: utf-8 -*-",
+        "Interface for Clients"
+    ],
+    "docstrings": [
+        "\"\"\" Interface/Abstract class for Clients\"\"\"",
+        "\"\"\"\n        Connect to server\n        \"\"\"",
+        "\"\"\"\n        Depending on protocol subscribe to topic or client\n        \"\"\"",
+        "\"\"\"\n        Here the main functionality should be implemented. (Reaction to messages)\n        \"\"\""
+    ],
+    "functions": [
+        "connect",
+        "subscribe",
+        "react"
+    ],
+    "classes": [
+        "IClient"
+    ]
+}

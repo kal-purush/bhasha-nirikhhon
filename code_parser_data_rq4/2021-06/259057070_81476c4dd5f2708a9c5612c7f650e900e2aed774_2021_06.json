@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "inject",
+        "Provider",
+        "RateLimitOptions",
+        "RateLimitSecurityBindings",
+        "Store",
+        "RedisStore",
+        "MemcachedStore",
+        "MongoStore",
+        "err",
+        "hits",
+        "resetTime",
+        "inject",
+        "RateLimitSecurityBindings",
+        "config",
+        "MemcachedStore",
+        "RedisStore",
+        "MongoStore",
+        "key",
+        "cb",
+        "key",
+        "key"
+    ],
+    "literals": [
+        "'@loopback/core'",
+        "'../types'",
+        "'../keys'",
+        "'express-rate-limit'",
+        "'rate-limit-redis'",
+        "'rate-limit-memcached'",
+        "'rate-limit-mongo'",
+        "'MemcachedStore'",
+        "'RedisStore'",
+        "'MongoStore'",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "import {} from 'rate-limit-mongo'"
+    ],
+    "docstrings": [],
+    "functions": [
+        "value",
+        "incr",
+        "decrement",
+        "resetKey",
+        "resetAll"
+    ],
+    "classes": [
+        "RatelimitDatasourceProvider"
+    ]
+}

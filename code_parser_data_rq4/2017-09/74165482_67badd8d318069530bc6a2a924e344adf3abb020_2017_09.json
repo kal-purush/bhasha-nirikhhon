@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "require",
+        "schema",
+        "serviceConfig",
+        "req",
+        "res",
+        "options",
+        "cb",
+        "require",
+        "collection",
+        "req",
+        "req",
+        "model",
+        "req",
+        "serviceConfig",
+        "schema",
+        "req",
+        "cb"
+    ],
+    "literals": [
+        "'../../utils/ui-types'",
+        "'Trucks'",
+        "'form'",
+        "'get'",
+        "'createdBy'",
+        "'plateNumber'",
+        "'licenseNumber'",
+        "'model'",
+        "'engineNumber'",
+        "'truckType'",
+        "'capacity'",
+        "'capacityUnits'",
+        "'insurance.startDate'",
+        "'insurance.expiryDate'",
+        "'material.Type'",
+        "'description'",
+        "'status'",
+        "'driverId'",
+        "'currentPoint'",
+        "'nextAvailableAt'",
+        "'nextFreeDate'",
+        "'get callback'",
+        "'mongoose'",
+        "'Free'"
+    ],
+    "variables": [
+        "uiTypes",
+        "collection",
+        "model"
+    ],
+    "comments": [
+        "dont use imports, use require, because errors are coming when we are dynamically using services in the base model",
+        "let ObjectID = require('mongodb').ObjectID;",
+        "const model = require('../../models/trucks');",
+        "pick fields configuration from default schema",
+        "callback hook  - after serving the request - forms & grid"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

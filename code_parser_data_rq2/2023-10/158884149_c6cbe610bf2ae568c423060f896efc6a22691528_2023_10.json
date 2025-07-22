@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "liquibase",
+        "report",
+        "liquibase",
+        "changelog",
+        "ChangeLogIterator",
+        "liquibase",
+        "changelog",
+        "ChangeSetStatus",
+        "liquibase",
+        "plugin",
+        "Plugin",
+        "java",
+        "util",
+        "ShowSummaryGenerator",
+        "runChangeLogIterator",
+        "builder",
+        "runChangeLogIterator"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "*\n     * This method returns a priority value for an implementation. Liquibase uses this to\n     * determine which LicenseService is currently in use. There can only be a single\n     * LicenseService used at a time, and the highest priority implementation wins.\n     *\n     * @return  int\n     *",
+        "* Get all additional change set statuses that should be reported in the show summary verbose output.",
+        "* Append any additional summary messages that shuold be reported in the show summary output."
+    ],
+    "functions": [
+        "getPriority",
+        "getAllAdditionalChangeSetStatus",
+        "appendAdditionalSummaryMessages"
+    ],
+    "classes": []
+}

@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "opts",
+        "opts"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Options for computing accname.",
+        "Fills in missing options with their default values",
+        "TODO(alexlloyd) switch default to false"
+    ],
+    "docstrings": [
+        "* @license\n * Copyright 2020 Google LLC\n * SPDX-License-Identifier: Apache-2.0",
+        "* Whether CSS :before and:after elements should be included in the\n   * computation. The spec includes them in step 2.F.ii, but browsers generally\n   * ignore them so we default to false."
+    ],
+    "functions": [
+        "withDefaults"
+    ],
+    "classes": []
+}

@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Metrics"
+    ],
+    "literals": [
+        "string"
+    ],
+    "variables": [
+        "metrics"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Metric collection handler.\n *\n * @class Metrics",
+        "*Creates an instance of Metrics.\n   *\n   * @memberof Metrics",
+        "*Increments the geocoding value by one.\n   *\n   * @memberof Metrics",
+        "*Increments the tiles value by one.\n   *\n   * @memberof Metrics",
+        "*Increments the clicks value by one.\n   *\n   * @memberof Metrics",
+        "*Increments the selected value by one.\n   *\n   * @memberof Metrics",
+        "* Initializes / resets all values to 0.\n   *\n   * @memberof Metrics",
+        "* Sets the end time.\n   *\n   * @memberof Metrics",
+        "* Returns the collected metrics.\n   *\n   * @memberof Metrics\n   * @returns Serialized JSON."
+    ],
+    "functions": [
+        "addGeocoding",
+        "addtileLoad",
+        "addClick",
+        "addSelect",
+        "reset",
+        "stop",
+        "getResult"
+    ],
+    "classes": [
+        "Metrics"
+    ]
+}

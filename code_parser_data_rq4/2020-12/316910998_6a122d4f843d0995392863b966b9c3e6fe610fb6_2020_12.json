@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "django",
+        "contrib",
+        "admin",
+        "models",
+        "Subject",
+        "Course",
+        "Module",
+        "admin",
+        "register",
+        "Subject",
+        "admin",
+        "ModelAdmin",
+        "admin",
+        "StackedInline",
+        "Module",
+        "admin",
+        "register",
+        "Course",
+        "admin",
+        "ModelAdmin",
+        "ModuleInline"
+    ],
+    "literals": [
+        "'title'",
+        "'slug'",
+        "'slug'",
+        "'title'",
+        "'title'",
+        "'subject'",
+        "'created'",
+        "'created'",
+        "'subject'",
+        "'title'",
+        "'overview'",
+        "'slug'",
+        "'title'"
+    ],
+    "variables": [
+        "list_display",
+        "prepopulated_fields",
+        "model",
+        "list_display",
+        "list_filter",
+        "search_fields",
+        "prepopulated_fields",
+        "inlines"
+    ],
+    "comments": [
+        "Register your models here.",
+        "register subject in the admin",
+        "contents information of the course to show admin",
+        "to add module",
+        "register admin for course"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "SubjectAdmin",
+        "ModuleInline",
+        "CourseAdmin"
+    ]
+}

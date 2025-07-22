@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "usbong",
+        "android",
+        "questionloader",
+        "ch",
+        "ch",
+        "toHexString",
+        "ch",
+        "ch",
+        "toHexString",
+        "ch",
+        "ch",
+        "toHexString",
+        "ch",
+        "toHexString",
+        "ch",
+        "ch",
+        "ch",
+        "unicodeEscaped",
+        "ch",
+        "charValue"
+    ],
+    "literals": [
+        "\"\\\\u000\"",
+        "\"\\\\u00\"",
+        "\"\\\\u0\"",
+        "\"\\\\u\""
+    ],
+    "variables": [],
+    "comments": [
+        "--------------------------------------------------------------------------"
+    ],
+    "docstrings": [
+        "* Licensed to the Apache Software Foundation (ASF) under one or more\n * contributor license agreements.  See the NOTICE file distributed with\n * this work for additional information regarding copyright ownership.\n * The ASF licenses this file to You under the Apache License, Version 2.0\n * (the \"License\"); you may not use this file except in compliance with\n * the License.  You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Operations on char primitives and Character objects.\n *\n * This class tries to handle <code>null</code> input gracefully.\n * An exception will not be thrown for a <code>null</code> input.\n * Each method documents its behaviour in more detail.\n * \n * @author Stephen Colebourne\n * @since 2.1\n * @version $Id: CharUtils.java 437554 2006-08-28 06:21:41Z bayard $",
+        "* Converts the string to the unicode format '\\u0020'.\n   * \n   * This format is the Java source code format.\n   *\n   * <pre>\n   *   CharUtils.unicodeEscaped(' ') = \"\\u0020\"\n   *   CharUtils.unicodeEscaped('A') = \"\\u0041\"\n   * </pre>\n   * \n   * @param ch  the character to convert\n   * @return the escaped unicode string",
+        "* Converts the string to the unicode format '\\u0020'.\n   * \n   * This format is the Java source code format.\n   * \n   * If <code>null</code> is passed in, <code>null</code> will be returned.\n   *\n   * <pre>\n   *   CharUtils.unicodeEscaped(null) = null\n   *   CharUtils.unicodeEscaped(' ')  = \"\\u0020\"\n   *   CharUtils.unicodeEscaped('A')  = \"\\u0041\"\n   * </pre>\n   * \n   * @param ch  the character to convert, may be null\n   * @return the escaped unicode string, null if null input"
+    ],
+    "functions": [
+        "unicodeEscaped",
+        "unicodeEscaped"
+    ],
+    "classes": [
+        "ParseToUnicode"
+    ]
+}

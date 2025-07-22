@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "chalk",
+        "figlet",
+        "askForClient",
+        "chooseDatabase",
+        "createConfig",
+        "addModel",
+        "createModel",
+        "logInfo",
+        "commandRoot",
+        "chalk",
+        "chalk",
+        "commandRoot",
+        "commandRoot",
+        "logInfo",
+        "chalk",
+        "figlet",
+        "createModel",
+        "chooseDatabase",
+        "askForClient",
+        "addModel",
+        "modelName",
+        "content",
+        "createConfig",
+        "database",
+        "client",
+        "logInfo",
+        "postSetupMessage",
+        "commandRoot"
+    ],
+    "literals": [
+        "'chalk'",
+        "'figlet'",
+        "'../templates/configTemplates'",
+        "'../templates/modelTemplates'",
+        "'../utils'",
+        "string",
+        "string",
+        "Graphback configuration successfully bootstrapped :rocket:\n\nNext Steps:\n1. Review your configuration in \"graphback.json\" file\n2. Edit the .graphql file inside ${chalk.cyan(`model`)} with your GraphQL types.\n3. Run ${chalk.cyan(`${commandRoot}generate`)} to generate schema and resolvers",
+        "model",
+        "${commandRoot}generate",
+        "string",
+        "'Graphback'",
+        "'full'",
+        "\"\""
+    ],
+    "variables": [
+        "modelName",
+        "content",
+        "database",
+        "client"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* init command handler\n * @param name name of project folder\n * @param templateName name of the template provided(if any)\n * @param templateUrl github url to the template"
+    ],
+    "functions": [
+        "postSetupMessage",
+        "initConfig"
+    ],
+    "classes": []
+}

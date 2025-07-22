@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Extensions",
+        "DependencyInjection",
+        "Microsoft",
+        "Extensions",
+        "Diagnostics",
+        "HealthChecks",
+        "MySqlConnector",
+        "HealthChecks",
+        "MySql",
+        "MySqlHealthCheckBuilderExtensions",
+        "HEALTH_QUERY",
+        "Action",
+        "MySqlConnection",
+        "Func",
+        "HealthCheckResult"
+    ],
+    "literals": [],
+    "variables": [
+        "ConnectionString",
+        "CommandText",
+        "Configure",
+        "HealthCheckResultBuilder"
+    ],
+    "comments": [
+        "Options for <see cref=\"MySqlHealthCheck\"/>.",
+        "</summary>",
+        "The MySQL connection string to be used.",
+        "</summary>",
+        "The query to be executed.",
+        "</summary>",
+        "An optional action executed before the connection is opened in the health check.",
+        "</summary>",
+        "An optional delegate to build health check result.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "MySqlHealthCheckOptions"
+    ]
+}

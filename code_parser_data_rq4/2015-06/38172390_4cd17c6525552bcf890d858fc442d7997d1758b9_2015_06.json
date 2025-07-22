@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "target",
+        "target",
+        "args",
+        "ClassDecorator",
+        "ClassDecorator",
+        "ClassDecoratorWithArguments"
+    ],
+    "literals": [
+        "'world'"
+    ],
+    "variables": [],
+    "comments": [
+        "--------------------------------\n // Example:\n --------------------------------",
+        "--------------------------------\n // Decorators are not valid here:\n --------------------------------",
+        "@ClassDecorator",
+        "var Nope = function() {",
+        "",
+        "}"
+    ],
+    "docstrings": [
+        "* A class decorator\n * @param target the class being decorated\n * @return {TFunction} A new constructor producing an identical structure"
+    ],
+    "functions": [
+        "ClassDecorator",
+        "ClassDecoratorWithArguments"
+    ],
+    "classes": [
+        "C",
+        "D"
+    ]
+}

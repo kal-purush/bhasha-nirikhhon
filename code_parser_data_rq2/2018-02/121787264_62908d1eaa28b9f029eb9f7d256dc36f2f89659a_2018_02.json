@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "Injectable",
+        "SampleModel",
+        "HttpClient",
+        "HttpErrorResponse",
+        "HttpHeaders",
+        "Observable",
+        "ErrorObservable",
+        "catchError",
+        "retry",
+        "Injectable",
+        "http",
+        "retry",
+        "catchError",
+        "newFirstName",
+        "sampleModel",
+        "newFirstName",
+        "sampleModel",
+        "HttpHeaders",
+        "body",
+        "httpOptions",
+        "catchError",
+        "error",
+        "error",
+        "ErrorEvent",
+        "error",
+        "error",
+        "error",
+        "ErrorObservable"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "\"./sample.class\"",
+        "'@angular/common/http'",
+        "'rxjs/Observable'",
+        "'rxjs/observable/ErrorObservable'",
+        "'rxjs/operators'",
+        "'api/sample'",
+        "string",
+        "'Content-Type'",
+        "'application/json'",
+        "'Authorization'",
+        "'my-auth-token'",
+        "'api/sample'",
+        "'An error occurred:'",
+        "Backend returned code ${error.status},",
+        "body was: ${error.error}",
+        "'Something bad happened; please try again later.'"
+    ],
+    "variables": [
+        "body",
+        "httpOptions"
+    ],
+    "comments": [
+        "an API request call can be reused, so it tends to be public and shared by a Service instead",
+        "retry a failed request up to 3 times",
+        "then handle the error",
+        "PUT/POST requests are a bit more complicated, since they require a JSON payload body",
+        "return an Observable of type SampleModel",
+        "define JSON payload body",
+        "lastName is unchanged",
+        "define stubbed HTTP options",
+        "a client-side or network error occurred. Handle it accordingly.",
+        "the backend returned an unsuccessful response code.",
+        "the response body may contain clues as to what went wrong,",
+        "return an ErrorObservable with a user-facing error message"
+    ],
+    "docstrings": [
+        "**************\n   * API REQUESTS *\n   ***************",
+        "******************\n   * HELPER FUNCTIONS *\n   *******************"
+    ],
+    "functions": [
+        "getSample",
+        "postSample",
+        "handleError"
+    ],
+    "classes": [
+        "SampleService"
+    ]
+}

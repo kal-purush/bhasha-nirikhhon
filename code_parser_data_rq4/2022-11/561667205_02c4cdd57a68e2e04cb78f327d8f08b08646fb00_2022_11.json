@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "x",
+        "y",
+        "width",
+        "height",
+        "Matter",
+        "x",
+        "y",
+        "width",
+        "height",
+        "options",
+        "width",
+        "height",
+        "loadImage",
+        "World",
+        "world",
+        "Matter",
+        "angle",
+        "keyIsDown",
+        "DOWN_ARROW",
+        "angle",
+        "angle",
+        "Matter",
+        "angle",
+        "keyIsDown",
+        "UP_ARROW",
+        "angle",
+        "angle",
+        "Matter",
+        "angle",
+        "push",
+        "translate",
+        "pos",
+        "pos",
+        "rotate",
+        "angle",
+        "imageMode",
+        "CENTER",
+        "image",
+        "pop"
+    ],
+    "literals": [
+        "\"./assets/playerArcher.png\""
+    ],
+    "variables": [
+        "options",
+        "pos",
+        "angle"
+    ],
+    "comments": [
+        "if (keyIsDown(UPARROW) && angle > -103) {",
+        "angle -=1;",
+        "Matter.Body.setAngle(this.body, angle);",
+        "}",
+        "if (keyIsDown(ARROW) && angle > -103) {",
+        "angle -=1;",
+        "Matter.Body.setAngle(this.body, angle);",
+        "}",
+        "if (keyIsDown(UP_ARROW) && angle > -103) {",
+        "angle -=1;",
+        "Matter.Body.set(this.body, angle);",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "display"
+    ],
+    "classes": [
+        "PlayerArcher"
+    ]
+}

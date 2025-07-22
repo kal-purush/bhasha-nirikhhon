@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "cli",
+        "exception",
+        "org",
+        "springframework",
+        "http",
+        "HttpStatus",
+        "status",
+        "message",
+        "status",
+        "message",
+        "status",
+        "status",
+        "message",
+        "getErrorMessage",
+        "status",
+        "message",
+        "status",
+        "status",
+        "status",
+        "message",
+        "getErrorMessage",
+        "status",
+        "status",
+        "Override",
+        "message",
+        "status",
+        "status",
+        "NOT_FOUND",
+        "BAD_REQUEST",
+        "UNAUTHORIZED",
+        "FORBIDDEN",
+        "status",
+        "getReasonPhrase"
+    ],
+    "literals": [
+        "\"| errorMessage:\"",
+        "\"The requested resource could not be found.\"",
+        "\"Some content in the request was invalid.\"",
+        "\"The request you have made requires authentication.\"",
+        "\"Policy does not allow current user to do this operation.\""
+    ],
+    "variables": [
+        "status",
+        "message"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* 为了返回的异常和openStack一致，增加自定义异常，配合统一处理，返回正确的HttpStatus\n *\n * @author lw"
+    ],
+    "functions": [
+        "ValidException",
+        "ValidException",
+        "HttpStatus",
+        "getStatus",
+        "getMessage",
+        "getErrorMessage"
+    ],
+    "classes": [
+        "ValidException"
+    ]
+}

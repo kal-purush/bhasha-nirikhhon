@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "call",
+        "Effect",
+        "put",
+        "select",
+        "sessionInvalid",
+        "isFirstRunAfterInstallSelector",
+        "GlobalState",
+        "deletePin",
+        "previousInstallationDataDeleteSaga",
+        "isFirstRunAfterInstallSelector",
+        "select",
+        "isFirstRunAfterInstallSelector",
+        "isFirstRunAfterInstall",
+        "call",
+        "deletePin",
+        "put",
+        "sessionInvalid"
+    ],
+    "literals": [
+        "\"redux-saga/effects\"",
+        "\"../store/actions/authentication\"",
+        "\"../store/reducers/installation\"",
+        "\"../store/reducers/types\"",
+        "\"../utils/keychain\""
+    ],
+    "variables": [
+        "isFirstRunAfterInstall"
+    ],
+    "comments": [
+        "Delete the current PIN from the Keychain",
+        "tslint:disable-next-line:saga-yield-return-type",
+        "invalidate the session"
+    ],
+    "docstrings": [
+        "* A saga to manage notifications",
+        "* This generator function removes user data from previous application\n * installation"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "software",
+        "sebastian",
+        "oposiciones",
+        "org",
+        "springframework",
+        "boot",
+        "SpringApplication",
+        "org",
+        "springframework",
+        "context",
+        "ConfigurableApplicationContext",
+        "software",
+        "sebastian",
+        "oposiciones",
+        "service",
+        "EtiquetaEmbeddingBatchService",
+        "args",
+        "ctx",
+        "SpringApplication",
+        "run",
+        "args",
+        "batchService",
+        "ctx",
+        "getBean",
+        "batchService",
+        "generarEmbeddingsParaTodasLasEtiquetas",
+        "exit"
+    ],
+    "literals": [
+        "\"→ Embeddings generados para todas las etiquetas.\""
+    ],
+    "variables": [],
+    "comments": [
+        "1) Arranca el contexto de Spring Boot",
+        "2) Obtiene el servicio que procesa todas las etiquetas",
+        "3) Lanza la generación de embeddings una única vez",
+        "4) Termina la aplicación"
+    ],
+    "docstrings": [
+        "Para ejecutarlo una sola vez\n     ./mvnw spring-boot:run \\\n    -Dspring-boot.run.main-class=software.sebastian.oposiciones.EmbeddingOneTimeRunner"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "EmbeddingOneTimeRunner"
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "who",
+        "amount",
+        "who",
+        "amount",
+        "Action"
+    ],
+    "literals": [
+        "\"debit\"",
+        "\"credit\""
+    ],
+    "variables": [],
+    "comments": [
+        "[\"credit\",\"debit\"]  // A TESTER",
+        "[\"driver\", \"owner\", \"insurance\", \"assistance\", \"drivy\"]",
+        "Action.prototype.setAmount = function () {",
+        "//this.amount = 0;",
+        "",
+        "",
+        "};",
+        "Action.prototype.getAmount = function () {",
+        "return this.amount;",
+        "};",
+        "Action.prototype.getDetail = function () {",
+        "return this.amount;",
+        "};"
+    ],
+    "docstrings": [
+        "* author : lelion21@gmail.com",
+        "* Action Obj\n * @param {string} who\n * @param {string} type\n * @param {string} amount\n * @returns {void}"
+    ],
+    "functions": [
+        "Action"
+    ],
+    "classes": []
+}

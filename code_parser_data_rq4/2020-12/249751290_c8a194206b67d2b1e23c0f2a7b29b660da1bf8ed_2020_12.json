@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "val",
+        "hd",
+        "v",
+        "h",
+        "val",
+        "v",
+        "hd",
+        "h",
+        "root",
+        "q",
+        "tm",
+        "root",
+        "q",
+        "add",
+        "root",
+        "q",
+        "isEmpty",
+        "p",
+        "q",
+        "poll",
+        "curr",
+        "p",
+        "val",
+        "hd",
+        "p",
+        "hd",
+        "tm",
+        "put",
+        "hd",
+        "curr",
+        "data",
+        "curr",
+        "left",
+        "q",
+        "add",
+        "curr",
+        "left",
+        "hd",
+        "curr",
+        "right",
+        "q",
+        "add",
+        "curr",
+        "right",
+        "hd",
+        "a",
+        "p",
+        "tm",
+        "entrySet",
+        "a",
+        "add",
+        "p",
+        "getValue",
+        "a"
+    ],
+    "literals": [],
+    "variables": [
+        "hd"
+    ],
+    "comments": [
+        "Method that returns the bottom view.",
+        "Code here"
+    ],
+    "docstrings": [
+        "Given a binary tree, print the bottom view from left to right.\nA node is included in bottom view if it can be seen when we look at the tree from bottom.\n\n                      20\n                    /    \\\n                  8       22\n                /   \\        \\\n              5      3       25\n                    /   \\      \n                  10    14\n\nFor the above tree, the bottom view is 5 10 3 14 25.\nIf there are multiple bottom-most nodes for a horizontal distance from root, then print the later one in level traversal. For example, in the below diagram, 3 and 4 are both the bottommost nodes at horizontal distance 0, we need to print 4.\n\n                      20\n                    /    \\\n                  8       22\n                /   \\     /   \\\n              5      3 4     25\n                     /    \\      \n                 10       14\n\nFor the above tree the output should be 5 10 4 14 25.\n \n\nExample 1:\n\nInput:\n       1\n     /   \\\n    3     2\nOutput: 3 1 2\nExplanation:\nFirst case represents a tree with 3 nodes\nand 2 edges where root is 1, left child of\n1 is 3 and right child of 1 is 2.\n\nThus nodes of the binary tree will be\nprinted as such 3 1 2.\nExample 2:\n\nInput:\n         10\n       /    \\\n      20    30\n     /  \\\n    40   60\nOutput: 40 20 60 30\nYour Task:\nThis is a functional problem, you don't need to care about input, just complete the function bottomView() which takes the root node of the tree as input and returns an array containing the bottom view of the given tree.\n\nExpected Time Complexity: O(N).\nExpected Auxiliary Space: O(N).\n\nConstraints:\n1 <= Number of nodes <= 105\n1 <= Data of a node <= 105\n\n########################################################################################Solution####################################################################"
+    ],
+    "functions": [
+        "Pair",
+        "bottomView"
+    ],
+    "classes": [
+        "Pair",
+        "Tree"
+    ]
+}

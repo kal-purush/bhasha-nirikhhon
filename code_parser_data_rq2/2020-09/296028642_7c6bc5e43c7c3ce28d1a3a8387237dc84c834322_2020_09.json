@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "dotenv",
+        "express",
+        "AddressInfo",
+        "dotenv",
+        "express",
+        "app",
+        "express",
+        "app",
+        "process",
+        "server",
+        "server",
+        "address"
+    ],
+    "literals": [
+        "'dotenv'",
+        "'express'",
+        "'net'",
+        "Server is running in http://localhost: ${address.port}",
+        "'Failure upon starting server'"
+    ],
+    "variables": [
+        "app",
+        "server",
+        "address"
+    ],
+    "comments": [
+        "import { getAllStudents } from './endpoints/getAllStudents';",
+        "import { login } from './endpoints/login';",
+        "import { signUp } from './endpoints/signUp';",
+        "app.post('/user/signup', signUp);",
+        "app.post('/user/login', login);",
+        "app.get('/students', getAllStudents);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

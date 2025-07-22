@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "gapi",
+        "gapi",
+        "clientId",
+        "callbacks",
+        "token",
+        "user",
+        "gapi",
+        "clientId",
+        "error",
+        "gapi",
+        "gapi",
+        "GOOGLE_AUTH_SCOPE",
+        "DISCOVERY_URL",
+        "gapi",
+        "error",
+        "error",
+        "GOOGLE_AUTH_SCOPE",
+        "isAuthorized"
+    ],
+    "literals": [
+        "'gapi.auth2'",
+        "'https://www.googleapis.com/auth/userinfo.email'",
+        "'https://www.googleapis.com/discovery/v1/apis/drive/v3/rest'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'client:auth2'",
+        "'*** gapi client is created. Creating google auth instance.'",
+        "'*** Created google auth instance:'",
+        "'*** google auth is signed in.'",
+        "'gapi is not defined. cannot perform authentication.'",
+        "'Got current user:'",
+        "'Failed to get current user'",
+        "'*** User is not authorized for given scope'",
+        "'*** Got user access token:'"
+    ],
+    "variables": [
+        "GOOGLE_AUTH_SCOPE",
+        "DISCOVERY_URL",
+        "isAuthorized"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "init",
+        "getUserInfo",
+        "signIn",
+        "signOut"
+    ],
+    "classes": [
+        "OAuth2Helper"
+    ]
+}

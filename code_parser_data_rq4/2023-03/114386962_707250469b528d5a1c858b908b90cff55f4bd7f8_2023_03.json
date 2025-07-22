@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "GraphQLError",
+        "GraphQLErrorOptions",
+        "GraphQLError",
+        "message",
+        "options",
+        "message",
+        "options",
+        "options"
+    ],
+    "literals": [
+        "'graphql'",
+        "string",
+        "'UNAUTHENTICATED'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This error is thrown when the user is not authenticated.\n *\n * \"AuthenticationError\" class was removed in the latest version of Apollo Server (4.0.0)\n * It was moved to the @nestjs/apollo package to avoid regressions & make migration easier."
+    ],
+    "functions": [],
+    "classes": [
+        "AuthenticationError"
+    ]
+}

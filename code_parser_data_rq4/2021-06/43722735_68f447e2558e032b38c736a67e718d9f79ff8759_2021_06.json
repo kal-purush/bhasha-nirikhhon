@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "goog",
+        "nested",
+        "NotAnObjectLiteral",
+        "goog",
+        "exported",
+        "goog"
+    ],
+    "literals": [
+        "string",
+        "'bloop'",
+        "'bad.exports'",
+        "string",
+        "'somevalue'",
+        "'only.one.allowed'",
+        "'must.be.top.level'"
+    ],
+    "variables": [
+        "exported",
+        "nested",
+        "notExported",
+        "NotAnObjectLiteral"
+    ],
+    "comments": [
+        "Allowed to be exported by tsmes.",
+        "Allowed to be exported by tsmes.",
+        "Cannot be exported by tsmes.",
+        "Cannot be exported by tsmes.",
+        "Allowed to be exported by tsmes.",
+        "Cannot be exported by tsmes.",
+        "Only module-level exports can be exported by tsmes",
+        "This symbol is not exported",
+        "Method declarations are not module-level exports",
+        "Properties are not module-level exports",
+        "Properties are not module-level exports",
+        "This should be allowed",
+        "This symbol is not exported",
+        "Only 0-1 tsmes calls are allowed per-module",
+        "tsmes calls must be module-level"
+    ],
+    "docstrings": [
+        "* @fileoverview negative tests for the tsMigrationExportsShim transformation.\n *\n * Suppress expected errors for :test_files_compilation_test\n * @suppress {checkTypes,undefinedNames,visibility}"
+    ],
+    "functions": [
+        "method",
+        "f"
+    ],
+    "classes": []
+}

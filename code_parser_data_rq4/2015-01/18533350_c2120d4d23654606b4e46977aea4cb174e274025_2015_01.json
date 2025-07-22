@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "freedom",
+        "Chrome_oauth",
+        "UProxy",
+        "uProxyAppChannel",
+        "UProxy",
+        "connector",
+        "ChromeUIConnector"
+    ],
+    "literals": [
+        "'scripts/freedom-module.json'",
+        "'Starting uProxy app...'"
+    ],
+    "variables": [
+        "installedFreedomHooks",
+        "connector",
+        "uProxyAppChannel",
+        "uproxyModule"
+    ],
+    "comments": [
+        "<reference path='chrome_oauth.ts' />",
+        "<reference path='chrome_ui_connector.ts' />",
+        "<reference path='../../../uproxy.ts' />",
+        "<reference path='../../../freedom/typings/freedom.d.ts' />",
+        "<reference path='../../util/chrome_glue.ts' />",
+        "<reference path='../../../third_party/typings/chrome/chrome-app.d.ts'/>",
+        "Remember which handlers freedom has installed."
+    ],
+    "docstrings": [
+        "* plumbing.ts\n *\n * This file must be included *after* the freedom script and manifest are\n * loaded."
+    ],
+    "functions": [],
+    "classes": []
+}

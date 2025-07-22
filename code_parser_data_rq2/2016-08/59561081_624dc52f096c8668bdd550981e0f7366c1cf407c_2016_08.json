@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "wia",
+        "unittest2",
+        "time",
+        "os",
+        "unittest2",
+        "TestCase",
+        "unittest2",
+        "main"
+    ],
+    "literals": [
+        "'__main__'"
+    ],
+    "variables": [],
+    "comments": [
+        "def test_signup(self):",
+        "response = wia.Customer.signup(fullName='Erlich Blachman',",
+        "email='erlich@blachmanity.com',",
+        "password='password')",
+        "print(response)",
+        "",
+        "def test_login(self):",
+        "response = wia.Customer.login(username='erlich@blachmanity.com',",
+        "password='password')",
+        "print(response)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "CustomerTest"
+    ]
+}

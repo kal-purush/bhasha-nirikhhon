@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "AccessLevelList",
+        "PolicyStatement",
+        "PolicyStatement",
+        "sid",
+        "sid"
+    ],
+    "literals": [
+        "'../shared/access-level'",
+        "'../shared'",
+        "'aws-marketplace'",
+        "string",
+        "'ListPrivateListings'",
+        "'ListPrivateListings'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Statement provider for service [aws-marketplace-discovery](https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsmarketplacediscovery.html).\n *\n * @param sid [SID](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_sid.html) of the statement",
+        "* Statement provider for service [aws-marketplace-discovery](https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsmarketplacediscovery.html).\n   *\n   * @param sid [SID](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements_sid.html) of the statement",
+        "* Grants permission to users to list their private offers\n   *\n   * Access Level: List\n   *\n   * https://docs.aws.amazon.com/marketplace/latest/buyerguide/private-offers-page.html"
+    ],
+    "functions": [
+        "toListPrivateListings"
+    ],
+    "classes": [
+        "AwsMarketplaceDiscovery"
+    ]
+}

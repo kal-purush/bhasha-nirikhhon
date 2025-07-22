@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "name",
+        "time",
+        "cost",
+        "pokeballType",
+        "GameConstants",
+        "research",
+        "Lab",
+        "cost",
+        "BagHandler",
+        "cost",
+        "cost",
+        "itemCost",
+        "BagHandler",
+        "itemCost",
+        "itemCost",
+        "ItemType",
+        "GameConstants"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "${BagHandler.displayName(itemCost.item)}: ${itemCost.amount}",
+        "'<br>'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "canFabricate",
+        "costTooltip",
+        "item"
+    ],
+    "classes": [
+        "PokeballBlueprint"
+    ]
+}

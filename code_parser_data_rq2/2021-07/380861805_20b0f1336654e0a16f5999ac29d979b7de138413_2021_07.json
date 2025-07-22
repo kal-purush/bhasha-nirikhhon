@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "fs",
+        "dtsGenerator",
+        "JsonSchema",
+        "parseSchema",
+        "ts",
+        "create",
+        "fs",
+        "path",
+        "dtsGenerator",
+        "parseSchema",
+        "response",
+        "ts",
+        "nameSpace",
+        "nameSpace",
+        "fs",
+        "serviceName",
+        "generatedContent",
+        "err",
+        "err",
+        "err",
+        "serviceName",
+        "create"
+    ],
+    "literals": [
+        "\"fs\"",
+        "\"dtsgenerator\"",
+        "\"swagger.json\"",
+        "\"MagicsApi\"",
+        "\"magics\"",
+        "\"utf-8\"",
+        "\"@dtsgenerator/replace-namespace\"",
+        "\"Paths\"",
+        "${nameSpace}Paths",
+        "\"Components\"",
+        "${serviceName}.d.ts",
+        "/* eslint-disable */\\n${generatedContent}",
+        "\"w\"",
+        "- types for ${serviceName} are generated."
+    ],
+    "variables": [
+        "path",
+        "nameSpace",
+        "serviceName",
+        "create",
+        "response",
+        "generatedContent"
+    ],
+    "comments": [
+        "For usage with urls",
+        "import nodeFetch, { Response } from \"node-fetch\";",
+        "service info",
+        "const response = await nodeFetch(url).then((res: Response) => res.json());",
+        "Generate"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "require",
+        "mysql",
+        "sql_query",
+        "con",
+        "err",
+        "err",
+        "err",
+        "con",
+        "sql_query",
+        "err",
+        "result",
+        "fields",
+        "err",
+        "err",
+        "require",
+        "data",
+        "result",
+        "fs",
+        "data",
+        "err",
+        "err",
+        "err",
+        "sql_query",
+        "pull_data",
+        "sql_query"
+    ],
+    "literals": [
+        "'mysql'",
+        "\"mammalwebdb.ccrk30vfkswu.eu-west-2.rds.amazonaws.com\"",
+        "\"admin\"",
+        "\"MammalWebAdminDB\"",
+        "\"mammalWeb\"",
+        "'fs'",
+        "'data.json'",
+        "\"JSON data is saved.\"",
+        "'SELECT * FROM mammalWeb.Options WHERE struc = \"mammal\"'"
+    ],
+    "variables": [
+        "mysql",
+        "con",
+        "fs"
+    ],
+    "comments": [
+        "data = JSON.parse(data);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "pull_data"
+    ],
+    "classes": []
+}

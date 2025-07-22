@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "io",
+        "zucchiniui",
+        "capsule",
+        "testRunPurgeDelayInDays",
+        "testRunPurgeDelayInDays",
+        "testRunPurgeDelayInDays",
+        "testRunPurgeDelayInDays",
+        "testRunPurgeDelayInDays"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Configuration injectée sous forme de JSON au chargement de l'UI.\n *\n * Cet objet est sérialisé en JSON pour transmission vers l'UI. Par contre, sa configuration\n * se fait bien dans le fichier YAML du serveur."
+    ],
+    "functions": [
+        "getTestRunPurgeDelayInDays",
+        "setTestRunPurgeDelayInDays"
+    ],
+    "classes": [
+        "FrontendConfig"
+    ]
+}

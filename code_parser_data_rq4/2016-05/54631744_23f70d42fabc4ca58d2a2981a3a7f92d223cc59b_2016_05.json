@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Database",
+        "ConfigService",
+        "PouchDatabase",
+        "DatabaseManagerService",
+        "Injectable",
+        "DatabaseManagerService",
+        "_appConfig",
+        "PouchDB",
+        "PouchDB",
+        "username",
+        "password",
+        "username",
+        "password",
+        "username",
+        "password",
+        "ajaxOpts",
+        "error",
+        "error",
+        "err",
+        "err",
+        "notify",
+        "notify",
+        "PouchDatabase"
+    ],
+    "literals": [
+        "\"angular2/core\"",
+        "\"./database\"",
+        "\"../config/config.service\"",
+        "\"./pouch-database\"",
+        "\"./database-manager.service\"",
+        "string",
+        "string",
+        "'Basic '",
+        "':'",
+        "\"Remote login successful.\"",
+        "\"Could not log in to the remote database. (\"",
+        "\")\"",
+        "\"sync successfully\"",
+        "\"sync failed:\"",
+        "\"sync notification:\""
+    ],
+    "variables": [
+        "ajaxOpts"
+    ],
+    "comments": [
+        "noinspection TypeScriptUnresolvedFunction",
+        "noinspection TypeScriptUnresolvedFunction"
+    ],
+    "docstrings": [
+        "* DatabaseManagerService takes care of \"background\" actions of the database (e.g. sync, authentication, etc.).\n *\n * To put/get actual data from the database inject `Database` instead, which will be provided through DatabaseManagerService."
+    ],
+    "functions": [
+        "initRemoteDatabase",
+        "login",
+        "logout",
+        "sync",
+        "getDatabase"
+    ],
+    "classes": [
+        "PouchDatabaseManagerService"
+    ]
+}

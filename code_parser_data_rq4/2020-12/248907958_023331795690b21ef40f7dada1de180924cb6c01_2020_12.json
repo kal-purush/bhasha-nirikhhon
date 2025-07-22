@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "AWS",
+        "Utilities",
+        "AWS",
+        "AWS",
+        "accessKeyId",
+        "secretAccessKey",
+        "AWS",
+        "sendMailRequest",
+        "AWS",
+        "AWS",
+        "Utilities",
+        "sendMailRequest",
+        "to",
+        "subject",
+        "html",
+        "text",
+        "AWS",
+        "to",
+        "html",
+        "text",
+        "subject",
+        "SendMail"
+    ],
+    "literals": [
+        "'aws-sdk'",
+        "'noqueue'",
+        "'ap-southeast-1'",
+        "string",
+        "string",
+        "'2019-09-27'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'UTF-8'",
+        "'UTF-8'",
+        "'UTF-8'"
+    ],
+    "variables": [],
+    "comments": [
+        "Load the AWS SDK for Node.js",
+        "Set the region",
+        "Retry 3 times before throw an error"
+    ],
+    "docstrings": [
+        "* Core send mail which will be use in sign in/ sign up\n * @export\n * @class SendMail",
+        "* Instance of AWS SES v2\n   * @private\n   * @type {AWS.SESV2}\n   * @memberof SendMail",
+        "* Creates an instance of SendMail.\n   * @param {string} accessKeyId\n   * @param {string} secretAccessKey\n   * @memberof SendMail",
+        "* Send an mail request\n   * @param {AWS.SESV2.Types.SendEmailRequest} sendMailRequest\n   * @return {Promise<AWS.SESV2.Types.SendEmailResponse>}\n   * @memberof SendMail",
+        "* Send an email with content\n   * @param {string} from\n   * @param {string} to\n   * @param {string} subject\n   * @param {string} html\n   * @param {string} text\n   * @return {Promise<AWS.SESV2.Types.SendEmailResponse>}\n   * @memberof SendMail"
+    ],
+    "functions": [
+        "sendMailRequest",
+        "sendEmail"
+    ],
+    "classes": [
+        "SendMail"
+    ]
+}

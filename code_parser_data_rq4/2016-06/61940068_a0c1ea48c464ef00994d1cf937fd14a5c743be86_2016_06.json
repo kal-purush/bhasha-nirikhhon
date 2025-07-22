@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "ROUTER_DIRECTIVES",
+        "Router",
+        "EmpireService",
+        "HTTP_PROVIDERS",
+        "UserService",
+        "User",
+        "BaseClient",
+        "PlanetsService",
+        "Component",
+        "ROUTER_DIRECTIVES",
+        "HTTP_PROVIDERS",
+        "EmpireService",
+        "UserService",
+        "PlanetsService",
+        "BaseClient",
+        "router",
+        "userService",
+        "User",
+        "user"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/router'",
+        "'./components/empire/empire.service'",
+        "'@angular/http'",
+        "'./rxjs-operators'",
+        "'./components/shared/user.service'",
+        "'./components/shared/base-client.service'",
+        "'./components/planets/planets.service'",
+        "'my-app'",
+        "<div class='center-container'>\n       <h1>{{title}}</h1>\n        <button (click)='setUser()' >Set user</button>\n        <router-outlet></router-outlet>\n    </div>",
+        "string",
+        "'Star Wars Battle planning system'",
+        "'Normal user'",
+        "'Normal'",
+        "'/login'"
+    ],
+    "variables": [
+        "user"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "setUser",
+        "ngOnInit"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

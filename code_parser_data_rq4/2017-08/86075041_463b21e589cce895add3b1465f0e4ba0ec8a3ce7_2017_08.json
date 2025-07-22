@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "Pt",
+        "IPt",
+        "Group",
+        "Group",
+        "args",
+        "rect"
+    ],
+    "literals": [
+        "\"./Pt\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Bound is a subclass of Group that represents a rectangular boundary.\n * It includes some convenient properties such as `x`, `y`, bottomRight`, `center`, and `size`.",
+        "* Create a Bound. This is similar to the Group constructor.\n     * @param args a list of Pt as parameters",
+        "* Create a Bound from a [ClientRect](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) object.\n     * @param rect an object has top/left/bottom/right/width/height properties\n     * @returns a Bound object",
+        "* Initiate the bound's properties.",
+        "* Clone this bound and return a new one",
+        "* Recalculte size and center",
+        "* Recalculate center",
+        "* Recalculate based on top-left position and size",
+        "* Recalculate based on bottom-right position and size",
+        "* Recalculate based on center position and size",
+        "* If the Group elements are changed, call this function to update the Bound's properties.\n     * It's preferable to change the topLeft/bottomRight etc properties instead of changing the Group array directly."
+    ],
+    "functions": [],
+    "classes": [
+        "Bound"
+    ]
+}

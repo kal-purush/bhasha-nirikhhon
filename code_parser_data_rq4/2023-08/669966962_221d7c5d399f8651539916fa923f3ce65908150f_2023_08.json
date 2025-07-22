@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "mybatis",
+        "java",
+        "io",
+        "java",
+        "io",
+        "InputStream",
+        "org",
+        "apache",
+        "ibatis",
+        "io",
+        "Resources",
+        "org",
+        "apache",
+        "ibatis",
+        "session",
+        "SqlSession",
+        "org",
+        "apache",
+        "ibatis",
+        "session",
+        "SqlSessionFactory",
+        "org",
+        "apache",
+        "ibatis",
+        "session",
+        "SqlSessionFactoryBuilder",
+        "sqlSessionFactory",
+        "resource",
+        "inputStream",
+        "inputStream",
+        "Resources",
+        "getResourceAsStream",
+        "resource",
+        "e",
+        "sqlSessionFactory",
+        "build",
+        "inputStream",
+        "sqlSessionFactory",
+        "openSession"
+    ],
+    "literals": [
+        "\"mybatis/mybatis-config.xml\"",
+        "\"mybatis 설정 파일 읽기 오류입니다.\""
+    ],
+    "variables": [
+        "sqlSessionFactory"
+    ],
+    "comments": [
+        "Mybatis 프레임웍의 클래스들..",
+        "변수들이 static 영역에 저장됩니다.",
+        "mybatis 설정파일",
+        "파일을 읽기위한 입력 스트림",
+        "리소스 파일 자원 읽어오기",
+        "System.out.println(\"이건 잘돼\");",
+        "읽어온 파일로 factory 생성"
+    ],
+    "docstrings": [
+        "* Mybatis 라이브러리의 SqlSession 클래스가 SQL 실행메소드를 제공합니다.\n * SqlSesseionFactoryBuilder 가  SqlSessionFactory 객체 생성\n * SqlSessionFactory 객체가 SqlSession 객체 생성  : 클래스 의존관계\n ****SqlSession 객체로 dao에서 db sql을 실행합니다.***\n * \n * https://mybatis.org/mybatis-3/ko/getting-started.html 참고로 작성합니다.\n * String resource = \"org/mybatis/example/mybatis-config.xml\";\n   InputStream inputStream = Resources.getResourceAsStream(resource);\n   SqlSessionFactory sqlSessionFactory = new SqlSessionFactoryBuilder().build(inputStream);\n *",
+        "**생성된 sqlSessionFactory 리턴하는 메소드 -> sql 실행하는 객체"
+    ],
+    "functions": [
+        "SqlSession",
+        "getSession"
+    ],
+    "classes": [
+        "SqlSessionBean"
+    ]
+}

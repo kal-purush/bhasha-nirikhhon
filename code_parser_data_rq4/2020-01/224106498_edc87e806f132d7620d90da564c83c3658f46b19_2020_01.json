@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "WorldPredicate",
+        "Game",
+        "Cost",
+        "Resource",
+        "Tile",
+        "WorldPredicate",
+        "resource",
+        "minQuantity",
+        "run",
+        "run",
+        "WorldPredicate",
+        "tileType",
+        "Tile",
+        "minQuantity",
+        "run",
+        "run",
+        "tile",
+        "tile",
+        "matchingTiles",
+        "plural"
+    ],
+    "literals": [
+        "\"./WorldPredicate.js\"",
+        "\"../Game.js\"",
+        "\"../resources/Cost.js\"",
+        "\"../resources/Resource.js\"",
+        "\"../world/Tile.js\"",
+        "string",
+        "have at least ${this.minQuantity} units of ${this.resource.name} in inventory",
+        "string",
+        "string",
+        "string",
+        "\"\"",
+        "\"s\"",
+        "have at least ${this.minQuantity}  ${this.tileType.tileName} tile${plural}"
+    ],
+    "variables": [
+        "matchingTiles",
+        "plural"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "evaluate",
+        "toString",
+        "evaluate",
+        "toString"
+    ],
+    "classes": [
+        "MinResourcePredicate",
+        "MinTilePredicate"
+    ]
+}

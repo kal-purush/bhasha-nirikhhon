@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "replacements",
+        "sys",
+        "f",
+        "sys",
+        "argv",
+        "open",
+        "f",
+        "encoding",
+        "fdin",
+        "fdin",
+        "read",
+        "key",
+        "variable_replacements",
+        "data",
+        "replace",
+        "key",
+        "variable_replacements",
+        "key",
+        "open",
+        "f",
+        "encoding",
+        "fdout",
+        "fdout",
+        "write",
+        "data"
+    ],
+    "literals": [
+        "'r'",
+        "'utf-8'",
+        "'.rep'",
+        "'w'",
+        "'utf-8'"
+    ],
+    "variables": [
+        "data",
+        "data"
+    ],
+    "comments": [
+        "",
+        "This copies all files given in argv to the same file name with a '.rep'",
+        "extension, replacing all the strings defined in replacements.py.",
+        "This is intended for use in conjunction with rstcheck which runs",
+        "independently of the variable replacement that sphinx does.",
+        ""
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

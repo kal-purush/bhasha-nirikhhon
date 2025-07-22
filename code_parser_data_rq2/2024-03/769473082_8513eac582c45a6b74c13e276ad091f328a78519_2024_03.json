@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "num1",
+        "num2",
+        "num1",
+        "num2",
+        "num1",
+        "num2",
+        "num1",
+        "num2",
+        "num2",
+        "num1",
+        "num2",
+        "input",
+        "input",
+        "input",
+        "ValueError",
+        "calculate",
+        "num1",
+        "num2",
+        "result",
+        "num1",
+        "num2",
+        "result",
+        "input",
+        "lower",
+        "choice"
+    ],
+    "literals": [
+        "\"+\"",
+        "\"-\"",
+        "\"*\"",
+        "\"/\"",
+        "\"Error: Division by zero\"",
+        "\"Invalid operator\"",
+        "\"Enter first number: \"",
+        "\"Enter second number: \"",
+        "\"Choose operation (+, -, *, /): \"",
+        "\"Invalid input. Please enter numbers only.\"",
+        "f\"{num1} {operator} {num2} = {result}\"",
+        "\"Do you want to perform another calculation? (y/n): \"",
+        "\"y\"",
+        "\"Calculator closed.\""
+    ],
+    "variables": [
+        "num1",
+        "num2",
+        "result",
+        "choice"
+    ],
+    "comments": [
+        "Indicate error",
+        "Indicate error",
+        "Get user input",
+        "Perform calculation",
+        "Display result",
+        "Ask if user wants to continue"
+    ],
+    "docstrings": [
+        "\"\"\"\n  Performs basic arithmetic operations based on the provided operator.\n\n  Args:\n      num1: First number.\n      num2: Second number.\n      operator: The arithmetic operation to perform (+, -, *, /).\n\n  Returns:\n      The result of the calculation.\n  \"\"\""
+    ],
+    "functions": [
+        "calculate"
+    ],
+    "classes": []
+}

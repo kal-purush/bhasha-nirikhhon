@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "AutoMapper",
+        "Domain",
+        "Entities",
+        "Domain",
+        "Models",
+        "Creates",
+        "Domain",
+        "Models",
+        "Updates",
+        "Domain",
+        "Models",
+        "Views",
+        "Application",
+        "Mappings",
+        "Profile",
+        "CreateMap",
+        "Role",
+        "RoleViewModel",
+        "CreateMap",
+        "RoleCreateModel",
+        "Role",
+        "ForMember",
+        "dest",
+        "Id",
+        "opt",
+        "MapFrom",
+        "Guid",
+        "NewGuid",
+        "CreateMap",
+        "RoleUpdateModel",
+        "Role",
+        "ForAllMembers",
+        "opts",
+        "Condition",
+        "_",
+        "_",
+        "srcMember",
+        "srcMember"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        ".ForMember(dest => dest.Ten, opt => opt.MapFrom(src => src.Name))",
+        ".ForMember(dest => dest.NgayTao, opt => opt.Ignore());"
+    ],
+    "docstrings": [],
+    "functions": [
+        "MappingProfile"
+    ],
+    "classes": [
+        "MappingProfile"
+    ]
+}

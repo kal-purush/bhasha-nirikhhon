@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "s",
+        "k",
+        "k",
+        "s",
+        "ch",
+        "s",
+        "cnt_map",
+        "get",
+        "ch",
+        "len",
+        "s",
+        "i",
+        "len",
+        "res",
+        "ch",
+        "cnt_map",
+        "ch",
+        "bag",
+        "cnt_map",
+        "ch",
+        "max_cnt",
+        "cnt_map",
+        "ch",
+        "ch",
+        "max_cnt",
+        "max_cnt_ch",
+        "cnt_map",
+        "max_cnt_ch",
+        "bag",
+        "add",
+        "max_cnt_ch",
+        "i",
+        "k",
+        "bag",
+        "remove",
+        "res",
+        "i",
+        "k",
+        "join",
+        "res"
+    ],
+    "literals": [
+        "\"_\"",
+        "\"\"",
+        "\"\""
+    ],
+    "variables": [
+        "cnt_map",
+        "cnt_map",
+        "ch",
+        "res",
+        "bag",
+        "max_cnt",
+        "max_cnt",
+        "max_cnt_ch",
+        "res",
+        "i"
+    ],
+    "comments": [
+        "Special case, k = 0 does not make sense,",
+        "and k - 1 window is invalid",
+        "print i, bag, res, cnt_map",
+        "Here if we look at the window before s[i]",
+        "which is no longer than lengh K-1 (NOT K)",
+        "Since all same chars are at least k apart",
+        "the window CANNOT contains duplicates",
+        "So good to use a set to represent",
+        "No available options here"
+    ],
+    "docstrings": [
+        "\"\"\"\n        :type s: str\n        :type k: int\n        :rtype: str\n        \"\"\""
+    ],
+    "functions": [
+        "rearrangeString"
+    ],
+    "classes": [
+        "Solution"
+    ]
+}

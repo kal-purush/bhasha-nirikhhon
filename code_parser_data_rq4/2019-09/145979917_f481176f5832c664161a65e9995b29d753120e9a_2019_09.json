@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Microsoft",
+        "Bot",
+        "Builder",
+        "Skills",
+        "Auth",
+        "Microsoft",
+        "Extensions",
+        "Configuration",
+        "SkillSample",
+        "IWhitelistAuthenticationProvider",
+        "IConfiguration",
+        "configuration",
+        "configuration",
+        "GetSection",
+        "section",
+        "Get",
+        "AppsWhitelist",
+        "appsList"
+    ],
+    "literals": [],
+    "variables": [
+        "section",
+        "appsList",
+        "AppsWhitelist"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft Corporation. All rights reserved.",
+        "Licensed under the MIT License.",
+        "Loads the apps whitelist from settings.",
+        "</summary>",
+        "skillAuthenticationWhitelist is the setting in appsettings.json file",
+        "that conists of the list of parent bot ids that are allowed to access the skill",
+        "to add a new parent bot simply go to the skillAuthenticationWhitelist and add",
+        "the parent bot's microsoft app id to the list"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "WhiteListAuthProvider"
+    ],
+    "classes": [
+        "WhiteListAuthProvider"
+    ]
+}

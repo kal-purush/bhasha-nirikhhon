@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "http",
+        "server",
+        "SimpleHTTPServer",
+        "ImportError",
+        "SimpleHTTPServer",
+        "RangeRequestHandler",
+        "SimpleHTTPServer",
+        "test",
+        "HandlerClass",
+        "RangeRequestHandler"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "!/usr/bin/python",
+        "Python3",
+        "Python 2"
+    ],
+    "docstrings": [
+        "'''\nUse this in the same way as Python's SimpleHTTPServer:\n\n  python -m RangeHTTPServer [port]\n\nThe only difference from SimpleHTTPServer is that RangeHTTPServer supports\n'Range:' headers to load portions of files. This is helpful for doing local web\ndevelopment with genomic data files, which tend to be to large to load into the\nbrowser all at once.\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "fi",
+        "tuni",
+        "koodimankelit",
+        "antibiootit",
+        "database",
+        "data",
+        "io",
+        "swagger",
+        "v3",
+        "oas",
+        "annotations",
+        "media",
+        "Schema",
+        "Schema",
+        "description",
+        "checkbox",
+        "text",
+        "checkbox",
+        "text",
+        "checkbox",
+        "checkbox",
+        "text",
+        "text",
+        "checkbox",
+        "text"
+    ],
+    "literals": [
+        "\"Representation of a targeted info\""
+    ],
+    "variables": [
+        "checkbox",
+        "text"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Database representation of targetedInfo",
+        "* Default constructor\n     * @param checkbox the checkbox selected \n     * @param text text for that selection",
+        "* Returns checkbox\n     * @return String checkbox",
+        "* Returns text for checkbox\n     * @return String text"
+    ],
+    "functions": [
+        "TargetedInfo",
+        "getCheckbox",
+        "getText"
+    ],
+    "classes": [
+        "TargetedInfo"
+    ]
+}

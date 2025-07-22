@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "LogHelper",
+        "ApiResponseContract",
+        "StatusCodes",
+        "ReasonPhrases",
+        "ErrorResponse",
+        "Validator",
+        "AbstractModel",
+        "AbstractService",
+        "Personne",
+        "PersonnesService",
+        "Personne",
+        "PersonnesService",
+        "requestData",
+        "Validator",
+        "requestData",
+        "messageValidate",
+        "ErrorResponse",
+        "ReasonPhrases",
+        "StatusCodes",
+        "messageValidate",
+        "requestData",
+        "formatedData",
+        "createdDocumentResponse",
+        "createdDocumentResponse",
+        "LogHelper",
+        "ErrorResponse",
+        "ReasonPhrases",
+        "StatusCodes"
+    ],
+    "literals": [
+        "\"../Monitoring/Helpers/LogHelper\"",
+        "\"../Http/Responses/ApiResponse\"",
+        "\"http-status-codes\"",
+        "\"../Http/Responses/ErrorResponse\"",
+        "\"../Validation/Validator\"",
+        "\"./Model\"",
+        "\"./Service\"",
+        "\"../Personnes/Models/Personne\"",
+        "\"../Personnes/Services/PersonnesService\"",
+        "\"create\"",
+        "\"Le code manque de robustesse. Entity/create\"",
+        "'Les données semblent être ok, mais la création n\\'a pas eu lieu.'"
+    ],
+    "variables": [
+        "messageValidate",
+        "formatedData",
+        "createdDocumentResponse"
+    ],
+    "comments": [
+        "@constructor",
+        "Can I just :  formatedData = {requestData}:Xschema"
+    ],
+    "docstrings": [
+        "* @method create permet de créer et d'insérer une nouvelle entité \"Personne\" dans la base de donnée à partir de la requête.\n     * \n     * Paramètres : \n     *      @param {key:value} requestData - attributs requis à la création d'une personne\n     * \n     * Retourne :\n     *      @return {ApiResponseContract}"
+    ],
+    "functions": [
+        "create"
+    ],
+    "classes": []
+}

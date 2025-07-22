@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "java",
+        "sql",
+        "args",
+        "Class",
+        "forName",
+        "connection",
+        "DriverManager",
+        "getConnection",
+        "st",
+        "connection",
+        "createStatement",
+        "rs",
+        "st",
+        "executeQuery",
+        "rsmd",
+        "rs",
+        "getMetaData",
+        "rs",
+        "next",
+        "rs",
+        "getString",
+        "e",
+        "e",
+        "printStackTrace"
+    ],
+    "literals": [
+        "\"org.apache.drill.jdbc.Driver\"",
+        "\"jdbc:drill:zk=192.168.10.239:2181/drill/mfm\"",
+        "\"select * from  mongo.mfm.sys_dict\"",
+        "\"name\"",
+        "\"驱动加载错误\""
+    ],
+    "variables": [],
+    "comments": [
+        "System.out.println(\"ResultSetMetadata.getColumnDisplaySize(1) :\"+rsmd.getColumnDisplaySize(1));",
+        "打印出错详细信息"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "DrillConnection"
+    ]
+}

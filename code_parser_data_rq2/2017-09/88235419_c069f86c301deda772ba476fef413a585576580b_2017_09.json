@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "SubscriptionLog",
+        "TestMessage",
+        "RxSandboxInstance",
+        "autoFlush",
+        "frameTimeFactor",
+        "maxFrameValue",
+        "source",
+        "expected",
+        "source",
+        "expected"
+    ],
+    "literals": [
+        "'rxjs/testing/SubscriptionLog'",
+        "'./message/TestMessage'",
+        "'./RxSandboxInstance'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Creates new instance of test scheduler for testing observables.\n   *\n   * @param {boolean} [autoFlush] Flush scheduler automatically when `getMarbles` is being called. False by default.\n   * @param {number} [frameTimeFactor] Custom frametime factor for virtual time frame. 1 by default.\n   * @param {number} [maxFrameValue] Maximum frame value of marble diagram can be read.\n   * If marble has value over max frame, it'll be ignored when scheduler flushes out.\n   * 1000 * frameTimeFactory by default.\n   * @return {RxSandboxInstance} instance of test scheduler interfaces.",
+        "* Utility assertion method to assert marble based observable test messages.\n   * By default return values of sandbox functions are plain object works with\n   * any testing framework or assertion library, while this assertion provides\n   * better visualization against observable test messages.\n   *"
+    ],
+    "functions": [],
+    "classes": []
+}

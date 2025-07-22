@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "beforeEach",
+        "describe",
+        "it",
+        "inject",
+        "calculateAgeFilter",
+        "date",
+        "date",
+        "st",
+        "date",
+        "date",
+        "date",
+        "expect",
+        "calculateAgeFilter",
+        "bday",
+        "it",
+        "inject",
+        "formatYearMonthDayFilter",
+        "st",
+        "expect",
+        "formatYearMonthDayFilter",
+        "bday"
+    ],
+    "literals": [
+        "'stanby'",
+        "'Test filters'",
+        "'test age filter'",
+        "'should format the date'",
+        "\"2000年1月31日\""
+    ],
+    "variables": [
+        "date",
+        "bday",
+        "bday"
+    ],
+    "comments": [
+        "<reference path=\"../../../src/scripts/vendor_def/angularjs/angular.d.ts\" />",
+        "<reference path=\"../../../src/scripts/vendor_def/angularjs/angular-mocks.d.ts\" />",
+        "<reference path=\"../../../src/scripts/services/common/routes.ts\" />",
+        "<reference path=\"../../../src/scripts/stanby-app.ts\" />"
+    ],
+    "docstrings": [
+        "* To use a Filter in code (controller, services, directives, test), simply append \"Filter\"\n     * to the end of the filter name.\n     *\n     * eg, we have a filter named \"calculateAge\" in the stanby module. So we inject\n     * \"calculateAgeFilter to use it\n     *\n     * For more info see: https://docs.angularjs.org/guide/filter"
+    ],
+    "functions": [],
+    "classes": []
+}

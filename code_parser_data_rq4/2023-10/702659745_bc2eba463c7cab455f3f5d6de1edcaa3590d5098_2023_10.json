@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "openai",
+        "os",
+        "pandas",
+        "pd",
+        "os",
+        "environ",
+        "get",
+        "testKey"
+    ],
+    "literals": [
+        "\"API_KEY\""
+    ],
+    "variables": [
+        "testKey",
+        "openai",
+        "api_key"
+    ],
+    "comments": [
+        "response = openai.ChatCompletion.create(",
+        "model='gpt-4',",
+        "messages=[",
+        "# {\"role\": \"system\", \"content\": \"You are an educational mini-game generator.\"},",
+        "{\"role\": \"system\", \"content\": prompt},",
+        "{\"role\": \"user\", \"content\": learningGoals},",
+        "{\"role\": \"user\", \"content\": subGoals},",
+        "{\"role\" : \"user\", \"content\" : \"Please format the learning goal code, description, game mechanics, game flow, and the sub-goals to be on seperate lines, each minigame should start with MINIGAME\"}",
+        "]",
+        ")"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "IDB",
+        "Pool",
+        "QueryResult",
+        "Logger",
+        "CiraConfigTable",
+        "ProfilesTable",
+        "DomainsTable",
+        "ProfilesWifiConfigsTable",
+        "WirelessProfilesTable",
+        "Logger",
+        "connectionString",
+        "Pool",
+        "connectionString",
+        "CiraConfigTable",
+        "ProfilesTable",
+        "DomainsTable",
+        "WirelessProfilesTable",
+        "ProfilesWifiConfigsTable",
+        "text",
+        "text",
+        "start",
+        "res",
+        "res"
+    ],
+    "literals": [
+        "'../../interfaces/database/IDb'",
+        "'pg'",
+        "'../../Logger'",
+        "'./tables/ciraConfigs'",
+        "'./tables/profiles'",
+        "'./tables/domains'",
+        "'./tables/profileWifiConfigs'",
+        "'./tables/wirelessProfiles'",
+        "'PostgresDb'",
+        "string",
+        "string",
+        "executed query: ${JSON.stringify({ text, duration, rows: res.rowCount })}"
+    ],
+    "variables": [
+        "start",
+        "res",
+        "duration"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "query"
+    ],
+    "classes": [
+        "Db"
+    ]
+}

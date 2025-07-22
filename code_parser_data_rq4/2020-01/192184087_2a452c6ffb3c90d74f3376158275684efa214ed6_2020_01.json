@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "os",
+        "django",
+        "channels",
+        "routing",
+        "get_default_application",
+        "os",
+        "environ",
+        "setdefault",
+        "django",
+        "setup",
+        "get_default_application"
+    ],
+    "literals": [
+        "'DJANGO_SETTINGS_MODULE'",
+        "'django_multi_apps.settings'"
+    ],
+    "variables": [
+        "application"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nASGI config for django_multi_apps project.\n\nIt exposes the ASGI callable as a module-level variable named ``application``.\n\nFor more information on this file, see\nhttps://docs.djangoproject.com/en/3.0/howto/deployment/asgi/\nhttps://channels.readthedocs.io/en/latest/deploying.html\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

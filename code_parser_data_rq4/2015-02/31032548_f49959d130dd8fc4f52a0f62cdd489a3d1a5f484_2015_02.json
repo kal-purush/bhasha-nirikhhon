@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Actor",
+        "x",
+        "y",
+        "opciones",
+        "opciones",
+        "pilas",
+        "imagen",
+        "x",
+        "y",
+        "opciones",
+        "ops",
+        "ops",
+        "ops",
+        "ops",
+        "ops",
+        "ops",
+        "x",
+        "y",
+        "x",
+        "y",
+        "parseInt",
+        "nro",
+        "nro",
+        "i",
+        "nro",
+        "i",
+        "seguidilla",
+        "i",
+        "seguidilla"
+    ],
+    "literals": [],
+    "variables": [
+        "imagen",
+        "seguidilla",
+        "i"
+    ],
+    "comments": [
+        "<reference path = \"../../dependencias/pilasweb.d.ts\" />"
+    ],
+    "docstrings": [
+        "* @class ActorAnimado\n * \n * Representa un actor que tiene una animación cuando se mueve.\n * Las opciones deben incluir la grilla (imagen) y la cantidad de cuadros que tiene,\n * ó bien la grilla y la lista de cuadros que representan la animación. También puede\n * incluir el cuadroEstatico, que es el cuadro que se muestra al estar parado.\n * \n * Por ejemplo:\n *      @example\n *      miActor = new ActorAnimado(0,0,{grilla: 'miImagen.png', cuadrosCorrer: [3,4,5,6]});\n *      miActor.hacer_luego(CaminaDerecha,{pasos: 2});"
+    ],
+    "functions": [
+        "sanitizarOpciones",
+        "mover",
+        "animacion_correr",
+        "detener_animacion",
+        "seguidillaHasta"
+    ],
+    "classes": [
+        "ActorAnimado"
+    ]
+}

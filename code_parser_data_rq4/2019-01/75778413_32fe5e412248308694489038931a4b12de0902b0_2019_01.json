@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "markus_haskell_tester",
+        "MarkusHaskellTester",
+        "markus_tester",
+        "MarkusTestSpecs",
+        "MarkusTestSpecs",
+        "POINTS",
+        "MarkusHaskellTester",
+        "specs",
+        "SPECS",
+        "tester",
+        "run"
+    ],
+    "literals": [
+        "'__main__'",
+        "'test_points'",
+        "'Test.hs'"
+    ],
+    "variables": [
+        "SPECS",
+        "POINTS",
+        "SPECS",
+        "tester"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "SPECS['test_timeout'] = 10",
+        "SPECS['test_cases'] = 100",
+        "SPECS['feedback_file'] = 'feedback_haskell.txt'"
+    ],
+    "docstrings": [
+        "'''\n    The test files to run (uploaded as support files), and the points assigned:\n    points can be assigned per test.  If a test is missing, it is assigned a \n    default of 1 point (use POINTS = {} for all 1s).\n    '''",
+        "'''\n    The max time to run a single test (defaults to 10 seconds if commented out).\n    (this timeout may not work in particular cases, e.g. with multi-threading)\n    '''",
+        "'''\n    The number of test cases to run for each quickcheck test \n    (default is 100)\n    '''",
+        "'''\n    The feedback file name (defaults to no feedback file if commented out).\n    '''"
+    ],
+    "functions": [],
+    "classes": []
+}

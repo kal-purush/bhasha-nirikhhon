@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "React",
+        "Component",
+        "Link",
+        "axios",
+        "Cookies",
+        "Cookies",
+        "Component",
+        "props",
+        "props",
+        "cookies",
+        "axios",
+        "query",
+        "res",
+        "res",
+        "div",
+        "input",
+        "input",
+        "input",
+        "p",
+        "p",
+        "button",
+        "button",
+        "threadId",
+        "div",
+        "threadId",
+        "Link",
+        "threadId",
+        "button",
+        "threadId",
+        "button",
+        "Link",
+        "br",
+        "br",
+        "div",
+        "div",
+        "Forum"
+    ],
+    "literals": [
+        "'react'",
+        "'react-router-dom'",
+        "'axios'",
+        "'universal-cookie'",
+        "'forumInfo'",
+        "''",
+        "'http://localhost:3001/api/searchForum'",
+        "\"Search for...\"",
+        "/forum/${threadId}",
+        "'thread'"
+    ],
+    "variables": [
+        "cookies",
+        "query"
+    ],
+    "comments": [
+        "internal forum component, renders all appropriate thread previews",
+        "retrieves current forum data from cookies",
+        "search query",
+        "actively updates search query",
+        "queries database and searches titles matching query variable, then sets component state as result",
+        "search box to filter forum, requeries database with new query when submitted",
+        "preview of query",
+        "maps out each thread gathered from state, on first render its all threads, then after search it narrows it down",
+        "individual links to each thread with variable links determined by index in total forums objec"
+    ],
+    "docstrings": [],
+    "functions": [
+        "render"
+    ],
+    "classes": [
+        "Forum"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "softwareproject",
+        "Models",
+        "softwareproject",
+        "ViewModel",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Web",
+        "Web",
+        "Mvc",
+        "softwareproject",
+        "Controllers",
+        "Controller",
+        "SchoolContext",
+        "db",
+        "Students",
+        "ToList",
+        "View",
+        "students",
+        "View"
+    ],
+    "literals": [],
+    "variables": [
+        "SchoolContext",
+        "db",
+        "students"
+    ],
+    "comments": [
+        "",
+        "GET: /Jiraguide/",
+        "Course math = new Course();",
+        "math.courseName = \"Mathematics 909\";",
+        "math.totalcredit = 5;",
+        "Student tayo = new Student();",
+        "tayo.firstName = \"Tayo\";",
+        "tayo.lastName = \"Adigun\";",
+        "Student seun = new Student();",
+        "seun.firstName = \"seun\";",
+        "seun.lastName = \"Balogun\";",
+        "Student john = new Student();",
+        "john.firstName = \"Shakiru\";",
+        "john.lastName = \"Pops\";",
+        "List<Student> studentlist = new List<Student>();",
+        "studentlist.Add(tayo);",
+        "studentlist.Add(seun);",
+        "studentlist.Add(john);",
+        "Course_Student obj = new Course_Student();",
+        "obj.courses = math;",
+        "obj.students = studentlist;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ActionResult",
+        "Jira",
+        "ActionResult",
+        "Index"
+    ],
+    "classes": [
+        "JiraguideController"
+    ]
+}

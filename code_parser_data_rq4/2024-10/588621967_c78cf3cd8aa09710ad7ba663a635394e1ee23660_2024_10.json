@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "NextApiRequest",
+        "NextApiResponse",
+        "req",
+        "res",
+        "AbortController",
+        "setTimeout",
+        "controller",
+        "fetch",
+        "JITO_API",
+        "controller",
+        "clearTimeout",
+        "timeoutId",
+        "response",
+        "response",
+        "res",
+        "res",
+        "data",
+        "error",
+        "error",
+        "res"
+    ],
+    "literals": [
+        "\"next\"",
+        "\"http://bundles-api-rest.jito.wtf\"",
+        "string",
+        "${JITO_API}/api/v1/bundles/tip_floor",
+        "\"application/json\"",
+        "\"Network response was not ok\"",
+        "\"Cache-Control\"",
+        "\"s-maxage=240, stale-while-revalidate=59\"",
+        "\"Error:\"",
+        "\"Error fetching data\""
+    ],
+    "variables": [
+        "JITO_API",
+        "controller",
+        "timeoutId",
+        "response",
+        "data"
+    ],
+    "comments": [
+        "Get jito tip data for at least 50 percentile result",
+        "use abort controller to restrict fetch to 5 seconds",
+        "Fetch from API and update cache",
+        "cache for 4 minutes"
+    ],
+    "docstrings": [],
+    "functions": [
+        "handler"
+    ],
+    "classes": []
+}

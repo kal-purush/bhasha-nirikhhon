@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "log",
+        "argv",
+        "exec",
+        "err",
+        "stdout",
+        "stderr",
+        "sjl",
+        "err",
+        "log",
+        "err",
+        "sjl",
+        "stderr",
+        "log",
+        "stderr",
+        "sjl",
+        "stdout",
+        "log",
+        "stdout"
+    ],
+    "literals": [
+        "'use strict'",
+        "'sjljs'",
+        "'fs'",
+        "'path'",
+        "'child_process'",
+        "'dargs'",
+        "'yargs'",
+        "'svn log http://svn-root-here.com/ --limit 3'"
+    ],
+    "variables": [
+        "fs",
+        "path",
+        "exec",
+        "dargs",
+        "argv",
+        "log",
+        "svnlog_process"
+    ],
+    "comments": [
+        "Sudo code",
+        "If not a valid call (check passed in params)",
+        "Print help message(s)",
+        "Exit process",
+        "Compile svn options to a concatenated string",
+        "Compose command string",
+        "Debugging"
+    ],
+    "docstrings": [
+        "* Created by edelacruz on 3/2/2015.\n * @requires program: svn to be on the system path"
+    ],
+    "functions": [],
+    "classes": []
+}

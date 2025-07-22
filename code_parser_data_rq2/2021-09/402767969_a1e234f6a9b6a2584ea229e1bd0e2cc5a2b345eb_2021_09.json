@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "buttonClick",
+        "cleanser",
+        "cleanser",
+        "cleanser"
+    ],
+    "literals": [
+        "\"btn\"",
+        "\"cleanser\"",
+        "\"block\"",
+        "\"none\"",
+        "\"block\""
+    ],
+    "variables": [
+        "btn",
+        "cleanser"
+    ],
+    "comments": [
+        "function toggletext() {",
+        "let text = document.getElementsByClassName(\"btn\");",
+        "if (text.style.display === \"none\") {",
+        "text.style.display = \"block\";",
+        "} else {",
+        "text.style.display = \"none\";",
+        "}",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

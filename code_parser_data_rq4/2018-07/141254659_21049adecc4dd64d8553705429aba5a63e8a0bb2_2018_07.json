@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "Web3",
+        "Web3",
+        "web3",
+        "contractInterface",
+        "web3"
+    ],
+    "literals": [
+        "'use strict'",
+        "'./contractInterface'",
+        "'web3'",
+        "\"http://localhost:8545\"",
+        "\"0x5b9f5a7c31efc49fa423de2105618d6347240f73\""
+    ],
+    "variables": [
+        "contractInterface",
+        "Web3",
+        "web3",
+        "contract"
+    ],
+    "comments": [
+        "web3.eth.getAccounts()\n    .then(console.log).catch((e) => {\n        console.log(e);\n    });",
+        "console.log(contractInterface);",
+        "const contract = web3.eth.contract(abi).at(web3.toChecksumAddress(\"0x7bf7ae2da6013aa8de29627e29e4b9fa807d4469\"));",
+        "const contract = new web3.eth.Contract(abi.abi, web3.utils.toChecksumAddress(\"0x7bf7ae2da6013aa8de29627e29e4b9fa807d4469\"));",
+        "for(let p in contract) console.log(p);",
+        "contract.methods.testOracleConnection().call().then(console.log).catch(console.error);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

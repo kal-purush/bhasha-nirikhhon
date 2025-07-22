@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "track",
+        "track",
+        "fetch",
+        "process",
+        "EDIT_IN_V0_SOURCE",
+        "process",
+        "process",
+        "response",
+        "response",
+        "response",
+        "error",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "\"use server\"",
+        "\"@vercel/analytics/server\"",
+        "\"ui.shadcn.com\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"edit_in_v0\"",
+        "${process.env.V0_URL}/api/edit",
+        "\"POST\"",
+        "\"x-v0-edit-secret\"",
+        "\"x-vercel-protection-bypass\"",
+        "\"not-set\"",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "\"Unauthorized\"",
+        "\"Something went wrong. Please try again later.\""
+    ],
+    "variables": [
+        "EDIT_IN_V0_SOURCE",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "editInV0"
+    ],
+    "classes": []
+}

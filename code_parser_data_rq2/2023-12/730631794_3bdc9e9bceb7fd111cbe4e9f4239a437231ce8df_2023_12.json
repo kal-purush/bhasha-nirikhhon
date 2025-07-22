@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "sal",
+        "liste",
+        "sal",
+        "service",
+        "service",
+        "compte_service",
+        "compte_service",
+        "service",
+        "compte_service",
+        "nom",
+        "age",
+        "nom",
+        "age",
+        "other",
+        "isinstance",
+        "other",
+        "Personne",
+        "nom",
+        "other",
+        "nom",
+        "age",
+        "other",
+        "age",
+        "Personne",
+        "Personne",
+        "personne1",
+        "personne2",
+        "resultat_apres_redefinition"
+    ],
+    "literals": [
+        "\"Alice\"",
+        "\"Alice\"",
+        "f\"Après redéfinition: Les instances sont-elles égales? {resultat_apres_redefinition}\""
+    ],
+    "variables": [
+        "service",
+        "compte_service",
+        "service",
+        "nom",
+        "age",
+        "personne1",
+        "personne2",
+        "resultat_apres_redefinition"
+    ],
+    "comments": [
+        "@property",
+        "def service(self):",
+        "return self.service",
+        "",
+        "for essai in enumerate(liste):",
+        "# print(essai[1].service)",
+        "liste_service.append(essai[1].service)",
+        "print(liste_service)",
+        "for service in liste_service:",
+        "# print(service, liste_service.count(service))",
+        "compte_service.update({service: liste_service.count(service)})",
+        "print(f\"---------------------Dictionnaire service---------------------\")"
+    ],
+    "docstrings": [],
+    "functions": [
+        "__eq__"
+    ],
+    "classes": [
+        "Personne"
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "$",
+        "addCoinListeners",
+        "addBeginListener",
+        "$",
+        "coin",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "$"
+    ],
+    "literals": [
+        "'use-strict'",
+        "\"[id*='coin']\"",
+        "'id'",
+        "'#begin'",
+        "'#begin'",
+        "'disabled'",
+        "'disabled'",
+        "'#coin1'",
+        "'disabled'",
+        "'#coin1'",
+        "'btn btn-default'",
+        "'#coin1'",
+        "'btn btn-success'",
+        "\"id\""
+    ],
+    "variables": [
+        "coin_id",
+        "next"
+    ],
+    "comments": [
+        "Reading.prototype.tossCoin = function(coin_num){",
+        "var current = \"#coin\"+coin_num;",
+        "var next = \"#coin\"+(coin_num+1);",
+        "$(current).attr('disabled','disabled');",
+        "$(current).removeClass('btn btn-success');",
+        "$(current).addClass('btn btn-success');",
+        "$(next).removeAttr('disabled');",
+        "$(next).removeClass('btn btn-default');",
+        "$(next).addClass('btn btn-success');",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "addCoinListeners",
+        "addBeginListener",
+        "tossCoin"
+    ],
+    "classes": []
+}

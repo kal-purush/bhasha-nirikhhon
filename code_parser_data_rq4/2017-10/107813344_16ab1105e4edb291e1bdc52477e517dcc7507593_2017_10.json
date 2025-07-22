@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Pipe",
+        "PipeTransform",
+        "Pipe",
+        "value",
+        "args",
+        "value",
+        "value",
+        "value"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'capitalizeFirst'",
+        "string",
+        "string",
+        "'Not assigned'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Capitalize the first letter of the string\n * Takes a string as a value.\n * Usage:\n *  value | capitalizefirst\n * Example:\n *  // value.name = daniel\n *  {{ value.name | capitalizefirst  }}\n *  fromats to: Daniel"
+    ],
+    "functions": [
+        "transform"
+    ],
+    "classes": [
+        "CapitalizeFirstPipe"
+    ]
+}

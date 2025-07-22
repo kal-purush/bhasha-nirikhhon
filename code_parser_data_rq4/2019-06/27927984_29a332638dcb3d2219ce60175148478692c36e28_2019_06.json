@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Composition",
+        "Reflection",
+        "Microsoft",
+        "CodeAnalysis",
+        "Host",
+        "Mef",
+        "OmniSharp",
+        "MetadataAttribute",
+        "AttributeUsage",
+        "AttributeTargets",
+        "Class",
+        "ExportAttribute",
+        "typeAssembly",
+        "typeName",
+        "layer",
+        "ServiceLayer",
+        "Host",
+        "IWorkspaceServiceFactory",
+        "Assembly",
+        "Load",
+        "typeAssembly",
+        "GetType",
+        "typeName",
+        "InvalidOperationException",
+        "typeName",
+        "typeAssembly",
+        "ServiceType",
+        "AssemblyQualifiedName",
+        "Layer",
+        "layer",
+        "ArgumentNullException",
+        "nameof",
+        "layer"
+    ],
+    "literals": [],
+    "variables": [
+        "ServiceType",
+        "Layer"
+    ],
+    "comments": [
+        "Theres builtin public attribute for this, but since we target internal types",
+        "this is needed to build service. MEF doesn't care is it internal or not."
+    ],
+    "docstrings": [],
+    "functions": [
+        "ExportWorkspaceServiceFactoryWithAssemblyQualifiedNameAttribute"
+    ],
+    "classes": [
+        "ExportWorkspaceServiceFactoryWithAssemblyQualifiedNameAttribute"
+    ]
+}

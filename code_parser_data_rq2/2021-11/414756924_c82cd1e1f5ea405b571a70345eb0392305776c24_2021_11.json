@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "props",
+        "props",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled"
+    ],
+    "literals": [
+        "'styled-components'",
+        "width: 90%;\nmargin: 5vh auto 0vh;\npadding: 4rem 0;\ngap: 1rem;\ndisplay:flex;\njustify-content: space-around;\nalign-items:center;\nfont-size: 1.2rem.\ntext-transform: capitalize;\nline-height:1;\nflex-direction: ${(props) => props.flexItemDirection};\n  @media (max-width: 1000px) {\n    flex-direction: column-reverse;\n    align-items:flex-start;\n    padding: 1rem;\n  }\n}",
+        "display: flex;\n  justify-content: center;\n  align-items: flex-start;\n  text-transform: capitalize;\n  flex-direction: column;\n  line-height: 1;",
+        "margin: 1vh 0;\n  color: #00005f;\n  a:hover {\n    cursor: pointer;\n  }",
+        "margin: 3vh auto;",
+        "&:hover {\n    text-decoration: underline;\n    cursor: pointer;\n  }",
+        "width: 50%;\n  @media (max-width: 1000px) {\n    width: 60%;\n  }"
+    ],
+    "variables": [
+        "InfoArticle",
+        "ArticleDiv",
+        "ArticleH2",
+        "ArticleText",
+        "ArticleLink",
+        "ArticleImage"
+    ],
+    "comments": [
+        "homepage"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

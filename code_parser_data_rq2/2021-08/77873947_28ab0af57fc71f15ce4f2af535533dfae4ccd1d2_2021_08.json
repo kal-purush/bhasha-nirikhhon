@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "LWEvents",
+        "getSchema",
+        "Utils",
+        "logFieldChanges",
+        "getSchema",
+        "collection",
+        "key",
+        "data",
+        "oldDocument",
+        "key",
+        "data",
+        "key",
+        "before",
+        "after",
+        "schema",
+        "key",
+        "schema",
+        "key",
+        "schema",
+        "key",
+        "schema",
+        "key",
+        "collection",
+        "before",
+        "after",
+        "after",
+        "before",
+        "loggedChangesBefore",
+        "key",
+        "before",
+        "loggedChangesAfter",
+        "key",
+        "after",
+        "loggedChangesAfter",
+        "Utils",
+        "LWEvents",
+        "oldDocument",
+        "currentUser",
+        "loggedChangesBefore",
+        "loggedChangesAfter"
+    ],
+    "literals": [
+        "'../lib/collections/lwevents/collection'",
+        "'../lib/utils/getSchema'",
+        "'../lib/vulcan-lib/utils'",
+        "'fieldChanges'"
+    ],
+    "variables": [
+        "logFieldChanges",
+        "loggedChangesBefore",
+        "loggedChangesAfter",
+        "schema",
+        "before",
+        "after"
+    ],
+    "comments": [
+        "Don't log if:",
+        "As a special case, don't log changes from null to undefined (or vise versa).",
+        "This special case is necessary because some upstream code (updateMutator) is",
+        "sloppy about the distinction."
+    ],
+    "docstrings": [
+        "* The field didn't change",
+        "* It's a denormalized field",
+        "* The logChanges option is present on the field, and false",
+        "* The logChanges option is undefined on the field, and is false on the collection"
+    ],
+    "functions": [],
+    "classes": []
+}

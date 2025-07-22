@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "sys",
+        "file_path",
+        "open",
+        "file_path",
+        "file",
+        "file",
+        "read",
+        "chunk",
+        "len",
+        "chunk",
+        "unpack",
+        "chunk",
+        "first_u32",
+        "last_u32",
+        "chunk",
+        "FileNotFoundError",
+        "file_path",
+        "len",
+        "sys",
+        "argv",
+        "os",
+        "path",
+        "basename",
+        "sys",
+        "argv",
+        "sys",
+        "exit",
+        "sys",
+        "argv",
+        "print_u32_values",
+        "file_path"
+    ],
+    "literals": [
+        "\"rb\"",
+        "\"<II\"",
+        "f\"{first_u32} : {last_u32}\"",
+        "\"Incomplete chunk:\"",
+        "f\"Error: File '{file_path}' not found\"",
+        "\"__main__\"",
+        "\"Usage: {script_name} <file_name>\""
+    ],
+    "variables": [
+        "chunk",
+        "first_u32",
+        "last_u32",
+        "script_name",
+        "file_path"
+    ],
+    "comments": [
+        "!/usr/bin/env python3"
+    ],
+    "docstrings": [
+        "\"\"\"\nThis script reads the index files for xtream file indexes\nEach index entry consist of 8 bytes where the first 4 bytes and the last 4 bytes are unsigned 32-bit integers (u32).\n@see IndexRecord\n\nThe IndexRecord can be use for different purposes, f.e.\n   - id -> id mapping\n   - id -> index\n   - index -> size (in this case the offset for the id is calculated through the \"cluster_id_start->cluster mapping\" offset shift)\n\"\"\""
+    ],
+    "functions": [
+        "print_u32_values"
+    ],
+    "classes": []
+}

@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "cdk",
+        "IntegTest",
+        "cognito",
+        "agw",
+        "AuthorizationType",
+        "MockIntegration",
+        "PassthroughBehavior",
+        "cdk",
+        "cdk",
+        "app",
+        "cognito",
+        "stack",
+        "agw",
+        "stack",
+        "userPool",
+        "agw",
+        "stack",
+        "agw",
+        "cdk",
+        "authorizer",
+        "agw",
+        "api",
+        "MockIntegration",
+        "PassthroughBehavior",
+        "AuthorizationType",
+        "api",
+        "MockIntegration",
+        "PassthroughBehavior",
+        "IntegTest",
+        "app",
+        "stack"
+    ],
+    "literals": [
+        "'aws-cdk-lib'",
+        "'@aws-cdk/integ-tests-alpha'",
+        "'aws-cdk-lib/aws-cognito'",
+        "'aws-cdk-lib/aws-apigateway'",
+        "'aws-cdk-lib/aws-apigateway'",
+        "'integtest-restapi-with-overriding-default-authorizer'",
+        "'UserPool'",
+        "'Authorizer'",
+        "'Actions-ApiGateway'",
+        "'scope'",
+        "'ANY'",
+        "'200'",
+        "'application/json'",
+        "'{ \"statusCode\": 200 }'",
+        "'200'",
+        "'GET'",
+        "'200'",
+        "'application/json'",
+        "'{ \"statusCode\": 200 }'",
+        "'200'",
+        "'apigateway-with-overriding-default-authorizer'"
+    ],
+    "variables": [
+        "app",
+        "stack",
+        "userPool",
+        "authorizer",
+        "api"
+    ],
+    "comments": [
+        "create a cognito user pool"
+    ],
+    "docstrings": [
+        "* Stack verification steps:\n * * `curl -i <CFN output PetsURL>` should return HTTP code 200"
+    ],
+    "functions": [],
+    "classes": []
+}

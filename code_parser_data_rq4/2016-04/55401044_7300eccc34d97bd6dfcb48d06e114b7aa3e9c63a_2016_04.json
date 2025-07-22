@@ -1,0 +1,84 @@
+{
+    "identifiers": [
+        "cluster",
+        "os",
+        "ChildWorker",
+        "KeyStringObject",
+        "config",
+        "os",
+        "config",
+        "key",
+        "process",
+        "key",
+        "config",
+        "key",
+        "cluster",
+        "i",
+        "numCPUs",
+        "cluster",
+        "worker",
+        "worker",
+        "i",
+        "cluster",
+        "worker",
+        "code",
+        "signal",
+        "worker",
+        "code",
+        "signal",
+        "ChildWorker",
+        "worker",
+        "code",
+        "signal",
+        "worker",
+        "cluster",
+        "child",
+        "child"
+    ],
+    "literals": [
+        "'cluster'",
+        "'os'",
+        "'./lib/ChildWorker'",
+        "'./lib/interfaces'",
+        "string",
+        "'exit'",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "numCPUs",
+        "i",
+        "worker",
+        "child"
+    ],
+    "comments": [
+        "number of CPU on the system",
+        "iterator key",
+        "set process variables from configuration",
+        "check if worker forked by the cluster is a master",
+        "init a list of active workers",
+        "begin to boot workers",
+        "start worker",
+        "save reference to worker",
+        "iterate",
+        "bind exit function",
+        "none master but slave worker",
+        "start child",
+        "remove from active worker pool",
+        "reboot worker",
+        "save path to active worker"
+    ],
+    "docstrings": [
+        "* HL7 FHIR REST server main application\n * \n * @class Server",
+        "* Container of active workers\n     * \n     * @type {Stringclass}",
+        "* Container of child worker\n     * \n     * @type {ChildWorker}",
+        "* Creates an instance of Server.",
+        "* Rebooting worker and delete the old worker from list\n     * \n     * @param {*} worker (description)\n     * @param {number} code (description)\n     * @param {string} signal (description)\n     * @returns void"
+    ],
+    "functions": [
+        "onExit"
+    ],
+    "classes": [
+        "Server"
+    ]
+}

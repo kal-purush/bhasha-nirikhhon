@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "useEffect",
+        "useMemo",
+        "unref",
+        "useRefValue",
+        "Unreffable",
+        "target",
+        "callback",
+        "options",
+        "useMemo",
+        "options",
+        "options",
+        "useRefValue",
+        "callback",
+        "useEffect",
+        "unref",
+        "target",
+        "element",
+        "MutationObserver",
+        "mutations",
+        "observer",
+        "callbackRef",
+        "mutations",
+        "observer",
+        "mutationObserverInstance",
+        "element",
+        "memoizedOptions",
+        "mutationObserverInstance",
+        "callbackRef",
+        "memoizedOptions",
+        "target"
+    ],
+    "literals": [
+        "'react'",
+        "'../../index.js'"
+    ],
+    "variables": [
+        "memoizedOptions",
+        "callbackRef",
+        "element",
+        "mutationObserverInstance"
+    ],
+    "comments": [
+        "Options are serializable so we can safely use JSON.stringify for the comparison",
+        "eslint-disable-next-line react-hooks/exhaustive-deps"
+    ],
+    "docstrings": [
+        "* Hook that sets up a MutationObserver to watch for changes to a DOM element.\n *\n * @example\n * function MyComponent(): ReactElement {\n *   const targetRef = useRef<HTMLElement>(null);\n *\n *   useMutationObserver(targetRef, (mutations, observer) => {\n *     console.log('Mutations observed:', mutations);\n *   }, { childList: true });\n *\n *   return <div ref={targetRef}>Hello, world!</div>;\n * }"
+    ],
+    "functions": [
+        "useMutationObserver"
+    ],
+    "classes": []
+}

@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "ReactNode",
+        "OidcError",
+        "_t",
+        "OidcClientError",
+        "getOidcErrorMessage",
+        "error",
+        "error",
+        "OidcError",
+        "_t",
+        "OidcClientError",
+        "OidcError",
+        "OidcError",
+        "OidcError",
+        "_t"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"matrix-js-sdk/src/oidc/error\"",
+        "\"../../languageHandler\"",
+        "\"Invalid query parameters for OIDC native login. `code` and `state` are required.\"",
+        "string",
+        "\"auth|oidc|missing_or_invalid_stored_state\"",
+        "\"auth|oidc|generic_auth_error\""
+    ],
+    "variables": [
+        "getOidcErrorMessage"
+    ],
+    "comments": [
+        "Copyright 2023 The Matrix.org Foundation C.I.C.\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou may not use this file except in compliance with the License.\nYou may obtain a copy of the License at\n\n    http://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software\ndistributed under the License is distributed on an \"AS IS\" BASIS,\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\nSee the License for the specific language governing permissions and\nlimitations under the License."
+    ],
+    "docstrings": [
+        "* Errors thrown by EW during OIDC native flow authentication.\n * Intended to be logged, not read by users.",
+        "* Get a friendly translated error message for user consumption\n * based on error encountered during authentication\n * @param error\n * @returns a friendly translated error message for user consumption"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql"
+    ],
+    "literals": [
+        "'@apollo/client'",
+        "mutation toggleBlock($blockInput: BlockInput!) {\n    toggleBlock(blockInput: $blockInput) {\n      checked\n      blocked\n    }\n  }",
+        "mutation toggleMute($uuid: String!, $userID: String!) {\n    toggleMute(uuid: $uuid, userID: $userID) {\n      index\n      name\n      muteID\n    }\n  }",
+        "mutation createChatLog($chatLog: CreateChatLogInput!) {\n    createChatLog(createChatLogInput: $chatLog) {\n      userID\n      type\n      message\n    }\n  }",
+        "mutation forcedOut($uuid: String!, $userID: String!) {\n    forcedOut(uuid: $uuid, userID: $userID) {\n      uuid\n      name\n      userID\n    }\n  }",
+        "mutation toggleAdmin($uuid: String!, $userID: String!) {\n    toggleAdmin(uuid: $uuid, userID: $userID) {\n      index\n      name\n      adminID\n    }\n  }",
+        "mutation createDM($user1: String!, $user2: String!) {\n    createDM(user1: $user1, user2: $user2) {\n      uuid\n    }\n  }"
+    ],
+    "variables": [
+        "TOGGLE_BLOCK",
+        "TOGGLE_MUTE",
+        "CREATE_CHAT_LOG",
+        "FORCED_OUT",
+        "TOGGLE_ADMIN",
+        "CREATE_DM"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

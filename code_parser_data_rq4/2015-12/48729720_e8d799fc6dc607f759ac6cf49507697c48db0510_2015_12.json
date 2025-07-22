@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "Component",
+        "Component"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "string",
+        "'my-app'",
+        "<h1>{{title}}</h1>\n        <h2>{{hero.name}} details!</h2>\n        <div>\n            <label>id: </label>{{hero.id}}\n        </div>\n        <div>\n            <label>name: </label>\n            <div><input value=\"{{hero.name}}\" placeholder=\"name2\"></div>\n            <!-- two-way binding hero.name -->\n            <div><input [(ngModel)]=\"hero.name\" placeholder=\"name\"></div>\n        </div>",
+        "'Tour of Heroes'",
+        "'Arick'"
+    ],
+    "variables": [],
+    "comments": [
+        "套用 HTML 元素"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppComponent"
+    ]
+}

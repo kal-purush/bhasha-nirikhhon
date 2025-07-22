@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "io",
+        "strimzi",
+        "systemtest",
+        "utils",
+        "specific",
+        "io",
+        "strimzi",
+        "systemtest",
+        "TestConstants",
+        "java",
+        "io",
+        "BufferedReader",
+        "java",
+        "io",
+        "java",
+        "io",
+        "InputStreamReader",
+        "java",
+        "nio",
+        "charset",
+        "StandardCharsets",
+        "RUNTIME",
+        "detectRuntime",
+        "isCommandAvailable",
+        "TestConstants",
+        "PODMAN",
+        "TestConstants",
+        "PODMAN",
+        "isCommandAvailable",
+        "TestConstants",
+        "DOCKER",
+        "TestConstants",
+        "DOCKER",
+        "command",
+        "process",
+        "command",
+        "start",
+        "reader",
+        "process",
+        "getInputStream",
+        "StandardCharsets",
+        "UTF_8",
+        "output",
+        "reader",
+        "readLine",
+        "output",
+        "output",
+        "isEmpty",
+        "e",
+        "RUNTIME"
+    ],
+    "literals": [
+        "\"Neither Podman nor Docker is available on the system.\"",
+        "\"which\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright Strimzi authors.\n * License: Apache License 2.0 (see the file LICENSE or http://apache.org/licenses/LICENSE-2.0.html).",
+        "* Returns the container runtime detected on the system.\n     *\n     * @return A string indicating the container runtime, either \"podman\" or \"docker\".\n     * @throws IllegalStateException if neither Podman nor Docker is available."
+    ],
+    "functions": [
+        "detectRuntime",
+        "isCommandAvailable",
+        "getRuntime"
+    ],
+    "classes": [
+        "ContainerRuntimeUtils"
+    ]
+}

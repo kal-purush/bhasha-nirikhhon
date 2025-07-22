@@ -1,0 +1,14 @@
+{
+    "identifiers": [],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "TODO: add your extensions here",
+        "function typeMergingTests() {\n    // 1. Extend `IEmployer` interface with a new `address` field of type `string`\n    let employer: IEmployer;\n    let employee = new Employee(employer);\n\n    // 2. Extend `existing-module` module with a new `Office` class\n    let office = new Office();\n\n    // 3. Extend `IEmployer` interface with a `raiseSalary` function overload that accepts an `Employee` instance as an argument\n    employer.raiseSalary(employee);\n\n    // 4. Extend `Employee` class with a `title` field of type string\n    employee.title = \"Mr\";\n\n    // 5. Extend `Employee` class with a `getFullName` function with the following implementation\n    let fullName: string = employee.getFullName();\n\n    // 6. Extend `IEmployer.raiseSalary` function with an `amount` field\n    IEmployer.raiseSalary.amount = 1;\n\n    // 7. Extend `printEmployee` function with a new `isEnabled` field\n    printEmployee.isEnabled = true;\n}"
+    ],
+    "docstrings": [
+        "* TODO: Uncomment namespace below and make work"
+    ],
+    "functions": [],
+    "classes": []
+}

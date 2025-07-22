@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "element",
+        "$",
+        "element",
+        "e",
+        "e",
+        "e",
+        "e",
+        "e",
+        "$",
+        "$",
+        "indicator",
+        "$",
+        "container",
+        "target",
+        "$",
+        "$",
+        "check_used",
+        "indicator",
+        "collapse",
+        "indicator",
+        "jQuery",
+        "$",
+        "$",
+        "jQuery"
+    ],
+    "literals": [
+        "'input[id$=_toggle]:checkbox'",
+        "'input[id$=_toggle]:checkbox:checked'",
+        "':text[value]'",
+        "'select .default_option'",
+        "'select .default_option:selected'",
+        "'.collapser:first'",
+        "'.collapse:first'",
+        "'.collapse:first'",
+        "'normal'",
+        "'expanded'",
+        "'collapsed'",
+        "'expanded'",
+        "'collapsed'",
+        "'.field.collapsible'"
+    ],
+    "variables": [
+        "e",
+        "indicator",
+        "collapse",
+        "container",
+        "target"
+    ],
+    "comments": [
+        "This code collapses fields in forms\n * It is used in plone_forms/search_form.pt\n *\n * Creates a jQuery function to install a click handler that will\n * collapse/expand form fields.\n * On page load, runs it for $('.field.collapsible').\n *\n * It uses the following markup:\n *\n * <div class=\"collapsible'>\n *   <label class=\"collapser\"> label of the field </label>\n *   <div class=\"collapse\"> block to collapse </div>\n *  </div>\n *",
+        "is there a number of checkboxs with a toggle box",
+        "and the toggle checkbox is not checked.",
+        "is there a normal text input fields that is not empty (=has a value)",
+        "drop downs",
+        "we have an option marked as the default option",
+        "and this default option isn't selected",
+        "install click handler"
+    ],
+    "docstrings": [],
+    "functions": [
+        "check_used"
+    ],
+    "classes": []
+}

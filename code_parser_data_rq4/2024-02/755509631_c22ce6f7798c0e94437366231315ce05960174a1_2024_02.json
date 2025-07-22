@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "flask",
+        "Flask",
+        "Flask",
+        "app",
+        "route",
+        "app",
+        "route",
+        "score",
+        "score",
+        "app",
+        "route",
+        "score",
+        "score",
+        "app",
+        "route",
+        "score",
+        "score",
+        "results",
+        "app",
+        "run",
+        "debug",
+        "port"
+    ],
+    "literals": [
+        "'/'",
+        "\"Hello World, this is my Flask app!\"",
+        "'/success/<int:score>'",
+        "\"The Person has passed and the marks is\"",
+        "'/fail/<int:score>'",
+        "\"The Person has failed and the marks is\"",
+        "'/results/<int:score>'",
+        "\"\"",
+        "'fail'",
+        "'pass'",
+        "'__main__'",
+        "'8000'"
+    ],
+    "variables": [
+        "app",
+        "results",
+        "results",
+        "results"
+    ],
+    "comments": [
+        "Building URL dyamically",
+        "http://127.0.0.1:8000/success/97",
+        "http://127.0.0.1:8000/fail/13",
+        "http://127.0.0.1:8000//results/1"
+    ],
+    "docstrings": [
+        "'''\nfrom flask import Flask\n\napp = Flask(__name__)\n\n@app.route('/')\ndef index():\n    return \"Hello World, this is my Flask app!\"\n\nif __name__ == '__main__':\n    app.run(debug=True, port='8000')\n\n'''",
+        "'''Result checker'''"
+    ],
+    "functions": [
+        "index",
+        "success",
+        "fail",
+        "results"
+    ],
+    "classes": []
+}

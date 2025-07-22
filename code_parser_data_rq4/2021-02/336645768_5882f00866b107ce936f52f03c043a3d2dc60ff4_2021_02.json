@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Plugin",
+        "createFilter",
+        "FilterPattern",
+        "transform",
+        "lodashTransform",
+        "createFilter",
+        "include",
+        "exclude",
+        "options",
+        "useLodashEs",
+        "options",
+        "options",
+        "UNCHANGED",
+        "code",
+        "id",
+        "id",
+        "UNCHANGED",
+        "lodashTransform"
+    ],
+    "literals": [
+        "\"rollup\"",
+        "\"@rollup/pluginutils\"",
+        "\"@optimize-lodash/transformer\"",
+        "\"transform\"",
+        "\"optimize-lodash-imports\"",
+        "\"es\"",
+        "'useLodashEs' is true but the output format is not 'es', it's ${\n            options.format ?? \"undefined\"\n          }",
+        "\"undefined\""
+    ],
+    "variables": [
+        "UNCHANGED",
+        "warn",
+        "parse"
+    ],
+    "comments": [
+        "honor include/exclude"
+    ],
+    "docstrings": [
+        "* A minimatch pattern, or array of patterns, of files that should be\n   * processed by this plugin (if omitted, all files are included by default)",
+        "* Files that should be excluded, if `include` is otherwise too permissive.",
+        "* Changes *all* lodash imports (but not lodash/fp imports!) to 'lodash-es' imports.\n   * Don't use this for CommonJS outputs, the plugin will error should you do so.",
+        "* Converts lodash imports to be specific, enabling better tree-shaking:\n *\n * `import { isNil } from \"lodash\";` -> `import { isNil } from \"lodash/isNil\";`\n *\n * Note that only specific named imports are supported, unlike babel-plugin-lodash. For example,\n * this plugin will print a warning for this import and make no changes to the import:\n *\n * `import _ from \"lodash\";`\n *\n * Optionally, set `useLodashEs` to true and `lodash` imports will be converted to `lodash-es`\n * imports. Note that it's up to user to include the `lodash-es` module and ensure the output\n * is set to some form of `es` (other output formats will error). An example:\n *\n * `import { isNil } from \"lodash\";` -> `import { isNil } from \"lodash-es\";`\n *\n * @param include files/globs to include with this plugin (optional)\n * @param exclude files/globs to exclude from this plugin (optional)\n * @param useLodashEs set `true` to convert imports to use \"lodash-es\" (optional; default false)"
+    ],
+    "functions": [
+        "optimizeLodashImports",
+        "outputOptions",
+        "transform"
+    ],
+    "classes": []
+}

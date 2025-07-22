@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour",
+        "offset",
+        "transform",
+        "position",
+        "player",
+        "transform",
+        "position",
+        "player",
+        "transform",
+        "position",
+        "Vector3",
+        "Mathf",
+        "Clamp",
+        "player",
+        "transform",
+        "position",
+        "x",
+        "offset",
+        "x",
+        "xPosLimit",
+        "xPosLimit",
+        "transform",
+        "position",
+        "y",
+        "player",
+        "transform",
+        "position",
+        "z",
+        "offset",
+        "z"
+    ],
+    "literals": [],
+    "variables": [
+        "GameObject",
+        "player",
+        "Vector3",
+        "offset",
+        "xPosLimit"
+    ],
+    "comments": [
+        "Written By Abdalla Tawfik & Fehr Hassan",
+        "A reference to the Player Game Object.",
+        "The distance between Camera position and the Player Position.",
+        "The magnitude of the limit of Camera X position.",
+        "The distance between Camera position and the Player Position.",
+        "LateUpdate is called after all Update functions have been called.",
+        "A follow camera should always be implemented in LateUpdate because:",
+        "It tracks objects (Player) that might have moved inside Update.",
+        "Make the Camera follows the Player position on X and Z Axis.",
+        "And clamp the Camera's X position between - xPosLimit and xPosLimit."
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "LateUpdate"
+    ],
+    "classes": [
+        "CameraController"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "defineStore",
+        "axios",
+        "defineStore",
+        "localStorage",
+        "credentials",
+        "axios",
+        "credentials",
+        "localStorage",
+        "axios",
+        "axios",
+        "response",
+        "localStorage",
+        "axios"
+    ],
+    "literals": [
+        "'pinia'",
+        "'axios'",
+        "'auth'",
+        "'token'",
+        "${import.meta.env.VITE_API_URL}/login",
+        "'token'",
+        "'Authorization'",
+        "Bearer ${this.token}",
+        "${import.meta.env.VITE_API_URL}/me",
+        "'token'",
+        "'Authorization'"
+    ],
+    "variables": [
+        "useAuthStore",
+        "response",
+        "response"
+    ],
+    "comments": [
+        "Login",
+        "Get auth user info",
+        "Logout user"
+    ],
+    "docstrings": [],
+    "functions": [
+        "login",
+        "getUser",
+        "logout"
+    ],
+    "classes": []
+}

@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "EventSubscriber",
+        "EntitySubscriberInterface",
+        "InsertEvent",
+        "Connection",
+        "Comment",
+        "Inject",
+        "Injectable",
+        "MailService",
+        "IdeasDBServiceInterface",
+        "UsersDBService",
+        "MailTemplateService",
+        "DEFAULT_DOMAIN",
+        "Injectable",
+        "EventSubscriber",
+        "Inject",
+        "connection",
+        "Inject",
+        "ideasDBService",
+        "Inject",
+        "usersDBService",
+        "mailer",
+        "Inject",
+        "MailTemplateService",
+        "templateService",
+        "Comment",
+        "comment",
+        "idea",
+        "user",
+        "idea",
+        "DEFAULT_DOMAIN",
+        "idea"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'../../db/models/comment.model'",
+        "'@nestjs/common'",
+        "'./mail.service'",
+        "'../../ideas/interfaces/ideas.db.service.interface'",
+        "'../../db/services/users.db.service'",
+        "'./mail-template.service'",
+        "'../../../constants'",
+        "'MONGO_DB_CONNECTION'",
+        "'IdeasDBService'",
+        "'UsersDBService'",
+        "'New comment for idea: '",
+        "'new-comment'",
+        "${DEFAULT_DOMAIN}/idea/${idea.id}"
+    ],
+    "variables": [
+        "comment",
+        "idea",
+        "user"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "listenTo",
+        "afterInsert"
+    ],
+    "classes": [
+        "CommentsSubscriber"
+    ]
+}

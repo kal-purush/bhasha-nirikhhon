@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "model",
+        "authentication",
+        "ourInstance",
+        "ourInstance",
+        "status",
+        "status",
+        "status",
+        "status",
+        "status"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Singleton for monitoring status of program",
+        "* Checks app status\n     * @return - true if app hasn't been closed, false otherwise",
+        "* set false if app is being closed, true when started(running)\n     * @param status"
+    ],
+    "functions": [
+        "RunningStatus",
+        "getInstance",
+        "stillRunning",
+        "setStatus",
+        "RunningStatus"
+    ],
+    "classes": [
+        "RunningStatus"
+    ]
+}

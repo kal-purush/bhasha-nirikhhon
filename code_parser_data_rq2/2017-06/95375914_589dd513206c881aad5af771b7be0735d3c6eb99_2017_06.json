@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "err",
+        "req",
+        "req",
+        "req",
+        "req",
+        "req",
+        "e",
+        "httpProxy",
+        "binding",
+        "fs",
+        "fs",
+        "socketErrorHandler",
+        "httpProxy",
+        "binding",
+        "socketErrorHandler"
+    ],
+    "literals": [
+        "\"http-proxy\"",
+        "\"fs\"",
+        "\"yarn.pronto.peerbelt.com\"",
+        "\"https://yarnpkg.com:443\"",
+        "\"changeOrigin\"",
+        "\"google.pronto.peerbelt.com\"",
+        "\"https://www.google.com:443\"",
+        "\"changeOrigin\"",
+        "\"*.pronto.peerbelt.com\"",
+        "\"https://www.microsoft.com:443/en-us/\"",
+        "\"changeOrigin\"",
+        "\"pronto.peerbelt.com\"",
+        "\"overlayads.herokuapp.com\"",
+        "\"https\"",
+        "'HTTP/1.1 400 Bad Request\\r\\n\\r\\n'",
+        "\"localhost\"",
+        "\"../ssl-certificates/peerbelt.com/STAR_peerbelt_com-2017/peerbelt.com_pk.txt\"",
+        "\"utf8\"",
+        "\"../ssl-certificates/peerbelt.com/STAR_peerbelt_com-2017/peerbelt.com_crt.txt\"",
+        "\"utf8\"",
+        "\"error\"",
+        "\"localhost\"",
+        "\"error\""
+    ],
+    "variables": [
+        "httpProxy",
+        "fs",
+        "binding"
+    ],
+    "comments": [
+        "# Peerbelt tests",
+        "127.0.0.1       ssl-test.peerbelt.com",
+        "127.0.0.1       pronto.peerbelt.com",
+        "127.0.0.1       internal.pronto.peerbelt.com",
+        "127.0.0.1       google.pronto.peerbelt.com",
+        "127.0.0.1       yarn.pronto.peerbelt.com",
+        "",
+        "Create the HTTPS proxy server in front of a HTTP server",
+        ""
+    ],
+    "docstrings": [],
+    "functions": [
+        "socketErrorHandler"
+    ],
+    "classes": []
+}

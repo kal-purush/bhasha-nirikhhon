@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "cv2",
+        "numpy",
+        "np",
+        "skimage",
+        "io",
+        "img",
+        "cv2",
+        "cvtColor",
+        "img",
+        "cv2",
+        "COLOR_BGR2GRAY",
+        "cv2",
+        "cvtColor",
+        "img_gray",
+        "cv2",
+        "COLOR_BGR2RGB",
+        "cv2",
+        "GaussianBlur",
+        "RGB_img",
+        "cv2",
+        "Canny",
+        "img_gray_blur",
+        "cv2",
+        "threshold",
+        "canny_edges",
+        "cv2",
+        "THRESH_BINARY_INV",
+        "mask",
+        "io",
+        "imread",
+        "cv2",
+        "imshow",
+        "sketch",
+        "img",
+        "cv2",
+        "waitKey",
+        "cv2",
+        "destroyAllWindows"
+    ],
+    "literals": [
+        "\"obama.jpg\"",
+        "'Our Sketch'"
+    ],
+    "variables": [
+        "img_gray",
+        "RGB_img",
+        "img_gray_blur",
+        "canny_edges",
+        "ret",
+        "mask",
+        "img"
+    ],
+    "comments": [
+        "Importing Libraries",
+        "Making a sketch generating function",
+        "Converting image into grayscale",
+        "Clean up image using Gausian Blur",
+        "Extracting edges",
+        "Do an invert binarize the image",
+        "Reading our image",
+        "cv2.imwrite('sketch.jpg', sketch(img))"
+    ],
+    "docstrings": [],
+    "functions": [
+        "sketch"
+    ],
+    "classes": []
+}

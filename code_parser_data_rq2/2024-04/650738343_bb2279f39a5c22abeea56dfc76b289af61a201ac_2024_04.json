@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "env",
+        "describe",
+        "expect",
+        "test",
+        "getBootstrapURL",
+        "FALLBACK_BOOTSTRAP_URL",
+        "describe",
+        "test",
+        "env",
+        "mockBootstrapURL",
+        "getBootstrapURL",
+        "env",
+        "expect",
+        "bootstrapURL",
+        "mockBootstrapURL",
+        "test",
+        "getBootstrapURL",
+        "expect",
+        "bootstrapURL",
+        "FALLBACK_BOOTSTRAP_URL",
+        "fetch",
+        "bootstrapURL",
+        "expect",
+        "res",
+        "expect",
+        "res"
+    ],
+    "literals": [
+        "'process'",
+        "'vitest'",
+        "'../../../../dist/lib/edge-functions/bootstrap.js'",
+        "'`getBootstrapURL()`'",
+        "'Returns the URL in the `NETLIFY_EDGE_BOOTSTRAP` URL, if set'",
+        "'https://edge.netlify/bootstrap.ts'",
+        "'Returns a publicly accessible URL'",
+        "'content-type'",
+        "'application/typescript'"
+    ],
+    "variables": [
+        "mockBootstrapURL",
+        "bootstrapURL",
+        "bootstrapURL",
+        "res"
+    ],
+    "comments": [
+        "We shouldn't get the fallback URL, because that means we couldn't get",
+        "the URL from the `@netlify/edge-functions` module."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

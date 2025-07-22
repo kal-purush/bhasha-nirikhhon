@@ -1,0 +1,15 @@
+{
+    "identifiers": [
+        "gql"
+    ],
+    "literals": [
+        "type Bde {\n    id: String!\n    name: String!\n    description: String!\n    logo: String!\n    departmentId: String!\n    Department: Department!\n  }\n\n  type Query {\n    bdes: [Bde!]! @requireAuth\n    bde(id: String!): Bde @requireAuth\n  }\n\n  input CreateBdeInput {\n    name: String!\n    description: String!\n    logo: String!\n    departmentId: String!\n  }\n\n  input UpdateBdeInput {\n    name: String\n    description: String\n    logo: String\n    departmentId: String\n  }\n\n  type Mutation {\n    createBde(input: CreateBdeInput!): Bde! @requireAuth\n    updateBde(id: String!, input: UpdateBdeInput!): Bde! @requireAuth\n    deleteBde(id: String!): Bde! @requireAuth\n  }"
+    ],
+    "variables": [
+        "schema"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

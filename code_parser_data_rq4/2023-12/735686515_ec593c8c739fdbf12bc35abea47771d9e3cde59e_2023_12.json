@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "SlashCommand",
+        "CommandContext",
+        "ComponentType",
+        "SlashCreator",
+        "TextInputStyle",
+        "ModalInteractionContext",
+        "createTag",
+        "getTagByTrigger",
+        "SlashCommand",
+        "creator",
+        "creator",
+        "ctx",
+        "ctx",
+        "ComponentType",
+        "ComponentType",
+        "TextInputStyle",
+        "ComponentType",
+        "ComponentType",
+        "TextInputStyle",
+        "ctx",
+        "ctx",
+        "ctx",
+        "ctx",
+        "ctx",
+        "trigger",
+        "ctx",
+        "content",
+        "ctx",
+        "getTagByTrigger",
+        "trigger",
+        "tagAlreadyExists",
+        "ctx",
+        "createTag",
+        "trigger",
+        "content",
+        "createdTag",
+        "ctx",
+        "ctx"
+    ],
+    "literals": [
+        "'slash-create'",
+        "'../db'",
+        "'create-tag'",
+        "'Create a tag'",
+        "'Create Tag'",
+        "createTag",
+        "\"What is the tag's trigger?\"",
+        "'triggerInput'",
+        "'One word, no spaces, dashes allowed'",
+        "\"What is the tag's content?\"",
+        "'contentInput'",
+        "'Markdown is supported, 1000 character limit'",
+        "' '",
+        "'Trigger must be one word, no spaces allowed, dashes are allowed'",
+        "'Content must be less than 1000 characters'",
+        "'That tag already exists!'",
+        "'Something went wrong!'",
+        "Tag created! You can use it with </send-tag:1188955094847324191>"
+    ],
+    "variables": [
+        "trigger",
+        "content",
+        "tagAlreadyExists",
+        "createdTag"
+    ],
+    "comments": [
+        "Check if trigger has spaces",
+        "Check if content is too long",
+        "Find in DB, does a tag with the same trigger already exist?"
+    ],
+    "docstrings": [],
+    "functions": [
+        "run",
+        "handleModal"
+    ],
+    "classes": [
+        "CreateTagCommand"
+    ]
+}

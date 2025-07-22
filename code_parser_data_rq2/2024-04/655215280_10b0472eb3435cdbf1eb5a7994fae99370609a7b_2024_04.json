@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "useCallback",
+        "useState",
+        "text",
+        "useState",
+        "useCallback",
+        "text",
+        "navigator",
+        "navigator",
+        "text",
+        "setCopiedText",
+        "text",
+        "error",
+        "error",
+        "setCopiedText",
+        "copiedText",
+        "copy"
+    ],
+    "literals": [
+        "'react'",
+        "string",
+        "string",
+        "'Clipboard not supported'",
+        "'Copy failed'"
+    ],
+    "variables": [
+        "copiedText",
+        "setCopiedText",
+        "copy"
+    ],
+    "comments": [
+        "Try to save to clipboard then save it in the state if worked"
+    ],
+    "docstrings": [
+        "* The copied text as `string` or `null` if nothing has been copied yet.",
+        "* Function to copy text to the clipboard.\n * @param text - The text to copy to the clipboard.\n * @returns {Promise<boolean>} A promise that resolves to `true` if the text was copied successfully, or `false` otherwise.",
+        "* Custom hook that copies text to the clipboard using the [`Clipboard API`](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API).\n * @returns {[CopiedValue, CopyFn]} An tuple containing the copied text and a function to copy text to the clipboard.\n * @public\n * @see [Documentation](https://usehooks-ts.com/react-hook/use-copy-to-clipboard)\n * @example\n * ```tsx\n * const [copiedText, copyToClipboard] = useCopyToClipboard();\n * const textToCopy = 'Hello, world!';\n *\n * // Attempt to copy text to the clipboard\n * copyToClipboard(textToCopy)\n *   .then(success => {\n *     if (success) {\n *       console.log(`Text \"${textToCopy}\" copied to clipboard successfully.`);\n *     } else {\n *       console.error('Failed to copy text to clipboard.');\n *     }\n *   });\n * ```"
+    ],
+    "functions": [
+        "useCopyToClipboard"
+    ],
+    "classes": []
+}

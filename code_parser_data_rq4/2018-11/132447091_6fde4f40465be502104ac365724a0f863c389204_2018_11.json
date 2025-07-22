@@ -1,0 +1,93 @@
+{
+    "identifiers": [
+        "serialize",
+        "parse",
+        "Api",
+        "Api",
+        "cookies",
+        "cookie",
+        "cookies",
+        "name",
+        "serialize",
+        "name",
+        "cookies",
+        "name",
+        "request",
+        "request",
+        "request",
+        "response",
+        "setCookieHeader",
+        "response",
+        "setCookieHeader",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "parse",
+        "item",
+        "item",
+        "cookies",
+        "cookies",
+        "item",
+        "cookies",
+        "response",
+        "cookie",
+        "cookies",
+        "parse",
+        "cookies",
+        "cookies",
+        "cookie",
+        "CookieApi",
+        "cookies"
+    ],
+    "literals": [
+        "'cookie'",
+        "'rest-api-handler'",
+        "string",
+        "string",
+        "string",
+        "';'",
+        "'set-cookie'",
+        "';'",
+        "string",
+        "'expires'",
+        "','",
+        "'\\n'",
+        "';'",
+        "'\\n'",
+        "string",
+        "';'",
+        "string",
+        "string",
+        "'string'",
+        "string",
+        "string",
+        "'cookie'"
+    ],
+    "variables": [
+        "response",
+        "setCookieHeader",
+        "cookies",
+        "cookies"
+    ],
+    "comments": [
+        "eslint-disable-next-line filenames/match-exported",
+        "if set cookies headers are not set, just continue",
+        "parse multiple set-cookie headers"
+    ],
+    "docstrings": [
+        "* Serialize Object of cookies to single string.\n     *\n     * @param cookies - Object with cookies\n     * @returns serialized cookies string",
+        "* Process response headers, parse cookies and save them to object.\n     *\n     * @param request - Fetch request\n     * @returns Response",
+        "* Get cookies as human readable object.",
+        "* Add object of cookies.\n     *\n     * @param cookies - Object of cookies"
+    ],
+    "functions": [
+        "serializeCookies",
+        "getCookies",
+        "addCookies"
+    ],
+    "classes": [
+        "CookieApi"
+    ]
+}

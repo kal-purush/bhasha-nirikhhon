@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "requests",
+        "settings",
+        "BOT_TOKEN",
+        "DEVELOPER_CHAT_ID",
+        "ALL_CHAT_ID",
+        "text_list",
+        "text",
+        "text_list",
+        "chat_id",
+        "ALL_CHAT_ID",
+        "BOT_TOKEN",
+        "chat_id",
+        "text",
+        "requests",
+        "get",
+        "url_req",
+        "text",
+        "BOT_TOKEN",
+        "DEVELOPER_CHAT_ID",
+        "text",
+        "requests",
+        "get",
+        "url_req"
+    ],
+    "literals": [
+        "\"https://api.telegram.org/bot\"",
+        "\"/sendMessage\"",
+        "\"?chat_id=\"",
+        "\"&text=\"",
+        "\"&disable_web_page_preview=True\"",
+        "\"https://api.telegram.org/bot\"",
+        "\"/sendMessage\"",
+        "\"?chat_id=\"",
+        "\"&text=\""
+    ],
+    "variables": [
+        "url_req",
+        "url_req"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Производит отправку в TG канал всем пользователям из списка настроек хоть раз запустивших бота\n    \"\"\"",
+        "\"\"\"\n    Производит отправку в TG канал разработчику с ID из настроек\n    \"\"\""
+    ],
+    "functions": [
+        "send_msg_all",
+        "send_msg_developer"
+    ],
+    "classes": []
+}

@@ -1,0 +1,44 @@
+{
+    "identifiers": [],
+    "literals": [
+        "\"Mr. Nice\"",
+        "\"Narco\"",
+        "\"Bombasto\"",
+        "\"Celeritas\"",
+        "\"Magneta\"",
+        "\"RubberMan\"",
+        "\"Dynama\"",
+        "\"Dr IQ\"",
+        "\"Magma\"",
+        "\"Tornado\""
+    ],
+    "variables": [
+        "HEROS"
+    ],
+    "comments": [
+        "//   module.component(\"heros\", {",
+        "//     template: `",
+        "//       <ul>",
+        "//         <li ng-repeat=\"hero in $ctrl.heros\">{{ hero.name }}</li>",
+        "//       </ul>",
+        "//     `,",
+        "//     controller: function() {",
+        "//       this.heros = HEROS;",
+        "//     },",
+        "//     controllerAs: \"$ctrl\"",
+        "//   });",
+        "var myModule = function() {",
+        "console.log(4234234);",
+        "return true;",
+        "}",
+        "export default myModule;",
+        "angular.module('test', [myModule]);",
+        "const mydiv = document.createElement(\"div\")",
+        "mydiv.innerHTML = 'privetyli';",
+        "document.body.appendChild(mydiv)",
+        "console.log(angular);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

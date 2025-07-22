@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "requests",
+        "time",
+        "schedule",
+        "requests",
+        "get",
+        "url",
+        "time",
+        "strftime",
+        "open",
+        "date_time",
+        "code",
+        "code",
+        "write",
+        "r",
+        "content",
+        "schedule",
+        "every",
+        "minutes",
+        "download_file",
+        "schedule",
+        "run_pending",
+        "time",
+        "sleep"
+    ],
+    "literals": [
+        "\"http://opendata.paris.fr/explore/dataset/stations-velib-disponibilites-en-temps-reel/\\\ndownload/?format=csv&timezone=Europe/Berlin&use_labels_for_header=true\"",
+        "\"%Y-%m-%d_%Hh%M\"",
+        "\"C:/Users/Thomas/Documents/R/velib/data/velib_\"",
+        "\".csv\"",
+        "\"wb\""
+    ],
+    "variables": [
+        "url",
+        "r",
+        "date_time"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "The url of the data.",
+        "Make the request.",
+        "Get the current date and time.",
+        "Save the csv file with the date and the time in the filename.",
+        "Call the function every 15 minutes."
+    ],
+    "docstrings": [],
+    "functions": [
+        "download_file"
+    ],
+    "classes": []
+}

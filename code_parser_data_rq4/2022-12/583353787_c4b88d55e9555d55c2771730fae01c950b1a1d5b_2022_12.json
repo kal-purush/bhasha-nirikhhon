@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "describe",
+        "expect",
+        "test",
+        "generateFakeConsomption",
+        "DynamoDbMock",
+        "executeLambda",
+        "generateValidatedAPIGatewayProxyEvent",
+        "mockDynamoDb",
+        "restoreDynamoDb",
+        "EDeviceType",
+        "StatusCodes",
+        "main",
+        "describe",
+        "beforeAll",
+        "dynamoDb",
+        "mockDynamoDb",
+        "beforeEach",
+        "dynamoDb",
+        "afterAll",
+        "restoreDynamoDb",
+        "test",
+        "generateFakeConsomption",
+        "generateValidatedAPIGatewayProxyEvent",
+        "consomption",
+        "executeLambda",
+        "main",
+        "expect",
+        "response",
+        "StatusCodes",
+        "expect",
+        "dynamoDb",
+        "consomption",
+        "expect",
+        "expect",
+        "expect",
+        "expect",
+        "expect",
+        "EDeviceType"
+    ],
+    "literals": [
+        "'@jest/globals'",
+        "'@libs/tests/fake'",
+        "'@libs/tests/mocks'",
+        "'@models/device.model'",
+        "'http-status-codes'",
+        "'./handler'",
+        "'createConsumption unit'",
+        "'Should create a consumption'",
+        "'HOME_ENERGY_DYNAMODB_TABLE_IS_MISSING_FROM_ENV'"
+    ],
+    "variables": [
+        "dynamoDb",
+        "consomption",
+        "response"
+    ],
+    "comments": [
+        "Given",
+        "When",
+        "Then"
+    ],
+    "docstrings": [
+        "* @group unit\n * @command npx sls invoke -f getAllConsumption --path src/functions/getAllConsumption/mock.json --aws-profile home"
+    ],
+    "functions": [],
+    "classes": []
+}

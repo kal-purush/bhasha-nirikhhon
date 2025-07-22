@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "arr",
+        "arguments",
+        "Arr",
+        "callback",
+        "i",
+        "i",
+        "callback",
+        "i",
+        "i",
+        "Arr",
+        "a",
+        "a",
+        "currentValue",
+        "index",
+        "arr",
+        "currentValue",
+        "index",
+        "Arr",
+        "a",
+        "currentValue",
+        "index",
+        "arr",
+        "currentValue",
+        "Arr",
+        "currentValue",
+        "index",
+        "arr",
+        "currentValue"
+    ],
+    "literals": [
+        "'a'",
+        "'b'",
+        "'c'",
+        "'currentValue: '",
+        "'index '",
+        "'Hello'",
+        "'Hello: '"
+    ],
+    "variables": [
+        "i",
+        "a"
+    ],
+    "comments": [
+        "var map = Array.prototype.map;\nvar a = map.call('Hello World', function(x) {\n  console.log(x)\n  return x.charCodeAt(0); \n});\n// a now equals [72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100]\nconsole.log(a)\n\n// var b = 'Hello World'.map(function(x) {\n// var b = new String('Hello World').map(function(x) {\nvar b = Array.prototype.map.call('Hello World', function(x) {\n  console.log(x)\n  return x;\n});",
+        "这里的call('Hello', function(){})",
+        "并不是去字符串'Hello'的原型下寻找map方法,而是这里的方法就是调用",
+        "Arr.prototype.map方法,只是方法中的this(对象)不同而已",
+        "之前一直将其等价于 'Hello'.map(function(){}), 这是错的",
+        "使用call调用的方法,还是原来的方法,仅仅只是方法中的this(对象)不同了而已,",
+        "这里就可以将每一个函数的中this看做是一个参数,可以随着函数调用传入的参数不同",
+        "而不同"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Arr"
+    ],
+    "classes": []
+}

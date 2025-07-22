@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "com",
+        "transaction",
+        "management",
+        "DAO",
+        "java",
+        "util",
+        "java",
+        "util",
+        "org",
+        "springframework",
+        "data",
+        "jpa",
+        "repository",
+        "JpaRepository",
+        "org",
+        "springframework",
+        "data",
+        "jpa",
+        "repository",
+        "Query",
+        "org",
+        "springframework",
+        "transaction",
+        "annotation",
+        "Transactional",
+        "com",
+        "transaction",
+        "management",
+        "entity",
+        "Transaction",
+        "Transactional",
+        "TransactionDAO",
+        "Query",
+        "date",
+        "Query",
+        "date1",
+        "date2"
+    ],
+    "literals": [
+        "\"select t from Transaction t where t.transactionDate=?1\"",
+        "\"select t from Transaction t where t.transactionDate in (?1,?2)\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "transactionsOnDate",
+        "transactionsBetweenDate"
+    ],
+    "classes": []
+}

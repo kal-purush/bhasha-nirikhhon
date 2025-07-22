@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "fr",
+        "univ",
+        "tlse2",
+        "sfr",
+        "communication",
+        "x",
+        "y",
+        "x",
+        "y",
+        "pos",
+        "x",
+        "pos",
+        "get_x",
+        "y",
+        "pos",
+        "get_y",
+        "abscisse",
+        "ordonnee",
+        "x",
+        "abscisse",
+        "y",
+        "ordonnee",
+        "x",
+        "x",
+        "x",
+        "x",
+        "y",
+        "y",
+        "y",
+        "y"
+    ],
+    "literals": [],
+    "variables": [
+        "x",
+        "y"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* <b>Classe Position permettant de donner les coordonnées d'un robot sur une carte</b>\n * <p>Une position est caractérisée par :\n * <ul>\n * <li>Une coordonnée en abscisse x </li>\n * <li>Une coordonnée en ordonnée y</li>\n * </ul>\n * </p>\n * @author Nicolas",
+        "* Coordonnée x de la position\n\t * \n\t * @see Position#Position(double, double)\n\t * @see Position#Position(Position)\n\t * @see Position#get_x()",
+        "* Coordonnée y de la position\n\t * \n\t * @see Position#Position(double, double)\n\t * @see Position#Position(Position)\n\t * @see Position#get_y()",
+        "* Constructeur de Position sans paramètres\n\t * \n\t * <p>A la construction d'une position sans paramètres d'entrée, les coordonnées en x et en y sont à 0</p>\n\t * \n\t * @see Position#x\n\t * @see Position#y",
+        "* Constructeur de Position avec une Position en paramètre d'entrée\n\t * <p>A la construction d'une position avec une position en paramètre d'entrée, les nouvelles coordonnées x et y sont recopiées de la position en paramètre d'entrée</p>\n\t * @param pos\n\t * \t\t\tUne position déjà existante",
+        "* Constructeur de Position avec une abscisse et une ordonnée en paramètre d'entrée\n\t * <p>Construction d'une position avec une abscisse et une ordonnée </p>\n\t *\n\t * @param abscisse\n\t * \t\t\tUne coordonnée x\n\t * @param ordonnee\n\t * \t\t\tUne coordonnée y\n\t * @see Position#x"
+    ],
+    "functions": [
+        "Position",
+        "Position",
+        "Position",
+        "get_x",
+        "set_x",
+        "get_y",
+        "set_y"
+    ],
+    "classes": [
+        "Position"
+    ]
+}

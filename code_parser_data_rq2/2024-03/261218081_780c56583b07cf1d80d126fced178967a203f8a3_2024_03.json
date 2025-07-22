@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "NextRequest",
+        "NextResponse",
+        "userAgent",
+        "request",
+        "userAgent",
+        "request",
+        "isMobile",
+        "ua",
+        "request",
+        "cookie",
+        "request",
+        "NextResponse",
+        "URL",
+        "request",
+        "ua",
+        "ua",
+        "ua"
+    ],
+    "literals": [
+        "\"next/server\"",
+        "\"next/server\"",
+        "\"mobile-warning-dismissed\"",
+        "\"/mobile-warning\"",
+        "\"/mobile-warning\"",
+        "\"/\"",
+        "\"/team/:path*\"",
+        "\"/recording/:path*\"",
+        "string"
+    ],
+    "variables": [
+        "cookie",
+        "config"
+    ],
+    "comments": [
+        "If the user is attempting to visit Replay on a mobile device for the first time,",
+        "show them a message that it has not been optimized for mobile",
+        "If they have already confirmed this message (detectable via a cookie) then let them through",
+        "Which routes should this middleware respond to"
+    ],
+    "docstrings": [],
+    "functions": [
+        "middleware",
+        "isMobile"
+    ],
+    "classes": []
+}

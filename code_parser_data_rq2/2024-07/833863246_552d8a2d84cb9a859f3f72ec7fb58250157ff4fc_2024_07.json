@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "length",
+        "volume",
+        "mass",
+        "convert",
+        "unitConverter",
+        "input",
+        "input",
+        "unitConverter",
+        "input",
+        "input",
+        "length",
+        "inputValues",
+        "inputValues",
+        "inputValues",
+        "inputValues",
+        "volume",
+        "inputValues",
+        "inputValues",
+        "inputValues",
+        "inputValues",
+        "mass",
+        "inputValues",
+        "inputValues",
+        "inputValues",
+        "inputValues"
+    ],
+    "literals": [
+        "\"input-num\"",
+        "\"convert-btn\"",
+        "\"length\"",
+        "\"volume\"",
+        "\"mass\"",
+        "\"0 meters = 0.00 feet | 0 feet = 0.00 meters\"",
+        "\"0 liters = 0.00 gallons | 0 gallons = 0.00 liters\"",
+        "\"0 kilos = 0.00 pounds | 0 pounds = 0.00 kilos\"",
+        "\"click\"",
+        "\"\"",
+        "\"keypress\"",
+        "\"Enter\"",
+        "\"\"",
+        "${inputValues} meters = ${(inputValues * 3.281).toFixed(2)} feet | ${inputValues} feet = ${(inputValues / 3.281).toFixed(2)} meters",
+        "${inputValues} liters = ${(inputValues * 0.264).toFixed(2)} gallons | ${inputValues} gallons = ${(inputValues / 0.264).toFixed(2)} liters",
+        "${inputValues} kilos = ${(inputValues * 2.204).toFixed(2)} pounds | ${inputValues} pounds = ${(inputValues / 2.204).toFixed(2)} kilos"
+    ],
+    "variables": [
+        "input",
+        "convert",
+        "length",
+        "volume",
+        "mass",
+        "inputValues"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "unitConverter"
+    ],
+    "classes": []
+}

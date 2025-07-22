@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "psycopg2",
+        "sys",
+        "argv",
+        "psycopg2",
+        "connect",
+        "database",
+        "user",
+        "password",
+        "host",
+        "port",
+        "conn",
+        "cursor",
+        "len",
+        "argv",
+        "argv",
+        "argv",
+        "cur",
+        "execute",
+        "argv",
+        "argv",
+        "cur",
+        "fetchall",
+        "word",
+        "results",
+        "word",
+        "word",
+        "cur",
+        "close",
+        "conn",
+        "close"
+    ],
+    "literals": [
+        "\"tcount\"",
+        "\"postgres\"",
+        "\"pass\"",
+        "\"localhost\"",
+        "\"5432\"",
+        "'ERROR: Histogram only accepts 2 input parameters!'",
+        "'ERROR: Invalid input; must be an interval [k1, k2]!'",
+        "\"SELECT word, count FROM tweetwordcount WHERE count >= %s and count <= %s ORDER BY count DESC\"",
+        "'%s: %d'"
+    ],
+    "variables": [
+        "conn",
+        "cur",
+        "results"
+    ],
+    "comments": [
+        "connect to database",
+        "checking for valid input, if valid, proceed to generate histogram"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

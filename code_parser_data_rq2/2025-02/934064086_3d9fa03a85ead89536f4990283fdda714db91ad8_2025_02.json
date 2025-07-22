@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Kafka",
+        "KafkaConfig",
+        "dotenv",
+        "dotenv",
+        "process",
+        "KAFKA_BROKERS",
+        "KAFKA_CLIENT_ID",
+        "KAFKA_SSL_ENABLED",
+        "KAFKA_CLIENT_ID",
+        "KAFKA_BROKERS",
+        "KAFKA_GROUP_ID",
+        "getKafkaConfig",
+        "Kafka",
+        "clientConfig",
+        "createKafkaClient",
+        "getKafkaConfig",
+        "createKafkaClient"
+    ],
+    "literals": [
+        "\"kafkajs\"",
+        "\"dotenv\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "\"default-client-id\"",
+        "\"auth-group\"",
+        "\"false\"",
+        "\"KAFKA_BROKERS  environment variable is required\"",
+        "\"KAFKA_CLIENT_ID environment variable is required\"",
+        "\"true\"",
+        "\",\""
+    ],
+    "variables": [
+        "ssl"
+    ],
+    "comments": [
+        "KAFKA_SSL_CA?: string;",
+        "KAFKA_SSL_KEY?: string;",
+        "KAFKA_SSL_CERT?: string;",
+        "ca: process.env.KAFKA_SSL_CA,",
+        "key: process.env.KAFKA_SSL_KEY,",
+        "cert: process.env.KAFKA_SSL_CERT"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getKafkaConfig",
+        "createKafkaClient",
+        "createKafkaProducer",
+        "createKafkaConsumer"
+    ],
+    "classes": []
+}

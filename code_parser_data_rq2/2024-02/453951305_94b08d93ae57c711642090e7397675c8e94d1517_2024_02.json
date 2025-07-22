@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "logRequestError",
+        "onBehalfOfToken",
+        "process",
+        "fetch",
+        "url",
+        "onBehalfOfToken",
+        "response",
+        "logRequestError",
+        "response",
+        "Response",
+        "response",
+        "response"
+    ],
+    "literals": [
+        "\"../error.logger\"",
+        "string",
+        "${process.env.API_BASE_URL}/arbeidsforhold",
+        "\"GET\"",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "\"application/json\"",
+        "Bearer ${onBehalfOfToken}",
+        "\"Feil i uthenting av arbeidsforhold\"",
+        "\"Feil i uthenting av arbeidsforhold\""
+    ],
+    "variables": [
+        "url",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getArbeidsforhold"
+    ],
+    "classes": []
+}

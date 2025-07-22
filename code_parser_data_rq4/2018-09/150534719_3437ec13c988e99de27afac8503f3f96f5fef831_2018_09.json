@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "edu",
+        "jsu",
+        "mcis",
+        "java",
+        "io",
+        "java",
+        "util",
+        "com",
+        "opencsv",
+        "org",
+        "json",
+        "simple",
+        "org",
+        "json",
+        "simple",
+        "parser",
+        "SuppressWarnings",
+        "csvString",
+        "results",
+        "reader",
+        "csvString",
+        "full",
+        "reader",
+        "readAll",
+        "iterator",
+        "full",
+        "iterator",
+        "e",
+        "e",
+        "toString",
+        "results",
+        "trim",
+        "jsonString",
+        "results",
+        "writer",
+        "csvWriter",
+        "writer",
+        "e",
+        "e",
+        "toString",
+        "results",
+        "trim"
+    ],
+    "literals": [
+        "\"unchecked\"",
+        "\"\"",
+        "\"\""
+    ],
+    "variables": [],
+    "comments": [
+        "INSERT YOUR CODE HERE",
+        "INSERT YOUR CODE HERE"
+    ],
+    "docstrings": [
+        "Consider the following CSV data:\n        \n        \"ID\",\"Total\",\"Assignment 1\",\"Assignment 2\",\"Exam 1\"\n        \"111278\",\"611\",\"146\",\"128\",\"337\"\n        \"111352\",\"867\",\"227\",\"228\",\"412\"\n        \"111373\",\"461\",\"96\",\"90\",\"275\"\n        \"111305\",\"835\",\"220\",\"217\",\"398\"\n        \"111399\",\"898\",\"226\",\"229\",\"443\"\n        \"111160\",\"454\",\"77\",\"125\",\"252\"\n        \"111276\",\"579\",\"130\",\"111\",\"338\"\n        \"111241\",\"973\",\"236\",\"237\",\"500\"\n        \n        The corresponding JSON data would be similar to the following (tabs and\n        other whitespace have been added for clarity).  Note the curly braces,\n        square brackets, and double-quotes!  These indicate which values should\n        be encoded as strings, and which values should be encoded as integers!\n        \n        {\n            \"colHeaders\":[\"ID\",\"Total\",\"Assignment 1\",\"Assignment 2\",\"Exam 1\"],\n            \"rowHeaders\":[\"111278\",\"111352\",\"111373\",\"111305\",\"111399\",\"111160\",\n            \"111276\",\"111241\"],\n            \"data\":[[611,146,128,337],\n                    [867,227,228,412],\n                    [461,96,90,275],\n                    [835,220,217,398],\n                    [898,226,229,443],\n                    [454,77,125,252],\n                    [579,130,111,338],\n                    [973,236,237,500]\n            ]\n        }\n    \n        Your task for this program is to complete the two conversion methods in\n        this class, \"csvToJson()\" and \"jsonToCsv()\", so that the CSV data shown\n        above can be converted to JSON format, and vice-versa.  Both methods\n        should return the converted data as strings, but the strings do not need\n        to include the newlines and whitespace shown in the examples; again,\n        this whitespace has been added only for clarity.\n    \n        NOTE: YOU SHOULD NOT WRITE ANY CODE WHICH MANUALLY COMPOSES THE OUTPUT\n        STRINGS!!!  Leave ALL string conversion to the two data conversion\n        libraries we have discussed, OpenCSV and json-simple.  See the \"Data\n        Exchange\" lecture notes for more details, including example code."
+    ],
+    "functions": [
+        "csvToJson",
+        "jsonToCsv"
+    ],
+    "classes": [
+        "Converter"
+    ]
+}

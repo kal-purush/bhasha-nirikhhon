@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "StreamMessageReader",
+        "StreamMessageWriter",
+        "createConnection",
+        "IConnection",
+        "TextDocumentSyncKind",
+        "TextDocuments",
+        "TextDocument",
+        "Diagnostic",
+        "DiagnosticSeverity",
+        "InitializeParams",
+        "InitializeResult",
+        "TextDocumentPositionParams",
+        "CompletionItem",
+        "CompletionItemKind",
+        "CodeLens",
+        "Hover",
+        "Location",
+        "CompletionList",
+        "SignatureHelp",
+        "SignatureInformation",
+        "ParameterInformation",
+        "SymbolInformation",
+        "SymbolKind",
+        "Range",
+        "Command",
+        "TextEdit",
+        "NotificationType",
+        "Files",
+        "TextDocumentIdentifier",
+        "CodeActionContext",
+        "WorkspaceEdit",
+        "ServerCapabilities",
+        "RequestType",
+        "Methods",
+        "Extended",
+        "GetCodeActionsRequest",
+        "Methods",
+        "RunCodeActionRequest",
+        "Methods"
+    ],
+    "literals": [
+        "\"vscode-languageserver\"",
+        "'vscode-jsonrpc'",
+        "string",
+        "string",
+        "string",
+        "'__extended/textDocument/getCodeActions'",
+        "'__extended/textDocument/runCodeAction'"
+    ],
+    "variables": [
+        "GetCodeActionsRequest",
+        "RunCodeActionRequest"
+    ],
+    "comments": [
+        "NotificationType,"
+    ],
+    "docstrings": [
+        "* The document in which the command was invoked.",
+        "* The range for which the command was invoked.",
+        "* Context carrying additional information.",
+        "* The identifier of the code action to execute",
+        "* A request to rename a symbol.",
+        "* A request to rename a symbol."
+    ],
+    "functions": [
+        "method",
+        "method"
+    ],
+    "classes": []
+}

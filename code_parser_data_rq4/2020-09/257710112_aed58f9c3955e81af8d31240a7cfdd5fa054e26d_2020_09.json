@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "vscode",
+        "config",
+        "context",
+        "vscode",
+        "config",
+        "ConfigFileWatcher",
+        "context",
+        "vscode",
+        "context",
+        "vscode",
+        "context",
+        "vscode",
+        "vscode",
+        "vscode",
+        "f",
+        "f",
+        "uri",
+        "vscode",
+        "vscode",
+        "uri",
+        "config",
+        "vscode",
+        "vscode",
+        "uri",
+        "vscode",
+        "vscode",
+        "config",
+        "vscode",
+        "config",
+        "vscode"
+    ],
+    "literals": [
+        "'vscode'",
+        "'./config'",
+        "string",
+        "'onConfigChanged'",
+        "'ignore'",
+        "'{'",
+        "','",
+        "'}/{build/compile_commands.json,compile_commands.json,compile_flags.txt,.clang-tidy}'",
+        "string",
+        "'onConfigChanged'",
+        "'restart'",
+        "'clangd.restart'",
+        "'ignore'",
+        "'prompt'",
+        "Clangd configuration file at '${\n              uri.fsPath}' has been changed. Do you want to restart it?",
+        "'Yes'",
+        "'Yes, always'",
+        "'No, never'",
+        "'Yes'",
+        "'clangd.restart'",
+        "'Yes, always'",
+        "'clangd.restart'",
+        "string",
+        "'onConfigChanged'",
+        "'restart'",
+        "'No, never'",
+        "string",
+        "'onConfigChanged'",
+        "'ignore'"
+    ],
+    "variables": [
+        "watcher"
+    ],
+    "comments": [
+        "Sometimes the tools that generate the compilation database, before",
+        "writing to it, they create a new empty file or they clear the existing",
+        "one, and after the compilation they write the new content. In this cases",
+        "the server is not supposed to restart"
+    ],
+    "docstrings": [],
+    "functions": [
+        "activate",
+        "createFileSystemWatcher",
+        "handleConfigFilesChanged"
+    ],
+    "classes": [
+        "ConfigFileWatcher"
+    ]
+}

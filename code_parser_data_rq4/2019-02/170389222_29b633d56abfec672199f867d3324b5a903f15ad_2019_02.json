@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "rb2d",
+        "GetComponent",
+        "Rigidbody2D",
+        "player",
+        "GameObject",
+        "FindWithTag",
+        "player",
+        "transform",
+        "position",
+        "transform",
+        "position",
+        "enemyDelta",
+        "normalized",
+        "rb2d",
+        "velocity",
+        "enemyInput",
+        "maxSpeed"
+    ],
+    "literals": [
+        "\"Player\""
+    ],
+    "variables": [
+        "maxSpeed",
+        "Rigidbody2D",
+        "rb2d",
+        "GameObject",
+        "player",
+        "Vector2",
+        "enemyDelta",
+        "Vector2",
+        "enemyInput"
+    ],
+    "comments": [
+        "rotate gun",
+        "Vector3 mouseWorld = Camera.main.ScreenToWorldPoint(Input.mousePosition);",
+        "Vector2 mouseDelta = mouseWorld - gunPivot.position;",
+        "float angle = Mathf.Atan2(mouseDelta.y, mouseDelta.x) * 180 / Mathf.PI;",
+        "gunPivot.rotation = Quaternion.Euler(0, 0, angle);",
+        "",
+        "if(Input.GetButtonDown(\"Fire1\")) {",
+        "Instantiate(bullet, gun.position, gun.rotation);",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update",
+        "FixedUpdate"
+    ],
+    "classes": [
+        "EnemyController"
+    ]
+}

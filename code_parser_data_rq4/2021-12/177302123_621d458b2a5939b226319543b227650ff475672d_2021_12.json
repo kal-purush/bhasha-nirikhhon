@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "AnnoDesigner",
+        "Core",
+        "Extensions",
+        "AnnoDesigner",
+        "Models",
+        "AnnoDesigner",
+        "Extensions",
+        "LayoutObject",
+        "LayoutObject",
+        "objects",
+        "objects",
+        "objects",
+        "Select",
+        "x",
+        "WrappedAnnoObject",
+        "WithoutIgnoredObjects",
+        "ToHashSet",
+        "objects",
+        "Where",
+        "annoObjectsWithoutIgnoredObjects",
+        "Contains",
+        "x",
+        "WrappedAnnoObject",
+        "LayoutObject",
+        "layoutObject",
+        "layoutObject",
+        "WrappedAnnoObject",
+        "IsIgnoredObject"
+    ],
+    "literals": [],
+    "variables": [
+        "annoObjectsWithoutIgnoredObjects"
+    ],
+    "comments": [
+        "Removes objects from a given <see cref=\"IEnumerable{LayoutObject}\"/> based on some criteria.",
+        "</summary>",
+        "<param name=\"objects\">The <see cref=\"IEnumerable{LayoutObject}\"/> to filter.</param>",
+        "<returns>The filtered <see cref=\"IEnumerable{LayoutObject}\"/>.</returns>",
+        "Checks if input object should be excluded from certain rendering actions.",
+        "</summary>",
+        "<remarks>",
+        "Currently the logic is based only on a single \"Template\", but can be extended to other criteria in the future.",
+        "</remarks>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "WithoutIgnoredObjects",
+        "IsIgnoredObject"
+    ],
+    "classes": [
+        "IEnumerableExtensions"
+    ]
+}

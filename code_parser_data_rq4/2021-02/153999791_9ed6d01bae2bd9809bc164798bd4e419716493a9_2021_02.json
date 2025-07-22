@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "createContext",
+        "PaginationPayload",
+        "SortPayload",
+        "createContext",
+        "pagination",
+        "sort",
+        "sort",
+        "order"
+    ],
+    "literals": [
+        "'react'",
+        "'../../types'",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "ReferenceArrayInputContext"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Context which provides access to the useReferenceArrayInput features.\n *\n * @example\n * const ReferenceArrayInput = ({ children }) => {\n *     const controllerProps = useReferenceArrayInputController();\n *     return (\n *         <ReferenceArrayInputContextProvider value={controllerProps}>\n *             {children}\n *         </ReferenceArrayInputContextProvider>\n *     )\n * }"
+    ],
+    "functions": [],
+    "classes": []
+}

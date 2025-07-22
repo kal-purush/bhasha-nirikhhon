@@ -1,0 +1,89 @@
+{
+    "identifiers": [
+        "json",
+        "common",
+        "author",
+        "Author",
+        "Author",
+        "url",
+        "name",
+        "motto",
+        "photo_url",
+        "session",
+        "Me",
+        "url",
+        "name",
+        "motto",
+        "photo_url",
+        "photo_url",
+        "session",
+        "session",
+        "answer",
+        "answer",
+        "Answer",
+        "isinstance",
+        "answer",
+        "Answer",
+        "ValueError",
+        "answer",
+        "aid",
+        "answer",
+        "xsrf",
+        "json",
+        "dumps",
+        "Default_Header",
+        "answer",
+        "question",
+        "url",
+        "_session",
+        "post",
+        "Upvote_Answer_Url",
+        "headers",
+        "headers",
+        "data",
+        "data",
+        "res",
+        "json",
+        "res",
+        "json",
+        "article",
+        "author"
+    ],
+    "literals": [
+        "'7sDream'",
+        "'type of answer need to be zhihu.Answer'",
+        "'answer_id'",
+        "'_xsrf'",
+        "'method'",
+        "'vote_up'",
+        "'params'",
+        "'Referer'",
+        "'r'",
+        "'msg'"
+    ],
+    "variables": [
+        "__author__",
+        "data",
+        "headers",
+        "headers",
+        "res"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "\"\"\"封装了相关操作（如点赞，关注问题）的类，需要登录后使用\"\"\"",
+        "\"\"\"给答案点赞\n\n        :param Answer answer: 需要点赞的答案\n        :return: 二元素元组，第一个元素为0表示成功，失败时第二个元素表示原因。\n        :rtype: (int, str)\n        \"\"\"",
+        "\"\"\"给文章点赞\n\n        :param Article article: 需要点赞的文章\n        :return: 无\n        \"\"\"",
+        "\"\"\"关注某位用户\n\n        :param Author author: 需要关注的用户\n        :return: 无\n        \"\"\""
+    ],
+    "functions": [
+        "upvote_answer",
+        "upvote_article",
+        "follow_author"
+    ],
+    "classes": [
+        "Me"
+    ]
+}

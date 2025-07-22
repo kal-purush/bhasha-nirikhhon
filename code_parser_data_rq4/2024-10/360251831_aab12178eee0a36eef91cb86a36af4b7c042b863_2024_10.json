@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "openedx_filters",
+        "tooling",
+        "OpenEdxPublicFilter",
+        "OpenEdxPublicFilter",
+        "classmethod",
+        "cls",
+        "url",
+        "org",
+        "run_pipeline",
+        "url",
+        "url",
+        "org",
+        "org",
+        "data",
+        "get",
+        "data",
+        "get"
+    ],
+    "literals": [
+        "\"org.openedx.course_authoring.lms.page.url.requested.v1\"",
+        "\"url\"",
+        "\"org\""
+    ],
+    "variables": [
+        "filter_type",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nPackage where filters related to the Course Authoring architectural subdomain are implemented.\n\"\"\"",
+        "\"\"\"\n    Custom class used to get lms page url filters and its custom methods.\n    \"\"\"",
+        "\"\"\"\n        Execute a filter with the signature specified.\n\n        Arguments:\n            url (str): the URL of the page to be modified.\n            org (str): Course org filter used as context data to get LMS configurations.\n        \"\"\""
+    ],
+    "functions": [
+        "run_filter"
+    ],
+    "classes": [
+        "LMSPageURLRequested"
+    ]
+}

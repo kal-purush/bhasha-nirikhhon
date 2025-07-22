@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "csv",
+        "os",
+        "os",
+        "path",
+        "join",
+        "os",
+        "path",
+        "join",
+        "open",
+        "file_to_load",
+        "election_data",
+        "csv",
+        "reader",
+        "election_data",
+        "next",
+        "file_reader",
+        "headers"
+    ],
+    "literals": [
+        "\"Resources\"",
+        "\"election_results.csv\"",
+        "\"analysis\"",
+        "\"election_analysis.txt\""
+    ],
+    "variables": [
+        "file_to_load",
+        "file_to_save",
+        "file_reader",
+        "headers"
+    ],
+    "comments": [
+        "The data we need to retrieve",
+        "1. The total number of votes case",
+        "2. A complete list of candidates who received votes",
+        "3. The percentage of votes each candidate won",
+        "4. The total number of votes each candidate won",
+        "5. The winner of the election based on popular vote.",
+        "Assign a variable for the file to load and the path.",
+        "Assign a variable to save the file to a path.",
+        "Open the election results and read the file.",
+        "Read the file object with the reader function.",
+        "Print the header row."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

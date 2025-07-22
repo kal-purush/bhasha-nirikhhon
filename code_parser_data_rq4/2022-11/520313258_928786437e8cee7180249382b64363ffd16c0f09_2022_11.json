@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "burst",
+        "rg_step",
+        "az_step",
+        "burst",
+        "bistatic_delay",
+        "range_step",
+        "rg_step",
+        "az_step",
+        "az_step",
+        "burst",
+        "geometrical_and_steering_doppler",
+        "range_step",
+        "rg_step",
+        "az_step",
+        "az_step",
+        "rg_doppler",
+        "az_bistatic",
+        "data",
+        "rg_lut",
+        "az_lut"
+    ],
+    "literals": [],
+    "variables": [
+        "az_bistatic",
+        "rg_doppler",
+        "rg_lut",
+        "az_lut"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\n    Compute slant range and azimuth LUTs corrections\n    to be applied during burst geocoding\n\n    Parameters\n    ----------\n    burst: Sentinel1BurstSlc\n        S1-A/B burst object\n    xstep: int\n        LUT spacing (in pixels) along x/slant range in meters\n    ystep: int\n        LUT spacing (in pixels) along x/azimuth in seconds\n\n    Returns\n    -------\n    rg_lut: ndarray\n        2D array containing sum of range corrections\n    az_lut: ndarray\n        2D array containg sum of azimuth corrections\n    '''"
+    ],
+    "functions": [
+        "compute_geocoding_correction_luts"
+    ],
+    "classes": []
+}

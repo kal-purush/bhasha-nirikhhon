@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "getEnvLegacy",
+        "getEnvLegacy",
+        "getEnvLegacy",
+        "getEnvLegacy",
+        "savedCookieValue",
+        "savedEnv"
+    ],
+    "literals": [
+        "\"./Env.js\"",
+        "The hostname is ${savedEnv.HOSTNAME}"
+    ],
+    "variables": [
+        "savedEnv",
+        "savedCookieValue"
+    ],
+    "comments": [
+        "Should really pass an instance of Env in here instead, but we have",
+        "legacy users for whom the plumbing required would be impractical"
+    ],
+    "docstrings": [
+        "* An example class used to demonstrate how to write tests for old code that\n * that reads env state via the legacy env mechanism.\n *\n * See its accompanying test for more info."
+    ],
+    "functions": [
+        "getCookieSecret",
+        "getSavedCookieSecret",
+        "exampleFunctionThatDependsOnLegacyEnv"
+    ],
+    "classes": [
+        "ExampleLegacyEnvReader"
+    ]
+}

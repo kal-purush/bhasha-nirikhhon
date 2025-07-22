@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "authSession",
+        "getAdminAuthorization",
+        "getK8s",
+        "jsonRes",
+        "ApiResp",
+        "NextApiRequest",
+        "NextApiResponse",
+        "k8sCore",
+        "ns",
+        "name",
+        "data",
+        "name",
+        "ns",
+        "data",
+        "configMap",
+        "k8sCore",
+        "ns",
+        "configMap",
+        "req",
+        "res",
+        "getK8s",
+        "authSession",
+        "req",
+        "process",
+        "createConfigMap",
+        "k8sCore",
+        "name",
+        "jsonRes",
+        "res",
+        "err",
+        "jsonRes",
+        "res",
+        "err"
+    ],
+    "literals": [
+        "'@/services/backend/auth'",
+        "'@/services/backend/kubernetes'",
+        "'@/services/backend/response'",
+        "'@/services/kubernet'",
+        "'next'",
+        "string",
+        "string",
+        "'v1'",
+        "'ConfigMap'",
+        "'configMap:'",
+        "'global-configmap'",
+        "\"default\"",
+        "'successfully created'"
+    ],
+    "variables": [
+        "configMap",
+        "name"
+    ],
+    "comments": [
+        "kubeconfig: await getAdminAuthorization(req.headers)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "createConfigMap",
+        "handler"
+    ],
+    "classes": []
+}

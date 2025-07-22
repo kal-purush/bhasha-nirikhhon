@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "riovlev",
+        "aop",
+        "gradle",
+        "example",
+        "aspect",
+        "org",
+        "aspectj",
+        "lang",
+        "JoinPoint",
+        "org",
+        "aspectj",
+        "lang",
+        "ProceedingJoinPoint",
+        "org",
+        "aspectj",
+        "lang",
+        "annotation",
+        "riovlev",
+        "aop",
+        "gradle",
+        "example",
+        "aspect",
+        "Aspects",
+        "Aspect",
+        "Pointcut",
+        "Before",
+        "joinPoint",
+        "before",
+        "execute",
+        "joinPoint",
+        "AfterReturning",
+        "pointcut",
+        "returning",
+        "joinPoint",
+        "result",
+        "after",
+        "execute",
+        "joinPoint",
+        "result"
+    ],
+    "literals": [
+        "\"execution(* *(..)) && @annotation(JLog)\"",
+        "\"pointcut()\"",
+        "\"pointcut()\"",
+        "\"result\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @author Roman Iovlev\n *         08/06/18",
+        "Around(\"pointcut()\")\n    public Object around(ProceedingJoinPoint pJoinPoint) {\n        return around.execute(pJoinPoint);\n    }"
+    ],
+    "functions": [
+        "pointcut",
+        "before",
+        "after"
+    ],
+    "classes": [
+        "ActionAspect"
+    ]
+}

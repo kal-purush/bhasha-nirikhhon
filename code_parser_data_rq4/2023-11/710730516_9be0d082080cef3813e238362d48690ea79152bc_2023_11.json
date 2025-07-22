@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "exports",
+        "req",
+        "res",
+        "next",
+        "prisma",
+        "res",
+        "allUser",
+        "error",
+        "next",
+        "error"
+    ],
+    "literals": [
+        "\"joi\"",
+        "\"../model/prisma\"",
+        "\"ADMIN\""
+    ],
+    "variables": [
+        "prisma",
+        "allUser"
+    ],
+    "comments": [
+        "const data = {",
+        "id: allUser[0].id,",
+        "firstName: allUser[0].memberInformation,",
+        "lastName: allUser[0].memberInformation,",
+        "};",
+        "console.log(allUser[0].id);"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

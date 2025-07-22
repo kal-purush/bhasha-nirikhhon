@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "position",
+        "speed",
+        "mass",
+        "acceleration",
+        "position",
+        "clockPeriod",
+        "mass",
+        "acceleration",
+        "position",
+        "clockPeriod",
+        "position",
+        "speed",
+        "listener",
+        "listener",
+        "position",
+        "speed",
+        "listener",
+        "listener",
+        "listener",
+        "listener",
+        "arguments",
+        "delay",
+        "start",
+        "setInterval",
+        "delay",
+        "setTimeout",
+        "start",
+        "delay",
+        "start",
+        "momentum",
+        "momentum",
+        "momentum"
+    ],
+    "literals": [],
+    "variables": [
+        "start"
+    ],
+    "comments": [
+        "Mass",
+        "Speed",
+        "Acceleration",
+        "millisecond",
+        "Set to true immediately due to the possible 'delay'"
+    ],
+    "docstrings": [
+        "* Copyright (C) 2015 yanni4night.com\n * speedometer.ts\n *\n * changelog\n * 2015-01-10[17:35:15]:revised\n * \n * @author yanni4night@gmail.com\n * @version 0.1.0\n * @since 0.1.0",
+        "* @class SpeedMeter\n * @version 0.1.0\n * @since 0.1.0",
+        "* Alias for <b>run</b>.\n     * \n     * @version 0.1.0",
+        "* Start the \"speedometer\".\n     * \n     * @param {delay}\n     * @returns this\n     * @version 0.1.0",
+        "* A momentum on the mass.\n     * \n     * @param {momentum}\n     * @returns this\n     * @version 0.1.0"
+    ],
+    "functions": [
+        "tick",
+        "report",
+        "addListener",
+        "start",
+        "run",
+        "push"
+    ],
+    "classes": [
+        "SpeedoMeter"
+    ]
+}

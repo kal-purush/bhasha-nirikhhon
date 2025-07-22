@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "app",
+        "require",
+        "globSync",
+        "__dirname",
+        "require",
+        "globSync",
+        "__dirname",
+        "require",
+        "require",
+        "app",
+        "morgan",
+        "mocks",
+        "route",
+        "route",
+        "app",
+        "proxies",
+        "route",
+        "route",
+        "app"
+    ],
+    "literals": [
+        "'glob'",
+        "'./mocks/**/*.js'",
+        "'./proxies/**/*.js'",
+        "'morgan'",
+        "'dev'"
+    ],
+    "variables": [
+        "globSync",
+        "mocks",
+        "proxies",
+        "morgan"
+    ],
+    "comments": [
+        "To use it create some files under `mocks/`",
+        "e.g. `server/mocks/ember-hamsters.js`",
+        "",
+        "module.exports = function(app) {",
+        "app.get('/ember-hamsters', function(req, res) {",
+        "res.send('hello');",
+        "});",
+        "};",
+        "Log proxy requests"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

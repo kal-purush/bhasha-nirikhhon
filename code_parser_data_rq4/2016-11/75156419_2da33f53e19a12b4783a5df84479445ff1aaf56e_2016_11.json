@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "time",
+        "bottle",
+        "wsgi_vmprof",
+        "VmprofMiddleware",
+        "bottle",
+        "default_app",
+        "app",
+        "route",
+        "time",
+        "sleep",
+        "VmprofMiddleware",
+        "app",
+        "bottle",
+        "run",
+        "app",
+        "app"
+    ],
+    "literals": [
+        "'/'",
+        "\"Hello world!!\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "app",
+        "app"
+    ],
+    "comments": [
+        "Add wsgi-vmprof as a WSGI middleware!"
+    ],
+    "docstrings": [
+        "\"\"\"\nUsage:\n\n    $ pip install wsgi-vmprof bottle\n    $ python app.py &\n    $ python\n    >>> app.start()  # After that please access http://localhost:8080/ sometimes.\n    >>> app.stop()\n    <results are here...>\n\"\"\""
+    ],
+    "functions": [
+        "index"
+    ],
+    "classes": []
+}

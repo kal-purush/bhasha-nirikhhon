@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "paths",
+        "require",
+        "require",
+        "paths",
+        "require",
+        "require"
+    ],
+    "literals": [
+        "\"../constants\"",
+        "\"packages/**/src/**/*.{ts,tsx,js}\"",
+        "\"boolean\"",
+        "\".(ts|tsx)$\"",
+        "\"ts-jest/dist\"",
+        "\".(js|jsx)$\"",
+        "\"babel-jest\"",
+        "\"ts\"",
+        "\"tsx\"",
+        "\"js\"",
+        "\"jsx\"",
+        "\"json\"",
+        "\"node\"",
+        "\"\\\\$test(.*)$\"",
+        "\"<rootDir>/test/$1\"",
+        "\"<rootDir>/test/setupTests.ts\"",
+        "\"<rootDir>/**/*.(spec|test).{ts,tsx,js,jsx}\"",
+        "\"http://localhost\"",
+        "\"[/\\\\\\\\]node_modules[/\\\\\\\\].+\\\\.(js|jsx)$\"",
+        "\"^.+\\\\.js$\"",
+        "\"jest-watch-typeahead/filename\"",
+        "\"jest-watch-typeahead/testname\""
+    ],
+    "variables": [],
+    "comments": [
+        "jest's default",
+        "projects: [\"<rootDir>\", \"<rootDir>/packages/*\"],"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

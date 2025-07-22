@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "formatPhoneNumber",
+        "value",
+        "value",
+        "value",
+        "value",
+        "phoneNumber",
+        "phoneNumberLength",
+        "phoneNumber",
+        "phoneNumberLength",
+        "phoneNumber",
+        "phoneNumber",
+        "phoneNumberLength",
+        "phoneNumber",
+        "phoneNumberLength",
+        "phoneNumber",
+        "phoneNumber",
+        "phoneNumberLength",
+        "phoneNumber",
+        "phoneNumber",
+        "phoneNumber",
+        "phoneNumber",
+        "phoneNumber",
+        "phoneNumber",
+        "phoneNumber"
+    ],
+    "literals": [
+        "''",
+        "(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(3)}",
+        "(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(\n      3,\n      6\n    )}-${phoneNumber.slice(6)}",
+        "(${phoneNumber.slice(0, 3)}) ${phoneNumber.slice(\n    3,\n    6\n  )}-${phoneNumber.slice(6, 8)}-${phoneNumber.slice(8)}"
+    ],
+    "variables": [
+        "formatPhoneNumber",
+        "phoneNumber",
+        "phoneNumberLength"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

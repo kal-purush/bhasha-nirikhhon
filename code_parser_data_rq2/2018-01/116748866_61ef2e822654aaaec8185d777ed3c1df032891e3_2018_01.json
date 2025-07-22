@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "animate",
+        "AnimationEntryMetadata",
+        "state",
+        "style",
+        "transition",
+        "trigger",
+        "trigger",
+        "state",
+        "style",
+        "transition",
+        "style",
+        "animate",
+        "transition",
+        "animate",
+        "style"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'routeAnimation'",
+        "'*'",
+        "'translateX(0)'",
+        "':enter'",
+        "'translateX(-100%)'",
+        "'0.2s ease-in'",
+        "':leave'",
+        "'0.5s ease-out'",
+        "'translateY(100%)'"
+    ],
+    "variables": [
+        "slideInDownAnimation"
+    ],
+    "comments": [
+        "Component transition animations",
+        "导出了slideInDownAnimation常量，并将它设置为*routeAnimation动画触发器",
+        "指定了通配符状态*，能匹配该路由组件存在时的任何动画状态",
+        "定义动画效果enter",
+        "在组件进入应用时从屏幕左侧缓慢进入",
+        "定义动画效果leave",
+        "在组件离开应用视图时让它向下飞出"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

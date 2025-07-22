@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "shift",
+        "shift",
+        "shift",
+        "message",
+        "message",
+        "Empty",
+        "c",
+        "message",
+        "newMessage",
+        "c",
+        "newMessage"
+    ],
+    "literals": [],
+    "variables": [
+        "shift",
+        "newMessage"
+    ],
+    "comments": [
+        "Constructs a shift cipher with the specified shift.",
+        "</summary>",
+        "<param name=\"shift\">The amount to shift to be applied during encryption and decryption</param>",
+        "Given an encrypted message, returns the result of decrypting it with this Cipher.",
+        "</summary>",
+        "<param name=\"message\">The message to decrypt</param>",
+        "<returns>The decrypted message</returns>",
+        "TODO: Finish the Decrypt method",
+        "Given a message, returns the result of encrypting it with this Cipher",
+        "</summary>",
+        "<param name=\"message\">The message to encrypt</param>",
+        "<returns>The encrypted message</returns>",
+        "TODO: The following copies the message character by character.",
+        "Instead, you should to encrypt each character using the shift"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Cipher",
+        "Decrypt",
+        "Encrypt"
+    ],
+    "classes": [
+        "Cipher"
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "logging",
+        "sys",
+        "name",
+        "level",
+        "logging",
+        "INFO",
+        "logging",
+        "Logger",
+        "logging",
+        "getLogger",
+        "name",
+        "logger",
+        "hasHandlers",
+        "logger",
+        "logging",
+        "StreamHandler",
+        "sys",
+        "stdout",
+        "logging",
+        "Formatter",
+        "handler",
+        "setFormatter",
+        "formatter",
+        "logger",
+        "setLevel",
+        "level",
+        "logger",
+        "addHandler",
+        "handler",
+        "logger"
+    ],
+    "literals": [
+        "\"mlops\"",
+        "\"%(asctime)s - %(name)s - %(levelname)s - %(message)s\""
+    ],
+    "variables": [
+        "logger",
+        "handler",
+        "formatter"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Reusable logger for model_factory.\"\"\"",
+        "\"\"\"Get logger.\n\n    Args:\n        name (str, optional): Logger name. Defaults to \"mlops\".\n        level (int, optional): Log level. Defaults to logging.INFO.\n\n    Returns:\n        logging.Logger: named logger.\n    \"\"\""
+    ],
+    "functions": [
+        "get_logger"
+    ],
+    "classes": []
+}

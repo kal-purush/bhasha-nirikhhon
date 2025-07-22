@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "CPSession",
+        "CPSession",
+        "CPSession",
+        "get",
+        "CPSession",
+        "alerts",
+        "CPSession",
+        "CPSession",
+        "alerts",
+        "alerts",
+        "StopIteration",
+        "pop",
+        "alerts",
+        "pop",
+        "a",
+        "a",
+        "alertType",
+        "message",
+        "alerts",
+        "append",
+        "alertType",
+        "message",
+        "save",
+        "message",
+        "add",
+        "message",
+        "message",
+        "add",
+        "message",
+        "message",
+        "add",
+        "message",
+        "message",
+        "add",
+        "message"
+    ],
+    "literals": [
+        "'alerts'",
+        "'alerts'",
+        "'alerts'",
+        "'alerts'",
+        "'type'",
+        "'message'",
+        "'info'",
+        "'danger'",
+        "'warning'",
+        "'success'"
+    ],
+    "variables": [
+        "alerts",
+        "alerts",
+        "CPSession",
+        "a"
+    ],
+    "comments": [
+        "!/usr/bin/python",
+        "-*- coding: utf-8 -*-",
+        "def __del__(self):",
+        "self.save() # Won't work because the request was already destroyed",
+        "print \"Called alerts.save for SID %s\" % self.CPSession.id"
+    ],
+    "docstrings": [],
+    "functions": [
+        "__iter__",
+        "save",
+        "next",
+        "pop",
+        "add",
+        "info",
+        "error",
+        "warn",
+        "success"
+    ],
+    "classes": [
+        "Alerts"
+    ]
+}

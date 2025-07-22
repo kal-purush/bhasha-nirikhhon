@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "studentCourse",
+        "fetchWrapper",
+        "id",
+        "token",
+        "fetchWrapper",
+        "studentCourse",
+        "id",
+        "token",
+        "response",
+        "response",
+        "response",
+        "res"
+    ],
+    "literals": [
+        "\"@/services/urls\"",
+        "\"@/utils/fetchWrapper\"",
+        "string",
+        "string",
+        "${studentCourse}/${id}/declared-interest",
+        "\"GET\"",
+        "\"Content-Type\"",
+        "\"application/json\"",
+        "Bearer ${token}",
+        "\"Provavel falha ao enviar email\""
+    ],
+    "variables": [
+        "response",
+        "res"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "sendEmailDeclarationInterest"
+    ],
+    "classes": []
+}

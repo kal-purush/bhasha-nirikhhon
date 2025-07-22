@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "paystackapi",
+        "PayStackBase",
+        "PayStackBase",
+        "classmethod",
+        "cls",
+        "kwargs",
+        "cls",
+        "requests",
+        "post",
+        "data",
+        "kwargs",
+        "classmethod",
+        "cls",
+        "kwargs",
+        "cls",
+        "requests",
+        "get",
+        "data",
+        "kwargs",
+        "classmethod",
+        "cls",
+        "refund_id",
+        "cls",
+        "requests",
+        "get",
+        "format",
+        "refund_id"
+    ],
+    "literals": [
+        "'refund'",
+        "'refund'",
+        "'refund/{}'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n\t\tFunction defined to create a refund.\n\n\t\tArgs:\n\t\ttransaction: Transaction reference or id\n\t\tamount: How much in kobo to be refunded to the customer - Optional\n\t\tcurrency: Three-letter ISO currency - Optional\n\t\tcustomer_note: Customer reason - Optional\n\t\tmerchant_note: Merchant reason - Optional\n\t\t\n\t\tReturns:\n\t\tJson data from paystack API.\n\t\t\"\"\"",
+        "\"\"\"\n\t\tList Refunds\n\t\t\n\t\tArgs:\n\t\t\treference: Identifier for transaction to be refunded - Optional\n\t\t\tcurrency: Three-letter ISO currency - Optional\n\t\t\n\t\tReturns:\n\t\tJSON data from paystack's API.\n\t\t\"\"\"",
+        "\"\"\"\n\t\tFetch a Refund\n\t\t\n\t\tArgs:\n\t\t\trefund_id: Identifier for refund to be fetched\n\t\t\n\t\tReturn:\n\t\t\tJSON data from paystack API\n\t\t\"\"\""
+    ],
+    "functions": [
+        "create",
+        "fetch"
+    ],
+    "classes": [
+        "Refund"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "flattenPrototypes",
+        "bitbank",
+        "BitBankStrategyBase",
+        "ICandle",
+        "bitbank",
+        "BitBankStrategyBase",
+        "candle",
+        "candle",
+        "featureSet",
+        "featureSet",
+        "featureSet",
+        "flattenPrototypes",
+        "BitBankStrategyOnlyBacktestingPreprocessedData"
+    ],
+    "literals": [
+        "'flatten-prototypes'",
+        "\"bitbank-node-js-api\"",
+        "'./base/BitBankStrategyBase'",
+        "'./gekko/ICandle'",
+        "'looking for bitbank featureset for candle started at '",
+        "'found featureset: '",
+        "'no featureset found (not available or too old)'"
+    ],
+    "variables": [
+        "featureSet"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This strategy has just the purpose to backtest a new strategy (preprocess 30 featuresets, see\n * bitbank-usdt_btc-preprocessed.csv / https://bigquery.cloud.google.com/savedquery/530942804334:3af3a49d45a34944a09de09593d9388e)\n * strategy is ONLY for backtesting this sample CSV"
+    ],
+    "functions": [
+        "check"
+    ],
+    "classes": [
+        "BitBankStrategyOnlyBacktestingPreprocessedData"
+    ]
+}

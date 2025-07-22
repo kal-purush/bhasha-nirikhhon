@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "json",
+        "re",
+        "editdistance",
+        "txt",
+        "re",
+        "sub",
+        "re",
+        "sub",
+        "txt",
+        "line",
+        "re",
+        "sub",
+        "line",
+        "WARNINGS",
+        "editdistance",
+        "eval",
+        "line",
+        "d",
+        "len",
+        "txt",
+        "join",
+        "line",
+        "line",
+        "txt",
+        "split",
+        "is_warning",
+        "line",
+        "txt",
+        "remove_warnings",
+        "swap_chars",
+        "txt",
+        "json",
+        "load",
+        "open",
+        "k",
+        "txt",
+        "ocr",
+        "iteritems",
+        "clean",
+        "txt"
+    ],
+    "literals": [
+        "r\"''\"",
+        "'\"'",
+        "r'\\\\&'",
+        "'&'",
+        "'NO REPRODUCTIONS'",
+        "'MAY BE REPRODUCED'",
+        "'CREDIT LINE IMPERATIVE'",
+        "'CREDIT LINE IMPERATIVE ON ALL REPRODUCTIONS'",
+        "r'[,.]$'",
+        "''",
+        "'\\n'",
+        "'\\n'",
+        "'__main__'",
+        "'ocr/ocr.json'"
+    ],
+    "variables": [
+        "WARNINGS",
+        "line",
+        "d",
+        "ocr"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "See https://github.com/danvk/oldnyc/issues/39",
+        "print '%s: %s' % (k, clean(txt))"
+    ],
+    "docstrings": [
+        "'''Clean up a few common warts in the OCR data from Ocropus.\n\nThese include:\n    - \\& --> &\n    - '' --> \"\n    - Dropping \"NO REPRODUCTIONS\" lines\n'''"
+    ],
+    "functions": [
+        "swap_chars",
+        "is_warning",
+        "remove_warnings",
+        "clean"
+    ],
+    "classes": []
+}

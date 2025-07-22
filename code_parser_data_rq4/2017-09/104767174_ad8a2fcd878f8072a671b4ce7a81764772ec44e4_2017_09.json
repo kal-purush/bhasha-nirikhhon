@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "re",
+        "timestamp",
+        "re",
+        "compile",
+        "regular_exp",
+        "search",
+        "timestamp",
+        "timestamp",
+        "re",
+        "compile",
+        "regular_exp",
+        "search",
+        "timestamp"
+    ],
+    "literals": [
+        "r'^\\d{4}-\\d{2}-\\d{2}[ T]\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$'",
+        "r'^\\d{4}-\\d{2}-\\d{2}'"
+    ],
+    "variables": [
+        "regular_exp",
+        "regular_exp"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Checks if the timestamp matches the ISO Date format. Source for the regex: https://stackoverflow.com/a/6709493/1496040\n    :param timestamp: string timestamp\n    :return: true if it matches the iso format | false if not\n    \"\"\"",
+        "\"\"\"\n    Checks if the timestamp matches the ISO Date format. Source for the regex: https://stackoverflow.com/a/6709493/1496040, shortened to verify yyyy-mm-dd strings.\n    :param timestamp: string timestamp\n    :return: true if it matches the iso format | false if not\n    \"\"\""
+    ],
+    "functions": [
+        "check_iso_string",
+        "check_iso_date_string"
+    ],
+    "classes": []
+}

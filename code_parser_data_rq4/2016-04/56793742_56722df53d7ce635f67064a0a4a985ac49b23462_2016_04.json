@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Component",
+        "Inject",
+        "RouteParams",
+        "TenderFraudComplaintService",
+        "Component",
+        "TenderFraudComplaintService",
+        "Inject",
+        "RouteParams",
+        "routeParams",
+        "Inject",
+        "TenderFraudComplaintService",
+        "service",
+        "routeParams",
+        "service",
+        "complaints",
+        "complaints"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/router'",
+        "'./TenderFraudComplaintService'",
+        "'search-tender-fraud-complaint'",
+        "<div *ngIf=\"tenderFraudComplaints\">\n    <h4 class=\"ui header information\">Tender fraud complaints matching {{searchText}} </h4>\n    <table class=\"ui celled table\">\n    <thead>\n    <tr>\n    <th>Fraud Complaint Details</th>\n    <th>Offending Company</th>\n    <th>Priority</th>\n    <th>Reference</th>\n    <th>Reported On</th>\n    <th>Reported By</th>\n    </tr>\n</thead>\n<tbody>\n<tr *ngFor=\"#complaint of tenderFraudComplaints\">\n<td><div class=\"ui ribbon label\">{{complaint.complaint}}</div></td>\n<td><div class=\"ui label ribbon\">{{complaint.offendingCompany}}</div></td>\n<td><div class=\"ui label ribbon\">{{complaint.complaintPriority}}</div></td>\n<td><div class=\"ui ribbon label\">{{complaint.reference}}</div></td>\n<td><div class=\"ui label ribbon\">{{complaint.reportedOn}}</div></td>\n<td><div class=\"ui label ribbon\">{{complaint.complainantName}}</div></td>\n</tr>\n</tbody>\n</table>\n</div>\n<h4 *ngIf=\"!tenderFraudComplaints\" class=\"ui header information\">No tender fraud complaints found matching {{searchText}}.</h4>",
+        "string",
+        "'searchText'",
+        "Got search string ${this.searchText} from the route param. Please wait..."
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "SearchTenderFraudComplaintComponent"
+    ]
+}

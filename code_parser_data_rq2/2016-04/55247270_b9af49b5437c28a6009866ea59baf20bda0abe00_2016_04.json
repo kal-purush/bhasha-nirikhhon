@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Component",
+        "Directive",
+        "ElementRef",
+        "Renderer",
+        "RouteConfig",
+        "ROUTER_DIRECTIVES",
+        "Test",
+        "XLarge",
+        "Home",
+        "About",
+        "Component",
+        "ROUTER_DIRECTIVES",
+        "XLarge",
+        "RouteConfig",
+        "Home",
+        "Home",
+        "About",
+        "Test"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/router'",
+        "'./features/test/test'",
+        "'./xlarge'",
+        "'./features/home/home'",
+        "'./features/about/about'",
+        "'app'",
+        ".router-link-active {\n      background-color: lightgray;\n    }",
+        "<div>\n    <nav>\n      <a [routerLink]=\" ['./Home'] \">Home</a>\n      <a [routerLink]=\" ['./About'] \">About</a>\n      <a [routerLink]=\" ['./Test'] \">test</a>\n    </nav>\n    <div>\n      <span x-large>Hello, {{ name }}!</span>\n    </div>\n\n    name: <input type=\"text\" [value]=\"name\" (input)=\"name = $event.target.value\" autofocus>\n    <main style=\"border: solid 1px gray; padding: 10px; border-radius:5px; margin-top:12px; width: 50%; min-height: 200px\">\n      <router-outlet></router-outlet>\n    </main>\n  </div>",
+        "'/'",
+        "'Home'",
+        "'/home'",
+        "'Home'",
+        "'/about'",
+        "'About'",
+        "'/test'",
+        "'Test'",
+        "'/**'",
+        "'Home'",
+        "string",
+        "'Angular 2'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "App"
+    ]
+}

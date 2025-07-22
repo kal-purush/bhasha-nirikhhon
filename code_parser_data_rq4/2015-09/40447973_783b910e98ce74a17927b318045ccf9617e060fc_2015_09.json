@@ -1,0 +1,90 @@
+{
+    "identifiers": [
+        "logging",
+        "logging",
+        "LoggerAdapter",
+        "msg",
+        "kwargs",
+        "process",
+        "msg",
+        "kwargs",
+        "extra",
+        "get",
+        "format",
+        "extra",
+        "sub_domain",
+        "msg",
+        "kwargs",
+        "msg",
+        "kwargs",
+        "logging",
+        "LoggerAdapter",
+        "msg",
+        "kwargs",
+        "process",
+        "msg",
+        "kwargs",
+        "extra",
+        "get",
+        "extra",
+        "format",
+        "server",
+        "instance",
+        "sub_domain",
+        "server",
+        "msg",
+        "kwargs",
+        "msg",
+        "kwargs"
+    ],
+    "literals": [
+        "'obj'",
+        "'instance={} | {}'",
+        "'obj'",
+        "'obj'",
+        "'obj'",
+        "'instance={!s:.15},server={!s:.8} | {}'"
+    ],
+    "variables": [
+        "msg",
+        "kwargs",
+        "msg",
+        "kwargs",
+        "server"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "",
+        "OpenCraft -- tools to aid developing and hosting free software projects",
+        "Copyright (C) 2015 OpenCraft <xavier@opencraft.com>",
+        "",
+        "This program is free software: you can redistribute it and/or modify",
+        "it under the terms of the GNU Affero General Public License as",
+        "published by the Free Software Foundation, either version 3 of the",
+        "License, or (at your option) any later version.",
+        "",
+        "This program is distributed in the hope that it will be useful,",
+        "but WITHOUT ANY WARRANTY; without even the implied warranty of",
+        "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the",
+        "GNU Affero General Public License for more details.",
+        "",
+        "You should have received a copy of the GNU Affero General Public License",
+        "along with this program.  If not, see <http://www.gnu.org/licenses/>.",
+        "",
+        "Imports #####################################################################",
+        "Adapters ####################################################################"
+    ],
+    "docstrings": [
+        "\"\"\"\nInstance app models - Logger Adapters\n\"\"\"",
+        "\"\"\"\n    Custom LoggerAdapter for Instance objects\n    Include the instance name in the output\n    \"\"\"",
+        "\"\"\"\n    Custom LoggerAdapter for Server objects\n    Include the instance & server names in the output\n    \"\"\""
+    ],
+    "functions": [
+        "process",
+        "process"
+    ],
+    "classes": [
+        "InstanceLoggerAdapter",
+        "ServerLoggerAdapter"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "rend",
+        "gameObject",
+        "GetComponent",
+        "Grid",
+        "Collider2D",
+        "collision",
+        "collision",
+        "gameObject",
+        "name",
+        "Equals",
+        "rend",
+        "enabled",
+        "rend",
+        "enabled"
+    ],
+    "literals": [
+        "\"Player\""
+    ],
+    "variables": [
+        "Grid",
+        "rend"
+    ],
+    "comments": [
+        "BoxCollider2D box;",
+        "bool pass = false;",
+        "Start is called before the first frame update",
+        "box = this.gameObject.GetComponent<BoxCollider2D>();",
+        "pass = true;",
+        "if (pass)",
+        "{",
+        "box.enabled = !box.enabled;",
+        "}",
+        "Update is called once per frame"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "OnTriggerEnter2D",
+        "Update"
+    ],
+    "classes": [
+        "invisibleGrid"
+    ]
+}

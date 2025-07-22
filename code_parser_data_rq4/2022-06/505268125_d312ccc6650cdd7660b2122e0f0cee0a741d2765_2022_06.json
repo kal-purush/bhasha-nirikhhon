@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "readFileSync",
+        "writeFileSync",
+        "ensureFileSync",
+        "generateManifest",
+        "Package",
+        "readAllMainPackages",
+        "argv",
+        "join",
+        "argv",
+        "join",
+        "__dirname",
+        "version",
+        "readAllMainPackages",
+        "generateManifest",
+        "packages",
+        "version",
+        "manifest",
+        "updateFileWithDispose",
+        "localManifest",
+        "manifest",
+        "filePath",
+        "content",
+        "original",
+        "ensureFileSync",
+        "filePath",
+        "readFileSync",
+        "filePath",
+        "content",
+        "newContent",
+        "content",
+        "original",
+        "writeFileSync",
+        "filePath",
+        "newContent"
+    ],
+    "literals": [
+        "'fs-extra'",
+        "'./manifest'",
+        "'./pkg'",
+        "'yargs'",
+        "'path'",
+        "string",
+        "'../packages/types/manifest.json'",
+        "'version is required'",
+        "string",
+        "string",
+        "'utf8'",
+        "'function'",
+        "${JSON.stringify(newContent, null, 2)}\\n"
+    ],
+    "variables": [
+        "version",
+        "localManifest",
+        "packages",
+        "original",
+        "newContent",
+        "content"
+    ],
+    "comments": [
+        "npm run manifest -- -v=2.19.0"
+    ],
+    "docstrings": [],
+    "functions": [
+        "updateFileWithDispose"
+    ],
+    "classes": []
+}

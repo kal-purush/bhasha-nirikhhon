@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "require",
+        "TCPMessage",
+        "proposal",
+        "proposal",
+        "me",
+        "proposal",
+        "me",
+        "proposal",
+        "me",
+        "proposal",
+        "tms",
+        "tms",
+        "callbackFunction",
+        "tms",
+        "prop",
+        "prop",
+        "prop",
+        "prop",
+        "tms",
+        "prop",
+        "prop",
+        "prop",
+        "tms",
+        "prop",
+        "prop",
+        "prop",
+        "process",
+        "msg",
+        "msg",
+        "Cohort"
+    ],
+    "literals": [
+        "'./TCPMessage'",
+        "'127.0.0.1'",
+        "'REQUEST'",
+        "'DECISIONABORT'",
+        "'DECISIONCOMMIT'",
+        "'CLOSE'",
+        "'CONNECT'",
+        "'ABORT'",
+        "'COMMIT'",
+        "\"Cohort commit\"",
+        "\"Cohort abort\"",
+        "'message'",
+        "'init'"
+    ],
+    "variables": [
+        "Cohort",
+        "TCPMessage",
+        "tms",
+        "me",
+        "callbackFunction",
+        "v"
+    ],
+    "comments": [
+        "TCP version JMS",
+        "if(v < 0.2) {",
+        "this.voteNo(prop);",
+        "} else {",
+        "}",
+        "console.log('[Cohort pid] ' + process.pid);",
+        "console.log('[Init] cohort init.');"
+    ],
+    "docstrings": [
+        "*"
+    ],
+    "functions": [],
+    "classes": []
+}

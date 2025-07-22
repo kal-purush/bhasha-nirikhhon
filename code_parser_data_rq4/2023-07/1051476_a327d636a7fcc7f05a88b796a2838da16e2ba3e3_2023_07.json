@@ -1,0 +1,24 @@
+{
+    "identifiers": [
+        "net",
+        "sourceforge",
+        "plantuml",
+        "abel",
+        "LinkStrategy",
+        "LEGACY",
+        "SIMPLIER"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Temporary class, while we are fixing",
+        "https://github.com/plantuml/plantuml/issues/1491"
+    ],
+    "docstrings": [
+        "========================================================================\n * PlantUML : a free UML diagram generator\n * ========================================================================\n *\n * (C) Copyright 2009-2024, Arnaud Roques\n *\n * Project Info:  https://plantuml.com\n * \n * If you like this project or if you find it useful, you can support us at:\n * \n * https://plantuml.com/patreon (only 1$ per month!)\n * https://plantuml.com/paypal\n * \n * This file is part of PlantUML.\n *\n * PlantUML is free software; you can redistribute it and/or modify it\n * under the terms of the GNU General Public License as published by\n * the Free Software Foundation, either version 3 of the License, or\n * (at your option) any later version.\n *\n * PlantUML distributed in the hope that it will be useful, but\n * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY\n * or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public\n * License for more details.\n *\n * You should have received a copy of the GNU General Public\n * License along with this library; if not, write to the Free Software\n * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301,\n * USA.\n *\n *\n * Original Author:  Arnaud Roques\n * \n *",
+        "* In legacy mode, we are drawing arrow tail and arrow head in GraphViz\n\t * generated dot. (see LinkType::getSpecificDecorationSvek).\n\t * We then retrieve tail/head in generated SVG to compute link decoration angle.\n\t * \n\t * Drawbacks: sometimes, GraphViz does NOT draw those decorations, which causes issues",
+        "* In simplier mode, there are no tail/head in GraphViz generated dot.\n\t * The decoration angle is retrieve using Bezier data.\n\t *"
+    ],
+    "functions": [],
+    "classes": []
+}

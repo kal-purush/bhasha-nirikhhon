@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "request",
+        "RequestPromiseOptions",
+        "Cluster",
+        "cluster",
+        "cluster",
+        "path",
+        "options",
+        "path",
+        "request",
+        "apiUrl",
+        "options",
+        "URL",
+        "options"
+    ],
+    "literals": [
+        "\"request-promise-native\"",
+        "\"../cluster\"",
+        "string",
+        "string",
+        "string",
+        "${this.cluster.id}.${new URL(this.cluster.kubeProxyUrl).host}"
+    ],
+    "variables": [
+        "apiUrl"
+    ],
+    "comments": [
+        "required in ClusterManager.getClusterForRequest()"
+    ],
+    "docstrings": [],
+    "functions": [
+        "detect",
+        "k8sRequest"
+    ],
+    "classes": [
+        "BaseClusterDetector"
+    ]
+}

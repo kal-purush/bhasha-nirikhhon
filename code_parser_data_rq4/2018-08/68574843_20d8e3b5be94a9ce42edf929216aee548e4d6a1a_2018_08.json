@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "pattern",
+        "length",
+        "length",
+        "pattern",
+        "pattern",
+        "randomString",
+        "randomString",
+        "jsessionid",
+        "nuid",
+        "nuid",
+        "baseCookie"
+    ],
+    "literals": [
+        "string",
+        "''",
+        "'0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKMNOPQRSTUVWXYZ\\\\/+'",
+        "':'",
+        "'0123456789abcdefghijklmnopqrstuvwxyz'",
+        "string",
+        "JSESSIONID-WYYY=${jsessionid}; _iuqxldmzr_=32; _ntes_nnid=${nuid},${(new Date).getTime()}; _ntes_nuid=${nuid}"
+    ],
+    "variables": [
+        "jsessionid",
+        "nuid",
+        "baseCookie"
+    ],
+    "comments": [
+        "Thanks: https://github.com/Binaryify/NeteaseCloudMusicApi/pull/291/files"
+    ],
+    "docstrings": [],
+    "functions": [
+        "randomString"
+    ],
+    "classes": []
+}

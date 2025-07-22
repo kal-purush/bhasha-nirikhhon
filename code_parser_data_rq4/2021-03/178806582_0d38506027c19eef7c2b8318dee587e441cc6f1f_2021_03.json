@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "getConstant",
+        "TRENDING_CONSTANTS",
+        "getChainId",
+        "stringify",
+        "first",
+        "query",
+        "fetch",
+        "getConstant",
+        "TRENDING_CONSTANTS",
+        "getChainId",
+        "stringify",
+        "response",
+        "data",
+        "fetchFromUniswapV2Health",
+        "first",
+        "response",
+        "first",
+        "response",
+        "latestBlock",
+        "headBlock"
+    ],
+    "literals": [
+        "'../../../../web3/helpers'",
+        "'../../constants'",
+        "'../../../../extension/background-script/EthereumServices/chainState'",
+        "'json-stable-stringify'",
+        "'lodash-es'",
+        "string",
+        "'UNISWAP_V2_HEALTH_URL'",
+        "'POST'",
+        "'cors'",
+        "string",
+        "string",
+        "query health {\n        indexingStatusForCurrentVersion(subgraphName: \"uniswap/uniswap-v2\") {\n          synced\n          health\n          chains {\n            chainHeadBlock {\n              number\n            }\n            latestBlock {\n              number\n            }\n          }\n        }\n      }"
+    ],
+    "variables": [
+        "response",
+        "response",
+        "latestBlock",
+        "headBlock"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "fetchFromUniswapV2Health",
+        "fetchLatestBlocks"
+    ],
+    "classes": []
+}

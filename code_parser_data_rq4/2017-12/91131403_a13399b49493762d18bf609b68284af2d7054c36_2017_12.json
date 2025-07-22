@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "describe",
+        "beforeEach",
+        "cy",
+        "it",
+        "cy",
+        "cy",
+        "cy",
+        "cy",
+        "cy"
+    ],
+    "literals": [
+        "Demo E2E with Cypress",
+        "",
+        "should check that sidenav can be closed/opened",
+        "mat-sidenav",
+        "'be.visible'",
+        "mat-toolbar button",
+        "mat-sidenav",
+        "'not.be.visible'",
+        "mat-toolbar button",
+        "mat-sidenav",
+        "'be.visible'"
+    ],
+    "variables": [],
+    "comments": [
+        "using cy.visit(``) with an empty string will here try to load \"http://localhost:4200\"",
+        "this is because I've set this address within cypress.json"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

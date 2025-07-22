@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "core",
+        "http",
+        "fs",
+        "appSlug",
+        "outputPath",
+        "bitriseToken",
+        "http",
+        "client",
+        "appSlug",
+        "bitriseToken",
+        "res",
+        "fs",
+        "outputPath",
+        "body"
+    ],
+    "literals": [
+        "'@actions/core'",
+        "'@actions/http-client'",
+        "'fs'",
+        "string",
+        "string",
+        "string",
+        "'download-bitrise-yaml'",
+        "https://api.bitrise.io/v0.1/apps/${appSlug}/bitrise.yml"
+    ],
+    "variables": [
+        "client",
+        "res",
+        "body"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "downloadBitriseYaml"
+    ],
+    "classes": []
+}

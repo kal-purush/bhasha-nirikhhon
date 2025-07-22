@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "fs",
+        "initSettings",
+        "mode",
+        "mode",
+        "mode",
+        "fs",
+        "localFile",
+        "fs",
+        "templateFile",
+        "fs",
+        "templateFile",
+        "localFile",
+        "localFile"
+    ],
+    "literals": [
+        "'fs'",
+        "string",
+        "ini/.webapp.${mode}.ini",
+        "ini/templates/.webapp.${mode}.ini"
+    ],
+    "variables": [
+        "initSettings",
+        "localFile",
+        "templateFile"
+    ],
+    "comments": [
+        "eslint-disable no-console",
+        "The build ONLY uses .ini files in /ini to include in the build output.",
+        "All .ini files in the directory are git ignored to customer specific values out of source control.",
+        "However, this script will automatically create a .ini file for the current mode if it doesn't exist",
+        "by copying the corresponding mode file from the ini/templates directory."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

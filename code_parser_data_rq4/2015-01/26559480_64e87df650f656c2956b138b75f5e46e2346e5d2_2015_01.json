@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "notes",
+        "request",
+        "note",
+        "callback",
+        "note",
+        "note",
+        "callback",
+        "request",
+        "note",
+        "callback",
+        "save"
+    ],
+    "literals": [
+        "'use strict'",
+        "'object'",
+        "'a note is required'",
+        "'applicant_id is required'",
+        "'function'",
+        "'a callback is required'",
+        "'POST'",
+        "'notes'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Saves a note\n   *\n   * @param {object} applicant - A note object:\n   *                              - applicant_id\n   *                             are required\n   * @param {function} callback - result handler"
+    ],
+    "functions": [
+        "save"
+    ],
+    "classes": []
+}

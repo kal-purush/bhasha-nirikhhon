@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "Component",
+        "DynamicComponentLoader",
+        "Injector",
+        "ElementRef",
+        "Query",
+        "ViewQuery",
+        "QueryList",
+        "ChildComponent",
+        "Component",
+        "loader",
+        "injector",
+        "element",
+        "ViewQuery",
+        "containers",
+        "ChildComponent",
+        "loaded",
+        "componentRef",
+        "componentRef"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "\"./child.component\"",
+        "'my-app'",
+        "<button (click)=\"loadComponent()\">Load</button>\n    <div #container attr.class=\"loadTarget\" style=\"border: 2px solid blue\">\n    </div>\n    <div #realContainer style=\"border: 2px solid lime\">\n    </div>",
+        "'realContainer'",
+        "'Loading...'",
+        "'container'"
+    ],
+    "variables": [
+        "loaded"
+    ],
+    "comments": [
+        "const loaded = this.loader.loadAsRoot(ChildComponent, '#container', this.injector);",
+        "console.dir(componentRef);",
+        "console.dir(componentRef.location.nativeElement);",
+        "console.log(componentRef.instance);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "loadComponent"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

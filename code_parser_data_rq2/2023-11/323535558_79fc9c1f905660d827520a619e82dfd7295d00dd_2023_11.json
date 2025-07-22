@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "fPort",
+        "milesight",
+        "i",
+        "i",
+        "i",
+        "channel_id",
+        "channel_type",
+        "decoded",
+        "i",
+        "i",
+        "channel_id",
+        "channel_type",
+        "decoded",
+        "readLiquidStatus",
+        "i",
+        "i",
+        "channel_id",
+        "channel_type",
+        "decoded",
+        "i",
+        "i",
+        "channel_id",
+        "channel_type",
+        "decoded",
+        "readLiquidStatus",
+        "i",
+        "decoded",
+        "readAlarmType",
+        "i",
+        "i",
+        "decoded"
+    ],
+    "literals": [
+        "\"failed\"",
+        "\"success\"",
+        "\"uncalibrated\"",
+        "\"full\"",
+        "\"empty\"",
+        "\"error\"",
+        "\"unkown\"",
+        "\"empty alarm release\"",
+        "\"empty alarm\"",
+        "\"unkown\""
+    ],
+    "variables": [
+        "decoded",
+        "i",
+        "channel_id",
+        "channel_type"
+    ],
+    "comments": [
+        "BATTERY",
+        "LIQUID",
+        "CALIBRATION RESULT",
+        "LIQUID ALARM"
+    ],
+    "docstrings": [
+        "* Payload Decoder for Milesight Network Server\n *\n * Copyright 2023 Milesight IoT\n *\n * @product EM300-CL",
+        "******************************************\n * bytes to number\n *******************************************"
+    ],
+    "functions": [
+        "Decode",
+        "milesight",
+        "readLiquidStatus",
+        "readAlarmType"
+    ],
+    "classes": []
+}

@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "os",
+        "typing",
+        "Enum",
+        "boto3",
+        "os",
+        "environ",
+        "boto3",
+        "client",
+        "region_name",
+        "os",
+        "environ",
+        "metric_name",
+        "metric_value",
+        "metric_name",
+        "metric_value",
+        "metric_name",
+        "metric_value",
+        "_client",
+        "put_metric_data",
+        "MetricData",
+        "metric_data",
+        "Namespace"
+    ],
+    "literals": [
+        "f\"dcp-data-metrics-{os.environ['DEPLOYMENT_STAGE']}\"",
+        "'DEPLOYMENT_STAGE'",
+        "\"cloudwatch\"",
+        "'AWS_DEFAULT_REGION'",
+        "'MetricName'",
+        "'Value'",
+        "f'putting to cloudwatch {metric_name}: {metric_value}'"
+    ],
+    "variables": [
+        "_client",
+        "metric_data"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n        Puts a cloudwatch metric data point\n        :param metric_name: The name of the metric to put\n        :param metric_value: value of metric to put\n        \"\"\""
+    ],
+    "functions": [
+        "put_metric_data"
+    ],
+    "classes": [
+        "CloudwatchHandler"
+    ]
+}

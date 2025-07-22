@@ -1,0 +1,83 @@
+{
+    "identifiers": [
+        "Subscriber",
+        "destination",
+        "onNext",
+        "value",
+        "onComplete",
+        "onError",
+        "err",
+        "onFinalize",
+        "OperatorSubscriber",
+        "destination",
+        "onNext",
+        "onComplete",
+        "onError",
+        "onFinalize",
+        "Subscriber",
+        "destination",
+        "onNext",
+        "value",
+        "onComplete",
+        "onError",
+        "err",
+        "onFinalize",
+        "shouldUnsubscribe",
+        "destination",
+        "onNext",
+        "value",
+        "onNext",
+        "value",
+        "err",
+        "destination",
+        "err",
+        "onError",
+        "err",
+        "onError",
+        "err",
+        "err",
+        "destination",
+        "err",
+        "onComplete",
+        "onComplete",
+        "err",
+        "destination",
+        "err",
+        "closed"
+    ],
+    "literals": [
+        "'rxjs'"
+    ],
+    "variables": [],
+    "comments": [
+        "It's important - for performance reasons - that all of this class's",
+        "members are initialized and that they are always initialized in the same",
+        "order. This will ensure that all OperatorSubscriber instances have the",
+        "same hidden class in V8. This, in turn, will help keep the number of",
+        "hidden classes involved in property accesses within the base class as",
+        "low as possible. If the number of hidden classes involved exceeds four,",
+        "the property accesses will become megamorphic and performance penalties",
+        "will be incurred - i.e. inline caches won't be used.",
+        "",
+        "The reasons for ensuring all instances have the same hidden class are",
+        "further discussed in this blog post from Benedikt Meurer:",
+        "https://benediktmeurer.de/2018/03/23/impact-of-polymorphism-on-component-based-frameworks-like-react/",
+        "Send any errors that occur down stream.",
+        "Ensure finalization.",
+        "Send any errors that occur down stream.",
+        "Ensure finalization.",
+        "Execute additional teardown if we have any and we didn't already do so."
+    ],
+    "docstrings": [
+        "* Creates an instance of an `OperatorSubscriber`.\n * @param destination The downstream subscriber.\n * @param onNext Handles next values, only called if this subscriber is not stopped or closed. Any\n * error that occurs in this function is caught and sent to the `error` method of this subscriber.\n * @param onError Handles errors from the subscription, any errors that occur in this handler are caught\n * and send to the `destination` error handler.\n * @param onComplete Handles completion notification from the subscription. Any errors that occur in\n * this handler are sent to the `destination` error handler.\n * @param onFinalize Additional teardown logic here. This will only be called on teardown if the\n * subscriber itself is not already closed. This is called after all other teardown logic is executed.",
+        "* A generic helper for allowing operators to be created with a Subscriber and\n * use closures to capture necessary state from the operator function itself.",
+        "* Creates an instance of an `OperatorSubscriber`.\n   * @param destination The downstream subscriber.\n   * @param onNext Handles next values, only called if this subscriber is not stopped or closed. Any\n   * error that occurs in this function is caught and sent to the `error` method of this subscriber.\n   * @param onError Handles errors from the subscription, any errors that occur in this handler are caught\n   * and send to the `destination` error handler.\n   * @param onComplete Handles completion notification from the subscription. Any errors that occur in\n   * this handler are sent to the `destination` error handler.\n   * @param onFinalize Additional finalization logic here. This will only be called on finalization if the\n   * subscriber itself is not already closed. This is called after all other finalization logic is executed.\n   * @param shouldUnsubscribe An optional check to see if an unsubscribe call should truly unsubscribe.\n   * NOTE: This currently **ONLY** exists to support the strange behavior of {@link groupBy}, where unsubscription\n   * to the resulting observable does not actually disconnect from the source if there are active subscriptions\n   * to any grouped observable. (DO NOT EXPOSE OR USE EXTERNALLY!!!)"
+    ],
+    "functions": [
+        "createOperatorSubscriber",
+        "unsubscribe"
+    ],
+    "classes": [
+        "OperatorSubscriber"
+    ]
+}

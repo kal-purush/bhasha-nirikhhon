@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "path",
+        "__dirname",
+        "require",
+        "require",
+        "Webpack",
+        "webpackConfig",
+        "compiler",
+        "bundleStart",
+        "compiler",
+        "bundleStart",
+        "WebpackDevServer",
+        "compiler",
+        "bundler",
+        "webPackPort"
+    ],
+    "literals": [
+        "'./../webpack.config.js'",
+        "'path'",
+        "'fs'",
+        "'..'",
+        "'app'",
+        "'main.js'",
+        "'webpack'",
+        "'webpack-dev-server'",
+        "'compile'",
+        "'Bundling...'",
+        "'done'",
+        "'Bundled in '",
+        "'ms!'",
+        "'/build/'",
+        "'localhost'",
+        "'Bundling project, please wait...'"
+    ],
+    "variables": [
+        "webpackConfig",
+        "path",
+        "fs",
+        "mainPath",
+        "webPackPort",
+        "Webpack",
+        "WebpackDevServer",
+        "bundleStart",
+        "compiler",
+        "bundler"
+    ],
+    "comments": [
+        "First we fire up Webpack an pass in the configuration we",
+        "created",
+        "We give notice in the terminal when it starts bundling and",
+        "set the time it started",
+        "We also give notice when it is done compiling, including the",
+        "time it took. Nice to have",
+        "We need to tell Webpack to serve our bundled application",
+        "from the build path. When proxying:",
+        "http://localhost:3000/build -> http://localhost:8080/build",
+        "Configure hot replacement",
+        "The rest is terminal configurations",
+        "We fire up the development server and give notice in the terminal",
+        "that we are starting the initial bundle"
+    ],
+    "docstrings": [],
+    "functions": [
+        "bundle"
+    ],
+    "classes": []
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "engine",
+        "repo_org",
+        "repo_name",
+        "sys",
+        "pandas",
+        "pd",
+        "repo_name",
+        "repo_org",
+        "pd",
+        "read_sql_query",
+        "get_id_query",
+        "con",
+        "engine",
+        "sys",
+        "exit",
+        "len",
+        "repo_id_df",
+        "repo_id_df",
+        "repo_id",
+        "sys",
+        "exit",
+        "repo_id"
+    ],
+    "literals": [
+        "f\"\"\"\n            SELECT\n                repo.repo_id\n            FROM\n                repo, repo_groups\n            WHERE\n                repo.repo_group_id = repo_groups.repo_group_id\n                AND LOWER(repo.repo_name) = LOWER('{repo_name}')\n                AND LOWER(repo_groups.rg_name) = LOWER('{repo_org}');\n            \"\"\"",
+        "\"Missing or invalid GitHub organization and repository name combination.\"",
+        "\"Missing or invalid GitHub organization and repository name combination.\""
+    ],
+    "variables": [
+        "get_id_query",
+        "repo_id_df",
+        "repo_id"
+    ],
+    "comments": [
+        "quit()"
+    ],
+    "docstrings": [
+        "\"\"\"Retrieves the Augur repo_id (unique key) for a GitHub org/repo combination.\n\n    Parameters\n    ----------\n    engine : sqlalchemy database object\n    repo_org : str\n    repo_name : str\n\n    Returns\n    -------\n    repo_id : str\n    \"\"\""
+    ],
+    "functions": [
+        "get_repo_info"
+    ],
+    "classes": []
+}

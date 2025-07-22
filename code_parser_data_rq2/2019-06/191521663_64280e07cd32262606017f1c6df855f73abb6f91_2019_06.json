@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "beforeEach",
+        "Application",
+        "electronPath",
+        "path",
+        "__dirname",
+        "browser",
+        "browser",
+        "afterEach"
+    ],
+    "literals": [
+        "'spectron'",
+        "'electron'",
+        "'path'",
+        "'..'",
+        "'script'"
+    ],
+    "variables": [
+        "Application",
+        "electronPath",
+        "path",
+        "browser"
+    ],
+    "comments": [
+        "Require Electron from the binaries included in node_modules.",
+        "Your electron path can be any binary",
+        "i.e for OSX an example path could be '/Applications/MyApp.app/Contents/MacOS/MyApp'",
+        "But for the sake of the example we fetch it from our node_modules.",
+        "Assuming you have the following directory structure",
+        "|__ my project",
+        "|__ ...",
+        "|__ main.js",
+        "|__ package.json",
+        "|__ index.html",
+        "|__ ...",
+        "|__ test",
+        "|__ spec.js  <- You are here! ~ Well you should be.",
+        "The following line tells spectron to look and use the main.js file",
+        "and the package.json located 1 level above."
+    ],
+    "docstrings": [],
+    "functions": [
+        "setup"
+    ],
+    "classes": []
+}

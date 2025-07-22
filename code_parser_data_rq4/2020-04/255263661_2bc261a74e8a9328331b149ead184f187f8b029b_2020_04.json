@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "BaseContext",
+        "getRepository",
+        "authorize",
+        "Get",
+        "Post",
+        "PostEntity",
+        "Category",
+        "authorize",
+        "Get",
+        "ctx",
+        "getRepository",
+        "Category",
+        "cateRepository",
+        "ctx",
+        "data",
+        "user",
+        "data",
+        "ctx",
+        "authorize",
+        "Post",
+        "ctx",
+        "getRepository",
+        "Category",
+        "ctx",
+        "cateRepository",
+        "cateToSaved",
+        "ctx",
+        "err",
+        "err",
+        "ctx"
+    ],
+    "literals": [
+        "\"koa\"",
+        "\"typeorm\"",
+        "\"../../../middleware/authorize\"",
+        "\"../../../middleware/request\"",
+        "\"../../../utils/exception\"",
+        "\"../../post/entity/post\"",
+        "\"../entity/category\"",
+        "\"/category\"",
+        "\"头条\"",
+        "\"关注\"",
+        "\"/category\"",
+        "\"栏目添加成功\"",
+        "\"栏目添加失败，请检查参数\""
+    ],
+    "variables": [
+        "cateRepository",
+        "data",
+        "user",
+        "cateRepository",
+        "cateToSaved"
+    ],
+    "comments": [
+        "const postRepository = getRepository(PostEntity);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "findCategories",
+        "createCategory"
+    ],
+    "classes": [
+        "CategoryController"
+    ]
+}

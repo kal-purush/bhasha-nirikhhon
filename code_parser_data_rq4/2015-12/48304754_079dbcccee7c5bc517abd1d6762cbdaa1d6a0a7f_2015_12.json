@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "vscode",
+        "vscode",
+        "vscode",
+        "i",
+        "textEditors",
+        "i",
+        "textEditors",
+        "i",
+        "vscode",
+        "textEditor",
+        "vscode",
+        "textEditor",
+        "vscode",
+        "textEditor",
+        "lastDocument",
+        "textEditor",
+        "context",
+        "vscode",
+        "smartFileReoppener",
+        "SmartFileReoppener",
+        "smartFileReoppener"
+    ],
+    "literals": [
+        "'vscode'"
+    ],
+    "variables": [
+        "textEditors",
+        "i",
+        "lastDocument",
+        "smartFileReoppener"
+    ],
+    "comments": [
+        "List of viewed documents",
+        "When openning a file and closing it, we do not want that file oppened again... so jump first in this case..."
+    ],
+    "docstrings": [
+        "* Controls the behaviour of remembering the order of viewed files.",
+        "* Receive the event of openning or closing files...\n\t * Process according to the desired behaviour.\n\t * @param textEditor null When closing an editor, otherwise has the TextEditor with the document that was oppened."
+    ],
+    "functions": [
+        "onTextEditorChange",
+        "activate",
+        "deactivate"
+    ],
+    "classes": [
+        "SmartFileReoppener"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "GraphQLClient",
+        "gql",
+        "process",
+        "process",
+        "req",
+        "res",
+        "GraphQLClient",
+        "graphqlAPI",
+        "graphcmsToken",
+        "gql",
+        "graphQLClient",
+        "query",
+        "req",
+        "res",
+        "result",
+        "error",
+        "error",
+        "res",
+        "error"
+    ],
+    "literals": [
+        "'graphql-request'",
+        "Bearer ${graphcmsToken}",
+        "mutation CreateComment($name: String!, $email: String!, $comment: String!, $slug: String!) {\n    createComment(data: { name: $name, email: $email, comment: $comment, post: { connect: { slug: $slug }}}) { id }\n    }"
+    ],
+    "variables": [
+        "graphqlAPI",
+        "graphcmsToken",
+        "graphQLClient",
+        "query",
+        "result"
+    ],
+    "comments": [
+        "const {name, email, slug, comment} = req.body;"
+    ],
+    "docstrings": [
+        "**************************************************************\n * Any file inside the folder pages/api is mapped to /api/* and *\n * will be treated as an API endpoint instead of a page.        *\n * ************************************************************"
+    ],
+    "functions": [
+        "comments"
+    ],
+    "classes": []
+}

@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "db",
+        "db",
+        "proffyValue",
+        "proffyValue",
+        "proffyValue",
+        "proffyValue",
+        "insertedProffy",
+        "db",
+        "classValue",
+        "classValue",
+        "proffy_id",
+        "insertedClass",
+        "classScheduleValues",
+        "schedule",
+        "db",
+        "class_id",
+        "schedule",
+        "schedule",
+        "schedule",
+        "insertedAllClassScheduleValues"
+    ],
+    "literals": [
+        "insert into proffys (\n            name, \n            avatar, \n            whatsapp, \n            bio\n        ) values (\n            \"${proffyValue.name}\", \n            \"${proffyValue.avatar}\", \n            \"${proffyValue.whatsapp}\", \n            \"${proffyValue.bio}\"\n        );",
+        "insert into classes (\n                subject,\n                cost,\n                proffy_id\n            ) values (\n                \"${classValue.subject}\", \n                \"${classValue.cost}\", \n                \"${proffy_id}\"\n            );",
+        "insert into classes_schedule (\n            class_id,\n            weekday,\n            time_from,\n            time_to\n        ) values (\n            \"${class_id}\",\n            \"${schedule.weekday}\",\n            \"${schedule.time_from}\",\n            \"${schedule.time_to}\"\n        );"
+    ],
+    "variables": [
+        "insertedProffy",
+        "proffy_id",
+        "insertedClass",
+        "class_id",
+        "insertedAllClassScheduleValues"
+    ],
+    "comments": [
+        "inserir dados na tabela de proffys",
+        "inserir dados na tabela classes",
+        "Inserir dados na tabela class_schedule",
+        "Rodar todos os db.run() da class_schedules",
+        "Espera achar tudo"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

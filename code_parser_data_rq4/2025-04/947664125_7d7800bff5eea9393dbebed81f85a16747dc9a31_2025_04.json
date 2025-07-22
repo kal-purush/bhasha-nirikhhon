@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "ClientInstance",
+        "IAgentRuntime",
+        "elizaLogger",
+        "TwitterService",
+        "_runtime",
+        "elizaLogger",
+        "elizaLogger",
+        "runtime",
+        "TestTwitterClient",
+        "runtime",
+        "client",
+        "client"
+    ],
+    "literals": [
+        "'@elizaos/core'",
+        "'../../bork-protocol/services/twitter/twitter-service'",
+        "'[TestTwitterClient] Starting test Twitter client'",
+        "'[TestTwitterClient] Stopping test Twitter client'"
+    ],
+    "variables": [
+        "client"
+    ],
+    "comments": [
+        "Create a minimal TwitterService with just the methods we need for tests"
+    ],
+    "docstrings": [],
+    "functions": [
+        "start",
+        "stop",
+        "startTestTwitterClient"
+    ],
+    "classes": [
+        "TestTwitterClient"
+    ]
+}

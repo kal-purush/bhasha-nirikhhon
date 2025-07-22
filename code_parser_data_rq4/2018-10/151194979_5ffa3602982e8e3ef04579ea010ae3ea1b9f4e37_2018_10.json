@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "graph",
+        "start",
+        "start",
+        "explored",
+        "add",
+        "start",
+        "stack",
+        "stack",
+        "pop",
+        "w",
+        "graph",
+        "v",
+        "w",
+        "explored",
+        "explored",
+        "add",
+        "w",
+        "stack",
+        "append",
+        "w",
+        "explored",
+        "dfs",
+        "G"
+    ],
+    "literals": [
+        "'A'",
+        "'B'",
+        "'C'",
+        "'B'",
+        "'A'",
+        "'D'",
+        "'E'",
+        "'C'",
+        "'A'",
+        "'F'",
+        "'D'",
+        "'B'",
+        "'E'",
+        "'B'",
+        "'F'",
+        "'F'",
+        "'C'",
+        "'E'",
+        "'A'"
+    ],
+    "variables": [
+        "explored",
+        "stack",
+        "v",
+        "G"
+    ],
+    "comments": [
+        "the only difference from BFS is to pop last element here instead of first one"
+    ],
+    "docstrings": [
+        "\"\"\"pseudo-code\"\"\"",
+        "\"\"\"\nDFS(graph G, start vertex s):\n// all nodes initially unexplored\nmark s as explored\nfor every edge (s, v):\n    if v unexplored:\n        DFS(G, v)\n\"\"\"",
+        "\"\"\"The DFS function simply calls itself recursively for every unvisited child of its argument. We can emulate that\n     behaviour precisely using a stack of iterators. Instead of recursively calling with a node, we'll push an iterator\n      to the node's children onto the iterator stack. When the iterator at the top of the stack terminates, we'll pop\n       it off the stack.\"\"\""
+    ],
+    "functions": [
+        "dfs"
+    ],
+    "classes": []
+}

@@ -1,0 +1,25 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "pluginTester",
+        "plugin"
+    ],
+    "literals": [
+        "'babel-plugin-tester'",
+        "'../index'",
+        "'sitrep'",
+        "'should not add console logs'",
+        "function bar () {\n          var a = 'foo'\n          const b = 'bar'\n          let c = [a, b].map(x => x.charAt(0))\n          console.log('h')\n          return c.join('-')\n        }",
+        "'should add console logs'",
+        "// sitrep\n        function bar () {\n          var a = 'foo'\n          const b = 'bar'\n          let c = [a, b].map(x => x.charAt(0))\n          console.log('h')\n          return c.join('-')\n        }"
+    ],
+    "variables": [
+        "pluginTester",
+        "plugin"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

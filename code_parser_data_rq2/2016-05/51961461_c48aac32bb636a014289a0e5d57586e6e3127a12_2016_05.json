@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "Http",
+        "Headers",
+        "RequestOptions",
+        "Plate",
+        "Component",
+        "Input",
+        "Input",
+        "http",
+        "dateString",
+        "dateString",
+        "err",
+        "err",
+        "Headers",
+        "RequestOptions",
+        "headers",
+        "body",
+        "options",
+        "res",
+        "res",
+        "_",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/http'",
+        "'./plate'",
+        "'white-plate-editer'",
+        ".padding-5{ padding: 5px;}",
+        "<div>\n    <span>Description</span><span><input type=\"text\" class=\"padding-5\" [(ngModel)]=\"whitePlate.description\"></span>\n    <span>Plate number</span><span><input type=\"text\" class=\"padding-5\" [(ngModel)]=\"whitePlate.plate\"></span>\n    <span (click)=\"updatePlate()\" class=\"btn\">Update</span>\n    <span (click)=\"cancel()\" class=\"btn\">Cancel</span>\n  </div>",
+        "' '",
+        "''",
+        "'There was an error: '",
+        "'Content-Type'",
+        "'application/json'",
+        "'/api/whitelist/'"
+    ],
+    "variables": [
+        "body",
+        "headers",
+        "options"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "printDate",
+        "logError",
+        "updatePlate",
+        "cancel"
+    ],
+    "classes": [
+        "WhitePlateEditer"
+    ]
+}

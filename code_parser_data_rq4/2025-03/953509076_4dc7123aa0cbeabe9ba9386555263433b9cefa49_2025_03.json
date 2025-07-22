@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Category",
+        "CategoryType",
+        "FaqResponse",
+        "SubCategoryType",
+        "process",
+        "API_BASE_URL",
+        "category",
+        "fetch",
+        "API_BASE_URL",
+        "category",
+        "response",
+        "response",
+        "category",
+        "subCategory",
+        "offset",
+        "limit",
+        "query",
+        "URLSearchParams",
+        "category",
+        "subCategory",
+        "offset",
+        "limit",
+        "query",
+        "queryParams",
+        "query",
+        "fetch",
+        "API_BASE_URL",
+        "queryParams",
+        "response",
+        "response"
+    ],
+    "literals": [
+        "'@/types'",
+        "'http://127.0.0.1:3000'",
+        "${API_BASE_URL}/api/faq/category?tab=${category}",
+        "'카테고리를 불러오는데 실패했습니다.'",
+        "'ALL'",
+        "string",
+        "'query'",
+        "${API_BASE_URL}/api/faq?${queryParams.toString()}",
+        "'FAQ를 불러오는데 실패했습니다.'"
+    ],
+    "variables": [
+        "API_BASE_URL",
+        "response",
+        "queryParams",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* 카테고리별 FAQ 카테고리 목록을 가져옵니다.\n * @param category 'CONSULT' 또는 'USAGE' 카테고리\n * @returns 카테고리 목록",
+        "* FAQ 목록을 가져옵니다.\n * @param category 메인 카테고리 (CONSULT/USAGE)\n * @param subCategory 서브 카테고리\n * @param offset 페이지네이션 오프셋\n * @param limit 한 페이지당 항목 수\n * @param query 검색어 (선택사항)\n * @returns FAQ 응답 데이터"
+    ],
+    "functions": [
+        "fetchCategories",
+        "fetchFaqs"
+    ],
+    "classes": []
+}

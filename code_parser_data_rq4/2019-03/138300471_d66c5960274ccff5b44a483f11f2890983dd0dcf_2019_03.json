@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "resource",
+        "Resource",
+        "Resource",
+        "logical_id",
+        "value",
+        "logical_id",
+        "value",
+        "get_policies",
+        "value",
+        "get",
+        "get",
+        "get_managed_policy_arns",
+        "value",
+        "get",
+        "get",
+        "set_generic_keys",
+        "value",
+        "get",
+        "set_properties",
+        "value",
+        "get"
+    ],
+    "literals": [
+        "\"Properties\"",
+        "\"Policies\"",
+        "\"Properties\"",
+        "\"ManagedPolicyArns\"",
+        "\"Properties\"",
+        "\"Policies\"",
+        "\"ManagedPolicyArns\"",
+        "\"Properties\""
+    ],
+    "variables": [
+        "user_name",
+        "path",
+        "policies",
+        "policies",
+        "managed_policy_arns"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nCopyright 2018 Skyscanner Ltd\n\nLicensed under the Apache License, Version 2.0 (the \"License\"); you may not use\nthis file except in compliance with the License.\nYou may obtain a copy of the License at\n\nhttp://www.apache.org/licenses/LICENSE-2.0\n\nUnless required by applicable law or agreed to in writing, software distributed\nunder the License is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR\nCONDITIONS OF ANY KIND, either express or implied. See the License for the\nspecific language governing permissions and limitations under the License.\n\"\"\"",
+        "\"\"\"\n        \"UserName\": String,\n        \"ManagedPolicyArns\": [ String, ... ],\n        \"Path\": String,\n        \"Policies\": [ Policies, ... ]\n        \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "IAMUser"
+    ]
+}

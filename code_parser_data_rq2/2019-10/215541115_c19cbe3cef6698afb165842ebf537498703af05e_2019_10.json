@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "args",
+        "sb",
+        "sb",
+        "sb",
+        "reverse",
+        "sb",
+        "s",
+        "sb",
+        "toString",
+        "s",
+        "s",
+        "toUpperCase",
+        "s"
+    ],
+    "literals": [
+        "\"abcdefgh\""
+    ],
+    "variables": [],
+    "comments": [
+        "StringBuffer sb=new StringBuffer(\"abcdefgh\");",
+        "sb.append(\"XYZ\");",
+        "sb.insert(0, \"XYZ\");",
+        "sb.replace(1, 4, \"XYZ\");",
+        "sb.setLength(12);",
+        "sb.setCharAt(3, 'Z');",
+        "sb.deleteCharAt(3);",
+        "sb.delete(1, 5);"
+    ],
+    "docstrings": [
+        "StringBuffer(String)\n    ------------------------\n\n    append  //adding at the end\n    insert  //adding new contents on desired position\n    replace //replaces a range of chars with new contents\n    setLength   //will change the length of StringBuffer\n    setCharAt   //sets the new char on given index\n    deleteCharAt  //  deletes the char on given index\n    delete      //deletes a range\n    reverse     //reverse the order of charaters\n    toString    //convert a StringBuffer to String"
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "StringBufferExample"
+    ]
+}

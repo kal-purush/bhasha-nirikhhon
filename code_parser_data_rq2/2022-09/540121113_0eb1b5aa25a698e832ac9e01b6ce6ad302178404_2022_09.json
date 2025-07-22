@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "menu_text",
+        "input",
+        "choice",
+        "display_all_records",
+        "choice",
+        "add_new_record",
+        "choice",
+        "edit_existing_record",
+        "choice",
+        "delete_record",
+        "choice",
+        "main"
+    ],
+    "literals": [
+        "'Enter your choice: '",
+        "'1'",
+        "'2'",
+        "'3'",
+        "'4'",
+        "'5'",
+        "'Not a valid selection, please try again'",
+        "'todo display all records'",
+        "'todo add new record. What if user wants to add a record that already exists?'",
+        "'todo edit existing record. What if user wants to edit record that does not exist?'",
+        "'todo delete existing record. What if user wants to delete record that does not exist?'",
+        "'__main__'"
+    ],
+    "variables": [
+        "menu_text",
+        "choice"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nA menu - you need to add the database and fill in the functions. \n\"\"\"",
+        "\"\"\"\n    1. Display all records\n    2. Add new record\n    3. Edit existing record\n    4. Delete record \n    5. Quit\n    \"\"\""
+    ],
+    "functions": [
+        "main",
+        "display_all_records",
+        "add_new_record",
+        "edit_existing_record",
+        "delete_record"
+    ],
+    "classes": []
+}

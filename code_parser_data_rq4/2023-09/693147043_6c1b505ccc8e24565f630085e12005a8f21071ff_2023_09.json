@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "os",
+        "sys",
+        "argparse",
+        "exec_path",
+        "os",
+        "getcwd",
+        "os",
+        "system",
+        "os",
+        "getcwd",
+        "l_path_append",
+        "exec_path",
+        "status",
+        "exec_path",
+        "sys",
+        "exit",
+        "status",
+        "argparse",
+        "ArgumentParser",
+        "description",
+        "parser",
+        "add_argument",
+        "l_def",
+        "help",
+        "l_def",
+        "parser",
+        "parse_args",
+        "os",
+        "path",
+        "isfile",
+        "args",
+        "exec_path",
+        "args",
+        "exec_path",
+        "sys",
+        "exit",
+        "launch_with_path",
+        "args",
+        "exec_path",
+        "main"
+    ],
+    "literals": [
+        "\"/godot_proj/bin/gen/\"",
+        "f\"export GODOT_GEN_BIN_DIR={os.getcwd()}/godot_proj/bin/gen && export PATH=$PATH:{l_path_append} && {exec_path} godot_proj/project.godot\"",
+        "f\"Error launching executable with command:\\n{exec_path}\\n\"",
+        "\"Launch an executable with an updated PATH variable.\"",
+        "\"/root/Godot_v4.1.1-stable_linux.x86_64\"",
+        "\"--exec-path\"",
+        "f\"Path to the executable to launch. (default: {l_def})\"",
+        "f\"Error: The specified executable '{args.exec_path}' does not exist.\"",
+        "\"__main__\""
+    ],
+    "variables": [
+        "l_path_append",
+        "status",
+        "parser",
+        "l_def",
+        "args"
+    ],
+    "comments": [
+        "Append the specified path to the current PATH variable",
+        "Launch the executable",
+        "Exit with the same status as the executable and print if some error occurred based on status"
+    ],
+    "docstrings": [],
+    "functions": [
+        "launch_with_path",
+        "main"
+    ],
+    "classes": []
+}

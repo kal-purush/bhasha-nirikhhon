@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "nombre",
+        "correo",
+        "nombre_usuario",
+        "contrasenia",
+        "nombre",
+        "len",
+        "nombre",
+        "correo",
+        "len",
+        "correo",
+        "nombre_usuario",
+        "len",
+        "nombre_usuario",
+        "contrasenia",
+        "len",
+        "contrasenia"
+    ],
+    "literals": [
+        "''",
+        "'mensaje'",
+        "'El campo nombre no puede estar vacio o tener menos de 3 caracteres.'",
+        "''",
+        "'mensaje'",
+        "'El campo correo no puede estar vacio.'",
+        "''",
+        "'mensaje'",
+        "'El campo nombre de usuario no puede estar vacio.'",
+        "''",
+        "'mensaje'",
+        "'El campo contrasenia no puede estar vacio.'",
+        "'mensaje'",
+        "'No hay errores de longitud'"
+    ],
+    "variables": [],
+    "comments": [
+        "Funciones que permiten realizar validaciones"
+    ],
+    "docstrings": [],
+    "functions": [
+        "validar_longitud_datos_registro",
+        "validar_correo",
+        "validar_nombre_usuario_en_db",
+        "validar_corre_en_db"
+    ],
+    "classes": []
+}

@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Component",
+        "Component",
+        "HEROES"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "string",
+        "'my-app'",
+        "<h1>{{title}}</h1>\n\t\t\t<h2>My Heroes</h2>\n\t\t\t<ul class=\"heroes\">\n\t\t\t  <li *ngFor=\"#hero of heroes\">\n\t\t\t    <span class=\"badge\">{{hero.id}}</span> {{hero.name}}\n\t\t\t  </li>\n\t\t\t</ul>\n\n  \t\t<h2>{{hero.name}} details!</h2>\n  \t\t<div><label>id: </label>{{hero.id}}</div>\n  \t\t<div>\n  \t\t\t<label>name: </label>\n  \t\t\t<div><input [(ngModel)]=\"hero.name\" placeholder=\"name\"></div>\n  \t\t</div>",
+        ".selected {\n\t\t\t    background-color: #CFD8DC !important;\n\t\t\t    color: white;\n\t\t\t  }\n\t\t\t  .heroes {\n\t\t\t    margin: 0 0 2em 0;\n\t\t\t    list-style-type: none;\n\t\t\t    padding: 0;\n\t\t\t    width: 10em;\n\t\t\t  }\n\t\t\t  .heroes li {\n\t\t\t    cursor: pointer;\n\t\t\t    position: relative;\n\t\t\t    left: 0;\n\t\t\t    background-color: #EEE;\n\t\t\t    margin: .5em;\n\t\t\t    padding: .3em 0em;\n\t\t\t    height: 1.6em;\n\t\t\t    border-radius: 4px;\n\t\t\t  }\n\t\t\t  .heroes li.selected:hover {\n\t\t\t    color: white;\n\t\t\t  }\n\t\t\t  .heroes li:hover {\n\t\t\t    color: #607D8B;\n\t\t\t    background-color: #EEE;\n\t\t\t    left: .1em;\n\t\t\t  }\n\t\t\t  .heroes .text {\n\t\t\t    position: relative;\n\t\t\t    top: -3px;\n\t\t\t  }\n\t\t\t  .heroes .badge {\n\t\t\t    display: inline-block;\n\t\t\t    font-size: small;\n\t\t\t    color: white;\n\t\t\t    padding: 0.8em 0.7em 0em 0.7em;\n\t\t\t    background-color: #607D8B;\n\t\t\t    line-height: 1em;\n\t\t\t    position: relative;\n\t\t\t    left: -1px;\n\t\t\t    top: -4px;\n\t\t\t    height: 1.8em;\n\t\t\t    margin-right: .8em;\n\t\t\t    border-radius: 4px 0px 0px 4px;\n\t\t\t  }",
+        "'Tour of heroes'",
+        "'Windstorm'",
+        "\"id\"",
+        "\"name\"",
+        "\"Mr. Nice\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Narco\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Bombasto\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Celeritas\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Magneta\"",
+        "\"id\"",
+        "\"name\"",
+        "\"RubberMan\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Dynama\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Dr IQ\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Magma\"",
+        "\"id\"",
+        "\"name\"",
+        "\"Tornado\""
+    ],
+    "variables": [
+        "HEROES"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "AppComponent"
+    ]
+}

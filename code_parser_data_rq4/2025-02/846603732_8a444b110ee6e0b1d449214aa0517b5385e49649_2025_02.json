@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "CustomFormProps",
+        "theme",
+        "maxWidth",
+        "maxWidth",
+        "theme",
+        "styled",
+        "theme",
+        "styled",
+        "theme"
+    ],
+    "literals": [
+        "'@emotion/styled'",
+        "string",
+        "width: 100%;\n  margin: 0 auto;\n  padding: 32px;\n  border-radius: 8px;\n  border: 1px solid ${({ theme }) => theme.colors.lightBorder};\n\n  max-width: ${({ maxWidth }) => (maxWidth ? maxWidth : '1000px')};\n  @media ${({ theme }) => theme.media.middle} {\n    margin: 0 auto;\n  }",
+        "'1000px'",
+        "padding: 32px;\n  border-radius: 8px;\n  border: 1px solid ${({ theme }) => theme.colors.lightBorder};\n  margin-bottom: 24px;",
+        "display: grid;\n  grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));\n  column-gap: 2%;\n  align-items: baseline;\n  row-gap: 16px;\n\n  @media ${({ theme }) => theme.media.preSmall} {\n    display: flex;\n    flex-direction: column;\n    align-items: normal;\n    row-gap: 10px;\n  }"
+    ],
+    "variables": [
+        "CustomForm",
+        "StyledFomContainer",
+        "StyledFieldsWrapper"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

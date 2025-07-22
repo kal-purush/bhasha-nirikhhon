@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "value",
+        "value"
+    ],
+    "literals": [
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Decorator to denote a controller methods parameter\n *  as being injected instead of being parsed from\n *  the request.\n * To inject a parameter in your controller use a custom\n *  template.\n * Injected parameters do not show up in your swagger file.",
+        "* Decorator to mark a controller methods parameter to\n *  be the express request object. This parameter is\n *  injected automatically by the express template into\n *  your controller.\n * Request parameters do not show up in your swagger file."
+    ],
+    "functions": [
+        "Inject",
+        "Request"
+    ],
+    "classes": []
+}

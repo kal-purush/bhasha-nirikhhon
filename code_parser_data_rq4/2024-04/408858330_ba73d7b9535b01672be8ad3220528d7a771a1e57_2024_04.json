@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "AI",
+        "closeMainWindow",
+        "LaunchProps",
+        "showToast",
+        "Toast",
+        "createNote",
+        "showFailureToast",
+        "props",
+        "Arguments",
+        "closeMainWindow",
+        "showToast",
+        "Toast",
+        "props",
+        "props",
+        "props",
+        "AI",
+        "text",
+        "instructions",
+        "instructions",
+        "createNote",
+        "result",
+        "error",
+        "showFailureToast",
+        "error"
+    ],
+    "literals": [
+        "\"@raycast/api\"",
+        "\"./api\"",
+        "\"@raycast/utils\"",
+        "\"Creating a note\"",
+        "Write a note based on this text: ${text}. \n      \nFollow these instructions:\n- The result should be formatted as HTML wrapped in a <div> tag.\n- The note should be clear and concise.\n- The title should be short and descriptive and wrapped in an <h1> tag.\n- Don't directly address the reader. Write the note from an objective point of view.\n- Use the same language as the original text.\n${instructions ? `- ${instructions}` : \"\"}",
+        "- ${instructions}",
+        "\"\"",
+        "\"gpt-4\"",
+        "\"Could not create a new note.\""
+    ],
+    "variables": [
+        "text",
+        "instructions",
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

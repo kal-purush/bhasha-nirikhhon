@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "DevHomeAzureExtension",
+        "DevBox",
+        "Helpers"
+    ],
+    "literals": [],
+    "variables": [
+        "AbilitiesAsAdmin",
+        "AbilitiesAsDeveloper"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft Corporation.",
+        "Licensed under the MIT License.",
+        "Example of a task JSON response that will be deserialized into the BaseClass class",
+        "{",
+        "\"abilitiesAsAdmin\": [],",
+        "\"abilitiesAsDeveloper\": [",
+        "\"ReadDevBoxes\",",
+        "\"WriteDevBoxes\",",
+        "...",
+        "]",
+        "}",
+        "",
+        "Represents the class for the abilities JSON response.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "AbilitiesJSONToCSClasses",
+        "BaseClass"
+    ]
+}

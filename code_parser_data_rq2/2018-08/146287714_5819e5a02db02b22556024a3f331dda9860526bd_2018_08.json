@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "len",
+        "cars",
+        "x"
+    ],
+    "literals": [
+        "\"Ford\"",
+        "\"Volvo\"",
+        "\"BMW\""
+    ],
+    "variables": [
+        "cars",
+        "x"
+    ],
+    "comments": [
+        "This is a comment.",
+        "Arrays https://www.w3schools.com/python/python_arrays.asp"
+    ],
+    "docstrings": [
+        "\"\"\"This is a\nmultiline docstring.\"\"\"",
+        "\"\"\"\n\nprint(\"Hello, World!\")\nif 5 > 2:\n    print(\"Five is greater than two!\")\n\nx = 5\ny = \"John\"\nprint(x)\nprint(y)\n\nx = 4 # x is of type int\nx = \"Sally\" # x is now of type str\nprint(x)\n\nx = (\"awesome\")\nprint(\"Python is \" + x)\nprint (\"Python is %s.\" % x)\nprint (\"Python is\", x)\n\nx = \"Python is \"\ny = \"awesome\"\nz =  x + y\nprint(z)\n\nx = 1\ny = 35656222554887711\nz = -3255522\n\nprint(type(x))\nprint(type(y))\nprint(type(z))\n\nx = 1.10\ny = 1.0\nz = -35.59\n\nprint(type(x))\nprint(type(y))\nprint(type(z))\n\nx = 3+5j\ny = 5j\nz = -5j\n\nprint(type(x))\nprint(type(y))\nprint(type(z))\n\n\nx = str(\"s1\")\ny = int(2)\nz = float(3.0)\nprint(x)\nprint(y)\nprint(z)\n\nprint(\"Enter your name:\")\nx = input()\nprint(\"Hello, \" + x)\na = \"Hello, World!\"\nprint(a[1])\nprint(a[2:5])\nprint(len(a))\nprint(a.lower())\nprint(a.replace(\"H\", \"J\"))\nprint(a.split(\",\"))\n#A list is a collection which is ordered and changeable. In Python lists are written with square brackets.\nthislist = [\"apple\", \"banana\", \"cherry\"]\nthislist[1] = \"blackcurrant\"\nprint(thislist)\n#A tuple is a collection which is ordered and unchangeable. In Python tuples are written with round brackets.\nthistuple = (\"apple\", \"banana\", \"cherry\")\n# thistuple[1] = \"blackcurrant\" Error\nprint(thistuple)\n#A set is a collection which is unordered and unindexed. In Python sets are written with curly brackets.\nthisset = {\"apple\", \"banana\", \"cherry\"}\nprint(thisset)\n#A dictionary is a collection which is unordered, changeable and indexed. In Python dictionaries are written with curly brackets, and they have keys and values.\nthisdict = {\n  \"apple\": \"green\",\n  \"banana\": \"yellow\",\n  \"cherry\": \"red\"\n}\nprint(thisdict)\nthisdict[\"apple\"] = \"red\"\nprint(thisdict)\n\nthisdict = dict(apple=\"green\", banana=\"yellow\", cherry=\"red\")\n# note that keywords are not string literals\n# note the use of equals rather than colon for the assignment\nprint(thisdict)\n\na = 200\nb = 33\nc = 10\nif b > a:\n  print(\"b is greater than a\")\nelif a == b:\n  print(\"a and b are equal\")\nelse:\n  print(\"a is greater than b\")\nif a > b and c > a:\n    print(\"Both conditions are True\")\nif a > b or a > c:\n  print(\"At least one of the conditions are True\")\n\ni = 1\nwhile i < 6:\n  print(i)\n  if i == 3:\n    break\n  i += 1\n\nfruits = [\"apple\", \"banana\", \"cherry\"]\nfor x in fruits:\n  if x == \"banana\":\n    continue\n  print(x)\n\nfor x in range(6):\n  print(x)\n#Increment the sequence with 3 (default is 2):\nfor x in range(1, 30, 3):\n  print(x)\n\ndef tri_recursion(k):\n  if(k>0):\n    result = k+tri_recursion(k-1)\n    print(result)\n  else:\n    result = 0\n  return result\nprint(\"\\n\\nRecursion Example Results\")\ntri_recursion(6)\n\ndef my_function():\n  print(\"Hello from a function\")\nmy_function()\ndef my_function(x):\n  return 5 * x\nprint(my_function(3))\nx = lambda a : a + 10\nprint(x(5))\nx = lambda a, b, c : a + b + c\nprint(x(5, 6, 2))\n\"\"\"",
+        "\"\"\"\nhttps://www.w3schools.com/python/python_classes.asp\nhttps://www.w3schools.com/python/python_iterators.asp\nhttps://www.w3schools.com/python/python_modules.asp\nhttps://www.w3schools.com/python/python_datetime.asp\nhttps://www.w3schools.com/python/python_json.asp\nhttps://www.w3schools.com/python/python_pip.asp\nhttps://www.w3schools.com/python/python_try_except.asp\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

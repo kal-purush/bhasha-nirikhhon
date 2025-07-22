@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "require",
+        "buildSW",
+        "workboxBuild",
+        "warnings",
+        "count",
+        "size",
+        "buildSW"
+    ],
+    "literals": [
+        "'workbox-build'",
+        "'src/sw-template.js'",
+        "'build/sw.js'",
+        "'build'",
+        "'**\\/*.{js,css,html,png}'",
+        "string",
+        "${count} files will be precached, totaling ${size} bytes."
+    ],
+    "variables": [
+        "workboxBuild",
+        "buildSW"
+    ],
+    "comments": [
+        "@ts-ignore",
+        "NOTE: This should be run *AFTER* all your assets are built",
+        "This will return a Promise",
+        "this is your sw template file",
+        "this will be created in the build step",
+        "Optionally, log any warnings and details."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

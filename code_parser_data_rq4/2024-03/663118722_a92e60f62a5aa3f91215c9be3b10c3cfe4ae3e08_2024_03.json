@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "numba",
+        "cuda",
+        "pynvjitlink",
+        "patch",
+        "numpy",
+        "np",
+        "patch",
+        "patch_numba_linker",
+        "cuda",
+        "CUSource",
+        "cuda",
+        "declare_device",
+        "cuda",
+        "jit",
+        "link",
+        "source",
+        "result",
+        "a",
+        "b",
+        "cu_add",
+        "a",
+        "b",
+        "np",
+        "zeros",
+        "dtype",
+        "np",
+        "uint32",
+        "kernel",
+        "result",
+        "a",
+        "b",
+        "a",
+        "b",
+        "result"
+    ],
+    "literals": [
+        "\"cu_add\"",
+        "\"uint32(uint32, uint32)\"",
+        "f\"According to a CUDA kernel, {a} + {b} = {result[0]}\""
+    ],
+    "variables": [
+        "source",
+        "cu_add",
+        "result",
+        "a",
+        "b",
+        "result"
+    ],
+    "comments": [
+        "Copyright (c) 2024, NVIDIA CORPORATION.",
+        "Demonstrates the use of a CUSource object to link code to a @cuda.jit",
+        "function where the linked source is supplied as a string in memory, rather",
+        "than on-disk. The CUSource object is passed in the `link` list, just as paths",
+        "to files are passed when linking source files from disk.",
+        "",
+        "In addition to CUSource files, PTXSource objects can be used to link PTX from",
+        "memory (not shown in this example)."
+    ],
+    "docstrings": [
+        "\"\"\"\ntypedef unsigned int uint32_t;\n\nextern \"C\" __device__ int cu_add(uint32_t* result, uint32_t a, uint32_t b)\n{\n    *result = a + b;\n    return 0;\n}\n\"\"\""
+    ],
+    "functions": [
+        "kernel"
+    ],
+    "classes": []
+}

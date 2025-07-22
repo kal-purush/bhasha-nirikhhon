@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "Component",
+        "NgModule",
+        "Component",
+        "NgModule",
+        "Cmp"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "<ng-content select=\"[id=toMainBefore]\"></ng-content>\n    <ng-template>\n      <ng-content select=\"[id=toTemplate]\"></ng-content>\n      <ng-template>\n        <ng-content select=\"[id=toNestedTemplate]\"></ng-content>\n      </ng-template>\n    </ng-template>\n    <ng-template>\n      '*' selector in a template: <ng-content></ng-content>\n    </ng-template>\n    <ng-content select=\"[id=toMainAfter]\"></ng-content>"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Cmp",
+        "Module"
+    ]
+}

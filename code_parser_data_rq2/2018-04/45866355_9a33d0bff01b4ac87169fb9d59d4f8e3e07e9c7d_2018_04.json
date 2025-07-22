@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "rest_framework",
+        "decorators",
+        "list_route",
+        "rest_framework",
+        "response",
+        "Response",
+        "list_route",
+        "methods",
+        "request",
+        "filter_queryset",
+        "get_queryset",
+        "paginate_queryset",
+        "queryset",
+        "page",
+        "get_detail_serializer",
+        "page",
+        "many",
+        "get_paginated_response",
+        "serializer",
+        "data",
+        "get_detail_serializer",
+        "queryset",
+        "many",
+        "Response",
+        "serializer",
+        "data",
+        "args",
+        "kwargs",
+        "get_detail_serializer_class",
+        "get_serializer_context",
+        "serializer_class",
+        "args",
+        "kwargs",
+        "detail_serializer_class",
+        "__class__",
+        "detail_serializer_class"
+    ],
+    "literals": [
+        "'get'",
+        "'context'",
+        "\"'%s' should either include a `detail_serializer_class` attribute, \"",
+        "\"or override the `get_detail_serializer_class()` method.\""
+    ],
+    "variables": [
+        "detail_serializer_class",
+        "queryset",
+        "page",
+        "serializer",
+        "serializer",
+        "serializer_class",
+        "kwargs"
+    ],
+    "comments": [
+        "pylint: disable=not-callable",
+        "pylint: disable=unused-argument"
+    ],
+    "docstrings": [
+        "\"\"\"\nMixins for the API application.\n\"\"\"",
+        "\"\"\"Mixin for adding in a detail endpoint using a special detail serializer.\"\"\"",
+        "\"\"\"\n        List detailed results.\n        ---\n        parameters:\n            - name: q\n              description: Search text\n              paramType: query\n              type: string\n              required: false\n        \"\"\"",
+        "\"\"\"\n        Return the serializer instance that should be used for validating and\n        deserializing input, and for serializing output.\n        \"\"\"",
+        "\"\"\"\n        Return the class to use for the serializer.\n        Defaults to using `self.detail_serializer_class`.\n        \"\"\""
+    ],
+    "functions": [
+        "details",
+        "get_detail_serializer",
+        "get_detail_serializer_class"
+    ],
+    "classes": [
+        "DetailMixin"
+    ]
+}

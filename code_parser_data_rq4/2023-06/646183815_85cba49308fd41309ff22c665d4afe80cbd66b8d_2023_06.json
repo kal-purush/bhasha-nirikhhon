@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "process",
+        "socket",
+        "server",
+        "require",
+        "server",
+        "FRONTEND_URL",
+        "io",
+        "socket",
+        "socket",
+        "data",
+        "data",
+        "io",
+        "data",
+        "socket"
+    ],
+    "literals": [
+        "\"https://place-app.netlify.app/\"",
+        "'socket.io'",
+        "'connect'",
+        "'Se ha conectado un usuario'",
+        "'chat_message'",
+        "\"este es el mensaje que te viene del chat\"",
+        "'chat_message'"
+    ],
+    "variables": [
+        "FRONTEND_URL",
+        "socket",
+        "io"
+    ],
+    "comments": [
+        "socket.on('disconnect', function () {",
+        "console.log(`A user disconnected)`);",
+        "});",
+        "socket.on('connect_error', function (error) {",
+        "console.log('Socket connection error:', error);",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

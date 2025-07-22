@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "React",
+        "connect",
+        "useSelector",
+        "withRouter",
+        "Link",
+        "MovieDetail",
+        "useSelector",
+        "state",
+        "state",
+        "movieList",
+        "item",
+        "item",
+        "location",
+        "selectedMovie",
+        "selectedMovie",
+        "Link",
+        "Link",
+        "div",
+        "h5",
+        "selectedMovie",
+        "h5",
+        "img",
+        "selectedMovie",
+        "p",
+        "selectedMovie",
+        "p",
+        "div",
+        "withRouter",
+        "MovieDetail"
+    ],
+    "literals": [
+        "'react'",
+        "'react-redux'",
+        "\"react-router-dom\"",
+        "\"/\""
+    ],
+    "variables": [
+        "MovieDetail",
+        "movieList",
+        "selectedMovie"
+    ],
+    "comments": [
+        "const mapStateToProps =state =>{\n    return{\n        movieList:state.app.movies\n    }\n}",
+        "export default withRouter(connect(mapStateToProps)(MovieDetail));"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

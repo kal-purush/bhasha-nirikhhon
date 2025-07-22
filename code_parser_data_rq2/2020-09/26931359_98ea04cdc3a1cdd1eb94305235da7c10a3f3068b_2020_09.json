@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Binding",
+        "Expr",
+        "InitSignal",
+        "NewSignal",
+        "param",
+        "rest",
+        "bind",
+        "expr",
+        "rest",
+        "expr",
+        "signals",
+        "signal",
+        "rest",
+        "expr",
+        "expr",
+        "bind",
+        "signals",
+        "signal",
+        "signals"
+    ],
+    "literals": [
+        "'vega-typings/types'",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "signals",
+        "param",
+        "signal",
+        "signal"
+    ],
+    "comments": [
+        "Vega's InitSignal -- apply expr to \"init\""
+    ],
+    "docstrings": [
+        "* Required. A unique name for the parameter. Parameter names should be valid JavaScript identifiers: they should contain only alphanumeric characters (or “$”, or “_”) and may not start with a digit. Reserved keywords that may not be used as parameter names are \"datum\", \"event\", \"item\", and \"parent\".",
+        "* A text description of the parameter, useful for inline documentation.",
+        "* The initial value of the parameter.\n   *\n   * __Default value:__ `undefined`",
+        "* An expression for the value of the parameter. This expression may include other parameters, in which case the parameter will automatically update in response to upstream parameter changes.",
+        "* Binds the parameter to an external input element such as a slider, selection list or radio button group."
+    ],
+    "functions": [
+        "assembleParameterSignals"
+    ],
+    "classes": []
+}

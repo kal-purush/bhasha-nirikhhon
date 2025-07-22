@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "key"
+    ],
+    "literals": [
+        "\"texture\"",
+        "\"model\"",
+        "string",
+        "\"sprite\"",
+        "\"sound\"",
+        "string",
+        "\"texture\"",
+        "\"texture\"",
+        "\"texture\"",
+        "\"texture\"",
+        "\"texture\"",
+        "\"texture\"",
+        "\"texture\"",
+        "\"texture\"",
+        "\"texture\"",
+        "\"texture\""
+    ],
+    "variables": [
+        "POKEMON_GENDER_DIFFERENCES"
+    ],
+    "comments": [
+        "/**",
+        "venusaur: [\"model\"],",
+        "/**",
+        "butterfree: [\"texture\"],",
+        "/**",
+        "rattata: [\"model\"],",
+        "raticate: [\"model\"],",
+        "/**",
+        "zubat: [\"model\"],",
+        "golbat: [\"model\"],",
+        "/**",
+        "gloom: [\"texture\"],",
+        "/**",
+        "vileplume: [\"texture\"],"
+    ],
+    "docstrings": [
+        "* A array of differences in a pokemon's display that need to be taken account for generation.\n * This is only relevant for pokemon that don't have a diffrent identifier in-game. For example\n * this would apply to venusaur, but not to Meowstic as it has a `pokemon:mewosticf` type too.\n *\n * The differences are:\n * - texture: The texture of the pokemon is different.\n *      @example: Butterfree has a different texture in which\n *               the Female has black (purple in Generation V) spots on her lower wings.\n *      File Names (in `./textures/entity/pokemon/pokemon_name/`):\n *          - `male_{pokemonId}.png`\n *          - `female_{pokemonId}.png`\n *          - `shiny_male_{pokemonId}.png`\n *          - `shiny_female_{pokemonId}.png`\n *      Note: If a pokemon has a model difference, a texture difference is inherited. Also\n *            if the pokemon has any skins, the skin must have a variant too for genders.\n *            For Example: `male_{pokemonId}_{skinId}.png`\n *  - model: The model of the pokemon is different.\n *      @example: Venusaur has a different model in which the\n *                Female's flower has a visible gynoecium (seed-producing organ).\n *      File Names (in `./models/pokemon/`):\n *         - `male_{pokemonId}.geo.json`\n *         - `female_{pokemonId}.geo.json`\n * - sprite: The sprite of the pokemon is different. Important for pokemon without models.\n *           Usually any pokemon with model difference or texture difference, should have this too,\n *           but it's not always the case that the change is noticeable in the sprite.\n *      @example: Hippopotas has a different sprite in which the Female's color pattern is inverted.\n *      File Names (in `./textures/sprites/default/`):\n *          - `male_{pokemonId}.png`\n *          - `female_{pokemonId}.png`\n * - animation_{id}: The animation `animation.{pokemonID}.{id}` for the pokemon is different for this model.\n *     @example: Female Kirlia has a different `walking` animation that is more delicate compared to males.\n *               In which `animation_walking` should be added.\n *      Animation ID Names (in `./animations/pokemon/{pokemonId}.animation.json`):\n *          - `animation.{pokemonID}.male_{id}`\n *          - `animation.{pokemonID}.female_{id}`\n * - sound: The sound of the pokemon is different. This is usually for pokemon with a cry difference.\n *     @example The male and female forms of Unfezant have noticeably different cries in the games.\n *      File Names (in `./sounds/mob/pokemon/`):\n *        - `male_{pokemonId}.ogg`\n *        - `female_{pokemonId}.ogg`",
+        "* Female's flower has a visible gynoecium",
+        "*/",
+        "* Female has black (purple in Generation V) spots on her lower wings",
+        "*/",
+        "* Female has smaller whiskers",
+        "*/",
+        "* Female has smaller fangs",
+        "*/",
+        "* Female has one large spot per petal",
+        "*/",
+        "* Female's petals have larger spots",
+        "*/",
+        "* Male has a notched dorsal fin",
+        "* Female's left ear is shorter",
+        "* Female's tail lacks a point and is smaller",
+        "* Female's tail ends in the upper half of a heart"
+    ],
+    "functions": [],
+    "classes": []
+}

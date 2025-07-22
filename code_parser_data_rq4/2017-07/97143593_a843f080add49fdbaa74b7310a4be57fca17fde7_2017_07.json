@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "IRenderMime",
+        "Widget",
+        "msa",
+        "Widget",
+        "IRenderMime",
+        "options",
+        "IRenderMime",
+        "options",
+        "msa",
+        "model",
+        "IRenderMime",
+        "model",
+        "msa",
+        "data",
+        "seqs",
+        "msg",
+        "Widget",
+        "newWidth",
+        "IRenderMime",
+        "FASTA_MIMETYPE",
+        "options",
+        "RenderedFasta",
+        "options",
+        "IRenderMime",
+        "IRenderMime",
+        "FASTA_MIMETYPE",
+        "extensions"
+    ],
+    "literals": [
+        "'@jupyterlab/rendermime-interfaces'",
+        "'@phosphor/widgets'",
+        "\"msa\"",
+        "\"msa/css/msa.css\"",
+        "\"../style/index.css\"",
+        "'application/vnd.fasta.fasta'",
+        "'jp-msa'",
+        "\"alignmentWidth\"",
+        "string",
+        "'string'",
+        "'Fasta'",
+        "'.fasta'",
+        "'.fasta'"
+    ],
+    "variables": [
+        "FASTA_MIMETYPE",
+        "data",
+        "seqs",
+        "newWidth",
+        "rendererFactory",
+        "extensions"
+    ],
+    "comments": [
+        "-----------------------------------------------------------------------------\n| Copyright (c) Jupyter Development Team.\n| Distributed under the terms of the Modified BSD License.\n|----------------------------------------------------------------------------",
+        "We're inside of a Panel, so we don't get the real width"
+    ],
+    "docstrings": [
+        "* A widget for rendering Fasta data, for usage with rendermime.",
+        "* Create a new widget for rendering Vega/Vega-Lite.",
+        "* Render Fasta into this widget's node.",
+        "* Resize handler\n   *\n   * @param msg Resize message",
+        "* Reset the msa width to the current widget width",
+        "* A mime renderer factory for Fasta data."
+    ],
+    "functions": [
+        "renderModel",
+        "onResize",
+        "_resetWidth"
+    ],
+    "classes": [
+        "RenderedFasta"
+    ]
+}

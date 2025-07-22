@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "styled",
+        "colors",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "styled",
+        "colors",
+        "colors",
+        "colors",
+        "colors",
+        "colors"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "\"../../styles/variables\"",
+        "width: 100vw;\n  height: 100vh;",
+        "width: 100%;\n  height: 100%;\n\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 0;\n\n  display: grid;\n  grid-template-columns: 1.4fr 2fr;\n  grid-template-rows: 100%;\n  align-items: center;\n  justify-items: center;\n\n  & .decal {\n    position: absolute;\n    right: 40px;\n    bottom: 40px;\n  }\n  & .illustration {\n    width: 100%;\n    max-width: 700px;\n    min-width: 400px;\n  }\n  @media (max-width: 1200px) {\n    display: none;   \n  }",
+        "width: 100%;\n  height: 100%;\n\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  padding: 1.5rem;\n\n  position: relative;\n  z-index: 10;",
+        "width: 100%;\n  max-width: 400px;\n\n  display: flex;\n  flex-direction: column;\n\n\n  & .buttonsFormWrapper{\n    display: flex;\n    flex-direction: column;\n    gap: 1rem;\n    margin-top: 2rem;\n  }\n\n  & > h2 {\n    text-align: center;\n    margin-bottom: 1.75rem;\n    font-family: 'Roboto';\n    font-style: normal;\n    font-weight: 500;\n    font-size: 1.5rem;\n    letter-spacing: 0.05em;\n  }\n\n  & .inputs {\n    display: flex;\n    flex-direction: column;\n    gap: 1rem;\n  }",
+        "background-color: ${colors.gray2};\n  border-radius: 5px;\n  padding-left: 0.75rem;\n\n  display: flex;\n  align-items: center;\n  gap: 1rem;\n\n  border: 2px solid transparent;\n  transition: all .1s ease-in;\n  margin-top: 1rem;\n\n  position: relative;\n\n  :focus-within {\n    border: 2px solid ${colors.yellow};\n  }\n  & label {\n    position: absolute;\n    top: -25px;\n    left: 0;\n    \n    font-size: 0.625rem;\n    color: ${colors.gray6}\n  }\n  & input[type=number] {\n    -moz-appearance: textfield;\n  }\n  & input {\n    width: 100%;\n    padding: 1rem 0;\n    background: transparent;\n    \n    border: none;\n    outline: none;\n\n    font-size: 1rem;\n    color: ${colors.white};\n    letter-spacing: 0.055em;\n\n    caret-color: ${colors.white};\n\n    &::-webkit-outer-spin-button,\n    ::-webkit-inner-spin-button {\n      -webkit-appearance: none;\n      margin: 0;\n    }\n\n    &::placeholder {\n      font-style: normal;\n      font-weight: 400;\n      font-size: 1rem;\n    }\n  }"
+    ],
+    "variables": [
+        "Container",
+        "Ornaments",
+        "ContainerForm",
+        "FormStyled",
+        "InputWrapperStyled"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "json",
+        "os",
+        "path",
+        "configPath",
+        "stepsStr",
+        "configPath",
+        "stepsStr",
+        "__validateConfig",
+        "os",
+        "path",
+        "exists",
+        "filePath",
+        "os",
+        "path",
+        "isfile",
+        "filePath",
+        "filePath",
+        "FileNotFoundError",
+        "open",
+        "filePath",
+        "f",
+        "json",
+        "load",
+        "f",
+        "e",
+        "e",
+        "step",
+        "steps",
+        "step",
+        "content",
+        "keys",
+        "step",
+        "ValueError",
+        "content"
+    ],
+    "literals": [
+        "f\"Please make sure you provide a valid config file and the file exists at {self.filePath}\"",
+        "f\"Error occurred while reading the config file : {str(e)}\"",
+        "f\"Expected parameters for {step}\""
+    ],
+    "variables": [
+        "filePath",
+        "steps",
+        "content",
+        "content"
+    ],
+    "comments": [
+        "check if file exists and contains valid JSON",
+        "return a dict/object of all the params read from the config"
+    ],
+    "docstrings": [],
+    "functions": [
+        "__validateConfig",
+        "readConfig"
+    ],
+    "classes": [
+        "Config"
+    ]
+}

@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "input",
+        "Beer",
+        "wall",
+        "Beer",
+        "Beer",
+        "wall",
+        "input",
+        "Beer",
+        "wall",
+        "Beer",
+        "Beer",
+        "wall",
+        "Beer",
+        "input",
+        "wall",
+        "Beer",
+        "input",
+        "Beer",
+        "input",
+        "wall",
+        "end",
+        "start",
+        "i",
+        "start",
+        "i",
+        "temp",
+        "Beer",
+        "i",
+        "i",
+        "start",
+        "temp",
+        "temp",
+        "Beer"
+    ],
+    "literals": [
+        "string",
+        "\"o more bottles \"",
+        "\"1 bottle \"",
+        "${input} bottles",
+        "string",
+        "\"of beer on the wall\"",
+        "N${Beer.pluralize(0)}${wall}, n${Beer.pluralize(0)}of beer.\nGo to the store and buy some more, ${Beer.pluralize(99)}${wall}.",
+        "${Beer.pluralize(1)}${wall}, ${Beer.pluralize(1)}of beer.\nTake it down and pass it around, n${Beer.pluralize(0)}${wall}.",
+        "${Beer.pluralize(input)}${wall}, ${Beer.pluralize(input)}of beer.\nTake one down and pass it around, ${Beer.pluralize(input - 1)}${wall}.",
+        "string",
+        "",
+        "\"\\n\""
+    ],
+    "variables": [
+        "wall",
+        "temp",
+        "i",
+        "end"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "pluralize",
+        "verse",
+        "sing"
+    ],
+    "classes": [
+        "Beer"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "Meteor",
+        "applyThemeStyles",
+        "theme",
+        "item",
+        "theme",
+        "rules",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "item",
+        "ooInjectStyle",
+        "rules",
+        "Tracker",
+        "applyThemeStyles",
+        "Session"
+    ],
+    "literals": [
+        "[btn~=\"${item.location}\"] {\n  background-color: ${item.color};\n}\n\n[btn~=\"${item.location}\"]:active:enabled {\n  box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);\n  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);\n  background: ${item.color};\n  transition-property: background;\n  transition-duration: .5s;\n}\n\n[btn~=\"${item.location}\"][btn~=\"outline\"]  {\n  background-color: inherit;\n  color: ${item.color};\n  border-color: ${item.color};\n}\n\n[btn~=\"${item.location}\"][btn~=\"outline\"]:active:enabled {\n  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.3);\n  border-color: ${item.color};\n  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.4);\n  color: ${item.color};\n}\n\n[btn~=\"${item.location}\"][btn~=\"outline\"][is-activated] {\n    background-color: ${item.color};\n    color: inherit;\n}\n\n[btn~=\"${item.location}\"][btn~=\"transparent\"] {\n  background-color: hsla(0, 0%, 0%, 0);\n  color: ${item.color};\n}\n\n[btn~=\"${item.location}\"][btn~=\"transparent\"]:active:enabled {\n  background-color: hsla(0, 0%, 0%, 0);\n  box-shadow: none;\n  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);\n  color: ${item.color};\n}\n\n[btn~=\"${item.location}\"][btn~=\"transparent\"][is-activated] {\n    background-color: ${item.color};\n    color: white;\n    cursor: default;\n}\n\n[toggle~=\"${item.location}\"] input:checked + .track {\n  border-color: ${item.color};\n  background-color: ${item.color};\n}",
+        "'buttons'",
+        "'ooTheme'"
+    ],
+    "variables": [
+        "applyThemeStyles",
+        "rules"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "require",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process",
+        "process"
+    ],
+    "literals": [
+        "\"@matterlabs/hardhat-zksync-deploy\"",
+        "\"@matterlabs/hardhat-zksync-verify\"",
+        "\"@matterlabs/hardhat-zksync-solc\"",
+        "\"@nomiclabs/hardhat-waffle\"",
+        "\"@nomiclabs/hardhat-solhint\"",
+        "\"hardhat-gas-reporter\"",
+        "'dotenv'",
+        "\"latest\"",
+        "\"binary\"",
+        "\"./zksolc-linux-amd64-musl-v1.3.5\"",
+        "\"0.8.15\"",
+        "\"./contracts\"",
+        "\"./test\"",
+        "\"./cache\"",
+        "\"./artifacts\"",
+        "'hardhat'",
+        "\"https://endpoints.omniatech.io/v1/eth/goerli/public\"",
+        "\"https://eth.llamarpc.com\"",
+        "\"goerli\"",
+        "'https://zksync2-testnet.zksync.dev'",
+        "'https://testnet-explorer.zksync.dev/contract_verification'",
+        "\"mainnet\"",
+        "'https://zksync2-mainnet.zksync.io'",
+        "'https://zksync2-mainnet-explorer.zksync.io/contract_verification'",
+        "\"https://goerli.base.org\"",
+        "\"https://alpha-rpc.scroll.io/l2\"",
+        "\"https://rpc.public.zkevm-test.net\""
+    ],
+    "variables": [],
+    "comments": [
+        "hardhat-zksync-solc",
+        "The compiler configuration for zkSync artifacts.",
+        "The compiler configuration for default artifacts.",
+        "URL of the Ethereum Web3 RPC, or the identifier of the network (e.g. `mainnet` or `goerli`)",
+        "URL of the zkSync network RPC",
+        "Verification endpoint for Goerli"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "SerializeField",
+        "Tooltip",
+        "SerializeField",
+        "Tooltip",
+        "SerializeField",
+        "Tooltip",
+        "SerializeField",
+        "Tooltip",
+        "isChippingRandom",
+        "durabilityCount",
+        "RandomizeDurability",
+        "UpdateKnifeVisibility",
+        "Random",
+        "Range",
+        "durabilityCount",
+        "durabilityCount",
+        "durabilityCount",
+        "UpdateKnifeVisibility",
+        "regularKnife",
+        "SetActive",
+        "durabilityCount",
+        "chippedKnife",
+        "SetActive",
+        "durabilityCount"
+    ],
+    "literals": [
+        "\"Place the component matching the regular fish knife blade\"",
+        "\"Place the component matching the chipped fish knife blade\"",
+        "\"Enable random count to chip knife instead of a set count\"",
+        "\"Number of cuts before a knife gets chipped\""
+    ],
+    "variables": [
+        "GameObject",
+        "regularKnife",
+        "GameObject",
+        "chippedKnife",
+        "isChippingRandom",
+        "durabilityCount"
+    ],
+    "comments": [
+        "Reference to the regular knife GameObject",
+        "Reference to the chipped knife GameObject",
+        "range for the amounts cuts to chip the knife",
+        "Method to decrement durabilityCount"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "RandomizeDurability",
+        "DecrementDurabilityCount",
+        "UpdateKnifeVisibility"
+    ],
+    "classes": [
+        "KnifeState"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "isEqualWith",
+        "React",
+        "useEffect",
+        "useRef",
+        "value",
+        "useRef",
+        "isEqualWith",
+        "value",
+        "a",
+        "b",
+        "a",
+        "b",
+        "a",
+        "b",
+        "value",
+        "effect",
+        "React",
+        "deps",
+        "useEffect",
+        "effect",
+        "useDeepCompareMemoize",
+        "deps"
+    ],
+    "literals": [
+        "\"lodash/isEqualWith\"",
+        "\"react\"",
+        "\"function\"",
+        "\"function\""
+    ],
+    "variables": [],
+    "comments": [
+        "Deal with the function comparison case",
+        "Fallback on the method"
+    ],
+    "docstrings": [
+        "* Accepts a function that contains imperative, possibly effectful code.\n *\n * This is the deepCompare version of the `React.useEffect` hooks (that is shallowed compare)\n *\n * @param effect Imperative function that can return a cleanup function\n * @param deps If present, effect will only activate if the values in the list change.\n *\n * @see https://gist.github.com/kentcdodds/fb8540a05c43faf636dd68647747b074#gistcomment-2830503"
+    ],
+    "functions": [
+        "useDeepCompareMemoize",
+        "useDeepCompareEffect"
+    ],
+    "classes": []
+}

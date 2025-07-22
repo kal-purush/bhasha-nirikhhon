@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "user",
+        "token",
+        "user",
+        "token",
+        "user",
+        "token",
+        "token",
+        "session",
+        "token",
+        "session",
+        "token",
+        "session",
+        "auth",
+        "request",
+        "request",
+        "request",
+        "isOnAdminPanel",
+        "user",
+        "isOnBlogPage",
+        "user",
+        "isOnLoginPage",
+        "user",
+        "Response",
+        "URL",
+        "request"
+    ],
+    "literals": [
+        "'/login'",
+        "'/admin'",
+        "'/blog'",
+        "'/login'",
+        "\"/\""
+    ],
+    "variables": [
+        "authConfig",
+        "user",
+        "isOnAdminPanel",
+        "isOnBlogPage",
+        "isOnLoginPage"
+    ],
+    "comments": [
+        "ONLY ADMIN CAN ACCESS ADMIN PANEL",
+        "ONLY AUTHENTICATED USERS CAN ACCESS BLOG PAGE",
+        "ONLY UNAUTHENTICATED USERS CAN ACCESS LOGIN PAGE"
+    ],
+    "docstrings": [],
+    "functions": [
+        "jwt",
+        "session",
+        "authorized"
+    ],
+    "classes": []
+}

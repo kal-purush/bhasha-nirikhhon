@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Q18",
+        "java",
+        "io",
+        "MAX_PRIME",
+        "args",
+        "args",
+        "length",
+        "exit",
+        "filename",
+        "args",
+        "writer",
+        "filename",
+        "writePrime",
+        "writer",
+        "writer",
+        "close",
+        "e",
+        "e",
+        "writer",
+        "prime",
+        "MAX_PRIME",
+        "n",
+        "n",
+        "MAX_PRIME",
+        "n",
+        "prime",
+        "n",
+        "prime",
+        "prime",
+        "n",
+        "n",
+        "MAX_PRIME",
+        "n",
+        "prime",
+        "n",
+        "writer",
+        "n",
+        "i",
+        "i",
+        "n",
+        "MAX_PRIME",
+        "i",
+        "prime",
+        "i",
+        "n"
+    ],
+    "literals": [
+        "\"使用法 : java Prime1 作成ファイル\"",
+        "\"例 : java Prime1 prime.txt\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Java言語 プログラミングレッスン 下\n * p258 問題18-3\n * \n * List18-9は、ファイルの名前を指定すると、そのファイルに\n * 1000より小さい素数の表を書き出すプログラムですが、まだ作りかけです。\n *   java Prime1 prime.txt\n * のように実行すると、prime.txtの内容はFig18-15のようになる予定です。\n * このプログラムを完成させてください。 \n * \n * List18-19\n * public class Prime1 {\n *   public static void main (String[] args) {\n *     if (args.length != 1) {\n *       System.out.println(\"使用法 : java Prime1 作成ファイル\");\n *       System.out.println(\"例 : java Prime1 prime.txt\");\n *       System.exit(0);\n *     }\n *    \n *     String filename = args[0];\n *     PrintWriter writer = new PrintWriter(new BufferedWriter(new FileWriter(filename)));\n *     writePrime(writer);\n *     writer.close();\n *   }\n *   \n *   public static void writePrime(PrintWriter writer) {\n *     boolean[] prime = new boolean[MAX_PRIME];\n *     \n *     for (int n = 0; n < MAX_PRIME; n++) {\n *       prime[n] = true;\n *     }\n *     \n *     prime[0] = false;\n *     prime[1] = false;\n *     \n *     for (int n = 0; n < MAX_PRIME; n++)  {\n *       if(prime[n]) {\n *         //ここでnを出力する\n *         \n *         for(int i = 2; i * n < MAX_PRIME; i++) {\n *           prime[i * n] = false;\n *         }\n *       }\n *     }\n *   }\n * }\n * \n * Fig18-15 (実行結果)\n * \n * 2\n * 3\n * 5\n * 7\n * ・・・(中略)・・・\n * 977\n * 983\n * 991\n * 997\n *"
+    ],
+    "functions": [
+        "main",
+        "writePrime"
+    ],
+    "classes": [
+        "Prime1"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "createTheme",
+        "RepoInfo",
+        "SiteConfig",
+        "info",
+        "siteConfig",
+        "siteConfig",
+        "siteConfig",
+        "info",
+        "info",
+        "info",
+        "info",
+        "siteConfig",
+        "siteConfig",
+        "siteConfig",
+        "siteConfig",
+        "siteConfig",
+        "siteConfig",
+        "siteConfig",
+        "createTheme",
+        "options"
+    ],
+    "literals": [
+        "'@viewdoc/tiny.css'",
+        "'../doc'",
+        "'./site-config'",
+        "${info.owner}/${info.repo}${info.description ? `: ${info.description}` : ''}",
+        ": ${info.description}",
+        "''",
+        "'light'"
+    ],
+    "variables": [
+        "options"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getTitle",
+        "getTheme"
+    ],
+    "classes": [
+        "SiteConfigResolver"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "github",
+        "context",
+        "core",
+        "github",
+        "process",
+        "context",
+        "context",
+        "process",
+        "core",
+        "response",
+        "error",
+        "core",
+        "error"
+    ],
+    "literals": [
+        "'upload_url'"
+    ],
+    "variables": [
+        "response"
+    ],
+    "comments": [
+        "Uses Github's API to create the release and wait for result.",
+        "We use a JS script since github CLI doesn't provide a way to wait for the release's creation and returns immediately."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

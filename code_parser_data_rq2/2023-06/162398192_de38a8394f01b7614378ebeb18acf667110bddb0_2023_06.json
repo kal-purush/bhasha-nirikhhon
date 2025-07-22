@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "SharpFuzz",
+        "Options",
+        "EnableOnBranchCallback",
+        "GetValue",
+        "PrintInstrumentedTypes",
+        "GetValue",
+        "InstrumentMixedModeAssemblies",
+        "GetValue",
+        "flag",
+        "Environment",
+        "GetEnvironmentVariable",
+        "flag"
+    ],
+    "literals": [
+        "\"SHARPFUZZ_ENABLE_ON_BRANCH_CALLBACK\"",
+        "\"SHARPFUZZ_PRINT_INSTRUMENTED_TYPES\"",
+        "\"SHARPFUZZ_INSTRUMENT_MIXED_MODE_ASSEMBLIES\""
+    ],
+    "variables": [
+        "Options",
+        "Value",
+        "EnableOnBranchCallback",
+        "PrintInstrumentedTypes",
+        "InstrumentMixedModeAssemblies"
+    ],
+    "comments": [
+        "Experimental options for controlling the instrumentation behavior.",
+        "</summary>",
+        "Values of all experimental instrumentation flags.",
+        "</summary>",
+        "Enable calling user-specified callback at",
+        "every instrumented branch. Example usage:",
+        "",
+        "SharpFuzz.Common.Trace.OnBranch = (branchId, functionName) => {",
+        "do whatever you want here",
+        "};",
+        "</summary>",
+        "Print the list of all instrumented types to standard console output.",
+        "</summary>",
+        "Enable instrumenting mixed-mode assemblies (supported only on Windows).",
+        "Used to instrument .NET Core system libraries.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Options",
+        "GetValue"
+    ],
+    "classes": [
+        "Options"
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "org",
+        "bluedb",
+        "disk",
+        "org",
+        "bluedb",
+        "api",
+        "CloseableIterator",
+        "inputIterator",
+        "inputIterator",
+        "outputClassType",
+        "inputIterator",
+        "outputClassType",
+        "inputIterator",
+        "inputIterator",
+        "inputIterator",
+        "mapper",
+        "inputIterator",
+        "mapper",
+        "inputIterator",
+        "inputIterator",
+        "inputIterator",
+        "flatMapper",
+        "inputIterator",
+        "flatMapper",
+        "inputIterator",
+        "inputIterator",
+        "Override",
+        "inputIterator",
+        "keepAlive",
+        "Override",
+        "inputIterator",
+        "close",
+        "Override",
+        "addFilter",
+        "Override",
+        "validator",
+        "addValidator",
+        "validator"
+    ],
+    "literals": [],
+    "variables": [
+        "inputIterator"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This class allows you to wrap a closeable iterator of one type to provide mappings,\n * flat mappings, filters, validations, etc. that can be applied while iterating\n * over the contents.\n * @param <I> The data type being iterated over by the wrapped iterator (Input).\n * @param <O> The data type being iterated over (Output)."
+    ],
+    "functions": [
+        "CloseableIteratorWrapper",
+        "CloseableIteratorWrapper",
+        "CloseableIteratorWrapper",
+        "keepAlive",
+        "close",
+        "addFilter",
+        "addValidator"
+    ],
+    "classes": [
+        "CloseableIteratorWrapper"
+    ]
+}

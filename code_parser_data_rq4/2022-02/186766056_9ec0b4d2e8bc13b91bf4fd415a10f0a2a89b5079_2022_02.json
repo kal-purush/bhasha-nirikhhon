@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "com",
+        "sun",
+        "javatest",
+        "util",
+        "java",
+        "util",
+        "Comparator",
+        "java",
+        "util",
+        "java",
+        "util",
+        "TreeMap",
+        "durationSeconds",
+        "durationSeconds",
+        "result",
+        "remaining_seconds",
+        "durationSeconds",
+        "units",
+        "Comparator",
+        "reverseOrder",
+        "put",
+        "put",
+        "put",
+        "put",
+        "entry",
+        "units",
+        "entrySet",
+        "amount",
+        "remaining_seconds",
+        "entry",
+        "getKey",
+        "amount",
+        "remaining_seconds",
+        "remaining_seconds",
+        "entry",
+        "getKey",
+        "result",
+        "amount",
+        "entry",
+        "getValue",
+        "amount",
+        "result",
+        "result",
+        "trim"
+    ],
+    "literals": [
+        "\"0 seconds\"",
+        "\"\"",
+        "\"second\"",
+        "\"minute\"",
+        "\"hour\"",
+        "\"day\"",
+        "\" \"",
+        "\" \"",
+        "\"s\""
+    ],
+    "variables": [],
+    "comments": [
+        "have to map duration to names to have durations sorted (TreeMap maintains order for keys)"
+    ],
+    "docstrings": [
+        "* $Id$\n *\n * Copyright (c) 1996, 2022, Oracle and/or its affiliates. All rights reserved.\n * DO NOT ALTER OR REMOVE COPYRIGHT NOTICES OR THIS FILE HEADER.\n *\n * This code is free software; you can redistribute it and/or modify it\n * under the terms of the GNU General Public License version 2 only, as\n * published by the Free Software Foundation.  Oracle designates this\n * particular file as subject to the \"Classpath\" exception as provided\n * by Oracle in the LICENSE file that accompanied this code.\n *\n * This code is distributed in the hope that it will be useful, but WITHOUT\n * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or\n * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License\n * version 2 for more details (a copy is included in the LICENSE file that\n * accompanied this code).\n *\n * You should have received a copy of the GNU General Public License version\n * 2 along with this work; if not, write to the Free Software Foundation,\n * Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA.\n *\n * Please contact Oracle, 500 Oracle Parkway, Redwood Shores, CA 94065 USA\n * or visit www.oracle.com if you need additional information or have any\n * questions.",
+        "* Helper methods related to data formatting.",
+        "* Converts the given duration in seconds to a more readable string representation:\n     * for example \"2 days 1 minute 4 seconds\".\n     * This method doesn't generates weeks, months or years, only days\n     * which is expected to be sufficient for printing total time taken by even a long test run.\n     *\n     * @param durationSeconds the seconds to convert to human-readable form\n     * @return formatted representation, i.e. \"1 hour 53 seconds\""
+    ],
+    "functions": [
+        "formattedDuration"
+    ],
+    "classes": [
+        "FormattingUtils"
+    ]
+}

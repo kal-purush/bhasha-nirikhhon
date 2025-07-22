@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "Meal",
+        "Component",
+        "EventEmitter",
+        "userName",
+        "userDescription",
+        "userCalories",
+        "userName",
+        "userDescription",
+        "userCalories",
+        "mealArray",
+        "userName",
+        "userDescription",
+        "userCalories"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./meal.model'",
+        "'new-keg'",
+        "'onSubmitNewMeal'",
+        "<div class=\"meal-form\">\n      <h3>Create Meal:</h3>\n      <input placeholder=\"Name\" class=\"col-sm-8 input-lg\" #newName>\n      <input placeholder=\"Description\" class=\"col-sm-8 input-lg\" #newDescription>\n      <input placeholder=\"Calories\" class=\"col-sm-8 input-lg\" #newCalories>\n      <button (click)=\"addMeal(newName, newDescription, newCalories)\"\n    </div>",
+        "\"\"",
+        "\"\"",
+        "\"\""
+    ],
+    "variables": [
+        "mealArray"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "addMeal"
+    ],
+    "classes": [
+        "NewMealComponent"
+    ]
+}

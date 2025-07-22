@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Ploeh",
+        "AutoFixture",
+        "Kernel",
+        "IRequestSpecification",
+        "request",
+        "request",
+        "Type",
+        "IsGenericType",
+        "SortedDictionary",
+        "GetGenericTypeDefinition"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Encapsulates logic that determines whether a request is a request for a",
+        "<see cref=\"SortedDictionary{TKey, TValue}\"/>.",
+        "</summary>",
+        "Evaluates a request for a specimen to determine whether it's a request for a",
+        "<see cref=\"SortedDictionary{TKey, TValue}\"/>.",
+        "</summary>",
+        "<param name=\"request\">The specimen request.</param>",
+        "<returns>",
+        "<see langword=\"true\"/> if <paramref name=\"request\"/> is a request for a",
+        "<see cref=\"SortedDictionary{TKey, TValue}\" />; otherwise, <see langword=\"false\"/>.",
+        "</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "IsSatisfiedBy"
+    ],
+    "classes": [
+        "SortedDictionarySpecification"
+    ]
+}

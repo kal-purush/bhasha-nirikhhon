@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "z",
+        "getClient",
+        "getClient",
+        "z",
+        "z",
+        "z",
+        "z",
+        "z",
+        "z",
+        "z",
+        "z",
+        "z",
+        "z",
+        "z",
+        "ProjectsListSchema",
+        "projects"
+    ],
+    "literals": [
+        "\"zod\"",
+        "\"~/services/sanity/client\"",
+        "*[_type == \"project\"] {\n\t\t\t_id,\n\t\t\ttitle,\n\t\t\tdescription,\n\t\t\tlinks,\n\t\t\t\"image\": image.asset->url,\n\t\t\tcreatedAt\n\t\t}",
+        "\"github\"",
+        "\"web\""
+    ],
+    "variables": [
+        "projects",
+        "ProjectsListSchema"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getProjectsUserCase"
+    ],
+    "classes": []
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpClient",
+        "Observable",
+        "Injectable",
+        "http",
+        "turmaId",
+        "disciplinaId",
+        "professorId",
+        "horarioId",
+        "alunoId",
+        "data",
+        "status",
+        "turmaId",
+        "disciplinaId",
+        "professorId",
+        "horarioId",
+        "alunoId",
+        "data",
+        "status",
+        "registro"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common/http'",
+        "'rxjs/Observable'",
+        "'http://localhost:3000'",
+        "'/turmas'",
+        "'/disciplinas'",
+        "'/professors'",
+        "'/horarios'",
+        "'/alunos'",
+        "'/frequencias?_expand='",
+        "'aluno&_expand=professor&_expand=turma&_expand=disciplina&_expand=horario&_sort=turmaId,alunoId'",
+        "string",
+        "string",
+        "'/frequencias'"
+    ],
+    "variables": [
+        "registro"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "turmas",
+        "disciplinas",
+        "professores",
+        "horarios",
+        "alunos",
+        "frequencias",
+        "cadastrarFrequencia"
+    ],
+    "classes": [
+        "ApiService"
+    ]
+}

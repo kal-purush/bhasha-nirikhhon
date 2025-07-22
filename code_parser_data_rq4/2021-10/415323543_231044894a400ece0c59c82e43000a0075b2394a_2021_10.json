@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "ActivatedRouteSnapshot",
+        "CanActivate",
+        "CanActivateChild",
+        "Router",
+        "RouterStateSnapshot",
+        "UrlTree",
+        "Injectable",
+        "Observable",
+        "Injectable",
+        "router",
+        "next",
+        "state",
+        "route",
+        "state",
+        "route",
+        "state"
+    ],
+    "literals": [
+        "'@angular/router'",
+        "'@angular/core'",
+        "'rxjs'",
+        "'root'",
+        "'You are logged in'"
+    ],
+    "variables": [],
+    "comments": [
+        "this.router.navigate(['**'])",
+        "this.router.navigate(['/singin'], { queryParams: { returnUrl: state.url } });"
+    ],
+    "docstrings": [],
+    "functions": [
+        "canActivate",
+        "canActivateChild"
+    ],
+    "classes": [
+        "AuthGuard"
+    ]
+}

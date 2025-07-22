@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "path",
+        "uuid",
+        "Logger",
+        "AnalyticsInterface",
+        "ConditionalRequire",
+        "require",
+        "path",
+        "ConditionalRequire",
+        "path",
+        "require",
+        "ua",
+        "userId",
+        "Logger",
+        "userId",
+        "userId",
+        "userId",
+        "uuid",
+        "userId",
+        "jsonObject",
+        "userId",
+        "fileContent",
+        "jsonObject",
+        "category",
+        "action",
+        "label",
+        "value",
+        "category",
+        "action",
+        "label",
+        "value"
+    ],
+    "literals": [
+        "'path'",
+        "'uuid/v4'",
+        "'../log/logger'",
+        "'./analytics-interface'",
+        "'../require/conditional-require'",
+        "'fs'",
+        "'userData'",
+        "'analytics'",
+        "'user-id.json'",
+        "'UA-143091961-1'",
+        "'universal-analytics'",
+        "'universal-analytics'",
+        "Initialized Google Analytics with user ID \"${userId}\"",
+        "string",
+        "string",
+        "string",
+        "File for userId does not exist in ${this.filePath}",
+        "'utf8'",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "userId",
+        "ua",
+        "userId",
+        "jsonObject",
+        "fileContent",
+        "jsonObject"
+    ],
+    "comments": [
+        "TODO: Add \"Prod\" or \"Dev\" prefix to category."
+    ],
+    "docstrings": [],
+    "functions": [
+        "getUserId",
+        "readUserIdFromFile",
+        "writeJsonFile",
+        "trackEvent"
+    ],
+    "classes": [
+        "AnalyticsMain"
+    ]
+}

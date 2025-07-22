@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "Knock",
+        "AuthCheckInput",
+        "GetSlackChannelsInput",
+        "PaginatedSlackChannelResponse",
+        "RevokeAccessTokenInput",
+        "obj",
+        "obj",
+        "key",
+        "obj",
+        "key",
+        "obj",
+        "key",
+        "obj",
+        "knock",
+        "input",
+        "input",
+        "tenant",
+        "TENANT_COLLECTION",
+        "knockChannelId",
+        "removeNullKeys",
+        "queryOptions",
+        "queryOptions",
+        "queryOptions",
+        "queryOptions",
+        "queryOptions",
+        "knockChannelId",
+        "data",
+        "tenant",
+        "TENANT_COLLECTION",
+        "knockChannelId",
+        "knockChannelId",
+        "data",
+        "tenant",
+        "TENANT_COLLECTION",
+        "knockChannelId",
+        "knockChannelId",
+        "data"
+    ],
+    "literals": [
+        "\"../../knock\"",
+        "\"./interfaces\"",
+        "\"$tenants\"",
+        "/v1/providers/slack/${knockChannelId}/channels",
+        "/v1/providers/slack/${knockChannelId}/auth_check",
+        "/v1/providers/slack/${knockChannelId}/revoke_access"
+    ],
+    "variables": [
+        "TENANT_COLLECTION",
+        "input",
+        "queryOptions"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "removeNullKeys",
+        "getChannels",
+        "authCheck",
+        "revokeAccessToken"
+    ],
+    "classes": [
+        "Slack"
+    ]
+}

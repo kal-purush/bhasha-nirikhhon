@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "monitorId",
+        "get",
+        "get",
+        "monitorId",
+        "brightness",
+        "config",
+        "monitorId",
+        "ALL_MONITORS",
+        "brightness",
+        "monitors"
+    ],
+    "literals": [
+        "'lumi'",
+        "\"ALL_MONITORS\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "ALL_MONITORS"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Attempts to get the primary monitor's brightness.",
+        "* Attempts to get a monitor's brightness by id.\n     * @param {string} monitorId\n     * @returns {Promise<GetBrightnessResult>} When success is true, brightness is a number. Otherwise, brightness is null.",
+        "* Attempts to set the primary monitor's brightness.\n     * @param brightness",
+        "* Can be used to set brightness levels for different monitors.\n     * @param config",
+        "* Attempts to set a monitor's brightness. Use ALL_MONITORS constant as the monitorId to set a global brightness level.\n     * @param monitorId\n     * @param brightness\n     * @returns {Promise<SetBrightnessResult>} When success is false, provides an error message.",
+        "* Returns an array of monitors.\n     * @returns {Array<Monitor>}"
+    ],
+    "functions": [],
+    "classes": []
+}

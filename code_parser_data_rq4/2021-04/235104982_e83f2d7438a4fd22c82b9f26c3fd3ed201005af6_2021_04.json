@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "BaseInputComponent",
+        "Observable",
+        "IngestService",
+        "AaiService",
+        "Component",
+        "BaseInputComponent",
+        "ingestService",
+        "aaiService",
+        "wranglerList",
+        "wranglerList",
+        "wranglers",
+        "wranglers",
+        "wrangler",
+        "wrangler",
+        "user",
+        "user",
+        "name",
+        "name",
+        "name",
+        "value",
+        "value",
+        "value"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../base-input/base-input.component'",
+        "'rxjs'",
+        "'rxjs/operators'",
+        "'../../../shared/services/ingest.service'",
+        "'../../../aai/aai.service'",
+        "'app-wrangler-list-input'",
+        "'./wrangler-list-input.component.html'",
+        "'./wrangler-list-input.component.css'",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "subscribe(name => this.control.setValue(name));"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "populateWranglerList",
+        "getWranglerNames",
+        "setDefaultWrangler",
+        "onValueChange"
+    ],
+    "classes": [
+        "WranglerListInputComponent"
+    ]
+}

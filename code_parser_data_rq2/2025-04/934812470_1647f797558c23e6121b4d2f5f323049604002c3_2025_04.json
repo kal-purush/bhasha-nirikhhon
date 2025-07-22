@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "Diagnostics",
+        "CodeAnalysis",
+        "Netsphere",
+        "ConnectionAndService",
+        "TService",
+        "Connection",
+        "Connection",
+        "TService",
+        "Service",
+        "TService",
+        "INetService",
+        "MemberNotNullWhen",
+        "nameof",
+        "Connection",
+        "MemberNotNullWhen",
+        "nameof",
+        "Service",
+        "Connection",
+        "Service",
+        "MemberNotNullWhen",
+        "nameof",
+        "Connection",
+        "MemberNotNullWhen",
+        "nameof",
+        "Service",
+        "Connection",
+        "Service",
+        "Connection",
+        "Dispose"
+    ],
+    "literals": [],
+    "variables": [
+        "IsValid",
+        "IsInvalid"
+    ],
+    "comments": [
+        "Copyright (c) All contributors. All rights reserved. Licensed under the MIT license.",
+        "Represents a combination of a network connection and a service, providing functionality to manage their lifecycle.",
+        "</summary>",
+        "<remarks>This structure encapsulates a <see cref=\"Connection\"/> and a <typeparamref name=\"TService\"/>",
+        "instance, allowing for easy validation and disposal of the connection.<br/>",
+        "Use the <see cref=\"IsValid\"/> property to check if both components are properly initialized, and <see cref=\"Dispose\"/> to close the connection.</remarks>",
+        "<typeparam name=\"TService\">The type of the service associated with the connection. Must implement <see cref=\"INetService\"/>.</typeparam>",
+        "<param name=\"Connection\">The network connection.</param>",
+        "<param name=\"Service\">The service instance.</param>",
+        "Gets a value indicating whether both the <see cref=\"Connection\"/> and <see cref=\"Service\"/> are valid (not null).",
+        "</summary>",
+        "<value><c>true</c> if both <see cref=\"Connection\"/> and <see cref=\"Service\"/> are not null; otherwise, <c>false</c>.</value>",
+        "Gets a value indicating whether either the <see cref=\"Connection\"/> or <see cref=\"Service\"/> is invalid (null).",
+        "</summary>",
+        "<value><c>true</c> if either <see cref=\"Connection\"/> or <see cref=\"Service\"/> is null; otherwise, <c>false</c>.</value>",
+        "Close the <see cref=\"Connection\"/> if it is not null.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Dispose"
+    ],
+    "classes": []
+}

@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "OnInit",
+        "Output",
+        "ModalLabels",
+        "Subject",
+        "FormlyFieldConfig",
+        "FormGroup",
+        "Component",
+        "Output",
+        "Subject",
+        "FormGroup"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@c8y/ngx-components'",
+        "'rxjs'",
+        "'@ngx-formly/core'",
+        "'@angular/forms'",
+        "'tedge_upload-certificate-modal'",
+        "<c8y-modal\n    title=\"Add credentials to cloud tenant\"\n    (onClose)=\"onSave()\"\n    (onDismiss)=\"onDismiss()\"\n    [labels]=\"labels\"\n    [headerClasses]=\"'modal-header dialog-header'\"\n  >\n    <div class=\"card-block\">\n      <div [formGroup]=\"credentialsFormly\">\n        <formly-form\n          [form]=\"credentialsFormly\"\n          [fields]=\"credentialsFormlyFields\"\n          [model]=\"credentials\"\n        ></formly-form>\n      </div>\n    </div>\n  </c8y-modal>",
+        "'Save'",
+        "'Dismiss'",
+        "'col-lg-12'",
+        "'username'",
+        "'input'",
+        "'c8y-form-field'",
+        "'Username'",
+        "'col-lg-12'",
+        "'password'",
+        "'input'",
+        "'c8y-form-field'",
+        "'Password'",
+        "'password'",
+        "'Dismiss'",
+        "'Save'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "onDismiss",
+        "onSave"
+    ],
+    "classes": [
+        "UploadCertificateComponent"
+    ]
+}

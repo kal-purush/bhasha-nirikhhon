@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "ranger",
+        "api",
+        "commands",
+        "Command",
+        "Command",
+        "fm",
+        "do_cut",
+        "fm",
+        "execute_console",
+        "fm",
+        "execute_console",
+        "Command",
+        "subprocess",
+        "os",
+        "path",
+        "quantifier",
+        "fm",
+        "execute_command",
+        "command",
+        "universal_newlines",
+        "stdout",
+        "subprocess",
+        "PIPE",
+        "fzf",
+        "communicate",
+        "fzf",
+        "returncode",
+        "os",
+        "path",
+        "abspath",
+        "stdout",
+        "rstrip",
+        "os",
+        "path",
+        "isdir",
+        "fzf_file",
+        "fm",
+        "cd",
+        "fzf_file",
+        "fm",
+        "select_file",
+        "fzf_file"
+    ],
+    "literals": [
+        "'shell sudo mv %c .'",
+        "'shell sudo cp -r %c .'",
+        "\"find -L . \\( -path '*/\\.*' -o -fstype 'dev' -o -fstype 'proc' \\) -prune \\\n            -o -type d -print 2> /dev/null | sed 1d | cut -b3- | fzf +m --reverse --header='Jump to file'\"",
+        "\"find -L . \\( -path '*/\\.*' -o -fstype 'dev' -o -fstype 'proc' \\) -prune \\\n            -o -print 2> /dev/null | sed 1d | cut -b3- | fzf +m --reverse --header='Jump to filemap <C-f> fzf_select'\"",
+        "'\\n'"
+    ],
+    "variables": [
+        "command",
+        "command",
+        "fzf",
+        "stdout",
+        "stderr",
+        "fzf_file"
+    ],
+    "comments": [
+        "match only directories",
+        "match files and directories"
+    ],
+    "docstrings": [
+        "\"\"\"\n    :fzf_select\n\n    Find a file using fzf.\n\n    With a prefix argument select only directories.\n\n    See: https://github.com/junegunn/fzf\n    \"\"\""
+    ],
+    "functions": [
+        "execute",
+        "execute"
+    ],
+    "classes": [
+        "paste_as_root",
+        "fzf_select"
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "ResultOf",
+        "DocumentTypeDecoration",
+        "TypedDocumentNode",
+        "FragmentDefinitionNode",
+        "Incremental",
+        "useFragment",
+        "_documentNode",
+        "fragmentType",
+        "useFragment",
+        "_documentNode",
+        "fragmentType",
+        "useFragment",
+        "_documentNode",
+        "fragmentType",
+        "useFragment",
+        "_documentNode",
+        "fragmentType",
+        "_documentNode",
+        "fragmentType",
+        "fragmentType",
+        "data",
+        "_fragment",
+        "data",
+        "queryNode",
+        "fragmentNode",
+        "data",
+        "data",
+        "fragmentNode",
+        "queryNode",
+        "deferredFields",
+        "fragmentNode",
+        "fragDef",
+        "fragName",
+        "deferredFields",
+        "fragName",
+        "fields",
+        "fields",
+        "field",
+        "data",
+        "field",
+        "data"
+    ],
+    "literals": [
+        "'@graphql-typed-document-node/core'",
+        "'graphql'",
+        "'./graphql'",
+        "' $fragmentName'",
+        "string",
+        "' $fragmentRefs'",
+        "string"
+    ],
+    "variables": [
+        "deferredFields",
+        "fragDef",
+        "fragName",
+        "fields"
+    ],
+    "comments": [
+        "return non-nullable if `fragmentType` is non-nullable",
+        "return nullable if `fragmentType` is nullable",
+        "return array of non-nullable if `fragmentType` is array of non-nullable",
+        "return array of nullable if `fragmentType` is array of nullable"
+    ],
+    "docstrings": [],
+    "functions": [
+        "useFragment",
+        "makeFragmentData",
+        "isFragmentReady"
+    ],
+    "classes": []
+}

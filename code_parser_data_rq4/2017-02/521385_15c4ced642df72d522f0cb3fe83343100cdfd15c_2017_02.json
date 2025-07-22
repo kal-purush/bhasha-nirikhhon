@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "field",
+        "field",
+        "obj",
+        "obj",
+        "obj",
+        "__dict__",
+        "field",
+        "name",
+        "obj",
+        "value",
+        "obj",
+        "__dict__",
+        "field",
+        "name",
+        "field",
+        "to_python",
+        "value"
+    ],
+    "literals": [],
+    "variables": [
+        "field"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Django 1.10 removed the SubfieldBase. We have backported the to_python\n    behaviour for <=1.9 code by copying Creator from Django's 1.8.x branch:\n      ``django.db.models.fields.subclassing``\n    \"\"\""
+    ],
+    "functions": [
+        "__get__",
+        "__set__"
+    ],
+    "classes": [
+        "Creator"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "os",
+        "django",
+        "db",
+        "migrations",
+        "django",
+        "db",
+        "utils",
+        "ProgrammingError",
+        "sql_files",
+        "file_path",
+        "sql_files",
+        "os",
+        "path",
+        "exists",
+        "file_path",
+        "FileNotFoundError",
+        "file_path",
+        "open",
+        "file_path",
+        "encoding",
+        "sql_file",
+        "sql_file",
+        "read",
+        "operations",
+        "append",
+        "migrations",
+        "RunSQL",
+        "sql",
+        "sql",
+        "reverse_sql",
+        "ProgrammingError",
+        "pe",
+        "ProgrammingError",
+        "file_path",
+        "pe",
+        "pe",
+        "e",
+        "RuntimeError",
+        "file_path",
+        "e",
+        "e",
+        "operations"
+    ],
+    "literals": [
+        "f\"SQL file not found: {file_path}\"",
+        "'r'",
+        "'utf-8'",
+        "f\"SQL syntax error in file {file_path}: {pe}\"",
+        "f\"Unexpected error in file {file_path}: {e}\""
+    ],
+    "variables": [
+        "operations",
+        "sql"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Safely create migrations.RunSQL operations from a list of SQL file paths.\n    Handles FileNotFoundError for missing files and lets ProgrammingError surface naturally.\n    \"\"\""
+    ],
+    "functions": [
+        "safe_run_sql"
+    ],
+    "classes": []
+}

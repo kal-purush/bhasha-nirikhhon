@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Component",
+        "Input",
+        "OnInit",
+        "CustomPopUpService",
+        "ProjectsService",
+        "NgbActiveModal",
+        "JudgeCalification",
+        "MatTableDataSource",
+        "Component",
+        "MatTableDataSource",
+        "Input",
+        "customPopUpService",
+        "ProjectsService",
+        "activeModal",
+        "data",
+        "MatTableDataSource",
+        "data",
+        "err",
+        "err",
+        "message",
+        "message"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'src/app/shared/services/custom-pop-up.service'",
+        "'src/app/shared/services/projects.service'",
+        "'@ng-bootstrap/ng-bootstrap'",
+        "'src/app/shared/interfaces/judge-calification'",
+        "'@angular/material/table'",
+        "'app-other-qualifications'",
+        "'./other-qualifications.component.html'",
+        "'./other-qualifications.component.css'",
+        "string",
+        "'judgeName'",
+        "'punctuation'",
+        "string",
+        "'Proyectos a calificar'",
+        "'judges/projects-list'"
+    ],
+    "variables": [],
+    "comments": [
+        "data.forEach((qualifications)  => {",
+        "this.dataSource.push({",
+        "judgeName: qualifications.judgeName,",
+        "punctuation: qualifications.punctuation",
+        "})",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "dismiss",
+        "decline",
+        "onSubmit",
+        "accept",
+        "openCustomPopUp"
+    ],
+    "classes": [
+        "OtherQualificationsComponent"
+    ]
+}

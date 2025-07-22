@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "MutableRefObject",
+        "RefObject",
+        "ariaShouldCloseOnInteractOutside",
+        "element",
+        "state",
+        "shouldFocus",
+        "element",
+        "trigger",
+        "trigger",
+        "element",
+        "shouldFocus",
+        "shouldFocus",
+        "clickOnUnderlay",
+        "state",
+        "shouldFocus",
+        "shouldFocus",
+        "clickOnUnderlay"
+    ],
+    "literals": [
+        "\"react\"",
+        "\"role\"",
+        "\"dialog\""
+    ],
+    "variables": [
+        "ariaShouldCloseOnInteractOutside",
+        "trigger",
+        "clickOnUnderlay"
+    ],
+    "comments": [
+        "check if the click is on the underlay",
+        "if interacting outside the component",
+        "blur the component (e.g. autocomplete)",
+        "if the click is not on the underlay,",
+        "trigger the state close to prevent from opening multiple popovers at the same time",
+        "e.g. open dropdown1 -> click dropdown2 (dropdown1 should be closed and dropdown2 should be open)",
+        "otherwise the component (e.g. autocomplete) should keep focused",
+        "if the click is on the underlay,",
+        "clicking the overlay should close the popover instead of closing the modal",
+        "otherwise, allow interaction with other elements"
+    ],
+    "docstrings": [
+        "* Used to handle the outside interaction for popover-based components\n * e.g. dropdown, datepicker, date-range-picker, popover, select, autocomplete etc\n * @param element - the element outside of the popover ref, originally from `shouldCloseOnInteractOutside`\n * @param ref - The popover ref object that will interact outside with\n * @param state - The popover state from the target component\n * @param shouldFocus - a mutable ref boolean object to control the focus state\n *                      (used in input-based component such as autocomplete)\n * @returns - a boolean value which is same as shouldCloseOnInteractOutside"
+    ],
+    "functions": [],
+    "classes": []
+}

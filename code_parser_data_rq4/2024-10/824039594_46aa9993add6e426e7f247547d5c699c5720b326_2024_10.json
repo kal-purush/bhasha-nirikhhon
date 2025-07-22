@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "de",
+        "muenchen",
+        "refarch",
+        "gateway",
+        "configuration",
+        "lombok",
+        "AllArgsConstructor",
+        "lombok",
+        "Getter",
+        "lombok",
+        "RequiredArgsConstructor",
+        "org",
+        "springframework",
+        "boot",
+        "context",
+        "properties",
+        "ConfigurationProperties",
+        "Getter",
+        "RequiredArgsConstructor",
+        "AllArgsConstructor",
+        "ConfigurationProperties",
+        "SuppressWarnings",
+        "clusterName",
+        "instanceName",
+        "serviceName"
+    ],
+    "literals": [
+        "\"refarch.hazelcast\"",
+        "\"PMD.ImmutableField\"",
+        "\"session_replication_group\"",
+        "\"hazl_instance\""
+    ],
+    "variables": [
+        "serviceName"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Name of the hazelcast cluster.",
+        "* Name of the hazelcast instance.",
+        "* Kubernetes service name.\n     * Required for running hazelcast inside kubernetes."
+    ],
+    "functions": [],
+    "classes": [
+        "HazelcastProperties"
+    ]
+}

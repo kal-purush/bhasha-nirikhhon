@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "require",
+        "fixBabelImports",
+        "addLessLoader"
+    ],
+    "literals": [
+        "'customize-cra'",
+        "'import'",
+        "'antd'",
+        "'es'",
+        "'@primary-color'",
+        "'#1DA57A'"
+    ],
+    "variables": [],
+    "comments": [
+        "const {override,fixBabelImports,addLessLoader}=require('customize-cra');",
+        "module.exports=override(",
+        "fixBabelImports('import',{",
+        "libraryName:'antd',",
+        "libraryDirectory:'es',",
+        "style:'css',",
+        "}),",
+        "addLessLoader({",
+        "javascriptEnabled:true,",
+        "modifyVars:{'@primary-color':'#1DA57A'}",
+        "})",
+        ")"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

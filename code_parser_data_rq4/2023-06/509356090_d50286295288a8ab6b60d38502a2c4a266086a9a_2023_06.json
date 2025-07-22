@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "EdgeAccount",
+        "ChangeRecoveryParams",
+        "OtpRepairParams",
+        "OtpErrorParams",
+        "RecoveryLoginParams"
+    ],
+    "literals": [
+        "'edge-core-js'",
+        "'../components/scenes/existingAccout/ChangeRecoveryScene'",
+        "'../components/scenes/existingAccout/OtpRepairScene'",
+        "'../components/scenes/OtpErrorScene'",
+        "'../components/scenes/RecoveryLoginScene'"
+    ],
+    "variables": [],
+    "comments": [
+        "navigation: Use `dispatch` for now"
+    ],
+    "docstrings": [
+        "* Defines the acceptable route parameters for each scene key.",
+        "* The `route` prop passed to each scene.",
+        "* The props passed to each scene."
+    ],
+    "functions": [],
+    "classes": []
+}

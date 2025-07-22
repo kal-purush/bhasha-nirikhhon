@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "app",
+        "app",
+        "environ",
+        "start_response",
+        "environ",
+        "get",
+        "script_name",
+        "script_name",
+        "environ",
+        "path_info",
+        "startswith",
+        "script_name",
+        "path_info",
+        "len",
+        "script_name",
+        "environ",
+        "get",
+        "scheme",
+        "scheme",
+        "environ",
+        "get",
+        "server",
+        "server",
+        "app",
+        "environ",
+        "start_response"
+    ],
+    "literals": [
+        "'HTTP_X_SCRIPT_NAME'",
+        "''",
+        "'SCRIPT_NAME'",
+        "'PATH_INFO'",
+        "'PATH_INFO'",
+        "'HTTP_X_SCHEME'",
+        "''",
+        "'wsgi.url_scheme'",
+        "'HTTP_X_FORWARDED_SERVER'",
+        "''",
+        "'HTTP_HOST'"
+    ],
+    "variables": [
+        "app",
+        "script_name",
+        "environ",
+        "path_info",
+        "environ",
+        "scheme",
+        "environ",
+        "server",
+        "environ"
+    ],
+    "comments": [
+        "From http://flask.pocoo.org/snippets/35/"
+    ],
+    "docstrings": [
+        "\"\"\"Wrap the application in this middleware and configure the\n    front-end server to add these headers, to let you quietly bind\n    this to a URL other than / and to an HTTP scheme that is\n    different than what is used locally.\n\n    In nginx:\n    location /myprefix {\n        proxy_pass http://192.168.0.1:5001;\n        proxy_set_header Host $host;\n        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;\n        proxy_set_header X-Scheme $scheme;\n        proxy_set_header X-Script-Name /myprefix;\n        }\n\n    :param app: the WSGI application\n    \"\"\""
+    ],
+    "functions": [
+        "__call__"
+    ],
+    "classes": [
+        "ReverseProxied"
+    ]
+}

@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "SkuContext",
+        "getAppHosts",
+        "basicSsl",
+        "path",
+        "Plugin",
+        "promises",
+        "fs",
+        "debug",
+        "hasErrorCode",
+        "debug",
+        "cleanupStaleCerts",
+        "certDir",
+        "fs",
+        "certDir",
+        "log",
+        "certDir",
+        "e",
+        "hasErrorCode",
+        "e",
+        "e",
+        "log",
+        "certDir",
+        "log",
+        "certDir",
+        "e",
+        "skuViteHttpsDevServer",
+        "skuContext",
+        "path",
+        "process",
+        "cleanupStaleCerts",
+        "certDir",
+        "basicSsl",
+        "getAppHosts",
+        "skuContext",
+        "host",
+        "host"
+    ],
+    "literals": [
+        "'@/context/createSkuContext.js'",
+        "'@/utils/contextUtils/hosts.js'",
+        "'@vitejs/plugin-basic-ssl'",
+        "'node:path'",
+        "'vite'",
+        "'node:fs'",
+        "'debug'",
+        "'@/utils/error-guards.js'",
+        "'sku:vite:https'",
+        "string",
+        "'sku:cleanup-stale-certs'",
+        "Removed stale certs from ${certDir}",
+        "'ENOENT'",
+        "Failed removing stale certs. Directory not found: ${certDir}",
+        "Failed to remove stale certs from ${certDir}",
+        "'.ssl'"
+    ],
+    "variables": [
+        "log",
+        "cleanupStaleCerts",
+        "skuViteHttpsDevServer",
+        "certDir"
+    ],
+    "comments": [
+        "We want to call this before the ssl generation which happens in the \"configResolved\" hook. However, adding a \"enfore:pre\" flag in \"configResolved\"",
+        "doesn't guarantee that it will delete the certs before the ssl generation since it's called async and in parallel.",
+        "So, we use the \"config\" hook which is guaranteed to be called and waited on before the \"configResolved\" hook."
+    ],
+    "docstrings": [
+        "* Cleans up stale certs from the cert directory. This is useful when the user changes their hosts in their sku config and the old certs are no longer needed."
+    ],
+    "functions": [
+        "handler"
+    ],
+    "classes": []
+}

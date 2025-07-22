@@ -1,0 +1,67 @@
+{
+    "identifiers": [
+        "url",
+        "maxLength",
+        "url",
+        "maxLength",
+        "url",
+        "URL",
+        "url",
+        "origin",
+        "pathname",
+        "maxLength",
+        "origin",
+        "pathname",
+        "hostname",
+        "pathname",
+        "maxLength",
+        "protocol",
+        "parsedUrl",
+        "pathname",
+        "hostname",
+        "maxLength",
+        "maxLength",
+        "hostname",
+        "hostname",
+        "pathname",
+        "remaining",
+        "hostname",
+        "maxLength",
+        "err",
+        "maxLength",
+        "url",
+        "half",
+        "url",
+        "half"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "'/…'",
+        "'…'"
+    ],
+    "variables": [
+        "parsedUrl",
+        "parsedUrl",
+        "remaining",
+        "half"
+    ],
+    "comments": [
+        "https://www.example.com",
+        "www.example.com",
+        "/some/subsite.php",
+        "https:",
+        "Only hostname works, and protocol is known",
+        "Truncate path length",
+        "We cannot really accommodate maxLength, so just do a brutal truncate",
+        "Fallback: Not a valid URL"
+    ],
+    "docstrings": [
+        "* @ignore\n * BEGIN HEADER\n *\n * Contains:        Visual URL shortener\n * CVM-Role:        Utility Function\n * Maintainer:      Hendrik Erz\n * License:         GNU GPL v3\n *\n * Description:     This function does its best to properly shorten the given\n *                  URL visually so that it fits within, e.g., a fixed-width\n *                  container\n *\n * END HEADER",
+        "* Takes a long URL and shortens it as best as possible so that it can be\n * presented with as much information as possible to the user given the length\n * requirement (default: 80 characters). If url is shorter than that, the\n * function returns the url unchanged, if it's a valid URL, it will try various\n * heuristics to shorten the URL without hiding too much information on the\n * origin of the URL, and if it's not a valid URL, it will return a possibly\n * improperly truncated URL.\n *\n * @param  {string}  url        The URL to shorten\n * @param  {number}  maxLength  The maximum number of characters for the\n *                              shortened URL\n *\n * @return {string}             The URL in a way that fits maxLength"
+    ],
+    "functions": [
+        "shortenUrlVisually"
+    ],
+    "classes": []
+}

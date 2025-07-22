@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "nums",
+        "len",
+        "nums",
+        "m",
+        "nums",
+        "len",
+        "nums",
+        "result",
+        "i",
+        "m",
+        "temp",
+        "run_prod",
+        "run_prod",
+        "nums",
+        "i",
+        "i",
+        "len",
+        "nums",
+        "temp",
+        "run_prod",
+        "run_prod",
+        "result",
+        "i",
+        "nums",
+        "i",
+        "result"
+    ],
+    "literals": [],
+    "variables": [
+        "m",
+        "result",
+        "run_prod",
+        "temp",
+        "run_prod",
+        "result",
+        "i",
+        "temp",
+        "run_prod",
+        "temp",
+        "run_prod",
+        "result",
+        "i",
+        "temp"
+    ],
+    "comments": [
+        "Time complexity -O(N)",
+        "Space complexity -O(1)",
+        "Passed all test cases",
+        "Approach -First we need to do forward pass and then later backward pass. For calculating forward pass we need to keep track of running product and temp variables and should update in  resultant array. In backward pass we need to start from the end onwards and here we should multiply running product with previous resultant array. starting temp and run_product variables are intialized as 1.",
+        "edge case",
+        "forward pass",
+        "backward pass"
+    ],
+    "docstrings": [
+        "\"\"\"\n        :type nums: List[int]\n        :rtype: List[int]\n        \"\"\""
+    ],
+    "functions": [
+        "productExceptSelf"
+    ],
+    "classes": [
+        "Solution"
+    ]
+}

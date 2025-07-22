@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "Config",
+        "path",
+        "__dirname",
+        "config",
+        "config",
+        "err",
+        "err",
+        "process",
+        "main"
+    ],
+    "literals": [
+        "'path'",
+        "'@npmcli/config'",
+        "'@npmcli/config/lib/definitions'"
+    ],
+    "variables": [
+        "path",
+        "Config",
+        "config"
+    ],
+    "comments": [
+        "This is a single-use bin to help windows discover the proper prefix for npm",
+        "without having to load all of npm first",
+        "It does not accept argv params",
+        "argv is explicitly not looked at since prefix is not something that can be changed via argv",
+        "eslint-disable-next-line no-console",
+        "eslint-disable-next-line no-console"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

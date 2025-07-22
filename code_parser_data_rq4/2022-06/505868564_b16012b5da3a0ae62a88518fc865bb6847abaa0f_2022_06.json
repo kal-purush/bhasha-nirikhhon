@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "styled",
+        "values",
+        "values",
+        "a",
+        "i",
+        "a",
+        "i",
+        "styled",
+        "pixelsToRem",
+        "styled",
+        "MainCrew",
+        "Title"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "rem",
+        "\"\"",
+        "width: 1000px;\n  margin: ${pixelsToRem(50)} auto 0 auto;\n  display: flex;\n  flex-direction: column;\n  opacity: 0;\n  transform: translateX(-40px);\n  animation: .5s ToRight forwards;\n\n  @keyframes ToRight {\n    to {\n      transform: initial;\n      opacity: initial;\n    }\n  }",
+        "text-transform: uppercase;"
+    ],
+    "variables": [
+        "MainCrew",
+        "Title"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "pixelsToRem"
+    ],
+    "classes": []
+}

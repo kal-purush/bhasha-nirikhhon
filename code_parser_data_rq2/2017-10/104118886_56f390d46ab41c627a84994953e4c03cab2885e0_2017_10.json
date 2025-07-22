@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Infinity",
+        "arrayPos",
+        "arrayPos",
+        "arrayPos",
+        "arrayPos",
+        "arrayPos",
+        "arrayPos",
+        "defaults"
+    ],
+    "literals": [
+        "'These are the default values...'",
+        "'You know what you should do?'",
+        "'Use your own!'",
+        "'Have a great day!'",
+        "'typed-fade-out'",
+        "'|'",
+        "'html'"
+    ],
+    "variables": [
+        "defaults"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Defaults & options\n * @returns {object} Typed defaults & options\n * @public",
+        "* @property {array} strings strings to be typed\n   * @property {string} stringsElement ID of element containing string children",
+        "* @property {number} typeSpeed type speed in milliseconds",
+        "* @property {number} startDelay time before typing starts in milliseconds",
+        "* @property {number} backSpeed backspacing speed in milliseconds",
+        "* @property {boolean} smartBackspace only backspace what doesn't match the previous string",
+        "* @property {boolean} shuffle shuffle the strings",
+        "* @property {number} backDelay time before backspacing in milliseconds",
+        "* @property {boolean} fadeOut Fade out instead of backspace\n   * @property {string} fadeOutClass css class for fade animation\n   * @property {boolean} fadeOutDelay Fade out delay in milliseconds",
+        "* @property {boolean} loop loop strings\n   * @property {number} loopCount amount of loops",
+        "* @property {boolean} showCursor show cursor\n   * @property {string} cursorChar character for cursor\n   * @property {boolean} autoInsertCss insert CSS for cursor and fadeOut into HTML <head>",
+        "* @property {string} attr attribute for typing\n   * Ex: input placeholder, value, or just HTML text",
+        "* @property {boolean} bindInputFocusEvents bind to focus and blur if el is text input",
+        "* @property {string} contentType 'html' or 'null' for plaintext",
+        "* All typing is complete\n   * @param {Typed} self",
+        "* Before each string is typed\n   * @param {number} arrayPos\n   * @param {Typed} self",
+        "* After each string is typed\n   * @param {number} arrayPos\n   * @param {Typed} self",
+        "* During looping, after last string is typed\n   * @param {Typed} self",
+        "* Typing has been stopped\n   * @param {number} arrayPos\n   * @param {Typed} self",
+        "* Typing has been started after being stopped\n   * @param {number} arrayPos\n   * @param {Typed} self",
+        "* After reset\n   * @param {Typed} self",
+        "* After stop\n   * @param {number} arrayPos\n   * @param {Typed} self",
+        "* After start\n   * @param {number} arrayPos\n   * @param {Typed} self",
+        "* After destroy\n   * @param {Typed} self"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "Invulnerability",
+        "CoreInvulnerability",
+        "ActorsConfig",
+        "CoreInvulnerability"
+    ],
+    "literals": [
+        "'parser/core/modules/Invulnerability'",
+        "'overkill'",
+        "'firstTap'",
+        "'firstTap'",
+        "'overkill'"
+    ],
+    "variables": [],
+    "comments": [
+        "Bladesblood - TAU open, no TAU or death to close. Use overkill/1hp to check death",
+        "Magitek turret I - No TAU, but has death events. Filter to the first possible event to work out when they were targetable(ish)",
+        "Magitek Turret II - actually not targetable, they cast the tether tank busters",
+        "Confines of memory - die too quick to be meaningfully fixable",
+        "Gunshield - No TAU _or_ death. All the fallbacks."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Invulnerability"
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "backend",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Autowired",
+        "org",
+        "springframework",
+        "jdbc",
+        "core",
+        "JdbcTemplate",
+        "org",
+        "springframework",
+        "stereotype",
+        "Component",
+        "Component",
+        "Autowired",
+        "jdbcTemplate",
+        "createTableSQL",
+        "jdbcTemplate",
+        "execute",
+        "createTableSQL",
+        "dropTableSQL",
+        "jdbcTemplate",
+        "execute",
+        "dropTableSQL",
+        "truncateTableSQL",
+        "jdbcTemplate",
+        "execute",
+        "truncateTableSQL"
+    ],
+    "literals": [
+        "\"CREATE TABLE IF NOT EXISTS rental (\\n\"",
+        "\"  id MEDIUMINT NOT NULL AUTO_INCREMENT,\\n\"",
+        "\"  link VARCHAR(2083),\\n\"",
+        "\"  suite VARCHAR(20),\\n\"",
+        "\"  price INT,\\n\"",
+        "\"  location VARCHAR(20),\\n\"",
+        "\"  PRIMARY KEY (id)\\n\"",
+        "\");\"",
+        "\"Table created successfully!\"",
+        "\"DROP TABLE IF EXISTS rental\"",
+        "\"Table dropped successfully!\"",
+        "\"TRUNCATE TABLE rental\"",
+        "\"Table truncated successfully!\""
+    ],
+    "variables": [
+        "jdbcTemplate"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "createTable",
+        "dropTable",
+        "truncateTable"
+    ],
+    "classes": [
+        "DatabaseInitializer"
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "sys",
+        "clipboard",
+        "json",
+        "sys",
+        "argv",
+        "len",
+        "sys",
+        "argv"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "From 3 Python Automation Projects - For Beginners",
+        "By Tech With Tim",
+        "Project #1 - Multi-clipboard",
+        "an application to store multiple things in the copy/paste clipboard",
+        "Import modules",
+        "reference the clipboard module",
+        "data = clipboard.paste() # Note 1",
+        "clipboard.copy(\"abc\") # note 2",
+        "passing command line arguments to the python file",
+        "python 1_multiclip.py test # note 3",
+        "to access the argument in python",
+        "note 4",
+        "an if statement to check to ensure the user has passed in only 1 command."
+    ],
+    "docstrings": [
+        "''' Notes:\n1) Pastes the Data from your clipboard to the Data variable.\n2) To save Data from the users clipboard\n3) to pass the arguments to python - 1, call up python [python or python3],\n\t2, identify they program [1_muliticlip.py], 3 pass the argument [test].\n4) sys.argv will give you all the command line arguments that is passed in along side\n\ttake a slice so it doesnt return the file name[1:] \n5) \n6) \t\n\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

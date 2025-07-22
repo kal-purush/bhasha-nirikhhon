@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "com",
+        "amplifyframework",
+        "core",
+        "category",
+        "androidx",
+        "annotation",
+        "NonNull",
+        "SubCategoryType",
+        "PUSH_NOTIFICATIONS",
+        "INAPP_MESSAGING",
+        "configurationKey",
+        "configurationKey",
+        "configurationKey",
+        "configurationKey",
+        "configurationKey",
+        "NonNull",
+        "Override",
+        "configurationKey"
+    ],
+    "literals": [
+        "\"push\"",
+        "\"inapp_messaging\""
+    ],
+    "variables": [
+        "configurationKey"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2023 Amazon.com, Inc. or its affiliates. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\").\n * You may not use this file except in compliance with the License.\n * A copy of the License is located at\n *\n *  http://aws.amazon.com/apache2.0\n *\n * or in the \"license\" file accompanying this file. This file is distributed\n * on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either\n * express or implied. See the License for the specific language governing\n * permissions and limitations under the License.",
+        "* Enum that declares the various categories of APIs supported by Amplify\n * System + their config keys. We don't expect the config keys to be\n * very different from the value of enum's name(), but they are logically\n * different since they are mandated by the config spec, not Java.",
+        "* Push notifications.",
+        "* In-App messaging.",
+        "* The key this category is listed under in the config JSON.",
+        "* Construct the enum with the config key.\n     * @param configurationKey The key this category is listed under in the config JSON.",
+        "* Returns the key this category is listed under in the config JSON.\n     * @return The key as a string"
+    ],
+    "functions": [
+        "SubCategoryType",
+        "getConfigurationKey",
+        "toString"
+    ],
+    "classes": []
+}

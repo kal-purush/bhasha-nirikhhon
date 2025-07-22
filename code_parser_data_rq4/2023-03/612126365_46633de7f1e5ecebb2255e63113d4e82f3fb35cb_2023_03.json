@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "require",
+        "process",
+        "__dirname",
+        "swaggerOptions"
+    ],
+    "literals": [
+        "'dotenv'",
+        "'1.0.0'",
+        "'sendinGo'",
+        "'Sendingo'",
+        "/api",
+        "'BaseURL'",
+        "'http'",
+        "'bearer'",
+        "'JWT'",
+        "'Bearer <JWT token here>'",
+        "'../**/*.js'",
+        "'/api-docs'",
+        "https://dev.sendingo-be.store/api",
+        "'Production'"
+    ],
+    "variables": [
+        "PORT",
+        "swaggerOptions"
+    ],
+    "comments": [
+        "BasicAuth: {",
+        "type: 'http',",
+        "scheme: 'basic',",
+        "},",
+        "Base directory which we use to locate your JSDOC files",
+        "Glob pattern to find your jsdoc files (multiple patterns can be added in an array)",
+        "URL where SwaggerUI will be rendered",
+        "Expose OpenAPI UI",
+        "Set non-required fields as nullable by default",
+        "You can customize your UI options.",
+        "you can extend swagger-ui-express config. You can checkout an example of this",
+        "in the `example/configuration/swaggerOptions.js`",
+        "multiple option in case you want more that one instance"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "generarteSnapPoint",
+        "value",
+        "velocity",
+        "points",
+        "value",
+        "velocity",
+        "points",
+        "p",
+        "point",
+        "p",
+        "deltas",
+        "points",
+        "p",
+        "point",
+        "p",
+        "minDelta",
+        "clamp",
+        "value",
+        "lowerBound",
+        "upperBound",
+        "lowerBound",
+        "value",
+        "upperBound"
+    ],
+    "literals": [
+        "'worklet'",
+        "'worklet'"
+    ],
+    "variables": [
+        "generarteSnapPoint",
+        "point",
+        "deltas",
+        "minDelta",
+        "clamp"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @summary Select a point where the animation should snap to given the value of the gesture and it's velocity.",
+        "*  @summary Clamps a node with a lower and upper bound.\n *  @example\n    clamp(-1, 0, 100); // 0\n    clamp(1, 0, 100); // 1\n    clamp(101, 0, 100); // 100\n  * @worklet"
+    ],
+    "functions": [],
+    "classes": []
+}

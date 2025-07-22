@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "LOGGER",
+        "SwivRequest",
+        "Response",
+        "jwt",
+        "SERVER_SETTINGS",
+        "req",
+        "res",
+        "next",
+        "req",
+        "SERVER_SETTINGS",
+        "jwtSecret",
+        "res",
+        "token",
+        "jwt",
+        "token",
+        "jwtSecret",
+        "err",
+        "decoded",
+        "err",
+        "res",
+        "err",
+        "jwt",
+        "req",
+        "decoded",
+        "decoded",
+        "next",
+        "res"
+    ],
+    "literals": [
+        "'logger-tracker'",
+        "\"../utils/general/general\"",
+        "'express'",
+        "'jsonwebtoken'",
+        "'../config'",
+        "'x-access-token'",
+        "'jwt configuration failure.'",
+        "'failed to authenticate token'",
+        "'re-authenticate'",
+        "''",
+        "'No token provided.'",
+        "''"
+    ],
+    "variables": [
+        "token",
+        "jwtSecret"
+    ],
+    "comments": [
+        "decode token",
+        "if there is no token",
+        "return an error",
+        "if everything is good, save to request for use in other routes",
+        "if there is no token",
+        "return an error"
+    ],
+    "docstrings": [],
+    "functions": [
+        "kalturaAuth"
+    ],
+    "classes": []
+}

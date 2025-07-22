@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "caches",
+        "CACHE",
+        "cache",
+        "offlineFallbackPage",
+        "cache",
+        "Response",
+        "cache",
+        "offlineFallbackPage",
+        "fetch",
+        "response",
+        "response",
+        "updateCache",
+        "response",
+        "response",
+        "error",
+        "error",
+        "fromCache",
+        "request",
+        "caches",
+        "CACHE",
+        "cache",
+        "cache",
+        "request",
+        "matching",
+        "matching",
+        "matching",
+        "matching",
+        "request",
+        "response",
+        "caches",
+        "CACHE",
+        "cache",
+        "cache",
+        "request",
+        "response"
+    ],
+    "literals": [
+        "\"pwabuilder-offline\"",
+        "\"ToDo-replace-this-name.html\"",
+        "\"install\"",
+        "\"[PWA Builder] Install Event processing\"",
+        "\"[PWA Builder] Cached offline page during install\"",
+        "\"ToDo-replace-this-name.html\"",
+        "\"TODO: Update the value of the offlineFallbackPage constant in the serviceworker.\"",
+        "\"fetch\"",
+        "\"GET\"",
+        "\"[PWA Builder] add page to offline cache: \"",
+        "\"[PWA Builder] Network request Failed. Serving content from cache: \"",
+        "\"no-match\""
+    ],
+    "variables": [
+        "CACHE",
+        "offlineFallbackPage"
+    ],
+    "comments": [
+        "This is the \"Offline copy of pages\" service worker",
+        "TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = \"index.html\";",
+        "Install stage sets up the index page (home page) in the cache and opens a new cache",
+        "If any fetch fails, it will look for the request in the cache and serve it from there first",
+        "If request was success, add or update it in the cache",
+        "Check to see if you have it in the cache",
+        "Return response",
+        "If not in the cache, then return error page"
+    ],
+    "docstrings": [],
+    "functions": [
+        "fromCache",
+        "updateCache"
+    ],
+    "classes": []
+}

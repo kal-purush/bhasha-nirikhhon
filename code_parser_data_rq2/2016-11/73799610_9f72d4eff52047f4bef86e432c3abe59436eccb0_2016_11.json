@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "name",
+        "session",
+        "url",
+        "branch",
+        "resp",
+        "jelastic",
+        "resp",
+        "resp",
+        "resp",
+        "jelastic",
+        "resp",
+        "resp"
+    ],
+    "literals": [
+        "\"${env.appid}\"",
+        "\"${env.envName}\"",
+        "\"${nodes.build.first.id}\"",
+        "\"git\"",
+        "\"ROOT\""
+    ],
+    "variables": [],
+    "comments": [
+        "@auth",
+        "@req(name, url, branch)",
+        "add and build the project"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

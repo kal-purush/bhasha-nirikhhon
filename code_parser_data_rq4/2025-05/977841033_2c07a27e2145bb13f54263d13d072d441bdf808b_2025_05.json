@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "flask",
+        "Flask",
+        "Response",
+        "Flask",
+        "app",
+        "route",
+        "defaults",
+        "methods",
+        "app",
+        "route",
+        "methods",
+        "path",
+        "Response",
+        "mimetype",
+        "status",
+        "hostname",
+        "port",
+        "app",
+        "run",
+        "host",
+        "hostname",
+        "port",
+        "port"
+    ],
+    "literals": [
+        "'127.0.0.1'",
+        "'/'",
+        "'path'",
+        "''",
+        "'GET'",
+        "'POST'",
+        "'PUT'",
+        "'DELETE'",
+        "'PATCH'",
+        "'OPTIONS'",
+        "'/<path:path>'",
+        "'GET'",
+        "'POST'",
+        "'PUT'",
+        "'DELETE'",
+        "'PATCH'",
+        "'OPTIONS'",
+        "'Hello, World!\\n'",
+        "'text/plain'",
+        "'__main__'",
+        "f'Server running at http://{hostname}:{port}/'"
+    ],
+    "variables": [
+        "hostname",
+        "port",
+        "app"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "Define server configuration constants",
+        "Localhost IP address",
+        "Port to listen on",
+        "Initialize Flask application",
+        "Define route handler for all paths and HTTP methods",
+        "Run the server if this file is executed directly",
+        "Log server startup information",
+        "Start the Flask development server",
+        "Note: In production, a proper WSGI server would be used instead"
+    ],
+    "docstrings": [
+        "\"\"\"\nMain application entry point for the Flask HTTP server.\n\nThis module implements a simple HTTP server using Flask that responds with\n'Hello, World!' for any HTTP request. It is functionally equivalent to the\noriginal Node.js implementation but written in Python using Flask.\n\"\"\"",
+        "\"\"\"\n    Handle all HTTP requests and return 'Hello, World!' response.\n    \n    This function serves as a catch-all handler for any HTTP path and method,\n    returning the same response for all requests, matching the behavior of\n    the original Node.js server.\n    \n    Args:\n        path (str): The URL path requested (unused but required for routing)\n        \n    Returns:\n        Response: Flask Response object with 'Hello, World!' text, content type\n                 of 'text/plain', and HTTP status code 200 (OK)\n    \"\"\""
+    ],
+    "functions": [
+        "hello"
+    ],
+    "classes": []
+}

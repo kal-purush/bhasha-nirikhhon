@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "getTestClient",
+        "sql",
+        "beforeAll",
+        "getTestClient",
+        "prisma",
+        "PrismaClient",
+        "afterAll",
+        "prisma",
+        "test",
+        "prisma",
+        "password",
+        "err",
+        "expect",
+        "err",
+        "prisma",
+        "password",
+        "err",
+        "expect",
+        "err",
+        "prisma",
+        "sql",
+        "password",
+        "err",
+        "expect",
+        "err",
+        "prisma",
+        "password",
+        "expect",
+        "result"
+    ],
+    "literals": [
+        "'../../../../utils/getTestClient'",
+        "'sql-template-tag'",
+        "'executeRaw-alter-postgres'",
+        "'prisma'",
+        "ALTER USER prisma WITH PASSWORD '${password}'",
+        "Running ALTER using prisma.$executeRaw\\`<SQL>\\` is not supported\n      Using the example below you can still execute your query with Prisma, but please note that it is vulnerable to SQL injection attacks and requires you to take care of input sanitization.\n\n      Example:\n        await prisma.$executeRaw(\\`ALTER USER prisma WITH PASSWORD '\\${password}'\\`)\n\n      More Information: https://pris.ly/d/execute-raw",
+        "ALTER USER prisma WITH PASSWORD $1",
+        "Running ALTER using prisma.$executeRaw(<SQL>, [...values]) is not supported\n      Using the example below you can still execute your query with Prisma, but please note that it is vulnerable to SQL injection attacks and requires you to take care of input sanitization.\n\n      Example:\n        await prisma.$executeRaw(\\`ALTER USER prisma WITH PASSWORD '\\${password}'\\`)\n\n      More Information: https://pris.ly/d/execute-raw",
+        "ALTER USER prisma WITH PASSWORD '${password}'",
+        "Running ALTER using prisma.$executeRaw(sql\\`<SQL>\\`) is not supported\n      Using the example below you can still execute your query with Prisma, but please note that it is vulnerable to SQL injection attacks and requires you to take care of input sanitization.\n\n      Example:\n        await prisma.$executeRaw(\\`ALTER USER prisma WITH PASSWORD '\\${password}'\\`)\n\n      More Information: https://pris.ly/d/execute-raw",
+        "ALTER USER prisma WITH PASSWORD '${password}'",
+        "0"
+    ],
+    "variables": [
+        "prisma",
+        "PrismaClient",
+        "password",
+        "result"
+    ],
+    "comments": [
+        "Should Throw",
+        "isReadonlyArray",
+        "String",
+        "Else",
+        "Should Work"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

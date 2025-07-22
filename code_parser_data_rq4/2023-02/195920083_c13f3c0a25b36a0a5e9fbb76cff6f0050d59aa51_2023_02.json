@@ -1,0 +1,91 @@
+{
+    "identifiers": [
+        "datetime",
+        "dataclasses",
+        "dataclass",
+        "rich",
+        "rospy",
+        "mil_usb_to_can",
+        "CANDeviceHandle",
+        "Packet",
+        "sub8_thrust_and_kill_board",
+        "HeartbeatPacket",
+        "KillSetPacket",
+        "ThrustSetPacket",
+        "sub_actuator_board",
+        "ActuatorPollRequestPacket",
+        "ActuatorSetPacket",
+        "packet",
+        "hexify",
+        "dataclass",
+        "Packet",
+        "msg_id",
+        "subclass_id",
+        "payload_format",
+        "CANDeviceHandle",
+        "handle",
+        "handle",
+        "HeartbeatPacket",
+        "ThrustSetPacket",
+        "KillSetPacket",
+        "ActuatorSetPacket",
+        "ActuatorPollRequestPacket",
+        "rospy",
+        "Timer",
+        "rospy",
+        "Duration",
+        "send",
+        "_",
+        "types",
+        "index",
+        "rich",
+        "datetime",
+        "datetime",
+        "now",
+        "packet",
+        "hexify",
+        "packet",
+        "send_data",
+        "packet",
+        "index",
+        "index",
+        "len",
+        "types",
+        "data",
+        "rich",
+        "datetime",
+        "datetime",
+        "now",
+        "data",
+        "hexify",
+        "data"
+    ],
+    "literals": [
+        "\"f\"",
+        "f\"[bold chartreuse1]{datetime.datetime.now()}: Sending:  {packet}, {hexify(bytes(packet))}\"",
+        "f\"[bold gold1]{datetime.datetime.now()}  Received: {data}, {hexify(bytes(data))}\""
+    ],
+    "variables": [
+        "msg",
+        "index",
+        "types",
+        "_timer",
+        "packet"
+    ],
+    "comments": [
+        "Call parent classes constructor",
+        "packet = TestPacket(random.random())",
+        "Echo data received back onto the bus"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Example implementation of a SimulatedCANDevice.\n    On sends, stores the transmitted data in a buffer.\n    When data is requested, it echos this data back.\n    \"\"\""
+    ],
+    "functions": [
+        "send",
+        "on_data"
+    ],
+    "classes": [
+        "TestPacket",
+        "ExampleTestDevice"
+    ]
+}

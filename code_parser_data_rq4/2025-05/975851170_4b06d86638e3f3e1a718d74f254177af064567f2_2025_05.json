@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "demo",
+        "common",
+        "org",
+        "springframework",
+        "http",
+        "HttpStatus",
+        "org",
+        "springframework",
+        "http",
+        "ResponseEntity",
+        "lombok",
+        "Getter",
+        "Getter",
+        "message",
+        "data",
+        "message",
+        "data",
+        "message",
+        "message",
+        "data",
+        "data",
+        "message",
+        "data",
+        "message",
+        "data",
+        "message",
+        "message",
+        "message",
+        "data",
+        "ResponseEntity",
+        "ok",
+        "of",
+        "message",
+        "data",
+        "message",
+        "ResponseEntity",
+        "ok",
+        "messageOnly",
+        "message",
+        "message",
+        "ResponseEntity",
+        "status",
+        "HttpStatus",
+        "CREATED",
+        "body",
+        "messageOnly",
+        "message"
+    ],
+    "literals": [],
+    "variables": [
+        "message",
+        "data"
+    ],
+    "comments": [
+        "============================",
+        "전역 공통 응답 호출부",
+        "============================"
+    ],
+    "docstrings": [
+        "메시지 + 데이터 응답 생성",
+        "메시지만 있는 응답 생성 (data = null)",
+        "* 일반적인 200 OK 응답 반환\n     * \n     * 주어진 메시지와 데이터를 포함한 JSON 본문을 생성합니다.",
+        "* 일반적인 200 OK 응답 반환\n     * \n     * 메시지만 포함하고 data는 null\n     * 주로 단순 성공 알림(비밀번호 변경 성공 등)",
+        "* 리소스 생성 성공을 의미하는 201 Created 응답 반환\n     * \n     * 메시지로 클라이언트에게 성공 안내만, data는 null\n     * 회원가입, 채팅방 생성 등의 기능에 사용"
+    ],
+    "functions": [
+        "ApiResponse",
+        "of",
+        "messageOnly",
+        "ok",
+        "ok",
+        "created"
+    ],
+    "classes": [
+        "ApiResponse"
+    ]
+}

@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "Threading",
+        "Tasks",
+        "Bit",
+        "Core",
+        "Bit",
+        "Core",
+        "Jobs",
+        "Bit",
+        "Core",
+        "Repositories",
+        "Bit",
+        "Core",
+        "Settings",
+        "Microsoft",
+        "Extensions",
+        "Logging",
+        "Quartz",
+        "Bit",
+        "Admin",
+        "Jobs",
+        "BaseJob",
+        "IMaintenanceRepository",
+        "maintenanceRepository",
+        "ILogger",
+        "DatabaseExpiredSponsorshipsJob",
+        "logger",
+        "GlobalSettings",
+        "globalSettings",
+        "logger",
+        "_maintenanceRepository",
+        "maintenanceRepository",
+        "_globalSettings",
+        "globalSettings",
+        "IJobExecutionContext",
+        "context",
+        "_globalSettings",
+        "SelfHosted",
+        "_globalSettings",
+        "EnableCloudCommunication",
+        "_logger",
+        "LogInformation",
+        "Constants",
+        "BypassFiltersEventId",
+        "UtcNow",
+        "AddDays",
+        "_maintenanceRepository",
+        "DeleteExpiredSponsorshipsAsync",
+        "deleteDate",
+        "_logger",
+        "LogInformation",
+        "Constants",
+        "BypassFiltersEventId"
+    ],
+    "literals": [
+        "\"Execute job task: DeleteExpiredSponsorshipsAsync\"",
+        "\"Finished job task: DeleteExpiredSponsorshipsAsync\""
+    ],
+    "variables": [
+        "GlobalSettings",
+        "_globalSettings",
+        "IMaintenanceRepository",
+        "_maintenanceRepository",
+        "deleteDate"
+    ],
+    "comments": [
+        "allow a 90 day grace period before deleting"
+    ],
+    "docstrings": [],
+    "functions": [
+        "DatabaseExpiredSponsorshipsJob",
+        "ExecuteJobAsync"
+    ],
+    "classes": [
+        "DatabaseExpiredSponsorshipsJob"
+    ]
+}

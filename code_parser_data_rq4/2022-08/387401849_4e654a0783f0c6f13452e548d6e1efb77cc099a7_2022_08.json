@@ -1,0 +1,40 @@
+{
+    "identifiers": [
+        "org",
+        "lwjgl",
+        "org_lwjgl",
+        "getPackage",
+        "specVersion",
+        "org_lwjgl",
+        "getSpecificationVersion",
+        "implVersion",
+        "org_lwjgl",
+        "getImplementationVersion",
+        "specVersion",
+        "implVersion",
+        "Version",
+        "createImplementation",
+        "specVersion",
+        "implVersion",
+        "version",
+        "Version",
+        "findImplementationFromManifest",
+        "version",
+        "version"
+    ],
+    "literals": [
+        "\"-snapshot\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright LWJGL. All rights reserved.\n * License terms: https://www.lwjgl.org/license",
+        "* Finds the LWJGL implementation version (build type/number).\n *\n * <p>Base implementation for Java 8. When run in the module path, it cannot find the implementation version without reading the JAR manifest. See the\n * {@code lwjgl.core9} module for the module-aware implementation.</p>"
+    ],
+    "functions": [
+        "find"
+    ],
+    "classes": [
+        "VersionImpl"
+    ]
+}

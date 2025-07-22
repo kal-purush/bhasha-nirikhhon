@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Uniform",
+        "Vector2",
+        "BlendFunction",
+        "Effect",
+        "Effect",
+        "BlendFunction",
+        "Vector2",
+        "Uniform",
+        "amount",
+        "Uniform",
+        "offset",
+        "value",
+        "value",
+        "value",
+        "value"
+    ],
+    "literals": [
+        "'three'",
+        "'postprocessing'",
+        "'BarrelBlurEffect'",
+        "uniform float amount;\n    uniform vec2 offset;\n\n    #define NUM_ITER 16\n    #define RECIP_NUM_ITER 0.0625\n    #define GAMMA 1.0\n\n    vec3 spectrum_offset(float t) {\n        float lo = step(t, 0.5);\n        float hi = 1.0 - lo;\n        float w = 1.0 - abs(2.0 * t - 1.0);\n        return pow(vec3(lo, 1.0, hi) * vec3(1.0 - w, w, 1.0 - w), vec3(1.0 / GAMMA));\n    }\n\n    vec2 barrelDistortion(vec2 p, float amt) {\n        p = p - offset;\n        float theta = atan(p.y, p.x);\n        float radius = pow(length(p), 1.0 + 3.0 * amt);\n        return vec2(cos(theta), sin(theta)) * radius + offset;\n    }\n\n    void mainUv(inout vec2 uv) {\n        uv = barrelDistortion(uv, amount * 0.5);\n    }\n\n    void mainImage(const in vec4 inputColor, const in vec2 uv, out vec4 outputColor) {\n        vec3 sumcol = vec3(0.0);\n        vec3 sumw = vec3(0.0);\n\n        for (int i = 0; i < NUM_ITER; ++i) {\n            float t = float(i) * RECIP_NUM_ITER;\n            vec3 w = spectrum_offset(t);\n            vec2 distortedUV = barrelDistortion(uv, amount * t);\n            sumcol += w * texture(inputBuffer, distortedUV).rgb;\n            sumw += w;\n        }\n\n        vec3 outcol = pow(sumcol / sumw, vec3(1.0 / GAMMA));\n\n        outcol = clamp(outcol, 0.0, 1.0); // Ensures normalized color values\n\n        outputColor = vec4(outcol, inputColor.a); // Preserves original alpha\n    }",
+        "string",
+        "'amount'",
+        "'offset'",
+        "'amount'",
+        "'amount'",
+        "'offset'",
+        "'offset'"
+    ],
+    "variables": [],
+    "comments": [
+        "Uniform controlling the intensity of distortion",
+        "Uniform controlling the offset of distortion"
+    ],
+    "docstrings": [
+        "* BarrelBlurEffect - A custom effect for applying a barrel distortion\n * with chromatic aberration blur.",
+        "* Creates a new BarrelBlurEffect instance.\n   *\n   * @param {object} [options] - Configuration options for the effect.\n   * @param {BlendFunction} [options.blendFunction] - Blend mode.\n   * @param {number} [options.amount] - Intensity of the barrel distortion (0 to 1).\n   * @param {Vector2} [options.offset] - Offset of the barrel distortion center (0 to 1 for both x and y). This allows you to change the position of the distortion effect.\n   *",
+        "* The amount.\n   *\n   * @type {number}",
+        "* The offset.\n   *\n   * @type {Vector2}"
+    ],
+    "functions": [
+        "amount",
+        "amount",
+        "offset",
+        "offset"
+    ],
+    "classes": [
+        "BarrelBlurEffect"
+    ]
+}

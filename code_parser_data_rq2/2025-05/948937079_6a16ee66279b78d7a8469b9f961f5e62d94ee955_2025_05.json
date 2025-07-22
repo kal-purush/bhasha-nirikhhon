@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "ChatGoogleGenerativeAI",
+        "HumanMessage",
+        "createLogger",
+        "ProviderConfig",
+        "createLogger",
+        "providerConfig",
+        "ChatGoogleGenerativeAI",
+        "providerConfig",
+        "base64Audio",
+        "logger",
+        "HumanMessage",
+        "base64Audio",
+        "transcriptionMessage",
+        "transcriptionResponse",
+        "logger",
+        "transcribedText",
+        "transcribedText",
+        "error",
+        "logger",
+        "error",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'@langchain/google-genai'",
+        "'@langchain/core/messages'",
+        "'../log'",
+        "'@extension/storage'",
+        "'SpeechToText'",
+        "'gemini-2.0-flash'",
+        "string",
+        "string",
+        "'Starting audio transcription...'",
+        "'text'",
+        "'Transcribe this audio. Return only the transcribed text without any additional formatting or explanations.'",
+        "'media'",
+        "'audio/webm'",
+        "'Audio transcription completed:'",
+        "'Failed to transcribe audio:'",
+        "Speech transcription failed: ${error instanceof Error ? error.message : 'Unknown error'}",
+        "'Unknown error'"
+    ],
+    "variables": [
+        "logger",
+        "transcriptionMessage",
+        "transcriptionResponse",
+        "transcribedText"
+    ],
+    "comments": [
+        "Create transcription message with audio data",
+        "Get transcription from Gemini"
+    ],
+    "docstrings": [],
+    "functions": [
+        "transcribeAudio"
+    ],
+    "classes": [
+        "SpeechToTextService"
+    ]
+}

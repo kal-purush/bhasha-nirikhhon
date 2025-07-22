@@ -1,0 +1,18 @@
+{
+    "identifiers": [
+        "createGlobalStyle",
+        "githubBackground",
+        "createGlobalStyle",
+        "githubBackground"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'../assets/github-background.svg'",
+        "* {\n        margin: 0;\n        padding: 0;\n        outline: 0;\n        box-sizing: border-box;\n    }\n\n    body {\n        background: #F0F0F5 url(${githubBackground}) no-repeat 70% top;\n        -webkit-font-smoothing: antialiased;\n    }\n\n    body, input, button {\n        font: 16px Roboto, sans-serif;\n    }\n\n    #root {\n        max-width: 960px;\n        margin: 0 auto;\n        padding: 40px 20px;\n    }\n\n    button {\n        cursor: pointer;    \n    }"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

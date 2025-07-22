@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "CA2227",
+        "Tortuga",
+        "Chain",
+        "Metadata",
+        "CA2227"
+    ],
+    "literals": [],
+    "variables": [
+        "ColumnMetadataCollection",
+        "ChildColumns",
+        "ChildTableName",
+        "ColumnMetadataCollection",
+        "ParentColumns",
+        "ParentTableName"
+    ],
+    "comments": [
+        "Collection properties should be read only",
+        "This represents a foreign key relationship between two tables.",
+        "</summary>",
+        "Gets the columns in the child table.",
+        "</summary>",
+        "Gets the name of the child table.",
+        "</summary>",
+        "Gets the columns in the parent table. This will usually be the primary key(s).",
+        "</summary>",
+        "Gets the name of the parent table.",
+        "</summary>",
+        "Collection properties should be read only"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "ForeignKeyConstraint"
+    ]
+}

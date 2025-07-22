@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "Clean",
+        "Architecture",
+        "Core",
+        "Interfaces",
+        "MailKit",
+        "Net",
+        "Smtp",
+        "Microsoft",
+        "Extensions",
+        "Logging",
+        "MimeKit",
+        "Clean",
+        "Architecture",
+        "Infrastructure",
+        "Email",
+        "ILogger",
+        "MimeKitEmailSender",
+        "_logger",
+        "IEmailSender",
+        "to",
+        "subject",
+        "body",
+        "_logger",
+        "LogInformation",
+        "to",
+        "subject",
+        "SmtpClient",
+        "client",
+        "Connect",
+        "MimeMessage",
+        "message",
+        "From",
+        "Add",
+        "MailboxAddress",
+        "message",
+        "To",
+        "Add",
+        "MailboxAddress",
+        "to",
+        "to",
+        "message",
+        "Subject",
+        "subject",
+        "message",
+        "Body",
+        "TextPart",
+        "Text",
+        "body",
+        "client",
+        "SendAsync",
+        "message",
+        "_logger",
+        "LogInformation",
+        "client",
+        "Disconnect"
+    ],
+    "literals": [
+        "\"Attempting to send email to {to} from {from} with subject {subject}...\"",
+        "\"localhost\"",
+        "\"plain\"",
+        "\"Email sent!\""
+    ],
+    "variables": [
+        "SmtpClient",
+        "client",
+        "message"
+    ],
+    "comments": [
+        "use localhost and a test server",
+        "TODO: pull settings from config"
+    ],
+    "docstrings": [],
+    "functions": [
+        "SendEmailAsync"
+    ],
+    "classes": [
+        "MimeKitEmailSender"
+    ]
+}

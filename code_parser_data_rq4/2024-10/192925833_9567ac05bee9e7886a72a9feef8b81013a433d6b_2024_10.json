@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "idForProvider",
+        "testMatrix",
+        "testMatrix",
+        "provider",
+        "provider",
+        "idForProvider",
+        "provider"
+    ],
+    "literals": [
+        "'../../../_utils/idForProvider'",
+        "'../_matrix'",
+        "generator client {\n        provider = \"prisma-client-js\"\n        previewFeatures = [\"driverAdapters\"]\n      }\n      \n      datasource db {\n        provider = \"${provider}\"\n        url      = env(\"DATABASE_URI_${provider}\")\n      }\n      \n      model User {\n        id ${idForProvider(provider)}\n        memo String\n      }"
+    ],
+    "variables": [],
+    "comments": [
+        "Prisma"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

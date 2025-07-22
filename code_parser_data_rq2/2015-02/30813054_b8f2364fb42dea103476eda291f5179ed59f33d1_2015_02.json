@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "com",
+        "nku",
+        "collatz",
+        "java",
+        "util",
+        "Iterator",
+        "seed",
+        "current",
+        "seed",
+        "setSeed",
+        "seed",
+        "Override",
+        "current",
+        "Override",
+        "current",
+        "current",
+        "current",
+        "current",
+        "seed",
+        "seed",
+        "seed",
+        "current",
+        "seed",
+        "seed"
+    ],
+    "literals": [],
+    "variables": [
+        "seed",
+        "current"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Given a particular seed the next operation will return back a the next number\n * in the Collatz Problem\n *\n *   <ul>\n *     <li><h3>Cases</h3></li>\n *     <li>n = n / 2 : when n is even</li>\n *     <li>n = 3 * n + 1 : when n is odd </li>\n *   </ul>\n *\n * @author Nick Meyer\n *",
+        "Starting seed number",
+        "the current number in the sequence"
+    ],
+    "functions": [
+        "CollatzNumberGenerator",
+        "hasNext",
+        "next",
+        "setSeed",
+        "getSeed"
+    ],
+    "classes": [
+        "CollatzNumberGenerator"
+    ]
+}

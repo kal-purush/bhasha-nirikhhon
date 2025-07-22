@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "Injectable",
+        "ScadadataScores",
+        "HttpClient",
+        "HttpHeaders",
+        "HttpParams",
+        "BaseService",
+        "saveAs",
+        "Injectable",
+        "BaseService",
+        "http",
+        "http"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'../models/sensors/scadadata-scores.model'",
+        "'@angular/common/http'",
+        "'./base.service'",
+        "'file-saver'",
+        "'root'",
+        "${this.backendBaseUrl}/api/v1/scadadata/getweightedscore"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @author Andreas Gøricke, s153804"
+    ],
+    "functions": [
+        "getWeightedScore"
+    ],
+    "classes": [
+        "ScadadataService"
+    ]
+}

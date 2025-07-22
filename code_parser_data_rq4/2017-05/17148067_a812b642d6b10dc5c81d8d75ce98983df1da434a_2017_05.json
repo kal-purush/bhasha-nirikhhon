@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "org",
+        "poopeeland",
+        "tinytinyfeed",
+        "utils",
+        "message",
+        "message",
+        "message",
+        "cause",
+        "message",
+        "cause",
+        "cause",
+        "cause"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Exception thrown when there is a problem while fetching the data over da interwebz.\n * Created by eric on 28/05/17.",
+        "* Constructs a new exception with {@code null} as its detail message.\n     * The cause is not initialized, and may subsequently be initialized by a\n     * call to {@link #initCause}.",
+        "* Constructs a new exception with the specified detail message.  The\n     * cause is not initialized, and may subsequently be initialized by\n     * a call to {@link #initCause}.\n     *\n     * @param message the detail message. The detail message is saved for\n     *                later retrieval by the {@link #getMessage()} method.",
+        "* Constructs a new exception with the specified detail message and\n     * cause.  <p>Note that the detail message associated with\n     * {@code cause} is <i>not</i> automatically incorporated in\n     * this exception's detail message.\n     *\n     * @param message the detail message (which is saved for later retrieval\n     *                by the {@link #getMessage()} method).\n     * @param cause   the cause (which is saved for later retrieval by the\n     *                {@link #getCause()} method).  (A <tt>null</tt> value is\n     *                permitted, and indicates that the cause is nonexistent or\n     *                unknown.)\n     * @since 1.4",
+        "* Constructs a new exception with the specified cause and a detail\n     * message of <tt>(cause==null ? null : cause.toString())</tt> (which\n     * typically contains the class and detail message of <tt>cause</tt>).\n     * This constructor is useful for exceptions that are little more than\n     * wrappers for other throwables (for example, {@link\n     * java.security.PrivilegedActionException}).\n     *\n     * @param cause the cause (which is saved for later retrieval by the\n     *              {@link #getCause()} method).  (A <tt>null</tt> value is\n     *              permitted, and indicates that the cause is nonexistent or\n     *              unknown.)\n     * @since 1.4"
+    ],
+    "functions": [
+        "FetchException",
+        "FetchException",
+        "FetchException",
+        "FetchException"
+    ],
+    "classes": [
+        "FetchException"
+    ]
+}

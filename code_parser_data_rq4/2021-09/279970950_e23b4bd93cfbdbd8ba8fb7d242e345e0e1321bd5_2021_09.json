@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "TResponse",
+        "climateApi",
+        "invitedUserName",
+        "jwt",
+        "invitedUserName",
+        "jwt",
+        "invitedUserName",
+        "jwt",
+        "jwt",
+        "climateApi",
+        "REQUEST_URL",
+        "REQUEST_BODY",
+        "HEADERS",
+        "response",
+        "data",
+        "data",
+        "err",
+        "err"
+    ],
+    "literals": [
+        "'../types/types'",
+        "'./apiHelper'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'jwt: '",
+        "'invitedUserName: '",
+        "Brearer ${jwt}",
+        "''",
+        "'/conversation'",
+        "'postConversations: '"
+    ],
+    "variables": [
+        "REQUEST_BODY",
+        "HEADERS",
+        "REQUEST_URL",
+        "response",
+        "data"
+    ],
+    "comments": [
+        "invitedUser: InvitedUser,",
+        "Request body for Submission",
+        "Auth token added for logged in user so that the session id can be assigned to the user",
+        "Try and make the request"
+    ],
+    "docstrings": [],
+    "functions": [
+        "submitConversation"
+    ],
+    "classes": []
+}

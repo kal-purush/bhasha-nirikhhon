@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "observable",
+        "action",
+        "action",
+        "data",
+        "toRequirementsRecordMap",
+        "data",
+        "observable",
+        "observable",
+        "observable",
+        "action",
+        "docDto",
+        "docDto",
+        "action",
+        "action",
+        "doc",
+        "doc",
+        "action",
+        "result",
+        "toDocuments",
+        "result",
+        "observable",
+        "observable",
+        "observable",
+        "action",
+        "runInAction",
+        "action",
+        "req",
+        "req",
+        "req",
+        "req",
+        "runInAction",
+        "action",
+        "docDto",
+        "req",
+        "docDto",
+        "req",
+        "runInAction"
+    ],
+    "literals": [
+        "'loading'",
+        "'loading'",
+        "'loaded'",
+        "'loading'",
+        "'loaded'",
+        "'loading'",
+        "'loaded'"
+    ],
+    "variables": [
+        "req"
+    ],
+    "comments": [
+        "?? this.currentReq.id === req.id ??"
+    ],
+    "docstrings": [],
+    "functions": [
+        "initRequirements",
+        "updateRequirements",
+        "createDocument",
+        "fetchDocumentsIfNeeded",
+        "addDocument",
+        "updateDocuments",
+        "init",
+        "selectRequirement",
+        "createDocument"
+    ],
+    "classes": [
+        "RequirementsStore",
+        "Requirement",
+        "ViewStore"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "IactionDictionary",
+        "IeventAction",
+        "dictKey",
+        "eventAction",
+        "props",
+        "dictKey",
+        "eventAction"
+    ],
+    "literals": [
+        "\"./types/index\"",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* @file file that defines entry point into the module",
+        "* third party imports",
+        "* Interface declarations",
+        "* Global constants",
+        "* @method constructor def\n     * @param { IconstructorProps } - props",
+        "* public  dispatchActions\n     * dispatches actions as an action creator\n     * @return dispatchAction function calls with the right param",
+        "* Create store object\n     * @return { any } reducer Object"
+    ],
+    "functions": [],
+    "classes": [
+        "UnifiedStore"
+    ]
+}

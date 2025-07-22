@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "hamcrest",
+        "behave",
+        "common",
+        "when",
+        "context",
+        "context",
+        "stdout",
+        "context",
+        "returncode",
+        "run_rif",
+        "context",
+        "filename",
+        "then",
+        "context",
+        "assert_that",
+        "context",
+        "returncode",
+        "equal_to",
+        "context",
+        "stdout",
+        "replace",
+        "assert_that",
+        "stdout_without_carriage_returns",
+        "contains_string",
+        "context",
+        "expected_curl_output"
+    ],
+    "literals": [
+        "u'the user runs RIF on that file with the cURL output format'",
+        "'--output=curl'",
+        "u'RIF should return a cURL command equivalent to the request'",
+        "\"\\r\"",
+        "\"\""
+    ],
+    "variables": [
+        "stdout_without_carriage_returns"
+    ],
+    "comments": [
+        "These are invisible anyway and mess up the test string"
+    ],
+    "docstrings": [
+        "\"\"\"Step definitions for HTTP output\"\"\""
+    ],
+    "functions": [
+        "step_impl",
+        "step_impl"
+    ],
+    "classes": []
+}

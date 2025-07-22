@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "element",
+        "alertType",
+        "alertMsg",
+        "$",
+        "alertType",
+        "alertMsg",
+        "element",
+        "$alertElement",
+        "element",
+        "text",
+        "element",
+        "element",
+        "text",
+        "element",
+        "text",
+        "element",
+        "element",
+        "text"
+    ],
+    "literals": [
+        "'<div class=\"alert '",
+        "' alert-dismissible\" role=\"alert\">\\n'",
+        "'  <button type=\"button\" class=\"close\" data-dismiss=\"alert\" aria-label=\"Close\"><span aria-hidden=\"true\">&times;</span></button>\\n<strong>'",
+        "'</strong> '",
+        "'\\n</div>'",
+        "\"alert-success\"",
+        "\"alert-info\"",
+        "\"alert-warning\"",
+        "\"alert-danger\"",
+        "\"disabled\"",
+        "\"disabled\"",
+        "\"true\""
+    ],
+    "variables": [
+        "$alertElement",
+        "ALERT_SUCCESS",
+        "ALERT_INFO",
+        "ALERT_WARNING",
+        "ALERT_DANGER"
+    ],
+    "comments": [
+        "base function",
+        "信息提示",
+        "button使能去使能"
+    ],
+    "docstrings": [],
+    "functions": [
+        "makeAlertShow",
+        "enableButton",
+        "disableButton"
+    ],
+    "classes": []
+}

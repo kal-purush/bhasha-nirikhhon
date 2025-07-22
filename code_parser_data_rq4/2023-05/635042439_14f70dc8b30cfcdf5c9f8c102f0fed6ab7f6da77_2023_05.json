@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "gsap",
+        "navBtn",
+        "e",
+        "navBtn",
+        "tl",
+        "tl",
+        "tl",
+        "tl",
+        "Power2",
+        "tl"
+    ],
+    "literals": [
+        "\".menu-toggle-btn\"",
+        "\"active\"",
+        "\".nav__responsive\"",
+        "\"power3.easeInOut\"",
+        "\".logo a, .place span\"",
+        "\"#fff\"",
+        "\".container__responsive ul li a\"",
+        "\"-100%\"",
+        "\"Power3.easeinOut\""
+    ],
+    "variables": [
+        "tl",
+        "navBtn"
+    ],
+    "comments": [
+        "const scroll = new LocomotiveScroll({\n  el: document.querySelector(\"[data-scroll-container ]\"),\n  smooth: true,\n  smartphone: {\n    smooth: true\n  }\n})",
+        "const navBtn = document.querySelector(\".menu-toggle-btn\");\nnavBtn.onclick = function (e) {\n  navBtn.classList.toggle(\"active\");\n  tl.reversed(!tl.reversed());\n}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

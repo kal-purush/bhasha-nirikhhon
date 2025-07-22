@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "io",
+        "helidon",
+        "sitegen",
+        "java",
+        "util",
+        "Collection",
+        "java",
+        "util",
+        "java",
+        "util",
+        "java",
+        "util",
+        "java",
+        "util",
+        "Entry",
+        "attributes",
+        "key",
+        "val",
+        "attributes",
+        "put",
+        "key",
+        "val",
+        "attributes",
+        "entrySet",
+        "SuppressWarnings",
+        "clazz",
+        "ex",
+        "ex",
+        "SuppressWarnings",
+        "keyClass",
+        "valueClass",
+        "ex",
+        "ex",
+        "SuppressWarnings",
+        "eltClass",
+        "ex",
+        "ex"
+    ],
+    "literals": [
+        "\"unchecked\"",
+        "\"unchecked\"",
+        "\"unchecked\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) 2018 Oracle and/or its affiliates. All rights reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Base builder class.\n * @param <T> the type built by the builder\n *\n * @author rgrecour",
+        "* Store an attribute.\n     * @param key the attribute name\n     * @param val the attribute value",
+        "* Get all stored attributes.\n     * @return a {@code Collection} of attributes as {@code Entry<String, Object>}",
+        "* Convert an object (a builder attribute) into the given type.\n     * @param <T> the target type\n     * @param object the object to convert\n     * @param clazz the class representing the target type\n     * @return the object as the given type\n     * @throws IllegalStateException if a cast error occurs",
+        "* Convert an object (a builder attribute) into a {@code Map}.\n     * @param <U> the target key type\n     * @param <V> the target value type\n     * @param object the object to convert\n     * @param keyClass the class representing the target key type\n     * @param valueClass the class representing the target value type\n     * @return the object as the given {@code Map} type\n     * @throws IllegalStateException if a cast error occurs",
+        "* Convert an object (a builder attribute) into a {@code List}.\n     * @param <U> the target item type\n     * @param object the object to convert\n     * @param eltClass the class representing the target item type\n     * @return the object as the given {@code List} type\n     * @throws IllegalStateException if a cast error occurs",
+        "* Build the object instance.\n     * @return the created instance"
+    ],
+    "functions": [
+        "put",
+        "values",
+        "T",
+        "asType",
+        "asMap",
+        "asList",
+        "T",
+        "build"
+    ],
+    "classes": [
+        "AbstractBuilder"
+    ]
+}

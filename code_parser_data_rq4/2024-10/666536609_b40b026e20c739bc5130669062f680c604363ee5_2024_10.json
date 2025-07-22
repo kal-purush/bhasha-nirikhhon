@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "annotations",
+        "typing",
+        "TYPE_CHECKING",
+        "great_expectations",
+        "datasource",
+        "fluent",
+        "SnowflakeDatasource",
+        "SQLDatasource",
+        "sqlalchemy",
+        "inspect",
+        "TYPE_CHECKING",
+        "sqlalchemy",
+        "engine",
+        "Inspector",
+        "datasource",
+        "SQLDatasource",
+        "Inspector",
+        "inspect",
+        "datasource",
+        "get_engine",
+        "isinstance",
+        "datasource",
+        "SnowflakeDatasource",
+        "datasource",
+        "schema_",
+        "inspector",
+        "get_table_names",
+        "schema",
+        "datasource",
+        "schema_",
+        "inspector",
+        "get_table_names"
+    ],
+    "literals": [],
+    "variables": [
+        "inspector"
+    ],
+    "comments": [
+        "Snowflake-SQLAlchemy uses the default_schema if no schema is provided to get_table_names",
+        "Or if the role does not have access to the schema (it silently fails and defaults to using default_schema)",
+        "See https://github.com/snowflakedb/snowflake-sqlalchemy/blob/e78319725d4b96ea205ef1264b744c65eb37853d/src/snowflake/sqlalchemy/snowdialect.py#L731",
+        "Explicitly passing the schema to the inspector to get the table names"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_table_names"
+    ],
+    "classes": []
+}

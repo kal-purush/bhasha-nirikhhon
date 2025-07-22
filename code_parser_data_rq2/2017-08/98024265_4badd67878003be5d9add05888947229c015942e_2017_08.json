@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "FootballDataApiHome"
+    ],
+    "literals": [
+        "'../models/footballdataapi-table.home.models'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "import { FootballDataApiAway } from '../models/footballdataapi-table.away.models';",
+        "away: FootballDataApiAway;",
+        "rank: number;",
+        "team: string;",
+        "teamId: number;",
+        "playedGames: number ;",
+        "crestURI: string;",
+        "points: number;",
+        "goals: number;",
+        "goalsAgainst: number;",
+        "goalDifference: number;"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "FootballDataApiStanding"
+    ]
+}

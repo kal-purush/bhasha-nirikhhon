@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "FriendRequest",
+        "db",
+        "collection",
+        "addDoc",
+        "sender",
+        "receiver",
+        "addDoc",
+        "collection",
+        "db",
+        "friendRequest",
+        "docRef",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "\"@/models/FriendRequest\"",
+        "\"@/utils/firebaseConfig\"",
+        "\"firebase/firestore\"",
+        "string",
+        "string",
+        "\"\"",
+        "\"pending\"",
+        "\"FriendRequests\"",
+        "friend request send with id: ${docRef.id}",
+        "error sending friend request: ${error}"
+    ],
+    "variables": [
+        "friendRequest",
+        "docRef"
+    ],
+    "comments": [
+        "firebase will generate this"
+    ],
+    "docstrings": [],
+    "functions": [
+        "sendFriendReqeust"
+    ],
+    "classes": []
+}

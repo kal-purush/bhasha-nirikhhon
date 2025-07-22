@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "firstName",
+        "lastName",
+        "thisYear",
+        "birthYear",
+        "greeting"
+    ],
+    "literals": [
+        "\"Carlos\"",
+        "\"Stevenson\"",
+        "\"Hello! My name is \"",
+        "\" \"",
+        "\" and I am \"",
+        "\" years old.\"",
+        "\"a\""
+    ],
+    "variables": [
+        "birthYear",
+        "thisYear",
+        "firstName",
+        "lastName",
+        "greeting"
+    ],
+    "comments": [
+        "Be sure to uncomment the items under each step below the editable section. Be sure to comment out the entire last step. If your code fails to run, or you see a \"ReferenceError\" in the console, make sure you have completed all of the objectives \n  \n  Don't forget you can put \"console.log\" anywhere to see what your values are at any time.\n  \n  \n  \n\tStep 1:\n\t Take a look at this code and try to predict what it's going to do before running it...\n\t\n\tAfter making your guess, press 'run' at the top and take a look at the output in the console. If you were surprised by anything, go back and look at the code to see what's going on.\n\t\n\n\n\n\tStep 2:\n\tOnce you have a good handle on the code snippet, delete the code then follow the following instructions between the lines and try to recreate the snippet on your own.\n\t\n\t---------------------------------------------------------------\n\t\n\t4 variables: first name, last name, current year, and birth year.\n\ta 5th variable (greeting) that is constructed from the previous 4, it should contain a greeting with the person's full name and their age.\n\tprint the greeting with console.log\n\t\n\t---------------------------------------------------------------\n\t\n\tOnce you have your version of the code working let's go back over it and edit it to make it easier to read.  After each step, make sure to run the code to make sure the code still works!\n\n\n\n\n\n\tStep 3:\n\tAdd 2 more variables: \"fullName\" and \"age\"\n\n\tEdit the greeting string to use fullName and age instead of doing the calculations in the string itself. (the greeting should look something like this: \"Hello, my name is \" + fullName)\n\n\tDo NOT simply type the full name and age into the new variables, but set them using the calculations that were originally being done in the greeting.\n\t\n\t===== NOTE ====\n\tIn order to make the tests pass you will need to use these exact values for the years and names.  The wording needs to be exact.  If the tests fail, check spacing and punctuation:\n\t\n\tbirthYear = 1948\n\tthisYear = 1965\n\tfirstName = Carlos\n\tlastName = Stevenson\n\n\tThe greeting should say \"Hello! My name is Carlos Stevenson and I am 17 years old.\"",
+        "Edit below this line =============",
+        "Edit above this line ==============",
+        "Testing your code",
+        "Step 2:",
+        "Step 3: (Be sure to comment out Step 2)",
+        "module.exports = {",
+        "testGroup: \"b\",",
+        "greeting,",
+        "birthYear,",
+        "thisYear,",
+        "firstName,",
+        "lastName,",
+        "fullName,",
+        "age",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

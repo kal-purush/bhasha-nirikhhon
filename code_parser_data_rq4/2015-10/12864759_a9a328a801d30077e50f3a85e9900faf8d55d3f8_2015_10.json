@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "Diagnostics",
+        "CodeAnalysis",
+        "Linq",
+        "Security",
+        "Cryptography",
+        "Kentor",
+        "AuthServices",
+        "T",
+        "T",
+        "IList",
+        "T",
+        "T",
+        "IList",
+        "T",
+        "T",
+        "T",
+        "item",
+        "configuredItems",
+        "Add",
+        "item",
+        "IList",
+        "T",
+        "items",
+        "loadedItems",
+        "items",
+        "IEnumerator",
+        "T",
+        "configuredItems",
+        "Union",
+        "loadedItems",
+        "GetEnumerator",
+        "ExcludeFromCodeCoverage",
+        "GetEnumerator"
+    ],
+    "literals": [],
+    "variables": [
+        "configuredItems",
+        "loadedItems"
+    ],
+    "comments": [
+        "Collection of items with two sources: configured and loaded dyanically.",
+        "The dynamically loaded can reset while the configured are kept.",
+        "metadata.",
+        "</summary>",
+        "Add a configured item.",
+        "</summary>",
+        "<param name=\"item\">Item to add.</param>",
+        "Set the complete set of loaded items keys. Previously loaded items",
+        "are cleared, configured items remain.",
+        "</summary>",
+        "<param name=\"items\">Items to set</param>",
+        "Gets an enumerator to the combined set of keys.",
+        "</summary>",
+        "<returns>Enumerator</returns>",
+        "Weakly typed method only exists because interface requires it,",
+        "ignore in code coverage."
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "AddConfiguredKey",
+        "SetLoadedItems",
+        "GetEnumerator",
+        "IEnumerator",
+        "GetEnumerator"
+    ],
+    "classes": [
+        "ConfiguredAndLoadedCollection"
+    ]
+}

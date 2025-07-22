@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "src",
+        "padel_requests",
+        "BaseClient",
+        "src",
+        "memoization_decorator",
+        "cache_decorator",
+        "BaseClient",
+        "cache_decorator",
+        "index",
+        "date",
+        "get_schedule",
+        "date"
+    ],
+    "literals": [
+        "\"http://www.altopadel.cl/booking/srvc.aspx/ObtenerCuadro\"",
+        "\"User-Agent\"",
+        "\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36\"",
+        "\"Accept\"",
+        "\"application/json, text/javascript, */*; q=0.01\"",
+        "\"Accept-Language\"",
+        "\"en-US,en;q=0.5\"",
+        "\"Content-Type\"",
+        "\"application/json; charset=utf-8\"",
+        "\"X-Requested-With\"",
+        "\"XMLHttpRequest\"",
+        "\"Origin\"",
+        "\"http://www.altopadel.cl\"",
+        "\"DNT\"",
+        "\"1\"",
+        "\"Connection\"",
+        "\"keep-alive\"",
+        "\"Referer\"",
+        "\"http://www.altopadel.cl/Booking/Grid.aspx\"",
+        "\"ASP.NET_SessionId\"",
+        "\"k23fm33ggysunmuy2j1hhu45\"",
+        "\"cb-enabled\"",
+        "\"enabled\"",
+        "\"i18next\"",
+        "\"es-CL\"",
+        "\"Alto Padel\"",
+        "\"Padel\"",
+        "\"altopadel\""
+    ],
+    "variables": [
+        "URL",
+        "HEADERS",
+        "COOKIES",
+        "NAME",
+        "FILTER"
+    ],
+    "comments": [
+        "pylint: disable=line-too-long"
+    ],
+    "docstrings": [],
+    "functions": [
+        "get_schedule"
+    ],
+    "classes": [
+        "AltoPadelClient"
+    ]
+}

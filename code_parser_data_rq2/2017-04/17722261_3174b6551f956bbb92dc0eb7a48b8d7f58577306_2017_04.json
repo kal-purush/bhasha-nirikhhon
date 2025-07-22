@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Net",
+        "Http",
+        "Threading",
+        "Threading",
+        "Tasks",
+        "Keen",
+        "Net",
+        "Test",
+        "DelegatingHandler",
+        "IHttpMessageHandler",
+        "handler",
+        "_handler",
+        "handler",
+        "_handler",
+        "DefaultAsync",
+        "_handler",
+        "DefaultAsync",
+        "SendAsync",
+        "HttpResponseMessage",
+        "HttpRequestMessage",
+        "request",
+        "CancellationToken",
+        "cancellationToken",
+        "_handler",
+        "SendAsync",
+        "request",
+        "cancellationToken"
+    ],
+    "literals": [],
+    "variables": [
+        "IHttpMessageHandler",
+        "_handler"
+    ],
+    "comments": [
+        "Wraps an <see cref=\"IHttpMessageHandler\"/> and allows for using it as a DelegatingHandler.",
+        "If the IHttpMessageHandler doesn't already have a default action set, we'll have it call",
+        "our own base SendAsync() which will forward the request down the handler chain.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "DelegatingHandlerMock",
+        "SendAsync"
+    ],
+    "classes": [
+        "DelegatingHandlerMock"
+    ]
+}

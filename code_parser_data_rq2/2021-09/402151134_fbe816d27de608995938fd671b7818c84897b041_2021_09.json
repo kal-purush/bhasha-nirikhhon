@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "View",
+        "view",
+        "viewStateRepository",
+        "currentState",
+        "currentState",
+        "newState",
+        "e",
+        "s"
+    ],
+    "literals": [
+        "'../domain/view'"
+    ],
+    "variables": [
+        "currentState",
+        "newState"
+    ],
+    "comments": [
+        "eslint-disable functional/no-class,functional/no-this-expression",
+        "eslint-disable functional/prefer-type-literal"
+    ],
+    "docstrings": [
+        "* Copyright 2021 Fraktalio D.O.O. All rights reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\"); you may not use this file except in compliance with the\n * License. You may obtain a copy of the License at\n *\n *     http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an \"\n * AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific\n * language governing permissions and limitations under the License.",
+        "* Materialized view is using/delegating a `View` to handle events of type `E` and to maintain a state of denormalized projection(s) as a result.\n * Essentially, it represents the query/view side of the CQRS pattern.\n *\n * @param S Materialized View state of type `S`\n * @param E Events of type `E` that are handled by this Materialized View\n * @property view A view component of type `View`<`S`, `E`>\n * @property viewStateRepository Interface for `S`tate management/persistence\n * @constructor Creates `MaterializedView`\n *\n * @author Иван Дугалић / Ivan Dugalic / @idugalic",
+        "* Handles the event of type `E`\n   *\n   * @param event Event of type `E` to be handled\n   * @return State of type `S`",
+        "* View State repository interface\n *\n * Used by `MaterializedView`\n *\n * @param E Event\n * @param S State\n *\n * @author Иван Дугалић / Ivan Dugalic / @idugalic",
+        "* Fetch state\n   *\n   * @param e Event of type `E`\n   *\n   * @return current state of type `S`",
+        "* Save state\n   *\n   * @param s State of type `S`\n   * @return newly saved State of type `S`"
+    ],
+    "functions": [
+        "handle"
+    ],
+    "classes": [
+        "MaterializeView"
+    ]
+}

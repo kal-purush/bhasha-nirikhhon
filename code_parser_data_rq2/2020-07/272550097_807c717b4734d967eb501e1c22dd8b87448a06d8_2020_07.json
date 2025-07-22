@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "Entity",
+        "Column",
+        "PrimaryGeneratedColumn",
+        "CreateDateColumn",
+        "UpdateDateColumn",
+        "ManyToOne",
+        "JoinColumn",
+        "User",
+        "Entity",
+        "PrimaryGeneratedColumn",
+        "Column",
+        "ManyToOne",
+        "User",
+        "JoinColumn",
+        "Column",
+        "CreateDateColumn",
+        "UpdateDateColumn",
+        "Appointment"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'../../users/entities/User'",
+        "'appointments'",
+        "'uuid'",
+        "string",
+        "'provider_id'",
+        "string",
+        "'provider_id'",
+        "'timestamp with time zone'",
+        "'created_at'",
+        "'updated_at'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "Appointment"
+    ]
+}

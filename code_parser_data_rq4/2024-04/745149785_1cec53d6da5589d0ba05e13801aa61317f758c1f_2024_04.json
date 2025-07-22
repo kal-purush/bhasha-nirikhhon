@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "HttpClient",
+        "HttpHeaders",
+        "Injectable",
+        "Observable",
+        "Injectable",
+        "HttpHeaders",
+        "clienteHttp",
+        "datosFormulario",
+        "datosFormulario",
+        "idPrducto",
+        "imagenes",
+        "FormData",
+        "i",
+        "imagenes",
+        "i",
+        "formData",
+        "imagenes",
+        "i",
+        "formData",
+        "value",
+        "key",
+        "idPrducto",
+        "formData"
+    ],
+    "literals": [
+        "'@angular/common/http'",
+        "'@angular/core'",
+        "'rxjs'",
+        "'root'",
+        "string",
+        "'https://olympus.arvispace.com/gimnasioRoles/configuracion/superAdministrador/creaProductoV3.php'",
+        "'Content-Type'",
+        "'application/json'",
+        "'?creaProducto'",
+        "\"entra\"",
+        "'files[]'",
+        "'Datos de las imagenes tipo formData:'",
+        "'?subirImagenes'"
+    ],
+    "variables": [
+        "formData",
+        "i"
+    ],
+    "comments": [
+        "API: string = 'http://localhost/uploadFiles/creaProductoV3.php';",
+        "para guardar los headers que manda el API",
+        "!es muy importante que el nombre tenga llaves files[] , de lo contrario php no lo reconoce",
+        "Imprime el contenido de formData en la consola"
+    ],
+    "docstrings": [
+        "* Este metodo comprueba si se estan enviando imagenes al back\n   * @param imagenes\n   * @returns"
+    ],
+    "functions": [
+        "creaProducto",
+        "subirImagenes"
+    ],
+    "classes": [
+        "UploadService"
+    ]
+}

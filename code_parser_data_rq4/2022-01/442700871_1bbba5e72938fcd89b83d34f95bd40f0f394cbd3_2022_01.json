@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "axios",
+        "config",
+        "axios",
+        "config",
+        "config",
+        "handle",
+        "GitHubProxy",
+        "GitHubProxy",
+        "handle",
+        "response",
+        "response",
+        "err",
+        "err",
+        "repoUrl",
+        "GitHubProxy",
+        "repoUrl",
+        "response",
+        "response",
+        "err",
+        "err",
+        "GitHubProxy"
+    ],
+    "literals": [
+        "'axios'",
+        "'../config/config'",
+        "${config.get().gitHub.authToken}",
+        "${GitHubProxy.gitHubAPIUrl}/users/${handle}",
+        "${repoUrl}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getHandler",
+        "getRepos"
+    ],
+    "classes": [
+        "GitHubProxy"
+    ]
+}

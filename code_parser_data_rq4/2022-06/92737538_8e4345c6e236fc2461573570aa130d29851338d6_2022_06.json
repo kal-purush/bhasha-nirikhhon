@@ -1,0 +1,75 @@
+{
+    "identifiers": [
+        "argparse",
+        "argparse",
+        "ArgumentParser",
+        "parser",
+        "add_argument",
+        "help",
+        "parser",
+        "add_argument",
+        "help",
+        "nargs",
+        "parser",
+        "parse_args",
+        "martypy",
+        "Marty",
+        "Marty",
+        "args",
+        "connMethod",
+        "args",
+        "locator",
+        "blocking",
+        "bytesSent",
+        "totalBytes",
+        "bytesSent",
+        "totalBytes",
+        "my_marty",
+        "get_volume",
+        "volume",
+        "my_marty",
+        "set_volume",
+        "my_marty",
+        "play_mp3",
+        "cur_path",
+        "joinpath",
+        "fileName",
+        "progressCB",
+        "my_marty",
+        "close"
+    ],
+    "literals": [
+        "'connMethod'",
+        "'Connection method (wifi or usb)'",
+        "'locator'",
+        "'IP Address for Wifi or Serial Port for USB'",
+        "'?'",
+        "f\"Progress {bytesSent}/{totalBytes}\"",
+        "f\"Marty's volume is {volume}% - change it to 70%\"",
+        "\"completed_tone_low_br.mp3\""
+    ],
+    "variables": [
+        "parser",
+        "args",
+        "my_marty",
+        "volume",
+        "fileName"
+    ],
+    "comments": [
+        "See README.md for instructions on how to run this",
+        "Arguments",
+        "Import Marty from the martypy library",
+        "Connect to a Marty and# use the variable my_marty to refer to that Marty",
+        "Function used for callback",
+        "Get and set current volume",
+        "Play an MP3 file",
+        "Disconnect from Marty"
+    ],
+    "docstrings": [
+        "'''\nA program to play an MP3 sound file on Marty\n'''"
+    ],
+    "functions": [
+        "progressCB"
+    ],
+    "classes": []
+}

@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "generateConfig",
+        "constants",
+        "process",
+        "constants",
+        "process",
+        "key",
+        "disconnected",
+        "configOverride",
+        "port",
+        "generateConfig",
+        "configOverride"
+    ],
+    "literals": [
+        "'./generate-config'",
+        "'@sitecore-jss/sitecore-jss-nextjs'",
+        "string",
+        "string",
+        "http://localhost:${port}",
+        "'./generate-component-factory'"
+    ],
+    "variables": [
+        "disconnected",
+        "port",
+        "configOverride"
+    ],
+    "comments": [
+        "BOOTSTRAPPING\n  The bootstrap process runs before build, and generates JS that needs to be\n  included into the build - specifically, the component name to component mapping,\n  and the global config module.",
+        "CONFIG GENERATION\n  Generates the /src/temp/config.js file which contains runtime configuration\n  that the app can import and use.",
+        "COMPONENT FACTORY GENERATION"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

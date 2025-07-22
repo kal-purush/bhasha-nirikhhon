@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "Autofac",
+        "Rabbit",
+        "Components",
+        "DataBase",
+        "Providers",
+        "Rabbit",
+        "Kernel",
+        "Rabbit",
+        "Components",
+        "DataBase",
+        "IKernelBuilder",
+        "kernelBuilder",
+        "kernelBuilder",
+        "OnStarting",
+        "builder",
+        "RegisterType",
+        "DbConnectionFactory",
+        "As",
+        "IDbConnectionFactory",
+        "InstancePerDependency",
+        "builder",
+        "RegisterType",
+        "SqlDbConnectionProvider",
+        "As",
+        "IDbConnectionProvider",
+        "SingleInstance"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "建设者扩展方法。",
+        "</summary>",
+        "使用数据。",
+        "</summary>",
+        "<param name=\"kernelBuilder\">内核建设者。</param>",
+        "kernelBuilder.RegisterExtension(typeof (BuilderExtensions).Assembly);"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "UseDataBase"
+    ],
+    "classes": [
+        "BuilderExtensions"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "props",
+        "props",
+        "props",
+        "props"
+    ],
+    "literals": [
+        "'styled-components'",
+        "width: 100%;\n\n    .react-autosuggest__container {\n        position: relative;\n        width: 100%;\n        display: flex;\n    }\n\n    .react-autosuggest__input {\n        width: 100%;\n        padding: 16px 20px;\n        font-family: Helvetica, sans-serif;\n        font-weight: 300;\n        font-size: 16px;\n        border: 1px solid inherit;\n        border-radius: 4px;\n        background: ${props => props.theme.bgColor};\n        color: ${props => props.theme.textColor};\n    }\n\n    .react-autosuggest__input--focused {\n        outline: none;\n    }\n\n    .react-autosuggest__input--open {\n        border-bottom-left-radius: 0;\n        border-bottom-right-radius: 0;\n    }\n\n    .react-autosuggest__suggestions-container {\n        display: none;\n    }\n\n    .react-autosuggest__suggestions-container--open {\n        display: block;\n        position: absolute;\n        top: 51px;\n        width: 100%;\n        border: 1px solid #aaa;\n        background-color: inherit;\n        font-family: Helvetica, sans-serif;\n        font-weight: 300;\n        font-size: 16px;\n        border-bottom-left-radius: 4px;\n        border-bottom-right-radius: 4px;\n        z-index: 2;\n    }\n\n    .react-autosuggest__suggestions-list {\n        margin: 0;\n        padding: 0;\n        list-style-type: none;\n        background: white;\n    }\n\n    .react-autosuggest__suggestion {\n        cursor: pointer;\n        padding: 10px 20px;\n    }\n\n    .react-autosuggest__suggestion--highlighted {\n        background-color: #ddd;\n    }"
+    ],
+    "variables": [
+        "WrapperSearch"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

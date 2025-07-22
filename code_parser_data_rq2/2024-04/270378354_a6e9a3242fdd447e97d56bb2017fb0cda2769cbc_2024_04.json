@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "applyToAllActors",
+        "actor",
+        "actor",
+        "actor",
+        "actor",
+        "actor",
+        "actor",
+        "invalID",
+        "game",
+        "game",
+        "invalID",
+        "convertAgeToNumber",
+        "tempActor",
+        "applyToAllActors",
+        "convertAgeToNumber",
+        "applyToInvalid"
+    ],
+    "literals": [
+        "\"../module/utils/migration-utils\"",
+        "'traveller'",
+        "\"value\"",
+        "'number'",
+        "'system.age.value'",
+        "\"Age Migration Complete\""
+    ],
+    "variables": [
+        "tempActor"
+    ],
+    "comments": [
+        "eslint-disable-next-line @typescript-eslint/ban-ts-comment",
+        "@ts-nocheck This turns off *all* typechecking, make sure to remove this once foundry-vtt-types are updated to cover v10."
+    ],
+    "docstrings": [],
+    "functions": [
+        "convertAgeToNumber",
+        "applyToInvalid",
+        "migrate"
+    ],
+    "classes": []
+}

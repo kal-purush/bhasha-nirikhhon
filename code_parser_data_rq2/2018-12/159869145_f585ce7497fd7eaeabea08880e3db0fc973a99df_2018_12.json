@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "PageModule",
+        "RequireConfig",
+        "getBundlingData",
+        "data",
+        "getBundlingData",
+        "pageConfigType",
+        "modules",
+        "m",
+        "m",
+        "err",
+        "val",
+        "f",
+        "f",
+        "val",
+        "cb",
+        "cb",
+        "cb",
+        "cb"
+    ],
+    "literals": [
+        "'../../types/require'",
+        "'../../interop'",
+        "'No pageConfigType found'",
+        "'mixins!'"
+    ],
+    "variables": [
+        "page"
+    ],
+    "comments": [
+        "TODO: Actually handle this case, since it will point to a bug",
+        "in the shaky logic of `_getPageConfigType` in `interop.ts`",
+        "TODO: Address this hack better. m2 has a bug where",
+        "a superfluous mixin is added to the Require registry for any",
+        "require() with a relative URL (./).",
+        "TODO: Handle errors. Most common error is us attempting",
+        "to eval code in the currently-inspected page when it's",
+        "between pages, which can be safely ignored"
+    ],
+    "docstrings": [
+        "* Copyright © Magento, Inc. All rights reserved.\n * See COPYING.txt for license details."
+    ],
+    "functions": [
+        "pollForModules",
+        "notifyListeners",
+        "stopPolling",
+        "unsubscribe",
+        "subscribe"
+    ],
+    "classes": [
+        "PageCollector"
+    ]
+}

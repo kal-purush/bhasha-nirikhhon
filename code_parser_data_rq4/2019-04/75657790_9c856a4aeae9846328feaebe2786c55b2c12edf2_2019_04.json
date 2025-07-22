@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "GraphQLSchema",
+        "concatAST",
+        "visit",
+        "PluginFunction",
+        "Types",
+        "RawConfig",
+        "CompatabilityPluginVisitor",
+        "plugin",
+        "schema",
+        "documents",
+        "Types",
+        "config",
+        "additionalData",
+        "concatAST",
+        "documents",
+        "prev",
+        "v",
+        "prev",
+        "v",
+        "additionalData",
+        "p",
+        "p",
+        "REACT_APOLLO_PLUGIN_NAME",
+        "CompatabilityPluginVisitor",
+        "config",
+        "schema",
+        "visit",
+        "allAst",
+        "visitor",
+        "visitorResult",
+        "a",
+        "a",
+        "a"
+    ],
+    "literals": [
+        "'graphql'",
+        "'@graphql-codegen/plugin-helpers'",
+        "'@graphql-codegen/visitor-plugin-common'",
+        "'./visitor'",
+        "'typescript-react-apollo'",
+        "string",
+        "'string'",
+        "'\\n'"
+    ],
+    "variables": [
+        "REACT_APOLLO_PLUGIN_NAME",
+        "plugin",
+        "allAst",
+        "reactApollo",
+        "visitor",
+        "visitorResult"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @name noNamespaces\n   * @type boolean\n   * @description Does not generate TypeScript `namepsace`s and uses the operation name as prefix.\n   * @default false\n   *\n   * @example\n   * ```yml\n   * generates:\n   * path/to/file.ts:\n   *  plugins:\n   *    - typescript\n   *    - typescript-operations\n   *    - typescript-compatibility\n   *  config:\n   *    noNamespaces: true\n   * ```"
+    ],
+    "functions": [],
+    "classes": []
+}

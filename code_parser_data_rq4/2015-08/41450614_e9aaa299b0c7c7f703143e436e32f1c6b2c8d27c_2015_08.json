@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "inputWords",
+        "inputWords",
+        "countObj",
+        "currentWord",
+        "index",
+        "arr",
+        "countObj",
+        "currentWord",
+        "countObj",
+        "currentWord",
+        "countObj",
+        "currentWord",
+        "countObj"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "FUNCTIONAL JAVASCRIPT IS GOOD\n───────────────────────────────\n Basic: Reduce\n Exercise 6 of 18\n\n\n# Task\n\nGiven an Array of strings, use Array#reduce to create an object that contains the number of times each string occured in the array. Return the object directly (no need to console.log).\n\n## Example\n\n    var inputWords = ['Apple', 'Banana', 'Apple', 'Durian', 'Durian', 'Durian']\n    \n    console.log(countWords(inputWords))\n    \n    // =>\n    // {\n    //   Apple: 2,\n    //   Banana: 1,\n    //   Durian: 3\n    // }\n\n## Arguments\n\n  * inputWords: An array of random Strings.\n\n## Conditions\n\n  * Do not use any for/while loops or Array#forEach.\n  * Do not create any unecessary functions e.g. helpers.\n\n## Resources\n\n  * https://en.wikipedia.org/wiki/Reduce_(higher-order_function)\n  * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce\n\n## Boilerplate\n\n    function countWords(inputWords) {\n      // SOLUTION GOES HERE\n    }\n    \n    module.exports = countWords",
+        "input:      [ 'nulla', 'irure', 'mollit', 'lorem', 'duis', 'irure', 'incididunt', 'sit', 'commodo', 'dolor', 'reprehenderit', 'eu', 'quis', 'culpa', 'laboris', 'ad', 'elit', 'esse', 'eu', 'enim', 'consequat', 'lorem', 'sit', 'quis', 'cupidatat', 'do', 'est', 'aute', 'aute', 'aliquip', 'enim', 'excepteur', 'exercitation', 'minim', 'aliquip', 'consectetur' ]\nsubmission: { nulla: 1, irure: 2, mollit: 1, lorem: 2, duis: 1, incididunt: 1, sit: 2, commodo: 1, dolor: 1, reprehenderit: 1, eu: 2, quis: 2, culpa: 1, laboris: 1, ad: 1, elit: 1, esse: 1, enim: 2, consequat: 1, cupidatat: 1, do: 1, est: 1, aute: 2, aliquip: 2, excepteur: 1, exercitation: 1, minim: 1, consectetur: 1 }\nsolution:   { nulla: 1, irure: 2, mollit: 1, lorem: 2, duis: 1, incididunt: 1, sit: 2, commodo: 1, dolor: 1, reprehenderit: 1, eu: 2, quis: 2, culpa: 1, laboris: 1, ad: 1, elit: 1, esse: 1, enim: 2, consequat: 1, cupidatat: 1, do: 1, est: 1, aute: 2, aliquip: 2, excepteur: 1, exercitation: 1, minim: 1, consectetur: 1 }\n\n# PASS\n\nYour solution to Basic: Reduce passed!\n\nHere's the official solution in case you want to compare notes:\n\n────────────────────────────────────────────────────────────────────────────────\n    function countWords(arr) {\n      return arr.reduce(function(countMap, word) {\n        countMap[word] = ++countMap[word] || 1 // increment or initialize to 1\n        return countMap\n      }, {}) // second argument to reduce initialises countMap to {}\n    }\n    \n    module.exports = countWords\n\n────────────────────────────────────────────────────────────────────────────────"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

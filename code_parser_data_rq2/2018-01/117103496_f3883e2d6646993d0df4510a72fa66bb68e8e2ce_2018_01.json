@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "board",
+        "other",
+        "move",
+        "i",
+        "j"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* An immutable class that represents the state of the 3×3 tic-tac-toe board.\n *\n * @author INSERT YOUR NAME(S) HERE",
+        "* TBD: Create additional private members if useful.",
+        "* Construct an empty board (contains all space char's).",
+        "* TBD",
+        "* Given the 'other' board as a starting condition, apply the given\n     * 'move' to generate this board's state.",
+        "* TBD",
+        "* Convert to a string that shows the board's state.",
+        "* TBD",
+        "* Get the entry of the board at column i, row j.  Both indices should\n     * be in the range [0, 2].",
+        "* TBD",
+        "* @return true if there remain no empty spots on the board.",
+        "* TBD"
+    ],
+    "functions": [
+        "Board",
+        "Board",
+        "toString",
+        "get",
+        "isFull"
+    ],
+    "classes": [
+        "Board"
+    ]
+}

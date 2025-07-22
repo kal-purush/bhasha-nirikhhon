@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Linq",
+        "Newtonsoft",
+        "Json",
+        "Threading",
+        "Tasks",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Collections",
+        "Generic",
+        "DbConnection",
+        "theWall",
+        "Controllers",
+        "Controller",
+        "DbConnector",
+        "connect",
+        "_dbConnector",
+        "connect",
+        "HttpGet",
+        "Route",
+        "View"
+    ],
+    "literals": [
+        "\"\""
+    ],
+    "variables": [
+        "DbConnector",
+        "_dbConnector"
+    ],
+    "comments": [
+        "Session:",
+        "HttpContext.Session.SetString(\"KeyName\", \"Value\");",
+        "string sessionStr = HttpContext.Session.GetString(\"KeyName\");",
+        "HttpContext.Session.SetInt32(\"KeyName\", Int);",
+        "int? sessionInt = HttpContext.Session.GetInt32(\"KeyName\");",
+        "JSON:",
+        "session.SetString(key, JsonConvert.SerializeObject(value);",
+        "string jsonValue = session.GetString(key)",
+        "JsonConvert.DeserializeObject<T>(value);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "WallController",
+        "IActionResult",
+        "Index"
+    ],
+    "classes": [
+        "WallController"
+    ]
+}

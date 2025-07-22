@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "elem",
+        "e",
+        "$",
+        "elem",
+        "elem",
+        "e",
+        "elLeft",
+        "e",
+        "elTop",
+        "$",
+        "$ripple",
+        "y",
+        "x",
+        "elem",
+        "$ripple"
+    ],
+    "literals": [
+        "\".login\"",
+        "\".app\"",
+        "\".ripple\"",
+        "\"<div class='ripple'></div>\""
+    ],
+    "variables": [
+        "animating",
+        "submitPhase1",
+        "submitPhase2",
+        "logoutPhase1",
+        "$login",
+        "$app",
+        "elTop",
+        "elLeft",
+        "x",
+        "y",
+        "$ripple"
+    ],
+    "comments": [
+        "$(document).on(\"click\", \".login__submit\", function(e) {\n    if (animating) return;\n    animating = true;\n    var that = this;\n    ripple($(that), e);\n    $(that).addClass(\"processing\");\n    setTimeout(function() {\n      $(that).addClass(\"success\");\n      setTimeout(function() {\n        $app.show();\n        $app.css(\"top\");\n        $app.addClass(\"active\");\n      }, submitPhase2 - 70);\n      setTimeout(function() {\n        $login.hide();\n        $login.addClass(\"inactive\");\n        animating = false;\n        $(that).removeClass(\"success processing\");\n      }, submitPhase2);\n    }, submitPhase1);\n  });\n  \n $(document).on(\"click\", \".app__logout\", function(e) {\n    if (animating) return;\n    $(\".ripple\").remove();\n    animating = true;\n    var that = this;\n    $(that).addClass(\"clicked\");\n    setTimeout(function() {\n      $app.removeClass(\"active\");\n      $login.show();\n      $login.css(\"top\");\n      $login.removeClass(\"inactive\");\n    }, logoutPhase1 - 120);\n    setTimeout(function() {\n      $app.hide();\n      animating = false;\n      $(that).removeClass(\"clicked\");\n    }, logoutPhase1);\n  });"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ripple"
+    ],
+    "classes": []
+}

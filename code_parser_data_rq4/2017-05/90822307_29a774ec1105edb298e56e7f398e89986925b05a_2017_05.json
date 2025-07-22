@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Injectable",
+        "SQLite",
+        "SQLiteObject",
+        "Injectable",
+        "sqlite",
+        "sqliteObject",
+        "db",
+        "db",
+        "sql",
+        "book_id",
+        "title",
+        "intro",
+        "sql",
+        "book_id",
+        "title",
+        "intro",
+        "data",
+        "sql",
+        "res",
+        "index",
+        "res",
+        "index",
+        "result",
+        "res",
+        "index",
+        "result"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@ionic-native/sqlite'",
+        "'rxjs/add/operator/map'",
+        "'data.db'",
+        "'default'",
+        "'create table if not exists book(id integer primary key autoincrement, book_id integer, title string, intro text, created_at DATETIME DEFAULT CURRENT_TIMESTAMP)'",
+        "string",
+        "string",
+        "\"insert into book(book_id, title, intro, datetime) values(?,?,?,?)\"",
+        "\"select * from book\""
+    ],
+    "variables": [
+        "sql",
+        "data",
+        "sql",
+        "sql",
+        "result",
+        "index"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "openDatabase",
+        "createBookTable",
+        "insert",
+        "read"
+    ],
+    "classes": [
+        "SqlServiceProvider"
+    ]
+}

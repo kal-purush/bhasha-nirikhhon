@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Data",
+        "Entity",
+        "Discriminator",
+        "Model",
+        "Discriminator",
+        "DAL",
+        "DbConfiguration",
+        "SetDefaultConnectionFactory",
+        "Data",
+        "Entity",
+        "Infrastructure",
+        "LocalDbConnectionFactory",
+        "DbConfigurationType",
+        "Discriminator",
+        "DAL",
+        "Myconfiguration",
+        "DbContext",
+        "DbSet",
+        "BillingDetail",
+        "DbModelBuilder",
+        "modelBuilder",
+        "modelBuilder",
+        "Entity",
+        "BillingDetail",
+        "BankAccount",
+        "m",
+        "Requires",
+        "HasValue",
+        "CreditCard",
+        "m",
+        "Requires",
+        "HasValue"
+    ],
+    "literals": [
+        "\"mssqllocaldb\"",
+        "\"Name=DiscriminatorConn\"",
+        "\"BillingDetailType\"",
+        "\"BillingDetailType\""
+    ],
+    "variables": [
+        "BillingDetails"
+    ],
+    "comments": [
+        "Database.SetInitializer(new DropCreateDatabaseIfModelChanges<EfDbContext>());",
+        "Database.SetInitializer<EfDbContext>(null);",
+        "使用DbConfiguration后这里就不用配置了",
+        "Database.SetInitializer( new DropCreateDatabaseIfModelChanges<EfDbContext>());",
+        "使用dbset来显露基类属性",
+        "自定义Discriminator值,对继承层次的类型进行区分（不同类型的返回值不同）",
+        "没有自定义的话系统会在表中自动加一个Discriminator列区分 ，这里自定义了所加BillingDetailType"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Myconfiguration",
+        "EfDbContext",
+        "OnModelCreating"
+    ],
+    "classes": [
+        "Myconfiguration",
+        "EfDbContext"
+    ]
+}

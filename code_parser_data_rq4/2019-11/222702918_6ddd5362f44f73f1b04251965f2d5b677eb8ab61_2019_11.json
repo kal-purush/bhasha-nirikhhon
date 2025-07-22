@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "ev_queue",
+        "iter",
+        "ev_queue",
+        "get",
+        "ev_queue",
+        "is_set"
+    ],
+    "literals": [
+        "'bsodmon'",
+        "'queue'",
+        "'Plugin'",
+        "'bsodmon'",
+        "'completed'"
+    ],
+    "variables": [
+        "PLUGIN_LIST"
+    ],
+    "comments": [
+        "This simple selects only bsodmon plugin, to avoid",
+        "performance hits and to be used to benchmark a binary execution speed,",
+        "in order to compare the performance cost of procmon and filetracer in test_injection.",
+        "we need to activate at least one plugin otherwise Drakvuf will enable all of them,",
+        "so bsodmon, since it never triggers (hopefully !)",
+        "Note: You need to use ANSIBLE to trigger the execution, it's the only injection method",
+        "where we can know when the binary has finished its execution without introspection method"
+    ],
+    "docstrings": [],
+    "functions": [
+        "test_raw_perf"
+    ],
+    "classes": []
+}

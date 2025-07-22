@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "PInvoke",
+        "SendMessageTimeoutFlags",
+        "SMTO_ABORTIFHUNG",
+        "SMTO_BLOCK",
+        "SMTO_NORMAL",
+        "SMTO_NOTIMEOUTIFNOTHUNG",
+        "SMTO_ERRORONEXIT"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Copyright (c) to owners found in https://github.com/AArnott/pinvoke/blob/master/COPYRIGHT.md. All rights reserved.",
+        "Licensed under the MIT license. See LICENSE.txt file in the project root for full license information.",
+        "<content>",
+        "Contains the <see cref=\"SendMessageTimeoutFlags\"/> nested type.",
+        "</content>",
+        "Possible flag values for <see cref=\"User32.SendMessageTimeout\"/>",
+        "Documentation pulled from MSDN.",
+        "</summary>",
+        "The function returns without waiting for the time-out period to elapse if the receiving thread appears to not respond or \"hangs.\"",
+        "</summary>",
+        "Prevents the calling thread from processing any other requests until the function returns.",
+        "</summary>",
+        "The calling thread is not prevented from processing other requests while waiting for the function to return.",
+        "</summary>",
+        "The function does not enforce the time-out period as long as the receiving thread is processing messages.",
+        "</summary>",
+        "The function should return 0 if the receiving window is destroyed or its owning thread dies while the message is being processed.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "User32"
+    ]
+}

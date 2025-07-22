@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "selectByOrderedIdentifiers",
+        "describe",
+        "it",
+        "selectByOrderedIdentifiers",
+        "expect",
+        "selectQuery"
+    ],
+    "literals": [
+        "'./SelectByOrderedIdentifiers'",
+        "'QUERY selectByOrderedIdentifiers'",
+        "'should generate sql and parameter for select row by given selector list'",
+        "'id'",
+        "'cola'",
+        "'colb'",
+        "'table'",
+        "SELECT table.cola, table.colb\nFROM table\nJOIN (\nVALUES ($id1, 1), ($id2, 2)\n) AS x (id, ordering)\nON table.id::varchar=x.id\nORDER BY x.ordering;"
+    ],
+    "variables": [
+        "selectQuery"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

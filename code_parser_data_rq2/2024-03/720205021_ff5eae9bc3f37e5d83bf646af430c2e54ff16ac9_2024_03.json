@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "Godot",
+        "TileMap",
+        "delta",
+        "InputEvent",
+        "@event",
+        "@event",
+        "InputEventMouseButton",
+        "eventMouseButton",
+        "eventMouseButton",
+        "ButtonIndex",
+        "MouseButton",
+        "Left",
+        "eventMouseButton",
+        "IsReleased",
+        "eventMouseButton",
+        "GlobalPosition",
+        "ToLocal",
+        "globalClickPos",
+        "LocalToMap",
+        "posToLocal",
+        "GD",
+        "Print",
+        "localPosToMap"
+    ],
+    "literals": [],
+    "variables": [
+        "TileWidth",
+        "TileHeight",
+        "Vector2",
+        "globalClickPos",
+        "Vector2",
+        "posToLocal",
+        "Vector2",
+        "localPosToMap"
+    ],
+    "comments": [
+        "Called when the node enters the scene tree for the first time.",
+        "Called every frame. 'delta' is the elapsed time since the previous frame.",
+        "Melyik hexben vagyunk",
+        "Vector2 dest = new Vector2(TileWidth * localPosToMap.X, TileHeight * localPosToMap.Y);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "_Ready",
+        "_Process",
+        "_Input"
+    ],
+    "classes": [
+        "TileMapController"
+    ]
+}

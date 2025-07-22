@@ -1,0 +1,15 @@
+{
+    "identifiers": [],
+    "literals": [
+        "import { CreateDateColumn, UpdateDateColumn, VersionColumn } from 'typeorm';\n\nexport abstract class Audit {\n  @CreateDateColumn()\n  createdAt;\n\n  @UpdateDateColumn()\n  updatedAt;\n\n  @VersionColumn()\n  version;\n}",
+        "import { CreateDateColumn, UpdateDateColumn, VersionColumn } from 'typeorm';\nexport class Audit {\n    static _OPENAPI_METADATA_FACTORY() {\n        return { createdAt: { required: true, type: () => Object }, updatedAt: { required: true, type: () => Object }, version: { required: true, type: () => Object } };\n    }\n}\n__decorate([\n    CreateDateColumn()\n], Audit.prototype, \"createdAt\", void 0);\n__decorate([\n    UpdateDateColumn()\n], Audit.prototype, \"updatedAt\", void 0);\n__decorate([\n    VersionColumn()\n], Audit.prototype, \"version\", void 0);"
+    ],
+    "variables": [
+        "createCatDtoAlt2Text",
+        "createCatDtoTextAlt2Transpiled"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

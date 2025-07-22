@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "Observable",
+        "coroutineIterator",
+        "Observable",
+        "coroutineIterator",
+        "idx",
+        "idx",
+        "idx",
+        "idx",
+        "next",
+        "idx",
+        "coroutine",
+        "next",
+        "coroutine",
+        "next",
+        "idx",
+        "idx",
+        "resolver",
+        "rejecter",
+        "coroutineIterator",
+        "resolver",
+        "rejecter",
+        "Observable",
+        "coroutine",
+        "coroutine"
+    ],
+    "literals": [
+        "\"../types\"",
+        "\"./observable\"",
+        "\"./observable\""
+    ],
+    "variables": [
+        "idx",
+        "next",
+        "coroutine"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Internal list of iterators and promise resolvers associated with coroutines.",
+        "* Runs a coroutine asynchronously on this observable\n         * @param coroutineIterator the iterator resulting from having started the coroutine\n         * @returns a promise which will be resolved when the coroutine finishes or rejected if the coroutine is cancelled",
+        "* Cancels all coroutines currently running on this observable"
+    ],
+    "functions": [],
+    "classes": []
+}

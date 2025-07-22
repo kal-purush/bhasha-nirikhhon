@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Injectable",
+        "HttpClient",
+        "DetallesAdicionales",
+        "Injectable",
+        "http",
+        "DetallesAdicionales",
+        "DetallesAdicionales",
+        "id",
+        "id",
+        "DetallesAdicionales",
+        "DetallesAdicionales",
+        "DetallesAdicionales",
+        "id",
+        "id"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/common/http'",
+        "'../models/detalles-adicionales'",
+        "'root'",
+        "'//catastrocholomaapi.azurewebsites.net/api'",
+        "${this.API_URL}/DetallesAdicionales",
+        "${this.API_URL}/DetallesAdicionales",
+        "string",
+        "${this.API_URL}/DetallesAdicionales/${id}",
+        "${this.API_URL}/DetallesAdicionales/${DetallesAdicionales.idClaveCatastral}",
+        "string",
+        "${this.API_URL}/DetallesAdicionales/${id}"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getDetallesAdicionales",
+        "saveDetallesAdicionales",
+        "getDetallesAdicional",
+        "modifyDetallesAdicionales",
+        "deleteDetallesAdicionales"
+    ],
+    "classes": [
+        "DetallesAdicionalesService"
+    ]
+}

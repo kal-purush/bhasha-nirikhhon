@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Http",
+        "Observable",
+        "EmployeeLocationModel",
+        "Injectable",
+        "http",
+        "csv",
+        "csv",
+        "csvString",
+        "csvRows",
+        "rowIndex",
+        "csvRows",
+        "rowIndex",
+        "csvRows",
+        "rowIndex",
+        "csvArray",
+        "rowIndex",
+        "propIndex",
+        "rowArray",
+        "propIndex",
+        "rowArray",
+        "propIndex",
+        "csvHeaders",
+        "propIndex",
+        "rowObject",
+        "propLabel",
+        "propValue",
+        "csvArray"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@angular/http'",
+        "'rxjs'",
+        "'./employee-location.model'",
+        "'../../assets/employee-locations.csv'",
+        "string",
+        "','",
+        "','",
+        "''",
+        "''"
+    ],
+    "variables": [
+        "csvString",
+        "csvArray",
+        "csvRows",
+        "csvHeaders",
+        "rowIndex",
+        "rowArray",
+        "rowObject",
+        "propIndex",
+        "propValue",
+        "propLabel"
+    ],
+    "comments": [
+        "Break it into rows to start",
+        "Take off the first line to get the headers, then split that into an array",
+        "Loop through remaining rows",
+        "Create a new row object to store our data.",
+        "Then iterate through the remaining properties and use the headers as keys",
+        "Grab the value from the row array we're looping through...",
+        "...also grab the relevant header (the RegExp in both of these removes quotes)",
+        "Typescript unary '+' to convert string to number"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getAssetLocations",
+        "csvToArray"
+    ],
+    "classes": [
+        "AssetTrackerService"
+    ]
+}

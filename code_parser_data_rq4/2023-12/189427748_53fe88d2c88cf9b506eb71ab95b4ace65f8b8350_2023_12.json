@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "fs",
+        "linkNodeModules",
+        "toPath",
+        "fromNodeModules",
+        "fs",
+        "toPath",
+        "fs",
+        "targetNodeModules",
+        "fs",
+        "targetNodeModules",
+        "items",
+        "items",
+        "fs",
+        "targetNodeModules",
+        "fs",
+        "fromNodeModules",
+        "targetNodeModules"
+    ],
+    "literals": [
+        "'@file-services/node'",
+        "string",
+        "string",
+        "'node_modules'",
+        "'.bin'",
+        "'junction'"
+    ],
+    "variables": [
+        "linkNodeModules",
+        "targetNodeModules",
+        "items"
+    ],
+    "comments": [
+        "happens because the project path exists in the workspaces of the root package.json",
+        "link top most node_modules instead of installing all packages"
+    ],
+    "docstrings": [
+        "* This function links node_modules from a path to the project.\n * This has a BROKEN/QUESTIONABLE mechanism to handle packages that was inside the workspace\n * This will break if there will be confecting packages in root and package."
+    ],
+    "functions": [],
+    "classes": []
+}

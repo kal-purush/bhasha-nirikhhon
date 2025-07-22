@@ -1,0 +1,91 @@
+{
+    "identifiers": [
+        "net",
+        "guizhanss",
+        "guizhanlib",
+        "utils",
+        "lombok",
+        "experimental",
+        "UtilityClass",
+        "org",
+        "apache",
+        "commons",
+        "lang",
+        "Validate",
+        "org",
+        "bukkit",
+        "Location",
+        "org",
+        "bukkit",
+        "entity",
+        "Player",
+        "org",
+        "bukkit",
+        "inventory",
+        "ItemStack",
+        "javax",
+        "annotation",
+        "Nonnull",
+        "java",
+        "util",
+        "Arrays",
+        "java",
+        "util",
+        "java",
+        "util",
+        "Objects",
+        "UtilityClass",
+        "Nonnull",
+        "p",
+        "Nonnull",
+        "itemStacks",
+        "Validate",
+        "notNull",
+        "p",
+        "Validate",
+        "notNull",
+        "itemStacks",
+        "itemStacks",
+        "Arrays",
+        "stream",
+        "itemStacks",
+        "Objects",
+        "nonNull",
+        "toArray",
+        "remainingItemMap",
+        "p",
+        "getInventory",
+        "addItem",
+        "itemStacks",
+        "item",
+        "remainingItemMap",
+        "values",
+        "p",
+        "getWorld",
+        "dropItem",
+        "p",
+        "getLocation",
+        "item",
+        "clone"
+    ],
+    "literals": [
+        "\"player should not be null\"",
+        "\"at least one ItemStack is required\""
+    ],
+    "variables": [
+        "itemStacks"
+    ],
+    "comments": [
+        "filter null ItemStacks"
+    ],
+    "docstrings": [
+        "* 玩家背包相关工具包\n *\n * @author ybw0014",
+        "* This method push all {@link ItemStack} to {@link Player}'s inventory\n     * if some items cannot be pushed, they will be dropped at {@link Player}'s {@link Location}\n     *\n     * @param p the {@link Player}\n     * @param itemStacks all the {@link ItemStack}s to be pushed"
+    ],
+    "functions": [
+        "push"
+    ],
+    "classes": [
+        "InventoryUtil"
+    ]
+}

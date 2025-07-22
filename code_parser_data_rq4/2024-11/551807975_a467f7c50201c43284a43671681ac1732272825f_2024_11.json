@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "org",
+        "openrewrite",
+        "kotlin",
+        "org",
+        "junit",
+        "jupiter",
+        "api",
+        "Test",
+        "org",
+        "openrewrite",
+        "test",
+        "RewriteTest",
+        "org",
+        "openrewrite",
+        "kotlin",
+        "Assertions",
+        "kotlin",
+        "Test",
+        "rewriteRun",
+        "spec",
+        "spec",
+        "parser",
+        "KotlinParser",
+        "builder",
+        "dependsOn",
+        "kotlin"
+    ],
+    "literals": [
+        "\"\"\"\n            package foo.bar\n\n            class MyClass\n            \"\"\"",
+        "\"\"\"\n              import foo.bar.MyClass\n\n              val myClass: MyClass? = null\n              \"\"\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2023 the original author or authors.\n * <p>\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n * <p>\n * https://www.apache.org/licenses/LICENSE-2.0\n * <p>\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License."
+    ],
+    "functions": [
+        "classDefinitionFromDependsOn"
+    ],
+    "classes": [
+        "KotlinParserTest"
+    ]
+}

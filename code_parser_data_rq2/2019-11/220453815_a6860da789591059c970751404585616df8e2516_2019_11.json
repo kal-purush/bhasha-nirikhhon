@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "styled",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props"
+    ],
+    "literals": [
+        "\"styled-components\"",
+        "max-width: 600px;\n  margin: 50px auto;\n  display: flex;\n  flex-direction: column;\n\n  header {\n    display: flex;\n    align-self: center;\n    align-items: center;\n\n    button {\n      border: 0;\n      background: none;\n    }\n\n    strong {\n      color: #fff;\n      font-size: 24px;\n      margin: 0 15px;\n    }\n  }\n\n  ul {\n    display: grid;\n    grid-template-columns: repeat(2, 1fr);\n    grid-gap: 15px;\n    margin-top: 30px;\n  }",
+        "padding: 20px;\n  border-radius: 4px;\n  background: #fff;\n\n  opacity: ${props => (props.past ? 0.4 : 1)};\n\n  strong {\n    display: block;\n    color: ${props => (props.available ? \"#999\" : \"#7159c1\")};\n    font-size: 20px;\n    font-weight: normal;\n  }\n\n  span {\n    display: block;\n    margin-top: 3px;\n    color: ${props => (props.available ? \"#999\" : \"#666\")};\n  }",
+        "\"#999\"",
+        "\"#7159c1\"",
+        "\"#999\"",
+        "\"#666\""
+    ],
+    "variables": [
+        "Container",
+        "Time"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "create",
+        "devtools",
+        "persist",
+        "PersistOptions",
+        "initialState",
+        "name",
+        "localStorageOptions",
+        "localStorageOptions",
+        "create",
+        "devtools",
+        "persist",
+        "initialState",
+        "localStorageOptions",
+        "create",
+        "devtools",
+        "initialState"
+    ],
+    "literals": [
+        "'zustand'",
+        "'zustand/middleware'",
+        "string",
+        "'name'",
+        "'version'"
+    ],
+    "variables": [],
+    "comments": [
+        "Remove `name` from the `PersistOptions` type and add it back later, also make `version` required"
+    ],
+    "docstrings": [
+        "* Type that marks given fields of a type as non-optional",
+        "* Create a zustand store.\n * @param initialState The initial state of the store\n * @param name The name of the store\n * @param localStorageOptions Local storage will be used if provided.\n * @returns A store"
+    ],
+    "functions": [
+        "createStore"
+    ],
+    "classes": []
+}

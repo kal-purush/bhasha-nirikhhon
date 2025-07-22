@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "MySQLdb",
+        "MySQLdb",
+        "connect",
+        "host",
+        "user",
+        "passwd",
+        "db",
+        "db",
+        "cursor",
+        "c",
+        "execute",
+        "c",
+        "execute",
+        "c",
+        "execute",
+        "c",
+        "execute",
+        "c",
+        "execute",
+        "c",
+        "execute",
+        "c",
+        "fetchall"
+    ],
+    "literals": [
+        "\"mysql.server\"",
+        "\"joeacanfora\"",
+        "\"password\"",
+        "\"joeacanfora$CrowdStore\""
+    ],
+    "variables": [
+        "db",
+        "c"
+    ],
+    "comments": [
+        "create project table",
+        "create rewards table",
+        "create project_updates_table",
+        "create author_table"
+    ],
+    "docstrings": [
+        "\"\"\"DROP TABLE IF EXISTS rewards_table, project_updates_table, author_table, project_table CASCADE\"\"\"",
+        "\"\"\"CREATE TABLE project_table (series_number MEDIUMINT NOT NULL AUTO_INCREMENT,\nproject_id VARCHAR(50), project_name VARCHAR(255), project_url VARCHAR(255), status VARCHAR(25),\ngoal VARCHAR(15), end_date DATETIME, author_name VARCHAR(255), location VARCHAR(255),\nmain_video_link VARCHAR(255), category VARCHAR(255), currency VARCHAR(5), PRIMARY KEY(series_number))\"\"\"",
+        "\"\"\"CREATE TABLE rewards_table (reward_id MEDIUMINT NOT NULL AUTO_INCREMENT, series_number MEDIUMINT NOT NULL,\npledge_amount DECIMAL(64,2), num_backers INT, delivery DATE, description VARCHAR(255), limited BOOL,\nmax_limit INT, PRIMARY KEY (reward_id), FOREIGN KEY (series_number) REFERENCES project_table(series_number))\"\"\"",
+        "\"\"\"CREATE TABLE project_updates_table (update_id INT NOT NULL AUTO_INCREMENT, series_number MEDIUMINT NOT NULL,\npledged DECIMAL(64,2), num_backers INT, days_to_go INT, date DATE, PRIMARY KEY (update_id),\nFOREIGN KEY (series_number) REFERENCES project_table(series_number))\"\"\"",
+        "\"\"\"CREATE TABLE author_table (author_id INT NOT NULL AUTO_INCREMENT, series_number MEDIUMINT NOT NULL,\nlocation VARCHAR(255), name VARCHAR(150), description VARCHAR(255), contact VARCHAR(50),\nPRIMARY KEY(author_id), FOREIGN KEY (series_number) REFERENCES project_table(series_number))\"\"\"",
+        "\"\"\"SHOW TABLES FROM joeacanfora$CrowdStore\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

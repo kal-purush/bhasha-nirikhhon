@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "qs",
+        "apiClient",
+        "CountsResult",
+        "CountResult",
+        "Attributes",
+        "url",
+        "apiClient",
+        "qs",
+        "url",
+        "response",
+        "apiClient",
+        "id",
+        "form",
+        "response",
+        "form",
+        "apiClient",
+        "form",
+        "response"
+    ],
+    "literals": [
+        "'qs'",
+        "'./apiClient'",
+        "'../models/count'",
+        "string",
+        "/api/counts?${qs.stringify(\n        {\n          filters: {\n            url: {\n              $eq: url,\n            },\n          },\n        },\n        {\n          encodeValuesOnly: true,\n        },\n      )}",
+        "/api/counts/${id}",
+        "/api/counts"
+    ],
+    "variables": [
+        "countAPI",
+        "response",
+        "response",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

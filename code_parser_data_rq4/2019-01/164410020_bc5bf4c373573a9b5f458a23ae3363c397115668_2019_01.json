@@ -1,0 +1,91 @@
+{
+    "identifiers": [
+        "com",
+        "application",
+        "org",
+        "junit",
+        "After",
+        "org",
+        "junit",
+        "BeforeClass",
+        "org",
+        "junit",
+        "Test",
+        "junit",
+        "framework",
+        "Assert",
+        "assertEquals",
+        "TAG",
+        "parameter_1",
+        "parameter_2",
+        "dataFile",
+        "dataFileProcessor",
+        "BeforeClass",
+        "dataFileProcessor",
+        "DataFileProcessor",
+        "setProcessingParameters",
+        "dataFile",
+        "parameter_1",
+        "parameter_2",
+        "processDataFile",
+        "Test",
+        "parameter_1",
+        "equals",
+        "assertEquals",
+        "dataFileProcessor",
+        "citiesIdVisited_Size",
+        "Test",
+        "parameter_1",
+        "equals",
+        "assertEquals",
+        "dataFileProcessor",
+        "idVisitedCities_Size",
+        "After",
+        "parameter_1",
+        "parameter_2",
+        "dataFileProcessor",
+        "DataFileProcessor",
+        "setProcessingParameters",
+        "dataFile",
+        "parameter_1",
+        "parameter_2",
+        "processDataFile"
+    ],
+    "literals": [
+        "\"com.application.DataFileProcessorTests\"",
+        "\"ID\"",
+        "\"54808168L\"",
+        "\"src/test/test_input.txt\"",
+        "\"Initializing ID parameters\"",
+        "\"Testing ID parameters\"",
+        "\"ID\"",
+        "\"Checking number of cities after processing Datafile\"",
+        "\"Testing City parameters\"",
+        "\"CITY\"",
+        "\"Checking number of individuals who visited city after processing Datafile\"",
+        "\"Initializing City parameters\"",
+        "\"CITY\"",
+        "\"BARCELONA\""
+    ],
+    "variables": [
+        "dataFileProcessor"
+    ],
+    "comments": [
+        "Shelly Pane's ID"
+    ],
+    "docstrings": [
+        "*   Initialize with parameters, called twice for each test",
+        "*   Test if the size of the set is the appropriate size",
+        "* Test if the size of the map is the appropriate size",
+        "*   Change parameters to test for city parameter"
+    ],
+    "functions": [
+        "init",
+        "testIdSize",
+        "testCitySize",
+        "testProcessorAfterParameterChange"
+    ],
+    "classes": [
+        "DataFileProcessorTests"
+    ]
+}

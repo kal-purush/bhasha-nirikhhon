@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "CryptoFunctionService",
+        "LogService",
+        "PlatformUtilsService",
+        "KeySuffixOptions",
+        "StorageService",
+        "SymmetricCryptoKey",
+        "CryptoService",
+        "Keys",
+        "CryptoService",
+        "storageService",
+        "secureStorageService",
+        "cryptoFunctionService",
+        "platformUtilService",
+        "logService",
+        "storageService",
+        "secureStorageService",
+        "cryptoFunctionService",
+        "platformUtilService",
+        "logService",
+        "keySuffix",
+        "keySuffix",
+        "key",
+        "Keys",
+        "key",
+        "Keys",
+        "key",
+        "keySuffix",
+        "keySuffix",
+        "Keys",
+        "key",
+        "Keys",
+        "key",
+        "Keys",
+        "key",
+        "e",
+        "e",
+        "Keys"
+    ],
+    "literals": [
+        "'jslib-common/abstractions/cryptoFunction.service'",
+        "'jslib-common/abstractions/log.service'",
+        "'jslib-common/abstractions/platformUtils.service'",
+        "'jslib-common/abstractions/storage.service'",
+        "'jslib-common/models/domain/symmetricCryptoKey'",
+        "'jslib-common/services/crypto.service'",
+        "'auto'",
+        "'auto'",
+        "'auto'",
+        "'biometric'",
+        "'biometric'",
+        "'biometric'",
+        "string",
+        "'auto'",
+        "'auto'",
+        "'biometric'",
+        "'biometric'",
+        "Encountered error while upgrading obsolete Bitwarden secure storage item:"
+    ],
+    "variables": [
+        "key"
+    ],
+    "comments": [
+        "attempt key upgrade, but if we fail just delete it. Keys will be stored property upon unlock anyway."
+    ],
+    "docstrings": [
+        "* @deprecated 4 Jun 2021 This is temporary upgrade method to move from a single shared stored key to\n     * multiple, unique stored keys for each use, e.g. never logout vs. biometric authentication."
+    ],
+    "functions": [
+        "hasKeyStored",
+        "storeKey",
+        "retrieveKeyFromStorage",
+        "upgradeSecurelyStoredKey"
+    ],
+    "classes": [
+        "ElectronCryptoService"
+    ]
+}

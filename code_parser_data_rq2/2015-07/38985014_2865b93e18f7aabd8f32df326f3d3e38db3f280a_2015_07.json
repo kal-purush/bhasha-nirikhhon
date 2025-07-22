@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "exports",
+        "req",
+        "res",
+        "req",
+        "req",
+        "res",
+        "errors",
+        "exports",
+        "req",
+        "res",
+        "req",
+        "req",
+        "require",
+        "userController",
+        "login",
+        "password",
+        "error",
+        "user",
+        "error",
+        "req",
+        "error",
+        "res",
+        "req",
+        "user",
+        "user",
+        "res",
+        "req",
+        "exports",
+        "req",
+        "res",
+        "req",
+        "res",
+        "req"
+    ],
+    "literals": [
+        "'sessions/new'",
+        "'./user_controller'",
+        "\"message\"",
+        "'Se ha producido un error: '",
+        "\"/login\""
+    ],
+    "variables": [
+        "errors",
+        "login",
+        "password",
+        "userController"
+    ],
+    "comments": [
+        "Get /login  -- Formulario de login",
+        "POST /login -- Crear la sesion",
+        "si hay error retornamos mensajes de error de sesión",
+        "Crear req.session.user y guardar campos id y username",
+        "La sesión se define por la existencia de: req.session.user",
+        "redireccion a path anterior a login",
+        "DELETE /logout -- Destruir sesión",
+        "redirect a path anterior a login"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

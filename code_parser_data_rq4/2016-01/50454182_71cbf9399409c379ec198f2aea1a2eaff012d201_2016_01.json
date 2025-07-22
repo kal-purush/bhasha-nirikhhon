@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Component",
+        "RouteConfig",
+        "Router",
+        "ROUTER_DIRECTIVES",
+        "FORM_PROVIDERS",
+        "RouterActive",
+        "Home",
+        "About",
+        "Component",
+        "FORM_PROVIDERS",
+        "ROUTER_DIRECTIVES",
+        "RouterActive",
+        "About",
+        "RouteConfig",
+        "Home",
+        "About"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'angular2/router'",
+        "'angular2/common'",
+        "'./directives/router-active'",
+        "'./home'",
+        "'./about'",
+        "'app'",
+        "nav ul {\n      list-style-type: none;\n      margin: 1em 0;\n      padding: 0;\n    }\n    nav li {\n      display: inline-block;\n      padding: 0.25em;\n    }\n    nav li.active {\n      background-color: lightgray;\n    }\n    footer {\n      margin-top: 1em;\n      border-top: 1px solid #ccc;\n      padding-top: 0.5em;\n    }",
+        "<header>\n      <nav>\n        <h1>Hello {{ name }}</h1>\n        <ul>\n          <li router-active=\"active\">\n            <a [routerLink]=\" ['Home'] \">Home</a>\n          </li>\n          <li router-active=\"active\">\n            <a [routerLink]=\" ['About'] \">About</a>\n          </li>\n        </ul>\n      </nav>\n    </header>\n    <main>\n      <router-outlet></router-outlet>\n    </main>\n    <footer>\n      Brunch for Angular 2 by <a [href]=\"url\">Colin Bate</a>\n    </footer>",
+        "'/'",
+        "'Home'",
+        "'/about'",
+        "'About'",
+        "'/**'",
+        "'Home'",
+        "'Brunch for Angular 2'",
+        "'http://colin.is'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* App Component\n * Top Level Component"
+    ],
+    "functions": [],
+    "classes": [
+        "App"
+    ]
+}

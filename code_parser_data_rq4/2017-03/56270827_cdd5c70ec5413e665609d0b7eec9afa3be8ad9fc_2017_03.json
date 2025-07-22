@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Threading",
+        "Tasks",
+        "ConfigServer",
+        "Core",
+        "IResourceStore",
+        "ResourceEntryInfo",
+        "ConfigurationIdentity",
+        "identity",
+        "ResourceEntryRequest",
+        "name",
+        "ConfigurationIdentity",
+        "identity",
+        "UpdateResourceRequest",
+        "request"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Store for resources",
+        "</summary>",
+        "Returns all ResourceEntryInfos for a configuration identity",
+        "</summary>",
+        "<param name=\"identity\">Configuration identity being queryied</param>",
+        "<returns>All ResourceEntryInfos for a configuration identity</returns>",
+        "Gets resource for a configuration identity",
+        "</summary>",
+        "<param name=\"name\">Name of resource</param>",
+        "<param name=\"identity\">Configuration identity being queryied</param>",
+        "<returns>Resource request</returns>",
+        "Updates resource",
+        "</summary>",
+        "<param name=\"request\">Update request </param>",
+        "<returns>A task that represents the asynchronous update operation.</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "GetResourceCatalogue",
+        "GetResource",
+        "UpdateResource"
+    ],
+    "classes": []
+}

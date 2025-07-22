@@ -1,0 +1,81 @@
+{
+    "identifiers": [
+        "Text",
+        "RegularExpressions",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Dotflik",
+        "Domain",
+        "Exceptions",
+        "Dotflik",
+        "Application",
+        "Pagination",
+        "Format",
+        "PageTokenFormat",
+        "pageToken",
+        "IsNullOrWhiteSpace",
+        "pageToken",
+        "Limit",
+        "Offset",
+        "Regex",
+        "IsMatch",
+        "pageToken",
+        "PageTokenRegex",
+        "pageToken",
+        "PageTokenRegex",
+        "BadPageTokenFormatException",
+        "errorMessage",
+        "pageToken",
+        "Split",
+        "Limit",
+        "Parse",
+        "tokens",
+        "Split",
+        "Offset",
+        "Parse",
+        "tokens",
+        "Split",
+        "Format",
+        "PageTokenFormat",
+        "Limit",
+        "Offset"
+    ],
+    "literals": [
+        "\"limit={0}&offset={1}\"",
+        "\"^\"",
+        "\"[0-9]+\"",
+        "\"[0-9]+\"",
+        "\"$\""
+    ],
+    "variables": [
+        "PageTokenFormat",
+        "PageTokenRegex",
+        "Limit",
+        "Offset",
+        "errorMessage",
+        "tokens"
+    ],
+    "comments": [
+        "Represent the page token for offset pagination",
+        "</summary>",
+        "Dynamically construct the regex so if the <see cref=\"PageTokenFormat\"/>",
+        "ever changes, we'll know to update this field as well",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "OffsetPageToken",
+        "OffsetPageToken",
+        "ToToken"
+    ],
+    "classes": [
+        "OffsetPageToken"
+    ]
+}

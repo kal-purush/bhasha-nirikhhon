@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "PlaywrightTestConfig",
+        "devices",
+        "process",
+        "process",
+        "devices",
+        "config"
+    ],
+    "literals": [
+        "'@playwright/test'",
+        "'@playwright/test'",
+        "'./tests'",
+        "'html'",
+        "'on-first-retry'",
+        "'chromium'",
+        "'Desktop Chrome'",
+        "'npm run preview'"
+    ],
+    "variables": [
+        "config"
+    ],
+    "comments": [
+        "Run tests in files in parallel",
+        "{",
+        "name: 'webkit',",
+        "use: {",
+        "...devices['Desktop Safari'],",
+        "},",
+        "},"
+    ],
+    "docstrings": [
+        "* See https://playwright.dev/docs/test-configuration."
+    ],
+    "functions": [],
+    "classes": []
+}

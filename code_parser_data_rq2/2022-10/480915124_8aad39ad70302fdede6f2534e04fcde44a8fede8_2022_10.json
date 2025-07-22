@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "ComponentModel",
+        "DataAnnotations",
+        "SocialClubApp",
+        "ViewModels",
+        "Claims",
+        "Required",
+        "Required",
+        "EmailAddress"
+    ],
+    "literals": [],
+    "variables": [
+        "Id",
+        "UserName",
+        "Email",
+        "ProfileImageUrl",
+        "Joined",
+        "City",
+        "State",
+        "Claims"
+    ],
+    "comments": [
+        "To avoid NullReferenceExceptions at runtime,",
+        "initialise Claims and Roles with a new list in the constructor.",
+        "[DataType(DataType.Date)]",
+        "[DisplayFormat(DataFormatString = \"{0:yyyy-MM-dd}\", ApplyFormatInEditMode = true)]"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ClubMemberViewModel"
+    ],
+    "classes": [
+        "ClubMemberViewModel"
+    ]
+}

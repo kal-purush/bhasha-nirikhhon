@@ -1,0 +1,36 @@
+{
+    "identifiers": [
+        "key",
+        "status",
+        "statusMapping",
+        "status",
+        "status"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "\"Geplant\"",
+        "\"Erstellt\"",
+        "\"Gesendet\"",
+        "\"Bestätigt\"",
+        "\"In Prüfung\"",
+        "\"Einladung\"",
+        "\"Zusage\"",
+        "\"Abgesagt\"",
+        "\"Zurückgezogen\"",
+        "\"Archiviert\"",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "statusMapping"
+    ],
+    "comments": [
+        "Übersetze den Status, falls möglich, ansonsten gib den Status direkt zurück"
+    ],
+    "docstrings": [],
+    "functions": [
+        "translateStatusToGerman"
+    ],
+    "classes": []
+}

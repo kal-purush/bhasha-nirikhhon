@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "API_BASE_URL",
+        "API_BASE_URL",
+        "API_BASE_URL",
+        "API_BASE_URL",
+        "API_BASE_URL",
+        "API_BASE_URL",
+        "API_BASE_URL"
+    ],
+    "literals": [
+        "\"hidroelectrica\"",
+        "\"https://hidroelectrica-svc.smartcmobile.com\"",
+        "f\"{API_BASE_URL}/API/UserLogin/GetId\"",
+        "f\"{API_BASE_URL}/API/UserLogin/ValidateUserLogin\"",
+        "f\"{API_BASE_URL}/API/UserLogin/GetUserSetting\"",
+        "f\"{API_BASE_URL}/Service/Billing/GetBill\"",
+        "f\"{API_BASE_URL}/Service/Billing/GetBillingHistoryList\"",
+        "f\"{API_BASE_URL}/Service/Usage/GetMultiMeter\"",
+        "f\"{API_BASE_URL}/Service/Usage/GetUsageGeneration\"",
+        "\"username\"",
+        "\"password\"",
+        "\"update_interval\"",
+        "\"Date furnizate de Hidroelectrica România\""
+    ],
+    "variables": [
+        "DOMAIN",
+        "API_BASE_URL",
+        "API_URL_GET_ID",
+        "API_URL_VALIDATE_LOGIN",
+        "API_URL_GET_USER_SETTING",
+        "API_URL_GET_BILL",
+        "API_URL_GET_BILL_HISTORY",
+        "API_URL_GET_MULTI_METER",
+        "API_URL_GET_USAGE_GENERATION",
+        "DEFAULT_UPDATE_INTERVAL",
+        "MIN_UPDATE_INTERVAL",
+        "MAX_UPDATE_INTERVAL",
+        "CONF_USERNAME",
+        "CONF_PASSWORD",
+        "CONF_UPDATE_INTERVAL",
+        "ATTRIBUTION"
+    ],
+    "comments": [
+        "URL-uri API",
+        "Valori implicite",
+        "în secunde (o oră)",
+        "5 minute",
+        "24 ore",
+        "Chei de configurare",
+        "Mesaje și atribute"
+    ],
+    "docstrings": [
+        "\"\"\"Constante pentru integrarea Hidroelectrica România.\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

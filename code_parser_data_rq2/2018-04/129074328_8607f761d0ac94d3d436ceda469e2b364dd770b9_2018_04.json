@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "name",
+        "name",
+        "number",
+        "number",
+        "first",
+        "second",
+        "first",
+        "second",
+        "first",
+        "second",
+        "AssertionError",
+        "first",
+        "second",
+        "first",
+        "second",
+        "first",
+        "second"
+    ],
+    "literals": [
+        "'you have used the simplest keyword.'",
+        "'Hello %s!'",
+        "'*DEBUG* Got arguments %s and %s'",
+        "'Given numbers are unequal!'",
+        "'*DEBUG* Got arguments %s and %s'",
+        "'Given numbers are unequal!'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Log a message\"\"\"",
+        "\"\"\"Logs a friendly greeting to person given as argument\"\"\"",
+        "\"\"\"Returns the given number multiplied by two\n\n        The result is alway;s a floation point number.\n        This keyword fails if the given 'number' cannot be coverted to number.\"\"\""
+    ],
+    "functions": [
+        "simple_keyword",
+        "greet",
+        "multiply_by_two",
+        "numbers_should_be_equal",
+        "numbers_should_not_be_equal"
+    ],
+    "classes": []
+}

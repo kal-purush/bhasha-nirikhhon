@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "generateKeyPair",
+        "gKeyPair",
+        "getKeyPairFromMnemonic",
+        "gMemPair",
+        "IHumanCryptoKey",
+        "generateKeyPair",
+        "gKeyPair",
+        "ALGORITHM",
+        "generateKeyPairFromMnemonic",
+        "mnemonic",
+        "gMemPair",
+        "mnemonic",
+        "ALGORITHM"
+    ],
+    "literals": [
+        "'human-crypto-keys'",
+        "'./interfaces/IHumanCryptoKey.interface'",
+        "'ed25519'",
+        "string"
+    ],
+    "variables": [
+        "ALGORITHM",
+        "generateKeyPair",
+        "generateKeyPairFromMnemonic"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Generates a key pair with rsa encryption and provides information for recovery.\n * @returns {Promise<IHumanCryptoKey>} containing the public and private key, as well as the algorithm  and mnemonic used",
+        "* Generates the same key pair based on the mnemonic.\n * @param mnemonic mnemonic phrase\n * @returns {Promise<IHumanCryptoKey>} contains the private key and public key"
+    ],
+    "functions": [],
+    "classes": []
+}

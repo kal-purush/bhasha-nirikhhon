@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "Linq",
+        "MonoBehaviour",
+        "SerializeField",
+        "SerializeField",
+        "SerializeField",
+        "waveData_",
+        "aus",
+        "clip",
+        "samples",
+        "aus",
+        "clip",
+        "channels",
+        "AudioListener",
+        "GetOutputData",
+        "waveData_",
+        "waveData_",
+        "Select",
+        "x",
+        "x",
+        "Sum",
+        "waveData_",
+        "Length",
+        "transform",
+        "localScale",
+        "Vector3",
+        "one",
+        "volume",
+        "Debug",
+        "Log",
+        "waveData_"
+    ],
+    "literals": [],
+    "variables": [
+        "AudioClip",
+        "clip",
+        "waveData_",
+        "AudioSource",
+        "aus",
+        "AudioSource",
+        "aus2",
+        "volume"
+    ],
+    "comments": [
+        "[SerializeField] float[] ClipData_ = new float[1024];",
+        "全データ分の配列を用意",
+        "if(!aus.isPlaying){",
+        "Debug.Log(\"終了\");",
+        "var audioClip = AudioClip.Create(\"clipNameTest\", waveData_.Length, 1, 44100, false);",
+        "audioClip.SetData(waveData_, 0);",
+        "clip = audioClip;",
+        "}",
+        "if(Input.GetKeyDown(KeyCode.Tab)){",
+        "Debug.Log(\"tab\");",
+        "aus2.clip = clip;",
+        "aus2.Play();",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update"
+    ],
+    "classes": [
+        "RecordingTest"
+    ]
+}

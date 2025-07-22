@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "defineBuildConfig",
+        "pkg",
+        "defineBuildConfig",
+        "pkg",
+        "pkg",
+        "pkg",
+        "pkg",
+        "pkg",
+        "pkg",
+        "pkg",
+        "pkg",
+        "s",
+        "s"
+    ],
+    "literals": [
+        "'unbuild'",
+        "'./package.json'",
+        "// @ts-nocheck\n            /** \n             * ${pkg.name}@${pkg.version}\n             * \n             * Copyright (c) ${new Date().getFullYear()} ${pkg.author.name} <${pkg.author.url}>\n             * Released under ${pkg.license} License\n             * \n             * @build ${new Date()}\n             * @author ${pkg.author.name}(${pkg.author.url})\n             * @license ${pkg.license}\n             */",
+        "'\\n'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

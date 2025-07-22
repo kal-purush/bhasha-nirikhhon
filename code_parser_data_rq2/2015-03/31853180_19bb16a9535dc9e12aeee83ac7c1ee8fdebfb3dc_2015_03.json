@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "Windows",
+        "Input",
+        "EasySubtitle",
+        "WPF",
+        "ICommand",
+        "ProgressDialogViewModel",
+        "viewModel",
+        "m_ViewModel",
+        "viewModel",
+        "parameter",
+        "EventHandler",
+        "CanExecuteChanged",
+        "CommandManager",
+        "RequerySuggested",
+        "value",
+        "CommandManager",
+        "RequerySuggested",
+        "value",
+        "parameter",
+        "m_ViewModel",
+        "IsCancelled",
+        "m_ViewModel",
+        "TokenSource",
+        "ApplicationException",
+        "m_ViewModel",
+        "TokenSource",
+        "Cancel"
+    ],
+    "literals": [
+        "\"ProgressDialogViewModel.TokenSource property is null\""
+    ],
+    "variables": [
+        "ProgressDialogViewModel",
+        "m_ViewModel"
+    ],
+    "comments": [
+        "Member variables",
+        "Default constructor.",
+        "</summary>",
+        "Whether the CancelCommand is enabled.",
+        "</summary>",
+        "Actions to take when CanExecute() changes.",
+        "</summary>",
+        "Executes the CancelCommand",
+        "</summary>",
+        "The Cancel command is invoked by the Cancel button, and on the window\n             * close (in case the user clicks the close box to cancel. The Cancel \n             * command sets this property and checks it to make sure that the command \n             * isn't run twice when the user clicks the Cancel button (once for the \n             * button-click, and once for the window-close.",
+        "Exit if dialog has already been cancelled",
+        "The DoDemoWorkCommand.Execute() method defines a cancellation token source and\n             * passes it to the Progress Dialog view model. The token itself is passed to the \n             * parallel image processing loop defined in the GoCommand.DoWork()  method. We \n             * cancel the loop by calling the TokenSource.Cancel() method.",
+        "Validate TokenSource object",
+        "Cancel all pending background tasks"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "CancelCommand",
+        "CanExecute",
+        "Execute"
+    ],
+    "classes": [
+        "CancelCommand"
+    ]
+}

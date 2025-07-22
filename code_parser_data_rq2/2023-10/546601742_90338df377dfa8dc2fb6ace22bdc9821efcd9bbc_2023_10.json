@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "VirtualFinland",
+        "UserAPI",
+        "Exceptions",
+        "VirtualFinland",
+        "UserAPI",
+        "Security",
+        "Features",
+        "VirtualFinland",
+        "UserAPI",
+        "Security",
+        "Models",
+        "VirtualFinland",
+        "UsersAPI",
+        "UnitTests",
+        "Helpers",
+        "SecurityFeature",
+        "SecurityFeatureOptions",
+        "options",
+        "SecurityClientProviders",
+        "securityClientProviders",
+        "options",
+        "securityClientProviders",
+        "audience",
+        "_options",
+        "AudienceGuard",
+        "Service",
+        "ApiEndpoint",
+        "audience",
+        "_securityClientProviders",
+        "HttpClient",
+        "GetAsync",
+        "verifyUrl",
+        "response",
+        "EnsureSuccessStatusCode"
+    ],
+    "literals": [],
+    "variables": [
+        "verifyUrl",
+        "response"
+    ],
+    "comments": [
+        "Validates the token audience by external service",
+        "</summary>",
+        "<param name=\"audience\"></param>",
+        "<exception cref=\"NotAuthorizedException\"></exception>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "TestSecurityFeature",
+        "ValidateSecurityTokenAudienceByService"
+    ],
+    "classes": [
+        "TestSecurityFeature"
+    ]
+}

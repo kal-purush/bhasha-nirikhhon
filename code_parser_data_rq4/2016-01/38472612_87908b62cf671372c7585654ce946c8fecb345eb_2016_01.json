@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "args",
+        "args",
+        "paths",
+        "pathList",
+        "subparserObject",
+        "parentParser",
+        "subparserObject",
+        "add_parser",
+        "SUBPARSER_KEYWORD",
+        "parents",
+        "parentParser",
+        "packageParser",
+        "add_argument",
+        "nargs",
+        "packageParser",
+        "add_argument",
+        "packageParser",
+        "set_defaults",
+        "func",
+        "operate"
+    ],
+    "literals": [
+        "\"package\"",
+        "'paths'",
+        "'+'",
+        "'--config'"
+    ],
+    "variables": [
+        "SUBPARSER_KEYWORD",
+        "pathList",
+        "packageParser"
+    ],
+    "comments": [
+        "",
+        "Filename: util/subparsers/package.py",
+        "Author:   Brandon Milton, http://brandonio21.com",
+        "Date:     05 January 2016",
+        "",
+        "Contains logic for the subparser that is invoked when calling",
+        "$ ./runner.py package",
+        ""
+    ],
+    "docstrings": [
+        "\"\"\"\n    Takes the passed in args and delegates to the proper functionality. This is\n    set as the executable function when the `package` subparser is used\n\n    Arguments:\n    args: Namespace - The arguments passed in via CLI\n    \"\"\"",
+        "\"\"\"\n    Adds the package subparser to a given subparsers object and delegates \n    package functionality to the operate() function\n\n    Arguments:\n    subparserObject - The ArgumentParser given by parser.add_subparsers() to add\n                      the test subparser to\n    parentParser    - The parser to be included as a parent to the subparser,\n                      useful for global flags\n    \"\"\""
+    ],
+    "functions": [
+        "operate",
+        "add_to_subparser_object"
+    ],
+    "classes": []
+}

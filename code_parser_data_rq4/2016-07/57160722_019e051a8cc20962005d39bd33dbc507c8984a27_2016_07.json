@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Container",
+        "InvocationHandler",
+        "InvocationHandler",
+        "container",
+        "dynamicDependencies",
+        "container",
+        "instance",
+        "InvocationHandler",
+        "container",
+        "dynamicDependencies"
+    ],
+    "literals": [
+        "'aurelia-dependency-injection'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Invocation handler to inject properties.",
+        "* Invokes the function.\n    * @param container The calling container.\n    * @param dynamicDependencies Additional dependencies to use during invocation.\n    * @return The result of the function invocation.",
+        "* Injects property dependencies if the conventional `injectProperties` is defined.\n    * @param container The calling container.\n    * @param instance The target of injection.\n    * @return The instance with injected properties.",
+        "* Invocation handler to inject properties available in constructor.",
+        "* Invokes the function.\n    * @param container The calling container.\n    * @param dynamicDependencies Additional dependencies to use during invocation.\n    * @return The result of the function invocation."
+    ],
+    "functions": [],
+    "classes": [
+        "PropertyInvocationHandler",
+        "PropertyConstructorInvocationHandler"
+    ]
+}

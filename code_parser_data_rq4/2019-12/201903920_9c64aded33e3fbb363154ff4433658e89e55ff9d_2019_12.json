@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "vault",
+        "vault",
+        "get",
+        "process",
+        "env",
+        "process",
+        "process"
+    ],
+    "literals": [
+        "\"vault-sync\"",
+        "\"dev\"",
+        "\"dev\"",
+        "\"https://vault.internal.qmit.pro\"",
+        "k8s/${process.env.APP_K8S_CLUSTER || \"dev\"}",
+        "\"dev\"",
+        "\"default\""
+    ],
+    "variables": [
+        "config",
+        "env"
+    ],
+    "comments": [
+        "create global configuration",
+        "can fetch vault secrets in local/kubernetes environment",
+        "istanbul ignore next",
+        "example: (await get(\"common/data/test\")).data,"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "MongoClient",
+        "process",
+        "process",
+        "process",
+        "globalThis",
+        "globalWithMongo",
+        "client",
+        "MongoClient",
+        "uri",
+        "options",
+        "globalWithMongo",
+        "client",
+        "clientPromise",
+        "globalWithMongo",
+        "client",
+        "MongoClient",
+        "uri",
+        "options",
+        "clientPromise",
+        "client",
+        "clientPromise"
+    ],
+    "literals": [
+        "'mongodb'",
+        "'Invalid/Missing environment variable: \"MONGODB_URI\"'",
+        "'development'"
+    ],
+    "variables": [
+        "uri",
+        "options",
+        "client",
+        "clientPromise",
+        "globalWithMongo"
+    ],
+    "comments": [
+        "In development mode, use a global variable so that the value",
+        "is preserved across module reloads caused by HMR (Hot Module Replacement).",
+        "In production mode, it's best to not use a global variable.",
+        "Export a module-scoped MongoClient promise. By doing this in a",
+        "separate module, the client can be shared across functions."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

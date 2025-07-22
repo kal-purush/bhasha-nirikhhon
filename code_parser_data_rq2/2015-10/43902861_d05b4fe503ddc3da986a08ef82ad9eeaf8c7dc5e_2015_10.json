@@ -1,0 +1,27 @@
+{
+    "identifiers": [
+        "Component",
+        "View",
+        "TaskModel",
+        "Component",
+        "View"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'./task-model'",
+        "'task-entry'",
+        "'task'",
+        "<a href=\"#\" class=\"list-group-item\"\n            ng-class=\"true\">\n        <div class=\"row\">\n            <div class=\"col-lg-1\">\n                <input type=\"checkbox\"\n                    ng-control=\"task.complete\"\n                       (click)=\"toggleComplete()\">\n            </div>\n            <div class=\"col-lg-2\">\n                {{ task.priority }}\n            </div>\n            <div class=\"col-lg-5\">\n                {{ task.description }}\n            </div>\n            <div class=\"\" col-lg=\"3\">\n                {{ task.dueDate}}\n            </div>\n        </div>\n    </a>",
+        "'completed'",
+        "'un-completed'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "toggleComplete"
+    ],
+    "classes": [
+        "TaskEntry"
+    ]
+}

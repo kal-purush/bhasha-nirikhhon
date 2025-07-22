@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "com",
+        "example",
+        "mealme",
+        "config",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Value",
+        "org",
+        "springframework",
+        "stereotype",
+        "Component",
+        "org",
+        "springframework",
+        "web",
+        "servlet",
+        "config",
+        "annotation",
+        "ResourceHandlerRegistry",
+        "org",
+        "springframework",
+        "web",
+        "servlet",
+        "config",
+        "annotation",
+        "WebMvcConfigurer",
+        "Component",
+        "Value",
+        "fileDir",
+        "Override",
+        "registry",
+        "registry",
+        "addResourceHandler",
+        "addResourceLocations",
+        "fileDir"
+    ],
+    "literals": [
+        "\"${file.dir}\"",
+        "\"/upload/**\"",
+        "\"file:\""
+    ],
+    "variables": [
+        "fileDir"
+    ],
+    "comments": [
+        "addResourceHandlers() 리소스 경로와 연결될 URL 경로를 작성한다.",
+        "리소스는 자원이고 현재 우리가 필요한 자원은 이미지 경로이다.",
+        "실제 리소스가 존제하는 외부 경로를 알려준다.",
+        "로컬 디스크 경로는 file: 을 반드시 사용해야 한다."
+    ],
+    "docstrings": [],
+    "functions": [
+        "addResourceHandlers"
+    ],
+    "classes": [
+        "WebConfig"
+    ]
+}

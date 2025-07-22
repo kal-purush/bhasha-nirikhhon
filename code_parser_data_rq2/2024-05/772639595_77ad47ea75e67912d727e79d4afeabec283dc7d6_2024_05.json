@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "java",
+        "sql",
+        "DB_URL",
+        "DB_USER",
+        "DB_PASSWORD",
+        "DriverManager",
+        "getConnection",
+        "DB_URL",
+        "DB_USER",
+        "DB_PASSWORD",
+        "locationId",
+        "weatherJson",
+        "conn",
+        "getConnection",
+        "stmt",
+        "conn",
+        "prepareStatement",
+        "stmt",
+        "setInt",
+        "locationId",
+        "stmt",
+        "setString",
+        "weatherJson",
+        "stmt",
+        "executeUpdate",
+        "e",
+        "e",
+        "printStackTrace"
+    ],
+    "literals": [
+        "\"jdbc:postgresql://localhost:5432/weather_db\"",
+        "\"root\"",
+        "\"pa55word\"",
+        "\"INSERT INTO weather_data (location_id, weather_json) VALUES (?, ?)\""
+    ],
+    "variables": [],
+    "comments": [
+        "Implement other database operations as needed"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Connection",
+        "getConnection",
+        "insertWeatherData"
+    ],
+    "classes": [
+        "DatabaseUtil"
+    ]
+}

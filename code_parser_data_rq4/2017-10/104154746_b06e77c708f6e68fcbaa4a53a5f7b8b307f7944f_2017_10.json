@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Injectable",
+        "Observable",
+        "Http",
+        "Response",
+        "RequestOptions",
+        "Headers",
+        "RequestMethod",
+        "RestClientService",
+        "Skill",
+        "URL_BASE",
+        "URL_SKILL_LIST",
+        "URL_SKILL_ADD",
+        "URL_SKILL_DELETE",
+        "Injectable",
+        "_restClientService",
+        "URL_BASE",
+        "URL_SKILL_LIST",
+        "obs",
+        "rs",
+        "rs",
+        "obs",
+        "res",
+        "res",
+        "skill",
+        "skill",
+        "URL_BASE",
+        "URL_SKILL_ADD",
+        "skill",
+        "skill",
+        "URL_BASE",
+        "URL_SKILL_DELETE"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'rxjs/Observable'",
+        "'@angular/http'",
+        "'rxjs/add/operator/map'",
+        "'../../_service/rest-client.service'",
+        "'../../_model/skill.model'",
+        "'../../../environments/rest-environment'"
+    ],
+    "variables": [
+        "obs"
+    ],
+    "comments": [
+        ").map( (res: Response) => res.text() );"
+    ],
+    "docstrings": [],
+    "functions": [
+        "insert"
+    ],
+    "classes": [
+        "SkillService"
+    ]
+}

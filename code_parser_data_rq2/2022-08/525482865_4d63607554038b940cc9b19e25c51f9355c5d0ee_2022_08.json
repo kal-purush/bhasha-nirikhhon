@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "require",
+        "exports",
+        "os",
+        "WINDOWS_BUILD_COMMAND",
+        "UNIX_BUILD_COMMAND",
+        "exports",
+        "os",
+        "WINDOWS_Test_COMMAND",
+        "UNIX_Test_COMMAND"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "\"./jake.sh run\"",
+        "\"./jake.sh loose=true \"",
+        "\"jake.bat run\"",
+        "\"jake loose=true\"",
+        "\"os\"",
+        "\"win32\"",
+        "\"win32\""
+    ],
+    "variables": [
+        "UNIX_BUILD_COMMAND",
+        "UNIX_Test_COMMAND",
+        "WINDOWS_BUILD_COMMAND",
+        "WINDOWS_Test_COMMAND",
+        "os"
+    ],
+    "comments": [
+        "Copyright (c) 2012 Titanium I.T. LLC. All rights reserved. See LICENSE.txt for details.",
+        "A cross-platform mechanism for determining how to run the build.",
+        "There's no Quixote-specific configuration in this file."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

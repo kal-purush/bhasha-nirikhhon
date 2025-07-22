@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "IAction",
+        "IInjectedStoreOptions",
+        "IStore",
+        "Store",
+        "ISelectPageStoreInput",
+        "ISelectPageStoreOutput",
+        "IPageStore",
+        "Store",
+        "options",
+        "options",
+        "editedString",
+        "isEditing",
+        "isEditing"
+    ],
+    "literals": [
+        "\"rfluxx\"",
+        "\"../SelectPage/SelectPageStore\"",
+        "\"../../../src/PageStore\"",
+        "string",
+        "string",
+        "string",
+        "\"\"",
+        "string",
+        "\"updateEditedString\"",
+        "\"setEditing\""
+    ],
+    "variables": [],
+    "comments": [
+        "create an action that is observable by the store and subscribe it",
+        "tell the page store that we are editing (or not) and may",
+        "not be evicted"
+    ],
+    "docstrings": [
+        "* This is the interface by which the store is available in the components.\n * It offers a command to edit the string."
+    ],
+    "functions": [],
+    "classes": [
+        "EditPageStore"
+    ]
+}

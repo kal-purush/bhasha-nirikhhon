@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "pythonforandroid",
+        "toolchain",
+        "Recipe",
+        "shprint",
+        "current_directory",
+        "os",
+        "path",
+        "exists",
+        "join",
+        "sh",
+        "Recipe",
+        "exists",
+        "join",
+        "get_build_dir",
+        "arch",
+        "get_recipe_env",
+        "arch",
+        "current_directory",
+        "get_build_dir",
+        "arch",
+        "arch",
+        "sh",
+        "Command",
+        "shprint",
+        "perl",
+        "_env",
+        "env",
+        "shprint",
+        "sh",
+        "make",
+        "_env",
+        "env",
+        "OpenSSLRecipe"
+    ],
+    "literals": [
+        "'1.0.2d'",
+        "'https://www.openssl.org/source/openssl-{version}.tar.gz'",
+        "'armeabi'",
+        "'libssl.a'",
+        "'perl'",
+        "'Configure'",
+        "'no-dso'",
+        "'no-krb5'",
+        "'linux-armv4'",
+        "'build_libs'"
+    ],
+    "variables": [
+        "version",
+        "url",
+        "env",
+        "perl",
+        "recipe"
+    ],
+    "comments": [
+        "sh fails with code 255 trying to execute ./Configure",
+        "so instead we manually run perl passing in Configure"
+    ],
+    "docstrings": [],
+    "functions": [
+        "should_build",
+        "build_arch"
+    ],
+    "classes": [
+        "OpenSSLRecipe"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "org",
+        "eclipse",
+        "swtchart",
+        "customcharts",
+        "org",
+        "eclipse",
+        "ui",
+        "plugin",
+        "AbstractUIPlugin",
+        "org",
+        "osgi",
+        "framework",
+        "BundleContext",
+        "PLUGIN_ID",
+        "plugin",
+        "context",
+        "start",
+        "context",
+        "plugin",
+        "context",
+        "plugin",
+        "stop",
+        "context",
+        "plugin"
+    ],
+    "literals": [
+        "\"org.eclipse.swtchart.customcharts\""
+    ],
+    "variables": [
+        "plugin"
+    ],
+    "comments": [
+        "The plug-in ID",
+        "$NON-NLS-1$",
+        "The shared instance"
+    ],
+    "docstrings": [
+        "*****************************************************************************\n * Copyright (c) 2020 SWTChart project.\n *\n * This program and the accompanying materials are made\n * available under the terms of the Eclipse Public License 2.0\n * which is available at https://www.eclipse.org/legal/epl-2.0/\n *\n * SPDX-License-Identifier: EPL-2.0\n * \n * Contributors:\n * Philip Wenig - initial API and implementation\n ******************************************************************************",
+        "* The activator class controls the plug-in life cycle",
+        "* The constructor",
+        "* (non-Javadoc)\n\t * @see org.eclipse.ui.plugin.AbstractUIPlugin#start(org.osgi.framework.BundleContext)",
+        "* (non-Javadoc)\n\t * @see org.eclipse.ui.plugin.AbstractUIPlugin#stop(org.osgi.framework.BundleContext)",
+        "* Returns the shared instance\n\t *\n\t * @return the shared instance"
+    ],
+    "functions": [
+        "Activator",
+        "start",
+        "stop",
+        "Activator",
+        "getDefault"
+    ],
+    "classes": [
+        "Activator"
+    ]
+}

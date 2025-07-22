@@ -1,0 +1,29 @@
+{
+    "identifiers": [],
+    "literals": [
+        "'metadata_version'",
+        "'1.1'",
+        "'status'",
+        "'preview'",
+        "'supported_by'",
+        "'community'",
+        "r'''\n---\nmodule: win_adcs_template\nshort_description: Imports a certificate template into AD CS.\ndescription:\n- This module will import a template provided by the I(template) option into\n  the local AD CS instance.\n- This template must be manually exported from AD CS as it is follows a\n  particular format, see U(https://blogs.technet.microsoft.com/pki/2009/09/25/introducing-certificate-template-api/)\n  for a guide on how to do that.\noptions:\n  dacl:\n    description:\n    - A list of DACL entries to apply to the imported template.\n    - This is only applied if the template has not already been imported.\n    suboptions:\n      user:\n        description:\n        - The user or SID to apply the DACL entry to.\n        required: yes\n      rights:\n        description:\n        - A list of rights to apply for the DACL entry.\n        required: yes\n        choices:\n        - read_control\n        - delete\n        - write_dac\n        - write_owner\n        - read_prop\n        - write_prop\n        - create_child\n        - delete_child\n        - list_child\n        - self_write\n        - list_object\n        - delete_tree\n        - control_access\n      type:\n        description:\n        - If the ACE entry is an object ACE, this is the type of object.\n        choices:\n        - enroll\n        - auto_enroll\n      qualifier:\n        description:\n        - The value that specified the ACE qualifier.\n        options:\n        - AccessAllowed\n        - AccessDenied\n        - SystemAlarm\n        - SystemAudit\n  group:\n    description:\n    - The account or SID of the group applied to the template's security\n      descriptor.\n    - This is only applied if the template is imported.\n  owner:\n    description:\n    - The account or SID of the owner applied to the template's security\n      descriptor.\n    - This is only applied if the template is imported.\n  templates:\n    description:\n    - The XML string that defines the template(s) to import.\n    - This value is from the exported template from an existing AD CS server.\n    required: yes\nnotes:\n- This module requires Ansible become to run, if become is not set on the\n  Ansible task explicitly, then the C(SYSTEM) account will be used.\n- This module will import the template to the default AD CS server that is\n  configured on the remote host.\n- This module uses components that are only available on Server 2012 or newer.\nauthor:\n- Jordan Borean (@jborean93)\n'''",
+        "r'''\n- name: import AD CS template\n  win_adcs_template:\n    templates: '{{ lookup(\"template\", \"certificate.xml.j2\") }}'\n    dacl:\n    - user: Enterprise Admins\n      rights:\n      - create_child\n      - delete_child\n      - list_child\n      - self_write\n      qualifier: AccessAllowed\n    - user: Domain Computers\n      rights:\n      - control_access\n      type: auto_enroll\n      qualifier: AllowAccess\n    - user: Domain Computers\n      rights:\n      - read_prop\n      - write_prop\n      - control_access\n      type: enroll\n      qualifier: AllowAccess\n    owner: Enterprise Admins\n    group: Enterprise Admins\n'''",
+        "r'''\nadded_templates:\n  description: A list of templates that were added\n  returned: always\n  type: list\n  sample: [\"Template2\"]\ntemplates:\n  description: A list of templates that were read in the I(templates) XML\n    string\n  returned: always\n  type: list\n  sample: [\"Template1\", \"Template2\", \"Template3\"]\nsddl:\n  description: The SDDL string that will be applied to the imported templates\n  returned: always\n  type: str\n  sample: 'O:EAG:EAD:PAI(A;;CCDCLCSW;;;EA)(OA;;RPWPCR;0e10c968-78fb-11d2-90d4-00c04f79dc55;;DC)(OA;;CR;a05b8cc2-17bc-4802-a710-e7c15ab866a2;;DC)'\nskipped_templates:\n  description: A list of templates that were not added as they were already\n    present\n  returned: always\n  type: list\n  sample: [\"Template1\", \"Template3\"]\n'''"
+    ],
+    "variables": [
+        "ANSIBLE_METADATA",
+        "DOCUMENTATION",
+        "EXAMPLES",
+        "RETURN"
+    ],
+    "comments": [
+        "!/usr/bin/python",
+        "-*- coding: utf-8 -*-",
+        "Copyright: (c) 2018, Jordan Borean",
+        "GNU General Public License v3.0+ (see COPYING or https://www.gnu.org/licenses/gpl-3.0.txt)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

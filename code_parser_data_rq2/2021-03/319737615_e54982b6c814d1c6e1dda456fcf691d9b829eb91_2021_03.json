@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "json",
+        "sys",
+        "sys",
+        "argv",
+        "sys",
+        "argv",
+        "sys",
+        "argv",
+        "fmt",
+        "distro",
+        "version",
+        "json",
+        "load",
+        "sys",
+        "stdin",
+        "entry",
+        "data",
+        "fmt",
+        "entry",
+        "distro",
+        "entry",
+        "versions",
+        "sys",
+        "exit",
+        "entry",
+        "versions",
+        "entry",
+        "version",
+        "entry",
+        "sys",
+        "exit",
+        "sys",
+        "exit"
+    ],
+    "literals": [
+        "'display_name'",
+        "'versions'",
+        "'Could not find version information for the requested distribution.'",
+        "'version_number'",
+        "'id'",
+        "'Unable to find id for requested version.'"
+    ],
+    "variables": [
+        "fmt",
+        "distro",
+        "version",
+        "data",
+        "versions",
+        "versions"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "The package format ('deb' or 'rpm')",
+        "The distro name",
+        "The distro version"
+    ],
+    "docstrings": [
+        "'''\nParse the PackageCloud distributions JSON data to get a dist ID for uploads.\n\nThis takes the JSON distributions data from Packagecloud on stdin and\nthe package format, distribution name and version as arguments, and\nprints either an error message or the parsed distribution ID based on\nthe arguments.\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Algorithms",
+        "Implementation",
+        "a",
+        "b",
+        "b",
+        "a",
+        "a",
+        "b",
+        "a",
+        "b",
+        "Add",
+        "result",
+        "carry"
+    ],
+    "literals": [],
+    "variables": [
+        "result",
+        "carry"
+    ],
+    "comments": [
+        "if we do bit wise exclusive or, it will add with unqiue bits (only 1 if only one is 1)",
+        "now we need to perform carry by doing bitwise and and shift one",
+        "now continue to add result with carry (if carry causes another carry then we need to perform above operation"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Add"
+    ],
+    "classes": [
+        "Bits"
+    ]
+}

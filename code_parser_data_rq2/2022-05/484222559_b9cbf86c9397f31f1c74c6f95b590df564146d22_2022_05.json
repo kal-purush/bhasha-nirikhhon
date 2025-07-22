@@ -1,0 +1,17 @@
+{
+    "identifiers": [
+        "gql",
+        "gql"
+    ],
+    "literals": [
+        "'graphql-tag'",
+        "fragment ProductSummary on Product {\n    availableForSale\n    compareAtPriceRange {\n      maxVariantPrice {\n        amount\n        currencyCode\n      }\n      minVariantPrice {\n        amount\n        currencyCode\n      }\n    }\n    createdAt\n    handle\n    id\n    media (first: 1) {\n      edges {\n        node {\n          ...on Video {\n            alt\n            id\n            sources {\n              url\n              format\n            }\n          }\n          previewImage {\n            height\n            id\n            url\n            width\n          }\n        }\n      }\n    }\n    priceRange {\n      maxVariantPrice {\n        amount\n        currencyCode\n      }\n      minVariantPrice {\n        amount\n        currencyCode\n      }\n    }\n    title\n    options(first:100) {\n      id\n      name\n      values\n    }\n    variants(first: 100) {\n      edges {\n        node {\n          id\n          title\n          availableForSale\n          sku\n        }\n      }\n    }\n  }"
+    ],
+    "variables": [
+        "ProductSummary"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

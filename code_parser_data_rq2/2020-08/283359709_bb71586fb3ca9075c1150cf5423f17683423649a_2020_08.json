@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "g",
+        "g",
+        "g",
+        "theta",
+        "check_valid_asymmetry_parameter",
+        "g",
+        "np",
+        "pi",
+        "g",
+        "g",
+        "g",
+        "np",
+        "cos",
+        "theta"
+    ],
+    "literals": [
+        "'The asymmetry parameter is not valid. Ensure it\\'s between [-1, 1]'"
+    ],
+    "variables": [],
+    "comments": [
+        "Make the super class"
+    ],
+    "docstrings": [
+        "\"\"\"Check the HG asymmetry parameter is valid\n\n        Parameters\n        ----------\n        g: float\n            The Henyey-Greenstein asymmetry parameter. Can range from [-1, 1]\n\n        Returns\n        -------\n        True if the parameter is within [-1, 1]; False otherwise\n        \"\"\"",
+        "\"\"\"Evaluate the Henyey-Greenstein phase function for a generalized aerosol\n\n        Parameters\n        ----------\n        g: float\n            The Henyey-Greenstein asymmetry parameter. Can range from [-1, 1]\n        theta: float\n            The angle at which to evaluate the HG phase function\n\n        Returns\n        -------\n\n        \"\"\""
+    ],
+    "functions": [
+        "check_valid_asymmetry_parameter",
+        "make_hg_phase_function"
+    ],
+    "classes": [
+        "Aerosol"
+    ]
+}

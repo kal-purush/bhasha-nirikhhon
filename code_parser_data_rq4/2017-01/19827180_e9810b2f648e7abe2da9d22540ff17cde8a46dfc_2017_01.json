@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Shouldly",
+        "NemeStats",
+        "TestingHelpers",
+        "NemeStatsTestingExtensions",
+        "T",
+        "IList",
+        "argumentsForCallsMadeOnMethod",
+        "expectedParameterIndex",
+        "T",
+        "argumentsForCallsMadeOnMethod",
+        "ShouldNotBeNull",
+        "argumentsForCallsMadeOnMethod",
+        "Count",
+        "ShouldBe",
+        "argumentsForCallsMadeOnMethod",
+        "firstCall",
+        "expectedParameterIndex",
+        "T",
+        "actualParameter",
+        "ShouldNotBeNull",
+        "actualParameter"
+    ],
+    "literals": [],
+    "variables": [
+        "firstCall",
+        "actualParameter"
+    ],
+    "comments": [
+        "Asserts that the array is only length 1 and the argument at the specified index matches the given type. This is meant to be called",
+        "on the result of RhinoMocks's .GetArgumentsForCallsMadeOn which returns an IList of object[]",
+        "</summary>",
+        "<typeparam name=\"T\"></typeparam>",
+        "<param name=\"argumentsForCallsMadeOnMethod\"></param>",
+        "<param name=\"expectedParameterIndex\"></param>",
+        "<returns>The argument at the specified parameter index</returns>"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "T",
+        "AssertFirstCallIsType"
+    ],
+    "classes": [
+        "NemeStatsTestingExtensionMethods"
+    ]
+}

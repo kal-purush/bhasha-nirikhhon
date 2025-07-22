@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "cdk",
+        "ConcreteWidget",
+        "ConcreteWidget",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "props",
+        "l",
+        "l",
+        "cdk",
+        "sources",
+        "query"
+    ],
+    "literals": [
+        "'@aws-cdk/core'",
+        "'./widget'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "'Specify at least one log group name.'",
+        "'Specify exactly one of \\'queryString\\' and \\'queryLines\\''",
+        "SOURCE '${l}'",
+        "' | '",
+        "'\\n| '",
+        "'log'",
+        "'table'",
+        "${sources} | ${query}"
+    ],
+    "variables": [
+        "sources",
+        "query"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Properties for a Query widget",
+        "* Title for the widget\n   *\n   * @default No title",
+        "* Names of log groups to query",
+        "* Full query string for log insights\n   *\n   * Be sure to prepend every new line with a newline and pipe character\n   * (`\\n|`).\n   *\n   * @default - Exactly one of `queryString`, `queryLines` is required.",
+        "* A sequence of lines to use to build the query\n   *\n   * The query will be built by joining the lines together using `\\n|`.\n   *\n   * @default - Exactly one of `queryString`, `queryLines` is required.",
+        "* The region the metrics of this widget should be taken from\n   *\n   * @default Current region",
+        "* Width of the widget, in a grid of 24 units wide\n   *\n   * @default 6",
+        "* Height of the widget\n   *\n   * @default 6",
+        "* Display query results from Logs Insights"
+    ],
+    "functions": [
+        "toJson"
+    ],
+    "classes": [
+        "LogQueryWidget"
+    ]
+}

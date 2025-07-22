@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Text",
+        "RegularExpressions",
+        "Threading",
+        "Tasks",
+        "Rizzy",
+        "Components",
+        "Form",
+        "Helpers",
+        "fullname",
+        "IsNullOrEmpty",
+        "fullname",
+        "Empty",
+        "Regex",
+        "Replace",
+        "fullname",
+        "Trim",
+        "sanitized",
+        "Regex",
+        "Replace",
+        "sanitized",
+        "IsLetter",
+        "sanitized",
+        "sanitized",
+        "sanitized",
+        "sanitized",
+        "sanitized"
+    ],
+    "literals": [
+        "\"\\\\s+\"",
+        "\"-\"",
+        "\"[^a-zA-Z0-9\\\\-_:.]\"",
+        "\"\"",
+        "\"rz\""
+    ],
+    "variables": [
+        "sanitized"
+    ],
+    "comments": [
+        "Remove leading and trailing spaces, replace spaces with hyphens, and remove invalid characters",
+        "Ensure the ID starts with a letter or an underscore (for broader compatibility and CSS friendliness)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "CreateSanitizedId"
+    ],
+    "classes": [
+        "IdProvider"
+    ]
+}

@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "remote",
+        "cmdstr",
+        "retries",
+        "isinstance",
+        "cmdstr",
+        "join",
+        "cmdstr",
+        "command",
+        "cmdstr",
+        "retries",
+        "path",
+        "host",
+        "user",
+        "os",
+        "environ",
+        "get",
+        "cmd",
+        "path",
+        "src",
+        "dst",
+        "src",
+        "dst",
+        "cmd",
+        "cmdstr",
+        "target_dir",
+        "host",
+        "user",
+        "target_dir",
+        "cmd",
+        "cmdstr",
+        "src",
+        "dst",
+        "src",
+        "dst",
+        "cmd",
+        "cmdstr"
+    ],
+    "literals": [
+        "' '",
+        "\"localhost\"",
+        "'USER'",
+        "\"ils %s\"",
+        "\"irsync -ra %s %s\"",
+        "'imkdir -p %s'",
+        "\"icp -p %s %s\""
+    ],
+    "variables": [
+        "cmdstr",
+        "cmdstr",
+        "cmdstr",
+        "cmdstr"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\n    Run cmd on localhost, supposed to be set up for IRODS access.\n\n    Return triple of (status, stdout, stderr).\n    '''",
+        "'''\n    Return output of the \"stat\" command run as user@host.\n\n    See cmd() for return values. \n    '''",
+        "'''\n    Copy a remote file/dir \"src\" to a destination \"dst\".\n    '''",
+        "'''\n    Execute mkdir on a remote <user>@<host> connection\n    '''"
+    ],
+    "functions": [
+        "cmd",
+        "stat",
+        "rsync",
+        "mkdir",
+        "scp"
+    ],
+    "classes": []
+}

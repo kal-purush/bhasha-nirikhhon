@@ -1,0 +1,44 @@
+{
+    "identifiers": [
+        "config",
+        "config",
+        "config",
+        "mainCssFile",
+        "config",
+        "entry",
+        "config",
+        "require",
+        "tailwind",
+        "require",
+        "require",
+        "config",
+        "config"
+    ],
+    "literals": [
+        "'styles.css'",
+        "'media'",
+        "'*.{js,html,css}'",
+        "'./kotlin/**/*.{js,html,css}'",
+        "'/../processedResources/js/main/'",
+        "'style-loader'",
+        "'css-loader'",
+        "'postcss-loader'",
+        "\"tailwindcss\"",
+        "\"autoprefixer\"",
+        "\"cssnano\""
+    ],
+    "variables": [
+        "mainCssFile",
+        "tailwind",
+        "entry"
+    ],
+    "comments": [
+        "must be in the jsMain/resource folder",
+        "tailwind config (https://tailwindcss.com/docs/configuration)",
+        "require('@tailwindcss/forms') // optional",
+        "webpack tailwind css settings"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

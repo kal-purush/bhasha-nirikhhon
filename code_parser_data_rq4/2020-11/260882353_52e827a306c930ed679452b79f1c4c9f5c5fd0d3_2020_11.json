@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "exports",
+        "context",
+        "callback",
+        "name",
+        "message",
+        "fetch",
+        "process",
+        "mutation",
+        "email",
+        "res",
+        "res",
+        "data",
+        "data",
+        "callback",
+        "data"
+    ],
+    "literals": [
+        "\"dotenv\"",
+        "\"node-fetch\"",
+        "Name: <strong>${name}</strong>\n    Message: ${message}",
+        "mutation SEND_EMAIL ($subject: String, $body: String, $from: String) {\n    sendEmail(\n        input: {\n            from: $from\n            subject: $subject\n            body: $body\n        }) \n        {\n            origin\n            sent\n            message\n        }\n    }",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'",
+        "'Accept'",
+        "'application/json'",
+        "'Successfull'"
+    ],
+    "variables": [
+        "fetch",
+        "body",
+        "mutation"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,73 @@
+{
+    "identifiers": [
+        "bootstrap",
+        "nativeShadowDomInjectables",
+        "emulatedScopedShadowDomInjectables",
+        "emulatedUnscopedShadowDomInjectables",
+        "jitInjectables",
+        "dynamicInjectables",
+        "preGeneratedInjectables",
+        "html5locationInjectables",
+        "hashlocationInjectables",
+        "httpInjectables",
+        "formInjectables",
+        "routerInjectables",
+        "appServicesInjectables",
+        "appPipeInjectables",
+        "App",
+        "httpInjectables",
+        "formInjectables",
+        "routerInjectables",
+        "appPipeInjectables",
+        "appServicesInjectables",
+        "nativeShadowDomInjectables",
+        "bootstrap",
+        "App",
+        "universalInjectables",
+        "platformInjectables"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'../common/shadowDomInjectables'",
+        "'../common/changeDetectionInjectables'",
+        "'../common/locationInjectables'",
+        "'angular2/http'",
+        "'angular2/forms'",
+        "'angular2/router'",
+        "'./services/services'",
+        "'./pipes/pipes'",
+        "'./components/app-simple'"
+    ],
+    "variables": [
+        "universalInjectables",
+        "platformInjectables"
+    ],
+    "comments": [
+        "<reference path=\"../typings/_custom.d.ts\" />",
+        "Angular 2",
+        "import {App} from './components/app';",
+        "A simple version of our App without the router or other components",
+        "Angular's http/form/router services/bindings",
+        "Pipe Injectables",
+        "Our collection of services from /services",
+        "if we want to use the Just-In-Time change detection",
+        "bestChangeDetectionInjectables,",
+        "if we want to use hashBash url for the router",
+        "hashlocationInjectables,",
+        "Our custom injectable that checks if we have support for ShadowDom",
+        "Top Level Component",
+        "AppInjector"
+    ],
+    "docstrings": [
+        "* Common Injectables\n * our custom helper injectables to configure our app differently using the dependency injection system",
+        "* Angular Modules",
+        "* App Services\n * our collection of injectables services",
+        "* App Pipes\n * our collection of pipes registry",
+        "* App Component\n * our top level component that holds all of our components",
+        "* Universal injectables",
+        "* Platform injectables",
+        "* Bootstrap our Angular app with a top level component `App` and inject\n * our Universal/Platform services/bindings into Angular's dependency injection"
+    ],
+    "functions": [],
+    "classes": []
+}

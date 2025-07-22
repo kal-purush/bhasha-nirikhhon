@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "$",
+        "top",
+        "top",
+        "top",
+        "DigitalAssetManagementActions"
+    ],
+    "literals": [
+        "'jquery'",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "import {SeverityEnum} from './Enum/Severity';",
+        "import InfoWindow = require('./InfoWindow');",
+        "import Modal = require('./Modal');",
+        "import ModuleMenu = require('./ModuleMenu');",
+        "import Viewport = require('./Viewport');"
+    ],
+    "docstrings": [
+        "* This file is part of the TYPO3 CMS project.\n *\n * It is free software; you can redistribute it and/or modify it under\n * the terms of the GNU General Public License, either version 2\n * of the License, or any later version.\n *\n * For the full copyright and license information, please read the\n * LICENSE.txt file that was distributed with this source code.\n *\n * The TYPO3 project - inspiring people to share!",
+        "* exports TYPO3/CMS/Backend/ContextMenuActions\n * @exports TYPO3/CMS/DigitalAssetManagement/DigitalAssetManagementActions",
+        "* @returns {string}"
+    ],
+    "functions": [
+        "getReturnUrl"
+    ],
+    "classes": [
+        "DigitalAssetManagementActions"
+    ]
+}

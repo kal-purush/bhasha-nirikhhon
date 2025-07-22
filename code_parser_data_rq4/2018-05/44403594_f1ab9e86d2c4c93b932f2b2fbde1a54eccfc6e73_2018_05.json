@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "searchElement",
+        "fromIndex",
+        "o",
+        "len",
+        "fromIndex",
+        "n",
+        "n",
+        "len",
+        "n",
+        "x",
+        "y",
+        "x",
+        "y",
+        "x",
+        "y",
+        "isNaN",
+        "x",
+        "isNaN",
+        "y",
+        "k",
+        "len",
+        "sameValueZero",
+        "o",
+        "k",
+        "searchElement",
+        "k"
+    ],
+    "literals": [
+        "'includes'",
+        "'\"this\" is null or not defined'",
+        "'number'",
+        "'number'"
+    ],
+    "variables": [
+        "o",
+        "len",
+        "n",
+        "k"
+    ],
+    "comments": [
+        "1. Let O be ? ToObject(this value).",
+        "2. Let len be ? ToLength(? Get(O, \"length\")).",
+        "3. If len is 0, return false.",
+        "4. Let n be ? ToInteger(fromIndex).",
+        "(If fromIndex is undefined, this step produces the value 0.)",
+        "5. If n ≥ 0, then",
+        "a. Let k be n.",
+        "6. Else n < 0,",
+        "a. Let k be len + n.",
+        "b. If k < 0, let k be 0.",
+        "7. Repeat, while k < len",
+        "a. Let elementK be the result of ? Get(O, ! ToString(k)).",
+        "b. If SameValueZero(searchElement, elementK) is true, return true.",
+        "c. Increase k by 1.",
+        "8. Return false"
+    ],
+    "docstrings": [],
+    "functions": [
+        "sameValueZero"
+    ],
+    "classes": []
+}

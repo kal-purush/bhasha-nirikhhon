@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "pandas",
+        "pd",
+        "pandas",
+        "DataFrame",
+        "Series",
+        "pd",
+        "read_csv",
+        "optionFile",
+        "optionFile",
+        "UnderlyingSymbol",
+        "applRow"
+    ],
+    "literals": [
+        "\"bb_options_20020208.csv\"",
+        "\"AAPL\""
+    ],
+    "variables": [
+        "optionFile",
+        "applRow"
+    ],
+    "comments": [
+        "from pandas_datareader.data import DataReader",
+        "from datetime import date",
+        "from dateutil.relativedelta import relativedelta",
+        "Set some pandas options",
+        "pd.set_option('display.notebook_repr_html', False)",
+        "pd.set_option('display.max_columns', 10)",
+        "pd.set_option('display.max_rows', 10)",
+        "print(optionFile.head(30))",
+        "print(optionFile.tail())"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

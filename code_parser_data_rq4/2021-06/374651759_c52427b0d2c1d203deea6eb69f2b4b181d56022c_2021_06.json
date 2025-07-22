@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Vue",
+        "AsyncComponent",
+        "Component",
+        "a",
+        "res",
+        "rej",
+        "res",
+        "b",
+        "res",
+        "rej",
+        "res",
+        "c",
+        "res",
+        "rej",
+        "res",
+        "d",
+        "res",
+        "rej",
+        "res",
+        "e",
+        "res",
+        "rej",
+        "res",
+        "Vue",
+        "a"
+    ],
+    "literals": [
+        "\"../index\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"\"",
+        "\"async-compponent1\""
+    ],
+    "variables": [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e"
+    ],
+    "comments": [
+        "@ts-expect-error component has to be a Promise that resolves to a component",
+        "Test that Vue.component accepts any AsyncComponent"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

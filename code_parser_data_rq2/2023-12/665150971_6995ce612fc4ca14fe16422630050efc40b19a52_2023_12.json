@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "process",
+        "schemaName",
+        "process",
+        "schemaName"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'test'",
+        "'test'",
+        "'public'",
+        "ALTER TABLE IF EXISTS ${schemaName}.etl_log ALTER COLUMN updated_at TYPE timestamptz;",
+        "'test'",
+        "'test'",
+        "'public'",
+        "ALTER TABLE IF EXISTS ${schemaName}.etl_log ALTER COLUMN updated_at TYPE TIMESTAMP;"
+    ],
+    "variables": [
+        "schemaName",
+        "schemaName"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "Migration1702317115115"
+    ]
+}

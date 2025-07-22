@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "ex3",
+        "s",
+        "join",
+        "s",
+        "i",
+        "i",
+        "s",
+        "length",
+        "i",
+        "s",
+        "i",
+        "s",
+        "i",
+        "replaceAll",
+        "s",
+        "i",
+        "s",
+        "i",
+        "replaceAll",
+        "join",
+        "s",
+        "args",
+        "selfWrite"
+    ],
+    "literals": [
+        "\"\\n\"",
+        "\"\\\\\\\\\"",
+        "\"\\\\\\\\\\\\\\\\\"",
+        "\"\\\\\\\"\"",
+        "\"\\\\\\\\\\\\\\\"\"",
+        "\"selfWrite(new String[]{\\\"\"",
+        "\"\\\",\\n\\\"\"",
+        "\"\\\"});\\n}\\n}\"",
+        "\"package ex3;\"",
+        "\"public class ex3 {\"",
+        "\"public static void selfWrite(String s){\"",
+        "\"System.out.println(String.join(\\\"\\\\n\\\", s));\"",
+        "\"for(int i=0; i<s.length; i++){\"",
+        "\"s[i] = s[i].replaceAll(\\\"\\\\\\\\\\\\\\\\\\\",\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\");\"",
+        "\"s[i] = s[i].replaceAll(\\\"\\\\\\\\\\\\\\\"\\\",\\\"\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\"\\\");\"",
+        "\"}\"",
+        "\"System.out.println(\\\"selfWrite(new String[]{\\\\\\\"\\\"+String.join(\\\"\\\\\\\",\\\\n\\\\\\\"\\\",s)+\\\"\\\\\\\"});\\\\n}\\\\n}\\\");\"",
+        "\"}\"",
+        "\"public static void main(String[] args){\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "selfWrite",
+        "main"
+    ],
+    "classes": [
+        "ex3"
+    ]
+}

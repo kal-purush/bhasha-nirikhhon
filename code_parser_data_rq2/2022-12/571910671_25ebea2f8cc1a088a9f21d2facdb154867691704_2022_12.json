@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "Injectable",
+        "CanActivate",
+        "ExecutionContext",
+        "Reflector",
+        "Observable",
+        "Injectable",
+        "reflector",
+        "context",
+        "context",
+        "roles",
+        "context",
+        "request",
+        "user",
+        "user",
+        "user"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'@nestjs/core'",
+        "'rxjs'",
+        "'Guard called'",
+        "string",
+        "'roles'",
+        "'user: '",
+        "'user.roles: '",
+        "'Student'"
+    ],
+    "variables": [
+        "roles",
+        "request",
+        "user"
+    ],
+    "comments": [
+        "return matchRoles(roles, user.roles);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "canActivate"
+    ],
+    "classes": [
+        "RolesGuard"
+    ]
+}

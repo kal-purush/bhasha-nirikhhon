@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "chaco",
+        "plot",
+        "Plot",
+        "pandas",
+        "pd",
+        "pandas",
+        "Series",
+        "numpy",
+        "np",
+        "random",
+        "matplotlib",
+        "pyplot",
+        "plt",
+        "pandas_datareader",
+        "data",
+        "web",
+        "web",
+        "DataReader",
+        "name",
+        "data_source",
+        "start",
+        "end",
+        "Series",
+        "rolling",
+        "DAX",
+        "mean",
+        "DAX",
+        "plot",
+        "figsize",
+        "plt",
+        "show",
+        "np",
+        "log",
+        "DAX",
+        "DAX",
+        "shift",
+        "DAX"
+    ],
+    "literals": [
+        "'GOOG'",
+        "'yahoo'",
+        "'2015-1-1'",
+        "'2015-12-31'",
+        "'42d'",
+        "'Close'",
+        "'Close'",
+        "'42d'",
+        "'Return'",
+        "'Close'",
+        "'Close'",
+        "'Close'",
+        "'Return'"
+    ],
+    "variables": [
+        "DAX",
+        "DAX",
+        "DAX"
+    ],
+    "comments": [
+        "!/usr/bin/python",
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "'''\nCreated on 2016年12月13日\n\n@author: Administrator\n'''",
+        "'''\na=np.random.standard_normal((9,4))\na.round(6)\n# print(a)\n\ndf=pd.DataFrame(a)\ndf.columns=[['No1','No2','No3','No4']]\ndates=pd.date_range('2015-1-29',periods=9,freq='M')\n#print(dates)\n\ndf.index=dates\n\n#print(df)\n#print(df.mean)\n#print(np.sqrt(df))\n\nprint(df['No1'])\n\ndf['Quarter']=['Q1','Q1','Q1','Q2','Q2','Q2','Q3','Q3','Q3']\nprint(df)\n\ngroups=df.groupby('Quarter')\n\nprint(groups.mean())\nprint(groups.max())\nprint(groups.size())\n\ndf['Odd_Even']=['Odd','Even','Odd','Even','Odd','Even','Odd','Even','Odd']\ngroups=df.groupby(['Quarter','Odd_Even'])\nprint(groups.size())\n'''",
+        "'''\nDAX['Ret_Loop']=0.0\nfor i in range(1,len(DAX)):\n    DAX['Ret_Loop'][i]=np.log(DAX['Close'][i]/DAX['Close'][i-1])\n    \nprint(DAX[['Close','Ret_Loop']])\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

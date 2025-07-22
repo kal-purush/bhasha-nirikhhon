@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Token",
+        "Token",
+        "data"
+    ],
+    "literals": [
+        "'@phosphor/coreutils'",
+        "'jupyter.extensions.jupyterWidgetRegistry'",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "IJupyterWidgetRegistry"
+    ],
+    "comments": [
+        "Copyright (c) Jupyter Development Team.",
+        "Distributed under the terms of the Modified BSD License."
+    ],
+    "docstrings": [
+        "* A runtime interface token for a widget registry.",
+        "* A registry of Jupyter Widgets.\n *\n * This is used by widget managers that support an external registry.",
+        "* Register a widget module.",
+        "* The widget module name.",
+        "* The widget module version.",
+        "* A map of object names to widget classes provided by the module."
+    ],
+    "functions": [],
+    "classes": []
+}

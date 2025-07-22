@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "require",
+        "req",
+        "res",
+        "req",
+        "query",
+        "req",
+        "query",
+        "query",
+        "req",
+        "db",
+        "query",
+        "req",
+        "req",
+        "error",
+        "response",
+        "error",
+        "response",
+        "response",
+        "response",
+        "res",
+        "res",
+        "response",
+        "response",
+        "res",
+        "res",
+        "updateVolState"
+    ],
+    "literals": [
+        "'./dbConnection'",
+        "''",
+        "'States'",
+        "'with s(state_ID) as(\\\n            SELECT state_ID FROM '",
+        "' Where abbr = ?\\\n            ) update Volunteers set state = (select s.state_ID from s) where vol_ID=?; '",
+        "'with s(shul_ID) as(\\\n    SELECT shul_ID FROM '",
+        "' Where name = ?\\\n    ) update Volunteers set state = (select s.shul_ID from s) where vol_ID=?; '"
+    ],
+    "variables": [
+        "db",
+        "query"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "updateVolState"
+    ],
+    "classes": []
+}

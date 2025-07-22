@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "target",
+        "opt_arg",
+        "software_version",
+        "software_version",
+        "software_version",
+        "opt_arg",
+        "possible_opt_args",
+        "opt_arg",
+        "software_version",
+        "opt_arg",
+        "target",
+        "name",
+        "version",
+        "os",
+        "text",
+        "query",
+        "target",
+        "opt_arg",
+        "query",
+        "target",
+        "opt_arg",
+        "format_result",
+        "reply"
+    ],
+    "literals": [
+        "\"version\"",
+        "\"os\"",
+        "\"name\"",
+        "'name'",
+        "'version'",
+        "'os'",
+        "\"%s: %s\"",
+        "\"%s is running %s version %s on %s\"",
+        "'software_version'"
+    ],
+    "variables": [
+        "software_version",
+        "possible_opt_args",
+        "name",
+        "version",
+        "os",
+        "text",
+        "text",
+        "software_version",
+        "target",
+        "opt_arg",
+        "reply"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "XEP-0072: Server Version",
+        "init all necessary variables",
+        "list of all possible opt_arg",
+        "if opt_arg is given member of possible_opt_args list return that element",
+        "otherwise return full version string"
+    ],
+    "docstrings": [
+        "\"\"\"\n\tprocess and format a version query\n\t\"\"\""
+    ],
+    "functions": [
+        "format_result",
+        "format"
+    ],
+    "classes": [
+        "Version"
+    ]
+}

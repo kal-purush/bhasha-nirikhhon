@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "view",
+        "javafx",
+        "scene",
+        "control",
+        "Label",
+        "javafx",
+        "scene",
+        "layout",
+        "BorderPane",
+        "title",
+        "title",
+        "title",
+        "title",
+        "setText"
+    ],
+    "literals": [],
+    "variables": [
+        "title"
+    ],
+    "comments": [
+        "This entire file is part of my masterpiece.",
+        "Elliott Bolzan"
+    ],
+    "docstrings": [
+        "* @author Elliott Bolzan\n *\n *         This class represents a View in the program. Specific kinds of views\n *         can extend this class, like CollapsibleView. Every View must have a\n *         title.\n * \n *         This code's purpose: providing a base GUI class for all views in the\n *         project.\n * \n *         Why I think this code is well designed: this code is as minimal as it\n *         should be. A View, in our project, is characterized by the fact it\n *         has a title and by the fact it can have subcomponents. This class\n *         provides this capability without providing any extra bells and\n *         whistles.\n *",
+        "* Create a View and initialize its label.",
+        "* @return a Label representing the View's title.",
+        "* Set the view's title to a specific string.\n\t * \n\t * @param string\n\t *            the view's title."
+    ],
+    "functions": [
+        "View",
+        "Label",
+        "getTitle",
+        "setTitle"
+    ],
+    "classes": [
+        "View"
+    ]
+}

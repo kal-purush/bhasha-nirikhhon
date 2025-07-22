@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "json",
+        "pathlib",
+        "Path",
+        "config",
+        "Path",
+        "config",
+        "DATA_ITEMS_PATH",
+        "open",
+        "items_cache_data_file",
+        "f",
+        "json",
+        "load",
+        "f",
+        "Path",
+        "config",
+        "DATA_ITEMS_PATH",
+        "open",
+        "icons_items_file_path",
+        "f",
+        "json",
+        "load",
+        "f",
+        "item_id",
+        "item_data",
+        "items_cache_data",
+        "items",
+        "icon_items",
+        "item_id",
+        "KeyError",
+        "item_id",
+        "item_data",
+        "main"
+    ],
+    "literals": [
+        "\"items-cache-data.json\"",
+        "\"icons-items-complete.json\"",
+        "f\"  > No icon for item ID: {item_id}, {item_data['name']}\"",
+        "'name'",
+        "\"__main__\""
+    ],
+    "variables": [
+        "items_cache_data_file",
+        "items_cache_data",
+        "icons_items_file_path",
+        "icon_items"
+    ],
+    "comments": [
+        "Load current items-cache-data.json file",
+        "Load current icons-items-complete.json file",
+        "Check for item ID key in icon_items file"
+    ],
+    "docstrings": [
+        "\"\"\"\nAuthor:  PH01L\nEmail:   phoil@osrsbox.com\nWebsite: https://www.osrsbox.com\n\nDescription:\nLoad the processed cache data for items, check each item for a corresponding\nicon in the docs/items-icons folder.\n\nCopyright (c) 2020, PH01L\n\n###############################################################################\nThis program is free software: you can redistribute it and/or modify\nit under the terms of the GNU General Public License as published by\nthe Free Software Foundation, either version 3 of the License, or\n(at your option) any later version.\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY; without even the implied warranty of\nMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\nGNU General Public License for more details.\nYou should have received a copy of the GNU General Public License\nalong with this program.  If not, see <http://www.gnu.org/licenses/>.\n###############################################################################\n\"\"\""
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql",
+        "gql"
+    ],
+    "literals": [
+        "'@apollo/client'",
+        "mutation login($email: String!, $password: String!) {\n    login(email: $email, password: $password) {\n      token\n      user {\n        _id\n        username\n      }\n    }\n  }",
+        "mutation addUser($username: String!, $email: String!, $password: String!) {\n    addUser(username: $username, email: $email, password: $password) {\n      token\n      user {\n        _id\n        username\n      }\n    }\n  }",
+        "mutation addFriend($id: ID!) {\n    addFriend(friendId: $id) {\n      _id\n      username\n      friendCount\n      friends {\n        _id\n        username\n      }\n    }\n  }",
+        "mutation addThought($thoughtText: String!) {\n    addThought(thoughtText: $thoughtText) {\n      _id\n      thoughtText\n      createdAt\n      username\n      reactionCount\n      reactions {\n        _id\n      }\n    }\n  }",
+        "mutation addReaction($thoughtId: ID!, $reactionBody: String!) {\n    addReaction(thoughtId: $thoughtId, reactionBody: $reactionBody) {\n      _id\n      reactionCount\n      reactions {\n        _id\n        reactionBody\n        createdAt\n        username\n      }\n    }\n  }"
+    ],
+    "variables": [
+        "LOGIN_USER",
+        "ADD_USER",
+        "ADD_FRIEND",
+        "ADD_THOUGHT",
+        "ADD_REACTION"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

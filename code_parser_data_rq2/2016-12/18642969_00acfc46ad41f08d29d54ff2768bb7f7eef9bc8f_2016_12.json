@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "VisualStudio",
+        "TestTools",
+        "UnitTesting",
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "Voat",
+        "Tests",
+        "TestInitialize",
+        "TestHelper",
+        "SetPrincipal"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Different configurations of Test Suites will handle test context",
+        "authentication differently [i.e. WindowsIdentity (Authenticated) | GenericIdentity(Not Authenticated)]",
+        "",
+        "This method ensures that the user context is cleared before test execution"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Initialize"
+    ],
+    "classes": [
+        "BaseUnitTest"
+    ]
+}

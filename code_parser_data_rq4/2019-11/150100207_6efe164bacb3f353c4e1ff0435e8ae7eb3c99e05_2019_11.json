@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "zowe",
+        "imperative",
+        "profile",
+        "imperative",
+        "imperative",
+        "session",
+        "imperative",
+        "path",
+        "zowe",
+        "session",
+        "imperative",
+        "ussPath",
+        "mode",
+        "session",
+        "imperative",
+        "zowe",
+        "session",
+        "imperative",
+        "dataSetName",
+        "zowe"
+    ],
+    "literals": [
+        "\"@brightside/core\"",
+        "\"@brightside/imperative\"",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "TODO"
+    ],
+    "docstrings": [
+        "* This program and the accompanying materials are made available under the terms of the *\n* Eclipse Public License v2.0 which accompanies this distribution, and is available at *\n* https://www.eclipse.org/legal/epl-v20.html                                      *\n*                                                                                 *\n* SPDX-License-Identifier: EPL-2.0                                                *\n*                                                                                 *\n* Copyright Contributors to the Zowe Project.                                     *\n*                                                                                 *",
+        "* Common interface shared between all API interfaces offered by this extension.",
+        "* Return the type name of the CLI profile supported by this api.",
+        "* Create a session for the specific profile type\n     * @param profile {imperative.IProfile} profile reference\n     * @returns {imperative.Session} a Zowe CLI Session reference",
+        "* API for providing a USS Rest handler to the extension.\n * @export\n * @interface ZoweVscUssApi",
+        "* Return the directory elements for a given USS path\n     *\n     * @param {string} path\n     * @returns {IZosFilesResponse}\n     *     A response structure that contains a boolean success property\n     *     as well as the list of results in apiResponse.items with\n     *     minimal properties name, mode.\n     * @memberof ZoweVscRestApi",
+        "* Create a new directory or file in the specified path\n     *\n     * @param {imperative.Session} session\n     * @param {string} ussPath\n     * @param {string} type\n     * @param {string} [mode]\n     * @returns {Promise<string>}\n     * @memberof IZoweVscUssApi"
+    ],
+    "functions": [],
+    "classes": []
+}

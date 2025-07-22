@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "Injectable",
+        "NestMiddleware",
+        "Request",
+        "Response",
+        "NextFunction",
+        "StructuredLoggerService",
+        "LogContext",
+        "Injectable",
+        "req",
+        "res",
+        "next",
+        "req",
+        "StructuredLoggerService",
+        "res",
+        "correlationId",
+        "req",
+        "req",
+        "req",
+        "req",
+        "req",
+        "logContext",
+        "req",
+        "req",
+        "StructuredLoggerService",
+        "logContext",
+        "next"
+    ],
+    "literals": [
+        "'@nestjs/common'",
+        "'express'",
+        "'./structured-logger.service'",
+        "'x-correlation-id'",
+        "string",
+        "'x-correlation-id'",
+        "'user-agent'"
+    ],
+    "variables": [
+        "correlationId",
+        "logContext"
+    ],
+    "comments": [
+        "Obtener correlationId del header o crear uno nuevo",
+        "Establecer el correlationId en los headers de respuesta",
+        "Crear contexto de log con información de la solicitud",
+        "Si hay un usuario autenticado (asumiendo que está disponible en req.user)",
+        "Ejecutar el middleware en el contexto del correlationId"
+    ],
+    "docstrings": [],
+    "functions": [
+        "use"
+    ],
+    "classes": [
+        "CorrelationIdMiddleware"
+    ]
+}

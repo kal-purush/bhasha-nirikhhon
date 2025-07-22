@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Threading",
+        "Tasks",
+        "IO",
+        "ConsoleApp7"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "class Class1",
+        "{ String line;",
+        "{",
+        "StreamReader sr = new StreamReader(\"C:\\Users\\SIIM\\Desktop\\notes.txt\");",
+        "line = sr.ReadLine();",
+        "while (line!= null){",
+        "Console.WriteLine(line);",
+        "line = sr.ReadLine();",
+        "}",
+        "sr.Close();",
+        "Console.ReadLine();}",
+        "catch(Expection e){",
+        "Console.WriteLine(\"Exception: \"+e.Message);",
+        "}",
+        "finally{",
+        "Console.WriteLine(\"executing final block);"
+    ],
+    "docstrings": [
+        "***try***"
+    ],
+    "functions": [],
+    "classes": []
+}

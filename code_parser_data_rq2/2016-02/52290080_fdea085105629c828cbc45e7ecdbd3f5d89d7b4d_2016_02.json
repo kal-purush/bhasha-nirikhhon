@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Ayasha",
+        "Phaser",
+        "Phaser",
+        "Phaser",
+        "Phaser"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "'loader'",
+        "'graphics/loader.png'",
+        "'Preloader'"
+    ],
+    "variables": [],
+    "comments": [
+        "Unless you specifically need to support multitouch I would recommend setting this to 1",
+        "Phaser will automatically pause if the browser tab the game is in loses focus. You can disable that here:",
+        "If you have any desktop specific settings, they can go in here",
+        "In this case we're saying \"scale the game, no lower than 480x260 and no higher than 1024x768\""
+    ],
+    "docstrings": [],
+    "functions": [
+        "preload",
+        "create"
+    ],
+    "classes": [
+        "Boot"
+    ]
+}

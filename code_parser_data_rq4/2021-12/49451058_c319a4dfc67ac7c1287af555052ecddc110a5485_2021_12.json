@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "arches",
+        "app",
+        "models",
+        "fields",
+        "i18n",
+        "I18n_JSONField",
+        "django",
+        "db",
+        "migrations",
+        "django",
+        "conf",
+        "settings",
+        "migrations",
+        "Migration",
+        "format",
+        "settings",
+        "LANGUAGE_CODE",
+        "format",
+        "settings",
+        "LANGUAGE_CODE",
+        "migrations",
+        "RunSQL",
+        "sql",
+        "reverse_sql",
+        "migrations",
+        "AlterField",
+        "model_name",
+        "name",
+        "field",
+        "I18n_JSONField",
+        "blank"
+    ],
+    "literals": [
+        "\"models\"",
+        "\"7802_i18n_ri_datatype\"",
+        "\"cardxnodexwidget\"",
+        "\"config\""
+    ],
+    "variables": [
+        "dependencies",
+        "sql",
+        "reverse_sql",
+        "operations"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n        UPDATE public.cards_x_nodes_x_widgets\n        SET config =\n        jsonb_set(config, '{{placeholder}}', json_build_object('{0}', config->>'placeholder')::jsonb, true)||\n        '{{\"i18n_properties\": [\"placeholder\"]}}'\n        WHERE nodeid in (SELECT nodeid FROM nodes WHERE datatype = 'resource-instance-list');\n\n        UPDATE public.widgets\n        SET defaultconfig = defaultconfig ||\n        '{{\"i18n_properties\": [\"placeholder\"]}}'\n        WHERE datatype = 'resource-instance-list';\n\n    \"\"\"",
+        "\"\"\"\n        UPDATE public.cards_x_nodes_x_widgets\n        set config = config - 'i18n_properties' ||\n        json_build_object('placeholder', jsonb_extract_path(config, 'placeholder', '{0}'))::jsonb\n        WHERE nodeid in (SELECT nodeid FROM nodes WHERE datatype = 'resource-instance-list');\n\n        UPDATE public.widgets\n        SET defaultconfig = defaultconfig - 'i18n_properties'\n        WHERE datatype = 'resource-instance-list';\n\n\n    \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "Migration"
+    ]
+}

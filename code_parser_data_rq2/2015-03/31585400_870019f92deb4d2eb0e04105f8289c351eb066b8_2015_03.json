@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "ecset",
+        "Main",
+        "canvas",
+        "jQuery",
+        "illa",
+        "illa",
+        "path",
+        "path",
+        "path",
+        "canvas",
+        "jQuery",
+        "p"
+    ],
+    "literals": [
+        "'DOM loaded.'",
+        "'body'"
+    ],
+    "variables": [
+        "p"
+    ],
+    "comments": [
+        "<reference path='../../lib/jQuery.d.ts'/>",
+        "<reference path='../../lib/illa/_module.ts'/>",
+        "<reference path='../../lib/illa/Arrkup.ts'/>",
+        "<reference path='../../lib/illa/Axis2D.ts'/>",
+        "<reference path='../../lib/illa/End.ts'/>",
+        "<reference path='../../lib/illa/Log.ts'/>",
+        "<reference path='../../lib/berek/Widget.ts'/>",
+        "<reference path='canvas/Canvas.ts'/>",
+        "<reference path='path/BezierPath.ts'/>",
+        "<reference path='path/Path.ts'/>",
+        "var p = new path.Path([new path.Point(255, 255), new path.Point(320, 500), new path.Point(630, 320), new path.Point(1024-255, 768-255)]);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "onDomLoaded"
+    ],
+    "classes": [
+        "Main"
+    ]
+}

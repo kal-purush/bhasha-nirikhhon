@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "MiniProject",
+        "java",
+        "sql",
+        "Connection",
+        "java",
+        "sql",
+        "DriverManager",
+        "java",
+        "sql",
+        "SQLException",
+        "dbconn",
+        "url",
+        "Class",
+        "forName",
+        "DriverManager",
+        "getConnection",
+        "url",
+        "e",
+        "e",
+        "printStackTrace",
+        "e",
+        "e",
+        "printStackTrace",
+        "dbconn"
+    ],
+    "literals": [
+        "\"jdbc:oracle:thin:@192.168.0.19:1521/xe\"",
+        "\"oracle.jdbc.OracleDriver\"",
+        "\"hr\"",
+        "\"hr\""
+    ],
+    "variables": [],
+    "comments": [
+        "싱글톤 생성자가 private",
+        "db연결해서 사용할 connection 객체를 반환",
+        "드라이버 로드. 클래스 이름으로 찾아서 메모리에 얹음",
+        "db에 로그인. 세션 수립하고 생성된 connection 객체 반환",
+        "TODO Auto-generated catch block",
+        "TODO Auto-generated catch block"
+    ],
+    "docstrings": [],
+    "functions": [
+        "DBConnect",
+        "Connection",
+        "conn",
+        "DBConnect",
+        "getInstance"
+    ],
+    "classes": [
+        "DBConnect"
+    ]
+}

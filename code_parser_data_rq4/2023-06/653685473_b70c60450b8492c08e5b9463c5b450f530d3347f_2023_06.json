@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "draggedItem",
+        "container",
+        "container",
+        "draggedItem",
+        "draggedItem",
+        "draggedItem",
+        "alert",
+        "container1",
+        "container2",
+        "alert",
+        "message",
+        "messageElement",
+        "message",
+        "messageElement",
+        "setTimeout",
+        "messageElement"
+    ],
+    "literals": [
+        "\"text/plain\"",
+        "\"dragged\"",
+        "\"dragged\"",
+        "\"text/plain\"",
+        "\"Item dropped successfully!\"",
+        "\"container1\"",
+        "\"container2\"",
+        "'<h2>Container 1</h2>'",
+        "'<ul class=\"item-container\">'",
+        "'<li draggable=\"true\" ondragstart=\"drag(event)\">python</li>'",
+        "'<li draggable=\"true\" ondragstart=\"drag(event)\">c</li>'",
+        "'<li draggable=\"true\" ondragstart=\"drag(event)\">Ruby</li>'",
+        "'<li draggable=\"true\" ondragstart=\"drag(event)\">Java</li>'",
+        "'</ul>'",
+        "'<h2>Container 2</h2>'",
+        "\"Containers reset.\"",
+        "\"p\""
+    ],
+    "variables": [
+        "draggedItem",
+        "container",
+        "container1",
+        "container2",
+        "messageElement"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "drag",
+        "allowDrop",
+        "drop",
+        "resetContainers",
+        "showMessage"
+    ],
+    "classes": []
+}

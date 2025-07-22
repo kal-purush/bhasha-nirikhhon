@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "fetch",
+        "response",
+        "response",
+        "response",
+        "data",
+        "data",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "'https://gql.hashnode.com'",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'",
+        "Network response was not ok: ${response.statusText}",
+        "'GraphQL Errors:'",
+        "GraphQL query failed: ${JSON.stringify(data.errors)}"
+    ],
+    "variables": [
+        "response",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "query"
+    ],
+    "classes": []
+}

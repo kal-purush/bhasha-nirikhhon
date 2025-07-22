@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Dispatch",
+        "IAuthState",
+        "pluralize",
+        "IModel",
+        "ApiAction",
+        "ModelApi",
+        "ModelApi",
+        "modelName",
+        "modelName",
+        "pluralize",
+        "modelName",
+        "query",
+        "payload",
+        "dispatch",
+        "response",
+        "dispatch",
+        "response",
+        "payload"
+    ],
+    "literals": [
+        "\"redux\"",
+        "\"../../auth/model/AuthenticationState\"",
+        "\"pluralize\"",
+        "\"../model/\"",
+        "\"./Api\"",
+        "\"./ModelApi\"",
+        "string",
+        "string",
+        "SUCCESSFUL_SEARCH_${pluralize(modelName.toUpperCase())}",
+        "string",
+        "\"GET\"",
+        "${this.endpoint}/search/"
+    ],
+    "variables": [
+        "payload"
+    ],
+    "comments": [
+        "tslint:disable:no-unused-variable",
+        "tslint:enable:no-unused-variable"
+    ],
+    "docstrings": [],
+    "functions": [
+        "search",
+        "getSearchEndpoint",
+        "successfulSearchAction"
+    ],
+    "classes": [
+        "SearchableModelApi"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "org",
+        "mule",
+        "extension",
+        "db",
+        "api",
+        "logger",
+        "org",
+        "mule",
+        "runtime",
+        "extension",
+        "api",
+        "annotation",
+        "Export"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) MuleSoft, Inc.  All rights reserved.  http://www.mulesoft.com\n * The software in this package is published under the terms of the CPAL v1.0\n * license, a copy of which has been included with this distribution in the\n * LICENSE.txt file.",
+        "* This is a class used just to export the package.\n * <p>\n * The {@link MuleMySqlLogger} is required to be exported, but it can be exported using the {@link Export} annotation\n * due that {@link MuleMySqlLogger} depends on MySql classes, so to prevent the connector fail when loading it when is\n * used with other vendors like: Derby, Oracle, etc. this class is exported instead to export the entire package.\n *\n * @since 1.0"
+    ],
+    "functions": [],
+    "classes": [
+        "LoggerApiPackage"
+    ]
+}

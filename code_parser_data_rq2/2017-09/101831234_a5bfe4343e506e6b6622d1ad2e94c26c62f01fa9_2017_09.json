@@ -1,0 +1,93 @@
+{
+    "identifiers": [
+        "numpy",
+        "np",
+        "server",
+        "AbstractCamera",
+        "AbstractCamera",
+        "property",
+        "_resolution",
+        "resolution",
+        "setter",
+        "value",
+        "value",
+        "value",
+        "MAX_RESOLUTION",
+        "MAX_RESOLUTION",
+        "resolution",
+        "MAX_RESOLUTION",
+        "DummyCamera",
+        "resolution",
+        "staticmethod",
+        "resolution",
+        "np",
+        "random",
+        "rand",
+        "resolution",
+        "resolution",
+        "astype",
+        "np",
+        "uint8",
+        "_random_image_gen",
+        "resolution",
+        "resolution",
+        "_random_image_gen",
+        "resolution",
+        "MAX_RESOLUTION",
+        "resolution",
+        "x",
+        "y",
+        "x",
+        "y"
+    ],
+    "literals": [
+        "'Curtis West'",
+        "'Copyright 2017, Curtis West'",
+        "'3.1'",
+        "'Curtis West'",
+        "'curtis@curtiswest.net'",
+        "'Development'",
+        "'Constructing DummyImager'"
+    ],
+    "variables": [
+        "__author__",
+        "__copyright__",
+        "__version__",
+        "__maintainer__",
+        "__email__",
+        "__status__",
+        "MAX_RESOLUTION",
+        "_resolution",
+        "resolution",
+        "resolution"
+    ],
+    "comments": [
+        "type: () -> [[int], [int], [int]]",
+        "type: () -> [[int], [int], [int]]",
+        "type: () -> [int, int]",
+        "type: () -> [int, int]",
+        "type: (int, int) -> None"
+    ],
+    "docstrings": [
+        "\"\"\"\ndummy_camera.py: A concrete `AbstractCamera` that generates random images of RGB noise for debugging purposes.\n\"\"\"",
+        "\"\"\"\n    `DummyCamera` is a concrete `AbstractCamera` that generates random images of RGB noise.\n    \"\"\"",
+        "\"\"\"\n        Captures a still from the camera and returns it as 3-dimensional RGB array representing the image.\n\n        :return: [[[R, G, B]] NumPy array of Numpy.uint8 0-255 values.\n        \"\"\"",
+        "\"\"\"\n        Captures a low resolution still from the camera and returns it as 3-dimensional RGB array\n        representing the image.\n\n        :return: [[[R, G, B]] NumPy array of Numpy.uint8 0-255 values.\n        \"\"\"",
+        "\"\"\"\n        Gets the maximum resolution supported by this camera.\n\n        :return: a list of length 2 representing the resolution i.e. (x, y)\n        \"\"\"",
+        "\"\"\"\n        Gets the current resolution of this camera.\n\n        :return: a list of length 2 representing the resolution i.e. (x, y)\n        \"\"\"",
+        "\"\"\"\n        If supported, sets the resolution of the camera.\n\n        :param x: the x component of the desired resolution\n        :param y: the x component of the desired resolution\n        \"\"\""
+    ],
+    "functions": [
+        "resolution",
+        "resolution",
+        "_random_image_gen",
+        "still",
+        "low_res_still",
+        "get_max_resolution",
+        "get_current_resolution",
+        "set_resolution"
+    ],
+    "classes": [
+        "DummyCamera"
+    ]
+}

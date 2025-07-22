@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "datetime",
+        "datetime",
+        "os",
+        "unittest",
+        "unittest",
+        "mock",
+        "mock",
+        "serpyco",
+        "extract_date_from_exif",
+        "serpyco",
+        "ExifError",
+        "os",
+        "path",
+        "dirname",
+        "os",
+        "path",
+        "join",
+        "TESTS_DIR",
+        "os",
+        "path",
+        "join",
+        "TESTS_DIR",
+        "os",
+        "path",
+        "join",
+        "TESTS_DIR",
+        "unittest",
+        "TestCase",
+        "extract_date_from_exif",
+        "VALID_EXIF_JPEG",
+        "assertEqual",
+        "extracted_date",
+        "datetime",
+        "assertRaises",
+        "IOError",
+        "extract_date_from_exif",
+        "NOT_AN_IMAGE_FILE",
+        "assertRaises",
+        "ExifError",
+        "extract_date_from_exif",
+        "EMPTY_EXIF_JPEG",
+        "unittest",
+        "main"
+    ],
+    "literals": [
+        "'data'",
+        "'empty.jpg'",
+        "'data'",
+        "'not_an_image.txt'",
+        "'data'",
+        "'smiley1.jpg'",
+        "'__main__'"
+    ],
+    "variables": [
+        "TESTS_DIR",
+        "EMPTY_EXIF_JPEG",
+        "NOT_AN_IMAGE_FILE",
+        "VALID_EXIF_JPEG",
+        "extracted_date"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "FIXME"
+    ],
+    "docstrings": [],
+    "functions": [
+        "test_success_on_jpeg",
+        "test_success_on_raw",
+        "test_error_because_no_exif_data_present",
+        "test_error_because_empty_date"
+    ],
+    "classes": [
+        "ExifTests"
+    ]
+}

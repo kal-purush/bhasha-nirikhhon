@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "NextApiRequest",
+        "NextApiResponse",
+        "axios",
+        "handler",
+        "req",
+        "res",
+        "req",
+        "res",
+        "axios",
+        "res",
+        "res",
+        "res",
+        "response",
+        "error",
+        "error",
+        "res",
+        "handler"
+    ],
+    "literals": [
+        "'next'",
+        "'axios'",
+        "'GET'",
+        "{\n      following(request: {address: \"0x3A5bd1E37b099aE3386D13947b6a90d97675e5e3\", limit: 10 }) {\n        items {\n            profile {\n              id\n              name\n              bio\n              metadata\n              handle\n              picture {\n                ... on NftImage {\n                  contractAddress\n                  tokenId\n                  uri\n                  verified\n                }\n                ... on MediaSet {\n                  original {\n                    url\n                    width\n                    height\n                    mimeType\n                  }\n                  medium {\n                    url\n                    width\n                    height\n                    mimeType\n                  }\n                  small {\n                    url\n                    width\n                    height\n                    mimeType\n                  }\n                }\n              }\n              ownedBy\n              stats {\n                totalFollowers\n                totalFollowing\n              }\n            }\n          }\n          pageInfo {\n            prev\n            next\n            totalCount\n          }\n        }\n      }\n    }",
+        "'https://api.lens.dev/'",
+        "'Unxpected error occured'"
+    ],
+    "variables": [
+        "handler",
+        "query",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

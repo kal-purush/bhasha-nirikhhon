@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "IGitHubService",
+        "IGitHubUserProfile",
+        "HttpClient",
+        "HttpClientResponse",
+        "httpClient",
+        "httpClient",
+        "alias",
+        "alias",
+        "gitHubUrl",
+        "HttpClient",
+        "response",
+        "response",
+        "profile",
+        "profile"
+    ],
+    "literals": [
+        "\"./GitHubServices.types\"",
+        "'@microsoft/sp-http'",
+        "string",
+        "string",
+        "\"https://api.github.com/users/\""
+    ],
+    "variables": [
+        "gitHubUrl"
+    ],
+    "comments": [
+        "call the GitHub API"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getUserProfile"
+    ],
+    "classes": [
+        "GitHubService"
+    ]
+}

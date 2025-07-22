@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "mongoose",
+        "process",
+        "process",
+        "dbuser",
+        "dbpwd",
+        "dbpwd",
+        "encodeURIComponent",
+        "dbpwd",
+        "authString",
+        "dbuser",
+        "dbpwd",
+        "mongoose",
+        "authString",
+        "process",
+        "mongoose",
+        "dbConnector",
+        "dbConnector"
+    ],
+    "literals": [
+        "\"mongoose\"",
+        "string",
+        "string",
+        "string",
+        "''",
+        "${dbuser}:${dbpwd}@",
+        "mongodb://${authString}localhost:27017/${process.env.DBNAME}?authSource=admin",
+        "'error'",
+        "\"Error while connecting to DB\"",
+        "'connected to DB'"
+    ],
+    "variables": [
+        "dbuser",
+        "dbpwd",
+        "authString",
+        "dbConnector"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* dbConnector for mongodb with Mongoose\n*"
+    ],
+    "functions": [],
+    "classes": []
+}

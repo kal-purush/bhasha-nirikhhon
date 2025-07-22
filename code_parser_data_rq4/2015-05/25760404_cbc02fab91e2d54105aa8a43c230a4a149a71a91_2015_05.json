@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "Microsoft",
+        "Xna",
+        "Framework",
+        "Microsoft",
+        "Xna",
+        "Framework",
+        "Graphics",
+        "SeaBattle",
+        "Common",
+        "GameEvent",
+        "SeaBattle",
+        "Common",
+        "Session",
+        "SeaBattle",
+        "Common",
+        "Utils",
+        "SeaBattle",
+        "NetWork",
+        "SeaBattle",
+        "View",
+        "SeaBattle",
+        "Game",
+        "AGameEvent",
+        "AGameEvent",
+        "DrawableGameObject",
+        "GameLevel",
+        "gameLevel",
+        "TimeHelper",
+        "timeHelper",
+        "_gameLevel",
+        "gameLevel",
+        "_timeHelper",
+        "timeHelper",
+        "Camera2D",
+        "Camera2D",
+        "gameLevel",
+        "Width",
+        "gameLevel",
+        "Height",
+        "GameTime",
+        "gameTime"
+    ],
+    "literals": [],
+    "variables": [
+        "Camera2D",
+        "Camera2D",
+        "_updateCouter",
+        "TimeHelper",
+        "_timeHelper",
+        "_serverGameEvents",
+        "GameLevel",
+        "_gameLevel",
+        "_drawableGameObjects"
+    ],
+    "comments": [
+        "explosions -> exploded time",
+        "private readonly Dictionary<DrawableGameObject, long> _explosions;",
+        "Все GameEvent'ы с момента последнего синхрокадра,",
+        "нужно хранить их!",
+        "</summary>",
+        "Обновление позиций игровых объектов",
+        "</summary>",
+        "public void Draw(SpriteBatch spriteBatch)\n        {\n            var me = GetGameObject(Guid.NewGuid());\n\n            Vector2 myPosition = me.Coordinates;\n\n            Camera2D.Position = myPosition;\n\n            spriteBatch.Begin(SpriteSortMode.BackToFront,\n                              BlendState.AlphaBlend,\n                              null,\n                              null,\n                              null,\n                              null,\n                              Camera2D.GetTransformation(Textures.GraphicsDevice));\n\n            // draw background\n            //_gameLevel.Draw(spriteBatch);\n\n            // draw game objects\n            foreach (DrawableGameObject drawableGameObject in _drawableGameObjects)\n            {\n                drawableGameObject.Draw(spriteBatch);\n            }\n\n            spriteBatch.End();\n        }\n\n        public DrawableGameObject GetGameObject(Guid id)\n        {\n            return _drawableGameObjects.First(x => x.Id == id);\n        }"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "GameModel",
+        "Update"
+    ],
+    "classes": [
+        "GameModel"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "com",
+        "tilegame",
+        "game",
+        "handler",
+        "com",
+        "badlogic",
+        "gdx",
+        "Input",
+        "com",
+        "badlogic",
+        "gdx",
+        "InputAdapter",
+        "com",
+        "badlogic",
+        "gdx",
+        "math",
+        "Vector2",
+        "Override",
+        "keycode",
+        "keyUp",
+        "keycode",
+        "Override",
+        "screenX",
+        "screenY",
+        "pointer",
+        "button",
+        "touchUp",
+        "screenX",
+        "screenY",
+        "pointer",
+        "button"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Created by: Harrison on 26 Oct 2018",
+        "ntity entity;\n\n    InputHandler(Entity entity, float delta) {\n        this.entity = entity;\n    }\n\n    @Override\n    public boolean keyDown(int keycode) {\n        if(keycode == Input.Keys.W){\n            entity.move(new Vector2(0, 1));\n        }\n        if(keycode == Input.Keys.S){\n            entity.move(new Vector2(0, -1));\n        }\n        if(keycode == Input.Keys.A){\n            entity.move(new Vector2(-1, 0));\n        }\n        if(keycode == Input.Keys.D){\n            entity.move(new Vector2(1, 0));\n        }\n        return false;\n    }"
+    ],
+    "functions": [
+        "keyUp",
+        "touchUp"
+    ],
+    "classes": [
+        "InputHandler"
+    ]
+}

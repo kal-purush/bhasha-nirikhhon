@@ -1,0 +1,86 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "OpenApi",
+        "Microsoft",
+        "OpenApi",
+        "Any",
+        "Microsoft",
+        "OpenApi",
+        "Interfaces",
+        "Microsoft",
+        "OpenApi",
+        "Writers",
+        "Kiota",
+        "Builder",
+        "OpenApiExtensions",
+        "IOpenApiExtension",
+        "IOpenApiWriter",
+        "writer",
+        "OpenApiSpecVersion",
+        "specVersion",
+        "ArgumentNullException",
+        "ThrowIfNull",
+        "writer",
+        "IsReserved",
+        "HasValue",
+        "writer",
+        "WriteValue",
+        "IsReserved",
+        "Value",
+        "IOpenApiAny",
+        "source",
+        "ArgumentNullException",
+        "ThrowIfNull",
+        "source",
+        "source",
+        "OpenApiBoolean",
+        "rawBoolean",
+        "ArgumentOutOfRangeException",
+        "nameof",
+        "source",
+        "OpenApiReservedParameterExtension",
+        "IsReserved",
+        "rawBoolean",
+        "Value"
+    ],
+    "literals": [
+        "\"x-ms-reserved-parameter\""
+    ],
+    "variables": [
+        "Name",
+        "IsReserved"
+    ],
+    "comments": [
+        "------------------------------------------------------------",
+        "Copyright (c) Microsoft Corporation.  All rights reserved.",
+        "Licensed under the MIT License (MIT). See LICENSE in the repo root for license information.",
+        "------------------------------------------------------------",
+        "Extension element for OpenAPI to add reserved parameters. x-ms-reserved-parameters",
+        "</summary>",
+        "Name of the extension as used in the description.",
+        "</summary>",
+        "<inheritdoc />",
+        "Whether the associated parameter is reserved or not.",
+        "</summary>",
+        "Parses the <see cref=\"IOpenApiAny\"/> to <see cref=\"OpenApiReservedParameterExtension\"/>.",
+        "</summary>",
+        "<param name=\"source\">The source object.</param>",
+        "<returns>The <see cref=\"OpenApiReservedParameterExtension\"/>.</returns>",
+        "<returns></returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Write",
+        "OpenApiReservedParameterExtension",
+        "Parse"
+    ],
+    "classes": [
+        "OpenApiReservedParameterExtension"
+    ]
+}

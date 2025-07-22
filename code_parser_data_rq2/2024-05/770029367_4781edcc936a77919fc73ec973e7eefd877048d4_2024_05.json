@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "sgMail",
+        "process",
+        "sgMail",
+        "sendGridAPIKey",
+        "sendEmail",
+        "email",
+        "name",
+        "Content",
+        "sgMail",
+        "email",
+        "Content",
+        "name",
+        "error",
+        "error",
+        "sendEmail"
+    ],
+    "literals": [
+        "\"@sendgrid/mail\"",
+        "\"omarkhalili810@gmail.com\"",
+        "\"welcoming new  user\"",
+        "${Content} ${name}",
+        "'Email sent'"
+    ],
+    "variables": [
+        "sendGridAPIKey",
+        "sendEmail"
+    ],
+    "comments": [
+        "sgMail.send({",
+        "to: \"omarkhalili273@gmail.com\",",
+        "from: \"omarkhalili810@gmail.com\",",
+        "subject: \"sending hello\",",
+        "text: \"hello Omar\"",
+        "}).then(() => {",
+        "console.log('Email sent')",
+        "})",
+        ".catch((error) => {",
+        "console.error(error)",
+        "})"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

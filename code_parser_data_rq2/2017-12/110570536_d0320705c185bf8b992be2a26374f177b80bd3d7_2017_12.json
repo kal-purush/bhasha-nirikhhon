@@ -1,0 +1,17 @@
+{
+    "identifiers": [],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "<tbody>\n        <!-- *ngFor=\"let hero of heroes\"\n        *ngIf='filteredShows != null' -->\n\n    <tr *ngFor=\"let show of shows\">\n      <!-- put in a href -->\n      <td><img class='Poster' [src]= \"getUrl(show.poster_path)\"></td>\n      <td>{{show.original_title}}</td>\n      <td>{{show.Type}}</td>\n      <td>{{show.release_date}}</td>\n      <td>{{show.overview}}</td> \n    </tr>\n  </tbody>"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

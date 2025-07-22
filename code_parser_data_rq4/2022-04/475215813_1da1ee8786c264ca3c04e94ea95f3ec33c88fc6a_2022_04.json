@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "TypeParseErrorCode",
+        "value",
+        "value",
+        "value",
+        "parameters",
+        "parameters",
+        "typeOf",
+        "parameters",
+        "expectedType",
+        "TypeParseErrorCode",
+        "parameters",
+        "typeFound",
+        "TypeParseErrorCode",
+        "key",
+        "expectedType",
+        "key",
+        "expectedType",
+        "typeFound",
+        "TypeParseErrorCode",
+        "typeFound",
+        "expectedType"
+    ],
+    "literals": [
+        "\"string\"",
+        "\"number\"",
+        "\"bigint\"",
+        "\"boolean\"",
+        "\"symbol\"",
+        "\"undefined\"",
+        "\"object\"",
+        "\"function\"",
+        "\"array\"",
+        "\"unknown\"",
+        "\"NOT_FOUND\"",
+        "\"INVALID_TYPE\"",
+        "\"UNABLE_TO_PARSE\"",
+        "string",
+        "string",
+        "string",
+        "\"array\"",
+        "string",
+        "string",
+        "\"TypeParse exception\"",
+        "\"unknown\"",
+        "${parameters.customError}",
+        "\"undefined\"",
+        "Unable to find a valid [${expectedType}] value at [${key}]",
+        "Invalid type, expected [${expectedType}] but found [${typeFound}]",
+        "Unable to convert [${typeFound}] to [${expectedType}]",
+        "TypeParse error: ${this.message}"
+    ],
+    "variables": [],
+    "comments": [
+        "---------------------------------------------------------------------------------------------\n *  Copyright (c) Kenneth Herrera. All rights reserved.\n *  Licensed under the MIT License. See LICENSE in the project root for license information.\n *--------------------------------------------------------------------------------------------"
+    ],
+    "docstrings": [],
+    "functions": [
+        "typeOf",
+        "toString"
+    ],
+    "classes": [
+        "TypeParseError"
+    ]
+}

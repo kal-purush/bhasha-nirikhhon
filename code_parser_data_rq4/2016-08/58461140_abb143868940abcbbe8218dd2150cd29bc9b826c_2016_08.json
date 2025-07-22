@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "randomUint32",
+        "randomUint32",
+        "CombinedSequence",
+        "CombinedSequence"
+    ],
+    "literals": [
+        "\"./utils\"",
+        "'Overflow number just overflowed!'",
+        "'overflow-overflow'"
+    ],
+    "variables": [],
+    "comments": [
+        "1<<32",
+        "1<<16",
+        "Sequence number overflow",
+        "Overflow overflow"
+    ],
+    "docstrings": [
+        "* Copyright (C) 2016 Threema GmbH / SaltyRTC Contributors\n *\n * This software may be modified and distributed under the terms\n * of the MIT license.  See the `LICENSE.md` file for details.",
+        "* Return next sequence number and overflow.\n     *\n     * May throw an error if overflow number overflows. This is extremely\n     * unlikely and must be treated as a protocol error."
+    ],
+    "functions": [
+        "next"
+    ],
+    "classes": [
+        "CombinedSequence"
+    ]
+}

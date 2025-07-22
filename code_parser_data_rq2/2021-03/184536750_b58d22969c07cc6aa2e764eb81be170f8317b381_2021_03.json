@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "budgetSetInterval",
+        "cb",
+        "countdown",
+        "budgetClearInterval",
+        "cb",
+        "node",
+        "val",
+        "node"
+    ],
+    "literals": [],
+    "variables": [
+        "budgetSetInterval",
+        "budgetClearInterval"
+    ],
+    "comments": [
+        "module.exports = ___; // <- feel free to export whichever you want!"
+    ],
+    "docstrings": [
+        "* Given the two methods recreate the functionality of both setInterval and clearInterval\n * Example usage:\n * const thing = budgetSetInterval(() => console.log('wow'), 5000 ) // should log 'wow' every 5 seconds\n * budgetClearInterval(thing) // should immediately end the logs",
+        "* Turn it into a class! Get creative with it!\n * option 1: expose two methods\n * option 2: setInterval has the clearInterval method on it\n * option 3: can you think of anything else?"
+    ],
+    "functions": [
+        "setInterval",
+        "clearInterval"
+    ],
+    "classes": [
+        "budgetInterval"
+    ]
+}

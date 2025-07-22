@@ -1,0 +1,19 @@
+{
+    "identifiers": [],
+    "literals": [
+        "\"once\"",
+        "\"pop\"",
+        "\"purge_tasks\""
+    ],
+    "variables": [
+        "transaction"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n        local key = KEYS[1]\n        local limit = tonumber(ARGV[1])\n        local splitNum = tonumber(ARGV[2])\n\n        if redis.pcall('exists', key) == 0 then\n            redis.pcall('rpush', key, 0)\n        end\n\n        local window = tonumber(redis.pcall('lindex', key, -1))\n\n        if window >= limit then\n            if tonumber(redis.pcall('llen', key)) >= splitNum then\n                return 0\n            end\n            redis.pcall('rpushx', key, 0)\n            window = 0\n        end\n\n        window = window + 1\n\n        redis.pcall('lset', key, -1, window)\n        redis.pcall('sadd', 'purge_tasks', key)\n\n        return 1\n    \"\"\"",
+        "\"\"\"\n        local key = KEYS[1]\n        if redis.pcall('exists', key) == 0 then\n            return\n        end\n        return redis.pcall('lpop', key)\n    \"\"\"",
+        "\"\"\"\n        local array = {}\n        for i, k in pairs(redis.pcall('smembers', 'purge_tasks')) do\n            if redis.pcall('exists', k) == 0 or redis.pcall('llen', k) == 0 then\n                redis.pcall('srem', k)\n                array[i] = k\n            end\n        end\n        return array\n    \"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "com",
+        "packtpub",
+        "e4",
+        "clock",
+        "ui",
+        "org",
+        "eclipse",
+        "jface",
+        "resource",
+        "ImageDescriptor",
+        "org",
+        "eclipse",
+        "ui",
+        "plugin",
+        "AbstractUIPlugin",
+        "org",
+        "osgi",
+        "framework",
+        "BundleContext",
+        "PLUGIN_ID",
+        "plugin",
+        "context",
+        "start",
+        "context",
+        "plugin",
+        "context",
+        "plugin",
+        "stop",
+        "context",
+        "plugin",
+        "path",
+        "imageDescriptorFromPlugin",
+        "PLUGIN_ID",
+        "path"
+    ],
+    "literals": [
+        "\"com.packtpub.e4.clock.ui\""
+    ],
+    "variables": [
+        "plugin"
+    ],
+    "comments": [
+        "The plug-in ID",
+        "$NON-NLS-1$",
+        "The shared instance"
+    ],
+    "docstrings": [
+        "* The activator class controls the plug-in life cycle",
+        "* The constructor",
+        "* (non-Javadoc)\n\t * @see org.eclipse.ui.plugin.AbstractUIPlugin#start(org.osgi.framework.BundleContext)",
+        "* (non-Javadoc)\n\t * @see org.eclipse.ui.plugin.AbstractUIPlugin#stop(org.osgi.framework.BundleContext)",
+        "* Returns the shared instance\n\t *\n\t * @return the shared instance",
+        "* Returns an image descriptor for the image file at the given\n\t * plug-in relative path\n\t *\n\t * @param path the path\n\t * @return the image descriptor"
+    ],
+    "functions": [
+        "Activator",
+        "start",
+        "stop",
+        "Activator",
+        "getDefault",
+        "ImageDescriptor",
+        "getImageDescriptor"
+    ],
+    "classes": [
+        "Activator"
+    ]
+}

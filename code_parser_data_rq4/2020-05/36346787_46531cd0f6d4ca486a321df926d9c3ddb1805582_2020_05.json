@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "Store",
+        "GridEventProps",
+        "SortState",
+        "GridEvent",
+        "findPropIndex",
+        "deepCopy",
+        "columnName",
+        "ascending",
+        "cancelable",
+        "findPropIndex",
+        "columnName",
+        "data",
+        "column",
+        "columnName",
+        "cancelable",
+        "ascending",
+        "defaultAscending",
+        "index",
+        "eventType",
+        "eventParams",
+        "deepCopy",
+        "eventParams",
+        "eventType",
+        "props",
+        "props",
+        "GridEvent",
+        "props"
+    ],
+    "literals": [
+        "'@t/store'",
+        "'@t/event'",
+        "'@t/store/data'",
+        "'../event/gridEvent'",
+        "'../helper/common'",
+        "'beforeSort'",
+        "'beforeUnsort'",
+        "'afterSort'",
+        "'afterUnsort'",
+        "'sort'",
+        "string",
+        "string",
+        "'columnName'",
+        "'asc'",
+        "'beforeSort'",
+        "'beforeUnsort'",
+        "'sort'",
+        "'afterSort'",
+        "'afterUnsort'"
+    ],
+    "variables": [
+        "index",
+        "defaultAscending",
+        "eventParams",
+        "sortState",
+        "props"
+    ],
+    "comments": [
+        "eslint-disable no-fallthrough",
+        "do nothing",
+        "eslint-disable no-fallthrough"
+    ],
+    "docstrings": [
+        "* Occurs before sorting.\n     * @event Grid#beforeSort\n     * @property {Object} sortState - Current sort state\n     * @property {string} columnName - Target column name\n     * @property {boolean} ascending - The next ascending state of a column.\n     * If the event is not stopped this ascending state will be applied to grid.\n     * @property {boolean} multiple - Whether to use multiple sort\n     * @property {Grid} instance - Current grid instance",
+        "* Occurs before unsorting.\n     * @event Grid#beforeUnsort\n     * @property {Object} sortState - Current sort state of the grid\n     * @property {string} columnName - Target column name\n     * @property {boolean} multiple - Whether to use multiple sort\n     * @property {Grid} instance - Current grid instance",
+        "* Occurs after sorting.\n     * @event Grid#sort\n     * @property {Object} sortState - sort state\n     * @property {string} columnName - Target column name\n     * @property {Grid} instance - Current grid instance",
+        "* Occurs after sorting.\n     * @event Grid#afterSort\n     * @property {Object} sortState - sort state\n     * @property {string} columnName - Target column name\n     * @property {Grid} instance - Current grid instance",
+        "* Occurs after unsorting.\n     * @event Grid#afterUnsort\n     * @property {Object} sortState - sort state\n     * @property {string} columnName - Target column name\n     * @property {Grid} instance - Current grid instance"
+    ],
+    "functions": [
+        "isCancelSort",
+        "createSortEvent"
+    ],
+    "classes": []
+}

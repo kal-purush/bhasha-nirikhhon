@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "os",
+        "yaml",
+        "data_folders_filepath",
+        "dataset_config_filepath",
+        "os",
+        "path",
+        "isfile",
+        "data_folders_filepath",
+        "os",
+        "path",
+        "isfile",
+        "dataset_config_filepath",
+        "open",
+        "data_folders_filepath",
+        "f",
+        "yaml",
+        "safe_load",
+        "f",
+        "open",
+        "dataset_config_filepath",
+        "f",
+        "yaml",
+        "safe_load",
+        "f"
+    ],
+    "literals": [],
+    "variables": [
+        "_data_folders_dict",
+        "_dataset_config_dict"
+    ],
+    "comments": [
+        "load contents of data folders YAML file",
+        "load contents of dataset config YAML file"
+    ],
+    "docstrings": [
+        "\"\"\"Class that lets you generate bash scripts that will create \"virtual\" folders\n    that can be used by the L2CS-Net data loaders. No data is copied anywhere, the original\n    folders stay the same, but instead symbolic links are created and annotations files\n    are accordingly modified.\n    \"\"\"",
+        "\"\"\"Class constructor\n\n        Args:\n            data_folders_filepath: YAML file that will contain paths to folders that include\n                                   already prepared GazeCapture-compatible data folders\n                                   (folders with images + annotations.txt)\n            dataset_config_filepath: YAML file that contains description on how the new\n                                     dataset should be selected for training and validation\n                                     datasets\n        \"\"\""
+    ],
+    "functions": [
+        "generate_dataset_creation_script"
+    ],
+    "classes": [
+        "DataSelector"
+    ]
+}

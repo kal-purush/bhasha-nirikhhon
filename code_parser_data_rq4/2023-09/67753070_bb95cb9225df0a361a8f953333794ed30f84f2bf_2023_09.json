@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "Command",
+        "packageName",
+        "packageName",
+        "packageName",
+        "packageName",
+        "packageName"
+    ],
+    "literals": [
+        "'../help'",
+        "'../../util/pkg-name'",
+        "'teams'",
+        "'Manage teams under your Vercel account'",
+        "'add'",
+        "'Create a new team'",
+        "'ls'",
+        "\"Show all teams you're a part of\"",
+        "'switch'",
+        "'Switch to a different team'",
+        "'name'",
+        "'invite'",
+        "'Invite a new member to a team'",
+        "'emails'",
+        "'next'",
+        "'N'",
+        "'string'",
+        "'MS'",
+        "'Show next page of results'",
+        "\"Switch to a team. If your team's url is 'vercel.com/teams/name', then 'name' is the slug. If the slug is omitted, you can choose interactively.\"",
+        "${packageName} teams switch <slug>",
+        "'Invite new members (interactively)'",
+        "${packageName} teams invite",
+        "'Invite multiple members simultaneously'",
+        "${packageName} teams invite abc@vercel.com xyz@vercel.com",
+        "'Paginate results, where `1584722256178` is the time in milliseconds since the UNIX epoch.'",
+        "${packageName} teams ls --next 1584722256178"
+    ],
+    "variables": [
+        "teamsCommand"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

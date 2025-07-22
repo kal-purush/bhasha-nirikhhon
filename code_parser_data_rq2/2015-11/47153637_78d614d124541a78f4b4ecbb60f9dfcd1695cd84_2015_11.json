@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "express",
+        "path",
+        "express",
+        "express",
+        "app",
+        "req",
+        "res",
+        "res",
+        "process",
+        "app",
+        "port",
+        "server",
+        "listeningPort"
+    ],
+    "literals": [
+        "'express'",
+        "'path'",
+        "'/'",
+        "'hello'",
+        "'The server is listening on port: '"
+    ],
+    "variables": [
+        "app",
+        "port",
+        "server",
+        "listeningPort"
+    ],
+    "comments": [
+        "<reference path=\"../typings/tsd.d.ts\" />",
+        "app.get('/api/coolresource', (req, res) => {\n    res.send({\n        \"isApiWorking\": true\n    });\n});"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

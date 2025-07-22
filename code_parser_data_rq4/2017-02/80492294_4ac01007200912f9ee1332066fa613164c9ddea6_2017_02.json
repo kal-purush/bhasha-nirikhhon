@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "Component",
+        "AfterViewInit",
+        "Http",
+        "Component",
+        "Swiper",
+        "http",
+        "http",
+        "url",
+        "res",
+        "error",
+        "error",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"@angular/http\"",
+        "'movie'",
+        "'./movie.component.html'",
+        "'./movie.component.css'",
+        "'f2dc1bac4738f37ff5d783ab52a512b5'",
+        "'.swiper-container'",
+        "'vertical'",
+        "'.swiper-pagination'",
+        "'.swiper-button-next'",
+        "'.swiper-button-prev'",
+        "'https://apis.daum.net/contents/movie?apikey=f2dc1bac4738f37ff5d783ab52a512b5&q=%EC%98%81%ED%99%94&output=json'",
+        "'An error occurred'"
+    ],
+    "variables": [
+        "Swiper",
+        "mySwiper",
+        "url"
+    ],
+    "comments": [
+        "Optional parameters",
+        "If we need pagination",
+        "Navigation arrows",
+        ".then(response => console.log(response.json().data))",
+        ".catch(this.handleError);",
+        "for demo purposes only"
+    ],
+    "docstrings": [
+        "* Created on 2017-02-01.\n * @author: Gman Park"
+    ],
+    "functions": [
+        "ngAfterViewInit",
+        "handleError"
+    ],
+    "classes": [
+        "MovieComponent"
+    ]
+}

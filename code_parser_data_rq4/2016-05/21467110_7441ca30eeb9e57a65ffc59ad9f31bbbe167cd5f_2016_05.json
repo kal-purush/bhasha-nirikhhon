@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "unicode_literals",
+        "pytest",
+        "spacy",
+        "attrs",
+        "en_vocab",
+        "en_vocab",
+        "en_vocab",
+        "cat1",
+        "cat2",
+        "en_vocab",
+        "en_vocab",
+        "en_vocab",
+        "cat",
+        "dog",
+        "en_vocab",
+        "en_vocab",
+        "en_vocab",
+        "noun",
+        "orth",
+        "opera",
+        "orth",
+        "noun",
+        "opera",
+        "opera",
+        "noun"
+    ],
+    "literals": [
+        "'cat'",
+        "'cat'",
+        "'cat'",
+        "'dog'",
+        "'NOUN'",
+        "'opera'"
+    ],
+    "variables": [
+        "cat1",
+        "cat2",
+        "cat",
+        "dog",
+        "noun",
+        "opera"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''Test Issue #361: Equality of lexemes'''",
+        "'''Inequality of lexemes'''",
+        "'''More frequent is l.t. less frequent'''"
+    ],
+    "functions": [
+        "test_lexeme_eq",
+        "test_lexeme_neq",
+        "test_lexeme_lt"
+    ],
+    "classes": []
+}

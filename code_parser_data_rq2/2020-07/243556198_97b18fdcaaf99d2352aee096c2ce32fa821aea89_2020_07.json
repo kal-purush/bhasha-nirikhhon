@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "JobPromise",
+        "WebAPIClient",
+        "SessionState",
+        "webAPIClient",
+        "webAPIClient",
+        "session",
+        "session"
+    ],
+    "literals": [
+        "\"./renderer/webapi\"",
+        "\"./renderer/state\"",
+        "'get_preferences'",
+        "'set_preferences'"
+    ],
+    "variables": [],
+    "comments": [
+        "This Remote Storage API interface provides access to a particular domain's session or local storage. It allows, for example, the addition, modification, or deletion of stored data items."
+    ],
+    "docstrings": [],
+    "functions": [
+        "getPreferences",
+        "setPreferences"
+    ],
+    "classes": [
+        "RemoteStorage"
+    ]
+}

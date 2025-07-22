@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "styled",
+        "styled",
+        "theme",
+        "styled",
+        "theme",
+        "theme"
+    ],
+    "literals": [
+        "'styled-components'",
+        "width: 100%;\n  height: 100%;\n  display: flex;\n  flex-direction: column;\n  border-right: 1px solid ${({ theme }) => theme.colors.darkPurple};\n  justify-content: flex-start;\n  padding: 30px 0;\n  grid-row: 1 / 3;\n  grid-column: 1 /1;",
+        "background-color: ${({ theme }) => theme.colors.darkGrey};\n  width: 100%;\n  height: 60px;\n  display: flex;\n  justify-content: flex-end;\n  align-items: center;\n  margin-bottom: 30px;\n\n  h2 {\n    font-size: 15px;\n    color: ${({ theme }) => theme.colors.white};\n    font-style: italic;\n    margin-right: 20px;\n    text-align: right;\n  }"
+    ],
+    "variables": [
+        "Wrapper",
+        "Logo"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

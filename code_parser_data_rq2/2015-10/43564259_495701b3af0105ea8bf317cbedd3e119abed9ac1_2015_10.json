@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "Component",
+        "View",
+        "bootstrap",
+        "RouteConfig",
+        "ROUTER_DIRECTIVES",
+        "ROUTER_BINDINGS",
+        "Component",
+        "RouteConfig",
+        "View",
+        "ROUTER_DIRECTIVES",
+        "bootstrap",
+        "App",
+        "ROUTER_BINDINGS"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'angular2/router'",
+        "'app'",
+        "'./app.html'",
+        "'./app.css'"
+    ],
+    "variables": [],
+    "comments": [
+        "import {HTTP_BINDINGS} from 'http/http';",
+        "import {Home} from './components/home/home';",
+        "import {About} from './components/about/about';",
+        "import {NameList} from './services/name_list';",
+        "viewBindings: [NameList]",
+        "{ path: '/', component: Home, as: 'home' },",
+        "{ path: '/about', component: About, as: 'about' }"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "App"
+    ]
+}

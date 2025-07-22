@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Extensions",
+        "Configuration",
+        "Collections",
+        "Generic",
+        "Microsoft",
+        "Extensions",
+        "Configuration",
+        "IConfiguration",
+        "config",
+        "config",
+        "ArgumentNullException",
+        "nameof",
+        "config",
+        "Environment",
+        "GetEnvironmentVariable",
+        "DefaultParse"
+    ],
+    "literals": [
+        "\"InMemory\""
+    ],
+    "variables": [],
+    "comments": [
+        "This doesn't strictly require the IConfiguration object but it was a convenient",
+        "extension point and it will likely make sense to add other extensions to this",
+        "interface",
+        "</summary>",
+        "<param name=\"config\"></param>",
+        "<returns></returns>",
+        "return config.GetValue<bool>(\"InMemory\");"
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "RunningInMemory"
+    ],
+    "classes": [
+        "IConfigurationExtensions"
+    ]
+}

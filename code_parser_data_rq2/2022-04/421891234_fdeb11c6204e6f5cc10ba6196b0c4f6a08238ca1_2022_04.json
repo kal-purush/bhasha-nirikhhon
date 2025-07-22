@@ -1,0 +1,21 @@
+{
+    "identifiers": [],
+    "literals": [
+        "query ValidatorDelegations($validatorAddress: String!, $offset: Int = 0, $limit: Int = 10, $pagination: Boolean! = true) {\n  delegations: action_validator_delegations(address: $validatorAddress, limit: $limit, offset: $offset, count_total: $pagination){\n    delegations\n    pagination\n  }\n}",
+        "query ValidatorRedelegations($validatorAddress: String!, $offset: Int = 0, $limit: Int = 10, $pagination: Boolean! = true) {\n  redelegations: action_validator_redelegations_from(address: $validatorAddress, limit: $limit, offset: $offset, count_total: $pagination){\n    redelegations\n    pagination\n  }\n}",
+        "query ValidatorUndelegations ($validatorAddress: String!, $offset: Int = 0, $limit: Int = 10, $pagination: Boolean! = true) {\n  undelegations: action_validator_unbonding_delegations(address: $validatorAddress, limit: $limit, offset: $offset, count_total: $pagination){\n    undelegations: unbonding_delegations\n    pagination\n  }\n}"
+    ],
+    "variables": [
+        "ValidatorDelegationsDocument",
+        "ValidatorRedelegationsDocument",
+        "ValidatorUndelegationsDocument"
+    ],
+    "comments": [
+        "GraphQL",
+        "GraphQL",
+        "GraphQL"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

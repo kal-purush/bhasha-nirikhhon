@@ -1,0 +1,35 @@
+{
+    "identifiers": [
+        "pythonforandroid",
+        "recommendations",
+        "check_python_version",
+        "pythonforandroid",
+        "util",
+        "BuildInterruptingException",
+        "handle_build_exception",
+        "check_python_version",
+        "pythonforandroid",
+        "toolchain",
+        "ToolchainCL",
+        "ToolchainCL",
+        "BuildInterruptingException",
+        "exc",
+        "handle_build_exception",
+        "exc"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Check the Python version before importing anything heavier than",
+        "the util functions.  This lets us provide a nice message about",
+        "incompatibility rather than having the interpreter crash if it",
+        "reaches unsupported syntax from a newer Python version."
+    ],
+    "docstrings": [
+        "\"\"\"\n    Main entrypoint for running python-for-android as a script.\n    \"\"\""
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Config",
+        "nextJest",
+        "nextJest",
+        "createJestConfig",
+        "config"
+    ],
+    "literals": [
+        "\"jest\"",
+        "\"next/jest.js\"",
+        "\"./\"",
+        "\"v8\"",
+        "\"jsdom\"",
+        "\"^@//(.*)$\"",
+        "\"<rootDir>/src/$1\"",
+        "\"<rootDir>/jest.setup.ts\""
+    ],
+    "variables": [
+        "createJestConfig",
+        "config"
+    ],
+    "comments": [
+        "Provide the path to your Next.js app to load next.config.js and .env files in your test environment",
+        "Add any custom config to be passed to Jest",
+        "createJestConfig is exported this way to ensure that next/jest can load the Next.js config which is async"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

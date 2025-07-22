@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "Component",
+        "OnInit",
+        "Post",
+        "HttpClient",
+        "Observable",
+        "Component",
+        "_http",
+        "x",
+        "x",
+        "url"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@app/shared/model'",
+        "'@angular/common/http'",
+        "'rxjs'",
+        "'bloggers'",
+        "'./blogger.component.html'",
+        "'Jecelyn'",
+        "'assets/data/mock-posts.json'"
+    ],
+    "variables": [
+        "url"
+    ],
+    "comments": [
+        ".map(x => x.json());"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit",
+        "getPostsByBlogger"
+    ],
+    "classes": [
+        "BloggerComponent"
+    ]
+}

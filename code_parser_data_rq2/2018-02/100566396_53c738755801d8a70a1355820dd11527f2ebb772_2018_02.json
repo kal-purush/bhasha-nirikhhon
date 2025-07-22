@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "org",
+        "laidu",
+        "learn",
+        "tool",
+        "cache",
+        "org",
+        "laidu",
+        "learn",
+        "tool",
+        "cache",
+        "entry",
+        "Entry",
+        "Cache",
+        "key",
+        "o",
+        "key",
+        "key",
+        "o",
+        "key",
+        "key",
+        "o",
+        "key",
+        "o"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "TODO: 2018-02-03 11:28  cache interface"
+    ],
+    "docstrings": [
+        "* cache interface\n *\n * @param <T> the type parameter\n * @author tiancai.zang  2018-02-03 11:28.",
+        "* cache data with String key\n     *\n     * @param key String\n     * @param o   entry",
+        "* get entry by key\n     *\n     * @param key String\n     * @return entry t",
+        "* update entry with key and new entry\n     *\n     * @param key string\n     * @param o   entry",
+        "* Remove.\n     *\n     * @param key the key",
+        "* Gets and put.\n     *\n     * @param key the key\n     * @param o   the o",
+        "* Gets and remove.\n     *\n     * @param key the key\n     * @param o   the o"
+    ],
+    "functions": [
+        "cache",
+        "T",
+        "get",
+        "update",
+        "remove",
+        "getAndPut",
+        "getAndRemove"
+    ],
+    "classes": []
+}

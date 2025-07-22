@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "plusplus",
+        "java",
+        "io",
+        "java",
+        "util",
+        "concurrent",
+        "ExecutorService",
+        "java",
+        "util",
+        "concurrent",
+        "Executors",
+        "plusplus",
+        "client",
+        "Client",
+        "args",
+        "service",
+        "Executors",
+        "newCachedThreadPool",
+        "client",
+        "service",
+        "submit",
+        "client",
+        "service",
+        "shutdown"
+    ],
+    "literals": [
+        "\"matilda.plusplus.rs\""
+    ],
+    "variables": [],
+    "comments": [
+        "Custom server for examination purpose",
+        "Server server = new Server();",
+        "service.submit(server);",
+        "",
+        "Thread.sleep(1000);",
+        "Client client = new Client(\"localhost\", 8888, 20);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "main"
+    ],
+    "classes": [
+        "Application"
+    ]
+}

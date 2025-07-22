@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Component",
+        "EventEmitter",
+        "TaskListComponent",
+        "Component",
+        "TaskListComponent",
+        "clickedTask",
+        "clickedTask"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./task-list.component'",
+        "'./task.model'",
+        "'my-app'",
+        "<div class=\"container\">\n      <h1>Skeleton Angular2 App!</h1>\n      <task-list\n      [taskList]=\"tasks\"\n      (onTaskSelect)=\"taskWasSelected($event)\">\n      </task-list>\n    </div>",
+        "\"Create To-Do List app.\"",
+        "\"Learn Kung Fu.\"",
+        "\"Rewatch all the Lord of the Rings movies.\"",
+        "\"Do the laundry.\"",
+        "\"Go retrieve life giving device\"",
+        "\"Maude here:\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "taskWasSelected"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

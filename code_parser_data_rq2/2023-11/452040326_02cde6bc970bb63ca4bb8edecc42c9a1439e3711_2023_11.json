@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "webpack",
+        "TsconfigPathsPlugins",
+        "webpackPaths",
+        "dependencies",
+        "externals",
+        "webpack",
+        "externals",
+        "webpackPaths",
+        "webpackPaths",
+        "TsconfigPathsPlugins",
+        "webpack",
+        "configuration"
+    ],
+    "literals": [
+        "'webpack'",
+        "'tsconfig-paths-webpack-plugin'",
+        "'./webpack.paths'",
+        "'../../release/app/package.json'",
+        "'errors-only'",
+        "'ts-loader'",
+        "'esnext'",
+        "'commonjs2'",
+        "'.js'",
+        "'.jsx'",
+        "'.json'",
+        "'.ts'",
+        "'.tsx'",
+        "'node_modules'",
+        "'production'"
+    ],
+    "variables": [
+        "configuration"
+    ],
+    "comments": [
+        "Remove this line to enable type checking in webpack builds",
+        "https://github.com/webpack/webpack/issues/1114",
+        "There is no need to add aliases here, the paths in tsconfig get mirrored"
+    ],
+    "docstrings": [
+        "* Base webpack config used across other specific configs",
+        "* Determine the array of extensions that should be used to resolve modules."
+    ],
+    "functions": [],
+    "classes": []
+}

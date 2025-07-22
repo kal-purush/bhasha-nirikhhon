@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "exports",
+        "exports",
+        "exports",
+        "getConfirmation",
+        "message",
+        "callback",
+        "callback",
+        "message",
+        "exports",
+        "supportsHistory",
+        "ua",
+        "ua",
+        "ua",
+        "ua",
+        "ua",
+        "exports",
+        "supportsPopStateOnHashChange",
+        "exports",
+        "supportsGoWithoutReloadUsingHash",
+        "exports",
+        "isExtraneousPopstateEvent",
+        "navigator"
+    ],
+    "literals": [
+        "\"use strict\"",
+        "\"undefined\"",
+        "\"Android 2.\"",
+        "\"Android 4.0\"",
+        "\"Mobile Safari\"",
+        "\"Chrome\"",
+        "\"Windows Phone\"",
+        "\"pushState\"",
+        "\"Trident\"",
+        "\"Firefox\"",
+        "\"CriOS\""
+    ],
+    "variables": [
+        "canUseDOM",
+        "getConfirmation",
+        "supportsHistory",
+        "ua",
+        "supportsPopStateOnHashChange",
+        "supportsGoWithoutReloadUsingHash",
+        "isExtraneousPopstateEvent"
+    ],
+    "comments": [
+        "eslint-disable-line no-alert"
+    ],
+    "docstrings": [
+        "* Returns true if the HTML5 history API is supported. Taken from Modernizr.\n *\n * https://github.com/Modernizr/Modernizr/blob/master/LICENSE\n * https://github.com/Modernizr/Modernizr/blob/master/feature-detects/history.js\n * changed to avoid false negatives for Windows Phones: https://github.com/reactjs/react-router/issues/586",
+        "* Returns true if browser fires popstate on hash change.\n * IE10 and IE11 do not.",
+        "* Returns false if using go(n) with hash history causes a full page reload.",
+        "* Returns true if a given popstate event is an extraneous WebKit event.\n * Accounts for the fact that Chrome on iOS fires real popstate events\n * containing undefined state when pressing the back button."
+    ],
+    "functions": [],
+    "classes": []
+}

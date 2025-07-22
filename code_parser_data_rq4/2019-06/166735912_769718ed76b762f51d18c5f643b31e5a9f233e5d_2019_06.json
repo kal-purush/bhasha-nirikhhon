@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "SSM",
+        "PutParameterRequest",
+        "IOption",
+        "ISettings",
+        "IEnvironmentVariable",
+        "ParameterUtils",
+        "ListParametersUseCase",
+        "AwsHangar",
+        "settings",
+        "option",
+        "settings",
+        "option",
+        "AwsHangar",
+        "settings",
+        "option",
+        "option",
+        "option",
+        "option",
+        "ParameterUtils",
+        "PutParameterUseCase",
+        "basePath",
+        "variable",
+        "ListParametersUseCase",
+        "basePath",
+        "result",
+        "ssm",
+        "basePath",
+        "variable",
+        "basePath",
+        "variable",
+        "variable",
+        "ssm",
+        "putParameters"
+    ],
+    "literals": [
+        "'aws-sdk/clients/ssm'",
+        "'aws-sdk/clients/ssm'",
+        "'../option/option'",
+        "'../settings/settings'",
+        "'../settings/environment-variables'",
+        "'./util'",
+        "'./list-parameters'",
+        "'../option/profile/aws-hangar'",
+        "string",
+        "string",
+        "string",
+        "${basePath}/${variable.Name}",
+        "'String'"
+    ],
+    "variables": [
+        "basePath",
+        "variable",
+        "result",
+        "putParameters"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "execute",
+        "put"
+    ],
+    "classes": [
+        "PutParameter",
+        "PutParameterUseCase"
+    ]
+}

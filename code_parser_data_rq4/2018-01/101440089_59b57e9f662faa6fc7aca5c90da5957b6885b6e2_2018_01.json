@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "danta",
+        "jahia",
+        "util",
+        "org",
+        "jahia",
+        "services",
+        "content",
+        "JCRNodeWrapper",
+        "javax",
+        "jcr",
+        "Node",
+        "javax",
+        "jcr",
+        "RepositoryException",
+        "java",
+        "util",
+        "java",
+        "util",
+        "danta",
+        "jahia",
+        "Constants",
+        "JAHIA_VANITY_URL_MAPPING",
+        "mainNode",
+        "vanityPaths",
+        "vanityUrls",
+        "mainNode",
+        "getNode",
+        "JAHIA_VANITY_URL_MAPPING",
+        "vanityUrls",
+        "vanityUrl",
+        "vanityUrls",
+        "getNodes",
+        "vanityPaths",
+        "add",
+        "vanityUrl",
+        "getName",
+        "vanityPaths",
+        "size",
+        "vanityPaths",
+        "size",
+        "vanityPaths",
+        "get",
+        "vanityPaths"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Danta AEM Bundle\n *\n * Copyright (C) 2017 Tikal Technologies, Inc. All rights reserved.\n *\n * Licensed under GNU Affero General Public License, Version v3.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      https://www.gnu.org/licenses/agpl-3.0.txt\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied;\n * without even the implied warranty of MERCHANTABILITY.\n * See the License for more details.",
+        "* Page Utility class, contained generic methods for handling a JahiaDF Page.\n *\n * @author      Danta Team\n * @version     1.0.0\n * @since       2018-01-17",
+        "* Returns the vanity URL mappings stored under the page node.\n     *\n     * @param mainNode The page node\n     * @return vanityPaths The vanityURLs either as a string or list.\n     * @throws RepositoryException"
+    ],
+    "functions": [
+        "getVanityURLs"
+    ],
+    "classes": [
+        "PageUtils"
+    ]
+}

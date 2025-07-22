@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "NUnit",
+        "Framework",
+        "Linq",
+        "Chip8",
+        "Tests",
+        "SetUp",
+        "Test",
+        "Vm",
+        "NewVm",
+        "MockWindow",
+        "vm",
+        "EmulateCycle",
+        "pixel",
+        "vm",
+        "Gfx",
+        "Assert",
+        "AreEqual",
+        "pixel",
+        "Test",
+        "Vm",
+        "NewVm",
+        "MockWindow",
+        "vm",
+        "EmulateCycle",
+        "vm",
+        "EmulateCycle",
+        "Assert",
+        "AreEqual",
+        "vm",
+        "PC"
+    ],
+    "literals": [],
+    "variables": [
+        "vm",
+        "vm"
+    ],
+    "comments": [
+        "0x00E0 - Clear the screen",
+        "0x2204 - Call subroutine at 0x204",
+        "Execution should continue here at 0x202",
+        "0x00EE - Return to caller"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Setup",
+        "Test_OpCode00E0_ShouldClearScreen",
+        "Test_OpCode00EE_ShouldReturnToPC0x202"
+    ],
+    "classes": [
+        "TestOpcodes"
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "getContext",
+        "runWithContext",
+        "onCleanup",
+        "computations",
+        "getContext",
+        "runWithContext",
+        "computation",
+        "computations",
+        "currentComputation",
+        "computation",
+        "computation",
+        "getContext",
+        "computation",
+        "computations",
+        "computation",
+        "computations",
+        "computation",
+        "onCleanup",
+        "currentComputations",
+        "computation",
+        "computations",
+        "computation",
+        "currentComputations",
+        "computations",
+        "runComputations",
+        "currentComputations",
+        "currentComputations"
+    ],
+    "literals": [
+        "\"./context\"",
+        "\"./disposer\""
+    ],
+    "variables": [
+        "currentComputation",
+        "computations",
+        "currentComputations"
+    ],
+    "comments": [
+        "? This condition will prevent circular dependencies",
+        "! Updating value will never cause recalculation of current computation",
+        "Buffer for next updates",
+        "Buffer for current updates",
+        "In case there was a cleanup we want to stop any further updates of computations",
+        "This means nested computations will be cancelled as well"
+    ],
+    "docstrings": [],
+    "functions": [
+        "runComputations",
+        "createSignal",
+        "track",
+        "notify"
+    ],
+    "classes": []
+}

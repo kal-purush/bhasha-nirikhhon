@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "format",
+        "DB_USER",
+        "DB_PWD",
+        "DB_HOST",
+        "DB_PORT",
+        "DB_NAME"
+    ],
+    "literals": [
+        "''",
+        "'root'",
+        "''",
+        "''",
+        "'mysql+pymysql://{}:{}@{}:{}/{}?charset=utf8mb4'",
+        "''",
+        "''",
+        "\"./logData/\"",
+        "'https://oapi.dingtalk.com/robot/send?access_token=e7eee758ba35c26681c215ac650f972b95614ade270e6984f5e2759310ab9ea6'"
+    ],
+    "variables": [
+        "DEBUG",
+        "DEBUG_LOG",
+        "DB_HOST",
+        "DB_PORT",
+        "DB_USER",
+        "DB_PWD",
+        "DB_NAME",
+        "SQLALCHEMY_DATABASE_URI",
+        "SQLALCHEMY_TRACK_MODIFICATIONS",
+        "SQLALCHEMY_ECHO",
+        "REDIS_HOST",
+        "REDIS_PORT",
+        "REDIS_DB",
+        "REDIS_PWD",
+        "REDIS_EX",
+        "SLEEP_TIME",
+        "LOGS_DIR",
+        "DINGDING_MESSAGE"
+    ],
+    "comments": [
+        "CACHE_TYPE  = 'simple'",
+        "REDIS_URL = \"redis://:{}@{}:{}/{}\".format(REDIS_PWD, REDIS_HOST, REDIS_PORT, REDIS_DB)"
+    ],
+    "docstrings": [
+        "'''\n数据库的配置\n'''",
+        "'''\n缓存信息配置\n'''"
+    ],
+    "functions": [],
+    "classes": []
+}

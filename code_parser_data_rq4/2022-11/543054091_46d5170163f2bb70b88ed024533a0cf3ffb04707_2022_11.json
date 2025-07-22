@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "BaseQueue",
+        "IPostJobData",
+        "postWorker",
+        "BaseQueue",
+        "postWorker",
+        "postWorker",
+        "postWorker",
+        "name",
+        "data",
+        "name",
+        "data",
+        "PostQueue"
+    ],
+    "literals": [
+        "'@service/queues/base-queue'",
+        "'@post/interfaces/post.interface'",
+        "'@worker/post.worker'",
+        "'postsQueue'",
+        "'addPostToDB'",
+        "'deletePostFromDB'",
+        "'updatePostInDB'",
+        "string"
+    ],
+    "variables": [
+        "postQueue"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "addPostJob"
+    ],
+    "classes": [
+        "PostQueue"
+    ]
+}

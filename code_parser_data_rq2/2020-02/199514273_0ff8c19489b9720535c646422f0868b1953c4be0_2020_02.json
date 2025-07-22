@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "graphql",
+        "updateCertificationUrlMutation",
+        "updateCertificationUrlMutationType",
+        "updateCertificationUrlMutationVariables",
+        "RelayModernEnvironment",
+        "BaseMutation",
+        "graphql",
+        "updateCertificationUrlMutation",
+        "environment",
+        "variables",
+        "BaseMutation",
+        "m",
+        "environment",
+        "mutation",
+        "variables",
+        "updateCertificationUrlMutation"
+    ],
+    "literals": [
+        "'react-relay'",
+        "'updateCertificationUrlMutation.graphql'",
+        "'relay-runtime/lib/store/RelayModernEnvironment'",
+        "'mutations/BaseMutation'",
+        "mutation updateCertificationUrlMutation(\n    $input: UpdateCertificationUrlInput!\n  ) {\n    updateCertificationUrl(input: $input) {\n      certificationUrl {\n        id\n        certificationSignature\n        certifiedBy\n        certifiedAt\n        formResultsMd5\n      }\n    }\n  }",
+        "'update-certification-url-mutation'"
+    ],
+    "variables": [
+        "mutation",
+        "updateCertificationUrlMutation",
+        "m"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

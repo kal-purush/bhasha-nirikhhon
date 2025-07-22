@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "graphql",
+        "SubmissionPageData",
+        "extractPage",
+        "extractCollection",
+        "DropdownArtistEntry",
+        "preview",
+        "graphql",
+        "SubmissionPageQuery",
+        "extractPage",
+        "data",
+        "limit",
+        "skip",
+        "graphql",
+        "AllArtistsQuery",
+        "extractCollection",
+        "data"
+    ],
+    "literals": [
+        "\"..\"",
+        "\"../../../types/shared\"",
+        "\"../../../util\"",
+        "\"../../../types/shared\"",
+        "query SubmissionPageQuery($preview: Boolean) {\n      pageSubmission(id: \"1eohijLMd2Q38BVq0D713p\", preview: $preview) {\n        coverImage {\n          sys {\n            id\n          }\n          title\n          description\n          url\n          width\n          height\n        }\n        liveShows {\n          json\n          links {\n            assets {\n              block {\n                sys {\n                  id\n                }\n                contentType\n                title\n                description\n                url\n                width\n                height\n              }\n            }\n          }\n        }\n        liveShows2 {\n          json\n          links {\n            assets {\n              block {\n                sys {\n                  id\n                }\n                contentType\n                title\n                description\n                url\n                width\n                height\n              }\n            }\n          }\n        }\n        preRecords {\n          json\n          links {\n            assets {\n              block {\n                sys {\n                  id\n                }\n                contentType\n                title\n                description\n                url\n                width\n                height\n              }\n            }\n          }\n        }\n        uploadLink\n      }\n    }",
+        "\"pageSubmission\"",
+        "query AllArtistsQuery($limit: Int, $skip: Int) {\n      artistCollection(order: name_ASC, limit: $limit, skip: $skip) {\n        items {\n          sys {\n            id\n          }\n          name\n        }\n      }\n    }",
+        "\"artistCollection\""
+    ],
+    "variables": [
+        "SubmissionPageQuery",
+        "data",
+        "AllArtistsQuery",
+        "data"
+    ],
+    "comments": [
+        "GraphQL",
+        "GraphQL",
+        "export async function getArtistsPage(",
+        "role: boolean,",
+        "limit: number,",
+        "skip: number",
+        ") {",
+        "const ArtistsPageQuery = /* GraphQL */ `",
+        "query ArtistsPageQuery($limit: Int, $skip: Int, $role: Boolean) {",
+        "artistCollection(",
+        "order: name_ASC",
+        "limit: $limit",
+        "skip: $skip",
+        "where: { role: $role }",
+        ") {",
+        "items {",
+        "...AllArtistFragment",
+        "}",
+        "}",
+        "}",
+        "${AllArtistFragment}",
+        "`;",
+        "const data = await graphql(ArtistsPageQuery, {",
+        "variables: { limit, skip, role },",
+        "});",
+        "return extractCollection<AllArtistEntry>(data, \"artistCollection\");",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getSubmissionPage",
+        "getAllArtists"
+    ],
+    "classes": []
+}

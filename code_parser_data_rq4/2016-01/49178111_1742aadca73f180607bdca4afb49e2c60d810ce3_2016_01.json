@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Component",
+        "ContentPaneComponent",
+        "NavigationItem",
+        "SidebarPaneComponent",
+        "Component",
+        "ContentPaneComponent",
+        "SidebarPaneComponent",
+        "navigationItem",
+        "navigationItem",
+        "navigationItem"
+    ],
+    "literals": [
+        "'angular2/core'",
+        "'./content-pane.component'",
+        "'./navigation-item'",
+        "'./sidebar-pane.component'",
+        "'portfolio'",
+        "<h1>{{title}}</h1>\n    <sidebar-pane (update)=\"onNavigationUpdate($event)\"></sidebar-pane>\n    <content-pane [content]=\"selectedNavigationItem\"></content-pane>",
+        "\"I am Michael Dunton!\"",
+        "\"Setting NavigationItem\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "onNavigationUpdate"
+    ],
+    "classes": [
+        "AppComponent"
+    ]
+}

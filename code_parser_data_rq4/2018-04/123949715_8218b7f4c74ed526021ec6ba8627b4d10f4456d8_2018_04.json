@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "callback",
+        "callback",
+        "callback",
+        "callback",
+        "callback",
+        "callback",
+        "options",
+        "channel",
+        "callback",
+        "channel",
+        "channel",
+        "channel",
+        "channel"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "'laravel-echo'",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* The Echo options.\n     *\n     * @type {any}",
+        "* Listen for an event on the channel instance.\n     *\n     * @param  {string} event\n     * @param  {Function} callback\n     * @return {IEchoChannel}",
+        "* Listen for an event on the channel instance.\n     *\n     * @param  {string} event\n     * @param  {Function} callback\n     * @return {IEchoChannel}",
+        "* Listen for a whisper event on the channel instance.\n     *\n     * @param  {string} event\n     * @param  {Function}   callback\n     * @return {PusherChannel}",
+        "* Register a callback to be called anytime the member list changes.\n     *\n     * @param  {Function} callback\n     * @return {object} IEchoPresenceChannel",
+        "* Listen for someone joining the channel.\n     *\n     * @param  {Function} callback\n     * @return {IEchoPresenceChannel}",
+        "* Listen for someone leaving the channel.\n     *\n     * @param  {Function} callback\n     * @return {IEchoPresenceChannel}",
+        "* The broadcasting connector.\n         *\n         * @type {object}",
+        "* The Echo options.\n         *\n         * @type {array}",
+        "* Create a new class instance.\n         *\n         * @param  {object} options",
+        "* Register a Vue HTTP interceptor to add the X-Socket-ID header.",
+        "* Register an Axios HTTP interceptor to add the X-Socket-ID header.",
+        "* Register jQuery AjaxSetup to add the X-Socket-ID header.",
+        "* Listen for an event on a channel instance.",
+        "* Get a channel instance by name.\n         *\n         * @param  {string}  channel\n         * @return {object}",
+        "* Get a private channel instance by name.\n         *\n         * @param  {string} channel\n         * @return {object}",
+        "* Get a presence channel instance by name.\n         *\n         * @param  {string} channel\n         * @return {object}",
+        "* Leave the given channel.\n         *\n         * @param  {string} channel",
+        "* Get the Socket ID for the connection.\n         *\n         * @return {string}",
+        "* Disconnect from the Echo server.\n         *\n         * @return void"
+    ],
+    "functions": [],
+    "classes": [
+        "Echo"
+    ]
+}

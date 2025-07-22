@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "graphql",
+        "graphql",
+        "req",
+        "res",
+        "ctx",
+        "req",
+        "owner",
+        "res",
+        "ctx",
+        "res",
+        "ctx"
+    ],
+    "literals": [
+        "'msw'",
+        "'Collections'",
+        "'msw::collections::not-implemented'",
+        "'MSW - Not implemented'",
+        "'R_kgDOID1vsA'",
+        "'Tree'",
+        "'pages'",
+        "'posts'",
+        "'projects'"
+    ],
+    "variables": [
+        "handlers"
+    ],
+    "comments": [
+        "Collections query. Use the owner to determine the possible response",
+        "to get from GitHub's API",
+        "happy path, return a set of collections",
+        "https://docs.github.com/en/graphql/overview/explorer",
+        "{\"owner\": \"avitorio\", \"name\": \"outstatic\", \"contentPath\": \"main:examples/blog/outstatic/content\"}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

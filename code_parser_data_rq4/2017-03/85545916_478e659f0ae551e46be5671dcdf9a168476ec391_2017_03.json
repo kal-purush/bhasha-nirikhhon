@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "com",
+        "ordinov",
+        "springboot",
+        "conf",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "ComponentScan",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "Configuration",
+        "org",
+        "springframework",
+        "web",
+        "servlet",
+        "config",
+        "annotation",
+        "EnableWebMvc",
+        "org",
+        "springframework",
+        "web",
+        "servlet",
+        "config",
+        "annotation",
+        "WebMvcConfigurerAdapter",
+        "Configuration",
+        "EnableWebMvc",
+        "ComponentScan"
+    ],
+    "literals": [
+        "\"com.ordinov\""
+    ],
+    "variables": [],
+    "comments": [
+        "@Bean",
+        "public InternalResourceViewResolver viewResolver(){",
+        "InternalResourceViewResolver resolver = new InternalResourceViewResolver();",
+        "resolver.setPrefix(\"/WEB-INF/views/\");",
+        "resolver.setSuffix(\".jsp\");",
+        "resolver.setViewClass(JstlView.class);",
+        "return resolver;",
+        "}",
+        "@Override",
+        "public void addResourceHandlers(ResourceHandlerRegistry registry) {",
+        "registry.addResourceHandler(\"/css/**\").addResourceLocations(\"/css/\");",
+        "registry.addResourceHandler(\"/images/**\").addResourceLocations(\"/images/\");",
+        "registry.addResourceHandler(\"/js/**\").addResourceLocations(\"/js/\");",
+        "registry.addResourceHandler(\"/fonts/**\").addResourceLocations(\"/fonts/\");",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": [
+        "SpringMVCConfig"
+    ]
+}

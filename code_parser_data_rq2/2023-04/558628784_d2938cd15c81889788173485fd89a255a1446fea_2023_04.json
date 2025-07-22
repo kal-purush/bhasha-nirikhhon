@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "Threading",
+        "Tasks",
+        "UnityEngine",
+        "MonoBehaviour",
+        "path",
+        "Resources",
+        "Load",
+        "GameObject",
+        "path",
+        "GameObject",
+        "path",
+        "LoadResource",
+        "path",
+        "Instance",
+        "Instance",
+        "Instance",
+        "path",
+        "Instance",
+        "Instance",
+        "LoadResource",
+        "path",
+        "Resources",
+        "Load",
+        "GameObject",
+        "path",
+        "GameObject",
+        "path",
+        "Instance",
+        "Instance",
+        "LoadResourceAsync",
+        "path",
+        "Load",
+        "path"
+    ],
+    "literals": [],
+    "variables": [
+        "AssetLoaderBase",
+        "Instance"
+    ],
+    "comments": [
+        "var req = Resources.LoadAsync<GameObject>(path);",
+        "await req;",
+        "return req.asset as GameObject;",
+        "var req = Resources.LoadAsync<GameObject>(path);",
+        "await req;",
+        "return req.asset as GameObject;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "GameObject",
+        "LoadResource",
+        "LoadResourceAsync",
+        "Awake",
+        "OnDestroy",
+        "GameObject",
+        "Load",
+        "LoadAsync"
+    ],
+    "classes": [
+        "AssetLoaderBase"
+    ]
+}

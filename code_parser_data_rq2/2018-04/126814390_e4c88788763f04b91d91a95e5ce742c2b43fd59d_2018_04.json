@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "filename",
+        "model",
+        "data"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "TODO",
+        "TODO",
+        "TODO"
+    ],
+    "docstrings": [
+        "\"\"\"\nCoordinates training procedure, including:\n\n1. invoke self play\n2. store result from self play & start training NN immediately based on that single example\n3. evaluate how well the training is, via loss, (# games drawn due to 50 moves no progress?, ) etc.\n4. save model checkpoints for each 'x' self play\n5. allow loading saved model checkpoints given argument\n\"\"\""
+    ],
+    "functions": [
+        "generate_self_play_data",
+        "load_self_play_data",
+        "train"
+    ],
+    "classes": []
+}

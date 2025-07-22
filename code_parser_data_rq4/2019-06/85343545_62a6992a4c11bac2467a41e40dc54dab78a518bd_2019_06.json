@@ -1,0 +1,85 @@
+{
+    "identifiers": [
+        "DataSource",
+        "MatPaginator",
+        "MatSort",
+        "Observable",
+        "of",
+        "observableOf",
+        "merge",
+        "ILapDataInterface",
+        "DataSource",
+        "EXAMPLE_DATA",
+        "paginator",
+        "sort",
+        "observableOf",
+        "merge",
+        "dataMutations",
+        "data",
+        "data",
+        "startIndex",
+        "data",
+        "data",
+        "data",
+        "a",
+        "b",
+        "compare",
+        "a",
+        "b",
+        "isAsc",
+        "compare",
+        "a",
+        "b",
+        "isAsc",
+        "a",
+        "b",
+        "isAsc",
+        "a",
+        "b",
+        "isAsc"
+    ],
+    "literals": [
+        "'@angular/cdk/collections'",
+        "'@angular/material'",
+        "'rxjs/operators'",
+        "'rxjs'",
+        "'../../../_objects/interfaces/lap-data.interface'",
+        "'H:MM:S'",
+        "'H:MM:S'",
+        "'H:MM:S'",
+        "''",
+        "'asc'",
+        "'name'",
+        "'id'"
+    ],
+    "variables": [
+        "EXAMPLE_DATA",
+        "dataMutations",
+        "startIndex",
+        "isAsc"
+    ],
+    "comments": [
+        "TODO: replace this with real data from your application",
+        "Combine everything that affects the rendered data into one update",
+        "stream for the data-table to consume.",
+        "Set the paginators length",
+        "Simple sort comparator for example ID/Name columns (for client-side sorting)."
+    ],
+    "docstrings": [
+        "* Data source for the DataTable view. This class should\n * encapsulate all logic for fetching and manipulating the displayed data\n * (including sorting, pagination, and filtering).",
+        "* Connect this data source to the table. The table will only update when\n   * the returned stream emits new items.\n   * @returns A stream of the items to be rendered.",
+        "*  Called when the table is being destroyed. Use this function, to clean up\n   * any open connections or free any held resources that were set up during connect.",
+        "* Paginate the data (client-side). If you're using server-side pagination,\n   * this would be replaced by requesting the appropriate data from the server.",
+        "* Sort the data (client-side). If you're using server-side sorting,\n   * this would be replaced by requesting the appropriate data from the server."
+    ],
+    "functions": [
+        "connect",
+        "disconnect",
+        "getPagedData",
+        "getSortedData",
+        "compare"
+    ],
+    "classes": [
+        "DataTableDataSource"
+    ]
+}

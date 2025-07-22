@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "ManagerPage",
+        "h1",
+        "h1",
+        "App",
+        "div",
+        "HashRouter",
+        "Switch",
+        "Route",
+        "UserHomePage",
+        "Route",
+        "Route",
+        "AdminHomePage",
+        "Route",
+        "Route",
+        "LoginPage",
+        "Route",
+        "Route",
+        "ManagerPage",
+        "Route",
+        "Route",
+        "LoginPage",
+        "Route",
+        "Route",
+        "Error404Page",
+        "Route",
+        "Switch",
+        "HashRouter",
+        "div",
+        "ReactDOM",
+        "App"
+    ],
+    "literals": [
+        "\"/user\"",
+        "\"/admin\"",
+        "\"/gm\"",
+        "\"/manager\"",
+        "\"/\"",
+        "\"root\""
+    ],
+    "variables": [
+        "ManagerPage",
+        "App"
+    ],
+    "comments": [
+        "const routes = [",
+        "{path:\"/user\", component:UserPage},",
+        "{path:\"/admin/:id\", component:AdminParamPage},",
+        "{path:\"/admin\", component:AdminPage},",
+        "{path:\"/gm\", component:LoginPage},",
+        "{path:\"/manager\", component:ManagerPage},",
+        "{path:\"/\", component:LoginPage},",
+        "];",
+        "console.log(routes)"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

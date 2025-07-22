@@ -1,0 +1,41 @@
+{
+    "identifiers": [
+        "com",
+        "google",
+        "cloud",
+        "tools",
+        "intellij",
+        "appengine",
+        "descriptor",
+        "dom",
+        "com",
+        "intellij",
+        "util",
+        "xml",
+        "DomElement",
+        "com",
+        "intellij",
+        "util",
+        "xml",
+        "GenericDomValue",
+        "AppEngineStandardWebApp"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2017 Google Inc. All Rights Reserved.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* This is the Dom for the App Engine config file.",
+        "* Returns the App Engine service name of this application",
+        "* Returns the 'runtime' type of the application. For Java this is primarily empty for Java 7 and\n   * 'java8' for Java 8.",
+        "* Returns the App Engine environment type this application will run in. Currently this is empty\n   * for Standard Environment or 'flex' for Flexible Environment.  appengine-web.xmls support for\n   * 'flex' will be going away in 2018.",
+        "* This field has been deprecated in the appengine-web.xml but we still need to be able to\n   * read it for older projects."
+    ],
+    "functions": [
+        "getService",
+        "getRuntime",
+        "getEnv",
+        "getVm"
+    ],
+    "classes": []
+}

@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "op",
+        "execute",
+        "op",
+        "execute",
+        "op",
+        "execute",
+        "op",
+        "execute",
+        "format",
+        "permission"
+    ],
+    "literals": [
+        "'0289_precompiled_for_all'",
+        "'0288_add_go_live_user'",
+        "\"DELETE from service_permissions where permission = 'precompiled_letter'\"",
+        "\"DELETE from service_permission_types where name = 'precompiled_letter'\"",
+        "\"INSERT INTO service_permission_types values('precompiled_letter')\"",
+        "'precompiled_letter'"
+    ],
+    "variables": [
+        "revision",
+        "down_revision"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n\nRevision ID: 0289_precompiled_for_all\nRevises: 0288_add_go_live_user\nCreate Date: 2019-05-13 10:44:51.867661\n\n\"\"\"",
+        "\"\"\"\n           INSERT INTO\n               service_permissions (service_id, permission, created_at)\n           SELECT\n               id, '{permission}', now()\n           FROM\n               services\n           WHERE\n               NOT EXISTS (\n                   SELECT\n                   FROM\n                       service_permissions\n                   WHERE\n                       service_id = services.id and\n                       permission = '{permission}'\n               )\n       \"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

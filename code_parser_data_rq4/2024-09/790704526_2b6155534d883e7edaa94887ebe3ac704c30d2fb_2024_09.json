@@ -1,0 +1,84 @@
+{
+    "identifiers": [
+        "typing",
+        "Union",
+        "pathlib",
+        "Path",
+        "typing",
+        "Optional",
+        "Dict",
+        "agentuniverse",
+        "agent",
+        "action",
+        "knowledge",
+        "reader",
+        "reader",
+        "Reader",
+        "agentuniverse",
+        "agent",
+        "action",
+        "knowledge",
+        "store",
+        "Document",
+        "Reader",
+        "file",
+        "Union",
+        "Path",
+        "ext_info",
+        "Optional",
+        "Dict",
+        "Document",
+        "langchain_community",
+        "document_loaders",
+        "UnstructuredMarkdownLoader",
+        "ImportError",
+        "ImportError",
+        "isinstance",
+        "file",
+        "Path",
+        "file",
+        "UnstructuredMarkdownLoader",
+        "file",
+        "load",
+        "file",
+        "name",
+        "ext_info",
+        "metadata",
+        "update",
+        "ext_info",
+        "Document",
+        "text",
+        "data",
+        "page_content",
+        "metadata",
+        "metadata"
+    ],
+    "literals": [
+        "\"markdown and unstructured is required to read markdown files: \"",
+        "\"please run `pip install unstructured` and `pip install markdown`\"",
+        "\"file_name\""
+    ],
+    "variables": [
+        "file",
+        "data",
+        "metadata"
+    ],
+    "comments": [
+        "!/usr/bin/env python3",
+        "-*- coding:utf-8 -*-",
+        "@Time    : 2024/8/26 18:11",
+        "@Author  : fanen.lhy",
+        "@Email   : fanen.lhy@antgroup.com",
+        "@FileName: markdown_reader.py"
+    ],
+    "docstrings": [
+        "\"\"\"Docx reader.\"\"\"",
+        "\"\"\"Parse the markdown file.\n\n        Note:\n            The markdown file cannot be process in pagination.\n            `unstructured` and `markdown` is required to read markdown files:\n            `pip install unstructured` and `pip install markdown`\n        \"\"\""
+    ],
+    "functions": [
+        "_load_data"
+    ],
+    "classes": [
+        "MarkdownReader"
+    ]
+}

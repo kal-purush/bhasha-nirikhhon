@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "BELOWZERO",
+        "SMLHelper",
+        "V2",
+        "Utility"
+    ],
+    "literals": [
+        "\"bus:/master/SFX_for_pause/PDA_pause/all/SFX/creatures underwater\"",
+        "\"bus:/master/SFX_for_pause/PDA_pause/all/SFX/creatures surface\"",
+        "\"bus:/master/SFX_for_pause/PDA_pause/all/all voice/AI voice\"",
+        "\"bus:/master/SFX_for_pause/PDA_pause/all/all voice/VOs\"",
+        "\"bus:/master/Music_no_pause/music\"",
+        "\"bus:/master/Music_no_pause/music/mutable music\"",
+        "\"bus:/master/SFX_for_pause/PDA_pause/all/SFX/backgrounds\"",
+        "\"bus:/master/SFX_for_pause/PDA_pause/all/SFX/backgrounds/surface\"",
+        "\"bus:/master/SFX_for_pause/PDA_pause/all/SFX/reverbsend\""
+    ],
+    "variables": [
+        "UnderwaterCreatures",
+        "SurfaceCreatures",
+        "PDAVoice",
+        "VoiceOvers",
+        "Music",
+        "EnvironmentalMusic",
+        "UnderwaterAmbient",
+        "SurfaceAmbient",
+        "PlayerSFXs"
+    ],
+    "comments": [
+        "A list of the relevant FMOD bus paths the game uses.",
+        "</summary>",
+        "Used for underwater creature SFXs. Tied to the master volume.",
+        "</summary>",
+        "Used for surface creature SFXs that dont get muted when at the surface of the ocean. Tied to the master volume.",
+        "</summary>",
+        "Used for PDA voices. Tied to the voice volume.",
+        "</summary>",
+        "Used for encyclopedia VOs. Tied to the voice volume.",
+        "</summary>",
+        "Used for main music. Tied to the music volume.",
+        "</summary>",
+        "Used for environmental music. Tied to the music volume.",
+        "</summary>",
+        "Used for underwater ambience SFXs. Tied to the ambient volume.",
+        "</summary>",
+        "Used for ambience SFXs that dont get muted when at the surface of the ocean. Tied to the ambient volume.",
+        "</summary>",
+        "Used for player and hand-held tools SFXs. Tied to the master volume.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "AudioUtils",
+        "BusPaths"
+    ]
+}

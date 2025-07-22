@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "com",
+        "nhnnext",
+        "android",
+        "kumdo",
+        "android",
+        "os",
+        "Bundle",
+        "android",
+        "support",
+        "v7",
+        "app",
+        "AppCompatActivity",
+        "Override",
+        "savedInstanceState",
+        "onCreate",
+        "savedInstanceState",
+        "setContentView",
+        "R",
+        "layout",
+        "activity_detail",
+        "Override",
+        "onStart",
+        "Override",
+        "onResume",
+        "Override",
+        "onPause",
+        "Override",
+        "onStop",
+        "Override",
+        "onDestroy"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* 1. 현재 클릭 된 아이템의 ID(Intent로 구현할지 다른 방법을 사용할지는 추후 논의)를 받는다\n * 2. 서버로 현재 아이템의 ID를 보내서 저장 된 데이터를 불러온다\n * 3. Image와 Text로 View를 그려준다\n * 4. 댓글을 달 수 있다.\n * 5. 좋아요를 누를 수 있다.",
+        "* method : loadDetail()\n     * parameter : Item Id\n     * id로 서버에 저장된 데이터를 불러와서 View를 그려준다",
+        "* method : showComment()\n     * 댓글 창을 보여준다",
+        "* method : createComment()\n     * 입력한 댓글을 서버로 전송한다",
+        "* method : onClickLike()\n     * parameter : Item Id\n     * 좋아요 버튼을 누르면 Id의 Like count가 증가한다"
+    ],
+    "functions": [
+        "onCreate",
+        "onStart",
+        "onResume",
+        "onPause",
+        "onStop",
+        "onDestroy"
+    ],
+    "classes": [
+        "DetailActivity"
+    ]
+}

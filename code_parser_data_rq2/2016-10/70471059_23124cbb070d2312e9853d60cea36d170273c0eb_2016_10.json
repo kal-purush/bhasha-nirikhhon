@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "Stripe",
+        "status",
+        "response",
+        "jQuery",
+        "response",
+        "$Form",
+        "response",
+        "$Form",
+        "response",
+        "$Form",
+        "Token",
+        "$Form",
+        "jQuery",
+        "$",
+        "$",
+        "e",
+        "$",
+        "$Form",
+        "Stripe",
+        "$Form",
+        "stripeResponseHandler"
+    ],
+    "literals": [
+        "'pk_test_lxfWCc5be2HsI3rGx7o60Qvd'",
+        "'#stripe-payment'",
+        "'.payment-errors'",
+        "'button'",
+        "'disabled'",
+        "'#stripeToken'",
+        "'#stripe-payment'",
+        "'button'",
+        "'disabled'"
+    ],
+    "variables": [
+        "stripeResponseHandler",
+        "$Form",
+        "Token",
+        "$Form"
+    ],
+    "comments": [
+        "Show the errors on the form",
+        "token contains id, last4, and card type",
+        "Insert the token into the form so it gets submitted to the server",
+        "$Form.append((jQuery)('<input type=\"hidden\" name=\"stripeToken\" />').val(Token));",
+        "and re-submit",
+        "Disable the submit button to prevent repeated clicks",
+        "Prevent the form from submitting with the default action"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,62 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Builder",
+        "AspNet",
+        "Security",
+        "OAuth",
+        "Weixin"
+    ],
+    "literals": [
+        "\"Weixin\"",
+        "\"Weixin\"",
+        "\"/signin-weixin\"",
+        "\"Weixin\"",
+        "\"https://open.weixin.qq.com/connect/qrconnect\"",
+        "\"https://api.weixin.qq.com/sns/oauth2/access_token\"",
+        "\"https://api.weixin.qq.com/sns/userinfo\""
+    ],
+    "variables": [
+        "AuthenticationScheme",
+        "DisplayName",
+        "CallbackPath",
+        "Issuer",
+        "AuthorizationEndpoint",
+        "TokenEndpoint",
+        "UserInformationEndpoint"
+    ],
+    "comments": [
+        "Default values for Weixin authentication.",
+        "</summary>",
+        "Default value for <see cref=\"AuthenticationOptions.AuthenticationScheme\"/>.",
+        "</summary>",
+        "Default value for <see cref=\"RemoteAuthenticationOptions.DisplayName\"/>.",
+        "</summary>",
+        "Default value for <see cref=\"RemoteAuthenticationOptions.CallbackPath\"/>.",
+        "</summary>",
+        "Default value for <see cref=\"AuthenticationOptions.ClaimsIssuer\"/>.",
+        "</summary>",
+        "Default value for <see cref=\"OAuthOptions.AuthorizationEndpoint\"/>.",
+        "</summary>",
+        "Default value for <see cref=\"OAuthOptions.TokenEndpoint\"/>.",
+        "</summary>",
+        "Default value for <see cref=\"OAuthOptions.UserInformationEndpoint\"/>.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "* Licensed under the Apache License, Version 2.0 (http://www.apache.org/licenses/LICENSE-2.0)\n * See https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers\n * for more information concerning the license and the contributors participating to this project.",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "WeixinAuthenticationDefaults"
+    ]
+}

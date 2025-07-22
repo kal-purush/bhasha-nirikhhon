@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "eRecruiter",
+        "Api",
+        "Parameters"
+    ],
+    "literals": [],
+    "variables": [
+        "EMail",
+        "FirstName",
+        "LastName",
+        "DoubleOptInToken",
+        "Url"
+    ],
+    "comments": [
+        "The applicant's e-mail address.",
+        "</summary>",
+        "The applicant's firstname.",
+        "</summary>",
+        "The applicant's last name.",
+        "</summary>",
+        "The double-opt-in verification token for the applicant.",
+        "</summary>",
+        "The current applicant portal URL (if applicable). This is used to match for applicant portal settings.",
+        "If empty or not match can be found, the default applicant portal settings will be used.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "DoubleOptInParameter"
+    ]
+}

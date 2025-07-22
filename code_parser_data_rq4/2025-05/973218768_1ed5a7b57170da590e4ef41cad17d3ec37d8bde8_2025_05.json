@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "'typeorm'",
+        "'AddIsEmailVerifiedToUser1748344865008'",
+        "ALTER TABLE \"user\" ADD \"isEmailVerified\" boolean NOT NULL DEFAULT false",
+        "ALTER TABLE \"user\" DROP COLUMN \"isEmailVerified\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "AddIsEmailVerifiedToUser1748344865008"
+    ]
+}

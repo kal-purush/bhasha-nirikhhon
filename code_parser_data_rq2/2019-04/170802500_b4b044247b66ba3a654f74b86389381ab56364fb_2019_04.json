@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "com",
+        "google",
+        "codeu",
+        "render",
+        "org",
+        "junit",
+        "Assert",
+        "assertEquals",
+        "org",
+        "junit",
+        "Before",
+        "org",
+        "junit",
+        "Test",
+        "messageTransformer",
+        "Before",
+        "messageTransformer",
+        "input",
+        "expected",
+        "actual",
+        "messageTransformer",
+        "transformText",
+        "input",
+        "assertEquals",
+        "expected",
+        "actual",
+        "Test",
+        "runTransformTextTest",
+        "runTransformTextTest",
+        "runTransformTextTest",
+        "runTransformTextTest",
+        "runTransformTextTest",
+        "runTransformTextTest",
+        "runTransformTextTest"
+    ],
+    "literals": [
+        "\"This is the Google logo http://www.google.com/images/logo.png!\"",
+        "\"This is the Google logo <figure><img src=\\\"http://www.google.com/images/logo.png\\\" /> <figcaption></figcaption></figure>!\"",
+        "\"[This is the Google logo] http://www.google.com/images/logo.png!\"",
+        "\"<figure><img src=\\\"http://www.google.com/images/logo.png\\\" /> <figcaption>This is the Google logo</figcaption></figure>!\"",
+        "\"\"",
+        "\"\"",
+        "\"This is plain text.\"",
+        "\"This is plain text.\"",
+        "\"Check out this cool art. [Link.] https://pbs.twimg.com/media/D1ux_clUkAABe_P.png\"",
+        "\"Check out this cool art. <figure><img src=\\\"https://pbs.twimg.com/media/D1ux_clUkAABe_P.png\\\" /> <figcaption>Link.</figcaption></figure>\"",
+        "\"[Fake caption 1.] [Peanut butter.] https://interfaithsanctuary.org/wp-content/uploads/2017/12/peanut-butter.jpg\"",
+        "\"[Fake caption 1.] <figure><img src=\\\"https://interfaithsanctuary.org/wp-content/uploads/2017/12/peanut-butter.jpg\\\" /> <figcaption>Peanut butter.</figcaption></figure>\"",
+        "\"[Fake caption.] [Peanut butter.] https://interfaithsanctuary.org/wp-content/uploads/2017/12/peanut-butter.jpg \"",
+        "\"https://pbs.twimg.com/media/D1ux_clUkAABe_P.png\"",
+        "\"[Fake caption.] <figure><img src=\\\"https://interfaithsanctuary.org/wp-content/uploads/2017/12/peanut-butter.jpg\\\" /> <figcaption>Peanut butter.</figcaption></figure>\"",
+        "\" <figure><img src=\\\"https://pbs.twimg.com/media/D1ux_clUkAABe_P.png\\\" /> <figcaption></figcaption></figure>\""
+    ],
+    "variables": [
+        "messageTransformer"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "setup",
+        "runTransformTextTest",
+        "testTransformText"
+    ],
+    "classes": [
+        "ImageUrlMessageTransformerTest"
+    ]
+}

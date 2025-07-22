@@ -1,0 +1,31 @@
+{
+    "identifiers": [
+        "Component",
+        "FullScreenPokemon",
+        "Generation",
+        "Component",
+        "Generation",
+        "Generation",
+        "Generation"
+    ],
+    "literals": [
+        "\"eightbittr/lib/Component\"",
+        "\"../FullScreenPokemon\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Generations whose feature modes may be enabled.",
+        "* Determines feature availability based on current generation.\n * \n * @todo #489   Use a proper node module instead.",
+        "* Which generation to act as.",
+        "* Whether HM moves can be activated by pressing the A key.",
+        "* Whether Pokemon are able to hold items."
+    ],
+    "functions": [
+        "keyActivatedHmMoves",
+        "heldItems"
+    ],
+    "classes": [
+        "Features"
+    ]
+}

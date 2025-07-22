@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Extensions",
+        "Configuration",
+        "GamboCity_DiscordBot",
+        "Config",
+        "IConfiguration",
+        "configuration",
+        "configuration",
+        "discordToken",
+        "WriteLine",
+        "discordToken",
+        "WriteLine",
+        "configuration",
+        "fivemUrl",
+        "WriteLine",
+        "fivemUrl",
+        "WriteLine",
+        "configuration",
+        "updateInterval",
+        "WriteLine",
+        "TryParse",
+        "updateInterval",
+        "updateIntervalNum",
+        "WriteLine",
+        "updateIntervalNum",
+        "WriteLine"
+    ],
+    "literals": [
+        "\"DISCORD_TOKEN\"",
+        "\"DISCORD_TOKEN environment variable is not set.\"",
+        "\"REPLACE_ME\"",
+        "\"DISCORD_TOKEN environment variable is still default.\"",
+        "\"FIVEM_URL\"",
+        "\"FIVEM_URL environment variable is not set.\"",
+        "\"https://REPLACE_ME/dynamic.json\"",
+        "\"FIVEM_URL environment variable is still default.\"",
+        "\"UPDATE_INTERVAL\"",
+        "\"UPDATE_INTERVAL environment variable is not set.\"",
+        "\"UPDATE_INTERVAL environment variable is not a valid number.\"",
+        "\"UPDATE_INTERVAL environment variable must be greater than or equal to 1.\""
+    ],
+    "variables": [
+        "discordToken",
+        "fivemUrl",
+        "updateInterval"
+    ],
+    "comments": [
+        "Check if the DISCORD_TOKEN environment variable is set correctly",
+        "Check if the FIVEM_URL environment variable is set correctly",
+        "Check if the UPDATE_INTERVAL environment variable is set correctly"
+    ],
+    "docstrings": [],
+    "functions": [
+        "IsEnvironmentValid"
+    ],
+    "classes": [
+        "ConfigHelper"
+    ]
+}

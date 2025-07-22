@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "RichEmbed",
+        "Message",
+        "Command",
+        "LIST",
+        "sList",
+        "IJoinableRoles",
+        "Config",
+        "Command",
+        "message",
+        "args",
+        "message",
+        "formatActionURL",
+        "role",
+        "join",
+        "Config",
+        "join",
+        "role"
+    ],
+    "literals": [
+        "\"discord.js\"",
+        "\"./Command\"",
+        "\"../ListLoader\"",
+        "\"../Context\"",
+        "\"../lists\"",
+        "\"../Config\"",
+        "\"postflairtext\"",
+        "Type \\`${this._prefix}ping\\",
+        "\"It's just ping\"",
+        "string",
+        "\"Pong\"",
+        "string",
+        "${Config.SERVERURL}/?action=flair&perform=${join ? \"add\" : \"remove\"}&role=${role.key}",
+        "\"add\"",
+        "\"remove\""
+    ],
+    "variables": [
+        "formatActionURL"
+    ],
+    "comments": [
+        "const formatedMessage = (role: IJoinableRoles): RichEmbed => {",
+        "const embed = new RichEmbed();",
+        "embed.title = role.key;",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "run"
+    ],
+    "classes": [
+        "PostFlairTextCommand"
+    ]
+}

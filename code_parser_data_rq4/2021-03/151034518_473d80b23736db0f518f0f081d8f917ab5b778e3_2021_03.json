@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "ExtensionContext",
+        "TelemetryReporter",
+        "EventName",
+        "context",
+        "id",
+        "version",
+        "key",
+        "reporter",
+        "TelemetryReporter",
+        "id",
+        "version",
+        "key",
+        "context",
+        "reporter",
+        "reporter",
+        "error",
+        "reporter",
+        "error",
+        "error",
+        "reporter",
+        "error",
+        "reporter"
+    ],
+    "literals": [
+        "\"vscode\"",
+        "\"vscode-extension-telemetry\"",
+        "\"extension-installed\"",
+        "\"extension-activated\"",
+        "\"extension-uninstalled\"",
+        "\"bundle-download-success\"",
+        "\"bundle-download-failure\"",
+        "\"tabnine-binary-run\"",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "reporter"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "initReporter",
+        "report",
+        "reportErrorEvent",
+        "reportException",
+        "disposeReporter"
+    ],
+    "classes": []
+}

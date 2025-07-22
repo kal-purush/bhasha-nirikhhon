@@ -1,0 +1,13 @@
+{
+    "identifiers": [],
+    "literals": [
+        "",
+        "javascript\nimport { AbortController } from 'node-abort-controller';\n\nexport default async function handler(req, res) {\n  const controller = new AbortController();\n  const timeoutId = setTimeout(() => controller.abort(), 5000); // 5 seconds timeout\n\n  try {\n    const response = await Promise.race([\n      new Promise((resolve) => {\n        setTimeout(() => {\n          resolve({ message: 'Data fetched successfully' });\n        }, 3000); // Simulate a longer operation\n      }),\n      new Promise((_, reject) => {\n        controller.signal.addEventListener('abort', () =>\n          reject(new Error('Request timed out'))\n        );\n      }),\n    ]);\n    clearTimeout(timeoutId);\n    res.status(200).json(response);\n  } catch (error) {\n    clearTimeout(timeoutId);\n    console.error('Error:', error);\n    res.status(error.message.includes('timeout') ? 408 : 500).json({ error: error.message });\n  }\n}",
+        ""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,26 @@
+{
+    "identifiers": [
+        "org",
+        "apache",
+        "bookkeeper",
+        "client",
+        "api",
+        "java",
+        "io",
+        "LedgersIterator"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Copyright 2020 The Apache Software Foundation.\n *\n * Licensed under the Apache License, Version 2.0 (the \"License\");\n * you may not use this file except in compliance with the License.\n * You may obtain a copy of the License at\n *\n *      http://www.apache.org/licenses/LICENSE-2.0\n *\n * Unless required by applicable law or agreed to in writing, software\n * distributed under the License is distributed on an \"AS IS\" BASIS,\n * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n * See the License for the specific language governing permissions and\n * limitations under the License.",
+        "* Iterator for ledgers.",
+        "* Return true if there is at least one ledger to visit.\n     *\n     * @return true if there is at least one ledger to visit.\n     * @throws IOException thrown when there is a problem accessing the ledger metadata store.",
+        "* Return next ledger id.\n     *\n     * @return next ledger id.\n     * @throws IOException thrown when there is a problem accessing the ledger metadata store."
+    ],
+    "functions": [
+        "hasNext",
+        "next"
+    ],
+    "classes": []
+}

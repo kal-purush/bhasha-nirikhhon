@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "alembic",
+        "op",
+        "sqlalchemy",
+        "sa",
+        "sqlalchemy",
+        "dialects",
+        "postgresql",
+        "op",
+        "create_table",
+        "sa",
+        "Column",
+        "sa",
+        "BigInteger",
+        "nullable",
+        "sa",
+        "Column",
+        "sa",
+        "nullable",
+        "sa",
+        "Column",
+        "sa",
+        "nullable",
+        "sa",
+        "Column",
+        "sa",
+        "SmallInteger",
+        "nullable",
+        "sa",
+        "Column",
+        "sa",
+        "precision",
+        "nullable",
+        "sa",
+        "PrimaryKeyConstraint",
+        "op",
+        "drop_table"
+    ],
+    "literals": [
+        "'68041e36e11b'",
+        "'b022867d09e3'",
+        "'hera_autos'",
+        "'time'",
+        "'antenna_number'",
+        "'antenna_feed_pol'",
+        "'measurement_type'",
+        "'value'",
+        "'53'",
+        "'time'",
+        "'antenna_number'",
+        "'antenna_feed_pol'",
+        "'hera_autos'"
+    ],
+    "variables": [
+        "revision",
+        "down_revision",
+        "branch_labels",
+        "depends_on"
+    ],
+    "comments": [
+        "revision identifiers, used by Alembic.",
+        "### end Alembic commands ###",
+        "### end Alembic commands ###"
+    ],
+    "docstrings": [
+        "\"\"\"add HeraAutos table\n\nRevision ID: 68041e36e11b\nRevises: b022867d09e3\nCreate Date: 2019-12-30 20:56:04.518300+00:00\n\n\"\"\""
+    ],
+    "functions": [
+        "upgrade",
+        "downgrade"
+    ],
+    "classes": []
+}

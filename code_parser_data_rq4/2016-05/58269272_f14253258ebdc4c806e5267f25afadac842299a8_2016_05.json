@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "value",
+        "ui",
+        "ui",
+        "ui",
+        "NetworkTables",
+        "cameraKey",
+        "NetworkTables",
+        "cameraKey"
+    ],
+    "literals": [
+        "'camera'",
+        "'/SmartDashboard/useBackCamera'",
+        "'INSERT HERE THE SOURCE OF YOUR BACK CAMERA'",
+        "'INSERT HERE THE SOURCE OF YOUR FRONT OR MAIN CAMERA'",
+        "'/SmartDashboard/Drive | backCamera'"
+    ],
+    "variables": [
+        "cameraKey"
+    ],
+    "comments": [
+        "This should be added inside the definition of the 'ui' object at the starting of ui.js.",
+        "End section",
+        "Copy this portion of the code into the large switch statement in the onValueChanged function. Then change the src's.",
+        "End Section",
+        "Add this at the bottom of ui.js with the other listeners.",
+        "Toggle between camera views",
+        "End section"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

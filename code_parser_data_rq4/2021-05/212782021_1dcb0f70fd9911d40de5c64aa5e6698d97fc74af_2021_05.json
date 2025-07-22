@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "Component",
+        "AfterViewInit",
+        "BaseChart",
+        "CirclePackChart",
+        "Component",
+        "BaseChart",
+        "CirclePackChart"
+    ],
+    "literals": [
+        "\"@angular/core\"",
+        "\"./base-chart.component\"",
+        "\"@carbon/charts\"",
+        "\"ibm-circle-pack-chart\"",
+        ""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Wrapper around `BubbleChart` in carbon charts library\n *\n * Most functions just call their equivalent from the chart library.",
+        "* Runs after view init to create a chart, attach it to `elementRef` and draw it."
+    ],
+    "functions": [
+        "ngAfterViewInit"
+    ],
+    "classes": [
+        "CirclePackChartComponent"
+    ]
+}

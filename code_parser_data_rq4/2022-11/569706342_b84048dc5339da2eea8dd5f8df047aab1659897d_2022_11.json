@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "transformBorderRadius",
+        "borderRadius",
+        "borderRadius",
+        "borderRadius",
+        "borderRadius",
+        "borderRadius",
+        "radiuses",
+        "borderRadius",
+        "radiuses",
+        "radiuses",
+        "radiuses",
+        "radiuses",
+        "radiuses",
+        "radiuses",
+        "radiuses",
+        "radiuses",
+        "borderRadius"
+    ],
+    "literals": [
+        "string",
+        "'calc'",
+        "'var'",
+        "border-radius: ${borderRadius};",
+        "' '",
+        "border-radius: ${borderRadius};",
+        "border-start-start-radius: ${radiuses[0]};border-start-end-radius: ${radiuses[1]};border-bottom-left-radius: ${radiuses[1]};border-end-start-radius: ${radiuses[2]}",
+        "border-start-start-radius: ${radiuses[0]};border-start-end-radius: ${radiuses[1]};border-end-end-radius: ${radiuses[2]};border-end-start-radius: ${radiuses[3]};",
+        "border-radius: ${borderRadius};"
+    ],
+    "variables": [
+        "transformBorderRadius",
+        "radiuses"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @description splits the value with space and transform the border-radius short-hand to css logical properties\n * @param borderRadius : the short-hand border-radius value\n * @returns the transformed logical property"
+    ],
+    "functions": [],
+    "classes": []
+}

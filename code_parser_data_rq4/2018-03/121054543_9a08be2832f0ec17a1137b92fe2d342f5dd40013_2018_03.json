@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "IResultsProcessorInput",
+        "Logger",
+        "Constants",
+        "jestTestData",
+        "processors",
+        "require",
+        "processor",
+        "processors",
+        "require",
+        "processor",
+        "jestTestData",
+        "AdditionalProcessors",
+        "Constants",
+        "processor",
+        "chalk",
+        "e",
+        "AdditionalProcessors",
+        "processor",
+        "e",
+        "Logger"
+    ],
+    "literals": [
+        "\"./doc/jest/IResultsProcessorInput\"",
+        "\"../utils/Logger\"",
+        "\"./Constants\"",
+        "string",
+        "\"chalk\"",
+        "\" passed results to additional processor \\\"\"",
+        "\"\\\"\"",
+        "\"\\t**\"",
+        "\"Error executing additional processor: \\\"\"",
+        "\"\\\"\""
+    ],
+    "variables": [
+        "chalk"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Pass the result processor input given to jest-stare to additional\n     * test results processors\n     * @param jestTestData - input passed to jest-stare\n     * @param processors - list of test results processors (e.g. [\"jest-html-reporter\"])\n     *                     to forward the data to"
+    ],
+    "functions": [
+        "execute"
+    ],
+    "classes": [
+        "AdditionalProcessors"
+    ]
+}

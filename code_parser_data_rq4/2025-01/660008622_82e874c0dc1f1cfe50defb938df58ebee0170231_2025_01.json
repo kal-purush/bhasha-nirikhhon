@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "grid",
+        "len",
+        "grid",
+        "len",
+        "grid",
+        "i",
+        "len",
+        "grid",
+        "j",
+        "len",
+        "grid",
+        "grid",
+        "i",
+        "j",
+        "rows",
+        "i",
+        "cols",
+        "j",
+        "i",
+        "len",
+        "grid",
+        "j",
+        "len",
+        "grid",
+        "grid",
+        "i",
+        "j",
+        "rows",
+        "i",
+        "cols",
+        "j",
+        "count",
+        "count",
+        "countServers",
+        "grid"
+    ],
+    "literals": [],
+    "variables": [
+        "rows",
+        "cols",
+        "count",
+        "grid"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\nhttps://leetcode.com/problems/count-servers-that-communicate/\n1267. Count Servers that Communicate\nYou are given a map of a server center, represented as a m * n integer matrix grid, where 1 means that on that cell there \nis a server and 0 means that it is no server. Two servers are said to communicate if they are on the same row or on the same column.\nReturn the number of servers that communicate with any other server.\nExample 1:\nInput: grid = [[1,0],[0,1]]\nOutput: 0\nExplanation: No servers can communicate with others.\nExample 2:\nInput: grid = [[1,0],[1,1]]\nOutput: 3\nExplanation: All three servers can communicate with at least one other server.\nExample 3:\nInput: grid = [[1,1,0,0],[0,0,1,0],[0,0,1,0],[0,0,0,1]]\nOutput: 4\nExplanation: The two servers in the first row can communicate with each other. The two servers in the third column can communicate with each other. The server at right bottom corner can't communicate with any other server.\nConstraints:\nm == grid.length\nn == grid[i].length\n1 <= m <= 250\n1 <= n <= 250\ngrid[i][j] == 0 or 1\n*** Note: Solution mode is pre-compute,  we walk once the grid to check how many servers there are in each row and col.\n*** then we walk the grig again and check if [i][j] is = 1 and its col or row has more than 1 service this count as a connected\n*** service and added to a count. The we made 2 m*n process, The complexity is O(n*m)\n\"\"\""
+    ],
+    "functions": [
+        "countServers"
+    ],
+    "classes": []
+}

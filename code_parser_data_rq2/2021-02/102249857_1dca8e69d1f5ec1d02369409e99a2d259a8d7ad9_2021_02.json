@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "ColossalFramework",
+        "CSM",
+        "Helpers",
+        "HarmonyLib",
+        "CSM",
+        "Injections",
+        "HarmonyPatch",
+        "SimulationManager",
+        "HarmonyPatch",
+        "MethodType",
+        "Setter",
+        "value",
+        "SpeedPauseHelper",
+        "PauseTarget",
+        "value",
+        "HarmonyPatch",
+        "SimulationManager",
+        "HarmonyPatch",
+        "MethodType",
+        "Setter",
+        "value",
+        "SpeedPauseHelper",
+        "SpeedTarget",
+        "value",
+        "SimulationManager",
+        "instance",
+        "SimulationPaused",
+        "SpeedPauseHelper",
+        "PauseTarget"
+    ],
+    "literals": [
+        "\"SimulationPaused\"",
+        "\"SelectedSimulationSpeed\""
+    ],
+    "variables": [],
+    "comments": [
+        "Prevent both the SimulationPaused and SelectedSimulationSpeed setters from running and save the target value",
+        "for processing.",
+        "Don't run the original method",
+        "Don't run the original method"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Prefix",
+        "Prefix"
+    ],
+    "classes": [
+        "SetSimulationPaused",
+        "SetSelectedSimulationSpeed"
+    ]
+}

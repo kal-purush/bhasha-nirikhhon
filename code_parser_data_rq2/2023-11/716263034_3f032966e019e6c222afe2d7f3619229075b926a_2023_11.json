@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "settingsPacket",
+        "settings",
+        "PIL",
+        "Image",
+        "ImageShow",
+        "open",
+        "Image",
+        "open",
+        "read",
+        "settings",
+        "len",
+        "settings2",
+        "settings2",
+        "settings2",
+        "append",
+        "settings2"
+    ],
+    "literals": [
+        "\"E:\\PyProjectsFiles\\PixelMixer\\Settings.json\"",
+        "'r+'",
+        "\"E:\\PyProjectsFiles\\PixelMixer\\pack.png\"",
+        "\"1\"",
+        "\"settings loaded\"",
+        "\"settings lost\"",
+        "'0'",
+        "\"1\"",
+        "\"settings loaded\"",
+        "\"settings lost\""
+    ],
+    "variables": [
+        "img",
+        "settings2"
+    ],
+    "comments": [
+        "Import and starting",
+        "Settings load",
+        "settings.load()",
+        "settings.backup(\"E:\\PyProjectsFiles\\PixelMixer\\Settingsbackup.properties\", 'r')",
+        "Settings checking",
+        "Поки що в файлі має бути 0 на початку щоб згенерувались налаштування за замовчуванням",
+        "Інакше виб'є помилку (Вже виправлено)",
+        "img.resize((Settings[0], Settings[0]))",
+        "img."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

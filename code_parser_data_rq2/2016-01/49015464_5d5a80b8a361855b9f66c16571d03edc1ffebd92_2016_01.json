@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "pypif",
+        "obj",
+        "system",
+        "chemical",
+        "chemical_system",
+        "ChemicalSystem",
+        "ChemicalSystem",
+        "names",
+        "ids",
+        "chemical_formula",
+        "composition",
+        "properties",
+        "processing",
+        "references",
+        "contacts",
+        "licenses",
+        "kwargs",
+        "AlloyPhase",
+        "names",
+        "names",
+        "ids",
+        "ids",
+        "chemical_formula",
+        "chemical_formula",
+        "composition",
+        "composition",
+        "properties",
+        "properties",
+        "processing",
+        "processing",
+        "references",
+        "references",
+        "contacts",
+        "contacts",
+        "licenses",
+        "licenses",
+        "kwargs"
+    ],
+    "literals": [
+        "'system.chemical.alloy.phase'"
+    ],
+    "variables": [
+        "category"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Representation of a single phase in an alloy.\n    \"\"\"",
+        "\"\"\"\n        Constructor.\n\n        :param names: List of strings with common names of the phase.\n        :param ids: List of :class:`.Id` objects that identify the phase.\n        :param chemical_formula: String with the chemical formula.\n        :param composition: List of :class:`.Composition` objects that describe the composition of the phase.\n        :param properties: List of :class:`.Property` objects with properties of the phase.\n        :param processing: List of :class:`.Value` objects with the processing information of the phase.\n        :param phases: List of :class:`.AlloyPhase` objects with the phases contained in the phase.\n        :param references: List of :class:`.Reference` objects where information about the alloy is published.\n        :param contacts: List of :class:`.Person` objects with people to contact for information about the alloy.\n        :param licenses: List of :class:`.License` objects with licensing information for data about the alloy.\n        :param kwargs: Dictionary of field names not supported.\n        \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "AlloyPhase"
+    ]
+}

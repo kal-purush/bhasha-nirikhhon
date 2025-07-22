@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "app",
+        "app",
+        "handlebars",
+        "__dirname",
+        "app",
+        "app",
+        "__dirname",
+        "app",
+        "express",
+        "__dirname",
+        "app",
+        "express"
+    ],
+    "literals": [
+        "'express3-handlebars'",
+        "'express'",
+        "'html'",
+        "'main'",
+        "\".html\"",
+        "'/views/layouts'",
+        "'view engine'",
+        "'html'",
+        "'views'",
+        "'/views'",
+        "'/public'"
+    ],
+    "variables": [
+        "handlebars",
+        "express"
+    ],
+    "comments": [
+        "Include the handlebars templating library",
+        "Require()-ing this module will return a function",
+        "that the index.js file will use to configure the",
+        "express application",
+        "Register and configure the handlebars templating engine",
+        "Set .html as the default template extension",
+        "Tell express where it can find the templates",
+        "Make the files in the public folder available to the world",
+        "Parse POST request data. It will be available in the req.body object"
+    ],
+    "docstrings": [
+        "* This file runs some configuration settings on your express application."
+    ],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,59 @@
+{
+    "identifiers": [
+        "Diagnostics",
+        "Fabric",
+        "Threading",
+        "Threading",
+        "Tasks",
+        "Microsoft",
+        "ServiceFabric",
+        "Services",
+        "Runtime",
+        "Stateless1",
+        "ServiceRuntime",
+        "RegisterServiceAsync",
+        "Stateless1",
+        "context",
+        "GetAwaiter",
+        "GetResult",
+        "ServiceEventSource",
+        "Current",
+        "ServiceTypeRegistered",
+        "Process",
+        "GetCurrentProcess",
+        "Id",
+        "Stateless1",
+        "Name",
+        "Sleep",
+        "Timeout",
+        "Infinite",
+        "e",
+        "ServiceEventSource",
+        "Current",
+        "ServiceHostInitializationFailed",
+        "e",
+        "ToString"
+    ],
+    "literals": [
+        "\"Stateless1Type\""
+    ],
+    "variables": [],
+    "comments": [
+        "This is the entry point of the service host process.",
+        "</summary>",
+        "The ServiceManifest.XML file defines one or more service type names.",
+        "Registering a service maps a service type name to a .NET type.",
+        "When Service Fabric creates an instance of this service type,",
+        "an instance of the class is created in this host process.",
+        "Prevents this host process from terminating so services keep running."
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "Main"
+    ],
+    "classes": [
+        "Program"
+    ]
+}

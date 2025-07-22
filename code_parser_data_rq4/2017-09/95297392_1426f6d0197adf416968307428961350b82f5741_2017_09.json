@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "value",
+        "value",
+        "value",
+        "value",
+        "proto",
+        "proto",
+        "actionTypeOrActionTypes",
+        "key",
+        "key",
+        "actionTypeOrActionTypes",
+        "actionTypeOrActionTypes",
+        "isPlainObject",
+        "actionTypeOrActionTypes",
+        "getValues",
+        "actionTypeOrActionTypes",
+        "actionTypeOrActionTypes"
+    ],
+    "literals": [
+        "'object'",
+        "string"
+    ],
+    "variables": [
+        "getValues",
+        "proto"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Get action types from type, type array and type enum\n *\n * @export\n * @template ACTION_TYPE\n * @param {(ACTION_TYPE | ACTION_TYPE[] | {[key: number]: ACTION_TYPE} | {[key: string]: ACTION_TYPE})} actionTypeOrActionTypes\n * @returns {ACTION_TYPE[]}"
+    ],
+    "functions": [
+        "isPlainObject",
+        "getActionTypes"
+    ],
+    "classes": []
+}

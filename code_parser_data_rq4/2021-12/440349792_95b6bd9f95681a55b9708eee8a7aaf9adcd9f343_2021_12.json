@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "http",
+        "recorder",
+        "recorder",
+        "recorder",
+        "request",
+        "request",
+        "request",
+        "host",
+        "request",
+        "response",
+        "response",
+        "http",
+        "request",
+        "response",
+        "request",
+        "request",
+        "request",
+        "http",
+        "options",
+        "proxyResponse",
+        "response",
+        "proxyResponse",
+        "proxyResponse",
+        "proxyResponse",
+        "response",
+        "request",
+        "proxy",
+        "server",
+        "process",
+        "port"
+    ],
+    "literals": [
+        "\"node:http\"",
+        "\"../../index.js\"",
+        "\"record\"",
+        "[record] ${request.method} ${request.protocol}//${host}${request.path} - ${response.statusCode} ${response.statusMessage}",
+        "\"httpbin.org\"",
+        "\"Proxy server listening on http://localhost:%d\""
+    ],
+    "variables": [
+        "server",
+        "options",
+        "proxy"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

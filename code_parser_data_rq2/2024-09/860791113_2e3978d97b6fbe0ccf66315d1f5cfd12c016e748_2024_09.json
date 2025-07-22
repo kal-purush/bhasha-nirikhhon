@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "useModelStore",
+        "useModelLoader",
+        "useModelStore",
+        "loadExistingModel",
+        "modelName",
+        "setIsLoading",
+        "setError",
+        "modelName",
+        "fetch",
+        "modelName",
+        "response",
+        "response",
+        "response",
+        "File",
+        "blob",
+        "modelName",
+        "setLoadedFile",
+        "file",
+        "file",
+        "err",
+        "modelName",
+        "err",
+        "setError",
+        "err",
+        "err",
+        "setIsLoading",
+        "loadUploadedModel",
+        "file",
+        "setLoadedFile",
+        "file"
+    ],
+    "literals": [
+        "\"../store/model.store\"",
+        "string",
+        "Loading model: ${modelName}",
+        "/${modelName}",
+        "HTTP error! status: ${response.status}",
+        "\"application/octet-stream\"",
+        "Successfully loaded file: ${file.name}",
+        "Error loading model: ${modelName}",
+        "\"An error occurred\""
+    ],
+    "variables": [
+        "useModelLoader",
+        "loadExistingModel",
+        "response",
+        "blob",
+        "file",
+        "loadUploadedModel"
+    ],
+    "comments": [
+        "Log the model name being loaded",
+        "Log the successfully loaded file name",
+        "Log any errors"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

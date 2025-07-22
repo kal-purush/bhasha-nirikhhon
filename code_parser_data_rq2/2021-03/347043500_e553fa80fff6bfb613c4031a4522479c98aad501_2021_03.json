@@ -1,0 +1,58 @@
+{
+    "identifiers": [
+        "XMLHttpRequest",
+        "button",
+        "loadUsers",
+        "xhr",
+        "xhr",
+        "i",
+        "githubUsers",
+        "output",
+        "githubUsers",
+        "i",
+        "githubUsers",
+        "i",
+        "githubUsers",
+        "i",
+        "users",
+        "output",
+        "xhr",
+        "alert",
+        "xhr"
+    ],
+    "literals": [
+        "'button'",
+        "'users'",
+        "\"click\"",
+        "\"GET\"",
+        "\"https://api.github.com/users\"",
+        "''",
+        "<div class = \"user\">\n          <img src= ${githubUsers[i].avatar_url} width=70px height= 70px>\n          <ul>\n          <li>ID: ${githubUsers[i].id}</li>\n          <li>Name: ${githubUsers[i].login}</li>\n          </ul>\n          </div>",
+        "\"Sorry but there is an error\""
+    ],
+    "variables": [
+        "button",
+        "xhr",
+        "users",
+        "githubUsers",
+        "output"
+    ],
+    "comments": [
+        "Obtained from our index.html",
+        "Here we added a click to the event listener",
+        "Load Github users",
+        "This is the ajax call",
+        "This takes the the GET method and the API's location.",
+        "Here we are parsing JSON data to plain text",
+        "Here i used template strings for simplicity",
+        "output is empty so that you can simply add it later on.",
+        "loop through githubUsers variable because there are many of them",
+        "This will give you an output if there is an error",
+        "This function helps to send the request."
+    ],
+    "docstrings": [],
+    "functions": [
+        "loadUsers"
+    ],
+    "classes": []
+}

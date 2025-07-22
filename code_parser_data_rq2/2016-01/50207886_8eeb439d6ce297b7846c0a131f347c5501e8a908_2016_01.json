@@ -1,0 +1,80 @@
+{
+    "identifiers": [
+        "atom",
+        "api",
+        "Unicode",
+        "set_default",
+        "time",
+        "sleep",
+        "base_tasks",
+        "SimpleTask",
+        "SimpleTask",
+        "Unicode",
+        "tag",
+        "pref",
+        "feval",
+        "set_default",
+        "set_default",
+        "format_and_eval_string",
+        "time",
+        "write_in_database",
+        "t",
+        "sleep",
+        "t",
+        "args",
+        "kwargs",
+        "SleepTask",
+        "check",
+        "args",
+        "kwargs",
+        "test",
+        "format_and_eval_string",
+        "time",
+        "path",
+        "name",
+        "test",
+        "tb"
+    ],
+    "literals": [
+        "''",
+        "'time'",
+        "'time'",
+        "'/'",
+        "'Sleep time must be positive.'"
+    ],
+    "variables": [
+        "util_task",
+        "time",
+        "wait",
+        "database_entries",
+        "t",
+        "test",
+        "tb",
+        "tb",
+        "test"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-",
+        "-----------------------------------------------------------------------------",
+        "Copyright 2015 by Ecpy Authors, see AUTHORS for more details.",
+        "",
+        "Distributed under the terms of the BSD license.",
+        "",
+        "The full license is in the file LICENCE, distributed with this software.",
+        "-----------------------------------------------------------------------------",
+        "Class attribute marking this task as being logical, used in filtering.",
+        "Time to wait"
+    ],
+    "docstrings": [
+        "\"\"\"Task that makes the system wait on all multithreading pools\nfor a set amount of time.\n\n\"\"\"",
+        "\"\"\"Simply sleeps for the specified amount of time.\n    Wait for any parallel operation before execution by default.\n    \"\"\"",
+        "\"\"\" Check if time > 0\n\n        \"\"\""
+    ],
+    "functions": [
+        "perform",
+        "check"
+    ],
+    "classes": [
+        "SleepTask"
+    ]
+}

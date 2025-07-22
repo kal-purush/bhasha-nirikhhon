@@ -1,0 +1,60 @@
+{
+    "identifiers": [
+        "Newtonsoft",
+        "Json",
+        "Box",
+        "V2",
+        "Models",
+        "JsonProperty",
+        "PropertyName",
+        "FieldSessionExpiryDate",
+        "JsonProperty",
+        "PropertyName",
+        "FieldPartSize",
+        "JsonProperty",
+        "PropertyName",
+        "FieldTotalParts",
+        "JsonProperty",
+        "PropertyName",
+        "FieldNumberOfPartsProcessed"
+    ],
+    "literals": [
+        "\"session_expires_at\"",
+        "\"part_size\"",
+        "\"total_parts\"",
+        "\"num_parts_processed\""
+    ],
+    "variables": [
+        "FieldSessionExpiryDate",
+        "FieldPartSize",
+        "FieldTotalParts",
+        "FieldNumberOfPartsProcessed",
+        "SessionExpiryDate",
+        "PartSize",
+        "TotalParts",
+        "NumberOfPartsProcessed"
+    ],
+    "comments": [
+        "Represents box upload session",
+        "</summary>",
+        "Endpoint to list parts.",
+        "</summary>",
+        "Endpoint to commit.",
+        "</summary>",
+        "Endpoint to log event.",
+        "</summary>",
+        "Endpoint to upload part.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "BoxSessionUploadStatus"
+    ]
+}

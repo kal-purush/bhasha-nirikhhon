@@ -1,0 +1,78 @@
+{
+    "identifiers": [
+        "at",
+        "wirecube",
+        "additiveanimations",
+        "additive_animator",
+        "java",
+        "util",
+        "java",
+        "util",
+        "StartDelayProvider",
+        "parent",
+        "mAnimators",
+        "animator",
+        "animator",
+        "setAnimationGroup",
+        "mAnimators",
+        "add",
+        "animator",
+        "mAnimators",
+        "get",
+        "mAnimators",
+        "size",
+        "delayProvider",
+        "newGroup",
+        "parent",
+        "outermostChildAnimator",
+        "newestChild",
+        "animator",
+        "mAnimators",
+        "newestChild",
+        "animator",
+        "newInstance",
+        "newestChild",
+        "setParent",
+        "parent",
+        "newestChild",
+        "target",
+        "animator",
+        "getCurrentTarget",
+        "newestChild",
+        "setStartDelay",
+        "delayProvider",
+        "getStartDelay",
+        "animator",
+        "newGroup",
+        "add",
+        "newestChild",
+        "parent",
+        "newestChild",
+        "newGroup"
+    ],
+    "literals": [],
+    "variables": [
+        "newestChild"
+    ],
+    "comments": [
+        "we want to copy the properties from the parent:",
+        "but keep the same target as the current animator in the chain:",
+        "we also need to make sure the animation timing is correct:",
+        ""
+    ],
+    "docstrings": [
+        "* The list of grouped animators. The first element is the innermost parent of the group ([1] is child of [0]).",
+        "* Creates a new animation group with all animators in the group and links them together such that the new group\n     * targets the same views in the same order.\n     * The first animator in the returned group is the child of the first animator in the current group."
+    ],
+    "functions": [
+        "getStartDelay",
+        "add",
+        "BaseAdditiveAnimator",
+        "outermostChildAnimator",
+        "AdditiveAnimatorGroup",
+        "copyAndChain"
+    ],
+    "classes": [
+        "AdditiveAnimatorGroup"
+    ]
+}

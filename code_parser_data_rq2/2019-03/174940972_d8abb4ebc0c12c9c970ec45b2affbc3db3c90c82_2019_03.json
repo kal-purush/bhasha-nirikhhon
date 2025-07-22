@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$wikiElem",
+        "$",
+        "streetStr",
+        "setTimeout",
+        "$wikiElem",
+        "$",
+        "wikiUrl",
+        "response",
+        "response",
+        "i",
+        "articleList",
+        "i",
+        "articleStr",
+        "articleList",
+        "i",
+        "articleStr",
+        "$wikiElem",
+        "url",
+        "articleStr",
+        "clearTimeout",
+        "wikiRequestTimeout",
+        "$",
+        "loadData"
+    ],
+    "literals": [
+        "'body'",
+        "'#wikipedia-links'",
+        "\"\"",
+        "'#input'",
+        "'http://en.wikipedia.org/w/api.php?action=opensearch&search='",
+        "'&format=json&callback=wikiCallback'",
+        "\"failed to get wikipedia resources\"",
+        "\"jsonp\"",
+        "\"callback\"",
+        "'http://en.wikipedia.org/wiki/'",
+        "'<li><a href=\"'",
+        "'\">'",
+        "'</a></li>'",
+        "'#form-container'"
+    ],
+    "variables": [
+        "$body",
+        "$wikiElem",
+        "streetStr",
+        "wikiUrl",
+        "wikiRequestTimeout",
+        "articleList",
+        "i",
+        "url"
+    ],
+    "comments": [
+        "clear out old data before new request",
+        "load wikipedia data"
+    ],
+    "docstrings": [],
+    "functions": [
+        "loadData"
+    ],
+    "classes": []
+}

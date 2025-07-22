@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "MigrationInterface",
+        "QueryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner",
+        "queryRunner"
+    ],
+    "literals": [
+        "\"typeorm\"",
+        "'WebhookNotification1598986920665'",
+        "ALTER TABLE \"user_profile\" ADD \"enableWebhookNotification\" boolean NOT NULL DEFAULT false",
+        "ALTER TABLE \"user_profile\" ADD \"webhookUrl\" character varying(256)",
+        "CREATE INDEX \"IDX_f0c7bece0ceafad7b18c34cbb8\" ON \"user_profile\" (\"enableWebhookNotification\")",
+        "DROP INDEX \"IDX_f0c7bece0ceafad7b18c34cbb8\"",
+        "ALTER TABLE \"user_profile\" DROP COLUMN \"webhookUrl\"",
+        "ALTER TABLE \"user_profile\" DROP COLUMN \"enableWebhookNotification\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "up",
+        "down"
+    ],
+    "classes": [
+        "WebhookNotification1598986920665"
+    ]
+}

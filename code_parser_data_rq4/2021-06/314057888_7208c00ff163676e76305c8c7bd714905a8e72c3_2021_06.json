@@ -1,0 +1,21 @@
+{
+    "identifiers": [
+        "shade",
+        "styled",
+        "styled",
+        "shade"
+    ],
+    "literals": [
+        "'polished'",
+        "'styled-components'",
+        "width: 380px;\n\n  .DayPicker {\n    border-radius: 10px;\n  }\n\n  .DayPicker-wrapper {\n    padding-bottom: 0;\n    background: #3e3b47;\n    border-radius: 10px;\n  }\n\n  .DayPicker,\n  .DayPicker-Month {\n    width: 100%;\n  }\n\n  .DayPicker-NavButton {\n    color: #999591 !important;\n  }\n\n  .DayPicker-NavButton--prev {\n    right: auto;\n    left: 1.5em;\n    margin-right: 0;\n  }\n\n  .DayPicker-Month {\n    border-collapse: separate;\n    border-spacing: 8px;\n    margin: 16px 0 0 0;\n    padding: 16px;\n    background-color: #28262e;\n    border-radius: 0 0 10px 10px;\n  }\n\n  .DayPicker-Caption {\n    margin-bottom: 1em;\n    padding: 0 1em;\n    color: #f4ede8;\n\n    > div {\n      text-align: center;\n    }\n  }\n\n  .DayPicker-Day {\n    width: 40px;\n    height: 40px;\n  }\n\n  .DayPicker-Day--available:not(.DayPicker-Day--outside) {\n    background: #3e3b47;\n    border-radius: 10px;\n    color: #fff;\n  }\n\n  .DayPicker:not(.DayPicker--interactionDisabled)\n    .DayPicker-Day:not(.DayPicker-Day--disabled):not(.DayPicker-Day--selected):not(.DayPicker-Day--outside):hover {\n    background: ${shade(0.2, '#3e3b47')};\n  }\n\n  .DayPicker-Day--today {\n    font-weight: normal;\n  }\n\n  .DayPicker-Day--disabled {\n    color: #666360 !important;\n    background: transparent !important;\n  }\n\n  .DayPicker-Day--selected:not(.DayPicker-Day--outside) {\n    background: #ff9000 !important;\n    border-radius: 10px;\n    color: #232129 !important;\n  }",
+        "'#3e3b47'"
+    ],
+    "variables": [
+        "Container"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "unittest",
+        "server",
+        "api",
+        "db",
+        "db_utils",
+        "server",
+        "api",
+        "constants",
+        "server",
+        "api",
+        "api_utils",
+        "rest_utils",
+        "unittest",
+        "TestCase",
+        "exec_sql_file",
+        "setUp",
+        "post_rest_call",
+        "START_TIME",
+        "DAY_ID",
+        "exec_get_one",
+        "EVENT_TABLE",
+        "ID",
+        "assertEqual",
+        "expected",
+        "actual"
+    ],
+    "literals": [
+        "'schema.sql'",
+        "'http://127.0.0.1:5000/events/user/1'",
+        "'8:00'",
+        "f\"SELECT * FROM {EVENT_TABLE} WHERE {ID} = 62;\"",
+        "'Custom Event'",
+        "'custom'",
+        "'8:00'",
+        "'9:00'",
+        "''",
+        "'Default values were not entered correctly'",
+        "\"Default values successfully created!\""
+    ],
+    "variables": [
+        "maxDiff",
+        "actual",
+        "expected"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "setUp",
+        "test_post_user_events_default_values"
+    ],
+    "classes": [
+        "TestEvent"
+    ]
+}

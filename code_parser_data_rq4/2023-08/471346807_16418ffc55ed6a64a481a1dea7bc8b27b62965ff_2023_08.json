@@ -1,0 +1,50 @@
+{
+    "identifiers": [
+        "javascript",
+        "JobPermission",
+        "project",
+        "javascript",
+        "project",
+        "workflow",
+        "workflow",
+        "workflow",
+        "JobPermission",
+        "JobPermission"
+    ],
+    "literals": [
+        "\"projen\"",
+        "\"projen/lib/github/workflows-model\"",
+        "\"auto-approve\"",
+        "\"no workflow defined\"",
+        "\"opened\"",
+        "\"labeled\"",
+        "\"ready_for_review\"",
+        "\"reopened\"",
+        "\"ubuntu-latest\"",
+        "\"contains(github.event.pull_request.labels.*.name, 'auto-approve') && github.event.pull_request.draft == false\"",
+        "\"Checkout PR\"",
+        "\"actions/checkout@v3\"",
+        "\"${{ github.event.pull_request.head.ref }}\"",
+        "\"${{ github.event.pull_request.head.repo.full_name }}\"",
+        "\"Auto-approve PRs by other users as team-tf-cdk\"",
+        "\"github.event.pull_request.user.login != 'team-tf-cdk'\"",
+        "\"gh pr review ${{ github.event.pull_request.number }} --approve\"",
+        "\"${{ secrets.PROJEN_GITHUB_TOKEN }}\"",
+        "\"Auto-approve PRs by team-tf-cdk as github-actions[bot]\"",
+        "\"github.event.pull_request.user.login == 'team-tf-cdk'\"",
+        "\"gh pr review ${{ github.event.pull_request.number }} --approve\"",
+        "\"${{ secrets.GITHUB_TOKEN }}\""
+    ],
+    "variables": [
+        "workflow"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Copyright (c) HashiCorp, Inc.\n * SPDX-License-Identifier: MPL-2.0",
+        "* Approves PRs with the \"auto-approve\" label"
+    ],
+    "functions": [],
+    "classes": [
+        "AutoApprove"
+    ]
+}

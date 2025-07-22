@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "merge",
+        "ResourceDecorator",
+        "AdminBro",
+        "Action",
+        "ActionResponse",
+        "ACTIONS",
+        "BaseResource",
+        "ActionDecorator",
+        "key",
+        "resource",
+        "admin",
+        "decorator",
+        "merge",
+        "ACTIONS",
+        "options",
+        "actions",
+        "key",
+        "actions",
+        "key",
+        "key",
+        "actions",
+        "key",
+        "key",
+        "actions",
+        "key",
+        "actions",
+        "key",
+        "actions",
+        "key",
+        "returnActions",
+        "key",
+        "ActionDecorator",
+        "returnActions"
+    ],
+    "literals": [
+        "'lodash/merge'",
+        "'..'",
+        "'../../../../admin-bro'",
+        "'../../../actions'",
+        "'../../../adapters'",
+        "'../../action'",
+        "string",
+        "string",
+        "'resource'",
+        "'You have to define handler function'"
+    ],
+    "variables": [
+        "decorator",
+        "actions",
+        "returnActions",
+        "action"
+    ],
+    "comments": [
+        "in the end we merge actions defined by the user with the default actions.",
+        "since _.merge is a deep merge it also overrides defaults with the parameters",
+        "specified by the user.",
+        "setting default values for actions",
+        "eslint-disable-next-line no-console"
+    ],
+    "docstrings": [
+        "* Used to create an {@link ActionDecorator} based on both\n * {@link AdminBro.ACTIONS default actions} and actions specified by the user\n * via {@link AdminBroOptions}\n *\n * @returns {Record<string, ActionDecorator>}"
+    ],
+    "functions": [
+        "decorateActions"
+    ],
+    "classes": []
+}

@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "BetterSwitch",
+        "betterSwitch",
+        "BetterSwitchTest",
+        "CaseObject",
+        "match",
+        "match",
+        "caseObject",
+        "args",
+        "error",
+        "args",
+        "main",
+        "main"
+    ],
+    "literals": [
+        "'@scripthungry/better-switch/src/index'",
+        "'@scripthungry/better-switch/src/types'",
+        "'@scripthungry/better-switch/src/runtime-checks'",
+        "'@scripthungry/better-switch/src/types'",
+        "string",
+        "'@scripthungry/better-switch/src/types'",
+        "string",
+        "string",
+        "string",
+        "'@scripthungry/better-switch/tests/better-switch-errors.test'",
+        "'@scripthungry/better-switch/tests/better-switch.test'",
+        "'@scripthungry/better-switch'",
+        "'@scripthungry/better-switch/src/index'"
+    ],
+    "variables": [
+        "betterSwitch",
+        "bothAreUndefinedOrNull",
+        "matchKeyIsNotFunction",
+        "defaultIsNotFunction",
+        "noKeyToReturn",
+        "isNotString",
+        "isObjectLiteral"
+    ],
+    "comments": [
+        "Tests if caseObject[match] does not exist and if caseObject.default does not exist",
+        "Test if match is not a string"
+    ],
+    "docstrings": [
+        "* A simple switch statement replacement that matches a string key and returns a value\n   *\n   * @param match - A string which should match a key in caseObject.\n   * @param caseObject - An object with a string key with a value containing a function that\n   *                     returns something.\n   *                     A key of 'default' can be used to return a value if the parameter\n   *                     match does not match a key in caseObject.\n   *                     In typescript the returned values must all be of the same type\n   * @returns The value from the matching or default key from caseObject"
+    ],
+    "functions": [],
+    "classes": []
+}

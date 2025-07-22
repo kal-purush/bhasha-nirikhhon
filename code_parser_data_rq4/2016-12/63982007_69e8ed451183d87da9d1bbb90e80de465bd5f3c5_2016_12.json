@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "org",
+        "openmrs",
+        "api",
+        "db",
+        "hibernate",
+        "search",
+        "STARTS_WITH_ANALYZER",
+        "MATCH_ANYWHERE_ANALYZER",
+        "EXACT_ANALYZER"
+    ],
+    "literals": [
+        "\"startsWithAnalyzer\"",
+        "\"matchAnywhereAnalyzer\"",
+        "\"exactAnalyzer\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This Source Code Form is subject to the terms of the Mozilla Public License,\n * v. 2.0. If a copy of the MPL was not distributed with this file, You can\n * obtain one at http://mozilla.org/MPL/2.0/. OpenMRS is also distributed under\n * the terms of the Healthcare Disclaimer located at http://openmrs.org/license.\n *\n * Copyright (C) OpenMRS Inc. OpenMRS is a registered trademark and the OpenMRS\n * graphic logo is a trademark of OpenMRS Inc.",
+        "* All analyzers are defined on BaseOpenmrsObject.\n *\n * @see org.openmrs.BaseOpenmrsObject"
+    ],
+    "functions": [],
+    "classes": [
+        "LuceneAnalyzers"
+    ]
+}

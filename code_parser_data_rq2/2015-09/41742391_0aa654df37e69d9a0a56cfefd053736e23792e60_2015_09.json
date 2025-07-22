@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "mocha",
+        "expect",
+        "getCurrentObject",
+        "getCurrentObject",
+        "MockContext",
+        "describe",
+        "describe",
+        "it",
+        "done",
+        "MockContext",
+        "mockObject",
+        "expect",
+        "MockContext",
+        "expect",
+        "MockContext",
+        "mockObject",
+        "done"
+    ],
+    "literals": [
+        "\"mocha\"",
+        "\"chai\"",
+        "\"../src/index\"",
+        "\"Ambient Context\"",
+        "\"with single scope block\"",
+        "\"should allow retrieval of a context item\""
+    ],
+    "variables": [
+        "mockObject"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Represents a simple object that is accessible through a static property.",
+        "* Initializes a new instance of the mock context object.",
+        "* Gets the identifier if the current mock object.\n\t * \n\t * @returns A number that uniquely identifies this mock object.",
+        "* Retrieves the current mock object from the current scope.\n\t * \n\t * @returns The current mock object; or 'undefined' if a mock object is not present\n\t * in the current scope."
+    ],
+    "functions": [
+        "id",
+        "current"
+    ],
+    "classes": [
+        "MockContext"
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "OpaqueToken",
+        "BaseError",
+        "ViewEncapsulation",
+        "Type",
+        "ComponentFactory",
+        "NgModuleFactory",
+        "BaseError",
+        "compType",
+        "ngModuleFactory",
+        "componentFactories",
+        "moduleType",
+        "moduleType",
+        "moduleType",
+        "moduleType",
+        "options"
+    ],
+    "literals": [
+        "'../di'",
+        "'../facade/errors'",
+        "'../metadata'",
+        "'../type'",
+        "'./component_factory'",
+        "'./ng_module_factory'"
+    ],
+    "variables": [
+        "COMPILER_OPTIONS"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* @license\n * Copyright Google Inc. All Rights Reserved.\n *\n * Use of this source code is governed by an MIT-style license that can be\n * found in the LICENSE file at https://angular.io/license",
+        "* Indicates that a component is still being loaded in a synchronous compile.\n *\n * @stable",
+        "* Combination of NgModuleFactory and ComponentFactorys.\n *\n * @experimental",
+        "* Low-level service for running the angular compiler during runtime\n * to create {@link ComponentFactory}s, which\n * can later be used to create and render a Component instance.\n *\n * Each `@NgModule` provides an own `Compiler` to its injector,\n * that will use the directives/pipes of the ng module for compilation\n * of components.\n * @stable",
+        "* Compiles the given NgModule and all of its components. All templates of the components listed\n     * in `entryComponents`\n     * have to be inlined. Otherwise throws a {@link ComponentStillLoadingError}.",
+        "* Compiles the given NgModule and all of its components",
+        "* Same as {@link compileModuleSync} but also creates ComponentFactories for all components.",
+        "* Same as {@link compileModuleAsync} but also creates ComponentFactories for all components.",
+        "* Clears all caches.",
+        "* Clears the cache for the given component/ngModule.",
+        "* Options for creating a compiler\n *\n * @experimental",
+        "* Token to provide CompilerOptions in the platform injector.\n *\n * @experimental",
+        "* A factory for creating a Compiler\n *\n * @experimental"
+    ],
+    "functions": [],
+    "classes": [
+        "ComponentStillLoadingError",
+        "ModuleWithComponentFactories",
+        "Compiler"
+    ]
+}

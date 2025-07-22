@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "matplotlib",
+        "pyplot",
+        "plt",
+        "pudb",
+        "set_trace",
+        "mean",
+        "std",
+        "mean",
+        "std",
+        "tensor",
+        "t",
+        "m",
+        "s",
+        "tensor",
+        "mean",
+        "std",
+        "t",
+        "mul_",
+        "s",
+        "add_",
+        "m",
+        "tensor",
+        "train_loader",
+        "count",
+        "i",
+        "data",
+        "_",
+        "train_loader",
+        "UnNormalize",
+        "mean",
+        "std",
+        "UnNormalize",
+        "mean",
+        "std",
+        "unorm",
+        "data",
+        "plt",
+        "imshow",
+        "img",
+        "numpy",
+        "plt",
+        "show",
+        "i",
+        "count"
+    ],
+    "literals": [],
+    "variables": [
+        "mean",
+        "std",
+        "unorm",
+        "unorm",
+        "img"
+    ],
+    "comments": [
+        "The normalize code -> t.sub_(m).div_(s)"
+    ],
+    "docstrings": [
+        "\"\"\" The purpose of this class is to display the augmented image\"\"\"",
+        "\"\"\"\n        Args:\n            tensor (Tensor): Tensor image of size (C, H, W) to be normalized.\n        Returns:\n            Tensor: Normalized image.\n        \"\"\""
+    ],
+    "functions": [
+        "__call__",
+        "display_sample_images"
+    ],
+    "classes": [
+        "UnNormalize"
+    ]
+}

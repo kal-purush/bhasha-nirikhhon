@@ -1,0 +1,38 @@
+{
+    "identifiers": [
+        "useMemo",
+        "useRef",
+        "useEffect",
+        "memoizer",
+        "disposer",
+        "t",
+        "deps",
+        "useRef",
+        "useEffect",
+        "disposer",
+        "memoizedVal",
+        "useMemo",
+        "memoizedVal",
+        "disposer",
+        "memoizedVal",
+        "memoizedVal",
+        "memoizer",
+        "deps"
+    ],
+    "literals": [
+        "\"react\""
+    ],
+    "variables": [
+        "memoizedVal"
+    ],
+    "comments": [
+        "Like useMemo, but calls `disposer` on the previously memoized values when they're replaced",
+        "Stores the previous value so that it can be disposed",
+        "Dispose the last value on unmount"
+    ],
+    "docstrings": [],
+    "functions": [
+        "useMemoWithDisposer"
+    ],
+    "classes": []
+}

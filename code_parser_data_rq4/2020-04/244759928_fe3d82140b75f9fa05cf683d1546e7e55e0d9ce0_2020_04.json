@@ -1,0 +1,86 @@
+{
+    "identifiers": [
+        "EvoMSA",
+        "utils",
+        "download",
+        "microtc",
+        "utils",
+        "load_model",
+        "load_model",
+        "download",
+        "load_model",
+        "download",
+        "text",
+        "_country",
+        "klass",
+        "text",
+        "len",
+        "res",
+        "res",
+        "_location",
+        "klass",
+        "text",
+        "len",
+        "res2",
+        "res2",
+        "res",
+        "intersection",
+        "res2",
+        "len",
+        "r",
+        "r",
+        "tw",
+        "tw",
+        "get",
+        "place",
+        "country",
+        "tw",
+        "place",
+        "get",
+        "country_code",
+        "country",
+        "tw",
+        "country_code"
+    ],
+    "literals": [
+        "\"country.ds\"",
+        "\"country-loc.ds\"",
+        "\"place\"",
+        "\"user\"",
+        "\"location\"",
+        "\"country_code\"",
+        "\"user\"",
+        "\"location\""
+    ],
+    "variables": [
+        "_country",
+        "_location",
+        "res",
+        "res2",
+        "r",
+        "place",
+        "country_code"
+    ],
+    "comments": [
+        "Copyright 2020 Mario Graff Guerrero",
+        "Licensed under the Apache License, Version 2.0 (the \"License\");",
+        "you may not use this file except in compliance with the License.",
+        "You may obtain a copy of the License at",
+        "http://www.apache.org/licenses/LICENSE-2.0",
+        "Unless required by applicable law or agreed to in writing, software",
+        "distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+        "See the License for the specific language governing permissions and",
+        "limitations under the License."
+    ],
+    "docstrings": [
+        "\"\"\"\n        Identify a country in a text\n\n        :param text: Text\n        :type text: str\n        :return: The two letter country code\n        \"\"\""
+    ],
+    "functions": [
+        "country",
+        "country_from_twitter"
+    ],
+    "classes": [
+        "Country"
+    ]
+}

@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "Extensions",
+        "Configuration",
+        "Xunit",
+        "Fact",
+        "Convert",
+        "ToBase64String",
+        "Convert",
+        "ToBase64String",
+        "key",
+        "iv",
+        "ConfigurationBuilder",
+        "AddInMemoryCollection",
+        "inMemorySettings",
+        "Build",
+        "SafeVault",
+        "EncryptionHelper",
+        "Initialize",
+        "configuration",
+        "SafeVault",
+        "EncryptionHelper",
+        "Encrypt",
+        "original",
+        "SafeVault",
+        "EncryptionHelper",
+        "Decrypt",
+        "encrypted",
+        "WriteLine",
+        "original",
+        "WriteLine",
+        "encrypted",
+        "Assert",
+        "Equal",
+        "original",
+        "decrypted"
+    ],
+    "literals": [
+        "\"Encryption:Key\"",
+        "\"Encryption:IV\"",
+        "\"Sensitive data!\""
+    ],
+    "variables": [
+        "key",
+        "iv",
+        "inMemorySettings",
+        "configuration",
+        "original",
+        "encrypted",
+        "decrypted"
+    ],
+    "comments": [
+        "Arrange",
+        "256-bit key",
+        "128-bit IV",
+        "Console.WriteLine($\"Key: {key}\");\n                Console.WriteLine($\"IV: {iv}\");",
+        "Act",
+        "Assert"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Encrypt_And_Decrypt_ReturnsOriginalText"
+    ],
+    "classes": [
+        "EncryptionHelperTests"
+    ]
+}

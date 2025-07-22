@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "nautilus_trader",
+        "config",
+        "NautilusConfig",
+        "NautilusConfig",
+        "frozen",
+        "repr_omit_defaults",
+        "property",
+        "json",
+        "decode",
+        "value"
+    ],
+    "literals": [
+        "f\"DYDXOrderTags:{self.json().decode()}\""
+    ],
+    "variables": [
+        "is_short_term_order",
+        "num_blocks_open"
+    ],
+    "comments": [
+        "-------------------------------------------------------------------------------------------------",
+        "Copyright (C) 2015-2024 Nautech Systems Pty Ltd. All rights reserved.",
+        "https://nautechsystems.io",
+        "",
+        "Licensed under the GNU Lesser General Public License Version 3.0 (the \"License\");",
+        "You may not use this file except in compliance with the License.",
+        "You may obtain a copy of the License at https://www.gnu.org/licenses/lgpl-3.0.en.html",
+        "",
+        "Unless required by applicable law or agreed to in writing, software",
+        "distributed under the License is distributed on an \"AS IS\" BASIS,",
+        "WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.",
+        "See the License for the specific language governing permissions and",
+        "limitations under the License.",
+        "-------------------------------------------------------------------------------------------------"
+    ],
+    "docstrings": [
+        "\"\"\"\n    Used to attach to Nautilus Order Tags for dYdX specific order parameters.\n    \"\"\""
+    ],
+    "functions": [
+        "value",
+        "__str__"
+    ],
+    "classes": [
+        "DYDXOrderTags"
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "identifiers": [
+        "Component",
+        "View",
+        "bootstrap",
+        "Component",
+        "View",
+        "bootstrap",
+        "GuessTheNumberComponent"
+    ],
+    "literals": [
+        "'angular2/angular2'",
+        "'my-app'",
+        "<div class=\"container\">\n  <h2>Guess the Number !</h2>\n  <p class=\"well lead\">Guess the computer generated random number between 1 and 1000.</p>\n  <label>Your Guess: </label>\n  <input type=\"number\" [value]=\"guess\" (input)=\"guess = $event.target.value\" />\n  <button (click)=\"verifyGuess()\" class=\"btn btn-primary btn-sm\">Verify</button>\n  <button (click)=\"initializeGame()\" class=\"btn btn-warning btn-sm\">Restart</button>\n  <p>\n    <p [hidden]=\"deviation>=0\" class=\"alert alert-warning\">Your guess is higher.</p>\n    <p [hidden]=\"deviation<=0\" class=\"alert alert-warning\">Your guess is lower.</p>\n    <p [hidden]=\"deviation!==0\" class=\"alert alert-success\">Yes! That\"s it.</p>\n  </p>\n  <p class=\"text-info\">No of guesses :\n    <span class=\"badge\">{{noOfTries}}</span>\n  </p>\n</div>"
+    ],
+    "variables": [],
+    "comments": [
+        "import 'zone.js';",
+        "import 'reflect-metadata';"
+    ],
+    "docstrings": [],
+    "functions": [
+        "verifyGuess",
+        "initializeGame"
+    ],
+    "classes": [
+        "GuessTheNumberComponent"
+    ]
+}

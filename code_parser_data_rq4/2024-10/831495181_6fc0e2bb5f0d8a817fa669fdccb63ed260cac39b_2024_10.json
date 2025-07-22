@@ -1,0 +1,46 @@
+{
+    "identifiers": [
+        "CartItem",
+        "CartState",
+        "finalizePurchaseRequest",
+        "cartData",
+        "cartData",
+        "fetch",
+        "cartState",
+        "response",
+        "response",
+        "response",
+        "response",
+        "error",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "\"../interfaces/CartItem\"",
+        "\"../states/cartSlice\"",
+        "'https://clon-cotiledonbackend.onrender.com/carro-compras'",
+        "'POST'",
+        "'Content-Type'",
+        "'application/json'",
+        "'accept'",
+        "'*/*'",
+        "'Respuesta del servidor:'",
+        "'Error en la finalización de la compra'",
+        "'Error en la finalización de la compra:'"
+    ],
+    "variables": [
+        "finalizePurchaseRequest",
+        "cartState",
+        "response",
+        "statusCode",
+        "data"
+    ],
+    "comments": [
+        "Verifica la respuesta",
+        "Retorna la respuesta del servidor si es exitosa.",
+        "Lanza el error para manejarlo en el componente."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "JWT",
+        "Algorithms",
+        "IAsymmetricAlgorithm",
+        "IJwtAlgorithm",
+        "bytesToSign",
+        "signature"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Represents an asymmetric algorithm to generate or validate JWT signature.",
+        "</summary>",
+        "Verifies provided byte array with provided signature.",
+        "</summary>",
+        "<param name=\"bytesToSign\">The data to verify</param>",
+        "<param name=\"signature\">The signature to verify with</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Verify"
+    ],
+    "classes": []
+}

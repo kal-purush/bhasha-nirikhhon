@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Linq",
+        "Text",
+        "UnityEngine",
+        "InteriorDecorationv1",
+        "Buildings",
+        "Aquarium",
+        "KMonoBehaviour",
+        "AquariumStages",
+        "Instance",
+        "Vector3",
+        "OnSpawn",
+        "smi",
+        "AquariumStages",
+        "Instance",
+        "smi",
+        "StartSM",
+        "originalFish",
+        "gameObject",
+        "GetComponent",
+        "SingleEntityReceptacle",
+        "Occupant",
+        "originalFish",
+        "SetActive",
+        "Assets",
+        "GetPrefab",
+        "FakeFishConfig",
+        "ID",
+        "fakeFish",
+        "Util",
+        "KInstantiate",
+        "prefab",
+        "transform",
+        "position",
+        "fishOffset",
+        "gameObject",
+        "GetComponent",
+        "SingleEntityReceptacle",
+        "ForceDepositPickupable",
+        "fakeFish",
+        "AddOrGet",
+        "Pickupable"
+    ],
+    "literals": [],
+    "variables": [
+        "smi",
+        "GameObject",
+        "fakeFish",
+        "Vector3",
+        "fishOffset",
+        "GameObject",
+        "originalFish",
+        "prefab"
+    ],
+    "comments": [
+        "base.Subscribe<EggIncubator>((int)GameHashes.OccupantChanged, EggIncubator.OnOccupantChangedDelegate);",
+        "gameObject.GetComponent<SingleEntityReceptacle>().OrderRemoveOccupant();",
+        "Util.KDestroyGameObject(fish);",
+        "fakeFish.SetActive(true);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "OnSpawn",
+        "ReplaceFish"
+    ],
+    "classes": [
+        "Aquarium"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "Class",
+        "MixinBuilder",
+        "Repository",
+        "superClass",
+        "superClass",
+        "args",
+        "args",
+        "repo",
+        "repo",
+        "component",
+        "component",
+        "repo",
+        "repo",
+        "repoKey",
+        "repo",
+        "component",
+        "component",
+        "component",
+        "component",
+        "component",
+        "componentKey",
+        "compInstance",
+        "repo",
+        "compInstance",
+        "repo"
+    ],
+    "literals": [
+        "'./common-types'",
+        "'./mixin'",
+        "'./repository'",
+        "repositories.${repo.name}",
+        "components.${component.name}"
+    ],
+    "variables": [
+        "repoKey",
+        "componentKey",
+        "compInstance"
+    ],
+    "comments": [
+        "Copyright IBM Corp. 2017. All Rights Reserved.",
+        "Node module: @loopback/repository",
+        "This file is licensed under the MIT License.",
+        "License text available at https://opensource.org/licenses/MIT",
+        "tslint:disable:no-any",
+        "A mixin class has to take in a type any[] argument!",
+        "Super would have already mounted the component"
+    ],
+    "docstrings": [
+        "* A mixin class for Application that creates a .repository()\n* function to register a repository automatically. Also overrides\n* component function to allow it to register repositories automatically.\n*\n* ```ts\n*\n* class MyApplication extends RepositoryMixin(Application) {}\n* ```",
+        "* Add a repository to this application.\n    *\n    * @param repo The repository to add.\n    *\n    * ```ts\n    *\n    * class NoteRepo {\n    *   model: any;\n    *\n    *   constructor() {\n    *     const ds: juggler.DataSource = new DataSourceConstructor({\n    *       name: 'db',\n    *       connector: 'memory',\n    *     });\n    *\n    *     this.model = ds.createModel(\n    *       'note',\n    *       {title: 'string', content: 'string'},\n    *       {}\n    *     );\n    *   }\n    * };\n    *\n    * app.repository(NoteRepo);\n    * ```",
+        "* Add a component to this application. Also mounts\n    * all the components repositories.\n    *\n    * @param component The component to add.\n    *\n    * ```ts\n    *\n    * export class ProductComponent {\n    *   controllers = [ProductController];\n    *   repositories = [ProductRepo, UserRepo];\n    *   providers = {\n    *     [AUTHENTICATION_STRATEGY]: AuthStrategy,\n    *     [AUTHORIZATION_ROLE]: Role,\n    *   };\n    * };\n    *\n    * app.component(ProductComponent);\n    * ```",
+        "* Get an instance of a component and mount all it's\n    * repositories. This function is intended to be used internally\n    * by component()\n    *\n    * @param component The component to mount repositories of"
+    ],
+    "functions": [
+        "RepositoryMixin",
+        "repository",
+        "component",
+        "mountComponentRepository"
+    ],
+    "classes": []
+}

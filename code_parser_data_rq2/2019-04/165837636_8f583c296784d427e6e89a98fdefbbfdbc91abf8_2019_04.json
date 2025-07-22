@@ -1,0 +1,23 @@
+{
+    "identifiers": [
+        "trim",
+        "strings",
+        "strings",
+        "trim",
+        "trim"
+    ],
+    "literals": [
+        "'\\n'",
+        "select\n\tr.id,\n\tgroup_concat(u.nickname) as current_users,\n\tr3.max_users,\n\tr.removed_at is null as active,\n\tstrftime(\n\t\t'%H:%M:%S',\n\t\tcase\n\t\t\twhen r.removed_at is null then\n\t\t\t\tjulianday('now') - julianday(r.created_at)\n\t\t\telse\n\t\t\t\tjulianday(r.removed_at) - julianday(r.created_at)\n\t\tend,\n\t\t'12:00'\n\t) as time_active\nfrom\n\troom as r\nleft\n\tjoin\n\t\troom_state as s\n\ton\n\t\tr.id = s.room_id\n\tand\n\t\ts.created_at = (\n\t\t\tselect\n\t\t\t\tmax(created_at)\n\t\t\tfrom\n\t\t\t\troom_state\n\t\t\twhere\n\t\t\t\tr.id = room_id\n\t\t)\nleft\n\tjoin\n\t\troom_state_user as u\n\ton\n\t\tu.room_state_id = s.id\nleft\n\tjoin\n\t\t(\n\t\t\tselect\n\t\t\t\tid,\n\t\t\t\tmax(num) as max_users\n\t\t\tfrom\n\t\t\t\t(\n\t\t\t\t\tselect\n\t\t\t\t\t\tr2.id,\n\t\t\t\t\t\tcount(s2.id) as num\n\t\t\t\t\tfrom\n\t\t\t\t\t\troom r2\n\t\t\t\t\tleft\n\t\t\t\t\t\tjoin\n\t\t\t\t\t\t\troom_state s2\n\t\t\t\t\t\ton\n\t\t\t\t\t\t\ts2.room_id = r2.id\n\t\t\t\t\tleft\n\t\t\t\t\t\tjoin\n\t\t\t\t\t\t\troom_state_user u2\n\t\t\t\t\t\ton\n\t\t\t\t\t\t\tu2.room_state_id = s2.id\n\t\t\t\t\tgroup by\n\t\t\t\t\t\ts2.id\n\t\t\t\t)\n\t\t\tgroup by\n\t\t\t\tid\n\t\t) as r3\n\ton\n\t\tr3.id = r.id\ngroup by\n\tr.id\norder by\n\tactive desc,\n\ttime_active desc",
+        "select\n\tr.id,\n\tgroup_concat(u.nickname) as current_users,\n\tr3.max_users,\n\tstrftime(\n\t\t'%H:%M:%S',\n\t\tjulianday('now') - julianday(r.created_at),\n\t\t'12:00'\n\t) as time_active\nfrom\n\troom as r\nleft\n\tjoin\n\t\troom_state as s\n\ton\n\t\tr.id = s.room_id\n\tand\n\t\ts.created_at = (\n\t\t\tselect\n\t\t\t\tmax(created_at)\n\t\t\tfrom\n\t\t\t\troom_state\n\t\t\twhere\n\t\t\t\tr.id = room_id\n\t\t)\nleft\n\tjoin\n\t\troom_state_user as u\n\ton\n\t\tu.room_state_id = s.id\nleft\n\tjoin\n\t\t(\n\t\t\tselect\n\t\t\t\tid,\n\t\t\t\tmax(num) as max_users\n\t\t\tfrom\n\t\t\t\t(\n\t\t\t\t\tselect\n\t\t\t\t\t\tr2.id,\n\t\t\t\t\t\tcount(s2.id) as num\n\t\t\t\t\tfrom\n\t\t\t\t\t\troom r2\n\t\t\t\t\tleft\n\t\t\t\t\t\tjoin\n\t\t\t\t\t\t\troom_state s2\n\t\t\t\t\t\ton\n\t\t\t\t\t\t\ts2.room_id = r2.id\n\t\t\t\t\tleft\n\t\t\t\t\t\tjoin\n\t\t\t\t\t\t\troom_state_user u2\n\t\t\t\t\t\ton\n\t\t\t\t\t\t\tu2.room_state_id = s2.id\n\t\t\t\t\tgroup by\n\t\t\t\t\t\ts2.id\n\t\t\t\t)\n\t\t\tgroup by\n\t\t\t\tid\n\t\t) as r3\n\ton\n\t\tr3.id = r.id\nwhere\n\tr.removed_at is null\ngroup by\n\tr.id\norder by\n\ttime_active desc"
+    ],
+    "variables": [
+        "trim",
+        "allRooms",
+        "activeRooms"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

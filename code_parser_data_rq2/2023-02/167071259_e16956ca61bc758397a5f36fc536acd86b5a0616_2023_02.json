@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "IO",
+        "YamlDotNet",
+        "Serialization",
+        "NamingConventions",
+        "PresentScreenings",
+        "TableView"
+    ],
+    "literals": [],
+    "variables": [
+        "Constants",
+        "Paths"
+    ],
+    "comments": [
+        "var deserializer = new YamlDotNet.Serialization.DeserializerBuilder()",
+        ".WithNamingConvention(PascalCaseNamingConvention.Instance)",
+        ".Build();",
+        "var yamlText = File.ReadAllText(AppDelegate.ConfigFile);",
+        "Configuration config = deserializer.Deserialize<Configuration>(yamlText);",
+        "Constants = config.Constants;",
+        "Paths = config.Paths;"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Configuration"
+    ],
+    "classes": [
+        "Configuration"
+    ]
+}

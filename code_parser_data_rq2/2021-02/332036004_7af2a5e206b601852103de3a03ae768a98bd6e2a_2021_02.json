@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "require",
+        "require",
+        "require",
+        "axios",
+        "moly",
+        "res",
+        "JSDOM",
+        "res",
+        "authInputNode",
+        "getAuthenticityToken",
+        "sessionCookie",
+        "checkMark",
+        "authenticityToken",
+        "moly",
+        "moly",
+        "URLSearchParams",
+        "form",
+        "axios",
+        "moly",
+        "queryParams",
+        "sessionCookie",
+        "res"
+    ],
+    "literals": [
+        "'use strict'",
+        "'jsdom'",
+        "'node-fetch'",
+        "'form-data'",
+        "'axios'",
+        "'../../config'",
+        "'\\u2713'",
+        "'/belepes'",
+        "'set-cookie'",
+        "'[name=authenticity_token]'",
+        "'user_session[email]'",
+        "'user_session[password]'",
+        "'user_session[remember_me]'",
+        "'Belépés'",
+        "'/azonositas'",
+        "'Content-Type'",
+        "'application/x-www-form-urlencoded'"
+    ],
+    "variables": [
+        "fetch",
+        "FormData",
+        "axios",
+        "checkMark",
+        "res",
+        "sessionCookie",
+        "authInputNode",
+        "authenticityToken",
+        "form",
+        "queryParams",
+        "res"
+    ],
+    "comments": [
+        "TODO: error handling",
+        "TODO: error handling",
+        "const form = new FormData();\n  form.append('authenticity_token', authenticityToken);\n  form.append('user_session[email]', 'sadness');\n  form.append('user_session[password]', '12345');\n  form.append('commit', 'Belépés');\n\n  const res = await fetch(moly.baseUrl + '/azonositas', {\n    method: 'POST',\n    body: form,\n    headers: { \n      //'Content-Type': 'multipart/form-data',\n      'Content-Type': `multipart/form-data; boundary=${form._boundary}`,\n      //...form.getHeaders(),\n      Cookie: sessionCookie\n    }\n  });\n  console.log(res.headers.raw()['set-cookie']);\n  const body = await res.text();\n  console.log(body);"
+    ],
+    "docstrings": [],
+    "functions": [
+        "getAuthenticityToken",
+        "getUserCredentials"
+    ],
+    "classes": []
+}

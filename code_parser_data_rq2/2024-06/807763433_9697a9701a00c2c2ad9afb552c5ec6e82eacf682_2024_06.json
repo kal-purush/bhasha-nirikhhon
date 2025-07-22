@@ -1,0 +1,69 @@
+{
+    "identifiers": [
+        "key",
+        "key",
+        "author_list",
+        "key",
+        "author_list",
+        "fields",
+        "fields",
+        "fields",
+        "fields",
+        "key",
+        "key",
+        "fields",
+        "fields",
+        "key",
+        "fields",
+        "key",
+        "new_variable",
+        "key",
+        "fields",
+        "key",
+        "new_variable",
+        "new_variable",
+        "name",
+        "name",
+        "name"
+    ],
+    "literals": [
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [
+        "author_list",
+        "new_variable"
+    ],
+    "comments": [
+        "Define the type for authors",
+        "required",
+        "identifier that distinguish across dataset (URL), confusing should check description",
+        "if only name, just add to list without dict format, according to documentation",
+        "Define an empty object to store the variables",
+        "Check if the property is defined and not null"
+    ],
+    "docstrings": [
+        "* Class that helps keep track of authors and allows for easy conversion to list format when\n * generating the final Metadata file.\n *\n * @export\n * @class AuthorsMap\n * @typedef {AuthorsMap}",
+        "* Field that keeps track of the authors in a map.\n   *\n   * @private\n   * @type {({ [key: string]: {} | string })}",
+        "* Creates an empty instance of authors map. Doesn't generate default metadata because\n   * can't assume anything about the authors.\n   *\n   * @constructor",
+        "* Returns the final list format of the authors according to Psych-DS standards.\n   *\n   * @returns {({} | string)[]} - List of authors",
+        "* Method that creates an author. This method can also be used to overwrite existing authors\n   * with the same name in order to update fields.\n   *\n   * @param {{\n   *     type?: string;\n   *     name: string;\n   *     givenName?: string; // required\n   *     familyName?: string;\n   *     identifier?: string; // identifier that distinguish across dataset (URL), confusing should check description\n   *   }} fields - All the required or possible fields associated with listing an author according to Psych-DS standards.",
+        "* Method that fetches an author object allowing user to update (in existing workflow should not be necessary).\n   *\n   * @param {string} name - Name of author to be used as key.\n   * @returns {{}} - Object with author information."
+    ],
+    "functions": [
+        "getList",
+        "setAuthor",
+        "getAuthor"
+    ],
+    "classes": [
+        "AuthorsMap"
+    ]
+}

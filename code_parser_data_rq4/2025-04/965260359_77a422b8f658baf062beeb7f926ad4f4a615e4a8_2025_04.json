@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "Groq",
+        "query",
+        "groq",
+        "query",
+        "chatCompletion",
+        "chatCompletion",
+        "fullResponse",
+        "sqlQueryMatch",
+        "sqlQueryMatch",
+        "result",
+        "error",
+        "error",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'dotenv'",
+        "'groq-sdk'",
+        "'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'",
+        "'user'",
+        "'assistant'",
+        "\"Here is the SQL query that corresponds to the given conditions:\\n\"",
+        "\"meta-llama/llama-4-scout-17b-16e-instruct\"",
+        "'Groq API response:'",
+        "''",
+        "' '",
+        "'No SQL generated'",
+        "'Error during Groq API call:'",
+        "'Error generating SQL query: '"
+    ],
+    "variables": [
+        "Groq",
+        "groq",
+        "chatCompletion",
+        "fullResponse",
+        "sqlQueryMatch",
+        "result"
+    ],
+    "comments": [
+        "sql-converter.js",
+        "Initialize Groq with the API key",
+        "Make the call to Groq API to process the query",
+        "Log the entire response for debugging",
+        "Extract the message content (assuming it's in the first choice)",
+        "Use a regular expression to extract the SQL query",
+        "Check if we found a match and return the SQL query, else default to 'No SQL generated'"
+    ],
+    "docstrings": [],
+    "functions": [
+        "convertTextToSQL"
+    ],
+    "classes": []
+}

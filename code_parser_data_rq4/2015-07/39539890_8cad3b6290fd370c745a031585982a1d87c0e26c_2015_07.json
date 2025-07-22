@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "animationEvent",
+        "Animator",
+        "element",
+        "className",
+        "animations",
+        "element",
+        "element",
+        "element",
+        "className",
+        "suppressEvents",
+        "element",
+        "className",
+        "suppressEvents",
+        "configure",
+        "aurelia",
+        "cb"
+    ],
+    "literals": [
+        "'aurelia-animator-css'",
+        "'aurelia-templating'"
+    ],
+    "variables": [],
+    "comments": [
+        "Public API Begin"
+    ],
+    "docstrings": [
+        "* Aurelia animator implementation using CSS3-Animations",
+        "* Run an animation for the given element/elements with the specified className in parallel\n       *\n       * @param element   {HtmlElement, Array<HtmlElement>} the element/s to be animated\n       * @param className {String}                          the class to be added and removed\n       *\n       * @returns {Promise}",
+        "* Runs a series of animations in sequence\n       *\n       * @param animations {Array<{element, className}>} array of animation parameters\n       *\n       * @returns {Promise.<Boolean>}",
+        "* Stub of move interface method\n       *\n       * @returns {Promise.<Boolean>}",
+        "* Performs the enter animation for the given element, triggered by a [my-class]-enter-active css-class\n       *\n       * @param element {HtmlElement} the element to be animated\n       *\n       * @returns {Promise.<Boolean>}",
+        "* Performs the leave animation for the given element, triggered by a [my-class]-leave-active css-class\n       *\n       * @param element {HtmlElement} the element to be animated\n       *\n       * @returns {Promise.<Boolean>}",
+        "* Executes an animation by removing a css-class\n       *\n       * @param element        {HtmlElement}                    the element to be animated\n       * @param className      {String}                         css-class to be removed\n       * @param suppressEvents {Boolean} [suppressEvents=false] suppress event triggering\n       *\n       * @returns {Promise.<Boolean>}",
+        "* Executes an animation by adding a css-class\n       *\n       * @param element        {HtmlElement}                    the element to be animated\n       * @param className      {String}                         css-class to be removed\n       * @param suppressEvents {Boolean} [suppressEvents=false] suppress event triggering\n       *\n       * @returns {Promise.<Boolean>}"
+    ],
+    "functions": [],
+    "classes": [
+        "CssAnimator"
+    ]
+}

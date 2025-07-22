@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "threading",
+        "ec2_client",
+        "key_name",
+        "ec2_client",
+        "create_key_pair",
+        "KeyName",
+        "key_name",
+        "ec2_resource",
+        "image_id",
+        "instance_type",
+        "key_name",
+        "tags",
+        "count",
+        "security_group_id",
+        "tags",
+        "image_id",
+        "instance_type",
+        "key_name",
+        "security_group_id",
+        "tag_spec",
+        "monitoring",
+        "ec2_resource",
+        "create_instances",
+        "instance_params",
+        "MinCount",
+        "count",
+        "MaxCount",
+        "count",
+        "instances",
+        "instances"
+    ],
+    "literals": [
+        "'ResourceType'",
+        "'instance'",
+        "'Tags'",
+        "'Key'",
+        "'Name'",
+        "'Value'",
+        "'Enabled'",
+        "'ImageId'",
+        "'InstanceType'",
+        "'KeyName'",
+        "'SecurityGroupIds'",
+        "'TagSpecifications'",
+        "'Monitoring'"
+    ],
+    "variables": [
+        "tag_spec",
+        "monitoring",
+        "instance_params",
+        "instances"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    Creates a key pair to securely connect to the AWS instances\n    :param key_name: The name of the key pair\n    :param ec2_resource: The ec2 resource which will create the key pair\n    :return: The newly created key_pair\n    \"\"\""
+    ],
+    "functions": [
+        "create_key_pair",
+        "create_instances"
+    ],
+    "classes": []
+}

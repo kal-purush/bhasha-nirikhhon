@@ -1,0 +1,76 @@
+{
+    "identifiers": [
+        "threading",
+        "requests",
+        "post",
+        "AbstractKasumi",
+        "app",
+        "AbstractKasumi",
+        "app",
+        "content",
+        "count",
+        "_app",
+        "_config",
+        "get_kasumi_url",
+        "threading",
+        "get_ident",
+        "ident",
+        "_app",
+        "_sessions",
+        "_app",
+        "_sessions",
+        "threading",
+        "get_ident",
+        "post",
+        "url",
+        "data",
+        "_app",
+        "_config",
+        "get_app_id",
+        "_app",
+        "_config",
+        "get_search_key",
+        "content",
+        "count",
+        "KasumiException",
+        "response",
+        "status_code",
+        "response",
+        "json",
+        "KasumiException",
+        "response",
+        "text",
+        "e",
+        "KasumiException",
+        "e"
+    ],
+    "literals": [
+        "f\"{url}/v1/sdk/llm_summary\"",
+        "\"app_id\"",
+        "\"app_secret\"",
+        "\"content\"",
+        "\"count\"",
+        "\"User not logged in.\"",
+        "\"summary\"",
+        "f\"Failed to summary content by llm due to {response.text}\"",
+        "f\"Failed to summary content by llm due to {e}\""
+    ],
+    "variables": [
+        "_app",
+        "_app",
+        "url",
+        "ident",
+        "session",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [
+        "'''\n            summary content by llm, raise KasumiException if failed\n            @param content: content to summary\n            @param count: how long the summary should be\n        '''"
+    ],
+    "functions": [
+        "llm_summary"
+    ],
+    "classes": [
+        "KasumiUtils"
+    ]
+}

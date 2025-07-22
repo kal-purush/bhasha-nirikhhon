@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "Content",
+        "Server",
+        "Charges",
+        "Systems",
+        "Robust",
+        "Shared",
+        "Serialization",
+        "TypeSerializers",
+        "Implementations",
+        "Custom",
+        "Content",
+        "Server",
+        "Charges",
+        "Components",
+        "RegisterComponent",
+        "Access",
+        "ChargesSystem",
+        "Component",
+        "DataField",
+        "ViewVariables",
+        "VVAccess",
+        "ReadWrite",
+        "TimeSpan",
+        "FromSeconds",
+        "DataField",
+        "customTypeSerializer",
+        "TimeOffsetSerializer",
+        "TimeSpan",
+        "MaxValue"
+    ],
+    "literals": [
+        "\"rechargeDuration\"",
+        "\"nextChargeTime\""
+    ],
+    "variables": [
+        "TimeSpan",
+        "RechargeDuration",
+        "TimeSpan",
+        "NextChargeTime"
+    ],
+    "comments": [
+        "Something with limited charges that can be recharged automatically.",
+        "Requires LimitedChargesComponent to function.",
+        "</summary>",
+        "The time it takes to regain a single charge",
+        "</summary>",
+        "The time when the next charge will be added",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [],
+    "classes": [
+        "AutoRechargeComponent"
+    ]
+}

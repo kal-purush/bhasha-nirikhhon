@@ -1,0 +1,30 @@
+{
+    "identifiers": [
+        "GET",
+        "components",
+        "rentalPropertyId",
+        "GET",
+        "error",
+        "error",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "'./base-api'",
+        "'./generated/api-types'",
+        "'schemas'",
+        "'Lease'",
+        "string",
+        "'/leases/by-rental-property-id/{rentalPropertyId}'",
+        "'Response ok but missing content'"
+    ],
+    "variables": [
+        "leaseService"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "getByRentalPropertyId"
+    ],
+    "classes": []
+}

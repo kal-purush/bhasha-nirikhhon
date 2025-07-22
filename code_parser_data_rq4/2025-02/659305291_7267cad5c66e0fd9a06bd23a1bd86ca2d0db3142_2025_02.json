@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "useCreateUserSeenArtworkMutation",
+        "Disposable",
+        "UseMutationConfig",
+        "graphql",
+        "useMutation",
+        "config",
+        "useCreateUserSeenArtwork",
+        "useMutation",
+        "CreateUserSeenArtworkMutation",
+        "commit",
+        "config",
+        "initialCommit",
+        "config",
+        "data",
+        "errors",
+        "data",
+        "response",
+        "response",
+        "errorMessage",
+        "errorMessage",
+        "config",
+        "error",
+        "config",
+        "data",
+        "errors",
+        "commit",
+        "inProgress",
+        "graphql"
+    ],
+    "literals": [
+        "\"__generated__/useCreateUserSeenArtworkMutation.graphql\"",
+        "\"react-relay\"",
+        "\"CreateUserSeenArtworkFailure\"",
+        "mutation useCreateUserSeenArtworkMutation($input: CreateUserSeenArtworkInput!) {\n    createUserSeenArtwork(input: $input) {\n      userSeenArtworkOrError {\n        __typename\n\n        ... on CreateUserSeenArtworkFailure {\n          mutationError {\n            message\n          }\n        }\n      }\n    }\n  }"
+    ],
+    "variables": [
+        "useCreateUserSeenArtwork",
+        "initialCommit",
+        "inProgress",
+        "commit",
+        "response",
+        "errorMessage",
+        "error",
+        "CreateUserSeenArtworkMutation"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

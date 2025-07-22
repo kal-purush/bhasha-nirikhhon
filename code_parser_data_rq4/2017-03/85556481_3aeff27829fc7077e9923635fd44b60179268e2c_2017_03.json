@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "Modulewijzer",
+        "Models",
+        "Data",
+        "Data",
+        "SqlClient",
+        "Collections",
+        "Generic",
+        "Modulewijzer",
+        "Data",
+        "ModuleTeacher",
+        "moduleteacher",
+        "SqlConnection",
+        "connection",
+        "Open",
+        "connection",
+        "CreateCommand",
+        "command",
+        "CommandText",
+        "SqlParameter",
+        "SqlParameter",
+        "SqlDbType",
+        "Int",
+        "Value",
+        "moduleteacher",
+        "ModuleId",
+        "SqlParameter",
+        "SqlDbType",
+        "Int",
+        "Value",
+        "moduleteacher",
+        "TeacherId",
+        "command",
+        "Parameters",
+        "AddRange",
+        "parameters",
+        "command",
+        "ExecuteNonQuery",
+        "connection",
+        "Close",
+        "ModuleTeacher",
+        "moduleteacher"
+    ],
+    "literals": [
+        "\"Data Source=(LocalDB)\\\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|Modulewijzer.mdf;Integrated Security=True\"",
+        "\"INSERT INTO ModuleDocent (ModuleId, DocentId)\"",
+        "\"Values(@ModuleId, @TeacherId)\"",
+        "\"@ModuleId\"",
+        "\"@TeacherId\""
+    ],
+    "variables": [
+        "connection",
+        "command",
+        "parameters"
+    ],
+    "comments": [
+        "Inserts the given moduleteacher into the database.",
+        "</summary>",
+        "<param name=\"moduleteacher\">The moduleteacher to insert.</param>",
+        "TODO: Place connection string somewhere else.",
+        "Deletes the given moduleteacher from the database.",
+        "</summary>",
+        "<param name=\"moduleteacher\">The moduleteacher to delete.</param>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "Create",
+        "Delete"
+    ],
+    "classes": [
+        "TableModuleTeacher"
+    ]
+}

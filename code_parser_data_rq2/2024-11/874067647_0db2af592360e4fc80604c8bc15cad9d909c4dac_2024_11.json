@@ -1,0 +1,63 @@
+{
+    "identifiers": [
+        "NextRequest",
+        "NextResponse",
+        "Pool",
+        "query",
+        "ddlKeywords",
+        "query",
+        "query",
+        "Pool",
+        "process",
+        "req",
+        "req",
+        "req",
+        "sanitizeSQL",
+        "id",
+        "query",
+        "pool",
+        "query",
+        "result",
+        "NextResponse",
+        "result",
+        "result",
+        "NextResponse",
+        "error",
+        "error",
+        "NextResponse",
+        "NextResponse"
+    ],
+    "literals": [
+        "\"next/server\"",
+        "'pg'",
+        "string",
+        "'DDL commands are not allowed'",
+        "'GET'",
+        "string",
+        "\"id\"",
+        "SELECT * FROM trash WHERE id = '${id}'",
+        "'Content not found'",
+        "'An error occurred'",
+        "'Method not allowed'"
+    ],
+    "variables": [
+        "revalidate",
+        "ddlKeywords",
+        "pool",
+        "id",
+        "query",
+        "result"
+    ],
+    "comments": [
+        "pages/api/trash.js",
+        "List of common DDL keywords",
+        "Check if the query contains any DDL commands",
+        "If no DDL commands are detected, return the query (safe to execute)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "sanitizeSQL",
+        "GET"
+    ],
+    "classes": []
+}

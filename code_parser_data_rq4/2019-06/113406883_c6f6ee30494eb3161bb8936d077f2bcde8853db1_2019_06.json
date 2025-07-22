@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "StatsD",
+        "StatsD",
+        "process",
+        "process",
+        "stat",
+        "statsd",
+        "stat",
+        "stat",
+        "statsd",
+        "stat",
+        "stat",
+        "value",
+        "statsd",
+        "stat",
+        "value",
+        "stat",
+        "value",
+        "statsd",
+        "stat",
+        "value"
+    ],
+    "literals": [
+        "'hot-shots'",
+        "'localhost'",
+        "string",
+        "stats.counts.dserve.${ stat }",
+        "string",
+        "stats.counts.dserve.${ stat }",
+        "string",
+        "stats.gauges.dserve.${ stat }",
+        "string",
+        "stats.timers.dserve.${ stat }"
+    ],
+    "variables": [
+        "statsd"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "increment",
+        "decrement",
+        "gauge",
+        "timing"
+    ],
+    "classes": []
+}

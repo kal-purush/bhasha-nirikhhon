@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "require",
+        "require",
+        "mqtt",
+        "sensorLib",
+        "setInterval",
+        "read",
+        "sensorLib",
+        "client",
+        "readout",
+        "client",
+        "readout",
+        "readout",
+        "readout"
+    ],
+    "literals": [
+        "\"mqtt\"",
+        "\"node-dht-sensor\"",
+        "\"mqtt://test.mosquitto.org:1883\"",
+        "\"temperature\"",
+        "\"humidity\"",
+        "\"Temperature: \"",
+        "\"C, \"",
+        "\"humidity: \"",
+        "\"%\""
+    ],
+    "variables": [
+        "mqtt",
+        "sensorLib",
+        "client",
+        "interval",
+        "readout"
+    ],
+    "comments": [
+        "var PythonShell = require(\"python-shell\");",
+        "22 é o tipo do sensor e 12 é o pino GPIO",
+        "PythonShell.run(\"smoke.py\", function(err) {",
+        "if (err) throw err;",
+        "console.log(\"finished\");",
+        "});",
+        "client.subscribe(\"smoke\");",
+        "client.on(\"connect\", () => {",
+        "console.log(\"connected\");",
+        "});",
+        "client.on(\"message\", (topic, message) => {",
+        "console.log(\"received message %s %s\", topic, message);",
+        "});"
+    ],
+    "docstrings": [],
+    "functions": [
+        "read"
+    ],
+    "classes": []
+}

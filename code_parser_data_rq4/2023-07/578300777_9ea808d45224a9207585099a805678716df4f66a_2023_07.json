@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "Component",
+        "action",
+        "className",
+        "Component",
+        "className",
+        "action",
+        "action"
+    ],
+    "literals": [
+        "'@glimmer/component'",
+        "'@ember/object'",
+        "string",
+        "string",
+        "'toucan-form-select-option-control'",
+        ".${className}",
+        "'bg-overlay-1 text-titles-and-attributes'",
+        "'text-titles-and-attributes'",
+        "'text-body-and-labels'"
+    ],
+    "variables": [
+        "className",
+        "selector"
+    ],
+    "comments": [
+        "Both \"click\" and \"mousedown\" steal focus, which we want to remain on the input.",
+        "Both \"click\" and \"mousedown\" steal focus, which we want to remain on the input."
+    ],
+    "docstrings": [
+        "* When true, means that the option is currently hovered over with a mouse\n     * or \"focused\" with a keyboard.",
+        "* Sets the underlying, hidden input element to disabled.",
+        "* Sets the underlying, hidden input element to readonly.",
+        "* When set to true, the list item will have `aria-selected` set to true\n     * and have selected styling.",
+        "* The index number of the list item when in a list.",
+        "* The event called when the item is clicked.",
+        "* The event called when the mouse rolls over the item.",
+        "* The `id` attribute of the popover this option is associated with.",
+        "* Sets the underlying input element `value` attribute."
+    ],
+    "functions": [
+        "styles",
+        "onClick",
+        "onMousedown"
+    ],
+    "classes": [
+        "ToucanFormMultiAutocompleteOptionControlComponent"
+    ]
+}

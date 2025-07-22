@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "PUBLIC_BACKEND_URL",
+        "getTemplate",
+        "templateName",
+        "URL",
+        "PUBLIC_BACKEND_URL",
+        "templateName",
+        "fetch",
+        "apiUrl",
+        "response",
+        "response",
+        "response",
+        "error",
+        "getTemplate"
+    ],
+    "literals": [
+        "'$env/static/public'",
+        "${PUBLIC_BACKEND_URL}/api/tools/templates/og-image?template=${templateName}",
+        "'GET'",
+        "'Content-Type'",
+        "'text/html'",
+        "HTTP error! status: ${response.status}"
+    ],
+    "variables": [
+        "getTemplate",
+        "apiUrl",
+        "response"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

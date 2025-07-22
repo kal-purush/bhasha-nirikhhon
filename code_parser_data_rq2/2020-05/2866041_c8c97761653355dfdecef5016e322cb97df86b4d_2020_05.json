@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "pythonforandroid",
+        "recipe",
+        "Recipe",
+        "Recipe",
+        "OpenCVExtrasRecipe"
+    ],
+    "literals": [
+        "'4.0.1'",
+        "'https://github.com/opencv/opencv_contrib/archive/{version}.zip'",
+        "'opencv'"
+    ],
+    "variables": [
+        "version",
+        "url",
+        "depends",
+        "recipe"
+    ],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"\n    OpenCV extras recipe allows us to build extra modules from the\n    `opencv_contrib` repository. It depends on opencv recipe and all the build\n    of the modules will be performed inside opencv recipe build directory.\n\n    .. note:: the version of this recipe should be the same than opencv recipe.\n\n    .. warning:: Be aware that these modules are experimental, some of them\n        maybe included in opencv future releases and removed from extras.\n\n    .. seealso:: https://github.com/opencv/opencv_contrib\n\n    \"\"\""
+    ],
+    "functions": [],
+    "classes": [
+        "OpenCVExtrasRecipe"
+    ]
+}

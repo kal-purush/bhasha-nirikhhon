@@ -1,0 +1,39 @@
+{
+    "identifiers": [
+        "UnityEngine",
+        "Collections",
+        "MonoBehaviour"
+    ],
+    "literals": [],
+    "variables": [
+        "PlayerController",
+        "playerController"
+    ],
+    "comments": [
+        "Use this for initialization",
+        "Update is called once per frame",
+        "void OnTriggerEnter(Collider other)",
+        "{",
+        "if (other.tag == \"TestGround\")",
+        "{",
+        "playerController.isGrounded = true;",
+        "}",
+        "}",
+        "",
+        "void OnTriggerExit(Collider other)",
+        "{",
+        "if (other.tag == \"TestGround\")",
+        "{",
+        "playerController.isGrounded = false;",
+        "}",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "Update"
+    ],
+    "classes": [
+        "GameController"
+    ]
+}

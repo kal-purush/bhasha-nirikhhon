@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "LIS3DH",
+        "LIS3DH",
+        "time",
+        "sleep",
+        "channel",
+        "sensor",
+        "getClick",
+        "click",
+        "click",
+        "click",
+        "LIS3DH",
+        "debug",
+        "sensor",
+        "setRange",
+        "LIS3DH",
+        "RANGE_2G",
+        "sensor",
+        "setClick",
+        "LIS3DH",
+        "CLK_SINGLE",
+        "mycallback",
+        "clickcallback",
+        "sensor",
+        "getX",
+        "sensor",
+        "getY",
+        "sensor",
+        "getZ",
+        "x",
+        "y",
+        "z",
+        "sleep"
+    ],
+    "literals": [
+        "\"Interrupt detected\"",
+        "\"Click detected (0x%2X)\"",
+        "\" single click\"",
+        "\" double click\"",
+        "'__main__'",
+        "\"Starting stream\"",
+        "\"\\rX: %.6f\\tY: %.6f\\tZ: %.6f\""
+    ],
+    "variables": [
+        "click",
+        "sensor",
+        "x",
+        "y",
+        "z"
+    ],
+    "comments": [
+        "!/usr/bin/python",
+        "interrupt handler callback",
+        "raw values",
+        "click sensor if polling & not using interrupt",
+        "click = sensor.getClick()",
+        "if (click & 0x30) :",
+        "print \"Click detected (0x%2X)\" % (click)",
+        "if (click & 0x10): print \" single click\"",
+        "if (click & 0x20): print \" double click\""
+    ],
+    "docstrings": [],
+    "functions": [
+        "clickcallback"
+    ],
+    "classes": []
+}

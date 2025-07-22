@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "input",
+        "obj",
+        "input",
+        "o",
+        "s",
+        "o",
+        "s",
+        "obj",
+        "input",
+        "obj",
+        "val",
+        "input",
+        "pathValues",
+        "o",
+        "s",
+        "i",
+        "i",
+        "pathValues",
+        "o",
+        "s",
+        "o",
+        "s",
+        "val",
+        "obj"
+    ],
+    "literals": [
+        "string",
+        "'.'",
+        "string",
+        "'.'"
+    ],
+    "variables": [
+        "pathValues"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Returns the value of an object's property at a given path.\n *\n * @param {string} input\n * @param {*} obj\n * @returns {any}",
+        "* Sets a value of a property of an object at a given path\n *\n * @param {string} input\n * @param {*} obj\n * @param {*} val"
+    ],
+    "functions": [
+        "getAtPath",
+        "setAtPath"
+    ],
+    "classes": []
+}

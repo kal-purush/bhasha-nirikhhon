@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "ChangeDetectionStrategy",
+        "Component",
+        "OnInit",
+        "ViewEncapsulation",
+        "ShareButton",
+        "ShareProvider",
+        "Component",
+        "ViewEncapsulation",
+        "ChangeDetectionStrategy",
+        "ShareButton",
+        "ShareProvider"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'ng2-sharebuttons'",
+        "'single'",
+        "'./single.component.html'",
+        "'./single.component.scss'",
+        "'<share-button></share-button>'",
+        "import { ShareButton, ShareProvider } from 'ng2-sharebuttons';\n\nexport class SomeComponent {\n  fbButton;\n  ngOnInit() {\n    // ShareButton(button name [provider], template, classes)\n    this.fbButton = new ShareButton(\n      ShareProvider.facebook,\n      '<i class=\"fa fa-facebook\"></i>',\n      'facebook'\n    );\n  }\n}",
+        "'<share-button class=\"facebook\" [button]=\"fbButton\"></share-button>'",
+        "// Add your css in the global style, not in the component stylesheet\nshare-button button {\n  font-size: 18px;\n  width: 80px;\n  background-color: transparent;\n  padding: 0.4em 1em;\n  margin: 1em;\n  border-radius: 2px;\n  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);\n  transition: all linear 200ms;\n  &:active {\n    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);\n  }\n}\n.facebook button {\n  color: #35528E;\n}",
+        "'<i class=\"fa fa-facebook\"></i>'",
+        "'facebook'"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ngOnInit"
+    ],
+    "classes": [
+        "SingleComponent"
+    ]
+}

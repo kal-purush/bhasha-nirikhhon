@@ -1,0 +1,19 @@
+{
+    "identifiers": [
+        "kbasesearchengine",
+        "main",
+        "Stoppable",
+        "millisToWait"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "An interface for a service or task that can be stopped.\n * @author gaprice@lbl.gov\n *",
+        "Stop the Stoppable.\n     * @param millisToWait the number of milliseconds to wait for the service or task to complete\n     * before the task is stopped.\n     * @throws InterruptedException if the thread is interrupted while waiting for the service\n     * or task to stop."
+    ],
+    "functions": [
+        "stop"
+    ],
+    "classes": []
+}

@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "abc",
+        "ABC",
+        "abstractmethod",
+        "typing",
+        "Optional",
+        "Tuple",
+        "Union",
+        "requests",
+        "models",
+        "Response",
+        "ABC",
+        "abstractmethod",
+        "abstractmethod",
+        "Response",
+        "abstractmethod",
+        "remote_path",
+        "Union",
+        "abstractmethod",
+        "path",
+        "abstractmethod",
+        "local_path",
+        "remote_path",
+        "Response",
+        "abstractmethod",
+        "local_folder",
+        "remote_folder",
+        "Response",
+        "abstractmethod",
+        "remote_path",
+        "local_path",
+        "Response",
+        "abstractmethod",
+        "remote_path",
+        "Tuple",
+        "Response",
+        "Optional"
+    ],
+    "literals": [
+        "\"\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "\"\"\"Инициализация заголовков с токеном доступа\"\"\"",
+        "\"\"\"Проверяет доступ к облаку\"\"\"",
+        "\"\"\"Рекурсивно создает путь к файлу/папке, если его не существует\"\"\"",
+        "\"\"\"Проверяет, существует ли путь на Диске\"\"\"",
+        "\"\"\"Загружает файл в облако\"\"\"",
+        "\"\"\"Загружает папку в облако\"\"\"",
+        "\"\"\"Скачивает файл из облака\"\"\"",
+        "\"\"\"Список файлов в облаке\"\"\""
+    ],
+    "functions": [
+        "_initialize_headers",
+        "check_disk_access",
+        "_ensure_path_exists",
+        "_path_exists",
+        "upload_file",
+        "upload_folder",
+        "download_file",
+        "list_files"
+    ],
+    "classes": [
+        "CloudClient"
+    ]
+}

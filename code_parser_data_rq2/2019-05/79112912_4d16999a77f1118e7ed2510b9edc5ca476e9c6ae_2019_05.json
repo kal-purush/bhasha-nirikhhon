@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "org",
+        "alfresco",
+        "solr",
+        "tracker",
+        "org",
+        "alfresco",
+        "solr",
+        "client",
+        "Acl",
+        "org",
+        "alfresco",
+        "solr",
+        "client",
+        "Node",
+        "org",
+        "slf4j",
+        "Logger",
+        "org",
+        "slf4j",
+        "LoggerFactory",
+        "log",
+        "LoggerFactory",
+        "getLogger",
+        "fallback",
+        "Override",
+        "shardCount",
+        "shardInstance",
+        "acl",
+        "Override",
+        "shardCount",
+        "shardInstance",
+        "node",
+        "explicitShardId",
+        "node",
+        "getExplicitShardId",
+        "explicitShardId",
+        "shardInstance"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "all acls go to all shards."
+    ],
+    "docstrings": [
+        "* Routes a document only if the shardInstance matches the provided shardId"
+    ],
+    "functions": [
+        "ElasticLastShardRouter",
+        "routeAcl",
+        "routeNode"
+    ],
+    "classes": [
+        "ElasticLastShardRouter"
+    ]
+}

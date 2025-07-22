@@ -1,0 +1,79 @@
+{
+    "identifiers": [
+        "AfterContentInit",
+        "Directive",
+        "ElementRef",
+        "HostBinding",
+        "OnDestroy",
+        "Renderer2",
+        "ContentChildren",
+        "QueryList",
+        "MDCNotchedOutlineFoundation",
+        "MDCNotchedOutlineAdapter",
+        "Directive",
+        "HostBinding",
+        "_elm",
+        "Directive",
+        "HostBinding",
+        "ContentChildren",
+        "MdcNotchedOutlineNotchDirective",
+        "name",
+        "name",
+        "name",
+        "name",
+        "width",
+        "width",
+        "rndr",
+        "root",
+        "MDCNotchedOutlineFoundation",
+        "clazz",
+        "surround",
+        "clazz",
+        "surround",
+        "width",
+        "width",
+        "width",
+        "width",
+        "MdcNotchedOutlineNotchDirective",
+        "MdcNotchedOutlineDirective"
+    ],
+    "literals": [
+        "'@angular/core'",
+        "'@material/notched-outline'",
+        "'[mdcNotchedOutlineNotch]'",
+        "'class.mdc-notched-outline__notch'",
+        "'[mdcNotchedOutline]'",
+        "'class.mdc-notched-outline'",
+        "'width'",
+        "${width}px",
+        "'width'",
+        "'mdc-notched-outline__leading'",
+        "'mdc-notched-outline__trailing'",
+        "'span'"
+    ],
+    "variables": [
+        "surround",
+        "NOTCHED_OUTLINE_DIRECTIVES"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This directive styles the notch of an `mdcNotchedOutline`. It should wrap the (floating)\n * label of an input like `mdcTextField` or `mdcSelect`.",
+        "* The notched outline is a border around all sides of either an `mdcTextField` or an\n * `mdcSelect`. It should only be used for the outlined variant of these inputs.\n * This directive should wrap an `mdcNotchedOutlineNotch`, which in turn wraps the\n * actual label.",
+        "* Opens the notched outline.\n     * \n     * @param width The width of the notch.",
+        "* Closes the notched outline."
+    ],
+    "functions": [
+        "ngAfterContentInit",
+        "ngOnDestroy",
+        "initFoundation",
+        "destroyFoundation",
+        "addSurround",
+        "notch",
+        "open",
+        "close"
+    ],
+    "classes": [
+        "MdcNotchedOutlineNotchDirective",
+        "MdcNotchedOutlineDirective"
+    ]
+}

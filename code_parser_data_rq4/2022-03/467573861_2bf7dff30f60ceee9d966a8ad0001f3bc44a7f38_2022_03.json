@@ -1,0 +1,68 @@
+{
+    "identifiers": [
+        "ru",
+        "platon",
+        "bot2",
+        "service",
+        "lombok",
+        "slf4j",
+        "Slf4j",
+        "org",
+        "springframework",
+        "beans",
+        "factory",
+        "annotation",
+        "Value",
+        "org",
+        "springframework",
+        "context",
+        "annotation",
+        "PropertySource",
+        "org",
+        "springframework",
+        "stereotype",
+        "Component",
+        "org",
+        "springframework",
+        "stereotype",
+        "Service",
+        "javax",
+        "persistence",
+        "EntityManager",
+        "javax",
+        "persistence",
+        "PersistenceContext",
+        "java",
+        "sql",
+        "Connection",
+        "java",
+        "sql",
+        "DriverManager",
+        "Component",
+        "Slf4j",
+        "PropertySource",
+        "PersistenceContext",
+        "entityManager",
+        "strSQL",
+        "entityManager",
+        "createNativeQuery",
+        "strSQL",
+        "executeUpdate"
+    ],
+    "literals": [
+        "\"classpath:application.properties\""
+    ],
+    "variables": [
+        "entityManager"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* Метод принимает строку запроса и выполняет ее, после чего присылает результат\n     *\n     * @param strSQL строку SQL запроса"
+    ],
+    "functions": [
+        "connectAndExecute"
+    ],
+    "classes": [
+        "ConnectBD"
+    ]
+}

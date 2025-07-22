@@ -1,0 +1,19 @@
+{
+    "identifiers": [
+        "test",
+        "evaluates",
+        "test",
+        "evaluates"
+    ],
+    "literals": [
+        "\"tape\"",
+        "\"./shared_functions\"",
+        "\"test string join ordering\"",
+        "~~~\n                 commit\n                      [#foo token:\"a\" level:2]\n                      [#foo token:\"zkp\" level:3]\n                      [#foo token:\"parg\" level:0]\n                      [#foo token:\"naxxo\" level:1]\n               ~~~\n\n                ~~~\n                search\n                  [#foo token level]\n                  index = sort[value:token given:token]                 \n                  a = join[token index given:token with:\"/\"]\n                  a = \"a/naxxo/parg/zkp\"\n                  b = join[token index:level given:token with:\"/\"]\n                  b = \"parg/naxxo/a/zkp\"                  \n                commit\n                  [#success]\n                ~~~"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "commandWord",
+        "secondWord",
+        "commandWord",
+        "secondWord",
+        "commandWord",
+        "commandWord",
+        "secondWord",
+        "secondWord",
+        "commandWord",
+        "secondWord",
+        "commandWord",
+        "CommandWord",
+        "UNKNOWN",
+        "secondWord"
+    ],
+    "literals": [],
+    "variables": [
+        "commandWord",
+        "secondWord"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* This class holds information about a command that was issued by the user.\n * A command currently consists of two parts: a CommandWord and a string\n * (for example, if the command was \"take map\", then the two parts\n * are TAKE and \"map\").\n *\n * The way this is used is: Commands are already checked for being valid\n * command words. If the user entered an invalid command (a word that is not\n * known) then the CommandWord is UNKNOWN.\n *\n * If the command had only one word, then the second word is <null>.",
+        "* Create a command object. First and second words must be supplied, but\n     * the second may be null.\n     * @param commandWord The CommandWord. UNKNOWN if the command word\n     *                  was not recognised.\n     * @param secondWord The second word of the command. May be null.",
+        "* Return the command word (the first word) of this command.\n     * @return The command word.",
+        "* @return The second word of this command. Returns null if there was no\n     * second word.",
+        "* @return true if this command was not understood.",
+        "* @return true if the command has a second word."
+    ],
+    "functions": [
+        "Command",
+        "CommandWord",
+        "getCommandWord",
+        "getSecondWord",
+        "isUnknown",
+        "hasSecondWord"
+    ],
+    "classes": [
+        "Command"
+    ]
+}

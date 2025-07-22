@@ -1,0 +1,71 @@
+{
+    "identifiers": [
+        "el",
+        "className",
+        "el",
+        "parent",
+        "parent",
+        "className",
+        "parent",
+        "getParent",
+        "parent",
+        "className",
+        "tout",
+        "paramData",
+        "jQuery",
+        "ajaxurl",
+        "paramData",
+        "response",
+        "jQuery",
+        "response",
+        "jQuery",
+        "jQuery",
+        "jQuery",
+        "xhr",
+        "testStatus",
+        "error",
+        "jQuery",
+        "error",
+        "jQuery",
+        "jQuery",
+        "jQuery"
+    ],
+    "literals": [
+        "''",
+        "'POST'",
+        "'.button-status'",
+        "'<span class=\"status\">'",
+        "'</span>'",
+        "'.button-status'",
+        "'updated'",
+        "'.button-status'",
+        "'fast'",
+        "'.button-status'",
+        "'.button-status'",
+        "'<span class=\"status\">'",
+        "'</span>'",
+        "'.button-status'",
+        "'error'",
+        "'.button-status'",
+        "'fast'",
+        "'.button-status'"
+    ],
+    "variables": [
+        "parent",
+        "tout"
+    ],
+    "comments": [
+        "getEventTarget()",
+        "getParent()"
+    ],
+    "docstrings": [
+        "* Returns the event target.\n *\n * @since \t\t1.0.0\n * @param \t\tobject \t\tevent \t\tThe event.\n * @return \t\tobject \t\ttarget \t\tThe event target.",
+        "* Returns the parent node with the requested class.\n *\n * This is recursive, so it will continue up the DOM tree\n * until the correct parent is found.\n *\n * @since \t\t1.0.0\n * @param \t\tobject \t\tel \t\t\t\tThe node element.\n * @param \t\tstring \t\tclassName \t\tName of the class to find.\n * @return \t\tobject \t\t\t\t\t\tThe parent element.",
+        "* Sends data to a PHP handler for saving via AJAX.\n *\n * @since \t\t1.0.0\n * @param \t\tarray \t\tparamData \t\tThe data to send to the PHP handler."
+    ],
+    "functions": [
+        "getEventTarget",
+        "getParent"
+    ],
+    "classes": []
+}

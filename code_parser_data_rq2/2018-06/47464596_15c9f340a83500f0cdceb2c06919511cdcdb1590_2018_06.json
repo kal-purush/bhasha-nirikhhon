@@ -1,0 +1,61 @@
+{
+    "identifiers": [
+        "net",
+        "morimekta",
+        "util",
+        "java",
+        "io",
+        "Closeable",
+        "java",
+        "io",
+        "File",
+        "java",
+        "io",
+        "java",
+        "nio",
+        "file",
+        "Files",
+        "java",
+        "nio",
+        "file",
+        "Path",
+        "path",
+        "baseTempDirectory",
+        "baseTempDirectory",
+        "toPath",
+        "baseTempDirectory",
+        "path",
+        "Files",
+        "createTempDirectory",
+        "baseTempDirectory",
+        "path",
+        "getPath",
+        "toFile",
+        "Override",
+        "FileUtil",
+        "deleteRecursively",
+        "path"
+    ],
+    "literals": [
+        "\"tmp\""
+    ],
+    "variables": [
+        "path"
+    ],
+    "comments": [],
+    "docstrings": [
+        "* A temporary asset folder where an arbitrary number of files can be added\n * to and should guarantee complete cleanup on close. Example usage:\n *\n * <pre>{@code\n * try (TemporaryAssetFolder tmp = new TemporaryAssetFolder(base)) {\n *     // do stuff\n * }\n * // is all deleted.\n * }</pre>\n *\n * This will create a temp folder into the base directory for each run, where\n * any number of files or sub-folders can be added. All of it will be removed\n * immediately on close."
+    ],
+    "functions": [
+        "TemporaryAssetFolder",
+        "TemporaryAssetFolder",
+        "Path",
+        "getPath",
+        "File",
+        "getFile",
+        "close"
+    ],
+    "classes": [
+        "TemporaryAssetFolder"
+    ]
+}

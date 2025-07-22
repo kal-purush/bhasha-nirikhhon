@@ -1,0 +1,51 @@
+{
+    "identifiers": [
+        "CommandHandler",
+        "EventBus",
+        "ICommandHandler",
+        "Logger",
+        "OrderCompletedEvent",
+        "ProcessOrderCommand",
+        "CommandHandler",
+        "ProcessOrderCommand",
+        "Logger",
+        "ProcessOrderCommandHandler",
+        "eventBus",
+        "command",
+        "command",
+        "OrderCompletedEvent",
+        "command",
+        "command",
+        "orderCompletedEvent",
+        "command",
+        "error",
+        "command",
+        "error",
+        "error"
+    ],
+    "literals": [
+        "'@nestjs/cqrs'",
+        "'@nestjs/common'",
+        "'../../events/order-completed/order-completed.event'",
+        "'./process-order.command'",
+        "Processing order with ID: ${command.orderId}",
+        "Order ${command.orderId} processed successfully",
+        "Failed to process order ${command.orderId}"
+    ],
+    "variables": [
+        "orderCompletedEvent"
+    ],
+    "comments": [
+        "Here you'd implement the actual order processing logic",
+        "This is just a placeholder",
+        "After processing is complete, publish an event",
+        "Using command ID as correlation ID"
+    ],
+    "docstrings": [],
+    "functions": [
+        "execute"
+    ],
+    "classes": [
+        "ProcessOrderCommandHandler"
+    ]
+}

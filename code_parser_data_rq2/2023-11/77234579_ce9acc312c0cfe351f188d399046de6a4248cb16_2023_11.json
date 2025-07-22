@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "textwrap",
+        "IPython",
+        "testing",
+        "globalipapp",
+        "get_ipython",
+        "aiida",
+        "tools",
+        "ipython",
+        "ipython_magics",
+        "register_ipython_extension",
+        "get_ipython",
+        "register_ipython_extension",
+        "ipy",
+        "textwrap",
+        "dedent",
+        "ipy",
+        "run_cell",
+        "cell",
+        "result",
+        "success"
+    ],
+    "literals": [],
+    "variables": [
+        "ipy",
+        "cell",
+        "result"
+    ],
+    "comments": [
+        "-*- coding: utf-8 -*-"
+    ],
+    "docstrings": [
+        "\"\"\"Tests for :mod:`aiida.tools.ipython.ipython_magics`.\"\"\"",
+        "\"\"\"Test that the ``%aiida`` magic can be loaded and imports the ``QueryBuilder`` and ``Node`` classes.\"\"\"",
+        "\"\"\"\n        %aiida\n        qb=QueryBuilder()\n        qb.append(Node)\n        qb.all()\n        Dict().store()\n        \"\"\""
+    ],
+    "functions": [
+        "test_ipython_magics"
+    ],
+    "classes": []
+}

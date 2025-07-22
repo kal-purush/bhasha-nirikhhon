@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "Security",
+        "Cryptography",
+        "NET451",
+        "Linq",
+        "Microsoft",
+        "Azure",
+        "Devices",
+        "E2ETests",
+        "NET451",
+        "keySize",
+        "NET451",
+        "keySize",
+        "RNGCryptoServiceProvider",
+        "cyptoProvider",
+        "GetNonZeroBytes",
+        "keyBytes",
+        "keySize",
+        "RandomNumberGenerator",
+        "Create",
+        "keyBytes",
+        "Contains",
+        "MinValue",
+        "cyptoProvider",
+        "GetBytes",
+        "keyBytes",
+        "keyBytes",
+        "keySize",
+        "Convert",
+        "ToBase64String",
+        "GenerateKeyBytes",
+        "keySize"
+    ],
+    "literals": [],
+    "variables": [
+        "DefaultPasswordLength",
+        "GuidLength",
+        "Sha512KeySize",
+        "keyBytes",
+        "cyptoProvider",
+        "keyBytes",
+        "cyptoProvider"
+    ],
+    "comments": [
+        "Copyright (c) Microsoft. All rights reserved.",
+        "Licensed under the MIT license. See LICENSE file in the project root for full license information.",
+        "Utility methods for generating cryptographically secure keys and passwords.",
+        "</summary>",
+        "Size of the SHA 512 key.",
+        "</summary>",
+        "Generate a key with a specified key size.",
+        "</summary>",
+        "<param name=\"keySize\">The size of the key.</param>",
+        "<returns>Byte array representing the key.</returns>",
+        "Generates a key of the specified size.",
+        "</summary>",
+        "<param name=\"keySize\">Desired key size.</param>",
+        "<returns>A generated key.</returns>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "GenerateKeyBytes",
+        "GenerateKey"
+    ],
+    "classes": [
+        "CryptoKeyGenerator"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "identifiers": [
+        "getAllBlogAndNewsPosts",
+        "NextResponse",
+        "remark",
+        "html",
+        "getAllBlogAndNewsPosts",
+        "posts",
+        "post",
+        "remark",
+        "html",
+        "post",
+        "processedContent",
+        "post",
+        "truncatedContent",
+        "processedPosts",
+        "post",
+        "post",
+        "post",
+        "post",
+        "post",
+        "post",
+        "post",
+        "post",
+        "post",
+        "post",
+        "NextResponse",
+        "rss"
+    ],
+    "literals": [
+        "'@/lib/blog'",
+        "'next/server'",
+        "'remark'",
+        "'remark-html'",
+        "''",
+        "' '",
+        "'...'",
+        "<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n    <rss version=\"2.0\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" xmlns:wfw=\"http://wellformedweb.org/CommentAPI/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\">\n      <channel>\n        <title>AliasVault Blog</title>\n        <link>https://aliasvault.com</link>\n        <description>Latest blog posts and news from AliasVault</description>\n        <language>en-US</language>\n        <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>\n        <atom:link href=\"https://aliasvault.com/rss.xml\" rel=\"self\" type=\"application/rss+xml\" />\n        ${processedPosts.map((post) => `\n          <item>\n            <title><![CDATA[${post.title}]]></title>\n            <link>https://aliasvault.com/${post.type}/${post.slug}</link>\n            <guid>https://aliasvault.com/${post.type}/${post.slug}</guid>\n            <pubDate>${new Date(post.date).toUTCString()}</pubDate>\n            <description><![CDATA[${post.content}]]></description>\n            <category><![CDATA[${post.tags.join(', ')}]]></category>\n            <dc:creator><![CDATA[${post.author.name}]]></dc:creator>\n          </item>\n        `).join('')}\n      </channel>\n    </rss>",
+        "<item>\n            <title><![CDATA[${post.title}]]></title>\n            <link>https://aliasvault.com/${post.type}/${post.slug}</link>\n            <guid>https://aliasvault.com/${post.type}/${post.slug}</guid>\n            <pubDate>${new Date(post.date).toUTCString()}</pubDate>\n            <description><![CDATA[${post.content}]]></description>\n            <category><![CDATA[${post.tags.join(', ')}]]></category>\n            <dc:creator><![CDATA[${post.author.name}]]></dc:creator>\n          </item>",
+        "', '",
+        "''",
+        "'Content-Type'",
+        "'application/xml'",
+        "'Cache-Control'",
+        "'public, max-age=3600, s-maxage=3600'"
+    ],
+    "variables": [
+        "posts",
+        "processedPosts",
+        "processedContent",
+        "truncatedContent",
+        "rss"
+    ],
+    "comments": [
+        "Process posts to clean up content",
+        "Convert MDX to plain text with basic formatting",
+        "Get first 500 characters of content for description",
+        "Remove HTML tags",
+        "Replace multiple newlines with space"
+    ],
+    "docstrings": [],
+    "functions": [
+        "GET"
+    ],
+    "classes": []
+}

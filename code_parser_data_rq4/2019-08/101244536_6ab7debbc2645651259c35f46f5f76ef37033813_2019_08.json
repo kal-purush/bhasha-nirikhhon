@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "Collections",
+        "Generic",
+        "Text",
+        "Gibraltar",
+        "Agent",
+        "Loupe",
+        "Agent",
+        "EntityFrameworkCore",
+        "Enabled",
+        "LogCallStack",
+        "QueryMessageSeverity",
+        "LogMessageSeverity",
+        "Verbose",
+        "LogExceptions",
+        "ExceptionSeverity",
+        "LogMessageSeverity"
+    ],
+    "literals": [
+        "\"Data Access\""
+    ],
+    "variables": [
+        "LogCategory",
+        "Enabled",
+        "LogCallStack",
+        "LogMessageSeverity",
+        "QueryMessageSeverity",
+        "LogExceptions",
+        "LogMessageSeverity",
+        "ExceptionSeverity"
+    ],
+    "comments": [
+        "The root log category for this agent",
+        "</summary>",
+        "Determines if any agent functionality should be enabled.  Defaults to true.",
+        "</summary>",
+        "<remarks>To disable the entire agent set this option to false.  Even if individual",
+        "options are enabled they will be ignored if this is set to false.</remarks>",
+        "Determines if the call stack for each operation should be recorded",
+        "</summary>",
+        "<remarks>This is useful for determining what application code causes each query</remarks>",
+        "The severity used for log messages for the Entity Framework trace message. Defaults to Verbose.",
+        "</summary>",
+        "Determines if a log message is written for exceptions during entity framework operations. Defaults to true.",
+        "</summary>",
+        "The severity used for log messages for entity framework operations that throw an exception. Defaults to Error.",
+        "</summary>"
+    ],
+    "docstrings": [
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>",
+        "<summary>"
+    ],
+    "functions": [
+        "EntityFrameworkConfiguration"
+    ],
+    "classes": [
+        "EntityFrameworkConfiguration"
+    ]
+}

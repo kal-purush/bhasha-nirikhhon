@@ -1,0 +1,56 @@
+{
+    "identifiers": [
+        "input",
+        "input",
+        "d",
+        "ZeroDivisionError",
+        "ValueError",
+        "input",
+        "inventory",
+        "inventory",
+        "ZeroDivisionError"
+    ],
+    "literals": [
+        "\"insérez un nombre : \"",
+        "\"Erreur, vous deviez rentrer un nombre\"",
+        "\"Tout est bon\"",
+        "\"Entrez un nombre qui divisera 10 - \"",
+        "\"Vous ne pouvez pas diviser par zero !\"",
+        "\"Vous devez rentrer un nombre !\"",
+        "\"Error\"",
+        "\"Aucun problème :)\"",
+        "\"Fin programme\"",
+        "\"Combien d'item voulez vous ajouter ? - \"",
+        "\"La valeur doit être un nobmre !\"",
+        "\"Inventory full !\"",
+        "\"Vous pouvez ajouter vos items\""
+    ],
+    "variables": [
+        "d",
+        "inventory",
+        "inventory"
+    ],
+    "comments": [
+        "Le bloc ci-dessous est un essaie pour de potentiel erreurs",
+        "demande d'insérer un nombre et essaye de le convertir en valeur entier",
+        "Si vous avez rentré des caractères dans l'input précédent, le bloc ci-dessous ce lancera",
+        "Le texte ci-contre s'affiche lorsque vous entrez une chaîne de caractères",
+        "Si tout c'est bien passé, le bloc suivant se lanera",
+        "le texte ci-contre ce lancera donc si la valeur demandé est belle et bien une valeur entier",
+        "autre exemple",
+        "ici on va essayer de faire une division :",
+        "Si l'utilisateur essaye de diviser par zero :",
+        "Si l'utilisateur essaye de mettre une chaîne de caractères",
+        "Une quelconque autre erreur",
+        "Si il n'y a aucune erreurs",
+        "Le bloc ci-dessous ce lancera dans tout les cas",
+        "Raise :",
+        "Asertion :"
+    ],
+    "docstrings": [
+        "\"\"\"\nLes try et except sont là pour facilité l'exposition des erreurs à l'utilisateur\nLorsqu'il y a une erreurs quelconque dans le code, il sera possible de le renvoyer facilement l'utilisateur\n\"\"\"",
+        "\"\"\"\nIl existe plusieurs type d'erreurs\n    - ZeroDivisionError : division par zero\n    - ValueError : mauvaise affectation des valeur\n    - AssertionError : erreur d'assertion\n    - TypeError : pour les type de variable\n    - NameError : variable non définie\n    - OSError : erreur systeme\n    - etc (il y en a encore plein d'autre)\n\"\"\""
+    ],
+    "functions": [],
+    "classes": []
+}

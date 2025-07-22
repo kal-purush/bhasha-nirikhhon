@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Action",
+        "TrackingAction",
+        "GAAction",
+        "GACategory",
+        "GADimension",
+        "GAEvent",
+        "GASource",
+        "TableParams",
+        "FetchSortedTableDataRequestAction",
+        "tableParams",
+        "selectedEntity",
+        "source",
+        "currentQuery",
+        "GACategory",
+        "GAAction",
+        "GADimension",
+        "GADimension",
+        "GADimension",
+        "GADimension"
+    ],
+    "literals": [
+        "\"@ngrx/store\"",
+        "\"../analytics/tracking.action\"",
+        "\"../../../shared/analytics/ga-action.model\"",
+        "\"../../../shared/analytics/ga-category.model\"",
+        "\"../../../shared/analytics/ga-dimension.model\"",
+        "\"../../../shared/analytics/ga-event.model\"",
+        "\"../../../shared/analytics/ga-source.model\"",
+        "\"../../table/pagination/table-params.model\"",
+        "\"TABLE.SORTED_DATA_REQUEST\"",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [
+        "Core dependencies",
+        "App dependencies"
+    ],
+    "docstrings": [
+        "* Human Cell Atlas\n * https://www.humancellatlas.org/\n *\n * Action dispatched when sort order has been changed on data table.",
+        "* @param {TableParams} tableParams\n     * @param {string} selectedEntity\n     * @param {GASource} source\n     * @param {string} currentQuery",
+        "* Return the cleared age range action as a GA event.\n     *\n     * @returns {GAEvent}"
+    ],
+    "functions": [
+        "asEvent"
+    ],
+    "classes": [
+        "FetchSortedTableDataRequestAction"
+    ]
+}

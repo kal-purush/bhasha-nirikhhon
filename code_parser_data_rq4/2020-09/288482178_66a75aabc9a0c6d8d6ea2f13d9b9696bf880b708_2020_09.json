@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "styled",
+        "colors",
+        "styled",
+        "styled",
+        "styled",
+        "value",
+        "styled",
+        "colors",
+        "colors",
+        "value",
+        "styled",
+        "colors",
+        "styled",
+        "styled",
+        "colors",
+        "colors",
+        "colors",
+        "colors",
+        "colors",
+        "colors"
+    ],
+    "literals": [
+        "'styled-components'",
+        "'styles/colors'",
+        "display: flex;\n  justify-content: center;\n  align-items: center;\n  height: 100vh;\n  width: 100%;",
+        "position: relative;",
+        "height: 24px;\n  width: 24px;\n  position: absolute;\n  bottom: -6px;\n  left: ${({ value }) => `${value}%`};\n  transform: translateX(-50%);\n  z-index: 2;",
+        "${value}%",
+        "position: absolute;\n  top: 0;\n  width: 24px;\n  height: 24px;\n  background: ${colors.background.NeutralWhite};\n  border-radius: 50%;\n  border: 2px solid ${colors.background.Primary20};\n  cursor: pointer;\n  ::before {\n    content: '${({ value }) => value}';\n    position: absolute;\n    top: -25px;\n    display: block;\n    text-align: center;\n    width: 100%;\n    font-family: Lato;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 17px;\n    line-height: 135%;\n    cursor: default;\n    text-align: center;\n    color: #0d54a5;\n  }",
+        "-webkit-appearance: none;\n  -moz-appearance: none;\n  margin: 0;\n  width: 328px;\n  height: 6px;\n  border-radius: 50px;\n  background: transparent;\n  position: relative;\n  z-index: 5;\n  ::-webkit-slider-thumb {\n    -webkit-appearance: none;\n    width: 24px;\n    height: 24px;\n    border-radius: 50%;\n    background-color: transparent;\n    cursor: pointer;\n    position: relative;\n    z-index: 5;\n  }\n  ::-moz-range-thumb {\n    -webkit-appearance: none;\n    -moz-appearance: none;\n    width: 24px;\n    height: 24px;\n    background: ${colors.background.NeutralWhite};\n    background-color: transparent;\n    border-radius: 50%;\n    border: none;\n    cursor: pointer;\n    position: relative;\n    z-index: 5;\n  }",
+        "position: absolute;\n  top: 12px;\n  left: 0;\n  display: flex;\n  width: 100%;\n  height: 6px;\n  background: transparent;",
+        "width: calc(328px / 4);\n  height: 6px;\n  display: block;\n  padding-top: 18px;\n  background-color: transparent;\n  ::before {\n    content: '';\n    height: 6px;\n    width: calc(328px / 4);\n    position: absolute;\n    top: 0;\n    right: 0;\n  }\n  :nth-of-type(1) {\n    ::before {\n      background-color: ${colors.background.Primary60};\n      border-radius: 50px 0 0 50px;\n      left: 0;\n    }\n  }\n  :nth-of-type(2) {\n    ::before {\n      background-color: #4694f0;\n      left: 25%;\n    }\n  }\n  :nth-of-type(3) {\n    ::before {\n      background-color: ${colors.background.Primary40};\n      left: 50%;\n    }\n  }\n  :nth-of-type(4) {\n    ::before {\n      background-color: ${colors.background.Primary20};\n      border-radius: 0 50px 50px 0;\n      left: 75%;\n    }\n  }\n  ::after {\n    content: attr(aria-label);\n    display: block;\n    font-family: Lato;\n    font-style: normal;\n    font-weight: normal;\n    font-size: 17px;\n    line-height: 135%;\n    text-align: center;\n  }\n  :nth-of-type(1) {\n    ::after {\n      color: ${colors.background.Primary60};\n    }\n  }\n  :nth-of-type(2) {\n    ::after {\n      color: #4694f0;\n    }\n  }\n  :nth-of-type(3) {\n    ::after {\n      color: ${colors.background.Primary40};\n    }\n  }\n  :nth-of-type(4) {\n    ::after {\n      color: ${colors.background.Primary20};\n    }\n  }"
+    ],
+    "variables": [
+        "StyledWrapper",
+        "Label",
+        "ThumbWrapper",
+        "ThumbSlider",
+        "Input",
+        "Datalist",
+        "Option"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

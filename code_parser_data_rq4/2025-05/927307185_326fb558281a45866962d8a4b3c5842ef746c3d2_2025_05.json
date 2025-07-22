@@ -1,0 +1,82 @@
+{
+    "identifiers": [
+        "simulator",
+        "Simulation",
+        "utils",
+        "display_setting",
+        "modify_rou_flow_rate",
+        "stats",
+        "Statistics",
+        "setting",
+        "display_setting",
+        "Simulation",
+        "setting",
+        "STEP",
+        "setting",
+        "WARM_UP",
+        "setting",
+        "RUNS",
+        "Statistics",
+        "setting",
+        "NAME",
+        "i",
+        "setting",
+        "TANGENTIAL_FLOW",
+        "modify_rou_flow_rate",
+        "setting",
+        "ROU_PATH",
+        "i",
+        "setting",
+        "STEP",
+        "offset",
+        "setting",
+        "CONFIGURATION",
+        "setting",
+        "CONFIGURATION_STEP",
+        "offset",
+        "setting",
+        "CONFIGURATION_STEP",
+        "config",
+        "append",
+        "sim",
+        "specific_config",
+        "offset",
+        "setting",
+        "NAME",
+        "i",
+        "replace",
+        "name",
+        "stats",
+        "evaluate_metrics",
+        "config",
+        "main"
+    ],
+    "literals": [
+        "f\"====== Running configuration {offset//setting.CONFIGURATION_STEP} ======\"",
+        "f\"results/{setting.NAME}/{str(i).replace('.', '')}/\"",
+        "'.'",
+        "''",
+        "\"__main__\""
+    ],
+    "variables": [
+        "sim",
+        "stats",
+        "config",
+        "name",
+        "stats",
+        "name"
+    ],
+    "comments": [
+        "Display the simulation settings",
+        "Create an instance of the Simulation class (it will handle the simulation logic)",
+        "And the Statistics class  (at the end of the simulation it will handle statistics with the recorded data)",
+        "For each flow rate in the list, modify the XML file and run the simulation"
+    ],
+    "docstrings": [
+        "\"\"\" Run the simulation with all possible combinations of parameters \"\"\""
+    ],
+    "functions": [
+        "main"
+    ],
+    "classes": []
+}

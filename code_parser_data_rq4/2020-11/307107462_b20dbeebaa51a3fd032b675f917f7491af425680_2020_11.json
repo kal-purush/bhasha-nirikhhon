@@ -1,0 +1,54 @@
+{
+    "identifiers": [
+        "ApplyOptions",
+        "Command",
+        "CommandOptions",
+        "Message",
+        "MessageEmbed",
+        "ApplyOptions",
+        "Command",
+        "message",
+        "message",
+        "msg",
+        "MessageEmbed",
+        "chance",
+        "msg",
+        "message",
+        "wsPing",
+        "acc",
+        "curr",
+        "acc",
+        "curr"
+    ],
+    "literals": [
+        "'@sapphire/decorators'",
+        "'@sapphire/framework'",
+        "'discord.js'",
+        "'...pong?'",
+        "\"Check Gitcord's ping to discord\"",
+        "'OwnerOnly'",
+        "'Ping?'",
+        "'Pang!'",
+        "'Pong!'",
+        "Well yeah, I'm online. Feel free to [invite me to your server](https://google.com) by the way",
+        "'Ping:'",
+        "${msg.createdTimestamp - message.createdTimestamp}ms",
+        "'WS Ping:'",
+        "${wsPing}ms",
+        "this.client.ws.ping"
+    ],
+    "variables": [
+        "chance",
+        "wsPing",
+        "msg"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "run",
+        "getShardsAvgPing"
+    ],
+    "classes": [
+        "Help"
+    ]
+}

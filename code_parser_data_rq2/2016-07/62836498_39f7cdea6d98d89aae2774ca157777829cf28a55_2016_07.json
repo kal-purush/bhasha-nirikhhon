@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "angular",
+        "angular",
+        "angular",
+        "angular",
+        "$scope",
+        "$http",
+        "$http",
+        "data",
+        "$scope",
+        "data",
+        "data",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "'scratchApp.services'",
+        "'scratchApp.controllers'",
+        "'scratchApp.services'",
+        "'scratchApp'",
+        "'scratchApp.controllers'",
+        "'scratchApp.services'",
+        "'scratchApp.controllers'",
+        "'mainController'",
+        "'$scope'",
+        "'$http'",
+        "'/api/nodes'",
+        "'Error: '"
+    ],
+    "variables": [
+        "scratch"
+    ],
+    "comments": [
+        "public/core.js",
+        "when submitting the add form, send the text to the node API",
+        "$scope.createTodo = function() {\n        $http.post('/api/todos', $scope.formData)\n            .success(function(data) {\n                $scope.formData = {}; // clear the form so our user is ready to enter another\n                $scope.todos = data;\n                console.log(data);\n            })\n            .error(function(data) {\n                console.log('Error: ' + data);\n            });\n    };"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

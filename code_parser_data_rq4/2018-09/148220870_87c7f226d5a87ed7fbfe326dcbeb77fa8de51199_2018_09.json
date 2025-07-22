@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "chrome",
+        "tabId",
+        "changeInfo",
+        "tab",
+        "chrome",
+        "chrome",
+        "chrome",
+        "chrome",
+        "changeInfo",
+        "chrome",
+        "tabs",
+        "chrome",
+        "tabs"
+    ],
+    "literals": [
+        "'use strict'",
+        "'www.youtube.com'",
+        "'complete'",
+        "'var url = window.location.href.split(\"/\")[4];'",
+        "'var button = document.getElementsByClassName(\"ytd-subscribe-button-renderer\")[0];'",
+        "'var status = button.getAttribute(\"subscribed\");'",
+        "'if ((url==\"UC-lHJZR3Gqxm24_Vd_AJ5Yw\" || url==\"PewDiePie\") && status == \"null\"){'",
+        "'button.click();'",
+        "'}'",
+        "'else{'",
+        "'var owner = document.querySelector(\"#owner-name>a\");'",
+        "'if (owner.innerHTML == \"PewDiePie\" && status == \"null\"){'",
+        "'button.click();'",
+        "'}'",
+        "'}'"
+    ],
+    "variables": [],
+    "comments": [
+        "Copyright 2018 The Chromium Authors. All rights reserved.",
+        "Use of this source code is governed by a BSD-style license that can be",
+        "found in the LICENSE file."
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

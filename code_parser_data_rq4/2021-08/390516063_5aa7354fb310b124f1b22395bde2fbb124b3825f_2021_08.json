@@ -1,0 +1,77 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "BNG",
+        "ProjectileLauncher",
+        "GameObject",
+        "launchedObjects",
+        "GameObject",
+        "StartCoroutine",
+        "Wait",
+        "launchDelayTime",
+        "Debug",
+        "Log",
+        "delayTime",
+        "WaitForSeconds",
+        "delayTime",
+        "Debug",
+        "Log",
+        "delayTime",
+        "ShootLauncher",
+        "Debug",
+        "Log",
+        "launchedObjects",
+        "launchedObjects",
+        "GameObject",
+        "launchedObjects",
+        "Count",
+        "MaxLaunchedObjects",
+        "launchedObjects",
+        "Remove",
+        "launchedObjects",
+        "GameObject",
+        "Destroy",
+        "launchedObjects",
+        "launchedObjects",
+        "Add",
+        "DuckLauncher",
+        "ShootProjectile",
+        "DuckLauncher",
+        "ProjectileForce"
+    ],
+    "literals": [
+        "\"the duck launch begins..\"",
+        "\"Waiting \"",
+        "\" seconds to launch a duck\"",
+        "\"a duck has officially launched!\""
+    ],
+    "variables": [
+        "DuckLauncher",
+        "launchedObjects",
+        "MaxLaunchedObjects",
+        "launchDelayTime"
+    ],
+    "comments": [
+        "Max number of objects to launch from DemoLauncher. Old objects will be destroyed to make room for new.",
+        "amount of time to wait before launching",
+        "[Tooltip(\"Speed at which to launch ducks\")]",
+        "public float launchSpeed;",
+        "DuckLauncher.SetForce(DuckLauncher.GetInitialProjectileForce() * (launchSpeed / 100));",
+        "Went over max. Destroy oldest launch object"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "DuckLaunch",
+        "IEnumerator",
+        "Wait",
+        "ShootLauncher"
+    ],
+    "classes": [
+        "DuckSpawner"
+    ]
+}

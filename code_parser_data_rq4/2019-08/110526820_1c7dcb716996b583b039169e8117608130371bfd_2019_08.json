@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "org",
+        "activiti",
+        "cloud",
+        "organization",
+        "validation",
+        "NAME_MAX_LENGTH",
+        "DNS_LABEL_REGEX",
+        "PROJECT_INVALID_NAME_LENGTH_MESSAGE",
+        "NAME_MAX_LENGTH",
+        "MODEL_INVALID_NAME_LENGTH_MESSAGE",
+        "NAME_MAX_LENGTH",
+        "PROJECT_INVALID_NAME_MESSAGE",
+        "MODEL_INVALID_NAME_MESSAGE"
+    ],
+    "literals": [
+        "\"^[a-z]([-a-z0-9]*[a-z0-9])?$\"",
+        "\"The project name length cannot be greater than \"",
+        "\"The model name length cannot be greater than \"",
+        "\"The project name should follow DNS-1123 conventions: \"",
+        "\"it must consist of lower case alphanumeric characters or '-', \"",
+        "\"and must start and end with an alphanumeric character\"",
+        "\"The model name should follow DNS-1123 conventions: \"",
+        "\"it must consist of lower case alphanumeric characters or '-', \"",
+        "\"and must start and end with an alphanumeric character\""
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "ValidationUtil"
+    ],
+    "classes": [
+        "ValidationUtil"
+    ]
+}

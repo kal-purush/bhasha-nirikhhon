@@ -1,0 +1,74 @@
+{
+    "identifiers": [
+        "IO",
+        "UnityEngine",
+        "Debug",
+        "UnityEngine",
+        "Debug",
+        "Packages",
+        "Rider",
+        "Editor",
+        "editorPath",
+        "EditorPluginInterop",
+        "EditorPluginAssembly",
+        "EditorPluginInterop",
+        "EditorPluginIsLoadedFromAssets",
+        "assembly",
+        "Debug",
+        "LogError",
+        "assembly",
+        "Location",
+        "SystemInfo",
+        "operatingSystemFamily",
+        "OperatingSystemFamily",
+        "MacOSX",
+        "relPath",
+        "FileInfo",
+        "Path",
+        "Combine",
+        "Path",
+        "Combine",
+        "editorPath",
+        "relPath",
+        "dllName",
+        "dllFile",
+        "Exists",
+        "File",
+        "ReadAllBytes",
+        "dllFile",
+        "FullName",
+        "assembly",
+        "AppDomain",
+        "CurrentDomain",
+        "Load",
+        "EditorPluginInterop",
+        "InitEntryPoint",
+        "assembly",
+        "Debug",
+        "Log",
+        "dllFile",
+        "FullName"
+    ],
+    "literals": [
+        "\"JetBrains.Rider.Unity.Editor.Plugin.Full.Repacked.dll\"",
+        "\"../../plugins/rider-unity/EditorPlugin\"",
+        "\"Contents/plugins/rider-unity/EditorPlugin\""
+    ],
+    "variables": [
+        "assembly",
+        "dllName",
+        "relPath",
+        "dllFile"
+    ],
+    "comments": [
+        "doesn't lock assembly on disk",
+        "assembly = AppDomain.CurrentDomain.Load(AssemblyName.GetAssemblyName(dllFile.FullName)); // use this for external source debug"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Initialize"
+    ],
+    "classes": [
+        "RiderInitializer"
+    ]
+}

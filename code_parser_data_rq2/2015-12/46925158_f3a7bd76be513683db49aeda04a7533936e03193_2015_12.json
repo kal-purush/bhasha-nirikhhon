@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "hideText",
+        "$",
+        "$",
+        "is_visible",
+        "is_visible",
+        "$",
+        "showText",
+        "$",
+        "hideText",
+        "$",
+        "$",
+        "showText",
+        "$"
+    ],
+    "literals": [
+        "'Show'",
+        "'Hide'",
+        "'.toggle'",
+        "' <a href=\"#\" class=\"toggleLink\">'",
+        "'</a>'",
+        "'.toggle'",
+        "'a.toggleLink'",
+        "'.toggle'",
+        "'slow'",
+        "'.toggle'",
+        "'slow'"
+    ],
+    "variables": [
+        "showText",
+        "hideText",
+        "is_visible"
+    ],
+    "comments": [
+        "Andy Langton's show/hide/mini-accordion @ http://andylangton.co.uk/jquery-show-hide",
+        "this tells jquery to run the function below once the DOM is ready",
+        "choose text for the show/hide link - can contain HTML (e.g. an image)",
+        "initialise the visibility check",
+        "append show/hide links to the element directly preceding the element with a class of \"toggle\"",
+        "hide all of the elements with a class of 'toggle'",
+        "capture clicks on the toggle links",
+        "switch visibility",
+        "change the link text depending on whether the element is shown or hidden",
+        "return false so any link destination is not followed"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

@@ -1,0 +1,37 @@
+{
+    "identifiers": [
+        "cp",
+        "patchPythonPath",
+        "args",
+        "patchPythonPath",
+        "args",
+        "cp",
+        "command"
+    ],
+    "literals": [
+        "\"child_process\"",
+        "\"./system-requirements.js\"",
+        "string",
+        "\"python\"",
+        "\">=3.8\"",
+        "\"AUTOREST_PYTHON_EXE\"",
+        "\" \""
+    ],
+    "variables": [
+        "command"
+    ],
+    "comments": [
+        "This script wraps logic in @azure-tools/extension to resolve",
+        "the path to Python 3 so that a Python script file can be run",
+        "from an npm script in package.json.  It uses the same Python 3",
+        "path resolution algorithm as AutoRest so that the behavior",
+        "is fully consistent (and also supports AUTOREST_PYTHON_EXE).",
+        "",
+        "Invoke it like so: \"tsx run-python3.ts script.py\""
+    ],
+    "docstrings": [],
+    "functions": [
+        "runPython3"
+    ],
+    "classes": []
+}

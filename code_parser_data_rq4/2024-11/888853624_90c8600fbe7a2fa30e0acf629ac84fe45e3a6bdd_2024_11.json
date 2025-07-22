@@ -1,0 +1,34 @@
+{
+    "identifiers": [
+        "Collections",
+        "Collections",
+        "Generic",
+        "UnityEngine",
+        "MonoBehaviour",
+        "Header",
+        "TextArea",
+        "InitializeBottle",
+        "Debug",
+        "Log",
+        "name"
+    ],
+    "literals": [
+        "\"Bottle Properties\"",
+        "\"Name: \""
+    ],
+    "variables": [
+        "personality",
+        "description"
+    ],
+    "comments": [
+        "[Header(\"Bottle Properties\")]\n    [SerializeField] private string name;\n    [TextArea]\n    [SerializeField] private string description;\n\n    public string Name\n    {\n        get\n        {\n            return name;\n        }\n    }\n\n    public string Description\n    {\n        get { return description; }\n    }"
+    ],
+    "docstrings": [],
+    "functions": [
+        "Start",
+        "InitializeBottle"
+    ],
+    "classes": [
+        "Bottle"
+    ]
+}

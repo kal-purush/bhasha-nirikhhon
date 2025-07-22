@@ -1,0 +1,42 @@
+{
+    "identifiers": [
+        "EventFormatter",
+        "Connector",
+        "Channel",
+        "Channel",
+        "channel",
+        "connector",
+        "channel",
+        "connector",
+        "EventFormatter",
+        "callback",
+        "callback",
+        "callback",
+        "callback"
+    ],
+    "literals": [
+        "'./../util'",
+        "'./../connector'",
+        "'./channel'",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This class represents a Socket.io channel.",
+        "* Channel object.\n     *\n     * @type {object}",
+        "* Broadcasting connector.\n     *\n     * @type {Connector}",
+        "* The event formatter.\n     *\n     * @type {EventFormatter}",
+        "* Create a new class instance.\n     *\n     * @param  {object}  channel\n     * @param  {Connector}  connector",
+        "* Listen for an event on the channel instance.\n     *\n     * @param  {string} event\n     * @param  {Function}   callback\n     * @return {PusherChannel}",
+        "* Bind a channel to an event.\n     *\n     * @param  {string}   event\n     * @param  {Function} callback"
+    ],
+    "functions": [
+        "listen",
+        "on"
+    ],
+    "classes": [
+        "SocketIoChannel"
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "navBar",
+        "sticky",
+        "navBar",
+        "stickStatus",
+        "navBar",
+        "stickStatus"
+    ],
+    "literals": [
+        "\"navBar\"",
+        "\"sticky\"",
+        "\"sticky\""
+    ],
+    "variables": [
+        "navBar",
+        "sticky",
+        "stickStatus"
+    ],
+    "comments": [
+        "var modal = document.getElementById('login');",
+        "window.onclick = function(event)",
+        "{",
+        "if (event.target == modal)",
+        "modal.style.display = \"none\";",
+        "}",
+        "onmousedown=function(e)",
+        "{",
+        "e=e || window.event;",
+        "e=e.target || e.srcElement;",
+        "if(loginFormStatus === true)",
+        "{",
+        "if(e.id === 'loginForm' || e.id === 'login' || e.id === 'username' || e.id === 'password')",
+        "{",
+        "on();",
+        "}",
+        "else",
+        "{",
+        "off();",
+        "}",
+        "}",
+        "}"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

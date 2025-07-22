@@ -1,0 +1,48 @@
+{
+    "identifiers": [
+        "Message",
+        "Stan",
+        "Subjects",
+        "TEvent",
+        "data",
+        "msg",
+        "client",
+        "client",
+        "subscription",
+        "msg",
+        "msg",
+        "msg",
+        "msg",
+        "parsedData",
+        "msg",
+        "msg",
+        "msg",
+        "data",
+        "data",
+        "data"
+    ],
+    "literals": [
+        "'node-nats-streaming'",
+        "'./types'",
+        "'subject'",
+        "string",
+        "'data'",
+        "'message'",
+        "Message received: ${this.subject} / ${\n          this.queueGroupName\n        }: #${msg.getSequence()} - |${msg.getData()}|",
+        "'string'",
+        "'utf8'"
+    ],
+    "variables": [
+        "subscription",
+        "parsedData",
+        "data"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "subscriptionOption",
+        "listen",
+        "parseMessage"
+    ],
+    "classes": []
+}

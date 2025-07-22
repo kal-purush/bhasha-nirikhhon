@@ -1,0 +1,32 @@
+{
+    "identifiers": [
+        "resolve",
+        "setTimeout",
+        "resolve",
+        "wait",
+        "result",
+        "result",
+        "f"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [
+        "Task 1",
+        "Перепишите, используя async/await\nПерепишите один из примеров раздела Цепочка промисов, используя async/await вместо .then/catch:\n\nfunction loadJson(url) {\n  return fetch(url)\n    .then(response => {\n      if (response.status == 200) {\n        return response.json();\n      } else {\n        throw new Error(response.status);\n      }\n    })\n}\n\nloadJson('no-such-user.json') // (3)\n  .catch(alert); // Error: 404",
+        "async function loadJson(url) {\n  let response = await fetch(url)\n\n  if (response.status == 200) {\n    return response.json();\n  }\n  throw new Error(response.status);\n}\n\nloadJson('no-such-user.json') // (3)\n  .catch(alert); // Error: 404",
+        "Task 2",
+        "Перепишите, используя async/await\nНиже пример из раздела Цепочка промисов, перепишите его, используя async/await вместо .then/catch.\n\nВ функции demoGithubUser замените рекурсию на цикл: используя async/await, сделать это будет просто.\n\nclass HttpError extends Error {\n  constructor(response) {\n    super(`${response.status} for ${response.url}`);\n    this.name = 'HttpError';\n    this.response = response;\n  }\n}\n\nfunction loadJson(url) {\n  return fetch(url)\n    .then(response => {\n      if (response.status == 200) {\n        return response.json();\n      } else {\n        throw new HttpError(response);\n      }\n    })\n}\n\n// Запрашивать логин, пока github не вернёт существующего пользователя.\nfunction demoGithubUser() {\n  let name = prompt(\"Введите логин?\", \"iliakan\");\n\n  return loadJson(`https://api.github.com/users/${name}`)\n    .then(user => {\n      alert(`Полное имя: ${user.name}.`);\n      return user;\n    })\n    .catch(err => {\n      if (err instanceof HttpError && err.response.status == 404) {\n        alert(\"Такого пользователя не существует, пожалуйста, повторите ввод.\");\n        return demoGithubUser();\n      } else {\n        throw err;\n      }\n    });\n}\n\ndemoGithubUser();",
+        "class HttpError extends Error {\n  constructor(response) {\n    super(`${response.status} for ${response.url}`);\n    this.name = 'HttpError';\n    this.response = response;\n  }\n}\n\nasync function loadJson(url) {\n  let response = await fetch(url)\n\n  if (response.status == 200) {\n    return response.json();\n  }\n\n  throw new HttpError(response);\n}\n\n// Запрашивать логин, пока github не вернёт существующего пользователя.\nasync function demoGithubUser() {\n  let user;\n  while (true) {\n    let name = prompt(\"Введите логин?\", \"iliakan\");\n\n    try {\n      user = await loadJson(`https://api.github.com/users/${name}`);\n      break;\n    } catch (err) {\n      if (err instanceof HttpError && err.response.status == 404) {\n        alert(\"Такого пользователя не существует, пожалуйста, повторите ввод.\");\n      } else {\n        throw err;\n      }\n    };\n  }\n\n  alert(`Полное имя: ${user.name}.`);\n  return user;\n}\n\ndemoGithubUser();",
+        "Task 3",
+        "Вызовите async–функцию из \"обычной\"\nЕсть «обычная» функция. Как можно внутри неё получить результат выполнения async–функции?\n\nasync function wait() {\n  await new Promise(resolve => setTimeout(resolve, 1000));\n\n  return 10;\n}\n\nfunction f() {\n  // ...что здесь написать?\n  // чтобы вызвать wait() и дождаться результата \"10\" от async–функции\n  // не забывайте, здесь нельзя использовать \"await\"\n}\nP.S. Технически задача очень простая, но этот вопрос часто задают разработчики, недавно познакомившиеся с async/await.",
+        "...что здесь написать?",
+        "чтобы вызвать wait() и дождаться результата \"10\" от async–функции",
+        "не забывайте, здесь нельзя использовать \"await\""
+    ],
+    "docstrings": [],
+    "functions": [
+        "wait",
+        "f"
+    ],
+    "classes": []
+}

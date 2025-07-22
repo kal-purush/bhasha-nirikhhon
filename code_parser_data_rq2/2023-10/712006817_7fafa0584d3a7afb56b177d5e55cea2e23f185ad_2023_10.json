@@ -1,0 +1,55 @@
+{
+    "identifiers": [
+        "removeGroupChildren",
+        "button",
+        "button",
+        "a",
+        "a",
+        "childId",
+        "a",
+        "checkbox",
+        "checkboxes",
+        "checkbox"
+    ],
+    "literals": [
+        "'.remove-group-children'",
+        "'click'",
+        "'data-child-id'",
+        "'a'",
+        "'remove-child'",
+        "services/process_deassign_group.php?child_id=${childId}",
+        "'add-children-to-group'",
+        "'click'",
+        "'childrenGroupModal'",
+        "'flex'",
+        "'childrenGroupModalTitle'",
+        "'Добавить детей в группу'",
+        "'childrenGroupForm'",
+        "'services/process-assign-group.php'",
+        "'.options input[type=\"checkbox\"]'",
+        "'childrenGroupName'",
+        "'closeChildrenGroupModal'",
+        "'click'",
+        "'childrenGroupModal'",
+        "'none'",
+        "'click'",
+        "'childrenGroupModal'",
+        "'childrenGroupModal'",
+        "'none'"
+    ],
+    "variables": [
+        "removeGroupChildren",
+        "childId",
+        "a",
+        "checkboxes"
+    ],
+    "comments": [
+        "Найти все кнопки \"Изменить\" и добавить для каждой обработчик события на нажатие",
+        "Открывает диалоговое окно при клике на кнопку \"Изменить\"",
+        "Открывает диалоговое окно",
+        "Закрывает диалоговое окно при клике на крестик или вне диалогового окна"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

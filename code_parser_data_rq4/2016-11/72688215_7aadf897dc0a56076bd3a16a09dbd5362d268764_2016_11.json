@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "_initialTime",
+        "_maxTime",
+        "_growFactor",
+        "DEFAULT_TIME_GROW_FACTOR",
+        "_jitterFactor",
+        "DEFAULT_TIME_JITTER",
+        "delay",
+        "delay",
+        "delay",
+        "delay",
+        "delay",
+        "res"
+    ],
+    "literals": [
+        "'assert'",
+        "'Initial delay must be positive'",
+        "'Delay upper bound must be positive'",
+        "'Ratio must be non-negative'",
+        "'Jitter factor must be non-negative'"
+    ],
+    "variables": [
+        "DEFAULT_TIME_GROW_FACTOR",
+        "DEFAULT_TIME_JITTER",
+        "delay",
+        "res"
+    ],
+    "comments": [
+        "Differ from java impl -- give it some initial jitter"
+    ],
+    "docstrings": [
+        "* ExponentialTime.ts\n* Author: David de Regt\n* Copyright: Microsoft 2016\n*\n* Timer to be used for exponential backoff.  Integrates jitter so as to not slam all services at the same time after backoffs.",
+        "* @param initialTime  multiplier of exponent\n\t * @param maxTime      delays won't be greater than this\n\t * @param growFactor   base of exponent\n\t * @param jitterFactor",
+        "* @return first call returns initialTime, next calls will return initialTime*growFactor^n + jitter"
+    ],
+    "functions": [
+        "reset",
+        "getTime",
+        "getIncrementCount",
+        "calculateNext",
+        "getTimeAndCalculateNext"
+    ],
+    "classes": [
+        "ExponentialTime"
+    ]
+}

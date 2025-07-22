@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "setTimeout",
+        "dom_arr",
+        "element",
+        "element",
+        "href"
+    ],
+    "literals": [
+        "'test'",
+        "\"iframeResult\"",
+        "'.GridTableContent .briefDl_D'",
+        "'&dflag=pdfdown'"
+    ],
+    "variables": [
+        "dom_arr",
+        "href"
+    ],
+    "comments": [
+        "var greeting = \"hola, \";",
+        "var button = document.getElementById(\"mybutton\");",
+        "button.person_name = \"Roberto\";",
+        "button.addEventListener(\"click\", function() {",
+        "alert(greeting + button.person_name + \".\");",
+        "}, false);",
+        "dom_arr.map(function(dom) {",
+        "console.log(dom.href)",
+        "})"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

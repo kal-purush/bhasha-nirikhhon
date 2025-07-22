@@ -1,0 +1,33 @@
+{
+    "identifiers": [
+        "css",
+        "cx",
+        "color",
+        "font",
+        "radius",
+        "shadow",
+        "css",
+        "shadow",
+        "color",
+        "color",
+        "color",
+        "color",
+        "color",
+        "font",
+        "color"
+    ],
+    "literals": [
+        "'@emotion/css'",
+        "'../../styles'",
+        "padding: 16px 24px;\n  border-radius: 6px;\n  ${shadow.normal};\n  background-color: white;\n  width: 100%;\n  height: 63px;\n  position: absolute;\n  overflow: hidden;\n  transition: 0.3s all ease-in-out;\n  :focus-within {\n    height: 302px;\n    :after {\n      content: '검색어는 최대 10개만 기록됩니다.';\n      position: absolute;\n      top: 50px;\n      left: -225px;\n      color: ${color.main};\n      border-radius: 6px;\n      @keyframes fadeout {\n        20% {\n          left: 24px;\n        }\n        80% {\n          left: 24px;\n        }\n        100% {\n          left: -225px;\n        }\n      }\n      animation: fadeout 3.5s cubic-bezier(0.26, -0.02, 0.4, 1) 0.2s;\n    }\n  }\n\n  > input {\n    width: 545px;\n    height: 31px;\n    color: ${color.dark2};\n    font-size: 24px;\n    line-height: 31px;\n    margin-bottom: 32px;\n  }\n\n  > button {\n    position: absolute;\n    z-index: 10;\n    top: 16px;\n\n    right: 24px;\n    width: 31px;\n    height: 31px;\n    :hover {\n      cursor: pointer;\n    }\n    background: url('/img/search.png') no-repeat center/contain;\n  }\n\n  > div {\n    display: flex;\n    justify-content: space-between;\n    > .part {\n      width: 100%;\n\n      height: fit-content;\n      div {\n        margin-bottom: 8px;\n        > .title {\n          display: inline-block;\n          width: 117px;\n          font-size: 18px;\n        }\n        > button {\n          font-size: 12px;\n          margin-left: 112px;\n          color: ${color.dark2};\n        }\n      }\n\n      ul {\n        li {\n          display: flex;\n          align-items: center;\n          font-size: 14px;\n          color: ${color.dark2};\n        }\n        > :not(:last-child) {\n          margin-bottom: 8px;\n        }\n      }\n    }\n    > .words {\n      padding-right: 23px;\n\n      li {\n        justify-content: space-between;\n        button {\n          width: 16px;\n          height: 16px;\n          background: url('/img/close-dark2.png') no-repeat center/contain;\n        }\n      }\n    }\n    > .popular {\n      padding-left: 24px;\n      border-left: solid ${color.light4} 1px;\n      span {\n        ${font.weight[700]};\n        color: ${color.main};\n      }\n      a {\n        margin-left: 12px;\n      }\n    }\n  }"
+    ],
+    "variables": [
+        "style"
+    ],
+    "comments": [
+        "@format"
+    ],
+    "docstrings": [],
+    "functions": [],
+    "classes": []
+}

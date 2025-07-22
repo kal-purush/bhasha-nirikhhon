@@ -1,0 +1,52 @@
+{
+    "identifiers": [
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Microsoft",
+        "AspNetCore",
+        "Mvc",
+        "Filters",
+        "Milestone_cst_350",
+        "Controllers",
+        "Attribute",
+        "IAuthorizationFilter",
+        "AuthorizationFilterContext",
+        "context",
+        "context",
+        "HttpContext",
+        "Session",
+        "GetString",
+        "IsNullOrEmpty",
+        "username",
+        "context",
+        "Result",
+        "RedirectToRouteResult",
+        "RouteValueDictionary",
+        "action",
+        "controller"
+    ],
+    "literals": [
+        "\"user\"",
+        "\"Index\"",
+        "\"Login\""
+    ],
+    "variables": [
+        "username"
+    ],
+    "comments": [
+        "Prevents access when the Context is lacking a User session.",
+        "</summary>",
+        "<param name=\"context\">AuthorizationFilterContext</param>",
+        "Reject no-user."
+    ],
+    "docstrings": [
+        "<summary>"
+    ],
+    "functions": [
+        "OnAuthorization"
+    ],
+    "classes": [
+        "UserAuthorizationAttribute"
+    ]
+}

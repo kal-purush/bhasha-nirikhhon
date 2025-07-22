@@ -1,0 +1,72 @@
+{
+    "identifiers": [
+        "django",
+        "db",
+        "transaction",
+        "medium",
+        "medium",
+        "staticmethod",
+        "tag",
+        "tag",
+        "medium_set",
+        "all",
+        "exists",
+        "tag",
+        "tag",
+        "staticmethod",
+        "tag_name",
+        "tag_name",
+        "tag_set",
+        "all",
+        "exists",
+        "tag_name",
+        "tag_name",
+        "transaction",
+        "atomic",
+        "_medium",
+        "tags",
+        "all",
+        "_medium",
+        "mediumresized_set",
+        "all",
+        "_medium",
+        "remotemedium_set",
+        "all",
+        "_medium",
+        "tag",
+        "tags",
+        "DeleteMedium",
+        "_delete_tag_if_orphaned",
+        "tag",
+        "tag_names",
+        "append",
+        "tag",
+        "name",
+        "tag_name",
+        "tag_names",
+        "DeleteMedium",
+        "_delete_tag_name_if_orphaned",
+        "tag_name"
+    ],
+    "literals": [
+        "f'Tag deleted: {tag}'",
+        "f'Tag name deleted: {tag_name}'"
+    ],
+    "variables": [
+        "_medium",
+        "tags",
+        "tag_names"
+    ],
+    "comments": [
+        "Should this class be implemented from Medium.delete() ?",
+        "Would we expect that Medium.delete() also deletes MediumResized, Tags, etc.?"
+    ],
+    "docstrings": [],
+    "functions": [
+        "_delete_tag_if_orphaned",
+        "_delete_tag_name_if_orphaned"
+    ],
+    "classes": [
+        "DeleteMedium"
+    ]
+}

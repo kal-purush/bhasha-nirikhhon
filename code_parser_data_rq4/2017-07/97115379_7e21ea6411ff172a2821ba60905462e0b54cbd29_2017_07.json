@@ -1,0 +1,47 @@
+{
+    "identifiers": [
+        "value",
+        "value",
+        "DebugString",
+        "value",
+        "value",
+        "WriteLine",
+        "value",
+        "WriteLine",
+        "value",
+        "WriteLine",
+        "value",
+        "value",
+        "WriteLine",
+        "value",
+        "value"
+    ],
+    "literals": [
+        "\"## Debug value Integer ## Echo Value: \"",
+        "\".\"",
+        "\"## Debug value Array of Strings ## Echo Value: \"",
+        "\"## Debug value String ## Echo Value: \""
+    ],
+    "variables": [],
+    "comments": [
+        "Takes a variable that is passed to it and outputs the contents so that its value can be debug'd",
+        "would be nice to create a dynamic class that figures out what the variable type is and then does something with it",
+        "so if I pass an array it sends it to teh array instead of the int method.",
+        "method needs to take an unknown variable of any type or generate a method for each variable type to be debugged",
+        "what type is the variable",
+        "if value.GetType() =",
+        "if string or array of strings then do",
+        "DebugArray(value);",
+        "dependent on select case call the right method for it"
+    ],
+    "docstrings": [],
+    "functions": [
+        "ValVariable",
+        "DebugArray",
+        "DebugString",
+        "DebugInt"
+    ],
+    "classes": [
+        "DebugMon"
+    ]
+}

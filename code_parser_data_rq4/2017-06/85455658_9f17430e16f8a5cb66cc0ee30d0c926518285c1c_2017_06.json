@@ -1,0 +1,89 @@
+{
+    "identifiers": [
+        "unittest",
+        "numpy",
+        "hironx_ros_bridge",
+        "hironx_client",
+        "hironx",
+        "hrpsys",
+        "rtm",
+        "unittest",
+        "TestCase",
+        "classmethod",
+        "hironx",
+        "HIRONX",
+        "_robot",
+        "init",
+        "_robot",
+        "goInitial",
+        "_GOINITIAL_TIME_MIDSPEED",
+        "_robot",
+        "seq_svc",
+        "setMaxIKError",
+        "_robot",
+        "getCurrentPosition",
+        "_LINK_TESTED",
+        "_robot",
+        "setTargetPoseRelative",
+        "_ARMGROUP_TESTED",
+        "_LINK_TESTED",
+        "dy",
+        "tm",
+        "_set_collide_x",
+        "_robot",
+        "goInitial",
+        "_GOINITIAL_TIME_MIDSPEED",
+        "_set_collide_y",
+        "_robot",
+        "goInitial",
+        "_GOINITIAL_TIME_MIDSPEED",
+        "_set_collide_z",
+        "_robot",
+        "goInitial",
+        "_GOINITIAL_TIME_MIDSPEED",
+        "rostest",
+        "rostest",
+        "rosrun",
+        "_PKG",
+        "TestNextageopen"
+    ],
+    "literals": [
+        "'larm'",
+        "'LARM_JOINT5'",
+        "'nextage_ros_bridge'",
+        "'__main__'",
+        "'test_nxopen'"
+    ],
+    "variables": [
+        "_ARMGROUP_TESTED",
+        "_LINK_TESTED",
+        "_GOINITIAL_TIME_MIDSPEED",
+        "_NUM_CARTESIAN_ITERATION",
+        "_PKG",
+        "_robot",
+        "init_pose"
+    ],
+    "comments": [
+        "!/usr/bin/env python",
+        "-*- coding: utf-8 -*-",
+        "second",
+        "modelfile = rospy.get_param(\"hironx/collada_model_filepath\")",
+        "rtm.nshost = 'hiro024'",
+        "robotname = \"RobotHardware0\"",
+        "self._robot.init(robotname=robotname, url=modelfile)",
+        "unittest.main()"
+    ],
+    "docstrings": [
+        "'''\n    Test NextageClient with rostest.\n    '''"
+    ],
+    "functions": [
+        "setUpClass",
+        "_set_collide_y",
+        "test_collision_dx",
+        "test_collision_dy",
+        "test_collision_dz"
+    ],
+    "classes": [
+        "TestNextageopen"
+    ]
+}

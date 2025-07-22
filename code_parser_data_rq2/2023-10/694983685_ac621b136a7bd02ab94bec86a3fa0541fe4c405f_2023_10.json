@@ -1,0 +1,70 @@
+{
+    "identifiers": [
+        "$",
+        "$",
+        "$",
+        "$",
+        "$",
+        "response",
+        "$",
+        "response",
+        "timeOutId",
+        "setTimeout",
+        "requestMatchupESPN",
+        "response",
+        "timeOutId",
+        "setTimeout",
+        "requestMatchupESPN",
+        "requestMatchupESPN",
+        "tab",
+        "$",
+        "tab",
+        "response",
+        "$",
+        "response",
+        "response",
+        "tab",
+        "year",
+        "year",
+        "$",
+        "tab",
+        "year",
+        "response",
+        "$",
+        "response",
+        "response"
+    ],
+    "literals": [
+        "\"POST\"",
+        "\"/update_match_strip\"",
+        "'#week'",
+        "'#weekday'",
+        "'#year'",
+        "'#hour'",
+        "'div#strip-match'",
+        "\"POST\"",
+        "'div#main-content'",
+        "'season_dropdown'",
+        "\"POST\"",
+        "\"/classificacao\"",
+        "'div#main-content'"
+    ],
+    "variables": [
+        "timeOutId",
+        "requestMatchupESPN"
+    ],
+    "comments": [
+        "Atualização automática do strip-match",
+        "Chamar a função 30 s após o término da chamada atual",
+        "Chama pela primeira vez assim que a página é carregada",
+        "Tabs",
+        "$('div#main-content').empty().append(response.data) // TODO Colocar HTML com msg de erro",
+        "$('div#main-content').empty().append(response.data) // TODO Colocar HTML com msg de erro"
+    ],
+    "docstrings": [],
+    "functions": [
+        "changeTabs",
+        "changeStandingsView"
+    ],
+    "classes": []
+}

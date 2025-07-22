@@ -1,0 +1,28 @@
+{
+    "identifiers": [
+        "GraphbackDataProvider",
+        "table",
+        "table",
+        "column",
+        "data"
+    ],
+    "literals": [
+        "\"graphback\"",
+        "string",
+        "string",
+        "string",
+        "string"
+    ],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* This is the basic interface for a custom database for the TestxServer.\n *\n * The main implementation is the SQLiteDatabase.\n *\n * If using the GraphbackServer to generate the GraphQL resolvers the\n *  database schema must be compatible with Graphback. You can do so\n *  using the graphql-migrations package.\n * \n * @experimental - this interface is most likely to change in future release\n *                  please keep an eye on the breaking changes",
+        "* Return the GraphbackDataProvider that will be used from GraphbackServer\n   * to read and write to the database.\n   *\n   * Only required if using the GraphbackServer which is the default one.",
+        "* Optional method used by the TestxServer.getDatabaseSchema() method.",
+        "* Optional, yet really important method used by the\n   *  TestxServer.cleanDatabase() and by the TestxServer.setData() methods.",
+        "* Optional method used by the TestxServer.setData() method.",
+        "* Close any database connection or asynchronous functions in order\n   *  to release the release the process.\n   *\n   * Used by TestxServer.close() method."
+    ],
+    "functions": [],
+    "classes": []
+}

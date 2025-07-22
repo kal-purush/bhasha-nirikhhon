@@ -1,0 +1,45 @@
+{
+    "identifiers": [
+        "MigrationBuilder",
+        "ColumnDefinitions",
+        "pgm",
+        "pgm",
+        "error",
+        "error",
+        "error",
+        "pgm",
+        "isBitXorAvailable",
+        "pgm",
+        "pgm",
+        "pgm",
+        "pgm",
+        "pgm"
+    ],
+    "literals": [
+        "'node-pg-migrate'",
+        "'SELECT bit_xor(1)'",
+        "'42883'",
+        "'mempool_digest'",
+        "SELECT COALESCE(to_hex(bit_xor(tx_short_id)), '0') AS digest\n      FROM (\n        SELECT ('x' || encode(tx_id, 'hex'))::bit(64)::bigint tx_short_id\n        FROM mempool_txs\n        WHERE pruned = false\n      ) m",
+        "'mempool_digest'",
+        "SELECT NULL AS digest",
+        "'mempool_digest'"
+    ],
+    "variables": [
+        "shorthands"
+    ],
+    "comments": [
+        "eslint-disable @typescript-eslint/naming-convention",
+        "UNDEFINED_FUNCTION",
+        "Assume mempool cache is always invalid.",
+        "We could use postgres' `digest` function here, but that requires enabling the `pgcrypto`",
+        "extension which might not be possible for some users."
+    ],
+    "docstrings": [],
+    "functions": [
+        "isBitXorAvailable",
+        "up",
+        "down"
+    ],
+    "classes": []
+}

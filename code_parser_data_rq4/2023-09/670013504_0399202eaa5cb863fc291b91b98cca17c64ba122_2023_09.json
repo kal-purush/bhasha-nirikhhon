@@ -1,0 +1,43 @@
+{
+    "identifiers": [
+        "com",
+        "grievance",
+        "exception",
+        "org",
+        "springframework",
+        "http",
+        "HttpStatus",
+        "org",
+        "springframework",
+        "web",
+        "bind",
+        "annotation",
+        "ResponseStatus",
+        "ResponseStatus",
+        "value",
+        "HttpStatus",
+        "NOT_FOUND",
+        "reason",
+        "serialVersionUID",
+        "ticketId",
+        "ticketId"
+    ],
+    "literals": [
+        "\"Ticket with this ticket Id doesn't exist\"",
+        "\"Ticket doesn't exist with this ticketId \""
+    ],
+    "variables": [],
+    "comments": [
+        "HTTP 404"
+    ],
+    "docstrings": [
+        "* Custom exception class for handling  not found errors.\n * This exception is thrown when an attempt\n * to retrieve an employee by email fails.",
+        "* Constructs a new ResourceNotFoundException with a specific email address.\n   *\n   * @param ticketId The ticketId for which the Ticket was not found."
+    ],
+    "functions": [
+        "TicketNotFoundException"
+    ],
+    "classes": [
+        "TicketNotFoundException"
+    ]
+}

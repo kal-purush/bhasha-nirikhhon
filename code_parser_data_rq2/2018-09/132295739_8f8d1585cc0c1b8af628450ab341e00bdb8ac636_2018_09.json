@@ -1,0 +1,64 @@
+{
+    "identifiers": [
+        "Xunit",
+        "Statik",
+        "Tests",
+        "Theory",
+        "InlineData",
+        "InlineData",
+        "InlineData",
+        "InlineData",
+        "InlineData",
+        "InlineData",
+        "InlineData",
+        "InlineData",
+        "input",
+        "relative",
+        "expected",
+        "StatikHelpers",
+        "ResolvePathPart",
+        "input",
+        "relative",
+        "Assert",
+        "Equal",
+        "expected",
+        "result"
+    ],
+    "literals": [
+        "\"/test\"",
+        "\"test2\"",
+        "\"/test/test2\"",
+        "\"/test\"",
+        "\"/test2\"",
+        "\"/test2\"",
+        "\"/test\"",
+        "\"../test2\"",
+        "\"/test2\"",
+        "\"/test\"",
+        "\"../test2/../test3\"",
+        "\"/test3\"",
+        "\"/test?query=ignored\"",
+        "\"test2\"",
+        "\"/test/test2\"",
+        "\"/test?query=ignored\"",
+        "\"test2?query=preserved\"",
+        "\"/test/test2?query=preserved\"",
+        "\"/test?#ignored\"",
+        "\"test2\"",
+        "\"/test/test2\"",
+        "\"/test?#ignored\"",
+        "\"test2#preserved\"",
+        "\"/test/test2#preserved\""
+    ],
+    "variables": [
+        "result"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "Can_resolve_relative_path"
+    ],
+    "classes": [
+        "HelperTests"
+    ]
+}

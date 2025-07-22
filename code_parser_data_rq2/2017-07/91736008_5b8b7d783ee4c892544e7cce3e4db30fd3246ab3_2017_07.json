@@ -1,0 +1,57 @@
+{
+    "identifiers": [
+        "recipeId",
+        "$",
+        "$",
+        "recipeId",
+        "submitItem",
+        "recipeIngredientName",
+        "$",
+        "recipeIngredientName",
+        "submitItem",
+        "recipeId",
+        "Data",
+        "Data",
+        "alert",
+        "alert",
+        "recipeId",
+        "$",
+        "$",
+        "$",
+        "recipeIngredientName",
+        "deleteItem",
+        "recipeId",
+        "Data",
+        "Data",
+        "alert"
+    ],
+    "literals": [
+        "'#recipeIngredientName'",
+        "'#submitItem'",
+        "'/ajax/saveAddedtag.php'",
+        "\"failure\"",
+        "\"Error\"",
+        "\"The tag was sucessfully added!\"",
+        "'#recipeIngredientName'",
+        "'#deleteItem'",
+        "'/ajax/deleteTagExistingPost.php'",
+        "\"failure\"",
+        "\"Error\""
+    ],
+    "variables": [
+        "recipeIngredientName",
+        "submitItem",
+        "recipeIngredientName",
+        "submitItem"
+    ],
+    "comments": [
+        "$('.addTag').html(Data)",
+        "$('.deleteTag').html(Data)"
+    ],
+    "docstrings": [],
+    "functions": [
+        "addTagExistingRecipe",
+        "deleteTagExistingRecipe"
+    ],
+    "classes": []
+}

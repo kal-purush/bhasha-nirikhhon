@@ -1,0 +1,49 @@
+{
+    "identifiers": [
+        "java",
+        "util",
+        "Scanner",
+        "args",
+        "scanner",
+        "numberOfQueries",
+        "scanner",
+        "nextInt",
+        "numberOfQueries",
+        "query",
+        "scanner",
+        "nextLong",
+        "findGreatXOR",
+        "query",
+        "scanner",
+        "close",
+        "query",
+        "result",
+        "position_firstBit",
+        "i",
+        "i",
+        "query",
+        "i",
+        "i",
+        "query",
+        "query",
+        "result",
+        "result",
+        "pow",
+        "position_firstBit",
+        "position_firstBit",
+        "result"
+    ],
+    "literals": [],
+    "variables": [],
+    "comments": [],
+    "docstrings": [
+        "* Finds the number of long integers with value range \n  * 1 <= (integer value) < (query-1) \n  * that have fulfill the requirement: \n  * (integer value) XOR (query) < query.\n  *\n  * The position of the leading '1' in the binary represenation \n  * in the number that is being checked, is shifted from lower to higher \n  * bit positions unitl the value of the number is lower than value of the query. \n  *\n  * Thus value of the number that is being check is always lower\n  * than the value of query. Therefore, if for the position of the leading '1' \n  * in the number that is being checked, there is '0' at the same position\n  * in the query, all possible combinations of '0s' and '1s' afterwards fulfill \n  * the requirement (integer value) XOR (query) < query.\n  * \n  * @return A long integer representing the total number of integers that fulfill \n  * the above-mentioned requirements."
+    ],
+    "functions": [
+        "main",
+        "findGreatXOR"
+    ],
+    "classes": [
+        "Soution"
+    ]
+}

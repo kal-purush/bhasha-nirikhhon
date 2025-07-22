@@ -1,0 +1,53 @@
+{
+    "identifiers": [
+        "mindsdb_sql",
+        "parser",
+        "utils",
+        "indent",
+        "mindsdb_sql",
+        "parser",
+        "ast",
+        "ASTNode",
+        "ASTNode",
+        "name",
+        "query_str",
+        "args",
+        "kwargs",
+        "args",
+        "kwargs",
+        "name",
+        "query_str",
+        "args",
+        "kwargs",
+        "join",
+        "k",
+        "v",
+        "k",
+        "v",
+        "items",
+        "name",
+        "to_string",
+        "query_str",
+        "using_str",
+        "out_str"
+    ],
+    "literals": [
+        "\", \"",
+        "f\"{k}={v}\"",
+        "f'EVALUATE {self.name.to_string()} from ({self.query_str}) using {using_str}'"
+    ],
+    "variables": [
+        "name",
+        "query_str",
+        "using_str",
+        "out_str"
+    ],
+    "comments": [],
+    "docstrings": [],
+    "functions": [
+        "get_string"
+    ],
+    "classes": [
+        "Evaluate"
+    ]
+}
