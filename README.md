@@ -9,5 +9,5 @@ This repo has the data, scripts, and results used in our ICSE 2026 Cycle 2 paper
 - `LICENSE`: License file for this repo. The code and data are under MIT License.
 - `language_counts/`: Sample data for RQ1.
 - `code_parser_data_rq2/`: Data and scripts for RQ2. Also includes data for Figures 3 and 4.
-- - `code_parser_data_rq4/`: Data and scripts for RQ4. Also includes data for Figure 6.
+- `code_parser_data_rq4/`: Data and scripts for RQ4. Also includes data for Figure 6.
 - `scripts/`: Scripts used for processing and analysis.
