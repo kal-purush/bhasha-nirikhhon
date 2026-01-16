@@ -1,5 +1,5 @@
 # bhasha-nirikhhon
-
+![Bhasha Nirikhhon - ICSE 2026 Artifact](banner.png)
 Bhasha Nirikhhon is the accompanying artifact for the ICSE 2026 paper
 “Write in English, Nobody Understands Your Language Here”: A Study of Non-English Trends in Open-Source Repositories.  
 This repository contains the data (RQ3 & RQ4), scripts, Jupyter notebooks, and results required to reproduce and understand the analyses reported in the paper.
