@@ -1,0 +1,1 @@
+export type ImagePosition = 'right' | 'left' | 'circle' | 'default';

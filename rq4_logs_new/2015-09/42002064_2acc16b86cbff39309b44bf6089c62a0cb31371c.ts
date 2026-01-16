@@ -1,0 +1,12 @@
+export function lookup(domain: string, family: number, callback: (err: Error, address: string, family: number) =>void ): string;
+export function lookup(domain: string, callback: (err: Error, address: string, family: number) =>void ): string;
+export function resolve(domain: string, rrtype: string, callback: (err: Error, addresses: string[]) =>void ): string[];
+export function resolve(domain: string, callback: (err: Error, addresses: string[]) =>void ): string[];
+export function resolve4(domain: string, callback: (err: Error, addresses: string[]) =>void ): string[];
+export function resolve6(domain: string, callback: (err: Error, addresses: string[]) =>void ): string[];
+export function resolveMx(domain: string, callback: (err: Error, addresses: string[]) =>void ): string[];
+export function resolveTxt(domain: string, callback: (err: Error, addresses: string[]) =>void ): string[];
+export function resolveSrv(domain: string, callback: (err: Error, addresses: string[]) =>void ): string[];
+export function resolveNs(domain: string, callback: (err: Error, addresses: string[]) =>void ): string[];
+export function resolveCname(domain: string, callback: (err: Error, addresses: string[]) =>void ): string[];
+export function reverse(ip: string, callback: (err: Error, domains: string[]) =>void ): string[];

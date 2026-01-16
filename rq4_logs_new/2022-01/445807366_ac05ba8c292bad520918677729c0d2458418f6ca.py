@@ -1,0 +1,3 @@
+#understanding what a variable is...
+career_path = "machine learning"
+print ("career_path")

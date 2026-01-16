@@ -1,0 +1,1 @@
+export * as MinigameDialogue from "./minigame"

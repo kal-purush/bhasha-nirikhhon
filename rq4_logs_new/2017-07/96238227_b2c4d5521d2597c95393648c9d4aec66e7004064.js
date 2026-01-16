@@ -1,0 +1,1 @@
+var name="Vince";console.log("Hello, "+name);var a=2,b=3,calcul=function(l,e){var o;o=l*e,console.log("The result is: "+o)};

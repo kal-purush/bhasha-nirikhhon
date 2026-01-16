@@ -1,0 +1,11 @@
+console.time('you code took');
+console.log(34);
+console.log(34+87);
+console.warn("This is last warning");
+console.log([56,76,43,33]);
+console.log(true);
+console.log({Aarsh:'Good',Shitt:'Bad'});
+console.table({Aarsh:'Good',Shitt:'Bad',Marks:45});
+console.assert(56<32,'age>32 32 is not possible');
+console.error('This is an error');
+console.timeEnd('you code took');

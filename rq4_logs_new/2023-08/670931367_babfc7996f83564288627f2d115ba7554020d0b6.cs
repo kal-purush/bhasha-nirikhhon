@@ -1,0 +1,15 @@
+namespace prthgcs
+{
+    /// <summary>
+    /// enum language
+    /// <code>
+    /// - https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes
+    /// </code>
+    /// </summary>
+    public enum ELanguage : int
+    {
+        undefined = 0,
+        en,
+        id,
+    }
+}

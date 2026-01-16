@@ -1,0 +1,4 @@
+import os
+
+os.environ['SMCP98']="imnotsureifyouwillbeabletobreakitbyrunningsomebruteforcetechniques,howdoievenrememberthispassword.11.981.2"
+os.environ['SECRET_KEY']="secret_most_secret_password_98132y928hasdb21387gbasd123873g1bdashjaldb1231v23jbashdbab123j"

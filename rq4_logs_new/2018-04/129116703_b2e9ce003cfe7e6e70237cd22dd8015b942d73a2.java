@@ -1,0 +1,31 @@
+package uk.gov.hmcts.reform.sandl.snlrules.messages.commands;
+
+import lombok.Data;
+import org.kie.api.runtime.KieSession;
+import org.kie.api.runtime.rule.FactHandle;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import uk.gov.hmcts.reform.sandl.snlrules.services.DroolsService;
+
+@Data
+@Component
+public class UpsertFactCommand extends FactCommand {
+    @Autowired
+    private DroolsService droolsService;
+
+    @Override
+    public void execute(String data) {
+        KieSession session = droolsService.getRulesSession();
+        Object fact = deserializeMessage(data, this.getFactType());
+
+        FactHandle factHandle = session.getFactHandle(fact);
+
+        if (factHandle == null) {
+            session.insert(fact);
+        } else {
+            session.update(factHandle, fact);
+        }
+
+        session.fireAllRules();
+    }
+}

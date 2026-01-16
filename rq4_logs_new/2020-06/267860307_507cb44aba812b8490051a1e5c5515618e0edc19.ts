@@ -1,0 +1,1 @@
+export const SpotifyAuthUrl = (state: string) => `https://accounts.spotify.com/authorize?client_id=6c0a042391fa42e8ac96a5eed4306dfe&redirect_uri=http:%2F%2Flocalhost:3000%2Fspotify-callback&scope=playlist-modify-public&response_type=token&state=${state}`

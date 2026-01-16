@@ -1,0 +1,1 @@
+import tsc = require("typescript");

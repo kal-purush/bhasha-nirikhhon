@@ -1,0 +1,71 @@
+/**
+ * Base webpack config used across other specific configs
+ */
+
+import webpack from 'webpack';
+import TsconfigPathsPlugins from 'tsconfig-paths-webpack-plugin';
+import webpackPaths from './webpack.paths';
+import { dependencies as externals } from '../../release/app/package.json';
+const { DefinePlugin } = require('webpack');
+
+const path = require('path');
+
+const configuration: webpack.Configuration = {
+  externals: [...Object.keys(externals || {})],
+
+  stats: 'errors-only',
+
+  module: {
+    rules: [
+      {
+        test: /\.[jt]sx?$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'ts-loader',
+          options: {
+            // Remove this line to enable type checking in webpack builds
+            transpileOnly: true,
+            compilerOptions: {
+              module: 'esnext',
+            },
+          },
+        },
+      },
+    ],
+  },
+
+  output: {
+    path: path.resolve(__dirname, '../dist')
+  },
+  node: {
+    __dirname: false,
+  },
+
+  /**
+   * Determine the array of extensions that should be used to resolve modules.
+   */
+  resolve: {
+    extensions: ['.js', '.jsx', '.json', '.ts', '.tsx'],
+    modules: [webpackPaths.srcPath, 'node_modules'],
+    plugins: [new TsconfigPathsPlugins()],
+  
+    fallback: {
+      fs: false,
+      path: require.resolve('path-browserify'),
+      crypto: require.resolve('crypto-browserify'),
+      stream: require.resolve('stream-browserify'),
+      
+    },
+  },
+
+  plugins: [
+    new DefinePlugin({
+      '__dirname': JSON.stringify("")
+    }),
+    new webpack.EnvironmentPlugin({
+      NODE_ENV: 'production',
+    }),
+  ],
+};
+
+export default configuration;

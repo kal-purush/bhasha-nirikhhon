@@ -1,0 +1,2 @@
+data = 'hello'
+print(hello)

@@ -1,0 +1,9 @@
+POS_C = 7  
+POS_R_P = 12 
+POS_R_A = 8 
+POS_L_P = 3  
+POS_L_A = 16
+INF_R_P = 18 
+INF_R_A = 17
+INF_L_P = 4
+INF_L_A = 1

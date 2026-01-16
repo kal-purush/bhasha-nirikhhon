@@ -1,0 +1,1 @@
+System.import('typescript-test');

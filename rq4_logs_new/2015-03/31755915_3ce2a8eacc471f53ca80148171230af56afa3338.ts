@@ -1,0 +1,15 @@
+///<reference path='thirdPartLib/node.d.ts'/>
+///<reference path='thirdPartLib/underscore.d.ts'/>
+///<reference path='thirdPartLib/mocha.d.ts'/>
+///<reference path='thirdPartLib/wind.d.ts' />
+///<reference path='thirdPartLib/toml.d.ts' />
+///<reference path='thirdPartLib/ByteBuffer.d.ts' />
+///<reference path='thirdPartLib/mysql.d.ts' />
+///<reference path='thirdPartLib/node_redis.d.ts' />
+///<reference path='thirdPartLib/express.d.ts' />
+///<reference path='thirdPartLib/lru-cache.d.ts' />
+/// <reference path="thirdPartLib/node-curl.d.ts" />
+///<reference path='thirdPartLib/should.d.ts' />
+/// <reference path="thirdPartLib/moment.d.ts" />
+/// <reference path="thirdPartLib/mongodb.d.ts" />
+/// <reference path="thirdPartLib/request.d.ts" />

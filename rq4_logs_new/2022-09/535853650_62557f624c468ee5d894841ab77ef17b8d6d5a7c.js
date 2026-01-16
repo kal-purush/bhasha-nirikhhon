@@ -1,0 +1,27 @@
+export const data = [
+    {
+        'id':1,
+        'name':'💕Pablo💕',
+        'image':'/assets/pablo.jpeg',
+    },
+    {
+        'id':2,
+        'name':'💕Austin💕',
+        'image':'/assets/ostin.jpg',
+    },
+    {
+        'id':3,
+        'name':'💕Ounicua💕',
+        'image':'/assets/yonicua.jpg',
+    },
+    {
+        'id':4,
+        'name':'💕Tyrone💕',
+        'image':'/assets/tairon.jpg',
+    },
+    {
+        'id':5,
+        'name':'💕Tasha💕',
+        'image':'/assets/tasha.jpg',
+    }
+]

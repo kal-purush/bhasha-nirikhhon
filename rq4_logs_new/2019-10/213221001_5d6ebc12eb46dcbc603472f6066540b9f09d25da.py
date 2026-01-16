@@ -1,0 +1,11 @@
+form turtle import*
+wn=turtle.Screen()
+wn.title('hello flo')
+t=turtle.Turtle()
+t.forward(100)
+t.left(50)
+t.forward(50)
+t.width(5)
+t.forward(100)
+t.color('green')
+t.backward(50)

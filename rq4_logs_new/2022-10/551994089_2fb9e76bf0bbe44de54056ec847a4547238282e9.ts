@@ -1,0 +1,66 @@
+import { Injectable } from "@angular/core";
+
+@Injectable()
+export class OpenWeahterTranslator {
+    private weatherDictionary:Record<number,string> = {
+        200:'tordenvejr og lidt regn',
+        201:'tordenvejr og regn',
+        202:'tordenvejr og kraftig regn',
+        210:'mindre tordenvejr',
+        211:'tordenvejr',
+        212:'kraftigt tordenvejr',
+        221:'delvist tordenvejr',
+        230:'tordenvejr og mild støvregn',
+        231:'tordenvejr og støvregn',
+        232:'tordenvejr og kraftig støvregn',
+        300:'light intensity drizzle', //TODO
+        301:'støvregn',
+        302:'heavy intensity drizzle',
+        310:'light intensity drizzle rain',
+        311:'drizzle rain',
+        312:'heavy intensity drizzle rain',
+        313:'shower rain and drizzle',
+        314:'heavy shower rain and drizzle',
+        321:'shower drizzle',
+        500:'let regn',
+        501:'moderate rain',
+        502:'heavy intensity rain',
+        503:'meget kraftig regn',
+        504:'ekstrem regn',
+        511:'frostregn',
+        520:'light intensity shower rain',
+        521:'shower rain',
+        522:'heavy intensity shower rain',
+        531:'ragged shower rain',
+        600:'let sne',
+        601:'sne',
+        602:'kraftig sne',
+        611:'Sleet',
+        612:'Light shower sleet',
+        613:'Shower sleet',
+        615:'Light rain and snow',
+        616:'Rain and snow',
+        620:'Light shower snow',
+        621:'Shower snow',
+        622:'Heavy shower snow',
+        701:'dis',
+        711:'Smoke',
+        721:'Haze',
+        731:'sand/ dust whirls',
+        741:'tåge',
+        751:'sand',
+        761:'dust',
+        762:'vulkansk aske',
+        771:'squalls',
+        781:'tornado',
+        800:'skyfrit',
+        801:'få skyer',
+        802:'mindre skyer',
+        803:'delte skyer',
+        804:'overskyet',
+    }
+
+    public TranslateWeatherDescription(weatherType:number):string{
+        return this.weatherDictionary[weatherType];
+    }
+}

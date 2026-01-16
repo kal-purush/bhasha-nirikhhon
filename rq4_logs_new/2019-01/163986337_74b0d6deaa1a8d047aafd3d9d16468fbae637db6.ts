@@ -1,0 +1,12 @@
+export declare const HOST: string;
+export declare const DEV_PORT: number;
+export declare const PROD_PORT: number;
+export declare const DEV_DEVTOOL: string;
+export declare const PROD_DEVTOOL: string;
+export declare const STORE_DEV_TOOLS: string;
+export declare const MY_COPY_FOLDERS: any[];
+export declare const MY_CLIENT_PLUGINS: any[];
+export declare const MY_CLIENT_PRODUCTION_PLUGINS: any[];
+export declare const MY_CLIENT_DEVSERVER_PLUGINS: any[];
+export declare const MY_CLIENT_RULES: any[];
+export declare const EXCLUDE_SOURCE_MAPS: any[];

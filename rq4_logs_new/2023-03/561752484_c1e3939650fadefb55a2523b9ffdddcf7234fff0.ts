@@ -1,0 +1,19 @@
+enum serviceMock {
+  EnableTelemetry = 'service.EnableTelemetry',
+  EventsOff = 'service.EventsOff',
+  EventsOn = 'service.EventsOn',
+  GetAppConfig = 'service.GetAppConfig',
+  GetCurrentServiceInfo = 'service.GetCurrentServiceInfo',
+  GetLatestRelease = 'service.service.GetLatestRelease',
+  GetLogger = 'service.GetLogger',
+  GetVersion = 'service.GetVersion',
+  InitialiseApp = 'service.InitialiseApp',
+  IsAppInitialised = 'service.IsAppInitialised',
+  RespondToInteraction = 'service.RespondToInteraction',
+  SearchForExistingConfiguration = 'service.SearchForExistingConfiguration',
+  StartService = 'service.StartService',
+  StartupBackend = 'service.StartupBackend',
+  StopService = 'service.StopService',
+  UpdateAppConfig = 'service.UpdateAppConfig',
+}
+export default serviceMock

@@ -1,0 +1,1 @@
+document.write("<p>bonjour le monde</p>");

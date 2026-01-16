@@ -1,0 +1,1 @@
+from .haishin_get import main

@@ -1,0 +1,11 @@
+module.exports = {
+	RESIZE_FIELD_RANGE: 30,
+	RESIZE_TYPES: {
+		LEFT_TOP: 1,
+		LEFT_BOTTOM: 2,
+		RIGHT_TOP: 3,
+		RIGHT_BOTTOM: 4,
+	},
+	SETTINGS_TITLE_TEMPLATE: 'Настройки слоя',
+	SETTINGS_TITLE_TEMPLATE_DEFAULT: 'Слой не выбран',
+};

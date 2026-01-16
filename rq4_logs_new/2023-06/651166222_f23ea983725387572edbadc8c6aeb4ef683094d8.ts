@@ -1,0 +1,1 @@
+export const FILE = './files/08.txt';

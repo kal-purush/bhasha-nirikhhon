@@ -1,0 +1,35 @@
+export const basePermissions: RoleTree[] = [
+  {
+    code: 'ExternalLink',
+    name: '外链',
+    type: 'MENU',
+    icon: 'ep:link',
+    order: 98,
+    enable: true,
+    show: true,
+    children: [
+      {
+        code: 'MyBlog',
+        name: '博客-掘金',
+        type: 'MENU',
+        path: 'https://juejin.cn/user/1961184475483255',
+        icon: 'tabler:brand-juejin',
+        order: 1,
+        enable: true,
+        show: true,
+      },
+      {
+        code: 'Vue',
+        path: '/vue',
+        name: 'Vue-内链',
+        layout: 'default',
+        type: 'MENU',
+        icon: 'tabler:brand-vue',
+        order: 2,
+        enable: true,
+        show: true,
+        innerLink: 'https://cn.vuejs.org/',
+      },
+    ],
+  },
+];

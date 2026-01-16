@@ -1,0 +1,33 @@
+import React from 'react';
+import { connect, useSelector } from 'react-redux';
+import { withRouter, Link } from "react-router-dom";
+
+const MovieDetail = ({ location }) => {
+
+
+    const movieList = useSelector(state => state.app.movies);
+
+    const selectedMovie = movieList.filter(item => {
+        if (item.imdbID === location.state.movieId) { return true; }
+        return false;
+    }
+    );
+    console.log(selectedMovie);
+    if (selectedMovie.length <= 0) {
+        return <Link to="/">Lütfen Ansayfaya Gidiniz</Link>
+    }
+    return (<div>
+        <h5>{selectedMovie[0].Title}</h5>
+        <img src={selectedMovie[0].Poster} />
+        <p> {selectedMovie[0].Year}</p>
+    </div>);
+
+};
+/*const mapStateToProps =state =>{
+    return{
+        movieList:state.app.movies
+    }
+}*/
+
+//export default withRouter(connect(mapStateToProps)(MovieDetail));
+export default withRouter(MovieDetail);

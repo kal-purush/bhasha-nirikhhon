@@ -1,0 +1,1 @@
+var appCategoria = angular.module('appCategoria',[]);

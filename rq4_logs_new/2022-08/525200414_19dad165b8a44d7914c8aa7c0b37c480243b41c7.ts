@@ -1,0 +1,20 @@
+import { h } from 'preact';
+export declare function date(val: Date | string | number): string;
+export declare function datetime(val: any): string;
+export declare function time(val: any): string;
+export declare function phone(str: any): h.JSX.Element;
+export declare function email(str: any): h.JSX.Element;
+export declare function usd(val: any): string;
+export declare function upload(upload: any, url: any): h.JSX.Element;
+export declare function percent(v: number): string;
+declare const _default: {
+    _d: typeof date;
+    usd: typeof usd;
+    _dt: typeof datetime;
+    _t: typeof time;
+    phone: typeof phone;
+    email: typeof email;
+    upload: typeof upload;
+    percent: typeof percent;
+};
+export default _default;

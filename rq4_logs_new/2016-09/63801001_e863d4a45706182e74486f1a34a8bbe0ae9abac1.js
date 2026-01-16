@@ -1,0 +1,1 @@
+define(["jquery"],function(a){function b(){a(document).ready(function(){a(".collapsable").click(function(b){b.preventDefault();var c=a(this).attr("target");a(c).slideToggle()})})}return{init:b}});

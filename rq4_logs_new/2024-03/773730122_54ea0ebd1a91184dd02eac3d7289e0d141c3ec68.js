@@ -1,0 +1,135 @@
+const files = [
+    {
+        owner: 'Alice',
+        dateUploaded: 0,
+        dateModified: 0,
+        dateAccessed: 0,
+        isFavourite: true,
+        isArchived: false,
+        cid: 'QmXaP8cVwZBfQFcc5uWHci7Tcrz7KfeU5r6zEhB4vAZdwG',
+        name: 'document1',
+        description: 'This is the first document',
+        extension: 'pdf',
+        tag: 'EDUCATION'
+    },
+    {
+        owner: 'Bob',
+        dateUploaded: 0,
+        dateModified: 0,
+        dateAccessed: 0,
+        isFavourite: false,
+        isArchived: true,
+        cid: 'QmZndHegqSwsZCcB9i5KwwrwMcY8PXZn3tQ78zbrC2pnBT',
+        name: 'document2',
+        description: 'This is the second document',
+        extension: 'txt',
+        tag: 'FINANCE'
+    },
+    {
+        owner: 'Carol',
+        dateUploaded: 0,
+        dateModified: 0,
+        dateAccessed: 0,
+        isFavourite: true,
+        isArchived: false,
+        cid: 'QmZsw7JwH1hqs2qS7XGnMkQrfcHZU7hTf6RP3VQCbTgfwH',
+        name: 'document3',
+        description: 'This is the third document',
+        extension: 'docx',
+        tag: 'HEALTH'
+    },
+    {
+        owner: 'Dave',
+        dateUploaded: 0,
+        dateModified: 0,
+        dateAccessed: 0,
+        isFavourite: false,
+        isArchived: false,
+        cid: 'QmUeFjxFH1muZzWEQaqMqsu8EYjY5jnUJFcWmSxM7YZvWf',
+        name: 'document4',
+        description: 'This is the fourth document',
+        extension: 'jpg',
+        tag: 'BUSINESS'
+    },
+    {
+        owner: 'Eve',
+        dateUploaded: 0,
+        dateModified: 0,
+        dateAccessed: 0,
+        isFavourite: true,
+        isArchived: true,
+        cid: 'QmbjAuA5ndYheirtpQWtY5Mz8b2vZnmDwLqfMPmpqeuwrD',
+        name: 'document5',
+        description: 'This is the fifth document',
+        extension: 'xlsx',
+        tag: 'FAMILY'
+    },
+    {
+        owner: 'Frank',
+        dateUploaded: 0,
+        dateModified: 0,
+        dateAccessed: 0,
+        isFavourite: false,
+        isArchived: false,
+        cid: 'QmXwWpuEbFV3yEmeZLCeW2TeKeA42i5PmFyThczEXNkzNb',
+        name: 'document6',
+        description: 'This is the sixth document',
+        extension: 'mp3',
+        tag: 'RANDOM'
+    },
+    {
+        owner: 'Grace',
+        dateUploaded: 0,
+        dateModified: 0,
+        dateAccessed: 0,
+        isFavourite: true,
+        isArchived: false,
+        cid: 'QmYDe4NtuuSvNpy8noEQeM4qD1aPLoB2WW2RDahE6opDgb',
+        name: 'document7',
+        description: 'This is the seventh document',
+        extension: 'png',
+        tag: 'OTHER'
+    },
+    {
+        owner: 'Harry',
+        dateUploaded: 0,
+        dateModified: 0,
+        dateAccessed: 0,
+        isFavourite: false,
+        isArchived: false,
+        cid: 'QmUgdHz3N5r4NHtTFyA4xhDgCZKm5XphJ7fmyUmo1Xxr2k',
+        name: 'document8',
+        description: 'This is the eighth document',
+        extension: 'pdf',
+        tag: 'HEALTH'
+    },
+    {
+        owner: 'Isabella',
+        dateUploaded: 0,
+        dateModified: 0,
+        dateAccessed: 0,
+        isFavourite: true,
+        isArchived: false,
+        cid: 'QmexP2D1dZxZYroDwP9QeZGBk6uCL2kv1PFGVC1ntC8PqF',
+        name: 'document9',
+        description: 'This is the ninth document',
+        extension: 'doc',
+        tag: 'FINANCE'
+    },
+    {
+        owner: 'Jack',
+        dateUploaded: 0,
+        dateModified: 0,
+        dateAccessed: 0,
+        isFavourite: false,
+        isArchived: true,
+        cid: 'QmQK1p3zL8vFZmXu7sTJvjfLzBSdhv5mZsDoZyA5tbxUdV',
+        name: 'document10',
+        description: 'This is the tenth document',
+        extension: 'txt',
+        tag: 'OTHER'
+    }
+];
+
+
+export const moreFiles = [...files, ...files, ...files, ...files]

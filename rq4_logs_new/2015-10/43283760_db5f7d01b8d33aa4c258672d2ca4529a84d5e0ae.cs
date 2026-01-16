@@ -1,0 +1,42 @@
+﻿using System;
+using System.Collections.Generic;
+using Noobot.Domain.MessagingPipeline.Request;
+using Noobot.Domain.MessagingPipeline.Response;
+
+namespace Noobot.Domain.MessagingPipeline.Middleware.StandardMiddleware
+{
+    public class AboutMiddleware : MiddlewareBase
+    {
+        public AboutMiddleware(IMiddleware next) : base(next)
+        { }
+
+        public override IEnumerable<ResponseMessage> Invoke(IncomingMessage message)
+        {
+            if (message.Text.Equals("about", StringComparison.InvariantCultureIgnoreCase))
+            {
+                yield return message.ReplyDirectlyToUser("Noobot - Created by Simon Colmer " + DateTime.Now.Year);
+                yield return message.ReplyDirectlyToUser("I am an extensible SlackBot built in C# using loads of awesome open source projects.");
+                yield return message.ReplyDirectlyToUser("Please find more at http://github.com/workshop2/noobot");
+            }
+            else
+            {
+                foreach (ResponseMessage responseMessage in Next(message))
+                {
+                    yield return responseMessage;
+                }
+            }
+        }
+
+        protected override CommandDescription[] SupportedCommands()
+        {
+            return new []
+            {
+                new CommandDescription
+                {
+                    Command = "about",
+                    Description = "Tells you some stuff about this bot :-)"
+                }
+            };
+        }
+    }
+}

@@ -1,0 +1,1 @@
+alert("this page is realed to link tag")

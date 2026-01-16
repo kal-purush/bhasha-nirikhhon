@@ -1,0 +1,1 @@
+const fundModel = require('../models/fundsModel');

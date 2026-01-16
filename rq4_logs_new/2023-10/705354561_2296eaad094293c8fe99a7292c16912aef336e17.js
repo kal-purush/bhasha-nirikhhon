@@ -1,0 +1,1 @@
+export const webSocketUrl = 'wss://5h8ptm77-8000.use.devtunnels.ms/ws/chat/';

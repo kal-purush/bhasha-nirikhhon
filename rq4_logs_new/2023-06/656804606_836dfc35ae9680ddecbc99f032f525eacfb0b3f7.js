@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".youtube").magnificPopup({disableOn:700,type:"iframe",mainClass:"mfp-fade",removalDelay:160,preloader:!1,fixedContentPos:!1})});

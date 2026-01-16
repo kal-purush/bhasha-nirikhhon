@@ -1,0 +1,14 @@
+export const basic = 'rgb(218,224,230)';
+export const white = 'rgb(255,255,255)';
+export const black = 'rgb(26,26,27)';
+export const lightGrayBorder = 'rgb(66,83,91)';
+export const babyblue = 'rgb(173,216,230)';
+export const hoverSidebar = 'rgb(128,128,128)';
+export const darkGray = 'rgb(54,71,79)';
+export const blue = 'rgb(0,121,211)';
+export const hoverBlue = 'rgb(127,188,233)';
+export const lightGray = 'rgb(204,204,204)';
+export const textGray = 'rgb(102,102,102)';
+export const textMembers = 'rgb(89,89,90)';
+export const red = 'rgb(255,0,0)';
+export const green = 'rgb(34,165,101)';

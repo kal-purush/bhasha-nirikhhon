@@ -1,0 +1,2 @@
+
+(function($,window,document,undefined){var _nextInSequenceMap={};$.fn.nextId=function nextId(prefix){prefix=prefix||$.fn.nextId.defaults.prefix;_nextInSequenceMap[prefix]=(_nextInSequenceMap[prefix]===undefined)?0:_nextInSequenceMap[prefix];return this.filter(function onFilter(){return!this.id;}).each(function onEach(){var $this=$(this);$this.prop('id',prefix+$.fn.nextId.defaults.separator+_nextInSequenceMap[prefix]++);});};}(jQuery,window,document));$.fn.nextId.defaults={prefix:'nid',separator:'-'};

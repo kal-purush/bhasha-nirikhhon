@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{const t=document.getElementById("player");LottieInteractivity.create({mode:"chain",player:t,actions:[{state:"loop",transition:"click",frames:[0,200]},{state:"autoplay",transition:"onComplete",frames:[200,300],reset:!0}]})});

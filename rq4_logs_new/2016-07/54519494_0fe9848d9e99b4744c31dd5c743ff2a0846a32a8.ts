@@ -1,0 +1,1 @@
+export function veryLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongLongName() { return 'still good' }

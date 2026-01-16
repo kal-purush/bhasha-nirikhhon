@@ -1,0 +1,5 @@
+export { default as BodyMdBold } from './BodyMdBold'
+export { default as BodyMd } from './BodyMd'
+export { default as HeadingMd } from './HeadingMd'
+export { default as HeadingLg } from './HeadingLg'
+export { default as HeadingXl } from './HeadingXl'

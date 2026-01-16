@@ -1,0 +1,23 @@
+﻿// Copyright (c) Microsoft Corporation.
+// Licensed under the MIT License.
+
+using System;
+using System.Collections.Generic;
+using System.Net.Sockets;
+using System.Text;
+using Microsoft.VisualStudio.Services.Agent;
+using Microsoft.VisualStudio.Services.Agent.Util;
+
+namespace Agent.Sdk.Util
+{
+    public class ExceptionsUtil
+    {
+        public static void HandleSocketException(SocketException e, string url, Action<string> traceErrorAction)
+        {
+            traceErrorAction("SocketException occurred.");
+            traceErrorAction(e.Message);
+            traceErrorAction($"Verify whether you have (network) access to { url }");
+            traceErrorAction($"URLs the agent need communicate with - { BlobStoreWarningInfoProvider.GetAllowListLinkForCurrentPlatform() }");
+        }
+    }
+}

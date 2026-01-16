@@ -1,0 +1,1 @@
+JSON_FILE = "./data/equipment.json"

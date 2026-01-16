@@ -1,0 +1,1 @@
+var passValueToHidden=function(a,s,d,i,l){a.on("click",function(){var n=$(this).data(s);a.removeClass(l).addClass(i),$(this).addClass(l),d.val(n)})};

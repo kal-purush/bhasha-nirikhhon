@@ -1,0 +1,11 @@
+export declare function zeros(size: number): Array<number>;
+export declare function sum(a1: Array<number>): number;
+export declare function squareSum(a1: Array<number>): number;
+export declare function mean(a1: Array<number>): number;
+export declare function rootMeanSquare(a1: Array<number>): number;
+export declare function add(...arrays: number[][]): Array<number>;
+export declare function addScalar(a1: Array<number>, s: number): Array<number>;
+export declare function sub(...arrays: number[][]): Array<number>;
+export declare function multiply(...arrays: number[][]): Array<number>;
+export declare function multiplyByScalar(a1: Array<number>, scalar: number): Array<number>;
+export declare function shuffle<T>(array: Array<T>): Array<T>;

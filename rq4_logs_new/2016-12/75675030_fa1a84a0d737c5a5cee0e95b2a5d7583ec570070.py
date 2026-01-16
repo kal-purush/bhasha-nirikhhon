@@ -1,0 +1,5 @@
+google_key_file = "google_client_key.json"       
+admin_user = "venassis" 
+admin_pw = "5742wars"
+port = "27333"            
+host = "localhost" 

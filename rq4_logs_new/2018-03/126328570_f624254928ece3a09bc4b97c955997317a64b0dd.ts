@@ -1,0 +1,1 @@
+export let value3:number = 10;

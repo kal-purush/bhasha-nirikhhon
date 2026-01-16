@@ -1,0 +1,2 @@
+SQLSERVERFLAG = True
+SCHEMA = 'insiderTrading.'

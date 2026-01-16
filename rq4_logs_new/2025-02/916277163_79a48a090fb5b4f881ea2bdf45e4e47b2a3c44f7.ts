@@ -1,0 +1,43 @@
+export type TIcon =
+    | 'eye'
+    | 'user'
+    | 'lamp'
+    | 'star'
+    | 'info'
+    | 'like'
+    | 'exit'
+    | 'check'
+    | 'close'
+    | 'error'
+    | 'react'
+    | 'phone'
+    | 'google'
+    | 'camera'
+    | 'confirm'
+    | 'success'
+    | 'warning'
+    | 'arrow-up'
+    | 'facebook'
+    | 'calendar'
+    | 'document'
+    | 'star-half'
+    | 'dashboard'
+    | 'hamburger'
+    | 'eye-close'
+    | 'arrow-down'
+    | 'arrow-right'
+    | 'star-filled'
+    | 'arrow-up-outline'
+    | 'arrow-down-outline';
+
+export type TIconGroup =
+    | 'ci'
+    | 'fa'
+    | 'fa6'
+    | 'gi'
+    | 'io'
+    | 'io5'
+    | 'md'
+    | 'vsc';
+
+export type TIconPosition = 'left' | 'right';

@@ -1,0 +1,1 @@
+document.addEventListener('keydown', style.display = 'none');

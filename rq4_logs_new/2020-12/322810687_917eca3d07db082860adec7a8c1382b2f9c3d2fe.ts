@@ -1,0 +1,14 @@
+import { APIApplicationCommandOption, APIApplicationCommandOptionChoice } from "discord-api-types/v8";
+import { APICreateCommandData } from "./types";
+export declare function user(name: string, description: string): APIApplicationCommandOption;
+export declare function requiredUser(name: string, description: string): APIApplicationCommandOption;
+export declare function choice(name: string, value?: string): APIApplicationCommandOptionChoice;
+export declare function string(name: string, description: string, ...validVoices: APIApplicationCommandOptionChoice[] | string[]): APIApplicationCommandOption;
+export declare function requiredString(name: string, description: string, ...voices: APIApplicationCommandOptionChoice[] | string[]): APIApplicationCommandOption;
+export declare function boolean(name: string, description: string): APIApplicationCommandOption;
+export declare function requiredBoolean(name: string, description: string): APIApplicationCommandOption;
+export declare function channel(name: string, description: string): APIApplicationCommandOption;
+export declare function requiredChannel(name: string, description: string): APIApplicationCommandOption;
+export declare function subCommand(name: string, description: string, options: APIApplicationCommandOption[]): APIApplicationCommandOption;
+export declare function group(name: string, description: string, options: APIApplicationCommandOption[]): APIApplicationCommandOption;
+export declare function command(name: string, description: string, options?: APIApplicationCommandOption[]): APICreateCommandData;

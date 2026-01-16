@@ -1,0 +1,21 @@
+export default ({
+  state:{
+    people:{},
+    check:false,
+    name:'',
+    paw:'',
+    tel:'',
+    dz:'',
+    mz:'',
+    nameId:[],
+    order:[],
+    finshorder:[],
+    overlist:[]
+  },
+  mutations:{
+  },
+  actions:{
+},
+  getters:{
+  }
+})

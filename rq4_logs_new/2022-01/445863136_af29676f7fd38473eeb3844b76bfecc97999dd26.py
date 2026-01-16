@@ -1,0 +1,32 @@
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
+import time
+#initialize webdriver
+driver = webdriver.Chrome(ChromeDriverManager().install())
+driver.get('http://tutorialsninja.com/demo/')
+driver.maximize_window()
+driver.find_element(By.XPATH, '//*[@id="top-links"]/ul/li[2]/a/i').click()
+time.sleep(2)
+driver.find_element(By.XPATH, '//*[@id="top-links"]/ul/li[2]/ul/li[1]/a').click()
+time.sleep(2)
+driver.find_element(By.XPATH, '//*[@id="input-firstname"]').send_keys("Lester")
+time.sleep(2)
+driver.find_element(By.XPATH, '//*[@id="input-lastname"]').send_keys("Oliver")
+time.sleep(2)
+driver.find_element(By.XPATH, '//*[@id="input-email"]').send_keys("Oliver@yahoo.com")
+time.sleep(2)
+driver.find_element(By.XPATH, '//*[@id="input-telephone"]').send_keys("8758222")
+time.sleep(2)
+driver.find_element(By.XPATH, '//*[@id="input-password"]').send_keys("12345")
+time.sleep(2)
+driver.find_element(By.XPATH, '//*[@id="input-confirm"]').send_keys("12345")
+time.sleep(2)
+driver.find_element(By.XPATH, '//*[@id="content"]/form/fieldset[3]/div/div/label[1]').click()
+time.sleep(2)
+driver.find_element(By.XPATH, '//*[@id="content"]/form/div/div/input[1]').click()
+time.sleep(2)
+driver.find_element(By.XPATH, '//*[@id="content"]/form/div/div/input[2]').click()
+time.sleep(2)
+print("Account Successfuly Created")
+driver.close()

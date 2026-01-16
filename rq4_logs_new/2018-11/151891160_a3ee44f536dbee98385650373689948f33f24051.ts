@@ -1,0 +1,43 @@
+/*
+ * This file is part of CabasVert.
+ *
+ * Copyright 2017, 2018 Didier Villevalois
+ *
+ * CabasVert is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * CabasVert is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with CabasVert.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+import { DatePipe } from '@angular/common'
+import { Pipe, PipeTransform } from '@angular/core'
+import { TranslateService } from 'ng2-translate'
+import { LocaleManagerService } from '../providers/locale-manager.service'
+
+@Pipe({
+  name: 'date',
+})
+export class DatePipeProxy implements PipeTransform {
+
+  private readonly delegate: DatePipe
+
+  constructor(private localeManager: LocaleManagerService) {
+    this.delegate = new DatePipe(this.localeManager.effectiveLocale)
+
+    this.localeManager.locale$.subscribe(() => {
+      this.delegate['locale'] = this.localeManager.effectiveLocale
+    })
+  }
+
+  public transform(value: any, pattern: string = 'mediumDate'): any {
+    return this.delegate.transform(value, pattern)
+  }
+}

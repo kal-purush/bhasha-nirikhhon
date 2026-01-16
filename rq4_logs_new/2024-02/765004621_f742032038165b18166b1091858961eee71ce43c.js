@@ -1,0 +1,1 @@
+import{_ as s,b as t,c as a,e as o,t as c}from"./index-C_4U_0R-.js";const r={},n={class:"about"};function i(e,_){return t(),a("div",n,[o("h1",null,c(e.$t("This is an about page")),1)])}const u=s(r,[["render",i],["__file","/Users/Redenfloyd-ROK/Worskpace/wicare/src/views/AboutView.vue"]]);export{u as default};

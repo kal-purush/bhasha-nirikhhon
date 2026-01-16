@@ -1,0 +1,12 @@
+{
+   "code":0,
+   "message":"获取简历信息成功",
+   "data":{
+     "full_name":"hqx",
+     "resume_id":1,
+     "gender":1,
+     "birth":"1990-07-21",
+     "is_student":1,
+     "avatar_src":"/abc/ada.png"
+   }
+}

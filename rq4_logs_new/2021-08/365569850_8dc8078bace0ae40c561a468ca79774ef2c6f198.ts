@@ -1,0 +1,1 @@
+export { paginatePropsTypeDefs } from './paginate';

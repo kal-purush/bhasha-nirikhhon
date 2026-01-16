@@ -1,0 +1,1159 @@
+Not : MultipleActiveResultSets = True; -> dediğinizde -> tek bir cnn connection'da birden fazla dataReader çalıştırmak istediğinizde kullanabilirsiniz !!! -> tr, 1.00
+The language that needs to be in use.
+         * @type string
+         * @default 'en-us'
+         * @example German.Bootstrap.Default <!-- bootstrap, grid, dropdown -->
+         * <table id="grid"></table>
+         * <script>
+         *     $('#grid').grid({
+         *         dataSource: '/Players/Get',
+         *         uiLibrary: 'bootstrap',
+         *         locale: 'de-de',
+         *         columns: [ 
+         *             { field: 'ID', width: 34 },
+         *             { field: 'Name', title: 'Name' },
+         *             { field: 'PlaceOfBirth', title: 'Geburtsort' }
+         *         ],
+         *         pager: { limit: 5 }
+         *     });
+         * </script>
+         * @example French.MaterialDesign.Custom <!-- grid, dropdown -->
+         * <table id="grid"></table>
+         * <script>
+         *     gj.grid.messages['fr-fr'].DisplayingRecords = 'Mes résultats';
+         *     $('#grid').grid({
+         *         dataSource: '/Players/Get',
+         *         uiLibrary: 'materialdesign',
+         *         locale: 'fr-fr',
+         *         columns: [ 
+         *             { field: 'ID', width: 56 },
+         *             { field: 'Name', title: 'Prénom' },
+         *             { field: 'PlaceOfBirth', title: 'Lieu de naissance' }
+         *         ],
+         *         pager: { limit: 5 }
+         *     });
+         * </script> -> en, 0.97
+If set to true, add filters for each column
+             * @type boolean
+             * @default object
+             * @example Remote.DataSource <!-- grid -->
+             * <table id="grid"></table>
+             * <script>
+             *     $('#grid').grid({
+             *         dataSource: '/Players/Get',
+             *         headerFilter: true,
+             *         columns: [ { field: 'ID', width: 56, filterable: false }, { field: 'Name' }, { field: 'PlaceOfBirth' } ]
+             *     });
+             * </script>
+             * @example Local.DataSource <!-- grid -->
+             * <table id="grid"></table>
+             * <script>
+             *     var data = [
+             *         { 'ID': 1, 'Name': 'Hristo Stoichkov', 'PlaceOfBirth': 'Plovdiv, Bulgaria' },
+             *         { 'ID': 2, 'Name': 'Ronaldo Luís Nazário de Lima', 'PlaceOfBirth': 'Rio de Janeiro, Brazil' },
+             *         { 'ID': 3, 'Name': 'David Platt', 'PlaceOfBirth': 'Chadderton, Lancashire, England' },
+             *         { 'ID': 4, 'Name': 'Manuel Neuer', 'PlaceOfBirth': 'Gelsenkirchen, West Germany' },
+             *         { 'ID': 5, 'Name': 'James Rodríguez', 'PlaceOfBirth': 'Cúcuta, Colombia' },
+             *         { 'ID': 6, 'Name': 'Dimitar Berbatov', 'PlaceOfBirth': 'Blagoevgrad, Bulgaria' }
+             *     ];
+             *     $('#grid').grid({
+             *         dataSource: data,
+             *         headerFilter: true,
+             *         columns: [ 
+             *             { field: 'ID', width: 56, filterable: false }, 
+             *             { field: 'Name' }, 
+             *             { field: 'PlaceOfBirth' } 
+             *         ],
+             *         pager: { limit: 5 }
+             *     });
+             * </script> -> en, 0.65
+int -->初始化时为0 -> zh-CN, 1.00
+const form = new FormData();
+  form.append('authenticity_token', authenticityToken);
+  form.append('user_session[email]', 'sadness');
+  form.append('user_session[password]', '12345');
+  form.append('commit', 'Belépés');
+
+  const res = await fetch(moly.baseUrl + '/azonositas', {
+    method: 'POST',
+    body: form,
+    headers: { 
+      //'Content-Type': 'multipart/form-data',
+      'Content-Type': `multipart/form-data; boundary=${form._boundary}`,
+      //...form.getHeaders(),
+      Cookie: sessionCookie
+    }
+  });
+  console.log(res.headers.raw()['set-cookie']);
+  const body = await res.text();
+  console.log(body); -> en, 1.00
+по логике 
+число 1 + число 2 // num 1 + num 2
+число 1 - число 2 // num 1 - num 2
+число 1 / число 2 // num 1 / num 2
+число 1 * число 2 // num 1 * nom 2 -> ru, 0.55
+클래스가 상위 url 처리, 하위 url -> 메서드 이름과 매핑 -> ko, 1.00
+-> /guestbook/list 에 연결 -> ko, 1.00
+то вырезаем все знаки после последней точки в названии файла, то есть ХХХХХ.txt -> txt -> ru, 0.50
+Lista de Endpoints CRUD
+    Create, Read (Single & All), Update, Delete
+    Criar, Ler (Individual & Tudo), Atualizar, Remover
+
+    Associamos os endpoints aos verbos de HTTP
+    Quando seguimos as convenções, utilizandos os verbos corretos,
+    podemos dizer que a nossa aplicação segue os padrões REST
+    Quando uma aplicação segue os padrões REST, ela é chamada de RESTful
+    [POST] -> Create
+    [GET] -> Read
+    [PUT/PATCH] -> Update
+    [DELETE] -> Delete -> pt, 0.60
+[GET] - /filmes/:id -> Ler um único elemento -> pt, 0.82
+[PUT] - /filmes/:id -> Alterar um único elemento -> pt, 0.81
+[DELETE] - /filmes/:id -> Apagar um único elemento -> pt, 0.96
+esto siempre hace lo mismo. 
+    escoge un elemento del array con todas tus casillas, excluyendo los índices usados o que deben saltarse.
+    cambia el elemento del array por un 0 para marcar que se ha usado y devuelve la elección -> es, 1.00
+�������̽�(interface) : Ʋ -> �ڵ尡 �Ȱ��� -> en, 0.93
+-> �ϳ��� Ŭ���������� �ϳ��� ���Ҹ� -> en, 0.00
+Sector Económico -> Especialidad -> -> es, 1.00
+cron "0 0/10 * * * ?" ql_aiqichaShop.js
+
+ 爱妻查商城监控  
+ 多商品请用逗号分割 格式:AQ03006,AQ03007,AQ03008 青龙变量aqcGood
+ 默认定时每10分钟一次 如需自定义请自己设置cron
+
+ AQ03006 爱奇艺月卡
+ AQ03007 爱奇艺季卡
+ AQ03008 京东50E卡
+ AQ03009 百度网盘会员月卡
+ AQ03010 百度网盘超级会员月卡
+
+ 仓库地址:https://github.com/WindFgg/Scripts -> zh-CN, 1.00
+//별들 위에서 손가락을 움직이면 별이 채워질 수 있도록 한다 
+stars.addEventListener("mousemove", (e) => {
+    fillStar(calculateScore(e));
+}); -> ko, 1.00
+Formato: código fuente en JavaScript
+Sublime Text o VisualStudio.  
+Sugerencia: ten en cuenta que los métodos de jQuery show, hide, fadeIn, fadeOut, slideUp, slideDown y toggle ofrecen animaciones con comportamiento predefinido. Si quieres armar tus propias animaciones, deberás usar animate.
+También recuerda que los métodos jQuery pueden encadenarse: 
+http://www.w3big.com/es/jquery/jquery-chaining.html
+
+>> Consigna: codifica animaciones concatenadas sobre uno o más elementos. Es decir que luego de finalizar una animación en su función callback, se especifica la llamada a otra animación.
+>>Aspectos a incluir en el entregable:
+Archivo HTML y archivo JavaScript referenciado, que incluya la definición de dos o más animaciones y sus respectivas funciones callback.
+>>Ejemplo de secuencia de animación:
+1) Mostrar un elemento con fadeIn() y al concluir su transición, ocultar otro elemento con fadeOut(). 
+2) Aumentar el margen de un elemento con animate() y al concluir su transición, disminuir el margen del mismo elemento con animate().
+3) Disminuir la altura de un elemento con animate() y al concluir su transición, esperar con delay() unos ms, y volver al tamaño original. -> es, 0.99
+function mensajeFinal () {
+      // crea un nuevo div
+      // y añade contenido
+      let opcion = document.getElementById("cotizar");// acá hice un cambio
+      let newDiv = document.createElement("div");
+      newDiv.innerHTML = `<p>Cotizaste un viaje a ${encontradoIsla.nombre} para ${numeroPasajeros} personas, contratando ${encontradoServicio.nombre} por un total de USD$ ${precioTotal}  .\n Para más información llena el formulario de contacto y nos comunicaremos a la brevedad contigo</p>`;
+      newDiv.style.color = "blue";
+      newDiv.style.fontSize = "1.5rem";
+      newDiv.style.padding = "4rem";
+      
+      opcion.appendChild(newDiv); //añade texto al div creado.
+    
+      // añade el elemento creado y su contenido al DOM
+      let currentDiv = document.getElementById("imagenCotizar");
+      document.body.insertBefore(newDiv, currentDiv);
+    }
+    
+    mensajeFinal (); -> es, 0.85
+* 设置点击事件
+     * <p>需添加view.setMovementMethod(LinkMovementMethod.getInstance())</p>
+     * <p>如果出现文字颜色不对，添加重写ClickableSpan中的updateDrawState方法 </p>
+     * <p>
+     * 设置文本的颜色
+     * ds.color = ContextCompat.getColor(applicationContext, R.color.ui_undefined_FF4A90E2)
+     * 超链接形式的下划线，false 表示不显示下划线，true表示显示下划线
+     * ds.isUnderlineText = false
+     *
+     * @param clickSpan 点击事件
+     * @return {@link SpanUtils} -> zh-CN, 1.00
+* 
+ * <重试拦截器.>
+ * 
+ * @author Henry(fba02)
+ * @version [版本号, 2021-2-9]
+ * @see [相关类/方法]
+ * @since [产品/模块版本] -> zh-CN, 1.00
+"""
+def generate_single_unique_code(sf_code, sf_name, year, subj_degree, subj_code, subj, comp, credit_units, sys_df=None):
+    if (sys_df is None) or sys_df.empty:
+        new_sys_df = 0
+        sys_df = create_sys_df()
+    else:
+        new_sys_df = 1
+    comp = cleanText(comp)
+    subj = cleanText(subj)
+    sys_df["YEAR"] = sys_df["YEAR"].apply(str)
+    year = str(year)
+    dis_code = getPos123(subj_degree, sf_code, sf_name, comp)
+    sem = ",".join(map(str, credit_units))
+    if (sf_name == "Разработка программного обеспечения / Software Engineering") and (dis_code.split(".")[2] in ["5", "6"]):
+        p34 = softwareEngineering(sys_df.loc[sys_df["DIS_CODE"].str.match(dis_code[:-2])], sem, dis_code, subj)
+        dis_code = dis_code[:-2] + str(p34)
+    elif (dis_code.split(".")[0] == "06") and (dis_code.split(".")[1] != "0") and (dis_code.split(".")[2] == "3"):
+        p234 = electiveModuleBachelor(sys_df.loc[sys_df["DIS_CODE"].str.match("06\.[1-7]\.3\.")], sem, dis_code, subj)
+        dis_code = dis_code[:3] + str(p234)
+    else:
+        p4 = getPos4(sys_df.loc[sys_df["DIS_CODE"].str.match(dis_code)], sem, dis_code, subj, sf_name)
+        dis_code = dis_code + str(p4)
+    sys_df = append_sys_df(sys_df, sf_code, sf_name, year, subj_degree, subj_code, subj, comp, sem, dis_code, year[-2:])
+    sys_df = getPos5(sys_df, new_sys_df)
+    dis_code = sys_df.iloc[-1, sys_df.columns.get_loc("DIS_CODE")] + "." + str(sys_df.iloc[-1, sys_df.columns.get_loc("VERSION")])
+    sys_df = sys_df.drop_duplicates().reset_index(drop=True)
+    return dis_code, sys_df
+""" -> en, 0.96
+* @description: 小球抛物线动画，起点元素和目标元素必须定位
+ * @param {HTMLElement} el 起点元素 传入一个html元素
+ * @param {HTMLElement} target 目标元素 传入一个html元素
+ * @param {Number} duration 运动的时间，默认500毫秒
+ * @param {Function} movement 运动的函数，默认的函数为贝塞尔曲线函数cubic-bezier(0.49, -0.29, 0.75, 0.41)
+ * @param {Function} callback 运动后执行的回调函数，this指向该对象
+ * @param {Function} stepCallback 运动过程中执行的回调函数，this指向该对象，接受x，y参数，分别表示X，Y轴的偏移位置
+ * @param {Boolean} autostart 是否自动开始运动，默认为false
+ * @return {*} -> zh-CN, 1.00
+"""
+    -->> Calcula preços de opções do mercado brasileiro pelo método Black and Scholes,
+    com base em informações divulgadas pela B3 e considerando valores de volatilidade
+    anualizada para 1, 3, 6 e 12 meses (4 preços são informados).
+    Os valores, bem como outras informações, são retornados em forma de dicionario python <<--, 
+
+    Arg:
+        a (str): Obrigatorio - Codigo da opcao de compra/venda a ser pesquisado,
+        deve ser informado entre aspas. Exemplo: 'PETRR271', ou em forma de variável do tipo string
+        t (float): Opcional - Taxa livre de risco a ser considerada nos cálculos,
+        deve ser informada em formato decimal. Exemplo: para uma taxa de 5%, informar 0.05
+        Manter nulo ou 0 para utilizar a taxa DI atualizada informada pela B3
+
+    Retorna dicionario com informacoes gerais da opcao e preços considerando volatilidade
+    anualizada de 1, 3, 6 e 12 meses do ativo objeto, conforme divulgação da B3.
+
+    Importante: para pesquisas realizadas antes das 10:30 da manhã, o programa pesquisará
+    o último preço do dia anterior para o ativo objeto, devido a delay de atualização
+    do site da Bolsa.
+
+    Erros são comuns devido a instabilidades no portal da B3.
+    """ -> pt, 0.95
+"""
+-------------------------------------------------
+File Name:    SourceCodeFiles
+Description:  
+Author:       蔡创
+Date:         2021/6/23
+-------------------------------------------------
+""" -> en, 0.98
+'''
+        self.__label_penThickness = QLabel(self)
+        self.__label_penThickness.setText("Width")
+        self.__label_penThickness.setFixedHeight(20)
+        sub_layout.addWidget(self.__label_penThickness)
+        
+        self.__spinBox_penThickness = QSpinBox(self)
+        self.__spinBox_penThickness.setMaximum(20)
+        self.__spinBox_penThickness.setMinimum(2)
+        self.__spinBox_penThickness.setValue(10) #默认粗细为10
+        self.__spinBox_penThickness.setSingleStep(2) #最小变化值为2
+        self.__spinBox_penThickness.valueChanged.connect(self.on_PenThicknessChange)#关联spinBox值变化信号和函数on_PenThicknessChange
+        sub_layout.addWidget(self.__spinBox_penThickness)
+        
+        self.__label_penColor = QLabel(self)
+        self.__label_penColor.setText("Color")
+        self.__label_penColor.setFixedHeight(20)
+        sub_layout.addWidget(self.__label_penColor)
+        
+        self.__comboBox_penColor = QComboBox(self)
+        self.__fillColorList(self.__comboBox_penColor) #用各种颜色填充下拉列表
+        self.__comboBox_penColor.currentIndexChanged.connect(self.on_PenColorChange) #关联下拉列表的当前索引变更信号与函数on_PenColorChange
+        sub_layout.addWidget(self.__comboBox_penColor)
+        ''' -> en, 0.85
+'''
+Conceitos aplicados:
+ 1. Variavéis (primeiroValor, segundoValor...)
+ 2. Entrada de usuário (input("Digite o primeiro valor: "))
+ 3. Operação matemática (+ / -  *)
+ 4. Impressão na tela (print("A soma do valor eh: "))
+ 5. Atribuição de variável (soma = primeiroValor + segundoValor) 
+''' -> pt, 0.99
+""" select strftime('%d',b.Date) as Dia,strftime('%m',b.Date) as Mes,strftime('%Y',b.Date) as Año,a.Identifier as Numerolista ,b.VirtualIndicator 
+                        from PersonIdentifier a join RoleAttendanceEvent b on b.OrganizationPersonRoleId=c.OrganizationPersonRoleId 
+                         join  OrganizationPersonRole c 
+                        where a.RefPersonIdentificationSystemId=54  and c.roleid=6 and b.VirtualIndicator=0 ;""" -> en, 0.93
+* @author Paulo Ricardo Costa da Silva - RA: 1905013 
+ * @author Geovane Donizete Laera  - RA: 1902679 
+ * @author Marcelo Martinez Mesa Campos - RA: 1905076 
+ * @author Isaque Ribeiro dos Santos Junior - RA: 1903978
+ * @author Vinícius da Cruz Pera - RA: 1903144
+ * Data: 08/09/2021
+ * -> pt, 0.79
+"""
+    Tính toán hàm hoán vị IP
+    :param input_data: numpy array shape (8, 8)
+    :return: output_data: numpy array shape (8, 8)
+    """ -> vi, 0.43
+"""
+    Chia đầu vào thành 2 phần L0 và R0
+    :param input_data: numpy array shape (8, 8)
+    :return: 2 numpy array shape (, 32)
+    """ -> vi, 0.97
+"""
+    Tính toán và trả về mảng chứa 16 khoá k (1->16)
+    :param input_k: ma trận 8x8
+    :return: list()
+    """ -> vi, 1.00
+* Champs à surveiller :
+                     * 
+                     * 0 Titre - String - obligatoire
+                     * 5 Cote de périodique - String - obligatoire
+                     * 6 Dates extrêmes de la collection - String - Obligatoire
+                     * 8 Inventaire de la collection - FileDocument
+                     * 9 Fréquence parution - Category - Obligatoire
+                     * 10 Ancien titre - Periodique[]
+                     * 11 Titre devenu - Periodique[]
+                     * 13 Siège du journal - City
+                     * 15 Thème - Category[] - Obligatoire
+                     * 16 Tendances politiques - Category[]
+                     * 17 Période - Category[] - Obligatoire
+                     * 18 Communes concernées - City[] -> fr, 0.95
+"Famalicão" -> pt, 1.00
+<div class="btt-c">       
+                ${product_pit}
+                <div class="btt-in">
+                    ${product_name}
+                    數量<input type="text" value="1">
+                    <button type="button" class="btn_plus">+</button>
+                    <button type="button" class="btn_less">-</button>
+                </div>
+                <div></div>
+            </div> -> en, 0.96
+'Худалдана -> Түр худалдахгүй' -> mn, 1.00
+'Түр худалдахгүй -> Худалдана' -> mn, 1.00
+const checkDataFreshness = ${options.checkDataFreshness};
+// типы данных, которые, собственно, будем показывать 
+const displayData = {  	// 
+	'track' : {'variants' : [['track',dashboardHeadingTXT],['magtrack',dashboardMagHeadingTXT]], 	// курс или магнитный курс
+		'precision' : 0,	// точность показываемой цифры, символов после запятой
+		'multiplicator' : 1, 	// на что нужно умножить значение для показа
+		'fresh': ${(5+options.trackProp.maxRefreshInterval) * 1000}		// время свежести, миллисек.
+	},
+	'speed' : {'variants' : [['speed',dashboardSpeedTXT+', '+dashboardSpeedMesTXT]],	// скорость
+		'precision' : 1,
+		'multiplicator' : 60*60/1000,
+		'fresh': ${(3+options.speedProp.maxRefreshInterval) * 1000}
+	},
+	'depth' : {'variants' : [['depth',dashboardDepthTXT+', '+dashboardDepthMesTXT]], 	// глубина
+		'precision' : 1,
+		'multiplicator' : 1,
+		'fresh': ${(2+options.depthProp.maxRefreshInterval) * 1000}
+	}
+};
+const signalKsubscribe = {
+	"context": "vessels.self",
+	"subscribe": [
+		{
+			"path": "${options.trackProp.feature}",
+			"format": "delta",
+			"policy": "instant",
+			"minPeriod": ${options.trackProp.maxRefreshInterval * 1000}
+		},
+		{
+			"path": "${options.speedProp.feature}",
+			"format": "delta",
+			"policy": "instant",
+			"minPeriod": ${options.speedProp.maxRefreshInterval * 1000}
+		},
+		{
+			"path": "${options.depthProp.feature}",
+			"format": "delta",
+			"policy": "instant",
+			"minPeriod": ${options.depthProp.maxRefreshInterval * 1000}
+		},
+		{
+			"path": "navigation.courseOverGroundMagnetic",
+			"format": "delta",
+			"policy": "instant",
+			"minPeriod": ${options.trackProp.maxRefreshInterval * 1000}
+		},
+		{
+			"path": "navigation.magneticDeviation",
+			"format": "delta",
+			"policy": "instant",
+			"minPeriod": ${options.trackProp.maxRefreshInterval * 1000}
+		},
+	]
+}; -> ru, 0.95
+<span 
+                              id="close" 
+                              style="
+                                    position: absolute;
+                                    top: 5px;
+                                    right: 5vw;
+                                    background-color: #fff;
+                                    color: #333;
+                                    font-size: 14px;
+                                    width: 24px;
+                                    height: 24px;
+                                    line-height: 24px;
+                                    border-radius: 50%;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;"
+                              >X</span><div 
+                                    style="
+                                          padding: 10px;
+                                          background-color: #fff;
+                                          color: #333;
+                                          width: 95%;
+                                          min-height: 95%;
+                                          max-height: 95%;
+                                          overflow-y: auto;"
+                                    >
+                        <table border="0" cellspacing="0" cellpadding="0" style="margin: 0 auto; font-size: 14px">
+                              <tr>
+                              <td   colspan="8"
+                                    style="
+                                    text-align: center;
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                              ">一、基金信息</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >出资企业</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].investmentEnterprise}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >参控股基金管理公司</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].fundCompany}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >年度</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].year}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >季度</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].quarter}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >经营状况</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].stateBusiness}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >注册资本（万元）</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].registeredCapital}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >发起设立基金</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].initialization}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >是否在基金业协会登记</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].registration}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >投资项目</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].investmentProjects}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >资金投向</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].moneyDirection}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >募集资金额（万元）</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].amountRaised}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >项目投资金额（万元）</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].projectInvestmentAmount}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >基金存续情况</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].fundStatus}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >存续金额（万元）</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].remainingAmount}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >基金类型</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].fundType}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >下一步计划</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].nextStep}</td>
+                        </tr>
+                        <tr>
+                              <td   colspan="2"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                                    >备注</td>
+                              <td   colspan="6"
+                                    style="
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;"
+                              >${arg[0].remark}</td>
+                        </tr>
+                         
+                        <tr>
+                              <td colspan="8"
+                                    style="
+                                    text-align: center;
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                              ">二、参控股基金管理公司详情</td>
+                        </tr>
+                        
+                     <tr>
+                        <td   colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >企业名称</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_QYMC || fund_company_data.companyname || fund_company_data.sub_company || fund_company_data.C1 || fund_company_data.STDNAME}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >工商注册登记号</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_GSZCDJH}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >法定代表人</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_FDDBR}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >注册时间</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_ZCRQ}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >注册资本（万元）</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.ZCZB}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >注册地</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_ZCD}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >详细地址</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_XXDZ}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >境内境外</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.GQDJ_JNJW}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >是否正常经营</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_SFZCJY}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >经营范围</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_JYFW}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >设立注册日期</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_ZCRQ}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >控制权类型</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_KZQLX}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >变动产权登记情形</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_BDCQDJQX}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >登记类型</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.GQDJ_DJLX}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >补充说明</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_BCSM}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >企业级次</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_QYJC}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >变动产权登记情形</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_BDCQDJQX}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >主要行业</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_SSHY}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >股权比例变动情况</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_GQBLBDQK}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >集团本部流转情况</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_JTBBLZQK}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >注册资本币种选择</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_ZCZBBZXZ}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >合计股权比例</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.HJGQBL}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >行标识</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.RECID}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >指标</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.HJGQBL}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >注销产权登记情形</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_ZXCQDJQX}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >出资企业审批情况</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_CZQYSPQKWZ}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >事由说明</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_SYSM}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >上级管理单位组织机构代码</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_SJGLDWZZJGDM}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >合计实缴资本</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.HJSJZCJ}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >主要出资企业组织机构代码</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_CZRZZJGDM}</td>
+                     </tr>
+                     <tr>
+                        <td colspan="2"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;
+                              width: 100px;
+                              background: #f5f5f5"
+                              >交易金额（万元）</td>
+                        <td colspan="6"
+                              style="
+                              padding: 10px;
+                              border: 1px solid #d8d8d8;"
+                        >${fund_company_data.JB_JYJE}</td>
+                     </tr>
+                        
+                        <tr>
+                              <td colspan="8"
+                                    style="
+                                    text-align: center;
+                                    padding: 10px;
+                                    border: 1px solid #d8d8d8;
+                                    background: #f5f5f5"
+                              ">三、出资情况</td>
+                        </tr>
+                        
+                        <tr>
+                              <td colspan="2" style="padding: 10px; border: 1px solid #d8d8d8; background: #f5f5f5">出资人名称</td>
+                              <td colspan="1" style="padding: 10px; border: 1px solid #d8d8d8; background: #f5f5f5">组织代码</td>
+                              <td colspan="1" style="padding: 10px; border: 1px solid #d8d8d8; background: #f5f5f5">出资人类别</td>
+                              <td style="padding: 10px; border: 1px solid #d8d8d8; background: #f5f5f5">投资金额（万元）</td>
+                              <td style="padding: 10px; border: 1px solid #d8d8d8; background: #f5f5f5">实缴金额（万元）</td>
+                              <td style="padding: 10px; border: 1px solid #d8d8d8; background: #f5f5f5">其中财政资金金额（万元）</td>
+                              <td style="padding: 10px; border: 1px solid #d8d8d8; background: #f5f5f5">股权比例（%）</td>
+                        </tr>
+                        ${company_data_s ? company_data_s.map((value, index) => {
+                                    return `<tr>
+                                    <td colspan="2" style="padding: 10px;border: 1px solid #d8d8d8;">${value.FD_CZRMC}</td>
+                                    <td colspan="1" style="padding: 10px;border: 1px solid #d8d8d8;">${value.FD_CZRZZJGDM}</td>
+                                    <td colspan="1" style="padding: 10px;border: 1px solid #d8d8d8;">${value.CZRLB}</td>
+                                    <td colspan="1" style="padding: 10px;border: 1px solid #d8d8d8;">${value.CZE}</td>
+                                    <td style="padding: 10px;border: 1px solid #d8d8d8;">${value.SJZCJ}</td>
+                                    <td style="padding: 10px;border: 1px solid #d8d8d8;">${value.CZZJJE}</td>
+                                    <td style="padding: 10px;border: 1px solid #d8d8d8;">${value.GQBL}</td>
+                                    
+                              </tr>`
+                              }).join('') : ""}
+                        
+                  </table>
+            </div> -> en, 1.00
+<div>
+                            <h3>${data.name}</h3>
+                            <h3>${data.main.temp.toFixed(0)}°C</h3>
+                            <img src="${iconoUrl}">
+                            <p>Pronóstico: ${data.weather[0].description}</p>
+                            <p>Temp máx: ${data.main.temp_max.toFixed(0)}°C</p>
+                            <p>Temp mín: ${data.main.temp_min.toFixed(0)}°C</p>   
+                        </div> -> en, 0.69
+<div>
+                            <h3>${data.name}</h3>
+                            <h3>${data.main.temp.toFixed(0)}°C</h3>
+                            <img src="${iconoUrl}">
+                            <p>Pronóstico: ${data.weather[0].description}</p>
+                            <p>Temp máx: ${data.main.temp_max.toFixed(0)}°C</p>
+                            <p>Temp mín: ${data.main.temp_min.toFixed(0)}°C</p>   
+                        </div> -> en, 0.69
+<div>
+                            <h3>${data.name}</h3>
+                            <h3>${data.main.temp.toFixed(0)}°C</h3>
+                            <img src="${iconoUrl}">
+                            <p>Pronóstico: ${data.weather[0].description}</p>
+                            <p>Temp máx: ${data.main.temp_max.toFixed(0)}°C</p>
+                            <p>Temp mín: ${data.main.temp_min.toFixed(0)}°C</p>   
+                        </div> -> en, 0.69
+<div>
+                            <h3>${data.name}</h3>
+                            <h3>${data.main.temp.toFixed(0)}°C</h3>
+                            <img src="${iconoUrl}">
+                            <p>Pronóstico: ${data.weather[0].description}</p>
+                            <p>Temp máx: ${data.main.temp_max.toFixed(0)}°C</p>
+                            <p>Temp mín: ${data.main.temp_min.toFixed(0)}°C</p>   
+                        </div> -> en, 0.69

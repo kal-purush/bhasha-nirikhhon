@@ -1,0 +1,1 @@
+$(document).ready(function(){function a(){var a=$(window).scrollTop(),b=$(".fixed-nav");a>0?b.addClass("nav-box-shadow"):b.removeClass("nav-box-shadow")}var b;$(window).scroll(function(){b=!0}),setInterval(function(){b&&(a(),b=!1)},150)});
