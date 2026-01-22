@@ -10,15 +10,47 @@ This README collects reproducibility instructions for RQ1–RQ6.
 
 ## Quick start (minimal steps)
 
-Prerequisites
+## Prerequisites
+
+### 1. Software
 - Python 3.13.5
-- From repo root:
+- **Git Large File Storage (LFS):** This repository uses Git LFS to manage large datasets. You must have it installed to download the required `.zip` files.
+  - **macOS:** `brew install git-lfs`
+  - **Linux:** `sudo apt-get install git-lfs`
+  - **Windows:** Download from [git-lfs.com](https://git-lfs.com/)
+  - After installing, run: `git lfs install`
+
+### 2. Environment Setup
+From the repo root:
 ```bash
+# Initialize LFS and pull large files
+git lfs pull
+
+# Setup Python environment
 python3.13 -m venv .venv
 source .venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements_paper.txt
 ```
+
+## Data Setup (Large Files)
+
+Due to GitHub's individual file size limits, the primary dataset used for **RQ6 Figure 13** is stored as a compressed ZIP file. This file is managed via Git LFS. You must extract the full CSV file before attempting to run the analysis scripts.
+
+### 1. Extract the Dataset
+Run the following command from the repository root:
+```bash
+# Extract the ~2.5GB dataset for RQ6
+unzip common_with_duration_push_classification.csv.zip
+```
+### 2. Verification
+
+After unzipping, ensure the following file exists in your root directory:
+
+    common_with_duration_push_classification.csv (approx. 2.52 GB)
+
+    Note: The script scripts/RQ6_figure13.py is configured to look for this specific .csv filename. Ensure it is located in the same directory as the script or the repository root as defined in the script's configuration.
+
 
 Run the scripts (examples below assume scripts/ folder)
 ```bash
@@ -145,6 +177,9 @@ Tip
 ## RQ6 — repository-level metrics and comparisons (scripts/RQ6_figure10.py / 11 / 12 / 13)
 
 RQ6 produces a set of figure scripts that visualize repository-level measures across contribution-size buckets and classification labels.
+
+Important: scripts/RQ6_figure13.py requires the 2.5GB CSV file extracted in the "Data Setup" step above.
+Scripts and required inputs
 
 Scripts and required inputs
 - `scripts/RQ6_figure10.py`
